@@ -1,0 +1,16 @@
+# When a name in the language requested does not exist, the name will be
+# retrieved in this language. The default fall back language is English.
+FallbackLanguage: en_us
+
+# If you want to enable the loading of a language, add it to the following list
+# LoadLanguage: [zh_cn, zh_tw, ko_kr, ja_jp, fr_fr, ru_ru]
+# Or
+LoadLanguage:
+    - zh_cn
+    - zh_tw
+    - ko_kr
+    - ja_jp
+    - fr_fr
+    - ru_ru
+# If you want to load all the languages, add "all" to the list:
+#     - all

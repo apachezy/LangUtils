@@ -1,0 +1,10 @@
+name: LangUtils
+version: ${version}
+main: com.meowj.langutils.LangUtils
+api-version: 1.16
+commands:
+  langutils:
+    permission: langutils
+permissions:
+  langutils:
+    default: op
