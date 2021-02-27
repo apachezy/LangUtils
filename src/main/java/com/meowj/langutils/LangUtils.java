@@ -166,6 +166,7 @@ public class LangUtils extends JavaPlugin {
                 e.printStackTrace();
             }
         }
+
         if (loadAll) {
             getLogger().info(count + " languages loaded.");
         }
