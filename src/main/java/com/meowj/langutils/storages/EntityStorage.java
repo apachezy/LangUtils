@@ -1,6 +1,7 @@
 package com.meowj.langutils.storages;
 
 import com.meowj.langutils.LangUtils;
+import org.bukkit.Bukkit;
 import org.bukkit.configuration.Configuration;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.entity.EntityType;
@@ -21,19 +22,20 @@ public class EntityStorage extends Storage<EntityType> {
     public ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig, @NotNull String node) {
         ConfigurationSection entries = super.load(locale, langConfig, node);
 
-        if (entries != null) {
-            String entryName;
-            String localized;
+        if (entries == null) {
+            return null;
+        }
 
-            for (EntityType ent : EntityType.values()) {
-                if (ent.equals(EntityType.UNKNOWN)) {
-                    continue;
-                }
+        String entryName;
+        String localized;
+
+        for (EntityType ent : EntityType.values()) {
+            if (!ent.equals(EntityType.UNKNOWN)) {
                 entryName = ent.getKey().getKey();
                 localized = entries.getString(entryName);
                 if (localized == null || localized.isEmpty()) {
                     if (locale.equals(fallbackLocale)) {
-                        plugin.error(
+                        Bukkit.getLogger().severe(
                                 "EntityType name "
                                         + entryName
                                         + " is missing in fallback language "
@@ -51,8 +53,9 @@ public class EntityStorage extends Storage<EntityType> {
     @Override
     public void addEntry(@NotNull String locale, @NotNull EntityType entityType, @NotNull String localized) {
         locale = LangUtils.fixLocale(locale);
-        Map<EntityType, String> pairMap = storage.computeIfAbsent(locale, s -> new EnumMap<>(EntityType.class));
+        Map<EntityType, String> pairMap = pairStorage.computeIfAbsent(locale, s -> new EnumMap<>(EntityType.class));
         pairMap.put(entityType, localized);
+
         remapping(locale, pairMap);
     }
 

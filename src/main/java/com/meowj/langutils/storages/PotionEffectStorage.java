@@ -1,5 +1,6 @@
 package com.meowj.langutils.storages;
 
+import org.bukkit.Bukkit;
 import org.bukkit.configuration.Configuration;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.potion.PotionEffectType;
@@ -26,7 +27,7 @@ public class PotionEffectStorage extends Storage<PotionEffectType> {
                 localized = entries.getString(entryName);
                 if (localized == null || localized.isEmpty()) {
                     if (locale.equals(fallbackLocale)) {
-                        plugin.error(
+                        Bukkit.getLogger().severe(
                                 "PotionEffectType name "
                                         + entryName
                                         + " is missing in fallback language "

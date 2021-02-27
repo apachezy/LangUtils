@@ -1,6 +1,7 @@
 package com.meowj.langutils.storages;
 
 import com.meowj.langutils.LangUtils;
+import org.bukkit.Bukkit;
 import org.bukkit.configuration.Configuration;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.entity.TropicalFish.Pattern;
@@ -29,7 +30,7 @@ public class TropicalFishTypeStorage extends Storage<Pattern> {
                 localized = entries.getString(entryName);
                 if (localized == null || localized.isEmpty()) {
                     if (locale.equals(fallbackLocale)) {
-                        plugin.error(
+                        Bukkit.getLogger().severe(
                                 "Tropical fish type name "
                                         + entryName
                                         + " is missing in fallback language "
@@ -47,8 +48,9 @@ public class TropicalFishTypeStorage extends Storage<Pattern> {
     @Override
     public void addEntry(@NotNull String locale, @NotNull Pattern pattern, @NotNull String localized) {
         locale = LangUtils.fixLocale(locale);
-        Map<Pattern, String> pairMap = storage.computeIfAbsent(locale, s -> new EnumMap<>(Pattern.class));
+        Map<Pattern, String> pairMap = pairStorage.computeIfAbsent(locale, s -> new EnumMap<>(Pattern.class));
         pairMap.put(pattern, localized);
+
         remapping(locale, pairMap);
     }
 

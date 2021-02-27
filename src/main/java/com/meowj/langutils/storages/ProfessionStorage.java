@@ -1,6 +1,7 @@
 package com.meowj.langutils.storages;
 
 import com.meowj.langutils.LangUtils;
+import org.bukkit.Bukkit;
 import org.bukkit.configuration.Configuration;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.entity.Villager.Profession;
@@ -10,7 +11,7 @@ import org.jetbrains.annotations.Nullable;
 import java.util.EnumMap;
 import java.util.Map;
 
-public class ProfessionStorage extends Storage<Profession>{
+public class ProfessionStorage extends Storage<Profession> {
 
     public ProfessionStorage(@NotNull String fallbackLocale) {
         super(fallbackLocale);
@@ -29,7 +30,7 @@ public class ProfessionStorage extends Storage<Profession>{
                 localized = entries.getString(entryName);
                 if (localized == null || localized.isEmpty()) {
                     if (locale.equals(fallbackLocale)) {
-                        plugin.error(
+                        Bukkit.getLogger().severe(
                                 "Villagers profession name "
                                         + entryName
                                         + " is missing in fallback language "
@@ -47,8 +48,9 @@ public class ProfessionStorage extends Storage<Profession>{
     @Override
     public void addEntry(@NotNull String locale, @NotNull Profession profession, @NotNull String localized) {
         locale = LangUtils.fixLocale(locale);
-        Map<Profession, String> pairMap = storage.computeIfAbsent(locale, s -> new EnumMap<>(Profession.class));
+        Map<Profession, String> pairMap = pairStorage.computeIfAbsent(locale, s -> new EnumMap<>(Profession.class));
         pairMap.put(profession, localized);
+
         remapping(locale, pairMap);
     }
 

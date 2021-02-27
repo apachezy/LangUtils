@@ -1,6 +1,7 @@
 package com.meowj.langutils.storages;
 
 import com.meowj.langutils.LangUtils;
+import org.bukkit.Bukkit;
 import org.bukkit.configuration.Configuration;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.potion.PotionType;
@@ -29,7 +30,7 @@ public class PotionStorage extends Storage<PotionType> {
                 localized = entries.getString(entryName);
                 if (localized == null || localized.isEmpty()) {
                     if (locale.equals(fallbackLocale)) {
-                        plugin.error(
+                        Bukkit.getLogger().severe(
                                 "PotionType name "
                                         + entryName
                                         + " is missing in fallback language "
@@ -47,8 +48,9 @@ public class PotionStorage extends Storage<PotionType> {
     @Override
     public void addEntry(@NotNull String locale, @NotNull PotionType potionType, @NotNull String localized) {
         locale = LangUtils.fixLocale(locale);
-        Map<PotionType, String> pairMap = storage.computeIfAbsent(locale, s -> new EnumMap<>(PotionType.class));
+        Map<PotionType, String> pairMap = pairStorage.computeIfAbsent(locale, s -> new EnumMap<>(PotionType.class));
         pairMap.put(potionType, localized);
+
         remapping(locale, pairMap);
     }
 

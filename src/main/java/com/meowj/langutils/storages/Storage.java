@@ -1,67 +1,71 @@
 package com.meowj.langutils.storages;
 
 import com.meowj.langutils.LangUtils;
-import com.meowj.langutils.lang.Remaper;
+import com.meowj.langutils.misc.Remaper;
 import org.bukkit.configuration.Configuration;
 import org.bukkit.configuration.ConfigurationSection;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
+import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 public abstract class Storage<T> {
 
-    protected final LangUtils                   plugin;
-    protected final Map<String, Map<T, String>> storage;
-    protected final String                      fallbackLocale;
+    protected final Map<String, Map<T, String>> pairStorage;
+    protected String fallbackLocale;
 
-    public Storage(@NotNull String fallbackLocale) {
-        this.storage        = new HashMap<>();
-        this.plugin         = LangUtils.getInstance();
+    protected Storage(@NotNull String fallbackLocale) {
+        this.pairStorage = new HashMap<>();
         this.fallbackLocale = fallbackLocale;
     }
 
     @Nullable
-    public ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig, @NotNull String node) {
+    protected ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig, @NotNull String node) {
         ConfigurationSection result = langConfig.getConfigurationSection(node);
+
         if (result == null || result.getValues(false).size() == 0) {
-            // plugin.error("Invalid language resource: " + locale + ", missing '" + node + "'.");
             return null;
         }
+
         return result;
     }
 
     public void addEntry(@NotNull String locale, @NotNull T t, @NotNull String localized) {
         locale = LangUtils.fixLocale(locale);
-        Map<T, String> pairMap = storage.computeIfAbsent(locale, s -> new HashMap<>());
+        Map<T, String> pairMap = pairStorage.computeIfAbsent(locale, s -> new HashMap<>());
         pairMap.put(t, localized);
+
         remapping(locale, pairMap);
-     }
+    }
 
     protected void remapping(@NotNull String locale, Map<T, String> pairMap) {
         String remapped = Remaper.remap(locale);
         if (remapped != null) {
-            if (storage.get(remapped) == pairMap) {
+            if (pairStorage.get(remapped) == pairMap) {
                 return;
             }
-            storage.put(remapped, pairMap);
+            pairStorage.put(remapped, pairMap);
         }
     }
 
+    @Nullable
     public String getEntry(@NotNull String locale, @NotNull T t) {
         locale = LangUtils.fixLocale(locale);
-        Map<T, String> convMap = storage.get(locale);
+        Map<T, String> convMap = pairStorage.get(locale);
+
         if (convMap == null) {
-            convMap = storage.get(Remaper.getLang(locale));
+            convMap = pairStorage.get(Remaper.getLang(locale));
             if (convMap == null) {
-                convMap = storage.get(fallbackLocale);
+                convMap = pairStorage.get(fallbackLocale);
             }
         }
+
         if (convMap == null) {
             return null;
         }
+
         String result = convMap.get(t);
         return result == null || result.isEmpty() ? null : result;
     }
@@ -70,22 +74,20 @@ public abstract class Storage<T> {
         return fallbackLocale;
     }
 
-    @NotNull
-    public Set<String> getLocales() {
-        return storage.keySet();
+    public void setFallbackLocale(@NotNull String fallbackLocale) {
+        this.fallbackLocale = fallbackLocale;
     }
 
-    @Nullable
-    public Set<T> getOriginals(String locale) {
-        Map<T, String> map = storage.get(locale);
-        if (map == null) {
-            return null;
+    @NotNull
+    public List<String> getLocales(Predicate<String> filter) {
+        if (filter == null) {
+            return new ArrayList<>(pairStorage.keySet());
         }
-        return map.keySet();
+        return pairStorage.keySet().stream().filter(filter).collect(Collectors.toList());
     }
 
     public void clear() {
-        storage.clear();
+        pairStorage.clear();
     }
 
 }

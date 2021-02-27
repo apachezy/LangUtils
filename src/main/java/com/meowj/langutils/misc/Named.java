@@ -19,7 +19,7 @@ public enum Named {
 
     @NotNull
     public String getLocalized(@NotNull String locale) {
-        String result = LangUtils.getNamedStorage().getEntry(locale, this);
+        String result = LangUtils.namedStorage.getEntry(locale, this);
         if (result == null) {
             result = localized;
         }

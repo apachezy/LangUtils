@@ -1,4 +1,4 @@
-package com.meowj.langutils.lang;
+package com.meowj.langutils.misc;
 
 import org.jetbrains.annotations.NotNull;
 

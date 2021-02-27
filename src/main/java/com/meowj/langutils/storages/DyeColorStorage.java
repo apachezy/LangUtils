@@ -1,6 +1,7 @@
 package com.meowj.langutils.storages;
 
 import com.meowj.langutils.LangUtils;
+import org.bukkit.Bukkit;
 import org.bukkit.DyeColor;
 import org.bukkit.configuration.Configuration;
 import org.bukkit.configuration.ConfigurationSection;
@@ -29,7 +30,7 @@ public class DyeColorStorage extends Storage<DyeColor> {
                 localized = entries.getString(entryName);
                 if (localized == null || localized.isEmpty()) {
                     if (locale.equals(fallbackLocale)) {
-                        plugin.error(
+                        Bukkit.getLogger().severe(
                                 "DyeColor name "
                                         + entryName
                                         + " is missing in fallback language "
@@ -47,8 +48,9 @@ public class DyeColorStorage extends Storage<DyeColor> {
     @Override
     public void addEntry(@NotNull String locale, @NotNull DyeColor color, @NotNull String localized) {
         locale = LangUtils.fixLocale(locale);
-        Map<DyeColor, String> pairMap = storage.computeIfAbsent(locale, s -> new EnumMap<>(DyeColor.class));
+        Map<DyeColor, String> pairMap = pairStorage.computeIfAbsent(locale, s -> new EnumMap<>(DyeColor.class));
         pairMap.put(color, localized);
+
         remapping(locale, pairMap);
     }
 

@@ -1,5 +1,6 @@
 package com.meowj.langutils.storages;
 
+import org.bukkit.Bukkit;
 import org.bukkit.configuration.Configuration;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.enchantments.Enchantment;
@@ -24,7 +25,7 @@ public class EnchantStorage extends Storage<Enchantment> {
                 localized = entries.getString(entryName);
                 if (localized == null || localized.isEmpty()) {
                     if (locale.equals(fallbackLocale)) {
-                        plugin.error(
+                        Bukkit.getLogger().severe(
                                 "Enchantment name "
                                         + entryName
                                         + " is missing in fallback language "

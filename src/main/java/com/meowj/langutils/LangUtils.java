@@ -11,7 +11,6 @@ package com.meowj.langutils;
 
 import com.meowj.langutils.misc.LangInfo;
 import com.meowj.langutils.storages.*;
-import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
@@ -29,36 +28,38 @@ import java.nio.charset.StandardCharsets;
 import java.util.*;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
+import java.util.stream.Collectors;
 
 public class LangUtils extends JavaPlugin {
 
-    private final static String DEFAULT_FALLBACK = "en_us";
-
-    private static LangUtils instance;
+    public static final String EN_US = "en_us";
 
     // @formatter:off
-    private static MaterialStorage          materialStorage;
-    private static EnchantStorage           enchantStorage;
-    private static PotionStorage            potionStorage;
-    private static PotionStorage            splashPotionStorage;
-    private static PotionStorage            lingeringPotionStorage;
-    private static PotionStorage            tippedArrowStorage;
-    private static NamedStorage             namedStorage;
-    private static BiomeStorage             biomeStorage;
-    private static EntityStorage            entityStorage;
-    private static PotionEffectStorage      effectStorage;
-    private static TropicalFishTypeStorage  tropicalFishTypeStorage;
-    private static DyeColorStorage          dyeColorStorage;
-    private static IntegerStrage            villagerLevelStorage;
-    private static ProfessionStorage        professionStorage;
-    // todo: TropicalFish.predefined
+    public static final MaterialStorage         materialStorage         = new MaterialStorage        (EN_US);
+    public static final EnchantStorage          enchantStorage          = new EnchantStorage         (EN_US);
+    public static final PotionStorage           potionStorage           = new PotionStorage          (EN_US);
+    public static final PotionStorage           splashPotionStorage     = new PotionStorage          (EN_US);
+    public static final PotionStorage           lingeringPotionStorage  = new PotionStorage          (EN_US);
+    public static final PotionStorage           tippedArrowStorage      = new PotionStorage          (EN_US);
+    public static final NamedStorage            namedStorage            = new NamedStorage           (EN_US);
+    public static final BiomeStorage            biomeStorage            = new BiomeStorage           (EN_US);
+    public static final EntityStorage           entityStorage           = new EntityStorage          (EN_US);
+    public static final PotionEffectStorage     effectStorage           = new PotionEffectStorage    (EN_US);
+    public static final TropicalFishTypeStorage tropicalFishTypeStorage = new TropicalFishTypeStorage(EN_US);
+    public static final IntegerStrage           tropicalFishNameStorage = new IntegerStrage          (EN_US);
+    public static final DyeColorStorage         dyeColorStorage         = new DyeColorStorage        (EN_US);
+    public static final IntegerStrage           villagerLevelStorage    = new IntegerStrage          (EN_US);
+    public static final ProfessionStorage       professionStorage       = new ProfessionStorage      (EN_US);
     // @formatter:on
 
+    @NotNull
+    public static String fixLocale(@NotNull String original) {
+        return original.toLowerCase(Locale.ROOT).replace('-', '_').replace(' ', '_');
+    }
 
     @Override
     public void onEnable() {
         super.onEnable();
-        instance = this;
         this.reload(null);
     }
 
@@ -66,104 +67,107 @@ public class LangUtils extends JavaPlugin {
         reloadConfig();
 
         String fallback = getConfig().getString("FallbackLanguage");
-        if (fallback == null || fallback.isEmpty()) {
-            fallback = DEFAULT_FALLBACK;
-        } else {
-            fallback = fixLocale(fallback);
-        }
+        fallback = fallback == null || fallback.isEmpty() ? EN_US : fixLocale(fallback);
 
         boolean loadAll = false;
-        int count = 0;
 
-        Set<String> loads = new HashSet<>();
+        Set<String> codes = new HashSet<>();
         List<String> list = getConfig().getStringList("LoadLanguage");
 
         for (String s : list) {
             if (s.equalsIgnoreCase("all")) {
                 loadAll = true;
             }
-            loads.add(fixLocale(s));
+            codes.add(fixLocale(s));
         }
-        loads.add(fallback);
+        codes.add(fallback);
+
+        clearStorages();
 
         // @formatter:off
-        materialStorage         = new MaterialStorage        (fallback);
-        enchantStorage          = new EnchantStorage         (fallback);
-        potionStorage           = new PotionStorage          (fallback);
-        splashPotionStorage     = new PotionStorage          (fallback);
-        lingeringPotionStorage  = new PotionStorage          (fallback);
-        tippedArrowStorage      = new PotionStorage          (fallback);
-        namedStorage            = new NamedStorage           (fallback);
-        biomeStorage            = new BiomeStorage           (fallback);
-        entityStorage           = new EntityStorage          (fallback);
-        effectStorage           = new PotionEffectStorage    (fallback);
-        tropicalFishTypeStorage = new TropicalFishTypeStorage(fallback);
-        dyeColorStorage         = new DyeColorStorage        (fallback);
-        villagerLevelStorage    = new IntegerStrage          (fallback);
-        professionStorage       = new ProfessionStorage      (fallback);
+        materialStorage         .setFallbackLocale(fallback);
+        enchantStorage          .setFallbackLocale(fallback);
+        potionStorage           .setFallbackLocale(fallback);
+        splashPotionStorage     .setFallbackLocale(fallback);
+        lingeringPotionStorage  .setFallbackLocale(fallback);
+        tippedArrowStorage      .setFallbackLocale(fallback);
+        namedStorage            .setFallbackLocale(fallback);
+        biomeStorage            .setFallbackLocale(fallback);
+        entityStorage           .setFallbackLocale(fallback);
+        effectStorage           .setFallbackLocale(fallback);
+        tropicalFishTypeStorage .setFallbackLocale(fallback);
+        tropicalFishNameStorage .setFallbackLocale(fallback);
+        dyeColorStorage         .setFallbackLocale(fallback);
+        villagerLevelStorage    .setFallbackLocale(fallback);
+        professionStorage       .setFallbackLocale(fallback);
         // @formatter:on
 
         try (JarFile jar = new JarFile(getFile())) {
-            Enumeration<JarEntry> entries = jar.entries();
-
-            while (entries.hasMoreElements()) {
-                JarEntry jarEntry = entries.nextElement();
-                String path = jarEntry.getName();
-
-                if (!path.startsWith("lang/") || !path.endsWith(".yml")) {
-                    continue;
-                }
-
-                try (InputStream is = jar.getInputStream(jarEntry);
-                     Reader rd = new InputStreamReader(is, StandardCharsets.UTF_8)) {
-
-                    Configuration c = YamlConfiguration.loadConfiguration(rd);
-                    LangInfo lf = LangInfo.load(c.getConfigurationSection("language"));
-
-                    if (lf == null) {
-                        error("Invalid language resource: " + path + ".");
-                        continue;
-                    }
-
-                    if (loadAll || loads.contains(lf.code)) {
-
-                        // @formatter:off
-                        materialStorage          .load(lf.code, c, "material"           );
-                        enchantStorage           .load(lf.code, c, "enchantment"        );
-                        potionStorage            .load(lf.code, c, "potion"             );
-                        splashPotionStorage      .load(lf.code, c, "splash_potion"      );
-                        lingeringPotionStorage   .load(lf.code, c, "lingering_potion"   );
-                        tippedArrowStorage       .load(lf.code, c, "tipped_arrow"       );
-                        namedStorage             .load(lf.code, c, "named"              );
-                        biomeStorage             .load(lf.code, c, "biome"              );
-                        entityStorage            .load(lf.code, c, "entity"             );
-                        effectStorage            .load(lf.code, c, "effect"             );
-                        tropicalFishTypeStorage  .load(lf.code, c, "tropical_fish_type" );
-                        dyeColorStorage          .load(lf.code, c, "dye_color"          );
-                        villagerLevelStorage     .load(lf.code, c, "merchant_level"     );
-                        professionStorage        .load(lf.code, c, "villager_profession");
-                        // @formatter:on
-
-                        count ++;
-                        if (!loadAll) {
-                            info(lf.toString() + " has been loaded.");
-                        }
-                    }
-                } catch (IOException e) {
-                    error("Fail to load language resource " + path);
-                    e.printStackTrace();
-                }
-            }
-
-            if (loadAll) {
-                info(count + " languages loaded.");
-            }
+            loadResources(jar, codes, loadAll);
         } catch (IOException e) {
+            getLogger().severe("An exception occurred while loading language resources:");
+            getLogger().severe(e.getLocalizedMessage());
             e.printStackTrace();
+            return;
         }
 
         if (sender != null) {
             sender.sendMessage("Reload success.");
+        }
+    }
+
+    private void loadResources(JarFile jarFile, Collection<String> codes, boolean loadAll) {
+        int count = 0;
+        Enumeration<JarEntry> entries = jarFile.entries();
+
+        while (entries.hasMoreElements()) {
+            JarEntry jarEntry = entries.nextElement();
+            String localePath = jarEntry.getName();
+
+            if (!localePath.startsWith("lang/") || !localePath.endsWith(".yml")) {
+                continue;
+            }
+
+            try (InputStream is = jarFile.getInputStream(jarEntry);
+                 Reader rd = new InputStreamReader(is, StandardCharsets.UTF_8)) {
+
+                Configuration cfg = YamlConfiguration.loadConfiguration(rd);
+                LangInfo langInfo = LangInfo.load(cfg.getConfigurationSection("language"));
+
+                if (langInfo == null) {
+                    getLogger().severe("Invalid language resource: " + localePath + ".");
+                }
+                else if (loadAll || codes.contains(langInfo.code)) {
+                    // @formatter:off
+                    materialStorage         .load(langInfo.code, cfg, "material"                );
+                    enchantStorage          .load(langInfo.code, cfg, "enchantment"             );
+                    potionStorage           .load(langInfo.code, cfg, "potion"                  );
+                    splashPotionStorage     .load(langInfo.code, cfg, "splash_potion"           );
+                    lingeringPotionStorage  .load(langInfo.code, cfg, "lingering_potion"        );
+                    tippedArrowStorage      .load(langInfo.code, cfg, "tipped_arrow"            );
+                    namedStorage            .load(langInfo.code, cfg, "named"                   );
+                    biomeStorage            .load(langInfo.code, cfg, "biome"                   );
+                    entityStorage           .load(langInfo.code, cfg, "entity"                  );
+                    effectStorage           .load(langInfo.code, cfg, "effect"                  );
+                    tropicalFishTypeStorage .load(langInfo.code, cfg, "tropical_fish_type"      );
+                    tropicalFishNameStorage .load(langInfo.code, cfg, "predefined_tropical_fish");
+                    dyeColorStorage         .load(langInfo.code, cfg, "dye_color"               );
+                    villagerLevelStorage    .load(langInfo.code, cfg, "merchant_level"          );
+                    professionStorage       .load(langInfo.code, cfg, "villager_profession"     );
+                    // @formatter:on
+
+                    count++;
+                    if (!loadAll) {
+                        getLogger().info(langInfo.toString() + " has been loaded.");
+                    }
+                }
+            } catch (IOException e) {
+                getLogger().severe("Fail to load language resource " + localePath);
+                e.printStackTrace();
+            }
+        }
+        if (loadAll) {
+            getLogger().info(count + " languages loaded.");
         }
     }
 
@@ -183,6 +187,7 @@ public class LangUtils extends JavaPlugin {
         dyeColorStorage          .clear();
         villagerLevelStorage     .clear();
         professionStorage        .clear();
+        tropicalFishNameStorage  .clear();
         // @formatter:on
     }
 
@@ -206,7 +211,8 @@ public class LangUtils extends JavaPlugin {
                     sender.sendMessage("Material '" + args[2] + "' not found.");
                     return true;
                 }
-                String localized = LangUtils.getMaterialStorage().getEntry(args[1], material);
+
+                String localized = materialStorage.getEntry(args[1], material);
                 sender.sendMessage(args[2] + " -> " + localized);
             }
         }
@@ -219,149 +225,34 @@ public class LangUtils extends JavaPlugin {
     public List<String> onTabComplete(@NotNull CommandSender sender, @NotNull Command command,
                                       @NotNull String alias, @NotNull String[] args) {
         List<String> result = new ArrayList<>(1);
-        if (this.isEnabled()) {
-            if (args.length == 1) {
-                if ("reload".startsWith(args[0])) {
-                    result.add("reload");
+
+        if (!this.isEnabled()) {
+            return result;
+        }
+
+        switch (args.length) {
+            case 1:
+                if ("reload".startsWith(args[0])) result.add("reload");
+                if ("test"  .startsWith(args[0])) result.add("test"  );
+                break;
+
+            case 2:
+                if ("test".equalsIgnoreCase(args[0]) && args[1].length() > 0) {
+                    return materialStorage.getLocales(s -> s.startsWith(args[1]));
                 }
-                if ("test".startsWith(args[0])) {
-                    result.add("test");
+                break;
+
+            case 3:
+                if ("test".equalsIgnoreCase(args[0]) && args[2].length() > 0) {
+                    return Arrays.stream(Material.values())
+                            .map(material -> material.name().toLowerCase(Locale.ROOT))
+                            .filter(s -> s.startsWith(args[2]))
+                            .collect(Collectors.toList());
                 }
-            } else if (args.length == 2) {
-                if ("test".equalsIgnoreCase(args[0]) && !args[1].isEmpty()) {
-                    for (String locale : materialStorage.getLocales()) {
-                        if (locale.startsWith(args[1])) {
-                            result.add(locale);
-                        }
-                    }
-                }
-            } else if (args.length == 3) {
-                if ("test".equalsIgnoreCase(args[0]) && !args[2].isEmpty()) {
-                    String fallback = materialStorage.getFallbackLocale();
-                    Set<Material> materials = materialStorage.getOriginals(fallback);
-                    if (materials == null) {
-                        return result;
-                    }
-                    String name;
-                    for (Material material : materials) {
-                        name = material.getKey().getKey();
-                        if (name.startsWith(args[2])) {
-                            result.add(name);
-                        }
-                    }
-                }
-            }
+                break;
         }
 
         return result;
-    }
-
-    public void info(@NotNull String msg) {
-        getLogger().info(ChatColor.translateAlternateColorCodes('&', msg));
-    }
-
-    @SuppressWarnings("unused")
-    public void warning(@NotNull String msg) {
-        getLogger().warning(ChatColor.translateAlternateColorCodes('&', msg));
-    }
-
-    public void error(@NotNull String msg) {
-        getLogger().severe(ChatColor.translateAlternateColorCodes('&', msg));
-    }
-
-    public static LangUtils getInstance() {
-        return instance;
-    }
-
-    @NotNull
-    public static MaterialStorage getMaterialStorage() {
-        return materialStorage == null
-                ? new MaterialStorage(DEFAULT_FALLBACK)
-                : materialStorage;
-    }
-
-    @NotNull
-    public static EnchantStorage getEnchantStorage() {
-        return enchantStorage == null
-                ? new EnchantStorage(DEFAULT_FALLBACK)
-                : enchantStorage;
-    }
-
-    public static PotionStorage getPotionStorage() {
-        return potionStorage == null
-                ? new PotionStorage(DEFAULT_FALLBACK)
-                : potionStorage;
-    }
-
-    public static PotionStorage getSplashPotionStorage() {
-        return splashPotionStorage == null
-                ? new PotionStorage(DEFAULT_FALLBACK)
-                : splashPotionStorage;
-    }
-
-    public static PotionStorage getLingeringPotionStorage() {
-        return lingeringPotionStorage == null
-                ? new PotionStorage(DEFAULT_FALLBACK)
-                : lingeringPotionStorage;
-    }
-
-    public static PotionStorage getTippedArrowStorage() {
-        return tippedArrowStorage == null
-                ? new PotionStorage(DEFAULT_FALLBACK)
-                : tippedArrowStorage;
-    }
-
-    public static NamedStorage getNamedStorage() {
-        return namedStorage == null
-                ? new NamedStorage(DEFAULT_FALLBACK)
-                : namedStorage;
-    }
-
-    public static BiomeStorage getBiomeStorage() {
-        return biomeStorage == null
-                ? new BiomeStorage(DEFAULT_FALLBACK)
-                : biomeStorage;
-    }
-
-    public static EntityStorage getEntityStorage() {
-        return entityStorage == null
-                ? new EntityStorage(DEFAULT_FALLBACK)
-                : entityStorage;
-    }
-
-    public static PotionEffectStorage getEffectStorage() {
-        return effectStorage == null
-                ? new PotionEffectStorage(DEFAULT_FALLBACK)
-                : effectStorage;
-    }
-
-    public static TropicalFishTypeStorage getTropicalFishTypeStorage() {
-        return tropicalFishTypeStorage == null
-                ? new TropicalFishTypeStorage(DEFAULT_FALLBACK)
-                : tropicalFishTypeStorage;
-    }
-
-    public static DyeColorStorage getDyeColorStorage() {
-        return dyeColorStorage == null
-                ? new DyeColorStorage(DEFAULT_FALLBACK)
-                : dyeColorStorage;
-    }
-
-    public static IntegerStrage getVillagerLevelStorage() {
-        return villagerLevelStorage == null
-                ? new IntegerStrage(DEFAULT_FALLBACK)
-                : villagerLevelStorage;
-    }
-
-    public static ProfessionStorage getProfessionStorage() {
-        return professionStorage == null
-                ? new ProfessionStorage(DEFAULT_FALLBACK)
-                : professionStorage;
-    }
-
-    @NotNull
-    public static String fixLocale(@NotNull String original) {
-        return original.toLowerCase(Locale.ROOT).replace('-', '_').replace(' ', '_');
     }
 
 }

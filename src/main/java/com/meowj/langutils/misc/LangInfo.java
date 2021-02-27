@@ -16,11 +16,6 @@ public class LangInfo {
         this.region = region;
     }
 
-    @Override
-    public String toString() {
-        return name + " (" + region + ") - " + code;
-    }
-
     public static LangInfo load(ConfigurationSection section) {
         if (section == null) {
             return null;
@@ -42,6 +37,11 @@ public class LangInfo {
         }
 
         return new LangInfo(code, name, region);
+    }
+
+    @Override
+    public String toString() {
+        return name + " (" + region + ") - " + code;
     }
 
 }

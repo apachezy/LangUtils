@@ -8,8 +8,9 @@
  * this project.   If not, see <http://opensource.org/licenses/MIT>.
  *
  * Created by Meow J on 6/20/2015.
+ * Refactored by ApacheZy on 2/27/2021.
  * Some methods to get the name of a item.
- * @author Meow J
+ * @author Meow J, ApacheZy
  */
 
 package com.meowj.langutils.lang;
@@ -24,14 +25,16 @@ import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
-import org.bukkit.entity.TropicalFish.Pattern;
+import org.bukkit.entity.TropicalFish;
 import org.bukkit.entity.Villager.Profession;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
+import org.bukkit.inventory.meta.TropicalFishBucketMeta;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 import org.bukkit.potion.PotionType;
 import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 
 import java.util.Map.Entry;
 
@@ -41,6 +44,10 @@ public class LanguageHelper {
     private static final String[] ROMAN_NUM = new String[]{
             "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"
     };
+
+    private LanguageHelper() {
+
+    }
 
     //region getItemDisplayName
     @NotNull
@@ -64,16 +71,16 @@ public class LanguageHelper {
         Material material = item.getType();
         switch (material) {
             case POTION:
-                return LangUtils.getPotionStorage().getEntry(locale, Util.getPotionType(item));
+                return LangUtils.potionStorage.getEntry(locale, Util.getPotionType(item));
 
             case SPLASH_POTION:
-                return LangUtils.getSplashPotionStorage().getEntry(locale, Util.getPotionType(item));
+                return LangUtils.splashPotionStorage.getEntry(locale, Util.getPotionType(item));
 
             case LINGERING_POTION:
-                return LangUtils.getLingeringPotionStorage().getEntry(locale, Util.getPotionType(item));
+                return LangUtils.lingeringPotionStorage.getEntry(locale, Util.getPotionType(item));
 
             case TIPPED_ARROW:
-                return LangUtils.getTippedArrowStorage().getEntry(locale, Util.getPotionType(item));
+                return LangUtils.tippedArrowStorage.getEntry(locale, Util.getPotionType(item));
 
             case PLAYER_HEAD:
             case PLAYER_WALL_HEAD:
@@ -97,7 +104,7 @@ public class LanguageHelper {
     //region getMaterialName
     @NotNull
     public static String getMaterialName(@NotNull Material material, @NotNull String locale) {
-        return LangUtils.getMaterialStorage().getEntry(locale, material);
+        return LangUtils.materialStorage.getEntry(locale, material);
     }
 
     @NotNull
@@ -109,7 +116,7 @@ public class LanguageHelper {
     //region getBiomeName
     @NotNull
     public static String getBiomeName(@NotNull Biome biome, @NotNull String locale) {
-        return LangUtils.getBiomeStorage().getEntry(locale, biome);
+        return LangUtils.biomeStorage.getEntry(locale, biome);
     }
 
     @NotNull
@@ -121,8 +128,8 @@ public class LanguageHelper {
     //region getEntityDisplayName
     @NotNull
     public static String getEntityDisplayName(@NotNull Entity entity, @NotNull String locale) {
-        return entity.getCustomName() != null
-                ? entity.getCustomName() : getEntityName(entity, locale);
+        String dspName = entity.getCustomName();
+        return dspName == null ? getEntityName(entity, locale) : dspName;
     }
 
     @NotNull
@@ -139,7 +146,7 @@ public class LanguageHelper {
             String result = Named.UNKNOWN_ENTITY.getLocalized(locale);
             return String.format(result, entity.getEntityId());
         }
-        return LangUtils.getEntityStorage().getEntry(locale, type);
+        return LangUtils.entityStorage.getEntry(locale, type);
     }
 
     @NotNull
@@ -153,7 +160,7 @@ public class LanguageHelper {
             String localized = Named.UNKNOWN_ENTITY.getLocalized(locale);
             return String.format(localized, entityType.name());
         }
-        return LangUtils.getEntityStorage().getEntry(locale, entityType);
+        return LangUtils.entityStorage.getEntry(locale, entityType);
     }
 
     @NotNull
@@ -183,7 +190,7 @@ public class LanguageHelper {
     //region getEnchantmentName
     @NotNull
     public static String getEnchantmentName(@NotNull Enchantment enchant, @NotNull String locale) {
-        return LangUtils.getEnchantStorage().getEntry(locale, enchant);
+        return LangUtils.enchantStorage.getEntry(locale, enchant);
     }
 
     @NotNull
@@ -219,7 +226,7 @@ public class LanguageHelper {
     //region getPotionName
     @NotNull
     public static String getPotionName(@NotNull PotionType potionType, @NotNull String locale) {
-        return LangUtils.getPotionStorage().getEntry(locale, potionType);
+        return LangUtils.potionStorage.getEntry(locale, potionType);
     }
 
     @NotNull
@@ -231,7 +238,7 @@ public class LanguageHelper {
     //region getSplashPotionName
     @NotNull
     public static String getSplashPotionName(@NotNull PotionType potionType, @NotNull String locale) {
-        return LangUtils.getSplashPotionStorage().getEntry(locale, potionType);
+        return LangUtils.splashPotionStorage.getEntry(locale, potionType);
     }
 
     @NotNull
@@ -243,7 +250,7 @@ public class LanguageHelper {
     //region getLingeringPotionName
     @NotNull
     public static String getLingeringPotionName(@NotNull PotionType potionType, @NotNull String locale) {
-        return LangUtils.getLingeringPotionStorage().getEntry(locale, potionType);
+        return LangUtils.lingeringPotionStorage.getEntry(locale, potionType);
     }
 
     @NotNull
@@ -255,7 +262,7 @@ public class LanguageHelper {
     //region getTippedArrowName
     @NotNull
     public static String getTippedArrowName(@NotNull PotionType potionType, @NotNull String locale) {
-        return LangUtils.getTippedArrowStorage().getEntry(locale, potionType);
+        return LangUtils.tippedArrowStorage.getEntry(locale, potionType);
     }
 
     @NotNull
@@ -267,7 +274,7 @@ public class LanguageHelper {
     //region getPotionEffectName
     @NotNull
     public static String getPotionEffectName(@NotNull PotionEffectType effectType, @NotNull String locale) {
-        return LangUtils.getEffectStorage().getEntry(locale, effectType);
+        return LangUtils.effectStorage.getEntry(locale, effectType);
     }
 
     @NotNull
@@ -323,20 +330,36 @@ public class LanguageHelper {
 
     //region getTropicalFishTypeName
     @NotNull
-    public static String getTropicalFishTypeName(@NotNull Pattern pattern, @NotNull String locale) {
-        return LangUtils.getTropicalFishTypeStorage().getEntry(locale, pattern);
+    public static String getTropicalFishTypeName(@NotNull TropicalFish.Pattern pattern, @NotNull String locale) {
+        return LangUtils.tropicalFishTypeStorage.getEntry(locale, pattern);
     }
 
     @NotNull
-    public static String getTropicalFishTypeName(@NotNull Pattern pattern, @NotNull Player player) {
+    public static String getTropicalFishTypeName(@NotNull TropicalFish.Pattern pattern, @NotNull Player player) {
         return getTropicalFishTypeName(pattern, player.getLocale());
+    }
+    //endregion
+
+    //region getPredefinedTropicalFishName
+    @Nullable
+    public static String getPredefinedTropicalFishName(@NotNull TropicalFishBucketMeta meta, @NotNull String locale) {
+        Integer variant = Util.getTropicalFishVariant(meta);
+        if (variant != null) {
+            return LangUtils.tropicalFishNameStorage.getEntry(locale, variant);
+        }
+        return null;
+    }
+
+    @Nullable
+    public static String getPredefinedTropicalFishName(@NotNull TropicalFishBucketMeta meta, @NotNull Player player) {
+        return getPredefinedTropicalFishName(meta, player.getLocale());
     }
     //endregion
 
     //region getDyeColorName
     @NotNull
     public static String getDyeColorName(@NotNull DyeColor color, @NotNull String locale) {
-        return LangUtils.getDyeColorStorage().getEntry(locale, color);
+        return LangUtils.dyeColorStorage.getEntry(locale, color);
     }
 
     @NotNull
@@ -348,7 +371,8 @@ public class LanguageHelper {
     //region getVillagerLevelName
     @NotNull
     public static String getVillagerLevelName(int level, @NotNull String locale) {
-        return LangUtils.getVillagerLevelStorage().getEntry(locale, level);
+        String result = LangUtils.villagerLevelStorage.getEntry(locale, level);
+        return result == null ? "merchant.level." + level : result;
     }
 
     @NotNull
@@ -360,7 +384,7 @@ public class LanguageHelper {
     //region getVillagerProfessionName
     @NotNull
     public static String getVillagerProfessionName(@NotNull Profession profession, @NotNull String locale) {
-        return LangUtils.getProfessionStorage().getEntry(locale, profession);
+        return LangUtils.professionStorage.getEntry(locale, profession);
     }
 
     @NotNull
@@ -368,5 +392,12 @@ public class LanguageHelper {
         return getVillagerProfessionName(profession, player.getLocale());
     }
     //endregion
+
+    /*
+     * 下一步：
+     *  获取旗帜花纹名称 getBannerPatternName
+     *  获取物品“旗帜图案”的描述文字 getBannerPatternDesc
+     *  获取已染色的盾牌名称 getColoredShiedName
+     */
 
 }

@@ -1,6 +1,7 @@
 package com.meowj.langutils.storages;
 
 import com.meowj.langutils.LangUtils;
+import org.bukkit.Bukkit;
 import org.bukkit.block.Biome;
 import org.bukkit.configuration.Configuration;
 import org.bukkit.configuration.ConfigurationSection;
@@ -30,7 +31,7 @@ public class BiomeStorage extends Storage<Biome> {
                 localized = entries.getString(entryName);
                 if (localized == null || localized.isEmpty()) {
                     if (locale.equals(fallbackLocale)) {
-                        plugin.error(
+                        Bukkit.getLogger().severe(
                                 "Biome name "
                                         + entryName
                                         + " is missing in fallback language "
@@ -48,8 +49,9 @@ public class BiomeStorage extends Storage<Biome> {
     @Override
     public void addEntry(@NotNull String locale, @NotNull Biome biome, @NotNull String localized) {
         locale = LangUtils.fixLocale(locale);
-        Map<Biome, String> pairMap = storage.computeIfAbsent(locale, s -> new EnumMap<>(Biome.class));
+        Map<Biome, String> pairMap = pairStorage.computeIfAbsent(locale, s -> new EnumMap<>(Biome.class));
         pairMap.put(biome, localized);
+
         remapping(locale, pairMap);
     }
 

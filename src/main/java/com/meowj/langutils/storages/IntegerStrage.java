@@ -1,5 +1,6 @@
 package com.meowj.langutils.storages;
 
+import org.bukkit.Bukkit;
 import org.bukkit.configuration.Configuration;
 import org.bukkit.configuration.ConfigurationSection;
 import org.jetbrains.annotations.NotNull;
@@ -23,7 +24,7 @@ public class IntegerStrage extends Storage<Integer> {
                     localized = entries.getString(key);
                     if (localized == null || localized.isEmpty()) {
                         if (locale.equals(fallbackLocale)) {
-                            plugin.error(
+                            Bukkit.getLogger().severe(
                                     node + " in fallback language "
                                             + locale
                                             + " is missing a value corresponding to "
@@ -33,18 +34,12 @@ public class IntegerStrage extends Storage<Integer> {
                     }
                     addEntry(locale, anInt, localized);
                 } catch (NumberFormatException ignored) {
+                    // nothiing
                 }
             }
         }
 
         return entries;
-    }
-
-    @Override
-    @NotNull
-    public String getEntry(@NotNull String locale, @NotNull Integer key) {
-        String result = super.getEntry(locale, key);
-        return result == null ? key.toString() : result;
     }
 
 }
