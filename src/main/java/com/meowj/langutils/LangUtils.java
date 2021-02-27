@@ -223,7 +223,8 @@ public class LangUtils extends JavaPlugin {
             if (args.length == 1) {
                 if ("reload".startsWith(args[0])) {
                     result.add("reload");
-                } else if ("test".startsWith(args[0])) {
+                }
+                if ("test".startsWith(args[0])) {
                     result.add("test");
                 }
             } else if (args.length == 2) {
