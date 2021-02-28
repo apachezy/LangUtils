@@ -1,6 +1,7 @@
 package com.meowj.langutils.misc;
 
 import org.bukkit.OfflinePlayer;
+import org.bukkit.entity.TropicalFish.Pattern;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.inventory.meta.PotionMeta;
@@ -10,9 +11,11 @@ import org.bukkit.potion.PotionType;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-import java.lang.reflect.Field;
-
 public class Util {
+
+    private Util() {
+
+    }
 
     public static String getShortTime(int duration) {
         int m = duration / 20 / 60;
@@ -43,13 +46,16 @@ public class Util {
     @Nullable
     public static Integer getTropicalFishVariant(@NotNull TropicalFishBucketMeta meta) {
         if (meta.hasVariant()) {
-            try {
-                Field variantField = meta.getClass().getDeclaredField("variant");
-                variantField.setAccessible(true);
-                return (Integer) variantField.get(meta);
-            } catch (NoSuchFieldException | IllegalAccessException ignored) {
-                // nothing
-            }
+            Pattern pattern = meta.getPattern();
+
+            // https://minecraft.gamepedia.com/Tropical_Fish#Entity_data
+
+            int type = pattern.ordinal() > 5 ? 1 : 0;
+            int patt = pattern.ordinal() % 6;
+            int bcol = meta.getBodyColor().ordinal();
+            int pcol = meta.getPatternColor().ordinal();
+
+            return (pcol & 255) << 24 | (bcol & 255) << 16 | (patt & 255) << 8 | type;
         }
         return null;
     }
