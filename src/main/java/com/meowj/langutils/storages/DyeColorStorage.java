@@ -10,6 +10,7 @@ import org.jetbrains.annotations.NotNull;
 import java.util.EnumMap;
 import java.util.Locale;
 import java.util.Map;
+import java.util.logging.Level;
 
 public class DyeColorStorage extends Storage<DyeColor> {
 
@@ -28,16 +29,17 @@ public class DyeColorStorage extends Storage<DyeColor> {
             for (DyeColor color : DyeColor.values()) {
                 entryName = color.name().toLowerCase(Locale.ROOT);
                 localized = entries.getString(entryName);
+
                 if (localized == null || localized.isEmpty()) {
                     if (locale.equals(fallbackLocale)) {
-                        Bukkit.getLogger().severe(
-                                "DyeColor name "
-                                        + entryName
-                                        + " is missing in fallback language "
-                                        + locale + ".");
+                        Bukkit.getLogger().log(
+                                Level.SEVERE,
+                                "DyeColor name {0} is missing in fallback language {1}.",
+                                new String[]{entryName, locale});
                     }
                     continue;
                 }
+
                 addEntry(locale, color, localized);
             }
         }

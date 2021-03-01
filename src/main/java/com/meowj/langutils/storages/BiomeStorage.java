@@ -10,6 +10,7 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.EnumMap;
 import java.util.Map;
+import java.util.logging.Level;
 
 public class BiomeStorage extends Storage<Biome> {
 
@@ -29,16 +30,17 @@ public class BiomeStorage extends Storage<Biome> {
             for (Biome biome : Biome.values()) {
                 entryName = biome.getKey().getKey();
                 localized = entries.getString(entryName);
+
                 if (localized == null || localized.isEmpty()) {
                     if (locale.equals(fallbackLocale)) {
-                        Bukkit.getLogger().severe(
-                                "Biome name "
-                                        + entryName
-                                        + " is missing in fallback language "
-                                        + locale + ".");
+                        Bukkit.getLogger().log(
+                                Level.SEVERE,
+                                "Biome name {0} is missing in fallback language {1}.",
+                                new String[]{entryName, locale});
                     }
                     continue;
                 }
+
                 addEntry(locale, biome, localized);
             }
         }

@@ -10,6 +10,7 @@ import org.jetbrains.annotations.NotNull;
 import java.util.EnumMap;
 import java.util.Locale;
 import java.util.Map;
+import java.util.logging.Level;
 
 public class TropicalFishTypeStorage extends Storage<Pattern> {
 
@@ -28,16 +29,17 @@ public class TropicalFishTypeStorage extends Storage<Pattern> {
             for (Pattern pattern : Pattern.values()) {
                 entryName = pattern.name().toLowerCase(Locale.ROOT);
                 localized = entries.getString(entryName);
+
                 if (localized == null || localized.isEmpty()) {
                     if (locale.equals(fallbackLocale)) {
-                        Bukkit.getLogger().severe(
-                                "Tropical fish type name "
-                                        + entryName
-                                        + " is missing in fallback language "
-                                        + locale + ".");
+                        Bukkit.getLogger().log(
+                                Level.SEVERE,
+                                "TropicalFish type name {0} is missing in fallback language {1}.",
+                                new String[]{entryName, locale});
                     }
                     continue;
                 }
+
                 addEntry(locale, pattern, localized);
             }
         }

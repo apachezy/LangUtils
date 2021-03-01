@@ -6,6 +6,8 @@ import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.enchantments.Enchantment;
 import org.jetbrains.annotations.NotNull;
 
+import java.util.logging.Level;
+
 public class EnchantStorage extends Storage<Enchantment> {
 
     public EnchantStorage(@NotNull String fallbackLocale) {
@@ -23,16 +25,17 @@ public class EnchantStorage extends Storage<Enchantment> {
             for (Enchantment enchant : Enchantment.values()) {
                 entryName = enchant.getKey().getKey();
                 localized = entries.getString(entryName);
+
                 if (localized == null || localized.isEmpty()) {
                     if (locale.equals(fallbackLocale)) {
-                        Bukkit.getLogger().severe(
-                                "Enchantment name "
-                                        + entryName
-                                        + " is missing in fallback language "
-                                        + locale + ".");
+                        Bukkit.getLogger().log(
+                                Level.SEVERE,
+                                "Enchantment name {0} is missing in fallback language {1}.",
+                                new String[]{entryName, locale});
                     }
                     continue;
                 }
+
                 addEntry(locale, enchant, localized);
             }
         }

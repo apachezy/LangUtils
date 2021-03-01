@@ -9,6 +9,7 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.EnumMap;
 import java.util.Map;
+import java.util.logging.Level;
 
 public class MaterialStorage extends Storage<Material> {
 
@@ -27,16 +28,17 @@ public class MaterialStorage extends Storage<Material> {
             for (Material material : Material.values()) {
                 entryName = material.getKey().getKey();
                 localized = entries.getString(entryName);
+
                 if (localized == null || localized.isEmpty()) {
                     if (locale.equals(fallbackLocale)) {
-                        Bukkit.getLogger().severe(
-                                "Material name "
-                                        + entryName
-                                        + " is missing in fallback language "
-                                        + locale + ".");
+                        Bukkit.getLogger().log(
+                                Level.SEVERE,
+                                "Material name {0} is missing in fallback language {1}.",
+                                new String[]{entryName, locale});
                     }
                     continue;
                 }
+
                 addEntry(locale, material, localized);
             }
         }

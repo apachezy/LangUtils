@@ -5,6 +5,8 @@ import org.bukkit.configuration.Configuration;
 import org.bukkit.configuration.ConfigurationSection;
 import org.jetbrains.annotations.NotNull;
 
+import java.util.logging.Level;
+
 public class IntegerStrage extends Storage<Integer> {
 
     public IntegerStrage(@NotNull String fallbackLocale) {
@@ -20,21 +22,25 @@ public class IntegerStrage extends Storage<Integer> {
 
             for (String key : entries.getKeys(false)) {
                 try {
-                    int anInt = Integer.parseInt(key);
                     localized = entries.getString(key);
                     if (localized == null || localized.isEmpty()) {
+
                         if (locale.equals(fallbackLocale)) {
-                            Bukkit.getLogger().severe(
-                                    node + " in fallback language "
-                                            + locale
-                                            + " is missing a value corresponding to "
-                                            + anInt);
+                            Bukkit.getLogger().log(
+                                    Level.SEVERE,
+                                    "Null value in {0}.{1} in fallback language {2}.",
+                                    new String[]{node, key, locale});
                         }
+
                         continue;
                     }
-                    addEntry(locale, anInt, localized);
+
+                    addEntry(locale,Integer.parseInt(key), localized);
                 } catch (NumberFormatException ignored) {
-                    // nothiing
+                    Bukkit.getLogger().log(
+                            Level.SEVERE,
+                            "Wrong key in {0}.{1} in fallback language {2}.",
+                            new String[]{node, key, locale});
                 }
             }
         }

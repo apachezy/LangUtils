@@ -10,6 +10,7 @@ import org.jetbrains.annotations.NotNull;
 import java.util.EnumMap;
 import java.util.Locale;
 import java.util.Map;
+import java.util.logging.Level;
 
 public class PotionStorage extends Storage<PotionType> {
 
@@ -28,16 +29,17 @@ public class PotionStorage extends Storage<PotionType> {
             for (PotionType potionType : PotionType.values()) {
                 entryName = potionType.name().toLowerCase(Locale.ROOT);
                 localized = entries.getString(entryName);
+
                 if (localized == null || localized.isEmpty()) {
                     if (locale.equals(fallbackLocale)) {
-                        Bukkit.getLogger().severe(
-                                "PotionType name "
-                                        + entryName
-                                        + " is missing in fallback language "
-                                        + locale + ".");
+                        Bukkit.getLogger().log(
+                                Level.SEVERE,
+                                "PotionType name {0} is missing in fallback language {1}.",
+                                new String[]{entryName, locale});
                     }
                     continue;
                 }
+
                 addEntry(locale, potionType, localized);
             }
         }

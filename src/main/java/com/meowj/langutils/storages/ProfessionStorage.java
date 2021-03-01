@@ -10,6 +10,7 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.EnumMap;
 import java.util.Map;
+import java.util.logging.Level;
 
 public class ProfessionStorage extends Storage<Profession> {
 
@@ -28,16 +29,17 @@ public class ProfessionStorage extends Storage<Profession> {
             for (Profession profession : Profession.values()) {
                 entryName = profession.getKey().getKey();
                 localized = entries.getString(entryName);
+
                 if (localized == null || localized.isEmpty()) {
                     if (locale.equals(fallbackLocale)) {
-                        Bukkit.getLogger().severe(
-                                "Villagers profession name "
-                                        + entryName
-                                        + " is missing in fallback language "
-                                        + locale + ".");
+                        Bukkit.getLogger().log(
+                                Level.SEVERE,
+                                "Villager Profession name {0} is missing in fallback language {1}.",
+                                new String[]{entryName, locale});
                     }
                     continue;
                 }
+
                 addEntry(locale, profession, localized);
             }
         }

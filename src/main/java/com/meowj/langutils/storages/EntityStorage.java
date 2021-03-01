@@ -10,6 +10,7 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.EnumMap;
 import java.util.Map;
+import java.util.logging.Level;
 
 public class EntityStorage extends Storage<EntityType> {
 
@@ -30,19 +31,21 @@ public class EntityStorage extends Storage<EntityType> {
         String localized;
 
         for (EntityType ent : EntityType.values()) {
-            if (!ent.equals(EntityType.UNKNOWN)) {
+            if (ent != EntityType.UNKNOWN) {
+
                 entryName = ent.getKey().getKey();
                 localized = entries.getString(entryName);
+
                 if (localized == null || localized.isEmpty()) {
                     if (locale.equals(fallbackLocale)) {
-                        Bukkit.getLogger().severe(
-                                "EntityType name "
-                                        + entryName
-                                        + " is missing in fallback language "
-                                        + locale + ".");
+                        Bukkit.getLogger().log(
+                                Level.SEVERE,
+                                "EntityType name {0} is missing in fallback language {1}.",
+                                new String[]{entryName, locale});
                     }
                     continue;
                 }
+
                 addEntry(locale, ent, localized);
             }
         }

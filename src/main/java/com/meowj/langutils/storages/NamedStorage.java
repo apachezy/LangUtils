@@ -11,6 +11,7 @@ import org.jetbrains.annotations.Nullable;
 import java.util.EnumMap;
 import java.util.Locale;
 import java.util.Map;
+import java.util.logging.Level;
 
 public class NamedStorage extends Storage<Named> {
 
@@ -30,16 +31,17 @@ public class NamedStorage extends Storage<Named> {
             for (Named named : Named.values()) {
                 entryName = named.name().toLowerCase(Locale.ROOT);
                 localized = entries.getString(entryName);
+
                 if (localized == null || localized.isEmpty()) {
                     if (locale.equals(fallbackLocale)) {
-                        Bukkit.getLogger().severe(
-                                "Named entry "
-                                        + entryName
-                                        + " is missing in fallback language "
-                                        + locale + ".");
+                        Bukkit.getLogger().log(
+                                Level.SEVERE,
+                                "Named entry {0} is missing in fallback language {1}.",
+                                new String[]{entryName, locale});
                     }
                     continue;
                 }
+
                 addEntry(locale, named, localized);
             }
         }
@@ -55,6 +57,5 @@ public class NamedStorage extends Storage<Named> {
 
         remapping(locale, pairMap);
     }
-
 
 }

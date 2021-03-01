@@ -7,6 +7,7 @@ import org.bukkit.potion.PotionEffectType;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Locale;
+import java.util.logging.Level;
 
 public class PotionEffectStorage extends Storage<PotionEffectType> {
 
@@ -25,16 +26,17 @@ public class PotionEffectStorage extends Storage<PotionEffectType> {
             for (PotionEffectType effect : PotionEffectType.values()) {
                 entryName = effect.getName().toLowerCase(Locale.ROOT);
                 localized = entries.getString(entryName);
+
                 if (localized == null || localized.isEmpty()) {
                     if (locale.equals(fallbackLocale)) {
-                        Bukkit.getLogger().severe(
-                                "PotionEffectType name "
-                                        + entryName
-                                        + " is missing in fallback language "
-                                        + locale + ".");
+                        Bukkit.getLogger().log(
+                                Level.SEVERE,
+                                "PotionEffectType name {0} is missing in fallback language {1}.",
+                                new String[]{entryName, locale});
                     }
                     continue;
                 }
+
                 addEntry(locale, effect, localized);
             }
         }

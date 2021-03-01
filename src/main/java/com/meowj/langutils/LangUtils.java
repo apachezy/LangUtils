@@ -28,11 +28,14 @@ import java.nio.charset.StandardCharsets;
 import java.util.*;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
+import java.util.logging.Level;
 import java.util.stream.Collectors;
 
 public class LangUtils extends JavaPlugin {
 
     public static final String EN_US = "en_us";
+    public static final String RELOD = "reload";
+    public static final String TEST  = "test";
 
     // @formatter:off
     public static final MaterialStorage         materialStorage         = new MaterialStorage        (EN_US);
@@ -135,9 +138,8 @@ public class LangUtils extends JavaPlugin {
                 LangInfo langInfo = LangInfo.load(cfg.getConfigurationSection("language"));
 
                 if (langInfo == null) {
-                    getLogger().severe("Invalid language resource: " + localePath + ".");
-                }
-                else if (loadAll || codes.contains(langInfo.code)) {
+                    getLogger().log(Level.SEVERE, "Invalid language resource: {0}.", localePath);
+                } else if (loadAll || codes.contains(langInfo.code)) {
                     // @formatter:off
                     materialStorage         .load(langInfo.code, cfg, "material"                );
                     enchantStorage          .load(langInfo.code, cfg, "enchantment"             );
@@ -158,7 +160,7 @@ public class LangUtils extends JavaPlugin {
 
                     count++;
                     if (!loadAll) {
-                        getLogger().info(langInfo.toString() + " has been loaded.");
+                        getLogger().log(Level.INFO,  "{0} has been loaded.", langInfo);
                     }
                 }
             } catch (IOException e) {
@@ -168,7 +170,7 @@ public class LangUtils extends JavaPlugin {
         }
 
         if (loadAll) {
-            getLogger().info(count + " languages loaded.");
+            getLogger().log(Level.INFO, "{0} languages loaded.", count);
         }
     }
 
@@ -201,12 +203,12 @@ public class LangUtils extends JavaPlugin {
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command,
                              @NotNull String label, @NotNull String[] args) {
         if (args.length > 0) {
-            if (args[0].equalsIgnoreCase("reload")) {
+            if (args[0].equalsIgnoreCase(RELOD)) {
                 this.reload(sender);
                 return true;
             }
 
-            if (args.length >= 3 && "test".equalsIgnoreCase(args[0])) {
+            if (args.length >= 3 && TEST.equalsIgnoreCase(args[0])) {
                 Material material = Material.matchMaterial(args[2]);
                 if (material == null) {
                     sender.sendMessage("Material '" + args[2] + "' not found.");
@@ -233,23 +235,26 @@ public class LangUtils extends JavaPlugin {
 
         switch (args.length) {
             case 1:
-                if ("reload".startsWith(args[0])) result.add("reload");
-                if ("test"  .startsWith(args[0])) result.add("test"  );
+                if (RELOD.startsWith(args[0])) result.add(RELOD);
+                if (TEST .startsWith(args[0])) result.add(TEST  );
                 break;
 
             case 2:
-                if ("test".equalsIgnoreCase(args[0]) && args[1].length() > 0) {
+                if (TEST.equalsIgnoreCase(args[0]) && args[1].length() > 0) {
                     return materialStorage.getLocales(s -> s.startsWith(args[1]));
                 }
                 break;
 
             case 3:
-                if ("test".equalsIgnoreCase(args[0]) && args[2].length() > 0) {
+                if (TEST.equalsIgnoreCase(args[0]) && args[2].length() > 0) {
                     return Arrays.stream(Material.values())
                             .map(material -> material.name().toLowerCase(Locale.ROOT))
                             .filter(s -> s.startsWith(args[2]))
                             .collect(Collectors.toList());
                 }
+                break;
+
+            default:
                 break;
         }
 
