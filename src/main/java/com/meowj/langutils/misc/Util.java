@@ -1,6 +1,9 @@
 package com.meowj.langutils.misc;
 
+import com.meowj.langutils.lang.LanguageHelper;
 import org.bukkit.OfflinePlayer;
+import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Player;
 import org.bukkit.entity.TropicalFish.Pattern;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
@@ -58,6 +61,14 @@ public class Util {
             return (pcol & 255) << 24 | (bcol & 255) << 16 | (patt & 255) << 8 | type;
         }
         return null;
+    }
+
+    public static void testPlayerHandle(CommandSender sender, String locale) {
+        if (sender instanceof Player) {
+            Player player = (Player) sender;
+            String lang = locale == null ? player.getLocale() : locale;
+            player.sendMessage(LanguageHelper.getItemName(player.getInventory().getItemInMainHand(), lang));
+        }
     }
 
 }

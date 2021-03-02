@@ -58,20 +58,20 @@ public abstract class Storage<T> {
     @Nullable
     public String getEntry(@NotNull String locale, @NotNull T t) {
         locale = LangUtils.fixLocale(locale);
-        Map<T, String> convMap = pairStorage.get(locale);
+        Map<T, String> pair = pairStorage.get(locale);
 
-        if (convMap == null) {
-            convMap = pairStorage.get(Remaper.getLang(locale));
-            if (convMap == null) {
-                convMap = pairStorage.get(fallbackLocale);
+        if (pair == null) {
+            pair = pairStorage.get(Remaper.getLang(locale));
+            if (pair == null) {
+                pair = pairStorage.get(fallbackLocale);
             }
         }
 
-        if (convMap == null) {
+        if (pair == null) {
             return null;
         }
 
-        String result = convMap.get(t);
+        String result = pair.get(t);
         return result == null || result.isEmpty() ? null : result;
     }
 

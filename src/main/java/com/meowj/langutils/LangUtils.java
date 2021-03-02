@@ -10,17 +10,13 @@
 package com.meowj.langutils;
 
 import com.meowj.langutils.misc.LangInfo;
+import com.meowj.langutils.misc.Util;
 import com.meowj.langutils.storages.*;
 import org.bukkit.Material;
-import org.bukkit.block.BlockState;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.configuration.Configuration;
 import org.bukkit.configuration.file.YamlConfiguration;
-import org.bukkit.entity.Player;
-import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.meta.BlockStateMeta;
-import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -41,7 +37,7 @@ public class LangUtils extends JavaPlugin {
 
     public static final String EN_US = "en_us";
     public static final String RELOD = "reload";
-    public static final String TEST  = "test";
+    public static final String TEST = "test";
 
     // @formatter:off
     public static final MaterialStorage          materialStorage          = new MaterialStorage         (EN_US);
@@ -55,11 +51,12 @@ public class LangUtils extends JavaPlugin {
     public static final EntityStorage            entityStorage            = new EntityStorage           (EN_US);
     public static final PotionEffectStorage      effectStorage            = new PotionEffectStorage     (EN_US);
     public static final TropicalFishTypeStorage  tropicalFishTypeStorage  = new TropicalFishTypeStorage (EN_US);
-    public static final IntegerStorage            tropicalFishNameStorage  = new IntegerStorage           (EN_US);
+    public static final IntegerStorage           tropicalFishNameStorage  = new IntegerStorage          (EN_US);
     public static final DyeColorStorage          dyeColorStorage          = new DyeColorStorage         (EN_US);
-    public static final IntegerStorage            villagerLevelStorage     = new IntegerStorage           (EN_US);
+    public static final IntegerStorage           villagerLevelStorage     = new IntegerStorage          (EN_US);
     public static final ProfessionStorage        professionStorage        = new ProfessionStorage       (EN_US);
     public static final ItemBannerPatternStorage itemBannerPatternStorage = new ItemBannerPatternStorage(EN_US);
+    public static final DyeColorStorage          coloredShiedStorage      = new DyeColorStorage         (EN_US);
     // @formatter:on
 
     @NotNull
@@ -111,6 +108,7 @@ public class LangUtils extends JavaPlugin {
         villagerLevelStorage    .setFallbackLocale(fallback);
         professionStorage       .setFallbackLocale(fallback);
         itemBannerPatternStorage.setFallbackLocale(fallback);
+        coloredShiedStorage     .setFallbackLocale(fallback);
         // @formatter:on
 
         try (JarFile jar = new JarFile(getFile())) {
@@ -166,11 +164,12 @@ public class LangUtils extends JavaPlugin {
                     villagerLevelStorage    .load(langInfo.code, cfg, "merchant_level"          , logger);
                     professionStorage       .load(langInfo.code, cfg, "villager_profession"     , logger);
                     itemBannerPatternStorage.load(langInfo.code, cfg, "item_banner_pattern"     , logger);
+                    coloredShiedStorage     .load(langInfo.code, cfg, "colored_shied"           , logger);
                     // @formatter:on
 
                     count++;
                     if (!loadAll) {
-                        getLogger().log(Level.INFO,  "{0} has been loaded.", langInfo);
+                        getLogger().log(Level.INFO, "{0} has been loaded.", langInfo);
                     }
                 }
             } catch (IOException e) {
@@ -202,6 +201,7 @@ public class LangUtils extends JavaPlugin {
         villagerLevelStorage     .clear();
         professionStorage        .clear();
         itemBannerPatternStorage .clear();
+        coloredShiedStorage      .clear();
         // @formatter:on
     }
 
@@ -214,33 +214,26 @@ public class LangUtils extends JavaPlugin {
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command,
                              @NotNull String label, @NotNull String[] args) {
         if (args.length > 0) {
-            if (args[0].equalsIgnoreCase(RELOD)) {
+            if (RELOD.equalsIgnoreCase(args[0])) {
                 this.reload(sender);
                 return true;
-            } else if (TEST.equalsIgnoreCase(args[0])) {
-                if (sender instanceof Player) {
-
-                    ItemStack item = ((Player) sender).getInventory().getItemInMainHand();
-                    ItemMeta meta = item.getItemMeta();
-                    if (meta instanceof BlockStateMeta) {
-                        BlockState stateMeta = ((BlockStateMeta) meta).getBlockState();
-                        getLogger().info(stateMeta.getClass().getName());
-                        getLogger().info(stateMeta.getData().getClass().getName());
-                        org.bukkit.craftbukkit.v1_16_R3.block.CraftBanner
-                    }
-                }
             }
 
-            if (args.length >= 3 && TEST.equalsIgnoreCase(args[0])) {
-                Material material = Material.matchMaterial(args[2]);
+            if (TEST.equalsIgnoreCase(args[0])) {
+                if (args.length >= 3) {
+                    Material material = Material.matchMaterial(args[2]);
 
-                if (material == null) {
-                    sender.sendMessage("Material '" + args[2] + "' not found.");
+                    if (material == null) {
+                        sender.sendMessage("Material '" + args[2] + "' not found.");
+                        return true;
+                    }
+
+                    String localized = materialStorage.getEntry(args[1], material);
+                    sender.sendMessage(args[2] + " -> " + localized);
                     return true;
                 }
 
-                String localized = materialStorage.getEntry(args[1], material);
-                sender.sendMessage(args[2] + " -> " + localized);
+                Util.testPlayerHandle(sender, args.length == 2 ? args[1] : null);
             }
         }
 
@@ -260,7 +253,7 @@ public class LangUtils extends JavaPlugin {
         switch (args.length) {
             case 1:
                 if (RELOD.startsWith(args[0])) result.add(RELOD);
-                if (TEST .startsWith(args[0])) result.add(TEST  );
+                if (TEST.startsWith(args[0])) result.add(TEST);
                 break;
 
             case 2:

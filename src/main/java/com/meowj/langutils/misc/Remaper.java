@@ -4,6 +4,9 @@ import org.jetbrains.annotations.NotNull;
 
 public class Remaper {
 
+    private Remaper() {
+    }
+
     public static String remap(String lang) {
         switch (lang) {
             case "af_za": return "af";

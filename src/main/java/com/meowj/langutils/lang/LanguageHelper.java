@@ -22,8 +22,11 @@ import org.bukkit.DyeColor;
 import org.bukkit.Material;
 import org.bukkit.block.Banner;
 import org.bukkit.block.Biome;
-import org.bukkit.block.BlockState;
 import org.bukkit.block.banner.Pattern;
+import org.bukkit.configuration.file.YamlConfiguration;
+import org.bukkit.craftbukkit.v1_16_R3.block.CraftBlockState;
+import org.bukkit.craftbukkit.v1_16_R3.inventory.CraftItemStack;
+import org.bukkit.craftbukkit.v1_16_R3.inventory.CraftMetaBlockState;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.EntityType;
@@ -31,6 +34,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.entity.TropicalFish;
 import org.bukkit.entity.Villager.Profession;
 import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.BannerMeta;
 import org.bukkit.inventory.meta.BlockStateMeta;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.inventory.meta.TropicalFishBucketMeta;
@@ -40,7 +44,10 @@ import org.bukkit.potion.PotionType;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
+import java.util.Locale;
 import java.util.Map.Entry;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 
 @SuppressWarnings("unused")
 public class LanguageHelper {
@@ -85,6 +92,10 @@ public class LanguageHelper {
 
             case TIPPED_ARROW:
                 return LangUtils.tippedArrowStorage.getEntry(locale, Util.getPotionType(item));
+
+            case SHIELD:
+                String shiledName = getColoredShiedName(item, locale);
+                return shiledName == null ? getMaterialName(material, locale) : shiledName;
 
             case PLAYER_HEAD:
             case PLAYER_WALL_HEAD:
@@ -363,7 +374,8 @@ public class LanguageHelper {
     //region getDyeColorName
     @NotNull
     public static String getDyeColorName(@NotNull DyeColor color, @NotNull String locale) {
-        return LangUtils.dyeColorStorage.getEntry(locale, color);
+        String result = LangUtils.dyeColorStorage.getEntry(locale, color);
+        return result != null ? result : color.name().toLowerCase(Locale.ROOT);
     }
 
     @NotNull
@@ -421,16 +433,18 @@ public class LanguageHelper {
         throw new org.bukkit.craftbukkit.libs.org.apache.commons.lang3.NotImplementedException("");
     }
 
-    public static String getColoredShiedName(@NotNull ItemStack shied, @NotNull String locale) {
-        ItemMeta itemMeta = shied.getItemMeta();
-        if (itemMeta instanceof BlockStateMeta) {
+    @Nullable
+    public static String getColoredShiedName(@NotNull ItemStack shield, @NotNull String locale) {
 
-            BlockState state = ((BlockStateMeta) itemMeta).getBlockState();
-            if (state instanceof Banner) {
-                DyeColor color = ((Banner) state).getBaseColor();
+        CraftMetaBlockState
+        //Object obj = shield.serialize().get("")
+        return shield.serialize().entrySet().stream().map(new Function<Entry<String, Object>, String>() {
+            @Override
+            public String apply(Entry<String, Object> stringObjectEntry) {
+                return stringObjectEntry.getValue().getClass().getName();
             }
-        }
-        throw new org.bukkit.craftbukkit.libs.org.apache.commons.lang3.NotImplementedException("");
+
+        }).collect(Collectors.joining("|"));
     }
 
 }

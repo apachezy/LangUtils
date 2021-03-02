@@ -55,11 +55,4 @@ public class DyeColorStorage extends Storage<DyeColor> {
         remapping(locale, pairMap);
     }
 
-    @Override
-    @NotNull
-    public String getEntry(@NotNull String locale, @NotNull DyeColor color) {
-        String result = super.getEntry(locale, color);
-        return result == null ? color.name().toLowerCase(Locale.ROOT) : result;
-    }
-
 }
