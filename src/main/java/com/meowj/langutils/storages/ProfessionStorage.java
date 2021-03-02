@@ -1,16 +1,15 @@
 package com.meowj.langutils.storages;
 
 import com.meowj.langutils.LangUtils;
-import org.bukkit.Bukkit;
 import org.bukkit.configuration.Configuration;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.entity.Villager.Profession;
 import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
 
 import java.util.EnumMap;
 import java.util.Map;
 import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class ProfessionStorage extends Storage<Profession> {
 
@@ -19,20 +18,19 @@ public class ProfessionStorage extends Storage<Profession> {
     }
 
     @Override
-    public @Nullable ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig, @NotNull String node) {
-        ConfigurationSection entries = super.load(locale, langConfig, node);
+    public ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig,
+                                     @NotNull String node,   @NotNull Logger logger) {
+        ConfigurationSection entries = super.load(locale, langConfig, node, logger);
 
         if (entries != null) {
-            String entryName;
-            String localized;
-
             for (Profession profession : Profession.values()) {
-                entryName = profession.getKey().getKey();
-                localized = entries.getString(entryName);
+
+                String entryName = profession.getKey().getKey();
+                String localized = entries.getString(entryName);
 
                 if (localized == null || localized.isEmpty()) {
                     if (locale.equals(fallbackLocale)) {
-                        Bukkit.getLogger().log(
+                        logger.log(
                                 Level.SEVERE,
                                 "Villager Profession name {0} is missing in fallback language {1}.",
                                 new String[]{entryName, locale});

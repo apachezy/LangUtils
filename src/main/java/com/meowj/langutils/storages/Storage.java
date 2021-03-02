@@ -7,8 +7,12 @@ import org.bukkit.configuration.ConfigurationSection;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.function.Predicate;
+import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 public abstract class Storage<T> {
@@ -22,7 +26,8 @@ public abstract class Storage<T> {
     }
 
     @Nullable
-    protected ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig, @NotNull String node) {
+    protected ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig,
+                                        @NotNull String node,   @NotNull Logger logger) {
         ConfigurationSection result = langConfig.getConfigurationSection(node);
 
         if (result == null || result.getValues(false).size() == 0) {

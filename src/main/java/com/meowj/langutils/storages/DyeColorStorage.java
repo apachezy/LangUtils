@@ -1,7 +1,6 @@
 package com.meowj.langutils.storages;
 
 import com.meowj.langutils.LangUtils;
-import org.bukkit.Bukkit;
 import org.bukkit.DyeColor;
 import org.bukkit.configuration.Configuration;
 import org.bukkit.configuration.ConfigurationSection;
@@ -11,6 +10,7 @@ import java.util.EnumMap;
 import java.util.Locale;
 import java.util.Map;
 import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class DyeColorStorage extends Storage<DyeColor> {
 
@@ -19,20 +19,19 @@ public class DyeColorStorage extends Storage<DyeColor> {
     }
 
     @Override
-    public ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig, @NotNull String node) {
-        ConfigurationSection entries = super.load(locale, langConfig, node);
+    public ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig,
+                                     @NotNull String node,   @NotNull Logger logger) {
+        ConfigurationSection entries = super.load(locale, langConfig, node, logger);
 
         if (entries != null) {
-            String entryName;
-            String localized;
-
             for (DyeColor color : DyeColor.values()) {
-                entryName = color.name().toLowerCase(Locale.ROOT);
-                localized = entries.getString(entryName);
+
+                String entryName = color.name().toLowerCase(Locale.ROOT);
+                String localized = entries.getString(entryName);
 
                 if (localized == null || localized.isEmpty()) {
                     if (locale.equals(fallbackLocale)) {
-                        Bukkit.getLogger().log(
+                        logger.log(
                                 Level.SEVERE,
                                 "DyeColor name {0} is missing in fallback language {1}.",
                                 new String[]{entryName, locale});

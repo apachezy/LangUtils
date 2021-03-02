@@ -20,7 +20,10 @@ import com.meowj.langutils.misc.Named;
 import com.meowj.langutils.misc.Util;
 import org.bukkit.DyeColor;
 import org.bukkit.Material;
+import org.bukkit.block.Banner;
 import org.bukkit.block.Biome;
+import org.bukkit.block.BlockState;
+import org.bukkit.block.banner.Pattern;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.EntityType;
@@ -28,6 +31,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.entity.TropicalFish;
 import org.bukkit.entity.Villager.Profession;
 import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.BlockStateMeta;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.inventory.meta.TropicalFishBucketMeta;
 import org.bukkit.potion.PotionEffect;
@@ -399,5 +403,34 @@ public class LanguageHelper {
      *  获取物品“旗帜图案”的描述文字 getBannerPatternDesc
      *  获取已染色的盾牌名称 getColoredShiedName
      */
+
+    public static boolean isBannerPattern(@NotNull Material material) {
+        return material.name().endsWith("_BANNER_PATTERN");
+    }
+
+    public static boolean isBannerPattern(@NotNull ItemStack item) {
+        return isBannerPattern(item.getType());
+    }
+
+    @Nullable
+    public static String getItemBannerPatternName(@NotNull ItemStack item, @NotNull String locale) {
+        throw new org.bukkit.craftbukkit.libs.org.apache.commons.lang3.NotImplementedException("");
+    }
+
+    public static String getBannerPatterName(@NotNull Pattern pattern, @NotNull String locale) {
+        throw new org.bukkit.craftbukkit.libs.org.apache.commons.lang3.NotImplementedException("");
+    }
+
+    public static String getColoredShiedName(@NotNull ItemStack shied, @NotNull String locale) {
+        ItemMeta itemMeta = shied.getItemMeta();
+        if (itemMeta instanceof BlockStateMeta) {
+
+            BlockState state = ((BlockStateMeta) itemMeta).getBlockState();
+            if (state instanceof Banner) {
+                DyeColor color = ((Banner) state).getBaseColor();
+            }
+        }
+        throw new org.bukkit.craftbukkit.libs.org.apache.commons.lang3.NotImplementedException("");
+    }
 
 }

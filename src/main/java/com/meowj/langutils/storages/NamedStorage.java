@@ -2,7 +2,6 @@ package com.meowj.langutils.storages;
 
 import com.meowj.langutils.LangUtils;
 import com.meowj.langutils.misc.Named;
-import org.bukkit.Bukkit;
 import org.bukkit.configuration.Configuration;
 import org.bukkit.configuration.ConfigurationSection;
 import org.jetbrains.annotations.NotNull;
@@ -12,6 +11,7 @@ import java.util.EnumMap;
 import java.util.Locale;
 import java.util.Map;
 import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class NamedStorage extends Storage<Named> {
 
@@ -21,20 +21,19 @@ public class NamedStorage extends Storage<Named> {
 
     @Override
     @Nullable
-    public ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig, @NotNull String node) {
-        ConfigurationSection entries = super.load(locale, langConfig, node);
+    public ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig,
+                                     @NotNull String node,   @NotNull Logger logger) {
+        ConfigurationSection entries = super.load(locale, langConfig, node, logger);
 
         if (entries != null) {
-            String entryName;
-            String localized;
-
             for (Named named : Named.values()) {
-                entryName = named.name().toLowerCase(Locale.ROOT);
-                localized = entries.getString(entryName);
+
+                String entryName = named.name().toLowerCase(Locale.ROOT);
+                String localized = entries.getString(entryName);
 
                 if (localized == null || localized.isEmpty()) {
                     if (locale.equals(fallbackLocale)) {
-                        Bukkit.getLogger().log(
+                        logger.log(
                                 Level.SEVERE,
                                 "Named entry {0} is missing in fallback language {1}.",
                                 new String[]{entryName, locale});

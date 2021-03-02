@@ -1,12 +1,12 @@
 package com.meowj.langutils.storages;
 
-import org.bukkit.Bukkit;
 import org.bukkit.configuration.Configuration;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.enchantments.Enchantment;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class EnchantStorage extends Storage<Enchantment> {
 
@@ -15,20 +15,19 @@ public class EnchantStorage extends Storage<Enchantment> {
     }
 
     @Override
-    public ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig, @NotNull String node) {
-        ConfigurationSection entries = super.load(locale, langConfig, node);
+    public ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig,
+                                     @NotNull String node,   @NotNull Logger logger) {
+        ConfigurationSection entries = super.load(locale, langConfig, node, logger);
 
         if (entries != null) {
-            String entryName;
-            String localized;
-
             for (Enchantment enchant : Enchantment.values()) {
-                entryName = enchant.getKey().getKey();
-                localized = entries.getString(entryName);
+
+                String entryName = enchant.getKey().getKey();
+                String localized = entries.getString(entryName);
 
                 if (localized == null || localized.isEmpty()) {
                     if (locale.equals(fallbackLocale)) {
-                        Bukkit.getLogger().log(
+                        logger.log(
                                 Level.SEVERE,
                                 "Enchantment name {0} is missing in fallback language {1}.",
                                 new String[]{entryName, locale});

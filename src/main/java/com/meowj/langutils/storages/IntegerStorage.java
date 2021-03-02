@@ -6,27 +6,27 @@ import org.bukkit.configuration.ConfigurationSection;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.logging.Level;
+import java.util.logging.Logger;
 
-public class IntegerStrage extends Storage<Integer> {
+public class IntegerStorage extends Storage<Integer> {
 
-    public IntegerStrage(@NotNull String fallbackLocale) {
+    public IntegerStorage(@NotNull String fallbackLocale) {
         super(fallbackLocale);
     }
 
     @Override
-    public ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig, @NotNull String node) {
-        ConfigurationSection entries = super.load(locale, langConfig, node);
+    public ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig,
+                                     @NotNull String node,   @NotNull Logger logger) {
+        ConfigurationSection entries = super.load(locale, langConfig, node, logger);
 
         if (entries != null) {
-            String localized;
-
             for (String key : entries.getKeys(false)) {
                 try {
-                    localized = entries.getString(key);
+                    String localized = entries.getString(key);
                     if (localized == null || localized.isEmpty()) {
 
                         if (locale.equals(fallbackLocale)) {
-                            Bukkit.getLogger().log(
+                            logger.log(
                                     Level.SEVERE,
                                     "Null value in {0}.{1} in fallback language {2}.",
                                     new String[]{node, key, locale});

@@ -1,7 +1,6 @@
 package com.meowj.langutils.storages;
 
 import com.meowj.langutils.LangUtils;
-import org.bukkit.Bukkit;
 import org.bukkit.configuration.Configuration;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.entity.TropicalFish.Pattern;
@@ -11,6 +10,7 @@ import java.util.EnumMap;
 import java.util.Locale;
 import java.util.Map;
 import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class TropicalFishTypeStorage extends Storage<Pattern> {
 
@@ -19,8 +19,9 @@ public class TropicalFishTypeStorage extends Storage<Pattern> {
     }
 
     @Override
-    public ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig, @NotNull String node) {
-        ConfigurationSection entries = super.load(locale, langConfig, node);
+    public ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig,
+                                     @NotNull String node,   @NotNull Logger logger) {
+        ConfigurationSection entries = super.load(locale, langConfig, node, logger);
 
         if (entries != null) {
             String entryName;
@@ -32,7 +33,7 @@ public class TropicalFishTypeStorage extends Storage<Pattern> {
 
                 if (localized == null || localized.isEmpty()) {
                     if (locale.equals(fallbackLocale)) {
-                        Bukkit.getLogger().log(
+                        logger.log(
                                 Level.SEVERE,
                                 "TropicalFish type name {0} is missing in fallback language {1}.",
                                 new String[]{entryName, locale});

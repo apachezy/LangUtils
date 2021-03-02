@@ -1,15 +1,16 @@
 package com.meowj.langutils.storages;
 
 import com.meowj.langutils.LangUtils;
-import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.configuration.Configuration;
 import org.bukkit.configuration.ConfigurationSection;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.EnumMap;
+import java.util.Locale;
 import java.util.Map;
 import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class MaterialStorage extends Storage<Material> {
 
@@ -18,20 +19,19 @@ public class MaterialStorage extends Storage<Material> {
     }
 
     @Override
-    public ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig, @NotNull String node) {
-        ConfigurationSection entries = super.load(locale, langConfig, node);
+    public ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig,
+                                     @NotNull String node,   @NotNull Logger logger) {
+        ConfigurationSection entries = super.load(locale, langConfig, node, logger);
 
         if (entries != null) {
-            String entryName;
-            String localized;
-
             for (Material material : Material.values()) {
-                entryName = material.getKey().getKey();
-                localized = entries.getString(entryName);
+
+                String entryName = material.getKey().getKey();
+                String localized = entries.getString(entryName);
 
                 if (localized == null || localized.isEmpty()) {
                     if (locale.equals(fallbackLocale)) {
-                        Bukkit.getLogger().log(
+                        logger.log(
                                 Level.SEVERE,
                                 "Material name {0} is missing in fallback language {1}.",
                                 new String[]{entryName, locale});
@@ -59,8 +59,7 @@ public class MaterialStorage extends Storage<Material> {
     @NotNull
     public String getEntry(@NotNull String locale, @NotNull Material material) {
         String result = super.getEntry(locale, material);
-        // 试图获取 Legacy Material 的 NamespacedKey 会出现异常
-        return result == null ? material.getKey().toString() : result;
+        return result == null ? material.name().toLowerCase(Locale.ROOT) : result;
     }
 
 }

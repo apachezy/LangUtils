@@ -1,7 +1,6 @@
 package com.meowj.langutils.storages;
 
 import com.meowj.langutils.LangUtils;
-import org.bukkit.Bukkit;
 import org.bukkit.configuration.Configuration;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.entity.EntityType;
@@ -11,6 +10,7 @@ import org.jetbrains.annotations.Nullable;
 import java.util.EnumMap;
 import java.util.Map;
 import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class EntityStorage extends Storage<EntityType> {
 
@@ -20,25 +20,23 @@ public class EntityStorage extends Storage<EntityType> {
 
     @Override
     @Nullable
-    public ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig, @NotNull String node) {
-        ConfigurationSection entries = super.load(locale, langConfig, node);
+    public ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig,
+                                     @NotNull String node,   @NotNull Logger logger) {
+        ConfigurationSection entries = super.load(locale, langConfig, node, logger);
 
         if (entries == null) {
             return null;
         }
 
-        String entryName;
-        String localized;
-
         for (EntityType ent : EntityType.values()) {
             if (ent != EntityType.UNKNOWN) {
 
-                entryName = ent.getKey().getKey();
-                localized = entries.getString(entryName);
+                String entryName = ent.getKey().getKey();
+                String localized = entries.getString(entryName);
 
                 if (localized == null || localized.isEmpty()) {
                     if (locale.equals(fallbackLocale)) {
-                        Bukkit.getLogger().log(
+                        logger.log(
                                 Level.SEVERE,
                                 "EntityType name {0} is missing in fallback language {1}.",
                                 new String[]{entryName, locale});
