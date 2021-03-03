@@ -31,7 +31,6 @@ import java.util.*;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 import java.util.logging.Level;
-import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 public class LangUtils extends JavaPlugin {
@@ -58,6 +57,7 @@ public class LangUtils extends JavaPlugin {
     public static final ProfessionStorage        professionStorage        = new ProfessionStorage       (EN_US);
     public static final ItemBannerPatternStorage itemBannerPatternStorage = new ItemBannerPatternStorage(EN_US);
     public static final DyeColorStorage          coloredShiedStorage      = new DyeColorStorage         (EN_US);
+    public static final BannerPatternStorage     bannerPatternStorage     = new BannerPatternStorage    (EN_US);
     // @formatter:on
 
     @NotNull
@@ -149,29 +149,29 @@ public class LangUtils extends JavaPlugin {
 
                 Configuration cfg = YamlConfiguration.loadConfiguration(rd);
                 LangInfo langInfo = LangInfo.load(cfg.getConfigurationSection("language"));
-                Logger logger = getLogger();
+
 
                 if (langInfo == null) {
-                    logger.log(Level.SEVERE, "Invalid language resource: {0}.", localePath);
+                    getLogger().log(Level.SEVERE, "Invalid language resource: {0}.", localePath);
                 } else if (loadAll || codes.contains(langInfo.code)) {
                     // @formatter:off
-                    materialStorage         .load(langInfo.code, cfg, "material"                , logger);
-                    enchantStorage          .load(langInfo.code, cfg, "enchantment"             , logger);
-                    potionStorage           .load(langInfo.code, cfg, "potion"                  , logger);
-                    splashPotionStorage     .load(langInfo.code, cfg, "splash_potion"           , logger);
-                    lingeringPotionStorage  .load(langInfo.code, cfg, "lingering_potion"        , logger);
-                    tippedArrowStorage      .load(langInfo.code, cfg, "tipped_arrow"            , logger);
-                    namedStorage            .load(langInfo.code, cfg, "named"                   , logger);
-                    biomeStorage            .load(langInfo.code, cfg, "biome"                   , logger);
-                    entityStorage           .load(langInfo.code, cfg, "entity"                  , logger);
-                    effectStorage           .load(langInfo.code, cfg, "effect"                  , logger);
-                    tropicalFishTypeStorage .load(langInfo.code, cfg, "tropical_fish_type"      , logger);
-                    tropicalFishNameStorage .load(langInfo.code, cfg, "predefined_tropical_fish", logger);
-                    dyeColorStorage         .load(langInfo.code, cfg, "dye_color"               , logger);
-                    villagerLevelStorage    .load(langInfo.code, cfg, "merchant_level"          , logger);
-                    professionStorage       .load(langInfo.code, cfg, "villager_profession"     , logger);
-                    itemBannerPatternStorage.load(langInfo.code, cfg, "item_banner_pattern"     , logger);
-                    coloredShiedStorage     .load(langInfo.code, cfg, "colored_shied"           , logger);
+                    materialStorage         .load(langInfo.code, cfg, "material"            , getLogger());
+                    enchantStorage          .load(langInfo.code, cfg, "enchantment"         , getLogger());
+                    potionStorage           .load(langInfo.code, cfg, "potion"              , getLogger());
+                    splashPotionStorage     .load(langInfo.code, cfg, "splash_potion"       , getLogger());
+                    lingeringPotionStorage  .load(langInfo.code, cfg, "lingering_potion"    , getLogger());
+                    tippedArrowStorage      .load(langInfo.code, cfg, "tipped_arrow"        , getLogger());
+                    namedStorage            .load(langInfo.code, cfg, "named"               , getLogger());
+                    biomeStorage            .load(langInfo.code, cfg, "biome"               , getLogger());
+                    entityStorage           .load(langInfo.code, cfg, "entity"              , getLogger());
+                    effectStorage           .load(langInfo.code, cfg, "effect"              , getLogger());
+                    tropicalFishTypeStorage .load(langInfo.code, cfg, "tropical_fish_type"  , getLogger());
+                    tropicalFishNameStorage .load(langInfo.code, cfg, "tropical_fish_name"  , getLogger());
+                    dyeColorStorage         .load(langInfo.code, cfg, "dye_color"           , getLogger());
+                    villagerLevelStorage    .load(langInfo.code, cfg, "merchant_level"      , getLogger());
+                    professionStorage       .load(langInfo.code, cfg, "villager_profession" , getLogger());
+                    itemBannerPatternStorage.load(langInfo.code, cfg, "item_banner_pattern" , getLogger());
+                    coloredShiedStorage     .load(langInfo.code, cfg, "colored_shied"       , getLogger());
                     // @formatter:on
 
                     count++;

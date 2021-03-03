@@ -1,6 +1,7 @@
 package com.meowj.langutils.misc;
 
 import com.meowj.langutils.lang.LanguageHelper;
+import org.bukkit.Material;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
@@ -17,7 +18,6 @@ import org.jetbrains.annotations.Nullable;
 public class Util {
 
     private Util() {
-
     }
 
     public static String getShortTime(int duration) {
@@ -63,10 +63,36 @@ public class Util {
         return null;
     }
 
-    public static void testPlayerHandle(CommandSender sender, String locale) {
+    public static void testPlayerHandle(CommandSender sender, String lang) {
         if (sender instanceof Player) {
             Player player = (Player) sender;
-            String lang = locale == null ? player.getLocale() : locale;
+            String locale = lang == null ? player.getLocale() : lang;
+            ItemStack itm = player.getInventory().getItemInMainHand();
+
+            switch (itm.getType()) {
+                case BLACK_BANNER:
+                case BLUE_BANNER:
+                case BROWN_BANNER:
+                case CYAN_BANNER:
+                case GRAY_BANNER:
+                case GREEN_BANNER:
+                case LIGHT_BLUE_BANNER:
+                case LIGHT_GRAY_BANNER:
+                case LIME_BANNER:
+                case MAGENTA_BANNER:
+                case ORANGE_BANNER:
+                case PINK_BANNER:
+                case PURPLE_BANNER:
+                case RED_BANNER:
+                case YELLOW_BANNER:
+                case WHITE_BANNER:
+
+                    break;
+
+                default:
+                    break;
+            }
+
             player.sendMessage(LanguageHelper.getItemName(player.getInventory().getItemInMainHand(), lang));
         }
     }

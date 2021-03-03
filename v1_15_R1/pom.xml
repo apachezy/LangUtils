@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>v1_16_R3</artifactId>
+    <artifactId>v1_15_R1</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -20,7 +20,7 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot</artifactId>
-            <version>1.16.5-R0.1-SNAPSHOT</version>
+            <version>1.15.2-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -30,5 +30,4 @@
             <scope>compile</scope>
         </dependency>
     </dependencies>
-
 </project>

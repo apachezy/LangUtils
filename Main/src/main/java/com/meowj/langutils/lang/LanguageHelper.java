@@ -19,17 +19,10 @@ import com.meowj.langutils.LangUtils;
 import com.meowj.langutils.misc.Named;
 import com.meowj.langutils.misc.Util;
 import com.meowj.langutils.nms.NMS;
-import net.minecraft.server.v1_16_R3.NBTTagCompound;
 import org.bukkit.DyeColor;
 import org.bukkit.Material;
-import org.bukkit.block.Banner;
 import org.bukkit.block.Biome;
 import org.bukkit.block.banner.Pattern;
-import org.bukkit.configuration.file.YamlConfiguration;
-import org.bukkit.craftbukkit.v1_16_R3.block.CraftBanner;
-import org.bukkit.craftbukkit.v1_16_R3.block.CraftBlockState;
-import org.bukkit.craftbukkit.v1_16_R3.inventory.CraftItemStack;
-import org.bukkit.craftbukkit.v1_16_R3.inventory.CraftMetaBlockState;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.EntityType;
@@ -37,8 +30,6 @@ import org.bukkit.entity.Player;
 import org.bukkit.entity.TropicalFish;
 import org.bukkit.entity.Villager.Profession;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.meta.BannerMeta;
-import org.bukkit.inventory.meta.BlockStateMeta;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.inventory.meta.TropicalFishBucketMeta;
 import org.bukkit.potion.PotionEffect;
@@ -49,8 +40,6 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.Locale;
 import java.util.Map.Entry;
-import java.util.function.Function;
-import java.util.stream.Collectors;
 
 @SuppressWarnings("unused")
 public class LanguageHelper {
@@ -412,13 +401,6 @@ public class LanguageHelper {
     }
     //endregion
 
-    /*
-     * 下一步：
-     *  获取旗帜花纹名称 getBannerPatternName
-     *  获取物品“旗帜图案”的描述文字 getBannerPatternDesc
-     *  获取已染色的盾牌名称 getColoredShiedName
-     */
-
     public static boolean isBannerPattern(@NotNull Material material) {
         return material.name().endsWith("_BANNER_PATTERN");
     }
@@ -432,10 +414,24 @@ public class LanguageHelper {
         throw new org.bukkit.craftbukkit.libs.org.apache.commons.lang3.NotImplementedException("");
     }
 
+    //region getBannerPatterName
+    @NotNull
     public static String getBannerPatterName(@NotNull Pattern pattern, @NotNull String locale) {
-        throw new org.bukkit.craftbukkit.libs.org.apache.commons.lang3.NotImplementedException("");
+        String result = LangUtils.bannerPatternStorage.getEntry(locale, pattern);
+        if (result == null || result.isEmpty()) {
+            return pattern.getColor  ().name().toLowerCase(Locale.ROOT)
+                 + pattern.getPattern().name().toLowerCase(Locale.ROOT);
+        }
+        return result;
     }
 
+    @NotNull
+    public static String getBannerPatterName(@NotNull Pattern pattern, @NotNull Player player) {
+        return getBannerPatterName(pattern, player.getLocale());
+    }
+    //endregion
+
+    //region getColoredShiedName
     @Nullable
     public static String getColoredShiedName(@NotNull ItemStack shield, @NotNull String locale) {
         Integer colorOrdinal = NMS.getShieldBaseColorOrdinal(shield);
@@ -452,4 +448,9 @@ public class LanguageHelper {
         return LangUtils.coloredShiedStorage.getEntry(locale, color);
     }
 
+    @Nullable
+    public static String getColoredShiedName(@NotNull ItemStack shield, @NotNull Player player) {
+        return getColoredShiedName(shield, player.getLocale());
+    }
+    //endregion
 }

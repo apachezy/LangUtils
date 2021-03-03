@@ -1,14 +1,15 @@
-package com.meowj.langutils.nms;
+package com.meowj.langutils.nms.v1_14_R1;
 
-import net.minecraft.server.v1_16_R3.ItemStack;
-import net.minecraft.server.v1_16_R3.NBTTagCompound;
+import com.meowj.langutils.nms.NmsItem;
+import net.minecraft.server.v1_14_R1.ItemStack;
+import net.minecraft.server.v1_14_R1.NBTTagCompound;
 import org.bukkit.Material;
-import org.bukkit.craftbukkit.v1_16_R3.inventory.CraftItemStack;
+import org.bukkit.craftbukkit.v1_14_R1.inventory.CraftItemStack;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 @SuppressWarnings("unused")
-public class ItemHelper_v1_16_R3 implements ItemHelper {
+public class NmsItemImpl implements NmsItem {
 
     @Override
     @Nullable
@@ -34,5 +35,4 @@ public class ItemHelper_v1_16_R3 implements ItemHelper {
 
         return null;
     }
-
 }

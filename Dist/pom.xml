@@ -5,7 +5,7 @@
     <parent>
         <artifactId>LangUtils</artifactId>
         <groupId>com.meowj</groupId>
-        <version>3.0.0-mc1.16.5-SNAPSHOT</version>
+        <version>3.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
@@ -23,9 +23,9 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <configuration>
-                    <finalName>QuickShop</finalName>
+                    <finalName>${parent.artifactId}-${version}</finalName>
                     <appendAssemblyId>false</appendAssemblyId>
-                    <outputDirectory>${project.outputdir}</outputDirectory>
+                    <outputDirectory>${jar.directory}</outputDirectory>
                 </configuration>
                 <version>3.3.0</version>
                 <executions>
@@ -44,15 +44,6 @@
                     </execution>
                 </executions>
             </plugin>
-            <!--            <plugin>-->
-            <!--                <groupId>org.apache.maven.plugins</groupId>-->
-            <!--                <artifactId>maven-jar-plugin</artifactId>-->
-            <!--                <version>3.1.2</version>-->
-            <!--                <configuration>-->
-            <!--                    <finalName>${project.artifactId}</finalName>-->
-            <!--                    <outputDirectory>${project.outputdir}</outputDirectory>-->
-            <!--                </configuration>-->
-            <!--            </plugin>-->
         </plugins>
     </build>
 

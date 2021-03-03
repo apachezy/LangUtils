@@ -11,17 +11,18 @@ public class NMS {
     private NMS() {
     }
 
-    private static ItemHelper nmsItem;
+    private static NmsItem nmsItem;
 
     public static boolean init() {
         String pkg = Bukkit.getServer().getClass().getPackage().getName();
         String ver = pkg.substring(pkg.lastIndexOf('.') + 1);
 
         try {
-            nmsItem = (ItemHelper) Class
+            nmsItem = (NmsItem) Class
                     .forName("com.meowj.langutils.nms.ItemHelper_" + ver)
                     .getConstructor()
                     .newInstance();
+
         } catch (ReflectiveOperationException e) {
             return false;
         }
@@ -29,8 +30,17 @@ public class NMS {
         return true;
     }
 
+    public static void getSupportedVersions() {
+        // todo
+    }
+
     @Nullable
     public static Integer getShieldBaseColorOrdinal(@NotNull ItemStack bukkitItem) {
+        if (nmsItem == null) {
+            throw new IllegalStateException(
+                    "LangUtils is not initialized and " +
+                    "may not support this server version.");
+        }
         return nmsItem.getShieldBaseColorOrdinal(bukkitItem);
     }
 

@@ -5,7 +5,7 @@
     <parent>
         <artifactId>LangUtils</artifactId>
         <groupId>com.meowj</groupId>
-        <version>3.0.0-mc1.16.5-SNAPSHOT</version>
+        <version>3.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -53,17 +53,6 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>
                 <version>3.2.0</version>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>3.2.0</version>
-                <configuration>
-                    <archive>
-                        <addMavenDescriptor>false</addMavenDescriptor>
-                    </archive>
-                    <outputDirectory>${jar.directory}</outputDirectory>
-                </configuration>
             </plugin>
         </plugins>
     </build>
