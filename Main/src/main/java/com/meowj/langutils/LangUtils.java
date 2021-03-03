@@ -11,6 +11,7 @@ package com.meowj.langutils;
 
 import com.meowj.langutils.misc.LangInfo;
 import com.meowj.langutils.misc.Util;
+import com.meowj.langutils.nms.NMS;
 import com.meowj.langutils.storages.*;
 import org.bukkit.Material;
 import org.bukkit.command.Command;
@@ -35,11 +36,11 @@ import java.util.stream.Collectors;
 
 public class LangUtils extends JavaPlugin {
 
-    public static final String EN_US = "en_us";
-    public static final String RELOD = "reload";
-    public static final String TEST = "test";
-
     // @formatter:off
+    public static final String EN_US  = "en_us" ;
+    public static final String RELOAD = "reload";
+    public static final String TEST   = "test"  ;
+
     public static final MaterialStorage          materialStorage          = new MaterialStorage         (EN_US);
     public static final EnchantStorage           enchantStorage           = new EnchantStorage          (EN_US);
     public static final PotionStorage            potionStorage            = new PotionStorage           (EN_US);
@@ -67,6 +68,12 @@ public class LangUtils extends JavaPlugin {
     @Override
     public void onEnable() {
         super.onEnable();
+
+        if (!NMS.init()) {
+            getLogger().severe("LangUtils cannot run on this server!");
+            return;
+        }
+
         this.reload(null);
     }
 
@@ -214,7 +221,7 @@ public class LangUtils extends JavaPlugin {
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command,
                              @NotNull String label, @NotNull String[] args) {
         if (args.length > 0) {
-            if (RELOD.equalsIgnoreCase(args[0])) {
+            if (RELOAD.equalsIgnoreCase(args[0])) {
                 this.reload(sender);
                 return true;
             }
@@ -252,7 +259,7 @@ public class LangUtils extends JavaPlugin {
 
         switch (args.length) {
             case 1:
-                if (RELOD.startsWith(args[0])) result.add(RELOD);
+                if (RELOAD.startsWith(args[0])) result.add(RELOAD);
                 if (TEST.startsWith(args[0])) result.add(TEST);
                 break;
 

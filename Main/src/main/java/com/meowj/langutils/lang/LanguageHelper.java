@@ -18,12 +18,15 @@ package com.meowj.langutils.lang;
 import com.meowj.langutils.LangUtils;
 import com.meowj.langutils.misc.Named;
 import com.meowj.langutils.misc.Util;
+import com.meowj.langutils.nms.NMS;
+import net.minecraft.server.v1_16_R3.NBTTagCompound;
 import org.bukkit.DyeColor;
 import org.bukkit.Material;
 import org.bukkit.block.Banner;
 import org.bukkit.block.Biome;
 import org.bukkit.block.banner.Pattern;
 import org.bukkit.configuration.file.YamlConfiguration;
+import org.bukkit.craftbukkit.v1_16_R3.block.CraftBanner;
 import org.bukkit.craftbukkit.v1_16_R3.block.CraftBlockState;
 import org.bukkit.craftbukkit.v1_16_R3.inventory.CraftItemStack;
 import org.bukkit.craftbukkit.v1_16_R3.inventory.CraftMetaBlockState;
@@ -435,16 +438,18 @@ public class LanguageHelper {
 
     @Nullable
     public static String getColoredShiedName(@NotNull ItemStack shield, @NotNull String locale) {
+        Integer colorOrdinal = NMS.getShieldBaseColorOrdinal(shield);
+        if (colorOrdinal == null) {
+            return null;
+        }
 
-        CraftMetaBlockState
-        //Object obj = shield.serialize().get("")
-        return shield.serialize().entrySet().stream().map(new Function<Entry<String, Object>, String>() {
-            @Override
-            public String apply(Entry<String, Object> stringObjectEntry) {
-                return stringObjectEntry.getValue().getClass().getName();
-            }
+        @SuppressWarnings("deprecation")
+        DyeColor color = DyeColor.getByWoolData(colorOrdinal.byteValue());
+        if (color == null) {
+            return null;
+        }
 
-        }).collect(Collectors.joining("|"));
+        return LangUtils.coloredShiedStorage.getEntry(locale, color);
     }
 
 }
