@@ -5,6 +5,8 @@ import org.bukkit.inventory.ItemStack;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
+import java.util.Locale;
+
 
 public class NMS {
 
@@ -15,11 +17,11 @@ public class NMS {
 
     public static boolean init() {
         String pkg = Bukkit.getServer().getClass().getPackage().getName();
-        String ver = pkg.substring(pkg.lastIndexOf('.') + 1);
+        String ver = pkg.substring(pkg.lastIndexOf('.') + 1).toLowerCase(Locale.ROOT);
 
         try {
             nmsItem = (NmsItem) Class
-                    .forName("com.meowj.langutils.nms.ItemHelper_" + ver)
+                    .forName("com.meowj.langutils.nms." + ver + ".NmsItemImpl")
                     .getConstructor()
                     .newInstance();
 
@@ -28,10 +30,6 @@ public class NMS {
         }
 
         return true;
-    }
-
-    public static void getSupportedVersions() {
-        // todo
     }
 
     @Nullable

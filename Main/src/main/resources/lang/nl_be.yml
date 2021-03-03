@@ -1,3 +1,4 @@
+#  Build time: 2021-03-04 01:01:27
 language:
   code: nl_be
   name: Vlaams
@@ -1528,3 +1529,644 @@ colored_shied:
   green: Groen schild
   red: Rood schild
   black: Zwart schild
+banner_pattern:
+  '65536': Wit basis dexter kanton
+  '65537': Oranje basis dexter kanton
+  '65538': Magenta basis dexter kanton
+  '65539': Lichtblauw basis dexter kanton
+  '65540': Geel basis dexter kanton
+  '65541': Lichtgroen basis dexter kanton
+  '65542': Roze basis dexter kanton
+  '65543': Grijs basis dexter kanton
+  '65544': Lichtgrijs basis dexter kanton
+  '65545': Cyaan basis dexter kanton
+  '65546': Paars basis dexter kanton
+  '65547': Blauw basis dexter kanton
+  '65548': Bruin basis dexter kanton
+  '65549': Groen basis dexter kanton
+  '65550': Rood basis dexter kanton
+  '65551': Zwart basis dexter kanton
+  '131072': Wit basis sinister kanton
+  '131073': Oranje basis sinister kanton
+  '131074': Magenta basis sinister kanton
+  '131075': Lichtblauw basis sinister kanton
+  '131076': Geel basis sinister kanton
+  '131077': Lichtgroen basis sinister kanton
+  '131078': Roze basis sinister kanton
+  '131079': Grijs basis sinister kanton
+  '131080': Lichtgrijs basis sinister kanton
+  '131081': Cyaan basis sinister kanton
+  '131082': Paars basis sinister kanton
+  '131083': Blauw basis sinister kanton
+  '131084': Bruin basis sinister kanton
+  '131085': Groen basis sinister kanton
+  '131086': Rood basis sinister kanton
+  '131087': Zwart basis sinister kanton
+  '196608': Wit hoofd dexter kanton
+  '196609': Oranje hoofd dexter kanton
+  '196610': Magenta hoofd dexter kanton
+  '196611': Lichtblauw hoofd dexter kanton
+  '196612': Geel hoofd dexter kanton
+  '196613': Lichtgroen hoofd dexter kanton
+  '196614': Roze hoofd dexter kanton
+  '196615': Grijs hoofd dexter kanton
+  '196616': Lichtgrijs hoofd dexter kanton
+  '196617': Cyaan hoofd dexter kanton
+  '196618': Paars hoofd dexter kanton
+  '196619': Blauw hoofd dexter kanton
+  '196620': Bruin hoofd dexter kanton
+  '196621': Groen hoofd dexter kanton
+  '196622': Rood hoofd dexter kanton
+  '196623': Zwart hoofd dexter kanton
+  '262144': Wit hoofd sinister kanton
+  '262145': Oranje hoofd sinister kanton
+  '262146': Magenta hoofd sinister kanton
+  '262147': Lichtblauw hoofd sinister kanton
+  '262148': Geel hoofd sinister kanton
+  '262149': Lichtgroen hoofd sinister kanton
+  '262150': Roze hoofd sinister kanton
+  '262151': Grijs hoofd sinister kanton
+  '262152': Lichtgrijs hoofd sinister kanton
+  '262153': Cyaan hoofd sinister kanton
+  '262154': Paars hoofd sinister kanton
+  '262155': Blauw hoofd sinister kanton
+  '262156': Bruin hoofd sinister kanton
+  '262157': Groen hoofd sinister kanton
+  '262158': Rood hoofd sinister kanton
+  '262159': Zwart hoofd sinister kanton
+  '327680': Witte basis
+  '327681': Oranje basis
+  '327682': Magenta basis
+  '327683': Lichtblauwe basis
+  '327684': Gele basis
+  '327685': Lichtgroene basis
+  '327686': Roze basis
+  '327687': Grijze basis
+  '327688': Lichtgrijze basis
+  '327689': Cyaan basis
+  '327690': Paarse basis
+  '327691': Blauwe basis
+  '327692': Bruine basis
+  '327693': Groene basis
+  '327694': Rode basis
+  '327695': Zwarte basis
+  '393216': Witte top
+  '393217': Oranje top
+  '393218': Magenta top
+  '393219': Lichtblauwe top
+  '393220': Gele top
+  '393221': Lichtgroene top
+  '393222': Roze top
+  '393223': Grijze top
+  '393224': Lichtgrijze top
+  '393225': Cyaan top
+  '393226': Paarse top
+  '393227': Blauwe top
+  '393228': Bruine top
+  '393229': Groene top
+  '393230': Rode top
+  '393231': Zwarte top
+  '458752': Witte paal dexter
+  '458753': Oranje paal dexter
+  '458754': Magenta paal dexter
+  '458755': Lichtblauwe paal dexter
+  '458756': Gele paal dexter
+  '458757': Lichtgroene paal dexter
+  '458758': Roze paal dexter
+  '458759': Grijze paal dexter
+  '458760': Lichtgrijze paal dexter
+  '458761': Cyaan paal dexter
+  '458762': Paarse paal dexter
+  '458763': Blauwe paal dexter
+  '458764': Bruine paal dexter
+  '458765': Groene paal dexter
+  '458766': Rode paal dexter
+  '458767': Zwarte paal dexter
+  '524288': Witte paal sinister
+  '524289': Oranje paal sinister
+  '524290': Magenta paal sinister
+  '524291': Lichtblauwe paal sinister
+  '524292': Gele paal sinister
+  '524293': Lichtgroene paal sinister
+  '524294': Roze paal sinister
+  '524295': Grijze paal sinister
+  '524296': Lichtgrijze paal sinister
+  '524297': Cyaan paal sinister
+  '524298': Paarse paal sinister
+  '524299': Blauwe paal sinister
+  '524300': Bruine paal sinister
+  '524301': Groene paal sinister
+  '524302': Rode paal sinister
+  '524303': Zwarte paal sinister
+  '589824': Witte paal
+  '589825': Oranje paal
+  '589826': Magenta paal
+  '589827': Lichtblauwe paal
+  '589828': Gele paal
+  '589829': Lichtgroene paal
+  '589830': Roze paal
+  '589831': Grijze paal
+  '589832': Lichtgrijze paal
+  '589833': Cyaan paal
+  '589834': Paarse paal
+  '589835': Blauwe paal
+  '589836': Bruine paal
+  '589837': Groene paal
+  '589838': Rode paal
+  '589839': Zwarte paal
+  '655360': Witte faas
+  '655361': Oranje faas
+  '655362': Magenta faas
+  '655363': Lichtblauwe faas
+  '655364': Gele faas
+  '655365': Lichtgroene faas
+  '655366': Roze faas
+  '655367': Grijze faas
+  '655368': Lichtgrijze faas
+  '655369': Cyaan faas
+  '655370': Paarse faas
+  '655371': Blauwe faas
+  '655372': Bruine faas
+  '655373': Groene faas
+  '655374': Rode faas
+  '655375': Zwarte faas
+  '720896': Witte band
+  '720897': Oranje band
+  '720898': Magenta band
+  '720899': Lichtblauwe band
+  '720900': Gele band
+  '720901': Lichtgroene band
+  '720902': Roze band
+  '720903': Grijze band
+  '720904': Lichtgrijze band
+  '720905': Cyaan band
+  '720906': Paarse band
+  '720907': Blauwe band
+  '720908': Bruine band
+  '720909': Groene band
+  '720910': Rode band
+  '720911': Zwarte band
+  '786432': Witte band sinister
+  '786433': Oranje band sinister
+  '786434': Magenta band sinister
+  '786435': Lichtblauwe band sinister
+  '786436': Gele band sinister
+  '786437': Lichtgroene band sinister
+  '786438': Roze band sinister
+  '786439': Grijze band sinister
+  '786440': Lichtgrijze band sinister
+  '786441': Cyaan band sinister
+  '786442': Paarse band sinister
+  '786443': Blauwe band sinister
+  '786444': Bruine band sinister
+  '786445': Groene band sinister
+  '786446': Rode band sinister
+  '786447': Zwarte band sinister
+  '851968': Witte paly
+  '851969': Oranje paly
+  '851970': Magenta paly
+  '851971': Lichtblauwe paly
+  '851972': Gele paly
+  '851973': Lichtgroene paly
+  '851974': Roze paly
+  '851975': Grijze paly
+  '851976': Lichtgrijze paly
+  '851977': Cyaan paly
+  '851978': Paarse paly
+  '851979': Blauwe paly
+  '851980': Bruine paly
+  '851981': Groene paly
+  '851982': Rode paly
+  '851983': Zwarte paly
+  '917504': Wit andreaskruis
+  '917505': Oranje andreaskruis
+  '917506': Magenta andreaskruis
+  '917507': Lichtblauw andreaskruis
+  '917508': Geel andreaskruis
+  '917509': Lichtgroen andreaskruis
+  '917510': Roze andreaskruis
+  '917511': Grijs andreaskruis
+  '917512': Lichtgrijs andreaskruis
+  '917513': Cyaan andreaskruis
+  '917514': Paars andreaskruis
+  '917515': Blauw andreaskruis
+  '917516': Bruin andreaskruis
+  '917517': Groen andreaskruis
+  '917518': Rood andreaskruis
+  '917519': Zwart andreaskruis
+  '983040': Wit kruis
+  '983041': Oranje kruis
+  '983042': Magenta kruis
+  '983043': Lichtblauw kruis
+  '983044': Geel kruis
+  '983045': Lichtgroen kruis
+  '983046': Roze kruis
+  '983047': Grijs kruis
+  '983048': Lichtgrijs kruis
+  '983049': Cyaan kruis
+  '983050': Paars kruis
+  '983051': Blauw kruis
+  '983052': Bruin kruis
+  '983053': Groen kruis
+  '983054': Rood kruis
+  '983055': Zwart kruis
+  '1048576': Witte keper
+  '1048577': Oranje keper
+  '1048578': Magenta keper
+  '1048579': Lichtblauwe keper
+  '1048580': Gele keper
+  '1048581': Lichtgroene keper
+  '1048582': Roze keper
+  '1048583': Grijze keper
+  '1048584': Lichtgrijze keper
+  '1048585': Cyaan keper
+  '1048586': Paarse keper
+  '1048587': Blauwe keper
+  '1048588': Bruine keper
+  '1048589': Groene keper
+  '1048590': Rode keper
+  '1048591': Zwarte keper
+  '1114112': Witte omgekeerde keper
+  '1114113': Oranje omgekeerde keper
+  '1114114': Magenta omgekeerde keper
+  '1114115': Lichtblauwe omgekeerde keper
+  '1114116': Gele omgekeerde keper
+  '1114117': Lichtgroene omgekeerde keper
+  '1114118': Roze omgekeerde keper
+  '1114119': Grijze omgekeerde keper
+  '1114120': Lichtgrijze omgekeerde keper
+  '1114121': Cyaan omgekeerde keper
+  '1114122': Paarse omgekeerde keper
+  '1114123': Blauwe omgekeerde keper
+  '1114124': Bruine omgekeerde keper
+  '1114125': Groene omgekeerde keper
+  '1114126': Rode omgekeerde keper
+  '1114127': Zwarte omgekeerde keper
+  '1179648': Witte ingesprongen basis
+  '1179649': Oranje ingesprongen basis
+  '1179650': Magenta ingesprongen basis
+  '1179651': Lichtblauwe ingesprongen basis
+  '1179652': Gele ingesprongen basis
+  '1179653': Lichtgroene ingesprongen basis
+  '1179654': Roze ingesprongen basis
+  '1179655': Grijze ingesprongen basis
+  '1179656': Lichtgrijze ingesprongen basis
+  '1179657': Cyaan ingesprongen basis
+  '1179658': Paarse ingesprongen basis
+  '1179659': Blauwe ingesprongen basis
+  '1179660': Bruine ingesprongen basis
+  '1179661': Groene ingesprongen basis
+  '1179662': Rode ingesprongen basis
+  '1179663': Zwarte ingesprongen basis
+  '1245184': Wit ingesprongen hoofd
+  '1245185': Oranje ingesprongen hoofd
+  '1245186': Magenta ingesprongen hoofd
+  '1245187': Lichtblauw ingesprongen hoofd
+  '1245188': Geel ingesprongen hoofd
+  '1245189': Lichtgroen ingesprongen hoofd
+  '1245190': Roze ingesprongen hoofd
+  '1245191': Grijs ingesprongen hoofd
+  '1245192': Lichtgrijs ingesprongen hoofd
+  '1245193': Cyaan ingesprongen hoofd
+  '1245194': Paars ingesprongen hoofd
+  '1245195': Blauw ingesprongen hoofd
+  '1245196': Bruin ingesprongen hoofd
+  '1245197': Groen ingesprongen hoofd
+  '1245198': Rood ingesprongen hoofd
+  '1245199': Zwart ingesprongen hoofd
+  '1310720': Witte per band sinister
+  '1310721': Oranje per band sinister
+  '1310722': Magenta per band sinister
+  '1310723': Lichtblauwe per band sinister
+  '1310724': Gele per band sinister
+  '1310725': Lichtgroene per band sinister
+  '1310726': Roze per band sinister
+  '1310727': Grijze per band sinister
+  '1310728': Lichtgrijze per band sinister
+  '1310729': Cyaan per band sinister
+  '1310730': Paarse per band sinister
+  '1310731': Blauwe per band sinister
+  '1310732': Bruine per band sinister
+  '1310733': Groene per band sinister
+  '1310734': Rode per band sinister
+  '1310735': Zwarte per band sinister
+  '1376256': Witte per band sinister omgekeerd
+  '1376257': Oranje per band sinister omgekeerd
+  '1376258': Magenta per band sinister omgekeerd
+  '1376259': Lichtblauwe per band sinister omgekeerd
+  '1376260': Gele per band sinister omgekeerd
+  '1376261': Lichtgroene per band sinister omgekeerd
+  '1376262': Roze per band sinister omgekeerd
+  '1376263': Grijze per band sinister omgekeerd
+  '1376264': Lichtgrijze per band sinister omgekeerd
+  '1376265': Cyaan per band sinister omgekeerd
+  '1376266': Paarse per band sinister omgekeerd
+  '1376267': Blauwe per band sinister omgekeerd
+  '1376268': Bruine per band sinister omgekeerd
+  '1376269': Groene per band sinister omgekeerd
+  '1376270': Rode per band sinister omgekeerd
+  '1376271': Zwarte per band sinister omgekeerd
+  '1441792': Witte per band omgekeerd
+  '1441793': Oranje per band omgekeerd
+  '1441794': Magenta per band omgekeerd
+  '1441795': Lichtblauwe per band omgekeerd
+  '1441796': Gele per band omgekeerd
+  '1441797': Lichtgroene per band omgekeerd
+  '1441798': Roze per band omgekeerd
+  '1441799': Grijze per band omgekeerd
+  '1441800': Lichtgrijze per band omgekeerd
+  '1441801': Cyaan per band omgekeerd
+  '1441802': Paarse per band omgekeerd
+  '1441803': Blauwe per band omgekeerd
+  '1441804': Bruine per band omgekeerd
+  '1441805': Groene per band omgekeerd
+  '1441806': Rode per band omgekeerd
+  '1441807': Zwarte per band omgekeerd
+  '1507328': Witte per band
+  '1507329': Oranje per band
+  '1507330': Magenta per band
+  '1507331': Lichtblauwe per band
+  '1507332': Gele per band
+  '1507333': Lichtgroene per band
+  '1507334': Roze per band
+  '1507335': Grijze per band
+  '1507336': Lichtgrijze per band
+  '1507337': Cyaan per band
+  '1507338': Paarse per band
+  '1507339': Blauwe per band
+  '1507340': Bruine per band
+  '1507341': Groene per band
+  '1507342': Rode per band
+  '1507343': Zwarte per band
+  '1572864': Wit rozet
+  '1572865': Oranje rozet
+  '1572866': Magenta rozet
+  '1572867': Lichtblauw rozet
+  '1572868': Geel rozet
+  '1572869': Lichtgroen rozet
+  '1572870': Roze rozet
+  '1572871': Grijs rozet
+  '1572872': Lichtgrijs rozet
+  '1572873': Cyaan rozet
+  '1572874': Paars rozet
+  '1572875': Blauw rozet
+  '1572876': Bruin rozet
+  '1572877': Groen rozet
+  '1572878': Rood rozet
+  '1572879': Zwart rozet
+  '1638400': Witte ruit
+  '1638401': Oranje ruit
+  '1638402': Magenta ruit
+  '1638403': Lichtblauwe ruit
+  '1638404': Gele ruit
+  '1638405': Lichtgroene ruit
+  '1638406': Roze ruit
+  '1638407': Grijze ruit
+  '1638408': Lichtgrijze ruit
+  '1638409': Cyaan ruit
+  '1638410': Paarse ruit
+  '1638411': Blauwe ruit
+  '1638412': Bruine ruit
+  '1638413': Groene ruit
+  '1638414': Rode ruit
+  '1638415': Zwarte ruit
+  '1703936': Witte per paal
+  '1703937': Oranje per paal
+  '1703938': Magenta per paal
+  '1703939': Lichtblauwe per paal
+  '1703940': Gele per paal
+  '1703941': Lichtgroene per paal
+  '1703942': Roze per paal
+  '1703943': Grijze per paal
+  '1703944': Lichtgrijze per paal
+  '1703945': Cyaan per paal
+  '1703946': Paarse per paal
+  '1703947': Blauwe per paal
+  '1703948': Bruine per paal
+  '1703949': Groene per paal
+  '1703950': Rode per paal
+  '1703951': Zwarte per paal
+  '1769472': Witte per faas
+  '1769473': Oranje per faas
+  '1769474': Magenta per faas
+  '1769475': Lichtblauwe per faas
+  '1769476': Gele per faas
+  '1769477': Lichtgroene per faas
+  '1769478': Roze per faas
+  '1769479': Grijze per faas
+  '1769480': Lichtgrijze per faas
+  '1769481': Cyaan per faas
+  '1769482': Paarse per faas
+  '1769483': Blauwe per faas
+  '1769484': Bruine per faas
+  '1769485': Groene per faas
+  '1769486': Rode per faas
+  '1769487': Zwarte per faas
+  '1835008': Witte per paal omgekeerd
+  '1835009': Oranje per paal omgekeerd
+  '1835010': Magenta per paal omgekeerd
+  '1835011': Lichtblauwe per paal omgekeerd
+  '1835012': Gele per paal omgekeerd
+  '1835013': Lichtgroene per paal omgekeerd
+  '1835014': Roze per paal omgekeerd
+  '1835015': Grijze per paal omgekeerd
+  '1835016': Lichtgrijze per paal omgekeerd
+  '1835017': Cyaan per paal omgekeerd
+  '1835018': Paarse per paal omgekeerd
+  '1835019': Blauwe per paal omgekeerd
+  '1835020': Bruine per paal omgekeerd
+  '1835021': Groene per paal omgekeerd
+  '1835022': Rode per paal omgekeerd
+  '1835023': Zwarte per paal omgekeerd
+  '1900544': Witte per faas omgekeerd
+  '1900545': Oranje per faas omgekeerd
+  '1900546': Magenta per faas omgekeerd
+  '1900547': Lichtblauwe per faas omgekeerd
+  '1900548': Gele per faas omgekeerd
+  '1900549': Lichtgroene per faas omgekeerd
+  '1900550': Roze per faas omgekeerd
+  '1900551': Grijze per faas omgekeerd
+  '1900552': Lichtgrijze per faas omgekeerd
+  '1900553': Cyaan per faas omgekeerd
+  '1900554': Paarse per faas omgekeerd
+  '1900555': Blauwe per faas omgekeerd
+  '1900556': Bruine per faas omgekeerd
+  '1900557': Groene per faas omgekeerd
+  '1900558': Rode per faas omgekeerd
+  '1900559': Zwarte per faas omgekeerd
+  '1966080': Witte zoom
+  '1966081': Oranje zoom
+  '1966082': Magenta zoom
+  '1966083': Lichtblauwe zoom
+  '1966084': Gele zoom
+  '1966085': Lichtgroene zoom
+  '1966086': Roze zoom
+  '1966087': Grijze zoom
+  '1966088': Lichtgrijze zoom
+  '1966089': Cyaan zoom
+  '1966090': Paarse zoom
+  '1966091': Blauwe zoom
+  '1966092': Bruine zoom
+  '1966093': Groene zoom
+  '1966094': Rode zoom
+  '1966095': Zwarte zoom
+  '2031616': Witte ingesprongen zoom
+  '2031617': Oranje ingesprongen zoom
+  '2031618': Magenta ingesprongen zoom
+  '2031619': Lichtblauwe ingesprongen zoom
+  '2031620': Gele ingesprongen zoom
+  '2031621': Lichtgroene ingesprongen zoom
+  '2031622': Roze ingesprongen zoom
+  '2031623': Grijze ingesprongen zoom
+  '2031624': Lichtgrijze ingesprongen zoom
+  '2031625': Cyaan ingesprongen zoom
+  '2031626': Paarse ingesprongen zoom
+  '2031627': Blauwe ingesprongen zoom
+  '2031628': Bruine ingesprongen zoom
+  '2031629': Groene ingesprongen zoom
+  '2031630': Rode ingesprongen zoom
+  '2031631': Zwarte ingesprongen zoom
+  '2097152': Wit Creeperwapen
+  '2097153': Oranje Creeperwapen
+  '2097154': Magenta Creeperwapen
+  '2097155': Lichtblauw Creeperwapen
+  '2097156': Geel Creeperwapen
+  '2097157': Lichtgroen Creeperwapen
+  '2097158': Roze Creeperwapen
+  '2097159': Grijs Creeperwapen
+  '2097160': Lichtgrijs Creeperwapen
+  '2097161': Cyaan Creeperwapen
+  '2097162': Paars Creeperwapen
+  '2097163': Blauw Creeperwapen
+  '2097164': Bruin Creeperwapen
+  '2097165': Groen Creeperwapen
+  '2097166': Rood Creeperwapen
+  '2097167': Zwart Creeperwapen
+  '2162688': Wit gradiënt
+  '2162689': Oranje gradiënt
+  '2162690': Magenta gradiënt
+  '2162691': Lichtblauw gradiënt
+  '2162692': Geel gradiënt
+  '2162693': Lichtgroen gradiënt
+  '2162694': Roze gradiënt
+  '2162695': Grijs gradiënt
+  '2162696': Lichtgrijs gradiënt
+  '2162697': Cyaan gradiënt
+  '2162698': Paars gradiënt
+  '2162699': Blauw gradiënt
+  '2162700': Bruin gradiënt
+  '2162701': Groen gradiënt
+  '2162702': Rood gradiënt
+  '2162703': Zwart gradiënt
+  '2228224': Wit basis gradiënt
+  '2228225': Oranje basis gradiënt
+  '2228226': Magenta basis gradiënt
+  '2228227': Lichtblauw basis gradiënt
+  '2228228': Geel basis gradiënt
+  '2228229': Lichtgroen basis gradiënt
+  '2228230': Roze basis gradiënt
+  '2228231': Grijs basis gradiënt
+  '2228232': Lichtgrijs basis gradiënt
+  '2228233': Cyaan basis gradiënt
+  '2228234': Paars basis gradiënt
+  '2228235': Blauw basis gradiënt
+  '2228236': Bruin basis gradiënt
+  '2228237': Groen basis gradiënt
+  '2228238': Rood basis gradiënt
+  '2228239': Zwart basis gradiënt
+  '2293760': Wit veld gemetseld
+  '2293761': Oranje veld gemetseld
+  '2293762': Magenta veld gemetseld
+  '2293763': Lichtblauw veld gemetseld
+  '2293764': Geel veld gemetseld
+  '2293765': Lichtgroen veld gemetseld
+  '2293766': Roze veld gemetseld
+  '2293767': Grijs veld gemetseld
+  '2293768': Lichtgrijs veld gemetseld
+  '2293769': Cyaan veld gemetseld
+  '2293770': Paars veld gemetseld
+  '2293771': Blauw veld gemetseld
+  '2293772': Bruin veld gemetseld
+  '2293773': Groen veld gemetseld
+  '2293774': Rood veld gemetseld
+  '2293775': Zwart veld gemetseld
+  '2359296': Wit schedelwapen
+  '2359297': Oranje schedelwapen
+  '2359298': Magenta schedelwapen
+  '2359299': Lichtblauw schedelwapen
+  '2359300': Geel schedelwapen
+  '2359301': Lichtgroen schedelwapen
+  '2359302': Roze schedelwapen
+  '2359303': Grijs schedelwapen
+  '2359304': Lichtgrijs schedelwapen
+  '2359305': Cyaan schedelwapen
+  '2359306': Paars schedelwapen
+  '2359307': Blauw schedelwapen
+  '2359308': Bruin schedelwapen
+  '2359309': Groen schedelwapen
+  '2359310': Rood schedelwapen
+  '2359311': Zwart schedelwapen
+  '2424832': Wit bloemwapen
+  '2424833': Oranje bloemwapen
+  '2424834': Magenta bloemwapen
+  '2424835': Lichtblauw bloemwapen
+  '2424836': Geel bloemwapen
+  '2424837': Lichtgroen bloemwapen
+  '2424838': Roze bloemwapen
+  '2424839': Grijs bloemwapen
+  '2424840': Lichtgrijs bloemwapen
+  '2424841': Cyaan bloemwapen
+  '2424842': Paars bloemwapen
+  '2424843': Blauw bloemwapen
+  '2424844': Bruin bloemwapen
+  '2424845': Groen bloemwapen
+  '2424846': Rood bloemwapen
+  '2424847': Zwart bloemwapen
+  '2490368': Wit Mojangwapen
+  '2490369': Oranje Mojangwapen
+  '2490370': Magenta Mojangwapen
+  '2490371': Lichtblauw Mojangwapen
+  '2490372': Geel Mojangwapen
+  '2490373': Lichtgroen Mojangwapen
+  '2490374': Roze Mojangwapen
+  '2490375': Grijs Mojangwapen
+  '2490376': Lightgrijs Mojangwapen
+  '2490377': Cyaan Mojangwapen
+  '2490378': Paars Mojangwapen
+  '2490379': Blauw Mojangwapen
+  '2490380': Bruin Mojangwapen
+  '2490381': Groen Mojangwapen
+  '2490382': Rood Mojangwapen
+  '2490383': Zwart Mojangwapen
+  '2555904': Witte aarde
+  '2555905': Oranje aarde
+  '2555906': Magenta aarde
+  '2555907': Lichtblauwe aarde
+  '2555908': Gele aarde
+  '2555909': Lichtgroene aarde
+  '2555910': Roze aarde
+  '2555911': Grijze aarde
+  '2555912': Lichtgrijze aarde
+  '2555913': Cyaan aarde
+  '2555914': Paarse aarde
+  '2555915': Blauwe aarde
+  '2555916': Bruine aarde
+  '2555917': Groene aarde
+  '2555918': Rode aarde
+  '2555919': Zwarte aarde
+  '2621440': Witte snuit
+  '2621441': Oranje snuit
+  '2621442': Magenta snuit
+  '2621443': Lichtblauwe snuit
+  '2621444': Gele snuit
+  '2621445': Lichtgroene snuit
+  '2621446': Roze snuit
+  '2621447': Grijze snuit
+  '2621448': Lichtgrijze snuit
+  '2621449': Cyaan snuit
+  '2621450': Paarse snuit
+  '2621451': Blauwe snuit
+  '2621452': Bruine snuit
+  '2621453': Groene snuit
+  '2621454': Rode snuit
+  '2621455': Zwarte snuit

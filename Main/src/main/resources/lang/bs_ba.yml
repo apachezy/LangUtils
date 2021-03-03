@@ -1,3 +1,4 @@
+#  Build time: 2021-03-04 01:01:26
 language:
   code: bs_ba
   name: Bosanski
@@ -1528,3 +1529,644 @@ colored_shied:
   green: Zeleni štit
   red: Crveni štit
   black: Crni štit
+banner_pattern:
+  '65536': Bijeli donji desni kanton
+  '65537': Narandžasti donji desni kanton
+  '65538': Purpurnocrveni donji desni kanton
+  '65539': Svijetlo plavi donji desni kanton
+  '65540': Žuti donji desni kanton
+  '65541': Svijetlo zeleni donji desni kanton
+  '65542': Rozi donji desni kanton
+  '65543': Sivi donji desni kanton
+  '65544': Svijetlo sivi donji desni kanton
+  '65545': Cijan donji desni kanton
+  '65546': Ljubičasti donji desni kanton
+  '65547': Plavi donji desni kanton
+  '65548': Braon donji desni kanton
+  '65549': Zeleni donji desni kanton
+  '65550': Crveni donji desni kanton
+  '65551': Crni donji desni kanton
+  '131072': Bijeli donji lijevi kanton
+  '131073': Narandžasti donji lijevi kanton
+  '131074': Purpurnocrveni donji lijevi kanton
+  '131075': Svijetlo plavi donji lijevi kanton
+  '131076': Žuti donji lijevi kanton
+  '131077': Svijetlo zeleni donji lijevi kanton
+  '131078': Rozi donji lijevi kanton
+  '131079': Sivi donji lijevi kanton
+  '131080': Svijetlo sivi donji lijevi kanton
+  '131081': Cijan donji lijevi kanton
+  '131082': Ljubičasti donji lijevi kanton
+  '131083': Plavi donji lijevi kanton
+  '131084': Braon donji lijevi kanton
+  '131085': Zeleni donji lijevi kanton
+  '131086': Crveni donji lijevi kanton
+  '131087': Crni donji lijevi kanton
+  '196608': Bijeli gornji desni kanton
+  '196609': Narandžasti gornji desni kanton
+  '196610': Purpurnocrveni gornji desni kanton
+  '196611': Svijetlo plavi gornji desni kanton
+  '196612': Žuti gornji desni kanton
+  '196613': Svijetlo zeleni gornji desni kanton
+  '196614': Rozi gornji desni kanton
+  '196615': Sivi gornji desni kanton
+  '196616': Svijetlo sivi gornji desni kanton
+  '196617': Cijan gornji desni kanton
+  '196618': Ljubičasti gornji desni kanton
+  '196619': Plavi gornji desni kanton
+  '196620': Braon gornji desni kanton
+  '196621': Zeleni gornji desni kanton
+  '196622': Crveni gornji desni kanton
+  '196623': Crni gornji desni kanton
+  '262144': Bijeli gornji lijevi kanton
+  '262145': Narandžasti gornji lijevi kanton
+  '262146': Purpurnocrveni gornji lijevi kanton
+  '262147': Svijetlo plavi gornji lijevi kanton
+  '262148': Žuti gornji lijevi kanton
+  '262149': Svijetlo zeleni gornji lijevi kanton
+  '262150': Rozi gornji lijevi kanton
+  '262151': Sivi gornji lijevi kanton
+  '262152': Svijetlo sivi gornji lijevi kanton
+  '262153': Cijan gornji lijevi kanton
+  '262154': Ljubičasti gornji lijevi kanton
+  '262155': Plavi gornji lijevi kanton
+  '262156': Braon gornji lijevi kanton
+  '262157': Zeleni gornji lijevi kanton
+  '262158': Crveni gornji lijevi kanton
+  '262159': Crni gornji lijevi kanton
+  '327680': Bijeli donji dio
+  '327681': Narandžasti donji dio
+  '327682': Purpurnocrvena baza
+  '327683': Svijetlo plavi donji dio
+  '327684': Žuti donji dio
+  '327685': Svijetlo zeleni donji dio
+  '327686': Rozi donji dio
+  '327687': Sivi donji dio
+  '327688': Svijetlo sivi donji dio
+  '327689': Cijan donji dio
+  '327690': Ljubičasti donji dio
+  '327691': Plavi donji dio
+  '327692': Braon donji dio
+  '327693': Zeleni donji dio
+  '327694': Crveni donji dio
+  '327695': Crni donji dio
+  '393216': Bijeli gornji dio
+  '393217': Narandžasti gornji dio
+  '393218': Purpurnocrvena gornja pruga
+  '393219': Svijetlo plavi gornji dio
+  '393220': Žuti gornji dio
+  '393221': Svijetlo zeleni gornji dio
+  '393222': Rozi gornji dio
+  '393223': Sivi gornji dio
+  '393224': Svijetlo sivi gornji dio
+  '393225': Cijan gornji dio
+  '393226': Ljubičasti gornji dio
+  '393227': Plavi gornji dio
+  '393228': Braon gornji dio
+  '393229': Zeleni gornji dio
+  '393230': Crveni gornji dio
+  '393231': Crni gornji dio
+  '458752': Bijela desna traka
+  '458753': Narandžasta desna traka
+  '458754': Purpurnocrvena desna traka
+  '458755': Svijetlo plava desna traka
+  '458756': Žuta desna traka
+  '458757': Svijetlo zelena desna traka
+  '458758': Roza desna traka
+  '458759': Siva desna traka
+  '458760': Svijetlo siva desna traka
+  '458761': Cijan desna traka
+  '458762': Ljubičasta desna traka
+  '458763': Plava desna traka
+  '458764': Braon desna traka
+  '458765': Zelena desna traka
+  '458766': Crvena desna traka
+  '458767': Crna desna traka
+  '524288': Bijela lijeva traka
+  '524289': Narandžasta lijeva traka
+  '524290': Purpurnocrvena lijeva traka
+  '524291': Svijetlo plava lijeva traka
+  '524292': Žuta lijeva traka
+  '524293': Svijetlo zelena lijeva traka
+  '524294': Roza lijeva traka
+  '524295': Siva lijeva traka
+  '524296': Svijetlo siva lijeva traka
+  '524297': Cijan lijeva traka
+  '524298': Ljubičasta lijeva traka
+  '524299': Plava lijeva traka
+  '524300': Braon lijeva traka
+  '524301': Zelena lijeva traka
+  '524302': Crvena lijeva traka
+  '524303': Crna lijeva traka
+  '589824': Bijela traka
+  '589825': Narandžasta traka
+  '589826': Purpurnocrvena traka
+  '589827': Svijetlo plava traka
+  '589828': Žuta traka
+  '589829': Svijetlo zelena traka
+  '589830': Roza traka
+  '589831': Siva traka
+  '589832': Svijetlo siva traka
+  '589833': Cijan traka
+  '589834': Ljubičasta traka
+  '589835': Plava traka
+  '589836': Braon traka
+  '589837': Zelena traka
+  '589838': Crvena traka
+  '589839': Crna traka
+  '655360': Bijela pruga
+  '655361': Narandžasta pruga
+  '655362': Purpurnocrvena pruga
+  '655363': Svijetlo plava pruga
+  '655364': Žuta pruga
+  '655365': Svijetlo zelena pruga
+  '655366': Roza pruga
+  '655367': Siva pruga
+  '655368': Svijetlo siva pruga
+  '655369': Cijan pruga
+  '655370': Ljubičasta pruga
+  '655371': Plava pruga
+  '655372': Braon pruga
+  '655373': Zelena pruga
+  '655374': Crvena pruga
+  '655375': Crna pruga
+  '720896': Bijela dijagonala
+  '720897': Narandžasta dijagonala
+  '720898': Purpurnocrvena dijagonala
+  '720899': Svijetlo plava dijagonala
+  '720900': Žuta dijagonala
+  '720901': Svijetlo zelena dijagonala
+  '720902': Roza dijagonala
+  '720903': Siva dijagonala
+  '720904': Svijetlo siva dijagonala
+  '720905': Cijan dijagonala
+  '720906': Ljubičasta dijagonala
+  '720907': Plava dijagonala
+  '720908': Braon dijagonala
+  '720909': Zelena dijagonala
+  '720910': Crvena dijagonala
+  '720911': Crna dijagonala
+  '786432': Bijela lijeva dijagonala
+  '786433': Narandžasta lijeva dijagonala
+  '786434': Purpurnocrvena lijeva dijagonala
+  '786435': Svijetlo plava lijeva dijagonala
+  '786436': Žuta lijeva dijagonala
+  '786437': Svijetlo zelena lijeva dijagonala
+  '786438': Roza lijeva dijagonala
+  '786439': Siva lijeva dijagonala
+  '786440': Svijetlo siva lijeva dijagonala
+  '786441': Cijan lijeva dijagonala
+  '786442': Ljubičasta lijeva dijagonala
+  '786443': Plava lijeva dijagonala
+  '786444': Braon lijeva dijagonala
+  '786445': Zelena lijeva dijagonala
+  '786446': Crvena lijeva dijagonala
+  '786447': Crna lijeva dijagonala
+  '851968': Bijele pruge
+  '851969': Narandžaste pruge
+  '851970': Purpurnocrvene pruge
+  '851971': Svijetlo plave pruge
+  '851972': Žute pruge
+  '851973': Svijetlo zelene pruge
+  '851974': Roze pruge
+  '851975': Sive pruge
+  '851976': Svijetlo sive pruge
+  '851977': Cijan pruge
+  '851978': Ljubičaste pruge
+  '851979': Plave pruge
+  '851980': Braon pruge
+  '851981': Zelene pruge
+  '851982': Crvene pruge
+  '851983': Crne pruge
+  '917504': Bijela saltira
+  '917505': Narandžasta saltira
+  '917506': Purpurnocrvena saltira
+  '917507': Svijetlo plava saltira
+  '917508': Žuta saltira
+  '917509': Svijetlo zelena saltira
+  '917510': Roza saltira
+  '917511': Siva saltira
+  '917512': Svijetlo siva saltira
+  '917513': Cijan saltira
+  '917514': Ljubičasta saltira
+  '917515': Plava saltira
+  '917516': Braon saltira
+  '917517': Zelena saltira
+  '917518': Crvena saltira
+  '917519': Crna saltira
+  '983040': Bijeli krst
+  '983041': Narandžasti krst
+  '983042': Purpurnocrveni krst
+  '983043': Svijetlo plavi krst
+  '983044': Žuti krst
+  '983045': Svijetlo zeleni krst
+  '983046': Rozi krst
+  '983047': Sivi krst
+  '983048': Svijetlo sivi krst
+  '983049': Cijan krst
+  '983050': Ljubičasti krst
+  '983051': Plavi krst
+  '983052': Braon krst
+  '983053': Zeleni krst
+  '983054': Crveni krst
+  '983055': Crni krst
+  '1048576': Bijeli trougao
+  '1048577': Narandžasti trougao
+  '1048578': Purpurnocrveni trougao
+  '1048579': Svijetlo plavi trougao
+  '1048580': Žuti trougao
+  '1048581': Svijetlo zeleni trougao
+  '1048582': Rozi trougao
+  '1048583': Sivi trougao
+  '1048584': Svijetlo sivi trougao
+  '1048585': Cijan trougao
+  '1048586': Ljubičasti trougao
+  '1048587': Plavi trougao
+  '1048588': Braon trougao
+  '1048589': Zeleni trougao
+  '1048590': Crveni trougao
+  '1048591': Crni trougao
+  '1114112': Bijeli obrnuti trougao
+  '1114113': Narandžasti obrnuti trougao
+  '1114114': Purpurnocrveni obrnuti trougao
+  '1114115': Svijetlo plavi obrnuti trougao
+  '1114116': Žuti obrnuti trougao
+  '1114117': Svijetlo zeleni obrnuti trougao
+  '1114118': Rozi obrnuti trougao
+  '1114119': Sivi obrnuti trougao
+  '1114120': Svijetlo sivi obrnuti trougao
+  '1114121': Cijan obrnuti trougao
+  '1114122': Ljubičasti obrnuti trougao
+  '1114123': Plavi obrnuti trougao
+  '1114124': Braon obrnuti trougao
+  '1114125': Zeleni obrnuti trougao
+  '1114126': Crveni obrnuti trougao
+  '1114127': Crni obrnuti trougao
+  '1179648': Bijela uvučena osnova
+  '1179649': Narandžasta uvučena osnova
+  '1179650': Purpurnocrvena uvučena osnova
+  '1179651': Svijetlo plava uvučena osnova
+  '1179652': Žuta uvučena osnova
+  '1179653': Svijetlo zelena uvučena osnova
+  '1179654': Roza uvučena osnova
+  '1179655': Siva uvučena osnova
+  '1179656': Svijetlo siva uvučena osnova
+  '1179657': Cijan uvučena osnova
+  '1179658': Ljubičasta uvučena osnova
+  '1179659': Plava uvučena osnova
+  '1179660': Braon uvučena osnova
+  '1179661': Zelena uvučebna osnova
+  '1179662': Crvena uvučena osnova
+  '1179663': Crna uvučena osnova
+  '1245184': Bijeli uvučeni vrh
+  '1245185': Narandžasti uvučeni vrh
+  '1245186': Purpurnocrveni uvučeni vrh
+  '1245187': Svijetlo plavi uvučeni vrh
+  '1245188': Žuti uvučeni vrh
+  '1245189': Svijetlo zeleni uvučeni vrh
+  '1245190': Rozi uvučeni vrh
+  '1245191': Svijetlo sivi uvučeni vrh
+  '1245192': Svijetlo sivi uvučeni vrh
+  '1245193': Cijan uvučeni vrh
+  '1245194': Ljubičasti uvučeni vrh
+  '1245195': Plavi uvučeni vrh
+  '1245196': Braon uvučeni vrh
+  '1245197': Zeleni uvučeni vrh
+  '1245198': Crveni uvučeni vrh
+  '1245199': Crni uvučeni vrh
+  '1310720': Bijela lijeva puna dijagonala
+  '1310721': Narandžasta lijeva puna dijagonala
+  '1310722': Purpurnocrvena lijeva puna dijagonala
+  '1310723': Svijetlo plava lijeva puna dijagonala
+  '1310724': Žuta lijeva puna dijagonala
+  '1310725': Svijetlo zelena lijeva puna dijagonala
+  '1310726': Roza lijeva puna dijagonala
+  '1310727': Siva lijeva puna dijagonala
+  '1310728': Svijetlo siva lijeva puna dijagonala
+  '1310729': Cijan lijeva puna dijagonala
+  '1310730': Ljubičasta lijeva puna dijagonala
+  '1310731': Plava lijeva puna dijagonala
+  '1310732': Braon lijeva puna dijagonala
+  '1310733': Zelena lijeva puna dijagonala
+  '1310734': Crvena lijeva puna dijagonala
+  '1310735': Crna lijeva puna dijagonala
+  '1376256': Bijela obrnuta lijeva puna dijagonala
+  '1376257': Narandžasta obrnuta lijeva puna dijagonala
+  '1376258': Purpurnocrvena obrnuta lijeva puna dijagonala
+  '1376259': Svijetlo plava obrnuta lijeva puna dijagonala
+  '1376260': Žuta obrnuta lijeva puna dijagonala
+  '1376261': Svijetlo zelena obrnuta lijeva puna dijagonala
+  '1376262': Roza obrnuta lijeva puna dijagonala
+  '1376263': Siva obrnuta lijeva puna dijagonala
+  '1376264': Svijetlo siva obrnuta lijeva puna dijagonala
+  '1376265': Cijan obrnuta lijeva puna dijagonala
+  '1376266': Ljubičasta obrnuta lijeva puna dijagonala
+  '1376267': Plava obrnuta lijeva puna dijagonala
+  '1376268': Braon obrnuta lijeva puna dijagonala
+  '1376269': Zelena obrnuta lijeva puna dijagonala
+  '1376270': Crvena obrnuta lijeva puna dijagonala
+  '1376271': Crna obrnuta lijeva puna dijagonala
+  '1441792': Bijela obrnuta puna dijagonala
+  '1441793': Narandžasta obrnuta puna dijagonala
+  '1441794': Purpurnocrvena obrnuta puna dijagonala
+  '1441795': Svijetlo plava obrnuta puna dijagonala
+  '1441796': Žuta obrnuta puna dijagonala
+  '1441797': Svijetlo zelena obrnuta puna dijagonala
+  '1441798': Roza obrnuta puna dijagonala
+  '1441799': Siva obrnuta puna dijagonala
+  '1441800': Svijetlo siva obrnuta puna dijagonala
+  '1441801': Cijan obrnuta puna dijagonala
+  '1441802': Ljubičasta obrnuta puna dijagonala
+  '1441803': Plava obrnuta puna dijagonala
+  '1441804': Braon obrnuta puna dijagonala
+  '1441805': Zelena obrnuta puna dijagonala
+  '1441806': Crvena obrnuta puna dijagonala
+  '1441807': Crna obrnuta puna dijagonala
+  '1507328': Bijela puna dijagonala
+  '1507329': Narandžasta puna dijagonala
+  '1507330': Purpurnocrvena puna dijagonala
+  '1507331': Svijetlo plava puna dijagonala
+  '1507332': Žuta puna dijagonala
+  '1507333': Svijetlo zelena puna dijagonala
+  '1507334': Roza puna dijagonala
+  '1507335': Siva puna dijagonala
+  '1507336': Svijetlo siva puna dijagonala
+  '1507337': Cijan puna dijagonala
+  '1507338': Ljubičasta puna dijagonala
+  '1507339': Plava puna dijagonala
+  '1507340': Braon puna dijagonala
+  '1507341': Zelena puna dijagonala
+  '1507342': Crvena puna dijagonala
+  '1507343': Crna puna dijagonala
+  '1572864': Bijeli kružić
+  '1572865': Narandžasti kružić
+  '1572866': Purpurnocrveni kružić
+  '1572867': Svijetlo plavi kružić
+  '1572868': Žuti kružić
+  '1572869': Svijetlo zeleni kružić
+  '1572870': Rozi kružić
+  '1572871': Sivi kružić
+  '1572872': Svijetlo sivi kružić
+  '1572873': Cijan kružić
+  '1572874': Ljubičasti kružić
+  '1572875': Plavi kružić
+  '1572876': Braon kružić
+  '1572877': Zeleni kružić
+  '1572878': Crveni kružić
+  '1572879': Crni kružić
+  '1638400': Bijeli romb
+  '1638401': Narandžasti romb
+  '1638402': Purpurnocrveni romb
+  '1638403': Svijetlo plavi romb
+  '1638404': Žuti romb
+  '1638405': Svijetlo zeleni romb
+  '1638406': Rozi romb
+  '1638407': Sivi romb
+  '1638408': Svijetlo sivi romb
+  '1638409': Cijan romb
+  '1638410': Ljubičasti romb
+  '1638411': Plavi romb
+  '1638412': Braon romb
+  '1638413': Zeleni romb
+  '1638414': Crveni romb
+  '1638415': Crni romb
+  '1703936': Bijela puna traka
+  '1703937': Narandžasta puna traka
+  '1703938': Purpurnocrvena lijeva polovina
+  '1703939': Svijetlo plava puna traka
+  '1703940': Žuta puna traka
+  '1703941': Svijetlo zelena puna traka
+  '1703942': Roza puna traka
+  '1703943': Siva puna traka
+  '1703944': Svijetlo siva puna traka
+  '1703945': Cijan puna traka
+  '1703946': Ljubičasta puna traka
+  '1703947': Plava puna traka
+  '1703948': Braon puna traka
+  '1703949': Zelena puna traka
+  '1703950': Crvena puna traka
+  '1703951': Crna puna traka
+  '1769472': Bijela puna pruga
+  '1769473': Narandžasta puna pruga
+  '1769474': Purpurnocrvena gornja polovina
+  '1769475': Svijetlo plava puna pruga
+  '1769476': Žuta puna pruga
+  '1769477': Svijetlo zelena puna pruga
+  '1769478': Roza puna pruga
+  '1769479': Siva puna pruga
+  '1769480': Svijetlo siva puna pruga
+  '1769481': Cijan puna pruga
+  '1769482': Ljubičasta puna pruga
+  '1769483': Plava puna pruga
+  '1769484': Braon puna pruga
+  '1769485': Zelena puna pruga
+  '1769486': Crvena puna pruga
+  '1769487': Crna puna pruga
+  '1835008': Bijela obrnuta puna traka
+  '1835009': Narandžasta obrnuta puna traka
+  '1835010': Purpurnocrvena desna polovina
+  '1835011': Svijetlo plava obrnuta puna traka
+  '1835012': Žuta obrnuta puna traka
+  '1835013': Svijetlo zelena obrnuta puna traka
+  '1835014': Roza obrnuta puna traka
+  '1835015': Siva obrnuta puna traka
+  '1835016': Svijetlo siva obrnuta puna traka
+  '1835017': Cijan obrnuta puna traka
+  '1835018': Ljubičasta obrnuta puna traka
+  '1835019': Plava obrnuta puna traka
+  '1835020': Braon obrnuta puna traka
+  '1835021': Zelena obrnuta puna traka
+  '1835022': Crvena obrnuta puna traka
+  '1835023': Crna obrnuta puna traka
+  '1900544': Bijela obrnuta puna pruga
+  '1900545': Narandžasta obrnuta puna pruga
+  '1900546': Purpurnocrvena donja polovina
+  '1900547': Svijetlo plava obrnuta puna pruga
+  '1900548': Žuta obrnuta puna pruga
+  '1900549': Svijetlo zelena obrnuta puna pruga
+  '1900550': Roza obrnuta puna pruga
+  '1900551': Siva obrnuta puna pruga
+  '1900552': Svijetlo siva obrnuta puna pruga
+  '1900553': Cijan obrnuta puna pruga
+  '1900554': Ljubičasta obrnuta puna pruga
+  '1900555': Plava obrnuta puna pruga
+  '1900556': Braon obrnuta puna pruga
+  '1900557': Zelena obrnuta puna pruga
+  '1900558': Crvena obrnuta puna pruga
+  '1900559': Crna obrnuta puna pruga
+  '1966080': Bijeli okvir
+  '1966081': Narandžasti okvir
+  '1966082': Rozi okvir
+  '1966083': Svijetlo plavi okvir
+  '1966084': Žuti okvir
+  '1966085': Svijetlo zeleni okvir
+  '1966086': Rozi okvir
+  '1966087': Sivi okvir
+  '1966088': Svijetlo sivi okvir
+  '1966089': Cijan okvir
+  '1966090': Ljubičasti okvir
+  '1966091': Plavi okvir
+  '1966092': Braon okvir
+  '1966093': Zeleni okvir
+  '1966094': Crveni okvir
+  '1966095': Crni okvir
+  '2031616': Bijeli uvučeni okvir
+  '2031617': Narandžasti uvučeni okvir
+  '2031618': Purpurnocrveni uvučeni okvir
+  '2031619': Svijetlo plavi uvučeni okvir
+  '2031620': Žuti uvučeni okvir
+  '2031621': Svijetlo zeleni uvučeni okvir
+  '2031622': Rozi uvučeni okvir
+  '2031623': Sivi uvučeni okvir
+  '2031624': Svijetlo sivi uvučeni okvir
+  '2031625': Cijan uvučeni okvir
+  '2031626': Ljubičasti uvučeni okvir
+  '2031627': Plavi uvučeni okvir
+  '2031628': Braon uvučeni okvir
+  '2031629': Zeleni uvučeni okvir
+  '2031630': Crveni uvučeni okvir
+  '2031631': Crni uvučeni okvir
+  '2097152': Bijeli kriper
+  '2097153': Narandžasti kriper
+  '2097154': Purpurnocrveni kriper
+  '2097155': Svijetlo plavi kriper
+  '2097156': Žuti kriper
+  '2097157': Svijetlo zeleni kriper
+  '2097158': Rozi kriper
+  '2097159': Sivi kriper
+  '2097160': Svijetlo sivi kriper
+  '2097161': Cijan kriper
+  '2097162': Ljubičasti kriper
+  '2097163': Plavi kriper
+  '2097164': Braon kriper
+  '2097165': Zeleni kriper
+  '2097166': Crveni kriper
+  '2097167': Crni kriper
+  '2162688': Bijeli gradijent
+  '2162689': Narandžasti gradijent
+  '2162690': Purpurnocrveni gradijent
+  '2162691': Svijetlo plavi gradijent
+  '2162692': Žuti gradijent
+  '2162693': Svijetlo zeleni gradijent
+  '2162694': Rozi gradijent
+  '2162695': Sivi gradijent
+  '2162696': Svijetlo sivi gradijent
+  '2162697': Cijan gradijent
+  '2162698': Ljubičasti gradijent
+  '2162699': Plavi gradijent
+  '2162700': Braon gradijent
+  '2162701': Zeleni gradijent
+  '2162702': Crveni gradijent
+  '2162703': Crni gradijent
+  '2228224': Bijeli donji gradijent
+  '2228225': Narandžasti donji gradijent
+  '2228226': Purpurnocrveni donji gradijent
+  '2228227': Svijetlo plavi donji gradijent
+  '2228228': Žuti donji gradijent
+  '2228229': Svijetlo zeleni donji gradijent
+  '2228230': Rozi donji gradijent
+  '2228231': Sivi donji gradijent
+  '2228232': Svijetlo sivi donji gradijent
+  '2228233': Cijan donji gradijent
+  '2228234': Ljubičasti donji gradijent
+  '2228235': Plavi donji gradijent
+  '2228236': Braon donji gradijent
+  '2228237': Zeleni donji gradijent
+  '2228238': Crveni donji gradijent
+  '2228239': Crni donji gradijent
+  '2293760': Bijela cigla
+  '2293761': Narandžasta cigla
+  '2293762': Purpurnocrvena cigla
+  '2293763': Svijetlo plava cigla
+  '2293764': Žuta cigla
+  '2293765': Svijetlo zelena cigla
+  '2293766': Roza cigla
+  '2293767': Siva cigla
+  '2293768': Svijetlo siva cigla
+  '2293769': Cijan cigla
+  '2293770': Ljubičasta cigla
+  '2293771': Plava cigla
+  '2293772': Braon cigla
+  '2293773': Zelena cigla
+  '2293774': Crvena cigla
+  '2293775': Crna cigla
+  '2359296': Bijela lobanja
+  '2359297': Narandžasta lobanja
+  '2359298': Purpurnocrvena lobanja
+  '2359299': Svijetlo plava lobanja
+  '2359300': Žuta lobanja
+  '2359301': Svijetlo zelena lobanja
+  '2359302': Roza lobanja
+  '2359303': Siva lobanja
+  '2359304': Svijetlo siva lobanja
+  '2359305': Cijan lobanja
+  '2359306': Ljubičasta lobanja
+  '2359307': Plava lobanja
+  '2359308': Braon lobanja
+  '2359309': Zelena lobanja
+  '2359310': Crvena lobanja
+  '2359311': Crna lobanja
+  '2424832': Bijeli cvijet
+  '2424833': Narandžasti cvijet
+  '2424834': Purpurnocrveni cvijet
+  '2424835': Svijetlo plavi cvijet
+  '2424836': Žuti cvijet
+  '2424837': Svijetlo zeleni cvijet
+  '2424838': Rozi cvijet
+  '2424839': Sivi cvijet
+  '2424840': Svijetlo sivi cvijet
+  '2424841': Cijan cvijet
+  '2424842': Ljubičasti cvijet
+  '2424843': Plavi cvijet
+  '2424844': Braon cvijet
+  '2424845': Zeleni cvijet
+  '2424846': Crveni svijet
+  '2424847': Crni cvijet
+  '2490368': Bijela stvar
+  '2490369': Narandžasta stvar
+  '2490370': Purpurnocrvena stvar
+  '2490371': Svijetlo plava stvar
+  '2490372': Žuta stvar
+  '2490373': Svijetlo zelena stvar
+  '2490374': Roza stvar
+  '2490375': Siva stvar
+  '2490376': Svijetlo siva stvar
+  '2490377': Cijan stvar
+  '2490378': Ljubičasta stvar
+  '2490379': Plava stvar
+  '2490380': Braon stvar
+  '2490381': Zelena stvar
+  '2490382': Crvena stvar
+  '2490383': Crna stvar
+  '2555904': Bijeli globus
+  '2555905': Narandžasti globus
+  '2555906': Roza globus
+  '2555907': Svjetloplavi globus
+  '2555908': Žuti globus
+  '2555909': Svjetlozeleni globus
+  '2555910': Ružičasti globus
+  '2555911': Sivi globus
+  '2555912': Svjetlosivi globus
+  '2555913': Tirkizni globus
+  '2555914': Ljubičasti globus
+  '2555915': Plavi globus
+  '2555916': Smeđi globus
+  '2555917': Zeleni globus
+  '2555918': Crveni globus
+  '2555919': Crni globus
+  '2621440': Bijela njuška
+  '2621441': Narandžasta njuška
+  '2621442': Magenta njuška
+  '2621443': Svijetloplava njuška
+  '2621444': Žuta njuška
+  '2621445': Limeta njuška
+  '2621446': Roze njuška
+  '2621447': Siva njuška
+  '2621448': Svijetlosiva njuška
+  '2621449': Cijan njuška
+  '2621450': Ljubičasta njuška
+  '2621451': Plava njuška
+  '2621452': Smeđa njuška
+  '2621453': Zelena njuška
+  '2621454': Crvena njuška
+  '2621455': Crna njuška

@@ -1,16 +1,15 @@
 package com.meowj.langutils.misc;
 
 import com.meowj.langutils.lang.LanguageHelper;
-import org.bukkit.Material;
+import org.bukkit.ChatColor;
+import org.bukkit.DyeColor;
 import org.bukkit.OfflinePlayer;
+import org.bukkit.block.banner.PatternType;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.entity.TropicalFish.Pattern;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.meta.ItemMeta;
-import org.bukkit.inventory.meta.PotionMeta;
-import org.bukkit.inventory.meta.SkullMeta;
-import org.bukkit.inventory.meta.TropicalFishBucketMeta;
+import org.bukkit.inventory.meta.*;
 import org.bukkit.potion.PotionType;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -35,7 +34,7 @@ public class Util {
     }
 
     @Nullable
-    public static String getPlayerHeadOwner(@NotNull ItemStack item) {
+    public static String getPlayerHeadOwnerName(@NotNull ItemStack item) {
         ItemMeta meta = item.getItemMeta();
         if (meta instanceof SkullMeta) {
             OfflinePlayer ofp = ((SkullMeta) meta).getOwningPlayer();
@@ -58,16 +57,30 @@ public class Util {
             int bcol = meta.getBodyColor().ordinal();
             int pcol = meta.getPatternColor().ordinal();
 
-            return (pcol & 255) << 24 | (bcol & 255) << 16 | (patt & 255) << 8 | type;
+            return pcol << 24 | bcol << 16 | patt << 8 | type;
         }
         return null;
     }
 
+    public static Integer getPatternMixedCode(@NotNull org.bukkit.block.banner.Pattern pattern) {
+        int p = pattern.getPattern().ordinal();
+        int c = pattern.getColor().ordinal();
+        return p << 16 | c;
+    }
+
     public static void testPlayerHandle(CommandSender sender, String lang) {
         if (sender instanceof Player) {
+
             Player player = (Player) sender;
             String locale = lang == null ? player.getLocale() : lang;
             ItemStack itm = player.getInventory().getItemInMainHand();
+
+            player.sendMessage(LanguageHelper.getItemName(itm, locale));
+
+            ItemMeta meta = itm.getItemMeta();
+            if (meta == null) {
+                return;
+            }
 
             switch (itm.getType()) {
                 case BLACK_BANNER:
@@ -86,14 +99,24 @@ public class Util {
                 case RED_BANNER:
                 case YELLOW_BANNER:
                 case WHITE_BANNER:
-
+                    BannerMeta bannerMeta = (BannerMeta) meta;
+                    for (org.bukkit.block.banner.Pattern pattern : bannerMeta.getPatterns()) {
+                        player.sendMessage(
+                                "  " + ChatColor.GRAY
+                                     + LanguageHelper.getBannerPatternName(pattern, player));
+                    }
                     break;
 
                 default:
                     break;
             }
+        } else {
+            org.bukkit.block.banner.Pattern pattern1 = new org.bukkit.block.banner.Pattern(DyeColor.ORANGE, PatternType.CURLY_BORDER);
+            org.bukkit.block.banner.Pattern pattern2 = new org.bukkit.block.banner.Pattern(DyeColor.ORANGE, PatternType.CURLY_BORDER);
 
-            player.sendMessage(LanguageHelper.getItemName(player.getInventory().getItemInMainHand(), lang));
+            sender.sendMessage(String.format(
+                    "%d, %d | %s, %s",
+                    pattern1.hashCode(), pattern2.hashCode(), pattern1.toString(), pattern2.toString()));
         }
     }
 

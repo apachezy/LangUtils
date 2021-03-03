@@ -1,3 +1,4 @@
+#  Build time: 2021-03-04 01:01:26
 language:
   code: ga_ie
   name: Gaeilge
@@ -1530,3 +1531,644 @@ colored_shied:
   green: Sciath Uaine
   red: Sciath Dhearg
   black: Sciath Dhubh
+banner_pattern:
+  '65536': Cúinneán Bán sa Bhun Deas
+  '65537': Cúinneán Oráisteach sa Bhun Deas
+  '65538': Cúinneán Maigeanta sa Bhun Deas
+  '65539': Cúinneán Bánghorm sa Bhun Deas
+  '65540': Cúinneán Buí sa Bhun Deas
+  '65541': Cúinneán Líomach sa Bhun Deas
+  '65542': Cúinneán Bándearg sa Bhun Deas
+  '65543': Cúinneán Liath sa Bhun Deas
+  '65544': Cúinneán Fionnliath sa Bhun Deas
+  '65545': Cúinneán Cian sa Bhun Deas
+  '65546': Cúinneán Corcra sa Bhun Deas
+  '65547': Cúinneán Gorm sa Bhun Deas
+  '65548': Cúinneán Donn sa Bhun Deas
+  '65549': Cúinneán Uaine sa Bhun Deas
+  '65550': Cúinneán Dearg sa Bhun Deas
+  '65551': Cúinneán Dubh sa Bhun Deas
+  '131072': Cúinneán Ban sa Bhun Clé
+  '131073': Cúinneán Oráisteach sa Bhun Clé
+  '131074': Cúinneán Maigeanta sa Bhun Clé
+  '131075': Cúinneán Bánghorm sa Bhun Clé
+  '131076': Cúinneán Buí sa Bhun Clé
+  '131077': Cúinneán Líomach sa Bhun Clé
+  '131078': Cúinneán Bándearg sa Bhun Clé
+  '131079': Cúinneán Liath sa Bhun Clé
+  '131080': Cúinneán Fionnliath sa Bhun Clé
+  '131081': Cúinneán Cian sa Bhun Clé
+  '131082': Cúinneán Corcra sa Bhun Clé
+  '131083': Cúinneán Gorm sa Bhun Clé
+  '131084': Cúinneán Donn sa Bhun Clé
+  '131085': Cúinneán Uaine sa Bhun Clé
+  '131086': Cúinneán Dearg sa Bhun Clé
+  '131087': Cúinneán Dubh sa Bhun Clé
+  '196608': Cúinneán Bán Thuas ar Dheis
+  '196609': Cúinneán Oráisteach Thuas ar Dheis
+  '196610': Cúinneán Maigeanta Thuas ar Dheis
+  '196611': Cúinneán Bánghorm Thuas ar Dheis
+  '196612': Cúinneán Buí Thuas ar Dheis
+  '196613': Cúinneán Líomach Thuas ar Dheis
+  '196614': Cúinneán Bándearg Thuas ar Dheis
+  '196615': Cúinneán Liath Thuas ar Dheis
+  '196616': Cúinneán Fionnliath Thuas ar Dheis
+  '196617': Cúinneán Cian Thuas ar Dheis
+  '196618': Cúinneán Corcra Thuas ar Dheis
+  '196619': Cúinneán Gorm Thuas ar Dheis
+  '196620': Cúinneán Donn Thuas ar Dheis
+  '196621': Cúinneán Uaine Thuas ar Dheis
+  '196622': Cúinneán Dearg Thuas ar Dheis
+  '196623': Cúinneán Dubh Thuas ar Dheis
+  '262144': Cúinneán Bán Thuas ar Clé
+  '262145': Cúinneán Oráisteach Thuas ar Clé
+  '262146': Cúinneán Maigeanta Thuas ar Clé
+  '262147': Cúinneán Bánghorm Thuas ar Clé
+  '262148': Cúinneán Buí Thuas ar Clé
+  '262149': Cúinneán Líomach Thuas ar Clé
+  '262150': Cúinneán Bándearg Thuas ar Clé
+  '262151': Cúinneán Liath Thuas ar Clé
+  '262152': Cúinneán Fionnliath Thuas ar Clé
+  '262153': Cúinneán Cian Thuas ar Clé
+  '262154': Cúinneán Corcra Thuas ar Clé
+  '262155': Cúinneán Gorm Thuas ar Clé
+  '262156': Cúinneán Donn Thuas ar Clé
+  '262157': Cúinneán Uaine Thuas ar Clé
+  '262158': Cúinneán Dearg Thuas ar Clé
+  '262159': Cúinneán Dubh Thuas ar Clé
+  '327680': Bun Bán
+  '327681': Bun Oráisteach
+  '327682': Bun Maigeanta
+  '327683': Bun Fionnghorm
+  '327684': Bun Buí
+  '327685': Bun Líomach
+  '327686': Bun Bándearg
+  '327687': Bun Liath
+  '327688': Bun Fionnliath
+  '327689': Bun Cian
+  '327690': Bun Corcra
+  '327691': Bun Gorm
+  '327692': Bun Donn
+  '327693': Bun Uaine
+  '327694': Ionad Dearg
+  '327695': Ionad Dubh
+  '393216': Barr Bán
+  '393217': Barr Oráisteach
+  '393218': Barr Maigeanta
+  '393219': Barr Bánghorm
+  '393220': Barr Buí
+  '393221': Barr Líomach
+  '393222': Barr Bándearg
+  '393223': Barr Liath
+  '393224': Barr Fionnliath
+  '393225': Barr Cian
+  '393226': Barr Corcra
+  '393227': Barr Gorm
+  '393228': Barr Donn
+  '393229': Barr Uaine
+  '393230': Barr Dearg
+  '393231': Barr Dubh
+  '458752': Cuaille Bán ar Dheis
+  '458753': Cuaille Oráisteach ar Dheis
+  '458754': Cuaille Maigeanta ar Dheis
+  '458755': Cuaille Bánghorm ar Dheis
+  '458756': Cuaille Buí ar Dheis
+  '458757': Cuaille Líomach ar Dheis
+  '458758': Cuaille Bándearg ar Dheis
+  '458759': Cuaille Liath ar Dheis
+  '458760': Cuaille Fionnliath ar Dheis
+  '458761': Cuaille Cian ar Dheis
+  '458762': Cuaille Corcra ar Dheis
+  '458763': Cuaille Gorm ar Dheis
+  '458764': Cuaille Donn ar Dheis
+  '458765': Cuaille Uaine ar Dheis
+  '458766': Cuaille Dearg ar Dheis
+  '458767': Cuaille Dubh ar Dheis
+  '524288': Cuaille Bán ar Clé
+  '524289': Cuaille Oráisteach ar Clé
+  '524290': Cuaille Maigeanta ar Clé
+  '524291': Cuaille Bánghorm ar Clé
+  '524292': Cuaille Buí ar Clé
+  '524293': Cuaille Líomach ar Clé
+  '524294': Cuaille Bándearg ar Clé
+  '524295': Cuaille Liath ar Clé
+  '524296': Cuaille Fionnliath ar Clé
+  '524297': Cuaille Cian ar Clé
+  '524298': Cuaille Corcra ar Clé
+  '524299': Cuaille Gorm ar Clé
+  '524300': Cuaille Donn ar Clé
+  '524301': Cuaille Uaine ar Clé
+  '524302': Cuaille Dearg ar Clé
+  '524303': Cuaille Dubh ar Clé
+  '589824': Cuaille Bán
+  '589825': Cuaille Oráisteach
+  '589826': Cuaille Maigeanta
+  '589827': Cuaille Bánghorm
+  '589828': Cuaille Buí
+  '589829': Cuaille Líomach
+  '589830': Cuaille Bándearg
+  '589831': Cuaille Liath
+  '589832': Cuaille Fionnliath
+  '589833': Cuaille Cian
+  '589834': Cuaille Corcra
+  '589835': Cuaille Gorm
+  '589836': Cuaille Donn
+  '589837': Cuaille Uaine
+  '589838': Cuaille Dearg
+  '589839': Cuaille Dubh
+  '655360': Balc Bán
+  '655361': Balc Oráisteach
+  '655362': Balc Maigeanta
+  '655363': Balc Bánghorm
+  '655364': Balc Buí
+  '655365': Balc Líomach
+  '655366': Balc Bándearg
+  '655367': Balc Liath
+  '655368': Balc Fionnliath
+  '655369': Balc Cian
+  '655370': Balc Corcra
+  '655371': Balc Gorm
+  '655372': Balc Donn
+  '655373': Balc Uaine
+  '655374': Balc Dearg
+  '655375': Balc Dubh
+  '720896': Bandán Bán
+  '720897': Bandán Oráisteach
+  '720898': Bandán Maigeanta
+  '720899': Bandán Bánghorm
+  '720900': Bandán Buí
+  '720901': Bandán Líomach
+  '720902': Bandán Bándearg
+  '720903': Bandán Liath
+  '720904': Bandán Fionnliath
+  '720905': Bandán Cian
+  '720906': Bandán Corcra
+  '720907': Bandán Gorm
+  '720908': Bandán Donn
+  '720909': Bandán Uaine
+  '720910': Bandán Dearg
+  '720911': Bandán Dubh
+  '786432': Clébhandán Bán
+  '786433': Clébhandán Oráisteach
+  '786434': Clébhandán Maigeanta
+  '786435': Clébhandán Bánghorm
+  '786436': Clébhandán Buí
+  '786437': Clébhandán Líomach
+  '786438': Clébhandán Bándearg
+  '786439': Clébhandán Liath
+  '786440': Clébhandán Fionnliath
+  '786441': Clébhandán Cian
+  '786442': Clébhandán Corcra
+  '786443': Clébhandán Gorm
+  '786444': Clébhandán Donn
+  '786445': Clébhandán Uaine
+  '786446': Clébhandán Dearg
+  '786447': Clébhandán Dubh
+  '851968': Cuailleach Bán
+  '851969': Cuailleach Oráisteach
+  '851970': Cuailleach Maigeanta
+  '851971': Cuailleach Bánghorm
+  '851972': Cuailleach Buí
+  '851973': Cuailleach Líomach
+  '851974': Cuailleach Bándearg
+  '851975': Cuailleach Liath
+  '851976': Cuailleach Fionnliath
+  '851977': Cuailleach Cian
+  '851978': Cuailleach Corcra
+  '851979': Cuailleach Gorm
+  '851980': Cuailleach Donn
+  '851981': Cuailleach Uaine
+  '851982': Cuailleach Dearg
+  '851983': Cuailleach Dubh
+  '917504': Sailtír Bhán
+  '917505': Sailtír Oráisteach
+  '917506': Sailtír Mhaigeanta
+  '917507': Sailtír Bhánghorm
+  '917508': Sailtír Bhuí
+  '917509': Sailtír Líomach
+  '917510': Sailtír Bhándearg
+  '917511': Sailtír Liath
+  '917512': Sailtír Fhionnliath
+  '917513': Sailtír Chian
+  '917514': Sailtír Chorcra
+  '917515': Sailtír Ghorm
+  '917516': Sailtír Dhonn
+  '917517': Sailtír Uaine
+  '917518': Sailtír Dhearg
+  '917519': Sailtír Dhubh
+  '983040': Cros Bán
+  '983041': Cros Oráisteach
+  '983042': Cros Maigeanta
+  '983043': Cros Bánghorm
+  '983044': Cros Buí
+  '983045': Cros Líomach
+  '983046': Cros Bándearg
+  '983047': Cros Liath
+  '983048': Cros Fionnliath
+  '983049': Cros Cian
+  '983050': Cros Corcra
+  '983051': Cros Gorm
+  '983052': Cros Donn
+  '983053': Cros Uaine
+  '983054': Cros Dearg
+  '983055': Cros Dubh
+  '1048576': Binnroinnte Bán
+  '1048577': Binnroinnte Oráisteach
+  '1048578': Binnroinnte Maigeanta
+  '1048579': Binnroinnte Bánghorm
+  '1048580': Binnroinnte Buí
+  '1048581': Binnroinnte Líomach
+  '1048582': Binnroinnte Bándearg
+  '1048583': Binnroinnte Liath
+  '1048584': Binnroinnte Fionnliath
+  '1048585': Binnroinnte Cian
+  '1048586': Binnroinnte Corcra
+  '1048587': Binnroinnte Gorm
+  '1048588': Binnroinnte Donn
+  '1048589': Binnroinnte Uaine
+  '1048590': Binnroinnte Dearg
+  '1048591': Binnroinnte Dubh
+  '1114112': Binnroinnte Bunoscionn Bán
+  '1114113': Binnroinnte Bunoscionn Oráisteach
+  '1114114': Binnroinnte Bunoscionn Maigeanta
+  '1114115': Binnroinnte Bunoscionn Bánghorm
+  '1114116': Binnroinnte Bunoscionn Buí
+  '1114117': Binnroinnte Bunoscionn Líomach
+  '1114118': Binnroinnte Bunoscionn Bándearg
+  '1114119': Binnroinnte Bunoscionn Liath
+  '1114120': Binnroinnte Bunoscionn Fionnliath
+  '1114121': Binnroinnte Bunoscionn Cian
+  '1114122': Binnroinnte Bunoscionn Corcra
+  '1114123': Binnroinnte Bunoscionn Gorm
+  '1114124': Binnroinnte Bunoscionn Donn
+  '1114125': Binnroinnte Bunoscionn Uaine
+  '1114126': Binnroinnte Bunoscionn Dearg
+  '1114127': Binnroinnte Bunoscionn Dubh
+  '1179648': Bun Bán Eangach
+  '1179649': Bun Oráisteach Eangach
+  '1179650': Bun Maigeanta Eangach
+  '1179651': Bun Bánghorm Eangach
+  '1179652': Bun Buí Eangach
+  '1179653': Bun Liomach Eangach
+  '1179654': Bun Bándearg Eangach
+  '1179655': Bun Liath Eangach
+  '1179656': Bun Fionnliath Eangach
+  '1179657': Bun Cian Eangach
+  '1179658': Bun Corcra Eangach
+  '1179659': Bun Gorm Eangach
+  '1179660': Bun Donn Eangach
+  '1179661': Bun Uaine Eangach
+  '1179662': Bun Dearg Eangach
+  '1179663': Bun Dubh Eangach
+  '1245184': Barr Bán Eangach
+  '1245185': Barr Oráisteach Eangach
+  '1245186': Barr Maigeanta Eangach
+  '1245187': Barr Bánghorm Eangach
+  '1245188': Barr Buí Eangach
+  '1245189': Barr Líomach Eangach
+  '1245190': Barr Bándearg Eangach
+  '1245191': Barr Liath Eangach
+  '1245192': Barr Fionnliath Eangach
+  '1245193': Barr Cian Eangach
+  '1245194': Barr Corcra Eangach
+  '1245195': Barr Gorm Eangach
+  '1245196': Barr Donn Eangach
+  '1245197': Barr Uaine Eangach
+  '1245198': Barr Dearg Eangach
+  '1245199': Barr Dubh Eangach
+  '1310720': Cléroinnte Bán
+  '1310721': Cléroinnte Oráisteach
+  '1310722': Cléroinnte Maigeanta
+  '1310723': Cléroinnte Bánghorm
+  '1310724': Cléroinnte Buí
+  '1310725': Cléroinnte Líomach
+  '1310726': Cléroinnte Bándearg
+  '1310727': Cléroinnte Liath
+  '1310728': Cléroinnte Fionnliath
+  '1310729': Cléroinnte Cian
+  '1310730': Cléroinnte Corcra
+  '1310731': Cléroinnte Gorm
+  '1310732': Cléroinnte Donn
+  '1310733': Cléroinnte Uaine
+  '1310734': Cléroinnte Dearg
+  '1310735': Cléroinnte Dubh
+  '1376256': Cléroinnte Bunoscionn Bán
+  '1376257': Cléroinnte Bunoscionn Oráisteach
+  '1376258': Cléroinnte Bunoscionn Maigeanta
+  '1376259': Cléroinnte Bunoscionn Bánghorm
+  '1376260': Cléroinnte Bunoscionn Buí
+  '1376261': Cléroinnte Bunoscionn Líomach
+  '1376262': Cléroinnte Bunoscionn Bándearg
+  '1376263': Cléroinnte Bunoscionn Liath
+  '1376264': Cléroinnte Bunoscionn Fionnliath
+  '1376265': Cléroinnte Bunoscionn Cian
+  '1376266': Cléroinnte Bunoscionn Corcra
+  '1376267': Cléroinnte Bunoscionn Gorm
+  '1376268': Cléroinnte Bunoscionn Donn
+  '1376269': Cléroinnte Bunoscionn Uaine
+  '1376270': Cléroinnte Bunoscionn Dearg
+  '1376271': Cléroinnte Bunoscionn Dubh
+  '1441792': Criosroinnte Bunoscionn Bán
+  '1441793': Criosroinnte Bunoscionn Oráisteach
+  '1441794': Criosroinnte Bunoscionn Maigeanta
+  '1441795': Criosroinnte Bunoscionn Bánghorm
+  '1441796': Criosroinnte Bunoscionn Buí
+  '1441797': Criosroinnte Bunoscionn Líomach
+  '1441798': Criosroinnte Bunoscionn Bándearg
+  '1441799': Criosroinnte Bunoscionn Liath
+  '1441800': Criosroinnte Bunoscionn Fionnliath
+  '1441801': Criosroinnte Bunoscionn Cian
+  '1441802': Criosroinnte Bunoscionn Corcra
+  '1441803': Criosroinnte Bunoscionn Gorm
+  '1441804': Criosroinnte Bunoscionn Donn
+  '1441805': Criosroinnte Bunoscionn Uaine
+  '1441806': Criosroinnte Bunoscionn Dearg
+  '1441807': Criosroinnte Bunoscionn Dubh
+  '1507328': Criosroinnte Bán
+  '1507329': Criosroinnte Oráisteach
+  '1507330': Criosroinnte Maigeanta
+  '1507331': Criosroinnte Bánghorm
+  '1507332': Criosroinnte Buí
+  '1507333': Criosroinnte Líomach
+  '1507334': Criosroinnte Bándearg
+  '1507335': Criosroinnte Liath
+  '1507336': Criosroinnte Fionnliath
+  '1507337': Criosroinnte Cian
+  '1507338': Criosroinnte Corcra
+  '1507339': Criosroinnte Gorm
+  '1507340': Criosroinnte Donn
+  '1507341': Criosroinnte Uaine
+  '1507342': Criosroinnte Dearg
+  '1507343': Criosroinnte Dubh
+  '1572864': Cruinneán Bán
+  '1572865': Cruinneán Oráisteach
+  '1572866': Cruinneán Maigeanta
+  '1572867': Cruinneán Bánghorm
+  '1572868': Cruinneán Buí
+  '1572869': Cruinneán Líomach
+  '1572870': Cruinneán Bándearg
+  '1572871': Cruinneán Liath
+  '1572872': Cruinneán Fionnliath
+  '1572873': Cruinneán Cian
+  '1572874': Cruinneán Corcra
+  '1572875': Cruinneán Gorm
+  '1572876': Cruinneán Donn
+  '1572877': Cruinneán Uaine
+  '1572878': Cruinneán Dearg
+  '1572879': Cruinneán Dubh
+  '1638400': Muileata Bán
+  '1638401': Muileata Oráisteach
+  '1638402': Muileata Maigeanta
+  '1638403': Muileata Bánghorm
+  '1638404': Muileata Buí
+  '1638405': Muileata Líomach
+  '1638406': Muileata Bándearg
+  '1638407': Muileata Liath
+  '1638408': Muileata Fionnliath
+  '1638409': Muileata Cian
+  '1638410': Muileata Corcra
+  '1638411': Muileata Gorm
+  '1638412': Muileata Donn
+  '1638413': Muileata Uaine
+  '1638414': Muileata Dearg
+  '1638415': Muileata Dubh
+  '1703936': Deighilte, Bán ar Dheis
+  '1703937': Deighilte, Oráisteach ar Dheis
+  '1703938': Deighilte, Maigeanta ar Dheis
+  '1703939': Deighilte, Bánghorm ar Dheis
+  '1703940': Deighilte, Buí ar Dheis
+  '1703941': Deighilte, Líomach ar Dheis
+  '1703942': Deighilte, Bándearg ar Dheis
+  '1703943': Deighilte, Liath ar Dheis
+  '1703944': Deighilte, Fionnliath ar Dheis
+  '1703945': Deighilte, Cian ar Dheis
+  '1703946': Deighilte, Corcra ar Dheis
+  '1703947': Deighilte, Gorm ar Dheis
+  '1703948': Deighilte, Donn ar Dheis
+  '1703949': Deighilte, Uaine ar Dheis
+  '1703950': Deighilte, Dearg ar Dheis
+  '1703951': Deighilte, Dubh ar Dheis
+  '1769472': Gearrtha, Ban Thuas
+  '1769473': Gearrtha, Oráisteach Thuas
+  '1769474': Gearrtha, Maigeanta Thuas
+  '1769475': Gearrtha, Bánghorm Thuas
+  '1769476': Gearrtha, Buí Thuas
+  '1769477': Gearrtha, Líomach Thuas
+  '1769478': Gearrtha, Bándearg Thuas
+  '1769479': Gearrtha, Liath Thuas
+  '1769480': Gearrtha, Fionnliath Thuas
+  '1769481': Gearrtha, Cian Thuas
+  '1769482': Gearrtha, Corcra Thuas
+  '1769483': Gearrtha, Gorm Thuas
+  '1769484': Gearrtha, Donn Thuas
+  '1769485': Gearrtha, Uaine Thuas
+  '1769486': Gearrtha, Dearg Thuas
+  '1769487': Gearrtha, Dubh Thuas
+  '1835008': Deighilte, Bán ar Clé
+  '1835009': Deighilte, Oráisteach ar Clé
+  '1835010': Deighilte, Maigeanta ar Clé
+  '1835011': Deighilte, Bánghorm ar Clé
+  '1835012': Deighilte, Buí ar Clé
+  '1835013': Deighilte, Líomach ar Clé
+  '1835014': Deighilte, Bándearg ar Clé
+  '1835015': Deighilte, Liath ar Clé
+  '1835016': Deighilte, Fionnliath ar Clé
+  '1835017': Deighilte, Cian ar Clé
+  '1835018': Deighilte, Corcra ar Clé
+  '1835019': Deighilte, Gorm ar Clé
+  '1835020': Deighilte, Donn ar Clé
+  '1835021': Deighilte, Uaine ar Clé
+  '1835022': Deighilte, Dearg ar Clé
+  '1835023': Deighilte, Dubh ar Clé
+  '1900544': Gearrtha, Bán Thíos
+  '1900545': Gearrtha, Oráisteach Thíos
+  '1900546': Gearrtha, Maigeanta Thíos
+  '1900547': Gearrtha, Bánghorm Thíos
+  '1900548': Gearrtha, Buí Thíos
+  '1900549': Gearrtha, Líomach Thíos
+  '1900550': Gearrtha, Bándearg Thíos
+  '1900551': Gearrtha, Liath Thíos
+  '1900552': Gearrtha, Fionnliath Thíos
+  '1900553': Gearrtha, Cian Thíos
+  '1900554': Gearrtha, Corcra Thíos
+  '1900555': Gearrtha, Gorm Thíos
+  '1900556': Gearrtha, Donn Thíos
+  '1900557': Gearrtha, Uaine Thíos
+  '1900558': Gearrtha, Dearg Thíos
+  '1900559': Gearrtha, Dubh Thíos
+  '1966080': Imeallbhord Bán
+  '1966081': Imeallbhord Oráisteach
+  '1966082': Imeallbhord Maigeanta
+  '1966083': Imeallbhord Bánghorm
+  '1966084': Imeallbhord Buí
+  '1966085': Imeallbhord Líomach
+  '1966086': Imeallbhord Bándearg
+  '1966087': Imeallbhord Liath
+  '1966088': Imeallbhord Fionnliath
+  '1966089': Imeallbhord Cian
+  '1966090': Imeallbhord Corcra
+  '1966091': Imeallbhord Gorm
+  '1966092': Imeallbhord Donn
+  '1966093': Imeallbhord Uaine
+  '1966094': Imeallbhord Dearg
+  '1966095': Imeallbhord Dubh
+  '2031616': Imeallbhord Eangach Bán
+  '2031617': Imeallbhord Eangach Oráisteach
+  '2031618': Imeallbhord Eangach Maigeanta
+  '2031619': Imeallbhord Eangach Bánghorm
+  '2031620': Imeallbhord Eangach Buí
+  '2031621': Imeallbhord Eangach Líomach
+  '2031622': Imeallbhord Eangach Bándearg
+  '2031623': Imeallbhord Eangach Liath
+  '2031624': Imeallbhord Eangach Fionnliath
+  '2031625': Imeallbhord Eangach Cian
+  '2031626': Imeallbhord Eangach Corcra
+  '2031627': Imeallbhord Eangach Gorm
+  '2031628': Imeallbhord Eangach Donn
+  '2031629': Imeallbhord Eangach Uaine
+  '2031630': Imeallbhord Eangach Dearg
+  '2031631': Imeallbhord Eangach Dubh
+  '2097152': Fíor Creeper Bháin
+  '2097153': Fíor Creeper Oráistigh
+  '2097154': Fíor Creeper Mhaigeanta
+  '2097155': Fíor Creeper Bhánghoirm
+  '2097156': Fíor Creeper Bhuí
+  '2097157': Fíor Creeper Fionnghlais
+  '2097158': Fíor Creeper Bhándeirg
+  '2097159': Fíor Creeper Léith
+  '2097160': Fíor Creeper Bhánléith
+  '2097161': Fíor Creeper Chian
+  '2097162': Fíor Creeper Chorcra
+  '2097163': Fíor Creeper Ghoirm
+  '2097164': Fíor Creeper Dhoinn
+  '2097165': Fíor Creeper Ghlais
+  '2097166': Fíor Creeper Dheirg
+  '2097167': Fíor Creeper Dhuibh
+  '2162688': Grádán Bán
+  '2162689': Grádán Oráisteach
+  '2162690': Grádán Maigeanta
+  '2162691': Grádán Bánghorm
+  '2162692': Grádán Buí
+  '2162693': Grádán Líomach
+  '2162694': Grádán Bándearg
+  '2162695': Grádán Liath
+  '2162696': Grádán Fionnliath
+  '2162697': Grádán Cian
+  '2162698': Grádán Corcra
+  '2162699': Grádán Gorm
+  '2162700': Grádán Donn
+  '2162701': Grádán Uaine
+  '2162702': Grádán Dearg
+  '2162703': Grádán Dubh
+  '2228224': Grádán Bán ó Bhun
+  '2228225': Grádán Oráisteach ó Bhun
+  '2228226': Grádán Maigeanta ó Bhun
+  '2228227': Grádán Bánghorm ó Bhun
+  '2228228': Grádán Buí ó Bhun
+  '2228229': Grádán Líomach ó Bhun
+  '2228230': Grádán Bándearg ó Bhun
+  '2228231': Grádán Liath ó Bhun
+  '2228232': Grádán Fionnliath ó Bhun
+  '2228233': Grádán Cian ó Bhun
+  '2228234': Grádán Corcra ó Bhun
+  '2228235': Grádán Gorm ó Bhun
+  '2228236': Grádán Donn ó Bhun
+  '2228237': Grádán Uaine ó Bhun
+  '2228238': Grádán Dearg ó Bhun
+  '2228239': Grádán Dubh ó Bhun
+  '2293760': Machaire Saoirsithe Bán
+  '2293761': Machaire Saoirsithe Oráisteach
+  '2293762': Machaire Saoirsithe Maigeanta
+  '2293763': Machaire Saoirsithe Bánghorm
+  '2293764': Machaire Saoirsithe Buí
+  '2293765': Machaire Saoirsithe Líomach
+  '2293766': Machaire Saoirsithe Bándearg
+  '2293767': Machaire Saoirsithe Liath
+  '2293768': Machaire Saoirsithe Fionnliath
+  '2293769': Machaire Saoirsithe Cian
+  '2293770': Machaire Saoirsithe Corcra
+  '2293771': Machaire Saoirsithe Gorm
+  '2293772': Machaire Saoirsithe Donn
+  '2293773': Machaire Saoirsithe Uaine
+  '2293774': Machaire Saoirsithe Dearg
+  '2293775': Machaire Saoirsithe Dubh
+  '2359296': Fíor Cloiginn Bán
+  '2359297': Fíor Cloiginn Oráisteach
+  '2359298': Fíor Cloiginn Maigeanta
+  '2359299': Fíor Cloiginn Bánghorm
+  '2359300': Fíor Cloiginn Buí
+  '2359301': Fíor Cloiginn Líomach
+  '2359302': Fíor Cloiginn Bándearg
+  '2359303': Fíor Cloiginn Liath
+  '2359304': Fíor Cloiginn Fionnliath
+  '2359305': Fíor Cloiginn Cian
+  '2359306': Fíor Cloiginn Corcra
+  '2359307': Fíor Cloiginn Gorm
+  '2359308': Fíor Cloiginn Donn
+  '2359309': Fíor Cloiginn Uaine
+  '2359310': Fíor Cloiginn Dearg
+  '2359311': Fíor Cloiginn Dubh
+  '2424832': Fíor Blátha Bán
+  '2424833': Fíor Blátha Oráisteach
+  '2424834': Fíor Blátha Maigeanta
+  '2424835': Fíor Blátha Bánghorm
+  '2424836': Fíor Blátha Buí
+  '2424837': Fíor Blátha Líomach
+  '2424838': Fíor Blátha Bándearg
+  '2424839': Fíor Blátha Liath
+  '2424840': Fíor Blátha Fionnliath
+  '2424841': Fíor Blátha Cian
+  '2424842': Fíor Blátha Corcra
+  '2424843': Fíor Blátha Gorm
+  '2424844': Fíor Blátha Donn
+  '2424845': Fíor Blátha Uaine
+  '2424846': Fíor Blátha Dearg
+  '2424847': Fíor Blátha Dubh
+  '2490368': Rud Bán
+  '2490369': Rud Oráisteach
+  '2490370': Rud Maigeanta
+  '2490371': Rud Bánghorm
+  '2490372': Rud Buí
+  '2490373': Rud Líomach
+  '2490374': Rud Bándearg
+  '2490375': Rud Liath
+  '2490376': Rud Fionnliath
+  '2490377': Rud Cian
+  '2490378': Rud Corcra
+  '2490379': Rud Gorm
+  '2490380': Rud Donn
+  '2490381': Rud Uaine
+  '2490382': Rud Dearg
+  '2490383': Rud Dubh
+  '2555904': Bán Globe
+  '2555905': Oráiste Globe
+  '2555906': Magenta Globe
+  '2555907': Gorm Gorm Globe
+  '2555908': Buí Globe
+  '2555909': Aol Globe
+  '2555910': Bándearg Globe
+  '2555911': Grey Globe
+  '2555912': Solas Liath Globe
+  '2555913': Ciain Globe
+  '2555914': Corcra Globe
+  '2555915': Gorm Globe
+  '2555916': Brown Globe
+  '2555917': Glas Globe
+  '2555918': Dearg Globe
+  '2555919': Dubh Globe
+  '2621440': Smideadh Bán
+  '2621441': Smidead Oráiste
+  '2621442': Smideadh Magenta
+  '2621443': Smideadh Gorm Éadrom
+  '2621444': Smideadh Buí
+  '2621445': Smideadh Aol
+  '2621446': Smideadh Bándearg
+  '2621447': Smideadh Liath
+  '2621448': Smideadh Liath Éadrom
+  '2621449': Smideadh Cian
+  '2621450': Smideadh Corcra
+  '2621451': Smideadh Gorm
+  '2621452': Smideadh Donn
+  '2621453': Smideadh Glas
+  '2621454': Smideadh Dearg
+  '2621455': Smideadh Dubh

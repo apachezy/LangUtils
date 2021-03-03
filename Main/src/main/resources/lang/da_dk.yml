@@ -1,3 +1,4 @@
+#  Build time: 2021-03-04 01:01:26
 language:
   code: da_dk
   name: Dansk
@@ -1528,3 +1529,644 @@ colored_shied:
   green: Grønt skjold
   red: Rødt skjold
   black: Sort skjold
+banner_pattern:
+  '65536': Hvid firkant nederst til venstre
+  '65537': Orange firkant nederst til venstre
+  '65538': Lyslilla firkant nederst til venstre
+  '65539': Lyseblå firkant nederst til venstre
+  '65540': Gul firkant nederst til venstre
+  '65541': Limegrøn firkant nederst til venstre
+  '65542': Lyserød firkant nederst til venstre
+  '65543': Grå firkant nederst til venstre
+  '65544': Lysegrå firkant nederst til venstre
+  '65545': Turkis firkant nederst til venstre
+  '65546': Lilla firkant nederst til venstre
+  '65547': Blå firkant nederst til venstre
+  '65548': Brun firkant nederst til venstre
+  '65549': Grøn firkant nederst til venstre
+  '65550': Rød firkant nederst til venstre
+  '65551': Sort firkant nederst til venstre
+  '131072': Hvid firkant nede til højre
+  '131073': Orange firkant nede til højre
+  '131074': Lyslilla firkant nede til højre
+  '131075': Lyseblå firkant nede til højre
+  '131076': Gul firkant nede til højre
+  '131077': Limegrøn firkant nede til højre
+  '131078': Lyserød firkant nede til højre
+  '131079': Grå firkant nede til højre
+  '131080': Lysegrå firkant nede til højre
+  '131081': Turkis firkant nede til højre
+  '131082': Lilla firkant nede til højre
+  '131083': Blå firkant nede til højre
+  '131084': Brun firkant nede til højre
+  '131085': Grøn firkant nede til højre
+  '131086': Rød firkant nede til højre
+  '131087': Sort firkant nede til højre
+  '196608': Hvid firkant oppe til venstre
+  '196609': Orange firkant oppe til venstre
+  '196610': Lyslilla firkant oppe til venstre
+  '196611': Lyseblå firkant oppe til venstre
+  '196612': Gul firkant oppe til venstre
+  '196613': Limegrøn firkant oppe til venstre
+  '196614': Lyserød firkant oppe til venstre
+  '196615': Grå firkant oppe til venstre
+  '196616': Lysegrå firkant oppe til venstre
+  '196617': Turkis firkant oppe til venstre
+  '196618': Lilla firkant oppe til venstre
+  '196619': Blå firkant oppe til venstre
+  '196620': Brun firkant oppe til venstre
+  '196621': Grøn firkant oppe til venstre
+  '196622': Rød firkant oppe til venstre
+  '196623': Sort firkant oppe til venstre
+  '262144': Hvid firkant oppe til højre
+  '262145': Orange firkant oppe til højre
+  '262146': Lyslilla firkant oppe til højre
+  '262147': Lyseblå firkant oppe til højre
+  '262148': Gul firkant oppe til højre
+  '262149': Limegrøn firkant oppe til højre
+  '262150': Lyserød firkant oppe til højre
+  '262151': Grå firkant oppe til højre
+  '262152': Lysegrå firkant oppe til højre
+  '262153': Turkis firkant oppe til højre
+  '262154': Lilla firkant oppe til højre
+  '262155': Blå firkant oppe til højre
+  '262156': Brun firkant oppe til højre
+  '262157': Grøn firkant oppe til højre
+  '262158': Rød firkant oppe til højre
+  '262159': Sort firkant oppe til højre
+  '327680': Hvid base
+  '327681': Orange base
+  '327682': Lyslilla base
+  '327683': Lyseblå base
+  '327684': Gul base
+  '327685': Limegrøn base
+  '327686': Lyserød base
+  '327687': Grå base
+  '327688': Lysegrå base
+  '327689': Turkis base
+  '327690': Lilla base
+  '327691': Blå base
+  '327692': Brun base
+  '327693': Grøn base
+  '327694': Rød base
+  '327695': Sort base
+  '393216': Hvid top
+  '393217': Orange top
+  '393218': Lyslilla top
+  '393219': Lyseblå top
+  '393220': Gul top
+  '393221': Limegrøn top
+  '393222': Pink top
+  '393223': Grå top
+  '393224': Lysegrå top
+  '393225': Turkis top
+  '393226': Lilla top
+  '393227': Blå top
+  '393228': Brun top
+  '393229': Grøn top
+  '393230': Rød top
+  '393231': Sort top
+  '458752': Hvid venstre pæl
+  '458753': Orange venstre pæl
+  '458754': Lyslilla venstre pæl
+  '458755': Lyseblå venstre pæl
+  '458756': Gul venstre pæl
+  '458757': Limegrøn venstre pæl
+  '458758': Lyserød venstre pæl
+  '458759': Grå venstre pæl
+  '458760': Lysegrå venstre pæl
+  '458761': Turkis venstre pæl
+  '458762': Lilla venstre pæl
+  '458763': Blå venstre pæl
+  '458764': Brun venstre pæl
+  '458765': Grøn venstre pæl
+  '458766': Rød venstre pæl
+  '458767': Sort venstre pæl
+  '524288': Hvid højre pæl
+  '524289': Orange højre pæl
+  '524290': Lyslilla højre pæl
+  '524291': Lyseblå højre pæl
+  '524292': Gul højre pæl
+  '524293': Limegrøn højre pæl
+  '524294': Lyserød højre pæl
+  '524295': Grå højre pæl
+  '524296': Lysegrå højre pæl
+  '524297': Turkis højre pæl
+  '524298': Lilla højre pæl
+  '524299': Blå højre pæl
+  '524300': Brun højre pæl
+  '524301': Grøn højre pæl
+  '524302': Rød højre pæl
+  '524303': Sort højre pæl
+  '589824': Hvid pæl
+  '589825': Orange pæl
+  '589826': Lyslilla pæl
+  '589827': Lyseblå pæl
+  '589828': Gul pæl
+  '589829': Limegrøn pæl
+  '589830': Lyserød pæl
+  '589831': Grå pæl
+  '589832': Lysegrå pæl
+  '589833': Turkis pæl
+  '589834': Lilla pæl
+  '589835': Blå pæl
+  '589836': Brun pæl
+  '589837': Grøn pæl
+  '589838': Rød pæl
+  '589839': Sort pæl
+  '655360': Hvid bjælke
+  '655361': Orange bjælke
+  '655362': Lyslilla bjælke
+  '655363': Lyseblå bjælke
+  '655364': Gul bjælke
+  '655365': Limegrøn bjælke
+  '655366': Lyserød bjælke
+  '655367': Grå bjælke
+  '655368': Lysegrå bjælke
+  '655369': Turkis bjælke
+  '655370': Lilla bjælke
+  '655371': Blå bjælke
+  '655372': Brun bjælke
+  '655373': Grøn bjælke
+  '655374': Rød bjælke
+  '655375': Sort bjælke
+  '720896': Hvidt venstrebånd
+  '720897': Orange venstrebånd
+  '720898': Lyslilla venstrebånd
+  '720899': Lyseblåt venstrebånd
+  '720900': Gult venstrebånd
+  '720901': Limegrønt venstrebånd
+  '720902': Lyserødt venstrebånd
+  '720903': Gråt venstrebånd
+  '720904': Lysegråt venstrebånd
+  '720905': Turkis venstrebånd
+  '720906': Lilla venstrebånd
+  '720907': Blåt venstrebånd
+  '720908': Brunt venstrebånd
+  '720909': Grønt venstrebånd
+  '720910': Rødt venstrebånd
+  '720911': Sort venstrebånd
+  '786432': Hvidt højrebånd
+  '786433': Orange højrebånd
+  '786434': Lyslilla højrebånd
+  '786435': Lyseblåt højrebånd
+  '786436': Gult højrebånd
+  '786437': Limegrønt højrebånd
+  '786438': Lyserødt højrebånd
+  '786439': Gråt højrebånd
+  '786440': Lysegråt højrebånd
+  '786441': Turkis højrebånd
+  '786442': Lilla højrebånd
+  '786443': Blåt højrebånd
+  '786444': Brunt højrebånd
+  '786445': Grønt højrebånd
+  '786446': Rødt højrebånd
+  '786447': Sort højrebånd
+  '851968': Hvidt gitter
+  '851969': Orange gitter
+  '851970': Lyslilla gitter
+  '851971': Lyseblåt gitter
+  '851972': Gult gitter
+  '851973': Limegrønt gitter
+  '851974': Lyserødt gitter
+  '851975': Gråt gitter
+  '851976': Lysegråt gitter
+  '851977': Turkis Gitter
+  '851978': Lilla gitter
+  '851979': Blåt gitter
+  '851980': Brunt gitter
+  '851981': Grønt gitter
+  '851982': Rødt gitter
+  '851983': Sort gitter
+  '917504': Hvidt kryds
+  '917505': Orange kryds
+  '917506': Lyselilla kryds
+  '917507': Lyseblåt kryds
+  '917508': Gult kryds
+  '917509': Limegrønt kryds
+  '917510': Lyserødt kryds
+  '917511': Gråt kryds
+  '917512': Lysegråt kryds
+  '917513': Turkis kryds
+  '917514': Lilla kryds
+  '917515': Blåt kryds
+  '917516': Brunt kryds
+  '917517': Grønt kryds
+  '917518': Rødt kryds
+  '917519': Sort kryds
+  '983040': Hvidt kors
+  '983041': Orange kors
+  '983042': Lyslilla kors
+  '983043': Lyseblåt kors
+  '983044': Gult kors
+  '983045': Limefarvet kors
+  '983046': Lyserødt kors
+  '983047': Gråt kors
+  '983048': Lysegråt kors
+  '983049': Turkis kors
+  '983050': Lilla kors
+  '983051': Blåt kors
+  '983052': Brunt kors
+  '983053': Grønt kors
+  '983054': Rødt kors
+  '983055': Sort kors
+  '1048576': Hvid nedre trekant
+  '1048577': Orange nedre trekant
+  '1048578': Lyslilla nedre trekant
+  '1048579': Lyseblå nedre trekant
+  '1048580': Gul nedre trekant
+  '1048581': Limegrøn nedre trekant
+  '1048582': Lyserød nedre trekant
+  '1048583': Grå nedre trekant
+  '1048584': Lysegrå nedre trekant
+  '1048585': Turkis nedre trekant
+  '1048586': Lilla nedre trekant
+  '1048587': Blå nedre trekant
+  '1048588': Brun nedre trekant
+  '1048589': Grøn nedre trekant
+  '1048590': Rød nedre trekant
+  '1048591': Sort nedre trekant
+  '1114112': Hvid øvre trekant
+  '1114113': Orange øvre trekant
+  '1114114': Lyslilla øvre trekant
+  '1114115': Lyseblå øvre trekant
+  '1114116': Gul øvre trekant
+  '1114117': Limegrøn øvre trekant
+  '1114118': Lyserød øvre trekant
+  '1114119': Grå øvre trekant
+  '1114120': Lysegrå øvre trekant
+  '1114121': Turkis øvre trekant
+  '1114122': Lilla øvre trekant
+  '1114123': Blå øvre trekant
+  '1114124': Brun øvre trekant
+  '1114125': Grøn øvre trekant
+  '1114126': Rød øvre trekant
+  '1114127': Sort øvre trekant
+  '1179648': Hvide bundpigge
+  '1179649': Orange bundpigge
+  '1179650': Lyslilla bundpigge
+  '1179651': Lyseblå bundpigge
+  '1179652': Gule bundpigge
+  '1179653': Limegrønne bundpigge
+  '1179654': Lyserøde bundpigge
+  '1179655': Grå bundpigge
+  '1179656': Lysegrå bundpigge
+  '1179657': Turkis bundpigge
+  '1179658': Lilla bundpigge
+  '1179659': Blå bundpigge
+  '1179660': Brune bundpigge
+  '1179661': Grønne bundpigge
+  '1179662': Røde bundpigge
+  '1179663': Sorte bundpigge
+  '1245184': Hvide toppigge
+  '1245185': Orange toppigge
+  '1245186': Lyslilla toppigge
+  '1245187': Lysseblå toppigge
+  '1245188': Gule toppigge
+  '1245189': Limegrønne toppigge
+  '1245190': Lysserøde toppigge
+  '1245191': Grå toppigge
+  '1245192': Lyssegrå toppigge
+  '1245193': Turkis toppigge
+  '1245194': Lilla toppigge
+  '1245195': Blå toppigge
+  '1245196': Brune toppigge
+  '1245197': Grønne toppigge
+  '1245198': Røde toppigge
+  '1245199': Sorte toppigge
+  '1310720': Hvid øvre højrebåndshalvdel
+  '1310721': Orange øvre højrebåndshalvdel
+  '1310722': Lyslilla øvre højrebåndshalvdel
+  '1310723': Lyseblå øvre højrebåndshalvdel
+  '1310724': Gul øvre højrebåndshalvdel
+  '1310725': Limegrøn øvre højrebåndshalvdel
+  '1310726': Lyserød øvre højrebåndshalvdel
+  '1310727': Grå øvre højrebåndshalvdel
+  '1310728': Lysegrå øvre højrebåndshalvdel
+  '1310729': Turkis øvre højrebåndshalvdel
+  '1310730': Lilla øvre højrebåndshalvdel
+  '1310731': Blå øvre højrebåndshalvdel
+  '1310732': Brun øvre højrebåndshalvdel
+  '1310733': Grøn øvre højrebåndshalvdel
+  '1310734': Rød øvre højrebåndshalvdel
+  '1310735': Sort øvre højrebåndshalvdel
+  '1376256': Hvid nedre højrebåndshalvdel
+  '1376257': Orange nedre højrebåndshalvdel
+  '1376258': Lyslilla nedre højrebåndshalvdel
+  '1376259': Lyseblå nedre højrebåndshalvdel
+  '1376260': Gul nedre højrebåndshalvdel
+  '1376261': Limegrøn nedre højrebåndshalvdel
+  '1376262': Lyserød nedre højrebåndshalvdel
+  '1376263': Grå nedre højrebåndshalvdel
+  '1376264': Lysegrå nedre højrebåndshalvdel
+  '1376265': Turkis nedre højrebåndshalvdel
+  '1376266': Lilla nedre højrebåndshalvdel
+  '1376267': Blå nedre højrebåndshalvdel
+  '1376268': Brun nedre højrebåndshalvdel
+  '1376269': Grøn nedre højrebåndshalvdel
+  '1376270': Rød nedre højrebåndshalvdel
+  '1376271': Sort nedre højrebåndshalvdel
+  '1441792': Hvid nedre venstrebåndshalvdel
+  '1441793': Orange nedre venstrebåndshalvdel
+  '1441794': Lyslilla nedre venstrebåndshalvdel
+  '1441795': Lyseblå nedre venstrebåndshalvdel
+  '1441796': Gul nedre venstrebåndshalvdel
+  '1441797': Limegrøn nedre venstrebåndshalvdel
+  '1441798': Lyserød nedre venstrebåndshalvdel
+  '1441799': Grå nedre venstrebåndshalvdel
+  '1441800': Lysegrå nedre venstrebåndshalvdel
+  '1441801': Turkis nedre venstrebåndshalvdel
+  '1441802': Lilla nedre venstrebåndshalvdel
+  '1441803': Blå nedre venstrebåndshalvdel
+  '1441804': Brun nedre venstrebåndshalvdel
+  '1441805': Grøn nedre venstrebåndshalvdel
+  '1441806': Rød nedre venstrebåndshalvdel
+  '1441807': Sort nedre venstrebåndshalvdel
+  '1507328': Hvid øvre venstrebåndshalvdel
+  '1507329': Orange øvre venstrebåndshalvdel
+  '1507330': Lyslilla øvre venstrebåndshalvdel
+  '1507331': Lyseblå øvre venstrebåndshalvdel
+  '1507332': Gul øvre venstrebåndshalvdel
+  '1507333': Limegrøn øvre venstrebåndshalvdel
+  '1507334': Lyserød øvre venstrebåndshalvdel
+  '1507335': Grå øvre venstrebåndshalvdel
+  '1507336': Lysegrå øvre venstrebåndshalvdel
+  '1507337': Turkis øvre venstrebåndshalvdel
+  '1507338': Lilla øvre venstrebåndshalvdel
+  '1507339': Blå øvre venstrebåndshalvdel
+  '1507340': Brun øvre venstrebåndshalvdel
+  '1507341': Grøn øvre venstrebåndshalvdel
+  '1507342': Rød øvre venstrebåndshalvdel
+  '1507343': Sort øvre venstrebåndshalvdel
+  '1572864': Hvid cirkel
+  '1572865': Orange cirkel
+  '1572866': Lyslilla cirkel
+  '1572867': Lyseblå cirkel
+  '1572868': Gul cirkel
+  '1572869': Limegrøn cirkel
+  '1572870': Lyserød cirkel
+  '1572871': Grå cirkel
+  '1572872': Lyssegrå cirkel
+  '1572873': Turkis cirkel
+  '1572874': Lilla cirkel
+  '1572875': Blå cirkel
+  '1572876': Brun cirkel
+  '1572877': Grøn cirkel
+  '1572878': Rød cirkel
+  '1572879': Sort cirkel
+  '1638400': Hvid rombe
+  '1638401': Orange rombe
+  '1638402': Lyslilla rombe
+  '1638403': Lyseblå rombe
+  '1638404': Gul rombe
+  '1638405': Limegrøn rombe
+  '1638406': Lyserød rombe
+  '1638407': Grå rombe
+  '1638408': Lysegrå rombe
+  '1638409': Turkis rombe
+  '1638410': Lilla rombe
+  '1638411': Blå rombe
+  '1638412': Brun rombe
+  '1638413': Grøn rombe
+  '1638414': Rød rombe
+  '1638415': Sort rombe
+  '1703936': Hvid venstreside
+  '1703937': Orange venstreside
+  '1703938': Lyslilla venstreside
+  '1703939': Lyseblå venstreside
+  '1703940': Gul venstreside
+  '1703941': Limegrøn venstreside
+  '1703942': Lyserød venstreside
+  '1703943': Grå venstreside
+  '1703944': Lysegrå venstreside
+  '1703945': Turkis venstreside
+  '1703946': Lilla venstreside
+  '1703947': Blå venstreside
+  '1703948': Brun venstreside
+  '1703949': Grøn venstreside
+  '1703950': Rød venstreside
+  '1703951': Sort venstreside
+  '1769472': Hvid øvre halvdel
+  '1769473': Orange øvre halvdel
+  '1769474': Lyslilla øvre halvdel
+  '1769475': Lyseblå øvre halvdel
+  '1769476': Gul øvre halvdel
+  '1769477': Limegrøn øvre halvdel
+  '1769478': Lyserød øvre halvdel
+  '1769479': Grå øvre halvdel
+  '1769480': Lysegrå øvre halvdel
+  '1769481': Turkis øvre halvdel
+  '1769482': Lilla øvre halvdel
+  '1769483': Blå øvre halvdel
+  '1769484': Brun øvre halvdel
+  '1769485': Grøn øvre halvdel
+  '1769486': Rød øvre halvdel
+  '1769487': Sort øvre halvdel
+  '1835008': Hvid højre halvdel
+  '1835009': Orange højre halvdel
+  '1835010': Lyslilla højre halvdel
+  '1835011': Lyseblå højre halvdel
+  '1835012': Gul højre halvdel
+  '1835013': Limegrøn højre halvdel
+  '1835014': Lyserød højre halvdel
+  '1835015': Grå højre halvdel
+  '1835016': Lysegrå højre halvdel
+  '1835017': Turkis højre halvdel
+  '1835018': Lilla højre halvdel
+  '1835019': Blå højre halvdel
+  '1835020': Brun højre halvdel
+  '1835021': Grøn højre halvdel
+  '1835022': Rød højre halvdel
+  '1835023': Sort højre halvdel
+  '1900544': Hvid nedre halvdel
+  '1900545': Orange nedre halvdel
+  '1900546': Lyslilla nedre halvdel
+  '1900547': Lyseblå nedre halvdel
+  '1900548': Gul nedre halvdel
+  '1900549': Limegrøn nedre halvdel
+  '1900550': Lyserød nedre halvdel
+  '1900551': Grå nedre halvdel
+  '1900552': Lysegrå nedre halvdel
+  '1900553': Turkis nedre halvdel
+  '1900554': Lilla nedre halvdel
+  '1900555': Blå nedre halvdel
+  '1900556': Brun nedre halvdel
+  '1900557': Grøn nedre halvdel
+  '1900558': Rød nedre halvdel
+  '1900559': Sort nedre halvdel
+  '1966080': Hvid ramme
+  '1966081': Orange ramme
+  '1966082': Lyslilla ramme
+  '1966083': Lyseblå ramme
+  '1966084': Gul ramme
+  '1966085': Limegrøn ramme
+  '1966086': Pink ramme
+  '1966087': Grå ramme
+  '1966088': Lysegrå ramme
+  '1966089': Turkis ramme
+  '1966090': Lilla ramme
+  '1966091': Blå ramme
+  '1966092': Brun ramme
+  '1966093': Grøn ramme
+  '1966094': Rød ramme
+  '1966095': Sort ramme
+  '2031616': Hvid takket ramme
+  '2031617': Orange takket ramme
+  '2031618': Lyslilla takket ramme
+  '2031619': Lyseblå takket ramme
+  '2031620': Gul takket ramme
+  '2031621': Limegrøn takket ramme
+  '2031622': Lyserød takket ramme
+  '2031623': Grå takket ramme
+  '2031624': Lysegrå takket ramme
+  '2031625': Turkis takket ramme
+  '2031626': Lilla takket ramme
+  '2031627': Blå takket ramme
+  '2031628': Brun takket ramme
+  '2031629': Grøn takket ramme
+  '2031630': Rød takket ramme
+  '2031631': Sort takket ramme
+  '2097152': Hvidt creeper symbol
+  '2097153': Orange creeper symbol
+  '2097154': Lyslilla creeper symbol
+  '2097155': Lyseblåt creeper symbol
+  '2097156': Gult creeper symbol
+  '2097157': Limegrønt creeper symbol
+  '2097158': Lyserødt creeper symbol
+  '2097159': Gråt creeper symbol
+  '2097160': Lysegråt creeper symbol
+  '2097161': Turkis creeper symbol
+  '2097162': Lilla creeper symbol
+  '2097163': Blåt creeper symbol
+  '2097164': Brunt creeper symbol
+  '2097165': Grønt creeper symbol
+  '2097166': Rødt creeper symbol
+  '2097167': Sort creeper symbol
+  '2162688': Øvre faldne hvid
+  '2162689': Øvre faldne orange
+  '2162690': Øvre faldne lyslilla
+  '2162691': Øvre faldne lyseblå
+  '2162692': Øvre faldne gul
+  '2162693': Øvre faldne limegrøn
+  '2162694': Øvre faldne lyserød
+  '2162695': Øvre faldne grå
+  '2162696': Øvre faldne lysegrå
+  '2162697': Øvre faldne turkis
+  '2162698': Øvre faldne lilla
+  '2162699': Øvre faldne brun
+  '2162700': Øvre faldne brun
+  '2162701': Øvre faldne grøn
+  '2162702': Øvre faldne rød
+  '2162703': Øvre faldne sort
+  '2228224': Nedre faldne hvid
+  '2228225': Nedre faldne orange
+  '2228226': Nedre faldne lyslilla
+  '2228227': Nedre faldne lyseblå
+  '2228228': Nedre faldne gul
+  '2228229': Nedre faldne limegrøn
+  '2228230': Nedre faldne lyserød
+  '2228231': Nedre faldne grå
+  '2228232': Nedre faldne lysegrå
+  '2228233': Nedre faldne turkis
+  '2228234': Nedre faldne lilla
+  '2228235': Nedre faldne blå
+  '2228236': Nedre faldne brun
+  '2228237': Nedre faldne grøn
+  '2228238': Nedre faldne rød
+  '2228239': Nedre faldne sort
+  '2293760': Hvidt murstensmønster
+  '2293761': Orange murstensmønster
+  '2293762': Lyslilla murstensmønster
+  '2293763': Lyseblåt murstensmønster
+  '2293764': Gult murstensmønster
+  '2293765': Limegrønt murstensmønster
+  '2293766': Lyserødt murstensmønster
+  '2293767': Gråt murstensmønster
+  '2293768': Lysegråt murstensmønster
+  '2293769': Turkis murstensmønster
+  '2293770': Lilla murstensmønster
+  '2293771': Blåt murstensmønster
+  '2293772': Brunt murstensmønster
+  '2293773': Grønt murstensmønster
+  '2293774': Rødt murstensmønster
+  '2293775': Sort murstensmønster
+  '2359296': Hvidt kranium symbol
+  '2359297': Orange kranium symbol
+  '2359298': Lyslilla kranium symbol
+  '2359299': Lyseblåt kranium symbol
+  '2359300': Gult kranium symbol
+  '2359301': Limegrønt kranium symbol
+  '2359302': Lyserødt kranium symbol
+  '2359303': Gråt kranium symbol
+  '2359304': Lysegråt kranium symbol
+  '2359305': Turkis kranium symbol
+  '2359306': Lilla kranium symbol
+  '2359307': Blåt kranium symbol
+  '2359308': Brunt kranium symbol
+  '2359309': Grønt kranium symbol
+  '2359310': Rødt kranium symbol
+  '2359311': Sort kranium symbol
+  '2424832': Hvidt blomster symbol
+  '2424833': Orange blomster symbol
+  '2424834': Lyslilla blomster symbol
+  '2424835': Lyseblåt blomster symbol
+  '2424836': Gult blomster symbol
+  '2424837': Limegrønt blomster symbol
+  '2424838': Lyserødt blomster symbol
+  '2424839': Gråt blomster symbol
+  '2424840': Lysegråt blomster symbol
+  '2424841': Turkis blomster symbol
+  '2424842': Lilla blomster symbol
+  '2424843': Blåt blomster symbol
+  '2424844': Brunt blomster symbol
+  '2424845': Grønt blomster symbol
+  '2424846': Rødt blomster symbol
+  '2424847': Sort blomster symbol
+  '2490368': Hvid ting
+  '2490369': Orange ting
+  '2490370': Lyslilla ting
+  '2490371': Lyseblå ting
+  '2490372': Gul ting
+  '2490373': Limegrøn ting
+  '2490374': Lyserød ting
+  '2490375': Grå ting
+  '2490376': Lysegrå ting
+  '2490377': Turkis ting
+  '2490378': Lilla ting
+  '2490379': Blå ting
+  '2490380': Brun ting
+  '2490381': Grøn ting
+  '2490382': Rød ting
+  '2490383': Sort ting
+  '2555904': Hvid globus
+  '2555905': Orange globus
+  '2555906': Lyslilla globus
+  '2555907': Lyseblå globus
+  '2555908': Gul globus
+  '2555909': Limegrøn globus
+  '2555910': Lyserød globus
+  '2555911': Grå globus
+  '2555912': Lysegrå globus
+  '2555913': Turkis globus
+  '2555914': Lilla globus
+  '2555915': Blå globus
+  '2555916': Brun globus
+  '2555917': Grøn globus
+  '2555918': Rød globus
+  '2555919': Sort globus
+  '2621440': Hvid snude
+  '2621441': Orange snude
+  '2621442': Lyslilla snude
+  '2621443': Lyseblå snude
+  '2621444': Gul snude
+  '2621445': Limegrøn snude
+  '2621446': Lyserød snude
+  '2621447': Grå snude
+  '2621448': Lysegrå snude
+  '2621449': Turkis snude
+  '2621450': Lilla snude
+  '2621451': Blå snude
+  '2621452': Brun snude
+  '2621453': Grøn snude
+  '2621454': Rød snude
+  '2621455': Sort snude

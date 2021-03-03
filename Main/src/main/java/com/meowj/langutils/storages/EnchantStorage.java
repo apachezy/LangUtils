@@ -16,8 +16,8 @@ public class EnchantStorage extends Storage<Enchantment> {
 
     @Override
     public ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig,
-                                     @NotNull String node,   @NotNull Logger logger) {
-        ConfigurationSection entries = super.load(locale, langConfig, node, logger);
+                                     @NotNull String config, @NotNull Logger logger) {
+        ConfigurationSection entries = super.load(locale, langConfig, config, logger);
 
         if (entries != null) {
             for (Enchantment enchant : Enchantment.values()) {

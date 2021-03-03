@@ -27,8 +27,8 @@ public abstract class Storage<T> {
 
     @Nullable
     protected ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig,
-                                        @NotNull String node,   @NotNull Logger logger) {
-        ConfigurationSection result = langConfig.getConfigurationSection(node);
+                                        @NotNull String config, @NotNull Logger logger) {
+        ConfigurationSection result = langConfig.getConfigurationSection(config);
 
         if (result == null || result.getValues(false).size() == 0) {
             return null;

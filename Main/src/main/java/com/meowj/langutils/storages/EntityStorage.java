@@ -21,8 +21,8 @@ public class EntityStorage extends Storage<EntityType> {
     @Override
     @Nullable
     public ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig,
-                                     @NotNull String node,   @NotNull Logger logger) {
-        ConfigurationSection entries = super.load(locale, langConfig, node, logger);
+                                     @NotNull String config, @NotNull Logger logger) {
+        ConfigurationSection entries = super.load(locale, langConfig, config, logger);
 
         if (entries == null) {
             return null;

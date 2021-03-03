@@ -49,7 +49,6 @@ public class LanguageHelper {
     };
 
     private LanguageHelper() {
-
     }
 
     //region getItemDisplayName
@@ -91,7 +90,7 @@ public class LanguageHelper {
 
             case PLAYER_HEAD:
             case PLAYER_WALL_HEAD:
-                String owner = Util.getPlayerHeadOwner(item);
+                String owner = Util.getPlayerHeadOwnerName(item);
                 if (owner == null || owner.isEmpty()) {
                     return getMaterialName(material, locale);
                 }
@@ -401,33 +400,22 @@ public class LanguageHelper {
     }
     //endregion
 
-    public static boolean isBannerPattern(@NotNull Material material) {
-        return material.name().endsWith("_BANNER_PATTERN");
-    }
-
-    public static boolean isBannerPattern(@NotNull ItemStack item) {
-        return isBannerPattern(item.getType());
-    }
-
-    @Nullable
-    public static String getItemBannerPatternName(@NotNull ItemStack item, @NotNull String locale) {
-        throw new org.bukkit.craftbukkit.libs.org.apache.commons.lang3.NotImplementedException("");
-    }
-
     //region getBannerPatterName
     @NotNull
-    public static String getBannerPatterName(@NotNull Pattern pattern, @NotNull String locale) {
-        String result = LangUtils.bannerPatternStorage.getEntry(locale, pattern);
+    public static String getBannerPatternName(@NotNull Pattern pattern, @NotNull String locale) {
+        String result = LangUtils.bannerPatternStorage.getEntry(locale, Util.getPatternMixedCode(pattern));
+
         if (result == null || result.isEmpty()) {
-            return pattern.getColor  ().name().toLowerCase(Locale.ROOT)
-                 + pattern.getPattern().name().toLowerCase(Locale.ROOT);
+            return pattern.getColor().name().toLowerCase(Locale.ROOT) + "_"
+                    + pattern.getPattern().name().toLowerCase(Locale.ROOT);
         }
+
         return result;
     }
 
     @NotNull
-    public static String getBannerPatterName(@NotNull Pattern pattern, @NotNull Player player) {
-        return getBannerPatterName(pattern, player.getLocale());
+    public static String getBannerPatternName(@NotNull Pattern pattern, @NotNull Player player) {
+        return getBannerPatternName(pattern, player.getLocale());
     }
     //endregion
 

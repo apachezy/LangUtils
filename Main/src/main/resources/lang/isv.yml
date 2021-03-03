@@ -1,3 +1,4 @@
+#  Build time: 2021-03-04 01:01:26
 language:
   code: isv
   name: Medžuslovjansky
@@ -1502,3 +1503,644 @@ colored_shied:
   green: Zeleny ščit
   red: Črveny ščit
   black: Črny ščit
+banner_pattern:
+  '65536': Běly dolny lěvy kut
+  '65537': Oranževy dolny lěvy kut
+  '65538': Purpurny dolny lěvy kut
+  '65539': Jasnomodry dolny lěvy kut
+  '65540': Žolty dolny lěvy kut
+  '65541': Jasnozeleny dolny lěvy kut
+  '65542': Rozovy dolny lěvy kut
+  '65543': Sivy dolny lěvy kut
+  '65544': Jasnosivy dolny lěvy kut
+  '65545': Turkysovy dolny lěvy kut
+  '65546': Fioletovy dolny lěvy kut
+  '65547': Modry dolny lěvy kut
+  '65548': Koričnevy dolny lěvy kut
+  '65549': Zeleny dolny lěvy kut
+  '65550': Črveny dolny lěvy kut
+  '65551': Črny dolny lěvy kut
+  '131072': Běly dolny pravy kut
+  '131073': Oranževy dolny pravy kut
+  '131074': Purpurny dolny pravy kut
+  '131075': Jasnomodry dolny pravy kut
+  '131076': Žolty dolny pravy kut
+  '131077': Jasnozeleny dolny pravy kut
+  '131078': Rozovy dolny pravy kut
+  '131079': Sivy dolny pravy kut
+  '131080': Jasnosivy dolny pravy kut
+  '131081': Turkysovy dolny pravy kut
+  '131082': Fioletovy dolny pravy kut
+  '131083': Modry dolny pravy kut
+  '131084': Koričnevy dolny pravy kut
+  '131085': Zeleny dolny pravy kut
+  '131086': Črveny dolny pravy kut
+  '131087': Črny dolny pravy kut
+  '196608': Běly vrhny lěvy kut
+  '196609': Oranževy vrhny lěvy kut
+  '196610': Purpurny vrhny lěvy kut
+  '196611': Jasnomodry vrhny lěvy kut
+  '196612': Žolty vrhny lěvy kut
+  '196613': Jasnozeleny vrhny lěvy kut
+  '196614': Rozovy vrhny lěvy kut
+  '196615': Sivy vrhny lěvy kut
+  '196616': Jasnosivy vrhny lěvy kut
+  '196617': Turkysovy vrhny lěvy kut
+  '196618': Fioletovy vrhny lěvy kut
+  '196619': Modry vrhny lěvy kut
+  '196620': Koričnevy vrhny lěvy kut
+  '196621': Zeleny vrhny lěvy kut
+  '196622': Črveny vrhny lěvy kut
+  '196623': Črny vrhny lěvy kut
+  '262144': Běly vrhny pravy kut
+  '262145': Oranževy vrhny pravy kut
+  '262146': Purpurny vrhny pravy kut
+  '262147': Jasnomodry vrhny pravy kut
+  '262148': Žolty vrhny pravy kut
+  '262149': Jasnozeleny vrhny pravy kut
+  '262150': Rozovy vrhny pravy kut
+  '262151': Sivy vrhny pravy kut
+  '262152': Jasnosivy vrhny pravy kut
+  '262153': Turkysovy vrhny pravy kut
+  '262154': Fioletovy vrhny pravy kut
+  '262155': Modry vrhny pravy kut
+  '262156': Koričnevy vrhny pravy kut
+  '262157': Zeleny vrhny pravy kut
+  '262158': Črveny vrhny pravy kut
+  '262159': Črny vrhny pravy kut
+  '327680': Běla dolna linija
+  '327681': Oranževa dolna linija
+  '327682': Purpurna dolna linija
+  '327683': Jasnomodra dolna linija
+  '327684': Žolta dolna linija
+  '327685': Jasnozelena dolna linija
+  '327686': Rozova dolna linija
+  '327687': Siva dolna linija
+  '327688': Jasnosiva dolna linija
+  '327689': Turkysova dolna linija
+  '327690': Fioletova dolna linija
+  '327691': Modra dolna linija
+  '327692': Koričneva dolna linija
+  '327693': Zelena dolna linija
+  '327694': Črvena dolna linija
+  '327695': Črna dolna linija
+  '393216': Běla vrhna podstava
+  '393217': Oranževa vrhna podstava
+  '393218': Purpurna vrhna podstava
+  '393219': Jasnomodra vrhna podstava
+  '393220': Žolta vrhna podstava
+  '393221': Jasnozelena vrhna podstava
+  '393222': Rozova vrhna podstava
+  '393223': Siva vrhna podstava
+  '393224': Jasnosiva vrhna podstava
+  '393225': Turkysova vrhna podstava
+  '393226': Fioletova vrhna podstava
+  '393227': Modra vrhna podstava
+  '393228': Koričneva vrhna podstava
+  '393229': Zelena vrhna podstava
+  '393230': Črvena vrhna podstava
+  '393231': Črna vrhna podstava
+  '458752': Běla lěva linija
+  '458753': Oranževa lěva linija
+  '458754': Purpurna lěva linija
+  '458755': Jasnomodra lěva linija
+  '458756': Žolta lěva linija
+  '458757': Jasnozelena lěva linija
+  '458758': Rozova lěva linija
+  '458759': Siva lěva linija
+  '458760': Jasnosiva lěva linija
+  '458761': Turkysova lěva linija
+  '458762': Fioletova lěva linija
+  '458763': Modra lěva linija
+  '458764': Koričneva lěva linija
+  '458765': Zelena lěva linija
+  '458766': Črvena lěva linija
+  '458767': Črna lěva linija
+  '524288': Běla prava linija
+  '524289': Oranževa prava linija
+  '524290': Purpurna prava linija
+  '524291': Jasnomodra prava linija
+  '524292': Žolta prava linija
+  '524293': Jasnozelena prava linija
+  '524294': Rozova prava linija
+  '524295': Siva prava linija
+  '524296': Jasnosiva prava linija
+  '524297': Turkysova prava linija
+  '524298': Fioletova prava linija
+  '524299': Modra prava linija
+  '524300': Koričneva prava linija
+  '524301': Zelena prava linija
+  '524302': Črvena prava linija
+  '524303': Črna prava linija
+  '589824': Běla srědna linija vertikalna
+  '589825': Oranževa srědna linija vertikalna
+  '589826': Purpurna srědna linija vertikalna
+  '589827': Jasnomodra srědna linija vertikalna
+  '589828': Žolta srědna linija vertikalna
+  '589829': Jasnozelena srědna linija vertikalna
+  '589830': Rozova srědna linija vertikalna
+  '589831': Siva srědna linija vertikalna
+  '589832': Jasnosiva srědna linija vertikalna
+  '589833': Turkysova srědna linija vertikalna
+  '589834': Fioletova srědna linija vertikalna
+  '589835': Modra srědna linija vertikalna
+  '589836': Koričneva srědna linija vertikalna
+  '589837': Zelena srědna linija vertikalna
+  '589838': Črvena srědna linija vertikalna
+  '589839': Črna srědna linija vertikalna
+  '655360': Běla srědna linija horizontalna
+  '655361': Oranževa srědna linija horizontalna
+  '655362': Purpurna srědna linija horizontalna
+  '655363': Jasnomodra srědna linija horizontalna
+  '655364': Žolta srědna linija horizontalna
+  '655365': Jasnozelena srědna linija horizontalna
+  '655366': Rozova srědna linija horizontalna
+  '655367': Siva srědna linija horizontalna
+  '655368': Jasnosiva srědna linija horizontalna
+  '655369': Turkysova srědna linija horizontalna
+  '655370': Fioletova srědna linija horizontalna
+  '655371': Modra srědna linija horizontalna
+  '655372': Koričneva srědna linija horizontalna
+  '655373': Zelena srědna linija horizontalna
+  '655374': Črvena srědna linija horizontalna
+  '655375': Črna srědna linija horizontalna
+  '720896': Běla dolna-prava linija
+  '720897': Oranževa dolna-prava linija
+  '720898': Purpurna dolna-prava linija
+  '720899': Jasnomodra dolna-prava linija
+  '720900': Žolta dolna-prava linija
+  '720901': Jasnozelena dolna-prava linija
+  '720902': Rozova dolna-prava linija
+  '720903': Siva dolna-prava linija
+  '720904': Jasnosiva dolna-prava linija
+  '720905': Turkysova dolna-prava linija
+  '720906': Fioletova dolna-prava linija
+  '720907': Modra dolna-prava linija
+  '720908': Koričneva dolna-prava linija
+  '720909': Zelena dolna-prava linija
+  '720910': Črvena dolna-prava linija
+  '720911': Črna dolna-prava linija
+  '786432': Běla dolna-lěva linija
+  '786433': Oranževa dolna-lěva linija
+  '786434': Purpurna dolna-lěva linija
+  '786435': Jasnomodra dolna-lěva linija
+  '786436': Žolta dolna-lěva linija
+  '786437': Jasnozelena dolna-lěva linija
+  '786438': Rozova dolna-lěva linija
+  '786439': Siva dolna-lěva linija
+  '786440': Jasnosiva dolna-lěva linija
+  '786441': Turkysova dolna-lěva linija
+  '786442': Fioletova dolna-lěva linija
+  '786443': Modra dolna-lěva linija
+  '786444': Koričneva dolna-lěva linija
+  '786445': Zelena dolna-lěva linija
+  '786446': Črvena dolna-lěva linija
+  '786447': Črna dolna-lěva linija
+  '851968': Běle nevelike linije
+  '851969': Oranževe nevelike linije
+  '851970': Purpurne nevelike linije
+  '851971': Jasnomodre nevelike linije
+  '851972': Žolte nevelike linije
+  '851973': Jasnozelene nevelike linije
+  '851974': Rozove nevelike linije
+  '851975': Sive nevelike linije
+  '851976': Jasnosive nevelike linije
+  '851977': Turkysove nevelike linije
+  '851978': Fioletove nevelike linije
+  '851979': Modre nevelike linije
+  '851980': Koričneve nevelike linije
+  '851981': Zelene nevelike linije
+  '851982': Črvene nevelike linije
+  '851983': Črne nevelike linije
+  '917504': Běly križ
+  '917505': Oranževy križ
+  '917506': Purpurny križ
+  '917507': Jasnomodry križ
+  '917508': Žolty križ
+  '917509': Jasnozeleny križ
+  '917510': Rozovy križ
+  '917511': Sivy križ
+  '917512': Jasnosivy križ
+  '917513': Turkysovy križ
+  '917514': Fioletovy križ
+  '917515': Modry križ
+  '917516': Koričnevy križ
+  '917517': Zeleny križ
+  '917518': Črveny križ
+  '917519': Črny križ
+  '983040': Běly križ kvadratny
+  '983041': Oranževy križ kvadratny
+  '983042': Purpurny križ kvadratny
+  '983043': Jasnomodry križ kvadratny
+  '983044': Žolty križ kvadratny
+  '983045': Jasnozeleny križ kvadratny
+  '983046': Rozovy križ kvadratny
+  '983047': Sivy križ kvadratny
+  '983048': Jasnosivy križ kvadratny
+  '983049': Turkysovy križ kvadratny
+  '983050': Fioletovy križ kvadratny
+  '983051': Modry križ kvadratny
+  '983052': Koričnevy križ kvadratny
+  '983053': Zeleny križ kvadratny
+  '983054': Črveny križ kvadratny
+  '983055': Črny križ kvadratny
+  '1048576': Běly dolny trivugolnik
+  '1048577': Oranževy dolny trivugolnik
+  '1048578': Purpurny dolny trivugolnik
+  '1048579': Jasnomodry dolny trivugolnik
+  '1048580': Žolty dolny trivugolnik
+  '1048581': Jasnozeleny dolny trivugolnik
+  '1048582': Rozovy dolny trivugolnik
+  '1048583': Sivy dolny trivugolnik
+  '1048584': Jasnosivy dolny trivugolnik
+  '1048585': Turkysovy dolny trivugolnik
+  '1048586': Fioletovy dolny trivugolnik
+  '1048587': Modry dolny trivugolnik
+  '1048588': Koričnevy dolny trivugolnik
+  '1048589': Zeleny dolny trivugolnik
+  '1048590': Črveny dolny trivugolnik
+  '1048591': Črny dolny trivugolnik
+  '1114112': Běly vrhny trivugolnik
+  '1114113': Oranževy vrhny trivugolnik
+  '1114114': Purpurny vrhny trivugolnik
+  '1114115': Jasnomodry vrhny trivugolnik
+  '1114116': Žolty vrhny trivugolnik
+  '1114117': Jasnozeleny vrhny trivugolnik
+  '1114118': Rozovy vrhny trivugolnik
+  '1114119': Sivy vrhny trivugolnik
+  '1114120': Jasnosivy vrhny trivugolnik
+  '1114121': Turkysovy vrhny trivugolnik
+  '1114122': Fioletovy vrhny trivugolnik
+  '1114123': Modry vrhny trivugolnik
+  '1114124': Koričnevy vrhny trivugolnik
+  '1114125': Zeleny vrhny trivugolnik
+  '1114126': Črveny vrhny trivugolnik
+  '1114127': Črny vrhny trivugolnik
+  '1179648': Běla dolna linija s odstupom
+  '1179649': Oranževa dolna linija s odstupom
+  '1179650': Purpurna dolna linija s odstupom
+  '1179651': Jasnomodra dolna linija s odstupom
+  '1179652': Žolta dolna linija s odstupom
+  '1179653': Jasnozelena dolna linija s odstupom
+  '1179654': Rozova dolna linija s odstupom
+  '1179655': Siva dolna linija s odstupom
+  '1179656': Jasnosiva dolna linija s odstupom
+  '1179657': Turkysova dolna linija s odstupom
+  '1179658': Fioletova dolna linija s odstupom
+  '1179659': Modra dolna linija s odstupom
+  '1179660': Koričneva dolna linija s odstupom
+  '1179661': Zelena dolna linija s odstupom
+  '1179662': Črvena dolna linija s odstupom
+  '1179663': Črna dolna linija s odstupom
+  '1245184': Běla vrhna linija s odstupom
+  '1245185': Oranževa vrhna linija s odstupom
+  '1245186': Purpurna vrhna linija s odstupom
+  '1245187': Jasnomodra vrhna linija s odstupom
+  '1245188': Žolta vrhna linija s odstupom
+  '1245189': Jasnozelena vrhna linija s odstupom
+  '1245190': Rozova vrhna linija s odstupom
+  '1245191': Siva vrhna linija s odstupom
+  '1245192': Jasnosiva vrhna linija s odstupom
+  '1245193': Turkysova vrhna linija s odstupom
+  '1245194': Fioletova vrhna linija s odstupom
+  '1245195': Modra vrhna linija s odstupom
+  '1245196': Koričneva vrhna linija s odstupom
+  '1245197': Zelena vrhna linija s odstupom
+  '1245198': Črvena vrhna linija s odstupom
+  '1245199': Črna vrhna linija s odstupom
+  '1310720': Běly trivugolnik vo vrhnym-lěvym kutu
+  '1310721': Oranževy trivugolnik vo vrhnym-lěvym kutu
+  '1310722': Purpurny trivugolnik vo vrhnym-lěvym kutu
+  '1310723': Jasnomodry trivugolnik vo vrhnym-lěvym kutu
+  '1310724': Žolty trivugolnik vo vrhnym-lěvym kutu
+  '1310725': Jasnozeleny trivugolnik vo vrhnym-lěvym kutu
+  '1310726': Rozovy trivugolnik vo vrhnym-lěvym kutu
+  '1310727': Sivy trivugolnik vo vrhnym-lěvym kutu
+  '1310728': Jasnosivy trivugolnik vo vrhnym-lěvym kutu
+  '1310729': Turkysovy trivugolnik vo vrhnym-lěvym kutu
+  '1310730': Fioletovy trivugolnik vo vrhnym-lěvym kutu
+  '1310731': Modry trivugolnik vo vrhnym-lěvym kutu
+  '1310732': Koričnevy trivugolnik vo vrhnym-lěvym kutu
+  '1310733': Zeleny trivugolnik vo vrhnym-lěvym kutu
+  '1310734': Črveny trivugolnik vo vrhnym-lěvym kutu
+  '1310735': Črny trivugolnik vo vrhnym-lěvym kutu
+  '1376256': Běly trivugolnik v dolnym-pravym kutu
+  '1376257': Oranževy trivugolnik v dolnym-pravym kutu
+  '1376258': Purpurny trivugolnik v dolnym-pravym kutu
+  '1376259': Jasnomodry trivugolnik v dolnym-pravym kutu
+  '1376260': Žolty trivugolnik v dolnym-pravym kutu
+  '1376261': Jasnozeleny trivugolnik v dolnym-pravym kutu
+  '1376262': Rozovy trivugolnik v dolnym-pravym kutu
+  '1376263': Sivy trivugolnik v dolnym-pravym kutu
+  '1376264': Jasnosivy trivugolnik v dolnym-pravym kutu
+  '1376265': Turkysovy trivugolnik v dolnym-pravym kutu
+  '1376266': Fioletovy trivugolnik v dolnym-pravym kutu
+  '1376267': Modry trivugolnik v dolnym-pravym kutu
+  '1376268': Koričnevy trivugolnik v dolnym-pravym kutu
+  '1376269': Zeleny trivugolnik v dolnym-pravym kutu
+  '1376270': Črveny trivugolnik v dolnym-pravym kutu
+  '1376271': Črny trivugolnik v dolnym-pravym kutu
+  '1441792': Běly trivugolnik v dolnym-lěvym kutu
+  '1441793': Oranževy trivugolnik v dolnym-lěvym kutu
+  '1441794': Purpurny trivugolnik v dolnym-lěvym kutu
+  '1441795': Jasnomodry trivugolnik v dolnym-lěvym kutu
+  '1441796': Žolty trivugolnik v dolnym-lěvym kutu
+  '1441797': Jasnozeleny trivugolnik v dolnym-lěvym kutu
+  '1441798': Rozovy trivugolnik v dolnym-lěvym kutu
+  '1441799': Sivy trivugolnik v dolnym-lěvym kutu
+  '1441800': Jasnosivy trivugolnik v dolnym-lěvym kutu
+  '1441801': Turkysovy trivugolnik v dolnym-lěvym kutu
+  '1441802': Fioletovy trivugolnik v dolnym-lěvym kutu
+  '1441803': Modry trivugolnik v dolnym-lěvym kutu
+  '1441804': Koričnevy trivugolnik v dolnym-lěvym kutu
+  '1441805': Zeleny trivugolnik v dolnym-lěvym kutu
+  '1441806': Črveny trivugolnik v dolnym-lěvym kutu
+  '1441807': Črny trivugolnik v dolnym-lěvym kutu
+  '1507328': Běly trivugolnik vo vrhnym-pravym kutu
+  '1507329': Oranževy trivugolnik vo vrhnym-pravym kutu
+  '1507330': Purpurny trivugolnik vo vrhnym-pravym kutu
+  '1507331': Jasnomodry trivugolnik vo vrhnym-pravym kutu
+  '1507332': Žolty trivugolnik vo vrhnym-pravym kutu
+  '1507333': Jasnozeleny trivugolnik vo vrhnym-pravym kutu
+  '1507334': Rozovy trivugolnik vo vrhnym-pravym kutu
+  '1507335': Sivy trivugolnik vo vrhnym-pravym kutu
+  '1507336': Jasnosivy trivugolnik vo vrhnym-pravym kutu
+  '1507337': Turkysovy trivugolnik vo vrhnym-pravym kutu
+  '1507338': Fioletovy trivugolnik vo vrhnym-pravym kutu
+  '1507339': Modry trivugolnik vo vrhnym-pravym kutu
+  '1507340': Koričnevy trivugolnik vo vrhnym-pravym kutu
+  '1507341': Zeleny trivugolnik vo vrhnym-pravym kutu
+  '1507342': Črveny trivugolnik vo vrhnym-pravym kutu
+  '1507343': Črny trivugolnik vo vrhnym-pravym kutu
+  '1572864': Běly krug
+  '1572865': Oranževy krug
+  '1572866': Purpurny krug
+  '1572867': Jasnomodry krug
+  '1572868': Žolty krug
+  '1572869': Jasnozeleny krug
+  '1572870': Rozovy krug
+  '1572871': Sivy krug
+  '1572872': Jasnosivy krug
+  '1572873': Turkysovy krug
+  '1572874': Fioletovy krug
+  '1572875': Modry krug
+  '1572876': Koričnevy krug
+  '1572877': Zeleny krug
+  '1572878': Črveny krug
+  '1572879': Črny krug
+  '1638400': Běly srědny romb
+  '1638401': Oranževy srědny romb
+  '1638402': Purpurny srědny romb
+  '1638403': Jasnomodry srědny romb
+  '1638404': Žolty srědny romb
+  '1638405': Jasnozeleny srědny romb
+  '1638406': Rozovy srědny romb
+  '1638407': Sivy srědny romb
+  '1638408': Jasnosivy srědny romb
+  '1638409': Turkysovy srědny romb
+  '1638410': Fioletovy srědny romb
+  '1638411': Modry srědny romb
+  '1638412': Koričnevy srědny romb
+  '1638413': Zeleny srědny romb
+  '1638414': Črveny srědny romb
+  '1638415': Črny srědny romb
+  '1703936': Běly lěvy vertikalny pol
+  '1703937': Oranževy lěvy vertikalny pol
+  '1703938': Purpurny lěvy vertikalny pol
+  '1703939': Jasnomodry lěvy vertikalny pol
+  '1703940': Žolty lěvy vertikalny pol
+  '1703941': Jasnozeleny lěvy vertikalny pol
+  '1703942': Rozovy lěvy vertikalny pol
+  '1703943': Sivy lěvy vertikalny pol
+  '1703944': Jasnosivy lěvy vertikalny pol
+  '1703945': Turkysovy lěvy vertikalny pol
+  '1703946': Fioletovy lěvy vertikalny pol
+  '1703947': Modry lěvy vertikalny pol
+  '1703948': Koričnevy lěvy vertikalny pol
+  '1703949': Zeleny lěvy vertikalny pol
+  '1703950': Črveny lěvy vertikalny pol
+  '1703951': Črny lěvy vertikalny pol
+  '1769472': Běly vrhny horizontalny pol
+  '1769473': Oranževy vrhny horizontalny pol
+  '1769474': Purpurny vrhny horizontalny pol
+  '1769475': Jasnomodry vrhny horizontalny pol
+  '1769476': Žolty vrhny horizontalny pol
+  '1769477': Jasnozeleny vrhny horizontalny pol
+  '1769478': Rozovy vrhny horizontalny pol
+  '1769479': Sivy vrhny horizontalny pol
+  '1769480': Jasnosivy vrhny horizontalny pol
+  '1769481': Turkysovy vrhny horizontalny pol
+  '1769482': Fioletovy vrhny horizontalny pol
+  '1769483': Modry vrhny horizontalny pol
+  '1769484': Koričnevy vrhny horizontalny pol
+  '1769485': Zeleny vrhny horizontalny pol
+  '1769486': Črveny vrhny horizontalny pol
+  '1769487': Črny vrhny horizontalny pol
+  '1835008': Běly pravy vertikalny pol
+  '1835009': Oranževy pravy vertikalny pol
+  '1835010': Purpurny pravy vertikalny pol
+  '1835011': Jasnomodry pravy vertikalny pol
+  '1835012': Žolty pravy vertikalny pol
+  '1835013': Jasnozeleny pravy vertikalny pol
+  '1835014': Rozovy pravy vertikalny pol
+  '1835015': Sivy pravy vertikalny pol
+  '1835016': Jasnosivy pravy vertikalny pol
+  '1835017': Turkysovy pravy vertikalny pol
+  '1835018': Fioletovy pravy vertikalny pol
+  '1835019': Modry pravy vertikalny pol
+  '1835020': Koričnevy pravy vertikalny pol
+  '1835021': Zeleny pravy vertikalny pol
+  '1835022': Črveny pravy vertikalny pol
+  '1835023': Črny pravy vertikalny pol
+  '1900544': Běly dolny horizontalny pol
+  '1900545': Oranževy dolny horizontalny pol
+  '1900546': Purpurny dolny horizontalny pol
+  '1900547': Jasnomodry dolny horizontalny pol
+  '1900548': Žolty dolny horizontalny pol
+  '1900549': Jasnozeleny dolny horizontalny pol
+  '1900550': Rozovy dolny horizontalny pol
+  '1900551': Sivy dolny horizontalny pol
+  '1900552': Jasnosivy dolny horizontalny pol
+  '1900553': Turkysovy dolny horizontalny pol
+  '1900554': Fioletovy dolny horizontalny pol
+  '1900555': Modry dolny horizontalny pol
+  '1900556': Koričnevy dolny horizontalny pol
+  '1900557': Zeleny dolny horizontalny pol
+  '1900558': Črveny dolny horizontalny pol
+  '1900559': Črny dolny horizontalny pol
+  '1966080': Běly obrub
+  '1966081': Oranževy obrub
+  '1966082': Purpurny obrub
+  '1966083': Jasnomodry obrub
+  '1966084': Žolty obrub
+  '1966085': Jasnozeleny obrub
+  '1966086': Rozovy obrub
+  '1966087': Sivy obrub
+  '1966088': Jasnosivy obrub
+  '1966089': Turkysovy obrub
+  '1966090': Fioletovy obrub
+  '1966091': Modry obrub
+  '1966092': Koričnevy obrub
+  '1966093': Zeleny obrub
+  '1966094': Črveny obrub
+  '1966095': Črny obrub
+  '2031616': Běly obrub s odstupom
+  '2031617': Oranževy obrub s odstupom
+  '2031618': Purpurny obrub s odstupom
+  '2031619': Jasnomodry obrub s odstupom
+  '2031620': Žolty obrub s odstupom
+  '2031621': Jasnozeleny obrub s odstupom
+  '2031622': Rozovy obrub s odstupom
+  '2031623': Sivy obrub s odstupom
+  '2031624': Jasnosivy obrub s odstupom
+  '2031625': Turkysovy obrub s odstupom
+  '2031626': Fioletovy obrub s odstupom
+  '2031627': Modry obrub s odstupom
+  '2031628': Koričnevy obrub s odstupom
+  '2031629': Zeleny obrub s odstupom
+  '2031630': Črveny obrub s odstupom
+  '2031631': Črny obrub s odstupom
+  '2097152': Bělo lice Creepera
+  '2097153': Oranževo lice Creepera
+  '2097154': Purpurno lice Creepera
+  '2097155': Jasnomodro lice Creepera
+  '2097156': Žolto lice Creepera
+  '2097157': Jasnozeleno lice Buhača
+  '2097158': Rozovo lice Buhača
+  '2097159': Sivo lice Buhača
+  '2097160': Jasnosivo lice Buhača
+  '2097161': Turkysovo lice Buhača
+  '2097162': Fioletovo lice Buhača
+  '2097163': Modro lice Buhača
+  '2097164': Koričnevo lice Buhača
+  '2097165': Zeleno lice Buhača
+  '2097166': Črveno lice Buhača
+  '2097167': Črno lice Buhača
+  '2162688': Běly směs
+  '2162689': Oranževy směs
+  '2162690': Purpurny směs
+  '2162691': Jasnomodry směs
+  '2162692': Žolty směs
+  '2162693': Jasnozeleny směs
+  '2162694': Rozovy směs
+  '2162695': Sivy směs
+  '2162696': Jasnosivy směs
+  '2162697': Turkysovy směs
+  '2162698': Fioletovy směs
+  '2162699': Modry směs
+  '2162700': Koričnevy směs
+  '2162701': Zeleny směs
+  '2162702': Črveny směs
+  '2162703': Črny směs
+  '2228224': Běly podstavovy směs
+  '2228225': Oranževy podstavovy směs
+  '2228226': Purpurny podstavovy směs
+  '2228227': Jasnomodry podstavovy směs
+  '2228228': Žolty podstavovy směs
+  '2228229': Jasnozeleny podstavovy směs
+  '2228230': Rozovy podstavovy směs
+  '2228231': Sivy podstavovy směs
+  '2228232': Jasnosivy podstavovy směs
+  '2228233': Turkysovy podstavovy směs
+  '2228234': Fioletovy podstavovy směs
+  '2228235': Modry podstavovy směs
+  '2228236': Koričnevy podstavovy směs
+  '2228237': Zeleny podstavovy směs
+  '2228238': Črveny podstavovy směs
+  '2228239': Črny podstavovy směs
+  '2293760': Běly vzor cegl
+  '2293761': Oranževy vzor cegl
+  '2293762': Purpurny vzor cegl
+  '2293763': Jasnomodry vzor cegl
+  '2293764': Žolty vzor cegl
+  '2293765': Jasnozeleny vzor cegl
+  '2293766': Rozovy vzor cegl
+  '2293767': Sivy vzor cegl
+  '2293768': Jasnosivy vzor cegl
+  '2293769': Turkysovy vzor cegl
+  '2293770': Fioletovy vzor cegl
+  '2293771': Modry vzor cegl
+  '2293772': Koričnevy vzor cegl
+  '2293773': Zeleny vzor cegl
+  '2293774': Črveny vzor cegl
+  '2293775': Črny vzor cegl
+  '2359296': Běly čerep
+  '2359297': Oranževy čerep
+  '2359298': Purpurny čerep
+  '2359299': Jasnomodry čerep
+  '2359300': Žolty čerep
+  '2359301': Jasnozeleny čerep
+  '2359302': Rozovy čerep
+  '2359303': Sivy čerep
+  '2359304': Jasnosivy čerep
+  '2359305': Turkysovy čerep
+  '2359306': Fioletovy čerep
+  '2359307': Modry čerep
+  '2359308': Koričnevy čerep
+  '2359309': Zeleny čerep
+  '2359310': Črveny čerep
+  '2359311': Črny čerep
+  '2424832': Běly vzor cvěta
+  '2424833': Oranževy vzor cvěta
+  '2424834': Purpurny vzor cvěta
+  '2424835': Jasnomodry vzor cvěta
+  '2424836': Žolty vzor cvěta
+  '2424837': Jasnozeleny vzor cvěta
+  '2424838': Rozovy vzor cvěta
+  '2424839': Sivy vzor cvěta
+  '2424840': Jasnosivy vzor cvěta
+  '2424841': Turkysovy vzor cvěta
+  '2424842': Fioletovy vzor cvěta
+  '2424843': Modry vzor cvěta
+  '2424844': Koričnevy vzor cvěta
+  '2424845': Zeleny vzor cvěta
+  '2424846': Črveny vzor cvěta
+  '2424847': Črny vzor cvěta
+  '2490368': Běly prědmet
+  '2490369': Oranževy prědmet
+  '2490370': Purpurny prědmet
+  '2490371': Jasnomodry prědmet
+  '2490372': Žolty prědmet
+  '2490373': Jasnozeleny prědmet
+  '2490374': Rozovy prědmet
+  '2490375': Sivy prědmet
+  '2490376': Jasnosivy prědmet
+  '2490377': Turkysovy prědmet
+  '2490378': Fioletovy prědmet
+  '2490379': Modry prědmet
+  '2490380': Koričnevy prědmet
+  '2490381': Zeleny prědmet
+  '2490382': Črveny prědmet
+  '2490383': Črny prědmet
+  '2555904': Běly globus
+  '2555905': Oranževy globus
+  '2555906': Purpurny globus
+  '2555907': Jasnomodry globus
+  '2555908': Žolty globus
+  '2555909': Jasnozeleny globus
+  '2555910': Rozovy globus
+  '2555911': Sivy globus
+  '2555912': Jasnosivy globus
+  '2555913': Turkysovy globus
+  '2555914': Fioletovy globus
+  '2555915': Modry globus
+  '2555916': Koričnevy globus
+  '2555917': Zeleny globus
+  '2555918': Črveny globus
+  '2555919': Črny globus
+  '2621440': Bělo rylo
+  '2621441': Oranževo rylo
+  '2621442': Purpurovo rylo
+  '2621443': Jasnomodro rylo
+  '2621444': Žolto rylo
+  '2621445': Jasnozeleno rylo
+  '2621446': Rozovo rylo
+  '2621447': Sivo rylo
+  '2621448': Jasnosivo rylo
+  '2621449': Turkusovo rylo
+  '2621450': Purpurno rylo
+  '2621451': Modro rylo
+  '2621452': Koričnevo rylo
+  '2621453': Zeleno rylo
+  '2621454': Črveno rylo
+  '2621455': Črno rylo

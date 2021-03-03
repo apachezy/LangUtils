@@ -55,7 +55,6 @@ public class LangUtils extends JavaPlugin {
     public static final DyeColorStorage          dyeColorStorage          = new DyeColorStorage         (EN_US);
     public static final IntegerStorage           villagerLevelStorage     = new IntegerStorage          (EN_US);
     public static final ProfessionStorage        professionStorage        = new ProfessionStorage       (EN_US);
-    public static final ItemBannerPatternStorage itemBannerPatternStorage = new ItemBannerPatternStorage(EN_US);
     public static final DyeColorStorage          coloredShiedStorage      = new DyeColorStorage         (EN_US);
     public static final BannerPatternStorage     bannerPatternStorage     = new BannerPatternStorage    (EN_US);
     // @formatter:on
@@ -114,8 +113,8 @@ public class LangUtils extends JavaPlugin {
         dyeColorStorage         .setFallbackLocale(fallback);
         villagerLevelStorage    .setFallbackLocale(fallback);
         professionStorage       .setFallbackLocale(fallback);
-        itemBannerPatternStorage.setFallbackLocale(fallback);
         coloredShiedStorage     .setFallbackLocale(fallback);
+        bannerPatternStorage    .setFallbackLocale(fallback);
         // @formatter:on
 
         try (JarFile jar = new JarFile(getFile())) {
@@ -170,8 +169,8 @@ public class LangUtils extends JavaPlugin {
                     dyeColorStorage         .load(langInfo.code, cfg, "dye_color"           , getLogger());
                     villagerLevelStorage    .load(langInfo.code, cfg, "merchant_level"      , getLogger());
                     professionStorage       .load(langInfo.code, cfg, "villager_profession" , getLogger());
-                    itemBannerPatternStorage.load(langInfo.code, cfg, "item_banner_pattern" , getLogger());
                     coloredShiedStorage     .load(langInfo.code, cfg, "colored_shied"       , getLogger());
+                    bannerPatternStorage    .load(langInfo.code, cfg, "banner_pattern"      , getLogger());
                     // @formatter:on
 
                     count++;
@@ -207,8 +206,8 @@ public class LangUtils extends JavaPlugin {
         dyeColorStorage          .clear();
         villagerLevelStorage     .clear();
         professionStorage        .clear();
-        itemBannerPatternStorage .clear();
         coloredShiedStorage      .clear();
+        bannerPatternStorage     .clear();
         // @formatter:on
     }
 

@@ -16,8 +16,8 @@ public class IntegerStorage extends Storage<Integer> {
 
     @Override
     public ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig,
-                                     @NotNull String node,   @NotNull Logger logger) {
-        ConfigurationSection entries = super.load(locale, langConfig, node, logger);
+                                     @NotNull String config, @NotNull Logger logger) {
+        ConfigurationSection entries = super.load(locale, langConfig, config, logger);
 
         if (entries != null) {
             for (String key : entries.getKeys(false)) {
@@ -29,18 +29,18 @@ public class IntegerStorage extends Storage<Integer> {
                             logger.log(
                                     Level.SEVERE,
                                     "Null value in {0}.{1} in fallback language {2}.",
-                                    new String[]{node, key, locale});
+                                    new String[]{config, key, locale});
                         }
 
                         continue;
                     }
 
-                    addEntry(locale,Integer.parseInt(key), localized);
+                    addEntry(locale, Integer.parseInt(key), localized);
                 } catch (NumberFormatException ignored) {
                     Bukkit.getLogger().log(
                             Level.SEVERE,
                             "Wrong key in {0}.{1} in fallback language {2}.",
-                            new String[]{node, key, locale});
+                            new String[]{config, key, locale});
                 }
             }
         }

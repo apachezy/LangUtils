@@ -20,8 +20,8 @@ public class PotionStorage extends Storage<PotionType> {
 
     @Override
     public ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig,
-                                     @NotNull String node,   @NotNull Logger logger) {
-        ConfigurationSection entries = super.load(locale, langConfig, node, logger);
+                                     @NotNull String config, @NotNull Logger logger) {
+        ConfigurationSection entries = super.load(locale, langConfig, config, logger);
 
         if (entries != null) {
             for (PotionType potionType : PotionType.values()) {
