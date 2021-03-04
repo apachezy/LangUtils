@@ -1,16 +1,18 @@
 package com.meowj.langutils.storages;
 
 import com.meowj.langutils.LangUtils;
+import com.meowj.langutils.misc.Remaper;
+import org.bukkit.Bukkit;
 import org.bukkit.configuration.Configuration;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.entity.TropicalFish.Pattern;
 import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 
 import java.util.EnumMap;
 import java.util.Locale;
 import java.util.Map;
 import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public class TropicalFishTypeStorage extends Storage<Pattern> {
 
@@ -20,8 +22,8 @@ public class TropicalFishTypeStorage extends Storage<Pattern> {
 
     @Override
     public ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig,
-                                     @NotNull String config, @NotNull Logger logger) {
-        ConfigurationSection entries = super.load(locale, langConfig, config, logger);
+                                     @NotNull String config, @Nullable Remaper remaper) {
+        ConfigurationSection entries = super.load(locale, langConfig, config, remaper);
 
         if (entries != null) {
             String entryName;
@@ -33,7 +35,7 @@ public class TropicalFishTypeStorage extends Storage<Pattern> {
 
                 if (localized == null || localized.isEmpty()) {
                     if (locale.equals(fallbackLocale)) {
-                        logger.log(
+                        Bukkit.getLogger().log(
                                 Level.SEVERE,
                                 "TropicalFish type name {0} is missing in fallback language {1}.",
                                 new String[]{entryName, locale});
@@ -41,7 +43,7 @@ public class TropicalFishTypeStorage extends Storage<Pattern> {
                     continue;
                 }
 
-                addEntry(locale, pattern, localized);
+                addEntry(locale, pattern, localized, remaper);
             }
         }
 
@@ -49,12 +51,14 @@ public class TropicalFishTypeStorage extends Storage<Pattern> {
     }
 
     @Override
-    public void addEntry(@NotNull String locale, @NotNull Pattern pattern, @NotNull String localized) {
+    public void addEntry(@NotNull String locale, @NotNull Pattern pattern,
+                         @NotNull String localized, Remaper remaper) {
+
         locale = LangUtils.fixLocale(locale);
         Map<Pattern, String> pairMap = pairStorage.computeIfAbsent(locale, s -> new EnumMap<>(Pattern.class));
         pairMap.put(pattern, localized);
 
-        remapping(locale, pairMap);
+        remapping(locale, pairMap, remaper);
     }
 
     @Override

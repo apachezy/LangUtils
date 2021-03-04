@@ -1,6 +1,8 @@
 package com.meowj.langutils.storages;
 
 import com.meowj.langutils.LangUtils;
+import com.meowj.langutils.misc.Remaper;
+import org.bukkit.Bukkit;
 import org.bukkit.configuration.Configuration;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.entity.EntityType;
@@ -10,7 +12,6 @@ import org.jetbrains.annotations.Nullable;
 import java.util.EnumMap;
 import java.util.Map;
 import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public class EntityStorage extends Storage<EntityType> {
 
@@ -21,8 +22,8 @@ public class EntityStorage extends Storage<EntityType> {
     @Override
     @Nullable
     public ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig,
-                                     @NotNull String config, @NotNull Logger logger) {
-        ConfigurationSection entries = super.load(locale, langConfig, config, logger);
+                                     @NotNull String config, @Nullable Remaper remaper) {
+        ConfigurationSection entries = super.load(locale, langConfig, config, remaper);
 
         if (entries == null) {
             return null;
@@ -36,7 +37,7 @@ public class EntityStorage extends Storage<EntityType> {
 
                 if (localized == null || localized.isEmpty()) {
                     if (locale.equals(fallbackLocale)) {
-                        logger.log(
+                        Bukkit.getLogger().log(
                                 Level.SEVERE,
                                 "EntityType name {0} is missing in fallback language {1}.",
                                 new String[]{entryName, locale});
@@ -44,7 +45,7 @@ public class EntityStorage extends Storage<EntityType> {
                     continue;
                 }
 
-                addEntry(locale, ent, localized);
+                addEntry(locale, ent, localized, remaper);
             }
         }
 
@@ -52,12 +53,13 @@ public class EntityStorage extends Storage<EntityType> {
     }
 
     @Override
-    public void addEntry(@NotNull String locale, @NotNull EntityType entityType, @NotNull String localized) {
+    public void addEntry(@NotNull String locale, @NotNull EntityType entityType,
+                         @NotNull String localized, Remaper remaper) {
         locale = LangUtils.fixLocale(locale);
         Map<EntityType, String> pairMap = pairStorage.computeIfAbsent(locale, s -> new EnumMap<>(EntityType.class));
         pairMap.put(entityType, localized);
 
-        remapping(locale, pairMap);
+        remapping(locale, pairMap, remaper);
     }
 
     @Override

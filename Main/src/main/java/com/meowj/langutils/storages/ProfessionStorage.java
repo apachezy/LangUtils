@@ -1,15 +1,17 @@
 package com.meowj.langutils.storages;
 
 import com.meowj.langutils.LangUtils;
+import com.meowj.langutils.misc.Remaper;
+import org.bukkit.Bukkit;
 import org.bukkit.configuration.Configuration;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.entity.Villager.Profession;
 import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 
 import java.util.EnumMap;
 import java.util.Map;
 import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public class ProfessionStorage extends Storage<Profession> {
 
@@ -19,8 +21,8 @@ public class ProfessionStorage extends Storage<Profession> {
 
     @Override
     public ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig,
-                                     @NotNull String config, @NotNull Logger logger) {
-        ConfigurationSection entries = super.load(locale, langConfig, config, logger);
+                                     @NotNull String config, @Nullable Remaper remaper) {
+        ConfigurationSection entries = super.load(locale, langConfig, config, remaper);
 
         if (entries != null) {
             for (Profession profession : Profession.values()) {
@@ -30,7 +32,7 @@ public class ProfessionStorage extends Storage<Profession> {
 
                 if (localized == null || localized.isEmpty()) {
                     if (locale.equals(fallbackLocale)) {
-                        logger.log(
+                        Bukkit.getLogger().log(
                                 Level.SEVERE,
                                 "Villager Profession name {0} is missing in fallback language {1}.",
                                 new String[]{entryName, locale});
@@ -38,7 +40,7 @@ public class ProfessionStorage extends Storage<Profession> {
                     continue;
                 }
 
-                addEntry(locale, profession, localized);
+                addEntry(locale, profession, localized, remaper);
             }
         }
 
@@ -46,12 +48,13 @@ public class ProfessionStorage extends Storage<Profession> {
     }
 
     @Override
-    public void addEntry(@NotNull String locale, @NotNull Profession profession, @NotNull String localized) {
+    public void addEntry(@NotNull String locale, @NotNull Profession profession,
+                         @NotNull String localized, Remaper remaper) {
         locale = LangUtils.fixLocale(locale);
         Map<Profession, String> pairMap = pairStorage.computeIfAbsent(locale, s -> new EnumMap<>(Profession.class));
         pairMap.put(profession, localized);
 
-        remapping(locale, pairMap);
+        remapping(locale, pairMap, remaper);
     }
 
     @Override

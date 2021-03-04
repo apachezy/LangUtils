@@ -2,14 +2,14 @@ package com.meowj.langutils.misc;
 
 import com.meowj.langutils.lang.LanguageHelper;
 import org.bukkit.ChatColor;
-import org.bukkit.DyeColor;
 import org.bukkit.OfflinePlayer;
-import org.bukkit.block.banner.PatternType;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.entity.TropicalFish.Pattern;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.*;
+import org.bukkit.potion.PotionData;
+import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionType;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -82,41 +82,52 @@ public class Util {
                 return;
             }
 
-            switch (itm.getType()) {
-                case BLACK_BANNER:
-                case BLUE_BANNER:
-                case BROWN_BANNER:
-                case CYAN_BANNER:
-                case GRAY_BANNER:
-                case GREEN_BANNER:
-                case LIGHT_BLUE_BANNER:
-                case LIGHT_GRAY_BANNER:
-                case LIME_BANNER:
-                case MAGENTA_BANNER:
-                case ORANGE_BANNER:
-                case PINK_BANNER:
-                case PURPLE_BANNER:
-                case RED_BANNER:
-                case YELLOW_BANNER:
-                case WHITE_BANNER:
-                    BannerMeta bannerMeta = (BannerMeta) meta;
-                    for (org.bukkit.block.banner.Pattern pattern : bannerMeta.getPatterns()) {
-                        player.sendMessage(
-                                "  " + ChatColor.GRAY
-                                     + LanguageHelper.getBannerPatternName(pattern, player));
-                    }
-                    break;
+            sendBannerPatterns(meta, player);
+            sendFishBucket(meta, player);
+            sendPotionEffect(meta, player);
+        }
+    }
 
-                default:
-                    break;
+    private static void sendBannerPatterns(ItemMeta meta, Player player) {
+        if (meta instanceof BannerMeta) {
+            BannerMeta bannerMeta = (BannerMeta) meta;
+            for (org.bukkit.block.banner.Pattern pattern : bannerMeta.getPatterns()) {
+                player.sendMessage("  "
+                        + ChatColor.GRAY
+                        + LanguageHelper.getBannerPatternName(pattern, player));
             }
-        } else {
-            org.bukkit.block.banner.Pattern pattern1 = new org.bukkit.block.banner.Pattern(DyeColor.ORANGE, PatternType.CURLY_BORDER);
-            org.bukkit.block.banner.Pattern pattern2 = new org.bukkit.block.banner.Pattern(DyeColor.ORANGE, PatternType.CURLY_BORDER);
+        }
+    }
 
-            sender.sendMessage(String.format(
-                    "%d, %d | %s, %s",
-                    pattern1.hashCode(), pattern2.hashCode(), pattern1.toString(), pattern2.toString()));
+    private static void sendFishBucket(ItemMeta meta, Player player) {
+        if (meta instanceof TropicalFishBucketMeta) {
+            TropicalFishBucketMeta fishBucketMeta = (TropicalFishBucketMeta) meta;
+            String fisName = LanguageHelper.getPredefinedTropicalFishName(fishBucketMeta, player);
+            if (fisName == null) {
+                fisName = LanguageHelper.getDyeColorName(fishBucketMeta.getBodyColor(), player)
+                        + "-"
+                        + LanguageHelper.getDyeColorName(fishBucketMeta.getPatternColor(), player)
+                        + " "
+                        + LanguageHelper.getTropicalFishTypeName(fishBucketMeta.getPattern(), player);
+            }
+            player.sendMessage("  " + ChatColor.GRAY + ChatColor.ITALIC + fisName);
+        }
+    }
+
+    private static void sendPotionEffect(ItemMeta meta, Player player) {
+        if (meta instanceof PotionMeta) {
+            PotionMeta potionMeta = (PotionMeta) meta;
+            PotionData potionData = potionMeta.getBasePotionData();
+
+            String name = "  " + ChatColor.GRAY + ChatColor.ITALIC;
+            name += LanguageHelper.getPotionName(potionData.getType(), player);
+            if (potionData.isUpgraded()) name += "II";
+
+            player.sendMessage(name);
+
+            for (PotionEffect eff : potionMeta.getCustomEffects()) {
+                player.sendMessage(LanguageHelper.getPotionEffectDisplay(eff, player));
+            }
         }
     }
 

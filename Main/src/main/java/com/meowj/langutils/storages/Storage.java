@@ -12,7 +12,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Predicate;
-import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 public abstract class Storage<T> {
@@ -27,7 +26,8 @@ public abstract class Storage<T> {
 
     @Nullable
     protected ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig,
-                                        @NotNull String config, @NotNull Logger logger) {
+                                        @NotNull String config, @Nullable Remaper remaper) {
+
         ConfigurationSection result = langConfig.getConfigurationSection(config);
 
         if (result == null || result.getValues(false).size() == 0) {
@@ -37,16 +37,21 @@ public abstract class Storage<T> {
         return result;
     }
 
-    public void addEntry(@NotNull String locale, @NotNull T t, @NotNull String localized) {
+    public void addEntry(@NotNull String locale, @NotNull T t,
+                         @NotNull String localized, Remaper remaper) {
+
         locale = LangUtils.fixLocale(locale);
         Map<T, String> pairMap = pairStorage.computeIfAbsent(locale, s -> new HashMap<>());
         pairMap.put(t, localized);
 
-        remapping(locale, pairMap);
+        remapping(locale, pairMap, remaper);
     }
 
-    protected void remapping(@NotNull String locale, Map<T, String> pairMap) {
-        String remapped = Remaper.remap(locale);
+    protected void remapping(@NotNull String locale, Map<T, String> pairMap, Remaper remaper) {
+        if (remaper == null) {
+            return;
+        }
+        String remapped = remaper.remap(locale);
         if (remapped != null) {
             if (pairStorage.get(remapped) == pairMap) {
                 return;
