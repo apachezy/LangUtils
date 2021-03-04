@@ -82,51 +82,63 @@ public class Util {
                 return;
             }
 
-            sendBannerPatterns(meta, player);
-            sendFishBucket(meta, player);
-            sendPotionEffect(meta, player);
+            sendBannerPatterns(meta, player, locale);
+            sendFishBucket    (meta, player, locale);
+            sendPotionEffect  (meta, player, locale);
         }
     }
 
-    private static void sendBannerPatterns(ItemMeta meta, Player player) {
+    private static void sendBannerPatterns(ItemMeta meta, Player player, String locale) {
         if (meta instanceof BannerMeta) {
             BannerMeta bannerMeta = (BannerMeta) meta;
             for (org.bukkit.block.banner.Pattern pattern : bannerMeta.getPatterns()) {
                 player.sendMessage("  "
                         + ChatColor.GRAY
-                        + LanguageHelper.getBannerPatternName(pattern, player));
+                        + LanguageHelper.getBannerPatternName(pattern, locale)
+                        + " ("
+                        + pattern.getPattern().name()
+                        + " - " + pattern.getColor().name()
+                        + ")");
             }
         }
     }
 
-    private static void sendFishBucket(ItemMeta meta, Player player) {
+    private static void sendFishBucket(ItemMeta meta, Player player, String locale) {
         if (meta instanceof TropicalFishBucketMeta) {
+
             TropicalFishBucketMeta fishBucketMeta = (TropicalFishBucketMeta) meta;
-            String fisName = LanguageHelper.getPredefinedTropicalFishName(fishBucketMeta, player);
-            if (fisName == null) {
-                fisName = LanguageHelper.getDyeColorName(fishBucketMeta.getBodyColor(), player)
+            String message = LanguageHelper.getPredefinedTropicalFishName(fishBucketMeta, locale);
+
+            if (message == null) {
+                message = LanguageHelper.getDyeColorName(fishBucketMeta.getBodyColor(), locale)
                         + "-"
-                        + LanguageHelper.getDyeColorName(fishBucketMeta.getPatternColor(), player)
+                        + LanguageHelper.getDyeColorName(fishBucketMeta.getPatternColor(), locale)
                         + " "
-                        + LanguageHelper.getTropicalFishTypeName(fishBucketMeta.getPattern(), player);
+                        + LanguageHelper.getTropicalFishTypeName(fishBucketMeta.getPattern(), locale);
             }
-            player.sendMessage("  " + ChatColor.GRAY + ChatColor.ITALIC + fisName);
+
+            player.sendMessage("  " + ChatColor.GRAY + ChatColor.ITALIC + message);
         }
     }
 
-    private static void sendPotionEffect(ItemMeta meta, Player player) {
+    private static void sendPotionEffect(ItemMeta meta, Player player, String locale) {
         if (meta instanceof PotionMeta) {
+
             PotionMeta potionMeta = (PotionMeta) meta;
             PotionData potionData = potionMeta.getBasePotionData();
 
-            String name = "  " + ChatColor.GRAY + ChatColor.ITALIC;
-            name += LanguageHelper.getPotionName(potionData.getType(), player);
-            if (potionData.isUpgraded()) name += "II";
+            String message = "  " + ChatColor.GRAY + ChatColor.ITALIC;
+            message += LanguageHelper.getPotionName(potionData.getType(), locale);
 
-            player.sendMessage(name);
+            if (potionData.isUpgraded()) {
+                message += "II";
+            }
+
+            player.sendMessage(message);
 
             for (PotionEffect eff : potionMeta.getCustomEffects()) {
-                player.sendMessage(LanguageHelper.getPotionEffectDisplay(eff, player));
+                message = LanguageHelper.getPotionEffectDisplay(eff, locale);
+                player.sendMessage(message);
             }
         }
     }
