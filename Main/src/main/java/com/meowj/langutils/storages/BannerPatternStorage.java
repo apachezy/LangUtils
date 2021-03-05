@@ -37,11 +37,11 @@ public class BannerPatternStorage extends Storage<Integer> {
 
             for (DyeColor color : DyeColor.values()) {
 
-                Pattern pattern = new Pattern(color, paType);
-                Integer mixCode = Util.getPatternMixedCode(pattern);
-                String strValue = entries.getString(Integer.toString(mixCode));
+                Pattern pattern0 = new Pattern(color, paType);
+                Integer mixeCode = Util.getPatternMixedCode(pattern0);
+                String localized = entries.getString(Integer.toString(mixeCode));
 
-                if (strValue == null || strValue.isEmpty()) {
+                if (localized == null || localized.isEmpty()) {
                     if (locale.equals(fallbackLocale)) {
                         Bukkit.getLogger().log(
                                 Level.SEVERE,
@@ -51,7 +51,7 @@ public class BannerPatternStorage extends Storage<Integer> {
                     continue;
                 }
 
-                addEntry(locale, mixCode, strValue, remaper);
+                addEntry(locale, mixeCode, localized, remaper);
             }
         }
 

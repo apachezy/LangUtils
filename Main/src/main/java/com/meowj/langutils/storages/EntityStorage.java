@@ -10,6 +10,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.EnumMap;
+import java.util.Locale;
 import java.util.Map;
 import java.util.logging.Level;
 
@@ -32,7 +33,11 @@ public class EntityStorage extends Storage<EntityType> {
         for (EntityType ent : EntityType.values()) {
             if (ent != EntityType.UNKNOWN) {
 
-                String entryName = ent.getKey().getKey();
+                // In order to maintain compatibility, please use .name()
+                // when get the name of the Enum item.
+                // Because in some versions, they do not inherit from Keyed.
+
+                String entryName = ent.name().toLowerCase(Locale.ROOT);
                 String localized = entries.getString(entryName);
 
                 if (localized == null || localized.isEmpty()) {
@@ -66,7 +71,7 @@ public class EntityStorage extends Storage<EntityType> {
     @NotNull
     public String getEntry(@NotNull String locale, @NotNull EntityType entityType) {
         String result = super.getEntry(locale, entityType);
-        return result == null ? entityType.getKey().toString() : result;
+        return result == null ? entityType.name().toLowerCase(Locale.ROOT) : result;
     }
 
 }
