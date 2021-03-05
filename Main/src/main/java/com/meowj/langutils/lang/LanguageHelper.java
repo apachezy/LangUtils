@@ -28,6 +28,7 @@ import org.bukkit.entity.Entity;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
 import org.bukkit.entity.TropicalFish;
+import org.bukkit.entity.Villager.Career;
 import org.bukkit.entity.Villager.Profession;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
@@ -397,6 +398,18 @@ public class LanguageHelper {
     @NotNull
     public static String getVillagerProfessionName(@NotNull Profession profession, @NotNull Player player) {
         return getVillagerProfessionName(profession, player.getLocale());
+    }
+    //endregion
+
+    //region getVillagerCareerName
+    @NotNull
+    public static String getVillagerCareerName(@NotNull Career career, @NotNull String locale) {
+        return LangUtils.villagerCareerStorage.getEntry(locale, career);
+    }
+
+    @NotNull
+    public static String getVillagerCareerName(@NotNull Career career, @NotNull Player player) {
+        return getVillagerCareerName(career, player.getLocale());
     }
     //endregion
 

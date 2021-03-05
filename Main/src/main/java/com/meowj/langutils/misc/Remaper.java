@@ -10,6 +10,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
 import java.util.Map;
+import java.util.logging.Level;
 import java.util.stream.Collectors;
 
 public class Remaper {
@@ -30,6 +31,7 @@ public class Remaper {
                 }
             }
         } catch (IOException e) {
+            plugin.getLogger().log(Level.SEVERE, "Error loading remapper. \"{}\"", e.getMessage());
             return null;
         }
         return null;
