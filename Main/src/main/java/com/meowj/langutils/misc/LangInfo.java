@@ -10,7 +10,7 @@ public class LangInfo {
     @NotNull public final String name;
     @NotNull public final String region;
 
-    private LangInfo(@NotNull String code, @NotNull String name, @NotNull String region) {
+    public LangInfo(@NotNull String code, @NotNull String name, @NotNull String region) {
         this.code   = LangUtils.fixLocale(code);
         this.name   = name;
         this.region = region;
@@ -37,6 +37,12 @@ public class LangInfo {
         }
 
         return new LangInfo(code, name, region);
+    }
+
+    public void save(ConfigurationSection section) {
+        section.set("code", this.code);
+        section.set("name", this.name);
+        section.set("region", this.region);
     }
 
     @Override
