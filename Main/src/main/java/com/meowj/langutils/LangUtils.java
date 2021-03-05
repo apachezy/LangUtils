@@ -58,6 +58,7 @@ public class LangUtils extends JavaPlugin {
     public static final ProfessionStorage        professionStorage        = new ProfessionStorage       (EN_US);
     public static final DyeColorStorage          coloredShiedStorage      = new DyeColorStorage         (EN_US);
     public static final BannerPatternStorage     bannerPatternStorage     = new BannerPatternStorage    (EN_US);
+    public static final VillagerCareerStorage    villagerCareerStorage    = new VillagerCareerStorage   (EN_US);
     // @formatter:on
 
     @NotNull
@@ -116,6 +117,7 @@ public class LangUtils extends JavaPlugin {
         professionStorage       .setFallbackLocale(fallback);
         coloredShiedStorage     .setFallbackLocale(fallback);
         bannerPatternStorage    .setFallbackLocale(fallback);
+        villagerCareerStorage   .setFallbackLocale(fallback);
         // @formatter:on
 
         try (JarFile jar = new JarFile(getFile())) {
@@ -146,9 +148,9 @@ public class LangUtils extends JavaPlugin {
             }
 
             try (InputStream is = jarFile.getInputStream(jarEntry);
-                 Reader rd = new InputStreamReader(is, StandardCharsets.UTF_8)) {
+                 Reader iReader = new InputStreamReader(is, StandardCharsets.UTF_8)) {
 
-                Configuration cfg = YamlConfiguration.loadConfiguration(rd);
+                Configuration cfg = YamlConfiguration.loadConfiguration(iReader);
                 LangInfo langInfo = LangInfo.load(cfg.getConfigurationSection("language"));
 
                 if (langInfo == null) {
@@ -172,6 +174,7 @@ public class LangUtils extends JavaPlugin {
                     professionStorage       .load(langInfo.code, cfg, "villager_profession" , remaper);
                     coloredShiedStorage     .load(langInfo.code, cfg, "colored_shied"       , remaper);
                     bannerPatternStorage    .load(langInfo.code, cfg, "banner_pattern"      , remaper);
+                    villagerCareerStorage   .load(langInfo.code, cfg, "villager_career"     , remaper);
                     // @formatter:on
 
                     count++;
@@ -209,6 +212,7 @@ public class LangUtils extends JavaPlugin {
         professionStorage        .clear();
         coloredShiedStorage      .clear();
         bannerPatternStorage     .clear();
+        villagerCareerStorage    .clear();
         // @formatter:on
     }
 

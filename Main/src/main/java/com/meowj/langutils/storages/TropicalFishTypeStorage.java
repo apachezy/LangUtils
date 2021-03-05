@@ -23,6 +23,7 @@ public class TropicalFishTypeStorage extends Storage<Pattern> {
     @Override
     public ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig,
                                      @NotNull String config, @Nullable Remaper remaper) {
+
         ConfigurationSection entries = super.load(locale, langConfig, config, remaper);
 
         if (entries != null) {
@@ -30,6 +31,7 @@ public class TropicalFishTypeStorage extends Storage<Pattern> {
             String localized;
 
             for (Pattern pattern : Pattern.values()) {
+
                 entryName = pattern.name().toLowerCase(Locale.ROOT);
                 localized = entries.getString(entryName);
 

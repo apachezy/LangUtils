@@ -23,12 +23,13 @@ public class MaterialStorage extends Storage<Material> {
     @Override
     public ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig,
                                      @NotNull String config, @Nullable Remaper remaper) {
+
         ConfigurationSection entries = super.load(locale, langConfig, config, remaper);
 
         if (entries != null) {
             for (Material material : Material.values()) {
 
-                String entryName = material.getKey().getKey();
+                String entryName = material.name().toLowerCase(Locale.ROOT);
                 String localized = entries.getString(entryName);
 
                 if (localized == null || localized.isEmpty()) {

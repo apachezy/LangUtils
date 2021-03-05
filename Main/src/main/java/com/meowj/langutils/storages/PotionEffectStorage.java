@@ -20,6 +20,7 @@ public class PotionEffectStorage extends Storage<PotionEffectType> {
     @Override
     public ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig,
                                      @NotNull String config, @Nullable Remaper remaper) {
+
         ConfigurationSection entries = super.load(locale, langConfig, config, remaper);
 
         if (entries != null) {

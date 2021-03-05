@@ -10,6 +10,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.EnumMap;
+import java.util.Locale;
 import java.util.Map;
 import java.util.logging.Level;
 
@@ -22,12 +23,13 @@ public class ProfessionStorage extends Storage<Profession> {
     @Override
     public ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig,
                                      @NotNull String config, @Nullable Remaper remaper) {
+
         ConfigurationSection entries = super.load(locale, langConfig, config, remaper);
 
         if (entries != null) {
             for (Profession profession : Profession.values()) {
 
-                String entryName = profession.getKey().getKey();
+                String entryName = profession.name().toLowerCase(Locale.ROOT);
                 String localized = entries.getString(entryName);
 
                 if (localized == null || localized.isEmpty()) {
@@ -61,7 +63,7 @@ public class ProfessionStorage extends Storage<Profession> {
     @NotNull
     public String getEntry(@NotNull String locale, @NotNull Profession profession) {
         String result = super.getEntry(locale, profession);
-        return result == null ? profession.getKey().toString() : result;
+        return result == null ? profession.name().toLowerCase(Locale.ROOT) : result;
     }
 
 }
