@@ -3,27 +3,87 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.meowj</groupId>
-    <artifactId>LangUtils-Parent</artifactId>
-    <packaging>pom</packaging>
-    <version>3.1.0</version>
-    <modules>
-        <module>Main</module>
-        <module>v1_16_R3</module>
-        <module>v1_15_R1</module>
-        <module>v1_14_R1</module>
-        <module>v1_13_R2</module>
-        <module>Dist</module>
-    </modules>
+    <artifactId>LangUtils</artifactId>
+    <version>3.1.1</version>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <jar.directory>${user.home}/Desktop/acid/plugins</jar.directory>
     </properties>
 
+    <build>
+        <resources>
+            <resource>
+                <targetPath>.</targetPath>
+                <directory>.</directory>
+                <includes>
+                    <include>LICENSE</include>
+                </includes>
+            </resource>
+            <resource>
+                <targetPath>.</targetPath>
+                <filtering>true</filtering>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>*.yml</include>
+                </includes>
+            </resource>
+            <resource>
+                <targetPath>lang/common</targetPath>
+                <filtering>false</filtering>
+                <directory>src/main/resources/lang/common</directory>
+                <includes>
+                    <include>*.yml</include>
+                </includes>
+            </resource>
+
+            <resource>
+                <targetPath>lang/1.13</targetPath>
+                <filtering>false</filtering>
+                <directory>src/main/resources/lang/1.13</directory>
+                <includes>
+                    <include>*.yml</include>
+                </includes>
+            </resource>
+
+            <resource>
+                <targetPath>lang/1.14</targetPath>
+                <filtering>false</filtering>
+                <directory>src/main/resources/lang/1.14</directory>
+                <includes>
+                    <include>*.yml</include>
+                </includes>
+            </resource>
+
+            <resource>
+                <targetPath>lang/1.15</targetPath>
+                <filtering>false</filtering>
+                <directory>src/main/resources/lang/1.15</directory>
+                <includes>
+                    <include>*.yml</include>
+                </includes>
+            </resource>
+        </resources>
+    </build>
+
     <dependencies>
+
+        <dependency>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot-api</artifactId>
+            <version>1.13.2-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.gitee.apachezy</groupId>
+            <artifactId>mc-NmsLib</artifactId>
+            <version>1.0.0</version>
+            <scope>provided</scope>
+        </dependency>
+
         <dependency>
             <groupId>org.jetbrains</groupId>
             <artifactId>annotations</artifactId>
@@ -33,10 +93,15 @@
     </dependencies>
 
     <repositories>
-        <!-- Spigot jar -->
+
         <repository>
-            <id>spigot-jar</id>
-            <url>https://repo.mikeprimm.com/</url>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots</url>
+        </repository>
+
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
         </repository>
     </repositories>
 </project>
