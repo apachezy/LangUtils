@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.meowj</groupId>
-    <artifactId>LangUtils</artifactId>
+    <artifactId>LangUtils-Parent</artifactId>
     <packaging>pom</packaging>
     <version>3.1.0</version>
     <modules>
@@ -22,13 +22,6 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <jar.directory>${user.home}/Desktop/acid/plugins</jar.directory>
     </properties>
-
-    <distributionManagement>
-        <repository>
-            <id>LangUtils-mvn-repo</id>
-            <url>file:${project.basedir}/repo</url>
-        </repository>
-    </distributionManagement>
 
     <dependencies>
         <dependency>
