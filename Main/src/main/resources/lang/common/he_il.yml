@@ -1,0 +1,2196 @@
+# ####################################################
+# Build time: 2021-03-06 14:47:27                    #
+# ####################################################
+language:
+  code: he_il
+  name: עברית
+  region: ישראל
+material:
+  air: אוויר
+  stone: אבן
+  granite: גרניט
+  polished_granite: גרניט מלוטש
+  diorite: דיוריט
+  polished_diorite: דיוריט מלוטש
+  andesite: אנדזיט
+  polished_andesite: אנדזיט מלוטש
+  grass_block: בלוק דשא
+  dirt: עפר
+  coarse_dirt: עפר גס
+  podzol: פודזול
+  crimson_nylium: נייליום ארגמן
+  warped_nylium: נייליום מעוות
+  cobblestone: אבן מרוסקת
+  oak_planks: קרשי עץ אלון
+  spruce_planks: קרשי עץ אשוחית
+  birch_planks: קרשי עץ שדר
+  jungle_planks: קרשי עץ ג'ונגל
+  acacia_planks: קרשי עץ שיטה
+  dark_oak_planks: קרשי עץ אלון כהה
+  crimson_planks: קרשי עץ ארגמן
+  warped_planks: קרשים מעוותים
+  oak_sapling: שתיל אלון
+  spruce_sapling: שתיל אשוחית
+  birch_sapling: שתיל שדר
+  jungle_sapling: שתיל ג'ונגל
+  acacia_sapling: שתיל שיטה
+  dark_oak_sapling: שתיל אלון כהה
+  bedrock: אבן יסוד
+  sand: חול
+  red_sand: חול אדום
+  gravel: חצץ
+  gold_ore: עפרת זהב
+  iron_ore: עפרת ברזל
+  coal_ore: עפרת פחם
+  nether_gold_ore: עפרת זהב נת'ר
+  oak_log: עץ אלון
+  spruce_log: עץ אשוחית
+  birch_log: עץ שדר
+  jungle_log: עץ ג'ונגל
+  acacia_log: עץ שיטה
+  dark_oak_log: עץ אלון כהה
+  crimson_stem: גזע עץ ארגמן
+  warped_stem: גזע מעוות
+  stripped_oak_log: עץ אלון משויף
+  stripped_spruce_log: עץ אשוחית משויף
+  stripped_birch_log: עץ שדר משויף
+  stripped_jungle_log: עץ גו'נגל משויף
+  stripped_acacia_log: עץ שיטה משויף
+  stripped_dark_oak_log: עץ אלון כהה משויף
+  stripped_crimson_stem: גזע עץ ארגמן משויף
+  stripped_warped_stem: גזע מעוות משויף
+  stripped_oak_wood: גזע עץ אלון משויף
+  stripped_spruce_wood: גזע עץ אשוחית משויף
+  stripped_birch_wood: גזע עץ שדר משויף
+  stripped_jungle_wood: גזע עץ ג'ונגל משויף
+  stripped_acacia_wood: גזע עץ שיטה משויף
+  stripped_dark_oak_wood: גזע עץ אלון כהה משויף
+  stripped_crimson_hyphae: גדילי ארגמן משוייפים
+  stripped_warped_hyphae: גדילים מעוותים משוייפים
+  oak_wood: עץ אלון
+  spruce_wood: עץ אשוחית
+  birch_wood: עץ שדר
+  jungle_wood: עץ ג'ונגל
+  acacia_wood: עץ שיטה
+  dark_oak_wood: עץ אלון כהה
+  crimson_hyphae: גדילי ארגמן
+  warped_hyphae: גדילים מעוותים
+  oak_leaves: עלי אלון
+  spruce_leaves: עלי אשוחית
+  birch_leaves: עלי שדר
+  jungle_leaves: עלי ג'ונגל
+  acacia_leaves: עלי שיטה
+  dark_oak_leaves: עלי אלון כהה
+  sponge: ספוג
+  wet_sponge: ספוג רטוב
+  glass: זכוכית
+  lapis_ore: עפרת לאפיס לאזולי
+  lapis_block: בלוק לאפיס לאזולי
+  dispenser: זורקן
+  sandstone: אבן חול
+  chiseled_sandstone: אבן חול מפוסלת
+  cut_sandstone: אבן חול חתוכה
+  note_block: בלוק צליל
+  powered_rail: מסילה ממונעת
+  detector_rail: מסילת חיישן
+  sticky_piston: בוכנה דביקה
+  cobweb: קורי עכביש
+  grass: דשא
+  fern: שרך
+  dead_bush: שיח מת
+  seagrass: עשב ים
+  sea_pickle: מלפפון ים
+  piston: בוכנה
+  white_wool: צמר לבן
+  orange_wool: צמר כתום
+  magenta_wool: צמר מג'נטה
+  light_blue_wool: צמר תכלת
+  yellow_wool: צמר צהוב
+  lime_wool: צמר ליים
+  pink_wool: צמר ורוד
+  gray_wool: צמר אפור
+  light_gray_wool: צמר אפור בהיר
+  cyan_wool: צמר ציאן
+  purple_wool: צמר סגול
+  blue_wool: צמר כחול
+  brown_wool: צמר חום
+  green_wool: צמר ירוק
+  red_wool: צמר אדום
+  black_wool: צמר שחור
+  dandelion: שן הארי
+  poppy: פרג
+  blue_orchid: סחלב כחול
+  allium: שום
+  azure_bluet: פרח בר כחול
+  red_tulip: צבעוני אדום
+  orange_tulip: צבעוני כתום
+  white_tulip: צבעוני לבן
+  pink_tulip: צבעוני ורוד
+  oxeye_daisy: חרצית לבנה
+  cornflower: דרדר כחול
+  lily_of_the_valley: שושנת העמקים
+  wither_rose: ורד ווית'ר
+  brown_mushroom: פטריה חומה
+  red_mushroom: פטרייה אדומה
+  crimson_fungus: פטריית ארגמן
+  warped_fungus: פטרייה מעוותת
+  crimson_roots: שורשי ארגמן
+  warped_roots: שורשים מעוותים
+  nether_sprouts: נבטי נת'ר
+  weeping_vines: גפני בכי
+  twisting_vines: גפנים מתפתלות
+  sugar_cane: קנה סוכר
+  kelp: אצה
+  bamboo: במבוק
+  gold_block: בלוק זהב
+  iron_block: בלוק ברזל
+  oak_slab: קרש אלון חצוי
+  spruce_slab: קרש אשוחית חצוי
+  birch_slab: קרש שדר חצוי
+  jungle_slab: קרש עץ ג'ונגל חצוי
+  acacia_slab: קרש שיטה חצוי
+  dark_oak_slab: קרש אלון כהה חצוי
+  crimson_slab: קרש עץ ארגמן חצוי
+  warped_slab: קרש מעוות חצוי
+  stone_slab: אבן חצויה
+  smooth_stone_slab: אבן חלקה חצויה
+  sandstone_slab: אבן חול חצויה
+  cut_sandstone_slab: אבן חול חתוכה חצויה
+  petrified_oak_slab: אלון מאובן חצוי
+  cobblestone_slab: אבן מרוסקת חצויה
+  brick_slab: לבנה חצויה
+  stone_brick_slab: לבני אבן חצויות
+  nether_brick_slab: לבנת נת'ר חצויה
+  quartz_slab: קוורץ חצוי
+  red_sandstone_slab: אבן חול אדומה חצויה
+  cut_red_sandstone_slab: אבן חול אדומה חתוכה חצויה
+  purpur_slab: פורפור חצוי
+  prismarine_slab: פריזמרין חצוי
+  prismarine_brick_slab: לבנת פריזמרין חצויה
+  dark_prismarine_slab: פריזמרין כהה חצוי
+  smooth_quartz: בלוק קוורץ חלק
+  smooth_red_sandstone: אבן חול אדומה חלקה
+  smooth_sandstone: אבן חול חלקה
+  smooth_stone: אבן חלקה
+  bricks: לבנים
+  tnt: חומר נפץ
+  bookshelf: מדף ספרים
+  mossy_cobblestone: אבן טחב מרוסקת
+  obsidian: אובסידיאן
+  torch: לפיד
+  end_rod: מוט אנד
+  chorus_plant: צמח קורוס
+  chorus_flower: פרח קורוס
+  purpur_block: בלוק פורפור
+  purpur_pillar: עמוד פורפור
+  purpur_stairs: מדרגות פורפור
+  spawner: מזמן
+  oak_stairs: מדרגות אלון
+  chest: תיבה
+  diamond_ore: עפרת יהלום
+  diamond_block: בלוק יהלום
+  crafting_table: שולחן מלאכה
+  farmland: ערוגה
+  furnace: תנור
+  ladder: סולם
+  rail: מסילה
+  cobblestone_stairs: מדרגות אבן מרוסקת
+  lever: מפסק
+  stone_pressure_plate: לוחית לחץ מאבן
+  oak_pressure_plate: לוחית לחץ מעץ אלון
+  spruce_pressure_plate: לוחית לחץ מאשוחית
+  birch_pressure_plate: לוחית לחץ משדר
+  jungle_pressure_plate: לוחית לחץ מעץ ג'ונגל
+  acacia_pressure_plate: לוחית לחץ משיטה
+  dark_oak_pressure_plate: לוחית לחץ מאלון כהה
+  crimson_pressure_plate: לוחית לחץ מעץ ארגמן
+  warped_pressure_plate: לוחית לחץ מעוותת
+  polished_blackstone_pressure_plate: לוחית לחץ מאבן שחורה מלוטשת
+  redstone_ore: עפרת רדסטון
+  redstone_torch: לפיד רדסטון
+  snow: שלג
+  ice: קרח
+  snow_block: בלוק שלג
+  cactus: קקטוס
+  clay: חימר
+  jukebox: תיבת נגינה
+  oak_fence: גדר אלון
+  spruce_fence: גדר אשוחית
+  birch_fence: גדר שדר
+  jungle_fence: גדר עץ ג'ונגל
+  acacia_fence: גדר עץ שיטה
+  dark_oak_fence: גדר אלון כהה
+  crimson_fence: גדר עץ ארגמן
+  warped_fence: גדר מעוותת
+  pumpkin: דלעת
+  carved_pumpkin: דלעת מגולפת
+  netherrack: נת'רראק
+  soul_sand: חול נשמה
+  soul_soil: עפר נשמה
+  basalt: בזלת
+  polished_basalt: בזלת מלוטשת
+  soul_torch: לפיד נשמה
+  glowstone: גלוסטון
+  jack_o_lantern: מנורת דלעת
+  oak_trapdoor: דלת סתרים מאלון
+  spruce_trapdoor: דלת סתרים מאשוחית
+  birch_trapdoor: דלת סתרים משדר
+  jungle_trapdoor: דלת סתרים מעץ ג'ונגל
+  acacia_trapdoor: דלת סתרים משיטה
+  dark_oak_trapdoor: דלת סתרים מאלון כהה
+  crimson_trapdoor: דלת סתרים מעץ ארגמן
+  warped_trapdoor: דלת סתרים מעוותת
+  infested_stone: אבן נגועה
+  infested_cobblestone: אבן מרוסקת נגועה
+  infested_stone_bricks: לבני אבן נגועות
+  infested_mossy_stone_bricks: לבני אבן טחב נגועות
+  infested_cracked_stone_bricks: לבני אבן סדוקות נגועות
+  infested_chiseled_stone_bricks: לבני אבן מלוטשות נגועות
+  stone_bricks: לבני אבן
+  mossy_stone_bricks: לבני אבן טחב
+  cracked_stone_bricks: לבני אבן סדוקות
+  chiseled_stone_bricks: לבני אבן מפוסלות
+  brown_mushroom_block: בלוק פטריות חומות
+  red_mushroom_block: בלוק פטריה אדומה
+  mushroom_stem: גזע פטריה
+  iron_bars: סורגי ברזל
+  chain: שרשרת
+  glass_pane: זגוגית
+  melon: אבטיח
+  vine: גפנים
+  oak_fence_gate: שער גדר אלון
+  spruce_fence_gate: שער גדר אשוחית
+  birch_fence_gate: שער גדר שדר
+  jungle_fence_gate: שער גדר עץ ג'ונגל
+  acacia_fence_gate: שער גדר עץ שיטה
+  dark_oak_fence_gate: שער גדר אלון כהה
+  crimson_fence_gate: שער גדר עץ ארגמן
+  warped_fence_gate: שער גדר מעוותת
+  brick_stairs: מדרגות לבנים
+  stone_brick_stairs: מדרגות לבני אבן
+  mycelium: תפטיר
+  lily_pad: נופר
+  nether_bricks: לבני נת'ר
+  cracked_nether_bricks: לבני נת'ר סדוקות
+  chiseled_nether_bricks: לבני נת'ר מפוסלות
+  nether_brick_fence: גדר לבנת נת'ר
+  nether_brick_stairs: מדרגות לבנת נת'ר
+  enchanting_table: שולחן כישוף
+  end_portal_frame: מסגרת שער הסוף
+  end_stone: אבן אנד
+  end_stone_bricks: לבני אבן אנד
+  dragon_egg: ביצת דרקון
+  redstone_lamp: מנורת רדסטון
+  sandstone_stairs: מדרגות אבן חול
+  emerald_ore: עפרת ברקת
+  ender_chest: תיבת אנדר
+  tripwire_hook: קרס חוט מעידה
+  emerald_block: בלוק ברקת
+  spruce_stairs: מדרגות אשוחית
+  birch_stairs: מדרגות שדר
+  jungle_stairs: מדרגות עץ ג'ונגל
+  crimson_stairs: מדרגות עץ ארגמן
+  warped_stairs: מדרגות מעוותות
+  command_block: בלוק פקודה
+  beacon: משואה
+  cobblestone_wall: חומת אבן מרוסקת
+  mossy_cobblestone_wall: 'חומת אבן טחב מרוסקת '
+  brick_wall: קיר לבנים
+  prismarine_wall: קיר פריזמרין
+  red_sandstone_wall: קיר אבן חול אדומה
+  mossy_stone_brick_wall: קיר לבני אבן טחב
+  granite_wall: קיר גרניט
+  stone_brick_wall: קיר לבני אבן
+  nether_brick_wall: קיר לבנת נת'ר
+  andesite_wall: קיר אנדזיט
+  red_nether_brick_wall: קיר לבני נת'ר אדומות
+  sandstone_wall: קיר אבן חול
+  end_stone_brick_wall: קיר לבני אבן אנד
+  diorite_wall: קיר דיוריט
+  blackstone_wall: קיר אבן שחורה
+  polished_blackstone_wall: קיר אבן שחורה מלוטשת
+  polished_blackstone_brick_wall: קיר לבני אבן שחורה מלוטשת
+  stone_button: כפתור מאבן
+  oak_button: כפתור מעץ אלון
+  spruce_button: כפתור מאשוחית
+  birch_button: כפתור משדר
+  jungle_button: כפתור מעץ ג'ונגל
+  acacia_button: כפתור משיטה
+  dark_oak_button: כפתור מאלון כהה
+  crimson_button: כפתור מעץ ארגמן
+  warped_button: כפתור מעוות
+  polished_blackstone_button: כפתור מאבן שחורה מלוטשת
+  anvil: סדן
+  chipped_anvil: סדן סדוק
+  damaged_anvil: סדן פגום
+  trapped_chest: תיבה ממולכדת
+  light_weighted_pressure_plate: לוחית לחץ קלת משקל
+  heavy_weighted_pressure_plate: לוחית לחץ כבדת משקל
+  daylight_detector: חיישן אור יום
+  redstone_block: בלוק רדסטון
+  nether_quartz_ore: עפרת נת'ר קוורץ
+  hopper: משפך
+  chiseled_quartz_block: בלוק קוורץ מפוסל
+  quartz_block: בלוק קוורץ
+  quartz_bricks: לבני קוורץ
+  quartz_pillar: עמוד קוורץ
+  quartz_stairs: מדרגות קוורץ
+  activator_rail: מסילת הפעלה
+  dropper: פולטן
+  white_terracotta: טרקוטה לבנה
+  orange_terracotta: טרקוטה כתומה
+  magenta_terracotta: טרקוטה מג'נטה
+  light_blue_terracotta: טרקוטה תכלת
+  yellow_terracotta: טרקוטה צהובה
+  lime_terracotta: טרקוטה ליים
+  pink_terracotta: טרקוטה ורודה
+  gray_terracotta: טרקוטה אפורה
+  light_gray_terracotta: טרקוטה אפורה בהירה
+  cyan_terracotta: טרקוטה ציאן
+  purple_terracotta: טרקוטה סגולה
+  blue_terracotta: טרקוטה כחולה
+  brown_terracotta: טרקוטה חומה
+  green_terracotta: טרקוטה ירוקה
+  red_terracotta: טרקוטה אדומה
+  black_terracotta: טרקוטה שחורה
+  barrier: מחסום
+  iron_trapdoor: דלת ברזל ממולכדת
+  hay_block: ערמת חציר
+  white_carpet: שטיח לבן
+  orange_carpet: שטיח כתום
+  magenta_carpet: שטיח מג'נטה
+  light_blue_carpet: שטיח תכלת
+  yellow_carpet: שטיח צהוב
+  lime_carpet: שטיח ליים
+  pink_carpet: שטיח ורוד
+  gray_carpet: שטיח אפור
+  light_gray_carpet: שטיח אפור בהיר
+  cyan_carpet: שטיח ציאן
+  purple_carpet: שטיח סגול
+  blue_carpet: שטיח כחול
+  brown_carpet: שטיח חום
+  green_carpet: שטיח ירוק
+  red_carpet: שטיח אדום
+  black_carpet: שטיח שחור
+  terracotta: טרקוטה
+  coal_block: בלוק פחם
+  packed_ice: קרח דחוס
+  acacia_stairs: מדרגות שיטה
+  dark_oak_stairs: מדרגות אלון כהה
+  slime_block: בלוק רפש
+  grass_path: שביל דשא
+  sunflower: חמנית
+  lilac: לילך
+  rose_bush: שיח ורדים
+  peony: אדמונית ורודה
+  tall_grass: דשא גבוה
+  large_fern: שרך גדול
+  white_stained_glass: זכוכית לבנה
+  orange_stained_glass: זכוכית כתומה
+  magenta_stained_glass: זכוכית מג'נטה
+  light_blue_stained_glass: זכוכית כחולה בהירה
+  yellow_stained_glass: זכוכית צהובה
+  lime_stained_glass: זכוכית ליים
+  pink_stained_glass: זכוכית ורודה
+  gray_stained_glass: זכוכית אפורה
+  light_gray_stained_glass: זכוכית אפורה בהירה
+  cyan_stained_glass: זכוכית ציאן
+  purple_stained_glass: זכוכית סגולה
+  blue_stained_glass: זכוכית כחולה
+  brown_stained_glass: זכוכית חומה
+  green_stained_glass: זכוכית ירוקה
+  red_stained_glass: זכוכית אדומה
+  black_stained_glass: זכוכית שחורה
+  white_stained_glass_pane: זגוגית לבנה
+  orange_stained_glass_pane: זגוגית כתומה
+  magenta_stained_glass_pane: זגוגית מג'נטה
+  light_blue_stained_glass_pane: זגוגית תכלת
+  yellow_stained_glass_pane: זגוגית צהובה
+  lime_stained_glass_pane: זגוגית ליים
+  pink_stained_glass_pane: זגוגית ורודה
+  gray_stained_glass_pane: זגוגית אפורה
+  light_gray_stained_glass_pane: זגוגית אפורה בהירה
+  cyan_stained_glass_pane: זגוגית ציאן
+  purple_stained_glass_pane: זגוגית סגולה
+  blue_stained_glass_pane: זגוגית כחולה
+  brown_stained_glass_pane: זגוגית חומה
+  green_stained_glass_pane: זגוגית ירוקה
+  red_stained_glass_pane: זגוגית אדומה
+  black_stained_glass_pane: זגוגית שחורה
+  prismarine: פריזמרין
+  prismarine_bricks: לבני פריזמרין
+  dark_prismarine: פריזמרין כהה
+  prismarine_stairs: מדרגות פריזמרין
+  prismarine_brick_stairs: מדרגות לבנת פריזמרין
+  dark_prismarine_stairs: מדרגות פריזמרין כהה
+  sea_lantern: מנורת ים
+  red_sandstone: אבן חול אדומה
+  chiseled_red_sandstone: אבן חול אדומה מפוסלת
+  cut_red_sandstone: אבן חול אדומה חתוכה
+  red_sandstone_stairs: מדרגות אבן חול אדומה
+  repeating_command_block: בלוק פקודה מחזורי
+  chain_command_block: קוביית פקודה משורשרת
+  magma_block: קוביית מאגמה
+  nether_wart_block: בלוק שיבולת נת'ר
+  warped_wart_block: בלוק שיבולת נת'ר מעוות
+  red_nether_bricks: לבני נת'ר אדומות
+  bone_block: קוביית עצם
+  structure_void: חלל מבנה
+  observer: תצפיתן
+  shulker_box: תיבת שולקר
+  white_shulker_box: תיבת שולקר לבנה
+  orange_shulker_box: תיבת שולקר כתומה
+  magenta_shulker_box: תיבת שולקר מג'נטה
+  light_blue_shulker_box: תיבת שולקר תכלת
+  yellow_shulker_box: תיבת שולקר צהובה
+  lime_shulker_box: תיבת שולקר ליים
+  pink_shulker_box: תיבת שולקר ורודה
+  gray_shulker_box: תיבת שולקר אפורה
+  light_gray_shulker_box: תיבת שולקר אפורה בהירה
+  cyan_shulker_box: תיבת שולקר ציאן
+  purple_shulker_box: תיבת שולקר סגולה
+  blue_shulker_box: תיבת שולקר כחולה
+  brown_shulker_box: תיבת שולקר חומה
+  green_shulker_box: תיבת שולקר ירוקה
+  red_shulker_box: תיבת שולקר אדומה
+  black_shulker_box: תיבת שולקר שחורה
+  white_glazed_terracotta: טרקוטה מזוגגת לבנה
+  orange_glazed_terracotta: טרקוטה מזוגגת כתומה
+  magenta_glazed_terracotta: טרקוטה מזוגגת מג'נטה
+  light_blue_glazed_terracotta: טרקוטה מזוגגת תכלת
+  yellow_glazed_terracotta: טרקוטה מזוגגת צהובה
+  lime_glazed_terracotta: טרקוטה מזוגגת ליים
+  pink_glazed_terracotta: טרקוטה מזוגגת ורודה
+  gray_glazed_terracotta: טרקוטה מזוגגת אפורה
+  light_gray_glazed_terracotta: טרקוטה מזוגגת אפורה בהירה
+  cyan_glazed_terracotta: טרקוטה מזוגגת ציאן
+  purple_glazed_terracotta: טרקוטה מזוגגת סגולה
+  blue_glazed_terracotta: טרקוטה מזוגגת כחולה
+  brown_glazed_terracotta: טרקוטה מזוגגת חומה
+  green_glazed_terracotta: טרקוטה מזוגגת ירוקה
+  red_glazed_terracotta: טרקוטה מזוגגת אדומה
+  black_glazed_terracotta: טרקוטה מזוגגת שחורה
+  white_concrete: בטון לבן
+  orange_concrete: בטון כתום
+  magenta_concrete: בטון מג'נטה
+  light_blue_concrete: בטון תכלת
+  yellow_concrete: בטון צהוב
+  lime_concrete: בטון ליים
+  pink_concrete: בטון ורוד
+  gray_concrete: בטון אפור
+  light_gray_concrete: בטון אפור בהיר
+  cyan_concrete: בטון ציאן
+  purple_concrete: בטון סגול
+  blue_concrete: בטון כחול
+  brown_concrete: בטון חום
+  green_concrete: בטון ירוק
+  red_concrete: בטון אדום
+  black_concrete: בטון שחור
+  white_concrete_powder: אבקת בטון לבנה
+  orange_concrete_powder: אבקת בטון כתומה
+  magenta_concrete_powder: אבקת בטון מג'נטה
+  light_blue_concrete_powder: אבקת בטון תכלת
+  yellow_concrete_powder: אבקת בטון צהובה
+  lime_concrete_powder: אבקת בטון ליים
+  pink_concrete_powder: אבקת בטון ורודה
+  gray_concrete_powder: אבקת בטון אפורה
+  light_gray_concrete_powder: אבקת בטון אפורה בהירה
+  cyan_concrete_powder: אבקת בטון ציאן
+  purple_concrete_powder: אבקת בטון סגולה
+  blue_concrete_powder: אבקת בטון כחולה
+  brown_concrete_powder: אבקת בטון חומה
+  green_concrete_powder: אבקת בטון ירוקה
+  red_concrete_powder: אבקת בטון אדומה
+  black_concrete_powder: אבקת בטון שחורה
+  turtle_egg: ביצת צב
+  dead_tube_coral_block: אלמוג צינורי מת
+  dead_brain_coral_block: אלמוג מוחי מת
+  dead_bubble_coral_block: אלמוג בועות מת
+  dead_fire_coral_block: אלמוג אש מת
+  dead_horn_coral_block: אלמוג קרן מת
+  tube_coral_block: אלמוג צינורי
+  brain_coral_block: אלמוג מוחי
+  bubble_coral_block: אלמוג בועות
+  fire_coral_block: אלמוג אש
+  horn_coral_block: אלמוג קרן
+  tube_coral: צמח אלמוג צינורי
+  brain_coral: צמח אלמוג מוחי
+  bubble_coral: צמח אלמוג בועות
+  fire_coral: צמח אלמוג אש
+  horn_coral: צמח אלמוג קרן
+  dead_brain_coral: אלמוג מוחי מת
+  dead_bubble_coral: אלמוג בועות מת
+  dead_fire_coral: אלמוג אש מת
+  dead_horn_coral: אלמוג קרן מת
+  dead_tube_coral: אלמוג צינורי מת
+  tube_coral_fan: ענף אלמוג צינורי
+  brain_coral_fan: ענף אלמוג מוחי
+  bubble_coral_fan: ענף אלמוג בועות
+  fire_coral_fan: ענף אלמוג אש
+  horn_coral_fan: ענף אלמוג קרן
+  dead_tube_coral_fan: ענף אלמוג צינורי מת
+  dead_brain_coral_fan: ענף אלמוג מוחי מת
+  dead_bubble_coral_fan: ענף אלמוג בועות מת
+  dead_fire_coral_fan: ענף אלמוג אש מת
+  dead_horn_coral_fan: ענף אלמוג קרן מת
+  blue_ice: קרח כחול
+  conduit: ליבת מים
+  polished_granite_stairs: מדרגות גרניט מלוטש
+  smooth_red_sandstone_stairs: מדרגות אבן חול אדומה חלקה
+  mossy_stone_brick_stairs: מדרגות לבני אבן טחב
+  polished_diorite_stairs: מדרגות דיוריט מלוטש
+  mossy_cobblestone_stairs: מדרגות אבן טחב מרוסקת
+  end_stone_brick_stairs: מדרגות לבני אבן אנד
+  stone_stairs: מדרגות אבן
+  smooth_sandstone_stairs: מדרגות אבן חול חלקה
+  smooth_quartz_stairs: מדרגות קוורץ חלק
+  granite_stairs: מדרגות גרניט
+  andesite_stairs: מדרגות אנדזיט
+  red_nether_brick_stairs: מדרגות לבני נת'ר אדומות
+  polished_andesite_stairs: מדרגות אנזיט מלוטש
+  diorite_stairs: מדרגות דיוריט
+  polished_granite_slab: גרניט מלוטש חצוי
+  smooth_red_sandstone_slab: אבן חול אדומה חלקה חצויה
+  mossy_stone_brick_slab: לבני אבן טחב חצויות
+  polished_diorite_slab: דיוריט מלוטש חצוי
+  mossy_cobblestone_slab: אבן טחב מרוסקת חצויה
+  end_stone_brick_slab: לבני אבן אנד חצויות
+  smooth_sandstone_slab: אבן חול חלקה חצויה
+  smooth_quartz_slab: קוורץ חלק חצוי
+  granite_slab: גרניט חצוי
+  andesite_slab: אנדזיט חצוי
+  red_nether_brick_slab: לבני נת'ר אדומות חצויות
+  polished_andesite_slab: אנזיט מלוטש חצוי
+  diorite_slab: דיוריט חצוי
+  scaffolding: פיגום
+  iron_door: דלת ברזל
+  oak_door: דלת אלון
+  spruce_door: דלת אשוחית
+  birch_door: דלת שדר
+  jungle_door: דלת עץ ג'ונגל
+  acacia_door: דלת שיטה
+  dark_oak_door: דלת אלון כהה
+  crimson_door: דלת עץ ארגמן
+  warped_door: דלת מעוותת
+  repeater: משחזר רדסטון
+  comparator: משווה זרם רדסטון
+  structure_block: בלוק מבנה
+  jigsaw: בלוק פאזל
+  turtle_helmet: שריון צב
+  scute: קשקש צב
+  flint_and_steel: צור ופלדה
+  apple: תפוח
+  bow: קשת
+  arrow: חץ
+  coal: פחם
+  charcoal: פחם עץ
+  diamond: יהלום
+  iron_ingot: מטיל ברזל
+  gold_ingot: מטיל זהב
+  netherite_ingot: מטיל נת'רייט
+  netherite_scrap: נת'רייט מנופץ
+  wooden_sword: חרב עץ
+  wooden_shovel: את עץ
+  wooden_pickaxe: מכוש עץ
+  wooden_axe: גרזן עץ
+  wooden_hoe: מעדר עץ
+  stone_sword: חרב אבן
+  stone_shovel: את אבן
+  stone_pickaxe: מכוש אבן
+  stone_axe: גרזן אבן
+  stone_hoe: מעדר אבן
+  golden_sword: חרב זהב
+  golden_shovel: את זהב
+  golden_pickaxe: מכוש זהב
+  golden_axe: גרזן זהב
+  golden_hoe: מעדר זהב
+  iron_sword: חרב ברזל
+  iron_shovel: את ברזל
+  iron_pickaxe: מכוש ברזל
+  iron_axe: גרזן ברזל
+  iron_hoe: מעדר ברזל
+  diamond_sword: חרב יהלום
+  diamond_shovel: את יהלום
+  diamond_pickaxe: מכוש יהלום
+  diamond_axe: גרזן יהלום
+  diamond_hoe: מעדר יהלום
+  netherite_sword: חרב נת'רייט
+  netherite_shovel: את נת'רייט
+  netherite_pickaxe: מכוש נת'רייט
+  netherite_axe: גרזן נת'רייט
+  netherite_hoe: מעדר נת'רייט
+  stick: מקל
+  bowl: קערה
+  mushroom_stew: תבשיל פטריות
+  string: חוט
+  feather: נוצה
+  gunpowder: אבק שריפה
+  wheat_seeds: זרעי חיטה
+  wheat: חיטה
+  bread: לחם
+  leather_helmet: כובע עור
+  leather_chestplate: טוניקת עור
+  leather_leggings: מכנסי עור
+  leather_boots: מגפי עור
+  chainmail_helmet: קסדת שרשראות ברזל
+  chainmail_chestplate: שריון שרשראות ברזל
+  chainmail_leggings: מכנסי שרשראות ברזל
+  chainmail_boots: מגפי שרשראות ברזל
+  iron_helmet: קסדת ברזל
+  iron_chestplate: שריון ברזל
+  iron_leggings: מכנסי ברזל
+  iron_boots: מגפי ברזל
+  diamond_helmet: קסדת יהלום
+  diamond_chestplate: שריון יהלום
+  diamond_leggings: מכנסי יהלום
+  diamond_boots: מגפי יהלום
+  golden_helmet: קסדת זהב
+  golden_chestplate: שריון זהב
+  golden_leggings: מכנסי זהב
+  golden_boots: מגפי זהב
+  netherite_helmet: קסדת נת'רייט
+  netherite_chestplate: שריון נת'רייט
+  netherite_leggings: מכנסי נת'רייט
+  netherite_boots: מגפי נת'רייט
+  flint: צור
+  porkchop: צלע חזיר נא
+  cooked_porkchop: צלע חזיר מבושלת
+  painting: ציור
+  golden_apple: תפוח מוזהב
+  enchanted_golden_apple: תפוח מוזהב מכושף
+  oak_sign: שלט אלון
+  spruce_sign: שלט אשוחית
+  birch_sign: שלט שדר
+  jungle_sign: שלט מעץ ג'ונגל
+  acacia_sign: שלט שיטה
+  dark_oak_sign: שלט אלון כהה
+  crimson_sign: שלט מעץ ארגמן
+  warped_sign: שלט מעוות
+  bucket: דלי
+  water_bucket: דלי מים
+  lava_bucket: דלי לבה
+  minecart: קרונית
+  saddle: אוכף
+  redstone: אבק רדסטון
+  snowball: כדור שלג
+  oak_boat: סירת אלון
+  leather: עור
+  milk_bucket: דלי חלב
+  pufferfish_bucket: דלי אבו נפחא
+  salmon_bucket: דלי סלמון
+  cod_bucket: דלי בקלה
+  tropical_fish_bucket: דלי דג טרופי
+  brick: לבנה
+  clay_ball: חימר
+  dried_kelp_block: בלוק אצה מיובשת
+  paper: נייר
+  book: ספר
+  slime_ball: כדור רפש
+  chest_minecart: קרונית עם תיבה
+  furnace_minecart: קרונית עם תנור
+  egg: ביצה
+  compass: מצפן
+  fishing_rod: חכת דיג
+  clock: שעון
+  glowstone_dust: אבק גלוסטון
+  cod: בקלה נא
+  salmon: סלמון נא
+  tropical_fish: דג טרופי
+  pufferfish: אבו-נפחא
+  cooked_cod: בקלה אפוי
+  cooked_salmon: סלמון מבושל
+  ink_sac: שק דיו
+  cocoa_beans: פולי קקאו
+  lapis_lazuli: לאפיס לאזולי
+  white_dye: צבע לבן
+  orange_dye: צבע כתום
+  magenta_dye: צבע מג'נטה
+  light_blue_dye: צבע תכלת
+  yellow_dye: צבע צהוב
+  lime_dye: צבע ליים
+  pink_dye: צבע ורוד
+  gray_dye: צבע אפור
+  light_gray_dye: צבע אפור בהיר
+  cyan_dye: צבע ציאן
+  purple_dye: צבע סגול
+  blue_dye: צבע כחול
+  brown_dye: צבע חום
+  green_dye: צבע ירוק
+  red_dye: צבע אדום
+  black_dye: צבע שחור
+  bone_meal: דשן
+  bone: עצם
+  sugar: סוכר
+  cake: עוגה
+  white_bed: מיטה לבנה
+  orange_bed: מיטה כתומה
+  magenta_bed: מיטה מג'נטה
+  light_blue_bed: מיטה תכלת
+  yellow_bed: מיטה צהובה
+  lime_bed: מיטה ליים
+  pink_bed: מיטה ורודה
+  gray_bed: מיטה אפורה
+  light_gray_bed: מיטה תכלת
+  cyan_bed: מיטה ציאן
+  purple_bed: מיטה סגולה
+  blue_bed: מיטה כחולה
+  brown_bed: מיטה חומה
+  green_bed: מיטה ירוקה
+  red_bed: מיטה אדומה
+  black_bed: מיטה שחורה
+  cookie: עוגייה
+  filled_map: מפה
+  shears: מזמרה
+  melon_slice: פרוסת אבטיח
+  dried_kelp: אצה מיובשת
+  pumpkin_seeds: זרעי דלעת
+  melon_seeds: זרעי אבטיח
+  beef: בקר נא
+  cooked_beef: סטייק
+  chicken: עוף נא
+  cooked_chicken: עוף מבושל
+  rotten_flesh: בשר רקוב
+  ender_pearl: פנינת אנדר
+  blaze_rod: מוט להבון
+  ghast_tear: דמעת גאסט
+  gold_nugget: גוש זהב
+  nether_wart: שיבולת נת'ר
+  potion: שיקוי
+  glass_bottle: בקבוק זכוכית
+  spider_eye: עין עכביש
+  fermented_spider_eye: עין עכביש תסוסה
+  blaze_powder: אבקת להבון
+  magma_cream: קרם מאגמה
+  brewing_stand: עמדת רקיחה
+  cauldron: קדרה
+  ender_eye: עין אנדר
+  glistering_melon_slice: פרוסת אבטיח מנצנץ
+  bat_spawn_egg: ביצת זימון עטלף
+  bee_spawn_egg: ביצת זימון דבורה
+  blaze_spawn_egg: ביצת זימון להבון
+  cat_spawn_egg: ביצת זימון חתול
+  cave_spider_spawn_egg: ביצת זימון עכביש מערות
+  chicken_spawn_egg: ביצת זימון תרנגול
+  cod_spawn_egg: ביצת זימון בקלה
+  cow_spawn_egg: ביצת זימון פרה
+  creeper_spawn_egg: ביצת זימון קריפר
+  dolphin_spawn_egg: ביצת זימון דולפין
+  donkey_spawn_egg: ביצת זימון חמור
+  drowned_spawn_egg: ביצת זימון טבוע
+  elder_guardian_spawn_egg: ביצת זימון שומר עתיק
+  enderman_spawn_egg: ביצת זימון אנדרמן
+  endermite_spawn_egg: ביצת זימון אנדרמייט
+  evoker_spawn_egg: ביצת זימון מעורר
+  fox_spawn_egg: ביצת זימון שועל
+  ghast_spawn_egg: ביצת זימון גאסט
+  guardian_spawn_egg: ביצת זימון שומר
+  hoglin_spawn_egg: ביצת זימון הוגלין
+  horse_spawn_egg: ביצת זימון סוס
+  husk_spawn_egg: ביצת זימון האסק
+  llama_spawn_egg: ביצת זימון למה
+  magma_cube_spawn_egg: ביצת זימון קוביית מאגמה
+  mooshroom_spawn_egg: ביצת זימון מושרום
+  mule_spawn_egg: ביצת זימון פרד
+  ocelot_spawn_egg: ביצת זימון אוצלוט
+  panda_spawn_egg: ביצת זימון פנדה
+  parrot_spawn_egg: ביצת זימון תוכי
+  phantom_spawn_egg: ביצת זימון פאנטום
+  pig_spawn_egg: ביצת זימון חזיר
+  piglin_spawn_egg: ביצת זימון פיגלין
+  piglin_brute_spawn_egg: ביצת זימון פיגלין פראי
+  pillager_spawn_egg: ביצת זימון שודד כפרים
+  polar_bear_spawn_egg: ביצת זימון דוב קוטב
+  pufferfish_spawn_egg: ביצת זימון אבו נפחא
+  rabbit_spawn_egg: ביצת זימון ארנב
+  ravager_spawn_egg: ביצת זימון הרסן
+  salmon_spawn_egg: ביצת זימון סלמון
+  sheep_spawn_egg: ביצת זימון כבשה
+  shulker_spawn_egg: ביצת זימון שולקר
+  silverfish_spawn_egg: ביצת זימון דג כסף
+  skeleton_spawn_egg: ביצת זימון שלד
+  skeleton_horse_spawn_egg: ביצת זימון שלד סוס
+  slime_spawn_egg: ביצת זימון רפש
+  spider_spawn_egg: ביצת זימון עכביש
+  squid_spawn_egg: ביצת זימון דיונון
+  stray_spawn_egg: ביצת זימון תועה
+  strider_spawn_egg: ביצת זימון סטריידר
+  trader_llama_spawn_egg: ביצת זימון למה של סוחר
+  tropical_fish_spawn_egg: ביצת זימון דג טרופי
+  turtle_spawn_egg: ביצת זימון צב
+  vex_spawn_egg: ביצת זימון ווקס
+  villager_spawn_egg: ביצת זימון כפרי
+  vindicator_spawn_egg: ביצת זימון מרטש
+  wandering_trader_spawn_egg: ביצת זימון סוחר נודד
+  witch_spawn_egg: ביצת זימון מכשפה
+  wither_skeleton_spawn_egg: ביצת זימון שלד ווית'ר
+  wolf_spawn_egg: ביצת זימון זאב
+  zoglin_spawn_egg: ביצת זימון זוגלין
+  zombie_spawn_egg: ביצת זימון זומבי
+  zombie_horse_spawn_egg: ביצת זימון סוס זומבי
+  zombie_villager_spawn_egg: ביצת זימון זומבי כפרי
+  zombified_piglin_spawn_egg: ביצת זימון פיגלין זומבי
+  experience_bottle: בקבוק כישופים
+  fire_charge: כדור אש
+  writable_book: ספר וקולמוס
+  written_book: ספר כתוב
+  emerald: ברקת
+  item_frame: מסגרת פריט
+  flower_pot: עציץ
+  carrot: גזר
+  potato: תפוח אדמה
+  baked_potato: תפוח אדמה אפוי
+  poisonous_potato: תפוח אדמה מורעל
+  map: מפה ריקה
+  golden_carrot: גזר מוזהב
+  skeleton_skull: גולגולת שלד
+  wither_skeleton_skull: גולגולת שלד ווית'ר
+  player_head: ראש שחקן
+  zombie_head: ראש זומבי
+  creeper_head: ראש קריפר
+  dragon_head: ראש דרקון
+  carrot_on_a_stick: גזר על מקל
+  warped_fungus_on_a_stick: פטריה מעוותת על מקל
+  nether_star: כוכב נת'ר
+  pumpkin_pie: פאי דלעת
+  firework_rocket: טיל זיקוק
+  firework_star: כוכב זיקוק
+  enchanted_book: ספר מכושף
+  nether_brick: לבנת נת'ר
+  quartz: נת'ר קוורץ
+  tnt_minecart: קרונית עם חומר נפץ
+  hopper_minecart: קרונית עם משפך
+  prismarine_shard: שבר פריזמרין
+  prismarine_crystals: קריסטלי פריזמרין
+  rabbit: ארנב נא
+  cooked_rabbit: ארנב מבושל
+  rabbit_stew: תבשיל ארנב
+  rabbit_foot: רגל ארנב
+  rabbit_hide: עור ארנב
+  armor_stand: מעמד שריון
+  iron_horse_armor: שריון סוס מברזל
+  golden_horse_armor: שריון סוס מזהב
+  diamond_horse_armor: שריון סוס מיהלום
+  leather_horse_armor: שריון סוס מעור
+  lead: חבל
+  name_tag: תג שם
+  command_block_minecart: קרונית עם בלוק פקודה
+  mutton: בשר כבש נא
+  cooked_mutton: בשר כבש מבושל
+  white_banner: באנר לבן
+  orange_banner: באנר כתום
+  magenta_banner: באנר מג'נטה
+  light_blue_banner: באנר תכלת
+  yellow_banner: באנר צהוב
+  lime_banner: באנר ליים
+  pink_banner: באנר ורוד
+  gray_banner: באנר אפור
+  light_gray_banner: באנר אפור בהיר
+  cyan_banner: באנר ציאן
+  purple_banner: באנר סגול
+  blue_banner: באנר כחול
+  brown_banner: באנר חום
+  green_banner: באנר ירוק
+  red_banner: באנר אדום
+  black_banner: באנר שחור
+  end_crystal: קריסטל אנד
+  chorus_fruit: פרי קורוס
+  popped_chorus_fruit: פרי קורוס מנופץ
+  beetroot: סלק אדום
+  beetroot_seeds: זרעי סלק
+  beetroot_soup: מרק סלק אדום
+  dragon_breath: נשימת דרקון
+  splash_potion: שיקוי התזה
+  spectral_arrow: חץ זוהר
+  tipped_arrow: חץ טבול
+  lingering_potion: שיקוי שהייה
+  shield: מגן
+  elytra: אליטרה
+  spruce_boat: סירת אשוחית
+  birch_boat: סירת שדר
+  jungle_boat: סירת עץ ג'ונגל
+  acacia_boat: סירת עץ שיטה
+  dark_oak_boat: סירת אלון כהה
+  totem_of_undying: טוטם האלמוות
+  shulker_shell: קונכיית שולקר
+  iron_nugget: גוש ברזל
+  knowledge_book: ספר הידע
+  debug_stick: מקל המצבים
+  music_disc_13: דיסק מוזיקה
+  music_disc_cat: דיסק מוזיקה
+  music_disc_blocks: דיסק מוזיקה
+  music_disc_chirp: דיסק מוזיקה
+  music_disc_far: דיסק מוזיקה
+  music_disc_mall: דיסק מוזיקה
+  music_disc_mellohi: דיסק מוזיקה
+  music_disc_stal: דיסק מוזיקה
+  music_disc_strad: דיסק מוזיקה
+  music_disc_ward: דיסק מוזיקה
+  music_disc_11: דיסק מוזיקה
+  music_disc_wait: דיסק מוזיקה
+  music_disc_pigstep: דיסק מוזיקה
+  trident: קלשון
+  phantom_membrane: קרום פאנטום
+  nautilus_shell: קונכיית שייטן
+  heart_of_the_sea: הלב של הים
+  crossbow: קשת מוצלבת
+  suspicious_stew: תבשיל מסתורי
+  loom: נול
+  flower_banner_pattern: תבנית דגל
+  creeper_banner_pattern: תבנית דגל
+  skull_banner_pattern: תבנית דגל
+  mojang_banner_pattern: תבנית דגל
+  globe_banner_pattern: תבנית דגל
+  piglin_banner_pattern: תבנית דגל
+  composter: מדשן
+  barrel: חבית
+  smoker: מעשן
+  blast_furnace: כבשן
+  cartography_table: שולחן מיפוי
+  fletching_table: שולחן הכנת חיצים
+  grindstone: אבן משחזת
+  lectern: מעמד ספרים
+  smithing_table: שולחן נפחות
+  stonecutter: חותך אבנים
+  bell: פעמון
+  lantern: עששית
+  soul_lantern: מנורת נשמה
+  sweet_berries: פירות יער מתוקים
+  campfire: מדורה
+  soul_campfire: מדורת נשמות
+  shroomlight: פטריית זוהר
+  honeycomb: חלת דבש
+  bee_nest: קן דבורים
+  beehive: כוורת
+  honey_bottle: בקבוק דבש
+  honey_block: בלוק דבש
+  honeycomb_block: בלוק חלת דבש
+  lodestone: מגנטיט
+  netherite_block: בלוק נת'רייט
+  ancient_debris: רסיסים עתיקים
+  target: מטרה
+  crying_obsidian: אובסידיאן בוכה
+  blackstone: אבן שחורה
+  blackstone_slab: אבן שחורה חצויה
+  blackstone_stairs: מדרגות אבן שחורה
+  gilded_blackstone: אבן שחורה מוזהבת
+  polished_blackstone: אבן שחורה מלוטשת
+  polished_blackstone_slab: אבן שחורה מלוטשת חצויה
+  polished_blackstone_stairs: מדרגות אבן שחורה מלוטשת
+  chiseled_polished_blackstone: אבן שחורה מלוטשת מפוסלת
+  polished_blackstone_bricks: לבני אבן שחורה מלוטשת
+  polished_blackstone_brick_slab: לבני אבן שחורה מלוטשת חצויות
+  polished_blackstone_brick_stairs: מדרגות לבני אבן שחורה מלוטשת
+  cracked_polished_blackstone_bricks: לבני אבן שחורה מלוטשת סדוקה
+  respawn_anchor: עוגן התחדשות
+  water: מים
+  lava: לבה
+  tall_seagrass: עשב ים גבוה
+  piston_head: ראש בוכנה
+  moving_piston: בוכנה זזה
+  wall_torch: לפיד קיר
+  fire: אש
+  soul_fire: אש נשמה
+  redstone_wire: כבל רדסטון
+  oak_wall_sign: שלט אלון
+  spruce_wall_sign: שלט אשוחית
+  birch_wall_sign: שלט קיר משדר
+  acacia_wall_sign: שלט שיטה
+  jungle_wall_sign: שלט מעץ ג'ונגל
+  dark_oak_wall_sign: שלט אלון כהה
+  redstone_wall_torch: לפיד רדסטון
+  soul_wall_torch: לפיד קיר נשמה
+  nether_portal: שער לנת'ר
+  attached_pumpkin_stem: גזע דלעת מצורף
+  attached_melon_stem: גזע אבטיח מחובר
+  pumpkin_stem: גזע דלעת
+  melon_stem: גזע אבטיח
+  end_portal: מסגרת שער אנד
+  cocoa: קקאו
+  tripwire: חוט מעידה
+  potted_oak_sapling: עציץ עץ אלון
+  potted_spruce_sapling: עציץ עץ אשוחית
+  potted_birch_sapling: עציץ עץ שדר
+  potted_jungle_sapling: עציץ עץ ג'ונגל
+  potted_acacia_sapling: עציץ עץ שיטה
+  potted_dark_oak_sapling: עציץ עץ אלון כהה
+  potted_fern: עציץ שרך
+  potted_dandelion: עציץ שן הארי
+  potted_poppy: עציץ פרג
+  potted_blue_orchid: עציץ סחלב כחול
+  potted_allium: עציץ שום
+  potted_azure_bluet: עציץ פרח בר כחול
+  potted_red_tulip: עציץ צבעוני אדום
+  potted_orange_tulip: עציץ צבעוני כתום
+  potted_white_tulip: עציץ צבעוני לבן
+  potted_pink_tulip: עציץ צבעוני ורוד
+  potted_oxeye_daisy: עציץ חרצית לבנה
+  potted_cornflower: דרדר כחול שתול
+  potted_lily_of_the_valley: שושנת העמקים שתולה
+  potted_wither_rose: ורד ווית'ר שתול
+  potted_red_mushroom: עציץ פטריה אדומה
+  potted_brown_mushroom: עציץ פטריה חומה
+  potted_dead_bush: עציץ שיח מת
+  potted_cactus: עציץ קקטוס
+  carrots: גזרים
+  potatoes: תפוחי אדמה
+  skeleton_wall_skull: גולגולת שלד על הקיר
+  wither_skeleton_wall_skull: גולגולת שלד ווית'ר על הקיר
+  zombie_wall_head: ראש זומבי על הקיר
+  player_wall_head: ראש שחקן על הקיר
+  creeper_wall_head: ראש קריפר על הקיר
+  dragon_wall_head: גולגולת דרקון על הקיר
+  white_wall_banner: באנר לבן
+  orange_wall_banner: באנר כתום
+  magenta_wall_banner: באנר מג'נטה
+  light_blue_wall_banner: באנר תכלת
+  yellow_wall_banner: באנר צהוב
+  lime_wall_banner: באנר ליים
+  pink_wall_banner: באנר ורוד
+  gray_wall_banner: באנר אפור
+  light_gray_wall_banner: באנר אפור בהיר
+  cyan_wall_banner: באנר ציאן
+  purple_wall_banner: באנר סגול
+  blue_wall_banner: באנר כחול
+  brown_wall_banner: באנר חום
+  green_wall_banner: באנר ירוק
+  red_wall_banner: באנר אדום
+  black_wall_banner: באנר שחור
+  beetroots: סלק אדום
+  end_gateway: שער האנד
+  frosted_ice: קרח קפוא
+  kelp_plant: צמח אצה
+  dead_tube_coral_wall_fan: ענף קיר אלמוג צינורי מת
+  dead_brain_coral_wall_fan: ענף קיר אלמוג מוחי מת
+  dead_bubble_coral_wall_fan: ענף קיר אלמוג בועות מת
+  dead_fire_coral_wall_fan: ענף קיר אלמוג אש מת
+  dead_horn_coral_wall_fan: ענף קיר אלמוג קרן מת
+  tube_coral_wall_fan: ענף קיר אלמוג צינורי
+  brain_coral_wall_fan: ענף קיר אלמוג מוחי
+  bubble_coral_wall_fan: ענף קיר אלמוג בועות
+  fire_coral_wall_fan: ענף קיר אלמוג אש
+  horn_coral_wall_fan: ענף קיר אלמוג קרן
+  bamboo_sapling: ניצן במבוק
+  potted_bamboo: במבוק שתול
+  void_air: אוויר הריק
+  cave_air: אוויר מערות
+  bubble_column: זרם בועות
+  sweet_berry_bush: שיח פירות יער מתוקים
+  weeping_vines_plant: צמח גפני בכי
+  twisting_vines_plant: צמח גפנים מתפתלות
+  crimson_wall_sign: שלט קיר מעץ ארגמן
+  warped_wall_sign: שלט קיר מעץ מעוות
+  potted_crimson_fungus: פטריית ארגמן שתולה
+  potted_warped_fungus: פטריה מעוותת שתולה
+  potted_crimson_roots: שורשי ארגמן שתולים
+  potted_warped_roots: שורשים מעוותים שתולים
+  zombie_pigman_spawn_egg: ביצת זימון זומבי אדם-חזיר
+  cactus_green: ירוק קקטוס
+  dandelion_yellow: צבען צהוב
+  rose_red: אדום ורד
+  sign: שלט
+  wall_sign: שלט קיר
+biome:
+  ocean: אוקיינוס
+  plains: מישורים
+  desert: מדבר
+  mountains: הרים
+  forest: יער
+  taiga: טייגה
+  swamp: ביצה
+  river: נהר
+  nether_wastes: שממת נת'ר
+  the_end: האנד
+  frozen_ocean: אוקיינוס קפוא
+  frozen_river: נהר קפוא
+  snowy_tundra: טונדרה מושלגת
+  snowy_mountains: הרים מושלגים
+  mushroom_fields: שדות פטריות
+  mushroom_field_shore: שדה חוף פטריות
+  beach: חוף
+  desert_hills: גבעות מדבר
+  wooded_hills: גבעות עצים
+  taiga_hills: גבעות טייגה
+  mountain_edge: קצה הר
+  jungle: ג'ונגל
+  jungle_hills: גבעות ג'ונגל
+  jungle_edge: גבול ג'ונגל
+  deep_ocean: אוקיינוס עמוק
+  stone_shore: חוף אבנים
+  snowy_beach: חוף מושלג
+  birch_forest: יער עצי שדר
+  birch_forest_hills: גבעות יערות עצי שדר
+  dark_forest: יער כהה
+  snowy_taiga: טייגה מושלגת
+  snowy_taiga_hills: גבעות טייגה מושלגות
+  giant_tree_taiga: טייגת עצי ענק
+  giant_tree_taiga_hills: גבעות טייגה עם עצי ענק
+  wooded_mountains: הרי עצים
+  savanna: סוואנה
+  savanna_plateau: מישורי סאוונה
+  badlands: בתרונות
+  wooded_badlands_plateau: מישורי בתרונות עצים
+  badlands_plateau: בתרונות מישורים
+  small_end_islands: איי אנד קטנים
+  end_midlands: אנד ממודרג
+  end_highlands: אנד הררי
+  end_barrens: צוקי אנד
+  warm_ocean: אוקיינוס חם
+  lukewarm_ocean: אוקיינוס חמים
+  cold_ocean: אוקיינוס קר
+  deep_warm_ocean: אוקיינוס עמוק וחם
+  deep_lukewarm_ocean: אוקיינוס עמוק וחמים
+  deep_cold_ocean: אוקיינוס עמוק וקר
+  deep_frozen_ocean: אוקיינוס עמוק וקפוא
+  the_void: הריק
+  sunflower_plains: מישורי חמניות
+  desert_lakes: אגמי מדבר
+  gravelly_mountains: הרי חצץ
+  flower_forest: יער פרחים
+  taiga_mountains: הרי טייגה
+  swamp_hills: גבעות ביצה
+  ice_spikes: קוצי קרח
+  modified_jungle: ג'ונגל מותאם
+  modified_jungle_edge: קצה ג'ונגל מותאם
+  tall_birch_forest: יער שדר גבוה
+  tall_birch_hills: גבעות שדר גבוה
+  dark_forest_hills: גבעות יער כהה
+  snowy_taiga_mountains: הרי טייגה מושלגים
+  giant_spruce_taiga: טייגה עם אשוחיות ענק
+  giant_spruce_taiga_hills: גבעות טייגה עם אשוחיות ענק
+  modified_gravelly_mountains: הרי חצץ+
+  shattered_savanna: סוואנה מנופצת
+  shattered_savanna_plateau: מישורי סוואנה מנופצת
+  eroded_badlands: בתרונות רחופות
+  modified_wooded_badlands_plateau: מישורי בתרונות עצים מותאמים
+  modified_badlands_plateau: מישורי בתרונות מותאמים
+  bamboo_jungle: ג'ונגל במבוק
+  bamboo_jungle_hills: גבעות ג'ונגל במבוק
+  soul_sand_valley: עמק חולות הנשמה
+  crimson_forest: יער ארגמן
+  warped_forest: יער מעוות
+  basalt_deltas: דלתאות הבזלת
+  nether: נת'ר
+enchantment:
+  fire_protection: חסינות לאש
+  sharpness: חדות
+  flame: להבה
+  soul_speed: מהירות נשמה
+  aqua_affinity: משיכה למים
+  punch: דחיפה
+  loyalty: נאמנות
+  depth_strider: פסיעת מעמקים
+  vanishing_curse: קללת היעלמות
+  unbreaking: בלתי שביר
+  knockback: דחייה
+  luck_of_the_sea: מזל הים
+  binding_curse: קללת כבילה
+  fortune: עושר
+  protection: הגנה
+  efficiency: יעילות
+  mending: תיקון
+  frost_walker: הליכת כפור
+  lure: פיתיון
+  looting: בזיזה
+  piercing: חדירה
+  blast_protection: חסינות מפיצוצים
+  smite: השמדה
+  multishot: ייריה משולשת
+  fire_aspect: היבט האש
+  channeling: הכוונה
+  sweeping: להב סוחף
+  thorns: קוצים
+  bane_of_arthropods: קללת פרוקי-הרגליים
+  respiration: נשימה
+  riptide: גאות
+  silk_touch: מגע משי
+  quick_charge: טעינה מהירה
+  projectile_protection: הגנה מקליעים
+  impaling: פילוח
+  feather_falling: נפילת נוצה
+  power: כוח
+  infinity: אינסוף
+potion:
+  uncraftable: שיקוי בלתי ניתן להכנה
+  water: בקבוק מים
+  mundane: שיקוי רגיל
+  thick: שיקוי עבה
+  awkward: שיקוי מביך
+  night_vision: שיקוי ראיית לילה
+  invisibility: שיקוי היעלמות
+  jump: שיקוי זינוק
+  fire_resistance: שיקוי חסינות לאש
+  speed: שיקוי זריזות
+  slowness: שיקוי איטיות
+  water_breathing: שיקוי נשימה תת-מימית
+  instant_heal: שיקוי ריפוי
+  instant_damage: שיקוי פגיעה
+  poison: שיקוי רעל
+  regen: שיקוי התחדשות
+  strength: שיקוי כוח
+  weakness: שיקוי חולשה
+  luck: שיקוי מזל
+  turtle_master: שיקוי של מאסטר הצב
+  slow_falling: שיקוי נפילה איטית
+splash_potion:
+  uncraftable: שיקוי התזה בלתי ניתן להכנה
+  water: בקבוק מים לזריקה
+  mundane: שיקוי התזה רגיל
+  thick: שיקוי התזה עבה
+  awkward: שיקוי התזה מביך
+  night_vision: שיקוי התזה של ראיית לילה
+  invisibility: שיקוי התזה של היעלמות
+  jump: שיקוי התזה של זינוק
+  fire_resistance: שיקוי התזה של חסינות לאש
+  speed: שיקוי התזה של זריזות
+  slowness: שיקוי התזה של איטיות
+  water_breathing: שיקוי התזה של נשימה תת-מימית
+  instant_heal: שיקוי התזה של ריפוי
+  instant_damage: שיקוי התזה של פגיעה
+  poison: שיקוי התזה של רעל
+  regen: שיקוי התזה של התחדשות
+  strength: שיקוי התזה של כוח
+  weakness: שיקוי התזה של חולשה
+  luck: שיקוי התזה של מזל
+  turtle_master: שיקוי התזה של מאסטר הצב
+  slow_falling: שיקוי התזה של נפילה איטית
+lingering_potion:
+  uncraftable: שיקוי השתהות בלתי ניתן להכנה
+  water: בקבוק מים משתהה
+  mundane: שיקוי השתהות רגיל
+  thick: שיקוי השתהות עבה
+  awkward: שיקוי השתהות מביך
+  night_vision: שיקוי השתהות של ראיית לילה
+  invisibility: שיקוי השתהות של היעלמות
+  jump: שיקוי השתהות של זינוק
+  fire_resistance: שיקוי השתהות של חסינות לאש
+  speed: שיקוי השתהות של זריזות
+  slowness: שיקוי השתהות של איטיות
+  water_breathing: שיקוי השתהות של נשימה תת-מימית
+  instant_heal: שיקוי השתהות של ריפוי
+  instant_damage: שיקוי השתהות של פגיעה
+  poison: שיקוי השתהות של רעל
+  regen: שיקוי השתהות של התחדשות
+  strength: שיקוי השתהות של כוח
+  weakness: שיקוי השתהות של חולשה
+  luck: שיקוי השתהות של מזל
+  turtle_master: שיקוי משתהה של מאסטר הצב
+  slow_falling: שיקוי משתהה של נפילה איטית
+tipped_arrow:
+  uncraftable: חץ טבול לא ניתן להכנה
+  water: חץ התזה
+  mundane: חץ טבול
+  thick: חץ טבול
+  awkward: חץ טבול
+  night_vision: חץ ראיית לילה
+  invisibility: חץ היעלמות
+  jump: חץ זינוק
+  fire_resistance: חץ חסינות לאש
+  speed: חץ זריזות
+  slowness: חץ איטיות
+  water_breathing: חץ נשימה תת-מימית
+  instant_heal: חץ ריפוי
+  instant_damage: חץ פגיעה
+  poison: חץ רעל
+  regen: חץ התחדשות
+  strength: חץ כוח
+  weakness: חץ חולשה
+  luck: חץ מזל
+  turtle_master: חץ של מאסטר הצב
+  slow_falling: חץ של נפילה איטית
+entity:
+  dropped_item: פריט
+  experience_orb: נקודת נסיון
+  area_effect_cloud: אזור ענן אפקט
+  elder_guardian: שומר עתיק
+  wither_skeleton: שלד ווית'ר
+  stray: תועה
+  egg: ביצה זרוקה
+  leash_hitch: רצועה קשורה
+  painting: ציור
+  arrow: חץ
+  snowball: כדור שלג
+  fireball: כדור אש
+  small_fireball: כדור אש קטן
+  ender_pearl: פנינת אנדר זרוקה
+  ender_signal: עין אנדר
+  splash_potion: שיקוי
+  thrown_exp_bottle: בקבוק כישופים זרוק
+  item_frame: מסגרת פריט
+  wither_skull: גולגולת ווית'ר
+  primed_tnt: TNT מתפוצץ
+  falling_block: בלוק נופל
+  firework: טיל זיקוק
+  husk: האסק
+  spectral_arrow: חץ זוהר
+  shulker_bullet: קליע שולקר
+  dragon_fireball: כדור אש דרקון
+  zombie_villager: זומבי כפרי
+  skeleton_horse: שלד סוס
+  zombie_horse: סוס זומבי
+  armor_stand: מעמד שריון
+  donkey: חמור
+  mule: פרד
+  evoker_fangs: ניבי מעורר
+  evoker: מעורר
+  vex: ווקס
+  vindicator: מרטש
+  illusioner: אמן האשליות
+  minecart_command: קרונית עם בלוק פקודה
+  boat: סירה
+  minecart: קרונית
+  minecart_chest: קרונית עם תיבה
+  minecart_furnace: קרונית עם תנור
+  minecart_tnt: קרונית עם חומר נפץ
+  minecart_hopper: קרונית עם משפך
+  minecart_mob_spawner: קרונית עם מזמן
+  creeper: קריפר
+  skeleton: שלד
+  spider: עכביש
+  giant: ענק
+  zombie: זומבי
+  slime: רפש
+  ghast: גאסט
+  zombified_piglin: פיגלין זומבי
+  enderman: אנדרמן
+  cave_spider: עכביש מערות
+  silverfish: דג הכסף
+  blaze: להבון
+  magma_cube: קוביית מאגמה
+  ender_dragon: אנדרדרקון
+  wither: ווית'ר
+  bat: עטלף
+  witch: מכשפה
+  endermite: אנדרמייט
+  guardian: שומר
+  shulker: שולקר
+  pig: חזיר
+  sheep: כבשה
+  cow: פרה
+  chicken: תרנגולת
+  squid: דיונון
+  wolf: זאב
+  mushroom_cow: מושרום
+  snowman: גולם שלג
+  ocelot: אוצלוט
+  iron_golem: גולם ברזל
+  horse: סוס
+  rabbit: ארנב
+  polar_bear: דוב קוטב
+  llama: למה
+  llama_spit: יריקת למה
+  parrot: תוכי
+  villager: כפרי
+  ender_crystal: קריסטל אנד
+  turtle: צב
+  phantom: פאנטום
+  trident: קלשון
+  cod: בקלה
+  salmon: סלמון
+  pufferfish: אבו-נפחא
+  tropical_fish: דג טרופי
+  drowned: טבוע
+  dolphin: דולפין
+  cat: חתול
+  panda: פנדה
+  pillager: שודד כפרים
+  ravager: הרסן
+  trader_llama: למה של סוחר
+  wandering_trader: סוחר נודד
+  fox: שועל
+  bee: דבורה
+  hoglin: הוגלין
+  piglin: פיגלין
+  strider: סטריידר
+  zoglin: זוגלין
+  piglin_brute: פיגלין פראי
+  fishing_hook: מצוף דיג
+  lightning: ברק
+  player: שחקן
+  pig_zombie: זומבי אדם-חזיר
+effect:
+  speed: מהירות
+  slow: איטיות
+  fast_digging: זריזות
+  slow_digging: חציבה איטית
+  increase_damage: כוח
+  heal: ריפוי מיידי
+  harm: נזק מיידי
+  jump: הגברת קפיצה
+  confusion: בחילה
+  regeneration: התחדשות
+  damage_resistance: חסינות
+  fire_resistance: חסינות לאש
+  water_breathing: נשימה תת-מימית
+  invisibility: היעלמות
+  blindness: עיוורון
+  night_vision: ראיית לילה
+  hunger: רעב
+  weakness: חולשה
+  poison: רעל
+  wither: ווית'ר
+  health_boost: הרחבת מד החיים
+  absorption: ספיגה
+  saturation: רוויה
+  glowing: זוהר
+  levitation: ריחוף
+  luck: מזל
+  unluck: מזל רע
+  slow_falling: נפילה איטית
+  conduit_power: כוח ליבת המים
+  dolphins_grace: אמון דולפין
+  bad_omen: מקולל
+  hero_of_the_village: גיבור הכפר
+tropical_fish_type:
+  kob: קוב
+  sunstreak: סאנטריק
+  snooper: סנופר
+  dasher: רצועתי
+  brinely: ברינלי
+  spotty: מנוקדן
+  flopper: פלופר
+  stripey: פספסי
+  glitter: נצנצן
+  blockfish: בלוקידג
+  betty: בטי
+  clayfish: קליידג
+dye_color:
+  white: לבן
+  orange: כתום
+  magenta: מג'נטה
+  light_blue: תכלת
+  yellow: צהוב
+  lime: ליים
+  pink: ורוד
+  gray: אפור
+  light_gray: אפור בהיר
+  cyan: ציאן
+  purple: סגול
+  blue: כחול
+  brown: חום
+  green: ירוק
+  red: אדום
+  black: שחור
+named:
+  player_head_named: הראש של %s
+  potion_with_amplifier: '%s %s'
+  potion_with_duration: '%s (%s)'
+  unknown_enchantment: 'כישוף לא ידוע: %s'
+  unknown_entity: ישות לא ידועה %s
+  unknown_effect: אפקט לא ידוע %s
+tropical_fish_name:
+  '117506305': שושנון כתום-בטן
+  '117899265': נתחן שחור
+  '185008129': נתחן כחול
+  '117441793': פרפרון
+  '118161664': רמירז
+  '65536': שושנון
+  '50726144': דג קרב סיאמי
+  '67764993': צבעון
+  '234882305': לוטיין קיסרי אדום
+  '67110144': מוליתן הפסים
+  '117441025': מורי אלילי
+  '16778497': פרפרון מקושט
+  '101253888': תוכינון
+  '50660352': קווין אנג'ל
+  '918529': ציקליד אדום
+  '235340288': בלני אדום שפתיים
+  '918273': לוטיין אדום
+  '67108865': סנפן
+  '917504': שושנון אדום-שחור
+  '459008': נצרן
+  '67699456': תוכינון צהוב-זנב
+  '67371009': זברזומה צהובה
+colored_shied:
+  white: מגן לבן
+  orange: מגן כתום
+  magenta: מגן מג'נטה
+  light_blue: מגן תכלת
+  yellow: מגן צהוב
+  lime: מגן ליים
+  pink: מגן ורוד
+  gray: מגן אפור
+  light_gray: מגן אפור בהיר
+  cyan: מגן ציאן
+  purple: מגן סגול
+  blue: מגן כחול
+  brown: מגן חום
+  green: מגן ירוק
+  red: מגן אדום
+  black: מגן שחור
+banner_pattern:
+  '65536': קנטון לבן בדקסטר בסיס
+  '65537': קנטון כתום בדקסטר בסיס
+  '65538': קנטון מג'נטה בדקסטר בסיס
+  '65539': קנטון תכלת בדקסטר בסיס
+  '65540': קנטון צהוב בדקסטר בסיס
+  '65541': קנטון ליים בדקסטר בסיס
+  '65542': קנטון ורוד בדקסטר בסיס
+  '65543': קנטון אפור בדקסטר בסיס
+  '65544': קנטון אפור בהיר בדקסטר בסיס
+  '65545': קנטון ציאן בדקסטר בסיס
+  '65546': קנטון סגול בדקסטר בסיס
+  '65547': קנטון כחול בדקסטר בסיס
+  '65548': קנטון חום בדקסטר בסיס
+  '65549': קנטון ירוק בדקסטר בסיס
+  '65550': קנטון אדום בדקסטר בסיס
+  '65551': קנטון שחור בדקסטר בסיס
+  '131072': קנטון לבן בסיניסטר בסיס
+  '131073': קנטון כתום בסיניסטר בסיס
+  '131074': קנטון מג'נטה בסיניסטר בסיס
+  '131075': קנטון תכלת בסיניסטר בסיס
+  '131076': קנטון צהוב בסיניסטר בסיס
+  '131077': קנטון ליים בסיניסטר בסיס
+  '131078': קנטון ורוד בסיניסטר בסיס
+  '131079': קנטון אפור בסיניסטר בסיס
+  '131080': קנטון אפור בהיר בסיניסטר בסיס
+  '131081': קנטון ציאן בסיניסטר בסיס
+  '131082': קנטון סגול בסיניסטר בסיס
+  '131083': קנטון כחול בסיניסטר בסיס
+  '131084': קנטון חום בסיניסטר בסיס
+  '131085': קנטון ירוק בסיניסטר בסיס
+  '131086': קנטון אדום בסיניסטר בסיס
+  '131087': קנטון שחור בסיניסטר בסיס
+  '196608': קנטון לבן בדקסטר עליון
+  '196609': קנטון כתום בדקסטר עליון
+  '196610': קנטון מג'נטה בדקסטר עליון
+  '196611': קנטון תכלת בדקסטר עליון
+  '196612': קנטון צהוב בדקסטר עליון
+  '196613': קנטון ליים בדקסטר עליון
+  '196614': קנטון ורוד בדקסטר עליון
+  '196615': קנטון אפור בדקסטר עליון
+  '196616': קנטון אפור בהיר בדקסטר עליון
+  '196617': קנטון ציאן בדקסטר עליון
+  '196618': קנטון סגול בדקסטר עליון
+  '196619': קנטון כחול בדקסטר עליון
+  '196620': קנטון חום בדקסטר עליון
+  '196621': קנטון ירוק בדקסטר עליון
+  '196622': קנטון אדום בדקסטר עליון
+  '196623': קנטון שחור בדקסטר עליון
+  '262144': קנטון לבן בסיניסטר עליון
+  '262145': קנטון כתום בסיניסטר עליון
+  '262146': קנטון מג'נטה בסיניסטר עליון
+  '262147': קנטון תכלת בסיניסטר עליון
+  '262148': קנטון צהוב בסיניסטר עליון
+  '262149': קנטון ליים בסיניסטר עליון
+  '262150': קנטון ורוד בסיניסטר עליון
+  '262151': קנטון אפור בסיניסטר עליון
+  '262152': קנטון אפור בהיר בסיניסטר עליון
+  '262153': קנטון ציאן בסיניסטר עליון
+  '262154': קנטון סגול בסיניסטר עליון
+  '262155': קנטון כחול בסיניסטר עליון
+  '262156': קנטון חום בסיניסטר עליון
+  '262157': קנטון ירוק בסיניסטר עליון
+  '262158': קנטון אדום בסיניסטר עליון
+  '262159': קנטון שחור בסיניסטר עליון
+  '327680': בסיס לבן
+  '327681': בסיס כתום
+  '327682': בסיס מג'נטה
+  '327683': בסיס תכלת
+  '327684': בסיס צהוב
+  '327685': בסיס ליים
+  '327686': בסיס ורוד
+  '327687': בסיס אפור
+  '327688': בסיס אפור בהיר
+  '327689': בסיס ציאן
+  '327690': בסיס סגול
+  '327691': בסיס כחול
+  '327692': בסיס חום
+  '327693': בסיס ירוק
+  '327694': בסיס אדום
+  '327695': בסיס שחור
+  '393216': ראש לבן
+  '393217': ראש כתום
+  '393218': ראש מג'נטה
+  '393219': ראש כחול בהיר
+  '393220': ראש צהוב
+  '393221': ראש ליים
+  '393222': ראש ורוד
+  '393223': ראש אפור
+  '393224': ראש אפור בהיר
+  '393225': ראש ציאן
+  '393226': ראש סגול
+  '393227': ראש כחול
+  '393228': ראש חום
+  '393229': ראש ירוק
+  '393230': ראש אדום
+  '393231': ראש שחור
+  '458752': פאלה לבן בדקסטר
+  '458753': פאלה כתום בדקסטר
+  '458754': פאלה מג'נטה בדקסטר
+  '458755': פאלה תכלת בדקסטר
+  '458756': פאלה צהוב בדקסטר
+  '458757': פאלה ליים בדקסטר
+  '458758': פאלה ורוד בדקסטר
+  '458759': פאלה אפור בדקסטר
+  '458760': פאלה אפור בהיר בדקסטר
+  '458761': פאלה ציאן בדקסטר
+  '458762': פאלה סגול בדקסטר
+  '458763': פאלה כחול בדקסטר
+  '458764': פאלה חום בדקסטר
+  '458765': פאלה ירוק בדקסטר
+  '458766': פאלה אדום בדקסטר
+  '458767': פאלה שחור בדקסטר
+  '524288': פאלה לבן בסיניסטר
+  '524289': פאלה כתום בסיניסטר
+  '524290': פאלה מג'נטה בסיניסטר
+  '524291': פאלה תכלת בסיניסטר
+  '524292': פאלה צהוב בסיניסטר
+  '524293': פאלה ליים בסיניסטר
+  '524294': פאלה ורוד בסיניסטר
+  '524295': פאלה אפור בסיניסטר
+  '524296': פאלה אפור בהיר בסיניסטר
+  '524297': פאלה ציאן בסיניסטר
+  '524298': פאלה סגול בסיניסטר
+  '524299': פאלה כחול בסיניסטר
+  '524300': פאלה חום בסיניסטר
+  '524301': פאלה ירוק בסיניסטר
+  '524302': פאלה אדום בסיניסטר
+  '524303': פאלה שחור בסיניסטר
+  '589824': פאלה לבן
+  '589825': פאלה כתום
+  '589826': פאלה מג'נטה
+  '589827': פאלה תכלת
+  '589828': פאלה צהוב
+  '589829': פאלה ליים
+  '589830': פאלה ורוד
+  '589831': פאלה אפור
+  '589832': פאלה אפור בהיר
+  '589833': פאלה ציאן
+  '589834': פאלה סגול
+  '589835': פאלה כחול
+  '589836': פאלה חום
+  '589837': פאלה ירוק
+  '589838': פאלה אדום
+  '589839': פאלה שחור
+  '655360': פס לבן
+  '655361': פס כתום
+  '655362': פס מג'נטה
+  '655363': פס תכלת
+  '655364': פס צהוב
+  '655365': פס ליים
+  '655366': פס ורוד
+  '655367': פס אפור
+  '655368': פס אפור בהיר
+  '655369': פס ציאן
+  '655370': פס סגול
+  '655371': פס כחול
+  '655372': פס חום
+  '655373': פס ירוק
+  '655374': פס אדום
+  '655375': פס שחור
+  '720896': בנד לבן
+  '720897': בנד כתום
+  '720898': בנד מג'נטה
+  '720899': בנד תכלת
+  '720900': בנד צהוב
+  '720901': אלכסון ליים
+  '720902': בנד ורוד
+  '720903': בנד אפור
+  '720904': בנד אפור בהיר
+  '720905': בנד טורקיז
+  '720906': בנד סגול
+  '720907': בנד כחול
+  '720908': בנד חום
+  '720909': בנד ירוק
+  '720910': בנד אדום
+  '720911': בנד שחור
+  '786432': בנד סיניסטר לבן
+  '786433': בנד סיניסטר כתום
+  '786434': בנד סיניסטר מג'נטה
+  '786435': בנד סיניסטר תכלת
+  '786436': בנד סיניסטר צהוב
+  '786437': אלכסון ליים ימני
+  '786438': בנד סיניסטר ורוד
+  '786439': בנד סיניסטר אפור
+  '786440': בנד סיניסטר אפור בהיר
+  '786441': בנד סיניסטר טורקיז
+  '786442': בנד סיניסטר סגול
+  '786443': בנד סיניסטר כחול
+  '786444': בנד סיניסטר חום
+  '786445': בנד סיניסטר ירוק
+  '786446': בנד סיניסטר אדום
+  '786447': בנד סיניסטר שחור
+  '851968': פאלי לבן
+  '851969': פאלי כתום
+  '851970': פאלי מג'נטה
+  '851971': פאלי תכלת
+  '851972': פאלי צהוב
+  '851973': פאלי ליים
+  '851974': פאלי ורוד
+  '851975': פאלי אפור
+  '851976': פאלי אפור בהיר
+  '851977': פאלי ציאן
+  '851978': פאלי סגול
+  '851979': פאלי כחול
+  '851980': פאלי חום
+  '851981': פאלי ירוק
+  '851982': פאלי אדום
+  '851983': פאלי שחור
+  '917504': צלב אלכסוני לבן
+  '917505': צלב אלכסוני כתום
+  '917506': צלב אלכסוני מג'נטה
+  '917507': צלב אלכסוני תכלת
+  '917508': צלב אלכסוני צהוב
+  '917509': צלב אלכסוני ליים
+  '917510': צלב אלכסוני ורוד
+  '917511': צלב אלכסוני אפור
+  '917512': צלב אלכסוני אפור בהיר
+  '917513': צלב אלכסוני ציאן
+  '917514': צלב אלכסוני סגול
+  '917515': צלב אלכסוני כחול
+  '917516': צלב אלכסוני חום
+  '917517': צלב אלכסוני ירוק
+  '917518': צלב אלכסוני אדום
+  '917519': צלב אלכסוני שחור
+  '983040': צלב לבן
+  '983041': צלב כתום
+  '983042': צלב מג'נטה
+  '983043': צלב תכלת
+  '983044': צלב צהוב
+  '983045': צלב ליים
+  '983046': צלב ורוד
+  '983047': צלב אפור
+  '983048': צלב אפור בהיר
+  '983049': צלב ציאן
+  '983050': צלב סגול
+  '983051': צלב כחול
+  '983052': צלב חום
+  '983053': צלב ירוק
+  '983054': צלב אדום
+  '983055': צלב שחור
+  '1048576': שברון לבן
+  '1048577': שברון כתום
+  '1048578': שברון מג'נטה
+  '1048579': שברון תכלת
+  '1048580': שברון צהוב
+  '1048581': שברון ליים
+  '1048582': שברון ורוד
+  '1048583': שברון אפור
+  '1048584': שברון אפור בהיר
+  '1048585': שברון ציאן
+  '1048586': שברון סגול
+  '1048587': שברון כחול
+  '1048588': שברון חום
+  '1048589': שברון ירוק
+  '1048590': שברון אדום
+  '1048591': שברון שחור
+  '1114112': שברון לבן הפוך
+  '1114113': שברון כתום הפוך
+  '1114114': שברון מג'נטה הפוך
+  '1114115': שברון תכלת הפוך
+  '1114116': שברון צהוב הפוך
+  '1114117': משולש ליים למעלה
+  '1114118': שברון ורוד הפוך
+  '1114119': שברון אפור הפוך
+  '1114120': שברון אפור בהיר הפוך
+  '1114121': שברון ציאן הפוך
+  '1114122': שברון סגול הפוך
+  '1114123': שברון כחול הפוך
+  '1114124': שברון חום הפוך
+  '1114125': שברון ירוק הפוך
+  '1114126': שברון אדום הפוך
+  '1114127': שברון שחור הפוך
+  '1179648': בסיס לבן משונן
+  '1179649': בסיס כתום משונן
+  '1179650': בסיס מג'נטה משונן
+  '1179651': בסיס תכלת משונן
+  '1179652': בסיס צהוב משונן
+  '1179653': בסיס ליים משונן
+  '1179654': בסיס ורוד משונן
+  '1179655': בסיס אפור משונן
+  '1179656': בסיס אפור בהיר משונן
+  '1179657': בסיס ציאן משונן
+  '1179658': בסיס סגול משונן
+  '1179659': בסיס כחול משונן
+  '1179660': בסיס חום משונן
+  '1179661': בסיס ירוק משונן
+  '1179662': בסיס אדום משונן
+  '1179663': בסיס שחור משונן
+  '1245184': ראש לבן משונן
+  '1245185': ראש כתום משונן
+  '1245186': ראש מג'נטה משונן
+  '1245187': ראש תכלת משונן
+  '1245188': ראש צהוב משונן
+  '1245189': ראש ליים משונן
+  '1245190': ראש ורוד משונן
+  '1245191': ראש אפור משונן
+  '1245192': ראש אפור בהיר משונן
+  '1245193': ראש ציאן משונן
+  '1245194': ראש סגול משונן
+  '1245195': ראש כחול משונן
+  '1245196': ראש חום משונן
+  '1245197': ראש ירוק משונן
+  '1245198': ראש אדום משונן
+  '1245199': ראש שחור משונן
+  '1310720': מחולק בבנד סיניסטר לבן
+  '1310721': מחולק בבנד סיניסטר כתום
+  '1310722': מחולק בבנד סיניסטר מג'נטה
+  '1310723': מחולק בבנד סיניסטר תכלת
+  '1310724': מחולק בבנד סיניסטר צהוב
+  '1310725': מחולק בבנד סיניסטר ליים
+  '1310726': מחולק בבנד סיניסטר ורוד
+  '1310727': מחולק בבנד סיניסטר אפור
+  '1310728': מחולק בבנד סיניסטר אפור בהיר
+  '1310729': מחולק בבנד סיניסטר ציאן
+  '1310730': מחולק בבנד סיניסטר סגול
+  '1310731': מחולק בבנד סיניסטר כחול
+  '1310732': מחולק בבנד סיניסטר חום
+  '1310733': מחולק בבנד סיניסטר ירוק
+  '1310734': מחולק בבנד סיניסטר אדום
+  '1310735': מחולק בבנד סיניסטר שחור
+  '1376256': מחולק בבנד סיניסטר לבן הפוך
+  '1376257': מחולק בבנד סיניסטר כתום הפוך
+  '1376258': מחולק בבנד סיניסטר מג'נטה הפוך
+  '1376259': מחולק בבנד סיניסטר תכלת הפוך
+  '1376260': מחולק בבנד סיניסטר צהוב הפוך
+  '1376261': מחולק בבנד סיניסטר ליים הפוך
+  '1376262': מחולק בבנד סיניסטר ורוד הפוך
+  '1376263': מחולק בבנד סיניסטר אפור הפוך
+  '1376264': מחולק בבנד סיניסטר אפור בהיר הפוך
+  '1376265': מחולק בבנד סיניסטר ציאן הפוך
+  '1376266': מחולק בבנד סיניסטר סגול הפוך
+  '1376267': מחולק בבנד סיניסטר כחול הפוך
+  '1376268': מחולק בבנד סיניסטר חום הפוך
+  '1376269': מחולק בבנד סיניסטר ירוק הפוך
+  '1376270': מחולק בבנד סיניסטר אדום הפוך
+  '1376271': מחולק בבנד סיניסטר שחור הפוך
+  '1441792': מחולק בבנד לבן הפוך
+  '1441793': מחולק בבנד כתום הפוך
+  '1441794': מחולק בבנד מג'נטה הפוך
+  '1441795': מחולק בבנד תכלת הפוך
+  '1441796': מחולק בבנד צהוב הפוך
+  '1441797': מחולק בבנד ליים הפוך
+  '1441798': מחולק בבנד ורוד הפוך
+  '1441799': מחולק בבנד אפור הפוך
+  '1441800': מחולק בבנד אפור בהיר הפוך
+  '1441801': מחולק בבנד ציאן הפוך
+  '1441802': מחולק בבנד סגול הפוך
+  '1441803': מחולק בבנד כחול הפוך
+  '1441804': מחולק בבנד חום הפוך
+  '1441805': מחולק בבנד ירוק הפוך
+  '1441806': מחולק בבנד אדום הפוך
+  '1441807': מחולק בבנד שחור הפוך
+  '1507328': מחולק בבנד לבן
+  '1507329': מחולק בבנד כתום
+  '1507330': מחולק בבנד מג'נטה
+  '1507331': מחולק בבנד תכלת
+  '1507332': מחולק בבנד צהוב
+  '1507333': מחולק בבנד ליים
+  '1507334': מחולק בבנד ורוד
+  '1507335': מחולק בבנד אפור
+  '1507336': מחולק בבנד אפור בהיר
+  '1507337': מחולק בבנד ציאן
+  '1507338': מחולק בבנד סגול
+  '1507339': מחולק בבנד כחול
+  '1507340': מחולק בבנד חום
+  '1507341': מחולק בבנד ירוק
+  '1507342': מחולק בבנד אדום
+  '1507343': מחולק בבנד שחור
+  '1572864': ראונדל לבן
+  '1572865': ראונדל כתום
+  '1572866': ראונדל מג'נטה
+  '1572867': ראונדל תכלת
+  '1572868': ראונדל צהוב
+  '1572869': ראונדל ליים
+  '1572870': ראונדל ורוד
+  '1572871': ראונדל אפור
+  '1572872': ראונדל אפור בהיר
+  '1572873': ראונדל ציאן
+  '1572874': ראונדל סגול
+  '1572875': ראונדל כחול
+  '1572876': ראונדל חום
+  '1572877': ראונדל ירוק
+  '1572878': ראונדל אדום
+  '1572879': ראונדל שחור
+  '1638400': לוזנג' לבן
+  '1638401': לוזנג' כתום
+  '1638402': לוזנג' מג'נטה
+  '1638403': לוזנג' תכלת
+  '1638404': לוזנג' צהוב
+  '1638405': לוזנג' ליים
+  '1638406': לוזנג' ורוד
+  '1638407': לוזנג' אפור
+  '1638408': לוזנג' אפור בהיר
+  '1638409': לוזנג' ציאן
+  '1638410': לוזנג' סגול
+  '1638411': לוזנג' כחול
+  '1638412': לוזנג' חום
+  '1638413': לוזנג' ירוק
+  '1638414': לוזנג' אדום
+  '1638415': לוזנג' שחור
+  '1703936': מחולק בפאלה לבן
+  '1703937': מחולק בפאלה כתום
+  '1703938': מחולק בפאלה מג'נטה
+  '1703939': מחולק בפאלה תכלת
+  '1703940': מחולק בפאלה צהוב
+  '1703941': מחולק בפאלה ליים
+  '1703942': מחולק בפאלה ורוד
+  '1703943': מחולק בפאלה אפור
+  '1703944': מחולק בפאלה אפור בהיר
+  '1703945': מחולק בפאלה ציאן
+  '1703946': מחולק בפאלה סגול
+  '1703947': מחולק בפאלה כחול
+  '1703948': מחולק בפאלה חום
+  '1703949': מחולק בפאלה ירוק
+  '1703950': מחולק בפאלה אדום
+  '1703951': מחולק בפאלה שחור
+  '1769472': מחולק בפס לבן
+  '1769473': מחולק בפס כתום
+  '1769474': מחולק בפס מג'נטה
+  '1769475': מחולק בפס תכלת
+  '1769476': מחולק בפס צהוב
+  '1769477': מחולק בפס ליים
+  '1769478': מחולק בפס ורוד
+  '1769479': מחולק בפס אפור
+  '1769480': מחולק בפס אפור בהיר
+  '1769481': מחולק בפס ציאן
+  '1769482': מחולק בפס סגול
+  '1769483': מחולק בפס כחול
+  '1769484': מחולק בפס חום
+  '1769485': מחולק בפס ירוק
+  '1769486': מחולק בפס אדום
+  '1769487': מחולק בפס שחור
+  '1835008': מחולק בפאלה לבן הפוך
+  '1835009': מחולק בפאלה כתום הפוך
+  '1835010': מחולק בפאלה מג'נטה הפוך
+  '1835011': מחולק בפאלה תכלת הפוך
+  '1835012': מחולק בפאלה צהוב הפוך
+  '1835013': מחולק בפאלה ליים הפוך
+  '1835014': מחולק בפאלה ורוד הפוך
+  '1835015': מחולק בפאלה אפור הפוך
+  '1835016': מחולק בפאלה אפור בהיר הפוך
+  '1835017': מחולק בפאלה ציאן הפוך
+  '1835018': מחולק בפאלה סגול הפוך
+  '1835019': מחולק בפאלה כחול הפוך
+  '1835020': מחולק בפאלה חום הפוך
+  '1835021': מחולק בפאלה ירוק הפוך
+  '1835022': מחולק בפאלה אדום הפוך
+  '1835023': מחולק בפאלה שחור הפוך
+  '1900544': מחולק בפס לבן הפוך
+  '1900545': מחולק בפס כתום הפוך
+  '1900546': מחולק בפס מג'נטה הפוך
+  '1900547': מחולק בפס תכלת הפוך
+  '1900548': מחולק בפס צהוב הפוך
+  '1900549': מחולק בפס ליים הפוך
+  '1900550': מחולק בפס ורוד הפוך
+  '1900551': מחולק בפס אפור הפוך
+  '1900552': מחולק בפס אפור בהיר הפוך
+  '1900553': מחולק בפס ציאן הפוך
+  '1900554': פס חוצה תחתון סגול
+  '1900555': מחולק בפס כחול הפוך
+  '1900556': מחולק בפס חום הפוך
+  '1900557': מחולק בפס ירוק הפוך
+  '1900558': מחולק בפס אדום הפוך
+  '1900559': מחולק בפס שחור הפוך
+  '1966080': בורדור לבן
+  '1966081': בורדור כתום
+  '1966082': בורדור מג'נטה
+  '1966083': בורדור תכלת
+  '1966084': בורדור צהוב
+  '1966085': בורדור ליים
+  '1966086': בורדור ורוד
+  '1966087': בורדור אפור
+  '1966088': בורדור אפור בהיר
+  '1966089': בורדור ציאן
+  '1966090': בורדור סגול
+  '1966091': בורדור כחול
+  '1966092': בורדור חום
+  '1966093': בורדור ירוק
+  '1966094': בורדור אדום
+  '1966095': בורדור שחור
+  '2031616': בורדור לבן משונן
+  '2031617': בורדור כתום משונן
+  '2031618': בורדור מג'נטה משונן
+  '2031619': בורדור תכלת משונן
+  '2031620': בורדור צהוב משונן
+  '2031621': בורדור ליים משונן
+  '2031622': בורדור ורוד משונן
+  '2031623': בורדור אפור משונן
+  '2031624': בורדור אפור בהיר משונן
+  '2031625': בורדור ציאן משונן
+  '2031626': בורדור סגול משונן
+  '2031627': בורדור כחול משונן
+  '2031628': בורדור חום משונן
+  '2031629': בורדור ירוק משונן
+  '2031630': בורדור אדום משונן
+  '2031631': בורדור שחור משונן
+  '2097152': מטען קריפר לבן
+  '2097153': מטען קריפר כתום
+  '2097154': מטען קריפר מג'נטה
+  '2097155': מטען קריפר תכלת
+  '2097156': מטען קריפר צהוב
+  '2097157': מטען קריפר ליים
+  '2097158': מטען קריפר ורוד
+  '2097159': מטען קריפר אפור
+  '2097160': מטען קריפר אפור בהיר
+  '2097161': מטען קריפר ציאן
+  '2097162': מטען קריפר סגול
+  '2097163': מטען קריפר כחול
+  '2097164': מטען קריפר חום
+  '2097165': מטען קריפר ירוק
+  '2097166': מטען קריפר אדום
+  '2097167': מטען קריפר שחור
+  '2162688': לבן הדרגתי
+  '2162689': כתום הדרגתי
+  '2162690': מג'נטה הדרגתי
+  '2162691': תכלת הדרגתי
+  '2162692': צהוב הדרגתי
+  '2162693': ליים הדרגתי
+  '2162694': ורוד הדרגתי
+  '2162695': אפור הדרגתי
+  '2162696': אפור בהיר הדרגתי
+  '2162697': ציאן הדרגתי
+  '2162698': סגול הדרגתי
+  '2162699': כחול הדרגתי
+  '2162700': חום הדרגתי
+  '2162701': ירוק הדרגתי
+  '2162702': אדום הדרגתי
+  '2162703': שחור הדרגתי
+  '2228224': בסיס לבן הדרגתי
+  '2228225': בסיס כתום הדרגתי
+  '2228226': בסיס מג'נטה הדרגתי
+  '2228227': בסיס תכלת הדרגתי
+  '2228228': בסיס צהוב הדרגתי
+  '2228229': בסיס ליים הדרגתי
+  '2228230': בסיס ורוד הדרגתי
+  '2228231': בסיס אפור הדרגתי
+  '2228232': בסיס אפור בהיר הדרגתי
+  '2228233': בסיס ציאן הדרגתי
+  '2228234': בסיס סגול הדרגתי
+  '2228235': בסיס כחול הדרגתי
+  '2228236': בסיס חום הדרגתי
+  '2228237': בסיס ירוק הדרגתי
+  '2228238': בסיס אדום הדרגתי
+  '2228239': בסיס שחור הדרגתי
+  '2293760': שדה לבנים לבנות
+  '2293761': שדה לבנים כתומות
+  '2293762': שדה לבנים בצבע מג'נטה
+  '2293763': שדה לבנים בצבע תכלת
+  '2293764': שדה לבנים צהובות
+  '2293765': שדה לבנים בצבע ליים
+  '2293766': שדה לבנים ורודות
+  '2293767': שדה לבנים אפורות
+  '2293768': שדה לבנים בצבע אפור בהיר
+  '2293769': שדה לבנים בצבע ציאן
+  '2293770': שדה לבנים סגולות
+  '2293771': שדה לבנים כחולות
+  '2293772': שדה לבנים חומות
+  '2293773': שדה לבנים ירוקות
+  '2293774': שדה לבנים אדומות
+  '2293775': שדה לבנים שחורות
+  '2359296': מטען גולגולת לבנה
+  '2359297': מטען גולגולת כתומה
+  '2359298': גולגולת מג'נטה
+  '2359299': גולגולת תכלת
+  '2359300': מטען גולגולת צהובה
+  '2359301': מטען גולגולת ליים
+  '2359302': מטען גולגולת ורודה
+  '2359303': מטען גולגולת אפורה
+  '2359304': מטען גולגולת אפורה בהירה
+  '2359305': מטען גולגולת ציאן
+  '2359306': מטען גולגולת סגולה
+  '2359307': מטען גולגולת כחולה
+  '2359308': מטען גולגולת חומה
+  '2359309': מטען גולגולת ירוקה
+  '2359310': מטען גולגולת אדומה
+  '2359311': מטען גולגולת שחורה
+  '2424832': מטען פרח לבן
+  '2424833': מטען פרח כתום
+  '2424834': מטען פרח מג'נטה
+  '2424835': מטען פרח תכלת
+  '2424836': מטען פרח צהוב
+  '2424837': מטען פרח ליים
+  '2424838': מטען פרח ורוד
+  '2424839': מטען פרח אפור
+  '2424840': מטען פרח אפור בהיר
+  '2424841': מטען פרח ציאן
+  '2424842': מטען פרח סגול
+  '2424843': מטען פרח כחול
+  '2424844': מטען פרח חום
+  '2424845': מטען פרח ירוק
+  '2424846': מטען פרח אדום
+  '2424847': מטען פרח שחור
+  '2490368': סמל לבן
+  '2490369': סמל כתום
+  '2490370': סמל מג'נטה
+  '2490371': סמל תכלת
+  '2490372': סמל צהוב
+  '2490373': סמל ליים
+  '2490374': סמל ורוד
+  '2490375': סמל אפור
+  '2490376': סמל אפור בהיר
+  '2490377': סמל ציאן
+  '2490378': סמל סגול
+  '2490379': סמל כחול
+  '2490380': סמל חום
+  '2490381': סמל ירוק
+  '2490382': סמל אדום
+  '2490383': סמל שחור
+  '2555904': גלובוס לבן
+  '2555905': גלובוס כתום
+  '2555906': גלובוס מג'נטה
+  '2555907': גלובוס תכלת
+  '2555908': גלובוס צהוב
+  '2555909': גלובוס ליים
+  '2555910': גלובוס ורוד
+  '2555911': גלובוס אפור
+  '2555912': גלובוס אפור בהיר
+  '2555913': גלובוס טורקיז
+  '2555914': גלובוס סגול
+  '2555915': גלובוס כחול
+  '2555916': גלובוס חום
+  '2555917': גלובוס ירוק
+  '2555918': גלובוס אדום
+  '2555919': גלובוס שחור
+  '2621440': חוטם לבן
+  '2621441': חוטם כתום
+  '2621442': חוטם מג'נטה
+  '2621443': חוטם תכלת
+  '2621444': חוטם צהוב
+  '2621445': חוטם ליים
+  '2621446': חוטם ורוד
+  '2621447': חוטם אפור
+  '2621448': חוטם אפור בהיר
+  '2621449': חוטם ציאן
+  '2621450': חוטם סגול
+  '2621451': חוטם כחול
+  '2621452': חוטם חום
+  '2621453': חוטם ירוק
+  '2621454': חוטם אדום
+  '2621455': חוטם שחור
+merchant_level:
+  '1': טירון
+  '2': שוליה
+  '3': שכיר
+  '4': מומחה
+  '5': מאסטר
+villager_profession:
+  none: כפרי
+  armorer: נפח שריון
+  butcher: קצב
+  cartographer: מפאי
+  cleric: כומר
+  farmer: איכר
+  fisherman: דייג
+  fletcher: יצרן חצים
+  leatherworker: רצען
+  librarian: ספרן
+  mason: בנאי
+  nitwit: טמבל
+  shepherd: רועה צאן
+  toolsmith: נפח כלים
+  weaponsmith: נפח נשקים
+villager_career:
+  farmer: חקלאי
+  fisherman: דייג
+  shepherd: רועה צאן
+  fletcher: מוכר חצים
+  librarian: ספרן
+  cartographer: מפאי
+  cleric: כומר
+  armorer: נפח שריון
+  weapon_smith: נפח נשק
+  tool_smith: נפח כלים
+  butcher: קצב
+  leatherworker: רצען
+  nitwit: טמבל

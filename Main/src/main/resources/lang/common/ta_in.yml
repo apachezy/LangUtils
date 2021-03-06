@@ -1,0 +1,2178 @@
+# ####################################################
+# Build time: 2021-03-06 14:47:29                    #
+# ####################################################
+language:
+  code: ta_in
+  name: தமிழ்
+  region: இந்தியா
+material:
+  air: ஏர்
+  stone: கல்
+  granite: கிரானைட்
+  polished_granite: பளபளப்பான கிரானைட்
+  diorite: Diorite
+  polished_diorite: பளபளப்பான Diorite
+  andesite: அண்டிசைட்
+  polished_andesite: பளபளப்பான ஆண்டிசைட்
+  grass_block: குறுக்கு பிளாக்
+  dirt: டர்ட்
+  coarse_dirt: கரடுமுரடான அழுக்கு
+  podzol: Podzol
+  crimson_nylium: கிரிம்சன் நைலியம்
+  warped_nylium: வார்ப் நைலியம்
+  cobblestone: உருளைக்கல்
+  oak_planks: ஓக் பிளாங்க்ஸ்
+  spruce_planks: ஸ்ப்ரூஸ் ப்ளாங்க்கள்
+  birch_planks: பிர்ச் பிளாங்க்ஸ்
+  jungle_planks: ஜங்கிள் பிளாங்க்ஸ்
+  acacia_planks: அகாசி ப்ளான்ஸ்
+  dark_oak_planks: டார்க் ஓக் பிளாங்குகள்
+  crimson_planks: கிரிம்சன் பலகைகள்
+  warped_planks: திசைதிருப்பப்பட்ட பலகைகள்
+  oak_sapling: ஓக் சப்பாளி
+  spruce_sapling: ஸ்ப்ரெஸ் சந்தா
+  birch_sapling: பிர்ச் சப்பாளிங்
+  jungle_sapling: ஜங்கிள் சந்திப்பு
+  acacia_sapling: அகாசி சப்பாளி
+  dark_oak_sapling: டார்க் ஓக் சப்பாளி
+  bedrock: அடிநிலப்பாறை
+  sand: மணல்
+  red_sand: சிவப்பு மணல்
+  gravel: சரளை
+  gold_ore: தங்க ஓரே
+  iron_ore: இரும்பு தாது
+  coal_ore: நிலக்கரி ஓரே
+  nether_gold_ore: நேதர் தங்க தாது
+  oak_log: ஓக் பதிவு
+  spruce_log: ஸ்ப்ரூஸ் பதிவு
+  birch_log: பிர்ச் பதிவு
+  jungle_log: ஜங்கிள் பதிவு
+  acacia_log: அகாசியா பதிவு
+  dark_oak_log: டார்க் ஓக் புகுபதிகை
+  crimson_stem: கிரிம்சன் ஸ்டெம்
+  warped_stem: வார்ப் ஸ்டெம்
+  stripped_oak_log: ஸ்ட்ரெபிட் ஓக் லா
+  stripped_spruce_log: ஸ்ட்ரைப்ஸ் ஸ்ட்ரீப் பதிவு
+  stripped_birch_log: பிர்ச் பதிவு ஸ்ட்ரிப்ட்
+  stripped_jungle_log: ஜங்கிள் பதிவு இழுக்கப்பட்டது
+  stripped_acacia_log: அகாசியா பதிவை அகற்றினார்
+  stripped_dark_oak_log: ஸ்டிரிப்டு டார்க் ஓக் புகுபதிகை
+  stripped_crimson_stem: அகற்றப்பட்ட கிரிம்சன் ஸ்டெம்
+  stripped_warped_stem: அகற்றப்பட்ட வார்ப் ஸ்டெம்
+  stripped_oak_wood: ஓக் வுட் ஸ்ட்ரைப்ட்
+  stripped_spruce_wood: ஸ்ட்ரைப்ஸ் ஸ்ப்ரூஸ் வூட்
+  stripped_birch_wood: பிர்ச் வூட் ஸ்ட்ரிப்ட்
+  stripped_jungle_wood: ஜங்கிள் வூட் ஸ்ட்ரைப்ஸ்
+  stripped_acacia_wood: அக்ஸா வூட் ஸ்ட்ரிப்ட்
+  stripped_dark_oak_wood: ஸ்ட்ரிப்ட் டார்க் ஓக் வூட்
+  stripped_crimson_hyphae: அகற்றப்பட்ட கிரிம்சன் ஹைஃபே
+  stripped_warped_hyphae: அகற்றப்பட்ட வார்ப் ஹைஃபே
+  oak_wood: கருவாலி மரம்
+  spruce_wood: ஸ்ப்ரூ வூட்
+  birch_wood: பிர்ச் மரம்
+  jungle_wood: ஜங்கிள் வூட்
+  acacia_wood: அகாசி வூட்
+  dark_oak_wood: டார்க் ஓக் வூட்
+  crimson_hyphae: கிரிம்சன் ஹைஃபே
+  warped_hyphae: வார்ப்பட் ஹைஃபே
+  oak_leaves: ஓக் இலைகள்
+  spruce_leaves: ஸ்ப்ரூஸ் இலைகள்
+  birch_leaves: பிர்ச் இலைகள்
+  jungle_leaves: ஜங்கிள் இலைகள்
+  acacia_leaves: அகாசி இலைகள்
+  dark_oak_leaves: டார்க் ஓக் இலைகள்
+  sponge: கடற்பாசி
+  wet_sponge: வெட் கடற்பாசி
+  glass: கண்ணாடி
+  lapis_ore: லாபீஸ் லஸுலி ஓரே
+  lapis_block: லேபிஸ் லாஜூலி பிளாக்
+  dispenser: வழங்கு
+  sandstone: மணற்கல்
+  chiseled_sandstone: சிஸ்டெல் சாண்ட்ஸ்டோன்
+  cut_sandstone: வெட்டு மணல்
+  note_block: குறிப்பு தடு
+  powered_rail: திருத்தினோம் ரயில்
+  detector_rail: கண்டறிதல் ரயில்
+  sticky_piston: ஒட்டும் பிஸ்டன்
+  cobweb: கோப்வெப்
+  grass: புல்
+  fern: பன்னம்
+  dead_bush: டெட் புஷ்
+  seagrass: கடல் புல்
+  sea_pickle: கடல் பிகில்
+  piston: பிஸ்டன்
+  white_wool: வெள்ளை கம்பளி
+  orange_wool: ஆரஞ்சு கம்பளி
+  magenta_wool: மெஜந்தா கம்பளி
+  light_blue_wool: லைட் ப்ளூ கம்பளி
+  yellow_wool: மஞ்சள் கம்பளி
+  lime_wool: சுண்ணாம்பு கம்பளி
+  pink_wool: பிங்க் கம்பளி
+  gray_wool: சாம்பல் கம்பளி
+  light_gray_wool: ஒளி சாம்பல் கம்பளி
+  cyan_wool: சியான் கம்பளி
+  purple_wool: ஊதா வூல்
+  blue_wool: ப்ளூ கம்பளி
+  brown_wool: பிரவுன் கம்பளி
+  green_wool: பச்சை கம்பளி
+  red_wool: சிவப்பு கம்பளி
+  black_wool: கருப்பு கம்பளி
+  dandelion: டேன்டேலியன்
+  poppy: பாப்பி
+  blue_orchid: ப்ளூ ஆர்ச்சிட்
+  allium: அல்லியம்
+  azure_bluet: அசோர் ப்ளூட்
+  red_tulip: சிவப்பு துலிப்
+  orange_tulip: ஆரஞ்சு துலிப்
+  white_tulip: வெள்ளை துலிப்
+  pink_tulip: பிங்க் துலிப்
+  oxeye_daisy: ஒக்ஸே டெய்ஸி
+  cornflower: கான்ஃபிளவர்
+  lily_of_the_valley: பள்ளத்தாக்கு லில்லி
+  wither_rose: வாட் ரோஸ்
+  brown_mushroom: பிரவுன் காளான்
+  red_mushroom: சிவப்பு காளான்
+  crimson_fungus: கிரிம்சன் பூஞ்சை
+  warped_fungus: வார்ப்பட் பூஞ்சை
+  crimson_roots: கிரிம்சன் ரூட்ஸ்
+  warped_roots: திசைதிருப்பப்பட்ட வேர்கள்
+  nether_sprouts: நேதர் முளைகள்
+  weeping_vines: அழுகிற கொடிகள்
+  twisting_vines: முறுக்கு கொடிகள்
+  sugar_cane: கரும்பு
+  kelp: கெல்ப்
+  bamboo: மூங்கில்
+  gold_block: தங்கம் பிளாக்
+  iron_block: இரும்புத் தொகுதி
+  oak_slab: ஓக் ஸ்லாப்
+  spruce_slab: ஸ்ப்ரூஸ் ஸ்லாப்
+  birch_slab: பிர்ச் ஸ்லாப்
+  jungle_slab: ஜங்கிள் ஸ்லாப்
+  acacia_slab: அகாசியா ஸ்லாப்
+  dark_oak_slab: டார்க் ஓக் ஸ்லாப்
+  crimson_slab: கிரிம்சன் ஸ்லாப்
+  warped_slab: வார்ப் ஸ்லாப்
+  stone_slab: ஸ்டோன் ஸ்லாப்
+  smooth_stone_slab: மென்மையான ஸ்டோன் ஸ்லாப்
+  sandstone_slab: சாண்ட்ஸ்டோன் ஸ்லாப்
+  cut_sandstone_slab: சாண்ட்ஸ்டோன் ஸ்லாப் வெட்டு
+  petrified_oak_slab: பேபிஃபிட் ஓக் ஸ்லாப்
+  cobblestone_slab: கோபல்ஸ்டோன் ஸ்லாப்
+  brick_slab: செங்கல் ஸ்லாப்
+  stone_brick_slab: ஸ்டோன் பிரிக் ஸ்லாப்
+  nether_brick_slab: நெதர் ப்ரிக் ஸ்லாப்
+  quartz_slab: குவார்ட்ஸ் ஸ்லாப்
+  red_sandstone_slab: ரெட் சாண்ட்ஸ்டோன் ஸ்லாப்
+  cut_red_sandstone_slab: சிவப்பு மணற்கல் கல்லின் அடி
+  purpur_slab: புர்பூர் ஸ்லாப்
+  prismarine_slab: ப்ரிஸ்மரைன் ஸ்லாப்
+  prismarine_brick_slab: பிரைசரைன் பிரிக் ஸ்லாப்
+  dark_prismarine_slab: டார்க் பிரைசரைன் ஸ்லாப்
+  smooth_quartz: மென்மையான குவார்ட்ஸ் தொகுதி
+  smooth_red_sandstone: மென்மையான சிவப்பு மணற்கல்
+  smooth_sandstone: மென்மையான மணல்
+  smooth_stone: மென்மையான கல்
+  bricks: செங்கல்கள்
+  tnt: டிஎன்டி
+  bookshelf: புக்செல்ஃப்
+  mossy_cobblestone: மோஸ்ஸி உருளைக்கல்
+  obsidian: ஒபசிடியன் ஸ்டோன்
+  torch: ஜோதி
+  end_rod: முடிவு ராட்
+  chorus_plant: கோரஸ் ஆலை
+  chorus_flower: கோரஸ் ப்ளூ
+  purpur_block: புர்பூர் பிளாக்
+  purpur_pillar: புர்பூர் தூண்
+  purpur_stairs: புருபூர் மாடி
+  spawner: ஸ்பான்
+  oak_stairs: ஓக் மாடி
+  chest: மார்பு
+  diamond_ore: டயமண்ட் ஓரே
+  diamond_block: டயமண்ட் பிளாக்
+  crafting_table: கைவினை அட்டவணை
+  farmland: விவசாய நிலத்தை
+  furnace: சூளை
+  ladder: லேடர்
+  rail: ரயில்
+  cobblestone_stairs: கோபல்ஸ்டோன் மாடிகளில்
+  lever: லீவர்
+  stone_pressure_plate: கல் அழுத்தம் தட்டு
+  oak_pressure_plate: ஓக் அழுத்தம் தட்டு
+  spruce_pressure_plate: ஸ்ப்ரூஸ் அழுத்தம் தட்டு
+  birch_pressure_plate: பிர்ச் அழுத்தம் தட்டு
+  jungle_pressure_plate: ஜங்கிள் அழுத்தம் தட்டு
+  acacia_pressure_plate: அக்ஸாரியா அழுத்தம் தட்டு
+  dark_oak_pressure_plate: டார்க் ஓக் அழுத்தம் தட்டு
+  crimson_pressure_plate: கிரிம்சன் பிரஷர் பிளேட்
+  warped_pressure_plate: வார்ப் பிரஷர் பிளேட்
+  polished_blackstone_pressure_plate: மெருகூட்டப்பட்ட பிளாக்ஸ்டோன் பிரஷர் பிளேட்
+  redstone_ore: ரெட்ஸ்டோன் ஓரே
+  redstone_torch: ரெட்ஸ்டோன் டார்ச்
+  snow: ஸ்னோ
+  ice: ஐஸ்
+  snow_block: பனி தடுப்பு
+  cactus: கற்றாழை
+  clay: களிமண்
+  jukebox: ஜூக்பாக்ஸ்
+  oak_fence: ஓக் ஃபென்ஸ்
+  spruce_fence: ஸ்ப்ரூஸ் ஃபென்ஸ்
+  birch_fence: பிர்ச் வேலி
+  jungle_fence: ஜங்கிள் வேலி
+  acacia_fence: அகாசி வேலி
+  dark_oak_fence: டார்க் ஓக் ஃபென்ஸ்
+  crimson_fence: கிரிம்சன் வேலி
+  warped_fence: திசைதிருப்பப்பட்ட வேலி
+  pumpkin: பூசணிக்காய்
+  carved_pumpkin: செதுக்கப்பட்ட பூசணி
+  netherrack: நரகத்தின் பாறை
+  soul_sand: சோல் மணல்
+  soul_soil: ஆத்மா மண்
+  basalt: பசால்ட்
+  polished_basalt: பளபளப்பான கருங்கல்
+  soul_torch: சோல் டார்ச்
+  glowstone: ஒளி கல்
+  jack_o_lantern: ஜாக் ஓ'லாந்தர்ன்
+  oak_trapdoor: ஓக் ட்ராபர்டு
+  spruce_trapdoor: ஸ்ப்ரூஸ் ட்ராபர்டு
+  birch_trapdoor: பிர்ச் டிராபூர்
+  jungle_trapdoor: ஜங்கிள் டிராபூர்
+  acacia_trapdoor: அகாசியா ட்ராபர்டு
+  dark_oak_trapdoor: டார்க் ஓக் ட்ராபர்டு
+  crimson_trapdoor: கிரிம்சன் டிராப்டூர்
+  warped_trapdoor: வார்ப் டிராப்டோர்
+  infested_stone: இன்ஸ்டஸ்ட் ஸ்டோன்
+  infested_cobblestone: பாதிக்கப்பட்ட உருளைக்கல்
+  infested_stone_bricks: இன்ஸ்ட்டெட் ஸ்டோன் பிரிக்ஸ்
+  infested_mossy_stone_bricks: பாதிக்கப்பட்ட மோஸ்ஸி கல் செங்கல்கள்
+  infested_cracked_stone_bricks: உள்ளார்ந்த கிராக் ஸ்டோன் பிரிக்ஸ்
+  infested_chiseled_stone_bricks: உட்செலுத்தப்பட்ட கல் வெட்டப்பட்ட செங்கற்கள்
+  stone_bricks: கல் செங்கல்கள்
+  mossy_stone_bricks: மோசி ஸ்டோன் பிரிக்ஸ்
+  cracked_stone_bricks: கிராக் ஸ்டோன் பிரிக்ஸ்
+  chiseled_stone_bricks: சிசிடல் ஸ்டோன் பிரிக்ஸ்
+  brown_mushroom_block: பிரவுன் காளான் பிளாக்
+  red_mushroom_block: சிவப்பு மஷ்ரூம் பிளாக்
+  mushroom_stem: காளான் தண்டு
+  iron_bars: இரும்பு பார்கள்
+  chain: செயின்
+  glass_pane: கண்ணாடி பேன்
+  melon: முலாம்பழம்
+  vine: கொடிகள்
+  oak_fence_gate: ஓக் வேலி கேட்
+  spruce_fence_gate: ஸ்ப்ரூஸ் வேலி கேட்
+  birch_fence_gate: பிர்ச் வேலி கேட்
+  jungle_fence_gate: ஜங்கிள் ஃபென்ஸ் கேட்
+  acacia_fence_gate: அகாசி வேலி நுழைவாயில்
+  dark_oak_fence_gate: டார்க் ஓக் வேலி கேட்
+  crimson_fence_gate: கிரிம்சன் வேலி வாயில்
+  warped_fence_gate: திசைதிருப்பப்பட்ட வேலி வாயில்
+  brick_stairs: செங்கல் மாடி
+  stone_brick_stairs: கல் செங்கல் மாடி
+  mycelium: பூசண
+  lily_pad: லில்லி பேட்
+  nether_bricks: நெதர்லாந்து பிரிக்ஸ்
+  cracked_nether_bricks: கிராக் செய்யப்பட்ட நேதர் செங்கற்கள்
+  chiseled_nether_bricks: வெட்டப்பட்ட நேதர் செங்கற்கள்
+  nether_brick_fence: நெதர்லாந்து செங்கல் வேலி
+  nether_brick_stairs: நெதர்லாந்து செங்கல் மாடி
+  enchanting_table: மயக்கும் அட்டவணை
+  end_portal_frame: இறுதி வலைத் தளம்
+  end_stone: முடிவு கல்
+  end_stone_bricks: முடிவு கல் செங்கல்கள்
+  dragon_egg: டிராகன் முட்டை
+  redstone_lamp: ரெட்ஸ்டோன் லேம்ப்
+  sandstone_stairs: மணல் மாடி
+  emerald_ore: எமரால்டு தாது
+  ender_chest: எண்டர் செஸ்ட்
+  tripwire_hook: ட்ரிப்வைர் ஹூக்
+  emerald_block: எமரால்டு தடுப்பு
+  spruce_stairs: ஸ்ப்ரூஸ் மாடிகளில்
+  birch_stairs: பிர்ச் படிக்கட்டுகள்
+  jungle_stairs: ஜங்கிள் மாடி
+  crimson_stairs: கிரிம்சன் படிக்கட்டுகள்
+  warped_stairs: திசைதிருப்பப்பட்ட படிக்கட்டுகள்
+  command_block: கட்டளைத் தொகுதி
+  beacon: பெக்கான்
+  cobblestone_wall: கோபல்ஸ்டோன் வோல்
+  mossy_cobblestone_wall: மோஸி கோப்ஸ்டோன் சுவர்
+  brick_wall: செங்கல் சுவர்
+  prismarine_wall: ப்ரிஸ்ரைன் வால்
+  red_sandstone_wall: சிவப்பு மணற்கல் சுவர்
+  mossy_stone_brick_wall: மோசி ஸ்டோன் செங்கல் சுவர்
+  granite_wall: கிரானைட் வால்
+  stone_brick_wall: கல் செங்கல் சுவர்
+  nether_brick_wall: நெதர்லாந்து செங்கல் சுவர்
+  andesite_wall: ஆண்டிசைட் வால்
+  red_nether_brick_wall: சிவப்பு செங்கல் சுவர்
+  sandstone_wall: மணல் வால்
+  end_stone_brick_wall: முடிவு கல் செங்கல் சுவர்
+  diorite_wall: தியரிட் வோல்
+  blackstone_wall: கருப்புக்கல் சுவர்
+  polished_blackstone_wall: மெருகூட்டப்பட்ட பிளாக்ஸ்டோன் சுவர்
+  polished_blackstone_brick_wall: மெருகேற்றப்பட்ட கருப்புக்கல் செங்கல் சுவர்
+  stone_button: ஸ்டோன் பட்டன்
+  oak_button: ஓக் பட்டன்
+  spruce_button: ஸ்ப்ரூஸ் பட்டன்
+  birch_button: பிர்ச் பட்டன்
+  jungle_button: ஜங்கிள் பட்டன்
+  acacia_button: அகாசி பட்டன்
+  dark_oak_button: டார்க் ஓக் பட்டன்
+  crimson_button: கிரிம்சன் பட்டன்
+  warped_button: வார்ப்பட் பட்டன்
+  polished_blackstone_button: மெருகூட்டப்பட்ட பிளாக்ஸ்டோன் பொத்தான்
+  anvil: பட்டறை
+  chipped_anvil: முட்டாள் அன்வில்
+  damaged_anvil: சேதமடைந்த அன்வில்
+  trapped_chest: சிக்கிய மார்பு
+  light_weighted_pressure_plate: லேசான எடை கொண்ட அழுத்தம் தட்டு
+  heavy_weighted_pressure_plate: கனரக எடை அழுத்த அழுத்தம்
+  daylight_detector: பகல் கண்டறிதல்
+  redstone_block: சிவப்பு கல் தொகுதி
+  nether_quartz_ore: நெதர்லாந்தின் குவார்ட்ஸ்
+  hopper: ஹாப்பர்
+  chiseled_quartz_block: சிசல்ட் குவார்ட்ஸ் பிளாக்
+  quartz_block: குவார்ட்ஸ் பிளாக்
+  quartz_bricks: குவார்ட்ஸ் செங்கற்கள்
+  quartz_pillar: குவார்ட்ஸ் தூண்
+  quartz_stairs: குவார்ட்ஸ் படிக்கட்டுகள்
+  activator_rail: செயல்பாட்டாளர் ரயில்
+  dropper: துளிசொட்டி
+  white_terracotta: வெள்ளை டெர்ராகோட்டா
+  orange_terracotta: ஆரஞ்சு டெர்ராகோட்டா
+  magenta_terracotta: மெஜந்த டெர்ராகோட்டா
+  light_blue_terracotta: ஒளி ப்ளூ டெர்ராகோட்டா
+  yellow_terracotta: மஞ்சள் டெர்ராகோட்டா
+  lime_terracotta: எலுமிச்சை டெர்ராகோட்டா
+  pink_terracotta: பிங்க் டெர்ராகோட்டா
+  gray_terracotta: சாம்பல் டெர்ராகோட்டா
+  light_gray_terracotta: ஒளி சாம்பல் டெர்ராகோட்டா
+  cyan_terracotta: சியான் டெர்ராகோட்டா
+  purple_terracotta: ஊதா டெர்ராகோட்டா
+  blue_terracotta: ப்ளூ டெர்ராகோட்டா
+  brown_terracotta: பிரவுன் டெர்ராகோட்டா
+  green_terracotta: பச்சை டெர்ராகோட்டா
+  red_terracotta: ரெட் டெர்ரகோட்டா
+  black_terracotta: கருப்பு டெர்ரகோட்டா
+  barrier: தடை
+  iron_trapdoor: அயன் ட்ராபர்டு
+  hay_block: ஹே பேல்
+  white_carpet: வெள்ளை கம்பளம்
+  orange_carpet: ஆரஞ்சு கார்பெட்
+  magenta_carpet: மெஜந்தா கார்பெட்
+  light_blue_carpet: லைட் ப்ளூ கார்பெட்
+  yellow_carpet: மஞ்சள் கம்பளம்
+  lime_carpet: சுண்ணாம்பு கம்பளம்
+  pink_carpet: பிங்க் கார்பெட்
+  gray_carpet: சாம்பல் கம்பளம்
+  light_gray_carpet: ஒளி சாம்பல் கம்பளம்
+  cyan_carpet: சியான் கார்பெட்
+  purple_carpet: ஊதா நிற கம்பளம்
+  blue_carpet: ப்ளூ கார்பெட்
+  brown_carpet: பிரவுன் கார்பெட்
+  green_carpet: பச்சை கம்பளம்
+  red_carpet: சிவப்பு கம்பளம்
+  black_carpet: பிளாக் கார்பெட்
+  terracotta: சிவப்பாய்
+  coal_block: நிலக்கரி பிளாக்
+  packed_ice: பேக் ஐஸ்
+  acacia_stairs: அகாசி ஸ்டேர்ஸ்
+  dark_oak_stairs: டார்க் ஓக் மாடி
+  slime_block: மெல்லிய பிளாக்
+  grass_path: புல் பாத்
+  sunflower: சூரியகாந்தி
+  lilac: இளஞ்சிவப்பு
+  rose_bush: ரோஸ் புஷ்
+  peony: பியோனி
+  tall_grass: உயரமான புல்
+  large_fern: பெரிய பெர்ன்
+  white_stained_glass: வெள்ளை கறை படிந்த கண்ணாடி
+  orange_stained_glass: ஆரஞ்சு கறை படிந்த கண்ணாடி
+  magenta_stained_glass: மெஜந்தா கறை படிந்த கண்ணாடி
+  light_blue_stained_glass: ஒளி நீல கறை படிந்த கண்ணாடி
+  yellow_stained_glass: மஞ்சள் கறை படிந்த கண்ணாடி
+  lime_stained_glass: எலுமிச்சை கறை படிந்த கண்ணாடி
+  pink_stained_glass: பிங்க் கறை படிந்த கண்ணாடி
+  gray_stained_glass: சாம்பல் நிற கண்ணாடி
+  light_gray_stained_glass: ஒளி சாம்பல் நிற கண்ணாடி
+  cyan_stained_glass: சியான் கறை படிந்த கண்ணாடி
+  purple_stained_glass: ஊதா கறை படிந்த கண்ணாடி
+  blue_stained_glass: நீல கறை படிந்த கண்ணாடி
+  brown_stained_glass: பிரவுன் கறை படிந்த கண்ணாடி
+  green_stained_glass: பசுமை கறை படிந்த கண்ணாடி
+  red_stained_glass: சிவப்பு நிற கண்ணாடி
+  black_stained_glass: பிளாக் கறைபடிந்த கண்ணாடி
+  white_stained_glass_pane: வெள்ளை கறை படிந்த கண்ணாடி தகடு
+  orange_stained_glass_pane: ஆரஞ்சு படிந்த கண்ணாடி தகடு
+  magenta_stained_glass_pane: மெஜந்தா படிந்த கண்ணாடி பேன்
+  light_blue_stained_glass_pane: லைட் ப்ளூ ஸ்டேன்ட் கண்ணாடி பேன்
+  yellow_stained_glass_pane: மஞ்சள் படிந்த கண்ணாடி பேன்
+  lime_stained_glass_pane: சுண்ணாம்பு படிந்த கண்ணாடி தகடு
+  pink_stained_glass_pane: பிங்க் கறைபடிந்த கண்ணாடி தகடு
+  gray_stained_glass_pane: சாம்பல் நிற கண்ணாடி கண்ணாடி
+  light_gray_stained_glass_pane: லைட் கிரே ஸ்டைண்ட்டு கண்ணாடி பேன்
+  cyan_stained_glass_pane: சியான் படிந்த கண்ணாடி பேன்
+  purple_stained_glass_pane: ஊதா படிந்த கண்ணாடி பேன்
+  blue_stained_glass_pane: நீல நிற கண்ணாடி கண்ணாடி
+  brown_stained_glass_pane: பிரவுன் கறை படிந்த கண்ணாடி தகடு
+  green_stained_glass_pane: பசுமை படிந்த கண்ணாடி தகடு
+  red_stained_glass_pane: சிவப்பு நிற கண்ணாடி கண்ணாடி
+  black_stained_glass_pane: பிளாக் ஸ்டென்னை கண்ணாடி பேன்
+  prismarine: ப்ரிஸ்டார்ன்
+  prismarine_bricks: ப்ரிஸ்டார்ன் பிரிக்ஸ்
+  dark_prismarine: டார்க் பிரைசரைன்
+  prismarine_stairs: ப்ரீஸ்மரைன் மாடி
+  prismarine_brick_stairs: பிரைசரைன் செங்கல் மாடி
+  dark_prismarine_stairs: டார்க் பிரைசரைன் மாடிப்படி
+  sea_lantern: கடல் விளக்கு
+  red_sandstone: சிவப்பு மணற்கல்
+  chiseled_red_sandstone: சிவப்பு மணற்கல்
+  cut_red_sandstone: சிவப்பு மணற்கல் வெட்டு
+  red_sandstone_stairs: சிவப்பு மணற்கல் மாடி
+  repeating_command_block: கட்டளை தொகுதி மீண்டும் மீண்டும்
+  chain_command_block: சங்கிலி கட்டளைத் தொகுதி
+  magma_block: மாக்மா பிளாக்
+  nether_wart_block: நெதர் வொர்க் பிளாக்
+  warped_wart_block: வார்ப் வார்ட் பிளாக்
+  red_nether_bricks: ரெட் நெதர் பிரிக்ஸ்
+  bone_block: எலும்பு பிளாக்
+  structure_void: அமைப்பு வெற்றிடத்தை
+  observer: அப்சர்வர்
+  shulker_box: ஷுல்கர் பெட்டி
+  white_shulker_box: வெள்ளை ஷுல்கர் பெட்டி
+  orange_shulker_box: ஆரஞ்சு ஷூல்கர் பெட்டி
+  magenta_shulker_box: மெஜந்த ஷுல்கர் பெட்டி
+  light_blue_shulker_box: லைட் ப்ளூ ஷுல்கர் பாக்ஸ்
+  yellow_shulker_box: மஞ்சள் ஷல்கர் பெட்டி
+  lime_shulker_box: சுண்ணாம்பு சுருள் பெட்டி
+  pink_shulker_box: பிங்க் ஷுல்கர் பெட்டி
+  gray_shulker_box: சாம்பல் ஷுல்கர் பெட்டி
+  light_gray_shulker_box: ஒளி சாம்பல் ஷுல்கர் பெட்டி
+  cyan_shulker_box: சியான் ஷுல்கர் பெட்டி
+  purple_shulker_box: ஊதா ஷூல்கர் பெட்டி
+  blue_shulker_box: ப்ளூ ஷுல்கர் பெட்டி
+  brown_shulker_box: பிரவுன் ஷுல்கர் பெட்டி
+  green_shulker_box: பச்சை ஷூல்கர் பெட்டி
+  red_shulker_box: சிவப்பு ஷெல்கர் பெட்டி
+  black_shulker_box: பிளாக் ஷுல்கர் பெட்டி
+  white_glazed_terracotta: வெள்ளை பளபளப்பான டெர்ராகோட்டா
+  orange_glazed_terracotta: ஆரஞ்சு பளபளப்பான டெர்ராகோட்டா
+  magenta_glazed_terracotta: மெஜந்தா பளபளப்பான டெர்ராகோட்டா
+  light_blue_glazed_terracotta: லைட் ப்ளூ பளபளப்பான டெர்ராகோட்டா
+  yellow_glazed_terracotta: மஞ்சள் பளபளப்பான டெர்ராகோட்டா
+  lime_glazed_terracotta: சுண்ணாம்பு பளபளப்பான டெர்ராக்கோட்டா
+  pink_glazed_terracotta: பிங்க் மெழுகுவர்த்தி டெர்ராகோட்டா
+  gray_glazed_terracotta: சாம்பல் பளபளப்பான டெர்ராகோட்டா
+  light_gray_glazed_terracotta: லைட் சாம்பல் பளபளப்பான டெர்ராக்கோட்டா
+  cyan_glazed_terracotta: சியான் கிளேசட் டெர்ராகோட்டா
+  purple_glazed_terracotta: ஊதா மெழுகுவர்த்தி டெர்ராகோட்டா
+  blue_glazed_terracotta: நீல மெருகூட்டப்பட்ட டெர்ராக்கோட்டா
+  brown_glazed_terracotta: நீல மெருகூட்டப்பட்ட டெர்ராக்கோட்டா
+  green_glazed_terracotta: பச்சை மெருகூட்டப்பட்ட டெர்ராக்கோட்டா
+  red_glazed_terracotta: சிவப்பு மெருகூட்டப்பட்ட டெர்ராக்கோட்டா
+  black_glazed_terracotta: கருப்பு மெருகூட்டப்பட்ட டெர்ராக்கோட்டா
+  white_concrete: வெள்ளை கான்கிரீட்
+  orange_concrete: ஆரஞ்சு கான்கிரீட்
+  magenta_concrete: மெஜந்தா கான்கிரீட்
+  light_blue_concrete: ஒளி ப்ளூ கான்கிரீட்
+  yellow_concrete: மஞ்சள் கான்கிரீட்
+  lime_concrete: எலுமிச்சை கான்கிரீட்
+  pink_concrete: பிங்க் கான்கிரீட்
+  gray_concrete: சாம்பல் கான்கிரீட்
+  light_gray_concrete: ஒளி சாம்பல் கான்கிரீட்
+  cyan_concrete: சயன் கான்கிரீட்
+  purple_concrete: ஊதா கான்கிரீட்
+  blue_concrete: ப்ளூ கான்கிரீட்
+  brown_concrete: பிரவுன் கான்கிரீட்
+  green_concrete: பச்சை கான்கிரீட்
+  red_concrete: சிவப்பு கான்கிரீட்
+  black_concrete: கருப்பு கான்கிரீட்
+  white_concrete_powder: வெள்ளை கான்கிரீட் தூள்
+  orange_concrete_powder: ஆரஞ்சு கான்கிரீட் தூள்
+  magenta_concrete_powder: மெஜந்தா கான்கிரீட் தூள்
+  light_blue_concrete_powder: லைட் ப்ளூ கான்கிரீட் தூள்
+  yellow_concrete_powder: மஞ்சள் கான்கிரீட் தூள்
+  lime_concrete_powder: சுண்ணாம்பு கான்கிரீட் தூள்
+  pink_concrete_powder: பிங்க் கான்கிரீட் தூள்
+  gray_concrete_powder: சாம்பல் கான்கிரீட் தூள்
+  light_gray_concrete_powder: ஒளி சாம்பல் கான்கிரீட் தூள்
+  cyan_concrete_powder: சியான் கான்கிரீட் தூள்
+  purple_concrete_powder: ஊதா கான்கிரீட் தூள்
+  blue_concrete_powder: நீல கான்கிரீட் தூள்
+  brown_concrete_powder: பிரவுன் கான்கிரீட் தூள்
+  green_concrete_powder: பச்சை கான்கிரீட் தூள்
+  red_concrete_powder: சிவப்பு கான்கிரீட் தூள்
+  black_concrete_powder: கருப்பு கான்கிரீட் தூள்
+  turtle_egg: ஆமை முட்டை
+  dead_tube_coral_block: டெட் குழாய் கோரல் பிளாக்
+  dead_brain_coral_block: இறந்த மூளை கோரல் பிளாக்
+  dead_bubble_coral_block: இறந்த குமிழ் கோரல் பிளாக்
+  dead_fire_coral_block: டெட் ஃபயர் கோரல் பிளாக்
+  dead_horn_coral_block: டெட் ஹார்ன் கொரல் பிளாக்
+  tube_coral_block: குழாய் கோரல் பிளாக்
+  brain_coral_block: மூளை கோரல் பிளாக்
+  bubble_coral_block: பபுள் கோரல் பிளாக்
+  fire_coral_block: தீ கோரல் பிளாக்
+  horn_coral_block: ஹார்ன் கோரல் பிளாக்
+  tube_coral: குழாய் பவள
+  brain_coral: மூளை கோரல்
+  bubble_coral: பபுள் கோரல்
+  fire_coral: தீ கோரல்
+  horn_coral: ஹார்ன் கோரல்
+  dead_brain_coral: இறந்த மூளை கோரல்
+  dead_bubble_coral: இறந்த குமிழ் கோரல்
+  dead_fire_coral: டெட் ஃபயர் கோரல்
+  dead_horn_coral: டெட் ஹார்ன் கோரல்
+  dead_tube_coral: டெட் குழாய் கோரல்
+  tube_coral_fan: குழி பவள ஃபேன்
+  brain_coral_fan: மூளை பவள ரசிகர்
+  bubble_coral_fan: பப்பில் கோரல் ரசிகன்
+  fire_coral_fan: தீ கோரல் ரசிகன்
+  horn_coral_fan: ஹார்ன் கோரல் ரசிகன்
+  dead_tube_coral_fan: டெட் குழாய் கோரல் ரசிகன்
+  dead_brain_coral_fan: இறந்த மூளை கோரல் ரசிகன்
+  dead_bubble_coral_fan: இறந்த பபுள் கோரல் ரசிகன்
+  dead_fire_coral_fan: டெட் தீ கோரல் ஃபேன்
+  dead_horn_coral_fan: டெட் ஹார்ன் கோரல் ரசிகன்
+  blue_ice: ப்ளூ ஐஸ்
+  conduit: கால்வாய்
+  polished_granite_stairs: பளபளப்பான கிரானைட் படிக்கட்டுகள்
+  smooth_red_sandstone_stairs: மென்மையான சிவப்பு மணற்கல் மாடி
+  mossy_stone_brick_stairs: மோஸ்ஸி கல் செங்கல் மாடிப்படி
+  polished_diorite_stairs: பளபளப்பான டியோசடங்குடன் படிகள்
+  mossy_cobblestone_stairs: மோஸ்ஸி உருளைக்கல் மாடிப்படி
+  end_stone_brick_stairs: முடிவு கல் செங்கல் மாடி
+  stone_stairs: கல் மாடி
+  smooth_sandstone_stairs: மென்மையான மணற்கல் மாடி
+  smooth_quartz_stairs: மென்மையான குவார்ட்ஸ் மாடிகளில்
+  granite_stairs: கிரானைட் படிக்கட்டுகள்
+  andesite_stairs: ஆண்டிசைட் படிக்கட்டுகள்
+  red_nether_brick_stairs: ரெட் நெதர் செங்கல் மாடி
+  polished_andesite_stairs: பளபளப்பான ஆன்டிசைட் படிக்கட்டுகள்
+  diorite_stairs: கிரானைட் படிக்கட்டுகள்
+  polished_granite_slab: பளபளப்பான கிரானைட் ஸ்லாப்
+  smooth_red_sandstone_slab: மென்மையான சிவப்பு மணற்கல் மாடி
+  mossy_stone_brick_slab: மோசி ஸ்டோன் பிரிக் ஸ்லாப்
+  polished_diorite_slab: பளபளப்பான Diorite ஸ்லாப்
+  mossy_cobblestone_slab: மோஸ்ஸி உருளைக்கல் ஸ்லாப்
+  end_stone_brick_slab: முடிவு கல் செங்கல் ஸ்லாப்
+  smooth_sandstone_slab: மென்மையான மணல் ஸ்டாப்
+  smooth_quartz_slab: மென்மையான குவார்ட்ஸ் ஸ்லாப்
+  granite_slab: கிரானைட் ஸ்லாப்
+  andesite_slab: ஆண்டிசைட் ஸ்லாப்
+  red_nether_brick_slab: ரெட் நெதர் ப்ரிக் ஸ்லாப்
+  polished_andesite_slab: பளபளப்பான ஆன்டிசைட் ஸ்லாப்
+  diorite_slab: தியரிட் ஸ்லாப்
+  scaffolding: சாரக்கட்டு
+  iron_door: இரும்பு கதவு
+  oak_door: ஓக் கதவு
+  spruce_door: ஸ்ப்ரூஸ் கதவு
+  birch_door: பிர்ச் டோர்
+  jungle_door: ஜங்கிள் கதவு
+  acacia_door: அகாசியா கதவு
+  dark_oak_door: டார்க் ஓக் கதவு
+  crimson_door: கிரிம்சன் கதவு
+  warped_door: வார்ப் டோர்
+  repeater: ரெட்ஸ்டோன் ரிப்பீட்டர்
+  comparator: ரெட்ஸ்டோன் ஒப்பீட்டாளர்
+  structure_block: கட்டமைப்பு பிளாக்
+  jigsaw: ஜிக் பிளாக்
+  turtle_helmet: ஆமை ஷெல்
+  scute: Scute
+  flint_and_steel: பிளின்ட் மற்றும் ஸ்டீல்
+  apple: ஆப்பிள்
+  bow: வில்
+  arrow: அம்பு
+  coal: நிலக்கரி
+  charcoal: கரி
+  diamond: டயமண்ட்
+  iron_ingot: இரும்பு இங்காட்
+  gold_ingot: தங்க இகோட்
+  netherite_ingot: நெதரைட் இங்காட்
+  netherite_scrap: நெதரைட் ஸ்கிராப்
+  wooden_sword: மர வாள்
+  wooden_shovel: மர திணி
+  wooden_pickaxe: மர பிக்காக்ஸ்
+  wooden_axe: மர அச்சு
+  wooden_hoe: மரத்தாலான ஹீ
+  stone_sword: கல் வாள்
+  stone_shovel: ஸ்டோன் திணி
+  stone_pickaxe: ஸ்டோன் பிக்காக்ஸ்
+  stone_axe: கல் அச்சு
+  stone_hoe: ஸ்டோன் ஹோ
+  golden_sword: கோல்டன் வாள்
+  golden_shovel: கோல்டன் வெந்தயம்
+  golden_pickaxe: கோல்டன் பிக்சே
+  golden_axe: கோல்டன் ஆக்ஸ்
+  golden_hoe: கோல்டன் ஹொ
+  iron_sword: இரும்பு வாள்
+  iron_shovel: இரும்பு திணி
+  iron_pickaxe: இரும்பு பிக்ஸாக்
+  iron_axe: இரும்பு கோடாரி
+  iron_hoe: இரும்புத் தாது
+  diamond_sword: டயமண்ட் வாள்
+  diamond_shovel: டயமண்ட் திணி
+  diamond_pickaxe: டயமண்ட் பிக்ஸாக்
+  diamond_axe: டயமண்ட் கோடாரி
+  diamond_hoe: டயமண்ட் ஹோ
+  netherite_sword: நெதரைட் வாள்
+  netherite_shovel: நெதரைட் திணி
+  netherite_pickaxe: நெதரைட் பிகாக்ஸ்
+  netherite_axe: நெதரைட் கோடாரி
+  netherite_hoe: நெதரைட் ஹோ
+  stick: குச்சி
+  bowl: பவுல்
+  mushroom_stew: காளான் குண்டு
+  string: சரம்
+  feather: இறகு
+  gunpowder: வெடிமருந்து
+  wheat_seeds: கோதுமை விதைகள்
+  wheat: கோதுமை
+  bread: ரொட்டி
+  leather_helmet: தோல் கேப்
+  leather_chestplate: தோல் துணி
+  leather_leggings: தோல் கால்சட்டைகள்
+  leather_boots: தோல் பூட்ஸ்
+  chainmail_helmet: சாய்னெயில் ஹெல்மெட்
+  chainmail_chestplate: சாப்டர்ஒருநான்என்எம்ஏநான் L மார்புதட்டு
+  chainmail_leggings: சாப்டர்ஒருநான்என்எம்ஏநான் L லெக்இல்கிராம்ங்கள்
+  chainmail_boots: சாப்டர்ஒருநான்என்எம்ஏநான் L பூட்ஸ்
+  iron_helmet: இரும்பு ஹெல்மெட்
+  iron_chestplate: இரும்புச் செடி
+  iron_leggings: இரும்புச் சட்டை
+  iron_boots: இரும்பு துவாரங்கள்
+  diamond_helmet: டயமண்ட் ஹெல்மெட்
+  diamond_chestplate: டயமண்ட் செஸ்ட்டெட்
+  diamond_leggings: டயமண்ட் லெக்கிங்ஸ்
+  diamond_boots: டயமண்ட் பூட்ஸ்
+  golden_helmet: கோல்டன் ஹெல்மெட்
+  golden_chestplate: கோல்டன் செஸ்ட் பிளேட்
+  golden_leggings: கோல்டன் லெக்கிங்ஸ்
+  golden_boots: கோல்டன் பூட்ஸ்
+  netherite_helmet: நெதரைட் ஹெல்மெட்
+  netherite_chestplate: நெதரைட் செஸ்ட் பிளேட்
+  netherite_leggings: நெதரைட் லெகிங்ஸ்
+  netherite_boots: நெதரைட் பூட்ஸ்
+  flint: பிளின்ட்
+  porkchop: மூல போர்காப்
+  cooked_porkchop: சமைத்த பன்றி இறைச்சி
+  painting: ஓவியம்
+  golden_apple: தங்க ஆப்பிள்
+  enchanted_golden_apple: மந்திரித்த கோல்டன் ஆப்பிள்
+  oak_sign: ஓக் சைன்
+  spruce_sign: ஸ்ப்ரூஸ் சைன்
+  birch_sign: பிர்ச் சைன்
+  jungle_sign: ஜங்கிள் சைன்
+  acacia_sign: அகாசியா சைன்
+  dark_oak_sign: டார்க் ஓக் சைன்
+  crimson_sign: கிரிம்சன் அடையாளம்
+  warped_sign: திசைதிருப்பப்பட்ட அடையாளம்
+  bucket: வாளி
+  water_bucket: நீர் வாளி
+  lava_bucket: லாவா பக்கெட்
+  minecart: வேகன்
+  saddle: சேணம்
+  redstone: ரெட்ஸ்டோன் டஸ்ட்
+  snowball: பனிப்பந்து
+  oak_boat: ஓக் படகு
+  leather: தோல்
+  milk_bucket: பால் பருந்து
+  pufferfish_bucket: பஃபெர்ஃபி ஆஃப் பஃபெர்ஃபி
+  salmon_bucket: சால்மன் வாளி
+  cod_bucket: காட் பக்
+  tropical_fish_bucket: வெப்பமண்டல மீன் வாளி
+  brick: செங்கல்
+  clay_ball: களிமண் பந்து
+  dried_kelp_block: உலர்ந்த கெல்ப் பிளாக்
+  paper: காகிதம்
+  book: புத்தகம்
+  slime_ball: இழிந்த தன்மையுடைய நபர்
+  chest_minecart: மார்போடு மின்கார்ட்
+  furnace_minecart: உலைகளுடன் மின்கார்ட்
+  egg: முட்டை
+  compass: திசைகாட்டி
+  fishing_rod: மீன்பிடி ராட்
+  clock: கடிகாரம்
+  glowstone_dust: க்ளோஸ்டோன் தூசி
+  cod: ரா காட்
+  salmon: மூல சால்மன்
+  tropical_fish: நன்னீர் மீன் வளர்ப்பு
+  pufferfish: பஃபர்ஃபிஷ்
+  cooked_cod: சமைத்த காட்
+  cooked_salmon: சமைத்த சால்மன்
+  ink_sac: மைப்பை
+  cocoa_beans: கோகோ பீன்ஸ்
+  lapis_lazuli: லேபிஸ் லாஜூலி
+  white_dye: வெள்ளை சாயம்
+  orange_dye: ஆரஞ்சு சாயம்
+  magenta_dye: மெஜந்தா சாயம்
+  light_blue_dye: வெளிர் நீல சாயம்
+  yellow_dye: மஞ்சள் சாயம்
+  lime_dye: சுண்ணாம்பு சாயம்
+  pink_dye: பிங்க் டை
+  gray_dye: சாம்பல் சாயம்
+  light_gray_dye: ஒளி சாம்பல் சாயம்
+  cyan_dye: சியான் சாய்
+  purple_dye: ஊதா சாயம்
+  blue_dye: நீல சாயம்
+  brown_dye: பிரவுன் சாயம்
+  green_dye: பச்சை சாயம்
+  red_dye: சிவப்பு சாயம்
+  black_dye: பிளாக் டை
+  bone_meal: எலும்பு உணவு
+  bone: எலும்பு
+  sugar: சர்க்கரை
+  cake: கேக்
+  white_bed: வெள்ளை படுக்கை
+  orange_bed: ஆரஞ்சு படுக்கை
+  magenta_bed: மெஜந்தா படுக்கை
+  light_blue_bed: ஒளி நீலம் படுக்கை
+  yellow_bed: மஞ்சள் படுக்கை
+  lime_bed: எலுமிச்சை படுக்கை
+  pink_bed: பிங்க் படுக்கை
+  gray_bed: கிரே படுக்கை
+  light_gray_bed: மெல்லிய சாம்பல் நிறம் படுக்கை
+  cyan_bed: சியான் படுக்கை
+  purple_bed: ஊதா படுக்கை
+  blue_bed: ப்ளூ படுக்கை
+  brown_bed: பிரவுன் படுக்கை
+  green_bed: பசுமை படுக்கை
+  red_bed: ரெட் படுக்கை
+  black_bed: பிளாக் படுக்கை
+  cookie: குக்கீ
+  filled_map: வரைபடம்
+  shears: ஷியர்ஸ்
+  melon_slice: மெலோன் ஸ்லைஸ்
+  dried_kelp: உலர்ந்த கெல்ப்
+  pumpkin_seeds: பூசணி விதைகள்
+  melon_seeds: முலாம்பழம் விதைகள்
+  beef: மூல மாட்டிறைச்சி
+  cooked_beef: ஸ்டீக்
+  chicken: மூல கோழி
+  cooked_chicken: சமைத்த சிக்கன்
+  rotten_flesh: அழுகிய சதை
+  ender_pearl: எண்டர் முத்து
+  blaze_rod: பிளேஸ் ராட்
+  ghast_tear: காஸ்ட் கண்ணீர்
+  gold_nugget: தங்க நகஜ்
+  nether_wart: நேதர் வார்ட்
+  potion: போஷன்
+  glass_bottle: கண்ணாடி குடுவை
+  spider_eye: ஸ்பைடர் கண்
+  fermented_spider_eye: புளிக்க ஸ்பைடர் கண்
+  blaze_powder: பிளேஸ் தூள்
+  magma_cream: மாக்மா கிரீம்
+  brewing_stand: பிரவுனிங் ஸ்டேண்ட்
+  cauldron: கொப்பரை
+  ender_eye: எண்டரின் கண்
+  glistering_melon_slice: மெலனோ ஸ்லஸ்
+  bat_spawn_egg: பேட் ஸ்பான் முட்டை
+  bee_spawn_egg: தேனீ ஸ்பான் முட்டை
+  blaze_spawn_egg: பிளேஸ் ஸ்பான் முட்டை
+  cat_spawn_egg: கேட் ஸ்பான் முட்டை
+  cave_spider_spawn_egg: குகை ஸ்பைடர் ஸ்பான் முட்டை
+  chicken_spawn_egg: சிக்கன் ஸ்பான் முட்டை
+  cod_spawn_egg: கோட் ஸ்பான் முட்டை
+  cow_spawn_egg: ஆடு ஸ்பூன் முட்டை
+  creeper_spawn_egg: க்ரீப்பர் ஸ்பான் முட்டை
+  dolphin_spawn_egg: டால்பின் ஸ்பான் முட்டை
+  donkey_spawn_egg: கழுதை ஸ்பான் முட்டை
+  drowned_spawn_egg: மூழ்கிய ஸ்பான் முட்டை
+  elder_guardian_spawn_egg: மூத்த கார்டியன் ஸ்பான் முட்டை
+  enderman_spawn_egg: எண்டர்மன் ஸ்பான் முட்டை
+  endermite_spawn_egg: முடிந்தவரை ஸ்பான் முட்டை
+  evoker_spawn_egg: வருவதற்காகஆர் ஸ்பான் முட்டை
+  fox_spawn_egg: ஃபாக்ஸ் ஸ்பான் முட்டை
+  ghast_spawn_egg: காஸ்ட் ஸ்பான் முட்டை
+  guardian_spawn_egg: கார்டியன் ஸ்பான் முட்டை
+  hoglin_spawn_egg: ஹாக்லின் ஸ்பான் முட்டை
+  horse_spawn_egg: குதிரை ஸ்பான் முட்டை
+  husk_spawn_egg: ஹஸ்ஸ்க் ஸ்பான் முட்டை
+  llama_spawn_egg: லலாமா ஸ்பான் முட்டை
+  magma_cube_spawn_egg: மாக்மா கியூப் ஸ்பான் முட்டை
+  mooshroom_spawn_egg: மூசுரூம் ஸ்பான் முட்டை
+  mule_spawn_egg: மூல் ஸ்பொன் முட்டை
+  ocelot_spawn_egg: ஓஇஇஎல்ஓடி ஸ்பான் முட்டை
+  panda_spawn_egg: பாண்டா ஸ்பான் முட்டை
+  parrot_spawn_egg: கிளி ஸ்போன் முட்டை
+  phantom_spawn_egg: ஃபாலோம் ஸ்பான் முட்டை
+  pig_spawn_egg: பன்றி ஸ்பான் முட்டை
+  piglin_spawn_egg: பிக்லின் ஸ்பான் முட்டை
+  piglin_brute_spawn_egg: பிக்லின் ப்ரூட் ஸ்பான் முட்டை
+  pillager_spawn_egg: பில்லேஜர் ஸ்பான் முட்டை
+  polar_bear_spawn_egg: துருவ கரடி ஸ்பான் முட்டை
+  pufferfish_spawn_egg: பஃபெர் மீன் ஸ்பான் முட்டை
+  rabbit_spawn_egg: முயல் ஸ்பான் முட்டை
+  ravager_spawn_egg: ராவஜர் ஸ்பான் முட்டை
+  salmon_spawn_egg: சால்மன் ஸ்பான் முட்டை
+  sheep_spawn_egg: செம்மறி ஆடு
+  shulker_spawn_egg: ஷுல்கர் ஸ்பான் முட்டை
+  silverfish_spawn_egg: சில்வர்ஷிப் ஸ்பான் முட்டை
+  skeleton_spawn_egg: எலும்புக்கூடு ஸ்பொன் முட்டை
+  skeleton_horse_spawn_egg: எலும்புக்கூட்டை குதிரை ஸ்பான் முட்டை
+  slime_spawn_egg: ஸ்லேம் ஸ்பான் முட்டை
+  spider_spawn_egg: ஸ்பைடர் ஸ்பான் முட்டை
+  squid_spawn_egg: ஸ்க்விட் ஸ்பான் முட்டை
+  stray_spawn_egg: தவறான ஸ்பான் முட்டை
+  strider_spawn_egg: ஸ்ட்ரைடர் தோட்ற முட்டய்
+  trader_llama_spawn_egg: வர்த்தகர் லம்மா ஸ்பான் முட்டை
+  tropical_fish_spawn_egg: வெப்பமண்டல மீன் ஸ்பான் முட்டை
+  turtle_spawn_egg: டர்டில் ஸ்பான் முட்டை
+  vex_spawn_egg: ரத்து ஸ்பான் முட்டை
+  villager_spawn_egg: வில்லர் ஸ்பான் முட்டை
+  vindicator_spawn_egg: விண்டிகேட்டர் ஸ்பான் முட்டை
+  wandering_trader_spawn_egg: வண்டி வர்த்தகர் ஸ்பான் முட்டை
+  witch_spawn_egg: விட்ச் ஸ்பான் முட்டை
+  wither_skeleton_spawn_egg: எலும்புக்கூடு ஸ்பான் முட்டை
+  wolf_spawn_egg: ஓநாய் ஸ்பான் முட்டை
+  zoglin_spawn_egg: ஜோக்ளின் தோட்ற முட்டய்
+  zombie_spawn_egg: சோம்பை ஸ்பான் முட்டை
+  zombie_horse_spawn_egg: சோம்பை குதிரை ஸ்பான் முட்டை
+  zombie_villager_spawn_egg: ஸோம்பி வில்லேஜர் ஸ்பான் முட்டை
+  zombified_piglin_spawn_egg: சோம்பை பிக்லின் ஸ்பான் முட்டை
+  experience_bottle: பாட்டில் ஓ 'மயக்கும்
+  fire_charge: தீ கட்டணம்
+  writable_book: புத்தகம் மற்றும் குயில்
+  written_book: எழுதப்பட்ட புத்தகம்
+  emerald: எமரால்டு
+  item_frame: பொருள் சட்டகம்
+  flower_pot: மலர் பாட்
+  carrot: கேரட்
+  potato: உருளைக்கிழங்கு
+  baked_potato: வேகவைத்த உருளைக்கிழங்கு
+  poisonous_potato: விஷம் உருளைக்கிழங்கு
+  map: வெற்று வரைபடம்
+  golden_carrot: கோல்டன் கேரட்
+  skeleton_skull: எலும்புக்கூடு ஸ்கல்
+  wither_skeleton_skull: எலும்புக்கூடு மண்டை ஓடுகிறது
+  player_head: வீரர் தலைவர்
+  zombie_head: சோம்பை தலை
+  creeper_head: க்ரீப்பர் ஹெட்
+  dragon_head: டிராகன் தலைமை
+  carrot_on_a_stick: ஒரு குச்சி மீது கேரட்
+  warped_fungus_on_a_stick: திசைதிருப்பல் பூஞ்சை ஒரு குச்சி
+  nether_star: நெதர் ஸ்டார்
+  pumpkin_pie: பூசணி பை
+  firework_rocket: வாணவேடிக்கை ராக்கெட்
+  firework_star: வாணவேடிக்கை நட்சத்திரம்
+  enchanted_book: மந்திரித்த புத்தகம்
+  nether_brick: நார் செங்கல்
+  quartz: நேதர் குவார்ட்ஸ்
+  tnt_minecart: டி. என். டி உடன் மின்கார்ட்
+  hopper_minecart: ஹாப்பருடன் மின்கார்ட்
+  prismarine_shard: பிரிஸ்மரைன் ஷார்ட்
+  prismarine_crystals: பிரிஸ்மரைன் படிகங்கள்
+  rabbit: ரா ராபிட்
+  cooked_rabbit: சமைத்த முயல்
+  rabbit_stew: முயல் குண்டு
+  rabbit_foot: முயல் அடி
+  rabbit_hide: முயல் மறை
+  armor_stand: ஆர்மர் ஸ்டாண்ட்
+  iron_horse_armor: இரும்பு குதிரை கவசம்
+  golden_horse_armor: கோல்டன் ஹார்ஸ் ஆர்மோர்
+  diamond_horse_armor: வைர குதிரை கவசம்
+  leather_horse_armor: தோல் குதிரை ஆர்மர்
+  lead: முன்னணி
+  name_tag: பெயர் டேக்
+  command_block_minecart: கட்டளைத் தொகுதியுடன் மின்கார்ட்
+  mutton: ரா மட்டன்
+  cooked_mutton: சமைத்த மட்டன்
+  white_banner: வெள்ளை பேனர்
+  orange_banner: ஆரஞ்சு பேனர்
+  magenta_banner: மெஜந்தா பேனர்
+  light_blue_banner: வெளிர் நீல பதாகை
+  yellow_banner: மஞ்சள் பேனர்
+  lime_banner: சுண்ணாம்பு பேனர்
+  pink_banner: பிங்க் பேனர்
+  gray_banner: சாம்பல் பதாகை
+  light_gray_banner: ஒளி சாம்பல் பதாகை
+  cyan_banner: சியான் பதாகை
+  purple_banner: ஊதா பதாகை
+  blue_banner: நீல பேனர்
+  brown_banner: பிரவுன் பேனர்
+  green_banner: பச்சை பேனர்
+  red_banner: சிவப்பு பேனர்
+  black_banner: கருப்பு பேனர்
+  end_crystal: முடி நீளம்
+  chorus_fruit: கோரஸ் பழம்
+  popped_chorus_fruit: பாப் செய்யப்பட்ட கோரஸ் பழம்
+  beetroot: பீட்ரூட்
+  beetroot_seeds: பீட்ரூட் விதைகள்
+  beetroot_soup: பீட்ரூட் சூப்
+  dragon_breath: டிராகனின் மூச்சு
+  splash_potion: ஸ்பிளாஸ் போஷன்
+  spectral_arrow: ஸ்பெக்ட்ரல் அம்பு
+  tipped_arrow: தலைகீழ் அம்பு
+  lingering_potion: நீடித்த போஷன்
+  shield: கேடயம்
+  elytra: இறக்கை மூடி
+  spruce_boat: ஸ்ப்ரூஸ் படகு
+  birch_boat: பிர்ச் படகு
+  jungle_boat: ஜங்கிள் படகு
+  acacia_boat: அகாசி படகு
+  dark_oak_boat: டார்க் ஓக் படகு
+  totem_of_undying: மொத்தம் நீக்குதல்
+  shulker_shell: சுல்கர் ஷெல்
+  iron_nugget: இரும்பு நகம்
+  knowledge_book: அறிவு புத்தகம்
+  debug_stick: பிழைத்திருத்த ஸ்டிக்
+  music_disc_13: இசை டிஸ்க்
+  music_disc_cat: இசை டிஸ்க்
+  music_disc_blocks: இசை டிஸ்க்
+  music_disc_chirp: இசை டிஸ்க்
+  music_disc_far: இசை டிஸ்க்
+  music_disc_mall: இசை டிஸ்க்
+  music_disc_mellohi: இசை டிஸ்க்
+  music_disc_stal: இசை டிஸ்க்
+  music_disc_strad: இசை டிஸ்க்
+  music_disc_ward: இசை டிஸ்க்
+  music_disc_11: இசை டிஸ்க்
+  music_disc_wait: இசை டிஸ்க்
+  music_disc_pigstep: இசை டிஸ்க்
+  trident: திரிசூலம்
+  phantom_membrane: பாண்டம் மெம்பிரேன்
+  nautilus_shell: நாட்டிலஸ் ஷெல்
+  heart_of_the_sea: கடல் இதயம்
+  crossbow: கிராஸ்போ
+  suspicious_stew: சந்தேகத்திற்கிடமான குண்டு
+  loom: தறி
+  flower_banner_pattern: பேனர் பேட்டர்ன்
+  creeper_banner_pattern: பேனர் பேட்டர்ன்
+  skull_banner_pattern: பேனர் பேட்டர்ன்
+  mojang_banner_pattern: பேனர் பேட்டர்ன்
+  globe_banner_pattern: பதாகை பேட்டர்ன்
+  piglin_banner_pattern: பேனர் பேட்டர்ன்
+  composter: உரமாக்கல்
+  barrel: பேரல்
+  smoker: ஸ்மோக்கர்
+  blast_furnace: குண்டு வெடிப்பு
+  cartography_table: வரைபட அட்டவணை
+  fletching_table: ஃபிளெக்கிங் டேபிள்
+  grindstone: அம்மி
+  lectern: இதனூடாக
+  smithing_table: ஸ்மிமிங் டேபிள்
+  stonecutter: கல்கட்டர்
+  bell: பெல்
+  lantern: விளக்கு
+  soul_lantern: சோல் விளக்கு
+  sweet_berries: இனிப்பு பெர்ரி
+  campfire: முகாமில் மூட்டும் நெருப்பு
+  soul_campfire: சோல் கேம்ப்ஃபயர்
+  shroomlight: ஷ்ரூம்லைட்
+  honeycomb: தேன்கூடு
+  bee_nest: தேனீ கூடு
+  beehive: தேன் கூடு
+  honey_bottle: ஒரு பாட்டில் தேன்
+  honey_block: தேன் தொகுதி
+  honeycomb_block: தேன்கூடு தொகுதி
+  lodestone: மடய்கல்
+  netherite_block: நெதரைட்டின் தொகுதி
+  ancient_debris: பண்டைய குப்பைகள்
+  target: இலக்கு
+  crying_obsidian: அழுகை அப்சிடியன்
+  blackstone: கருப்புக்கல்
+  blackstone_slab: கருப்புக்கல் பலகை
+  blackstone_stairs: கருப்புக்கல் படிக்கட்டுக்கள்
+  gilded_blackstone: கில்டட் பிளாக்ஸ்டோன்
+  polished_blackstone: மெருகூட்டப்பட்ட பிளாக்ஸ்டோன்
+  polished_blackstone_slab: மெருகூட்டப்பட்ட பிளாக்ஸ்டோன் ஸ்லாப்
+  polished_blackstone_stairs: மெருகூட்டப்பட்ட பிளாக்ஸ்டோன் படிக்கட்டுகள்
+  chiseled_polished_blackstone: வெட்டப்பட்ட மெருகூட்டப்பட்ட பிளாக்ஸ்டோன்
+  polished_blackstone_bricks: மெருகேற்றப்பட்ட கருப்புக்கல் செங்கற்கள்
+  polished_blackstone_brick_slab: மெருகேற்றப்பட்ட கருப்புக்கல் செங்கல் பலகை
+  polished_blackstone_brick_stairs: மெருகேற்றப்பட்ட கருப்புக்கல் செங்கல் படிக்கட்டுகள்
+  cracked_polished_blackstone_bricks: கிராக் செய்யப்பட்ட பளபளப்பான பிளாக்ஸ்டோன் செங்கற்கள்
+  respawn_anchor: மறுதோற்ற நங்கூரம்
+  water: நீர்
+  lava: எரிமலைக்குழம்பு
+  tall_seagrass: உயரமான சீகிராஸ்
+  piston_head: பிஸ்டன் தலைமை
+  moving_piston: பிஸ்டன் நகரும்
+  wall_torch: வோல் டார்ச்
+  fire: தீ
+  soul_fire: ஆத்மா தீ
+  redstone_wire: ரெட்ஸ்டோன் கம்பி
+  oak_wall_sign: ஓக் வோல் சைன்
+  spruce_wall_sign: ஸ்ப்ரூஸ் வோல் சைன்
+  birch_wall_sign: பிர்ச் வோல் சைன்
+  acacia_wall_sign: அகாசியா வோல் சைன்
+  jungle_wall_sign: ஜங்கிள் வோல் சைன்
+  dark_oak_wall_sign: டார்க் ஓக் வால் சைன்
+  redstone_wall_torch: ரெட்ஸ்டோன் வோல் டார்ச்
+  soul_wall_torch: சோல் வால் டார்ச்
+  nether_portal: நெதர்லாந்து போர்ட்டல்
+  attached_pumpkin_stem: இணைக்கப்பட்ட பூசணி தண்டு
+  attached_melon_stem: இணைக்கப்பட்ட மெலோன் ஸ்டெம்
+  pumpkin_stem: பூசணி தண்டு
+  melon_stem: மெலோன் ஸ்டெம்
+  end_portal: இறுதி வலைவாசல்
+  cocoa: கோகோ
+  tripwire: ட்ரிப்வைர்
+  potted_oak_sapling: பாட் ஓக் சப்பாளி
+  potted_spruce_sapling: பட்ரூட் ஸ்ப்ரெஸ் சந்தா
+  potted_birch_sapling: பாட்ரூட் சாக்லெட்
+  potted_jungle_sapling: பாட்டில் ஜங்கிள் சந்திப்பு
+  potted_acacia_sapling: பொட்டாசியம் அசிசி சப்பாளிங்
+  potted_dark_oak_sapling: தொட்டது டார்க் ஓக் மரக்கன்று
+  potted_fern: பையட் ஃபர்ன்
+  potted_dandelion: பையிலிடப்பட்ட டேன்டேலியன்
+  potted_poppy: பாட்டி பாப்பி
+  potted_blue_orchid: பாட்டில் ப்ளூ ஆர்ச்சிட்
+  potted_allium: பொதியிட்ட அலியம்
+  potted_azure_bluet: பாட்டில் அஜ்யூ ப்ளூலெட்
+  potted_red_tulip: பாட்டில் ரெட் துலிப்
+  potted_orange_tulip: ஊற்றப்பட்ட ஆரஞ்சு துலிப்
+  potted_white_tulip: பட்டுள்ள வெள்ளை துலிப்
+  potted_pink_tulip: பானை பிங்க் துலிப்
+  potted_oxeye_daisy: பாட் ஒக்ஸே டெய்ஸி
+  potted_cornflower: குங்குமப்பூ
+  potted_lily_of_the_valley: பள்ளத்தாக்கில் பாட் லில்லி
+  potted_wither_rose: வாட் ரோட் ரோட்
+  potted_red_mushroom: பாட்டில் ரெட் காளான்
+  potted_brown_mushroom: பழுத்த பிரவுன் காளான்
+  potted_dead_bush: பையுடேட் டெட் புஷ்
+  potted_cactus: பாட்டில் கற்றாழை
+  carrots: கேரட்
+  potatoes: உருளைக்கிழங்குகள்
+  skeleton_wall_skull: எலும்புக்கூடு வோல் ஸ்கல்
+  wither_skeleton_wall_skull: எலும்புக்கூடு வோல் ஸ்கல் வாட்
+  zombie_wall_head: சோம்பை வோல் ஹெட்
+  player_wall_head: வீரர் வோல் தலைமை
+  creeper_wall_head: க்ரீப்பர் வோல் ஹெட்
+  dragon_wall_head: டிராகன் வோல் தலை
+  white_wall_banner: வெள்ளை பேனர்
+  orange_wall_banner: ஆரஞ்சு பேனர்
+  magenta_wall_banner: மெஜந்தா பேனர்
+  light_blue_wall_banner: வெளிர் நீல பதாகை
+  yellow_wall_banner: மஞ்சள் பேனர்
+  lime_wall_banner: சுண்ணாம்பு பேனர்
+  pink_wall_banner: பிங்க் பேனர்
+  gray_wall_banner: சாம்பல் பதாகை
+  light_gray_wall_banner: ஒளி சாம்பல் பதாகை
+  cyan_wall_banner: சியான் பதாகை
+  purple_wall_banner: ஊதா பதாகை
+  blue_wall_banner: நீல பேனர்
+  brown_wall_banner: பிரவுன் பேனர்
+  green_wall_banner: பச்சை பேனர்
+  red_wall_banner: சிவப்பு பேனர்
+  black_wall_banner: கருப்பு பேனர்
+  beetroots: பீட்ரூட்ஸ்
+  end_gateway: முடிவு நுழைவாயில்
+  frosted_ice: உறைந்த பனி
+  kelp_plant: கெல்ப் ஆலை
+  dead_tube_coral_wall_fan: டெட் குழாய் பவள வால் ரசிகர்
+  dead_brain_coral_wall_fan: டெட் மூளை பவள வால் ரசிகர்
+  dead_bubble_coral_wall_fan: இறந்த குமிழ் கோரல் வால் ரசிகன்
+  dead_fire_coral_wall_fan: டெட் ஃபயர் கோரல் வால் பேன்
+  dead_horn_coral_wall_fan: டெட் ஹார்ன் கொரல் வோல் ஃபான்
+  tube_coral_wall_fan: குழாய் பவள வால் ரசிகர்
+  brain_coral_wall_fan: மூளை பவள வால் ரசிகர்
+  bubble_coral_wall_fan: பபுள் கோரல் வோல் ஃபான்
+  fire_coral_wall_fan: தீ பவள வால் ரசிகர்
+  horn_coral_wall_fan: ஹார்ன் கொரல் வோல் ஃபான்
+  bamboo_sapling: மூங்கில் தண்டு
+  potted_bamboo: பாம்பெக் மூங்கில்
+  void_air: வெற்றிட ஏர்
+  cave_air: குகை ஏர்
+  bubble_column: குமிழி வரிசை
+  sweet_berry_bush: இனிப்பு பெர்ரி புஷ்
+  weeping_vines_plant: அழுது கொடிகள் தாவர
+  twisting_vines_plant: ஜாலத்தால் கொடிகள் தாவர
+  crimson_wall_sign: கிரிம்சன் சுவர் அடையாளம்
+  warped_wall_sign: திசைதிருப்பப்பட்ட சுவர் அடையாளம்
+  potted_crimson_fungus: பானை கிரிம்சன் பூஞ்சை
+  potted_warped_fungus: பானை வார்ப்பட் பூஞ்சை
+  potted_crimson_roots: பானை கிரிம்சன் வேர்கள்
+  potted_warped_roots: பானை வார்ப் வேர்கள்
+  zombie_pigman_spawn_egg: சோம்பை பிக்மன் ஸ்பான் முட்டை
+  wall_sign: வோல் சைன்
+biome:
+  ocean: பெருங்கடல்
+  plains: சமவெளிகள்
+  desert: பாலைவன
+  mountains: மலைகள்
+  forest: வன
+  taiga: டைகா
+  swamp: ஸ்வாம்ப்
+  river: நதி
+  nether_wastes: நேதர் கழிவுகள்
+  the_end: முற்றும்
+  frozen_ocean: உறைந்த பெருங்கடல்
+  frozen_river: உறைந்த நதி
+  snowy_tundra: பனி டன்ட்ரா
+  snowy_mountains: பனி மலைகள்
+  mushroom_fields: காளான் புலங்கள்
+  mushroom_field_shore: காளான் புலம் ஷோர்
+  beach: கடற்கரை
+  desert_hills: பாலைவன மலைகள்
+  wooded_hills: வூட் ஹில்ஸ்
+  taiga_hills: டைகா ஹில்ஸ்
+  mountain_edge: மலை எட்ஜ்
+  jungle: காட்டில்
+  jungle_hills: ஜங்கிள் ஹில்ஸ்
+  jungle_edge: ஜங்கிள் எட்ஜ்
+  deep_ocean: ஆழமான பெருங்கடல்
+  stone_shore: ஸ்டோன் ஷோர்
+  snowy_beach: பனி கடற்கரை
+  birch_forest: பிர்ச் வன
+  birch_forest_hills: பிர்ச் வன ஹில்ஸ்
+  dark_forest: டார்க் ஃபாரஸ்ட்
+  snowy_taiga: பனித் தை
+  snowy_taiga_hills: பனி தியாக ஹில்ஸ்
+  giant_tree_taiga: ஜெயண்ட் ட்ரீ டைகா
+  giant_tree_taiga_hills: ஜெயண்ட் ட்ரீ டைகா ஹில்ஸ்
+  wooded_mountains: மரங்கள் நிறைந்த மலைகள்
+  savanna: சவானா
+  savanna_plateau: சவன்னா பீடபூமி
+  badlands: பேட்லேண்ட்ஸ்
+  wooded_badlands_plateau: மரத்தாலான பேட்லண்ட்ஸ் பீடபூமி
+  badlands_plateau: பேட்லண்ட்ஸ் பீடபூமி
+  small_end_islands: சிறிய முடிவு தீவுகள்
+  end_midlands: முடிவு மிட்லாண்ட்ஸ்
+  end_highlands: முடிவு ஹைலேண்ட்ஸ்
+  end_barrens: முடிவு பாரென்ஸ்
+  warm_ocean: சூடான பெருங்கடல்
+  lukewarm_ocean: மந்தமான கடல்
+  cold_ocean: குளிர் பெருங்கடல்
+  deep_warm_ocean: ஆழமான சூடான பெருங்கடல்
+  deep_lukewarm_ocean: ஆழமான மந்தமான கடல்
+  deep_cold_ocean: ஆழமான குளிர் பெருங்கடல்
+  deep_frozen_ocean: ஆழமான உறைந்த பெருங்கடல்
+  the_void: அந்த வெற்றிடத்தை
+  sunflower_plains: சூரியகாந்தி சமவெளி
+  desert_lakes: பாலைவன ஏரிகள்
+  gravelly_mountains: கிரேவ்லி மலைகள்
+  flower_forest: மலர் வன
+  taiga_mountains: டைகா மலைகள்
+  swamp_hills: ஸ்வாம்ப் ஹில்ஸ்
+  ice_spikes: ஐஸ் கூர்முனை
+  modified_jungle: மாற்றியமைக்கப்பட்ட ஜங்கிள்
+  modified_jungle_edge: மாற்றியமைக்கப்பட்ட ஜங்கிள் எட்ஜ்
+  tall_birch_forest: உயரமான பிர்ச் காடு
+  tall_birch_hills: உயரமான பிர்ச் ஹில்ஸ்
+  dark_forest_hills: டார்க் ஃபாரஸ்ட் ஹில்ஸ்
+  snowy_taiga_mountains: பனி தாகை மலைகள்
+  giant_spruce_taiga: பெரிய ஸ்ப்ருஸ் டைகா
+  giant_spruce_taiga_hills: பெரிய ஸ்ப்ருஸ் டைகா ஹில்ஸ்
+  modified_gravelly_mountains: கிரேஸ்லி மலைகள்+
+  shattered_savanna: சவன்னாவை நொறுக்கினார்
+  shattered_savanna_plateau: சவன்னா பீடபூமி
+  eroded_badlands: ஈரோடு பேட்லாண்ட்ஸ்
+  modified_wooded_badlands_plateau: திருத்தப்பட்ட மரத்தாலான பேட்லண்ட்ஸ் பீடபூமி
+  modified_badlands_plateau: மாற்றியமைக்கப்பட்ட பேட்லேண்ட்ஸ் பீடபூமி
+  bamboo_jungle: மூங்கில் ஜங்கிள்
+  bamboo_jungle_hills: மூங்கில் ஜங்கிள் ஹில்ஸ்
+  soul_sand_valley: ஆத்மா மணல் பள்ளத்தாக்கு
+  crimson_forest: கிரிம்சன் காடு
+  warped_forest: திசைதிருப்பப்பட்ட காடு
+  basalt_deltas: பசால்ட் டெல்டாஸ்
+  nether: அடியில்
+enchantment:
+  fire_protection: தீ பாதுகாப்பு
+  sharpness: கூர்மை
+  flame: சுடர்
+  soul_speed: ஆத்ம வேகம்
+  aqua_affinity: அக்வா இணைப்பு
+  punch: பன்ச்
+  loyalty: லாயல்டி
+  depth_strider: ஆழம் ஸ்ட்ரைடர்
+  vanishing_curse: மறைந்துபோன சாபம்
+  unbreaking: உடைக்காத
+  knockback: மீண்டும் தட்டுங்கள்
+  luck_of_the_sea: கடல் அதிர்ஷ்டம்
+  binding_curse: பிணைப்பு சாபம்
+  fortune: அதிர்ஷ்டம்
+  protection: பாதுகாப்பு
+  efficiency: செயல்திறன்
+  mending: பொருந்தச்செய்தல்
+  frost_walker: ஃப்ரோஸ்ட் வாக்கர்
+  lure: லூர்
+  looting: கொள்ளை
+  piercing: குத்திக்கொள்வது
+  blast_protection: குண்டு வெடிப்பு பாதுகாப்பு
+  smite: அடியுங்கள்
+  multishot: பலஷாட்
+  fire_aspect: தீ அம்சம்
+  channeling: கால்வாய் வழி
+  sweeping: ஸ்வீப்பிங் எட்ஜ்
+  thorns: முட்கள்
+  bane_of_arthropods: கனுக்காலிகளின் சாபம்
+  respiration: சுவாசம்
+  riptide: கிழித்தெறியஅலை
+  silk_touch: சில்க் டச்
+  quick_charge: விரைவு கட்டணம்
+  projectile_protection: எறிபொருள் பாதுகாப்பு
+  impaling: குறும்புக்காரஅலின்கிராம்
+  feather_falling: இறகு விழுதல்
+  power: பவர்
+  infinity: முடிவிலி
+potion:
+  uncraftable: பிரிக்க முடியாத போஷன்
+  water: தண்ணீர் குடுவை
+  mundane: இவ்வுலகை போஷன்
+  thick: அடர்த்தியான போஷன்
+  awkward: அருவருப்பான போஷன்
+  night_vision: நைட் விஷனின் போஷன்
+  invisibility: கண்ணுக்குத் தெரியாத போஷன்
+  jump: பாய்ச்சல் போஷன்
+  fire_resistance: தீ எதிர்ப்பின் போஷன்
+  speed: விரைவான போஷன்
+  slowness: மந்தமான போஷன்
+  water_breathing: நீர் சுவாசத்தின் போஷன்
+  instant_heal: குணப்படுத்தும் போஷன்
+  instant_damage: தீங்கு விளைவிக்கும் போஷன்
+  poison: விஷத்தின் போஷன்
+  regen: மீளுருவாக்கம் போஷன்
+  strength: வலிமையின் போஷன்
+  weakness: பலவீனத்தின் போஷன்
+  luck: அதிர்ஷ்ட போஷன்
+  turtle_master: ஆமை மாஸ்டர் பதவி
+  slow_falling: மெதுவாக விழுந்து வணக்கம்
+splash_potion:
+  uncraftable: ஸ்பிளாஸ் கிராஃப்டிகல் போஷன்
+  water: ஸ்பிளாஸ் நீர் பாட்டில்
+  mundane: இவ்வுலகம் ஸ்பிளாஸ் போஷன்
+  thick: அடர்த்தியான ஸ்பிளாஸ் போஷன்
+  awkward: மோசமான ஸ்பிளாஸ் போஷன்
+  night_vision: நைட் விஷனின் ஸ்பிளாஸ் போஷன்
+  invisibility: கண்ணுக்குத் தெரியாத ஸ்பிளாஸ் போஷன்
+  jump: பாய்ச்சலின் ஸ்பிளாஸ் போஷன்
+  fire_resistance: தீ எதிர்ப்பின் ஸ்பிளாஸ் போஷன்
+  speed: ஸ்விஃப்ட்னஸின் ஸ்பிளாஸ் போஷன்
+  slowness: மந்தத்தின் ஸ்பிளாஸ் போஷன்
+  water_breathing: நீர் சுவாசத்தின் ஸ்பிளாஸ் போஷன்
+  instant_heal: குணப்படுத்தும் ஸ்பிளாஸ் போஷன்
+  instant_damage: தீங்கு விளைவிக்கும் ஸ்பிளாஸ் போஷன்
+  poison: விஷத்தின் ஸ்பிளாஸ் போஷன்
+  regen: மீளுருவாக்கத்தின் ஸ்பிளாஸ் போஷன்
+  strength: வலிமையின் ஸ்பிளாஸ் போஷன்
+  weakness: பலவீனத்தின் ஸ்பிளாஸ் போஷன்
+  luck: அதிர்ஷ்டத்தின் ஸ்பிளாஸ் போஷன்
+  turtle_master: ஆமை மாஸ்டர் ஸ்பிளாஸ் போஷன்
+  slow_falling: மெதுவான வீழ்ச்சி ஸ்பிளாஸ் போஷன்
+lingering_potion:
+  uncraftable: நீடிக்க முடியாத கிராஃபிக் போஷன்
+  water: நீடித்த பாட்டில்
+  mundane: இவ்வுலக நீடித்த போஷன்
+  thick: அடர்த்தியான நீடித்த போஷன்
+  awkward: மோசமான நீடித்த போஷன்
+  night_vision: நைட் விஷனின் நீடித்த போஷன்
+  invisibility: கண்ணுக்குத் தெரியாத நீடித்த போஷன்
+  jump: பாய்ச்சலின் நீடித்த போஷன்
+  fire_resistance: தீ எதிர்ப்பின் நீடித்த போஷன்
+  speed: ஸ்விஃப்ட்னஸின் நீடித்த போஷன்
+  slowness: மந்தமான நீடித்த போஷன்
+  water_breathing: நீர் சுவாசத்தின் நீடித்த போஷன்
+  instant_heal: குணப்படுத்தும் நீடித்த போஷன்
+  instant_damage: தீங்கு விளைவிக்கும் நீடித்த மருந்து
+  poison: விஷத்தின் நீடித்த போஷன்
+  regen: மீளுருவாக்கத்தின் நீடித்த போஷன்
+  strength: வலிமையின் நீடித்த போஷன்
+  weakness: பலவீனத்தின் நீடித்த போஷன்
+  luck: அதிர்ஷ்டத்தின் நீடித்த போஷன்
+  turtle_master: டர்டில் மாஸ்டர் லிங்கரிங் போஷன்
+  slow_falling: மெதுவான வீழ்ச்சியின் லிங்கரிங் போஷன்
+tipped_arrow:
+  uncraftable: கிராஃப்டபிள் டிப் அம்பு
+  water: ஸ்பிளாஷிங்கின் அம்பு
+  mundane: நனைத்த அம்பு
+  thick: நனைத்த அம்பு
+  awkward: நனைத்த அம்பு
+  night_vision: நைட் விஷனின் அம்பு
+  invisibility: கண்ணுக்கு தெரியாத அம்பு
+  jump: குதிக்கும் அம்பு
+  fire_resistance: தீ எதிர்ப்பின் அம்பு
+  speed: விரைவான அம்பு
+  slowness: மந்தத்தின் அம்பு
+  water_breathing: நீர் சுவாசத்தின் அம்பு
+  instant_heal: குணப்படுத்தும் அம்பு
+  instant_damage: தீங்கு விளைவிக்கும் அம்பு
+  poison: விஷத்தின் அம்பு
+  regen: மீளுருவாக்கம் அம்பு
+  strength: வலிமையின் அம்பு
+  weakness: பலவீனத்தின் அம்பு
+  luck: அதிர்ஷ்ட அம்பு
+  turtle_master: ஆமை மாஸ்டர் அம்பு
+  slow_falling: மெதுவாக வீழ்ச்சி அம்பு
+entity:
+  dropped_item: பொருள்
+  experience_orb: அனுபவம் உருண்டை
+  area_effect_cloud: பகுதி விளைவு கிளவுட்
+  elder_guardian: மூத்த கார்டியன்
+  wither_skeleton: எலும்புக்கூடு
+  stray: வழி தவறிய
+  egg: எறிந்த முட்டை
+  leash_hitch: லீஷ் நாட்
+  painting: ஓவியம்
+  arrow: அம்பு
+  snowball: பனிப்பந்து
+  fireball: ஃபயர்பால்
+  small_fireball: சிறிய ஃபயர்பால்
+  ender_pearl: எறியப்பட்ட முத்து
+  ender_signal: எண்டரின் கண்
+  splash_potion: போஷன்
+  thrown_exp_bottle: தூக்கி பாட்டில் ஓ 'மயக்கும்
+  item_frame: பொருள் சட்டகம்
+  wither_skull: மண்டை ஓடு வா
+  primed_tnt: முதன்மை டி. என். டி
+  falling_block: வீழ்ச்சி தொகுதி
+  firework: வாணவேடிக்கை ராக்கெட்
+  husk: உமி
+  spectral_arrow: ஸ்பெக்ட்ரல் அம்பு
+  shulker_bullet: ஷுல்கர் புல்லட்
+  dragon_fireball: டிராகன் ஃபயர்பால்
+  zombie_villager: ஸோம்பி கிராமவாசி
+  skeleton_horse: எலும்புக்கூடு குதிரை
+  zombie_horse: சோம்பை குதிரை
+  armor_stand: ஆர்மர் ஸ்டாண்ட்
+  donkey: கழுதை
+  mule: ம்யூலின்
+  evoker_fangs: வருவதற்காகஆர் விஷப்பற்கள்
+  evoker: எவோக்கர்
+  vex: ரத்து
+  vindicator: சரியென நிரூபித்துக்
+  illusioner: பிரமைகள்
+  minecart_command: கட்டளைத் தொகுதியுடன் மின்கார்ட்
+  boat: படகு
+  minecart: வேகன்
+  minecart_chest: பை கொண்டு வண்டியில்
+  minecart_furnace: உலைகளுடன் மின்கார்ட்
+  minecart_tnt: டி. என். டி உடன் மின்கார்ட்
+  minecart_hopper: ஹாப்பருடன் மின்கார்ட்
+  minecart_mob_spawner: ஸ்பேனர் உடன் மைன்கார்ட்
+  creeper: படர்க்கொடிகளின்
+  skeleton: எலும்புக்கூடு
+  spider: ஸ்பைடர்
+  giant: இராட்சத
+  zombie: ஸோம்பி
+  slime: சகதி or Cakati
+  ghast: காஸ்ட்
+  zombified_piglin: சோம்பை பிக்லின்
+  enderman: எண்டர்மேன்
+  cave_spider: குகை சிலந்தி
+  silverfish: சில்வர்ஃபிஷ்
+  blaze: பிளேஸ்
+  magma_cube: மாக்மா கியூப்
+  ender_dragon: எண்டர் டிராகன்
+  wither: கவிழ்ந்துவிடும்
+  bat: பேட்
+  witch: விட்ச்
+  endermite: எண்டர்மைட்
+  guardian: கார்டியன்
+  shulker: சுல்கர்
+  pig: பன்றி
+  sheep: ஆடு
+  cow: மாடு
+  chicken: சிக்கன்
+  squid: மீன் வகை
+  wolf: ஓநாய்
+  mushroom_cow: மூஷ்ரூம்
+  snowman: ஸ்னோ கோலெம்
+  ocelot: பூனை
+  iron_golem: இரும்புக் கூடம்
+  horse: குதிரை
+  rabbit: முயல்
+  polar_bear: துருவ கரடி
+  llama: லாமா
+  llama_spit: லாமா ஸ்பிட்
+  parrot: கிளி
+  villager: வில்லேஜர்
+  ender_crystal: முடி நீளம்
+  turtle: ஆமை
+  phantom: பாண்டம்
+  trident: திரிசூலம்
+  cod: காட்
+  salmon: சால்மன்
+  pufferfish: பஃபர்ஃபிஷ்
+  tropical_fish: நன்னீர் மீன் வளர்ப்பு
+  drowned: மூழ்கி
+  dolphin: டால்பின்
+  cat: பூனை
+  panda: பாண்டா
+  pillager: ஆயுதமேந்திய கொள்ளையன்
+  ravager: பாழாக்கி
+  trader_llama: வர்த்தகர் லம்மா
+  wandering_trader: வர்ச்சர் வர்த்தகர்
+  fox: ஃபாக்ஸ்
+  bee: தேனீ
+  hoglin: ஹாக்லின்
+  piglin: பிக்லின்
+  strider: ஸ்ட்ரைடர்
+  zoglin: ஜோக்ளின்
+  piglin_brute: பிக்லின் முரட்டுத்தனம்
+  fishing_hook: மீன்பிடி பாபர்
+  lightning: மின்னல் போல்ட்
+  player: ஆட்டக்காரர்
+  pig_zombie: ஸோம்பி பிக்மேன்
+effect:
+  speed: வேகம்
+  slow: இயங்குகிறது
+  fast_digging: விரைவு
+  slow_digging: சுரங்க சோர்வு
+  increase_damage: வலிமை
+  heal: உடனடி ஆரோக்கியம்
+  harm: உடனடி சேதம்
+  jump: தாவி செல்லவும்
+  confusion: குமட்டல்
+  regeneration: மீளுருவாக்கம்
+  damage_resistance: எதிர்ப்பு
+  fire_resistance: தீ எதிர்ப்பு
+  water_breathing: நீர் சுவாசம்
+  invisibility: மறைந்த
+  blindness: பார்வையின்மை
+  night_vision: இரவு பார்வை
+  hunger: பசி
+  weakness: பலவீனம்
+  poison: விஷம்
+  wither: கவிழ்ந்துவிடும்
+  health_boost: உடல்நலம் அதிகரிக்கும்
+  absorption: உறிஞ்சுதல்
+  saturation: செறிவூட்டல்
+  glowing: ஒளிரும்
+  levitation: அதிசயம்
+  luck: லக்
+  unluck: துரதிர்ஷ்டம்
+  slow_falling: மெதுவாக வீழ்ச்சி
+  conduit_power: கால்வாய் சக்தி
+  dolphins_grace: டால்பினின் கிரேஸ்
+  bad_omen: கெட்ட சகுனம்
+  hero_of_the_village: கிராமத்தின் ஹீரோ
+tropical_fish_type:
+  kob: தெற்கு மீன்
+  sunstreak: சன்ஸ்ட்ரீக்
+  snooper: மீன்-ஊடுருவும்
+  dasher: அமைப்பை
+  brinely: உப்புநீரை
+  spotty: மீன்புள்ளிகளுள்ள
+  flopper: ஃபிளாப்ஒன்றுக்கு
+  stripey: கோடுகள்ஒய்
+  glitter: அம்பு
+  blockfish: மீன் தொகுதி
+  betty: பீட் மீன்
+  clayfish: மீன் களிமண்
+dye_color:
+  white: வெள்ளை
+  orange: ஆரஞ்சு
+  magenta: மெஜந்தா
+  light_blue: ஒளி நீலம்
+  yellow: மஞ்சள்
+  lime: எலுமிச்சை
+  pink: பிங்க்
+  gray: கிரே
+  light_gray: மெல்லிய சாம்பல் நிறம்
+  cyan: சியான்
+  purple: ஊதா
+  blue: ப்ளூ
+  brown: பிரவுன்
+  green: பசுமை
+  red: ரெட்
+  black: பிளாக்
+named:
+  player_head_named: '%s''s தலைமை'
+  potion_with_amplifier: '%s %s'
+  potion_with_duration: '%s (%s)'
+  unknown_enchantment: 'தெரியாத மந்திரம்: %s'
+  unknown_entity: 'தெரியாத நிறுவனம்: %s'
+  unknown_effect: 'தெரியாத விளைவு: %s'
+tropical_fish_name:
+  '117506305': அனிமோன்
+  '117899265': பிளாக் டங்
+  '185008129': ப்ளூ டாங்க்
+  '117441793': பட்டாம்பூச்சி மீன்
+  '118161664': சிச்லிட்
+  '65536': கோமாளி மீன்
+  '50726144': பருத்தி கேண்டி பெட்டா
+  '67764993': ராயல்-கிராமா மீன்
+  '234882305': பேரரசர் ரெட் ஸ்னப்பர்
+  '67110144': மடவை
+  '117441025': மூரிஷ் ஐடல்
+  '16778497': அலங்கரிக்கப்பட்ட பட்டாம்பூச்சி
+  '101253888': கிளி மீன்
+  '50660352': வெள்ளை பரூ
+  '918529': ரெட் சிச்லிட்
+  '235340288': சிவப்பு பாம்பு
+  '918273': வளைகுடா மீன்
+  '67108865': தாடி மீன்
+  '917504': தீ கோமாளி
+  '459008': பன்றி மீன்
+  '67699456': மஞ்சள்-வால் கெயிட்ஃபிஷ்
+  '67371009': பட்டாம்பூச்சி மீன் கோடிட்ட
+colored_shied:
+  white: வெள்ளை கவசம்
+  orange: ஆரஞ்சு கவசம்
+  magenta: மெஜந்தா கேடயம்
+  light_blue: வெளிர் நீல கவசம்
+  yellow: மஞ்சள் கவசம்
+  lime: சுண்ணாம்பு கவசம்
+  pink: இளஞ்சிவப்பு கவசம்
+  gray: சாம்பல் கேடயம்
+  light_gray: ஒளி சாம்பல் கேடயம்
+  cyan: சியான் கேடயம்
+  purple: ஊதா கவசம்
+  blue: நீல கவசம்
+  brown: பிரவுன் கேடயம்
+  green: பச்சை கவசம்
+  red: சிவப்பு கவசம்
+  black: கருப்பு கவசம்
+banner_pattern:
+  '65536': ஒயிட் பேஸ் டெக்ஸ்டர் கேன்டன்
+  '65537': ஆரஞ்சு பேஸ் டெக்ஸ்டர் கேன்டன்
+  '65538': மெஜந்தா பேஸ் டெக்ஸ்டர் கேன்டன்
+  '65539': வெளிர் நீல அடிப்படை டெக்ஸ்டர் கேன்டன்
+  '65540': மஞ்சள் அடிப்படை டெக்ஸ்டர் கேன்டன்
+  '65541': லைம் பேஸ் டெக்ஸ்டர் கேன்டன்
+  '65542': பிங்க் பேஸ் டெக்ஸ்டர் கேன்டன்
+  '65543': கிரே பேஸ் டெக்ஸ்டர் கேன்டன்
+  '65544': லைட் கிரே பேஸ் டெக்ஸ்டர் கேன்டன்
+  '65545': சியான் பேஸ் டெக்ஸ்டர் கேன்டன்
+  '65546': ஊதா அடிப்படை டெக்ஸ்டர் கேன்டன்
+  '65547': ப்ளூ பேஸ் டெக்ஸ்டர் கேன்டன்
+  '65548': பிரவுன் பேஸ் டெக்ஸ்டர் கேன்டன்
+  '65549': கிரீன் பேஸ் டெக்ஸ்டர் கேன்டன்
+  '65550': ரெட் பேஸ் டெக்ஸ்டர் கேன்டன்
+  '65551': பிளாக் பேஸ் டெக்ஸ்டர் கேன்டன்
+  '131072': வெள்ளை அடிப்படை கெட்ட கேன்டன்
+  '131073': ஆரஞ்சு அடிப்படை கெட்ட கேன்டன்
+  '131074': மெஜந்தா பேஸ் கெட்ட கேன்டன்
+  '131075': வெளிர் நீல அடிப்படை கெட்ட கேன்டன்
+  '131076': மஞ்சள் அடிப்படை கெட்ட கேன்டன்
+  '131077': சுண்ணாம்பு அடிப்படை கெட்ட கேன்டன்
+  '131078': பிங்க் பேஸ் கெட்ட கேன்டன்
+  '131079': கிரே பேஸ் கெட்ட கேன்டன்
+  '131080': லைட் கிரே பேஸ் கெட்ட கேன்டன்
+  '131081': சியான் பேஸ் கெட்ட கேன்டன்
+  '131082': ஊதா அடிப்படை கெட்ட கேன்டன்
+  '131083': ப்ளூ பேஸ் கெட்ட கேன்டன்
+  '131084': பிரவுன் பேஸ் கெட்ட கேன்டன்
+  '131085': கிரீன் பேஸ் கெட்ட கேன்டன்
+  '131086': ரெட் பேஸ் கெட்ட கேன்டன்
+  '131087': பிளாக் பேஸ் கெட்ட கேன்டன்
+  '196608': வெள்ளை தலைமை டெக்ஸ்டர் கேன்டன்
+  '196609': ஆரஞ்சு தலைமை டெக்ஸ்டர் கேன்டன்
+  '196610': மெஜந்தா தலைமை டெக்ஸ்டர் கேன்டன்
+  '196611': லைட் ப்ளூ தலைமை டெக்ஸ்டர் கேன்டன்
+  '196612': மஞ்சள் தலைமை டெக்ஸ்டர் கேன்டன்
+  '196613': சுண்ணாம்பு தலைமை டெக்ஸ்டர் கேன்டன்
+  '196614': பிங்க் தலைமை டெக்ஸ்டர் கேன்டன்
+  '196615': கிரே தலைமை டெக்ஸ்டர் கேன்டன்
+  '196616': லைட் கிரே தலைமை டெக்ஸ்டர் கேன்டன்
+  '196617': சியான் தலைமை டெக்ஸ்டர் கேன்டன்
+  '196618': ஊதா தலைமை டெக்ஸ்டர் கேன்டன்
+  '196619': ப்ளூ தலைமை டெக்ஸ்டர் கேன்டன்
+  '196620': பிரவுன் தலைமை டெக்ஸ்டர் கேன்டன்
+  '196621': பசுமை தலைமை டெக்ஸ்டர் கேன்டன்
+  '196622': ரெட் தலைமை டெக்ஸ்டர் கேன்டன்
+  '196623': பிளாக் தலைமை டெக்ஸ்டர் கேன்டன்
+  '262144': வெள்ளை தலைமை கெட்ட கேன்டன்
+  '262145': ஆரஞ்சு தலைமை கெட்ட கேன்டன்
+  '262146': மெஜந்தா தலைமை கெட்ட கேன்டன்
+  '262147': வெளிர் நீல தலைமை கெட்ட கேன்டன்
+  '262148': மஞ்சள் தலைமை கெட்ட கேன்டன்
+  '262149': சுண்ணாம்பு தலைமை கெட்டன் கேன்டன்
+  '262150': பிங்க் தலைமை கெட்ட கேன்டன்
+  '262151': சாம்பல் தலைமை கெட்ட கேன்டன்
+  '262152': லைட் கிரே தலைமை கெட்ட கேன்டன்
+  '262153': சியான் தலைமை கெட்ட கேன்டன்
+  '262154': ஊதா தலைமை கெட்ட கேன்டன்
+  '262155': நீல தலைமை கெட்ட கேன்டன்
+  '262156': பிரவுன் தலைமை கெட்ட கேன்டன்
+  '262157': பசுமை தலைமை கெட்ட கேன்டன்
+  '262158': சிவப்பு தலைமை கெட்ட கேன்டன்
+  '262159': கருப்பு தலைமை கெட்ட கேன்டன்
+  '327680': வெள்ளைத் தளம்
+  '327681': ஆரஞ்சு அடிப்படை
+  '327682': மெஜந்தா அடிப்படை
+  '327683': வெளிர் நீல அடிப்படை
+  '327684': மஞ்சள் அடிப்படை
+  '327685': சுண்ணாம்பு தளம்
+  '327686': பிங்க் பேஸ்
+  '327687': சாம்பல் பேஸ்
+  '327688': ஒளி சாம்பல் பேஸ்
+  '327689': சியான் பேஸ்
+  '327690': ஊதா பேஸ்
+  '327691': ப்ளூ பேஸ்
+  '327692': பிரவுன் பேஸ்
+  '327693': பச்சை பேஸ்
+  '327694': ரெட் பேஸ்
+  '327695': பிளாக் பேஸ்
+  '393216': வெள்ளை முதல்வர்
+  '393217': ஆரஞ்சு தலைவர்
+  '393218': மெஜந்தா தலைவர்
+  '393219': லைட் ப்ளூ தலைமை
+  '393220': மஞ்சள் தலைவர்
+  '393221': சுண்ணாம்பு தலைமை
+  '393222': பிங்க் தலைமை
+  '393223': சாம்பல் தலைவர்
+  '393224': லைட் கிரே தலைமை
+  '393225': சியான் தலைவர்
+  '393226': ஊதா முதல்வர்
+  '393227': நீலத் தலைவர்
+  '393228': பிரவுன் தலைமை
+  '393229': பசுமை தலைவர்
+  '393230': சிவப்பு தலைவர்
+  '393231': கருப்பு தலைமை
+  '458752': வெள்ளை வெளிர் டெக்ஸ்டர்
+  '458753': ஆரஞ்சு வெளிர் டெக்ஸ்டர்
+  '458754': மெஜந்தா பேல் டெக்ஸ்டர்
+  '458755': வெளிர் நீல வெளிர் டெக்ஸ்டர்
+  '458756': மஞ்சள் வெளிர் டெக்ஸ்டர்
+  '458757': சுண்ணாம்பு வெளிர் டெக்ஸ்டர்
+  '458758': இளஞ்சிவப்பு வெளிர் டெக்ஸ்டர்
+  '458759': சாம்பல் வெளிர் டெக்ஸ்டர்
+  '458760': வெளிர் சாம்பல் வெளிர் டெக்ஸ்டர்
+  '458761': சியான் பேல் டெக்ஸ்டர்
+  '458762': ஊதா வெளிர் டெக்ஸ்டர்
+  '458763': நீல வெளிர் டெக்ஸ்டர்
+  '458764': பிரவுன் வெளிர் டெக்ஸ்டர்
+  '458765': பச்சை வெளிர் டெக்ஸ்டர்
+  '458766': சிவப்பு வெளிர் டெக்ஸ்டர்
+  '458767': கருப்பு வெளிர் டெக்ஸ்டர்
+  '524288': வெள்ளை வெளிறிய கெட்ட
+  '524289': ஆரஞ்சு வெளிறிய கெட்டது
+  '524290': மெஜந்தா வெளிறிய கெட்ட
+  '524291': வெளிர் நீல வெளிர் கெட்டது
+  '524292': மஞ்சள் வெளிறிய கெட்ட
+  '524293': சுண்ணாம்பு வெளிர் கெட்டது
+  '524294': இளஞ்சிவப்பு வெளிர் கெட்டது
+  '524295': சாம்பல் வெளிறிய கெட்ட
+  '524296': வெளிர் சாம்பல் வெளிர் கெட்டது
+  '524297': சியான் வெளிறிய கெட்ட
+  '524298': ஊதா வெளிர் கெட்டது
+  '524299': நீல வெளிர் கெட்டது
+  '524300': பிரவுன் வெளிறிய கெட்ட
+  '524301': பச்சை வெளிர் கெட்டது
+  '524302': சிவப்பு வெளிறிய கெட்ட
+  '524303': கருப்பு வெளிறிய கெட்ட
+  '589824': வெள்ளை வெளிர்
+  '589825': ஆரஞ்சு வெளிர்
+  '589826': மெஜந்தா பேல்
+  '589827': வெளிர் நீல வெளிர்
+  '589828': மஞ்சள் வெளிர்
+  '589829': சுண்ணாம்பு வெளிர்
+  '589830': இளஞ்சிவப்பு வெளிர்
+  '589831': சாம்பல் வெளிர்
+  '589832': வெளிர் சாம்பல் வெளிர்
+  '589833': சியான் பேல்
+  '589834': ஊதா வெளிர்
+  '589835': நீல வெளிர்
+  '589836': பிரவுன் வெளிர்
+  '589837': பச்சை வெளிர்
+  '589838': சிவப்பு வெளிர்
+  '589839': கருப்பு வெளிர்
+  '655360': வெள்ளை ஃபெஸ்
+  '655361': ஆரஞ்சு ஃபெஸ்
+  '655362': மெஜந்தா ஃபெஸ்
+  '655363': வெளிர் நீல ஃபெஸ்
+  '655364': மஞ்சள் ஃபெஸ்
+  '655365': சுண்ணாம்பு ஃபெஸ்
+  '655366': பிங்க் ஃபெஸ்
+  '655367': சாம்பல் ஃபெஸ்
+  '655368': லைட் கிரே ஃபெஸ்
+  '655369': சியான் ஃபெஸ்
+  '655370': ஊதா ஃபெஸ்
+  '655371': ப்ளூ ஃபெஸ்
+  '655372': பிரவுன் ஃபெஸ்
+  '655373': பச்சை ஃபெஸ்
+  '655374': சிவப்பு ஃபெஸ்
+  '655375': கருப்பு ஃபெஸ்
+  '720896': வெள்ளை வளைவு
+  '720897': ஆரஞ்சு வளைவு
+  '720898': மெஜந்தா பெண்ட்
+  '720899': வெளிர் நீல வளைவு
+  '720900': மஞ்சள் வளைவு
+  '720901': சுண்ணாம்பு வளைவு
+  '720902': பிங்க் பெண்ட்
+  '720903': சாம்பல் வளைவு
+  '720904': வெளிர் சாம்பல் வளைவு
+  '720905': சியான் பெண்ட்
+  '720906': ஊதா வளைவு
+  '720907': நீல வளைவு
+  '720908': பிரவுன் பெண்ட்
+  '720909': பச்சை வளைவு
+  '720910': சிவப்பு வளைவு
+  '720911': கருப்பு வளைவு
+  '786432': வெள்ளை வளைவு கெட்டது
+  '786433': ஆரஞ்சு வளைவு கெட்டது
+  '786434': மெஜந்தா பெண்ட் கெட்டது
+  '786435': வெளிர் நீல வளைவு கெட்டது
+  '786436': மஞ்சள் வளைவு கெட்டது
+  '786437': சுண்ணாம்பு வளைவு கெட்டது
+  '786438': பிங்க் பெண்ட் கெட்டது
+  '786439': சாம்பல் வளைவு கெட்டது
+  '786440': வெளிர் சாம்பல் வளைவு கெட்டது
+  '786441': சியான் பெண்ட் கெட்டவர்
+  '786442': ஊதா வளைவு கெட்டது
+  '786443': நீல வளைவு கெட்டது
+  '786444': பிரவுன் பெண்ட் கெட்டவர்
+  '786445': பச்சை வளைவு கெட்டது
+  '786446': சிவப்பு வளைவு கெட்டது
+  '786447': கருப்பு வளைவு கெட்டது
+  '851968': வெள்ளை பாலி
+  '851969': ஆரஞ்சு பாலி
+  '851970': மெஜந்தா பாலி
+  '851971': வெளிர் நீல பாலி
+  '851972': மஞ்சள் பாலி
+  '851973': சுண்ணாம்பு பாலி
+  '851974': பிங்க் பாலி
+  '851975': சாம்பல் பாலி
+  '851976': வெளிர் சாம்பல் பாலி
+  '851977': சியான் பாலி
+  '851978': ஊதா பாலி
+  '851979': ப்ளூ பாலி
+  '851980': பிரவுன் பாலி
+  '851981': பச்சை பாலி
+  '851982': சிவப்பு பாலி
+  '851983': கருப்பு பாலி
+  '917504': வெள்ளை உப்பு
+  '917505': ஆரஞ்சு சால்ட்டர்
+  '917506': மெஜந்தா சால்டைர்
+  '917507': வெளிர் நீல உப்பு
+  '917508': மஞ்சள் உப்பு
+  '917509': சுண்ணாம்பு உப்பு
+  '917510': இளஞ்சிவப்பு உப்பு
+  '917511': சாம்பல் உப்பு
+  '917512': ஒளி சாம்பல் உப்பு
+  '917513': சியான் சால்டைர்
+  '917514': ஊதா உப்பு
+  '917515': நீல உப்பு
+  '917516': பிரவுன் சால்ட்டர்
+  '917517': பச்சை உப்பு
+  '917518': சிவப்பு உப்பு
+  '917519': கருப்பு உப்பு
+  '983040': வெள்ளைக் குறுக்கு
+  '983041': ஆரஞ்சு குறுக்கு
+  '983042': மெஜந்தா கிராஸ்
+  '983043': லைட் ப்ளூ கிராஸ்
+  '983044': மஞ்சள் குறுக்கு
+  '983045': சுண்ணாம்பு குறுக்கு
+  '983046': பிங்க் கிராஸ்
+  '983047': சாம்பல் கிராஸ்
+  '983048': ஒளி சாம்பல் குறுக்கு
+  '983049': சியான் கிராஸ்
+  '983050': ஊதா கிராஸ்
+  '983051': ப்ளூ கிராஸ்
+  '983052': பிரவுன் க்ராஸ்
+  '983053': கிரீன் கிராஸ்
+  '983054': செஞ்சிலுவை
+  '983055': பிளாக் கிராஸ்
+  '1048576': வெள்ளை செவ்ரான்
+  '1048577': ஆரஞ்சு செவ்ரான்
+  '1048578': மெஜந்தா செவ்ரான்
+  '1048579': வெளிர் நீல செவ்ரான்
+  '1048580': மஞ்சள் செவ்ரான்
+  '1048581': சுண்ணாம்பு செவ்ரான்
+  '1048582': பிங்க் செவ்ரான்
+  '1048583': சாம்பல் செவ்ரான்
+  '1048584': வெளிர் சாம்பல் செவ்ரான்
+  '1048585': சியான் செவ்ரான்
+  '1048586': ஊதா செவ்ரான்
+  '1048587': நீல செவ்ரான்
+  '1048588': பிரவுன் செவ்ரான்
+  '1048589': பச்சை செவ்ரான்
+  '1048590': சிவப்பு செவ்ரான்
+  '1048591': கருப்பு செவ்ரான்
+  '1114112': வெள்ளை தலைகீழ் செவ்ரான்
+  '1114113': ஆரஞ்சு தலைகீழ் செவ்ரான்
+  '1114114': மெஜந்தா தலைகீழ் செவ்ரான்
+  '1114115': வெளிர் நீல தலைகீழ் செவ்ரான்
+  '1114116': மஞ்சள் தலைகீழ் செவ்ரான்
+  '1114117': சுண்ணாம்பு தலைகீழ் செவ்ரான்
+  '1114118': பிங்க் தலைகீழ் செவ்ரான்
+  '1114119': சாம்பல் தலைகீழ் செவ்ரான்
+  '1114120': ஒளி சாம்பல் தலைகீழ் செவ்ரான்
+  '1114121': சியான் தலைகீழ் செவ்ரான்
+  '1114122': ஊதா தலைகீழ் செவ்ரான்
+  '1114123': நீல தலைகீழ் செவ்ரான்
+  '1114124': பிரவுன் தலைகீழ் செவ்ரான்
+  '1114125': பச்சை தலைகீழ் செவ்ரான்
+  '1114126': சிவப்பு தலைகீழ் செவ்ரான்
+  '1114127': கருப்பு தலைகீழ் செவ்ரான்
+  '1179648': வெள்ளை அடிப்படை உள்தள்ளப்பட்டது
+  '1179649': ஆரஞ்சு அடிப்படை உள்தள்ளப்பட்டது
+  '1179650': மெஜந்தா அடிப்படை உள்தள்ளப்பட்டது
+  '1179651': வெளிர் நீல அடிப்படை உள்தள்ளப்பட்டது
+  '1179652': மஞ்சள் அடிப்படை உள்தள்ளப்பட்டது
+  '1179653': சுண்ணாம்பு அடிப்படை உள்தள்ளப்பட்டது
+  '1179654': பிங்க் பேஸ் உள்தள்ளப்பட்டது
+  '1179655': சாம்பல் அடிப்படை உள்தள்ளப்பட்டது
+  '1179656': ஒளி சாம்பல் அடிப்படை உள்தள்ளப்பட்டது
+  '1179657': சியான் பேஸ் உள்தள்ளப்பட்டது
+  '1179658': ஊதா அடிப்படை உள்தள்ளப்பட்டது
+  '1179659': நீல அடிப்படை உள்தள்ளப்பட்டது
+  '1179660': பிரவுன் பேஸ் உள்தள்ளப்பட்டது
+  '1179661': பசுமை அடிப்படை உள்தள்ளப்பட்டது
+  '1179662': சிவப்பு அடிப்படை உள்தள்ளப்பட்டது
+  '1179663': கருப்பு அடிப்படை உள்தள்ளப்பட்டது
+  '1245184': வெள்ளை தலைமை உள்தள்ளப்பட்டது
+  '1245185': ஆரஞ்சு தலைமை உள்தள்ளப்பட்டது
+  '1245186': மெஜந்தா தலைமை உள்தள்ளப்பட்டது
+  '1245187': வெளிர் நீல தலைமை உள்தள்ளப்பட்டது
+  '1245188': மஞ்சள் தலைமை உள்தள்ளப்பட்டது
+  '1245189': சுண்ணாம்பு தலைமை உள்தள்ளப்பட்டது
+  '1245190': பிங்க் தலைமை உள்தள்ளப்பட்டது
+  '1245191': சாம்பல் தலைமை உள்தள்ளப்பட்டது
+  '1245192': லைட் கிரே தலைமை உள்தள்ளப்பட்டது
+  '1245193': சியான் தலைமை உள்தள்ளப்பட்டது
+  '1245194': ஊதா தலைமை உள்தள்ளப்பட்டது
+  '1245195': ப்ளூ தலைமை உள்தள்ளப்பட்டது
+  '1245196': பிரவுன் தலைமை உள்தள்ளப்பட்டது
+  '1245197': பசுமை தலைமை உள்தள்ளப்பட்டது
+  '1245198': சிவப்பு தலைமை உள்தள்ளப்பட்டது
+  '1245199': கருப்பு தலைமை உள்தள்ளப்பட்டது
+  '1310720': வெள்ளை ஒன்றுக்கு பெண்ட் கெட்டது
+  '1310721': ஆரஞ்சு ஒன்றுக்கு பெண்ட் கெட்டது
+  '1310722': மெஜந்தா பெர் பெண்ட் கெட்ட
+  '1310723': வெளிர் நீல ஒன்றுக்கு வளைவு கெட்டது
+  '1310724': மஞ்சள் ஒன்றுக்கு வளைவு கெட்டது
+  '1310725': சுண்ணாம்பு ஒன்றுக்கு பெண்ட் கெட்டது
+  '1310726': பிங்க் பெண்ட் கெட்டது
+  '1310727': சாம்பல் ஒன்றுக்கு பெண்ட் கெட்டது
+  '1310728': லேசான சாம்பல் ஒன்றுக்கு வளைவு கெட்டது
+  '1310729': சியான் பெர் பெண்ட் கெட்டது
+  '1310730': ஊதா ஒன்றுக்கு வளைவு கெட்டது
+  '1310731': ப்ளூ பெண்ட் கெட்டது
+  '1310732': பிரவுன் பெண்ட் கெட்ட
+  '1310733': பசுமை ஒன்றுக்கு வளைவு கெட்டது
+  '1310734': ரெட் பெர் கெட்டது
+  '1310735': பிளாக் பெர் கெட்டது
+  '1376256': வெள்ளை ஒன்றுக்கு பெண்ட் கெட்ட தலைகீழ்
+  '1376257': ஆரஞ்சு ஒன்றுக்கு பெண்ட் கெட்ட தலைகீழ்
+  '1376258': மெஜந்தா பெர் பெண்ட் கெட்ட தலைகீழ்
+  '1376259': வெளிர் நீல நிறத்திற்கு வளைவு கெட்ட தலைகீழ்
+  '1376260': மஞ்சள் ஒன்றுக்கு வளைவு கெட்ட தலைகீழ்
+  '1376261': சுண்ணாம்பு ஒன்றுக்கு வளைவு கெட்ட தலைகீழ்
+  '1376262': பிங்க் பெண்ட் கெட்ட தலைகீழ்
+  '1376263': கிரே பெண்ட் கெட்ட தலைகீழ்
+  '1376264': ஒளி வளைவு பெண்ட் கெட்ட தலைகீழ்
+  '1376265': சியான் பெர் பெண்ட் கெட்ட தலைகீழ்
+  '1376266': ஊதா ஒன்றுக்கு வளைவு கெட்ட தலைகீழ்
+  '1376267': ப்ளூ பெண்ட் கெட்ட தலைகீழ்
+  '1376268': பிரவுன் பெண்ட் கெட்ட தலைகீழ்
+  '1376269': பசுமை ஒன்றுக்கு வளைவு கெட்ட தலைகீழ்
+  '1376270': ரெட் பெர் கெட்ட தலைகீழ்
+  '1376271': பிளாக் பெர் கெட்ட தலைகீழ்
+  '1441792': வெள்ளை ஒன்றுக்கு தலைகீழ்
+  '1441793': ஆரஞ்சு ஒன்றுக்கு வளைவு தலைகீழ்
+  '1441794': மெஜந்தா பெர் பெண்ட் தலைகீழ்
+  '1441795': வெளிர் நீல நிறத்திற்கு வெளிர் நீலம்
+  '1441796': மஞ்சள் ஒன்றுக்கு வளைவு தலைகீழ்
+  '1441797': சுண்ணாம்பு ஒன்றுக்கு வளைவு தலைகீழ்
+  '1441798': பிங்க் பெண்ட் தலைகீழ்
+  '1441799': கிரே பெண்ட் தலைகீழ்
+  '1441800': ஒளி வளைவு பெண்ட் தலைகீழ்
+  '1441801': சியான் பெர் பெண்ட் தலைகீழ்
+  '1441802': ஊதா ஒன்றுக்கு வளைவு தலைகீழ்
+  '1441803': ப்ளூ பெர் தலைகீழ்
+  '1441804': பிரவுன் பெண்ட் தலைகீழ்
+  '1441805': பசுமை ஒன்றுக்கு தலைகீழ்
+  '1441806': ரெட் பெர் தலைகீழ்
+  '1441807': பிளாக் பெர் தலைகீழ்
+  '1507328': வெள்ளை ஒன்றுக்கு
+  '1507329': ஆரஞ்சு ஒன்றுக்கு வளைவு
+  '1507330': மெஜந்தா பெர் பெண்ட்
+  '1507331': வளைவுக்கு வெளிர் நீலம்
+  '1507332': மஞ்சள் ஒன்றுக்கு
+  '1507333': சுண்ணாம்பு ஒன்றுக்கு
+  '1507334': ஒரு வளைவுக்கு இளஞ்சிவப்பு
+  '1507335': கிரே பெண்ட்
+  '1507336': வளைவுக்கு ஒளி சாம்பல்
+  '1507337': சியான் பெர் பெண்ட்
+  '1507338': ஒரு வளைவுக்கு ஊதா
+  '1507339': ப்ளூ பெண்ட்
+  '1507340': பிரவுன் ஒன்றுக்கு
+  '1507341': பசுமை ஒன்றுக்கு
+  '1507342': ரெட் பெர் பெண்ட்
+  '1507343': பிளாக் பெர்
+  '1572864': வெள்ளை ரவுண்டல்
+  '1572865': ஆரஞ்சு ரவுண்டல்
+  '1572866': மெஜந்தா ரவுண்டல்
+  '1572867': வெளிர் நீல ரவுண்டல்
+  '1572868': மஞ்சள் ரவுண்டல்
+  '1572869': சுண்ணாம்பு ரவுண்டல்
+  '1572870': பிங்க் ரவுண்டல்
+  '1572871': சாம்பல் ரவுண்டல்
+  '1572872': லைட் கிரே ரவுண்டல்
+  '1572873': சியான் ரவுண்டல்
+  '1572874': ஊதா ரவுண்டல்
+  '1572875': நீல ரவுண்டல்
+  '1572876': பிரவுன் ரவுண்டல்
+  '1572877': பச்சை ரவுண்டல்
+  '1572878': சிவப்பு ரவுண்டல்
+  '1572879': கருப்பு ரவுண்டல்
+  '1638400': வெள்ளை சுவை
+  '1638401': ஆரஞ்சு லாஜெங்கே
+  '1638402': மெஜெண்டா லாஜெங்கே
+  '1638403': லைட் ப்ளூ லூஸங்கே
+  '1638404': மஞ்சள் லாஜெங்கே
+  '1638405': சுண்ணாம்பு
+  '1638406': பிங்க் மூடுதல்
+  '1638407': சாம்பல் லோசைங்கே
+  '1638408': லைட் க்ரே லோசைங்கே
+  '1638409': சைன் லோஜெங்கே
+  '1638410': ஊதா லேசெங்கே
+  '1638411': ப்ளூ லாஜெங்கே
+  '1638412': பிரவுன் லோசைங்கே
+  '1638413': பசுமை லூசிங்கே
+  '1638414': ரெட் லாஜெங்கே
+  '1638415': பிளாக் லஸ்ஸெங்கே
+  '1703936': வெள்ளைக்கு வெளிர்
+  '1703937': ஆரஞ்சு ஒன்றுக்கு வெளிர்
+  '1703938': மெஜந்தா பெர் பேல்
+  '1703939': வெளிர் நீல நிறத்திற்கு
+  '1703940': மஞ்சள் ஒன்றுக்கு மஞ்சள்
+  '1703941': லைம் பெர்
+  '1703942': இளஞ்சிவப்பு ஒன்றுக்கு
+  '1703943': சாம்பல் ஒன்றுக்கு வெளிர்
+  '1703944': வெளிர் சாம்பல்
+  '1703945': சியான் பெர் பேல்
+  '1703946': ஊதா நிறத்திற்கு ஊதா
+  '1703947': ப்ளூ பெர்
+  '1703948': பிரவுன் ஒன்றுக்கு
+  '1703949': பச்சை நிறத்திற்கு
+  '1703950': சிவப்பு நிறத்திற்கு
+  '1703951': கருப்பு நிறத்திற்கு
+  '1769472': ஃபெஸுக்கு வெள்ளை
+  '1769473': ஆரஞ்சு ஒன்றுக்கு
+  '1769474': மெஜந்தா பெர் ஃபெஸ்
+  '1769475': ஃபெஸுக்கு வெளிர் நீலம்
+  '1769476': மஞ்சள் ஒன்றுக்கு
+  '1769477': ஃபெஸ் சுண்ணாம்பு
+  '1769478': ஃபெஸ் பிங்க்
+  '1769479': சாம்பல் ஒன்றுக்கு ஃபெஸ்
+  '1769480': ஃபெஸுக்கு ஒளி சாம்பல்
+  '1769481': சியான் பெர் ஃபெஸ்
+  '1769482': ஃபெஸுக்கு ஊதா
+  '1769483': ஃபெஸ் ப்ளூ
+  '1769484': பிரவுன் ஒன்றுக்கு
+  '1769485': ஃபெஸ் பசுமை
+  '1769486': ரெட் பெர் ஃபெஸ்
+  '1769487': ஃபெஸ் பிளாக்
+  '1835008': வெள்ளை நிறத்திற்கு தலைகீழ்
+  '1835009': ஆரஞ்சு ஒன்றுக்கு வெளிர் தலைகீழ்
+  '1835010': மெஜந்தா பெர் பேல் தலைகீழ்
+  '1835011': வெளிர் தலைகீழாக வெளிர் நீலம்
+  '1835012': மஞ்சள் ஒன்றுக்கு வெளிர் தலைகீழ்
+  '1835013': லைம் பெர் தலைகீழ்
+  '1835014': இளஞ்சிவப்பு ஒன்றுக்கு தலைகீழ்
+  '1835015': சாம்பல் ஒன்றுக்கு தலைகீழ்
+  '1835016': வெளிர் தலைகீழ் ஒளி சாம்பல்
+  '1835017': சியான் பெர் தலைகீழ்
+  '1835018': ஊதா நிறத்திற்கு வெளிர் தலைகீழ்
+  '1835019': ப்ளூ பெர் தலைகீழ்
+  '1835020': பழுப்பு நிற தலைகீழ்
+  '1835021': பச்சை நிறத்திற்கு தலைகீழ்
+  '1835022': ரெட் பெர் தலைகீழ்
+  '1835023': பிளாக் பெர் தலைகீழ்
+  '1900544': ஃபெஸ் தலைகீழ் வெள்ளை
+  '1900545': ஆரஞ்சு ஒன்றுக்கு ஃபெஸ் தலைகீழ்
+  '1900546': மெஜந்தா பெர் ஃபெஸ் தலைகீழ்
+  '1900547': ஃபெஸ் தலைகீழாக வெளிர் நீலம்
+  '1900548': மஞ்சள் ஒன்றுக்கு தலைகீழ்
+  '1900549': சுண்ணாம்பு ஒன்றுக்கு தலைகீழ்
+  '1900550': பிங்க் பெர் ஃபெஸ் தலைகீழ்
+  '1900551': சாம்பல் ஒன்றுக்கு தலைகீழ்
+  '1900552': ஒளி சாம்பல் ஒன்றுக்கு தலைகீழ்
+  '1900553': சியான் பெர் ஃபெஸ் தலைகீழ்
+  '1900554': ஃபெஸ் தலைகீழ் ஒரு ஊதா
+  '1900555': ப்ளூ பெஸ் தலைகீழ்
+  '1900556': பிரவுன் ஒன்றுக்கு தலைகீழ்
+  '1900557': பசுமை ஒன்றுக்கு தலைகீழ்
+  '1900558': ரெட் பெர் ஃபெஸ் தலைகீழ்
+  '1900559': பிளாஸ் பெர் தலைகீழ்
+  '1966080': வெள்ளை எல்லை
+  '1966081': ஆரஞ்சு எல்லை
+  '1966082': மெஜந்தா எல்லை
+  '1966083': வெளிர் நீல எல்லை
+  '1966084': மஞ்சள் எல்லை
+  '1966085': சுண்ணாம்பு எல்லை
+  '1966086': இளஞ்சிவப்பு எல்லை
+  '1966087': சாம்பல் எல்லை
+  '1966088': வெளிர் சாம்பல் எல்லை
+  '1966089': சியான் எல்லை
+  '1966090': ஊதா எல்லை
+  '1966091': நீல எல்லை
+  '1966092': பிரவுன் எல்லை
+  '1966093': பச்சை எல்லை
+  '1966094': சிவப்பு எல்லை
+  '1966095': கருப்பு எல்லை
+  '2031616': வெள்ளை எல்லை உள்தள்ளப்பட்டது
+  '2031617': ஆரஞ்சு எல்லை உள்தள்ளப்பட்டது
+  '2031618': மெஜந்தா எல்லை உள்தள்ளப்பட்டது
+  '2031619': வெளிர் நீல எல்லை உள்தள்ளப்பட்டது
+  '2031620': மஞ்சள் எல்லை உள்தள்ளப்பட்டது
+  '2031621': சுண்ணாம்பு எல்லை உள்தள்ளப்பட்டது
+  '2031622': இளஞ்சிவப்பு எல்லை உள்தள்ளப்பட்டது
+  '2031623': சாம்பல் எல்லை உள்தள்ளப்பட்டது
+  '2031624': ஒளி சாம்பல் எல்லை உள்தள்ளப்பட்டது
+  '2031625': சியான் எல்லை உள்தள்ளப்பட்டது
+  '2031626': ஊதா எல்லை உள்தள்ளப்பட்டது
+  '2031627': நீல எல்லை உள்தள்ளப்பட்டது
+  '2031628': பிரவுன் எல்லை உள்தள்ளப்பட்டது
+  '2031629': பச்சை எல்லை உள்தள்ளப்பட்டது
+  '2031630': சிவப்பு எல்லை உள்தள்ளப்பட்டது
+  '2031631': கருப்பு எல்லை உள்தள்ளப்பட்டது
+  '2097152': வெள்ளை க்ரீப்பர் கட்டணம்
+  '2097153': ஆரஞ்சு க்ரீப்பர் கட்டணம்
+  '2097154': மெஜந்தா க்ரீப்பர் கட்டணம்
+  '2097155': வெளிர் நீல க்ரீப்பர் கட்டணம்
+  '2097156': மஞ்சள் க்ரீப்பர் கட்டணம்
+  '2097157': சுண்ணாம்பு க்ரீப்பர் கட்டணம்
+  '2097158': பிங்க் க்ரீப்பர் கட்டணம்
+  '2097159': சாம்பல் க்ரீப்பர் கட்டணம்
+  '2097160': லைட் கிரே க்ரீப்பர் கட்டணம்
+  '2097161': சியான் க்ரீப்பர் கட்டணம்
+  '2097162': ஊதா க்ரீப்பர் கட்டணம்
+  '2097163': நீல க்ரீப்பர் கட்டணம்
+  '2097164': பிரவுன் க்ரீப்பர் கட்டணம்
+  '2097165': பச்சை க்ரீப்பர் கட்டணம்
+  '2097166': ரெட் க்ரீப்பர் கட்டணம்
+  '2097167': கருப்பு க்ரீப்பர் கட்டணம்
+  '2162688': வெள்ளை சாய்வு
+  '2162689': ஆரஞ்சு சாய்வு
+  '2162690': மெஜந்தா சாய்வு
+  '2162691': வெளிர் நீல சாய்வு
+  '2162692': மஞ்சள் சாய்வு
+  '2162693': சுண்ணாம்பு சாய்வு
+  '2162694': இளஞ்சிவப்பு சாய்வு
+  '2162695': சாம்பல் சாய்வு
+  '2162696': ஒளி சாம்பல் சாய்வு
+  '2162697': சியான் சாய்வு
+  '2162698': ஊதா சாய்வு
+  '2162699': நீல சாய்வு
+  '2162700': பிரவுன் சாய்வு
+  '2162701': பச்சை சாய்வு
+  '2162702': சிவப்பு சாய்வு
+  '2162703': கருப்பு சாய்வு
+  '2228224': வெள்ளை அடிப்படை சாய்வு
+  '2228225': ஆரஞ்சு அடிப்படை சாய்வு
+  '2228226': மெஜந்தா அடிப்படை சாய்வு
+  '2228227': வெளிர் நீல அடிப்படை சாய்வு
+  '2228228': மஞ்சள் அடிப்படை சாய்வு
+  '2228229': சுண்ணாம்பு அடிப்படை சாய்வு
+  '2228230': பிங்க் பேஸ் சாய்வு
+  '2228231': சாம்பல் அடிப்படை சாய்வு
+  '2228232': ஒளி சாம்பல் அடிப்படை சாய்வு
+  '2228233': சியான் பேஸ் சாய்வு
+  '2228234': ஊதா அடிப்படை சாய்வு
+  '2228235': ப்ளூ பேஸ் சாய்வு
+  '2228236': பிரவுன் பேஸ் சாய்வு
+  '2228237': பசுமை அடிப்படை சாய்வு
+  '2228238': சிவப்பு அடிப்படை சாய்வு
+  '2228239': கருப்பு அடிப்படை சாய்வு
+  '2293760': வெள்ளை புலம் மேசன்
+  '2293761': ஆரஞ்சு புலம் மேசன்
+  '2293762': மெஜந்தா புலம் மேசன்
+  '2293763': வெளிர் நீல புலம் மேசன்
+  '2293764': மஞ்சள் புலம் மேசன்
+  '2293765': சுண்ணாம்பு புலம் மேசன்
+  '2293766': பிங்க் ஃபீல்ட் மேசன்
+  '2293767': சாம்பல் புலம் மேசன்
+  '2293768': லைட் கிரே ஃபீல்ட் மேசன்
+  '2293769': சியான் புலம் மேசன்
+  '2293770': ஊதா புலம் மேசன்
+  '2293771': ப்ளூ ஃபீல்ட் மேசன்
+  '2293772': பிரவுன் ஃபீல்ட் மேசன்
+  '2293773': கிரீன் ஃபீல்ட் மேசன்
+  '2293774': ரெட் ஃபீல்ட் மேசன்
+  '2293775': பிளாக் ஃபீல்ட் மேசன்
+  '2359296': வெள்ளை மண்டை கட்டணம்
+  '2359297': ஆரஞ்சு மண்டை கட்டணம்
+  '2359298': மெஜந்தா மண்டை கட்டணம்
+  '2359299': வெளிர் நீல மண்டை கட்டணம்
+  '2359300': மஞ்சள் மண்டை கட்டணம்
+  '2359301': சுண்ணாம்பு மண்டை கட்டணம்
+  '2359302': இளஞ்சிவப்பு மண்டை கட்டணம்
+  '2359303': சாம்பல் மண்டை கட்டணம்
+  '2359304': வெளிர் சாம்பல் மண்டை கட்டணம்
+  '2359305': சியான் ஸ்கல் சார்ஜ்
+  '2359306': ஊதா மண்டை கட்டணம்
+  '2359307': நீல மண்டை கட்டணம்
+  '2359308': பிரவுன் மண்டை கட்டணம்
+  '2359309': பச்சை மண்டை கட்டணம்
+  '2359310': சிவப்பு மண்டை கட்டணம்
+  '2359311': கருப்பு மண்டை கட்டணம்
+  '2424832': வெள்ளை மலர் கட்டணம்
+  '2424833': ஆரஞ்சு மலர் கட்டணம்
+  '2424834': மெஜந்தா மலர் கட்டணம்
+  '2424835': வெளிர் நீல மலர் கட்டணம்
+  '2424836': மஞ்சள் மலர் கட்டணம்
+  '2424837': சுண்ணாம்பு மலர் கட்டணம்
+  '2424838': இளஞ்சிவப்பு மலர் கட்டணம்
+  '2424839': சாம்பல் மலர் கட்டணம்
+  '2424840': வெளிர் சாம்பல் மலர் கட்டணம்
+  '2424841': சியான் மலர் கட்டணம்
+  '2424842': ஊதா மலர் கட்டணம்
+  '2424843': நீல மலர் கட்டணம்
+  '2424844': பழுப்பு மலர் கட்டணம்
+  '2424845': பச்சை மலர் கட்டணம்
+  '2424846': சிவப்பு மலர் கட்டணம்
+  '2424847': கருப்பு மலர் கட்டணம்
+  '2490368': வெள்ளை திங்
+  '2490369': ஆரஞ்சு திங்
+  '2490370': மெஜந்த திங்
+  '2490371': லைட் ப்ளூ திங்
+  '2490372': மஞ்சள் திங்
+  '2490373': சுண்ணாம்பு திங்
+  '2490374': பிங்க் திங்
+  '2490375': சாம்பல் திங்
+  '2490376': ஒளி சாம்பல் திங்
+  '2490377': சியான் திங்
+  '2490378': ஊதா திங்
+  '2490379': ப்ளூ திங்
+  '2490380': பிரவுன் திங்
+  '2490381': பச்சை திங்
+  '2490382': ரெட் திங்
+  '2490383': பிளாக் திங்
+  '2555904': வெள்ளை குளோப்
+  '2555905': ஆரஞ்சு குளோப்
+  '2555906': மெஜந்த குளோப்
+  '2555907': லைட் ப்ளூ குளோப்
+  '2555908': மஞ்சள் குளோப்
+  '2555909': சுண்ணாம்பு குளோப்
+  '2555910': பிங்க் குளோப்
+  '2555911': சாம்பல் குளோப்
+  '2555912': ஒளி சாம்பல் குளோப்
+  '2555913': சியான் குளோப்
+  '2555914': ஊதா குளோப்
+  '2555915': ப்ளூ குளோப்
+  '2555916': பிரவுன் குளோப்
+  '2555917': பச்சை குளோப்
+  '2555918': ரெட் குளோப்
+  '2555919': பிளாக் குளோப்
+  '2621440': வெள்ளை முனகல்
+  '2621441': ஆரஞ்சு முனகல்
+  '2621442': மெஜந்தா ஸ்னவுட்
+  '2621443': வெளிர் நீல முனகல்
+  '2621444': மஞ்சள் முனகல்
+  '2621445': சுண்ணாம்பு முனகல்
+  '2621446': இளஞ்சிவப்பு முனகல்
+  '2621447': சாம்பல் முனகல்
+  '2621448': ஒளி சாம்பல் முனகல்
+  '2621449': சியான் ஸ்னவுட்
+  '2621450': ஊதா முனகல்
+  '2621451': நீல முனகல்
+  '2621452': பிரவுன் ஸ்னட்
+  '2621453': பச்சை முனகல்
+  '2621454': சிவப்பு முனகல்
+  '2621455': கருப்பு முனகல்
+merchant_level:
+  '1': புதிய
+  '2': பயிற்சிபெறும்
+  '3': கைதேர்ந்த
+  '4': நிபுணர்
+  '5': மாஸ்டர்
+villager_profession:
+  none: வில்லேஜர்
+  armorer: போர்கருவிகளை கையாள
+  butcher: கசாப்பு
+  cartographer: வரைபட
+  cleric: மதகுரு
+  farmer: உழவர்
+  fisherman: மீனவர்
+  fletcher: பிளெட்சர்
+  leatherworker: தோல் பணியாளர்
+  librarian: நூலகர்
+  mason: மேசன்
+  nitwit: அறிவற்ற
+  shepherd: ஷெப்பர்ட்
+  toolsmith: கருவிஸ்மித்
+  weaponsmith: துப்பாக்கிஸ்மித்

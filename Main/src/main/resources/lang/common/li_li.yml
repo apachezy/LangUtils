@@ -1,0 +1,2196 @@
+# ####################################################
+# Build time: 2021-03-06 14:47:28                    #
+# ####################################################
+language:
+  code: li_li
+  name: Limburgs
+  region: Limburg
+material:
+  air: Locht
+  stone: Sjtein
+  granite: Graniet
+  polished_granite: Gepolijste Graniet
+  diorite: Dioriet
+  polished_diorite: Gepolijste Dioriet
+  andesite: Andesiet
+  polished_andesite: Gepolijste Andesiet
+  grass_block: Graasblok
+  dirt: Drek
+  coarse_dirt: Grovve Drek
+  podzol: Podzol
+  crimson_nylium: Karmozien Nylium
+  warped_nylium: Kromgetrokke Nylium
+  cobblestone: Keij
+  oak_planks: Eikenhouten planken
+  spruce_planks: Sparrenhouten planken
+  birch_planks: Berkenhouten planken
+  jungle_planks: Oerwoudhouten planken
+  acacia_planks: Acaciahouten planken
+  dark_oak_planks: Donkereeikenhouten planken
+  crimson_planks: Karmozien plank
+  warped_planks: Kromgetrokke plank
+  oak_sapling: Eikenkiemplant
+  spruce_sapling: Sparrenkiemplant
+  birch_sapling: Berkenkiemplant
+  jungle_sapling: Oerwoudkiemplant
+  acacia_sapling: Acaciakiemplant
+  dark_oak_sapling: Donkere eikenkiemplant
+  bedrock: Fondsjtein
+  sand: Zandj
+  red_sand: Roed Zandj
+  gravel: Greind
+  gold_ore: Gouderts
+  iron_ore: Iezererts
+  coal_ore: Sjteinkoolerts
+  nether_gold_ore: Nether Gold Erts
+  oak_log: Eikenstjam
+  spruce_log: Sparrenstjam
+  birch_log: Berkenstjam
+  jungle_log: Oerwoudstam
+  acacia_log: Acaciastjam
+  dark_oak_log: Donkereeikenhoutensjtam
+  crimson_stem: Karmozien Stem
+  warped_stem: Kromgetrokke Stem
+  stripped_oak_log: Gestripte Eikesjtam
+  stripped_spruce_log: Gestripte Sjparresjtam
+  stripped_birch_log: Gestripte Berkesjtam
+  stripped_jungle_log: Gestripte Oerwoudsjtam
+  stripped_acacia_log: Gestripte Acaciasjtam
+  stripped_dark_oak_log: Gestripte Donkere Eikensjtam
+  stripped_crimson_stem: Gestripde Karmozien Stem
+  stripped_warped_stem: Gestripte Kromgetrokke Stem
+  stripped_oak_wood: Gestript eikehout
+  stripped_spruce_wood: Gestript sjparrehout
+  stripped_birch_wood: Gestript berkehout
+  stripped_jungle_wood: Gestript oerwoudhout
+  stripped_acacia_wood: Gestript acaciahout
+  stripped_dark_oak_wood: Gestript donkereikehout
+  stripped_crimson_hyphae: Gestripte karmozien hyfen
+  stripped_warped_hyphae: Gestripte Kromgetrokke Hyphae
+  oak_wood: Eikehout
+  spruce_wood: Sjparrehout
+  birch_wood: Birkehout
+  jungle_wood: Oerwoudhout
+  acacia_wood: Acaciahout
+  dark_oak_wood: Donker Eikehout
+  crimson_hyphae: Karmozien Hyphae
+  warped_hyphae: Kromgetrokke Hyphae
+  oak_leaves: Eikenblajere
+  spruce_leaves: Sparrennaoldje
+  birch_leaves: Bérkenblajere
+  jungle_leaves: Oerwoudblajere
+  acacia_leaves: Acaciablajere
+  dark_oak_leaves: Dónkere eikenblajere
+  sponge: Sjpóns
+  wet_sponge: Natte sjpons
+  glass: Glaas
+  lapis_ore: Lapis lazuli erts
+  lapis_block: Lapis Lazuliblok
+  dispenser: Dispenser
+  sandstone: Zandjsjtein
+  chiseled_sandstone: Verseerd Zandjsjtein
+  cut_sandstone: Gesnjeden zandstjein
+  note_block: Nootblok
+  powered_rail: Aandrijfspoear
+  detector_rail: Detectiespoear
+  sticky_piston: Kleefzuiger
+  cobweb: Spinneweb
+  grass: Graas
+  fern: Varen
+  dead_bush: Doeje stroek
+  seagrass: Ziegraas
+  sea_pickle: Zee Augurk
+  piston: Zuiger
+  white_wool: Witte wol
+  orange_wool: Oranje wol
+  magenta_wool: Magenta wol
+  light_blue_wool: Licht blauwe wol
+  yellow_wool: Gaele wol
+  lime_wool: Lichgreune wol
+  pink_wool: Roze wol
+  gray_wool: Grieze wol
+  light_gray_wool: Licht grieze Wol
+  cyan_wool: Turquoise Wol
+  purple_wool: Paarse wol
+  blue_wool: Blauwe wol
+  brown_wool: Broene wol
+  green_wool: Greune wol
+  red_wool: Roeje wol
+  black_wool: Zjwarte wol
+  dandelion: Paerdebloom
+  poppy: Klaproeas
+  blue_orchid: Blauwe orchidee
+  allium: Look
+  azure_bluet: Porseleinsterretje
+  red_tulip: Roede tulp
+  orange_tulip: Oranje tulp
+  white_tulip: Witte tulp
+  pink_tulip: Roze tulp
+  oxeye_daisy: Margriet
+  cornflower: Korenbloom
+  lily_of_the_valley: Lelietje-van-dalen
+  wither_rose: Witherroes
+  brown_mushroom: Broene paddenstoel
+  red_mushroom: Roeje paddesjtool
+  crimson_fungus: Karmozien schimmel
+  warped_fungus: Kromgetrokke schimmel
+  crimson_roots: Karmozien wortelle
+  warped_roots: Kromgetrokke wortelle
+  nether_sprouts: Nether sproet
+  weeping_vines: Huilende wienstokke
+  twisting_vines: Dreiende wienstok
+  sugar_cane: Soekër Sjtek
+  kelp: Kelp
+  bamboo: Bamboe
+  gold_block: Goudblok
+  iron_block: Iezerblok
+  oak_slab: Eikenhouten plaat
+  spruce_slab: Sparrenhouten plaat
+  birch_slab: Berkenhouten plaat
+  jungle_slab: Oerwoudhouten plaat
+  acacia_slab: Acacia plaat
+  dark_oak_slab: Donkereeikenhouten plaat
+  crimson_slab: Karmozien plaat
+  warped_slab: Kromgetrokke plaat
+  stone_slab: Sjteinen plaat
+  smooth_stone_slab: Gladde sjteinen plaat
+  sandstone_slab: Zandjsjteine Plaat
+  cut_sandstone_slab: Gesnede zanstenen ploat
+  petrified_oak_slab: Verstjeende eikenhouten plaat
+  cobblestone_slab: Keijplaat
+  brick_slab: Bakstjeinen plaat
+  stone_brick_slab: Bloksjteinen plaat
+  nether_brick_slab: Netherbaksjteinen plaat
+  quartz_slab: Kwartsplaat
+  red_sandstone_slab: Roeje Zandjsjteine Plaat
+  cut_red_sandstone_slab: Gesnede rooje zanstenen ploat
+  purpur_slab: Purpurplaat
+  prismarine_slab: Prismarine Plaat
+  prismarine_brick_slab: Prismarienbloksjteinen plaat
+  dark_prismarine_slab: Donkere Prismarine Plaat
+  smooth_quartz: Gladde Kwarts bluk
+  smooth_red_sandstone: Glate Roeje Zandjsjtein
+  smooth_sandstone: Glaat Zandjsjtein
+  smooth_stone: Gladde stjeen
+  bricks: Baksjteinen
+  tnt: TNT
+  bookshelf: Bokekas
+  mossy_cobblestone: Mossige keisjtein
+  obsidian: Obsidiaan
+  torch: Fakkel
+  end_rod: Endstaf
+  chorus_plant: Chorusplant
+  chorus_flower: Chorusbloom
+  purpur_block: Purpurblok
+  purpur_pillar: Purpurpelaer
+  purpur_stairs: Purpurtrap
+  spawner: Monsterkooi
+  oak_stairs: Eikehoute Trap
+  chest: Kis
+  diamond_ore: Diamanterts
+  diamond_block: Diamantblok
+  crafting_table: Werkbank
+  farmland: Akkerlandj
+  furnace: Aove
+  ladder: Lèdder
+  rail: Rail
+  cobblestone_stairs: Sjteinen trap
+  lever: Hendel
+  stone_pressure_plate: Sjteinen drukplaat
+  oak_pressure_plate: Eikehoute Drukplaat
+  spruce_pressure_plate: Sjparrehoute Drukplaat
+  birch_pressure_plate: Berkehoute Drukplaat
+  jungle_pressure_plate: Oerwoudhoute Drukplaat
+  acacia_pressure_plate: Acacia Drukplaat
+  dark_oak_pressure_plate: Donkere Eikehoute Drukplaat
+  crimson_pressure_plate: Karmozien drukplaat
+  warped_pressure_plate: Kromgetrokke drukplaat
+  polished_blackstone_pressure_plate: Gepolieste Zwartstein Drukplaat
+  redstone_ore: Redstone erts
+  redstone_torch: Redstone fakkel
+  snow: Sjnie
+  ice: Ies
+  snow_block: Snie blok
+  cactus: Kaktus
+  clay: Kleij
+  jukebox: Jukebox
+  oak_fence: Eikenhouten hek
+  spruce_fence: Sparrenhouten hek
+  birch_fence: Berkenhouten hek
+  jungle_fence: Oerwoudhouten hek
+  acacia_fence: Acaciahouten hek
+  dark_oak_fence: Dónkere eikenhouten hek
+  crimson_fence: Karmozien hek
+  warped_fence: Kromgetrokke hek
+  pumpkin: Pompoen
+  carved_pumpkin: Gesjneeje pompoen
+  netherrack: Netherrack
+  soul_sand: Zeelzandj
+  soul_soil: Ziel booiem
+  basalt: Basalt
+  polished_basalt: Gepolieste Basalt
+  soul_torch: Ziel Fakkel
+  glowstone: Gloeisjtein
+  jack_o_lantern: Jack-o'-lantern
+  oak_trapdoor: Eikhoute valluik
+  spruce_trapdoor: Sjparhoute valluik
+  birch_trapdoor: Berkehoute Valluik
+  jungle_trapdoor: Oerwoud valluik
+  acacia_trapdoor: Acacia Valluik
+  dark_oak_trapdoor: Dónkere eikenhouten duur
+  crimson_trapdoor: Karmozien valluik
+  warped_trapdoor: Kromgetrokke valluik
+  infested_stone: Geïnfecteerde sjtein
+  infested_cobblestone: Geïnfecteerde kiezelsjtein
+  infested_stone_bricks: Geïnfecteerde baksjtein blok
+  infested_mossy_stone_bricks: Geïnfecteerde mossige baksjtein
+  infested_cracked_stone_bricks: Geïnfecteerde gebröake baksjtein
+  infested_chiseled_stone_bricks: Geïnfecteerde gesjleepe bakstein
+  stone_bricks: Bloksjteinen
+  mossy_stone_bricks: Mossige bloksjteinen
+  cracked_stone_bricks: Gebarste bloksjteinen
+  chiseled_stone_bricks: Gebeitelde bloksjteinen
+  brown_mushroom_block: Broen paddenstoelenblok
+  red_mushroom_block: Roed paddenstoelenblok
+  mushroom_stem: Paddenstoelensjtam
+  iron_bars: Iezer Stave
+  chain: Gekoppeld
+  glass_pane: Glazen Roet
+  melon: Meloen
+  vine: Lianen
+  oak_fence_gate: Eikenhouten pörtje
+  spruce_fence_gate: Sparrenhouten pörtje
+  birch_fence_gate: Berkenhouten pörtje
+  jungle_fence_gate: Oerwoudhouten pörtje
+  acacia_fence_gate: Acaciahouten pörtje
+  dark_oak_fence_gate: Donkere eikenhouten pörtje
+  crimson_fence_gate: Karmozien hekpoortje
+  warped_fence_gate: Kromgetrokke hekpoortje
+  brick_stairs: Baksjteinen trap
+  stone_brick_stairs: Bloksjteinen traeje
+  mycelium: Zwamvlok
+  lily_pad: Waterlelie
+  nether_bricks: Nether Baksjtein
+  cracked_nether_bricks: Gebarste Netherbakstein
+  chiseled_nether_bricks: Gebietelde Netherbakstein
+  nether_brick_fence: Netherbaksjteinen hek
+  nether_brick_stairs: Netherbaksjteinen trap
+  enchanting_table: Betouvertaofel
+  end_portal_frame: Endportaalframe
+  end_stone: Endsjtein
+  end_stone_bricks: Endbloksjteinen
+  dragon_egg: Drakenei
+  redstone_lamp: Redstone lamp
+  sandstone_stairs: Zandjsjteinen Trap
+  emerald_ore: Smaragderts
+  ender_chest: Enderkis
+  tripwire_hook: Stroekeldraodhaak
+  emerald_block: Smaragdblok
+  spruce_stairs: Sparrenhouten traeje
+  birch_stairs: Berkehoute Trap
+  jungle_stairs: Oerwoudhouten traeje
+  crimson_stairs: Karmozien trappen
+  warped_stairs: Kromgetrokke trappen
+  command_block: Opdrachblok
+  beacon: Bake
+  cobblestone_wall: Keijmoer
+  mossy_cobblestone_wall: Mossige Keijmoer
+  brick_wall: Baksjteinen moer
+  prismarine_wall: Prismarienmoer
+  red_sandstone_wall: Roede zandsjteinen moer
+  mossy_stone_brick_wall: Mossige bloksjteinen moer
+  granite_wall: Granietmoer
+  stone_brick_wall: Bloksjteinen moer
+  nether_brick_wall: Netherbaksjteinen moer
+  andesite_wall: Andesietmoer
+  red_nether_brick_wall: Roede Netherbaksjteinen moer
+  sandstone_wall: Zandsjteinen moer
+  end_stone_brick_wall: Endbloksjteinen moer
+  diorite_wall: Diorietmoer
+  blackstone_wall: Zwartstein moor
+  polished_blackstone_wall: Gepolieste Zwartstein Moor
+  polished_blackstone_brick_wall: Gepolieste Zwartstein Bakstein Moor
+  stone_button: Sjteine knop
+  oak_button: Eike Knop
+  spruce_button: Sjparre Knop
+  birch_button: Berke Knop
+  jungle_button: Oerwoud Knop
+  acacia_button: Acacia Knop
+  dark_oak_button: Donkere Eikehoute Knop
+  crimson_button: Karmozien knoep
+  warped_button: Kromgetrokke knoep
+  polished_blackstone_button: Gepolieste Zwartstein Knoep
+  anvil: Aambild
+  chipped_anvil: Gebarsjte aambild
+  damaged_anvil: Beschadigd aambild
+  trapped_chest: Kis mit Val
+  light_weighted_pressure_plate: Lichte drukgevoelige plaat
+  heavy_weighted_pressure_plate: Zware drukgevoelige plaat
+  daylight_detector: Daagleeg sensor
+  redstone_block: Redstoneblok
+  nether_quartz_ore: Netherkwartserts
+  hopper: Trechter
+  chiseled_quartz_block: Gebeiteld Kwartsblok
+  quartz_block: Kwartsblok
+  quartz_bricks: Kwarts Bakstein
+  quartz_pillar: Kwarts pillaar
+  quartz_stairs: Kwartstrap
+  activator_rail: Activatiespoear
+  dropper: Dropper
+  white_terracotta: Wit Terracotta
+  orange_terracotta: Oranje Terracotta
+  magenta_terracotta: Magenta terracotta
+  light_blue_terracotta: Lichtblauwe Terracotta
+  yellow_terracotta: Gaele Terracotta
+  lime_terracotta: Lichtgreune terracotta
+  pink_terracotta: Roze Terracotta
+  gray_terracotta: Griese Terracotta
+  light_gray_terracotta: Lichtgriese Terracotta
+  cyan_terracotta: Turqouoise terracotta
+  purple_terracotta: Paorse Terracotta
+  blue_terracotta: Blauwe Terracotta
+  brown_terracotta: Broene Terracotta
+  green_terracotta: Greune Terracotta
+  red_terracotta: Roeke Terracotta
+  black_terracotta: Zjwarte Terracotta
+  barrier: Barrière
+  iron_trapdoor: Iezer Valluik
+  hay_block: ' Huijbaal'
+  white_carpet: Wit Kerpèt
+  orange_carpet: Oranje Kerpèt
+  magenta_carpet: Magenta Kerpèt
+  light_blue_carpet: Lichblauw Kerpèt
+  yellow_carpet: Gael Kerpèt
+  lime_carpet: Lichgreun Kerpèt
+  pink_carpet: Roze Kerpèt
+  gray_carpet: Gries Kerpèt
+  light_gray_carpet: Lichgries Kerpèt
+  cyan_carpet: Turquoise Kerpèt
+  purple_carpet: Paars Kerpèt
+  blue_carpet: Blauw Kerpèt
+  brown_carpet: Broen Kerpèt
+  green_carpet: Greun Kerpèt
+  red_carpet: Roed Kerpèt
+  black_carpet: Zjwart Kerpèt
+  terracotta: Terracotta
+  coal_block: Kaoleblok
+  packed_ice: Pakies
+  acacia_stairs: Acaciahouten traeje
+  dark_oak_stairs: Donkere Eikehoute trap
+  slime_block: Slijmblok
+  grass_path: Graaspaej
+  sunflower: Zónnebloom
+  lilac: Sering
+  rose_bush: Roeaze stroek
+  peony: Pioenroeas
+  tall_grass: Hoog graas
+  large_fern: Groeate varen
+  white_stained_glass: Wit gekleurd glaas
+  orange_stained_glass: Oranje gekleurd glaas
+  magenta_stained_glass: Magenta gekleurd glaas
+  light_blue_stained_glass: Licht blauw gekleurd glaas
+  yellow_stained_glass: Gael gekleurd glaas
+  lime_stained_glass: Licht greun gekleurd glaas
+  pink_stained_glass: Roze gekleurd glaas
+  gray_stained_glass: Gries gekleurd glaas
+  light_gray_stained_glass: Licht gries gekleurd glaas
+  cyan_stained_glass: Turquoise Gekleurde glaas
+  purple_stained_glass: Paars gekleurd glaas
+  blue_stained_glass: Blauw gekleurd glaas
+  brown_stained_glass: Broen gekleurd glaas
+  green_stained_glass: Greun gekleurd glaas
+  red_stained_glass: Roed gekleurde glaas
+  black_stained_glass: Zjwart gekleurd glaas
+  white_stained_glass_pane: Witgekleurde glazen roet
+  orange_stained_glass_pane: Oranjegekleurde glazen roet
+  magenta_stained_glass_pane: Magenta gekleurde glazen roet
+  light_blue_stained_glass_pane: Licht blauw gekleurde glazen roet
+  yellow_stained_glass_pane: Gael gekleurde glazen roet
+  lime_stained_glass_pane: Licht greun gekleurde glazen roet
+  pink_stained_glass_pane: Roze gekleurde glazen roet
+  gray_stained_glass_pane: Gries gekleurde glazen roet
+  light_gray_stained_glass_pane: Licht gries gekleurde glazen roet
+  cyan_stained_glass_pane: Turquoise Gekleurde glazen roet
+  purple_stained_glass_pane: Paars gekleurde glazen roet
+  blue_stained_glass_pane: Blauw gekleurde glazen roet
+  brown_stained_glass_pane: Broen gekleurde glazen roet
+  green_stained_glass_pane: Greun gekleurde glazen roet
+  red_stained_glass_pane: Roed gekleurde glazen roet
+  black_stained_glass_pane: Zjwart gekleurde glazen roet
+  prismarine: Prismarien
+  prismarine_bricks: Prismarine bloksjteinen
+  dark_prismarine: Dónkere prismarine
+  prismarine_stairs: Prismarine Trap
+  prismarine_brick_stairs: Prismarienbloksjteinen trap
+  dark_prismarine_stairs: Donkere Prismarine Trap
+  sea_lantern: Zeelantaarn
+  red_sandstone: Roeje Zandjsjtein
+  chiseled_red_sandstone: Verseerde Roeje Zandjsjtein
+  cut_red_sandstone: Gesnjeden roed zandsteen
+  red_sandstone_stairs: Roeje Zandjsjteinen Trap
+  repeating_command_block: Herhaolend Opdrachblock
+  chain_command_block: Kèttingopdrachblok
+  magma_block: Magmablok
+  nether_wart_block: Netherkroedblok
+  warped_wart_block: Kromgetrokke Wrat Bluk
+  red_nether_bricks: Roeje Nether baksjtein
+  bone_block: Bottenblok
+  structure_void: Constructieleegte
+  observer: Observeerder
+  shulker_box: Shulker doeas
+  white_shulker_box: Witte Shulker doeas
+  orange_shulker_box: Oranje Shulker doeas
+  magenta_shulker_box: Magenta Shulker doeas
+  light_blue_shulker_box: Licht blauwe Shulker doeas
+  yellow_shulker_box: Gaele Shulker doeas
+  lime_shulker_box: Ligt Greune Shulker Doeas
+  pink_shulker_box: Roze Shulker doeas
+  gray_shulker_box: Gries Shulker Doeas
+  light_gray_shulker_box: Licht Grieze Shulker Doeas
+  cyan_shulker_box: Turquoise Shulker doeas
+  purple_shulker_box: Paarse Shulker doeas
+  blue_shulker_box: Blauwe Shulker doeas
+  brown_shulker_box: Broene Shulker doeas
+  green_shulker_box: Greune Shulker doeas
+  red_shulker_box: Roeje Shulker doeas
+  black_shulker_box: Zjwarte Shulker doeas
+  white_glazed_terracotta: Witgeglazuurde terracotta
+  orange_glazed_terracotta: Oranjegeglazuurde terracotta
+  magenta_glazed_terracotta: Magentageglazuurde terracotta
+  light_blue_glazed_terracotta: Lichtblauwgeglazuurde terracotta
+  yellow_glazed_terracotta: Gaelgeglazuurde terracotta
+  lime_glazed_terracotta: Lichtgreungeglazuurde terracotta
+  pink_glazed_terracotta: Rozegeglazuurde terracotta
+  gray_glazed_terracotta: Griesgeglazuurde terracotta
+  light_gray_glazed_terracotta: Lichtgriesgeglazuurde terracotta
+  cyan_glazed_terracotta: Turquoisegeglazuurde terracotta
+  purple_glazed_terracotta: Paarsgeglazuurde terracotta
+  blue_glazed_terracotta: Blauwgeglazuurde terracotta
+  brown_glazed_terracotta: Broengeglazuurde terracotta
+  green_glazed_terracotta: Greungeglazuurde terracotta
+  red_glazed_terracotta: Roeadgeglazuurde terracotta
+  black_glazed_terracotta: Zjwartgeglazuurde terracotta
+  white_concrete: Wit beton
+  orange_concrete: Oranje beton
+  magenta_concrete: Magenta beton
+  light_blue_concrete: Lichtblauw beton
+  yellow_concrete: Gael beton
+  lime_concrete: Lichtgreun beton
+  pink_concrete: Roze beton
+  gray_concrete: Gries beton
+  light_gray_concrete: Lichtgries beton
+  cyan_concrete: Turquoise beton
+  purple_concrete: Paars beton
+  blue_concrete: Blauw beton
+  brown_concrete: Broen beton
+  green_concrete: Greun beton
+  red_concrete: Roead beton
+  black_concrete: Zjwart beton
+  white_concrete_powder: Wit cement
+  orange_concrete_powder: Oranje cement
+  magenta_concrete_powder: Magenta cement
+  light_blue_concrete_powder: Lichtblauw cement
+  yellow_concrete_powder: Gael cement
+  lime_concrete_powder: Lichtgreun cement
+  pink_concrete_powder: Roze cement
+  gray_concrete_powder: Gries cement
+  light_gray_concrete_powder: Lichtgries cement
+  cyan_concrete_powder: Turquoise cement
+  purple_concrete_powder: Paars cement
+  blue_concrete_powder: Blauw cement
+  brown_concrete_powder: Broen cement
+  green_concrete_powder: Greun cement
+  red_concrete_powder: Roed cement
+  black_concrete_powder: Zjwart cement
+  turtle_egg: Sjildkróddel ei
+  dead_tube_coral_block: Doed buuskoraalblok
+  dead_brain_coral_block: Doed hersenkoraalblok
+  dead_bubble_coral_block: Doed blaaskoraalblok
+  dead_fire_coral_block: Doed brandkoraalblok
+  dead_horn_coral_block: Doed haorekoraalblok
+  tube_coral_block: Buuskoraalblok
+  brain_coral_block: Hersenkoraalblok
+  bubble_coral_block: Blaaskoraalblok
+  fire_coral_block: Brandkoraalblok
+  horn_coral_block: Haorekoraalblok
+  tube_coral: Buuskoraal
+  brain_coral: Hersenkoraal
+  bubble_coral: Blaaskoraal
+  fire_coral: Brandkoraal
+  horn_coral: Haorekoraal
+  dead_brain_coral: Doed hersenkoraal
+  dead_bubble_coral: Doed blaaskoraal
+  dead_fire_coral: Doed brandkoraal
+  dead_horn_coral: Doed hoornkoraal
+  dead_tube_coral: Doed buiskoraal
+  tube_coral_fan: Buuskoraalwaaijer
+  brain_coral_fan: Hersenkoraalwaaijer
+  bubble_coral_fan: Blaaskoraalwaaijer
+  fire_coral_fan: Brandkoraalwaaijer
+  horn_coral_fan: Haorekoraalwaaijer
+  dead_tube_coral_fan: Doeje buiskoraalwaaier
+  dead_brain_coral_fan: Doeje hersenkoraalwaaier
+  dead_bubble_coral_fan: Doeje blaaskoraalwaaier
+  dead_fire_coral_fan: Doeje brandkoraalwaaier
+  dead_horn_coral_fan: Doeje hoornkoraalwaaier
+  blue_ice: Blauw ies
+  conduit: Krach van oet de zee
+  polished_granite_stairs: Gepolieste graniettrap
+  smooth_red_sandstone_stairs: Gladde roede zandsjteinen trap
+  mossy_stone_brick_stairs: Mossige bloksjteinen trap
+  polished_diorite_stairs: Gepolieste dioriettrap
+  mossy_cobblestone_stairs: Mossige keisjteinen trap
+  end_stone_brick_stairs: Endbloksjteinen trap
+  stone_stairs: Sjteinen trap
+  smooth_sandstone_stairs: Gladde zandsjteinen trap
+  smooth_quartz_stairs: Gladde kwartstrap
+  granite_stairs: Graniettrap
+  andesite_stairs: Andesiettrap
+  red_nether_brick_stairs: Roede Netherbaksjteinen trap
+  polished_andesite_stairs: Gepolieste andesiettrap
+  diorite_stairs: Dioriettrap
+  polished_granite_slab: Gepolieste granietplaat
+  smooth_red_sandstone_slab: Gladde roede zandsjteinen plaat
+  mossy_stone_brick_slab: Mossige bloksjteinen plaat
+  polished_diorite_slab: Gepolieste diorietplaat
+  mossy_cobblestone_slab: Mossige keisjteinen plaat
+  end_stone_brick_slab: Endbloksjteinen plaat
+  smooth_sandstone_slab: Gladde zandsjteinen plaat
+  smooth_quartz_slab: Gladde kwartsplaat
+  granite_slab: Granietplaat
+  andesite_slab: Andesietplaat
+  red_nether_brick_slab: Roede Netherbaksjteinen plaat
+  polished_andesite_slab: Gepolieste andesietplaat
+  diorite_slab: Diorietplaat
+  scaffolding: Sjtèlling
+  iron_door: Iezere Deur
+  oak_door: Eike duuer
+  spruce_door: Sjparrehoute duuer
+  birch_door: Birkehoute duuer
+  jungle_door: Oerwoudhouten duuer
+  acacia_door: Acaciahouten duuer
+  dark_oak_door: Dónkere eikenhouten duuer
+  crimson_door: Karmozien deur
+  warped_door: Kromgetrokke deur
+  repeater: Redstoneversterker
+  comparator: Redstonevergelijker
+  structure_block: Constructieblok
+  jigsaw: Puzzelblok
+  turtle_helmet: Sjildkróddelsjild
+  scute: Sjild
+  flint_and_steel: Vuursjtein en sjtaol
+  apple: Appel
+  bow: Bäög
+  arrow: Piel
+  coal: Sjteinkaol
+  charcoal: Houtskaol
+  diamond: Diamant
+  iron_ingot: Iezerstaaf
+  gold_ingot: Goudstaaf
+  netherite_ingot: Netherite Staaf
+  netherite_scrap: Netherite schroet
+  wooden_sword: Houte Zjwaard
+  wooden_shovel: Houte Sjöp
+  wooden_pickaxe: Houte Bikkel
+  wooden_axe: Hout Biel
+  wooden_hoe: Houte sjoffel
+  stone_sword: Sjteine Zjwaard
+  stone_shovel: Sjteine Sjöp
+  stone_pickaxe: Sjtein Bikkel
+  stone_axe: Sjtein Biel
+  stone_hoe: Sjteine sjoffel
+  golden_sword: Goude zjwaard
+  golden_shovel: Goude Sjöp
+  golden_pickaxe: Goude Bikkel
+  golden_axe: Goude Biel
+  golden_hoe: Gouden sjoffel
+  iron_sword: Iezer Zjwaard
+  iron_shovel: Iezer sjöp
+  iron_pickaxe: Iezer Bikkel
+  iron_axe: Iezer Biel
+  iron_hoe: Iezere sjoffel
+  diamond_sword: Diamante zjwaard
+  diamond_shovel: Diamante sjöp
+  diamond_pickaxe: Diamante bikkel
+  diamond_axe: Diamant biel
+  diamond_hoe: Diamante sjoffel
+  netherite_sword: Netherite Zwaard
+  netherite_shovel: Netherite Schep
+  netherite_pickaxe: Netherite Pikhouweel
+  netherite_axe: Netherite Biel
+  netherite_hoe: Netherite Schuffel
+  stick: Sjtek
+  bowl: Kom
+  mushroom_stew: Paddestoel sop
+  string: Dräöj
+  feather: Vaer
+  gunpowder: Buskroet
+  wheat_seeds: Tarwezaden
+  wheat: Weit
+  bread: Broed
+  leather_helmet: Laere kap
+  leather_chestplate: Laere tuniek
+  leather_leggings: Laere brook
+  leather_boots: Laere laarzen
+  chainmail_helmet: Maliënkap
+  chainmail_chestplate: Maliënkolder
+  chainmail_leggings: Maliënbóks
+  chainmail_boots: Maliënlaarzen
+  iron_helmet: Iezere helm
+  iron_chestplate: Iezere borsplaat
+  iron_leggings: Iezere beinstukke
+  iron_boots: Iezere laarzen
+  diamond_helmet: Diamante helm
+  diamond_chestplate: Diamante borstplaat
+  diamond_leggings: Diamante beenstukken
+  diamond_boots: Diamante laarzen
+  golden_helmet: Gouden helm
+  golden_chestplate: Gouden borstplaat
+  golden_leggings: Gouden beenstukken
+  golden_boots: Gouden laarzen
+  netherite_helmet: Netherite Helm
+  netherite_chestplate: Netherite Borstplaat
+  netherite_leggings: Netherite Boks
+  netherite_boots: Netherite Schoon
+  flint: Vuursjtein
+  porkchop: Rauw verkesvleisj
+  cooked_porkchop: Gekaok Verkesvleisj
+  painting: Sjilderie
+  golden_apple: Gouwe appel
+  enchanted_golden_apple: Betoverde gouwe appel
+  oak_sign: Eikenhouten bord
+  spruce_sign: Sjparrenhouten bord
+  birch_sign: Berkenhouten bord
+  jungle_sign: Oerwoudhouten bord
+  acacia_sign: Acaciahouten bord
+  dark_oak_sign: Donkereikenhouten bord
+  crimson_sign: Karmozien bord
+  warped_sign: Kromgetrokke bord
+  bucket: Tob
+  water_bucket: Tob water
+  lava_bucket: Tob lava
+  minecart: Mienkar
+  saddle: Zaal
+  redstone: Redstone sjtóf
+  snowball: Sjniebal
+  oak_boat: Eikehoute boot
+  leather: Leer
+  milk_bucket: Tob melk
+  pufferfish_bucket: Tob mit kogelvis
+  salmon_bucket: Tob mit zalm
+  cod_bucket: Tob mit kabeljauw
+  tropical_fish_bucket: Tob mit tropische vésj
+  brick: Bakstein
+  clay_ball: Klei Bal
+  dried_kelp_block: Gedraögde Kelp Blok
+  paper: Pepeer
+  book: Book
+  slime_ball: Slijmbal
+  chest_minecart: Mienkar mit kis
+  furnace_minecart: Mienkar mit aove
+  egg: Ei
+  compass: Kómpas
+  fishing_rod: Gaert
+  clock: Klok
+  glowstone_dust: Gloeisjtein sjtóf
+  cod: Rauwe Kabeljauw
+  salmon: Rauwe zalm
+  tropical_fish: Tropische vésj
+  pufferfish: Kogelvèsj
+  cooked_cod: Gekoakte kabeljauw
+  cooked_salmon: Gekoakte zalm
+  ink_sac: Inkttes
+  cocoa_beans: Cacaobonen
+  lapis_lazuli: Lapis lazuli
+  white_dye: Witter kleursjtóf
+  orange_dye: Oranje kleurstof
+  magenta_dye: Magenta kleurstof
+  light_blue_dye: Licht blauwe kleurstof
+  yellow_dye: Gaele kleursjtóf
+  lime_dye: Licht greun kleurstof
+  pink_dye: Roze kleurstof
+  gray_dye: Gries kleurstof
+  light_gray_dye: Licht grieze kleurstof
+  cyan_dye: Turquoise Kleurstof
+  purple_dye: Paarse kleurstof
+  blue_dye: Blauwe kleursjtóf
+  brown_dye: Broene kleursjtóf
+  green_dye: Greune kleursjtóf
+  red_dye: Roede kleursjtóf
+  black_dye: Zwarte kleursjtóf
+  bone_meal: Beendermeel
+  bone: Knaok
+  sugar: Soeker
+  cake: Vlaai
+  white_bed: Wit bèd
+  orange_bed: Oranje bèd
+  magenta_bed: Magenta bèd
+  light_blue_bed: Licht blauw bèd
+  yellow_bed: Gael bèd
+  lime_bed: Licht greun bèd
+  pink_bed: Roze bèd
+  gray_bed: Gries bèd
+  light_gray_bed: Licht gries bèd
+  cyan_bed: Turquoise bèd
+  purple_bed: Paars bèd
+  blue_bed: Blauw bèd
+  brown_bed: Broen bèd
+  green_bed: Greun bèd
+  red_bed: Roed bèd
+  black_bed: Zjwart bèd
+  cookie: Koekje
+  filled_map: Kaart
+  shears: Sjier
+  melon_slice: Meloenschijf
+  dried_kelp: Gedrüugde kelp
+  pumpkin_seeds: Pompoenpitten
+  melon_seeds: Meloenzoaden
+  beef: Rauw bufsjtök
+  cooked_beef: Bufsjtök
+  chicken: Rauw Hin
+  cooked_chicken: Gekaokde Hin
+  rotten_flesh: Gerot vleisj
+  ender_pearl: Enderpaerel
+  blaze_rod: Blaze sjtaaf
+  ghast_tear: Ghast traon
+  gold_nugget: Goudklompje
+  nether_wart: Netherkroed
+  potion: Drank
+  glass_bottle: Glaas fles
+  spider_eye: Spinnenoug
+  fermented_spider_eye: Gefermenteerd spinnenoug
+  blaze_powder: Blaze poejer
+  magma_cream: Magmacrème
+  brewing_stand: Brouwstandaard
+  cauldron: Kaetel
+  ender_eye: Enderoug
+  glistering_melon_slice: Glinsterende meloensjief
+  bat_spawn_egg: Flaermoesspawnei
+  bee_spawn_egg: Biejspawnei
+  blaze_spawn_egg: Blazespawnei
+  cat_spawn_egg: Kattenspawnei
+  cave_spider_spawn_egg: Grottenspinnenspawnei
+  chicken_spawn_egg: Kippespawnei
+  cod_spawn_egg: Kabeljauwspawnei
+  cow_spawn_egg: Kospawnei
+  creeper_spawn_egg: Creeperspawnei
+  dolphin_spawn_egg: Dolfijnenspawnei
+  donkey_spawn_egg: Aezelspawnei
+  drowned_spawn_egg: Drenkelingenspawnei
+  elder_guardian_spawn_egg: Oudebewakerspawnei
+  enderman_spawn_egg: Endermannenspawnei
+  endermite_spawn_egg: Endermitespawnei
+  evoker_spawn_egg: Oproeperspawnei
+  fox_spawn_egg: Vossespawnei
+  ghast_spawn_egg: Ghastspawnei
+  guardian_spawn_egg: Bewakerspawnei
+  hoglin_spawn_egg: Hoglin Spawn Ei
+  horse_spawn_egg: Paerdespawnei
+  husk_spawn_egg: Mummiespawnei
+  llama_spawn_egg: Lamaspawnei
+  magma_cube_spawn_egg: Magmakubesspawnei
+  mooshroom_spawn_egg: Mooshroomspawnei
+  mule_spawn_egg: Muilaezelspawnei
+  ocelot_spawn_egg: Ocelottenspawnei
+  panda_spawn_egg: Pandaspawnei
+  parrot_spawn_egg: Pappegaejespawnei
+  phantom_spawn_egg: Fantomenspawnei
+  pig_spawn_egg: Verkespawnei
+  piglin_spawn_egg: Piglin Spawn Ei
+  piglin_brute_spawn_egg: Piglin Bruut Spawn Ei
+  pillager_spawn_egg: Roverspawnei
+  polar_bear_spawn_egg: Iesbaerespawnei
+  pufferfish_spawn_egg: Kogelvèsjespawnei
+  rabbit_spawn_egg: Kenienespawnei
+  ravager_spawn_egg: Verwoesterspawnei
+  salmon_spawn_egg: Zalmspawnei
+  sheep_spawn_egg: Sjaopespawnei
+  shulker_spawn_egg: Shulkerspawnei
+  silverfish_spawn_egg: Zilvervèsjespawnei
+  skeleton_spawn_egg: Skelettenspawnei
+  skeleton_horse_spawn_egg: Skeletpaerdespawnei
+  slime_spawn_egg: Slijmkubesspawnei
+  spider_spawn_egg: Spinnenspawnei
+  squid_spawn_egg: Inktvèsjespawnei
+  stray_spawn_egg: Verdwaaldenspawnei
+  strider_spawn_egg: Strider Spawn Ei
+  trader_llama_spawn_egg: Hanjelaerslamaspawnei
+  tropical_fish_spawn_egg: Tropischevèsjespawnei
+  turtle_spawn_egg: Sjildkróddelespawnei
+  vex_spawn_egg: Ergernissenspawnei
+  villager_spawn_egg: Durpelingenspawnei
+  vindicator_spawn_egg: Verdedigerspawnei
+  wandering_trader_spawn_egg: Róndjreizendehanjelaerrsspawnei
+  witch_spawn_egg: Heksenspawnei
+  wither_skeleton_spawn_egg: Witherskelettenspawnei
+  wolf_spawn_egg: Wolvenspawnei
+  zoglin_spawn_egg: Zoglin Spawn Ei
+  zombie_spawn_egg: Zombiespawnei
+  zombie_horse_spawn_egg: Zombiepaerdespawnei
+  zombie_villager_spawn_egg: Zombiedorpelingenspawnei
+  zombified_piglin_spawn_egg: Zombifeerde Piglin Spawn Ei
+  experience_bottle: Flesj der betouvering
+  fire_charge: Vuurbal
+  writable_book: Book 'n vaer
+  written_book: Geschreven book
+  emerald: Smaragd
+  item_frame: Voorwerpliest
+  flower_pot: Bloompot
+  carrot: Wórtel
+  potato: Aerpel
+  baked_potato: Gebakke aerpel
+  poisonous_potato: Vergiftige aerpel
+  map: Laege kaart
+  golden_carrot: Gouwe wortel
+  skeleton_skull: Skelettenschedel
+  wither_skeleton_skull: Witherskelettenschedel
+  player_head: Sjpeler Kop
+  zombie_head: Zombiehoofd
+  creeper_head: Creeperhoofd
+  dragon_head: Drakenhoofd
+  carrot_on_a_stick: Wortel op een stek
+  warped_fungus_on_a_stick: Kromgetrokke Schimmel op ein Stok
+  nether_star: Nether sjtar
+  pumpkin_pie: Pompoentoert
+  firework_rocket: Vuurpiel
+  firework_star: Vuurwerksjter
+  enchanted_book: Betouverd Book
+  nether_brick: Netherbaksjtein
+  quartz: Netherkwarts
+  tnt_minecart: Mienkar mit TNT
+  hopper_minecart: Mienkar mit trechter
+  prismarine_shard: Prismariensjerf
+  prismarine_crystals: Prismarienkristallen
+  rabbit: Rauw kenienevleisj
+  cooked_rabbit: Gebraoje kenienvleisj
+  rabbit_stew: Kenienestoofpot
+  rabbit_foot: Kenienepuuetje
+  rabbit_hide: Kenienehoed
+  armor_stand: Harnashouder
+  iron_horse_armor: Iezere paerdeharnas
+  golden_horse_armor: Gouwe paerdeharnas
+  diamond_horse_armor: Diamante paerdeharnas
+  leather_horse_armor: Leere Paarden harnas
+  lead: Leidtouw
+  name_tag: Naamkaartje
+  command_block_minecart: Mienkar mit opdrachblok
+  mutton: Rauw Sjaopevleisj
+  cooked_mutton: Gebraoje sjaopevleis
+  white_banner: Witte banier
+  orange_banner: Oranje banier
+  magenta_banner: Magenta banier
+  light_blue_banner: Licht blauwe banier
+  yellow_banner: Gaele banier
+  lime_banner: Lichtgreune banier
+  pink_banner: Roze banier
+  gray_banner: Grieze banier
+  light_gray_banner: Licht grieze banier
+  cyan_banner: Turquoise banier
+  purple_banner: Paarse banier
+  blue_banner: Blauwe banier
+  brown_banner: Broene banier
+  green_banner: Greune banier
+  red_banner: Roede banier
+  black_banner: Zjwarte banier
+  end_crystal: Endkristal
+  chorus_fruit: Chorusfruit
+  popped_chorus_fruit: Gepoft Chorusfruit
+  beetroot: Biet
+  beetroot_seeds: Bietenzoaden
+  beetroot_soup: Bietensoep
+  dragon_breath: Drakenaom
+  splash_potion: Spattende drank
+  spectral_arrow: Spectrale piel
+  tipped_arrow: Getipte piel
+  lingering_potion: Aanhoudende drank
+  shield: Sjild
+  elytra: Elytra
+  spruce_boat: Sjparrehoute boot
+  birch_boat: Birkehoute boot
+  jungle_boat: Oerwoudhoute boot
+  acacia_boat: Acaciahoute boot
+  dark_oak_boat: Donkere eikehoute boot
+  totem_of_undying: Totem der onsterfelijkhied
+  shulker_shell: Shulkerschelp
+  iron_nugget: Iezerklumpke
+  knowledge_book: Boek der kennis
+  debug_stick: Debugsjtek
+  music_disc_13: Muziekplaat
+  music_disc_cat: Muziekplaat
+  music_disc_blocks: Muziekplaat
+  music_disc_chirp: Muziekplaat
+  music_disc_far: Muziekplaat
+  music_disc_mall: Muziekplaat
+  music_disc_mellohi: Muziekplaat
+  music_disc_stal: Muziekplaat
+  music_disc_strad: Muziekplaat
+  music_disc_ward: Muziekplaat
+  music_disc_11: Muziekplaat
+  music_disc_wait: Muziekplaat
+  music_disc_pigstep: Muziekplaat
+  trident: Drietand
+  phantom_membrane: Fantoommembraan
+  nautilus_shell: Nautilussjölp
+  heart_of_the_sea: Hart van de zie
+  crossbow: Kruutsbaog
+  suspicious_stew: Geheimzinnige stoofpot
+  loom: Weefgetouw
+  flower_banner_pattern: Banierpatroon
+  creeper_banner_pattern: Banierpatroon
+  skull_banner_pattern: Banierpatroon
+  mojang_banner_pattern: Banierpatroon
+  globe_banner_pattern: Banner Patroen
+  piglin_banner_pattern: Banierpatroon
+  composter: Kómposbak
+  barrel: Vaat
+  smoker: Rouker
+  blast_furnace: Hoogaove
+  cartography_table: Kartografietaofel
+  fletching_table: Bevederingstaofel
+  grindstone: Sliepsjtein
+  lectern: Lessenaar
+  smithing_table: Smeedstaofel
+  stonecutter: Sjteinsjnieder
+  bell: Bel
+  lantern: Lantaer
+  soul_lantern: Ziel Lantaarn
+  sweet_berries: Zeutbessen
+  campfire: Kampvuur
+  soul_campfire: Ziel kampveur
+  shroomlight: Paddoleecht
+  honeycomb: Honinggroate
+  bee_nest: Biejenest
+  beehive: Biejekorf
+  honey_bottle: Honing Flesje
+  honey_block: Honing Blukke
+  honeycomb_block: Honingreut Blokke
+  lodestone: Magneetstein
+  netherite_block: Bluk Netherite
+  ancient_debris: Alt puin
+  target: Doelwit
+  crying_obsidian: Huilend obsidiaan
+  blackstone: Zwartstein
+  blackstone_slab: Zwartstein plaat
+  blackstone_stairs: Zwartstein trappen
+  gilded_blackstone: Vergulde Zwartstein
+  polished_blackstone: Gepolieste Zwartstein
+  polished_blackstone_slab: Gepolieste Zwartstein Plaat
+  polished_blackstone_stairs: Gepolieste Zwartstein Trappen
+  chiseled_polished_blackstone: Gebietelde Gepolieste Zwartstein
+  polished_blackstone_bricks: Gepolieste zwartstein bakstein
+  polished_blackstone_brick_slab: Gepolieste Zwartstein Bakstein Plaat
+  polished_blackstone_brick_stairs: Gepolieste Zwartstein Bakstein Trappen
+  cracked_polished_blackstone_bricks: Gebarste Gepolieste Zwartstein Bakstein
+  respawn_anchor: Respawn Anker
+  water: Water
+  lava: Lava
+  tall_seagrass: Hoog ziegraas
+  piston_head: Zuiger kop
+  moving_piston: Bewaegende zuiger
+  wall_torch: Moer Fakkel
+  fire: Vuur
+  soul_fire: Ziel veur
+  redstone_wire: Redstonedraod
+  oak_wall_sign: Eikenhouten bord aon moer
+  spruce_wall_sign: Sjparrenhoutenbord aon moer
+  birch_wall_sign: Berkenhouten bord aon moer
+  acacia_wall_sign: Acaciahouten bord aon moer
+  jungle_wall_sign: Oerwoudhouten bord aon moer
+  dark_oak_wall_sign: Donkereikenhouten bord aon moer
+  redstone_wall_torch: Redstone Moer Fakkel
+  soul_wall_torch: Ziel Moor Fakkel
+  nether_portal: Netherportaal
+  attached_pumpkin_stem: Vastgezette Pompoensjtam
+  attached_melon_stem: Vastgezatte meloen sjtam
+  pumpkin_stem: Pompoensjtam
+  melon_stem: Meloen sjtam
+  end_portal: Endportaal
+  cocoa: Cacao
+  tripwire: Stroekeldraod
+  potted_oak_sapling: Opgepotte eikenkiemplant
+  potted_spruce_sapling: Opgepotte sparrenkiemplant
+  potted_birch_sapling: Opgepotte berkenkiemplant
+  potted_jungle_sapling: Opgepotte oerwoudkiemplant
+  potted_acacia_sapling: Opgepotte acaciakiemplant
+  potted_dark_oak_sapling: Opgepotte donkereikenkiemplant
+  potted_fern: Opgepotte varen
+  potted_dandelion: Opgepotte paerdenbloem
+  potted_poppy: Opgepotte klaproos
+  potted_blue_orchid: Opgepotte blauwe orchidee
+  potted_allium: Opgepot look
+  potted_azure_bluet: Opgepot porseleinsjterke
+  potted_red_tulip: Opgepotte roeje tulp
+  potted_orange_tulip: Opgepotte oranje tulp
+  potted_white_tulip: Opgepotte witte tulp
+  potted_pink_tulip: Opgepotte roze tulp
+  potted_oxeye_daisy: Opgepotte margriet
+  potted_cornflower: Opgepotte korenbloom
+  potted_lily_of_the_valley: Opgepot lelietje-van-dalen
+  potted_wither_rose: Opgepotte Witherroes
+  potted_red_mushroom: Opgepotte roeje paddenstoel
+  potted_brown_mushroom: Opgepotte broene paddenstoel
+  potted_dead_bush: Opgepotte doeje sjtroek
+  potted_cactus: Opgepotte kaktus
+  carrots: Wortels
+  potatoes: Aerpel
+  skeleton_wall_skull: Skelettenschedel aon moer
+  wither_skeleton_wall_skull: Witherskelettenschedel aon moer
+  zombie_wall_head: Zombiehoofd aon moer
+  player_wall_head: Sjpelerhoofd aon moer
+  creeper_wall_head: Creeperhoofd aon moer
+  dragon_wall_head: Drakenhoofd aon moer
+  white_wall_banner: Witte banier
+  orange_wall_banner: Oranje banier
+  magenta_wall_banner: Magenta banier
+  light_blue_wall_banner: Licht blauwe banier
+  yellow_wall_banner: Gaele banier
+  lime_wall_banner: Lichtgreune banier
+  pink_wall_banner: Roze banier
+  gray_wall_banner: Grieze banier
+  light_gray_wall_banner: Licht grieze banier
+  cyan_wall_banner: Turquoise banier
+  purple_wall_banner: Paarse banier
+  blue_wall_banner: Blauwe banier
+  brown_wall_banner: Broene banier
+  green_wall_banner: Greune banier
+  red_wall_banner: Roede banier
+  black_wall_banner: Zjwarte banier
+  beetroots: Bieten
+  end_gateway: Endtoegangsportaal
+  frosted_ice: Bevroren ies
+  kelp_plant: Kelpplant
+  dead_tube_coral_wall_fan: Doeje buiskoraalwaaier aon moer
+  dead_brain_coral_wall_fan: Doeje hersenkoraalwaaier aon moer
+  dead_bubble_coral_wall_fan: Doeje blaaskoraalwaaier aon moer
+  dead_fire_coral_wall_fan: Doeje brandkoraalwaaier aon moer
+  dead_horn_coral_wall_fan: Doeje hoornkoraalwaaier aon moer
+  tube_coral_wall_fan: Buiskoraalwaaier aon moer
+  brain_coral_wall_fan: Hersenkoraalwaaier aon moer
+  bubble_coral_wall_fan: Blaaskoraalwaaier aon moer
+  fire_coral_wall_fan: Brandkoraalwaaier aon moer
+  horn_coral_wall_fan: Hoornkoraalwaaier aon moer
+  bamboo_sapling: Bamboo schot
+  potted_bamboo: Opgepotte bamboe
+  void_air: Nurgens loch
+  cave_air: Grot loch
+  bubble_column: Bellekolom
+  sweet_berry_bush: Zeutbesstroek
+  weeping_vines_plant: Huilende wienstok plant
+  twisting_vines_plant: Dreiende wienstok plant
+  crimson_wall_sign: Karmozien moorbord
+  warped_wall_sign: Kromgetrokke moorbord
+  potted_crimson_fungus: Ingemakte Karmozien schimmel
+  potted_warped_fungus: Ingemakte kromgetrokke schimmel
+  potted_crimson_roots: Ingemakte Karmozien Wortelle
+  potted_warped_roots: Ingemakte kromgetrokke wortelle
+  zombie_pigman_spawn_egg: Zombieverkespawnei
+  cactus_green: Kaktus greun
+  dandelion_yellow: Paerdebloomgael
+  rose_red: Rozeroed
+  sign: Signeren
+  wall_sign: Moer Bord
+biome:
+  ocean: Oceaan
+  plains: Velden
+  desert: Woestijn
+  mountains: Bergen
+  forest: Bósj
+  taiga: Taiga
+  swamp: Moeras
+  river: Rivier
+  nether_wastes: Nether aafval
+  the_end: De End
+  frozen_ocean: Bevroren oceaan
+  frozen_river: Bevroren rivier
+  snowy_tundra: Besjniede toendra
+  snowy_mountains: Besjniede bergen
+  mushroom_fields: Paddenstoelenvelden
+  mushroom_field_shore: Paddenstoelenveldenkust
+  beach: Sjtrand
+  desert_hills: Woestijnheuvels
+  wooded_hills: Beboste heuvels
+  taiga_hills: Taigaheuvels
+  mountain_edge: Bergrand
+  jungle: Oerwoud
+  jungle_hills: Oerwoudheuvels
+  jungle_edge: Oerwoud (rand)
+  deep_ocean: Diepe oceaan
+  stone_shore: Sjteinkust
+  snowy_beach: Besjnied strand
+  birch_forest: Berkenbos
+  birch_forest_hills: Berkenbosheuvels
+  dark_forest: Dicht bos
+  snowy_taiga: Besjniede taiga
+  snowy_taiga_hills: Besjniede taigaheuvels
+  giant_tree_taiga: Taiga (groete bomen)
+  giant_tree_taiga_hills: Taigaheuvels (groete bomen)
+  wooded_mountains: Beboste bergen
+  savanna: Savanne
+  savanna_plateau: Savanneplateau
+  badlands: Badlands
+  wooded_badlands_plateau: Bebost badlandsplateau
+  badlands_plateau: Badlandsplateau
+  small_end_islands: De End - laaglanden
+  end_midlands: De End - midlanden
+  end_highlands: De End - hooglanden
+  end_barrens: De End - verlaten eiland
+  warm_ocean: Warme oceaan
+  lukewarm_ocean: Lauwe oceaan
+  cold_ocean: Kouwe oceaan
+  deep_warm_ocean: Warme diepe oceaan
+  deep_lukewarm_ocean: Lauwe diepe oceaan
+  deep_cold_ocean: Kauwe diepe oceaan
+  deep_frozen_ocean: Bevroren diepe oceaan
+  the_void: De Locht
+  sunflower_plains: Zonnebloemvelden
+  desert_lakes: Oase
+  gravelly_mountains: Grindbergen
+  flower_forest: Blomebos
+  taiga_mountains: Taigabergen
+  swamp_hills: Moerasheuvels
+  ice_spikes: Ijspijlers
+  modified_jungle: Aongepast oerwoud
+  modified_jungle_edge: Aongepaste oerwoudrand
+  tall_birch_forest: Bos (hoge berken)
+  tall_birch_hills: Beboste heuvels (hoge berken)
+  dark_forest_hills: Dichtbeboste heuvels
+  snowy_taiga_mountains: Besjniede taigabergen
+  giant_spruce_taiga: Taiga (groete sparren)
+  giant_spruce_taiga_hills: Taigaheuvels (groete sparren)
+  modified_gravelly_mountains: Grindbergen+
+  shattered_savanna: Ruige savanne
+  shattered_savanna_plateau: Ruig savanneplateau
+  eroded_badlands: Geërodeerde badlands
+  modified_wooded_badlands_plateau: Aongepast bebost badlandsplateau
+  modified_badlands_plateau: Aongepast badlandsplateau
+  bamboo_jungle: Bamboe-oerwoud
+  bamboo_jungle_hills: Bamboe-oerwoudheuvels
+  soul_sand_valley: Ziel Zand Vallei
+  crimson_forest: Karmozien Bos
+  warped_forest: Kromgetrokke Bos
+  basalt_deltas: Basalt Deltas
+  nether: Nether
+enchantment:
+  fire_protection: Vuurbescherming
+  sharpness: Sjerpte
+  flame: Vlam
+  soul_speed: Ziel Snelheid
+  aqua_affinity: Hydrofiel
+  punch: Terugslag
+  loyalty: Loyaliteit
+  depth_strider: Waterloper
+  vanishing_curse: Vleuk der verdwiening
+  unbreaking: Duurzaamheid
+  knockback: Terugslag
+  luck_of_the_sea: Gelök van de zie
+  binding_curse: Vleuk der binding
+  fortune: Gelök
+  protection: Bescherming
+  efficiency: Efficiëntie
+  mending: Hersjtel
+  frost_walker: Vorstloper
+  lure: Lokoas
+  looting: Plundering
+  piercing: Doorboren
+  blast_protection: Explosiebescherming
+  smite: Kastijding
+  multishot: Multischot
+  fire_aspect: Vuuraspect
+  channeling: Supergeleiding
+  sweeping: Verscherping
+  thorns: Daores
+  bane_of_arthropods: Verderf der geleedpotigen
+  respiration: Aomhaling
+  riptide: Stortvloed
+  silk_touch: Zijden streling
+  quick_charge: Snellaje
+  projectile_protection: Projectielbescherming
+  impaling: Spietsen
+  feather_falling: Vederzacht valle
+  power: Kracht
+  infinity: Onènjigheid
+potion:
+  uncraftable: Onmaakbare drank
+  water: Waterflesj
+  mundane: Triviale drank
+  thick: Stroperige drank
+  awkward: Vreemde drank
+  night_vision: Drank der nachtzicht
+  invisibility: Drank der onzichtbaarheid
+  jump: Drank der sjprongen
+  fire_resistance: Drank der vuurbesjtendighied
+  speed: Drank der sjnelhied
+  slowness: Drank der traaghied
+  water_breathing: Drank der wateraodem
+  instant_heal: Drank der genaeshied
+  instant_damage: Drank der verwonding
+  poison: Drank des gifs
+  regen: Drank der regeneratie
+  strength: Drank der sjterkte
+  weakness: Drank der zwakhied
+  luck: Drank der gelök
+  turtle_master: Drank van de sjildkróddelmeester
+  slow_falling: Drank der valvertraging
+splash_potion:
+  uncraftable: Spattend onmaakbaar drenkske
+  water: Spattende waterflesj
+  mundane: Spattende triviale drank
+  thick: Spattende stroperige drank
+  awkward: Spattende vreemde drank
+  night_vision: Spattende Drank der Nachtzicht
+  invisibility: Spattende Drank der Onzichtbaarheid
+  jump: Spattende drank der sjprongen
+  fire_resistance: Spattende Drank der Vuurbesjtendighiedat
+  speed: Spattende drank der sjnelhied
+  slowness: Spattende drank der traaghied
+  water_breathing: Spattende Drank der Wateraodem
+  instant_heal: Spattende drank der genaezing
+  instant_damage: Spattende drank der verwonding
+  poison: Spattende drank des gifs
+  regen: Spattende Drank der Regeneratie
+  strength: Spattende drank der kracht
+  weakness: Spattende drank der zwakhied
+  luck: Spattende drank der gelök
+  turtle_master: Spattende drank van de sjildkróddelmeester
+  slow_falling: Spattende drank der valvertraging
+lingering_potion:
+  uncraftable: Aanhoudend onmaakbaar drenkske
+  water: Aanhoudende waterflesj
+  mundane: Aanhoudend triviaal drenkske
+  thick: Aanhoudende stroperige drank
+  awkward: Aanhoudend vreemd drenkske
+  night_vision: Aanhoudende Drank der Nachtzicht
+  invisibility: Aanhoudende Drank der Onzichtbaarheid
+  jump: Aanhoudende drank der sjprongen
+  fire_resistance: Aanhoudende Drank der Vuurbesjtendighied
+  speed: Aanhoudende Drank der Sjnelhied
+  slowness: Aanhoudende drank der traaghied
+  water_breathing: Aanhoudende Drank der Wateraodem
+  instant_heal: Aanhoudende drank der genezing
+  instant_damage: Aanhoudende drank der verwonding
+  poison: Aanhoudende drank der vergif
+  regen: Aanhoudende Drank der Regeneratie
+  strength: Aanhoudende drank der kracht
+  weakness: Aanhoudende drank der zwakheid
+  luck: Aanhoudende drank des geluks
+  turtle_master: Aanhoudende drank van de sjildkróddelmeester
+  slow_falling: Aanhoudende drank der valvertraging
+tipped_arrow:
+  uncraftable: Onmaakbare getipte piel
+  water: Piel der sjpatting
+  mundane: Getipte piel
+  thick: Getipte piel
+  awkward: Getipte piel
+  night_vision: Piel der nachtzichts
+  invisibility: Piel der onzichtbaarhied
+  jump: Piel der sjprongen
+  fire_resistance: Piel der vuurbesjtendighied
+  speed: Piel der sjnelhied
+  slowness: Piel der traaghied
+  water_breathing: Piel des wateraom
+  instant_heal: Piel der genezing
+  instant_damage: Piel der verwonding
+  poison: Piel des gifs
+  regen: Piel der regeneratie
+  strength: Piel der kracht
+  weakness: Piel der zwakhied
+  luck: Piel der gelök
+  turtle_master: Piel van de sjildkróddelmeester
+  slow_falling: Piel der valvertraging
+entity:
+  dropped_item: Voorwerp
+  experience_orb: Ervaringsbol
+  area_effect_cloud: Gebiedseffecwollek
+  elder_guardian: Oude bewaker
+  wither_skeleton: Witherskelet
+  stray: Verdwaalde
+  egg: Gesjmeten ei
+  leash_hitch: Leidtouwknaup
+  painting: Sjilderie
+  arrow: Piel
+  snowball: Sjniebal
+  fireball: Vuurbal
+  small_fireball: Kleine vuurbal
+  ender_pearl: Gegooide Enderparel
+  ender_signal: Enderoug
+  splash_potion: Drank
+  thrown_exp_bottle: Gegooid magiërsextract
+  item_frame: Voorwerpliest
+  wither_skull: Wither kop
+  primed_tnt: Aongestoken TNT
+  falling_block: Vallend blok
+  firework: Vuurpiel
+  husk: Mummie
+  spectral_arrow: Spectrale piel
+  shulker_bullet: Shulkerkogel
+  dragon_fireball: Drakenvuurbal
+  zombie_villager: Zombiedurpeling
+  skeleton_horse: Skeletpaerd
+  zombie_horse: Zombiepaerd
+  armor_stand: Harnashouder
+  donkey: Aezel
+  mule: Moelaezel
+  evoker_fangs: Opgeroepen tanden
+  evoker: Oproeper
+  vex: Vex
+  vindicator: Verdediger
+  illusioner: Illusionist
+  minecart_command: Mienkar mit opdrachblok
+  boat: Boeat
+  minecart: Mienkar
+  minecart_chest: Mienkar mit kis
+  minecart_furnace: Mienkar mit aove
+  minecart_tnt: Mienkar mit TNT
+  minecart_hopper: Mienkar mit trechter
+  minecart_mob_spawner: Mienkar mit spawner
+  creeper: Creeper
+  skeleton: Skelet
+  spider: Spin
+  giant: Reus
+  zombie: Zombie
+  slime: Slijm
+  ghast: Ghast
+  zombified_piglin: Zombifeerde Piglin
+  enderman: Enderman
+  cave_spider: Grottenspin
+  silverfish: Zilvervèsj
+  blaze: Blaze
+  magma_cube: Magma kubes
+  ender_dragon: Enderdraak
+  wither: Wither
+  bat: Flaermoes
+  witch: Heks
+  endermite: Endermiet
+  guardian: Bewaker
+  shulker: Shulker
+  pig: Verke
+  sheep: Sjaop
+  cow: Ko
+  chicken: Hin
+  squid: Inktvis
+  wolf: Wolf
+  mushroom_cow: Paddestoel
+  snowman: Sjniegolem
+  ocelot: Ocelot
+  iron_golem: Iezeregolem
+  horse: Paerd
+  rabbit: Kenien
+  polar_bear: Iesbaer
+  llama: Lama
+  llama_spit: Lamaspiej
+  parrot: Pappegaej
+  villager: Durpeling
+  ender_crystal: Endkristal
+  turtle: Sjildkróddel
+  phantom: Fantoom
+  trident: Drietand
+  cod: Kabeljauw
+  salmon: Zalm
+  pufferfish: Kogelvèsj
+  tropical_fish: Tropische vèsj
+  drowned: Verzoape
+  dolphin: Dolfien
+  cat: Poes
+  panda: Panda
+  pillager: Rover
+  ravager: Verwoester
+  trader_llama: Hanjelaerslama
+  wandering_trader: Róndjreizende hanjelaer
+  fox: Vos
+  bee: Biej
+  hoglin: Hoglin
+  piglin: Piglin
+  strider: Strider
+  zoglin: Zoglin
+  piglin_brute: Piglin Bruut
+  fishing_hook: Dobber
+  lightning: Bliksemschicht
+  player: Sjpeler
+  pig_zombie: Zombieverke
+effect:
+  speed: Sjnelhied
+  slow: Traaghied
+  fast_digging: Haast
+  slow_digging: Mijnmeughied
+  increase_damage: Sjterkte
+  heal: Onmiddellijke genezing
+  harm: Onmiddellijke schade
+  jump: Sjprongversterker
+  confusion: Misselijkhied
+  regeneration: Regeneratie
+  damage_resistance: Weerstand
+  fire_resistance: Vuurbesjtendighied
+  water_breathing: Wateraom
+  invisibility: Onzichtbaarhied
+  blindness: Blindhied
+  night_vision: Nachtzicht
+  hunger: Honger
+  weakness: Zwakhied
+  poison: Vergif
+  wither: Wither
+  health_boost: Gezondhiedsboost
+  absorption: Absorptie
+  saturation: Verzadiging
+  glowing: Gloed
+  levitation: Zjweving
+  luck: Gelök
+  unluck: Pech
+  slow_falling: Valvertraging
+  conduit_power: Zegen van de zie
+  dolphins_grace: Gunst der dolfijnen
+  bad_omen: Sjlech veurteike
+  hero_of_the_village: Held van 'et dorp
+tropical_fish_type:
+  kob: Ombervis
+  sunstreak: Zonnestraol
+  snooper: Bediller
+  dasher: Roervésj
+  brinely: Zoutvésj
+  spotty: Gevlekte vésj
+  flopper: Plonsvésj
+  stripey: Gestreepte loodsbaars
+  glitter: Schittervésj
+  blockfish: Blokvésj
+  betty: Schopvésj
+  clayfish: Kleivésj
+dye_color:
+  white: Wit
+  orange: Oranje
+  magenta: Magenta
+  light_blue: Licht Blauw
+  yellow: Gael
+  lime: Ligt Greun
+  pink: Roze
+  gray: Gries
+  light_gray: Licht Gries
+  cyan: Turquoise
+  purple: Paars
+  blue: Blauw
+  brown: Broen
+  green: Greun
+  red: Roed
+  black: Zjwart
+named:
+  player_head_named: '%s''s Hoofd'
+  potion_with_amplifier: '%s %s'
+  potion_with_duration: '%s (%s)'
+  unknown_enchantment: Betovering '%s' is onbekend
+  unknown_entity: Entiteit '%s' is onbekend
+  unknown_effect: Effect '%s' is onbekend
+tropical_fish_name:
+  '117506305': Anemoonvésj
+  '117899265': Zjwarte zeilvindoktersvésj
+  '185008129': Blauwe zeilvindoktersvésj
+  '117441793': Koraalvlinder
+  '118161664': Cichlid
+  '65536': Clownvèsj
+  '50726144': Siamese kempvèsj
+  '67764993': Dwergzeebaars
+  '234882305': Koningssnapper
+  '67110144': Zeebarbel
+  '117441025': Maskerwimpelvèsj
+  '16778497': Ornamentkoraalvlinder
+  '101253888': Pappegaejvésj
+  '50660352': Gekroonde keizersvèsj
+  '918529': Roede cichlid
+  '235340288': Roedlippige slijmvèsj
+  '918273': Roede snapper
+  '67108865': Draadvèsj
+  '917504': Roede anemoonvèsj
+  '459008': Trekkervèsj
+  '67699456': Gaelstaartpappegaejvèsj
+  '67371009': Gaele zeilvindoktersvèsj
+colored_shied:
+  white: Wit sjild
+  orange: Oranje sjild
+  magenta: Magenta sjild
+  light_blue: Licht blauw sjild
+  yellow: Gael sjild
+  lime: Licht greun sjild
+  pink: Roze sjild
+  gray: Gries sjild
+  light_gray: Licht gries sjild
+  cyan: Turquoise sjild
+  purple: Paars sjild
+  blue: Blauw sjild
+  brown: Broen sjild
+  green: Greun sjild
+  red: Roed sjild
+  black: Zjwart sjild
+banner_pattern:
+  '65536': Wit basis dexter kanton
+  '65537': Oranje basis dexter kanton
+  '65538': Magenta basis dexter kanton
+  '65539': Lichtblauw basis dexter kanton
+  '65540': Gael basis dexter kanton
+  '65541': Lichtgreun basis dexter kanton
+  '65542': Roze basis dexter kanton
+  '65543': Gries basis dexter kanton
+  '65544': Licht gries basis dexter kanton
+  '65545': Turquoise basis dexter kanton
+  '65546': Paars basis dexter kanton
+  '65547': Blauw basis dexter kanton
+  '65548': Broen basis dexter kanton
+  '65549': Greun basis dexter kanton
+  '65550': Roed basis dexter kanton
+  '65551': Zjwart basis dexter kanton
+  '131072': Wit basis sinister kanton
+  '131073': Oranje basis sinister kanton
+  '131074': Magenta basis sinister kanton
+  '131075': Licht Blauw Basis Sinister Kanton
+  '131076': Gael basis sinister kanton
+  '131077': Lichtgreun basis sinister kanton
+  '131078': Roze basis sinister kanton
+  '131079': Gries basis sinister kanton
+  '131080': Licht Gries Basis Sinister Kanton
+  '131081': Turquoise basis sinister kanton
+  '131082': Paars basis sinister kanton
+  '131083': Blauw basis sinister kanton
+  '131084': Broen basis sinister kanton
+  '131085': Greun basis sinister kanton
+  '131086': Roed basis sinister kanton
+  '131087': Zjwart basis sinister kanton
+  '196608': Wit hoofd dexter kanton
+  '196609': Oranje hoofd dexter kanton
+  '196610': Magenta hoofd dexter kanton
+  '196611': Lichtblauw hoofd dexter kanton
+  '196612': Gael hoofd dexter kanton
+  '196613': Lichtgreun hoofd dexter kanton
+  '196614': Roze hoofd dexter kanton
+  '196615': Gries hoofd dexter kanton
+  '196616': Licht gries hoofd dexter kanton
+  '196617': Turquoise hoofd dexter kanton
+  '196618': Paars hoofd dexter kanton
+  '196619': Blauw hoofd dexter kanton
+  '196620': Broen hoofd dexter kanton
+  '196621': Greun hoofd dexter kanton
+  '196622': Roed hoofd dexter kanton
+  '196623': Zjwart hoofd dexter kanton
+  '262144': Wit hoofd sinister kanton
+  '262145': Oranje hoofd sinister kanton
+  '262146': Magenta hoofd dexter kanton
+  '262147': Licht Blauw Hoofd Sinister Kanton
+  '262148': Gael hoofd sinister kanton
+  '262149': Lichtgreun hoofd sinister kanton
+  '262150': Roze hoofd sinister kanton
+  '262151': Gries hoofd sinister kanton
+  '262152': Licht Gries Hoofd Sinister Kanton
+  '262153': Turquoise hoofd sinister kanton
+  '262154': Paars hoofd sinister kanton
+  '262155': Blauw hoofd sinister kanton
+  '262156': Broen hoofd sinister kanton
+  '262157': Greun hoofd sinister kanton
+  '262158': Roed hoofd sinister kanton
+  '262159': Zjwart hoofd sinister kanton
+  '327680': Witte basis
+  '327681': Oranje basis
+  '327682': Magenta basis
+  '327683': Licht blauwe basis
+  '327684': Gaele basis
+  '327685': Licht greune basis
+  '327686': Roze basis
+  '327687': Grieze basis
+  '327688': Licht grieze basis
+  '327689': Turquoise basis
+  '327690': Paarse basis
+  '327691': Blauwe basis
+  '327692': Broene basis
+  '327693': Greune basis
+  '327694': Roede basis
+  '327695': Zjwarte basis
+  '393216': Witte top
+  '393217': Oranje top
+  '393218': Magenta top
+  '393219': Lichtblauwe top
+  '393220': Gaele top
+  '393221': Lichtgreune top
+  '393222': Roze top
+  '393223': Grieze top
+  '393224': Lichtgrieze top
+  '393225': Turquoise top
+  '393226': Paarse top
+  '393227': Blauwe top
+  '393228': Broene top
+  '393229': Greune top
+  '393230': Roeje top
+  '393231': Zjwarte top
+  '458752': Witte päöl dexter
+  '458753': Oranje päöl dexter
+  '458754': Magenta päöl dexter
+  '458755': Licht blauwe päöl dexter
+  '458756': Gaele päöl dexter
+  '458757': Licht greune päöl dexter
+  '458758': Roze päöl dexter
+  '458759': Grieze päöl dexter
+  '458760': Licht grieze päöl dexter
+  '458761': Turquoise päöl dexter
+  '458762': Paarse päöl dexter
+  '458763': Blauwe päöl dexter
+  '458764': Broene päöl dexter
+  '458765': Greune päöl dexter
+  '458766': Roede päöl dexter
+  '458767': Zjwarte päöl dexter
+  '524288': Witte päöl sinister
+  '524289': Oranje päöl sinister
+  '524290': Magenta päöl sinister
+  '524291': Lichtblauwe päöl sinister
+  '524292': Gaele päöl sinister
+  '524293': Lichtgreune päöl sinister
+  '524294': Roze päöl sinister
+  '524295': Griese päöl sinister
+  '524296': Lichtgrieze päöl sinister
+  '524297': Turquoise päöl sinister
+  '524298': Paarse päöl sinister
+  '524299': Blauwe päöl sinister
+  '524300': Broene päöl sinister
+  '524301': Greune päöl sinister
+  '524302': Roede päöl sinister
+  '524303': Zjwarte päöl sinister
+  '589824': Witte päöl
+  '589825': Oranje päöl
+  '589826': Magenta päöl
+  '589827': Licht blauwe päöl
+  '589828': Gaele päöl
+  '589829': Licht greune päöl
+  '589830': Roze päöl
+  '589831': Grieze päöl
+  '589832': Licht Grieze päöl
+  '589833': Turquoise päöl
+  '589834': Paarse päöl
+  '589835': Blauwe päöl
+  '589836': Broene päöl
+  '589837': Greune päöl
+  '589838': Roede päöl
+  '589839': Zjwarte päöl
+  '655360': Witte faas
+  '655361': Oranje faas
+  '655362': Magenta faas
+  '655363': Lichtblauwe faas
+  '655364': Gaele faas
+  '655365': Lichtgreune faas
+  '655366': Roze faas
+  '655367': Grieze faas
+  '655368': Lichtgrieze faas
+  '655369': Turquoise faas
+  '655370': Paarse faas
+  '655371': Blauwe faas
+  '655372': Broene faas
+  '655373': Greune faas
+  '655374': Roede faas
+  '655375': Zjwarte faas
+  '720896': Witte band
+  '720897': Oranje band
+  '720898': Magenta band
+  '720899': Lichtblauwe band
+  '720900': Gaele band
+  '720901': Lichtgreune band
+  '720902': Roze band
+  '720903': Grieze band
+  '720904': Lichtgrieze band
+  '720905': Turquoise band
+  '720906': Paarse band
+  '720907': Blauwe band
+  '720908': Broene band
+  '720909': Greune band
+  '720910': Roede band
+  '720911': Zjwarte band
+  '786432': Witte band sinister
+  '786433': Oranje band sinister
+  '786434': Magenta Bocht Sinister
+  '786435': Lichtblauwe band sinister
+  '786436': Gaele band sinister
+  '786437': Lichtgreune band sinister
+  '786438': Roze band sinister
+  '786439': Grieze band sinister
+  '786440': Lichtgrieze band sinister
+  '786441': Turquoise band sinister
+  '786442': Paarse band sinister
+  '786443': Blauwe band sinister
+  '786444': Broene band sinister
+  '786445': Greune band sinister
+  '786446': Roede band sinister
+  '786447': Zjwarte band sinister
+  '851968': Witte paly
+  '851969': Oranje paly
+  '851970': Magenta paly
+  '851971': Lichtblauwe paly
+  '851972': Gaele paly
+  '851973': Lichtgreune paly
+  '851974': Roze paly
+  '851975': Grieze paly
+  '851976': Licht grieze paly
+  '851977': Turquoise paly
+  '851978': Paarse paly
+  '851979': Blauwe paly
+  '851980': Broene paly
+  '851981': Greune paly
+  '851982': Roede paly
+  '851983': Zjwarte paly
+  '917504': Wit andreaskroes
+  '917505': Oranje andreaskroes
+  '917506': Magenta andreaskroes
+  '917507': Licht blauw andreaskroes
+  '917508': Gael andreaskroes
+  '917509': Licht greun andreaskroes
+  '917510': Roze andreaskroes
+  '917511': Gries andreaskroes
+  '917512': Licht gries andreaskroes
+  '917513': Turquoise andreaskroes
+  '917514': Paars andreaskoes
+  '917515': Blauw andreaskroes
+  '917516': Broen andreaskroes
+  '917517': Greun andreaskoes
+  '917518': Roed andreaskroes
+  '917519': Zjwart andreaskroes
+  '983040': Wit kroes
+  '983041': Oranje kroes
+  '983042': Magenta kroes
+  '983043': Lichtblauw kroes
+  '983044': Gael kroes
+  '983045': Lichtgreun kroes
+  '983046': Roze kroes
+  '983047': Gries kroes
+  '983048': Licht gries kroes
+  '983049': Turquoise kroes
+  '983050': Paars kroes
+  '983051': Blauw kroes
+  '983052': Broen kroes
+  '983053': Greun kroes
+  '983054': Roed kroes
+  '983055': Zjwart kroes
+  '1048576': Witte keper
+  '1048577': Oranje keper
+  '1048578': Magenta keper
+  '1048579': Lichtblauwe keper
+  '1048580': Gaele keper
+  '1048581': Lichtgreune keper
+  '1048582': Roze keper
+  '1048583': Grieze keper
+  '1048584': Lichtgrieze keper
+  '1048585': Turquoise keper
+  '1048586': Paarse keper
+  '1048587': Blauwe keper
+  '1048588': Broene keper
+  '1048589': Greune keper
+  '1048590': Roede keper
+  '1048591': Zjwarte keper
+  '1114112': Witte omgekeerde keper
+  '1114113': Oranje omgekeerde keper
+  '1114114': Magenta omgekeerde keper
+  '1114115': Lichtblauwe omgekeerde keper
+  '1114116': Gaele omgekeerde keper
+  '1114117': Lichtgreune omgekeerde keper
+  '1114118': Roze omgekeerde keper
+  '1114119': Grieze omgekeerde keper
+  '1114120': Licht grieze omgekeerde keper
+  '1114121': Turquoise omgekeerde keper
+  '1114122': Paarse omgekeerde keper
+  '1114123': Blauwe omgekeerde keper
+  '1114124': Broene omgekeerde keper
+  '1114125': Greune omgekeerde keper
+  '1114126': Roede omgekeerde keper
+  '1114127': Zjwarte omgekeerde keper
+  '1179648': Witte ingesprongen basis
+  '1179649': Oranje ingesprongen basis
+  '1179650': Magenta ingesprongen basis
+  '1179651': Lichtblauwe ingesprongen basis
+  '1179652': Gaele ingesprongen basis
+  '1179653': Lichtgreune ingesprongen basis
+  '1179654': Roze ingesprongen basis
+  '1179655': Grieze ingesprongen basis
+  '1179656': Lichtgrieze ingesprongen basis
+  '1179657': Turquoise ingesprongen basis
+  '1179658': Paarse ingesprongen basis
+  '1179659': Blauwe ingesprongen basis
+  '1179660': Broene ingesprongen basis
+  '1179661': Greune ingesprongen basis
+  '1179662': Roede ingesprongen basis
+  '1179663': Zjwarte ingesprongen basis
+  '1245184': Wit ingesprongen hoofd
+  '1245185': Oranje ingesprongen hoofd
+  '1245186': Magenta ingesprongen hoofd
+  '1245187': Lichtblauw ingesprongen hoofd
+  '1245188': Gael ingesprongen hoofd
+  '1245189': Lichtgreun ingesprongen hoofd
+  '1245190': Roze ingesprongen hoofd
+  '1245191': Gries ingesprongen hoofd
+  '1245192': Lichtgries ingesprongen hoofd
+  '1245193': Turquoise ingesprongen hoofd
+  '1245194': Paars ingesprongen hoofd
+  '1245195': Blauw ingesprongen hoofd
+  '1245196': Broen ingesprongen hoofd
+  '1245197': Greun ingesprongen hoofd
+  '1245198': Roed ingesprongen hoofd
+  '1245199': Zjwart ingesprongen hoofd
+  '1310720': Witte per band sinister
+  '1310721': Oranje per band sinister
+  '1310722': Magenta per band sinister
+  '1310723': Lichtblauwe per band omgekeerd
+  '1310724': Gaele per band sinister
+  '1310725': Lichtgreune per band sinister
+  '1310726': Roze per band sinister
+  '1310727': Grieze per band sinister
+  '1310728': Licht grieze per band omgekeerd
+  '1310729': Turquoise per band sinister
+  '1310730': Paarse per band sinister
+  '1310731': Blauwe per band sinister
+  '1310732': Broene per band sinister
+  '1310733': Greune per band sinister
+  '1310734': Roede per band sinister
+  '1310735': Zjwarte per band sinister
+  '1376256': Witte per band sinister omgekeerd
+  '1376257': Oranje per band sinister omgekeerd
+  '1376258': Magenta per band sinister omgekeerd
+  '1376259': Lichtblauwe per band sinister omgekeerd
+  '1376260': Gele per band sinister omgekeerd
+  '1376261': Lichtgruene per band sinister omgekeerd
+  '1376262': Roze per band sinister omgekeerd
+  '1376263': Griese per band sinister omgekeerd
+  '1376264': Lichtgrijze per band sinister omgekeerd
+  '1376265': Turquoise per band sinister omgekeerd
+  '1376266': Paarse per band sinister omgekeerd
+  '1376267': Blauwe per band sinister omgekeerd
+  '1376268': Bruine per band sinister omgekeerd
+  '1376269': Greune per band sinister omgekeerd
+  '1376270': Roede Per Bocht Sinister Omgekeerd
+  '1376271': Zjwarte per band sinister omgekeerd
+  '1441792': Witte per band omgekeerd
+  '1441793': Oranje per band omgekeerd
+  '1441794': Magenta per band omgekeerd
+  '1441795': Lichtblauwe per band omgekeerd
+  '1441796': Gaele per band omgekeerd
+  '1441797': Lichtgreune per band omgekeerd
+  '1441798': Roze per band omgekeerd
+  '1441799': Grieze per band omgekeerd
+  '1441800': Licht grieze per band omgekeerd
+  '1441801': Turquoise per band omgekeerd
+  '1441802': Paarse per band omgekeerd
+  '1441803': Blauwe per band omgekeerd
+  '1441804': Broene per band omgekeerd
+  '1441805': Greune per band omgekeerd
+  '1441806': Roede per band omgekeerd
+  '1441807': Zjwarte per band omgekeerd
+  '1507328': Witte per band
+  '1507329': Oranje per band
+  '1507330': Magenta per band
+  '1507331': Lichtblauwe per band
+  '1507332': Gaele per band
+  '1507333': Lichtgreune per band
+  '1507334': Roze per band
+  '1507335': Grieze per band
+  '1507336': Lichtgrieze per band
+  '1507337': Turquoise per band
+  '1507338': Paarse per band
+  '1507339': Blauwe per band
+  '1507340': Broene per band
+  '1507341': Greune per band
+  '1507342': Roede per band
+  '1507343': Zjwarte per band
+  '1572864': Wit rozet
+  '1572865': Oranje rozet
+  '1572866': Magenta rozet
+  '1572867': Lichtblauw rozet
+  '1572868': Gael rozet
+  '1572869': Lichtgreun rozet
+  '1572870': Roze rozet
+  '1572871': Gries rozet
+  '1572872': Lichtgries rozet
+  '1572873': Turquoise rozet
+  '1572874': Paars rozet
+  '1572875': Blauw rozet
+  '1572876': Broen rozet
+  '1572877': Greun rozet
+  '1572878': Roed rozet
+  '1572879': Zjwart rozet
+  '1638400': Witte roet
+  '1638401': Oranje roet
+  '1638402': Magenta roet
+  '1638403': Lichtblauwe roet
+  '1638404': Gaele roet
+  '1638405': Lichtgreune roet
+  '1638406': Roze roet
+  '1638407': Grieze roet
+  '1638408': Lichtgrieze roet
+  '1638409': Turquoise roet
+  '1638410': Paarse roet
+  '1638411': Blauwe roet
+  '1638412': Broene roet
+  '1638413': Greune roet
+  '1638414': Roede roet
+  '1638415': Zjwart roet
+  '1703936': Witte per päöl
+  '1703937': Oranje per päöl
+  '1703938': Magenta per päöl
+  '1703939': Lichtblauwe per päöl
+  '1703940': Gaele per päöl
+  '1703941': Lichtgreune per päöl
+  '1703942': Roze per päöl
+  '1703943': Grieze per päöl
+  '1703944': Lichtgrieze per päöl
+  '1703945': Turquoise per päöl
+  '1703946': Paarse per päöl
+  '1703947': Blauwe per päöl
+  '1703948': Broene per päöl
+  '1703949': Greune per päöl
+  '1703950': Roede per päöl
+  '1703951': Zjwarte per päöl
+  '1769472': Witte per faas
+  '1769473': Oranje per faas
+  '1769474': Magenta per faas
+  '1769475': Lichtblauwe per faas
+  '1769476': Gaele per faas
+  '1769477': Lichtgreune per faas
+  '1769478': Roze per faas
+  '1769479': Grieze per faas
+  '1769480': Lichtgrieze per faas
+  '1769481': Turquoise per faas
+  '1769482': Paarse per faas
+  '1769483': Blauwe per faas
+  '1769484': Broene per faas
+  '1769485': Greune per faas
+  '1769486': Roede per faas
+  '1769487': Zjwarte per faas
+  '1835008': Witte per päöl omgekeerd
+  '1835009': Oranje per päöl omgekeerd
+  '1835010': Magenta per päöl omgekeerd
+  '1835011': Lichtblauwe per päöl omgekeerd
+  '1835012': Gaele per päöl omgekeerd
+  '1835013': Lichtgreune per päöl omgekeerd
+  '1835014': Roze per päöl omgekeerd
+  '1835015': Grieze per päöl omgekeerd
+  '1835016': Licht grieze per päöl omgekeerd
+  '1835017': Turquoise per päöl omgekeerd
+  '1835018': Paarse per päöl omgekeerd
+  '1835019': Blauwe per päöl omgekeerd
+  '1835020': Broene per päöl omgekeerd
+  '1835021': Greune per päöl omgekeerd
+  '1835022': Roede per päöl omgekeerd
+  '1835023': Zjwarte per päöl omgekeerd
+  '1900544': Witte per faas omgekeerd
+  '1900545': Oranje per faas omgekeerd
+  '1900546': Magenta per faas omgekeerd
+  '1900547': Lichtblauwe per faas omgekeerd
+  '1900548': Gaele per faas omgekeerd
+  '1900549': Lichtgreune per faas omgekeerd
+  '1900550': Roze per faas omgekeerd
+  '1900551': Grieze per faas omgekeerd
+  '1900552': Lichtgrijze per faas omgekeerd
+  '1900553': Turquoise per faas omgekeerd
+  '1900554': Paarse per faas omgekeerd
+  '1900555': Blauwe per faas omgekeerd
+  '1900556': Broene per faas omgekeerd
+  '1900557': Greune Per Fess Omgekeerd
+  '1900558': Roede per faas omgekeerd
+  '1900559': Zjwarte per faas omgekeerd
+  '1966080': Witte zoom
+  '1966081': Oranje zoom
+  '1966082': Magenta zoom
+  '1966083': Lichtblauwe zoom
+  '1966084': Gaele zoom
+  '1966085': Lichtgreune zoom
+  '1966086': Roze zoom
+  '1966087': Grieze zoom
+  '1966088': Lichtgrieze zoom
+  '1966089': Turquoise zoom
+  '1966090': Paarse zoom
+  '1966091': Blauwe zoom
+  '1966092': Broene zoom
+  '1966093': Greune zoom
+  '1966094': Roede zoom
+  '1966095': Zjwarte zoom
+  '2031616': Witte ingesprongen zoom
+  '2031617': Oranje ingesprongen zoom
+  '2031618': Magenta ingesprongen zoom
+  '2031619': Lichtblauwe ingesprongen zoom
+  '2031620': Gaele ingesprongen zoom
+  '2031621': Lichtgreune ingesprongen zoom
+  '2031622': Roze ingesprongen zoom
+  '2031623': Grieze ingesprongen zoom
+  '2031624': Licht grieze ingesprongen zoom
+  '2031625': Turquoise ingesprongen zoom
+  '2031626': Paarse ingesprongen zoom
+  '2031627': Blauwe ingesprongen zoom
+  '2031628': Broene ingesprongen zoom
+  '2031629': Greune ingesprongen zoom
+  '2031630': Roede ingesprongen zoom
+  '2031631': Zjwarte ingesprongen zoom
+  '2097152': Wit creeperwapen
+  '2097153': Oranje creeperwapen
+  '2097154': Magenta Creeperwapen
+  '2097155': Lichtblauw Creeperwapen
+  '2097156': Gael creeperwapen
+  '2097157': Lichtgreun creeperwapen
+  '2097158': Roze creeperwapen
+  '2097159': Gries creeperwapen
+  '2097160': Lichtgries Creeperwapen
+  '2097161': Turquoise Creeper Loaden
+  '2097162': Paars creeperwapen
+  '2097163': Blauw creeperwapen
+  '2097164': Breun creeperwapen
+  '2097165': Greun creeperwapen
+  '2097166': Roed creeperwapen
+  '2097167': Zjwart creeperwapen
+  '2162688': Wit gradiënt
+  '2162689': Oranje gradiënt
+  '2162690': Magenta gradiënt
+  '2162691': Lichtblauw gradiënt
+  '2162692': Gael gradiënt
+  '2162693': Lichtgreun gradiënt
+  '2162694': Roze gradiënt
+  '2162695': Gries gradiënt
+  '2162696': Lichtgries gradiënt
+  '2162697': Turquoise gradiënt
+  '2162698': Paars gradiënt
+  '2162699': Blauw gradiënt
+  '2162700': Broen gradiënt
+  '2162701': Greun gradiënt
+  '2162702': Roed gradiënt
+  '2162703': Zjwart gradiënt
+  '2228224': Wit basis gradiënt
+  '2228225': Oranje basis gradiënt
+  '2228226': Magenta basis gradiënt
+  '2228227': Lichtblauw basis gradiënt
+  '2228228': Gael basis gradiënt
+  '2228229': Lichtgreun basis gradiënt
+  '2228230': Roze basis gradiënt
+  '2228231': Gries basis gradiënt
+  '2228232': Lichtgries basis gradiënt
+  '2228233': Turquoise basis gradiënt
+  '2228234': Paars basis gradiënt
+  '2228235': Blauw basis gradiënt
+  '2228236': Broen basis gradiënt
+  '2228237': Greun basis gradiënt
+  '2228238': Roed basis gradiënt
+  '2228239': Zjwart basis gradiënt
+  '2293760': Wit veld gemetseld
+  '2293761': Oranje veld gemetseld
+  '2293762': Magenta veld gemetseld
+  '2293763': Lichtblauw veld gemetseld
+  '2293764': Gael veld gemetseld
+  '2293765': Lichtgreun veld gemetseld
+  '2293766': Roze veld gemetseld
+  '2293767': Gries veld gemetseld
+  '2293768': Lichtgries veld gemetseld
+  '2293769': Turquoise veld gemetseld
+  '2293770': Paars veld gemetseld
+  '2293771': Blauw veld gemetseld
+  '2293772': Broen veld gemetseld
+  '2293773': Greun veld gemetseld
+  '2293774': Roed veld gemetseld
+  '2293775': Zjwart veld gemetseld
+  '2359296': Wit schedelwapen
+  '2359297': Oranje schedelwapen
+  '2359298': Magenta schedelwapen
+  '2359299': Lichtblauw schedelwapen
+  '2359300': Gael schedelwapen
+  '2359301': Licht greun schedelwapen
+  '2359302': Roze schedelwapen
+  '2359303': Gries schedelwapen
+  '2359304': Lichtgries schedelwapen
+  '2359305': Turquoise schedelwapen
+  '2359306': Paars schedelwapen
+  '2359307': Blauw schedelwapen
+  '2359308': Broen schedelwapen
+  '2359309': Greun schedelwapen
+  '2359310': Roed schedelwapen
+  '2359311': Zjwart schedelwapen
+  '2424832': Wit bloomwapen
+  '2424833': Oranje bloomwapen
+  '2424834': Magenta bloomwapen
+  '2424835': Lichtblauw bloemwapen
+  '2424836': Gael bloomwapen
+  '2424837': Lichtgreun bloemwapen
+  '2424838': Roze bloomwapen
+  '2424839': Gries bloomwapen
+  '2424840': Licht gries bloemwapen
+  '2424841': Turquoise bloomwapen
+  '2424842': Paars bloomwapen
+  '2424843': Blauw bloomwapen
+  '2424844': Broen bloomwapen
+  '2424845': Greun bloomwapen
+  '2424846': Roed bloomwapen
+  '2424847': Zjwart bloomwapen
+  '2490368': Wit Mojangwapen
+  '2490369': Oranje Mojangwapen
+  '2490370': Magenta Mojangwapen
+  '2490371': Lichtblauw Mojangwapen
+  '2490372': Gael Mojangwapen
+  '2490373': Lichtgreun Mojangwapen
+  '2490374': Roze Mojangwapen
+  '2490375': Gries Mojangwapen
+  '2490376': Lightgries Mojangwapen
+  '2490377': Turquoise Mojangwapen
+  '2490378': Paars Mojangwapen
+  '2490379': Blauw Mojangwapen
+  '2490380': Broen Mojangwapen
+  '2490381': Greun Mojangwapen
+  '2490382': Roed Mojangwapen
+  '2490383': Zjwart Mojangwapen
+  '2555904': Witte globe
+  '2555905': Oranje Globe
+  '2555906': Magenta Bolle
+  '2555907': Licht Blauwe Bolle
+  '2555908': Gaele globe
+  '2555909': Licht greune globe
+  '2555910': Roze globe
+  '2555911': Grieze globe
+  '2555912': Licht Grieze Bolle
+  '2555913': Turquoise globe
+  '2555914': Poarse Bolle
+  '2555915': Blauwe globe
+  '2555916': Broene globe
+  '2555917': Greune globe
+  '2555918': Roeje globe
+  '2555919': Zjwarte globe
+  '2621440': Witte Snoet
+  '2621441': Oranje Snoet
+  '2621442': Magenta Snoet
+  '2621443': Licht Blauwe Snoet
+  '2621444': Geale Snoet
+  '2621445': Limoen Snoet
+  '2621446': Roze Snoet
+  '2621447': Grieze Snoet
+  '2621448': Licht Grieze Snoet
+  '2621449': Cyaan Snoet
+  '2621450': Paarse Snoet
+  '2621451': Blauwe Snoet
+  '2621452': Broene Snoet
+  '2621453': Greune Snoet
+  '2621454': Roeie Snoet
+  '2621455': Zwarte Snoet
+merchant_level:
+  '1': Starter
+  '2': Lierlinge
+  '3': Knecht
+  '4': Expert
+  '5': Meister
+villager_profession:
+  none: Durpeling
+  armorer: Harnassmid
+  butcher: Slager
+  cartographer: Kartograaf
+  cleric: Geestelijke
+  farmer: Boer
+  fisherman: Vèsjer
+  fletcher: Pielenmaeker
+  leatherworker: Leerlooier
+  librarian: Bibliothecaris
+  mason: Metselaar
+  nitwit: Onbenul
+  shepherd: Herder
+  toolsmith: Gereidsjapsmid
+  weaponsmith: Wapensmid
+villager_career:
+  farmer: Boer
+  fisherman: Vèsjer
+  shepherd: Herder
+  fletcher: Pielenmaeker
+  librarian: Bibliothecaris
+  cartographer: Kartograaf
+  cleric: Geestelijke
+  armorer: Harnassmid
+  weapon_smith: Wapensmid
+  tool_smith: Gereedsjapssmid
+  butcher: Slager
+  leatherworker: Leerlooier
+  nitwit: Onbenul

@@ -1,0 +1,189 @@
+# ####################################################
+# Build time: 2021-03-06 14:30:27                    #
+# ####################################################
+language:
+  code: tzl_tzl
+  name: Talossan
+  region: Talossa
+material:
+  acacia_wood: Madeira d'acacea
+  birch_wood: Madeira da betz
+  dark_oak_wood: Madeira da cjar fusc
+  jungle_wood: Madeira da xhungla
+  oak_wood: Madeira da cjar
+  spruce_wood: Madeira da cimcì
+banner_pattern:
+  '65536': Cantò erxhent in el baseu àl drept
+  '65537': Cantò crisomileu in el baseu àl drept
+  '65538': Cantò fuc'hschina in el baseu àl drept
+  '65539': Cantò celestéu in el baseu àl drept
+  '65540': Cantò or in el baseu àl drept
+  '65541': Cantò virt tint in el baseu àl drept
+  '65542': Cantò rösch in el baseu àl drept
+  '65543': Cantò cindreu in el baseu àl drept
+  '65544': Cantò peira in el baseu àl drept
+  '65545': Cantò cian in el baseu àl drept
+  '65546': Cantò purpül in el baseu àl drept
+  '65547': Cantò azür in el baseu àl drept
+  '65548': Cantò branatréu in el baseu àl drept
+  '65549': Cantò virt in el baseu àl drept
+  '65550': Cantò goglhas in el baseu àl drept
+  '65551': Cantò civlaineu in el baseu àl drept
+  '131072': Cantò erxhent in el baseu àl sinistrà
+  '131073': Cantò crisomileu in el baseu àl sinistrà
+  '131074': Cantò fuc'hschina in el baseu àl sinistrà
+  '131075': Cantò celestéu in el baseu àl sinistrà
+  '131076': Cantò or in el baseu àl sinistrà
+  '131077': Cantò virt tint in el baseu àl sinistrà
+  '131078': Cantò rösch in el baseu àl sinistrà
+  '131079': Cantò cindreu in el baseu àl sinistrà
+  '131080': Cantò peira in el baseu àl sinistrà
+  '131081': Cantò cian in el baseu àl sinistrà
+  '131082': Cantò purpül in el baseu àl sinistrà
+  '131083': Cantò azür in el baseu àl sinistrà
+  '131084': Cantò branatréu in el baseu àl sinistrà
+  '131085': Cantò virt in el baseu àl sinistrà
+  '131086': Cantò goglhas in el baseu àl sinistrà
+  '131087': Cantò civlaineu in el baseu àl sinistrà
+  '458752': Tierçéu erxhent
+  '458753': Tierçéu crisomileu
+  '458754': Tierçéu fuc'hschina
+  '458755': Tierçéu celestéu
+  '458756': Tierçéu or
+  '458757': Tierçéu virt tint
+  '458758': Tierçéu rösch
+  '458759': Tierçéu cindreu
+  '458760': Tierçéu peira
+  '458761': Tierçéu cian
+  '458762': Tierçéu purpül
+  '458763': Tierçéu azür
+  '458764': Tierçéu branatréu
+  '458766': Tierçéu goglhas
+  '458767': Tierçéu civlaineu
+  '851968': Verdiunal erxhent
+  '851969': Verdiunal crisomileu
+  '851970': Verdiunal fuc'hschina
+  '851971': Verdiunal celestéu
+  '851972': Verdiunal or
+  '851973': Verdiunal virt tint
+  '851974': Verdiunal rösch
+  '851975': Verdiunal cindreu
+  '851976': Verdiunal peira
+  '851977': Verdiunal cian
+  '851978': Verdiunal purpül
+  '851979': Verdiunal azür
+  '851980': Verdiunal branatréu
+  '851981': Verdiunal virt
+  '851982': Verdiunal goglhas
+  '851983': Verdiunal civlaineu
+  '1179648': Campagnha indintada erxhent
+  '1179649': Campagnha indintada crisomila
+  '1179650': Campagnha indintada fuc'hschina
+  '1179651': Campagnha indintada celestéa
+  '1179652': Campagnha indintada or
+  '1179653': Campagnha indintada virt tint
+  '1179654': Campagnha indintada rösch
+  '1179655': Campagnha indintada cindra
+  '1179656': Campagnha indintada peira
+  '1179657': Campagnha indintada cian
+  '1179658': Campagnha indintada purpül
+  '1179659': Campagnha indintada azür
+  '1179660': Campagnha indintada branatréa
+  '1179661': Campagnha indintada virt
+  '1179662': Campagnha indintada goglhas
+  '1179663': Campagnha indintada civlaina
+  '1441792': Par el band doualaiset erxhent
+  '1441793': Par el band doualaiset crisomileu
+  '1441794': Par el band doualaiset fuc'hschina
+  '1441795': Par el band doualaiset celestéu
+  '1441796': Par el band doualaiset or
+  '1441797': Par el band doualaiset virt tint
+  '1441798': Par el band doualaiset rösch
+  '1441799': Par el band doualaiset cindreu
+  '1441800': Par el band doualaiset peira
+  '1441801': Par el band doualaiset cian
+  '1441802': Par el band doualaiset purpül
+  '1441803': Par el band doualaiset azür
+  '1441804': Par el band doualaiset branatréu
+  '1441805': Par el band doualaiset virt
+  '1441806': Par el band doualaiset goglhas
+  '1441807': Par el band doualaiset civlaineu
+  '1572864': Rondet erxhent
+  '1572865': Rondet crisomileu
+  '1572867': Rondet celestéu
+  '1572868': Rondet or
+  '1572869': Rondet virt tint
+  '1572870': Rondet rösch
+  '1572871': Rondet cindreu
+  '1572872': Rondet peira
+  '1572873': Rondet cian
+  '1572874': Rondet purpül
+  '1572875': Rondet azür
+  '1572876': Rondet branatréu
+  '1572877': Rondet virt
+  '1572878': Rondet goglhas
+  '1572879': Rondet civlaineu
+  '1835008': Par la vierdiun doualaiset erxhent
+  '1835009': Par la vierdiun doualaiset crisomileu
+  '1835010': Par la vierdiun doualaiset fuc'hschina
+  '1835011': Par la vierdiun doualaiset celestéu
+  '1835012': Par la vierdiun doualaiset or
+  '1835013': Par la vierdiun doualaiset virt tint
+  '1835014': Par la vierdiun doualaiset rösch
+  '1835015': Par la vierdiun doualaiset cindreu
+  '1835016': Par la vierdiun doualaiset peira
+  '1835017': Par la vierdiun doualaiset cian
+  '1835018': Par la vierdiun doualaiset purpül
+  '1835019': Par la vierdiun doualaiset azür
+  '1835020': Par la vierdiun doualaiset branatréu
+  '1835021': Par la vierdiun doualaiset virt
+  '1835022': Par la vierdiun doualaiset goglhas
+  '1835023': Par la vierdiun doualaiset civlaineu
+  '1900544': Par la faischa doualaiset erxhent
+  '1900545': Par la faischa doualaiset crisomileu
+  '1900546': Par la faischa doualaiset fuc'hschina
+  '1900547': Par la faischa doualaiset celestéu
+  '1900548': Par la faischa doualaiset or
+  '1900549': Par la faischa doualaiset virt tint
+  '1900550': Par la faischa doualaiset rösch
+  '1900551': Par la faischa doualaiset cindreu
+  '1900552': Par la faischa doualaiset peira
+  '1900553': Par la faischa doualaiset cian
+  '1900554': Par la faischa doualaiset purpül
+  '1900555': Par la faischa doualaiset azür
+  '1900556': Par la faischa doualaiset branatréu
+  '1900557': Par la faischa doualaiset virt
+  '1900558': Par la faischa doualaiset goglhas
+  '1900559': Par la faischa doualaiset civlaineu
+  '2031616': Orlat indintat erxhent
+  '2031617': Orlat indintat crisomileu
+  '2031618': Orlat indintat fuc'hschina
+  '2031619': Orlat indintat celestéu
+  '2031620': Orlat indintat or
+  '2031621': Orlat indintat virt tint
+  '2031622': Orlat indintat rösch
+  '2031623': Orlat indintat cindreu
+  '2031624': Orlat indintat peira
+  '2031625': Orlat indintat cian
+  '2031626': Orlat indintat purpül
+  '2031627': Orlat indintat azür
+  '2031628': Orlat indintat branatréu
+  '2031629': Orlat indintat virt
+  '2031630': Orlat indintat goglhas
+  '2031631': Orlat indintat civlaineu
+  '2359296': Cäps da moart erxhent
+  '2359297': Cäps da moart crisomileu
+  '2359298': Cäps da moart fuc'hschina
+  '2359299': Cäps da moart celestéu
+  '2359300': Cäps da moart or
+  '2359301': Cäps da moart virt tint
+  '2359302': Cäps da moart rösch
+  '2359303': Cäps da moart cindreu
+  '2359304': Cäps da moart peira
+  '2359305': Cäps da moart cian
+  '2359306': Cäps da moart purpül
+  '2359307': Cäps da moart azür
+  '2359308': Cäps da moart branatréu
+  '2359309': Cäps da moart virt
+  '2359310': Cäps da moart goglhas
+  '2359311': Cäps da moart civlaineu

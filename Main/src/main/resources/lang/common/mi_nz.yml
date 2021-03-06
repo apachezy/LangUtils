@@ -1,0 +1,796 @@
+# ####################################################
+# Build time: 2021-03-06 14:47:28                    #
+# ####################################################
+language:
+  code: mi_nz
+  name: Te Reo Māori
+  region: Aotearoa
+material:
+  air: Pūrere
+  stone: Toka
+  granite: Kawikawi
+  polished_granite: Granite Pai
+  diorite: Diorite
+  polished_diorite: Diorite Titi
+  andesite: Andesite
+  polished_andesite: Andesite Poropiti
+  grass_block: tarutaru Poraka
+  dirt: paru
+  coarse_dirt: Kotahi Dirt
+  podzol: Onemata
+  crimson_nylium: Whero Nylium
+  warped_nylium: Waruhia Nylium
+  cobblestone: Cobblestone
+  oak_planks: Nga Papa Whenua
+  spruce_planks: Whakakapuhia nga Papa
+  birch_planks: Papa Maaka
+  jungle_planks: Nga Papa Tere
+  acacia_planks: Nga Papa Riiki
+  dark_oak_planks: Nga Papa Takotoranga pouri
+  crimson_planks: Papa Whero
+  warped_planks: Papa Hapa
+  oak_sapling: Oak Māhuri
+  spruce_sapling: te puruhi mo Māhuri
+  birch_sapling: Birch Māhuri
+  jungle_sapling: uru raau no Māhuri
+  acacia_sapling: hitimi Māhuri
+  dark_oak_sapling: Te Huringa Kao pouri
+  bedrock: maka tefito
+  sand: onepū
+  red_sand: Kirikiri whero
+  gravel: Tuakirikiri
+  gold_ore: Gold Ore
+  iron_ore: Tokahuke Rino
+  coal_ore: Coal Ore
+  nether_gold_ore: Maoro Pepa tokakonganuku
+  oak_log: Rau Paki
+  spruce_log: Whakaohohia te Rango
+  birch_log: Rangahau Birch
+  jungle_log: Rau Iwi
+  acacia_log: Rau Acacia
+  dark_oak_log: Pato Raiona pouri
+  crimson_stem: Rakau Whero
+  warped_stem: Kakau Pakau
+  stripped_oak_log: Whakapai i nga Raakau Whawhai
+  stripped_spruce_log: Whakapakihia te Raakau Whakaheke
+  stripped_birch_log: Unuhia a Birch Log
+  stripped_jungle_log: Tuhia te Acacia Log
+  stripped_acacia_log: Tuhia te Acacia Log
+  stripped_dark_oak_log: Te Kai Wood Wood
+  stripped_crimson_stem: Takakau Kuti Whero
+  stripped_warped_stem: Unuhia te War War Putu
+  stripped_oak_wood: Unuhia te Kai Horoahi
+  stripped_spruce_wood: Unuhia te Birch Wood
+  stripped_birch_wood: Horoia Te Rauhere Wao
+  stripped_jungle_wood: Tangohia te Acacia Wood
+  stripped_acacia_wood: Tangohia a Dark Oak Wood
+  stripped_dark_oak_wood: Tangohia a Dark Oak Wood
+  stripped_crimson_hyphae: Hukuhua Crimson Hyphae
+  stripped_warped_hyphae: Hyphae Kua Whawhai
+  oak_wood: Rākau Oke
+  spruce_wood: te puruhi mo Wood
+  birch_wood: Birch Wood
+  jungle_wood: uru raau no Wood
+  acacia_wood: hitimi Wood
+  dark_oak_wood: Dark Oak Wood
+  crimson_hyphae: Hyphae Whero
+  warped_hyphae: Hyphae Warped
+  oak_leaves: Rau oki
+  spruce_leaves: Rau te puruhi
+  birch_leaves: birch Rau
+  jungle_leaves: uru raau no Rau
+  acacia_leaves: hitimi Rau
+  dark_oak_leaves: Dark Oak Rau
+  sponge: hautai
+  wet_sponge: Te hautai maku
+  glass: Karaehe
+  lapis_ore: Lapis Lazuli Ore
+  lapis_block: Lapis Lazuli Poraka
+  dispenser: Dispenser
+  sandstone: Hōanga
+  chiseled_sandstone: whaoa hōanga
+  cut_sandstone: Tapahia a Sandstone
+  note_block: Tuhipoka Poraka
+  powered_rail: Rail Powered
+  detector_rail: pūkimi Rail
+  sticky_piston: Kōkeke Hāpiapia
+  cobweb: Cobweb
+  grass: Karaihe
+  fern: Ponga
+  dead_bush: mate Bush
+  seagrass: Hauhuru
+  sea_pickle: Pikitiki Moana
+  piston: Kōkeke
+  white_wool: Awhero White
+  orange_wool: Ruaka karaka
+  magenta_wool: Awarua Whero
+  light_blue_wool: He Whero kikorangi
+  yellow_wool: Whero kowhai
+  lime_wool: Panu Ruihi
+  pink_wool: Whero Whero
+  gray_wool: Tarutaru Kerei
+  light_gray_wool: He Whero Kerei
+  cyan_wool: Whanawene Cyan
+  purple_wool: Woro Whero
+  blue_wool: Whero kikorangi
+  brown_wool: Whero Whero
+  green_wool: Tarawhara Green
+  red_wool: Te Whero Whero
+  black_wool: Awhiu Pango
+  dandelion: Tawao
+  poppy: Pūpū
+  blue_orchid: Blue Orchid
+  allium: Allium
+  azure_bluet: Azure Bluet
+  red_tulip: Whero Tulip
+  orange_tulip: Orange Tulip
+  white_tulip: White Tulip
+  pink_tulip: Pink Tulipapapa
+  oxeye_daisy: Ko Oxeye Daisy
+  cornflower: Puawai Rota
+  lily_of_the_valley: Tuhinga o mua
+  wither_rose: Riki Mate
+  brown_mushroom: Harore parauri
+  crimson_fungus: Harore Piimona
+  warped_fungus: Harore I whakawahia
+  crimson_roots: Putake Whero
+  warped_roots: Nga pakiaka koretake
+  nether_sprouts: Nether Tupu
+  weeping_vines: Waina Waina
+  twisting_vines: Waina Kotiro
+  sugar_cane: Tōhuka
+  kelp: Kakau
+  bamboo: Pūpū
+  gold_block: Poraka o Kōura
+  iron_block: Poraka o Rino
+  oak_slab: Huka Kiri
+  spruce_slab: Whakatau riki
+  birch_slab: Papanga Birch
+  jungle_slab: Taputapu Huna
+  acacia_slab: Tapapa Acacia
+  dark_oak_slab: Pouri Kiri
+  crimson_slab: Tapawhuru
+  warped_slab: Papa Iukiruki
+  stone_slab: Papu kowhatu
+  smooth_stone_slab: He kowhatu kowhatu Kohatu
+  sandstone_slab: Mahara Peariki
+  cut_sandstone_slab: Tapahia te Tapahi Sandstone
+  petrified_oak_slab: Tapaina te papaa
+  cobblestone_slab: Parapapa Kiripapaku
+  brick_slab: Tapahi pereki
+  stone_brick_slab: Papara pereki kowhatu
+  nether_brick_slab: Nati pereki pereki
+  quartz_slab: Tapahi otaota
+  red_sandstone_slab: Paraka Whero Whero
+  cut_red_sandstone_slab: Tapahia te Tapahi Whero Whero
+  purpur_slab: Papa Pūrapūra
+  prismarine_slab: Prismarine Tapahi
+  prismarine_brick_slab: Prismarine Pereki Pararahe
+  dark_prismarine_slab: Poutapeta pouri pouri
+  smooth_quartz: Poraka Huarahi Panui
+  smooth_red_sandstone: He Sandenewhero Whero
+  smooth_sandstone: hōanga Whakaene
+  smooth_stone: He kowhatu whakakata
+  bricks: Pereki
+  tnt: TNT
+  bookshelf: Paenga Pukapuka
+  mossy_cobblestone: He Koropikoone
+  obsidian: Matā
+  torch: Rama
+  purpur_stairs: Arapiki Pūrapūra
+  spawner: Pūhaka
+  oak_stairs: Whare Toa
+  chest: pouaka
+  diamond_ore: Tokahuke Taimana
+  diamond_block: Poraka o Taimana
+  crafting_table: Papamahi
+  farmland: Papanga pāmu
+  furnace: Oumu
+  ladder: Arawhata
+  rail: Ara tereina
+  cobblestone_stairs: Stone Arawhata
+  lever: Ara
+  stone_pressure_plate: Papatohu Panui
+  oak_pressure_plate: Taha Maatauranga Kakano
+  spruce_pressure_plate: Whakapaihia te papa perehini
+  birch_pressure_plate: Maataha papaahi Birch
+  jungle_pressure_plate: Nga Maatini Horoopao
+  acacia_pressure_plate: He papaa Acacia Pressure
+  dark_oak_pressure_plate: He papaa Panui pouri
+  crimson_pressure_plate: Pereti Taumaha Whero
+  warped_pressure_plate: Pereti Taumaha Whawhai
+  redstone_ore: Puka Ore
+  redstone_torch: Kaihikoi Redstone
+  snow: Huka
+  ice: Haupapa
+  cactus: Kakitahi
+  clay: Uku
+  jukebox: Reo Irirangi
+  oak_fence: Taiepa
+  spruce_fence: Taiapa Mataī
+  birch_fence: Taiapa Petura
+  jungle_fence: Taiapa Kauri
+  acacia_fence: Taiapa Keiha
+  dark_oak_fence: Taiapa Ōki Pōuri
+  crimson_fence: Harore Piimona
+  warped_fence: Taiapa Pakau
+  pumpkin: Paukena
+  carved_pumpkin: Paukena whakairo
+  netherrack: Whakapau
+  soul_sand: Te Hone wairua
+  soul_soil: Wairua Wairua
+  basalt: Ōnewa
+  polished_basalt: Ōnewa aumiri
+  soul_torch: Rama wairua
+  glowstone: Papatarere
+  jack_o_lantern: Tuhinga o mua
+  oak_trapdoor: Raapao Puranganui
+  spruce_trapdoor: Whakatau rorirori
+  birch_trapdoor: Birch Trapdoor
+  jungle_trapdoor: Whanau Huarahi
+  acacia_trapdoor: Acacia Maapirimapa
+  dark_oak_trapdoor: Trapdoor mangapuna
+  crimson_trapdoor: Koputaputa Whero
+  warped_trapdoor: Pakipaki Trapeway
+  infested_stone: Pōhatu Mui
+  infested_cobblestone: Pōhatu Mui Pakaru
+  infested_stone_bricks: Pereki Pōhatu Mui
+  infested_mossy_stone_bricks: Pereki Pōhatu Kurupetipeti Mui
+  infested_cracked_stone_bricks: Pereki Pōhatu Mātoetoe Mui
+  infested_chiseled_stone_bricks: Pereki Pōhatu Whakairo Mui
+  stone_bricks: Nga T pohatu kowhatu
+  mossy_stone_bricks: He kowhatu kowhatu Kohatu
+  cracked_stone_bricks: Nga pereki pohara i werohia
+  chiseled_stone_bricks: He kowhatu pereki kowhatu
+  brown_mushroom_block: Paraka Paraka Whenua
+  red_mushroom_block: Poraka Tuuturu Poraka
+  mushroom_stem: Te kakau harakeke
+  iron_bars: Taonga Toa
+  glass_pane: Pihanga
+  melon: Merengi
+  vine: Te karepe
+  oak_fence_gate: Putanga Ōki
+  spruce_fence_gate: Putanga Mataī
+  birch_fence_gate: Putanga Petura
+  jungle_fence_gate: Kaha Raarangi Tere
+  acacia_fence_gate: Koko Kiriki Karai Acacia
+  dark_oak_fence_gate: Matapihi Puka Tika pouri
+  crimson_fence_gate: Harore Piimona
+  warped_fence_gate: Te Kaha Taepa Kino
+  brick_stairs: Raina pereki
+  stone_brick_stairs: Nga pikinga pereki kohatu
+  mycelium: Tohu
+  lily_pad: Paeroa papa
+  nether_bricks: Pereki te reinga
+  nether_brick_fence: Raro taiepa pereki
+  nether_brick_stairs: Niiwhiti Pirimirua
+  enchanting_table: Ripanga Whakauru
+  end_portal_frame: Anga whakamutu
+  end_stone: Mutu Kohatu
+  end_stone_bricks: Pereki Pōhatu Pōike
+  dragon_egg: Tarakona hua manu
+  redstone_lamp: Taamura Whero rama
+  sandstone_stairs: hōanga Arawhata
+  emerald_ore: Emerara kohuke
+  ender_chest: Te uma
+  tripwire_hook: Nga kaiuru mo nga haerenga
+  emerald_block: Emerara poraka
+  spruce_stairs: Whakatau Papa
+  birch_stairs: Pikahe Tohu
+  jungle_stairs: Whanau Ngahere
+  crimson_stairs: Pipi Piimona
+  warped_stairs: Te Kaha Taepa Kino
+  command_block: Poraka whakahau
+  beacon: Ramaroa
+  brick_wall: Wharahi Pararaihi
+  prismarine_wall: Hanga Prismarine
+  red_sandstone_wall: Te Haki Mate Whero
+  mossy_stone_brick_wall: He kowhatu pereki kohatu
+  granite_wall: Matapihi Granite
+  stone_brick_wall: Matapihi Papa pereki
+  nether_brick_wall: Horo Pereki
+  andesite_wall: Whangai Panui
+  red_nether_brick_wall: Te Horoi pereki Whero
+  sandstone_wall: Taira Patu
+  end_stone_brick_wall: Whakamutunga Pararaini pereki
+  diorite_wall: Pakitara Diorite
+  stone_button: Pene Matariki
+  oak_button: Pene Matariki
+  spruce_button: Whakapaihia te Pene
+  birch_button: Pātene Birch
+  jungle_button: Pātene Rauuru
+  acacia_button: Pene Acacia
+  dark_oak_button: Pātene Oak pouri
+  crimson_button: Pihi Whero
+  warped_button: Pihi Peke
+  anvil: Paepae maitai
+  chipped_anvil: Hipoki Heru
+  damaged_anvil: Ngaro kino Heru
+  trapped_chest: aaka mau
+  light_weighted_pressure_plate: He Maama Whakanoho Taha Maama
+  heavy_weighted_pressure_plate: He Maataha Paha Whananga taumaha
+  redstone_block: Poraka te puehu whero
+  hopper: Kōrere
+  quartz_block: Paraka Takawai
+  activator_rail: Activator Rail
+  dropper: Pūporo
+  white_terracotta: Terakota Tea
+  orange_terracotta: Terakota Karaka
+  magenta_terracotta: Terakota Mākurakura
+  light_blue_terracotta: Terakota Ōrangitea
+  yellow_terracotta: Terakota Kōwhai
+  lime_terracotta: Terakota Kārikikōwhai
+  pink_terracotta: Terakota Māwhero
+  gray_terracotta: Terakota Kiwikiwi
+  light_gray_terracotta: Terakota Kiwitea
+  cyan_terracotta: Terakota Kārikiōrangi
+  purple_terracotta: Terakota Pāpura
+  blue_terracotta: Terakota Kikorangi
+  brown_terracotta: Terakota Parauri
+  green_terracotta: Terakota Kākāriki
+  red_terracotta: Terakota Whero
+  black_terracotta: Terakota Pango
+  barrier: Te Kaipara
+  iron_trapdoor: Te Matapihi Tino
+  hay_block: hay wuru
+  white_carpet: Karepa White
+  orange_carpet: Te whāriki karaka
+  magenta_carpet: Whāriki peita
+  light_blue_carpet: Whāriki Ōrangitea
+  yellow_carpet: Te whāriki kowhai
+  lime_carpet: Karepa White
+  pink_carpet: Whāriki Māwhero
+  gray_carpet: Whāriki Kiwikiwi
+  light_gray_carpet: Whāriki Kiwitea
+  cyan_carpet: Whāriki kārikiōrangi
+  purple_carpet: Whāriki Pāpura
+  blue_carpet: Whāriki Kikorangi
+  brown_carpet: Whāriki Parauri
+  green_carpet: Whāriki Kākāriki
+  red_carpet: Whāriki Whero
+  black_carpet: Whāriki Pango
+  terracotta: Terakota
+  coal_block: Poraka o Coal
+  packed_ice: Tio Mātotoru
+  acacia_stairs: Papaea Acacia
+  dark_oak_stairs: Pika ngai Tu pouri
+  grass_path: Ara Karaihe
+  sunflower: Putiputi rā
+  lilac: Whakatika
+  rose_bush: Rōha
+  peony: Peita
+  tall_grass: Tarutaru otaota
+  large_fern: Ponga
+  white_stained_glass: Karaihe Karaka White
+  orange_stained_glass: Karaihe karaka Orange
+  magenta_stained_glass: He karaehe karaihe Magenta
+  light_blue_stained_glass: He Karaka kikorangi kikorangi
+  yellow_stained_glass: Karaihe Karaka kowhai
+  lime_stained_glass: He karaihe maramara
+  pink_stained_glass: Pink ōpure koata
+  gray_stained_glass: Gray ōpure koata
+  light_gray_stained_glass: Light Gray ōpure koata
+  cyan_stained_glass: Urikiko ōpure koata
+  purple_stained_glass: Papura ōpure koata
+  blue_stained_glass: Blue ōpure koata
+  brown_stained_glass: Brown ōpure koata
+  green_stained_glass: Green ōpure koata
+  red_stained_glass: Whero ōpure koata
+  black_stained_glass: Black ōpure koata
+  white_stained_glass_pane: Pane karaehe kara
+  orange_stained_glass_pane: Pane karaehe karaihe karaka
+  magenta_stained_glass_pane: Pawhaea Peane Karawhiu
+  light_blue_stained_glass_pane: Pane puru Pane karaehe Pane
+  yellow_stained_glass_pane: Pane karaehe karaehe kowhai
+  lime_stained_glass_pane: He kotakota karaehe Pane
+  pink_stained_glass_pane: Pane Whero karaehe Pane
+  gray_stained_glass_pane: Pane Kākāriki Pane
+  light_gray_stained_glass_pane: Pane Kākāriki karaehe Pane
+  cyan_stained_glass_pane: Cyan Pane karaihe Pane
+  purple_stained_glass_pane: Ko te Pane karaehe Pane
+  blue_stained_glass_pane: Pane karaehe karaehe Pane
+  brown_stained_glass_pane: Pane karaehe karaehe parauri
+  green_stained_glass_pane: Pane Kākāriki Pane
+  red_stained_glass_pane: Whero Pane Kākahu Whero
+  black_stained_glass_pane: Pane karaehe karaehe pango
+  prismarine_stairs: Tūturu Prismarine
+  prismarine_brick_stairs: Prismarine Piira Patu
+  dark_prismarine_stairs: Tūruuru Prismarine pouri
+  sea_lantern: Rama Moana
+  red_sandstone: Te Sandewhero Whero
+  chiseled_red_sandstone: He Sandenewhero Whero
+  cut_red_sandstone: Tapahia te Sandstone Whero
+  red_sandstone_stairs: Whero Taimana Whero
+  repeating_command_block: Whakahoki Poutohu Poraka
+  chain_command_block: Poraka whakahau
+  magma_block: Paraka Tokawera
+  nether_wart_block: Paraka Tona Rarohenga
+  warped_wart_block: Warping Wart Poraka
+  red_nether_bricks: Pereki Rarohenga Whero
+  bone_block: Paraka Kōiwi
+  observer: Kaimātakitaki
+  shulker_box: Pouaka Huruka
+  white_shulker_box: Pouaka Huruka Tea
+  orange_shulker_box: Pouaka Huruka Karaka
+  magenta_shulker_box: Pouaka Huruka Mākurakura
+  light_blue_shulker_box: Pouaka Huruka Ōrangitea
+  yellow_shulker_box: Pouaka Huruka Kōwhai
+  lime_shulker_box: Pouaka Huruka Kārikikōwhai
+  pink_shulker_box: Pouaka Huruka Māwhero
+  gray_shulker_box: Pouaka Huruka Kiwikiwi
+  light_gray_shulker_box: Pouaka Huruka Kiwitea
+  cyan_shulker_box: Pouaka Huruka Kārikiōrangi
+  purple_shulker_box: Pouaka Huruka Pāpura
+  blue_shulker_box: Pouaka Huruka Kikorangi
+  brown_shulker_box: Pouaka Huruka Parauri
+  green_shulker_box: Pouaka Huruka Kākāriki
+  red_shulker_box: Pouaka Huruka Whero
+  black_shulker_box: Pouaka Huruka Pango
+  white_glazed_terracotta: Terakota Kirimōhinu Tea
+  orange_glazed_terracotta: Terakota Kirimōhinu Karaka
+  magenta_glazed_terracotta: Terakota Kirimōhinu Mākurakura
+  light_blue_glazed_terracotta: Terakota Kirimōhinu Ōrangitea
+  yellow_glazed_terracotta: Terakota Kirimōhinu Kōwhai
+  lime_glazed_terracotta: Terakota Kirimōhinu Kārikikōwhai
+  pink_glazed_terracotta: Terakota Kirimōhinu Māwhero
+  gray_glazed_terracotta: Terakota Kirimōhinu Kiwikiwi
+  light_gray_glazed_terracotta: Terakota Kirimōhinu Kiwitea
+  cyan_glazed_terracotta: Terakota Kirimōhinu Kārikiōrangi
+  purple_glazed_terracotta: Terakota Kirimōhinu Pāpura
+  blue_glazed_terracotta: Terakota Kirimōhinu Kikorangi
+  brown_glazed_terracotta: Terakota Kirimōhinu Parauri
+  green_glazed_terracotta: Terakota Kirimōhinu Kākāriki
+  red_glazed_terracotta: Terakota Kirimōhinu Whero
+  black_glazed_terracotta: Terakota Kirimōhinu Pango
+  cyan_concrete: Raima Kārikiōrangi
+  purple_concrete: Raima Pāpura
+  blue_concrete: Raima Kikorangi
+  brown_concrete: Raima Parauri
+  green_concrete: Raima Kākāriki
+  red_concrete: Raima Whero
+  black_concrete: Raima Pango
+  turtle_egg: Hēki Honu
+  blue_ice: Tio Kikōrangi
+  polished_granite_stairs: Tūru Granite
+  smooth_red_sandstone_stairs: He Tohu Peariki Whero
+  mossy_stone_brick_stairs: Te Hika Mihinikini Tohu
+  polished_diorite_stairs: Pika Diorite Pai
+  mossy_cobblestone_stairs: Te Noho Tuurakau
+  end_stone_brick_stairs: Whakamutu I nga Taimana pereki kohatu
+  stone_stairs: Tūpāpaku Papa
+  smooth_sandstone_stairs: Tūtohu māhorahora
+  smooth_quartz_stairs: Tūru Tuarua maeneene
+  granite_stairs: Nenuka Granite
+  andesite_stairs: Taumata Andesite
+  red_nether_brick_stairs: Whero Pereki Pararau Whero
+  polished_andesite_stairs: Tūru Andesite Pai
+  diorite_stairs: Whare Pouturu
+  polished_granite_slab: Tapahi Maihi Granite
+  smooth_red_sandstone_slab: Whakapirihia te Whero Whero Sandst Slab
+  mossy_stone_brick_slab: Moohiini pereki kohatu
+  polished_diorite_slab: Tapahi Diorite Pai
+  mossy_cobblestone_slab: Hupirimi Koropiko Parapata
+  end_stone_brick_slab: Whakamutua te kowhatu perehana kowhatu
+  smooth_sandstone_slab: Taputapu kiripaka maeneene
+  smooth_quartz_slab: Paraka Tuarua Maeneene
+  granite_slab: Tapahi Granite
+  andesite_slab: Tapahi Andesite
+  red_nether_brick_slab: Whero Whero pereki Parapata
+  polished_andesite_slab: Tapahi Andesite Tapahi
+  diorite_slab: Tapahi Diorite
+  scaffolding: Whakauru
+  iron_door: Tatau Rino
+  oak_door: Tatau Oke
+  spruce_door: Whakatau Door
+  birch_door: Pahau Puka
+  jungle_door: Jungle Door
+  acacia_door: Pouaka Acacia
+  dark_oak_door: Pouaka pouri
+  crimson_door: Kuwhera Whero
+  warped_door: Kowaha Kuwha
+  jigsaw: Jigsaw Poraka
+  turtle_helmet: Pōtae Honu
+  apple: Āporo
+  bow: Kopere
+  arrow: Pere
+  coal: Waro
+  charcoal: Waro
+  diamond: Taimana
+  iron_ingot: Rino
+  gold_ingot: Kōura
+  netherite_ingot: Tawhito Ingore
+  wooden_sword: Hoari Rākau
+  wooden_shovel: Koko Rākau
+  wooden_pickaxe: Pika Rākau
+  wooden_axe: Toki Rākau
+  wooden_hoe: Hetiheti Rākau
+  stone_sword: Hoari Kōhatu
+  stone_shovel: Koko Kōhatu
+  stone_pickaxe: Pika Kōhatu
+  stone_axe: Toki Kōhatu
+  stone_hoe: Hetiheti Kōhatu
+  golden_sword: Hoari Kōura
+  golden_shovel: Koko Kōura
+  golden_pickaxe: Pika Kōura
+  golden_axe: Toki Kōura
+  golden_hoe: Hetiheti Kōura
+  iron_sword: Hoari Rino
+  iron_shovel: Koko Rino
+  iron_pickaxe: Pika Rino
+  iron_axe: Toki Rino
+  iron_hoe: Hetiheti Rino
+  diamond_sword: Hoari Taimana
+  diamond_shovel: Koko Taimana
+  diamond_pickaxe: Pika Taimana
+  diamond_axe: Toki Taimana
+  diamond_hoe: Hetiheti Taimana
+  netherite_pickaxe: Netherite pikakeke
+  netherite_axe: Netherite toki
+  stick: Rākau
+  string: Aho
+  feather: Piki
+  gunpowder: Paura
+  wheat_seeds: Kākano Witi
+  wheat: Wīti
+  bread: Parāoa
+  leather_helmet: Pōtae Kirikau
+  leather_chestplate: Kahu Ārai Kirikau
+  leather_leggings: Tarau Kirikau
+  leather_boots: Pūtu Kirikau
+  chainmail_helmet: Pōtae Mekameka
+  chainmail_chestplate: Kahu Ārai Mekameka
+  chainmail_leggings: Tarau Mekameka
+  chainmail_boots: Pūtu Mekameka
+  iron_helmet: Pōtae Rino
+  iron_chestplate: Kahu Ārai Rino
+  iron_leggings: Tarau Rino
+  iron_boots: Pūtu Rino
+  diamond_helmet: Pōtae Taimana
+  diamond_chestplate: Kahu Ārai Taimana
+  diamond_leggings: Tarau Taimana
+  diamond_boots: Pūtu Taimana
+  golden_helmet: Pōtae Kōura
+  golden_chestplate: Kahu Ārai Kōura
+  golden_leggings: Tarau Kōura
+  golden_boots: Pūtu Kōura
+  netherite_helmet: Tawhito Potae
+  netherite_chestplate: Tawhito Pukupuku
+  netherite_leggings: Tawhito Raupapatanga
+  netherite_boots: Tawhito Taika
+  flint: Matā
+  painting: Waituhi
+  golden_apple: Āporo Kōura
+  oak_sign: Waitohu Raaka
+  spruce_sign: Tohu Whakaaetanga
+  birch_sign: Waitohu Birch
+  jungle_sign: Waitohu Huna
+  acacia_sign: Kehia hainatanga
+  dark_oak_sign: Whēuriuri Ōki hainatanga
+  crimson_sign: Waitohu Whero
+  warped_sign: Tohu Korero
+  bucket: Pēre
+  water_bucket: Pēre Wai
+  lava_bucket: Pēre Tahepuia
+  saddle: Tera
+  redstone: Redstone puehu
+  snowball: Poi huka
+  leather: Rera
+  milk_bucket: Pēre Miraka
+  clay_ball: Pōrakaraka
+  dried_kelp_block: Kakau Kelp Poraka
+  paper: Pepa
+  book: Pukapuka
+  egg: Hēki
+  compass: Kāpehu
+  fishing_rod: Matira
+  clock: Karaka
+  white_dye: Waikano White
+  yellow_dye: Puawai kowhai
+  blue_dye: Puarua Blue
+  brown_dye: Whakapukapuka parauri
+  green_dye: Puawai Green
+  red_dye: Horoi Whero
+  black_dye: Korehu Putu
+  bone: Wheua
+  cake: Keke
+  cookie: Pihikete
+  filled_map: Mapi
+  pumpkin_seeds: Kākano Paukena
+  melon_seeds: Kākano Mereni
+  cooked_beef: Kotinga mīti
+  nether_wart: Wartartoto
+  glass_bottle: Pātara Karaehe
+  cauldron: Karaka
+  bee_spawn_egg: ko te hua o te karanga o te pi
+  cat_spawn_egg: Cat Pata Korero
+  fox_spawn_egg: Fox Tono Korero
+  panda_spawn_egg: Panda Tohu Korero
+  piglin_spawn_egg: Piglin Tohu Korero
+  pillager_spawn_egg: Te Papara Tiki Korero
+  ravager_spawn_egg: Te Atawhai Tiki Korero
+  trader_llama_spawn_egg: He Hoko Tuarua Trader Llama
+  wandering_trader_spawn_egg: Wandering Trader Egg
+  zombified_piglin_spawn_egg: Whakatakotoria Tiki Tuturu ki a Piglin
+  writable_book: Pukapuka me te Tuaka
+  emerald: Kahurangi
+  carrot: Kāreti
+  potato: Rīwai
+  dragon_head: Upoko Taniwha
+  warped_fungus_on_a_stick: He harore i whakapikoa i runga i te Rakau
+  leather_horse_armor: Te Horo Kihini
+  lead: Taura Here
+  name_tag: Tohu Ingoa
+  beetroot_seeds: Kākano Rengakura
+  dragon_breath: Hā Taniwha
+  elytra: Pākau
+  crossbow: Rangi Tanora
+  suspicious_stew: Kakau Kino
+  loom: Loom
+  flower_banner_pattern: He Hoahoa Paewhiri
+  creeper_banner_pattern: He Hoahoa Paewhiri
+  skull_banner_pattern: He Hoahoa Paewhiri
+  mojang_banner_pattern: He Hoahoa Paewhiri
+  globe_banner_pattern: He Hoahoa Paewhiri
+  piglin_banner_pattern: He Hoahoa Paewhiri
+  barrel: Kāho
+  smoker: Kaipupuri
+  blast_furnace: Puhipuhi Panuka
+  cartography_table: Ripanga Whakaahua
+  fletching_table: Ripanga Tuhipuhi
+  grindstone: Piritanga
+  lectern: Lectern
+  smithing_table: Papa Ripanga
+  stonecutter: Korene
+  bell: Bell
+  lantern: rama
+  soul_lantern: Wairua rama
+  campfire: Puke Auahi
+  soul_campfire: Mura ahi wairua
+  shroomlight: Rama harore
+  honeycomb: honikoma
+  bee_nest: Pī kohanga
+  beehive: Beehive
+  honey_bottle: Pounamu Honi
+  honey_block: Honi Poraka
+  honeycomb_block: Te Honikoma Poraka
+  lodestone: Toka Autō
+  netherite_block: Tuhinga o mua
+  ancient_debris: Puehu onamata
+  target: Whaainga
+  crying_obsidian: Tangi Obsidian
+  blackstone: Toka Pango
+  respawn_anchor: Te Punga Anga
+  water: Wai
+  lava: Tahepuia
+  tall_seagrass: He Kahatu Kahurangi
+  wall_torch: Matapihi Toru
+  fire: Ahi
+  soul_fire: Ahi Wairua
+  redstone_wire: Matapihi Wira
+  oak_wall_sign: Waitohu Paitara
+  spruce_wall_sign: Whakapaihia te Waitohu Paruihi
+  birch_wall_sign: Tohu Panui Birch
+  acacia_wall_sign: Waitohu pakitara Acacia
+  jungle_wall_sign: Waitohu Maari Huri
+  dark_oak_wall_sign: Waitohu Poipo pouri
+  redstone_wall_torch: Kaihikoi Matapihi Taakapa
+  soul_wall_torch: Toru Puta Wairua
+  nether_portal: Puka Puka
+  attached_pumpkin_stem: Ka whakapiri ki te Kaakau Pika
+  pumpkin_stem: Pauki Paura
+  cocoa: Koukou
+  tripwire: Torirata
+  potted_cornflower: Pura Tihi
+  potted_lily_of_the_valley: Tuhinga o mua
+  potted_wither_rose: Wither Rose
+  carrots: Kāreti
+  potatoes: Rīwai
+  beetroots: Rengakura
+  frosted_ice: Tio Hauhanga
+  kelp_plant: Kakau Kelp
+  bamboo_sapling: Kopere Punaha
+  potted_bamboo: Taiao Poro
+  sweet_berry_bush: He pai Paihere Pepe
+  weeping_vines_plant: Te whakato waina whakato
+  twisting_vines_plant: Whakato Wine e Wiriwiri ana
+  crimson_wall_sign: Waitohu Maama Whero
+  warped_wall_sign: Tohu Whakapae Papatu
+  potted_crimson_fungus: Harore Piimona panui
+  potted_warped_fungus: Harore pania
+  potted_crimson_roots: Nga Punua PiimonaPotiki
+  potted_warped_roots: Nga Roia Poroia Tuarua
+  sign: Tohu
+biome:
+  desert: Koraha
+  the_void: He hara
+enchantment:
+  soul_speed: Wairua tere
+  piercing: Ngoto
+  multishot: tōtoru pere / rōpū pere
+  quick_charge: Tiaki Tere
+potion:
+  water: Pātara Wai
+entity:
+  painting: Waituhi
+  arrow: Pere
+  snowball: Poi huka
+  boat: Waka
+  zombified_piglin: Whakatangihia Piglin
+  ender_dragon: Taniwha
+  pig: Poaka
+  sheep: Hipi
+  cow: Kau
+  chicken: Pikaokao
+  wolf: Wuruhi
+  rabbit: Rapeti
+  turtle: Honu
+  dolphin: Aihe
+  cat: Ngeru
+  panda: Panda
+  pillager: Pillager
+  ravager: kaiwhakangaro
+  trader_llama: Kaihokohoko Llama
+  wandering_trader: Pohehe Ana Kaihokohoko
+  fox: Pokiha
+  bee: Pi
+  hoglin: Hoglin
+  piglin: Piglin
+  strider: Strider
+  zoglin: Zoglin
+  piglin_brute: Piglin Brute
+  lightning: Uira
+effect:
+  saturation: waiwai
+  bad_omen: tohu kino
+  hero_of_the_village: |
+    Hero o te Kainga
+tropical_fish_type:
+  sunstreak: Matapihi
+dye_color:
+  white: Ma
+  yellow: Kowhai
+  pink: Mawhero
+  gray: Kiwikiwi
+  purple: Waiporoporo
+  blue: Kikorangi
+  brown: Parauri
+  green: Kakariki
+  red: whero
+  black: Pango
+named:
+  potion_with_amplifier: '%s %s'
+  potion_with_duration: '%s (%s)'
+banner_pattern:
+  '2555904': Ma Ao
+  '2555905': Orange Globe
+  '2555908': Kōwhai Ao
+  '2555909': Kotakota Ao
+  '2555910': Pink Ao
+  '2555913': Kawariki Ao
+  '2555914': Papura Ao
+  '2555915': Blue Ao
+  '2555916': Parauri Ao
+  '2555917': Green Ao
+  '2555919': Black Ao
+  '2621440': Ngutu Ma
+  '2621441': Ngutu Karaka
+  '2621442': Magenta Ngutu
+  '2621444': Ngaro Koura
+  '2621446': Ngutu Whero
+  '2621447': Ngutu Ngutu
+  '2621448': Ngaro Ngaro Koura
+  '2621449': Kanihi Cyan
+  '2621450': Ngutu Waiporoporo
+  '2621451': Ngutu Kahurangi
+  '2621452': Ngutu Parauri
+  '2621453': Ngutu Kakariki
+  '2621454': Ngutu Whero
+  '2621455': Ngutu Pango
+merchant_level:
+  '1': Hoahoa
+  '2': Whakaaehanga
+  '3': Journeyman
+  '4': tohunga
+  '5': Ariki
+villager_profession:
+  mason: Mason

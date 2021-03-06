@@ -5,7 +5,7 @@
     <parent>
         <artifactId>LangUtils</artifactId>
         <groupId>com.meowj</groupId>
-        <version>3.0.0</version>
+        <version>3.1.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -34,9 +34,36 @@
                 </includes>
             </resource>
             <resource>
-                <targetPath>lang</targetPath>
+                <targetPath>lang/common</targetPath>
                 <filtering>false</filtering>
-                <directory>${project.basedir}/src/main/resources/lang</directory>
+                <directory>${project.basedir}/src/main/resources/lang/common</directory>
+                <includes>
+                    <include>*.yml</include>
+                </includes>
+            </resource>
+
+            <resource>
+                <targetPath>lang/1.13</targetPath>
+                <filtering>false</filtering>
+                <directory>${project.basedir}/src/main/resources/lang/1.13</directory>
+                <includes>
+                    <include>*.yml</include>
+                </includes>
+            </resource>
+
+            <resource>
+                <targetPath>lang/1.14</targetPath>
+                <filtering>false</filtering>
+                <directory>${project.basedir}/src/main/resources/lang/1.14</directory>
+                <includes>
+                    <include>*.yml</include>
+                </includes>
+            </resource>
+
+            <resource>
+                <targetPath>lang/1.15</targetPath>
+                <filtering>false</filtering>
+                <directory>${project.basedir}/src/main/resources/lang/1.15</directory>
                 <includes>
                     <include>*.yml</include>
                 </includes>

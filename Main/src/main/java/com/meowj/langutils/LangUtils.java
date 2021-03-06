@@ -41,24 +41,24 @@ public class LangUtils extends JavaPlugin {
     public static final String RELOAD = "reload";
     public static final String TEST   = "test"  ;
 
-    public static final MaterialStorage          materialStorage          = new MaterialStorage         (EN_US);
-    public static final EnchantStorage           enchantStorage           = new EnchantStorage          (EN_US);
-    public static final PotionStorage            potionStorage            = new PotionStorage           (EN_US);
-    public static final PotionStorage            splashPotionStorage      = new PotionStorage           (EN_US);
-    public static final PotionStorage            lingeringPotionStorage   = new PotionStorage           (EN_US);
-    public static final PotionStorage            tippedArrowStorage       = new PotionStorage           (EN_US);
-    public static final NamedStorage             namedStorage             = new NamedStorage            (EN_US);
-    public static final BiomeStorage             biomeStorage             = new BiomeStorage            (EN_US);
-    public static final EntityStorage            entityStorage            = new EntityStorage           (EN_US);
-    public static final PotionEffectStorage      effectStorage            = new PotionEffectStorage     (EN_US);
-    public static final TropicalFishTypeStorage  tropicalFishTypeStorage  = new TropicalFishTypeStorage (EN_US);
-    public static final IntegerStorage           tropicalFishNameStorage  = new IntegerStorage          (EN_US);
-    public static final DyeColorStorage          dyeColorStorage          = new DyeColorStorage         (EN_US);
-    public static final IntegerStorage           villagerLevelStorage     = new IntegerStorage          (EN_US);
-    public static final ProfessionStorage        professionStorage        = new ProfessionStorage       (EN_US);
-    public static final DyeColorStorage          coloredShiedStorage      = new DyeColorStorage         (EN_US);
-    public static final BannerPatternStorage     bannerPatternStorage     = new BannerPatternStorage    (EN_US);
-    public static final VillagerCareerStorage    villagerCareerStorage    = new VillagerCareerStorage   (EN_US);
+    public static final MaterialStorage         materialStorage         = new MaterialStorage        (EN_US);
+    public static final EnchantStorage          enchantStorage          = new EnchantStorage         (EN_US);
+    public static final PotionStorage           potionStorage           = new PotionStorage          (EN_US);
+    public static final PotionStorage           splashPotionStorage     = new PotionStorage          (EN_US);
+    public static final PotionStorage           lingeringPotionStorage  = new PotionStorage          (EN_US);
+    public static final PotionStorage           tippedArrowStorage      = new PotionStorage          (EN_US);
+    public static final NamedStorage            namedStorage            = new NamedStorage           (EN_US);
+    public static final BiomeStorage            biomeStorage            = new BiomeStorage           (EN_US);
+    public static final EntityStorage           entityStorage           = new EntityStorage          (EN_US);
+    public static final PotionEffectStorage     effectStorage           = new PotionEffectStorage    (EN_US);
+    public static final TropicalFishTypeStorage tropicalFishTypeStorage = new TropicalFishTypeStorage(EN_US);
+    public static final IntegerStorage          tropicalFishNameStorage = new IntegerStorage         (EN_US);
+    public static final DyeColorStorage         dyeColorStorage         = new DyeColorStorage        (EN_US);
+    public static final IntegerStorage          villagerLevelStorage    = new IntegerStorage         (EN_US);
+    public static final ProfessionStorage       professionStorage       = new ProfessionStorage      (EN_US);
+    public static final DyeColorStorage         coloredShiedStorage     = new DyeColorStorage        (EN_US);
+    public static final BannerPatternStorage    bannerPatternStorage    = new BannerPatternStorage   (EN_US);
+    public static final VillagerCareerStorage   villagerCareerStorage   = new VillagerCareerStorage  (EN_US);
     // @formatter:on
 
     @NotNull
@@ -100,28 +100,29 @@ public class LangUtils extends JavaPlugin {
         clearStorages();
 
         // @formatter:off
-        materialStorage         .setFallbackLocale(fallback);
-        enchantStorage          .setFallbackLocale(fallback);
-        potionStorage           .setFallbackLocale(fallback);
-        splashPotionStorage     .setFallbackLocale(fallback);
-        lingeringPotionStorage  .setFallbackLocale(fallback);
-        tippedArrowStorage      .setFallbackLocale(fallback);
-        namedStorage            .setFallbackLocale(fallback);
-        biomeStorage            .setFallbackLocale(fallback);
-        entityStorage           .setFallbackLocale(fallback);
-        effectStorage           .setFallbackLocale(fallback);
-        tropicalFishTypeStorage .setFallbackLocale(fallback);
-        tropicalFishNameStorage .setFallbackLocale(fallback);
-        dyeColorStorage         .setFallbackLocale(fallback);
-        villagerLevelStorage    .setFallbackLocale(fallback);
-        professionStorage       .setFallbackLocale(fallback);
-        coloredShiedStorage     .setFallbackLocale(fallback);
-        bannerPatternStorage    .setFallbackLocale(fallback);
-        villagerCareerStorage   .setFallbackLocale(fallback);
+        materialStorage        .setFallbackLocale(fallback);
+        enchantStorage         .setFallbackLocale(fallback);
+        potionStorage          .setFallbackLocale(fallback);
+        splashPotionStorage    .setFallbackLocale(fallback);
+        lingeringPotionStorage .setFallbackLocale(fallback);
+        tippedArrowStorage     .setFallbackLocale(fallback);
+        namedStorage           .setFallbackLocale(fallback);
+        biomeStorage           .setFallbackLocale(fallback);
+        entityStorage          .setFallbackLocale(fallback);
+        effectStorage          .setFallbackLocale(fallback);
+        tropicalFishTypeStorage.setFallbackLocale(fallback);
+        tropicalFishNameStorage.setFallbackLocale(fallback);
+        dyeColorStorage        .setFallbackLocale(fallback);
+        villagerLevelStorage   .setFallbackLocale(fallback);
+        professionStorage      .setFallbackLocale(fallback);
+        coloredShiedStorage    .setFallbackLocale(fallback);
+        bannerPatternStorage   .setFallbackLocale(fallback);
+        villagerCareerStorage  .setFallbackLocale(fallback);
         // @formatter:on
 
         try (JarFile jar = new JarFile(getFile())) {
-            loadResources(jar, codes, loadAll);
+            loadResources(jar, "common", codes, loadAll);
+            loadResources(jar, NMS.getVersion(), codes, loadAll);
         } catch (IOException e) {
             getLogger().severe("An exception occurred while loading language resources:");
             getLogger().severe(e.getLocalizedMessage());
@@ -134,7 +135,7 @@ public class LangUtils extends JavaPlugin {
         }
     }
 
-    private void loadResources(JarFile jarFile, Collection<String> codes, boolean loadAll) {
+    private void loadResources(JarFile jarFile, String version, Collection<String> codes, boolean loadAll) {
         int count = 0;
         Enumeration<JarEntry> entries = jarFile.entries();
         Remaper remaper = Remaper.init(this, "remap.yml");
@@ -143,7 +144,7 @@ public class LangUtils extends JavaPlugin {
             JarEntry jarEntry = entries.nextElement();
             String localePath = jarEntry.getName();
 
-            if (!localePath.startsWith("lang/") || !localePath.endsWith(".yml")) {
+            if (!localePath.startsWith("lang/" + version) || !localePath.endsWith(".yml")) {
                 continue;
             }
 
@@ -156,26 +157,26 @@ public class LangUtils extends JavaPlugin {
                 if (langInfo == null) {
                     getLogger().log(Level.SEVERE, "Invalid language resource: {0}.", localePath);
                 } else if (loadAll || codes.contains(langInfo.code)) {
+
                     // @formatter:off
-                    materialStorage         .load(langInfo.code, cfg, "material"            , remaper);
-                    enchantStorage          .load(langInfo.code, cfg, "enchantment"         , remaper);
-                    potionStorage           .load(langInfo.code, cfg, "potion"              , remaper);
-                    splashPotionStorage     .load(langInfo.code, cfg, "splash_potion"       , remaper);
-                    lingeringPotionStorage  .load(langInfo.code, cfg, "lingering_potion"    , remaper);
-                    tippedArrowStorage      .load(langInfo.code, cfg, "tipped_arrow"        , remaper);
-                    namedStorage            .load(langInfo.code, cfg, "named"               , remaper);
-                    biomeStorage            .load(langInfo.code, cfg, "biome"               , remaper);
-                    entityStorage           .load(langInfo.code, cfg, "entity"              , remaper);
-                    effectStorage           .load(langInfo.code, cfg, "effect"              , remaper);
-                    tropicalFishTypeStorage .load(langInfo.code, cfg, "tropical_fish_type"  , remaper);
-                    tropicalFishNameStorage .load(langInfo.code, cfg, "tropical_fish_name"  , remaper);
-                    dyeColorStorage         .load(langInfo.code, cfg, "dye_color"           , remaper);
-                    villagerLevelStorage    .load(langInfo.code, cfg, "merchant_level"      , remaper);
-                    professionStorage       .load(langInfo.code, cfg, "villager_profession" , remaper);
-                    coloredShiedStorage     .load(langInfo.code, cfg, "colored_shied"       , remaper);
-                    bannerPatternStorage    .load(langInfo.code, cfg, "banner_pattern"      , remaper);
-                    villagerCareerStorage   .load(langInfo.code, cfg, "villager_career"     , remaper);
+                    materialStorage        .load(langInfo.code, cfg, "material"          , remaper);
+                    enchantStorage         .load(langInfo.code, cfg, "enchantment"       , remaper);
+                    potionStorage          .load(langInfo.code, cfg, "potion"            , remaper);
+                    splashPotionStorage    .load(langInfo.code, cfg, "splash_potion"     , remaper);
+                    lingeringPotionStorage .load(langInfo.code, cfg, "lingering_potion"  , remaper);
+                    tippedArrowStorage     .load(langInfo.code, cfg, "tipped_arrow"      , remaper);
+                    namedStorage           .load(langInfo.code, cfg, "named"             , remaper);
+                    biomeStorage           .load(langInfo.code, cfg, "biome"             , remaper);
+                    entityStorage          .load(langInfo.code, cfg, "entity"            , remaper);
+                    effectStorage          .load(langInfo.code, cfg, "effect"            , remaper);
+                    tropicalFishTypeStorage.load(langInfo.code, cfg, "tropical_fish_type", remaper);
+                    tropicalFishNameStorage.load(langInfo.code, cfg, "tropical_fish_name", remaper);
+                    dyeColorStorage        .load(langInfo.code, cfg, "dye_color"         , remaper);
+                    coloredShiedStorage    .load(langInfo.code, cfg, "colored_shied"     , remaper);
+                    bannerPatternStorage   .load(langInfo.code, cfg, "banner_pattern"    , remaper);
                     // @formatter:on
+
+                    loadVersion13Resources(langInfo.code, cfg, remaper);
 
                     count++;
                     if (!loadAll) {
@@ -193,26 +194,35 @@ public class LangUtils extends JavaPlugin {
         }
     }
 
+    private void loadVersion13Resources(String code, Configuration cfg, Remaper remaper) {
+        if ("1.13".equals(NMS.getVersion())) {
+            villagerCareerStorage.load(code, cfg, "villager_career"    , remaper);
+        } else {
+            villagerLevelStorage .load(code, cfg, "merchant_level"     , remaper);
+            professionStorage    .load(code, cfg, "villager_profession", remaper);
+        }
+    }
+
     private void clearStorages() {
         // @formatter:off
-        materialStorage          .clear();
-        enchantStorage           .clear();
-        potionStorage            .clear();
-        splashPotionStorage      .clear();
-        lingeringPotionStorage   .clear();
-        tippedArrowStorage       .clear();
-        namedStorage             .clear();
-        biomeStorage             .clear();
-        entityStorage            .clear();
-        effectStorage            .clear();
-        tropicalFishTypeStorage  .clear();
-        tropicalFishNameStorage  .clear();
-        dyeColorStorage          .clear();
-        villagerLevelStorage     .clear();
-        professionStorage        .clear();
-        coloredShiedStorage      .clear();
-        bannerPatternStorage     .clear();
-        villagerCareerStorage    .clear();
+        materialStorage        .clear();
+        enchantStorage         .clear();
+        potionStorage          .clear();
+        splashPotionStorage    .clear();
+        lingeringPotionStorage .clear();
+        tippedArrowStorage     .clear();
+        namedStorage           .clear();
+        biomeStorage           .clear();
+        entityStorage          .clear();
+        effectStorage          .clear();
+        tropicalFishTypeStorage.clear();
+        tropicalFishNameStorage.clear();
+        dyeColorStorage        .clear();
+        villagerLevelStorage   .clear();
+        professionStorage      .clear();
+        coloredShiedStorage    .clear();
+        bannerPatternStorage   .clear();
+        villagerCareerStorage  .clear();
         // @formatter:on
     }
 
@@ -244,7 +254,7 @@ public class LangUtils extends JavaPlugin {
                     return true;
                 }
 
-                Util.testPlayerHandle(sender, args.length == 2 ? args[1] : null);
+                Util.testWithPlayer(sender, args.length == 2 ? args[1] : null);
             }
         }
 

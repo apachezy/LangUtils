@@ -40,9 +40,11 @@ public class LangInfo {
     }
 
     public void save(ConfigurationSection section) {
-        section.set("code", this.code);
-        section.set("name", this.name);
-        section.set("region", this.region);
+        if (section != null) {
+            section.set("code",   this.code  );
+            section.set("name",   this.name  );
+            section.set("region", this.region);
+        }
     }
 
     @Override

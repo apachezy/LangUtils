@@ -1,0 +1,915 @@
+# ####################################################
+# Build time: 2021-03-06 14:47:29                    #
+# ####################################################
+language:
+  code: vec_it
+  name: Vèneto
+  region: Veneto
+material:
+  acacia_boat: Barchin de acasia
+  acacia_button: Botón de acasia
+  acacia_fence_gate: Cancełeto de acasia
+  acacia_wood: Łegno de acasia
+  baked_potato: Patata al forno
+  birch_boat: Barchin de brédoła
+  birch_button: Botón de brédoła
+  birch_fence_gate: Cancełeto de brédoła
+  birch_wood: Łegno de brédoła
+  black_bed: Leto negro
+  black_glazed_terracotta: Teracota negra smaltà
+  blue_banner: Gonfałon blé
+  blue_bed: Leto blé
+  blue_carpet: Tapé blé
+  blue_concrete: Beton blé
+  blue_concrete_powder: Pólvar de beton blé
+  blue_glazed_terracotta: Teracota blé smaltà
+  blue_ice: Jaso cełeste
+  blue_orchid: Orchidea blé
+  blue_shulker_box: Scàtoła de shulker blé
+  blue_stained_glass: Vero blé
+  blue_stained_glass_pane: Panel de vero blé
+  blue_terracotta: Teracota blé
+  blue_wall_banner: Gonfałon blé
+  blue_wool: Łana blé
+  brain_coral_wall_fan: Gorgonia a sarvel a mura
+  brewing_stand: Lanbico
+  brown_bed: Leto maron
+  brown_glazed_terracotta: Teracota maron smaltà
+  bubble_coral_wall_fan: Gorgonia a bołe a mura
+  carrot_on_a_stick: Baston e carota
+  cave_air: Aria de sprugia
+  cave_spider_spawn_egg: Ovo zenarador de ragno de łe sprujie
+  chain_command_block: Bloco órdeni a cadena
+  chest_minecart: Cariel con baùl
+  chiseled_quartz_block: Bloco de cuarzo łavorà
+  chorus_flower: Fior del chorus
+  chorus_plant: Pianta del chorus
+  clay: Créa
+  clay_ball: Créa
+  command_block: Bloco órdeni
+  command_block_minecart: Cariel con bloco ordeni
+  compass: Busoła
+  conduit: Conduit
+  cooked_mutton: Carne de piegora cozesta
+  cooked_porkchop: Bisteca de porsel cozesta
+  cyan_banner: Gonfałon ciano
+  cyan_bed: Leto ciano
+  cyan_carpet: Tapé ciano
+  cyan_concrete: Beton ciano
+  cyan_concrete_powder: Pólvar de beton ciana
+  cyan_dye: Cołorante ciano
+  cyan_glazed_terracotta: Teracota ciana smaltà
+  cyan_shulker_box: Scàtoła de shulker ciana
+  cyan_stained_glass: Vero ciano
+  cyan_stained_glass_pane: Panel de vero ciano
+  cyan_terracotta: Teracota ciana
+  cyan_wall_banner: Gonfałon ciano
+  cyan_wool: Łana ciana
+  damaged_anvil: Ancùzene sasinà
+  dark_oak_boat: Barchin de jandaro scuro
+  dark_oak_button: Botón de jandaro scuro
+  dark_oak_door: Porta de jandaro scuro
+  dark_oak_fence: Ringhiera de jandaro scuro
+  dark_oak_fence_gate: Cancełeto de jandaro scuro
+  dark_oak_leaves: Foje de jandaro scuro
+  dark_oak_log: Fusto de jandaro scuro
+  dark_oak_planks: Ase de jandaro scuro
+  dark_oak_pressure_plate: Pedana a presion de jandaro scuro
+  dark_oak_sapling: Albareło de jandaro scuro
+  dark_oak_slab: Łiston de jandaro scuro
+  dark_oak_stairs: Scałe de jandaro scuro
+  dark_oak_trapdoor: Rebalta de jandaro scuro
+  dark_oak_wood: Łegno de jandaro scuro
+  dead_brain_coral: Coral a çarvel morto
+  dead_brain_coral_fan: Coral a sarvel morto
+  dead_brain_coral_wall_fan: Coral a sarvel a mura morto
+  dead_bubble_coral_fan: Coral a bołe morto
+  dead_bubble_coral_wall_fan: Coral a bołe a mura morto
+  dead_fire_coral: Coral a fogo morto
+  dead_fire_coral_fan: Coral de fogo morto
+  dead_fire_coral_wall_fan: Coral de fogo a mura morto
+  dead_horn_coral_fan: Coral a corni morto
+  dead_horn_coral_wall_fan: Coral a corni a mura morto
+  dead_tube_coral: Coral morto
+  dead_tube_coral_fan: Coral a tubo morto
+  dead_tube_coral_wall_fan: Coral a tubo a mura morto
+  enchanting_table: Toła par incantar
+  end_crystal: Cristal del End
+  end_gateway: Varco del End
+  end_portal: Portal del End
+  end_portal_frame: Tełar del portal del End
+  end_rod: Zbara del End
+  fermented_spider_eye: Ocio de ragno fermentà
+  fern: Felse
+  firework_rocket: Rocheta
+  firework_star: Steła pirotécnega
+  fire_coral_wall_fan: Gorgonia de fogo a mura
+  flint_and_steel: Asalin
+  frosted_ice: Jeło
+  furnace_minecart: Cariel con fornaze
+  glistering_melon_slice: Feta de inguria sluzegante
+  gray_bed: Leto grizo
+  gray_glazed_terracotta: Teracota griza smaltà
+  green_bed: Leto verdo
+  green_glazed_terracotta: Teracota verda smaltà
+  gunpowder: Pólvar da sbaro
+  hay_block: Bała de fien
+  heart_of_the_sea: Cor del mar
+  hopper: Tortor
+  hopper_minecart: Cariel con tortor
+  horn_coral_wall_fan: Gorgonia a corni a mura
+  ice: Jaso
+  item_frame: Soaza
+  jungle_boat: Barchin de ła jungla
+  jungle_button: Botón de ła jungla
+  jungle_fence_gate: Cancełeto de ła jungla
+  jungle_trapdoor: Rebalta de la jungla
+  jungle_wood: Łegno de ła jungla
+  knowledge_book: Łibro de la conosensa
+  ladder: Scalión
+  leather_chestplate: Giubìn de corame
+  light_blue_banner: Gonfałon cełeste
+  light_blue_bed: Leto cełeste
+  light_blue_carpet: Tapé cełeste
+  light_blue_concrete: Beton cełeste
+  light_blue_concrete_powder: Pólvar de beton cełeste
+  light_blue_dye: Cołorante cełeste
+  light_blue_glazed_terracotta: Teracota cełeste smaltà
+  light_blue_shulker_box: Scàtoła de shulker cełeste
+  light_blue_stained_glass: Vero cełeste
+  light_blue_stained_glass_pane: Panel de vero cełeste
+  light_blue_terracotta: Teracota cełeste
+  light_blue_wall_banner: Gonfałon cełeste
+  light_blue_wool: Łana cełeste
+  light_gray_bed: Leto grizo ciaro
+  light_gray_glazed_terracotta: Teracota griza ciara smaltà
+  light_gray_wool: Łana grizo ciaro
+  lime_bed: Leto lime
+  lime_glazed_terracotta: Teracota lime smaltà
+  magenta_banner: Gonfałon magenta
+  magenta_bed: Leto magenta
+  magenta_carpet: Tapé magenta
+  magenta_concrete: Beton magenta
+  magenta_concrete_powder: Pólvar de beton magenta
+  magenta_dye: Cołorante magenta
+  magenta_glazed_terracotta: Teracota magenta smaltà
+  magenta_shulker_box: Scàtoła de shulker magenta
+  magenta_stained_glass: Vero magenta
+  magenta_stained_glass_pane: Panel de vero magenta
+  magenta_terracotta: Teracota magenta
+  magenta_wall_banner: Gonfałon magenta
+  magenta_wool: Łana magenta
+  map: Mapa vuda
+  minecart: Cariel da miniera
+  music_disc_11: Disco muzical
+  music_disc_13: Disco muzical
+  music_disc_blocks: Disco muzical
+  music_disc_cat: Disco muzical
+  music_disc_chirp: Disco muzical
+  music_disc_far: Disco muzical
+  music_disc_mall: Disco muzical
+  music_disc_mellohi: Disco muzical
+  music_disc_stal: Disco muzical
+  music_disc_strad: Disco muzical
+  music_disc_wait: Disco muzical
+  music_disc_ward: Disco muzical
+  mutton: Carne de piegora crùa
+  mycelium: Micelio
+  name_tag: Taveła
+  nether_brick: Cuarełi del Nether
+  nether_brick_fence: Ringhiera de cuarełi del Nether
+  nether_portal: Portal del Nether
+  nether_quartz_ore: Cuarso del Nether grezo
+  nether_star: Steła del Nether
+  nether_wart: Poro del Nether
+  nether_wart_block: Bloco de pori del Nether
+  oak_boat: Barchin de jandaro
+  oak_button: Botón de jandaro
+  oak_door: Porta de jandaro
+  oak_fence: Ringhiera de jandaro
+  oak_fence_gate: Cancełeto de jandaro
+  oak_leaves: Foje de jandaro
+  oak_log: Fusto de jandaro
+  oak_planks: Ase de jandaro
+  oak_pressure_plate: Pedana a presion de jandaro
+  oak_sapling: Albareło de jandaro
+  oak_slab: Łiston de jandaro
+  oak_stairs: Scałe de jandaro
+  oak_trapdoor: Rebalta de jandaro
+  oak_wood: Łegno de jandaro
+  orange_banner: Gonfałon naranson
+  orange_bed: Leto naransón
+  orange_carpet: Tapé naransón
+  orange_concrete: Beton naransón
+  orange_concrete_powder: Pólvar de beton naransón
+  orange_dye: Cołorante naransón
+  orange_glazed_terracotta: Teracota naransón smaltà
+  orange_shulker_box: Scàtoła de shulker naransón
+  orange_stained_glass: Vero naransón
+  orange_stained_glass_pane: Panel de vero naransón
+  orange_terracotta: Teracota naransón
+  orange_tulip: Tulipano naransón
+  orange_wall_banner: Gonfałon naranson
+  orange_wool: Łana naranson
+  packed_ice: Jaso macà
+  peony: Fołagna
+  petrified_oak_slab: Łiston de jandar piedrifegà
+  phantom_membrane: Menbrana del phantom
+  pink_bed: Leto roza
+  pink_glazed_terracotta: Teracota roza smaltà
+  pink_tulip: Tulipano roza
+  porkchop: Bisteca de porsel crùa
+  potted_acacia_sapling: Vazo con albareło de acasia
+  potted_allium: Vazo con fior de ajo
+  potted_azure_bluet: Vazo con fior de canpo
+  potted_birch_sapling: Vazo con albareło de brédoła
+  potted_blue_orchid: Vazo con orchidea
+  potted_brown_mushroom: Vazo con fongo maron
+  potted_cactus: Vazo con cactus
+  potted_dandelion: Vazo con pisacan
+  potted_dark_oak_sapling: Vazo con albareło de jandaro scuro
+  potted_dead_bush: Vazo con albareło seco
+  potted_fern: Vazo con felse
+  potted_jungle_sapling: Vazo con albareło de ła jungla
+  potted_oak_sapling: Vazo con albareło de acasia
+  potted_orange_tulip: Vazo con tulipano naransón
+  potted_oxeye_daisy: Vazo con margarita
+  potted_pink_tulip: Vazo con tulipano roza
+  potted_poppy: Vazo con papàvaro
+  potted_red_mushroom: Vazo con fongo
+  potted_red_tulip: Vazo con tulipano roso
+  potted_spruce_sapling: Vazo con albareło de avedìn
+  potted_white_tulip: Vazo con tulipano bianco
+  purple_bed: Leto vioła
+  purple_glazed_terracotta: Teracota vioła smaltà
+  purple_shulker_box: Scatoła de shulker vioła
+  quartz: Cuarso del Nether
+  redstone: Redstone
+  redstone_torch: Łuzeta de redstone
+  redstone_wall_torch: Łuzeta de redstone a muro
+  redstone_wire: Pólvar de redstone
+  red_bed: Leto roso
+  red_glazed_terracotta: Teracota rosa smaltà
+  red_tulip: Tulipano roso
+  repeating_command_block: Bloco órdeni a ripetision
+  sea_lantern: Łanterna del mar
+  sea_pickle: Serùmolo de mar
+  shears: Sizore
+  skeleton_skull: Tescio de schełetro
+  skeleton_wall_skull: Tescio de schèłetro a muro
+  smooth_quartz: Cuarso łustro
+  soul_sand: Sabia de l'ànema
+  spider_eye: Ocio de ragno
+  spider_spawn_egg: Ovo zenarador de ragno
+  spruce_boat: Barchin de avedin
+  spruce_button: Botón de avedìn
+  spruce_door: Porta de avedin
+  spruce_fence: Ringhiera de avedìn
+  spruce_fence_gate: Cancełeto de avedìn
+  spruce_leaves: Foje de avedin
+  spruce_log: Fusto de avedin
+  spruce_planks: Ase de avedìn
+  spruce_pressure_plate: Pedana a presion de avedìn
+  spruce_sapling: Albareło de avedìn
+  spruce_slab: Łiston de avedìn
+  spruce_stairs: Scałe de avedin
+  spruce_trapdoor: Rebalta de avedìn
+  spruce_wood: Łegno de avedin
+  stripped_acacia_wood: Łegno de acasia descorsà
+  stripped_birch_wood: Łegno de brédoła descorsà
+  stripped_dark_oak_log: Fusto de jandaro scuro descorsà
+  stripped_dark_oak_wood: Łegno de jandaro scuro descorsà
+  stripped_jungle_wood: Łegno de ła jungla descorsà
+  stripped_oak_log: Fusto de jandaro descorsà
+  stripped_oak_wood: Łegno de jandaro descorsà
+  stripped_spruce_log: Fusto de avedìn descorsà
+  stripped_spruce_wood: Łegno de avedìn descorsà
+  tnt_minecart: Cariel con TNT
+  torch: Łuzeta
+  tripwire_hook: Ganso par fiło
+  tropical_fish: Pese tropical
+  tropical_fish_spawn_egg: Ovo zenarador de pese tropical
+  tube_coral_wall_fan: Gorgonia a tubo a mura
+  vine: Ranpeghin
+  void_air: Aria del vudo
+  wall_torch: Łuzeta a muro
+  white_bed: Leto bianco
+  white_glazed_terracotta: Teracota bianca smaltà
+  white_tulip: Tulipano bianco
+  wither_skeleton_skull: Tescio de schełetro wither
+  wither_skeleton_wall_skull: Tescio de schełetro wither a muro
+  wolf_spawn_egg: Ovo zenarador de lovo
+  wooden_axe: Manara de łegno
+  wooden_hoe: Sapa de łegno
+  wooden_pickaxe: Picon de łegno
+  wooden_shovel: Baìl de łegno
+  wooden_sword: Spada de łegno
+  yellow_bed: Leto zało
+  yellow_concrete: Beton zaldo
+  yellow_glazed_terracotta: Teracota zała smaltà
+  zombie_wall_head: Testa de zonbi a muro
+biome:
+  swamp: Pałù
+  river: Fiume
+  the_end: Ła fin
+  frozen_ocean: Ocèano jasà
+  frozen_river: Fiume jasà
+  mushroom_field_shore: Costa dei canpi de fongi
+  beach: Spiagia
+  desert_hills: Cołine del dezerto
+  mountain_edge: Màrzene de łe montagne
+  stone_shore: Costa de piera
+  giant_tree_taiga: Tàiga dei àlbari ziganti
+  giant_tree_taiga_hills: Cołine de ła taiga dei àlbari ziganti
+  small_end_islands: Pìcołe ìzołe del End
+  end_midlands: Piana del End
+  end_highlands: Altopian del End
+  deep_warm_ocean: Ocèano caldo fondo
+  deep_lukewarm_ocean: Ocèano tìvio fondo
+  deep_cold_ocean: Ocèano fredo fondo
+  deep_frozen_ocean: Ocèano jasà fondo
+  the_void: El vudo
+  desert_lakes: Łaghi del dezerto
+  gravelly_mountains: Monti de jara
+  swamp_hills: Cołine de ła pałù
+  ice_spikes: Spontoni de jaso
+  giant_spruce_taiga: Taiga dei avedini ziganti
+  giant_spruce_taiga_hills: Cołine de ła taiga dei avedini ziganti
+  modified_gravelly_mountains: Monti de jara+
+enchantment:
+  fire_protection: Protesion dal fogo
+  loyalty: Lealtà
+  depth_strider: Paso del fondal
+  vanishing_curse: Małedision de ła sconparsa
+  unbreaking: Indestrutìbiłidà
+  luck_of_the_sea: Fortuna del mar
+  binding_curse: Małedision del łegame
+  frost_walker: Caminador injasà
+  looting: Sachejo
+  blast_protection: Protesion da łe sciopade
+  fire_aspect: Siera de fogo
+  channeling: Canałizasion
+  bane_of_arthropods: Flazel dei artròpodi
+  riptide: Corente de retorno
+  projectile_protection: Protesion dai projetiłi
+  infinity: Infinidà
+potion:
+  uncraftable: Posion mia fabricàbiłe
+  night_vision: Posion de vizion noturna
+  invisibility: Posion de l'invizibiłidà
+  fire_resistance: Posion de rezistensa al fogo
+  water_breathing: Posion de respirasion acuàdega
+  instant_heal: Posion de rancura
+  poison: Posion de invełenamento
+  weakness: Posion de debołesa
+  turtle_master: Posion de'l maestro de łe tartarughe
+splash_potion:
+  uncraftable: Posion da tiro mia fabricàbiłe
+  night_vision: Posion da tiro de vizion noturna
+  invisibility: Posion da tiro de l'invizibiłidà
+  fire_resistance: Posion da tiro de rezistensa al fogo
+  water_breathing: Posion da tiro de respirasion acuàdega
+  instant_heal: Posion da tiro de rancura
+  poison: Posion da tiro vełen
+  weakness: Posion da tiro de debołesa
+  turtle_master: Posion da tiro de'l maestro de łe tartarughe
+lingering_potion:
+  uncraftable: Posion parsistente mia fabricàbiłe
+  night_vision: Posion parsistente de vizion noturna
+  invisibility: Posion parsistente de l'invizibiłidà
+  fire_resistance: Posion parsistente de rezistensa al fogo
+  water_breathing: Posion parsitente de respirasion acuàdega
+  instant_heal: Posion parsistente de rancura
+  weakness: Posion parsistente de debołesa
+  turtle_master: Posion parsistente de'l maestro de łe tartarughe
+tipped_arrow:
+  uncraftable: Fresa inbevùa mia fabricàbiłe
+  water: Fresa del schisetar
+  fire_resistance: Fresa de rezistensa al fogo
+  water_breathing: Fresa de respirasion acuàdega
+  instant_heal: Fresa de rancura
+  poison: Fresa de invełenamento
+  weakness: Fresa de debołesa
+  turtle_master: Fresa de'l maestro de łe tartarughe
+entity:
+  dropped_item: Ojeti
+  experience_orb: Bala de esparienza
+  stray: Viandon
+  egg: Ovo slansà
+  leash_hitch: Gropo del zguinsajo
+  ender_pearl: Perla de ender slansà
+  item_frame: Soaza
+  falling_block: Bloco en cascada
+  firework: Rocheta
+  illusioner: Iłuzionador
+  minecart_command: Cariel con bloco ordeni
+  boat: Barchin
+  minecart: Cariel da miniera
+  minecart_chest: Cariel con baùl
+  minecart_furnace: Cariel con fornaze
+  minecart_tnt: Cariel con TNT
+  minecart_hopper: Cariel con tortor
+  minecart_mob_spawner: Cariel co zenarador
+  spider: Ragno
+  cave_spider: Ragno de łe sprujie
+  wolf: Lovo
+  ender_crystal: Cristal del End
+  pufferfish: Pese bala
+  fishing_hook: Gałejante da pesca
+effect:
+  speed: Sveltesa
+  fast_digging: Rancura
+  slow_digging: Strachesa
+  heal: Sałute istantànea
+  fire_resistance: Rezistensa al fogo
+  water_breathing: Respirasion acuàdega
+  invisibility: Invizibiłidà
+  blindness: Orbesa
+  night_vision: Vizion noturna
+  weakness: Debołesa
+  health_boost: Sałude anpliada
+  conduit_power: Poder del conduit
+  dolphins_grace: Grasia del dolfin
+tropical_fish_type:
+  snooper: Pese sbètega
+dye_color:
+  orange: Naranson
+  magenta: Magenta
+  light_blue: Cełeste
+  cyan: Ciano
+  blue: Blé
+named:
+  unknown_enchantment: 'Incantamento mia conosesto: %s'
+  unknown_entity: 'Entità mia conosesta: %s'
+  unknown_effect: 'Efeto mia conosesto: %s'
+tropical_fish_name:
+  '185008129': Pese chirurgo biavo
+  '16778497': Pese paveja ornà
+  '101253888': Pese pajaç
+  '67699456': Pese papagal pina zalda
+  '67371009': Pese chirurgo zaldo
+colored_shied:
+  orange: Scudo naranson
+  magenta: Scudo magenta
+  light_blue: Scudo cełeste
+  cyan: Scudo ciano
+  blue: Scudo blé
+banner_pattern:
+  '65536': Ponto in baso a drita naranson
+  '65537': Ponto in baso a drita naranson
+  '65538': Ponto in baso a drita magenta
+  '65539': Ponto in baso a drita cełeste
+  '65540': Ponto in baso a drita zało
+  '65541': Ponto in baso a drita lime
+  '65542': Ponto in baso a drita roza
+  '65543': Ponto in baso a drita grizo
+  '65544': Ponto in baso a drita grizo ciaro
+  '65545': Ponto in baso a drita ciano
+  '65546': Ponto in baso a drita vioła
+  '65547': Ponto in baso a drita blé
+  '65548': Ponto in baso a drita maron
+  '65549': Ponto in baso a drita verdo
+  '65550': Ponto in baso a drita roso
+  '65551': Ponto in baso a drita negro
+  '131072': Ponto in baso a sanca bianco
+  '131073': Ponto in baso a sanca naranson
+  '131074': Ponto in baso a sanca magenta
+  '131075': Ponto in baso a sanca cełeste
+  '131076': Ponto in baso a sanca zało
+  '131077': Ponto in baso a sanca lime
+  '131078': Ponto in baso a sanca roza
+  '131079': Ponto in baso a sanca grizo
+  '131080': Ponto in baso a sanca grizo ciaro
+  '131081': Ponto in baso a sanca ciano
+  '131082': Ponto in baso a sanca vioła
+  '131083': Ponto in baso a sanca blé
+  '131084': Ponto in baso a sanca maron
+  '131085': Ponto in baso a sanca verdo
+  '131086': Ponto in baso a sanca roso
+  '131087': Ponto in baso a sanca negro
+  '196608': Ponto in alto a drita bianco
+  '196609': Ponto in alto a drita naranson
+  '196610': Ponto in alto a drita magenta
+  '196611': Ponto in alto a drita cełeste
+  '196612': Ponto in alto a drita zało
+  '196613': Ponto in alto a drita lime
+  '196614': Ponto in alto a drita roza
+  '196615': Ponto in alto a drita grizo
+  '196616': Ponto in alto a drita grizo ciaro
+  '196617': Ponto in alto a drita ciano
+  '196618': Ponto in alto a drita vioła
+  '196619': Ponto in alto a drita blé
+  '196620': Ponto in alto a drita maron
+  '196621': Ponto in alto a drita verdo
+  '196622': Ponto in alto a drita roso
+  '196623': Ponto in alto a drita negro
+  '262144': Ponto in alto a sanca bianco
+  '262145': Ponto in alto a sanca naranson
+  '262146': Ponto in alto a sanca magenta
+  '262147': Ponto in alto a sanca cełeste
+  '262148': Ponto in alto a sanca zało
+  '262149': Ponto in alto a sanca lime
+  '262150': Ponto in alto a sanca roza
+  '262151': Ponto in alto a sanca grizo
+  '262152': Ponto in alto a sanca grizo ciaro
+  '262153': Ponto in alto a sanca ciano
+  '262154': Ponto in alto a sanca vioła
+  '262155': Ponto in alto a sanca blé
+  '262156': Ponto in alto a sanca maron
+  '262157': Ponto in alto a sanca verdo
+  '262158': Ponto in alto a sanca roso
+  '262159': Ponto in alto a sanca negro
+  '327681': Baze naranson
+  '327682': Baze magenta
+  '327683': Baze cełeste
+  '327689': Baze ciana
+  '327691': Baze blé
+  '393217': Sima naranson
+  '393218': Sima magenta
+  '393219': Sima cełeste
+  '393225': Sima ciana
+  '393227': Sima blé
+  '458752': Pèrtega a drita bianca
+  '458753': Pèrtega a drita naranson
+  '458754': Pèrtega a drita magenta
+  '458755': Pèrtega a drita cełeste
+  '458756': Pèrtega a drita zała
+  '458757': Pèrtega a drita lime
+  '458758': Pèrtega a drita roza
+  '458759': Pèrtega a drita griza
+  '458760': Pèrtega a drita griza ciara
+  '458761': Pèrtega a drita ciana
+  '458762': Pèrtega a drita vioła
+  '458763': Pèrtega a drita blé
+  '458764': Pèrtega a drita maron
+  '458765': Pèrtega a drita verda
+  '458766': Pèrtega a drita rosa
+  '458767': Pèrtega a drita negra
+  '524288': Pèrtega a sanca bianca
+  '524289': Pèrtega a sanca naranson
+  '524290': Pèrtega a sanca magenta
+  '524291': Pèrtega a sanca cełeste
+  '524292': Pèrtega a sanca zała
+  '524293': Pèrtega a sanca lime
+  '524294': Pèrtega a sanca roza
+  '524295': Pèrtega a sanca griza
+  '524296': Pèrtega a sanca griza ciara
+  '524297': Pèrtega a sanca ciana
+  '524298': Pèrtega a sanca vioła
+  '524299': Pèrtega a sanca blé
+  '524300': Pèrtega a sanca maron
+  '524301': Pèrtega a sanca verda
+  '524302': Pèrtega a sanca rosa
+  '524303': Pèrtega a sanca negra
+  '589825': Pèrtega naranson
+  '589826': Pèrtega magenta
+  '589827': Pèrtega cełeste
+  '589833': Pèrtega ciana
+  '589835': Pèrtega blé
+  '655361': Fasa naranson
+  '655362': Fasa magenta
+  '655363': Fasa cełeste
+  '655369': Fasa ciana
+  '655371': Fasa blé
+  '720897': Banda naranson
+  '720898': Banda magenta
+  '720899': Banda cełeste
+  '720905': Banda ciana
+  '720907': Banda blé
+  '786432': Sbara bianca a sanca
+  '786433': Sbara naranson a sanca
+  '786434': Sbara magenta a sanca
+  '786435': Sbara cełeste a sanca
+  '786436': Sbara zała a sanca
+  '786437': Sbara lime a sanca
+  '786438': Sbara roza a sanca
+  '786439': Sbara griza a sanca
+  '786440': Sbara griza ciara a sanca
+  '786441': Sbara ciana a sanca
+  '786442': Sbara vioła a sanca
+  '786443': Sbara blé a sanca
+  '786444': Sbara maron a sanca
+  '786445': Sbara verda a sanca
+  '786446': Sbara rosa a sanca
+  '786447': Sbara negra a sanca
+  '851968': Righe bianche
+  '851969': Righe naranson
+  '851970': Righe magenta
+  '851971': Righe cełeste
+  '851972': Righe załe
+  '851973': Righe lime
+  '851974': Righe roza
+  '851975': Righe grize
+  '851976': Righe grize ciare
+  '851977': Righe ciane
+  '851978': Righe vioła
+  '851979': Righe blé
+  '851980': Righe maron
+  '851981': Righe verde
+  '851982': Righe rose
+  '851983': Righe negre
+  '917504': Croze bianca
+  '917505': Croze naranson
+  '917506': Croze magenta
+  '917507': Croze cełeste
+  '917508': Croze zała
+  '917509': Croze lime
+  '917510': Croze roza
+  '917511': Croze griza
+  '917512': Croze griza ciara
+  '917513': Croze ciana
+  '917514': Croze vioła
+  '917515': Croze blé
+  '917516': Croze maron
+  '917517': Croze verda
+  '917518': Croze rosa
+  '917519': Croze negra
+  '983041': Croze naranson
+  '983042': Croze magenta
+  '983049': Corze ciana
+  '983051': Croze blé
+  '1048576': Canton da baso bianco
+  '1048577': Canton da baso naranson
+  '1048578': Canton da baso magenta
+  '1048579': Canton da baso cełeste
+  '1048580': Canton da baso zało
+  '1048581': Canton da baso lime
+  '1048582': Canton da baso roza
+  '1048583': Canton da baso grizo
+  '1048584': Canton da baso grizo ciaro
+  '1048585': Canton da baso ciano
+  '1048586': Canton da baso vioła
+  '1048587': Canton da baso blé
+  '1048588': Canton da baso maron
+  '1048589': Canton da baso verdo
+  '1048590': Canton da baso roso
+  '1048591': Canton da baso negro
+  '1114112': Canton in alto bianco
+  '1114113': Canton in alto naranson
+  '1114114': Canton in alto magenta
+  '1114115': Canton in alto cełeste
+  '1114116': Canton in alto zało
+  '1114117': Canton in alto lime
+  '1114118': Canton in alto roza
+  '1114119': Canton in alto grizo
+  '1114120': Canton in alto grizo ciaro
+  '1114121': Canton in alto ciano
+  '1114122': Canton in alto vioła
+  '1114123': Canton in alto blé
+  '1114124': Canton in alto maron
+  '1114125': Canton in alto verdo
+  '1114126': Canton in alto roso
+  '1114127': Canton in alto negro
+  '1179649': Seghetadura da baso naranson
+  '1179650': Seghetadura da baso magenta
+  '1179651': Seghetadura da baso cełeste
+  '1179652': Seghetadura da baso zała
+  '1179653': Seghetadura da baso lime
+  '1179654': Seghetadura da baso roza
+  '1179655': Seghetadura da baso griza
+  '1179656': Seghetadura da baso griza ciara
+  '1179657': Seghetadura da baso ciana
+  '1179658': Seghetadura da baso vioła
+  '1179659': Seghetadura da baso blé
+  '1179660': Seghetadura da baso maron
+  '1179661': Seghetadura da baso verda
+  '1179662': Seghetadura da baso rosa
+  '1179663': Seghetadura da baso negra
+  '1245184': Seghetadura in alto bianca
+  '1245185': Seghetadura in alto naranson
+  '1245186': Seghetadura in alto magenta
+  '1245187': Seghetadura in alto cełeste
+  '1245188': Seghetadura in alto zała
+  '1245189': Seghetadura in alto lime
+  '1245190': Seghetadura in alto roza
+  '1245191': Seghetadura in alto griza
+  '1245192': Seghetadura in alto griza ciara
+  '1245193': Seghetadura in alto ciana
+  '1245194': Seghetadura in alto vioła
+  '1245195': Seghetadura in alto blé
+  '1245196': Seghetadura in alto maron
+  '1245197': Seghetadura in alto verda
+  '1245198': Seghetadura in alto rosa
+  '1245199': Seghetadura in alto negra
+  '1310720': Canton in alto a sanca bianco
+  '1310721': Canton in alto a sanca naranson
+  '1310722': Canton in alto a sanca magenta
+  '1310723': Canton in alto a sanca cełeste
+  '1310724': Canton in alto a sanca zało
+  '1310725': Canton in alto a sanca lime
+  '1310726': Canton in alto a sanca roza
+  '1310727': Canton in alto a sanca grizo
+  '1310728': Canton in alto a sanca grizo ciaro
+  '1310729': Canton in alto a sanca ciano
+  '1310730': Canton in alto a sanca vioła
+  '1310731': Canton in alto a sanca blé
+  '1310732': Canton in alto a sanca maron
+  '1310733': Canton in alto a sanca verdo
+  '1310734': Canton in alto a sanca roso
+  '1310735': Canton in alto a sanca negro
+  '1376256': Canton in baso a drita bianco
+  '1376257': Canton in baso a drita naranson
+  '1376258': Canton in baso a drita magenta
+  '1376259': Canton in baso a drita cełeste
+  '1376260': Canton in baso a drita zało
+  '1376261': Canton in baso a drita lime
+  '1376262': Canton in baso a drita roza
+  '1376263': Canton in baso a drita grizo
+  '1376264': Canton in baso a drita grizo ciaro
+  '1376265': Canton in baso a drita ciano
+  '1376266': Canton in baso a drita vioła
+  '1376267': Canton in baso a drita blé
+  '1376268': Canton in baso a drita maron
+  '1376269': Canton in baso a drita verdo
+  '1376270': Canton in baso a drita roso
+  '1376271': Canton in baso a drita negro
+  '1441792': Canton in baso a sanca bianco
+  '1441793': Canton in baso a sanca naranson
+  '1441794': Canton in baso a sanca magenta
+  '1441795': Canton in baso a sanca cełeste
+  '1441796': Canton in baso a sanca zało
+  '1441797': Canton in baso a sanca lime
+  '1441798': Canton in baso a sanca roza
+  '1441799': Canton in baso a sanca grizo
+  '1441800': Canton in baso a sanca grizo ciaro
+  '1441801': Canton in baso a sanca ciano
+  '1441802': Canton in baso a sanca vioła
+  '1441803': Canton in baso a sanca blé
+  '1441804': Canton in baso a sanca maron
+  '1441805': Canton in baso a sanca verdo
+  '1441806': Canton in baso a sanca roso
+  '1441807': Canton in baso a sanca negro
+  '1507328': Canton in alto a drita bianco
+  '1507329': Canton in alto a drita naranson
+  '1507330': Canton in alto a drita magenta
+  '1507331': Canton in alto a drita cełeste
+  '1507332': Canton in alto a drita zało
+  '1507333': Canton in alto a drita lime
+  '1507334': Canton in alto a drita roza
+  '1507335': Canton in alto a drita grizo
+  '1507336': Canton in alto a drita grizo ciaro
+  '1507337': Canton in alto a drita ciano
+  '1507338': Canton in alto a drita vioła
+  '1507339': Canton in alto a drita blé
+  '1507340': Canton in alto a drita maron
+  '1507341': Canton in alto a drita verdo
+  '1507342': Canton in alto a drita roso
+  '1507343': Canton in alto a drita negro
+  '1572864': Sercio bianco
+  '1572865': Sercio naranson
+  '1572866': Sercio magenta
+  '1572867': Sercio cełeste
+  '1572868': Sercio zało
+  '1572869': Sercio lime
+  '1572870': Sercio roza
+  '1572871': Sercio grizo
+  '1572872': Sercio grizo ciaro
+  '1572873': Sercio ciano
+  '1572874': Sercio vioła
+  '1572875': Sercio blé
+  '1572876': Sercio maron
+  '1572877': Sercio verdo
+  '1572878': Sercio roso
+  '1572879': Sercio negro
+  '1638400': Ronbo bianco
+  '1638401': Ronbo naranson
+  '1638402': Ronbo magenta
+  '1638403': Ronbo cełeste
+  '1638404': Ronbo zało
+  '1638405': Ronbo lime
+  '1638406': Ronbo roza
+  '1638407': Ronbo grizo
+  '1638408': Ronbo grizo ciaro
+  '1638409': Ronbo ciano
+  '1638410': Ronbo vioła
+  '1638411': Ronbo blé
+  '1638412': Ronbo maron
+  '1638413': Ronbo verdo
+  '1638414': Ronbo roso
+  '1638415': Ronbo negro
+  '1703937': Partìo a drita de naranson
+  '1703938': Partìo a drita de magenta
+  '1703939': Partìo a drita de cełeste
+  '1703940': Partio a drita de zaldo
+  '1703945': Partìo a drita de ciano
+  '1703947': Partìo a drita de blé
+  '1769472': Canton in alto a drita bianco
+  '1769473': Canton in alto a drita naranson
+  '1769474': Canton in alto a drita magenta
+  '1769475': Canton in alto a drita cełeste
+  '1769476': Zało in sima
+  '1769477': Lime in sima
+  '1769478': Roza in sima
+  '1769479': Grizo in sima
+  '1769480': Grizo ciaro in sima
+  '1769481': Ciano in sima
+  '1769482': Vioła in sima
+  '1769483': Blé in sima
+  '1769484': Maron in sima
+  '1769485': Verdo in sima
+  '1769486': Roso in sima
+  '1769487': Negro in sima
+  '1835009': Partìo a sanca de naranson
+  '1835010': Partìo a sanca de magenta
+  '1835011': Partìo a sanca de cełeste
+  '1835012': Partìo a sanca de zaldo
+  '1835017': Partìo a sanca de ciano
+  '1835019': Partìo a sanca de blé
+  '1900544': 'Troncà: in baso de bianco'
+  '1900545': 'Troncà: in baso de naranson'
+  '1900546': 'Troncà: in baso de magenta'
+  '1900547': 'Troncà: in baso de grizo cełeste'
+  '1900548': 'Troncà: in baso de zało'
+  '1900549': 'Troncà: in baso de lime'
+  '1900550': 'Troncà: in baso de roza'
+  '1900551': 'Troncà: in baso de grizo'
+  '1900552': 'Troncà: in baso de grizo ciaro'
+  '1900553': 'Troncà: in baso de ciano'
+  '1900554': 'Troncà: in baso de vioła'
+  '1900555': 'Troncà: in baso de blé'
+  '1900556': 'Troncà: in baso de maron'
+  '1900557': 'Troncà: in baso de verdo'
+  '1900558': 'Troncà: in baso de roso'
+  '1900559': 'Troncà: in baso de negro'
+  '1966081': Bordura de naranson
+  '1966082': Bordura de magenta
+  '1966083': Bordura de cełeste
+  '1966084': Bordura de zaldo
+  '1966089': Bordura de ciano
+  '1966091': Bordura de blé
+  '2031617': Bordura dentada de naranson
+  '2031618': Bordura dentada de magenta
+  '2031619': Bordura dentada de cełeste
+  '2031620': Bordura dentada de zaldo
+  '2031625': Bordura dentada de ciano
+  '2031627': Bordura dentada de blé
+  '2097152': Muzo de creeper bianco
+  '2097153': Muzo de creeper naranson
+  '2097154': Muzo de creeper magenta
+  '2097155': Muzo de creeper cełeste
+  '2097156': Muzo de creeper zaldo
+  '2097157': Muzo de creeper lime
+  '2097158': Muzo de creeper roza
+  '2097159': Muzo de creeper grizo
+  '2097160': Muzo de creeper grizo ciaro
+  '2097161': Muzo de creeper ciano
+  '2097162': Muzo de creeper vioła
+  '2097163': Muzo de creeper blé
+  '2097164': Muzo de creeper maron
+  '2097165': Muzo de creeper verdo
+  '2097166': Muzo de creeper roso
+  '2097167': Muzo de creeper negro
+  '2162689': Desfumà de naranson
+  '2162690': Desfumà de magenta
+  '2162691': Desfumà de cełeste
+  '2162692': Desfumà de zaldo
+  '2162697': Desfumà de ciano
+  '2162699': Desfumà de blé
+  '2228224': Desfumà in ponta de bianco
+  '2228225': Desfumà in ponta de naranson
+  '2228226': Desfumà in ponta de magenta
+  '2228227': Desfumà in ponta de cełeste
+  '2228228': Desfumà in ponta de zaldo
+  '2228229': Desfumà in ponta de lime
+  '2228230': Desfumà in ponta de roza
+  '2228231': Desfumà in ponta de grizo
+  '2228232': Desfumà in ponta de grizo ciaro
+  '2228233': Desfumà in ponta de ciano
+  '2228234': Desfumà in ponta de vioła
+  '2228235': Desfumà in ponta de blé
+  '2228236': Desfumà in ponta de maron
+  '2228237': Desfumà in ponta de verdo
+  '2228238': Desfumà in ponta de roso
+  '2228239': Desfumà in ponta de negro
+  '2293761': Canpo naranson de cuarełi
+  '2293762': Canpo magenta de cuarełi
+  '2293763': Canpo cełeste de cuarełi
+  '2293769': Canpo ciano de cuarełi
+  '2293771': Canpo blé de cuarełi
+  '2359296': Tescio bianco
+  '2359297': Tescio naranson
+  '2359298': Tescio magenta
+  '2359299': Tescio cełeste
+  '2359300': Tescio zaldo
+  '2359301': Tescio lime
+  '2359302': Tescio roza
+  '2359303': Tescio grizo
+  '2359304': Tescio grizo ciaro
+  '2359305': Tescio ciano
+  '2359306': Tescio vioła
+  '2359307': Tescio blé
+  '2359308': Tescio maron
+  '2359309': Tescio verdo
+  '2359310': Tescio roso
+  '2359311': Tescio negro
+  '2424833': Fior naranson
+  '2424834': Fior magenta
+  '2424835': Fior cełeste
+  '2424836': Fior zaldo
+  '2424841': Fior ciano
+  '2424843': Fior blé
+  '2490369': Logo naranson
+  '2490370': Logo magenta
+  '2490371': Logo cełeste
+  '2490377': Logo ciano
+  '2490379': Logo blé

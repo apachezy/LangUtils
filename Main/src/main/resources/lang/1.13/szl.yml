@@ -1,0 +1,552 @@
+# ####################################################
+# Build time: 2021-03-06 14:47:29                    #
+# ####################################################
+language:
+  code: szl
+  name: Ślōnskŏ gŏdka
+  region: Gōrny Ślōnsk
+material:
+  acacia_log: Agacowy pniok
+  anvil: Nakowa
+  armor_stand: Stojŏl na zbrojŏ
+  attached_pumpkin_stem: Prziłōnczōny sztyngel banii
+  beacon: Magiczna latarnia
+  beef: Surowa wołowina
+  birch_log: Brzeźny pniok
+  cake: Zista
+  chainmail_boots: Buty kolcze
+  chainmail_chestplate: Napierśnik kolczy
+  chainmail_helmet: Hełm kolczy
+  chainmail_leggings: Nogawice kolcze
+  chicken: Surowŏ cipka
+  chicken_spawn_egg: Jajco ze cipkōm
+  chipped_anvil: Wyszczerbione kowadło
+  clay_ball: Bōnc
+  cod_bucket: Ajmer ze wōntuszym
+  conduit: Przewodnia
+  cooked_beef: Befsztyk
+  cooked_chicken: Pieczōnŏ cipka
+  cooked_porkchop: Pieczony schab
+  cookie: Zista
+  damaged_anvil: Uszkodzone kowadło
+  diamond: Diomynt
+  diamond_axe: Diomyntowe ćieślico
+  diamond_block: Blok diomyntu
+  diamond_boots: Diomyntowe bōty
+  diamond_chestplate: Diamentowy napierśnik
+  diamond_helmet: Diomyntowy hyłm
+  diamond_hoe: Diomyntowŏ kōpaczka
+  diamond_horse_armor: Diomyntowŏ kōńskŏ zbrojŏ
+  diamond_leggings: Diomyntowe galoty
+  diamond_ore: Ruda diomyntu
+  diamond_pickaxe: Diomyntowŏ haka
+  diamond_shovel: Diomyntowŏ szipa
+  diamond_sword: Diomyntowy mjycz
+  enderman_spawn_egg: Jajco ze endermanym
+  firework_star: Gwiazdka pirotechniczna
+  ghast_tear: Płaczka dōcha
+  glowstone: Blyndok
+  golden_axe: Zôte ćieślico
+  golden_chestplate: Złoty napierśnik
+  golden_sword: Złoty miecz
+  gray_banner: Myszatŏ fana
+  gray_bed: Myszate lyże
+  gray_carpet: Myszaty
+  gray_concrete: Myszaty bytōn
+  gray_concrete_powder: Myszaty cymynt
+  gray_dye: Myszatŏ barwiczka
+  gray_glazed_terracotta: Myszatŏ glazōwanŏ kamiōnka
+  gray_shulker_box: Myszatŏ shulkerowŏ kastla
+  gray_stained_glass: Myszate szkło
+  gray_stained_glass_pane: Myszatŏ szyba
+  gray_terracotta: Myszatŏ kamiōnka
+  gray_wall_banner: Myszatŏ fana
+  gray_wool: Myszatŏ wołna
+  husk_spawn_egg: Jajo przyzywające posucha
+  iron_axe: Żylŏzne ćieślico
+  iron_chestplate: Żelazny napierśnik
+  jungle_log: Dżunglowy pniok
+  lava_bucket: Ajmer ze lawōm
+  light_gray_banner: Jasnomyszatŏ fana
+  light_gray_bed: Jasnomyszate lyże
+  light_gray_carpet: Jasnomyszaty tepich
+  light_gray_concrete: Jasnomyszaty bytōn
+  light_gray_concrete_powder: Jasnomyszaty cymynt
+  light_gray_dye: Jasnomyszatŏ barwiczka
+  light_gray_glazed_terracotta: Jasnomyszatŏ glazōwanŏ kamiōnka
+  light_gray_shulker_box: Jasnomyszatŏ shulkerowŏ kastla
+  light_gray_stained_glass: Jasnomyszate szkło
+  light_gray_stained_glass_pane: Jasnomyszatŏ szyba
+  light_gray_terracotta: Jasnomyszatŏ kamiōnka
+  light_gray_wall_banner: Jasnomyszatŏ fana
+  light_gray_wool: Jasnomyszatŏ wołna
+  milk_bucket: Ajmer mlyka
+  mooshroom_spawn_egg: Jajco ze grzibokalymbōm
+  mutton: Surowa baranina
+  nautilus_shell: Muszla łodzika
+  nether_brick_slab: Kachla ze netherowej cegłōwki
+  oak_log: Dymbowy pniok
+  porkchop: Surowy schab
+  potted_red_tulip: Czerwōnŏ tulpa we fojerce
+  pufferfish_bucket: Ajmer ze balorybōm
+  pumpkin_pie: Kołŏcz ze banii
+  pumpkin_seeds: Ôsucie banii
+  pumpkin_stem: Sztyngel banii
+  rabbit: Surowy królik
+  redstone: Rudziŏk
+  redstone_wire: Utrzyty rudziŏk
+  salmon: Surowy łosoś
+  salmon_bucket: Ajmer ze łosōsiym
+  scute: Tarczka
+  smooth_quartz: Śliski kworc
+  spruce_log: Smrekowy pniok
+  stone_axe: Kamjynne ćieślico
+  stripped_acacia_wood: Okorowane akacjowe drewno
+  stripped_birch_wood: Okorowane brzozowe drewno
+  stripped_dark_oak_wood: Okorowane ciemnodębowe drewno
+  stripped_jungle_wood: Okorowane tropikalne drewno
+  stripped_oak_wood: Okorowane dębowe drewno
+  stripped_spruce_wood: Okorowane świerkowe drewno
+  totem_of_undying: Totem nieśmiertelności
+  tropical_fish_bucket: Ajmer ze dżunglowōm rybōm
+  turtle_egg: Jajco pancerżaby
+  turtle_helmet: Żółwia skorupa
+  turtle_spawn_egg: Jajco ze pancerżabōm
+  vindicator_spawn_egg: Jajo przyzywające obrońcę
+  water_bucket: Ajmer ze wodōm
+  wooden_axe: Drzewne ćieślico
+  yellow_banner: Żołtŏ fana
+  yellow_wall_banner: Żołtŏ fana
+biome:
+  mushroom_fields: Pola grzybowe
+  mushroom_field_shore: Wybrzeże grzybowych pól
+  savanna_plateau: Płaskowyż sawanny
+  wooded_badlands_plateau: Zalesiony płaskowyż badlandów
+  badlands_plateau: Płaskowyż badlandów
+  modified_jungle: Zmodyfikowana dżungla
+  modified_jungle_edge: Skraj zmodyfikowanej dżungli
+  shattered_savanna: Rozbita sawanna
+  shattered_savanna_plateau: Płaskowyż rozbitej sawanny
+  eroded_badlands: Zerodowane badlandy
+  modified_wooded_badlands_plateau: Zmodyfikowany zalesiony płaskowyż badlandów
+  modified_badlands_plateau: Zmodyfikowany płaskowyż badlandów
+enchantment:
+  aqua_affinity: Wydajność pod wodą
+  depth_strider: Głębinowy wędrowiec
+  efficiency: Wydajność
+  blast_protection: Ochrona przed wybuchem
+  smite: Pogromca nieumarłych
+  bane_of_arthropods: Zmora stawonogów
+  riptide: Torpeda
+  silk_touch: Jedbowne tyknycie
+  feather_falling: Lekkiy slatywańy
+potion:
+  mundane: Mdła mikstura
+  awkward: Klarowna mikstura
+  night_vision: Mikstura noktowizji
+  turtle_master: Wywōr pancyrżabiygŏ majstra
+splash_potion:
+  mundane: Mdła mikstura miotana
+  awkward: Miotana klarowna mikstura
+  night_vision: Miotana mikstura noktowizji
+  weakness: Miotana mikstura słabości
+  turtle_master: Ciepany wywōr pancyrżabiygŏ majstra
+lingering_potion:
+  mundane: Trwała mdła mikstura
+  awkward: Trwała klarowna mikstura
+  night_vision: Trwała mikstura noktowizji
+  turtle_master: Kurzwywōr pancyrżabiygŏ majstra
+tipped_arrow:
+  night_vision: Strzała noktowizji
+  turtle_master: Szczała pancyrżabiygŏ majstra
+entity:
+  experience_orb: Kula doświadczenia
+  area_effect_cloud: Obłok mikstury
+  ghast: Dōch
+  chicken: Cipka
+  mushroom_cow: Grzibokalymba
+  turtle: Pancerżaba
+effect:
+  jump: Zwiększony skok
+  health_boost: Zwiększenie zdrowia
+  conduit_power: Przewodnia potęga
+tropical_fish_type:
+  kob: Kulbak
+dye_color:
+  yellow: Żołty
+  gray: Myszaty
+  light_gray: Jasnomyszaty
+named:
+  unknown_entity: 'Nieznany byt: %s'
+tropical_fish_name:
+  '50726144': Bojownik wspaniały
+  '117441025': Idolek mauretański
+  '50660352': Nefrytek królewski
+  '918273': Beryks czerwony
+  '459008': Rogata rozbójnica
+colored_shied:
+  yellow: Żołtŏ powynż
+  gray: Myszatŏ powynż
+  light_gray: Jasnomyszatŏ powynż
+banner_pattern:
+  '65540': Żołtŏ spodniŏ lewŏ ćwierć
+  '65543': Myszatŏ spodniŏ lewŏ ćwierć
+  '65544': Jasnomyszatŏ spodniŏ lewŏ ćwierć
+  '131076': Żołtŏ spodniŏ prawŏ ćwierć
+  '131079': Myszatŏ spodniŏ prawŏ ćwierć
+  '131080': Jasnomyszatŏ spodniŏ prawŏ ćwierć
+  '196612': Żołtŏ wierzchniŏ lewŏ ćwierć
+  '196615': Myszatŏ wierzchniŏ lewŏ ćwierć
+  '196616': Jasnomyszatŏ wierzchniŏ lewŏ ćwierć
+  '262148': Żołtŏ wierzchniŏ prawŏ ćwierć
+  '262151': Myszatŏ wierzchniŏ prawŏ ćwierć
+  '262152': Jasnomyszatŏ wierzchniŏ prawŏ ćwierć
+  '327684': Żołty grōnt
+  '327687': Myszaty grōnt
+  '327688': Jasnomyszaty grōnt
+  '393220': Żołty wjyrch
+  '393223': Myszaty wjyrch
+  '393224': Jasnomyszaty wjyrch
+  '458752': Biała lewa flanka
+  '458753': Pomarańczowa lewa flanka
+  '458754': Karmazynowa lewa flanka
+  '458755': Jasnoniebieska lewa flanka
+  '458756': Żółta lewa flanka
+  '458757': Jasnozielona lewa flanka
+  '458758': Różowa lewa flanka
+  '458759': Szara lewa flanka
+  '458760': Jasnoszara lewa flanka
+  '458761': Błękitna lewa flanka
+  '458762': Fioletowa lewa flanka
+  '458763': Niebieska lewa flanka
+  '458764': Brązowa lewa flanka
+  '458765': Zielona lewa flanka
+  '458766': Czerwona lewa flanka
+  '458767': Czarna lewa flanka
+  '524288': Biała prawa flanka
+  '524289': Pomarańczowa prawa flanka
+  '524290': Karmazynowa prawa flanka
+  '524291': Jasnoniebieska prawa flanka
+  '524292': Żółta prawa flanka
+  '524293': Jasnozielona prawa flanka
+  '524294': Różowa prawa flanka
+  '524295': Szara prawa flanka
+  '524296': Jasnoszara prawa flanka
+  '524297': Błękitna prawa flanka
+  '524298': Fioletowa prawa flanka
+  '524299': Niebieska prawa flanka
+  '524300': Brązowa prawa flanka
+  '524301': Zielona prawa flanka
+  '524302': Czerwona prawa flanka
+  '524303': Czarna prawa flanka
+  '589828': Żołty palik
+  '589831': Myszaty palik
+  '589832': Jasnomyszaty palik
+  '655360': Biały poziomy pas
+  '655361': Pomarańczowy poziomy pas
+  '655362': Karmazynowy poziomy pas
+  '655363': Jasnoniebieski poziomy pas
+  '655364': Żółty poziomy pas
+  '655365': Jasnozielony poziomy pas
+  '655366': Różowy poziomy pas
+  '655367': Szary poziomy pas
+  '655368': Jasnoszary poziomy pas
+  '655369': Błękitny poziomy pas
+  '655370': Fioletowy poziomy pas
+  '655371': Niebieski poziomy pas
+  '655372': Brązowy poziomy pas
+  '655373': Zielony poziomy pas
+  '655374': Czerwony poziomy pas
+  '655375': Czarny poziomy pas
+  '720896': Biały prawy skos
+  '720897': Pomarańczowy prawy skos
+  '720898': Karmazynowy prawy skos
+  '720899': Jasnoniebieski prawy skos
+  '720900': Żółty prawy skos
+  '720901': Jasnozielony prawy skos
+  '720902': Różowy prawy skos
+  '720903': Szary prawy skos
+  '720904': Jasnoszary prawy skos
+  '720905': Błękitny prawy skos
+  '720906': Fioletowy prawy skos
+  '720907': Niebieski prawy skos
+  '720908': Brązowy prawy skos
+  '720909': Zielony prawy skos
+  '720910': Czerwony prawy skos
+  '720911': Czarny prawy skos
+  '786432': Biały lewy skos
+  '786433': Pomarańczowy lewy skos
+  '786434': Karmazynowy lewy skos
+  '786435': Jasnoniebieski lewy skos
+  '786436': Żółty lewy skos
+  '786437': Jasnozielony lewy skos
+  '786438': Różowy lewy skos
+  '786439': Szary lewy skos
+  '786440': Jasnoszary lewy skos
+  '786441': Błękitny lewy skos
+  '786442': Fioletowy lewy skos
+  '786443': Niebieski lewy skos
+  '786444': Brązowy lewy skos
+  '786445': Zielony lewy skos
+  '786446': Czerwony lewy skos
+  '786447': Czarny lewy skos
+  '851968': Białe pasy
+  '851969': Pomarańczowe pasy
+  '851970': Karmazynowe pasy
+  '851971': Jasnoniebieskie pasy
+  '851972': Żółte pasy
+  '851973': Jasnozielone pasy
+  '851974': Różowe pasy
+  '851975': Szare pasy
+  '851976': Jasnoszare pasy
+  '851977': Błękitne pasy
+  '851978': Fioletowe pasy
+  '851979': Niebieskie pasy
+  '851980': Brązowe pasy
+  '851981': Zielone pasy
+  '851982': Czerwone pasy
+  '851983': Czarne pasy
+  '917504': Biały skośny krzyż
+  '917505': Pomarańczowy skośny krzyż
+  '917506': Karmazynowy skośny krzyż
+  '917507': Jasnoniebieski skośny krzyż
+  '917508': Żółty skośny krzyż
+  '917509': Jasnozielony skośny krzyż
+  '917510': Różowy skośny krzyż
+  '917511': Szary skośny krzyż
+  '917512': Jasnoszary skośny krzyż
+  '917513': Błękitny skośny krzyż
+  '917514': Fioletowy skośny krzyż
+  '917515': Niebieski skośny krzyż
+  '917516': Brązowy skośny krzyż
+  '917517': Zielony skośny krzyż
+  '917518': Czerwony skośny krzyż
+  '917519': Czarny skośny krzyż
+  '983044': Żołty krziż
+  '983047': Myszaty krziż
+  '983048': Jasnomyszaty krziż
+  '1048578': Karmazynowa krokiew
+  '1048583': Myszatŏ krokwia
+  '1048584': Jasnomyszatŏ krokwia
+  '1114114': Karmazynowa odwrócona krokiew
+  '1114119': Myszatŏ ôbrōcōnŏ krokwia
+  '1114120': Jasnomyszatŏ ôbrōcōnŏ krokwia
+  '1179650': Karmazynowa podstawa ząbkowana
+  '1179655': Myszatŏ zōmbkowanŏ baza
+  '1179656': Jasnomyszatŏ zōmbkowanŏ baza
+  '1245184': Biała głowica ząbkowana
+  '1245185': Pomarańczowa głowica ząbkowana
+  '1245186': Karmazynowa głowica ząbkowana
+  '1245187': Jasnoniebieska głowica ząbkowana
+  '1245188': Żółta głowica ząbkowana
+  '1245189': Jasnozielona głowica ząbkowana
+  '1245190': Różowa głowica ząbkowana
+  '1245191': Szara głowica ząbkowana
+  '1245192': Jasnoszara głowica ząbkowana
+  '1245193': Błękitna głowica ząbkowana
+  '1245194': Fioletowa głowica ząbkowana
+  '1245195': Niebieska głowica ząbkowana
+  '1245196': Brązowa głowica ząbkowana
+  '1245197': Zielona głowica ząbkowana
+  '1245198': Czerwona głowica ząbkowana
+  '1245199': Czarna głowica ząbkowana
+  '1310720': Biała skośna lewa górna połowa
+  '1310721': Pomarańczowa skośna lewa górna połowa
+  '1310722': Karmazynowa skośna lewa górna połowa
+  '1310723': Jasnoniebieska skośna lewa górna połowa
+  '1310724': Żółta skośna lewa górna połowa
+  '1310725': Jasnozielona skośna lewa górna połowa
+  '1310726': Różowa skośna lewa górna połowa
+  '1310727': Szara skośna lewa górna połowa
+  '1310728': Jasnoszara skośna lewa górna połowa
+  '1310729': Błękitna skośna lewa górna połowa
+  '1310730': Fioletowa skośna lewa górna połowa
+  '1310731': Niebieska skośna lewa górna połowa
+  '1310732': Brązowa skośna lewa górna połowa
+  '1310733': Zielona skośna lewa górna połowa
+  '1310734': Czerwona skośna lewa górna połowa
+  '1310735': Czarna skośna lewa górna połowa
+  '1376256': Biała skośna prawa dolna połowa
+  '1376257': Pomarańczowa skośna prawa dolna połowa
+  '1376258': Karmazynowa skośna prawa dolna połowa
+  '1376259': Jasnoniebieska skośna prawa dolna połowa
+  '1376260': Żółta skośna prawa dolna połowa
+  '1376261': Jasnozielona skośna prawa dolna połowa
+  '1376262': Różowa skośna prawa dolna połowa
+  '1376263': Szara skośna prawa dolna połowa
+  '1376264': Jasnoszara skośna prawa dolna połowa
+  '1376265': Błękitna skośna prawa dolna połowa
+  '1376266': Fioletowa skośna prawa dolna połowa
+  '1376267': Niebieska skośna prawa dolna połowa
+  '1376268': Brązowa skośna prawa dolna połowa
+  '1376269': Zielona skośna prawa dolna połowa
+  '1376270': Czerwona skośna prawa dolna połowa
+  '1376271': Czarna skośna prawa dolna połowa
+  '1441792': Biała skośna lewa dolna połowa
+  '1441793': Pomarańczowa skośna lewa dolna połowa
+  '1441794': Karmazynowa skośna lewa dolna połowa
+  '1441795': Jasnoniebieska skośna lewa dolna połowa
+  '1441796': Żółta skośna lewa dolna połowa
+  '1441797': Jasnozielona skośna lewa dolna połowa
+  '1441798': Różowa skośna lewa dolna połowa
+  '1441799': Szara skośna lewa dolna połowa
+  '1441800': Jasnoszara skośna lewa dolna połowa
+  '1441801': Błękitna skośna lewa dolna połowa
+  '1441802': Fioletowa skośna lewa dolna połowa
+  '1441803': Niebieska skośna lewa dolna połowa
+  '1441804': Brązowa skośna lewa dolna połowa
+  '1441805': Zielona skośna lewa dolna połowa
+  '1441806': Czerwona skośna lewa dolna połowa
+  '1441807': Czarna skośna lewa dolna połowa
+  '1507328': Biała skośna prawa górna połowa
+  '1507329': Pomarańczowa skośna prawa górna połowa
+  '1507330': Karmazynowa skośna prawa górna połowa
+  '1507331': Jasnoniebieska skośna prawa górna połowa
+  '1507332': Żółta skośna prawa górna połowa
+  '1507333': Jasnozielona skośna prawa górna połowa
+  '1507334': Różowa skośna prawa górna połowa
+  '1507335': Szara skośna prawa górna połowa
+  '1507336': Jasnoszara skośna prawa górna połowa
+  '1507337': Błękitna skośna prawa górna połowa
+  '1507338': Fioletowa skośna prawa górna połowa
+  '1507339': Niebieska skośna prawa górna połowa
+  '1507340': Brązowa skośna prawa górna połowa
+  '1507341': Zielona skośna prawa górna połowa
+  '1507342': Czerwona skośna prawa górna połowa
+  '1507343': Czarna skośna prawa górna połowa
+  '1572871': Myszate rōnto
+  '1572872': Jasnomyszate rōnto
+  '1638402': Karmazynowy romb
+  '1638404': Żołty rōmb
+  '1638407': Myszaty rōmb
+  '1638408': Jasnomyszaty rōmb
+  '1703936': Biała lewa połowa
+  '1703937': Pomarańczowa lewa połowa
+  '1703938': Karmazynowa lewa połowa
+  '1703939': Jasnoniebieska lewa połowa
+  '1703940': Żółta lewa połowa
+  '1703941': Jasnozielona lewa połowa
+  '1703942': Różowa lewa połowa
+  '1703943': Szara lewa połowa
+  '1703944': Jasnoszara lewa połowa
+  '1703945': Błękitna lewa połowa
+  '1703946': Fioletowa lewa połowa
+  '1703947': Niebieska lewa połowa
+  '1703948': Brązowa lewa połowa
+  '1703949': Zielona lewa połowa
+  '1703950': Czerwona lewa połowa
+  '1703951': Czarna lewa połowa
+  '1769472': Biała górna połowa
+  '1769473': Pomarańczowa górna połowa
+  '1769474': Karmazynowa górna połowa
+  '1769475': Jasnoniebieska górna połowa
+  '1769476': Żółta górna połowa
+  '1769477': Jasnozielona górna połowa
+  '1769478': Różowa górna połowa
+  '1769479': Szara górna połowa
+  '1769480': Jasnoszara górna połowa
+  '1769481': Błękitna górna połowa
+  '1769482': Fioletowa górna połowa
+  '1769483': Niebieska górna połowa
+  '1769484': Brązowa górna połowa
+  '1769485': Zielona górna połowa
+  '1769486': Czerwona górna połowa
+  '1769487': Czarna górna połowa
+  '1835008': Biała prawa połowa
+  '1835009': Pomarańczowa prawa połowa
+  '1835010': Karmazynowa prawa połowa
+  '1835011': Jasnoniebieska prawa połowa
+  '1835012': Żółta prawa połowa
+  '1835013': Jasnozielona prawa połowa
+  '1835014': Różowa prawa połowa
+  '1835015': Szara prawa połowa
+  '1835016': Jasnoszara prawa połowa
+  '1835017': Błękitna prawa połowa
+  '1835018': Fioletowa prawa połowa
+  '1835019': Niebieska prawa połowa
+  '1835020': Brązowa prawa połowa
+  '1835021': Zielona prawa połowa
+  '1835022': Czerwona prawa połowa
+  '1835023': Czarna prawa połowa
+  '1900544': Biała dolna połowa
+  '1900545': Pomarańczowa dolna połowa
+  '1900546': Karmazynowa dolna połowa
+  '1900547': Jasnoniebieska dolna połowa
+  '1900548': Żółta dolna połowa
+  '1900549': Jasnozielona dolna połowa
+  '1900550': Różowa dolna połowa
+  '1900551': Szara dolna połowa
+  '1900552': Jasnoszara dolna połowa
+  '1900553': Błękitna dolna połowa
+  '1900554': Fioletowa dolna połowa
+  '1900555': Niebieska dolna połowa
+  '1900556': Brązowa dolna połowa
+  '1900557': Zielona dolna połowa
+  '1900558': Czerwona dolna połowa
+  '1900559': Czarna dolna połowa
+  '1966082': Karmazynowe obramowanie
+  '1966084': Żołte romōwańy
+  '1966087': Myszate romōwańy
+  '1966088': Jasnomyszate romōwańy
+  '2031616': Białe ząbkowane obramowanie
+  '2031617': Pomarańczowe ząbkowane obramowanie
+  '2031618': Karmazynowe ząbkowane obramowanie
+  '2031619': Jasnoniebieskie ząbkowane obramowanie
+  '2031620': Żółte ząbkowane obramowanie
+  '2031621': Jasnozielone ząbkowane obramowanie
+  '2031622': Różowe ząbkowane obramowanie
+  '2031623': Szare ząbkowane obramowanie
+  '2031624': Jasnoszare ząbkowane obramowanie
+  '2031625': Błękitne ząbkowane obramowanie
+  '2031626': Fioletowe ząbkowane obramowanie
+  '2031627': Niebieskie ząbkowane obramowanie
+  '2031628': Brązowe ząbkowane obramowanie
+  '2031629': Zielone ząbkowane obramowanie
+  '2031630': Czerwone ząbkowane obramowanie
+  '2031631': Czarne ząbkowane obramowanie
+  '2097152': Biały wizerunek creepera
+  '2097153': Pomarańczowy wizerunek creepera
+  '2097154': Karmazynowy wizerunek creepera
+  '2097155': Jasnoniebieski wizerunek creepera
+  '2097156': Żółty wizerunek creepera
+  '2097157': Jasnozielony wizerunek creepera
+  '2097158': Różowy wizerunek creepera
+  '2097159': Szary wizerunek creepera
+  '2097160': Jasnoszary wizerunek creepera
+  '2097161': Błękitny wizerunek creepera
+  '2097162': Fioletowy wizerunek creepera
+  '2097163': Niebieski wizerunek creepera
+  '2097164': Brązowy wizerunek creepera
+  '2097165': Zielony wizerunek creepera
+  '2097166': Czerwony wizerunek creepera
+  '2097167': Czarny wizerunek creepera
+  '2162690': Karmazynowy gradient
+  '2162695': Myszaty gradjynt
+  '2162696': Jasnomyszaty gradjynt
+  '2228226': Karmazynowy odwrócony gradient
+  '2228231': Myszaty ôbrōcōny gradjynt
+  '2228232': Jasnomyszaty ôbrōcōny gradjynt
+  '2293760': Białe murowane pole
+  '2293761': Pomarańczowe murowane pole
+  '2293762': Karmazynowe murowane pole
+  '2293763': Jasnoniebieskie murowane pole
+  '2293764': Żółte murowane pole
+  '2293765': Jasnozielone murowane pole
+  '2293766': Różowe murowane pole
+  '2293767': Szare murowane pole
+  '2293768': Jasnoszare murowane pole
+  '2293769': Błękitne murowane pole
+  '2293770': Fioletowe murowane pole
+  '2293771': Niebieskie murowane pole
+  '2293772': Brązowe murowane pole
+  '2293773': Zielone murowane pole
+  '2293774': Czerwone murowane pole
+  '2293775': Czarne murowane pole
+  '2359303': Myszatŏ czacha
+  '2359304': Jasnomyszatŏ czacha
+  '2424836': Żołty kwjot
+  '2424839': Myszaty kwjot
+  '2424840': Jasnomyszaty kwjot
+  '2490374': Różowe Coś
+  '2490375': Szare Coś
+  '2490376': Jasnoszare Coś

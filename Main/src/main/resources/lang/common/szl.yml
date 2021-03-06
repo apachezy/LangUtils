@@ -1,0 +1,2196 @@
+# ####################################################
+# Build time: 2021-03-06 14:47:29                    #
+# ####################################################
+language:
+  code: szl
+  name: Ślōnskŏ gŏdka
+  region: Gōrny Ślōnsk
+material:
+  air: Luft
+  stone: Kamjyń
+  granite: Granit
+  polished_granite: Wyglancōwany granit
+  diorite: Dyjoryt
+  polished_diorite: Wyglancōwany dyjoryt
+  andesite: Andezit
+  polished_andesite: Wyglancōwany andezit
+  grass_block: Blok trŏwy
+  dirt: Źymja
+  coarse_dirt: Twardŏ źymja
+  podzol: Bjołlica
+  crimson_nylium: Szkarłŏtne podglybie
+  warped_nylium: Szage podglybie
+  cobblestone: Kostka
+  oak_planks: Dymbowe belki
+  spruce_planks: Smrekowe belki
+  birch_planks: Brzeźne belki
+  jungle_planks: Dżunglowe belki
+  acacia_planks: Agacowe belki
+  dark_oak_planks: Ćmawodymbowe belki
+  crimson_planks: Szkarłŏtne belki
+  warped_planks: Szage belki
+  oak_sapling: Dymbowŏ flanca
+  spruce_sapling: Smrekowŏ flanca
+  birch_sapling: Brzeźnŏ flanca
+  jungle_sapling: Dżunglowŏ flanca
+  acacia_sapling: Agacowŏ flanca
+  dark_oak_sapling: Ćmawodymbowŏ flanca
+  bedrock: Zol
+  sand: Pjosek
+  red_sand: Czyrwōny pjosek
+  gravel: Kis
+  gold_ore: Ruda zôta
+  iron_ore: Ruda żylazŏ
+  coal_ore: Ruda wōngla
+  nether_gold_ore: Netherowŏ ruda zôta
+  oak_log: Dymbowy pniŏk
+  spruce_log: Smrekowy pniŏk
+  birch_log: Brzeźny pniŏk
+  jungle_log: Dżunglowy pniŏk
+  acacia_log: Agacowy pniŏk
+  dark_oak_log: Ćmawodymbowy pniŏk
+  crimson_stem: Szkarłŏtny strzōn
+  warped_stem: Szagi strzōn
+  stripped_oak_log: Ôłōbowany dymbowy pniok
+  stripped_spruce_log: Ôłōbowany smrekowy pniok
+  stripped_birch_log: Ôłōbowany brzeźny pniok
+  stripped_jungle_log: Ôłōbowany dżunglowy pniok
+  stripped_acacia_log: Ôłōbowany agacowy pniok
+  stripped_dark_oak_log: Ôłōbowany ćmawodymbowy pniŏk
+  stripped_crimson_stem: Ôłōbowany szkarłŏtny strzōn
+  stripped_warped_stem: Ôłōbowany szagi strzōn
+  stripped_oak_wood: Ôłōbowane dymbowe drzewo
+  stripped_spruce_wood: Ôłōbowane smrekowe drzewo
+  stripped_birch_wood: Ôłōbowany brzeźny pniok
+  stripped_jungle_wood: Ôłōbowane dżunglowe drzewo
+  stripped_acacia_wood: Ôłōbowane agacowe drzewo
+  stripped_dark_oak_wood: Ôłōbowane ćmawodymbowe drzewo
+  stripped_crimson_hyphae: Ôciŏsanŏ szkarłŏtnŏ strzympka
+  stripped_warped_hyphae: Ôciŏsanŏ szagŏ strzympka
+  oak_wood: Dymbowe drzewo
+  spruce_wood: Smrekowe drzewo
+  birch_wood: Brzezina
+  jungle_wood: Dżunglowe drzewo
+  acacia_wood: Agacowe drzewo
+  dark_oak_wood: Ćmawodymbowe drzewo
+  crimson_hyphae: Szkarłŏtnŏ strzympka
+  warped_hyphae: Szagŏ strzympka
+  oak_leaves: Dymbowe liście
+  spruce_leaves: Smrekowe liście
+  birch_leaves: Brzeźne liście
+  jungle_leaves: Dżunglowe liście
+  acacia_leaves: Agacowe liście
+  dark_oak_leaves: Ćmawodymbowe liście
+  sponge: Gōmbka
+  wet_sponge: Mokrŏ gōmbka
+  glass: Szkło
+  lapis_ore: Ruda lazuritu
+  lapis_block: Blok lazuritu
+  dispenser: Szczylŏcz
+  sandstone: Pjoskowjec
+  chiseled_sandstone: Ôciosany pjoskowjec
+  cut_sandstone: Pokroty pjoskowjec
+  note_block: Klangblok
+  powered_rail: Napyndzane glajzy
+  detector_rail: Glajzy ze synsorym
+  sticky_piston: Lepkawy pistōn
+  cobweb: Kawalera
+  grass: Trŏwa
+  fern: Paprotka
+  dead_bush: Uschnyty krzok
+  seagrass: Morskŏ trŏwa
+  sea_pickle: Ôgniczka
+  piston: Pistōn
+  white_wool: Bjołŏ wołna
+  orange_wool: Oranżowŏ wołna
+  magenta_wool: Karminowŏ wołna
+  light_blue_wool: Jasnomodrŏ wołna
+  yellow_wool: Żołtŏ wołna
+  lime_wool: Limōnkowŏ wołna
+  pink_wool: Rōżŏwŏ wołna
+  gray_wool: Szadŏ wołna
+  light_gray_wool: Jasnoszadŏ wołna
+  cyan_wool: Azurowŏ wołna
+  purple_wool: Porpōrowŏ wołna
+  blue_wool: Modrŏ wołna
+  brown_wool: Brunatnŏ wołna
+  green_wool: Źielōnŏ wołna
+  red_wool: Czerwōnŏ wołna
+  black_wool: Czornŏ wołna
+  dandelion: Mlycz
+  poppy: Mak
+  blue_orchid: Modry storczyk
+  allium: Knobloch
+  azure_bluet: Modrŏ houstonia
+  red_tulip: Czerwōnŏ tulpa
+  orange_tulip: Oranżowŏ tulpa
+  white_tulip: Bjołŏ tulpa
+  pink_tulip: Rōżowŏ tulpa
+  oxeye_daisy: Złociyń
+  cornflower: Faber
+  lily_of_the_valley: Majglokla
+  wither_rose: Witherrōłza
+  brown_mushroom: Prawok
+  red_mushroom: Sromotniŏk
+  crimson_fungus: Szkarłŏtny grzib
+  warped_fungus: Szagi grzib
+  crimson_roots: Szkarłŏtne korcze
+  warped_roots: Szage korcze
+  nether_sprouts: Netherowe flance
+  weeping_vines: Płaczkowe pnōncze
+  twisting_vines: Skryncōne pnōncza
+  sugar_cane: Trzcina cukrowŏ
+  kelp: Alga
+  bamboo: Bambus
+  gold_block: Blok zôta
+  iron_block: Blok żylaza
+  oak_slab: Dymbowŏ kachla
+  spruce_slab: Smrekowŏ kachla
+  birch_slab: Brzeźnŏ kachla
+  jungle_slab: Dżunglowŏ kachla
+  acacia_slab: Agacowŏ kachla
+  dark_oak_slab: Ćmawodymbowŏ kachla
+  crimson_slab: Szkarłŏtnŏ kachla
+  warped_slab: Szagŏ kachla
+  stone_slab: Kamjynnŏ kachla
+  smooth_stone_slab: Kachla ze śliskiygŏ kamjyniŏ
+  sandstone_slab: Pjoskowcowŏ kachla
+  cut_sandstone_slab: Kachla ze pokrŏtygŏ pjoskŏwca
+  petrified_oak_slab: Skamjyńołŏ dymbowŏ kachla
+  cobblestone_slab: Kostkowŏ kalcha
+  brick_slab: Cyglōwkowŏ kachla
+  stone_brick_slab: Kachla ze kamjynnych cygłōwek
+  nether_brick_slab: Kachla ze netherowej cygłōwki
+  quartz_slab: Kworcowŏ kachla
+  red_sandstone_slab: Kachla ze czerwonygŏ pjoskowca
+  cut_red_sandstone_slab: Kachla ze czerwōnygŏ pokrŏtygŏ pjoskŏwca
+  purpur_slab: Purpurowŏ kachla
+  prismarine_slab: Prizmarinowŏ kachla
+  prismarine_brick_slab: Kachla ze prizmarinowych cygłōwek
+  dark_prismarine_slab: Ćmawŏ prizmarinowŏ kachla
+  smooth_quartz: Blok śliskiygŏ kwŏrcu
+  smooth_red_sandstone: Śliski czyrwōny pjoskowjec
+  smooth_sandstone: Śliski pjoskowjec
+  smooth_stone: Śliski kamjyń
+  bricks: Cegłōwki
+  tnt: TNT
+  bookshelf: Ksiōnżnicŏ
+  mossy_cobblestone: Zamszōnŏ kostka
+  obsidian: Ôbsydjōn
+  torch: Fakla
+  end_rod: Filorek Endu
+  chorus_plant: Flanca refrynki
+  chorus_flower: Kwjot refrynki
+  purpur_block: Blok purpury
+  purpur_pillar: Purpurowy filor
+  purpur_stairs: Purpurowe schodki
+  spawner: Złōnacznik
+  oak_stairs: Dymbowe schodki
+  chest: Kastla
+  diamond_ore: Ruda dyjomyntu
+  diamond_block: Blok dyjomyntu
+  crafting_table: Falbanek
+  farmland: Źymja uprownŏ
+  furnace: Żeleźniŏk
+  ladder: Rzyps
+  rail: Glajzy
+  cobblestone_stairs: Kostkowe schodki
+  lever: Wajcha
+  stone_pressure_plate: Kamjynnŏ klikwoga
+  oak_pressure_plate: Dymbowŏ klikwoga
+  spruce_pressure_plate: Smrekowŏ klikwoga
+  birch_pressure_plate: Brzeźnŏ klikwoga
+  jungle_pressure_plate: Dżunglowŏ klikwoga
+  acacia_pressure_plate: Agacowŏ klikwoga
+  dark_oak_pressure_plate: Ćmawodymbowŏ klikwoga
+  crimson_pressure_plate: Szkarłŏtnŏ klikwoga
+  warped_pressure_plate: Szagŏ klikwoga
+  polished_blackstone_pressure_plate: Wyglancōwanŏ czorniŏkowŏ klikwoga
+  redstone_ore: Ruda rudziŏka
+  redstone_torch: Rudziŏkowŏ fakla
+  snow: Śniyg
+  ice: Lōd
+  snow_block: Blok śniygu
+  cactus: Kaktus
+  clay: Bōnc
+  jukebox: Muziczny szrank
+  oak_fence: Dymbowy płot
+  spruce_fence: Smrekowy płot
+  birch_fence: Brzeźny płot
+  jungle_fence: Dżunglowy płot
+  acacia_fence: Agacowy płot
+  dark_oak_fence: Ćmawodymbowy płot
+  crimson_fence: Szkarłŏtny płot
+  warped_fence: Szagi płot
+  pumpkin: Bania
+  carved_pumpkin: Wystruganŏ bania
+  netherrack: Netherrack
+  soul_sand: Pjosek dusz
+  soul_soil: Zol dusz
+  basalt: Bazŏlt
+  polished_basalt: Wyglancōwany bazŏlt
+  soul_torch: Fakla dusz
+  glowstone: Blyndŏk
+  jack_o_lantern: Śwjycōncŏ bania
+  oak_trapdoor: Dymbowŏ szłapa
+  spruce_trapdoor: Smrekowŏ szłapa
+  birch_trapdoor: Brzeźnŏ szłapa
+  jungle_trapdoor: Dżunglowŏ szłapa
+  acacia_trapdoor: Agacowŏ szłapa
+  dark_oak_trapdoor: Ćmawodymbowŏ szłapa
+  crimson_trapdoor: Szkarłŏtnŏ szłapa
+  warped_trapdoor: Szagŏ szłapa
+  infested_stone: Chrobaczywy kamjyń
+  infested_cobblestone: Chrobaczywŏ kostka
+  infested_stone_bricks: Chrobaczywe kamjynne cygłōwki
+  infested_mossy_stone_bricks: Chrobaczywe zamszōne kamjynne cygłōwki
+  infested_cracked_stone_bricks: Chrobaczywe pynknyte kamjynne cygłōwki
+  infested_chiseled_stone_bricks: Chrobaczywe wyrezane kamjynne cygłōwki
+  stone_bricks: Kamjynne cygłōwki
+  mossy_stone_bricks: Zamszōne kamjynne cygłōwki
+  cracked_stone_bricks: Pynknyte kamjynne cygłōwki
+  chiseled_stone_bricks: Ôciosane kamjynne cygłōwki
+  brown_mushroom_block: Blok prawoka
+  red_mushroom_block: Blok sromotniŏka
+  mushroom_stem: Sztyngel grziba
+  iron_bars: Żyloznŏ gitra
+  chain: Ketowy
+  glass_pane: Szyba
+  melon: Arbuz
+  vine: Klimatisu
+  oak_fence_gate: Dymbowŏ bramka
+  spruce_fence_gate: Smrekowŏ bramka
+  birch_fence_gate: Brzeźnŏ bramka
+  jungle_fence_gate: Dżunglowŏ bramka
+  acacia_fence_gate: Agacowŏ bramka
+  dark_oak_fence_gate: Ćmawodymbowŏ bramka
+  crimson_fence_gate: Szkarłŏtnŏ bramka
+  warped_fence_gate: Szagŏ bramka
+  brick_stairs: Cygłōwkowe schodki
+  stone_brick_stairs: Schodki ze kamjynnych cegłōwek
+  mycelium: Grziybniŏ
+  lily_pad: Wodnŏ lilijŏ
+  nether_bricks: Netherowe cygłōwki
+  cracked_nether_bricks: Pynknyte netherowe cygłōwki
+  chiseled_nether_bricks: Ôciosane netherowe cygłōwki
+  nether_brick_fence: Płot ze netherowych cygłōwek
+  nether_brick_stairs: Schodki ze netherowych cygłōwek
+  enchanting_table: Stōł dŏ magōwaniŏ
+  end_portal_frame: Roma portolu Endu
+  end_stone: Kamjyń Endu
+  end_stone_bricks: Cygłōwka ze kamjyniŏ Endu
+  dragon_egg: Jajco draka
+  redstone_lamp: Rudziŏkowŏ lampa
+  sandstone_stairs: Pjoskowcowe schodki
+  emerald_ore: Ruda szmarogdu
+  ender_chest: Kastla Endu
+  tripwire_hook: Hok na szpagat
+  emerald_block: Blok szmarogdu
+  spruce_stairs: Smrekowe schodki
+  birch_stairs: Brzeźne schodki
+  jungle_stairs: Dżunglowe schodki
+  crimson_stairs: Szkarłŏtne schodki
+  warped_stairs: Szage schodki
+  command_block: Blok kōmynd
+  beacon: Blynda
+  cobblestone_wall: Kostkowy murek
+  mossy_cobblestone_wall: Zamszōny kostkowy murek
+  brick_wall: Cygłōwkŏwy gelynder
+  prismarine_wall: Prizmarinŏwy gelynder
+  red_sandstone_wall: Gelynder ze czyrwōnygŏ pjoskŏwca
+  mossy_stone_brick_wall: Gelynder ze zamszōnych kamjynnych cygłōwek
+  granite_wall: Granitŏwy gelynder
+  stone_brick_wall: Gelynder ze kamjynnych cygłōwek
+  nether_brick_wall: Gelynder ze netherowyj cygłōwki
+  andesite_wall: Andezitŏwy gelynder
+  red_nether_brick_wall: Gelynder ze czyrwōnyj netherowyj cygłōwki
+  sandstone_wall: Pjoskŏwcŏwy gelynder
+  end_stone_brick_wall: Cygłōwkŏwy gelynder ze endowygŏ kamjyniŏ
+  diorite_wall: Dyjorytŏwy gelynder
+  blackstone_wall: Czorniŏkowy gelynder
+  polished_blackstone_wall: Wyglancōwany czorniŏkowy gelynder
+  polished_blackstone_brick_wall: Wyglancōwany czorniŏkowy cygłōwkowy gelynder
+  stone_button: Kamjynny knefel
+  oak_button: Dymbowy knefel
+  spruce_button: Smrekowy knefel
+  birch_button: Brzeźny knefel
+  jungle_button: Dżunglowy knefel
+  acacia_button: Agacowy knefel
+  dark_oak_button: Ćmawodymbowy knefel
+  crimson_button: Szkarłŏtny knefel
+  warped_button: Szagi knefel
+  polished_blackstone_button: Wyglancōwany czorniŏkowy knefel
+  anvil: Ambos
+  chipped_anvil: Uszczyrbany ambos
+  damaged_anvil: Poprzniōny ambos
+  trapped_chest: Paść-kastla
+  light_weighted_pressure_plate: Lekŏ klikwoga
+  heavy_weighted_pressure_plate: Ciyńszkŏ klikwoga
+  daylight_detector: Synsōr jasnŏka
+  redstone_block: Blok rudziŏka
+  nether_quartz_ore: Ruda kworcu
+  hopper: Lyjok
+  chiseled_quartz_block: Ôciosany blok kworcu
+  quartz_block: Blok kworcu
+  quartz_bricks: Kwŏrcŏwe cygłōwki
+  quartz_pillar: Kworcowy filorek
+  quartz_stairs: Kworcowe schodki
+  activator_rail: Aktiwacyjne glajzy
+  dropper: Podŏwocz
+  white_terracotta: Bjołŏ kamiōnka
+  orange_terracotta: Oranżowŏ kamiōnka
+  magenta_terracotta: Karminowŏ kamiōnka
+  light_blue_terracotta: Jasnomodrŏ kamiōnka
+  yellow_terracotta: Żołtŏ kamiōnka
+  lime_terracotta: Limōnkowŏ kamiōnka
+  pink_terracotta: Rōżŏwŏ kamiōnka
+  gray_terracotta: Szadŏ kamiōnka
+  light_gray_terracotta: Jasnoszadŏ kamiōnka
+  cyan_terracotta: Azurowŏ kamiōnka
+  purple_terracotta: Lilowŏ kamiōnka
+  blue_terracotta: Modrŏ kamiōnka
+  brown_terracotta: Brunatnŏ kamiōnka
+  green_terracotta: Źielōnŏ kamiōnka
+  red_terracotta: Czerwōnŏ kamiōnka
+  black_terracotta: Czornŏ kamiōnka
+  barrier: Baryjera
+  iron_trapdoor: Żylaznŏ szłapa
+  hay_block: Bal siana
+  white_carpet: Bjoły tepich
+  orange_carpet: Oranżowy tepich
+  magenta_carpet: Karminowy tepich
+  light_blue_carpet: Jasnomodry tepich
+  yellow_carpet: Żołty tepich
+  lime_carpet: Limōnkowy tepich
+  pink_carpet: Rōżowy tepich
+  gray_carpet: Szady tepich
+  light_gray_carpet: Jasnoszady tepich
+  cyan_carpet: Azurowy tepich
+  purple_carpet: Lilowy tepich
+  blue_carpet: Modry tepich
+  brown_carpet: Brunatny tepich
+  green_carpet: Zielōny tepich
+  red_carpet: Czerwōny tepich
+  black_carpet: Czorny tepich
+  terracotta: Kamiōnka
+  coal_block: Blok wōngla
+  packed_ice: Strzaskany lōd
+  acacia_stairs: Agacowe schodki
+  dark_oak_stairs: Ćmawodymbowe schodki
+  slime_block: Szlōmblok
+  grass_path: Trŏwjastŏ cesta
+  sunflower: Zonynbluma
+  lilac: Bez
+  rose_bush: Krzok rŏzy
+  peony: Piwowońka
+  tall_grass: Wysokŏ trŏwa
+  large_fern: Srogo paprotka
+  white_stained_glass: Bjołe szkło
+  orange_stained_glass: Oranżowe szkło
+  magenta_stained_glass: Karminowe szkło
+  light_blue_stained_glass: Jasnomodre szkło
+  yellow_stained_glass: Żołte szkło
+  lime_stained_glass: Limōnkowe szkło
+  pink_stained_glass: Rōżŏwe szkło
+  gray_stained_glass: Szade szkło
+  light_gray_stained_glass: Jasnoszade szkło
+  cyan_stained_glass: Azurowe szkło
+  purple_stained_glass: Lilowe szkło
+  blue_stained_glass: Modre szkło
+  brown_stained_glass: Brunatne szkło
+  green_stained_glass: Zielōne szkło
+  red_stained_glass: Czyrwōne szkło
+  black_stained_glass: Czorne szkło
+  white_stained_glass_pane: Bjołŏ szyba
+  orange_stained_glass_pane: Oranżowŏ szyba
+  magenta_stained_glass_pane: Karminowŏ szyba
+  light_blue_stained_glass_pane: Jasnomodrŏ szyba
+  yellow_stained_glass_pane: Żołtŏ szyba
+  lime_stained_glass_pane: Limōnkowŏ szyba
+  pink_stained_glass_pane: Rōżowŏ szyba
+  gray_stained_glass_pane: Szadŏ szyba
+  light_gray_stained_glass_pane: Jasnoszadŏ szyba
+  cyan_stained_glass_pane: Azurowŏ szyba
+  purple_stained_glass_pane: Lilowŏ szyba
+  blue_stained_glass_pane: Modrŏ szyba
+  brown_stained_glass_pane: Brunatnŏ szyba
+  green_stained_glass_pane: Zielōnŏ szyba
+  red_stained_glass_pane: Czerwonŏ szyba
+  black_stained_glass_pane: Czornŏ szyba
+  prismarine: Prizmarin
+  prismarine_bricks: Prizmarinŏwe cygłōwki
+  dark_prismarine: Ćmawy prizmarin
+  prismarine_stairs: Prizmarinowe schodki
+  prismarine_brick_stairs: Schodki ze prizmarinowych cygłōwek
+  dark_prismarine_stairs: Ćmawe prizmarinowe schodki
+  sea_lantern: Morskŏ latarniŏ
+  red_sandstone: Czyrwōny pjoskowjec
+  chiseled_red_sandstone: Ôciosany czyrwōny pjoskowjec
+  cut_red_sandstone: Pokroty czerwōny pjoskowjec
+  red_sandstone_stairs: Schodki ze czerwonygo pjoskowca
+  repeating_command_block: Tuplowaty blok kōmynd
+  chain_command_block: Ketowaty blok kōmynd
+  magma_block: Blok magmy
+  nether_wart_block: Blok netherowyj chrosty
+  warped_wart_block: Blok szagiyj chrosty
+  red_nether_bricks: Czerwōne netherowe cygłōwki
+  bone_block: Blok kostyry
+  structure_void: Prōżniŏ strukturalnŏ
+  observer: Detektōr
+  shulker_box: Shulkerowŏ kastla
+  white_shulker_box: Bjołŏ shulkerowŏ kastla
+  orange_shulker_box: Oranżowŏ shulkerowŏ kastla
+  magenta_shulker_box: Karminowŏ shulkerowŏ kastla
+  light_blue_shulker_box: Jasnomodrŏ shulkerowŏ kastla
+  yellow_shulker_box: Żołtŏ shulkerowŏ kastla
+  lime_shulker_box: Limōnkowŏ shulkerowŏ kastla
+  pink_shulker_box: Rōżŏwŏ shulkerowŏ kastla
+  gray_shulker_box: Szadŏ shulkerowŏ kastla
+  light_gray_shulker_box: Jasnoszadŏ shulkerowŏ kastla
+  cyan_shulker_box: Azurowŏ shulkerowŏ kastla
+  purple_shulker_box: Lilowŏ shulkerowŏ kastla
+  blue_shulker_box: Modrŏ shulkerowŏ kastla
+  brown_shulker_box: Brunatnŏ shulkerowŏ kastla
+  green_shulker_box: Źielōnŏ shulkerowŏ kastla
+  red_shulker_box: Czerwōnŏ shulkerowŏ kastla
+  black_shulker_box: Czornŏ shulkerowŏ kastla
+  white_glazed_terracotta: Bjołŏ glazōwanŏ kamiōnka
+  orange_glazed_terracotta: Oranżowŏ glazōwanŏ kamiōnka
+  magenta_glazed_terracotta: Karminowŏ glazōwanŏ kamiōnka
+  light_blue_glazed_terracotta: Jasnomodrŏ glazōwanŏ kamiōnka
+  yellow_glazed_terracotta: Żołtŏ glazōwanŏ kamiōnka
+  lime_glazed_terracotta: Limōnkowŏ glazōwanŏ kamiōnka
+  pink_glazed_terracotta: Rōżŏwŏ glazōwanŏ kamiōnka
+  gray_glazed_terracotta: Szadŏ glazōwanŏ kamiōnka
+  light_gray_glazed_terracotta: Jasnoszadŏ glazōwanŏ kamiōnka
+  cyan_glazed_terracotta: Azurowŏ glazōwanŏ kamiōnka
+  purple_glazed_terracotta: Lilowŏ glazōwanŏ kamiōnka
+  blue_glazed_terracotta: Modrŏ glazōwanŏ kamiōnka
+  brown_glazed_terracotta: Brunatnŏ glazōwanŏ kamiōnka
+  green_glazed_terracotta: Źielōnŏ glazōwanŏ kamiōnka
+  red_glazed_terracotta: Czerwōnŏ glazōwanŏ kamiōnka
+  black_glazed_terracotta: Czornŏ glazōwanŏ kamiōnka
+  white_concrete: Bjoły bytōn
+  orange_concrete: Oranżowy bytōn
+  magenta_concrete: Karminowy bytōn
+  light_blue_concrete: Jasnomodry bytōn
+  yellow_concrete: Żołty bytōn
+  lime_concrete: Limōnkowy bytōn
+  pink_concrete: Rōżŏwy bytōn
+  gray_concrete: Szady bytōn
+  light_gray_concrete: Jasnoszady bytōn
+  cyan_concrete: Azurowy bytōn
+  purple_concrete: Lilowy bytōn
+  blue_concrete: Modry bytōn
+  brown_concrete: Brunatny bytōn
+  green_concrete: Źielōny bytōn
+  red_concrete: Czerwōny bytōn
+  black_concrete: Czorny bytōn
+  white_concrete_powder: Bjoły cymynt
+  orange_concrete_powder: Oranżowy cymynt
+  magenta_concrete_powder: Karminowy cymynt
+  light_blue_concrete_powder: Jasnomodry cymynt
+  yellow_concrete_powder: Żołty cymynt
+  lime_concrete_powder: Limŏnkowy cymynt
+  pink_concrete_powder: Rōżŏwy cymynt
+  gray_concrete_powder: Szady cymynt
+  light_gray_concrete_powder: Jasnoszady cymynt
+  cyan_concrete_powder: Azurowy cymynt
+  purple_concrete_powder: Lilowy cymynt
+  blue_concrete_powder: Modry cymynt
+  brown_concrete_powder: Brunatny cymynt
+  green_concrete_powder: Źielōny cymynt
+  red_concrete_powder: Czerwōny cymynt
+  black_concrete_powder: Czorny cymynt
+  turtle_egg: Jajco żōłwia
+  dead_tube_coral_block: Blok pōmrzytygŏ kōrola rułowatygo
+  dead_brain_coral_block: Blok pōmrzytygŏ kōrola mōzgowygŏ
+  dead_bubble_coral_block: Blok pōmrzytygŏ kōrola bōmblōwatygŏ
+  dead_fire_coral_block: Blok pōmrzytygŏ kōrola ôgniŏwygŏ
+  dead_horn_coral_block: Blok pōmrzytygŏ kōrola rōgatygŏ
+  tube_coral_block: Blok kōrola rułowatygŏ
+  brain_coral_block: Blok kōrola mōzgowygŏ
+  bubble_coral_block: Blok kōrola bōmblōwatygŏ
+  fire_coral_block: Blok kōrola ôgniŏwygŏ
+  horn_coral_block: Blok kōrola rōgatygŏ
+  tube_coral: Kōrol rułowaty
+  brain_coral: Kōrol mōzgowy
+  bubble_coral: Kōrol bōmblowy
+  fire_coral: Kōrol ôgniŏwy
+  horn_coral: Kōrol rōgaty
+  dead_brain_coral: Pōmrzyty kōrol mōzgowy
+  dead_bubble_coral: Pōmrzyty kōrol bōmblōwaty
+  dead_fire_coral: Pōmrzyty kōrol ôgniŏwy
+  dead_horn_coral: Pōmrzyty kōrol rōgaty
+  dead_tube_coral: Pōmrzyty kōrol rułowaty
+  tube_coral_fan: Wachlŏrz kōrola rułowatygŏ
+  brain_coral_fan: Wachlŏrz kōrola mōzgowygŏ
+  bubble_coral_fan: Wachlŏrz kōrola bōmblōwatygŏ
+  fire_coral_fan: Wachlŏrz kōrola ôgniŏwygŏ
+  horn_coral_fan: Wachlŏrz kōrola rōgatygŏ
+  dead_tube_coral_fan: Pōmrzyty wachlŏrz kōrola rułowatygŏ
+  dead_brain_coral_fan: Pōmrzyty wachlŏrz kōrola mōzgowygŏ
+  dead_bubble_coral_fan: Pōmrzyty wachlŏrz kōrola bōmblōwatygŏ
+  dead_fire_coral_fan: Pōmrzyty wachlŏrz kōrola ôgniŏwygŏ
+  dead_horn_coral_fan: Pōmrzyty wachlŏrz kōrola rōgatygŏ
+  blue_ice: Modry lōd
+  conduit: Konduktor
+  polished_granite_stairs: Schodki ze wyglancōwanygŏ granitu
+  smooth_red_sandstone_stairs: Schodki ze śliskiygŏ czyrwōnygŏ pjoskŏwca
+  mossy_stone_brick_stairs: Schodki ze zamszōnych kamjynnych cygłōwek
+  polished_diorite_stairs: Schodki ze wyglancōwanygŏ dyjorytu
+  mossy_cobblestone_stairs: Schodki ze zamszōnyj kostki
+  end_stone_brick_stairs: Schodki ze kamjynnych endowych cygłōwek
+  stone_stairs: Kamjynne schodki
+  smooth_sandstone_stairs: Schodki ze śliskiygŏ pjoskŏwca
+  smooth_quartz_stairs: Schodki ze śliskiygŏ kworcu
+  granite_stairs: Granitowe schodki
+  andesite_stairs: Andezitŏwe schodki
+  red_nether_brick_stairs: Schodki ze czyrwōnyj netherowyj cygłōwki
+  polished_andesite_stairs: Schodki ze wyglancōwanygŏ andezitu
+  diorite_stairs: Schodki ze dyjorytu
+  polished_granite_slab: Kachla ze wyglancōwanygŏ granitu
+  smooth_red_sandstone_slab: Kachla ze śliskiygŏ czyrwōnygŏ pjoskŏwca
+  mossy_stone_brick_slab: Kachla ze zamszōnych kamjynnych cygłōwek
+  polished_diorite_slab: Kachla ze wyglancōwanygŏ dyjorytu
+  mossy_cobblestone_slab: Kachla ze zamszōnyj kostki
+  end_stone_brick_slab: Kachla ze kamjynnych endowych cygłōwek
+  smooth_sandstone_slab: Kachla ze śliskiygŏ pjoskŏwca
+  smooth_quartz_slab: Kachla ze śliskiygŏ kworcu
+  granite_slab: Granitowŏ kachla
+  andesite_slab: Andezitowŏ kachla
+  red_nether_brick_slab: Kachla ze czyrwōnyj netherowyj cygłōwki
+  polished_andesite_slab: Kachla ze wyglancōwanygŏ andezitu
+  diorite_slab: Dyjorytŏwŏ kachla
+  scaffolding: Rusztōnek
+  iron_door: Żylazne dźwiyrza
+  oak_door: Dymbowe dźwiyrza
+  spruce_door: Smrekowe dźwiyrza
+  birch_door: Brzeźne dźwiyrza
+  jungle_door: Dżunglowe dźwiyrza
+  acacia_door: Agacowe dźwiyrza
+  dark_oak_door: Ćmawodymbowe dźwiyrza
+  crimson_door: Szkarłŏtne dźwiyrza
+  warped_door: Szage dźwiyrza
+  repeater: Przekŏźnik
+  comparator: Kōmparatōr
+  structure_block: Blok struktur
+  jigsaw: Blok łōmigōwyk
+  turtle_helmet: Żōłwiŏ szupa
+  scute: Ôsłōnka
+  flint_and_steel: Fojercok
+  apple: Płōnka
+  bow: Bōgyn
+  arrow: Szczała
+  coal: Wōngel
+  charcoal: Drzewny wōngel
+  diamond: Dyjomynt
+  iron_ingot: Szynka żylŏza
+  gold_ingot: Szynka zôta
+  netherite_ingot: Szynka netheritu
+  netherite_scrap: Netheritowy klamor
+  wooden_sword: Drzewny mjycz
+  wooden_shovel: Drzewnŏ szipa
+  wooden_pickaxe: Drzewnŏ haka
+  wooden_axe: Drzewnŏ cieślica
+  wooden_hoe: Drzewnŏ kōpaczka
+  stone_sword: Kamjynny mjycz
+  stone_shovel: Kamjynnŏ szipa
+  stone_pickaxe: Kamjynnŏ haka
+  stone_axe: Kamjynnŏ cieślica
+  stone_hoe: Kamjynnŏ kōpaczka
+  golden_sword: Zôty mjycz
+  golden_shovel: Zôtŏ szipa
+  golden_pickaxe: Zôtŏ haka
+  golden_axe: Zôtŏ cieślica
+  golden_hoe: Zôtŏ kōpaczka
+  iron_sword: Żylŏzny mjycz
+  iron_shovel: Żylŏznŏ szipa
+  iron_pickaxe: Żylŏznŏ haka
+  iron_axe: Żylŏznŏ cieślica
+  iron_hoe: Żyloznŏ kōpaczka
+  diamond_sword: Dyjomyntowy mjycz
+  diamond_shovel: Dyjomyntowŏ szipa
+  diamond_pickaxe: Dyjomyntowŏ haka
+  diamond_axe: Dyjomyntowŏ cieślica
+  diamond_hoe: Dyjomyntowŏ kōpaczka
+  netherite_sword: Netheritowy mjycz
+  netherite_shovel: Netheritowŏ szipa
+  netherite_pickaxe: Netheritowŏ haka
+  netherite_axe: Netheritowŏ cieślica
+  netherite_hoe: Netheritowŏ kōpaczka
+  stick: Kijok
+  bowl: Waszpek
+  mushroom_stew: Zupa grziybowŏ
+  string: Nitka
+  feather: Pjyrze
+  gunpowder: Proch
+  wheat_seeds: Ôsucie ôbiyli
+  wheat: Ôbiyli
+  bread: Chlyb
+  leather_helmet: Skōrzanŏ czopka
+  leather_chestplate: Skōrzanŏ jakla
+  leather_leggings: Skōrzane galoty
+  leather_boots: Skōrzane szczewiki
+  chainmail_helmet: Szupny hyłm
+  chainmail_chestplate: Szupny kirys
+  chainmail_leggings: Szupne galŏty
+  chainmail_boots: Szupne szczewiki
+  iron_helmet: Żylŏzny hyłm
+  iron_chestplate: Żylŏzny kirys
+  iron_leggings: Żylŏzne galoty
+  iron_boots: Żylŏzne szczewiki
+  diamond_helmet: Dyjomyntowy hyłm
+  diamond_chestplate: Dyjomyntŏwy kirys
+  diamond_leggings: Dyjomyntŏwe galoty
+  diamond_boots: Dyjomyntŏwe bōty
+  golden_helmet: Zôty hyłm
+  golden_chestplate: Zôty kirys
+  golden_leggings: Zôte galoty
+  golden_boots: Zôte bōty
+  netherite_helmet: Netheritowy hyłm
+  netherite_chestplate: Netheritowy kirys
+  netherite_leggings: Netheritowe galŏty
+  netherite_boots: Netheritowe bōty
+  flint: Krzemjyń
+  porkchop: Surowy sznycel
+  cooked_porkchop: Pieczōny sznycel
+  painting: Ôbrŏz
+  golden_apple: Zôtŏ płōnka
+  enchanted_golden_apple: Zamagōwanŏ zôtŏ płōnka
+  oak_sign: Dymbŏwy znŏk
+  spruce_sign: Smrekŏwy znŏk
+  birch_sign: Brzeźny znŏk
+  jungle_sign: Dżunglŏwy znŏk
+  acacia_sign: Agacŏwy znŏk
+  dark_oak_sign: Ćmawodymbŏwy znŏk
+  crimson_sign: Szkarłŏtny znŏk
+  warped_sign: Szagi znŏk
+  bucket: Kibel
+  water_bucket: Kibel ze wodōm
+  lava_bucket: Kibel ze lawōm
+  minecart: Wagōn
+  saddle: Zic
+  redstone: Utrzyty rudziŏk
+  snowball: Śniyżka
+  oak_boat: Dymbowy korab
+  leather: Skōra
+  milk_bucket: Kibel mlyka
+  pufferfish_bucket: Kibel ze balorybōm
+  salmon_bucket: Kibel ze łosōsiym
+  cod_bucket: Kibel ze wōntuszym
+  tropical_fish_bucket: Kibel ze dżunglowōm rybōm
+  brick: Cygłōwka
+  clay_ball: Bal bōncu
+  dried_kelp_block: Blok wyschnytych algōw
+  paper: Papjōr
+  book: Ksiōnżka
+  slime_ball: Szlōmkula
+  chest_minecart: Wagōn ze kastlōm
+  furnace_minecart: Damfmaszyna
+  egg: Jajco
+  compass: Kōmpas
+  fishing_rod: Wyndka
+  clock: Zygor
+  glowstone_dust: Proch ze blyndoka
+  cod: Surowy wōntusz
+  salmon: Surowy łosōś
+  tropical_fish: Dżunglowŏ ryba
+  pufferfish: Baloryba
+  cooked_cod: Pieczōny wōntusz
+  cooked_salmon: Pieczōny łosōś
+  ink_sac: Miech ze tintōm
+  cocoa_beans: Ôsucie kakaôwe
+  lapis_lazuli: Lazurit
+  white_dye: Bjołŏ barwiczka
+  orange_dye: Oranżowŏ barwiczka
+  magenta_dye: Karminowŏ farbiczka
+  light_blue_dye: Jasnomodrŏ barwiczka
+  yellow_dye: Żōłtŏ barwiczka
+  lime_dye: Limōnkowŏ barwiczka
+  pink_dye: Rōżŏwŏ barwiczka
+  gray_dye: Szadŏ barwiczka
+  light_gray_dye: Jasnoszadŏ barwiczka
+  cyan_dye: Azurowŏ barwiczka
+  purple_dye: Lilowŏ barwiczka
+  blue_dye: Mŏdrŏ barwiczka
+  brown_dye: Brunŏtnŏ barwiczka
+  green_dye: Źielōnŏ barwiczka
+  red_dye: Czyrwōnŏ barwiczka
+  black_dye: Czornŏ barwiczka
+  bone_meal: Kostyrnŏ mōnczkŏ
+  bone: Kostyra
+  sugar: Cuker
+  cake: Torta
+  white_bed: Bjołe lyże
+  orange_bed: Oranżowe lyże
+  magenta_bed: Karminowe lyże
+  light_blue_bed: Jasnomodre lyże
+  yellow_bed: Żołte lyże
+  lime_bed: Limōnkowe lyże
+  pink_bed: Rōżowe lyże
+  gray_bed: Szade lyże
+  light_gray_bed: Jasnoszade lyże
+  cyan_bed: Azurowe lyże
+  purple_bed: Lilowe lyże
+  blue_bed: Modre lyże
+  brown_bed: Brunatne lyże
+  green_bed: Źielōne lyże
+  red_bed: Czerwōne lyże
+  black_bed: Czorne lyże
+  cookie: Kyjks
+  filled_map: Karta
+  shears: Szery
+  melon_slice: Kōnsek arbuza
+  dried_kelp: Suszonŏ alga
+  pumpkin_seeds: Ôsucie bani
+  melon_seeds: Ôsucie arbuza
+  beef: Surowŏ ôwiyzna
+  cooked_beef: Stek
+  chicken: Surowy kurzik
+  cooked_chicken: Pieczōny kurzik
+  rotten_flesh: Zgyrōwane mjynsŏ
+  ender_pearl: Endowŏ byrka
+  blaze_rod: Flamŏkowy prōntek
+  ghast_tear: Płaczka ghasta
+  gold_nugget: Kōnsek zôta
+  nether_wart: Netherowŏ chrosta
+  potion: Wywōr
+  glass_bottle: Flaszka
+  spider_eye: Ślypie pajōnka
+  fermented_spider_eye: Zgyrōwane ślypie pajōnka
+  blaze_powder: Flamŏkowy pulwer
+  magma_cream: Magmōwy krym
+  brewing_stand: Sztynder do warzyniŏ
+  cauldron: Kastrol
+  ender_eye: Ślypie Endu
+  glistering_melon_slice: Zôtawy kōnsek arbuza
+  bat_spawn_egg: Jajco ze gacopjyrzym
+  bee_spawn_egg: Jajco ze binōm
+  blaze_spawn_egg: Jajco ze flamŏkiym
+  cat_spawn_egg: Jajco ze kotym
+  cave_spider_spawn_egg: Jajco ze jaskińōwym pajōnkiym
+  chicken_spawn_egg: Jajco ze kurzikiym
+  cod_spawn_egg: Jajco ze wōntuszym
+  cow_spawn_egg: Jajco ze kalymbōm
+  creeper_spawn_egg: Jajco ze creeperem
+  dolphin_spawn_egg: Jajco ze dylfinym
+  donkey_spawn_egg: Jajco ze ôsłym
+  drowned_spawn_egg: Jajco ze utopkiym
+  elder_guardian_spawn_egg: Jajco ze chańdownym wachtyrzym
+  enderman_spawn_egg: Jajco ze endermonym
+  endermite_spawn_egg: Jajco ze endermitym
+  evoker_spawn_egg: Jajco ze guślŏrzym
+  fox_spawn_egg: Jajco z liszkōm
+  ghast_spawn_egg: Jajco ze Dōchym
+  guardian_spawn_egg: Jajco ze wachtyrzym
+  hoglin_spawn_egg: Jajco ze hoglinym
+  horse_spawn_egg: Jajco ze kōniym
+  husk_spawn_egg: Jajco ze zdechlŏkiym
+  llama_spawn_egg: Jajco ze lamōm
+  magma_cube_spawn_egg: Jajco ze magmŏkiym
+  mooshroom_spawn_egg: Jajco ze mooshroomym
+  mule_spawn_egg: Jajco ze mōłym
+  ocelot_spawn_egg: Jajco ze ôcylotym
+  panda_spawn_egg: Jajco ze pandōm
+  parrot_spawn_egg: Jajco ze papagajym
+  phantom_spawn_egg: Jajco ze fantōmym
+  pig_spawn_egg: Jajco ze świniokiym
+  piglin_spawn_egg: Jajco ze piglinym
+  piglin_brute_spawn_egg: Jajco ze piglinym chwantym
+  pillager_spawn_egg: Jajco ze rōmplym
+  polar_bear_spawn_egg: Jajco ze śniygŏwym ńydźwjydźym
+  pufferfish_spawn_egg: Jajco ze balorybōm
+  rabbit_spawn_egg: Jajco ze mycŏkiym
+  ravager_spawn_egg: Jajco ze poprzniyciylym
+  salmon_spawn_egg: Jajco ze łosōsiym
+  sheep_spawn_egg: Jajco ze ôwcōm
+  shulker_spawn_egg: Jajco ze shulkerym
+  silverfish_spawn_egg: Jajco ze strzibnorybōm
+  skeleton_spawn_egg: Jajco ze szkeletym
+  skeleton_horse_spawn_egg: Jajco ze kōniym szkeletym
+  slime_spawn_egg: Jajco ze szlamym
+  spider_spawn_egg: Jajco ze pajōnkiym
+  squid_spawn_egg: Jajco ze kalmŏrzym
+  stray_spawn_egg: Jajco ze łazyngōm
+  strider_spawn_egg: Jajco ze magmŏkiym
+  trader_llama_spawn_egg: Jajco z lamōm handlyrza
+  tropical_fish_spawn_egg: Jajco ze dżunglowōm rybōm
+  turtle_spawn_egg: Jajco ze żōłwiym
+  vex_spawn_egg: Jajco ze żgŏczym
+  villager_spawn_egg: Jajco ze siedlŏkiym
+  vindicator_spawn_egg: Jajco ze zymściciylym
+  wandering_trader_spawn_egg: Jajco z wandrownym handlyrzym
+  witch_spawn_egg: Jajco ze heksōm
+  wither_skeleton_spawn_egg: Jajco ze witherowym szkeletym
+  wolf_spawn_egg: Jajco ze wilkiym
+  zoglin_spawn_egg: Jajco ze zoglinym
+  zombie_spawn_egg: Jajco ze zōmbiokiym
+  zombie_horse_spawn_egg: Jajco ze kōniym zōmbiokiym
+  zombie_villager_spawn_egg: Jajco ze siedlŏkiym-zōmbiŏkiym
+  zombified_piglin_spawn_egg: Jajco ze piglinym-zōmbiŏkiym
+  experience_bottle: Zamagōwanŏ flaszka
+  fire_charge: Ôgnisty bal
+  writable_book: Ksiōnżka ze filokem
+  written_book: Szrajbnytŏ ksiōnżka
+  emerald: Szmarogd
+  item_frame: Roma na klamoty
+  flower_pot: Dōniczka
+  carrot: Markew
+  potato: Kartofel
+  baked_potato: Pieczōny kartofel
+  poisonous_potato: Potruty kartofel
+  map: Prōżnŏ karta
+  golden_carrot: Zôtŏ markew
+  skeleton_skull: Czacha szkeleta
+  wither_skeleton_skull: Czacha witherowygŏ szkeleta
+  player_head: Gowa grŏcza
+  zombie_head: Gowa zōmbiaka
+  creeper_head: Gowa creepera
+  dragon_head: Gowa draka
+  carrot_on_a_stick: Markew na kijoku
+  warped_fungus_on_a_stick: Szagi grzib na kijŏku
+  nether_star: Netherowŏ gwjŏzdŏ
+  pumpkin_pie: Kołŏcz ze bani
+  firework_rocket: Fojerwerka
+  firework_star: Fojerwekowŏ gwiŏzdka
+  enchanted_book: Zamagōwanŏ ksiōnżka
+  nether_brick: Netherowe cygłōwki
+  quartz: Kworc
+  tnt_minecart: Wagōn ze TNT
+  hopper_minecart: Wagōn ze lyjokiym
+  prismarine_shard: Szkyrtek prizmarinu
+  prismarine_crystals: Krysztoły prizmarinu
+  rabbit: Surowy mycŏk
+  cooked_rabbit: Pieczōny mycŏk
+  rabbit_stew: Ańtop ze mycŏka
+  rabbit_foot: Szłapka mycŏka
+  rabbit_hide: Skora mycŏka
+  armor_stand: Stojŏk na zbrojŏ
+  iron_horse_armor: Żylŏznŏ kōńskŏ zbrojŏ
+  golden_horse_armor: Zôtŏ kōńskŏ zbrojŏ
+  diamond_horse_armor: Dyjomyntowŏ kōńskŏ zbrojŏ
+  leather_horse_armor: Skōrzannŏ kōńskŏ zbroja
+  lead: Smycz
+  name_tag: Znocznik
+  command_block_minecart: Wagōn ze blokiym kōmynd
+  mutton: Surowŏ szkopina
+  cooked_mutton: Pieczōnŏ szkopina
+  white_banner: Bjołŏ fana
+  orange_banner: Oranżowŏ fana
+  magenta_banner: Karminowŏ fana
+  light_blue_banner: Jasnomodrŏ fana
+  yellow_banner: Żōłtŏ fana
+  lime_banner: Limōnkowŏ fana
+  pink_banner: Rōżŏwŏ fana
+  gray_banner: Szadŏ fana
+  light_gray_banner: Jasnoszadŏ fana
+  cyan_banner: Azurowŏ fana
+  purple_banner: Lilowŏ fana
+  blue_banner: Modrŏ fana
+  brown_banner: Brunatnŏ fana
+  green_banner: Zielōnŏ fana
+  red_banner: Czerwōnŏ fana
+  black_banner: Czornŏ fana
+  end_crystal: Krysztoł Endu
+  chorus_fruit: Ôwŏc refrynki
+  popped_chorus_fruit: Pieczka refrynki
+  beetroot: Ćwikla
+  beetroot_seeds: Ôsucie ćwikly
+  beetroot_soup: Ćwikelzupa
+  dragon_breath: Dech draka
+  splash_potion: Ciepany wywōr
+  spectral_arrow: Blinkowŏ szczała
+  tipped_arrow: Tōnknytŏ szczała
+  lingering_potion: Kurzwywōr
+  shield: Powynż
+  elytra: Krzidła
+  spruce_boat: Smrekowy korab
+  birch_boat: Brzeźny korab
+  jungle_boat: Dżunglowy korab
+  acacia_boat: Agacowy korab
+  dark_oak_boat: Ćmawodymbowy korab
+  totem_of_undying: Totym niyśmiyrtelności
+  shulker_shell: Szupa shulkera
+  iron_nugget: Kōnsek żylŏzŏ
+  knowledge_book: Yncyklopedyjŏ
+  debug_stick: Kobyr dŏ ôdłōnaczaniŏ
+  music_disc_13: Dysketka
+  music_disc_cat: Dysketka
+  music_disc_blocks: Dysketka
+  music_disc_chirp: Dysketka
+  music_disc_far: Dysketka
+  music_disc_mall: Dysketka
+  music_disc_mellohi: Dysketka
+  music_disc_stal: Dysketka
+  music_disc_strad: Dysketka
+  music_disc_ward: Dysketka
+  music_disc_11: Dysketka
+  music_disc_wait: Dysketka
+  music_disc_pigstep: Dysketka
+  trident: Trzizōmb
+  phantom_membrane: Błōna fantōma
+  nautilus_shell: Szupa łodzika
+  heart_of_the_sea: Syrce Ôcyjonu
+  crossbow: Kusza
+  suspicious_stew: Podyjzdrzany ańtop
+  loom: Sztrekmaszina
+  flower_banner_pattern: Wzōr fany
+  creeper_banner_pattern: Wzōr fany
+  skull_banner_pattern: Wzōr fany
+  mojang_banner_pattern: Wzōr fany
+  globe_banner_pattern: Wzōr fany
+  piglin_banner_pattern: Wzōr fany
+  composter: Hasiok
+  barrel: Faska
+  smoker: Wyndzŏk
+  blast_furnace: Martin
+  cartography_table: Kartografowy stōł
+  fletching_table: Stōł dŏ szczał
+  grindstone: Brusek
+  lectern: Sztynder
+  smithing_table: Kŏwŏczowy stōł
+  stonecutter: Krajzyga
+  bell: Zwōn
+  lantern: Blyndka
+  soul_lantern: Blyndka dusz
+  sweet_berries: Słodke borōwki
+  campfire: Fojera
+  soul_campfire: Fojera dusz
+  shroomlight: Blyndogrzib
+  honeycomb: Miodny ślyzyk
+  bee_nest: Gniŏzdo binōw
+  beehive: Binehaus
+  honey_bottle: Flaszka miodu
+  honey_block: Blok miodu
+  honeycomb_block: Blok ślyzykōw miodu
+  lodestone: Magnetit
+  netherite_block: Blok netheritu
+  ancient_debris: Dŏwny ściep
+  target: Tarcza
+  crying_obsidian: Płaczkowy ôbsydjōn
+  blackstone: Czorniŏk
+  blackstone_slab: Czorniŏkowŏ kachla
+  blackstone_stairs: Czorniŏkowe schodki
+  gilded_blackstone: Zôcōny czorniŏk
+  polished_blackstone: Wyglancōwany czorniŏk
+  polished_blackstone_slab: Wyglancōwanŏ czorniŏkowŏ kachla
+  polished_blackstone_stairs: Wyglancōwane czorniŏkowe schodki
+  chiseled_polished_blackstone: Ôciosany wyglancōwany czorniŏk
+  polished_blackstone_bricks: Wyglancōwane czorniŏkowe cygłōwki
+  polished_blackstone_brick_slab: Wyglancōwanŏ czorniŏkowŏ cyglōwkowŏ kachla
+  polished_blackstone_brick_stairs: Wyglancōwane czorniŏkowe cygłōwkowe schodki
+  cracked_polished_blackstone_bricks: Pynknyte wyglancōwane czorniŏkowe cygłōwki
+  respawn_anchor: Ankra ôdrŏdzyniŏ
+  water: Woda
+  lava: Lawŏ
+  tall_seagrass: Wysokŏ trŏwa morskŏ
+  piston_head: Gowica pistōnu
+  moving_piston: Kludzōny blok
+  wall_torch: Ściynnŏ fakla
+  fire: Ôgiyń
+  soul_fire: Ôgiyń dusz
+  redstone_wire: Rudziŏkŏwy przewōd
+  oak_wall_sign: Dymbŏwy ściynny znŏk
+  spruce_wall_sign: Smrekŏwy ściynny znŏk
+  birch_wall_sign: Brzeźny ściynny znŏk
+  acacia_wall_sign: Agacŏwy ściynny znŏk
+  jungle_wall_sign: Dżunglŏwy ściynny znŏk
+  dark_oak_wall_sign: Ćmawodymbŏwy ściynny znŏk
+  redstone_wall_torch: Ściynnŏ rudziŏkowŏ fakla
+  soul_wall_torch: Ściynnŏ fakla dusz
+  nether_portal: Netherowy portol
+  attached_pumpkin_stem: Prziłōnczōny sztyngel bani
+  attached_melon_stem: Prziłōnczōny sztyngel arbuzu
+  pumpkin_stem: Sztyngel bani
+  melon_stem: Sztyngel arbuza
+  end_portal: Portol Endu
+  cocoa: Kakau
+  tripwire: Szpagat
+  potted_oak_sapling: Flanca dymbu we fajerce
+  potted_spruce_sapling: Flanca smreku we fajerce
+  potted_birch_sapling: Flanca brzōzki we fajerce
+  potted_jungle_sapling: Dżunglowŏ flanca we fajerce
+  potted_acacia_sapling: Flanca agacy we fajerce
+  potted_dark_oak_sapling: Flanca ćmawygŏ dymbu we fajerce
+  potted_fern: Paprotka we fajerce
+  potted_dandelion: Mlycz we fajerce
+  potted_poppy: Mak we fajerce
+  potted_blue_orchid: Modry storczyk we fajerce
+  potted_allium: Knobloch we fajerce
+  potted_azure_bluet: Azurowŏ houstonia we fajerce
+  potted_red_tulip: Czerwōnŏ tulpa we fajerce
+  potted_orange_tulip: Oranżowŏ tulpa we fajerce
+  potted_white_tulip: Bjołŏ tulpa we fajerce
+  potted_pink_tulip: Rōżôwŏ tulpa we fajerce
+  potted_oxeye_daisy: Gynsipympek we fajerce
+  potted_cornflower: Faber we fajerce
+  potted_lily_of_the_valley: Majowniczek we fajerce
+  potted_wither_rose: Witherrōłza we fajerce
+  potted_red_mushroom: Sromotniŏk we fajerce
+  potted_brown_mushroom: Prawok we fajerce
+  potted_dead_bush: Uschnyty krzok we fajerce
+  potted_cactus: Kaktus we fajerce
+  carrots: Markwie
+  potatoes: Kartofle
+  skeleton_wall_skull: Ściynnŏ czacha szkeleta
+  wither_skeleton_wall_skull: Ściynnŏ czacha witherowygŏ szkeleta
+  zombie_wall_head: Ściynno gowa zōmbioka
+  player_wall_head: Ściynnŏ gowa grŏcza
+  creeper_wall_head: Ściynnŏ gowa creepera
+  dragon_wall_head: Ściynnŏ gowa draka
+  white_wall_banner: Bjołŏ fana
+  orange_wall_banner: Oranżowŏ fana
+  magenta_wall_banner: Karminowŏ fana
+  light_blue_wall_banner: Jasnomodrŏ fana
+  yellow_wall_banner: Żōłtŏ fana
+  lime_wall_banner: Limōnkowŏ fana
+  pink_wall_banner: Rōżŏwŏ fana
+  gray_wall_banner: Szadŏ fana
+  light_gray_wall_banner: Jasnoszadŏ fana
+  cyan_wall_banner: Azurowŏ fana
+  purple_wall_banner: Lilowŏ fana
+  blue_wall_banner: Modrŏ fana
+  brown_wall_banner: Brunatnŏ fana
+  green_wall_banner: Zielōnŏ fana
+  red_wall_banner: Czerwōnŏ fana
+  black_wall_banner: Czornŏ fana
+  beetroots: Ćwikle
+  end_gateway: Ańfart Endu
+  frosted_ice: Zamarznyty lōd
+  kelp_plant: Algowŏ flanca
+  dead_tube_coral_wall_fan: Pōmrzyty wachlŏrz naściynny kōrola rułowatygŏ
+  dead_brain_coral_wall_fan: Pōmrzyty wachlŏrz naściynny kōrola mōzgowygŏ
+  dead_bubble_coral_wall_fan: Pōmrzyty wachlŏrz naściynny kōrola bōmblōwatygŏ
+  dead_fire_coral_wall_fan: Pōmrzyty wachlŏrz naściynny kōrola ôgniŏwygŏ
+  dead_horn_coral_wall_fan: Pōmrzyty wachlŏrz naściynny kōrola rōgatygŏ
+  tube_coral_wall_fan: Wachlŏrz naściynny kōrola rułowatygŏ
+  brain_coral_wall_fan: Wachlŏrz naściynny kōrola mōzgowygŏ
+  bubble_coral_wall_fan: Wachlŏrz naściynny kōrola bōmblōwatygŏ
+  fire_coral_wall_fan: Wachlŏrz naściynny kōrola ôgniŏwygŏ
+  horn_coral_wall_fan: Wachlŏrz naściynny kōrola rōgatygŏ
+  bamboo_sapling: Pynd bambusa
+  potted_bamboo: Bambus we fajerce
+  void_air: Luft prōżnijŏ
+  cave_air: Jaskińŏwy luft
+  bubble_column: Bōmble
+  sweet_berry_bush: Krzŏk słodkich borōwek
+  weeping_vines_plant: Flanca płaczkowych pnōnczy
+  twisting_vines_plant: Flanca skryncōnych pnōnczy
+  crimson_wall_sign: Szkarłŏtny ściynny znŏk
+  warped_wall_sign: Szagi ściynny znŏk
+  potted_crimson_fungus: Szkarłŏtny grzib we fajerce
+  potted_warped_fungus: Szagi grzib we fajerce
+  potted_crimson_roots: Szkarłŏtne korcze we fajerce
+  potted_warped_roots: Szage korcze we fajerce
+  zombie_pigman_spawn_egg: Jajco ze świniokiym zōmbiokiym
+  cactus_green: Kaktusowŏ źielyń
+  dandelion_yellow: Mleczowa żółć
+  rose_red: Rōżanŏ czerwiyń
+  sign: Znŏk
+  wall_sign: Ściynny znŏk
+biome:
+  ocean: Ôcyjon
+  plains: Rōwńije
+  desert: Pustyńijŏ
+  mountains: Wjyrchy
+  forest: Los
+  taiga: Tajgŏ
+  swamp: Barziyny
+  river: Rzyka
+  nether_wastes: Netherowe ustrōńy
+  the_end: End
+  frozen_ocean: Zamarznyty ôcyjon
+  frozen_river: Zamarznytŏ rzyka
+  snowy_tundra: Śniygowŏ tundrŏ
+  snowy_mountains: Śniygowe wjyrchy
+  mushroom_fields: Pola grzibowe
+  mushroom_field_shore: Pobrzeże grzibowych pōl
+  beach: Plaża
+  desert_hills: Pustynne hołdy
+  wooded_hills: Zalysiōne hołdy
+  taiga_hills: Tajgowe hołdy
+  mountain_edge: Kraj wjyrchu
+  jungle: Dżunglŏ
+  jungle_hills: Dżunglowe hołdy
+  jungle_edge: Kraj dżunglŏ
+  deep_ocean: Dymboki ôcyjon
+  stone_shore: Kamjynne pobrzeże
+  snowy_beach: Śniygowŏ plaża
+  birch_forest: Brzezie
+  birch_forest_hills: Brzezinkowe hołdy
+  dark_forest: Ćmawy los
+  snowy_taiga: Śniygowŏ tajgŏ
+  snowy_taiga_hills: Hołdy śniygowyj tajgi
+  giant_tree_taiga: Tajgŏ wielgich stromōw
+  giant_tree_taiga_hills: Tajgowe hołdy wielgich stromōw
+  wooded_mountains: Zalysiōne wjyrchy
+  savanna: Sawana
+  savanna_plateau: Chyża sawany
+  badlands: Ustrōńy
+  wooded_badlands_plateau: Zalysiōne chyża ustroniōw
+  badlands_plateau: Chyża ustroniōw
+  small_end_islands: Endowe wysepki
+  end_midlands: Strzōdźymie Endu
+  end_highlands: Endowe wjyrchy
+  end_barrens: Endowe ustrōńy
+  warm_ocean: Ciepłŏwy ôcyjon
+  lukewarm_ocean: Ciepławy ôcyjon
+  cold_ocean: Ziōmbny ôcyjon
+  deep_warm_ocean: Dymboki gorki ôcyjon
+  deep_lukewarm_ocean: Dymboki ciepławy ôcyjon
+  deep_cold_ocean: Dymboki ziōmbny ôcyjon
+  deep_frozen_ocean: Dymboki zamarznyty ôcyjon
+  the_void: Prōżnota
+  sunflower_plains: Zonynblōmowe rōwńije
+  desert_lakes: Pustynne jeźiora
+  gravelly_mountains: Kisowe wjyrchy
+  flower_forest: Kwiŏtkowy los
+  taiga_mountains: Tajgowe wjyrchy
+  swamp_hills: Barzinŏwe hołdy
+  ice_spikes: Lōdowe szpice
+  modified_jungle: Gōrskŏ dżunglŏ
+  modified_jungle_edge: Krŏj gōrskij dżungli
+  tall_birch_forest: Wysokŏ brzezinka
+  tall_birch_hills: Hołdy wysokiyj brzezinki
+  dark_forest_hills: Dōmbrowe hołdy
+  snowy_taiga_mountains: Śniygowe wjyrchy tajgi
+  giant_spruce_taiga: Tajgŏ wielgich smrekōw
+  giant_spruce_taiga_hills: Tajgowe hołdy wielgich smrekōw
+  modified_gravelly_mountains: Kisowe wjyrchy+
+  shattered_savanna: Poszatkowanŏ sawana
+  shattered_savanna_plateau: Chyża poszatkownyj sawany
+  eroded_badlands: Zwiytrzałe ustrōńy
+  modified_wooded_badlands_plateau: Gōrskŏ zalysiōnŏ chyża ustroniōw
+  modified_badlands_plateau: Gōrskŏ chyża ustroniōw
+  bamboo_jungle: Bambusowŏ dżunglŏ
+  bamboo_jungle_hills: Bambusowe hołdy
+  soul_sand_valley: Zagłymbie dusz
+  crimson_forest: Szkarłŏtny las
+  warped_forest: Szagi las
+  basalt_deltas: Bazŏltŏwe uścia
+  nether: Nether
+enchantment:
+  fire_protection: Ôgniŏôbstōńy
+  sharpness: Ôstrŏść
+  flame: Pōmjyń
+  soul_speed: Drapkość dusz
+  aqua_affinity: W gorkiyj wodzie kōmpany
+  punch: Fanga
+  loyalty: Wjernŏść
+  depth_strider: Głymbinowy wandrus
+  vanishing_curse: Przirok podzianiŏ
+  unbreaking: Ńyzhuntŏwnŏść
+  knockback: Ôdciep
+  luck_of_the_sea: Morske darziyńy
+  binding_curse: Przirok pomŏtlania
+  fortune: Darziyńy
+  protection: Ôchrōna
+  efficiency: Ôbrotność
+  mending: Sprŏwunek
+  frost_walker: Zmarznyty łazik
+  lure: Podkłŏdek
+  looting: Habjyńy
+  piercing: Przeżgańy
+  blast_protection: Ôchrōna przed abszusym
+  smite: Tympiciyl
+  multishot: Mockaszczał
+  fire_aspect: Zaklynty ôgiyń
+  channeling: Blicszlag
+  sweeping: Szyrokŏ szpica
+  thorns: Ôżyny
+  bane_of_arthropods: Mora chrobŏkōw
+  respiration: Dychańy
+  riptide: Wrŏcajōncŏ wela
+  silk_touch: Jedbŏwne tykanie
+  quick_charge: Gibke nabićy
+  projectile_protection: Ôchrōna przed szustami
+  impaling: Przebodnyćy
+  feather_falling: Ôpaterne padniyńcie
+  power: Siyła
+  infinity: Ńyskōnczōnŏść
+potion:
+  uncraftable: Ńyzłōnaczalny wywōr
+  water: Flaszka wody
+  mundane: Mdły wywōr
+  thick: Gynsty wywōr
+  awkward: Ciyrpki wywōr
+  night_vision: Wywōr widziyniŏ w ćmie
+  invisibility: Wywōr ńywidzianości
+  jump: Wywōr hibu
+  fire_resistance: Wywōr ôgniŏôbstōniŏ
+  speed: Wywōr gibkości
+  slowness: Wywōr spōmalyniŏ
+  water_breathing: Wywōr dychaniŏ pŏd wodōm
+  instant_heal: Wywōr lykōwaniŏ
+  instant_damage: Wywōr harataniŏ
+  poison: Potruty wywōr
+  regen: Wywōr regeneracyjŏ
+  strength: Wywōr siyły
+  weakness: Wywōr słaboty
+  luck: Wywōr szczynściŏ
+  turtle_master: Wywōr żōłwiygŏ majstra
+  slow_falling: Wywōr lekkygŏ slatywaniŏ
+splash_potion:
+  uncraftable: Ciepany ńyzłōnaczalny wywōr
+  water: Ciepanŏ flaszka wody
+  mundane: Ciepany mdły wywōr
+  thick: Gynsty ciepany wywōr
+  awkward: Ciepany ciyrpki wywōr
+  night_vision: Ciepany wywōr widziyniŏ w ćmie
+  invisibility: Ciepany wywōr ńywidzianości
+  jump: Ciepany wywōr hibu
+  fire_resistance: Ciepany wywōr ôgniŏôbstōniŏ
+  speed: Ciepany wywōr gibkości
+  slowness: Ciepany wywōr spōmalyniŏ
+  water_breathing: Ciepany wywōr dychaniŏ pod wodōm
+  instant_heal: Ciepany wywōr lykōwaniŏ
+  instant_damage: Ciepany wywōr harataniŏ
+  poison: Ciepany wywōr zajadzyniŏ
+  regen: Ciepany wywōr regeneracyjŏ
+  strength: Ciepany wywōr siyły
+  weakness: Ciepany wywōr słaboty
+  luck: Ciepany wywōr szczynściŏ
+  turtle_master: Ciepany wywōr żōłwiygŏ majstra
+  slow_falling: Ciepany wywōr lekkygŏ slatywaniŏ
+lingering_potion:
+  uncraftable: Ńyzłōnaczalny kurzwywōr
+  water: Flaszka kurzowyj wody
+  mundane: Ciepany mdły kurzwywōr
+  thick: Gynsty kurzwywōr
+  awkward: Ciepany ciyrpki kurzwywōr
+  night_vision: Ciepany kurzwywōr widziyniŏ w ćmie
+  invisibility: Kurzwywōr ńywidzianości
+  jump: Kurzwywōr hibu
+  fire_resistance: Kurzwywōr ôgniŏôbstōniŏ
+  speed: Kurzwywōr gibkości
+  slowness: Kurzwywōr spōmalyniŏ
+  water_breathing: Kurzwywōr dychaniŏ pod wodōm
+  instant_heal: Kurzwywōr lykōwaniŏ
+  instant_damage: Kurzwywōr harataniŏ
+  poison: Potruty kurzwywōr
+  regen: Kurzwywōr regeneracyjŏ
+  strength: Kurzwywōr siyły
+  weakness: Kurzwywōr słaboty
+  luck: Kurzwywōr szczynściŏ
+  turtle_master: Kurzwywōr żōłwiygŏ majstra
+  slow_falling: Kurzwywōr lekkygŏ slatywaniŏ
+tipped_arrow:
+  uncraftable: Ńyzłōnaczalnŏ tōnknytŏ szczała
+  water: Szczała ciŏplaniŏ
+  mundane: Tōnknytŏ szczała
+  thick: Tōnknytŏ szczała
+  awkward: Tōnknytŏ szczała
+  night_vision: Szczała widzyniŏ w ćmie
+  invisibility: Szczała ńywidzianości
+  jump: Szczała hibu
+  fire_resistance: Szczała ôgniŏôbstōniŏ
+  speed: Szczała gibkości
+  slowness: Szczałŏ spōmalyniŏ
+  water_breathing: Szczała dychaniŏ pod wodōm
+  instant_heal: Szczała lykōwaniŏ
+  instant_damage: Szczała harataniŏ
+  poison: Szczała zajadzyniŏ
+  regen: Szczała regeneracyjŏ
+  strength: Szczała siyły
+  weakness: Szczała słaboty
+  luck: Szczała szczynściŏ
+  turtle_master: Szczała żōłwiygŏ majstra
+  slow_falling: Szczała polekkygŏ slatywaniŏ
+entity:
+  dropped_item: Klamot
+  experience_orb: Kula yksperiyncyjŏ
+  area_effect_cloud: Ôbłŏk wywōru
+  elder_guardian: Chańdowny wachtyrz
+  wither_skeleton: Witherowy szkelet
+  stray: Łazynga
+  egg: Ciepnyte jajco
+  leash_hitch: Knŏtyl szpagatu
+  painting: Ôbrŏz
+  arrow: Szczała
+  snowball: Śniyżka
+  fireball: Ôgniobal
+  small_fireball: Mały ôgniobal
+  ender_pearl: Ciepnytŏ pyrła Endu
+  ender_signal: Ślypie Endu
+  splash_potion: Wywōr
+  thrown_exp_bottle: Ciepnytŏ zamagōwanŏ flaszka
+  item_frame: Roma na klamoty
+  wither_skull: Czacha withera
+  primed_tnt: Ôdpalōne TNT
+  falling_block: Slatujōncy blok
+  firework: Fojerwerka
+  husk: Zdechlŏk
+  spectral_arrow: Blinkowŏ szczała
+  shulker_bullet: Patrony shulkera
+  dragon_fireball: Ôgniŏkula draka
+  zombie_villager: Siedlok-zōmbiŏk
+  skeleton_horse: Kōń-szkelet
+  zombie_horse: Kōń-zōmbiok
+  armor_stand: Stojŏl na zbrojŏ
+  donkey: Ôsioł
+  mule: Mōł
+  evoker_fangs: Gryzŏk guślŏrza
+  evoker: Guślŏrz
+  vex: Żgŏcz
+  vindicator: Zymściciyl
+  illusioner: Iluzyjōnyr
+  minecart_command: Wagōn ze blokiym kōmynd
+  boat: Korab
+  minecart: Wagōn
+  minecart_chest: Wagōn ze kastlōm
+  minecart_furnace: Damfmaszyna
+  minecart_tnt: Wagōn ze TNT
+  minecart_hopper: Wagōn ze lyjokiym
+  minecart_mob_spawner: Wagōn ze łōnacznikiym
+  creeper: Creeper
+  skeleton: Szkelet
+  spider: Pajōnk
+  giant: Kaban
+  zombie: Zombiok
+  slime: Szlōm
+  ghast: Ghast
+  zombified_piglin: Ńyumrzity wieprzōń
+  enderman: Endermon
+  cave_spider: Jaskiniŏwy pajōnk
+  silverfish: Strzibnoryba
+  blaze: Flamŏk
+  magma_cube: Magmŏk
+  ender_dragon: Drak Endu
+  wither: Wither
+  bat: Gacopjyrz
+  witch: Heksa
+  endermite: Endermit
+  guardian: Wachtyrz
+  shulker: Shulker
+  pig: Świniŏk
+  sheep: Ôwca
+  cow: Kalymba
+  chicken: Kurzik
+  squid: Kalmŏrz
+  wolf: Wilk
+  mushroom_cow: Mooshroom
+  snowman: Śniygŏwy golym
+  ocelot: Ôcylot
+  iron_golem: Żylŏżny golym
+  horse: Kōń
+  rabbit: Mycŏk
+  polar_bear: Śniygŏwy ńydźwjydź
+  llama: Lama
+  llama_spit: Chark lamy
+  parrot: Papagaj
+  villager: Siedlok
+  ender_crystal: Krysztoł Endu
+  turtle: Żōłw
+  phantom: Fantōm
+  trident: Trzizōmb
+  cod: Wōntusz
+  salmon: Łosōś
+  pufferfish: Baloryba
+  tropical_fish: Dżunglowŏ ryba
+  drowned: Utopek
+  dolphin: Dylfin
+  cat: Kot
+  panda: Panda
+  pillager: Rōmpel
+  ravager: Poprzniyciyl
+  trader_llama: Lama handlyrza
+  wandering_trader: Wandrowny handlyrz
+  fox: Liszka
+  bee: Bina
+  hoglin: Hoglin
+  piglin: Piglin
+  strider: Magmŏk
+  zoglin: Zoglin
+  piglin_brute: Wieprzōń chwant
+  fishing_hook: Spłowik
+  lightning: Blysk
+  player: Grŏcz
+  pig_zombie: Świniŏk-zōmbiŏk
+effect:
+  speed: Drapkość
+  slow: Spomalyńy
+  fast_digging: Giybnycie
+  slow_digging: Wyplōmpańy
+  increase_damage: Siyła
+  heal: Zarŏzkowe lykōwańy
+  harm: Ôrŏzkŏwe ôchybiyniŏ
+  jump: Zwiynkszōny hib
+  confusion: Morzysko
+  regeneration: Regeneracyjŏ
+  damage_resistance: Ôbstōńy
+  fire_resistance: Ôbstōńy na ôgiyń
+  water_breathing: Dychańy pod wodōm
+  invisibility: Ńywidzianość
+  blindness: Blyndōwańy
+  night_vision: Widzynie po ćmoku
+  hunger: Głōd
+  weakness: Słabota
+  poison: Zajadzyńy
+  wither: Wither
+  health_boost: Zwiynkszynie zdrowiŏ
+  absorption: Absorbcyjŏ
+  saturation: Sycyńy
+  glowing: Blyndōwańy
+  levitation: Lewitacyjŏ
+  luck: Szczynście
+  unluck: Pech
+  slow_falling: Lekkiy slatywańy
+  conduit_power: Moc konduktora
+  dolphins_grace: Dylfiniŏ przisługa
+  bad_omen: Ôkropicznŏ przepowiydź
+  hero_of_the_village: Bohatyr wjoski
+tropical_fish_type:
+  kob: Kulbŏk
+  sunstreak: Zôtka
+  snooper: Sznupŏcz
+  dasher: Lotŏcz
+  brinely: Słōnka
+  spotty: Flekownica
+  flopper: Tŏplŏcz
+  stripey: Dynga
+  glitter: Blyndka
+  blockfish: Bloczka
+  betty: Wojŏk
+  clayfish: Bōncka
+dye_color:
+  white: Bjoły
+  orange: Oranżowy
+  magenta: Karminowy
+  light_blue: Jasnomodry
+  yellow: Żōłty
+  lime: Limōnkowy
+  pink: Rōżowy
+  gray: Szady
+  light_gray: Jasnoszady
+  cyan: Azurowy
+  purple: Lilowy
+  blue: Modry
+  brown: Brunatny
+  green: Źielōny
+  red: Czerwōny
+  black: Czorny
+named:
+  player_head_named: Gowa %s
+  potion_with_amplifier: '%s %s'
+  potion_with_duration: '%s (%s)'
+  unknown_enchantment: 'Ńyznany czŏr: %s'
+  unknown_entity: 'Ńyznony byt: %s'
+  unknown_effect: 'Ńyznony efykt: %s'
+tropical_fish_name:
+  '117506305': Bozynek
+  '117899265': Bodlok czorny
+  '185008129': Bodlok modry
+  '117441793': Ryba-szmaterlok
+  '118161664': Piastnica
+  '65536': Bozynek
+  '50726144': Wojŏk szumny
+  '67764993': Diodymek
+  '234882305': Kłapŏcz cysŏrski
+  '67110144': Farbyna
+  '117441025': Maurytek
+  '16778497': Szkōtŏryba
+  '101253888': Papagajoryba
+  '50660352': Krōlōwka rzynsatŏ
+  '918529': Czerwōnŏ piastnica
+  '235340288': Kiōłzka czyrwōnŏgymbŏ
+  '918273': Lucyjŏnek czerwōny
+  '67108865': Wiciŏk
+  '917504': Bozynek tōmatowy
+  '459008': Kostyrka
+  '67699456': Papagajoryba żōłto
+  '67371009': Bodlok żōłty
+colored_shied:
+  white: Bjołŏ powynż
+  orange: Oranżowŏ powynż
+  magenta: Karminowŏ powynż
+  light_blue: Jasnomodrŏ powynż
+  yellow: Żōłtŏ powynż
+  lime: Limōnkowŏ powynż
+  pink: Rōżŏwŏ powynż
+  gray: Szadŏ powynż
+  light_gray: Jasnoszadŏ powynż
+  cyan: Azurowŏ powynż
+  purple: Lilowŏ powynż
+  blue: Modrŏ powynż
+  brown: Brunatnŏ powynż
+  green: Zielōnŏ powynż
+  red: Czerwōnŏ powynż
+  black: Czornŏ powynż
+banner_pattern:
+  '65536': Bjołŏ spodniŏ lewŏ ćwierć
+  '65537': Oranżowŏ spodniŏ lewŏ ćwierć
+  '65538': Karminowŏ spodniŏ lewŏ ćwierć
+  '65539': Jasnomodrŏ spodniŏ lewŏ ćwierć
+  '65540': Żōłtŏ spodniŏ lewŏ ćwierć
+  '65541': Limōnkowŏ spodniŏ lewŏ ćwierć
+  '65542': Rōżŏwŏ spodniŏ lewŏ ćwierć
+  '65543': Szadŏ spodniŏ lewŏ ćwierć
+  '65544': Jasnoszadŏ spodniŏ lewŏ ćwierć
+  '65545': Azurowŏ spodniŏ lewŏ ćwierć
+  '65546': Lilowŏ spodniŏ lewŏ ćwierć
+  '65547': Modrŏ spodniŏ lewŏ ćwierć
+  '65548': Brunatnŏ spodniŏ lewŏ ćwierć
+  '65549': Źielōnŏ spodniŏ lewŏ ćwierć
+  '65550': Czerwōnŏ spodniŏ lewŏ ćwierć
+  '65551': Czornŏ spodniŏ lewŏ ćwierć
+  '131072': Bjołŏ spodniŏ prawŏ ćwierć
+  '131073': Oranżowŏ spodniŏ prawŏ ćwierć
+  '131074': Karminowŏ spodniŏ prawŏ ćwierć
+  '131075': Jasnomodrŏ spodniŏ prawŏ ćwierć
+  '131076': Żōłtŏ spodniŏ prawŏ ćwierć
+  '131077': Limōnkowŏ spodniŏ prawŏ ćwierć
+  '131078': Rōżŏwŏ spodniŏ prawŏ ćwierć
+  '131079': Szadŏ spodniŏ prawŏ ćwierć
+  '131080': Jasnoszadŏ spodniŏ prawŏ ćwierć
+  '131081': Azurowŏ spodniŏ prawŏ ćwierć
+  '131082': Lilowŏ spodniŏ prawŏ ćwierć
+  '131083': Modrŏ spodniŏ prawŏ ćwierć
+  '131084': Brunatnŏ spodniŏ prawŏ ćwierć
+  '131085': Źielōnŏ spodniŏ prawŏ ćwierć
+  '131086': Czerwōnŏ spodniŏ prawŏ ćwierć
+  '131087': Czornŏ spodniŏ prawŏ ćwierć
+  '196608': Bjołŏ wierzchniŏ lewŏ ćwierć
+  '196609': Oranżowŏ wierzchniŏ lewŏ ćwierć
+  '196610': Karminowŏ wierzchniŏ lewŏ ćwierć
+  '196611': Jasnomodrŏ wierzchniŏ lewŏ ćwierć
+  '196612': Żōłtŏ wierzchniŏ lewŏ ćwierć
+  '196613': Limōnkowŏ wierzchniŏ lewŏ ćwierć
+  '196614': Rōżŏwŏ wierzchniŏ lewŏ ćwierć
+  '196615': Szadŏ wierzchniŏ lewŏ ćwierć
+  '196616': Jasnoszadŏ wierzchniŏ lewŏ ćwierć
+  '196617': Azurowŏ wierzchniŏ lewŏ ćwierć
+  '196618': Lilowŏ wierzchniŏ lewŏ ćwierć
+  '196619': Modrŏ wierzchniŏ lewŏ ćwierć
+  '196620': Brunatnŏ wierzchniŏ lewŏ ćwierć
+  '196621': Źielōnŏ wierzchniŏ lewŏ ćwierć
+  '196622': Czerwōnŏ wierzchniŏ lewŏ ćwierć
+  '196623': Czornŏ wierzchniŏ lewŏ ćwierć
+  '262144': Bjołŏ wierzchniŏ prawŏ ćwierć
+  '262145': Oranżowŏ wierzchniŏ prawŏ ćwierć
+  '262146': Karminowŏ wierzchniŏ prawŏ ćwierć
+  '262147': Jasnomodrŏ wierzchniŏ prawŏ ćwierć
+  '262148': Żōłtŏ wierzchniŏ prawŏ ćwierć
+  '262149': Limōnkowŏ wierzchniŏ prawŏ ćwierć
+  '262150': Rōżŏwŏ wierzchniŏ prawŏ ćwierć
+  '262151': Szadŏ wierzchniŏ prawŏ ćwierć
+  '262152': Jasnoszadŏ wierzchniŏ prawŏ ćwierć
+  '262153': Azurowŏ wierzchniŏ prawŏ ćwierć
+  '262154': Lilowŏ wierzchniŏ prawŏ ćwierć
+  '262155': Modrŏ wierzchniŏ prawŏ ćwierć
+  '262156': Brunatnŏ wierzchniŏ prawŏ ćwierć
+  '262157': Źielōnŏ wierzchniŏ prawŏ ćwierć
+  '262158': Czerwōnŏ wierzchniŏ prawŏ ćwierć
+  '262159': Czornŏ wierzchniŏ prawŏ ćwierć
+  '327680': Bjoły grōnt
+  '327681': Oranżowy grōnt
+  '327682': Karminowy grōnt
+  '327683': Jasnomodry grōnt
+  '327684': Żōłty grōnt
+  '327685': Limōnkowy grōnt
+  '327686': Rōżŏwy grōnt
+  '327687': Szady grōnt
+  '327688': Jasnoszady grōnt
+  '327689': Azurowy grōnt
+  '327690': Lilowy grōnt
+  '327691': Modry grōnt
+  '327692': Brunatny grōnt
+  '327693': Zielōny grōnt
+  '327694': Czerwōny grōnt
+  '327695': Czorny grōnt
+  '393216': Bjoły wjyrch
+  '393217': Oranżowy wjyrch
+  '393218': Karminowy wjyrch
+  '393219': Jasnomodry wjyrch
+  '393220': Żōłty wjyrch
+  '393221': Limōnkowy wjyrch
+  '393222': Rōżŏwy wjyrch
+  '393223': Szady wjyrch
+  '393224': Jasnoszady wjyrch
+  '393225': Azurowy wjyrch
+  '393226': Lilowy wjyrch
+  '393227': Modry wjyrch
+  '393228': Brunatny wjyrch
+  '393229': Źielōny wjyrch
+  '393230': Czerwōny wjyrch
+  '393231': Czorny wjyrch
+  '458752': Bjŏły lewy krŏj
+  '458753': Orańżŏwy lewy krŏj
+  '458754': Karminŏwy lewy krŏj
+  '458755': Jasnomodry lewy krŏj
+  '458756': Żōłty lewy krŏj
+  '458757': Limōnkŏwy lewy krŏj
+  '458758': Rōżŏwy lewy krŏj
+  '458759': Szady lewy krŏj
+  '458760': Jasnoszady lewy krŏj
+  '458761': Ażurowy lewy krŏj
+  '458762': Lilowy lewy krŏj
+  '458763': Modry lewy krŏj
+  '458764': Brunŏtny lewy krŏj
+  '458765': Zielōny lewy krŏj
+  '458766': Czerwōny lewy krŏj
+  '458767': Czorny lewy krŏj
+  '524288': Bjŏły prawy krŏj
+  '524289': Oranżŏwy prawy krŏj
+  '524290': Karminŏwy prawy krŏj
+  '524291': Jasnomodry prawy krŏj
+  '524292': Żōłty prawy krŏj
+  '524293': Limōnkŏwy prawy krŏj
+  '524294': Rōżŏwy prawy krŏj
+  '524295': Szady prawy krŏj
+  '524296': Jasnoszady prawy krŏj
+  '524297': Ażurŏwy prawy krŏj
+  '524298': Lilowy prawy krŏj
+  '524299': Modry prawy krŏj
+  '524300': Brunŏtny prawy krŏj
+  '524301': Zielōny prawy krŏj
+  '524302': Czerwōny prawy krŏj
+  '524303': Czorny prawy krŏj
+  '589824': Bjoły palik
+  '589825': Oranżowy palik
+  '589826': Karminowy palik
+  '589827': Jasnomodry palik
+  '589828': Żōłty palik
+  '589829': Limōnkowy palik
+  '589830': Rōżŏwy palik
+  '589831': Szady palik
+  '589832': Jasnoszady palik
+  '589833': Azurowy palik
+  '589834': Lilowy palik
+  '589835': Modry palik
+  '589836': Brunatny palik
+  '589837': Zielōny palik
+  '589838': Czerwōny palik
+  '589839': Czorny palik
+  '655360': Bjŏły poziōmy pas
+  '655361': Oranżowy poziōmy pas
+  '655362': Karminowy poziōmy pas
+  '655363': Jasnomodry poziōmy pas
+  '655364': Żōłty poziōmy pas
+  '655365': Limōnkowy poziōmy pas
+  '655366': Rōżowy poziōmy pas
+  '655367': Szady poziōmy pas
+  '655368': Jasnoszady poziōmy pas
+  '655369': Ażurowy poziōmy pas
+  '655370': Lilowy poziōmy pas
+  '655371': Modry poziōmy pas
+  '655372': Brunatny poziōmy pas
+  '655373': Zielōny poziōmy pas
+  '655374': Czerwōny poziōmy pas
+  '655375': Czorny poziōmy pas
+  '720896': Bjŏły prawy szryk
+  '720897': Oranżowy prawy szryk
+  '720898': Karminŏwy prawy szryk
+  '720899': Jasnomŏdry prawy szryk
+  '720900': Żōłty prawy szryk
+  '720901': Limōnkŏwy prawy szryk
+  '720902': Rōżŏwy prawy szryk
+  '720903': Szady prawy szryk
+  '720904': Jasnoszady prawy szryk
+  '720905': Ażurŏwy prawy szryk
+  '720906': Lilowy prawy szryk
+  '720907': Modry prawy szryk
+  '720908': Brunŏtny prawy szryk
+  '720909': Zielōny prawy szryk
+  '720910': Czerwōny prawy szryk
+  '720911': Czorny prawy szryk
+  '786432': Bjŏły lewy szryk
+  '786433': Oranżŏwy lewy szryk
+  '786434': Karminŏwy lewy szryk
+  '786435': Jasnomŏdry lewy szryk
+  '786436': Żōłty lewy szryk
+  '786437': Limōnkŏwy lewy szryk
+  '786438': Rōżŏwy lewy szryk
+  '786439': Szady lewy szryk
+  '786440': Jasnoszady lewy szryk
+  '786441': Mŏdry lewy szryk
+  '786442': Lilowy lewy szryk
+  '786443': Modry lewy szryk
+  '786444': Brunŏtny lewy szryk
+  '786445': Zielōny lewy szryk
+  '786446': Czerwōny lewy szryk
+  '786447': Czorny lewy szryk
+  '851968': Bjŏłe pŏsy
+  '851969': Oranżŏwy pŏsy
+  '851970': Karminŏwy pŏsy
+  '851971': Jasnomŏdre pŏsy
+  '851972': Żōłte pŏsy
+  '851973': Limōnkowe pŏsy
+  '851974': Rōżŏwe pŏsy
+  '851975': Szade pŏsy
+  '851976': Jasnoszade pŏsy
+  '851977': Ażurŏwe pŏsy
+  '851978': Lilowe pŏsy
+  '851979': Modre pŏsy
+  '851980': Brunŏtne pŏsy
+  '851981': Zielōne pŏsy
+  '851982': Czerwōny pŏsy
+  '851983': Czorne pŏsy
+  '917504': Bjŏły szagi krziż
+  '917505': Oranżowy szagi krziż
+  '917506': Karminowy szagi krziż
+  '917507': Jasnomodry szagi krziż
+  '917508': Żōłty szagi krziż
+  '917509': Limōnkowy szagi krziż
+  '917510': Rōżowy szagi krziż
+  '917511': Szady szagi krziż
+  '917512': Jasnoszady szagi krziż
+  '917513': Ażurowy szagi krziż
+  '917514': Lilowy szagi krziż
+  '917515': Modry szagi krziż
+  '917516': Brunatny szagi krziż
+  '917517': Zielōny szagi krziż
+  '917518': Czerwōny szagi krziż
+  '917519': Czorny szagi krziż
+  '983040': Bjoły krziż
+  '983041': Oranżowy krziż
+  '983042': Karminowy krziż
+  '983043': Jasnomodry krziż
+  '983044': Żōłty krziż
+  '983045': Limōnkowy krziż
+  '983046': Rōżŏwy krziż
+  '983047': Szady krziż
+  '983048': Jasnoszady krziż
+  '983049': Azurowy krziż
+  '983050': Lilowy krziż
+  '983051': Modry krziż
+  '983052': Brunatny krziż
+  '983053': Źielōny krziż
+  '983054': Czerōwny krziż
+  '983055': Czorny krziż
+  '1048576': Bjołŏ krokwia
+  '1048577': Oranżowŏ krokwia
+  '1048578': Karminowŏ krokwia
+  '1048579': Jasnomodrŏ krokwia
+  '1048580': Żōłtŏ krokwia
+  '1048581': Limōnkowŏ krokwia
+  '1048582': Rōżŏwŏ krokwia
+  '1048583': Szadŏ krokwia
+  '1048584': Jasnoszadŏ krokwia
+  '1048585': Azurowŏ krokwia
+  '1048586': Lilowŏ krokwia
+  '1048587': Modrŏ krokwia
+  '1048588': Brunŏtnŏ krokwia
+  '1048589': Źielōnŏ krokwia
+  '1048590': Czerwōnŏ krokwia
+  '1048591': Czŏrnŏ krokwia
+  '1114112': Bjołŏ ôbrōcōnŏ krokwia
+  '1114113': Oranżowŏ ôbrōcōnŏ krokwia
+  '1114114': Karminowŏ ôbrōcōnŏ krokwia
+  '1114115': Jasnomodrŏ ôbrōcōnŏ krokwia
+  '1114116': Żōłtŏ ôbrōcōnŏ krokwia
+  '1114117': Limōnkowŏ ôbrōcōnŏ krokwia
+  '1114118': Rōżŏwŏ ôbrōcōnŏ krokwia
+  '1114119': Szadŏ ôbrōcōnŏ krokwia
+  '1114120': Jasnoszadŏ ôbrōcōnŏ krokwia
+  '1114121': Azurowŏ ôbrōcōnŏ krokwia
+  '1114122': Lilowŏ ôbrōcōnŏ krokwia
+  '1114123': Modrŏ ôbrōcōnŏ krokwia
+  '1114124': Brunŏtnŏ ôbrōcōnŏ krokwia
+  '1114125': Źielōnŏ ôbrōcōnŏ krokwia
+  '1114126': Czerwōnŏ ôbrōcōnŏ krokwia
+  '1114127': Czornŏ ôbrōcōnŏ krokwia
+  '1179648': Bjołŏ zōmbkowanŏ baza
+  '1179649': Oranżowŏ zōmbkowanŏ baza
+  '1179650': Karminowŏ zōmbkowanŏ baza
+  '1179651': Jasnomodrŏ zōmbkowanŏ baza
+  '1179652': Żōłtŏ zōmbkowanŏ baza
+  '1179653': Limōnkowŏ zōmbkowanŏ baza
+  '1179654': Rōżŏwŏ zōmbkowanŏ baza
+  '1179655': Szadŏ zōmbkowanŏ baza
+  '1179656': Jasnoszadŏ zōmbkowanŏ baza
+  '1179657': Azurowŏ zōmbkowanŏ baza
+  '1179658': Lilowŏ zōmbkowanŏ baza
+  '1179659': Modrŏ zōmbkowanŏ baza
+  '1179660': Brunŏtnŏ zōmbkowanŏ baza
+  '1179661': Źielōnŏ zōmbkowanŏ baza
+  '1179662': Czerwōnŏ zōmbkowanŏ baza
+  '1179663': Czornŏ zōmbkowanŏ baza
+  '1245184': Bjŏłŏ zōmbkowanŏ gowiczka
+  '1245185': Oranżowŏ zōmbkowanŏ gowiczka
+  '1245186': Karminowŏ zōmbkowanŏ gowiczka
+  '1245187': Jasnomŏdrŏ zōmbkowanŏ gowiczka
+  '1245188': Żōłtŏ zōmbkowanŏ gowiczka
+  '1245189': Limōnkowŏ zōmbkowanŏ gowiczka
+  '1245190': Rōżowŏ zōmbkowanŏ gowiczka
+  '1245191': Szadŏ
+  '1245192': Jasnoszadŏ zōmbkowanŏ gowiczka
+  '1245193': Ażurowŏ zōmbkowanŏ gowiczka
+  '1245194': Lilowŏ zōmbkowanŏ gowiczka
+  '1245195': Modrŏ zōmbkowanŏ gowiczka
+  '1245196': Brunŏtnŏ zōmbkowanŏ gowiczka
+  '1245197': Zielōnŏ zōmbkowanŏ gowiczka
+  '1245198': Czerwōnŏ zōmbkowanŏ gowiczka
+  '1245199': Czornŏ zōmbkowanŏ gowiczka
+  '1310720': Bjŏłŏ szagŏ lewŏ wjyrchnŏ połōwka
+  '1310721': Oranżŏwy szagŏ lewŏ wjyrchnŏ połōwka
+  '1310722': Karminowŏ szagŏ lewŏ wjyrchnŏ połōwka
+  '1310723': Jasnomŏdrŏ szagŏ lewŏ wjyrchnŏ połōwka
+  '1310724': Żōłtŏ szagŏ lewŏ wjyrchnŏ połōwka
+  '1310725': Limōnkowŏ szagŏ lewŏ wjyrchnŏ połōwka
+  '1310726': Rōżŏwŏ szagŏ lewŏ wjyrchnŏ połōwka
+  '1310727': Szadŏ szagŏ lewŏ wjyrchnŏ połōwka
+  '1310728': Jasnoszadŏ szagŏ lewŏ wjyrchnŏ połōwka
+  '1310729': Ażurowŏ szagŏ lewŏ wjyrchnŏ połōwka
+  '1310730': Lilowŏ szagŏ lewŏ wjyrchnŏ połōwka
+  '1310731': Modrŏ szagŏ lewŏ wjyrchnŏ połōwka
+  '1310732': Brunŏtnŏ szagŏ lewŏ wjyrchnŏ połōwka
+  '1310733': Zielōnŏ szagŏ lewŏ wjyrchnŏ połōwka
+  '1310734': Czerwōnŏ szagŏ lewŏ wjyrchnŏ połōwka
+  '1310735': Czornŏ szagŏ lewŏ wjyrchnŏ połōwka
+  '1376256': Bjŏłŏ szagŏ lewŏ wjyrchnŏ połōwka
+  '1376257': Oranżowŏ szagŏ lewŏ wjyrchnŏ połōwka
+  '1376258': Karminowŏ szagŏ lewŏ wjyrchnŏ połōwka
+  '1376259': Jasnomŏdrŏ szagŏ lewŏ wjyrchnŏ połōwka
+  '1376260': Żōłtŏ szagŏ lewŏ wjyrchnŏ połōwka
+  '1376261': Limōnkowŏ szagŏ lewŏ wjyrchnŏ połōwka
+  '1376262': Rōżŏwŏ szagŏ lewŏ wjyrchnŏ połōwka
+  '1376263': Szadŏ szagŏ lewŏ spodniŏ połōwka
+  '1376264': Jasnoszadŏ szagŏ lewŏ spodniŏ połōwka
+  '1376265': Ażurŏwŏ szagŏ lewŏ spodniŏ połōwka
+  '1376266': Lilowŏ szagŏ lewŏ spodniŏ połōwka
+  '1376267': Mŏdre szagŏ lewŏ spodniŏ połōwka
+  '1376268': Brunŏtnŏ szagŏ lewŏ spodniŏ połōwka
+  '1376269': Zielōnŏ szagŏ lewŏ spodniŏ połōwka
+  '1376270': Czerwōnŏ szagŏ lewŏ spodniŏ połōwka
+  '1376271': Czornŏ szagŏ prawŏ spodniŏ połōwka
+  '1441792': Bjŏłŏ szagŏ lewŏ spodniŏ połōwka
+  '1441793': Oranżowŏ szagŏ lewŏ spodniŏ połōwka
+  '1441794': Karminowŏ szagŏ lewŏ spodniŏ połōwka
+  '1441795': Jasnomŏdrŏ szagŏ lewŏ spodniŏ połōwka
+  '1441796': Żōłtŏ szagŏ lewŏ spodniŏ połōwka
+  '1441797': Limōnkowŏ szagŏ lewŏ spodniŏ połōwka
+  '1441798': Rōżŏwŏ szagŏ lewŏ spodniŏ połōwka
+  '1441799': Szadŏ szagŏ lewŏ spodniŏ połōwka
+  '1441800': Jasnoszadŏ szagŏ lewŏ spodniŏ połōwka
+  '1441801': Ażurowŏ szagŏ lewŏ spodniŏ połōwka
+  '1441802': Lilowŏ szagŏ lewŏ spodniŏ połōwka
+  '1441803': Mŏdrŏ szagŏ lewŏ spodniŏ połōwka
+  '1441804': Brunatnŏ szagŏ lewŏ spodniŏ połōwka
+  '1441805': Zielōnŏ szagŏ lewŏ spodniŏ połōwka
+  '1441806': Czerwōnŏ szagŏ lewŏ spodniŏ połōwka
+  '1441807': Czornŏ szagŏ lewŏ spodniŏ połōwka
+  '1507328': Bjŏłŏ szagŏ prawŏ wjyrchnŏ połōwka
+  '1507329': Oranżowŏ szagŏ prawŏ wjyrchnŏ połōwka
+  '1507330': Karminowŏ szagŏ prawŏ wjyrchnŏ połōwka
+  '1507331': Jasnomŏdre szagŏ prawŏ wjyrchnŏ połōwka
+  '1507332': Żōłtŏ szagŏ prawŏ wjyrchnŏ połōwka
+  '1507333': Limōnkowŏ szagŏ prawŏ wjyrchnŏ połōwka
+  '1507334': Rōżŏwŏ szagŏ prawŏ wjyrchnŏ połōwka
+  '1507335': Szadŏ szagŏ prawŏ wjyrchnŏ połōwka
+  '1507336': Jasnoszadŏ szagŏ prawŏ wjyrchnŏ połōwka
+  '1507337': Ażurŏwy szagŏ prawŏ wjyrchnŏ połōwka
+  '1507338': Lilowŏ szagŏ prawŏ wjyrchnŏ połōwka
+  '1507339': Modrŏ szagŏ prawŏ wjyrchnŏ połōwka
+  '1507340': Brunŏtnŏ szagŏ prawŏ wjyrchnŏ połōwka
+  '1507341': Zielōnŏ szagŏ prawŏ wjyrchnŏ połōwka
+  '1507342': Czerwōnŏ szagŏ prawŏ wjyrchnŏ połōwka
+  '1507343': Czornŏ szagŏ prawŏ wjyrchnŏ połōwka
+  '1572864': Bjołe rōnto
+  '1572865': Oranżowe rōnto
+  '1572866': Karminowe rōnto
+  '1572867': Jasnomodre rōnto
+  '1572868': Żōłte rōnto
+  '1572869': Limōnkowe rōnto
+  '1572870': Rōżŏwe rōnto
+  '1572871': Szade rōnto
+  '1572872': Jasnoszade rōnto
+  '1572873': Azurowe rōnto
+  '1572874': Lilowe rōnto
+  '1572875': Modre rōnto
+  '1572876': Brunŏtne rōnto
+  '1572877': Źielōne rōnto
+  '1572878': Czerwōne rōnto
+  '1572879': Czorne rōnto
+  '1638400': Bjoły rōmb
+  '1638401': Oranżowy rōmb
+  '1638402': Karminowy rōmb
+  '1638403': Jasnomodry rōmb
+  '1638404': Żōłty rōmb
+  '1638405': Limōnkowy rōmb
+  '1638406': Rōżŏwy rōmb
+  '1638407': Szady rōmb
+  '1638408': Jasnoszady rōmb
+  '1638409': Azurowy rōmb
+  '1638410': Lilowy rōmb
+  '1638411': Modry rōmb
+  '1638412': Brunatny rōmb
+  '1638413': Źielōny rōmb
+  '1638414': Czerōwny rōmb
+  '1638415': Czorny rōmb
+  '1703936': Bjołŏ lewŏ połōwka
+  '1703937': Oranżowŏ lewŏ połōwka
+  '1703938': Karminowŏ lewŏ połōwka
+  '1703939': Jasnomodrŏ lewŏ połōwka
+  '1703940': Żōłtŏ lewŏ połōwka
+  '1703941': Limōnkowŏ lewŏ połōwka
+  '1703942': Rōżowŏ lewŏ połōwka
+  '1703943': Szadŏ lewŏ połōwka
+  '1703944': Jasnoszadŏ lewŏ połōwka
+  '1703945': Azurowŏ lewŏ połōwka
+  '1703946': Lilowŏ lewŏ połōwka
+  '1703947': Modrŏ lewŏ połōwka
+  '1703948': Brunatnŏ lewŏ połōwka
+  '1703949': Zielōnŏ lewŏ połōwka
+  '1703950': Czerwōnŏ lewŏ połōwka
+  '1703951': Czornŏ lewŏ połōwka
+  '1769472': Bjołŏ wjyrchnŏ połōwka
+  '1769473': Oranżowŏ wjyrchnŏ połōwka
+  '1769474': Karminowŏ wjyrchnŏ połōwka
+  '1769475': Jasnomodrŏ wjyrchnŏ połōwka
+  '1769476': Żōłtŏ wjyrchnŏ połōwka
+  '1769477': Limōnkowŏ wjyrchnŏ połōwka
+  '1769478': Rōżowŏ wjyrchnŏ połōwka
+  '1769479': Szadŏ wjyrchnŏ połōwka
+  '1769480': Jasnoszadŏ wjyrchnŏ połōwka
+  '1769481': Ażurowŏ wjyrchnŏ połōwka
+  '1769482': Lilowŏ wjyrchnŏ połōwka
+  '1769483': Modrŏ wjyrchnŏ połōwka
+  '1769484': Brunatnŏ wjyrchnŏ połōwka
+  '1769485': Zielōnŏ wjyrchnŏ połōwka
+  '1769486': Czerwōnŏ wjyrchnŏ połōwka
+  '1769487': Czornŏ wjyrchnŏ połōwka
+  '1835008': Bjołŏ prawŏ połōwka
+  '1835009': Oranżowŏ prawŏ połōwka
+  '1835010': Karminowŏ prawŏ połōwka
+  '1835011': Jasnomodrŏ prawŏ połōwka
+  '1835012': Żōłtŏ prawŏ połōwka
+  '1835013': Limōnkowŏ prawŏ połōwka
+  '1835014': Rōżowŏ prawŏ połōwka
+  '1835015': Szadŏ prawŏ połōwka
+  '1835016': Jasnoszadŏ prawŏ połōwka
+  '1835017': Ażurowŏ prawŏ połōwka
+  '1835018': Lilowŏ prawŏ połōwka
+  '1835019': Modrŏ prawŏ połōwka
+  '1835020': Brunatnŏ prawŏ połōwka
+  '1835021': Zielōnŏ prawŏ połōwka
+  '1835022': Czerwōnŏ prawŏ połōwka
+  '1835023': Czornŏ prawŏ połōwka
+  '1900544': Bjołŏ spodniŏ połōwka
+  '1900545': Oranżowŏ spodniŏ połōwka
+  '1900546': Karminowŏ spodniŏ połōwka
+  '1900547': Jasnomodrŏ spodniŏ połōwka
+  '1900548': Żōłtŏ spodniŏ połōwka
+  '1900549': Limōnkowŏ spodniŏ połōwka
+  '1900550': Rōżowŏ spodniŏ połōwka
+  '1900551': Szadŏ spodniŏ połōwka
+  '1900552': Jasnoszadŏ spodniŏ połōwka
+  '1900553': Ażurowŏ spodniŏ połōwka
+  '1900554': Lilowŏ spodniŏ połōwka
+  '1900555': Modrŏ spodniŏ połōwka
+  '1900556': Brunatnŏ spodniŏ połōwka
+  '1900557': Zielōnŏ spodniŏ połōwka
+  '1900558': Czerwōnŏ spodniŏ połōwka
+  '1900559': Czornŏ spodniŏ połōwka
+  '1966080': Bjołe romōwańy
+  '1966081': Oranżowe romōwańy
+  '1966082': Karminowe rōmowańy
+  '1966083': Jasnomodre romōwańy
+  '1966084': Żōłte romōwańy
+  '1966085': Limōnkowe romōwańy
+  '1966086': Rōżŏwe romōwańy
+  '1966087': Szade romōwańy
+  '1966088': Jasnoszade romōwańy
+  '1966089': Azurowe romōwańy
+  '1966090': Lilowe romōwańy
+  '1966091': Modre romōwańy
+  '1966092': Brunatne romōwańy
+  '1966093': Zielōne romōwańy
+  '1966094': Czerwōne romōwańy
+  '1966095': Czorne romōwańy
+  '2031616': Bjołe zōmbkowane romōwańy
+  '2031617': Oranżowe zōmbkowane romōwańy
+  '2031618': Karminowe zōmbkowane romōwańy
+  '2031619': Jasnomodre zōmbkowane romōwańy
+  '2031620': Żōłte zōmbkowane romōwańy
+  '2031621': Limōnkowe zōmbkowane romōwańy
+  '2031622': Rōżowe zōmbkowane romōwańy
+  '2031623': Szade zōmbkowane romōwańy
+  '2031624': Jasnoszade zōmbkowane romōwańy
+  '2031625': Ażurowe zōmbkowane romōwańy
+  '2031626': Lilowe zōmbkowane romōwańy
+  '2031627': Modre zōmbkowane romōwańy
+  '2031628': Brunatne zōmbkowane romōwańy
+  '2031629': Zielōne zōmbkowane romōwańy
+  '2031630': Czerwōne zōmbkowane romōwańy
+  '2031631': Czorne zōmbkowane romōwańy
+  '2097152': Bjŏły creeper
+  '2097153': Oranżowy creeper
+  '2097154': Karmiowy creeper
+  '2097155': Jasnomodry creeper
+  '2097156': Żōłty creeper
+  '2097157': Limōnkowy creeper
+  '2097158': Rōżowy creeper
+  '2097159': Szady creeper
+  '2097160': Jasnoszady creeper
+  '2097161': Ażurowy creeper
+  '2097162': Lilowy creeper
+  '2097163': Modry creeper
+  '2097164': Brunatny creeper
+  '2097165': Zielōny creeper
+  '2097166': Czerwōny creeper
+  '2097167': Czorny creeper
+  '2162688': Bjoły gradjynt
+  '2162689': Oranżowy gradjynt
+  '2162690': Karminowy gradjynt
+  '2162691': Jasnomodry gradjynt
+  '2162692': Żōłty gradjynt
+  '2162693': Limōnkowy gradjynt
+  '2162694': Rōżŏwy gradjynt
+  '2162695': Szady gradjynt
+  '2162696': Jasnoszady gradjynt
+  '2162697': Azurowy gradjynt
+  '2162698': Lilowy gradjynt
+  '2162699': Modry gradjynt
+  '2162700': Brunŏtny gradjynt
+  '2162701': Źielōny gradjynt
+  '2162702': Czerwōny gradjynt
+  '2162703': Czorny gradjynt
+  '2228224': Bjoły ôbrōcōny gradjynt
+  '2228225': Oranżowy ôbrōcōny gradjynt
+  '2228226': Karminowy ôbrōcōny gradjynt
+  '2228227': Jasnomodry ôbrōcōny gradjynt
+  '2228228': Żōłty ôbrōcōny gradjynt
+  '2228229': Limōnkowy ôbrōcōny gradjynt
+  '2228230': Rōżŏwy ôbrōcōny gradjynt
+  '2228231': Szady ôbrōcōny gradjynt
+  '2228232': Jasnoszady ôbrōcōny gradjynt
+  '2228233': Azurowy ôbrōcōny gradjynt
+  '2228234': Lilowy ôbrōcōny gradjynt
+  '2228235': Modry ôbrōcōny gradjynt
+  '2228236': Brunŏtny ôbrōcōny gradjynt
+  '2228237': Źielōny ôbrōcōny gradjynt
+  '2228238': Czerwōny ôbrōcōny gradjynt
+  '2228239': Czorny ôbrōcōny gradjynt
+  '2293760': Bjŏłe murowane pole
+  '2293761': Oranżŏwe murowane pole
+  '2293762': Karminŏwe murowane pole
+  '2293763': Jasnomŏdre murowane pole
+  '2293764': Żōłte murowane pole
+  '2293765': Limōnkŏwe murowane pole
+  '2293766': Rōżŏwe murowane pole
+  '2293767': Szade murowane pole
+  '2293768': Jasnoszade murowane pole
+  '2293769': Ażurŏwe murowane pole
+  '2293770': Lilŏwe murowane pole
+  '2293771': Mŏdre murowane pole
+  '2293772': Brunŏtne murowane pole
+  '2293773': Zielōne murowane pole
+  '2293774': Czerwōne murowane pole
+  '2293775': Czorne murowane pole
+  '2359296': Bjołŏ czacha
+  '2359297': Oranżowŏ czacha
+  '2359298': Karminowŏ czacha
+  '2359299': Jasnomodrŏ czacha
+  '2359300': Żōłtŏ czacha
+  '2359301': Limōnkowŏ czacha
+  '2359302': Rōżŏwŏ czacha
+  '2359303': Szadŏ czacha
+  '2359304': Jasnoszadŏ czacha
+  '2359305': Modrŏ czacha
+  '2359306': Lilowŏ czacha
+  '2359307': Modrŏ czacha
+  '2359308': Brunŏtnŏ czacha
+  '2359309': Źielōnŏ czacha
+  '2359310': Czerwōnŏ czacha
+  '2359311': Czornŏ czacha
+  '2424832': Bjoły kwjot
+  '2424833': Oranżowy kwjot
+  '2424834': Karminowy kwjŏt
+  '2424835': Jasnomodry kwjot
+  '2424836': Żōłty kwjot
+  '2424837': Limōnkowy kwjot
+  '2424838': Rōżŏwy kwjot
+  '2424839': Szady kwjot
+  '2424840': Jasnoszady kwjot
+  '2424841': Azurowy kwjot
+  '2424842': Lilowy kwjot
+  '2424843': Modry kwjot
+  '2424844': Brunatny kwjot
+  '2424845': Zielōny kwjot
+  '2424846': Czerwōny kwjot
+  '2424847': Czorny kwjot
+  '2490368': Bjoły znŏk
+  '2490369': Oranżowy znŏk
+  '2490370': Karminowy znŏk
+  '2490371': Jasnomodry znŏk
+  '2490372': Żōłty znŏk
+  '2490373': Limōnkowy znŏk
+  '2490374': Rōżowy znŏk
+  '2490375': Szady znŏk
+  '2490376': Jasnoszady znŏk
+  '2490377': Azurowy znŏk
+  '2490378': Lilowy znŏk
+  '2490379': Modry znŏk
+  '2490380': Brunŏtny znŏk
+  '2490381': Źielōny znŏk
+  '2490382': Czyrwōny znŏk
+  '2490383': Czorny znŏk
+  '2555904': Biołŏ ziymiokostka
+  '2555905': Oranżowŏ ziymiokostka
+  '2555906': Karminowŏ ziymiokostka
+  '2555907': Jasnomodrŏ ziymiokostka
+  '2555908': Żōłtŏ ziymiokostka
+  '2555909': Limōnkowŏ ziymiokostka
+  '2555910': Rōżowŏ ziymiokostka
+  '2555911': Szadŏ ziymiokostka
+  '2555912': Jasnoszadŏ ziymiokostka
+  '2555913': Azurowŏ ziymokostka
+  '2555914': Lilowŏ ziymokostka
+  '2555915': Modrŏ ziymiokostka
+  '2555916': Brunŏtnŏ ziymiokostka
+  '2555917': Zielōnŏ ziymiokostka
+  '2555918': Czerwōnŏ ziymiokostka
+  '2555919': Czŏrnŏ ziymiokostka
+  '2621440': Bjŏłŏ sznupa
+  '2621441': Oranżowŏ sznupa
+  '2621442': Karminowŏ sznupa
+  '2621443': Jasnomodrŏ sznupa
+  '2621444': Żōłtŏ sznupa
+  '2621445': Limōnkowŏ sznupa
+  '2621446': Rōżowŏ sznupa
+  '2621447': Szadŏ sznupa
+  '2621448': Jasnoszadŏ sznupa
+  '2621449': Azurowŏ sznupa
+  '2621450': Lilowŏ sznupa
+  '2621451': Modrŏ sznupa
+  '2621452': Brunŏtnŏ sznupa
+  '2621453': Zielōnŏ sznupa
+  '2621454': Czerwōnŏ sznupa
+  '2621455': Czŏrnŏ sznupa
+merchant_level:
+  '1': Zaczynajōncy
+  '2': Szkolŏrz
+  '3': Pōmager
+  '4': Fachmōn
+  '5': Majster
+villager_profession:
+  none: Siedlok
+  armorer: Zbrojŏrz
+  butcher: Masorz
+  cartographer: Kartogrof
+  cleric: Farorz
+  farmer: Gospŏdŏrz
+  fisherman: Rybjŏrz
+  fletcher: Szczałŏrz
+  leatherworker: Siodlŏrz
+  librarian: Ksiōnszkŏrz
+  mason: Mulŏrz
+  nitwit: Gupielok
+  shepherd: Ôwcŏrz
+  toolsmith: Norzyndziŏrz
+  weaponsmith: Zbrojmajster
+villager_career:
+  farmer: Gospŏdŏrz
+  fisherman: Rybjŏrz
+  shepherd: Ôwcŏrz
+  fletcher: Szczałŏrz
+  librarian: Ksiōnkŏrz
+  cartographer: Kartogrof
+  cleric: Farorz
+  armorer: Zbrojŏrz
+  weapon_smith: Kŏwŏcz
+  tool_smith: Kŏwŏl
+  butcher: Masorz
+  leatherworker: Siodlorz
+  nitwit: Gupielok

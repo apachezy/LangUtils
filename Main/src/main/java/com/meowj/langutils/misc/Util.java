@@ -2,8 +2,12 @@ package com.meowj.langutils.misc;
 
 import com.meowj.langutils.lang.LanguageHelper;
 import org.bukkit.ChatColor;
+import org.bukkit.Chunk;
 import org.bukkit.OfflinePlayer;
+import org.bukkit.block.Biome;
 import org.bukkit.command.CommandSender;
+import org.bukkit.enchantments.Enchantment;
+import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 import org.bukkit.entity.TropicalFish.Pattern;
 import org.bukkit.inventory.ItemStack;
@@ -13,6 +17,8 @@ import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionType;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
+
+import java.util.Map;
 
 public class Util {
 
@@ -68,11 +74,15 @@ public class Util {
         return p << 16 | c;
     }
 
-    public static void testPlayerHandle(CommandSender sender, String lang) {
+    public static void testWithPlayer(CommandSender sender, String lang) {
         if (sender instanceof Player) {
 
             Player player = (Player) sender;
             String locale = lang == null ? player.getLocale() : lang;
+
+            sendBiome        (player, locale);
+            sendChunkEntities(player, locale);
+
             ItemStack itm = player.getInventory().getItemInMainHand();
 
             player.sendMessage(LanguageHelper.getItemName(itm, locale));
@@ -82,9 +92,25 @@ public class Util {
                 return;
             }
 
+            sendEnchantment   (meta, player, locale);
             sendBannerPatterns(meta, player, locale);
             sendFishBucket    (meta, player, locale);
             sendPotionEffect  (meta, player, locale);
+        }
+    }
+
+    private static void sendBiome(Player player, String locale) {
+        Biome biom = player.getLocation().getBlock().getBiome();
+        String msg = LanguageHelper.getBiomeName(biom, locale);
+        player.sendMessage("Biome: " + msg);
+    }
+
+    private static void sendChunkEntities(Player player, String locale) {
+        player.sendMessage("Entities in the current chunk:");
+        Chunk chunk = player.getLocation().getBlock().getChunk();
+        for (Entity entity : chunk.getEntities()) {
+            String name = LanguageHelper.getEntityDisplayName(entity, locale);
+            player.sendMessage("  " + name);
         }
     }
 
@@ -140,6 +166,13 @@ public class Util {
                 message = LanguageHelper.getPotionEffectDisplay(eff, locale);
                 player.sendMessage(message);
             }
+        }
+    }
+
+    private static void sendEnchantment(ItemMeta meta, Player player, String locale) {
+        for (Map.Entry<Enchantment, Integer> entry : meta.getEnchants().entrySet()) {
+            String message = LanguageHelper.getEnchantmentDisplayName(entry, locale);
+            player.sendMessage("  " + ChatColor.GRAY + message);
         }
     }
 

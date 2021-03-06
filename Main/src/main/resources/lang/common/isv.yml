@@ -1,0 +1,2150 @@
+# ####################################################
+# Build time: 2021-03-06 14:28:18                    #
+# ####################################################
+language:
+  code: isv
+  name: Medžuslovjansky
+  region: Slavija
+material:
+  air: Vozduh
+  stone: Kamenj
+  granite: Granit
+  polished_granite: Polirany granit
+  diorite: Diorit
+  polished_diorite: Polirany diorit
+  andesite: Andezit
+  polished_andesite: Polirany andezit
+  grass_block: Blok travy
+  dirt: Zemja
+  coarse_dirt: Gruba zemja
+  podzol: Podzolj
+  crimson_nylium: Bagrova nezgribja
+  warped_nylium: Izvračena podgribja
+  cobblestone: Poděleny kamenj
+  oak_planks: Dubove dosky
+  spruce_planks: Smrěkove dosky
+  birch_planks: Brězove dosky
+  jungle_planks: Džunglove dosky
+  acacia_planks: Akacove dosky
+  dark_oak_planks: Mračnodubove dosky
+  crimson_planks: Bagrove dosky
+  warped_planks: Izvračene dosky
+  oak_sapling: Dubovy rastok
+  spruce_sapling: Smrěkovy rastok
+  birch_sapling: Brězovy rastok
+  jungle_sapling: Džunglovy rastok
+  acacia_sapling: Akacovy rastok
+  dark_oak_sapling: Mračnodubovy rastok
+  bedrock: Nedobry kamenj
+  sand: Pěsok
+  red_sand: Črveny pěsok
+  gravel: Drobjenec
+  gold_ore: Zlata ruda
+  iron_ore: Želězna ruda
+  coal_ore: Vugoljna ruda
+  nether_gold_ore: Zlata ruda nezera
+  oak_log: Dubovo brvno
+  spruce_log: Smrěkovo brvno
+  birch_log: Brězovo brvno
+  jungle_log: Džunglovo brvno
+  acacia_log: Akacovo brvno
+  dark_oak_log: Mračnodubovo brvno
+  crimson_stem: Bagrovo steblo
+  warped_stem: Izvračeno steblo
+  stripped_oak_log: Tesano dubovo brvno
+  stripped_spruce_log: Tesano smrěkovo brvno
+  stripped_birch_log: Tesano brězovo brvno
+  stripped_jungle_log: Tesano džunglovo brvno
+  stripped_acacia_log: Tesano akacovo brvno
+  stripped_dark_oak_log: Tesano mračnodubovo brvno
+  stripped_crimson_stem: Tesano bagrovo steblo
+  stripped_warped_stem: Tesano izvračeno steblo
+  stripped_oak_wood: Tesano dubovo drěvo
+  stripped_spruce_wood: Tesano smrěkovo drěvo
+  stripped_birch_wood: Tesano brězovo drěvo
+  stripped_jungle_wood: Tesano džunglovo drěvo
+  stripped_acacia_wood: Tesano akacovo drěvo
+  stripped_dark_oak_wood: Tesano mračnodubovo drěvo
+  stripped_crimson_hyphae: Tesane bagrove hify
+  stripped_warped_hyphae: Tesane izvračene hify
+  oak_wood: Dubove drěvo
+  spruce_wood: Smrěkove drěvo
+  birch_wood: Brězove drěvo
+  jungle_wood: Džunglovo drěvo
+  acacia_wood: Akacovo drěvo
+  dark_oak_wood: Mračnodubove drěvo
+  crimson_hyphae: Bagrove hify
+  warped_hyphae: Izvračene hify
+  oak_leaves: Dubove listy
+  spruce_leaves: Smrěkove listy
+  birch_leaves: Brězove listy
+  jungle_leaves: Džunglove listy
+  acacia_leaves: Akacove listy
+  dark_oak_leaves: Mračnodubove listy
+  sponge: Guba
+  wet_sponge: Mokra guba
+  glass: Steklo
+  lapis_ore: Lazuritova ruda
+  lapis_block: Blok lazurita
+  dispenser: Izkydatnik
+  sandstone: Pěsočny kamenj
+  chiseled_sandstone: Vrubany pěsočny kamenj
+  cut_sandstone: Pileny pěsočny kamenj
+  note_block: Notny blok
+  powered_rail: Napajatna kolěja
+  detector_rail: Senzorova kolěja
+  sticky_piston: Lěpky poršenj
+  cobweb: Pavučina
+  grass: Trava
+  fern: Paprat
+  dead_bush: Usohnuty kust
+  seagrass: Morska trava
+  sea_pickle: Ognitelka
+  piston: Poršenj
+  white_wool: Běla volna
+  orange_wool: Oranževa volna
+  magenta_wool: Purpurna volna
+  light_blue_wool: Jasnomodra volna
+  yellow_wool: Žolta volna
+  lime_wool: Jasnozelena volna
+  pink_wool: Rozova volna
+  gray_wool: Siva volna
+  light_gray_wool: Jasnosiva volna
+  cyan_wool: Turkysova volna
+  purple_wool: Fioletova volna
+  blue_wool: Modra volna
+  brown_wool: Koričneva volna
+  green_wool: Zelena volna
+  red_wool: Črvena volna
+  black_wool: Črna volna
+  dandelion: Dmuhavec
+  poppy: Mak
+  blue_orchid: Modra orhideja
+  allium: Česnok
+  azure_bluet: Haustonja modra
+  red_tulip: Črveny tulipan
+  orange_tulip: Oranževy tulipan
+  white_tulip: Běly tulipan
+  pink_tulip: Rozovy tulipan
+  oxeye_daisy: Romaška
+  cornflower: Sinij vasiljok
+  lily_of_the_valley: Landiš
+  wither_rose: Roza vizera
+  brown_mushroom: Borovik
+  red_mushroom: Muhomor
+  crimson_fungus: Bagrovy grib
+  warped_fungus: Izvračeny grib
+  crimson_roots: Bagrove koreni
+  warped_roots: Izvračene koreni
+  nether_sprouts: Rastoky nezera
+  weeping_vines: Plačuča polzavica
+  twisting_vines: Vijuča polzavica
+  sugar_cane: Cukrova trtina
+  kelp: Vodorast
+  bamboo: Bambus
+  gold_block: Blok zlata
+  iron_block: Blok želěza
+  oak_slab: Dubovy platform
+  spruce_slab: Smrěkovy platform
+  birch_slab: Brězovy platform
+  jungle_slab: Džunglovy platform
+  acacia_slab: Akacovy platform
+  dark_oak_slab: Mračnodubovy platform
+  crimson_slab: Bagrovy platform
+  warped_slab: Izvračeny platform
+  stone_slab: Kamenny platform
+  smooth_stone_slab: Gladky kamenny platform
+  sandstone_slab: Pěsočny kamenny platform
+  cut_sandstone_slab: Pileny pěsočny kamenny platform
+  petrified_oak_slab: Skameněly dubovy platform
+  cobblestone_slab: Poděleny kamenny platform
+  brick_slab: Cegleny platform
+  stone_brick_slab: Kamenny cegleny platform
+  nether_brick_slab: Nezerovy platform
+  quartz_slab: Kvarcovy platform
+  red_sandstone_slab: Črveny pěsočny kamenny platform
+  cut_red_sandstone_slab: Pileny črveny pěsočny kamenny platform
+  purpur_slab: Purpurovy platform
+  prismarine_slab: Prizmarinovy platform
+  prismarine_brick_slab: Prizmarinovy cegleny platform
+  dark_prismarine_slab: Temny Prizmarinovy Polblok
+  smooth_quartz: Gladka Kostka Kvarceva
+  smooth_red_sandstone: Gladky črveny pěsočny kamenj
+  smooth_sandstone: Gladky pěsočny kamenj
+  smooth_stone: Gladky kamenj
+  bricks: Cegly
+  tnt: TNT
+  bookshelf: Polica
+  mossy_cobblestone: Travny poděleny kamenj
+  obsidian: Obsidian
+  torch: Faklja
+  end_rod: Endova rozga
+  chorus_plant: Steblo horusa
+  chorus_flower: Cvět horusa
+  purpur_block: Blok purpura
+  purpur_pillar: Stolp purpura
+  purpur_stairs: Purpurove stupenišče
+  spawner: Stvorišče
+  oak_stairs: Dubove stupenišče
+  chest: Skladišče
+  diamond_ore: Diamantova ruda
+  diamond_block: Blok diamanta
+  crafting_table: Vrštat
+  farmland: Obrabotyvano polje
+  furnace: Peč
+  ladder: Drabina
+  rail: Kolěja
+  cobblestone_stairs: Poděleno kamenno stupenišče
+  lever: Držka
+  stone_pressure_plate: Kamenny pritiskany platform
+  oak_pressure_plate: Dubovy pritiskany platform
+  spruce_pressure_plate: Smrěkovy pritiskany platform
+  birch_pressure_plate: Brězovy pritiskany platform
+  jungle_pressure_plate: Džunglovy pritiskany platform
+  acacia_pressure_plate: Akacovy pritiskany platform
+  dark_oak_pressure_plate: Mračnodubovy pritiskany platform
+  crimson_pressure_plate: Bagrovy pritiskany platform
+  warped_pressure_plate: Izvračeny pritiskany platform
+  polished_blackstone_pressure_plate: Polirany črnitovy pritiskany platform
+  redstone_ore: Redstounova ruda
+  redstone_torch: Redstounova faklja
+  snow: Sněg
+  ice: Led
+  snow_block: Blok sněgu
+  cactus: Kaktus
+  clay: Glina
+  jukebox: Igrajuča skrinja
+  oak_fence: Dubova ograda
+  spruce_fence: Smrěkova ograda
+  birch_fence: Brězova ograda
+  jungle_fence: Džunglova ograda
+  acacia_fence: Akacova ograda
+  dark_oak_fence: Mračnodubova ograda
+  crimson_fence: Bagrova ograda
+  warped_fence: Izvračena ograda
+  pumpkin: Tykva
+  carved_pumpkin: Izdolbena tykva
+  netherrack: Nezerak
+  soul_sand: Pěsok duš
+  soul_soil: Zemja duš
+  basalt: Bazalt
+  polished_basalt: Polirany bazalt
+  soul_torch: Faklja duš
+  glowstone: Světlokamenj
+  jack_o_lantern: Tykvova světilka
+  oak_trapdoor: Dubovy otvor
+  spruce_trapdoor: Smrěkovy otvor
+  birch_trapdoor: Brězovy otvor
+  jungle_trapdoor: Džunglovy otvor
+  acacia_trapdoor: Akacovy otvor
+  dark_oak_trapdoor: Mračnodubovy otvor
+  crimson_trapdoor: Bagrovy otvor
+  warped_trapdoor: Izvračeny otvor
+  infested_stone: Zaraženy kamenj
+  infested_cobblestone: Zaraženy poděleny kamenj
+  infested_stone_bricks: Zaražane kamenne cegly
+  infested_mossy_stone_bricks: Zaražene travne kamenne cegly
+  infested_cracked_stone_bricks: Zaražene razdrobjene kamenne cegly
+  infested_chiseled_stone_bricks: Zaražene vrubane kamenne cegly
+  stone_bricks: Kamenne cegly
+  mossy_stone_bricks: Travne kamenne cegly
+  cracked_stone_bricks: Razdrobjene kamenne cegly
+  chiseled_stone_bricks: Vrubane kamenne cegly
+  brown_mushroom_block: Blok borovika
+  red_mushroom_block: Blok muhomora
+  mushroom_stem: Val griba
+  iron_bars: Želězne pruty
+  chain: Poslědovateljny
+  glass_pane: Steklěny panel
+  melon: Dynja
+  vine: Polzavica
+  oak_fence_gate: Dubova vrata
+  spruce_fence_gate: Smrěkova vrata
+  birch_fence_gate: Brězova vrata
+  jungle_fence_gate: Džunglova vrata
+  acacia_fence_gate: Akacova vrata
+  dark_oak_fence_gate: Mračnodubova vrata
+  crimson_fence_gate: Bagrova vrata
+  warped_fence_gate: Izvračena vrata
+  brick_stairs: Cegleno stupenišče
+  stone_brick_stairs: Kamenno cegleno stupenišče
+  mycelium: Podgribja
+  lily_pad: Lekvanj
+  nether_bricks: Nezerove cegly
+  cracked_nether_bricks: Razdrobjene nezerove cegly
+  chiseled_nether_bricks: Vrubane nezerove cegly
+  nether_brick_fence: Nezerova ograda
+  nether_brick_stairs: Nezerovo stupenišče
+  enchanting_table: Čarovny stol
+  end_portal_frame: Rama prohodu v Endu
+  end_stone: Kamenj Enda
+  end_stone_bricks: Kamenne cegly enda
+  dragon_egg: Jajce drakona
+  redstone_lamp: Redstounova světilka
+  sandstone_stairs: Pěsočno kamenno stupenišče
+  emerald_ore: Smaragdova ruda
+  ender_chest: Skrinja endera
+  tripwire_hook: Hak na vrvku
+  emerald_block: Blok smaragda
+  spruce_stairs: Smrěkove stupenišče
+  birch_stairs: Brězove stupenišče
+  jungle_stairs: Džunglove stupenišče
+  crimson_stairs: Bagrovo stupenišče
+  warped_stairs: Izvračeno stupenišče
+  command_block: Blok prikazov
+  beacon: Světilnik
+  cobblestone_wall: Podělena kamenna stěna
+  mossy_cobblestone_wall: Travna podělena kamenna stěna
+  brick_wall: Ceglena stěna
+  prismarine_wall: Prizmarinova stěna
+  red_sandstone_wall: Črvena pěsočna kamenna stěna
+  mossy_stone_brick_wall: Travna kamenna ceglena stěna
+  granite_wall: Granitova stěna
+  stone_brick_wall: Kamenna ceglena stěna
+  nether_brick_wall: Nezerova stěna
+  andesite_wall: Andezitova stěna
+  red_nether_brick_wall: Črvena nezerova stěna
+  sandstone_wall: Pěsočna kamenna stěna
+  end_stone_brick_wall: Kamenne cegly enda enda
+  diorite_wall: Dioritova stěna
+  blackstone_wall: Črnitova stěna
+  polished_blackstone_wall: Polirana črnitova stěna
+  polished_blackstone_brick_wall: Polirana črnitova ceglena stěna
+  stone_button: Kamenny klaviš
+  oak_button: Dubovy klaviš
+  spruce_button: Smrěkovy klaviš
+  birch_button: Brězovy klaviš
+  jungle_button: Džunglovy klaviš
+  acacia_button: Akacovy klaviš
+  dark_oak_button: Mračnodubovy klaviš
+  crimson_button: Bagrovy klaviš
+  warped_button: Izvračeny klaviš
+  polished_blackstone_button: Polirany črnitovy klaviš
+  anvil: Nakovaljnja
+  chipped_anvil: Vyščrbena nakovaljnja
+  damaged_anvil: Poškodžena nakovaljnja
+  trapped_chest: Past-skladišče
+  light_weighted_pressure_plate: Legky pritiskany platform
+  heavy_weighted_pressure_plate: Težky pritiskany platform
+  daylight_detector: Senzor dennogo světla
+  redstone_block: Blok redstouna
+  nether_quartz_ore: Kvarceva ruda
+  hopper: Nasypnik
+  chiseled_quartz_block: Vrubany blok kvarca
+  quartz_block: Blok kvarca
+  quartz_bricks: Kvarcove cegly
+  quartz_pillar: Kvarcovy stolp
+  quartz_stairs: Kvarcovo stupenišče
+  activator_rail: Aktivujuča kolěja
+  dropper: Izdavač
+  white_terracotta: Běla terakota
+  orange_terracotta: Oranževa terakota
+  magenta_terracotta: Purpurna terakota
+  light_blue_terracotta: Jasnomodra terakota
+  yellow_terracotta: Žolta terakota
+  lime_terracotta: Jasnozelena terakota
+  pink_terracotta: Rozova terakota
+  gray_terracotta: Siva terakota
+  light_gray_terracotta: Jasnosiva terakota
+  cyan_terracotta: Turkysova terakota
+  purple_terracotta: Fioletova terakota
+  blue_terracotta: Modra terakota
+  brown_terracotta: Koričneva terakota
+  green_terracotta: Zelena terakota
+  red_terracotta: Črvena terakota
+  black_terracotta: Črna terakota
+  barrier: Bariera
+  iron_trapdoor: Želězny otvor
+  hay_block: Bala sěna
+  white_carpet: Běly koverec
+  orange_carpet: Oranževy koverec
+  magenta_carpet: Purpurny koverec
+  light_blue_carpet: Jasnomodry koverec
+  yellow_carpet: Žolty koverec
+  lime_carpet: Jasnozeleny koverec
+  pink_carpet: Rozovy koverec
+  gray_carpet: Sivy koverec
+  light_gray_carpet: Jasnosivy koverec
+  cyan_carpet: Turkysovy koverec
+  purple_carpet: Fioletovy koverec
+  blue_carpet: Modry koverec
+  brown_carpet: Koričnevy koverec
+  green_carpet: Zeleny koverec
+  red_carpet: Črveny koverec
+  black_carpet: Črny koverec
+  terracotta: Terakota
+  coal_block: Blok vuglja
+  packed_ice: Izbity led
+  acacia_stairs: Akacove stupenišče
+  dark_oak_stairs: Mračnodubove stupenišče
+  slime_block: Blok sliza
+  grass_path: Put
+  sunflower: Podsolnuh
+  lilac: Boz
+  rose_bush: Rozovy kust
+  peony: Pivonja
+  tall_grass: Vysoka trava
+  large_fern: Velika paprat
+  white_stained_glass: Bělo steklo
+  orange_stained_glass: Oranževo steklo
+  magenta_stained_glass: Purpurno steklo
+  light_blue_stained_glass: Jasnomodro steklo
+  yellow_stained_glass: Žolto steklo
+  lime_stained_glass: Jasnozeleno steklo
+  pink_stained_glass: Rozovo steklo
+  gray_stained_glass: Sivo steklo
+  light_gray_stained_glass: Jasnosivo steklo
+  cyan_stained_glass: Turkysovo steklo
+  purple_stained_glass: Fioletovo steklo
+  blue_stained_glass: Modro steklo
+  brown_stained_glass: Koričnevo steklo
+  green_stained_glass: Zeleno steklo
+  red_stained_glass: Črveno steklo
+  black_stained_glass: Črno steklo
+  white_stained_glass_pane: Běly steklěny panel
+  orange_stained_glass_pane: Oranževy steklěny panel
+  magenta_stained_glass_pane: Purpurny steklěny panel
+  light_blue_stained_glass_pane: Jasnomodry steklěny panel
+  yellow_stained_glass_pane: Žolty steklěny panel
+  lime_stained_glass_pane: Jasnozeleny steklěny panel
+  pink_stained_glass_pane: Rozovy steklěny panel
+  gray_stained_glass_pane: Sivy steklěny panel
+  light_gray_stained_glass_pane: Jasnosivy steklěny panel
+  cyan_stained_glass_pane: Turkysovy steklěny panel
+  purple_stained_glass_pane: Fioletovy steklěny panel
+  blue_stained_glass_pane: Modry steklěny panel
+  brown_stained_glass_pane: Koričnevy steklěny panel
+  green_stained_glass_pane: Zeleny steklěny panel
+  red_stained_glass_pane: Črveny steklěny panel
+  black_stained_glass_pane: Črny steklěny panel
+  prismarine: Prizmarin
+  prismarine_bricks: Prizmarinove cegly
+  dark_prismarine: Temny Prizmarin
+  prismarine_stairs: Prizmarinove stupenišče
+  prismarine_brick_stairs: Prizmarinove ceglene stupenišče
+  dark_prismarine_stairs: Temne Prizmarinove Stupenišče
+  sea_lantern: Morska světilka
+  red_sandstone: Črveny pěsočny kamenj
+  chiseled_red_sandstone: Vrubany črveny pěsočny kamenj
+  cut_red_sandstone: Pileny črveny pěsočny kamenj
+  red_sandstone_stairs: Črveno pěsočno kamenno stupenišče
+  repeating_command_block: Povtarjajuči blok prikazov
+  chain_command_block: Poslědovateljny blok prikazov
+  magma_block: Blok magmy
+  nether_wart_block: Bradavičny blok
+  warped_wart_block: Bradavičny izvračeny blok
+  red_nether_bricks: Črvene nezerove cegly
+  bone_block: Blok kosti
+  structure_void: Strukturna prazdnina
+  observer: Pogledatnik
+  shulker_box: Šalkerova skrinja
+  white_shulker_box: Běla šalkerova skrinja
+  orange_shulker_box: Oranževa šalkerova skrinja
+  magenta_shulker_box: Purpurna šalkerova skrinja
+  light_blue_shulker_box: Jasnomodra šalkerova skrinja
+  yellow_shulker_box: Žolta šalkerova skrinja
+  lime_shulker_box: Jasnozelena šalkerova skrinja
+  pink_shulker_box: Rozova šalkerova skrinja
+  gray_shulker_box: Siva šalkerova skrinja
+  light_gray_shulker_box: Jasnosiva šalkerova skrinja
+  cyan_shulker_box: Turkysova šalkerova skrinja
+  purple_shulker_box: Fioletova šalkerova skrinja
+  blue_shulker_box: Modra šalkerova skrinja
+  brown_shulker_box: Koričneva šalkerova skrinja
+  green_shulker_box: Zelena šalkerova skrinja
+  red_shulker_box: Črvena šalkerova skrinja
+  black_shulker_box: Črna šalkerova skrinja
+  white_glazed_terracotta: Běla glazovana terakota
+  orange_glazed_terracotta: Oranževa glazovana terakota
+  magenta_glazed_terracotta: Purpurna glazovana terakota
+  light_blue_glazed_terracotta: Jasnomodra glazovana terakota
+  yellow_glazed_terracotta: Žolta glazovana terakota
+  lime_glazed_terracotta: Jasnozelena glazovana terakota
+  pink_glazed_terracotta: Rozova glazovana terakota
+  gray_glazed_terracotta: Siva glazovana terakota
+  light_gray_glazed_terracotta: Jasnosiva glazovana terakota
+  cyan_glazed_terracotta: Turkysova glazovana terakota
+  purple_glazed_terracotta: Fioletova glazovana terakota
+  blue_glazed_terracotta: Modra glazovana terakota
+  brown_glazed_terracotta: Koričneva glazovana terakota
+  green_glazed_terracotta: Zelena glazovana terakota
+  red_glazed_terracotta: Črvena glazovana terakota
+  black_glazed_terracotta: Črna glazovana terakota
+  white_concrete: Běly beton
+  orange_concrete: Oranževy beton
+  magenta_concrete: Purpurny beton
+  light_blue_concrete: Jasnomodry beton
+  yellow_concrete: Žolty beton
+  lime_concrete: Jasnozeleny beton
+  pink_concrete: Rozovy beton
+  gray_concrete: Sivy beton
+  light_gray_concrete: Jasnosivy beton
+  cyan_concrete: Turkysovy beton
+  purple_concrete: Fioletovy beton
+  blue_concrete: Modry beton
+  brown_concrete: Koričnevy beton
+  green_concrete: Zeleny beton
+  red_concrete: Črveny beton
+  black_concrete: Črny beton
+  white_concrete_powder: Běly cement
+  orange_concrete_powder: Oranževy cement
+  magenta_concrete_powder: Purpurny cement
+  light_blue_concrete_powder: Jasnomodry cement
+  yellow_concrete_powder: Žolty cement
+  lime_concrete_powder: Jasnozeleny cement
+  pink_concrete_powder: Rozovy cement
+  gray_concrete_powder: Sivy cement
+  light_gray_concrete_powder: Jasnosivy cement
+  cyan_concrete_powder: Turkysovy cement
+  purple_concrete_powder: Fioletovy cement
+  blue_concrete_powder: Modry cement
+  brown_concrete_powder: Koričnevy cement
+  green_concrete_powder: Zeleny cement
+  red_concrete_powder: Črveny cement
+  black_concrete_powder: Črny cement
+  turtle_egg: Jajce žolva
+  dead_tube_coral_block: Blok mrtvogo trubčatogo korala
+  dead_brain_coral_block: Blok mrtvogo mozgovogo korala
+  dead_bubble_coral_block: Blok mrtvogo puhyrčatogo korala
+  dead_fire_coral_block: Blok mrtvogo ognjenogo korala
+  dead_horn_coral_block: Blok mrtvogo rogovogo korala
+  tube_coral_block: Blok trubčatogo korala
+  brain_coral_block: Blok mozgovogo korala
+  bubble_coral_block: Blok puhyrčatogo korala
+  fire_coral_block: Blok ognjenogo korala
+  horn_coral_block: Blok rogovogo korala
+  tube_coral: Cěvkovy koral
+  brain_coral: Mozgovy koral
+  bubble_coral: Bublinovy koral
+  fire_coral: Ognjeny koral
+  horn_coral: Rogovy koral
+  dead_brain_coral: Mrtvy mozgovy koral
+  dead_bubble_coral: Mrtvy bublinovy koral
+  dead_fire_coral: Mrtvy ognjeny koral
+  dead_horn_coral: Mrtvy rogovy koral
+  dead_tube_coral: Mrtvy trubčaty koral
+  tube_coral_fan: Vějarny trubčaty koral
+  brain_coral_fan: Vějarny mozgovy koral
+  bubble_coral_fan: Vějarny puhyrčaty koral
+  fire_coral_fan: Vějarny žžemy koral
+  horn_coral_fan: Vějarny rogovy koral
+  dead_tube_coral_fan: Mrtvy vějarny trubčaty koral
+  dead_brain_coral_fan: Mrtvy vějarny mozgovy koral
+  dead_bubble_coral_fan: Mtrvy vějarny puhyrčaty koral
+  dead_fire_coral_fan: Mrtvy vějarny ognjeny koral
+  dead_horn_coral_fan: Mrtvy vějarny rogovy koral
+  blue_ice: Nebesky led
+  conduit: Morska srdcevina
+  polished_granite_stairs: Polirano granitovo stupenišče
+  smooth_red_sandstone_stairs: Gladko črveno pěsočno kamenno stupenišče
+  mossy_stone_brick_stairs: Travno kamenno cegleno stupenišče
+  polished_diorite_stairs: Polirano dioritovo stupenišče
+  mossy_cobblestone_stairs: Travno poděleno kamenno stupenišče
+  end_stone_brick_stairs: Kamenno cegleno stupenišče enda
+  stone_stairs: Kamenno stupenišče
+  smooth_sandstone_stairs: Gladko pěsočno kamenno stupenišče
+  smooth_quartz_stairs: Gladko kvarcovo stupenišče
+  granite_stairs: Granitovo stupenišče
+  andesite_stairs: Andezitovo stupenišče
+  red_nether_brick_stairs: Črveno nezerovo stupenišče
+  polished_andesite_stairs: Polirano andezitovo stupenišče
+  diorite_stairs: Dioritovo stupenišče
+  polished_granite_slab: Polirany granitovy platform
+  smooth_red_sandstone_slab: Gladky črveny pěsočny kamenny platform
+  mossy_stone_brick_slab: Travny kamenny cegleny platform
+  polished_diorite_slab: Polirany dioritovy platform
+  mossy_cobblestone_slab: Travny poděleny kamenny platform
+  end_stone_brick_slab: Kamenny cegleny platform enda
+  smooth_sandstone_slab: Gladky pěsočny kamenny platform
+  smooth_quartz_slab: Gladko kvarcovy platform
+  granite_slab: Granitovy platform
+  andesite_slab: Andezitovy platform
+  red_nether_brick_slab: Črveny nezerovy platform
+  polished_andesite_slab: Polirany andezitovy platform
+  diorite_slab: Dioritovy platform
+  scaffolding: Fasadarja
+  iron_door: Želězne dveri
+  oak_door: Dubove dveri
+  spruce_door: Smrěkove dveri
+  birch_door: Brězove dveri
+  jungle_door: Džunglove dveri
+  acacia_door: Akacove dveri
+  dark_oak_door: Mračnodubove dveri
+  crimson_door: Bagrove dveri
+  warped_door: Izvračene dveri
+  repeater: Redstounovy povtoritel
+  comparator: Redstounovy sravnjatel
+  structure_block: Blok struktur
+  jigsaw: Vezatnik
+  turtle_helmet: Pancyr žolva
+  scute: Zaščitka
+  flint_and_steel: Zapalnička
+  apple: Jabloko
+  bow: Luk
+  arrow: Strěla
+  coal: Vugolj
+  charcoal: Drěvny vugolj
+  diamond: Diamant
+  iron_ingot: Želězny kovok
+  gold_ingot: Zlaty kovok
+  netherite_ingot: Nezeritovy kovok
+  netherite_scrap: Kus nezerita
+  wooden_sword: Drěvěny meč
+  wooden_shovel: Drěvěna lopata
+  wooden_pickaxe: Drěvěna kopalka
+  wooden_axe: Drěvěna sěkyra
+  wooden_hoe: Drěvěna motyka
+  stone_sword: Kamenny meč
+  stone_shovel: Kamenna lopata
+  stone_pickaxe: Kamenna kopalka
+  stone_axe: Kamenna sěkyra
+  stone_hoe: Kamenna motyka
+  golden_sword: Zlaty meč
+  golden_shovel: Zlata lopata
+  golden_pickaxe: Zlata kopalka
+  golden_axe: Zlata sěkyra
+  golden_hoe: Zlata motyka
+  iron_sword: Želězny meč
+  iron_shovel: Želězna lopata
+  iron_pickaxe: Želězna kopalka
+  iron_axe: Želězna sěkyra
+  iron_hoe: Želězna motyka
+  diamond_sword: Diamantovy meč
+  diamond_shovel: Diamantova lopata
+  diamond_pickaxe: Diamantova kopalka
+  diamond_axe: Diamantova sěkyra
+  diamond_hoe: Diamantova motyka
+  netherite_sword: Nezeritovy meč
+  netherite_shovel: Nezeritova lopata
+  netherite_pickaxe: Nezeritova kopalka
+  netherite_axe: Nezeritova sěkyra
+  netherite_hoe: Nezeritova motyka
+  stick: Palka
+  bowl: Miska
+  mushroom_stew: Gribna supa
+  string: Nit
+  feather: Pero
+  gunpowder: Izbuhlivy prah
+  wheat_seeds: Sěme pšenice
+  wheat: Pšenica
+  bread: Hlěb
+  leather_helmet: Kožena šapka
+  leather_chestplate: Koženy plašč
+  leather_leggings: Kožene nogavky
+  leather_boots: Kožene obuvky
+  chainmail_helmet: Lancovany Šlěm
+  chainmail_chestplate: Lancovany Nagrudnik
+  chainmail_leggings: Lancovane Nogavice
+  chainmail_boots: Lancovane Obuvky
+  iron_helmet: Železny šlěm
+  iron_chestplate: Železny nagrudnik
+  iron_leggings: Železne nogavice
+  iron_boots: Železne obuvky
+  diamond_helmet: Diamantovy šlěm
+  diamond_chestplate: Diamantovy nagrudnik
+  diamond_leggings: Diamantove nogavice
+  diamond_boots: Diamantova obuvka
+  golden_helmet: Zlaty šlěm
+  golden_chestplate: Zlaty nagrudnik
+  golden_leggings: Zlate nogavice
+  golden_boots: Zlate obuvky
+  netherite_helmet: Nezeritovy šlěm
+  netherite_chestplate: Nezeritovy nagrudnik
+  netherite_leggings: Nezeritove nogavice
+  netherite_boots: Nezeritova obuvka
+  flint: Kremenj
+  porkchop: Surova veprina
+  cooked_porkchop: Pečena veprina
+  painting: Obraz
+  golden_apple: Zlato jabloko
+  enchanted_golden_apple: Čarovno zlato jabloko
+  oak_sign: Dubovy nadpis
+  spruce_sign: Smrěkovy nadpis
+  birch_sign: Brězovy nadpis
+  jungle_sign: Džunglovy nadpis
+  acacia_sign: Akacovy nadpis
+  dark_oak_sign: Mračnodubovy nadpis
+  crimson_sign: Bagrova vyvěska
+  warped_sign: Izvračena vyvěska
+  bucket: Vědro
+  water_bucket: Vědro s vodoju
+  lava_bucket: Vědro s lavoju
+  minecart: Vagonetka
+  saddle: Sedlo
+  redstone: Redstoun
+  snowball: Kalina
+  oak_boat: Dubova lodka
+  leather: Koža
+  milk_bucket: Vědro s mlěkom
+  pufferfish_bucket: Vědro s naduvačem
+  salmon_bucket: Vědro s lososem
+  cod_bucket: Vědro s treskoju
+  tropical_fish_bucket: Vědro s tropičnoju ryboju
+  brick: Cegla
+  clay_ball: Glina
+  dried_kelp_block: Blok suhovodorastov
+  paper: Papir
+  book: Kniga
+  slime_ball: Kulja sliza
+  chest_minecart: Vagonetka so skladiščem
+  furnace_minecart: Vozok s pečem
+  egg: Jajce
+  compass: Kompas
+  fishing_rod: Vudačka
+  clock: Časovnik
+  glowstone_dust: Světlokamenny prah
+  cod: Surova treska
+  salmon: Surovy losos
+  tropical_fish: Tropična ryba
+  pufferfish: Naduvač
+  cooked_cod: Pečena treska
+  cooked_salmon: Pečeny losos
+  ink_sac: Měšek so črnilom
+  cocoa_beans: Kakaove zrno
+  lapis_lazuli: Lazurit
+  white_dye: Bělo barvivo
+  orange_dye: Oranževo barvivo
+  magenta_dye: Purpurno barvivo
+  light_blue_dye: Jasnomodro barvivo
+  yellow_dye: Žolto barvivo
+  lime_dye: Jasnozeleno barvivo
+  pink_dye: Rozovo barvivo
+  gray_dye: Sivo barvivo
+  light_gray_dye: Jasnosivo barvivo
+  cyan_dye: Turkysovo barvivo
+  purple_dye: Fioletovo barvivo
+  blue_dye: Modro barvivo
+  brown_dye: Koričnevo barvivo
+  green_dye: Zeleno barvivo
+  red_dye: Črveno barvivo
+  black_dye: Črno barvivo
+  bone_meal: Kostna muka
+  bone: Kost
+  sugar: Cukr
+  cake: Kolač
+  white_bed: Bělo ležišče
+  orange_bed: Oranževo ležišče
+  magenta_bed: Purpurno ležišče
+  light_blue_bed: Jasnomodro ležišče
+  yellow_bed: Žolto ležišče
+  lime_bed: Jasnozeleno ležišče
+  pink_bed: Rozovo ležišče
+  gray_bed: Sivo ležišče
+  light_gray_bed: Jasnosivo ležišče
+  cyan_bed: Turkysovo ležišče
+  purple_bed: Fioletovo ležišče
+  blue_bed: Modro ležišče
+  brown_bed: Koričnevo ležišče
+  green_bed: Zeleno ležišče
+  red_bed: Črveno ležišče
+  black_bed: Črno ležišče
+  cookie: Biskvit
+  filled_map: Mapa
+  shears: Nožice
+  melon_slice: Kusok dynje
+  dried_kelp: Sušena vodna trava
+  pumpkin_seeds: Sěme tykvy
+  melon_seeds: Sěme dynje
+  beef: Surova Govedina
+  cooked_beef: Bifštek
+  chicken: Surova Kura
+  cooked_chicken: Pečena Kura
+  rotten_flesh: Gnilo meso
+  ender_pearl: Ender-perla
+  blaze_rod: Plamenjcovy prut
+  ghast_tear: Solza gasta
+  gold_nugget: Zlaty samorod
+  nether_wart: Nezerova bradavica
+  potion: Magičny napitok
+  glass_bottle: Steklěna butylka
+  spider_eye: Oko pavuka
+  fermented_spider_eye: Izkvašeno oko pavuka
+  blaze_powder: Plamenjcovy prah
+  magma_cream: Magmovy krem
+  brewing_stand: Napitnik
+  cauldron: Kotel
+  ender_eye: Oko endera
+  glistering_melon_slice: Kusok blěskajučej dynje
+  bat_spawn_egg: Jajce s lětajučoju myšju
+  bee_spawn_egg: Jajce s pčeloju
+  blaze_spawn_egg: Jajce s plamenjcem
+  cat_spawn_egg: Jajce s kotom
+  cave_spider_spawn_egg: Jajce s jamovym pavukom
+  chicken_spawn_egg: Jajce s kuroju
+  cod_spawn_egg: Jajce s treskoju
+  cow_spawn_egg: Jajce s kravoju
+  creeper_spawn_egg: Jajce s Buhačom
+  dolphin_spawn_egg: Jajce s delfinom
+  donkey_spawn_egg: Jajce s oslom
+  drowned_spawn_egg: Jajce s utonenjcem
+  elder_guardian_spawn_egg: Jajce s prastražem
+  enderman_spawn_egg: Jajce s endermanom
+  endermite_spawn_egg: Jajce s endermitom
+  evoker_spawn_egg: Jajce s privoditeljem
+  fox_spawn_egg: Jajce s lisom
+  ghast_spawn_egg: Jajce s gastom
+  guardian_spawn_egg: Jajce s stražem
+  hoglin_spawn_egg: Jajce Plodženja Hoglina
+  horse_spawn_egg: Jajce s konjem
+  husk_spawn_egg: Jajce s pustynnikom
+  llama_spawn_egg: Jajce s lamoju
+  magma_cube_spawn_egg: Jajce s kostkoju magmy
+  mooshroom_spawn_egg: Jajce s mušrumom
+  mule_spawn_egg: Jajce s mulom
+  ocelot_spawn_egg: Jajce s ocelotom
+  panda_spawn_egg: Jace s pandoju
+  parrot_spawn_egg: Jajce s papugajem
+  phantom_spawn_egg: Jajce s fantomom
+  pig_spawn_egg: Jajce so svinjoju
+  piglin_spawn_egg: Jajce Plodženja Piglina
+  pillager_spawn_egg: Jajce s razbojnikom
+  polar_bear_spawn_egg: Jajce s polarnym medvědom
+  pufferfish_spawn_egg: Jajce s naduvačem
+  rabbit_spawn_egg: Jajce s kralikom
+  ravager_spawn_egg: Jajce s niščiteljem
+  salmon_spawn_egg: Jajce s lososom
+  sheep_spawn_egg: Jajce s ovcoju
+  shulker_spawn_egg: Jajce so šalkerov
+  silverfish_spawn_egg: Jajce s srěbrnoju ryboju
+  skeleton_spawn_egg: Jajce so skeletom
+  skeleton_horse_spawn_egg: Jajce s konjskym skeletom
+  slime_spawn_egg: Jajce so slizecom
+  spider_spawn_egg: Jajce so pavukom
+  squid_spawn_egg: Jajce so sprukom
+  stray_spawn_egg: Jajce s bludnikom
+  strider_spawn_egg: Jajce s lavohodom
+  trader_llama_spawn_egg: Jajce s lamoju kupca
+  tropical_fish_spawn_egg: Jajce s tropičnoju ryboju
+  turtle_spawn_egg: Jajce so žolvoju
+  vex_spawn_egg: Jajce s ogorčateljem
+  villager_spawn_egg: Jajce so seljanom
+  vindicator_spawn_egg: Jajce so mstiteljem
+  wandering_trader_spawn_egg: Jajce s putujučim kupcem
+  witch_spawn_egg: Jajce s vědmoju
+  wither_skeleton_spawn_egg: Jajce s vizerovym skeletom
+  wolf_spawn_egg: Jajce s volkom
+  zoglin_spawn_egg: Jajce s zoglinom
+  zombie_spawn_egg: Jajce s zombeju
+  zombie_horse_spawn_egg: Jajce s konjem zombeju
+  zombie_villager_spawn_egg: Jajce so seljanom zombeju
+  zombified_piglin_spawn_egg: Jajce Plodženja Zombificirovanogo Piglina
+  experience_bottle: Čarovna butylka
+  fire_charge: Ognjena kulja
+  writable_book: Kniga s perom
+  written_book: Zapisana kniga
+  emerald: Smaragd
+  item_frame: Oprava na prědemet
+  flower_pot: Cvětny grn
+  carrot: Mrkva
+  potato: Kartofelj
+  baked_potato: Pečeny kartofelj
+  poisonous_potato: Otravny kartofelj
+  map: Duta mapa
+  golden_carrot: Zlata mrkva
+  skeleton_skull: Čerep skeleta
+  wither_skeleton_skull: Nastěnny čerep vizerovogo skeleta
+  player_head: Glava igrača
+  zombie_head: Glava zombe
+  creeper_head: Glava kripera
+  dragon_head: Glava drakona
+  carrot_on_a_stick: Mrkva na palkě
+  warped_fungus_on_a_stick: Izvačeny grib na palkě
+  nether_star: Zvězda nezera
+  pumpkin_pie: Tykvova galeta
+  firework_rocket: Fejerverk
+  firework_star: Zvězdka pirotehnična
+  enchanted_book: Čarovna kniga
+  nether_brick: Nezerova cegla
+  quartz: Kvarc nezera
+  tnt_minecart: Vagonetka s TNT
+  hopper_minecart: Vagonetka s nasypnikom
+  prismarine_shard: Črěp prizmarina
+  prismarine_crystals: Kristaly prizmarina
+  rabbit: Surovy Kralik
+  cooked_rabbit: Pečeny Kralik
+  rabbit_stew: Supa iz kralika
+  rabbit_foot: Lapa kralika
+  rabbit_hide: Koža kralika
+  armor_stand: Stojak za bronju
+  iron_horse_armor: Želězna konska bronja
+  golden_horse_armor: Zlata konska bronja
+  diamond_horse_armor: Diamantova konska bronja
+  leather_horse_armor: Kožena konska bronja
+  lead: Vodilo
+  name_tag: Imenna značka
+  command_block_minecart: Vagonetka s blokom prikazov
+  mutton: Surova Baranina
+  cooked_mutton: Pečena Baranina
+  white_banner: Běla horugva
+  orange_banner: Oranževa horugva
+  magenta_banner: Purpurna horugva
+  light_blue_banner: Jasnomodra horugva
+  yellow_banner: Žolta horugva
+  lime_banner: Jasnozelena horugva
+  pink_banner: Rozova horugva
+  gray_banner: Siva horugva
+  light_gray_banner: Jasnosiva horugva
+  cyan_banner: Turkysova horugva
+  purple_banner: Fioletova horugva
+  blue_banner: Modra horugva
+  brown_banner: Koričneva horugva
+  green_banner: Zelena horugva
+  red_banner: Črvena horugva
+  black_banner: Črna horugva
+  end_crystal: Kristal Enda
+  chorus_fruit: Ovoč horusa
+  popped_chorus_fruit: Vypukany ovoč horusa
+  beetroot: Cvekla
+  beetroot_seeds: Sěme cvekly
+  beetroot_soup: Boršč
+  dragon_breath: Dyh drakona
+  splash_potion: Metany magičny napitok
+  spectral_arrow: Prividna strěla
+  tipped_arrow: Obrabotana strěla
+  lingering_potion: Dolgotrajny magičny napitok
+  shield: Ščit
+  elytra: Elitra
+  spruce_boat: Smrěkova lodka
+  birch_boat: Brězova lodka
+  jungle_boat: Džunglova lodka
+  acacia_boat: Akacova lodka
+  dark_oak_boat: Mračnodubova lodka
+  totem_of_undying: Totem nesmrteljnosti
+  shulker_shell: Skorlupa šalkera
+  iron_nugget: Želězny samorod
+  knowledge_book: Kniga vědy
+  debug_stick: Debugujuča palka
+  music_disc_13: Melodičny disk
+  music_disc_cat: Melodičny disk
+  music_disc_blocks: Melodičny disk
+  music_disc_chirp: Melodičny disk
+  music_disc_far: Melodičny disk
+  music_disc_mall: Melodičny disk
+  music_disc_mellohi: Melodičny disk
+  music_disc_stal: Melodičny disk
+  music_disc_strad: Melodičny disk
+  music_disc_ward: Melodičny disk
+  music_disc_11: Melodičny disk
+  music_disc_wait: Melodičny disk
+  music_disc_pigstep: Melodičny disk
+  trident: Trizubec
+  phantom_membrane: Blana fantoma
+  nautilus_shell: Skorlupa nautilusa
+  heart_of_the_sea: Morsko srdce
+  crossbow: Samostrel
+  suspicious_stew: Podzrěna polivka
+  loom: Stanok
+  flower_banner_pattern: Črtež horugvy
+  creeper_banner_pattern: Črtež horugvy
+  skull_banner_pattern: Črtež horugvy
+  mojang_banner_pattern: Črtež horugvy
+  globe_banner_pattern: Črtež horugvy
+  piglin_banner_pattern: Črtež horugvy
+  composter: Kompostnik
+  barrel: Bočka
+  smoker: Zapeč
+  blast_furnace: Goreči peč
+  cartography_table: Kartografičny stol
+  fletching_table: Stol do produkcije strěl
+  grindstone: Brus
+  lectern: Pult
+  smithing_table: Kovačsky stol
+  stonecutter: Kamenosěkator
+  bell: Zvon
+  lantern: Světilka
+  soul_lantern: Světilka duš
+  sweet_berries: Sladke brusnice
+  campfire: Taborny ogonj
+  soul_campfire: Taborny ogonj duš
+  shroomlight: Světlogrib
+  honeycomb: Sotovje
+  bee_nest: Pčelino gnězdo
+  beehive: Ulja
+  honey_bottle: Butylka meda
+  honey_block: Medovy blok
+  honeycomb_block: Sotovny blok
+  lodestone: Magnetit
+  netherite_block: Blok nezerita
+  ancient_debris: Drěvny ulomok
+  target: Strěljaj-ščit
+  crying_obsidian: Plačajuči obsidian
+  blackstone: Črnit
+  blackstone_slab: Črnitovy platform
+  blackstone_stairs: Črnitovo stupenišče
+  gilded_blackstone: Pozlačeny črnit
+  polished_blackstone: Polirany črnit
+  polished_blackstone_slab: Polirany črnitovy platform
+  polished_blackstone_stairs: Polirano črnitovo stupenišče
+  chiseled_polished_blackstone: Vrubany polirany črnit
+  polished_blackstone_bricks: Polirane črnitove cegly
+  polished_blackstone_brick_slab: Polirany črnitovy cegleny platform
+  polished_blackstone_brick_stairs: Polirano črnitovo cegleno stupenišče
+  cracked_polished_blackstone_bricks: Razdrobjene polirane črnitove cegly
+  respawn_anchor: Prěrodeča kotva
+  water: Voda
+  lava: Lava
+  tall_seagrass: Vysoka morska trava
+  piston_head: Glavica poršenja
+  moving_piston: Dvigajuči poršenj
+  wall_torch: Nastěnna faklja
+  fire: Ogonj
+  soul_fire: Ogonj duš
+  redstone_wire: Provod redstouna
+  oak_wall_sign: Nastěnny dubovy nadpis
+  spruce_wall_sign: Nastěenny smrěkovy nadpis
+  birch_wall_sign: Nastěnny brězovy nadpis
+  acacia_wall_sign: Nastěnny akacovy nadpis
+  jungle_wall_sign: Nastěnny džunglovy nadpis
+  dark_oak_wall_sign: Nastěnny mračnodubovy nadpis
+  redstone_wall_torch: Nastěnna redstounova faklja
+  soul_wall_torch: Nastěnna faklja duš
+  nether_portal: Prohod v Nezeru
+  attached_pumpkin_stem: Prilučeno steblo tykvy
+  attached_melon_stem: Prilučeno steblo dynje
+  pumpkin_stem: Steblo tykvy
+  melon_stem: Steblo dynje
+  end_portal: Portal endu
+  cocoa: Kakao
+  tripwire: Provod
+  potted_oak_sapling: Dubovy rastok v grnu
+  potted_spruce_sapling: Jelovy rastok v grnu
+  potted_birch_sapling: Brězovy rastok v grnu
+  potted_jungle_sapling: Džunglovy rastok v grnu
+  potted_acacia_sapling: Akacovy rastok v grnu
+  potted_dark_oak_sapling: Mračnodubovy rastok v grnu
+  potted_fern: Paprat v grnu
+  potted_dandelion: Dmuhavec v grnu
+  potted_poppy: Mak v grnu
+  potted_blue_orchid: Modra orhideja v grnu
+  potted_allium: Česnok v grnu
+  potted_azure_bluet: Haustonja modra v grnu
+  potted_red_tulip: Črveny tulipan v grnu
+  potted_orange_tulip: Oranževy tulipan v grnu
+  potted_white_tulip: Běly tulipan v grnu
+  potted_pink_tulip: Rozovy tulipan v grnu
+  potted_oxeye_daisy: Romaška v grnu
+  potted_cornflower: Sinij vasiljok v grnu
+  potted_lily_of_the_valley: Landiš v grnu
+  potted_wither_rose: Roza vizera v grnu
+  potted_red_mushroom: Muhomor v grnu
+  potted_brown_mushroom: Borovik v grnu
+  potted_dead_bush: Usohnuty kust v grnu
+  potted_cactus: Kaktus v grnu
+  carrots: Mrkvy
+  potatoes: Kartoflje
+  skeleton_wall_skull: Nastěnny čerep skeleta
+  wither_skeleton_wall_skull: Nastěnny čerep vizerovogo skeleta
+  zombie_wall_head: Nastěnna glava zombe
+  player_wall_head: Nastěnna glava igrača
+  creeper_wall_head: Nastěnna glava kripera
+  dragon_wall_head: Nastěnna glava drakona
+  white_wall_banner: Běla horugva
+  orange_wall_banner: Oranževa horugva
+  magenta_wall_banner: Purpurna horugva
+  light_blue_wall_banner: Jasnomodra horugva
+  yellow_wall_banner: Žolta horugva
+  lime_wall_banner: Jasnozelena horugva
+  pink_wall_banner: Rozova horugva
+  gray_wall_banner: Siva horugva
+  light_gray_wall_banner: Jasnosiva horugva
+  cyan_wall_banner: Turkysova horugva
+  purple_wall_banner: Fioletova horugva
+  blue_wall_banner: Modra horugva
+  brown_wall_banner: Koričneva horugva
+  green_wall_banner: Zelena horugva
+  red_wall_banner: Črvena horugva
+  black_wall_banner: Črna horugva
+  beetroots: Cvekly
+  end_gateway: Vrata Enda
+  frosted_ice: Krěhky led
+  kelp_plant: Rastuči vodorasty
+  dead_tube_coral_wall_fan: Mrtvy Vějarovy Trubovy Stěnny Koral
+  dead_brain_coral_wall_fan: Mrtvy Vějarovy Mozgovy Stěnny Koral
+  dead_bubble_coral_wall_fan: Mrtvy Vějarovy Bublinovy Stěnny Koral
+  dead_fire_coral_wall_fan: Mrtvy Vějarovy Žženy Stěnny Koral
+  dead_horn_coral_wall_fan: Mrtvy Vějarovy Rogovy Stěnny Koral
+  tube_coral_wall_fan: Stěnovy Vějarovy Cěvkovy Koral
+  brain_coral_wall_fan: Stěnovy Mozgovy Vějarovy Koral
+  bubble_coral_wall_fan: Stěnovy Bublinovy Vjarovy Koral
+  fire_coral_wall_fan: Vějarny Žžemy Stěnny Koral
+  horn_coral_wall_fan: Vějarovy Rogovy Stěnny Koral
+  bamboo_sapling: Bambusovy rastok
+  potted_bamboo: Bambus v grnu
+  void_air: Prazdninovy vozduh
+  cave_air: Jamovy vozduh
+  bubble_column: Kolona bublin
+  sweet_berry_bush: Kust sladkyh brusnic
+  weeping_vines_plant: Rastuča plačuča polzavica
+  twisting_vines_plant: Rastuča vijuča polzavica
+  potted_crimson_fungus: Bagrovy grib v grnu
+  potted_warped_fungus: Izvračeny grib v grnu
+  potted_crimson_roots: Bagrove koreni v grnu
+  potted_warped_roots: Izvračene koreni v grnu
+biome:
+  ocean: Okean
+  plains: Ravniny
+  desert: Pustynja
+  mountains: Gory
+  forest: Lěs
+  taiga: Tajga
+  swamp: Močar
+  river: Rěka
+  nether_wastes: Prazdnina nezera
+  the_end: End
+  frozen_ocean: Mraženy Okean
+  frozen_river: Mražena Rěka
+  snowy_tundra: Sněžna Tundra
+  snowy_mountains: Sněžne Gory
+  mushroom_fields: Polje s Gribami
+  mushroom_field_shore: Brěg Polja s Gribami
+  beach: Plaž
+  desert_hills: Pustynjeve Gorky
+  wooded_hills: Lěsiste gorky
+  taiga_hills: Tajgove Gorky
+  mountain_edge: Kraj Gory
+  jungle: Džungla
+  jungle_hills: Džunglove Gorky
+  jungle_edge: Kraj Džungly
+  deep_ocean: Gluboky Okean
+  stone_shore: Kamenno pribrěžje
+  snowy_beach: Sněžny Brěg
+  birch_forest: Brězovy lěs
+  birch_forest_hills: Lěs brězy s gorkami
+  dark_forest: Mračny lěs
+  snowy_taiga: Sněžna Tajga
+  snowy_taiga_hills: Sněžne Gorky v Tajgě
+  wooded_mountains: Lěsiste gory
+  savanna: Savana
+  badlands: Jalove zemje
+  wooded_badlands_plateau: Lěsista vysoka ravnina s nedobroju zemju
+  badlands_plateau: Vysoka ravnina s nedobroju zemju
+  warm_ocean: Teply Okean
+  lukewarm_ocean: Teplovaty Okean
+  cold_ocean: Hladny Okean
+  deep_warm_ocean: Gluboky Teply Okean
+  deep_lukewarm_ocean: Gluboky Teplovaty Okean
+  deep_cold_ocean: Gluboky Hladny Okean
+  deep_frozen_ocean: Gluboky Mraženy Okean
+  the_void: Prazdnina
+  desert_lakes: Pustynja s jezerami
+  flower_forest: Cvětny lěs
+  modified_jungle: Modifikovana džungla
+  modified_jungle_edge: Modifikovany kraj džungly
+  tall_birch_forest: Vysoky lěs brězy
+  tall_birch_hills: Vysoky lěs brězy s gorkami
+  bamboo_jungle: Bambusova Džungla
+  bamboo_jungle_hills: Džunglove Gorky s Bambusom
+  soul_sand_valley: Dolina duš
+  crimson_forest: Bagrovy lěs
+  warped_forest: Izvračeny lěs
+  basalt_deltas: Bazaltove deljty
+  nether: Nezer
+enchantment:
+  fire_protection: Ohrana protiv ognju
+  sharpness: Ostrost
+  flame: Plamenj
+  soul_speed: Bystrost duš
+  aqua_affinity: Efektivnost ve vodě
+  punch: Udar
+  loyalty: Lojalnost
+  depth_strider: Bystroplavec
+  vanishing_curse: Kletva izčezanja
+  unbreaking: Neniščimost
+  knockback: Odražanje
+  luck_of_the_sea: Morsko ščestje
+  binding_curse: Kletva svezanja
+  fortune: Ščestje
+  protection: Ohrana
+  efficiency: Efektivnost
+  mending: Poprava
+  frost_walker: Mrazny hodec
+  lure: Primamka
+  looting: Graběž
+  piercing: Probivanje
+  blast_protection: Ohrana protiv eizbuhu
+  smite: Udar neumrtyh
+  multishot: Mnogostrěl
+  fire_aspect: Mocnost ognja
+  channeling: Nabitje
+  sweeping: Mětajuče ostrje
+  thorns: Trny
+  bane_of_arthropods: Bič členistonogyh
+  respiration: Dyhanje
+  riptide: Zavrtěnje
+  silk_touch: Jedvabno tykanje
+  quick_charge: Bystronabitje
+  projectile_protection: Obrana protiv strělam
+  impaling: Zaklatje
+  feather_falling: Beztežnost
+  power: Sila
+  infinity: Bezkonečnost
+potion:
+  uncraftable: Neizrabotatelny Napitok
+  water: Butylka vody
+  mundane: Obyčajny napitok
+  thick: Slaby napitok
+  awkward: Čudny napitok
+  night_vision: Napitok viděnja v mraku
+  invisibility: Napitok nevidimosti
+  jump: Napitok skoka
+  fire_resistance: Napitok ognjeodpornosti
+  speed: Napitok bystrosti
+  slowness: Napitok nebystri
+  water_breathing: Napitok podvodnogo dyhanja
+  instant_heal: Napitok ozdravjenja
+  instant_damage: Napitok krivdy
+  poison: Napitok jada
+  regen: Napitok regeneracije
+  strength: Napitok sily
+  weakness: Napitok slabosti
+  luck: Napitok ščestja
+  turtle_master: Napitok majstra žolvov
+  slow_falling: Napitok medlogo upada
+splash_potion:
+  uncraftable: Metany neizvodlivy napitok
+  water: Metana butylka vody
+  mundane: Metany obyčajny napitok
+  thick: Metany slaby napitok
+  awkward: Metany čudny napitok
+  night_vision: Metany napitok viděnja v mraku
+  invisibility: Metany napitok nevidimosti
+  jump: Metany napitok skoka
+  fire_resistance: Metany napitok ognjeodpornosti
+  speed: Metany napitok bystrosti
+  slowness: Metany napitok nebystri
+  water_breathing: Metany napitok podvodnogo dyhanja
+  instant_heal: Metany napitok lěčenja
+  instant_damage: Metany napitok krivdy
+  poison: Metany napitok jada
+  regen: Metany napitok regeneracije
+  strength: Metany napitok sily
+  weakness: Metany napitok slabosti
+  luck: Metany napitok ščestja
+  turtle_master: Metany napitok majstra žolvov
+  slow_falling: Metany napitok medlogo upada
+lingering_potion:
+  uncraftable: Dolgotrajny neizvodlivy napitok
+  water: Dolgotrajna butylka vody
+  mundane: Dolgotrajny obyčajny napitok
+  thick: Dolgotrajny slaby napitok
+  awkward: Dolgotrajny čudny napitok
+  night_vision: Dolgotrajny napitok viděnja v mraku
+  invisibility: Dolgotrajny napitok nevidimosti
+  jump: Dolgotrajny napitok skoka
+  fire_resistance: Dolgotrajny napitok ognjeodpornosti
+  speed: Dolgotrajny napitok bystrosti
+  slowness: Dolgotrajny napitok nebystri
+  water_breathing: Dolgotrajny napitok podvodnogo dyhanja
+  instant_heal: Dolgotrajny napitok lěčenja
+  instant_damage: Dolgotrajny napitok krivdy
+  poison: Dolgotrajny napitok jada
+  regen: Dolgotrajny napitok regeneracije
+  strength: Dolgotrajny napitok sily
+  weakness: Dolgotrajny napitok slabosti
+  luck: Dolgotrajny napitok ščestja
+  turtle_master: Dolgotrajny napitok majstra žolvov
+  slow_falling: Dolgotrajny napitok medlogo upada
+tipped_arrow:
+  uncraftable: Neizrabotatelna Namočena Strěla
+  water: Strěla bryzganja
+  mundane: Obrabotana strěla
+  thick: Obrabotana strěla
+  awkward: Obrabotana strěla
+  night_vision: Strěla viděnja v mraku
+  invisibility: Strěla nevidimosti
+  jump: Strěla skoka
+  fire_resistance: Strěla ognjeodpornosti
+  speed: Strěla bystrosti
+  slowness: Strěla nebystri
+  water_breathing: Strěla podvodnogo dyhanja
+  instant_heal: Strěla lěčenja
+  instant_damage: Strěla krivdy
+  poison: Jadovita strěla
+  regen: Strěla gojena
+  strength: Stěla sily
+  weakness: Strěla slabosti
+  luck: Strěla ščestja
+  turtle_master: Strěla majstra žolvov
+  slow_falling: Strěla medlogo upada
+entity:
+  dropped_item: Prědmet
+  experience_orb: Kulja izkušenost
+  area_effect_cloud: Oblak od magičnyh napitkov
+  elder_guardian: Prastraž
+  wither_skeleton: Vizerovy skelet
+  stray: Bluditelj
+  egg: Kydneno jajce
+  leash_hitch: Vezka povodka
+  painting: Obraz
+  arrow: Strěla
+  snowball: Kalina
+  fireball: Žar-kulja
+  small_fireball: Mala žar-kulja
+  ender_pearl: Kydnena ender-perla
+  ender_signal: Oko Endera
+  splash_potion: Magičny napitok
+  thrown_exp_bottle: Kydnuta čarovna butylka
+  item_frame: Oprava na prědemet
+  wither_skull: Čerep vizera
+  primed_tnt: Aktivovano TNT
+  falling_block: Spadajuči blok
+  firework: Fejerverk
+  husk: Pustynnik
+  spectral_arrow: Strěla fantom
+  shulker_bullet: Kulja šalkera
+  dragon_fireball: Drakonova kulja ognja
+  zombie_villager: Seljan zombi
+  skeleton_horse: Konj skelet
+  zombie_horse: Konj zombi
+  armor_stand: Stojak za bronju
+  donkey: Osel
+  mule: Mul
+  evoker_fangs: Kly privoditelja
+  evoker: Privoditelj
+  vex: Ogorčatelj
+  vindicator: Mstitelj
+  illusioner: Iluzijec
+  minecart_command: Vozok s blokom prikazov
+  boat: Lodka
+  minecart: Vagonetka
+  minecart_chest: Vozok so skladiščem
+  minecart_furnace: Vozok s pečem
+  minecart_tnt: Vagonetka s TNT
+  minecart_hopper: Vagonetka s nasypnikom
+  minecart_mob_spawner: Vagonetka so stvoriščem
+  creeper: Kriper
+  skeleton: Skelet
+  spider: Pavuk
+  giant: Gigant
+  zombie: Zombi
+  slime: Slizec
+  ghast: Gast
+  zombified_piglin: Zombizovany piglin
+  enderman: Enderman
+  cave_spider: Jamovy pavuk
+  silverfish: Srěbrna ryba
+  blaze: Plamenjec
+  magma_cube: Kostka magmy
+  ender_dragon: Drakon Enda
+  wither: Vizer
+  bat: Lětajuča myš
+  witch: Vědma
+  endermite: Endermit
+  guardian: Straž
+  shulker: Šalker
+  pig: Svinja
+  sheep: Ovca
+  cow: Krava
+  chicken: Kura
+  squid: Sprut
+  wolf: Volk
+  mushroom_cow: Mušrum
+  snowman: Sněžny golem
+  ocelot: Ocelot
+  iron_golem: Želězny golem
+  horse: Konj
+  rabbit: Kralik
+  polar_bear: Polarny medvěd
+  llama: Lama
+  llama_spit: Slina lamy
+  parrot: Papugaj
+  villager: Seljan
+  ender_crystal: Endovy kristal
+  turtle: Žolv
+  phantom: Fantom
+  trident: Trizubec
+  cod: Treska
+  salmon: Losos
+  pufferfish: Naduvač
+  tropical_fish: Tropična ryba
+  drowned: Utonenjec
+  dolphin: Delfin
+  cat: Kot
+  panda: Panda
+  pillager: Razbojnik
+  ravager: Niščitelj
+  trader_llama: Lama kupca
+  wandering_trader: Putujuči kupec
+  fox: Lisica
+  bee: Pčela
+  hoglin: Vepr
+  piglin: Piglin
+  strider: Lavohod
+  zoglin: Zoglin
+  fishing_hook: Plavka
+  lightning: Perun
+  player: Igrač
+  pig_zombie: Zombik Prasak
+effect:
+  speed: Bystrost
+  slow: Spomaljenje
+  fast_digging: Pospěh
+  slow_digging: Umorjenje
+  increase_damage: Moč
+  heal: Sejčasno lěčenje
+  harm: Sejčasno poškodženje
+  jump: Uveličeny skok
+  confusion: Mlost
+  regeneration: Regeneracija
+  damage_resistance: Odpornost
+  fire_resistance: Odpornost odnosno ogonju
+  water_breathing: Podvodno dyhanje
+  invisibility: Nevidimost
+  blindness: Slěpost
+  night_vision: Nočne viděnje
+  hunger: Glad
+  weakness: Slabost
+  poison: Otravjenje
+  wither: Obsyhanje
+  health_boost: Posilněnje zdravja
+  absorption: Absorpcija
+  saturation: Nasyčenje
+  glowing: Blěsk
+  levitation: Letanje
+  luck: Ščestje
+  unluck: Zle Ščestje
+  slow_falling: Povoljny upad
+  conduit_power: Stihija Vody
+  dolphins_grace: Laska delfina
+  bad_omen: Lihy prědznak
+  hero_of_the_village: Heroj sela
+tropical_fish_type:
+  kob: Kob
+  sunstreak: Solncica
+  snooper: Krastiryba
+  dasher: Bystraryba
+  brinely: Soljryba
+  spotty: Točkovana
+  flopper: Floper
+  stripey: Linijaryba
+  glitter: Světlaryba
+  blockfish: Kostkaryba
+  betty: Bety
+  clayfish: Glinaryba
+dye_color:
+  white: Běly
+  orange: Oranževy
+  magenta: Purpurny
+  light_blue: Jasnosinji
+  yellow: Žolty
+  lime: Jasnozeleny
+  pink: Rozovy
+  gray: Sivy
+  light_gray: Jasnosivy
+  cyan: Turkysovy
+  purple: Fioletovy
+  blue: Modry
+  brown: Koričnevy
+  green: Zeleny
+  red: Črveny
+  black: Črny
+named:
+  player_head_named: Glava igrača %s
+  potion_with_amplifier: '%s %s'
+  potion_with_duration: '%s (%s)'
+  unknown_enchantment: 'Neznany zaklinanje: %s'
+  unknown_entity: 'Neznany entitet: %s'
+  unknown_effect: 'Neznany efekt: %s'
+tropical_fish_name:
+  '117506305': Ampifrjon
+  '117899265': Bodlok dolgonosovy
+  '185008129': Bodlok pestry
+  '117441793': Četyrooka ryba
+  '118161664': Kichlid
+  '65536': Klaunoryba
+  '50726144': Bojeva ryba
+  '67764993': Diademyca
+  '234882305': Kraljevsky sneper črveny
+  '67110144': Kozjaryba
+  '117441025': Maursky idol
+  '16778497': Elegantny motyljryba
+  '101253888': Papugajryba
+  '50660352': Kraljeva angelryba
+  '918529': Črvena ciklyda
+  '235340288': Črveny guby bleny
+  '918273': Črveny sneper
+  '67108865': Nitkaryba
+  '917504': Pomidorova klounryba
+  '459008': Spustryba
+  '67699456': Žoltaogonova papugajryba
+  '67371009': Žolty tang
+colored_shied:
+  white: Běly ščit
+  orange: Oranževy ščit
+  magenta: Purpurny ščit
+  light_blue: Jasnomodry ščit
+  yellow: Žolty ščit
+  lime: Jasnozeleny ščit
+  pink: Rozovy ščit
+  gray: Sivy ščit
+  light_gray: Jasnosivy ščit
+  cyan: Turkysovy ščit
+  purple: Fioletovy ščit
+  blue: Modry ščit
+  brown: Koričnevy ščit
+  green: Zeleny ščit
+  red: Črveny ščit
+  black: Črny ščit
+banner_pattern:
+  '65536': Běly dolny lěvy kut
+  '65537': Oranževy dolny lěvy kut
+  '65538': Purpurny dolny lěvy kut
+  '65539': Jasnomodry dolny lěvy kut
+  '65540': Žolty dolny lěvy kut
+  '65541': Jasnozeleny dolny lěvy kut
+  '65542': Rozovy dolny lěvy kut
+  '65543': Sivy dolny lěvy kut
+  '65544': Jasnosivy dolny lěvy kut
+  '65545': Turkysovy dolny lěvy kut
+  '65546': Fioletovy dolny lěvy kut
+  '65547': Modry dolny lěvy kut
+  '65548': Koričnevy dolny lěvy kut
+  '65549': Zeleny dolny lěvy kut
+  '65550': Črveny dolny lěvy kut
+  '65551': Črny dolny lěvy kut
+  '131072': Běly dolny pravy kut
+  '131073': Oranževy dolny pravy kut
+  '131074': Purpurny dolny pravy kut
+  '131075': Jasnomodry dolny pravy kut
+  '131076': Žolty dolny pravy kut
+  '131077': Jasnozeleny dolny pravy kut
+  '131078': Rozovy dolny pravy kut
+  '131079': Sivy dolny pravy kut
+  '131080': Jasnosivy dolny pravy kut
+  '131081': Turkysovy dolny pravy kut
+  '131082': Fioletovy dolny pravy kut
+  '131083': Modry dolny pravy kut
+  '131084': Koričnevy dolny pravy kut
+  '131085': Zeleny dolny pravy kut
+  '131086': Črveny dolny pravy kut
+  '131087': Črny dolny pravy kut
+  '196608': Běly vrhny lěvy kut
+  '196609': Oranževy vrhny lěvy kut
+  '196610': Purpurny vrhny lěvy kut
+  '196611': Jasnomodry vrhny lěvy kut
+  '196612': Žolty vrhny lěvy kut
+  '196613': Jasnozeleny vrhny lěvy kut
+  '196614': Rozovy vrhny lěvy kut
+  '196615': Sivy vrhny lěvy kut
+  '196616': Jasnosivy vrhny lěvy kut
+  '196617': Turkysovy vrhny lěvy kut
+  '196618': Fioletovy vrhny lěvy kut
+  '196619': Modry vrhny lěvy kut
+  '196620': Koričnevy vrhny lěvy kut
+  '196621': Zeleny vrhny lěvy kut
+  '196622': Črveny vrhny lěvy kut
+  '196623': Črny vrhny lěvy kut
+  '262144': Běly vrhny pravy kut
+  '262145': Oranževy vrhny pravy kut
+  '262146': Purpurny vrhny pravy kut
+  '262147': Jasnomodry vrhny pravy kut
+  '262148': Žolty vrhny pravy kut
+  '262149': Jasnozeleny vrhny pravy kut
+  '262150': Rozovy vrhny pravy kut
+  '262151': Sivy vrhny pravy kut
+  '262152': Jasnosivy vrhny pravy kut
+  '262153': Turkysovy vrhny pravy kut
+  '262154': Fioletovy vrhny pravy kut
+  '262155': Modry vrhny pravy kut
+  '262156': Koričnevy vrhny pravy kut
+  '262157': Zeleny vrhny pravy kut
+  '262158': Črveny vrhny pravy kut
+  '262159': Črny vrhny pravy kut
+  '327680': Běla dolna linija
+  '327681': Oranževa dolna linija
+  '327682': Purpurna dolna linija
+  '327683': Jasnomodra dolna linija
+  '327684': Žolta dolna linija
+  '327685': Jasnozelena dolna linija
+  '327686': Rozova dolna linija
+  '327687': Siva dolna linija
+  '327688': Jasnosiva dolna linija
+  '327689': Turkysova dolna linija
+  '327690': Fioletova dolna linija
+  '327691': Modra dolna linija
+  '327692': Koričneva dolna linija
+  '327693': Zelena dolna linija
+  '327694': Črvena dolna linija
+  '327695': Črna dolna linija
+  '393216': Běla vrhna podstava
+  '393217': Oranževa vrhna podstava
+  '393218': Purpurna vrhna podstava
+  '393219': Jasnomodra vrhna podstava
+  '393220': Žolta vrhna podstava
+  '393221': Jasnozelena vrhna podstava
+  '393222': Rozova vrhna podstava
+  '393223': Siva vrhna podstava
+  '393224': Jasnosiva vrhna podstava
+  '393225': Turkysova vrhna podstava
+  '393226': Fioletova vrhna podstava
+  '393227': Modra vrhna podstava
+  '393228': Koričneva vrhna podstava
+  '393229': Zelena vrhna podstava
+  '393230': Črvena vrhna podstava
+  '393231': Črna vrhna podstava
+  '458752': Běla lěva linija
+  '458753': Oranževa lěva linija
+  '458754': Purpurna lěva linija
+  '458755': Jasnomodra lěva linija
+  '458756': Žolta lěva linija
+  '458757': Jasnozelena lěva linija
+  '458758': Rozova lěva linija
+  '458759': Siva lěva linija
+  '458760': Jasnosiva lěva linija
+  '458761': Turkysova lěva linija
+  '458762': Fioletova lěva linija
+  '458763': Modra lěva linija
+  '458764': Koričneva lěva linija
+  '458765': Zelena lěva linija
+  '458766': Črvena lěva linija
+  '458767': Črna lěva linija
+  '524288': Běla prava linija
+  '524289': Oranževa prava linija
+  '524290': Purpurna prava linija
+  '524291': Jasnomodra prava linija
+  '524292': Žolta prava linija
+  '524293': Jasnozelena prava linija
+  '524294': Rozova prava linija
+  '524295': Siva prava linija
+  '524296': Jasnosiva prava linija
+  '524297': Turkysova prava linija
+  '524298': Fioletova prava linija
+  '524299': Modra prava linija
+  '524300': Koričneva prava linija
+  '524301': Zelena prava linija
+  '524302': Črvena prava linija
+  '524303': Črna prava linija
+  '589824': Běla srědna linija vertikalna
+  '589825': Oranževa srědna linija vertikalna
+  '589826': Purpurna srědna linija vertikalna
+  '589827': Jasnomodra srědna linija vertikalna
+  '589828': Žolta srědna linija vertikalna
+  '589829': Jasnozelena srědna linija vertikalna
+  '589830': Rozova srědna linija vertikalna
+  '589831': Siva srědna linija vertikalna
+  '589832': Jasnosiva srědna linija vertikalna
+  '589833': Turkysova srědna linija vertikalna
+  '589834': Fioletova srědna linija vertikalna
+  '589835': Modra srědna linija vertikalna
+  '589836': Koričneva srědna linija vertikalna
+  '589837': Zelena srědna linija vertikalna
+  '589838': Črvena srědna linija vertikalna
+  '589839': Črna srědna linija vertikalna
+  '655360': Běla srědna linija horizontalna
+  '655361': Oranževa srědna linija horizontalna
+  '655362': Purpurna srědna linija horizontalna
+  '655363': Jasnomodra srědna linija horizontalna
+  '655364': Žolta srědna linija horizontalna
+  '655365': Jasnozelena srědna linija horizontalna
+  '655366': Rozova srědna linija horizontalna
+  '655367': Siva srědna linija horizontalna
+  '655368': Jasnosiva srědna linija horizontalna
+  '655369': Turkysova srědna linija horizontalna
+  '655370': Fioletova srědna linija horizontalna
+  '655371': Modra srědna linija horizontalna
+  '655372': Koričneva srědna linija horizontalna
+  '655373': Zelena srědna linija horizontalna
+  '655374': Črvena srědna linija horizontalna
+  '655375': Črna srědna linija horizontalna
+  '720896': Běla dolna-prava linija
+  '720897': Oranževa dolna-prava linija
+  '720898': Purpurna dolna-prava linija
+  '720899': Jasnomodra dolna-prava linija
+  '720900': Žolta dolna-prava linija
+  '720901': Jasnozelena dolna-prava linija
+  '720902': Rozova dolna-prava linija
+  '720903': Siva dolna-prava linija
+  '720904': Jasnosiva dolna-prava linija
+  '720905': Turkysova dolna-prava linija
+  '720906': Fioletova dolna-prava linija
+  '720907': Modra dolna-prava linija
+  '720908': Koričneva dolna-prava linija
+  '720909': Zelena dolna-prava linija
+  '720910': Črvena dolna-prava linija
+  '720911': Črna dolna-prava linija
+  '786432': Běla dolna-lěva linija
+  '786433': Oranževa dolna-lěva linija
+  '786434': Purpurna dolna-lěva linija
+  '786435': Jasnomodra dolna-lěva linija
+  '786436': Žolta dolna-lěva linija
+  '786437': Jasnozelena dolna-lěva linija
+  '786438': Rozova dolna-lěva linija
+  '786439': Siva dolna-lěva linija
+  '786440': Jasnosiva dolna-lěva linija
+  '786441': Turkysova dolna-lěva linija
+  '786442': Fioletova dolna-lěva linija
+  '786443': Modra dolna-lěva linija
+  '786444': Koričneva dolna-lěva linija
+  '786445': Zelena dolna-lěva linija
+  '786446': Črvena dolna-lěva linija
+  '786447': Črna dolna-lěva linija
+  '851968': Běle nevelike linije
+  '851969': Oranževe nevelike linije
+  '851970': Purpurne nevelike linije
+  '851971': Jasnomodre nevelike linije
+  '851972': Žolte nevelike linije
+  '851973': Jasnozelene nevelike linije
+  '851974': Rozove nevelike linije
+  '851975': Sive nevelike linije
+  '851976': Jasnosive nevelike linije
+  '851977': Turkysove nevelike linije
+  '851978': Fioletove nevelike linije
+  '851979': Modre nevelike linije
+  '851980': Koričneve nevelike linije
+  '851981': Zelene nevelike linije
+  '851982': Črvene nevelike linije
+  '851983': Črne nevelike linije
+  '917504': Běly križ
+  '917505': Oranževy križ
+  '917506': Purpurny križ
+  '917507': Jasnomodry križ
+  '917508': Žolty križ
+  '917509': Jasnozeleny križ
+  '917510': Rozovy križ
+  '917511': Sivy križ
+  '917512': Jasnosivy križ
+  '917513': Turkysovy križ
+  '917514': Fioletovy križ
+  '917515': Modry križ
+  '917516': Koričnevy križ
+  '917517': Zeleny križ
+  '917518': Črveny križ
+  '917519': Črny križ
+  '983040': Běly križ kvadratny
+  '983041': Oranževy križ kvadratny
+  '983042': Purpurny križ kvadratny
+  '983043': Jasnomodry križ kvadratny
+  '983044': Žolty križ kvadratny
+  '983045': Jasnozeleny križ kvadratny
+  '983046': Rozovy križ kvadratny
+  '983047': Sivy križ kvadratny
+  '983048': Jasnosivy križ kvadratny
+  '983049': Turkysovy križ kvadratny
+  '983050': Fioletovy križ kvadratny
+  '983051': Modry križ kvadratny
+  '983052': Koričnevy križ kvadratny
+  '983053': Zeleny križ kvadratny
+  '983054': Črveny križ kvadratny
+  '983055': Črny križ kvadratny
+  '1048576': Běly dolny trivugolnik
+  '1048577': Oranževy dolny trivugolnik
+  '1048578': Purpurny dolny trivugolnik
+  '1048579': Jasnomodry dolny trivugolnik
+  '1048580': Žolty dolny trivugolnik
+  '1048581': Jasnozeleny dolny trivugolnik
+  '1048582': Rozovy dolny trivugolnik
+  '1048583': Sivy dolny trivugolnik
+  '1048584': Jasnosivy dolny trivugolnik
+  '1048585': Turkysovy dolny trivugolnik
+  '1048586': Fioletovy dolny trivugolnik
+  '1048587': Modry dolny trivugolnik
+  '1048588': Koričnevy dolny trivugolnik
+  '1048589': Zeleny dolny trivugolnik
+  '1048590': Črveny dolny trivugolnik
+  '1048591': Črny dolny trivugolnik
+  '1114112': Běly vrhny trivugolnik
+  '1114113': Oranževy vrhny trivugolnik
+  '1114114': Purpurny vrhny trivugolnik
+  '1114115': Jasnomodry vrhny trivugolnik
+  '1114116': Žolty vrhny trivugolnik
+  '1114117': Jasnozeleny vrhny trivugolnik
+  '1114118': Rozovy vrhny trivugolnik
+  '1114119': Sivy vrhny trivugolnik
+  '1114120': Jasnosivy vrhny trivugolnik
+  '1114121': Turkysovy vrhny trivugolnik
+  '1114122': Fioletovy vrhny trivugolnik
+  '1114123': Modry vrhny trivugolnik
+  '1114124': Koričnevy vrhny trivugolnik
+  '1114125': Zeleny vrhny trivugolnik
+  '1114126': Črveny vrhny trivugolnik
+  '1114127': Črny vrhny trivugolnik
+  '1179648': Běla dolna linija s odstupom
+  '1179649': Oranževa dolna linija s odstupom
+  '1179650': Purpurna dolna linija s odstupom
+  '1179651': Jasnomodra dolna linija s odstupom
+  '1179652': Žolta dolna linija s odstupom
+  '1179653': Jasnozelena dolna linija s odstupom
+  '1179654': Rozova dolna linija s odstupom
+  '1179655': Siva dolna linija s odstupom
+  '1179656': Jasnosiva dolna linija s odstupom
+  '1179657': Turkysova dolna linija s odstupom
+  '1179658': Fioletova dolna linija s odstupom
+  '1179659': Modra dolna linija s odstupom
+  '1179660': Koričneva dolna linija s odstupom
+  '1179661': Zelena dolna linija s odstupom
+  '1179662': Črvena dolna linija s odstupom
+  '1179663': Črna dolna linija s odstupom
+  '1245184': Běla vrhna linija s odstupom
+  '1245185': Oranževa vrhna linija s odstupom
+  '1245186': Purpurna vrhna linija s odstupom
+  '1245187': Jasnomodra vrhna linija s odstupom
+  '1245188': Žolta vrhna linija s odstupom
+  '1245189': Jasnozelena vrhna linija s odstupom
+  '1245190': Rozova vrhna linija s odstupom
+  '1245191': Siva vrhna linija s odstupom
+  '1245192': Jasnosiva vrhna linija s odstupom
+  '1245193': Turkysova vrhna linija s odstupom
+  '1245194': Fioletova vrhna linija s odstupom
+  '1245195': Modra vrhna linija s odstupom
+  '1245196': Koričneva vrhna linija s odstupom
+  '1245197': Zelena vrhna linija s odstupom
+  '1245198': Črvena vrhna linija s odstupom
+  '1245199': Črna vrhna linija s odstupom
+  '1310720': Běly trivugolnik vo vrhnym-lěvym kutu
+  '1310721': Oranževy trivugolnik vo vrhnym-lěvym kutu
+  '1310722': Purpurny trivugolnik vo vrhnym-lěvym kutu
+  '1310723': Jasnomodry trivugolnik vo vrhnym-lěvym kutu
+  '1310724': Žolty trivugolnik vo vrhnym-lěvym kutu
+  '1310725': Jasnozeleny trivugolnik vo vrhnym-lěvym kutu
+  '1310726': Rozovy trivugolnik vo vrhnym-lěvym kutu
+  '1310727': Sivy trivugolnik vo vrhnym-lěvym kutu
+  '1310728': Jasnosivy trivugolnik vo vrhnym-lěvym kutu
+  '1310729': Turkysovy trivugolnik vo vrhnym-lěvym kutu
+  '1310730': Fioletovy trivugolnik vo vrhnym-lěvym kutu
+  '1310731': Modry trivugolnik vo vrhnym-lěvym kutu
+  '1310732': Koričnevy trivugolnik vo vrhnym-lěvym kutu
+  '1310733': Zeleny trivugolnik vo vrhnym-lěvym kutu
+  '1310734': Črveny trivugolnik vo vrhnym-lěvym kutu
+  '1310735': Črny trivugolnik vo vrhnym-lěvym kutu
+  '1376256': Běly trivugolnik v dolnym-pravym kutu
+  '1376257': Oranževy trivugolnik v dolnym-pravym kutu
+  '1376258': Purpurny trivugolnik v dolnym-pravym kutu
+  '1376259': Jasnomodry trivugolnik v dolnym-pravym kutu
+  '1376260': Žolty trivugolnik v dolnym-pravym kutu
+  '1376261': Jasnozeleny trivugolnik v dolnym-pravym kutu
+  '1376262': Rozovy trivugolnik v dolnym-pravym kutu
+  '1376263': Sivy trivugolnik v dolnym-pravym kutu
+  '1376264': Jasnosivy trivugolnik v dolnym-pravym kutu
+  '1376265': Turkysovy trivugolnik v dolnym-pravym kutu
+  '1376266': Fioletovy trivugolnik v dolnym-pravym kutu
+  '1376267': Modry trivugolnik v dolnym-pravym kutu
+  '1376268': Koričnevy trivugolnik v dolnym-pravym kutu
+  '1376269': Zeleny trivugolnik v dolnym-pravym kutu
+  '1376270': Črveny trivugolnik v dolnym-pravym kutu
+  '1376271': Črny trivugolnik v dolnym-pravym kutu
+  '1441792': Běly trivugolnik v dolnym-lěvym kutu
+  '1441793': Oranževy trivugolnik v dolnym-lěvym kutu
+  '1441794': Purpurny trivugolnik v dolnym-lěvym kutu
+  '1441795': Jasnomodry trivugolnik v dolnym-lěvym kutu
+  '1441796': Žolty trivugolnik v dolnym-lěvym kutu
+  '1441797': Jasnozeleny trivugolnik v dolnym-lěvym kutu
+  '1441798': Rozovy trivugolnik v dolnym-lěvym kutu
+  '1441799': Sivy trivugolnik v dolnym-lěvym kutu
+  '1441800': Jasnosivy trivugolnik v dolnym-lěvym kutu
+  '1441801': Turkysovy trivugolnik v dolnym-lěvym kutu
+  '1441802': Fioletovy trivugolnik v dolnym-lěvym kutu
+  '1441803': Modry trivugolnik v dolnym-lěvym kutu
+  '1441804': Koričnevy trivugolnik v dolnym-lěvym kutu
+  '1441805': Zeleny trivugolnik v dolnym-lěvym kutu
+  '1441806': Črveny trivugolnik v dolnym-lěvym kutu
+  '1441807': Črny trivugolnik v dolnym-lěvym kutu
+  '1507328': Běly trivugolnik vo vrhnym-pravym kutu
+  '1507329': Oranževy trivugolnik vo vrhnym-pravym kutu
+  '1507330': Purpurny trivugolnik vo vrhnym-pravym kutu
+  '1507331': Jasnomodry trivugolnik vo vrhnym-pravym kutu
+  '1507332': Žolty trivugolnik vo vrhnym-pravym kutu
+  '1507333': Jasnozeleny trivugolnik vo vrhnym-pravym kutu
+  '1507334': Rozovy trivugolnik vo vrhnym-pravym kutu
+  '1507335': Sivy trivugolnik vo vrhnym-pravym kutu
+  '1507336': Jasnosivy trivugolnik vo vrhnym-pravym kutu
+  '1507337': Turkysovy trivugolnik vo vrhnym-pravym kutu
+  '1507338': Fioletovy trivugolnik vo vrhnym-pravym kutu
+  '1507339': Modry trivugolnik vo vrhnym-pravym kutu
+  '1507340': Koričnevy trivugolnik vo vrhnym-pravym kutu
+  '1507341': Zeleny trivugolnik vo vrhnym-pravym kutu
+  '1507342': Črveny trivugolnik vo vrhnym-pravym kutu
+  '1507343': Črny trivugolnik vo vrhnym-pravym kutu
+  '1572864': Běly krug
+  '1572865': Oranževy krug
+  '1572866': Purpurny krug
+  '1572867': Jasnomodry krug
+  '1572868': Žolty krug
+  '1572869': Jasnozeleny krug
+  '1572870': Rozovy krug
+  '1572871': Sivy krug
+  '1572872': Jasnosivy krug
+  '1572873': Turkysovy krug
+  '1572874': Fioletovy krug
+  '1572875': Modry krug
+  '1572876': Koričnevy krug
+  '1572877': Zeleny krug
+  '1572878': Črveny krug
+  '1572879': Črny krug
+  '1638400': Běly srědny romb
+  '1638401': Oranževy srědny romb
+  '1638402': Purpurny srědny romb
+  '1638403': Jasnomodry srědny romb
+  '1638404': Žolty srědny romb
+  '1638405': Jasnozeleny srědny romb
+  '1638406': Rozovy srědny romb
+  '1638407': Sivy srědny romb
+  '1638408': Jasnosivy srědny romb
+  '1638409': Turkysovy srědny romb
+  '1638410': Fioletovy srědny romb
+  '1638411': Modry srědny romb
+  '1638412': Koričnevy srědny romb
+  '1638413': Zeleny srědny romb
+  '1638414': Črveny srědny romb
+  '1638415': Črny srědny romb
+  '1703936': Běly lěvy vertikalny pol
+  '1703937': Oranževy lěvy vertikalny pol
+  '1703938': Purpurny lěvy vertikalny pol
+  '1703939': Jasnomodry lěvy vertikalny pol
+  '1703940': Žolty lěvy vertikalny pol
+  '1703941': Jasnozeleny lěvy vertikalny pol
+  '1703942': Rozovy lěvy vertikalny pol
+  '1703943': Sivy lěvy vertikalny pol
+  '1703944': Jasnosivy lěvy vertikalny pol
+  '1703945': Turkysovy lěvy vertikalny pol
+  '1703946': Fioletovy lěvy vertikalny pol
+  '1703947': Modry lěvy vertikalny pol
+  '1703948': Koričnevy lěvy vertikalny pol
+  '1703949': Zeleny lěvy vertikalny pol
+  '1703950': Črveny lěvy vertikalny pol
+  '1703951': Črny lěvy vertikalny pol
+  '1769472': Běly vrhny horizontalny pol
+  '1769473': Oranževy vrhny horizontalny pol
+  '1769474': Purpurny vrhny horizontalny pol
+  '1769475': Jasnomodry vrhny horizontalny pol
+  '1769476': Žolty vrhny horizontalny pol
+  '1769477': Jasnozeleny vrhny horizontalny pol
+  '1769478': Rozovy vrhny horizontalny pol
+  '1769479': Sivy vrhny horizontalny pol
+  '1769480': Jasnosivy vrhny horizontalny pol
+  '1769481': Turkysovy vrhny horizontalny pol
+  '1769482': Fioletovy vrhny horizontalny pol
+  '1769483': Modry vrhny horizontalny pol
+  '1769484': Koričnevy vrhny horizontalny pol
+  '1769485': Zeleny vrhny horizontalny pol
+  '1769486': Črveny vrhny horizontalny pol
+  '1769487': Črny vrhny horizontalny pol
+  '1835008': Běly pravy vertikalny pol
+  '1835009': Oranževy pravy vertikalny pol
+  '1835010': Purpurny pravy vertikalny pol
+  '1835011': Jasnomodry pravy vertikalny pol
+  '1835012': Žolty pravy vertikalny pol
+  '1835013': Jasnozeleny pravy vertikalny pol
+  '1835014': Rozovy pravy vertikalny pol
+  '1835015': Sivy pravy vertikalny pol
+  '1835016': Jasnosivy pravy vertikalny pol
+  '1835017': Turkysovy pravy vertikalny pol
+  '1835018': Fioletovy pravy vertikalny pol
+  '1835019': Modry pravy vertikalny pol
+  '1835020': Koričnevy pravy vertikalny pol
+  '1835021': Zeleny pravy vertikalny pol
+  '1835022': Črveny pravy vertikalny pol
+  '1835023': Črny pravy vertikalny pol
+  '1900544': Běly dolny horizontalny pol
+  '1900545': Oranževy dolny horizontalny pol
+  '1900546': Purpurny dolny horizontalny pol
+  '1900547': Jasnomodry dolny horizontalny pol
+  '1900548': Žolty dolny horizontalny pol
+  '1900549': Jasnozeleny dolny horizontalny pol
+  '1900550': Rozovy dolny horizontalny pol
+  '1900551': Sivy dolny horizontalny pol
+  '1900552': Jasnosivy dolny horizontalny pol
+  '1900553': Turkysovy dolny horizontalny pol
+  '1900554': Fioletovy dolny horizontalny pol
+  '1900555': Modry dolny horizontalny pol
+  '1900556': Koričnevy dolny horizontalny pol
+  '1900557': Zeleny dolny horizontalny pol
+  '1900558': Črveny dolny horizontalny pol
+  '1900559': Črny dolny horizontalny pol
+  '1966080': Běly obrub
+  '1966081': Oranževy obrub
+  '1966082': Purpurny obrub
+  '1966083': Jasnomodry obrub
+  '1966084': Žolty obrub
+  '1966085': Jasnozeleny obrub
+  '1966086': Rozovy obrub
+  '1966087': Sivy obrub
+  '1966088': Jasnosivy obrub
+  '1966089': Turkysovy obrub
+  '1966090': Fioletovy obrub
+  '1966091': Modry obrub
+  '1966092': Koričnevy obrub
+  '1966093': Zeleny obrub
+  '1966094': Črveny obrub
+  '1966095': Črny obrub
+  '2031616': Běly obrub s odstupom
+  '2031617': Oranževy obrub s odstupom
+  '2031618': Purpurny obrub s odstupom
+  '2031619': Jasnomodry obrub s odstupom
+  '2031620': Žolty obrub s odstupom
+  '2031621': Jasnozeleny obrub s odstupom
+  '2031622': Rozovy obrub s odstupom
+  '2031623': Sivy obrub s odstupom
+  '2031624': Jasnosivy obrub s odstupom
+  '2031625': Turkysovy obrub s odstupom
+  '2031626': Fioletovy obrub s odstupom
+  '2031627': Modry obrub s odstupom
+  '2031628': Koričnevy obrub s odstupom
+  '2031629': Zeleny obrub s odstupom
+  '2031630': Črveny obrub s odstupom
+  '2031631': Črny obrub s odstupom
+  '2097152': Bělo lice Creepera
+  '2097153': Oranževo lice Creepera
+  '2097154': Purpurno lice Creepera
+  '2097155': Jasnomodro lice Creepera
+  '2097156': Žolto lice Creepera
+  '2097157': Jasnozeleno lice Buhača
+  '2097158': Rozovo lice Buhača
+  '2097159': Sivo lice Buhača
+  '2097160': Jasnosivo lice Buhača
+  '2097161': Turkysovo lice Buhača
+  '2097162': Fioletovo lice Buhača
+  '2097163': Modro lice Buhača
+  '2097164': Koričnevo lice Buhača
+  '2097165': Zeleno lice Buhača
+  '2097166': Črveno lice Buhača
+  '2097167': Črno lice Buhača
+  '2162688': Běly směs
+  '2162689': Oranževy směs
+  '2162690': Purpurny směs
+  '2162691': Jasnomodry směs
+  '2162692': Žolty směs
+  '2162693': Jasnozeleny směs
+  '2162694': Rozovy směs
+  '2162695': Sivy směs
+  '2162696': Jasnosivy směs
+  '2162697': Turkysovy směs
+  '2162698': Fioletovy směs
+  '2162699': Modry směs
+  '2162700': Koričnevy směs
+  '2162701': Zeleny směs
+  '2162702': Črveny směs
+  '2162703': Črny směs
+  '2228224': Běly podstavovy směs
+  '2228225': Oranževy podstavovy směs
+  '2228226': Purpurny podstavovy směs
+  '2228227': Jasnomodry podstavovy směs
+  '2228228': Žolty podstavovy směs
+  '2228229': Jasnozeleny podstavovy směs
+  '2228230': Rozovy podstavovy směs
+  '2228231': Sivy podstavovy směs
+  '2228232': Jasnosivy podstavovy směs
+  '2228233': Turkysovy podstavovy směs
+  '2228234': Fioletovy podstavovy směs
+  '2228235': Modry podstavovy směs
+  '2228236': Koričnevy podstavovy směs
+  '2228237': Zeleny podstavovy směs
+  '2228238': Črveny podstavovy směs
+  '2228239': Črny podstavovy směs
+  '2293760': Běly vzor cegl
+  '2293761': Oranževy vzor cegl
+  '2293762': Purpurny vzor cegl
+  '2293763': Jasnomodry vzor cegl
+  '2293764': Žolty vzor cegl
+  '2293765': Jasnozeleny vzor cegl
+  '2293766': Rozovy vzor cegl
+  '2293767': Sivy vzor cegl
+  '2293768': Jasnosivy vzor cegl
+  '2293769': Turkysovy vzor cegl
+  '2293770': Fioletovy vzor cegl
+  '2293771': Modry vzor cegl
+  '2293772': Koričnevy vzor cegl
+  '2293773': Zeleny vzor cegl
+  '2293774': Črveny vzor cegl
+  '2293775': Črny vzor cegl
+  '2359296': Běly čerep
+  '2359297': Oranževy čerep
+  '2359298': Purpurny čerep
+  '2359299': Jasnomodry čerep
+  '2359300': Žolty čerep
+  '2359301': Jasnozeleny čerep
+  '2359302': Rozovy čerep
+  '2359303': Sivy čerep
+  '2359304': Jasnosivy čerep
+  '2359305': Turkysovy čerep
+  '2359306': Fioletovy čerep
+  '2359307': Modry čerep
+  '2359308': Koričnevy čerep
+  '2359309': Zeleny čerep
+  '2359310': Črveny čerep
+  '2359311': Črny čerep
+  '2424832': Běly vzor cvěta
+  '2424833': Oranževy vzor cvěta
+  '2424834': Purpurny vzor cvěta
+  '2424835': Jasnomodry vzor cvěta
+  '2424836': Žolty vzor cvěta
+  '2424837': Jasnozeleny vzor cvěta
+  '2424838': Rozovy vzor cvěta
+  '2424839': Sivy vzor cvěta
+  '2424840': Jasnosivy vzor cvěta
+  '2424841': Turkysovy vzor cvěta
+  '2424842': Fioletovy vzor cvěta
+  '2424843': Modry vzor cvěta
+  '2424844': Koričnevy vzor cvěta
+  '2424845': Zeleny vzor cvěta
+  '2424846': Črveny vzor cvěta
+  '2424847': Črny vzor cvěta
+  '2490368': Běly prědmet
+  '2490369': Oranževy prědmet
+  '2490370': Purpurny prědmet
+  '2490371': Jasnomodry prědmet
+  '2490372': Žolty prědmet
+  '2490373': Jasnozeleny prědmet
+  '2490374': Rozovy prědmet
+  '2490375': Sivy prědmet
+  '2490376': Jasnosivy prědmet
+  '2490377': Turkysovy prědmet
+  '2490378': Fioletovy prědmet
+  '2490379': Modry prědmet
+  '2490380': Koričnevy prědmet
+  '2490381': Zeleny prědmet
+  '2490382': Črveny prědmet
+  '2490383': Črny prědmet
+  '2555904': Běly globus
+  '2555905': Oranževy globus
+  '2555906': Purpurny globus
+  '2555907': Jasnomodry globus
+  '2555908': Žolty globus
+  '2555909': Jasnozeleny globus
+  '2555910': Rozovy globus
+  '2555911': Sivy globus
+  '2555912': Jasnosivy globus
+  '2555913': Turkysovy globus
+  '2555914': Fioletovy globus
+  '2555915': Modry globus
+  '2555916': Koričnevy globus
+  '2555917': Zeleny globus
+  '2555918': Črveny globus
+  '2555919': Črny globus
+  '2621440': Bělo rylo
+  '2621441': Oranževo rylo
+  '2621442': Purpurovo rylo
+  '2621443': Jasnomodro rylo
+  '2621444': Žolto rylo
+  '2621445': Jasnozeleno rylo
+  '2621446': Rozovo rylo
+  '2621447': Sivo rylo
+  '2621448': Jasnosivo rylo
+  '2621449': Turkusovo rylo
+  '2621450': Purpurno rylo
+  '2621451': Modro rylo
+  '2621452': Koričnevo rylo
+  '2621453': Zeleno rylo
+  '2621454': Črveno rylo
+  '2621455': Črno rylo
+merchant_level:
+  '1': Novak
+  '2': Učenik
+  '3': Remeslnik
+  '4': Ekspert
+  '5': Majstr
+villager_profession:
+  none: Seljan
+  armorer: Bronnik
+  butcher: Mesnik
+  cartographer: Kartograf
+  cleric: Svečennik
+  farmer: Fermer
+  fisherman: Rybar
+  fletcher: Strělar
+  leatherworker: Kožar
+  librarian: Bibliotekar
+  mason: Kamenjar
+  nitwit: Balvan
+  shepherd: Pastuh
+  toolsmith: Kovač orudj
+  weaponsmith: Kovač oružij

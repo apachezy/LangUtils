@@ -1,0 +1,694 @@
+# ####################################################
+# Build time: 2021-03-06 14:47:29                    #
+# ####################################################
+language:
+  code: swg
+  name: Oschtallgaiarisch
+  region: Allgai
+material:
+  acacia_boat: Akazienholzboot
+  acacia_button: Akazienholzknopf
+  acacia_pressure_plate: Akazienholzdruckplatte
+  acacia_slab: Akaziaholzschtäffale
+  acacia_stairs: Akaziaholzschtiag
+  acacia_trapdoor: Akazienholzfalltür
+  acacia_wood: Akaziakloba
+  activator_rail: Aktivierungsschiene
+  allium: Schteralauch
+  armor_stand: Rüstungsständer
+  attached_melon_stem: Melonenranke
+  attached_pumpkin_stem: Kürbisranke
+  azure_bluet: Porzellanschterala
+  barrier: Schperre
+  bat_spawn_egg: Fleadrmaus-Schpån-Ei
+  beacon: Leuchtfeuer
+  bedrock: Grundgschtoi
+  birch_boat: Birkenholzboot
+  birch_button: Birkenholzknopf
+  birch_pressure_plate: Birkenholzdruckplatte
+  birch_slab: Biakaholzschtäffale
+  birch_stairs: Biakaholzschtiag
+  birch_trapdoor: Birkenholzfalltür
+  birch_wood: Biakakloba
+  black_banner: Schwarze Fahna
+  black_bed: Schwarzes Bett
+  black_carpet: Schwarzr Teppich
+  black_concrete: Schwarzer Beton
+  black_concrete_powder: Schwarzer Trockenbeton
+  black_shulker_box: Schwarze Shulkerkiste
+  black_stained_glass: Schwarzes Glas
+  black_stained_glass_pane: Schwarze Glasscheiba
+  black_wall_banner: Schwarze Fahna
+  black_wool: Schwarze Wolle
+  blaze_powder: Lohenstaub
+  blaze_spawn_egg: Loha-Schpån-Ei
+  blue_banner: Blaue Fahna
+  blue_bed: Blaues Bett
+  blue_carpet: Blauar Teppich
+  blue_concrete: Blauer Beton
+  blue_concrete_powder: Blauer Trockenbeton
+  blue_orchid: Blaue Orchidee
+  blue_shulker_box: Blaue Shulkerkiste
+  blue_stained_glass: Blaues Glas
+  blue_stained_glass_pane: Blaue Glasscheiba
+  blue_wall_banner: Blaue Fahna
+  blue_wool: Blaue Wolle
+  bone: Knocha
+  bone_block: Knochenblock
+  bone_meal: Knochenmehl
+  brain_coral: Hirnkoralle
+  brain_coral_block: Hirnkorallenblock
+  brain_coral_fan: Hirnkorallenfächer
+  brain_coral_wall_fan: Hirnkorallenwandfächer
+  bread: Semml
+  brewing_stand: Braustand
+  brick: Ziegl
+  bricks: Zieglschtoi
+  brick_slab: Zieglschtäffale
+  brick_stairs: Zieglschtiag
+  brown_banner: Braune Fahna
+  brown_bed: Braunes Bett
+  brown_carpet: Braunar Teppich
+  brown_concrete: Brauner Beton
+  brown_concrete_powder: Brauner Trockenbeton
+  brown_mushroom: Brauna Pilz
+  brown_mushroom_block: Brauna Pilzblock
+  brown_shulker_box: Braune Shulkerkiste
+  brown_stained_glass: Braunes Glas
+  brown_stained_glass_pane: Braune Glasscheiba
+  brown_wall_banner: Braune Fahna
+  brown_wool: Braune Wolle
+  bubble_column: Blasensäule
+  bubble_coral: Blasenkoralle
+  bubble_coral_block: Blasenkorallenblock
+  bubble_coral_fan: Blasenkorallenfächer
+  bubble_coral_wall_fan: Blasenkorallenwandfächer
+  carrot: Karotte
+  carrots: Karotten
+  cave_air: Höhlenluft
+  cave_spider_spawn_egg: Höhlaschpinna-Schpån-Ei
+  chainmail_boots: Kettaschtiefl
+  chest: Kischte
+  chest_minecart: Kischtakarra
+  chicken_spawn_egg: Gockl-Schpån-Ei
+  chipped_anvil: Angeschlagener Amboss
+  chiseled_quartz_block: Gmeißelta Quarzblock
+  chiseled_red_sandstone: Gmeißeltar roatr Sandschtoi
+  chiseled_sandstone: Gmeißeltar Sandschtoi
+  chiseled_stone_bricks: Gmeißelte Schtoiziegl
+  chorus_plant: Choruspflanze
+  clay: Ton
+  coal_ore: Schtoikohle
+  cobblestone: Bruchschtoi
+  cobblestone_slab: Bruchschtoischtäffale
+  cobblestone_stairs: Bruchschtoischtiag
+  cobblestone_wall: Bruchsteinmauer
+  cobweb: Schpinnanetz
+  cocoa: Kakau
+  cocoa_beans: Kakaubohna
+  cod_spawn_egg: Dorsch-Schpån-Ei
+  comparator: Roatschtoi-Komparator
+  conduit: Aquisator
+  cooked_salmon: Bråtanar Lachs
+  cow_spawn_egg: Kuah-Schpån-Ei
+  cracked_stone_bricks: Rissige Schtoiziegl
+  creeper_head: Kreepergrind
+  creeper_spawn_egg: Kreeper-Schpån-Ei
+  creeper_wall_head: Creeper-Wandkopf
+  cut_red_sandstone: Gschnittanar roatr Sandschtoi
+  cut_sandstone: Gschnittanar Sandschtoi
+  cyan_banner: Tiarkise Fahna
+  cyan_bed: Türkises Bett
+  cyan_carpet: Tiarkisar Teppich
+  cyan_concrete: Türkiser Beton
+  cyan_concrete_powder: Türkiser Trockenbeton
+  cyan_shulker_box: Türkise Shulkerkiste
+  cyan_stained_glass: Tiarkises Glas
+  cyan_stained_glass_pane: Tiarkise Glasscheiba
+  cyan_wall_banner: Tiarkise Fahna
+  cyan_wool: Türkise Wolle
+  damaged_anvil: Beschädigter Amboss
+  dandelion: Leawazåh
+  dark_oak_boat: Schwarzeichenholzboot
+  dark_oak_button: Schwarzeichenholzknopf
+  dark_oak_pressure_plate: Schwarzeichenholzdruckplatte
+  dark_oak_slab: Schwarzeichaholzschtäffale
+  dark_oak_stairs: Schwarzeichaholzschtiag
+  dark_oak_trapdoor: Schwarzeichenholzfalltür
+  dark_oak_wood: Schwarzeichakloba
+  dark_prismarine: Dunkla Prismarin
+  dark_prismarine_slab: Dunkls Prismarinschtäffale
+  dark_prismarine_stairs: Dunkle Prismarinschtiag
+  dead_brain_coral: Abgestorbene Hirnkoralle
+  dead_brain_coral_block: Abgestorbener Hirnkorallenblock
+  dead_brain_coral_fan: Abgestorbener Hirnkorallenfächer
+  dead_brain_coral_wall_fan: Abgestorbener Hirnkorallenwandfächer
+  dead_bubble_coral: Abgestorbene Blasenkoralle
+  dead_bubble_coral_block: Abgestorbener Blasenkorallenblock
+  dead_bubble_coral_fan: Abgestorbener Blasenkorallenfächer
+  dead_bubble_coral_wall_fan: Abgestorbener Blasenkorallenwandfächer
+  dead_bush: Vrrecktr Boscha
+  dead_fire_coral: Abgestorbene Feuerkoralle
+  dead_fire_coral_block: Abgestorbener Feuerkorallenblock
+  dead_fire_coral_fan: Abgestorbener Feuerkorallenfächer
+  dead_fire_coral_wall_fan: Abgestorbener Feuerkorallenwandfächer
+  dead_horn_coral: Abgestorbene Geweihkoralle
+  dead_horn_coral_block: Abgestorbener Geweihkorallenblock
+  dead_horn_coral_fan: Abgestorbener Geweihkorallenfächer
+  dead_horn_coral_wall_fan: Abgestorbener Geweihkorallenwandfächer
+  dead_tube_coral: Abgestorbene Orgelkoralle
+  dead_tube_coral_block: Abgestorbener Orgelkorallenblock
+  dead_tube_coral_fan: Abgestorbener Orgelkorallenfächer
+  dead_tube_coral_wall_fan: Abgestorbener Orgelkorallenwandfächer
+  detector_rail: Sensorschiene
+  diamond_axe: Diamantakscht
+  diamond_boots: Diamantschtiefl
+  diamond_leggings: Diamantfuaßschutz
+  dispenser: Werfer
+  dolphin_spawn_egg: Delfin-Schpån-Ei
+  donkey_spawn_egg: Esl-Schpån-Ei
+  dragon_breath: Drachenatem
+  dragon_egg: Drachaei
+  dragon_wall_head: Drachen-Wandkopf
+  dried_kelp: Trocknetr Seetang
+  dried_kelp_block: Getrockneter Seetangblock
+  dropper: Spender
+  drowned_spawn_egg: Ertrunkenen-Spawn-Ei
+  egg: Ei
+  elder_guardian_spawn_egg: Großer-Wächter-Spawn-Ei
+  emerald_block: Smaragdblock
+  emerald_ore: Smaragderz
+  enchanted_book: Verzaubertes Buch
+  enchanting_table: Zaubertisch
+  enderman_spawn_egg: Endermå-Schpån-Ei
+  endermite_spawn_egg: Endermita-Schpån-Ei
+  ender_chest: Enderkischte
+  ender_eye: Enderauge
+  ender_pearl: Enderperle
+  end_crystal: Enderkrischtall
+  end_gateway: Endtransitportal
+  end_portal: Endportal
+  end_portal_frame: Endportalrahmen
+  end_rod: Endschtäble
+  end_stone: Endschtoi
+  end_stone_bricks: Endschtoiziegl
+  evoker_spawn_egg: Magier-Spawn-Ei
+  fermented_spider_eye: Fermentiertes Spinnenauge
+  fire_coral: Feuerkoralle
+  fire_coral_block: Feuerkorallenblock
+  fire_coral_fan: Feuerkorallenfächer
+  fire_coral_wall_fan: Feuerkorallenwandfächer
+  flint: Fuiarschtoi
+  flower_pot: Blumentopf
+  frosted_ice: Brüchiges Eis
+  furnace_minecart: Antriebslore
+  ghast_spawn_egg: Ghascht-Schpån-Ei
+  glass_bottle: Glasflasche
+  glowstone: Gliahschtoi
+  glowstone_dust: Gliahschtoischtaub
+  golden_axe: Goldakscht
+  golden_boots: Goldschtiefl
+  golden_carrot: Goldene Karotte
+  golden_leggings: Goldfuaßschutz
+  grass_path: Trampelpfad
+  gravel: Kies
+  gray_banner: Graue Fahna
+  gray_bed: Graues Bett
+  gray_carpet: Grauar Teppich
+  gray_concrete: Grauer Beton
+  gray_concrete_powder: Grauer Trockenbeton
+  gray_shulker_box: Graue Shulkerkiste
+  gray_stained_glass: Graues Glas
+  gray_stained_glass_pane: Graue Glasscheiba
+  gray_wall_banner: Graue Fahna
+  gray_wool: Graue Wolle
+  green_banner: Greane Fahna
+  green_bed: Grünes Bett
+  green_carpet: Greanar Teppich
+  green_concrete: Grüner Beton
+  green_concrete_powder: Grüner Trockenbeton
+  green_shulker_box: Grüne Shulkerkiste
+  green_stained_glass: Greanes Glas
+  green_stained_glass_pane: Greane Glasscheiba
+  green_wall_banner: Greane Fahna
+  green_wool: Grüne Wolle
+  guardian_spawn_egg: Wächter-Spawn-Ei
+  hay_block: Schtroahballa
+  heavy_weighted_pressure_plate: Grobwägeplatte
+  hopper: Trichter
+  horn_coral: Geweihkoralle
+  horn_coral_block: Geweihkorallenblock
+  horn_coral_fan: Geweihkorallenfächer
+  horn_coral_wall_fan: Geweihkorallenwandfächer
+  horse_spawn_egg: Roß-Schpån-Ei
+  husk_spawn_egg: Wiaschtazombie-Schpån-Ei
+  ink_sac: Tintenbeutel
+  iron_axe: Eisaakscht
+  iron_bars: Eisengitter
+  iron_boots: Eisaschtiefl
+  iron_leggings: Eisafuaßschutz
+  iron_trapdoor: Eisenfalltür
+  jack_o_lantern: Kürbislaterne
+  jukebox: Blattaschpielar
+  jungle_boat: Tropenholzboot
+  jungle_button: Tropenholzknopf
+  jungle_door: Tropaholzdiar
+  jungle_leaves: Tropablättla
+  jungle_log: Tropabaumkloba
+  jungle_planks: Tropaholzbrettla
+  jungle_pressure_plate: Tropenholzdruckplatte
+  jungle_sapling: Tropabäumle
+  jungle_slab: Tropaholzschtäffale
+  jungle_stairs: Tropaholzschtiag
+  jungle_trapdoor: Tropenholzfalltür
+  jungle_wood: Tropabaumkloba
+  kelp: Seetang
+  kelp_plant: Seetangstängel
+  large_fern: Groaßr Farn
+  lead: Schtrick
+  leather_boots: Leadrschtiefl
+  light_blue_banner: Hellblaue Fahna
+  light_blue_bed: Hellblaues Bett
+  light_blue_carpet: Hellblauar Teppich
+  light_blue_concrete: Hellblauer Beton
+  light_blue_concrete_powder: Hellblauer Trockenbeton
+  light_blue_shulker_box: Hellblaue Shulkerkiste
+  light_blue_stained_glass: Hellblaues Glas
+  light_blue_stained_glass_pane: Hellblaue Glasscheiba
+  light_blue_wall_banner: Hellblaue Fahna
+  light_blue_wool: Hellblaue Wolle
+  light_gray_banner: Hellgraue Fahna
+  light_gray_bed: Hellgraues Bett
+  light_gray_carpet: Hellgrauar Teppich
+  light_gray_concrete: Hellgrauer Beton
+  light_gray_concrete_powder: Hellgrauer Trockenbeton
+  light_gray_shulker_box: Hellgraue Shulkerkiste
+  light_gray_stained_glass: Hellgraues Glas
+  light_gray_stained_glass_pane: Hellgraue Glasscheiba
+  light_gray_wall_banner: Hellgraue Fahna
+  light_gray_wool: Hellgraue Wolle
+  light_weighted_pressure_plate: Feinwägeplatte
+  lilac: Fliedr
+  lily_pad: Seerosenblatt
+  lime_banner: Hellgreane Fahna
+  lime_bed: Hellgrünes Bett
+  lime_carpet: Hellgreanar Teppich
+  lime_concrete: Hellgrüner Beton
+  lime_concrete_powder: Hellgrüner Trockenbeton
+  lime_shulker_box: Hellgrüne Shulkerkiste
+  lime_stained_glass: Hellgreanes Glas
+  lime_stained_glass_pane: Hellgreane Glasscheiba
+  lime_wall_banner: Hellgreane Fahna
+  lime_wool: Hellgrüne Wolle
+  llama_spawn_egg: Lama-Schpån-Ei
+  magenta_banner: Magentane Fahna
+  magenta_bed: Magenta Bett
+  magenta_carpet: Magentanar Teppich
+  magenta_concrete: Magenta Beton
+  magenta_concrete_powder: Magenta Trockenbeton
+  magenta_shulker_box: Magenta Shulkerkiste
+  magenta_stained_glass: Magentanes Glas
+  magenta_stained_glass_pane: Magentane Glasscheiba
+  magenta_wall_banner: Magentane Fahna
+  magenta_wool: Magenta Wolle
+  magma_cream: Magmacreme
+  magma_cube_spawn_egg: Magmaklotz-Schpån-Ei
+  melon_stem: Melonenpflanze
+  mooshroom_spawn_egg: Gomfikuah-Schpån-Ei
+  mossy_cobblestone: Ågmoostr Bruchschtoi
+  mossy_cobblestone_wall: Bemooste Bruchsteinmauer
+  mossy_stone_bricks: Ågmooste Schtoiziegl
+  mule_spawn_egg: Muli-Schpån-Ei
+  mushroom_stem: Pilzschtiel
+  music_disc_11: Schallplatta
+  music_disc_13: Schallplatta
+  music_disc_blocks: Schallplatta
+  music_disc_cat: Schallplatta
+  music_disc_chirp: Schallplatta
+  music_disc_far: Schallplatta
+  music_disc_mall: Schallplatta
+  music_disc_mellohi: Schallplatta
+  music_disc_stal: Schallplatta
+  music_disc_strad: Schallplatta
+  music_disc_wait: Schallplatta
+  music_disc_ward: Schallplatta
+  mycelium: Myzel
+  netherrack: Neterrack
+  nether_brick: Neterziegl
+  nether_bricks: Neterziegl
+  nether_brick_fence: Netherziegelzaun
+  nether_brick_slab: Neterzieglschtäffale
+  nether_brick_stairs: Neterzieglschtiag
+  nether_portal: Netherportal
+  nether_quartz_ore: Neterquarzerz
+  nether_star: Neterschterala
+  oak_boat: Eichenholzboot
+  oak_button: Eichenholzknopf
+  oak_pressure_plate: Eichenholzdruckplatte
+  oak_slab: Eichaholzschtäffale
+  oak_stairs: Eichaholzschtiag
+  oak_trapdoor: Eichenholzfalltür
+  oak_wood: Eichakloba
+  ocelot_spawn_egg: Wildkhatz-Schpån-Ei
+  orange_banner: Oråschane Fahna
+  orange_bed: Oranges Bett
+  orange_carpet: Oråschanar Teppich
+  orange_concrete: Oranger Beton
+  orange_concrete_powder: Oranger Trockenbeton
+  orange_shulker_box: Orange Shulkerkiste
+  orange_stained_glass: Oråschanes Glas
+  orange_stained_glass_pane: Oråschane Glasscheiba
+  orange_tulip: Oråschane Dulpa
+  orange_wall_banner: Oråschane Fahna
+  orange_wool: Orange Wolle
+  packed_ice: Packeis
+  paper: Papier
+  parrot_spawn_egg: Papageia-Schpån-Ei
+  peony: Pfingschtros
+  petrified_oak_slab: Vrschtoinarts Eichaholzschtäffale
+  phantom_spawn_egg: Fantom-Schpån-Ei
+  pig_spawn_egg: Suckla-Schpån-Ei
+  pink_banner: Rosane Fahna
+  pink_bed: Rosa Bett
+  pink_carpet: Rosanar Teppich
+  pink_concrete: Rosa Beton
+  pink_concrete_powder: Rosa Trockenbeton
+  pink_shulker_box: Rosa Shulkerkiste
+  pink_stained_glass: Rosanes Glas
+  pink_stained_glass_pane: Rosane Glasscheiba
+  pink_tulip: Rosane Dulpa
+  pink_wall_banner: Rosane Fahna
+  pink_wool: Rosa Wolle
+  player_head: Spielerkopf
+  player_wall_head: Spieler-Wandkopf
+  polar_bear_spawn_egg: Eisbära-Schpån-Ei
+  polished_andesite: Poliartr Andesit
+  polished_diorite: Poliartr Diorit
+  polished_granite: Poliartr Granit
+  poppy: Mohn
+  potion: Trank
+  potted_allium: Eingetopfter Sternlauch
+  powered_rail: Antriebsschiene
+  prismarine: Prismarin
+  prismarine_bricks: Prismarinziegl
+  prismarine_brick_slab: Prismarinziegelstufe
+  prismarine_brick_stairs: Prismarinziegeltreppe
+  prismarine_crystals: Prismarinkrischtalle
+  prismarine_shard: Prismarinscherbe
+  prismarine_slab: Prismarinschtäffale
+  prismarine_stairs: Prismarinschtiag
+  pufferfish_spawn_egg: Kuglfisch-Schpån-Ei
+  pumpkin_stem: Kürbispflanze
+  purple_banner: Lillane Fahna
+  purple_bed: Violettes Bett
+  purple_carpet: Lillanar Teppich
+  purple_concrete: Violetter Beton
+  purple_concrete_powder: Violetter Trockenbeton
+  purple_shulker_box: Violette Shulkerkiste
+  purple_stained_glass: Lillanes Glas
+  purple_stained_glass_pane: Lillane Glasscheiba
+  purple_wall_banner: Lillane Fahna
+  purple_wool: Violette Wolle
+  purpur_pillar: Purpursäule
+  purpur_slab: Purpurschtäffale
+  purpur_stairs: Purpurschtiag
+  quartz: Neterquarz
+  quartz_block: Quarzblock
+  quartz_pillar: Quarzsäule
+  quartz_slab: Quarzschtäffale
+  quartz_stairs: Quarzschtiag
+  rabbit_spawn_egg: Hasa-Schpån-Ei
+  redstone: Roatschtoi
+  redstone_block: Roatschtoi-Block
+  redstone_lamp: Roatschtoi-Liacht
+  redstone_ore: Roatschtoi-Erz
+  redstone_torch: Roatschtoi-Fackl
+  redstone_wall_torch: Roatschtoi-Wandfackl
+  redstone_wire: Roatschtoi-Schtaub
+  red_banner: Roate Fahna
+  red_bed: Rotes Bett
+  red_carpet: Roatr Teppich
+  red_concrete: Roter Beton
+  red_concrete_powder: Roter Trockenbeton
+  red_mushroom: Roter Pilz
+  red_mushroom_block: Roatr Pilzblock
+  red_nether_bricks: Roate Neterziegl
+  red_sandstone: Roatr Sandschtoi
+  red_sandstone_slab: Roates Sandschtoischtäffale
+  red_sandstone_stairs: Roate Sandschtoischtiag
+  red_shulker_box: Rote Shulkerkiste
+  red_stained_glass_pane: Roate Glasscheiba
+  red_tulip: Roate Dulpa
+  red_wall_banner: Roate Fahna
+  red_wool: Rote Wolle
+  repeater: Redstone-Verstärker
+  rose_bush: Rosaboscha
+  salmon: Rohar Lachs
+  salmon_bucket: Lachskibl
+  salmon_spawn_egg: Lachs-Schpån-Ei
+  sandstone: Sandschtoi
+  sandstone_slab: Sandschtoischtäffale
+  sandstone_stairs: Sandschtoischtiag
+  seagrass: Seegras
+  sea_lantern: Seelaterne
+  sheep_spawn_egg: Schåf-Schpån-Ei
+  shulker_box: Kapslarkaschta
+  shulker_spawn_egg: Kapslar-Schpån-Ei
+  silverfish_spawn_egg: Silbrfischle-Schpån-Ei
+  skeleton_horse_spawn_egg: Skelettroß-Schpån-Ei
+  skeleton_skull: Skelettschädel
+  skeleton_spawn_egg: Skelett-Schpån-Ei
+  skeleton_wall_skull: Skelett-Wandschädel
+  slime_spawn_egg: Bäz-Schpån-Ei
+  smooth_quartz: Glattr Quarzblock
+  smooth_red_sandstone: Glattr roatr Sandschtoi
+  smooth_sandstone: Glattr Sandschtoi
+  smooth_stone: Glattr Schtoi
+  spawner: Spawner
+  spectral_arrow: Schpektralpfeil
+  spider_eye: Spinnenauge
+  spider_spawn_egg: Schpinna-Schpån-Ei
+  splash_potion: Wurftrank
+  spruce_boat: Fichtenholzboot
+  spruce_button: Fichtenholzknopf
+  spruce_pressure_plate: Fichtenholzdruckplatte
+  spruce_slab: Fichtaholzschtäffale
+  spruce_stairs: Fichtaholzschtiag
+  spruce_trapdoor: Fichtenholzfalltür
+  spruce_wood: Fichtakloba
+  squid_spawn_egg: Tintafisch-Schpån-Ei
+  stick: Schtecka
+  stone: Schtoi
+  stone_axe: Schtoiakscht
+  stone_bricks: Schtoiziegl
+  stone_brick_slab: Schtoizieglschtäffale
+  stone_brick_stairs: Schtoizieglschtiag
+  stone_button: Steinknopf
+  stone_hoe: Schtoifeldbickl
+  stone_pickaxe: Schtoibickl
+  stone_pressure_plate: Steindruckplatte
+  stone_shovel: Schtoischaufl
+  stone_slab: Schtoischtäffale
+  stone_sword: Schtoischwert
+  stray_spawn_egg: Eiswanderer-Spawn-Ei
+  stripped_acacia_log: Entrindetar Akaziakloba
+  stripped_acacia_wood: Entrindetes Akazienholz
+  stripped_birch_log: Entrindetar Biakakloba
+  stripped_birch_wood: Entrindetes Birkenholz
+  stripped_dark_oak_log: Entrindetar Schwarzeichakloba
+  stripped_dark_oak_wood: Entrindetes Schwarzeichenholz
+  stripped_jungle_log: Entrindetar Tropabaumkloba
+  stripped_jungle_wood: Entrindetes Tropenholz
+  stripped_oak_log: Entrindetar Eichakloba
+  stripped_oak_wood: Entrindetes Eichenholz
+  stripped_spruce_log: Entrindetar Fichtakloba
+  stripped_spruce_wood: Entrindetes Fichtenholz
+  structure_block: Konschtruktionsblock
+  structure_void: Konschtruktionsleere
+  sugar_cane: Zuckerrohr
+  tall_seagrass: Hohes Seegras
+  tipped_arrow: Tränktr Pfeil
+  tnt: Schprengschtoff
+  tnt_minecart: Schprengschtoffkarra
+  trapped_chest: Roatschtoi-Kischte
+  tripwire: Stolperdraht
+  tripwire_hook: Haken
+  tropical_fish: Tropafisch
+  tropical_fish_bucket: Tropafischkibl
+  tropical_fish_spawn_egg: Tropenfisch-Spawn-Ei
+  tube_coral: Orgelkoralle
+  tube_coral_block: Orgelkorallenblock
+  tube_coral_fan: Orgelkorallenfächer
+  tube_coral_wall_fan: Orgelkorallenwandfächer
+  turtle_egg: Schildkrottaei
+  turtle_spawn_egg: Schildkrott-Schpån-Ei
+  vex_spawn_egg: Plagegeist-Spawn-Ei
+  villager_spawn_egg: Dorfbewohner-Spawn-Ei
+  vindicator_spawn_egg: Diener-Spawn-Ei
+  vine: Ranken
+  white_banner: Weiße Fahna
+  white_bed: Weißes Bett
+  white_carpet: Weißr Teppich
+  white_concrete: Weißer Beton
+  white_concrete_powder: Weißer Trockenbeton
+  white_shulker_box: Weiße Shulkerkiste
+  white_stained_glass: Weißes Glas
+  white_stained_glass_pane: Weiße Glasscheiba
+  white_tulip: Weiße Dulpa
+  white_wall_banner: Weiße Fahna
+  white_wool: Weiße Wolle
+  witch_spawn_egg: Hexa-Schpån-Ei
+  wither_skeleton_skull: Witherskelettschädel
+  wither_skeleton_spawn_egg: Widterskelett-Schpån-Ei
+  wither_skeleton_wall_skull: Witherskelett-Wandschädel
+  wolf_spawn_egg: Wolf-Schpån-Ei
+  wooden_axe: Holzakscht
+  yellow_banner: Geale Fahna
+  yellow_bed: Gelbes Bett
+  yellow_carpet: Gealr Teppich
+  yellow_concrete: Gelber Beton
+  yellow_concrete_powder: Gelber Trockenbeton
+  yellow_shulker_box: Gelbe Shulkerkiste
+  yellow_stained_glass: Geales Glas
+  yellow_stained_glass_pane: Geale Glasscheiba
+  yellow_wall_banner: Geale Fahna
+  yellow_wool: Gelbe Wolle
+  zombie_head: Zombiegrind
+  zombie_horse_spawn_egg: Zombieroß-Schpån-Ei
+  zombie_pigman_spawn_egg: Sucklzombie-Schpån-Ei
+  zombie_spawn_egg: Zombie-Schpån-Ei
+  zombie_villager_spawn_egg: Dorfbewohnerzombie-Spawn-Ei
+  zombie_wall_head: Zombie-Wandkopf
+biome:
+  desert: Wiaschta
+  nether: Neter
+  beach: Schtrand
+  desert_hills: Wiaschtabiechl
+  wooded_hills: Waldbiechl
+  snowy_beach: Vrschneitar Schtrand
+  birch_forest_hills: Biakawaldbiechl
+  the_void: ’s Nicks
+entity:
+  elder_guardian: Groaßa Aufbassa
+  wither_skeleton: Widterskelett
+  stray: Eiswanderer
+  ender_signal: Enderauge
+  wither_skull: Widterschädl
+  husk: Wiaschtazombie
+  spectral_arrow: Schpektralpfeil
+  shulker_bullet: Kapslargschoss
+  zombie_villager: Derflarzombie
+  skeleton_horse: Skelettroß
+  zombie_horse: Zombieroß
+  armor_stand: Rüstungsständer
+  evoker_fangs: Fangzähne
+  evoker: Magier
+  vex: Blåggeischt
+  vindicator: Diener
+  illusioner: Illusionischt
+  minecart_chest: Kischtakarra
+  minecart_tnt: Schprengschtoffkarra
+  creeper: Kreeper
+  skeleton: Skelett
+  spider: Schpinna
+  zombie: Zombie
+  ghast: Ghascht
+  pig_zombie: Sucklzombie
+  enderman: Endermå
+  cave_spider: Höhlaschpinna
+  ender_dragon: Enderdracha
+  wither: Widter
+  witch: Hex
+  endermite: Endermite
+  guardian: Aufbassa
+  shulker: Kapslar
+  squid: Tintafisch
+  wolf: Wolf
+  mushroom_cow: Gomfikuah
+  horse: Roß
+  parrot: Papagei
+  villager: Derflar
+  ender_crystal: Enderkrischtall
+  salmon: Lachs
+  tropical_fish: Tropenfisch
+  drowned: Ertrunkener
+  player: Schpielar
+effect:
+  water_breathing: Unterwasseratem
+tropical_fish_type:
+  sunstreak: Sonnenstrahler
+  spotty: Tüpfler
+  flopper: Zappler
+  glitter: Glanzfisch
+dye_color:
+  white: Weiß
+  cyan: Tiarkis
+tropical_fish_name:
+  '50660352': Königin-Engelfisch
+  '918273': Nördlicher Schnapper
+  '67108865': Fadenflosser
+banner_pattern:
+  '2097152': Weißer Creeper
+  '2097153': Oranger Creeper
+  '2097154': Magenta Creeper
+  '2097155': Hellblauer Creeper
+  '2097156': Gelber Creeper
+  '2097157': Hellgrüner Creeper
+  '2097158': Rosa Creeper
+  '2097159': Grauer Creeper
+  '2097160': Hellgrauer Creeper
+  '2097161': Türkiser Creeper
+  '2097162': Violetter Creeper
+  '2097163': Blauer Creeper
+  '2097164': Brauner Creeper
+  '2097165': Grüner Creeper
+  '2097166': Roter Creeper
+  '2097167': Schwarzer Creeper
+  '2359296': Weißer Schädel
+  '2359297': Oranger Schädel
+  '2359298': Magenta Schädel
+  '2359299': Hellblauer Schädel
+  '2359300': Gelber Schädel
+  '2359301': Hellgrüner Schädel
+  '2359302': Rosa Schädel
+  '2359303': Grauer Schädel
+  '2359304': Hellgrauer Schädel
+  '2359305': Türkiser Schädel
+  '2359306': Violetter Schädel
+  '2359307': Blauer Schädel
+  '2359308': Brauner Schädel
+  '2359309': Grüner Schädel
+  '2359310': Roter Schädel
+  '2359311': Schwarzer Schädel
+  '2424832': Weiße Blume
+  '2424833': Orange Blume
+  '2424834': Magenta Blume
+  '2424835': Hellblaue Blume
+  '2424836': Gelbe Blume
+  '2424837': Hellgrüne Blume
+  '2424838': Rosa Blume
+  '2424839': Graue Blume
+  '2424840': Hellgraue Blume
+  '2424841': Türkise Blume
+  '2424842': Violette Blume
+  '2424843': Blaue Blume
+  '2424844': Braune Blume
+  '2424845': Grüne Blume
+  '2424846': Rote Blume
+  '2424847': Schwarze Blume
+  '2490368': Weißes Mojang-Logo
+  '2490369': Oranges Mojang-Logo
+  '2490370': Magenta Mojang-Logo
+  '2490371': Hellblaues Mojang-Logo
+  '2490372': Gelbes Mojang-Logo
+  '2490373': Hellgrünes Mojang-Logo
+  '2490374': Rosa Mojang-Logo
+  '2490375': Graues Mojang-Logo
+  '2490376': Hellgraues Mojang-Logo
+  '2490377': Türkises Mojang-Logo
+  '2490378': Violettes Mojang-Logo
+  '2490379': Blaues Mojang-Logo
+  '2490380': Braunes Mojang-Logo
+  '2490381': Grünes Mojang-Logo
+  '2490382': Rotes Mojang-Logo
+  '2490383': Schwarzes Mojang-Logo

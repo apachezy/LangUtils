@@ -1,0 +1,815 @@
+# ####################################################
+# Build time: 2021-03-06 14:30:24                    #
+# ####################################################
+language:
+  code: de_ch
+  name: Schwizerdütsch
+  region: Schwiz
+material:
+  acacia_boat: Akazieböötli
+  acacia_door: Akazietör
+  acacia_fence: Akazieholzhaag
+  acacia_fence_gate: Akazieholzhaagtor
+  acacia_log: Akazieholz
+  acacia_planks: Akazieholzbrätter
+  acacia_pressure_plate: Akazieholz Drockplatte
+  acacia_sign: Akaziäholzschild
+  acacia_trapdoor: Akaziäholzfalltür
+  activator_rail: Aktivierigsgleis
+  andesite_stairs: Andesittreppe
+  baked_potato: Ofägummel
+  bamboo_sapling: Bambussteckling
+  bat_spawn_egg: Flädermuus-Spawn-Ei
+  birch_button: Berkechnopf
+  birch_door: Berketör
+  birch_log: Berkeholz
+  birch_sign: Birkäholzschild
+  birch_slab: Berkeholzstufe
+  birch_stairs: Berkeholzstäge
+  birch_trapdoor: Birkefalltürä
+  black_concrete_powder: Schwarzes Betonpulver
+  black_dye: Schwarze Farbschtoff
+  black_shulker_box: Schwarzi Shulkerbox
+  black_wool: Schwarzi Wolle
+  blue_concrete_powder: Blaus Betonpulver
+  blue_dye: Blaue Farbschtoff
+  blue_shulker_box: Blaui Shulkerbox
+  blue_wool: Blaui Wolle
+  bread: Brout
+  brick_slab: Ziegelsteistufe
+  brick_wall: Zigelschteimur
+  brown_banner: Bruuns Banner
+  brown_bed: Bruuns Bett
+  brown_carpet: Bruune Teppich
+  brown_concrete_powder: Bruuns Betonpulver
+  brown_dye: Brune Farbschtoff
+  brown_glazed_terracotta: Bruun glasierti Keramik
+  brown_mushroom: Bruune Pelz
+  brown_mushroom_block: Bruune Pelzblock
+  brown_shulker_box: Bruuni Shulkerbox
+  brown_terracotta: Bruni Keramik
+  brown_wall_banner: Bruuns Banner
+  brown_wool: Bruuni Wolle
+  cave_spider_spawn_egg: Höhlespinnä-Spawn-Ei
+  chainmail_boots: Chettästiefel
+  chainmail_chestplate: Chettähämd
+  chainmail_helmet: Chettähuubi
+  chainmail_leggings: Chettähosä
+  chest_minecart: Chistelore
+  chicken_spawn_egg: Hüehnli-Spawn-Ei
+  chiseled_quartz_block: Gmeiselte Quarzblock
+  chiseled_stone_bricks: Gmeislete Steiziegel
+  clay_ball: Ton
+  cobblestone_slab: Brochsteistufe
+  cod_spawn_egg: Dorsch-Spawn-Ei
+  cut_red_sandstone: Gschnettnige rote Sandstei
+  cut_red_sandstone_slab: Gschnitteni roti Sandschteistufe
+  cut_sandstone: Gschnettnige Sandstei
+  cut_sandstone_slab: Gschnitteni Sandschteistufe
+  cyan_banner: Zyanfarbigs Banner
+  cyan_bed: Zyanfarbigs Bett
+  cyan_concrete_powder: Zyanfarbigs Betonpulver
+  cyan_dye: Zyanfarbige Farbstoff
+  cyan_glazed_terracotta: Türkis glasierti Keramik
+  cyan_shulker_box: Zyanfarbigi Shulkerbox
+  cyan_stained_glass_pane: Zyanfarbigi Glasschiibe
+  cyan_terracotta: Türkisi Keramik
+  cyan_wall_banner: Zyanfarbigs Banner
+  cyan_wool: Türkiisi Wolle
+  dark_oak_door: Schwarzeichetör
+  dark_oak_trapdoor: Schwarzeichäfalltürä
+  dark_prismarine_slab: Donkli Prismarinstufe
+  dark_prismarine_stairs: Donkli Prismarinstäge
+  dead_brain_coral_wall_fan: Abgstorbene Hirnkorallewandfächer
+  dead_bubble_coral: Abgstorbene Blasekoralle
+  dead_bubble_coral_fan: Abgstorbene Blasäkorallefächer
+  dead_bubble_coral_wall_fan: Abgstorbene Blasekorallewandfächer
+  dead_fire_coral_wall_fan: Abgestorbenä Füürkorallewandfächer
+  dead_horn_coral_wall_fan: Abgstorbene Geweihkorallewandfächer
+  dead_tube_coral_wall_fan: Abgstorbene Orgälkorallwandfächer
+  diamond_boots: Diamantästiefel
+  diamond_chestplate: Diamantäharnisch
+  diamond_leggings: Diamantäbeischutz
+  diorite_stairs: Diorittreppe
+  dragon_wall_head: Drachä-Wandchopf
+  drowned_spawn_egg: Vertrunkenä-Spawn-Ei
+  elder_guardian_spawn_egg: Grossä Wächter-Spawn-Ei
+  enchanted_golden_apple: Verzauberete goldige Öpfel
+  enderman_spawn_egg: Endermaa-Spawn-Ei
+  endermite_spawn_egg: Endermit-Spawn-Ei
+  ender_chest: Enderchiste
+  end_stone_brick_slab: Endschteizigelstufe
+  end_stone_brick_stairs: Endschteizigeltreppe
+  end_stone_brick_wall: Endschteizigelmur
+  evoker_spawn_egg: Magiär-Spawn-Ei
+  firework_star: Füürwerchsstärn
+  glass_pane: Glasschiibe
+  golden_leggings: Glodhosä
+  gold_ingot: Goldabarre
+  granite_stairs: Granittreppe
+  gray_concrete_powder: Graus Betonpulver
+  gray_shulker_box: Graui Shulkerbox
+  gray_terracotta: Graui Keramik
+  gray_wool: Graui Wolle
+  green_concrete_powder: Grüens Betonpulver
+  green_dye: Grüene Farbschtoff
+  green_shulker_box: Grüeni Shulkerbox
+  green_wool: Grüeni Wolle
+  horse_spawn_egg: Ross-Spawn-Ei
+  infested_chiseled_stone_bricks: Infiziertä gmeisletä Steiziegel
+  infested_cobblestone: Infiziertä Pflasterstei
+  infested_cracked_stone_bricks: Infiziertä rissigä Steiziegel
+  infested_mossy_stone_bricks: Infiziertä bemooste Steiziegel
+  infested_stone: Infiziertä Stei
+  infested_stone_bricks: Infiziertä Steiziegel
+  iron_door: Isetör
+  iron_leggings: Isehosä
+  jungle_boat: Tschungelböötli
+  jungle_button: Dschongelchnopf
+  jungle_door: Dschongeltör
+  jungle_fence: Dschongelholzhaag
+  jungle_fence_gate: Dschongelholzhaagtor
+  jungle_log: Tschungelholz
+  jungle_planks: Dschungelholzbrätter
+  jungle_pressure_plate: Dschongelholz Drockplatte
+  jungle_sign: Tropäholzschild
+  jungle_slab: Dschongelholzstufe
+  jungle_trapdoor: Tschungelfalltürä
+  jungle_wall_sign: Tropeholzwandschild
+  leather_boots: Läderstifel
+  leather_chestplate: Läderjagge
+  leather_helmet: Läderchappä
+  leather_leggings: Läderhosä
+  light_blue_concrete: Hellblauä Beton
+  light_blue_concrete_powder: Hellblaus Betonpulver
+  light_blue_glazed_terracotta: Hellblau glasierti Keramik
+  light_blue_shulker_box: Hellblaui Shulkerbox
+  light_blue_stained_glass_pane: Hellblaui Glasschiibe
+  light_blue_terracotta: Hellblaui Keramik
+  light_blue_wool: Hellblaui Wolle
+  light_gray_concrete_powder: Hellgraus Betonpulver
+  light_gray_shulker_box: Hellgraui Shulkerbox
+  light_gray_terracotta: Hellgraui Kreamik
+  light_gray_wool: Hellgraui Wolle
+  lime_concrete: Hellgrüenä Beton
+  lime_concrete_powder: Hellgrüens Betonpulver
+  lime_glazed_terracotta: Hellgrüen glasierti Keramik
+  lime_shulker_box: Hellgrüeni Shulkerbox
+  lime_terracotta: Hellgrüeni Keramik
+  lime_wool: Hellgrüeni Wolle
+  magenta_banner: Magentafarbigs Banner
+  magenta_bed: Magentafarbigs Bett
+  magenta_concrete: Magentafarbigä Beton
+  magenta_concrete_powder: Magentafarbigs Betonpulver
+  magenta_dye: Magentafarbene Farbstoff
+  magenta_glazed_terracotta: Magentafarbig glasierti Keramik
+  magenta_shulker_box: Magentafarbigi Shulkerbox
+  magenta_stained_glass_pane: Magentafarbigi Glasschiibe
+  magenta_wall_banner: Magentafarbigs Banner
+  magenta_wool: Magenta Wolle
+  melon: Meloneschiibli
+  mooshroom_spawn_egg: Pilzchuäh-Spawn-Ei
+  mossy_cobblestone: Bemooste Pflasterstei
+  mossy_cobblestone_slab: Bemoosti Bruchschteistufe
+  mossy_cobblestone_stairs: Bemoosti Bruchsteitreppe
+  mossy_cobblestone_wall: Bemoosti Pflastersteimuur
+  mossy_stone_brick_slab: Bemoosti Schteizigelstufe
+  mossy_stone_brick_stairs: Bemoosti Schteizigeltreppe
+  mossy_stone_brick_wall: Bemoosti Schteizigelmur
+  mushroom_stem: Pelzstiel
+  mushroom_stew: Pilzsüppli
+  nether_brick_wall: Netherzigelmur
+  oak_door: Eichetör
+  oak_trapdoor: Eichäfalltürä
+  orange_banner: Oranschs Banner
+  orange_bed: Oranschs Bett
+  orange_concrete_powder: Oranschs Betonpulver
+  orange_dye: Oransche Farbstoff
+  orange_glazed_terracotta: Oransch glasierti Keramik
+  orange_shulker_box: Oranschi Shulkerbox
+  orange_stained_glass_pane: Oranschi Glasschiibe
+  orange_terracotta: Orangi Keramik
+  orange_wall_banner: Oranschs Banner
+  orange_wool: Orangi Wolle
+  pig_spawn_egg: Sau-Spawn-Ei
+  pink_concrete: Pinkä Beton
+  pink_concrete_powder: Pinks Betonpulver
+  pink_shulker_box: Pinki Shulkerbox
+  pink_wool: Pinki Wolle
+  player_wall_head: Wandchopf vomene Spieler
+  poisonous_potato: Giftige Gummel
+  polar_bear_spawn_egg: Iisbär-Spawn-Ei
+  polished_andesite_stairs: Polierti Andesittreppe
+  polished_diorite_stairs: Polierti Diorittreppe
+  polished_granite_stairs: Polierti Granittreppe
+  potato: Gummel
+  potted_acacia_sapling: Iitopfte Akaziäsetzling
+  potted_allium: Iitopfte Sternlauch
+  potted_azure_bluet: Iitopfts Perzellanstärnli
+  potted_bamboo: Itopfter Bambus
+  potted_birch_sapling: Iitopfte Birkäsetzling
+  potted_blue_orchid: Iitopfte blaui Orchideä
+  potted_brown_mushroom: Iitopfte bruunä Pilz
+  potted_cactus: Iitopfte Kaktus
+  potted_dandelion: Iitopfte Löwezah
+  potted_dark_oak_sapling: Iitopfte Schwarzeichäsetzling
+  potted_dead_bush: Iitopfte totä Busch
+  potted_fern: Iitopfts Farn
+  potted_jungle_sapling: Iitopfte Tschungelbaumsetzling
+  potted_oak_sapling: Iitopfte Eichäsetzling
+  potted_orange_tulip: Iitopfti oranschi Tulpä
+  potted_oxeye_daisy: Iitopfts Margeritli
+  potted_pink_tulip: Iitopfti pinki Tulpä
+  potted_poppy: Iitopfte Mohn
+  potted_red_mushroom: Iitopfte rotä Pilz
+  potted_red_tulip: Iitopfte roti tulpä
+  potted_spruce_sapling: Iitopfte Fichtäsetzling
+  potted_white_tulip: Iitopfti wiisi Tulpä
+  powered_rail: Atriebsgleis
+  pufferfish_spawn_egg: Chugälfisch-Spawn-Ei
+  purple_concrete_powder: Violetts Betonpulver
+  purple_dye: Violettä Farbstoff
+  purple_shulker_box: Violetti Shulkerbox
+  purple_terracotta: Violetti Keramik
+  purple_wool: Violetti Wolle
+  rabbit_spawn_egg: Chüngel-Spawn-Ei
+  rail: Gleis
+  ravager_spawn_egg: Ravager-Spawn-Ai
+  redstone_torch: Redstone Fackle
+  redstone_wall_torch: Redstone Wandfackle
+  red_concrete_powder: Rots Betonpulver
+  red_dye: Rote Farbschtoff
+  red_mushroom: Rotä Pilz
+  red_mushroom_block: Rote Pelz
+  red_nether_brick_slab: Roti Netherzigelstufe
+  red_nether_brick_stairs: Roti Netherzigeltreppe
+  red_nether_brick_wall: Roti Netherzigelmur
+  red_sandstone_wall: Roti Sandschteimur
+  red_shulker_box: Roti Shulkerbox
+  red_wool: Roti Wolle
+  sandstone_wall: Sandschteimur
+  sheep_spawn_egg: Schaf-Spawn-Ei
+  shulker_box: Shulkerbox
+  skeleton_horse_spawn_egg: Skelettross-Spawn-Ei
+  smooth_quartz: Glatte Quarz
+  smooth_quartz_stairs: Glatti Quarztreppe
+  smooth_red_sandstone_slab: Glatti Roti Sandschteistufe
+  smooth_red_sandstone_stairs: Glatti roti Sandschteitreppe
+  smooth_sandstone_slab: Glatti Sandschteistufe
+  smooth_sandstone_stairs: Glatti Sandschteitreppe
+  spider_spawn_egg: Spinnä-Spawn-Ei
+  spruce_boat: Fichtäholzböötli
+  spruce_button: Fechtechnopf
+  spruce_door: Fichtetör
+  spruce_fence: Fechteholzhaag
+  spruce_fence_gate: Fechteholzhaagtor
+  spruce_log: Fechteholz
+  spruce_planks: Fichteholzbrätter
+  spruce_pressure_plate: Fechteholz Drockplatte
+  spruce_sign: Fichtäholzschild
+  spruce_slab: Fechteholzstufe
+  spruce_stairs: Fechteholzstäge
+  spruce_trapdoor: Fichtäfalltürä
+  squid_spawn_egg: Tintäfisch-Spawn-Ei
+  stonecutter: Schteisägi
+  stone_brick_wall: Schteizigelmur
+  stone_stairs: Schteitreppe
+  stray_spawn_egg: Iiswanderer-Spawn-Ei
+  stripped_acacia_log: Entrendets Akazieholz
+  stripped_acacia_wood: Entrendets Akazieholz
+  stripped_birch_log: Entrendets Berkeholz
+  stripped_dark_oak_log: Entrendets Schwarzeicheholz
+  stripped_dark_oak_wood: Entrendets Schwarzeicheholz
+  stripped_jungle_log: Entrendets Dschongelholz
+  stripped_oak_log: Entrendets Eicheholz
+  stripped_oak_wood: Entrendets Eicheholz
+  stripped_spruce_log: Entrendets Fechteholz
+  stripped_spruce_wood: Entrendets Fechteholz
+  trader_llama_spawn_egg: Händlerlama-Spawn-Ai
+  tropical_fish_spawn_egg: Tropäfisch-Spawn-Ei
+  turtle_helmet: Schildchrotäpanzer
+  turtle_spawn_egg: Schildchrotä-Spawn-Ei
+  vex_spawn_egg: Galöli-Spawn-Ei
+  vindicator_spawn_egg: Diänär-Spawn-Ei
+  white_banner: Wiises Banner
+  white_bed: Wiises Bett
+  white_carpet: Wiise Teppich
+  white_concrete: Wiise Beton
+  white_concrete_powder: Wiises Betonpulver
+  white_glazed_terracotta: Wiis glasierti Keramik
+  white_shulker_box: Wiisi Shulkerbox
+  white_stained_glass_pane: Wiisi Glasschiibe
+  white_terracotta: Wissi Keramik
+  white_wall_banner: Wiises Banner
+  white_wool: Wiissi Wolle
+  wither_skeleton_wall_skull: Witherskelett-Wandschädell
+  yellow_banner: Gelbs Banner
+  yellow_bed: Gelbs Bett
+  yellow_carpet: Gälbe Teppich
+  yellow_concrete: Gelbä Beton
+  yellow_concrete_powder: Gelbs Betonpulver
+  yellow_dye: Gelbe Farbschtoff
+  yellow_glazed_terracotta: Gelb glasierti Keramik
+  yellow_shulker_box: Gelbi Shulkerbox
+  yellow_terracotta: Gelbi Keramik
+  yellow_wall_banner: Gelbs Banner
+  yellow_wool: Gelbi Wolle
+  zombie_horse_spawn_egg: Zombieross-Spawn-Ei
+  zombie_villager_spawn_egg: Dorfbewohnerzombie-Spawn-Ei
+biome:
+  desert_hills: Wüestähügel
+  jungle: Tschungel
+  jungle_hills: Tschungelhügel
+  jungle_edge: Tschungelrand
+  birch_forest: Birkäwald
+  birch_forest_hills: Birkäwaldhügel
+  dark_forest: Diächte Wald
+  giant_tree_taiga_hills: Riesiigi Baumtaigahügel
+  swamp_hills: Sumpf Hügel
+  modified_jungle: Dschungel (Variante)
+  modified_jungle_edge: Dschungelrand (Variante)
+  tall_birch_forest: Höhe Birkewald
+  tall_birch_hills: Höhe Birkewaldhügel
+  dark_forest_hills: Dichtä Hügelwald
+  giant_spruce_taiga: Riisigi Fichtetaiga
+  giant_spruce_taiga_hills: Riisigi Fichtetaigahügel
+  bamboo_jungle: Bambusdschungäl
+  bamboo_jungle_hills: Bambusdschungälhügäl
+potion:
+  turtle_master: Trank vom Schildchrotämeischter
+splash_potion:
+  turtle_master: Wurftrank vom Schildchrotämeischter
+lingering_potion:
+  turtle_master: Verwiiltrank vom Schildchrotämeischter
+tipped_arrow:
+  turtle_master: Pfiil vom Schildchrotämeischter
+entity:
+  minecart_chest: Chistelore
+tropical_fish_type:
+  sunstreak: Sunnestrahler
+dye_color:
+  white: Wiis
+  orange: Oransch
+  cyan: Zyan
+  brown: Bruun
+named:
+  player_head_named: Chopf vom %s
+tropical_fish_name:
+  '918529': Rotä Buntbarsch
+  '235340288': Rotlippe-Schliimfisch
+  '918273': Nördlichä Schnapper
+colored_shied:
+  white: Wiises Schild
+  orange: Oranschs Schild
+  magenta: Magentafarbigs Schild
+  yellow: Gelbs Schild
+  cyan: Zyanfarbigs Schild
+  brown: Bruuns Schild
+banner_pattern:
+  '65536': Wiises rechts unteregg
+  '65537': Oranschigs rechts Unteregg
+  '65538': Magentafarbigs rechts Unteregg
+  '65540': Gelbs rechts Unteregg
+  '65545': Zyanfarbigs rechts unteregg
+  '65548': Bruuns rechts Unteregg
+  '65550': Rots Rechts Unteregg
+  '131072': Wiises lings Unteregg
+  '131073': Oranschs lings Unteregg
+  '131074': Magentafarbigs lings Unteregg
+  '131075': Hellblaus lings Unteregg
+  '131076': Gelbs lings Unteregg
+  '131077': Hellgrüens lings Unteregg
+  '131078': Pinks lings Unteregg
+  '131079': Graus Lings Unteregg
+  '131080': Hellgraus lings Unteregg
+  '131081': Zyanfarbigs lings Unteregg
+  '131082': Violetts lings Unteregg
+  '131083': Blaus lings Unteregg
+  '131084': Bruuns lings unteregg
+  '131085': Grüens lings Unteregg
+  '131086': Rots lings Unteregg
+  '131087': Schwarzes lings Unteregg
+  '196608': Wiises rechts Oberegg
+  '196609': Oranschs rechts Oberegg
+  '196610': Magentafarbigs rechts Oberegg
+  '196612': Gelbs rechts Oberegg
+  '196613': Hellgrpens rechts Oberegg
+  '196617': Zyanfarbigs rechts Oberegg
+  '196620': Bruuns rechts Oberegg
+  '262144': Wiises lings Oberegg
+  '262145': Oranschs lings Oberegg
+  '262146': Magentafarbigs lings Oberegg
+  '262147': Hellblaus lings Oberegg
+  '262148': Gelbs lings Oberegg
+  '262149': Hellgrüens lings Oberegg
+  '262150': Pinks lings Oberegg
+  '262151': Graus lings Oberegg
+  '262152': Hellgraus linggs Oberegg
+  '262153': Zyanfarbigs lings Oberegg
+  '262154': Violetts lings Oberegg
+  '262155': Blaus lings Oberegg
+  '262156': Bruuns lings Oberegg
+  '262157': Grüens lings Oberegg
+  '262158': Rots lings Oberegg
+  '262159': Schwarzes lings Oberegg
+  '327680': Wiise Bannerfuess
+  '327681': Oransche Bannerfuess
+  '327682': Magentafarbige Bannerfuess
+  '327689': Zyanfarbige Bannerfuess
+  '327692': Bruune Bannerfuess
+  '393216': Wiises Bannerhaupt
+  '393217': Oranschs Bannerhaupt
+  '393218': Magentafarbigs Bannerhaupt
+  '393220': Gelbs Bannerhaupt
+  '393225': Zyanfarbigs
+  '393228': Bruuns Bannerhaupt
+  '458752': Wiisi rechti Flankä
+  '458753': Oranschi rechti Flankä
+  '458754': Magentafarbigi rechti Flankä
+  '458755': Hellblaui rechti Flankä
+  '458756': Gelbi rechti Flankä
+  '458757': Hellgrüeni rechti Flankä
+  '458758': Pinki rechti Flankä
+  '458759': Graui rechti Flankä
+  '458760': Hellgraui rechti Flankä
+  '458761': Zyanfarbigi rechti Flankä
+  '458762': Violetti rechti Flankä
+  '458763': Blaui rechti Flankä
+  '458764': Bruuni rechti Flankä
+  '458765': Grüeni rechti Flankä
+  '458766': Roti rechti Flankä
+  '458767': Schwarzi rechti Flankä
+  '524288': Wiisi lingi Flankä
+  '524289': Oranschi lingi Flankä
+  '524290': Magentafarbigi lingi Flankä
+  '524291': Hellblaui lingi Flankä
+  '524292': Gelbi lingi Flankä
+  '524293': Hellgrüeni lingi Flankä
+  '524294': Pinki lingi Flankä
+  '524295': Graui lingi Flankä
+  '524296': Hellgraui lingi Flankä
+  '524297': Zyanfarbigi lingi Flankä
+  '524298': Violetti lingi Flankä
+  '524299': Blaui lingi Flankä
+  '524300': Bruuni lingi Flankä
+  '524301': Grpeni lingi Flank
+  '524302': Roti lingi Flankä
+  '524303': Schwarzi lingi Flankä
+  '589824': Wiisä Pfahl
+  '589825': Oranschä Pfahl
+  '589826': Magentafarbigä Pfahl
+  '589827': Hellblauä Pfahl
+  '589828': Gelbä Pfahl
+  '589829': Hellgrüenä Pfahl
+  '589830': Pinkä Pfahl
+  '589831': Grauä Pfahl
+  '589832': Hellgrauä Pfahl
+  '589833': Zyanfarbigä Pfahl
+  '589834': Violettä Pfahl
+  '589835': Blauä Pfahl
+  '589836': Bruunä Pfahl
+  '589837': Grüenä Pfahl
+  '589838': Rotä Pfahl
+  '589839': Schwarzä Pfahl
+  '655360': Wiise Balkä
+  '655361': Oransche Balkä
+  '655362': Magentafarbige Balkä
+  '655363': Hellblaue Balkä
+  '655364': Gelbe Balkä
+  '655365': Hellgrüene Balkä
+  '655366': Pinke Balkä
+  '655367': Graue Balkä
+  '655368': Hellgraue Balkä
+  '655369': Zyanfarbige Balkä
+  '655370': Violette Balkä
+  '655371': Blaue Falkä
+  '655372': Bruune Balkä
+  '655373': Grüene Balkä
+  '655374': Rote Balkä
+  '655375': Schwarze Balkä
+  '720896': Wiise Schrägbalkä
+  '720897': Oransche Schrägbalkä
+  '720898': Magentafarbige Schrägbalkä
+  '720899': Hellblaue Schrägbalkä
+  '720900': Gälbe Schrägbalkä
+  '720901': Hellgrüene Schrägbalkä
+  '720902': Pinke Schrägbalkä
+  '720903': Graue Schrägbalkä
+  '720904': Hellgraue Schrägbalkä
+  '720905': Zyanfarbige Schrägbalkä
+  '720906': Violette Schrägbalkä
+  '720907': Blaue Schrägbalkä
+  '720908': Bruune Schrägbalkä
+  '720909': Grüene Schrägbalkä
+  '720910': Rote Schrägbalkä
+  '720911': Schwarze Schrägbalkä
+  '786432': Wiise Schräglingsbalkä
+  '786433': Oransche Schräglingsbalkä
+  '786434': Magentafarbige Schräglingsbalkä
+  '786435': Hellblaue Schräglingsbalkä
+  '786436': Gälbe Schräglingsbalkä
+  '786437': Hellgrüene Schräglingsbalkä
+  '786438': Pinke Schräglingsbalkä
+  '786439': Graue Schräglingsbalkä
+  '786440': Hellgraue Schräglingsbalkä
+  '786441': Zyanfarbige Schräglingsbalkä
+  '786442': Violette Schräglingsbalkä
+  '786443': Blaue Schräglingsbalkä
+  '786444': Bruune Schräglingsbalkä
+  '786445': Grüene Schräglingsbalkä
+  '786446': Rote Schräglingsbalkä
+  '786447': Schwarze Schräglingsbalkä
+  '851968': Vier wiisi Pfähl
+  '851969': Vier Oranschi Pfähl
+  '851970': Vier Magentafarbigi Pfähl
+  '851971': Vier Hellblaui Pfähl
+  '851972': Vier Gälbi Pfähl
+  '851973': Vier Hellgrüeni Pfähl
+  '851974': Vier Pinki Pfähl
+  '851975': Vier Graui Pfähl
+  '851976': Vier Hellgraui Pfähl
+  '851977': Vier Zyanfarbigi Pfähl
+  '851980': Vier bruuni Pfähl
+  '851981': Vier Grüeni Pfähl
+  '851982': Vier Roti Pfähl
+  '851983': Vier Schwarzi Pfähl
+  '917504': Wiises Andreaschrüüz
+  '917505': Oranschs Andreaschrüüz
+  '917506': Magentafarbigs Andreaschrüüz
+  '917508': Gelbs Andreaschrüüz
+  '917513': Zyanfarbigs Andreaschrüüz
+  '917516': Bruuns Andreaschrüüz
+  '983040': Wiises Chrüüz
+  '983041': Oranschs Chrüüz
+  '983042': Magentafarbigs Chrüüz
+  '983044': Gälbs Chrüüz
+  '983049': Zyanfarbigs Chrüüz
+  '983052': Bruuns Chrüüz
+  '1048576': Wiisi halbi Spitzä
+  '1048577': Oranschi halbi Spitzä
+  '1048578': Magentafarbigi halbi Spitzä
+  '1048579': Hellblaui halbi Spitzä
+  '1048580': Gelbi halbi Spitzä
+  '1048581': Hellgrüeni halbi Spitzä
+  '1048582': Pinki halbi Spitzä
+  '1048583': Graui halbi Spitzä
+  '1048584': Hellgraui halbi Spitzä
+  '1048585': Zyanfarbigi halbi Spitzä
+  '1048586': Violetti halbi Spitzä
+  '1048587': Blaui halbi Spitzä
+  '1048588': Bruuni halbi Spitzä
+  '1048589': Grüeni halbi Spitzä
+  '1048590': Roti halbi Spitzä
+  '1048591': Schwarzi halbi Spitzä
+  '1114112': Wiisi gstürzti halbi Spitzä
+  '1114113': Oranschi gstürzti halbi Spitzä
+  '1114114': Magentafarbigi gstürzti halbi Spitzä
+  '1114115': Hellblaui gstürzti halbi Spitzä
+  '1114116': Gelbi gstürzti halbi Spitzä
+  '1114117': Hellgrüeni gstürzti halbi Spitzä
+  '1114118': Pinki gstürzti halbi Spitzä
+  '1114119': Graui gstürzti halbi Spitzä
+  '1114120': Hellgraui gstürzti halbi Spitzä
+  '1114121': Zyanfarbigi gstürzti halbi Spitzä
+  '1114122': Violetti gstürzti halbi Spitzä
+  '1114123': Blaui gstürzti halbi Spitzä
+  '1114124': Bruuni gstürzti halbi Spitzä
+  '1114125': Grüeni gstürzti halbi Spitzä
+  '1114126': Roti gstürzti halbi Spitzä
+  '1114127': Schwarzi gstürzti halbi Spitzä
+  '1179648': Wiis hinterleite Bannerfuess
+  '1179649': Oransch hinterleite Bannerfuess
+  '1179650': Magentafarbig hinterleite Bannerfuess
+  '1179651': Hellblau hinterleite Bannerfuess
+  '1179652': Gelb hinterleite Bannerfuess
+  '1179653': Hellgrüen hinterleite Bannerfuess
+  '1179654': Pink hinterleite Bannerfuess
+  '1179655': Grau hinterleite Bannerfuess
+  '1179656': Hellgrau hinterleite Bannerfuess
+  '1179657': Zyanfarbig hinderleite Bannerfuäss
+  '1179658': Violett hinderleite Bannerfuäss
+  '1179659': Blau hinderleite Bannerfuäss
+  '1179660': Bruun hinderleite Bannerfuäss
+  '1179661': Grüen hinderleite Bannerfuäss
+  '1179662': Rot hinderleite Bannerfuäss
+  '1179663': Schwarz hinderleite Bannerfuäss
+  '1245184': Wiis hinterleite Bannerchopf
+  '1245185': Oransch hinterleite Bannerchopf
+  '1245186': Magentafarbig hinterleite Bannerchopf
+  '1245187': Hellblau hinterleite Bannerchopf
+  '1245188': Gelb hinterleite Bannerchopf
+  '1245189': Hellgrüen hinterleite Bannerchopf
+  '1245190': Pink hinterleite Bannerchopf
+  '1245191': Grau hinterleite Bannerchopf
+  '1245192': Hellgrau hinterleite Bannerchopf
+  '1245193': Zyanfarbige hinterleite Bannerchopf
+  '1245194': Violett hinterleite Bannerchopf
+  '1245195': Blau hinterleite Bannerchopf
+  '1245196': Bruun hinterleite Bannerchopf
+  '1245197': Grüen hinterleite Bannerchopf
+  '1245198': Rot hinterleite Bannerchopf
+  '1245199': Schwarz hinterleite Bannerchopf
+  '1310720': Wiis schräglings teilt
+  '1310721': Oransch schräglings teilt
+  '1310722': Magenta schräglings teilt
+  '1310723': Hellblau schräglings teilt
+  '1310724': Gelb schräglings teilt
+  '1310725': Hellgrüen schräglings teilt
+  '1310726': Pink schräglings teilt
+  '1310727': Grau schräglings teilt
+  '1310728': Hellgrau schräglings teilt
+  '1310729': Zyan schräglings teilt
+  '1310730': Violett schräglings teilt
+  '1310731': Blau schräglings teilt
+  '1310732': Bruun schräglings teilt
+  '1310733': Grüen schräglings teilt
+  '1310734': Rot schräglings teilt
+  '1310735': Schwarz schräglings teilt
+  '1376256': Wiis schräglings teilt (umkehrt)
+  '1376257': Oransch schräglings teilt (umkehrt)
+  '1376258': Magentafarbig schräglings teilt (umkehrt)
+  '1376259': Hellblau schräglings teilt (umkehrt)
+  '1376260': Gälb schräglings teilt (umkehrt)
+  '1376261': Hellgrüen schräglings teilt (umkehrt)
+  '1376262': Pink schräglings teilt (umkehrt)
+  '1376263': Grau schräglings teilt (umkehrt)
+  '1376264': Hellgrau schräglings teilt (umkehrt)
+  '1376265': Zyanfarbig schräglings teilt (umkehrt)
+  '1376266': Violett schräglings teilt (umkehrt)
+  '1376267': Blau schräglings teilt (umkehrt)
+  '1376268': Bruun schräglings teilt (umkehrt)
+  '1376269': Grüen schräglings teilt (umkehrt)
+  '1376270': Rot schräglings teilt (umkehrt)
+  '1376271': Schwarz schräglings teilt (umkehrt)
+  '1441792': Wiis schrägrächts teilt (umkehrt)
+  '1441793': Oransch schrägrächts teilt (umkehrt)
+  '1441794': Magentafarbig schrägrächts teilt (umkehrt)
+  '1441795': Hellblau schrägrächts teilt (umkehrt)
+  '1441796': Gälb schrägrächts teilt (umkehrt)
+  '1441797': Hellgrüen schrägrächts teilt (umkehrt)
+  '1441798': Pink schrägrächts teilt (umkehrt)
+  '1441799': Grau schrägrächts teilt (umkehrt)
+  '1441800': Hellgrau schrägrächts teilt (umkehrt)
+  '1441801': Zyanfarbig schrägrächts teilt (umkehrt)
+  '1441802': Violett schrägrächts teilt (umkehrt)
+  '1441803': Blau schrägrächts teilt (umkehrt)
+  '1441804': Bruun schrägrächts teilt (umkehrt)
+  '1441805': Grüen schrägrächts teilt (umkehrt)
+  '1441806': Rot schrägrächts teilt umkehrt
+  '1441807': Schwarz schrägrächts teilt (umkehrt)
+  '1507328': Wiis schrägrächts teilt
+  '1507329': Oransch schrägrächts teilt
+  '1507330': Magentafarbig schrägrächts teilt
+  '1507331': Hellblau schrägrächts teilt
+  '1507333': Hellgrüen schrägrächts teilt
+  '1507334': Pink schrägrächts teilt
+  '1507337': Zyan schrägrechts teilt
+  '1507340': Bruun schrägrechts teilt
+  '1572864': Wiisi chuuglä
+  '1572865': Oranschi chuuglä
+  '1572866': Magentafarbigi chuuglä
+  '1572867': Hellblaui chuuglä
+  '1572868': Gälbi chuuglä
+  '1572869': Hellgrüeni chuuglä
+  '1572870': Pinki chuuglä
+  '1572871': Graui chuuglä
+  '1572872': Hellgraui chuuglä
+  '1572873': Zyanfarbigi chuuglä
+  '1572874': Violetti chuuglä
+  '1572875': Blaui chuuglä
+  '1572876': Bruuni chuuglä
+  '1572877': Grüeni chuuglä
+  '1572878': Roti chuuglä
+  '1572879': Schwarzi chuuglä
+  '1638400': Wiisi Raute
+  '1638401': Oranschi Raute
+  '1638402': Magentafarbigi Raute
+  '1638409': Zyanfarbigi Raute
+  '1638412': Bruuni Raute
+  '1638413': Grüeni Rautä
+  '1638414': Roti Rautä
+  '1638415': Schwarzi Rautä
+  '1703936': Wiis
+  '1703937': Oransch rechts gspalte
+  '1703945': Zyan rechts gspalte
+  '1703948': Bruun rechts gspalte
+  '1769472': Wiis obe teilt
+  '1769473': Oransch obe teilt
+  '1769481': Zyan obe teilt
+  '1769484': Bruun obe teilt
+  '1835008': Wiis lings gspaltä
+  '1835009': Oransch lings gspaltä
+  '1835010': Magenta lings gspaltä
+  '1835011': Hellblau lings gspaltä
+  '1835012': Gälb lings gspaltä
+  '1835013': Hellgrüen lings gspaltä
+  '1835014': Pink lings gspaltä
+  '1835015': Grau lings gspaltä
+  '1835016': Hellgrau lings gspaltä
+  '1835017': Zyan lings gspaltä
+  '1835018': Violett lings gspaltä
+  '1835019': Blaulings gspalte
+  '1835020': Bruun lings gspalte
+  '1835021': Grüen lings gspalte
+  '1835022': Rot lings gspalte
+  '1835023': Schwarz lings gspalte
+  '1900544': Wiis une teilt
+  '1900545': Oransch une teilt
+  '1900548': Gälb une teilt
+  '1900553': Zyan une teilt
+  '1900556': Bruun une teilt
+  '1966080': Wiises Bord
+  '1966081': Oranschs Bord
+  '1966082': Magentafarbigs Bord
+  '1966084': Gälbs Bord
+  '1966089': Zyanfarbigs Bord
+  '1966092': Bruuns Bord
+  '2031616': Wiises Stickbord
+  '2031617': Oranschs Stickbord
+  '2031618': Magentafarbigs Stickbord
+  '2031619': Hellblaus Stickbord
+  '2031620': Gälbs Stickbord
+  '2031621': Hellgrüen hinterleits Bord
+  '2031622': Pink hinderleits Bord
+  '2031623': Grau hinderleits Bord
+  '2031624': Hellgrau hinderleits Bord
+  '2031625': Zyan hinderleits Bord
+  '2031626': Violett hinderleits Bord
+  '2031627': Blau hinderleits Bord
+  '2031628': Bruun hinderleits Bord
+  '2031629': Grüen hinderleits Bord
+  '2031630': Rot hinderleits Bord
+  '2031631': Schwarz hinderleits Bord
+  '2097152': Wiise Creeper
+  '2097153': Oransche Creeper
+  '2097154': Magentafarbige Creeper
+  '2097156': Gälbe Creeper
+  '2097161': Zyanfarbige Creeper
+  '2097164': Bruune Creeper
+  '2162688': Wiise Farbverlauf
+  '2162689': Oransche Farbverlauf
+  '2162690': Magentafarbige Farbverlauf
+  '2162692': Gälbe Farbverlauf
+  '2162697': Zyanfarbige Farbverlauf
+  '2162700': Bruune Farbverlauf
+  '2228224': Wiise Farbverlauf umkehrt
+  '2228225': Oransche Farbverlauf umkehrt
+  '2228226': Magentafarbige Farbverlauf umkehrt
+  '2228227': Hellblaue Farbverlauf umkehrt
+  '2228228': Gälbe Farbverlauf umkehrt
+  '2228229': Hellgrüene Farbverlauf umkehrt
+  '2228230': Pinke Farbverlauf umkehrt
+  '2228231': Graue Farbverlauf umkehrt
+  '2228232': Hellgraue Farbverlauf umkehrt
+  '2228233': Zyanfarbige Farbverlauf umkehrt
+  '2228234': Violette Farbverlauf umkehrt
+  '2228235': Blaue Farbverlauf umkehrt
+  '2228236': Bruune Farbverlauf umkehrt
+  '2228237': Grüene Farbverlauf umkehrt
+  '2228238': Rote Farbverlauf umkehrt
+  '2228239': Schwarze Farbverlauf umkehrt
+  '2293760': Wiis gmuurets Feld
+  '2293761': Oransch gmuurets Feld
+  '2293762': Magentafarbig gmuurets Feld
+  '2293763': Hellblau gmuurets Feld
+  '2293764': Gelb gmuurets Feld
+  '2293765': Hellgrüen gmuurets Feld
+  '2293766': Pink gmuurets Feld
+  '2293767': Grau gmuurets Feld
+  '2293768': Hellgrau gmuurets Feld
+  '2293769': Zyanfarbig gmuurets Fäld
+  '2293770': Violett gmuurets Fäld
+  '2293771': Blau gmuurets Fäld
+  '2293772': Bruun gmuurets Fäld
+  '2293773': Grüen gmuurets Fäld
+  '2293774': Rot gmuurets Fäld
+  '2293775': Schwarz gmuurets Fäld
+  '2359296': Wiise Schädel
+  '2359297': Oransche Schädel
+  '2359298': Magentafarbige Schädel
+  '2359300': Gälbe Schädel
+  '2359305': Zyanfarbige Schädel
+  '2359308': Bruune Schädel
+  '2424832': Wiisi Bluemä
+  '2424833': Oranschi Bluemä
+  '2424834': Magentafarbigi Bluemä
+  '2424835': Hellblaui Bluemä
+  '2424836': Gälbi Bluemä
+  '2424837': Hellgrüeni Bluemä
+  '2424838': Pinki Bluemä
+  '2424839': Graui Bluemä
+  '2424840': Hellgraui Bluemä
+  '2424841': Zyanfarbigi Bluemä
+  '2424842': Violetti Bluemä
+  '2424843': Blaui Bluemä
+  '2424844': Bruuni Bluemä
+  '2424845': Grüeni Bluemä
+  '2424846': Roti Bluemä
+  '2424847': Schwarzi Bluemä
+  '2490368': Wiises Mojang-Logo
+  '2490369': Oranschs Mojang-Logo
+  '2490370': Magentafarbigs Mojang-Logo
+  '2490372': Gelbs Mojang-Logo
+  '2490377': Zyanfarbigs Mojang-Logo
+  '2490380': Bruuns Mojang-Logo
+  '2555913': Hellblaue Globus

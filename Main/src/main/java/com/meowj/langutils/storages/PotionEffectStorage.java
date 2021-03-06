@@ -46,11 +46,4 @@ public class PotionEffectStorage extends Storage<PotionEffectType> {
         return entries;
     }
 
-    @Override
-    @NotNull
-    public String getEntry(@NotNull String locale, @NotNull PotionEffectType potionEffectType) {
-        String result = super.getEntry(locale, potionEffectType);
-        return result == null ? potionEffectType.getName().toLowerCase(Locale.ROOT) : result;
-    }
-
 }

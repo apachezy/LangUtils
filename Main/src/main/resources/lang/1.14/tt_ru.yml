@@ -1,0 +1,637 @@
+# ####################################################
+# Build time: 2021-03-06 14:30:27                    #
+# ####################################################
+language:
+  code: tt_ru
+  name: Татарча
+  region: Рәсәй
+material:
+  acacia_boat: Сәрви агач көймәсе
+  acacia_button: Сәрви агач төймәсе
+  acacia_door: Сәрви ишеге
+  acacia_fence: Сәрви агач коймасы
+  acacia_fence_gate: Сәрви агач капкасы
+  acacia_log: Сәрви агач бүрәнәсе
+  acacia_planks: Сәрви такталары
+  acacia_pressure_plate: Сәрви басма плитәсе
+  acacia_sign: Сәрви агач тамгасы
+  acacia_slab: Сәрви плитәсе
+  acacia_stairs: Сәрви агач баскычлары
+  acacia_trapdoor: Сәрви агач люге
+  acacia_wall_sign: Сәрви агач дивар алтактасы
+  acacia_wood: Сәрви агач
+  activator_rail: Сызганучы тимер юл
+  andesite_slab: Андезит плитәсе
+  andesite_stairs: Андезит баскычлары
+  andesite_wall: Андезит киртәсе
+  armor_stand: Көбә терәге
+  attached_melon_stem: Беркетекән карбыз сабагы
+  baked_potato: Пешергән бәрәңге
+  bamboo_sapling: Бамбук үсенте
+  beacon: Яктырткыч
+  beef: Пешмәгән сыер ите
+  beetroot_soup: Борщ
+  birch_boat: Каен көймәсе
+  birch_button: Каен төймәсе
+  birch_door: Каен ишеге
+  birch_fence: Каен коймасы
+  birch_fence_gate: Каен капкасы
+  birch_planks: Каен такталары
+  birch_pressure_plate: Каен басма плитәсе
+  birch_sign: Каен тамгасы
+  birch_slab: Каен плитәсе
+  birch_trapdoor: Каен люге
+  birch_wall_sign: Каен дивар алтактасы
+  black_glazed_terracotta: Кара глазурьлаучы керамика
+  blaze_powder: Ыгы-зыгы порошогы
+  blaze_rod: Ыгы-зыгы кендеге
+  blaze_spawn_egg: Ыгы-зыгы чакыру йомыркасы
+  blue_glazed_terracotta: Зәңгәр глазурьлаучы керамика
+  bone_block: Сөяк җыелмасы
+  bowl: Җамаяк
+  brain_coral: Ми мәрҗән
+  brain_coral_block: Ми мәрҗән җыелмасы
+  brain_coral_fan: Җилпәзә ми мәрҗән
+  brewing_stand: Эчемлек кайнату терәге
+  brick_slab: Кирпеч плитәсе
+  brick_stairs: Кирпеч баскычлары
+  brick_wall: Кирпеч киртәсе
+  brown_glazed_terracotta: Көрән глазурьлаучы керамика
+  brown_mushroom_block: Көрән гөмбә җыелмасы
+  bubble_coral: Куыклык мәрҗән
+  bubble_coral_block: Куыклык мәрҗән җыелмасы
+  cave_air: Тау куышы һавасы
+  chainmail_boots: Көбә ирләр аяк киеме
+  chainmail_chestplate: Көбә
+  chainmail_helmet: Койф
+  chain_command_block: Эзлекле боерык җыелма
+  charcoal: Агач күмере
+  chicken: Пешмәгән тавык ите
+  chiseled_quartz_block: Кисек кварц җыелмасы
+  chiseled_stone_bricks: Киселгән таш кирпечләре
+  clay_ball: Балчык
+  coal_block: Күмер җыелмасы
+  cobblestone_slab: Йомрыташ плитәсе
+  cobblestone_stairs: Йомрыташ баскычлары
+  cobblestone_wall: Йомрыташ киртәсе
+  cod: Пешмәгән тәрәч
+  cod_bucket: Тәрәч чиләктә
+  command_block: Боерык җыелмасы
+  command_block_minecart: Боерык җыелмалы арбачык
+  comparator: Редстоун компараторы
+  composter: Компостерлаулык
+  conduit: Диңгез чишмәсе
+  cooked_beef: Cтейк
+  cookie: Күмәч
+  cracked_stone_bricks: Ярылган таш кирпечләре
+  creeper_wall_head: Дивар крипер башы
+  cut_red_sandstone_slab: Шома кызыл комташ плитәсе
+  cut_sandstone_slab: Шома комташ плитәсе
+  cyan_dye: Фирәзә буяуы
+  cyan_glazed_terracotta: Фирәзә глазурьлаучы керамика
+  dark_oak_boat: Кара имән көймәсе
+  dark_oak_button: Кара имән төймәсе
+  dark_oak_door: Кара имән ишеге
+  dark_oak_fence: Кара имән коймасы
+  dark_oak_fence_gate: Кара имән капкасы
+  dark_oak_log: Кара имән бүрәнәсе
+  dark_oak_planks: Кара имән такталары
+  dark_oak_pressure_plate: Кара имән басма плитәсе
+  dark_oak_sign: Кара имән тамгасы
+  dark_oak_slab: Кара имән плитәсе
+  dark_oak_stairs: Кара имән баскычлары
+  dark_oak_trapdoor: Кара имән люге
+  dark_oak_wall_sign: Кара имән дивар алтактасы
+  dark_prismarine_slab: Кара призмарин плитәсе
+  daylight_detector: Көн җиһан тех күрсәткече
+  dead_brain_coral_block: Үле ми мәрҗән җыелмасы
+  dead_bubble_coral_block: Үле куыклык мәрҗән җыелмасы
+  dead_fire_coral_block: Үле ут мәрҗән җыелмасы
+  dead_horn_coral_block: Үле мөгез мәрҗән җыелмасы
+  dead_tube_coral_block: Үле торбасыман мәрҗән җыелмасы
+  diamond_block: Алмаз җыелмасы
+  diamond_boots: Алмаз ирләр аяк киеме
+  diamond_chestplate: Алмаз изү күкрәкчә
+  diamond_horse_armor: Ат алмаз көбәсе
+  diorite_slab: Диорит плитәсе
+  diorite_stairs: Диорит баскычлары
+  diorite_wall: Диорит киртәсе
+  dragon_head: Аждаһа башы
+  dragon_wall_head: Дивар аждаһа башы
+  dried_kelp: Киптерелган ламинария
+  dried_kelp_block: Кипкән суүсем җыелмасы
+  drowned_spawn_egg: Суга баткан кеше чакыру йомыркасы
+  emerald_block: Зөбәрҗәт җыелмасы
+  enchanted_golden_apple: Сихри алтын алма
+  enchanting_table: Сихри өстәле
+  ender_pearl: Эндер энҗесе
+  end_portal_frame: Энд порталы кысачыгы
+  end_rod: Энд кендеге
+  end_stone: Эндташ
+  end_stone_bricks: Эндташ кирпечләре
+  end_stone_brick_slab: Эндташ кирпеч плитәсе
+  end_stone_brick_stairs: Энд таш кирпеч баскычлары
+  end_stone_brick_wall: Эндташ кирпеч киртәсе
+  evoker_spawn_egg: Әфсенләүче чакыру йомыркасы
+  experience_bottle: Кечкенә шешә тәҗрибәсе
+  farmland: Басу
+  fermented_spider_eye: Маринадлаган үрмәкүч күзе
+  firework_star: Пиротехника йолдызы
+  fire_coral_block: Ут мәрҗән җыелмасы
+  flint: Чакма ташы
+  flint_and_steel: Чакма корычы
+  glass_bottle: Кечкенә шешә
+  glistering_melon_slice: Ялтырый торган карбыз телеме
+  golden_boots: Алтын ирләр аяк киеме
+  golden_chestplate: Алтын изү күкрәкчә
+  golden_horse_armor: Ат алтын көбәсе
+  gold_block: Алтын җыелмасы
+  granite_slab: Гранит плитәсе
+  granite_stairs: Гранит баскычлары
+  granite_wall: Гранит киртәсе
+  gray_dye: Соры буяуы
+  gray_glazed_terracotta: Соры глазурьлаучы керамика
+  green_glazed_terracotta: Яшел глазурьлаучы керамика
+  grindstone: Чар
+  heavy_weighted_pressure_plate: Салмакрак авырлык плитәсе
+  horn_coral_block: Мөгез мәрҗән җыелмасы
+  infested_chiseled_stone_bricks: Агуланган кисек таш кирпечләре
+  infested_cracked_stone_bricks: Агуланган ярылган таш кирпечләре
+  infested_mossy_stone_bricks: Агуланган мүкле таш кирпечләре
+  infested_stone_bricks: Агуланган таш кирпечләре
+  iron_block: Тимер җыелмасы
+  iron_boots: Тимер ирләр аяк киеме
+  iron_chestplate: Тимер изү күкрәкчә
+  iron_horse_armor: Ат тимер көбәсе
+  iron_trapdoor: Тимер люге
+  jukebox: Оттыручы
+  jungle_boat: Тропик агач көймәсе
+  jungle_button: Тропик агач төймәсе
+  jungle_door: Тропик агач ишеге
+  jungle_fence: Тропик агач коймасы
+  jungle_fence_gate: Тропик агач капкасы
+  jungle_log: Тропик агач бүрәнәсе
+  jungle_planks: Тропик агач такталары
+  jungle_pressure_plate: Тропик агач басма плитәсе
+  jungle_sign: Тропик агач тамгасы
+  jungle_slab: Тропик агач плитәсе
+  jungle_stairs: Тропик агач баскычлары
+  jungle_trapdoor: Тропик агач люге
+  jungle_wall_sign: Тропик агач дивар алтактасы
+  lantern: Фонарь
+  lapis_block: Лазурит җыелмасы
+  lead: Йөгән
+  leather_boots: Күн ирләр аяк киеме
+  lever: Көянтә
+  light_blue_dye: Зәңгәрсу буяуы
+  light_blue_glazed_terracotta: Зәңгәрсу глазурьлаучы керамика
+  light_gray_dye: Соргылт буяуы
+  light_gray_glazed_terracotta: Соргылт глазурьлаучы керамика
+  light_weighted_pressure_plate: Авырлык плитәсе
+  lime_dye: Яшькелт буяуы
+  lime_glazed_terracotta: Яшькелт глазурьлаучы керамика
+  magenta_dye: Куе кызыл буяуы
+  magenta_glazed_terracotta: Куе кызыл глазурьлаучы керамика
+  magma_block: Магма җыелмасы
+  map: Чиста карта
+  mooshroom_spawn_egg: Чебен мүмбәсе чакыру йомыркасы
+  mossy_cobblestone: Мүкләнгән йомрыташ
+  mossy_cobblestone_slab: Мүкләнгән йомрыташ плитәсе
+  mossy_cobblestone_stairs: Мүкләнгән йомрыташ баскычлары
+  mossy_cobblestone_wall: Мүкләнгән йомрыташ киртәсе
+  mossy_stone_bricks: Мүкле таш кирпечләре
+  mossy_stone_brick_slab: Мүкле таш кирпеч плитәсе
+  mossy_stone_brick_stairs: Мүкле таш кирпеч баскычлары
+  mossy_stone_brick_wall: Мүкле таш кирпеч киртәсе
+  mushroom_stew: Гөмбә аш
+  mutton: Пешмәгән бәрән ите
+  mycelium: Мицелий
+  nether_brick_fence: Незер кирпеч коймасы
+  nether_brick_slab: Незер кирпеч плитәсе
+  nether_brick_stairs: Незер кирпеч баскычлары
+  nether_brick_wall: Незер кирпеч киртәсе
+  nether_star: Незердан йолдызы
+  nether_wart: Незер катламы
+  nether_wart_block: Незер катламы җыелмасы
+  note_block: Ноталар җыелмасы
+  oak_boat: Имән көймәсе
+  oak_button: Имән төймәсе
+  oak_door: Имән ишеге
+  oak_fence: Имән коймасы
+  oak_fence_gate: Имән капкасы
+  oak_planks: Имән такталары
+  oak_pressure_plate: Имән басма плитәсе
+  oak_sign: Имән тамгасы
+  oak_slab: Имән плитәсе
+  oak_trapdoor: Имән люге
+  oak_wall_sign: Имән дивар алтактасы
+  orange_dye: Кызгылт сары буяуы
+  orange_glazed_terracotta: Кызгылт глазурьлаучы керамика
+  petrified_oak_slab: Ташланган имән плитәсе
+  pink_dye: Ал буяуы
+  pink_glazed_terracotta: Ал глазурьлаучы керамика
+  player_wall_head: Дивар уенчы башы
+  polished_andesite_slab: Шомартылган андезит плитәсе
+  polished_andesite_stairs: Шомартылган андезит баскычлары
+  polished_diorite_slab: Шомартылган диорит плитәсе
+  polished_diorite_stairs: Шомартылган диорит баскычлары
+  polished_granite_slab: Шомартылган гранит плитәсе
+  polished_granite_stairs: Шомартылган гранит баскычлары
+  porkchop: Пешмәгән дуңгыз ите
+  potted_wither_rose: Утыртылган Визер чәчәк
+  prismarine_bricks: Призмарин кирпечләре
+  prismarine_shard: Призмарин ватыгы
+  prismarine_slab: Призмарин плитәсе
+  prismarine_wall: Призмарин киртәсе
+  pufferfish_bucket: Энәкорсак чиләкге
+  pufferfish_spawn_egg: Иглобрюх чакыру йомыркасы
+  purple_dye: Шәмәхә буяуы
+  purple_glazed_terracotta: Шәмәхә глазурьлаучы керамика
+  purpur_block: Пурпур җыелма
+  purpur_pillar: Пурпур пилон
+  purpur_slab: Пурпур плитәсе
+  purpur_stairs: Пурпур баскыч
+  quartz: Незер кварц
+  quartz_block: Кварц җыелмасы
+  quartz_pillar: Кварц баганасы
+  quartz_slab: Кварц плитәсе
+  quartz_stairs: Кварц баскычлары
+  rabbit: Пешмәгән куян ите
+  rabbit_foot: Куян тәписе
+  rabbit_hide: Куян тиречеге
+  rabbit_stew: Томалап пешергән куян
+  redstone_block: Редстоун җыелмасы
+  redstone_lamp: Редстоун фонарь
+  redstone_torch: Редстоун чырагы
+  redstone_wall_torch: Дивар редстоун чырагы
+  redstone_wire: Редстоун тимерчыбык
+  red_glazed_terracotta: Кызыл глазурьлаучы керамика
+  red_mushroom_block: Кызыл гөмбә җыелмасы
+  red_nether_brick_slab: Кызыл незер кирпеч плитәсе
+  red_nether_brick_stairs: Кызыл незер кирпеч баскычлары
+  red_nether_brick_wall: Кызыл незер кирпеч киртәсе
+  red_sandstone_slab: Кызыл комташ плитәсе
+  red_sandstone_stairs: Кызыл комташ баскычлары
+  red_sandstone_wall: Кызыл комташ киртәсе
+  repeater: Редстоун кабатлау
+  repeating_command_block: Кабатланган боерык җыелма
+  rose_bush: Роза куагы
+  saddle: Ияр
+  salmon: Пешмәгән сөләйман
+  salmon_bucket: Cөләйман балыгы чиләкге
+  salmon_spawn_egg: Сөләйман балыгы чакыру йомыркасы
+  sandstone_slab: Комташ плитәсе
+  sandstone_stairs: Комташ баскычлары
+  sandstone_wall: Комташ киртәсе
+  seagrass: Диңгез чирәме
+  sea_lantern: Диңгез фонары
+  skeleton_horse_spawn_egg: Сөлдә ат чакыру йомыркасы
+  skeleton_skull: Сөлдә башы
+  skeleton_spawn_egg: Сөлдә чакыру йомыркасы
+  skeleton_wall_skull: Дивар сөлдә башы
+  slime_block: Лайлач җыелмасы
+  smooth_quartz: Тигез кварц
+  smooth_quartz_slab: Тигез кварц плитәсе
+  smooth_quartz_stairs: Тигез кварц баскычлары
+  smooth_red_sandstone_slab: Тигез кызыл комташ плитәсе
+  smooth_red_sandstone_stairs: Тигез кызыл комташ баскычлары
+  smooth_sandstone_slab: Тигез комташ плитәсе
+  smooth_sandstone_stairs: Тигез комташ баскычлары
+  smooth_stone_slab: Тигез таш плитәсе
+  snowball: Кар кисәге
+  snow_block: Кар җыелмасы
+  soul_sand: Җан ком
+  spectral_arrow: Саташу угы
+  splash_potion: Шартлау эчемлек
+  spruce_boat: Чыршы көймәсе
+  spruce_button: Чыршы төймәсе
+  spruce_door: Чыршы ишеге
+  spruce_fence: Чыршы коймасы
+  spruce_fence_gate: Чыршы капкасы
+  spruce_planks: Чыршы такталары
+  spruce_pressure_plate: Чыршы басма плитәсе
+  spruce_sign: Чыршы тамгасы
+  spruce_slab: Чыршы плитәсе
+  spruce_trapdoor: Чыршы люге
+  spruce_wall_sign: Чыршы дивар алтактасы
+  stone_bricks: Таш кирпечләре
+  stone_brick_slab: Таш кирпеч плитәсе
+  stone_brick_stairs: Таш кирпеч баскычлары
+  stone_brick_wall: Таш кирпеч киртәсе
+  stone_button: Таш төймәсе
+  stone_pressure_plate: Таш басма плитәсе
+  stone_slab: Таш плитәсе
+  stone_stairs: Таш баскычлары
+  stray_spawn_egg: Зимагур чакыру йомыркасы
+  stripped_acacia_log: Шәрә сәрви бүрәнәсе
+  stripped_acacia_wood: Шәрә сәрви
+  stripped_birch_log: Шәрә каен бүрәнәсе
+  stripped_birch_wood: Шәрә каен
+  stripped_dark_oak_log: Шәрә кара имән бүрәнәсе
+  stripped_dark_oak_wood: Шәрә кара имән
+  stripped_jungle_log: Шәрә тропик агач бүрәнәсе
+  stripped_jungle_wood: Шәрә тропик агач
+  stripped_oak_log: Шәрә имән бүрәнәсе
+  stripped_oak_wood: Шәрә имән
+  stripped_spruce_log: Шәрә чыршы бүрәнәсе
+  stripped_spruce_wood: Шәрә чыршы
+  structure_block: Структуралы җыелмасы
+  structure_void: Буш җыелмасы
+  suspicious_stew: Серле рагу
+  tall_grass: Озын чирәм
+  tipped_arrow: Эшкәрткән угы
+  torch: Чырак
+  trader_llama_spawn_egg: Кырык тартмачынең ламасы чакыру йомыркасы
+  trident: Өч япьле
+  tripwire: Сузылучанлык
+  tropical_fish_bucket: Тропик балыгы чиләкге
+  tube_coral_block: Торбасыман мәрҗән җыелмасы
+  turtle_helmet: Ташбака кабырчык
+  villager_spawn_egg: Торучы чакыру йомыркасы
+  wall_torch: Дивар чырак
+  wandering_trader_spawn_egg: Кырык тартмачы чакыру йомыркасы
+  white_glazed_terracotta: Ак глазурьлаучы керамика
+  witch_spawn_egg: Убырлы карчык чакыру йомыркасы
+  wither_rose: Визер чәчәк
+  wither_skeleton_skull: Визер-сөлдә башы
+  wither_skeleton_spawn_egg: Визер-сөлдә чакыру йомыркасы
+  wither_skeleton_wall_skull: Дивар визер-сөлдә башы
+  writable_book: Китап һәм каләм
+  written_book: Төгәлләнде китап
+  yellow_glazed_terracotta: Сары глазурьлаучы керамика
+  zombie_horse_spawn_egg: Зомби ат чакыру йомыркасы
+  zombie_villager_spawn_egg: Зомби-торучы чакыру йомыркасы
+  zombie_wall_head: Дивар зомби башы
+biome:
+  mushroom_fields: Гөмбәле кырлар
+  end_midlands: Энд тигезлеклары
+  end_barrens: Энд кырыйсы
+  ice_spikes: Бозлы сөңгеләре
+  modified_jungle: Искиткеч тропик урман
+  tall_birch_hills: Калкулыклы урман каенлар белән
+  eroded_badlands: Җилләтеп бетерүче коры җирләр
+enchantment:
+  fire_protection: Утка чыдамлылык
+  flame: Утлы угы
+  aqua_affinity: Су асты хезмәткәре
+  punch: Ташлау
+  depth_strider: Су асты йөрүе
+  vanishing_curse: Югалту каһәре
+  knockback: Нәтиҗәлелек
+  luck_of_the_sea: Эше уңучан балыкчы
+  binding_curse: Алынымау каһәре
+  protection: Саклану
+  efficiency: Эффективлык
+  mending: Көйләү
+  piercing: Кадау торган ук
+  blast_protection: Шартлауга карата саклану
+  smite: Күк җәза
+  multishot: Өчләтә ату
+  fire_aspect: Өшкерү уты
+  channeling: Усал кеше
+  sweeping: Аңкучы кылыч
+  thorns: Кылчыклар
+  bane_of_arthropods: Буынтыгаяклылары чыбыркысы
+  riptide: Тарту
+  silk_touch: Ефәк орынуы
+  quick_charge: Тиз яңадан кору
+  projectile_protection: Туп ядрәсетән саклану
+  impaling: Кадау
+  feather_falling: Авырлыксызлык
+potion:
+  water: Су эчемлеге
+  mundane: Гади эчемлеге
+  thick: Куе эчемлеге
+  awkward: Тонык эчемлеге
+  invisibility: Күзгә күренмәс эчемлеге
+  jump: Көчәйтү сикерүдән эчемлеге
+  regen: Регенерацияләү эчемлеге
+  turtle_master: Ташбака көч эчемлеге
+splash_potion:
+  uncraftable: Шартлау булдырмыган эчемлек
+  water: Шартлау су эчемлеге
+  mundane: Шартлау гади эчемлеге
+  thick: Шартлау куе эчемлеге
+  awkward: Шартлау тонык эчемлеге
+  night_vision: Шартлау төн күрү эчемлеге
+  invisibility: Шартлау күзгә күренмәс эчемлеге
+  jump: Шартлау сикерү эчемлеге
+  fire_resistance: Шартлау утка чыдамлылык эчемлеге
+  speed: Шартлау тизлек эчемлеге
+  slowness: Шартлау акрынаю эчемлеге
+  water_breathing: Шартлау су сулыш эчемлеге
+  instant_heal: Шартлау терелтү эчемлеге
+  instant_damage: Шартлау кинәт зыян эчемлеге
+  poison: Шартлау агулану эчемлеге
+  regen: Шартлау регенерацияләү эчемлеге
+  strength: Шартлау көч эчемлеге
+  weakness: Шартлау көчсезлек эчемлеге
+  luck: Шартлау уңыш эчемлеге
+  turtle_master: Шартлау ташбака көч эчемлеге
+  slow_falling: Шартлау салмак егылу эчемлеге
+lingering_potion:
+  water: Томанлы су эчемлеге
+  mundane: Гади томанлы эчемлеге
+  thick: Куе томанлы эчемлеге
+  awkward: Тонык томанлы эчемлеге
+  invisibility: Томанлы күзгә күренмәс эчемлеге
+  jump: Томанлы сикерү эчемлеге
+  regen: Томанлы регенерацияләү эчемлеге
+  turtle_master: Томанлы ташбака көч эчемлеге
+tipped_arrow:
+  uncraftable: Булдырмыган эффектлы укы
+  water: Шартлау угы
+  mundane: Эшкәрткән угы
+  thick: Эшкәрткән угы
+  awkward: Эшкәрткән угы
+  invisibility: Күзгә күренмәс угы
+  jump: Көчәйтү сикерүдән угы
+  instant_heal: Терелтү угы
+  regen: Регенерацияләү угы
+  turtle_master: Ташбака көч угы
+entity:
+  dropped_item: Әйбер
+  wither_skeleton: Визер-сөлдә
+  stray: Зимагур
+  leash_hitch: Йөгән төене
+  thrown_exp_bottle: Атылган кечкенә шешә тәҗрибәсе
+  primed_tnt: Активлаштырыган динамит
+  falling_block: Коелучы җыелма
+  spectral_arrow: Саташу угы
+  zombie_villager: Зомби-торучы
+  skeleton_horse: Сөлдә ат
+  zombie_horse: Зомби ат
+  armor_stand: Көбә терәге
+  evoker_fangs: Әфсенләүченең тешләре
+  evoker: Әфсенләүче
+  vindicator: Яклаучы
+  illusioner: Сихерче
+  minecart_command: Боерык җыелмалы арбачык
+  skeleton: Сөлдә
+  blaze: Ыгы-зыгы
+  ender_dragon: Эндер аҗдаһасы
+  witch: Убырлы карчык
+  mushroom_cow: Чебен мүмбәсе
+  villager: Торучы
+  trident: Өч япьле
+  drowned: Баткан
+  trader_llama: Кырык тартмачынең ламасы
+  wandering_trader: Кырык тартмачы
+effect:
+  slow_digging: Арыганлык
+  heal: Терелтү
+  harm: Кинәт зыян
+  jump: Сикереш
+  regeneration: Регенерацияләү
+  invisibility: Күзгә күренүсез
+  health_boost: Сәламәтлек су күтәрелеше
+  glowing: Балку
+  conduit_power: Чишмә көче
+  dolphins_grace: Дельфин нәзакәты
+tropical_fish_type:
+  glitter: Ялтырау
+named:
+  player_head_named: '%s-ның башы'
+banner_pattern:
+  '458752': Ак уң як багана
+  '458753': Кызгылт сары уң як багана
+  '458754': Куе кызыл уң як багана
+  '458755': Зәңгәрсу уң як багана
+  '458756': Сары уң як багана
+  '458757': Яшькелт уң як багана
+  '458758': Ал уң як багана
+  '458759': Соры уң як багана
+  '458760': Соргылт уң як багана
+  '458761': Фирәзә уң як багана
+  '458762': Шәмәхә уң як багана
+  '458763': Зәңгәр уң як багана
+  '458764': Көрән уң як багана
+  '458765': Яшел уң як багана
+  '458766': Кызыл уң як багана
+  '458767': Кара уң як багана
+  '524288': Ак сул як багана
+  '524289': Кызгылт сары сул як багана
+  '524290': Куе кызыл сул як багана
+  '524291': Зәңгәрсу сул як багана
+  '524292': Сары сул як багана
+  '524293': Яшькелт сул як багана
+  '524294': Ал сул як багана
+  '524295': Соры сул як багана
+  '524296': Соргылт сул як багана
+  '524297': Фирәзә сул як багана
+  '524298': Шәмәхә сул як багана
+  '524299': Зәңгәр сул як багана
+  '524300': Көрән сул як багана
+  '524301': Яшел сул як багана
+  '524302': Кызыл сул як багана
+  '524303': Кара сул як багана
+  '917504': Ак хач
+  '917505': Кызгылт сары хач
+  '917506': Куе кызыл хач
+  '917507': Зәңгәрсу хач
+  '917508': Сары хач
+  '917509': Яшькелт хач
+  '917510': Ал хач
+  '917511': Соры хач
+  '917512': Соргылт хач
+  '917513': Фирәзә хач
+  '917514': Шәмәхә хач
+  '917515': Зәңгәр хач
+  '917516': Көрән хач
+  '917517': Яшел хач
+  '917518': Кызыл хач
+  '917519': Кара хач
+  '1114112': Ак аударган оч
+  '1114113': Кызгылт сары аударган оч
+  '1114114': Куе кызыл аударган оч
+  '1114115': Зәңгәрсу аударган оч
+  '1114116': Сары аударган оч
+  '1114117': Яшькелт аударган оч
+  '1114118': Ал аударган оч
+  '1114119': Соры аударган оч
+  '1114120': Соргылт аударган оч
+  '1114121': Фирәзә аударган оч
+  '1114122': Шәмәхә аударган оч
+  '1114123': Зәңгәр аударган оч
+  '1114124': Көрән аударган оч
+  '1114125': Яшел аударган оч
+  '1114126': Кызыл аударган оч
+  '1114127': Кара аударган оч
+  '1179659': Зәңгәр тешле нигез
+  '1179660': Көрән тешле нигез
+  '1245195': Зәңгәр тешле баш
+  '1245196': Көрән тешле баш
+  '1310720': Ак сулга киселеш
+  '1310721': Кызгылт сары сулга киселеш
+  '1310722': Куе кызыл сулга киселеш
+  '1310723': Зәңгәрсу сулга киселеш
+  '1310724': Сары сулга киселеш
+  '1310725': Яшькелт сулга киселеш
+  '1310726': Ал сулга киселеш
+  '1310727': Соры сулга киселеш
+  '1310728': Соргылт сулга киселеш
+  '1310729': Фирәзә сулга киселеш
+  '1310730': Шәмәхә сулга киселеш
+  '1310731': Зәңгәр сулга киселеш
+  '1310732': Көрән сулга киселеш
+  '1310733': Яшел сулга киселеш
+  '1310734': Кызыл сулга киселеш
+  '1310735': Кара сулга киселеш
+  '1769472': Ак өске як
+  '1769473': Кызгылт сары өске як
+  '1769474': Куе кызыл өске як
+  '1769475': Зәңгәрсу өске як
+  '1769476': Сары өске як
+  '1769477': Яшькелт өске як
+  '1769478': Ал өске як
+  '1769479': Соры өске як
+  '1769480': Соргылт өске як
+  '1769481': Фирәзә өске як
+  '1769482': Шәмәхә өске як
+  '1769483': Зәңгәр өске як
+  '1769484': Көрән өске як
+  '1769485': Яшел өске як
+  '1769486': Кызыл өске як
+  '1769487': Кара өске як
+  '1835019': Зәңгәр уң як
+  '1900544': Ак аска як
+  '1900545': Кызгылт сары аска як
+  '1900546': Куе кызыл аска як
+  '1900547': Зәңгәрсу аска як
+  '1900548': Сары аска як
+  '1900549': Яшькелт аска як
+  '1900550': Ал аска як
+  '1900551': Соры аска як
+  '1900552': Соргылт аска як
+  '1900553': Фирәзә аска як
+  '1900554': Шәмәхә аска як
+  '1900555': Зәңгәр аска як
+  '1900556': Көрән аска як
+  '1900557': Яшел аска як
+  '1900558': Кызыл аска як
+  '1900559': Кара аска як
+  '2293760': Ак салым
+  '2293761': Кызгылт сары салым
+  '2293762': Куе кызыл салым
+  '2293763': Зәңгәрсу салым
+  '2293764': Сары салым
+  '2293765': Яшькелт салым
+  '2293766': Ал салым
+  '2293767': Соры салым
+  '2293768': Соргылт салым
+  '2293769': Фирәзә салым
+  '2293770': Шәмәхә салым
+  '2293771': Зәңгәр салым
+  '2293772': Көрән салым
+  '2293773': Яшел салым
+  '2293774': Кызыл салым
+  '2293775': Кара салым
+  '2359307': Зәңгәр баш сөяге
+  '2359308': Көрән баш сөяге
+merchant_level:
+  '2': Оста ярдәмчесе
+  '4': Эксперт
+villager_profession:
+  none: Торучы
+  toolsmith: Коралчы
+  weaponsmith: Сугыш коралычы

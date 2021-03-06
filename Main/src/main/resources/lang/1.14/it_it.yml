@@ -1,0 +1,659 @@
+# ####################################################
+# Build time: 2021-03-06 14:30:26                    #
+# ####################################################
+language:
+  code: it_it
+  name: Italiano
+  region: Italia
+material:
+  chainmail_leggings: Gambiera di maglia
+  diamond_leggings: Gambiera di diamante
+  golden_leggings: Gambiera d'oro
+  iron_leggings: Gambiera di ferro
+  ocelot_spawn_egg: Uovo generatore di gattopardo
+  smooth_quartz: Blocco di quarzo levigato
+  smooth_quartz_slab: Lastra di quarzo levigato
+  smooth_quartz_stairs: Scalini di quarzo levigato
+  smooth_red_sandstone: Arenaria rossa levigata
+  smooth_red_sandstone_slab: Lastra di arenaria rossa levigata
+  smooth_red_sandstone_stairs: Scalini di arenaria rossa levigata
+  smooth_sandstone: Arenaria levigata
+  smooth_sandstone_slab: Lastra di arenaria levigata
+  smooth_sandstone_stairs: Scalini di arenaria levigata
+  smooth_stone: Pietra levigata
+  smooth_stone_slab: Lastra di pietra levigata
+lingering_potion:
+  turtle_master: Pozione persistente del maestro tartaruga
+entity:
+  minecart_command: Carrello con blocco comandi
+  minecart_chest: Carrello con baule
+  minecart_furnace: Carrello con fornace
+  minecart_tnt: Carrello con TNT
+  minecart_hopper: Carrello con tramoggia
+  minecart_mob_spawner: Carrello con generatore
+  ocelot: Gattopardo
+banner_pattern:
+  '65536': Al cantone destro della punta di bianco
+  '65537': Al cantone destro della punta di arancione
+  '65538': Al cantone destro della punta di magenta
+  '65539': Al cantone destro della punta di azzurro
+  '65540': Al cantone destro della punta di giallo
+  '65541': Al cantone destro della punta di lime
+  '65542': Al cantone destro della punta di rosa
+  '65543': Al cantone destro della punta di grigio
+  '65544': Al cantone dx. della punta di grigio chiaro
+  '65545': Al cantone destro della punta di ciano
+  '65546': Al cantone destro della punta di viola
+  '65547': Al cantone destro della punta di blu
+  '65548': Al cantone destro della punta di marrone
+  '65549': Al cantone destro della punta di verde
+  '65550': Al cantone destro della punta di rosso
+  '65551': Al cantone destro della punta di nero
+  '131072': Al cantone sinistro della punta di bianco
+  '131073': Al cantone sinistro della punta di arancione
+  '131074': Al cantone sinistro della punta di magenta
+  '131075': Al cantone sinistro della punta di azzurro
+  '131076': Al cantone sinistro della punta di giallo
+  '131077': Al cantone sinistro della punta di lime
+  '131078': Al cantone sinistro della punta di rosa
+  '131079': Al cantone sinistro della punta di grigio
+  '131080': Al cantone sx. della punta di grigio chiaro
+  '131081': Al cantone sinistro della punta di ciano
+  '131082': Al cantone sinistro della punta di viola
+  '131083': Al cantone sinistro della punta di blu
+  '131084': Al cantone sinistro della punta di marrone
+  '131085': Al cantone sinistro della punta di verde
+  '131086': Al cantone sinistro della punta di rosso
+  '131087': Al cantone sinistro della punta di nero
+  '196608': Al cantone destro del capo di bianco
+  '196609': Al cantone destro del capo di arancione
+  '196610': Al cantone destro del capo di magenta
+  '196611': Al cantone destro del capo di azzurro
+  '196612': Al cantone destro del capo di giallo
+  '196613': Al cantone destro del capo di lime
+  '196614': Al cantone destro del capo di rosa
+  '196615': Al cantone destro del capo di grigio
+  '196616': Al cantone dx. del capo di grigio chiaro
+  '196617': Al cantone destro del capo di ciano
+  '196618': Al cantone destro del capo di viola
+  '196619': Al cantone destro del capo di blu
+  '196620': Al cantone destro del capo di marrone
+  '196621': Al cantone destro del capo di verde
+  '196622': Al cantone destro del capo di rosso
+  '196623': Al cantone destro del capo di nero
+  '262144': Al cantone sinistro del capo di bianco
+  '262145': Al cantone sinistro del capo di arancione
+  '262146': Al cantone sinistro del capo di magenta
+  '262147': Al cantone sinistro del capo di azzurro
+  '262148': Al cantone sinistro del capo di giallo
+  '262149': Al cantone sinistro del capo di lime
+  '262150': Al cantone sinistro del capo di rosa
+  '262151': Al cantone sinistro del capo di grigio
+  '262152': Al cantone sx. del capo di grigio chiaro
+  '262153': Al cantone sinistro del capo di ciano
+  '262154': Al cantone sinistro del capo di viola
+  '262155': Al cantone sinistro del capo di blu
+  '262156': Al cantone sinistro del capo di marrone
+  '262157': Al cantone sinistro del capo di verde
+  '262158': Al cantone sinistro del capo di rosso
+  '262159': Al cantone sinistro del capo di nero
+  '327680': Alla fascia in punta di bianco
+  '327681': Alla fascia in punta di arancione
+  '327682': Alla fascia in punta di magenta
+  '327683': Alla fascia in punta di azzurro
+  '327684': Alla fascia in punta di giallo
+  '327685': Alla fascia in punta di lime
+  '327686': Alla fascia in punta di rosa
+  '327687': Alla fascia in punta di grigio
+  '327688': Alla fascia in punta di grigio chiaro
+  '327689': Alla fascia in punta di ciano
+  '327690': Alla fascia in punta di viola
+  '327691': Alla fascia in punta di blu
+  '327692': Alla fascia in punta di marrone
+  '327693': Alla fascia in punta di verde
+  '327694': Alla fascia in punta di rosso
+  '327695': Alla fascia in punta di nero
+  '393216': Alla fascia in capo di bianco
+  '393217': Alla fascia in capo di arancione
+  '393218': Alla fascia in capo di magenta
+  '393219': Alla fascia in capo di azzurro
+  '393220': Alla fascia in capo di giallo
+  '393221': Alla fascia in capo di lime
+  '393222': Alla fascia in capo di rosa
+  '393223': Alla fascia in capo di grigio
+  '393224': Alla fascia in capo di grigio chiaro
+  '393225': Alla fascia in capo di ciano
+  '393226': Alla fascia in capo di viola
+  '393227': Alla fascia in capo di blu
+  '393228': Alla fascia in capo di marrone
+  '393229': Alla fascia in capo di verde
+  '393230': Alla fascia in capo di rosso
+  '393231': Alla fascia in capo di nero
+  '458752': Al palo destro di bianco
+  '458753': Al palo destro di arancione
+  '458754': Al palo destro di magenta
+  '458755': Al palo destro di azzurro
+  '458756': Al palo destro di giallo
+  '458757': Al palo destro di lime
+  '458758': Al palo destro di rosa
+  '458759': Al palo destro di grigio
+  '458760': Al palo destro di grigio chiaro
+  '458761': Al palo destro di ciano
+  '458762': Al palo destro di viola
+  '458763': Al palo destro di blu
+  '458764': Al palo destro di marrone
+  '458765': Al palo destro di verde
+  '458766': Al palo destro di rosso
+  '458767': Al palo destro di nero
+  '524288': Al palo sinistro di bianco
+  '524289': Al palo sinistro di arancione
+  '524290': Al palo sinistro di magenta
+  '524291': Al palo sinistro di azzurro
+  '524292': Al palo sinistro di giallo
+  '524293': Al palo sinistro di lime
+  '524294': Al palo sinistro di rosa
+  '524295': Al palo sinistro di grigio
+  '524296': Al palo sinistro di grigio chiaro
+  '524297': Al palo sinistro di ciano
+  '524298': Al palo sinistro di viola
+  '524299': Al palo sinistro di blu
+  '524300': Al palo sinistro di marrone
+  '524301': Al palo sinistro di verde
+  '524302': Al palo sinistro di rosso
+  '524303': Al palo sinistro di nero
+  '589824': Al palo di bianco
+  '589825': Al palo di arancione
+  '589826': Al palo di magenta
+  '589827': Al palo di azzurro
+  '589828': Al palo di giallo
+  '589829': Al palo di lime
+  '589830': Al palo di rosa
+  '589831': Al palo di grigio
+  '589832': Al palo di grigio chiaro
+  '589833': Al palo di ciano
+  '589834': Al palo di viola
+  '589835': Al palo di blu
+  '589836': Al palo di marrone
+  '589837': Al palo di verde
+  '589838': Al palo di rosso
+  '589839': Al palo di nero
+  '655360': Alla fascia di bianco
+  '655361': Alla fascia di arancione
+  '655362': Alla fascia di magenta
+  '655363': Alla fascia di azzurro
+  '655364': Alla fascia di giallo
+  '655365': Alla fascia di lime
+  '655366': Alla fascia di rosa
+  '655367': Alla fascia di grigio
+  '655368': Alla fascia di grigio chiaro
+  '655369': Alla fascia di ciano
+  '655370': Alla fascia di viola
+  '655371': Alla fascia di blu
+  '655372': Alla fascia di marrone
+  '655373': Alla fascia di verde
+  '655374': Alla fascia di rosso
+  '655375': Alla fascia di nero
+  '720896': Alla banda di bianco
+  '720897': Alla banda di arancione
+  '720898': Alla banda di magenta
+  '720899': Alla banda di azzurro
+  '720900': Alla banda di giallo
+  '720901': Alla banda di lime
+  '720902': Alla banda di rosa
+  '720903': Alla banda di grigio
+  '720904': Alla banda di grigio chiaro
+  '720905': Alla banda di ciano
+  '720906': Alla banda di viola
+  '720907': Alla banda di blu
+  '720908': Alla banda di marrone
+  '720909': Alla banda di verde
+  '720910': Alla banda di rosso
+  '720911': Alla banda di nero
+  '786432': Alla sbarra di bianco
+  '786433': Alla sbarra di arancione
+  '786434': Alla sbarra di magenta
+  '786435': Alla sbarra di azzurro
+  '786436': Alla sbarra di giallo
+  '786437': Alla sbarra di lime
+  '786438': Alla sbarra di rosa
+  '786439': Alla sbarra di grigio
+  '786440': Alla sbarra di grigio chiaro
+  '786441': Alla sbarra di ciano
+  '786442': Alla sbarra di viola
+  '786443': Alla sbarra di blu
+  '786444': Alla sbarra di marrone
+  '786445': Alla sbarra di verde
+  '786446': Alla sbarra di rosso
+  '786447': Alla sbarra di nero
+  '851968': Palato di bianco
+  '851969': Palato di arancione
+  '851970': Palato di magenta
+  '851971': Palato di azzurro
+  '851972': Palato di giallo
+  '851973': Palato di lime
+  '851974': Palato di rosa
+  '851975': Palato di grigio
+  '851976': Palato di grigio chiaro
+  '851977': Palato di ciano
+  '851978': Palato di viola
+  '851979': Palato di blu
+  '851980': Palato di marrone
+  '851981': Palato di verde
+  '851982': Palato di rosso
+  '851983': Palato di nero
+  '917504': Al decusse di bianco
+  '917505': Al decusse di arancione
+  '917506': Al decusse di magenta
+  '917507': Al decusse di azzurro
+  '917508': Al decusse di giallo
+  '917509': Al decusse di lime
+  '917510': Al decusse di rosa
+  '917511': Al decusse di grigio
+  '917512': Al decusse di grigio chiaro
+  '917513': Al decusse di ciano
+  '917514': Al decusse di viola
+  '917515': Al decusse di blu
+  '917516': Al decusse di marrone
+  '917517': Al decusse di verde
+  '917518': Al decusse di rosso
+  '917519': Al decusse di nero
+  '983040': Alla croce di bianco
+  '983041': Alla croce di arancione
+  '983042': Alla croce di magenta
+  '983043': Alla croce di azzurro
+  '983044': Alla croce di giallo
+  '983045': Alla croce di lime
+  '983046': Alla croce di rosa
+  '983047': Alla croce di grigio
+  '983048': Alla croce di grigio chiaro
+  '983049': Alla croce di ciano
+  '983050': Alla croce di viola
+  '983051': Alla croce di blu
+  '983052': Alla croce di marrone
+  '983053': Alla croce di verde
+  '983054': Alla croce di rosso
+  '983055': Alla croce di nero
+  '1048576': Alla punta di bianco
+  '1048577': Alla punta di arancione
+  '1048578': Alla punta di magenta
+  '1048579': Alla punta di azzurro
+  '1048580': Alla punta di giallo
+  '1048581': Alla punta di lime
+  '1048582': Alla punta di rosa
+  '1048583': Alla punta di grigio
+  '1048584': Alla punta di grigio chiaro
+  '1048585': Alla punta di ciano
+  '1048586': Alla punta di viola
+  '1048587': Alla punta di blu
+  '1048588': Alla punta di marrone
+  '1048589': Alla punta di verde
+  '1048590': Alla punta di rosso
+  '1048591': Alla punta di nero
+  '1114112': Alla punta rovesciata di bianco
+  '1114113': Alla punta rovesciata di arancione
+  '1114114': Alla punta rovesciata di magenta
+  '1114115': Alla punta rovesciata di azzurro
+  '1114116': Alla punta rovesciata di giallo
+  '1114117': Alla punta rovesciata di lime
+  '1114118': Alla punta rovesciata di rosa
+  '1114119': Alla punta rovesciata di grigio
+  '1114120': Alla punta rovesciata di grigio chiaro
+  '1114121': Alla punta rovesciata di ciano
+  '1114122': Alla punta rovesciata di viola
+  '1114123': Alla punta rovesciata di blu
+  '1114124': Alla punta rovesciata di marrone
+  '1114125': Alla punta rovesciata di verde
+  '1114126': Alla punta rovesciata di rosso
+  '1114127': Alla punta rovesciata di nero
+  '1179648': Alla punta cuneato di bianco
+  '1179649': Alla punta cuneato di arancione
+  '1179650': Alla punta cuneato di magenta
+  '1179651': Alla punta cuneato di azzurro
+  '1179652': Alla punta cuneato di giallo
+  '1179653': Alla punta cuneato di lime
+  '1179654': Alla punta cuneato di rosa
+  '1179655': Alla punta cuneato di grigio
+  '1179656': Alla punta cuneato di grigio chiaro
+  '1179657': Alla punta cuneato di ciano
+  '1179658': Alla punta cuneato di viola
+  '1179659': Alla punta cuneato di blu
+  '1179660': Alla punta cuneato di marrone
+  '1179661': Alla punta cuneato di verde
+  '1179662': Alla punta cuneato di rosso
+  '1179663': Alla punta cuneato di nero
+  '1245184': Al capo cuneato di bianco
+  '1245185': Al capo cuneato di arancione
+  '1245186': Al capo cuneato di magenta
+  '1245187': Al capo cuneato di azzurro
+  '1245188': Al capo cuneato di giallo
+  '1245189': Al capo cuneato di lime
+  '1245190': Al capo cuneato di rosa
+  '1245191': Al capo cuneato di grigio
+  '1245192': Al capo cuneato di grigio chiaro
+  '1245193': Al capo cuneato di ciano
+  '1245194': Al capo cuneato di viola
+  '1245195': Al capo cuneato di blu
+  '1245196': Al capo cuneato di marrone
+  '1245197': Al capo cuneato di verde
+  '1245198': Al capo cuneato di rosso
+  '1245199': Al capo cuneato di nero
+  '1310720': 'Tagliato: a destra di bianco'
+  '1310721': 'Tagliato: a destra di arancione'
+  '1310722': 'Tagliato: a destra di magenta'
+  '1310723': 'Tagliato: a destra di azzurro'
+  '1310724': 'Tagliato: a destra di giallo'
+  '1310725': 'Tagliato: a destra di lime'
+  '1310726': 'Tagliato: a destra di rosa'
+  '1310727': 'Tagliato: a destra di grigio'
+  '1310728': 'Tagliato: a destra di grigio chiaro'
+  '1310729': 'Tagliato: a destra di ciano'
+  '1310730': 'Tagliato: a destra di viola'
+  '1310731': 'Tagliato: a destra di blu'
+  '1310732': 'Tagliato: a destra di marrone'
+  '1310733': 'Tagliato: a destra di verde'
+  '1310734': 'Tagliato: a destra di rosso'
+  '1310735': 'Tagliato: a destra di nero'
+  '1376256': 'Tagliato: a sinistra di bianco'
+  '1376257': 'Tagliato: a sinistra di arancione'
+  '1376258': 'Tagliato: a sinistra di magenta'
+  '1376259': 'Tagliato: a sinistra di azzurro'
+  '1376260': 'Tagliato: a sinistra di giallo'
+  '1376261': 'Tagliato: a sinistra di lime'
+  '1376262': 'Tagliato: a sinistra di rosa'
+  '1376263': 'Tagliato: a sinistra di grigio'
+  '1376264': 'Tagliato: a sinistra di grigio chiaro'
+  '1376265': 'Tagliato: a sinistra di ciano'
+  '1376266': 'Tagliato: a sinistra di viola'
+  '1376267': 'Tagliato: a sinistra di blu'
+  '1376268': 'Tagliato: a sinistra di marrone'
+  '1376269': 'Tagliato: a sinistra di verde'
+  '1376270': 'Tagliato: a sinistra di rosso'
+  '1376271': 'Tagliato: a sinistra di nero'
+  '1441792': 'Trinciato: a destra di bianco'
+  '1441793': 'Trinciato: a destra di arancione'
+  '1441794': 'Trinciato: a destra di magenta'
+  '1441795': 'Trinciato: a destra di azzurro'
+  '1441796': 'Trinciato: a destra di giallo'
+  '1441797': 'Trinciato: a destra di lime'
+  '1441798': 'Trinciato: a destra di rosa'
+  '1441799': 'Trinciato: a destra di grigio'
+  '1441800': 'Trinciato: a destra di grigio chiaro'
+  '1441801': 'Trinciato: a destra di ciano'
+  '1441802': 'Trinciato: a destra di viola'
+  '1441803': 'Trinciato: a destra di blu'
+  '1441804': 'Trinciato: a destra di marrone'
+  '1441805': 'Trinciato: a destra di verde'
+  '1441806': 'Trinciato: a destra di rosso'
+  '1441807': 'Trinciato: a destra di nero'
+  '1507328': 'Trinciato: a sinistra di bianco'
+  '1507329': 'Trinciato: a sinistra di arancione'
+  '1507330': 'Trinciato: a sinistra di magenta'
+  '1507331': 'Trinciato: a sinistra di azzurro'
+  '1507332': 'Trinciato: a sinistra di giallo'
+  '1507333': 'Trinciato: a sinistra di lime'
+  '1507334': 'Trinciato: a sinistra di rosa'
+  '1507335': 'Trinciato: a sinistra di grigio'
+  '1507336': 'Trinciato: a sinistra di grigio chiaro'
+  '1507337': 'Trinciato: a sinistra di ciano'
+  '1507338': 'Trinciato: a sinistra di viola'
+  '1507339': 'Trinciato: a sinistra di blu'
+  '1507340': 'Trinciato: a sinistra di marrone'
+  '1507341': 'Trinciato: a sinistra di verde'
+  '1507342': 'Trinciato: a sinistra di rosso'
+  '1507343': 'Trinciato: a sinistra di nero'
+  '1572864': Alla torta di bianco
+  '1572865': Alla torta di arancione
+  '1572866': Alla torta di magenta
+  '1572867': Alla torta di azzurro
+  '1572868': Alla torta di giallo
+  '1572869': Alla torta di lime
+  '1572870': Alla torta di rosa
+  '1572871': Alla torta di grigio
+  '1572872': Alla torta di grigio chiaro
+  '1572873': Alla torta di ciano
+  '1572874': Alla torta di viola
+  '1572875': Alla torta di blu
+  '1572876': Alla torta di marrone
+  '1572877': Alla torta di verde
+  '1572878': Alla torta di rosso
+  '1572879': Alla torta di nero
+  '1638400': Alla losanga di bianco
+  '1638401': Alla losanga di arancione
+  '1638402': Alla losanga di magenta
+  '1638403': Alla losanga di azzurro
+  '1638404': Alla losanga di giallo
+  '1638405': Alla losanga di lime
+  '1638406': Alla losanga di rosa
+  '1638407': Alla losanga di grigio
+  '1638408': Alla losanga di grigio chiaro
+  '1638409': Alla losanga di ciano
+  '1638410': Alla losanga di viola
+  '1638411': Alla losanga di blu
+  '1638412': Alla losanga di marrone
+  '1638413': Alla losanga di verde
+  '1638414': Alla losanga di rosso
+  '1638415': Alla losanga di nero
+  '1703936': 'Partito: a destra di bianco'
+  '1703937': 'Partito: a destra di arancione'
+  '1703938': 'Partito: a destra di magenta'
+  '1703939': 'Partito: a destra di azzurro'
+  '1703940': 'Partito: a destra di giallo'
+  '1703941': 'Partito: a destra di lime'
+  '1703942': 'Partito: a destra di rosa'
+  '1703943': 'Partito: a destra di grigio'
+  '1703944': 'Partito: a destra di grigio chiaro'
+  '1703945': 'Partito: a destra di ciano'
+  '1703946': 'Partito: a destra di viola'
+  '1703947': 'Partito: a destra di blu'
+  '1703948': 'Partito: a destra di marrone'
+  '1703949': 'Partito: a destra di verde'
+  '1703950': 'Partito: a destra di rosso'
+  '1703951': 'Partito: a destra di nero'
+  '1769472': 'Troncato: di sopra di bianco'
+  '1769473': 'Troncato: di sopra di arancione'
+  '1769474': 'Troncato: di sopra di magenta'
+  '1769475': 'Troncato: di sopra di azzurro'
+  '1769476': 'Troncato: di sopra di giallo'
+  '1769477': 'Troncato: di sopra di lime'
+  '1769478': 'Troncato: di sopra di rosa'
+  '1769479': 'Troncato: di sopra di grigio'
+  '1769480': 'Troncato: di sopra di grigio chiaro'
+  '1769481': 'Troncato: di sopra di ciano'
+  '1769482': 'Troncato: di sopra di viola'
+  '1769483': 'Troncato: di sopra di blu'
+  '1769484': 'Troncato: di sopra di marrone'
+  '1769485': 'Troncato: di sopra di verde'
+  '1769486': 'Troncato: di sopra di rosso'
+  '1769487': 'Troncato: di sopra di nero'
+  '1835008': 'Partito: a sinistra di bianco'
+  '1835009': 'Partito: a sinistra di arancione'
+  '1835010': 'Partito: a sinistra di magenta'
+  '1835011': 'Partito: a sinistra di azzurro'
+  '1835012': 'Partito: a sinistra di giallo'
+  '1835013': 'Partito: a sinistra di lime'
+  '1835014': 'Partito: a sinistra di rosa'
+  '1835015': 'Partito: a sinistra di grigio'
+  '1835016': 'Partito: a sinistra di grigio chiaro'
+  '1835017': 'Partito: a sinistra di ciano'
+  '1835018': 'Partito: a sinistra di viola'
+  '1835019': 'Partito: a sinistra di blu'
+  '1835020': 'Partito: a sinistra di marrone'
+  '1835021': 'Partito: a sinistra di verde'
+  '1835022': 'Partito: a sinistra di rosso'
+  '1835023': 'Partito: a sinistra di nero'
+  '1900544': 'Troncato: di sotto di bianco'
+  '1900545': 'Troncato: di sotto di arancione'
+  '1900546': 'Troncato: di sotto di magenta'
+  '1900547': 'Troncato: di sotto di azzurro'
+  '1900548': 'Troncato: di sotto di giallo'
+  '1900549': 'Troncato: di sotto di lime'
+  '1900550': 'Troncato: di sotto di rosa'
+  '1900551': 'Troncato: di sotto di grigio'
+  '1900552': 'Troncato: di sotto di grigio chiaro'
+  '1900553': 'Troncato: di sotto di ciano'
+  '1900554': 'Troncato: di sotto di viola'
+  '1900555': 'Troncato: di sotto di blu'
+  '1900556': 'Troncato: di sotto di marrone'
+  '1900557': 'Troncato: di sotto di verde'
+  '1900558': 'Troncato: di sotto di rosso'
+  '1900559': 'Troncato: di sotto di nero'
+  '1966080': Alla bordura di bianco
+  '1966081': Alla bordura di arancione
+  '1966082': Alla bordura di magenta
+  '1966083': Alla bordura di azzurro
+  '1966084': Alla bordura di giallo
+  '1966085': Alla bordura di lime
+  '1966086': Alla bordura di rosa
+  '1966087': Alla bordura di grigio
+  '1966088': Alla bordura di grigio chiaro
+  '1966089': Alla bordura di ciano
+  '1966090': Alla bordura di viola
+  '1966091': Alla bordura di blu
+  '1966092': Alla bordura di marrone
+  '1966093': Alla bordura di verde
+  '1966094': Alla bordura di rosso
+  '1966095': Alla bordura di nero
+  '2031616': Alla bordura dentata di bianco
+  '2031617': Alla bordura dentata di arancione
+  '2031618': Alla bordura dentata di magenta
+  '2031619': Alla bordura dentata di azzurro
+  '2031620': Alla bordura dentata di giallo
+  '2031621': Alla bordura dentata di lime
+  '2031622': Alla bordura dentata di rosa
+  '2031623': Alla bordura dentata di grigio
+  '2031624': Alla bordura dentata di grigio chiaro
+  '2031625': Alla bordura dentata di ciano
+  '2031626': Alla bordura dentata di viola
+  '2031627': Alla bordura dentata di blu
+  '2031628': Alla bordura dentata di marrone
+  '2031629': Alla bordura dentata di verde
+  '2031630': Alla bordura dentata di rosso
+  '2031631': Alla bordura dentata di nero
+  '2097152': Al volto di creeper di bianco
+  '2097153': Al volto di creeper di arancione
+  '2097154': Al volto di creeper di magenta
+  '2097155': Al volto di creeper di azzurro
+  '2097156': Al volto di creeper di giallo
+  '2097157': Al volto di creeper di lime
+  '2097158': Al volto di creeper di rosa
+  '2097159': Al volto di creeper di grigio
+  '2097160': Al volto di creeper di grigio chiaro
+  '2097161': Al volto di creeper di ciano
+  '2097162': Al volto di creeper di viola
+  '2097163': Al volto di creeper di blu
+  '2097164': Al volto di creeper di marrone
+  '2097165': Al volto di creeper di verde
+  '2097166': Al volto di creeper di rosso
+  '2097167': Al volto di creeper di nero
+  '2162688': Sfumato in capo di bianco
+  '2162689': Sfumato in capo di arancione
+  '2162690': Sfumato in capo di magenta
+  '2162691': Sfumato in capo di azzurro
+  '2162692': Sfumato in capo di giallo
+  '2162693': Sfumato in capo di lime
+  '2162694': Sfumato in capo di rosa
+  '2162695': Sfumato in capo di grigio
+  '2162696': Sfumato in capo di grigio chiaro
+  '2162697': Sfumato in capo di ciano
+  '2162698': Sfumato in capo di viola
+  '2162699': Sfumato in capo di blu
+  '2162700': Sfumato in capo di marrone
+  '2162701': Sfumato in capo di verde
+  '2162702': Sfumato in capo di rosso
+  '2162703': Sfumato in capo di nero
+  '2228224': Sfumato in punta di bianco
+  '2228225': Sfumato in punta di arancione
+  '2228226': Sfumato in punta di magenta
+  '2228227': Sfumato in punta di azzurro
+  '2228228': Sfumato in punta di giallo
+  '2228229': Sfumato in punta di lime
+  '2228230': Sfumato in punta di rosa
+  '2228231': Sfumato in punta di grigio
+  '2228232': Sfumato in punta di grigio chiaro
+  '2228233': Sfumato in punta di ciano
+  '2228234': Sfumato in punta di viola
+  '2228235': Sfumato in punta di blu
+  '2228236': Sfumato in punta di marrone
+  '2228237': Sfumato in punta di verde
+  '2228238': Sfumato in punta di rosso
+  '2228239': Sfumato in punta di nero
+  '2293760': Seminato di mattoni di bianco
+  '2293761': Seminato di mattoni di arancione
+  '2293762': Seminato di mattoni di magenta
+  '2293763': Seminato di mattoni di azzurro
+  '2293764': Seminato di mattoni di giallo
+  '2293765': Seminato di mattoni di lime
+  '2293766': Seminato di mattoni di rosa
+  '2293767': Seminato di mattoni di grigio
+  '2293768': Seminato di mattoni di grigio chiaro
+  '2293769': Seminato di mattoni di ciano
+  '2293770': Seminato di mattoni di viola
+  '2293771': Seminato di mattoni di blu
+  '2293772': Seminato di mattoni di marrone
+  '2293773': Seminato di mattoni di verde
+  '2293774': Seminato di mattoni di rosso
+  '2293775': Seminato di mattoni di nero
+  '2359296': Al teschio di bianco
+  '2359297': Al teschio di arancione
+  '2359298': Al teschio di magenta
+  '2359299': Al teschio di azzurro
+  '2359300': Al teschio di giallo
+  '2359301': Al teschio di lime
+  '2359302': Al teschio di rosa
+  '2359303': Al teschio di grigio
+  '2359304': Al teschio di grigio chiaro
+  '2359305': Al teschio di ciano
+  '2359306': Al teschio di viola
+  '2359307': Al teschio di blu
+  '2359308': Al teschio di marrone
+  '2359309': Al teschio di verde
+  '2359310': Al teschio di rosso
+  '2359311': Al teschio di nero
+  '2424832': Al fiore di bianco
+  '2424833': Al fiore di arancione
+  '2424834': Al fiore di magenta
+  '2424835': Al fiore di azzurro
+  '2424836': Al fiore di giallo
+  '2424837': Al fiore di lime
+  '2424838': Al fiore di rosa
+  '2424839': Al fiore di grigio
+  '2424840': Al fiore di grigio chiaro
+  '2424841': Al fiore di ciano
+  '2424842': Al fiore di viola
+  '2424843': Al fiore di blu
+  '2424844': Al fiore di marrone
+  '2424845': Al fiore di verde
+  '2424846': Al fiore di rosso
+  '2424847': Al fiore di nero
+  '2490368': Al logo di bianco
+  '2490369': Al logo di arancione
+  '2490370': Al logo di magenta
+  '2490371': Al logo di azzurro
+  '2490372': Al logo di giallo
+  '2490373': Al logo di lime
+  '2490374': Al logo di rosa
+  '2490375': Al logo di grigio
+  '2490376': Al logo di grigio chiaro
+  '2490377': Al logo di ciano
+  '2490378': Al logo di viola
+  '2490379': Al logo di blu
+  '2490380': Al logo di marrone
+  '2490381': Al logo di verde
+  '2490382': Al logo di rosso
+  '2490383': Al logo di nero
+  '2555904': Al globo di bianco
+  '2555905': Al globo di arancione
+  '2555906': Al globo di magenta
+  '2555907': Al globo di azzurro
+  '2555908': Al globo di giallo
+  '2555909': Al globo di lime
+  '2555910': Al globo di rosa
+  '2555911': Al globo di grigio
+  '2555912': Al globo di grigio chiaro
+  '2555913': Al globo di ciano
+  '2555914': Al globo di viola
+  '2555915': Al globo di blu
+  '2555916': Al globo di marrone
+  '2555917': Al globo di verde
+  '2555918': Al globo di rosso
+  '2555919': Al globo di nero

@@ -1,0 +1,2196 @@
+# ####################################################
+# Build time: 2021-03-06 14:47:26                    #
+# ####################################################
+language:
+  code: bg_bg
+  name: Български
+  region: България
+material:
+  air: Въздух
+  stone: Камък
+  granite: Гранит
+  polished_granite: Полиран гранит
+  diorite: Диорит
+  polished_diorite: Полиран диорит
+  andesite: Андезит
+  polished_andesite: Полиран андезит
+  grass_block: Тревист блок
+  dirt: Пръст
+  coarse_dirt: Едра пръст
+  podzol: Неплодородна почва
+  crimson_nylium: Пурпурен найлиум
+  warped_nylium: Шантав найлиум
+  cobblestone: Калдъръмени камъни
+  oak_planks: Дъбови дъски
+  spruce_planks: Смърчови дъски
+  birch_planks: Брезови дъски
+  jungle_planks: Джунглови дъски
+  acacia_planks: Акациеви дъски
+  dark_oak_planks: Дъски от черен дъб
+  crimson_planks: Пурпурни дъски
+  warped_planks: Шантави дъски
+  oak_sapling: Дъбова фиданка
+  spruce_sapling: Смърчова фиданка
+  birch_sapling: Брезова фиданка
+  jungle_sapling: Джунглова фиданка
+  acacia_sapling: Акациева фиданка
+  dark_oak_sapling: Фиданка на черен дъб
+  bedrock: Основен камък
+  sand: Пясък
+  red_sand: Червен пясък
+  gravel: Чакъл
+  gold_ore: Златна руда
+  iron_ore: Желязна руда
+  coal_ore: Въглищна руда
+  nether_gold_ore: Адска златна руда
+  oak_log: Дъбов дънер
+  spruce_log: Смърчов дънер
+  birch_log: Брезов дънер
+  jungle_log: Джунглов дънер
+  acacia_log: Акациев дънер
+  dark_oak_log: Дънер от черен дъб
+  crimson_stem: Пурпурно стъбло
+  warped_stem: Шантаво стъбло
+  stripped_oak_log: Оголен дъбов дънер
+  stripped_spruce_log: Оголен смърчов дънер
+  stripped_birch_log: Оголен брезов дънер
+  stripped_jungle_log: Оголен джунглов дънер
+  stripped_acacia_log: Оголен акациев дънер
+  stripped_dark_oak_log: Оголен дънер от черен дъб
+  stripped_crimson_stem: Оголено пурпурно стъбло
+  stripped_warped_stem: Оголено шантаво стъбло
+  stripped_oak_wood: Оголена дъбова дървесина
+  stripped_spruce_wood: Оголена смърчова дървесина
+  stripped_birch_wood: Оголена брезова дървесина
+  stripped_jungle_wood: Оголена джунглова дървесина
+  stripped_acacia_wood: Оголена акациева дървесина
+  stripped_dark_oak_wood: Оголена дървесина от черен дъб
+  stripped_crimson_hyphae: Оголени пурпурни хифи
+  stripped_warped_hyphae: Оголени шантави хифи
+  oak_wood: Дъбова дървесина
+  spruce_wood: Смърчова дървесина
+  birch_wood: Брезова дървесина
+  jungle_wood: Джунглова дървесина
+  acacia_wood: Акациева дървесина
+  dark_oak_wood: Дървесина от черен дъб
+  crimson_hyphae: Пурпурни хифи
+  warped_hyphae: Шантави хифи
+  oak_leaves: Дъбови листа
+  spruce_leaves: Смърчови листа
+  birch_leaves: Брезови листа
+  jungle_leaves: Джунглови листа
+  acacia_leaves: Акациеви листа
+  dark_oak_leaves: Листа от черен дъб
+  sponge: Гъба
+  wet_sponge: Мокра гъба
+  glass: Стъкло
+  lapis_ore: Лазуритна руда
+  lapis_block: Лазуритен блок
+  dispenser: Разпределител
+  sandstone: Пясъчник
+  chiseled_sandstone: Изписан пясъчник
+  cut_sandstone: Шлифован пясъчник
+  note_block: Музикален блок
+  powered_rail: Захранвани релси
+  detector_rail: Индикаторни релси
+  sticky_piston: Лепкаво бутало
+  cobweb: Паяжина
+  grass: Трева
+  fern: Папрат
+  dead_bush: Изсъхнал храст
+  seagrass: Морска трева
+  sea_pickle: Огнетелка
+  piston: Бутало
+  white_wool: Бяла вълна
+  orange_wool: Оранжева вълна
+  magenta_wool: Пурпурна вълна
+  light_blue_wool: Светлосиня вълна
+  yellow_wool: Жълта вълна
+  lime_wool: Жълтозеленa вълна
+  pink_wool: Розова вълна
+  gray_wool: Сива вълна
+  light_gray_wool: Светлосива вълна
+  cyan_wool: Синьозелена вълна
+  purple_wool: Лилава вълна
+  blue_wool: Синя вълна
+  brown_wool: Кафява вълна
+  green_wool: Зелена вълна
+  red_wool: Червена вълна
+  black_wool: Черна вълна
+  dandelion: Глухарче
+  poppy: Мак
+  blue_orchid: Синя орхидея
+  allium: Лук
+  azure_bluet: Лазурна метличина
+  red_tulip: Червено лале
+  orange_tulip: Оранжево лале
+  white_tulip: Бяло лале
+  pink_tulip: Розово лале
+  oxeye_daisy: Бяла маргаритка
+  cornflower: Синя метличина
+  lily_of_the_valley: Момина сълза
+  wither_rose: Уидър роза
+  brown_mushroom: Кафява гъба
+  red_mushroom: Червена гъба
+  crimson_fungus: Пурпурна гъба
+  warped_fungus: Шантава гъба
+  crimson_roots: Пурпурни корени
+  warped_roots: Шантави корени
+  nether_sprouts: Спори от Недъра
+  weeping_vines: Плачещи лиани
+  twisting_vines: Увити лияни
+  sugar_cane: Захарна тръстика
+  kelp: Водорасло
+  bamboo: Бамбук
+  gold_block: Златен блок
+  iron_block: Железен блок
+  oak_slab: Дъбова плоча
+  spruce_slab: Смърчова плоча
+  birch_slab: Брезова плоча
+  jungle_slab: Джунглова плоча
+  acacia_slab: Акациева плоча
+  dark_oak_slab: Плоча от черен дъб
+  crimson_slab: Пурпурна плоча
+  warped_slab: Шантави дъски
+  stone_slab: Каменна плоча
+  smooth_stone_slab: Гладка каменна плоча
+  sandstone_slab: Плоча от пясъчник
+  cut_sandstone_slab: Плоча от сечен пясъчник
+  petrified_oak_slab: Вкаменена дъбова плоча
+  cobblestone_slab: Плоча от калдъръмени камъни
+  brick_slab: Тухлена плоча
+  stone_brick_slab: Плоча от каменни тухли
+  nether_brick_slab: Плоча от Недъра
+  quartz_slab: Кварцова плоча
+  red_sandstone_slab: Плоча от червен пясъчник
+  cut_red_sandstone_slab: Плоча от сечен червен пясъчник
+  purpur_slab: Пурпурна плоча
+  prismarine_slab: Призмаринова плоча
+  prismarine_brick_slab: Плоча от призмаринови тухли
+  dark_prismarine_slab: Плоча от тъмен призмарин
+  smooth_quartz: Блок от гладък кварц
+  smooth_red_sandstone: Гладък червен пясъчник
+  smooth_sandstone: Гладък пясъчник
+  smooth_stone: Гладък камък
+  bricks: Тухли
+  tnt: Динамит
+  bookshelf: Рафтове с книги
+  mossy_cobblestone: Мъхести калдъръмени камъни
+  obsidian: Обсидиан
+  torch: Факла
+  end_rod: Пръчка от Края
+  chorus_plant: Припевно растение
+  chorus_flower: Припевно цвете
+  purpur_block: Пурпурен блок
+  purpur_pillar: Пурпурна колона
+  purpur_stairs: Пурпурни стълби
+  spawner: Размножител
+  oak_stairs: Дъбови стъпала
+  chest: Сандък
+  diamond_ore: Диамантена руда
+  diamond_block: Диамантен блок
+  crafting_table: Работна маса
+  farmland: Обработваема земя
+  furnace: Пещ
+  ladder: Стълба
+  rail: Релса
+  cobblestone_stairs: Стъпала от калдъръмени камъни
+  lever: Ръчка
+  stone_pressure_plate: Каменна претегляща сигнална плоча
+  oak_pressure_plate: Дъбова претегляща сигнална плоча
+  spruce_pressure_plate: Смърчова претегляща сигнална плоча
+  birch_pressure_plate: Брезова претегляща сигнална плоча
+  jungle_pressure_plate: Джунглова претегляща сигнална плоча
+  acacia_pressure_plate: Акациева претегляща сигнална плоча
+  dark_oak_pressure_plate: Претегляща сигнална плоча от черен дъб
+  crimson_pressure_plate: Пурпурна сигнална плоча
+  warped_pressure_plate: Шантава сигнална плоча
+  polished_blackstone_pressure_plate: Сигнална плоча от полиран черен камък
+  redstone_ore: Червенокаменна руда
+  redstone_torch: Червенокаменна факла
+  snow: Сняг
+  ice: Лед
+  snow_block: Снежен блок
+  cactus: Кактус
+  clay: Глина
+  jukebox: Джубокс
+  oak_fence: Дъбова ограда
+  spruce_fence: Смърчова ограда
+  birch_fence: Брезова ограда
+  jungle_fence: Джунглова ограда
+  acacia_fence: Акациева ограда
+  dark_oak_fence: Ограда от черен дъб
+  crimson_fence: Пурпурна ограда
+  warped_fence: Шантава ограда
+  pumpkin: Тиква
+  carved_pumpkin: Издълбана тиква
+  netherrack: Камък от Недъра
+  soul_sand: Пясък на душите
+  soul_soil: Земя с души
+  basalt: Базалт
+  polished_basalt: Полиран базалт
+  soul_torch: Обладана факла
+  glowstone: Сияещ камък
+  jack_o_lantern: Тиквен фенер
+  oak_trapdoor: Дъбов люк
+  spruce_trapdoor: Смърчов люк
+  birch_trapdoor: Брезов люк
+  jungle_trapdoor: Джунглов люк
+  acacia_trapdoor: Акациев люк
+  dark_oak_trapdoor: Люк от черен дъб
+  crimson_trapdoor: Пурпурен люк
+  warped_trapdoor: Шантав люк
+  infested_stone: Камък с люспеница
+  infested_cobblestone: Калдъръмени камъни с люспеница
+  infested_stone_bricks: Каменни тухли с люспеница
+  infested_mossy_stone_bricks: Мъхести калдъръмени камъни с люспеница
+  infested_cracked_stone_bricks: Напукани каменни тухли с люспеница
+  infested_chiseled_stone_bricks: Изписани каменни тухли с люспеница
+  stone_bricks: Каменни тухли
+  mossy_stone_bricks: Мъхести каменни тухли
+  cracked_stone_bricks: Напукани каменни тухли
+  chiseled_stone_bricks: Изписани каменни тухли
+  brown_mushroom_block: Кафяв гъбен блок
+  red_mushroom_block: Червен гъбен блок
+  mushroom_stem: Стебло на гъба
+  iron_bars: Железни решетки
+  chain: Верига
+  glass_pane: Стъклен панел
+  melon: Диня
+  vine: Лиани
+  oak_fence_gate: Дъбова порта
+  spruce_fence_gate: Смърчова порта
+  birch_fence_gate: Брезова порта
+  jungle_fence_gate: Джунглова порта
+  acacia_fence_gate: Акациева порта
+  dark_oak_fence_gate: Порта от черен дъб
+  crimson_fence_gate: Пурпурна порта
+  warped_fence_gate: Шантава порта
+  brick_stairs: Тухлени стъпала
+  stone_brick_stairs: Каменно-тухлени стъпала
+  mycelium: Мицел
+  lily_pad: Водна лилия
+  nether_bricks: Тухли от Недъра
+  cracked_nether_bricks: Напукани тухли от Недъра
+  chiseled_nether_bricks: Вдяланеи тухли от Недъра
+  nether_brick_fence: Тухлена ограда от Недъра
+  nether_brick_stairs: Тухлени стъпала от Недъра
+  enchanting_table: Чародейска маса
+  end_portal_frame: Рамка на портал към Края
+  end_stone: Камък от Края
+  end_stone_bricks: Тухли от Края
+  dragon_egg: Драконово яйце
+  redstone_lamp: Червенокаменна лампа
+  sandstone_stairs: Стъпала от пясъчник
+  emerald_ore: Смарагдова руда
+  ender_chest: Сандък от Края
+  tripwire_hook: Кука за капани
+  emerald_block: Смарагдов блок
+  spruce_stairs: Смърчови стъпала
+  birch_stairs: Брезови стъпала
+  jungle_stairs: Джунглови стъпала
+  crimson_stairs: Пурпурни стъпала
+  warped_stairs: Шантави стъпала
+  command_block: Команден блок
+  beacon: Маяк
+  cobblestone_wall: Калдъръмена стена
+  mossy_cobblestone_wall: Мъхеста калдъръмена стена
+  brick_wall: Тухлена стена
+  prismarine_wall: Призмаринова стена
+  red_sandstone_wall: Стена от червен пясъчник
+  mossy_stone_brick_wall: Стена от мъхести каменни тухли
+  granite_wall: Стена от гранит
+  stone_brick_wall: Стена от каменни тухли
+  nether_brick_wall: Стена от тухли от Недъра
+  andesite_wall: Стена от андезит
+  red_nether_brick_wall: Стена от червени тухли от Недъра
+  sandstone_wall: Стена от пясъчник
+  end_stone_brick_wall: Стена от тухли от Края
+  diorite_wall: Стена от диорит
+  blackstone_wall: Стена от черен камък
+  polished_blackstone_wall: Полирана стена от черен камък
+  polished_blackstone_brick_wall: Полирана тухлена стена от черен камък
+  stone_button: Каменно копче
+  oak_button: Дъбово копче
+  spruce_button: Смърчово копче
+  birch_button: Брезово копче
+  jungle_button: Джунглово копче
+  acacia_button: Акациево копче
+  dark_oak_button: Копче от черен дъб
+  crimson_button: Пурпурен бутон
+  warped_button: Шантав бутон
+  polished_blackstone_button: Бутон от полиран черен камък
+  anvil: Наковалня
+  chipped_anvil: Очукана наковалня
+  damaged_anvil: Повредена наковалня
+  trapped_chest: Сандък с капан
+  light_weighted_pressure_plate: Лекочувствителна сигнална плоча
+  heavy_weighted_pressure_plate: Тежкочувствителна сигнална плоча
+  daylight_detector: Датчик за дневна светлина
+  redstone_block: Червенокаменен блок
+  nether_quartz_ore: Кварцова руда от Недъра
+  hopper: Фуния
+  chiseled_quartz_block: Изписан кварцов блок
+  quartz_block: Кварцов блок
+  quartz_bricks: Кварцови тухли
+  quartz_pillar: Кварцова колона
+  quartz_stairs: Кварцови стъпала
+  activator_rail: Активираща релса
+  dropper: Изпускател
+  white_terracotta: Бяла теракота
+  orange_terracotta: Оранжева теракота
+  magenta_terracotta: Пурпурна теракота
+  light_blue_terracotta: Светлосиня теракота
+  yellow_terracotta: Жълта теракота
+  lime_terracotta: Жълтозелена теракота
+  pink_terracotta: Розова теракота
+  gray_terracotta: Сива теракота
+  light_gray_terracotta: Светлосива теракота
+  cyan_terracotta: Синьозелена теракота
+  purple_terracotta: Лилава теракота
+  blue_terracotta: Синя теракота
+  brown_terracotta: Кафява теракота
+  green_terracotta: Зелена теракота
+  red_terracotta: Червена теракота
+  black_terracotta: Черна теракота
+  barrier: Бариера
+  iron_trapdoor: Железен люк
+  hay_block: Слама
+  white_carpet: Бял килим
+  orange_carpet: Оранжев килим
+  magenta_carpet: Пурпурен килим
+  light_blue_carpet: Светлосин килим
+  yellow_carpet: Жълт килим
+  lime_carpet: Жълтозелен килим
+  pink_carpet: Розов килим
+  gray_carpet: Сив килим
+  light_gray_carpet: Светлосив килим
+  cyan_carpet: Синьозелен килим
+  purple_carpet: Лилав килим
+  blue_carpet: Син килим
+  brown_carpet: Кафяв килим
+  green_carpet: Зелен килим
+  red_carpet: Червен килим
+  black_carpet: Черен килим
+  terracotta: Теракота
+  coal_block: Въглищен блок
+  packed_ice: Втвърден лед
+  acacia_stairs: Акациеви стъпала
+  dark_oak_stairs: Стъпала от черен дъб
+  slime_block: Блок от слуз
+  grass_path: Тревна пътека
+  sunflower: Слънчоглед
+  lilac: Люляк
+  rose_bush: Розов храст
+  peony: Божур
+  tall_grass: Висока трева
+  large_fern: Голям папрат
+  white_stained_glass: Бяло стъкло
+  orange_stained_glass: Оранжево стъкло
+  magenta_stained_glass: Пурпурно стъкло
+  light_blue_stained_glass: Светлосиньо стъкло
+  yellow_stained_glass: Жълто стъкло
+  lime_stained_glass: Жълтозелено стъкло
+  pink_stained_glass: Розово стъкло
+  gray_stained_glass: Сиво стъкло
+  light_gray_stained_glass: Светлосиво стъкло
+  cyan_stained_glass: Синьозеленo стъкло
+  purple_stained_glass: Лилаво стъкло
+  blue_stained_glass: Синьо стъкло
+  brown_stained_glass: Кафяво стъкло
+  green_stained_glass: Зелено стъкло
+  red_stained_glass: Червено стъкло
+  black_stained_glass: Черно стъкло
+  white_stained_glass_pane: Бял стъклен панел
+  orange_stained_glass_pane: Оранжев стъклен панел
+  magenta_stained_glass_pane: Пурпурен стъклен панел
+  light_blue_stained_glass_pane: Светлосин стъклен панел
+  yellow_stained_glass_pane: Жълт стъклен панел
+  lime_stained_glass_pane: Жълтозелен стъклен панел
+  pink_stained_glass_pane: Розов стъклен панел
+  gray_stained_glass_pane: Сив стъклен панел
+  light_gray_stained_glass_pane: Светлосив стъклен панел
+  cyan_stained_glass_pane: Синьозелен стъклен панел
+  purple_stained_glass_pane: Лилав стъклен панел
+  blue_stained_glass_pane: Син стъклен панел
+  brown_stained_glass_pane: Кафяв стъклен панел
+  green_stained_glass_pane: Зелен стъклен панел
+  red_stained_glass_pane: Червен стъклен панел
+  black_stained_glass_pane: Черен стъклен панел
+  prismarine: Призмарин
+  prismarine_bricks: Призмаринови тухли
+  dark_prismarine: Тъмен призмарин
+  prismarine_stairs: Призмаринови стъпала
+  prismarine_brick_stairs: Стъпала от призмаринови тухли
+  dark_prismarine_stairs: Стъпала от тъмен призмарин
+  sea_lantern: Морски фенер
+  red_sandstone: Червен пясъчник
+  chiseled_red_sandstone: Изписан червен пясъчник
+  cut_red_sandstone: Шлифован червен пясъчник
+  red_sandstone_stairs: Стъпала от червен пясъчник
+  repeating_command_block: Повтарящ команден блок
+  chain_command_block: Верижен команден блок
+  magma_block: Блок от магма
+  nether_wart_block: Блок от брадавица от Недъра
+  warped_wart_block: Шантав брадавичен блок
+  red_nether_bricks: Червени тухли от Недъра
+  bone_block: Костен блок
+  structure_void: Конструкционна празнота
+  observer: Наблюдател
+  shulker_box: Шулкърова кутия
+  white_shulker_box: Бяла шулкърова кутия
+  orange_shulker_box: Оранжева шулкърова кутия
+  magenta_shulker_box: Пурпурна шулкърова кутия
+  light_blue_shulker_box: Светлосиня шулкърова кутия
+  yellow_shulker_box: Жълта шулкърова кутия
+  lime_shulker_box: Жълтозелена шулкърова кутия
+  pink_shulker_box: Розова шулкърова кутия
+  gray_shulker_box: Сива шулкърова кутия
+  light_gray_shulker_box: Светлосива шулкърова кутия
+  cyan_shulker_box: Синьозелена шулкърова кутия
+  purple_shulker_box: Лилава шулкърова кутия
+  blue_shulker_box: Синя шулкърова кутия
+  brown_shulker_box: Кафява шулкърова кутия
+  green_shulker_box: Зелена шулкърова кутия
+  red_shulker_box: Червена шулкърова кутия
+  black_shulker_box: Черна шулкърова кутия
+  white_glazed_terracotta: Бяла глазирана теракота
+  orange_glazed_terracotta: Оранжева глазирана теракота
+  magenta_glazed_terracotta: Пурпурна глазирана теракота
+  light_blue_glazed_terracotta: Светлосиня глазирана теракота
+  yellow_glazed_terracotta: Жълта глазирана теракота
+  lime_glazed_terracotta: Жълтозелена глазирана теракота
+  pink_glazed_terracotta: Розова глазирана теракота
+  gray_glazed_terracotta: Сива глазирана теракота
+  light_gray_glazed_terracotta: Светлосива глазирана теракота
+  cyan_glazed_terracotta: Синьозелена глазирана теракота
+  purple_glazed_terracotta: Лилава глазирана теракота
+  blue_glazed_terracotta: Синя глазирана теракота
+  brown_glazed_terracotta: Кафява глазирана теракота
+  green_glazed_terracotta: Зелена глазирана теракота
+  red_glazed_terracotta: Червена глазирана теракота
+  black_glazed_terracotta: Черна глазирана теракота
+  white_concrete: Бял бетон
+  orange_concrete: Оранжев бетон
+  magenta_concrete: Пурпурен бетон
+  light_blue_concrete: Светлосин бетон
+  yellow_concrete: Жълт бетон
+  lime_concrete: Жълтозелен бетон
+  pink_concrete: Розов бетон
+  gray_concrete: Сив бетон
+  light_gray_concrete: Светлосив бетон
+  cyan_concrete: Синьозелен бетон
+  purple_concrete: Лилав бетон
+  blue_concrete: Син бетон
+  brown_concrete: Кафяв бетон
+  green_concrete: Зелен бетон
+  red_concrete: Червен бетон
+  black_concrete: Черен бетон
+  white_concrete_powder: Бял цимент
+  orange_concrete_powder: Оранжев цимент
+  magenta_concrete_powder: Пурпурен цимент
+  light_blue_concrete_powder: Светлосин цимент
+  yellow_concrete_powder: Жълт цимент
+  lime_concrete_powder: Жълтозелен цимент
+  pink_concrete_powder: Розов цимент
+  gray_concrete_powder: Сив цимент
+  light_gray_concrete_powder: Светлосив цимент
+  cyan_concrete_powder: Синьозелен цимент
+  purple_concrete_powder: Лилав цимент
+  blue_concrete_powder: Син цимент
+  brown_concrete_powder: Кафяв цимент
+  green_concrete_powder: Зелен цимент
+  red_concrete_powder: Червен цимент
+  black_concrete_powder: Черен цимент
+  turtle_egg: Яйце на костенурка
+  dead_tube_coral_block: Блокче от мъртъв тръбен корал
+  dead_brain_coral_block: Блокче от мъртъв мозъчен корал
+  dead_bubble_coral_block: Блокче от мъртъв мехурчест корал
+  dead_fire_coral_block: Блокче от мъртъв огнен корал
+  dead_horn_coral_block: Блокче от мъртъв рогов корал
+  tube_coral_block: Блокче от тръбен корал
+  brain_coral_block: Блокче от мозъчен корал
+  bubble_coral_block: Блокче от мехурчест корал
+  fire_coral_block: Блокче от огнен корал
+  horn_coral_block: Блокче от рогов корал
+  tube_coral: Тръбообразен корал
+  brain_coral: Мозъчен корал
+  bubble_coral: Мехурчест корал
+  fire_coral: Огнен корал
+  horn_coral: Рогов корал
+  dead_brain_coral: Мъртъв мозъчен корал
+  dead_bubble_coral: Мъртъв мехурчест корал
+  dead_fire_coral: Мъртъв огнен корал
+  dead_horn_coral: Мъртъв рогов корал
+  dead_tube_coral: Мъртъв тръбен корал
+  tube_coral_fan: Тръбен мек корал
+  brain_coral_fan: Мозъчен мек корал
+  bubble_coral_fan: Мехурчест мек корал
+  fire_coral_fan: Огнен мек корал
+  horn_coral_fan: Рогов мек корал
+  dead_tube_coral_fan: Мъртъв тръбен мек корал
+  dead_brain_coral_fan: Мъртъв мозъчен мек корал
+  dead_bubble_coral_fan: Мъртъв мехурчест мек корал
+  dead_fire_coral_fan: Мъртъв огнен мек корал
+  dead_horn_coral_fan: Мъртъв рогов мек корал
+  blue_ice: Ледник
+  conduit: Воден маяк
+  polished_granite_stairs: Стъпала от полиран гранит
+  smooth_red_sandstone_stairs: Стъпала от гладък червен пясъчник
+  mossy_stone_brick_stairs: Стъпала от мъхести каменни тухли
+  polished_diorite_stairs: Стъпала от полиран диорит
+  mossy_cobblestone_stairs: Стъпала от мъхести калдъръмени камъни
+  end_stone_brick_stairs: Стъпала от тухли от Края
+  stone_stairs: Стъпала от камък
+  smooth_sandstone_stairs: Стъпала от гладък пясъчник
+  smooth_quartz_stairs: Стъпала от гладък кварц
+  granite_stairs: Стъпала от гранит
+  andesite_stairs: Стъпала от андезит
+  red_nether_brick_stairs: Стъпала от червени тухли от Недъра
+  polished_andesite_stairs: Стъпала от полиран андезит
+  diorite_stairs: Стъпала от диорит
+  polished_granite_slab: Плоча от полиран гранит
+  smooth_red_sandstone_slab: Плоча от гладък червен пясъчник
+  mossy_stone_brick_slab: Плоча от мъхести каменни тухли
+  polished_diorite_slab: Плоча от полиран диорит
+  mossy_cobblestone_slab: Плоча от мъхести калдъръмени камъни
+  end_stone_brick_slab: Плоча от тухли от Края
+  smooth_sandstone_slab: Плоча от гладък пясъчник
+  smooth_quartz_slab: Плоча от гладък кварц
+  granite_slab: Плоча от гранит
+  andesite_slab: Плоча от андезит
+  red_nether_brick_slab: Плоча от червени тухли от Недъра
+  polished_andesite_slab: Плоча от полиран андезит
+  diorite_slab: Плоча от диорит
+  scaffolding: Скеле
+  iron_door: Желязна врата
+  oak_door: Дъбова врата
+  spruce_door: Смърчова врата
+  birch_door: Брезова врата
+  jungle_door: Джунглова врата
+  acacia_door: Акациева врата
+  dark_oak_door: Врата от черен дъб
+  crimson_door: Пурпурна врата
+  warped_door: Шантава врата
+  repeater: Червенокаменен повторител
+  comparator: Червенокаменен сравнител
+  structure_block: Конструкционен блок
+  jigsaw: Сглобяващ блок
+  turtle_helmet: Черупка на костенурка
+  scute: Рогово щитче
+  flint_and_steel: Запалка
+  apple: Ябълка
+  bow: Лък
+  arrow: Стрела
+  coal: Каменни въглища
+  charcoal: Дървени въглища
+  diamond: Диамант
+  iron_ingot: Желязно кюлче
+  gold_ingot: Златно кюлче
+  netherite_ingot: Кюлче Недърайт
+  netherite_scrap: Късче Недърайт
+  wooden_sword: Дървен меч
+  wooden_shovel: Дървена лопата
+  wooden_pickaxe: Дървена кирка
+  wooden_axe: Дървена брадва
+  wooden_hoe: Дървена мотика
+  stone_sword: Каменен меч
+  stone_shovel: Каменна лопата
+  stone_pickaxe: Каменна кирка
+  stone_axe: Каменна брадва
+  stone_hoe: Каменна мотика
+  golden_sword: Златен меч
+  golden_shovel: Златна лопата
+  golden_pickaxe: Златна кирка
+  golden_axe: Златна брадва
+  golden_hoe: Златна мотика
+  iron_sword: Железен меч
+  iron_shovel: Желязна лопата
+  iron_pickaxe: Желязна кирка
+  iron_axe: Желязна брадва
+  iron_hoe: Желязна мотика
+  diamond_sword: Диамантен меч
+  diamond_shovel: Диамантена лопата
+  diamond_pickaxe: Диамантена кирка
+  diamond_axe: Диамантена брадва
+  diamond_hoe: Диамантена мотика
+  netherite_sword: Меч от Недърайт
+  netherite_shovel: Лопата от Недърайт
+  netherite_pickaxe: Кирка от Недърайт
+  netherite_axe: Брадва от Недърайт
+  netherite_hoe: Мотика от Недърайт
+  stick: Пръчка
+  bowl: Купа
+  mushroom_stew: Гъбена супа
+  string: Връв
+  feather: Перо
+  gunpowder: Барут
+  wheat_seeds: Пшеничени семена
+  wheat: Пшеница
+  bread: Хляб
+  leather_helmet: Кожена шапка
+  leather_chestplate: Кожена туника
+  leather_leggings: Кожени панталони
+  leather_boots: Кожени ботуши
+  chainmail_helmet: Шлем на ризница
+  chainmail_chestplate: Ризница
+  chainmail_leggings: Панталони на ризница
+  chainmail_boots: Ботуши на ризница
+  iron_helmet: Железен шлем
+  iron_chestplate: Железен нагръдник
+  iron_leggings: Железни панталони
+  iron_boots: Железни ботуши
+  diamond_helmet: Диамантен шлем
+  diamond_chestplate: Диамантен нагръдник
+  diamond_leggings: Диамантени панталони
+  diamond_boots: Диамантени ботуши
+  golden_helmet: Златен шлем
+  golden_chestplate: Златен нагръдник
+  golden_leggings: Златни панталони
+  golden_boots: Златни ботуши
+  netherite_helmet: Шлем от Недърайт
+  netherite_chestplate: Нагръдник от Недърайт
+  netherite_leggings: Панталони от Недърайт
+  netherite_boots: Ботуши от Недърайт
+  flint: Кремък
+  porkchop: Сурова свинска пържола
+  cooked_porkchop: Печена свинска пържола
+  painting: Картина
+  golden_apple: Златна ябълка
+  enchanted_golden_apple: Омагьосана златна ябълка
+  oak_sign: Дъбова табела
+  spruce_sign: Смърчова табела
+  birch_sign: Брезова табела
+  jungle_sign: Джунглова табела
+  acacia_sign: Акациева табела
+  dark_oak_sign: Табела от черен дъб
+  crimson_sign: Пурпурна табела
+  warped_sign: Шантава табела
+  bucket: Кофа
+  water_bucket: Кофа с вода
+  lava_bucket: Кофа с лава
+  minecart: Вагонетка
+  saddle: Седло
+  redstone: Червенокаменен прах
+  snowball: Снежна топка
+  oak_boat: Дъбова лодка
+  leather: Кожа
+  milk_bucket: Кофа с мляко
+  pufferfish_bucket: Кофа с риба балон
+  salmon_bucket: Кофа със сьомга
+  cod_bucket: Кофа с треска
+  tropical_fish_bucket: Кофа с тропическа риба
+  brick: Тухла
+  clay_ball: Топка глина
+  dried_kelp_block: Блокче от изсушени водорасли
+  paper: Хартия
+  book: Книга
+  slime_ball: Топка слуз
+  chest_minecart: Товарна вагонетка
+  furnace_minecart: Вагонетка с пещ
+  egg: Яйце
+  compass: Компас
+  fishing_rod: Въдица
+  clock: Часовник
+  glowstone_dust: Прах от сияещ камък
+  cod: Сурова треска
+  salmon: Сурова сьомга
+  tropical_fish: Тропическа риба
+  pufferfish: Риба балон
+  cooked_cod: Печена треска
+  cooked_salmon: Сготвена сьомга
+  ink_sac: Мастило
+  cocoa_beans: Какаови зърна
+  lapis_lazuli: Лазурит
+  white_dye: Бяла боя
+  orange_dye: Оранжева боя
+  magenta_dye: Пурпурна боя
+  light_blue_dye: Светлосиня боя
+  yellow_dye: Жълта боя
+  lime_dye: Жълтозеленa боя
+  pink_dye: Розова боя
+  gray_dye: Сива боя
+  light_gray_dye: Светлосива боя
+  cyan_dye: Синьозелена боя
+  purple_dye: Лилава боя
+  blue_dye: Синя боя
+  brown_dye: Кафява боя
+  green_dye: Зелена боя
+  red_dye: Червена боя
+  black_dye: Черна боя
+  bone_meal: Стрити кости
+  bone: Кокал
+  sugar: Захар
+  cake: Торта
+  white_bed: Бяло легло
+  orange_bed: Оранжево легло
+  magenta_bed: Пурпурно легло
+  light_blue_bed: Светлосиньо легло
+  yellow_bed: Жълто легло
+  lime_bed: Жълтозелено легло
+  pink_bed: Розово легло
+  gray_bed: Сиво легло
+  light_gray_bed: Светлосиво легло
+  cyan_bed: Синьозелено легло
+  purple_bed: Лилаво легло
+  blue_bed: Синьо легло
+  brown_bed: Кафяво легло
+  green_bed: Зелено легло
+  red_bed: Червено легло
+  black_bed: Черно легло
+  cookie: Бисквитка
+  filled_map: Карта
+  shears: Ножици
+  melon_slice: Резен диня
+  dried_kelp: Изсушени водорасли
+  pumpkin_seeds: Тиквени семена
+  melon_seeds: Динени семена
+  beef: Сурово говеждо месо
+  cooked_beef: Говежда пържола
+  chicken: Сурово пилешко месо
+  cooked_chicken: Печено пиле
+  rotten_flesh: Гнила плът
+  ender_pearl: Перла от Края
+  blaze_rod: Пламенна пръчка
+  ghast_tear: Сълза на гаст
+  gold_nugget: Златен къшей
+  nether_wart: Брадавица от Недъра
+  potion: Отвара
+  glass_bottle: Стъкленица
+  spider_eye: Око на паяк
+  fermented_spider_eye: Ферментирало око на паяк
+  blaze_powder: Пламенен прах
+  magma_cream: Магмен крем
+  brewing_stand: Статив за отвари
+  cauldron: Казан
+  ender_eye: Око на Края
+  glistering_melon_slice: Блестящ резен диня
+  bat_spawn_egg: Яйце на прилеп
+  bee_spawn_egg: Яйце на пчела
+  blaze_spawn_egg: Яйце на пламък
+  cat_spawn_egg: Яйце на котка
+  cave_spider_spawn_egg: Яйце на пещерен паяк
+  chicken_spawn_egg: Яйце на кокошка
+  cod_spawn_egg: Яйце на треска
+  cow_spawn_egg: Яйце на крава
+  creeper_spawn_egg: Яйце на крийпър
+  dolphin_spawn_egg: Яйце на делфин
+  donkey_spawn_egg: Яйце на магаре
+  drowned_spawn_egg: Яйце на удавник
+  elder_guardian_spawn_egg: Яйце на възрастен пазител
+  enderman_spawn_egg: Яйце на ендърмен
+  endermite_spawn_egg: Яйце на ендърмит
+  evoker_spawn_egg: Яйце на призовател
+  fox_spawn_egg: Яйце на лисица
+  ghast_spawn_egg: Яйце на гаст
+  guardian_spawn_egg: Яйце на пазител
+  hoglin_spawn_egg: Яйце на Хоглин
+  horse_spawn_egg: Яйце на кон
+  husk_spawn_egg: Яйце на изсъхнало зомби
+  llama_spawn_egg: Яйце на лама
+  magma_cube_spawn_egg: Яйце на магмен куб
+  mooshroom_spawn_egg: Яйце на муухоморка
+  mule_spawn_egg: Яйце на муле
+  ocelot_spawn_egg: Яйце на оцелот
+  panda_spawn_egg: Яйце на панда
+  parrot_spawn_egg: Яйце на папагал
+  phantom_spawn_egg: Яйце на призрачна птица
+  pig_spawn_egg: Яйце на прасе
+  piglin_spawn_egg: Яйце на пиглин
+  piglin_brute_spawn_egg: Яйце на свиреп пиглин
+  pillager_spawn_egg: Яйце на разбойник
+  polar_bear_spawn_egg: Яйце на бяла мечка
+  pufferfish_spawn_egg: Яйце на риба балон
+  rabbit_spawn_egg: Яйце на заек
+  ravager_spawn_egg: Яйце на опустошител
+  salmon_spawn_egg: Яйце на сьомга
+  sheep_spawn_egg: Яйце на овца
+  shulker_spawn_egg: Яйце на шулкър
+  silverfish_spawn_egg: Яйце на люспеница
+  skeleton_spawn_egg: Яйце на скелет
+  skeleton_horse_spawn_egg: Яйце на скелетен кон
+  slime_spawn_egg: Яйце на слуз
+  spider_spawn_egg: Яйце на паяк
+  squid_spawn_egg: Яйце на сепия
+  stray_spawn_egg: Яйце на скелет скитник
+  strider_spawn_egg: Яйце на страйдър
+  trader_llama_spawn_egg: Яйце на лама на търговец
+  tropical_fish_spawn_egg: Яйце на тропическа риба
+  turtle_spawn_egg: Яйце на костенурка
+  vex_spawn_egg: Яйце на дразняч
+  villager_spawn_egg: Яйце на селянин
+  vindicator_spawn_egg: Яйце на бранител
+  wandering_trader_spawn_egg: Яйце на странстващ търговец
+  witch_spawn_egg: Яйце на вещица
+  wither_skeleton_spawn_egg: Яйце на yидър-скелет
+  wolf_spawn_egg: Яйце на вълк
+  zoglin_spawn_egg: Яйце на зоглин
+  zombie_spawn_egg: Яйце на зомби
+  zombie_horse_spawn_egg: Яйце на кон зомби
+  zombie_villager_spawn_egg: Яйце на селянин зомби
+  zombified_piglin_spawn_egg: Яйце на зомби пиглин
+  experience_bottle: Магическа колба
+  fire_charge: Огнен заряд
+  writable_book: Книга и перо
+  written_book: Написана книга
+  emerald: Смарагд
+  item_frame: Рамка
+  flower_pot: Саксия
+  carrot: Морков
+  potato: Картоф
+  baked_potato: Печен картоф
+  poisonous_potato: Отровен картоф
+  map: Празна карта
+  golden_carrot: Златен морков
+  skeleton_skull: Череп на скелет
+  wither_skeleton_skull: Череп на уидър-скелет
+  player_head: Глава на играч
+  zombie_head: Глава на зомби
+  creeper_head: Глава на крийпър
+  dragon_head: Глава на дракон
+  carrot_on_a_stick: Морков на клечка
+  warped_fungus_on_a_stick: Шантава гъба на пръчка
+  nether_star: Звезда от Недъра
+  pumpkin_pie: Тиквен пай
+  firework_rocket: Фойерверк
+  firework_star: Звезда за фойерверк
+  enchanted_book: Омагьосана книга
+  nether_brick: Тухла от Недъра
+  quartz: Кварц от Недъра
+  tnt_minecart: Вагонетка с динамит
+  hopper_minecart: Вагонетка с фуния
+  prismarine_shard: Призмаринов къшей
+  prismarine_crystals: Призмаринови кристали
+  rabbit: Сурово заешко
+  cooked_rabbit: Сготвено заешко
+  rabbit_stew: Заешка яхния
+  rabbit_foot: Заешко краче
+  rabbit_hide: Заешка кожа
+  armor_stand: Стойка за броня
+  iron_horse_armor: Желязна конска броня
+  golden_horse_armor: Златна конска броня
+  diamond_horse_armor: Диамантена конска броня
+  leather_horse_armor: Кожена броня за кон
+  lead: Каишка
+  name_tag: Каишка с име
+  command_block_minecart: Вагонетка с команден блок
+  mutton: Сурово агнешко
+  cooked_mutton: Сготвено агнешко
+  white_banner: Бяло знаме
+  orange_banner: Оранжево знаме
+  magenta_banner: Пурпурно знаме
+  light_blue_banner: Светлосиньо знаме
+  yellow_banner: Жълто знаме
+  lime_banner: Жълтозелено знаме
+  pink_banner: Розово знаме
+  gray_banner: Сиво знаме
+  light_gray_banner: Светлосиво знаме
+  cyan_banner: Синьозелено знаме
+  purple_banner: Лилаво знаме
+  blue_banner: Синьо знаме
+  brown_banner: Кафяво знаме
+  green_banner: Зелено знаме
+  red_banner: Червено знаме
+  black_banner: Черно знаме
+  end_crystal: Кристал от Края
+  chorus_fruit: Припевен плод
+  popped_chorus_fruit: Пукнат припевен плод
+  beetroot: Червено цвекло
+  beetroot_seeds: Семена за червено цвекло
+  beetroot_soup: Супа от червено цвекло
+  dragon_breath: Драконов дъх
+  splash_potion: Разплискваща се отвара
+  spectral_arrow: Призрачна стрела
+  tipped_arrow: Стрела с връх
+  lingering_potion: Задържаща се отвара
+  shield: Щит
+  elytra: Криле
+  spruce_boat: Смърчова лодка
+  birch_boat: Брезова лодка
+  jungle_boat: Джунглова лодка
+  acacia_boat: Акациева лодка
+  dark_oak_boat: Лодка от черен дъб
+  totem_of_undying: Тотем на безсмъртието
+  shulker_shell: Черупка на шулкър
+  iron_nugget: Железен къшей
+  knowledge_book: Книга на знанието
+  debug_stick: Пръчка на промяната
+  music_disc_13: Музикална плоча
+  music_disc_cat: Музикална плоча
+  music_disc_blocks: Музикална плоча
+  music_disc_chirp: Музикална плоча
+  music_disc_far: Музикална плоча
+  music_disc_mall: Музикална плоча
+  music_disc_mellohi: Музикална плоча
+  music_disc_stal: Музикална плоча
+  music_disc_strad: Музикална плоча
+  music_disc_ward: Музикална плоча
+  music_disc_11: Музикална плоча
+  music_disc_wait: Музикална плоча
+  music_disc_pigstep: Музикална плоча
+  trident: Тризъбец
+  phantom_membrane: Ципа на призрачна птица
+  nautilus_shell: Черупка на наутилус
+  heart_of_the_sea: Сърце на морето
+  crossbow: Арбалет
+  suspicious_stew: Подозрителна яхния
+  loom: Тъкачен стан
+  flower_banner_pattern: Шаблон за знаме
+  creeper_banner_pattern: Шаблон за знаме
+  skull_banner_pattern: Шаблон за знаме
+  mojang_banner_pattern: Шаблон за знаме
+  globe_banner_pattern: Шаблон за знаме
+  piglin_banner_pattern: Шаблон за знаме
+  composter: Компостер
+  barrel: Буре
+  smoker: Пушечна фурна
+  blast_furnace: Доменна пещ
+  cartography_table: Картографска маса
+  fletching_table: Маса за лъкове
+  grindstone: Точило
+  lectern: Поставка за книга
+  smithing_table: Коваческа маса
+  stonecutter: Каменоделски циркуляр
+  bell: Камбана
+  lantern: Фенер
+  soul_lantern: Фенер с души
+  sweet_berries: Сладки горски плодове
+  campfire: Лагерен огън
+  soul_campfire: Душевен огън
+  shroomlight: Гъбена лампа
+  honeycomb: Медена пита
+  bee_nest: Пчелен кошер
+  beehive: Кошер
+  honey_bottle: Бутилка с мед
+  honey_block: Меден Блок
+  honeycomb_block: Блок от медени пити
+  lodestone: Магнитен камък
+  netherite_block: Блок от Недърайт
+  ancient_debris: Древни отломки
+  target: Мишена
+  crying_obsidian: Плачещ Обсидиан
+  blackstone: Черен камък
+  blackstone_slab: Плоча от черен камък
+  blackstone_stairs: Стъпала от черен камък
+  gilded_blackstone: Позлатен черен камък
+  polished_blackstone: Полиран черен камък
+  polished_blackstone_slab: Полирана плоча от черен камък
+  polished_blackstone_stairs: Полирани стъпала от черен камък
+  chiseled_polished_blackstone: Дялан полиран черен камък
+  polished_blackstone_bricks: Полирани тухли от черен камък
+  polished_blackstone_brick_slab: Полирана плоча от чернокамъчни тухли
+  polished_blackstone_brick_stairs: Полирани чернокамъчни тухлени стълби
+  cracked_polished_blackstone_bricks: Пукнати полирани тухли от черен камък
+  respawn_anchor: Respawn Котва
+  water: Вода
+  lava: Лава
+  tall_seagrass: Висока морска трева
+  piston_head: Глава на бутало
+  moving_piston: Движещо се бутало
+  wall_torch: Факла
+  fire: Огън
+  soul_fire: Душевен огън
+  redstone_wire: Червенокаменна жица
+  oak_wall_sign: Дъбова табела на стена
+  spruce_wall_sign: Смърчова табела на стена
+  birch_wall_sign: Брезова табела на стена
+  acacia_wall_sign: Акациева табела на стена
+  jungle_wall_sign: Джунглова табела на стена
+  dark_oak_wall_sign: Табела от черен дъб на стена
+  redstone_wall_torch: Факла от червен камък
+  soul_wall_torch: Стенна обладана факла
+  nether_portal: Портал към Недъра
+  attached_pumpkin_stem: Прикрепено тиквено стъбло
+  attached_melon_stem: Прикрепено динено стъбло
+  pumpkin_stem: Стебло
+  melon_stem: Динено стъбло
+  end_portal: Портал към Края
+  cocoa: Какао
+  tripwire: Жица капан
+  potted_oak_sapling: Саксия с дъбова фиданка
+  potted_spruce_sapling: Саксия със смърчова фиданка
+  potted_birch_sapling: Саксия с брезова фиданка
+  potted_jungle_sapling: Саксия с джунглова фиданка
+  potted_acacia_sapling: Саксия с акациева фиданка
+  potted_dark_oak_sapling: Саксия с фиданка на черен дъб
+  potted_fern: Саксия с папрат
+  potted_dandelion: Саксия с глухарче
+  potted_poppy: Саксия с мак
+  potted_blue_orchid: Саксия със синя орхидея
+  potted_allium: Саксия с лук
+  potted_azure_bluet: Саксия с лазурна метличина
+  potted_red_tulip: Саксия с червено лале
+  potted_orange_tulip: Саксия с оранжево лале
+  potted_white_tulip: Саксия с бяло лале
+  potted_pink_tulip: Саксия с розово лале
+  potted_oxeye_daisy: Саксия с маргаритка
+  potted_cornflower: Саксия със синя метличина
+  potted_lily_of_the_valley: Саксия с момина сълза
+  potted_wither_rose: Саксия с уидър роза
+  potted_red_mushroom: Саксия с червена гъба
+  potted_brown_mushroom: Саксия с кафява гъба
+  potted_dead_bush: Саксия с изсъхнал храст
+  potted_cactus: Саксия с кактус
+  carrots: Моркови
+  potatoes: Картофи
+  skeleton_wall_skull: Череп на скелет на стена
+  wither_skeleton_wall_skull: Череп на уидър-скелет на стена
+  zombie_wall_head: Глава на зомби на стена
+  player_wall_head: Глава на играч на стена
+  creeper_wall_head: Глава на крийпър на стена
+  dragon_wall_head: Глава на дракон на стена
+  white_wall_banner: Бяло знаме
+  orange_wall_banner: Оранжево знаме
+  magenta_wall_banner: Пурпурно знаме
+  light_blue_wall_banner: Светлосиньо знаме
+  yellow_wall_banner: Жълто знаме
+  lime_wall_banner: Жълтозелено знаме
+  pink_wall_banner: Розово знаме
+  gray_wall_banner: Сиво знаме
+  light_gray_wall_banner: Светлосиво знаме
+  cyan_wall_banner: Синьозелено знаме
+  purple_wall_banner: Лилаво знаме
+  blue_wall_banner: Синьо знаме
+  brown_wall_banner: Кафяво знаме
+  green_wall_banner: Зелено знаме
+  red_wall_banner: Червено знаме
+  black_wall_banner: Черно знаме
+  beetroots: Цвекло
+  end_gateway: Портал от Края
+  frosted_ice: Заскрежен лед
+  kelp_plant: Стебло на водорасло
+  dead_tube_coral_wall_fan: Мъртъв тръбен мек корал на стена
+  dead_brain_coral_wall_fan: Мъртъв мозъчен мек корал на стена
+  dead_bubble_coral_wall_fan: Мъртъв мехурчест мек корал на стена
+  dead_fire_coral_wall_fan: Мъртъв огнен мек корал на стена
+  dead_horn_coral_wall_fan: Мъртъв рогов мек корал на стена
+  tube_coral_wall_fan: Тръбен мек корал на стена
+  brain_coral_wall_fan: Мозъчен мек корал на стена
+  bubble_coral_wall_fan: Мехурчест мек корал на стена
+  fire_coral_wall_fan: Огнен мек корал на стена
+  horn_coral_wall_fan: Рогов мек корал на стена
+  bamboo_sapling: Бамбук стрелба
+  potted_bamboo: Саксия с бамбук
+  void_air: Въздух в празнотата
+  cave_air: Въздух в пещера
+  bubble_column: Мехурчета
+  sweet_berry_bush: Храст със сладки горски плодове
+  weeping_vines_plant: Плачещa лозя растение
+  twisting_vines_plant: Усукване лозя растение
+  crimson_wall_sign: Пурпурна стенна табела
+  warped_wall_sign: Шантава стенна табела
+  potted_crimson_fungus: Пурпурнa гъбa в саксия
+  potted_warped_fungus: Шантава гъба в саксия
+  potted_crimson_roots: Пурпурни корени в саксия
+  potted_warped_roots: Шантави корени в саксия
+  zombie_pigman_spawn_egg: Яйце на зомби-прасе
+  cactus_green: Кактусово зелено
+  dandelion_yellow: Глухарчесто жълто
+  rose_red: Червено от роза
+  sign: Табела
+  wall_sign: Табела на стена
+biome:
+  ocean: Океан
+  plains: Равнина
+  desert: Пустиня
+  mountains: Планини
+  forest: Гора
+  taiga: Тайга
+  swamp: Блато
+  river: Река
+  nether_wastes: Недър пустощ
+  the_end: Краят
+  frozen_ocean: Ледовит океан
+  frozen_river: Замръзнала река
+  snowy_tundra: Заснежена тундра
+  snowy_mountains: Заснежени планини
+  mushroom_fields: Гъбени полета
+  mushroom_field_shore: Бряг на гъбени полета
+  beach: Плаж
+  desert_hills: Пустинни хълмове
+  wooded_hills: Залесени хълмове
+  taiga_hills: Тайгови хълмове
+  mountain_edge: Снижаваща се планина
+  jungle: Джунгла
+  jungle_hills: Джунглови хълмове
+  jungle_edge: Край на джунгла
+  deep_ocean: Дълбок океан
+  stone_shore: Каменен бряг
+  snowy_beach: Заснежен плаж
+  birch_forest: Брезова гора
+  birch_forest_hills: Хълмове на брезова гора
+  dark_forest: Прихлупена гора
+  snowy_taiga: Заснежена тайга
+  snowy_taiga_hills: Хълмове на заснежена тайга
+  giant_tree_taiga: Мамонтова тайга
+  giant_tree_taiga_hills: Хълмове на мамонтова тайга
+  wooded_mountains: Залесени планини
+  savanna: Савана
+  savanna_plateau: Саванно плато
+  badlands: Скалисти земи
+  wooded_badlands_plateau: Залесено скалисто плато
+  badlands_plateau: Скалисто плато
+  small_end_islands: Малки острови в Края
+  end_midlands: Среден остров в Края
+  end_highlands: Висок остров в Края
+  end_barrens: Пустош в Края
+  warm_ocean: Топъл океан
+  lukewarm_ocean: Хладък океан
+  cold_ocean: Студен океан
+  deep_warm_ocean: Дълбок топъл океан
+  deep_lukewarm_ocean: Дълбок хладък океан
+  deep_cold_ocean: Дълбок студен океан
+  deep_frozen_ocean: Дълбок ледовит океан
+  the_void: Празнота
+  sunflower_plains: Слънчогледова равнина
+  desert_lakes: Пустинни езера
+  gravelly_mountains: Чакълени планини
+  flower_forest: Гора с цветя
+  taiga_mountains: Тайгови планини
+  swamp_hills: Хълмове на блато
+  ice_spikes: Ледени шипове
+  modified_jungle: Възвишена джунгла
+  modified_jungle_edge: Възвишен край на джунгла
+  tall_birch_forest: Висока брезова гора
+  tall_birch_hills: Високи брезови хълмове
+  dark_forest_hills: Хълмове на прихлупена гора
+  snowy_taiga_mountains: Планини на заснежена тайга
+  giant_spruce_taiga: Огромна смърчова тайга
+  giant_spruce_taiga_hills: Хълмове на огромна смърчова тайга
+  modified_gravelly_mountains: Залесени чакълени планини
+  shattered_savanna: Хълмиста савана
+  shattered_savanna_plateau: Хълмисто саванно плато
+  eroded_badlands: Еродирани скали
+  modified_wooded_badlands_plateau: Видоизменено залесено скалисто плато
+  modified_badlands_plateau: Видоизменено скалисто плато
+  bamboo_jungle: Бамбукова джунгла
+  bamboo_jungle_hills: Хълмове на бамбукова джунгла
+  soul_sand_valley: Долина на душите
+  crimson_forest: Пурпурна гора
+  warped_forest: Шантава гора
+  basalt_deltas: Базалтни делти
+  nether: Недъра
+enchantment:
+  fire_protection: Огнена защита
+  sharpness: Острота
+  flame: Пламък
+  soul_speed: Духовна скорост
+  aqua_affinity: Воден афинитет
+  punch: Блъскане
+  loyalty: Лоялност
+  depth_strider: Дълбочинно бягане
+  vanishing_curse: Проклятие на изчезването
+  unbreaking: Нечупливост
+  knockback: Отблъскване
+  luck_of_the_sea: Късмет на морето
+  binding_curse: Проклятие на привързването
+  fortune: Късмет
+  protection: Защита
+  efficiency: Ефективност
+  mending: Възстановяване
+  frost_walker: Ледоходец
+  lure: Примамка
+  looting: Плячкосване
+  piercing: Пронизване
+  blast_protection: Взривна защита
+  smite: Поразяване
+  multishot: Троен изстрел
+  fire_aspect: Огнен аспект
+  channeling: Гръмовержец
+  sweeping: Замахващ ръб
+  thorns: Тръни
+  bane_of_arthropods: Проклятието на Членестоногите
+  respiration: Дишане
+  riptide: Препускащо течение
+  silk_touch: Копринено докосване
+  quick_charge: Бързо зареждане
+  projectile_protection: Изстрелна защита
+  impaling: Пронизване
+  feather_falling: Плавно падане
+  power: Мощ
+  infinity: Безкрайност
+potion:
+  uncraftable: Неизмайсторима отвара
+  water: Бутилка с вода
+  mundane: Обикновена отвара
+  thick: Гъста отвара
+  awkward: Неловка отвара
+  night_vision: Отвара на нощното виждане
+  invisibility: Отвара на невидимостта
+  jump: Отвара на скокливостта
+  fire_resistance: Отвара на огнената устойчивост
+  speed: Отвара на скоростта
+  slowness: Отвара на забавянето
+  water_breathing: Отвара на подводното дишане
+  instant_heal: Отвара на лечението
+  instant_damage: Отвара на нараняването
+  poison: Отвара на отравянето
+  regen: Отвара на регенерацията
+  strength: Отвара на силата
+  weakness: Отвара на слабостта
+  luck: Отвара на късмета
+  turtle_master: Отвара на костенурковата мощ
+  slow_falling: Отвара на бавното падане
+splash_potion:
+  uncraftable: Разплискваща се неизмайсторима отвара
+  water: Разплискваща се бутилка с вода
+  mundane: Обикновена разплискваща се отвара
+  thick: Гъста разплискваща се отвара
+  awkward: Неловка разплискваща се отвара
+  night_vision: Разплискваща се отвара на нощното виждане
+  invisibility: Разплискваща се отвара на невидимостта
+  jump: Разплискваща се отвара на скокливостта
+  fire_resistance: Разплискваща се отвара на огнената устойчивост
+  speed: Разплискваща се отвара на скоростта
+  slowness: Разплискваща се отвара на забавянето
+  water_breathing: Разплискваща се отвара на подводното дишане
+  instant_heal: Разплискваща се отвара на заздравяването
+  instant_damage: Разплискваща се отвара на нараняването
+  poison: Разплискваща се отвара на отравянето
+  regen: Разплискваща се отвара на регенерацията
+  strength: Разплискваща се отвара на силата
+  weakness: Разплискваща се отвара на слабостта
+  luck: Разплискваща се отвара на късмета
+  turtle_master: Разплискваща се отвара на костенурковата мощ
+  slow_falling: Разплискваща се отвара на бавното падане
+lingering_potion:
+  uncraftable: Задържаща се неизмайсторима отвара
+  water: Задържаща се стъкленица с вода
+  mundane: Задържаща се обикновена отвара
+  thick: Задържаща се гъста отвара
+  awkward: Задържаща се неловка отвара
+  night_vision: Задържаща се отвара на нощното виждане
+  invisibility: Задържаща се отвара на невидимостта
+  jump: Задържаща се отвара на скокливостта
+  fire_resistance: Задържаща се отвара на огнената устойчивост
+  speed: Задържаща се отвара на скоростта
+  slowness: Задържаща се отвара на забавянето
+  water_breathing: Задържаща се отвара на подводното дишане
+  instant_heal: Задържаща се отвара на лечението
+  instant_damage: Задържаща се отвара на нараняването
+  poison: Задържаща се отвара на отравянето
+  regen: Задържаща се отвара на регенерацията
+  strength: Задържаща се отвара на силата
+  weakness: Задържаща се отвара на слабостта
+  luck: Задържаща се отвара на късмета
+  turtle_master: Задържаща се отвара на костенурковата мощ
+  slow_falling: Задържаща се отвара на бавното падане
+tipped_arrow:
+  uncraftable: Неизмайсторима стрела с връх
+  water: Стрела на плискането
+  mundane: Стрела с връх
+  thick: Стрела с връх
+  awkward: Стрела с връх
+  night_vision: Стрела на нощното виждане
+  invisibility: Стрела на невидимостта
+  jump: Стрела на скокливостта
+  fire_resistance: Стрела на огнената устойчивост
+  speed: Стрела на скоростта
+  slowness: Стрела на забавянето
+  water_breathing: Стрела на подводното дишане
+  instant_heal: Стрела на заздравяването
+  instant_damage: Стрела на нараняването
+  poison: Стрела на отравянето
+  regen: Стрела на регенерацията
+  strength: Стрела на силата
+  weakness: Стрела на слабостта
+  luck: Стрела на късмета
+  turtle_master: Стрела на костенурковата мощ
+  slow_falling: Стрела на бавното падане
+entity:
+  dropped_item: Предмет
+  experience_orb: Сфера с опит
+  area_effect_cloud: Облак на задържаща се отвара
+  elder_guardian: Възрастен пазител
+  wither_skeleton: Уидър-скелет
+  stray: Скелет скитник
+  egg: Хвърлено яйце
+  leash_hitch: Възел на каишка
+  painting: Картина
+  arrow: Стрела
+  snowball: Снежна топка
+  fireball: Огнена топка
+  small_fireball: Малка огнена топка
+  ender_pearl: Хвърлена перла от Края
+  ender_signal: Око на Края
+  splash_potion: Отвара
+  thrown_exp_bottle: Хвърлена магическа колба
+  item_frame: Рамка
+  wither_skull: Череп на уидър
+  primed_tnt: Запален динамит
+  falling_block: Падащо блокче
+  firework: Фойерверк
+  husk: Изсъхнало зомби
+  spectral_arrow: Призрачна стрела
+  shulker_bullet: Куршум на шулкър
+  dragon_fireball: Драконовска огнена топка
+  zombie_villager: Селянин зомби
+  skeleton_horse: Скелетен кон
+  zombie_horse: Кон зомби
+  armor_stand: Стойка за броня
+  donkey: Магаре
+  mule: Муле
+  evoker_fangs: Призовани зъби
+  evoker: Призовател
+  vex: Дразняч
+  vindicator: Бранител
+  illusioner: Илюзионист
+  minecart_command: Вагонетка с команден блок
+  boat: Лодка
+  minecart: Вагонетка
+  minecart_chest: Товарна вагонетка
+  minecart_furnace: Вагонетка с пещ
+  minecart_tnt: Вагонетка с динамит
+  minecart_hopper: Вагонетка с фуния
+  minecart_mob_spawner: Вагонетка с размножител
+  creeper: Крийпър
+  skeleton: Скелет
+  spider: Паяк
+  giant: Великан
+  zombie: Зомби
+  slime: Слуз
+  ghast: Гаст
+  zombified_piglin: Зомби пиглин
+  enderman: Ендърмен
+  cave_spider: Пещерен паяк
+  silverfish: Люспеница
+  blaze: Пламък
+  magma_cube: Магмен куб
+  ender_dragon: Дракон от Края
+  wither: Уидър
+  bat: Прилеп
+  witch: Вещица
+  endermite: Ендърмит
+  guardian: Пазител
+  shulker: Шулкър
+  pig: Прасе
+  sheep: Овца
+  cow: Крава
+  chicken: Кокошка
+  squid: Сепия
+  wolf: Вълк
+  mushroom_cow: Муухоморка
+  snowman: Снежен голем
+  ocelot: Оцелот
+  iron_golem: Железен голем
+  horse: Кон
+  rabbit: Заек
+  polar_bear: Бяла мечка
+  llama: Лама
+  llama_spit: Плюене на лама
+  parrot: Папагал
+  villager: Селянин
+  ender_crystal: Кристал от Края
+  turtle: Костенурка
+  phantom: Призрачна птица
+  trident: Тризъбец
+  cod: Треска
+  salmon: Сьомга
+  pufferfish: Риба балон
+  tropical_fish: Тропическа риба
+  drowned: Удавник
+  dolphin: Делфин
+  cat: Котка
+  panda: Панда
+  pillager: Разбойник
+  ravager: Опустошител
+  trader_llama: Лама на търговец
+  wandering_trader: Странстващ търговец
+  fox: Лисица
+  bee: Пчела
+  hoglin: Хоглин
+  piglin: Пиглин
+  strider: Страйдър
+  zoglin: Зоглин
+  piglin_brute: Свиреп пиглин
+  fishing_hook: Плувка
+  lightning: Светкавица
+  player: Играч
+  pig_zombie: Зомби-прасе
+effect:
+  speed: Скорост
+  slow: Забавяне
+  fast_digging: Бързина
+  slow_digging: Миньорска умора
+  increase_damage: Сила
+  heal: Моментално лекуване
+  harm: Моментално нараняване
+  jump: Силен скок
+  confusion: Гадене
+  regeneration: Регенерация
+  damage_resistance: Устойчивост
+  fire_resistance: Огнена устойчивост
+  water_breathing: Подводно дишане
+  invisibility: Невидимост
+  blindness: Слепота
+  night_vision: Нощно виждане
+  hunger: Глад
+  weakness: Слабост
+  poison: Отрова
+  wither: Загиване
+  health_boost: Повишаване на здравето
+  absorption: Поглъщане
+  saturation: Наситеност
+  glowing: Светещ
+  levitation: Левитация
+  luck: Късмет
+  unluck: Лош късмет
+  slow_falling: Бавно падане
+  conduit_power: Сила на океана
+  dolphins_grace: Изяществото на делфина
+  bad_omen: Лоша поличба
+  hero_of_the_village: Герой на селото
+tropical_fish_type:
+  kob: Минокопова риба
+  sunstreak: Sunstreak
+  snooper: Дебнеща риба
+  dasher: Жизнена риба
+  brinely: Солена риба
+  spotty: Риба на точки
+  flopper: Пляскаща риба
+  stripey: Раиран
+  glitter: Блестяща риба
+  blockfish: Риба блок
+  betty: Бети
+  clayfish: Глинена риба
+dye_color:
+  white: Бяло
+  orange: Оранжево
+  magenta: Пурпурно
+  light_blue: Светлосиньо
+  yellow: Жълто
+  lime: Жълтозелено
+  pink: Розово
+  gray: Сиво
+  light_gray: Светлосиво
+  cyan: Синьозелено
+  purple: Лилаво
+  blue: Синьо
+  brown: Кафяво
+  green: Зелено
+  red: Червено
+  black: Черно
+named:
+  player_head_named: Главата на %s
+  potion_with_amplifier: '%s %s'
+  potion_with_duration: '%s (%s)'
+  unknown_enchantment: 'Неизвестно омагьосване: %s'
+  unknown_entity: 'Неизвестен обект: %s'
+  unknown_effect: 'Неизвестен ефект: %s'
+tropical_fish_name:
+  '117506305': Коралова рибка
+  '117899265': Черна риба хирург
+  '185008129': Синя риба хирург
+  '117441793': Риба пеперуда
+  '118161664': Цихлида
+  '65536': Риба клоун
+  '50726144': Сиамска бойна риба
+  '67764993': Двуцветна грама
+  '234882305': Императорски червен снапер
+  '67110144': Барбун
+  '117441025': Мавритански идол
+  '16778497': Накичена риба пеперуда
+  '101253888': Риба папагал
+  '50660352': Кралица скалариите
+  '918529': Червена цихлида
+  '235340288': Морско куче
+  '918273': Червен снапер
+  '67108865': Пръстопера риба
+  '917504': Доматена риба клоун
+  '459008': Балистид
+  '67699456': Жълтоопашата риба папагал
+  '67371009': Жълта риба хирург
+colored_shied:
+  white: Бял щит
+  orange: Оранжев щит
+  magenta: Пурпурен щит
+  light_blue: Светлосин щит
+  yellow: Жълт щит
+  lime: Жълтозелен щит
+  pink: Розов щит
+  gray: Сив щит
+  light_gray: Светлосив щит
+  cyan: Синьозелен щит
+  purple: Лилав щит
+  blue: Син щит
+  brown: Кафяв щит
+  green: Зелен щит
+  red: Червен щит
+  black: Черен щит
+banner_pattern:
+  '65536': Бял десен долен кантон
+  '65537': Оранжев десен долен кантон
+  '65538': Пурпурен десен долен кантон
+  '65539': Светлосин десен долен кантон
+  '65540': Жълт десен долен кантон
+  '65541': Жълтозелен десен долен кантон
+  '65542': Розов десен долен кантон
+  '65543': Сив десен долен кантон
+  '65544': Светлосив десен долен кантон
+  '65545': Синьозелен десен долен кантон
+  '65546': Лилав десен долен кантон
+  '65547': Син десен долен кантон
+  '65548': Кафяв десен долен кантон
+  '65549': Зелен десен долен кантон
+  '65550': Червен десен долен кантон
+  '65551': Черен десен долен кантон
+  '131072': Бял ляв долен кантон
+  '131073': Оранжев ляв долен кантон
+  '131074': Пурпурен ляв долен кантон
+  '131075': Светлосин ляв долен кантон
+  '131076': Жълт ляв долен кантон
+  '131077': Жълтозелен ляв долен кантон
+  '131078': Розов ляв долен кантон
+  '131079': Сив ляв долен кантон
+  '131080': Светлосив ляв долен кантон
+  '131081': Синьозелен ляв долен кантон
+  '131082': Лилав ляв долен кантон
+  '131083': Син ляв долен кантон
+  '131084': Кафяв ляв долен кантон
+  '131085': Зелен ляв долен кантон
+  '131086': Червен ляв долен кантон
+  '131087': Черен ляв долен кантон
+  '196608': Бял десен горен кантон
+  '196609': Оранжев десен горен кантон
+  '196610': Пурпурен десен горен кантон
+  '196611': Светлосин десен горен кантон
+  '196612': Жълт десен горен кантон
+  '196613': Жълтозелен десен горен кантон
+  '196614': Розов десен горен кантон
+  '196615': Сив десен горен кантон
+  '196616': Светлосив десен горен кантон
+  '196617': Синьозелен десен горен кантон
+  '196618': Лилав десен горен кантон
+  '196619': Син десен горен кантон
+  '196620': Кафяв десен горен кантон
+  '196621': Зелен десен горен кантон
+  '196622': Червен десен горен кантон
+  '196623': Черен десен горен кантон
+  '262144': Бял ляв горен кантон
+  '262145': Оранжев ляв горен кантон
+  '262146': Пурпурен ляв горен кантон
+  '262147': Светлосин ляв горен кантон
+  '262148': Жълт ляв горен кантон
+  '262149': Жълтозелен ляв горен кантон
+  '262150': Розов ляв горен кантон
+  '262151': Сив ляв горен кантон
+  '262152': Светлосив ляв горен кантон
+  '262153': Синьозелен ляв горен кантон
+  '262154': Лилав ляв горен кантон
+  '262155': Син ляв горен кантон
+  '262156': Кафяв ляв горен кантон
+  '262157': Зелен ляв горен кантон
+  '262158': Червен ляв горен кантон
+  '262159': Черен ляв горен кантон
+  '327680': Бяла хоризонтална лента
+  '327681': Оранжева хоризонтална лента
+  '327682': Пурпурна хоризонтална лента
+  '327683': Светлосиня хоризонтална лента
+  '327684': Жълта хоризонтална лента
+  '327685': Жълтозелена хоризонтална лента
+  '327686': Розова хоризонтална лента
+  '327687': Сива хоризонтална лента
+  '327688': Светлосива хоризонтална лента
+  '327689': Синьозелена хоризонтална лента
+  '327690': Лилава хоризонтална лента
+  '327691': Синя хоризонтална лента
+  '327692': Кафява хоризонтална лента
+  '327693': Зелена хоризонтална лента
+  '327694': Червена хоризонтална лента
+  '327695': Черна хоризонтална лента
+  '393216': Бяла горна лента
+  '393217': Оранжева горна лента
+  '393218': Пурпурна горна лента
+  '393219': Светлосиня горна лента
+  '393220': Жълта горна лента
+  '393221': Жълтозелена горна лента
+  '393222': Розова горна лента
+  '393223': Сива горна лента
+  '393224': Светлосива горна лента
+  '393225': Синьозелена горна лента
+  '393226': Лилава горна лента
+  '393227': Синя горна лента
+  '393228': Кафява горна лента
+  '393229': Зелена горна лента
+  '393230': Червена горна лента
+  '393231': Черна горна лента
+  '458752': Бяла дясна лента
+  '458753': Оранжева дясна лента
+  '458754': Пурпурна дясна лента
+  '458755': Светлосиня дясна лента
+  '458756': Жълта дясна лента
+  '458757': Жълтозелена дясна лента
+  '458758': Розова дясна лента
+  '458759': Сива дясна лента
+  '458760': Светлосива дясна лента
+  '458761': Синьозелена дясна лента
+  '458762': Лилава дясна лента
+  '458763': Синя дясна лента
+  '458764': Кафява дясна лента
+  '458765': Зелена дясна лента
+  '458766': Червена дясна лента
+  '458767': Черна дясна лента
+  '524288': Бяла лява лента
+  '524289': Оранжева лява лента
+  '524290': Пурпурна лява лента
+  '524291': Светлосиня лява лента
+  '524292': Жълта лява лента
+  '524293': Жълтозелена лява лента
+  '524294': Розова лява лента
+  '524295': Сива лява лента
+  '524296': Светлосива лява лента
+  '524297': Синьозелена лява лента
+  '524298': Лилава лява лента
+  '524299': Синя лява лента
+  '524300': Кафява лява лента
+  '524301': Зелена лява лента
+  '524302': Червена лява лента
+  '524303': Черна лява лента
+  '589824': Бяла вертикална лента
+  '589825': Оранжева вертикална лента
+  '589826': Пурпурна вертикална лента
+  '589827': Светлосиня вертикална лента
+  '589828': Жълта вертикална лента
+  '589829': Жълтозелена вертикална лента
+  '589830': Розова вертикална лента
+  '589831': Сива вертикална лента
+  '589832': Светлосива вертикална лента
+  '589833': Синьозелена вертикална лента
+  '589834': Лилава вертикална лента
+  '589835': Синя вертикална лента
+  '589836': Кафява вертикална лента
+  '589837': Зелена вертикална лента
+  '589838': Червена вертикална лента
+  '589839': Черна вертикална лента
+  '655360': Бяла хоризонтална лента
+  '655361': Оранжева хоризонтална лента
+  '655362': Пурпурна хоризонтална лента
+  '655363': Светлосиня хоризонтална лента
+  '655364': Жълта хоризонтална лента
+  '655365': Жълтозелена хоризонтална лента
+  '655366': Розова хоризонтална лента
+  '655367': Сива хоризонтална лента
+  '655368': Светлосива хоризонтална лента
+  '655369': Синьозелена хоризонтална лента
+  '655370': Лилава хоризонтална лента
+  '655371': Синя хоризонтална лента
+  '655372': Кафява хоризонтална лента
+  '655373': Зелена хоризонтална лента
+  '655374': Червена хоризонтална лента
+  '655375': Черна хоризонтална лента
+  '720896': Бял диагонал от ляво на дясно
+  '720897': Оранжев диагонал от ляво на дясно
+  '720898': Пурпурен диагонал от ляво на дясно
+  '720899': Светлосин диагонал от ляво на дясно
+  '720900': Жълт диагонал от ляво на дясно
+  '720901': Жълтозелен диагонал от ляво на дясно
+  '720902': Розов диагонал от ляво на дясно
+  '720903': Сив диагонал от ляво на дясно
+  '720904': Светлосив диагонал от ляво на дясно
+  '720905': Синьозелен диагонал от ляво на дясно
+  '720906': Лилав диагонал от ляво на дясно
+  '720907': Син диагонал от ляво на дясно
+  '720908': Кафяв диагонал от ляво на дясно
+  '720909': Зелен диагонал от ляво на дясно
+  '720910': Червен диагонал от ляво на дясно
+  '720911': Черен диагонал от ляво на дясно
+  '786432': Бял диагонал от дясно на ляво
+  '786433': Оранжев диагонал от дясно на ляво
+  '786434': Пурпурен диагонал от дясно на ляво
+  '786435': Светлосин диагонал от дясно на ляво
+  '786436': Жълт диагонал от дясно на ляво
+  '786437': Жълтозелен диагонал от дясно на ляво
+  '786438': Розов диагонал от дясно на ляво
+  '786439': Сив диагонал от дясно на ляво
+  '786440': Светлосив диагонал от дясно на ляво
+  '786441': Синьозелен диагонал от дясно на ляво
+  '786442': Лилав диагонал от дясно на ляво
+  '786443': Син диагонал от дясно на ляво
+  '786444': Кафяв диагонал от дясно на ляво
+  '786445': Зелен диагонал от дясно на ляво
+  '786446': Червен диагонал от дясно на ляво
+  '786447': Черен диагонал от дясно на ляво
+  '851968': Бели хоризонтални ивици
+  '851969': Оранжеви хоризонтални ивици
+  '851970': Пурпурни хоризонтални ивици
+  '851971': Светлосини хоризонтални ивици
+  '851972': Жълти хоризонтални ивици
+  '851973': Жълтозелени хоризонтални ивици
+  '851974': Розови хоризонтални ивици
+  '851975': Сиви хоризонтални ивици
+  '851976': Светлосиви хоризонтални ивици
+  '851977': Синьозелени хоризонтални ивици
+  '851978': Лилави хоризонтални ивици
+  '851979': Сини хоризонтални ивици
+  '851980': Кафяви хоризонтални ивици
+  '851981': Зелени хоризонтални ивици
+  '851982': Червени хоризонтални ивици
+  '851983': Черни хоризонтални ивици
+  '917504': Бял андреевски кръст
+  '917505': Оранжев андреевски кръст
+  '917506': Пурпурен андреевски кръст
+  '917507': Светлосин андреевски кръст
+  '917508': Жълт андреевски кръст
+  '917509': Жълтозелен андреевски кръст
+  '917510': Розов андреевски кръст
+  '917511': Сив андреевски кръст
+  '917512': Светлосив андреевски кръст
+  '917513': Синьозелен андреевски кръст
+  '917514': Лилав андреевски кръст
+  '917515': Син андреевски кръст
+  '917516': Кафяв андреевски кръст
+  '917517': Зелен андреевски кръст
+  '917518': Червен андреевски кръст
+  '917519': Черен андреевски кръст
+  '983040': Бял кръст
+  '983041': Оранжев кръст
+  '983042': Пурпурен кръст
+  '983043': Светлосин кръст
+  '983044': Жълт кръст
+  '983045': Жълтозелен кръст
+  '983046': Розов кръст
+  '983047': Сив кръст
+  '983048': Светлосив кръст
+  '983049': Синьозелен кръст
+  '983050': Лилав кръст
+  '983051': Син кръст
+  '983052': Кафяв кръст
+  '983053': Зелен кръст
+  '983054': Червен кръст
+  '983055': Черен кръст
+  '1048576': Бял шеврон
+  '1048577': Оранжев шеврон
+  '1048578': Пурпурен шеврон
+  '1048579': Светлосин шеврон
+  '1048580': Жълт шеврон
+  '1048581': Жълтозелен шеврон
+  '1048582': Розов шеврон
+  '1048583': Сив шеврон
+  '1048584': Светлосив шеврон
+  '1048585': Синьозелен шеврон
+  '1048586': Лилав шеврон
+  '1048587': Син шеврон
+  '1048588': Кафяв шеврон
+  '1048589': Зелен шеврон
+  '1048590': Червен шеврон
+  '1048591': Черен шеврон
+  '1114112': Бял обърнат шеврон
+  '1114113': Оранжев обърнат шеврон
+  '1114114': Пурпурен обърнат шеврон
+  '1114115': Светлосин обърнат шеврон
+  '1114116': Жълт обърнат шеврон
+  '1114117': Жълтозелен обърнат шеврон
+  '1114118': Розов обърнат шеврон
+  '1114119': Сив обърнат шеврон
+  '1114120': Светлосив обърнат шеврон
+  '1114121': Синьозелен обърнат шеврон
+  '1114122': Лилав обърнат шеврон
+  '1114123': Син обърнат шеврон
+  '1114124': Кафяв обърнат шеврон
+  '1114125': Зелен обърнат шеврон
+  '1114126': Червен обърнат шеврон
+  '1114127': Черен обърнат шеврон
+  '1179648': Бели долни зъбци
+  '1179649': Оранжеви долни зъбци
+  '1179650': Пурпурни долни зъбци
+  '1179651': Светлосини долни зъбци
+  '1179652': Жълти долни зъбци
+  '1179653': Жълтозелени долни зъбци
+  '1179654': Розови долни зъбци
+  '1179655': Сиви долни зъбци
+  '1179656': Светлосиви долни зъбци
+  '1179657': Синьозелени долни зъбци
+  '1179658': Лилави долни зъбци
+  '1179659': Сини долни зъбци
+  '1179660': Кафяви долни зъбци
+  '1179661': Зелени долни зъбци
+  '1179662': Червени долни зъбци
+  '1179663': Черни долни зъбци
+  '1245184': Бели горни зъбци
+  '1245185': Оранжеви горни зъбци
+  '1245186': Пурпурни горни зъбци
+  '1245187': Светлосини горни зъбци
+  '1245188': Жълти горни зъбци
+  '1245189': Жълтозелени горни зъбци
+  '1245190': Розови горни зъбци
+  '1245191': Сиви горни зъбци
+  '1245192': Светлосиви горни зъбци
+  '1245193': Синьозелени горни зъбци
+  '1245194': Лилави горни зъбци
+  '1245195': Сини горни зъбци
+  '1245196': Кафяви горни зъбци
+  '1245197': Зелени горни зъбци
+  '1245198': Червени горни зъбци
+  '1245199': Черни горни зъбци
+  '1310720': Бяло скосяване наляво
+  '1310721': Оранжево скосяване наляво
+  '1310722': Пурпурно скосяване наляво
+  '1310723': Светлосиньо скосяване наляво
+  '1310724': Жълто скосяване наляво
+  '1310725': Жълтозелено скосяване наляво
+  '1310726': Розово скосяване наляво
+  '1310727': Сиво скосяване наляво
+  '1310728': Светлосиво скосяване наляво
+  '1310729': Синьозелено скосяване наляво
+  '1310730': Лилаво скосяване наляво
+  '1310731': Синьо скосяване наляво
+  '1310732': Кафяво скосяване наляво
+  '1310733': Зелено скосяване наляво
+  '1310734': Червено скосяване наляво
+  '1310735': Черно скосяване наляво
+  '1376256': Бяло обърнато скосяване наляво
+  '1376257': Оранжево обърнато скосяване наляво
+  '1376258': Пурпурно обърнато скосяване наляво
+  '1376259': Светлосиньо обърнато скосяване наляво
+  '1376260': Жълто обърнато скосяване наляво
+  '1376261': Жълтозелено обърнато скосяване наляво
+  '1376262': Розово обърнато скосяване наляво
+  '1376263': Сиво обърнато скосяване наляво
+  '1376264': Светлосиво обърнато скосяване наляво
+  '1376265': Синьозелено обърнато скосяване наляво
+  '1376266': Лилаво обърнато скосяване наляво
+  '1376267': Синьо обърнато скосяване наляво
+  '1376268': Кафяво обърнато скосяване наляво
+  '1376269': Зелено обърнато скосяване наляво
+  '1376270': Червено обърнато скосяване наляво
+  '1376271': Черно обърнато скосяване наляво
+  '1441792': Бяло обърнато скосяване
+  '1441793': Оранжево обърнато скосяване
+  '1441794': Пурпурно обърнато скосяване
+  '1441795': Светлосиньо обърнато скосяване
+  '1441796': Жълто обърнато скосяване
+  '1441797': Жълтозелено обърнато скосяване
+  '1441798': Розово обърнато скосяване
+  '1441799': Сиво обърнато скосяване
+  '1441800': Светлосиво обърнато скосяване
+  '1441801': Синьозелено обърнато скосяване
+  '1441802': Лилаво обърнато скосяване
+  '1441803': Синьо обърнато скосяване
+  '1441804': Кафяво обърнато скосяване
+  '1441805': Зелено обърнато скосяване
+  '1441806': Червено обърнато скосяване
+  '1441807': Черно обърнато скосяване
+  '1507328': Бяло скосяване
+  '1507329': Оранжево скосяване
+  '1507330': Пурпурно скосяване
+  '1507331': Светлосиньо скосяване
+  '1507332': Жълто скосяване
+  '1507333': Жълтозелено скосяване
+  '1507334': Розово скосяване
+  '1507335': Сиво скосяване
+  '1507336': Светлосиво скосяване
+  '1507337': Синьозелено скосяване
+  '1507338': Лилаво скосяване
+  '1507339': Синьо скосяване
+  '1507340': Кафяво скосяване
+  '1507341': Зелено скосяване
+  '1507342': Червено скосяване
+  '1507343': Черно скосяване
+  '1572864': Бял кръг
+  '1572865': Оранжев кръг
+  '1572866': Пурпурен кръг
+  '1572867': Светлосин кръг
+  '1572868': Жълт кръг
+  '1572869': Жълтозелен кръг
+  '1572870': Розов кръг
+  '1572871': Сив кръг
+  '1572872': Светлосив кръг
+  '1572873': Синьозелен кръг
+  '1572874': Лилав кръг
+  '1572875': Син кръг
+  '1572876': Кафяв кръг
+  '1572877': Зелен кръг
+  '1572878': Червен кръг
+  '1572879': Черен кръг
+  '1638400': Бял ромб
+  '1638401': Оранжев ромб
+  '1638402': Пурпурен ромб
+  '1638403': Светлосин ромб
+  '1638404': Жълт ромб
+  '1638405': Жълтозелен ромб
+  '1638406': Розов ромб
+  '1638407': Сив ромб
+  '1638408': Светлосив  ромб
+  '1638409': Синьозелен ромб
+  '1638410': Лилав ромб
+  '1638411': Син ромб
+  '1638412': Кафяв ромб
+  '1638413': Зелен ромб
+  '1638414': Червен ромб
+  '1638415': Черен ромб
+  '1703936': Бяло дясно разсичане
+  '1703937': Оранжево дясно разсичане
+  '1703938': Пурпурно дясно разсичане
+  '1703939': Светлосиньо дясно разсичане
+  '1703940': Жълто дясно разсичане
+  '1703941': Жълтозелено дясно разсичане
+  '1703942': Розово дясно разсичане
+  '1703943': Сиво дясно разсичане
+  '1703944': Светлосиво дясно разсичане
+  '1703945': Синьозелено дясно разсичане
+  '1703946': Лилаво дясно разсичане
+  '1703947': Синьо дясно разсичане
+  '1703948': Кафяво дясно разсичане
+  '1703949': Зелено дясно разсичане
+  '1703950': Червено дясно разсичане
+  '1703951': Черно дясно разсичане
+  '1769472': Бяло горно пресичане
+  '1769473': Оранжево горно пресичане
+  '1769474': Пурпурно горно пресичане
+  '1769475': Светлосиньо горно пресичане
+  '1769476': Жълто горно пресичане
+  '1769477': Жълтозелено горно пресичане
+  '1769478': Розово горно пресичане
+  '1769479': Сиво горно пресичане
+  '1769480': Светлосиво горно пресичане
+  '1769481': Синьозелено горно пресичане
+  '1769482': Лилаво горно пресичане
+  '1769483': Синьо горно пресичане
+  '1769484': Кафяво горно пресичане
+  '1769485': Зелено горно пресичане
+  '1769486': Червено горно пресичане
+  '1769487': Черно горно пресичане
+  '1835008': Бяло ляво разсичане
+  '1835009': Оранжево ляво разсичане
+  '1835010': Пурпурно ляво разсичане
+  '1835011': Светлосиньо ляво разсичане
+  '1835012': Жълто ляво разсичане
+  '1835013': Жълтозелено ляво разсичане
+  '1835014': Розово ляво разсичане
+  '1835015': Сиво ляво разсичане
+  '1835016': Светлосиво ляво разсичане
+  '1835017': Синьозелено ляво разсичане
+  '1835018': Лилаво ляво разсичане
+  '1835019': Синьо ляво разсичане
+  '1835020': Кафяво ляво разсичане
+  '1835021': Зелено ляво разсичане
+  '1835022': Червено ляво разсичане
+  '1835023': Черно ляво разсичане
+  '1900544': Бяло долно пресичане
+  '1900545': Оранжево долно пресичане
+  '1900546': Пурпурно долно пресичане
+  '1900547': Светлосиньо долно пресичане
+  '1900548': Жълто долно пресичане
+  '1900549': Жълтозелено долно пресичане
+  '1900550': Розово долно пресичане
+  '1900551': Сиво долно пресичане
+  '1900552': Светлосиво долно пресичане
+  '1900553': Синьозелено долно пресичане
+  '1900554': Лилаво долно пресичане
+  '1900555': Синьо долно пресичане
+  '1900556': Кафяво долно пресичане
+  '1900557': Зелено долно пресичане
+  '1900558': Червено долно пресичане
+  '1900559': Черно долно пресичане
+  '1966080': Бяла рамка
+  '1966081': Оранжева рамка
+  '1966082': Пурпурна рамка
+  '1966083': Светлосиня рамка
+  '1966084': Жълта рамка
+  '1966085': Жълтозелена рамка
+  '1966086': Розова рамка
+  '1966087': Сива рамка
+  '1966088': Светлосива рамка
+  '1966089': Синьозелена рамка
+  '1966090': Лилава рамка
+  '1966091': Синя рамка
+  '1966092': Кафява рамка
+  '1966093': Зелена рамка
+  '1966094': Червена рамка
+  '1966095': Черна рамка
+  '2031616': Бяла назъбена рамка
+  '2031617': Оранжева назъбена рамка
+  '2031618': Пурпурна назъбена рамка
+  '2031619': Светлосиня назъбена рамка
+  '2031620': Жълта назъбена рамка
+  '2031621': Жълтозелена назъбена рамка
+  '2031622': Розова назъбена рамка
+  '2031623': Сива назъбена рамка
+  '2031624': Светлосива назъбена рамка
+  '2031625': Синьозелена назъбена рамка
+  '2031626': Лилава назъбена рамка
+  '2031627': Синя назъбена рамка
+  '2031628': Кафява назъбена рамка
+  '2031629': Зелена назъбена рамка
+  '2031630': Червена назъбена рамка
+  '2031631': Черна назъбена рамка
+  '2097152': Бяла фигура на крийпър
+  '2097153': Оранжева фигура на крийпър
+  '2097154': Пурпурна фигура на крийпър
+  '2097155': Светлосиня фигура на крийпър
+  '2097156': Жълта фигура на крийпър
+  '2097157': Жълтозелена фигура на крийпър
+  '2097158': Розова фигура на крийпър
+  '2097159': Сива фигура на крийпър
+  '2097160': Светлосива фигура на крийпър
+  '2097161': Синьозелена фигура на крийпър
+  '2097162': Лилава фигура на крийпър
+  '2097163': Синя фигура на крийпър
+  '2097164': Кафява фигура на крийпър
+  '2097165': Зелена фигура на крийпър
+  '2097166': Червена фигура на крийпър
+  '2097167': Черна фигура на крийпър
+  '2162688': Бяла горна преливка
+  '2162689': Оранжева горна преливка
+  '2162690': Пурпурна горна преливка
+  '2162691': Светлосиня горна преливка
+  '2162692': Жълта горна преливка
+  '2162693': Жълтозелена горна преливка
+  '2162694': Розова горна преливка
+  '2162695': Сива горна преливка
+  '2162696': Светлосива горна преливка
+  '2162697': Синьозелена горна преливка
+  '2162698': Лилава горна преливка
+  '2162699': Синя горна преливка
+  '2162700': Кафява горна преливка
+  '2162701': Зелена горна преливка
+  '2162702': Червена горна преливка
+  '2162703': Черна горна преливка
+  '2228224': Бяла долна преливка
+  '2228225': Оранжева долна преливка
+  '2228226': Пурпурна долна преливка
+  '2228227': Светлосиня долна преливка
+  '2228228': Жълта долна преливка
+  '2228229': Жълтозелена долна преливка
+  '2228230': Розова долна преливка
+  '2228231': Сива долна преливка
+  '2228232': Светлосива долна преливка
+  '2228233': Синьозелена долна преливка
+  '2228234': Лилава долна преливка
+  '2228235': Синя долна преливка
+  '2228236': Кафява долна преливка
+  '2228237': Зелена долна преливка
+  '2228238': Червена долна преливка
+  '2228239': Черна долна преливка
+  '2293760': Бял зид
+  '2293761': Оранжев зид
+  '2293762': Пурпурен зид
+  '2293763': Светлосин зид
+  '2293764': Жълт зид
+  '2293765': Жълтозелен зид
+  '2293766': Розов зид
+  '2293767': Сив зид
+  '2293768': Светлосив зид
+  '2293769': Синьозелен зид
+  '2293770': Лилав зид
+  '2293771': Син зид
+  '2293772': Кафяв зид
+  '2293773': Зелен зид
+  '2293774': Червен зид
+  '2293775': Черен зид
+  '2359296': Бяла фигура на череп
+  '2359297': Оранжева фигура на череп
+  '2359298': Пурпурна фигура на череп
+  '2359299': Светлосиня фигура на череп
+  '2359300': Жълта фигура на череп
+  '2359301': Жълтозелена фигура на череп
+  '2359302': Розова фигура на череп
+  '2359303': Сива фигура на череп
+  '2359304': Светлосива фигура на череп
+  '2359305': Синьозелена фигура на череп
+  '2359306': Лилава фигура на череп
+  '2359307': Синя фигура на череп
+  '2359308': Кафява фигура на череп
+  '2359309': Зелена фигура на череп
+  '2359310': Червена фигура на череп
+  '2359311': Черна фигура на череп
+  '2424832': Бяла фигура на цвете
+  '2424833': Оранжева фигура на цвете
+  '2424834': Пурпурна фигура на цвете
+  '2424835': Светлосиня фигура на цвете
+  '2424836': Жълта фигура на цвете
+  '2424837': Жълтозелена фигура на цвете
+  '2424838': Розова фигура на цвете
+  '2424839': Сива фигура на цвете
+  '2424840': Светлосива фигура на цвете
+  '2424841': Синьозелена фигура на цвете
+  '2424842': Лилава фигура на цвете
+  '2424843': Синя фигура на цвете
+  '2424844': Кафява фигура на цвете
+  '2424845': Зелена фигура на цвете
+  '2424846': Червена фигура на цвете
+  '2424847': Черна фигура на цвете
+  '2490368': Бяло нещо
+  '2490369': Оранжево нещо
+  '2490370': Пурпурно нещо
+  '2490371': Светлосиньо нещо
+  '2490372': Жълто нещо
+  '2490373': Жълтозелено нещо
+  '2490374': Розово нещо
+  '2490375': Сиво нещо
+  '2490376': Светлосиво нещо
+  '2490377': Синьозелено нещо
+  '2490378': Лилаво нещо
+  '2490379': Синьо нещо
+  '2490380': Кафяво нещо
+  '2490381': Зелено нещо
+  '2490382': Червено нещо
+  '2490383': Черно нещо
+  '2555904': Бяло земно кълбо
+  '2555905': Оранжево земно кълбо
+  '2555906': Магентово земно кълбо
+  '2555907': Светлосиньо земно кълбо
+  '2555908': Жълто земно кълбо
+  '2555909': Лайм земно кълбо
+  '2555910': Розово земно кълбо
+  '2555911': Сиво земно кълбо
+  '2555912': Светлосиво земно кълбо
+  '2555913': Синьозеленено земно кълбо
+  '2555914': Лилаво земно кълбо
+  '2555915': Синьо земно кълбо
+  '2555916': Кафяво земно кълбо
+  '2555917': Зелено земно кълбо
+  '2555918': Червено земно кълбо
+  '2555919': Черно земно кълбо
+  '2621440': Бяла муцуна
+  '2621441': Оранжева муцуна
+  '2621442': Пурпурна муцуна
+  '2621443': Светлосиня муцуна
+  '2621444': Жълта муцуна
+  '2621445': Лаймова муцуна
+  '2621446': Розова муцуна
+  '2621447': Сива муцуна
+  '2621448': Светлосива муцуна
+  '2621449': Цианска муцуна
+  '2621450': Лилава муцуна
+  '2621451': Синя муцуна
+  '2621452': Кафява муцуна
+  '2621453': Зелена муцуна
+  '2621454': Червена муцуна
+  '2621455': Черна муцуна
+merchant_level:
+  '1': Начинаещ
+  '2': Чирак
+  '3': Калфа
+  '4': Експерт
+  '5': Майстор
+villager_profession:
+  none: Селянин
+  armorer: Ковач на брони
+  butcher: Касапин
+  cartographer: Картограф
+  cleric: Духовник
+  farmer: Земеделец
+  fisherman: Рибар
+  fletcher: Майстор на лъкове
+  leatherworker: Кожар
+  librarian: Библиотекар
+  mason: Зидар
+  nitwit: Глупак
+  shepherd: Пастир
+  toolsmith: Майстор на инструменти
+  weaponsmith: Майстор на оръжия
+villager_career:
+  farmer: Земеделец
+  fisherman: Рибар
+  shepherd: Пастир
+  fletcher: Майстор на лъкове
+  librarian: Библиотекар
+  cartographer: Картограф
+  cleric: Духовник
+  armorer: Ковач на брони
+  weapon_smith: Ковач на оръжия
+  tool_smith: Ковач на инструменти
+  butcher: Касапин
+  leatherworker: Кожар
+  nitwit: Глупак

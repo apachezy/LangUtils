@@ -1,0 +1,642 @@
+# ####################################################
+# Build time: 2021-03-06 14:47:28                    #
+# ####################################################
+language:
+  code: ms_my
+  name: Bahasa Melayu
+  region: Malaysia
+material:
+  acacia_door: Pintu Akasia
+  acacia_slab: Bongkah Akasia
+  acacia_trapdoor: Jerangkap Akasia
+  birch_slab: Bongkah Birch
+  birch_trapdoor: Jerangkap Birch
+  brick_slab: Bongkah Bata
+  carved_pumpkin: Ukiran Labu
+  chainmail_chestplate: Perisai Dada Rantai
+  chainmail_helmet: Topi Keledar Rantai
+  clay_ball: Tanah Liat
+  cobblestone_slab: Bongkah Batu Buntar
+  dark_oak_slab: Bongkah Oak Gelap
+  dark_oak_trapdoor: Jerangkap Oak Gelap
+  dark_prismarine: Prismarine Gelap
+  dark_prismarine_slab: Bongkah Prismarine Gelap
+  dark_prismarine_stairs: Tangga Prismarine Gelap
+  enchanted_golden_apple: Epal Emas Disihir
+  end_portal_frame: Bingkai Portal End
+  iron_trapdoor: Jerangkap Besi
+  jungle_slab: Bongkah Rimba
+  jungle_trapdoor: Jerangkap Rimba
+  nether_brick_slab: Bongkah Batu Bata Nether
+  nether_portal: Portal Nether
+  oak_planks: Papan kayu Oak
+  oak_slab: Bongkah Oak
+  oak_trapdoor: Jerangkap Oak
+  petrified_oak_slab: Bongkah Oak Membatu
+  phantom_membrane: Khayalan Membran
+  potted_acacia_sapling: Anak Pokok Akasia Pasu
+  potted_allium: Allium Pasu
+  potted_azure_bluet: Azure Bluet Pasu
+  potted_birch_sapling: Anak Pokok Birch Pasu
+  potted_blue_orchid: Orkid Biru Pasu
+  potted_brown_mushroom: Cendawan Perang Pasu
+  potted_cactus: Kaktus Pasu
+  potted_dandelion: Bunga Kekwa Pasu
+  potted_dark_oak_sapling: Anak Pokok Oak Gelap Pasu
+  potted_dead_bush: Semak Mati Pasu
+  potted_fern: Paku Pakis Pasu
+  potted_jungle_sapling: Anak Pokok Rimba Pasu
+  potted_oak_sapling: Anak Pokok Oak Pasu
+  potted_orange_tulip: Tulip Jingga Pasu
+  potted_oxeye_daisy: Daisi Mata Lembu Pasu
+  potted_pink_tulip: Tulip Merah Jambu Pasu
+  potted_poppy: Popi Pasu
+  potted_red_mushroom: Cendawan Merah Pasu
+  potted_red_tulip: Tulip Merah Pasu
+  potted_spruce_sapling: Anak Pokok Cemara Pasu
+  potted_white_tulip: Tulip Putih Pasu
+  prismarine_bricks: Bata Prismarine
+  prismarine_brick_slab: Bongkah Bata Prismarine
+  prismarine_brick_stairs: Tangga Bata Prismarine
+  prismarine_crystals: Kristal Prismarine
+  prismarine_shard: |
+    Beling Prismarine
+  prismarine_slab: Bongkah Prismarine
+  prismarine_stairs: Tangga Prismarine
+  purpur_slab: Bongkah Purpur
+  quartz_slab: Bongkah Kuarza
+  redstone: Redstone
+  redstone_wire: Serbuk Redstone
+  red_sandstone_slab: Bongkah Batu Pasir Merah
+  sandstone_slab: Bongkah Batu Pasir
+  smooth_quartz: Kuarza Licin
+  spruce_door: Pintu Cemara
+  spruce_planks: Papan Kayu Oak
+  spruce_slab: Bongkah Cemara
+  spruce_trapdoor: Jerangkap Cemara
+  stone_brick_slab: Bongkah Batu Bata
+  stone_slab: Bongkah Batu
+  stripped_acacia_log: Balak Akasia yang Dikupas Kulit
+  stripped_birch_log: Balak Birch yang Dikupas Kulit
+  stripped_dark_oak_log: Balak Oak Gelap yang Dikupas Kulit
+  stripped_jungle_log: Balak Rimba yang Dikupas Kulit
+  stripped_oak_log: Balak Oak yang Dikupas Kulit
+  stripped_spruce_log: Balak Cemara yang Dikupas Kulit
+biome:
+  frozen_ocean: Laut Beku
+  mushroom_field_shore: Pesisir Padang Cendawan
+  wooded_hills: Hutan Bukit
+  mountain_edge: Tepi Gunung
+  jungle_edge: Pinggir Rimba
+  stone_shore: Pesisir Batu
+  wooded_mountains: Hutan Gunung
+  wooded_badlands_plateau: Hutan Penara Tanah Tandus
+  small_end_islands: Pulau End Kecil
+  end_highlands: End Bertanah Tinggi
+  warm_ocean: Laut Panas
+  lukewarm_ocean: Laut Suam
+  cold_ocean: Laut Sejuk
+  deep_warm_ocean: Laut Dalam Hangat
+  deep_lukewarm_ocean: Laut Dalam Suam
+  deep_cold_ocean: Laut Dalam Sejuk
+  deep_frozen_ocean: Laut Dalam Beku
+  modified_jungle: Rimba Terubah
+  modified_jungle_edge: Pinggir Rimba Terubah
+  shattered_savanna: Savana Pecah
+  shattered_savanna_plateau: Penara Savana Pecah
+  modified_wooded_badlands_plateau: Hutan Penara Tanah Tandus Terubah
+  modified_badlands_plateau: Penara Tanah Tandus Terubah
+enchantment:
+  frost_walker: Penjalanan Beku
+  bane_of_arthropods: Pembinasaan kepada Anthropod
+lingering_potion:
+  turtle_master: Posyen Berlarutan Jurupenyu
+tipped_arrow:
+  turtle_master: Anak Panah Pakar Penyu
+  slow_falling: Anak panah jatuh perlahan
+tropical_fish_name:
+  '117441793': Ikan rama-rama
+  '118161664': Cichilid
+  '234882305': Lutjanus sebae
+  '16778497': Ikan rama-rama 2
+  '101253888': Ikan burung nuri
+  '918529': Ikan Cichlid Merah
+  '918273': Lutjanus campechanus
+  '67108865': Ikan Threadfin
+colored_shied:
+  brown: Perisai Coklat
+banner_pattern:
+  '65536': Dasar Dexter Canton Putih
+  '65537': Dasar Dexter Canton Jingga
+  '65538': Dasar Dexter Canton Magenta
+  '65539': Dasar Dexter Canton Biru Muda
+  '65540': Dasar Dexter Canton Kuning
+  '65541': Dasar Dexter Canton Limau Hijau
+  '65542': Dasar Dexter Canton Merah Jambu
+  '65543': Dasar Dexter Canton Kelabu
+  '65544': Dasar Dexter Canton Kelabu Muda
+  '65545': Dasar Dexter Canton Sian
+  '65546': Dasar Dexter Canton Ungu
+  '65547': Dasar Dexter Canton Biru
+  '65548': Dasar Dexter Canton Perang
+  '65549': Dasar Dexter Canton Hijau
+  '65550': Dasar Dexter Canton Merah
+  '65551': Dasar Dexter Canton Hitam
+  '131072': Tapak Sinister Canton Putih
+  '131073': Tapak Sinister Canton Jingga
+  '131074': Tapak Sinister Canton Magenta
+  '131075': Tapak Sinister Canton Biru Muda
+  '131076': Tapak Sinister Canton Kuning
+  '131077': Tapak Sinister Canton Limau Hijau
+  '131078': Tapak Sinister Canton Merah Jambu
+  '131079': Dasar Sinister Canton Kelabu
+  '131080': Dasar Sinister Canton Kelabu Muda
+  '131081': Dasar Sinister Canton Sian
+  '131082': Dasar Sinister Canton Ungu
+  '131083': Dasar Sinister Canton Biru
+  '131084': Dasar Sinister Canton Perang
+  '131085': Dasar Sinister Canton Hijau
+  '131086': Dasar Sinister Canton Merah
+  '131087': Dasar Sinister Canton Hitam
+  '196608': Lelangit Dexter Canton Putih
+  '196609': Lelangit Dexter Canton Jingga
+  '196610': Lelangit Dexter Canton Magenta
+  '196611': Lelangit Dexter Canton Biru Muda
+  '196612': Lelangit Dexter Canton Kuning
+  '196613': Lelangit Dexter Canton Limau Hijau
+  '196614': Lelangit Dexter Canton Merah Jambu
+  '196615': Lelangit Dexter Canton Kelabu
+  '196616': Lelangit Dexter Canton Kelabu Muda
+  '196617': Lelangit Dexter Canton Sian
+  '196618': Lelangit Dexter Canton Ungu
+  '196619': Lelangit Dexter Canton Biru
+  '196620': Lelangit Dexter Canton Perang
+  '196621': Lelangit Dexter Canton Hijau
+  '196622': Lelangit Dexter Canton Merah
+  '196623': Lelangit Dexter Canton Hitam
+  '262144': Lelangit Sinister Canton Putih
+  '262145': Lelangit Sinister Canton Jingga
+  '262146': Lelangit Sinister Canton Magenta
+  '262147': Lelangit Sinister Canton Biru Muda
+  '262148': Lelangit Sinister Canton Kuning
+  '262149': Lelangit Sinister Canton Limau Hijau
+  '262150': Lelangit Sinister Canton Merah Jambu
+  '262151': Lelangit Sinister Canton Kelabu
+  '262152': Lelangit Sinister Canton Kelabu Muda
+  '262153': Lelangit Sinister Canton Sian
+  '262154': Lelangit Sinister Canton Ungu
+  '262155': Lelangit Sinister Canton Biru
+  '262156': Lelangit Sinister Canton Perang
+  '262157': Lelangit Sinister Canton Hijau
+  '262158': Lelangit Sinister Canton Merah
+  '262159': Lelangit Sinister Canton Hitam
+  '327682': Asas Magenta
+  '327683': Asas Biru Muda
+  '327685': Asas Lime
+  '327686': Asas Merah Jambu
+  '327687': Asas Kelabu
+  '327688': Asas Kelabu Cerah
+  '327689': Asas Sian
+  '327690': Asas Ungu
+  '327692': Asas Coklat
+  '393216': Atas putih
+  '393217': Atas oren
+  '393218': Atas magenta
+  '393219': Atas biru muda
+  '393220': Atas kuning
+  '393221': Atas hijau limau nipis
+  '393222': Atas merah jambu
+  '393223': Atas kelabu
+  '393224': Atas kelabu muda
+  '393225': Atas sian
+  '393226': Atas ungu
+  '393227': Atas biru
+  '393228': Atas coklat
+  '393229': Atas hijau
+  '393230': Atas merah
+  '393231': Atas hitam
+  '458752': Dexter putih pucat
+  '458753': Dexter pucat oren
+  '458754': Dexter pucat Magenta
+  '458755': Cahaya biru pucat Dexter
+  '458756': Dexter kuning pucat
+  '458757': Limau nipis pucat Dexter
+  '458758': Dexter Pink pucat
+  '458759': Dexter kelabu pucat
+  '458760': Dexter pucat kelabu terang
+  '458761': Cyan Dexter pucat
+  '458762': Dexter Ungu Pucat
+  '458763': Dexter Biru Pucat
+  '458764': Dexter Coklat Pucat
+  '458765': Dexter Hijau Pucat
+  '458766': Dexter Pucat Merah
+  '458767': Dexter Pucat Hitam
+  '524288': Belahan Sinister Putih
+  '524289': Belahan Sinister Jingga
+  '524290': Belahan tapak magenta
+  '524291': Cahaya Pale Blue yang jahat
+  '524292': Kuning Pale jahat
+  '524293': Pale limau jahat
+  '524294': Pink Pale jahat
+  '524295': Kelabu Pale jahat
+  '524296': Cahaya Pale kelabu yang jahat
+  '524297': Cyan Pale jahat
+  '524298': Ungu Pale jahat
+  '524299': Biru Pale jahat
+  '524300': Coklat Pale jahat
+  '524301': Hijau Pale jahat
+  '524302': Merah Pale jahat
+  '524303': Hitam Pale jahat
+  '589824': Belahan Menegak Putih
+  '589825': Belahan Menegak Jingga
+  '589826': Belahan Menegak Magenta
+  '589827': Belahan Menegak Biru Muda
+  '589828': Belahan Menegak Kuning
+  '589829': Belahan Menegak Limau Hijau
+  '589830': Belahan Menegak Merah Jambu
+  '589831': Belahan Menegak Kelabu
+  '589832': Belahan Menegak Kelabu Muda
+  '589833': Belahan Menegak Sian
+  '589834': Belahan Menegak Sian
+  '589835': Belahan Menegak Biru
+  '589836': Belahan Menegak Perang
+  '589837': Belahan Menegak Hijau
+  '589838': Belahan Menegak Merah
+  '589839': Belahan Menegak Hitam
+  '655365': Belahan Mendatar Limau Hijau
+  '720896': Liku Putih
+  '720897': Liku Oren
+  '720898': Liku Magenta
+  '720899': Liku Biru Terang
+  '720900': Liku Kuning
+  '720901': Liku Limau
+  '720902': Liku Merah Jambu
+  '720903': Liku Kelabu
+  '720904': Liku Kelabu Terang
+  '720905': Liku Hijau Biru
+  '720906': Liku Ungu
+  '720907': Liku Biru
+  '720908': Liku Coklat
+  '720909': Liku Hijau
+  '720910': Liku Merah
+  '720911': Liku Hitam
+  '786432': Liku Jahat Putih
+  '786433': Liku Oren Jahat
+  '786434': Liku Magenta Jahat
+  '786435': Liku Jahat Biru Muda
+  '786436': Liku Sinister Kuning
+  '786437': Liku Sinister Limau
+  '786438': Liku Sinister Merah Jambu
+  '786439': Liku Sinister Kelabu
+  '786440': Liku Sinister Kelabu Terang
+  '786441': Cyan Bend Sinister
+  '786442': Liku Sinister Ungu
+  '786443': Liku Sinister Biru
+  '786444': Liku Sinister Coklat
+  '786445': Liku Sinister Hijau
+  '786446': Liku Sinister Merah
+  '786447': Liku Sinister Hitam
+  '851968': Garis Halus Menegak Putih
+  '851969': Garis Halus Menegak Jingga
+  '851970': Garis Halus Menegak Magenta
+  '851971': Garis Halus Menegak Biru Muda
+  '851972': Garis Halus Menegak Kuning
+  '851973': Garis Halus Menegak Limau Hijau
+  '851974': Garis Halus Menegak Merah Jambu
+  '851975': Garis Halus Menegak Kelabu
+  '851976': Garis Halus Menegak Kelabu Muda
+  '851977': Garis Halus Menegak Cyan
+  '851978': Pucat Ungu
+  '851979': Pucat Biru
+  '851980': Pucat Coklat
+  '851981': Pucat Hijau
+  '851982': Pucat Merah
+  '851983': Pucat Hitam
+  '917504': Salib Putih
+  '917505': Salib Jingga
+  '917506': Salib Magenta
+  '917507': Salib Biru Muda
+  '917508': Salib Kuning
+  '917509': Salib Hijau Muda
+  '917510': Salib Merah Jambu
+  '917511': Salib Kelabu
+  '917512': Salib Kelabu Muda
+  '917513': Salib Cyan
+  '917514': Salib Ungu
+  '917515': Salib Biru
+  '917516': Salib Coklat
+  '917517': Salib Hijau
+  '917518': Salib Merah
+  '917519': Salib Hitam
+  '983040': Saib Putih
+  '983041': Saib Oren
+  '983042': Saib Magenta
+  '983043': Saib Biru Muda
+  '983044': Saib Kuning
+  '983045': Saib Limau
+  '983046': Saib Merah Jambu
+  '983047': Saib Kelabu
+  '983048': Saib Kelabu Muda
+  '983049': Saib Cyan
+  '983050': Saib Ungu
+  '983051': Saib Biru
+  '983052': Saib Perang
+  '983053': Saib Hijau
+  '983054': Saib Merah
+  '983055': Saib Hitam
+  '1048576': Chevron Putih
+  '1048577': Chevron Jingga
+  '1048578': Chevron Magenta
+  '1048579': Chevron Biru Muda
+  '1048580': Chevron Kuning
+  '1048581': Chevron Hijau Muda
+  '1048582': Chevron Merah Jambu
+  '1048583': Chevron Kelabu
+  '1048584': Chevron Kelabu Muda
+  '1048585': Chevron Cyan
+  '1048586': Chevron Ungu
+  '1048587': Chevron Biru
+  '1048588': Chevron Coklat
+  '1048589': Chevron Hijau
+  '1048590': Chevron Merah
+  '1048591': Chevron Hitam
+  '1114112': Chevron Putih Terbalik
+  '1114113': Chevron Jingga Terbalik
+  '1114114': Chevron Magenta Terbalik
+  '1114115': Chevron Biru Muda Terbalik
+  '1114116': Chevron Kuning Terbalik
+  '1114117': Chevron Hijau Muda Terbalik
+  '1114118': Chevron Merah Jambu Terbalik
+  '1114119': Chevron Kelabu Terbalik
+  '1114120': Chevron Terbalik Kelabu Muda
+  '1114121': Chevron Terbalik Cyan
+  '1114122': Chevron Terbalik Ungu
+  '1114123': Chevron Terbalik Biru
+  '1114124': Chevron Terbalik Coklat
+  '1114125': Chevron Terbalik Hijau
+  '1114126': Chevron Terbalik Merah
+  '1114127': Chevron Terbalik Hitam
+  '1179648': Tapak Putih Dilekukan
+  '1179649': Tapak Jingga Dilekukan
+  '1179650': Tapak Magenta Dilekukan
+  '1179651': Tapak Biru Muda Dilekukan
+  '1179652': Tapak Kuning Dilekukan
+  '1179653': Tapak Hijau Muda Dilekukan
+  '1179654': Tapak Merah Jambu Dilekukan
+  '1179655': Tapak Kelabu Dilekukan
+  '1179656': Tapak Kelabu Muda Dilekukan
+  '1179657': Tapak Cyan Dilekukan
+  '1179658': Tapak Ungu Dilekukan
+  '1179659': Tapak Biru Dilekukan
+  '1179660': Tapak Coklat Dilekukan
+  '1179661': Tapak Hijau Dilekukan
+  '1179662': Tapak Merah Dilekukan
+  '1179663': Tapak Hitam Dilekukan
+  '1245184': Atas Putih Dilekukan
+  '1245185': Atas Jingga Dilekukan
+  '1245186': Atas Magenta Dilekukan
+  '1245187': Atas Biru Muda Dilekukan
+  '1245188': Atas Kuning Dilekukan
+  '1245189': Atas Hijau Muda Dilekukan
+  '1245190': Atas Merah Jambu Dilekukan
+  '1245191': Atas Kelabu Dilekukan
+  '1245192': Atas Kelabu Muda Dilekukan
+  '1245193': Atas Cyan Dilekukan
+  '1245194': Atas Ungu Dilekukan
+  '1245195': Atas Biru Dilekukan
+  '1245196': Atas Coklat Dilekukan
+  '1245197': Atas Hijau Dilekukan
+  '1245198': Atas Merah Dilekukan
+  '1245199': Atas Hitam Dilekukan
+  '1310720': Pepenjuru Kiri Putih
+  '1310721': Pepenjuru Kiri Jingga
+  '1310722': Pepenjuru Kiri Magenta
+  '1310723': Pepenjuru Kiri Biru Muda
+  '1310724': Pepenjuru Kiri Kuning
+  '1310725': Pepenjuru Kiri Hijau Muda
+  '1310726': Pepenjuru Kiri Merah Jambu
+  '1310727': Pepenjuru Kiri Kelabu
+  '1310728': Pepenjuru Kiri Kelabu Muda
+  '1310729': Pepenjuru Kiri Cyan
+  '1310730': Pepenjuru Kiri Ungu
+  '1310731': Pepenjuru Kiri Biru
+  '1310732': Pepenjuru Kiri Coklat
+  '1310733': Pepenjuru Kiri Hijau
+  '1310734': Pepenjuru Kiri Merah
+  '1310735': Pepenjuru Kiri Hitam
+  '1376256': Pepenjuru Kiri Putih Terbalik
+  '1376257': Pepenjuru Kiri Jingga Terbalik
+  '1376258': Pepenjuru Kiri Magenta Terbalik
+  '1376259': Pepenjuru Kiri Biru Muda Terbalik
+  '1376260': Pepenjuru Kiri Kuning Terbalik
+  '1376261': Pepenjuru Kiri Hijau Muda Terbalik
+  '1376262': Pepenjuru Kiri Merah Jambu Terbalik
+  '1376263': Pepenjuru Kiri Kelabu Terbalik
+  '1376264': Pepenjuru Kiri Kelabu Muda Terbalik
+  '1376265': Pepenjuru Kiri Cyan Terbalik
+  '1376266': Pepenjuru Kiri Ungu Terbalik
+  '1376267': Pepenjuru Kiri Biru Terbalik
+  '1376268': Pepenjuru Kiri Coklat Terbalik
+  '1376269': Pepenjuru Kiri Hijau Terbalik
+  '1376270': Pepenjuru Kiri Merah Terbalik
+  '1376271': Pepenjuru Kiri Hitam Terbalik
+  '1441792': Pepenjuru Kanan Putih Terbalik
+  '1441793': Pepenjuru Kanan Jingga Terbalik
+  '1441794': Pepenjuru Kanan Magenta Terbalik
+  '1441795': Pepenjuru Kanan Biru Muda Terbalik
+  '1441796': Pepenjuru Kanan Kuning Terbalik
+  '1441797': Pepenjuru Kanan Hijau Muda Terbalik
+  '1441798': Pepenjuru Kanan Merah Jambu Terbalik
+  '1441799': Pepenjuru Kanan Kelabu Terbalik
+  '1441800': Pepenjuru Kanan Kelabu Muda Terbalik
+  '1441801': Pepenjuru Kanan Cyan Terbalik
+  '1441802': Pepenjuru Kanan Ungu Terbalik
+  '1441803': Pepenjuru Kanan Biru Terbalik
+  '1441804': Pepenjuru Kanan Coklat Terbalik
+  '1441805': Pepenjuru Kanan Hijau Terbalik
+  '1441806': Pepenjuru Kanan Merah Terbalik
+  '1441807': Pepenjuru Kanan Hitam Terbalik
+  '1507328': Pepenjuru Kanan Putih
+  '1507329': Pepenjuru Kanan Jingga
+  '1507330': Pepenjuru Kanan Magenta
+  '1507331': Pepenjuru Kanan Biru Muda
+  '1507332': Pepenjuru Kanan Kuning
+  '1507333': Pepenjuru Kanan Hijau Muda
+  '1507334': Pepenjuru Kanan Merah Jambu
+  '1507335': Pepenjuru Kanan Kelabu
+  '1507336': Pepenjuru Kanan Kelabu Muda
+  '1507337': Pepenjuru Kanan Cyan
+  '1507338': Pepenjuru Kanan Ungu
+  '1507339': Pepenjuru Kanan Biru
+  '1507340': Pepenjuru Kanan Coklat
+  '1507341': Pepenjuru Kanan Hijau
+  '1507342': Pepenjuru Kanan Merah
+  '1507343': Pepenjuru Kanan Hitam
+  '1572873': Bulatan Cyan
+  '1572876': Bulatan Coklat
+  '1638400': Lozenge putih
+  '1638409': Rombus Cyan
+  '1638412': Rombus Coklat
+  '1703936': Belahan Menegak Putih
+  '1703945': Separuh Kiri Cyan
+  '1703948': Separuh Kiri Coklat
+  '1769472': Separuh Bahagian Putih
+  '1769473': Separuh Bahagian Jingga
+  '1769474': Separuh Bahagian Magenta
+  '1769475': Separuh Bahagian Biru Muda
+  '1769476': Separuh Bahagian Kuning
+  '1769477': Separuh Bahagian Hijau Muda
+  '1769478': Separuh Bahagian Merah Jambu
+  '1769479': Separuh Bahagian Kelabu
+  '1769480': Separuh Bahagian Kelabu Muda
+  '1769481': Separuh Bahagian Cyan
+  '1769482': Separuh Bahagian Ungu
+  '1769483': Separuh Bahagian Biru
+  '1769484': Separuh Bahagian Coklat
+  '1769485': Separuh Bahagian Hijau
+  '1769486': Separuh Bahagian Merah
+  '1769487': Separuh Bahagian Hitam
+  '1835008': Belahan Menegak Putih Terbalik
+  '1835009': Belahan Menegak Jingga Terbalik
+  '1835010': Belahan Menegak Magenta Terbalik
+  '1835011': Belahan Menegak Biru Muda Terbalik
+  '1835012': Belahan Menegak Kuning Terbalik
+  '1835013': Belahan Menegak Hijau Muda Terbalik
+  '1835014': Belahan Menegak Merah Jambu Terbalik
+  '1835015': Belahan Menegak Kelabu Terbalik
+  '1835016': Belahan Menegak Kelabu Muda Terbalik
+  '1835017': Belahan Menegak Cyan Terbalik
+  '1835018': Belahan Menegak Ungu Terbalik
+  '1835019': Belahan Menegak Biru Terbalik
+  '1835020': Belahan Menegak Coklat Terbalik
+  '1835021': Belahan Menegak Hijau Terbalik
+  '1835022': Belahan Menegak Merah Terbalik
+  '1835023': Belahan Menegak Hitam Terbalik
+  '1900544': Separuh Bahagian Putih Terbalik
+  '1900545': Separuh Bahagian Jingga Terbalik
+  '1900546': Separuh Bahagian Magenta Terbalik
+  '1900547': Separuh Bahagian Biru Muda Terbalik
+  '1900548': Separuh Bahagian Kuning Terbalik
+  '1900549': Separuh Bahagian Hijau Muda Terbalik
+  '1900550': Separuh Bahagian Merah Jambu Terbalik
+  '1900551': Separuh Bahagian Kelabu Terbalik
+  '1900552': Separuh Bahagian Kelabu Muda Terbalik
+  '1900553': Separuh Bahagian Cyan Terbalik
+  '1900554': Separuh Bahagian Ungu Terbalik
+  '1900555': Separuh Bahagian Biru Terbalik
+  '1900556': Separuh Bahagian Coklat Terbalik
+  '1900557': Separuh Bahagian Hijau Terbalik
+  '1900558': Separuh Bahagian Merah Terbalik
+  '1900559': Separuh Bahagian Hitam Terbalik
+  '1966081': Sempadan Oren
+  '1966085': Sempadan Limau
+  '1966089': Sempadan Cyan
+  '2031616': Sempadan Diinden Putih
+  '2031617': Sempadan Diinden Oren
+  '2031618': Sempadan Diinden Magenta
+  '2031619': Sempadan Diinden Biru Muda
+  '2031620': Sempadan Diinden Kuning
+  '2031621': Sempadan Diinden Limau
+  '2031622': Sempadan Diinden Merah Jambu
+  '2031623': Sempadan Diinden Kelabu
+  '2031624': Sempadan Diinden Kelabu Muda
+  '2031625': Sempadan Diinden Cyan
+  '2031626': Sempadan Diinden Ungu
+  '2031627': Sempadan Diinden Biru
+  '2031628': Sempadan Diinden Perang
+  '2031629': Sempadan Diinden Hijau
+  '2031630': Sempadan Diinden Merah
+  '2031631': Sempadan Diinden Hitam
+  '2097152': Caj Creeper Putih
+  '2097153': Caj Creeper Jingga
+  '2097154': Caj Creeper Magenta
+  '2097155': Caj Creeper Biru Muda
+  '2097156': Caj Creeper Kuning
+  '2097157': Caj Creeper Hijau Muda
+  '2097158': Caj Creeper Merah Jambu
+  '2097159': Caj Creeper Kelabu
+  '2097160': Caj Creeper Kelabu Muda
+  '2097161': Caj Creeper Cyan
+  '2097162': Caj Creeper Ungu
+  '2097163': Caj Creeper Biru
+  '2097164': Caj Creeper Coklat
+  '2097165': Caj Creeper Hijau
+  '2097166': Caj Creeper Merah
+  '2097167': Caj Creeper Hitam
+  '2162688': Kecerunan Putih
+  '2162689': Kecerunan Oren
+  '2162690': Kecerunan Magenta
+  '2162691': Kecerunan Biru Muda
+  '2162692': Kecerunan Kuning
+  '2162693': Kecerunan Limau
+  '2162694': Kecerunan Merah Jambu
+  '2162695': Kecerunan Kelabu
+  '2162696': Kecerunan Kelabu Muda
+  '2162697': Kecerunan Cyan
+  '2162698': Kecerunan Ungu
+  '2162699': Kecerunan Biru
+  '2162700': Kecerunan Coklat
+  '2162701': Kecerunan Hijau
+  '2162702': Kecerunan Merah
+  '2162703': Kecerunan Hitam
+  '2228224': Kecerunan Asas Putih
+  '2228225': Kecerunan Asas Oren
+  '2228226': Kecerunan Asas Magenta
+  '2228227': Kecerunan Asas Biru Muda
+  '2228228': Kecerunan Asas Kuning
+  '2228229': Kecerunan Asas Limau
+  '2228230': Kecerunan Asas Merah Jambu
+  '2228231': Kecerunan Asas Kelabu
+  '2228232': Kecerunan Asas Kelabu Muda
+  '2228236': Kecerunan Asas Perang
+  '2293760': Bidang Corak Bata Putih
+  '2293761': Bidang Corak Bata Jingga
+  '2293762': Bidang Corak Bata Magenta
+  '2293763': Bidang Corak Bata Biru Muda
+  '2293764': Bidang Corak Bata Kuning
+  '2293765': Bidang Corak Bata Hijau Muda
+  '2293766': Bidang Corak Bata Merah Jambu
+  '2293767': Bidang Corak Bata Kelabu
+  '2293768': Bidang Corak Bata Kelabu Muda
+  '2293769': Bidang Corak Bata Cyan
+  '2293770': Bidang Corak Bata Ungu
+  '2293771': Bidang Corak Bata Biru
+  '2293772': Bidang Corak Bata Coklat
+  '2293773': Bidang Corak Bata Hijau
+  '2293774': Bidang Corak Bata Merah
+  '2293775': Bidang Corak Bata Hitam
+  '2359296': Caj Tengkorak Putih
+  '2359297': Caj Tengkorak Oren
+  '2359298': Caj Tengkorak Magenta
+  '2359299': Caj Tengkorak Biru Muda
+  '2359300': Caj Tengkorak Kuning
+  '2359301': Caj Tengkorak Limau
+  '2359302': Caj Tengkorak Merah Jambu
+  '2359303': Caj Tengkorak Kelabu
+  '2359304': Caj Tengkorak Kelabu Muda
+  '2359305': Caj Tengkorak Cyan
+  '2359306': Caj Tengkorak Ungu
+  '2359307': Caj Tengkorak Biru
+  '2359308': Caj Tengkorak Perang
+  '2359309': Caj Tengkorak Hijau
+  '2359310': Caj Tengkorak Merah
+  '2359311': Caj Tengkorak Hitam
+  '2424832': Caj Bunga Putih
+  '2424833': Caj Bunga Oren
+  '2424834': Caj Bunga Magenta
+  '2424835': Caj Bunga Biru Muda
+  '2424836': Caj Bunga Kuning
+  '2424837': Caj Bunga Limau
+  '2424838': Caj Bunga Merah Jambu
+  '2424839': Caj Bunga Kelabu
+  '2424840': Caj Bunga Kelabu Muda
+  '2424841': Caj Bunga Cyan
+  '2424842': Caj Bunga Ungu
+  '2424843': Caj Bunga Biru
+  '2424844': Caj Bunga Perang
+  '2424845': Caj Bunga Hijau
+  '2424846': Caj Bunga Merah
+  '2424847': Caj Bunga Hitam
+  '2490369': Benda Oren
+  '2490373': Benda Limau
+  '2490377': Benda Cyan

@@ -1,0 +1,155 @@
+# ####################################################
+# Build time: 2021-03-06 14:47:28                    #
+# ####################################################
+language:
+  code: pt_br
+  name: Português
+  region: Brasil
+material:
+  bedrock: Rocha matriz
+  bookshelf: Estante
+  chainmail_boots: Botas de cota de malha
+  chainmail_chestplate: Peitoral de cota de malha
+  chainmail_helmet: Capacete de cota de malha
+  chainmail_leggings: Calças de cota de malha
+  chest_minecart: Carrinho com baú
+  clay_ball: Argila
+  coarse_dirt: Terra grossa
+  command_block_minecart: Carrinho com bloco de comando
+  cooked_beef: Bife
+  dragon_breath: Bafo de dragão
+  furnace_minecart: Carrinho com fornalha
+  glass_bottle: Frasco de vidro
+  hopper_minecart: Carrinho com funil
+  minecart: Carrinho
+  music_disc_11: Disco de música
+  music_disc_13: Disco de música
+  music_disc_blocks: Disco de música
+  music_disc_cat: Disco de música
+  music_disc_chirp: Disco de música
+  music_disc_far: Disco de música
+  music_disc_mall: Disco de música
+  music_disc_mellohi: Disco de música
+  music_disc_stal: Disco de música
+  music_disc_strad: Disco de música
+  music_disc_wait: Disco de música
+  music_disc_ward: Disco de música
+  redstone: Redstone
+  redstone_wire: Pó de redstone
+  smooth_quartz: Quartzo liso
+  stray_spawn_egg: Ovo gerador de esqueleto-vagante
+  structure_block: Bloco de estrutura
+  structure_void: Vazio da estrutura
+  tnt_minecart: Carrinho com dinamite
+  wet_sponge: Esponja molhada
+  wither_skeleton_skull: Crânio de esqueleto Wither
+  wither_skeleton_spawn_egg: Ovo gerador de esqueleto Wither
+  wither_skeleton_wall_skull: Crânio de esqueleto Wither de parede
+biome:
+  wooded_hills: Colinas arborizadas
+  birch_forest: Floresta de bétula
+  birch_forest_hills: Colinas da floresta de bétula
+  giant_tree_taiga: Taiga com árvores gigantes
+  wooded_mountains: Montanhas arborizadas
+  wooded_badlands_plateau: Planalto arborizado de terras áridas
+  shattered_savanna: Savana destroçada
+  shattered_savanna_plateau: Planalto de savana destroçada
+  modified_wooded_badlands_plateau: Planalto arborizado de terras áridas (var.)
+enchantment:
+  binding_curse: Maldição da ligação
+splash_potion:
+  mundane: Poção comum arremessável
+  thick: Poção espessa arremessável
+  awkward: Poção estranha arremessável
+lingering_potion:
+  mundane: Poção comum prolongada
+entity:
+  dropped_item: Objeto
+  wither_skeleton: Esqueleto Wither
+  stray: Esqueleto-vagante
+  leash_hitch: Laço amarrado
+  primed_tnt: Dinamite ativada
+  minecart_command: Carrinho com bloco de comando
+  minecart: Carrinho
+  minecart_chest: Carrinho com baú
+  minecart_furnace: Carrinho com fornalha
+  minecart_tnt: Carrinho com dinamite
+  minecart_hopper: Carrinho com funil
+  minecart_mob_spawner: Carrinho com gerador
+  ender_dragon: Dragão de ender
+  lightning: Raio
+effect:
+  heal: Saúde instantânea
+  dolphins_grace: Graça do golfinho
+tropical_fish_type:
+  snooper: Peixe do recife
+  dasher: Peixe com listras
+named:
+  unknown_enchantment: 'Encantamento desconhecido: "%s"'
+  unknown_entity: 'Entidade desconhecida: "%s"'
+  unknown_effect: 'Efeito desconhecido: "%s"'
+banner_pattern:
+  '65536': Cantão branco na base dextra
+  '65537': Cantão laranja na base dextra
+  '65538': Cantão magenta na base dextra
+  '65539': Cantão azul-claro na base dextra
+  '65540': Cantão amarelo na base dextra
+  '65541': Cantão verde-limão na base dextra
+  '65542': Cantão rosa na base dextra
+  '65543': Cantão cinza na base dextra
+  '65544': Cantão cinza-claro na base dextra
+  '65545': Cantão ciano na base dextra
+  '65546': Cantão roxo na base dextra
+  '65547': Cantão azul na base dextra
+  '65548': Cantão marrom na base dextra
+  '65549': Cantão verde na base dextra
+  '65550': Cantão vermelho na base dextra
+  '65551': Cantão preto na base dextra
+  '131072': Cantão branco na base sinistra
+  '131073': Cantão laranja na base sinistra
+  '131074': Cantão magenta na base sinistra
+  '131075': Cantão azul-claro na base sinistra
+  '131076': Cantão amarelo na base sinistra
+  '131077': Cantão verde-limão na base sinistra
+  '131078': Cantão rosa na base sinistra
+  '131079': Cantão cinza na base sinistra
+  '131080': Cantão cinza-claro na base sinistra
+  '131081': Cantão ciano na base sinistra
+  '131082': Cantão roxo na base sinistra
+  '131083': Cantão azul na base sinistra
+  '131084': Cantão marrom na base sinistra
+  '131085': Cantão verde na base sinistra
+  '131086': Cantão vermelho na base sinistra
+  '131087': Cantão preto na base sinistra
+  '2293760': Campo em alvenaria branco
+  '2293761': Campo em alvenaria laranja
+  '2293762': Campo em alvenaria magenta
+  '2293763': Campo em alvenaria azul-claro
+  '2293764': Campo em alvenaria amarelo
+  '2293765': Campo em alvenaria verde-limão
+  '2293766': Campo em alvenaria rosa
+  '2293767': Campo em alvenaria cinza
+  '2293768': Campo em alvenaria cinza-claro
+  '2293769': Campo em alvenaria ciano
+  '2293770': Campo em alvenaria roxo
+  '2293771': Campo em alvenaria azul
+  '2293772': Campo em alvenaria marrom
+  '2293773': Campo em alvenaria verde
+  '2293774': Campo em alvenaria vermelho
+  '2293775': Campo em alvenaria preto
+  '2490368': Logotipo branco
+  '2490369': Logotipo laranja
+  '2490370': Logotipo magenta
+  '2490371': Logotipo azul-claro
+  '2490372': Logotipo amarelo
+  '2490373': Logotipo verde-limão
+  '2490374': Logotipo rosa
+  '2490375': Logotipo cinza
+  '2490376': Logotipo cinza-claro
+  '2490377': Logotipo ciano
+  '2490378': Logotipo roxo
+  '2490379': Logotipo azul
+  '2490380': Logotipo marrom
+  '2490381': Logotipo verde
+  '2490382': Logotipo vermelho
+  '2490383': Logotipo preto

@@ -35,7 +35,7 @@ public class EntityStorage extends Storage<EntityType> {
             if (ent != EntityType.UNKNOWN) {
 
                 // In order to maintain compatibility, please use .name()
-                // when get the name of the Enum item.
+                // when get the name of the EntityType.
                 // Because in some versions, they do not inherit from Keyed.
 
                 String entryName = ent.name().toLowerCase(Locale.ROOT);
@@ -66,15 +66,6 @@ public class EntityStorage extends Storage<EntityType> {
         pairMap.put(entityType, localized);
 
         remapping(locale, pairMap, remaper);
-    }
-
-    @Override
-    @NotNull
-    public String getEntry(@NotNull String locale, @NotNull EntityType entityType) {
-        String result = super.getEntry(locale, entityType);
-        return result == null ? entityType.name().toLowerCase(Locale.ROOT) : result;
-        // todo:找不到这个名称，应返回 “未知的实体：”
-        //      例如1.13里没有“飞行的滞留药水”
     }
 
 }

@@ -1,0 +1,2196 @@
+# ####################################################
+# Build time: 2021-03-06 14:47:27                    #
+# ####################################################
+language:
+  code: gd_gb
+  name: Gàidhlig
+  region: Alba
+material:
+  air: Adhar
+  stone: Clach
+  granite: Gaireal
+  polished_granite: Gaireal lìomhte
+  diorite: Dìorait
+  polished_diorite: Dìorait lìomhte
+  andesite: Andasait
+  polished_andesite: Andasait lìomhte
+  grass_block: Bloca feòir
+  dirt: Ùir
+  coarse_dirt: Pronn
+  podzol: Podsol
+  crimson_nylium: Crimson Nylium
+  warped_nylium: Warped Nylium
+  cobblestone: Clach-chàsaidh
+  oak_planks: Dèilean daraich
+  spruce_planks: Dèilean giuthais
+  birch_planks: Dèilean beithe
+  jungle_planks: Dèilean dlùth-choille
+  acacia_planks: Dèilean sitta
+  dark_oak_planks: Dèilean daraich dhuirch
+  crimson_planks: Crimson Planks
+  warped_planks: Warped Planks
+  oak_sapling: Fiùran daraich
+  spruce_sapling: Fiùran giuthais
+  birch_sapling: Fiùran beithe
+  jungle_sapling: Fiùran dlùth-choille
+  acacia_sapling: Fiùran sitta
+  dark_oak_sapling: Fiùran daraich dhuirch
+  bedrock: Fo-chreag
+  sand: Gainneamh
+  red_sand: Gainneamh ruadh
+  gravel: Grinneal
+  gold_ore: Clach-òir
+  iron_ore: Clach-iarainn
+  coal_ore: Clach-guail
+  nether_gold_ore: Nether Gold Ore
+  oak_log: Loga daraich
+  spruce_log: Loga giuthais
+  birch_log: Loga beithe
+  jungle_log: Loga dlùth-choille
+  acacia_log: Loga sitta
+  dark_oak_log: Loga daraich dhuirch
+  crimson_stem: Crimson Smùid
+  warped_stem: Warped Stad
+  stripped_oak_log: Loga daraich rùisgte
+  stripped_spruce_log: Loga giuthais rùisgte
+  stripped_birch_log: Loga beithe rùisgte
+  stripped_jungle_log: Loga dlùth-choille rùisgte
+  stripped_acacia_log: Loga sitta rùisgte
+  stripped_dark_oak_log: Loga daraich dhuirch rùisgte
+  stripped_crimson_stem: Cha Robh Smùid Crimson
+  stripped_warped_stem: Cha Robh Bun-Warped
+  stripped_oak_wood: Fiodh daraich rùisgte
+  stripped_spruce_wood: Fiodh giuthais rùisgte
+  stripped_birch_wood: Fiodh beithe rùisgte
+  stripped_jungle_wood: Fiodh dlùth-choille rùisgte
+  stripped_acacia_wood: Fiodh sitta rùisgte
+  stripped_dark_oak_wood: Fiodh daraich dhuirch rùisgte
+  stripped_crimson_hyphae: Cha Robh Crimson Hyphae
+  stripped_warped_hyphae: Cha Robh Warped Hyphae
+  oak_wood: Fiodh daraich
+  spruce_wood: Fiodh giuthais
+  birch_wood: Fiodh beithe
+  jungle_wood: Fiodh dlùth-choille
+  acacia_wood: Fiodh sitta
+  dark_oak_wood: Fiodh daraich dhuirch
+  crimson_hyphae: Crimson Hyphae
+  warped_hyphae: Warped Hyphae
+  oak_leaves: Duilleach daraich
+  spruce_leaves: Duilleach giuthais
+  birch_leaves: Duilleach beithe
+  jungle_leaves: Duilleach dlùth-choille
+  acacia_leaves: Duilleach sitta
+  dark_oak_leaves: Duilleach daraich dhuirch
+  sponge: Spong
+  wet_sponge: Spong fliuch
+  glass: Glainne
+  lapis_ore: Clach cloiche-copair
+  lapis_block: Bloca cloiche-copair
+  dispenser: Bloca tilgeil
+  sandstone: Clach-ghainmhich
+  chiseled_sandstone: Clach-ghainmhich ghilbichte
+  cut_sandstone: Geàrr Clach-ghainmhich
+  note_block: Bloca-puing
+  powered_rail: Rèile-dealain
+  detector_rail: Rèile-mothachaidh
+  sticky_piston: Loinid-tharraing
+  cobweb: Eige
+  grass: Feur
+  fern: Raineach
+  dead_bush: Preas marbh
+  seagrass: Bilearach-mara
+  sea_pickle: Piceal na mara
+  piston: Loinid
+  white_wool: Clòimh gheal
+  orange_wool: Clòimh orains
+  magenta_wool: Clòimh mhagenta
+  light_blue_wool: Clòimh shoilleir-ghorm
+  yellow_wool: Clòimh bhuidhe
+  lime_wool: Clòimh dath na liomaid
+  pink_wool: Clòimh phinc
+  gray_wool: Clòimh liath
+  light_gray_wool: Clòimh shoilleir-liath
+  cyan_wool: Clòimh shaidhean
+  purple_wool: Clòimh phurpaidh
+  blue_wool: Clòimh ghorm
+  brown_wool: Clòimh dhonn
+  green_wool: Clòimh uaine
+  red_wool: Clòimh dhearg
+  black_wool: Clòimh dhubh
+  dandelion: Beàrnan-Brìde
+  poppy: Crom-lus
+  blue_orchid: Magairle ghorm
+  allium: Uinnean Pearsach
+  azure_bluet: Gorm-lus
+  red_tulip: Tiuilip dhearg
+  orange_tulip: Tiuilip orains
+  white_tulip: Tiuilip bhàn
+  pink_tulip: Tiuilip phinc
+  oxeye_daisy: Neòinean-mòr
+  cornflower: Cornflower
+  lily_of_the_valley: Lili a ’ghlinne
+  wither_rose: Ròs Wither
+  brown_mushroom: Balgan-buachair donn
+  red_mushroom: Balgan-buachair dearg
+  crimson_fungus: Crimson Bharrachd
+  warped_fungus: Warped Bharrachd
+  crimson_roots: Crimson Roots
+  warped_roots: Warped Rotors
+  nether_sprouts: Nether Sprouts
+  weeping_vines: Ri Vines
+  twisting_vines: Twisting Vines
+  sugar_cane: Cuilc an t-siùcair
+  kelp: Ceilp
+  bamboo: Bambù
+  gold_block: Bloca òir
+  iron_block: Bloca iarainn
+  oak_slab: Leac daraich
+  spruce_slab: Leac giuthais
+  birch_slab: Leac beithe
+  jungle_slab: Leac dlùth-choille
+  acacia_slab: Leac sitta
+  dark_oak_slab: Leac daraich dhuirch
+  crimson_slab: Crimson Leac
+  warped_slab: Warped Leac
+  stone_slab: Leac cloiche
+  smooth_stone_slab: Leac clach rèidh
+  sandstone_slab: Leac cloiche-gainmhich
+  cut_sandstone_slab: Gearradh leac cloiche-gainmhich
+  petrified_oak_slab: Leac daraich a chaidh na chloich
+  cobblestone_slab: Leac cloiche-càsaidh
+  brick_slab: Leac breige
+  stone_brick_slab: Leac bhreigichean-cloiche
+  nether_brick_slab: Leac breige Nether
+  quartz_slab: Leac èiteige
+  red_sandstone_slab: Leac cloiche-gainmhich ruaidh
+  cut_red_sandstone_slab: Gearradh leac cloiche-gainmhich ruaidh
+  purpur_slab: Leac purpur
+  prismarine_slab: Leac priosaim-mhara
+  prismarine_brick_slab: Leac breigean priosaim-mhara
+  dark_prismarine_slab: Leac priosaim-mhara dhuirch
+  smooth_quartz: Bloc èiteag rèidh
+  smooth_red_sandstone: Clach-ghainmhich ruadh rèidh
+  smooth_sandstone: Clach-ghainmhich rèidh
+  smooth_stone: Clach rèidh
+  bricks: Breigichean
+  tnt: TNT
+  bookshelf: Sgeilp leabhraichean
+  mossy_cobblestone: Clach-chàsaidh chòinneachail
+  obsidian: Obsidian
+  torch: Lòchran
+  end_rod: Slat End
+  chorus_plant: Luibh-sèiste
+  chorus_flower: Flùr-sèiste
+  purpur_block: Bloca purpur
+  purpur_pillar: Colbh purpur
+  purpur_stairs: Staidhre purpur
+  spawner: Gineadair
+  oak_stairs: Staidhre daraich
+  chest: Ciste
+  diamond_ore: Clach-daoimein
+  diamond_block: Bloca daoimein
+  crafting_table: Bòrd-ciùird
+  farmland: Fearann-tuathanais
+  furnace: Fùirneis
+  ladder: Faradh
+  rail: Rèile
+  cobblestone_stairs: Staidhre cloiche-càsaidh
+  lever: Luamhan
+  stone_pressure_plate: Pleata-brùthaidh cloiche
+  oak_pressure_plate: Pleata-brùthaidh daraich
+  spruce_pressure_plate: Pleata-brùthaidh giuthais
+  birch_pressure_plate: Pleata-brùthaidh beithe
+  jungle_pressure_plate: Pleata-brùthaidh dlùth-choille
+  acacia_pressure_plate: Pleata-brùthaidh sitta
+  dark_oak_pressure_plate: Pleata-brùthaidh daraich dhuirch
+  crimson_pressure_plate: Crimson Brùthadh Lannan
+  warped_pressure_plate: Warped Brùthadh Lannan
+  polished_blackstone_pressure_plate: Polished Blackstone Brùthadh Lannan
+  redstone_ore: Clach-mhèinneir redstone
+  redstone_torch: Lòchran redstone
+  snow: Sneachd
+  ice: Deigh
+  snow_block: Bloca sneachda
+  cactus: Cactas
+  clay: Criadh
+  jukebox: Inneal-chlàr
+  oak_fence: Feansa darach
+  spruce_fence: Feansa giuthais
+  birch_fence: Feansa beithe
+  jungle_fence: Feansa dlùth-choille
+  acacia_fence: Feansa sitta
+  dark_oak_fence: Feansa daraich dhuirch
+  crimson_fence: Crimson Feansa
+  warped_fence: Warped Feansa
+  pumpkin: Peapag
+  carved_pumpkin: Peapag shnaidhte
+  netherrack: Netherrack
+  soul_sand: Gainneamh anman
+  soul_soil: Ùir Ùir
+  basalt: Basalt
+  polished_basalt: Basalt lìomhte
+  soul_torch: Soul Torch
+  glowstone: Clach-luisnidh
+  jack_o_lantern: Peapag Shamhna
+  oak_trapdoor: Doras-leigeil daraich
+  spruce_trapdoor: Doras-leigeil giuthais
+  birch_trapdoor: Doras-leigeil beithe
+  jungle_trapdoor: Doras-leigeil dlùth-choille
+  acacia_trapdoor: Doras-leigeil sitta
+  dark_oak_trapdoor: Doras-leigeil daraich dhuirch
+  crimson_trapdoor: Crimson Trapdoor
+  warped_trapdoor: Warped Trapdoor
+  infested_stone: Clach fhiolanach
+  infested_cobblestone: Clach-chàsaidh fhiolanach
+  infested_stone_bricks: Breigichean fiolanach cloiche
+  infested_mossy_stone_bricks: Breigichean fiolanach cloiche còinneachail
+  infested_cracked_stone_bricks: Breigichean fiolanach sgagach cloiche
+  infested_chiseled_stone_bricks: Breigichean fiolanach gilbichte cloiche
+  stone_bricks: Breigichean cloiche
+  mossy_stone_bricks: Breigichean cloiche còinneachail
+  cracked_stone_bricks: Breigichean cloiche sgagach
+  chiseled_stone_bricks: Breigichean cloiche gilbichte
+  brown_mushroom_block: Bloca balgain-bhuachair dhuinn
+  red_mushroom_block: Bloca balgain-bhuachair dheirg
+  mushroom_stem: Gas balgain-bhuachair
+  iron_bars: Bàraichean iarainn
+  chain: Màilleach
+  glass_pane: Leòsan glainne
+  melon: Meal-bhuc
+  vine: Meanglan
+  oak_fence_gate: Geata feansa darach
+  spruce_fence_gate: Geata feansa giuthais
+  birch_fence_gate: Geata feansa beithe
+  jungle_fence_gate: Geata feansa dlùth-choille
+  acacia_fence_gate: Geata feansa sitta
+  dark_oak_fence_gate: Geata feansa daraich dhuirch
+  crimson_fence_gate: Crimson Feansa Geata
+  warped_fence_gate: Warped Feansa Geata
+  brick_stairs: Staidhre bhreigichean
+  stone_brick_stairs: Staidhre bhreigichean cloiche
+  mycelium: Mycelium
+  lily_pad: Duilleag-bhàite
+  nether_bricks: Breigichean Nether
+  cracked_nether_bricks: Cracked Nether Bricks
+  chiseled_nether_bricks: Chiseled Nether Bricks
+  nether_brick_fence: Feansa breige Nether
+  nether_brick_stairs: Staidhre breige Nether
+  enchanting_table: Geas-bhòrd
+  end_portal_frame: Frèama dorais End
+  end_stone: Clach End
+  end_stone_bricks: Breigichean cloiche End
+  dragon_egg: Ugh dràgoin
+  redstone_lamp: Lampa redstone
+  sandstone_stairs: Staidhre cloiche-gainmhich
+  emerald_ore: Clach-smàraige
+  ender_chest: Ciste Ender
+  tripwire_hook: Cromag uèir-ribe
+  emerald_block: Bloca smàraige
+  spruce_stairs: Staidhre giuthais
+  birch_stairs: Staidhre beithe
+  jungle_stairs: Staidhre dlùth-choille
+  crimson_stairs: Crimson Staidhre
+  warped_stairs: Warped Staidhre
+  command_block: Bloca-àithne
+  beacon: Teine-rabhaidh
+  cobblestone_wall: Balla cloiche-càsaidh
+  mossy_cobblestone_wall: Balla cloiche-càsaidh còinneachail
+  brick_wall: Balla breige
+  prismarine_wall: Balla priosaim-mhara
+  red_sandstone_wall: Balla cloiche-gainmhich ruaidh
+  mossy_stone_brick_wall: Balla breigichean cloiche còinneachail
+  granite_wall: Balla ghràin
+  stone_brick_wall: Balla bhreigichean-cloiche
+  nether_brick_wall: Balla breige Nether
+  andesite_wall: Balla andasait
+  red_nether_brick_wall: Balla breigichean ruadha Nether
+  sandstone_wall: Balla cloiche-gainmhich
+  end_stone_brick_wall: Balla breigichean cloiche End
+  diorite_wall: Balla dìorait
+  blackstone_wall: Blackstone Bhalla
+  polished_blackstone_wall: Polished Blackstone Bhalla
+  polished_blackstone_brick_wall: Polished Blackstone Brick Wall
+  stone_button: Putan cloiche
+  oak_button: Putan daraich
+  spruce_button: Putan giuthais
+  birch_button: Putan beithe
+  jungle_button: Putan dlùth-choille
+  acacia_button: Putan sitta
+  dark_oak_button: Putan daraich dhuirch
+  crimson_button: Crimson Button
+  warped_button: Warped Button
+  polished_blackstone_button: Polished Blackstone Button
+  anvil: Innean
+  chipped_anvil: Innean sgealbte
+  damaged_anvil: Innean millte
+  trapped_chest: Ciste le ribe
+  light_weighted_pressure_plate: Pleata-brùthaidh le cuideam aotrom
+  heavy_weighted_pressure_plate: Pleata-brùthaidh le cuideam trom
+  daylight_detector: Lorgaire solais
+  redstone_block: Bloca redstone
+  nether_quartz_ore: Clach-èiteige Nether
+  hopper: Drabhailt
+  chiseled_quartz_block: Bloca èiteige gilbichte
+  quartz_block: Bloca èiteige
+  quartz_bricks: Quartz Bricks
+  quartz_pillar: Colbh èiteige
+  quartz_stairs: Staidhre èiteige
+  activator_rail: Rèile-gnìomhachaidh
+  dropper: Bloca leigeil às
+  white_terracotta: Terracotta geal
+  orange_terracotta: Terracotta orains
+  magenta_terracotta: Terracotta magenta
+  light_blue_terracotta: Terracotta soilleir-ghorm
+  yellow_terracotta: Terracotta buidhe
+  lime_terracotta: Terracotta dath na liomaid
+  pink_terracotta: Terracotta pinc
+  gray_terracotta: Terracotta liath
+  light_gray_terracotta: Terracotta ban-liath
+  cyan_terracotta: Terracotta saidhean
+  purple_terracotta: Terracotta purpaidh
+  blue_terracotta: Terracotta gorm
+  brown_terracotta: Terracotta donn
+  green_terracotta: Terracotta uaine
+  red_terracotta: Terracotta dearg
+  black_terracotta: Terracotta dubh
+  barrier: Bacadh
+  iron_trapdoor: Doras-leigeil iarainn
+  hay_block: Rola-feòir
+  white_carpet: Brat-ùrlair geal
+  orange_carpet: Brat-ùrlair orains
+  magenta_carpet: Brat-ùrlair magenta
+  light_blue_carpet: Brat-ùrlair soilleir-ghorm
+  yellow_carpet: Brat-ùrlair buidhe
+  lime_carpet: Brat-ùrlair dath na liomaid
+  pink_carpet: Brat-ùrlair pinc
+  gray_carpet: Brat-ùrlair liath
+  light_gray_carpet: Brat-ùrlair soilleir-liath
+  cyan_carpet: Brat-ùrlair saidhean
+  purple_carpet: Brat-ùrlair purpaidh
+  blue_carpet: Brat-ùrlair gorm
+  brown_carpet: Brat-ùrlair donn
+  green_carpet: Brat-ùrlair uaine
+  red_carpet: Brat-ùrlair dearg
+  black_carpet: Brat-ùrlair dubh
+  terracotta: Terracotta
+  coal_block: Bloca guail
+  packed_ice: Deigh theann
+  acacia_stairs: Staidhre sitta
+  dark_oak_stairs: Staidhre daraich dhuirch
+  slime_block: Bloca eabair
+  grass_path: Staran feòir
+  sunflower: Neòinean-grèine
+  lilac: Liath-ghorm
+  rose_bush: Preas nan ròs
+  peony: Meacan-easa
+  tall_grass: Feur Fada
+  large_fern: Raineach mhòr
+  white_stained_glass: Glainne dhathte gheal
+  orange_stained_glass: Glainne dhathte orains
+  magenta_stained_glass: Glainne dhathte mhagenta
+  light_blue_stained_glass: Glainne dhathte shoilleir-ghorm
+  yellow_stained_glass: Glainne dhathte bhuidhe
+  lime_stained_glass: Glainne dhathte dath na liomaide
+  pink_stained_glass: Glainne dhathte phinc
+  gray_stained_glass: Glainne dhathte liath
+  light_gray_stained_glass: Glainne dhathte shoilleir-liath
+  cyan_stained_glass: Glainne dhathte shaidhean
+  purple_stained_glass: Glainne dhathte phurpaidh
+  blue_stained_glass: Glainne dhathte ghorm
+  brown_stained_glass: Glainne dhathte dhonn
+  green_stained_glass: Glainne dhathte uaine
+  red_stained_glass: Glainne dhathte dhearg
+  black_stained_glass: Glainne dhathte dhubh
+  white_stained_glass_pane: Leòsan glainne geal
+  orange_stained_glass_pane: Leòsan glainne orains
+  magenta_stained_glass_pane: Leòsan glainne magenta
+  light_blue_stained_glass_pane: Leòsan glainne soilleir-ghorm
+  yellow_stained_glass_pane: Leòsan glainne buidhe
+  lime_stained_glass_pane: Leòsan glainne dath na liomaid
+  pink_stained_glass_pane: Leòsan glainne pinc
+  gray_stained_glass_pane: Leòsan glainne liath
+  light_gray_stained_glass_pane: Leòsan glainne soilleir-liath
+  cyan_stained_glass_pane: Leòsan glainne saidhean
+  purple_stained_glass_pane: Leòsan glainne purpaidh
+  blue_stained_glass_pane: Leòsan glainne gorm
+  brown_stained_glass_pane: Leòsan glainne donn
+  green_stained_glass_pane: Leòsan glainne uaine
+  red_stained_glass_pane: Leòsan glainne dearg
+  black_stained_glass_pane: Leòsan glainne dubh
+  prismarine: Priosam-mara
+  prismarine_bricks: Breigean priosaim-mhara
+  dark_prismarine: Priosam-mara dorcha
+  prismarine_stairs: Staidhre priosaim-mhara
+  prismarine_brick_stairs: Staidhre breigean priosaim-mhara
+  dark_prismarine_stairs: Staidhre priosaim-mhara dhuirch
+  sea_lantern: Lòchran-mara
+  red_sandstone: Clach-ghainmhich ruadh
+  chiseled_red_sandstone: Clach-ghainmhich ruadh ghilbichte
+  cut_red_sandstone: Geàrr clach-ghainmhich ruadh
+  red_sandstone_stairs: Staidhre cloiche-gainmhich ruaidh
+  repeating_command_block: Bloca-àithne ath-dhèanaimh
+  chain_command_block: Bloca sreath-àithne
+  magma_block: Bloca magma
+  nether_wart_block: Bloca lusa Nether
+  warped_wart_block: Warped Wart Block
+  red_nether_bricks: Breigichean ruadha Nether
+  bone_block: Bloca cnàmha
+  structure_void: Fànas structair
+  observer: Amharc
+  shulker_box: Bogsa shulker
+  white_shulker_box: Bogsa shulker geal
+  orange_shulker_box: Bogsa shulker orains
+  magenta_shulker_box: Bogsa shulker magenta
+  light_blue_shulker_box: Bogsa shulker soilleir-ghorm
+  yellow_shulker_box: Bogsa shulker buidhe
+  lime_shulker_box: Bogsa shulker dath na liomaid
+  pink_shulker_box: Bogsa shulker pinc
+  gray_shulker_box: Bogsa shulker liath
+  light_gray_shulker_box: Bogsa shulker soilleir-liath
+  cyan_shulker_box: Bogsa shulker saidhean
+  purple_shulker_box: Bogsa shulker purpaidh
+  blue_shulker_box: Bogsa shulker gorm
+  brown_shulker_box: Bogsa shulker donn
+  green_shulker_box: Bogsa shulker uaine
+  red_shulker_box: Bogsa shulker dearg
+  black_shulker_box: Bogsa shulker dubh
+  white_glazed_terracotta: Terracotta gloinichte geal
+  orange_glazed_terracotta: Terracotta gloinichte orains
+  magenta_glazed_terracotta: Terracotta gloinichte magenta
+  light_blue_glazed_terracotta: Terracotta gloinichte soilleir-ghorm
+  yellow_glazed_terracotta: Terracotta gloinichte buidhe
+  lime_glazed_terracotta: Terracotta gloinichte dath na liomaide
+  pink_glazed_terracotta: Terracotta gloinichte pinc
+  gray_glazed_terracotta: Terracotta gloinichte liath
+  light_gray_glazed_terracotta: Terracotta gloinichte soilleir-liath
+  cyan_glazed_terracotta: Terracotta gloinichte saidhean
+  purple_glazed_terracotta: Terracotta gloinichte purpaidh
+  blue_glazed_terracotta: Terracotta gloinichte gorm
+  brown_glazed_terracotta: Terracotta gloinichte donn
+  green_glazed_terracotta: Terracotta gloinichte uaine
+  red_glazed_terracotta: Terracotta gloinichte dearg
+  black_glazed_terracotta: Terracotta gloinichte dubh
+  white_concrete: Concrait gheal
+  orange_concrete: Concrait orains
+  magenta_concrete: Concrait mhagenta
+  light_blue_concrete: Concrait shoilleir-ghorm
+  yellow_concrete: Concrait bhuidhe
+  lime_concrete: Concrait dath na liomaid
+  pink_concrete: Concrait phinc
+  gray_concrete: Concrait liath
+  light_gray_concrete: Concrait shoilleir-liath
+  cyan_concrete: Concrait shaidhean
+  purple_concrete: Concrait phurpaidh
+  blue_concrete: Concrait ghorm
+  brown_concrete: Concrait dhonn
+  green_concrete: Concrait uaine
+  red_concrete: Concrait dhearg
+  black_concrete: Concrait dhubh
+  white_concrete_powder: Mìn-choncrait gheal
+  orange_concrete_powder: Mìn-choncrait orains
+  magenta_concrete_powder: Mìn-choncrait mhagenta
+  light_blue_concrete_powder: Mìn-choncrait shoilleir-ghorm
+  yellow_concrete_powder: Mìn-choncrait bhuidhe
+  lime_concrete_powder: Mìn-choncrait dath na liomaide
+  pink_concrete_powder: Mìn-choncrait phinc
+  gray_concrete_powder: Mìn-choncrait liath
+  light_gray_concrete_powder: Mìn-choncrait shoilleir-liath
+  cyan_concrete_powder: Mìn-choncrait shaidhean
+  purple_concrete_powder: Mìn-choncrait phurpaidh
+  blue_concrete_powder: Mìn-choncrait ghorm
+  brown_concrete_powder: Mìn-choncrait dhonn
+  green_concrete_powder: Mìn-choncrait uaine
+  red_concrete_powder: Mìn-choncrait dhearg
+  black_concrete_powder: Mìn-choncrait dhubh
+  turtle_egg: Ugh turtair
+  dead_tube_coral_block: Bloca coireil-phìoba mhairbh
+  dead_brain_coral_block: Bloca coireil-eanchainne mhairbh
+  dead_bubble_coral_block: Bloca coireil-bhuilgein mhairbh
+  dead_fire_coral_block: Bloca coireil-teine mhairbh
+  dead_horn_coral_block: Bloca coireil-adhairc mhairbh
+  tube_coral_block: Bloca coireil-phìoba
+  brain_coral_block: Bloca coireil-eanchainne
+  bubble_coral_block: Bloca coireil-bhuilgein
+  fire_coral_block: Bloca coireil-teine
+  horn_coral_block: Bloca coireil-adhairc
+  tube_coral: Coireal-pìoba
+  brain_coral: Coireal-eanchainne
+  bubble_coral: Coireal-builgein
+  fire_coral: Coireal-teine
+  horn_coral: Coireal-adhairc
+  dead_brain_coral: Coireal-eanchainne marbh
+  dead_bubble_coral: Coireal-builgein marbh
+  dead_fire_coral: Coireal-teine marbh
+  dead_horn_coral: Coireal-adhairc marbh
+  dead_tube_coral: Coireal-pìoba marbh
+  tube_coral_fan: Sgàileag coireil-phìoba
+  brain_coral_fan: Sgàileag coireil-eanchainne
+  bubble_coral_fan: Sgàileag coireil-bhuilgein
+  fire_coral_fan: Sgàileag coireil-teine
+  horn_coral_fan: Sgàileag coireil-adhairc
+  dead_tube_coral_fan: Sgàileag coireil-phìoba mhairbh
+  dead_brain_coral_fan: Sgàileag coireil-eanchainne mhairbh
+  dead_bubble_coral_fan: Sgàileag coireil-bhuilgein mhairbh
+  dead_fire_coral_fan: Sgàileag coireil-teine mhairbh
+  dead_horn_coral_fan: Sgàileag coireil-adhairc mhairbh
+  blue_ice: Deigh ghorm
+  conduit: Seòl-phìob
+  polished_granite_stairs: Staidhre gaireal lìomhte
+  smooth_red_sandstone_stairs: Staidhre clach-ghainmhich ruadh rèidh
+  mossy_stone_brick_stairs: Staidhre breigichean cloiche còinneachail
+  polished_diorite_stairs: Staidhre dìorait lìomhte
+  mossy_cobblestone_stairs: Staidhre clach-chàsaidh chòinneachail
+  end_stone_brick_stairs: Staidhre breigichean cloiche End
+  stone_stairs: Staidhre chlach
+  smooth_sandstone_stairs: Staidhre clach-ghainmhich rèidh
+  smooth_quartz_stairs: Staidhre èiteag rèidh
+  granite_stairs: Staidhre gaireal
+  andesite_stairs: Staidhre andasait
+  red_nether_brick_stairs: Staidhre breigichean ruadha Nether
+  polished_andesite_stairs: Staidhre andasait lìomhte
+  diorite_stairs: Staidhre dìorait
+  polished_granite_slab: Leac gaireal lìomhte
+  smooth_red_sandstone_slab: Leac clach-ghainmhich ruadh rèidh
+  mossy_stone_brick_slab: Leac breigichean cloiche còinneachail
+  polished_diorite_slab: Leac dìorait lìomhte
+  mossy_cobblestone_slab: Leac clach-chàsaidh chòinneachail
+  end_stone_brick_slab: Leac breigichean cloiche End
+  smooth_sandstone_slab: Leac clach-ghainmhich rèidh
+  smooth_quartz_slab: Leac èiteag rèidh
+  granite_slab: Leac gaireal
+  andesite_slab: Leac andasait
+  red_nether_brick_slab: Leac breigichean ruadha Nether
+  polished_andesite_slab: Leac andasait lìomhte
+  diorite_slab: Leac dìorait
+  scaffolding: Sgafallachd
+  iron_door: Doras iarainn
+  oak_door: Doras darach
+  spruce_door: Doras giuthais
+  birch_door: Doras beithe
+  jungle_door: Doras dlùth-choille
+  acacia_door: Doras sitta
+  dark_oak_door: Doras daraich dhuirch
+  crimson_door: Crimson Doras
+  warped_door: Warped Doras
+  repeater: Ath-chraoladair redstone
+  comparator: Inneal-coimeis redstone
+  structure_block: Bloca structair
+  jigsaw: Bloc jigsaw
+  turtle_helmet: Cochall turtair
+  scute: Pleit bhiorach
+  flint_and_steel: Clach-theine is stàilinn
+  apple: Ubhal
+  bow: Bogha
+  arrow: Saighead
+  coal: Gual
+  charcoal: Gual-fhiodha
+  diamond: Daoimean
+  iron_ingot: Unga iarainn
+  gold_ingot: Unga òir
+  netherite_ingot: Netherite Ingot
+  netherite_scrap: Netherite Seann
+  wooden_sword: Claidheamh fiodha
+  wooden_shovel: Sluasaid fiodha
+  wooden_pickaxe: Piocaid fiodha
+  wooden_axe: Tuagh fiodha
+  wooden_hoe: Tobha fiodha
+  stone_sword: Claidheamh cloiche
+  stone_shovel: Sluasaid cloiche
+  stone_pickaxe: Piocaid cloiche
+  stone_axe: Tuagh cloiche
+  stone_hoe: Tobha cloiche
+  golden_sword: Claidheamh òir
+  golden_shovel: Sluasaid òir
+  golden_pickaxe: Piocaid òir
+  golden_axe: Tuagh òir
+  golden_hoe: Tobha òir
+  iron_sword: Claidheamh iarainn
+  iron_shovel: Sluasaid iarainn
+  iron_pickaxe: Piocaid iarainn
+  iron_axe: Tuagh iarainn
+  iron_hoe: Tobha iarainn
+  diamond_sword: Claidheamh daoimein
+  diamond_shovel: Sluasaid daoimein
+  diamond_pickaxe: Piocaid daoimein
+  diamond_axe: Tuagh daoimein
+  diamond_hoe: Tobha daoimein
+  netherite_sword: Netherite Sword
+  netherite_shovel: Netherite Sluasaid
+  netherite_pickaxe: Netherite Pickaxe
+  netherite_axe: Netherite Tuagh
+  netherite_hoe: Netherite Hoe
+  stick: Bata
+  bowl: Bobhla
+  mushroom_stew: Stiubha balgain-bhuachair
+  string: Sreang
+  feather: Ite
+  gunpowder: Fùdar-gunna
+  wheat_seeds: Sìl cruithneachd
+  wheat: Cruithneachd
+  bread: Aran
+  leather_helmet: Bonaid leathair
+  leather_chestplate: Lèine leathair
+  leather_leggings: Briogais leathair
+  leather_boots: Bòtannan leathair
+  chainmail_helmet: Clogaid mhàilleach
+  chainmail_chestplate: Lùireach mhàilleach
+  chainmail_leggings: Briogais mhàilleach
+  chainmail_boots: Bòtannan màilleach
+  iron_helmet: Clogaid iarainn
+  iron_chestplate: Lùireach iarainn
+  iron_leggings: Briogais iarainn
+  iron_boots: Bòtannan iarainn
+  diamond_helmet: Clogaid daoimein
+  diamond_chestplate: Lùireach daoimein
+  diamond_leggings: Briogais daoimein
+  diamond_boots: Bòtannan daoimein
+  golden_helmet: Clogaid òir
+  golden_chestplate: Lùireach òir
+  golden_leggings: Briogais òir
+  golden_boots: Bòtannan òir
+  netherite_helmet: Netherite Culaidh
+  netherite_chestplate: Netherite Chestplate
+  netherite_leggings: Netherite Leggings
+  netherite_boots: Netherite Boots
+  flint: Clach-theine
+  porkchop: Muicfheoil amh
+  cooked_porkchop: Muicfheoil ròiste
+  painting: Dealbh
+  golden_apple: Ubhal òir
+  enchanted_golden_apple: Ubhal òir fo gheas
+  oak_sign: Soidhne darach
+  spruce_sign: Soidhne giuthais
+  birch_sign: Soidhne beithe
+  jungle_sign: Soidhne dlùth-choille
+  acacia_sign: Soidhne sitta
+  dark_oak_sign: Soidhne daraich dhuirch
+  crimson_sign: Crimson-Sanais
+  warped_sign: Warped-Sanais
+  bucket: Peilear
+  water_bucket: Peilear uisge
+  lava_bucket: Peilear làbha
+  minecart: Cairt-mhèinnearachd
+  saddle: Dìollaid
+  redstone: Duslach redstone
+  snowball: Ball-sneachda
+  oak_boat: Bàta daraich
+  leather: Leathar
+  milk_bucket: Bucaid bainne
+  pufferfish_bucket: Bucaid iasg-sèididh
+  salmon_bucket: Bucaid bradain
+  cod_bucket: Bucaid truisg
+  tropical_fish_bucket: Bucaid èisg thropaigich
+  brick: Breige
+  clay_ball: Clay Ball
+  dried_kelp_block: Bloca ceilpe thiormaichte
+  paper: Pàipear
+  book: Leabhar
+  slime_ball: Bàla eabair
+  chest_minecart: Cairt-mhèinnearachd le ciste
+  furnace_minecart: Cairt-mhèinnearachd le fùirneis
+  egg: Ugh
+  compass: Combaist
+  fishing_rod: Slat-iasgaich
+  clock: Uaireadair
+  glowstone_dust: Duslach cloich-luisnidh
+  cod: Trosg amh
+  salmon: Bradan amh
+  tropical_fish: Iasg tropaigeach
+  pufferfish: Iasg-sèididh
+  cooked_cod: Trosg ròiste
+  cooked_salmon: Bradan ròiste
+  ink_sac: Poca-ince
+  cocoa_beans: Cnòthan-còco
+  lapis_lazuli: Clach-chopair
+  white_dye: Liath geal
+  orange_dye: Dath orains
+  magenta_dye: Dath magenta
+  light_blue_dye: Dath soilleir-ghorm
+  yellow_dye: Liath bhuidhe
+  lime_dye: Dath na liomaid
+  pink_dye: Dath pinc
+  gray_dye: Dath liath
+  light_gray_dye: Dath soilleir-liath
+  cyan_dye: Dath saidhean
+  purple_dye: Dath purpaidh
+  blue_dye: Liath ghorm
+  brown_dye: Liath donn
+  green_dye: Liath uaine
+  red_dye: Liath dhearg
+  black_dye: Liath dubh
+  bone_meal: Min-chnàmha
+  bone: Cnàimh
+  sugar: Siùcar
+  cake: Cèic
+  white_bed: Leabaidh gheal
+  orange_bed: Leabaidh orains
+  magenta_bed: Leabaidh magenta
+  light_blue_bed: Leabaidh shoilleir-ghorm
+  yellow_bed: Leabaidh bhuidhe
+  lime_bed: Leabaidh dath na liomaid
+  pink_bed: Leabaidh phinc
+  gray_bed: Leabaidh liath
+  light_gray_bed: Leabaidh shoilleir-liath
+  cyan_bed: Leabaidh shaidhean
+  purple_bed: Leabaidh phurpaidh
+  blue_bed: Leabaidh ghorm
+  brown_bed: Leabaidh dhonn
+  green_bed: Leabaidh uaine
+  red_bed: Leabaidh dhearg
+  black_bed: Leabaidh dhubh
+  cookie: Briosgaid
+  filled_map: Mapa
+  shears: Deamhas
+  melon_slice: Sliseag meal-bhuic
+  dried_kelp: Ceilp thioramaichte
+  pumpkin_seeds: Sìl peapaige
+  melon_seeds: Sìl meal-bhuic
+  beef: Mairtfheoil amh
+  cooked_beef: Mairtfheoil ròiste
+  chicken: Cearc amh
+  cooked_chicken: Cearc ròiste
+  rotten_flesh: Feòil lobhta
+  ender_pearl: Neamhnaid Ender
+  blaze_rod: Slat leòis
+  ghast_tear: Deur ghast
+  gold_nugget: Cnapan òir
+  nether_wart: Lus Nether
+  potion: Deoch
+  glass_bottle: Searrag
+  spider_eye: Sùil damhain-allaidh
+  fermented_spider_eye: Sùil damhain-allaidh bracha
+  blaze_powder: Fùdar leòis
+  magma_cream: Cè magma
+  brewing_stand: Inneal-grùdaireachd
+  cauldron: Coire
+  ender_eye: Sùil Ender
+  glistering_melon_slice: Sliseag meal-bhuic ghleansaich
+  bat_spawn_egg: Ugh gintinn ialtaig
+  bee_spawn_egg: Ugh gintinn seillean
+  blaze_spawn_egg: Ugh gintinn leòis
+  cat_spawn_egg: Ugh gintinn cat
+  cave_spider_spawn_egg: Ugh gintinn damhan-allaidh uamha
+  chicken_spawn_egg: Ugh gintinn circe
+  cod_spawn_egg: Ugh gintinn truisg
+  cow_spawn_egg: Ugh gintinn bò
+  creeper_spawn_egg: Ugh gintinn Creeper
+  dolphin_spawn_egg: Ugh gintinn leumadair
+  donkey_spawn_egg: Ugh ginntinn asail
+  drowned_spawn_egg: Ugh ginntinn bàithtich
+  elder_guardian_spawn_egg: Ugh gintinn seann-fhreiceadain
+  enderman_spawn_egg: Ugh gintinn eandarmain
+  endermite_spawn_egg: Ugh gintinn eandarmaite
+  evoker_spawn_egg: Ugh gintinn tairmeir
+  fox_spawn_egg: Ugh gintinn sionnach
+  ghast_spawn_egg: Ugh gintinn eugaich
+  guardian_spawn_egg: Ugh gintinn freiceadain
+  hoglin_spawn_egg: Hoglin Spawn Ugh
+  horse_spawn_egg: Ugh gintinn eich
+  husk_spawn_egg: Ugh gintinn mogail
+  llama_spawn_egg: Ugh gintinn llama
+  magma_cube_spawn_egg: Ugh gintinn ciùba-mhagma
+  mooshroom_spawn_egg: Ugh gintinn balgain-bhuachaille
+  mule_spawn_egg: Ugh gintinn leth-asail
+  ocelot_spawn_egg: Ugh gintinn cait fhiadhaich
+  panda_spawn_egg: Ugh gintinn panda
+  parrot_spawn_egg: Ugh gintinn pearraid
+  phantom_spawn_egg: Ugh gintinn tannaisg
+  pig_spawn_egg: Ugh gintinn muice
+  piglin_spawn_egg: Hoglin Spawn Ugh
+  piglin_brute_spawn_egg: Ugh sìolachaidh Piglin Brute
+  pillager_spawn_egg: Ugh gintinn colbhan
+  polar_bear_spawn_egg: Ugh gintinn mathain-bhàin
+  pufferfish_spawn_egg: Ugh gintinn èisg-shèididh
+  rabbit_spawn_egg: Ugh gintinn coineanaich
+  ravager_spawn_egg: Ugh gintinn creachadair
+  salmon_spawn_egg: Ugh gintinn bradain
+  sheep_spawn_egg: Ugh gintinn caorach
+  shulker_spawn_egg: Ugh gintinn siulcair
+  silverfish_spawn_egg: Ugh gintinn fiolain-ghlais
+  skeleton_spawn_egg: Ugh gintinn cnàimhnich
+  skeleton_horse_spawn_egg: Ugh gintinn eich-chnàimhnich
+  slime_spawn_egg: Ugh gintinn eabair
+  spider_spawn_egg: Ugh gintinn damhain-allaidh
+  squid_spawn_egg: Ugh gintinn gibearnaich
+  stray_spawn_egg: Ugh gintinn seachranaich
+  strider_spawn_egg: Strider Spawn Ugh
+  trader_llama_spawn_egg: Ugh gintinn malairt lama
+  tropical_fish_spawn_egg: Ugh gintinn èisg thropaigich
+  turtle_spawn_egg: Ugh gintinn turtair
+  vex_spawn_egg: Ugh gintinn buaireadair
+  villager_spawn_egg: Ugh gintinn saoranaich
+  vindicator_spawn_egg: Ugh gintinn tagaire
+  wandering_trader_spawn_egg: Ugh gintinn malairtiche crith
+  witch_spawn_egg: Ugh gintinn bana-bhuidseach
+  wither_skeleton_spawn_egg: Ugh gintinn wither-cnàimhnich
+  wolf_spawn_egg: Ugh gintinn madaidh-allaidh
+  zoglin_spawn_egg: Zoglin Spawn Ugh
+  zombie_spawn_egg: Ugh gintinn cuirp-choisiche
+  zombie_horse_spawn_egg: Ugh gintinn cuirp-eich
+  zombie_villager_spawn_egg: Ugh gintinn corp-coisiche saoranaich
+  zombified_piglin_spawn_egg: Zoglin Spawn Ugh
+  experience_bottle: Searrag geasa
+  fire_charge: Bun teine
+  writable_book: Leabhar is cleit
+  written_book: Leabhar sgrìobhte
+  emerald: Smàrag
+  item_frame: Frèam
+  flower_pot: Poit-phlanntrais
+  carrot: Curran
+  potato: Buntàta
+  baked_potato: Buntàta àmhainne
+  poisonous_potato: Buntàta puinnseanach
+  map: Mapa falamh
+  golden_carrot: Curran òir
+  skeleton_skull: Claigeann cnàimhnich
+  wither_skeleton_skull: Claigeann wither-cnàimhnich
+  player_head: Ceann cluicheadair
+  zombie_head: Ceann cuirp-choisiche
+  creeper_head: Ceann creeper
+  dragon_head: Ceann dràgoin
+  carrot_on_a_stick: Bata le curran
+  warped_fungus_on_a_stick: Warped Bharrachd air Maide
+  nether_star: Rionnag Nether
+  pumpkin_pie: Pàidh peapaige
+  firework_rocket: Rocaid cleasa-theine
+  firework_star: Rionnag cleasa-theine
+  enchanted_book: Leabhar fo gheas
+  nether_brick: Breige Nether
+  quartz: Èiteag Nether
+  tnt_minecart: Cairt-mhèinnearachd le TNT
+  hopper_minecart: Cairt-mhèinnearachd le drabhailt
+  prismarine_shard: Sgealb priosaim-mhara
+  prismarine_crystals: Criostalan priosaim-mhara
+  rabbit: Feòil-choineanaich amh
+  cooked_rabbit: Feòil-choineanaich ròiste
+  rabbit_stew: Stiubha coineanaich
+  rabbit_foot: Cas coineanaich
+  rabbit_hide: Bian coineanaich
+  armor_stand: Stannd armachd
+  iron_horse_armor: Armachd eich iarainn
+  golden_horse_armor: Armachd eich òir
+  diamond_horse_armor: Armachd eich daoimein
+  leather_horse_armor: Armachd eich leathar
+  lead: Taod
+  name_tag: Taga ainm
+  command_block_minecart: Cairt-mhèinnearachd le bloca-àithne
+  mutton: Feòil-chaorach amh
+  cooked_mutton: Feòil-chaorach ròiste
+  white_banner: Bratach gheal
+  orange_banner: Bratach orains
+  magenta_banner: Bratach mhagenta
+  light_blue_banner: Bratach shoilleir-ghorm
+  yellow_banner: Bratach bhuidhe
+  lime_banner: Bratach dath na liomaid
+  pink_banner: Bratach phinc
+  gray_banner: Bratach liath
+  light_gray_banner: Bratach shoilleir-liath
+  cyan_banner: Bratach shaidhean
+  purple_banner: Bratach phurpaidh
+  blue_banner: Bratach ghorm
+  brown_banner: Bratach dhonn
+  green_banner: Bratach uaine
+  red_banner: Bratach dhearg
+  black_banner: Bratach dhubh
+  end_crystal: Criostal End
+  chorus_fruit: Meas-sèiste
+  popped_chorus_fruit: Meas-sèiste briste
+  beetroot: Biatas
+  beetroot_seeds: Sìl biatais
+  beetroot_soup: Brot biatais
+  dragon_breath: Anail dràgoin
+  splash_potion: Deoch-thilgidh
+  spectral_arrow: Saighead luisnidh
+  tipped_arrow: Saighead le barr
+  lingering_potion: Deoch-fhuireachd
+  shield: Sgiath
+  elytra: Sgiathanan
+  spruce_boat: Bàta giuthais
+  birch_boat: Bàta beithe
+  jungle_boat: Bàta dlùth-choille
+  acacia_boat: Bàta sitta
+  dark_oak_boat: Bàta daraich dhuirch
+  totem_of_undying: Tòtam dìona o bhàs
+  shulker_shell: Slige shulker
+  iron_nugget: Cnapan iarainn
+  knowledge_book: Leabhar-eòlais
+  debug_stick: Slat dì-bhugachaidh
+  music_disc_13: Clàr ciùil
+  music_disc_cat: Clàr ciùil
+  music_disc_blocks: Clàr ciùil
+  music_disc_chirp: Clàr ciùil
+  music_disc_far: Clàr ciùil
+  music_disc_mall: Clàr ciùil
+  music_disc_mellohi: Clàr ciùil
+  music_disc_stal: Clàr ciùil
+  music_disc_strad: Clàr ciùil
+  music_disc_ward: Clàr ciùil
+  music_disc_11: Clàr ciùil
+  music_disc_wait: Clàr ciùil
+  music_disc_pigstep: Clàr ciùil
+  trident: Muirgheadh
+  phantom_membrane: Meamran tannaisg
+  nautilus_shell: Slige faochaige
+  heart_of_the_sea: Cridhe na mara
+  crossbow: Bogha-frois
+  suspicious_stew: Stìob amharasach
+  loom: Bheairt
+  flower_banner_pattern: Pàtran bratach
+  creeper_banner_pattern: Pàtran bratach
+  skull_banner_pattern: Pàtran bratach
+  mojang_banner_pattern: Pàtran bratach
+  globe_banner_pattern: Pàtran bratach
+  piglin_banner_pattern: Pàtran bratach
+  composter: Composter
+  barrel: Baraille
+  smoker: Smocair
+  blast_furnace: Fùirneis sèididh
+  cartography_table: Clàr cartografaidh
+  fletching_table: Clàr fletching
+  grindstone: Clach-ghràin
+  lectern: Lectern
+  smithing_table: Bòrd gobha
+  stonecutter: Clach-chlach
+  bell: Clag
+  lantern: Lanntair
+  soul_lantern: Seoul Lantern
+  sweet_berries: Caora milis
+  campfire: Campfire
+  soul_campfire: Soul Cearc
+  shroomlight: Shroom light
+  honeycomb: Lus meala
+  bee_nest: Nead sheillean
+  beehive: Seillean-mòr
+  honey_bottle: Botail meala
+  honey_block: Bloc meala
+  honeycomb_block: Bloc còn meala
+  lodestone: Lodestone
+  netherite_block: Bloc Netherite
+  ancient_debris: Seann Sprùilleach
+  target: Targaid
+  crying_obsidian: Crying Obsidian
+  blackstone: Blackcloiche
+  blackstone_slab: Blackcloiche Labs
+  blackstone_stairs: Blackstone Staidhre
+  gilded_blackstone: Gilded Blackstone
+  polished_blackstone: Polished Blackstone
+  polished_blackstone_slab: Polished Blackstone Leac
+  polished_blackstone_stairs: Polished Blackstone Staidhre
+  chiseled_polished_blackstone: Chiseled Polished Blackstone
+  polished_blackstone_bricks: Polished Blackstone Bricks
+  polished_blackstone_brick_slab: Polished Blackstone Brick Leac
+  polished_blackstone_brick_stairs: Polished Blackstone Brick Staidhre
+  cracked_polished_blackstone_bricks: Cracked Polished Blackstone Bricks
+  respawn_anchor: Acair ath-shuidheachadh
+  water: Uisge
+  lava: Làbha
+  tall_seagrass: Bilearach-mara fada
+  piston_head: Ceann loinide
+  moving_piston: Loinid ghluasadach
+  wall_torch: Lòchran-balla
+  fire: Teine
+  soul_fire: Soul Teine
+  redstone_wire: Uèir redstone
+  oak_wall_sign: Soidhne balla darach
+  spruce_wall_sign: Soidhne balla guithais
+  birch_wall_sign: Soidhne balla baithe
+  acacia_wall_sign: Soidhne balla sitta
+  jungle_wall_sign: Soidhne balla dlùth-choille
+  dark_oak_wall_sign: Soidhne balla daraich dhuirch
+  redstone_wall_torch: Lòchran-balla redstone
+  soul_wall_torch: Soul Balla Torch
+  nether_portal: Doras Nether
+  attached_pumpkin_stem: Lus ceangailte peapaige
+  attached_melon_stem: Lus ceangailte meal-bhuic
+  pumpkin_stem: Lus peapaige
+  melon_stem: Lus meal-bhuic
+  end_portal: Doras End
+  cocoa: Còco
+  tripwire: Uèir-ribe
+  potted_oak_sapling: Fiùran daraich ann am poit
+  potted_spruce_sapling: Fiùran giuthais ann am poit
+  potted_birch_sapling: Fiùran beithe ann am poit
+  potted_jungle_sapling: Fiùran dlùth-choille ann am poit
+  potted_acacia_sapling: Fiùran sitta ann am poit
+  potted_dark_oak_sapling: Fiùran daraich dhuirch ann am poit
+  potted_fern: Raineach ann am poit
+  potted_dandelion: Beàrnan-Brìde ann am poit
+  potted_poppy: Crom-lus ann am poit
+  potted_blue_orchid: Magairle ghorm ann am poit
+  potted_allium: Uinnean Pearsach ann am poit
+  potted_azure_bluet: Gorm-lus ann am poit
+  potted_red_tulip: Tiuilip dhearg ann am poit
+  potted_orange_tulip: Tiuilip orainns ann am poit
+  potted_white_tulip: Tiuilip bhàn ann am poit
+  potted_pink_tulip: Tiuilip phinc ann am poit
+  potted_oxeye_daisy: Neòinean-mòr ann am poit
+  potted_cornflower: Flùr arbhair ann am poit
+  potted_lily_of_the_valley: Lili a ’ghlinne ann am poit
+  potted_wither_rose: Ròs Wither ann am poit
+  potted_red_mushroom: Balgan-buachair dearg ann am poit
+  potted_brown_mushroom: Balgan-buachair donn ann am poit
+  potted_dead_bush: Preas marbh ann am poit
+  potted_cactus: Cactas ann am poit
+  carrots: Currain
+  potatoes: Buntàta
+  skeleton_wall_skull: Claigeann-balla cnàimhnich
+  wither_skeleton_wall_skull: Claigeann-balla wither-cnàimhnich
+  zombie_wall_head: Claigeann-balla cuirp-choisiche
+  player_wall_head: Claigeann-balla cluicheadair
+  creeper_wall_head: Claigeann-balla Creeper
+  dragon_wall_head: Claigeann-balla dràgoin
+  white_wall_banner: Bratach gheal
+  orange_wall_banner: Bratach orains
+  magenta_wall_banner: Bratach mhagenta
+  light_blue_wall_banner: Bratach shoilleir-ghorm
+  yellow_wall_banner: Bratach bhuidhe
+  lime_wall_banner: Bratach dath na liomaid
+  pink_wall_banner: Bratach phinc
+  gray_wall_banner: Bratach liath
+  light_gray_wall_banner: Bratach shoilleir-liath
+  cyan_wall_banner: Bratach shaidhean
+  purple_wall_banner: Bratach phurpaidh
+  blue_wall_banner: Bratach ghorm
+  brown_wall_banner: Bratach dhonn
+  green_wall_banner: Bratach uaine
+  red_wall_banner: Bratach dhearg
+  black_wall_banner: Bratach dhubh
+  beetroots: Biatais
+  end_gateway: Ceann bealaich
+  frosted_ice: Deigh reòite
+  kelp_plant: Luibh na ceilpe
+  dead_tube_coral_wall_fan: Sgàileag-balla coireil-phìoba mhairbh
+  dead_brain_coral_wall_fan: Sgàileag-balla coireil-eanchainne mhairbh
+  dead_bubble_coral_wall_fan: Sgàileag-balla coireil-bhuilgein mhairbh
+  dead_fire_coral_wall_fan: Sgàileag-balla coireil-teine mhairbh
+  dead_horn_coral_wall_fan: Sgàileag-balla coireil-adhairc mhairbh
+  tube_coral_wall_fan: Sgàileag-balla coireil-phìoba
+  brain_coral_wall_fan: Sgàileag-balla coireil-eanchainne
+  bubble_coral_wall_fan: Sgàileag-balla coireil-bhuilgein
+  fire_coral_wall_fan: Sgàileag-balla coireil-teine
+  horn_coral_wall_fan: Sgàileag-balla coireil-adhairc
+  bamboo_sapling: Sprout bambù
+  potted_bamboo: Bambù ann am poit
+  void_air: Adhar fànais
+  cave_air: Adhar uamha
+  bubble_column: Colbh bhuilgean
+  sweet_berry_bush: Lusan dearc milis
+  weeping_vines_plant: Ri Vines A'
+  twisting_vines_plant: Twisting Vines A'
+  crimson_wall_sign: Crimson Balla-Sanais
+  warped_wall_sign: Warped Balla-Sanais
+  potted_crimson_fungus: Potted Crimson Bharrachd
+  potted_warped_fungus: Potted Warped Bharrachd
+  potted_crimson_roots: Potted Crimson Roots
+  potted_warped_roots: Potted Warped Roots
+  zombie_pigman_spawn_egg: Ugh gintinn cuirp-mhucair
+  cactus_green: Uaine a' chactais
+  dandelion_yellow: Buidhe a' bheàrnain-Bhrìde
+  rose_red: Dearg an ròis
+  sign: Soidhne
+  wall_sign: Soidhne-bhalla
+biome:
+  ocean: Cuan
+  plains: Maghach
+  desert: Fàsach
+  mountains: Beanntan
+  forest: Coille
+  taiga: Taiga
+  swamp: Boglach
+  river: Abhainn
+  nether_wastes: Nether Wastes
+  the_end: An End
+  frozen_ocean: Cuan reòite
+  frozen_river: Abhainn reòite
+  snowy_tundra: Tundra sneachdach
+  snowy_mountains: Beanntan sneachdach
+  mushroom_fields: Achaidhean bhalgan-buachair
+  mushroom_field_shore: Oirthir le achaidhean bhalgan-buachair
+  beach: Tràigh
+  desert_hills: Cnuic fàsaich
+  wooded_hills: Cnuic chraobhach
+  taiga_hills: Coilltean taiga
+  mountain_edge: Oir beinne
+  jungle: Dlùth-choille
+  jungle_hills: Cnuic dlùth-choille
+  jungle_edge: Oir dlùth-choille
+  deep_ocean: Cuan domhainn
+  stone_shore: Oirthir cloiche
+  snowy_beach: Tràigh shneachdach
+  birch_forest: Coille beithe
+  birch_forest_hills: Cnuic coille beithe
+  dark_forest: Coille dhorcha
+  snowy_taiga: Taiga sneachdach
+  snowy_taiga_hills: Cnuic taiga shneachdaich
+  giant_tree_taiga: Taiga le craobhan mòra
+  giant_tree_taiga_hills: Cnuic taiga le craobhan mòra
+  wooded_mountains: Beanntan craobhach
+  savanna: Sabhanna
+  savanna_plateau: Àrd-chlàr sabhanna
+  badlands: Tìr an-torrach
+  wooded_badlands_plateau: Àrd-chlàr an-torrach craobhach
+  badlands_plateau: Àrd-chlàr an-torrach
+  small_end_islands: Eileanan beaga End
+  end_midlands: Cnuic End
+  end_highlands: Monadh End
+  end_barrens: Talamh seasg End
+  warm_ocean: Cuan blàth
+  lukewarm_ocean: Cuan flodach
+  cold_ocean: Cuan fuar
+  deep_warm_ocean: Cuan domhainn blàth
+  deep_lukewarm_ocean: Cuan domhainn flodach
+  deep_cold_ocean: Cuan domhainn fuar
+  deep_frozen_ocean: Cuan domhainn reòite
+  the_void: Am fànas
+  sunflower_plains: Maghan neòinean-grèine
+  desert_lakes: Lochan fàsaich
+  gravelly_mountains: Beanntan morghain
+  flower_forest: Coille fhlùrach
+  taiga_mountains: Beanntan taiga
+  swamp_hills: Cnuic boglaiche
+  ice_spikes: Spìcean deighe
+  modified_jungle: Dlùth-choille atharraichte
+  modified_jungle_edge: Oir dlùth-choille atharraichte
+  tall_birch_forest: Coille beithe àird
+  tall_birch_hills: Cnuic beithe àird
+  dark_forest_hills: Cnuic coille duirche
+  snowy_taiga_mountains: Beanntan taiga shneachdaich
+  giant_spruce_taiga: Taiga le giuthais mhòra
+  giant_spruce_taiga_hills: Cnuic taiga le giuthais mhòra
+  modified_gravelly_mountains: Beanntan morghain+
+  shattered_savanna: Sabhanna iom-sgealbte
+  shattered_savanna_plateau: Àrd-chlàr sabhanna iom-sgealbte
+  eroded_badlands: Tìr an-torrach crìonta
+  modified_wooded_badlands_plateau: Àrd-chlàr an-torrach craobhach atharraichte
+  modified_badlands_plateau: Àrd-chlàr an-torrach atharraichte
+  bamboo_jungle: Dlùth-choille bambù
+  bamboo_jungle_hills: Cnuic dlùth-choille bambù
+  soul_sand_valley: Soul Gainmheach Valley
+  crimson_forest: Crimson Forest
+  warped_forest: Warped Forest
+  basalt_deltas: Deltas basalt
+  nether: Nether
+enchantment:
+  fire_protection: Dìon an aghaidh teine
+  sharpness: Geurad
+  flame: Lasair
+  soul_speed: Soul Na Gaoithe
+  aqua_affinity: Dàimh ri uisge
+  punch: Buille
+  loyalty: Dìlseachd
+  depth_strider: Coiseachd na doimhne
+  vanishing_curse: Mallachd dol à sealladh
+  unbreaking: Do-bhriseadh
+  knockback: Sraonadh
+  luck_of_the_sea: Fortan na mara
+  binding_curse: Mallachd nasgaidh
+  fortune: Fortan
+  protection: Dìon
+  efficiency: Dian-obair
+  mending: Càradh
+  frost_walker: Coiseachd an reòthaidh
+  lure: Tàladh
+  looting: Spùinneadh
+  piercing: A ’tolladh
+  blast_protection: Dìon an aghaidh spreadhadh
+  smite: Beum
+  multishot: Ioma sealladh
+  fire_aspect: Losgadh
+  channeling: Seanaileadh
+  sweeping: Lann siabaidh
+  thorns: Drisean
+  bane_of_arthropods: Milleadh nan arthropod
+  respiration: Analachd
+  riptide: Bras-shruth
+  silk_touch: Làimhseachadh cùramach
+  quick_charge: Cìs luath
+  projectile_protection: Dìon an aghaidh astasan
+  impaling: Tro-lotadh
+  feather_falling: Sgiath-thuiteam
+  power: Cumhachd
+  infinity: Neo-chrìochnachd
+potion:
+  uncraftable: Deoch nach gabh dèanamh le ceàrd
+  water: Searrag le uisge
+  mundane: Deoch shaoghalta
+  thick: Deoch thiugh
+  awkward: Deoch lapach
+  night_vision: Deoch an fhradhairc-oidhche
+  invisibility: Deoch an dìth-chealtair
+  jump: Deoch an leuma
+  fire_resistance: Deoch an t-seasaimh an aghaidh teine
+  speed: Deoch an luaiths
+  slowness: Deoch na maille
+  water_breathing: Deoch na h-analach-uisge
+  instant_heal: Deoch an t-slànachaidh
+  instant_damage: Deoch an dochainn
+  poison: Deoch phuinnseanach
+  regen: Deoch ath-ghintinn
+  strength: Deoch an neirt
+  weakness: Deoch na laigse
+  luck: Deoch an fhortain
+  turtle_master: Deoch a' chinn-turtaran
+  slow_falling: Deoch tuiteim shlaodaich
+splash_potion:
+  uncraftable: Deoch-tilgidh nach gabh dèanamh le ceàrd
+  water: Searrag-thilgidh le uisge
+  mundane: Deoch-tilgidh shaoghalta
+  thick: Deoch-tilgidh thiugh
+  awkward: Deoch-tilgidh lapach
+  night_vision: Deoch-tilgidh an fhradhairc-oidhche
+  invisibility: Deoch-tilgidh an dìth-chealtair
+  jump: Deoch-tilgidh an leuma
+  fire_resistance: Deoch-tilgidh an t-seasaimh an aghaidh teine
+  speed: Deoch-tilgidh an luaiths
+  slowness: Deoch-tilgidh na maille
+  water_breathing: Deoch-tilgidh na h-analach-uisge
+  instant_heal: Deoch-tilgidh an t-slànachaidh
+  instant_damage: Deoch-tilgidh an dochainn
+  poison: Deoch-tilgidh phuinnseanach
+  regen: Deoch-tilgidh ath-ghintinn
+  strength: Deoch-tilgidh an neirt
+  weakness: Deoch-tilgidh na laigse
+  luck: Deoch-tilgidh an fhortain
+  turtle_master: Deoch-thilgidh a' chinn-turtaran
+  slow_falling: Deoch-thilgidh tuiteim shlaodaich
+lingering_potion:
+  uncraftable: Deoch-fhuireachd nach gabh dèanamh le ceàrd
+  water: Searrag le uisge-fuireachd
+  mundane: Deoch-fhuireachd shaoghalta
+  thick: Deoch-fhuireachd thiugh
+  awkward: Deoch-fhuireachd lapach
+  night_vision: Deoch-fhuireachd an fhradhairc-oidhche
+  invisibility: Deoch-fhuireachd an dìth-chealtair
+  jump: Deoch-fhuireachd an leuma
+  fire_resistance: Deoch-fhuireachd an t-seasaimh an aghaidh teine
+  speed: Deoch-fhuireachd an luaiths
+  slowness: Deoch-fhuireachd na maille
+  water_breathing: Deoch-fhuireachd na h-analach-uisge
+  instant_heal: Deoch-fhuireachd an t-slànachaidh
+  instant_damage: Deoch-fhuireachd an dochainn
+  poison: Deoch-fhuireachd phuinnseanach
+  regen: Deoch-fhuireachd ath-ghintinn
+  strength: Deoch-fhuireachd an neirt
+  weakness: Deoch-fhuireachd na laigse
+  luck: Deoch-fhuireachd an fhortain
+  turtle_master: Deoch-fhireachd a' chinn-turtaran
+  slow_falling: Deoch-fhuireachd tuiteim shlaodaich
+tipped_arrow:
+  uncraftable: Saighead le barr nach gabh dèanamh le ceàrd
+  water: Saighead an uisge
+  mundane: Saighead le barr
+  thick: Saighead le barr
+  awkward: Saighead le barr
+  night_vision: Saighead an fhradhairc-oidhche
+  invisibility: Saighead an dìth-chealtair
+  jump: Saighead an leuma
+  fire_resistance: Saighead an t-seasaimh an aghaidh teine
+  speed: Saighead an luaiths
+  slowness: Saighead na maille
+  water_breathing: Saighead na h-analach-uisge
+  instant_heal: Saighead an t-slànachaidh
+  instant_damage: Saighead an dochainn
+  poison: Saighead phuinnseanach
+  regen: Saighead ath-ghintinn
+  strength: Saighead an neirt
+  weakness: Saighead na laigse
+  luck: Saighead an an fhortain
+  turtle_master: Saighead a' chinn-turtaran
+  slow_falling: Saighead tuiteim shlaodaich
+entity:
+  dropped_item: Nì
+  experience_orb: Cruinne eòlais
+  area_effect_cloud: Neul èifeachd iom-sgaoilte
+  elder_guardian: Seann-fhreiceadan
+  wither_skeleton: Wither-cnàimhnich
+  stray: Seachranach
+  egg: Ugh tilgte
+  leash_hitch: Snaidhm taoid
+  painting: Dealbh
+  arrow: Saighead
+  snowball: Ball-sneachda
+  fireball: Bàla-teine
+  small_fireball: Bàla-teine beag
+  ender_pearl: Neamhnaid thilgte Ender
+  ender_signal: Sùil Ender
+  splash_potion: Deoch
+  thrown_exp_bottle: Searrag geasa air a tilgeil
+  item_frame: Frèam
+  wither_skull: Wither-claigeann
+  primed_tnt: TNT air lagh
+  falling_block: Bloca a' tuiteam
+  firework: Rocaid cleasa-theine
+  husk: Mogal
+  spectral_arrow: Saighead luisnidh
+  shulker_bullet: Peilear shulker
+  dragon_fireball: Bàla-teine dràgoin
+  zombie_villager: Corp-coisiche saoranaich
+  skeleton_horse: Each-cnàimhnich
+  zombie_horse: Corp-eich
+  armor_stand: Stannd armachd
+  donkey: Asal
+  mule: Leth-asal
+  evoker_fangs: Tosgan tairmeir
+  evoker: Tairmear
+  vex: Buaireadair
+  vindicator: Tagair
+  illusioner: Mealltair
+  minecart_command: Cairt-mhèinnearachd le bloca-àithne
+  boat: Bàta
+  minecart: Cairt-mhèinnearachd
+  minecart_chest: Cairt-mhèinnearachd le ciste
+  minecart_furnace: Cairt-mhèinnearachd le fùirneis
+  minecart_tnt: Cairt-mhèinnearachd le TNT
+  minecart_hopper: Cairt-mhèinnearachd le drabhailt
+  minecart_mob_spawner: Cairt-mhèinnearachd le gineadair
+  creeper: Creeper
+  skeleton: Cnàimhneach
+  spider: Damhan-allaidh
+  giant: Famhair
+  zombie: Corp coisiche
+  slime: Eabar
+  ghast: Ghast
+  zombified_piglin: Zombified Piglit
+  enderman: Enderman
+  cave_spider: Damhan-allaidh uamha
+  silverfish: Fiolan-glas
+  blaze: Leus
+  magma_cube: Ciùb magma
+  ender_dragon: Dràgon Ender
+  wither: Wither
+  bat: Ialtag
+  witch: Bana-bhuidseach
+  endermite: Endermite
+  guardian: Freiceadan
+  shulker: Shulker
+  pig: Muc
+  sheep: Caora
+  cow: Bò
+  chicken: Cearc
+  squid: Gibearnach
+  wolf: Madadh-allaidh
+  mushroom_cow: Mooshroom
+  snowman: Gòileam sneachda
+  ocelot: Cat fiadhaich
+  iron_golem: Gòileam iarainn
+  horse: Each
+  rabbit: Coineanach
+  polar_bear: Mathan-bàn
+  llama: Llama
+  llama_spit: Smugaid llama
+  parrot: Pearraid
+  villager: Saoranach
+  ender_crystal: Criostal End
+  turtle: Turtar
+  phantom: Tannasg
+  trident: Muirgheadh
+  cod: Trosg
+  salmon: Bradan
+  pufferfish: Iasg-sèididh
+  tropical_fish: Iasg tropaigeach
+  drowned: Bàithteach
+  dolphin: Leumadair
+  cat: Cat
+  panda: Panda
+  pillager: Colbhan
+  ravager: Creachadair
+  trader_llama: Làma malairtiche
+  wandering_trader: Malairtiche crith
+  fox: Sionnach
+  bee: Seillean
+  hoglin: Hoglin
+  piglin: Pigling
+  strider: Strider
+  zoglin: Zoglin
+  piglin_brute: Brute Piglin
+  fishing_hook: Bùidh iasgaich
+  lightning: Beithir
+  player: Cluicheadair
+  pig_zombie: Corp-mucair
+effect:
+  speed: Luaths
+  slow: Maille
+  fast_digging: Cabhag
+  slow_digging: Sgìos na mèinnearachd
+  increase_damage: Neart
+  heal: Slànachadh sa bhad
+  harm: Dochann sa bhad
+  jump: Buannachd leuma
+  confusion: Òrrais
+  regeneration: Ath-ghintinn
+  damage_resistance: Comas-seasaimh
+  fire_resistance: Seasamh an aghaidh teine
+  water_breathing: Anail-uisge
+  invisibility: Dìth-chealtair
+  blindness: Doille
+  night_vision: Fradharc-oidhche
+  hunger: Acras
+  weakness: Laigse
+  poison: Puinnsean
+  wither: Wither
+  health_boost: Buannachd slàinte
+  absorption: Sùghadh
+  saturation: Sàthachd
+  glowing: Luisneadh
+  levitation: Togail suas
+  luck: Fortan
+  unluck: Droch-fhortan
+  slow_falling: Tuiteam slaodach
+  conduit_power: Cumhachd seòl-phìoba
+  dolphins_grace: Gràs an leumadair
+  bad_omen: Droch mhanadh
+  hero_of_the_village: Gaisgeach a ’Bhaile
+tropical_fish_type:
+  kob: Cobag
+  sunstreak: Sunstreak
+  snooper: Snotrag
+  dasher: Sgrìobag
+  brinely: Mearalag
+  spotty: Spotag
+  flopper: Plapag
+  stripey: Stiallag
+  glitter: Soillsean
+  blockfish: Iasg-bloca
+  betty: Beiteag
+  clayfish: Iasg-crè
+dye_color:
+  white: Geal
+  orange: Orains
+  magenta: Magenta
+  light_blue: Soilleir-ghorm
+  yellow: Buidhe
+  lime: Dath na liomaide
+  pink: Pinc
+  gray: Liath
+  light_gray: Soilleir-liath
+  cyan: Saidhean
+  purple: Purpaidh
+  blue: Gorm
+  brown: Donn
+  green: Uaine
+  red: Dearg
+  black: Dubh
+named:
+  player_head_named: An ceann air %s
+  potion_with_amplifier: '%s %s'
+  potion_with_duration: '%s> %s)'
+  unknown_enchantment: 'Geas neo-aithnichte: %s'
+  unknown_entity: 'Eintiteas neo-aithnichte: %s'
+  unknown_effect: 'Èifeachd neo-aithnichte: %s'
+tropical_fish_name:
+  '117506305': Iasg cìoch na mnà-sìdhe
+  '117899265': Tanga dubh
+  '185008129': Tanga gorm
+  '117441793': Iasg an dealain-dè
+  '118161664': Ciclead
+  '65536': Iasg nam bun-dùn
+  '50726144': Iasg-sabaid suiteis
+  '67764993': Dotag
+  '234882305': Sglamhair rìoghail
+  '67110144': Iasg-gobhair
+  '117441025': Iodhal mùrach
+  '16778497': Iasg-fèileig spaideil
+  '101253888': Iasg-pearraide
+  '50660352': Iasg-aingeil rìoghail
+  '918529': Ciclead dearg
+  '235340288': Sleamhnag nam bilean dearga
+  '918273': Sglamhair
+  '67108865': Snàithleag
+  '917504': Ruadhan nam bun-dùn
+  '459008': Iasg-glacaig
+  '67699456': Iasg-pearraide buidh-earballach
+  '67371009': Tanga buidhe
+colored_shied:
+  white: Sgiath gheal
+  orange: Sgiath orains
+  magenta: Sgiath mhagenta
+  light_blue: Sgiath shoilleir-ghorm
+  yellow: Sgiath bhuidhe
+  lime: Sgiath dath na liomaid
+  pink: Sgiath phinc
+  gray: Sgiath liath
+  light_gray: Sgiath shoilleir-liath
+  cyan: Sgiath shaidhean
+  purple: Sgiath phurpaidh
+  blue: Sgiath ghorm
+  brown: Sgiath dhonn
+  green: Sgiath uaine
+  red: Sgiath dhearg
+  black: Sgiath dhubh
+banner_pattern:
+  '65536': Ceithir-cheàrnag gheal taobh deas aig a' bhonn
+  '65537': Ceithir-cheàrnag orains taobh deas aig a' bhonn
+  '65538': Ceithir-cheàrnag mhagenta taobh deas aig a' bhonn
+  '65539': Ceithir-cheàrnag shoilleir-ghorm taobh deas aig a' bhonn
+  '65540': Ceithir-cheàrnag bhuidhe taobh deas aig a' bhonn
+  '65541': Ceithir-cheàrnag dath na liomaid taobh deas aig a' bhonn
+  '65542': Ceithir-cheàrnag phinc taobh deas aig a' bhonn
+  '65543': Ceithir-cheàrnag liath taobh deas aig a' bhonn
+  '65544': Ceithir-cheàrnag shoilleir-liath taobh deas aig a' bhonn
+  '65545': Ceithir-cheàrnag shaidhean taobh deas aig a' bhonn
+  '65546': Ceithir-cheàrnag phurpaidh taobh deas aig a' bhonn
+  '65547': Ceithir-cheàrnag ghorm taobh deas aig a' bhonn
+  '65548': Ceithir-cheàrnag dhonn taobh deas aig a' bhonn
+  '65549': Ceithir-cheàrnag uaine taobh deas aig a' bhonn
+  '65550': Ceithir-cheàrnag dhearg taobh deas aig a' bhonn
+  '65551': Ceithir-cheàrnag dhubh taobh deas aig a' bhonn
+  '131072': Ceithir-cheàrnag gheal taobh clì aig a' bhonn
+  '131073': Ceithir-cheàrnag orains taobh clì aig a' bhonn
+  '131074': Ceithir-cheàrnag mhagenta taobh clì aig a' bhonn
+  '131075': Ceithir-cheàrnag shoilleir-ghorm taobh clì aig a' bhonn
+  '131076': Ceithir-cheàrnag bhuidhe taobh clì aig a' bhonn
+  '131077': Ceithir-cheàrnag dath na liomaid taobh clì aig a' bhonn
+  '131078': Ceithir-cheàrnag phinc taobh clì aig a' bhonn
+  '131079': Ceithir-cheàrnag liath taobh clì aig a' bhonn
+  '131080': Ceithir-cheàrnag shoilleir-liath taobh clì aig a' bhonn
+  '131081': Ceithir-cheàrnag shaidhean taobh clì aig a' bhonn
+  '131082': Ceithir-cheàrnag phurpaidh taobh clì aig a' bhonn
+  '131083': Ceithir-cheàrnag ghorm taobh clì aig a' bhonn
+  '131084': Ceithir-cheàrnag dhonn taobh clì aig a' bhonn
+  '131085': Ceithir-cheàrnag uaine taobh clì aig a' bhonn
+  '131086': Ceithir-cheàrnag dhearg taobh clì aig a' bhonn
+  '131087': Ceithir-cheàrnag dhubh taobh clì aig a' bhonn
+  '196608': Ceithir-cheàrnag gheal taobh deas aig a' bharr
+  '196609': Ceithir-cheàrnag orains taobh deas aig a' bharr
+  '196610': Ceithir-cheàrnag mhagenta taobh deas aig a' bharr
+  '196611': Ceithir-cheàrnag shoilleir-ghorm taobh deas aig a' bharr
+  '196612': Ceithir-cheàrnag bhuidhe taobh deas aig a' bharr
+  '196613': Ceithir-cheàrnag dath na liomaid taobh deas aig a' bharr
+  '196614': Ceithir-cheàrnag phinc taobh deas aig a' bharr
+  '196615': Ceithir-cheàrnag liath taobh deas aig a' bharr
+  '196616': Ceithir-cheàrnag shoilleir-liath taobh deas aig a' bharr
+  '196617': Ceithir-cheàrnag shaidhean taobh deas aig a' bharr
+  '196618': Ceithir-cheàrnag phurpaidh taobh deas aig a' bharr
+  '196619': Ceithir-cheàrnag ghorm taobh deas aig a' bharr
+  '196620': Ceithir-cheàrnag dhonn taobh deas aig a' bharr
+  '196621': Ceithir-cheàrnag uaine taobh deas aig a' bharr
+  '196622': Ceithir-cheàrnag dhearg taobh deas aig a' bharr
+  '196623': Ceithir-cheàrnag dhubh taobh deas aig a' bharr
+  '262144': Ceithir-cheàrnag gheal taobh clì aig a' bharr
+  '262145': Ceithir-cheàrnag orains taobh clì aig a' bharr
+  '262146': Ceithir-cheàrnag mhagenta taobh clì aig a' bharr
+  '262147': Ceithir-cheàrnag shoilleir-ghorm taobh clì aig a' bharr
+  '262148': Ceithir-cheàrnag bhuidhe taobh clì aig a' bharr
+  '262149': Ceithir-cheàrnag dath na liomaid taobh clì aig a' bharr
+  '262150': Ceithir-cheàrnag phinc taobh clì aig a' bharr
+  '262151': Ceithir-cheàrnag liath taobh clì aig a' bharr
+  '262152': Ceithir-cheàrnag shoilleir-liath taobh clì aig a' bharr
+  '262153': Ceithir-cheàrnag shaidhean taobh clì aig a' bharr
+  '262154': Ceithir-cheàrnag phurpaidh taobh clì aig a' bharr
+  '262155': Ceithir-cheàrnag ghorm taobh clì aig a' bharr
+  '262156': Ceithir-cheàrnag dhonn taobh clì aig a' bharr
+  '262157': Ceithir-cheàrnag uaine taobh clì aig a' bharr
+  '262158': Ceithir-cheàrnag dhearg taobh clì aig a' bharr
+  '262159': Ceithir-cheàrnag dhubh taobh clì aig a' bharr
+  '327680': Bonn geal
+  '327681': Bonn orains
+  '327682': Bonn magenta
+  '327683': Bonn soilleir-ghorm
+  '327684': Bonn buidhe
+  '327685': Bonn dath na liomaid
+  '327686': Bonn pinc
+  '327687': Bonn liath
+  '327688': Bonn ban-liath
+  '327689': Bonn saidhean
+  '327690': Bonn purpaidh
+  '327691': Bonn gorm
+  '327692': Bonn donn
+  '327693': Bonn uaine
+  '327694': Bonn dearg
+  '327695': Bonn dubh
+  '393216': Barr geal
+  '393217': Barr orains
+  '393218': Barr magenta
+  '393219': Barr soilleir-ghorm
+  '393220': Barr buidhe
+  '393221': Barr dath na liomaid
+  '393222': Barr pinc
+  '393223': Barr liath
+  '393224': Barr ban-liath
+  '393225': Bar saidhean
+  '393226': Barr purpaidh
+  '393227': Barr gorm
+  '393228': Barr donn
+  '393229': Barr uaine
+  '393230': Barr dearg
+  '393231': Barr dubh
+  '458752': Loidhne inghearach gheal air an taobh chlì
+  '458753': Loidhne inghearach orains air an taobh chlì
+  '458754': Loidhne inghearach mhagenta air an taobh chlì
+  '458755': Loidhne inghearach shoilleir-ghorm air an taobh chlì
+  '458756': Loidhne inghearach bhuidhe air an taobh chlì
+  '458757': Loidhne inghearach dath na liomaid air an taobh chlì
+  '458758': Loidhne inghearach phinc air an taobh chlì
+  '458759': Loidhne inghearach liath air an taobh chlì
+  '458760': Loidhne inghearach shoilleir-liath air an taobh chlì
+  '458761': Loidhne inghearach shaidhean air an taobh chlì
+  '458762': Loidhne inghearach phurpaidh air an taobh chlì
+  '458763': Loidhne inghearach ghorm air an taobh chlì
+  '458764': Loidhne inghearach dhonn air an taobh chlì
+  '458765': Loidhne inghearach uaine air an taobh chlì
+  '458766': Loidhne inghearach dhearg air an taobh chlì
+  '458767': Loidhne inghearach dhubh air an taobh chlì
+  '524288': Loidhne inghearach gheal air an taobh deas
+  '524289': Loidhne inghearach orains air an taobh deas
+  '524290': Loidhne inghearach mhagenta air an taobh deas
+  '524291': Loidhne inghearach shoilleir-ghorm air an taobh deas
+  '524292': Loidhne inghearach bhuidhe air an taobh deas
+  '524293': Loidhne inghearach dath na liomaid air an taobh deas
+  '524294': Loidhne inghearach phinc air an taobh deas
+  '524295': Loidhne inghearach liath air an taobh deas
+  '524296': Loidhne inghearach shoilleir-liath air an taobh deas
+  '524297': Loidhne inghearach shaidhean air an taobh deas
+  '524298': Loidhne inghearach phurpaidh air an taobh deas
+  '524299': Loidhne inghearach ghorm air an taobh deas
+  '524300': Loidhne inghearach dhonn air an taobh deas
+  '524301': Loidhne inghearach uaine air an taobh deas
+  '524302': Loidhne inghearach dhearg air an taobh deas
+  '524303': Loidhne inghearach dhubh air an taobh deas
+  '589824': Loidhne inghearach gheal
+  '589825': Loidhne inghearach orains
+  '589826': Loidhne inghearach mhagenta
+  '589827': Loidhne inghearach shoilleir-ghorm
+  '589828': Loidhne inghearach bhuidhe
+  '589829': Loidhne inghearach dath na liomaid
+  '589830': Loidhne inghearach phinc
+  '589831': Loidhne inghearach liath
+  '589832': Loidhne inghearach shoilleir-liath
+  '589833': Loidhne inghearach shaidhean
+  '589834': Loidhne inghearach phurpaidh
+  '589835': Loidhne inghearach ghorm
+  '589836': Loidhne inghearach dhonn
+  '589837': Loidhne inghearach uaine
+  '589838': Loidhne inghearach dhearg
+  '589839': Loidhne inghearach dhubh
+  '655360': Còmhnard geal
+  '655361': Còmhnard orains
+  '655362': Còmhnard magenta
+  '655363': Còmhnard soilleir-ghorm
+  '655364': Còmhnard buidhe
+  '655365': Còmhnard dath na liomaid
+  '655366': Còmhnard pinc
+  '655367': Còmhnard liath
+  '655368': Còmhnard soilleir-liath
+  '655369': Còmhnard saidhean
+  '655370': Còmhnard purpaidh
+  '655371': Còmhnard gorm
+  '655372': Còmhnard donn
+  '655373': Còmhnard uaine
+  '655374': Còmhnard dearg
+  '655375': Còmhnard dubh
+  '720896': Loidhne inghearach gheal on taobh chlì
+  '720897': Loidhne inghearach orains on taobh chlì
+  '720898': Loidhne inghearach mhagenta on taobh chlì
+  '720899': Loidhne inghearach shoilleir-ghorm on taobh chlì
+  '720900': Loidhne inghearach bhuidhe on taobh chlì
+  '720901': Loidhne inghearach dath na liomaid on taobh chlì
+  '720902': Loidhne inghearach phinc on taobh chlì
+  '720903': Loidhne inghearach liath on taobh chlì
+  '720904': Loidhne inghearach shoilleir-liath on taobh chlì
+  '720905': Loidhne inghearach shaidhean on taobh chlì
+  '720906': Loidhne inghearach phurpaidh on taobh chlì
+  '720907': Loidhne inghearach ghorm on taobh chlì
+  '720908': Loidhne inghearach dhonn on taobh chlì
+  '720909': Loidhne inghearach uaine on taobh chlì
+  '720910': Loidhne inghearach dhearg on taobh chlì
+  '720911': Loidhne inghearach dhubh on taobh chlì
+  '786432': Loidhne inghearach gheal on taobh deas
+  '786433': Loidhne inghearach orains on taobh deas
+  '786434': Loidhne inghearach mhagenta on taobh deas
+  '786435': Loidhne inghearach shoilleir-ghorm on taobh deas
+  '786436': Loidhne inghearach bhuidhe on taobh deas
+  '786437': Loidhne inghearach dath na liomaid on taobh deas
+  '786438': Loidhne inghearach phinc on taobh deas
+  '786439': Loidhne inghearach liath on taobh deas
+  '786440': Loidhne inghearach shoilleir-liath on taobh deas
+  '786441': Loidhne inghearach shaidhean on taobh deas
+  '786442': Loidhne inghearach phurpaidh on taobh deas
+  '786443': Loidhne inghearach ghorm on taobh deas
+  '786444': Loidhne inghearach dhonn on taobh deas
+  '786445': Loidhne inghearach uaine on taobh deas
+  '786446': Loidhne inghearach dhearg on taobh deas
+  '786447': Loidhne inghearach dhubh on taobh deas
+  '851968': Loidhnichean inghearach geala
+  '851969': Loidhnichean inghearach orains
+  '851970': Loidhnichean inghearach magenta
+  '851971': Loidhnichean inghearach soilleir-ghorma
+  '851972': Loidhnichean inghearach buidhe
+  '851973': Loidhnichean inghearach dath na liomaid
+  '851974': Loidhnichean inghearach pince
+  '851975': Loidhnichean inghearach liatha
+  '851976': Loidhnichean inghearach soilleir-liatha
+  '851977': Loidhnichean inghearach saidhean
+  '851978': Loidhnichean inghearach purpaidh
+  '851979': Loidhnichean inghearach gorma
+  '851980': Loidhnichean inghearach donna
+  '851981': Loidhnichean inghearach uaine
+  '851982': Loidhnichean inghearach dearga
+  '851983': Loidhnichean inghearach dubha
+  '917504': Crann geal
+  '917505': Crann orains
+  '917506': Crann magenta
+  '917507': Crann soilleir-ghorm
+  '917508': Crann buidhe
+  '917509': Crann dath na liomaid
+  '917510': Crann pinc
+  '917511': Crann liath
+  '917512': Crann soilleir-liath
+  '917513': Crann saidhean
+  '917514': Crann purpaidh
+  '917515': Crann gorm
+  '917516': Crann donn
+  '917517': Crann uaine
+  '917518': Crann dearg
+  '917519': Crann dubh
+  '983040': Crois gheal
+  '983041': Crois orains
+  '983042': Crois mhagenta
+  '983043': Crois shoilleir-ghorm
+  '983044': Crois bhuidhe
+  '983045': Crois dath na liomaid
+  '983046': Crois phinc
+  '983047': Crois liath
+  '983048': Crois shoilleir-liath
+  '983049': Crois shaidhean
+  '983050': Crois phurpaidh
+  '983051': Crois ghorm
+  '983052': Crois dhonn
+  '983053': Crois uaine
+  '983054': Crois dhearg
+  '983055': Crois dhubh
+  '1048576': Saidh gheal aig a' bhonn
+  '1048577': Saidh orains aig a' bhonn
+  '1048578': Saidh mhagenta aig a' bhonn
+  '1048579': Saidh shoilleir-ghorm aig a' bhonn
+  '1048580': Saidh bhuidhe aig a' bhonn
+  '1048581': Saidh dath na liomaid aig a' bhonn
+  '1048582': Saidh phinc aig a' bhonn
+  '1048583': Saidh liath aig a' bhonn
+  '1048584': Saidh shoilleir-liath aig a' bhonn
+  '1048585': Saidh shaidhean aig a' bhonn
+  '1048586': Saidh phurpaidh aig a' bhonn
+  '1048587': Saidh ghorm aig a' bhonn
+  '1048588': Saidh dhonn aig a' bhonn
+  '1048589': Saidh uaine aig a' bhonn
+  '1048590': Saidh dhearg aig a' bhonn
+  '1048591': Saidh dhubh aig a' bhonn
+  '1114112': Saidh gheal aig a' bharr
+  '1114113': Saidh orains aig a' bharr
+  '1114114': Saidh mhagenta aig a' bharr
+  '1114115': Saidh shoilleir-ghorm aig a' bharr
+  '1114116': Saidh bhuidhe aig a' bharr
+  '1114117': Saidh dath na liomaid aig a' bharr
+  '1114118': Saidh phinc aig a' bharr
+  '1114119': Saidh liath aig a' bharr
+  '1114120': Saidh shoilleir-liath aig a' bharr
+  '1114121': Saidh shaidhean aig a' bharr
+  '1114122': Saidh phurpaidh aig a' bharr
+  '1114123': Saidh ghorm aig a' bharr
+  '1114124': Saidh dhonn aig a' bharr
+  '1114125': Saidh uaine aig a' bharr
+  '1114126': Saidh dhearg aig a' bharr
+  '1114127': Saidh dhubh aig a' bharr
+  '1179648': Eagan geala aig a' bhonn
+  '1179649': Eagan orains aig a' bhonn
+  '1179650': Eagan magenta aig a' bhonn
+  '1179651': Eagan soilleir-ghorma aig a' bhonn
+  '1179652': Eagan buidhe aig a' bhonn
+  '1179653': Eagan dath na liomaid aig a' bhonn
+  '1179654': Eagan pince aig a' bhonn
+  '1179655': Eagan liatha aig a' bhonn
+  '1179656': Eagan soilleir-liath aig a' bhonn
+  '1179657': Eagan saidhean aig a' bhonn
+  '1179658': Eagan purpaidh aig a' bhonn
+  '1179659': Eagan gorma aig a' bhonn
+  '1179660': Eagan donna aig a' bhonn
+  '1179661': Eagan uaine aig a' bhonn
+  '1179662': Eagan dearga aig a' bhonn
+  '1179663': Eagan dubha aig a' bhonn
+  '1245184': Eagan geala aig a' bharr
+  '1245185': Eagan orains aig a' bharr
+  '1245186': Eagan magenta aig a' bharr
+  '1245187': Eagan soilleir-ghorma aig a' bharr
+  '1245188': Eagan buidhe aig a' bharr
+  '1245189': Eagan dath na liomaid aig a' bharr
+  '1245190': Eagan pince aig a' bharr
+  '1245191': Eagan liatha aig a' bharr
+  '1245192': Eagan soilleir-liatha aig a' bharr
+  '1245193': Eagan saidhean aig a' bharr
+  '1245194': Eagan purpaidh aig a' bharr
+  '1245195': Eagan gorma aig a' bharr
+  '1245196': Eagan donna aig a' bharr
+  '1245197': Eagan uaine aig a' bharr
+  '1245198': Eagan dearga aig a' bharr
+  '1245199': Eagan dubha aig a' bharr
+  '1310720': Roinneadh inghearach geal taobh clì aig a' bharr
+  '1310721': Roinneadh inghearach orains taobh clì aig a' bharr
+  '1310722': Roinneadh inghearach magenta taobh clì aig a' bharr
+  '1310723': Roinneadh inghearach soilleir-gorm taobh clì aig a' bharr
+  '1310724': Roinneadh inghearach buidhe taobh clì aig a' bharr
+  '1310725': Roinneadh inghearach dath na liomaid taobh clì aig a' bharr
+  '1310726': Roinneadh inghearach pinc taobh clì aig a' bharr
+  '1310727': Roinneadh inghearach liath taobh clì aig a' bharr
+  '1310728': Roinneadh inghearach soilleir-liath taobh clì aig a' bharr
+  '1310729': Roinneadh inghearach saidhean taobh clì aig a' bharr
+  '1310730': Roinneadh inghearach purpaidh taobh clì aig a' bharr
+  '1310731': Roinneadh inghearach gorm taobh clì aig a' bharr
+  '1310732': Roinneadh inghearach donn taobh clì aig a' bharr
+  '1310733': Roinneadh inghearach uaine taobh clì aig a' bharr
+  '1310734': Roinneadh inghearach dearg taobh clì aig a' bharr
+  '1310735': Roinneadh inghearach dubh taobh clì aig a' bharr
+  '1376256': Roinneadh inghearach geal taobh deas aig a' bhonn
+  '1376257': Roinneadh inghearach orains taobh deas aig a' bhonn
+  '1376258': Roinneadh inghearach magenta taobh deas aig a' bhonn
+  '1376259': Roinneadh inghearach soilleir-ghorm taobh deas aig a' bhonn
+  '1376260': Roinneadh inghearach buidhe taobh deas aig a' bhonn
+  '1376261': Roinneadh inghearach dath na liomaid taobh deas aig a' bhonn
+  '1376262': Roinneadh inghearach pinc taobh deas aig a' bhonn
+  '1376263': Roinneadh inghearach liath taobh deas aig a' bhonn
+  '1376264': Roinneadh inghearach soilleir-liath taobh deas aig a' bhonn
+  '1376265': Roinneadh inghearach saidhean taobh deas aig a' bhonn
+  '1376266': Roinneadh inghearach purpaidh taobh deas aig a' bhonn
+  '1376267': Roinneadh inghearach gorm taobh deas aig a' bhonn
+  '1376268': Roinneadh inghearach donn taobh deas aig a' bhonn
+  '1376269': Roinneadh inghearach uaine taobh deas aig a' bhonn
+  '1376270': Roinneadh inghearach dearg taobh deas aig a' bhonn
+  '1376271': Roinneadh inghearach dubh taobh deas aig a' bhonn
+  '1441792': Roinneadh inghearach geal taobh clì aig a' bhonn
+  '1441793': Roinneadh inghearach orains taobh clì aig a' bhonn
+  '1441794': Roinneadh inghearach magenta taobh clì aig a' bhonn
+  '1441795': Roinneadh inghearach soilleir-ghorm taobh clì aig a' bhonn
+  '1441796': Roinneadh inghearach buidhe taobh clì aig a' bhonn
+  '1441797': Roinneadh inghearach dath na liomaid taobh clì aig a' bhonn
+  '1441798': Roinneadh inghearach pinc taobh clì aig a' bhonn
+  '1441799': Roinneadh inghearach liath taobh clì aig a' bhonn
+  '1441800': Roinneadh inghearach soilleir-liath taobh clì aig a' bhonn
+  '1441801': Roinneadh inghearach saidhean taobh clì aig a' bhonn
+  '1441802': Roinneadh inghearach purpaidh taobh clì aig a' bhonn
+  '1441803': Roinneadh inghearach gorm taobh clì aig a' bhonn
+  '1441804': Roinneadh inghearach donn taobh clì aig a' bhonn
+  '1441805': Roinneadh inghearach uaine taobh clì aig a' bhonn
+  '1441806': Roinneadh inghearach dearg taobh clì aig a' bhonn
+  '1441807': Roinneadh inghearach dubh taobh clì aig a' bhonn
+  '1507328': Roinneadh inghearach geal taobh deas aig a' bharr
+  '1507329': Roinneadh inghearach orains taobh deas aig a' bharr
+  '1507330': Roinneadh inghearach magenta taobh deas aig a' bharr
+  '1507331': Roinneadh inghearach soilleir-ghorm taobh deas aig a' bharr
+  '1507332': Roinneadh inghearach buidhe taobh deas aig a' bharr
+  '1507333': Roinneadh inghearach dath na liomaid taobh deas aig a' bharr
+  '1507334': Roinneadh inghearach pinc taobh deas aig a' bharr
+  '1507335': Roinneadh inghearach liath taobh deas aig a' bharr
+  '1507336': Roinneadh inghearach soilleir-liath taobh deas aig a' bharr
+  '1507337': Roinneadh inghearach saidhean taobh deas aig a' bharr
+  '1507338': Roinneadh inghearach purpaidh taobh deas aig a' bharr
+  '1507339': Roinneadh inghearach gorm taobh deas aig a' bharr
+  '1507340': Roinneadh inghearach donn taobh deas aig a' bharr
+  '1507341': Roinneadh inghearach uaine taobh deas aig a' bharr
+  '1507342': Roinneadh inghearach dearg taobh deas aig a' bharr
+  '1507343': Roinneadh inghearach dubh taobh deas aig a' bharr
+  '1572864': Cearcall geal
+  '1572865': Cearcall orains
+  '1572866': Cearcall magenta
+  '1572867': Cearcall soilleir-ghorm
+  '1572868': Cearcall buidhe
+  '1572869': Cearcall dath na liomaid
+  '1572870': Cearcall pinc
+  '1572871': Cearcall liath
+  '1572872': Cearcall soilleir-liath
+  '1572873': Cearcall saidhean
+  '1572874': Cearcall purpaidh
+  '1572875': Cearcall gorm
+  '1572876': Cearcall donn
+  '1572877': Cearcall uaine
+  '1572878': Cearcall dearg
+  '1572879': Cearcall dubh
+  '1638400': Rombas gheal
+  '1638401': Rombas orains
+  '1638402': Rombas mhagenta
+  '1638403': Rombas shoilleir-ghorm
+  '1638404': Rombas bhuidhe
+  '1638405': Rombas dath na liomaid
+  '1638406': Rombas phinc
+  '1638407': Rombas liath
+  '1638408': Rombas shoilleir-liath
+  '1638409': Rombas shaidhean
+  '1638410': Rombas phurpaidh
+  '1638411': Rombas ghorm
+  '1638412': Rombas dhonn
+  '1638413': Rombas uaine
+  '1638414': Rombas dhearg
+  '1638415': Rombas dhubh
+  '1703936': Roinneadh inghearach geal air an taobh chlì
+  '1703937': Roinneadh inghearach orains air an taobh chlì
+  '1703938': Roinneadh inghearach magenta air an taobh chlì
+  '1703939': Roinneadh inghearach soilleir-ghorm air an taobh chlì
+  '1703940': Roinneadh inghearach buidhe air an taobh chlì
+  '1703941': Roinneadh inghearach dath na liomaid air an taobh chlì
+  '1703942': Roinneadh inghearach pinc air an taobh chlì
+  '1703943': Roinneadh inghearach liath air an taobh chlì
+  '1703944': Roinneadh inghearach soilleir-liath air an taobh chlì
+  '1703945': Roinneadh inghearach saidhean air an taobh chlì
+  '1703946': Roinneadh inghearach purpaidh air an taobh chlì
+  '1703947': Roinneadh inghearach gorm air an taobh chlì
+  '1703948': Roinneadh inghearach donn air an taobh chlì
+  '1703949': Roinneadh inghearach uaine air an taobh chlì
+  '1703950': Roinneadh inghearach dearg air an taobh chlì
+  '1703951': Roinneadh inghearach dubh air an taobh chlì
+  '1769472': Roinneadh geal aig a' bharr
+  '1769473': Roinneadh orains aig a' bharr
+  '1769474': Roinneadh magenta aig a' bharr
+  '1769475': Roinneadh soilleir-ghorm aig a' bharr
+  '1769476': Roinneadh buidhe aig a' bharr
+  '1769477': Roinneadh dath na liomaid aig a' bharr
+  '1769478': Roinneadh pinc aig a' bharr
+  '1769479': Roinneadh liath aig a' bharr
+  '1769480': Roinneadh soilleir-liath aig a' bharr
+  '1769481': Roinneadh saidhean aig a' bharr
+  '1769482': Roinneadh purpaidh aig a' bharr
+  '1769483': Roinneadh gorm aig a' bharr
+  '1769484': Roinneadh donn aig a' bharr
+  '1769485': Roinneadh uaine aig a' bharr
+  '1769486': Roinneadh dearg aig a' bharr
+  '1769487': Roinneadh dubh aig a' bharr
+  '1835008': Roinneadh inghearach geal air an taobh deas
+  '1835009': Roinneadh inghearach orains air an taobh deas
+  '1835010': Roinneadh inghearach magenta air an taobh deas
+  '1835011': Roinneadh inghearach soilleir-ghorm air an taobh deas
+  '1835012': Roinneadh inghearach buidhe air an taobh deas
+  '1835013': Roinneadh inghearach dath na liomaid air an taobh deas
+  '1835014': Roinneadh inghearach pinc air an taobh deas
+  '1835015': Roinneadh inghearach liath air an taobh deas
+  '1835016': Roinneadh inghearach soilleir-liath air an taobh deas
+  '1835017': Roinneadh inghearach saidhean air an taobh deas
+  '1835018': Roinneadh inghearach purpaidh air an taobh deas
+  '1835019': Roinneadh inghearach gorm air an taobh deas
+  '1835020': Roinneadh inghearach donn air an taobh deas
+  '1835021': Roinneadh inghearach uaine air an taobh deas
+  '1835022': Roinneadh inghearach dearg air an taobh deas
+  '1835023': Roinneadh inghearach dubh air an taobh deas
+  '1900544': Roinneadh geal aig a' bhonn
+  '1900545': Roinneadh orains aig a' bhonn
+  '1900546': Roinneadh magenta aig a' bhonn
+  '1900547': Roinneadh soilleir-ghorm aig a' bhonn
+  '1900548': Roinneadh buidhe aig a' bhonn
+  '1900549': Roinneadh dath na liomaid aig a' bhonn
+  '1900550': Roinneadh pinc aig a' bhonn
+  '1900551': Roinneadh liath aig a' bhonn
+  '1900552': Roinneadh soilleir-liath aig a' bhonn
+  '1900553': Roinneadh saidhean aig a' bhonn
+  '1900554': Roinneadh purpaidh aig a' bhonn
+  '1900555': Roinneadh gorm aig a' bhonn
+  '1900556': Roinneadh donn aig a' bhonn
+  '1900557': Roinneadh uaine aig a' bhonn
+  '1900558': Roinneadh dearg aig a' bhonn
+  '1900559': Roinneadh dubh aig a' bhonn
+  '1966080': Iomallan geala
+  '1966081': Iomallan orains
+  '1966082': Iomallan magenta
+  '1966083': Iomallan shoilleir-ghorma
+  '1966084': Iomallan buidhe
+  '1966085': Iomallan dath na liomaid
+  '1966086': Iomallan pince
+  '1966087': Iomallan liatha
+  '1966088': Iomallan soilleir-liatha
+  '1966089': Iomallan saidhean
+  '1966090': Iomallan purpaidh
+  '1966091': Iomallan gorma
+  '1966092': Iomallan donna
+  '1966093': Iomallan uaine
+  '1966094': Iomallan dearga
+  '1966095': Iomallan dubha
+  '2031616': Iomallan eagach geala
+  '2031617': Iomallan eagach orains
+  '2031618': Iomallan eagach magenta
+  '2031619': Iomallan eagach soilleir-ghorma
+  '2031620': Iomallan eagach buidhe
+  '2031621': Iomallan eagach dath na liomaid
+  '2031622': Iomallan eagach pince
+  '2031623': Iomallan eagach liatha
+  '2031624': Iomallan eagach soilleir-liatha
+  '2031625': Iomallan eagach saidhean
+  '2031626': Iomallan eagach purpaidh
+  '2031627': Iomallan eagach gorma
+  '2031628': Iomallan eagach donna
+  '2031629': Iomallan eagach uaine
+  '2031630': Iomallan eagach dearga
+  '2031631': Iomallan eagach dubha
+  '2097152': Creeper geal
+  '2097153': Creeper orains
+  '2097154': Creeper magenta
+  '2097155': Creeper soilleir-ghorm
+  '2097156': Creeper buidhe
+  '2097157': Creeper dath na liomaide
+  '2097158': Creeper pinc
+  '2097159': Creeper liath
+  '2097160': Creeper soilleir-liath
+  '2097161': Creeper saidhean
+  '2097162': Creeper purpaidh
+  '2097163': Creeper gorm
+  '2097164': Creeper donn
+  '2097165': Creeper uaine
+  '2097166': Creeper dearg
+  '2097167': Creeper dubh
+  '2162688': Caisead geal on bharr
+  '2162689': Caisead orains on bharr
+  '2162690': Caisead magenta on bharr
+  '2162691': Caisead soilleir-ghorm on bharr
+  '2162692': Caisead buidhe on bharr
+  '2162693': Caisead dath na liomaid on bharr
+  '2162694': Caisead pinc on bharr
+  '2162695': Caisead liath on bharr
+  '2162696': Caisead soilleir-liath on bharr
+  '2162697': Caisead saidhean on bharr
+  '2162698': Caisead purpaidh on bharr
+  '2162699': Caisead gorm on bharr
+  '2162700': Caisead donn on bharr
+  '2162701': Caisead uaine on bharr
+  '2162702': Caisead dearg on bharr
+  '2162703': Caisead dubh on bharr
+  '2228224': Caisead geal on bhonn
+  '2228225': Caisead orains on bhonn
+  '2228226': Caisead magenta on bhonn
+  '2228227': Caisead soilleir-ghorm on bhonn
+  '2228228': Caisead buidhe on bhonn
+  '2228229': Caisead dath na liomaid on bhonn
+  '2228230': Caisead pinc on bhonn
+  '2228231': Caisead liath on bhonn
+  '2228232': Caisead soilleir-liath on bhonn
+  '2228233': Caisead saidhean on bhonn
+  '2228234': Caisead purpaidh on bhonn
+  '2228235': Caisead gorm on bhonn
+  '2228236': Caisead donn on bhonn
+  '2228237': Caisead uaine on bhonn
+  '2228238': Caisead dearg on bhonn
+  '2228239': Caisead dubh on bhonn
+  '2293760': Breigichean geala
+  '2293761': Breigichean orains
+  '2293762': Breigichean magenta
+  '2293763': Breigichean soilleir-ghorma
+  '2293764': Breigichean buidhe
+  '2293765': Breigichean dath na liomaid
+  '2293766': Breigichean pince
+  '2293767': Breigichean liatha
+  '2293768': Breigichean soilleir-liatha
+  '2293769': Breigichean saidhean
+  '2293770': Breigichean purpaidh
+  '2293771': Breigichean gorma
+  '2293772': Breigichean donna
+  '2293773': Breigichean uaine
+  '2293774': Breigichean dearga
+  '2293775': Breigichean dubha
+  '2359296': Claigeann geal
+  '2359297': Claigeann orains
+  '2359298': Claigeann magenta
+  '2359299': Claigeann soilleir-ghorm
+  '2359300': Claigeann buidhe
+  '2359301': Claigeann dath na liomaide
+  '2359302': Claigeann pinc
+  '2359303': Claigeann liath
+  '2359304': Claigeann soilleir-liath
+  '2359305': Claigeann saidhean
+  '2359306': Claigeann purpaidh
+  '2359307': Claigeann gorm
+  '2359308': Claigeann donn
+  '2359309': Claigeann uaine
+  '2359310': Claigeann dearg
+  '2359311': Claigeann dubh
+  '2424832': Flùr geal
+  '2424833': Flùr orains
+  '2424834': Flùr magenta
+  '2424835': Flùr soilleir-ghorm
+  '2424836': Flùr buidhe
+  '2424837': Flùr dath na liomaide
+  '2424838': Flùr pinc
+  '2424839': Flùr liath
+  '2424840': Flùr soilleir-liath
+  '2424841': Flùr saidhean
+  '2424842': Flùr purpaidh
+  '2424843': Flùr gorm
+  '2424844': Flùr donn
+  '2424845': Flùr uaine
+  '2424846': Flùr dearg
+  '2424847': Flùr dubh
+  '2490368': Suaicheantas geal
+  '2490369': Suaicheantas orains
+  '2490370': Suaicheantas magenta
+  '2490371': Suaicheantas soilleir-ghorm
+  '2490372': Suaicheantas buidhe
+  '2490373': Suaicheantas dath na liomaid
+  '2490374': Suaicheantas pinc
+  '2490375': Suaicheantas liath
+  '2490376': Suaicheantas soilleir-liath
+  '2490377': Suaicheantas saidhean
+  '2490378': Suaicheantas purpaidh
+  '2490379': Suaicheantas gorm
+  '2490380': Suaicheantas donn
+  '2490381': Suaicheantas uaine
+  '2490382': Suaicheantas dearg
+  '2490383': Suaicheantas dubh
+  '2555904': Cruinne geal
+  '2555905': Cruinne orains
+  '2555906': Cruinne magenta
+  '2555907': Cruinne gorm aotrom
+  '2555908': Cruinne buidhe
+  '2555909': Cruinne aol
+  '2555910': Cruinne pinc
+  '2555911': Cruinne liath
+  '2555912': Cruinne liath aotrom
+  '2555913': Cruinne cian
+  '2555914': Cruinne purpaidh
+  '2555915': Cruinne gorm
+  '2555916': Cruinne donn
+  '2555917': Cruinne uaine
+  '2555918': Cruinne ruadh
+  '2555919': Cruinne dubh
+  '2621440': White Snout
+  '2621441': Orange Snout
+  '2621442': Maidèanta Ann Snout
+  '2621443': Light Blue Snout
+  '2621444': Yellow Snout
+  '2621445': Lime Snout
+  '2621446': Pink Snout
+  '2621447': Gray Snout
+  '2621448': Light Gray Snout
+  '2621449': ': Saidhean Snout'
+  '2621450': Purpaidh Snout
+  '2621451': Blue Snout
+  '2621452': Brown Snout
+  '2621453': Green Snout
+  '2621454': Red Snout
+  '2621455': Black Snout
+merchant_level:
+  '1': Ùr-ionnsaiche
+  '2': Fhoghlainneach
+  '3': Fear-turais
+  '4': Eòlaiche
+  '5': Maighstir
+villager_profession:
+  none: Saoranach
+  armorer: Ceàrd-armachd
+  butcher: Feòladair
+  cartographer: Fear nam mapa
+  cleric: Clèireach
+  farmer: Tuathanach
+  fisherman: Iasgair
+  fletcher: Fleistear
+  leatherworker: Ceàrd-leathrach
+  librarian: Leabharlannaiche
+  mason: Clachair
+  nitwit: Amadan
+  shepherd: Cìobair
+  toolsmith: Inneal-inneal
+  weaponsmith: Armachd
+villager_career:
+  farmer: Tuathanach
+  fisherman: Iasgair
+  shepherd: Cìobair
+  fletcher: Fleistear
+  librarian: Leabharlannaiche
+  cartographer: Fear nam mapa
+  cleric: Clèireach
+  armorer: Ceàrd-armachd
+  weapon_smith: Airm-cheàrd
+  tool_smith: Ceàrd
+  butcher: Feòladair
+  leatherworker: Ceàrd-leathrach
+  nitwit: Amadan

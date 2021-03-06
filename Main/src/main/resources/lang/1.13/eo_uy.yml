@@ -1,0 +1,624 @@
+# ####################################################
+# Build time: 2021-03-06 14:47:27                    #
+# ####################################################
+language:
+  code: eo_uy
+  name: Esperanto
+  region: Esperantujo
+material:
+  acacia_boat: Akacia ligna boato
+  acacia_door: Akacia ligna pordo
+  acacia_fence: Akacia ligna barilo
+  acacia_fence_gate: Akacia ligna barilpordo
+  acacia_trapdoor: Akacia Klappordo
+  activator_rail: Aktiviga relo
+  attached_pumpkin_stem: Alligita kukurbo tigo
+  bedrock: Fundoŝtono
+  beetroot: Ruĝa beto
+  beetroots: Ruĝaj betoj
+  beetroot_seeds: Semoj de ruĝa beto
+  beetroot_soup: Ruĝa beto supo
+  birch_boat: Betula ligna boato
+  birch_door: Betula ligna pordo
+  birch_fence: Betula ligna barilo
+  birch_fence_gate: Betula ligna barilpordo
+  birch_trapdoor: Betula Klappordo
+  black_banner: Nigra flago
+  black_concrete_powder: Nigra Betona Pulvoro
+  black_wall_banner: Nigra flago
+  blaze_rod: Incendia bastono
+  blue_banner: Blua flago
+  blue_concrete_powder: Blua Betona Pulvoro
+  blue_wall_banner: Blua flago
+  brown_banner: Bruna flago
+  brown_concrete_powder: Bruna Betona Pulvoro
+  brown_mushroom: Bruna fungo
+  brown_mushroom_block: Bloko da bruna fungo
+  brown_wall_banner: Bruna flago
+  bubble_column: Kolumno de Bobelo
+  cave_air: Kaverna Aero
+  chainmail_chestplate: Ĉena kiraso
+  chest: Kesto
+  chest_minecart: Ĉaro kun kesto
+  chipped_anvil: Ĉirkaŭĉiza amboso
+  clay: Argilo
+  clay_ball: Argilo
+  cod: Moruo kruda
+  cod_bucket: Sitelo da moruo
+  command_block_minecart: Ĉaro kun komandbloko
+  comparator: Ruĝaŝtonkomparilo
+  conduit: Kanalo
+  cooked_cod: Muruo kuirita
+  cooked_rabbit: Kuirita kuniklo
+  cut_red_sandstone: Tajlata ruĝa sabloŝtono
+  cut_sandstone: Tajlata sabloŝtono
+  cyan_banner: Turkisa flago
+  cyan_concrete_powder: Turkisa betona pulvoro
+  cyan_wall_banner: Turkisa flago
+  dark_oak_boat: Malhelkverka ligna boato
+  dark_oak_door: Malhelkverka ligna pordo
+  dark_oak_fence: Malhelkverka ligna barilo
+  dark_oak_fence_gate: Malhelkverka ligna barilpordo
+  dark_oak_trapdoor: Malhelkverka Klappordo
+  dark_prismarine: Malhela prismarino
+  dark_prismarine_slab: Ŝtupo de malhela prismarino
+  dark_prismarine_stairs: Ŝtuparo de malhela prismarino
+  daylight_detector: Somera detektilo
+  debug_stick: Sencimiga Bastono
+  detector_rail: Detekta relo
+  diamond_chestplate: Diamanta kiraso
+  dragon_head: Drako kapo
+  dried_kelp: Sekiganta fuko
+  dried_kelp_block: Sekiganta fuka bloko
+  drowned_spawn_egg: Aperigovo de dronito
+  elder_guardian_spawn_egg: Aperigovo de plejaĝa gardisto
+  enchanted_golden_apple: Ensorĉita ora pomo
+  enderman_spawn_egg: Aperigovo de endano
+  endermite_spawn_egg: Aperigovo de endermito
+  ender_chest: Enderkesto
+  end_crystal: Fineja kristalo
+  end_gateway: Pordego de la End
+  end_portal_frame: Kadro de Finejportalo
+  end_rod: Fineja bastono
+  end_stone: Endstono
+  end_stone_bricks: Endstonaj brikoj
+  frosted_ice: Frosta glacio
+  furnace_minecart: Ĉaro kun forno
+  ghast_spawn_egg: Aperigovo de ghasto
+  ghast_tear: Fantomolarmo
+  glistering_melon_slice: Brila melontranĉaĵo
+  glowstone_dust: Lumŝtona polvo
+  golden_chestplate: Ora kiraso
+  grass_path: Herba vojo
+  gray_banner: Griza flago
+  gray_concrete_powder: Griza Betona Pulvoro
+  gray_wall_banner: Griza flago
+  green_banner: Verda flago
+  green_concrete_powder: Verda Betona Pulvoro
+  green_wall_banner: Verda flago
+  heart_of_the_sea: Marokerno
+  heavy_weighted_pressure_plate: Peza pesanta premplato
+  hopper_minecart: Ĉaro kun funelo
+  husk_spawn_egg: Aperigovo de mumio
+  iron_chestplate: Fera kiraso
+  iron_nugget: Fera ciro
+  jungle_boat: Ĝangala ligna boato
+  jungle_door: Ĝangala ligna pordo
+  jungle_fence: Ĝangala ligna barilo
+  jungle_fence_gate: Ĝangala ligna barilpordo
+  jungle_trapdoor: Ĝangala Klappordo
+  kelp: Fuko
+  kelp_plant: Kreskanta fuko
+  knowledge_book: Enciklopedio
+  lead: Gvidilo
+  leather_helmet: Leda kasko
+  lever: Stangoŝaltilo
+  light_blue_banner: Helblua flago
+  light_blue_concrete_powder: Helblua Betona Pulvoro
+  light_blue_wall_banner: Helblua flago
+  light_gray_banner: Helgriza flago
+  light_gray_concrete_powder: Helgriza Betona Pulvoro
+  light_gray_wall_banner: Helgriza flago
+  light_weighted_pressure_plate: Malpeza pesanta premplato
+  lime_banner: Helverda flago
+  lime_concrete_powder: Helverda betona pulvoro
+  lime_shulker_box: Helverda skatolo de Ŝulkro
+  lime_wall_banner: Helverda flago
+  magenta_banner: Magenta flago
+  magenta_bed: Magenta lito
+  magenta_carpet: Magenta tapiŝo
+  magenta_concrete: Magenta betono
+  magenta_concrete_powder: Magenta betona pulvoro
+  magenta_dye: Magenta tinkturo
+  magenta_glazed_terracotta: Magenta glazurita terakoto
+  magenta_shulker_box: Magenta skatolo de ŝulkro
+  magenta_stained_glass: Magentigita Vitro
+  magenta_stained_glass_pane: Magentigita Glaco
+  magenta_terracotta: Magenta terakoto
+  magenta_wall_banner: Magenta flago
+  magenta_wool: Magenta lano
+  melon_slice: Tranĉaĵo da akvomelono
+  minecart: Ĉaro
+  mooshroom_spawn_egg: Aperigovo de mooshroomo
+  mushroom_stem: Stipo
+  netherrack: Inferŝtono
+  nether_brick: Inferbriko
+  nether_bricks: Inferbrikoj
+  nether_brick_fence: Inferbrika barilo
+  nether_brick_slab: Inferbrika ŝtupo
+  nether_brick_stairs: Inferbrika ŝtuparo
+  nether_portal: Inferportalo
+  nether_quartz_ore: Erco de infera kvarco
+  nether_star: Infera stelo
+  nether_wart: Infera veruko
+  nether_wart_block: Infera veruka bloko
+  note_block: Notobloko
+  oak_boat: Kverka ligna boato
+  oak_door: Kverka ligna pordo
+  oak_fence: Kverka ligna barilo
+  oak_fence_gate: Kverka ligna barilpordo
+  observer: Observanto
+  orange_banner: Oranĝkolora flago
+  orange_concrete_powder: Oranĝkolora Betona Pulvoro
+  orange_wall_banner: Oranĝkolora flago
+  pink_banner: Rozkolora flago
+  pink_concrete: Roza betono
+  pink_concrete_powder: Rozkolora Betona Pulvoro
+  pink_dye: Roza tinkturo
+  pink_wall_banner: Rozkolora flago
+  polished_andesite: Glatandezito
+  polished_diorite: Glatdiorito
+  polished_granite: Glatgranito
+  potted_brown_mushroom: Florpota bruna fungo
+  potted_cactus: Florpota Kakto
+  potted_red_mushroom: Florpota ruĝa fungo
+  prismarine_bricks: Prismarinaj brikoj
+  prismarine_brick_slab: Ŝtupo de prismarinaj brikoj
+  prismarine_brick_stairs: Ŝtuparo de prismarinaj brikoj
+  pufferfish_bucket: Sitelo da Pintfiŝo
+  pumpkin_stem: Kukurbo tigo
+  purple_banner: Violkolora flago
+  purple_concrete_powder: Violkolora Betona Pulvoro
+  purple_wall_banner: Violkolora flago
+  quartz: Infera kvarco
+  rabbit: Kruda kuniklo
+  rabbit_foot: Kuniklopiedo
+  rabbit_stew: Kunikloraguo
+  redstone: Ruĝŝtono
+  redstone_block: Ruĝŝtona bloko
+  redstone_lamp: Ruĝaŝtonlampo
+  redstone_ore: Ruĝŝtona erco
+  redstone_torch: Ruĝŝtona torĉo
+  redstone_wall_torch: Ruĝŝtona mura torĉo
+  redstone_wire: Ruĝŝtona polvo
+  red_banner: Ruĝa flago
+  red_concrete_powder: Ruĝa betona pulvoro
+  red_mushroom: Ruĝa fungo
+  red_mushroom_block: Bloko da ruĝa fungo
+  red_nether_bricks: Ruĝaj inferbrikoj
+  red_wall_banner: Ruĝa flago
+  repeater: Ruĝŝtonrepetilo
+  rose_bush: Rozarbo
+  salmon_bucket: Sitelo da salmo
+  scute: Keratino
+  shulker_box: Skatolo de Ŝulkro
+  smooth_quartz: Glata kvarco
+  splash_potion: Plaŭdo eliksiro
+  spruce_boat: Picea ligna boato
+  spruce_door: Picea ligna pordo
+  spruce_fence: Picea ligna barilo
+  spruce_fence_gate: Picea ligna barilpordo
+  stone_brick_stairs: Ŝtonobrika ŝtuparo
+  stripped_acacia_wood: Akacia Ligno sen Ŝelo
+  stripped_birch_wood: Betula Ligno sen Ŝelo
+  stripped_dark_oak_wood: Malhelkverka Ligno sen Ŝelo
+  stripped_jungle_wood: Ĝangala Ligno sen Ŝelo
+  stripped_oak_wood: Kverka Ligno sen Ŝelo
+  stripped_spruce_log: Senŝela pina ŝtipo
+  stripped_spruce_wood: Picea Ligno sen Ŝelo
+  structure_block: Strukturo bloko
+  structure_void: Svoido
+  tall_grass: Alta Herbo
+  tall_seagrass: Alta Marherbo
+  tnt_minecart: Ĉaro kun TNT
+  totem_of_undying: Totemo de Senmortado
+  trapped_chest: Baskulkesto
+  tripwire: Ŝaltila kablo
+  tripwire_hook: Hoko por ŝaltila kablo
+  tropical_fish_bucket: Sitelo da Tropika fiŝo
+  tropical_fish_spawn_egg: Aperigovo da tropika fiŝo
+  turtle_spawn_egg: Aperigovo da testudo
+  void_air: Malplenaĵa Aero
+  wall_torch: Muro torĉo
+  white_banner: Blanka flago
+  white_concrete_powder: Blanka Betona Pulvoro
+  white_wall_banner: Blanka flago
+  wither_skeleton_skull: Kranio de wither-skeleto
+  wither_skeleton_spawn_egg: Aperigovo de wither-skeleto
+  wither_skeleton_wall_skull: Mura kranio de wither-skeleto
+  yellow_banner: Flava flago
+  yellow_concrete_powder: Flava Betona Pulvoro
+  yellow_wall_banner: Flava flago
+biome:
+  nether: Infero
+  the_end: La End
+  frozen_ocean: Frostiga oceano
+  frozen_river: Frostiga rivero
+  badlands: Stepoj
+  badlands_plateau: Stepa altebenaĵo
+  small_end_islands: Endaj insuletoj
+  end_midlands: Endaj centrlandoj
+  end_highlands: Endaj altaĵoj
+  end_barrens: Endaj sovaĝejoj
+  deep_frozen_ocean: Profunda frostita oceano
+  the_void: La Malplenaĵo
+enchantment:
+  frost_walker: Prujna marŝo
+  smite: Turmento
+  sweeping: Balaa Eĝo
+  bane_of_arthropods: Turmento de Artropodoj
+  riptide: Pulso
+  impaling: Palisumanta
+potion:
+  instant_heal: Eliksiro de Sanigado
+  instant_damage: Eliksiro de Lezado
+  poison: Eliksiro de Veneno
+  regen: Eliksiro de Resanigo
+  strength: Eliksiro de Forteco
+  turtle_master: Eliksiro de la Testudo Majstro
+  slow_falling: Eliksiro de Malrapida Falateco
+splash_potion:
+  water: Ŝpruca Akvobotelo
+  mundane: Banala Ŝpruca Eliksiro
+  thick: Densa Ŝpruca Eliksiro
+  awkward: Stranga Ŝpruca Eliksiro
+  speed: Ŝpruca Eliksiro de Rapideco
+  slowness: Ŝpruca Eliksiro de Malrapideco
+  instant_heal: Ŝpruca Eliksiro de Sanigado
+  instant_damage: Ŝpruca Eliksiro de Lezado
+  poison: Ŝpruca Eliksiro de Veneno
+  regen: Ŝpruca Eliksiro de Resanigo
+  strength: Ŝpruca Eliksiro de Forteco
+  turtle_master: Ŝpruca Eliksiro de la Testudo Majstro
+  slow_falling: Ŝpruca Eliksiro de Malrapida Falateco
+lingering_potion:
+  water: Resta Akvobotelo
+  mundane: Banala Resta Eliksiro
+  thick: Densa Resta Eliksiro
+  awkward: Stranga Resta Eliksiro
+  speed: Resta Eliksiro de Rapideco
+  slowness: Resta Eliksiro de Malrapideco
+  instant_heal: Resta Eliksiro de Sanigado
+  instant_damage: Resta Eliksiro de Lezado
+  poison: Resta Eliksiro de Veneno
+  regen: Resta Eliksiro de Resanigo
+  strength: Resta Eliksiro de Forteco
+  turtle_master: Resta Eliksiro de la Testudo Majstro
+  slow_falling: Resta Eliksiro de Malrapida Falateco
+tipped_arrow:
+  water: Sago de Ŝprucado
+  night_vision: Sago de Noktvido
+  invisibility: Sago de Nevidebleco
+  jump: Sago de Saltado
+  fire_resistance: Sago de Fajrorezisto
+  speed: Sago de Rapideco
+  slowness: Sago de Malrapideco
+  water_breathing: Sago de Submarspirado
+  instant_heal: Sago de Sanigado
+  instant_damage: Sago de Lezado
+  poison: Sago de Veneno
+  regen: Sago de Resanigo
+  strength: Sago de Forteco
+  weakness: Sago de Malforteco
+  luck: Sago de Bonŝanco
+  turtle_master: Sago de la Testudo Majstro
+  slow_falling: Sago de Malrapida Falateco
+entity:
+  area_effect_cloud: Nubo de areoefekto
+  elder_guardian: Plejaĝa Gardanto
+  wither_skeleton: Wither-skeleto
+  egg: Ĵetita Ovo
+  ender_pearl: Ĵetita Finejperlo
+  thrown_exp_bottle: Ĵetita Botelo de Sorĉado
+  wither_skull: Kranio de Wither
+  husk: Mumio
+  dragon_fireball: Draka farjropilko
+  evoker_fangs: Alvokisto Dentegoj
+  minecart_command: Ĉaro kun komandbloko
+  minecart: Ĉaro
+  minecart_chest: Ĉaro kun kesto
+  minecart_furnace: Ĉaro kun forno
+  minecart_tnt: Ĉaro kun TNT
+  minecart_hopper: Ĉaro kun funelo
+  minecart_mob_spawner: Ĉaro kun generilo
+  ghast: Fantomo
+  wither: Wither
+  endermite: Endermito
+  guardian: Gardisto
+  ender_crystal: Fineja kristalo
+  drowned: Dronito
+effect:
+  wither: Wither
+  levitation: Ŝvebado
+  slow_falling: Malrapida Falateco
+  conduit_power: Kanalopotenco
+  dolphins_grace: Graco de Delfeno
+tropical_fish_type:
+  spotty: Punktulo
+  stripey: Liniulo
+  glitter: Brilantulo
+dye_color:
+  magenta: Magenta
+named:
+  unknown_enchantment: 'Nekonata sorĉado: %s'
+tropical_fish_name:
+  '117899265': Kirurgo nigra
+  '117441793': Papilfiŝo
+  '118161664': Siklido
+  '67764993': Pictichromis paccagnella
+  '234882305': Lutjanus sebae
+  '117441025': Zanclus cornutus
+  '16778497': Ornatepapiliofiŝo
+  '101253888': Papago
+  '235340288': Ophioblennius atlanticus
+  '918273': Lutjanus campechanus
+  '67108865': Polynemidae
+  '459008': Balistidae
+  '67699456': Papagafiŝo flavavosta
+  '67371009': Kirurgo flava
+colored_shied:
+  magenta: Magenta ŝildo
+banner_pattern:
+  '65536': Blanka malsupra dekstra flagokvadrado
+  '65537': Oranĝkolora malsupra dekstra flagokvadrado
+  '65538': Magenta malsupra dekstra flagokvadrado
+  '65539': Helblua malsupra dekstra flagokvadrado
+  '65540': Flava malsupra dekstra flagokvadrado
+  '65541': Helverda malsupra dekstra flagokvadrado
+  '65542': Rozkolora malsupra dekstra flagokvadrado
+  '65543': Griza malsupra dekstra flagokvadrado
+  '65544': Helgriza malsupra dekstra flagokvadrado
+  '65545': Turkisa malsupra dekstra flagokvadrado
+  '65546': Viola malsupra dekstra flagokvadrado
+  '65547': Blua  malsupra dekstra flagokvadrado
+  '65548': Bruna malsupra dekstra flagokvadrado
+  '65549': Verda malsupra dekstra flagokvadrado
+  '65550': Ruĝa malsupra dekstra flagokvadrado
+  '65551': Nigra malsupra dekstra flagokvadrado
+  '131072': Blanka malsupra maldekstra flagokvadrado
+  '131073': Oranĝkolora malsupra maldekstra flagokvadrado
+  '131074': Magenta malsupra maldekstra flagokvadrado
+  '131075': Helblua malsupra maldekstra flagokvadrado
+  '131076': Flava malsupra maldekstra flagokvadrado
+  '131077': Helverda malsupra maldekstra flagokvadrado
+  '131078': Rozkolora malsupra maldekstra flagokvadrado
+  '131079': Griza malsupra maldekstra flagokvadrado
+  '131080': Helgriza malsupra maldekstra flagokvadrado
+  '131081': Turkisa malsupra maldekstra flagokvadrado
+  '131082': Viola malsupra maldekstra flagokvadrado
+  '131084': Bruna malsupra maldekstra flagokvadrado
+  '131085': Verda malsupra maldekstra flagokvadrado
+  '131086': Ruĝa malsupra maldekstra flagokvadrado
+  '131087': Nigra malsupra maldekstra flagokvadrado
+  '196608': Blanka supra dekstra flagokvadrado
+  '196609': Oranĝkolora supra dekstra flagokvadrado
+  '196610': Magenta supra dekstra flagokvadrado
+  '196611': Helblua supra dekstra flagokvadrado
+  '196612': Flava supra dekstra flagokvadrado
+  '196613': Helverda supra dekstra flagokvadrado
+  '196614': Rozkolora supra dekstra flagokvadrado
+  '196615': Griza supra dekstra flagokvadrado
+  '196616': Helgriza supra dekstra flagokvadrado
+  '196617': Turkisa supra dekstra flagokvadrado
+  '196618': Viola supra dekstra flagokvadrado
+  '196619': Blua supra dekstra flagokvadrado
+  '196620': Bruna supra dekstra flagokvadrado
+  '196621': Verda supra dekstra flagokvadrado
+  '196622': Ruĝa supra dekstra flagokvadrado
+  '196623': Nigra supra dekstra flagokvadrado
+  '262144': Blanka supra maldekstra flagokvadrado
+  '262145': Oranĝkolora supra maldekstra flagokvadrado
+  '262146': Magenta supra maldekstra flagokvadrado
+  '262147': Helblua supra maldekstra flagokvadrado
+  '262148': Flava supra maldekstra flagokvadrado
+  '262149': Helverda supra maldekstra flagokvadrado
+  '262150': Rozkolora supra maldekstra flagokvadrado
+  '262151': Griza supra maldekstra flagokvadrado
+  '262152': Helgriza supra maldekstra flagokvadrado
+  '262153': Turkisa supra maldekstra flagokvadrado
+  '262154': Viola supra maldekstra flagokvadrado
+  '262155': Blua supra maldekstra flagokvadrado
+  '262156': Bruna supra maldekstra flagokvadrado
+  '262157': Verda supra maldekstra flagokvadrado
+  '262158': Ruĝa supra maldekstra flagokvadrado
+  '262159': Nigra supra maldekstra flagokvadrado
+  '327682': Magenta bazo
+  '393216': Blanka estro
+  '393217': Oranĝkolora estro
+  '393218': Magenta estro
+  '393219': Helblua estro
+  '393220': Flava estro
+  '393221': Helverda estro
+  '393222': Rozkolora estro
+  '393223': Griza estro
+  '393224': Helgriza estro
+  '393225': Turkisa estro
+  '393226': Violkolora estro
+  '393227': Blua estro
+  '393228': Bruna estro
+  '393229': Verda estro
+  '393230': Ruĝa estro
+  '393231': Nigra estro
+  '458754': Magenta dekstra kolono
+  '458758': Roza dekstra kolono
+  '458762': Magenta dekstra kolono
+  '524290': Magenta maldekstra kolono
+  '524294': Roza maldekstra kolono
+  '524298': Viola maldekstra kolono
+  '589826': Magenta kolono
+  '589830': Roza kolono
+  '589834': Viola kolono
+  '655362': Magenta trabo
+  '655366': Roza trabo
+  '655370': Viola trabo
+  '720898': Magenta dekstra diagonalo
+  '720902': Roza dekstra diagonalo
+  '720906': Viola dekstra diagonalo
+  '786434': Magenta maldekstra diagonalo
+  '786438': Roza maldekstra diagonalo
+  '786442': Viola maldekstra diagonalo
+  '851970': Magentaj strioj
+  '851974': Rozaj strioj
+  '851978': Violaj strioj
+  '917504': Blanka diagonala kruco
+  '917505': Oranĝkolora diagonala kruco
+  '917506': Magenta diagonala kruco
+  '917507': Helblua diagonala kruco
+  '917508': Flava diagonala kruco
+  '917509': Helverda diagonala kruco
+  '917510': Roza diagonala kruco
+  '917511': Griza diagonala kruco
+  '917512': Helblua diagonala kruco
+  '917513': Turkisa diagonala kruco
+  '917514': Viola diagonala kruco
+  '917515': Blua diagonala kruco
+  '917516': Bruna diagonala kruco
+  '917517': Verda diagonala kruco
+  '917518': Ruĝa diagonala kruco
+  '917519': Nigra diagonala kruco
+  '983042': Magenta kruco
+  '983050': Viola kruco
+  '1048577': Oranĝa ĉevrono
+  '1048578': Magenta ĉevrono
+  '1048582': Roza ĉevrono
+  '1048586': Viola ĉevrono
+  '1114112': Blanka Inversa Ĉevrono
+  '1114113': Oranĝa Inversa Ĉevrono
+  '1114114': Magenta Inversa Ĉevrono
+  '1114118': Roza inversa ĉevrono
+  '1114121': Turkisa Inversa Ĉevrono
+  '1114122': Viola inversa ĉevrono
+  '1179650': Magenta pinta bazo
+  '1179654': Roza pinta bazo
+  '1179658': Viola pinta bazo
+  '1245186': Magenta pinta kapo
+  '1245190': Roza pinta kapo
+  '1245194': Viola pinta kapo
+  '1310722': Magenta dekstra supra duono
+  '1310726': Roza dekstra supra duono
+  '1310730': Viola dekstra supra duono
+  '1376258': Magenta maldekstra suba duono
+  '1376262': Roza maldekstra suba duono
+  '1376266': Viola maldekstra suba duono
+  '1441794': Magenta dekstra suba duono
+  '1441798': Roza dekstra suba duono
+  '1441802': Viola dekstra suba duono
+  '1507330': Magenta maldekstra supra duono
+  '1507334': Roza maldekstra supra duono
+  '1507338': Viola maldekstra supra duono
+  '1572866': Magenta cirklo
+  '1572870': Roza cirklo
+  '1572874': Viola Cirklo
+  '1572875': Blua Cirklo
+  '1572876': Bruna Cirklo
+  '1572877': Verda Cirklo
+  '1572878': Ruĝa Cirklo
+  '1572879': Nigra Cirklo
+  '1638402': Magenta rombo
+  '1638406': Roza rombo
+  '1638410': Viola rombo
+  '1703936': Blanka maldekstra flanko
+  '1703937': Oranĝkolora maldekstra flanko
+  '1703938': Magenta maldekstra flanko
+  '1703939': Helblua maldekstra flanko
+  '1703940': Flava maldekstra flanko
+  '1703941': Helverda maldekstra flanko
+  '1703942': Roza maldekstra flanko
+  '1703943': Griza maldekstra flanko
+  '1703944': Helgriza maldekstra flanko
+  '1703945': Turkisa maldekstra flanko
+  '1703946': Viola maldekstra flanko
+  '1703947': Blua maldekstra flanko
+  '1703948': Bruna maldekstra flanko
+  '1703949': Verda maldekstra flanko
+  '1703950': Ruĝa maldekstra flanko
+  '1703951': Nigra maldekstra flanko
+  '1769474': Magenta supra duono
+  '1769478': Roza supra duono
+  '1769482': Viola supra duono
+  '1835008': Blanka dekstra flanko
+  '1835009': Oranĝkolora dekstra flanko
+  '1835010': Magenta dekstra flanko
+  '1835011': Helblua dekstra flanko
+  '1835012': Flava dekstra flanko
+  '1835013': Helverda dekstra flanko
+  '1835014': Roza dekstra flanko
+  '1835015': Griza dekstra flanko
+  '1835016': Helgriza dekstra flanko
+  '1835017': Turkisa dekstra flanko
+  '1835018': Viola dekstra flanko
+  '1835019': Blua dekstra flanko
+  '1835020': Bruna dekstra flanko
+  '1835021': Verda dekstra flanko
+  '1835022': Ruĝa dekstra flanko
+  '1835023': Nigra dekstra flanko
+  '1900546': Magenta suba duono
+  '1900550': Roza suba duono
+  '1900554': Viola suba duono
+  '1966082': Magenta flagbordero
+  '1966084': Flava Flagbordero
+  '1966086': Roza Flagbordero
+  '1966087': Griza Flagbordero
+  '2031616': Blanka denta flagbordero
+  '2031617': Oranĝkolora denta flagbordero
+  '2031618': Magenta denta flagbordero
+  '2031626': Viola pintbordero
+  '2031631': Nigrad pintbordero
+  '2097154': Magenta kapo de kripero
+  '2162688': Blanka Gradiento
+  '2162690': Magenta Gradiento
+  '2162692': Flava Gradiento
+  '2162694': Roza Gradiento
+  '2162695': Griza Gradiento
+  '2162697': Turkisa Gradiento
+  '2162698': Viola gradiento
+  '2162701': Verda Gradiento
+  '2162702': Ruĝa Gradiento
+  '2162703': Nigra Gradiento
+  '2228224': Blanka Baza Gradiento
+  '2228226': Magenta Baza Gradiento
+  '2228228': Flava Baza Gradiento
+  '2228230': Roza Baza Gradiento
+  '2228231': Griza Baza Gradiento
+  '2228233': Turkisa Baza Gradiento
+  '2228234': Viola baza gradiento
+  '2228235': Blua Baza Gradiento
+  '2228236': Bruna Baza Gradiento
+  '2228237': Verda Baza Gradiento
+  '2228238': Ruĝa Baza Gradiento
+  '2228239': Nigra Baza Gradiento
+  '2293762': Magenta muro
+  '2293766': Roza muro
+  '2293770': Viola muro
+  '2359298': Magenta kranio
+  '2359302': Roza kranio
+  '2359306': Viola kranio
+  '2424834': Magenta floro
+  '2424838': Roza floro
+  '2424842': Viola floro
+  '2490368': Blanka Aĵo
+  '2490369': Oranĝkolora Aĵo
+  '2490370': Magenta Aĵo
+  '2490371': Helblua aĵo
+  '2490372': Flava aĵo
+  '2490373': Helverda aĵo
+  '2490374': Roza aĵo
+  '2490375': Griza aĵo
+  '2490376': Helgriza aĵo
+  '2490377': Turkisa aĵo
+  '2490378': Viola aĵo
+  '2490379': Blua Aĵo
+  '2490380': Bruna Aĵo
+  '2490381': Verda Aĵo
+  '2490382': Ruĝa Aĵo
+  '2490383': Nigra Aĵo

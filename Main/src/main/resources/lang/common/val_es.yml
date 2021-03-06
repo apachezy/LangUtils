@@ -1,0 +1,2196 @@
+# ####################################################
+# Build time: 2021-03-06 14:47:29                    #
+# ####################################################
+language:
+  code: val_es
+  name: Català (Valencià)
+  region: País Valencià
+material:
+  air: Aire
+  stone: Roca
+  granite: Granit
+  polished_granite: Granit polit
+  diorite: Diorita
+  polished_diorite: Diorita polida
+  andesite: Andesita
+  polished_andesite: Andesita polida
+  grass_block: Bloc d'herba
+  dirt: Terra
+  coarse_dirt: Terra estèril
+  podzol: Pinassa
+  crimson_nylium: Miceli carmesí
+  warped_nylium: Miceli estrambòtic
+  cobblestone: Empedrat
+  oak_planks: Taulons de fusta de pomer
+  spruce_planks: Taulons de fusta d'avet
+  birch_planks: Taulons de fusta de bedoll
+  jungle_planks: Taulons de fusta d'arbre de jungla
+  acacia_planks: Taulons de fusta d'acàcia
+  dark_oak_planks: Taulons de fusta de roure
+  crimson_planks: Taulons de fusta carmesí
+  warped_planks: Taulons de fusta estrambòtica
+  oak_sapling: Esqueix de pomer
+  spruce_sapling: Esqueix d'avet
+  birch_sapling: Esqueix de bedoll
+  jungle_sapling: Esqueix d'arbre de jungla
+  acacia_sapling: Esqueix d'acàcia
+  dark_oak_sapling: Esqueix de roure
+  bedrock: Roca base
+  sand: Arena
+  red_sand: Arena roja
+  gravel: Grava
+  gold_ore: Mena d'or
+  iron_ore: Mena de ferro
+  coal_ore: Mena de carbó
+  nether_gold_ore: Mena d'or del Nether
+  oak_log: Tronc de pomer
+  spruce_log: Tronc d'avet
+  birch_log: Tronc de bedoll
+  jungle_log: Tronc d'arbre de jungla
+  acacia_log: Tronc d'acàcia
+  dark_oak_log: Tronc de roure
+  crimson_stem: Tija carmesina
+  warped_stem: Tija de fong estrambòtic
+  stripped_oak_log: Tronc de pomer escorçat
+  stripped_spruce_log: Tronc d'avet escorçat
+  stripped_birch_log: Tronc de bedoll escorçat
+  stripped_jungle_log: Tronc d'arbre de jungla escorçat
+  stripped_acacia_log: Tronc d'acàcia escorçat
+  stripped_dark_oak_log: Tronc de roure escorçat
+  stripped_crimson_stem: Tija carmesí escorçada
+  stripped_warped_stem: Tija de fong estrambòtic escorçada
+  stripped_oak_wood: Fusta de pomer escorçada
+  stripped_spruce_wood: Fusta d'avet escorçada
+  stripped_birch_wood: Fusta de bedoll escorçada
+  stripped_jungle_wood: Fusta d’arbre de jungla escorçada
+  stripped_acacia_wood: Fusta d’acàcia escorçada
+  stripped_dark_oak_wood: Fusta de roure escorçada
+  stripped_crimson_hyphae: Hifa carmesí escorçada
+  stripped_warped_hyphae: Hifa estrambòtica escorçada
+  oak_wood: Tronc de pomer
+  spruce_wood: Tronc d'avet
+  birch_wood: Tronc de bedoll
+  jungle_wood: Tronc d'arbre de jungla
+  acacia_wood: Tronc d'acàcia
+  dark_oak_wood: Tronc de roure
+  crimson_hyphae: Hifa carmesí
+  warped_hyphae: Hifa estrambòtica
+  oak_leaves: Fulles de pomer
+  spruce_leaves: Fulles d'avet
+  birch_leaves: Fulles de bedoll
+  jungle_leaves: Fulles d'arbre de jungla
+  acacia_leaves: Fulles d'acàcia
+  dark_oak_leaves: Fulles de roure
+  sponge: Esponja
+  wet_sponge: Esponja humida
+  glass: Vidre
+  lapis_ore: Mena de lapislàtzuli
+  lapis_block: Bloc de lapislàtzuli
+  dispenser: Dispensador
+  sandstone: Roca arenosa
+  chiseled_sandstone: Roca arenosa cisellada
+  cut_sandstone: Roca arenosa tallada
+  note_block: Bloc de notes
+  powered_rail: Via d'accelaració
+  detector_rail: Via detectora
+  sticky_piston: Pistó apegalós
+  cobweb: Teranyina
+  grass: Herba
+  fern: Falaguera
+  dead_bush: Arbust mort
+  seagrass: Herba marina
+  sea_pickle: Cogombre de mar
+  piston: Pistó
+  white_wool: Llana blanca
+  orange_wool: Llana taronja
+  magenta_wool: Llana magenta
+  light_blue_wool: Llana blava clara
+  yellow_wool: Llana groga
+  lime_wool: Llana verd llima
+  pink_wool: Llana rosa
+  gray_wool: Llana grisa
+  light_gray_wool: Llana grisa clara
+  cyan_wool: Llana cian
+  purple_wool: Llana morada
+  blue_wool: Llana blava
+  brown_wool: Llana marró
+  green_wool: Llana verda
+  red_wool: Llana roja
+  black_wool: Llana negra
+  dandelion: Dent de lleó
+  poppy: Rosella
+  blue_orchid: Orquídia blava
+  allium: Allium
+  azure_bluet: Houstonia caerulea
+  red_tulip: Tulipa roja
+  orange_tulip: Tulipa taronja
+  white_tulip: Tulipa blanca
+  pink_tulip: Tulipa rosa
+  oxeye_daisy: Margarida
+  cornflower: Blauet
+  lily_of_the_valley: Lliri de la Mare de Déu
+  wither_rose: Rosa mústia
+  brown_mushroom: Xampinyó marró
+  red_mushroom: Xampinyó roig
+  crimson_fungus: Fong carmesí
+  warped_fungus: Fong estrambòtic
+  crimson_roots: Arrels carmesines
+  warped_roots: Arrels estrambòtiques
+  nether_sprouts: Brots del Nether
+  weeping_vines: Lianes carmesines
+  twisting_vines: Lianes estrambòtiques
+  sugar_cane: Canya de sucre
+  kelp: Alga
+  bamboo: Bambú
+  gold_block: Bloc d'or
+  iron_block: Bloc de ferro
+  oak_slab: Llosa de fusta de pomer
+  spruce_slab: Llosa de fusta d'avet
+  birch_slab: Llosa de fusta de bedoll
+  jungle_slab: Llosa de fusta d'arbre de jungla
+  acacia_slab: Llosa de fusta d'acàcia
+  dark_oak_slab: Llosa de fusta de roure
+  crimson_slab: Llosa carmesí
+  warped_slab: Llosa estrambòtica
+  stone_slab: Llosa de roca
+  smooth_stone_slab: Llosa de roca llisa
+  sandstone_slab: Llosa de roca arenosa
+  cut_sandstone_slab: Llosa de roca arenosa tallada
+  petrified_oak_slab: Llosa petrificada de fusta de pomer
+  cobblestone_slab: Llosa d'empedrat
+  brick_slab: Llosa de rajoles
+  stone_brick_slab: Llosa de rajoles de roca
+  nether_brick_slab: Llosa de rajoles del Nether
+  quartz_slab: Llosa de quars
+  red_sandstone_slab: Llosa de roca arenosa roja
+  cut_red_sandstone_slab: Llosa de roca arenosa roja tallada
+  purpur_slab: Llosa de purpur
+  prismarine_slab: Llosa de prismarina
+  prismarine_brick_slab: Llosa de rajoles de prismarina
+  dark_prismarine_slab: Llosa de prismarina obscura
+  smooth_quartz: Bloc de quars llis
+  smooth_red_sandstone: Roca arenosa roja llisa
+  smooth_sandstone: Roca arenosa llisa
+  smooth_stone: Roca llisa
+  bricks: Rajola
+  tnt: Explosius
+  bookshelf: Llibreria
+  mossy_cobblestone: Empedrat amb molsa
+  obsidian: Obsidiana
+  torch: Torxa
+  end_rod: Vara de la Fi
+  chorus_plant: Coral
+  chorus_flower: Flor de coral
+  purpur_block: Bloc de purpur
+  purpur_pillar: Pilar de purpur
+  purpur_stairs: Escales de purpur
+  spawner: Generador d'entitats
+  oak_stairs: Escales de fusta de pomer
+  chest: Cofre
+  diamond_ore: Mena de diamant
+  diamond_block: Bloc de diamant
+  crafting_table: Taula de manufactures
+  farmland: Terra arada
+  furnace: Forn
+  ladder: Escala
+  rail: Via
+  cobblestone_stairs: Escales d'empedrat
+  lever: Palanca
+  stone_pressure_plate: Placa de pressió de pedra
+  oak_pressure_plate: Placa de pressió de fusta de pomer
+  spruce_pressure_plate: Placa de pressió de fusta d'avet
+  birch_pressure_plate: Placa de pressió de fusta de bedoll
+  jungle_pressure_plate: Placa de pressió de fusta d'arbre de jungla
+  acacia_pressure_plate: Placa de pressió de fusta d'acàcia
+  dark_oak_pressure_plate: Placa de pressió de fusta de roure
+  crimson_pressure_plate: Placa de pressió carmesí
+  warped_pressure_plate: Placa de pressió estrambòtica
+  polished_blackstone_pressure_plate: Placa de pressió de roca negra polida
+  redstone_ore: Mena de redstone
+  redstone_torch: Torxa de redstone
+  snow: Neu
+  ice: Gel
+  snow_block: Bloc de neu
+  cactus: Cactus
+  clay: Argila
+  jukebox: Tocadiscs
+  oak_fence: Tanca de fusta de pomer
+  spruce_fence: Tanca de fusta d'avet
+  birch_fence: Tanca de fusta de bedoll
+  jungle_fence: Tanca de fusta d'arbre de jungla
+  acacia_fence: Tanca de fusta d'acàcia
+  dark_oak_fence: Tanca de fusta de roure
+  crimson_fence: Tanca carmesí
+  warped_fence: Tanca estrambòtica
+  pumpkin: Carabassa
+  carved_pumpkin: Carabassa tallada
+  netherrack: Roca del Nether
+  soul_sand: Arena d'ànimes
+  soul_soil: Terra d'ànimes
+  basalt: Basalt
+  polished_basalt: Basalt polit
+  soul_torch: Torxa d'ànimes
+  glowstone: Roca brillant
+  jack_o_lantern: Carabassa de Halloween
+  oak_trapdoor: Trapa de fusta de pomer
+  spruce_trapdoor: Trapa de fusta d'avet
+  birch_trapdoor: Trapa de fusta de bedoll
+  jungle_trapdoor: Trapa de fusta d'arbre de jungla
+  acacia_trapdoor: Trapa de fusta d'acàcia
+  dark_oak_trapdoor: Trapa de fusta de roure
+  crimson_trapdoor: Trapa carmesí
+  warped_trapdoor: Trapa estrambòtica
+  infested_stone: Roca infestada
+  infested_cobblestone: Empedrat infestat
+  infested_stone_bricks: Rajoles de roca infestades
+  infested_mossy_stone_bricks: Rajoles de roca amb molsa infestades
+  infested_cracked_stone_bricks: Rajoles de roca esquerdades infestades
+  infested_chiseled_stone_bricks: Rajoles de roca cisellades infestades
+  stone_bricks: Rajoles de roca
+  mossy_stone_bricks: Rajoles de roca amb molsa
+  cracked_stone_bricks: Rajoles de roca esquerdades
+  chiseled_stone_bricks: Rajoles de roca cisellades
+  brown_mushroom_block: Bloc de xampinyó marró
+  red_mushroom_block: Bloc de xampinyó roig
+  mushroom_stem: Tija de xampinyó
+  iron_bars: Reixa de ferro
+  chain: Cadena
+  glass_pane: Panell de vidre
+  melon: Meló d'Alger
+  vine: Lianes
+  oak_fence_gate: Porta de tanca de fusta de pomer
+  spruce_fence_gate: Porta de tanca de fusta d'avet
+  birch_fence_gate: Porta de tanca de fusta de bedoll
+  jungle_fence_gate: Porta de tanca de fusta d'arbre de jungla
+  acacia_fence_gate: Porta de tanca de fusta d'acàcia
+  dark_oak_fence_gate: Porta de tanca de fusta de roure
+  crimson_fence_gate: Porta de tanca carmesí
+  warped_fence_gate: Porta de tanca estrambòtica
+  brick_stairs: Escales de rajola
+  stone_brick_stairs: Escales de rajola de roca
+  mycelium: Miceli
+  lily_pad: Nenúfar
+  nether_bricks: Rajoles del Nether
+  cracked_nether_bricks: Rajoles del Nether esquerdades
+  chiseled_nether_bricks: Rajoles del Nether cisellades
+  nether_brick_fence: Tanca de rajola del Nether
+  nether_brick_stairs: Escales de rajola del Nether
+  enchanting_table: Taula d'encanteris
+  end_portal_frame: Marc del portal a la Fi
+  end_stone: Roca de la Fi
+  end_stone_bricks: Rajoles de roca de la Fi
+  dragon_egg: Ou del drac de la Fi
+  redstone_lamp: Làmpada de redstone
+  sandstone_stairs: Escales de roca arenosa
+  emerald_ore: Mena de maragda
+  ender_chest: Cofre de la Fi
+  tripwire_hook: Ganxo
+  emerald_block: Bloc de maragda
+  spruce_stairs: Escales de fusta d'avet
+  birch_stairs: Escales de fusta de bedoll
+  jungle_stairs: Escales de fusta d'arbre de jungla
+  crimson_stairs: Escales carmesí
+  warped_stairs: Escales estrambòtiques
+  command_block: Bloc de comandaments
+  beacon: Far màgic
+  cobblestone_wall: Mur d'empedrat
+  mossy_cobblestone_wall: Mur d'empedrat amb molsa
+  brick_wall: Mur de rajoles
+  prismarine_wall: Mur de prismarina
+  red_sandstone_wall: Mur de roca arenosa roja
+  mossy_stone_brick_wall: Mur de rajoles de roca amb molsa
+  granite_wall: Mur de granit
+  stone_brick_wall: Mur de rajoles de roca
+  nether_brick_wall: Mur de rajoles del Nether
+  andesite_wall: Mur d'andesita
+  red_nether_brick_wall: Mur de rajoles del Nether roges
+  sandstone_wall: Mur de roca arenosa
+  end_stone_brick_wall: Mur de rajoles de roca de la Fi
+  diorite_wall: Mur de diorita
+  blackstone_wall: Mur de roca negra
+  polished_blackstone_wall: Mur de roca negra polida
+  polished_blackstone_brick_wall: Mur de rajoles de roca negra polida
+  stone_button: Botó de pedra
+  oak_button: Botó de fusta de pomer
+  spruce_button: Botó de fusta d'avet
+  birch_button: Botó de fusta de bedoll
+  jungle_button: Botó de fusta d'arbre de jungla
+  acacia_button: Botó de fusta d'acàcia
+  dark_oak_button: Botó de fusta de roure
+  crimson_button: Botó de fusta carmesina
+  warped_button: Botó estrambòtic
+  polished_blackstone_button: Botó de roca negra polida
+  anvil: Enclusa
+  chipped_anvil: Enclusa esquerdada
+  damaged_anvil: Enclusa vella
+  trapped_chest: Cofre trampa
+  light_weighted_pressure_plate: Placa de pressió per a pes lleuger
+  heavy_weighted_pressure_plate: Placa de pressió per a pes elevat
+  daylight_detector: Sensor de llum solar
+  redstone_block: Bloc de redstone
+  nether_quartz_ore: Mena de quars
+  hopper: Tremuja
+  chiseled_quartz_block: Bloc de quars cisellat
+  quartz_block: Bloc de quars
+  quartz_bricks: Rajoles de quars
+  quartz_pillar: Pilar de quars
+  quartz_stairs: Escales de quars
+  activator_rail: Via activadora
+  dropper: Subministrador
+  white_terracotta: Terracota blanca
+  orange_terracotta: Terracota taronja
+  magenta_terracotta: Terracota magenta
+  light_blue_terracotta: Terracota blava clara
+  yellow_terracotta: Terracota groga
+  lime_terracotta: Terracota verda llima
+  pink_terracotta: Terracota rosa
+  gray_terracotta: Terracota grisa
+  light_gray_terracotta: Terracota grisa clara
+  cyan_terracotta: Terracota cian
+  purple_terracotta: Terracota morada
+  blue_terracotta: Terracota blava
+  brown_terracotta: Terracota marró
+  green_terracotta: Terracota verda
+  red_terracotta: Terracota roja
+  black_terracotta: Terracota negra
+  barrier: Barrera
+  iron_trapdoor: Trapa de ferro
+  hay_block: Bala de fenc
+  white_carpet: Estora blanca
+  orange_carpet: Estora taronja
+  magenta_carpet: Estora magenta
+  light_blue_carpet: Estora blava clara
+  yellow_carpet: Estora groga
+  lime_carpet: Estora verda llima
+  pink_carpet: Estora rosa
+  gray_carpet: Estora grisa
+  light_gray_carpet: Estora grisa clara
+  cyan_carpet: Estora cian
+  purple_carpet: Estora morada
+  blue_carpet: Estora blava
+  brown_carpet: Estora marró
+  green_carpet: Estora verda
+  red_carpet: Estora roja
+  black_carpet: Estora negra
+  terracotta: Terracota
+  coal_block: Bloc de carbó
+  packed_ice: Gel compacte
+  acacia_stairs: Escales de fusta d'acàcia
+  dark_oak_stairs: Escales de fusta de roure
+  slime_block: Bloc de llim
+  grass_path: Camí d'herba
+  sunflower: Gira-sol
+  lilac: Lilà
+  rose_bush: Roser
+  peony: Peònia
+  tall_grass: Herba alta
+  large_fern: Falaguera gran
+  white_stained_glass: Vidriera blanca
+  orange_stained_glass: Vidriera taronja
+  magenta_stained_glass: Vidriera magenta
+  light_blue_stained_glass: Vidriera blau clar
+  yellow_stained_glass: Vidriera groga
+  lime_stained_glass: Vidriera verd llima
+  pink_stained_glass: Vidriera rosa
+  gray_stained_glass: Vidriera grisa
+  light_gray_stained_glass: Vidriera grisa clara
+  cyan_stained_glass: Vidriera cian
+  purple_stained_glass: Vidriera morada
+  blue_stained_glass: Vidriera blava
+  brown_stained_glass: Vidriera marró
+  green_stained_glass: Vidriera verda
+  red_stained_glass: Vidriera roja
+  black_stained_glass: Vidriera negra
+  white_stained_glass_pane: Panell de vidriera blanc
+  orange_stained_glass_pane: Panell de vidriera taronja
+  magenta_stained_glass_pane: Panell de vidriera magenta
+  light_blue_stained_glass_pane: Panell de vidriera blau clar
+  yellow_stained_glass_pane: Panell de vidriera groc
+  lime_stained_glass_pane: Panell de vidriera verd llima
+  pink_stained_glass_pane: Panell de vidriera rosa
+  gray_stained_glass_pane: Panell de vidriera gris
+  light_gray_stained_glass_pane: Panell de vidriera gris clar
+  cyan_stained_glass_pane: Panell de vidriera cian
+  purple_stained_glass_pane: Panell de vidriera morat
+  blue_stained_glass_pane: Panell de vidriera blau
+  brown_stained_glass_pane: Panell de vidriera marró
+  green_stained_glass_pane: Panell de vidriera verd
+  red_stained_glass_pane: Panell de vidriera roig
+  black_stained_glass_pane: Panell de vidriera negre
+  prismarine: Prismarina
+  prismarine_bricks: Rajoles de prismarina
+  dark_prismarine: Prismarina obscura
+  prismarine_stairs: Escales de prismarina
+  prismarine_brick_stairs: Escales de rajoles de prismarina
+  dark_prismarine_stairs: Escales de prismarina obscura
+  sea_lantern: Llanterna marina
+  red_sandstone: Roca arenosa roja
+  chiseled_red_sandstone: Roca arenosa roja cisellada
+  cut_red_sandstone: Roca arenosa roja tallada
+  red_sandstone_stairs: Escales de roca arenosa roja
+  repeating_command_block: Bloc de comandaments de repetició
+  chain_command_block: Bloc de comandaments encadenats
+  magma_block: Bloc de magma
+  nether_wart_block: Bloc de bolet del Nether
+  warped_wart_block: Bloc de fong estrambòtic
+  red_nether_bricks: Rajoles del Nether roges
+  bone_block: Bloc d'os
+  structure_void: Estructura buida
+  observer: Observador
+  shulker_box: Caixa de shulker
+  white_shulker_box: Caixa de shulker blanca
+  orange_shulker_box: Caixa de shulker taronja
+  magenta_shulker_box: Caixa de shulker magenta
+  light_blue_shulker_box: Caixa de shulker blava clara
+  yellow_shulker_box: Caixa de shulker groga
+  lime_shulker_box: Caixa de shulker verda llima
+  pink_shulker_box: Caixa de shulker rosa
+  gray_shulker_box: Caixa de shulker grisa
+  light_gray_shulker_box: Caixa de shulker grisa clara
+  cyan_shulker_box: Caixa de shulker cian
+  purple_shulker_box: Caixa de shulker morada
+  blue_shulker_box: Caixa de shulker blava
+  brown_shulker_box: Caixa de shulker marró
+  green_shulker_box: Caixa de shulker verda
+  red_shulker_box: Caixa de shulker roja
+  black_shulker_box: Caixa de shulker negra
+  white_glazed_terracotta: Terracota glacejada blanca
+  orange_glazed_terracotta: Terracota glacejada taronja
+  magenta_glazed_terracotta: Terracota glacejada magenta
+  light_blue_glazed_terracotta: Terracota glacejada blava clara
+  yellow_glazed_terracotta: Terracota glacejada groga
+  lime_glazed_terracotta: Terracota glacejada verda llima
+  pink_glazed_terracotta: Terracota glacejada rosa
+  gray_glazed_terracotta: Terracota glacejada grisa
+  light_gray_glazed_terracotta: Terracota glacejada grisa clara
+  cyan_glazed_terracotta: Terracota glacejada cian
+  purple_glazed_terracotta: Terracota glacejada morada
+  blue_glazed_terracotta: Terracota glacejada blava
+  brown_glazed_terracotta: Terracota glacejada marró
+  green_glazed_terracotta: Terracota glacejada verda
+  red_glazed_terracotta: Terracota glacejada roja
+  black_glazed_terracotta: Terracota glacejada negra
+  white_concrete: Formigó blanc
+  orange_concrete: Formigó taronja
+  magenta_concrete: Formigó magenta
+  light_blue_concrete: Formigó blau clar
+  yellow_concrete: Formigó groc
+  lime_concrete: Formigó verd llima
+  pink_concrete: Formigó rosa
+  gray_concrete: Formigó gris
+  light_gray_concrete: Formigó gris clar
+  cyan_concrete: Formigó cian
+  purple_concrete: Formigó morat
+  blue_concrete: Formigó blau
+  brown_concrete: Formigó marró
+  green_concrete: Formigó verd
+  red_concrete: Formigó roig
+  black_concrete: Formigó negre
+  white_concrete_powder: Pols de formigó blanc
+  orange_concrete_powder: Pols de formigó taronja
+  magenta_concrete_powder: Pols de formigó magenta
+  light_blue_concrete_powder: Pols de formigó blau clar
+  yellow_concrete_powder: Pols de formigó groc
+  lime_concrete_powder: Pols de formigó verd llima
+  pink_concrete_powder: Pols de formigó rosa
+  gray_concrete_powder: Pols de formigó gris
+  light_gray_concrete_powder: Pols de formigó gris clar
+  cyan_concrete_powder: Pols de formigó cian
+  purple_concrete_powder: Pols de formigó morat
+  blue_concrete_powder: Pols de formigó blau
+  brown_concrete_powder: Pols de formigó marró
+  green_concrete_powder: Pols de formigó verd
+  red_concrete_powder: Pols de formigó roig
+  black_concrete_powder: Pols de formigó negre
+  turtle_egg: Ou de tortuga marina
+  dead_tube_coral_block: Bloc de corall de tub mort
+  dead_brain_coral_block: Bloc de corall cerebral mort
+  dead_bubble_coral_block: Bloc de corall de bombolles mort
+  dead_fire_coral_block: Bloc de corall de foc mort
+  dead_horn_coral_block: Bloc de corall de banya mort
+  tube_coral_block: Bloc de corall de tub
+  brain_coral_block: Bloc de corall cerebral
+  bubble_coral_block: Bloc de corall de bombolles
+  fire_coral_block: Bloc de corall de foc
+  horn_coral_block: Bloc de corall de banya
+  tube_coral: Corall de tub
+  brain_coral: Corall cerebral
+  bubble_coral: Corall de bombolles
+  fire_coral: Corall de foc
+  horn_coral: Corall de banya
+  dead_brain_coral: Corall cerebral mort
+  dead_bubble_coral: Corall de bombolles mort
+  dead_fire_coral: Corall de foc mort
+  dead_horn_coral: Corall de banya mort
+  dead_tube_coral: Corall de tub mort
+  tube_coral_fan: Gorgònia de tub
+  brain_coral_fan: Gorgònia cerebral
+  bubble_coral_fan: Gorgònia de bombolles
+  fire_coral_fan: Gorgònia de foc
+  horn_coral_fan: Gorgònia de banya
+  dead_tube_coral_fan: Gorgònia de tub morta
+  dead_brain_coral_fan: Gorgònia cerebral morta
+  dead_bubble_coral_fan: Gorgònia de bombolles morta
+  dead_fire_coral_fan: Gorgònia de foc morta
+  dead_horn_coral_fan: Gorgònia de banya morta
+  blue_ice: Gel blau
+  conduit: Canalitzador
+  polished_granite_stairs: Escales de granit polit
+  smooth_red_sandstone_stairs: Escales de roca arenosa roja llises
+  mossy_stone_brick_stairs: Escales de rajoles de roca amb molsa
+  polished_diorite_stairs: Escales de diorita polides
+  mossy_cobblestone_stairs: Escales d'empedrat amb molsa
+  end_stone_brick_stairs: Escales de rajoles de roca de la Fi
+  stone_stairs: Escales de roca
+  smooth_sandstone_stairs: Escales de roca arenosa llises
+  smooth_quartz_stairs: Escales de quars llises
+  granite_stairs: Escales de granit
+  andesite_stairs: Escales d'andesita
+  red_nether_brick_stairs: Escales de rajoles del Nether roges
+  polished_andesite_stairs: Escales d'andesita polides
+  diorite_stairs: Escales de diorita
+  polished_granite_slab: Llosa de granit polida
+  smooth_red_sandstone_slab: Llosa de roca arenosa roja llisa
+  mossy_stone_brick_slab: Llosa de rajoles de roca amb molsa
+  polished_diorite_slab: Llosa de diorita polida
+  mossy_cobblestone_slab: Llosa d'empedrat amb molsa
+  end_stone_brick_slab: Llosa de rajoles de roca de la Fi
+  smooth_sandstone_slab: Llosa de roca arenosa llisa
+  smooth_quartz_slab: Llosa de quars llisa
+  granite_slab: Llosa de granit
+  andesite_slab: Llosa d'andesita
+  red_nether_brick_slab: Llosa de rajoles del Nether roges
+  polished_andesite_slab: Llosa d'andesita polida
+  diorite_slab: Llosa de diorita
+  scaffolding: Bastida
+  iron_door: Porta de ferro
+  oak_door: Porta de fusta de pomer
+  spruce_door: Porta de fusta d'avet
+  birch_door: Porta de fusta de bedoll
+  jungle_door: Porta de fusta d'arbre de jungla
+  acacia_door: Porta de fusta d'acàcia
+  dark_oak_door: Porta de fusta de roure
+  crimson_door: Porta de fusta carmesina
+  warped_door: Porta estrambòtica
+  repeater: Repetidor de redstone
+  comparator: Comparador de redstone
+  structure_block: Bloc d'estructura
+  jigsaw: Bloc de trencaclosques
+  turtle_helmet: Closca de tortuga marina
+  scute: Fragments de closca de tortuga marina
+  flint_and_steel: Sílex i ferro
+  apple: Poma
+  bow: Arc de fletxes
+  arrow: Fletxa
+  coal: Carbó
+  charcoal: Carbó vegetal
+  diamond: Diamant
+  iron_ingot: Lingot de ferro
+  gold_ingot: Lingot d'or
+  netherite_ingot: Lingot de netherita
+  netherite_scrap: Fragments de netherita
+  wooden_sword: Espasa de fusta
+  wooden_shovel: Pala de fusta
+  wooden_pickaxe: Pic de fusta
+  wooden_axe: Destral de fusta
+  wooden_hoe: Aixada de fusta
+  stone_sword: Espasa de pedra
+  stone_shovel: Pala de pedra
+  stone_pickaxe: Pic de pedra
+  stone_axe: Destral de pedra
+  stone_hoe: Aixada de pedra
+  golden_sword: Espasa d'or
+  golden_shovel: Pala d'or
+  golden_pickaxe: Pic d'or
+  golden_axe: Destral d'or
+  golden_hoe: Aixada d'or
+  iron_sword: Espasa de ferro
+  iron_shovel: Pala de ferro
+  iron_pickaxe: Pic de ferro
+  iron_axe: Destral de ferro
+  iron_hoe: Aixada de ferro
+  diamond_sword: Espasa de diamant
+  diamond_shovel: Pala de diamant
+  diamond_pickaxe: Pic de diamant
+  diamond_axe: Destral de diamant
+  diamond_hoe: Aixada de diamant
+  netherite_sword: Espasa de netherita
+  netherite_shovel: Pala de netherita
+  netherite_pickaxe: Pic de netherita
+  netherite_axe: Destral de netherita
+  netherite_hoe: Aixada de netherita
+  stick: Pal
+  bowl: Bol
+  mushroom_stew: Estofat de xampinyons
+  string: Fil
+  feather: Ploma
+  gunpowder: Pólvora
+  wheat_seeds: Llavors de blat
+  wheat: Blat
+  bread: Pa
+  leather_helmet: Casc de cuir
+  leather_chestplate: Túnica de cuir
+  leather_leggings: Pantalons de cuir
+  leather_boots: Botes de cuir
+  chainmail_helmet: Casc de cota de malla
+  chainmail_chestplate: Cuirassa de cota de malla
+  chainmail_leggings: Pantalons de cota de malla
+  chainmail_boots: Botes de cota de malla
+  iron_helmet: Casc de ferro
+  iron_chestplate: Cuirassa de ferro
+  iron_leggings: Malles de ferro
+  iron_boots: Botes de ferro
+  diamond_helmet: Casc de diamant
+  diamond_chestplate: Cuirassa de diamant
+  diamond_leggings: Malles de diamant
+  diamond_boots: Botes de diamant
+  golden_helmet: Casc d'or
+  golden_chestplate: Cuirassa d'or
+  golden_leggings: Malles d'or
+  golden_boots: Botes d'or
+  netherite_helmet: Casc de netherita
+  netherite_chestplate: Cuirassa de netherita
+  netherite_leggings: Malles de netherita
+  netherite_boots: Botes de netherita
+  flint: Sílex
+  porkchop: Carn de porc crua
+  cooked_porkchop: Carn de porc torrada
+  painting: Quadre
+  golden_apple: Poma d'or
+  enchanted_golden_apple: Poma daurada encantada
+  oak_sign: Cartell de fusta de pomer
+  spruce_sign: Cartell de fusta d'avet
+  birch_sign: Cartell de fusta de bedoll
+  jungle_sign: Cartell de fusta d'arbre de jungla
+  acacia_sign: Cartell de fusta d'acàcia
+  dark_oak_sign: Cartell de fusta de roure
+  crimson_sign: Cartell carmesí
+  warped_sign: Cartell estrambòtic
+  bucket: Poal
+  water_bucket: Poal d'aigua
+  lava_bucket: Poal de lava
+  minecart: Vagoneta
+  saddle: Sella de muntar
+  redstone: Pols de redstone
+  snowball: Bola de neu
+  oak_boat: Barca de fusta de pomer
+  leather: Cuir
+  milk_bucket: Poal de llet
+  pufferfish_bucket: Poal amb peixos globus
+  salmon_bucket: Poal amb salmons
+  cod_bucket: Poal amb abadejos
+  tropical_fish_bucket: Poal amb peixos tropicals
+  brick: Rajola
+  clay_ball: Bola d'argila
+  dried_kelp_block: Bloc d'algues seques
+  paper: Paper
+  book: Llibre
+  slime_ball: Bola de Llim
+  chest_minecart: Vagoneta amb cofre
+  furnace_minecart: Vagoneta amb forn
+  egg: Ou
+  compass: Brúixola
+  fishing_rod: Canya de pescar
+  clock: Rellotge
+  glowstone_dust: Pols de roca brillant
+  cod: Abadejo cru
+  salmon: Salmó cru
+  tropical_fish: Peix tropical
+  pufferfish: Peix globus
+  cooked_cod: Abadejo torrat
+  cooked_salmon: Salmó torrat
+  ink_sac: Sac de tinta
+  cocoa_beans: Grans de cacau
+  lapis_lazuli: Lapislàtzuli
+  white_dye: Tint blanc
+  orange_dye: Tint taronja
+  magenta_dye: Tint magenta
+  light_blue_dye: Tint blau clar
+  yellow_dye: Tint groc
+  lime_dye: Tint verd llima
+  pink_dye: Tint rosa
+  gray_dye: Tint gris
+  light_gray_dye: Tint gris clar
+  cyan_dye: Tint cian
+  purple_dye: Tint morat
+  blue_dye: Tint blau
+  brown_dye: Tint marró
+  green_dye: Tint verd
+  red_dye: Tint roig
+  black_dye: Tint negre
+  bone_meal: Farina d'ossos
+  bone: Os
+  sugar: Sucre
+  cake: Pastís
+  white_bed: Llit blanc
+  orange_bed: Llit taronja
+  magenta_bed: Llit magenta
+  light_blue_bed: Llit blau clar
+  yellow_bed: Llit groc
+  lime_bed: Llit verd llima
+  pink_bed: Llit rosa
+  gray_bed: Llit gris
+  light_gray_bed: Llit gris clar
+  cyan_bed: Llit cian
+  purple_bed: Llit morat
+  blue_bed: Llit blau
+  brown_bed: Llit marró
+  green_bed: Llit verd
+  red_bed: Llit roig
+  black_bed: Llit negre
+  cookie: Galeta
+  filled_map: Mapa
+  shears: Tisores d'esquilar
+  melon_slice: Rodanxa de meló d'Alger
+  dried_kelp: Alga seca
+  pumpkin_seeds: Llavors de carabassa
+  melon_seeds: Llavors de meló d'Alger
+  beef: Bistec cru
+  cooked_beef: Bistec torrat
+  chicken: Pollastre cru
+  cooked_chicken: Pollastre torrat
+  rotten_flesh: Carn podrida
+  ender_pearl: Perla de la Fi
+  blaze_rod: Vara flamejant
+  ghast_tear: Llàgrima de ghast
+  gold_nugget: Palleta d'or
+  nether_wart: Bolet del Nether
+  potion: Poció
+  glass_bottle: Botella de vidre
+  spider_eye: Ull d'aranya
+  fermented_spider_eye: Ull d'aranya fermentat
+  blaze_powder: Pols de foc
+  magma_cream: Bola de magma
+  brewing_stand: Altar de pocions
+  cauldron: Calderó
+  ender_eye: Ull de la Fi
+  glistering_melon_slice: Rodanxa de meló d'Alger daurat
+  bat_spawn_egg: Generar ratpenat
+  bee_spawn_egg: Generar abella
+  blaze_spawn_egg: Generar Flama
+  cat_spawn_egg: Generar gat
+  cave_spider_spawn_egg: Generar aranya de cova
+  chicken_spawn_egg: Generar gallina
+  cod_spawn_egg: Generar abadejo
+  cow_spawn_egg: Generar vaca
+  creeper_spawn_egg: Generar creeper
+  dolphin_spawn_egg: Generar dofí
+  donkey_spawn_egg: Generar ase
+  drowned_spawn_egg: Generar ofegat
+  elder_guardian_spawn_egg: Generar gran guardià de les profunditats
+  enderman_spawn_egg: Generar enderman
+  endermite_spawn_egg: Generar tèrmit d'Ender
+  evoker_spawn_egg: Generar evocador
+  fox_spawn_egg: Generar rabosa
+  ghast_spawn_egg: Generar ghast
+  guardian_spawn_egg: Generar guardià de les profunditats
+  hoglin_spawn_egg: Generar hoglin
+  horse_spawn_egg: Generar cavall
+  husk_spawn_egg: Generar mòmia
+  llama_spawn_egg: Generar llama
+  magma_cube_spawn_egg: Generar cub de magma
+  mooshroom_spawn_egg: Generar vaca amb xampinyons
+  mule_spawn_egg: Generar mula
+  ocelot_spawn_egg: Generar ocelot
+  panda_spawn_egg: Generar panda
+  parrot_spawn_egg: Generar lloro
+  phantom_spawn_egg: Generar ànima
+  pig_spawn_egg: Generar porc
+  piglin_spawn_egg: Generar piglin
+  piglin_brute_spawn_egg: Generar piglin brut
+  pillager_spawn_egg: Generar bandit
+  polar_bear_spawn_egg: Generar ós polar
+  pufferfish_spawn_egg: Generar peix globus
+  rabbit_spawn_egg: Generar conill
+  ravager_spawn_egg: Generar bèstia dels bandits
+  salmon_spawn_egg: Generar salmó
+  sheep_spawn_egg: Generar ovella
+  shulker_spawn_egg: Generar shulker
+  silverfish_spawn_egg: Generar peixet de plata
+  skeleton_spawn_egg: Generar esquelet
+  skeleton_horse_spawn_egg: Generar cavall esquelètic
+  slime_spawn_egg: Generar cub de llim
+  spider_spawn_egg: Generar aranya
+  squid_spawn_egg: Generar calamar
+  stray_spawn_egg: Generar esquelet glacial
+  strider_spawn_egg: Generar caminant
+  trader_llama_spawn_egg: Generar llama de càrrega
+  tropical_fish_spawn_egg: Generar peix tropical
+  turtle_spawn_egg: Generar tortuga marina
+  vex_spawn_egg: Generar esperit
+  villager_spawn_egg: Generar vilatà
+  vindicator_spawn_egg: Generar defensor
+  wandering_trader_spawn_egg: Generar comerciant
+  witch_spawn_egg: Generar bruixa
+  wither_skeleton_spawn_egg: Generar esquelet de l'Infern
+  wolf_spawn_egg: Generar llop
+  zoglin_spawn_egg: Generar zoglin
+  zombie_spawn_egg: Generar zombi
+  zombie_horse_spawn_egg: Generar cavall zombi
+  zombie_villager_spawn_egg: Generar vilatà zombi
+  zombified_piglin_spawn_egg: Generar piglin zombi
+  experience_bottle: Botella màgica
+  fire_charge: Projectil de foc
+  writable_book: Llibre, tinter i ploma
+  written_book: Llibre escrit
+  emerald: Maragda
+  item_frame: Marc
+  flower_pot: Test
+  carrot: Carlota
+  potato: Creïlla
+  baked_potato: Creïlla torrada
+  poisonous_potato: Creïlla enverinada
+  map: Mapa en blanc
+  golden_carrot: Carlota d'or
+  skeleton_skull: Calavera
+  wither_skeleton_skull: Calavera infernal
+  player_head: Cap del jugador
+  zombie_head: Cap de zombi
+  creeper_head: Cap de creeper
+  dragon_head: Cap del drac
+  carrot_on_a_stick: Carlota en un pal
+  warped_fungus_on_a_stick: Fong estrambòtic en un pal
+  nether_star: Estrela del Nether
+  pumpkin_pie: Coca de carabassa
+  firework_rocket: Focs artificials
+  firework_star: Estrela de focs artificials
+  enchanted_book: Llibre encantat
+  nether_brick: Rajola del Nether
+  quartz: Quars
+  tnt_minecart: Vagoneta amb explosius
+  hopper_minecart: Vagoneta amb tremuja
+  prismarine_shard: Fragment de prismarina
+  prismarine_crystals: Cristalls de prismarina
+  rabbit: Carn de conill crua
+  cooked_rabbit: Carn de conill torrada
+  rabbit_stew: Estofat de conill
+  rabbit_foot: Pota de conill
+  rabbit_hide: Pell de conill
+  armor_stand: Suport per a armadures
+  iron_horse_armor: Armadura de ferro per a cavalls
+  golden_horse_armor: Armadura d'or per a cavalls
+  diamond_horse_armor: Armadura de diamant per a cavalls
+  leather_horse_armor: Armadura de cuir per als cavalls
+  lead: Llaç
+  name_tag: Etiqueta de nom
+  command_block_minecart: Vagoneta amb bloc de comandaments
+  mutton: Carn d'ovella crua
+  cooked_mutton: Carn d'ovella torrada
+  white_banner: Estandart blanc
+  orange_banner: Estandart taronja
+  magenta_banner: Estandart magenta
+  light_blue_banner: Estandart blau clar
+  yellow_banner: Estandart groc
+  lime_banner: Estandart verd llima
+  pink_banner: Estandart rosa
+  gray_banner: Estandart gris
+  light_gray_banner: Estandart gris clar
+  cyan_banner: Estandart cian
+  purple_banner: Estandart morat
+  blue_banner: Estandart blau
+  brown_banner: Estandart marró
+  green_banner: Estandart verd
+  red_banner: Estandart roig
+  black_banner: Estandart negre
+  end_crystal: Cristall de la Fi
+  chorus_fruit: Fruit del coral
+  popped_chorus_fruit: Fruit del coral esclafit
+  beetroot: Remolatxa
+  beetroot_seeds: Llavors de remolatxa
+  beetroot_soup: Sopa de remolatxa
+  dragon_breath: Alè de drac
+  splash_potion: Poció explosiva
+  spectral_arrow: Fletxa espectral
+  tipped_arrow: Fletxa amb efecte
+  lingering_potion: Poció persistent
+  shield: Escut
+  elytra: Èlitres
+  spruce_boat: Barca de fusta d'avet
+  birch_boat: Barca de fusta de bedoll
+  jungle_boat: Barca de fusta de la jungla
+  acacia_boat: Barca de fusta d'acàcia
+  dark_oak_boat: Barca de fusta de roure
+  totem_of_undying: Tòtem de la immortalitat
+  shulker_shell: Closca de shulker
+  iron_nugget: Palleta de ferro
+  knowledge_book: Enciclopèdia
+  debug_stick: Pal de depuració
+  music_disc_13: Disc de música
+  music_disc_cat: Disc de música
+  music_disc_blocks: Disc de música
+  music_disc_chirp: Disc de música
+  music_disc_far: Disc de música
+  music_disc_mall: Disc de música
+  music_disc_mellohi: Disc de música
+  music_disc_stal: Disc de música
+  music_disc_strad: Disc de música
+  music_disc_ward: Disc de música
+  music_disc_11: Disc de música
+  music_disc_wait: Disc de música
+  music_disc_pigstep: Disc de música
+  trident: Trident
+  phantom_membrane: Membrana d'ànima
+  nautilus_shell: Closca de nautilus
+  heart_of_the_sea: El cor de la mar
+  crossbow: Ballesta
+  suspicious_stew: Estofat sospitós
+  loom: Teler
+  flower_banner_pattern: Estandard floral
+  creeper_banner_pattern: Estandard de creeper
+  skull_banner_pattern: Estandard calavera
+  mojang_banner_pattern: Estandard de Mojang
+  globe_banner_pattern: Estandard planeta
+  piglin_banner_pattern: Estandard de piglin
+  composter: Compostador
+  barrel: Barril
+  smoker: Fumador
+  blast_furnace: Alt forn
+  cartography_table: Taula de cartografia
+  fletching_table: Taller de fletxes
+  grindstone: Mola
+  lectern: Faristol
+  smithing_table: Ferreria
+  stonecutter: Tallapedra
+  bell: Campana
+  lantern: Fanal
+  soul_lantern: Fanal d'ànimes
+  sweet_berries: Mores
+  campfire: Foguera
+  soul_campfire: Foguera d'ànimes
+  shroomlight: Bloc d'espores lluminoses
+  honeycomb: Bresca
+  bee_nest: Rusc
+  beehive: Buc
+  honey_bottle: Botella de mel
+  honey_block: Bloc de mel
+  honeycomb_block: Bloc de bresca
+  lodestone: Imant
+  netherite_block: Bloc de netherita
+  ancient_debris: Enderrocs antics
+  target: Diana
+  crying_obsidian: Obsidiana plorosa
+  blackstone: Roca negra
+  blackstone_slab: Llosa de roca negra
+  blackstone_stairs: Escales de roca negra
+  gilded_blackstone: Roca negra daurada
+  polished_blackstone: Roca negra polida
+  polished_blackstone_slab: Llosa de roca negra polida
+  polished_blackstone_stairs: Escales de roca negra polida
+  chiseled_polished_blackstone: Roca negra polida cisellada
+  polished_blackstone_bricks: Rajoles de roca negra polida
+  polished_blackstone_brick_slab: Llosa de rajoles de roca negra polida
+  polished_blackstone_brick_stairs: Escales de rajoles de roca negra polida
+  cracked_polished_blackstone_bricks: Rajoles de roca negra polida esquerdades
+  respawn_anchor: Àncora de reaparició
+  water: Aigua
+  lava: Lava
+  tall_seagrass: Herba marina alta
+  piston_head: Cap de pistó
+  moving_piston: Pistó en moviment
+  wall_torch: Torxa de paret
+  fire: Foc
+  soul_fire: Foc d'ànimes
+  redstone_wire: Cable de redstone
+  oak_wall_sign: Cartell de paret fusta de roure
+  spruce_wall_sign: Cartell de paret de fusta d'avet
+  birch_wall_sign: Cartell de paret de fusta de bedoll
+  acacia_wall_sign: Cartell de paret de fusta d'acàcia
+  jungle_wall_sign: Cartell de paret de fusta d'arbre de jungla
+  dark_oak_wall_sign: Cartell de paret de fusta de roure
+  redstone_wall_torch: Torxa de redstone de paret
+  soul_wall_torch: Torxa d'ànimes de paret
+  nether_portal: Portal al Nether
+  attached_pumpkin_stem: Tija de carabassa unida
+  attached_melon_stem: Tija de meló d'Alger unida
+  pumpkin_stem: Tija de carabassa
+  melon_stem: Tija de meló d'Alger
+  end_portal: Portal a la Fi
+  cocoa: Cacau
+  tripwire: Corda
+  potted_oak_sapling: Test amb esqueix de pomer
+  potted_spruce_sapling: Test amb esqueix d'avet
+  potted_birch_sapling: Test amb esqueix de bedoll
+  potted_jungle_sapling: Test amb esqueix d'arbre de jungla
+  potted_acacia_sapling: Test amb esqueix d'acàcia
+  potted_dark_oak_sapling: Test amb esqueix de roure
+  potted_fern: Test amb falaguera
+  potted_dandelion: Test amb dent de lleó
+  potted_poppy: Test amb rosella
+  potted_blue_orchid: Test amb orquídia blava
+  potted_allium: Test amb allium
+  potted_azure_bluet: Test amb houstonia caerulea
+  potted_red_tulip: Test amb tulipa roja
+  potted_orange_tulip: Test amb tulipa taronja
+  potted_white_tulip: Test amb tulipa blanca
+  potted_pink_tulip: Test amb tulipa rosa
+  potted_oxeye_daisy: Test amb margarida
+  potted_cornflower: Test amb blauet
+  potted_lily_of_the_valley: Test amb lliri de la Mare de Déu
+  potted_wither_rose: Test amb rosa mústia
+  potted_red_mushroom: Test amb xampinyó roig
+  potted_brown_mushroom: Test amb xampinyó marró
+  potted_dead_bush: Test amb arbust mort
+  potted_cactus: Test amb cactus
+  carrots: Carlotes
+  potatoes: Creïlles
+  skeleton_wall_skull: Calavera de paret
+  wither_skeleton_wall_skull: Calavera infernal de paret
+  zombie_wall_head: Cap de zombi de paret
+  player_wall_head: Cap del jugador de paret
+  creeper_wall_head: Cap de creeper de paret
+  dragon_wall_head: Cap del drac de paret
+  white_wall_banner: Estandart blanc
+  orange_wall_banner: Estandart taronja
+  magenta_wall_banner: Estandart magenta
+  light_blue_wall_banner: Estandart blau clar
+  yellow_wall_banner: Estandart groc
+  lime_wall_banner: Estandart verd llima
+  pink_wall_banner: Estandart rosa
+  gray_wall_banner: Estandart gris
+  light_gray_wall_banner: Estandart gris clar
+  cyan_wall_banner: Estandart cian
+  purple_wall_banner: Estandart morat
+  blue_wall_banner: Estandart blau
+  brown_wall_banner: Estandart marró
+  green_wall_banner: Estandart verd
+  red_wall_banner: Estandart roig
+  black_wall_banner: Estandart negre
+  beetroots: Remolatxes
+  end_gateway: Porta de la Fi
+  frosted_ice: Gel glaçat
+  kelp_plant: Esqueix d'alga
+  dead_tube_coral_wall_fan: Gorgònia de tub de paret morta
+  dead_brain_coral_wall_fan: Gorgònia cerebral de paret morta
+  dead_bubble_coral_wall_fan: Gorgònia de bombolles de paret morta
+  dead_fire_coral_wall_fan: Gorgònia de foc de paret morta
+  dead_horn_coral_wall_fan: Gorgònia de banya de paret morta
+  tube_coral_wall_fan: Gorgònia de tub de paret
+  brain_coral_wall_fan: Gorgònia cerebral de paret
+  bubble_coral_wall_fan: Gorgònia de bombolles de paret
+  fire_coral_wall_fan: Gorgònia de foc de paret
+  horn_coral_wall_fan: Gorgònia de banya de paret
+  bamboo_sapling: Esqueix de bambú
+  potted_bamboo: Test amb bambú
+  void_air: Aire del buit
+  cave_air: Aire de cova
+  bubble_column: Columna de bombolles
+  sweet_berry_bush: Esbarzer
+  weeping_vines_plant: Lianes carmesines
+  twisting_vines_plant: Lianes estrambòtiques
+  crimson_wall_sign: Cartell carmesí de paret
+  warped_wall_sign: Cartell estrambòtic de paret
+  potted_crimson_fungus: Test amb fong carmesí
+  potted_warped_fungus: Test amb fong estrambòtic
+  potted_crimson_roots: Test amb arrels carmesines
+  potted_warped_roots: Test amb arrels estrambòtiques
+  zombie_pigman_spawn_egg: Generar home-porc zombi
+  cactus_green: Verd de cactus
+  dandelion_yellow: Groc dent de lleó
+  rose_red: Roig de rosella
+  sign: Cartell
+  wall_sign: Senyal de paret
+biome:
+  ocean: Oceà
+  plains: Planura
+  desert: Desert
+  mountains: Muntanyes
+  forest: Bosc
+  taiga: Taigà
+  swamp: Pantà
+  river: Riu
+  nether_wastes: Erms del Nether
+  the_end: La Fi
+  frozen_ocean: Oceà congelat
+  frozen_river: Riu congelat
+  snowy_tundra: Tundra nevada
+  snowy_mountains: Muntanyes nevades
+  mushroom_fields: Camps de xampinyons
+  mushroom_field_shore: Costa de camps de xampinyons
+  beach: Platja
+  desert_hills: Muntanyes desèrtiques
+  wooded_hills: Tossals frondosos
+  taiga_hills: Muntanyes de taigà
+  mountain_edge: Vora de la muntanya
+  jungle: Jungla
+  jungle_hills: Muntanyes de jungla
+  jungle_edge: Vora de jungla
+  deep_ocean: Oceà profund
+  stone_shore: Costa rocosa
+  snowy_beach: Platja nevada
+  birch_forest: Bedollar
+  birch_forest_hills: Muntanyes de bedollar
+  dark_forest: Bosc fosc
+  snowy_taiga: Taigà nevada
+  snowy_taiga_hills: Tossals de taigà nevada
+  giant_tree_taiga: Taigà d’arbres gegants
+  giant_tree_taiga_hills: Tossals de taigà d’arbres gegants
+  wooded_mountains: Muntanyes frondoses
+  savanna: Sabana
+  savanna_plateau: Planures de sabana
+  badlands: Terres ermes
+  wooded_badlands_plateau: Altiplà erm frondós
+  badlands_plateau: Altiplà erm
+  small_end_islands: Illes de la Fi menudes
+  end_midlands: Zona mitgera de la Fi
+  end_highlands: La Fi - Terres altes
+  end_barrens: La Fi - Zona àrida
+  warm_ocean: Oceà temperat
+  lukewarm_ocean: Oceà tebi
+  cold_ocean: Oceà gelat
+  deep_warm_ocean: Oceà profund temperat
+  deep_lukewarm_ocean: Oceà profund tebi
+  deep_cold_ocean: Oceà profund gèlid
+  deep_frozen_ocean: Oceà profund congelat
+  the_void: El buit
+  sunflower_plains: Planures de gira-sols
+  desert_lakes: Llacs desèrtics
+  gravelly_mountains: Pedrera
+  flower_forest: Bosc floral
+  taiga_mountains: Muntanyes de taigà
+  swamp_hills: Tossals de pantà
+  ice_spikes: Pics de gel
+  modified_jungle: Variant de jungla
+  modified_jungle_edge: Variant de vora de jungla
+  tall_birch_forest: Bosc de grans bedolls
+  tall_birch_hills: Tossals de grans bedolls
+  dark_forest_hills: Tossals de bosc fosc
+  snowy_taiga_mountains: Muntanyes de taigà nevades
+  giant_spruce_taiga: Taigà d’avets gegants
+  giant_spruce_taiga_hills: Tossals de taigà d’avets gegants
+  modified_gravelly_mountains: Pedrera+
+  shattered_savanna: Sabana abrupta
+  shattered_savanna_plateau: Altiplà de sabana abrupta
+  eroded_badlands: Terres ermes erosionades
+  modified_wooded_badlands_plateau: Variant d'altiplà erm frondós
+  modified_badlands_plateau: Variant d'altiplà erm
+  bamboo_jungle: Bambú de jungla
+  bamboo_jungle_hills: Muntanyes de bambú de jungla
+  soul_sand_valley: Vall d'ànimes
+  crimson_forest: Bosc carmesí
+  warped_forest: Bosc estrambòtic
+  basalt_deltas: Delta de basalt
+  nether: Infern
+enchantment:
+  fire_protection: Protecció ígnia
+  sharpness: Fulla esmolada
+  flame: Fletxes incendiàries
+  soul_speed: Favor de les ànimes
+  aqua_affinity: Rapidesa minera baix de l'aigua
+  punch: Espenta
+  loyalty: Lleialtat
+  depth_strider: Rapidesa en l'aigua
+  vanishing_curse: Maledicció de desaparició
+  unbreaking: Duració
+  knockback: Espenta
+  luck_of_the_sea: La sort de la mar
+  binding_curse: Maledicció d'enllaç
+  fortune: Fortuna
+  protection: Protecció
+  efficiency: Rendiment
+  mending: Reparació amb l'experiència
+  frost_walker: Peus gelats
+  lure: Esquer
+  looting: Saqueig
+  piercing: Perforació
+  blast_protection: Protecció contra explosions
+  smite: Mortalitat
+  multishot: Multi-tir
+  fire_aspect: Fulla de foc
+  channeling: Canalització
+  sweeping: Batuda
+  thorns: Espines
+  bane_of_arthropods: La perdició dels artròpodes
+  respiration: Respiració
+  riptide: Corrent marina
+  silk_touch: Toc suau
+  quick_charge: Càrrega ràpida
+  projectile_protection: Protecció contra projectils
+  impaling: Empalament
+  feather_falling: Lleugeresa
+  power: Potència
+  infinity: Fletxes infinites
+potion:
+  uncraftable: Poció no fabricable
+  water: Botella d'aigua
+  mundane: Poció sense efectes
+  thick: Poció densa
+  awkward: Poció absurda
+  night_vision: Poció de visió nocturna
+  invisibility: Poció d'invisibilitat
+  jump: Poció de salt
+  fire_resistance: Poció de resistència ígnia
+  speed: Poció de velocitat
+  slowness: Poció de lentitud
+  water_breathing: Poció de respiració aquàtica
+  instant_heal: Poció de curació
+  instant_damage: Poció de dany
+  poison: Poció de verí
+  regen: Poció de regeneració
+  strength: Poció de força
+  weakness: Poció de debilitat
+  luck: Poció de sort
+  turtle_master: Poció del Geni Tortuga
+  slow_falling: Poció de caiguda lenta
+splash_potion:
+  uncraftable: Poció explosiva no fabricable
+  water: Botella d'aigua explosiva
+  mundane: Poció explosiva mundana
+  thick: Poció explosiva densa
+  awkward: Poció explosiva absurda
+  night_vision: Poció explosiva de visió nocturna
+  invisibility: Poció explosiva d'invisibilitat
+  jump: Poció explosiva de salt
+  fire_resistance: Poció explosiva de resistencia al foc
+  speed: Poció explosiva de velocitat
+  slowness: Poció explosiva de lentitud
+  water_breathing: Poció explosiva de respiració aquàtica
+  instant_heal: Poció explosiva de curació
+  instant_damage: Poció explosiva de dany
+  poison: Poció explosiva de verí
+  regen: Poció explosiva de regeneració
+  strength: Poció explosiva de força
+  weakness: Poció explosiva de debilitat
+  luck: Poció explosiva de sort
+  turtle_master: Poció explosiva del Geni Tortuga
+  slow_falling: Poció explosiva de caiguda lenta
+lingering_potion:
+  uncraftable: Poció persistent no fabricable
+  water: Botella d'aigua persistent
+  mundane: Poció mundana persistent
+  thick: Poció densa persistent
+  awkward: Poció absurda persistent
+  night_vision: Poció persistent de visió nocturna
+  invisibility: Poció persistent d'invisibilitat
+  jump: Poció persistent de salt
+  fire_resistance: Poció persistent de resistència al foc
+  speed: Poció persistent de velocitat
+  slowness: Poció persistent de lentitud
+  water_breathing: Poció persistent de respiració aquàtica
+  instant_heal: Poció persistent de curació
+  instant_damage: Poció persistent de dany
+  poison: Poció persistent verinosa
+  regen: Poció persistent de regeneració
+  strength: Poció persistent de força
+  weakness: Poció persistent de debilitat
+  luck: Poció persistent de sort
+  turtle_master: Poció persistent del Geni Tortuga
+  slow_falling: Poció persistent de caiguda lenta
+tipped_arrow:
+  uncraftable: Fletxa amb efecte impossible d'elaborar
+  water: Fletxa esquitxadora
+  mundane: Fletxa amb efecte
+  thick: Fletxa amb efecte
+  awkward: Fletxa amb efecte
+  night_vision: Fletxa de visió nocturna
+  invisibility: Fletxa d'invisibilitat
+  jump: Fletxa de salt
+  fire_resistance: Fletxa de resistència ígnia
+  speed: Fletxa de velocitat
+  slowness: Fletxa de lentitud
+  water_breathing: Fletxa de respiració aquàtica
+  instant_heal: Fletxa curativa
+  instant_damage: Fletxa de dany augmentat
+  poison: Fletxa enverinada
+  regen: Fletxa de regeneració
+  strength: Fletxa de força
+  weakness: Fletxa de debilitat
+  luck: Fletxa de la sort
+  turtle_master: Fletxa del Geni Tortuga
+  slow_falling: Fletxa de caiguda lenta
+entity:
+  dropped_item: Objecte
+  experience_orb: Orbe d'experiència
+  area_effect_cloud: Àrea del núvol d'efecte
+  elder_guardian: Gran guardià de les profunditats
+  wither_skeleton: Esquelet de l'Infern
+  stray: Esquelet glacial
+  egg: Ou llançat
+  leash_hitch: Nus de llaç
+  painting: Quadre
+  arrow: Fletxa
+  snowball: Bola de neu
+  fireball: Bola de foc
+  small_fireball: Bola de foc xicoteta
+  ender_pearl: Perla de la Fi llançada
+  ender_signal: Ull de la Fi
+  splash_potion: Poció
+  thrown_exp_bottle: S'ha llançat una botella màgica
+  item_frame: Marc
+  wither_skull: Calavera infernal llançada
+  primed_tnt: Dinamita encesa
+  falling_block: Bloc caient
+  firework: Focs artificials
+  husk: Mòmia
+  spectral_arrow: Fletxa espectral
+  shulker_bullet: Projectil de shulker
+  dragon_fireball: Bola de foc de drac
+  zombie_villager: Vilatà zombi
+  skeleton_horse: Cavall esquelètic
+  zombie_horse: Cavall zombi
+  armor_stand: Suport per a armadures
+  donkey: Ase
+  mule: Mula
+  evoker_fangs: Ullals d’invocador
+  evoker: Evocador
+  vex: Esperit
+  vindicator: Defensor
+  illusioner: Il·lusionista
+  minecart_command: Vagoneta amb bloc de comandaments
+  boat: Barca
+  minecart: Vagoneta
+  minecart_chest: Vagoneta amb cofre
+  minecart_furnace: Vagoneta amb forn
+  minecart_tnt: Vagoneta amb explosius
+  minecart_hopper: Vagoneta amb tremuja
+  minecart_mob_spawner: Vagoneta amb generador d'entitats
+  creeper: Creeper
+  skeleton: Esquelet
+  spider: Aranya
+  giant: Gegant
+  zombie: Zombi
+  slime: Cub de llim
+  ghast: Ghast
+  zombified_piglin: Piglin zombi
+  enderman: Enderman
+  cave_spider: Aranya de cova
+  silverfish: Peixet de plata
+  blaze: Flama
+  magma_cube: Cub de magma
+  ender_dragon: Drac de la Fi
+  wither: Wither
+  bat: Ratpenat
+  witch: Bruixa
+  endermite: Tèrmit d'Ender
+  guardian: Guardià de les profunditats
+  shulker: Shulker
+  pig: Porc
+  sheep: Ovella
+  cow: Vaca
+  chicken: Pollastre
+  squid: Calamar
+  wolf: Llop
+  mushroom_cow: Vaca amb xampinyons
+  snowman: Ninot de neu
+  ocelot: Ocelot
+  iron_golem: Guardià de ferro
+  horse: Cavall
+  rabbit: Conill
+  polar_bear: Ós polar
+  llama: Llama
+  llama_spit: Escopinyada de Llama
+  parrot: Lloro
+  villager: Vilatà
+  ender_crystal: Cristall de la Fi
+  turtle: Tortuga marina
+  phantom: Ànima
+  trident: Trident
+  cod: Abadejo
+  salmon: Salmó
+  pufferfish: Peix globus
+  tropical_fish: Peix tropical
+  drowned: Ofegat
+  dolphin: Dofí
+  cat: Gat
+  panda: Panda
+  pillager: Bandit
+  ravager: Bèstia dels bandits
+  trader_llama: Llama de càrrega
+  wandering_trader: Comerciant
+  fox: Rabosa
+  bee: Abella
+  hoglin: Hoglin
+  piglin: Piglin
+  strider: Caminant
+  zoglin: Zoglin
+  piglin_brute: Piglin brut
+  fishing_hook: Suro
+  lightning: Raig
+  player: Jugador
+  pig_zombie: Home-porc zombi
+effect:
+  speed: Velocitat
+  slow: Lentitud
+  fast_digging: Pressa
+  slow_digging: Fatiga minera
+  increase_damage: Força
+  heal: Curació instantània
+  harm: Dany instantani
+  jump: Súper salt
+  confusion: Ois
+  regeneration: Regeneració
+  damage_resistance: Resistència
+  fire_resistance: Resistència ígnia
+  water_breathing: Respiració aquàtica
+  invisibility: Invisibilitat
+  blindness: Ceguesa
+  night_vision: Visió nocturna
+  hunger: Fam
+  weakness: Debilitat
+  poison: Verí
+  wither: Podrimenta
+  health_boost: Salut extra
+  absorption: Absorció
+  saturation: Saturació
+  glowing: Brillant
+  levitation: Levitació
+  luck: Sort
+  unluck: Mala sort
+  slow_falling: Caiguda lenta
+  conduit_power: Poder de canalització
+  dolphins_grace: Gràcia de dofí
+  bad_omen: Mal presagi
+  hero_of_the_village: Heroi de la vila
+tropical_fish_type:
+  kob: Allargat
+  sunstreak: Peix sol
+  snooper: D'escull
+  dasher: Ratllat allargat
+  brinely: D'aigua salada
+  spotty: Tacat
+  flopper: Botador
+  stripey: Ratllat
+  glitter: Brillant
+  blockfish: Peix bloc
+  betty: Arrodonit
+  clayfish: Peix argila
+dye_color:
+  white: Blanc
+  orange: Taronja
+  magenta: Magenta
+  light_blue: Blau clar
+  yellow: Groc
+  lime: Verd llima
+  pink: Rosa
+  gray: Gris
+  light_gray: Gris clar
+  cyan: Cian
+  purple: Morat
+  blue: Blau
+  brown: Marró
+  green: Verd
+  red: Roig
+  black: Negre
+named:
+  player_head_named: Cap de %s
+  potion_with_amplifier: '%s %s'
+  potion_with_duration: '%s (%s)'
+  unknown_enchantment: 'Encanteri desconegut: %s'
+  unknown_entity: 'Entitat desconeguda: %s'
+  unknown_effect: 'Efecte desconegut: %s'
+tropical_fish_name:
+  '117506305': Anemone
+  '117899265': Peix cirurgià negre
+  '185008129': Peix cirurgià blau
+  '117441793': Peix papallona
+  '118161664': Cíclid
+  '65536': Peix pallasso
+  '50726144': Batallaire rosa
+  '67764993': Pseudochromidae
+  '234882305': Pagre emperador roig
+  '67110144': Múl·lid
+  '117441025': Ídol moro
+  '16778497': Peix papallona adornat
+  '101253888': Peix lloro
+  '50660352': Peix àngel reina
+  '918529': Cíclid roig
+  '235340288': Ophioblennius atlanticus
+  '918273': Pagre roig
+  '67108865': Polinèmid
+  '917504': Peix pallasso tomaca
+  '459008': Peix ballesta
+  '67699456': Peix lloro de cua groga
+  '67371009': Peix cirurgià groc
+colored_shied:
+  white: Escut blanc
+  orange: Escut taronja
+  magenta: Escut magenta
+  light_blue: Escut blau clar
+  yellow: Escut groc
+  lime: Escut verd llima
+  pink: Escut rosa
+  gray: Escut gris
+  light_gray: Escut gris clar
+  cyan: Escut cian
+  purple: Escut morat
+  blue: Escut blau
+  brown: Escut marró
+  green: Escut verd
+  red: Escut roig
+  black: Escut negre
+banner_pattern:
+  '65536': Cantó blanc a la part inferior esquerra
+  '65537': Cantó taronja a la part inferior esquerra
+  '65538': Cantó magenta a la part inferior esquerra
+  '65539': Cantó blau clar a la part inferior esquerra
+  '65540': Cantó groc a la part inferior esquerra
+  '65541': Cantó verd llima a la part inferior esquerra
+  '65542': Cantó rosa a la part inferior esquerra
+  '65543': Cantó gris a la part inferior esquerra
+  '65544': Cantó gris clar a la part inferior esquerra
+  '65545': Cantó cian a la part inferior esquerra
+  '65546': Cantó morat a la part inferior esquerra
+  '65547': Cantó blau a la part inferior esquerra
+  '65548': Cantó marró a la part inferior esquerra
+  '65549': Cantó verd a la part inferior esquerra
+  '65550': Cantó roig a la part inferior esquerra
+  '65551': Cantó negre a la part inferior esquerra
+  '131072': Cantó blanc a la part inferior dreta
+  '131073': Cantó taronja a la part inferior dreta
+  '131074': Cantó magenta a la part inferior dreta
+  '131075': Cantó blau clar a la part inferior dreta
+  '131076': Cantó groc a la part inferior dreta
+  '131077': Cantó verd llima a la part inferior dreta
+  '131078': Cantó rosa a la part inferior dreta
+  '131079': Cantó gris a la part inferior dreta
+  '131080': Cantó gris clar a la part inferior dreta
+  '131081': Cantó cian a la part inferior dreta
+  '131082': Cantó morat a la part inferior dreta
+  '131083': Cantó blau a la part inferior dreta
+  '131084': Cantó marró a la part inferior dreta
+  '131085': Cantó verd a la part inferior dreta
+  '131086': Cantó roig a la part inferior dreta
+  '131087': Cantó negre a la part inferior dreta
+  '196608': Cantó blanc a la part superior esquerra
+  '196609': Cantó taronja a la part superior esquerra
+  '196610': Cantó magenta a la part superior esquerra
+  '196611': Cantó blau clar a la part superior esquerra
+  '196612': Cantó groc a la part superior esquerra
+  '196613': Cantó verd llima a la part superior esquerra
+  '196614': Cantó rosa a la part superior esquerra
+  '196615': Cantó gris a la part superior esquerra
+  '196616': Cantó gris clar a la part superior esquerra
+  '196617': Cantó cian a la part superior esquerra
+  '196618': Cantó morat a la part superior esquerra
+  '196619': Cantó blau a la part superior esquerra
+  '196620': Cantó marró a la part superior esquerra
+  '196621': Cantó verd a la part superior esquerra
+  '196622': Cantó roig a la part superior esquerra
+  '196623': Cantó negre a la part superior esquerra
+  '262144': Cantó blanc a la part superior dreta
+  '262145': Cantó taronja a la part superior dreta
+  '262146': Cantó magenta a la part superior dreta
+  '262147': Cantó blau clar a la part superior dreta
+  '262148': Cantó groc a la part superior dreta
+  '262149': Cantó verd llima a la part superior dreta
+  '262150': Cantó rosa a la part superior dreta
+  '262151': Cantó gris a la part superior dreta
+  '262152': Cantó gris clar a la part superior dreta
+  '262153': Cantó cian a la part superior dreta
+  '262154': Cantó morat a la part superior dreta
+  '262155': Cantó blau a la part superior dreta
+  '262156': Cantó marró a la part superior dreta
+  '262157': Cantó verd a la part superior dreta
+  '262158': Cantó roig a la part superior dreta
+  '262159': Cantó negre a la part superior dreta
+  '327680': Base blanca
+  '327681': Base taronja
+  '327682': Base magenta
+  '327683': Base blava clara
+  '327684': Base groga
+  '327685': Base verda llima
+  '327686': Base rosa
+  '327687': Base grisa
+  '327688': Base grisa clara
+  '327689': Base cian
+  '327690': Base morada
+  '327691': Base blava
+  '327692': Base marró
+  '327693': Base verda
+  '327694': Base roja
+  '327695': Base negra
+  '393216': Cap blanc
+  '393217': Cap taronja
+  '393218': Cap magenta
+  '393219': Cap blau clar
+  '393220': Cap groc
+  '393221': Cap verd llima
+  '393222': Cap rosa
+  '393223': Cap gris
+  '393224': Cap gris clar
+  '393225': Cap cian
+  '393226': Cap morat
+  '393227': Cap blau
+  '393228': Cap marró
+  '393229': Cap verd
+  '393230': Cap roig
+  '393231': Cap negre
+  '458752': Franja vertical blanca a la part esquerra
+  '458753': Franja vertical taronja a la part esquerra
+  '458754': Franja vertical magenta a la part esquerra
+  '458755': Franja vertical blava clara a la part esquerra
+  '458756': Franja vertical groga a la part esquerra
+  '458757': Franja vertical verda llima a la part esquerra
+  '458758': Franja vertical rosa a la part esquerra
+  '458759': Franja vertical grisa a la part esquerra
+  '458760': Franja vertical grisa clara a la part esquerra
+  '458761': Franja vertical cian a la part esquerra
+  '458762': Franja vertical morada a la part esquerra
+  '458763': Franja vertical blava a la part esquerra
+  '458764': Franja vertical marró a la part esquerra
+  '458765': Franja vertical verda a la part esquerra
+  '458766': Franja vertical roja a la part esquerra
+  '458767': Franja vertical negra a la part esquerra
+  '524288': Franja vertical blanca a la part dreta
+  '524289': Franja vertical taronja a la part dreta
+  '524290': Franja vertical magenta a la part dreta
+  '524291': Franja vertical blava clara a la part dreta
+  '524292': Franja vertical groga a la part dreta
+  '524293': Franja vertical verda llima a la part dreta
+  '524294': Franja vertical rosa a la part dreta
+  '524295': Franja vertical grisa a la part dreta
+  '524296': Franja vertical grisa clara a la part dreta
+  '524297': Franja vertical cian a la part dreta
+  '524298': Franja vertical morada a la part dreta
+  '524299': Franja vertical blava a la part dreta
+  '524300': Franja vertical marró a la part dreta
+  '524301': Franja vertical verda a la part dreta
+  '524302': Franja vertical roja a la part dreta
+  '524303': Franja vertical negra a la part dreta
+  '589824': Franja vertical central blanca
+  '589825': Franja vertical central taronja
+  '589826': Franja vertical central magenta
+  '589827': Franja vertical central blava clara
+  '589828': Franja vertical central groga
+  '589829': Franja vertical central verda llima
+  '589830': Franja vertical central rosa
+  '589831': Franja vertical central grisa
+  '589832': Franja vertical central grisa clara
+  '589833': Franja vertical central cian
+  '589834': Franja vertical central morada
+  '589835': Franja vertical central blava
+  '589836': Franja vertical central marró
+  '589837': Franja vertical central verda
+  '589838': Franja vertical central roja
+  '589839': Franja vertical central negra
+  '655360': Franja horitzontal central blanca
+  '655361': Franja horitzontal central taronja
+  '655362': Franja horitzontal central magenta
+  '655363': Franja horitzontal central blava clara
+  '655364': Franja horitzontal central groga
+  '655365': Franja horitzontal central verda llima
+  '655366': Franja horitzontal central rosa
+  '655367': Franja horitzontal central grisa
+  '655368': Franja horitzontal central grisa clara
+  '655369': Franja horitzontal central cian
+  '655370': Franja horitzontal central morada
+  '655371': Franja horitzontal central blava
+  '655372': Franja horitzontal central marró
+  '655373': Franja horitzontal central verda
+  '655374': Franja horitzontal central roja
+  '655375': Franja horitzontal central negra
+  '720896': Banda blanca
+  '720897': Banda taronja
+  '720898': Banda magenta
+  '720899': Banda blava clara
+  '720900': Banda groga
+  '720901': Banda verda llima
+  '720902': Banda rosa
+  '720903': Banda grisa
+  '720904': Banda grisa clara
+  '720905': Banda cian
+  '720906': Banda morada
+  '720907': Banda blava
+  '720908': Banda marró
+  '720909': Banda verda
+  '720910': Banda roja
+  '720911': Banda negra
+  '786432': Banda blanca a dret
+  '786433': Banda taronja a dret
+  '786434': Banda magenta a dret
+  '786435': Banda blava clara a dret
+  '786436': Banda groga a dret
+  '786437': Banda verda llima a dret
+  '786438': Banda rosa a dret
+  '786439': Banda grisa a dret
+  '786440': Banda grisa clara a dret
+  '786441': Banda cian a dret
+  '786442': Banda morada a dret
+  '786443': Banda blava a dret
+  '786444': Banda marró a dret
+  '786445': Banda verda a dret
+  '786446': Banda roja a dret
+  '786447': Banda negra a dret
+  '851968': Quadribarrada blanca
+  '851969': Quadribarrada taronja
+  '851970': Quadribarrada magenta
+  '851971': Quadribarrada blava clara
+  '851972': Quadribarrada groga
+  '851973': Quadribarrada verda llima
+  '851974': Quadribarrada rosa
+  '851975': Quadribarrada grisa
+  '851976': Quadribarrada grisa clara
+  '851977': Quadribarrada cian
+  '851978': Quadribarrada morada
+  '851979': Quadribarrada blava
+  '851980': Quadribarrada marró
+  '851981': Quadribarrada verda
+  '851982': Quadribarrada roja
+  '851983': Quadribarrada negra
+  '917504': Aspa blanca
+  '917505': Aspa taronja
+  '917506': Aspa magenta
+  '917507': Aspa blava clara
+  '917508': Aspa groga
+  '917509': Aspa verda llima
+  '917510': Aspa rosa
+  '917511': Aspa grisa
+  '917512': Aspa grisa clara
+  '917513': Aspa cian
+  '917514': Aspa morada
+  '917515': Aspa blava
+  '917516': Aspa marró
+  '917517': Aspa verda
+  '917518': Aspa roja
+  '917519': Aspa negra
+  '983040': Creu blanca
+  '983041': Creu taronja
+  '983042': Creu magenta
+  '983043': Creu blava clara
+  '983044': Creu groga
+  '983045': Creu verda llima
+  '983046': Creu rosa
+  '983047': Creu grisa
+  '983048': Creu grisa clara
+  '983049': Creu cian
+  '983050': Creu morada
+  '983051': Creu blava
+  '983052': Creu marró
+  '983053': Creu verda
+  '983054': Creu roja
+  '983055': Creu negra
+  '1048576': Bou blanc
+  '1048577': Bou taronja
+  '1048578': Bou magenta
+  '1048579': Bou blau clar
+  '1048580': Bou groc
+  '1048581': Bou llima
+  '1048582': Bou rosa
+  '1048583': Bou gris
+  '1048584': Bou gris clar
+  '1048585': Bou cian
+  '1048586': Bou morat
+  '1048587': Bou blau
+  '1048588': Bou marró
+  '1048589': Bou verd
+  '1048590': Bou roig
+  '1048591': Bou negre
+  '1114112': Bou invertit blanc
+  '1114113': Bou invertit taronja
+  '1114114': Bou invertit magenta
+  '1114115': Bou invertit blau clar
+  '1114116': Bou invertit groc
+  '1114117': Bou invertit verd llima
+  '1114118': Bou invertit rosa
+  '1114119': Bou invertit gris
+  '1114120': Bou invertit gris clar
+  '1114121': Bou invertit cian
+  '1114122': Bou invertit morat
+  '1114123': Bou invertit blau
+  '1114124': Bou invertit marró
+  '1114125': Bou invertit verd
+  '1114126': Bou invertit roig
+  '1114127': Bou invertit negre
+  '1179648': Base dentada blanca
+  '1179649': Base dentada taronja
+  '1179650': Base dentada magenta
+  '1179651': Base dentada blava clara
+  '1179652': Base dentada groga
+  '1179653': Base dentada verda llima
+  '1179654': Base dentada rosa
+  '1179655': Base dentada grisa
+  '1179656': Base dentada grisa clara
+  '1179657': Base dentada cian
+  '1179658': Base dentada morada
+  '1179659': Base dentada blava
+  '1179660': Base dentada marró
+  '1179661': Base dentada verda
+  '1179662': Base dentada roja
+  '1179663': Base dentada negra
+  '1245184': Cap dentat blanc
+  '1245185': Cap dentat taronja
+  '1245186': Cap dentat magenta
+  '1245187': Cap dentat blau clar
+  '1245188': Cap dentat groc
+  '1245189': Cap dentat verd llima
+  '1245190': Cap dentat rosa
+  '1245191': Cap dentat gris
+  '1245192': Cap dentat gris clar
+  '1245193': Cap dentat cian
+  '1245194': Cap dentat morat
+  '1245195': Cap dentat blau
+  '1245196': Cap dentat marró
+  '1245197': Cap dentat verd
+  '1245198': Cap dentat roig
+  '1245199': Cap dentat negre
+  '1310720': Tallat blanc a dret
+  '1310721': Tallat taronja a dret
+  '1310722': Tallat magenta a dret
+  '1310723': Tallat blau clar a dret
+  '1310724': Tallat groc a dret
+  '1310725': Tallat verd llima a dret
+  '1310726': Tallat rosa a dret
+  '1310727': Tallat gris a dret
+  '1310728': Tallat gris clar a dret
+  '1310729': Tallat cian a dret
+  '1310730': Tallat morat a dret
+  '1310731': Tallat blau a dret
+  '1310732': Tallat marró a dret
+  '1310733': Tallat verd a dret
+  '1310734': Tallat roig a dret
+  '1310735': Tallat negre a dret
+  '1376256': Tallat invertit blanc a sinistra
+  '1376257': Tallat invertit taronja a sinistra
+  '1376258': Tallat invertit magenta a sinistra
+  '1376259': Tallat invertit blau clar a sinistra
+  '1376260': Tallat invertit groc a sinistra
+  '1376261': Tallat invertit verd llima a sinistra
+  '1376262': Tallat invertit rosa a sinistra
+  '1376263': Tallat invertit gris a sinistra
+  '1376264': Tallat invertit gris clar a sinistra
+  '1376265': Tallat invertit cian a sinistra
+  '1376266': Tallat invertit morat a sinistra
+  '1376267': Tallat invertit blau a sinistra
+  '1376268': Tallat invertit marró a sinistra
+  '1376269': Tallat invertit verd a sinistra
+  '1376270': Tallat invertit roig a sinistra
+  '1376271': Tallat invertit negre a sinistra
+  '1441792': Tallat invertit blanc a destra
+  '1441793': Tallat invertit taronja a destra
+  '1441794': Tallat invertit magenta a destra
+  '1441795': Tallat invertit blau clar a destra
+  '1441796': Tallat invertit groc a destra
+  '1441797': Tallat invertit verd llima a destra
+  '1441798': Tallat invertit rosa a destra
+  '1441799': Tallat invertit gris a destra
+  '1441800': Tallat invertit gris clar a destra
+  '1441801': Tallat invertit cian a destra
+  '1441802': Tallat invertit morat a destra
+  '1441803': Tallat invertit blau a destra
+  '1441804': Tallat invertit marró a destra
+  '1441805': Tallat invertit verd a destra
+  '1441806': Tallat invertit roig a destra
+  '1441807': Tallat invertit negre a destra
+  '1507328': Tallat blanc a tort
+  '1507329': Tallat taronja a tort
+  '1507330': Tallat magenta a tort
+  '1507331': Tallat blau clar a tort
+  '1507332': Tallat groc a tort
+  '1507333': Tallat verd llima a tort
+  '1507334': Tallat rosa a tort
+  '1507335': Tallat gris a tort
+  '1507336': Tallat gris clar a tort
+  '1507337': Tallat cian a tort
+  '1507338': Tallat morat a tort
+  '1507339': Tallat blau a tort
+  '1507340': Tallat marró a tort
+  '1507341': Tallat verd a tort
+  '1507342': Tallat roig a tort
+  '1507343': Tallat negre a tort
+  '1572864': Rodella blanca
+  '1572865': Rodella taronja
+  '1572866': Rodella magenta
+  '1572867': Rodella blava clara
+  '1572868': Rodella groga
+  '1572869': Rodella verda llima
+  '1572870': Rodella rosa
+  '1572871': Rodella grisa
+  '1572872': Rodella grisa clara
+  '1572873': Rodella cian
+  '1572874': Rodella morada
+  '1572875': Rodella blava
+  '1572876': Rodella marró
+  '1572877': Rodella verda
+  '1572878': Rodella roja
+  '1572879': Rodella negra
+  '1638400': Rombe blanc
+  '1638401': Rombe taronja
+  '1638402': Rombe magenta
+  '1638403': Rombe blau clar
+  '1638404': Rombe groc
+  '1638405': Rombe verd llima
+  '1638406': Rombe rosa
+  '1638407': Rombe gris
+  '1638408': Rombe gris clar
+  '1638409': Rombe cian
+  '1638410': Rombe morat
+  '1638411': Rombe blau
+  '1638412': Rombe marró
+  '1638413': Rombe verd
+  '1638414': Rombe roig
+  '1638415': Rombe negre
+  '1703936': Flanc blanc
+  '1703937': Flanc taronja
+  '1703938': Flanc magenta
+  '1703939': Flanc blau clar
+  '1703940': Flanc groc
+  '1703941': Flanc verd llima
+  '1703942': Flanc rosa
+  '1703943': Flanc gris
+  '1703944': Flanc gris clar
+  '1703945': Flanc cian
+  '1703946': Flanc morat
+  '1703947': Flanc blau
+  '1703948': Flanc marró
+  '1703949': Flanc verd
+  '1703950': Flanc roig
+  '1703951': Flanc negre
+  '1769472': Meitat superior blanca
+  '1769473': Meitat superior taronja
+  '1769474': Meitat superior magenta
+  '1769475': Meitat superior blava clara
+  '1769476': Meitat superior groga
+  '1769477': Meitat superior verda llima
+  '1769478': Meitat superior rosa
+  '1769479': Meitat superior grisa
+  '1769480': Meitat superior grisa clara
+  '1769481': Meitat superior cian
+  '1769482': Meitat superior morada
+  '1769483': Meitat superior blava
+  '1769484': Meitat superior marró
+  '1769485': Meitat superior verda
+  '1769486': Meitat superior roja
+  '1769487': Meitat superior negra
+  '1835008': Flanc blanc invertit
+  '1835009': Flanc taronja invertit
+  '1835010': Flanc magenta invertit
+  '1835011': Flanc blau clar invertit
+  '1835012': Flanc groc invertit
+  '1835013': Flanc verd llima invertit
+  '1835014': Flanc rosa invertit
+  '1835015': Flanc gris invertit
+  '1835016': Flanc gris clar invertit
+  '1835017': Flanc cian invertit
+  '1835018': Flanc morat invertit
+  '1835019': Flanc blau invertit
+  '1835020': Flanc marró invertit
+  '1835021': Flanc verd invertit
+  '1835022': Flanc roig invertit
+  '1835023': Flanc negre invertit
+  '1900544': Meitat inferior blanca
+  '1900545': Meitat inferior taronja
+  '1900546': Meitat inferior magenta
+  '1900547': Meitat inferior blava clara
+  '1900548': Meitat inferior groga
+  '1900549': Meitat inferior verda llima
+  '1900550': Meitat inferior rosa
+  '1900551': Meitat inferior grisa
+  '1900552': Meitat inferior grisa clara
+  '1900553': Meitat inferior cian
+  '1900554': Meitat inferior morada
+  '1900555': Meitat inferior blava
+  '1900556': Meitat inferior marró
+  '1900557': Meitat inferior verda
+  '1900558': Meitat inferior roja
+  '1900559': Meitat inferior negra
+  '1966080': Bordura blanca
+  '1966081': Bordura taronja
+  '1966082': Bordura magenta
+  '1966083': Bordura blava clara
+  '1966084': Bordura groga
+  '1966085': Bordura verda llima
+  '1966086': Bordura rosa
+  '1966087': Bordura grisa
+  '1966088': Bordura grisa clara
+  '1966089': Bordura cian
+  '1966090': Bordura morada
+  '1966091': Bordura blava
+  '1966092': Bordura marró
+  '1966093': Bordura verda
+  '1966094': Bordura roja
+  '1966095': Bordura negra
+  '2031616': Bordura dentada blanca
+  '2031617': Bordura dentada taronja
+  '2031618': Bordura dentada magenta
+  '2031619': Bordura dentada blava clara
+  '2031620': Bordura dentada groga
+  '2031621': Bordura dentada verda llima
+  '2031622': Bordura dentada rosa
+  '2031623': Bordura dentada grisa
+  '2031624': Bordura dentada grisa clara
+  '2031625': Bordura dentada cian
+  '2031626': Bordura dentada morada
+  '2031627': Bordura dentada blava
+  '2031628': Bordura dentada marró
+  '2031629': Bordura dentada verda
+  '2031630': Bordura dentada roja
+  '2031631': Bordura dentada negra
+  '2097152': Estampat de creeper blanc
+  '2097153': Estampat de creeper taronja
+  '2097154': Estampat de creeper magenta
+  '2097155': Estampat de creeper blau clar
+  '2097156': Estampat de creeper groc
+  '2097157': Estampat de creeper verd llima
+  '2097158': Estampat de creeper rosa
+  '2097159': Estampat de creeper gris
+  '2097160': Estampat de creeper gris clar
+  '2097161': Estampat de creeper cian
+  '2097162': Estampat de creeper morat
+  '2097163': Estampat de creeper blau
+  '2097164': Estampat de creeper marró
+  '2097165': Estampat de creeper verd
+  '2097166': Estampat de creeper roig
+  '2097167': Estampat de creeper negre
+  '2162688': Difuminat blanc
+  '2162689': Difuminat taronja
+  '2162690': Difuminat magenta
+  '2162691': Difuminat blau clar
+  '2162692': Difuminat groc
+  '2162693': Difuminat verd llima
+  '2162694': Difuminat rosa
+  '2162695': Difuminat gris
+  '2162696': Difuminat gris clar
+  '2162697': Difuminat cian
+  '2162698': Difuminat morat
+  '2162699': Difuminat blau
+  '2162700': Difuminat marró
+  '2162701': Difuminat verd
+  '2162702': Difuminat roig
+  '2162703': Difuminat negre
+  '2228224': Difuminat blanc des de la base
+  '2228225': Difuminat taronja des de la base
+  '2228226': Difuminat magenta des de la base
+  '2228227': Difuminat blau clar des de la base
+  '2228228': Difuminat groc des de la base
+  '2228229': Difuminat verd llima des de la base
+  '2228230': Difuminat rosa des de la base
+  '2228231': Difuminat gris des de la base
+  '2228232': Difuminat gris clar des de la base
+  '2228233': Difuminat cian des de la base
+  '2228234': Difuminat morat des de la base
+  '2228235': Difuminat blau des de la base
+  '2228236': Difuminat marró des de la base
+  '2228237': Difuminat verd des de la base
+  '2228238': Difuminat roig des de la base
+  '2228239': Difuminat negre des de la base
+  '2293760': Maçonat blanc
+  '2293761': Maçonat taronja
+  '2293762': Maçonat magenta
+  '2293763': Maçonat blau clar
+  '2293764': Maçonat groc
+  '2293765': Maçonat verd llima
+  '2293766': Maçonat rosa
+  '2293767': Maçonat gris
+  '2293768': Maçonat gris clar
+  '2293769': Maçonat cian
+  '2293770': Maçonat morat
+  '2293771': Maçonat blau
+  '2293772': Maçonat marró
+  '2293773': Maçonat verd
+  '2293774': Maçonat roig
+  '2293775': Maçonat negre
+  '2359296': Estampat de calavera blanc
+  '2359297': Estampat de calavera taronja
+  '2359298': Estampat de calavera magenta
+  '2359299': Estampat de calavera blau clar
+  '2359300': Estampat de calavera groc
+  '2359301': Estampat de calavera verd llima
+  '2359302': Estampat de calavera rosa
+  '2359303': Estampat de calavera gris
+  '2359304': Estampat de calavera gris clar
+  '2359305': Estampat de calavera cian
+  '2359306': Estampat de calavera morat
+  '2359307': Estampat de calavera blau
+  '2359308': Estampat de calavera marró
+  '2359309': Estampat de calavera verd
+  '2359310': Estampat de calavera roig
+  '2359311': Estampat de calavera negre
+  '2424832': Estampat de flor blanc
+  '2424833': Estampat de flor taronja
+  '2424834': Estampat de flor magenta
+  '2424835': Estampat de flor blau clar
+  '2424836': Estampat de flor groc
+  '2424837': Estampat de flor verd llima
+  '2424838': Estampat de flor rosa
+  '2424839': Estampat de flor gris
+  '2424840': Estampat de flor gris clar
+  '2424841': Estampat de flor cian
+  '2424842': Estampat de flor morat
+  '2424843': Estampat de flor blau
+  '2424844': Estampat de flor marró
+  '2424845': Estampat de flor verd
+  '2424846': Estampat de flor roig
+  '2424847': Estampat de flor negre
+  '2490368': Cosa blanca
+  '2490369': Cosa taronja
+  '2490370': Cosa magenta
+  '2490371': Cosa blava clara
+  '2490372': Cosa groga
+  '2490373': Cosa verda llima
+  '2490374': Cosa rosa
+  '2490375': Cosa grisa
+  '2490376': Cosa grisa clara
+  '2490377': Cosa cian
+  '2490378': Cosa morada
+  '2490379': Cosa blava
+  '2490380': Cosa marró
+  '2490381': Cosa verda
+  '2490382': Cosa roja
+  '2490383': Cosa negra
+  '2555904': Planeta blanc
+  '2555905': Planeta taronja
+  '2555906': Planeta magenta
+  '2555907': Planeta blau clar
+  '2555908': Planeta groc
+  '2555909': Planeta verd llima
+  '2555910': Planeta rosa
+  '2555911': Planeta gris
+  '2555912': Planeta gris clar
+  '2555913': Planeta cian
+  '2555914': Planeta morat
+  '2555915': Planeta blau
+  '2555916': Planeta marró
+  '2555917': Planeta verd
+  '2555918': Planeta roig
+  '2555919': Planeta negre
+  '2621440': Morro blanc
+  '2621441': Morro taronja
+  '2621442': Morro magenta
+  '2621443': Morro blau clar
+  '2621444': Morro groc
+  '2621445': Morro verd llima
+  '2621446': Morro rosa
+  '2621447': Morro gris
+  '2621448': Morro gris clar
+  '2621449': Morro cian
+  '2621450': Morro morat
+  '2621451': Morro blau
+  '2621452': Morro marró
+  '2621453': Morro verd
+  '2621454': Morro roig
+  '2621455': Morro negre
+merchant_level:
+  '1': Novençà
+  '2': Aprenent
+  '3': Avançat
+  '4': Expert
+  '5': Mestre
+villager_profession:
+  none: Vilatà
+  armorer: Armer
+  butcher: Carnisser
+  cartographer: Cartògraf
+  cleric: Capellà
+  farmer: Granger
+  fisherman: Pescador
+  fletcher: Fletxer
+  leatherworker: Pelleter
+  librarian: Bibliotecari
+  mason: Obrer
+  nitwit: Aturat
+  shepherd: Pastor
+  toolsmith: Ferreter
+  weaponsmith: Armer
+villager_career:
+  farmer: Granger
+  fisherman: Pescador
+  shepherd: Pastor
+  fletcher: Fletxer
+  librarian: Bibliotecari
+  cartographer: Cartògraf
+  cleric: Capellà
+  armorer: Armer
+  weapon_smith: Armer
+  tool_smith: Ferrer
+  butcher: Carnisser
+  leatherworker: Pelleter
+  nitwit: Aturat

@@ -1,0 +1,984 @@
+# ####################################################
+# Build time: 2021-03-06 14:30:26                    #
+# ####################################################
+language:
+  code: nds_de
+  name: Platdüütsk
+  region: Düütskland
+material:
+  acacia_boat: Akatsienholtboot
+  acacia_door: Akatsiendöör
+  acacia_fence: Akatsienholtstanket
+  acacia_fence_gate: Akatsienholtstanketpoort
+  acacia_log: Akatsienstamm
+  acacia_pressure_plate: Akatseinholten Druckplaat
+  acacia_sign: Akatsienskild
+  acacia_stairs: Akatsienholttrap
+  acacia_wall_sign: Akatsienwandskild
+  activator_rail: Ankriegscheen
+  air: Lücht
+  andesite_stairs: Andesit Trappe
+  andesite_wall: Andesitwand
+  attached_pumpkin_stem: Angebrachter Kürbisstiel
+  bamboo_sapling: Bambus Setter
+  barrier: Hinner
+  bat_spawn_egg: Vladdermuus Spawn Ei
+  beef: Rauhet Rindfleesk
+  beetroot: Ro' Beten
+  beetroots: Beetroots
+  beetroot_seeds: Ro' Beten Saden
+  beetroot_soup: Ro' Beten Sopp
+  birch_boat: Berkenholtboot
+  birch_button: Barkenholtknop
+  birch_door: Barkendöör
+  birch_fence: Berkenholtstanket
+  birch_fence_gate: Berkenholtstanketpoort
+  birch_log: Barkenstamm
+  birch_planks: Barkenholtbreden
+  birch_pressure_plate: Barkenholten Druckplaat
+  birch_sapling: Barkensetter
+  birch_sign: Biäkenskild
+  birch_slab: Barkenholtplaat
+  birch_stairs: Barkenholttrap
+  birch_trapdoor: Barkenholtluuk
+  birch_wall_sign: Biäkenwandskild
+  black_bed: Schwartes Bett
+  black_carpet: Swarter Teppich
+  black_dye: Swarte Farwe
+  black_glazed_terracotta: Schwarte glasierte Keramik
+  black_wool: Swatte Wulle
+  blast_furnace: Smeltovend
+  blaze_spawn_egg: Blaze Spawn Ei
+  blue_banner: Blaues Banner
+  blue_bed: Blaues Bett
+  blue_concrete: Blauer Beton
+  blue_concrete_powder: Blauer Dröögbeton
+  blue_dye: Blaue Farwe
+  blue_glazed_terracotta: Blaue glasierte Keramik
+  blue_ice: Blauet Ies
+  blue_shulker_box: Blaue Shulkerkist
+  blue_terracotta: Blaue Keramik
+  blue_wall_banner: Blaues Banner
+  bone: Knuoken
+  brain_coral: Bregenkrall
+  brain_coral_block: Bregenkrallenblock
+  brain_coral_fan: Bregenkrallenweiher
+  brick: Tiggelsteen
+  bricks: Tiggel
+  brick_slab: Tichelplaat
+  brick_stairs: Tiggeltrap
+  brick_wall: Tiggelwand
+  brown_bed: Bruunes Bett
+  brown_dye: Bruune Farwe
+  brown_glazed_terracotta: Bruune glasierte Keramik
+  brown_mushroom: Bruune Poggenstohl
+  brown_mushroom_block: Bruune Poggenstohlblock
+  brown_wool: Brune Wulle
+  bubble_column: Blasensäule
+  bubble_coral: Blaaskrall
+  bubble_coral_block: Blaaskrallenblock
+  bubble_coral_fan: Blaaskrallenweiher
+  carved_pumpkin: Snidden Fleeskappel
+  cat_spawn_egg: Katt Spawn Ei
+  cauldron: Kiëdel
+  cave_air: Höhllücht
+  cave_spider_spawn_egg: Grottenspinnen Spawn Ei
+  chain_command_block: Kedden Commandblock
+  chest: Kist
+  chest_minecart: Minecart mit Kiste
+  chicken_spawn_egg: Henn Spawn Ei
+  chipped_anvil: Abgebrochener Amboss
+  chiseled_quartz_block: Beitelt Kwartsblock
+  chiseled_red_sandstone: Beitelte roode Sandsteen
+  chiseled_stone_bricks: Baitelte Steentiggels
+  chorus_flower: Chorusblössem
+  clay_ball: Klai
+  clock: Klock
+  coal_block: Köhleblock
+  coarse_dirt: Groffe Eer
+  cobblestone_slab: Plaostersteenplaat
+  cobblestone_stairs: Brööksteentrap
+  cobblestone_wall: Plaostersteenmüer
+  cod: Rauher Kabeljau
+  cod_spawn_egg: Kabeljau Spawn Ei
+  command_block_minecart: Minecart mit Commandblock
+  cooked_chicken: Braad Hoönken
+  cooked_cod: Koakden kabeljauw
+  cooked_mutton: Kokt Hamelfleesk
+  cooked_porkchop: Kokt Swienefleesk
+  cooked_rabbit: Braad Kanickel
+  cow_spawn_egg: Koh Spawn Ei
+  cracked_stone_bricks: Bürstige Steentiggels
+  crafting_table: Dreihbank
+  creeper_spawn_egg: Creeper Spawn Ei
+  creeper_wall_head: Creeperwandkopp
+  cut_red_sandstone: Snieden roode Sandsteen
+  cut_red_sandstone_slab: Sneaden Raude Sandsteen Plaat
+  cut_sandstone_slab: Sneaden Sandsteyn Plaat
+  cyan_bed: Türkises Bett
+  cyan_dye: Türkise Farwe
+  cyan_glazed_terracotta: Türkise glasierte Keramik
+  cyan_stained_glass: Türkies Glas
+  cyan_stained_glass_pane: Türkise Glasschiev
+  damaged_anvil: Beschädigter Amboss
+  dark_oak_boat: Swartekenholtboot
+  dark_oak_button: Swartekenholtknop
+  dark_oak_door: Swatekendöör
+  dark_oak_fence: Swartekenholtstanket
+  dark_oak_fence_gate: Swartekenholtstanketpoort
+  dark_oak_log: Swatekenstamm
+  dark_oak_pressure_plate: Swartekenholten Druckplaat
+  dark_oak_sign: Swatekenskild
+  dark_oak_slab: Swarteykenholtplaat
+  dark_oak_stairs: Swartekenholttrap
+  dark_oak_trapdoor: Swartekenholtluuk
+  dark_oak_wall_sign: Swatekenwandskild
+  dark_prismarine_slab: Düüster prismarinplaat
+  dark_prismarine_stairs: Düüster Prismarintrap
+  dead_brain_coral_block: Doode Bregenkrallenblock
+  dead_bubble_coral_block: Doode Blaaskrallenblock
+  dead_bush: Doode Busk
+  dead_fire_coral_block: Doode Füürkrallenblock
+  dead_horn_coral_block: Doude Geweihenkrallenblock
+  dead_tube_coral: |
+    Tote Röhre Koralle
+  dead_tube_coral_block: Doode Örgelkrallenblock
+  debug_stick: Debugstaav
+  detector_rail: Fölerscheen
+  diamond_block: Demantblock
+  diamond_horse_armor: Demanter Peerderüstung
+  diamond_sword: Demantsweert
+  diorite_stairs: Diorit Trappe
+  diorite_wall: Dioritwand
+  dirt: Eer
+  dolphin_spawn_egg: Delfin Spawn Ei
+  donkey_spawn_egg: Easel Spawn Ei
+  dragon_wall_head: Drakenwandkopp
+  dried_kelp_block: Dröger Tangblock
+  drowned_spawn_egg: Vordrunkenen Spawn Ei
+  egg: Ei
+  elytra: Elytras
+  emerald_block: Smaragdblock
+  enchanted_book: Vötuwert Book
+  enchanted_golden_apple: Betöverter Gollen Appel
+  enderman_spawn_egg: Enderman Spawn Ei
+  endermite_spawn_egg: Endermiten Spawn Ei
+  ender_chest: Enderkist
+  ender_eye: Enderauge
+  ender_pearl: Enderpädel
+  end_crystal: Einde Kristal
+  end_gateway: |
+    Gateway beenden
+  end_portal_frame: Endportaalraam
+  end_stone_bricks: Eindstenen stenen
+  end_stone_brick_slab: Endsteentiggelplaat
+  end_stone_brick_stairs: Endsteentiggel Trappe
+  end_stone_brick_wall: Ensteentiggelswand
+  experience_bottle: Unnerfindenbuddel
+  farmland: Ploogland
+  fire: Füür
+  fire_charge: Füürkugel
+  fire_coral: Füürkrall
+  fire_coral_block: Füürkrallenblock
+  fire_coral_fan: Füürkrallenweiher
+  fishing_rod: Angel
+  fletching_table: Boogtafel
+  flint: Füürsteen
+  flint_and_steel: Flint un Staol
+  fox_spawn_egg: Voss Spawn Ei
+  furnace: Ovend
+  furnace_minecart: Minecart mit Ovend
+  ghast_spawn_egg: Ghast Spawn Ei
+  glass_bottle: Glasflaske
+  golden_apple: Gollener Appel
+  golden_boots: Gollen Stevel
+  golden_carrot: Gollene Wuddel
+  golden_chestplate: Gollen Borstplaat
+  golden_helmet: Gollen Helm
+  golden_horse_armor: Gollen Peerderüstung
+  golden_leggings: Gollen Beenschuur
+  granite_stairs: Granit Trappe
+  granite_wall: Granitwand
+  grass_block: Gressblok
+  grass_path: Graspad
+  gray_bed: Graues Bett
+  gray_dye: Graoe Farwe
+  gray_glazed_terracotta: Graue glasierte Keramik
+  green_bed: Grönes Bett
+  green_dye: Grööne Farwe
+  green_glazed_terracotta: Gröne glasierte Keramik
+  hay_block: Ball Stroh
+  heart_of_the_sea: Hart van de See
+  heavy_weighted_pressure_plate: Swaarwichtige Druckplaat
+  hopper_minecart: Minecart mit Trechter
+  horn_coral: Geweihenkrall
+  horn_coral_block: Geweihenkrallenblock
+  horn_coral_fan: Geweihenkrallenweiher
+  horse_spawn_egg: Peerde Spawn Ei
+  infested_chiseled_stone_bricks: Befallene gemeißelte Steinziegel
+  infested_cobblestone: Befallener Kopfsteinpflasterstein
+  infested_cracked_stone_bricks: Befallene gebrochene Steinziegelsteine
+  infested_mossy_stone_bricks: Befallene moosige Steinziegel
+  infested_stone: Befallener Stein
+  infested_stone_bricks: Befallene Steine
+  iron_door: Iesendöör
+  iron_horse_armor: Iesderne Peerderüstung
+  iron_nugget: Iesenklump
+  iron_trapdoor: Iesenluuk
+  jack_o_lantern: Küörbislücht
+  jigsaw: Raadselblock
+  jungle_boat: Tropenholtboot
+  jungle_button: Tropenholtknop
+  jungle_door: Tropendöör
+  jungle_fence: Tropenholtstanket
+  jungle_fence_gate: Tropenholtstanketpoort
+  jungle_leaves: Tropenbliäder
+  jungle_log: Tropenstamm
+  jungle_planks: Tropenholtbreden
+  jungle_pressure_plate: Tropenholten Druckplaat
+  jungle_sapling: Tropensetter
+  jungle_sign: Tropenskild
+  jungle_slab: Tropenholtplaat
+  jungle_stairs: Tropenholttrap
+  jungle_trapdoor: Tropenholtluuk
+  jungle_wall_sign: Tropenwandskild
+  jungle_wood: Tropenholt
+  knowledge_book: Book van Weten
+  lapis_block: Lapislazuliblok
+  lapis_ore: Lapislazuliärts
+  leather: Ledder
+  leather_boots: Ledderstiëwels
+  leather_chestplate: Ledderjack
+  leather_helmet: Ledderkapp
+  leather_horse_armor: Ledder Peerderüstung
+  leather_leggings: Ledderbücks
+  lever: Hevel
+  light_blue_banner: Hillblaues Banner
+  light_blue_bed: Lichtblauw Bed
+  light_blue_carpet: Lechtblaoer  Teppich
+  light_blue_concrete: Hillblauer Beton
+  light_blue_concrete_powder: Hillblauer Dröögbeton
+  light_blue_dye: Lechtblaoe Farwe
+  light_blue_glazed_terracotta: Hillblaue glasierte Keramik
+  light_blue_shulker_box: Lichtblauw Shulker doos
+  light_blue_stained_glass: Lechtblao Glas
+  light_blue_terracotta: Lechtbaluer Terrakotta
+  light_blue_wall_banner: Hillblaues Banner
+  light_gray_bed: Grieses Bett
+  light_gray_carpet: Lechtgraoer Teppich
+  light_gray_dye: Lechtgraoe Farwe
+  light_gray_glazed_terracotta: Griese glasierte Keramik
+  light_gray_stained_glass: Lechtgrao Glas
+  light_gray_stained_glass_pane: Lechtgraoe Glasschiwe
+  light_gray_wool: Lechtgraoe Wulle
+  light_weighted_pressure_plate: Lichtwichtige Druckplaat
+  lime_bed: Limoen Bed
+  lime_concrete: Lechtgrööner Beton
+  lime_concrete_powder: Lechtgrööner Dröögbeton
+  lime_dye: Lechtgröne Farwe
+  lime_glazed_terracotta: Hillgröne glasierte Keramik
+  lime_shulker_box: Limoen Shulker doos
+  lime_stained_glass: Lechtgröön Glas
+  lime_terracotta: Lechtgrööner Terrakotta
+  llama_spawn_egg: Lama Spawn Ei
+  magenta_bed: Magenta Bett
+  magenta_dye: Magenta Farwe
+  magenta_glazed_terracotta: Magenta glasierte Keramik
+  magma_block: Magma Blok
+  magma_cube_spawn_egg: Magmaknobel SpawnEi
+  map: Lirige Kaat
+  mooshroom_spawn_egg: Paddestohl Spawn Ei
+  mossy_cobblestone_slab: Mussige Plaostersteenplaat
+  mossy_cobblestone_stairs: Mussige Plaostersteen Trappe
+  mossy_cobblestone_wall: Mussige Plaostersteenmüer
+  mossy_stone_bricks: Mussige Steentiggels
+  mossy_stone_brick_slab: Mussige Steentiggelsplaat
+  mossy_stone_brick_stairs: Mussige Steentiggels Trappe
+  mossy_stone_brick_wall: Mussige Steentiggelswand
+  moving_piston: Kolben bewegen
+  mule_spawn_egg: Muuldeer Spawn Ei
+  mushroom_stem: Poggenstohlsteel
+  mushroom_stew: Swamsup
+  mutton: Rauhet Hamelfleesk
+  name_tag: Naomenschild
+  nether_bricks: Netherpannen
+  nether_brick_slab: Nethertegeltrapp
+  nether_brick_wall: Nethertiggelswand
+  nether_portal: Netherportal
+  nether_wart_block: Netherwaartenblock
+  note_block: Schriewbook
+  oak_boat: Ekenholtboot
+  oak_door: Ekendöör
+  oak_fence: Tuun
+  oak_fence_gate: Tuunpaort
+  oak_log: Ekenstamm
+  oak_pressure_plate: Ekenholten Druckplaat
+  oak_sapling: Ekenpuorte
+  oak_sign: Eykenskild
+  oak_stairs: Ekenholttrap
+  oak_wall_sign: Eykenwandskild
+  ocelot_spawn_egg: Ozelotten Spawn Ei
+  orange_bed: Geelrootes Bett
+  orange_carpet: Oranger Teppich
+  orange_dye: Orange Farwe
+  orange_glazed_terracotta: Geelroote glasierte Keramik
+  orange_stained_glass: Orange Glas
+  orange_stained_glass_pane: Orange Glasschiwe
+  orange_tulip: Orange Tulp
+  orange_wool: Orange Wulle
+  panda_spawn_egg: Panda Spawn Ei
+  paper: Papeeier
+  parrot_spawn_egg: Papegoien Spawn Ei
+  peony: Pingsterblööm
+  phantom_spawn_egg: Fantoom Spawn Ei
+  pig_spawn_egg: Swien Spawn Ei
+  pillager_spawn_egg: Plünnern Spawn Ei
+  pink_bed: Fienrootes Bett
+  pink_carpet: Rausenrauder Teppich
+  pink_dye: Rausenraude Farwe
+  pink_glazed_terracotta: Fienroote glasierte Keramik
+  pink_stained_glass: Rausenraud Glas
+  pink_stained_glass_pane: Rausenraude Glasschiwe
+  pink_tulip: Rausenraude Tulp
+  pink_wool: Rausenraude Wulle
+  piston_head: Kolbenkopf
+  player_head: Spölerkopp
+  player_wall_head: Spölerwandkopp
+  polar_bear_spawn_egg: Iesbaar Spawn Ei
+  polished_andesite_slab: Poleerte Andesittrapp
+  polished_andesite_stairs: Poleerte Andesit Trappe
+  polished_diorite_stairs: Poleerte Diorit Trappe
+  polished_granite_stairs: Poleerte Granit Trappe
+  potted_allium: Inpotted Steernlook
+  potted_azure_bluet: Eingemachtes Azure Bluet
+  potted_birch_sapling: Inpottente Barkensetter
+  potted_blue_orchid: Inpottede Blaue Orchidee
+  potted_brown_mushroom: Inpottede Bruune Poggenstohl
+  potted_dark_oak_sapling: Inpottede Swartekensetter
+  potted_dead_bush: Inpottede Doode Busk
+  potted_fern: Inpottede Farnkruud
+  potted_jungle_sapling: Inpottede Tropensetter
+  potted_orange_tulip: Inpottede Geelroode Tulp
+  potted_pink_tulip: Inpottede Rosa Tulp
+  potted_poppy: Eingemachter Mohn
+  potted_red_mushroom: Inpottede Roode Poggenstohl
+  potted_red_tulip: Inpottede Roode Tulp
+  potted_spruce_sapling: Topf Fichte Bäumchen
+  potted_white_tulip: Inpottede Witte Tulp
+  powered_rail: Drifftscheen
+  prismarine_bricks: Prismarienpannen
+  prismarine_brick_slab: |
+    Prismarine Brick Slab
+  prismarine_brick_stairs: Prismarine Backsteintreppen
+  prismarine_crystals: Prismarienkristalle
+  prismarine_shard: Prismarienplöttje
+  prismarine_slab: Prismarinplaat
+  prismarine_stairs: Prismarintrap
+  prismarine_wall: Prismarinwand
+  pufferfish: Kuëgelfisk
+  pufferfish_spawn_egg: Kugelfisk Spawn Ei
+  pumpkin: Küörbis
+  pumpkin_pie: Küörbiskoken
+  pumpkin_seeds: Küörbissäöte
+  pumpkin_stem: Fleeskappelplant
+  purple_banner: Violettes Banner
+  purple_bed: Violettes Bett
+  purple_concrete: Violetter Beton
+  purple_concrete_powder: Violetter Dröögbeton
+  purple_dye: Vigelette Farwe
+  purple_glazed_terracotta: Violette glasierte Keramik
+  purple_shulker_box: Violette Shulkerkist
+  purple_stained_glass: Vigelet Glas
+  purple_stained_glass_pane: Vigelette Glasschiev
+  purple_terracotta: Violette Keramik
+  purple_wall_banner: Violettes Banner
+  purpur_block: Purpur Block
+  purpur_pillar: Purpur Pieler
+  purpur_slab: Purpur Plaat
+  purpur_stairs: Purpur Trap
+  quartz_pillar: Kwartspieler
+  quartz_stairs: Kwartstrap
+  rabbit_spawn_egg: Kanien Spawn Ei
+  rail: Scheen
+  ravager_spawn_egg: Verwöösten Spawn Ei
+  redstone: Redstonestoff
+  redstone_block: Redstone-Block
+  redstone_ore: Redstoneerts
+  redstone_torch: Redstonelunt
+  redstone_wall_torch: Redstonewandlunt
+  redstone_wire: Redstone Droad
+  red_bed: Rootes Bett
+  red_carpet: Rauder Teppich
+  red_dye: Roote Farwe
+  red_glazed_terracotta: Roote glasierte Keramik
+  red_mushroom: Roode Poggenstohl
+  red_mushroom_block: Roode Poggenstohlblock
+  red_nether_brick_slab: Roote Nethertegeltrapp
+  red_nether_brick_stairs: Roote Nethertegel Trappe
+  red_nether_brick_wall: Roote Nethertegelwand
+  red_sand: Rauder Sand
+  red_sandstone: Roode Sandsteen
+  red_sandstone_slab: Roode Sandsteenplaat
+  red_sandstone_stairs: Roode Sandsteentrap
+  red_sandstone_wall: Raude Sandsteenwand
+  red_stained_glass: Raud Glas
+  red_stained_glass_pane: Raude Glasschiwe
+  red_tulip: Raude Tulp
+  red_wool: Raude Wulle
+  repeating_command_block: Segg nao Commandblock
+  salmon_bucket: Emmer mit Lachs
+  salmon_spawn_egg: Laks Spawn Ei
+  sandstone_stairs: Sandsteentrap
+  sandstone_wall: Sandsteenwand
+  scaffolding: Stellaasje
+  seagrass: Tang
+  sea_lantern: Seelateern
+  shears: Schäer
+  sheep_spawn_egg: Schaap Spawn Ei
+  shulker_spawn_egg: Shulker Spawn Ei
+  silverfish_spawn_egg: Sülverfisken Spawn Ei
+  skeleton_horse_spawn_egg: Skeletpeerd Spawn Ei
+  skeleton_spawn_egg: Skelet Spawn Ei
+  skeleton_wall_skull: Skeletwandkopp
+  slime_ball: Sliemball
+  slime_block: Sliemblock
+  slime_spawn_egg: Sliem Spawn Ei
+  smithing_table: Smeetafel
+  smoker: Rökelovend
+  smooth_quartz: Gladder Kwarts
+  smooth_quartz_slab: Gladde Kwartsplaat
+  smooth_quartz_stairs: Gladde Kwarts Trappe
+  smooth_red_sandstone: Gladder roode Sandsteen
+  smooth_red_sandstone_slab: Glatte raude Sandsteenplaat
+  smooth_red_sandstone_stairs: Glatte raude Sandsteen Trappe
+  smooth_sandstone_slab: Glatte Sandsteenlpaat
+  smooth_sandstone_stairs: Glatte Sandsteen Trappe
+  smooth_stone: Gladder Steen
+  smooth_stone_slab: Glatter Steen Plaat
+  snow: Sneei
+  snow_block: Sneeiblock
+  spawner: |
+    Spawner
+  spectral_arrow: Spektraal Piel
+  spider_spawn_egg: Spinnen Spawn Ei
+  spruce_boat: Dannenholtboot
+  spruce_button: |
+    Fichte Button
+  spruce_door: Dannendöör
+  spruce_fence: Dannwnholtstanket
+  spruce_fence_gate: Dannenholtstanketpoort
+  spruce_log: Dannenstamm
+  spruce_planks: Dannenholtbreden
+  spruce_pressure_plate: |
+    Fichte Druckplatte
+  spruce_sapling: Dannensetter
+  spruce_sign: Füchtenskild
+  spruce_slab: |2-
+
+    Fichtenplatte
+  spruce_stairs: Dannenholttrap
+  spruce_trapdoor: Fichte Falltür
+  spruce_wall_sign: Füchtenwandskild
+  stick: Pin
+  stone_bricks: Steentiggels
+  stone_brick_slab: Steentichelplaat
+  stone_brick_stairs: Steentiggeltrap
+  stone_brick_wall: Steentiggelswand
+  stone_pressure_plate: Steendrückplaat
+  stone_stairs: Steen Trappe
+  string: Drahd
+  stripped_acacia_log: Entbarked Akatsienstamm
+  stripped_acacia_wood: |
+    Abgerissenes Akazienholz
+  stripped_birch_log: Entbarked Barkenstamm
+  stripped_birch_wood: |
+    Gestreiftes Birkenholz
+  stripped_dark_oak_log: Entbarked Swartekenstamm
+  stripped_dark_oak_wood: |2-
+
+    Gestreiftes dunkles Eichenholz
+  stripped_jungle_log: Entbarked Tropenstamm
+  stripped_jungle_wood: Gestripptes Dschungelholz
+  stripped_oak_log: Entbarked Ekenstamm
+  stripped_oak_wood: Gestreiftes Eichenholz
+  stripped_spruce_log: Gestreifter Fichtenstamm
+  stripped_spruce_wood: |
+    Gestreiftes Fichtenholz
+  structure_block: Boenblock
+  structure_void: Boenleege
+  sugar_cane: Suckerröhr
+  sunflower: Sunnenblome
+  suspicious_stew: Raare Sopp
+  tall_seagrass: Hooger Tang
+  trader_llama_spawn_egg: Hannelsmann Lama Spawn Ei
+  trapped_chest: Redstonekist
+  tropical_fish_spawn_egg: Troopenfisk Spawn Ei
+  tube_coral: Örgelkralle
+  tube_coral_block: Örgelkrallenblock
+  tube_coral_fan: Örgelkrallenweiher
+  turtle_egg: Schildpaddei
+  turtle_helmet: Schildpaddenpanzer
+  turtle_spawn_egg: Schildpadd Spawn Ei
+  villager_spawn_egg: Dörpslüü Spawn Ei
+  void_air: Leegelücht
+  wall_torch: Wandlunt
+  wandering_trader_spawn_egg: Wannernde Hannelsmann Spawn Ei
+  wet_sponge: Natter Swam
+  wheat_seeds: Weitekoorns
+  white_bed: Wittes Bett
+  white_dye: Witte Farwe
+  white_glazed_terracotta: Witte glasierte Keramik
+  witch_spawn_egg: Hex Spawn Ei
+  wither_skeleton_spawn_egg: Witherskelet Spawn Ei
+  wither_skeleton_wall_skull: Witherskeletwandkopp
+  wolf_spawn_egg: Wulf Spawn Ei
+  writable_book: Book un Feer
+  written_book: Beschriven Book
+  yellow_bed: Geeles Bett
+  yellow_carpet: Giäler Teppich
+  yellow_dye: Geele Farwe
+  yellow_glazed_terracotta: Geele glasierte Keramik
+  yellow_stained_glass: Giäl Glas
+  yellow_stained_glass_pane: Giäle Glasschiwe
+  yellow_wool: Giäle Wulle
+  zombie_horse_spawn_egg: Zombiepeerd Spawn Ei
+  zombie_spawn_egg: Zombie Spawn Ei
+  zombie_villager_spawn_egg: Dörpslüüzombie Spawn Ei
+  zombie_wall_head: Zombiewandkopp
+biome:
+  ocean: Oceaan
+  desert: Wüüst
+  river: Stroum
+  the_end: Dat Enn
+  frozen_ocean: Vorysde oceaan
+  frozen_river: Vorysd stroum
+  wooded_hills: Woolden höävels
+  deep_ocean: Depe oceaan
+  birch_forest: Barkenwoold
+  birch_forest_hills: Barkenwooldhöävels
+  snowy_taiga: Vorsneyde taiga
+  snowy_taiga_hills: Vorsneyde taigahöävels
+  wooded_mountains: Woolden bargen
+  warm_ocean: Warme oceaan
+  cold_ocean: Kolde oceaan
+  deep_cold_ocean: Kolde deepsey
+  deep_frozen_ocean: Vorysd deepsey
+  the_void: De Void
+  snowy_taiga_mountains: Vorsneyde taigabargen
+  bamboo_jungle: Bambus Jungel
+  bamboo_jungle_hills: Bambus Jungel Bargen
+enchantment:
+  mending: Raparering
+  smite: Vödriwen
+  multishot: Mennigmaalschööt
+  thorns: Doorns
+potion:
+  invisibility: Drank de Onsichtbaarheid
+  fire_resistance: Drank de Fuürresistenz
+  speed: Drank de Gauheid
+  instant_damage: Drank de Schaden
+  poison: Drank de Vergiftung
+  regen: Drank de Regeneration
+  luck: Drank des Glücks
+  turtle_master: Drank van de Schildpaddenmeister
+  slow_falling: Drank de sachte Fall
+splash_potion:
+  speed: Smeetdrank de Gauheid
+  instant_damage: Smeetdrank des Schaas
+  poison: Smeetdrank de Vergiftung
+  regen: Smeetdrank de Regeneration
+  luck: Smeetdrank des Glücks
+lingering_potion:
+  speed: Wieldrank de Gauheid
+  instant_damage: Wieldrank des Schaas
+  regen: Wieldrank de Regeneration
+  luck: Wieldrank des Glücks
+tipped_arrow:
+  uncraftable: Nich maakbar draankt Piel
+  mundane: Draankt Piel
+  thick: Draankt Piel
+  awkward: Draankt Piel
+  invisibility: Piel de Onsichtbaarheid
+  fire_resistance: Piel de Füürschuur
+  speed: Piel de Gauheid
+  water_breathing: Piel de Unnerwateramen
+  instant_damage: Piel de Schaa
+  luck: Piel de Glück
+  turtle_master: Piel van de Schildpaddenmeister
+  slow_falling: Piel de sachte Fall
+entity:
+  stray: Eiswanderer
+  egg: Smieten Ei
+  fireball: Füürball
+  small_fireball: Kleen Füürball
+  ender_pearl: Smieten Enderparrel
+  ender_signal: Enderauge
+  spectral_arrow: Spektraal Piel
+  evoker: Magier
+  minecart_command: Minecart mit Commandblock
+  boat: Boot
+  minecart_chest: Minecart mit Kist
+  minecart_furnace: Minecart mit Ovend
+  minecart_tnt: Minecart mit TNT
+  minecart_hopper: Minecart mit Trechter
+  cave_spider: Höhlenspenn
+  silverfish: Sülwerfisk
+  snowman: Sneeigolem
+  villager: Dörpslüü
+  ender_crystal: End Kristaal
+  turtle: Schildpadd
+  pufferfish: Kuëgelfisk
+  drowned: Drinkeldoden
+  trader_llama: Hannelsmann Lama
+  player: Spöler
+effect:
+  speed: Gauheid
+  slow_digging: Ofboelahmheid
+  heal: Stracksbetem
+  harm: Stracksschaa
+  confusion: Övelheid
+  fire_resistance: Füürschuur
+  water_breathing: Unnerwateramen
+  invisibility: Onsichtbaarheid
+  blindness: Blindheid
+  night_vision: Nachtzicht
+  poison: Gift
+  health_boost: Extraenergie
+  luck: Glück
+dye_color:
+  purple: Violett
+named:
+  player_head_named: Kop van %s
+  unknown_entity: Entiteet '%s' is unbekend
+colored_shied:
+  light_blue: Hillblauer Schild
+  purple: Violetter Schild
+  blue: Blauer Schild
+banner_pattern:
+  '65536': Wittes rechtes Untereck
+  '65537': Geelrootes rechtes Untereck
+  '65538': Magenta rechtes Untereck
+  '65539': Hillblaues rechtes Untereck
+  '65540': Geeles rechtes Untereck
+  '65541': Hillgrönes rechtes Untereck
+  '65542': Fienrootes rechtes Untereck
+  '65543': Graues rechtes Untereck
+  '65544': Grieses rechtes Untereck
+  '65545': Türkises rechtes Untereck
+  '65546': Violettes rechtes Untereck
+  '65547': Blaues rechtes Untereck
+  '65548': Bruunes rechtes Untereck
+  '65549': Grönes rechtes Untereck
+  '65550': Rootes rechtes Untereck
+  '65551': Schwartes rechtes Untereck
+  '131072': Wittes linkes Untereck
+  '131073': Geelrootes linkes Untereck
+  '131074': Magenta linkes Untereck
+  '131075': Hillblaues linkes Untereck
+  '131076': Geeles linkes Untereck
+  '131077': Hillgrönes linkes Untereck
+  '131078': Fienrootes linkes Untereck
+  '131079': Graues linkes Untereck
+  '131080': Grieses linkes Untereck
+  '131081': Türkises linkes Untereck
+  '131082': Violettes linkes Untereck
+  '131083': Blaues linkes Untereck
+  '131084': Bruunes linkes Untereck
+  '131085': Grönes linkes Untereck
+  '131086': Rootes linkes Untereck
+  '131087': Schwartes linkes Untereck
+  '196608': Wittes rechtes Obereck
+  '196609': Geelrootes rechtes Obereck
+  '196610': Magenta rechtes Obereck
+  '196611': Hillblaues rechtes Obereck
+  '196612': Geeles rechtes Obereck
+  '196613': Hillgrönes rechtes Obereck
+  '196614': Fienrootes rechtes Obereck
+  '196615': Graues rechtes Obereck
+  '196616': Grieses rechtes Obereck
+  '196617': Türkises rechtes Obereck
+  '196618': Violettes rechtes Obereck
+  '196619': Blaues rechtes Obereck
+  '196620': Bruunes rechtes Obereck
+  '196621': Grönes rechtes Obereck
+  '196622': Rootes rechtes Obereck
+  '196623': Schwartes rechtes Obereck
+  '262144': Wittes linkes Obereck
+  '262145': Geelrootes linkes Obereck
+  '262146': Magenta linkes Obereck
+  '262147': Hillblaues linkes Obereck
+  '262148': Geeles linkes Obereck
+  '262149': Hillgrönes linkes Obereck
+  '262150': Fienrootes linkes Obereck
+  '262151': Graues linkes Obereck
+  '262152': Grieses linkes Obereck
+  '262153': Türkises linkes Obereck
+  '262154': Violettes linkes Obereck
+  '262155': Blaues linkes Obereck
+  '262156': Bruunes linkes Obereck
+  '262157': Grönes linkes Obereck
+  '262158': Rootes linkes Obereck
+  '262159': Schwartes linkes Obereck
+  '327683': Hillblauer Bannerfot
+  '327690': Violetter Bannerfot
+  '327691': Blauer Bannerfot
+  '393219': Hillblaues Bannerhoupt
+  '393226': Violettes Bannerhoupt
+  '393227': Blaues Bannerhoupt
+  '458752': Witte rechte Flank
+  '458753': Geelroote rechte Flank
+  '458754': Magenta rechte Flank
+  '458755': Hillblaue rechte Flank
+  '458756': Geele rechte Flank
+  '458757': Hillgröne rechte Flank
+  '458758': Fienroote rechte Flank
+  '458759': Graue rechte Flank
+  '458760': Griese rechte Flank
+  '458761': Türkise rechte Flank
+  '458762': Violette rechte Flank
+  '458763': Blaue rechte Flank
+  '458764': Bruune rechte Flank
+  '458765': Gröne rechte Flank
+  '458766': Roote rechte Flank
+  '458767': Schwarte rechte Flank
+  '524291': Hillblaue linke Flank
+  '524298': Violette linke Flank
+  '524299': Blaue linke Flank
+  '589827': Hillblauer Pahl
+  '589834': Violetter Pahl
+  '589835': Blauer Pahl
+  '655363': Hillblauer Balk
+  '655370': Violetter Balk
+  '655371': Blauer Balk
+  '720899': Hillblauer Schreegbalk
+  '720906': Violetter Schreegbalk
+  '720907': Blauer Schreegbalk
+  '786435': Hillblauer Schreeglinksbalk
+  '786442': Violetter Schreeglinksbalk
+  '786443': Blauer Schreeglinksbalk
+  '851971': Veer hillblaue Pahle
+  '851978': Veer violette Pahle
+  '851979': Veer blaue Pahle
+  '917507': Hillblaues Andreaskrüüz
+  '917514': Violettes Andreaskrüüz
+  '917515': Blaues Andreaskrüüz
+  '983043': Hillblaues Krüüz
+  '983050': Violettes Krüüz
+  '983051': Blaues Krüüz
+  '1048579': Hillblaue halve Spitz
+  '1048586': Violette halve Spitz
+  '1048587': Blaue halve Spitz
+  '1114115': Hillblaue gestürte halve Spitz
+  '1114122': Violette gestürte halve Spitz
+  '1114123': Blaue gestürte halve Spitz
+  '1179651': Hillblauer gespickelter Bannerfot
+  '1179658': Violetter gespickelter Bannerfot
+  '1179659': Blauer gespickelter Bannerfot
+  '1245184': Wittes gespickeltes Bannerhoupt
+  '1245185': Geelrootes gespickeltes Bannerhoupt
+  '1245186': Magenta gespickeltes Bannerhoupt
+  '1245187': Hillblaues gespickeltes Bannerhoupt
+  '1245188': Geeles gespickeltes Bannerhoupt
+  '1245189': Hillgrönes gespickeltes Bannerhoupt
+  '1245190': Fienrootes gespickeltes Bannerhoupt
+  '1245191': Graues gespickeltes Bannerhoupt
+  '1245192': Grieses gespickeltes Bannerhoupt
+  '1245193': Türkises gespickeltes Bannerhoupt
+  '1245194': Violettes gespickeltes Bannerhoupt
+  '1245195': Blaues gespickeltes Bannerhoupt
+  '1245196': Bruunes gespickeltes Bannerhoupt
+  '1245197': Grönes gespickeltes Bannerhoupt
+  '1245198': Rootes gespickeltes Bannerhoupt
+  '1245199': Schwartes gespickeltes Bannerhoupt
+  '1310720': Witt schreeglinks geteilt
+  '1310721': Geelroot schreeglinks geteilt
+  '1310722': Magenta schreeglinks geteilt
+  '1310723': Hillblau schreeglinks geteilt
+  '1310724': Geel schreeglinks geteilt
+  '1310725': Hillgrön schreeglinks geteilt
+  '1310726': Fienroot schreeglinks geteilt
+  '1310727': Grau schreeglinks geteilt
+  '1310728': Gries schreeglinks geteilt
+  '1310729': Türkis schreeglinks geteilt
+  '1310730': Violett schreeglinks geteilt
+  '1310731': Blau schreeglinks geteilt
+  '1310732': Bruun schreeglinks geteilt
+  '1310733': Grön schreeglinks geteilt
+  '1310734': Root schreeglinks geteilt
+  '1310735': Schwart schreeglinks geteilt
+  '1376256': Witt schreeglinks geteilt (Invertiert)
+  '1376257': Geelroot schreeglinks geteilt (Invertiert)
+  '1376258': Magenta schreeglinks geteilt (Invertiert)
+  '1376259': Hillblau schreeglinks geteilt (Invertiert)
+  '1376260': Geel schreeglinks geteilt (Invertiert)
+  '1376261': Hillgrön schreeglinks geteilt (Invertiert)
+  '1376262': Fienroot schreeglinks geteilt (Invertiert)
+  '1376263': Grau schreeglinks geteilt (Invertiert)
+  '1376264': Gries schreeglinks geteilt (Invertiert)
+  '1376265': Türkis schreeglinks geteilt (Invertiert)
+  '1376266': Violett schreeglinks geteilt (Invertiert)
+  '1376267': Blau schreeglinks geteilt (Invertiert)
+  '1376268': Bruun schreeglinks geteilt (Invertiert)
+  '1376269': Grön schreeglinks geteilt (Invertiert)
+  '1376270': Root schreeglinks geteilt (Invertiert)
+  '1376271': Schwart schreeglinks geteilt (Invertiert)
+  '1441792': Witt schreegrechts geteilt (Invertiert)
+  '1441793': Geelroot schreegrechts geteilt (Invertiert)
+  '1441794': Magenta schreegrechts geteilt (Invertiert)
+  '1441795': Hillblau schreegrechts geteilt (Invertiert)
+  '1441796': Geel schreegrechts geteilt (Invertiert)
+  '1441797': Hillgrön schreegrechts geteilt (Invertiert)
+  '1441798': Fienroot schreegrechts geteilt (Invertiert)
+  '1441799': Grau schreegrechts geteilt (Invertiert)
+  '1441800': Gries schreegrechts geteilt (Invertiert)
+  '1441801': Türkis schreegrechts geteilt (Invertiert)
+  '1441802': Violett schreegrechts geteilt (Invertiert)
+  '1441803': Blau schreegrechts geteilt (Invertiert)
+  '1441804': Bruun schreegrechts geteilt (Invertiert)
+  '1441805': Grön schreegrechts geteilt (Invertiert)
+  '1441806': Root schreegrechts geteilt (Invertiert)
+  '1441807': Schwart schreegrechts geteilt (Invertiert)
+  '1507328': Witt schreegrechts geteilt
+  '1507329': Geelroot schreegrechts geteilt
+  '1507330': Magenta schreegrechts geteilt
+  '1507331': Hillblau schreegrechts geteilt
+  '1507332': Geel schreegrechts geteilt
+  '1507333': Hillgrön schreegrechts geteilt
+  '1507334': Fienroot schreegrechts geteilt
+  '1507335': Grau schreegrechts geteilt
+  '1507336': Gries schreegrechts geteilt
+  '1507337': Türkis schreegrechts geteilt
+  '1507338': Violett schreegrechts geteilt
+  '1507339': Blau schreegrechts geteilt
+  '1507340': Bruun schreegrechts geteilt
+  '1507341': Grön schreegrechts geteilt
+  '1507342': Root schreegrechts geteilt
+  '1507343': Schwart schreegrechts geteilt
+  '1572867': Hillblaue Kuogel
+  '1572874': Violette Kuogel
+  '1572875': Blaue Kuogel
+  '1638400': Witte Raute
+  '1638401': Geelroote Raute
+  '1638402': Magenta Raute
+  '1638403': Hillblaue Raute
+  '1638404': Geele Raute
+  '1638405': Hillgröne Raute
+  '1638406': Fienroote Raute
+  '1638407': Graue Raute
+  '1638408': Griese Raute
+  '1638409': Türkise Raute
+  '1638410': Violette Raute
+  '1638411': Blaue Raute
+  '1638412': Bruune Raute
+  '1638413': Gröne Raute
+  '1638414': Roote Raute
+  '1638415': Schwarte Raute
+  '1703936': Rechts witt gespalten
+  '1703937': Rechts geelroot gespalten
+  '1703938': Rechts magenta gespalten
+  '1703939': Rechts hillblau gespalten
+  '1703940': Rechts geel gespalten
+  '1703941': Rechts hillgrön gespalten
+  '1703942': Rechts fienroot gespalten
+  '1703943': Rechts grau gespalten
+  '1703944': Rechts gries gespalten
+  '1703945': Rechts türkis gespalten
+  '1703946': Rechts violett gespalten
+  '1703947': Rechts blau gespalten
+  '1703948': Rechts bruun gespalten
+  '1703949': Rechts grön gespalten
+  '1703950': Rechts root gespalten
+  '1703951': Rechts schwart gespalten
+  '1769472': Owen witt geteilt
+  '1769473': Owen geelroot geteilt
+  '1769474': Owen magenta geteilt
+  '1769475': Owen hillblau geteilt
+  '1769476': Owen geel geteilt
+  '1769477': Owen hillgrön geteilt
+  '1769478': Owen fienroot geteilt
+  '1769479': Owen grau geteilt
+  '1769480': Owen gries geteilt
+  '1769481': Owen türkis geteilt
+  '1769482': Owen violett geteilt
+  '1769483': Owen blau geteilt
+  '1769484': Owen bruun geteilt
+  '1769485': Owen grön geteilt
+  '1769486': Owen root geteilt
+  '1769487': Owen schwart geteilt
+  '1835008': Links witt gespalten
+  '1835009': Links geelroot gespalten
+  '1835010': Links magenta gespalten
+  '1835011': Links hillblau gespalten
+  '1835012': Links geel gespalten
+  '1835013': Links hillgrön gespalten
+  '1835014': Links fienroot gespalten
+  '1835015': Links grau gespalten
+  '1835016': Links gries gespalten
+  '1835017': Links türkis gespalten
+  '1835018': Links violett gespalten
+  '1835019': Links blau gespalten
+  '1835020': Links bruun gespalten
+  '1835021': Links grön gespalten
+  '1835022': Links root gespalten
+  '1835023': Links schwart gespalten
+  '1900544': Ünnen witt geteilt
+  '1900545': Ünnen geelroot geteilt
+  '1900546': Ünnen magenta geteilt
+  '1900547': Ünnen hillblau geteilt
+  '1900548': Ünnen geel geteilt
+  '1900549': Ünnen hillgrön geteilt
+  '1900550': Ünnen fienroot geteilt
+  '1900551': Ünnen grau geteilt
+  '1900552': Ünnen gries geteilt
+  '1900553': Ünnen türkis geteilt
+  '1900554': Ünnen violett geteilt
+  '1900555': Ünnen blau geteilt
+  '1900556': Ünnen bruun geteilt
+  '1900557': Ünnen grön geteilt
+  '1900558': Ünnen root geteilt
+  '1900559': Ünnen schwart geteilt
+  '1966083': Hillblauer Boord
+  '1966090': Violetter Boord
+  '1966091': Blauer Boord
+  '2031619': Hillblauer Spickelboord
+  '2031626': Violetter Spickelboord
+  '2031627': Blauer Spickelboord
+  '2097155': Hillblauer Creeper
+  '2097162': Violetter Creeper
+  '2097163': Blauer Creeper
+  '2162691': Hillblauer Farvverloop
+  '2162698': Violetter Farvverloop
+  '2162699': Blauer Farvverloop
+  '2228227': Hillblauer Farvverloop (Invertiert)
+  '2228234': Violetter Farvverloop (Invertiert)
+  '2228235': Blauer Farvverloop (Invertiert)
+  '2293763': Feld hillblau müür
+  '2293770': Feld violett müür
+  '2293771': Feld blau müür
+  '2359299': Hillblauer Kopp
+  '2359306': Violetter Kopp
+  '2359307': Blauer Kopp
+  '2424835': Hillblaue Bloom
+  '2424842': Violette Bloom
+  '2424843': Blaue Bloom
+  '2490371': Hillblaues Mojang-Logo
+  '2490378': Violettes Mojang-Logo
+  '2490379': Blaues Mojang-Logo
+  '2555905': Geelroode Eer
+  '2555907': Dagblaue Eer
+  '2555909': Daggrööne Eer
+  '2555910': Rosa Eer
+  '2555915': Blaue Eer
+merchant_level:
+  '5': Meister
+villager_profession:
+  none: Dörpslüü
+  armorer: Panzermaker
+  butcher: Slachter
+  cleric: Pastoor
+  farmer: Buur
+  fisherman: Fiskerman
+  nitwit: Nichtsnutz
+  shepherd: Scheepker
+  toolsmith: Groffsmidd
+  weaponsmith: Waffensmidd

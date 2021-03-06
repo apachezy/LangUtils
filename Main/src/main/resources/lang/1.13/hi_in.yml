@@ -1,0 +1,936 @@
+# ####################################################
+# Build time: 2021-03-06 14:47:27                    #
+# ####################################################
+language:
+  code: hi_in
+  name: हिन्दी
+  region: भारत
+material:
+  acacia_boat: बबूल नाव
+  acacia_button: बबूल बटन
+  acacia_door: बबूल के दरवाजे
+  acacia_fence: बबूल बाड़
+  acacia_fence_gate: बबूल बाड़ गेट
+  acacia_leaves: बबूल के पत्ते
+  acacia_planks: एकेसिया प्लाक्स
+  acacia_pressure_plate: बबूल प्रेशर प्लेट
+  acacia_sapling: बबूल पौधा
+  acacia_slab: बबूल स्लैब
+  acacia_stairs: बबूल सीढ़ियों
+  acacia_trapdoor: बादाम Trapdoor
+  allium: Allium
+  anvil: विचाराधीन
+  armor_stand: कवच स्टैंड
+  baked_potato: बेक्ड आलू
+  barrier: बैरियर
+  beacon: बीकन
+  bedrock: आधार
+  beef: कच्चे बीफ
+  beetroot_soup: चुकंदर का सूप
+  birch_boat: सन्टी नाव
+  birch_button: बिर्च बटन
+  birch_door: सन्टी दरवाजा
+  birch_fence: सन्टी बाड़
+  birch_fence_gate: सन्टी बाड़ गेट
+  birch_leaves: सन्टी पत्ते
+  birch_planks: बर्च प्लाक्स
+  birch_pressure_plate: बिर्च प्रेशर प्लेट
+  birch_sapling: अंकुर सन्टी
+  birch_slab: बिर्च स्लैब
+  birch_stairs: बिर्च सीढ़ियों
+  birch_trapdoor: बिर्च ट्रैपडोर
+  birch_wood: सन्टी लकड़ी
+  black_banner: काला बैनर
+  black_carpet: काले कालीन
+  black_concrete: काले कंक्रीट
+  black_concrete_powder: काले कंक्रीट पाउडर
+  black_shulker_box: काले शूल्कर बॉक्स
+  black_stained_glass: काला सना हुआ कांच
+  black_stained_glass_pane: काला रंगीन कांच खिड़की
+  black_wall_banner: काला बैनर
+  black_wool: काले ऊन
+  blaze_rod: ब्लेज़ रॉड
+  blue_banner: नीला बैनर
+  blue_bed: नीले बिस्तर
+  blue_carpet: ब्लू कालीन
+  blue_concrete_powder: नीला कंक्रीट पाउडर
+  blue_ice: पीला बर्फ
+  blue_orchid: ब्लू आर्किड फूल
+  blue_shulker_box: नीले शूल्कर बॉक्स
+  blue_stained_glass: नीला दाग कांच
+  blue_stained_glass_pane: नीले कांच फलक
+  blue_terracotta: नीले टेराकोटा
+  blue_wall_banner: नीला बैनर
+  blue_wool: ब्लू ऊन
+  bone_block: हड्डी ब्लॉक
+  book: किताब
+  bowl: कटोरा
+  brain_coral: ब्रेन कोरल
+  brain_coral_block: ब्रेन कोरल ब्लाक
+  brain_coral_fan: ब्रेन कोरल फ़ैन
+  bread: रोटी
+  brick_slab: ईंट स्लैब
+  brick_stairs: ईंट सीढ़ियाँ
+  brown_banner: भूरा बैनर
+  brown_bed: भूरी बिस्तर
+  brown_carpet: ब्राउन कालीन
+  brown_concrete: भूरे कंक्रीट
+  brown_concrete_powder: भूरे कंक्रीट पाउडर
+  brown_mushroom: भूरा मशरुम
+  brown_mushroom_block: भूरा मशरुम ब्लॉक
+  brown_shulker_box: भूरे शूल्कर बॉक्स
+  brown_stained_glass: भूरा रंगीन कांच
+  brown_stained_glass_pane: ब्राउन रंगीन कांच खिड़की
+  brown_wall_banner: भूरा बैनर
+  brown_wool: ब्राउन ऊन
+  bubble_coral: बबल कोरल
+  bubble_coral_block: बबल कोरल ब्लाक
+  bubble_coral_fan: बबल कोरल फ़ैन
+  cactus: कैक्टस
+  carrot_on_a_stick: एक छड़ी पर गाजर
+  cauldron: देग़
+  cave_air: गुफा हवा
+  chainmail_boots: लोहे के जूते
+  chainmail_helmet: लोहे का सरकवच
+  chainmail_leggings: लोहे की लेगिंग्स
+  charcoal: लकड़ी का कोयला
+  chest: संदूक
+  chicken: कच्चा चिकन
+  chipped_anvil: थोड़ा टूटा हुआ ऐविल
+  chiseled_red_sandstone: गढ़े हुए लाल बलुआ पत्थर
+  chiseled_sandstone: गढ़े हुए बलुआ पत्थर
+  chiseled_stone_bricks: गढ़े हुए पत्थर ईंटों
+  chorus_fruit: कोरस फल
+  clay: मिट्टी
+  clay_ball: मिट्टी
+  coal_block: कोयला ब्लॉक
+  coarse_dirt: मोटे गंदगी
+  cobblestone: पक्की सड़क पत्थर
+  cobblestone_slab: पक्की सड़क पत्थर पटिया
+  cobblestone_stairs: स्टोन सीढ़ियाँ
+  cobblestone_wall: पत्थर का दीवार
+  cobweb: मकड़ी का जाला
+  cod_spawn_egg: कॉड स्पॉन के अंडे
+  command_block: आदेश ब्लॉक
+  compass: कंपास
+  conduit: पाइपलाइन
+  cooked_beef: स्टेक
+  cooked_chicken: पकाया चिकन
+  cooked_cod: पका हुआ कॉड
+  cooked_mutton: पकाया मटन
+  cooked_porkchop: पकाया पोर्क
+  cooked_rabbit: पकाया खरगोश
+  cooked_salmon: पकाया सामन मछली
+  cookie: कुकी
+  cracked_stone_bricks: फटा पत्थर ईंटें
+  creeper_head: लता सिर
+  creeper_wall_head: करीपर वॉल हेड
+  cut_red_sandstone: कटा हुआ रेडस्टोन
+  cut_sandstone: कटा हुआ सैंडस्टोन
+  cyan_banner: सियान बैनर
+  cyan_bed: सियान बिस्तर
+  cyan_carpet: सियान कालीन
+  cyan_concrete: सियान कंक्रीट
+  cyan_concrete_powder: सियान कंक्रीट पाउडर
+  cyan_dye: सियान डाई
+  cyan_shulker_box: सियान शूल्कर बॉक्स
+  cyan_stained_glass: सियान सना हुआ ग्लास
+  cyan_stained_glass_pane: सियान सना हुआ ग्लास फलक
+  cyan_wall_banner: सियान बैनर
+  cyan_wool: सियान ऊन
+  dark_oak_boat: काले ओक नाव
+  dark_oak_button: डार्क ओक बटन
+  dark_oak_door: काले ओक दरवाजा
+  dark_oak_fence: काले ओक बाड़
+  dark_oak_fence_gate: काले ओक बाड़ गेट
+  dark_oak_leaves: काले ओक के पत्तों
+  dark_oak_planks: डार्क ओक प्लाक्स
+  dark_oak_pressure_plate: डार्क ओक प्रेशर प्लेट
+  dark_oak_sapling: ज्यूकबॉक्स / नोट ब्लॉकों
+  dark_oak_slab: डार्क ओक स्लैब
+  dark_oak_stairs: डार्क ओक सीढ़ियों
+  dark_oak_trapdoor: डार्क ओक ट्रैपडोर
+  dark_oak_wood: काले ओक की लकड़ी
+  dark_prismarine: अंधेरे प्रिज्मरीन
+  dark_prismarine_slab: डार्क Prismarine स्लैब
+  dark_prismarine_stairs: डार्क Prismarine सीढ़ियों
+  daylight_detector: दिन का समय डिटेक्टर
+  dead_brain_coral: दाद ब्रेन कोरल
+  dead_brain_coral_block: मृत ब्रेन कोरल ब्लॉक
+  dead_brain_coral_fan: मरा दिमाग कोरल फैन
+  dead_bubble_coral: दाद बबल कोरल
+  dead_bubble_coral_block: मृत बुलबुला कोरल ब्लॉक
+  dead_bubble_coral_fan: मरा बुलबुला कोरल फैन
+  dead_bush: मृत बुश
+  dead_fire_coral: दाद फिरे कोरल
+  dead_fire_coral_block: मृत आग कोरल ब्लॉक
+  dead_fire_coral_fan: मरा अग्नि कोरल फैन
+  dead_horn_coral: दाद हॉर्न कोरल
+  dead_horn_coral_block: मृत सींग कोरल ब्लॉक
+  dead_horn_coral_fan: मरा अग्नि कोरल फैन
+  dead_tube_coral: दाद टूब कोरल
+  dead_tube_coral_fan: मरा ट्यूब कोरल फैन
+  debug_stick: डीबग स्टिक
+  diamond_axe: डायमंड कुल्हाड़ी
+  diamond_block: डायमंड के ब्लॉक
+  diamond_boots: डायमंड जूते
+  diamond_chestplate: डायमंड चेस्ट प्लेट
+  diamond_helmet: डायमंड हेलमेट
+  diamond_hoe: डायमंड कुदाल
+  diamond_leggings: डायमंड लेगिंग
+  diamond_ore: डायमंड अयस्क
+  diamond_pickaxe: डायमंड कुदाल से मिट्टी खुरपना
+  diamond_shovel: डायमंड फावड़ा
+  diamond_sword: हीरे की तलवार
+  diorite: डाइओराइट
+  dirt: धूल
+  dried_kelp_block: सूखे राख ब्लॉक
+  elytra: ऐलयत्रा
+  emerald_ore: पन्ना अयस्क
+  end_portal: अंत पोर्टल
+  end_portal_frame: अंत द्वार ढांचा
+  end_stone: अंत स्टोन
+  end_stone_bricks: अंत पत्थर ईंटें
+  fern: फ़र्न
+  filled_map: नक्शा
+  fire_coral: फिरे कोरल
+  fire_coral_block: फिरे कोरल ब्लाक
+  fire_coral_fan: फिरे कोरल फ़ैन
+  flint_and_steel: चकमक और इस्पात
+  ghast_tear: भूत फाड़
+  glass: गिलास
+  glass_bottle: कांच की बोतल
+  glass_pane: ग्लास फलक
+  glistering_melon_slice: चमकता हुआ तरबूज का टुकडा
+  golden_apple: गोल्ड सेब
+  golden_axe: गोल्डन कुल्हाड़ी
+  golden_boots: गोल्डन बूट
+  golden_chestplate: गोल्डन चेस्ट प्लेट
+  golden_helmet: गोल्डन हेलमेट
+  golden_hoe: गोल्डन कुदाल
+  golden_leggings: गोल्डन लेगिंग
+  golden_pickaxe: गोल्डन कुदाल से मिट्टी खुरपना
+  golden_shovel: स्वर्ण फावड़ा
+  golden_sword: स्वर्ण तलवार
+  gold_block: सोने के ब्लॉक
+  gold_nugget: गोल्ड सोने का डला
+  gold_ore: गोल्ड अयस्क
+  grass_block: घास ब्लॉक
+  gray_banner: ग्रे बैनर
+  gray_bed: धूसर बिस्तर
+  gray_carpet: ग्रे कालीन
+  gray_concrete: ग्रे कंक्रीट
+  gray_concrete_powder: ग्रे कंक्रीट पाउडर
+  gray_dye: ग्रे डाई
+  gray_shulker_box: ग्रे शूल्कर बॉक्स
+  gray_stained_glass: भूरा रंगीन कांच
+  gray_stained_glass_pane: भूरा सना हुआ ग्लास फलक
+  gray_wall_banner: ग्रे बैनर
+  gray_wool: ग्रे ऊन
+  green_banner: हरा बैनर
+  green_bed: हरी बिस्तर
+  green_carpet: ग्रीन कारपेट
+  green_concrete: हरी कंक्रीट
+  green_concrete_powder: हरी कंक्रीट पाउडर
+  green_shulker_box: हरी शूल्कर बॉक्स
+  green_stained_glass: हरी रंगीन कांच
+  green_stained_glass_pane: हरी रंगीन कांच खिड़की
+  green_wall_banner: हरा बैनर
+  green_wool: ग्रीन ऊन
+  heart_of_the_sea: समुदय का ह्रदय
+  heavy_weighted_pressure_plate: भारी भारित दबाव प्लेट
+  horn_coral: हॉर्न कोरल
+  horn_coral_block: हॉर्न कोरल ब्लाक
+  horn_coral_fan: हॉर्न कोरल फैन
+  infested_chiseled_stone_bricks: उपद्रव  तराशा हुआ ईंट पत्थर
+  infested_cobblestone: उपद्रव ईंट पत्थर
+  infested_cracked_stone_bricks: उपद्रव फटा ईंट पत्थर
+  infested_mossy_stone_bricks: उपद्रव काई से भरा ईंट पत्थर
+  infested_stone: इन्फस्टेड स्टोन
+  infested_stone_bricks: उपद्रव ईंट पत्थर
+  iron_axe: आयरन कुल्हाड़ी
+  iron_bars: लोहे की सलाखों
+  iron_block: लोहे के ब्लॉक
+  iron_boots: आयरन जूते
+  iron_chestplate: आयरन चेस्ट प्लेट
+  iron_door: लौह द्वार
+  iron_helmet: आयरन हेलमेट
+  iron_hoe: आयरन कुदाल
+  iron_ingot: लौह पिंड
+  iron_leggings: आयरन लेगिंग
+  iron_nugget: लोहे का तूकडा
+  iron_pickaxe: आयरन कुदाल से मिट्टी खुरपना
+  iron_shovel: आयरन फावड़ा
+  iron_sword: आयरन तलवार
+  iron_trapdoor: लोहा ट्रैपडोर
+  jukebox: संगीत बॉक्स
+  jungle_boat: जंगल नाव
+  jungle_button: जंगल बटन
+  jungle_door: जंगल के दरवाजे
+  jungle_fence: जंगल बाड़
+  jungle_fence_gate: जंगल बाड़ गेट
+  jungle_leaves: वनीय पत्ते
+  jungle_planks: जंगल प्लाक्स
+  jungle_pressure_plate: जंगल प्रेशर प्लेट
+  jungle_sapling: अंकुर सहरा
+  jungle_slab: जंगल स्लैब
+  jungle_stairs: जंगल सीढ़ियों
+  jungle_trapdoor: जंगल ट्रैपडोर
+  jungle_wood: जंगल काष्ठ
+  kelp: केल्प
+  kelp_plant: केल्प संयंत्र
+  lapis_block: लापीस लाजुली ब्लॉक
+  lapis_ore: लापीस लाजुली अयस्क
+  large_fern: बड़े फ़र्न
+  lava_bucket: लावा बाल्टी
+  lead: पेंसिल का सुरमा
+  leather_boots: चमड़ा जूते
+  leather_chestplate: चमड़ा अंगरखा
+  leather_helmet: चमड़ा कैप
+  leather_leggings: चमड़े की पैंट
+  light_blue_banner: हल्का नीला बैनर
+  light_blue_carpet: लाइट ब्लू कालीन
+  light_blue_concrete: लाइट ब्लू कंक्रीट
+  light_blue_concrete_powder: लाइट ब्लू कंक्रीट पाउडर
+  light_blue_dye: हल्की ब्लू डाई
+  light_blue_shulker_box: हल्के नीले शूल्कर बॉक्स
+  light_blue_stained_glass: हल्के नीले कांच
+  light_blue_stained_glass_pane: हल्के नीले कांच फलक
+  light_blue_wall_banner: हल्का नीला बैनर
+  light_blue_wool: प्रकाश ब्लू ऊन
+  light_gray_banner: हल्का ग्रे बैनर
+  light_gray_bed: हल्की धूसर बिस्तर
+  light_gray_carpet: लाइट ग्रे कालीन
+  light_gray_concrete: लाइट ग्रे कंक्रीट
+  light_gray_concrete_powder: लाइट ग्रे कंक्रीट पाउडर
+  light_gray_dye: हल्की ग्रे डाई
+  light_gray_shulker_box: लाइट ग्रे शूल्कर बॉक्स
+  light_gray_stained_glass: हल्का भूरा रंगीन कांच
+  light_gray_stained_glass_pane: लाइट ग्रे सना हुआ ग्लास फलक
+  light_gray_wall_banner: हल्का ग्रे बैनर
+  light_gray_wool: हल्की ग्रे ऊन
+  light_weighted_pressure_plate: हल्के भारित दबाव प्लेट
+  lilac: बकाइन
+  lime_banner: नींबू बैनर
+  lime_bed: चूने बिस्तर
+  lime_concrete: नींबू कंक्रीट
+  lime_concrete_powder: चूना कंक्रीट पाउडर
+  lime_dye: निम्बुड़ा डाई
+  lime_shulker_box: चूने शूल्कर बॉक्स
+  lime_stained_glass: निम्बू रंगीन कांच
+  lime_stained_glass_pane: चूने सना हुआ ग्लास फलक
+  lime_terracotta: हल्का हरा टेराकोटा
+  lime_wall_banner: नींबू बैनर
+  lime_wool: निम्बुड़ा ऊन
+  magenta_banner: मैजेंटा बैनर
+  magenta_bed: निलातिरकत। बिस्तर
+  magenta_carpet: मैजेंटा कालीन
+  magenta_concrete: मेजेन्टा कंक्रीट
+  magenta_concrete_powder: मेजेन्टा कंक्रीट पाउडर
+  magenta_dye: मैजंटा डाई
+  magenta_shulker_box: मेजेन्टा शूल्कर बॉक्स
+  magenta_stained_glass: रानी सना हुआ ग्लास
+  magenta_stained_glass_pane: मेजेन्टा सना हुआ ग्लास फलक
+  magenta_terracotta: गहरा गुलाबी टेराकोटा
+  magenta_wall_banner: मैजेंटा बैनर
+  magenta_wool: मैजंटा ऊन
+  melon: तरबूज
+  milk_bucket: दूध का बाल्टी
+  mossy_cobblestone: काई कोब्ब्लेस्तोने
+  mossy_cobblestone_wall: घास के साथ पत्थर का दीवार
+  mossy_stone_bricks: काई से भरा पत्थर ईंटें
+  mushroom_stem: मशरूम स्टेम
+  music_disc_11: संगीत डिस्क
+  music_disc_13: संगीत डिस्क
+  music_disc_blocks: संगीत डिस्क
+  music_disc_cat: संगीत डिस्क
+  music_disc_chirp: संगीत डिस्क
+  music_disc_far: संगीत डिस्क
+  music_disc_mall: संगीत डिस्क
+  music_disc_mellohi: संगीत डिस्क
+  music_disc_stal: संगीत डिस्क
+  music_disc_strad: संगीत डिस्क
+  music_disc_wait: संगीत डिस्क
+  music_disc_ward: संगीत डिस्क
+  mycelium: फुई
+  netherrack: नीचे रॉक
+  nether_brick: नीचे ईंट
+  nether_bricks: नेदर ईंट
+  nether_brick_fence: नीचे ईंट बाड़
+  nether_brick_slab: नीचे का ब्रिक स्लैब
+  nether_brick_stairs: नीचे ईंट सीढ़ियाँ
+  nether_portal: Nether पोर्टल
+  nether_quartz_ore: Nether क्वार्ट्ज अयस्क
+  nether_star: नीचे का सितारा
+  nether_wart: नीचे मस्सा
+  nether_wart_block: खाल वार्ट ब्लॉक
+  oak_boat: ओक नाव
+  oak_button: ओक बटन
+  oak_door: ओक दरवाजा
+  oak_fence: बाड़
+  oak_fence_gate: बाड़ गेट
+  oak_leaves: ओक के पत्तों
+  oak_log: ओक वुड
+  oak_planks: ओक प्लाक्स
+  oak_pressure_plate: ओक प्रेशर प्लेट
+  oak_sapling: ओक सैपलिंग
+  oak_slab: ओक स्लैब
+  oak_stairs: ओक सीढ़ियों
+  oak_trapdoor: ओक Trapdoor
+  oak_wood: बलूत का लकड़ा
+  obsidian: ओब्सीडियन
+  orange_banner: ऑरेंज बैनर
+  orange_carpet: ऑरेंज कालीन
+  orange_concrete_powder: नारंगी कंक्रीट पाउडर
+  orange_dye: ऑरेंज डाई
+  orange_shulker_box: ऑरेंज शूल्कर बॉक्स
+  orange_stained_glass: नारंगी रंगीन कांच
+  orange_stained_glass_pane: नारंगी सना हुआ ग्लास फलक
+  orange_tulip: नारंगी सुर्ख
+  orange_wall_banner: ऑरेंज बैनर
+  orange_wool: ऑरेंज ऊन
+  oxeye_daisy: Oxeye डेज़ी
+  packed_ice: पैक्ड बर्फ
+  paper: काग़ज़
+  peony: Peony
+  pink_banner: गुलाबी बैनर
+  pink_concrete_powder: गुलाबी कंक्रीट पाउडर
+  pink_dye: गुलाबी डाई
+  pink_shulker_box: गुलाबी शूल्कर बॉक्स
+  pink_stained_glass: गुलाबी रंगीन कांच
+  pink_stained_glass_pane: गुलाबी कांच फलक
+  pink_tulip: गुलाबी ट्यूलिप
+  pink_wall_banner: गुलाबी बैनर
+  player_head: खिलाड़ी सिर
+  polished_andesite: पॉलिश एंडिसिट
+  polished_diorite: पॉलिश डाइरेइट
+  polished_granite: पॉलिश ग्रेनाइट
+  poppy: अफीम
+  porkchop: कच्चा पोर्क
+  potion: शरबत
+  potted_acacia_sapling: गमले में बबूल पौधा
+  potted_allium: पॉटेड अल्लिम
+  potted_birch_sapling: गमले में सन्टी पौधा
+  potted_blue_orchid: गमले में नीली आर्किड
+  potted_brown_mushroom: पॉटेड ब्राउन मशरूम
+  potted_cactus: गमले का कैक्टस
+  potted_dark_oak_sapling: गमले में गहरा बलूत पौधा
+  potted_dead_bush: पॉटेड दाद बुश
+  potted_fern: पॉटेड फ़र्न
+  potted_jungle_sapling: गमले में जंगल पौधा
+  potted_oak_sapling: गमले में बलूत पौधा
+  potted_orange_tulip: पॉटेड ऑरेंज टूलिप
+  potted_pink_tulip: पॉटेड पिंक Tulip
+  potted_poppy: गमले में पोस्ता
+  potted_red_mushroom: पॉटेड रेड मशरूम
+  potted_red_tulip: पॉटेड रेड टूलिप
+  potted_spruce_sapling: गमले में सजाना पौधा
+  potted_white_tulip: पॉटेड वाइट टूलिप
+  prismarine: प्रिज़्मरीन
+  prismarine_bricks: प्रिज्मरीन ईंट्स
+  prismarine_brick_slab: प्रिज्मरीन ईंट स्लैब
+  prismarine_brick_stairs: Prismarine ईंट सीढ़ियों
+  prismarine_crystals: Prismarine माणभ
+  prismarine_shard: Prismarine ठीकरा
+  prismarine_slab: Prismarine स्लैब
+  prismarine_stairs: Prismarine सीढ़ियों
+  pufferfish: Pufferfish
+  pufferfish_bucket: बाल्टीभर आध्मादतक मछली
+  pumpkin_stem: कद्दू स्टेम
+  purple_banner: बैंगनी बैनर
+  purple_bed: बैंगनी बिस्तर
+  purple_carpet: बैंगनी कालीन
+  purple_concrete: बैंगनी कंक्रीट
+  purple_concrete_powder: बैंगनी कंक्रीट पाउडर
+  purple_dye: बैंगनी डाई
+  purple_shulker_box: बैंगनी शूल्कर बॉक्स
+  purple_stained_glass: बैंगनी सना हुआ कांच
+  purple_stained_glass_pane: बैंगनी सना हुआ ग्लास फलक
+  purple_terracotta: बैंगनी टेराकोटा
+  purple_wall_banner: बैंगनी बैनर
+  purple_wool: बैंगनी ऊन
+  purpur_block: Purpur ब्लॉक
+  purpur_pillar: Purpur स्तंभ
+  purpur_slab: Purpur स्लैब
+  purpur_stairs: Purpur सीढ़ि
+  quartz: Nether क्वार्ट्ज
+  quartz_block: क्वार्ट्ज के ब्लॉक
+  quartz_pillar: क्वार्ट्ज स्तंभ
+  quartz_slab: क्वार्ट्ज स्लैब
+  quartz_stairs: क्वार्ट्ज सीढ़ियाँ
+  rabbit: कच्चे खरगोश
+  rabbit_foot: खरगोश के पैर
+  rabbit_hide: छुपाएँ खरगोश
+  rabbit_stew: ख़रगोश का स्टू
+  redstone: रेड्स्टोन
+  redstone_ore: लाल पत्थर अयस्क
+  redstone_torch: लाल पत्थर मशाल
+  redstone_wall_torch: दीवार का Redstone मशाल
+  redstone_wire: लाल पत्थर धूल
+  red_banner: लाल बैनर
+  red_concrete_powder: लाल कंक्रीट पाउडर
+  red_mushroom: लाल मशरूम
+  red_mushroom_block: लाल मशरुम ब्लॉक
+  red_nether_bricks: लाल Nether ईट
+  red_sandstone: लाल  बलुआ पत्थर
+  red_sandstone_slab: लाल बलुआ पत्थर स्लैब
+  red_sandstone_stairs: लाल बलुआ पत्थर सीढ़ियाँ
+  red_shulker_box: लाल शूल्कर बॉक्स
+  red_stained_glass: लाल सना हुआ कांच
+  red_stained_glass_pane: लाल रंगीन कांच खिड़की
+  red_tulip: लाल सुर्ख
+  red_wall_banner: लाल बैनर
+  rose_bush: गुलाब बुश
+  rotten_flesh: सड़े हुए मांस
+  salmon: कच्ची सामन मछली
+  salmon_bucket: बाल्टीभर सॅल्मन
+  sandstone_slab: बलुआ पत्थर पटिया
+  sandstone_stairs: बलुआ पत्थर सीढ़ियाँ
+  scute: Scute
+  sea_pickle: सागर अचार
+  shield: शील्ड
+  shulker_box: Shulker बॉक्स
+  shulker_shell: Shulker खोल
+  skeleton_skull: कंकाल खोपड़ी
+  skeleton_wall_skull: कंकाल दीवार खोपड़ी
+  smooth_quartz: चिकना बिल्लौर
+  snow: बर्फ
+  soul_sand: आत्मा रेत
+  spider_eye: स्पाइडर आँखों
+  spruce_boat: स्प्रूस नाव
+  spruce_button: सजाना बटन
+  spruce_door: स्प्रूस दरवाजा
+  spruce_fence: स्प्रूस बाड़
+  spruce_fence_gate: स्प्रूस बाड़ गेट
+  spruce_leaves: सजाना पत्तियां
+  spruce_planks: स्प्रूस प्लाक्स
+  spruce_pressure_plate: सजाना प्रेशर प्लेट
+  spruce_sapling: अंकुर सजाना
+  spruce_slab: सजाना स्लैब
+  spruce_stairs: सजाना सीढ़ियों
+  spruce_trapdoor: सजाना Trapdoor
+  spruce_wood: सजाना लकड़ी
+  stick: छड़ी
+  stone_axe: स्टोन कुल्हाड़ी
+  stone_bricks: स्टोन ईंटें
+  stone_brick_slab: पत्तर की ईंट स्लैब
+  stone_brick_stairs: स्टोन ईंट सीढ़ियाँ
+  stone_button: स्टोन बटन
+  stone_hoe: स्टोन कुदाल
+  stone_pickaxe: स्टोन कुदाल से मिट्टी खुरपना
+  stone_pressure_plate: पत्थर दबाव प्लेट
+  stone_shovel: स्टोन फावड़ा
+  stone_slab: पटिया
+  stone_sword: स्टोन तलवार
+  string: स्ट्रिंग
+  stripped_acacia_wood: पटाया बादाम लकड़ी
+  stripped_birch_wood: पट्टीदार बिर्च लकड़ी
+  stripped_dark_oak_wood: स्ट्रिपेड डार्क ओक वुड
+  stripped_jungle_wood: पट्टी जंगल लकड़ी
+  stripped_oak_wood: पट्टीदार अोक लकड़ी
+  stripped_spruce_wood: पट्टीदार स्पूस लकड़ी
+  tall_grass: डबल लंबा घास
+  tall_seagrass: लंबा Seagrass
+  tnt_minecart: टीएनटी के साथ Minecart
+  totem_of_undying: कुलदेवता की अमर
+  trapped_chest: फँसा छाती
+  tube_coral: टूब कोरल
+  tube_coral_block: टूब कोरल ब्लाक
+  tube_coral_fan: टूब कोरल फ़ैन
+  tube_coral_wall_fan: टूब कोरल फ़ैन
+  turtle_egg: कछुए का अंडा
+  wall_torch: दीवार मशाल
+  water_bucket: बाल्टी पानी
+  wet_sponge: गीले स्पंज
+  wheat_seeds: गेहूं के बीज
+  white_banner: व्हाइट बैनर
+  white_concrete_powder: सफेद कंक्रीट पाउडर
+  white_shulker_box: सफेद शूल्कर बॉक्स
+  white_stained_glass: सफेद रंगीन कांच
+  white_stained_glass_pane: सफेद सना हुआ ग्लास फलक
+  white_tulip: सफेद सुर्ख
+  white_wall_banner: व्हाइट बैनर
+  wither_skeleton_skull: कंकाल खोपड़ी सूख
+  wither_skeleton_wall_skull: सूख कंकाल दीवार खोपड़ी
+  wooden_axe: लकड़ी कुल्हाड़ी
+  wooden_hoe: लकड़ी कुदाल
+  wooden_pickaxe: लकड़ी कुदाल से मिट्टी खुरपना
+  wooden_shovel: लकड़ी फावड़ा
+  yellow_banner: पीला बैनर
+  yellow_concrete_powder: पीला कंक्रीट पाउडर
+  yellow_shulker_box: पीला शूल्कर बॉक्स
+  yellow_stained_glass: पीला रंगीन कांच
+  yellow_stained_glass_pane: पीला रंगीन ग्लास फलक
+  yellow_wall_banner: पीला बैनर
+  zombie_head: ज़ोंबी सिर
+biome:
+  ocean: सागर
+  plains: मैदानों
+  forest: जंगल
+  taiga: टैगा
+  frozen_ocean: जमी हुई समुंदर
+  beach: तट
+  deep_ocean: गहरा समुंदर
+  dark_forest: काला जंगल
+  badlands: अनुर्वर भूमि
+  badlands_plateau: अनुर्वर भूमि पठार
+  small_end_islands: छोटे अंत द्वीप समूह
+  lukewarm_ocean: गुनगुना समुंदर
+  cold_ocean: ठंडा समुंदर
+  deep_cold_ocean: गहरा ठंडा समुंदर
+enchantment:
+  fire_protection: आग से संरक्षण
+  flame: लौ
+  knockback: वापस दस्तक
+  protection: सुरक्षा
+  lure: लालच
+  power: बिजली
+potion:
+  water: पानी की बोतल
+entity:
+  dropped_item: मद
+  area_effect_cloud: Area Effect Cloud
+  wither_skeleton: कंकाल खोपड़ी
+  egg: फेंक दिया अंडे
+  small_fireball: लघु आग का गोला
+  splash_potion: शरबत
+  wither_skull: सूख खोपड़ी
+  husk: भूसी
+  shulker_bullet: Shulker बुलेट
+  skeleton_horse: कंकाल घोड़ा
+  zombie_horse: ज़ोंबी हार्स
+  creeper: रेंगनेवाला
+  zombie: ज़ोंबी
+  ghast: फ्लाइंग भूत
+  enderman: अंत आदमी
+  cave_spider: गुफा में रहनेवाली मकड़ी
+  silverfish: सिल्वर मछली
+  blaze: ज्वाला
+  magma_cube: लावा घन
+  wither: कुम्हलाना
+  shulker: शूल्कर
+  pig: सुअर
+  squid: व्यंग्य
+  wolf: वुल्फ
+  mushroom_cow: मशरूम गाय
+  snowman: बर्फ Golem
+  ocelot: औसीलट
+  iron_golem: लौह Golem
+  llama_spit: लामा थूक
+  phantom: प्रेत
+  trident: ट्रिडेंट
+  pufferfish: Pufferfish
+  drowned: डूबा हुआ
+  dolphin: डॉल्फिन
+effect:
+  slow: सुस्ती
+  increase_damage: ताक़त
+  jump: कूद को बढ़ावा देने
+  water_breathing: जल श्वास
+  invisibility: अद्रश्य/ दिखाई नहीं देना
+  blindness: अंधापन
+  night_vision: रात्रि में देखना
+  conduit_power: पाडपलाइन की शक्ति
+dye_color:
+  white: सफ़ेद
+  magenta: मैजेंटा
+  yellow: 'पिला '
+  lime: 'निम्बू रंग '
+  gray: भूरा
+  light_gray: हल्का भूरा
+  cyan: 'नीला-हरा '
+named:
+  player_head_named: '%s के सिर'
+colored_shied:
+  white: सफेद शील्ड
+  orange: ऑरेंज शील्ड
+  magenta: Magenta शील्ड
+  light_blue: लाइट ब्लू शील्ड
+  yellow: पीला शील्ड
+  lime: चूने ढाल
+  pink: गुलाबी शील्ड
+  gray: ग्रे शील्ड
+  light_gray: लाइट ग्रे शील्ड
+  cyan: सायन शील्ड
+  purple: बैंगनी शील्ड
+  blue: ब्लू शील्ड
+  brown: ब्राउन शील्ड
+  green: ग्रीन शील्ड
+  red: लाल शील्ड
+  black: ब्लैक शील्ड
+banner_pattern:
+  '65536': व्हाइट बेस डेक्सटर कैंटन
+  '65537': ऑरेंज बेस डेक्सटर कैंटन
+  '65538': Magenta बेस Dexter कैंटन
+  '65539': लाइट ब्लू बेस डेक्सटर कैंटन
+  '65540': पीला बेस डेक्सटर कैंटन
+  '65541': नींबू बेस डेक्सटर कैंटन
+  '65542': गुलाबी बेस डेक्सटर कैंटन
+  '65543': ग्रे बेस डेक्सटर कैंटन
+  '65544': लाइट ग्रे बेस डेक्सटर कैंटन
+  '65545': सायन बेस डेक्सटर कैंटन
+  '65546': बैंगनी बेस डेक्सटर कैंटन
+  '65547': ब्लू बेस डेक्सटर कैंटन
+  '65548': ब्राउन बेस डेक्सटर कैंटन
+  '65549': ग्रीन बेस डेक्सटर कैंटन
+  '65550': रेड बेस डेक्सटर कैंटन
+  '65551': ब्लैक बेस डेक्सटर कैंटन
+  '131072': व्हाइट बेस Sinister कैंटन
+  '131073': ऑरेंज बेस Sinister कैंटन
+  '131074': Magenta बेस Sinister कैंटन
+  '131075': लाइट ब्लू बेस सीनियर कैंटन
+  '131076': पीला बेस Sinister कैंटन
+  '131077': नींबू बेस Sinister कैंटन
+  '131078': गुलाबी बेस Sinister कैंटन
+  '131079': ग्रे बेस Sinister कैंटन
+  '131080': लाइट ग्रे बेस सीनियर कैंटन
+  '131081': सायन बेस Sinister कैंटन
+  '131082': बैंगनी बेस Sinister कैंटन
+  '131083': ब्लू बेस Sinister कैंटन
+  '131084': ब्राउन बेस Sinister कैंटन
+  '131085': ग्रीन बेस Sinister कैंटन
+  '131086': लाल बेस Sinister कैंटन
+  '131087': ब्लैक बेस सीनियर कैंटन
+  '196608': व्हाइट चीफ डेक्सटर कैंटन
+  '196609': ऑरेंज चीफ डेक्सटर कैंटन
+  '196610': Magenta चीफ डेक्सटर कैंटन
+  '196611': लाइट ब्लू चीफ डेक्सटर कैंटन
+  '196612': पीला चीफ डेक्सटर कैंटन
+  '196613': लाइम चीफ डेक्सटर कैंटन
+  '196614': गुलाबी चीफ डेक्सटर कैंटन
+  '196615': ग्रे चीफ डेक्सटर कैंटन
+  '196616': लाइट ग्रे चीफ डेक्सटर कैंटन
+  '196617': सायन चीफ डेक्सटर कैंटन
+  '196618': बैंगनी चीफ डेक्सटर कैंटन
+  '196619': ब्लू चीफ डेक्सटर कैंटन
+  '196620': ब्राउन चीफ डेक्सटर कैंटन
+  '196621': ग्रीन चीफ डेक्सटर कैंटन
+  '196622': रेड चीफ डेक्सटर कैंटन
+  '196623': ब्लैक चीफ डेक्सटर कैंटन
+  '262144': व्हाइट चीफ सीनियर कैंटन
+  '262145': ऑरेंज चीफ सिनिस्टर कैंटन
+  '262146': Magenta चीफ Sinister कैंटन
+  '262147': लाइट ब्लू चीफ सिनिस्टर कैंटन
+  '262148': पीला चीफ Sinister कैंटन
+  '262149': नींबू चीफ Sinister कैंटन
+  '262150': गुलाबी चीफ सिनिस्टर कैंटन
+  '262151': ग्रे चीफ सिनिस्टर कैंटन
+  '262152': |-
+    लाइट ग्रे चीफ सिनिस्टर कैंटन
+     
+    -> item.banner.square_top_right.silver
+  '262153': सायन चीफ सिनिस्टर कैंटन
+  '262154': बैंगनी चीफ सिनिस्टर कैंटन
+  '262155': ब्लू चीफ सिनिस्टर कैंटन
+  '262156': ब्राउन चीफ सिनिस्टर कैंटन
+  '262157': ग्रीन चीफ सिनिस्टर कैंटन
+  '262158': रेड चीफ सीनियर कैंटन
+  '262159': ब्लैक चीफ सीनियर कैंटन
+  '327680': सफेद आधार
+  '327681': ऑरेंज बेस
+  '327682': Magenta बेस
+  '327683': लाइट ब्लू बेस
+  '327684': पीला बेस
+  '327685': नींबू बेस
+  '327686': गुलाबी बेस
+  '327687': ग्रे बेस
+  '327688': लाइट ग्रे बेस
+  '327689': सायन बेस
+  '327690': बैंगनी बेस
+  '327691': ब्लू बेस
+  '327692': ब्राउन बेस
+  '327693': ग्रीन बेस
+  '327694': लाल आधार
+  '327695': ब्लैक बेस
+  '393216': सफेद चीफ
+  '393217': नारंगी चीफ
+  '393218': नीलातिरक्त चीफ
+  '393219': हल्का नीला चीफ
+  '393220': पोला चीफ
+  '393221': लाइम चीफ
+  '393222': गुलाबी चीफ
+  '393223': स्लेटी चीफ
+  '393224': हल्का स्लेटी चीफ
+  '393225': हरिनील चीफ
+  '393226': जामुनी चीफ
+  '393227': नीला चीफ
+  '393228': भूरा चीफ
+  '393229': हरा चीफ
+  '393230': लाल चीफ
+  '393231': ब्लैक चीफ
+  '524288': सफेद पीला Sinister
+  '524289': ऑरेंज पीले Sinister
+  '524290': Magenta पीले Sinister
+  '589824': सफेद खड़ी केंद्र धारी
+  '589825': नारंगी खड़ी केंद्र धारी
+  '589826': Magenta पीला
+  '589827': हल्का नीला खड़ी केंद्र धारी
+  '589828': पीला खड़ी केंद्र धारी
+  '589829': लाईम खड़ी केंद्र धारी
+  '589830': गुलाबी खड़ी केंद्र धारी
+  '589831': स्लेटी खड़ी केंद्र धारी
+  '589832': हल्का स्लेटी खड़ी केंद्र धारी
+  '589833': हरिनील खड़ी केंद्र धारी
+  '589834': जामुनी खड़ी केंद्र धारी
+  '589835': नीला खड़ी केंद्र धारी
+  '589836': भूरा खड़ी केंद्र धारी
+  '589837': हरा खड़ी केंद्र धारी
+  '589838': लाल खड़ी केंद्र धारी
+  '589839': काला खड़ी केंद्र धारी
+  '655360': सफेद फेस
+  '655361': ऑरेंज फेस
+  '655362': Magenta Fess
+  '655363': लाइट ब्लू फेस
+  '655364': पीला फेस
+  '655365': नींबू फेस
+  '655366': गुलाबी फेस
+  '655367': ग्रे फेस
+  '655368': लाइट ग्रे फेस
+  '655369': सायन फेस
+  '655370': बैंगनी फीस
+  '655371': ब्लू फेस
+  '655372': ब्राउन फेस
+  '655373': हरित शुल्क
+  '655374': लाल फेस
+  '655375': ब्लैक फेस
+  '720897': ऑरेंज बेंड
+  '720898': Magenta बेंड
+  '720899': लाइट ब्लू बेंड
+  '720900': पीला बेंड
+  '720901': नींबू मोड़
+  '720902': गुलाबी बेंड
+  '720903': ग्रे बेंड
+  '720904': लाइट ग्रे बेंड
+  '720905': सायन बेंड
+  '720906': बैंगनी मोड़
+  '720907': ब्लू बेंड
+  '720908': ब्राउन बेंड
+  '720909': ग्रीन बेंड
+  '720910': रेड बेंड
+  '720911': ब्लैक बेंड
+  '851968': सफेद खड़ी धारियाँ
+  '851969': नारंगी खड़ी धारियाँ
+  '851970': नीलातिरक्त खड़ी धारियाँ
+  '851971': हल्का नीला खड़ी धारियाँ
+  '851972': पीला खड़ी धारियाँ
+  '851973': लाईम खड़ी धारियाँ
+  '851974': गुलाबी खड़ी धारियाँ
+  '851975': स्लेटी खड़ी धारियाँ
+  '851976': हल्का स्लेटी खड़ी धारियाँ
+  '851977': हरिनील खड़ी धारियाँ
+  '851978': जामुनी खड़ी धारियाँ
+  '851979': नीला खड़ी धारियाँ
+  '851980': भूरा खड़ी धारियाँ
+  '851981': हरा खड़ी धारियाँ
+  '851982': लाल खड़ी धारियाँ
+  '851983': काला खड़ी धारियाँ
+  '1048576': व्हाइट शेवरॉन
+  '1048577': ऑरेंज शेवरॉन
+  '1048578': Magenta शेवरॉन
+  '1048579': लाइट ब्लू शेवरॉन
+  '1048580': पीला शेवरॉन
+  '1048581': नींबू शेवरॉन
+  '1048582': गुलाबी शेवरॉन
+  '1048583': ग्रे शेवरॉन
+  '1048584': लाइट ग्रे शेवरॉन
+  '1048585': सायन शेवरॉन
+  '1048586': बैंगनी शेवरॉन
+  '1048587': ब्लू शेवरॉन
+  '1048588': ब्राउन शेवरॉन
+  '1048589': ग्रीन शेवरॉन
+  '1048590': लाल शेवरॉन
+  '1114112': सफेद उलटा शेवरॉन
+  '1114113': ऑरेंज उलटा शेवरॉन
+  '1114114': Magenta उलटा शेवरॉन
+  '1114115': हल्का नीला उलटा शेवरॉन
+  '1114116': पीला उलटा शेवरॉन
+  '1114117': नींबू उलटा शेवरॉन
+  '1114118': गुलाबी उलटा शेवरॉन
+  '1114119': ग्रे उलटा शेवरॉन
+  '1114120': लाइट ग्रे उलटा शेवरॉन
+  '1114121': सायन उलटा शेवरॉन
+  '1114122': बैंगनी उलटा शेवरॉन
+  '1114123': ब्लू उलटा शेवरॉन
+  '1114124': ब्राउन उलटा शेवरॉन
+  '1114125': ग्रीन इनवर्टेड शेवरॉन
+  '1114126': लाल उलटा शेवरॉन
+  '1114127': काला उलटा शेवरॉन
+  '1179648': व्हाइट बेस इंडेंट
+  '1179649': ऑरेंज बेस इंडेंट
+  '1179650': Magenta बेस इंडेंट
+  '1179651': लाइट ब्लू बेस इंडेंट
+  '1179652': पीला बेस इंडेंट
+  '1179653': नींबू बेस इंडेंट
+  '1179654': गुलाबी बेस इंडेंट
+  '1179655': ग्रे बेस इंडेंट
+  '1179656': लाइट ग्रे बेस इंडेंट
+  '1179657': सायन बेस इंडेंट
+  '1179658': बैंगनी बेस इंडेंट
+  '1179659': ब्लू बेस इंडेंट
+  '1179660': ब्राउन बेस इंडेंट
+  '1179661': ग्रीन बेस इंडेंट
+  '1179662': रेड बेस इंडेंट
+  '1179663': ब्लैक बेस इंडेंट
+  '1245197': ग्रीन चीफ इंडेंट
+  '1245198': रेड चीफ इंडेंट
+  '1245199': ब्लैक चीफ इंडेंट
+  '2162688': सफेद अनुपात
+  '2162689': नारंगी अनुपात
+  '2162690': नीलातिरक्त अनुपात
+  '2162691': हल्का नीला अनुपात
+  '2162692': पीला अनुपात
+  '2162693': लाईम अनुपात
+  '2162694': गुलाबी अनुपात
+  '2162695': स्लेटी अनुपात
+  '2162699': नीला अनुपात
+  '2162700': भूरा अनुपात
+  '2162701': हरा अनुपात
+  '2162702': लाल अनुपात
+  '2162703': काला अनुपात
+  '2359296': सपेद खोपड़ी की रूप
+  '2359297': नारंगी खोपड़ी की रूप
+  '2359298': नीलातिरक्त खोपड़ी की रूप
+  '2359299': हल्का नीला खोपड़ी की रूप
+  '2359300': पीला खोपड़ी की रूप
+  '2359301': लाईम खोपड़ी की रूप
+  '2359302': गुलाबी खोपड़ी की रूप
+  '2359303': स्लेटी खोपड़ी की रूप
+  '2359304': हल्का स्लेटी खोपड़ी की रूप
+  '2359305': हारेनील खोपड़ी की रूप
+  '2359306': जामुनी खोपड़ी की रूप
+  '2359307': नीला खोपड़ी की रूप
+  '2359308': भूरा खोपड़ी की रूप
+  '2359309': हरा खोपड़ी की रूप
+  '2359310': लाल खोपड़ी की रूप
+  '2424832': सफेद फूल का रूप
+  '2424833': नारंगी फूल का रूप
+  '2424834': नीलातिरक्त फूल का रूप
+  '2424835': हल्का नीला फूल का रूप
+  '2424836': पीला फूल का रूप
+  '2424837': लाईम फूल का रूप
+  '2424838': गुलाबी फूल का रूप
+  '2424839': स्लेटी फूल का रूप
+  '2424840': हल्का स्लेटी फूल का रूप
+  '2424841': हरिनील फूल का रूप
+  '2424842': जामुनी फूल का रूप
+  '2424843': नीला फूल का रूप
+  '2424844': भूरा फूल का रूप
+  '2424845': हरा फूल का रूप
+  '2424846': लाल फूल का रूप
+  '2424847': काला फूल का रूप
+  '2490368': सफ़ेद चीज़
+  '2490369': नारंगी चीज़
+  '2490370': मैजेंटा चीज़
+  '2490371': हल्की नीली चीज़
+  '2490372': पीली चीज़
+  '2490373': नींबू चीज़
+  '2490374': गुलाबी चीज़
+  '2490375': ग्रे चीज़
+  '2490376': हल्की ग्रे चीज़
+  '2490377': सियान चीज़
+  '2490378': जामुनी चीज़
+  '2490379': नीली चीज़
+  '2490380': भूरी चीज़
+  '2490381': हरी चीज़
+  '2490382': लाल चीज़
+  '2490383': काली चीज़

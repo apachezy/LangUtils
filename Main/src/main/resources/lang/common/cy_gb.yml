@@ -1,0 +1,2195 @@
+# ####################################################
+# Build time: 2021-03-06 14:47:26                    #
+# ####################################################
+language:
+  code: cy_gb
+  name: Cymraeg
+  region: Cymru
+material:
+  air: Aer
+  stone: Carreg
+  granite: Gwenithfaen
+  polished_granite: Gwenithfaen Caboledig
+  diorite: Diorit
+  polished_diorite: Diorit Caboledig
+  andesite: Andesit
+  polished_andesite: Andesit Caboledig
+  grass_block: Bloc Glaswellt
+  dirt: Pridd
+  coarse_dirt: Pridd Garw
+  podzol: Podsol
+  crimson_nylium: Neliwm Rhuddgoch
+  warped_nylium: Neliwm Annaearol
+  cobblestone: Crynion
+  oak_planks: Planciau Derw
+  spruce_planks: Planciau Pyrwydd
+  birch_planks: Planciau Bedw
+  jungle_planks: Planciau Jyngl
+  acacia_planks: Planciau Acesia
+  dark_oak_planks: Planciau Derw Tywyll
+  crimson_planks: Planciau Rhuddgoch
+  warped_planks: Planciau Annaearol
+  oak_sapling: Glasbren Derw
+  spruce_sapling: Glasbren Pyrwydd
+  birch_sapling: Glasbren Bedw
+  jungle_sapling: Glasbren Jyngl
+  acacia_sapling: Glasbren Acesia
+  dark_oak_sapling: Glasbren Derw Tywyll
+  bedrock: Creigwely
+  sand: Tywod
+  red_sand: Tywod Coch
+  gravel: Graean
+  gold_ore: Mwyn Aur
+  iron_ore: Mwyn Haearn
+  coal_ore: Mwyn Glo
+  nether_gold_ore: Mwyn Aur Nether
+  oak_log: Boncyff Derw
+  spruce_log: Boncyff Pyrwydd
+  birch_log: Boncyff Bedw
+  jungle_log: Boncyff Jyngl
+  acacia_log: Boncyff Acesia
+  dark_oak_log: Boncyff Derw Tywyll
+  crimson_stem: Coesyn Rhuddgoch
+  warped_stem: Coesyn Annaearol
+  stripped_oak_log: Boncyff Derw Moel
+  stripped_spruce_log: Boncyff Pyrwydd Moel
+  stripped_birch_log: Boncyff Bedw Moel
+  stripped_jungle_log: Boncyff Jyngl Moel
+  stripped_acacia_log: Boncyff Acesia Moel
+  stripped_dark_oak_log: Boncyff Derw Tywyll Moel
+  stripped_crimson_stem: Coesyn Rhuddgoch Moel
+  stripped_warped_stem: Coesyn Annaearol Moel
+  stripped_oak_wood: Pren Derw Moel
+  stripped_spruce_wood: Pren Pyrwydd Moel
+  stripped_birch_wood: Pren Bedw Moel
+  stripped_jungle_wood: Coed Jyngl Moel
+  stripped_acacia_wood: Pren Acesia Moel
+  stripped_dark_oak_wood: Pren Derw Tywyll Moel
+  stripped_crimson_hyphae: Hyffae Rhuddgoch Moel
+  stripped_warped_hyphae: Hyffae Annaearol Moel
+  oak_wood: Pren Derw
+  spruce_wood: Pren Pyrwydd
+  birch_wood: Pren Bedw
+  jungle_wood: Pren Jyngl
+  acacia_wood: Pren Acesia
+  dark_oak_wood: Pren Derw Tywyll
+  crimson_hyphae: Hyffae Rhuddgoch
+  warped_hyphae: Hyffae Annaearol
+  oak_leaves: Dail Derw
+  spruce_leaves: Dail Pyrwydd
+  birch_leaves: Dail Bedw
+  jungle_leaves: Dail Jyngl
+  acacia_leaves: Dail Acesia
+  dark_oak_leaves: Dail Derw Tywyll
+  sponge: Sbwng
+  wet_sponge: Spwng Gwlyb
+  glass: Gwydr
+  lapis_ore: Mwyn Lapis-Laswli
+  lapis_block: Bloc Lapis-Laswli
+  dispenser: Dosbarthwr
+  sandstone: Tywodfaen
+  chiseled_sandstone: Tywodfaen Nadd
+  cut_sandstone: Tywodfaen Toredig
+  note_block: Bloc Nodyn
+  powered_rail: Cledren â Phŵer
+  detector_rail: Cledren Synhwyrydd
+  sticky_piston: Piston Gludiog
+  cobweb: Gwe Pricopyn
+  grass: Glaswellt
+  fern: Rhedyn
+  dead_bush: Llwyn Marw
+  seagrass: Morwellt
+  sea_pickle: Picl Môr
+  piston: Piston
+  white_wool: Gwlân Gwyn
+  orange_wool: Gwlân Oren
+  magenta_wool: Gwlân Majenta
+  light_blue_wool: Gwlân Glas Golau
+  yellow_wool: Gwlân Melyn
+  lime_wool: Gwlân Leim
+  pink_wool: Gwlân Pinc
+  gray_wool: Gwlân Llwyd
+  light_gray_wool: Gwlân Llwyd Golau
+  cyan_wool: Gwlân Gwyrddlas
+  purple_wool: Gwlân Porffor
+  blue_wool: Gwlân Glas
+  brown_wool: Gwlân Brown
+  green_wool: Gwlân Gwyrdd
+  red_wool: Gwlân Coch
+  black_wool: Gwlân Du
+  dandelion: Dant y Llew
+  poppy: Pabi
+  blue_orchid: Tegeirian Glas
+  allium: Garllegyn
+  azure_bluet: Gwreiddrudd Las
+  red_tulip: Tiwlip Coch
+  orange_tulip: Tiwlip Oren
+  white_tulip: Tiwlip Gwyn
+  pink_tulip: Tiwlip Pinc
+  oxeye_daisy: Llygad Llo
+  cornflower: Penlas Wen
+  lily_of_the_valley: Lili'r Dyffrynnoedd
+  wither_rose: Rhosyn Wither
+  brown_mushroom: Madarchen Frown
+  red_mushroom: Madarchen Goch
+  crimson_fungus: Ffwng Rhuddgoch
+  warped_fungus: Ffwng Annaearol
+  crimson_roots: Gwreiddiau Rhuddgoch
+  warped_roots: Gwreiddiau Annaearol
+  nether_sprouts: Egin Nether
+  weeping_vines: Gwinwydd Wylofus
+  twisting_vines: Gwinwydd Dirdro
+  sugar_cane: Cansen Siwgr
+  kelp: Gwymon
+  bamboo: Bambŵ
+  gold_block: Bloc Aur
+  iron_block: Bloc Haearn
+  oak_slab: Slab Derw
+  spruce_slab: Slab Pyrwydd
+  birch_slab: Slab Bedw
+  jungle_slab: Slab Jyngl
+  acacia_slab: Slab Acesia
+  dark_oak_slab: Slab Derw Tywyll
+  crimson_slab: Slab Rhuddgoch
+  warped_slab: Slab Annaearol
+  stone_slab: Slab Carreg
+  smooth_stone_slab: Slab Carreg Llyfn
+  sandstone_slab: Slab Tywodfaen
+  cut_sandstone_slab: Slab Tywodfaen Toredig
+  petrified_oak_slab: Slab Derw Petraidd
+  cobblestone_slab: Slab Crynion
+  brick_slab: Slab Bricsen
+  stone_brick_slab: Slab Bricsen Carreg
+  nether_brick_slab: Slab Bricsen Nether
+  quartz_slab: Slab Cwarts
+  red_sandstone_slab: Slab Tywodfaen Coch
+  cut_red_sandstone_slab: Slab Tywodfaen Coch Toredig
+  purpur_slab: Slab Purpur
+  prismarine_slab: Slab Prismarin
+  prismarine_brick_slab: Slab Bricsen Prismarin
+  dark_prismarine_slab: Slab Prismarin Tywyll
+  smooth_quartz: Bloc Cwartz Llyfn
+  smooth_red_sandstone: Tywodfaen Coch Llyfn
+  smooth_sandstone: Tywodfaen Llyfn
+  smooth_stone: Carreg Llyfn
+  bricks: Briciau
+  tnt: TNT
+  bookshelf: Silff Lyfrau
+  mossy_cobblestone: Crynion Mwsoglyd
+  obsidian: Llosgraig
+  torch: Tors
+  end_rod: Gwialen End
+  chorus_plant: Planhigyn Corws
+  chorus_flower: Blodyn Corws
+  purpur_block: Bloc Purpur
+  purpur_pillar: Piler Purpur
+  purpur_stairs: Grisiau Purpur
+  spawner: Siliwr
+  oak_stairs: Grisiau Derw
+  chest: Cist
+  diamond_ore: Mwyn Diemwnt
+  diamond_block: Bloc Diemwnt
+  crafting_table: Bwrdd Crefft
+  farmland: Tir Fferm
+  furnace: Ffwrnais
+  ladder: Ysgol
+  rail: Cledren
+  cobblestone_stairs: Grisiau Carreg
+  lever: Lifer
+  stone_pressure_plate: Gwasglechen Carreg
+  oak_pressure_plate: Gwasglechen Derw
+  spruce_pressure_plate: Gwasglechen Pyrwydd
+  birch_pressure_plate: Gwasglechen Bedw
+  jungle_pressure_plate: Gwasglechen Jyngl
+  acacia_pressure_plate: Gwasglechen Acesia
+  dark_oak_pressure_plate: Gwasglechen Derw Tywyll
+  crimson_pressure_plate: Plât Pwysedd Rhuddgoch
+  warped_pressure_plate: Plât Pwysedd Annaearol
+  polished_blackstone_pressure_plate: Plât Pwysedd Carregddu Caboledig
+  redstone_ore: Mwyn Redstone
+  redstone_torch: Tors Redstone
+  snow: Eira
+  ice: Rhew
+  snow_block: Bloc Eira
+  cactus: Cactws
+  clay: Clai
+  jukebox: Jiwcbocs
+  oak_fence: Ffens Dderw
+  spruce_fence: Ffens Byrwydd
+  birch_fence: Ffens Fedw
+  jungle_fence: Ffens Jyngl
+  acacia_fence: Ffens Acesia
+  dark_oak_fence: Ffens Dderw Tywyll
+  crimson_fence: Ffens Ruddgoch
+  warped_fence: Ffens Annaearol
+  pumpkin: Pwmpen
+  carved_pumpkin: Pwmpen Gerfiedig
+  netherrack: Netherrack
+  soul_sand: Tywod Enaid
+  soul_soil: Pridd Enaid
+  basalt: Pilergraig
+  polished_basalt: Pilergraig Gloyw
+  soul_torch: Tors Enaid
+  glowstone: Gloywgarreg
+  jack_o_lantern: Jac y Lantarn
+  oak_trapdoor: Drws Cudd Derw
+  spruce_trapdoor: Drws Cudd Pyrwydd
+  birch_trapdoor: Drws Cudd Fedwen
+  jungle_trapdoor: Drws Cudd Jyngl
+  acacia_trapdoor: Drws Cudd Acesia
+  dark_oak_trapdoor: Drws Cudd Derw Tywyll
+  crimson_trapdoor: Drws Cudd Rhuddgoch
+  warped_trapdoor: Drws Cudd Annaearol
+  infested_stone: Carreg Pla
+  infested_cobblestone: Crynion Pla
+  infested_stone_bricks: Briciau Carreg Pla
+  infested_mossy_stone_bricks: Briciau Carreg Mwsoglyd Pla
+  infested_cracked_stone_bricks: Briciau Carreg Chwâl Pla
+  infested_chiseled_stone_bricks: Briciau Carreg Nadd Pla
+  stone_bricks: Briciau Carreg
+  mossy_stone_bricks: Briciau Carreg Mwsoglyd
+  cracked_stone_bricks: Briciau Carreg Chwâl
+  chiseled_stone_bricks: Briciau Carreg Nadd
+  brown_mushroom_block: Bloc Madarch Brown
+  red_mushroom_block: Bloc Madarch Coch
+  mushroom_stem: Coesyn Madarch
+  iron_bars: Bariau Haearn
+  chain: Cadwyn
+  glass_pane: Paen Gwydr
+  melon: Melon
+  vine: Gwinwydd
+  oak_fence_gate: Gât Ffens Dderw
+  spruce_fence_gate: Gât Ffens Byrwydd
+  birch_fence_gate: Gât Ffens Fedw
+  jungle_fence_gate: Gât Ffens Jyngl
+  acacia_fence_gate: Gât Ffens Acesia
+  dark_oak_fence_gate: Gât Ffens Dderw Dwywll
+  crimson_fence_gate: Gât Ffens Ruddgoch
+  warped_fence_gate: Gât Ffens Annaearol
+  brick_stairs: Grisiau Bricsen
+  stone_brick_stairs: Grisiau Bricsen Carreg
+  mycelium: Myseliwm
+  lily_pad: Paden Lili
+  nether_bricks: Briciau Nether
+  cracked_nether_bricks: Briciau Nether Chwâl
+  chiseled_nether_bricks: Briciau Nether Nadd
+  nether_brick_fence: Ffens Fricsen Nether
+  nether_brick_stairs: Grisiau Bricsen Nether
+  enchanting_table: Bwrdd Hudoliaethu
+  end_portal_frame: Ffrâm Borth End
+  end_stone: Carreg End
+  end_stone_bricks: Briciau Carreg End
+  dragon_egg: Ŵy Ddraig
+  redstone_lamp: Lamp Redstone
+  sandstone_stairs: Grisiau Tywodfaen
+  emerald_ore: Mwyn Emrallt
+  ender_chest: Cist Ender
+  tripwire_hook: Bachyn Weiren Faglu
+  emerald_block: Bloc Emrallt
+  spruce_stairs: Grisiau Pyrwydd
+  birch_stairs: Grisiau Bedw
+  jungle_stairs: Grisiau Jyngl
+  crimson_stairs: Grisiau Rhuddgoch
+  warped_stairs: Grisiau Annaearol
+  command_block: Bloc Gorchymyn
+  beacon: Goleufa
+  cobblestone_wall: Wal Crynion
+  mossy_cobblestone_wall: Wal Crynion Mwsoglyd
+  brick_wall: Wal Friciau
+  prismarine_wall: Wal Brismarin
+  red_sandstone_wall: Wal Dywodfaen Coch
+  mossy_stone_brick_wall: Wal Friciau Carreg Mwsoglyd
+  granite_wall: Wal Gwenithfaen
+  stone_brick_wall: Wal Friciau Carreg
+  nether_brick_wall: Wal Friciau Nether
+  andesite_wall: Wal Andesit
+  red_nether_brick_wall: Wal Friciau Nether Coch
+  sandstone_wall: Wal Dywodfaen
+  end_stone_brick_wall: Wal Friciau Carreg End
+  diorite_wall: Wal Diorit
+  blackstone_wall: Wal Garregddu
+  polished_blackstone_wall: Wal Garregddu Caboledig
+  polished_blackstone_brick_wall: Wal Friciau Carregddu Caboledig
+  stone_button: Botwm Carreg
+  oak_button: Botwm Derw
+  spruce_button: Botwm Pyrwydd
+  birch_button: Botwm Bedw
+  jungle_button: Botwm Jyngl
+  acacia_button: Botwm Acesia
+  dark_oak_button: Botwm Derw Tywyll
+  crimson_button: Botwm Rhuddgoch
+  warped_button: Botwm Annaearol
+  polished_blackstone_button: Botwm Carregddu Caboledig
+  anvil: Einion
+  chipped_anvil: Einion Dolciog
+  damaged_anvil: Einion wedi'i Ddifrodi
+  trapped_chest: Magl-gist
+  light_weighted_pressure_plate: Gwasglechen Ysgafn
+  heavy_weighted_pressure_plate: Gwasglechen Trwm
+  daylight_detector: Synhwyrydd Golau Dydd
+  redstone_block: Bloc Redstone
+  nether_quartz_ore: Mwyn Cwarts Nether
+  hopper: Hopran
+  chiseled_quartz_block: Bloc Cwarts Nadd
+  quartz_block: Bloc Cwarts
+  quartz_bricks: Briciau Cwarts
+  quartz_pillar: Colofn Cwarts
+  quartz_stairs: Grisiau Cwarts
+  activator_rail: Cledren Actifadydd
+  dropper: Gollyngwr
+  white_terracotta: Terracotta Gwyn
+  orange_terracotta: Terracotta Oren
+  magenta_terracotta: Terracotta Majenta
+  light_blue_terracotta: Terracotta Glas Golau
+  yellow_terracotta: Terracotta Melyn
+  lime_terracotta: Terracotta Leim
+  pink_terracotta: Terracotta Pinc
+  gray_terracotta: Terracotta Llwydd
+  light_gray_terracotta: Terracotta Llwydd Golau
+  cyan_terracotta: Terracotta Gwyrddlas
+  purple_terracotta: Terracotta Porffor
+  blue_terracotta: Terracotta Glas
+  brown_terracotta: Terracotta Brown
+  green_terracotta: Terracotta Gwyrdd
+  red_terracotta: Terracotta Coch
+  black_terracotta: Terracotta Du
+  barrier: Rhwystr
+  iron_trapdoor: Drws Cudd Haearn
+  hay_block: Bwrn Gwair
+  white_carpet: Carped Gwyn
+  orange_carpet: Carped Oren
+  magenta_carpet: Carped Majenta
+  light_blue_carpet: Carped Glas Golau
+  yellow_carpet: Carped Melyn
+  lime_carpet: Carped Leim
+  pink_carpet: Carped Pinc
+  gray_carpet: Carped Llwyd
+  light_gray_carpet: Carped Llwyd Golau
+  cyan_carpet: Carped Gwyrddlas
+  purple_carpet: Carped Porffor
+  blue_carpet: Carped Glas
+  brown_carpet: Carped Brown
+  green_carpet: Carped Gwyrdd
+  red_carpet: Carped Coch
+  black_carpet: Carped Du
+  terracotta: Terracotta
+  coal_block: Bloc Glo
+  packed_ice: Rhew Cywasgedig
+  acacia_stairs: Grisiau Acesia
+  dark_oak_stairs: Grisiau Derw Tywyll
+  slime_block: Bloc Sleim
+  grass_path: Llwybr Glaswellt
+  sunflower: Blodyn yr Haul
+  lilac: Lelog
+  rose_bush: Llwyn Rhosod
+  peony: Rhosyn y Mynydd
+  tall_grass: Glaswellt Hir
+  large_fern: Rhedyn Fawr
+  white_stained_glass: Gwydr Lliw Gwyn
+  orange_stained_glass: Gwydr Lliw Oren
+  magenta_stained_glass: Gwydr Lliw Majenta
+  light_blue_stained_glass: Gwydr Lliw Glas Golau
+  yellow_stained_glass: Gwydr Lliw Melyn
+  lime_stained_glass: Gwydr Lliw Leim
+  pink_stained_glass: Gwydr Lliw Pinc
+  gray_stained_glass: Gwydr Lliw Llwyd
+  light_gray_stained_glass: Gwydr Lliw Llwyd Golau
+  cyan_stained_glass: Gwydr Lliw Gwyrddlas
+  purple_stained_glass: Gwydr Lliw Porffor
+  blue_stained_glass: Gwydr Lliw Glas
+  brown_stained_glass: Gwydr Lliw Brown
+  green_stained_glass: Gwydr Lliw Gwyrdd
+  red_stained_glass: Gwydr Lliw Coch
+  black_stained_glass: Gwydr Lliw Du
+  white_stained_glass_pane: Paen Gwydr Lliw Gwyn
+  orange_stained_glass_pane: Paen Gwydr Lliw Oren
+  magenta_stained_glass_pane: Paen Gwydr Lliw Majenta
+  light_blue_stained_glass_pane: Paen Gwydr Lliw Glas Golau
+  yellow_stained_glass_pane: Paen Gwydr Lliw Melyn
+  lime_stained_glass_pane: Paen Gwydr Lliw Leim
+  pink_stained_glass_pane: Paen Gwydr Lliw Pinc
+  gray_stained_glass_pane: Paen Gwydr Lliw Llwyd
+  light_gray_stained_glass_pane: Paen Gwydr Lliw Llwyd Golau
+  cyan_stained_glass_pane: Paen Gwydr Lliw Gwyrddlas
+  purple_stained_glass_pane: Paen Gwydr Lliw Porffor
+  blue_stained_glass_pane: Paen Gwydr Lliw Glas
+  brown_stained_glass_pane: Paen Gwydr Lliw Brown
+  green_stained_glass_pane: Paen Gwydr Lliw Gwyrdd
+  red_stained_glass_pane: Paen Gwydr Lliw Coch
+  black_stained_glass_pane: Paen Gwydr Lliw Du
+  prismarine: Prismarin
+  prismarine_bricks: Briciau Prismarin
+  dark_prismarine: Prismarin Tywyll
+  prismarine_stairs: Grisiau Prismarin
+  prismarine_brick_stairs: Grisiau Bricsen Prismarin
+  dark_prismarine_stairs: Grisiau Prismarin Tywyll
+  sea_lantern: Llusern Fôr
+  red_sandstone: Tywodfaen Coch
+  chiseled_red_sandstone: Tywodfaen Nadd Coch
+  cut_red_sandstone: Tywodfaen Coch Toredig
+  red_sandstone_stairs: Grisiau Tywodfaen Coch
+  repeating_command_block: Bloc Gorchymyn Ailadroddol
+  chain_command_block: Bloc Gorchymyn Cadwynol
+  magma_block: Bloc Magma
+  nether_wart_block: Bloc Chwyn Nether
+  warped_wart_block: Bloc Chwyn Annaearol
+  red_nether_bricks: Briciau Nether Coch
+  bone_block: Bloc Asgwrn
+  structure_void: Gwagle Strwythur
+  observer: Gwyliwr
+  shulker_box: Blwch Shulker
+  white_shulker_box: Blwch Shulker Gwyn
+  orange_shulker_box: Blwch Shulker Oren
+  magenta_shulker_box: Blwch Shulker Majenta
+  light_blue_shulker_box: Blwch Shulker Glas Golau
+  yellow_shulker_box: Blwch Shulker Melyn
+  lime_shulker_box: Blwch Shulker Leim
+  pink_shulker_box: Blwch Shulker Pinc
+  gray_shulker_box: Blwch Shulker Llwyd
+  light_gray_shulker_box: Blwch Shulker Llwyd Golau
+  cyan_shulker_box: Blwch Shulker Gwyrddlas
+  purple_shulker_box: Blwch Shulker Porffor
+  blue_shulker_box: Blwch Shulker Glas
+  brown_shulker_box: Blwch Shulker Brown
+  green_shulker_box: Blwch Shulker Gwyrdd
+  red_shulker_box: Blwch Shulker Coch
+  black_shulker_box: Blwch Shulker Du
+  white_glazed_terracotta: Terracotta Gwyn Gwydrog
+  orange_glazed_terracotta: Terracotta Oren Gwydrog
+  magenta_glazed_terracotta: Terracotta Majenta Gwydrog
+  light_blue_glazed_terracotta: Terracotta Glas Golau Gwydrog
+  yellow_glazed_terracotta: Terracotta Melyn Gwydrog
+  lime_glazed_terracotta: Terracotta Leim Gwydrog
+  pink_glazed_terracotta: Terracotta Pinc Gwydrog
+  gray_glazed_terracotta: Terracotta Llwyd Gwydrog
+  light_gray_glazed_terracotta: Terracotta Llwyd Golau Gwydrog
+  cyan_glazed_terracotta: Terracotta Gwyrddlas Gwydrog
+  purple_glazed_terracotta: Terracotta Porffor Gwydrog
+  blue_glazed_terracotta: Terracotta Glas Gwydrog
+  brown_glazed_terracotta: Terracotta Brown Gwydrog
+  green_glazed_terracotta: Terracotta Gwyrdd Gwydrog
+  red_glazed_terracotta: Terracotta Coch Gwydrog
+  black_glazed_terracotta: Terracotta Du Gwydrog
+  white_concrete: Concrit Gwyn
+  orange_concrete: Concrit Oren
+  magenta_concrete: Concrit Majenta
+  light_blue_concrete: Concrit Glas Golau
+  yellow_concrete: Concrit Melyn
+  lime_concrete: Concrit Leim
+  pink_concrete: Concrit Pinc
+  gray_concrete: Concrit Llwyd
+  light_gray_concrete: Concrit Llwyd Golau
+  cyan_concrete: Concrit Gwyrddlas
+  purple_concrete: Concrit Porffor
+  blue_concrete: Concrit Glas
+  brown_concrete: Concrit Brown
+  green_concrete: Concrit Gwyrdd
+  red_concrete: Concrit Coch
+  black_concrete: Concrit Du
+  white_concrete_powder: Powdr Concrit Gwyn
+  orange_concrete_powder: Powdr Concrit Oren
+  magenta_concrete_powder: Powdr Concrit Majenta
+  light_blue_concrete_powder: Powdr Concrit Glas Golau
+  yellow_concrete_powder: Powdr Concrit Melyn
+  lime_concrete_powder: Powdr Concrit Leim
+  pink_concrete_powder: Powdr Concrit Pinc
+  gray_concrete_powder: Powdr Concrit Llwyd
+  light_gray_concrete_powder: Powdr Concrit Llwyd Golau
+  cyan_concrete_powder: Powdr Concrit Gwyrddlas
+  purple_concrete_powder: Powdr Concrit Porffor
+  blue_concrete_powder: Powdr Concrit Glas
+  brown_concrete_powder: Powdr Concrit Brown
+  green_concrete_powder: Powdr Concrit Gwyrdd
+  red_concrete_powder: Powdr Concrit Coch
+  black_concrete_powder: Powdr Concrit Du
+  turtle_egg: Wy Crwban
+  dead_tube_coral_block: Bloc Cwrel Piben Marw
+  dead_brain_coral_block: Bloc Cwrel Ymennydd Wedi Marw
+  dead_bubble_coral_block: Bloc Cwrel Brith Marw
+  dead_fire_coral_block: Bloc Cwrel Tân Marw
+  dead_horn_coral_block: Bloc Cwrel Corn Marw
+  tube_coral_block: Bloc Cwrel Piben
+  brain_coral_block: Bloc Cwrel Ymenydd
+  bubble_coral_block: Bloc Cwrel Brith
+  fire_coral_block: Bloc Cwrel Tân
+  horn_coral_block: Bloc Cwrel Corn
+  tube_coral: Cwrel Piben
+  brain_coral: Cwrel Ymenydd
+  bubble_coral: Cwrel Brith
+  fire_coral: Cwrel Tân
+  horn_coral: Cwrel Corn
+  dead_brain_coral: Cwrel Ymenydd Wedi Marw
+  dead_bubble_coral: Cwrel Brith Marw
+  dead_fire_coral: Cwrel Tân Marw
+  dead_horn_coral: Cwrel Corn Marw
+  dead_tube_coral: Cwrel Piben Marw
+  tube_coral_fan: Ffan Cwrel Piben
+  brain_coral_fan: Ffan Cwrel Ymenydd
+  bubble_coral_fan: Ffan Cwrel Brith
+  fire_coral_fan: Ffan Cwrel Tân
+  horn_coral_fan: Ffan Gwrel Corn
+  dead_tube_coral_fan: Ffan Gwrel Piben Marw
+  dead_brain_coral_fan: Ffan Cwrel Ymennydd Wedi Marw
+  dead_bubble_coral_fan: Ffan Gwrel Brith Marw
+  dead_fire_coral_fan: Ffan Gwrel Tân Marw
+  dead_horn_coral_fan: Ffan Gwrel Corn Marw
+  blue_ice: Rhew Glas
+  conduit: Cwndid
+  polished_granite_stairs: Grisiau Gwenithfaen Caboledig
+  smooth_red_sandstone_stairs: Grisiau Tywodfaen Coch Llyfn
+  mossy_stone_brick_stairs: Grisiau Bricsen Carreg Mwsoglyd
+  polished_diorite_stairs: Grisiau Diorit Caboledig
+  mossy_cobblestone_stairs: Grisiau Crynion Mwsoglyd
+  end_stone_brick_stairs: Grisiau Bricsen Carreg End
+  stone_stairs: Grisiau Carreg
+  smooth_sandstone_stairs: Grisiau Tywodfaen Llyfn
+  smooth_quartz_stairs: Grisiau Cwarts Llyfn
+  granite_stairs: Grisiau Gwenithfaen
+  andesite_stairs: Grisiau Andesit
+  red_nether_brick_stairs: Grisiau Bricsen Nether Coch
+  polished_andesite_stairs: Grisiau Andesit Caboledig
+  diorite_stairs: Grisiau Diorit
+  polished_granite_slab: Slab Gwenithfaen Caboledig
+  smooth_red_sandstone_slab: Slab Tywodfaen Coch Llyfn
+  mossy_stone_brick_slab: Slab Bricsen Carreg Mwsoglyd
+  polished_diorite_slab: Slab Diorit Caboledig
+  mossy_cobblestone_slab: Slab Crynion Mwsoglyd
+  end_stone_brick_slab: Slab Bricsen Carreg End
+  smooth_sandstone_slab: Slab Tywodfaen Llyfn
+  smooth_quartz_slab: Slab Cwarts Llyfn
+  granite_slab: Slab Gwenithfaen
+  andesite_slab: Slab Andesit
+  red_nether_brick_slab: Slab Bricsen Nether Coch
+  polished_andesite_slab: Slab Andesit Caboledig
+  diorite_slab: Slab Diorit
+  scaffolding: Sgaffaldiau
+  iron_door: Drws Haearn
+  oak_door: Drws Derw
+  spruce_door: Drws Pyrwydd
+  birch_door: Drws Bedw
+  jungle_door: Drws Jyngl
+  acacia_door: Drws Acesia
+  dark_oak_door: Drws Derw Tywyll
+  crimson_door: Drws Rhuddgoch
+  warped_door: Drws Annaearol
+  repeater: Ailadroddwr Redstone
+  comparator: Cymharydd Redstone
+  structure_block: Bloc Adeileddol
+  jigsaw: Bloc Jig-sô
+  turtle_helmet: Cragen Crwban
+  scute: Sgwtela
+  flint_and_steel: Fflint a Dur
+  apple: Afal
+  bow: Bwa
+  arrow: Saeth
+  coal: Glo
+  charcoal: Golosg
+  diamond: Diemwnt
+  iron_ingot: Bar Haearn
+  gold_ingot: Bar Aur
+  netherite_ingot: Bar Netherit
+  netherite_scrap: Sgrap Netherit
+  wooden_sword: Cleddyf Pren
+  wooden_shovel: Rhaw Pren
+  wooden_pickaxe: Caib Pren
+  wooden_axe: Bwyell Pren
+  wooden_hoe: Hof Pren
+  stone_sword: Cleddyf Carreg
+  stone_shovel: Rhaw Carreg
+  stone_pickaxe: Caib Carreg
+  stone_axe: Bwyell Carreg
+  stone_hoe: Hof Carreg
+  golden_sword: Cleddyf Aur
+  golden_shovel: Rhaw Aur
+  golden_pickaxe: Caib Aur
+  golden_axe: Bwyell Aur
+  golden_hoe: Hof Aur
+  iron_sword: Cleddyf Haearn
+  iron_shovel: Rhaw Haearn
+  iron_pickaxe: Caib Haearn
+  iron_axe: Bwyell Haearn
+  iron_hoe: Hof Haearn
+  diamond_sword: Cleddyf Diemwnt
+  diamond_shovel: Rhaw Diemwnt
+  diamond_pickaxe: Caib Diemwnt
+  diamond_axe: Bwyell Diemwnt
+  diamond_hoe: Hof Diemwnt
+  netherite_sword: Cleddyf Netherit
+  netherite_shovel: Rhaw Netherit
+  netherite_pickaxe: Caib Netherit
+  netherite_axe: Bwyell Netherit
+  netherite_hoe: Hof Netherit
+  stick: Ffon
+  bowl: Powlen
+  mushroom_stew: Cawl Madarch
+  string: Llinyn
+  feather: Pluen
+  gunpowder: Powdr Gwn
+  wheat_seeds: Hadau Gwenith
+  wheat: Gwenith
+  bread: Bara
+  leather_helmet: Het Lledr
+  leather_chestplate: Tiwnig Lledr
+  leather_leggings: Trowser Lledr
+  leather_boots: Esgidiau Lledr
+  chainmail_helmet: Helmed Maelwisg
+  chainmail_chestplate: Dwyfronneg Maelwisg
+  chainmail_leggings: Legins Maelwisg
+  chainmail_boots: Esgidiau Maelwisg
+  iron_helmet: Helmed Haearn
+  iron_chestplate: Dwyfronneg Haearn
+  iron_leggings: Legins Haearn
+  iron_boots: Esgidiau Haearn
+  diamond_helmet: Helmed Diemwnt
+  diamond_chestplate: Dwyfronneg Diemwnt
+  diamond_leggings: Legins Diemwnt
+  diamond_boots: Esgidiau Diemwnt
+  golden_helmet: Helmed Aur
+  golden_chestplate: Dwyfronneg Aur
+  golden_leggings: Legins Aur
+  golden_boots: Esgidiau Aur
+  netherite_helmet: Helmed Netherit
+  netherite_chestplate: Dwyfronneg Netherit
+  netherite_leggings: Legins Netherit
+  netherite_boots: Esgidiau Netherit
+  flint: Fflint
+  porkchop: Porc Amrwd
+  cooked_porkchop: Porc Rhost
+  painting: Llun
+  golden_apple: Afal Euraid
+  enchanted_golden_apple: Afal Euraid Hudolus
+  oak_sign: Arwydd Derw
+  spruce_sign: Arwydd Pyrwydd
+  birch_sign: Arwydd Bedw
+  jungle_sign: Arwydd Jyngl
+  acacia_sign: Arwydd Acesia
+  dark_oak_sign: Arwydd Derw Tywyll
+  crimson_sign: Arwydd Rhuddgoch
+  warped_sign: Arwydd Annaearol
+  bucket: Bwced
+  water_bucket: Bwced Dŵr
+  lava_bucket: Bwced Lafa
+  minecart: Cart Pwll
+  saddle: Cyfrwy
+  redstone: Llwch Redstone
+  snowball: Pelen Eira
+  oak_boat: Cwch Derw
+  leather: Lledr
+  milk_bucket: Bwced Llaeth
+  pufferfish_bucket: Bwced o Chwyddbysgod
+  salmon_bucket: Bwced o Eog
+  cod_bucket: Bwced o Benfrasiaid
+  tropical_fish_bucket: Bwced o Bysgod Trofannol
+  brick: Bricsen
+  clay_ball: Pelen Clai
+  dried_kelp_block: Bloc Gwymon Sych
+  paper: Papur
+  book: Llyfr
+  slime_ball: Pelen Sleim
+  chest_minecart: Cart Pwll gyda Chist
+  furnace_minecart: Cart Pwll gyda Ffwrnais
+  egg: Wy
+  compass: Cwmpawd
+  fishing_rod: Gwialen Pysgota
+  clock: Cloc
+  glowstone_dust: Llwch Gloywgarreg
+  cod: Penfras Amrwd
+  salmon: Eog Amrwd
+  tropical_fish: Pysgodyn Trofannol
+  pufferfish: Chwyddbysgodyn
+  cooked_cod: Penfras Rhost
+  cooked_salmon: Eog Rhost
+  ink_sac: Sach Inc
+  cocoa_beans: Ffa Coco
+  lapis_lazuli: Lapis-Laswli
+  white_dye: Llifyn Gwyn
+  orange_dye: Llifyn Oren
+  magenta_dye: Llifyn Majenta
+  light_blue_dye: Llifyn Glas Golau
+  yellow_dye: Llifyn Melyn
+  lime_dye: Llifyn Leim
+  pink_dye: Llifyn Pinc
+  gray_dye: Llifyn Llwyd
+  light_gray_dye: Llifyn Llwyd Golau
+  cyan_dye: Llifyn Gwyrddlas
+  purple_dye: Llifyn Porffor
+  blue_dye: Llifyn Glas
+  brown_dye: Llifyn Brown
+  green_dye: Llifyn Gwyrdd
+  red_dye: Llifyn Coch
+  black_dye: Llifyn Du
+  bone_meal: Blawd Esgyrn
+  bone: Asgwrn
+  sugar: Siwgr
+  cake: Teisen
+  white_bed: Gwely Gwyn
+  orange_bed: Gwely Oren
+  magenta_bed: Gwely Majenta
+  light_blue_bed: Gwely Glas Golau
+  yellow_bed: Gwely Melyn
+  lime_bed: Gwely Leim
+  pink_bed: Gwely Pinc
+  gray_bed: Gwely Llwyd
+  light_gray_bed: Gwely Llwyd Golau
+  cyan_bed: Gwely Gwyrddlas
+  purple_bed: Gwely Porffor
+  blue_bed: Gwely Glas
+  brown_bed: Gwely Brown
+  green_bed: Gwely Gwyrdd
+  red_bed: Gwely Coch
+  black_bed: Gwely Du
+  cookie: Bisgeden
+  filled_map: Map
+  shears: Gwellau
+  melon_slice: Tafell Melon
+  dried_kelp: Gwymon Sych
+  pumpkin_seeds: Hadau Pwmpen
+  melon_seeds: Hadau Melon
+  beef: Cig Eidion Amrwd
+  cooked_beef: Stecen
+  chicken: Cyw Iar Amrwd
+  cooked_chicken: Cyw Iar Rhost
+  rotten_flesh: Cnawd Pwdr
+  ender_pearl: Perl Ender
+  blaze_rod: Gwialen Tânfwystfil
+  ghast_tear: Deigryn Ghast
+  gold_nugget: Clap Aur
+  nether_wart: Chwyn Nether
+  potion: Diod
+  glass_bottle: Potel Gwydr
+  spider_eye: Llygaid Pricopyn
+  fermented_spider_eye: Llygaid Pricopyn Wedi Eplesu
+  blaze_powder: Llwch Tânfwystfil
+  magma_cream: Hufen Magma
+  brewing_stand: Safle Bragu
+  cauldron: Crochan
+  ender_eye: Llygad Ender
+  glistering_melon_slice: Tafell Melon Euraid
+  bat_spawn_egg: Wy Geni Ystlum
+  bee_spawn_egg: Ŵy Geni Gwenyn
+  blaze_spawn_egg: Wy Geni Tanfwystfil
+  cat_spawn_egg: Wy Geni Cath
+  cave_spider_spawn_egg: Wy Geni Pry Copyn Ogof
+  chicken_spawn_egg: Wy Geni Iar
+  cod_spawn_egg: Wy Geni Penfras
+  cow_spawn_egg: Wy Geni Buwch
+  creeper_spawn_egg: Wy Geni Cripyr
+  dolphin_spawn_egg: Wy Geni Dolffin
+  donkey_spawn_egg: Wy Geni Asyn
+  drowned_spawn_egg: Wy Geni Boddedig
+  elder_guardian_spawn_egg: Wy Geni Gwarchodwr Hyn
+  enderman_spawn_egg: Wy Geni Enderman
+  endermite_spawn_egg: Wy Geni Endermite
+  evoker_spawn_egg: Wy Geni Consuriwr
+  fox_spawn_egg: Wy Geni Llwynog
+  ghast_spawn_egg: Wy Geni Ghast
+  guardian_spawn_egg: Wy Geni Gwarchodwr
+  hoglin_spawn_egg: Ŵy Geni Hoglin
+  horse_spawn_egg: Wy Geni Ceffyl
+  husk_spawn_egg: Wy Geni Cibyn
+  llama_spawn_egg: Wy Gemi Lama
+  magma_cube_spawn_egg: Wy Geni Ciwb Magma
+  mooshroom_spawn_egg: Wy Geni Mooshroom
+  mule_spawn_egg: Wy Geni Mul
+  ocelot_spawn_egg: Wy Geni Oselot
+  panda_spawn_egg: Wy Geni Panda
+  parrot_spawn_egg: Wy Geni Parot
+  phantom_spawn_egg: Wy Geni Ffantom
+  pig_spawn_egg: Wy Geni Mochyn
+  piglin_spawn_egg: Wy Geni Piglin
+  piglin_brute_spawn_egg: Wy Geni Piglin Brwnt
+  pillager_spawn_egg: Wy Geni Ysbeiliwr
+  polar_bear_spawn_egg: Wy Geni Arth Wen
+  pufferfish_spawn_egg: Wy Geni Chwyddbysgodyn
+  rabbit_spawn_egg: Wy Geni Cwningen
+  ravager_spawn_egg: Wy Geni Difrodwr
+  salmon_spawn_egg: Wy Geni Eog
+  sheep_spawn_egg: Wy Geni Dafad
+  shulker_spawn_egg: Wy Geni Shulker
+  silverfish_spawn_egg: Wy Geni Pryf Arian
+  skeleton_spawn_egg: Wy Geni Sgerbwd
+  skeleton_horse_spawn_egg: Wy Geni Ceffyl Sgerbwd
+  slime_spawn_egg: Wy Geni Sleim
+  spider_spawn_egg: Wy Geni Pry Copyn
+  squid_spawn_egg: Wy Geni Sgwid
+  stray_spawn_egg: Wy Geni Crwydryn
+  strider_spawn_egg: Ŵy Geni Brasgamwr
+  trader_llama_spawn_egg: Wy Geni Lama Masnachwr
+  tropical_fish_spawn_egg: Wy Geni Pysgodyn Trofannol
+  turtle_spawn_egg: Wy Geni Crwban y Môr
+  vex_spawn_egg: Wy Geni Cythral
+  villager_spawn_egg: Wy Geni Pentrefwr
+  vindicator_spawn_egg: Wy Geni Gwas
+  wandering_trader_spawn_egg: Wy Geni Masnachwr Crwydrol
+  witch_spawn_egg: Wy Geni Gwrach
+  wither_skeleton_spawn_egg: Wy Geni Sgerbwd Wither
+  wolf_spawn_egg: Wy Geni Blaidd
+  zoglin_spawn_egg: Wy Geni Soglin
+  zombie_spawn_egg: Wy Geni Sombi
+  zombie_horse_spawn_egg: Wy Geni Ceffyl Sombi
+  zombie_villager_spawn_egg: Wy Geni Pentrefwr Sombi
+  zombified_piglin_spawn_egg: Wy Geni Piglin Sombi
+  experience_bottle: Potel Hudoliaeth
+  fire_charge: Pelen Dân
+  writable_book: Llyfr a Chwilsen
+  written_book: Llyfr a Ysgrifennwyd
+  emerald: Emrallt
+  item_frame: Ffrâm Eitem
+  flower_pot: Pot Blodau
+  carrot: Moronen
+  potato: Taten
+  baked_potato: Taten Pob
+  poisonous_potato: Taten Gwenwynig
+  map: Map Gwag
+  golden_carrot: Moronen Euraid
+  skeleton_skull: Penglog Sgerbwd
+  wither_skeleton_skull: Penglog Sgerbwd Wither
+  player_head: Pen Chwaraewr
+  zombie_head: Pen Sombi
+  creeper_head: Pen Cripyr
+  dragon_head: Pen Draig
+  carrot_on_a_stick: Moronen ar Ffon
+  warped_fungus_on_a_stick: Ffwng Annaearol ar Ffon
+  nether_star: Seren Nether
+  pumpkin_pie: Pei Pwmpen
+  firework_rocket: Roced Tân Gwyllt
+  firework_star: Seren Tân Gwyllt
+  enchanted_book: Llyfr Hudolus
+  nether_brick: Bricsen Nether
+  quartz: Cwarts Nether
+  tnt_minecart: Cart Pwll gyda TNT
+  hopper_minecart: Cart Pwll gyda Hopran
+  prismarine_shard: Telchyn Prismarin
+  prismarine_crystals: Crisialau Prismarin
+  rabbit: Cwningen Amrwd
+  cooked_rabbit: Cwningen Rhost
+  rabbit_stew: Cawl Cwningen
+  rabbit_foot: Troed Cwningen
+  rabbit_hide: Croen Cwningen
+  armor_stand: Daliadur Arfwisg
+  iron_horse_armor: Arfwisg Ceffyl Haearn
+  golden_horse_armor: Arfwisg Ceffyl Euraid
+  diamond_horse_armor: Arfwisg Ceffyl Diemwnt
+  leather_horse_armor: Arfwisg Ceffyl Lledr
+  lead: Tennyn
+  name_tag: Tag Enw
+  command_block_minecart: Cart Pwll gyda Bloc Gorchymyn
+  mutton: Cig Dafad Amrwd
+  cooked_mutton: Cig Dafad Rhost
+  white_banner: Baner Wen
+  orange_banner: Baner Oren
+  magenta_banner: Baner Majenta
+  light_blue_banner: Baner Las Golau
+  yellow_banner: Baner Felen
+  lime_banner: Baner Leim
+  pink_banner: Baner Binc
+  gray_banner: Baner Lwyd
+  light_gray_banner: Baner Lwyd Golau
+  cyan_banner: Baner Wyrddlas
+  purple_banner: Baner Borffor
+  blue_banner: Baner Las
+  brown_banner: Baner Frown
+  green_banner: Baner Werdd
+  red_banner: Baner Goch
+  black_banner: Baner Ddu
+  end_crystal: Crisial End
+  chorus_fruit: Ffrwyth Corws
+  popped_chorus_fruit: Ffrwyth Corws wedi Phopio
+  beetroot: Betys
+  beetroot_seeds: Hadau Betys
+  beetroot_soup: Cawl Betys
+  dragon_breath: Gwynt y Ddraig
+  splash_potion: Diod Tasgu
+  spectral_arrow: Saeth Sbectrol
+  tipped_arrow: Saeth wedi'i Drochi
+  lingering_potion: Diod Parhaus
+  shield: Tarian
+  elytra: Elytra
+  spruce_boat: Cwch Pyrwydd
+  birch_boat: Cwch Bedw
+  jungle_boat: Cwch Jyngl
+  acacia_boat: Cwch Acesia
+  dark_oak_boat: Cwch Derw Tywyll
+  totem_of_undying: Totem Anfarwol
+  shulker_shell: Cragen Shulker
+  iron_nugget: Clap Haearn
+  knowledge_book: Llyfr Gwybodaeth
+  debug_stick: Ffon Dadfygio
+  music_disc_13: Disg Cerddoriaeth
+  music_disc_cat: Disg Cerddoriaeth
+  music_disc_blocks: Disg Cerddoriaeth
+  music_disc_chirp: Disg Cerddoriaeth
+  music_disc_far: Disg Cerddoriaeth
+  music_disc_mall: Disg Cerddoriaeth
+  music_disc_mellohi: Disg Cerddoriaeth
+  music_disc_stal: Disg Cerddoriaeth
+  music_disc_strad: Disg Cerddoriaeth
+  music_disc_ward: Disg Cerddoriaeth
+  music_disc_11: Disg Cerddoriaeth
+  music_disc_wait: Disg Cerddoriaeth
+  music_disc_pigstep: Disg Cerddoriaeth
+  trident: Tryfer
+  phantom_membrane: Pilen Ffantom
+  nautilus_shell: Cragen Bedr
+  heart_of_the_sea: Calon y Môr
+  crossbow: Bwa Croes
+  suspicious_stew: Cawl Amheus
+  loom: Gwŷdd
+  flower_banner_pattern: Patrwm Baner
+  creeper_banner_pattern: Patrwm Baner
+  skull_banner_pattern: Patrwm Baner
+  mojang_banner_pattern: Patrwm Baner
+  globe_banner_pattern: Patrwm Baner
+  piglin_banner_pattern: Patrwm Baner
+  composter: Compostiwr
+  barrel: Casgen
+  smoker: Ffwrn Fygu
+  blast_furnace: Ffwrnais Chwyth
+  cartography_table: Bwrdd Cartograffeg
+  fletching_table: Bwrdd Pluo
+  grindstone: Hogfaen
+  lectern: Darllenfa
+  smithing_table: Bwrdd Gwaith Gof
+  stonecutter: Naddwr Cerrig
+  bell: Cloch
+  lantern: Llusern
+  soul_lantern: Llusern Enaid
+  sweet_berries: Aeron Melys
+  campfire: Tân Gwersyll
+  soul_campfire: Tân Gwersyll Enaid
+  shroomlight: Goleuffwng
+  honeycomb: Dil Mêl
+  bee_nest: Nyth Gwenyn
+  beehive: Cwch Gwenyn
+  honey_bottle: Potel Fêl
+  honey_block: Bloc Mêl
+  honeycomb_block: Bloc Dil Mêl
+  lodestone: Tynfaen
+  netherite_block: Bloc Netherit
+  ancient_debris: Malurion Hynafol
+  target: Targed
+  crying_obsidian: Wylolosgraig
+  blackstone: Carregddu
+  blackstone_slab: Slab Carregddu
+  blackstone_stairs: Grisiau Carregddu
+  gilded_blackstone: Carregddu Euraid
+  polished_blackstone: Carregddu Caboledig
+  polished_blackstone_slab: Slab Carregddu Caboledig
+  polished_blackstone_stairs: Grisiau Carregddu Caboledig
+  chiseled_polished_blackstone: Carregddu Caboledig Nadd
+  polished_blackstone_bricks: Briciau Carregddu Caboledig
+  polished_blackstone_brick_slab: Slab Briciau Carregddu Caboledig
+  polished_blackstone_brick_stairs: Grisiau Briciau Carregddu Caboledig
+  cracked_polished_blackstone_bricks: Briciau Carregddu Caboledig Chwâl
+  respawn_anchor: Angor Atgyfodi
+  water: Dŵr
+  lava: Lafa
+  tall_seagrass: Morwellt Tal
+  piston_head: Pen Piston
+  moving_piston: Piston Symudol
+  wall_torch: Tors Wal
+  fire: Tân
+  soul_fire: Tân Enaid
+  redstone_wire: Gwifren Redstone
+  oak_wall_sign: Arwydd Wal Derw
+  spruce_wall_sign: Arwydd Mur Pyrwydd
+  birch_wall_sign: Arwydd Wal Bedw
+  acacia_wall_sign: Arwydd Wal Acesia
+  jungle_wall_sign: Arwydd Wal Jyngl
+  dark_oak_wall_sign: Arwydd Wal Derw Tywyll
+  redstone_wall_torch: Tors Wal Redstone
+  soul_wall_torch: Tors Wal Enaid
+  nether_portal: Porth Nether
+  attached_pumpkin_stem: Coesyn Pwmpen Ynghlwm
+  attached_melon_stem: Coesyn Melon Ynghlwm
+  pumpkin_stem: Coesyn Pwmpen
+  melon_stem: Coesyn Melon
+  end_portal: Porth End
+  cocoa: Coco
+  tripwire: Weiren Faglu
+  potted_oak_sapling: Glasbren Derw Mewn Pot
+  potted_spruce_sapling: Glasbren Pyrwydd Mewn Pot
+  potted_birch_sapling: Glasbren Bedw Mewn Pot
+  potted_jungle_sapling: Glasbren Jyngl Mewn Pot
+  potted_acacia_sapling: Glasbren Acesia Mewn Pot
+  potted_dark_oak_sapling: Glasbren Derw Tywyll Mewn Pot
+  potted_fern: Rhedyn Mewn Pot
+  potted_dandelion: Dant Y Llew Mewn Pot
+  potted_poppy: Pabi Mewn Pot
+  potted_blue_orchid: Tegeirian Glas Mewn Pot
+  potted_allium: Garllegyn Mewn Pot
+  potted_azure_bluet: Gwreiddrudd Las Mewn Pot
+  potted_red_tulip: Tiwlip Coch Mewn Pot
+  potted_orange_tulip: Tiwlip Oren Mewn Pot
+  potted_white_tulip: Tiwlip Gwyn Mewn Pot
+  potted_pink_tulip: Tiwlip Pinc Mewn Pot
+  potted_oxeye_daisy: Llygad Llo Mewn Pot
+  potted_cornflower: Penlas Wen Mewn Pot
+  potted_lily_of_the_valley: Lili'r Dyffrynnoedd Mewn Pot
+  potted_wither_rose: Rhosyn Wither Mewn Pot
+  potted_red_mushroom: Madarch Coch Mewn Pot
+  potted_brown_mushroom: Madarch Brown Mewn Pot
+  potted_dead_bush: Llwyn Marw Mewn Pot
+  potted_cactus: Cactws Mewn Pot
+  carrots: Moron
+  potatoes: Tatws
+  skeleton_wall_skull: Penglog Wal Sgerbwd
+  wither_skeleton_wall_skull: Penglog Wal Sgerbwd Wither
+  zombie_wall_head: Pen Wal Sombi
+  player_wall_head: Pen Wal Chwaraewr
+  creeper_wall_head: Pen Wal Cripyr
+  dragon_wall_head: Pen Wal Draig
+  white_wall_banner: Baner Wen
+  orange_wall_banner: Baner Oren
+  magenta_wall_banner: Baner Majenta
+  light_blue_wall_banner: Baner Las Golau
+  yellow_wall_banner: Baner Felen
+  lime_wall_banner: Baner Leim
+  pink_wall_banner: Baner Binc
+  gray_wall_banner: Baner Lwyd
+  light_gray_wall_banner: Baner Lwyd Golau
+  cyan_wall_banner: Baner Wyrddlas
+  purple_wall_banner: Baner Borffor
+  blue_wall_banner: Baner Las
+  brown_wall_banner: Baner Frown
+  green_wall_banner: Baner Werdd
+  red_wall_banner: Baner Goch
+  black_wall_banner: Baner Ddu
+  beetroots: Betys
+  end_gateway: Porth End
+  frosted_ice: Rhew Barugog
+  kelp_plant: Planhigyn Gwymon
+  dead_tube_coral_wall_fan: Ffan Wal Gwrel Piben Marw
+  dead_brain_coral_wall_fan: Ffan Wal Cwrel Ymennydd Wedi Marw
+  dead_bubble_coral_wall_fan: Ffan Wal Gwrel Brith Marw
+  dead_fire_coral_wall_fan: Ffan Wal Gwrel Tân Marw
+  dead_horn_coral_wall_fan: Ffan Wal Gwrel Corn Marw
+  tube_coral_wall_fan: Ffan Wal Gwrel Piben
+  brain_coral_wall_fan: Ffan Wal Cwrel Ymennydd
+  bubble_coral_wall_fan: Ffan Wal Gwrel Brith
+  fire_coral_wall_fan: Ffan Wal Gwrel Tân
+  horn_coral_wall_fan: Ffan Wal Gwrel Corn
+  bamboo_sapling: Blaguryn Bambŵ
+  potted_bamboo: Bambŵ Mewn Pot
+  void_air: Aer Gwagle
+  cave_air: Aer Ogof
+  bubble_column: Colofn Swigod
+  sweet_berry_bush: Llwyn Aeron Melys
+  weeping_vines_plant: Planhigyn Gwinwydd Wylofus
+  twisting_vines_plant: Planhigyn Gwinwydd Dirdro
+  crimson_wall_sign: Arwydd Wal Rhuddgoch
+  warped_wall_sign: Arwydd Wal Annaearol
+  potted_crimson_fungus: Ffwng Rhuddgoch mewn Pot
+  potted_warped_fungus: Ffwng Annaearol mewn Pot
+  potted_crimson_roots: Gwreiddiau Rhuddgoch mewn Pot
+  potted_warped_roots: Gwreiddiau Annaearol mewn Pot
+  zombie_pigman_spawn_egg: Ŵy Geni Mochddyn Sombi
+  cactus_green: Gwyrdd Cactws
+  dandelion_yellow: Melyn Dant Y Llew
+  rose_red: Coch Rhosyn
+  sign: Arwydd
+biome:
+  ocean: Môr
+  plains: Gwastadeddau
+  desert: Anialwch
+  mountains: Mynyddoedd
+  forest: Coedwig
+  taiga: Taiga
+  swamp: Cors
+  river: Afon
+  nether_wastes: Diffeithdir Nether
+  the_end: Yr End
+  frozen_ocean: Cefnfor Rhewedig
+  frozen_river: Afon Rhewedig
+  snowy_tundra: Twndra Eiraog
+  snowy_mountains: Mynyddoedd Eiraog
+  mushroom_fields: Meysydd Madarch
+  mushroom_field_shore: Glan Maes Madarch
+  beach: Traeth
+  desert_hills: Brynion Anial
+  wooded_hills: Bryniau Coediog
+  taiga_hills: Bryniau Taiga
+  mountain_edge: Ochr Mynydd
+  jungle: Jyngl
+  jungle_hills: Bryniau Jyngl
+  jungle_edge: Ymyl y Jyngl
+  deep_ocean: Cefnfor Dwfn
+  stone_shore: Traeth Carreg
+  snowy_beach: Traeth Eiraog
+  birch_forest: Coedwig Bedw
+  birch_forest_hills: Bryniau Coedwig Bedw
+  dark_forest: Coedwig Dywyll
+  snowy_taiga: Taiga Eiraog
+  snowy_taiga_hills: Bryniau Taiga Eiraog
+  giant_tree_taiga: Taiga Coeden Enfawr
+  giant_tree_taiga_hills: Bryniau Taiga Coeden Enfawr
+  wooded_mountains: Mynyddoedd Coediog
+  savanna: Safana
+  savanna_plateau: Llwyfandir Safana
+  badlands: Garwdiroedd
+  wooded_badlands_plateau: Llwyfandir Garwdiroedd Coediog
+  badlands_plateau: Llwyfandir Garwdiroedd
+  small_end_islands: Ynysoedd End Bach
+  end_midlands: Canolbarthau End
+  end_highlands: Ucheldiroedd End
+  end_barrens: Diffrwyth End
+  warm_ocean: Môr Cynnes
+  lukewarm_ocean: Cefnfor Claear
+  cold_ocean: Cefnfor Oer
+  deep_warm_ocean: Cefnfor Cynnes Dwfn
+  deep_lukewarm_ocean: Cefnfor Claear Dwfn
+  deep_cold_ocean: Cefnfor Oer Dwfn
+  deep_frozen_ocean: Cefnfor Rhewedig Dwfn
+  the_void: Y Gwagle
+  sunflower_plains: Gwastadeddau Blodyn Haul
+  desert_lakes: Llynnoedd Anial
+  gravelly_mountains: Mynyddoedd Graeanog
+  flower_forest: Coedwig Blodeuog
+  taiga_mountains: Mynyddoedd Taiga
+  swamp_hills: Bryniau Cors
+  ice_spikes: Sbigynnau Rhew
+  modified_jungle: Addaswyd Jyngl
+  modified_jungle_edge: Addaswyd Ymyl y Jyngl
+  tall_birch_forest: Coedwig Bedw Tal
+  tall_birch_hills: Bryniau Bedw Tal
+  dark_forest_hills: Bryniau Coedwig Dywyll
+  snowy_taiga_mountains: Mynyddoedd Taiga Eiraog
+  giant_spruce_taiga: Taiga Pyrwydd Enfawr
+  giant_spruce_taiga_hills: Bryniau Taiga Pyrwydd Enfawr
+  modified_gravelly_mountains: Mynyddoedd Graeanog+
+  shattered_savanna: Safana Toredig
+  shattered_savanna_plateau: Llwyfandir Safana Toredig
+  eroded_badlands: Garwdiroedd Erydog
+  modified_wooded_badlands_plateau: Addaswyd Llwyfandir Garwdiroedd Coediog
+  modified_badlands_plateau: Addaswyd Llwyfandir Garwdiroedd
+  bamboo_jungle: Jyngl Bambŵ
+  bamboo_jungle_hills: Bryniau Jyngl Bambŵ
+  soul_sand_valley: Dyffryn Tywod Enaid
+  crimson_forest: Coedwig Rhuddgoch
+  warped_forest: Coedwig Annaearol
+  basalt_deltas: Deltâu Pilergraig
+  nether: Nether
+enchantment:
+  fire_protection: Amddiffyniad Tân
+  sharpness: Min
+  flame: Fflam
+  soul_speed: Gwib Enaid
+  aqua_affinity: Cyfathrach Dŵr
+  punch: Dyrniad
+  loyalty: Teyrngarwch
+  depth_strider: Camwr y Dyfnderoedd
+  vanishing_curse: Melltith o Ddiflannu
+  unbreaking: Didorri
+  knockback: Curo 'nol
+  luck_of_the_sea: Lwc y Môr
+  binding_curse: Melltith o Rwymo
+  fortune: Ffortiwn
+  protection: Amddiffyn
+  efficiency: Effeithlonrwydd
+  mending: Trwsio
+  frost_walker: Rhodiwr Rhew
+  lure: Llithiwr
+  looting: Ysbeilio
+  piercing: Treiddio
+  blast_protection: Amddiffyniad Ffrwydriad
+  smite: Taro
+  multishot: Aml-saethu
+  fire_aspect: Agwedd Tân
+  channeling: Sianelu
+  sweeping: Ymyl Ysgubol
+  thorns: Drain
+  bane_of_arthropods: Melltith Arthropodau
+  respiration: Respiradu
+  riptide: Tryfer Wîb
+  silk_touch: Cyffyrddiad Sidan
+  quick_charge: Llwytho Chwim
+  projectile_protection: Amddiffyniad Saeth
+  impaling: Trywanu
+  feather_falling: Cwympiad Plu
+  power: Pŵer
+  infinity: Anfeidredd
+potion:
+  uncraftable: Diod Anghrefftadwy
+  water: Potel Ddŵr
+  mundane: Diod Cyffredin
+  thick: Diod Trwchus
+  awkward: Diod Lletchwith
+  night_vision: Diod Golwg Nos
+  invisibility: Diod Anweledigaeth
+  jump: Diod Neidio
+  fire_resistance: Diod Gwrthsefyll Tân
+  speed: Diod o Gyflymiad
+  slowness: Diod Arafiad
+  water_breathing: Diod Anadlu Dŵr
+  instant_heal: Diod Iachau
+  instant_damage: Diod Niweidio
+  poison: Diod Gwenwyn
+  regen: Diod Adfywio
+  strength: Diod Cryfhau
+  weakness: Diod o Wendid
+  luck: Diod Lwc
+  turtle_master: Diod y Meistr Crwbanod
+  slow_falling: Diod Syrthio Araf
+splash_potion:
+  uncraftable: Diod Tasgu Anghrefftadwy
+  water: Potel Ddŵr Tasgu
+  mundane: Diod Tasgu Cyffredin
+  thick: Diod Tasgu Trwchus
+  awkward: Diod Tasgu Lletchwith
+  night_vision: Diod Tasgu Golwg Nos
+  invisibility: Diod Tasgu Anweledigaeth
+  jump: Diod Tasgu Neidio
+  fire_resistance: Diod Tasgu Gwrthsefyll Tân
+  speed: Diod Tasgu o Gyflymiad
+  slowness: Diod Tasgu Arafiad
+  water_breathing: Diod Tasgu Anadlu Dŵr
+  instant_heal: Diod Tasgu Iachau
+  instant_damage: Diod Tasgu Niweidio
+  poison: Diod Tasgu Gwenwyn
+  regen: Diod Tasgu Adfywio
+  strength: Diod Tasgu Cryfhau
+  weakness: Diod Tasgu o Wendid
+  luck: Diod Tasgu Lwc
+  turtle_master: Diod Tasgu y Meistr Crwbanod
+  slow_falling: Diod Tasgu Syrthio Araf
+lingering_potion:
+  uncraftable: Diod Parhaus Anghrefftadwy
+  water: Potel Ddŵr Parhaus
+  mundane: Diod Parhaus Cyffredin
+  thick: Diod Parhaus Trwchus
+  awkward: Diod Parhaus Lletchwith
+  night_vision: Diod Parhaus Golwg Nos
+  invisibility: Diod Parhaus Anweledigaeth
+  jump: Diod Parhaus Neidio
+  fire_resistance: Diod Parhaus Gwrthsefyll Tân
+  speed: Diod Parhaus o Gyflymiad
+  slowness: Diod Parhaus Arafiad
+  water_breathing: Diod Parhaus Anadlu Dŵr
+  instant_heal: Diod Parhaus Iachau
+  instant_damage: Diod Parhaus Niweidio
+  poison: Diod Parhaus Gwenwyn
+  regen: Diod Parhaus Adfywio
+  strength: Diod Parhaus Cryfhau
+  weakness: Diod Parhaus o Wendid
+  luck: Diod Parhaus Lwc
+  turtle_master: Diod Parhaus y Meistr Crwbanod
+  slow_falling: Diod Parhaus Syrthio Araf
+tipped_arrow:
+  uncraftable: Saeth wedi'i Drochi Anghrefftadwy
+  water: Saeth Tasgu
+  mundane: Saeth wedi'i Drochi
+  thick: Saeth wedi'i Drochi
+  awkward: Saeth wedi'i Drochi
+  night_vision: Saeth Golwg Nos
+  invisibility: Saeth Anweledigaeth
+  jump: Saeth Neidio
+  fire_resistance: Saeth Gwrthsefyll Tân
+  speed: Saeth o Gyflymiad
+  slowness: Saeth Arafiad
+  water_breathing: Saeth Anadlu Dŵr
+  instant_heal: Saeth Iachau
+  instant_damage: Saeth Niweidio
+  poison: Saeth Gwenwyn
+  regen: Saeth Adfywio
+  strength: Saeth Cryfhau
+  weakness: Saeth o Wendid
+  luck: Saeth Lwc
+  turtle_master: Saeth y Meistr Crwbanod
+  slow_falling: Saeth Syrthio Araf
+entity:
+  dropped_item: Eitem
+  experience_orb: Pelen Profiad
+  area_effect_cloud: Cwmwl Ardal Effaith
+  elder_guardian: Gwarchodwr Hyn
+  wither_skeleton: Sgerbwd Wither
+  stray: Crwydryn
+  egg: Ŵy Wedi'i Daflu
+  leash_hitch: Cwlwm Tennyn
+  painting: Llun
+  arrow: Saeth
+  snowball: Pelen Eira
+  fireball: Pelen Dân
+  small_fireball: Pelen Dân Bach
+  ender_pearl: Perl Ender Wedi'i Daflu
+  ender_signal: Llygad Ender
+  splash_potion: Diod
+  thrown_exp_bottle: Potel Hudoliaeth Wedi'i Daflu
+  item_frame: Ffrâm Eitem
+  wither_skull: Penglog Wither
+  primed_tnt: TNT wedi'i Breimio
+  falling_block: Bloc Cwympo
+  firework: Roced Tân Gwyllt
+  husk: Cibyn
+  spectral_arrow: Saeth Sbectrol
+  shulker_bullet: Bwled Shulker
+  dragon_fireball: Pelen Dân Draig
+  zombie_villager: Pentrefwr Sombi
+  skeleton_horse: Ceffyl Sgerbwd
+  zombie_horse: Ceffyl Sombi
+  armor_stand: Daliadur Arfwisg
+  donkey: Asyn
+  mule: Mul
+  evoker_fangs: Consuriwr yn ysgithro
+  evoker: Consuriwr
+  vex: Cythral
+  vindicator: Gwas
+  illusioner: Rhyfeddwr
+  minecart_command: Cart Pwll gyda Bloc Gorchymyn
+  boat: Cwch
+  minecart: Cart Pwll
+  minecart_chest: Cart Pwll gyda Chist
+  minecart_furnace: Cart Pwll gyda Ffwrnais
+  minecart_tnt: Cart Pwll gyda TNT
+  minecart_hopper: Cart Pwll gyda Hopran
+  minecart_mob_spawner: Pwll Pwll gyda Siliwr
+  creeper: Crîpyr
+  skeleton: Sgerbwd
+  spider: Prycopyn
+  giant: Cawr
+  zombie: Sombi
+  slime: Sleim
+  ghast: Ghast
+  zombified_piglin: Piglin Sombi
+  enderman: Enderman
+  cave_spider: Prycopyn Ogof
+  silverfish: Pryf Arian
+  blaze: Tânfwystfil
+  magma_cube: Ciwb Magma
+  ender_dragon: Draig Ender
+  wither: Wither
+  bat: Ystlum
+  witch: Gwrach
+  endermite: Endermite
+  guardian: Gwarchodwr
+  shulker: Shulker
+  pig: Mochyn
+  sheep: Dafad
+  cow: Buwch
+  chicken: Iâr
+  squid: Sgwid
+  wolf: Blaidd
+  mushroom_cow: Mooshroom
+  snowman: Golem Eira
+  ocelot: Cath Wyllt
+  iron_golem: Golem Haearn
+  horse: Ceffyl
+  rabbit: Cwningen
+  polar_bear: Arth Wen
+  llama: Lama
+  llama_spit: Poer Lama
+  parrot: Parot
+  villager: Pentrefwr
+  ender_crystal: Crisial End
+  turtle: Crwban
+  phantom: Ffantom
+  trident: Tryfer
+  cod: Penfras
+  salmon: Eog
+  pufferfish: Chwyddbysgodyn
+  tropical_fish: Pysgodyn Trofannol
+  drowned: Boddedig
+  dolphin: Dolffin
+  cat: Cath
+  panda: Panda
+  pillager: Ysbeiliwr
+  ravager: Difrodwr
+  trader_llama: Lama Masnachwr
+  wandering_trader: Masnachwr Crwydrol
+  fox: Llwynog
+  bee: Gwenynen
+  hoglin: Hoglin
+  piglin: Piglin
+  strider: Brasgamwr
+  zoglin: Soglin
+  piglin_brute: Piglin Brwnt
+  fishing_hook: Corcyn Pysgota
+  lightning: Mellten
+  player: Chwaraewr
+  pig_zombie: Mochddyn Sombi
+effect:
+  speed: Cyflymder
+  slow: Arafiad
+  fast_digging: Brys
+  slow_digging: Blinder Cloddio
+  increase_damage: Cryfder
+  heal: Iachâd Ar Unwaith
+  harm: Difrod ar Unwaith
+  jump: Hwb Neidio
+  confusion: Cyfog
+  regeneration: Adfywio
+  damage_resistance: Gwrthsafiad
+  fire_resistance: Gwrthsafiad Tân
+  water_breathing: Anadlu Dŵr
+  invisibility: Anweledigaeth
+  blindness: Dallineb
+  night_vision: Golwg Nos
+  hunger: Chwant Bwyd
+  weakness: Gwendid
+  poison: Gwenwyn
+  wither: Wither
+  health_boost: Hwb Iechyd
+  absorption: Amsugniad
+  saturation: Dirlawnder
+  glowing: Tywynnu
+  levitation: Ymddyrchafael
+  luck: Lwc
+  unluck: Anlwc
+  slow_falling: Syrthio Araf
+  conduit_power: Pwer Cwndid
+  dolphins_grace: Gras Dolffin
+  bad_omen: Drwgargoel
+  hero_of_the_village: Arwr y Pentref
+tropical_fish_type:
+  kob: Cob
+  sunstreak: Stribynhaul
+  snooper: Chwilotwr
+  dasher: Sioncyn
+  brinely: Halltyn
+  spotty: Frithyn
+  flopper: Swalpiwr
+  stripey: Streipiog
+  glitter: Pelydriad
+  blockfish: Pysgodyn Bloc
+  betty: Beti
+  clayfish: Pysgod Clai
+dye_color:
+  white: Gwyn
+  orange: Oren
+  magenta: Magenta
+  light_blue: Glas Golau
+  yellow: Melyn
+  lime: Leim
+  pink: Pinc
+  gray: Llwyd
+  light_gray: Llwyd Golau
+  cyan: Gwyrddlas
+  purple: Porffor
+  blue: Glas
+  brown: Brown
+  green: Gwyrdd
+  red: Coch
+  black: Du
+named:
+  player_head_named: Pen %s
+  potion_with_amplifier: '%s %s'
+  potion_with_duration: '%s (%s)'
+  unknown_enchantment: 'Hudoliaeth anhysbys: %s'
+  unknown_entity: 'Endid anhysbys: %s'
+  unknown_effect: 'Effaith anhysbys: %s'
+tropical_fish_name:
+  '117506305': Anemoni
+  '117899265': Tang Du
+  '185008129': Tang glas
+  '117441793': Pilisgodyn
+  '118161664': Ciclid
+  '65536': Pysgodyn Clown
+  '50726144': Beti Candi Fflos
+  '67764993': Cefnffrith
+  '234882305': Cipiwr Coch yr Ymerawdwr
+  '67110144': Pysgodyn Gafr
+  '117441025': Eilun Mwraidd
+  '16778497': Pilisgodyn Tlws
+  '101253888': Pysgodyn Parot
+  '50660352': Pysgod Angel y Frenhiness
+  '918529': Ciclid Coch
+  '235340288': Bleni Gwefus Coch
+  '918273': Cipiwr Goch
+  '67108865': Asgelledefyn
+  '917504': Pysgodyn Clown y Tomato
+  '459008': Pysgodyn Sbardun
+  '67699456': Pysgodyn Parot Dinfelen
+  '67371009': Tang melyn
+colored_shied:
+  white: Tarian Wen
+  orange: Tarian Oren
+  magenta: Tarian Majenta
+  light_blue: Tarian Las Golau
+  yellow: Tarian Felen
+  lime: Tarian Leim
+  pink: Tarian Binc
+  gray: Tarian Lwyd
+  light_gray: Tarian Lwyd Golau
+  cyan: Tarian Wyrddlas
+  purple: Tarian Borffor
+  blue: Tarian Las
+  brown: Tarian Frown
+  green: Tarian Werdd
+  red: Tarian Goch
+  black: Tarian Ddu
+banner_pattern:
+  '65536': Canton Sail Gwyn Dehau
+  '65537': Canton Sail Oren Dehau
+  '65538': Canton Sail Majenta Dehau
+  '65539': Canton Sail Glas Golau Dehau
+  '65540': Canton Sail Melyn Dehau
+  '65541': Canton Sail Leim Dehau
+  '65542': Canton Sail Pinc Dehau
+  '65543': Canton Sail Llwyd Dehau
+  '65544': Canton Sail Llwyd Golau Dehau
+  '65545': Canton Sail Gwyrddlas Dehau
+  '65546': Canton Sail Porffor Dehau
+  '65547': Canton Sail Glas Dehau
+  '65548': Canton Sail Brown Dehau
+  '65549': Canton Sail Gwyrdd Dehau
+  '65550': Canton Sail Coch Dehau
+  '65551': Canton Sail Du Dehau
+  '131072': Canton Sail Gwyn o Chwith
+  '131073': Canton Sail Oren o Chwith
+  '131074': Canton Sail Majenta o Chwith
+  '131075': Canton Sail Glas Golau o Chwith
+  '131076': Canton Sail Melyn o Chwith
+  '131077': Canton Sail Leim o Chwith
+  '131078': Canton Sail Pinc o Chwith
+  '131079': Canton Sail Llwyd o Chwith
+  '131080': Canton Sail Llwyd Golau o Chwith
+  '131081': Canton Sail Gwyrddlas o Chwith
+  '131082': Canton Sail Porffor o Chwith
+  '131083': Canton Sail Glas o Chwith
+  '131084': Canton Sail Brown o Chwith
+  '131085': Canton Sail Gwyrdd o Chwith
+  '131086': Canton Sail Coch o Chwith
+  '131087': Canton Sail Du o Chwith
+  '196608': Canton Prif Ddehau Gwyn
+  '196609': Canton Prif Ddehau Oren
+  '196610': Canton Prif Ddehau Majenta
+  '196611': Canton Prif Ddehau Glas Golau
+  '196612': Canton Prif Ddehau Melyn
+  '196613': Canton Prif Ddehau Leim
+  '196614': Canton Prif Ddehau Pinc
+  '196615': Canton Prif Ddehau Llwyd
+  '196616': Canton Prif Ddehau Llwyd Golau
+  '196617': Canton Prif Ddehau Gwyrddlas
+  '196618': Canton Prif Ddehau Porffor
+  '196619': Canton Prif Ddehau Glas
+  '196620': Canton Prif Ddehau Brown
+  '196621': Canton Prif Ddehau Gwyrdd
+  '196622': Canton Prif Ddehau Coch
+  '196623': Canton Prif Ddehau Du
+  '262144': Canton Siff Gwyn o Chwith
+  '262145': Canton Siff Oren o Chwith
+  '262146': Canton Siff Majenta o Chwith
+  '262147': Canton Siff Glas Golau o Chwith
+  '262148': Canton Siff Melyn o Chwith
+  '262149': Canton Siff Leim o Chwith
+  '262150': Canton Siff Pinc o Chwith
+  '262151': Canton Siff Llwyd o Chwith
+  '262152': Canton Siff Llwyd Golau o Chwith
+  '262153': Canton Siff Gwyrddlas o Chwith
+  '262154': Canton Siff Porffor o Chwith
+  '262155': Canton Siff Glas o Chwith
+  '262156': Canton Siff Brown o Chwith
+  '262157': Canton Siff Gwyrdd o Chwith
+  '262158': Canton Siff Coch o Chwith
+  '262159': Canton Siff Du o Chwith
+  '327680': Sylfaen Gwyn
+  '327681': Sylfaen Oren
+  '327682': Sylfaen Majenta
+  '327683': Sylfaen Glas Golau
+  '327684': Sylfaen Felyn
+  '327685': Sylfaen Leim
+  '327686': Sylfaen Pinc
+  '327687': Sylfaen Llwyd
+  '327688': Sylfaen Llwyd Golau
+  '327689': Sylfaen Wyrddlas
+  '327690': Sylfaen Porffor
+  '327691': Sylfaen Glas
+  '327692': Sylfaen Brown
+  '327693': Sylfaen Gwyrdd
+  '327694': Sylfaen Coch
+  '327695': Sylfaen Du
+  '393216': Prif Gwyn
+  '393217': Prif Oren
+  '393218': Prif Magenta
+  '393219': Prif Las Ysgafn
+  '393220': Prif Felen
+  '393221': Prif Galch
+  '393222': Prif Binc
+  '393223': Prif Grey
+  '393224': Prif Lwyd Ysgafn
+  '393225': Prif Gwyrddlas
+  '393226': Porffor Prif
+  '393227': Glas Prif
+  '393228': Brown Prif
+  '393229': Pennaeth Gwyrdd
+  '393230': Prif Goch
+  '393231': Prif Ddu
+  '458752': Cledr Wyn Ddehau
+  '458753': Cledr Oren Ddehau
+  '458754': Cledr Majenta Ddehau
+  '458755': Cledr Las Golau Ddehau
+  '458756': Cledr Felyn Ddehau
+  '458757': Cledr Leim Ddehau
+  '458758': Cledr Binc Ddehau
+  '458759': Cledr Lwyd Ddehau
+  '458760': Cledr Lwyd Golau Ddehau
+  '458761': Cledr Wyrddlas Ddehau
+  '458762': Cledr Borffor Ddehau
+  '458763': Cledr Las Ddehau
+  '458764': Cledr Frown Ddehau
+  '458765': Cledr Wyrdd Ddehau
+  '458766': Cledr Goch Ddehau
+  '458767': Cledr Ddu Ddehau
+  '524288': Cledr Wyn o Chwith
+  '524289': Cledr Oren o Chwith
+  '524290': Pâl Majenta o Chwith
+  '524291': Cledr Glas Golau o Chwith
+  '524292': Cledr Felyn o Chwith
+  '524293': Cledr Leim o Chwith
+  '524294': Cledr Binc o Chwith
+  '524295': Cledr Lwyd o Chwith
+  '524296': Cledr Lwyd Golau o Chwith
+  '524297': Cledr Wyrddlas o Chwith
+  '524298': Cledr Borffor o Chwith
+  '524299': Cledr Las o Chwith
+  '524300': Cledr Frown o Chwith
+  '524301': Cledr Wyrdd o Chwith
+  '524302': Cledr Goch o Chwith
+  '524303': Cledr Ddu o Chwith
+  '589824': Cledr Wyn
+  '589825': Cledr Oren
+  '589826': Cledr Majenta
+  '589827': Cledr Las Golau
+  '589828': Cledr Felyn
+  '589829': Cledr Leim
+  '589830': Cledr Binc
+  '589831': Cledr Lwyd
+  '589832': Cledr Lwyd Golau
+  '589833': Cledr Wyrddlas
+  '589834': Cledr Borffor
+  '589835': Cledr Las
+  '589836': Cledr Frown
+  '589837': Cledr Wyrdd
+  '589838': Cledr Goch
+  '589839': Cledr Ddu
+  '655360': Bar Gwyn
+  '655361': Bar Oren
+  '655362': Bar Majenta
+  '655363': Bar Glas Golau
+  '655364': Bar Melyn
+  '655365': Bar Leim
+  '655366': Bar Pinc
+  '655367': Bar Llwyd
+  '655368': Bar Llwyd Golau
+  '655369': Bar Gwyrddlas
+  '655370': Bar Porffor
+  '655371': Bar Glas
+  '655372': Bar Brown
+  '655373': Bar Gwyrdd
+  '655374': Bar Coch
+  '655375': Bar Du
+  '720896': Bend Gwyn
+  '720897': Bend Oren
+  '720898': Bend Majenta
+  '720899': Bend Glas Golau
+  '720900': Bend Melyn
+  '720901': Bend Leim
+  '720902': Bend Pinc
+  '720903': Bend Llwyd
+  '720904': Bend Llwyd Golau
+  '720905': Bend Gwyrddlas
+  '720906': Bend Porffor
+  '720907': Bend Glas
+  '720908': Bend Brown
+  '720909': Bend Gwyrdd
+  '720910': Bend Coch
+  '720911': Bend Du
+  '786432': Bend Gwyn o Chwith
+  '786433': Bend Oren o Chwith
+  '786434': Bend Majenta o Chwith
+  '786435': Bend Glas Golau o Chwith
+  '786436': Bend Melyn o Chwith
+  '786437': Bend Leim o Chwith
+  '786438': Bend Pinc o Chwith
+  '786439': Bend Llwyd o Chwith
+  '786440': Bend Llwyd Golau o Chwith
+  '786441': Bend Gwyrddlas o Chwith
+  '786442': Bend Porffor o Chwith
+  '786443': Bend Glas o Chwith
+  '786444': Bend Brown o Chwith
+  '786445': Bend Gwyrdd o Chwith
+  '786446': Bend Coch o Chwith
+  '786447': Bend Du o Chwith
+  '851968': Gwyn Rhestrog
+  '851969': Oren Rhestrog
+  '851970': Majenta Rhestrog
+  '851971': Glas Golau Rhestrog
+  '851972': Melyn Rhestrog
+  '851973': Leim Rhestrog
+  '851974': Pinc Rhestrog
+  '851975': Llwyd Rhestrog
+  '851976': Llwyd Golau Rhestrog
+  '851977': Gwyrddlas Rhestrog
+  '851978': Porffor Rhestrog
+  '851979': Glas Rhestrog
+  '851980': Brown Rhestrog
+  '851981': Gwyrdd Rhestrog
+  '851982': Coch Rhestrog
+  '851983': Du Rhestrog
+  '917504': Sawtyr Gwyn
+  '917505': Sawtyr Oren
+  '917506': Sawtyr Majenta
+  '917507': Sawtyr Glas Golau
+  '917508': Sawtyr Melyn
+  '917509': Sawtyr Leim
+  '917510': Sawtyr Pinc
+  '917511': Sawtyr Llwyd
+  '917512': Sawtyr Llwyd Golau
+  '917513': Sawtyr Gwyrddlas
+  '917514': Sawtyr Porffor
+  '917515': Sawtyr Glas
+  '917516': Sawtyr Brown
+  '917517': Sawtyr Gwyrdd
+  '917518': Sawtyr Coch
+  '917519': Sawtyr Du
+  '983040': Croes Wyn
+  '983041': Croes Oren
+  '983042': Croes Majenta
+  '983043': Croes Las Golau
+  '983044': Croes Felyn
+  '983045': Croes Leim
+  '983046': Croes Binc
+  '983047': Croes Lwyd
+  '983048': Croes Lwyd Golau
+  '983049': Croes Wyrddlas
+  '983050': Croes Porffor
+  '983051': Croes Las
+  '983052': Croes Frown
+  '983053': Croes Wyrdd
+  '983054': Croes Goch
+  '983055': Croes Ddu
+  '1048576': Sieffrwn Gwyn
+  '1048577': Sieffrwn Oren
+  '1048578': Sieffrwn Majenta
+  '1048579': Sieffrwn Glas Golau
+  '1048580': Sieffrwn Melyn
+  '1048581': Sieffrwn Leim
+  '1048582': Sieffrwn Pinc
+  '1048583': Sieffrwn Llwyd
+  '1048584': Sieffrwn Llwyd Golau
+  '1048585': Sieffrwn Gwyrddlas
+  '1048586': Sieffrwn Porffor
+  '1048587': Sieffrwn Glas
+  '1048588': Sieffrwn Brown
+  '1048589': Sieffrwn Gwyrdd
+  '1048590': Sieffrwn Coch
+  '1048591': Sieffrwn Du
+  '1114112': Sieffrwn Gwyn ar ei Ymchwel
+  '1114113': Sieffrwn Oren ar ei Ymchwel
+  '1114114': Sieffrwn Majenta ar ei Ymchwel
+  '1114115': Sieffrwn Glas Golau ar ei Ymchwel
+  '1114116': Sieffrwn Melyn ar ei Ymchwel
+  '1114117': Sieffrwn Leim ar ei Ymchwel
+  '1114118': Sieffrwn Pinc ar ei Ymchwel
+  '1114119': Sieffrwn Llwyd ar ei Ymchwel
+  '1114120': Sieffrwn Lwydd Golau Wrthdroadol
+  '1114121': Sieffrwn Wyrddlas Wrthdroadol
+  '1114122': Sieffrwn Borffor Wrthdroadol
+  '1114123': Sieffrwn Las Wrthdroadol
+  '1114124': Sieffrwn Frown Wrthdroadol
+  '1114125': Sieffrwn Wyrdd Wrthdroadol
+  '1114126': Sieffrwn Goch Wrthdroadol
+  '1114127': Sieffrwn Ddu Wrthdroadol
+  '1179648': Sail Rasyd Gwyn
+  '1179649': Sail Rasyd Oren
+  '1179650': Sail Rasyd Majenta
+  '1179651': Sail Rasyd Glas Golau
+  '1179652': Sail Rasyd Melyn
+  '1179653': Sail Rasyd Leim
+  '1179654': Sail Rasyd Pinc
+  '1179655': Sail Rasyd Llwyd
+  '1179656': Sail Rasyd Llwyd Golau
+  '1179657': Sail Rasyd Gwyrddlas
+  '1179658': Sail Rasyd Porffor
+  '1179659': Sail Rasyd Glas
+  '1179660': Sail Rasyd Brown
+  '1179661': Sail Rasyd Gwyrdd
+  '1179662': Sail Rasyd Coch
+  '1179663': Sail Rasyd Du
+  '1245184': Pen Rasyd Gwyn
+  '1245185': Pen Rasyd Oren
+  '1245186': Pen Rasyd Majenta
+  '1245187': Pen Rasyd Glas Golau
+  '1245188': Pen Rasyd Melyn
+  '1245189': Pen Rasyd Leim
+  '1245190': Pen Rasyd Pinc
+  '1245191': Pen Rasyd Llwyd
+  '1245192': Pen Rasyd Llwyd Golau
+  '1245193': Pen Rasyd Gwyrddlas
+  '1245194': Pen Rasyd Porffor
+  '1245195': Pen Rasyd Glas
+  '1245196': Pen Rasyd Brown
+  '1245197': Pen Rasyd Gwyrdd
+  '1245198': Pen Rasyd Coch
+  '1245199': Pen Rasyd Du
+  '1310720': Per Bend Gwyn o Chwith
+  '1310721': Per Bend Oren o Chwith
+  '1310722': Per Bend Majenta o Chwith
+  '1310723': Per Bend Glas Golau o Chwith
+  '1310724': Per Bend Melyn o Chwith
+  '1310725': Per Bend Leim o Chwith
+  '1310726': Per Bend Pinc o Chwith
+  '1310727': Per Bend Llwyd o Chwith
+  '1310728': Per Bend Llwyd Golau o Chwith
+  '1310729': Per Bend Gwyrddlas o Chwith
+  '1310730': Per Bend Porffor o Chwith
+  '1310731': Per Bend Glas o Chwith
+  '1310732': Per Bend Brown o Chwith
+  '1310733': Per Bend Gwyrdd o Chwith
+  '1310734': Per Bend Coch o Chwith
+  '1310735': Per Bend Du o Chwith
+  '1376256': Per Bend Gwyn Gwrthdroëdig o Chwith
+  '1376257': Per Bend Oren Gwrthdroëdig o Chwith
+  '1376258': Per Bend Majenta Gwrthdroëdig o Chwith
+  '1376259': Per Bend Glas Golau Gwrthdroëdig o Chwith
+  '1376260': Per Bend Melyn Gwrthdroëdig o Chwith
+  '1376261': Per Bend Leim Gwrthdroëdig o Chwith
+  '1376262': Per Bend Pinc Gwrthdroëdig o Chwith
+  '1376263': Per Bend Llwyd Gwrthdroëdig o Chwith
+  '1376264': Per Bend Llwyd Golau Gwrthdroëdig o Chwith
+  '1376265': Per Bend Gwyrddlas Gwrthdroëdig o Chwith
+  '1376266': Per Bend Porffor Gwrthdroëdig o Chwith
+  '1376267': Per Bend Glas Gwrthdroëdig o Chwith
+  '1376268': Per Bend Brown Gwrthdroëdig o Chwith
+  '1376269': Per Bend Gwyrdd Gwrthdroëdig o Chwith
+  '1376270': Per Bend Coch Gwrthdroëdig o Chwith
+  '1376271': Per Bend Du Gwrthdroëdig o Chwith
+  '1441792': Per Bend Gwyn Gwrthdroëdig
+  '1441793': Per Bend Oren Gwrthdroëdig
+  '1441794': Per Bend Majenta Gwrthdroëdig
+  '1441795': Per Bend Glas Golau Gwrthdroëdig
+  '1441796': Per Bend Melyn Gwrthdroëdig
+  '1441797': Per Bend Leim Gwrthdroëdig
+  '1441798': Per Bend Pinc Gwrthdroëdig
+  '1441799': Per Bend Llwyd Gwrthdroëdig
+  '1441800': Per Bend Llwyd Golau Gwrthdroëdig
+  '1441801': Per Bend Gwyrddlas Gwrthdroëdig
+  '1441802': Per Bend Porffor Gwrthdroëdig
+  '1441803': Per Bend Glas Gwrthdroëdig
+  '1441804': Per Bend Brown Gwrthdroëdig
+  '1441805': Per Bend Gwyrdd Gwrthdroëdig
+  '1441806': Per Bend Coch Gwrthdroëdig
+  '1441807': Per Bend Du Gwrthdroëdig
+  '1507328': Per Bend Gwyn
+  '1507329': Per Bend Oren
+  '1507330': Per Bend Majenta
+  '1507331': Per Bend Glas Golau
+  '1507332': Per Bend Melyn
+  '1507333': Per Bend Leim
+  '1507334': Per Bend Pinc
+  '1507335': Per Bend Llwyd
+  '1507336': Per Bend Llwyd Golau
+  '1507337': Per Bend Gwyrddlas
+  '1507338': Per Bend Porffor
+  '1507339': Plyg Cornel Glas
+  '1507340': Per Bend Brown
+  '1507341': Per Bend Gwyrdd
+  '1507342': Per Bend Coch
+  '1507343': Per Bend Du
+  '1572864': Pelet Gwyn
+  '1572865': Pelet Oren
+  '1572866': Pelet Majenta
+  '1572867': Pelet Glas Golau
+  '1572868': Pelet Melyn
+  '1572869': Pelet Leim
+  '1572870': Pelet Pinc
+  '1572871': Pelet Llwyd
+  '1572872': Pelet Llwyd Golau
+  '1572873': Pelet Gwyrddlas
+  '1572874': Pelet Porffor
+  '1572875': Pelet Glas
+  '1572876': Pelet Brown
+  '1572877': Pelet Gwyrdd
+  '1572878': Pelet Coch
+  '1572879': Pelet Du
+  '1638400': Sgwâr Gwyn
+  '1638401': Sgwâr Oren
+  '1638402': Sgwâr Majenta
+  '1638403': Sgwâr Glas Golau
+  '1638404': Sgwâr Melyn
+  '1638405': Sgwâr Leim
+  '1638406': Sgwâr Pinc
+  '1638407': Sgwâr Llwyd
+  '1638408': Sgwâr Llwyd Golau
+  '1638409': Sgwâr Gwyrddlas
+  '1638410': Sgwâr Porffor
+  '1638411': Sgwâr Glas
+  '1638412': Sgwâr Brown
+  '1638413': Sgwâr Gwyrdd
+  '1638414': Sgwâr Coch
+  '1638415': Sgwâr Du
+  '1703936': Cledr Wyn
+  '1703937': Cledr Oren
+  '1703938': Cledr Majenta
+  '1703939': Cledr Las Golau
+  '1703940': Cledr Felyn
+  '1703941': Cledr Leim
+  '1703942': Cledr Binc
+  '1703943': Cledr Lwyd
+  '1703944': Cledr Lwydd Golau
+  '1703945': Cledr Wyrddlas
+  '1703946': Cledr Borffor
+  '1703947': Cledr Las
+  '1703948': Cledr Frown
+  '1703949': Cledr Wyrdd
+  '1703950': Cledr Goch
+  '1703951': Cledr Ddu
+  '1769472': Per Bar Gwyn
+  '1769473': Per Bar Oren
+  '1769474': Per Bar Majenta
+  '1769475': Per Bar Glas Golau
+  '1769476': Per Bar Melyn
+  '1769477': Per Bar Leim
+  '1769478': Per Bar Pinc
+  '1769479': Per Bar Llwyd
+  '1769480': Per Bar Llwyd Golau
+  '1769481': Per Bar Gwyrddlas
+  '1769482': Per Bar Porffor
+  '1769483': Per Bar Glas
+  '1769484': Per Bar Brown
+  '1769485': Per Bar Gwyrdd
+  '1769486': Per Bar Coch
+  '1769487': Per Bar Du
+  '1835008': Per Pâl Gwyn Gwrthdroëdig
+  '1835009': Per Pâl Oren Gwrthdroëdig
+  '1835010': Per Pâl Majenta Gwrthdroëdig
+  '1835011': Per Pâl Glas Golau Gwrthdroëdig
+  '1835012': Per Pâl Melyn Gwrthdroëdig
+  '1835013': Per Pâl Leim Gwrthdroëdig
+  '1835014': Per Pâl Pinc Gwrthdroëdig
+  '1835015': Per Pâl Llwyd Gwrthdroëdig
+  '1835016': Per Pâl Llwyd Golau Gwrthdroëdig
+  '1835017': Per Pâl Gwyrddlas Gwrthdroëdig
+  '1835018': Per Pâl Porffor Gwrthdroëdig
+  '1835019': Per Pâl Glas Gwrthdroëdig
+  '1835020': Per Pâl Brown Gwrthdroëdig
+  '1835021': Per Pâl Gwyrdd Gwrthdroëdig
+  '1835022': Per Pâl Coch Gwrthdroëdig
+  '1835023': Per Pâl Du Gwrthdroëdig
+  '1900544': Per Bar Gwyn Gwrthdroëdig
+  '1900545': Per Bar Oren Gwrthdroëdig
+  '1900546': Per Bar Majenta Gwrthdroëdig
+  '1900547': Per Bar Glas Golau Gwrthdroëdig
+  '1900548': Per Bar Melyn Gwrthdroëdig
+  '1900549': Per Bar Leim Gwrthdroëdig
+  '1900550': Per Bar Pinc Gwrthdroëdig
+  '1900551': Per Bar Llwyd Gwrthdroëdig
+  '1900552': Per Bar Llwyd Golau Gwrthdroëdig
+  '1900553': Per Bar Gwyrddlas Gwrthdroëdig
+  '1900554': Per Bar Porffor Gwrthdroëdig
+  '1900555': Per Bar Glas Gwrthdroëdig
+  '1900556': Per Bar Brown Gwrthdroëdig
+  '1900557': Per Bar Gwyrdd Gwrthdroëdig
+  '1900558': Per Bar Coch Gwrthdroëdig
+  '1900559': Per Bar Du Gwrthdroëdig
+  '1966080': Bordor Gwyn
+  '1966081': Bordor Oren
+  '1966082': Bordor Majenta
+  '1966083': Bordor Glas Golau
+  '1966084': Bordor Melyn
+  '1966085': Bordor Leim
+  '1966086': Bordor Pinc
+  '1966087': Bordor Llwyd
+  '1966088': Bordor Llwyd Golau
+  '1966089': Bordor Gwyrddlas
+  '1966090': Bordor Porffor
+  '1966091': Bordor Glas
+  '1966092': Bordor Brown
+  '1966093': Bordor Gwyrdd
+  '1966094': Bordor Coch
+  '1966095': Bordor Du
+  '2031616': Bordor Gwyn Gwrthdroëdig
+  '2031617': Bordor Oren Gwrthdroëdig
+  '2031618': Bordor Majenta Rasyd
+  '2031619': Bordor Glas Golau Rasyd
+  '2031620': Bordor Melyn Rasyd
+  '2031621': Bordor Leim Rasyd
+  '2031622': Bordor Pinc Rasyd
+  '2031623': Bordor Llwyd Rasyd
+  '2031624': Bordor Llwyd Golau Rasyd
+  '2031625': Bordor Gwyrddlas Rasyd
+  '2031626': Bordor Porffor Rasyd
+  '2031627': Bordor Glas Rasyd
+  '2031628': Bordor Brown Rasyd
+  '2031629': Bordor Gwyrdd Rasyd
+  '2031630': Bordor Coch Rasyd
+  '2031631': Bordor Du Rasyd
+  '2097152': Luws Crîpyr Gwyn
+  '2097153': Luws Crîpyr Oren
+  '2097154': Luws Crîpyr Majenta
+  '2097155': Luws Crîpyr Glas Golau
+  '2097156': Luws Crîpyr Melyn
+  '2097157': Luws Crîpyr Leim
+  '2097158': Luws Crîpyr Pinc
+  '2097159': Luws Crîpyr Llwyd
+  '2097160': Luws Crîpyr Llwyd Golau
+  '2097161': Luws Crîpyr Gwyrddlas
+  '2097162': Luws Crîpyr Porffor
+  '2097163': Luws Crîpyr Glas
+  '2097164': Luws Crîpyr Brown
+  '2097165': Luws Crîpyr Gwyrdd
+  '2097166': Luws Crîpyr Coch
+  '2097167': Luws Crîpyr Du
+  '2162688': Graddiant Gwyn
+  '2162689': Graddiant Oren
+  '2162690': Graddiant Majenta
+  '2162691': Graddiant Glas Golau
+  '2162692': Graddiant Melyn
+  '2162693': Graddiant Leim
+  '2162694': Graddiant Pinc
+  '2162695': Graddiant Llwyd
+  '2162696': Graddiant Llwyd Golau
+  '2162697': Graddiant Gwyrddlas
+  '2162698': Graddiant Porffor
+  '2162699': Graddiant Glas
+  '2162700': Graddiant Brown
+  '2162701': Graddiant Gwyrdd
+  '2162702': Graddiant Coch
+  '2162703': Graddiant Du
+  '2228224': Graddiant Sail Gwyn
+  '2228225': Graddiant Sail Oren
+  '2228226': Graddiant Sail Majenta
+  '2228227': Graddiant Sail Glas Golau
+  '2228228': Graddiant Sail Melyn
+  '2228229': Graddiant Sail Leim
+  '2228230': Graddiant Sail Pinc
+  '2228231': Graddiant Sail Llwyd
+  '2228232': Graddiant Sail Llwydd Golau
+  '2228233': Graddiant Sail Gwyrddlas
+  '2228234': Graddiant Sail Porffor
+  '2228235': Graddiant Sail Glas
+  '2228236': Graddiant Sail Brown
+  '2228237': Graddiant Sail Gwyrdd
+  '2228238': Graddiant Sail Coch
+  '2228239': Graddiant Sail Du
+  '2293760': Maes Saernïwyd Gwyn
+  '2293761': Maes Saernïwyd Oren
+  '2293762': Maes Saernïwyd Majenta
+  '2293763': Maes Saernïwyd Glas Golau
+  '2293764': Maes Saernïwyd Melyn
+  '2293765': Maes Saernïwyd Leim
+  '2293766': Maes Saernïwyd Pinc
+  '2293767': Maes Saernïwyd Llwyd
+  '2293768': Maes Saernïwyd Llwyd Golau
+  '2293769': Maes Saernïwyd Gwyrddlas
+  '2293770': Maes Saernïwyd Porffor
+  '2293771': Maes Saernïwyd Glas
+  '2293772': Maes Saernïwyd Brown
+  '2293773': Maes Saernïwyd Gwyrdd
+  '2293774': Maes Saernïwyd Coch
+  '2293775': Maes Saernïwyd Du
+  '2359296': Luws Penglog Gwyn
+  '2359297': Luws Penglog Oren
+  '2359298': Luws Penglog Majenta
+  '2359299': Luws Penglog Glas Golau
+  '2359300': Luws Penglog Melyn
+  '2359301': Luws Penglog Leim
+  '2359302': Luws Penglog Pinc
+  '2359303': Luws Penglog Llwyd
+  '2359304': Luws Penglog Llwyd Golau
+  '2359305': Luws Penglog Gwyrddlas
+  '2359306': Luws Penglog Porffor
+  '2359307': Luws Penglog Glas
+  '2359308': Luws Penglog Brown
+  '2359309': Luws Penglog Gwyrdd
+  '2359310': Luws Penglog Coch
+  '2359311': Luws Penglog Du
+  '2424832': Luws Blodyn Gwyn
+  '2424833': Luws Blodyn Oren
+  '2424834': Luws Blodyn Majenta
+  '2424835': Luws Blodyn Glas Golau
+  '2424836': Luws Blodyn Melyn
+  '2424837': Luws Blodyn Leim
+  '2424838': Luws Blodyn Pinc
+  '2424839': Luws Blodyn Llwyd
+  '2424840': Luws Blodyn Llwyd Golau
+  '2424841': Luws Blodyn Gwyrddlas
+  '2424842': Luws Blodyn Porffor
+  '2424843': Luws Blodyn Glas
+  '2424844': Luws Blodyn Brown
+  '2424845': Luws Blodyn Gwyrdd
+  '2424846': Luws Blodyn Coch
+  '2424847': Luws Blodyn Du
+  '2490368': Peth Gwyn
+  '2490369': Peth Oren
+  '2490370': Peth Majenta
+  '2490371': Peth Glas Golau
+  '2490372': Peth Melyn
+  '2490373': Peth Leim
+  '2490374': Peth Pinc
+  '2490375': Peth Llwyd
+  '2490376': Peth Llwyd Golau
+  '2490377': Peth Gwyrddlas
+  '2490378': Peth Porffor
+  '2490379': Peth Glas
+  '2490380': Peth Brown
+  '2490381': Peth Gwyrdd
+  '2490382': Peth Coch
+  '2490383': Peth Du
+  '2555904': Glôb Wen
+  '2555905': Glôb Oren
+  '2555906': Glôb Fajenta
+  '2555907': Glôb Las Golau
+  '2555908': Glôb Felen
+  '2555909': Glôb Leim
+  '2555910': Glôb Binc
+  '2555911': Glôb Lwyd
+  '2555912': Glôb Lwyd Golau
+  '2555913': Glôb Werddlas
+  '2555914': Glôb Borffor
+  '2555915': Glôb Las
+  '2555916': Glôb Frown
+  '2555917': Glôb Werdd
+  '2555918': Glôb Goch
+  '2555919': Glôb Ddu
+  '2621440': Trwyn Gwyn
+  '2621441': Trwyn Oren
+  '2621442': Trwyn Majenta
+  '2621443': Trwyn Glas Golau
+  '2621444': Trwyn Melyn
+  '2621445': Trwyn Leim
+  '2621446': Trwyn Pinc
+  '2621447': Trwyn Llwyd
+  '2621448': Trwyn Llwyd Golau
+  '2621449': Trwyn Gwyrddlas
+  '2621450': Trwyn Porffor
+  '2621451': Trwyn Glas
+  '2621452': Trwyn Brown
+  '2621453': Trwyn Gwyrdd
+  '2621454': Trwyn Coch
+  '2621455': Trwyn Du
+merchant_level:
+  '1': Nofis
+  '2': Prentis
+  '3': Crefftwr
+  '4': Arbenigwr
+  '5': Meistr
+villager_profession:
+  none: Pentrefwr
+  armorer: Arfogwr
+  butcher: Cigydd
+  cartographer: Cartograffydd
+  cleric: Offeiriad
+  farmer: Ffermwr
+  fisherman: Pysgotwr
+  fletcher: Saer Saethau
+  leatherworker: Gweithiwr Lledr
+  librarian: Llyfrgellydd
+  mason: Saer Maen
+  nitwit: Twpsyn
+  shepherd: Bugail
+  toolsmith: Gof Teclynau
+  weaponsmith: Gof Arfau
+villager_career:
+  farmer: Ffermwr
+  fisherman: Pysgotwr
+  shepherd: Bugail
+  fletcher: Saethweithiwr
+  librarian: Llyfrgellydd
+  cartographer: Cartograffydd
+  cleric: Clerigwr
+  armorer: Arfogwr
+  weapon_smith: Gof Arfau
+  tool_smith: Gof Offer
+  butcher: Cigydd
+  leatherworker: Gweithiwr Lledr
+  nitwit: Twpsyn

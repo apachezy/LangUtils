@@ -148,12 +148,12 @@ public class LanguageHelper {
     //region getEntityName
     @NotNull
     public static String getEntityName(@NotNull Entity entity, @NotNull String locale) {
-        EntityType type = entity.getType();
-        if (type == EntityType.UNKNOWN) {
-            String result = Named.UNKNOWN_ENTITY.getLocalized(locale);
-            return String.format(result, entity.getEntityId());
+        String name = LangUtils.entityStorage.getEntry(locale, entity.getType());
+        if (name == null) {
+            String temp = Named.UNKNOWN_ENTITY.getLocalized(locale);
+            name = String.format(temp, entity.getEntityId() + "(" + entity.getType() + ")");
         }
-        return LangUtils.entityStorage.getEntry(locale, type);
+        return name;
     }
 
     @NotNull
@@ -163,11 +163,12 @@ public class LanguageHelper {
 
     @NotNull
     public static String getEntityName(@NotNull EntityType entityType, @NotNull String locale) {
-        if (entityType == EntityType.UNKNOWN) {
-            String localized = Named.UNKNOWN_ENTITY.getLocalized(locale);
-            return String.format(localized, entityType.name());
+        String name = LangUtils.entityStorage.getEntry(locale, entityType);
+        if (name == null) {
+            String temp = Named.UNKNOWN_ENTITY.getLocalized(locale);
+            name = String.format(temp, entityType);
         }
-        return LangUtils.entityStorage.getEntry(locale, entityType);
+        return name;
     }
 
     @NotNull
@@ -197,7 +198,12 @@ public class LanguageHelper {
     //region getEnchantmentName
     @NotNull
     public static String getEnchantmentName(@NotNull Enchantment enchant, @NotNull String locale) {
-        return LangUtils.enchantStorage.getEntry(locale, enchant);
+        String name = LangUtils.enchantStorage.getEntry(locale, enchant);
+        if (name == null) {
+            String temp = Named.UNKNOWN_ENCHANTMENT.getLocalized(locale);
+            name = String.format(temp, enchant.getKey().getKey());
+        }
+        return name;
     }
 
     @NotNull
@@ -281,7 +287,12 @@ public class LanguageHelper {
     //region getPotionEffectName
     @NotNull
     public static String getPotionEffectName(@NotNull PotionEffectType effectType, @NotNull String locale) {
-        return LangUtils.effectStorage.getEntry(locale, effectType);
+        String name = LangUtils.effectStorage.getEntry(locale, effectType);
+        if (name == null) {
+            String temp = Named.UNKNOWN_EFFECT.getLocalized(locale);
+            name = String.format(temp, effectType.getName());
+        }
+        return name;
     }
 
     @NotNull
@@ -377,12 +388,14 @@ public class LanguageHelper {
     //endregion
 
     //region getVillagerLevelName
+    /** Minecraft version 1.14 or above can be used. **/
     @NotNull
     public static String getVillagerLevelName(int level, @NotNull String locale) {
         String result = LangUtils.villagerLevelStorage.getEntry(locale, level);
         return result == null ? "merchant.level." + level : result;
     }
 
+    /** Minecraft version 1.14 or above can be used. **/
     @NotNull
     public static String getVillagerLevelName(int level, @NotNull Player player) {
         return getVillagerLevelName(level, player.getLocale());
@@ -390,11 +403,13 @@ public class LanguageHelper {
     //endregion
 
     //region getVillagerProfessionName
+    /** Minecraft version 1.14 or above can be used. **/
     @NotNull
     public static String getVillagerProfessionName(@NotNull Profession profession, @NotNull String locale) {
         return LangUtils.professionStorage.getEntry(locale, profession);
     }
 
+    /** Version 1.14 or above can be used. **/
     @NotNull
     public static String getVillagerProfessionName(@NotNull Profession profession, @NotNull Player player) {
         return getVillagerProfessionName(profession, player.getLocale());
@@ -402,11 +417,13 @@ public class LanguageHelper {
     //endregion
 
     //region getVillagerCareerName
+    /** Only Minecraft version 1.13 can be used. **/
     @NotNull
     public static String getVillagerCareerName(@NotNull Career career, @NotNull String locale) {
         return LangUtils.villagerCareerStorage.getEntry(locale, career);
     }
 
+    /** Only Minecraft version 1.13 can be used. **/
     @NotNull
     public static String getVillagerCareerName(@NotNull Career career, @NotNull Player player) {
         return getVillagerCareerName(career, player.getLocale());

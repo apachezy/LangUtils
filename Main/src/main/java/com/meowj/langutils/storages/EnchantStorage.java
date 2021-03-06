@@ -45,11 +45,4 @@ public class EnchantStorage extends Storage<Enchantment> {
         return entries;
     }
 
-    @Override
-    @NotNull
-    public String getEntry(@NotNull String locale, @NotNull Enchantment enchant) {
-        String result = super.getEntry(locale, enchant);
-        return result == null ? enchant.getKey().toString() : result;
-    }
-
 }

@@ -1,0 +1,2066 @@
+# ####################################################
+# Build time: 2021-03-06 14:47:26                    #
+# ####################################################
+language:
+  code: br_fr
+  name: Brezhoneg
+  region: Breizh
+material:
+  air: Aer
+  stone: Roc'h
+  granite: Greunit
+  polished_granite: Greunit lufret
+  diorite: Diorit
+  polished_diorite: Diorit lufret
+  andesite: Andezit
+  polished_andesite: Andezit lufret
+  grass_block: Bloc'h geot
+  dirt: Douar
+  coarse_dirt: Douar losket
+  podzol: Podzol
+  cobblestone: Maen
+  oak_planks: Plankennoù derv
+  spruce_planks: Plankennoù pruñs
+  birch_planks: Plankennoù bezv
+  jungle_planks: Plankennoù koad janglenn
+  acacia_planks: Plankennoù kasia
+  dark_oak_planks: Plankennoù derv teñval
+  oak_sapling: Strujenn zerv
+  spruce_sapling: Strujenn bruñs
+  birch_sapling: Strujenn vezv
+  jungle_sapling: Strujenn janglenn
+  acacia_sapling: Strujenn gasia
+  dark_oak_sapling: Strujenn derv teñval
+  bedrock: Roc'h-gwele
+  sand: Traezh
+  red_sand: Traezh ruz
+  gravel: Grouan
+  gold_ore: Kailh aour
+  iron_ore: Kailh houarn
+  coal_ore: Kailh glaou
+  oak_log: Kef derv
+  spruce_log: Kef pruñs
+  birch_log: Kef bezv
+  jungle_log: Kef koad janglenn
+  acacia_log: Kef kasia
+  dark_oak_log: Etev derv teñval
+  stripped_oak_log: Etev derv dirusket
+  stripped_spruce_log: Etev pruñs dirusket
+  stripped_birch_log: Kef bezv dirusket
+  stripped_jungle_log: Kef koad janglenn dirusket
+  stripped_acacia_log: Kef kasia dirusket
+  stripped_dark_oak_log: Kef derv teñval dirusket
+  stripped_oak_wood: Koad derv dirusket
+  stripped_spruce_wood: Koad pruñs dirusket
+  stripped_birch_wood: Koad bezv dirusket
+  stripped_jungle_wood: Koad janglenn dirusket
+  stripped_acacia_wood: Koad kasia dirusket
+  stripped_dark_oak_wood: Koad derv teñval dirusket
+  stripped_warped_hyphae: Hifennoù Roudennek ha Disleberet
+  oak_wood: Koad derv
+  spruce_wood: Koad pruñs
+  birch_wood: Koad bezv
+  jungle_wood: Koad Janglenn
+  acacia_wood: Koad kasia
+  dark_oak_wood: Koad derv teñval
+  oak_leaves: Delioù derv
+  spruce_leaves: Delioù pruñs
+  birch_leaves: Delioù bezv
+  jungle_leaves: Delioù janglenn
+  acacia_leaves: Delioù kasia
+  dark_oak_leaves: Delioù derv teñval
+  sponge: Spoue
+  wet_sponge: Spoueenn c'hleb
+  glass: Gwerenn
+  lapis_ore: Kailh Lapis Lazuli
+  lapis_block: Bloc'h Lapis-Lazuli
+  dispenser: Tennerez
+  sandstone: Maen-traezh
+  chiseled_sandstone: Maen-traezh sizailhet
+  cut_sandstone: Maen-traezh sizailhet
+  note_block: Bloc'h notenn
+  powered_rail: Hent-houarn galloudus
+  detector_rail: Hent-houarn dinoer
+  sticky_piston: Bountell begus
+  cobweb: Gwiad kevnidenn
+  grass: Geot
+  fern: Raden
+  dead_bush: Bochad gwez marv
+  seagrass: Geot mor
+  sea_pickle: Gwerc'heot
+  piston: Bountell
+  white_wool: Gloan Gwenn
+  orange_wool: Gloan orañjez
+  magenta_wool: Gloan majenta
+  light_blue_wool: Gloan glas-sklaer
+  yellow_wool: Glan melen
+  lime_wool: Gloan gwer-melen
+  pink_wool: Gloan roz
+  gray_wool: Gloan griz
+  light_gray_wool: Gloan griz sklaer
+  cyan_wool: Gloan sian
+  purple_wool: Gloan mouk
+  blue_wool: Gloan glas
+  brown_wool: Gloan gell
+  green_wool: Gloan gwer
+  red_wool: Gloan ruz
+  black_wool: Gloan du
+  dandelion: C'hwervizon
+  poppy: Rozenn-moc'h
+  blue_orchid: Orkideenn c'hlas
+  allium: Allium
+  azure_bluet: Houstonia
+  red_tulip: Tulipezenn ruz
+  orange_tulip: Tulipezenn orañjez
+  white_tulip: Tulipezenn wenn
+  pink_tulip: Tulipezenn roz
+  oxeye_daisy: Marc'harid
+  cornflower: Glizinenn
+  lily_of_the_valley: Louzaouenn-an-hañv
+  wither_rose: Rozenn Wither
+  brown_mushroom: Kabell-touseg gell
+  red_mushroom: Kabell-touseg ruz
+  sugar_cane: Korzenn sukr
+  kelp: Bezhin
+  bamboo: Bambouz
+  gold_block: Bloc'h aour
+  iron_block: Bloc'h houarn
+  oak_slab: Dar derv
+  spruce_slab: Dar pruñs
+  birch_slab: Dar bezv
+  jungle_slab: Dar koad janglenn
+  acacia_slab: Dar kasia
+  dark_oak_slab: Dar derv teñval
+  stone_slab: Dar roc'h
+  smooth_stone_slab: Dar roc'h plaen
+  sandstone_slab: Dar maen-traezh
+  cut_sandstone_slab: Troc'hañ an dar maen-traezh
+  petrified_oak_slab: Dar derv maenaet
+  cobblestone_slab: Dar maen
+  brick_slab: Dar brikenn
+  stone_brick_slab: Dar brikenn vaen
+  nether_brick_slab: Dar brikennoù Nether
+  quartz_slab: Dar kouarz
+  red_sandstone_slab: Dar maen-traezh ruz
+  cut_red_sandstone_slab: Troc'hañ an dar maen-traezh ruz
+  purpur_slab: Dar purpur
+  prismarine_slab: Dar prismarine
+  prismarine_brick_slab: Dar brikenn Prismarine
+  dark_prismarine_slab: Dar prismarine teñval
+  smooth_red_sandstone: Maen-traezh ruz lintr
+  smooth_sandstone: Maen-traezh lintr
+  smooth_stone: Roc'h plaen
+  bricks: Brikennoù
+  tnt: TNT
+  bookshelf: Levraoueg
+  mossy_cobblestone: Roc'h man
+  obsidian: Obsidian
+  torch: Etev-gouloù
+  end_rod: Bazh an End
+  chorus_plant: Plant korus
+  chorus_flower: Bleunienn gorus
+  purpur_block: Bloc'h purpur
+  purpur_pillar: Peul purpur
+  purpur_stairs: Diri purpur
+  spawner: Ganerez
+  oak_stairs: Diri derv
+  chest: Arc'h
+  diamond_ore: Kailh diamant
+  diamond_block: Bloc'h diamant
+  crafting_table: Taol aozañ
+  farmland: Douar labouret
+  furnace: Forn
+  ladder: Skeul
+  rail: Hent-houarn
+  cobblestone_stairs: Diri maen
+  lever: Loc'henn
+  stone_pressure_plate: Plakenn gwask maen
+  oak_pressure_plate: Plakenn gwask derv
+  spruce_pressure_plate: Plakenn wask pruñs
+  birch_pressure_plate: Plakenn wask bezv
+  jungle_pressure_plate: Plakenn wask koad janglenn
+  acacia_pressure_plate: Plakenn wask kasia
+  dark_oak_pressure_plate: Plakenn wask derv teñval
+  redstone_ore: Kailh Redstone
+  redstone_torch: Etev-gouloù Redstone
+  snow: Erc'h
+  ice: Skorn
+  snow_block: Bloc'h erc'h
+  cactus: Kaktus
+  clay: Pri
+  jukebox: Jukebox
+  oak_fence: Kloued derv
+  spruce_fence: Kloued pruñs
+  birch_fence: Kloued bezv
+  jungle_fence: Kloued janglenn
+  acacia_fence: Kloued kasia
+  dark_oak_fence: Kloued derv teñval
+  pumpkin: Sitrouilhezenn
+  carved_pumpkin: Sitrouilhezenn kizellet
+  netherrack: Netherrack
+  soul_sand: Traezh an Ene
+  glowstone: Maen lufrus
+  jack_o_lantern: Sitrouilhezenn-letern
+  oak_trapdoor: Dor trap derv
+  spruce_trapdoor: Trap bruñs
+  birch_trapdoor: Trap bezv
+  jungle_trapdoor: Trap koad janglenn
+  acacia_trapdoor: Trap kasia
+  dark_oak_trapdoor: Trap derv teñval
+  infested_stone: Roc'h gwastet
+  infested_cobblestone: Maen gwastet
+  infested_stone_bricks: Brikennoù roc'h gwastet
+  infested_mossy_stone_bricks: Brikennoù roc'h man gwastet
+  infested_cracked_stone_bricks: Brikennoù roc'h faotet gwastet
+  infested_chiseled_stone_bricks: Brikennoù roc'h sizailhet gwastet
+  stone_bricks: Brikennoù roc'h
+  mossy_stone_bricks: Brikennoù roc'h man
+  cracked_stone_bricks: Brikennoù roc'h torret
+  chiseled_stone_bricks: Brikennoù roc'h sizailhet
+  brown_mushroom_block: Bloc'h kabell-touseg gell
+  red_mushroom_block: Bloc'h kabell-touseg du
+  mushroom_stem: Troad kabell-touseg
+  iron_bars: Barrennoù houarn
+  chain: Chadenn
+  glass_pane: Gwerenn
+  melon: Sukrinenn
+  vine: Lianennoù
+  oak_fence_gate: Dorikell derv
+  spruce_fence_gate: Dorikell pruñs
+  birch_fence_gate: Dorikell bezv
+  jungle_fence_gate: Dorikell janglenn
+  acacia_fence_gate: Dorikell gwez kasia
+  dark_oak_fence_gate: Dorikell derv teñval
+  brick_stairs: Diri brikennoù
+  stone_brick_stairs: Diri brikennoù roc'h
+  mycelium: Mikeliom
+  lily_pad: Loa-zour
+  nether_bricks: Brikennoù Nether
+  nether_brick_fence: Kloued brikenn Nether
+  nether_brick_stairs: Diri brikenn Nether
+  enchanting_table: Taol strobinellerezh
+  end_portal_frame: Steuñv dor-dal an End
+  end_stone: Roc'h an End
+  end_stone_bricks: Brikennoù roc'h an End
+  dragon_egg: Vi aerouant
+  redstone_lamp: Gouloù Redstone
+  sandstone_stairs: Diri maen-traezh
+  emerald_ore: Kailh emrodez
+  ender_chest: Arc'h an End
+  tripwire_hook: Krog neudenn ziaskañ
+  emerald_block: Bloc'h emrodez
+  spruce_stairs: Diri pruñs
+  birch_stairs: Diri bezv
+  jungle_stairs: Diri koad janglenn
+  command_block: Bloc'h urzh
+  beacon: Balizenn
+  cobblestone_wall: Moger maen
+  mossy_cobblestone_wall: Moger maen man
+  brick_wall: Moger brikennoù
+  prismarine_wall: Moger Prismarine
+  red_sandstone_wall: Moger maen-traezh ruz
+  mossy_stone_brick_wall: Moger brikennoù roc'h manek
+  granite_wall: Moger greunit
+  stone_brick_wall: Moger brikennoù roc'h
+  nether_brick_wall: Moger brikennoù Nether
+  andesite_wall: Moger andezit
+  red_nether_brick_wall: Moger brikennoù ruz an Nether
+  sandstone_wall: Moger maen-traezh
+  end_stone_brick_wall: Moger brikennoù roc'h an End
+  diorite_wall: Moger diorit
+  stone_button: Bouton koad
+  oak_button: Bouton derv
+  spruce_button: Afell bruñs
+  birch_button: Bouton vezv
+  jungle_button: Bouton koad janglenn
+  acacia_button: Bouton kasia
+  dark_oak_button: Bouton derv teñval
+  anvil: Annev
+  chipped_anvil: Annev boulc'het
+  damaged_anvil: Annev gwallaozet
+  trapped_chest: Arc'h trapet
+  light_weighted_pressure_plate: Plakenn gwask skañv pouezet
+  heavy_weighted_pressure_plate: Plakenn gwask pounner pouezet
+  daylight_detector: Dinoer gouloù an deiz
+  redstone_block: Bloc'h Redstone
+  nether_quartz_ore: Kailh kouarz an Nether
+  hopper: Founilh
+  chiseled_quartz_block: Bloc'h kouarz sizailhet
+  quartz_block: Bloc'h kouarz
+  quartz_pillar: Peul kouarz
+  quartz_stairs: Diri kouarz
+  activator_rail: Hent-houarn gweredekaer
+  dropper: Ingalerez
+  white_terracotta: Pri poazh gwenn
+  orange_terracotta: Pri poazh orañjez
+  magenta_terracotta: Pri poazh majenta
+  light_blue_terracotta: Pri poazh glas sklaer
+  yellow_terracotta: Pri poazh melen
+  lime_terracotta: Pri poazh gwer-melen
+  pink_terracotta: Pri Poazh roz
+  gray_terracotta: Priz poazh griz
+  light_gray_terracotta: Priz Poazh griz sklaer
+  cyan_terracotta: Pri poazh sian
+  purple_terracotta: Pri poazh mouk
+  blue_terracotta: Pri poazh glas
+  brown_terracotta: Pri poazh gell
+  green_terracotta: Pri poazh gwer
+  red_terracotta: Pri poazh ruz
+  black_terracotta: Pri poazh du
+  barrier: Harz
+  iron_trapdoor: Trap houarn
+  hay_block: Boutelenn blouz
+  white_carpet: Tapis Gwenn
+  orange_carpet: Pallenn orañjez
+  magenta_carpet: Pallenn majenta
+  light_blue_carpet: Pallenn c'hlas sklaer
+  yellow_carpet: Pallenn melen
+  lime_carpet: Pallenn gwer-melen
+  pink_carpet: Pallenn roz
+  gray_carpet: Pallenn griz
+  light_gray_carpet: Pallenn griz sklaer
+  cyan_carpet: Pallenn sian
+  purple_carpet: Pallenn mouk
+  blue_carpet: Pallenn c'hlas
+  brown_carpet: Pallenn c'hell
+  green_carpet: Pallenn wer
+  red_carpet: Pallenn ruz
+  black_carpet: Pallenn du
+  terracotta: Pri poazh
+  coal_block: Bloc'h glaou
+  packed_ice: Pakad skorn
+  acacia_stairs: Diri kasia
+  dark_oak_stairs: Diri derv teñval
+  slime_block: Bloc'h slime
+  grass_path: Hent geot
+  sunflower: Tro-heol
+  lilac: Lireu
+  rose_bush: Bod-roz
+  peony: Pivoena
+  tall_grass: Geot hir
+  large_fern: Radenenn vras
+  white_stained_glass: Gwer tarchet gwenn
+  orange_stained_glass: Gwer tarchet orañjez
+  magenta_stained_glass: Gwer tarchet majenta
+  light_blue_stained_glass: Gwer tarchet glas sklaer
+  yellow_stained_glass: Gwer tarchet melen
+  lime_stained_glass: Gwer tarchet gwer-melen
+  pink_stained_glass: Gwer tarchet roz
+  gray_stained_glass: Gwer tarchet gris
+  light_gray_stained_glass: Gwer tarchet gris sklaer
+  cyan_stained_glass: Gwer tarchet sian
+  purple_stained_glass: Gwer tarchet mouk
+  blue_stained_glass: Gwer tarchet glas
+  brown_stained_glass: Gwer tarchet gell
+  green_stained_glass: Gwer tarchet gwer
+  red_stained_glass: Gwer tarchet ruz
+  black_stained_glass: Gwer tarchet du
+  white_stained_glass_pane: Gwerenn wenn
+  orange_stained_glass_pane: Gwerenn orañjez
+  magenta_stained_glass_pane: Gwerenn vajenta
+  light_blue_stained_glass_pane: Gwerenn glas sklaer
+  yellow_stained_glass_pane: Gwerenn velen
+  lime_stained_glass_pane: Gwerenn gwer sklaer
+  pink_stained_glass_pane: Gwerenn roz
+  gray_stained_glass_pane: Gwerenn griz
+  light_gray_stained_glass_pane: Gwerenn griz sklaer
+  cyan_stained_glass_pane: Gwerenn sian
+  purple_stained_glass_pane: Gwerenn mouk
+  blue_stained_glass_pane: Gwerenn glas
+  brown_stained_glass_pane: Gwerenn gell
+  green_stained_glass_pane: Gwerenn wer
+  red_stained_glass_pane: Gwerenn ruz
+  black_stained_glass_pane: Gwerenn zu
+  prismarine: Prismarine
+  prismarine_bricks: Brikennoù Prismarine
+  dark_prismarine: Prismarine teñval
+  prismarine_stairs: Diri prismarine
+  prismarine_brick_stairs: Diri brikenn prismarine
+  dark_prismarine_stairs: Diri prismarine teñval
+  sea_lantern: Letern mor
+  red_sandstone: Maen-traezh ruz
+  chiseled_red_sandstone: Maen-traezh ruz sizailhet
+  cut_red_sandstone: Maen-traezh ruz sizailhet
+  red_sandstone_stairs: Diri maen-traezh ruz
+  repeating_command_block: Bloc'h adurzhiañ
+  chain_command_block: Boc'h chadenn urzhiañ
+  magma_block: Bloc'h magma
+  nether_wart_block: Bloc'h gwenaenn an Nether
+  red_nether_bricks: Brikennoù ruz an Nether
+  bone_block: Bloc'h eskern
+  structure_void: Goullonder frammad
+  observer: Arvester
+  shulker_box: Boest Shulker
+  white_shulker_box: Boest Shulker Gwenn
+  orange_shulker_box: Boest Shulker Orañjez
+  magenta_shulker_box: Boest Shulker Majenta
+  light_blue_shulker_box: Boest Shulker Glas-sklaer
+  yellow_shulker_box: Boest Shulker Melen
+  lime_shulker_box: Boest Shulker Gwer-sklaer
+  pink_shulker_box: Boest Shulker Roz
+  gray_shulker_box: Boest Shulker Gris
+  light_gray_shulker_box: Boest Shulker Gris-sklaer
+  cyan_shulker_box: Boest Shulker Kian
+  purple_shulker_box: Boest Shulker Limestra
+  blue_shulker_box: Boest Shulker Glas
+  brown_shulker_box: Boest Shulker Gell
+  green_shulker_box: Boest Shulker Gwer
+  red_shulker_box: Boest Shulker Ruz
+  black_shulker_box: Boest Shulker Du
+  white_glazed_terracotta: Pri poazh gwerek gwenn
+  orange_glazed_terracotta: Pri poazh gwerek orañjez
+  magenta_glazed_terracotta: Pri poazh gwerek majenta
+  light_blue_glazed_terracotta: Pri poazh gwerek glas sklaer
+  yellow_glazed_terracotta: Pri poazh gwerek melen
+  lime_glazed_terracotta: Pri poazh gwerek gwer-melen
+  pink_glazed_terracotta: Pri poazh gwerek roz
+  gray_glazed_terracotta: Pri poazh gwerek griz
+  light_gray_glazed_terracotta: Pri poazh gwerek griz sklaer
+  cyan_glazed_terracotta: Pri poazh gwerek sian
+  purple_glazed_terracotta: Pri poazh gwerek mouk
+  blue_glazed_terracotta: Pri poazh gwerek glas
+  brown_glazed_terracotta: Pri poazh gwerek gel
+  green_glazed_terracotta: Pri poazh gwerek gwer
+  red_glazed_terracotta: Pri poazh gwerek ruz
+  black_glazed_terracotta: Pri poazh gwerek du
+  white_concrete: Beton gwenn
+  orange_concrete: Beton orañjez
+  magenta_concrete: Beton majenta
+  light_blue_concrete: Beton glas sklaer
+  yellow_concrete: Beton melen
+  lime_concrete: Beton gwer-melen
+  pink_concrete: Beton roz
+  gray_concrete: Beton griz
+  light_gray_concrete: Beton griz sklaer
+  cyan_concrete: Beton sian
+  purple_concrete: Beton mouk
+  blue_concrete: Beton glas
+  brown_concrete: Beton gel
+  green_concrete: Beton gwer
+  red_concrete: Beton ruz
+  black_concrete: Beton du
+  white_concrete_powder: Poultr beton gwenn
+  orange_concrete_powder: Poultr beton orañjez
+  magenta_concrete_powder: Poultr beton majenta
+  light_blue_concrete_powder: Poultr beton sian
+  yellow_concrete_powder: Poultr beton melen
+  lime_concrete_powder: Poultr beton gwer-melen
+  pink_concrete_powder: Poultr beton roz
+  gray_concrete_powder: Poultr beton griz
+  light_gray_concrete_powder: Poultr beton griz sklaer
+  cyan_concrete_powder: Poultr beton sian
+  purple_concrete_powder: Poultr beton mouk
+  blue_concrete_powder: Poultr beton glas
+  brown_concrete_powder: Poultr beton gel
+  green_concrete_powder: Poultr beton gwer
+  red_concrete_powder: Poultr beton ruz
+  black_concrete_powder: Poultr breton du
+  turtle_egg: Vi baot
+  dead_tube_coral_block: Bloc'h koural korzennek marv
+  dead_brain_coral_block: Bloc'h koural empenn marv
+  dead_bubble_coral_block: Bloc'h koural klogor marv
+  dead_fire_coral_block: Bloc'h koural tan marv
+  dead_horn_coral_block: Bloc'h koural kerniel marv
+  tube_coral_block: Bloc'h koural korzennek
+  brain_coral_block: Bloc'h koural empenn
+  bubble_coral_block: Bloc'h koural klogor
+  fire_coral_block: Bloc'h koural tan
+  horn_coral_block: Bloc'h koural kerniel
+  tube_coral: Koural korzennek
+  brain_coral: Koural empenn
+  bubble_coral: Koural klogor
+  fire_coral: Koural tan
+  horn_coral: Koural kerniel
+  dead_brain_coral: Koural empenn marv
+  dead_bubble_coral: Koural klogor marv
+  dead_fire_coral: Koural tan marv
+  dead_horn_coral: Koural kerniel marv
+  dead_tube_coral: Koural korzennek marv
+  tube_coral_fan: Aveler koural korzennek
+  brain_coral_fan: Aveler koural empenn
+  bubble_coral_fan: Aveler koural klogor
+  fire_coral_fan: Aveler koural tan
+  horn_coral_fan: Aveler koural kerniel
+  dead_tube_coral_fan: Aveler koural korzennek marv
+  dead_brain_coral_fan: Aveler koural empenn marv
+  dead_bubble_coral_fan: Aveler koural klogor marv
+  dead_fire_coral_fan: Aveler koural tan marv
+  dead_horn_coral_fan: Aveler koural kerniel marv
+  blue_ice: Skorn glas
+  conduit: San
+  polished_granite_stairs: Diri greunit lufret
+  smooth_red_sandstone_stairs: Diri maen-traezh plaen
+  mossy_stone_brick_stairs: Diri maen-traezh manek
+  polished_diorite_stairs: Diri diorit plaen
+  mossy_cobblestone_stairs: Diri maen manek
+  end_stone_brick_stairs: Diri brikennoù roc'h an end
+  stone_stairs: Diri roc'h
+  smooth_sandstone_stairs: Diri maen-traezh plaen
+  smooth_quartz_stairs: Diri kouarz plaen
+  granite_stairs: Diri greunit
+  andesite_stairs: Diri andezit
+  red_nether_brick_stairs: Diri brikenn ruz an Nether
+  polished_andesite_stairs: Diri andezit lufret
+  diorite_stairs: Diri diorit
+  polished_granite_slab: Dar greunit lufret
+  smooth_red_sandstone_slab: Dar maen-traezh ruz plaen
+  mossy_stone_brick_slab: Dar brikennoù roc'h manek
+  polished_diorite_slab: Dar diorit lufret
+  mossy_cobblestone_slab: Dar roc'h lufret
+  end_stone_brick_slab: Dar brikennoù roc'h an end
+  smooth_sandstone_slab: Dar maen-traezh plaen
+  smooth_quartz_slab: Dar kouarz plaen
+  granite_slab: Dar greunit
+  andesite_slab: Dar andezit
+  red_nether_brick_slab: Dar brikenn ruz an nether
+  polished_andesite_slab: Dar andezit lufret
+  diorite_slab: Dar diorit
+  scaffolding: Chafod
+  iron_door: Dor houarn
+  oak_door: Dor zerv
+  spruce_door: Dor bruñs
+  birch_door: Dor vezv
+  jungle_door: Dor goad janglenn
+  acacia_door: Dor gasia
+  dark_oak_door: Dor zerv teñval
+  repeater: Azganer Redstone
+  comparator: Keñverier Redstone
+  structure_block: Bloc'hoù savadur
+  jigsaw: Bloc'h mil-tamm
+  turtle_helmet: Krogenn vaot
+  scute: Skant baot
+  flint_and_steel: Kailhastr ha dir
+  apple: Aval
+  bow: Gwareg
+  arrow: Bir
+  coal: Glaou
+  charcoal: Glaou koad
+  diamond: Diamant
+  iron_ingot: Tolzenn houarn
+  gold_ingot: Tolzenn aour
+  wooden_sword: Kleze koad
+  wooden_shovel: Pal goad
+  wooden_pickaxe: Pigell goad
+  wooden_axe: Bouc'hal goad
+  wooden_hoe: Marr goad
+  stone_sword: Kleze maen
+  stone_shovel: Pal vaen
+  stone_pickaxe: Pigell vaen
+  stone_axe: Bouc'hal vaen
+  stone_hoe: Marr vaen
+  golden_sword: Kleze aour
+  golden_shovel: Pal aour
+  golden_pickaxe: Pigell aour
+  golden_axe: Bouc'hal aour
+  golden_hoe: Marr aour
+  iron_sword: Kleze houarn
+  iron_shovel: Pal houarn
+  iron_pickaxe: Pigell houarn
+  iron_axe: Bouc'hal houarn
+  iron_hoe: Marr houarn
+  diamond_sword: Kleze diamant
+  diamond_shovel: Pal ziamant
+  diamond_pickaxe: Pigell ziamant
+  diamond_axe: Bouc'hal ziamant
+  diamond_hoe: Marr ziamant
+  stick: Bazh
+  bowl: Bolenn
+  mushroom_stew: Soubenn tokoù-touseg
+  string: Neudenn
+  feather: Pluenn
+  gunpowder: Poultr kanol
+  wheat_seeds: Greun ed
+  wheat: Ed
+  bread: Bara
+  leather_helmet: Tok lêr
+  leather_chestplate: Sae lêr
+  leather_leggings: Bragoù lêr
+  leather_boots: Botoù lêr
+  chainmail_helmet: Tokarn mailhek
+  chainmail_chestplate: Sae-vailhek
+  chainmail_leggings: Bragoù mailhek
+  chainmail_boots: Botoù mailhek
+  iron_helmet: Tokarn houarn
+  iron_chestplate: Brennid houarn
+  iron_leggings: Bragoù houarn
+  iron_boots: Botoù houarn
+  diamond_helmet: Tokarn diamant
+  diamond_chestplate: Brennid diamant
+  diamond_leggings: Bragoù diamant
+  diamond_boots: Botoù diamant
+  golden_helmet: Tokarn aour
+  golden_chestplate: Brennid aour
+  golden_leggings: Bragoù aour
+  golden_boots: Botoù aour
+  flint: Kailhastr
+  porkchop: Kig-moc'h kriz
+  cooked_porkchop: Kig-moc'h poazh
+  painting: Livouriezh
+  golden_apple: Aval alaouret
+  enchanted_golden_apple: Aval alaouret strobinellet
+  oak_sign: Panell derv
+  spruce_sign: Panell bruñs
+  birch_sign: Panell vezv
+  jungle_sign: Panell koad janglenn
+  acacia_sign: Panell gasia
+  dark_oak_sign: Panell derv teñval
+  bucket: Sailh
+  water_bucket: Sailh dour
+  lava_bucket: Sailh lava
+  minecart: Bagon vengleuz
+  saddle: Dibr
+  redstone: Poultr Redstone
+  snowball: Boulenn erc'h
+  oak_boat: Bag derv
+  leather: Lêr
+  milk_bucket: Sailhad laezh
+  pufferfish_bucket: Sailhad fugu
+  salmon_bucket: Sailhad eog
+  cod_bucket: Sailhad moru
+  tropical_fish_bucket: Sailhad pesk trovanel
+  brick: Brikenn
+  dried_kelp_block: Bloc'h bezhin sec'het
+  paper: Paper
+  book: Levr
+  slime_ball: Bolotenn slime
+  chest_minecart: Bagon vengleuz gant ur c'houfr
+  furnace_minecart: Bagon vengleuz gant ur forn
+  egg: Vi
+  compass: Nadoz-vor
+  fishing_rod: Bazh-pesketañ
+  clock: Eurier
+  glowstone_dust: Poultr lufrus
+  cod: Moru kriz
+  salmon: Eog kriz
+  tropical_fish: Pesk Trovanel
+  pufferfish: Pesk-boul
+  cooked_cod: Moru poazh
+  cooked_salmon: Eog Poazh
+  ink_sac: Sac'h inkr
+  cocoa_beans: Fav kakao
+  lapis_lazuli: Lapis Lazuli
+  white_dye: Livadur gwenn
+  orange_dye: Livadur orañjez
+  magenta_dye: Livadur majenta
+  light_blue_dye: Livadur glas sklaer
+  yellow_dye: Livadur melen
+  lime_dye: Livadur gwer-melen
+  pink_dye: Livadur roz
+  gray_dye: Livadur griz
+  light_gray_dye: Livadur griz sklaer
+  cyan_dye: Livadur sian
+  purple_dye: Livadur mouk
+  blue_dye: Livadur glas
+  brown_dye: Livadur gell
+  green_dye: Livadur gwer
+  red_dye: Livadur ruz
+  black_dye: Livadur du
+  bone_meal: Poultr eskern
+  bone: Askorn
+  sugar: Sukr
+  cake: Gwastell
+  white_bed: Gwele gwenn
+  orange_bed: Gwele orañjez
+  magenta_bed: Gwele majenta
+  light_blue_bed: Gwele glas sklaer
+  yellow_bed: Gwelen melen
+  lime_bed: Gwele gwer-melen
+  pink_bed: Gwele roz
+  gray_bed: Gwele griz
+  light_gray_bed: Gwele griz sklaer
+  cyan_bed: Gwele sian
+  purple_bed: Gwele mouk
+  blue_bed: Gwele glas
+  brown_bed: Gwele gell
+  green_bed: Gwele gwer
+  red_bed: Gwele ruz
+  black_bed: Gwele du
+  cookie: Gwispidenn
+  filled_map: Kartenn
+  shears: Gweltre
+  melon_slice: Lodenn sukrinenn
+  dried_kelp: Bezhin sec'het
+  pumpkin_seeds: Greun sitrouilhez
+  melon_seeds: Greun sukrin
+  beef: Kig-bevin kriz
+  cooked_beef: Kig-bevin poazh
+  chicken: Kig-yar kriz
+  cooked_chicken: Kig-yar poazh
+  rotten_flesh: Kig brein
+  ender_pearl: Perlezenn an End
+  blaze_rod: Bazh tan
+  ghast_tear: Daerenn Ghast
+  gold_nugget: Malzenn aour
+  nether_wart: Gwenaenn Nether
+  potion: Braou
+  glass_bottle: Boutailh wer
+  spider_eye: Lagad kevnidenn
+  fermented_spider_eye: Lagad kevnidenn c'hoellet
+  blaze_powder: Poultr tan
+  magma_cream: Dienn vagma
+  brewing_stand: Lambig
+  cauldron: Kaoter
+  ender_eye: Lagad an End
+  glistering_melon_slice: Lodenn sukrinenn lufrus
+  bat_spawn_egg: Vi ganerez eskell-groc'hen
+  bee_spawn_egg: Vi ganerez gwenan
+  blaze_spawn_egg: Vi ganerez Blaze
+  cat_spawn_egg: Vi ganerez kizhier
+  cave_spider_spawn_egg: Vi ganerez kevnid mougev
+  chicken_spawn_egg: Vi ganerez yer
+  cod_spawn_egg: Vi ganerez moru
+  cow_spawn_egg: Vi ganerez saout
+  creeper_spawn_egg: Vi ganerez Creeper
+  dolphin_spawn_egg: Vi ganerez delfined
+  donkey_spawn_egg: Vi ganerez azened
+  drowned_spawn_egg: Vi ganerez beuzeded
+  elder_guardian_spawn_egg: Vi ganerez gwarded meur
+  enderman_spawn_egg: Vi ganerez endermen
+  endermite_spawn_egg: Vi ganerez endermites
+  evoker_spawn_egg: Vi ganerez dec'halver
+  fox_spawn_egg: Vi ganerez louarn
+  ghast_spawn_egg: Vi ganerez Ghasts
+  guardian_spawn_egg: Vi ganerez gwarded
+  horse_spawn_egg: Vi ganerez kezeg
+  husk_spawn_egg: Vi ganerez disec'haned
+  llama_spawn_egg: Vi ganerez lama
+  magma_cube_spawn_egg: Vi ganerezh kuboù magma
+  mooshroom_spawn_egg: Vi ganerez mooshrooms
+  mule_spawn_egg: Vi ganerez muletez
+  ocelot_spawn_egg: Vi ganerez oselo
+  panda_spawn_egg: Vi ganerez Panda
+  parrot_spawn_egg: Vi ganerez peroked
+  phantom_spawn_egg: Vi ganerez tasmantoù
+  pig_spawn_egg: Vi ganerez moc'h
+  pillager_spawn_egg: Vi gannerez preizhataer
+  polar_bear_spawn_egg: Vi ganerez arzhed gwenn
+  pufferfish_spawn_egg: Vi ganerez pesked-boul
+  rabbit_spawn_egg: Vi ganerezh konikled
+  ravager_spawn_egg: Vi ganerez draster
+  salmon_spawn_egg: Vi ganerez eoged
+  sheep_spawn_egg: Vi ganerez deñved
+  shulker_spawn_egg: Vi ganerez Shulker
+  silverfish_spawn_egg: Vi ganerez pesked-arc'hant
+  skeleton_spawn_egg: Vi ganerez skeled
+  skeleton_horse_spawn_egg: Vi ganerez kezeg skeledenn
+  slime_spawn_egg: Vi ganerez slime
+  spider_spawn_egg: Vi ganerez kevnid
+  squid_spawn_egg: Vi ganerez stioganed
+  stray_spawn_egg: Vi ganerez kantreerien
+  trader_llama_spawn_egg: Vi ganerez lama marc'hadour
+  tropical_fish_spawn_egg: Vi ganerez pesked trovanel
+  turtle_spawn_egg: Vi ganerez baoted
+  vex_spawn_egg: Vi ganerez vex
+  villager_spawn_egg: Vi ganerez kêriadennerien
+  vindicator_spawn_egg: Vi ganerez gourvenner
+  wandering_trader_spawn_egg: Vi ganerez marc'hadour kantreer
+  witch_spawn_egg: Vi ganerez sorserezed
+  wither_skeleton_spawn_egg: Vi ganerez skeledenn Wither
+  wolf_spawn_egg: Vi ganerez bleizi
+  zombie_spawn_egg: Vi ganerez zombi
+  zombie_horse_spawn_egg: Vi ganerez kezeg zombi
+  zombie_villager_spawn_egg: Vi ganerez kêriadennerien zombi
+  experience_bottle: Braoued strobinellerezh
+  fire_charge: Karg tan
+  writable_book: Levr ha pluenn
+  written_book: Levr skrivet
+  emerald: Emrodez
+  item_frame: Framm an objed
+  flower_pot: Pod bleunioù
+  carrot: Karotezenn
+  potato: Aval-douar
+  baked_potato: Aval-douar poazh
+  poisonous_potato: Aval-douar ampoezonet
+  map: Kartenn c'houlo
+  golden_carrot: Karotezenn alaouret
+  skeleton_skull: Klopenn skeledenn
+  wither_skeleton_skull: Klopenn skeledenn Wither
+  player_head: Penn C'hoarier
+  zombie_head: Penn zombi
+  creeper_head: Penn Creeper
+  dragon_head: Penn Aerouant
+  carrot_on_a_stick: Karotezenn war ur vazh
+  nether_star: Steredenn Nether
+  pumpkin_pie: Tartezenn sitrouilhez
+  firework_rocket: Fuc'hell tan-arvest
+  firework_star: Steredenn tan-arvest
+  enchanted_book: Levr strobinellet
+  nether_brick: Brikenn Nether
+  quartz: Kouarz an Nether
+  tnt_minecart: Bagon vengleuz gant TNT
+  hopper_minecart: Bagon vengleuz gant ur founilh
+  prismarine_shard: Lufr Prismarine
+  prismarine_crystals: Strink Prismarine
+  rabbit: Kig-lapin kriz
+  cooked_rabbit: Kig-konikl poazh
+  rabbit_stew: Ragoud konikl
+  rabbit_foot: Pav konikl
+  rabbit_hide: Kroc'hen konikl
+  armor_stand: Douger houarnwisk
+  iron_horse_armor: Houarnwisk marc'h
+  golden_horse_armor: Dilhad marc'h alaouret
+  diamond_horse_armor: Dilhad diamant marc'h
+  leather_horse_armor: Dilhad lêr marc'h
+  lead: Lêrenn
+  name_tag: Tikedenn anv
+  command_block_minecart: Bagon vengleuz gant ur bloc'h urzh
+  mutton: Kig-dañvad kriz
+  cooked_mutton: Kig-dañvad poazh
+  white_banner: Banniel gwenn
+  orange_banner: Banniel orañjez
+  magenta_banner: Banniel majenta
+  light_blue_banner: Banniel glas sklaer
+  yellow_banner: Banniel melen
+  lime_banner: Banniel gwer-melen
+  pink_banner: Banniel roz
+  gray_banner: Banniel griz
+  light_gray_banner: Banniel griz sklaer
+  cyan_banner: Banniel sian
+  purple_banner: Banniel mouk
+  blue_banner: Banniel glas
+  brown_banner: Banniel gell
+  green_banner: Banniel gwer
+  red_banner: Banniel ruz
+  black_banner: Banniel du
+  end_crystal: Strink an End
+  chorus_fruit: Frouezhenn gorus
+  popped_chorus_fruit: Frouezhenn gorus straket
+  beetroot: Beterabez
+  beetroot_seeds: Greun beterabez
+  beetroot_soup: Soubenn veterabez
+  dragon_breath: C'hwezh an Aerouant
+  splash_potion: Died Taolus
+  spectral_arrow: Bir tasmantek
+  tipped_arrow: Bir gant efedoù
+  lingering_potion: Died Padus
+  shield: Skoed
+  elytra: Adeskell
+  spruce_boat: Bag pruñs
+  birch_boat: Bag bezv
+  jungle_boat: Bag janglenn
+  acacia_boat: Bag kasia
+  dark_oak_boat: Bag derv teñval
+  totem_of_undying: Totem an Divarvelezh
+  shulker_shell: Krogen Shulker
+  iron_nugget: Malzenn Houarn
+  knowledge_book: Levr ar Ouiziegezh
+  debug_stick: Bazh diveugañ
+  music_disc_13: Pladenn sonerezh
+  music_disc_cat: Pladenn sonerezh
+  music_disc_blocks: Pladenn sonerezh
+  music_disc_chirp: Pladenn sonerezh
+  music_disc_far: Pladenn sonerezh
+  music_disc_mall: Pladenn sonerezh
+  music_disc_mellohi: Pladenn sonerezh
+  music_disc_stal: Pladenn sonerezh
+  music_disc_strad: Pladenn sonerezh
+  music_disc_ward: Pladenn sonerezh
+  music_disc_11: Pladenn sonerezh
+  music_disc_wait: Pladenn sonerezh
+  music_disc_pigstep: Pladenn sonerezh
+  trident: Tridant
+  phantom_membrane: Ezel tasmant
+  nautilus_shell: Krogenn naotil
+  heart_of_the_sea: Kalon ar mor
+  crossbow: Kroazwareg
+  suspicious_stew: Ragoud touellus
+  loom: Stern-gwiader
+  flower_banner_pattern: Patrom banniel
+  creeper_banner_pattern: Patrom banniel
+  skull_banner_pattern: Patrom banniel
+  mojang_banner_pattern: Patrom banniel
+  globe_banner_pattern: Patrom banniel
+  piglin_banner_pattern: Patrom banniel
+  composter: Rotel
+  barrel: Tonell
+  smoker: Mogeder
+  blast_furnace: Uhelforn
+  cartography_table: Taol kartennouriezh
+  fletching_table: Taol gwaregañ
+  grindstone: Breolimerez
+  lectern: Letrinad
+  smithing_table: Taol goveliañ
+  stonecutter: Kizellerez
+  bell: Kloc'h
+  lantern: Letern
+  sweet_berries: Skav sukret
+  campfire: Tan kamp
+  honeycomb: Neizh gwenan
+  bee_nest: Ruskenn
+  beehive: Koloenn
+  honey_bottle: Bouteillad Mell
+  honey_block: Blokad Mell
+  honeycomb_block: Blokad Mell
+  water: Dour
+  lava: Lava
+  tall_seagrass: Geot mor uhel
+  piston_head: Penn bountell
+  moving_piston: Bountell fiñv
+  wall_torch: Moger etev-gouloù
+  fire: Tan
+  redstone_wire: Orjalenn Redstone
+  oak_wall_sign: Panell voger derv
+  spruce_wall_sign: Panell voger pruñs
+  birch_wall_sign: Panell voger bezv
+  acacia_wall_sign: Panell voger kasia
+  jungle_wall_sign: Panell voger koad janglenn
+  dark_oak_wall_sign: Panell voger derv teñvall
+  redstone_wall_torch: Etev-gouloù moger redstone
+  nether_portal: Dor-dal an Nether
+  attached_pumpkin_stem: Garenn sitrouilhezenn staget
+  attached_melon_stem: Garenn sukrinenn staget
+  pumpkin_stem: Garenn sitrouilhezenn
+  melon_stem: Garenn sukrin
+  end_portal: Dor-dal an End
+  cocoa: Kakao
+  tripwire: Neudenn ziaskañ
+  potted_oak_sapling: Podad strujenn derv
+  potted_spruce_sapling: Podad strujenn bruñs
+  potted_birch_sapling: Podad strujenn vezv
+  potted_jungle_sapling: Podad strujenn janglenn
+  potted_acacia_sapling: Podad strujenn gasia
+  potted_dark_oak_sapling: Podad strujenn derv teñval
+  potted_fern: Podad raden
+  potted_dandelion: Podad c'hwervizon
+  potted_poppy: Podad rozenn-moc'h
+  potted_blue_orchid: Podad orkideenn c'hlas
+  potted_allium: Podad allium
+  potted_azure_bluet: Podad houstonia
+  potted_red_tulip: Podad tulipezenn ruz
+  potted_orange_tulip: Podad tulipezenn orañjez
+  potted_white_tulip: Podad tulipezenn wenn
+  potted_pink_tulip: Podad tulipezenn roz
+  potted_oxeye_daisy: Podad marc'harid
+  potted_cornflower: Podad Glizin
+  potted_lily_of_the_valley: Podad Louzaouenn-an-hañv
+  potted_wither_rose: Podad rozenn Wither
+  potted_red_mushroom: Podad kabell-touseg ruz
+  potted_brown_mushroom: Podad kabell-touseg gell
+  potted_dead_bush: Podad bochad gwez marv
+  potted_cactus: Podad kaktuz
+  carrots: Karotez
+  potatoes: Avaloù-douar
+  skeleton_wall_skull: Klopenn skeledenn moger
+  wither_skeleton_wall_skull: Klopenn skeledenn Wither moger
+  zombie_wall_head: Penn zombi moger
+  player_wall_head: Penn C'hoarier moger
+  creeper_wall_head: Penn Creeper moger
+  dragon_wall_head: Penn Aerouant moger
+  white_wall_banner: Banniel gwenn
+  orange_wall_banner: Banniel orañjez
+  magenta_wall_banner: Banniel majenta
+  light_blue_wall_banner: Banniel glas sklaer
+  yellow_wall_banner: Banniel melen
+  lime_wall_banner: Banniel gwer-melen
+  pink_wall_banner: Banniel roz
+  gray_wall_banner: Banniel griz
+  light_gray_wall_banner: Banniel griz sklaer
+  cyan_wall_banner: Banniel sian
+  purple_wall_banner: Banniel mouk
+  blue_wall_banner: Banniel glas
+  brown_wall_banner: Banniel gell
+  green_wall_banner: Banniel gwer
+  red_wall_banner: Banniel ruz
+  black_wall_banner: Banniel du
+  beetroots: Beterabez
+  end_gateway: Treuzell an End
+  frosted_ice: Skorn kleret
+  kelp_plant: Plantenn vezhin
+  dead_tube_coral_wall_fan: Aveler moger koural korzennek marv
+  dead_brain_coral_wall_fan: Aveler moger koural empenn marv
+  dead_bubble_coral_wall_fan: Aveler moger koural klogor marv
+  dead_fire_coral_wall_fan: Aveler moger koural tan marv
+  dead_horn_coral_wall_fan: Aveler moger koural kerniel marv
+  tube_coral_wall_fan: Aveler moger koural korzennek
+  brain_coral_wall_fan: Aveler moger koural empenn
+  bubble_coral_wall_fan: Aveler moger koural klogor
+  fire_coral_wall_fan: Aveler moger koural tan
+  horn_coral_wall_fan: Aveler moger koural kerniel
+  potted_bamboo: Podad bambouz
+  void_air: Aer ar goullonder
+  cave_air: Aer ar mougev
+  bubble_column: Peul klogorennoù
+  sweet_berry_bush: Bod skav sukret
+  bamboo_sapling: Strujenn vambouz
+  clay_ball: Pri
+  smooth_quartz: Kouarz plaen
+  zombie_pigman_spawn_egg: Vi ganerez tud-pemoc'h
+  cactus_green: Gwer kaktuz
+  dandelion_yellow: Melen c'hwervizon
+  rose_red: Ruz rozenn
+  sign: Sinañ
+  wall_sign: Panell moger
+biome:
+  ocean: Meurvor
+  plains: Plaenennoù
+  desert: Gouelec'h
+  mountains: Menezioù
+  forest: Koadoù
+  taiga: Taiga
+  swamp: Geun
+  river: Stêr
+  the_end: An End
+  frozen_ocean: Meurvor skornet
+  frozen_river: Stêr skornet
+  snowy_tundra: Toundra erc'h
+  snowy_mountains: Menezioù erc'h
+  mushroom_fields: Parkeier kabelloù-touseg
+  mushroom_field_shore: Aodoù parkeier kabelloù-touseg
+  beach: Traezhenn
+  desert_hills: Torgennoù dezerzhel
+  wooded_hills: Torgennoù koadek
+  taiga_hills: Torgennoù taiga
+  mountain_edge: Bord ar menez
+  jungle: Janglenn
+  jungle_hills: Torgennoù janglenn
+  jungle_edge: Riblennoù janglenn
+  deep_ocean: Meurvor don
+  stone_shore: Aod roc'hek
+  snowy_beach: Traezhenn ec'h
+  birch_forest: Koadeier bezv
+  birch_forest_hills: Torgennoù koadeier bezv
+  dark_forest: Koadeier du
+  snowy_taiga: Taiga erc'hek
+  snowy_taiga_hills: Torgennoù taiga erc'hek
+  giant_tree_taiga: Taiga gant pikol gwez
+  giant_tree_taiga_hills: Torgennoù taiga gant pikol gwez
+  wooded_mountains: Menezioù gant koadoù
+  savanna: Savanenn
+  savanna_plateau: Pladenn savanenn
+  badlands: Drouglec'h
+  wooded_badlands_plateau: Pladenn drouglec'h gant koadoù
+  badlands_plateau: Pladenn Drouglec'h
+  small_end_islands: Inizi bihan an End
+  end_midlands: Douaroù krenn an End
+  end_highlands: Douaroù uhel an End
+  end_barrens: Douaroù sec'h an End
+  warm_ocean: Meurvor tomm
+  lukewarm_ocean: Meurvor klouar
+  cold_ocean: Meurvor yen
+  deep_warm_ocean: Meurvor tomm don
+  deep_lukewarm_ocean: Meurvor klouar don
+  deep_cold_ocean: Meurvor yen don
+  deep_frozen_ocean: Meurvor skornet don
+  the_void: Ar Goullonder
+  sunflower_plains: Plaenennoù troioù-heol
+  desert_lakes: Lennoù dezerzh
+  gravelly_mountains: Menezioù grouanek
+  flower_forest: Koadeier bleunioù
+  taiga_mountains: Menezioù taiga
+  swamp_hills: Torgennoù geun
+  modified_jungle: Janglenn kemmet
+  modified_jungle_edge: Lez ar janglenn kemmet
+  tall_birch_forest: Koadeier gwez-bezv bras
+  tall_birch_hills: Torgennoù koadeier bezv
+  dark_forest_hills: Torgennoù koadeier teñval
+  snowy_taiga_mountains: Menezioù taiga erc'hek
+  giant_spruce_taiga: Taiga gant pikol gwez-pruñs
+  giant_spruce_taiga_hills: Torgennoù taiga gant pikol gwez-pruñs
+  modified_gravelly_mountains: Menezioù grouanek+
+  shattered_savanna: Savanenn zigompez
+  shattered_savanna_plateau: Platenn savanenn zigompez
+  modified_wooded_badlands_plateau: Pladenn drouglec'h gant koadoù kemmet
+  modified_badlands_plateau: Pladenn drouglec'h kemmet
+  bamboo_jungle: Janglenn bambou
+  bamboo_jungle_hills: Torgennoù janglenn bambou
+  nether: Nether
+enchantment:
+  fire_protection: Gwarez a-enep an tan
+  sharpness: Dremm
+  flame: Flammañ
+  aqua_affinity: Kerentiezh d'an dour
+  punch: Skoadenn
+  loyalty: Lealded
+  depth_strider: Ouesk en dour
+  vanishing_curse: Mallozh gant ar Steuziadur
+  unbreaking: Solut
+  knockback: Kiladenn
+  luck_of_the_sea: Chañs ar mor
+  binding_curse: Mallozh gant al Liamm
+  fortune: Peadra
+  protection: Gwarez
+  efficiency: Efedusted
+  mending: Dresañ
+  frost_walker: Baleer ar skorn
+  lure: Bouedenn
+  looting: Preizhadenn
+  piercing: Toullus
+  blast_protection: Gwarez e-enep an tarzhadennoù
+  smite: Kastiz
+  multishot: Tenn lies
+  fire_aspect: Kelc'hienn tan
+  channeling: Sanelladur
+  sweeping: Emezelañ
+  thorns: Spern
+  bane_of_arthropods: Bosenn an artropoded
+  respiration: Analadur
+  riptide: Luskadenn
+  silk_touch: Stokadenn seiz
+  quick_charge: Karg prim
+  projectile_protection: Gwarez a-enep ar bannadelloù
+  impaling: Peuliañ
+  feather_falling: Kouezhadenn dousig
+  power: Galloud
+  infinity: Amfin
+potion:
+  uncraftable: Braou n'haller ket aozañ
+  water: Boutailhad dour
+  mundane: Braou ordinal
+  thick: Braou tev
+  awkward: Braou direnkus
+  night_vision: Braou gweled en deñvalijenn
+  invisibility: Braou diweladusted
+  jump: Braou lammat
+  fire_resistance: Braou dalc'husted evit an tan
+  speed: Braou primder
+  slowness: Braou gorregezh
+  water_breathing: Braou analañ dindan an dour
+  instant_heal: Braou pareañ
+  instant_damage: Braou freuz
+  poison: Braou poeson
+  regen: Braou empareañ
+  strength: Braou kreñvder
+  weakness: Braou gwander
+  luck: Braou chañs
+  turtle_master: Braou mestr ar boated
+  slow_falling: Braou kouezhañ gorrek
+splash_potion:
+  uncraftable: Braou taoladus n'haller ket aozañ
+  water: Boutailhad dour taoladus
+  mundane: Braou ordinal taoladus
+  thick: Braou tev taoladus
+  awkward: Braou direnkus taoladus
+  night_vision: Braou gwelet en deñvalijenn taoladus
+  invisibility: Braou diwelusted taoladus
+  jump: Braou lammat taoladus
+  fire_resistance: Braou dalc'husted d'an tan taoladus
+  speed: Braou primder taoladus
+  slowness: Braou gorrekadur taoladus
+  water_breathing: Braou analañ en dour taoladus
+  instant_heal: Braou pareañ taoladus
+  instant_damage: Braou freuz taoladus
+  poison: Braou ampoezon taoladus
+  regen: Braou empraeañ taoladus
+  strength: Braou kreñvder taoladus
+  weakness: Braou gwander taoladus
+  luck: Braou chañs taoladus
+  turtle_master: Braou strink mestr ar boated
+  slow_falling: Braou strink kouezhañ gorrek
+lingering_potion:
+  uncraftable: Braou padus n'haller ket aozañ
+  water: Braou dour padus
+  mundane: Braou ordinal padus
+  thick: Braou tev padus
+  awkward: Braou direnkus padus
+  night_vision: Braou gwelet en deñvalijenn padus
+  invisibility: Braou diwelusted padus
+  jump: Braou lammat padus
+  fire_resistance: Braou dalc'husted d'an tan padus
+  speed: Braou primder padus
+  slowness: Braou gorrekadur padus
+  water_breathing: Braou analañ en dour padus
+  instant_heal: Braou pareañ padus
+  instant_damage: Braou freuz padus
+  poison: Braou ampoezon padus
+  regen: Braou empareañ padus
+  strength: Braou kreñvder padus
+  weakness: Braou gwander padus
+  luck: Braou chañs padus
+  turtle_master: Braou padus mestr ar boated
+  slow_falling: Braou padus kouezhañ gorrek
+tipped_arrow:
+  uncraftable: Dibosupl d'ober ar Bir gant efedoù
+  water: Bir strinkañ
+  mundane: Bir gant efedoù
+  thick: Bir gant efedoù
+  awkward: Bir gant efedoù
+  night_vision: Bir gwelet en noz
+  invisibility: Bir diweladusted
+  jump: Bir lammat
+  fire_resistance: Bir dalc'husted d'an tan
+  speed: Bir primder
+  slowness: Bir gorrekadur
+  water_breathing: Bir analañ dindan an dour
+  instant_heal: Bir pareañ
+  instant_damage: Bir freuz
+  poison: Bir ampoezonet
+  regen: Bir empareañ
+  strength: Bir kreñvder
+  weakness: Bir gwander
+  luck: Bir chañs
+  turtle_master: Bir mestr ar baoted
+  slow_falling: Bir kouezhañ gorrek
+entity:
+  dropped_item: Objed
+  experience_orb: Orb skiant-prenet
+  area_effect_cloud: Koumoul a efed maezienn
+  elder_guardian: Gward Meur
+  wither_skeleton: Skeledenn Wither
+  stray: Kantreer
+  egg: Vi taolet
+  leash_hitch: Skoulm lêrenn
+  painting: Livouriezh
+  arrow: Bir
+  snowball: Boulenn erc'h
+  fireball: Bolotenn tan
+  small_fireball: Bolotennig tan
+  ender_pearl: Perlezenn an End taolet
+  ender_signal: Lagad an End
+  splash_potion: Braou
+  thrown_exp_bottle: Braoued strobinellerezh skoet
+  item_frame: Framm an objed
+  wither_skull: Klopenn Wither
+  primed_tnt: TNT delusket
+  falling_block: Bloc'h a gouezh
+  firework: Fuc'hell tan-arvest
+  husk: Disec'han
+  spectral_arrow: Bir tasmantek
+  shulker_bullet: Boled Shulker
+  dragon_fireball: Bolotenn dan Aerouant
+  zombie_villager: Gwigad Zombi
+  skeleton_horse: Marc'h skeledenn
+  zombie_horse: Marc'h zombi
+  armor_stand: Douger houarnwisk
+  donkey: Azen
+  mule: Muletez
+  evoker_fangs: Dent Dec’halver
+  evoker: Dec’halver
+  vex: Vex
+  vindicator: Gourvenner
+  illusioner: Touellennad
+  minecart_command: Bagon vengleuz gant ur bloc'h urzh
+  boat: Bag
+  minecart: Bagon vengleuz
+  minecart_chest: Bagon vengleuz gant ur c'houfr
+  minecart_furnace: Bagon vengleuz gant ur forn
+  minecart_tnt: Bagon vengleuz gant TNT
+  minecart_hopper: Bagon vengleuz gant ur founilh
+  minecart_mob_spawner: Bagon vengleuz gant ur ganer
+  creeper: Creeper
+  skeleton: Skeledenn
+  spider: Kevnidenn
+  giant: Ramz
+  zombie: Zombi
+  slime: Slime
+  ghast: Ghast
+  enderman: Enderman
+  cave_spider: Kevnidenn vougev
+  silverfish: Pesk-arc'hant
+  blaze: Blaze
+  magma_cube: Kub magma
+  ender_dragon: Aerouant an End
+  wither: Wither
+  bat: Askell-groc'hen
+  witch: Sorserez
+  endermite: Endermite
+  guardian: Diwaller
+  shulker: Shulker
+  pig: Pemoc'h
+  sheep: Dañvad
+  cow: Buoc'h
+  chicken: Yar
+  squid: Stiogan
+  wolf: Bleiz
+  mushroom_cow: Mooshroom
+  snowman: Golem erc'h
+  ocelot: Oselo
+  iron_golem: Golem houarn
+  horse: Marc'h
+  rabbit: Konikl
+  polar_bear: Arzh gwenn
+  llama: Lama
+  llama_spit: Skopadenn Lama
+  parrot: Peroked
+  villager: Kêriadennad
+  ender_crystal: Strink an End
+  turtle: Baot
+  phantom: Tasmant
+  trident: Tridant
+  cod: Moru
+  salmon: Eog
+  pufferfish: Pesk-boul
+  tropical_fish: Pesk trovanel
+  drowned: Beuzed
+  dolphin: Delfin
+  cat: Kazh
+  panda: Panda
+  pillager: Preizhataer
+  ravager: Draster
+  trader_llama: Lama marc'hadour
+  wandering_trader: Marc'hadour kantreer
+  fox: Louarn
+  bee: Gwenanenn
+  zoglin: Zoglin
+  fishing_hook: Flojenn
+  lightning: Luc'hed
+  player: C'hoarier
+  pig_zombie: Pemoc'h-zombi
+effect:
+  speed: Tizh
+  slow: Gorrekadur
+  fast_digging: Primded
+  slow_digging: Skuizhder mengleuziañ
+  increase_damage: Kreñvder
+  heal: Buhez prim
+  harm: Freuzioù prim
+  jump: Lamm gwellaet
+  confusion: Kalonask
+  regeneration: Em-pareañ
+  damage_resistance: Dalc'husted
+  fire_resistance: Dalc'husted d'an tan
+  water_breathing: Analañ dindan an dour
+  invisibility: Diweladusted
+  blindness: Dallentez
+  night_vision: Gwelet en deñvalijenn
+  hunger: Naon
+  weakness: Gwander
+  poison: Ampoezon
+  wither: Wither
+  health_boost: Ouzhpennadenn vuhez
+  absorption: Euvridigezh
+  saturation: Peurvec'hiadur
+  glowing: Goulaouiñ
+  levitation: Nijal
+  luck: Chañs
+  unluck: Dichañs
+  slow_falling: Kouezhañ gorrek
+  conduit_power: Galloud ar san
+  dolphins_grace: Gras an dolfin
+  bad_omen: Gwall sinad
+  hero_of_the_village: Haroz ar gêriadenn
+tropical_fish_type:
+  kob: Kob
+  snooper: Furcher
+  dasher: C'hwister
+  brinely: Iligan
+  spotty: Tarched
+  flopper: Fistouler
+  stripey: Roudennek
+  glitter: Skedus
+  blockfish: Peskub
+  betty: Betty
+  clayfish: Peskpri
+  sunstreak: Skin-heol
+dye_color:
+  white: Gwenn
+  orange: Orañjez
+  magenta: Majenta
+  light_blue: Glas sklaer
+  yellow: Melen
+  lime: Gwer-melen
+  pink: Roz
+  gray: Griz
+  light_gray: Griz sklaer
+  cyan: Sian
+  purple: Limestra
+  blue: Glas
+  brown: Gell
+  green: Gwer
+  red: Ruz
+  black: Du
+named:
+  player_head_named: Penn %s
+  potion_with_amplifier: '%s %s'
+  potion_with_duration: '%s (%s)'
+  unknown_effect: 'Efed dianav: %s'
+tropical_fish_name:
+  '117506305': Anemon
+  '117899265': Zebrasoma rostratum
+  '185008129': Paracanthurus hepatus
+  '117441793': Chaetodon capistratus
+  '118161664': Pseudotropheus johannii
+  '65536': Pesk-furlukin
+  '50726144': Betta splendens
+  '67764993': Pictichromis paccagnellae
+  '234882305': Lutjanus sebae
+  '67110144': Mulloidichthys martinicus
+  '117441025': Zanclus cornutus
+  '16778497': Chaetodon ornatissimus
+  '101253888': Cetoscarus ocellatus
+  '50660352': Holacanthus ciliaris
+  '918529': Cichlidae
+  '235340288': Ophioblennius atlanticus
+  '918273': Lutjanus campechanus
+  '67108865': Polynemidae
+  '917504': Amphiprion frenatus
+  '459008': Balistidae
+  '67699456': Pesk-peroked lost-melen
+  '67371009': Peskig melen
+colored_shied:
+  white: Skoed gwenn
+  orange: Skoed orañjez
+  magenta: Skoed majenta
+  light_blue: Skoed glas sklaer
+  yellow: Skoed melen
+  lime: Skoed gwer-melen
+  pink: Skoed roz
+  gray: Skoed griz
+  light_gray: Skoed griz sklaer
+  cyan: Skod sian
+  purple: Skoed mouk
+  blue: Skoed glas
+  brown: Skoed gell
+  green: Skoed gwer
+  red: Skoed ruz
+  black: Skoed du
+banner_pattern:
+  '65536': Konk en arc'hant ouzh beg dehoù
+  '65537': Konk aouraval ouzh beg dehoù
+  '65538': Konk limestra ouzh beg dehoù
+  '65539': Konk glazur sklaer ouzh beg dehoù
+  '65540': Konk aour ouzh beg dehoù
+  '65541': Konk geoted sklaer ouzh beg dehoù
+  '65542': Konk en-gwirion ouzh beg dehoù
+  '65543': Konk griz ouzh beg dehoù
+  '65544': Konk en arc'hant griz ouzh beg dehoù
+  '65545': Konk sian ouzh beg dehoù
+  '65546': Konk mouk ouzh beg dehoù
+  '65547': Konk glazur ouzh beg dehoù
+  '65548': Konk gell ouzh beg dehoù
+  '65549': Konk geoted ouzh beg dehoù
+  '65550': Konk en gul ouzh beg dehoù
+  '65551': Konk sabel ouzh beg dehoù
+  '131072': Konk en arc'hant ouzh beg kleiz
+  '131073': Konk orañjez ouzh beg kleiz
+  '131074': Konk limestra ouzh beg kleiz
+  '131075': Konk glazur sklaer ouzh beg kleiz
+  '131076': Konk aour ouzh beg kleiz
+  '131077': Konk geoted sklaer ouzh beg kleiz
+  '131078': Konk en-gwirion ouzh beg kleiz
+  '131079': Konk griz ouzh beg kleiz
+  '131080': Konk en arc'hant sklaer ouzh beg kleiz
+  '131081': Konk sian ouzh beg kleiz
+  '131082': Konk mouk ouzh beg kleiz
+  '131083': Konk glazur ouzh beg kleiz
+  '131084': Konk gell ouzh beg kleiz
+  '131085': Konk geoted ouzh beg kleiz
+  '131086': Konk en gul ouzh beg kleiz
+  '131087': Konk sabel ouzh beg kleiz
+  '196608': Konk arc'hant ouzh kab dehoù
+  '196609': Konk aouraval ouzh kab dehoù
+  '196610': Konk limestra ouzh kab dehoù
+  '196611': Konk glazur sklaer ouzh kab dehoù
+  '196612': Konk aour ouzh kab dehoù
+  '196613': Konk geoted sklaer ouzh kab dehoù
+  '196614': Konk en-gwirion ouzh kab dehoù
+  '196615': Konk griz ouzh kab dehoù
+  '196616': Konk arc'hant griz ouzh kab dehoù
+  '196617': Konk sian ouzh kab dehoù
+  '196618': Konk mouk ouzh kab dehoù
+  '196619': Konk glazur ouzh kab dehoù
+  '196620': Konk gell ouzh kab dehoù
+  '196621': Konk geoted ouzh kab dehoù
+  '196622': Konk en gul ouzh kab dehoù
+  '196623': Konk sabel ouzh kab dehoù
+  '262144': Konk arc'hant ouzh kab kleiz
+  '262145': Konk aouraval ouzh kab kleiz
+  '262146': Konk limestra ouzh kab kleiz
+  '262147': Konk glazur sklaer ouzh kab kleiz
+  '262148': Konk aour ouzh kab kleiz
+  '262149': Konk geotred sklaer ouzh kab kleiz
+  '262150': Konk en-gwirion ouzh kab kleiz
+  '262151': Konk griz ouzh kab kleiz
+  '262152': Konk arc'hant griz ouzh kab kleiz
+  '262153': Konk sian ouzh kab kleiz
+  '262154': Konk mouk ouzh kab kleiz
+  '262155': Konk glazur ouzh kab kleiz
+  '262156': Konk gell ouzh kab kleiz
+  '262157': Konk geoted ouzh kab kleiz
+  '262158': Konk en gul ouzh kab kleiz
+  '262159': Konk sabel ouzh kab kleiz
+  '327680': Tostal arc'hant
+  '327681': Tostal aouraval
+  '327682': Tostal limestra
+  '327683': Tostal glazur sklaer
+  '327684': Tostal aour
+  '327685': Tostal geoted-sklaer
+  '327686': Tostal en-gwirion
+  '327687': Tostal houarn
+  '327688': Tostal griz sklaer
+  '327689': Tostal sian
+  '327690': Tostal mouk
+  '327691': Tostal glazur
+  '327692': Tostal tanneg
+  '327693': Tostal geotek
+  '327694': Tostal en gul
+  '327695': Tostal sabel
+  '393216': Chef Gwenn
+  '393217': Chef Orañjez
+  '393218': Chef Majenta
+  '393219': Chef Glas Sklaer
+  '393220': Chef Melen
+  '393221': Chef Gwer-melen
+  '393222': Kab en-gwirion
+  '393223': Kab houarn
+  '393224': Kab griz sklaer
+  '393225': Kab sian
+  '393226': Kab mouk
+  '393227': Kab glazur
+  '393228': Kab tanneg
+  '393229': Kab geoted
+  '393230': Kab en gul
+  '393231': Chef Du
+  '458752': Peul arc'hant dehoù
+  '458753': Peul orañjez dehoù
+  '458754': Peul limestra dehoù
+  '458755': Peul glazur sklaer dehoù
+  '458756': Peul aour dehoù
+  '458757': Peul geoted sklaer dehoù
+  '458758': Peul en-gwirion dehoù
+  '458759': Peul griz dehoù
+  '458760': Peul arc'hant griz dehoù
+  '458761': Peul sian dehoù
+  '458762': Peul mouk dehoù
+  '458763': Peul glazur dehoù
+  '458764': Peul gell dehoù
+  '458765': Peul geoted dehoù
+  '458766': Peul en gul dehoù
+  '458767': Peul sabel dehoù
+  '524288': Peul arc'hant kleiz
+  '524289': Peul aouraval kleiz
+  '524290': Peul limestra kleiz
+  '524291': Peul glazur sklaer kleiz
+  '524292': Peul aour kleiz
+  '524293': Peul geoted sklaer kleiz
+  '524294': Peul en-gwirion kleiz
+  '524295': Peul griz kleiz
+  '524296': Peul arc'hant griz kleiz
+  '524297': Peul sian kleiz
+  '524298': Peul mouk kleiz
+  '524299': Peul glazur kleiz
+  '524300': Peul gell kleiz
+  '524301': Peul geoted kleiz
+  '524302': Peul en gul kleiz
+  '524303': Peul sabel kleiz
+  '589824': Peul arc'hant
+  '589825': Peul aouraval
+  '589826': Peul limestra
+  '589827': Peul glazur sklaer
+  '589828': Peul aour
+  '589829': Peul geoted sklaer
+  '589830': Peul en-gwirion
+  '589831': Peul griz
+  '589832': Peul arc'hant griz
+  '589833': Peul sian
+  '589834': Peul mouk
+  '589835': Peul glazur
+  '589836': Peul gell
+  '589837': Peul geoted
+  '589838': Peul en gul
+  '589839': Peul sabel
+  '655360': Treustell arc'hant
+  '655361': Treustell aouraval
+  '655362': Treustell limestra
+  '655363': Treustell glazur sklaer
+  '655364': Treustell aour
+  '655365': Treustell geoted sklaer
+  '655366': Treustell en-gwirion
+  '655367': Treustell griz
+  '655368': Treustell arc'hant griz
+  '655369': Treustell sian
+  '655370': Treustell mouk
+  '655371': Treustell glazur
+  '655372': Treustell gell
+  '655373': Treustell geoted
+  '655374': Treustell en gul
+  '655375': Treustell sabel
+  '720896': Bandenn arc'hant
+  '720897': Bandenn aouraval
+  '720898': Bandenn limestra
+  '720899': Bandenn glazur sklaer
+  '720900': Bandenn aour
+  '720901': Bandenn geoted sklaer
+  '720902': Bandenn en-gwirion
+  '720903': Bandenn griz
+  '720904': Bandenn arc'hant griz
+  '720905': Bandenn sian
+  '720906': Bandenn mouk
+  '720907': Bandenn glazur
+  '720908': Bandenn gell
+  '720909': Bandenn geoted
+  '720910': Bandenn en gul
+  '720911': Bandenn sabel
+  '786432': Bandenn arc'hant kleiz
+  '786433': Bandenn aouraval kleiz
+  '786434': Bandenn limestra kleiz
+  '786435': Bandenn glazur sklaer kleiz
+  '786436': Bandenn aour kleiz
+  '786437': Bandenn geoted sklaer kleiz
+  '786438': Bandenn en-gwirion kleiz
+  '786439': Bandenn griz kleiz
+  '786440': Bandenn arc'hant griz kleiz
+  '786441': Bandenn sian kleiz
+  '786442': Bandenn mouk kleiz
+  '786443': Bandenn glazur kleiz
+  '786444': Bandenn gell kleiz
+  '786445': Bandenn geoted kleiz
+  '786446': Bandenn en gul kleiz
+  '786447': Bandenn sabel kleiz
+  '851968': Pevar peul arc'hant
+  '851969': Pevar peul aouraval
+  '851970': Pevar peul limestra
+  '851971': Pevar peul glazur sklaer
+  '851972': Pevar peul aour
+  '851973': Pevar peul geoted sklaer
+  '851974': Pevar peul en-gwirion
+  '851975': Pevar peul griz
+  '851976': Pevar peul arc'hant griz
+  '851977': Pevar peul sian
+  '851978': Pevar peul mouk
+  '851979': Pevar peul glazur
+  '851980': Pevar peul gell
+  '851981': Pevar peul geoted
+  '851982': Pevar peul en gul
+  '851983': Pevar peul sabel
+  '917504': Lammell arc'hant
+  '917505': Lammell aouraval
+  '917506': Lammell limestra
+  '917507': Lammell glazur sklaer
+  '917508': Lammell aour
+  '917509': Lammell geoted sklaer
+  '917510': Lammell en-gwirion
+  '917511': Lammell griz
+  '917512': Lammell arc'hant griz
+  '917513': Lammell sian
+  '917514': Lammell mouk
+  '917515': Lammell glazur
+  '917516': Lammell gell
+  '917517': Lammell geoted
+  '917518': Lammell en gul
+  '917519': Lammell sabel
+  '983040': Kroaz arc'hant
+  '983041': Kroaz aouraval
+  '983042': Kroaz limestra
+  '983043': Kroaz glazur sklaer
+  '983044': Kroaz aour
+  '983045': Kroaz geoted sklaer
+  '983046': Kroaz en-gwirion
+  '983047': Kroaz griz
+  '983048': Kroaz arc'hant griz
+  '983049': Kroaz sian
+  '983050': Kroaz mouk
+  '983051': Kroaz glazur
+  '983052': Kroaz gell
+  '983053': Kroaz geoted
+  '983054': Kroaz en gul
+  '983055': Kroaz sabel
+  '1048576': Mantellet arc'hant
+  '1048577': Mantellet aouraval
+  '1048578': Mantellet limestra
+  '1048579': Mantellet glazur sklaer
+  '1048580': Mantellet aour
+  '1048581': Mantellet geoted sklaer
+  '1048582': Mantellet en-gwirion
+  '1048583': Mantellet griz
+  '1048584': Mantellet arc'hant griz
+  '1048585': Mantellet sian
+  '1048586': Mantellet mouk
+  '1048587': Mantellet glazur
+  '1048588': Mantellet gell
+  '1048589': Mantellet geoted
+  '1048590': Mantellet en gul
+  '1048591': Mantellet sabel
+  '1114112': Mantellet arc'hant c'hweniet
+  '1114113': Mantellet aouraval c'hweniet
+  '1114114': Mantellet limestra c'hweniet
+  '1114115': Mantellet glazur sklaer c'hweniet
+  '1114116': Mantellet aour c'hweniet
+  '1114117': Mantellet geoted sklaer c'hweniet
+  '1114118': Mantellet en-gwirion c'hweniet
+  '1114119': Mantellet griz c'hweniet
+  '1114120': Mantellet arc'hant griz c'hweniet
+  '1114121': Mantellet sian c'hweniet
+  '1114122': Mantellet mouk c'hweniet
+  '1114123': Mantellet glazur c'hweniet
+  '1114124': Mantellet gell c'hweniet
+  '1114125': Mantellet geoted c'hweniet
+  '1114126': Mantellet en gul c'hweniet
+  '1114127': Mantellet sabel c'hweniet
+  '1179648': Milginoù arc'hant ouzh beg
+  '1179649': Milginoù aouraval ouzh beg
+  '1179650': Milginoù limestra ouzh beg
+  '1179651': Milginoù glazur sklaer ouzh beg
+  '1179652': Milginoù aour ouzh beg
+  '1179653': Milginoù geoted sklaer ouzh beg
+  '1179654': Milginoù en-gwirion ouzh beg
+  '1179655': Milginoù griz ouzh beg
+  '1179656': Milginoù arc'hant griz ouzh beg
+  '1179657': Milginoù sian ouzh beg
+  '1179658': Milginoù mouk ouzh beg
+  '1179659': Milginoù glazur ouzh beg
+  '1179660': Milginoù gell ouzh beg
+  '1179661': Milginoù geoted ouzh beg
+  '1179662': Milginoù en gul ouzh beg
+  '1179663': Milginoù sabel ouzh beg
+  '1245184': Milginoù arc'hant ouzh kab
+  '1245185': Milginoù aouraval ouzh kab
+  '1245186': Milginoù limestra ouzh kab
+  '1245187': Milginoù glazur sklaer ouzh kab
+  '1245188': Milginoù aour ouzh kab
+  '1245189': Milginoù geoted sklaer ouzh kab
+  '1245190': Milginoù en-gwirion ouzh kab
+  '1245191': Milginoù griz ouzh kab
+  '1245192': Milginoù arc'hant griz ouzh kab
+  '1245193': Milginoù sian ouzh kab
+  '1245194': Milginoù mouk ouzh kab
+  '1245195': Milginoù glazur ouzh kab
+  '1245196': Milginoù gell ouzh kab
+  '1245197': Milginoù geoted ouzh kab
+  '1245198': Milginoù en gul ouzh kab
+  '1245199': Milginoù sabel ouzh kab
+  '1310720': Skejet, arc'hant e kentañ
+  '1310721': Skejet, aouraval e kentañ
+  '1310722': Skejet, limestra e kentañ
+  '1310723': Skejet, glazur sklaer e kentañ
+  '1310724': Skejet, aour e kentañ
+  '1310725': Skejet, geoted sklaer e kentañ
+  '1310726': Skejet, en-gwirion e kentañ
+  '1310727': Skejet, griz e kentañ
+  '1310728': Skejet, arc'hant griz e kentañ
+  '1310729': Skejet, sian e kentañ
+  '1310730': Skejet, mouk e kentañ
+  '1310731': Skejet, glazur e kentañ
+  '1310732': Skejet, gell e kentañ
+  '1310733': Skejet, geoted e kentañ
+  '1310734': Skejet, en gul e kentañ
+  '1310735': Skejet, sabel e kentañ
+  '1376256': Skejet, arc'hant da eil
+  '1376257': Skejet, aouraval da eil
+  '1376258': Skejet, limestra da eil
+  '1376259': Skejet, glazur sklaer da eil
+  '1376260': Skejet, aour da eil
+  '1376261': Skejet, geoted da eil
+  '1376262': Skejet, en-gwirion da eil
+  '1376263': Skejet, griz da eil
+  '1376264': Skejet, arc'hant griz da eil
+  '1376265': Skejet, sian da eil
+  '1376266': Skejet, mouk da eil
+  '1376267': Skejet, glazur da eil
+  '1376268': Skejet, gell da eil
+  '1376269': Skejet, geoted da eil
+  '1376270': Skejet, en gul da eil
+  '1376271': Skejet, sabel da eil
+  '1441792': Benet, arc'hant da eil
+  '1441793': Benet, aouraval da eil
+  '1441794': Benet, limestra da eil
+  '1441795': Benet, glazur sklaer da eil
+  '1441796': Benet, aour da eil
+  '1441797': Benet, geoted sklaer da eil
+  '1441798': Benet, en-gwirion da eil
+  '1441799': Benet, griz da eil
+  '1441800': Benet, arc'hant griz da eil
+  '1441801': Benet, sian da eil
+  '1441802': Benet, mouk da eil
+  '1441803': Benet, glazur da eil
+  '1441804': Benet, gell da eil
+  '1441805': Benet, geoted da eil
+  '1441806': Benet, en gul da eil
+  '1441807': Benet, sabel da eil
+  '1507328': Benet, arc'hant e kentañ
+  '1507329': Benet, aouranval e kentañ
+  '1507330': Benet, limestra e kentañ
+  '1507331': Benet, glazur sklaer e kentañ
+  '1507332': Benet, aour e kentañ
+  '1507333': Benet, geoted sklaer e kentañ
+  '1507334': Benet, en-gwirion e kentañ
+  '1507335': Benet, griz e kentañ
+  '1507336': Benet, arc'hant griz e kentañ
+  '1507337': Benet, sian e kentañ
+  '1507338': Benet, mouk e kentañ
+  '1507339': Benet, glazur e kentañ
+  '1507340': Benet, gell e kentañ
+  '1507341': Benet, geoted e kentañ
+  '1507342': Benet, en gul e kentañ
+  '1507343': Benet, sabel e kentañ
+  '1572864': Torzhell arc'hant
+  '1572865': Torzhell aouraval
+  '1572866': Torzhell limestra
+  '1572867': Torzhell glazur sklaer
+  '1572868': Torzhell aour
+  '1572869': Torzhell geoted
+  '1572870': Torzhell en-gwirion
+  '1572871': Torzhell griz
+  '1572872': Torzhell arc'hant griz
+  '1572873': Torzhell sian
+  '1572874': Torzhell mouk
+  '1572875': Torzhell glazur
+  '1572876': Torzhell gell
+  '1572877': Torzhell geoted
+  '1572878': Torzhell en gul
+  '1572879': Torzhell sabel
+  '1638400': Talbennan arc'hant
+  '1638401': Talbennan aouraval
+  '1638402': Talbennan limestra
+  '1638403': Talbennan glazur sklaer
+  '1638404': Talbennan aour
+  '1638405': Talbennan geoted sklaer
+  '1638406': Talbennan en-gwirion
+  '1638407': Talbennan griz
+  '1638408': Talbennan arc'hant griz
+  '1638409': Talbennan sian
+  '1638410': Talbennan mouk
+  '1638411': Talbennan glazur
+  '1638412': Talbennan gell
+  '1638413': Talbennan geoted
+  '1638414': Talbennan a gul
+  '1638415': Talbennan sabel
+  '1703936': Rannet, arc'hant da gentañ
+  '1703937': Rannet, aouraval da gentañ
+  '1703938': Rannet, limestra da gentañ
+  '1703939': Rannet, glazur sklaer da gentañ
+  '1703940': Rannet, aour da gentañ
+  '1703941': Rannet, geoted sklaer da gentañ
+  '1703942': Rannet, en-gwirion da gentañ
+  '1703943': Rannet, griz da gentañ
+  '1703944': Rannet, arc'hant griz da gentañ
+  '1703945': Rannet, sian da gentañ
+  '1703946': Rannet, mouk da gentañ
+  '1703947': Rannet, glazur da gentañ
+  '1703948': Rannet, gell da gentañ
+  '1703949': Rannet, geoted da gentañ
+  '1703950': Rannet, en gul da gentañ
+  '1703951': Rannet, sabel da gentañ
+  '1769472': Troc'het, arc'hant da gentañ
+  '1769473': Troc'het, aouraval da gentañ
+  '1769474': Troc'het, limestra da gentañ
+  '1769475': Troc'het, glazur sklaer da gentañ
+  '1769476': Troc'het, aour da gentañ
+  '1769477': Troc'het, geoted sklaer da gentañ
+  '1769478': Troc'het, en-gwirion da gentañ
+  '1769479': Troc'het, griz da gentañ
+  '1769480': Troc'het, arc'hant griz da gentañ
+  '1769481': Troc'het, sian da gentañ
+  '1769482': Troc'het, mouk da gentañ
+  '1769483': Troc'het, glazur da gentañ
+  '1769484': Troc'het, gell da gentañ
+  '1769485': Troc'het, geoted da gentañ
+  '1769486': Troc'het, en gul da gentañ
+  '1769487': Troc'het, sabel da gentañ
+  '1835008': Rannet, arc'hant da eil
+  '1835009': Rannet, aouraval da eil
+  '1835010': Rannet, limestra da eil
+  '1835011': Rannet, glazur sklaer da eil
+  '1835012': Rannet, aour da eil
+  '1835013': Rannet, geoted sklaer da eil
+  '1835014': Rannet, en-gwirion da eil
+  '1835015': Rannet, griz da eil
+  '1835016': Rannet, arc'hant griz da eil
+  '1835017': Rannet, sian da eil
+  '1835018': Rannet, mouk da eil
+  '1835019': Rannet, glazur da eil
+  '1835020': Rannet, gell da eil
+  '1835021': Rannet, geoted da eil
+  '1835022': Rannet, en gul da eil
+  '1835023': Rannet, sabel da eil
+  '1900544': Troc'het, arc'hant da eil
+  '1900545': Troc'het, aouraval da eil
+  '1900546': Troc'het, limestra da eil
+  '1900547': Troc'het, glazur sklaer da eil
+  '1900548': Troc'het, aour da eil
+  '1900549': Troc'het, geoted sklaer da eil
+  '1900550': Troc'het, en-gwirion da eil
+  '1900551': Troc'het, griz da eil
+  '1900552': Troc'het, arc'hant griz da eil
+  '1900553': Troc'het, sian da eil
+  '1900554': Troc'het, mouk da eil
+  '1900555': Troc'het, glazur da eil
+  '1900556': Troc'het, gell da eil
+  '1900557': Troc'het, geoted da eil
+  '1900558': Troc'het, en gul da eil
+  '1900559': Troc'het, sabel da eil
+  '1966080': Bevenn arc'hant
+  '1966081': Bevenn aouraval
+  '1966082': Bevenn limestra
+  '1966083': Bevenn glazur sklaer
+  '1966084': Bevenn aour
+  '1966085': Bevenn geoted
+  '1966086': Bevenn en-gwirion
+  '1966087': Bevenn griz
+  '1966088': Bevenn arc'hant griz
+  '1966089': Bevenn sian
+  '1966090': Bevenn mouk
+  '1966091': Bevenn glazur
+  '1966092': Bevenn gell
+  '1966093': Bevenn geoted
+  '1966094': Bevenn en gul
+  '1966095': Bevenn sabel
+  '2031616': Bevenn korzennek arc'hant
+  '2031617': Bevenn korzennek aouraval
+  '2031618': Bevenn korzennek limestra
+  '2031619': Bevenn korzennek glazur sklaer
+  '2031620': Bevenn korzennek aour
+  '2031621': Bevenn korzennek geoted sklaer
+  '2031622': Bevenn korzennek en-gwirion
+  '2031623': Bevenn korzennek griz
+  '2031624': Bevenn korzennek arc'hant griz
+  '2031625': Bevenn korzennek sian
+  '2031626': Bevenn korzennek mouk
+  '2031627': Bevenn korzennek glazur
+  '2031628': Bevenn korzennek gell
+  '2031629': Bevenn korzennek geoted
+  '2031630': Bevenn korzennek en gul
+  '2031631': Bevenn korzennek sabel
+  '2097152': Penn Creeper arc'hant
+  '2097153': Penn Creeper aouraval
+  '2097154': Penn Creeper limestra
+  '2097155': Penn Creeper glazur sklaer
+  '2097156': Penn Creeper aour
+  '2097157': Penn Creeper geoted sklaer
+  '2097158': Penn Creeper en-gwirion
+  '2097159': Penn Creeper griz
+  '2097160': Penn Creeper arc'hant griz
+  '2097161': Penn Creeper sian
+  '2097162': Penn Creeper mouk
+  '2097163': Penn Creeper glazur
+  '2097164': Penn Creeper gell
+  '2097165': Penn Creeper geoted
+  '2097166': Penn Creeper en gul
+  '2097167': Penn Creeper sabel
+  '2162688': Ilrezenn arc'hant
+  '2162689': Ilrezenn aouraval
+  '2162690': Ilrezenn limestra
+  '2162691': Ilrezenn glazur sklaer
+  '2162692': Ilrezenn aour
+  '2162693': Ilrezenn geoted sklaer
+  '2162694': Ilrezenn en-gwirion
+  '2162695': Ilrezenn griz
+  '2162696': Ilrezenn arc'hant griz
+  '2162697': Ilrezenn sian
+  '2162698': Ilrezenn mouk
+  '2162699': Ilrezenn glazur
+  '2162700': Ilrezenn gell
+  '2162701': Ilrezenn geoted
+  '2162702': Ilrezenn en gul
+  '2162703': Ilrezenn sabel
+  '2228224': Ilrezenn arc'hant ouzh beg
+  '2228225': Ilrezenn aouraval ouzh beg
+  '2228226': Ilrezenn limestra ouzh beg
+  '2228227': Ilrezenn glazur sklaer ouzh beg
+  '2228228': Ilrezenn aour ouzh beg
+  '2228229': Ilrezenn geoted sklaer ouzh beg
+  '2228230': Ilrezenn en-gwirion ouzh beg
+  '2228231': Ilrezenn griz ouzh beg
+  '2228232': Ilrezenn arc'hant griz ouzh beg
+  '2228233': Ilrezenn sian ouzh beg
+  '2228234': Ilrezenn mouk ouzh beg
+  '2228235': Ilrezenn glazur ouzh beg
+  '2228236': Ilrezenn gell ouzh beg
+  '2228237': Ilrezenn geoted ouzh beg
+  '2228238': Ilrezenn en gul ouzh beg
+  '2228239': Ilrezenn sabel ouzh beg
+  '2293760': Maezioù mogeriet arc'hant
+  '2293761': Maezioù mogeriet aouraval
+  '2293762': Maezioù mogeriet limestra
+  '2293763': Maezioù mogeriet glazur sklaer
+  '2293764': Maezioù mogeriet aour
+  '2293765': Maezioù mogeriet geoted sklaer
+  '2293766': Maezioù mogeriet en-gwirion
+  '2293767': Maezioù mogeriet griz
+  '2293768': Maezioù mogeriet arc'hant griz
+  '2293769': Maezioù mogeriet sian
+  '2293770': Maezioù mogeriet mouk
+  '2293771': Maezioù mogeriet glazur
+  '2293772': Maezioù mogeriet gell
+  '2293773': Maezioù mogeriet geoted
+  '2293774': Maezioù mogeriet en gul
+  '2293775': Maezioù mogeriet sabel
+  '2359296': Klopenn acr'hant
+  '2359297': Klopenn aouraval
+  '2359298': Klopenn limestra
+  '2359299': Klopenn glazur sklaer
+  '2359300': Klopenn aour
+  '2359301': Klopenn geoted sklaer
+  '2359302': Klopenn en-gwirion
+  '2359303': Klopenn griz
+  '2359304': Klopenn arc'hant griz
+  '2359305': Klopenn sian
+  '2359306': Klopenn mouk
+  '2359307': Klopenn glazur
+  '2359308': Klopenn gell
+  '2359309': Klopenn geoted
+  '2359310': Klopenn en gul
+  '2359311': Klopenn sabel
+  '2424832': Bleunienn ac'hant
+  '2424833': Bleunienn aouraval
+  '2424834': Bleunienn limestra
+  '2424835': Bleunienn glazur sklaer
+  '2424836': Bleunienn aour
+  '2424837': Bleunienn geoted sklaer
+  '2424838': Bleunienn en-gwirion
+  '2424839': Bleunienn griz
+  '2424840': Bleunienn arc'hant griz
+  '2424841': Bleunienn sian
+  '2424842': Bleunienn mouk
+  '2424843': Bleunienn glazur
+  '2424844': Bleunienn gell
+  '2424845': Bleunienn geoted
+  '2424846': Bleunienn en gul
+  '2424847': Bleunienn sabel
+  '2490368': Arouez arc'hant
+  '2490369': Arouez aouraval
+  '2490370': Arouez limestra
+  '2490371': Arouez glazur sklaer
+  '2490372': Arouez aour
+  '2490373': Arouez geoted sklaer
+  '2490374': Arouez en-gwirion
+  '2490375': Arouez griz
+  '2490376': Arouez arc'hant griz
+  '2490377': Arouez sian
+  '2490378': Arouez mouk
+  '2490379': Arouez glazur
+  '2490380': Arouez gell
+  '2490381': Arouez geoted
+  '2490382': Arouez en gul
+  '2490383': Arouez sabel
+  '2555904': Boul gwenn
+  '2555905': Boul orañjez
+  '2555906': Boul majenta
+  '2555907': Boul glas sklaer
+  '2555908': Boul melen
+  '2555909': Boul gwer-melen
+  '2555910': Boul roz
+  '2555911': Boul griz
+  '2555912': Boul griz sklaer
+  '2555913': Boul sian
+  '2555914': Boul mouk
+  '2555915': Boul glas
+  '2555916': Boul gell
+  '2555917': Boul gwer
+  '2555918': Boul ruz
+  '2555919': Boul du
+merchant_level:
+  '1': Deraouad
+  '2': Deskard
+  '3': Etre
+  '4': Ampart
+  '5': Mestr
+villager_profession:
+  none: Kêriadennad
+  armorer: Armdiour
+  butcher: Kiger
+  cartographer: Kartennour
+  cleric: Kloareg
+  farmer: Labourer-douar
+  fisherman: Pesketaer
+  fletcher: Gwareger
+  leatherworker: Labourer al lêr
+  librarian: Levraoueger
+  mason: Mason
+  nitwit: Morjin
+  shepherd: Dañvaer
+  toolsmith: Gov ostilhoù
+  weaponsmith: Gov armoù
+villager_career:
+  farmer: Labourer-douar
+  fisherman: Pesketaer
+  shepherd: Dañvaer
+  fletcher: Gwareger
+  librarian: Levraoueger
+  cartographer: Kartennour
+  cleric: Kloareg
+  armorer: Armdiour
+  weapon_smith: Govel armoù
+  tool_smith: Govel ostilhoù
+  butcher: Kiger
+  leatherworker: Labourer al lêr
+  nitwit: Morjin

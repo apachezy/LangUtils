@@ -1,0 +1,2196 @@
+# ####################################################
+# Build time: 2021-03-06 14:47:28                    #
+# ####################################################
+language:
+  code: hu_hu
+  name: Magyar
+  region: Magyarország
+material:
+  air: Levegő
+  stone: Kő
+  granite: Gránit
+  polished_granite: Csiszolt gránit
+  diorite: Diorit
+  polished_diorite: Csiszolt diorit
+  andesite: Andezit
+  polished_andesite: Csiszolt andezit
+  grass_block: Füves földblokk
+  dirt: Föld
+  coarse_dirt: Terméketlen föld
+  podzol: Podzol
+  crimson_nylium: Karmazsin nílium
+  warped_nylium: Torz nílium
+  cobblestone: Zúzottkő
+  oak_planks: Tölgydeszka
+  spruce_planks: Fenyődeszka
+  birch_planks: Nyírfa deszka
+  jungle_planks: Dzsungelfa deszka
+  acacia_planks: Akáciadeszka
+  dark_oak_planks: Sötéttölgy deszka
+  crimson_planks: Karmazsin deszka
+  warped_planks: Torz deszka
+  oak_sapling: Tölgycsemete
+  spruce_sapling: Fenyőcsemete
+  birch_sapling: Nyírfacsemete
+  jungle_sapling: Dzsungelfacsemete
+  acacia_sapling: Akáciacsemete
+  dark_oak_sapling: Sötéttölgy-csemete
+  bedrock: Alapkő
+  sand: Homok
+  red_sand: Vörös homok
+  gravel: Sóder
+  gold_ore: Aranyérc
+  iron_ore: Vasérc
+  coal_ore: Szénérc
+  nether_gold_ore: Netheraranyérc
+  oak_log: Tölgyfarönk
+  spruce_log: Fenyőrönk
+  birch_log: Nyírfarönk
+  jungle_log: Dzsungelfarönk
+  acacia_log: Akáciarönk
+  dark_oak_log: Sötéttölgy-rönk
+  crimson_stem: Karmazsin tönk
+  warped_stem: Torz tönk
+  stripped_oak_log: Kérgezett tölgyfarönk
+  stripped_spruce_log: Kérgezett fenyőrönk
+  stripped_birch_log: Kérgezett nyírfarönk
+  stripped_jungle_log: Kérgezett dzsungelfarönk
+  stripped_acacia_log: Kérgezett akáciarönk
+  stripped_dark_oak_log: Kérgezett sötéttölgy-rönk
+  stripped_crimson_stem: Kérgezett karmazsin tönk
+  stripped_warped_stem: Kérgezett torz tönk
+  stripped_oak_wood: Kérgezett tölgyfablokk
+  stripped_spruce_wood: Kérgezett fenyőblokk
+  stripped_birch_wood: Kérgezett nyírfablokk
+  stripped_jungle_wood: Kérgezett dzsungelfablokk
+  stripped_acacia_wood: Kérgezett akáciablokk
+  stripped_dark_oak_wood: Kérgezett sötéttölgyblokk
+  stripped_crimson_hyphae: Kérgezett karmazsin gombafonalak
+  stripped_warped_hyphae: Kérgezett torz gombafonalak
+  oak_wood: Tölgyfablokk
+  spruce_wood: Fenyőblokk
+  birch_wood: Nyírfablokk
+  jungle_wood: Dzsungelfablokk
+  acacia_wood: Akáciablokk
+  dark_oak_wood: Sötéttölgyblokk
+  crimson_hyphae: Karmazsin gombafonalak
+  warped_hyphae: Torz gombafonalak
+  oak_leaves: Tölgylevelek
+  spruce_leaves: Fenyőlevelek
+  birch_leaves: Nyírfalevelek
+  jungle_leaves: Dzsungelfalevelek
+  acacia_leaves: Akácialevelek
+  dark_oak_leaves: Sötéttölgy-levelek
+  sponge: Szivacs
+  wet_sponge: Nedves szivacs
+  glass: Üveg
+  lapis_ore: Lazuritérc
+  lapis_block: Lazuritblokk
+  dispenser: Adagoló
+  sandstone: Homokkő
+  chiseled_sandstone: Vésett homokkő
+  cut_sandstone: Vágott homokkő
+  note_block: Hangdoboz
+  powered_rail: Elektromos sín
+  detector_rail: Érzékelősín
+  sticky_piston: Ragacsos dugattyú
+  cobweb: Pókháló
+  grass: Fű
+  fern: Páfrány
+  dead_bush: Száraz kóró
+  seagrass: Tengerifű
+  sea_pickle: Világító zsákállat
+  piston: Dugattyú
+  white_wool: Fehér gyapjú
+  orange_wool: Narancssárga gyapjú
+  magenta_wool: Bíbor gyapjú
+  light_blue_wool: Világoskék gyapjú
+  yellow_wool: Sárga gyapjú
+  lime_wool: Világoszöld gyapjú
+  pink_wool: Rózsaszín gyapjú
+  gray_wool: Szürke gyapjú
+  light_gray_wool: Világosszürke gyapjú
+  cyan_wool: Türkizkék gyapjú
+  purple_wool: Lila gyapjú
+  blue_wool: Kék gyapjú
+  brown_wool: Barna gyapjú
+  green_wool: Zöld gyapjú
+  red_wool: Vörös gyapjú
+  black_wool: Fekete gyapjú
+  dandelion: Pitypang
+  poppy: Pipacs
+  blue_orchid: Kék orchidea
+  allium: Hagymavirág
+  azure_bluet: Kékpárna
+  red_tulip: Piros tulipán
+  orange_tulip: Narancssárga tulipán
+  white_tulip: Fehér tulipán
+  pink_tulip: Rózsaszín tulipán
+  oxeye_daisy: Margaréta
+  cornflower: Búzavirág
+  lily_of_the_valley: Gyöngyvirág
+  wither_rose: Witherrózsa
+  brown_mushroom: Barna gomba
+  red_mushroom: Piros gomba
+  crimson_fungus: Karmazsin gomba
+  warped_fungus: Torz gomba
+  crimson_roots: Karmazsin gyökerek
+  warped_roots: Torz gyökerek
+  nether_sprouts: Nethercsírák
+  weeping_vines: Keserves indák
+  twisting_vines: Tekergő indák
+  sugar_cane: Cukornád
+  kelp: Hínár
+  bamboo: Bambusz
+  gold_block: Aranyblokk
+  iron_block: Vasblokk
+  oak_slab: Tölgyfa lap
+  spruce_slab: Fenyőfa lap
+  birch_slab: Nyírfa lap
+  jungle_slab: Dzsungelfa lap
+  acacia_slab: Akáciafa lap
+  dark_oak_slab: Sötéttölgy lap
+  crimson_slab: Karmazsin deszkalap
+  warped_slab: Torz deszkalap
+  stone_slab: Kőlap
+  smooth_stone_slab: Csiszolt kőlap
+  sandstone_slab: Homokkő lap
+  cut_sandstone_slab: Vágott homokkő lap
+  petrified_oak_slab: Megkövült tölgyfa lap
+  cobblestone_slab: Zúzottkő lap
+  brick_slab: Tégla-lap
+  stone_brick_slab: Kőtégla lap
+  nether_brick_slab: Nethertégla-lap
+  quartz_slab: Kvarclap
+  red_sandstone_slab: Vörös homokkő lap
+  cut_red_sandstone_slab: Vágott vörös homokkő lap
+  purpur_slab: Purpurlap
+  prismarine_slab: Prizmarinlap
+  prismarine_brick_slab: Prizmarintégla lap
+  dark_prismarine_slab: Sötét prizmarinlap
+  smooth_quartz: Csiszolt kvarcblokk
+  smooth_red_sandstone: Csiszolt vörös homokkő
+  smooth_sandstone: Csiszolt homokkő
+  smooth_stone: Csiszolt kő
+  bricks: Tégla
+  tnt: TNT
+  bookshelf: Könyvespolc
+  mossy_cobblestone: Mohás zúzottkő
+  obsidian: Obszidián
+  torch: Fáklya
+  end_rod: End-rúd
+  chorus_plant: Refrénnövény
+  chorus_flower: Refrénvirág
+  purpur_block: Purpurblokk
+  purpur_pillar: Purpuroszlop
+  purpur_stairs: Purpurlépcső
+  spawner: Idézőketrec
+  oak_stairs: Tölgyfa lépcső
+  chest: Láda
+  diamond_ore: Gyémántérc
+  diamond_block: Gyémántblokk
+  crafting_table: Barkácsasztal
+  farmland: Termőföld
+  furnace: Kemence
+  ladder: Létra
+  rail: Sín
+  cobblestone_stairs: Zúzottkő lépcső
+  lever: Kar
+  stone_pressure_plate: Kő nyomólap
+  oak_pressure_plate: Tölgyfa nyomólap
+  spruce_pressure_plate: Fenyőfa nyomólap
+  birch_pressure_plate: Nyírfa nyomólap
+  jungle_pressure_plate: Dzsungelfa nyomólap
+  acacia_pressure_plate: Akáciafa nyomólap
+  dark_oak_pressure_plate: Sötéttölgy nyomólap
+  crimson_pressure_plate: Karmazsin nyomólap
+  warped_pressure_plate: Torz nyomólap
+  polished_blackstone_pressure_plate: Csiszolt feketekő nyomólap
+  redstone_ore: Redstone-érc
+  redstone_torch: Redstone-fáklya
+  snow: Hó
+  ice: Jég
+  snow_block: Hóblokk
+  cactus: Kaktusz
+  clay: Agyag
+  jukebox: Zenegép
+  oak_fence: Tölgyfa kerítés
+  spruce_fence: Fenyőfa kerítés
+  birch_fence: Nyírfa kerítés
+  jungle_fence: Dzsungelfa kerítés
+  acacia_fence: Akáciafa kerítés
+  dark_oak_fence: Sötéttölgy kerítés
+  crimson_fence: Karmazsin kerítés
+  warped_fence: Torz kerítés
+  pumpkin: Tök
+  carved_pumpkin: Faragott tök
+  netherrack: Netherrack
+  soul_sand: Lélekhomok
+  soul_soil: Lélektalaj
+  basalt: Bazalt
+  polished_basalt: Csiszolt bazalt
+  soul_torch: Lélekfáklya
+  glowstone: Izzókő
+  jack_o_lantern: Töklámpás
+  oak_trapdoor: Tölgyfa csapóajtó
+  spruce_trapdoor: Fenyőfa csapóajtó
+  birch_trapdoor: Nyírfa csapóajtó
+  jungle_trapdoor: Dzsungelfa csapóajtó
+  acacia_trapdoor: Akáciafa csapóajtó
+  dark_oak_trapdoor: Sötéttölgy csapóajtó
+  crimson_trapdoor: Karmazsin csapóajtó
+  warped_trapdoor: Torz csapóajtó
+  infested_stone: Kő ezüstmollyal
+  infested_cobblestone: Zúzottkő ezüstmollyal
+  infested_stone_bricks: Kőtégla ezüstmollyal
+  infested_mossy_stone_bricks: Mohás kőtégla ezüstmollyal
+  infested_cracked_stone_bricks: Repedt kőtégla ezüstmollyal
+  infested_chiseled_stone_bricks: Vésett kőtégla ezüstmollyal
+  stone_bricks: Kőtégla
+  mossy_stone_bricks: Mohás kőtégla
+  cracked_stone_bricks: Repedezett kőtégla
+  chiseled_stone_bricks: Vésett kőtégla
+  brown_mushroom_block: Barna gombablokk
+  red_mushroom_block: Piros gombablokk
+  mushroom_stem: Gombatönk
+  iron_bars: Vasrács
+  chain: Lánc
+  glass_pane: Üveglap
+  melon: Dinnye
+  vine: Inda
+  oak_fence_gate: Tölgyfa kerítéskapu
+  spruce_fence_gate: Fenyőfa kerítéskapu
+  birch_fence_gate: Nyírfa kerítéskapu
+  jungle_fence_gate: Dzsungelfa kerítéskapu
+  acacia_fence_gate: Akáciafa kerítéskapu
+  dark_oak_fence_gate: Sötéttölgy kerítéskapu
+  crimson_fence_gate: Karmazsin kerítéskapu
+  warped_fence_gate: Torz kerítéskapu
+  brick_stairs: Téglalépcső
+  stone_brick_stairs: Kőtégla-lépcső
+  mycelium: Micélium
+  lily_pad: Tavirózsa
+  nether_bricks: Nethertégla
+  cracked_nether_bricks: Repedt nethertégla
+  chiseled_nether_bricks: Vésett nethertégla
+  nether_brick_fence: Nethertégla-kerítés
+  nether_brick_stairs: Nethertégla-lépcső
+  enchanting_table: Varázslóasztal
+  end_portal_frame: Endportál-keret
+  end_stone: Endkő
+  end_stone_bricks: Endkőtégla
+  dragon_egg: Sárkánytojás
+  redstone_lamp: Redstone-lámpa
+  sandstone_stairs: Homokkő lépcső
+  emerald_ore: Smaragdérc
+  ender_chest: Enderláda
+  tripwire_hook: Botlódrót-horog
+  emerald_block: Smaragdblokk
+  spruce_stairs: Fenyőfa lépcső
+  birch_stairs: Nyírfa lépcső
+  jungle_stairs: Dzsungelfa lépcső
+  crimson_stairs: Karmazsin lépcső
+  warped_stairs: Torz lépcső
+  command_block: Parancsblokk
+  beacon: Jelzőfény
+  cobblestone_wall: Zúzottkő-fal
+  mossy_cobblestone_wall: Mohás zúzottkő-fal
+  brick_wall: Téglafal
+  prismarine_wall: Prizmarinfal
+  red_sandstone_wall: Vörös homokkő fal
+  mossy_stone_brick_wall: Mohás kőtéglafal
+  granite_wall: Gránitfal
+  stone_brick_wall: Kőtéglafal
+  nether_brick_wall: Nethertégla-fal
+  andesite_wall: Andezitfal
+  red_nether_brick_wall: Vörös nethertégla-fal
+  sandstone_wall: Homokkő fal
+  end_stone_brick_wall: Endkőtégla-fal
+  diorite_wall: Dioritfal
+  blackstone_wall: Feketekő fal
+  polished_blackstone_wall: Csiszolt feketekő fal
+  polished_blackstone_brick_wall: Csiszolt feketekőtégla-fal
+  stone_button: Kőgomb
+  oak_button: Tölgyfa gomb
+  spruce_button: Fenyőfa gomb
+  birch_button: Nyírfa gomb
+  jungle_button: Dzsungelfa gomb
+  acacia_button: Akáciafa gomb
+  dark_oak_button: Sötéttölgy gomb
+  crimson_button: Karmazsin gomb
+  warped_button: Torz gomb
+  polished_blackstone_button: Csiszolt feketekő gomb
+  anvil: Üllő
+  chipped_anvil: Repedt üllő
+  damaged_anvil: Sérült üllő
+  trapped_chest: Csapdaláda
+  light_weighted_pressure_plate: Könnyű súlymérő nyomólap
+  heavy_weighted_pressure_plate: Nehéz súlymérő nyomólap
+  daylight_detector: Napfényérzékelő
+  redstone_block: Redstone-blokk
+  nether_quartz_ore: Netherkvarcérc
+  hopper: Tölcsér
+  chiseled_quartz_block: Vésett kvarcblokk
+  quartz_block: Kvarcblokk
+  quartz_bricks: Kvarctégla
+  quartz_pillar: Kvarcoszlop
+  quartz_stairs: Kvarclépcső
+  activator_rail: Aktiválósín
+  dropper: Kidobó
+  white_terracotta: Fehér terrakotta
+  orange_terracotta: Narancssárga terrakotta
+  magenta_terracotta: Bíbor terrakotta
+  light_blue_terracotta: Világoskék terrakotta
+  yellow_terracotta: Sárga terrakotta
+  lime_terracotta: Világoszöld terrakotta
+  pink_terracotta: Rózsaszín terrakotta
+  gray_terracotta: Szürke terrakotta
+  light_gray_terracotta: Világosszürke terrakotta
+  cyan_terracotta: Türkizkék terrakotta
+  purple_terracotta: Lila terrakotta
+  blue_terracotta: Kék terrakotta
+  brown_terracotta: Barna terrakotta
+  green_terracotta: Zöld terrakotta
+  red_terracotta: Vörös terrakotta
+  black_terracotta: Fekete terrakotta
+  barrier: Akadály
+  iron_trapdoor: Vas csapóajtó
+  hay_block: Szalmabála
+  white_carpet: Fehér szőnyeg
+  orange_carpet: Narancssárga szőnyeg
+  magenta_carpet: Bíbor szőnyeg
+  light_blue_carpet: Világoskék szőnyeg
+  yellow_carpet: Sárga szőnyeg
+  lime_carpet: Világoszöld szőnyeg
+  pink_carpet: Rózsaszín szőnyeg
+  gray_carpet: Szürke szőnyeg
+  light_gray_carpet: Világosszürke szőnyeg
+  cyan_carpet: Türkizkék szőnyeg
+  purple_carpet: Lila szőnyeg
+  blue_carpet: Kék szőnyeg
+  brown_carpet: Barna szőnyeg
+  green_carpet: Zöld szőnyeg
+  red_carpet: Vörös szőnyeg
+  black_carpet: Fekete szőnyeg
+  terracotta: Terrakotta
+  coal_block: Szénblokk
+  packed_ice: Tömör jég
+  acacia_stairs: Akáciafa lépcső
+  dark_oak_stairs: Sötéttölgy lépcső
+  slime_block: Nyálkablokk
+  grass_path: Ösvény
+  sunflower: Napraforgó
+  lilac: Orgona
+  rose_bush: Rózsabokor
+  peony: Bazsarózsa
+  tall_grass: Magas fű
+  large_fern: Nagy páfrány
+  white_stained_glass: Fehér festett üveg
+  orange_stained_glass: Narancssárga festett üveg
+  magenta_stained_glass: Bíbor festett üveg
+  light_blue_stained_glass: Világoskék festett üveg
+  yellow_stained_glass: Sárga festett üveg
+  lime_stained_glass: Világoszöld festett üveg
+  pink_stained_glass: Rózsaszín festett üveg
+  gray_stained_glass: Szürke festett üveg
+  light_gray_stained_glass: Világosszürke festett üveg
+  cyan_stained_glass: Türkizkék festett üveg
+  purple_stained_glass: Lila festett üveg
+  blue_stained_glass: Kék festett üveg
+  brown_stained_glass: Barna festett üveg
+  green_stained_glass: Zöld festett üveg
+  red_stained_glass: Vörös festett üveg
+  black_stained_glass: Fekete festett üveg
+  white_stained_glass_pane: Fehér festett üveglap
+  orange_stained_glass_pane: Narancssárga festett üveglap
+  magenta_stained_glass_pane: Bíbor festett üveglap
+  light_blue_stained_glass_pane: Világoskék festett üveglap
+  yellow_stained_glass_pane: Sárga festett üveglap
+  lime_stained_glass_pane: Világoszöld festett üveglap
+  pink_stained_glass_pane: Rózsaszín festett üveglap
+  gray_stained_glass_pane: Szürke festett üveglap
+  light_gray_stained_glass_pane: Világosszürke festett üveglap
+  cyan_stained_glass_pane: Türkizkék festett üveglap
+  purple_stained_glass_pane: Lila festett üveglap
+  blue_stained_glass_pane: Kék festett üveglap
+  brown_stained_glass_pane: Barna festett üveglap
+  green_stained_glass_pane: Zöld festett üveglap
+  red_stained_glass_pane: Vörös festett üveglap
+  black_stained_glass_pane: Fekete festett üveglap
+  prismarine: Prizmarin
+  prismarine_bricks: Prizmarintégla
+  dark_prismarine: Sötét prizmarin
+  prismarine_stairs: Prizmarinlépcső
+  prismarine_brick_stairs: Prizmarintégla lépcső
+  dark_prismarine_stairs: Sötét prizmarinlépcső
+  sea_lantern: Tengeri lámpás
+  red_sandstone: Vörös homokkő
+  chiseled_red_sandstone: Vésett vörös homokkő
+  cut_red_sandstone: Vágott vörös homokkő
+  red_sandstone_stairs: Vörös homokkő lépcső
+  repeating_command_block: Ismétlő parancsblokk
+  chain_command_block: Láncolt parancsblokk
+  magma_block: Magmablokk
+  nether_wart_block: Netherbibircsók-blokk
+  warped_wart_block: Torz bibircsókblokk
+  red_nether_bricks: Vörös nethertégla
+  bone_block: Csontblokk
+  structure_void: Struktúraűr
+  observer: Megfigyelő
+  shulker_box: Shulkerdoboz
+  white_shulker_box: Fehér shulkerdoboz
+  orange_shulker_box: Narancssárga shulkerdoboz
+  magenta_shulker_box: Bíbor shulkerdoboz
+  light_blue_shulker_box: Világoskék shulkerdoboz
+  yellow_shulker_box: Sárga shulkerdoboz
+  lime_shulker_box: Világoszöld shulkerdoboz
+  pink_shulker_box: Rózsaszín shulkerdoboz
+  gray_shulker_box: Szürke shulkerdoboz
+  light_gray_shulker_box: Világosszürke shulkerdoboz
+  cyan_shulker_box: Türkizkék shulkerdoboz
+  purple_shulker_box: Lila shulkerdoboz
+  blue_shulker_box: Kék shulkerdoboz
+  brown_shulker_box: Barna shulkerdoboz
+  green_shulker_box: Zöld shulkerdoboz
+  red_shulker_box: Vörös shulkerdoboz
+  black_shulker_box: Fekete shulkerdoboz
+  white_glazed_terracotta: Fehér mázas kerámia
+  orange_glazed_terracotta: Narancssárga mázas kerámia
+  magenta_glazed_terracotta: Bíbor mázas kerámia
+  light_blue_glazed_terracotta: Világoskék mázas kerámia
+  yellow_glazed_terracotta: Sárga mázas kerámia
+  lime_glazed_terracotta: Világoszöld mázas kerámia
+  pink_glazed_terracotta: Rózsaszín mázas kerámia
+  gray_glazed_terracotta: Szürke mázas kerámia
+  light_gray_glazed_terracotta: Világosszürke mázas kerámia
+  cyan_glazed_terracotta: Türkizkék mázas kerámia
+  purple_glazed_terracotta: Lila mázas kerámia
+  blue_glazed_terracotta: Kék mázas kerámia
+  brown_glazed_terracotta: Barna mázas kerámia
+  green_glazed_terracotta: Zöld mázas kerámia
+  red_glazed_terracotta: Vörös mázas kerámia
+  black_glazed_terracotta: Fekete mázas kerámia
+  white_concrete: Fehér beton
+  orange_concrete: Narancssárga beton
+  magenta_concrete: Bíbor beton
+  light_blue_concrete: Világoskék beton
+  yellow_concrete: Sárga beton
+  lime_concrete: Világoszöld beton
+  pink_concrete: Rózsaszín beton
+  gray_concrete: Szürke beton
+  light_gray_concrete: Világosszürke beton
+  cyan_concrete: Türkizkék beton
+  purple_concrete: Lila beton
+  blue_concrete: Kék beton
+  brown_concrete: Barna beton
+  green_concrete: Zöld beton
+  red_concrete: Vörös beton
+  black_concrete: Fekete beton
+  white_concrete_powder: Fehér szárazbeton
+  orange_concrete_powder: Narancssárga szárazbeton
+  magenta_concrete_powder: Bíbor szárazbeton
+  light_blue_concrete_powder: Világoskék szárazbeton
+  yellow_concrete_powder: Sárga szárazbeton
+  lime_concrete_powder: Világoszöld szárazbeton
+  pink_concrete_powder: Rózsaszín szárazbeton
+  gray_concrete_powder: Szürke szárazbeton
+  light_gray_concrete_powder: Világosszürke szárazbeton
+  cyan_concrete_powder: Türkizkék szárazbeton
+  purple_concrete_powder: Lila szárazbeton
+  blue_concrete_powder: Kék szárazbeton
+  brown_concrete_powder: Barna szárazbeton
+  green_concrete_powder: Zöld szárazbeton
+  red_concrete_powder: Vörös szárazbeton
+  black_concrete_powder: Fekete szárazbeton
+  turtle_egg: Teknőstojás
+  dead_tube_coral_block: Elhalt csőkorall-blokk
+  dead_brain_coral_block: Elhalt agykorall-blokk
+  dead_bubble_coral_block: Elhalt buborékkorall-blokk
+  dead_fire_coral_block: Elhalt tűzkorall-blokk
+  dead_horn_coral_block: Elhalt agancskorall-blokk
+  tube_coral_block: Csőkorall-blokk
+  brain_coral_block: Agykorall-blokk
+  bubble_coral_block: Buborékkorall-blokk
+  fire_coral_block: Tűzkorall-blokk
+  horn_coral_block: Agancskorall-blokk
+  tube_coral: Csőkorall
+  brain_coral: Agykorall
+  bubble_coral: Buborékkorall
+  fire_coral: Tűzkorall
+  horn_coral: Agancskorall
+  dead_brain_coral: Elhalt agykorall
+  dead_bubble_coral: Elhalt buborékkorall
+  dead_fire_coral: Elhalt tűzkorall
+  dead_horn_coral: Elhalt agancskorall
+  dead_tube_coral: Elhalt csőkorall
+  tube_coral_fan: Csőkorall-legyező
+  brain_coral_fan: Agykorall-legyező
+  bubble_coral_fan: Buborékkorall-legyező
+  fire_coral_fan: Tűzkorall-legyező
+  horn_coral_fan: Agancskorall-legyező
+  dead_tube_coral_fan: Elhalt csőkorall-legyező
+  dead_brain_coral_fan: Elhalt agykorall-legyező
+  dead_bubble_coral_fan: Elhalt buborékkorall-legyező
+  dead_fire_coral_fan: Elhalt tűzkorall-legyező
+  dead_horn_coral_fan: Elhalt agancskorall-legyező
+  blue_ice: Kék jég
+  conduit: Csatorna
+  polished_granite_stairs: Csiszolt gránitlépcső
+  smooth_red_sandstone_stairs: Csiszolt vörös homokkő lépcső
+  mossy_stone_brick_stairs: Mohás kőtégla-lépcső
+  polished_diorite_stairs: Csiszolt dioritlépcső
+  mossy_cobblestone_stairs: Mohás zúzottkőlépcső
+  end_stone_brick_stairs: Endkőtégla-lépcső
+  stone_stairs: Kőlépcső
+  smooth_sandstone_stairs: Csiszolt homokkő lépcső
+  smooth_quartz_stairs: Csiszolt kvarclépcső
+  granite_stairs: Gránitlépcső
+  andesite_stairs: Andezitlépcső
+  red_nether_brick_stairs: Vörös nethertégla-lépcső
+  polished_andesite_stairs: Csiszolt andezitlépcső
+  diorite_stairs: Dioritlépcső
+  polished_granite_slab: Csiszolt gránitlap
+  smooth_red_sandstone_slab: Csiszolt vörös homokkő lap
+  mossy_stone_brick_slab: Mohás kőtégla-lap
+  polished_diorite_slab: Csiszolt dioritlap
+  mossy_cobblestone_slab: Mohás zúzottkő lap
+  end_stone_brick_slab: Endkőtégla lap
+  smooth_sandstone_slab: Csiszolt homokkő lap
+  smooth_quartz_slab: Csiszolt kvarclap
+  granite_slab: Gránitlap
+  andesite_slab: Andezitlap
+  red_nether_brick_slab: Vörös nethertégla-lap
+  polished_andesite_slab: Csiszolt andezitlap
+  diorite_slab: Dioritlap
+  scaffolding: Állványzat
+  iron_door: Vasajtó
+  oak_door: Tölgyfa ajtó
+  spruce_door: Fenyőfa ajtó
+  birch_door: Nyírfa ajtó
+  jungle_door: Dzsungelfa ajtó
+  acacia_door: Akáciafa ajtó
+  dark_oak_door: Sötéttölgy ajtó
+  crimson_door: Karmazsin ajtó
+  warped_door: Torz ajtó
+  repeater: Redstone-jelismétlő
+  comparator: Redstone-komparátor
+  structure_block: Struktúrablokk
+  jigsaw: Kirakósblokk
+  turtle_helmet: Teknőspáncél
+  scute: Pikkely
+  flint_and_steel: Kovakő és acél
+  apple: Alma
+  bow: Íj
+  arrow: Nyílvessző
+  coal: Szén
+  charcoal: Faszén
+  diamond: Gyémánt
+  iron_ingot: Vasrúd
+  gold_ingot: Aranyrúd
+  netherite_ingot: Netheritrúd
+  netherite_scrap: Netheritdarab
+  wooden_sword: Fakard
+  wooden_shovel: Faásó
+  wooden_pickaxe: Facsákány
+  wooden_axe: Fafejsze
+  wooden_hoe: Fakapa
+  stone_sword: Kőkard
+  stone_shovel: Kőásó
+  stone_pickaxe: Kőcsákány
+  stone_axe: Kőfejsze
+  stone_hoe: Kőkapa
+  golden_sword: Aranykard
+  golden_shovel: Aranyásó
+  golden_pickaxe: Aranycsákány
+  golden_axe: Aranyfejsze
+  golden_hoe: Aranykapa
+  iron_sword: Vaskard
+  iron_shovel: Vasásó
+  iron_pickaxe: Vascsákány
+  iron_axe: Vasfejsze
+  iron_hoe: Vaskapa
+  diamond_sword: Gyémántkard
+  diamond_shovel: Gyémántásó
+  diamond_pickaxe: Gyémántcsákány
+  diamond_axe: Gyémántfejsze
+  diamond_hoe: Gyémántkapa
+  netherite_sword: Netheritkard
+  netherite_shovel: Netheritásó
+  netherite_pickaxe: Netheritcsákány
+  netherite_axe: Netheritfejsze
+  netherite_hoe: Netheritkapa
+  stick: Bot
+  bowl: Tál
+  mushroom_stew: Gombaragu
+  string: Fonál
+  feather: Toll
+  gunpowder: Puskapor
+  wheat_seeds: Búzamag
+  wheat: Búza
+  bread: Kenyér
+  leather_helmet: Bőrsisak
+  leather_chestplate: Bőrzubbony
+  leather_leggings: Bőrnadrág
+  leather_boots: Bőrcsizma
+  chainmail_helmet: Láncsisak
+  chainmail_chestplate: Láncmellvért
+  chainmail_leggings: Lánc lábszárvédő
+  chainmail_boots: Láncbakancs
+  iron_helmet: Vassisak
+  iron_chestplate: Vas mellvért
+  iron_leggings: Vas lábszárvédő
+  iron_boots: Vascsizma
+  diamond_helmet: Gyémántsisak
+  diamond_chestplate: Gyémánt mellvért
+  diamond_leggings: Gyémánt lábszárvédő
+  diamond_boots: Gyémántcsizma
+  golden_helmet: Aranysisak
+  golden_chestplate: Arany mellvért
+  golden_leggings: Arany lábszárvédő
+  golden_boots: Aranycsizma
+  netherite_helmet: Netheritsisak
+  netherite_chestplate: Netherit mellvért
+  netherite_leggings: Netherit lábszárvédő
+  netherite_boots: Netheritcsizma
+  flint: Kovakő
+  porkchop: Nyers disznóhús
+  cooked_porkchop: Sült sertésszelet
+  painting: Festmény
+  golden_apple: Aranyalma
+  enchanted_golden_apple: Bűvös aranyalma
+  oak_sign: Tölgyfa tábla
+  spruce_sign: Fenyőtábla
+  birch_sign: Nyírfa tábla
+  jungle_sign: Dzsungelfa tábla
+  acacia_sign: Akáciafa tábla
+  dark_oak_sign: Sötéttölgy tábla
+  crimson_sign: Karmazsin tábla
+  warped_sign: Torz tábla
+  bucket: Vödör
+  water_bucket: Vizesvödör
+  lava_bucket: Lávásvödör
+  minecart: Csille
+  saddle: Nyereg
+  redstone: Redstone-por
+  snowball: Hógolyó
+  oak_boat: Tölgyfa csónak
+  leather: Bőr
+  milk_bucket: Tejesvödör
+  pufferfish_bucket: Gömbhal vödörben
+  salmon_bucket: Lazac vödörben
+  cod_bucket: Tőkehal vödörben
+  tropical_fish_bucket: Trópusi hal vödörben
+  brick: Tégla
+  clay_ball: Agyaggolyó
+  dried_kelp_block: Szárított hínárblokk
+  paper: Papír
+  book: Könyv
+  slime_ball: Nyálkagolyó
+  chest_minecart: Tárolócsille
+  furnace_minecart: Csille kemencével
+  egg: Tojás
+  compass: Iránytű
+  fishing_rod: Horgászbot
+  clock: Óra
+  glowstone_dust: Izzókő-por
+  cod: Nyers tőkehal
+  salmon: Nyers lazac
+  tropical_fish: Trópusi hal
+  pufferfish: Gömbhal
+  cooked_cod: Sült tőkehal
+  cooked_salmon: Sült lazac
+  ink_sac: Tintazsák
+  cocoa_beans: Kakaóbab
+  lapis_lazuli: Lazurit
+  white_dye: Fehér festék
+  orange_dye: Narancssárga festék
+  magenta_dye: Bíbor festék
+  light_blue_dye: Világoskék festék
+  yellow_dye: Sárga festék
+  lime_dye: Világoszöld festék
+  pink_dye: Rózsaszín festék
+  gray_dye: Szürke festék
+  light_gray_dye: Világosszürke festék
+  cyan_dye: Türkizkék festék
+  purple_dye: Lila festék
+  blue_dye: Kék festék
+  brown_dye: Barna festék
+  green_dye: Zöld festék
+  red_dye: Vörös festék
+  black_dye: Fekete festék
+  bone_meal: Csontliszt
+  bone: Csont
+  sugar: Cukor
+  cake: Torta
+  white_bed: Fehér ágy
+  orange_bed: Narancssárga ágy
+  magenta_bed: Bíbor ágy
+  light_blue_bed: Világoskék ágy
+  yellow_bed: Sárga ágy
+  lime_bed: Világoszöld ágy
+  pink_bed: Rózsaszín ágy
+  gray_bed: Szürke ágy
+  light_gray_bed: Világosszürke ágy
+  cyan_bed: Türkizkék ágy
+  purple_bed: Lila ágy
+  blue_bed: Kék ágy
+  brown_bed: Barna ágy
+  green_bed: Zöld ágy
+  red_bed: Vörös ágy
+  black_bed: Fekete ágy
+  cookie: Csokis süti
+  filled_map: Térkép
+  shears: Metszőolló
+  melon_slice: Dinnyeszelet
+  dried_kelp: Szárított hínár
+  pumpkin_seeds: Tökmag
+  melon_seeds: Dinnyemag
+  beef: Nyers marhahús
+  cooked_beef: Sült marhahús
+  chicken: Nyers csirkehús
+  cooked_chicken: Sült csirke
+  rotten_flesh: Rohadt hús
+  ender_pearl: Endergyöngy
+  blaze_rod: Lángrúd
+  ghast_tear: Ghastkönny
+  gold_nugget: Aranyrög
+  nether_wart: Netherbibircsók
+  potion: Bájital
+  glass_bottle: Üvegpalack
+  spider_eye: Pókszem
+  fermented_spider_eye: Erjesztett pókszem
+  blaze_powder: Őrlángpor
+  magma_cream: Magmakrém
+  brewing_stand: Főzőállvány
+  cauldron: Üst
+  ender_eye: Ender szeme
+  glistering_melon_slice: Csillámló dinnyeszelet
+  bat_spawn_egg: Denevéridéző tojás
+  bee_spawn_egg: Méhidéző tojás
+  blaze_spawn_egg: Őrlángidéző tojás
+  cat_spawn_egg: Macskaidéző tojás
+  cave_spider_spawn_egg: Barlangi pókot idéző tojás
+  chicken_spawn_egg: Csirkeidéző tojás
+  cod_spawn_egg: Tőkehalidéző tojás
+  cow_spawn_egg: Tehénidéző tojás
+  creeper_spawn_egg: Creeperidéző tojás
+  dolphin_spawn_egg: Delfinidéző tojás
+  donkey_spawn_egg: Szamáridéző tojás
+  drowned_spawn_egg: Vízbefúltidéző tojás
+  elder_guardian_spawn_egg: Vén őrszemet idéző tojás
+  enderman_spawn_egg: Endermanidéző tojás
+  endermite_spawn_egg: Endermite-idéző tojás
+  evoker_spawn_egg: Idézőt idéző tojás
+  fox_spawn_egg: Rókaidéző tojás
+  ghast_spawn_egg: Ghastidéző tojás
+  guardian_spawn_egg: Őrszemidéző tojás
+  hoglin_spawn_egg: Hoglinidéző tojás
+  horse_spawn_egg: Lóidéző tojás
+  husk_spawn_egg: Kiszáradt zombit idéző tojás
+  llama_spawn_egg: Lámaidéző tojás
+  magma_cube_spawn_egg: Magmakocka-idéző tojás
+  mooshroom_spawn_egg: Mooshroomidéző tojás
+  mule_spawn_egg: Öszvéridéző tojás
+  ocelot_spawn_egg: Ocelotidéző tojás
+  panda_spawn_egg: Pandaidéző tojás
+  parrot_spawn_egg: Papagájidéző tojás
+  phantom_spawn_egg: Fantomidéző tojás
+  pig_spawn_egg: Malacidéző tojás
+  piglin_spawn_egg: Piglinidéző tojás
+  piglin_brute_spawn_egg: Vandál Piglinidéző tojás
+  pillager_spawn_egg: Rablóidéző tojás
+  polar_bear_spawn_egg: Jegesmedve-idéző tojás
+  pufferfish_spawn_egg: Gömbhalidéző tojás
+  rabbit_spawn_egg: Nyúlidéző tojás
+  ravager_spawn_egg: Pusztítóidéző tojás
+  salmon_spawn_egg: Lazacidéző tojás
+  sheep_spawn_egg: Birkaidéző tojás
+  shulker_spawn_egg: Shulkeridéző tojás
+  silverfish_spawn_egg: Ezüstmolyidéző tojás
+  skeleton_spawn_egg: Csontvázidéző tojás
+  skeleton_horse_spawn_egg: Csontvázlóidéző tojás
+  slime_spawn_egg: Nyálkaidéző tojás
+  spider_spawn_egg: Pókidéző tojás
+  squid_spawn_egg: Tintahalidéző tojás
+  stray_spawn_egg: Kóborlóidéző tojás
+  strider_spawn_egg: Álomfutóidéző tojás
+  trader_llama_spawn_egg: Kereskedőláma-idéző tojás
+  tropical_fish_spawn_egg: Trópusi halat idéző tojás
+  turtle_spawn_egg: Teknősidéző tojás
+  vex_spawn_egg: Bosszancsidéző tojás
+  villager_spawn_egg: Falusiidéző tojás
+  vindicator_spawn_egg: Bosszúálló-idéző tojás
+  wandering_trader_spawn_egg: Vándorkereskedő-idéző tojás
+  witch_spawn_egg: Boszorkányidéző tojás
+  wither_skeleton_spawn_egg: Withercsontváz-idéző tojás
+  wolf_spawn_egg: Farkasidéző tojás
+  zoglin_spawn_egg: Zoglinidéző tojás
+  zombie_spawn_egg: Zombiidéző tojás
+  zombie_horse_spawn_egg: Zombilóidéző tojás
+  zombie_villager_spawn_egg: Élőhalott falusit idéző tojás
+  zombified_piglin_spawn_egg: Élőhalott piglint idéző tojás
+  experience_bottle: Varázslat palackja
+  fire_charge: Tűzgolyó
+  writable_book: Könyv és toll
+  written_book: Befejezett könyv
+  emerald: Smaragd
+  item_frame: Eszközkeret
+  flower_pot: Virágcserép
+  carrot: Sárgarépa
+  potato: Burgonya
+  baked_potato: Sült burgonya
+  poisonous_potato: Mérgező burgonya
+  map: Üres térkép
+  golden_carrot: Aranyrépa
+  skeleton_skull: Csontvázkoponya
+  wither_skeleton_skull: Withercsontváz-koponya
+  player_head: Játékosfej
+  zombie_head: Zombifej
+  creeper_head: Creeperfej
+  dragon_head: Sárkányfej
+  carrot_on_a_stick: Répa horgászboton
+  warped_fungus_on_a_stick: Torz gomba horgászboton
+  nether_star: Nethercsillag
+  pumpkin_pie: Tökpite
+  firework_rocket: Tűzijáték
+  firework_star: Tűzijátékcsillag
+  enchanted_book: Varázskönyv
+  nether_brick: Nethertégla
+  quartz: Netherkvarc
+  tnt_minecart: TNT csille
+  hopper_minecart: Tölcséres csille
+  prismarine_shard: Prizmarinszilánk
+  prismarine_crystals: Prizmarinkristály
+  rabbit: Nyers nyúlhús
+  cooked_rabbit: Sült nyúlhús
+  rabbit_stew: Nyúlpörkölt
+  rabbit_foot: Nyúlláb
+  rabbit_hide: Nyúlbőr
+  armor_stand: Páncélállvány
+  iron_horse_armor: Vas lópáncél
+  golden_horse_armor: Arany lópáncél
+  diamond_horse_armor: Gyémánt lópáncél
+  leather_horse_armor: Bőr lópáncél
+  lead: Póráz
+  name_tag: Cédula
+  command_block_minecart: Parancsblokk-csille
+  mutton: Nyers birkahús
+  cooked_mutton: Sült birkahús
+  white_banner: Fehér zászló
+  orange_banner: Narancssárga zászló
+  magenta_banner: Bíbor zászló
+  light_blue_banner: Világoskék zászló
+  yellow_banner: Sárga zászló
+  lime_banner: Világoszöld zászló
+  pink_banner: Rózsaszín zászló
+  gray_banner: Szürke zászló
+  light_gray_banner: Világosszürke zászló
+  cyan_banner: Türkizkék zászló
+  purple_banner: Lila zászló
+  blue_banner: Kék zászló
+  brown_banner: Barna zászló
+  green_banner: Zöld zászló
+  red_banner: Vörös zászló
+  black_banner: Fekete zászló
+  end_crystal: Endkristály
+  chorus_fruit: Refréngyümölcs
+  popped_chorus_fruit: Pattogatott refréngyümölcs
+  beetroot: Cékla
+  beetroot_seeds: Céklamag
+  beetroot_soup: Céklaleves
+  dragon_breath: Sárkánylehelet
+  splash_potion: Robbanó bájital
+  spectral_arrow: Spektrálnyíl
+  tipped_arrow: Varázsnyíl
+  lingering_potion: Időző bájital
+  shield: Pajzs
+  elytra: Kitinszárny
+  spruce_boat: Fenyőfa csónak
+  birch_boat: Nyírfa csónak
+  jungle_boat: Dzsungelfa csónak
+  acacia_boat: Akáciafa csónak
+  dark_oak_boat: Sötéttölgy csónak
+  totem_of_undying: Életmentés toteme
+  shulker_shell: Shulkerhéj
+  iron_nugget: Vasrög
+  knowledge_book: Tudás könyve
+  debug_stick: Debugpálca
+  music_disc_13: Hanglemez
+  music_disc_cat: Hanglemez
+  music_disc_blocks: Hanglemez
+  music_disc_chirp: Hanglemez
+  music_disc_far: Hanglemez
+  music_disc_mall: Hanglemez
+  music_disc_mellohi: Hanglemez
+  music_disc_stal: Hanglemez
+  music_disc_strad: Hanglemez
+  music_disc_ward: Hanglemez
+  music_disc_11: Hanglemez
+  music_disc_wait: Hanglemez
+  music_disc_pigstep: Hanglemez
+  trident: Szigony
+  phantom_membrane: Fantommembrán
+  nautilus_shell: Nautiluszhéj
+  heart_of_the_sea: Tenger szíve
+  crossbow: Számszeríj
+  suspicious_stew: Gyanús pörkölt
+  loom: Szövőszék
+  flower_banner_pattern: Zászlóminta
+  creeper_banner_pattern: Zászlóminta
+  skull_banner_pattern: Zászlóminta
+  mojang_banner_pattern: Zászlóminta
+  globe_banner_pattern: Zászlóminta
+  piglin_banner_pattern: Zászlóminta
+  composter: Komposztáló
+  barrel: Hordó
+  smoker: Füstölő
+  blast_furnace: Kohó
+  cartography_table: Térképasztal
+  fletching_table: Íjászasztal
+  grindstone: Köszörűkő
+  lectern: Olvasóállvány
+  smithing_table: Kovácsasztal
+  stonecutter: Kővágó
+  bell: Harang
+  lantern: Lámpás
+  soul_lantern: Léleklámpás
+  sweet_berries: Édes bogyók
+  campfire: Tábortűz
+  soul_campfire: Lélektábortűz
+  shroomlight: Fényspóra
+  honeycomb: Méhsejt
+  bee_nest: Méhkas
+  beehive: Méhkaptár
+  honey_bottle: Mézespalack
+  honey_block: Mézblokk
+  honeycomb_block: Méhsejtblokk
+  lodestone: Iránykő
+  netherite_block: Netheritblokk
+  ancient_debris: Ősi törmelék
+  target: Céltábla
+  crying_obsidian: Könnyező obszidián
+  blackstone: Feketekő
+  blackstone_slab: Feketekő lap
+  blackstone_stairs: Feketekő lépcső
+  gilded_blackstone: Aranyozott feketekő
+  polished_blackstone: Csiszolt feketekő
+  polished_blackstone_slab: Csiszolt feketekő lap
+  polished_blackstone_stairs: Csiszolt feketekő lépcső
+  chiseled_polished_blackstone: Vésett csiszolt feketekő
+  polished_blackstone_bricks: Csiszolt feketekőtégla
+  polished_blackstone_brick_slab: Csiszolt feketekőtégla lap
+  polished_blackstone_brick_stairs: Csiszolt feketekőtégla-lépcső
+  cracked_polished_blackstone_bricks: Repedt csiszolt feketekőtégla
+  respawn_anchor: Újraéledés-kapocs
+  water: Víz
+  lava: Láva
+  tall_seagrass: Magas tengerifű
+  piston_head: Dugattyúfej
+  moving_piston: Mozgó dugattyú
+  wall_torch: Fali fáklya
+  fire: Tűz
+  soul_fire: Lélektűz
+  redstone_wire: Redstone-vezeték
+  oak_wall_sign: Tölgyfa falitábla
+  spruce_wall_sign: Fenyőfa falitábla
+  birch_wall_sign: Nyírfa falitábla
+  acacia_wall_sign: Akáciafa falitábla
+  jungle_wall_sign: Dzsungelfa falitábla
+  dark_oak_wall_sign: Sötéttölgy falitábla
+  redstone_wall_torch: Fali redstone-fáklya
+  soul_wall_torch: Fali lélekfáklya
+  nether_portal: Nether-portál
+  attached_pumpkin_stem: Csatlakozott tökszár
+  attached_melon_stem: Csatlakozott dinnyeszár
+  pumpkin_stem: Tökszár
+  melon_stem: Dinnyeszár
+  end_portal: End-portál
+  cocoa: Kakaó
+  tripwire: Botlódrót
+  potted_oak_sapling: Tölgycsemete cserépben
+  potted_spruce_sapling: Fenyőcsemete cserépben
+  potted_birch_sapling: Nyírfacsemete cserépben
+  potted_jungle_sapling: Dzsungelfacsemete cserépben
+  potted_acacia_sapling: Akáciacsemete cserépben
+  potted_dark_oak_sapling: Sötéttölgycsemete cserépben
+  potted_fern: Páfrány cserépben
+  potted_dandelion: Pitypang cserépben
+  potted_poppy: Pipacs cserépben
+  potted_blue_orchid: Kék orchidea cserépben
+  potted_allium: Hagymavirág cserépben
+  potted_azure_bluet: Kékpárna cserépben
+  potted_red_tulip: Piros tulipán cserépben
+  potted_orange_tulip: Narancssárga tulipán cserépben
+  potted_white_tulip: Fehér tulipán cserépben
+  potted_pink_tulip: Rózsaszín tulipán cserépben
+  potted_oxeye_daisy: Margaréta cserépben
+  potted_cornflower: Búzavirág cserépben
+  potted_lily_of_the_valley: Gyöngyvirág cserépben
+  potted_wither_rose: Witherrózsa cserépben
+  potted_red_mushroom: Piros gomba cserépben
+  potted_brown_mushroom: Barna gomba cserépben
+  potted_dead_bush: Száraz kóró cserépben
+  potted_cactus: Kaktusz cserépben
+  carrots: Sárgarépák
+  potatoes: Burgonyák
+  skeleton_wall_skull: Fali csontvázkoponya
+  wither_skeleton_wall_skull: Fali withercsontváz-koponya
+  zombie_wall_head: Fali zombifej
+  player_wall_head: Fali játékosfej
+  creeper_wall_head: Fali creeperfej
+  dragon_wall_head: Fali sárkányfej
+  white_wall_banner: Fehér zászló
+  orange_wall_banner: Narancssárga zászló
+  magenta_wall_banner: Bíbor zászló
+  light_blue_wall_banner: Világoskék zászló
+  yellow_wall_banner: Sárga zászló
+  lime_wall_banner: Világoszöld zászló
+  pink_wall_banner: Rózsaszín zászló
+  gray_wall_banner: Szürke zászló
+  light_gray_wall_banner: Világosszürke zászló
+  cyan_wall_banner: Türkizkék zászló
+  purple_wall_banner: Lila zászló
+  blue_wall_banner: Kék zászló
+  brown_wall_banner: Barna zászló
+  green_wall_banner: Zöld zászló
+  red_wall_banner: Vörös zászló
+  black_wall_banner: Fekete zászló
+  beetroots: Cékla
+  end_gateway: End-kapu
+  frosted_ice: Gyorsfagyasztott jég
+  kelp_plant: Hínárszár
+  dead_tube_coral_wall_fan: Elhalt fali csőkorall-legyező
+  dead_brain_coral_wall_fan: Elhalt fali agykorall-legyező
+  dead_bubble_coral_wall_fan: Elhalt fali buborékkorall-legyező
+  dead_fire_coral_wall_fan: Elhalt fali tűzkorall-legyező
+  dead_horn_coral_wall_fan: Elhalt fali agancskorall-legyező
+  tube_coral_wall_fan: Fali csőkorall-legyező
+  brain_coral_wall_fan: Fali agykorall-legyező
+  bubble_coral_wall_fan: Fali buborékkorall-legyező
+  fire_coral_wall_fan: Fali tűzkorall-legyező
+  horn_coral_wall_fan: Fali agancskorall-legyező
+  bamboo_sapling: Bambuszhajtás
+  potted_bamboo: Bambusz cserépben
+  void_air: Űrbéli levegő
+  cave_air: Barlangi levegő
+  bubble_column: Buborékoszlop
+  sweet_berry_bush: Édesbogyóbokor
+  weeping_vines_plant: Keserves indaszár
+  twisting_vines_plant: Tekergő indaszár
+  crimson_wall_sign: Karmazsin falitábla
+  warped_wall_sign: Torz falitábla
+  potted_crimson_fungus: Karmazsin gomba cserépben
+  potted_warped_fungus: Torz gomba cserépben
+  potted_crimson_roots: Karmazsin gyökerek cserépben
+  potted_warped_roots: Torz gyökerek cserépben
+  zombie_pigman_spawn_egg: Zombi-malacembert idéző tojás
+  cactus_green: Kaktuszzöld
+  dandelion_yellow: Pitypangsárga
+  rose_red: Rózsavörös
+  sign: Tábla
+  wall_sign: Falitábla
+biome:
+  ocean: Óceán
+  plains: Mező
+  desert: Sivatag
+  mountains: Hegység
+  forest: Erdő
+  taiga: Tajga
+  swamp: Mocsár
+  river: Folyó
+  nether_wastes: Netherpusztaság
+  the_end: Az End
+  frozen_ocean: Befagyott óceán
+  frozen_river: Befagyott folyó
+  snowy_tundra: Havas tundra
+  snowy_mountains: Havas hegység
+  mushroom_fields: Gombamező
+  mushroom_field_shore: Gombás tengerpart
+  beach: Tengerpart
+  desert_hills: Dombos sivatag
+  wooded_hills: Dombos erdő
+  taiga_hills: Dombos tajga
+  mountain_edge: Hegység széle
+  jungle: Dzsungel
+  jungle_hills: Dombos dzsungel
+  jungle_edge: Dzsungel széle
+  deep_ocean: Mély óceán
+  stone_shore: Köves tengerpart
+  snowy_beach: Havas tengerpart
+  birch_forest: Nyírfaerdő
+  birch_forest_hills: Dombos nyírfaerdő
+  dark_forest: Sötét erdő
+  snowy_taiga: Havas tajga
+  snowy_taiga_hills: Havas, dombos tajga
+  giant_tree_taiga: Mamutfenyőerdő
+  giant_tree_taiga_hills: Dombos mamutfenyőerdő
+  wooded_mountains: Erdős hegység
+  savanna: Szavanna
+  savanna_plateau: Szavannás fennsík
+  badlands: Badland
+  wooded_badlands_plateau: Erdős badland-fennsík
+  badlands_plateau: Badland-fennsík
+  small_end_islands: Kis End-szigetek
+  end_midlands: End-középföld
+  end_highlands: End-felföld
+  end_barrens: End-pusztaság
+  warm_ocean: Meleg óceán
+  lukewarm_ocean: Langyos óceán
+  cold_ocean: Hideg óceán
+  deep_warm_ocean: Mély meleg óceán
+  deep_lukewarm_ocean: Mély langyos óceán
+  deep_cold_ocean: Mély hideg óceán
+  deep_frozen_ocean: Mély befagyott óceán
+  the_void: Az Űr
+  sunflower_plains: Napraforgómező
+  desert_lakes: Sivatag tavakkal
+  gravelly_mountains: Üledékes hegység
+  flower_forest: Virágos erdő
+  taiga_mountains: Fenyves hegység
+  swamp_hills: Dombos mocsár
+  ice_spikes: Jégtüskék
+  modified_jungle: Módosult dzsungel
+  modified_jungle_edge: Módosult dzsungel széle
+  tall_birch_forest: Magas nyírfaerdő
+  tall_birch_hills: Magas, dombos nyírfaerdő
+  dark_forest_hills: Dombos sötét erdő
+  snowy_taiga_mountains: Havas fenyves hegység
+  giant_spruce_taiga: Óriás mamutfenyőerdő
+  giant_spruce_taiga_hills: Dombos óriásmamutfenyő-erdő
+  modified_gravelly_mountains: Erdős üledékes hegység
+  shattered_savanna: Töredezett szavanna
+  shattered_savanna_plateau: Töredezett szavannás fennsík
+  eroded_badlands: Lepusztult badland
+  modified_wooded_badlands_plateau: Módosult erdős badland-fennsík
+  modified_badlands_plateau: Módosult badland-fennsík
+  bamboo_jungle: Bambuszdzsungel
+  bamboo_jungle_hills: Dombos bambuszdzsungel
+  soul_sand_valley: Lélekhomokvölgy
+  crimson_forest: Karmazsin erdő
+  warped_forest: Torz erdő
+  basalt_deltas: Bazaltdelta
+  nether: Nether
+enchantment:
+  fire_protection: Tűzállóság
+  sharpness: Élesség
+  flame: Láng
+  soul_speed: Lélekjárás
+  aqua_affinity: Vízaffinitás
+  punch: Ütés
+  loyalty: Hűség
+  depth_strider: Mélyjárás
+  vanishing_curse: Eltűnés átka
+  unbreaking: Törhetetlenség
+  knockback: Hátralökés
+  luck_of_the_sea: Horgászszerencse
+  binding_curse: Bilincselés átka
+  fortune: Szerencse
+  protection: Védelem
+  efficiency: Hatékonyság
+  mending: Önjavítás
+  frost_walker: Fagyjárás
+  lure: Csalétek
+  looting: Zsákmányolás
+  piercing: Átdöfés
+  blast_protection: Robbanásvédelem
+  smite: Sújtás
+  multishot: Többszörös lövés
+  fire_aspect: Lángpallos
+  channeling: Földelés
+  sweeping: Suhintás
+  thorns: Tüskék
+  bane_of_arthropods: Ízeltlábúak veszedelme
+  respiration: Légzés
+  riptide: Szökőár
+  silk_touch: Gyengéd érintés
+  quick_charge: Gyors töltés
+  projectile_protection: Lövedékvédelem
+  impaling: Felnyársalás
+  feather_falling: Könnyű esés
+  power: Erő
+  infinity: Végtelen
+potion:
+  uncraftable: Nem főzhető bájital
+  water: Vizespalack
+  mundane: Átlagos bájital
+  thick: Sűrű bájital
+  awkward: Ügyetlen bájital
+  night_vision: Éjjellátás bájitala
+  invisibility: Láthatatlanság bájitala
+  jump: Szökkenés bájitala
+  fire_resistance: Tűzállóság bájitala
+  speed: Fürgeség bájitala
+  slowness: Lomhaság bájitala
+  water_breathing: Víz alatti légzés bájitala
+  instant_heal: Gyógyítás bájitala
+  instant_damage: Sebzés bájitala
+  poison: Mérgező bájital
+  regen: Regeneráció bájitala
+  strength: Erő bájitala
+  weakness: Gyengeség bájitala
+  luck: Szerencse bájitala
+  turtle_master: Teknősmester bájitala
+  slow_falling: Lassú zuhanás bájitala
+splash_potion:
+  uncraftable: Nem főzhető robbanó bájital
+  water: Robbanó vizespalack
+  mundane: Átlagos robbanó bájital
+  thick: Sűrű robbanó bájital
+  awkward: Ügyetlen robbanó bájital
+  night_vision: Éjjellátás robbanó bájitala
+  invisibility: Láthatatlanság robbanó bájitala
+  jump: Szökkenés robbanó bájitala
+  fire_resistance: Tűzállóság robbanó bájitala
+  speed: Fürgeség robbanó bájitala
+  slowness: Lomhaság robbanó bájitala
+  water_breathing: Víz alatti légzés robbanó bájitala
+  instant_heal: Gyógyítás robbanó bájitala
+  instant_damage: Sebzés robbanó bájitala
+  poison: Mérgezés robbanó bájitala
+  regen: Regeneráció robbanó bájitala
+  strength: Erő robbanó bájitala
+  weakness: Gyengeség robbanó bájitala
+  luck: Szerencse robbanó bájitala
+  turtle_master: Teknősmester robbanó bájitala
+  slow_falling: Lassú zuhanás robbanó bájitala
+lingering_potion:
+  uncraftable: Nem főzhető időző bájital
+  water: Időző vizespalack
+  mundane: Átlagos időző bájital
+  thick: Sűrű időző bájital
+  awkward: Ügyetlen időző bájital
+  night_vision: Éjjellátás időző bájitala
+  invisibility: Láthatatlanság időző bájitala
+  jump: Szökkenés időző bájitala
+  fire_resistance: Tűzállóság időző bájitala
+  speed: Fürgeség időző bájitala
+  slowness: Lomhaság időző bájitala
+  water_breathing: Víz alatti légzés időző bájitala
+  instant_heal: Gyógyítás időző bájitala
+  instant_damage: Sebzés időző bájitala
+  poison: Mérgezés időző bájitala
+  regen: Regeneráció időző bájitala
+  strength: Erő időző bájitala
+  weakness: Gyengeség időző bájitala
+  luck: Szerencse időző bájitala
+  turtle_master: Teknősmester időző bájitala
+  slow_falling: Lassú zuhanás időző bájitala
+tipped_arrow:
+  uncraftable: Nem elkészíthető varázsnyíl
+  water: Vizes nyíl
+  mundane: Varázsnyíl
+  thick: Varázsnyíl
+  awkward: Varázsnyíl
+  night_vision: Éjjellátás nyila
+  invisibility: Láthatatlanság nyila
+  jump: Szökkenés nyila
+  fire_resistance: Tűzállóság nyila
+  speed: Fürgeség nyila
+  slowness: Lomhaság nyila
+  water_breathing: Vízlégzés nyila
+  instant_heal: Gyógyítás nyila
+  instant_damage: Sebzés nyila
+  poison: Mérgezett nyíl
+  regen: Regeneráció nyila
+  strength: Erő nyila
+  weakness: Gyengeség nyila
+  luck: Szerencse nyila
+  turtle_master: Teknősmester nyila
+  slow_falling: Lassú zuhanás nyila
+entity:
+  dropped_item: Tárgy
+  experience_orb: Tapasztalati gömb
+  area_effect_cloud: Időző bájitalfelhő
+  elder_guardian: Vén őrszem
+  wither_skeleton: Withercsontváz
+  stray: Kóborló
+  egg: Eldobott tojás
+  leash_hitch: Lasszócsomó
+  painting: Festmény
+  arrow: Nyílvessző
+  snowball: Hógolyó
+  fireball: Tűzgolyó
+  small_fireball: Kis tűzgolyó
+  ender_pearl: Eldobott endergyöngy
+  ender_signal: Ender szeme
+  splash_potion: Bájital
+  thrown_exp_bottle: Eldobott Varázslat palackja
+  item_frame: Eszközkeret
+  wither_skull: Witherkoponya
+  primed_tnt: Élesített TNT
+  falling_block: Zuhanó blokk
+  firework: Tűzijáték
+  husk: Kiszáradt zombi
+  spectral_arrow: Spektrálnyíl
+  shulker_bullet: Shulkerlövedék
+  dragon_fireball: Sárkánytűzgolyó
+  zombie_villager: Élőhalott falusi
+  skeleton_horse: Csontvázló
+  zombie_horse: Zombiló
+  armor_stand: Páncélállvány
+  donkey: Szamár
+  mule: Öszvér
+  evoker_fangs: Idézett állkapcsok
+  evoker: Idéző
+  vex: Bosszancs
+  vindicator: Bosszúálló
+  illusioner: Szemfényvesztő
+  minecart_command: Parancsblokk-csille
+  boat: Csónak
+  minecart: Csille
+  minecart_chest: Tárolócsille
+  minecart_furnace: Csille kemencével
+  minecart_tnt: TNT csille
+  minecart_hopper: Tölcséres csille
+  minecart_mob_spawner: Csille idézőketreccel
+  creeper: Creeper
+  skeleton: Csontváz
+  spider: Pók
+  giant: Óriás
+  zombie: Zombi
+  slime: Nyálka
+  ghast: Ghast
+  zombified_piglin: Élőhalott piglin
+  enderman: Enderman
+  cave_spider: Barlangi pók
+  silverfish: Ezüstmoly
+  blaze: Őrláng
+  magma_cube: Magmakocka
+  ender_dragon: Endersárkány
+  wither: Wither
+  bat: Denevér
+  witch: Boszorkány
+  endermite: Endermite
+  guardian: Őrszem
+  shulker: Shulker
+  pig: Malac
+  sheep: Birka
+  cow: Tehén
+  chicken: Csirke
+  squid: Tintahal
+  wolf: Farkas
+  mushroom_cow: Mooshroom
+  snowman: Hógólem
+  ocelot: Ocelot
+  iron_golem: Vasgólem
+  horse: Ló
+  rabbit: Nyúl
+  polar_bear: Jegesmedve
+  llama: Láma
+  llama_spit: Lámaköpet
+  parrot: Papagáj
+  villager: Falusi
+  ender_crystal: Endkristály
+  turtle: Teknős
+  phantom: Fantom
+  trident: Szigony
+  cod: Tőkehal
+  salmon: Lazac
+  pufferfish: Gömbhal
+  tropical_fish: Trópusi hal
+  drowned: Vízbefúlt
+  dolphin: Delfin
+  cat: Macska
+  panda: Panda
+  pillager: Rabló
+  ravager: Pusztító
+  trader_llama: Kereskedőláma
+  wandering_trader: Vándorkereskedő
+  fox: Róka
+  bee: Méh
+  hoglin: Hoglin
+  piglin: Piglin
+  strider: Álomfutó
+  zoglin: Zoglin
+  piglin_brute: Piglin verőlegény
+  fishing_hook: Úszó
+  lightning: Villám
+  player: Játékos
+  pig_zombie: Zombi-malacember
+effect:
+  speed: Gyorsaság
+  slow: Lassúság
+  fast_digging: Sietség
+  slow_digging: Fáradtság
+  increase_damage: Erő
+  heal: Azonnali gyógyulás
+  harm: Azonnali sérülés
+  jump: Magasugrás
+  confusion: Émelygés
+  regeneration: Regeneráció
+  damage_resistance: Ellenállás
+  fire_resistance: Tűzállóság
+  water_breathing: Vízlégzés
+  invisibility: Láthatatlanság
+  blindness: Vakság
+  night_vision: Éjjellátás
+  hunger: Éhség
+  weakness: Gyengeség
+  poison: Mérgezés
+  wither: Sorvadás
+  health_boost: Életerősítés
+  absorption: Elnyelt életerő
+  saturation: Telítettség
+  glowing: Fénylés
+  levitation: Lebegés
+  luck: Szerencse
+  unluck: Balszerencse
+  slow_falling: Lassú zuhanás
+  conduit_power: Csatornaeffektus
+  dolphins_grace: Delfin kecsessége
+  bad_omen: Rossz ómen
+  hero_of_the_village: A falu hőse
+tropical_fish_type:
+  kob: Korállszirtihal-féle
+  sunstreak: Bölcsőszájúhal
+  snooper: Sügéralakúhal
+  dasher: Papagájhal
+  brinely: Sörtefogúféle
+  spotty: Foltos Ajakoshal
+  flopper: Trópusi hal
+  stripey: Csíkoshal
+  glitter: Csillámoshal
+  blockfish: Blokkhal
+  betty: Zebrasügér
+  clayfish: Pillangóhal-féle
+dye_color:
+  white: Fehér
+  orange: Narancssárga
+  magenta: Bíbor
+  light_blue: Világoskék
+  yellow: Sárga
+  lime: Világoszöld
+  pink: Rózsaszín
+  gray: Szürke
+  light_gray: Világosszürke
+  cyan: Türkizkék
+  purple: Lila
+  blue: Kék
+  brown: Barna
+  green: Zöld
+  red: Vörös
+  black: Fekete
+named:
+  player_head_named: '%s feje'
+  potion_with_amplifier: '%s %s'
+  potion_with_duration: '%s (%s)'
+  unknown_enchantment: 'Ismeretlen varázslat: %s'
+  unknown_entity: 'Ismeretlen entitás: %s'
+  unknown_effect: 'Ismeretlen hatás: %s'
+tropical_fish_name:
+  '117506305': Korallsügér
+  '117899265': Hamuszín doktorhal
+  '185008129': Kék doktorhal
+  '117441793': Pillangóhal
+  '118161664': Bölcsőszájúhal
+  '65536': Bohóchal
+  '50726144': Sziámi harcoshal
+  '67764993': Törpesügér
+  '234882305': Császár csattogóhal
+  '67110144': Tengeri márna
+  '117441025': Zászlóshal
+  '16778497': Pompás pillangóhal
+  '101253888': Papagájhal
+  '50660352': Tündöklő császárhal
+  '918529': Piros bölcsőszájúhal
+  '235340288': Vörösajkú nyálkáshal
+  '918273': Vörös csattogóhal
+  '67108865': Polynemidae
+  '917504': Fehérsávos bohóchal
+  '459008': Íjhal
+  '67699456': Sárgafarkú papagájhal
+  '67371009': Sárga doktorhal
+colored_shied:
+  white: Fehér pajzs
+  orange: Narancssárga pajzs
+  magenta: Bíbor pajzs
+  light_blue: Világoskék pajzs
+  yellow: Sárga pajzs
+  lime: Világoszöld pajzs
+  pink: Rózsaszín pajzs
+  gray: Szürke pajzs
+  light_gray: Világosszürke pajzs
+  cyan: Türkizkék pajzs
+  purple: Lila pajzs
+  blue: Kék pajzs
+  brown: Barna pajzs
+  green: Zöld pajzs
+  red: Vörös pajzs
+  black: Fekete pajzs
+banner_pattern:
+  '65536': Fehér alsótelek
+  '65537': Narancssárga alsótelek
+  '65538': Bíbor alsótelek
+  '65539': Világoskék alsótelek
+  '65540': Sárga alsótelek
+  '65541': Világoszöld alsótelek
+  '65542': Rózsaszín alsótelek
+  '65543': Szürke alsótelek
+  '65544': Világosszürke alsótelek
+  '65545': Türkizkék alsótelek
+  '65546': Lila alsótelek
+  '65547': Kék alsótelek
+  '65548': Barna alsótelek
+  '65549': Zöld alsótelek
+  '65550': Vörös alsótelek
+  '65551': Fekete alsótelek
+  '131072': Fehér bal-alsótelek
+  '131073': Narancssárga bal-alsótelek
+  '131074': Bíbor bal-alsótelek
+  '131075': Világoskék bal-alsótelek
+  '131076': Sárga bal-alsótelek
+  '131077': Világoszöld bal-alsótelek
+  '131078': Rózsaszín bal-alsótelek
+  '131079': Szürke bal-alsótelek
+  '131080': Világosszürke bal-alsótelek
+  '131081': Türkizkék bal-alsótelek
+  '131082': Lila bal-alsótelek
+  '131083': Kék bal-alsótelek
+  '131084': Barna bal-alsótelek
+  '131085': Zöld bal-alsótelek
+  '131086': Vörös bal-alsótelek
+  '131087': Fekete bal-alsótelek
+  '196608': Fehér telek
+  '196609': Narancssárga telek
+  '196610': Bíbor telek
+  '196611': Világoskék telek
+  '196612': Sárga telek
+  '196613': Világoszöld telek
+  '196614': Rózsaszín telek
+  '196615': Szürke telek
+  '196616': Világosszürke telek
+  '196617': Türkizkék telek
+  '196618': Lila telek
+  '196619': Kék telek
+  '196620': Barna telek
+  '196621': Zöld telek
+  '196622': Vörös telek
+  '196623': Fekete telek
+  '262144': Fehér baltelek
+  '262145': Narancssárga baltelek
+  '262146': Bíbor baltelek
+  '262147': Világoskék baltelek
+  '262148': Sárga baltelek
+  '262149': Világoszöld baltelek
+  '262150': Rózsaszín baltelek
+  '262151': Szürke baltelek
+  '262152': Világosszürke baltelek
+  '262153': Türkizkék baltelek
+  '262154': Lila baltelek
+  '262155': Kék baltelek
+  '262156': Barna baltelek
+  '262157': Zöld baltelek
+  '262158': Vörös baltelek
+  '262159': Fekete baltelek
+  '327680': Fehér talp
+  '327681': Narancssárga talp
+  '327682': Bíbor talp
+  '327683': Világoskék talp
+  '327684': Sárga talp
+  '327685': Világoszöld talp
+  '327686': Rózsaszín talp
+  '327687': Szürke talp
+  '327688': Világosszürke talp
+  '327689': Türkizkék talp
+  '327690': Lila talp
+  '327691': Kék talp
+  '327692': Barna talp
+  '327693': Zöld talp
+  '327694': Vörös talp
+  '327695': Fekete talp
+  '393216': Fehér fő
+  '393217': Narancssárga fő
+  '393218': Bíbor fő
+  '393219': Világoskék fő
+  '393220': Sárga fő
+  '393221': Világoszöld fő
+  '393222': Rózsaszín fő
+  '393223': Szürke fő
+  '393224': Világosszürke fő
+  '393225': Türkizkék fő
+  '393226': Lila fő
+  '393227': Kék fő
+  '393228': Barna fő
+  '393229': Zöld fő
+  '393230': Vörös fő
+  '393231': Fekete fő
+  '458752': Fehér jobb cölöp
+  '458753': Narancssárga jobb cölöp
+  '458754': Bíbor jobb cölöp
+  '458755': Világoskék jobb cölöp
+  '458756': Sárga jobb cölöp
+  '458757': Világoszöld jobb cölöp
+  '458758': Rózsaszín jobb cölöp
+  '458759': Szürke jobb cölöp
+  '458760': Világosszürke jobb cölöp
+  '458761': Türkizkék jobb cölöp
+  '458762': Lila jobb cölöp
+  '458763': Kék jobb cölöp
+  '458764': Barna jobb cölöp
+  '458765': Zöld jobb cölöp
+  '458766': Vörös jobb cölöp
+  '458767': Fekete jobb cölöp
+  '524288': Fehér bal cölöp
+  '524289': Narancssárga bal cölöp
+  '524290': Bíbor bal cölöp
+  '524291': Világoskék bal cölöp
+  '524292': Sárga bal cölöp
+  '524293': Világoszöld bal cölöp
+  '524294': Rózsaszín bal cölöp
+  '524295': Szürke bal cölöp
+  '524296': Világosszürke bal cölöp
+  '524297': Türkizkék bal cölöp
+  '524298': Lila bal cölöp
+  '524299': Kék bal cölöp
+  '524300': Barna bal cölöp
+  '524301': Zöld bal cölöp
+  '524302': Vörös bal cölöp
+  '524303': Fekete bal cölöp
+  '589824': Fehér cölöp
+  '589825': Narancssárga cölöp
+  '589826': Bíbor cölöp
+  '589827': Világoskék cölöp
+  '589828': Sárga cölöp
+  '589829': Világoszöld cölöp
+  '589830': Rózsaszín cölöp
+  '589831': Szürke cölöp
+  '589832': Világosszürke cölöp
+  '589833': Türkizkék cölöp
+  '589834': Lila cölöp
+  '589835': Kék cölöp
+  '589836': Barna cölöp
+  '589837': Zöld cölöp
+  '589838': Vörös cölöp
+  '589839': Fekete cölöp
+  '655360': Fehér csík
+  '655361': Narancssárga csík
+  '655362': Bíbor csík
+  '655363': Világoskék csík
+  '655364': Sárga csík
+  '655365': Világoszöld csík
+  '655366': Rózsaszín csík
+  '655367': Szürke csík
+  '655368': Világosszürke csík
+  '655369': Türkizkék csík
+  '655370': Lila csík
+  '655371': Kék csík
+  '655372': Barna csík
+  '655373': Zöld csík
+  '655374': Vörös csík
+  '655375': Fekete csík
+  '720896': Fehér harántpólya
+  '720897': Narancssárga harántpólya
+  '720898': Bíbor harántpólya
+  '720899': Világoskék harántpólya
+  '720900': Sárga harántpólya
+  '720901': Világoszöld harántpólya
+  '720902': Rózsaszín harántpólya
+  '720903': Szürke harántpólya
+  '720904': Világosszürke harántpólya
+  '720905': Türkizkék harántpólya
+  '720906': Lila harántpólya
+  '720907': Kék harántpólya
+  '720908': Barna harántpólya
+  '720909': Zöld harántpólya
+  '720910': Vörös harántpólya
+  '720911': Fekete harántpólya
+  '786432': Fehér balharántpólya
+  '786433': Narancssárga balharántpólya
+  '786434': Bíbor balharántpólya
+  '786435': Világoskék balharántpólya
+  '786436': Sárga balharántpólya
+  '786437': Világoszöld balharántpólya
+  '786438': Rózsaszín balharántpólya
+  '786439': Szürke balharántpólya
+  '786440': Világosszürke balharántpólya
+  '786441': Türkizkék balharántpólya
+  '786442': Lila balharántpólya
+  '786443': Kék balharántpólya
+  '786444': Barna balharántpólya
+  '786445': Zöld balharántpólya
+  '786446': Vörös balharántpólya
+  '786447': Fekete balharántpólya
+  '851968': Fehérrel cölöpölt
+  '851969': Narancssárgával cölöpölt
+  '851970': Bíborral cölöpölt
+  '851971': Világoskékkel cölöpölt
+  '851972': Sárgával cölöpölt
+  '851973': Világoszölddel cölöpölt
+  '851974': Rózsaszínnel cölöpölt
+  '851975': Szürkével cölöpölt
+  '851976': Világosszürkével cölöpölt
+  '851977': Türkizkékkel cölöpölt
+  '851978': Lilával cölöpölt
+  '851979': Kékkel cölöpölt
+  '851980': Barnával cölöpölt
+  '851981': Zölddel cölöpölt
+  '851982': Vörössel cölöpölt
+  '851983': Feketével cölöpölt
+  '917504': Fehér harántkereszt
+  '917505': Narancssárga harántkereszt
+  '917506': Bíbor harántkereszt
+  '917507': Világoskék harántkereszt
+  '917508': Sárga harántkereszt
+  '917509': Világoszöld harántkereszt
+  '917510': Rózsaszín harántkereszt
+  '917511': Szürke harántkereszt
+  '917512': Világosszürke harántkereszt
+  '917513': Türkizkék harántkereszt
+  '917514': Lila harántkereszt
+  '917515': Kék harántkereszt
+  '917516': Barna harántkereszt
+  '917517': Zöld harántkereszt
+  '917518': Vörös harántkereszt
+  '917519': Fekete harántkereszt
+  '983040': Fehér kereszt
+  '983041': Narancssárga kereszt
+  '983042': Bíbor kereszt
+  '983043': Világoskék kereszt
+  '983044': Sárga kereszt
+  '983045': Világoszöld kereszt
+  '983046': Rózsaszín kereszt
+  '983047': Szürke kereszt
+  '983048': Világosszürke kereszt
+  '983049': Türkizkék kereszt
+  '983050': Lila kereszt
+  '983051': Kék kereszt
+  '983052': Barna kereszt
+  '983053': Zöld kereszt
+  '983054': Vörös kereszt
+  '983055': Fekete kereszt
+  '1048576': Fehérrel gallérozott
+  '1048577': Narancssárgával gallérozott
+  '1048578': Bíborral gallérozott
+  '1048579': Világoskékkel gallérozott
+  '1048580': Sárgával gallérozott
+  '1048581': Világoszölddel gallérozott
+  '1048582': Rózsaszínnel gallérozott
+  '1048583': Szürkével gallérozott
+  '1048584': Világosszürkével gallérozott
+  '1048585': Türkizkékkel gallérozott
+  '1048586': Lilával gallérozott
+  '1048587': Kékkel gallérozott
+  '1048588': Barnával gallérozott
+  '1048589': Zölddel gallérozott
+  '1048590': Vörössel gallérozott
+  '1048591': Feketével gallérozott
+  '1114112': Fehérrel saruzott
+  '1114113': Narancssárgával saruzott
+  '1114114': Bíborral saruzott
+  '1114115': Világoskékkel saruzott
+  '1114116': Sárgával saruzott
+  '1114117': Világoszölddel saruzott
+  '1114118': Rózsaszínnel saruzott
+  '1114119': Szürkével saruzott
+  '1114120': Világosszürkével saruzott
+  '1114121': Türkizkékkel saruzott
+  '1114122': Lilával saruzott
+  '1114123': Kékkel saruzott
+  '1114124': Barnával saruzott
+  '1114125': Zölddel saruzott
+  '1114126': Vörössel saruzott
+  '1114127': Feketével saruzott
+  '1179648': Fehér fogas talp
+  '1179649': Narancssárga fogas talp
+  '1179650': Bíbor fogas talp
+  '1179651': Világoskék fogas talp
+  '1179652': Sárga fogas talp
+  '1179653': Világoszöld fogas talp
+  '1179654': Rózsaszín fogas talp
+  '1179655': Szürke fogas talp
+  '1179656': Világosszürke fogas talp
+  '1179657': Türkizkék fogas talp
+  '1179658': Lila fogas talp
+  '1179659': Kék fogas talp
+  '1179660': Barna fogas talp
+  '1179661': Zöld fogas talp
+  '1179662': Vörös fogas talp
+  '1179663': Fekete fogas talp
+  '1245184': Fehér fogas fő
+  '1245185': Narancssárga fogas fő
+  '1245186': Bíbor fogas fő
+  '1245187': Világoskék fogas fő
+  '1245188': Sárga fogas fő
+  '1245189': Világoszöld fogas fő
+  '1245190': Rózsaszín fogas fő
+  '1245191': Szürke fogas fő
+  '1245192': Világosszürke fogas fő
+  '1245193': Türkizkék fogas fő
+  '1245194': Lila fogas fő
+  '1245195': Kék fogas fő
+  '1245196': Barna fogas fő
+  '1245197': Zöld fogas fő
+  '1245198': Vörös fogas fő
+  '1245199': Fekete fogas fő
+  '1310720': Fehérrel balharántolt
+  '1310721': Narancssárgával balharántolt
+  '1310722': Bíborral balharántolt
+  '1310723': Világoskékkel balharántolt
+  '1310724': Sárgával balharántolt
+  '1310725': Világoszölddel balharántolt
+  '1310726': Rózsaszínnel balharántolt
+  '1310727': Szürkével balharántolt
+  '1310728': Világosszürkével balharántolt
+  '1310729': Türkizkékkel balharántolt
+  '1310730': Lilával balharántolt
+  '1310731': Kékkel balharántolt
+  '1310732': Barnával balharántolt
+  '1310733': Zölddel balharántolt
+  '1310734': Vörössel balharántolt
+  '1310735': Feketével balharántolt
+  '1376256': Fehérrel alulról balharántolt
+  '1376257': Narancssárgával alulról balharántolt
+  '1376258': Bíborral alulról balharántolt
+  '1376259': Világoskékkel alulról balharántolt
+  '1376260': Sárgával alulról balharántolt
+  '1376261': Világoszölddel alulról balharántolt
+  '1376262': Rózsaszínnel alulról balharántolt
+  '1376263': Szürkével alulról balharántolt
+  '1376264': Világosszürkével alulról balharántolt
+  '1376265': Türkizkékkel alulról balharántolt
+  '1376266': Lilával alulról balharántolt
+  '1376267': Kékkel alulról balharántolt
+  '1376268': Barnával alulról balharántolt
+  '1376269': Zölddel alulról balharántolt
+  '1376270': Vörössel alulról balharántolt
+  '1376271': Feketével alulról balharántolt
+  '1441792': Fehérrel alulról harántolt
+  '1441793': Narancssárgával alulról harántolt
+  '1441794': Bíborral alulról harántolt
+  '1441795': Világoskékkel alulról harántolt
+  '1441796': Sárgával alulról harántolt
+  '1441797': Világoszölddel alulról harántolt
+  '1441798': Rózsaszínnel alulról harántolt
+  '1441799': Szürkével alulról harántolt
+  '1441800': Világosszürkével alulról harántolt
+  '1441801': Türkizkékkel alulról harántolt
+  '1441802': Lilával alulról harántolt
+  '1441803': Kékkel alulról harántolt
+  '1441804': Barnával alulról harántolt
+  '1441805': Zölddel alulról harántolt
+  '1441806': Vörössel alulról harántolt
+  '1441807': Feketével alulról harántolt
+  '1507328': Fehérrel harántolt
+  '1507329': Narancssárgával harántolt
+  '1507330': Bíborral harántolt
+  '1507331': Világoskékkel harántolt
+  '1507332': Sárgával harántolt
+  '1507333': Világoszölddel harántolt
+  '1507334': Rózsaszínnel harántolt
+  '1507335': Szürkével harántolt
+  '1507336': Világosszürkével harántolt
+  '1507337': Türkizkékkel harántolt
+  '1507338': Lilával harántolt
+  '1507339': Kékkel harántolt
+  '1507340': Barnával harántolt
+  '1507341': Zölddel harántolt
+  '1507342': Vörössel harántolt
+  '1507343': Feketével harántolt
+  '1572864': Fehér lepényes
+  '1572865': Narancssárga lepényes
+  '1572866': Bíbor lepényes
+  '1572867': Világoskék lepényes
+  '1572868': Sárga lepényes
+  '1572869': Világoszöld lepényes
+  '1572870': Rózsaszín lepényes
+  '1572871': Szürke lepényes
+  '1572872': Világosszürke lepényes
+  '1572873': Türkizkék lepényes
+  '1572874': Lila lepényes
+  '1572875': Kék lepényes
+  '1572876': Barna lepényes
+  '1572877': Zöld lepényes
+  '1572878': Vörös lepényes
+  '1572879': Fekete lepényes
+  '1638400': Fehér nagyruta
+  '1638401': Narancssárga nagyruta
+  '1638402': Bíbor nagyruta
+  '1638403': Világoskék nagyruta
+  '1638404': Sárga nagyruta
+  '1638405': Világoszöld nagyruta
+  '1638406': Rózsaszín nagyruta
+  '1638407': Szürke nagyruta
+  '1638408': Világosszürke nagyruta
+  '1638409': Türkizkék nagyruta
+  '1638410': Lila nagyruta
+  '1638411': Kék nagyruta
+  '1638412': Barna nagyruta
+  '1638413': Zöld nagyruta
+  '1638414': Vörös nagyruta
+  '1638415': Fekete nagyruta
+  '1703936': Fehérrel hasított
+  '1703937': Narancssárgával hasított
+  '1703938': Bíborral hasított
+  '1703939': Világoskékkel hasított
+  '1703940': Sárgával hasított
+  '1703941': Világoszölddel hasított
+  '1703942': Rózsaszínnel hasított
+  '1703943': Szürkével hasított
+  '1703944': Világosszürkével hasított
+  '1703945': Türkizkékkel hasított
+  '1703946': Lilával hasított
+  '1703947': Kékkel hasított
+  '1703948': Barnával hasított
+  '1703949': Zölddel hasított
+  '1703950': Vörössel hasított
+  '1703951': Feketével hasított
+  '1769472': Fehérrel vágott
+  '1769473': Narancssárgával vágott
+  '1769474': Bíborral vágott
+  '1769475': Világoskékkel vágott
+  '1769476': Sárgával vágott
+  '1769477': Világoszölddel vágott
+  '1769478': Rózsaszínnel vágott
+  '1769479': Szürkével vágott
+  '1769480': Világosszürkével vágott
+  '1769481': Türkizkékkel vágott
+  '1769482': Lilával vágott
+  '1769483': Kékkel vágott
+  '1769484': Barnával vágott
+  '1769485': Zölddel vágott
+  '1769486': Vörössel vágott
+  '1769487': Feketével vágott
+  '1835008': Fehérrel balról hasított
+  '1835009': Narancssárgával balról hasított
+  '1835010': Bíborral balról hasított
+  '1835011': Világoskékkel balról hasított
+  '1835012': Sárgával balról hasított
+  '1835013': Világoszölddel balról hasított
+  '1835014': Rózsaszínnel balról hasított
+  '1835015': Szürkével balról hasított
+  '1835016': Világosszürkével balról hasított
+  '1835017': Türkizkékkel balról hasított
+  '1835018': Lilával balról hasított
+  '1835019': Kékkel balról hasított
+  '1835020': Barnával balról hasított
+  '1835021': Zölddel balról hasított
+  '1835022': Vörössel balról hasított
+  '1835023': Feketével balról hasított
+  '1900544': Fehérrel alulról vágott
+  '1900545': Narancssárgával alulról vágott
+  '1900546': Bíborral alulról vágott
+  '1900547': Világoskékkel alulról vágott
+  '1900548': Sárgával alulról vágott
+  '1900549': Világoszölddel alulról vágott
+  '1900550': Rózsaszínnel alulról vágott
+  '1900551': Szürkével alulról vágott
+  '1900552': Világosszürkével alulról vágott
+  '1900553': Türkizkékkel alulról vágott
+  '1900554': Lilával alulról vágott
+  '1900555': Kékkel alulról vágott
+  '1900556': Barnával alulról vágott
+  '1900557': Zölddel alulról vágott
+  '1900558': Vörössel alulról vágott
+  '1900559': Feketével alulról vágott
+  '1966080': Fehér ráma
+  '1966081': Narancssárga ráma
+  '1966082': Bíbor ráma
+  '1966083': Világoskék ráma
+  '1966084': Sárga ráma
+  '1966085': Világoszöld ráma
+  '1966086': Rózsaszín ráma
+  '1966087': Szürke ráma
+  '1966088': Világosszürke ráma
+  '1966089': Türkizkék ráma
+  '1966090': Lila ráma
+  '1966091': Kék ráma
+  '1966092': Barna ráma
+  '1966093': Zöld ráma
+  '1966094': Vörös ráma
+  '1966095': Fekete ráma
+  '2031616': Fehér fogas ráma
+  '2031617': Narancssárga fogas ráma
+  '2031618': Bíbor fogas ráma
+  '2031619': Világoskék fogas ráma
+  '2031620': Sárga fogas ráma
+  '2031621': Világoszöld fogas ráma
+  '2031622': Rózsaszín fogas ráma
+  '2031623': Szürke fogas ráma
+  '2031624': Világosszürke fogas ráma
+  '2031625': Türkizkék fogas ráma
+  '2031626': Lila fogas ráma
+  '2031627': Kék fogas ráma
+  '2031628': Barna fogas ráma
+  '2031629': Zöld fogas ráma
+  '2031630': Vörös fogas ráma
+  '2031631': Fekete fogas ráma
+  '2097152': Fehér creeper címerkép
+  '2097153': Narancssárga creeper címerkép
+  '2097154': Bíbor creeper címerkép
+  '2097155': Világoskék creeper címerkép
+  '2097156': Sárga creeper címerkép
+  '2097157': Világoszöld creeper címerkép
+  '2097158': Rózsaszín creeper címerkép
+  '2097159': Szürke creeper címerkép
+  '2097160': Világosszürke creeper címerkép
+  '2097161': Türkizkék creeper címerkép
+  '2097162': Lila creeper címerkép
+  '2097163': Kék creeper címerkép
+  '2097164': Barna creeper címerkép
+  '2097165': Zöld creeper címerkép
+  '2097166': Vörös creeper címerkép
+  '2097167': Fekete creeper címerkép
+  '2162688': Fehér színátmenet
+  '2162689': Narancssárga színátmenet
+  '2162690': Bíbor színátmenet
+  '2162691': Világoskék színátmenet
+  '2162692': Sárga színátmenet
+  '2162693': Világoszöld színátmenet
+  '2162694': Rózsaszín színátmenet
+  '2162695': Szürke színátmenet
+  '2162696': Világosszürke színátmenet
+  '2162697': Türkizkék színátmenet
+  '2162698': Lila színátmenet
+  '2162699': Kék színátmenet
+  '2162700': Barna színátmenet
+  '2162701': Zöld színátmenet
+  '2162702': Vörös színátmenet
+  '2162703': Fekete színátmenet
+  '2228224': Fehér színátmenet alulról
+  '2228225': Narancssárga színátmenet alulról
+  '2228226': Bíbor színátmenet alulról
+  '2228227': Világoskék színátmenet alulról
+  '2228228': Sárga színátmenet alulról
+  '2228229': Világoszöld színátmenet alulról
+  '2228230': Rózsaszín színátmenet alulról
+  '2228231': Szürke színátmenet alulról
+  '2228232': Világosszürke színátmenet alulról
+  '2228233': Türkizkék színátmenet alulról
+  '2228234': Lila színátmenet alulról
+  '2228235': Kék színátmenet alulról
+  '2228236': Barna színátmenet alulról
+  '2228237': Zöld színátmenet alulról
+  '2228238': Vörös színátmenet alulról
+  '2228239': Fekete színátmenet alulról
+  '2293760': Fehér téglaminta
+  '2293761': Narancssárga téglaminta
+  '2293762': Bíbor téglaminta
+  '2293763': Világoskék téglaminta
+  '2293764': Sárga téglaminta
+  '2293765': Világoszöld téglaminta
+  '2293766': Rózsaszín téglaminta
+  '2293767': Szürke téglaminta
+  '2293768': Világosszürke téglaminta
+  '2293769': Türkizkék téglaminta
+  '2293770': Lila téglaminta
+  '2293771': Kék téglaminta
+  '2293772': Barna téglaminta
+  '2293773': Zöld téglaminta
+  '2293774': Vörös téglaminta
+  '2293775': Fekete téglaminta
+  '2359296': Fehér koponya címerkép
+  '2359297': Narancssárga koponya címerkép
+  '2359298': Bíbor koponya címerkép
+  '2359299': Világoskék koponya címerkép
+  '2359300': Sárga koponya címerkép
+  '2359301': Világoszöld koponya címerkép
+  '2359302': Rózsaszín koponya címerkép
+  '2359303': Szürke koponya címerkép
+  '2359304': Világosszürke koponya címerkép
+  '2359305': Türkizkék koponya címerkép
+  '2359306': Lila koponya címerkép
+  '2359307': Kék koponya címerkép
+  '2359308': Barna koponya címerkép
+  '2359309': Zöld koponya címerkép
+  '2359310': Vörös koponya címerkép
+  '2359311': Fekete koponya címerkép
+  '2424832': Fehér virág címerkép
+  '2424833': Narancssárga virág címerkép
+  '2424834': Bíbor virág címerkép
+  '2424835': Világoskék virág címerkép
+  '2424836': Sárga virág címerkép
+  '2424837': Világoszöld virág címerkép
+  '2424838': Rózsaszín virág címerkép
+  '2424839': Szürke virág címerkép
+  '2424840': Világosszürke virág címerkép
+  '2424841': Türkizkék virág címerkép
+  '2424842': Lila virág címerkép
+  '2424843': Kék virág címerkép
+  '2424844': Barna virág címerkép
+  '2424845': Zöld virág címerkép
+  '2424846': Vörös virág címerkép
+  '2424847': Fekete virág címerkép
+  '2490368': Fehér Mojang címerkép
+  '2490369': Narancssárga Mojang címerkép
+  '2490370': Bíbor Mojang címerkép
+  '2490371': Világoskék Mojang címerkép
+  '2490372': Sárga Mojang címerkép
+  '2490373': Világoszöld Mojang címerkép
+  '2490374': Rózsaszín Mojang címerkép
+  '2490375': Szürke Mojang címerkép
+  '2490376': Világosszürke Mojang címerkép
+  '2490377': Türkizkék Mojang címerkép
+  '2490378': Lila Mojang címerkép
+  '2490379': Kék Mojang címerkép
+  '2490380': Barna Mojang címerkép
+  '2490381': Zöld Mojang címerkép
+  '2490382': Vörös Mojang címerkép
+  '2490383': Fekete Mojang címerkép
+  '2555904': Fehér földgömb
+  '2555905': Narancssárga földgömb
+  '2555906': Bíbor földgömb
+  '2555907': Világoskék földgömb
+  '2555908': Sárga földgömb
+  '2555909': Világoszöld földgömb
+  '2555910': Rózsaszín földgömb
+  '2555911': Szürke földgömb
+  '2555912': Világosszürke földgömb
+  '2555913': Türkizkék földgömb
+  '2555914': Lila földgömb
+  '2555915': Kék földgömb
+  '2555916': Barna földgömb
+  '2555917': Zöld földgömb
+  '2555918': Vörös földgömb
+  '2555919': Fekete földgömb
+  '2621440': Fehér disznóorr
+  '2621441': Narancssárga disznóorr
+  '2621442': Bíbor disznóorr
+  '2621443': Világoskék disznóorr
+  '2621444': Sárga disznóorr
+  '2621445': Világoszöld disznóorr
+  '2621446': Rózsaszín disznóorr
+  '2621447': Szürke disznóorr
+  '2621448': Világosszürke disznóorr
+  '2621449': Cián disznóorr
+  '2621450': Lila disznóorr
+  '2621451': Kék disznóorr
+  '2621452': Barna disznóorr
+  '2621453': Zöld disznóorr
+  '2621454': Vörös disznóorr
+  '2621455': Fekete disznóorr
+merchant_level:
+  '1': Újonc
+  '2': Inas
+  '3': Segéd
+  '4': Iparos
+  '5': Mester
+villager_profession:
+  none: Falusi
+  armorer: Páncélkovács
+  butcher: Hentes
+  cartographer: Térképész
+  cleric: Pap
+  farmer: Földműves
+  fisherman: Halász
+  fletcher: Nyílkészítő
+  leatherworker: Tímár
+  librarian: Könyvtáros
+  mason: Kőműves
+  nitwit: Lágyagyú
+  shepherd: Pásztor
+  toolsmith: Eszközkovács
+  weaponsmith: Fegyverkovács
+villager_career:
+  farmer: Földműves
+  fisherman: Halász
+  shepherd: Pásztor
+  fletcher: Nyílkészítő
+  librarian: Könyvtáros
+  cartographer: Térképész
+  cleric: Pap
+  armorer: Páncélkovács
+  weapon_smith: Fegyverkovács
+  tool_smith: Eszközkovács
+  butcher: Hentes
+  leatherworker: Tímár
+  nitwit: Lágyagyú

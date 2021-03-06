@@ -1,0 +1,809 @@
+# ####################################################
+# Build time: 2021-03-06 14:47:27                    #
+# ####################################################
+language:
+  code: gv_im
+  name: Gaelg
+  region: Mannin
+material:
+  air: Aer
+  stone: Clagh
+  granite: Clagh hryal
+  polished_granite: Clagh hryal karrit
+  grass_block: Block Faiyr
+  dirt: Ooir
+  podzol: Podzol
+  cobblestone: Mooirlaig
+  oak_planks: Darree Plankyn
+  spruce_planks: Juys Loghlinagh Plankyn
+  birch_planks: Slatt Plankyn
+  jungle_planks: Doofyr Plankyn
+  acacia_planks: Acaashey Plankyn
+  dark_oak_planks: Plankyn Darragh Doo
+  oak_sapling: Darragh Aeg
+  spruce_sapling: Juys Aeg
+  birch_sapling: Beih Aeg
+  jungle_sapling: Billey Keylley-gloo Aeg
+  acacia_sapling: Billey Aeg Acaashey
+  dark_oak_sapling: Billey Aeg Darragh Doo
+  bedrock: Bun-charrick
+  sand: Geinnagh
+  red_sand: Geinnagh Jiarg
+  gravel: Garvel
+  gold_ore: Meain Airhey
+  iron_ore: Meain Yiarn
+  coal_ore: Meain Gheayil
+  nether_gold_ore: Nether Meain Airhey
+  oak_log: Kiap Darragh
+  spruce_log: Kiap Juys
+  birch_log: Kiap Beih
+  jungle_log: Kiap Doofyr
+  acacia_log: Kiap Acaashey
+  dark_oak_log: Kiap Darragh Doo
+  stripped_oak_log: Kiap Darragh Speeinit
+  stripped_spruce_log: Kiap Juys Speeinit
+  stripped_birch_log: Kiap Beih Speeinit
+  stripped_jungle_log: Kiap Doofyr Speeinit
+  stripped_acacia_log: Kiap Acaashey Speeinit
+  stripped_dark_oak_log: Kiap Darragh Doo Speeinit
+  stripped_oak_wood: Fuygh Darragh Speeinit
+  stripped_spruce_wood: Fuygh Juys Speeinit
+  stripped_birch_wood: Fuygh Beih Speeinit
+  stripped_jungle_wood: Fuygh Doofyr Speeinit
+  stripped_acacia_wood: Fuygh Acaashey Speeinit
+  stripped_dark_oak_wood: Fuygh Darragh Doo Speeinit
+  oak_wood: Fuygh Darree
+  spruce_wood: Fuygh Juys
+  birch_wood: Fuygh Beih
+  jungle_wood: Fuygh Keylley-gloo
+  acacia_wood: Fuygh Acaashey
+  dark_oak_wood: Fuygh Darree Doo
+  oak_leaves: Duillagyn Darree
+  spruce_leaves: Duillagyn Juys
+  birch_leaves: Duillagyn Beih
+  jungle_leaves: Duillagyn Keylley-gloo
+  acacia_leaves: Duillagyn Acaashey
+  dark_oak_leaves: Duillagyn Darree Doo
+  sponge: Thoag
+  wet_sponge: Thoag Ushlagh
+  glass: Glonney
+  lapis_ore: Meain Lapis Lazuli
+  lapis_block: Block Lapis Lazuli
+  dispenser: Rheynneyder
+  sandstone: Clagh Gheinnee
+  chiseled_sandstone: Clagh Gheinnee Grainnit
+  note_block: Block Kiaullee
+  powered_rail: Railley Bree
+  detector_rail: Railley Brahagh
+  sticky_piston: Sooaghan Lhiantagh
+  cobweb: Feegan
+  grass: Faiyr
+  fern: Renniagh
+  dead_bush: Crouw Lhome
+  seagrass: Mooir-faiyr
+  sea_pickle: Piggyl Keayne
+  piston: Sooaghan
+  white_wool: Ollan Bane
+  orange_wool: Ollan Yiarg-Buigh
+  magenta_wool: Ollan Vajentey
+  light_blue_wool: Ollan Vane-Ghorrym
+  yellow_wool: Ollan Wuigh
+  lime_wool: Ollan Ghlass Theiley
+  pink_wool: Ollan Vane-Jiarg
+  gray_wool: Ollan Lheeah
+  light_gray_wool: Ollan Lheeah-Ghlass
+  cyan_wool: Ollan Cheean
+  purple_wool: Ollan Yiarg-Ghorrym
+  blue_wool: Ollan Ghorrym
+  brown_wool: Ollan Ghone
+  green_wool: Ollan Ghlass
+  red_wool: Ollan Yiarg
+  black_wool: Ollan Ghoo
+  dandelion: Lus ny Minnag
+  poppy: Lus y Chadlee
+  blue_orchid: Bwoid Saggyrt Gorrym
+  allium: Garleid
+  azure_bluet: Gorrymeen Speyroil
+  red_tulip: Laayl Yiarg-Buigh
+  orange_tulip: Laayl Yiarg-Buigh
+  white_tulip: Laayl Vane-Jiarg
+  pink_tulip: Laayl Vane-Jiarg
+  oxeye_daisy: Neaynin Mooar
+  cornflower: Blaa Arroo
+  lily_of_the_valley: Lilee y Choan
+  wither_rose: Wither Rose
+  brown_mushroom: Shalmane Dhone
+  red_mushroom: Shalmane Jiarg
+  sugar_cane: Cuirtlagh Villish
+  kelp: Famlagh
+  bamboo: Cuirtlagh
+  gold_block: Block Airhey
+  iron_block: Block Yiarn
+  oak_slab: Leac ny Darragh
+  spruce_slab: Leac ny Juys Loghlinagh
+  birch_slab: Leac ny Beih
+  jungle_slab: Leac ny Doofyr
+  acacia_slab: Leac ny Acaashey
+  dark_oak_slab: Laac ny Darree Dorraghey
+  stone_slab: Leac Chloaie
+  smooth_stone_slab: Leac ny Clagh Meeley
+  sandstone_slab: Leac Chlagh Gheinnee
+  cut_sandstone_slab: Leac ny Clagh gheinnee Giarit
+  cobblestone_slab: Leac ass Mooirlaigyn
+  brick_slab: Leac ny Breek
+  nether_brick_slab: Leac ass Breekyn Dowin
+  quartz_slab: Leac Chlagh Ghreiney
+  red_sandstone_slab: Leac ny Clagh gheinnee Jiarg
+  purpur_slab: Leac Purpur
+  prismarine_slab: Laac ny Prismarine
+  prismarine_brick_slab: Laac ny Breek Prismarine
+  dark_prismarine_slab: Laac ny Prismarine Dorraghey
+  smooth_red_sandstone: Clagh gheinnee Meeley Jiarg
+  smooth_sandstone: Clagh Gheinnee Rea
+  smooth_stone: Clagh Meeley
+  bricks: Breekyn
+  tnt: TNT
+  bookshelf: Skelloo Lioar
+  mossy_cobblestone: ' Keynnagh Mooirlaig'
+  obsidian: Creg Glessagh
+  torch: Lostan
+  end_rod: Slat Oirr
+  chorus_plant: Losserey Chorus
+  chorus_flower: Blaa Chorus
+  purpur_block: Glout Purpur
+  purpur_pillar: Colloo Purpur
+  purpur_stairs: Greeshyn Purpur
+  spawner: Eeast oghyragh
+  oak_stairs: Greeshyn ny Darree
+  chest: Kistey
+  diamond_ore: Meain Ghiaman
+  diamond_block: Block Diaman
+  crafting_table: Boayrd Keirdey
+  farmland: Thalloo Balley
+  furnace: Furnish
+  ladder: Aarey
+  rail: Railley
+  cobblestone_stairs: Greeishyn Cloaie
+  lever: Corrag
+  stone_pressure_plate: Preays-Plait Clagh
+  oak_pressure_plate: Preays-Plait Darragh
+  spruce_pressure_plate: Preays-Plait Juys
+  birch_pressure_plate: Preays-Plait Beih
+  jungle_pressure_plate: Preays-Plait Doofyr
+  acacia_pressure_plate: Preays-Plait Acaashey
+  dark_oak_pressure_plate: Preays-Plait Darragh Doo
+  redstone_ore: Meain Chlagh Yiarg
+  redstone_torch: Doagan Clagh Yiarg
+  snow: Sniaghtey
+  ice: Rio
+  snow_block: Block ny Sniaghtey
+  cactus: Cactys
+  clay: Cray
+  jukebox: Kishtey Kiaullee
+  oak_fence: Cleigh
+  spruce_fence: Cleigh Juys
+  birch_fence: Cleigh Beih
+  jungle_fence: Cleigh Doofyr
+  acacia_fence: Cleigh Acaashey
+  dark_oak_fence: Cleigh Darree Doo
+  pumpkin: Pumkin
+  carved_pumpkin: Pumkin Giarrit
+  netherrack: Geayl Dowin
+  soul_sand: Geinnagh Anmey
+  glowstone: Clagh Sollysh
+  jack_o_lantern: Jack Sounag
+  oak_trapdoor: Cooylley Hroggee Darree
+  spruce_trapdoor: Cooylley Hroggee Juys
+  birch_trapdoor: Cooylley Hroggee Beih
+  jungle_trapdoor: Cooylley Hroggee Doofyr
+  acacia_trapdoor: Cooylley Hroggee Acaashey
+  dark_oak_trapdoor: Cooylley Hroggee Darree Doo
+  infested_stone: Clagh er chroo lesh
+  infested_cobblestone: Mooirlaig Er chroo lesh
+  infested_stone_bricks: Breekyn Clagh Er Chroo Lesh
+  infested_mossy_stone_bricks: Breekyn Clagh Cheynnagh Er Chroo Lesh
+  infested_cracked_stone_bricks: Breekyn Clagh Brisht Er Chroo Lesh
+  infested_chiseled_stone_bricks: Breekyn Clagh Ghrainney Er Chroo Lesh
+  stone_bricks: Breekyn Cloaie
+  mossy_stone_bricks: Breekyn Cloaie fo Keynnagh
+  cracked_stone_bricks: Breekyn Cloaie Brisht
+  chiseled_stone_bricks: Breekyn Cloaie Grainnit
+  brown_mushroom_block: Block ny Shalmane Dhone
+  red_mushroom_block: Jiarg Shalmane Block
+  mushroom_stem: Stholk Shalmane
+  iron_bars: Barryn Yiarn
+  glass_pane: Kerrin Glonney
+  melon: Mellyn
+  vine: Biljyn Feeney
+  oak_fence_gate: Giat Cleigh
+  spruce_fence_gate: Cleigh-Giatt Juys
+  birch_fence_gate: Cleigh-Giatt Beih
+  jungle_fence_gate: Cleigh-Giatt Doofyr
+  acacia_fence_gate: Cleigh-Giatt Acaashey
+  dark_oak_fence_gate: Cleigh-Giatt Darragh Doo
+  brick_stairs: Greeishyn Breekey
+  stone_brick_stairs: Greeishyn Breek Cloaie
+  mycelium: Crackan Shalmane
+  lily_pad: Duillag Lilee
+  nether_bricks: Nether Breekyn
+  chiseled_nether_bricks: ' Grainnit  Nether Breekyn'
+  nether_brick_fence: Cleigh Breek Dowin
+  nether_brick_stairs: Greeishyn Breek Dowin
+  enchanting_table: Boayrd Obbee
+  end_stone: Clagh Yerree
+  dragon_egg: Ooh Ghragan
+  redstone_lamp: Lostan Clagh Yiarg
+  sandstone_stairs: Greeishyn Clagh Gheinnee
+  emerald_ore: Meain Smaragaid
+  ender_chest: Coyr y Jerree
+  tripwire_hook: Dooan Snapperal
+  emerald_block: Block Smaragaid
+  spruce_stairs: Greeshyn ny Juys Loghlinagh
+  birch_stairs: Greeshyn ny Beih
+  jungle_stairs: Greeshyn ny Doofyr
+  command_block: Block Stiuree
+  beacon: Aile Rauee
+  cobblestone_wall: Boalley Mooirlaig
+  mossy_cobblestone_wall: Boalley Mooirlaig fo Keynnagh
+  granite_wall: Boalley Clagh hryal
+  stone_button: Cramman Clagh
+  oak_button: Cramman Darragh
+  spruce_button: Cramman Juys
+  birch_button: Cramman Beih
+  jungle_button: Cramman Doofyr
+  acacia_button: Cramman Acaashey
+  dark_oak_button: Cramman Darragh Doo
+  anvil: Ingan
+  chipped_anvil: Ingan Spolgit
+  damaged_anvil: Ingan Jeeyllit
+  trapped_chest: Kistey as Ribbey Er
+  daylight_detector: Brahder Greiney
+  redstone_block: Block Clagh Yiarg
+  nether_quartz_ore: Meain Chlagh Ghreiney Dowin
+  hopper: Crannag Nheeghyn
+  chiseled_quartz_block: Block Clagh Ghreiney Grainnit
+  quartz_block: Block Clagh Ghreiney
+  quartz_pillar: Colloo Clarinagh Vane
+  quartz_stairs: Greeishyn Clagh Ghreiney
+  activator_rail: Railley Greinnee
+  dropper: Tuitteyder
+  white_terracotta: Cray Vroit Vane
+  orange_terracotta: Cray Vroit Oranje
+  magenta_terracotta: Cray Vroit Majentey
+  light_blue_terracotta: Cray Vroit Vane-Gorrym
+  yellow_terracotta: Cray Vroit Bwee
+  lime_terracotta: Cray Vroit Vane-Geayney
+  pink_terracotta: Cray Vroit Vane-Yiarg
+  gray_terracotta: Cray Vroit Lheeah
+  light_gray_terracotta: Cray Vroit Vane-Lheeah
+  purple_terracotta: Cray Vroit Yiarg-Gorrym
+  blue_terracotta: Cray Vroit Gorrym
+  brown_terracotta: Cray Vroit Dhone
+  green_terracotta: Cray Vroit Geayney
+  red_terracotta: Cray Vroit Yiarg
+  black_terracotta: Cray Vroit Doo
+  barrier: Cagliagh
+  iron_trapdoor: Cooylley Hroggee Yiarn
+  hay_block: Bunney Traagh
+  white_carpet: Brat Laare Bane
+  orange_carpet: Brat Laare Jiarg-Buigh
+  magenta_carpet: Brat Laare Majentey
+  light_blue_carpet: Brat Laare Bane-Ghorrym
+  yellow_carpet: Brat Laare Buigh
+  lime_carpet: Brat Laare Glass Theiley
+  pink_carpet: Brat Laare Bane-Jiarg
+  gray_carpet: Brat Laare Lheean
+  light_gray_carpet: Brat Laare Lheeah-Ghlass
+  cyan_carpet: Brat Laare Keean
+  purple_carpet: Brat Laare Gorrym-Jiarg
+  blue_carpet: Brat Laare Gorrym
+  brown_carpet: Brat Laare Dhone
+  green_carpet: Brat Laare Glass
+  red_carpet: Brat Laare Jiarg
+  black_carpet: Brat Laare Doo
+  terracotta: Cray Vroit
+  coal_block: Block Geayil
+  packed_ice: Rio Broojit
+  acacia_stairs: Greeshyn ny Acaashey
+  dark_oak_stairs: Greeshyn ny Darree Doo
+  slime_block: Glooie Block
+  grass_path: Cassan Faiyr
+  sunflower: Lus ny Greiney
+  lilac: Laylac
+  rose_bush: Rosag
+  peony: Lus ny Gruinnag
+  tall_grass: Faiyr Liauyr
+  large_fern: Renniagh Vooar
+  white_stained_glass: Glonney Ghaait Bane
+  orange_stained_glass: Glonney Ghaait Jiarg-Buigh
+  magenta_stained_glass: Glonney Ghaait Majentey
+  light_blue_stained_glass: Glonney Ghaait Bane-Ghorrym
+  yellow_stained_glass: Glonney Ghaait Buigh
+  lime_stained_glass: Glonney Ghaait Glass Teiley
+  pink_stained_glass: Glonney Ghaait Bane-Jiarg
+  gray_stained_glass: Glonney Ghaait Lheeah
+  light_gray_stained_glass: Glonney Ghaait Lheeah-Ghlass
+  cyan_stained_glass: Glonney Ghaait Keean
+  purple_stained_glass: Glonney Ghaait Jiarg-Ghorrym
+  blue_stained_glass: Glonney Ghaait Gorrym
+  brown_stained_glass: Glonney Ghaait Dhone
+  green_stained_glass: Glonney Ghaait Glass
+  red_stained_glass: Glonney Ghaait Jiarg
+  black_stained_glass: Glonney Ghaait Doo
+  white_stained_glass_pane: Kerrin Glonney Ghaait Bane
+  orange_stained_glass_pane: Kerrin Glonney Ghaait Jiarg-Buigh
+  magenta_stained_glass_pane: Kerrin Glonney Ghaait Majentey
+  light_blue_stained_glass_pane: Kerrin Glonney Ghaait Bane-Ghorrym
+  yellow_stained_glass_pane: Kerrin Glonney Ghaait Buigh
+  lime_stained_glass_pane: Kerrin Glonney Ghaait Glass Theiley
+  pink_stained_glass_pane: Kerrin Glonney Ghaait Bane-Jiarg
+  gray_stained_glass_pane: Kerrin Glonney Ghaait Lheeah
+  light_gray_stained_glass_pane: Kerrin Glonney Ghaait Lheeah-Ghlass
+  cyan_stained_glass_pane: Kerrin Glonney Ghaait Keean
+  purple_stained_glass_pane: Kerrin Glonney Ghaait Jiarg-Ghorrym
+  blue_stained_glass_pane: Kerrin Glonney Ghaait Gorrym
+  brown_stained_glass_pane: Kerrin Glonney Ghaait Dhone
+  green_stained_glass_pane: Kerrin Glonney Ghaait Glass
+  red_stained_glass_pane: Kerrin Glonney Ghaait Jiarg
+  black_stained_glass_pane: Kerrin Glonney Ghaait Doo
+  prismarine: Prismarine
+  prismarine_bricks: Brickyn Prismarine
+  prismarine_stairs: Greeshyn ny Prismarine
+  prismarine_brick_stairs: Greeshyn ny Breek Prismarine
+  dark_prismarine_stairs: Greeshyn ny Prismarine Dorraghey
+  red_sandstone_stairs: Greeshyn Clagh gheinnee Jiarg
+  magma_block: Block ny Creg teaystagh
+  nether_wart_block: Block ny Fahney Nether
+  bone_block: Craue Block
+  observer: Geilltagh
+  shulker_box: Kishtey Shulker
+  white_shulker_box: Kishtey Shulker Vane
+  orange_shulker_box: Kishtey Shulker Oranje
+  magenta_shulker_box: Kishtey Shulker Majentey
+  light_blue_shulker_box: Kishtey Shulker Vane-ghorrym
+  yellow_shulker_box: Kishtey Shulker Bwee
+  lime_shulker_box: Kishtey Shulker Vane-geayney
+  pink_shulker_box: Kishtey Shulker Vane-yiarg
+  gray_shulker_box: Kishtey Shulker Lheeah
+  light_gray_shulker_box: Kishtey Shulker Vane-lheeah
+  purple_shulker_box: Kishtey Shulker Yiarg-gorrym
+  blue_shulker_box: Kishtey Shulker Gorrym
+  brown_shulker_box: Kishtey Shulker Dhone
+  green_shulker_box: Kishtey Shulker Geayney
+  red_shulker_box: Kishtey Shulker Yiarg
+  black_shulker_box: Kishtey Shulker Doo
+  white_glazed_terracotta: Cray Vroit Glonnit Bane
+  orange_glazed_terracotta: Cray Vroit Glonnit Oranje
+  magenta_glazed_terracotta: Cray Vroit Glonnit Majentey
+  light_blue_glazed_terracotta: Cray Vroit Glonnit Vane-Gorrym
+  yellow_glazed_terracotta: Cray Vroit Glonnit Bwee
+  lime_glazed_terracotta: Cray Vroit Glonnit Vane-Geayney
+  pink_glazed_terracotta: Cray Vroit Glonnit Vane-Yiarg
+  gray_glazed_terracotta: Cray Vroit Glonnit Lheeah
+  light_gray_glazed_terracotta: Cray Vroit Glonnit Vane-Lheeah
+  purple_glazed_terracotta: Cray Vroit Glonnit Yiarg-Gorrym
+  white_concrete_powder: Poodyrit Taah Vane
+  orange_concrete_powder: Poodyrit Taah Oranje
+  magenta_concrete_powder: Poodyrit Taah Majentey
+  light_blue_concrete_powder: Poodyrit Taah Vane-Gorrym
+  yellow_concrete_powder: Poodyrit Taah Bwee
+  lime_concrete_powder: Poodyrit Taah Vane-Geayney
+  pink_concrete_powder: Poodyrit Taah Vane-Yiarg
+  gray_concrete_powder: Poodyrit Taah Lheeah
+  light_gray_concrete_powder: Poodyrit Taah Vane-Lheeah
+  turtle_egg: Ooh Turtyl
+  blue_ice: Rio Gorrym
+  polished_granite_stairs: Greeshyn Clagh hryal karrit
+  granite_stairs: Greeshyn Clagh hryal
+  polished_granite_slab: Leac Clagh hryal karrit
+  granite_slab: Leac Clagh hryal
+  scaffolding: Scammalt
+  iron_door: Dorrys Yiarn
+  oak_door: Dorrys Darragh
+  spruce_door: Dorrys Juys
+  birch_door: Dorrys Beih
+  jungle_door: Dorrys Doofyr
+  acacia_door: Dorrys Acaashey
+  repeater: Aachoyrtagh Clagh Yiarg
+  comparator: Cosoyleyder Clagh Yiarg
+  flint_and_steel: Clagh Aile as Yiarn
+  apple: Ooyl
+  bow: Bow
+  arrow: Side
+  coal: Geayl
+  charcoal: Geayl Fuyghee
+  diamond: Diaman
+  iron_ingot: Caag Yiarn
+  gold_ingot: Caag Airhey
+  wooden_sword: Cliwe Fuyghee
+  wooden_shovel: Sleayst 'Uyghee
+  wooden_pickaxe: Speiy-Chlagh Fuyghee
+  wooden_axe: Teigh Fuyghee
+  wooden_hoe: Corlaig 'Uyghee
+  stone_sword: Cliwe Cloaie
+  stone_shovel: Sleayst Chloaie
+  stone_pickaxe: Speiy-Chlagh Cloaie
+  stone_axe: Teigh Chloaie
+  stone_hoe: Corlaig Chloaie
+  golden_sword: Cliwe Airhey
+  golden_shovel: Sleayst Airhey
+  golden_pickaxe: Speiy-Chlagh Airhey
+  golden_axe: Teigh Airhey
+  golden_hoe: Corlaig Airhey
+  iron_sword: Cliwe Yiarn
+  iron_shovel: Sleayst Yiarn
+  iron_pickaxe: Speiy-Chlagh Yiarn
+  iron_axe: Teigh Yiarn
+  iron_hoe: Corlaig Yiarn
+  diamond_sword: Cliwe Diaman
+  diamond_shovel: Sleayst Ghiaman
+  diamond_pickaxe: Speiy-Chlagh Diaman
+  diamond_axe: Teigh Ghiaman
+  diamond_hoe: Corlaig Ghiaman
+  stick: Maidjey
+  bowl: Meilley
+  mushroom_stew: Broie Shalmane
+  string: Streng
+  feather: Fedjag
+  gunpowder: Poodyr Çhentagh
+  wheat: Curnaght
+  bread: Arran
+  leather_helmet: Bayrn Liareagh
+  leather_chestplate: Cassag Liareagh
+  leather_leggings: Breetçhyn Liareagh
+  leather_boots: Bootsyn Liareagh
+  iron_helmet: Bayrn Yiarn
+  iron_chestplate: Eilley Phlait Yiarn
+  iron_leggings: Breetçhyn Yiarn
+  iron_boots: Bootsyn Yiarn
+  diamond_helmet: Bayrn Diaman
+  diamond_chestplate: Eilley Phlait Diamanagh
+  diamond_leggings: Breetçhyn Diaman
+  diamond_boots: Bootsyn Diaman
+  golden_helmet: Bayrn Airhey
+  golden_chestplate: Eilley Phlait Airhey
+  golden_leggings: Breetçhyn Airhey
+  golden_boots: Bootsyn Airhey
+  flint: Clagh Aile
+  porkchop: Asney Muick Aw
+  cooked_porkchop: Asney Muick Aarlit
+  painting: Jalloo
+  golden_apple: Ooyl Airhey
+  oak_sign: Fogrey Darragh
+  spruce_sign: Fogrey Juys
+  birch_sign: Fogrey Beih
+  jungle_sign: Fogrey Doofyr
+  acacia_sign: Fogrey Acaashey
+  dark_oak_sign: Fogrey Darree Dorraghey
+  bucket: Cruick
+  water_bucket: Cruick Ushtey
+  lava_bucket: Cruick Leavey
+  minecart: Cairt Veainey
+  saddle: Jeelt
+  redstone: Joan Clagh Yiarg
+  snowball: Bluckan Sniaghtee
+  leather: Liare
+  pufferfish_bucket: Cruick ny Eeast Bolgagh
+  salmon_bucket: Cruick ny Braddan
+  brick: Breek
+  dried_kelp_block: Famlagh Block Heer
+  paper: Pabyr
+  book: Lioar
+  slime_ball: Bluckan Glooie
+  chest_minecart: Cairt Veainey lesh Coyr
+  furnace_minecart: Cairt Veainey lesh Furnish
+  egg: Ooh
+  compass: Combaase
+  fishing_rod: Slat Eeastee
+  clock: Clag
+  glowstone_dust: Joan Clagh Hollysh
+  salmon: Braddan Aw
+  pufferfish: Eeast Bolgagh
+  cooked_salmon: Braddan Coagyrit
+  ink_sac: Bolgan Doo
+  cocoa_beans: Poanrey Coco
+  lapis_lazuli: Lapis Lazuli
+  white_dye: Daah Bane
+  orange_dye: Daah Jiarg-Buigh
+  magenta_dye: Daah Majentey
+  light_blue_dye: Daah Bane-Ghorrym
+  lime_dye: Daah Glass Theiley
+  pink_dye: Daah Bane-Yiarg
+  gray_dye: Daah Lheeah
+  light_gray_dye: Daah Lheeah-Ghlass
+  cyan_dye: Daah Keean
+  purple_dye: Daah Gorrym-Jiarg
+  blue_dye: Daah Gorrym
+  brown_dye: Daah Dhone
+  black_dye: Daah Doo
+  bone_meal: Daah Meinn Chraue
+  bone: Craue
+  sugar: Shugyr
+  cake: Berreen
+  white_bed: Lhiabbee Bane
+  orange_bed: Lhiabbee Jiarg-bwee
+  magenta_bed: Lhiabbee Majentey
+  light_blue_bed: Lhiabbee Bane-Ghorrym
+  yellow_bed: Lhiabbee Buigh
+  lime_bed: Lhiabbee Lheeah-ghlass
+  pink_bed: Lhiabbee Bane-Yiarg
+  gray_bed: Lhiabbee Lheeah
+  light_gray_bed: Lhiabbee Lheeah-Ghlass
+  cyan_bed: Lhiabbee Bane-Ghorrym
+  purple_bed: Lhiabbee Jiarg-Gorrym
+  blue_bed: Lhiabbee Gorrym
+  brown_bed: Lhiabbee Dhone
+  green_bed: Lhiabbee Geayney
+  red_bed: Lhiabbee Jiarg
+  black_bed: Lhiabbee Doo
+  cookie: Brishtag
+  filled_map: Caslys-Çheerey
+  shears: Jouish
+  pumpkin_seeds: Rassyn Pumkin
+  melon_seeds: Rassyn Mellyn
+  beef: Feill Vart Aw
+  cooked_beef: Stheag
+  chicken: Feill Chirkey Aw
+  cooked_chicken: Feill Chirkey Aarlit
+  rotten_flesh: Feill Loau
+  ender_pearl: Pearl y Jerree
+  blaze_rod: Slat Lossyr
+  ghast_tear: Jeir Ghowil
+  gold_nugget: Cramman Airhey
+  nether_wart: Lus ny Diunidyn
+  potion: Jough Pishagagh
+  glass_bottle: Boteil Glonney
+  spider_eye: Sooill Ghoo-oallee
+  fermented_spider_eye: Sooill Ghoo-oallee Imbylit
+  blaze_powder: Poodyr Lossyr
+  magma_cream: Barrag Leavey
+  brewing_stand: Shasstane Imbylagh
+  cauldron: Coirrey
+  ender_eye: Sooill y Jerree
+  bat_spawn_egg: Ooh er Mylgaghey Craitnaghyn
+  bee_spawn_egg: Ooh er Mylgaghey Shellanyn
+  blaze_spawn_egg: Lossyr Mylgaghey Ooh
+  cat_spawn_egg: Ooh er Mylgaghey Kiyt
+  cave_spider_spawn_egg: Doo-oallee Ooig Mylgaghey Ooh
+  chicken_spawn_egg: Ooh er Mylgaghey Feill Chirckaghyn
+  cod_spawn_egg: Ooh er Mylgaghey Giare-Voiddaghyn
+  cow_spawn_egg: Booa Mylgaghey Ooh
+  creeper_spawn_egg: Shnoageyder Mylgaghey Ooh
+  dolphin_spawn_egg: Ooh er Mylgaghey Lheimmeyder–Marraghyn
+  enderman_spawn_egg: Jerreyder Mylgaghey Ooh
+  hoglin_spawn_egg: Hoglin Mylgaghey Ooh
+  pig_spawn_egg: Muc Mylgaghey Ooh
+  piglin_spawn_egg: Piglin Mylgaghey Ooh
+  spider_spawn_egg: Doo-oallee Mylgaghey Ooh
+  villager_spawn_egg: Theayagh Mylgaghey Ooh
+  witch_spawn_egg: Buitçh Mylgaghey Ooh
+  zoglin_spawn_egg: Zoglin Mylgaghey Ooh
+  experience_bottle: Jough Ynsee
+  fire_charge: Lane Doarn d'Aile
+  writable_book: Lioar as Fedjag Screeuee
+  written_book: Lioar Screeuit
+  emerald: Smaragaid
+  item_frame: Clowan Nhee
+  flower_pot: Crockan Blaa
+  carrot: Carradje
+  potato: Praase
+  baked_potato: Praase Oghe
+  poisonous_potato: Praase Nieunagh
+  map: Caslys-Çheerey Bane
+  golden_carrot: Carradje Airhey
+  skeleton_skull: Kione Ushylagh
+  wither_skeleton_skull: Kione Shirgeyder
+  zombie_head: Kione Kirpey Fo Ghruightys
+  creeper_head: Kione Shnoageyder
+  carrot_on_a_stick: Carradje er Maidjey
+  nether_star: Rollage Dowin
+  pumpkin_pie: Pye Pumkin
+  firework_rocket: Çhentag
+  firework_star: Rollage Çhentag
+  enchanted_book: Lioar fo Ghruiaghtys
+  nether_brick: Breek Dowin
+  quartz: Clarinagh Dowin
+  tnt_minecart: Cairt Veainey lesh TNT
+  hopper_minecart: Cairt Veainey lesh Crannag
+  iron_horse_armor: Eilley Chabbyl Yiarn
+  diamond_horse_armor: Eilley Chabbyl Diaman
+  lead: Yeeal
+  name_tag: Lipaid Ennym
+  command_block_minecart: Cairt Veainey as Block Oardee aynjee
+  splash_potion: Jough Yn-Skeoll
+  spectral_arrow: Fleit Scaanagh
+  lingering_potion: Jough Tannaghtyn Foddey
+  music_disc_13: Jysk Kiaullee
+  music_disc_cat: Jysk Kiaullee
+  music_disc_blocks: Jysk Kiaullee
+  music_disc_chirp: Jysk Kiaullee
+  music_disc_far: Jysk Kiaullee
+  music_disc_mall: Jysk Kiaullee
+  music_disc_mellohi: Jysk Kiaullee
+  music_disc_stal: Jysk Kiaullee
+  music_disc_strad: Jysk Kiaullee
+  music_disc_ward: Jysk Kiaullee
+  music_disc_11: Jysk Kiaullee
+  music_disc_wait: Jysk Kiaullee
+  music_disc_pigstep: Jysk Kiaullee
+  trident: Trooreen
+  loom: Bart
+  flower_banner_pattern: Sambyl Brattagh
+  creeper_banner_pattern: Sambyl Brattagh
+  skull_banner_pattern: Sambyl Brattagh
+  mojang_banner_pattern: Sambyl Brattagh
+  globe_banner_pattern: Sambyl Brattagh
+  piglin_banner_pattern: Sambyl Brattagh
+  grindstone: Clagh vleihveayn
+  lectern: Shasstan lioaragh
+  stonecutter: Jallooder cloaie
+  bell: Kiaullane
+  lantern: Londeyr
+  sweet_berries: Berrishyn Millish
+  campfire: Campaile
+  honeycomb: Khere Volley
+  bee_nest: Edd Shellan
+  beehive: Shelleig
+  honey_block: Glout Mill
+  honeycomb_block: Glout Khere volley
+  water: Ushtey
+  lava: Leavey
+  tall_seagrass: Mooir-faiyr Liauyr
+  piston_head: Kione Sooaghan
+  moving_piston: Sooaghan Gleashagh
+  wall_torch: boalley Lostan
+  fire: Aile
+  redstone_wire: Streng Redstone
+  oak_wall_sign: Boalley Darragh Stowran-cowree
+  spruce_wall_sign: Boalley Juys Stowran-cowree
+  birch_wall_sign: Boalley Beih Stowran-cowree
+  acacia_wall_sign: Boalley Acaashey Stowran-cowree
+  jungle_wall_sign: Boalley Doofyr Stowran-cowree
+  dark_oak_wall_sign: Boalley Darragh Doo Stowran-cowree
+  redstone_wall_torch: Redstone boalley Lostan
+  nether_portal: Gait Nether
+  pumpkin_stem: Stholk Pumkin
+  melon_stem: Stholk Mellyn
+  end_portal: Dorrys Jerree
+  cocoa: Coco
+  tripwire: Streng Snapperal
+  potted_fern: Renniagh Lhiassit
+  potted_dandelion: Lus y Vinnagh Lhiassit
+  potted_poppy: Lus y Chadlee Lhiassit
+  carrots: Carradjyn
+  potatoes: Praaseyn
+  frosted_ice: Rio Riojit
+  kelp_plant: Rassan y Famlagh
+  void_air: Aer Folmaghey
+  cave_air: Aer Guag
+  sweet_berry_bush: Thammag Smeyr Millish
+  clay_ball: Cray
+  cactus_green: Glass Cactys
+  dandelion_yellow: Daah Buigh Lus ny Minnag
+  rose_red: Daah Jiarg Roseagh
+  sign: Cur dt'ennym
+biome:
+  ocean: Faarkey
+  desert: Faasagh
+  forest: Keyll
+  the_end: Yn End
+  birch_forest: Beih Keyll
+enchantment:
+  fire_protection: Do-Lostey
+  sharpness: Geyrid
+  flame: Lossyr
+  aqua_affinity: Obbraghey Fo Ushtey
+  punch: Bwoalley
+  unbreaking: Do-Vrishey
+  knockback: Seiy Ergooyl
+  luck_of_the_sea: Aigh ny Marrey
+  fortune: Ard-Sonnys
+  protection: Coadey
+  efficiency: Niart Reuyree
+  lure: Bite
+  looting: Gruiaghey
+  blast_protection: Coadey noi Bleaystyn
+  smite: Gortey
+  fire_aspect: Foaddey
+  thorns: Jialgyn
+  bane_of_arthropods: Scoagh Arthropodyn
+  respiration: Ennal
+  silk_touch: Sheeidagh
+  projectile_protection: Jeen Noi Sideyn
+  feather_falling: Tuittym Meeley
+  power: Cummaght
+  infinity: Beaynid
+entity:
+  dropped_item: Nhee
+  experience_orb: Cruinnag Ynsee
+  wither_skeleton: Ushylagh Wither
+  painting: Jalloo
+  arrow: Side
+  snowball: Bluckan Sniaghtee
+  fireball: Bluckan Aile
+  small_fireball: Bluckan Aile Beg
+  ender_signal: Sooill y Jerree
+  splash_potion: Jough Pishagagh
+  item_frame: Clowan Nhee
+  falling_block: Block Tuittym
+  firework: Çhentag
+  zombie_villager: Theayagh Corp fo Ghruiaghtys
+  skeleton_horse: Cabbyl Ushylagh
+  minecart_command: Cairt Veainey as Block Oardee aynjee
+  boat: Baatey
+  minecart: Cairt Veainey
+  minecart_chest: Cairt Veainey lesh Coyr
+  minecart_furnace: Cairt Veainey lesh Furnish
+  minecart_tnt: Cairt Veainey lesh TNT
+  minecart_hopper: Cairt Veainey lesh Crannag
+  creeper: Shnoageyder
+  skeleton: Ushylagh
+  spider: Doo-oallee
+  giant: Foawr
+  zombie: Corp fo Ghruiaghtys
+  slime: Glooie
+  ghast: Gowl
+  enderman: Jerreyder
+  cave_spider: Doo-oallee Ooig
+  silverfish: Gillieen
+  blaze: Lossyr
+  magma_cube: Kioob Leavey
+  ender_dragon: Dragan y Jerree
+  wither: Shirgeyder
+  bat: Craitnag
+  witch: Buitçh
+  pig: Muc
+  sheep: Keyrrey
+  cow: Booa
+  chicken: Kiark
+  squid: Dyachlym
+  wolf: Moddey Oaldey
+  mushroom_cow: Shalmooan
+  snowman: Goalam Sniaghtee
+  ocelot: Ossalot
+  iron_golem: Goalam Yiarn
+  horse: Cabbyl
+  villager: Theayagh
+  salmon: Braddan
+  pufferfish: Eeast Bolgagh
+  cat: Kayt
+  hoglin: Hoglin
+  piglin: Piglin
+  zoglin: Zoglin
+  player: Chloieder
+  pig_zombie: Mucag Varroo Shooyllag fo Ghruiaghtys
+effect:
+  speed: Bieauid
+  wither: Shirgeyder
+  saturation: Saieaghan
+dye_color:
+  white: Bane
+  orange: Jiarg-Buigh
+  magenta: Majenta
+  light_blue: Bane-Ghorrym
+  yellow: Buigh
+  lime: Glass Theiley
+  pink: Bane-Yiarg
+  gray: Lheeah
+  light_gray: Lheeah Glass
+  cyan: Keean
+  purple: Gorrym-Jiarg
+  blue: Gorrym
+  brown: Dhone
+  green: Glass
+  red: Jiarg
+  black: Doo
+named:
+  player_head_named: Kione %s
+  potion_with_amplifier: '%s %s'
+  potion_with_duration: '%s (%s)'
+tropical_fish_name:
+  '65536': Eeast Dallagh
+merchant_level:
+  '1': Novishagh
+  '2': Prindeis
+  '3': Fer er faill
+  '4': Oayllee
+  '5': Mainshter
+villager_profession:
+  none: Theayagh

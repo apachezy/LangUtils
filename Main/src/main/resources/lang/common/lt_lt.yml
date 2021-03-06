@@ -1,0 +1,2196 @@
+# ####################################################
+# Build time: 2021-03-06 14:47:28                    #
+# ####################################################
+language:
+  code: lt_lt
+  name: Lietuvių
+  region: Lietuva
+material:
+  air: Oras
+  stone: Akmuo
+  granite: Granitas
+  polished_granite: Šlifuotas granitas
+  diorite: Dioritas
+  polished_diorite: Šlifuotas dioritas
+  andesite: Andezitas
+  polished_andesite: Šlifuotas andezitas
+  grass_block: Žolės blokas
+  dirt: Žemė
+  coarse_dirt: Skurdi žemė
+  podzol: Jaura
+  crimson_nylium: Tamsiai raudonas nilijumas
+  warped_nylium: Iškreiptas nilijumas
+  cobblestone: Akmens skalda
+  oak_planks: Ąžuolo lentos
+  spruce_planks: Eglės lentos
+  birch_planks: Beržo lentos
+  jungle_planks: Džiunglių medžio lentos
+  acacia_planks: Akacijos lentos
+  dark_oak_planks: Tamsiojo ąžuolo lentos
+  crimson_planks: Tamsiai raudonos lentos
+  warped_planks: Iškreiptos lentos
+  oak_sapling: Ąžuolo sodinukas
+  spruce_sapling: Eglės sodinukas
+  birch_sapling: Beržo sodinukas
+  jungle_sapling: Džiunglių medžio sodinukas
+  acacia_sapling: Akacijos sodinukas
+  dark_oak_sapling: Tamsiojo ąžuolo sodinukas
+  bedrock: Pamatakmenis
+  sand: Smėlis
+  red_sand: Raudonasis smėlis
+  gravel: Žvyras
+  gold_ore: Aukso rūda
+  iron_ore: Geležies rūda
+  coal_ore: Anglies rūda
+  nether_gold_ore: Pragaro aukso rūda
+  oak_log: Ąžuolo rąstas
+  spruce_log: Eglės rąstas
+  birch_log: Beržo rąstas
+  jungle_log: Džiunglių medžio rąstas
+  acacia_log: Akacijos rąstas
+  dark_oak_log: Tamsiojo ąžuolo rąstas
+  crimson_stem: Tamsiai raudonas stiebas
+  warped_stem: Iškreiptas stiebas
+  stripped_oak_log: Nužievintas ąžuolo rąstas
+  stripped_spruce_log: Nužievintas eglės rąstas
+  stripped_birch_log: Nužievintas beržo rąstas
+  stripped_jungle_log: Nužievintas džiunglių medžio rąstas
+  stripped_acacia_log: Nužievintas akacijos rąstas
+  stripped_dark_oak_log: Nužievintas tamsiojo ąžuolo rąstas
+  stripped_crimson_stem: Obliuotas tamsiai raudonas stiebas
+  stripped_warped_stem: Obliuotas iškreiptas stiebas
+  stripped_oak_wood: Ąžuolo medis be žievės
+  stripped_spruce_wood: Eglės medis be žievės
+  stripped_birch_wood: Beržo medis be žievės
+  stripped_jungle_wood: Džiunglių medis be žievės
+  stripped_acacia_wood: Akacijos medis be žievės
+  stripped_dark_oak_wood: Tamsiojio ąžuolo medis be žievės
+  stripped_crimson_hyphae: Obliuoti tamsiai raudoni hifai
+  stripped_warped_hyphae: Obliuoti ir iškreipti hifai
+  oak_wood: Ąžuolo rąstas
+  spruce_wood: Eglės rąstas
+  birch_wood: Beržo rąstas
+  jungle_wood: Džiunglių medžio rąstas
+  acacia_wood: Akacijos rąstas
+  dark_oak_wood: Tamsiojo ąžuolo rąstas
+  crimson_hyphae: Tamsiai raudoni hifai
+  warped_hyphae: Iškreipti hifai
+  oak_leaves: Ąžuolo lapai
+  spruce_leaves: Eglės spygliai
+  birch_leaves: Beržo lapai
+  jungle_leaves: Džiunglių medžio lapai
+  acacia_leaves: Akacijos lapai
+  dark_oak_leaves: Tamsiojo ąžuolo lapai
+  sponge: Kempinė
+  wet_sponge: Šlapia kempinė
+  glass: Stiklas
+  lapis_ore: Lazurito rūda
+  lapis_block: Lazurito blokas
+  dispenser: Dalytuvas
+  sandstone: Smiltainis
+  chiseled_sandstone: Raižytas smiltainis
+  cut_sandstone: Poliruotas smiltainis
+  note_block: Natų blokas
+  powered_rail: Greitintuvas
+  detector_rail: Detektoriniai bėgiai
+  sticky_piston: Lipnus stūmoklis
+  cobweb: Voratinklis
+  grass: Žolė
+  fern: Papartis
+  dead_bush: Negyvas krūmas
+  seagrass: Jūržolė
+  sea_pickle: Jūros agurkas
+  piston: Stūmoklis
+  white_wool: Balta vilna
+  orange_wool: Oranžinė vilna
+  magenta_wool: Šviesiai purpurinė vilna
+  light_blue_wool: Žydra vilna
+  yellow_wool: Geltona vilna
+  lime_wool: Šviesiai žalia vilna
+  pink_wool: Rausva vilna
+  gray_wool: Pilka vilna
+  light_gray_wool: Šviesiai pilka vilna
+  cyan_wool: Tamsiai žydra vilna
+  purple_wool: Purpurinė vilna
+  blue_wool: Mėlyna vilna
+  brown_wool: Ruda vilna
+  green_wool: Žalia vilna
+  red_wool: Raudona vilna
+  black_wool: Juoda vilna
+  dandelion: Pienė
+  poppy: Aguona
+  blue_orchid: Mėlynoji orchidėja
+  allium: Česnakas
+  azure_bluet: Žydroji bajorė
+  red_tulip: Raudona tulpė
+  orange_tulip: Oranžinė tulpė
+  white_tulip: Balta tulpė
+  pink_tulip: Rausva tulpė
+  oxeye_daisy: Paprastoji baltagalvė
+  cornflower: Rugiagėlė
+  lily_of_the_valley: Pakalnutė
+  wither_rose: Viterio rožė
+  brown_mushroom: Rudas grybas
+  red_mushroom: Raudonas grybas
+  crimson_fungus: Tamsiai raudonas grybas
+  warped_fungus: Iškreiptasis grybas
+  crimson_roots: Tamsiai raudonos šaknys
+  warped_roots: Iškreiptos šaknys
+  nether_sprouts: Pragaro daigai
+  weeping_vines: Pragaro vijokliai
+  twisting_vines: Persipynę vijokliai
+  sugar_cane: Cukranendrė
+  kelp: Rudadumbliai
+  bamboo: Bambukas
+  gold_block: Aukso blokas
+  iron_block: Geležies blokas
+  oak_slab: Ąžuolo pusblokis
+  spruce_slab: Eglės pusblokis
+  birch_slab: Beržo pusblokis
+  jungle_slab: Džiunglių medžio pusblokis
+  acacia_slab: Akacijos pusblokis
+  dark_oak_slab: Tamsiojo ąžuolo pusblokis
+  crimson_slab: Raudonio medienos pusblokis
+  warped_slab: Iškreiptas pusblokis
+  stone_slab: Akmens pusblokis
+  smooth_stone_slab: Lygus akmens pusblokis
+  sandstone_slab: Smiltainio pusblokis
+  cut_sandstone_slab: Poliruoto smiltainio pusblokis
+  petrified_oak_slab: Suakmenėjęs ąžuolo pusblokis
+  cobblestone_slab: Akmens skaldos pusblokis
+  brick_slab: Plytų pusblokis
+  stone_brick_slab: Akmens plytų pusblokis
+  nether_brick_slab: Neterio plytų pusblokis
+  quartz_slab: Kvarco pusblokis
+  red_sandstone_slab: Raudono smiltainio pusblokis
+  cut_red_sandstone_slab: Poliruoto raudono smiltainio pusblokis
+  purpur_slab: Purpuro pusblokis
+  prismarine_slab: Prismarino pusblokis
+  prismarine_brick_slab: Prismarino plytų pusblokis
+  dark_prismarine_slab: Tamsaus prismarino pusblokis
+  smooth_quartz: Lygusis kvarco blokas
+  smooth_red_sandstone: Lygus raudonas smiltainis
+  smooth_sandstone: Lygus smiltainis
+  smooth_stone: Lygus akmuo
+  bricks: Plytos
+  tnt: TNT
+  bookshelf: Knygų lentyna
+  mossy_cobblestone: Samanota akmens skalda
+  obsidian: Obsidianas
+  torch: Deglas
+  end_rod: Endo strypas
+  chorus_plant: Koruso augalas
+  chorus_flower: Koruso gėlė
+  purpur_block: Purpuro blokas
+  purpur_pillar: Purpuro kolonos blokas
+  purpur_stairs: Purpuro laiptai
+  spawner: Atsiradimo narvas
+  oak_stairs: Ąžuolo laiptai
+  chest: Skrynia
+  diamond_ore: Deimanto rūda
+  diamond_block: Deimanto blokas
+  crafting_table: Darbastalis
+  farmland: Išarta žemė
+  furnace: Krosnis
+  ladder: Kopėčios
+  rail: Bėgiai
+  cobblestone_stairs: Akmens skaldos laiptai
+  lever: Svirtis
+  stone_pressure_plate: Akmeninė slėgio plokštė
+  oak_pressure_plate: Ąžuolinė slėgio plokštė
+  spruce_pressure_plate: Eglinė slėgio plokštė
+  birch_pressure_plate: Beržinė slėgio plokštė
+  jungle_pressure_plate: Džiunglių medžio slėgio plokštė
+  acacia_pressure_plate: Akacijos slėgio plokštė
+  dark_oak_pressure_plate: Tamsiojo ąžuolo slėgio plokštė
+  crimson_pressure_plate: Raudonojo medžio slėgio plokštė
+  warped_pressure_plate: Iškreipta slėgio plokštė
+  polished_blackstone_pressure_plate: Šlifuoto juodakmenio slėgio plokštė
+  redstone_ore: Redstouno rūda
+  redstone_torch: Redstouno deglas
+  snow: Sniegas
+  ice: Ledas
+  snow_block: Sniego blokas
+  cactus: Kaktusas
+  clay: Molis
+  jukebox: Diskų grotuvas
+  oak_fence: Ąžuolo tvora
+  spruce_fence: Eglės tvora
+  birch_fence: Beržo tvora
+  jungle_fence: Džiunglių medžio tvora
+  acacia_fence: Akacijos tvora
+  dark_oak_fence: Tamsiojo ąžuolo tvora
+  crimson_fence: Raudonosios medienos tvora
+  warped_fence: Iškreipta tvora
+  pumpkin: Moliūgas
+  carved_pumpkin: Išskobtas moliūgas
+  netherrack: Neteritas
+  soul_sand: Sielų smėlis
+  soul_soil: Sielų dirva
+  basalt: Bazaltas
+  polished_basalt: Šlifuotas bazaltas
+  soul_torch: Sielų deglas
+  glowstone: Šviesakmenis
+  jack_o_lantern: Džeko žibintas
+  oak_trapdoor: Ąžuolo liukas
+  spruce_trapdoor: Eglės liukas
+  birch_trapdoor: Beržo liukas
+  jungle_trapdoor: Džiunglių medžio liukas
+  acacia_trapdoor: Akacijos liukas
+  dark_oak_trapdoor: Tamsiojo ąžuolo liukas
+  crimson_trapdoor: Raudonosios medienos liukas
+  warped_trapdoor: Iškreiptas liukas
+  infested_stone: Užkrėstas akmuo
+  infested_cobblestone: Užkrėsta akmens skalda
+  infested_stone_bricks: Užkrėstos akmens plytos
+  infested_mossy_stone_bricks: Užkrėstos samanotos akmens plytos
+  infested_cracked_stone_bricks: Užkrėstos sutrūkinėjusios akmens plytos
+  infested_chiseled_stone_bricks: Užkrėstos raižytos akmens plytos
+  stone_bricks: Akmens plytos
+  mossy_stone_bricks: Samanotos akmens plytos
+  cracked_stone_bricks: Sutrūkinėjusios akmens plytos
+  chiseled_stone_bricks: Raižytos akmens plytos
+  brown_mushroom_block: Rudo grybo blokas
+  red_mushroom_block: Raudono grybo blokas
+  mushroom_stem: Grybo stiebas
+  iron_bars: Grotos
+  chain: Grandinė
+  glass_pane: Stiklo lakštas
+  melon: Arbūzas
+  vine: Vijokliai
+  oak_fence_gate: Varteliai
+  spruce_fence_gate: Eglės varteliai
+  birch_fence_gate: Beržo varteliai
+  jungle_fence_gate: Džiunglių medžio varteliai
+  acacia_fence_gate: Akacijos varteliai
+  dark_oak_fence_gate: Tamsiojo ąžuolo varteliai
+  crimson_fence_gate: Raudonosios medienos varteliai
+  warped_fence_gate: Iškreipti varteliai
+  brick_stairs: Plytų laiptai
+  stone_brick_stairs: Akmens plytų laiptai
+  mycelium: Grybiena
+  lily_pad: Lelijos lapas
+  nether_bricks: Neterio plytos
+  cracked_nether_bricks: Sutrūkinėjusios Neterio plytos
+  chiseled_nether_bricks: Raišytos Neterio plytos
+  nether_brick_fence: Neterio plytų tvora
+  nether_brick_stairs: Neterio plytų laiptai
+  enchanting_table: Kerėjimų stalas
+  end_portal_frame: Endo portalo rėmas
+  end_stone: Endo akmuo
+  end_stone_bricks: Endo akmens plytos
+  dragon_egg: Drakonės kiaušinis
+  redstone_lamp: Redstouninė lempa
+  sandstone_stairs: Smiltainio laiptai
+  emerald_ore: Smaragdo rūda
+  ender_chest: Enderio skrynia
+  tripwire_hook: Vielos kablys
+  emerald_block: Smaragdo blokas
+  spruce_stairs: Eglės laiptai
+  birch_stairs: Beržo laiptai
+  jungle_stairs: Džiunglių medžio laiptai
+  crimson_stairs: Raudonosios medienos laiptai
+  warped_stairs: Iškreipti laiptai
+  command_block: Komandos blokas
+  beacon: Švyturys
+  cobblestone_wall: Akmens skaldos siena
+  mossy_cobblestone_wall: Samanotos akmens skaldos siena
+  brick_wall: Plytų siena
+  prismarine_wall: Prismarino siena
+  red_sandstone_wall: Raudonojo smiltainio siena
+  mossy_stone_brick_wall: Samanoto akmens plytų siena
+  granite_wall: Granito siena
+  stone_brick_wall: Akmens plytų siena
+  nether_brick_wall: Neterio plytų siena
+  andesite_wall: Andezito siena
+  red_nether_brick_wall: Raudonųjų Neterio plytų siena
+  sandstone_wall: Smiltainio siena
+  end_stone_brick_wall: Endo akmens plytų siena
+  diorite_wall: Diorito siena
+  blackstone_wall: Juodakmenio siena
+  polished_blackstone_wall: Šlifuoto juodakmenio siena
+  polished_blackstone_brick_wall: Šlifuoto juodakmenio plytų siena
+  stone_button: Akmens mygtukas
+  oak_button: Ąžuolo mygtukas
+  spruce_button: Eglės mygtukas
+  birch_button: Beržo mygtukas
+  jungle_button: Džiunglių medžio mygtukas
+  acacia_button: Akacijos mygtukas
+  dark_oak_button: Tamsiojo ąžuolo mygtukas
+  crimson_button: Raudonosios medienos mygtukas
+  warped_button: Iškreiptas mygtukas
+  polished_blackstone_button: Šlifuoto juodakmenio mygtukas
+  anvil: Priekalas
+  chipped_anvil: Įdaužtas priekalas
+  damaged_anvil: Apgadintas priekalas
+  trapped_chest: Skrynia-spąstai
+  light_weighted_pressure_plate: Lengva svorinė slėgio plokštė
+  heavy_weighted_pressure_plate: Sunki svorinė slėgio plokštė
+  daylight_detector: Dienos šviesos jutiklis
+  redstone_block: Redstouno blokas
+  nether_quartz_ore: Neterio kvarco rūda
+  hopper: Piltuvas
+  chiseled_quartz_block: Raižytas kvarco blokas
+  quartz_block: Kvarco blokas
+  quartz_bricks: Kvarco plytos
+  quartz_pillar: Kvarco kolona
+  quartz_stairs: Kvarco laiptai
+  activator_rail: Aktyvuojantieji bėgiai
+  dropper: Mėtytuvas
+  white_terracotta: Balta terakota
+  orange_terracotta: Oranžinė terakota
+  magenta_terracotta: Šviesiai purpurinė terakota
+  light_blue_terracotta: Žydra terakota
+  yellow_terracotta: Geltona terakota
+  lime_terracotta: Šviesiai žalia terakota
+  pink_terracotta: Rausva terakota
+  gray_terracotta: Pilka terakota
+  light_gray_terracotta: Šviesiai pilka terakota
+  cyan_terracotta: Tamsiai žydra terakota
+  purple_terracotta: Purpurinė terakota
+  blue_terracotta: Mėlyna terakota
+  brown_terracotta: Ruda terakota
+  green_terracotta: Žalia terakota
+  red_terracotta: Raudona terakota
+  black_terracotta: Juoda terakota
+  barrier: Barjeras
+  iron_trapdoor: Geležinis liukas
+  hay_block: Šieno kupeta
+  white_carpet: Baltas kilimas
+  orange_carpet: Oranžinis kilimas
+  magenta_carpet: Šviesiai purpurinis kilimas
+  light_blue_carpet: Žydras kilimas
+  yellow_carpet: Geltonas kilimas
+  lime_carpet: Šviesiai žalias kilimas
+  pink_carpet: Rausvas kilimas
+  gray_carpet: Pilkas kilimas
+  light_gray_carpet: Šviesiai pilkas kilimas
+  cyan_carpet: Tamsiai žydras kilimas
+  purple_carpet: Purpurinis kilimas
+  blue_carpet: Mėlynas kilimas
+  brown_carpet: Rudas kilimas
+  green_carpet: Žalias kilimas
+  red_carpet: Raudonas kilimas
+  black_carpet: Juodas kilimas
+  terracotta: Terakota
+  coal_block: Anglies blokas
+  packed_ice: Sukietėjęs ledas
+  acacia_stairs: Akacijos laiptai
+  dark_oak_stairs: Tamsiojo ąžuolo laiptai
+  slime_block: Gleivių blokas
+  grass_path: Žolės takas
+  sunflower: Saulėgrąža
+  lilac: Alyva
+  rose_bush: Rožių krūmas
+  peony: Bijūnas
+  tall_grass: Aukšta žolė
+  large_fern: Didelis papartis
+  white_stained_glass: Baltas dažytas stiklas
+  orange_stained_glass: Oranžinis dažytas stiklas
+  magenta_stained_glass: Šviesiai purpurinis dažytas stiklas
+  light_blue_stained_glass: Žydras dažytas stiklas
+  yellow_stained_glass: Geltonas dažytas stiklas
+  lime_stained_glass: Šviesiai žalias dažytas stiklas
+  pink_stained_glass: Rausvas dažytas stiklas
+  gray_stained_glass: Pilkas dažytas stiklas
+  light_gray_stained_glass: Šviesiai pilkas dažytas stiklas
+  cyan_stained_glass: Tamsiai žydras dažytas stiklas
+  purple_stained_glass: Purpurinis dažytas stiklas
+  blue_stained_glass: Mėlynas dažytas stiklas
+  brown_stained_glass: Rudas dažytas stiklas
+  green_stained_glass: Žalias dažytas stiklas
+  red_stained_glass: Raudonas dažytas stiklas
+  black_stained_glass: Juodas dažytas stiklas
+  white_stained_glass_pane: Balta dažyto stiklo plokštė
+  orange_stained_glass_pane: Oranžinė dažyto stiklo plokštė
+  magenta_stained_glass_pane: Šviesiai purpurinė dažyto stiklo plokštė
+  light_blue_stained_glass_pane: Žydra dažyto stiklo plokštė
+  yellow_stained_glass_pane: Geltona dažyto stiklo plokštė
+  lime_stained_glass_pane: Šviesiai žalia dažyto stiklo plokštė
+  pink_stained_glass_pane: Rausva dažyto stiklo plokštė
+  gray_stained_glass_pane: Pilka dažyto stiklo plokštė
+  light_gray_stained_glass_pane: Šviesiai pilka dažyto stiklo plokštė
+  cyan_stained_glass_pane: Tamsiai žydra dažyto stiklo plokštė
+  purple_stained_glass_pane: Purpurinė dažyto stiklo plokštė
+  blue_stained_glass_pane: Mėlyna dažyto stiklo plokštė
+  brown_stained_glass_pane: Ruda dažyto stiklo plokštė
+  green_stained_glass_pane: Žalia dažyto stiklo plokštė
+  red_stained_glass_pane: Raudonas dažyto stiklo lakštas
+  black_stained_glass_pane: Juoda dažyto stiklo plokštė
+  prismarine: Prismarinas
+  prismarine_bricks: Prismarino plytos
+  dark_prismarine: Tamsusis prismarinas
+  prismarine_stairs: Prismarino laiptai
+  prismarine_brick_stairs: Prismarino plytų laiptai
+  dark_prismarine_stairs: Tamsaus prismarino laiptai
+  sea_lantern: Jūros žibintas
+  red_sandstone: Raudonas smiltainis
+  chiseled_red_sandstone: Raižytas raudonas smiltainis
+  cut_red_sandstone: Poliruotas raudonas smiltainis
+  red_sandstone_stairs: Raudono smiltainio laiptai
+  repeating_command_block: Besikartojantis komandos blokas
+  chain_command_block: Grandininis komandos blokas
+  magma_block: Magmos blokas
+  nether_wart_block: Neterio gumbų blokas
+  warped_wart_block: Iškreiptų gumbų blokas
+  red_nether_bricks: Raudonosios Neterio plytos
+  bone_block: Kaulų blokas
+  structure_void: Struktūrinė tuštuma
+  observer: Stebėtojas
+  shulker_box: Šulkerio dėžė
+  white_shulker_box: Balta šulkerio dėžė
+  orange_shulker_box: Oranžinė šulkerio dėžė
+  magenta_shulker_box: Šviesiai purpurinė šulkerio dėžė
+  light_blue_shulker_box: Žydra šulkerio dėžė
+  yellow_shulker_box: Geltona šulkerio dėžė
+  lime_shulker_box: Šviesiai žalia šulkerio dėžė
+  pink_shulker_box: Rausva šulkerio dėžė
+  gray_shulker_box: Pilka šulkerio dėžė
+  light_gray_shulker_box: Šviesiai pilka šulkerio dėžė
+  cyan_shulker_box: Tamsiai žydra šulkerio dėžė
+  purple_shulker_box: Purpurinė šulkerio dėžė
+  blue_shulker_box: Mėlyna šulkerio dėžė
+  brown_shulker_box: Ruda šulkerio dėžė
+  green_shulker_box: Žalia šulkerio dėžė
+  red_shulker_box: Raudona šulkerio dėžė
+  black_shulker_box: Juoda šulkerio dėžė
+  white_glazed_terracotta: Balta glazūruota terakota
+  orange_glazed_terracotta: Oranžinė glazūruota terakota
+  magenta_glazed_terracotta: Šviesiai purpurinė glazūruota terakota
+  light_blue_glazed_terracotta: Žydra glazūruota terakota
+  yellow_glazed_terracotta: Geltona glazūruota terakota
+  lime_glazed_terracotta: Šviesiai žalia glazūruota terakota
+  pink_glazed_terracotta: Rausva glazūruota terakota
+  gray_glazed_terracotta: Pilka glazūruota terakota
+  light_gray_glazed_terracotta: Šviesiai pilka glazūruota terakota
+  cyan_glazed_terracotta: Tamsiai žydra glazūruota terakota
+  purple_glazed_terracotta: Purpurinė glazūruota terakota
+  blue_glazed_terracotta: Mėlyna glazūruota terakota
+  brown_glazed_terracotta: Ruda glazūruota terakota
+  green_glazed_terracotta: Žalia glazūruota terakota
+  red_glazed_terracotta: Raudona glazūruota terakota
+  black_glazed_terracotta: Juoda glazūruota terakota
+  white_concrete: Baltas betonas
+  orange_concrete: Oranžinis betonas
+  magenta_concrete: Šviesiai purpurinis betonas
+  light_blue_concrete: Žydras betonas
+  yellow_concrete: Geltonas betonas
+  lime_concrete: Šviesiai žalias betonas
+  pink_concrete: Rausvas betonas
+  gray_concrete: Pilkas betonas
+  light_gray_concrete: Šviesiai pilkas betonas
+  cyan_concrete: Tamsiai žydras betonas
+  purple_concrete: Purpurinis betonas
+  blue_concrete: Mėlynas betonas
+  brown_concrete: Rudas betonas
+  green_concrete: Žalias betonas
+  red_concrete: Raudonas betonas
+  black_concrete: Juodas betonas
+  white_concrete_powder: Baltas cementas
+  orange_concrete_powder: Oranžinis cementas
+  magenta_concrete_powder: Šviesiai purpurinis cementas
+  light_blue_concrete_powder: Žydras cementas
+  yellow_concrete_powder: Geltonas cementas
+  lime_concrete_powder: Šviesiai žalias cementas
+  pink_concrete_powder: Rausvas cementas
+  gray_concrete_powder: Pilkas cementas
+  light_gray_concrete_powder: Šviesiai pilkas cementas
+  cyan_concrete_powder: Tamsiai žydras cementas
+  purple_concrete_powder: Purpurinis cementas
+  blue_concrete_powder: Mėlynas cementas
+  brown_concrete_powder: Rudas cementas
+  green_concrete_powder: Žalias cementas
+  red_concrete_powder: Raudonas cementas
+  black_concrete_powder: Juodas cementas
+  turtle_egg: Vėžlio kiaušinis
+  dead_tube_coral_block: Negyvas vamzdinis koralo blokas
+  dead_brain_coral_block: Negyvas smegeninis koralo blokas
+  dead_bubble_coral_block: Negyvas burbulinis koralo blokas
+  dead_fire_coral_block: Negyvas ugninis koralo blokas
+  dead_horn_coral_block: Negyvas raguotas koralo blokas
+  tube_coral_block: Vamzdinis koralo blokas
+  brain_coral_block: Smegeninis koralo blokas
+  bubble_coral_block: Burbulinis koralo blokas
+  fire_coral_block: Ugninis koralo blokas
+  horn_coral_block: Raguotas koralo blokas
+  tube_coral: Vamzdinis koralas
+  brain_coral: Smegeninis koralas
+  bubble_coral: Burbulinis koralas
+  fire_coral: Ugninis koralas
+  horn_coral: Raguotas koralas
+  dead_brain_coral: Negyvas smegeninis koralas
+  dead_bubble_coral: Negyvas burbulinis koralas
+  dead_fire_coral: Negyvas ugninis koralas
+  dead_horn_coral: Negyvas raguotas koralas
+  dead_tube_coral: Negyvas vamzdinis koralas
+  tube_coral_fan: Vamzdinis koralas vėduoklė
+  brain_coral_fan: Smegeninis koralas vėduoklė
+  bubble_coral_fan: Burbulinis koralas vėduoklė
+  fire_coral_fan: Ugninis koralas vėduoklė
+  horn_coral_fan: Raguotas koralas vėduoklė
+  dead_tube_coral_fan: Negyvas vamzdinis koralas vėduoklė
+  dead_brain_coral_fan: Negyvas smegeninis koralas vėduoklė
+  dead_bubble_coral_fan: Negyvas burbulinis koralas vėduoklė
+  dead_fire_coral_fan: Negyvas ugninis koralas vėduoklė
+  dead_horn_coral_fan: Negyvas raguotas koralas vėduoklė
+  blue_ice: Mėlynasis ledas
+  conduit: Jūros kanalas
+  polished_granite_stairs: Šlifuoto granito laiptai
+  smooth_red_sandstone_stairs: Lygaus raudonojo smiltainio laiptai
+  mossy_stone_brick_stairs: Samanotų akmenų plytų laiptai
+  polished_diorite_stairs: Šlifuoto diorito laiptai
+  mossy_cobblestone_stairs: Samanotos akmens skaldos laiptai
+  end_stone_brick_stairs: Pabaigos akmens plytų laiptai
+  stone_stairs: Akmens laiptai
+  smooth_sandstone_stairs: Lygaus smiltainio laiptai
+  smooth_quartz_stairs: Lygaus kvarco laiptai
+  granite_stairs: Granito laiptai
+  andesite_stairs: Andezito laiptai
+  red_nether_brick_stairs: Raudonųjų Neterio plytų laiptai
+  polished_andesite_stairs: Šlifuoto andezito laiptai
+  diorite_stairs: Diorito laiptai
+  polished_granite_slab: Šlifuoto granito pusblokis
+  smooth_red_sandstone_slab: Lygaus raudonojo smiltainio pusblokis
+  mossy_stone_brick_slab: Samanotų akmenų plytų pusblokis
+  polished_diorite_slab: Šlifuoto diorito pusblokis
+  mossy_cobblestone_slab: Samanotos akmens skaldos pusblokis
+  end_stone_brick_slab: Pabaigos akmens plytų pusblokis
+  smooth_sandstone_slab: Lygaus smiltainio pusblokis
+  smooth_quartz_slab: Lygaus kvarco pusblokis
+  granite_slab: Granito pusblokis
+  andesite_slab: Andezito pusblokis
+  red_nether_brick_slab: Raudonųjų Neterio plytų pusblokis
+  polished_andesite_slab: Šlifuoto andezito pusblokis
+  diorite_slab: Diorito pusblokis
+  scaffolding: Pastoliai
+  iron_door: Geležinės durys
+  oak_door: Ąžuolo durys
+  spruce_door: Eglės durys
+  birch_door: Beržo durys
+  jungle_door: Džiunglių medžio durys
+  acacia_door: Akacijos durys
+  dark_oak_door: Tamsiojo ąžuolo durys
+  crimson_door: Raudonosios medienos durys
+  warped_door: Iškreiptos durys
+  repeater: Redstouno kartotuvas
+  comparator: Redstouno komparatorius
+  structure_block: Struktūros blokas
+  jigsaw: Dėlionės blokas
+  turtle_helmet: Vėžlio kiautas
+  scute: Kiautas
+  flint_and_steel: Titnagas ir geležis
+  apple: Obuolys
+  bow: Lankas
+  arrow: Strėlė
+  coal: Anglis
+  charcoal: Medžio anglis
+  diamond: Deimantas
+  iron_ingot: Geležies liejinys
+  gold_ingot: Aukso liejinys
+  netherite_ingot: Nederito liejinys
+  netherite_scrap: Nederito grynuolis
+  wooden_sword: Medinis kardas
+  wooden_shovel: Medinis kastuvas
+  wooden_pickaxe: Medinis kirtiklis
+  wooden_axe: Medinis kirvis
+  wooden_hoe: Medinis kauptukas
+  stone_sword: Akmeninis kardas
+  stone_shovel: Akmeninis kastuvas
+  stone_pickaxe: Akmeninis kirtiklis
+  stone_axe: Akmeninis kirvis
+  stone_hoe: Akmeninis kauptukas
+  golden_sword: Auksinis kardas
+  golden_shovel: Auksinis kastuvas
+  golden_pickaxe: Auksinis kirtiklis
+  golden_axe: Auksinis kirvis
+  golden_hoe: Auksinis kauptukas
+  iron_sword: Geležinis kardas
+  iron_shovel: Geležinis kastuvas
+  iron_pickaxe: Geležinis kirtiklis
+  iron_axe: Geležinis kirvis
+  iron_hoe: Geležinis kauptukas
+  diamond_sword: Deimantinis kardas
+  diamond_shovel: Deimantinis kastuvas
+  diamond_pickaxe: Deimantinis kirtiklis
+  diamond_axe: Deimantinis kirvis
+  diamond_hoe: Deimantinis kauptukas
+  netherite_sword: Nederito kardas
+  netherite_shovel: Nederito kastuvas
+  netherite_pickaxe: Nederito kirtiklis
+  netherite_axe: Nederito kirvis
+  netherite_hoe: Nederito kauptukas
+  stick: Pagaliukas
+  bowl: Dubuo
+  mushroom_stew: Grybų troškinys
+  string: Siūlas
+  feather: Plunksna
+  gunpowder: Parakas
+  wheat_seeds: Kviečių sėklos
+  wheat: Kviečiai
+  bread: Duona
+  leather_helmet: Odinė kepurė
+  leather_chestplate: Odinė tunika
+  leather_leggings: Odinės kelnės
+  leather_boots: Odiniai batai
+  chainmail_helmet: Grandininis šalmas
+  chainmail_chestplate: Grandininis antkrūtinis
+  chainmail_leggings: Grandininės kelnės
+  chainmail_boots: Grandininiai batai
+  iron_helmet: Geležinis šalmas
+  iron_chestplate: Geležinis antkrūtinis
+  iron_leggings: Geležinės kelnės
+  iron_boots: Geležiniai batai
+  diamond_helmet: Deimantinis šalmas
+  diamond_chestplate: Deimantinis antkrūtinis
+  diamond_leggings: Deimantinės kelnės
+  diamond_boots: Deimantiniai batai
+  golden_helmet: Auksinis šalmas
+  golden_chestplate: Auksinis antkrūtinis
+  golden_leggings: Auksinės kelnės
+  golden_boots: Auksiniai batai
+  netherite_helmet: Nederito šalmas
+  netherite_chestplate: Nederito antkrūtinis
+  netherite_leggings: Nederito kelnės
+  netherite_boots: Nederito batai
+  flint: Titnagas
+  porkchop: Žalia kiauliena
+  cooked_porkchop: Kepta kiauliena
+  painting: Paveikslas
+  golden_apple: Auksinis obuolys
+  enchanted_golden_apple: Užkerėtas auksinis obuolys
+  oak_sign: Ąžuolinis ženklas
+  spruce_sign: Eglinis ženklas
+  birch_sign: Beržinis ženklas
+  jungle_sign: Džiunglių medžio ženklas
+  acacia_sign: Akacijos ženklas
+  dark_oak_sign: Tamsiojo ąžuolo ženklas
+  crimson_sign: Raudonosios medienos ženklas
+  warped_sign: Iškreiptas ženklas
+  bucket: Kibiras
+  water_bucket: Vandens kibiras
+  lava_bucket: Lavos kibiras
+  minecart: Vagonėlis
+  saddle: Balnas
+  redstone: Redstouno dulkės
+  snowball: Sniego gniūžtė
+  oak_boat: Ąžuolo valtis
+  leather: Oda
+  milk_bucket: Pieno kibiras
+  pufferfish_bucket: Pūsliažuvė kibire
+  salmon_bucket: Lašiša kibire
+  cod_bucket: Menkė kibire
+  tropical_fish_bucket: Tropinė žuvis kibire
+  brick: Plyta
+  clay_ball: Molio kamuoliukas
+  dried_kelp_block: Džiovintų rudadumblių blokas
+  paper: Popierius
+  book: Knyga
+  slime_ball: Gleivių kamuolėlis
+  chest_minecart: Vagonėlis su skrynia
+  furnace_minecart: Vagonėlis su krosnimi
+  egg: Kiaušinis
+  compass: Kompasas
+  fishing_rod: Meškerė
+  clock: Laikrodis
+  glowstone_dust: Šviesakmenio dulkės
+  cod: Žalia menkė
+  salmon: Žalia lašiša
+  tropical_fish: Tropinė žuvis
+  pufferfish: Pūsliažuvė
+  cooked_cod: Kepta menkė
+  cooked_salmon: Kepta lašiša
+  ink_sac: Rašalo pūslė
+  cocoa_beans: Kakavos pupelės
+  lapis_lazuli: Lazuritas
+  white_dye: Balti dažai
+  orange_dye: Oranžiniai dažai
+  magenta_dye: Šviesiai purpuriniai dažai
+  light_blue_dye: Žydri dažai
+  yellow_dye: Geltoni dažai
+  lime_dye: Šviesiai žali dažai
+  pink_dye: Rausvi dažai
+  gray_dye: Pilki dažai
+  light_gray_dye: Šviesiai pilki dažai
+  cyan_dye: Tamsiai žydri dažai
+  purple_dye: Purpuriniai dažai
+  blue_dye: Mėlyni dažai
+  brown_dye: Rudi dažai
+  green_dye: Žali dažai
+  red_dye: Raudoni dažai
+  black_dye: Juodi dažai
+  bone_meal: Kaulų miltai
+  bone: Kaulas
+  sugar: Cukrus
+  cake: Tortas
+  white_bed: Balta lova
+  orange_bed: Oranžinė lova
+  magenta_bed: Šviesiai purpurinė lova
+  light_blue_bed: Žydra lova
+  yellow_bed: Geltona lova
+  lime_bed: Šviesiai žalia lova
+  pink_bed: Rausva lova
+  gray_bed: Pilka lova
+  light_gray_bed: Šviesiai pilka lova
+  cyan_bed: Tamsiai žydra lova
+  purple_bed: Purpurinė lova
+  blue_bed: Mėlyna lova
+  brown_bed: Ruda lova
+  green_bed: Žalia lova
+  red_bed: Raudona lova
+  black_bed: Juoda lova
+  cookie: Sausainis
+  filled_map: Žemėlapis
+  shears: Žirklės
+  melon_slice: Arbūzo skiltelė
+  dried_kelp: Džiovinti rudadumbliai
+  pumpkin_seeds: Moliūgų sėklos
+  melon_seeds: Arbūzų sėklos
+  beef: Žalia jautiena
+  cooked_beef: Kepsnys
+  chicken: Žalia vištiena
+  cooked_chicken: Kepta vištiena
+  rotten_flesh: Supuvusi mėsa
+  ender_pearl: Enderio perlas
+  blaze_rod: Liepsnos strypas
+  ghast_tear: Gasto ašara
+  gold_nugget: Aukso grynuolis
+  nether_wart: Neterio gumbas
+  potion: Eliksyras
+  glass_bottle: Stiklinis buteliukas
+  spider_eye: Voro akis
+  fermented_spider_eye: Rauginta voro akis
+  blaze_powder: Liepsnos pudra
+  magma_cream: Magmos kremas
+  brewing_stand: Eliksyrų stovas
+  cauldron: Katilas
+  ender_eye: Enderio akis
+  glistering_melon_slice: Žvilganti arbūzo skiltelė
+  bat_spawn_egg: Šikšnosparnio atsiradimo kiaušinis
+  bee_spawn_egg: Bitės atsiradimo kiaušinis
+  blaze_spawn_egg: Liepsnos atsiradimo kiaušinis
+  cat_spawn_egg: Katės atsiradimo kiaušinis
+  cave_spider_spawn_egg: Urvinio voro atsiradimo kiaušinis
+  chicken_spawn_egg: Vištos atsiradimo kiaušinis
+  cod_spawn_egg: Menkės atsiradimo kiaušinis
+  cow_spawn_egg: Karvės atsiradimo kiaušinis
+  creeper_spawn_egg: Kryperio atsiradimo kiaušinis
+  dolphin_spawn_egg: Delfino atsiradimo kiaušinis
+  donkey_spawn_egg: Asilo atsiradimo kiaušinis
+  drowned_spawn_egg: Skenduolio atsiradimo kiaušinis
+  elder_guardian_spawn_egg: Vyresniojo sargybinio atsiradimo kiaušinis
+  enderman_spawn_egg: Endermeno atsiradimo kiaušinis
+  endermite_spawn_egg: Endermaito atsiradimo kiaušinis
+  evoker_spawn_egg: Šamano atsiradimo kiaušinis
+  fox_spawn_egg: Lapės atsiradimo kiaušinis
+  ghast_spawn_egg: Gasto atsiradimo kiaušinis
+  guardian_spawn_egg: Sargybinio atsiradimo kiaušinis
+  hoglin_spawn_egg: Hoglino atsiradimo kiaušinis
+  horse_spawn_egg: Arklio atsiradimo kiaušinis
+  husk_spawn_egg: Sudžiūvėlio atsiradimo kiaušinis
+  llama_spawn_egg: Lamos atsiradimo kiaušinis
+  magma_cube_spawn_egg: Magmos kubo atsiradimo kiaušinis
+  mooshroom_spawn_egg: Mūšrūmo atsiradimo kiaušinis
+  mule_spawn_egg: Mulo atsiradimo kiaušinis
+  ocelot_spawn_egg: Oceloto atsiradimo kiaušinis
+  panda_spawn_egg: Pandos atsiradimo kiaušinis
+  parrot_spawn_egg: Papūgos atsiradimo kiaušinis
+  phantom_spawn_egg: Fantomo atsiradimo kiaušinis
+  pig_spawn_egg: Kiaulės atsiradimo kiaušinis
+  piglin_spawn_egg: Piglino atsiradimo kiaušinis
+  piglin_brute_spawn_egg: Piglino kareivio atsiradimo kiaušinis
+  pillager_spawn_egg: Plėšiko atsiradimo kiaušinis
+  polar_bear_spawn_egg: Baltojo lokio atsiradimo kiaušinis
+  pufferfish_spawn_egg: Pūsliažuvės atsiradimo kiaušinis
+  rabbit_spawn_egg: Triušio atsiradimo kiaušinis
+  ravager_spawn_egg: Siaubūno atsiradimo kiaušinis
+  salmon_spawn_egg: Lašišos atsiradimo kiaušinis
+  sheep_spawn_egg: Avies atsiradimo kiaušinis
+  shulker_spawn_egg: Šulkerio atsiradimo kiaušinis
+  silverfish_spawn_egg: Žvyninuko atsiradimo kiaušinis
+  skeleton_spawn_egg: Skeleto atsiradimo kiaušinis
+  skeleton_horse_spawn_egg: Arklio skeleto atsiradimo kiaušinis
+  slime_spawn_egg: Gleiviaus atsiradimo kiaušinis
+  spider_spawn_egg: Voro atsiradimo kiaušinis
+  squid_spawn_egg: Kalmaro atsiradimo kiaušinis
+  stray_spawn_egg: Klajūno atsiradimo kiaušinis
+  strider_spawn_egg: Ilgažingsnio atsiradimo kiaušinis
+  trader_llama_spawn_egg: Pirklio lamos atsiradimo kiaušinis
+  tropical_fish_spawn_egg: Tropinės žuvies atsiradimo kiaušinis
+  turtle_spawn_egg: Vėžlio atsiradimo kiaušinis
+  vex_spawn_egg: Velės atsiradimo kiaušinis
+  villager_spawn_egg: Kaimiečio atsiradimo kiaušinis
+  vindicator_spawn_egg: Vindikatoriaus atsiradimo kiaušinis
+  wandering_trader_spawn_egg: Keliaujančio pirklio atsiradimo kiaušinis
+  witch_spawn_egg: Raganos atsiradimo kiaušinis
+  wither_skeleton_spawn_egg: Viterio skeleto atsiradimo kiaušinis
+  wolf_spawn_egg: Vilko atsiradimo kiaušinis
+  zoglin_spawn_egg: Zoglino atsiradimo kiaušinis
+  zombie_spawn_egg: Zombio atsiradimo kiaušinis
+  zombie_horse_spawn_egg: Arklio zombio atsiradimo kiaušinis
+  zombie_villager_spawn_egg: Zombio kaimiečio atsiradimo kiaušinis
+  zombified_piglin_spawn_egg: Zombifikuoto piglino atsiradimo kiaušinis
+  experience_bottle: Patirties buteliukas
+  fire_charge: Ugnies kamuolys
+  writable_book: Knyga ir plunksna
+  written_book: Prirašyta knyga
+  emerald: Smaragdas
+  item_frame: Rėmelis
+  flower_pot: Vazonas
+  carrot: Morka
+  potato: Bulvė
+  baked_potato: Kepta bulvė
+  poisonous_potato: Nuodinga bulvė
+  map: Tuščias žemėlapis
+  golden_carrot: Auksinė morka
+  skeleton_skull: Skeleto kaukolė
+  wither_skeleton_skull: Viterio skeleto kaukolė
+  player_head: Žaidėjo galva
+  zombie_head: Zombio galva
+  creeper_head: Kryperio galva
+  dragon_head: Drakonės galva
+  carrot_on_a_stick: Morka ant pagaliuko
+  warped_fungus_on_a_stick: Iškreiptasis grybelis ant pagaliuko
+  nether_star: Neterio žvaigždė
+  pumpkin_pie: Moliūgų pyragas
+  firework_rocket: Fejerverkas
+  firework_star: Fejerverko žvaigždė
+  enchanted_book: Užkerėta knyga
+  nether_brick: Neterio plytos
+  quartz: Neterio kvarcas
+  tnt_minecart: Vagonėlis su TNT
+  hopper_minecart: Vagonėlis su piltuvu
+  prismarine_shard: Prismarino skeveldra
+  prismarine_crystals: Prismarino kristalai
+  rabbit: Žalias triušis
+  cooked_rabbit: Keptas triušis
+  rabbit_stew: Triušienos troškinys
+  rabbit_foot: Triušio pėda
+  rabbit_hide: Triušio kailis
+  armor_stand: Šarvų stovas
+  iron_horse_armor: Geležiniai arklio šarvai
+  golden_horse_armor: Auksiniai arklio šarvai
+  diamond_horse_armor: Deimantiniai arklio šarvai
+  leather_horse_armor: Odiniai arklio šarvai
+  lead: Pavadėlis
+  name_tag: Vardo žymeklis
+  command_block_minecart: Vagonėlis su komandos bloku
+  mutton: Žalia aviena
+  cooked_mutton: Kepta aviena
+  white_banner: Balta vėliava
+  orange_banner: Oranžinė vėliava
+  magenta_banner: Šviesiai purpurinė vėliava
+  light_blue_banner: Žydra vėliava
+  yellow_banner: Geltona vėliava
+  lime_banner: Šviesiai žalia vėliava
+  pink_banner: Rausva vėliava
+  gray_banner: Pilka vėliava
+  light_gray_banner: Šviesiai pilka vėliava
+  cyan_banner: Tamsiai žydra vėliava
+  purple_banner: Purpurinė vėliava
+  blue_banner: Mėlyna vėliava
+  brown_banner: Ruda vėliava
+  green_banner: Žalia vėliava
+  red_banner: Raudona vėliava
+  black_banner: Juoda vėliava
+  end_crystal: Endo kristalas
+  chorus_fruit: Koruso vaisius
+  popped_chorus_fruit: Spragintas koruso vaisius
+  beetroot: Burokėlis
+  beetroot_seeds: Burokėlių sėklos
+  beetroot_soup: Barščiai
+  dragon_breath: Drakonės dvelksmas
+  splash_potion: Mėtomas eliksyras
+  spectral_arrow: Auros strėlė
+  tipped_arrow: Patepta strėlė
+  lingering_potion: Garuojantis eliksyras
+  shield: Skydas
+  elytra: Sparnai
+  spruce_boat: Eglės valtis
+  birch_boat: Beržo valtis
+  jungle_boat: Džiunglių medžio valtis
+  acacia_boat: Akacijos valtis
+  dark_oak_boat: Tamsiojo ąžuolo valtis
+  totem_of_undying: Nemirtingumo totemas
+  shulker_shell: Šulkerio kiautas
+  iron_nugget: Geležies grynuolis
+  knowledge_book: Žinių knyga
+  debug_stick: Derinimo pagaliukas
+  music_disc_13: Muzikos diskas
+  music_disc_cat: Muzikos diskas
+  music_disc_blocks: Muzikos diskas
+  music_disc_chirp: Muzikos diskas
+  music_disc_far: Muzikos diskas
+  music_disc_mall: Muzikos diskas
+  music_disc_mellohi: Muzikos diskas
+  music_disc_stal: Muzikos diskas
+  music_disc_strad: Muzikos diskas
+  music_disc_ward: Muzikos diskas
+  music_disc_11: Muzikos diskas
+  music_disc_wait: Muzikos diskas
+  music_disc_pigstep: Muzikos diskas
+  trident: Trišakis
+  phantom_membrane: Fantomo membrana
+  nautilus_shell: Nautilo moliusko kiautas
+  heart_of_the_sea: Jūros širdis
+  crossbow: Arbaletas
+  suspicious_stew: Įtartinas troškinys
+  loom: Staklės
+  flower_banner_pattern: Vėliavos raštas
+  creeper_banner_pattern: Vėliavos raštas
+  skull_banner_pattern: Vėliavos raštas
+  mojang_banner_pattern: Vėliavos raštas
+  globe_banner_pattern: Vėliavos raštas
+  piglin_banner_pattern: Vėliavos raštas
+  composter: Komposteris
+  barrel: Statinė
+  smoker: Rūkykla
+  blast_furnace: Aukštakrosnė
+  cartography_table: Kartografijos stalas
+  fletching_table: Lankininkų stalas
+  grindstone: Tekėlas
+  lectern: Pultas
+  smithing_table: Kalvio stalas
+  stonecutter: Akmens pjaustyklė
+  bell: Varpas
+  lantern: Žibintas
+  soul_lantern: Sielų žibintas
+  sweet_berries: Saldžiosios uogos
+  campfire: Laužas
+  soul_campfire: Sielų laužas
+  shroomlight: Grybašviesė
+  honeycomb: Korys
+  bee_nest: Bičių lizdas
+  beehive: Avilys
+  honey_bottle: Buteliukas medaus
+  honey_block: Medaus blokas
+  honeycomb_block: Medaus korio blokas
+  lodestone: Magnetinė rūda
+  netherite_block: Neterito blokas
+  ancient_debris: Senoviniai griuvėsiai
+  target: Taikinys
+  crying_obsidian: Verkiantis obsidianas
+  blackstone: Juodakmenis
+  blackstone_slab: Juodakmenio pusblokis
+  blackstone_stairs: Juodakmenio laiptai
+  gilded_blackstone: Auksuotas juodakmenis
+  polished_blackstone: Šlifuotas juodakmenis
+  polished_blackstone_slab: Šlifuoto juodakmenio pusblokis
+  polished_blackstone_stairs: Šlifuoto juodakmenio laiptai
+  chiseled_polished_blackstone: Išraižytas šlifuotas juodakmenis
+  polished_blackstone_bricks: Šlifuoto juodakmenio plytos
+  polished_blackstone_brick_slab: Šlifuoto juodakmenio plytų pusblokis
+  polished_blackstone_brick_stairs: Šlifuoto juodakmenio plytų laiptai
+  cracked_polished_blackstone_bricks: Sutrūkinėjusio šlifuoto juodakmenio plytos
+  respawn_anchor: Prisikėlimo Inkaras
+  water: Vanduo
+  lava: Lava
+  tall_seagrass: Aukšta jūržolė
+  piston_head: Stūmoklio galvutė
+  moving_piston: Judantis stūmoklis
+  wall_torch: Deglas ant sienos
+  fire: Ugnis
+  soul_fire: Sielų ugnis
+  redstone_wire: Redstouno laidas
+  oak_wall_sign: Ąžuolinis sienos ženklas
+  spruce_wall_sign: Eglinis sienos ženklas
+  birch_wall_sign: Beržinis sienos ženklas
+  acacia_wall_sign: Akacijos sienos ženklas
+  jungle_wall_sign: Džiunglių medžio sienos ženklas
+  dark_oak_wall_sign: Tamsiojo ąžuolo sienos ženklas
+  redstone_wall_torch: Redstouno deglas ant sienos
+  soul_wall_torch: Sielų sienos deglas
+  nether_portal: Neterio portalas
+  attached_pumpkin_stem: Prijungtas moliūgo stiebas
+  attached_melon_stem: Prijungtas moliūgo stiebas
+  pumpkin_stem: Moliūgo stiebas
+  melon_stem: Arbūzo stiebas
+  end_portal: Endo portalas
+  cocoa: Kakava
+  tripwire: Viela
+  potted_oak_sapling: Pasodintas ąžuolo sodinukas
+  potted_spruce_sapling: Pasodintas eglės sodinukas
+  potted_birch_sapling: Pasodintas beržo sodinukas
+  potted_jungle_sapling: Pasodintas džiunglių medžio sodinukas
+  potted_acacia_sapling: Pasodintas akacijos sodinukas
+  potted_dark_oak_sapling: Pasodintas tamsiojo ąžuolo sodinukas
+  potted_fern: Pasodintas papartis
+  potted_dandelion: Pasodinta kiaulpienė
+  potted_poppy: Pasodinta aguona
+  potted_blue_orchid: Pasodinta mėlynoji orchidėja
+  potted_allium: Pasodintas česnakas
+  potted_azure_bluet: Žydroji bajorė vazone
+  potted_red_tulip: Pasodinta raudona tulpė
+  potted_orange_tulip: Pasodinta oranžinė tulpė
+  potted_white_tulip: Pasodinta balta tulpė
+  potted_pink_tulip: Pasodinta rausva tulpė
+  potted_oxeye_daisy: Pasodinta ramunė
+  potted_cornflower: Pasodinta rugiagėlė
+  potted_lily_of_the_valley: Pasodinta pakalnutė
+  potted_wither_rose: Pasodinta Viterio rožė
+  potted_red_mushroom: Pasodintas raudonas grybas
+  potted_brown_mushroom: Pasodintas rudas grybas
+  potted_dead_bush: Pasodintas negyvas krūmas
+  potted_cactus: Pasodintas kaktusas
+  carrots: Morkos
+  potatoes: Bulvės
+  skeleton_wall_skull: Skeleto kaukolė ant sienos
+  wither_skeleton_wall_skull: Viterio skeleto kaukolė ant sienos
+  zombie_wall_head: Zombio galva ant sienos
+  player_wall_head: Žaidėjo galva ant sienos
+  creeper_wall_head: Kryperio galva ant sienos
+  dragon_wall_head: Drakonės galva ant sienos
+  white_wall_banner: Balta vėliava
+  orange_wall_banner: Oranžinė vėliava
+  magenta_wall_banner: Šviesiai purpurinė vėliava
+  light_blue_wall_banner: Žydra vėliava
+  yellow_wall_banner: Geltona vėliava
+  lime_wall_banner: Šviesiai žalia vėliava
+  pink_wall_banner: Rausva vėliava
+  gray_wall_banner: Pilka vėliava
+  light_gray_wall_banner: Šviesiai pilka vėliava
+  cyan_wall_banner: Tamsiai žydra vėliava
+  purple_wall_banner: Purpurinė vėliava
+  blue_wall_banner: Mėlyna vėliava
+  brown_wall_banner: Ruda vėliava
+  green_wall_banner: Žalia vėliava
+  red_wall_banner: Raudona vėliava
+  black_wall_banner: Juoda vėliava
+  beetroots: Burokai
+  end_gateway: Endo tarpuvartė
+  frosted_ice: Užšalęs ledas
+  kelp_plant: Rudadumblių augalas
+  dead_tube_coral_wall_fan: Negyvas vamzdinis sienos koralas vėduoklė
+  dead_brain_coral_wall_fan: Negyvas smegeninis sienos koralas vėduoklė
+  dead_bubble_coral_wall_fan: Negyvas burbulinis sienos koralas vėduoklė
+  dead_fire_coral_wall_fan: Negyvas ugninis sienos koralas vėduoklė
+  dead_horn_coral_wall_fan: Negyvas raguotas sienos koralas vėduoklė
+  tube_coral_wall_fan: Vamzdinis sienos koralas vėduoklė
+  brain_coral_wall_fan: Smegeninis sienos koralas vėduoklė
+  bubble_coral_wall_fan: Burbulinis sienos koralas vėduoklė
+  fire_coral_wall_fan: Ugninis sienos koralas vėduoklė
+  horn_coral_wall_fan: Raguotas sienos koralas vėduoklė
+  bamboo_sapling: Bambuko ūglys
+  potted_bamboo: Pasodintas bambukas
+  void_air: Tuštumos oras
+  cave_air: Urvų oras
+  bubble_column: Burbulų stulpas
+  sweet_berry_bush: Saldžiųjų uogų krūmas
+  weeping_vines_plant: Pragaro vijoklių augalas
+  twisting_vines_plant: Persipynusių vijoklių augalas
+  crimson_wall_sign: Raudonosios sienos ženklas
+  warped_wall_sign: Iškreiptos sienos ženklas
+  potted_crimson_fungus: Pasodintas raudonasis grybelis
+  potted_warped_fungus: Pasodintas iškreiptasis grybelis
+  potted_crimson_roots: Pasodintos raudonosios šaknys
+  potted_warped_roots: Pasodintos iškreiptosios šaknys
+  zombie_pigman_spawn_egg: Zombio kiauliažmogio atsiradimo kiaušinis
+  cactus_green: Kaktuso žaluma
+  dandelion_yellow: Pienės geltonis
+  rose_red: Rožės raudonis
+  sign: Ženklas
+  wall_sign: Sienos ženklas
+biome:
+  ocean: Vandenynas
+  plains: Lygumos
+  desert: Dykuma
+  mountains: Kalnai
+  forest: Miškas
+  taiga: Taiga
+  swamp: Pelkė
+  river: Upė
+  nether_wastes: Pragaro dykumos
+  the_end: Endas
+  frozen_ocean: Užšalęs vandenynas
+  frozen_river: Užšalusi upė
+  snowy_tundra: Snieguota tundra
+  snowy_mountains: Snieguoti kalnai
+  mushroom_fields: Grybų laukai
+  mushroom_field_shore: Grybų laukų krantas
+  beach: Paplūdimys
+  desert_hills: Dykumos kalvos
+  wooded_hills: Medžiais apaugusios kalvos
+  taiga_hills: Taigos kalvos
+  mountain_edge: Kalnų pakraštys
+  jungle: Džiunglės
+  jungle_hills: Džiunglių kalvos
+  jungle_edge: Džiunglių pakraštys
+  deep_ocean: Gilus vandenynas
+  stone_shore: Akmeninga pakrantė
+  snowy_beach: Apsnigtas papludimys
+  birch_forest: Beržų miškas
+  birch_forest_hills: Beržų miško kalvos
+  dark_forest: Tamsusis miškas
+  snowy_taiga: Snieguota taiga
+  snowy_taiga_hills: Snieguotos taigos kalvos
+  giant_tree_taiga: Didžiųjų medžių taiga
+  giant_tree_taiga_hills: Didžiųjų medžių taigos kalvos
+  wooded_mountains: Medžiais apaugę kalnai
+  savanna: Savana
+  savanna_plateau: Savanos plynaukštė
+  badlands: Nederlingos žemės
+  wooded_badlands_plateau: Medžiais apaugusi nederlinga plynaukštė
+  badlands_plateau: Nederlinga plynaukštė
+  small_end_islands: Mažosios Endo salos
+  end_midlands: Endo viduržemis
+  end_highlands: Endo aukštumos
+  end_barrens: Endo dykynės
+  warm_ocean: Šiltas vandenynas
+  lukewarm_ocean: Drungnas vandenynas
+  cold_ocean: Šaltas vandenynas
+  deep_warm_ocean: Gilus šiltas vandenynas
+  deep_lukewarm_ocean: Gilus drungnas vandenynas
+  deep_cold_ocean: Gilus šaltas vandenynas
+  deep_frozen_ocean: Gilus užšalęs vandenynas
+  the_void: Tuštuma
+  sunflower_plains: Saulėgrąžų lygumos
+  desert_lakes: Dykumos ežerai
+  gravelly_mountains: Žvyruoti kalnai
+  flower_forest: Gėlių miškas
+  taiga_mountains: Taigos kalnai
+  swamp_hills: Pelkės kalvos
+  ice_spikes: Ledo spygliai
+  modified_jungle: Modifikuotos džiunglės
+  modified_jungle_edge: Modifikuotas džiunglių pakraštys
+  tall_birch_forest: Aukštų beržų miškas
+  tall_birch_hills: Aukštų beržų kalvos
+  dark_forest_hills: Tamsiojo miško kalvos
+  snowy_taiga_mountains: Snieguotos taigos kalnai
+  giant_spruce_taiga: Milžiniškų eglių taiga
+  giant_spruce_taiga_hills: Milžiniškų eglių taigos kalvos
+  modified_gravelly_mountains: Žvyruoti kalnai+
+  shattered_savanna: Subyrėjusi savana
+  shattered_savanna_plateau: Subyrėjusios savanos plynaukštė
+  eroded_badlands: Nuardytos nederlingos žemės
+  modified_wooded_badlands_plateau: Modifikuota medžiais apaugusi nederlinga plynaukštė
+  modified_badlands_plateau: Modifikuota nederlinga plynaukštė
+  bamboo_jungle: Bambukų džiunglės
+  bamboo_jungle_hills: Bambukų džiunglių kalvos
+  soul_sand_valley: Sielų smėlio slėnis
+  crimson_forest: Raudonasis pragaro miškas
+  warped_forest: Iškreiptas miškas
+  basalt_deltas: Bazalto deltos
+  nether: Neteris
+enchantment:
+  fire_protection: Apsauga nuo ugnies
+  sharpness: Aštrumas
+  flame: Liepsna
+  soul_speed: Sielos Greitis
+  aqua_affinity: Naras
+  punch: Smūgis
+  loyalty: Lojalumas
+  depth_strider: Gilumų keliautojas
+  vanishing_curse: Pranykimo prakeiksmas
+  unbreaking: Nesulaužomumas
+  knockback: Nubloškimas
+  luck_of_the_sea: Jūros sėkmė
+  binding_curse: Prisirišimo prakeiksmas
+  fortune: Sėkmė
+  protection: Apsauga
+  efficiency: Efektyvumas
+  mending: Susitaisymas
+  frost_walker: Speigo žingsnis
+  lure: Masalas
+  looting: Laimikis
+  piercing: Pradūrimas
+  blast_protection: Apsauga nuo sprogimų
+  smite: Triuškinimas
+  multishot: Daugiašovis
+  fire_aspect: Ugnies išraiška
+  channeling: Nukreipimas
+  sweeping: Platūs ašmenys
+  thorns: Spygliai
+  bane_of_arthropods: Voragyvių skausmas
+  respiration: Kvėpavimas
+  riptide: Plėšimas
+  silk_touch: Šilko prisilietimas
+  quick_charge: Greitas užtaisymas
+  projectile_protection: Apsauga nuo sviedinių
+  impaling: Smeigimas
+  feather_falling: Lengvas nusileidimas
+  power: Galia
+  infinity: Begalybė
+potion:
+  uncraftable: Nepagaminamas eliksyras
+  water: Vandens buteliukas
+  mundane: Paprastas eliksyras
+  thick: Tirštas eliksyras
+  awkward: Keistas eliksyras
+  night_vision: Naktinio matymo eliksyras
+  invisibility: Nematomumo eliksyras
+  jump: Šoklumo eliksyras
+  fire_resistance: Atsparumo ugniai eliksyras
+  speed: Greičio eliksyras
+  slowness: Lėtumo eliksyras
+  water_breathing: Kvėpavimo vandeniu eliksyras
+  instant_heal: Gydymo eliksyras
+  instant_damage: Žalos eliksyras
+  poison: Nuodų eliksyras
+  regen: Atgijimo eliksyras
+  strength: Jėgos eliksyras
+  weakness: Silpnumo eliksyras
+  luck: Sėkmės eliksyras
+  turtle_master: Vėžlių valdovo eliksyras
+  slow_falling: Lėto kritimo eliksyras
+splash_potion:
+  uncraftable: Mėtomas nepagaminamas eliksyras
+  water: Mėtomas vandens buteliukas
+  mundane: Mėtomas nuobodus eliksyras
+  thick: Mėtomas tirštas eliksyras
+  awkward: Mėtomas keistas eliksyras
+  night_vision: Mėtomas naktinio matymo eliksyras
+  invisibility: Mėtomas nematomumo eliksyras
+  jump: Mėtomas šoklumo eliksyras
+  fire_resistance: Mėtomas atsparumo ugniai eliksyras
+  speed: Mėtomas greičio eliksyras
+  slowness: Mėtomas lėtumo eliksyras
+  water_breathing: Mėtomas kvėpavimo vandeniu eliksyras
+  instant_heal: Mėtomas gydymo eliksyras
+  instant_damage: Mėtomas žalos eliksyras
+  poison: Mėtomas nuodų eliksyras
+  regen: Mėtomas atgijimo eliksyras
+  strength: Mėtomas jėgos eliksyras
+  weakness: Mėtomas silpnumo eliksyras
+  luck: Mėtomas sėkmės eliksyras
+  turtle_master: Mėtomas vėžlių valdovo eliksyras
+  slow_falling: Mėtomas lėto kritimo eliksyras
+lingering_potion:
+  uncraftable: Garuojantis nepagaminamas eliksyras
+  water: Garuojantis vandens buteliukas
+  mundane: Garuojantis nuobodus eliksyras
+  thick: Garuojantis tirštas eliksyras
+  awkward: Garuojantis keistas eliksyras
+  night_vision: Garuojantis naktinio matymo eliksyras
+  invisibility: Garuojantis nematomumo eliksyras
+  jump: Garuojantis šoklumo eliksyras
+  fire_resistance: Garuojantis atsparumo ugniai eliksyras
+  speed: Garuojantis greičio eliksyras
+  slowness: Garuojantis lėtumo eliksyras
+  water_breathing: Garuojantis kvėpavimo vandeniu eliksyras
+  instant_heal: Garuojantis gydymo eliksyras
+  instant_damage: Garuojantis žalos eliksyras
+  poison: Garuojantis nuodų eliksyrų
+  regen: Garuojantis atgijimo eliksyras
+  strength: Garuojantis jėgos eliksyras
+  weakness: Garuojantis silpnumo eliksyras
+  luck: Garuojantis sėkmės eliksyras
+  turtle_master: Garuojantis vėžlių valdovo eliksyras
+  slow_falling: Garuojantis lėto kritimo eliksyras
+tipped_arrow:
+  uncraftable: Nepagaminama patepta strėlė
+  water: Vandens purslų strėlė
+  mundane: Patepta strėlė
+  thick: Patepta strėlė
+  awkward: Patepta strėlė
+  night_vision: Naktinio matymo strėlė
+  invisibility: Nematomumo strėlė
+  jump: Šoklumo strėlė
+  fire_resistance: Atsparumo ugniai strėlė
+  speed: Greičio strėlė
+  slowness: Lėtumo strėlė
+  water_breathing: Kvėpavimo vandeniu strėlė
+  instant_heal: Gydymo strėlė
+  instant_damage: Žalos strėlė
+  poison: Užnuodyta strėlė
+  regen: Atgijimo strėlė
+  strength: Jėgos strėlė
+  weakness: Silpnumo strėlė
+  luck: Sėkmės strėlė
+  turtle_master: Vėžlių valdovo strėlė
+  slow_falling: Lėto kritimo strėlė
+entity:
+  dropped_item: Daiktas
+  experience_orb: Patirties kamuolėlis
+  area_effect_cloud: Ploto efekto debesis
+  elder_guardian: Vyresnysis sargybinis
+  wither_skeleton: Viterio skeletas
+  stray: Klajūnas
+  egg: Mestas kiaušinis
+  leash_hitch: Pavadėlio mazgas
+  painting: Paveikslas
+  arrow: Strėlė
+  snowball: Sniego gniūžtė
+  fireball: Ugnies kamuolys
+  small_fireball: Mažas ugnies kamuolys
+  ender_pearl: Mestas Enderio perlas
+  ender_signal: Enderio akis
+  splash_potion: Eliksyras
+  thrown_exp_bottle: Mestas patirties buteliukas
+  item_frame: Rėmelis
+  wither_skull: Viterio kaukolė
+  primed_tnt: Uždegtas TNT
+  falling_block: Krentantis blokas
+  firework: Fejerverkas
+  husk: Sudžiūvėlis
+  spectral_arrow: Auros strėlė
+  shulker_bullet: Šulkerio kulka
+  dragon_fireball: Drakonės ugnies kamuolys
+  zombie_villager: Zombis kaimietis
+  skeleton_horse: Arklys skeletas
+  zombie_horse: Arklys zombis
+  armor_stand: Šarvų stovas
+  donkey: Asilas
+  mule: Mulas
+  evoker_fangs: Šamano iltys
+  evoker: Šamanas
+  vex: Vėlė
+  vindicator: Vindikatorius
+  illusioner: Iliuzionistas
+  minecart_command: Vagonėlis su komandos bloku
+  boat: Valtis
+  minecart: Vagonėlis
+  minecart_chest: Vagonėlis su skrynia
+  minecart_furnace: Vagonėlis su krosnimi
+  minecart_tnt: Vagonėlis su TNT
+  minecart_hopper: Vagonėlis su piltuvu
+  minecart_mob_spawner: Vagonėlis su atsiradimo narvu
+  creeper: Kryperis
+  skeleton: Skeletas
+  spider: Voras
+  giant: Milžinas
+  zombie: Zombis
+  slime: Gleivius
+  ghast: Gastas
+  zombified_piglin: Zombifikuotas piglinas
+  enderman: Endermenas
+  cave_spider: Urvinis voras
+  silverfish: Žvyninukas
+  blaze: Liepsna
+  magma_cube: Magmos kubas
+  ender_dragon: Enderio Drakonė
+  wither: Viteris
+  bat: Šikšnosparnis
+  witch: Ragana
+  endermite: Endermaitas
+  guardian: Sargybinis
+  shulker: Šulkeris
+  pig: Kiaulė
+  sheep: Avis
+  cow: Karvė
+  chicken: Višta
+  squid: Kalmaras
+  wolf: Vilkas
+  mushroom_cow: Mūšrūmas
+  snowman: Sniego golemas
+  ocelot: Ocelotas
+  iron_golem: Geležinis golemas
+  horse: Arklys
+  rabbit: Triušis
+  polar_bear: Baltasis lokys
+  llama: Lama
+  llama_spit: Lama spjauna
+  parrot: Papūga
+  villager: Kaimietis
+  ender_crystal: Endo kristalas
+  turtle: Vėžlys
+  phantom: Fantomas
+  trident: Trišakis
+  cod: Menkė
+  salmon: Lašiša
+  pufferfish: Pūsliažuvė
+  tropical_fish: Tropinė žuvis
+  drowned: Skenduolis
+  dolphin: Delfinas
+  cat: Katė
+  panda: Panda
+  pillager: Plėšikas
+  ravager: Siaubūnas
+  trader_llama: Pirklio lama
+  wandering_trader: Keliaujantis pirklys
+  fox: Lapė
+  bee: Bitė
+  hoglin: Hoglinas
+  piglin: Piglinas
+  strider: Ilgažingsnis
+  zoglin: Zoglinas
+  piglin_brute: Piglino kareivis
+  fishing_hook: Plūdė
+  lightning: Žaibas
+  player: Žaidėjas
+  pig_zombie: Zombis kiauliažmogis
+effect:
+  speed: Greitis
+  slow: Lėtumas
+  fast_digging: Greitas kasimas
+  slow_digging: Kasimo nuovargis
+  increase_damage: Jėga
+  heal: Momentinė sveikata
+  harm: Momentinė žala
+  jump: Šoklumas
+  confusion: Pykinimas
+  regeneration: Atgijimas
+  damage_resistance: Atsparumas
+  fire_resistance: Atsparumas ugniai
+  water_breathing: Kvėpavimas vandeniu
+  invisibility: Nematomumas
+  blindness: Aklumas
+  night_vision: Naktinis matymas
+  hunger: Alkis
+  weakness: Silpnumas
+  poison: Nuodai
+  wither: Viteris
+  health_boost: Papildoma sveikata
+  absorption: Sugertis
+  saturation: Prisotinimas
+  glowing: Švytėjimas
+  levitation: Sklandymas
+  luck: Sėkmė
+  unluck: Nesėkmė
+  slow_falling: Lėtas kritimas
+  conduit_power: Jūros kanalo galia
+  dolphins_grace: Delfino palankumas
+  bad_omen: Blogas ženklas
+  hero_of_the_village: Kaimo herojus
+tropical_fish_type:
+  kob: Kuprys
+  sunstreak: Saulinukė
+  snooper: Naršutė
+  dasher: Spartutė
+  brinely: Sūrymė
+  spotty: Taškuolė
+  flopper: Vartiklė
+  stripey: Dryžė
+  glitter: Žibeklė
+  blockfish: Blokažuvė
+  betty: Beti
+  clayfish: Moliažuvė
+dye_color:
+  white: Balta
+  orange: Oranžinė
+  magenta: Šviesiai purpurinė
+  light_blue: Žydra
+  yellow: Geltona
+  lime: Šviesiai žalia
+  pink: Rausva
+  gray: Pilka
+  light_gray: Šviesiai pilka
+  cyan: Tamsiai žydra
+  purple: Purpurinė
+  blue: Mėlyna
+  brown: Ruda
+  green: Žalia
+  red: Raudona
+  black: Juoda
+named:
+  player_head_named: '%s galva'
+  potion_with_amplifier: '%s %s'
+  potion_with_duration: '%s (%s)'
+  unknown_enchantment: 'Nežinomas užkerėjimas: %s'
+  unknown_entity: 'Nežinoma esybė: %s'
+  unknown_effect: 'Nežinomas efektas: %s'
+tropical_fish_name:
+  '117506305': Rausvapelekis jūrų klounas
+  '117899265': Juodoji chirurgžuvė
+  '185008129': Melsvoji chirurgžuvė
+  '117441793': Jūrų drugelis
+  '118161664': Daugiaspalvė ešeržuvė
+  '65536': Paprastasis jūrų klounas
+  '50726144': Cukrinės vatos gaidukas
+  '67764993': Gruperis
+  '234882305': Imperatoriškasis šiltjūrių ešerys
+  '67110144': Barzdotė
+  '117441025': Musulmonžuvė
+  '16778497': Puošnusis jūrų drugelis
+  '101253888': Papūgžuvė
+  '50660352': Žalioji izabelitė
+  '918529': Raudonoji ešeržuvė
+  '235340288': Raudonlūpė šunžuvė
+  '918273': Raudonasis snaperis
+  '67108865': Siūlapelekinė
+  '917504': Raudonasis jūrų klounas
+  '459008': Raguotinė
+  '67699456': Geltonuodegė papūgžuvė
+  '67371009': Geltonoji chirurgžuvė
+colored_shied:
+  white: Baltas skydas
+  orange: Oranžinis skydas
+  magenta: Šviesiai purpurinis skydas
+  light_blue: Žydra skydas
+  yellow: Geltonas skydas
+  lime: Šviesiai žalias skydas
+  pink: Rausvas skydas
+  gray: Pilkas skydas
+  light_gray: Šviesiai pilkas skydas
+  cyan: Tamsiai žydras skydas
+  purple: Purpurinis skydas
+  blue: Mėlynas skydas
+  brown: Rudas skydas
+  green: Žalias skydas
+  red: Raudonas skydas
+  black: Juodas skydas
+banner_pattern:
+  '65536': Baltas apatinis kairysis kampas
+  '65537': Oranžinis apatinis kairysis kampas
+  '65538': Šviesiai purpurinis apatinis kairysis kampas
+  '65539': Žydras apatinis kairysis kampas
+  '65540': Geltonas apatinis kairysis kampas
+  '65541': Šviesiai žalias apatinis kairysis kampas
+  '65542': Rausvas apatinis kairysis kampas
+  '65543': Pilkas apatinis kairysis kampas
+  '65544': Šviesiai pilkas apatinis kairysis kampas
+  '65545': Tamsiai žydras apatinis kairysis kampas
+  '65546': Purpurinis apatinis kairysis kampas
+  '65547': Mėlynas apatinis kairysis kampas
+  '65548': Rudas apatinis kairysis kampas
+  '65549': Žalias apatinis kairysis kampas
+  '65550': Raudonas apatinis kairysis kampas
+  '65551': Juodas apatinis kairysis kampas
+  '131072': Baltas apatinis dešinysis kampas
+  '131073': Oranžinis apatinis dešinysis kampas
+  '131074': Šviesiai purpurinis apatinis dešinysis kampas
+  '131075': Žydras apatinis dešinysis kampas
+  '131076': Geltonas apatinis dešinysis kampas
+  '131077': Šviesiai žalias apatinis dešinysis kampas
+  '131078': Rausvas apatinis dešinysis kampas
+  '131079': Pilkas apatinis dešinysis kampas
+  '131080': Šviesiai pilkas apatinis dešinysis kampas
+  '131081': Tamsiai žydras apatinis dešinysis kampas
+  '131082': Purpurinis apatinis dešinysis kampas
+  '131083': Mėlynas apatinis dešinysis kampas
+  '131084': Rudas apatinis dešinysis kampas
+  '131085': Žalias apatinis dešinysis kampas
+  '131086': Raudonas apatinis dešinysis kampas
+  '131087': Juodas apatinis dešinysis kampas
+  '196608': Baltas viršutinis kairysis kampas
+  '196609': Oranžinis viršutinis kairysis kampas
+  '196610': Šviesiai purpurinis viršutinis kairysis kampas
+  '196611': Žydras viršutinis kairysis kampas
+  '196612': Geltonas viršutinis kairysis kampas
+  '196613': Šviesiai žalias viršutinis kairysis kampas
+  '196614': Rausvas viršutinis kairysis kampas
+  '196615': Pilkas viršutinis kairysis kampas
+  '196616': Šviesiai pilkas viršutinis kairysis kampas
+  '196617': Tamsiai žydras viršutinis kairysis kampas
+  '196618': Purpurinis viršutinis kairysis kampas
+  '196619': Mėlynas viršutinis kairysis kampas
+  '196620': Rudas viršutinis kairysis kampas
+  '196621': Žalias viršutinis kairysis kampas
+  '196622': Raudonas viršutinis kairysis kampas
+  '196623': Juodas viršutinis kairysis kampas
+  '262144': Baltas viršutinis dešinysis kampas
+  '262145': Oranžinis viršutinis dešinysis kampas
+  '262146': Šviesiai purpurinis viršutinis dešinysis kampas
+  '262147': Žydras viršutinis dešinysis kampas
+  '262148': Geltonas viršutinis dešinysis kampas
+  '262149': Šviesiai žalias viršutinis dešinysis kampas
+  '262150': Rausvas viršutinis dešinysis kampas
+  '262151': Pilkas viršutinis dešinysis kampas
+  '262152': Šviesiai pilkas viršutinis dešinysis kampas
+  '262153': Tamsiai žydras viršutinis dešinysis kampas
+  '262154': Purpurinis viršutinis dešinysis kampas
+  '262155': Mėlynas viršutinis dešinysis kampas
+  '262156': Rudas viršutinis dešinysis kampas
+  '262157': Žalias viršutinis dešinysis kampas
+  '262158': Raudonas viršutinis dešinysis kampas
+  '262159': Juodas viršutinis dešinysis kampas
+  '327680': Balta horizontali apatinė linija
+  '327681': Oranžinė horizontali apatinė linija
+  '327682': Šviesiai purpurinė horizontali apatinė linija
+  '327683': Žydra horizontali apatinė linija
+  '327684': Geltona horizontali apatinė linija
+  '327685': Šviesiai žalia horizontali apatinė linija
+  '327686': Rausva horizontali apatinė linija
+  '327687': Pilka horizontali apatinė linija
+  '327688': Šviesiai pilka horizontali apatinė linija
+  '327689': Tamsiai žydra horizontali apatinė linija
+  '327690': Purpurinė horizontali apatinė linija
+  '327691': Mėlyna horizontali apatinė linija
+  '327692': Ruda horizontali apatinė linija
+  '327693': Žalia horizontali apatinė linija
+  '327694': Raudona horizontali apatinė linija
+  '327695': Juoda horizontali apatinė linija
+  '393216': Balta horizontali viršutinė linija
+  '393217': Oranžinė horizontali viršutinė linija
+  '393218': Šviesiai purpurinė horizontali viršutinė linija
+  '393219': Žydra horizontali viršutinė linija
+  '393220': Geltona horizontali viršutinė linija
+  '393221': Šviesiai žalia horizontali viršutinė linija
+  '393222': Rausva horizontali viršutinė linija
+  '393223': Pilka horizontali viršutinė linija
+  '393224': Šviesiai pilka horizontali viršutinė linija
+  '393225': Tamsiai žydra horizontali viršutinė linija
+  '393226': Purpurinė horizontali viršutinė linija
+  '393227': Mėlyna horizontali viršutinė linija
+  '393228': Ruda horizontali viršutinė linija
+  '393229': Žalia horizontali viršutinė linija
+  '393230': Raudona horizontali viršutinė linija
+  '393231': Juoda horizontali viršutinė linija
+  '458752': Balta vertikali kairioji linija
+  '458753': Oranžinė vertikali kairioji linija
+  '458754': Šviesiai purpurinė vertikali kairioji linija
+  '458755': Žydra vertikali kairioji linija
+  '458756': Geltona vertikali kairioji linija
+  '458757': Šviesiai žalia vertikali kairioji linija
+  '458758': Rausva vertikali kairioji linija
+  '458759': Pilka vertikali kairioji linija
+  '458760': Šviesiai pilka vertikali kairioji linija
+  '458761': Tamsiai žydra vertikali kairioji linija
+  '458762': Purpurinė vertikali kairioji linija
+  '458763': Mėlyna vertikali kairioji linija
+  '458764': Ruda vertikali kairioji linija
+  '458765': Žalia vertikali kairioji linija
+  '458766': Raudona vertikali kairioji linija
+  '458767': Juoda vertikali kairioji linija
+  '524288': Balta vertikali dešinioji linija
+  '524289': Oranžinė vertikali dešinioji linija
+  '524290': Šviesiai purpurinė vertikali dešinioji linija
+  '524291': Žydra vertikali dešinioji linija
+  '524292': Geltona vertikali dešinioji linija
+  '524293': Šviesiai žalia vertikali dešinioji linija
+  '524294': Rausva vertikali dešinioji linija
+  '524295': Pilka vertikali dešinioji linija
+  '524296': Šviesiai pilka vertikali dešinioji linija
+  '524297': Tamsiai žydra vertikali dešinioji linija
+  '524298': Purpurinė vertikali dešinioji linija
+  '524299': Mėlyna vertikali dešinioji linija
+  '524300': Ruda vertikali dešinioji linija
+  '524301': Žalia vertikali dešinioji linija
+  '524302': Raudona vertikali dešinioji linija
+  '524303': Juoda vertikali dešinioji linija
+  '589824': Balta vertikali centrinė linija
+  '589825': Oranžinė vertikali centrinė linija
+  '589826': Šviesiai purpurinė vertikali centrinė linija
+  '589827': Žydra vertikali centrinė linija
+  '589828': Geltona vertikali centrinė linija
+  '589829': Šviesiai žalia vertikali centrinė linija
+  '589830': Rausva vertikali centrinė linija
+  '589831': Pilka vertikali centrinė linija
+  '589832': Šviesiai pilka vertikali centrinė linija
+  '589833': Tamsiai žydra vertikali centrinė linija
+  '589834': Purpurinė vertikali centrinė linija
+  '589835': Mėlyna vertikali centrinė linija
+  '589836': Ruda vertikali centrinė linija
+  '589837': Žalia vertikali centrinė linija
+  '589838': Raudona vertikali centrinė linija
+  '589839': Juoda vertikali centrinė linija
+  '655360': Balta horizontali centrinė linija
+  '655361': Oranžinė horizontali centrinė linija
+  '655362': Šviesiai purpurinė horizontali centrinė linija
+  '655363': Žydra horizontali centrinė linija
+  '655364': Geltona horizontali centrinė linija
+  '655365': Šviesiai žalia horizontali centrinė linija
+  '655366': Rausva horizontali centrinė linija
+  '655367': Pilka horizontali centrinė linija
+  '655368': Šviesiai pilka horizontali centrinė linija
+  '655369': Tamsiai žydra horizontali centrinė linija
+  '655370': Purpurinė horizontali centrinė linija
+  '655371': Mėlyna horizontali centrinė linija
+  '655372': Ruda horizontali centrinė linija
+  '655373': Žalia horizontali centrinė linija
+  '655374': Raudona horizontali centrinė linija
+  '655375': Juoda horizontali centrinė linija
+  '720896': Balta įstriža dešinioji linija
+  '720897': Oranžinė įstriža kairioji linija
+  '720898': Šviesiai purpurinė įstriža kairioji linija
+  '720899': Žydra įstriža kairioji linija
+  '720900': Geltona įstriža kairioji linija
+  '720901': Šviesiai žalia įstriža kairioji linija
+  '720902': Rausva įstriža kairioji linija
+  '720903': Pilka įstriža kairioji linija
+  '720904': Šviesiai pilka įstriža kairioji linija
+  '720905': Tamsiai žydra įstriža kairioji linija
+  '720906': Purpurinė įstriža kairioji linija
+  '720907': Mėlyna įstriža kairioji linija
+  '720908': Ruda įstriža kairioji linija
+  '720909': Žalia įstriža kairioji linija
+  '720910': Raudona įstriža kairioji linija
+  '720911': Juoda įstriža kairioji linija
+  '786432': Balta įstriža dešinioji linija
+  '786433': Oranžinė įstriža dešinioji linija
+  '786434': Šviesiai purpurinė įstriža dešinioji linija
+  '786435': Žydra įstriža dešinioji linija
+  '786436': Geltona įstriža dešinioji linija
+  '786437': Šviesiai žalia įstriža dešinioji linija
+  '786438': Rausva įstriža dešinioji linija
+  '786439': Pilka įstriža dešinioji linija
+  '786440': Šviesiai pilka įstriža dešinioji linija
+  '786441': Tamsiai žydra įstriža dešinioji linija
+  '786442': Purpurinė įstriža dešinioji linija
+  '786443': Mėlyna įstriža dešinioji linija
+  '786444': Ruda įstriža dešinioji linija
+  '786445': Žalia įstriža dešinioji linija
+  '786446': Raudona įstriža dešinioji linija
+  '786447': Juoda įstriža dešinioji linija
+  '851968': Baltos vertikalios juostos
+  '851969': Oranžinės vertikalios juostos
+  '851970': Šviesiai purpurinės vertikalios juostos
+  '851971': Žydros vertikalios juostos
+  '851972': Geltonos vertikalios juostos
+  '851973': Šviesiai žalios vertikalios juostos
+  '851974': Rausvos vertikalios juostos
+  '851975': Pilkos vertikalios juostos
+  '851976': Šviesiai pilkos vertikalios juostos
+  '851977': Tamsiai žydros vertikalios juostos
+  '851978': Purpurinės vertikalios juostos
+  '851979': Mėlynos vertikalios juostos
+  '851980': Rudos vertikalios juostos
+  '851981': Žalios vertikalios juostos
+  '851982': Raudonos vertikalios juostos
+  '851983': Juodos vertikalios juostos
+  '917504': Baltas įstrižas kryžius
+  '917505': Oranžinis įstrižas kryžius
+  '917506': Šviesiai purpurinis įstrižas kryžius
+  '917507': Žydras įstrižas kryžius
+  '917508': Geltonas įstrižas kryžius
+  '917509': Šviesiai žalias įstrižas kryžius
+  '917510': Rausvas įstrižas kryžius
+  '917511': Pilkas įstrižas kryžius
+  '917512': Šviesiai pilkas įstrižas kryžius
+  '917513': Tamsiai žydras įstrižas kryžius
+  '917514': Purpurinis įstrižas kryžius
+  '917515': Mėlynas įstrižas kryžius
+  '917516': Rudas įstrižas kryžius
+  '917517': Žalias įstrižas kryžius
+  '917518': Raudonas įstrižas kryžius
+  '917519': Juodas įstrižas kryžius
+  '983040': Baltas kryžius
+  '983041': Oranžinis kryžius
+  '983042': Šviesiai purpurinis kryžius
+  '983043': Žydras kryžius
+  '983044': Geltonas kryžius
+  '983045': Šviesiai žalias kryžius
+  '983046': Rausvas kryžius
+  '983047': Pilkas kryžius
+  '983048': Šviesiai pilkas kryžius
+  '983049': Tamsiai žydras kryžius
+  '983050': Purpurinis kryžius
+  '983051': Mėlynas kryžius
+  '983052': Rudas kryžius
+  '983053': Žalias kryžius
+  '983054': Raudonas kryžius
+  '983055': Juodas kryžius
+  '1048576': Baltas apatinis trikampis
+  '1048577': Oranžinis apatinis trikampis
+  '1048578': Šviesiai purpurinis apatinis trikampis
+  '1048579': Žydras apatinis trikampis
+  '1048580': Geltonas apatinis trikampis
+  '1048581': Šviesiai žalias apatinis trikampis
+  '1048582': Rausvas apatinis trikampis
+  '1048583': Pilkas apatinis trikampis
+  '1048584': Šviesiai pilkas apatinis trikampis
+  '1048585': Tamsiai žydras apatinis trikampis
+  '1048586': Purpurinis apatinis trikampis
+  '1048587': Mėlynas apatinis trikampis
+  '1048588': Rudas apatinis trikampis
+  '1048589': Žalias apatinis trikampis
+  '1048590': Raudonas apatinis trikampis
+  '1048591': Juodas apatinis trikampis
+  '1114112': Baltas viršutinis trikampis
+  '1114113': Oranžinis viršutinis trikampis
+  '1114114': Šviesiai purpurinis viršutinis trikampis
+  '1114115': Žydras viršutinis trikampis
+  '1114116': Geltonas viršutinis trikampis
+  '1114117': Šviesiai žalias viršutinis trikampis
+  '1114118': Rausvas viršutinis trikampis
+  '1114119': Pilkas viršutinis trikampis
+  '1114120': Šviesiai pilkas viršutinis trikampis
+  '1114121': Tamsiai žydras viršutinis trikampis
+  '1114122': Purpurinis viršutinis trikampis
+  '1114123': Mėlynas viršutinis trikampis
+  '1114124': Rudas viršutinis trikampis
+  '1114125': Žalias viršutinis trikampis
+  '1114126': Raudonas viršutinis trikampis
+  '1114127': Juodas viršutinis trikampis
+  '1179648': Balti apatiniai trikampiai
+  '1179649': Oranžiniai apatiniai trikampiai
+  '1179650': Šviesiai purpuriniai apatiniai trikampiai
+  '1179651': Žydri apatiniai trikampiai
+  '1179652': Geltoni apatiniai trikampiai
+  '1179653': Šviesiai žali apatiniai trikampiai
+  '1179654': Rausvi apatiniai trikampiai
+  '1179655': Pilki apatiniai trikampiai
+  '1179656': Šviesiai pilki apatiniai trikampiai
+  '1179657': Tamsiai žydri apatiniai trikampiai
+  '1179658': Purpuriniai apatiniai trikampiai
+  '1179659': Mėlyni apatiniai trikampiai
+  '1179660': Rudi apatiniai trikampiai
+  '1179661': Žali apatiniai trikampiai
+  '1179662': Raudoni apatiniai trikampiai
+  '1179663': Juodi apatiniai trikampiai
+  '1245184': Balti viršutiniai trikampiai
+  '1245185': Oranžiniai viršutiniai trikampiai
+  '1245186': Šviesiai purpuriniai viršutiniai trikampiai
+  '1245187': Žydri viršutiniai trikampiai
+  '1245188': Geltoni viršutiniai trikampiai
+  '1245189': Šviesiai žali viršutiniai trikampiai
+  '1245190': Rausvi viršutiniai trikampiai
+  '1245191': Pilki viršutiniai trikampiai
+  '1245192': Šviesiai pilki viršutiniai trikampiai
+  '1245193': Tamsiai žydri viršutiniai trikampiai
+  '1245194': Purpuriniai viršutiniai trikampiai
+  '1245195': Mėlyni viršutiniai trikampiai
+  '1245196': Rudi viršutiniai trikampiai
+  '1245197': Žali viršutiniai trikampiai
+  '1245198': Raudoni viršutiniai trikampiai
+  '1245199': Juodi viršutiniai trikampiai
+  '1310720': Balta viršutinė kairioji pusė
+  '1310721': Oranžinė viršutinė kairioji pusė
+  '1310722': Šviesiai purpurinė viršutinė kairioji pusė
+  '1310723': Žydra viršutinė kairioji pusė
+  '1310724': Geltona viršutinė kairioji pusė
+  '1310725': Šviesiai žalia viršutinė kairioji pusė
+  '1310726': Rausva viršutinė kairioji pusė
+  '1310727': Pilka viršutinė kairioji pusė
+  '1310728': Šviesiai pilka viršutinė kairioji pusė
+  '1310729': Tamsiai žydra viršutinė kairioji pusė
+  '1310730': Purpurinė viršutinė kairioji pusė
+  '1310731': Mėlyna viršutinė kairioji pusė
+  '1310732': Ruda viršutinė kairioji pusė
+  '1310733': Žalia viršutinė kairioji pusė
+  '1310734': Raudona viršutinė kairioji pusė
+  '1310735': Juoda viršutinė kairioji pusė
+  '1376256': Balta apatinė dešinioji pusė
+  '1376257': Oranžinė apatinė dešinioji pusė
+  '1376258': Šviesiai purpurinė apatinė dešinioji pusė
+  '1376259': Žydra apatinė dešinioji pusė
+  '1376260': Geltona apatinė dešinioji pusė
+  '1376261': Šviesiai žalia apatinė dešinioji pusė
+  '1376262': Rausva apatinė dešinioji pusė
+  '1376263': Pilka apatinė dešinioji pusė
+  '1376264': Šviesiai pilka apatinė dešinioji pusė
+  '1376265': Tamsiai žydra apatinė dešinioji pusė
+  '1376266': Purpurinė apatinė dešinioji pusė
+  '1376267': Mėlyna apatinė dešinioji pusė
+  '1376268': Ruda apatinė dešinioji pusė
+  '1376269': Žalia apatinė dešinioji pusė
+  '1376270': Raudona apatinė dešinioji pusė
+  '1376271': Juoda apatinė dešinioji pusė
+  '1441792': Balta apatinė kairioji pusė
+  '1441793': Oranžinė apatinė kairioji pusė
+  '1441794': Šviesiai purpurinė apatinė kairioji pusė
+  '1441795': Žydra apatinė kairioji pusė
+  '1441796': Geltona apatinė kairioji pusė
+  '1441797': Šviesiai žalia apatinė kairioji pusė
+  '1441798': Rausva apatinė kairioji pusė
+  '1441799': Pilka apatinė kairioji pusė
+  '1441800': Šviesiai pilka apatinė kairioji pusė
+  '1441801': Tamsiai žydra apatinė kairioji pusė
+  '1441802': Purpurinė apatinė kairioji pusė
+  '1441803': Mėlyna apatinė kairioji pusė
+  '1441804': Ruda apatinė kairioji pusė
+  '1441805': Žalia apatinė kairioji pusė
+  '1441806': Raudona apatinė kairioji pusė
+  '1441807': Juoda apatinė kairioji pusė
+  '1507328': Balta viršutinė dešinioji pusė
+  '1507329': Oranžinė viršutinė dešinioji pusė
+  '1507330': Šviesiai purpurinė viršutinė dešinioji pusė
+  '1507331': Žydra viršutinė dešinioji pusė
+  '1507332': Geltona viršutinė dešinioji pusė
+  '1507333': Šviesiai žalia viršutinė dešinioji pusė
+  '1507334': Rausva viršutinė dešinioji pusė
+  '1507335': Pilka viršutinė dešinioji pusė
+  '1507336': Šviesiai pilka viršutinė dešinioji pusė
+  '1507337': Tamsiai žydra viršutinė dešinioji pusė
+  '1507338': Purpurinė viršutinė dešinioji pusė
+  '1507339': Mėlyna viršutinė dešinioji pusė
+  '1507340': Ruda viršutinė dešinioji pusė
+  '1507341': Žalia viršutinė dešinioji pusė
+  '1507342': Raudona viršutinė dešinioji pusė
+  '1507343': Juoda viršutinė dešinioji pusė
+  '1572864': Baltas apskritimas
+  '1572865': Oranžinis apskritimas
+  '1572866': Šviesiai purpurinis apskritimas
+  '1572867': Žydras apskritimas
+  '1572868': Geltonas apskritimas
+  '1572869': Šviesiai žalias apskritimas
+  '1572870': Rausvas apskritimas
+  '1572871': Pilkas apskritimas
+  '1572872': Šviesiai pilkas apskritimas
+  '1572873': Tamsiai žydras apskritimas
+  '1572874': Purpurinis apskritimas
+  '1572875': Mėlynas apskritimas
+  '1572876': Rudas apskritimas
+  '1572877': Žalias apskritimas
+  '1572878': Raudonas apskritimas
+  '1572879': Juodas apskritimas
+  '1638400': Baltas rombas
+  '1638401': Oranžinis rombas
+  '1638402': Šviesiai purpurinis rombas
+  '1638403': Žydras rombas
+  '1638404': Geltonas rombas
+  '1638405': Šviesiai žalias rombas
+  '1638406': Rausvas rombas
+  '1638407': Pilkas rombas
+  '1638408': Šviesiai pilkas rombas
+  '1638409': Tamsiai žydras rombas
+  '1638410': Purpurinis rombas
+  '1638411': Mėlynas rombas
+  '1638412': Rudas rombas
+  '1638413': Žalias rombas
+  '1638414': Raudonas rombas
+  '1638415': Juodas rombas
+  '1703936': Balta kairioji pusė
+  '1703937': Oranžinė kairioji pusė
+  '1703938': Šviesiai purpurinė kairioji pusė
+  '1703939': Žydra kairioji pusė
+  '1703940': Geltona kairioji pusė
+  '1703941': Šviesiai žalia kairioji pusė
+  '1703942': Rausva kairioji pusė
+  '1703943': Pilka kairioji pusė
+  '1703944': Šviesiai pilka kairioji pusė
+  '1703945': Tamsiai žydra kairioji pusė
+  '1703946': Purpurinė kairioji pusė
+  '1703947': Mėlyna kairioji pusė
+  '1703948': Ruda kairioji pusė
+  '1703949': Žalia kairioji pusė
+  '1703950': Raudona kairioji pusė
+  '1703951': Juoda kairioji pusė
+  '1769472': Balta viršutinė pusė
+  '1769473': Oranžinė viršutinė pusė
+  '1769474': Šviesiai purpurinė viršutinė pusė
+  '1769475': Žydra viršutinė pusė
+  '1769476': Geltona viršutinė pusė
+  '1769477': Šviesiai žalia viršutinė pusė
+  '1769478': Rausva viršutinė pusė
+  '1769479': Pilka viršutinė pusė
+  '1769480': Šviesiai pilka viršutinė pusė
+  '1769481': Tamsiai žydra viršutinė pusė
+  '1769482': Purpurinė viršutinė pusė
+  '1769483': Mėlyna viršutinė pusė
+  '1769484': Ruda viršutinė pusė
+  '1769485': Žalia viršutinė pusė
+  '1769486': Raudona viršutinė pusė
+  '1769487': Juoda viršutinė pusė
+  '1835008': Balta dešinioji pusė
+  '1835009': Oranžinė dešinioji pusė
+  '1835010': Šviesiai purpurinė dešinioji pusė
+  '1835011': Žydra dešinioji pusė
+  '1835012': Geltona dešinioji pusė
+  '1835013': Šviesiai žalia dešinioji pusė
+  '1835014': Rausva dešinioji pusė
+  '1835015': Pilka dešinioji pusė
+  '1835016': Šviesiai pilka dešinioji pusė
+  '1835017': Tamsiai žydra dešinioji pusė
+  '1835018': Purpurinė dešinioji pusė
+  '1835019': Mėlyna dešinioji pusė
+  '1835020': Ruda dešinioji pusė
+  '1835021': Žalia dešinioji pusė
+  '1835022': Raudona dešinioji pusė
+  '1835023': Juoda dešinioji pusė
+  '1900544': Balta apatinė pusė
+  '1900545': Oranžinė apatinė pusė
+  '1900546': Šviesiai purpurinė apatinė pusė
+  '1900547': Žydra apatinė pusė
+  '1900548': Geltona apatinė pusė
+  '1900549': Šviesiai žalia apatinė pusė
+  '1900550': Rausva apatinė pusė
+  '1900551': Pilka apatinė pusė
+  '1900552': Šviesiai pilka apatinė pusė
+  '1900553': Tamsiai žydra apatinė pusė
+  '1900554': Purpurinė apatinė pusė
+  '1900555': Mėlyna apatinė pusė
+  '1900556': Ruda apatinė pusė
+  '1900557': Žalia apatinė pusė
+  '1900558': Raudona apatinė pusė
+  '1900559': Juoda apatinė pusė
+  '1966080': Baltas rėmelis
+  '1966081': Oranžinis rėmelis
+  '1966082': Šviesiai purpurinis rėmelis
+  '1966083': Žydras rėmelis
+  '1966084': Geltonas rėmelis
+  '1966085': Šviesiai žalias rėmelis
+  '1966086': Rausvas rėmelis
+  '1966087': Pilkas rėmelis
+  '1966088': Šviesiai pilkas rėmelis
+  '1966089': Tamsiai žydras rėmelis
+  '1966090': Purpurinis rėmelis
+  '1966091': Mėlynas rėmelis
+  '1966092': Rudas rėmelis
+  '1966093': Žalias rėmelis
+  '1966094': Raudonas rėmelis
+  '1966095': Juodas rėmelis
+  '2031616': Baltas vingiuotas rėmelis
+  '2031617': Oranžinis vingiuotas rėmelis
+  '2031618': Šviesiai purpurinis vingiuotas rėmelis
+  '2031619': Žydras vingiuotas rėmelis
+  '2031620': Geltonas vingiuotas rėmelis
+  '2031621': Šviesiai žalias vingiuotas rėmelis
+  '2031622': Rausvas vingiuotas rėmelis
+  '2031623': Pilkas vingiuotas rėmelis
+  '2031624': Šviesiai pilkas vingiuotas rėmelis
+  '2031625': Tamsiai žydras vingiuotas rėmelis
+  '2031626': Purpurinis vingiuotas rėmelis
+  '2031627': Mėlynas vingiuotas rėmelis
+  '2031628': Rudas vingiuotas rėmelis
+  '2031629': Žalias vingiuotas rėmelis
+  '2031630': Raudonas vingiuotas rėmelis
+  '2031631': Juodas vingiuotas rėmelis
+  '2097152': Baltas kryperio veidas
+  '2097153': Oranžinis kryperio veidas
+  '2097154': Šviesiai purpurinis kryperio veidas
+  '2097155': Žydras kryperio veidas
+  '2097156': Geltonas kryperio veidas
+  '2097157': Šviesiai žalias kryperio veidas
+  '2097158': Rausvas kryperio veidas
+  '2097159': Pilkas kryperio veidas
+  '2097160': Šviesiai pilkas kryperio veidas
+  '2097161': Tamsiai žydras kryperio veidas
+  '2097162': Purpurinis kryperio veidas
+  '2097163': Mėlynas kryperio veidas
+  '2097164': Rudas kryperio veidas
+  '2097165': Žalias kryperio veidas
+  '2097166': Raudonas kryperio veidas
+  '2097167': Juodas kryperio veidas
+  '2162688': Baltas viršutinis gradientas
+  '2162689': Oranžinis viršutinis gradientas
+  '2162690': Šviesiai purpurinis viršutinis gradientas
+  '2162691': Žydras viršutinis gradientas
+  '2162692': Geltonas viršutinis gradientas
+  '2162693': Šviesiai žalias viršutinis gradientas
+  '2162694': Rausvas viršutinis gradientas
+  '2162695': Pilkas viršutinis gradientas
+  '2162696': Šviesiai pilkas viršutinis gradientas
+  '2162697': Tamsiai žydras viršutinis gradientas
+  '2162698': Purpurinis viršutinis gradientas
+  '2162699': Mėlynas viršutinis gradientas
+  '2162700': Rudas viršutinis gradientas
+  '2162701': Žalias viršutinis gradientas
+  '2162702': Raudonas viršutinis gradientas
+  '2162703': Juodas viršutinis gradientas
+  '2228224': Baltas apatinis gradientas
+  '2228225': Oranžinis apatinis gradientas
+  '2228226': Šviesiai purpurinis apatinis gradientas
+  '2228227': Žydras apatinis gradientas
+  '2228228': Geltonas apatinis gradientas
+  '2228229': Šviesiai žalias apatinis gradientas
+  '2228230': Rausvas apatinis gradientas
+  '2228231': Pilkas apatinis gradientas
+  '2228232': Šviesiai pilkas apatinis gradientas
+  '2228233': Tamsiai žydras apatinis gradientas
+  '2228234': Purpurinis apatinis gradientas
+  '2228235': Mėlynas apatinis gradientas
+  '2228236': Rudas apatinis gradientas
+  '2228237': Žalias apatinis gradientas
+  '2228238': Raudonas apatinis gradientas
+  '2228239': Juodas apatinis gradientas
+  '2293760': Baltų plytų fonas
+  '2293761': Oranžinių plytų fonas
+  '2293762': Šviesiai purpurinių plytų fonas
+  '2293763': Žydrų plytų fonas
+  '2293764': Geltonų plytų fonas
+  '2293765': Šviesiai žalių plytų fonas
+  '2293766': Rausvų plytų fonas
+  '2293767': Pilkų plytų fonas
+  '2293768': Šviesiai pilkų plytų fonas
+  '2293769': Tamsiai žydrų plytų fonas
+  '2293770': Purpurinių plytų fonas
+  '2293771': Mėlynų plytų fonas
+  '2293772': Rudų plytų fonas
+  '2293773': Žalių plytų fonas
+  '2293774': Raudonų plytų fonas
+  '2293775': Juodų plytų fonas
+  '2359296': Balta kaukolė
+  '2359297': Oranžinė kaukolė
+  '2359298': Šviesiai purpurinė kaukolė
+  '2359299': Žydra kaukolė
+  '2359300': Geltona kaukolė
+  '2359301': Šviesiai žalia kaukolė
+  '2359302': Rausva kaukolė
+  '2359303': Pilka kaukolė
+  '2359304': Šviesiai pilka kaukolė
+  '2359305': Tamsiai žydra kaukolė
+  '2359306': Purpurinė kaukolė
+  '2359307': Mėlyna kaukolė
+  '2359308': Ruda kaukolė
+  '2359309': Žalia kaukolė
+  '2359310': Raudona kaukolė
+  '2359311': Juoda kaukolė
+  '2424832': Balta gėlė
+  '2424833': Oranžinė gėlė
+  '2424834': Šviesiai purpurinė gėlė
+  '2424835': Žydra gėlė
+  '2424836': Geltona gėlė
+  '2424837': Šviesiai žalia gėlė
+  '2424838': Rausva gėlė
+  '2424839': Pilka gėlė
+  '2424840': Šviesiai pilka gėlė
+  '2424841': Tamsiai žydra gėlė
+  '2424842': Purpurinė gėlė
+  '2424843': Mėlyna gėlė
+  '2424844': Ruda gėlė
+  '2424845': Žalia gėlė
+  '2424846': Raudona gėlė
+  '2424847': Juoda gėlė
+  '2490368': Baltas dalykas
+  '2490369': Oranžinis dalykas
+  '2490370': Šviesiai purpurinis dalykas
+  '2490371': Žydras dalykas
+  '2490372': Geltonas dalykas
+  '2490373': Šviesiai žalias dalykas
+  '2490374': Rausvas dalykas
+  '2490375': Pilkas dalykas
+  '2490376': Šviesiai pilkas dalykas
+  '2490377': Tamsiai žydras dalykas
+  '2490378': Purpurinis dalykas
+  '2490379': Mėlynas dalykas
+  '2490380': Rudas dalykas
+  '2490381': Žalias dalykas
+  '2490382': Raudonas dalykas
+  '2490383': Juodas dalykas
+  '2555904': Baltas gaublys
+  '2555905': Oranžinis gaublys
+  '2555906': Šviesiai purpurinis gaublys
+  '2555907': Žydras gaublys
+  '2555908': Geltonas gaublys
+  '2555909': Šviesiai žalias gaublys
+  '2555910': Rausvas gaublys
+  '2555911': Pilkas gaublys
+  '2555912': Šviesiai pilkas gaublys
+  '2555913': Tamsiai žydras gaublys
+  '2555914': Purpurinis gaublys
+  '2555915': Mėlynas gaublys
+  '2555916': Rudas gaublys
+  '2555917': Žalias gaublys
+  '2555918': Raudonas gaublys
+  '2555919': Juodas gaublys
+  '2621440': Baltas šnipas
+  '2621441': Oranžinis šnipas
+  '2621442': Šviesiai purpurinis šnipas
+  '2621443': Žydras šnipas
+  '2621444': Geltonas šnipas
+  '2621445': Šviesiai žalias šnipas
+  '2621446': Rausvas šnipas
+  '2621447': Pilkas šnipas
+  '2621448': Šviesiai pilkas šnipas
+  '2621449': Tamsiai žydras šnipas
+  '2621450': Purpurinis šnipas
+  '2621451': Mėlynas šnipas
+  '2621452': Rudas šnipas
+  '2621453': Žalias šnipas
+  '2621454': Raudonas šnipas
+  '2621455': Juodas šnipas
+merchant_level:
+  '1': Naujokas
+  '2': Mokinys
+  '3': Keliauninkas
+  '4': Ekspertas
+  '5': Meistras
+villager_profession:
+  none: Kaimietis
+  armorer: Šarvų kalvis
+  butcher: Mėsininkas
+  cartographer: Kartografas
+  cleric: Dvasininkas
+  farmer: Ūkininkas
+  fisherman: Žvejys
+  fletcher: Strėlininkas
+  leatherworker: Odos siuvėjas
+  librarian: Bibliotekininkas
+  mason: Mūrininkas
+  nitwit: Kvailelis
+  shepherd: Piemuo
+  toolsmith: Įrankių meistras
+  weaponsmith: Ginklakalys
+villager_career:
+  farmer: Ūkininkas
+  fisherman: Žvejys
+  shepherd: Piemuo
+  fletcher: Strėlininkas
+  librarian: Bibliotekininkas
+  cartographer: Kartografas
+  cleric: Dvasininkas
+  armorer: Šarvų kalvis
+  weapon_smith: Ginklų kalvis
+  tool_smith: Įrankių kalvis
+  butcher: Mėsininkas
+  leatherworker: Odos siuvėjas
+  nitwit: Kvailelis

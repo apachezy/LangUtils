@@ -1,0 +1,2196 @@
+# ####################################################
+# Build time: 2021-03-06 14:47:29                    #
+# ####################################################
+language:
+  code: sv_se
+  name: Svenska
+  region: Sverige
+material:
+  air: Luft
+  stone: Sten
+  granite: Granit
+  polished_granite: Polerad granit
+  diorite: Diorit
+  polished_diorite: Polerad diorit
+  andesite: Andesit
+  polished_andesite: Polerad andesit
+  grass_block: Gräsblock
+  dirt: Jord
+  coarse_dirt: Grusig jord
+  podzol: Podsol
+  crimson_nylium: Karmosinnycel
+  warped_nylium: Förvrängd nycel
+  cobblestone: Kullersten
+  oak_planks: Ekplankor
+  spruce_planks: Granplankor
+  birch_planks: Björkplankor
+  jungle_planks: Djungelplankor
+  acacia_planks: Akaciaplankor
+  dark_oak_planks: Mörka ekplankor
+  crimson_planks: Karmosinplankor
+  warped_planks: Förvrängda plankor
+  oak_sapling: Ekplanta
+  spruce_sapling: Granplanta
+  birch_sapling: Björkplanta
+  jungle_sapling: Djungelplanta
+  acacia_sapling: Akaciaplanta
+  dark_oak_sapling: Mörk ekplanta
+  bedrock: Berggrund
+  sand: Sand
+  red_sand: Röd sand
+  gravel: Grus
+  gold_ore: Guldmalm
+  iron_ore: Järnmalm
+  coal_ore: Kolmalm
+  nether_gold_ore: Netherguldmalm
+  oak_log: Ekstam
+  spruce_log: Granstam
+  birch_log: Björkstam
+  jungle_log: Djungelträdstam
+  acacia_log: Akaciastam
+  dark_oak_log: Mörk ekstam
+  crimson_stem: Karmosinstam
+  warped_stem: Förvrängd stam
+  stripped_oak_log: Avbarkad ekstam
+  stripped_spruce_log: Avbarkad granstam
+  stripped_birch_log: Avbarkad björkstam
+  stripped_jungle_log: Avbarkad djungelträdstam
+  stripped_acacia_log: Avbarkad akaciastam
+  stripped_dark_oak_log: Avbarkad mörk ekstam
+  stripped_crimson_stem: Avbarkad karmosinstam
+  stripped_warped_stem: Avbarkad förvrängd stam
+  stripped_oak_wood: Avbarkat ekträ
+  stripped_spruce_wood: Avbarkat granträ
+  stripped_birch_wood: Avbarkat björkträ
+  stripped_jungle_wood: Avbarkat djungelträ
+  stripped_acacia_wood: Avbarkat akaciaträ
+  stripped_dark_oak_wood: Avbarkat mörkt ekträ
+  stripped_crimson_hyphae: Avbarkade karmosinhyfer
+  stripped_warped_hyphae: Avbarkade förvrängda hyfer
+  oak_wood: Ekträ
+  spruce_wood: Granträ
+  birch_wood: Björkträ
+  jungle_wood: Djungelträ
+  acacia_wood: Akaciaträ
+  dark_oak_wood: Mörkt ekträ
+  crimson_hyphae: Karmosinhyfer
+  warped_hyphae: Förvrängda hyfer
+  oak_leaves: Eklöv
+  spruce_leaves: Granbarr
+  birch_leaves: Björklöv
+  jungle_leaves: Djungellöv
+  acacia_leaves: Akacialöv
+  dark_oak_leaves: Mörka eklöv
+  sponge: Svamp
+  wet_sponge: Våt svamp
+  glass: Glas
+  lapis_ore: Lapis lazulimalm
+  lapis_block: Lapis lazuliblock
+  dispenser: Automat
+  sandstone: Sandsten
+  chiseled_sandstone: Mejslad sandsten
+  cut_sandstone: Skuren sandsten
+  note_block: Notblock
+  powered_rail: Krafträls
+  detector_rail: Sensorräls
+  sticky_piston: Klibbig kolv
+  cobweb: Spindelnät
+  grass: Gräs
+  fern: Ormbunke
+  dead_bush: Död buske
+  seagrass: Sjögräs
+  sea_pickle: Havsgurka
+  piston: Kolv
+  white_wool: Vit ull
+  orange_wool: Orange ull
+  magenta_wool: Ljuslila ull
+  light_blue_wool: Ljusblå ull
+  yellow_wool: Gul ull
+  lime_wool: Limegrön ull
+  pink_wool: Rosa ull
+  gray_wool: Grå ull
+  light_gray_wool: Ljusgrå ull
+  cyan_wool: Turkos ull
+  purple_wool: Lila ull
+  blue_wool: Blå ull
+  brown_wool: Brun ull
+  green_wool: Grön ull
+  red_wool: Röd ull
+  black_wool: Svart ull
+  dandelion: Maskros
+  poppy: Vallmo
+  blue_orchid: Blå orkidé
+  allium: Gräslök
+  azure_bluet: Porslinsstjärna
+  red_tulip: Röd tulpan
+  orange_tulip: Orange tulpan
+  white_tulip: Vit tulpan
+  pink_tulip: Rosa tulpan
+  oxeye_daisy: Prästkrage
+  cornflower: Blåklint
+  lily_of_the_valley: Liljekonvalj
+  wither_rose: Witherros
+  brown_mushroom: Brun svamp
+  red_mushroom: Röd svamp
+  crimson_fungus: Karmosinsvamp
+  warped_fungus: Förvrängd svamp
+  crimson_roots: Karmosinrötter
+  warped_roots: Förvrängda rötter
+  nether_sprouts: Netherskott
+  weeping_vines: Tårklätterväxt
+  twisting_vines: Vridande klätterväxt
+  sugar_cane: Sockerrör
+  kelp: Kelp
+  bamboo: Bambu
+  gold_block: Guldblock
+  iron_block: Järnblock
+  oak_slab: Ekplatta
+  spruce_slab: Granplatta
+  birch_slab: Björkplatta
+  jungle_slab: Djungelplatta
+  acacia_slab: Akaciaplatta
+  dark_oak_slab: Mörk ekplatta
+  crimson_slab: Karmosinplatta
+  warped_slab: Förvrängd platta
+  stone_slab: Stenplatta
+  smooth_stone_slab: Len stenplatta
+  sandstone_slab: Sandstensplatta
+  cut_sandstone_slab: Skuren sandstensplatta
+  petrified_oak_slab: Förstenad ekplatta
+  cobblestone_slab: Kullerstensplatta
+  brick_slab: Tegelstensplatta
+  stone_brick_slab: Murstensplatta
+  nether_brick_slab: Nethertegelplatta
+  quartz_slab: Kvartsplatta
+  red_sandstone_slab: Röd sandstensplatta
+  cut_red_sandstone_slab: Skuren röd sandstensplatta
+  purpur_slab: Purpurplatta
+  prismarine_slab: Prismarinplatta
+  prismarine_brick_slab: Prismarintegelplatta
+  dark_prismarine_slab: Mörk prismarinplatta
+  smooth_quartz: Lent kvartsblock
+  smooth_red_sandstone: Len röd sandsten
+  smooth_sandstone: Len sandsten
+  smooth_stone: Len sten
+  bricks: Tegelstenar
+  tnt: Dynamit
+  bookshelf: Bokhylla
+  mossy_cobblestone: Mossig kullersten
+  obsidian: Obsidian
+  torch: Fackla
+  end_rod: Endstav
+  chorus_plant: Körplanta
+  chorus_flower: Körblomma
+  purpur_block: Purpurblock
+  purpur_pillar: Purpurpelare
+  purpur_stairs: Purpurtrappa
+  spawner: Monsterskapare
+  oak_stairs: Ektrappa
+  chest: Kista
+  diamond_ore: Diamantmalm
+  diamond_block: Diamantblock
+  crafting_table: Arbetsbänk
+  farmland: Åkerjord
+  furnace: Ugn
+  ladder: Stege
+  rail: Räls
+  cobblestone_stairs: Kullerstenstrappa
+  lever: Spak
+  stone_pressure_plate: Stentryckplatta
+  oak_pressure_plate: Ektryckplatta
+  spruce_pressure_plate: Grantryckplatta
+  birch_pressure_plate: Björktryckplatta
+  jungle_pressure_plate: Djungeltryckplatta
+  acacia_pressure_plate: Akaciatryckplatta
+  dark_oak_pressure_plate: Mörk ektryckplatta
+  crimson_pressure_plate: Karmosintryckplatta
+  warped_pressure_plate: Förvrängd tryckplatta
+  polished_blackstone_pressure_plate: Polerad svartstenstryckplatta
+  redstone_ore: Redstonemalm
+  redstone_torch: Redstonefackla
+  snow: Snö
+  ice: Is
+  snow_block: Snöblock
+  cactus: Kaktus
+  clay: Lera
+  jukebox: Jukebox
+  oak_fence: Ekstaket
+  spruce_fence: Granstaket
+  birch_fence: Björkstaket
+  jungle_fence: Djungelstaket
+  acacia_fence: Akaciastaket
+  dark_oak_fence: Mörkt ekstaket
+  crimson_fence: Karmosinstaket
+  warped_fence: Förvrängt staket
+  pumpkin: Pumpa
+  carved_pumpkin: Skuren pumpa
+  netherrack: Netherrack
+  soul_sand: Själsand
+  soul_soil: Själjord
+  basalt: Basalt
+  polished_basalt: Polerad basalt
+  soul_torch: Själfackla
+  glowstone: Glödsten
+  jack_o_lantern: Pumpalykta
+  oak_trapdoor: Ekfallucka
+  spruce_trapdoor: Granfallucka
+  birch_trapdoor: Björkfallucka
+  jungle_trapdoor: Djungelfallucka
+  acacia_trapdoor: Akaciafallucka
+  dark_oak_trapdoor: Mörk ekfallucka
+  crimson_trapdoor: Karmosinfallucka
+  warped_trapdoor: Förvrängd fallucka
+  infested_stone: Angripen sten
+  infested_cobblestone: Angripen kullersten
+  infested_stone_bricks: Angripen mursten
+  infested_mossy_stone_bricks: Angripen mossig mursten
+  infested_cracked_stone_bricks: Angripen sprucken mursten
+  infested_chiseled_stone_bricks: Angripen mejslad mursten
+  stone_bricks: Mursten
+  mossy_stone_bricks: Mossig mursten
+  cracked_stone_bricks: Sprucken mursten
+  chiseled_stone_bricks: Mejslad mursten
+  brown_mushroom_block: Brunt svampblock
+  red_mushroom_block: Rött svampblock
+  mushroom_stem: Svampfot
+  iron_bars: Järngaller
+  chain: Kedja
+  glass_pane: Glasruta
+  melon: Melon
+  vine: Klätterväxt
+  oak_fence_gate: Ekgrind
+  spruce_fence_gate: Grangrind
+  birch_fence_gate: Björkgrind
+  jungle_fence_gate: Djungelgrind
+  acacia_fence_gate: Akaciagrind
+  dark_oak_fence_gate: Mörk ekgrind
+  crimson_fence_gate: Karmosingrind
+  warped_fence_gate: Förvrängd grind
+  brick_stairs: Tegelstenstrappa
+  stone_brick_stairs: Murstenstrappa
+  mycelium: Mycel
+  lily_pad: Näckrosblad
+  nether_bricks: Nethertegel
+  cracked_nether_bricks: Sprucket nethertegel
+  chiseled_nether_bricks: Mejslat nethertegel
+  nether_brick_fence: Nethertegelstaket
+  nether_brick_stairs: Nethertegeltrappa
+  enchanting_table: Förtrollningsbord
+  end_portal_frame: Endportalsram
+  end_stone: Endsten
+  end_stone_bricks: Endmursten
+  dragon_egg: Drakägg
+  redstone_lamp: Redstonelampa
+  sandstone_stairs: Sandstenstrappa
+  emerald_ore: Smaragdmalm
+  ender_chest: Enderkista
+  tripwire_hook: Snubbeltrådskrok
+  emerald_block: Smaragdblock
+  spruce_stairs: Grantrappa
+  birch_stairs: Björktrappa
+  jungle_stairs: Djungeltrappa
+  crimson_stairs: Karmosintrappa
+  warped_stairs: Förvrängd trappa
+  command_block: Kommandoblock
+  beacon: Fyr
+  cobblestone_wall: Kullerstensmur
+  mossy_cobblestone_wall: Mossig kullerstensmur
+  brick_wall: Tegelstensmur
+  prismarine_wall: Prismarinmur
+  red_sandstone_wall: Röd sandstensmur
+  mossy_stone_brick_wall: Mossig murstensmur
+  granite_wall: Granitmur
+  stone_brick_wall: Murstensmur
+  nether_brick_wall: Nethertegelmur
+  andesite_wall: Andesitmur
+  red_nether_brick_wall: Röd nethertegelmur
+  sandstone_wall: Sandstensmur
+  end_stone_brick_wall: Endmurstensmur
+  diorite_wall: Dioritmur
+  blackstone_wall: Svartstensmur
+  polished_blackstone_wall: Polerad svartstensmur
+  polished_blackstone_brick_wall: Polerad svartstenstegelmur
+  stone_button: Stenknapp
+  oak_button: Ekknapp
+  spruce_button: Granknapp
+  birch_button: Björkknapp
+  jungle_button: Djungelknapp
+  acacia_button: Akaciaknapp
+  dark_oak_button: Mörk ekknapp
+  crimson_button: Karmosinknapp
+  warped_button: Förvrängd knapp
+  polished_blackstone_button: Polerad svartstensknapp
+  anvil: Städ
+  chipped_anvil: Sprucket städ
+  damaged_anvil: Skadat städ
+  trapped_chest: Kistfälla
+  light_weighted_pressure_plate: Lätt tyngdtryckplatta
+  heavy_weighted_pressure_plate: Tung tyngdtryckplatta
+  daylight_detector: Dagsljusdetektor
+  redstone_block: Redstoneblock
+  nether_quartz_ore: Netherkvartsmalm
+  hopper: Tratt
+  chiseled_quartz_block: Mejslat kvartsblock
+  quartz_block: Kvartsblock
+  quartz_bricks: Kvartstegel
+  quartz_pillar: Kvartspelare
+  quartz_stairs: Kvartstrappa
+  activator_rail: Aktiveringsräls
+  dropper: Utmatare
+  white_terracotta: Vit terrakotta
+  orange_terracotta: Orange terrakotta
+  magenta_terracotta: Ljuslila terrakotta
+  light_blue_terracotta: Ljusblå terrakotta
+  yellow_terracotta: Gul terrakotta
+  lime_terracotta: Limegrön terrakotta
+  pink_terracotta: Rosa terrakotta
+  gray_terracotta: Grå terrakotta
+  light_gray_terracotta: Ljusgrå terrakotta
+  cyan_terracotta: Turkos terrakotta
+  purple_terracotta: Lila terrakotta
+  blue_terracotta: Blå terrakotta
+  brown_terracotta: Brun terrakotta
+  green_terracotta: Grön terrakotta
+  red_terracotta: Röd terrakotta
+  black_terracotta: Svart terrakotta
+  barrier: Barriär
+  iron_trapdoor: Järnfallucka
+  hay_block: Höbal
+  white_carpet: Vit matta
+  orange_carpet: Orange matta
+  magenta_carpet: Ljuslila matta
+  light_blue_carpet: Ljusblå matta
+  yellow_carpet: Gul matta
+  lime_carpet: Limegrön matta
+  pink_carpet: Rosa matta
+  gray_carpet: Grå matta
+  light_gray_carpet: Ljusgrå matta
+  cyan_carpet: Turkos matta
+  purple_carpet: Lila matta
+  blue_carpet: Blå matta
+  brown_carpet: Brun matta
+  green_carpet: Grön matta
+  red_carpet: Röd matta
+  black_carpet: Svart matta
+  terracotta: Terrakotta
+  coal_block: Kolblock
+  packed_ice: Packad is
+  acacia_stairs: Akaciatrappa
+  dark_oak_stairs: Mörk ektrappa
+  slime_block: Slemblock
+  grass_path: Grässtig
+  sunflower: Solros
+  lilac: Syren
+  rose_bush: Rosbuske
+  peony: Pion
+  tall_grass: Högt gräs
+  large_fern: Stor ormbunke
+  white_stained_glass: Vitfärgat glas
+  orange_stained_glass: Orangefärgat glas
+  magenta_stained_glass: Ljuslilafärgat glas
+  light_blue_stained_glass: Ljusblåfärgat glas
+  yellow_stained_glass: Gulfärgat glas
+  lime_stained_glass: Limegrönfärgat glas
+  pink_stained_glass: Rosafärgat glas
+  gray_stained_glass: Gråfärgat glas
+  light_gray_stained_glass: Ljusgråfärgat glas
+  cyan_stained_glass: Turkosfärgat glas
+  purple_stained_glass: Lilafärgat glas
+  blue_stained_glass: Blåfärgat glas
+  brown_stained_glass: Brunfärgat glas
+  green_stained_glass: Grönfärgat glas
+  red_stained_glass: Rödfärgat glas
+  black_stained_glass: Svartfärgat glas
+  white_stained_glass_pane: Vitfärgad glasruta
+  orange_stained_glass_pane: Orangefärgad glasruta
+  magenta_stained_glass_pane: Ljuslilafärgad glasruta
+  light_blue_stained_glass_pane: Ljusblåfärgad glasruta
+  yellow_stained_glass_pane: Gulfärgad glasruta
+  lime_stained_glass_pane: Limegrönfärgad glasruta
+  pink_stained_glass_pane: Rosafärgad glasruta
+  gray_stained_glass_pane: Gråfärgad glasruta
+  light_gray_stained_glass_pane: Ljusgråfärgad glasruta
+  cyan_stained_glass_pane: Turkosfärgad glasruta
+  purple_stained_glass_pane: Lilafärgad glasruta
+  blue_stained_glass_pane: Blåfärgad glasruta
+  brown_stained_glass_pane: Brunfärgad glasruta
+  green_stained_glass_pane: Grönfärgad glasruta
+  red_stained_glass_pane: Rödfärgad glasruta
+  black_stained_glass_pane: Svartfärgad glasruta
+  prismarine: Prismarin
+  prismarine_bricks: Prismarintegel
+  dark_prismarine: Mörk prismarin
+  prismarine_stairs: Prismarintrappa
+  prismarine_brick_stairs: Prismarintegeltrappa
+  dark_prismarine_stairs: Mörk prismarintrappa
+  sea_lantern: Havslykta
+  red_sandstone: Röd sandsten
+  chiseled_red_sandstone: Mejslad röd sandsten
+  cut_red_sandstone: Skuren röd sandsten
+  red_sandstone_stairs: Röd sandstenstrappa
+  repeating_command_block: Upprepande kommandoblock
+  chain_command_block: Kedjat kommandoblock
+  magma_block: Magmablock
+  nether_wart_block: Nethervårtsblock
+  warped_wart_block: Förvrängt vårtblock
+  red_nether_bricks: Rött nethertegel
+  bone_block: Benblock
+  structure_void: Strukturtomrum
+  observer: Observatör
+  shulker_box: Shulkerlåda
+  white_shulker_box: Vit shulkerlåda
+  orange_shulker_box: Orange shulkerlåda
+  magenta_shulker_box: Ljuslila shulkerlåda
+  light_blue_shulker_box: Ljusblå shulkerlåda
+  yellow_shulker_box: Gul shulkerlåda
+  lime_shulker_box: Limegrön shulkerlåda
+  pink_shulker_box: Rosa shulkerlåda
+  gray_shulker_box: Grå shulkerlåda
+  light_gray_shulker_box: Ljusgrå shulkerlåda
+  cyan_shulker_box: Turkos shulkerlåda
+  purple_shulker_box: Lila shulkerlåda
+  blue_shulker_box: Blå shulkerlåda
+  brown_shulker_box: Brun shulkerlåda
+  green_shulker_box: Grön shulkerlåda
+  red_shulker_box: Röd shulkerlåda
+  black_shulker_box: Svart shulkerlåda
+  white_glazed_terracotta: Vitglaserad terrakotta
+  orange_glazed_terracotta: Orangeglaserad terrakotta
+  magenta_glazed_terracotta: Ljuslilaglaserad terrakotta
+  light_blue_glazed_terracotta: Ljusblåglaserad terrakotta
+  yellow_glazed_terracotta: Gulglaserad terrakotta
+  lime_glazed_terracotta: Limegrönglaserad terrakotta
+  pink_glazed_terracotta: Rosaglaserad terrakotta
+  gray_glazed_terracotta: Gråglaserad terrakotta
+  light_gray_glazed_terracotta: Ljusgråglaserad terrakotta
+  cyan_glazed_terracotta: Turkosglaserad terrakotta
+  purple_glazed_terracotta: Lilaglaserad terrakotta
+  blue_glazed_terracotta: Blåglaserad terrakotta
+  brown_glazed_terracotta: Brunglaserad terrakotta
+  green_glazed_terracotta: Grönglaserad terrakotta
+  red_glazed_terracotta: Rödglaserad terrakotta
+  black_glazed_terracotta: Svartglaserad terrakotta
+  white_concrete: Vit betong
+  orange_concrete: Orange betong
+  magenta_concrete: Ljuslila betong
+  light_blue_concrete: Ljusblå betong
+  yellow_concrete: Gul betong
+  lime_concrete: Limegrön betong
+  pink_concrete: Rosa betong
+  gray_concrete: Grå betong
+  light_gray_concrete: Ljusgrå betong
+  cyan_concrete: Turkos betong
+  purple_concrete: Lila betong
+  blue_concrete: Blå betong
+  brown_concrete: Brun betong
+  green_concrete: Grön betong
+  red_concrete: Röd betong
+  black_concrete: Svart betong
+  white_concrete_powder: Vitt betongpulver
+  orange_concrete_powder: Orange betongpulver
+  magenta_concrete_powder: Ljuslila betongpulver
+  light_blue_concrete_powder: Ljusblått betongpulver
+  yellow_concrete_powder: Gult betongpulver
+  lime_concrete_powder: Limegrönt betongpulver
+  pink_concrete_powder: Rosa betongpulver
+  gray_concrete_powder: Grått betongpulver
+  light_gray_concrete_powder: Ljusgrått betongpulver
+  cyan_concrete_powder: Turkost betongpulver
+  purple_concrete_powder: Lila betongpulver
+  blue_concrete_powder: Blått betongpulver
+  brown_concrete_powder: Brunt betongpulver
+  green_concrete_powder: Grönt betongpulver
+  red_concrete_powder: Rött betongpulver
+  black_concrete_powder: Svart betongpulver
+  turtle_egg: Sköldpaddsägg
+  dead_tube_coral_block: Dött orgelkorallblock
+  dead_brain_coral_block: Dött hjärnkorallblock
+  dead_bubble_coral_block: Dött bubbelkorallblock
+  dead_fire_coral_block: Dött eldkorallblock
+  dead_horn_coral_block: Dött hornkorallblock
+  tube_coral_block: Orgelkorallblock
+  brain_coral_block: Hjärnkorallblock
+  bubble_coral_block: Bubbelkorallblock
+  fire_coral_block: Eldkorallblock
+  horn_coral_block: Hornkorallblock
+  tube_coral: Orgelkorall
+  brain_coral: Hjärnkorall
+  bubble_coral: Bubbelkorall
+  fire_coral: Eldkorall
+  horn_coral: Hornkorall
+  dead_brain_coral: Död hjärnkorall
+  dead_bubble_coral: Död bubbelkorall
+  dead_fire_coral: Död eldkorall
+  dead_horn_coral: Död hornkorall
+  dead_tube_coral: Död orgelkorall
+  tube_coral_fan: Orgelkorallfläkt
+  brain_coral_fan: Hjärnkorallfläkt
+  bubble_coral_fan: Bubbelkorallfläkt
+  fire_coral_fan: Eldkorallfläkt
+  horn_coral_fan: Hornkorallfläkt
+  dead_tube_coral_fan: Död orgelkorallfläkt
+  dead_brain_coral_fan: Död hjärnkorallfläkt
+  dead_bubble_coral_fan: Död bubbelkorallfläkt
+  dead_fire_coral_fan: Död eldkorallfläkt
+  dead_horn_coral_fan: Död hornkorallfläkt
+  blue_ice: Blå is
+  conduit: Flödare
+  polished_granite_stairs: Polerad granittrappa
+  smooth_red_sandstone_stairs: Len röd sandstenstrappa
+  mossy_stone_brick_stairs: Mossig murstenstrappa
+  polished_diorite_stairs: Polerad diorittrappa
+  mossy_cobblestone_stairs: Mossig kullerstenstrappa
+  end_stone_brick_stairs: Endmurstenstrappa
+  stone_stairs: Stentrappa
+  smooth_sandstone_stairs: Len sandstenstrappa
+  smooth_quartz_stairs: Len kvartstrappa
+  granite_stairs: Granittrappa
+  andesite_stairs: Andesittrappa
+  red_nether_brick_stairs: Röd nethertegeltrappa
+  polished_andesite_stairs: Polerad andesittrappa
+  diorite_stairs: Diorittrappa
+  polished_granite_slab: Polerad granitplatta
+  smooth_red_sandstone_slab: Len röd sandstensplatta
+  mossy_stone_brick_slab: Mossig murstensplatta
+  polished_diorite_slab: Polerad dioritplatta
+  mossy_cobblestone_slab: Mossig kullerstensplatta
+  end_stone_brick_slab: Endmurstensplatta
+  smooth_sandstone_slab: Len sandstensplatta
+  smooth_quartz_slab: Len kvartsplatta
+  granite_slab: Granitplatta
+  andesite_slab: Andesitplatta
+  red_nether_brick_slab: Röd nethertegelplatta
+  polished_andesite_slab: Polerad andesitplatta
+  diorite_slab: Dioritplatta
+  scaffolding: Byggnadsställning
+  iron_door: Järndörr
+  oak_door: Ekdörr
+  spruce_door: Grandörr
+  birch_door: Björkdörr
+  jungle_door: Djungeldörr
+  acacia_door: Akaciadörr
+  dark_oak_door: Mörk ekdörr
+  crimson_door: Karmosindörr
+  warped_door: Förvrängd dörr
+  repeater: Redstonerepeterare
+  comparator: Redstonejämförare
+  structure_block: Strukturblock
+  jigsaw: Pusselbitsblock
+  turtle_helmet: Sköldpaddsskal
+  scute: Skal
+  flint_and_steel: Tändstål
+  apple: Äpple
+  bow: Pilbåge
+  arrow: Pil
+  coal: Kol
+  charcoal: Träkol
+  diamond: Diamant
+  iron_ingot: Järntacka
+  gold_ingot: Guldtacka
+  netherite_ingot: Netherittacka
+  netherite_scrap: Netheritstycke
+  wooden_sword: Träsvärd
+  wooden_shovel: Träspade
+  wooden_pickaxe: Trähacka
+  wooden_axe: Träyxa
+  wooden_hoe: Träflåhacka
+  stone_sword: Stensvärd
+  stone_shovel: Stenspade
+  stone_pickaxe: Stenhacka
+  stone_axe: Stenyxa
+  stone_hoe: Stenflåhacka
+  golden_sword: Guldsvärd
+  golden_shovel: Guldspade
+  golden_pickaxe: Guldhacka
+  golden_axe: Guldyxa
+  golden_hoe: Guldflåhacka
+  iron_sword: Järnsvärd
+  iron_shovel: Järnspade
+  iron_pickaxe: Järnhacka
+  iron_axe: Järnyxa
+  iron_hoe: Järnflåhacka
+  diamond_sword: Diamantsvärd
+  diamond_shovel: Diamantspade
+  diamond_pickaxe: Diamanthacka
+  diamond_axe: Diamantyxa
+  diamond_hoe: Diamantflåhacka
+  netherite_sword: Netheritsvärd
+  netherite_shovel: Netheritspade
+  netherite_pickaxe: Netherithacka
+  netherite_axe: Netherityxa
+  netherite_hoe: Netheritflåhacka
+  stick: Pinne
+  bowl: Skål
+  mushroom_stew: Svampstuvning
+  string: Tråd
+  feather: Fjäder
+  gunpowder: Krut
+  wheat_seeds: Vetefrön
+  wheat: Vete
+  bread: Bröd
+  leather_helmet: Lädermössa
+  leather_chestplate: Lädertunika
+  leather_leggings: Läderbyxor
+  leather_boots: Läderstövlar
+  chainmail_helmet: Ringbrynjehuva
+  chainmail_chestplate: Ringbrynjeskjorta
+  chainmail_leggings: Ringbrynjebyxor
+  chainmail_boots: Ringbrynjeskor
+  iron_helmet: Järnhjälm
+  iron_chestplate: Järnharnesk
+  iron_leggings: Järnbyxor
+  iron_boots: Järnstövlar
+  diamond_helmet: Diamanthjälm
+  diamond_chestplate: Diamantharnesk
+  diamond_leggings: Diamantbyxor
+  diamond_boots: Diamantstövlar
+  golden_helmet: Guldhjälm
+  golden_chestplate: Guldharnesk
+  golden_leggings: Guldbyxor
+  golden_boots: Guldstövlar
+  netherite_helmet: Netherithjälm
+  netherite_chestplate: Netheritharnesk
+  netherite_leggings: Netheritbyxor
+  netherite_boots: Netheritstövlar
+  flint: Flinta
+  porkchop: Rå fläskkotlett
+  cooked_porkchop: Tillagad fläskkotlett
+  painting: Tavla
+  golden_apple: Guldäpple
+  enchanted_golden_apple: Förtrollat guldäpple
+  oak_sign: Ekskylt
+  spruce_sign: Granskylt
+  birch_sign: Björkskylt
+  jungle_sign: Djungelskylt
+  acacia_sign: Akaciaskylt
+  dark_oak_sign: Mörk ekskylt
+  crimson_sign: Karmosinskylt
+  warped_sign: Förvrängd skylt
+  bucket: Hink
+  water_bucket: Vattenhink
+  lava_bucket: Lavahink
+  minecart: Gruvvagn
+  saddle: Sadel
+  redstone: Redstonedamm
+  snowball: Snöboll
+  oak_boat: Ekbåt
+  leather: Läder
+  milk_bucket: Mjölkhink
+  pufferfish_bucket: Hink med blåsfisk
+  salmon_bucket: Hink med lax
+  cod_bucket: Hink med torsk
+  tropical_fish_bucket: Hink med tropisk fisk
+  brick: Tegelsten
+  clay_ball: Lerboll
+  dried_kelp_block: Torkat kelpblock
+  paper: Papper
+  book: Bok
+  slime_ball: Slemboll
+  chest_minecart: Gruvvagn med kista
+  furnace_minecart: Gruvvagn med ugn
+  egg: Ägg
+  compass: Kompass
+  fishing_rod: Fiskespö
+  clock: Klocka
+  glowstone_dust: Glödstensdamm
+  cod: Rå torsk
+  salmon: Rå lax
+  tropical_fish: Tropisk fisk
+  pufferfish: Blåsfisk
+  cooked_cod: Tillagad torsk
+  cooked_salmon: Tillagad lax
+  ink_sac: Bläcksäck
+  cocoa_beans: Kakaobönor
+  lapis_lazuli: Lapis lazuli
+  white_dye: Vit färg
+  orange_dye: Orange färg
+  magenta_dye: Ljuslila färg
+  light_blue_dye: Ljusblå färg
+  yellow_dye: Gul färg
+  lime_dye: Limegrön färg
+  pink_dye: Rosa färg
+  gray_dye: Grå färg
+  light_gray_dye: Ljusgrå färg
+  cyan_dye: Turkos färg
+  purple_dye: Lila färg
+  blue_dye: Blå färg
+  brown_dye: Brun färg
+  green_dye: Grön färg
+  red_dye: Röd färg
+  black_dye: Svart färg
+  bone_meal: Benmjöl
+  bone: Ben
+  sugar: Socker
+  cake: Tårta
+  white_bed: Vit säng
+  orange_bed: Orange säng
+  magenta_bed: Ljuslila säng
+  light_blue_bed: Ljusblå säng
+  yellow_bed: Gul säng
+  lime_bed: Limegrön säng
+  pink_bed: Rosa säng
+  gray_bed: Grå säng
+  light_gray_bed: Ljusgrå säng
+  cyan_bed: Turkos säng
+  purple_bed: Lila säng
+  blue_bed: Blå säng
+  brown_bed: Brun säng
+  green_bed: Grön säng
+  red_bed: Röd säng
+  black_bed: Svart säng
+  cookie: Kaka
+  filled_map: Karta
+  shears: Sax
+  melon_slice: Melonskiva
+  dried_kelp: Torkad kelp
+  pumpkin_seeds: Pumpafrön
+  melon_seeds: Melonfrön
+  beef: Rå biff
+  cooked_beef: Tillagad biff
+  chicken: Rå kyckling
+  cooked_chicken: Tillagad kyckling
+  rotten_flesh: Ruttet kött
+  ender_pearl: Enderpärla
+  blaze_rod: Brännstav
+  ghast_tear: Ghasttår
+  gold_nugget: Guldklimp
+  nether_wart: Nethervårta
+  potion: Brygd
+  glass_bottle: Glasflaska
+  spider_eye: Spindelöga
+  fermented_spider_eye: Jäst spindelöga
+  blaze_powder: Brännpulver
+  magma_cream: Magmakräm
+  brewing_stand: Brygdställ
+  cauldron: Kittel
+  ender_eye: Enderöga
+  glistering_melon_slice: Gnistrande melonskiva
+  bat_spawn_egg: Skapelseägg för fladdermus
+  bee_spawn_egg: Skapelseägg för bi
+  blaze_spawn_egg: Skapelseägg för brännare
+  cat_spawn_egg: Skapelseägg för katt
+  cave_spider_spawn_egg: Skapelseägg för grottspindel
+  chicken_spawn_egg: Skapelseägg för höna
+  cod_spawn_egg: Skapelseägg för torsk
+  cow_spawn_egg: Skapelseägg för ko
+  creeper_spawn_egg: Skapelseägg för creeper
+  dolphin_spawn_egg: Skapelseägg för delfin
+  donkey_spawn_egg: Skapelseägg för åsna
+  drowned_spawn_egg: Skapelseägg för drunknad zombie
+  elder_guardian_spawn_egg: Skapelseägg för åldersväktare
+  enderman_spawn_egg: Skapelseägg för enderman
+  endermite_spawn_egg: Skapelseägg för endermite
+  evoker_spawn_egg: Skapelseägg för frammanare
+  fox_spawn_egg: Skapelseägg för räv
+  ghast_spawn_egg: Skapelseägg för ghast
+  guardian_spawn_egg: Skapelseägg för väktare
+  hoglin_spawn_egg: Skapelseägg för hoglin
+  horse_spawn_egg: Skapelseägg för häst
+  husk_spawn_egg: Skapelseägg för uttorkad zombie
+  llama_spawn_egg: Skapelseägg för lama
+  magma_cube_spawn_egg: Skapelseägg för magmakub
+  mooshroom_spawn_egg: Skapelseägg för mooshroom
+  mule_spawn_egg: Skapelseägg för mula
+  ocelot_spawn_egg: Skapelseägg för ozelot
+  panda_spawn_egg: Skapelseägg för panda
+  parrot_spawn_egg: Skapelseägg för papegoja
+  phantom_spawn_egg: Skapelseägg för fantom
+  pig_spawn_egg: Skapelseägg för gris
+  piglin_spawn_egg: Skapelseägg för piglin
+  piglin_brute_spawn_egg: Skapelseägg för piglinbarbar
+  pillager_spawn_egg: Skapelseägg för plundrare
+  polar_bear_spawn_egg: Skapelseägg för isbjörn
+  pufferfish_spawn_egg: Skapelseägg för blåsfisk
+  rabbit_spawn_egg: Skapelseägg för kanin
+  ravager_spawn_egg: Skapelseägg för ödeläggare
+  salmon_spawn_egg: Skapelseägg för lax
+  sheep_spawn_egg: Skapelseägg för får
+  shulker_spawn_egg: Skapelseägg för shulker
+  silverfish_spawn_egg: Skapelseägg för silverfisk
+  skeleton_spawn_egg: Skapelseägg för skelett
+  skeleton_horse_spawn_egg: Skapelseägg för skeletthäst
+  slime_spawn_egg: Skapelseägg för slemkub
+  spider_spawn_egg: Skapelseägg för spindel
+  squid_spawn_egg: Skapelseägg för bläckfisk
+  stray_spawn_egg: Skapelseägg för strövare
+  strider_spawn_egg: Skapelseägg för vandrare
+  trader_llama_spawn_egg: Skapelseägg för byteshandlarlama
+  tropical_fish_spawn_egg: Skapelseägg för tropisk fisk
+  turtle_spawn_egg: Skapelseägg för sköldpadda
+  vex_spawn_egg: Skapelseägg för vex
+  villager_spawn_egg: Skapelseägg för bybo
+  vindicator_spawn_egg: Skapelseägg för försvarare
+  wandering_trader_spawn_egg: Skapelseägg för vandrande byteshandlare
+  witch_spawn_egg: Skapelseägg för häxa
+  wither_skeleton_spawn_egg: Skapelseägg för witherskelett
+  wolf_spawn_egg: Skapelseägg för varg
+  zoglin_spawn_egg: Skapelseägg för zoglin
+  zombie_spawn_egg: Skapelseägg för zombie
+  zombie_horse_spawn_egg: Skapelseägg för zombiehäst
+  zombie_villager_spawn_egg: Skapelseägg för zombiebybo
+  zombified_piglin_spawn_egg: Skapelseägg för zombifierad piglin
+  experience_bottle: Förtrollningsflaska
+  fire_charge: Eldladdning
+  writable_book: Bok och fjäderpenna
+  written_book: Skriven bok
+  emerald: Smaragd
+  item_frame: Föremålsram
+  flower_pot: Blomkruka
+  carrot: Morot
+  potato: Potatis
+  baked_potato: Bakad potatis
+  poisonous_potato: Giftig potatis
+  map: Tom karta
+  golden_carrot: Gyllene morot
+  skeleton_skull: Skelettskalle
+  wither_skeleton_skull: Witherskelettskalle
+  player_head: Spelarhuvud
+  zombie_head: Zombiehuvud
+  creeper_head: Creeperhuvud
+  dragon_head: Drakhuvud
+  carrot_on_a_stick: Morot på pinne
+  warped_fungus_on_a_stick: Förvrängd svamp på pinne
+  nether_star: Netherstjärna
+  pumpkin_pie: Pumpapaj
+  firework_rocket: Fyrverkeriraket
+  firework_star: Fyrverkeristjärna
+  enchanted_book: Förtrollad bok
+  nether_brick: Nethertegelsten
+  quartz: Netherkvarts
+  tnt_minecart: Gruvvagn med dynamit
+  hopper_minecart: Gruvvagn med tratt
+  prismarine_shard: Prismarinskärva
+  prismarine_crystals: Prismarinkristaller
+  rabbit: Rå kanin
+  cooked_rabbit: Tillagad kanin
+  rabbit_stew: Kaninstuvning
+  rabbit_foot: Hartass
+  rabbit_hide: Kaninskinn
+  armor_stand: Rustningsställ
+  iron_horse_armor: Järnhästrustning
+  golden_horse_armor: Guldhästrustning
+  diamond_horse_armor: Diamanthästrustning
+  leather_horse_armor: Läderhästrustning
+  lead: Koppel
+  name_tag: Namnskylt
+  command_block_minecart: Gruvvagn med kommandoblock
+  mutton: Rått fårkött
+  cooked_mutton: Tillagat fårkött
+  white_banner: Vit fana
+  orange_banner: Orange fana
+  magenta_banner: Ljuslila fana
+  light_blue_banner: Ljusblå fana
+  yellow_banner: Gul fana
+  lime_banner: Limegrön fana
+  pink_banner: Rosa fana
+  gray_banner: Grå fana
+  light_gray_banner: Ljusgrå fana
+  cyan_banner: Turkos fana
+  purple_banner: Lila fana
+  blue_banner: Blå fana
+  brown_banner: Brun fana
+  green_banner: Grön fana
+  red_banner: Röd fana
+  black_banner: Svart fana
+  end_crystal: Endkristall
+  chorus_fruit: Körfrukt
+  popped_chorus_fruit: Utslagen körfrukt
+  beetroot: Rödbeta
+  beetroot_seeds: Rödbetsfrön
+  beetroot_soup: Rödbetssoppa
+  dragon_breath: Drakeld
+  splash_potion: Kastbar brygd
+  spectral_arrow: Spektralpil
+  tipped_arrow: Förtrollad pil
+  lingering_potion: Kvardröjande brygd
+  shield: Sköld
+  elytra: Elytra
+  spruce_boat: Granbåt
+  birch_boat: Björkbåt
+  jungle_boat: Djungelbåt
+  acacia_boat: Akaciabåt
+  dark_oak_boat: Mörk ekbåt
+  totem_of_undying: Odödlighetstotem
+  shulker_shell: Shulkerskal
+  iron_nugget: Järnklimp
+  knowledge_book: Kunskapsbok
+  debug_stick: Felsökningspinne
+  music_disc_13: Musikskiva
+  music_disc_cat: Musikskiva
+  music_disc_blocks: Musikskiva
+  music_disc_chirp: Musikskiva
+  music_disc_far: Musikskiva
+  music_disc_mall: Musikskiva
+  music_disc_mellohi: Musikskiva
+  music_disc_stal: Musikskiva
+  music_disc_strad: Musikskiva
+  music_disc_ward: Musikskiva
+  music_disc_11: Musikskiva
+  music_disc_wait: Musikskiva
+  music_disc_pigstep: Musikskiva
+  trident: Treudd
+  phantom_membrane: Fantommembran
+  nautilus_shell: Pärlbåtsskal
+  heart_of_the_sea: Havets hjärta
+  crossbow: Armborst
+  suspicious_stew: Misstänksam stuvning
+  loom: Vävstol
+  flower_banner_pattern: Fanemönster
+  creeper_banner_pattern: Fanemönster
+  skull_banner_pattern: Fanemönster
+  mojang_banner_pattern: Fanemönster
+  globe_banner_pattern: Fanemönster
+  piglin_banner_pattern: Fanemönster
+  composter: Kompost
+  barrel: Tunna
+  smoker: Rökugn
+  blast_furnace: Masugn
+  cartography_table: Kartografbord
+  fletching_table: Pilmakarbänk
+  grindstone: Slipsten
+  lectern: Läspulpet
+  smithing_table: Smedsbänk
+  stonecutter: Stenskärare
+  bell: Ringklocka
+  lantern: Lykta
+  soul_lantern: Själlykta
+  sweet_berries: Söta bär
+  campfire: Lägereld
+  soul_campfire: Själlägereld
+  shroomlight: Svampljus
+  honeycomb: Vaxkaka
+  bee_nest: Bisamhälle
+  beehive: Bikupa
+  honey_bottle: Honungsflaska
+  honey_block: Honungsblock
+  honeycomb_block: Vaxkaksblock
+  lodestone: Magnetit
+  netherite_block: Netheritblock
+  ancient_debris: Forntida spillror
+  target: Måltavla
+  crying_obsidian: Gråtande obsidian
+  blackstone: Svartsten
+  blackstone_slab: Svartstensplatta
+  blackstone_stairs: Svartstenstrappa
+  gilded_blackstone: Förgylld svartsten
+  polished_blackstone: Polerad svartsten
+  polished_blackstone_slab: Polerad svartstensplatta
+  polished_blackstone_stairs: Polerad svartstenstrappa
+  chiseled_polished_blackstone: Mejslad polerad svartsten
+  polished_blackstone_bricks: Polerat svartstenstegel
+  polished_blackstone_brick_slab: Polerad svartstenstegelplatta
+  polished_blackstone_brick_stairs: Polerad svartstenstegeltrappa
+  cracked_polished_blackstone_bricks: Sprucket polerat svartstenstegel
+  respawn_anchor: Återuppståndelseankare
+  water: Vatten
+  lava: Lava
+  tall_seagrass: Högt sjögräs
+  piston_head: Kolvhuvud
+  moving_piston: Kolv i rörelse
+  wall_torch: Fackla på vägg
+  fire: Eld
+  soul_fire: Själeld
+  redstone_wire: Redstonetråd
+  oak_wall_sign: Ekskylt på vägg
+  spruce_wall_sign: Granskylt på vägg
+  birch_wall_sign: Björkskylt på vägg
+  acacia_wall_sign: Akaciaskylt på vägg
+  jungle_wall_sign: Djungelskylt på vägg
+  dark_oak_wall_sign: Mörk ekskylt på vägg
+  redstone_wall_torch: Redstonefackla på vägg
+  soul_wall_torch: Själfackla på vägg
+  nether_portal: Netherportal
+  attached_pumpkin_stem: Ansluten pumpastjälk
+  attached_melon_stem: Ansluten melonstjälk
+  pumpkin_stem: Pumpastjälk
+  melon_stem: Melonstjälk
+  end_portal: Endportal
+  cocoa: Kakao
+  tripwire: Snubbeltråd
+  potted_oak_sapling: Ekplanta i kruka
+  potted_spruce_sapling: Granplanta i kruka
+  potted_birch_sapling: Björkplanta i kruka
+  potted_jungle_sapling: Djungelplanta i kruka
+  potted_acacia_sapling: Akaciaplanta i kruka
+  potted_dark_oak_sapling: Mörk ekplanta i kruka
+  potted_fern: Ormbunke i kruka
+  potted_dandelion: Maskros i kruka
+  potted_poppy: Vallmo i kruka
+  potted_blue_orchid: Blå orkidé i kruka
+  potted_allium: Gräslök i kruka
+  potted_azure_bluet: Porslinsstjärna i kruka
+  potted_red_tulip: Röd tulpan i kruka
+  potted_orange_tulip: Orange tulpan i kruka
+  potted_white_tulip: Vit tulpan i kruka
+  potted_pink_tulip: Rosa tulpan i kruka
+  potted_oxeye_daisy: Prästkrage i kruka
+  potted_cornflower: Blåklint i kruka
+  potted_lily_of_the_valley: Liljekonvalj i kruka
+  potted_wither_rose: Witherros i kruka
+  potted_red_mushroom: Röd svamp i kruka
+  potted_brown_mushroom: Brun svamp i kruka
+  potted_dead_bush: Död buske i kruka
+  potted_cactus: Kaktus i kruka
+  carrots: Morötter
+  potatoes: Potatisar
+  skeleton_wall_skull: Skelettskalle på vägg
+  wither_skeleton_wall_skull: Witherskelettskalle på vägg
+  zombie_wall_head: Zombiehuvud på vägg
+  player_wall_head: Spelarhuvud på vägg
+  creeper_wall_head: Creeperhuvud på vägg
+  dragon_wall_head: Drakhuvud på vägg
+  white_wall_banner: Vit fana
+  orange_wall_banner: Orange fana
+  magenta_wall_banner: Ljuslila fana
+  light_blue_wall_banner: Ljusblå fana
+  yellow_wall_banner: Gul fana
+  lime_wall_banner: Limegrön fana
+  pink_wall_banner: Rosa fana
+  gray_wall_banner: Grå fana
+  light_gray_wall_banner: Ljusgrå fana
+  cyan_wall_banner: Turkos fana
+  purple_wall_banner: Lila fana
+  blue_wall_banner: Blå fana
+  brown_wall_banner: Brun fana
+  green_wall_banner: Grön fana
+  red_wall_banner: Röd fana
+  black_wall_banner: Svart fana
+  beetroots: Rödbetor
+  end_gateway: Endpassage
+  frosted_ice: Frostad is
+  kelp_plant: Kelpplanta
+  dead_tube_coral_wall_fan: Död orgelkorallfläkt på vägg
+  dead_brain_coral_wall_fan: Död hjärnkorallfläkt på vägg
+  dead_bubble_coral_wall_fan: Död bubbelkorallfläkt på vägg
+  dead_fire_coral_wall_fan: Död eldkorallfläkt på vägg
+  dead_horn_coral_wall_fan: Död hornkorallfläkt på vägg
+  tube_coral_wall_fan: Orgelkorallfläkt på vägg
+  brain_coral_wall_fan: Hjärnkorallfläkt på vägg
+  bubble_coral_wall_fan: Bubbelkorallfläkt på vägg
+  fire_coral_wall_fan: Eldkorallfläkt på vägg
+  horn_coral_wall_fan: Hornkorallfläkt på vägg
+  bamboo_sapling: Bambuskott
+  potted_bamboo: Bambu i kruka
+  void_air: Tomhetsluft
+  cave_air: Grottluft
+  bubble_column: Bubbelkolumn
+  sweet_berry_bush: Sötbärsbuske
+  weeping_vines_plant: Tårklätterväxtsplanta
+  twisting_vines_plant: Vridande klätterväxtsplanta
+  crimson_wall_sign: Karmosinskylt på vägg
+  warped_wall_sign: Förvrängd skylt på vägg
+  potted_crimson_fungus: Karmosinsvamp i kruka
+  potted_warped_fungus: Förvrängd svamp i kruka
+  potted_crimson_roots: Karmosinrötter i kruka
+  potted_warped_roots: Förvrängda rötter i kruka
+  zombie_pigman_spawn_egg: Skapelseägg för zombiegrisman
+  cactus_green: Kaktusgrön
+  dandelion_yellow: Maskrosgul
+  rose_red: Rosenröd
+  sign: Skylt
+  wall_sign: Skylt på vägg
+biome:
+  ocean: Hav
+  plains: Slätter
+  desert: Öken
+  mountains: Berg
+  forest: Skog
+  taiga: Tajga
+  swamp: Träsk
+  river: Å
+  nether_wastes: Netherödemark
+  the_end: End
+  frozen_ocean: Fruset hav
+  frozen_river: Frusen å
+  snowy_tundra: Snöig tundra
+  snowy_mountains: Snöiga berg
+  mushroom_fields: Svampslätter
+  mushroom_field_shore: Svampslättskust
+  beach: Strand
+  desert_hills: Ökenkullar
+  wooded_hills: Trädbevuxna kullar
+  taiga_hills: Tajgakullar
+  mountain_edge: Utkant av berg
+  jungle: Djungel
+  jungle_hills: Djungelkullar
+  jungle_edge: Utkant av djungel
+  deep_ocean: Djupt hav
+  stone_shore: Stenkust
+  snowy_beach: Snöig strand
+  birch_forest: Björkskog
+  birch_forest_hills: Björkskogskullar
+  dark_forest: Mörk skog
+  snowy_taiga: Snöig tajga
+  snowy_taiga_hills: Snöiga tajgakullar
+  giant_tree_taiga: Tajga med stora träd
+  giant_tree_taiga_hills: Tajgakullar med stora träd
+  wooded_mountains: Trädbevuxna berg
+  savanna: Savann
+  savanna_plateau: Savannplatå
+  badlands: Stenöken
+  wooded_badlands_plateau: Trädbevuxen stenökensplatå
+  badlands_plateau: Stenökensplatå
+  small_end_islands: Små End-öar
+  end_midlands: Stor End-ö
+  end_highlands: Endplatå
+  end_barrens: Utkant av End-ö
+  warm_ocean: Varmt hav
+  lukewarm_ocean: Ljummet hav
+  cold_ocean: Kallt hav
+  deep_warm_ocean: Djupt varmt hav
+  deep_lukewarm_ocean: Djupt ljummet hav
+  deep_cold_ocean: Djupt kallt hav
+  deep_frozen_ocean: Djupt fruset hav
+  the_void: Tomhet
+  sunflower_plains: Solrosslätter
+  desert_lakes: Ökensjöar
+  gravelly_mountains: Grusiga berg
+  flower_forest: Blomskog
+  taiga_mountains: Tajgaberg
+  swamp_hills: Träskkullar
+  ice_spikes: Isspikar
+  modified_jungle: Modifierad djungel
+  modified_jungle_edge: Utkant av modifierad djungel
+  tall_birch_forest: Hög björkskog
+  tall_birch_hills: Höga björkkullar
+  dark_forest_hills: Mörka skogskullar
+  snowy_taiga_mountains: Snöiga tajgaberg
+  giant_spruce_taiga: Tajga med stora granar
+  giant_spruce_taiga_hills: Tajgakullar med stora granar
+  modified_gravelly_mountains: Grusiga berg+
+  shattered_savanna: Krossad savann
+  shattered_savanna_plateau: Krossad savannplatå
+  eroded_badlands: Eroderad stenöken
+  modified_wooded_badlands_plateau: Modifierad trädbevuxen stenökensplatå
+  modified_badlands_plateau: Modifierad stenökensplatå
+  bamboo_jungle: Bambudjungel
+  bamboo_jungle_hills: Bambudjungelkullar
+  soul_sand_valley: Själsandsdal
+  crimson_forest: Karmosinskog
+  warped_forest: Förvrängd skog
+  basalt_deltas: Basaltdeltan
+  nether: Nether
+enchantment:
+  fire_protection: Eldskydd
+  sharpness: Skärpa
+  flame: Flamma
+  soul_speed: Själhastighet
+  aqua_affinity: Vattenvana
+  punch: Slag
+  loyalty: Lojalitet
+  depth_strider: Djupgående
+  vanishing_curse: Försvinnandets förbannelse
+  unbreaking: Oförstörbar
+  knockback: Knuff
+  luck_of_the_sea: Fiskelycka
+  binding_curse: Bindningsförbannelse
+  fortune: Rikedom
+  protection: Skydd
+  efficiency: Effektivitet
+  mending: Lagning
+  frost_walker: Frostgående
+  lure: Bete
+  looting: Plundring
+  piercing: Genomträngande
+  blast_protection: Explosionsskydd
+  smite: Heligt
+  multishot: Multiskott
+  fire_aspect: Eldkraft
+  channeling: Kanalisering
+  sweeping: Svepande svärdsegg
+  thorns: Taggar
+  bane_of_arthropods: Leddjurens skräck
+  respiration: Andning
+  riptide: Tidvattenvåg
+  silk_touch: Silkesvante
+  quick_charge: Snabbladdning
+  projectile_protection: Projektilskydd
+  impaling: Spetsning
+  feather_falling: Fjäderfall
+  power: Kraft
+  infinity: Oändlig
+potion:
+  uncraftable: Icke-tillverkningsbar brygd
+  water: Vattenflaska
+  mundane: Banal brygd
+  thick: Tjock brygd
+  awkward: Tafflig brygd
+  night_vision: Mörkerseendebrygd
+  invisibility: Osynlighetsbrygd
+  jump: Hoppstyrkebrygd
+  fire_resistance: Eldresistansbrygd
+  speed: Snabbhetsbrygd
+  slowness: Långsamhetsbrygd
+  water_breathing: Vattenandningsbrygd
+  instant_heal: Läkningsbrygd
+  instant_damage: Skadebrygd
+  poison: Giftbrygd
+  regen: Återhämtningsbrygd
+  strength: Styrkebrygd
+  weakness: Svaghetsbrygd
+  luck: Turbrygd
+  turtle_master: Sköldpaddsmästarens brygd
+  slow_falling: Antigravitationsbrygd
+splash_potion:
+  uncraftable: Kastbar icke-tillverkningsbar brygd
+  water: Kastbar vattenflaska
+  mundane: Kastbar banal brygd
+  thick: Kastbar tjock brygd
+  awkward: Kastbar tafflig brygd
+  night_vision: Kastbar mörkerseendebrygd
+  invisibility: Kastbar osynlighetsbrygd
+  jump: Kastbar hoppstrykebrygd
+  fire_resistance: Kastbar eldresistansbrygd
+  speed: Kastbar snabbhetsbrygd
+  slowness: Kastbar långsamhetsbrygd
+  water_breathing: Kastbar vattenandningsbrygd
+  instant_heal: Kastbar läkningsbrygd
+  instant_damage: Kastbar skadebrygd
+  poison: Kastbar giftbrygd
+  regen: Kastbar återhämtningsbrygd
+  strength: Kastbar styrkebrygd
+  weakness: Kastbar svaghetsbrygd
+  luck: Kastbar turbrygd
+  turtle_master: Sköldpaddsmästarens kastbara brygd
+  slow_falling: Kastbar antigravitationsbrygd
+lingering_potion:
+  uncraftable: Kvardröjande icke-tillverkningsbar brygd
+  water: Kvardröjande vattenflaska
+  mundane: Banal kvardröjande brygd
+  thick: Tjock kvardröjande brygd
+  awkward: Kvardröjande tafflig brygd
+  night_vision: Kvardröjande mörkerseendebrygd
+  invisibility: Kvardröjande osynlighetsbrygd
+  jump: Kvardröjande hoppstrykebrygd
+  fire_resistance: Kvardröjande eldresistansbrygd
+  speed: Kvardröjande snabbhetsbrygd
+  slowness: Kvardröjande långsamhetsbrygd
+  water_breathing: Kvardröjande vattenandningsbrygd
+  instant_heal: Kvardröjande läkningsbrygd
+  instant_damage: Kvardröjande skadebrygd
+  poison: Kvardröjande giftbrygd
+  regen: Kvardröjande återhämtningsbrygd
+  strength: Kvardröjande styrkebrygd
+  weakness: Kvardröjande svaghetsbrygd
+  luck: Kvardröjande turbrygd
+  turtle_master: Sköldpaddsmästarens kvardröjande brygd
+  slow_falling: Kvardröjande antigravitationsbrygd
+tipped_arrow:
+  uncraftable: Icke-tillverkningsbar förtrollad pil
+  water: Stänkande pil
+  mundane: Förtrollad pil
+  thick: Förtrollad pil
+  awkward: Förtrollad pil
+  night_vision: Mörkerseendepil
+  invisibility: Osynlighetspil
+  jump: Hoppstyrkepil
+  fire_resistance: Eldresistanspil
+  speed: Snabbhetspil
+  slowness: Långsamhetspil
+  water_breathing: Vattenandningspil
+  instant_heal: Läkningspil
+  instant_damage: Skadepil
+  poison: Giftpil
+  regen: Återhämtningspil
+  strength: Styrkepil
+  weakness: Svaghetspil
+  luck: Turpil
+  turtle_master: Sköldpaddsmästarens pil
+  slow_falling: Antigravitationspil
+entity:
+  dropped_item: Föremål
+  experience_orb: Erfarenhetsklot
+  area_effect_cloud: Områdeseffektsmoln
+  elder_guardian: Åldersväktare
+  wither_skeleton: Witherskelett
+  stray: Strövare
+  egg: Kastat ägg
+  leash_hitch: Koppelknut
+  painting: Tavla
+  arrow: Pil
+  snowball: Snöboll
+  fireball: Eldklot
+  small_fireball: Litet eldklot
+  ender_pearl: Kastad enderpärla
+  ender_signal: Enderöga
+  splash_potion: Brygd
+  thrown_exp_bottle: Kastad förtrollningsflaska
+  item_frame: Föremålsram
+  wither_skull: Witherskalle
+  primed_tnt: Antänd dynamit
+  falling_block: Fallande block
+  firework: Fyrverkeriraket
+  husk: Uttorkad zombie
+  spectral_arrow: Spektralpil
+  shulker_bullet: Shulkerskott
+  dragon_fireball: Drakeldklot
+  zombie_villager: Zombiebybo
+  skeleton_horse: Skeletthäst
+  zombie_horse: Zombiehäst
+  armor_stand: Rustningsställ
+  donkey: Åsna
+  mule: Mula
+  evoker_fangs: Frammanade käkar
+  evoker: Frammanare
+  vex: Vex
+  vindicator: Försvarare
+  illusioner: Illusionist
+  minecart_command: Gruvvagn med kommandoblock
+  boat: Båt
+  minecart: Gruvvagn
+  minecart_chest: Gruvvagn med kista
+  minecart_furnace: Gruvvagn med ugn
+  minecart_tnt: Gruvvagn med dynamit
+  minecart_hopper: Gruvvagn med tratt
+  minecart_mob_spawner: Gruvvagn med monsterskapare
+  creeper: Creeper
+  skeleton: Skelett
+  spider: Spindel
+  giant: Jätte
+  zombie: Zombie
+  slime: Slemkub
+  ghast: Ghast
+  zombified_piglin: Zombifierad piglin
+  enderman: Enderman
+  cave_spider: Grottspindel
+  silverfish: Silverfisk
+  blaze: Brännare
+  magma_cube: Magmakub
+  ender_dragon: Enderdrake
+  wither: Wither
+  bat: Fladdermus
+  witch: Häxa
+  endermite: Endermite
+  guardian: Väktare
+  shulker: Shulker
+  pig: Gris
+  sheep: Får
+  cow: Ko
+  chicken: Höna
+  squid: Bläckfisk
+  wolf: Varg
+  mushroom_cow: Mooshroom
+  snowman: Snögolem
+  ocelot: Ozelot
+  iron_golem: Järngolem
+  horse: Häst
+  rabbit: Kanin
+  polar_bear: Isbjörn
+  llama: Lama
+  llama_spit: Lamaspott
+  parrot: Papegoja
+  villager: Bybo
+  ender_crystal: Endkristall
+  turtle: Sköldpadda
+  phantom: Fantom
+  trident: Treudd
+  cod: Torsk
+  salmon: Lax
+  pufferfish: Blåsfisk
+  tropical_fish: Tropisk fisk
+  drowned: Drunknad zombie
+  dolphin: Delfin
+  cat: Katt
+  panda: Panda
+  pillager: Plundrare
+  ravager: Ödeläggare
+  trader_llama: Byteshandlarlama
+  wandering_trader: Vandrande byteshandlare
+  fox: Räv
+  bee: Bi
+  hoglin: Hoglin
+  piglin: Piglin
+  strider: Vandrare
+  zoglin: Zoglin
+  piglin_brute: Piglinbarbar
+  fishing_hook: Flöte
+  lightning: Ljusblixt
+  player: Spelare
+  pig_zombie: Zombiegrisman
+effect:
+  speed: Hastighet
+  slow: Långsamhet
+  fast_digging: Skyndsamhet
+  slow_digging: Trötthet
+  increase_damage: Styrka
+  heal: Omedelbar hälsa
+  harm: Omedelbar skada
+  jump: Hoppstyrka
+  confusion: Illamående
+  regeneration: Återhämtning
+  damage_resistance: Resistans
+  fire_resistance: Eldresistans
+  water_breathing: Vattenandning
+  invisibility: Osynlighet
+  blindness: Blindhet
+  night_vision: Mörkerseende
+  hunger: Hunger
+  weakness: Svaghet
+  poison: Gift
+  wither: Vissnande
+  health_boost: Hälsobonus
+  absorption: Absorbering
+  saturation: Mättnad
+  glowing: Glödande
+  levitation: Levitation
+  luck: Tur
+  unluck: Otur
+  slow_falling: Långsamt fall
+  conduit_power: Flödeskraft
+  dolphins_grace: Delfingåva
+  bad_omen: Ond föraning
+  hero_of_the_village: Byns hjälte
+tropical_fish_type:
+  kob: Kobb
+  sunstreak: Solstrålesfisk
+  snooper: Snokfisk
+  dasher: Smitfisk
+  brinely: Saltfisk
+  spotty: Prickig fisk
+  flopper: Sprattelfisk
+  stripey: Randig fisk
+  glitter: Glittrig fisk
+  blockfish: Blockfisk
+  betty: Kampfisk
+  clayfish: Lerfisk
+dye_color:
+  white: Vit
+  orange: Orange
+  magenta: Ljuslila
+  light_blue: Ljusblå
+  yellow: Gul
+  lime: Limegrön
+  pink: Rosa
+  gray: Grå
+  light_gray: Ljusgrå
+  cyan: Turkos
+  purple: Lila
+  blue: Blå
+  brown: Brun
+  green: Grön
+  red: Röd
+  black: Svart
+named:
+  player_head_named: '%ss huvud'
+  potion_with_amplifier: '%s %s'
+  potion_with_duration: '%s (%s)'
+  unknown_enchantment: '"%s" är en okänd förtrollning'
+  unknown_entity: '"%s" är en okänd entitet'
+  unknown_effect: '"%s" är en okänd effekt'
+tropical_fish_name:
+  '117506305': Anemon
+  '117899265': Svart kirurg
+  '185008129': Blå kirurg
+  '117441793': Fjärilsfisk
+  '118161664': Ciklid
+  '65536': Clownfisk
+  '50726144': Blårosa kampfisk
+  '67764993': Pseudochromidae
+  '234882305': Kejsarsnapper
+  '67110144': Mullusfisk
+  '117441025': Zanclus cornutus
+  '16778497': Chaetodon ornatissimus
+  '101253888': Papegojfisk
+  '50660352': Holacanthus ciliaris
+  '918529': Röd ciklid
+  '235340288': Ophioblennius atlanticus
+  '918273': Röd snapper
+  '67108865': Polynemidae
+  '917504': Tomatröd clownfisk
+  '459008': Tryckarfisk
+  '67699456': Gulsvansad papegojfisk
+  '67371009': Gul kirurg
+colored_shied:
+  white: Vit sköld
+  orange: Orange sköld
+  magenta: Ljuslila sköld
+  light_blue: Ljusblå sköld
+  yellow: Gul sköld
+  lime: Limegrön sköld
+  pink: Rosa sköld
+  gray: Grå sköld
+  light_gray: Ljusgrå sköld
+  cyan: Turkos sköld
+  purple: Lila sköld
+  blue: Blå sköld
+  brown: Brun sköld
+  green: Grön sköld
+  red: Röd sköld
+  black: Svart sköld
+banner_pattern:
+  '65536': Vit nere till vänster
+  '65537': Orange nere till vänster
+  '65538': Ljuslila nere till vänster
+  '65539': Ljusblå nere till vänster
+  '65540': Gul nere till vänster
+  '65541': Limegrön nere till vänster
+  '65542': Rosa nere till vänster
+  '65543': Grå nere till vänster
+  '65544': Ljusgrå nere till vänster
+  '65545': Turkos nere till vänster
+  '65546': Lila nere till vänster
+  '65547': Blå nere till vänster
+  '65548': Brun nere till vänster
+  '65549': Grön nere till vänster
+  '65550': Röd nere till vänster
+  '65551': Svart nere till vänster
+  '131072': Vit nere till höger
+  '131073': Orange nere till höger
+  '131074': Ljuslila nere till höger
+  '131075': Ljusblå nere till höger
+  '131076': Gul nere till höger
+  '131077': Limegrön nere till höger
+  '131078': Rosa nere till höger
+  '131079': Grå nere till höger
+  '131080': Ljusgrå nere till höger
+  '131081': Turkos nere till höger
+  '131082': Lila nere till höger
+  '131083': Blå nere till höger
+  '131084': Brun nere till höger
+  '131085': Grön nere till höger
+  '131086': Röd nere till höger
+  '131087': Svart nere till höger
+  '196608': Vit uppe till vänster
+  '196609': Orange uppe till vänster
+  '196610': Ljuslila uppe till vänster
+  '196611': Ljusblå uppe till vänster
+  '196612': Gul uppe till vänster
+  '196613': Limegrön uppe till vänster
+  '196614': Rosa uppe till vänster
+  '196615': Grå uppe till vänster
+  '196616': Ljusgrå uppe till vänster
+  '196617': Turkos uppe till vänster
+  '196618': Lila uppe till vänster
+  '196619': Blå uppe till vänster
+  '196620': Brun uppe till vänster
+  '196621': Grön uppe till vänster
+  '196622': Röd uppe till vänster
+  '196623': Svart uppe till vänster
+  '262144': Vit uppe till höger
+  '262145': Orange uppe till höger
+  '262146': Ljuslila uppe till höger
+  '262147': Ljusblå uppe till höger
+  '262148': Gul uppe till höger
+  '262149': Limegrön uppe till höger
+  '262150': Rosa uppe till höger
+  '262151': Grå uppe till höger
+  '262152': Ljusgrå uppe till höger
+  '262153': Turkos uppe till höger
+  '262154': Lila uppe till höger
+  '262155': Blå uppe till höger
+  '262156': Brun uppe till höger
+  '262157': Grön uppe till höger
+  '262158': Röd uppe till höger
+  '262159': Svart uppe till höger
+  '327680': Vit nederkant
+  '327681': Orange nederkant
+  '327682': Ljuslila nederkant
+  '327683': Ljusblå nederkant
+  '327684': Gul nederkant
+  '327685': Limegrön nederkant
+  '327686': Rosa nederkant
+  '327687': Grå nederkant
+  '327688': Ljusgrå nederkant
+  '327689': Turkos nederkant
+  '327690': Lila nederkant
+  '327691': Blå nederkant
+  '327692': Brun nederkant
+  '327693': Grön nederkant
+  '327694': Röd nederkant
+  '327695': Svart nederkant
+  '393216': Vit överkant
+  '393217': Orange överkant
+  '393218': Ljuslila överkant
+  '393219': Ljusblå överkant
+  '393220': Gul överkant
+  '393221': Limegrön överkant
+  '393222': Rosa överkant
+  '393223': Grå överkant
+  '393224': Ljusgrå överkant
+  '393225': Turkos överkant
+  '393226': Lila överkant
+  '393227': Blå överkant
+  '393228': Brun överkant
+  '393229': Grön överkant
+  '393230': Röd överkant
+  '393231': Svart överkant
+  '458752': Vit till vänster
+  '458753': Orange till vänster
+  '458754': Ljuslila till vänster
+  '458755': Ljusblå till vänster
+  '458756': Gul till vänster
+  '458757': Limegrön till vänster
+  '458758': Rosa till vänster
+  '458759': Grå till vänster
+  '458760': Ljusgrå till vänster
+  '458761': Turkos till vänster
+  '458762': Lila till vänster
+  '458763': Blå till vänster
+  '458764': Brun till vänster
+  '458765': Grön till vänster
+  '458766': Röd till vänster
+  '458767': Svart till vänster
+  '524288': Vit till höger
+  '524289': Orange till höger
+  '524290': Ljuslila till höger
+  '524291': Ljusblå till höger
+  '524292': Gul till höger
+  '524293': Limegrön till höger
+  '524294': Rosa till höger
+  '524295': Grå till höger
+  '524296': Ljusgrå till höger
+  '524297': Turkos till höger
+  '524298': Lila till höger
+  '524299': Blå till höger
+  '524300': Brun till höger
+  '524301': Grön till höger
+  '524302': Röd till höger
+  '524303': Svart till höger
+  '589824': Vitt vertikalt streck
+  '589825': Orange vertikalt streck
+  '589826': Ljuslila vertikalt streck
+  '589827': Ljusblått vertikalt streck
+  '589828': Gult vertikalt streck
+  '589829': Limegrönt vertikalt streck
+  '589830': Rosa vertikalt streck
+  '589831': Grått vertikalt streck
+  '589832': Ljusgrått vertikalt streck
+  '589833': Turkost vertikalt streck
+  '589834': Lila vertikalt streck
+  '589835': Blått vertikalt streck
+  '589836': Brunt vertikalt streck
+  '589837': Grönt vertikalt streck
+  '589838': Rött vertikalt streck
+  '589839': Svart vertikalt streck
+  '655360': Vitt horisontellt streck
+  '655361': Orange horisontellt streck
+  '655362': Ljuslila horisontellt streck
+  '655363': Ljusblått horisontellt streck
+  '655364': Gult horisontellt streck
+  '655365': Limegrönt horisontellt streck
+  '655366': Rosa horisontellt streck
+  '655367': Grått horisontellt streck
+  '655368': Ljusgrått horisontellt streck
+  '655369': Turkost horisontellt streck
+  '655370': Lila horisontellt streck
+  '655371': Blått horisontellt streck
+  '655372': Brunt horisontellt streck
+  '655373': Grönt horisontellt streck
+  '655374': Rött horisontellt streck
+  '655375': Svart horisontellt streck
+  '720896': Vitt diagonalt streck
+  '720897': Orange diagonalt streck
+  '720898': Ljuslila diagonalt streck
+  '720899': Ljusblått diagonalt streck
+  '720900': Gult diagonalt streck
+  '720901': Limegrönt diagonalt streck
+  '720902': Rosa diagonalt streck
+  '720903': Grått diagonalt streck
+  '720904': Ljusgrått diagonalt streck
+  '720905': Turkost diagonalt streck
+  '720906': Lila diagonalt streck
+  '720907': Blått diagonalt streck
+  '720908': Brunt diagonalt streck
+  '720909': Grönt diagonalt streck
+  '720910': Rött diagonalt streck
+  '720911': Svart diagonalt streck
+  '786432': Vitt omvänt diagonalt streck
+  '786433': Orange omvänt diagonalt streck
+  '786434': Ljuslila omvänt diagonalt streck
+  '786435': Ljusblått omvänt diagonalt streck
+  '786436': Gult omvänt diagonalt streck
+  '786437': Limegrönt omvänt diagonalt streck
+  '786438': Rosa omvänt diagonalt streck
+  '786439': Grått omvänt diagonalt streck
+  '786440': Ljusgrått omvänt diagonalt streck
+  '786441': Turkost omvänt diagonalt streck
+  '786442': Lila omvänt diagonalt streck
+  '786443': Blått omvänt diagonalt streck
+  '786444': Brunt omvänt diagonalt streck
+  '786445': Grönt omvänt diagonalt streck
+  '786446': Rött omvänt diagonalt streck
+  '786447': Svart omvänt diagonalt streck
+  '851968': Vitrandig
+  '851969': Orangerandig
+  '851970': Ljuslilarandig
+  '851971': Ljusblårandig
+  '851972': Gulrandig
+  '851973': Limegrönrandig
+  '851974': Rosarandig
+  '851975': Grårandig
+  '851976': Ljusgrårandig
+  '851977': Turkosrandig
+  '851978': Lilarandig
+  '851979': Blårandig
+  '851980': Brunrandig
+  '851981': Grönrandig
+  '851982': Rödrandig
+  '851983': Svartrandig
+  '917504': Vitt kryss
+  '917505': Orange kryss
+  '917506': Ljuslila kryss
+  '917507': Ljusblått kryss
+  '917508': Gult kryss
+  '917509': Limegrönt kryss
+  '917510': Lila kryss
+  '917511': Grått kryss
+  '917512': Ljusgrått kryss
+  '917513': Turkost kryss
+  '917514': Lila kryss
+  '917515': Blått kryss
+  '917516': Brunt kryss
+  '917517': Grönt kryss
+  '917518': Rött kryss
+  '917519': Svart kryss
+  '983040': Vitt kors
+  '983041': Orange kors
+  '983042': Ljuslila kors
+  '983043': Ljusblått kors
+  '983044': Gult kors
+  '983045': Limegrönt kors
+  '983046': Rosa kors
+  '983047': Grått kors
+  '983048': Ljusgrått kors
+  '983049': Turkost kors
+  '983050': Lila kors
+  '983051': Blått kors
+  '983052': Brunt kors
+  '983053': Grönt kors
+  '983054': Rött kors
+  '983055': Svart kors
+  '1048576': Vit triangel nedtill
+  '1048577': Orange triangel nedtill
+  '1048578': Ljuslila triangel nedtill
+  '1048579': Ljusblå triangel nedtill
+  '1048580': Gul triangel nedtill
+  '1048581': Limegrön triangel nedtill
+  '1048582': Rosa triangel nedtill
+  '1048583': Grå triangel nedtill
+  '1048584': Ljusgrå triangel nedtill
+  '1048585': Turkos triangel nedtill
+  '1048586': Lila triangel nedtill
+  '1048587': Blå triangel nedtill
+  '1048588': Brun triangel nedtill
+  '1048589': Grön triangel nedtill
+  '1048590': Röd triangel nedtill
+  '1048591': Svart triangel nedtill
+  '1114112': Vit triangel upptill
+  '1114113': Orange triangel upptill
+  '1114114': Ljuslila triangel upptill
+  '1114115': Ljusblå triangel upptill
+  '1114116': Gul triangel upptill
+  '1114117': Limegrön triangel upptill
+  '1114118': Rosa triangel upptill
+  '1114119': Grå triangel upptill
+  '1114120': Ljusgrå triangel upptill
+  '1114121': Turkos triangel upptill
+  '1114122': Lila triangel upptill
+  '1114123': Blå triangel upptill
+  '1114124': Brun triangel upptill
+  '1114125': Grön triangel upptill
+  '1114126': Röd triangel upptill
+  '1114127': Svart triangel upptill
+  '1179648': Vita taggar nedtill
+  '1179649': Orangea taggar nedtill
+  '1179650': Ljuslila taggar nedtill
+  '1179651': Ljusblåa taggar nedtill
+  '1179652': Gula taggar nedtill
+  '1179653': Limegröna taggar nedtill
+  '1179654': Rosa taggar nedtill
+  '1179655': Gråa taggar nedtill
+  '1179656': Ljusgråa taggar nedtill
+  '1179657': Turkosa taggar nedtill
+  '1179658': Lila taggar nedtill
+  '1179659': Blåa taggar nedtill
+  '1179660': Bruna taggar nedtill
+  '1179661': Gröna taggar nedtill
+  '1179662': Röda taggar nedtill
+  '1179663': Svarta taggar nedtill
+  '1245184': Vita taggar upptill
+  '1245185': Orangea taggar upptill
+  '1245186': Ljuslila taggar upptill
+  '1245187': Ljusblåa taggar upptill
+  '1245188': Gula taggar upptill
+  '1245189': Limegröna taggar upptill
+  '1245190': Rosa taggar upptill
+  '1245191': Gråa taggar upptill
+  '1245192': Ljusgråa taggar upptill
+  '1245193': Turkosa taggar upptill
+  '1245194': Lila taggar upptill
+  '1245195': Blåa taggar upptill
+  '1245196': Bruna taggar upptill
+  '1245197': Gröna taggar upptill
+  '1245198': Röda taggar upptill
+  '1245199': Svarta taggar upptill
+  '1310720': Vit triangel uppe till vänster
+  '1310721': Orange triangel uppe till vänster
+  '1310722': Ljuslila triangel uppe till vänster
+  '1310723': Ljusblå triangel uppe till vänster
+  '1310724': Gul triangel uppe till vänster
+  '1310725': Limegrön triangel uppe till vänster
+  '1310726': Rosa triangel uppe till vänster
+  '1310727': Grå triangel uppe till vänster
+  '1310728': Ljusgrå triangel uppe till vänster
+  '1310729': Turkos triangel uppe till vänster
+  '1310730': Lila triangel uppe till vänster
+  '1310731': Blå triangel uppe till vänster
+  '1310732': Brun triangel uppe till vänster
+  '1310733': Grön triangel uppe till vänster
+  '1310734': Röd triangel uppe till vänster
+  '1310735': Svart triangel uppe till vänster
+  '1376256': Vit triangel nere till höger
+  '1376257': Orange triangel nere till höger
+  '1376258': Ljuslila triangel nere till höger
+  '1376259': Ljusblå triangel nere till höger
+  '1376260': Gul triangel nere till höger
+  '1376261': Limegrön triangel nere till höger
+  '1376262': Rosa triangel nere till höger
+  '1376263': Grå triangel nere till höger
+  '1376264': Ljusgrå triangel nere till höger
+  '1376265': Turkos triangel nere till höger
+  '1376266': Lila triangel nere till höger
+  '1376267': Blå triangel nere till höger
+  '1376268': Brun triangel nere till höger
+  '1376269': Grön triangel nere till höger
+  '1376270': Röd triangel nere till höger
+  '1376271': Svart triangel nere till höger
+  '1441792': Vit triangel nere till vänster
+  '1441793': Orange triangel nere till vänster
+  '1441794': Ljuslila triangel nere till vänster
+  '1441795': Ljusblå triangel nere till vänster
+  '1441796': Gul triangel nere till vänster
+  '1441797': Limegrön triangel nere till vänster
+  '1441798': Rosa triangel nere till vänster
+  '1441799': Grå triangel nere till vänster
+  '1441800': Ljusgrå triangel nere till vänster
+  '1441801': Turkos triangel nere till vänster
+  '1441802': Lila triangel nere till vänster
+  '1441803': Blå triangel nere till vänster
+  '1441804': Brun triangel nere till vänster
+  '1441805': Grön triangel nere till vänster
+  '1441806': Röd triangel nere till vänster
+  '1441807': Svart triangel nere till vänster
+  '1507328': Vit triangel uppe till höger
+  '1507329': Orange triangel uppe till höger
+  '1507330': Ljuslila triangel uppe till höger
+  '1507331': Ljusblå triangel uppe till höger
+  '1507332': Gul triangel uppe till höger
+  '1507333': Limegrön triangel uppe till höger
+  '1507334': Rosa triangel uppe till höger
+  '1507335': Grå triangel uppe till höger
+  '1507336': Ljusgrå triangel uppe till höger
+  '1507337': Turkos triangel uppe till höger
+  '1507338': Lila triangel uppe till höger
+  '1507339': Blå triangel uppe till höger
+  '1507340': Brun triangel uppe till höger
+  '1507341': Grön triangel uppe till höger
+  '1507342': Röd triangel uppe till höger
+  '1507343': Svart triangel uppe till höger
+  '1572864': Vit cirkel
+  '1572865': Orange cirkel
+  '1572866': Ljuslila cirkel
+  '1572867': Ljusblå cirkel
+  '1572868': Gul cirkel
+  '1572869': Limegrön cirkel
+  '1572870': Rosa cirkel
+  '1572871': Grå cirkel
+  '1572872': Ljusgrå cirkel
+  '1572873': Turkos cirkel
+  '1572874': Lila cirkel
+  '1572875': Blå cirkel
+  '1572876': Brun cirkel
+  '1572877': Grön cirkel
+  '1572878': Röd cirkel
+  '1572879': Svart cirkel
+  '1638400': Vit diamant
+  '1638401': Orange diamant
+  '1638402': Ljuslila diamant
+  '1638403': Ljusblå diamant
+  '1638404': Gul diamant
+  '1638405': Limegrön diamant
+  '1638406': Rosa diamant
+  '1638407': Grå diamant
+  '1638408': Ljusgrå diamant
+  '1638409': Turkos diamant
+  '1638410': Lila diamant
+  '1638411': Blå diamant
+  '1638412': Brun diamant
+  '1638413': Grön diamant
+  '1638414': Röd diamant
+  '1638415': Svart diamant
+  '1703936': Vit vänsterhalva
+  '1703937': Orange vänsterhalva
+  '1703938': Ljuslila vänsterhalva
+  '1703939': Ljusblå vänsterhalva
+  '1703940': Gul vänsterhalva
+  '1703941': Limegrön vänsterhalva
+  '1703942': Rosa vänsterhalva
+  '1703943': Grå vänsterhalva
+  '1703944': Ljusgrå vänsterhalva
+  '1703945': Turkos vänsterhalva
+  '1703946': Lila vänsterhalva
+  '1703947': Blå vänsterhalva
+  '1703948': Brun vänsterhalva
+  '1703949': Grön vänsterhalva
+  '1703950': Röd vänsterhalva
+  '1703951': Svart vänsterhalva
+  '1769472': Vit överhalva
+  '1769473': Orange överhalva
+  '1769474': Ljuslila överhalva
+  '1769475': Ljusblå överhalva
+  '1769476': Gul överhalva
+  '1769477': Limegrön överhalva
+  '1769478': Rosa överhalva
+  '1769479': Grå överhalva
+  '1769480': Ljusgrå överhalva
+  '1769481': Turkos överhalva
+  '1769482': Lila överhalva
+  '1769483': Blå överhalva
+  '1769484': Brun överhalva
+  '1769485': Grön överhalva
+  '1769486': Röd överhalva
+  '1769487': Svart överhalva
+  '1835008': Vit högerhalva
+  '1835009': Orange högerhalva
+  '1835010': Ljuslila högerhalva
+  '1835011': Ljusblå högerhalva
+  '1835012': Gul högerhalva
+  '1835013': Limegrön högerhalva
+  '1835014': Rosa högerhalva
+  '1835015': Grå högerhalva
+  '1835016': Ljusgrå högerhalva
+  '1835017': Turkos högerhalva
+  '1835018': Lila högerhalva
+  '1835019': Blå högerhalva
+  '1835020': Brun högerhalva
+  '1835021': Grön högerhalva
+  '1835022': Röd högerhalva
+  '1835023': Svart högerhalva
+  '1900544': Vit underhalva
+  '1900545': Orange underhalva
+  '1900546': Ljuslila underhalva
+  '1900547': Ljusblå underhalva
+  '1900548': Gul underhalva
+  '1900549': Limegrön underhalva
+  '1900550': Rosa underhalva
+  '1900551': Grå underhalva
+  '1900552': Ljusgrå underhalva
+  '1900553': Turkos underhalva
+  '1900554': Lila underhalva
+  '1900555': Blå underhalva
+  '1900556': Brun underhalva
+  '1900557': Grön underhalva
+  '1900558': Röd underhalva
+  '1900559': Svart underhalva
+  '1966080': Vit ram
+  '1966081': Orange ram
+  '1966082': Ljuslila ram
+  '1966083': Ljusblå ram
+  '1966084': Gul ram
+  '1966085': Limegrön ram
+  '1966086': Rosa ram
+  '1966087': Grå ram
+  '1966088': Ljusgrå ram
+  '1966089': Turkos ram
+  '1966090': Lila ram
+  '1966091': Blå ram
+  '1966092': Brun ram
+  '1966093': Grön ram
+  '1966094': Röd ram
+  '1966095': Svart ram
+  '2031616': Vit taggig ram
+  '2031617': Orange taggig ram
+  '2031618': Ljuslila taggig ram
+  '2031619': Ljusblå taggig ram
+  '2031620': Gul taggig ram
+  '2031621': Limegrön taggig ram
+  '2031622': Rosa taggig ram
+  '2031623': Grå taggig ram
+  '2031624': Ljusgrå taggig ram
+  '2031625': Turkos taggig ram
+  '2031626': Lila taggig ram
+  '2031627': Blå taggig ram
+  '2031628': Brun taggig ram
+  '2031629': Grön taggig ram
+  '2031630': Röd taggig ram
+  '2031631': Svart taggig ram
+  '2097152': Vit creeper
+  '2097153': Orange creeper
+  '2097154': Ljuslila creeper
+  '2097155': Ljusblå creeper
+  '2097156': Gul creeper
+  '2097157': Limegrön creeper
+  '2097158': Rosa creeper
+  '2097159': Grå creeper
+  '2097160': Ljusgrå creeper
+  '2097161': Turkos creeper
+  '2097162': Lila creeper
+  '2097163': Blå creeper
+  '2097164': Brun creeper
+  '2097165': Grön creeper
+  '2097166': Röd creeper
+  '2097167': Svart creeper
+  '2162688': Vit övergång ovanifrån
+  '2162689': Orange övergång ovanifrån
+  '2162690': Ljuslila övergång ovanifrån
+  '2162691': Ljusblå övergång ovanifrån
+  '2162692': Gul övergång ovanifrån
+  '2162693': Limegrön övergång ovanifrån
+  '2162694': Rosa övergång ovanifrån
+  '2162695': Grå övergång ovanifrån
+  '2162696': Ljusgrå övergång ovanifrån
+  '2162697': Turkos övergång ovanifrån
+  '2162698': Lila övergång ovanifrån
+  '2162699': Blå övergång ovanifrån
+  '2162700': Brun övergång ovanifrån
+  '2162701': Grön övergång ovanifrån
+  '2162702': Röd övergång ovanifrån
+  '2162703': Svart övergång ovanifrån
+  '2228224': Vit övergång nedanifrån
+  '2228225': Orange övergång nedanifrån
+  '2228226': Ljuslila övergång nedanifrån
+  '2228227': Ljusblå övergång nedanifrån
+  '2228228': Gul övergång nedanifrån
+  '2228229': Limegrön övergång nedanifrån
+  '2228230': Rosa övergång nedanifrån
+  '2228231': Grå övergång nedanifrån
+  '2228232': Ljusgrå övergång nedanifrån
+  '2228233': Turkos övergång nedanifrån
+  '2228234': Lila övergång nedanifrån
+  '2228235': Blå övergång nedanifrån
+  '2228236': Brun övergång nedanifrån
+  '2228237': Grön övergång nedanifrån
+  '2228238': Röd övergång nedanifrån
+  '2228239': Svart övergång nedanifrån
+  '2293760': Vitt tegelmönster
+  '2293761': Orange tegelmönster
+  '2293762': Ljuslila tegelmönster
+  '2293763': Ljusblått tegelmönster
+  '2293764': Gult tegelmönster
+  '2293765': Limegrönt tegelmönster
+  '2293766': Rosa tegelmönster
+  '2293767': Grått tegelmönster
+  '2293768': Ljusgrått tegelmönster
+  '2293769': Turkost tegelmönster
+  '2293770': Lila tegelmönster
+  '2293771': Blått tegelmönster
+  '2293772': Brunt tegelmönster
+  '2293773': Grönt tegelmönster
+  '2293774': Rött tegelmönster
+  '2293775': Svart tegelmönster
+  '2359296': Vit dödskalle
+  '2359297': Orange dödskalle
+  '2359298': Ljuslila dödskalle
+  '2359299': Ljusblå dödskalle
+  '2359300': Gul dödskalle
+  '2359301': Limegrön dödskalle
+  '2359302': Rosa dödskalle
+  '2359303': Grå dödskalle
+  '2359304': Ljusgrå dödskalle
+  '2359305': Turkos dödskalle
+  '2359306': Lila dödskalle
+  '2359307': Blå dödskalle
+  '2359308': Brun dödskalle
+  '2359309': Grön dödskalle
+  '2359310': Röd dödskalle
+  '2359311': Svart dödskalle
+  '2424832': Vit blomma
+  '2424833': Orange blomma
+  '2424834': Ljuslila blomma
+  '2424835': Ljusblå blomma
+  '2424836': Gul blomma
+  '2424837': Limegrön blomma
+  '2424838': Rosa blomma
+  '2424839': Grå blomma
+  '2424840': Ljusgrå blomma
+  '2424841': Turkos blomma
+  '2424842': Lila blomma
+  '2424843': Blå blomma
+  '2424844': Brun blomma
+  '2424845': Grön blomma
+  '2424846': Röd blomma
+  '2424847': Svart blomma
+  '2490368': Vit mojäng
+  '2490369': Orange mojäng
+  '2490370': Ljuslila mojäng
+  '2490371': Ljusblå mojäng
+  '2490372': Gul mojäng
+  '2490373': Limegrön mojäng
+  '2490374': Rosa mojäng
+  '2490375': Grå mojäng
+  '2490376': Ljusgrå mojäng
+  '2490377': Turkos mojäng
+  '2490378': Lila mojäng
+  '2490379': Blå mojäng
+  '2490380': Brun mojäng
+  '2490381': Grön mojäng
+  '2490382': Röd mojäng
+  '2490383': Svart mojäng
+  '2555904': Vit glob
+  '2555905': Orange glob
+  '2555906': Ljuslila glob
+  '2555907': Ljusblå glob
+  '2555908': Gul glob
+  '2555909': Limegrön glob
+  '2555910': Rosa glob
+  '2555911': Grå glob
+  '2555912': Ljusgrå glob
+  '2555913': Turkos glob
+  '2555914': Lila glob
+  '2555915': Blå glob
+  '2555916': Brun glob
+  '2555917': Grön glob
+  '2555918': Röd glob
+  '2555919': Svart glob
+  '2621440': Vitt tryne
+  '2621441': Orange tryne
+  '2621442': Ljuslila tryne
+  '2621443': Ljusblått tryne
+  '2621444': Gult tryne
+  '2621445': Ljusgrönt tryne
+  '2621446': Rosa tryne
+  '2621447': Grått tryne
+  '2621448': Ljusgrått tryne
+  '2621449': Turkost tryne
+  '2621450': Lila tryne
+  '2621451': Blått tryne
+  '2621452': Brunt tryne
+  '2621453': Grönt tryne
+  '2621454': Rött tryne
+  '2621455': Svart tryne
+merchant_level:
+  '1': Novis
+  '2': Lärling
+  '3': Gesäll
+  '4': Expert
+  '5': Mästare
+villager_profession:
+  none: Bybo
+  armorer: Rustningssmed
+  butcher: Slaktare
+  cartographer: Kartograf
+  cleric: Präst
+  farmer: Bonde
+  fisherman: Fiskare
+  fletcher: Pilmakare
+  leatherworker: Läderarbetare
+  librarian: Bibliotekarie
+  mason: Murare
+  nitwit: Byfåne
+  shepherd: Herde
+  toolsmith: Verktygssmed
+  weaponsmith: Vapensmed
+villager_career:
+  farmer: Bonde
+  fisherman: Fiskare
+  shepherd: Herde
+  fletcher: Pilmakare
+  librarian: Bibliotekarie
+  cartographer: Kartograf
+  cleric: Präst
+  armorer: Rustningssmed
+  weapon_smith: Vapensmed
+  tool_smith: Verktygssmed
+  butcher: Slaktare
+  leatherworker: Läderarbetare
+  nitwit: Byfåne

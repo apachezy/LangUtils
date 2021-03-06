@@ -14,10 +14,12 @@ public class NMS {
     }
 
     private static NmsItem nmsItem;
+    private static String version;
 
     public static boolean init() {
         String pkg = Bukkit.getServer().getClass().getPackage().getName();
         String ver = pkg.substring(pkg.lastIndexOf('.') + 1).toLowerCase(Locale.ROOT);
+        version = ver.replaceAll("v|_R\\d", "").replace('_', '.');
 
         try {
             nmsItem = (NmsItem) Class
@@ -30,6 +32,10 @@ public class NMS {
         }
 
         return true;
+    }
+
+    public static String getVersion() {
+        return version;
     }
 
     @Nullable
