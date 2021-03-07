@@ -22,6 +22,7 @@
                     <include>LICENSE</include>
                 </includes>
             </resource>
+
             <resource>
                 <targetPath>.</targetPath>
                 <filtering>true</filtering>
@@ -30,6 +31,7 @@
                     <include>*.yml</include>
                 </includes>
             </resource>
+
             <resource>
                 <targetPath>lang/common</targetPath>
                 <filtering>false</filtering>
@@ -69,7 +71,12 @@
     </build>
 
     <dependencies>
-
+        <!--
+         | Spigot-API
+         |
+         | In order to make both Career and Profession of the
+         | villagers pass the compilation, version 1.13.2 was used.
+         !-->
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
@@ -77,6 +84,12 @@
             <scope>provided</scope>
         </dependency>
 
+        <!--
+         |   NMS-Extracted
+         |
+         |   In order to facilitate the development, the nms
+         |   library of each version is specially extracted.
+         |-->
         <dependency>
             <groupId>com.gitee.apachezy</groupId>
             <artifactId>mc-NmsLib</artifactId>
@@ -84,6 +97,7 @@
             <scope>provided</scope>
         </dependency>
 
+        <!-- Annotations -->
         <dependency>
             <groupId>org.jetbrains</groupId>
             <artifactId>annotations</artifactId>
@@ -93,12 +107,13 @@
     </dependencies>
 
     <repositories>
-
+        <!-- Spigotmc official repository -->
         <repository>
             <id>spigot-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots</url>
         </repository>
 
+        <!-- Publish GitHub repositories easily -->
         <repository>
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
