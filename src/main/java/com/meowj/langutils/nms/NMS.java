@@ -34,6 +34,7 @@ public class NMS {
         return true;
     }
 
+    @Nullable
     public static String getVersion() {
         return version;
     }

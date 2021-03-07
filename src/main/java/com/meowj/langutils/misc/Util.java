@@ -25,12 +25,14 @@ public class Util {
     private Util() {
     }
 
+    @NotNull
     public static String getShortTime(int duration) {
         int m = duration / 20 / 60;
         int s = duration / 20 % 60;
         return String.format("%d:%02d", m, s);
     }
 
+    @NotNull
     public static PotionType getPotionType(@NotNull ItemStack itemStack) {
         ItemMeta meta = itemStack.getItemMeta();
         if (meta instanceof PotionMeta) {
@@ -68,6 +70,7 @@ public class Util {
         return null;
     }
 
+    @NotNull
     public static Integer getPatternMixedCode(@NotNull org.bukkit.block.banner.Pattern pattern) {
         int p = pattern.getPattern().ordinal();
         int c = pattern.getColor().ordinal();

@@ -37,7 +37,8 @@ public class Remaper {
         return null;
     }
 
-    private static Map<String, String> loadMap(InputStream stream) {
+    @Nullable
+    private static Map<String, String> loadMap(@NotNull InputStream stream) {
         try (Reader reader = new InputStreamReader(stream)) {
 
             YamlConfiguration yaml = YamlConfiguration.loadConfiguration(reader);
@@ -53,6 +54,7 @@ public class Remaper {
         }
     }
 
+    @Nullable
     public String remap(String locale) {
         return map.get(locale);
     }

@@ -4,6 +4,7 @@ import com.meowj.langutils.LangUtils;
 import org.jetbrains.annotations.NotNull;
 
 public enum Named {
+
     PLAYER_HEAD_NAMED    ("%s's Head"              ),
     POTION_WITH_AMPLIFIER("%s %s"                  ),
     POTION_WITH_DURATION ("%s (%s)"                ),
@@ -12,6 +13,7 @@ public enum Named {
     UNKNOWN_EFFECT       ("Unknown effect: %s"     ),;
 
     private final String localized;
+
 
     Named(String def) {
         this.localized = def;

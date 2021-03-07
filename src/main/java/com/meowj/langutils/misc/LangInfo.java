@@ -3,6 +3,7 @@ package com.meowj.langutils.misc;
 import com.meowj.langutils.LangUtils;
 import org.bukkit.configuration.ConfigurationSection;
 import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 
 public class LangInfo {
 
@@ -16,6 +17,7 @@ public class LangInfo {
         this.region = region;
     }
 
+    @Nullable
     public static LangInfo load(ConfigurationSection section) {
         if (section == null) {
             return null;
