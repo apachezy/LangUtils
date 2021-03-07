@@ -105,11 +105,13 @@ public class Util {
     private static void sendBiome(Player player, String locale) {
         Biome biom = player.getLocation().getBlock().getBiome();
         String msg = LanguageHelper.getBiomeName(biom, locale);
+
         player.sendMessage("Biome: " + msg);
     }
 
     private static void sendChunkEntities(Player player, String locale) {
         player.sendMessage("Entities in the current chunk:");
+
         Chunk chunk = player.getLocation().getBlock().getChunk();
         for (Entity entity : chunk.getEntities()) {
             String name = LanguageHelper.getEntityDisplayName(entity, locale);
@@ -120,6 +122,7 @@ public class Util {
     private static void sendBannerPatterns(ItemMeta meta, Player player, String locale) {
         if (meta instanceof BannerMeta) {
             BannerMeta bannerMeta = (BannerMeta) meta;
+
             for (org.bukkit.block.banner.Pattern pattern : bannerMeta.getPatterns()) {
                 player.sendMessage("  "
                         + ChatColor.GRAY
@@ -134,10 +137,9 @@ public class Util {
 
     private static void sendFishBucket(ItemMeta meta, Player player, String locale) {
         if (meta instanceof TropicalFishBucketMeta) {
-
             TropicalFishBucketMeta fishBucketMeta = (TropicalFishBucketMeta) meta;
-            String message = LanguageHelper.getPredefinedTropicalFishName(fishBucketMeta, locale);
 
+            String message = LanguageHelper.getPredefinedTropicalFishName(fishBucketMeta, locale);
             if (message == null) {
                 message = LanguageHelper.getDyeColorName(fishBucketMeta.getBodyColor(), locale)
                         + "-"

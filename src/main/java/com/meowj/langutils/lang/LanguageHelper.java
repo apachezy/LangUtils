@@ -285,6 +285,8 @@ public class LanguageHelper {
     //endregion
 
     //region getPotionEffectName
+    // todo: 普通药水是没有效果的，所以遇到无效果的药水，应该返回“无效果”
+    //       药水自定义效果
     @NotNull
     public static String getPotionEffectName(@NotNull PotionEffectType effectType, @NotNull String locale) {
         String name = LangUtils.effectStorage.getEntry(locale, effectType);
@@ -322,23 +324,23 @@ public class LanguageHelper {
     //region getPotionEffectDisplay
     @NotNull
     public static String getPotionEffectDisplay(@NotNull PotionEffect effect, @NotNull String locale) {
-        String effecName = getPotionEffectName(effect.getType(), locale);
-        String amplifier = getEffectAmplifierName(effect.getAmplifier(), locale);
+        String name = getPotionEffectName(effect.getType(), locale);
+        String ampl = getEffectAmplifierName(effect.getAmplifier(), locale);
 
         String localized;
 
-        if (amplifier.length() > 0) {
+        if (ampl.length() > 0) {
             localized = Named.POTION_WITH_AMPLIFIER.getLocalized(locale);
-            effecName = String.format(localized, effecName, amplifier);
+            name = String.format(localized, name, ampl);
         }
 
         int duration = effect.getDuration();
         if (duration > 20) {
             localized = Named.POTION_WITH_DURATION.getLocalized(locale);
-            effecName = String.format(localized, effecName, Util.getShortTime(duration));
+            name = String.format(localized, name, Util.getShortTime(duration));
         }
 
-        return effecName;
+        return name;
     }
 
     public static String getPotionEffectDisplay(@NotNull PotionEffect effect, @NotNull Player player) {
