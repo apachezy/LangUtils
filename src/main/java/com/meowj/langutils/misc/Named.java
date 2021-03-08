@@ -8,9 +8,11 @@ public enum Named {
     PLAYER_HEAD_NAMED    ("%s's Head"              ),
     POTION_WITH_AMPLIFIER("%s %s"                  ),
     POTION_WITH_DURATION ("%s (%s)"                ),
+    NONE_EFFECTS         ("No Effects"             ),
     UNKNOWN_ENCHANTMENT  ("Unknown enchantment: %s"),
     UNKNOWN_ENTITY       ("Unknown entity: %s"     ),
-    UNKNOWN_EFFECT       ("Unknown effect: %s"     ),;
+    UNKNOWN_EFFECT       ("Unknown effect: %s"     ),
+    ;
 
     private final String localized;
 

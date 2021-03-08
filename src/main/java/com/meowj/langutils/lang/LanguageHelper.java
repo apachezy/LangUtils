@@ -237,39 +237,87 @@ public class LanguageHelper {
     //endregion
 
     //region getPotionName
+
+    /**
+     * Get the localized name of the drinking potion bottle.
+     *
+     * @param potionType The PotionType of drinking potion bottle.
+     * @param locale     The target language.
+     * @return The translated name of the potion bottle.
+     */
     @NotNull
     public static String getPotionName(@NotNull PotionType potionType, @NotNull String locale) {
         return LangUtils.potionStorage.getEntry(locale, potionType);
     }
 
+    /**
+     * Get the localized name of the drinking potion bottle.
+     *
+     * @param potionType The PotionType of drinking potion bottle.
+     * @param player     The target language of player locale.
+     * @return The translated name of the potion bottle.
+     */
     @NotNull
     public static String getPotionName(@NotNull PotionType potionType, @NotNull Player player) {
         return getPotionName(potionType, player.getLocale());
     }
+
     //endregion
 
     //region getSplashPotionName
+
+    /**
+     * Get the localized name of the splash potion bottle.
+     *
+     * @param potionType The PotionType of splash potion bottle.
+     * @param locale     The target language.
+     * @return The translated name of the potion bottle.
+     */
     @NotNull
     public static String getSplashPotionName(@NotNull PotionType potionType, @NotNull String locale) {
         return LangUtils.splashPotionStorage.getEntry(locale, potionType);
     }
 
+    /**
+     * Get the localized name of the splash potion bottle.
+     *
+     * @param potionType The PotionType of splash potion bottle.
+     * @param player     The target language of player.
+     * @return The translated name of the potion bottle.
+     */
     @NotNull
     public static String getSplashPotionName(@NotNull PotionType potionType, @NotNull Player player) {
         return getSplashPotionName(potionType, player.getLocale());
     }
+
     //endregion
 
     //region getLingeringPotionName
+
+    /**
+     * Get the localized name of the lingering potion bottle.
+     *
+     * @param potionType The PotionType of lingering potion bottle.
+     * @param locale     The target language.
+     * @return The translated name of the potion bottle.
+     */
     @NotNull
     public static String getLingeringPotionName(@NotNull PotionType potionType, @NotNull String locale) {
         return LangUtils.lingeringPotionStorage.getEntry(locale, potionType);
     }
 
+    /**
+     * Get the localized name of the lingering potion bottle.
+     *
+     * @param potionType The PotionType of lingering potion bottle.
+     * @param player     The target language of player.
+     * @return The translated name of the potion bottle.
+     */
     @NotNull
     public static String getLingeringPotionName(@NotNull PotionType potionType, @NotNull Player player) {
         return getLingeringPotionName(potionType, player.getLocale());
     }
+
     //endregion
 
     //region getTippedArrowName
@@ -388,6 +436,7 @@ public class LanguageHelper {
     //endregion
 
     //region getVillagerLevelName
+
     /** Minecraft version 1.14 or above can be used. **/
     @NotNull
     public static String getVillagerLevelName(int level, @NotNull String locale) {
@@ -403,6 +452,7 @@ public class LanguageHelper {
     //endregion
 
     //region getVillagerProfessionName
+
     /** Minecraft version 1.14 or above can be used. **/
     @NotNull
     public static String getVillagerProfessionName(@NotNull Profession profession, @NotNull String locale) {
@@ -417,6 +467,7 @@ public class LanguageHelper {
     //endregion
 
     //region getVillagerCareerName
+
     /** Only Minecraft version 1.13 can be used. **/
     @NotNull
     public static String getVillagerCareerName(@NotNull Career career, @NotNull String locale) {
