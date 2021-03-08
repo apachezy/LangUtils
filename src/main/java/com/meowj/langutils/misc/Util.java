@@ -1,15 +1,18 @@
 package com.meowj.langutils.misc;
 
 import com.meowj.langutils.lang.LanguageHelper;
+import com.meowj.langutils.nms.NMS;
 import org.bukkit.ChatColor;
 import org.bukkit.Chunk;
+import org.bukkit.Material;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.block.Biome;
+import org.bukkit.block.banner.Pattern;
 import org.bukkit.command.CommandSender;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
-import org.bukkit.entity.TropicalFish.Pattern;
+import org.bukkit.entity.TropicalFish;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.*;
 import org.bukkit.potion.PotionData;
@@ -18,6 +21,7 @@ import org.bukkit.potion.PotionType;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
+import java.util.List;
 import java.util.Map;
 
 public class Util {
@@ -56,7 +60,7 @@ public class Util {
     @Nullable
     public static Integer getTropicalFishVariant(@NotNull TropicalFishBucketMeta meta) {
         if (meta.hasVariant()) {
-            Pattern pattern = meta.getPattern();
+            TropicalFish.Pattern pattern = meta.getPattern();
 
             // https://minecraft.gamepedia.com/Tropical_Fish#Entity_data
 
@@ -79,18 +83,18 @@ public class Util {
 
     public static void testWithPlayer(CommandSender sender, String lang) {
         if (sender instanceof Player) {
-
             Player player = (Player) sender;
             String locale = lang == null ? player.getLocale() : lang;
 
-            sendBiome        (player, locale);
-            sendChunkEntities(player, locale);
+            sendBiome         (player, locale);
+            sendChunkEntities (player, locale);
 
-            ItemStack itm = player.getInventory().getItemInMainHand();
+            ItemStack item = player.getInventory().getItemInMainHand();
 
-            player.sendMessage(LanguageHelper.getItemName(itm, locale));
+            sendItemName      (item, player, locale);
+            sendShiedPatterns (item, player, locale);
 
-            ItemMeta meta = itm.getItemMeta();
+            ItemMeta meta = item.getItemMeta();
             if (meta == null) {
                 return;
             }
@@ -119,18 +123,36 @@ public class Util {
         }
     }
 
+    private static void sendItemName(ItemStack item, Player player, String locale) {
+        player.sendMessage(LanguageHelper.getItemName(item, locale));
+    }
+
+    private static void sendShiedPatterns(ItemStack item, Player player, String locale) {
+        if (item.getType() != Material.SHIELD) {
+            return;
+        }
+
+        List<Pattern> patterns = NMS.getShiedPatterns(item);
+        for (Pattern pattern : patterns) {
+            player.sendMessage(
+                    ChatColor.GRAY
+                            + "  "
+                            + LanguageHelper.getBannerPatternName(pattern, locale));
+        }
+    }
+
     private static void sendBannerPatterns(ItemMeta meta, Player player, String locale) {
         if (meta instanceof BannerMeta) {
             BannerMeta bannerMeta = (BannerMeta) meta;
 
             for (org.bukkit.block.banner.Pattern pattern : bannerMeta.getPatterns()) {
-                player.sendMessage("  "
-                        + ChatColor.GRAY
-                        + LanguageHelper.getBannerPatternName(pattern, locale)
-                        + " ("
-                        + pattern.getPattern().name()
-                        + " - " + pattern.getColor().name()
-                        + ")");
+                player.sendMessage(
+                        ChatColor.GRAY + "  "
+                                + LanguageHelper.getBannerPatternName(pattern, locale)
+                                + " ("
+                                + pattern.getPattern().name()
+                                + " - " + pattern.getColor().name()
+                                + ")");
             }
         }
     }
@@ -148,7 +170,7 @@ public class Util {
                         + LanguageHelper.getTropicalFishTypeName(fishBucketMeta.getPattern(), locale);
             }
 
-            player.sendMessage("  " + ChatColor.GRAY + ChatColor.ITALIC + message);
+            player.sendMessage(ChatColor.GRAY + "  " + ChatColor.ITALIC + message);
         }
     }
 
@@ -158,18 +180,18 @@ public class Util {
             PotionMeta potionMeta = (PotionMeta) meta;
             PotionData potionData = potionMeta.getBasePotionData();
 
-            String message = "  " + ChatColor.GRAY + ChatColor.ITALIC;
-            message += LanguageHelper.getPotionName(potionData.getType(), locale);
-
+            String message = ChatColor.GRAY + "  ";
+            message += LanguageHelper.getPotionBaseEffectName(potionData.getType(), locale);
             if (potionData.isUpgraded()) {
                 message += "II";
             }
-
             player.sendMessage(message);
 
             for (PotionEffect eff : potionMeta.getCustomEffects()) {
-                message = LanguageHelper.getPotionEffectDisplay(eff, locale);
-                player.sendMessage(message);
+                player.sendMessage(
+                        ChatColor.GRAY
+                                + "  "
+                                + LanguageHelper.getPotionEffectDisplay(eff, locale));
             }
         }
     }
@@ -177,7 +199,7 @@ public class Util {
     private static void sendEnchantment(ItemMeta meta, Player player, String locale) {
         for (Map.Entry<Enchantment, Integer> entry : meta.getEnchants().entrySet()) {
             String message = LanguageHelper.getEnchantmentDisplayName(entry, locale);
-            player.sendMessage("  " + ChatColor.GRAY + message);
+            player.sendMessage(ChatColor.GRAY + "  " + message);
         }
     }
 

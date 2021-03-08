@@ -39,6 +39,7 @@ import org.bukkit.potion.PotionType;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
+import java.util.List;
 import java.util.Locale;
 import java.util.Map.Entry;
 
@@ -52,9 +53,16 @@ public class LanguageHelper {
     private LanguageHelper() {
     }
 
-    //region getItemDisplayName
-    @NotNull
-    public static String getItemDisplayName(@NotNull ItemStack item, @NotNull String locale) {
+    /**
+     * Get the display name of the item. If the item does not have a display
+     * name, {@link #getItemName(ItemStack, String)} will be called to get the
+     * localized item name.
+     *
+     * @param item   The ItemStack.
+     * @param locale This locale will be used to get the localized name.
+     * @return Returns the display name or localized name of the item.
+     */
+    public static @NotNull String getItemDisplayName(@NotNull ItemStack item, @NotNull String locale) {
         ItemMeta meta = item.getItemMeta();
         if (meta != null && meta.hasDisplayName()) {
             return meta.getDisplayName();
@@ -62,15 +70,23 @@ public class LanguageHelper {
         return getItemName(item, locale);
     }
 
-    @NotNull
-    public static String getItemDisplayName(@NotNull ItemStack item, Player player) {
+    /**
+     * This method is similar to {@link #getItemDisplayName(ItemStack,
+     * String)}.
+     */
+    public static @NotNull String getItemDisplayName(@NotNull ItemStack item, Player player) {
         return getItemDisplayName(item, player.getLocale());
     }
-    //endregion
 
-    //region getItemName
-    @NotNull
-    public static String getItemName(@NotNull ItemStack item, @NotNull String locale) {
+    /**
+     * Get the localized name of the item so that players can see the familiar
+     * name.
+     *
+     * @param item   The name of the ItemStack will be translated.
+     * @param locale This locale will be used for translation.
+     * @return Returns the localized name of the item.
+     */
+    public static @NotNull String getItemName(@NotNull ItemStack item, @NotNull String locale) {
         Material material = item.getType();
         switch (material) {
             case POTION:
@@ -86,8 +102,8 @@ public class LanguageHelper {
                 return LangUtils.tippedArrowStorage.getEntry(locale, Util.getPotionType(item));
 
             case SHIELD:
-                String shiledName = getColoredShiedName(item, locale);
-                return shiledName == null ? getMaterialName(material, locale) : shiledName;
+                String name = getColoredShiedName(item, locale);
+                return name == null ? getMaterialName(material, locale) : name;
 
             case PLAYER_HEAD:
             case PLAYER_WALL_HEAD:
@@ -102,52 +118,82 @@ public class LanguageHelper {
         }
     }
 
-    @NotNull
-    public static String getItemName(@NotNull ItemStack item, @NotNull Player player) {
+    /**
+     * This method is similar to {@link #getItemName(ItemStack, String)}.
+     */
+    public static @NotNull String getItemName(@NotNull ItemStack item, @NotNull Player player) {
         return getItemName(item, player.getLocale());
     }
-    //endregion
 
-    //region getMaterialName
-    @NotNull
-    public static String getMaterialName(@NotNull Material material, @NotNull String locale) {
+    /**
+     * Get the localized name of the material so that players can see the
+     * familiar name.
+     *
+     * @param material The name of the Material will be translated.
+     * @param locale   This locale will be used for translation.
+     * @return Returns the localized name of the Material.
+     */
+    public static @NotNull String getMaterialName(@NotNull Material material, @NotNull String locale) {
         return LangUtils.materialStorage.getEntry(locale, material);
     }
 
-    @NotNull
-    public static String getMaterialName(@NotNull Material material, @NotNull Player player) {
+    /**
+     * This method is similar to {@link #getMaterialName(Material, String)}.
+     */
+    public static @NotNull String getMaterialName(@NotNull Material material, @NotNull Player player) {
         return getMaterialName(material, player.getLocale());
     }
-    //endregion
 
-    //region getBiomeName
-    @NotNull
-    public static String getBiomeName(@NotNull Biome biome, @NotNull String locale) {
+    /**
+     * Get the localized name of the biome so that players can see the familiar
+     * name.
+     *
+     * @param biome  The name of the Biome will be translated.
+     * @param locale This locale will be used for translation.
+     * @return Returns the localized name of the Biome.
+     */
+    public static @NotNull String getBiomeName(@NotNull Biome biome, @NotNull String locale) {
         return LangUtils.biomeStorage.getEntry(locale, biome);
     }
 
-    @NotNull
-    public static String getBiomeName(@NotNull Biome biome, @NotNull Player player) {
+    /**
+     * This method is similar to {@link #getBiomeName(Biome, String)}.
+     */
+    public static @NotNull String getBiomeName(@NotNull Biome biome, @NotNull Player player) {
         return getBiomeName(biome, player.getLocale());
     }
-    //endregion
 
-    //region getEntityDisplayName
-    @NotNull
-    public static String getEntityDisplayName(@NotNull Entity entity, @NotNull String locale) {
+    /**
+     * Get the display name of the entity. If the given entity does not have a
+     * display name, {@link #getEntityName(Entity, String)} will be called to
+     * translate the entity name.
+     *
+     * @param entity The entity whose display name is to be obtained.
+     * @param locale This locale will be used to get the localized name.
+     * @return Returns the display name or localized name of the Entity.
+     */
+    public static @NotNull String getEntityDisplayName(@NotNull Entity entity, @NotNull String locale) {
         String dspName = entity.getCustomName();
         return dspName == null ? getEntityName(entity, locale) : dspName;
     }
 
-    @NotNull
-    public static String getEntityDisplayName(@NotNull Entity entity, @NotNull Player player) {
+    /**
+     * This method is similar to {@link #getEntityDisplayName(Entity, String)}.
+     */
+    public static @NotNull String getEntityDisplayName(@NotNull Entity entity, @NotNull Player player) {
         return getEntityDisplayName(entity, player.getLocale());
     }
-    //endregion
 
-    //region getEntityName
-    @NotNull
-    public static String getEntityName(@NotNull Entity entity, @NotNull String locale) {
+    /**
+     * Get the localized name of the entity so that players can see the familiar
+     * name. If the correct entity name cannot be found, an "Unknown Entity" may
+     * be returned.
+     *
+     * @param entity The name of the Entity will be translated.
+     * @param locale This locale will be used for translation.
+     * @return Returns the localized name of the Entity.
+     */
+    public static @NotNull String getEntityName(@NotNull Entity entity, @NotNull String locale) {
         String name = LangUtils.entityStorage.getEntry(locale, entity.getType());
         if (name == null) {
             String temp = Named.UNKNOWN_ENTITY.getLocalized(locale);
@@ -156,13 +202,23 @@ public class LanguageHelper {
         return name;
     }
 
-    @NotNull
-    public static String getEntityName(@NotNull Entity entity, @NotNull Player player) {
+    /**
+     * This method is similar to {@link #getEntityName(Entity, String)}.
+     */
+    public static @NotNull String getEntityName(@NotNull Entity entity, @NotNull Player player) {
         return getEntityName(entity, player.getLocale());
     }
 
-    @NotNull
-    public static String getEntityName(@NotNull EntityType entityType, @NotNull String locale) {
+    /**
+     * Get the localized name of the entity type so that players can see the
+     * familiar name. If the correct entity name cannot be found, an "Unknown
+     * Entity" may be returned.
+     *
+     * @param entityType The name of the EntityType will be translated.
+     * @param locale     This locale will be used for translation.
+     * @return Returns the localized name of the EntityType.
+     */
+    public static @NotNull String getEntityName(@NotNull EntityType entityType, @NotNull String locale) {
         String name = LangUtils.entityStorage.getEntry(locale, entityType);
         if (name == null) {
             String temp = Named.UNKNOWN_ENTITY.getLocalized(locale);
@@ -171,15 +227,24 @@ public class LanguageHelper {
         return name;
     }
 
-    @NotNull
-    public static String getEntityName(@NotNull EntityType entityType, @NotNull Player player) {
+    /**
+     * This method is similar to {@link #getEntityName(EntityType, String)}.
+     */
+    public static @NotNull String getEntityName(@NotNull EntityType entityType, @NotNull Player player) {
         return getEntityName(entityType, player.getLocale());
     }
-    //endregion
 
-    //region getEnchantmentLevelName
-    @NotNull
-    public static String getEnchantmentLevelName(int level, @NotNull String locale) {
+    /**
+     * Get the enchantment level indicated by Roman numerals. If the enchantment
+     * level exceeds 10, It will return a localized key similar to
+     * "enchantment.level.11".
+     *
+     * @param level  The enchantment level.
+     * @param locale The locale will be ignored.
+     * @return Returns the enchantment level indicated by Roman numerals or the
+     *         localized key of the enchantment level.
+     */
+    public static @NotNull String getEnchantmentLevelName(int level, @NotNull String locale) {
         if (level < 1) {
             return "";
         }
@@ -189,15 +254,23 @@ public class LanguageHelper {
         return "enchantment.level." + level;
     }
 
-    @NotNull
-    public static String getEnchantmentLevelName(int level, @NotNull Player player) {
+    /**
+     * This method is similar to {@link #getEnchantmentLevelName(int, String)}.
+     */
+    public static @NotNull String getEnchantmentLevelName(int level, @NotNull Player player) {
         return getEnchantmentLevelName(level, player.getLocale());
     }
-    //endregion
 
-    //region getEnchantmentName
-    @NotNull
-    public static String getEnchantmentName(@NotNull Enchantment enchant, @NotNull String locale) {
+    /**
+     * Get the localized name of the enchantment so that players can see the
+     * familiar name. If the correct Enchantment name cannot be found, an
+     * "Unknown Enchantment" may be returned.
+     *
+     * @param enchant The name of the Enchantment will be translated.
+     * @param locale  This locale will be used for translation.
+     * @return Returns the localized name of the Enchantment.
+     */
+    public static @NotNull String getEnchantmentName(@NotNull Enchantment enchant, @NotNull String locale) {
         String name = LangUtils.enchantStorage.getEntry(locale, enchant);
         if (name == null) {
             String temp = Named.UNKNOWN_ENCHANTMENT.getLocalized(locale);
@@ -206,37 +279,53 @@ public class LanguageHelper {
         return name;
     }
 
-    @NotNull
-    public static String getEnchantmentName(@NotNull Enchantment enchant, @NotNull Player player) {
+    /**
+     * This method is similar to {@link #getEnchantmentName(Enchantment,
+     * String)}.
+     */
+    public static @NotNull String getEnchantmentName(@NotNull Enchantment enchant, @NotNull Player player) {
         return getEnchantmentName(enchant, player.getLocale());
     }
-    //endregion
 
-    //region getEnchantmentDisplayName
-    @NotNull
-    public static String getEnchantmentDisplayName(@NotNull Enchantment enchant, int level, @NotNull String locale) {
+    /**
+     * Combine the names and levels of the localized enchantments to make them
+     * look like the original ones in the game.
+     *
+     * @param enchant The name of the Enchantment will be translated.
+     * @param level   The enchantment level.
+     * @param locale  This locale will be used for translation.
+     * @return Returns the name and level of the enchantment that can be used as
+     *         a display.
+     */
+    public static @NotNull String getEnchantmentDisplayName(@NotNull Enchantment enchant, int level, @NotNull String locale) {
         String enName = getEnchantmentName(enchant, locale);
         String lvName = getEnchantmentLevelName(level, locale);
         return enName + (lvName.length() > 0 ? " " + lvName : "");
     }
 
-    @NotNull
-    public static String getEnchantmentDisplayName(@NotNull Enchantment enchant, int level, @NotNull Player player) {
+    /**
+     * This method is similar to {@link #getEnchantmentDisplayName(Enchantment,
+     * int, String)}.
+     */
+    public static @NotNull String getEnchantmentDisplayName(@NotNull Enchantment enchant, int level, @NotNull Player player) {
         return getEnchantmentDisplayName(enchant, level, player.getLocale());
     }
 
-    @NotNull
-    public static String getEnchantmentDisplayName(@NotNull Entry<Enchantment, Integer> entry, @NotNull String locale) {
+    /**
+     * This method is similar to {@link #getEnchantmentDisplayName(Enchantment,
+     * int, String)}.
+     */
+    public static @NotNull String getEnchantmentDisplayName(@NotNull Entry<Enchantment, Integer> entry, @NotNull String locale) {
         return getEnchantmentDisplayName(entry.getKey(), entry.getValue(), locale);
     }
 
-    @NotNull
-    public static String getEnchantmentDisplayName(@NotNull Entry<Enchantment, Integer> entry, @NotNull Player player) {
+    /**
+     * This method is similar to {@link #getEnchantmentDisplayName(Entry,
+     * String)}.
+     */
+    public static @NotNull String getEnchantmentDisplayName(@NotNull Entry<Enchantment, Integer> entry, @NotNull Player player) {
         return getEnchantmentDisplayName(entry.getKey(), entry.getValue(), player);
     }
-    //endregion
-
-    //region getPotionName
 
     /**
      * Get the localized name of the drinking potion bottle.
@@ -245,26 +334,16 @@ public class LanguageHelper {
      * @param locale     The target language.
      * @return The translated name of the potion bottle.
      */
-    @NotNull
-    public static String getPotionName(@NotNull PotionType potionType, @NotNull String locale) {
+    public static @NotNull String getPotionName(@NotNull PotionType potionType, @NotNull String locale) {
         return LangUtils.potionStorage.getEntry(locale, potionType);
     }
 
     /**
-     * Get the localized name of the drinking potion bottle.
-     *
-     * @param potionType The PotionType of drinking potion bottle.
-     * @param player     The target language of player locale.
-     * @return The translated name of the potion bottle.
+     * This method is similar to {@link #getPotionName(PotionType, String)}.
      */
-    @NotNull
-    public static String getPotionName(@NotNull PotionType potionType, @NotNull Player player) {
+    public static @NotNull String getPotionName(@NotNull PotionType potionType, @NotNull Player player) {
         return getPotionName(potionType, player.getLocale());
     }
-
-    //endregion
-
-    //region getSplashPotionName
 
     /**
      * Get the localized name of the splash potion bottle.
@@ -273,26 +352,17 @@ public class LanguageHelper {
      * @param locale     The target language.
      * @return The translated name of the potion bottle.
      */
-    @NotNull
-    public static String getSplashPotionName(@NotNull PotionType potionType, @NotNull String locale) {
+    public static @NotNull String getSplashPotionName(@NotNull PotionType potionType, @NotNull String locale) {
         return LangUtils.splashPotionStorage.getEntry(locale, potionType);
     }
 
     /**
-     * Get the localized name of the splash potion bottle.
-     *
-     * @param potionType The PotionType of splash potion bottle.
-     * @param player     The target language of player.
-     * @return The translated name of the potion bottle.
+     * This method is similar to {@link #getSplashPotionName(PotionType,
+     * String)}.
      */
-    @NotNull
-    public static String getSplashPotionName(@NotNull PotionType potionType, @NotNull Player player) {
+    public static @NotNull String getSplashPotionName(@NotNull PotionType potionType, @NotNull Player player) {
         return getSplashPotionName(potionType, player.getLocale());
     }
-
-    //endregion
-
-    //region getLingeringPotionName
 
     /**
      * Get the localized name of the lingering potion bottle.
@@ -301,42 +371,70 @@ public class LanguageHelper {
      * @param locale     The target language.
      * @return The translated name of the potion bottle.
      */
-    @NotNull
-    public static String getLingeringPotionName(@NotNull PotionType potionType, @NotNull String locale) {
+    public static @NotNull String getLingeringPotionName(@NotNull PotionType potionType, @NotNull String locale) {
         return LangUtils.lingeringPotionStorage.getEntry(locale, potionType);
     }
 
     /**
-     * Get the localized name of the lingering potion bottle.
-     *
-     * @param potionType The PotionType of lingering potion bottle.
-     * @param player     The target language of player.
-     * @return The translated name of the potion bottle.
+     * This method is similar to {@link #getLingeringPotionName(PotionType,
+     * String)}.
      */
-    @NotNull
-    public static String getLingeringPotionName(@NotNull PotionType potionType, @NotNull Player player) {
+    public static @NotNull String getLingeringPotionName(@NotNull PotionType potionType, @NotNull Player player) {
         return getLingeringPotionName(potionType, player.getLocale());
     }
 
-    //endregion
-
-    //region getTippedArrowName
-    @NotNull
-    public static String getTippedArrowName(@NotNull PotionType potionType, @NotNull String locale) {
+    /**
+     * Get the localized name of the TippedArrow.
+     *
+     * @param potionType The PotionType of the TippedArrow.
+     * @param locale     The target language.
+     * @return The translated name of the TippedArrow.
+     */
+    public static @NotNull String getTippedArrowName(@NotNull PotionType potionType, @NotNull String locale) {
         return LangUtils.tippedArrowStorage.getEntry(locale, potionType);
     }
 
-    @NotNull
-    public static String getTippedArrowName(@NotNull PotionType potionType, @NotNull Player player) {
+    /**
+     * This method is similar to {@link #getTippedArrowName(PotionType,
+     * String)}.
+     */
+    public static @NotNull String getTippedArrowName(@NotNull PotionType potionType, @NotNull Player player) {
         return getTippedArrowName(potionType, player.getLocale());
     }
-    //endregion
 
-    //region getPotionEffectName
-    // todo: 普通药水是没有效果的，所以遇到无效果的药水，应该返回“无效果”
-    //       药水自定义效果
-    @NotNull
-    public static String getPotionEffectName(@NotNull PotionEffectType effectType, @NotNull String locale) {
+    /**
+     * Translate the name of the base effect of the potion. If the PotionType
+     * has no base effect, the translation of "No Effects" is returned. e.g.
+     * Water Bottle, Mundane Potion.
+     *
+     * @param potionType The basic effect of PotionType.
+     * @param locale     The target language.
+     * @return Return the translation result.
+     */
+    public static @NotNull String getPotionBaseEffectName(@NotNull PotionType potionType, @NotNull String locale) {
+        PotionEffectType effectType = potionType.getEffectType();
+        if (effectType == null) {
+            return Named.NONE_EFFECTS.getLocalized(locale);
+        }
+        return getPotionEffectName(effectType, locale);
+    }
+
+    /**
+     * This method is similar to {@link #getPotionBaseEffectName(PotionType,
+     * String)}
+     */
+    public static @NotNull String getPotionBaseEffectName(@NotNull PotionType potionType, @NotNull Player player) {
+        return getPotionBaseEffectName(potionType, player.getLocale());
+    }
+
+    /**
+     * Get the localized name of the PotionEffectType.
+     *
+     * @param effectType The PotionEffectType.
+     * @param locale     The target language.
+     * @return The translated name of the PotionEffectType.
+     */
+    public static @NotNull String getPotionEffectName(@NotNull PotionEffectType effectType, @NotNull String locale) {
         String name = LangUtils.effectStorage.getEntry(locale, effectType);
         if (name == null) {
             String temp = Named.UNKNOWN_EFFECT.getLocalized(locale);
@@ -345,15 +443,24 @@ public class LanguageHelper {
         return name;
     }
 
-    @NotNull
-    public static String getPotionEffectName(@NotNull PotionEffectType effectType, @NotNull Player player) {
+    /**
+     * This method is similar to {@link #getPotionEffectName(PotionEffectType,
+     * String)}
+     */
+    public static @NotNull String getPotionEffectName(@NotNull PotionEffectType effectType, @NotNull Player player) {
         return getPotionEffectName(effectType, player.getLocale());
     }
-    //endregion
 
-    //region getEffectAmplifierName
-    @NotNull
-    public static String getEffectAmplifierName(int amplifier, @NotNull String locale) {
+    /**
+     * Get the "level" of the potion effect. This method is only meaningful for
+     * customizing potion effects, because the level of the potion basic effects
+     * is predefined.
+     *
+     * @param amplifier The potion effect "Level"
+     * @param locale    The target language.
+     * @return The effect level of the potion represented by Roman numerals.
+     */
+    public static @NotNull String getEffectAmplifierName(int amplifier, @NotNull String locale) {
         if (amplifier < 1) {
             return "";
         }
@@ -363,15 +470,22 @@ public class LanguageHelper {
         return "potion.potency." + amplifier;
     }
 
-    @NotNull
-    public static String getEffectAmplifierName(int amplifier, @NotNull Player player) {
+    /**
+     * This method is similar to {@link #getEffectAmplifierName(int, String)}
+     */
+    public static @NotNull String getEffectAmplifierName(int amplifier, @NotNull Player player) {
         return getEffectAmplifierName(amplifier, player.getLocale());
     }
-    //endregion
 
-    //region getPotionEffectDisplay
-    @NotNull
-    public static String getPotionEffectDisplay(@NotNull PotionEffect effect, @NotNull String locale) {
+    /**
+     * Combine the names and "level" and duration of the localized PotionEffect
+     * to make them look like the original ones in the game.
+     *
+     * @param effect The name of the PotionEffect will be translated.
+     * @param locale This locale will be used for translation.
+     * @return Returns the display format of the localized potion effect.
+     */
+    public static @NotNull String getPotionEffectDisplay(@NotNull PotionEffect effect, @NotNull String locale) {
         String name = getPotionEffectName(effect.getType(), locale);
         String ampl = getEffectAmplifierName(effect.getAmplifier(), locale);
 
@@ -391,26 +505,46 @@ public class LanguageHelper {
         return name;
     }
 
-    public static String getPotionEffectDisplay(@NotNull PotionEffect effect, @NotNull Player player) {
+    /**
+     * This method is similar to {@link #getPotionEffectDisplay(PotionEffect,
+     * String)}
+     */
+    public static @NotNull String getPotionEffectDisplay(@NotNull PotionEffect effect, @NotNull Player player) {
         return getPotionEffectDisplay(effect, player.getLocale());
     }
-    //endregion
 
-    //region getTropicalFishTypeName
-    @NotNull
-    public static String getTropicalFishTypeName(@NotNull TropicalFish.Pattern pattern, @NotNull String locale) {
+    /**
+     * Get the localized name of the tropical fish category. The category of
+     * tropical fish are represented as patterns.
+     *
+     * @param pattern Pattern of tropical fish.
+     * @param locale  This locale will be used for translation.
+     * @return Returns the translated name of the tropical fish pattern.
+     */
+    public static @NotNull String getTropicalFishTypeName(@NotNull TropicalFish.Pattern pattern, @NotNull String locale) {
         return LangUtils.tropicalFishTypeStorage.getEntry(locale, pattern);
     }
 
-    @NotNull
-    public static String getTropicalFishTypeName(@NotNull TropicalFish.Pattern pattern, @NotNull Player player) {
+    /**
+     * This method is similar to {@link #getTropicalFishTypeName(TropicalFish.Pattern,
+     * String)}
+     */
+    public static @NotNull String getTropicalFishTypeName(@NotNull TropicalFish.Pattern pattern, @NotNull Player player) {
         return getTropicalFishTypeName(pattern, player.getLocale());
     }
-    //endregion
 
-    //region getPredefinedTropicalFishName
-    @Nullable
-    public static String getPredefinedTropicalFishName(@NotNull TropicalFishBucketMeta meta, @NotNull String locale) {
+    /**
+     * Get the names of 22 predefined tropical fish according to the 'variant'
+     * tag of TropicalFish.
+     *
+     * @param meta   Metadata carrying information about tropical fish.
+     * @param locale This locale will be used for translation.
+     * @return If variant is predefined, return the name of the tropical fish,
+     *         otherwise return null.
+     * @see <a href="https://minecraft.gamepedia.com/Tropical_Fish#Entity_data">
+     *         gamepedia</a>
+     */
+    public static @Nullable String getPredefinedTropicalFishName(@NotNull TropicalFishBucketMeta meta, @NotNull String locale) {
         Integer variant = Util.getTropicalFishVariant(meta);
         if (variant != null) {
             return LangUtils.tropicalFishNameStorage.getEntry(locale, variant);
@@ -418,110 +552,160 @@ public class LanguageHelper {
         return null;
     }
 
-    @Nullable
-    public static String getPredefinedTropicalFishName(@NotNull TropicalFishBucketMeta meta, @NotNull Player player) {
+    /**
+     * This method is similar to {@link #getPredefinedTropicalFishName(TropicalFishBucketMeta,
+     * String)}
+     */
+    public static @Nullable String getPredefinedTropicalFishName(@NotNull TropicalFishBucketMeta meta, @NotNull Player player) {
         return getPredefinedTropicalFishName(meta, player.getLocale());
     }
-    //endregion
 
-    //region getDyeColorName
-    @NotNull
-    public static String getDyeColorName(@NotNull DyeColor color, @NotNull String locale) {
+    /**
+     * Get the localized name of the dye color.
+     *
+     * @param color  The dye color of the name to be translated.
+     * @param locale This locale will be used for translation.
+     * @return The translated dye color name.
+     */
+    public static @NotNull String getDyeColorName(@NotNull DyeColor color, @NotNull String locale) {
         String result = LangUtils.dyeColorStorage.getEntry(locale, color);
         return result != null ? result : color.name().toLowerCase(Locale.ROOT);
     }
 
-    @NotNull
-    public static String getDyeColorName(@NotNull DyeColor color, @NotNull Player player) {
+    /**
+     * This method is similar to {@link #getDyeColorName(DyeColor, String)}
+     */
+    public static @NotNull String getDyeColorName(@NotNull DyeColor color, @NotNull Player player) {
         return getDyeColorName(color, player.getLocale());
     }
-    //endregion
 
-    //region getVillagerLevelName
-
-    /** Minecraft version 1.14 or above can be used. **/
-    @NotNull
-    public static String getVillagerLevelName(int level, @NotNull String locale) {
+    /**
+     * Get the localized name of the villager's professional level. Completing a
+     * trade with a villager increases its professional-level slightly.
+     * <p>
+     * <b>This method is only applicable to Minecraft v1.14 and
+     * above.</b>
+     *
+     * @param level  Professional level of the villager to be translated (1-5).
+     * @param locale This locale will be used for translation.
+     * @return The translated professional-level name of the villager.
+     **/
+    public static @NotNull String getVillagerLevelName(int level, @NotNull String locale) {
         String result = LangUtils.villagerLevelStorage.getEntry(locale, level);
         return result == null ? "merchant.level." + level : result;
     }
 
-    /** Minecraft version 1.14 or above can be used. **/
-    @NotNull
-    public static String getVillagerLevelName(int level, @NotNull Player player) {
+    /**
+     * This method is similar to {@link #getVillagerLevelName(int, String)}
+     */
+    public static @NotNull String getVillagerLevelName(int level, @NotNull Player player) {
         return getVillagerLevelName(level, player.getLocale());
     }
-    //endregion
 
-    //region getVillagerProfessionName
-
-    /** Minecraft version 1.14 or above can be used. **/
-    @NotNull
-    public static String getVillagerProfessionName(@NotNull Profession profession, @NotNull String locale) {
+    /**
+     * Get the localized professional-name of the villager.
+     * <p>
+     * <b>This method is only applicable to Minecraft v1.14 and above.
+     * To get the career name of the villager in Minecraft v1.13, please use
+     * {@link #getVillagerCareerName(Career, String)}</b>
+     *
+     * @param profession The profession of villager.
+     * @param locale     This locale will be used for translation.
+     * @return The translated professional name of the villager.
+     */
+    public static @NotNull String getVillagerProfessionName(@NotNull Profession profession, @NotNull String locale) {
         return LangUtils.professionStorage.getEntry(locale, profession);
     }
 
-    /** Version 1.14 or above can be used. **/
-    @NotNull
-    public static String getVillagerProfessionName(@NotNull Profession profession, @NotNull Player player) {
+    /**
+     * This method is similar to {@link #getVillagerProfessionName(Profession,
+     * String)}
+     */
+    public static @NotNull String getVillagerProfessionName(@NotNull Profession profession, @NotNull Player player) {
         return getVillagerProfessionName(profession, player.getLocale());
     }
-    //endregion
 
-    //region getVillagerCareerName
-
-    /** Only Minecraft version 1.13 can be used. **/
-    @NotNull
-    public static String getVillagerCareerName(@NotNull Career career, @NotNull String locale) {
+    /**
+     * Get the localized career-name of the villager.
+     * <p>
+     * <b>This method is only applicable to Minecraft v1.13.
+     * To get the name of the villager profession in Minecraft v1.14 and above,
+     * please use {@link #getVillagerProfessionName(Profession, String)}</b>
+     *
+     * @param career The Career of villager.
+     * @param locale This locale will be used for translation.
+     * @return The translated Career name of the villager.
+     */
+    public static @NotNull String getVillagerCareerName(@NotNull Career career, @NotNull String locale) {
         return LangUtils.villagerCareerStorage.getEntry(locale, career);
     }
 
-    /** Only Minecraft version 1.13 can be used. **/
-    @NotNull
-    public static String getVillagerCareerName(@NotNull Career career, @NotNull Player player) {
+    /**
+     * This method is similar to {@link #getVillagerCareerName(Career, String)}
+     */
+    public static @NotNull String getVillagerCareerName(@NotNull Career career, @NotNull Player player) {
         return getVillagerCareerName(career, player.getLocale());
     }
-    //endregion
 
-    //region getBannerPatterName
-    @NotNull
-    public static String getBannerPatternName(@NotNull Pattern pattern, @NotNull String locale) {
+    /**
+     * Get the localized name of the banner pattern.
+     *
+     * @param pattern The banner pattern whose name will be translated.
+     * @param locale  This locale will be used for translation.
+     * @return The translated banner pattern name.
+     */
+    public static @NotNull String getBannerPatternName(@NotNull Pattern pattern, @NotNull String locale) {
         String result = LangUtils.bannerPatternStorage.getEntry(locale, Util.getPatternMixedCode(pattern));
-
         if (result == null || result.isEmpty()) {
-            return pattern.getColor().name().toLowerCase(Locale.ROOT) + "_"
+            return pattern.getColor().name().toLowerCase(Locale.ROOT)
+                    + "_"
                     + pattern.getPattern().name().toLowerCase(Locale.ROOT);
         }
-
         return result;
     }
 
-    @NotNull
-    public static String getBannerPatternName(@NotNull Pattern pattern, @NotNull Player player) {
+    /**
+     * This method is similar to {@link #getBannerPatternName(Pattern, String)}
+     */
+    public static @NotNull String getBannerPatternName(@NotNull Pattern pattern, @NotNull Player player) {
         return getBannerPatternName(pattern, player.getLocale());
     }
-    //endregion
 
-    //region getColoredShiedName
-    @Nullable
-    public static String getColoredShiedName(@NotNull ItemStack shield, @NotNull String locale) {
-        Integer colorOrdinal = NMS.getShieldBaseColorOrdinal(shield);
-        if (colorOrdinal == null) {
-            return null;
-        }
-
-        @SuppressWarnings("deprecation")
-        DyeColor color = DyeColor.getByWoolData(colorOrdinal.byteValue());
+    /**
+     * Get the name of the shield with base color. After the shield and the
+     * banner are combined, will get a shield with base color.
+     *
+     * @param shield The shield whose base color name will be translated.
+     * @param locale This locale will be used for translation.
+     * @return The translated name of the base color of the shield.
+     */
+    public static @Nullable String getColoredShiedName(@NotNull ItemStack shield, @NotNull String locale) {
+        DyeColor color = NMS.getShieldBaseColor(shield);
         if (color == null) {
             return null;
         }
-
         return LangUtils.coloredShiedStorage.getEntry(locale, color);
     }
 
-    @Nullable
-    public static String getColoredShiedName(@NotNull ItemStack shield, @NotNull Player player) {
+    /**
+     * This method is similar to {@link #getColoredShiedName(ItemStack,
+     * String)}
+     */
+    public static @Nullable String getColoredShiedName(@NotNull ItemStack shield, @NotNull Player player) {
         return getColoredShiedName(shield, player.getLocale());
     }
-    //endregion
+
+    /**
+     * This is a utility method to easily obtain the pattern of the shield
+     * merged with the patterned banner.
+     *
+     * @param shied The shield ItemStack.
+     * @return If the shield has a banner pattern on it, a list containing the
+     *         banner pattern will be returned. Otherwise, an empty list will be
+     *         returned.
+     */
+    public static @NotNull List<Pattern> getShiedPatterns(@NotNull ItemStack shied) {
+        return NMS.getShiedPatterns(shied);
+    }
+
 }
