@@ -133,7 +133,6 @@ public class LangUtils extends JavaPlugin {
     }
 
     private void checkConfigFile() {
-        // todo: getConfig 会载入默认值
         if (!new File("config.yml").isFile() ||
                 !"tag_r72EhIAL".equals(getConfig().getString("Extra-TAG", null))) {
             saveResource("config.yml", false);
