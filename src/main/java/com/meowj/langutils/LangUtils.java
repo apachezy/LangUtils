@@ -23,10 +23,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.Reader;
+import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
 import java.util.jar.JarEntry;
@@ -79,7 +76,7 @@ public class LangUtils extends JavaPlugin {
     }
 
     private void reload(CommandSender sender) {
-        reloadConfig();
+        this.checkConfigFile();
 
         String fallback = getConfig().getString("FallbackLanguage");
         fallback = fallback == null || fallback.isEmpty() ? EN_US : fixLocale(fallback);
@@ -133,6 +130,15 @@ public class LangUtils extends JavaPlugin {
         if (sender != null) {
             sender.sendMessage("Reload success.");
         }
+    }
+
+    private void checkConfigFile() {
+        // todo: getConfig 会载入默认值
+        if (!new File("config.yml").isFile() ||
+                !"tag_r72EhIAL".equals(getConfig().getString("Extra-TAG", null))) {
+            saveResource("config.yml", false);
+        }
+        reloadConfig();
     }
 
     private void loadResources(JarFile jarFile, String version, Collection<String> codes, boolean loadAll) {
