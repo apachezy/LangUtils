@@ -82,6 +82,12 @@
             <artifactId>spigot-api</artifactId>
             <version>1.13.2-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>*</groupId>
+                    <artifactId>*</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <!--

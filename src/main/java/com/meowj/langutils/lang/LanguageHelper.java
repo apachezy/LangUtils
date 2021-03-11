@@ -197,7 +197,7 @@ public class LanguageHelper {
         String name = LangUtils.entityStorage.getEntry(locale, entity.getType());
         if (name == null) {
             String temp = Named.UNKNOWN_ENTITY.getLocalized(locale);
-            name = String.format(temp, entity.getEntityId() + "(" + entity.getType() + ")");
+            name = String.format(temp, entity.getEntityId() + "(" + entity.getName() + ")");
         }
         return name;
     }
