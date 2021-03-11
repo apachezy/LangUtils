@@ -11,7 +11,7 @@ public class LangInfo {
     @NotNull public final String name;
     @NotNull public final String region;
 
-    public LangInfo(@NotNull String code, @NotNull String name, @NotNull String region) {
+    private LangInfo(@NotNull String code, @NotNull String name, @NotNull String region) {
         this.code   = LangUtils.fixLocale(code);
         this.name   = name;
         this.region = region;
@@ -51,7 +51,7 @@ public class LangInfo {
 
     @Override
     public String toString() {
-        return name + " (" + region + ") - " + code;
+        return code + " - " + name + " (" + region + ")";
     }
 
 }

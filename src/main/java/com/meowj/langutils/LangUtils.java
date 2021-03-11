@@ -118,8 +118,16 @@ public class LangUtils extends JavaPlugin {
         // @formatter:on
 
         try (JarFile jar = new JarFile(getFile())) {
-            loadResources(jar, "common", codes, loadAll);
-            loadResources(jar, NMS.getVersion(), codes, loadAll);
+            Set<String> loaded = loadResources(jar, "common", codes, loadAll);
+            loaded.addAll(loadResources(jar, NMS.getVersion(), codes, loadAll));
+
+            if (loadAll) {
+                getLogger().log(Level.INFO, "{0} languages loaded.", loaded.size());
+            } else {
+                for (String s : loaded) {
+                    getLogger().log(Level.INFO, "{0} has been loaded.", s);
+                }
+            }
         } catch (IOException e) {
             getLogger().severe("An exception occurred while loading language resources:");
             getLogger().severe(e.getLocalizedMessage());
@@ -133,15 +141,16 @@ public class LangUtils extends JavaPlugin {
     }
 
     private void checkConfigFile() {
-        if (!new File("config.yml").isFile() ||
-                !"tag_r72EhIAL".equals(getConfig().getString("Extra-TAG", null))) {
-            saveResource("config.yml", false);
-        }
         reloadConfig();
+        if (!new File(getDataFolder(), "config.yml").isFile() ||
+                !"tag_r72EhIAL".equals(getConfig().getString("Extra-TAG", null))) {
+            saveResource("config.yml", true);
+            reloadConfig();
+        }
     }
 
-    private void loadResources(JarFile jarFile, String version, Collection<String> codes, boolean loadAll) {
-        int count = 0;
+    private Set<String> loadResources(JarFile jarFile, String version, Collection<String> codes, boolean loadAll) {
+        Set<String> result = new LinkedHashSet<>();
         Enumeration<JarEntry> entries = jarFile.entries();
         Remaper remaper = Remaper.init(this, "remap.yml");
 
@@ -183,20 +192,15 @@ public class LangUtils extends JavaPlugin {
 
                     loadVersion13Resources(langInfo.code, cfg, remaper);
 
-                    count++;
-                    if (!loadAll) {
-                        getLogger().log(Level.INFO, "{0} has been loaded.", langInfo);
-                    }
+                    result.add(langInfo.toString());
                 }
             } catch (IOException e) {
                 getLogger().severe("Fail to load language resource " + localePath);
-                e.printStackTrace();
+                getLogger().severe("Message:" + e.getMessage());
             }
         }
 
-        if (loadAll) {
-            getLogger().log(Level.INFO, "{0} languages loaded.", count);
-        }
+        return result;
     }
 
     private void loadVersion13Resources(String code, Configuration cfg, Remaper remaper) {
