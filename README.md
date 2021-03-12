@@ -21,6 +21,9 @@ project: [MascusJeoraly:LanguageUtils][Original]
 * Translate the name of the Dye Color.
 * Translate Villagers’ Level and Profession names.
 * Translate the name of the Banner Pattern and the name of the colored Shield.
+
+### Supported Minecraft version
+* 1.13  1.14  1.15  1.16
 ___
 ### Install
 
