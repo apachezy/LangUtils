@@ -154,6 +154,7 @@ ___
   ```java
   package com.exampleplugin;
   
+  import com.exampleplugin.hooks;
   import org.bukkit.plugin.java.JavaPlugin;
   
   public class MyPlugin extends JavaPlugin {
