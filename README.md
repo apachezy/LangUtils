@@ -1,5 +1,7 @@
 Language Utils
 ==============
+[![English](https://img.shields.io/badge/Lang-English-blue)](README.md) [![Chinese](https://img.shields.io/badge/语言-简体中文-green)](README_CN.md)
+
 A Bukkit/Spigot API to get the localized names of vanilla items, entitys, enchantments, biomes, potions, etc.
 
 This project comes from [MascusJeoraly:LanguageUtils][Original].
@@ -12,19 +14,22 @@ project: [MascusJeoraly:LanguageUtils][Original]
 
 ### Features：
 
-* Translate the name of the Item or Material.
-* Translate the name of Biome.
-* Translate the name of Entity.
-* Translate the name of Enchantments.
-* Translate the names of Potions, Potion Effects, and Tipped Arrows.
-* Translate Tropical Fish Type(Pattern) names and Predefined Tropical Fish names.
-* Translate the name of the Dye Color.
-* Translate Villagers’ Level and Profession names.
-* Translate the name of the Banner Pattern and the name of the colored Shield.
+* Get localized name of Items and Materials.
+* Get localized name of Biomes.
+* Get localized name of Entitys.
+* Get localized name of Enchantments.
+* Get localized name of Potions, Potion Effects, and Tipped Arrows.
+* Get Tropical Fish Type(Pattern) names and Predefined Tropical Fish names.
+* Get localized name of Dye Colors.
+* Get localized name of Villagers’ Level and Professions.
+* Get localized name of Banner Patterns and Colored Shields.
 
 ### Supported Minecraft version
-* 1.13  1.14  1.15  1.16
+
+* 1.13,  1.14,  1.15,  1.16
+
 ___
+
 ### Install
 
 Please go to [Releases](https://github.com/apachezy/LangUtils/releases) to download the latest version, put it in your
@@ -46,11 +51,11 @@ FallbackLanguage: en_us
 # LoadLanguage: [ja_jp, ko_kr, ru_ru, zh_cn, zh_tw]
 # Or
 LoadLanguage:
-  - ja_jp
-  - ko_kr
-  - ru_ru
-  - zh_cn
-  - zh_tw
+    - ja_jp
+    - ko_kr
+    - ru_ru
+    - zh_cn
+    - zh_tw
 # If you want to load all the languages, add "all" to the list:
 # - all
 ```
