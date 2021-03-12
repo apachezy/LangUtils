@@ -6,7 +6,7 @@ LangUtils
 
 该项目来自[MascusJeoraly:LanguageUtils][Original].
 
-它现在已经被完全重写，提高了性能、可以获取更多的原始对象名称、可以与以前的 LangUtils 兼容，并且一个副本可以同时支持所有高于 1.13 的Minecraft版本。
+它现在已经被完全重写，提高了性能、可以获取更多的原版对象名称、可以与以前的 LangUtils 兼容，并且一个副本可以同时支持所有高于 1.13 的Minecraft版本。
 
 **提示：** 如果要在 1.12.2 及更低版本的服务器上使用，请访问原项目： [MascusJeoraly:LanguageUtils][Original]
 
@@ -70,7 +70,7 @@ ___
   }
   
   dependencies {
-      // Please check the latest version
+      // 请检查最新版本
       provided group: 'com.github.apachezy', name: 'LangUtils', version: '3.1.3'
   }
   ```
@@ -89,7 +89,7 @@ ___
       <dependency>
           <groupId>com.github.apachezy</groupId>
           <artifactId>LangUtils</artifactId>
-          <!--Please check the latest version -->  
+          <!-- 请检查最新版本 -->  
           <version>3.1.3</version>
           <scope>provided</scope>
       </dependency>
@@ -124,7 +124,7 @@ ___
   
       public static void init() {
           Plugin plugin = Bukkit.getPluginManager().getPlugin("LangUtils");
-          hooked = plugin != null && plugin.isEnabled;
+          hooked = plugin != null && plugin.isEnabled();
       }
   
       public static String getItemName(ItemStack itemStack, String locale) {
