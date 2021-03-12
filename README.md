@@ -10,6 +10,18 @@ compatible with the previous LangUtils, and a copy can support all Minecraft ver
 **Tip:** If you want to use it on a server of 1.12.2 and below, please go to the original
 project: [MascusJeoraly:LanguageUtils][Original]
 
+### Features：
+
+* Translate the name of the Item or Material.
+* Translate the name of Biome.
+* Translate the name of Entity.
+* Translate the name of Enchantments.
+* Translate the names of Potions, Potion Effects, and Tipped Arrows.
+* Translate Tropical Fish Type(Pattern) names and Predefined Tropical Fish names.
+* Translate the name of the Dye Color.
+* Translate Villagers’ Level and Profession names.
+* Translate the name of the Banner Pattern and the name of the colored Shield.
+___
 ### Install
 
 Please go to [Releases](https://github.com/apachezy/LangUtils/releases) to download the latest version, put it in your
