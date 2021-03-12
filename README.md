@@ -68,8 +68,8 @@ ___
   }
   
   dependencies {
-      // LangUtils
-      provided group: 'com.github.apachezy', name: 'LangUtils', version: '3.1.3' // Please check the latest version
+      // Please check the latest version
+      provided group: 'com.github.apachezy', name: 'LangUtils', version: '3.1.3'
   }
   ```
 * Build with Maven</br>
