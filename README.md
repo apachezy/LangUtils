@@ -130,7 +130,7 @@ ___
   
       public static void init() {
           Plugin plugin = Bukkit.getPluginManager().getPlugin("LangUtils");
-          hooked = plugin != null && plugin.isEnabled;
+          hooked = plugin != null && plugin.isEnabled();
       }
   
       public static String getItemName(ItemStack itemStack, String locale) {
