@@ -50,7 +50,7 @@ LoadLanguage:
   - ru_ru
   - zh_cn
   - zh_tw
-# If you want to load all the languages, add "all" to the list:
+# 如果要想加载所有语言，可以添加 - all 到列表里
 # - all
 ```
 
