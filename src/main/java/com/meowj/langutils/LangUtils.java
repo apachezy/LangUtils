@@ -296,7 +296,7 @@ public class LangUtils extends JavaPlugin {
                 if (TEST.equalsIgnoreCase(args[0]) && args[2].length() > 0) {
                     return Arrays.stream(Material.values())
                             .map(material -> material.name().toLowerCase(Locale.ROOT))
-                            .filter(s -> s.startsWith(args[2]))
+                            .filter(mName -> mName.startsWith(args[2]))
                             .collect(Collectors.toList());
                 }
                 break;

@@ -31,8 +31,7 @@ public class Remaper {
                 }
             }
         } catch (IOException e) {
-            plugin.getLogger().log(Level.SEVERE, "Error loading remapper. \"{}\"", e.getMessage());
-            return null;
+            plugin.getLogger().log(Level.SEVERE, "Error loading remapper. \"{0}\"", e.getMessage());
         }
         return null;
     }
