@@ -42,8 +42,7 @@ public class Remaper {
 
             YamlConfiguration yaml = YamlConfiguration.loadConfiguration(reader);
             Map<String, String> rt = yaml.getValues(false)
-                    .entrySet()
-                    .stream()
+                    .entrySet().stream()
                     .collect(Collectors.toMap(Map.Entry::getKey, t -> t.getValue().toString()));
 
             return rt.isEmpty() ? null : rt;
