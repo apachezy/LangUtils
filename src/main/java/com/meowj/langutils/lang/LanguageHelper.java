@@ -691,7 +691,7 @@ public class LanguageHelper {
      */
     public static @Nullable String getMusicDiskDesc(@NotNull Material material, @NotNull String locale) {
         // todo: 资源文件中尚未加入
-        return LangUtils.musicDiskStorage.getEntry(locale, material.name().toLowerCase(Locale.ROOT));
+        return LangUtils.musicDiskStorage.getEntry(locale, material);
     }
 
     /**

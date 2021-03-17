@@ -2,6 +2,7 @@ package com.meowj.langutils.storages;
 
 import com.meowj.langutils.misc.Remaper;
 import org.bukkit.Bukkit;
+import org.bukkit.Material;
 import org.bukkit.configuration.Configuration;
 import org.bukkit.configuration.ConfigurationSection;
 import org.jetbrains.annotations.NotNull;
@@ -9,9 +10,9 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.logging.Level;
 
-public class StringStorage extends Storage<String> {
+public class MusicDiskStorage extends Storage<Material> {
 
-    public StringStorage(@NotNull String fallbackLocale) {
+    public MusicDiskStorage(@NotNull String fallbackLocale) {
         super(fallbackLocale);
     }
 
@@ -21,9 +22,14 @@ public class StringStorage extends Storage<String> {
                                      @NotNull String config, @Nullable Remaper remaper) {
 
         ConfigurationSection entries = super.load(locale, langConfig, config, remaper);
+        if (entries == null) {
+            return null;
+        }
 
-        if (entries != null) {
-            for (String key : entries.getKeys(false)) {
+        for (String key : entries.getKeys(false)) {
+
+            Material material = Material.matchMaterial(key);
+            if (material != null) {
 
                 String localized = entries.getString(key);
                 if (localized == null || localized.isEmpty()) {
@@ -38,7 +44,7 @@ public class StringStorage extends Storage<String> {
                     continue;
                 }
 
-                addEntry(locale, key, localized, remaper);
+                addEntry(locale, material, localized, remaper);
             }
         }
 

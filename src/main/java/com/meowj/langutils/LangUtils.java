@@ -56,7 +56,7 @@ public class LangUtils extends JavaPlugin {
     public static final DyeColorStorage         coloredShiedStorage     = new DyeColorStorage        (EN_US);
     public static final BannerPatternStorage    bannerPatternStorage    = new BannerPatternStorage   (EN_US);
     public static final VillagerCareerStorage   villagerCareerStorage   = new VillagerCareerStorage  (EN_US);
-    public static final StringStorage           musicDiskStorage        = new StringStorage          (EN_US);
+    public static final MusicDiskStorage        musicDiskStorage        = new MusicDiskStorage       (EN_US);
     // @formatter:on
 
     @NotNull
