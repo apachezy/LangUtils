@@ -56,7 +56,8 @@ public class LangUtils extends JavaPlugin {
     public static final DyeColorStorage         coloredShiedStorage     = new DyeColorStorage        (EN_US);
     public static final BannerPatternStorage    bannerPatternStorage    = new BannerPatternStorage   (EN_US);
     public static final VillagerCareerStorage   villagerCareerStorage   = new VillagerCareerStorage  (EN_US);
-    public static final MusicDiskStorage        musicDiskStorage        = new MusicDiskStorage       (EN_US);
+    public static final PartMaterialStorage     musicDiskStorage        = new PartMaterialStorage    (EN_US);
+    public static final PartMaterialStorage     newBannerPatternStorage = new PartMaterialStorage    (EN_US);
     // @formatter:on
 
     @NotNull
@@ -117,6 +118,7 @@ public class LangUtils extends JavaPlugin {
         bannerPatternStorage   .setFallbackLocale(fallback);
         villagerCareerStorage  .setFallbackLocale(fallback);
         musicDiskStorage       .setFallbackLocale(fallback);
+        newBannerPatternStorage.setFallbackLocale(fallback);
         // @formatter:on
 
         try (JarFile jar = new JarFile(getFile())) {
@@ -191,6 +193,7 @@ public class LangUtils extends JavaPlugin {
                     coloredShiedStorage    .load(langInfo.code, cfg, "colored_shied"     , remaper);
                     bannerPatternStorage   .load(langInfo.code, cfg, "banner_pattern"    , remaper);
                     musicDiskStorage       .load(langInfo.code, cfg, "music_disk"        , remaper);
+                    newBannerPatternStorage.load(langInfo.code, cfg, "banner_pattern_"   , remaper);fefe
                     // @formatter:on
 
                     loadVersion13Resources(langInfo.code, cfg, remaper);

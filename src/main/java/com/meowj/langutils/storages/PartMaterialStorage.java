@@ -10,9 +10,9 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.logging.Level;
 
-public class MusicDiskStorage extends Storage<Material> {
+public class PartMaterialStorage extends Storage<Material> {
 
-    public MusicDiskStorage(@NotNull String fallbackLocale) {
+    public PartMaterialStorage(@NotNull String fallbackLocale) {
         super(fallbackLocale);
     }
 
