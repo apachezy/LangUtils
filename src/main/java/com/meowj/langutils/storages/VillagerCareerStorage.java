@@ -21,7 +21,8 @@ public class VillagerCareerStorage extends Storage<Career> {
     }
 
     @Override
-    public @Nullable ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig,
+    @Nullable
+    public ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig,
                                                   @NotNull String config, @Nullable Remaper remaper) {
 
         ConfigurationSection entries = super.load(locale, langConfig, config, remaper);

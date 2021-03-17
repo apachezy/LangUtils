@@ -21,6 +21,7 @@ public class DyeColorStorage extends Storage<DyeColor> {
     }
 
     @Override
+    @Nullable
     public ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig,
                                      @NotNull String config, @Nullable Remaper remaper) {
 

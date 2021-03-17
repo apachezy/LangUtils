@@ -75,7 +75,7 @@ public class Util {
     }
 
     @NotNull
-    public static Integer getPatternMixedCode(@NotNull org.bukkit.block.banner.Pattern pattern) {
+    public static Integer getPatternMixedCode(@NotNull Pattern pattern) {
         int p = pattern.getPattern().ordinal();
         int c = pattern.getColor().ordinal();
         return p << 16 | c;

@@ -56,6 +56,7 @@ public class LangUtils extends JavaPlugin {
     public static final DyeColorStorage         coloredShiedStorage     = new DyeColorStorage        (EN_US);
     public static final BannerPatternStorage    bannerPatternStorage    = new BannerPatternStorage   (EN_US);
     public static final VillagerCareerStorage   villagerCareerStorage   = new VillagerCareerStorage  (EN_US);
+    public static final StringStorage           musicDiskStorage        = new StringStorage          (EN_US);
     // @formatter:on
 
     @NotNull
@@ -115,6 +116,7 @@ public class LangUtils extends JavaPlugin {
         coloredShiedStorage    .setFallbackLocale(fallback);
         bannerPatternStorage   .setFallbackLocale(fallback);
         villagerCareerStorage  .setFallbackLocale(fallback);
+        musicDiskStorage       .setFallbackLocale(fallback);
         // @formatter:on
 
         try (JarFile jar = new JarFile(getFile())) {
@@ -188,6 +190,7 @@ public class LangUtils extends JavaPlugin {
                     dyeColorStorage        .load(langInfo.code, cfg, "dye_color"         , remaper);
                     coloredShiedStorage    .load(langInfo.code, cfg, "colored_shied"     , remaper);
                     bannerPatternStorage   .load(langInfo.code, cfg, "banner_pattern"    , remaper);
+                    musicDiskStorage       .load(langInfo.code, cfg, "music_disk"        , remaper);
                     // @formatter:on
 
                     loadVersion13Resources(langInfo.code, cfg, remaper);
@@ -232,6 +235,7 @@ public class LangUtils extends JavaPlugin {
         coloredShiedStorage    .clear();
         bannerPatternStorage   .clear();
         villagerCareerStorage  .clear();
+        musicDiskStorage       .clear();
         // @formatter:on
     }
 
@@ -243,6 +247,7 @@ public class LangUtils extends JavaPlugin {
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command,
                              @NotNull String label, @NotNull String[] args) {
+
         if (args.length > 0) {
             if (RELOAD.equalsIgnoreCase(args[0])) {
                 this.reload(sender);
@@ -274,6 +279,7 @@ public class LangUtils extends JavaPlugin {
     @Override
     public List<String> onTabComplete(@NotNull CommandSender sender, @NotNull Command command,
                                       @NotNull String alias, @NotNull String[] args) {
+
         List<String> result = new ArrayList<>(1);
 
         if (!this.isEnabled()) {
@@ -283,21 +289,22 @@ public class LangUtils extends JavaPlugin {
         switch (args.length) {
             case 1:
                 if (RELOAD.startsWith(args[0])) result.add(RELOAD);
-                if (TEST.startsWith(args[0])) result.add(TEST);
+                if (TEST  .startsWith(args[0])) result.add(TEST  );
                 break;
 
             case 2:
                 if (TEST.equalsIgnoreCase(args[0]) && args[1].length() > 0) {
-                    return materialStorage.getLocales(s -> s.startsWith(args[1]));
+                    return materialStorage.getLocales(s -> s.contains(args[1]));
                 }
                 break;
 
             case 3:
                 if (TEST.equalsIgnoreCase(args[0]) && args[2].length() > 0) {
-                    return Arrays.stream(Material.values())
-                            .map(material -> material.name().toLowerCase(Locale.ROOT))
-                            .filter(mName -> mName.startsWith(args[2]))
-                            .collect(Collectors.toList());
+                    return Arrays
+                        .stream  (Material.values())
+                        .map     (m -> m.name().toLowerCase(Locale.ROOT))
+                        .filter  (n -> n.contains(args[2].toLowerCase(Locale.ROOT)))
+                        .collect (Collectors.toList());
                 }
                 break;
 

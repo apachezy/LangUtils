@@ -47,7 +47,7 @@ import java.util.Map.Entry;
 public class LanguageHelper {
 
     private static final String[] ROMAN_NUM = new String[]{
-            "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"
+        "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"
     };
 
     private LanguageHelper() {
@@ -71,10 +71,9 @@ public class LanguageHelper {
     }
 
     /**
-     * This method is similar to {@link #getItemDisplayName(ItemStack,
-     * String)}.
+     * This method is similar to {@link #getItemDisplayName(ItemStack, String)}.
      */
-    public static @NotNull String getItemDisplayName(@NotNull ItemStack item, Player player) {
+    public static @NotNull String getItemDisplayName(@NotNull ItemStack item, @NotNull Player player) {
         return getItemDisplayName(item, player.getLocale());
     }
 
@@ -280,8 +279,7 @@ public class LanguageHelper {
     }
 
     /**
-     * This method is similar to {@link #getEnchantmentName(Enchantment,
-     * String)}.
+     * This method is similar to {@link #getEnchantmentName(Enchantment, String)}.
      */
     public static @NotNull String getEnchantmentName(@NotNull Enchantment enchant, @NotNull Player player) {
         return getEnchantmentName(enchant, player.getLocale());
@@ -304,8 +302,7 @@ public class LanguageHelper {
     }
 
     /**
-     * This method is similar to {@link #getEnchantmentDisplayName(Enchantment,
-     * int, String)}.
+     * This method is similar to {@link #getEnchantmentDisplayName(Enchantment, int, String)}.
      */
     public static @NotNull String getEnchantmentDisplayName(@NotNull Enchantment enchant, int level, @NotNull Player player) {
         return getEnchantmentDisplayName(enchant, level, player.getLocale());
@@ -320,8 +317,7 @@ public class LanguageHelper {
     }
 
     /**
-     * This method is similar to {@link #getEnchantmentDisplayName(Entry,
-     * String)}.
+     * This method is similar to {@link #getEnchantmentDisplayName(Entry, String)}.
      */
     public static @NotNull String getEnchantmentDisplayName(@NotNull Entry<Enchantment, Integer> entry, @NotNull Player player) {
         return getEnchantmentDisplayName(entry.getKey(), entry.getValue(), player);
@@ -357,8 +353,7 @@ public class LanguageHelper {
     }
 
     /**
-     * This method is similar to {@link #getSplashPotionName(PotionType,
-     * String)}.
+     * This method is similar to {@link #getSplashPotionName(PotionType, String)}.
      */
     public static @NotNull String getSplashPotionName(@NotNull PotionType potionType, @NotNull Player player) {
         return getSplashPotionName(potionType, player.getLocale());
@@ -376,8 +371,7 @@ public class LanguageHelper {
     }
 
     /**
-     * This method is similar to {@link #getLingeringPotionName(PotionType,
-     * String)}.
+     * This method is similar to {@link #getLingeringPotionName(PotionType, String)}.
      */
     public static @NotNull String getLingeringPotionName(@NotNull PotionType potionType, @NotNull Player player) {
         return getLingeringPotionName(potionType, player.getLocale());
@@ -395,8 +389,7 @@ public class LanguageHelper {
     }
 
     /**
-     * This method is similar to {@link #getTippedArrowName(PotionType,
-     * String)}.
+     * This method is similar to {@link #getTippedArrowName(PotionType, String)}.
      */
     public static @NotNull String getTippedArrowName(@NotNull PotionType potionType, @NotNull Player player) {
         return getTippedArrowName(potionType, player.getLocale());
@@ -420,8 +413,7 @@ public class LanguageHelper {
     }
 
     /**
-     * This method is similar to {@link #getPotionBaseEffectName(PotionType,
-     * String)}
+     * This method is similar to {@link #getPotionBaseEffectName(PotionType, String)}
      */
     public static @NotNull String getPotionBaseEffectName(@NotNull PotionType potionType, @NotNull Player player) {
         return getPotionBaseEffectName(potionType, player.getLocale());
@@ -444,8 +436,7 @@ public class LanguageHelper {
     }
 
     /**
-     * This method is similar to {@link #getPotionEffectName(PotionEffectType,
-     * String)}
+     * This method is similar to {@link #getPotionEffectName(PotionEffectType, String)}
      */
     public static @NotNull String getPotionEffectName(@NotNull PotionEffectType effectType, @NotNull Player player) {
         return getPotionEffectName(effectType, player.getLocale());
@@ -506,8 +497,7 @@ public class LanguageHelper {
     }
 
     /**
-     * This method is similar to {@link #getPotionEffectDisplay(PotionEffect,
-     * String)}
+     * This method is similar to {@link #getPotionEffectDisplay(PotionEffect, String)}
      */
     public static @NotNull String getPotionEffectDisplay(@NotNull PotionEffect effect, @NotNull Player player) {
         return getPotionEffectDisplay(effect, player.getLocale());
@@ -526,8 +516,7 @@ public class LanguageHelper {
     }
 
     /**
-     * This method is similar to {@link #getTropicalFishTypeName(TropicalFish.Pattern,
-     * String)}
+     * This method is similar to {@link #getTropicalFishTypeName(TropicalFish.Pattern, String)}
      */
     public static @NotNull String getTropicalFishTypeName(@NotNull TropicalFish.Pattern pattern, @NotNull Player player) {
         return getTropicalFishTypeName(pattern, player.getLocale());
@@ -553,8 +542,7 @@ public class LanguageHelper {
     }
 
     /**
-     * This method is similar to {@link #getPredefinedTropicalFishName(TropicalFishBucketMeta,
-     * String)}
+     * This method is similar to {@link #getPredefinedTropicalFishName(TropicalFishBucketMeta, String)}
      */
     public static @Nullable String getPredefinedTropicalFishName(@NotNull TropicalFishBucketMeta meta, @NotNull Player player) {
         return getPredefinedTropicalFishName(meta, player.getLocale());
@@ -618,8 +606,7 @@ public class LanguageHelper {
     }
 
     /**
-     * This method is similar to {@link #getVillagerProfessionName(Profession,
-     * String)}
+     * This method is similar to {@link #getVillagerProfessionName(Profession, String)}
      */
     public static @NotNull String getVillagerProfessionName(@NotNull Profession profession, @NotNull Player player) {
         return getVillagerProfessionName(profession, player.getLocale());
@@ -658,8 +645,8 @@ public class LanguageHelper {
         String result = LangUtils.bannerPatternStorage.getEntry(locale, Util.getPatternMixedCode(pattern));
         if (result == null || result.isEmpty()) {
             return pattern.getColor().name().toLowerCase(Locale.ROOT)
-                    + "_"
-                    + pattern.getPattern().name().toLowerCase(Locale.ROOT);
+                + "_"
+                + pattern.getPattern().name().toLowerCase(Locale.ROOT);
         }
         return result;
     }
@@ -688,11 +675,30 @@ public class LanguageHelper {
     }
 
     /**
-     * This method is similar to {@link #getColoredShiedName(ItemStack,
-     * String)}
+     * This method is similar to {@link #getColoredShiedName(ItemStack, String)}
      */
     public static @Nullable String getColoredShiedName(@NotNull ItemStack shield, @NotNull Player player) {
         return getColoredShiedName(shield, player.getLocale());
+    }
+
+    /**
+     * Get the description of the music disk.
+     *
+     * @param material Material for music records.
+     * @param locale   This locale will be used for translation.
+     * @return If the given material is a music disk, the description of the
+     *         music disk is returned. Otherwise, return NULL.
+     */
+    public static @Nullable String getMusicDiskDesc(@NotNull Material material, @NotNull String locale) {
+        // todo: 资源文件中尚未加入
+        return LangUtils.musicDiskStorage.getEntry(locale, material.name().toLowerCase(Locale.ROOT));
+    }
+
+    /**
+     * This method is similar to {@link #getMusicDiskDesc(Material, String)}
+     */
+    public static @Nullable String getMusicDiskDesc(@NotNull Material material, @NotNull Player player) {
+        return getMusicDiskDesc(material, player.getLocale());
     }
 
     /**

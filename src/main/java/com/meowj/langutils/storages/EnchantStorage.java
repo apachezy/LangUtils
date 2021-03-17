@@ -17,6 +17,7 @@ public class EnchantStorage extends Storage<Enchantment> {
     }
 
     @Override
+    @Nullable
     public ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig,
                                      @NotNull String config, @Nullable Remaper remaper) {
 

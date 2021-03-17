@@ -21,6 +21,7 @@ public class PotionStorage extends Storage<PotionType> {
     }
 
     @Override
+    @Nullable
     public ConfigurationSection load(@NotNull String locale, @NotNull Configuration langConfig,
                                      @NotNull String config, @Nullable Remaper remaper) {
 
