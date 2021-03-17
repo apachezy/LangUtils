@@ -14,11 +14,14 @@ import com.meowj.langutils.misc.Remaper;
 import com.meowj.langutils.misc.Util;
 import com.meowj.langutils.nms.NMS;
 import com.meowj.langutils.storages.*;
+import org.bstats.bukkit.Metrics;
+import org.bstats.charts.AdvancedPie;
 import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.configuration.Configuration;
 import org.bukkit.configuration.file.YamlConfiguration;
+import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -68,6 +71,8 @@ public class LangUtils extends JavaPlugin {
     @Override
     public void onEnable() {
         super.onEnable();
+
+        initMetrics();
 
         if (!NMS.init()) {
             getLogger().severe("LangUtils cannot run on this server!");
@@ -241,6 +246,17 @@ public class LangUtils extends JavaPlugin {
         musicDiskStorage       .clear();
         newBannerPatternStorage.clear();
         // @formatter:on
+    }
+
+    private void initMetrics() {
+        new Metrics(this, 10696).addCustomChart(
+            new AdvancedPie(
+                "used",
+                () -> Arrays.stream(getServer().getPluginManager().getPlugins())
+                    .filter(
+                        p -> p.getDescription().getDepend().contains("LangUtils") ||
+                             p.getDescription().getSoftDepend().contains("LangUtils"))
+                    .collect(Collectors.toMap(Plugin::getName, p -> 1))));
     }
 
     @Override
