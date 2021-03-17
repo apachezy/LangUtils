@@ -193,7 +193,7 @@ public class LangUtils extends JavaPlugin {
                     coloredShiedStorage    .load(langInfo.code, cfg, "colored_shied"     , remaper);
                     bannerPatternStorage   .load(langInfo.code, cfg, "banner_pattern"    , remaper);
                     musicDiskStorage       .load(langInfo.code, cfg, "music_disk"        , remaper);
-                    newBannerPatternStorage.load(langInfo.code, cfg, "banner_pattern_"   , remaper);fefe
+                    newBannerPatternStorage.load(langInfo.code, cfg, "new_banner_pattern", remaper);
                     // @formatter:on
 
                     loadVersion13Resources(langInfo.code, cfg, remaper);
@@ -239,6 +239,7 @@ public class LangUtils extends JavaPlugin {
         bannerPatternStorage   .clear();
         villagerCareerStorage  .clear();
         musicDiskStorage       .clear();
+        newBannerPatternStorage.clear();
         // @formatter:on
     }
 

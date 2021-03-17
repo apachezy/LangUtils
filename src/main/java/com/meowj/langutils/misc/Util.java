@@ -22,7 +22,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
-import java.util.Map;
+import java.util.Map.Entry;
 
 public class Util {
 
@@ -93,6 +93,8 @@ public class Util {
 
             sendItemName      (item, player, locale);
             sendShiedPatterns (item, player, locale);
+            sendMusicDiskDesc (item, player, locale);
+            sendPatternDesc   (item, player, locale);
 
             ItemMeta meta = item.getItemMeta();
             if (meta == null) {
@@ -123,83 +125,97 @@ public class Util {
         }
     }
 
-    private static void sendItemName(ItemStack item, Player player, String locale) {
-        player.sendMessage(LanguageHelper.getItemName(item, locale));
+    private static void sendItemName(ItemStack i, Player p, String l) {
+        p.sendMessage(LanguageHelper.getItemName(i, l));
     }
 
-    private static void sendShiedPatterns(ItemStack item, Player player, String locale) {
-        if (item.getType() != Material.SHIELD) {
+    private static void sendShiedPatterns(ItemStack i, Player p, String l) {
+        if (i.getType() != Material.SHIELD) {
             return;
         }
 
-        List<Pattern> patterns = NMS.getShiedPatterns(item);
-        for (Pattern pattern : patterns) {
-            player.sendMessage(
-                    ChatColor.GRAY
-                            + "  "
-                            + LanguageHelper.getBannerPatternName(pattern, locale));
+        List<Pattern> patterns = NMS.getShiedPatterns(i);
+        for (Pattern pt : patterns) {
+            p.sendMessage(
+                ChatColor.GRAY
+                    + "  "
+                    + LanguageHelper.getBannerPatternName(pt, l));
         }
     }
 
-    private static void sendBannerPatterns(ItemMeta meta, Player player, String locale) {
-        if (meta instanceof BannerMeta) {
-            BannerMeta bannerMeta = (BannerMeta) meta;
+    private static void sendMusicDiskDesc(ItemStack i, Player p, String l) {
+        String s = LanguageHelper.getMusicDiskDesc(i.getType(), l);
+        if (s != null) {
+            p.sendMessage(ChatColor.GRAY + "  " + s);
+        }
+    }
 
-            for (org.bukkit.block.banner.Pattern pattern : bannerMeta.getPatterns()) {
-                player.sendMessage(
-                        ChatColor.GRAY + "  "
-                                + LanguageHelper.getBannerPatternName(pattern, locale)
-                                + " ("
-                                + pattern.getPattern().name()
-                                + " - " + pattern.getColor().name()
-                                + ")");
+    private static void sendPatternDesc(ItemStack i, Player p, String l) {
+        String s = LanguageHelper.getNewBannerPatternDesc(i.getType(), l);
+        if (s != null) {
+            p.sendMessage(ChatColor.GRAY + "  " + s);
+        }
+    }
+
+    private static void sendBannerPatterns(ItemMeta m, Player p, String l) {
+        if (m instanceof BannerMeta) {
+            BannerMeta bm = (BannerMeta) m;
+
+            for (Pattern pt : bm.getPatterns()) {
+                p.sendMessage(
+                    ChatColor.GRAY + "  "
+                        + LanguageHelper.getBannerPatternName(pt, l)
+                        + " ("
+                        + pt.getPattern().name()
+                        + " - " + pt.getColor().name()
+                        + ")");
             }
         }
     }
 
-    private static void sendFishBucket(ItemMeta meta, Player player, String locale) {
-        if (meta instanceof TropicalFishBucketMeta) {
-            TropicalFishBucketMeta fishBucketMeta = (TropicalFishBucketMeta) meta;
+    private static void sendFishBucket(ItemMeta m, Player p, String l) {
+        if (m instanceof TropicalFishBucketMeta) {
+            TropicalFishBucketMeta tm = (TropicalFishBucketMeta) m;
 
-            String message = LanguageHelper.getPredefinedTropicalFishName(fishBucketMeta, locale);
-            if (message == null) {
-                message = LanguageHelper.getDyeColorName(fishBucketMeta.getBodyColor(), locale)
-                        + "-"
-                        + LanguageHelper.getDyeColorName(fishBucketMeta.getPatternColor(), locale)
-                        + " "
-                        + LanguageHelper.getTropicalFishTypeName(fishBucketMeta.getPattern(), locale);
+            String msg = LanguageHelper.getPredefinedTropicalFishName(tm, l);
+            if (msg == null) {
+                msg = LanguageHelper.getDyeColorName(tm.getBodyColor(), l)
+                    + "-"
+                    + LanguageHelper.getDyeColorName(tm.getPatternColor(), l)
+                    + " "
+                    + LanguageHelper.getTropicalFishTypeName(tm.getPattern(), l);
             }
 
-            player.sendMessage(ChatColor.GRAY + "  " + ChatColor.ITALIC + message);
+            p.sendMessage(ChatColor.GRAY + "  " + ChatColor.ITALIC + msg);
         }
     }
 
-    private static void sendPotionEffect(ItemMeta meta, Player player, String locale) {
-        if (meta instanceof PotionMeta) {
-
-            PotionMeta potionMeta = (PotionMeta) meta;
-            PotionData potionData = potionMeta.getBasePotionData();
+    private static void sendPotionEffect(ItemMeta m, Player p, String l) {
+        if (m instanceof PotionMeta) {
+            PotionMeta pm = (PotionMeta) m;
+            PotionData pd = pm.getBasePotionData();
 
             String message = ChatColor.GRAY + "  ";
-            message += LanguageHelper.getPotionBaseEffectName(potionData.getType(), locale);
-            if (potionData.isUpgraded()) {
+            message += LanguageHelper.getPotionBaseEffectName(pd.getType(), l);
+            if (pd.isUpgraded()) {
                 message += "II";
             }
-            player.sendMessage(message);
 
-            for (PotionEffect eff : potionMeta.getCustomEffects()) {
-                player.sendMessage(
-                        ChatColor.GRAY
-                                + "  "
-                                + LanguageHelper.getPotionEffectDisplay(eff, locale));
+            p.sendMessage(message);
+
+            for (PotionEffect eff : pm.getCustomEffects()) {
+                p.sendMessage(
+                    ChatColor.GRAY
+                        + "  "
+                        + LanguageHelper.getPotionEffectDisplay(eff, l));
             }
         }
     }
 
-    private static void sendEnchantment(ItemMeta meta, Player player, String locale) {
-        for (Map.Entry<Enchantment, Integer> entry : meta.getEnchants().entrySet()) {
-            String message = LanguageHelper.getEnchantmentDisplayName(entry, locale);
-            player.sendMessage(ChatColor.GRAY + "  " + message);
+    private static void sendEnchantment(ItemMeta m, Player p, String l) {
+        for (Entry<Enchantment, Integer> e : m.getEnchants().entrySet()) {
+            String msg = LanguageHelper.getEnchantmentDisplayName(e, l);
+            p.sendMessage(ChatColor.GRAY + "  " + msg);
         }
     }
 

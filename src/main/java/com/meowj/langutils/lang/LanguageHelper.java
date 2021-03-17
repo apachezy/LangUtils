@@ -690,7 +690,6 @@ public class LanguageHelper {
      *         music disk is returned. Otherwise, return NULL.
      */
     public static @Nullable String getMusicDiskDesc(@NotNull Material material, @NotNull String locale) {
-        // todo: 资源文件中尚未加入
         return LangUtils.musicDiskStorage.getEntry(locale, material);
     }
 
@@ -702,7 +701,26 @@ public class LanguageHelper {
     }
 
     /**
-     * This is a utility method to easily obtain the pattern of the shield
+     * Get the description of the "Banner Pattern" added in Minecraft 1.14 and
+     * above.
+     *
+     * @param material Material for banner pattern items.
+     * @param locale   This locale will be used for translation.
+     * @return The description of the banner pattern item.
+     */
+    public static @Nullable String getNewBannerPatternDesc(@NotNull Material material, @NotNull String locale) {
+        return LangUtils.newBannerPatternStorage.getEntry(locale, material);
+    }
+
+    /**
+     * This method is similar to {@link #getNewBannerPatternDesc(Material, String)}
+     */
+    public static @Nullable String getNewBannerPatternDesc(@NotNull Material material, @NotNull Player player) {
+        return getNewBannerPatternDesc(material, player.getLocale());
+    }
+
+    /**
+     * This is a utility method to easily get the pattern of the shield
      * merged with the patterned banner.
      *
      * @param shied The shield ItemStack.
