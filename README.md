@@ -23,6 +23,7 @@ project: [MascusJeoraly:LanguageUtils][Original]
 * Get localized name of Dye Colors.
 * Get localized name of Villagers’ Level and Professions.
 * Get localized name of Banner Patterns and Colored Shields.
+* Get the description of the Music-Disk and the new Banner-Pattern in 1.14 and above.
 
 ### Supported Minecraft version
 
@@ -77,7 +78,7 @@ ___
   
   dependencies {
       // Please check the latest version
-      provided group: 'com.github.apachezy', name: 'LangUtils', version: '3.1.3'
+      provided group: 'com.github.apachezy', name: 'LangUtils', version: '3.2.1'
   }
   ```
 * Build with Maven</br>
@@ -96,7 +97,7 @@ ___
           <groupId>com.github.apachezy</groupId>
           <artifactId>LangUtils</artifactId>
           <!--Please check the latest version -->  
-          <version>3.1.3</version>
+          <version>3.2.1</version>
           <scope>provided</scope>
       </dependency>
   </dependencies>

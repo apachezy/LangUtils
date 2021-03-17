@@ -21,6 +21,7 @@ LangUtils
 * 获取染料颜色的本地化名称。
 * 获取村民等级和专业的本地化名称。
 * 获取旗帜图案和带颜色的盾牌本地化名称。
+* 获取带有描述的物品（例如音乐唱片和1.14新增的旗帜图案）的描述文字。
 
 ### 支持的 Minecraft 版本
 * 1.13  1.14  1.15  1.16
@@ -71,7 +72,7 @@ ___
   
   dependencies {
       // 请检查最新版本
-      provided group: 'com.github.apachezy', name: 'LangUtils', version: '3.1.3'
+      provided group: 'com.github.apachezy', name: 'LangUtils', version: '3.2.1'
   }
   ```
 * ***用 Maven 构建***</br>
@@ -90,7 +91,7 @@ ___
           <groupId>com.github.apachezy</groupId>
           <artifactId>LangUtils</artifactId>
           <!-- 请检查最新版本 -->  
-          <version>3.1.3</version>
+          <version>3.2.1</version>
           <scope>provided</scope>
       </dependency>
   </dependencies>
