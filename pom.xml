@@ -131,8 +131,7 @@
         <!--
          | Plugin Metrics - bStats
          |
-         | In order to facilitate the development, the nms
-         | library of each version is specially extracted.
+         | Simply count how many plugins use LangUtils.
          |-->
         <dependency>
             <groupId>org.bstats</groupId>
@@ -141,7 +140,9 @@
             <scope>compile</scope>
         </dependency>
 
-        <!-- Annotations -->
+        <!--
+         | Annotations
+         |-->
         <dependency>
             <groupId>org.jetbrains</groupId>
             <artifactId>annotations</artifactId>
