@@ -115,6 +115,14 @@
             </exclusions>
         </dependency>
 
+        <dependency>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot</artifactId>
+            <version>1.17-R0.1-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/patched_1.17.jar</systemPath>
+        </dependency>
+
         <!--
          | NMS-Extracted
          |
