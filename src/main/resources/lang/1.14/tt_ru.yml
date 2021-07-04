@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:20:01                    #
+# Build time: 2021-07-04 21:41:58                    #
 # ####################################################
 language:
   code: tt_ru
@@ -52,6 +52,7 @@ material:
   brain_coral: Ми мәрҗән
   brain_coral_block: Ми мәрҗән җыелмасы
   brain_coral_fan: Җилпәзә ми мәрҗән
+  brain_coral_wall_fan: Җилпәзә ятма ми мәрҗән
   brewing_stand: Эчемлек кайнату терәге
   brick_slab: Кирпеч плитәсе
   brick_stairs: Кирпеч баскычлары
@@ -364,11 +365,14 @@ material:
   zombie_wall_head: Дивар зомби башы
 biome:
   mushroom_fields: Гөмбәле кырлар
+  giant_tree_taiga_hills: Калкулыклы урман бик зур агачлар белән
   end_midlands: Энд тигезлеклары
   end_barrens: Энд кырыйсы
   ice_spikes: Бозлы сөңгеләре
   modified_jungle: Искиткеч тропик урман
   tall_birch_hills: Калкулыклы урман каенлар белән
+  giant_spruce_taiga: Урман чыршылар белән
+  giant_spruce_taiga_hills: Калкулыклы урман чыршылар белән
   eroded_badlands: Җилләтеп бетерүче коры җирләр
 enchantment:
   fire_protection: Утка чыдамлылык
@@ -492,6 +496,8 @@ tropical_fish_type:
   glitter: Ялтырау
 named:
   player_head_named: '%s-ның башы'
+tropical_fish_name:
+  '67764993': Ике төсле грамм
 banner_pattern:
   '458752': Ак уң як багана
   '458753': Кызгылт сары уң як багана
@@ -633,5 +639,6 @@ merchant_level:
   '4': Эксперт
 villager_profession:
   none: Торучы
+  cleric: Мулла
   toolsmith: Коралчы
   weaponsmith: Сугыш коралычы

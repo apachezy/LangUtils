@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:46                    #
+# Build time: 2021-07-04 21:46:02                    #
 # ####################################################
 language:
   code: da_dk
@@ -14,12 +14,19 @@ material:
   polished_diorite: Poleret diorit
   andesite: Andesit
   polished_andesite: Poleret andesit
+  deepslate: Dybskifer
+  cobbled_deepslate: Dybskiferbrosten
+  polished_deepslate: Poleret dybskifer
+  calcite: Calcit
+  tuff: Tuf
+  dripstone_block: Drypstenblok
   grass_block: Græsblok
   dirt: Jord
   coarse_dirt: Groft Jord
   podzol: Podsol
-  crimson_nylium: Blodrød nylium
-  warped_nylium: Forskruet Nylium
+  rooted_dirt: Rodfyldt Jord
+  crimson_nylium: Karmoisin nylium
+  warped_nylium: Forskruet nylium
   cobblestone: Brosten
   oak_planks: Egeplanker
   spruce_planks: Granplanker
@@ -28,7 +35,7 @@ material:
   acacia_planks: Akacieplanker
   dark_oak_planks: Mørke egeplanker
   crimson_planks: Karmoisinplanker
-  warped_planks: Forskruet planker
+  warped_planks: Forskruede planker
   oak_sapling: Ungt egetræ
   spruce_sapling: Ungt grantræ
   birch_sapling: Ungt birketræ
@@ -39,10 +46,67 @@ material:
   sand: Sand
   red_sand: Rødt sand
   gravel: Grus
-  gold_ore: Guldmalm
-  iron_ore: Jernmalm
   coal_ore: Kulmalm
+  deepslate_coal_ore: Dybskiferkulmalm
+  iron_ore: Jernmalm
+  deepslate_iron_ore: Dybskiferjernmalm
+  copper_ore: Kobbermalm
+  deepslate_copper_ore: Dybskiferkobbermalm
+  gold_ore: Guldmalm
+  deepslate_gold_ore: Dybskiferguldmalm
+  redstone_ore: Rødstensmalm
+  deepslate_redstone_ore: Dybskiferrødstensmalm
+  emerald_ore: Smaragdmalm
+  deepslate_emerald_ore: Dybskifersmaragdmalm
+  lapis_ore: Lapis Lazuli-malm
+  deepslate_lapis_ore: Dybskifer-lapis lazulimalm
+  diamond_ore: Diamantmalm
+  deepslate_diamond_ore: Dybskiferdiamantmalm
   nether_gold_ore: Nether guldmalm
+  nether_quartz_ore: Nether-kvartsmalm
+  ancient_debris: Ældgamle stumper
+  coal_block: Blok af kul
+  raw_iron_block: Rå jern blok
+  raw_copper_block: Rå kobber blok
+  raw_gold_block: Rå guld blok
+  amethyst_block: Blok af ametyst
+  budding_amethyst: Spirende ametyst
+  iron_block: Blok af jern
+  copper_block: Blok af kobber
+  gold_block: Blok af guld
+  diamond_block: Blok af diamant
+  netherite_block: Blok af netherrit
+  exposed_copper: Blotlagt Kobberblok
+  weathered_copper: Forvitret Kobber
+  oxidized_copper: Oxideret kobber
+  cut_copper: Skåret kobber
+  exposed_cut_copper: Blotlagt Skåret Kobber
+  weathered_cut_copper: Forvitret skåret kobber
+  oxidized_cut_copper: Oxideret skåret kobber
+  cut_copper_stairs: Skåret kobbertrappe
+  exposed_cut_copper_stairs: Blotlagt Skåret Kobbertrappe
+  weathered_cut_copper_stairs: Forvitret skåret kobbertrappe
+  oxidized_cut_copper_stairs: Oxideret skåret kobbertrappe
+  cut_copper_slab: Skåret kobberplade
+  exposed_cut_copper_slab: Blotlagt Skåret Kobberplade
+  weathered_cut_copper_slab: Forvitret skåret kobberplade
+  oxidized_cut_copper_slab: Oxideret skåret kobberplade
+  waxed_copper_block: Vokset blok af kobber
+  waxed_exposed_copper: Vokset blotlagt kobber
+  waxed_weathered_copper: Vokset forvitret kobber
+  waxed_oxidized_copper: Vokset oxideret kobber
+  waxed_cut_copper: Vokset skåret kobber
+  waxed_exposed_cut_copper: Vokset blotlagt skåret kobber
+  waxed_weathered_cut_copper: Vokset forvitret skåret kobber
+  waxed_oxidized_cut_copper: Vokset oxideret skåret kobber
+  waxed_cut_copper_stairs: Vokset skåret kobbertrappe
+  waxed_exposed_cut_copper_stairs: Vokset blotlagt skåret kobbertrappe
+  waxed_weathered_cut_copper_stairs: Vokset forvitret skåret kobbertrappe
+  waxed_oxidized_cut_copper_stairs: Vokset oxideret skåret kobbertrappe
+  waxed_cut_copper_slab: Vokset skåret kobberplade
+  waxed_exposed_cut_copper_slab: Vokset blotlagt skåret kobberplade
+  waxed_weathered_cut_copper_slab: Vokset forvitret skåret kobberplade
+  waxed_oxidized_cut_copper_slab: Vokset oxideret skåret Kobberplade
   oak_log: Egestamme
   spruce_log: Granstamme
   birch_log: Birkestamme
@@ -51,22 +115,22 @@ material:
   dark_oak_log: Mørk egestamme
   crimson_stem: Karmoisinstilk
   warped_stem: Forskruet stilk
-  stripped_oak_log: Afisolerede egestamme
-  stripped_spruce_log: Afisolerede granstamme
-  stripped_birch_log: Afisolerede birkestamme
-  stripped_jungle_log: Afisolerede junglestamme
-  stripped_acacia_log: Afisolerede akaciestamme
-  stripped_dark_oak_log: Afisolerede mørk egestamme
-  stripped_crimson_stem: Afisoleret blodrød stilk
-  stripped_warped_stem: Afisoleret skæv stilk
-  stripped_oak_wood: Afisolerede egetræ
-  stripped_spruce_wood: Afisolerede grantræ
-  stripped_birch_wood: Afisolerede birketræ
-  stripped_jungle_wood: Afisolerede jungletræ
-  stripped_acacia_wood: Afisolerede akacietræ
-  stripped_dark_oak_wood: Afisolerede mørk egetræ
-  stripped_crimson_hyphae: Afisoleret blodrød hyfer
-  stripped_warped_hyphae: Afisoleret forskruet hyfer
+  stripped_oak_log: Afbarket egestamme
+  stripped_spruce_log: Afbarket granstamme
+  stripped_birch_log: Afbarket birkestamme
+  stripped_jungle_log: Afbarket junglestamme
+  stripped_acacia_log: Afbarket akaciestamme
+  stripped_dark_oak_log: Afbarket mørk egestamme
+  stripped_crimson_stem: Afbarket Karmoisinstilk
+  stripped_warped_stem: Afbarket forskruet stilk
+  stripped_oak_wood: Afbarket egetræ
+  stripped_spruce_wood: Afbarket grantræ
+  stripped_birch_wood: Afbarket birketræ
+  stripped_jungle_wood: Afbarket jungletræ
+  stripped_acacia_wood: Afbarket akacietræ
+  stripped_dark_oak_wood: Afbarket mørk egetræ
+  stripped_crimson_hyphae: Afbarket Karmoisinhyfer
+  stripped_warped_hyphae: Afbarkede forskruede hyfer
   oak_wood: Egetræ
   spruce_wood: Grantræ
   birch_wood: Birketræ
@@ -81,26 +145,24 @@ material:
   jungle_leaves: Jungleløv
   acacia_leaves: Akacieløv
   dark_oak_leaves: Mørkt egeløv
+  azalea_leaves: Azaleablade
+  flowering_azalea_leaves: Blomstrende azaleablade
   sponge: Svamp
   wet_sponge: Våd svamp
   glass: Glas
-  lapis_ore: Lapis Lazuli-malm
-  lapis_block: Lapis Lazuli-blok
-  dispenser: Automat
+  tinted_glass: Tonet glas
+  lapis_block: Blok af Lapis Lazuli
   sandstone: Sandsten
   chiseled_sandstone: Mejslet sandsten
   cut_sandstone: Skåret sandsten
-  note_block: Nodeblok
-  powered_rail: Strømspor
-  detector_rail: Detektorspor
-  sticky_piston: Klistret stempel
   cobweb: Spindelvæv
   grass: Græs
   fern: Bregne
+  azalea: Azalea
+  flowering_azalea: Blomstrende Azalea
   dead_bush: Død busk
   seagrass: Søgræs
   sea_pickle: Søpølse
-  piston: Stempel
   white_wool: Hvid uld
   orange_wool: Orange uld
   magenta_wool: Lyslilla uld
@@ -130,6 +192,7 @@ material:
   cornflower: Kornblomst
   lily_of_the_valley: Liljekonval
   wither_rose: Wither Rose
+  spore_blossom: Sporeblomst
   brown_mushroom: Brun svamp
   red_mushroom: Rød svamp
   crimson_fungus: Karmoisinsvamp
@@ -141,9 +204,12 @@ material:
   twisting_vines: Snoende lianer
   sugar_cane: Sukkerrør
   kelp: Tang
+  moss_carpet: Mostæppe
+  moss_block: Mosblok
+  hanging_roots: Hængende Rødder
+  big_dripleaf: Stor Dryppeblad
+  small_dripleaf: Lille Dryppeblad
   bamboo: Bambus
-  gold_block: Blok af guld
-  iron_block: Blok af jern
   oak_slab: Egeplade
   spruce_slab: Granplade
   birch_slab: Birkeplade
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: Glat sandsten
   smooth_stone: Glat sten
   bricks: Mursten
-  tnt: TNT
   bookshelf: Bogreol
   mossy_cobblestone: Mosbegroede brosten
   obsidian: Obsidian
@@ -187,27 +252,11 @@ material:
   spawner: Fremkalder
   oak_stairs: Egetrappe
   chest: Kiste
-  diamond_ore: Diamantmalm
-  diamond_block: Blok af diamant
   crafting_table: Arbejdsbord
   farmland: Landbrugsjord
   furnace: Ovn
   ladder: Stige
-  rail: Spor
   cobblestone_stairs: Stentrappe
-  lever: Håndtag
-  stone_pressure_plate: Sten trykplade
-  oak_pressure_plate: Egetrykplade
-  spruce_pressure_plate: Grantrykplade
-  birch_pressure_plate: Birketrykplade
-  jungle_pressure_plate: Jungletrykplade
-  acacia_pressure_plate: Akacietrykplade
-  dark_oak_pressure_plate: Mørk egetrykplade
-  crimson_pressure_plate: Karmoisintrykplade
-  warped_pressure_plate: Forskruet trykplade
-  polished_blackstone_pressure_plate: Poleret sortstenstrykplade
-  redstone_ore: Rødstensmalm
-  redstone_torch: Rødstensfakkel
   snow: Sne
   ice: Is
   snow_block: Sneblok
@@ -224,32 +273,31 @@ material:
   warped_fence: Forskruet hegn
   pumpkin: Græskar
   carved_pumpkin: Udskåret Græskar
+  jack_o_lantern: Græskar lanterne
   netherrack: Netherrack
   soul_sand: Sjælesand
   soul_soil: Sjælejord
   basalt: Basalt
   polished_basalt: Poleret basalt
-  soul_torch: Sjælefakkel
+  smooth_basalt: Glat basalt
+  soul_torch: Sjæleild fakkel
   glowstone: Glødesten
-  jack_o_lantern: Græskar lanterne
-  oak_trapdoor: Egelem
-  spruce_trapdoor: Granlem
-  birch_trapdoor: Birkelem
-  jungle_trapdoor: Junglelem
-  acacia_trapdoor: Akacielem
-  dark_oak_trapdoor: Mørk egelem
-  crimson_trapdoor: Karmoisinlem
-  warped_trapdoor: Forskruet lem
   infested_stone: Inficeret sten
   infested_cobblestone: Inficeret brosten
   infested_stone_bricks: Inficeret stenmursten
   infested_mossy_stone_bricks: Inficeret mosbegroede stenmursten
   infested_cracked_stone_bricks: Inficeret revnede stenmursten
   infested_chiseled_stone_bricks: Inficeret mejslet stenmursten
+  infested_deepslate: Inficeret dybskifer
   stone_bricks: Stenmursten
   mossy_stone_bricks: Mosbegroede stenmursten
   cracked_stone_bricks: Revnede stenmursten
   chiseled_stone_bricks: Mejslede stenmursten
+  deepslate_bricks: Dybskifermursten
+  cracked_deepslate_bricks: Revnede dybskifermursten
+  deepslate_tiles: Dybskiferklinker
+  cracked_deepslate_tiles: Revnede dybskiferfliser
+  chiseled_deepslate: Mejslet dybskifer
   brown_mushroom_block: Brun svampeblok
   red_mushroom_block: Rød svampeblok
   mushroom_stem: Svampestamme
@@ -258,14 +306,7 @@ material:
   glass_pane: Glaspanel
   melon: Vandmelon
   vine: Lianer
-  oak_fence_gate: Egetræshegnslåge
-  spruce_fence_gate: Granhegnslåge
-  birch_fence_gate: Birkehegnslåge
-  jungle_fence_gate: Junglehegnslåge
-  acacia_fence_gate: Akaciehegnslåge
-  dark_oak_fence_gate: Mørk egetræshegnslåge
-  crimson_fence_gate: Blodrød hegnslåge
-  warped_fence_gate: Forskruet hegnslåge
+  glow_lichen: Glødelav
   brick_stairs: Murstenstrappe
   stone_brick_stairs: Stenmurstenstrappe
   mycelium: Svampevæv
@@ -280,11 +321,8 @@ material:
   end_stone: End-sten
   end_stone_bricks: End-mursten
   dragon_egg: Drageæg
-  redstone_lamp: Rødstenslampe
   sandstone_stairs: Sandstenstrappe
-  emerald_ore: Smaragdmalm
   ender_chest: Enderkiste
-  tripwire_hook: Snubletrådskrog
   emerald_block: Blok af smaragd
   spruce_stairs: Grantrappe
   birch_stairs: Birketrappe
@@ -308,35 +346,20 @@ material:
   end_stone_brick_wall: End-murstensvæg
   diorite_wall: Dioritvæg
   blackstone_wall: Sortstensvæg
-  polished_blackstone_wall: Poleret sortstensvæg
-  polished_blackstone_brick_wall: Poleret sortstenmurstensvæg
-  stone_button: Stenknap
-  oak_button: Egeknap
-  spruce_button: Granknap
-  birch_button: Birkeknap
-  jungle_button: Jungleknap
-  acacia_button: Akacieknap
-  dark_oak_button: Mørk egeknap
-  crimson_button: Karmoisinknap
-  warped_button: Forskruet knap
-  polished_blackstone_button: Poleret sortstensknap
+  polished_blackstone_wall: Poleret sortsten-væg
+  polished_blackstone_brick_wall: Poleret sortsten-murstensvæg
+  cobbled_deepslate_wall: Dybskifer-brostensvæg
+  polished_deepslate_wall: Poleret dybskifervæg
+  deepslate_brick_wall: Dybskifer-murstensvæg
+  deepslate_tile_wall: Dybskifer-klinkevæg
   anvil: Ambolt
   chipped_anvil: Hakket Ambolt
   damaged_anvil: Beskadet Ambolt
-  trapped_chest: Fældekiste
-  light_weighted_pressure_plate: Letvægtet trykplade
-  heavy_weighted_pressure_plate: Tungvægtet trykplade
-  daylight_detector: Dagslysdetektor
-  redstone_block: Blok af rødsten
-  nether_quartz_ore: Nether-kvartsmalm
-  hopper: Tragt
   chiseled_quartz_block: Mejslet kvarts blok
   quartz_block: Blok af kvarts
   quartz_bricks: Kvartsmursten
   quartz_pillar: Kvartssøjle
   quartz_stairs: Kvartstrappe
-  activator_rail: Aktiveringsspor
-  dropper: Udkaster
   white_terracotta: Hvid terrakotta
   orange_terracotta: Orange terrakotta
   magenta_terracotta: Lyslilla terrakotta
@@ -354,7 +377,7 @@ material:
   red_terracotta: Rød terrakotta
   black_terracotta: Sort terrakotta
   barrier: Barriere
-  iron_trapdoor: Jernlem
+  light: Lys
   hay_block: Halmballe
   white_carpet: Hvidt tæppe
   orange_carpet: Orange tæppe
@@ -373,12 +396,10 @@ material:
   red_carpet: Rødt tæppe
   black_carpet: Sort tæppe
   terracotta: Terrakotta
-  coal_block: Blok af kul
   packed_ice: Sammenpresset is
   acacia_stairs: Akacietrappe
   dark_oak_stairs: Mørke egetrappe
-  slime_block: Slim blok
-  grass_path: Græs sti
+  dirt_path: Jord sti
   sunflower: Solsikke
   lilac: Syren
   rose_bush: Rosenbusk
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: Røde nether-mursten
   bone_block: Ben blok
   structure_void: Struktur-tomrum
-  observer: Observatør
   shulker_box: Shulker boks
   white_shulker_box: Hvid shulker boks
   orange_shulker_box: Orange shulker boks
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: Rød nether-murstenstrappe
   polished_andesite_stairs: Poleret andesittrappe
   diorite_stairs: Diorittrappe
+  cobbled_deepslate_stairs: Dybskifer-brostenstrappe
+  polished_deepslate_stairs: Poleret dybskifertrappe
+  deepslate_brick_stairs: Dybskifer-murstenstrappe
+  deepslate_tile_stairs: Dybskifer-klinketrappe
   polished_granite_slab: Poleret granitflise
   smooth_red_sandstone_slab: Glat rød sandstensflise
   mossy_stone_brick_slab: Mosbegroet stenmurstensflise
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: Rød nether-murstensflise
   polished_andesite_slab: Poleret andesitflise
   diorite_slab: Dioritflise
+  cobbled_deepslate_slab: Dybskifer-brostensflise
+  polished_deepslate_slab: Poleret dybskiferflise
+  deepslate_brick_slab: Dybskifer-murstensflise
+  deepslate_tile_slab: Dybskifer-klinkeflise
   scaffolding: Stillads
+  redstone: Rødstenspulver
+  redstone_torch: Rødstensfakkel
+  redstone_block: Blok af rødsten
+  repeater: Rødstens-gentager
+  comparator: Rødstens-komparator
+  piston: Stempel
+  sticky_piston: Klistret stempel
+  slime_block: Slim blok
+  honey_block: Honningblok
+  observer: Observatør
+  hopper: Tragt
+  dispenser: Automat
+  dropper: Udkaster
+  lectern: Læsepult
+  target: Mål
+  lever: Håndtag
+  lightning_rod: Lynafleder
+  daylight_detector: Dagslysdetektor
+  sculk_sensor: Sculk-sensor
+  tripwire_hook: Snubletrådskrog
+  trapped_chest: Fældekiste
+  tnt: TNT
+  redstone_lamp: Rødstenslampe
+  note_block: Nodeblok
+  stone_button: Stenknap
+  polished_blackstone_button: Poleret sortsten-knap
+  oak_button: Egeknap
+  spruce_button: Granknap
+  birch_button: Birkeknap
+  jungle_button: Jungleknap
+  acacia_button: Akacieknap
+  dark_oak_button: Mørk egeknap
+  crimson_button: Karmoisinknap
+  warped_button: Forskruet knap
+  stone_pressure_plate: Sten trykplade
+  polished_blackstone_pressure_plate: Poleret sortstenstrykplade
+  light_weighted_pressure_plate: Letvægtet trykplade
+  heavy_weighted_pressure_plate: Tungvægtet trykplade
+  oak_pressure_plate: Egetrykplade
+  spruce_pressure_plate: Grantrykplade
+  birch_pressure_plate: Birketrykplade
+  jungle_pressure_plate: Jungletrykplade
+  acacia_pressure_plate: Akacietrykplade
+  dark_oak_pressure_plate: Mørk egetrykplade
+  crimson_pressure_plate: Karmoisintrykplade
+  warped_pressure_plate: Forskruet trykplade
   iron_door: Jerndør
   oak_door: Egetræsdør
   spruce_door: Grandør
@@ -572,8 +646,42 @@ material:
   dark_oak_door: Mørk egetræsdør
   crimson_door: Karmoisindør
   warped_door: Forskruet dør
-  repeater: Rødstens-gentager
-  comparator: Rødstens-komparator
+  iron_trapdoor: Jernlem
+  oak_trapdoor: Egelem
+  spruce_trapdoor: Granlem
+  birch_trapdoor: Birkelem
+  jungle_trapdoor: Junglelem
+  acacia_trapdoor: Akacielem
+  dark_oak_trapdoor: Mørk egelem
+  crimson_trapdoor: Karmoisinlem
+  warped_trapdoor: Forskruet lem
+  oak_fence_gate: Egetræshegnslåge
+  spruce_fence_gate: Granhegnslåge
+  birch_fence_gate: Birkehegnslåge
+  jungle_fence_gate: Junglehegnslåge
+  acacia_fence_gate: Akaciehegnslåge
+  dark_oak_fence_gate: Mørk egetræshegnslåge
+  crimson_fence_gate: Karmoisinhegnslåge
+  warped_fence_gate: Forskruet hegnslåge
+  powered_rail: Strømspor
+  detector_rail: Detektorspor
+  rail: Spor
+  activator_rail: Aktiveringsspor
+  saddle: Sadel
+  minecart: Minevogn
+  chest_minecart: Minevogn med kiste
+  furnace_minecart: Minevogn med ovn
+  tnt_minecart: Minevogn med TNT
+  hopper_minecart: Minevogn med tragt
+  carrot_on_a_stick: Gulerod på en pind
+  warped_fungus_on_a_stick: Forskruet svamp på en pind
+  elytra: Elytra
+  oak_boat: Egetræsbåd
+  spruce_boat: Granbåd
+  birch_boat: Birkebåd
+  jungle_boat: Junglebåd
+  acacia_boat: Akaciebåd
+  dark_oak_boat: Mørk egetræsbåd
   structure_block: Strukturblok
   jigsaw: Puslespils blok
   turtle_helmet: Skildpaddeskjold
@@ -585,7 +693,15 @@ material:
   coal: Kul
   charcoal: Trækul
   diamond: Diamant
+  emerald: Smaragd
+  lapis_lazuli: Lapis Lazuli
+  quartz: Nether-kvarts
+  amethyst_shard: Ametyst skår
+  raw_iron: Rå jern
   iron_ingot: Jernbarre
+  raw_copper: Rå kobber
+  copper_ingot: Kobberbarre
+  raw_gold: Rå guld
   gold_ingot: Guldbarre
   netherite_ingot: Netherritbarre
   netherite_scrap: Netherittskrot
@@ -669,29 +785,27 @@ material:
   bucket: Spand
   water_bucket: Vandspand
   lava_bucket: Lavaspand
-  minecart: Minevogn
-  saddle: Sadel
-  redstone: Rødstenspulver
+  powder_snow_bucket: Puddersnespand
   snowball: Snebold
-  oak_boat: Egetræsbåd
   leather: Læder
   milk_bucket: Mælkespand
   pufferfish_bucket: Spand med kuglefisk
   salmon_bucket: Spand med laks
   cod_bucket: Spand med torsk
   tropical_fish_bucket: Spand med tropisk fisk
+  axolotl_bucket: Spand med axolotl
   brick: Mursten
   clay_ball: Lerbold
   dried_kelp_block: Tørret tangblok
   paper: Papir
   book: Bog
   slime_ball: Slimbold
-  chest_minecart: Minevogn med kiste
-  furnace_minecart: Minevogn med ovn
   egg: Æg
   compass: Kompas
+  bundle: Bundt
   fishing_rod: Fiskestang
   clock: Ur
+  spyglass: Kikkert
   glowstone_dust: Glødestenspulver
   cod: Rå torsk
   salmon: Rå laks
@@ -700,8 +814,8 @@ material:
   cooked_cod: Kogt torsk
   cooked_salmon: Kogt laks
   ink_sac: Blækpose
+  glow_ink_sac: Glødende blækpose
   cocoa_beans: Kakaobønner
-  lapis_lazuli: Lapis Lazuli
   white_dye: Hvidt Farvestof
   orange_dye: Orange farvestof
   magenta_dye: Lyslilla farvestof
@@ -765,6 +879,7 @@ material:
   cauldron: Gryde
   ender_eye: Ender-øje
   glistering_melon_slice: Glitrende melonskive
+  axolotl_spawn_egg: Axolotl fremkaldningsæg
   bat_spawn_egg: Flagermus fremkaldningsæg
   bee_spawn_egg: Bi fremkaldingsæg
   blaze_spawn_egg: Blaze fremkaldningsæg
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: Fremkalder fremkaldningsæg
   fox_spawn_egg: Ræv fremkaldningsæg
   ghast_spawn_egg: Ghast fremkaldningsæg
+  glow_squid_spawn_egg: Glødesprutte-fremkaldningsæg
+  goat_spawn_egg: Ged fremkaldningsæg
   guardian_spawn_egg: Vogter fremkaldningsæg
   hoglin_spawn_egg: Hoglin fremkaldningsæg
   horse_spawn_egg: Hest fremkaldningsæg
@@ -833,8 +950,8 @@ material:
   fire_charge: Ildladning
   writable_book: Bog og fjerpen
   written_book: Skrevet bog
-  emerald: Smaragd
   item_frame: Genstandsramme
+  glow_item_frame: Glødende genstandsramme
   flower_pot: Blomsterkrukke
   carrot: Gulerod
   potato: Kartoffel
@@ -848,17 +965,12 @@ material:
   zombie_head: Zombiehoved
   creeper_head: Creeper-hoved
   dragon_head: Dragehoved
-  carrot_on_a_stick: Gulerod på en pind
-  warped_fungus_on_a_stick: Forskruet svamp på en pind
   nether_star: Nether-stjerne
   pumpkin_pie: Græskartærte
   firework_rocket: Fyrværkeriraket
   firework_star: Fyrværkeristjerne
   enchanted_book: Fortryllet bog
   nether_brick: Nether-mursten
-  quartz: Nether-kvarts
-  tnt_minecart: Minevogn med TNT
-  hopper_minecart: Minevogn med tragt
   prismarine_shard: Prismarine-splint
   prismarine_crystals: Prismarinekrystaller
   rabbit: Rå kanin
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: Dyppet pil
   lingering_potion: Hængende eliksir
   shield: Skjold
-  elytra: Elytra
-  spruce_boat: Granbåd
-  birch_boat: Birkebåd
-  jungle_boat: Junglebåd
-  acacia_boat: Akaciebåd
-  dark_oak_boat: Mørk egetræsbåd
   totem_of_undying: Totem af udødelighed
   shulker_shell: Shulker Skald
   iron_nugget: Jernklump
@@ -948,26 +1054,22 @@ material:
   cartography_table: Kartografi bord
   fletching_table: Pilemager bord
   grindstone: Slibesten
-  lectern: Læsepult
   smithing_table: Smedebord
   stonecutter: Stenskærer
   bell: Klokke
   lantern: Lanterne
   soul_lantern: Sjælelanterne
   sweet_berries: Søde bær
+  glow_berries: Glødebær
   campfire: Bål
-  soul_campfire: Lejrbål af sjæle
+  soul_campfire: Sjælelejrbål
   shroomlight: Svampelys
   honeycomb: Bikage
   bee_nest: Bikube
   beehive: Bistade
   honey_bottle: Honningflaske
-  honey_block: Honningblok
   honeycomb_block: Bikageblok
   lodestone: Ledesten
-  netherite_block: Blok af netherrit
-  ancient_debris: Ældgamle stumper
-  target: Mål
   crying_obsidian: Grædende obsidian
   blackstone: Sortsten
   blackstone_slab: Sortstensflise
@@ -975,13 +1077,35 @@ material:
   gilded_blackstone: Forgyldt sortsten
   polished_blackstone: Poleret sortsten
   polished_blackstone_slab: Poleret sortstensflise
-  polished_blackstone_stairs: Poleret sortstenstrappe
+  polished_blackstone_stairs: Poleret sortsten-trappe
   chiseled_polished_blackstone: Mejslet poleret sortsten
-  polished_blackstone_bricks: Poleret sortstenmursten
-  polished_blackstone_brick_slab: Poleret sortstenmurstensflise
-  polished_blackstone_brick_stairs: Poleret sortstenmurstenstrappe
-  cracked_polished_blackstone_bricks: Revnede poleret sortstenmursten
+  polished_blackstone_bricks: Poleret sortsten-mursten
+  polished_blackstone_brick_slab: Poleret sortsten-murstensflise
+  polished_blackstone_brick_stairs: Poleret sortsten-murstenstrappe
+  cracked_polished_blackstone_bricks: Revnede poleret sortsten-mursten
   respawn_anchor: Genoplivelsesanker
+  candle: Stearinlys
+  white_candle: Hvidt stearinlys
+  orange_candle: Orange stearinlys
+  magenta_candle: Lyslilla stearinlys
+  light_blue_candle: Lyseblåt stearinlys
+  yellow_candle: Gult stearinlys
+  lime_candle: Limegrønt stearinlys
+  pink_candle: Lyserødt stearinlys
+  gray_candle: Gråt stearinlys
+  light_gray_candle: Lysegråt stearinlys
+  cyan_candle: Turkis stearinlys
+  purple_candle: Lilla stearinlys
+  blue_candle: Blåt stearinlys
+  brown_candle: Brunt stearinlys
+  green_candle: Grønt stearinlys
+  red_candle: Rødt stearinlys
+  black_candle: Sort stearinlys
+  small_amethyst_bud: Lille ametystknop
+  medium_amethyst_bud: Medium ametystknop
+  large_amethyst_bud: Stor ametystknop
+  amethyst_cluster: Ametystklynge
+  pointed_dripstone: Spids drypsten
   water: Vand
   lava: Lava
   tall_seagrass: Højt søgræs
@@ -1004,6 +1128,9 @@ material:
   attached_melon_stem: Forbundet melonstilk
   pumpkin_stem: Græskar stilk
   melon_stem: Melonstilk
+  water_cauldron: Vandgryde
+  lava_cauldron: Lavagryde
+  powder_snow_cauldron: Puddersnegryde
   end_portal: End portal
   cocoa: Kakao
   tripwire: Snubletråd
@@ -1076,13 +1203,37 @@ material:
   bubble_column: Boble søjle
   sweet_berry_bush: Sød bærbusk
   weeping_vines_plant: Grædende lianplante
-  twisting_vines_plant: Snoende lian plante
+  twisting_vines_plant: Snoende-lian plante
   crimson_wall_sign: Karmoisinvægskilt
   warped_wall_sign: Forskruet vægskilt
-  potted_crimson_fungus: Krukket blodrød svamp
-  potted_warped_fungus: Krukket skæv svamp
-  potted_crimson_roots: Krukket blodrøde rødder
-  potted_warped_roots: Krukket forskruede rødder
+  potted_crimson_fungus: Karmoisinsvamp potteplante
+  potted_warped_fungus: Forskruet svamp potteplante
+  potted_crimson_roots: Karmoisinrødder potteplante
+  potted_warped_roots: Forskruede rødder potteplante
+  candle_cake: Kage med stearinlys
+  white_candle_cake: Kage med hvidt stearinlys
+  orange_candle_cake: Kage med orange stearinlys
+  magenta_candle_cake: Kage med lyslilla stearinlys
+  light_blue_candle_cake: Kage med lyseblåt stearinlys
+  yellow_candle_cake: Kage med gult stearinlys
+  lime_candle_cake: Kage med limegrønt stearinlys
+  pink_candle_cake: Kage med lyserødt stearinlys
+  gray_candle_cake: Kage med gråt stearinlys
+  light_gray_candle_cake: Kage med lysegråt stearinlys
+  cyan_candle_cake: Kage med turkis stearinlys
+  purple_candle_cake: Kage med lilla stearinlys
+  blue_candle_cake: Kage med blåt stearinlys
+  brown_candle_cake: Kage med brunt stearinlys
+  green_candle_cake: Kage med grønt stearinlys
+  red_candle_cake: Kage med rødt stearinlys
+  black_candle_cake: Kage med sort stearinlys
+  powder_snow: Puddersne
+  cave_vines: Grottelianer
+  cave_vines_plant: Huleslyngeplante
+  big_dripleaf_stem: Stor Dryppebladstilk
+  potted_azalea_bush: Azalea potteplante
+  potted_flowering_azalea_bush: Blomstrende azalea potteplante
+  grass_path: Græs sti
   zombie_pigman_spawn_egg: Zombie mutantgris fremkaldningsæg
   cactus_green: Kaktusgrøn
   dandelion_yellow: Mælkebøttegul
@@ -1169,46 +1320,48 @@ biome:
   crimson_forest: Karmoisinskov
   warped_forest: Forskruet skov
   basalt_deltas: Basalt deltaer
+  dripstone_caves: Drypstensgrotter
+  lush_caves: Frodige grotter
   nether: Nether
 enchantment:
-  fire_protection: Ildbeskyttelse
-  sharpness: Skarphed
-  flame: Flamme
-  soul_speed: Sjælehastighed
-  aqua_affinity: Vandtilpasset
-  punch: Slag
-  loyalty: Loyalitet
-  depth_strider: Dybdevandrer
-  vanishing_curse: Forsvindings forbandelse
-  unbreaking: Uødelæggelig
-  knockback: Tilbageslag
-  luck_of_the_sea: Havets held
-  binding_curse: Bindende forbandelse
-  fortune: Held
   protection: Beskyttelse
-  efficiency: Effektivitet
-  mending: Genopbyggelse
-  frost_walker: Frost gåer
-  lure: Lokkemad
-  looting: Plyndring
-  piercing: Gennemtrængende
-  blast_protection: Eksplosionsbeskyttelse
-  smite: Fordriv
-  multishot: Multiskud
-  fire_aspect: Ildaspekt
-  channeling: Kanalisering
-  sweeping: Større klinge
-  thorns: Torne
-  bane_of_arthropods: Leddyrenes banemand
-  respiration: Respiration
-  riptide: Understrøm
-  silk_touch: Silkeberøring
-  quick_charge: Hurtig Ladning
-  projectile_protection: Projektilbeskyttelse
-  impaling: Spidning
+  fire_protection: Ildbeskyttelse
   feather_falling: Fjerfald
+  blast_protection: Eksplosionsbeskyttelse
+  projectile_protection: Projektilbeskyttelse
+  respiration: Respiration
+  aqua_affinity: Vandtilpasset
+  thorns: Torne
+  depth_strider: Dybdevandrer
+  frost_walker: Frost gåer
+  binding_curse: Bindende forbandelse
+  sharpness: Skarphed
+  smite: Fordriv
+  bane_of_arthropods: Leddyrenes banemand
+  knockback: Tilbageslag
+  fire_aspect: Ildaspekt
+  looting: Plyndring
+  sweeping: Større klinge
+  efficiency: Effektivitet
+  silk_touch: Silkeberøring
+  unbreaking: Uødelæggelig
+  fortune: Held
   power: Kraft
+  punch: Slag
+  flame: Flamme
   infinity: Uendelig
+  luck_of_the_sea: Havets held
+  lure: Lokkemad
+  loyalty: Loyalitet
+  impaling: Spidning
+  riptide: Understrøm
+  channeling: Kanalisering
+  multishot: Multiskud
+  quick_charge: Hurtig Ladning
+  piercing: Gennemtrængende
+  mending: Genopbyggelse
+  vanishing_curse: Forsvindings forbandelse
+  soul_speed: Sjælehastighed
 potion:
   uncraftable: Ulavelig eliksir
   water: Vandflaske
@@ -1403,6 +1556,11 @@ entity:
   strider: Lavavandrer
   zoglin: Zoglin
   piglin_brute: Piglin bølle
+  axolotl: Axolotl
+  glow_item_frame: Glødende genstandsramme
+  glow_squid: Glødesprutte
+  goat: Ged
+  marker: Markør
   fishing_hook: Flåd
   lightning: Lyn
   player: Spiller
@@ -2202,17 +2360,3 @@ villager_profession:
   shepherd: Hyrde
   toolsmith: Værktøjssmed
   weaponsmith: Våbensmed
-villager_career:
-  farmer: Landmand
-  fisherman: Fisker
-  shepherd: Hyrde
-  fletcher: Pilemager
-  librarian: Bibliotekar
-  cartographer: Korttegner
-  cleric: Gejstlig
-  armorer: Rustningssmed
-  weapon_smith: Våbensmed
-  tool_smith: Værktøjssmed
-  butcher: Slagter
-  leatherworker: Læderarbejder
-  nitwit: Tumpe

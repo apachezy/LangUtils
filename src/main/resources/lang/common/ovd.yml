@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:48                    #
+# Build time: 2021-07-04 21:46:04                    #
 # ####################################################
 language:
   code: ovd
@@ -14,10 +14,17 @@ material:
   polished_diorite: Polirað dorit
   andesite: Andesit
   polished_andesite: Polirað andesit
+  deepslate: Diuopstjiffer
+  cobbled_deepslate: Kullerstiensdiuopstjiffer
+  polished_deepslate: Polerad djupskiffer
+  calcite: Kalkspat
+  tuff: Tuff
+  dripstone_block: Druppstiensblokk
   grass_block: Grasblokk
   dirt: Muld
   coarse_dirt: Russlun muld
   podzol: Podzol
+  rooted_dirt: Ruotaðmulldn
   crimson_nylium: Karmosinnylium
   warped_nylium: Förvrängd nylium
   cobblestone: Gatustie
@@ -39,10 +46,67 @@ material:
   sand: Sandn
   red_sand: Roðsandn
   gravel: Gruseð
-  gold_ore: Gullåðer
-  iron_ore: Iennmalmsåðer
   coal_ore: Kuolmalmsåðer
+  deepslate_coal_ore: Diuopstjifferkålåðer
+  iron_ore: Iennmalmsåðer
+  deepslate_iron_ore: Diuopstjiffer iennåðer
+  copper_ore: Kuppärmåm
+  deepslate_copper_ore: Diuopstjifferkuppäråðer
+  gold_ore: Gullåðer
+  deepslate_gold_ore: Diuopstjiffer gullåðer
+  redstone_ore: Redstoneåðer
+  deepslate_redstone_ore: Diuopstjiffer roðstienåðer
+  emerald_ore: Smaragdåðer
+  deepslate_emerald_ore: Diuopstjiffersmaragdåðer
+  lapis_ore: Lapis lazuli åðer
+  deepslate_lapis_ore: Diuopstjiffer Lapis Lazuliåðer
+  diamond_ore: Diamantåder
+  deepslate_diamond_ore: Diuopstjiffer diamantåðer
   nether_gold_ore: Nethergullåðer
+  nether_quartz_ore: Netherkwartsåðer
+  ancient_debris: Ljuotgåmålt rappel
+  coal_block: Kuolblokk
+  raw_iron_block: Råiennblokk
+  raw_copper_block: Råkuppärblokk
+  raw_gold_block: Rågullblokk
+  amethyst_block: Ametistblokk
+  budding_amethyst: Knuppend ametist
+  iron_block: Iennblokk
+  copper_block: Kupperblokk
+  gold_block: Gullblokk
+  diamond_block: Diamantblokk
+  netherite_block: Blokk ov netherite
+  exposed_copper: Kuppärn so synes
+  weathered_copper: Kuppärn so ir weðerbitin
+  oxidized_copper: Kuppärn so ar rostað
+  cut_copper: Skurin kuppär
+  exposed_cut_copper: Eksponirað skurin kupär
+  weathered_cut_copper: Weðerne´tt skurin kuppär
+  oxidized_cut_copper: Oksiðirað skurin kupär
+  cut_copper_stairs: Trampur åv skurin kuppär
+  exposed_cut_copper_stairs: Eksponirað skurin kupärtrampur
+  weathered_cut_copper_stairs: Weðerne´tt trampur åv skurin kuppär
+  oxidized_cut_copper_stairs: Oksiðirað trampur ov skurin kupär
+  cut_copper_slab: Skurin kuppärstjiv
+  exposed_cut_copper_slab: Eksponirað kupärstjiv
+  weathered_cut_copper_slab: Wederne´tt skurin kuppärstjiv
+  oxidized_cut_copper_slab: Oksiðirað skurin kupärstjiv
+  waxed_copper_block: Kuppärblokk so ir waksað
+  waxed_exposed_copper: Waksað eksponiaraðkupär
+  waxed_weathered_copper: Wederne´tt waksað kuppär
+  waxed_oxidized_copper: Waksað oksiðraðkupär
+  waxed_cut_copper: Waksað skurin kuppär
+  waxed_exposed_cut_copper: Waksað eksponirað skurin kupär
+  waxed_weathered_cut_copper: Waksað weðerne´tt skurin kupär
+  waxed_oxidized_cut_copper: Skurin waksað oksiðiraðkuppär
+  waxed_cut_copper_stairs: Waksaðer kuppärtrampur
+  waxed_exposed_cut_copper_stairs: Waksað eksponirað kupärtrampur
+  waxed_weathered_cut_copper_stairs: Waksað weðerne´tt trampur åv skurin kupär
+  waxed_oxidized_cut_copper_stairs: Skurin waksað oksiðiraðkuppärtrampur
+  waxed_cut_copper_slab: Waksað skurin kupperstjiv
+  waxed_exposed_cut_copper_slab: Waksað eksponirað skurin kupärstjiv
+  waxed_weathered_cut_copper_slab: Waksað weðerne´tt skurin kupärstjiv
+  waxed_oxidized_cut_copper_slab: Waksað oksiðirað skurin kuppärstjiv
   oak_log: Iekkabb
   spruce_log: Grǫkabb
   birch_log: Byörkkabb
@@ -81,26 +145,24 @@ material:
   jungle_leaves: Junggellov
   acacia_leaves: Akasialov
   dark_oak_leaves: Mörkieklov
+  azalea_leaves: Asalealover
+  flowering_azalea_leaves: Asalealover so bljommer
   sponge: Twåsopp
   wet_sponge: Wåt twåsopp
   glass: Glas
-  lapis_ore: Lapis lazuli åðer
-  lapis_block: Lapis lazuli blokk
-  dispenser: Autdieler
+  tinted_glass: Tonaðglas
+  lapis_block: Blokk åv Lapis Lazuli
   sandstone: Sandstie
   chiseled_sandstone: Mejslað sandstie
   cut_sandstone: Klipptsandstie
-  note_block: Meddielendblokk
-  powered_rail: Rels min kraft
-  detector_rail: Rels min detektor
-  sticky_piston: Kliemun kolv
   cobweb: Dyörgnęt
   grass: Gras
   fern: Uormbunk
+  azalea: Asalea
+  flowering_azalea: Asalea so bljommer
   dead_bush: Doð buoske
   seagrass: Sjugras
   sea_pickle: Sjugurka
-  piston: Kolv
   white_wool: Wait ull
   orange_wool: Guolroð ull
   magenta_wool: Liuoslila ull
@@ -130,6 +192,7 @@ material:
   cornflower: Rugbljomm
   lily_of_the_valley: Bukkblaðsbljomm
   wither_rose: Wissnaðruos
+  spore_blossom: Sporbljomningg
   brown_mushroom: Brunsopp
   red_mushroom: Roðsopp
   crimson_fungus: Karmosinsopp
@@ -141,9 +204,12 @@ material:
   twisting_vines: Rwaiðend kleðerwekst
   sugar_cane: Sokkerrör
   kelp: Alg
+  moss_carpet: Muossmatt
+  moss_block: Muossblokk
+  hanging_roots: Aindjend ruotur
+  big_dripleaf: Struru druplovę
+  small_dripleaf: Små druplover
   bamboo: Bambu
-  gold_block: Gullblokk
-  iron_block: Iennblokk
   oak_slab: Iekstjiv
   spruce_slab: Gråstjiv
   birch_slab: Byörkstjiv
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: Blotsandstie
   smooth_stone: Blotstie
   bricks: Tigelstiener
-  tnt: Dynamit
   bookshelf: Buokill
   mossy_cobblestone: Muossun gatustie
   obsidian: Obsiðan
@@ -187,27 +252,11 @@ material:
   spawner: Block fer te djärå ymse
   oak_stairs: Iektrampur
   chest: Tjista
-  diamond_ore: Diamantåder
-  diamond_block: Diamantblokk
   crafting_table: Arbietsbainkk
   farmland: Åkerjuord
   furnace: Smeltungen
   ladder: Stitji
-  rail: Rels
   cobblestone_stairs: Gatustįetrampur
-  lever: Lunna
-  stone_pressure_plate: Stįepressplatt
-  oak_pressure_plate: Iekpressplatt
-  spruce_pressure_plate: Grǫpressplant
-  birch_pressure_plate: Byörkpressplatt
-  jungle_pressure_plate: Junggelpressplatt
-  acacia_pressure_plate: Akasiapressplatt
-  dark_oak_pressure_plate: Mörkiekpressplatt
-  crimson_pressure_plate: Mörkroð trykkstjiv
-  warped_pressure_plate: Fevrängd trykkstjiv
-  polished_blackstone_pressure_plate: Poilirað trykkplatt ov swartstien
-  redstone_ore: Redstoneåðer
-  redstone_torch: Redstonestikkliuos
   snow: Sniųo
   ice: Aisn
   snow_block: Sniųoblokk
@@ -224,32 +273,31 @@ material:
   warped_fence: Fevrängt stakiet
   pumpkin: Pumpa
   carved_pumpkin: Skurin pumpa
+  jack_o_lantern: Lykta, gard ov pumpu
   netherrack: Netherrack
   soul_sand: Själsand
   soul_soil: Själsmulld
   basalt: Basalt
   polished_basalt: Polirað basalt
+  smooth_basalt: Len basalt
   soul_torch: Själsstikkliuos
   glowstone: Glyöðstien
-  jack_o_lantern: Lykta, gard ov pumpu
-  oak_trapdoor: Iekfollukku
-  spruce_trapdoor: Grą̊follukku
-  birch_trapdoor: Byörkfollukku
-  jungle_trapdoor: Junggelluku
-  acacia_trapdoor: Akasiafollukku
-  dark_oak_trapdoor: Mörkiekfollukku
-  crimson_trapdoor: Mörkroð follukk
-  warped_trapdoor: Fevrengd follukku
   infested_stone: Smittað stie
   infested_cobblestone: Smittað gatustįe
   infested_stone_bricks: Smittað stįetigelstie
   infested_mossy_stone_bricks: Mossug stįetigelstie
   infested_cracked_stone_bricks: Smittað sprutjintigelstie
   infested_chiseled_stone_bricks: Smittað mejslað stįetigelstie
+  infested_deepslate: Infektirað diuopstjiffer
   stone_bricks: Stįetigelstie
   mossy_stone_bricks: Mossun stįetigelstie
   cracked_stone_bricks: Klumnað st stįetigelstie
   chiseled_stone_bricks: Mejslað stįetigelstie
+  deepslate_bricks: Djupskiffermursten
+  cracked_deepslate_bricks: Sprutjin diuopstjifferplatt muorstiener
+  deepslate_tiles: Djupskiffertegel
+  cracked_deepslate_tiles: Sprutjin diuopstjifferkakel
+  chiseled_deepslate: Mejslað diuopstjiffer
   brown_mushroom_block: Brun soppblokk
   red_mushroom_block: Roð soppblokk
   mushroom_stem: Soppstjälk
@@ -258,14 +306,7 @@ material:
   glass_pane: Glasrut
   melon: Meluon
   vine: Kleðerwekst
-  oak_fence_gate: Grind i iekstakiet
-  spruce_fence_gate: Grind i grą̊stakiet
-  birch_fence_gate: Grind i byörkstakiet
-  jungle_fence_gate: Grind i jungelstakiet
-  acacia_fence_gate: Grind i akasiastakiet
-  dark_oak_fence_gate: Grind i mörkiekstakiet
-  crimson_fence_gate: Mörkroð dörer i stakiet
-  warped_fence_gate: Fevrengd grind
+  glow_lichen: Lavi so glyöðer
   brick_stairs: Tigelstįetrampur
   stone_brick_stairs: Stįetigelstietrampur
   mycelium: Mysel
@@ -280,11 +321,8 @@ material:
   end_stone: Slutstie
   end_stone_bricks: Sluttigelstiener
   dragon_egg: Drakeddję
-  redstone_lamp: Redstonelampa
   sandstone_stairs: Sandstįetrampur
-  emerald_ore: Smaragdåðer
   ender_chest: Endertjist
-  tripwire_hook: Styppeltråðkruok
   emerald_block: Smaragdblokk
   spruce_stairs: Grǫtrampur
   birch_stairs: Byörktrampur
@@ -310,33 +348,18 @@ material:
   blackstone_wall: Swartstįemuor
   polished_blackstone_wall: Polirað muor ov swartstien
   polished_blackstone_brick_wall: Muor ov poliraðer swartstįestiener
-  stone_button: Stįeknapp
-  oak_button: Iekknapp
-  spruce_button: Grǫknapp
-  birch_button: Byörkknapp
-  jungle_button: Jungelknapp
-  acacia_button: Akasiaknapp
-  dark_oak_button: Mörkiekknapp
-  crimson_button: Mörkroð knapp
-  warped_button: Fevrengd knapp
-  polished_blackstone_button: Polirað swartstįeknapp
+  cobbled_deepslate_wall: Muor ov kullerstiensdiuopstjiffer
+  polished_deepslate_wall: Polerad djupskiffermur
+  deepslate_brick_wall: Djupskiffermurstensmur
+  deepslate_tile_wall: Djupskiffertegelmur
   anvil: Smiðsteð
   chipped_anvil: Skardut smiðsteð
   damaged_anvil: Skåðåð smiðsteð
-  trapped_chest: Instainggd tjist
-  light_weighted_pressure_plate: Litt pressplatt
-  heavy_weighted_pressure_plate: Tungg pressplatt
-  daylight_detector: Dagsljuosdetektor
-  redstone_block: Redstoneblokk
-  nether_quartz_ore: Netherkwartsåðer
-  hopper: Tratt
   chiseled_quartz_block: Mejslað kwartsblokk
   quartz_block: Kwartsblokk
   quartz_bricks: Tigelstiener ov kwarts
   quartz_pillar: Kwartspiler
   quartz_stairs: Kwartstrampur
-  activator_rail: Rels min aktivator
-  dropper: Autmäter
   white_terracotta: Waitt terrakotta
   orange_terracotta: Guolroð terrakotta
   magenta_terracotta: Magenta terrakotta
@@ -354,7 +377,7 @@ material:
   red_terracotta: Roð terrakotta
   black_terracotta: Swart terrakotta
   barrier: Inder
-  iron_trapdoor: Iennfollukku
+  light: Liuoseð
   hay_block: Öbal
   white_carpet: Wait matta
   orange_carpet: Guolroð matta
@@ -373,12 +396,10 @@ material:
   red_carpet: Roð matta
   black_carpet: Swart matta
   terracotta: Terrakotta
-  coal_block: Kuolblokk
   packed_ice: Pakkað ais
   acacia_stairs: Akasiatrampur
   dark_oak_stairs: Mörkiektrampur
-  slime_block: Kliemblokk
-  grass_path: Grasstaig
+  dirt_path: Staig
   sunflower: Suolruos
   lilac: Syriener
   rose_bush: Ruosbuosk
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: Roð Nethertigelstiener
   bone_block: Bįeblokk
   structure_void: Stukrturtuomruom
-  observer: Observatör
   shulker_box: Shulkerlåð
   white_shulker_box: Wait shulkerlåða
   orange_shulker_box: Guolroð shulkerlåða
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: Roðu Nethertigelstįetrampur
   polished_andesite_stairs: Poliraðer andesittrampur
   diorite_stairs: Diorittrampur
+  cobbled_deepslate_stairs: Trampur åv kullerstiensdiuopstjiffer
+  polished_deepslate_stairs: Polerad djupskiffertrappa
+  deepslate_brick_stairs: Djupskiffermurstenstrappa
+  deepslate_tile_stairs: Djupskiffertegeltrappa
   polished_granite_slab: Polirað granitstjiv
   smooth_red_sandstone_slab: Blot roð sandstįestjiv
   mossy_stone_brick_slab: Mossun stietigelstįestjiv
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: Rod nethertigelstįestjiv
   polished_andesite_slab: Polirað andesitstjiv
   diorite_slab: Diroitstjiv
+  cobbled_deepslate_slab: Stjiv ov Diuopstjifferstjiv
+  polished_deepslate_slab: Polerad djupskifferplatta
+  deepslate_brick_slab: Djupskiffermurstensplatta
+  deepslate_tile_slab: Djupskiffertegelplatta
   scaffolding: Byggstellningg
+  redstone: Redstonedamb
+  redstone_torch: Redstonestikkliuos
+  redstone_block: Redstoneblokk
+  repeater: Redstonestutterer
+  comparator: Redstonejemfyörer
+  piston: Kolv
+  sticky_piston: Kliemun kolv
+  slime_block: Kliemblokk
+  honey_block: Onunggsblokk
+  observer: Observatör
+  hopper: Tratt
+  dispenser: Autdieler
+  dropper: Autmäter
+  lectern: Kateðer
+  target: Mǫl
+  lever: Lunna
+  lightning_rod: Åsklieðer
+  daylight_detector: Dagsljuosdetektor
+  sculk_sensor: Sculkupptekker
+  tripwire_hook: Styppeltråðkruok
+  trapped_chest: Instainggd tjist
+  tnt: Dynamit
+  redstone_lamp: Redstonelampa
+  note_block: Meddielendblokk
+  stone_button: Stįeknapp
+  polished_blackstone_button: Polirað swartstįeknapp
+  oak_button: Iekknapp
+  spruce_button: Grǫknapp
+  birch_button: Byörkknapp
+  jungle_button: Jungelknapp
+  acacia_button: Akasiaknapp
+  dark_oak_button: Mörkiekknapp
+  crimson_button: Mörkroð knapp
+  warped_button: Fevrengd knapp
+  stone_pressure_plate: Stįepressplatt
+  polished_blackstone_pressure_plate: Poilirað trykkplatt ov swartstien
+  light_weighted_pressure_plate: Litt pressplatt
+  heavy_weighted_pressure_plate: Tungg pressplatt
+  oak_pressure_plate: Iekpressplatt
+  spruce_pressure_plate: Grǫpressplant
+  birch_pressure_plate: Byörkpressplatt
+  jungle_pressure_plate: Junggelpressplatt
+  acacia_pressure_plate: Akasiapressplatt
+  dark_oak_pressure_plate: Mörkiekpressplatt
+  crimson_pressure_plate: Mörkroð trykkstjiv
+  warped_pressure_plate: Fevrängd trykkstjiv
   iron_door: Ienndörer
   oak_door: Iekdörer
   spruce_door: Grą̊dörer
@@ -572,8 +646,42 @@ material:
   dark_oak_door: Mörkiekdörer
   crimson_door: Mörkroð dörer
   warped_door: Fevrengd dörer
-  repeater: Redstonestutterer
-  comparator: Redstonejemfyörer
+  iron_trapdoor: Iennfollukku
+  oak_trapdoor: Iekfollukku
+  spruce_trapdoor: Grą̊follukku
+  birch_trapdoor: Byörkfollukku
+  jungle_trapdoor: Junggelluku
+  acacia_trapdoor: Akasiafollukku
+  dark_oak_trapdoor: Mörkiekfollukku
+  crimson_trapdoor: Mörkroð follukk
+  warped_trapdoor: Fevrengd follukku
+  oak_fence_gate: Grind i iekstakiet
+  spruce_fence_gate: Grind i grą̊stakiet
+  birch_fence_gate: Grind i byörkstakiet
+  jungle_fence_gate: Grind i jungelstakiet
+  acacia_fence_gate: Grind i akasiastakiet
+  dark_oak_fence_gate: Grind i mörkiekstakiet
+  crimson_fence_gate: Mörkroð dörer i stakiet
+  warped_fence_gate: Fevrengd grind
+  powered_rail: Rels min kraft
+  detector_rail: Rels min detektor
+  rail: Rels
+  activator_rail: Rels min aktivator
+  saddle: Sa’ll
+  minecart: Gruvvangin
+  chest_minecart: Gruvvangin min lådų
+  furnace_minecart: Gruvvangin min smeltungen
+  tnt_minecart: Gruvvanging min TNT
+  hopper_minecart: Gruvvangin min tratt
+  carrot_on_a_stick: Mųoruot ą̊ ien pinne
+  warped_fungus_on_a_stick: Fevrenggd sopp ǫ ienum pinne
+  elytra: Elytra
+  oak_boat: Iekbåt
+  spruce_boat: Grǫbåt
+  birch_boat: Byörkbåt
+  jungle_boat: Junggelbåt
+  acacia_boat: Akasiabåt
+  dark_oak_boat: Mörkiekbåt
   structure_block: Strukturblokk
   jigsaw: Pusselblokk
   turtle_helmet: Stjöldkluossskal
@@ -585,7 +693,15 @@ material:
   coal: Kuol
   charcoal: Träkuol
   diamond: Diamant
+  emerald: Smaragd
+  lapis_lazuli: Lapus lazuli
+  quartz: Niðerkwarts
+  amethyst_shard: Ametiststjyrvel
+  raw_iron: Råienn
   iron_ingot: Ienntakka
+  raw_copper: Råkuppär
+  copper_ingot: Kuppärtakk
+  raw_gold: Rågulleð
   gold_ingot: Gulltakka
   netherite_ingot: Netherittakka
   netherite_scrap: Netheritskruot
@@ -669,29 +785,27 @@ material:
   bucket: Kruka
   water_bucket: Wattukruk
   lava_bucket: Lavakruk
-  minecart: Gruvvangin
-  saddle: Sa’ll
-  redstone: Redstonedamb
+  powder_snow_bucket: Kruk fer puðersniuon
   snowball: Sniųoboll
-  oak_boat: Iekbåt
   leather: Leðer
   milk_bucket: Mjokkruk
   pufferfish_bucket: Kruk min puff-fiskum
   salmon_bucket: Kruk min oraðum
   cod_bucket: Kruk min tosk
   tropical_fish_bucket: Kruk min tropikfiskum
+  axolotl_bucket: Įe kruk min Axolotl
   brick: Tigelstie
   clay_ball: Lierbolld
   dried_kelp_block: Blokk ov torkað alg
   paper: Papir
   book: Buok
   slime_ball: Kliemboll
-  chest_minecart: Gruvvangin min lådų
-  furnace_minecart: Gruvvangin min smeltungen
   egg: Egg
   compass: Kumpass
+  bundle: Bynde
   fishing_rod: Fiskspuoð
   clock: Klukka
+  spyglass: Tjiker
   glowstone_dust: Glyöðstįedamm
   cod: Rå tosk
   salmon: Rå orað
@@ -700,8 +814,8 @@ material:
   cooked_cod: Kuokað tosk
   cooked_salmon: Kuokað orað
   ink_sac: Blekksjäk
+  glow_ink_sac: Glyöðend bliksjäkk
   cocoa_beans: Soklaðbyönur
-  lapis_lazuli: Lapus lazuli
   white_dye: Wait ferg
   orange_dye: Guolroð ferg
   magenta_dye: Liuoslila ferg
@@ -765,6 +879,7 @@ material:
   cauldron: Ketil
   ender_eye: Enderog
   glistering_melon_slice: Glistrend melonstjiv
+  axolotl_spawn_egg: Axolotl yndjegg
   bat_spawn_egg: Egg för te djärå leðrer
   bee_spawn_egg: Egg fer te djärå bi minn
   blaze_spawn_egg: Egg fer te djärå lugo
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: Egg fer te djärå evoker
   fox_spawn_egg: Egg fer te djärå rövir
   ghast_spawn_egg: Egg fer te djärå ghast
+  glow_squid_spawn_egg: Glyöðend egg fer te djärå blikfistjin
+  goat_spawn_egg: Skapelseddjer fer dijetum
   guardian_spawn_egg: Egg fer te djärå wakter
   hoglin_spawn_egg: Skapelseegg fer Hoglin
   horse_spawn_egg: Egg fer te djärå ester
@@ -833,8 +950,8 @@ material:
   fire_charge: Jäldleðningg
   writable_book: Buok og fjäðerpenn
   written_book: Skrievað buok
-  emerald: Smaragd
   item_frame: Ram að grejum
+  glow_item_frame: Glyöðend föremǫlsram
   flower_pot: Bljommkruk
   carrot: Mųoruot
   potato: Pära
@@ -848,17 +965,12 @@ material:
   zombie_head: Sombiovuð
   creeper_head: Creeper-ovuð
   dragon_head: Drakovuð
-  carrot_on_a_stick: Mųoruot ą̊ ien pinne
-  warped_fungus_on_a_stick: Fevrenggd sopp ǫ ienum pinne
   nether_star: Netherstienna
   pumpkin_pie: Pumpapaj
   firework_rocket: Fyrwerkeriraktiet
   firework_star: Fyrwerkeristienn
   enchanted_book: Fertryllaðbuok
   nether_brick: Nethertigelstie
-  quartz: Niðerkwarts
-  tnt_minecart: Gruvvanging min TNT
-  hopper_minecart: Gruvvangin min tratt
   prismarine_shard: Prismarinstjyrvel
   prismarine_crystals: Prismarinkristaller
   rabbit: Rå eri
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: Fördjiptaðkuov
   lingering_potion: Brygd så wärer laindje
   shield: Stjöld
-  elytra: Elytra
-  spruce_boat: Grǫbåt
-  birch_boat: Byörkbåt
-  jungle_boat: Junggelbåt
-  acacia_boat: Akasiabåt
-  dark_oak_boat: Mörkiekbåt
   totem_of_undying: Uoðoð-totem
   shulker_shell: Shulkerskal
   iron_nugget: Iennkluns
@@ -948,13 +1054,13 @@ material:
   cartography_table: Kartriterbuord
   fletching_table: Fletchinbuord
   grindstone: Slipstie
-  lectern: Kateðer
   smithing_table: Smiðbuord
   stonecutter: Stiestjärer
   bell: Rindjklukk
   lantern: Lykta
   soul_lantern: Själsllykta
   sweet_berries: Syötu ber
+  glow_berries: Glyöðendber
   campfire: Sovujäld
   soul_campfire: Själsjäldn
   shroomlight: Shroomliuos
@@ -962,12 +1068,8 @@ material:
   bee_nest: Bisamell
   beehive: Bikup
   honey_bottle: Onunggsputell
-  honey_block: Onunggsblokk
   honeycomb_block: Wakskakublokk
   lodestone: Magnetit
-  netherite_block: Blokk ov netherite
-  ancient_debris: Ljuotgåmålt rappel
-  target: Mǫl
   crying_obsidian: Grainend obsidian
   blackstone: Swartstien
   blackstone_slab: Swartstįestjiv
@@ -982,6 +1084,28 @@ material:
   polished_blackstone_brick_stairs: Trampur ov polirað swartstįestiener
   cracked_polished_blackstone_bricks: Sprukkner swartstįestiener
   respawn_anchor: Anker för återupplivningg
+  candle: Stiarinljuos
+  white_candle: Wait stiarinljuos
+  orange_candle: Brandguol stiarinljuos
+  magenta_candle: Magentafergað stiarinljuos
+  light_blue_candle: Ljuosblått stiarinljuos
+  yellow_candle: Guolt stiarinljuos
+  lime_candle: Laimfergað stiarinljuos
+  pink_candle: Stjärt stiarinljuos
+  gray_candle: Grått stiarinljuos
+  light_gray_candle: Ljuosgrått stiarinljuos
+  cyan_candle: Syanfergað stiarinljuos
+  purple_candle: Lila stiarinljuos
+  blue_candle: Blått stiarinljuos
+  brown_candle: Brunt stiarinljuos
+  green_candle: Gryönt stiarinljuos
+  red_candle: Rott stiarinljuos
+  black_candle: Swart stiarinljuos
+  small_amethyst_bud: Litn ametistknupp
+  medium_amethyst_bud: Millostur ametistknupp
+  large_amethyst_bud: Stur ametistknupp
+  amethyst_cluster: Ametistuop
+  pointed_dripstone: Spitsun druppstien
   water: Wattn
   lava: Lava
   tall_seagrass: Langgt sjugras
@@ -1004,6 +1128,9 @@ material:
   attached_melon_stem: Ą̊sett melonstiuok
   pumpkin_stem: Pumpstiuok
   melon_stem: Melonstiuok
+  water_cauldron: Watuketil
+  lava_cauldron: Lavaketil
+  powder_snow_cauldron: Ketil fer puðersniuon
   end_portal: Slutportal
   cocoa: Kakao
   tripwire: Styppeltråð
@@ -1083,6 +1210,30 @@ material:
   potted_warped_fungus: Fevrengd sopp i kruku
   potted_crimson_roots: Mörkroð ruotur i kruku
   potted_warped_roots: Fevrengd routur i kruku
+  candle_cake: Stiariniuostårt
+  white_candle_cake: Tårta med vitt stearinljus
+  orange_candle_cake: Tårta med orange stearinljus
+  magenta_candle_cake: Tårta med ljuslila stearinljus
+  light_blue_candle_cake: Tårta med ljusblått stearinljus
+  yellow_candle_cake: Tårta med gult stearinljus
+  lime_candle_cake: Tårta med limegrönt stearinljus
+  pink_candle_cake: Tårta med rosa stearinljus
+  gray_candle_cake: Tårta med grått stearinljus
+  light_gray_candle_cake: Tårta med ljusgrått stearinljus
+  cyan_candle_cake: Tårta med turkost stearinljus
+  purple_candle_cake: Tårta med lila stearinljus
+  blue_candle_cake: Tårta med blått stearinljus
+  brown_candle_cake: Tårta med brunt stearinljus
+  green_candle_cake: Tårta med grönt stearinljus
+  red_candle_cake: Tårta med rött stearinljus
+  black_candle_cake: Tårta med svart stearinljus
+  powder_snow: Puðersniuon
+  cave_vines: Grottkleðerwekst
+  cave_vines_plant: Grottkleðerwekstplempta
+  big_dripleaf_stem: Stur druplovsstiuok
+  potted_azalea_bush: Asalea i kruku
+  potted_flowering_azalea_bush: Asalea so bljuommer i kruku
+  grass_path: Grasstaig
   zombie_pigman_spawn_egg: Egg fer te djärå sombigraiskaller
   cactus_green: Kaktusgrön
   dandelion_yellow: Maskrosgul
@@ -1169,46 +1320,48 @@ biome:
   crimson_forest: Karmosinskuog
   warped_forest: Fervrängd skuog
   basalt_deltas: Basalt-delta
+  dripstone_caves: Druppstiensgrottur
+  lush_caves: Angripner grottur
   nether: Nether
 enchantment:
-  fire_protection: Jäldstjydd
-  sharpness: Ur wasst eð ir
-  flame: Lugå
-  soul_speed: Ur straitt själn far
-  aqua_affinity: Laik wattneð
-  punch: Slag
-  loyalty: Truogeniet
-  depth_strider: Djuoptjuoger
-  vanishing_curse: Ugsningg för te förswinna
-  unbreaking: Far it sund
-  knockback: Rekå
-  luck_of_the_sea: Fistjelukk
-  binding_curse: Ugsningg um bindningg
-  fortune: Raitjduom
   protection: Stjydd
-  efficiency: Effektivitiet
-  mending: Lagningg
-  frost_walker: Työlåfnallerer
-  lure: Biete
-  looting: Plundringg
-  piercing: Djärå uol i kruppem
-  blast_protection: Stjydd muot eksplosiuon
-  smite: Straffa
-  multishot: Flieru skuott
-  fire_aspect: Jäldautsdjåend
-  channeling: Djärå rennur
-  sweeping: Swepend swärdsegg
-  thorns: Tagg
-  bane_of_arthropods: Djįpt
-  respiration: Andningg
-  riptide: Tiðwattuwåg
-  silk_touch: Tag i warlit
-  quick_charge: Snabbladdningg
-  projectile_protection: Stjydd muot prosektil
-  impaling: Pikk ini
+  fire_protection: Jäldstjydd
   feather_falling: Follend fjäðer
+  blast_protection: Stjydd muot eksplosiuon
+  projectile_protection: Stjydd muot prosektil
+  respiration: Andningg
+  aqua_affinity: Laik wattneð
+  thorns: Tagg
+  depth_strider: Djuoptjuoger
+  frost_walker: Työlåfnallerer
+  binding_curse: Ugsningg um bindningg
+  sharpness: Ur wasst eð ir
+  smite: Straffa
+  bane_of_arthropods: Djįpt
+  knockback: Rekå
+  fire_aspect: Jäldautsdjåend
+  looting: Plundringg
+  sweeping: Swepend swärdsegg
+  efficiency: Effektivitiet
+  silk_touch: Tag i warlit
+  unbreaking: Far it sund
+  fortune: Raitjduom
   power: Krapt
+  punch: Slag
+  flame: Lugå
   infinity: Ųoendligiet
+  luck_of_the_sea: Fistjelukk
+  lure: Biete
+  loyalty: Truogeniet
+  impaling: Pikk ini
+  riptide: Tiðwattuwåg
+  channeling: Djärå rennur
+  multishot: Flieru skuott
+  quick_charge: Snabbladdningg
+  piercing: Djärå uol i kruppem
+  mending: Lagningg
+  vanishing_curse: Ugsningg för te förswinna
+  soul_speed: Ur straitt själn far
 potion:
   uncraftable: Drykk eð går it djärå
   water: Watuputell
@@ -1403,6 +1556,11 @@ entity:
   strider: Wandrer
   zoglin: Zoglin
   piglin_brute: Piglinfugat
+  axolotl: Axolotl
+  glow_item_frame: Glyöðend föremǫlsram
+  glow_squid: Glyöðend blikfisk
+  goat: Djiet
+  marker: Markirer
   fishing_hook: Fiskflåtå
   lightning: Bliksterstįin
   player: Spilär
@@ -2202,17 +2360,3 @@ villager_profession:
   shepherd: Gęslkall
   toolsmith: Andkuostsmið
   weaponsmith: Wapensmið
-villager_career:
-  farmer: Buonde
-  fisherman: Fistşer
-  shepherd: Gęslkall
-  fletcher: Pilmakare
-  librarian: Bibliotekarie
-  cartographer: Kartograf
-  cleric: Prest
-  armorer: Rustningssmed
-  weapon_smith: Vapensmed
-  tool_smith: Verktygssmed
-  butcher: Slaktare
-  leatherworker: Läderarbetare
-  nitwit: Byfåne

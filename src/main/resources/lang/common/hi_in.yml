@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:48                    #
+# Build time: 2021-07-04 21:46:03                    #
 # ####################################################
 language:
   code: hi_in
@@ -14,10 +14,17 @@ material:
   polished_diorite: चिकना डाओराइट
   andesite: एंडेसाइट
   polished_andesite: चिकना एंडेसाइट
+  deepslate: डीपस्लेट
+  cobbled_deepslate: पथरीला डीपस्लेट
+  polished_deepslate: चिकना डीपस्लेट
+  calcite: कैल्साइट
+  tuff: घनाश्म
+  dripstone_block: ड्रिपस्टोन ब्लॉक
   grass_block: घास का प्रखंड
   dirt: मिट्टी
   coarse_dirt: रूखा मिट्टी
   podzol: पोडोजोल
+  rooted_dirt: जड़ वाली मिट्टी
   crimson_nylium: क्रिमसन नयलियम
   warped_nylium: नीली नर्फूई
   cobblestone: फर्शी पत्‍थर
@@ -39,10 +46,67 @@ material:
   sand: रेत
   red_sand: लाल रेत
   gravel: बजरी
-  gold_ore: सोने का अयस्क
-  iron_ore: लौह अयस्क
   coal_ore: कोयला अयस्क
+  deepslate_coal_ore: डीपस्लेट कोयले का पत्थर
+  iron_ore: लौह अयस्क
+  deepslate_iron_ore: डीपस्लेट लोहे का पत्थर
+  copper_ore: तांबे का अयस्क
+  deepslate_copper_ore: डीपस्लेट तांबे का पत्थर
+  gold_ore: सोने का अयस्क
+  deepslate_gold_ore: डीपस्लेट सोने का पत्थर
+  redstone_ore: रेडस्टोन का अयस्क
+  deepslate_redstone_ore: डीपस्लेट रेडस्टोन का पत्थर
+  emerald_ore: पन्ना का अयस्क
+  deepslate_emerald_ore: डीपस्लेट पन्ने का पत्थर
+  lapis_ore: लाजवर्द का अयस्क
+  deepslate_lapis_ore: डीपस्लेट लेपिस लज़ूली का पत्थर
+  diamond_ore: हीरक अयस्क
+  deepslate_diamond_ore: डीपस्लेट हीरे का पत्थर
   nether_gold_ore: नेदर के सोने का अयस्क
+  nether_quartz_ore: नेदर स्फटिक का अयस्क
+  ancient_debris: प्राचीन अवशेष
+  coal_block: कोयला का प्रखंड
+  raw_iron_block: कच्चे लोहे का ब्लॉक
+  raw_copper_block: कच्चे तांबे का ब्लॉक
+  raw_gold_block: कच्चे सोने का ब्लॉक
+  amethyst_block: जंबुमणि का प्रखंड
+  budding_amethyst: मुकुलन जंबुमणि
+  iron_block: लोहा का प्रखंड
+  copper_block: तांबा की ब्लॉक
+  gold_block: सोना का प्रखंड
+  diamond_block: हीरा का प्रखंड
+  netherite_block: नेदराइट का प्रखंड
+  exposed_copper: खुला तांबा
+  weathered_copper: अपक्षीण हुए तांबे
+  oxidized_copper: ऑक्सिडाइज़ड तांबा
+  cut_copper: कटा हुआ तांबा
+  exposed_cut_copper: खुला कटा तांबा
+  weathered_cut_copper: अपक्षीण कटे हुए तांबे
+  oxidized_cut_copper: ऑक्सिडाइज़ किया गया कटा तांबा
+  cut_copper_stairs: कटे हुए तांबे की सीढ़ियाँ
+  exposed_cut_copper_stairs: खुले कटे तांबे की सीढ़ियाँ
+  weathered_cut_copper_stairs: अपक्षीण कटे हुए तांबे की सीढ़ियाँ
+  oxidized_cut_copper_stairs: ऑक्सिडाइज़ किए गए तांबे की सीढ़ियाँ
+  cut_copper_slab: कटे हुए तांबे की पटिया
+  exposed_cut_copper_slab: खुले कटे तांबे की पटिया
+  weathered_cut_copper_slab: कटे हुए अपक्षीण तांबे की पटिया
+  oxidized_cut_copper_slab: ऑक्सिडाइज़ किए गए तांबे की पटिया
+  waxed_copper_block: लच्छेदार तांबा की ब्लॉक
+  waxed_exposed_copper: मोमी खुला तांबा
+  waxed_weathered_copper: मोमी अपक्षीण तांबा
+  waxed_oxidized_copper: मोम लगा ऑक्सीकृत तांबा
+  waxed_cut_copper: मोमी कटे हुए तांबे
+  waxed_exposed_cut_copper: मोमी खुला कटा तांबा
+  waxed_weathered_cut_copper: मोमी अपक्षीण कटा हुआ तांबा
+  waxed_oxidized_cut_copper: मोम लगा कटा ऑक्सीकृत तांबा
+  waxed_cut_copper_stairs: मोमी कटे हुए तांबे की सीढ़ियाँ
+  waxed_exposed_cut_copper_stairs: मोमी खुले कटे तांबे की सीढ़ियाँ
+  waxed_weathered_cut_copper_stairs: मोमी अपक्षीण कटे हुए तांबे की सीढ़ियाँ
+  waxed_oxidized_cut_copper_stairs: मोम लगे कटे ऑक्सीकृत तांबे की सीढ़ियां
+  waxed_cut_copper_slab: मोमी कटे हुए तांबे की पटिया
+  waxed_exposed_cut_copper_slab: मोमी खुले कटे तांबे की पटिया
+  waxed_weathered_cut_copper_slab: मोमी अपक्षीण कटे हुए तांबे की पटिया
+  waxed_oxidized_cut_copper_slab: मोम लगे कटे ऑक्सीकृत तांबे की पटिया
   oak_log: बाँज का लकड़ी
   spruce_log: स्प्रूस वुड
   birch_log: बर्च वुड
@@ -81,26 +145,24 @@ material:
   jungle_leaves: जंगल के पत्तें
   acacia_leaves: बबूल के पत्तें
   dark_oak_leaves: काला बाँज के पत्तें
+  azalea_leaves: अज़ेलिया के पत्ते
+  flowering_azalea_leaves: खिले हुए अजवायन के पत्ते
   sponge: स्पंज
   wet_sponge: गीला स्पंज
   glass: काँच
-  lapis_ore: लाजवर्द का अयस्क
-  lapis_block: लाजवर्द का प्रखंड
-  dispenser: दवासाज़
+  tinted_glass: रंगीन काँच
+  lapis_block: लापीस लाज़ुली ब्लॉक
   sandstone: बलुआ पत्थर
   chiseled_sandstone: तराशा हुआ बलुआ पत्थर
   cut_sandstone: कटा हुआ बलुआ पत्थर
-  note_block: नोट ब्लॉक
-  powered_rail: संचालित रेल
-  detector_rail: वेक्षक रेल
-  sticky_piston: स्टिकी पिस्टन
   cobweb: मकड़जाल
   grass: घास
   fern: फर्न
+  azalea: अज़ेलिया
+  flowering_azalea: खिलने वाली अज़ेलिया
   dead_bush: मृत पौधा
   seagrass: समुद्री घास
   sea_pickle: समुद्र का अचार
-  piston: पिस्टन
   white_wool: सफेद ऊन
   orange_wool: नारंगी ऊन
   magenta_wool: नीलातिरक्त ऊन
@@ -130,6 +192,7 @@ material:
   cornflower: मकई का फूल
   lily_of_the_valley: घाटी के लिली
   wither_rose: विदर गुलाब
+  spore_blossom: स्पोर का बौर
   brown_mushroom: भूरा कुकुरमुत्ता
   red_mushroom: लाल कुकुरमुत्ता
   crimson_fungus: किरमिजी कवक
@@ -141,9 +204,12 @@ material:
   twisting_vines: घुमावदार बेलों
   sugar_cane: गन्ना
   kelp: सिवार
+  moss_carpet: काई का कालीन
+  moss_block: काई का ब्लॉक
+  hanging_roots: लटकते जड़
+  big_dripleaf: बड़ा ड्रिपलीफ
+  small_dripleaf: छोटा ड्रिपलीफ
   bamboo: बाँस
-  gold_block: सोना का प्रखंड
-  iron_block: लोहा का प्रखंड
   oak_slab: बाँज की पटिया
   spruce_slab: प्रसरल की पटिया
   birch_slab: भूर्ज की पटिया
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: चिकनी बलुआ पत्थर
   smooth_stone: चिकना पत्थर
   bricks: ईंटें
-  tnt: टीएनटी
   bookshelf: पुस्ताक तख्ता
   mossy_cobblestone: काई का फर्शी पत्‍थर
   obsidian: ज्वालाकाच
@@ -187,27 +252,11 @@ material:
   spawner: स्पॉनर
   oak_stairs: बाँज की सीढ़ियाँ
   chest: बक्सा
-  diamond_ore: हीरक अयस्क
-  diamond_block: हीरा का प्रखंड
   crafting_table: टेबल क्राफ्टिंग
   farmland: खेत
   furnace: भट्ठी
   ladder: सीढ़ी
-  rail: रेल
   cobblestone_stairs: फर्शी पत्‍थर की सीढ़ियाँ
-  lever: लीवर
-  stone_pressure_plate: पत्थर का दाब पट्ट
-  oak_pressure_plate: बाँज का दाब पट्ट
-  spruce_pressure_plate: प्रसरल का दाब पट्ट
-  birch_pressure_plate: भूर्ज का दाब पट्ट
-  jungle_pressure_plate: जंगल का दाब पट्ट
-  acacia_pressure_plate: बबूल का दाब पट्ट
-  dark_oak_pressure_plate: काला बाँज का दाब पट्ट
-  crimson_pressure_plate: किरमिजी दाब पट्ट
-  warped_pressure_plate: विकृत दाब पट्ट
-  polished_blackstone_pressure_plate: चमकदार कालापाषाण का दाब पट्ट
-  redstone_ore: रेडस्टोन का अयस्क
-  redstone_torch: रेडस्टोन की मशाल
   snow: हिम
   ice: बर्फ
   snow_block: बरफ का ब्लॉक
@@ -224,32 +273,31 @@ material:
   warped_fence: विकृत बाड़
   pumpkin: कद्दू
   carved_pumpkin: नक्काशीदार कद्दू
+  jack_o_lantern: जैक ओ 'लालटेन
   netherrack: नेदररैक
   soul_sand: आत्मा की रेत
   soul_soil: आत्माओं की भूमि
   basalt: असिताश्म
   polished_basalt: चमकदार असिताश्म
+  smooth_basalt: चिकना बेसाल्ट
   soul_torch: आत्मा की मशाल
   glowstone: ग्लो स्टोन
-  jack_o_lantern: जैक ओ 'लालटेन
-  oak_trapdoor: बाँज का कूट द्वार
-  spruce_trapdoor: प्रसरल का कूट द्वार
-  birch_trapdoor: भूर्ज का कूट द्वार
-  jungle_trapdoor: जंगल का कूट द्वार
-  acacia_trapdoor: बबूल का कूट द्वार
-  dark_oak_trapdoor: काला बाँज का कूट द्वार
-  crimson_trapdoor: किरमिजी कूट द्वार
-  warped_trapdoor: विकृत कूट द्वार
   infested_stone: संक्रमित पत्थर
   infested_cobblestone: संक्रमित फर्शी पत्‍थर
   infested_stone_bricks: संक्रमित पत्थर की ईंटें
   infested_mossy_stone_bricks: संक्रमित दरदर का पत्थर की ईंटें
   infested_cracked_stone_bricks: संक्रमित टूटा हुआ पत्थर की ईंटें
   infested_chiseled_stone_bricks: संक्रमित तराशा हुआ पत्थर की ईंटें
+  infested_deepslate: संक्रमित डीपस्लेट
   stone_bricks: पत्थर की ईंटें
   mossy_stone_bricks: दलदल का पत्थर की ईंटें
   cracked_stone_bricks: टूटा हुआ पत्थर की ईंटें
   chiseled_stone_bricks: तराशा हुआ पत्थर की ईंटें
+  deepslate_bricks: डीपस्लेट की ईंटें
+  cracked_deepslate_bricks: फटी डीपस्लेट की ईंटें
+  deepslate_tiles: डीपस्लेट टाइल्स
+  cracked_deepslate_tiles: फटी डीपस्लेट की टाइल्स
+  chiseled_deepslate: तराशा हुआ डीपस्लेट
   brown_mushroom_block: भूरा कुकुरमुत्ता का प्रखंड
   red_mushroom_block: लाल कुकुरमुत्ता का प्रखंड
   mushroom_stem: कुकुरमुत्ता का तना
@@ -258,14 +306,7 @@ material:
   glass_pane: खिड़की का काँच
   melon: खरबूज
   vine: बेलें
-  oak_fence_gate: बाँज का फाटक
-  spruce_fence_gate: प्रसरल का फाटक
-  birch_fence_gate: भूर्ज का फाटक
-  jungle_fence_gate: जंगल का फाटक
-  acacia_fence_gate: बबूल का फाटक
-  dark_oak_fence_gate: काला बाँज का फाटक
-  crimson_fence_gate: किरमिजी फाटक
-  warped_fence_gate: विकृत फाटक
+  glow_lichen: लाइकेन उगाएँ
   brick_stairs: ईंट की सीढ़ियाँ
   stone_brick_stairs: पत्थर की ईंट की सीढ़ियाँ
   mycelium: कवकजाल
@@ -280,11 +321,8 @@ material:
   end_stone: एन्ड का पत्थर
   end_stone_bricks: एंड का पत्थर की ईंट
   dragon_egg: ड्रैगन अंडे
-  redstone_lamp: लाल पत्थर दीपक
   sandstone_stairs: बलुआ पत्थर की सीढ़ियाँ
-  emerald_ore: पन्ना का अयस्क
   ender_chest: अंतवह छाती
-  tripwire_hook: यात्रा तार हुक
   emerald_block: पन्ना के ब्लॉक
   spruce_stairs: प्रसरल की सीढ़ियाँ
   birch_stairs: भूर्ज की सीढ़ियाँ
@@ -310,33 +348,18 @@ material:
   blackstone_wall: कालापाषाण की दीवार
   polished_blackstone_wall: चमकदार कालापाषाण की दीवार
   polished_blackstone_brick_wall: चमकदार कालापाषाण की ईंट की दीवार
-  stone_button: पथरीला बटन
-  oak_button: बाँज का बटन
-  spruce_button: प्रसरल का बटन
-  birch_button: भूर्ज का बटन
-  jungle_button: जंगल का बटन
-  acacia_button: बबूल का बटन
-  dark_oak_button: काला बाँज का बटन
-  crimson_button: किरमिजी बटन
-  warped_button: विकृत बटन
-  polished_blackstone_button: चमकदार कालापाषाण का बटन
+  cobbled_deepslate_wall: पथरीले डीपस्लेट की दीवार
+  polished_deepslate_wall: चिकने डीपस्लेट की दीवार
+  deepslate_brick_wall: डीपस्लेट ईंट की दीवार
+  deepslate_tile_wall: डीपस्लेट टाइल्स की दीवार
   anvil: निहाई
   chipped_anvil: चिपकी हुई आँवला
   damaged_anvil: क्षतिग्रस्त अहरन
-  trapped_chest: जाल बक्सा
-  light_weighted_pressure_plate: हल्का भारित दाब पट्ट
-  heavy_weighted_pressure_plate: भारी भारित दाब पट्ट
-  daylight_detector: डेलाइट सेंसर
-  redstone_block: लाल पत्थर के ब्लॉक
-  nether_quartz_ore: नेदर स्फटिक का अयस्क
-  hopper: कूदनेवाला
   chiseled_quartz_block: गढ़े हुए क्वार्ट्ज ब्लॉक
   quartz_block: स्फटिक का प्रखंड
   quartz_bricks: स्फटिक की ईंटे
   quartz_pillar: स्फटिक का स्तंभ
   quartz_stairs: स्फटिक की सीढ़ियाँ
-  activator_rail: उत्प्रेरक रेल
-  dropper: बूंद
   white_terracotta: सफेद टेराकोटा
   orange_terracotta: नारंगी टेराकोटा
   magenta_terracotta: नीलातिरक्त टेराकोटा
@@ -354,7 +377,7 @@ material:
   red_terracotta: लाल टेराकोटा
   black_terracotta: काला टेराकोटा
   barrier: अवरोध
-  iron_trapdoor: लोहे का कूट द्वार
+  light: रोशनी
   hay_block: सूखी घास गठरी
   white_carpet: सफेद कालीन
   orange_carpet: नारंगी कालीन
@@ -373,12 +396,10 @@ material:
   red_carpet: लाल कालीन
   black_carpet: काला कालीन
   terracotta: टेराकोटा
-  coal_block: कोयला का प्रखंड
   packed_ice: संकुलित बर्फ
   acacia_stairs: बबूल की सीढ़ियाँ
   dark_oak_stairs: काला बाँज की सीढ़ियाँ
-  slime_block: कीचड़ ब्लॉक
-  grass_path: घास पथ
+  dirt_path: कच्ची सड़क
   sunflower: सूरजमुखी
   lilac: नीलक
   rose_bush: गुलाब की झाड़ी
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: लाल नेदर ईंटे
   bone_block: हड्डी का प्रखंड
   structure_void: संरचना शून्य
-  observer: पर्यवेक्षक
   shulker_box: शल्कर बक्सा
   white_shulker_box: सफेद शल्कर बक्सा
   orange_shulker_box: नारंगी शूल्कर बॉक्स
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: लाल नेदर ईंट की सीढ़ियाँ
   polished_andesite_stairs: चिकना एंडेसाइट की सीढियाँ
   diorite_stairs: डाओराइट की सीढ़ियाँ
+  cobbled_deepslate_stairs: पथरीले डीपस्लेट की सीढ़ियां
+  polished_deepslate_stairs: चिकने डीपस्लेट की सीढ़ियां
+  deepslate_brick_stairs: डीपस्लेट ईंट की सीढ़ियां
+  deepslate_tile_stairs: डीपस्लेट टाइल्स की सीढ़ियां
   polished_granite_slab: चिकना ग्रेनाइट की पटिया
   smooth_red_sandstone_slab: चिकना लाल बलुआ पत्थर की पटिया
   mossy_stone_brick_slab: काई का पत्थर की ईंट की पटिया
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: लाल नेदर ईंट की पटिया
   polished_andesite_slab: चिकना एंडेसाइट की पटिया
   diorite_slab: डाओराइट की पटिया
+  cobbled_deepslate_slab: पथरीले डीपस्लेट की पटिया
+  polished_deepslate_slab: चिकने डीपस्लेट की पटिया
+  deepslate_brick_slab: डीपस्लेट ईंट की पटिया
+  deepslate_tile_slab: डीपस्लेट टाइल्स की पटिया
   scaffolding: मचान
+  redstone: रेडस्टोन का चूरा
+  redstone_torch: रेडस्टोन की मशाल
+  redstone_block: लाल पत्थर के ब्लॉक
+  repeater: लाल पत्थर पुनरावर्तक
+  comparator: लाल पत्थर तुलनित्र
+  piston: पिस्टन
+  sticky_piston: स्टिकी पिस्टन
+  slime_block: कीचड़ ब्लॉक
+  honey_block: मधु प्रखंड
+  observer: पर्यवेक्षक
+  hopper: कूदनेवाला
+  dispenser: दवासाज़
+  dropper: बूंद
+  lectern: ज्ञानतीठ
+  target: निशाना
+  lever: लीवर
+  lightning_rod: तड़ितदंड
+  daylight_detector: डेलाइट सेंसर
+  sculk_sensor: स्कल्क सेंसर
+  tripwire_hook: यात्रा तार हुक
+  trapped_chest: जाल बक्सा
+  tnt: टीएनटी
+  redstone_lamp: लाल पत्थर दीपक
+  note_block: नोट ब्लॉक
+  stone_button: पथरीला बटन
+  polished_blackstone_button: चमकदार कालापाषाण का बटन
+  oak_button: बाँज का बटन
+  spruce_button: प्रसरल का बटन
+  birch_button: भूर्ज का बटन
+  jungle_button: जंगल का बटन
+  acacia_button: बबूल का बटन
+  dark_oak_button: काला बाँज का बटन
+  crimson_button: किरमिजी बटन
+  warped_button: विकृत बटन
+  stone_pressure_plate: पत्थर का दाब पट्ट
+  polished_blackstone_pressure_plate: चमकदार कालापाषाण का दाब पट्ट
+  light_weighted_pressure_plate: हल्का भारित दाब पट्ट
+  heavy_weighted_pressure_plate: भारी भारित दाब पट्ट
+  oak_pressure_plate: बाँज का दाब पट्ट
+  spruce_pressure_plate: प्रसरल का दाब पट्ट
+  birch_pressure_plate: भूर्ज का दाब पट्ट
+  jungle_pressure_plate: जंगल का दाब पट्ट
+  acacia_pressure_plate: बबूल का दाब पट्ट
+  dark_oak_pressure_plate: काला बाँज का दाब पट्ट
+  crimson_pressure_plate: किरमिजी दाब पट्ट
+  warped_pressure_plate: विकृत दाब पट्ट
   iron_door: लौह दरवाजा
   oak_door: बाँज का दरवाजा
   spruce_door: प्रसरल का दरवाजा
@@ -572,8 +646,42 @@ material:
   dark_oak_door: काला बाँज का दरवाजा
   crimson_door: किरमिजी दरवाजा
   warped_door: विकृत दरवाजा
-  repeater: लाल पत्थर पुनरावर्तक
-  comparator: लाल पत्थर तुलनित्र
+  iron_trapdoor: लोहे का कूट द्वार
+  oak_trapdoor: बाँज का कूट द्वार
+  spruce_trapdoor: प्रसरल का कूट द्वार
+  birch_trapdoor: भूर्ज का कूट द्वार
+  jungle_trapdoor: जंगल का कूट द्वार
+  acacia_trapdoor: बबूल का कूट द्वार
+  dark_oak_trapdoor: काला बाँज का कूट द्वार
+  crimson_trapdoor: किरमिजी कूट द्वार
+  warped_trapdoor: विकृत कूट द्वार
+  oak_fence_gate: बाँज का फाटक
+  spruce_fence_gate: प्रसरल का फाटक
+  birch_fence_gate: भूर्ज का फाटक
+  jungle_fence_gate: जंगल का फाटक
+  acacia_fence_gate: बबूल का फाटक
+  dark_oak_fence_gate: काला बाँज का फाटक
+  crimson_fence_gate: किरमिजी फाटक
+  warped_fence_gate: विकृत फाटक
+  powered_rail: संचालित रेल
+  detector_rail: वेक्षक रेल
+  rail: रेल
+  activator_rail: उत्प्रेरक रेल
+  saddle: काठी
+  minecart: गाड़ी
+  chest_minecart: संदूक के साथ कार्ट
+  furnace_minecart: फर्नेस के साथ कार्ट
+  tnt_minecart: गाड़ी में टीएनटी
+  hopper_minecart: हूपर के साथ Minecart
+  carrot_on_a_stick: डंडा पर गाजर
+  warped_fungus_on_a_stick: डंडे पर विकृत कवक
+  elytra: पक्षवर्म
+  oak_boat: बाँज की नाव
+  spruce_boat: प्रसरल की नाव
+  birch_boat: भूर्ज की नाव
+  jungle_boat: जंगल की नाव
+  acacia_boat: बबूल की नाव
+  dark_oak_boat: काला बाँज की नाव
   structure_block: ब्लॉक संरचना
   jigsaw: जिग्सॉ खंड
   turtle_helmet: कछुआ का खोल
@@ -585,7 +693,15 @@ material:
   coal: कोयला
   charcoal: काठकोयला
   diamond: हीरा
+  emerald: पन्ना
+  lapis_lazuli: लापीस लाजुली
+  quartz: नेदर स्फटिक
+  amethyst_shard: जंबुमणि का ठीकरा
+  raw_iron: कच्चा लोहा
   iron_ingot: लौह शिलिका
+  raw_copper: कच्चा तांबा
+  copper_ingot: तांबे का पिंड
+  raw_gold: कच्चा सोना
   gold_ingot: स्वर्ण पिंड
   netherite_ingot: नेदराइट का पिंड
   netherite_scrap: नेदराइट की टुकड़ी
@@ -669,29 +785,27 @@ material:
   bucket: बाल्टी
   water_bucket: पानी की बाल्टी
   lava_bucket: लावा की बाल्टी
-  minecart: गाड़ी
-  saddle: काठी
-  redstone: रेडस्टोन का चूरा
+  powder_snow_bucket: पीसेे हुए बर्फ की बाल्टी
   snowball: बर्फ का गोला
-  oak_boat: बाँज की नाव
   leather: चमड़ा
   milk_bucket: दूध की बाल्टी
   pufferfish_bucket: आध्मादतक मछली की बाल्टी
   salmon_bucket: सॅल्मन की बाल्टी
   cod_bucket: कॉड की बाल्टी
   tropical_fish_bucket: उष्णकटिबंधीय मछली की बाल्टी
+  axolotl_bucket: एक्सोलोटल की बाल्टी
   brick: ईंट
   clay_ball: मृत्तिका का गोला
   dried_kelp_block: सूखा सिवार का प्रखंड
   paper: कागज
   book: पुस्तक
   slime_ball: कीचड़ बॉल
-  chest_minecart: संदूक के साथ कार्ट
-  furnace_minecart: फर्नेस के साथ कार्ट
   egg: अंडा
   compass: दिक्सूचक
+  bundle: गुच्छ
   fishing_rod: बंसी
   clock: घड़ी
+  spyglass: दूरदर्शक यंत्र
   glowstone_dust: चमक स्टोन डस्ट
   cod: कच्चा कॉड
   salmon: कच्चा सैल्मन
@@ -700,8 +814,8 @@ material:
   cooked_cod: पक्क कॉड
   cooked_salmon: पक्व सैल्मन
   ink_sac: इंक बोरी
+  glow_ink_sac: ग्लो स्याही का पुटला
   cocoa_beans: कोको बीन्स
-  lapis_lazuli: लापीस लाजुली
   white_dye: सफेद रंजक
   orange_dye: नारंगी रंजक
   magenta_dye: नीलातिरक्त रंजक
@@ -765,6 +879,7 @@ material:
   cauldron: कड़ाही
   ender_eye: के नेत्र अंत
   glistering_melon_slice: चमकीला तरबूज का टुकडा
+  axolotl_spawn_egg: एक्सोलोटल का जन्म अंडा
   bat_spawn_egg: चमगादड़ का जन्म अंडा
   bee_spawn_egg: मधुमक्खी का जन्म अंडा
   blaze_spawn_egg: ब्लेज का जन्म अंडा
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: जन्म अंडा
   fox_spawn_egg: लोमड़ी का जन्म अंडा
   ghast_spawn_egg: घास्ट का जन्म अंडा
+  glow_squid_spawn_egg: ग्लो स्क्विड के अंडे
+  goat_spawn_egg: बकरी का जन्म अंडा
   guardian_spawn_egg: बड़े संरक्षक अंडे
   hoglin_spawn_egg: हॉग्लीन का जन्म अंडा
   horse_spawn_egg: घोड़ा जन्म अंडा
@@ -820,7 +937,7 @@ material:
   vex_spawn_egg: वेक्स स्पॉन एग
   villager_spawn_egg: ग्रामवासी के अंडे
   vindicator_spawn_egg: ग्रामवासी के एग
-  wandering_trader_spawn_egg: पर्यटक व्यापारी का जन्म अंड़ा
+  wandering_trader_spawn_egg: वेंडरईग ट्रेडर एग
   witch_spawn_egg: डायन का जन्म अंडा
   wither_skeleton_spawn_egg: विदर कंकाल का जन्म अंडा
   wolf_spawn_egg: भेड़िया का जन्म अंडा
@@ -833,8 +950,8 @@ material:
   fire_charge: आग प्रभार
   writable_book: किताब और कलम
   written_book: व्रित्तें बुक
-  emerald: पन्ना
   item_frame: आइटम सीमा
+  glow_item_frame: ग्लो आईटम फ्रेम
   flower_pot: गमला
   carrot: गाजर
   potato: आलू
@@ -848,17 +965,12 @@ material:
   zombie_head: जॉम्बी का सिर
   creeper_head: क्रीपर का सिर
   dragon_head: ड्रैगन सिर
-  carrot_on_a_stick: डंडा पर गाजर
-  warped_fungus_on_a_stick: डंडे पर विकृत कवक
   nether_star: नेदर सितारा
   pumpkin_pie: कद्दू पाई
   firework_rocket: आतिशबाजी रॉकेट
   firework_star: आतिशबाजी सितारा
   enchanted_book: जादूई पुस्तक
   nether_brick: नेदर ईंट
-  quartz: नेदर स्फटिक
-  tnt_minecart: गाड़ी में टीएनटी
-  hopper_minecart: हूपर के साथ Minecart
   prismarine_shard: प्रिज्मरीन का टुकड़ा
   prismarine_crystals: प्रिज्मरीन का क्रिस्टल
   rabbit: कच्चा खरगोश
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: टिप किए गए तीर
   lingering_potion: लिंगरिंग औषधि
   shield: ढाल
-  elytra: पक्षवर्म
-  spruce_boat: प्रसरल की नाव
-  birch_boat: भूर्ज की नाव
-  jungle_boat: जंगल की नाव
-  acacia_boat: बबूल की नाव
-  dark_oak_boat: काला बाँज की नाव
   totem_of_undying: अमर की कुलदेवता
   shulker_shell: शल्कर का खोल
   iron_nugget: लोहे का डला
@@ -948,13 +1054,13 @@ material:
   cartography_table: मानचित्रकला मेज
   fletching_table: फैलेटिंग टेबल
   grindstone: सान
-  lectern: ज्ञानतीठ
   smithing_table: स्मिथिंग टेबल
   stonecutter: संगतराश
   bell: घंटी
   lantern: कंदील
   soul_lantern: आत्माओं का फानूस
   sweet_berries: मीठे फल
+  glow_berries: ग्लो बेरी
   campfire: अलाव
   soul_campfire: आत्मा का अलाव
   shroomlight: छत्रकदीप
@@ -962,12 +1068,8 @@ material:
   bee_nest: मधुमक्खी का घोंसला
   beehive: मधुमक्खी का छत्ता
   honey_bottle: शहद की बोतल
-  honey_block: मधु प्रखंड
   honeycomb_block: मधुकोष का खंड
   lodestone: चुंबक पत्थर
-  netherite_block: नेदराइट का प्रखंड
-  ancient_debris: प्राचीन अवशेष
-  target: निशाना
   crying_obsidian: रोनेवाला ज्वालाकाच
   blackstone: कालापाषाण
   blackstone_slab: कालापाषाण की पटिया
@@ -982,6 +1084,28 @@ material:
   polished_blackstone_brick_stairs: चमकदार कालापाषाण की ईंट की सीढ़ियाँ
   cracked_polished_blackstone_bricks: टूटे हुए चमकदार कालापाषाण की ईंटें
   respawn_anchor: पुनर्जन्म का स्थिरक
+  candle: बत्ती
+  white_candle: सफेद बत्ती
+  orange_candle: नारंगी बत्ती
+  magenta_candle: नीलातिरक्त बत्ती
+  light_blue_candle: हल्की नीली बत्ती
+  yellow_candle: पीली बत्ती
+  lime_candle: लाईम बत्ती
+  pink_candle: गुलाबी बत्ती
+  gray_candle: स्लेटी बत्ती
+  light_gray_candle: हल्की स्लेटी बत्ती
+  cyan_candle: हरिनील बत्ती
+  purple_candle: जामुनी बत्ती
+  blue_candle: नीली बत्ती
+  brown_candle: भूरी बत्ती
+  green_candle: हरी बत्ती
+  red_candle: लाल बत्ती
+  black_candle: काली बत्ती
+  small_amethyst_bud: छोटा जंबुमणि की कली
+  medium_amethyst_bud: मध्यम जंबुमणि की कली
+  large_amethyst_bud: बड़ा जंबुमणि की कली
+  amethyst_cluster: जंबुमणि का झुंड
+  pointed_dripstone: नुकीला ड्रिपस्टोन
   water: पानी
   lava: लावा
   tall_seagrass: लंबा समुद्री घास
@@ -1004,6 +1128,9 @@ material:
   attached_melon_stem: जुड़ा तरबूज स्टेम
   pumpkin_stem: कद्दू का तना
   melon_stem: तरबूज का स्टेम
+  water_cauldron: पानी की कड़ाही
+  lava_cauldron: लावा की कड़ाही
+  powder_snow_cauldron: पिसी हुई बर्फ की कड़ाही
   end_portal: एन्ड प्रवेशद्वार
   cocoa: कोको
   tripwire: यात्रा तार
@@ -1083,6 +1210,22 @@ material:
   potted_warped_fungus: गमले में विकृत कवक
   potted_crimson_roots: गमले में किरमिजी जड़ें
   potted_warped_roots: गमले में विकृत जड़ें
+  candle_cake: केक में बत्ती
+  light_gray_candle_cake: लाइट ग्रे मोमबत्ती के साथ केक
+  cyan_candle_cake: सियान मोमबत्ती के साथ केक
+  purple_candle_cake: बैंगनी मोमबत्ती के साथ केक
+  blue_candle_cake: नीली मोमबत्ती के साथ केक
+  brown_candle_cake: ब्राउन मोमबत्ती के साथ केक
+  green_candle_cake: हरी मोमबत्ती के साथ केक
+  red_candle_cake: |2-
+
+    लाल मोमबत्ती के साथ केक
+  black_candle_cake: काली मोमबत्ती के साथ केक
+  powder_snow: पीसा हुआ बर्फ
+  cave_vines: गुफा की बेलें
+  cave_vines_plant: गुफा बेल का पौधा
+  big_dripleaf_stem: बड़े ड्रिपलीफ की डाली
+  grass_path: घास पथ
   zombie_pigman_spawn_egg: जोंबी पिगमेंग स्पान एग
   cactus_green: कैक्टस ग्रीन
   dandelion_yellow: पीला डाई
@@ -1169,46 +1312,48 @@ biome:
   crimson_forest: किरमिजी वन
   warped_forest: विकृत वन
   basalt_deltas: असिताश्ममुख भूमि
+  dripstone_caves: ड्रिपस्टोन की गुफा
+  lush_caves: रसीला गुफाएँ
   nether: नेदर
 enchantment:
-  fire_protection: आग संरक्षण
-  sharpness: तीखेपन
-  flame: ज्वाला
-  soul_speed: आत्माओं की गति
-  aqua_affinity: एक्वा आत्मीयता
-  punch: एक प्रकार की मदिरा
-  loyalty: निष्ठा
-  depth_strider: गहराई घुमक्कड़
-  vanishing_curse: लुप्त होने का अभिशाप
-  unbreaking: स्थायित्व
-  knockback: धक्का
-  luck_of_the_sea: समुद्र की शुभकामनाएँ
-  binding_curse: बाइंडिंग का अभिशाप
-  fortune: भाग्य
   protection: संरक्षण
-  efficiency: दक्षता
-  mending: मरम्मत
-  frost_walker: फ्रॉस्ट वॉकर
-  lure: प्रलोभन
-  looting: लूटपाट
-  piercing: छिद्र
-  blast_protection: विस्फोट से संरक्षण
-  smite: हराना
-  multishot: मल्टी शॉट
-  fire_aspect: आग पहलू
-  channeling: 'जोड़ना '
-  sweeping: व्यापक एज
-  thorns: काँटे
-  bane_of_arthropods: मकड़े के बने
-  respiration: श्वसन
-  riptide: Riptide
-  silk_touch: सिल्क टच
-  quick_charge: 'सचेत भाग को चार्ज करना '
-  projectile_protection: फेंकने संरक्षण
-  impaling: कोचना
+  fire_protection: आग संरक्षण
   feather_falling: पंख गिरने
-  power: शक्ति
+  blast_protection: विस्फोट से संरक्षण
+  projectile_protection: फेंकने संरक्षण
+  respiration: श्वसन
+  aqua_affinity: एक्वा आत्मीयता
+  thorns: काँटे
+  depth_strider: गहराई घुमक्कड़
+  frost_walker: फ्रॉस्ट वॉकर
+  binding_curse: बाइंडिंग का अभिशाप
+  sharpness: तीखेपन
+  smite: हराना
+  bane_of_arthropods: मकड़े के बने
+  knockback: धक्का
+  fire_aspect: आग पहलू
+  looting: लूटपाट
+  sweeping: व्यापक एज
+  efficiency: दक्षता
+  silk_touch: सिल्क टच
+  unbreaking: स्थायित्व
+  fortune: भाग्य
+  power: ताकत
+  punch: एक प्रकार की मदिरा
+  flame: लौ
   infinity: अनन्तता
+  luck_of_the_sea: समुद्र की शुभकामनाएँ
+  lure: लुभा
+  loyalty: निष्ठा
+  impaling: कोचना
+  riptide: Riptide
+  channeling: 'जोड़ना '
+  multishot: मल्टी शॉट
+  quick_charge: 'सचेत भाग को चार्ज करना '
+  piercing: छिद्र
+  mending: मरम्मत
+  vanishing_curse: लुप्त होने का अभिशाप
+  soul_speed: आत्माओं की गति
 potion:
   uncraftable: अनौचेंबल पोशन
   water: पानी की शीशी
@@ -1316,7 +1461,7 @@ entity:
   splash_potion: खुराक
   thrown_exp_bottle: 'फेकी बोतल करामाती की '
   item_frame: आइटम सीमा
-  wither_skull: विदर की खोपड़ी
+  wither_skull: विदर खोपड़ी
   primed_tnt: प्रज्वलित टीएनटी
   falling_block: गिरने ब्लॉक
   firework: आतिशबाजी रॉकेट
@@ -1326,7 +1471,7 @@ entity:
   dragon_fireball: ड्रैगन आग का गोला
   zombie_villager: ज़ोंबी ग्रामीण
   skeleton_horse: कंकाल का घोड़ा
-  zombie_horse: जॉम्बी घोड़ा
+  zombie_horse: ज़ोंबी हार्स
   armor_stand: कवच स्टैंड
   donkey: गधा
   mule: खच्चर
@@ -1395,7 +1540,7 @@ entity:
   pillager: लुटेरा
   ravager: 'विनाश '
   trader_llama: व्यापारी का लामा
-  wandering_trader: पर्यटक व्यापारी
+  wandering_trader: भटकनेवाला व्यापारी
   fox: लोमड़ी
   bee: मधुमक्खी
   hoglin: हॉग्लीन
@@ -1403,6 +1548,11 @@ entity:
   strider: स्ट्राइडर
   zoglin: ज़ॉग्लीन
   piglin_brute: निष्ठुर पिगलीन
+  axolotl: एक्सोलोटल
+  glow_item_frame: ग्लो आईटम फ्रेम
+  glow_squid: ग्लो स्क्विड
+  goat: बकरा
+  marker: निशान
   fishing_hook: मत्स्य तिरेदां
   lightning: बिजली
   player: खिलाड़ी
@@ -1436,7 +1586,7 @@ effect:
   luck: किस्मत
   unluck: बुरी किस्मत
   slow_falling: धीमी गिरावट
-  conduit_power: जलक्रोड की शक्ति
+  conduit_power: पाडपलाइन की शक्ति
   dolphins_grace: डॉल्फिन का अनुग्रह
   bad_omen: बुरा शकुन
   hero_of_the_village: गाँव का हीरो
@@ -2202,17 +2352,3 @@ villager_profession:
   shepherd: गड़रिया
   toolsmith: उपकरण का लोहार
   weaponsmith: हथियार का लोहार
-villager_career:
-  farmer: किसान
-  fisherman: मछुआरे
-  shepherd: शेफर्ड
-  fletcher: फ्लेचर
-  librarian: लाइब्रेरियन
-  cartographer: नक्शानवीस
-  cleric: मौलवी
-  armorer: अर्मर्रर
-  weapon_smith: हथियार स्मिथ
-  tool_smith: उपकरण स्मिथ
-  butcher: कसाई
-  leatherworker: चमड़े का मज़दूर
-  nitwit: मूर्ख

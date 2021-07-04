@@ -1,11 +1,14 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:49                    #
+# Build time: 2021-07-04 21:46:04                    #
 # ####################################################
 language:
   code: uk_ua
   name: Українська
   region: Україна
 material:
+  acacia_leaves: Акацієве листя
+  brick: Цегла
+  bricks: Цегляний блок
   bubble_coral: Пухирчастий корал
   bubble_coral_block: Блок пухирчастих коралів
   bubble_coral_fan: Віяло з пухирчастих коралів
@@ -16,6 +19,10 @@ material:
   cut_sandstone: Гладкий пісковик
   cyan_glazed_terracotta: Блакитна глазурована кераміка
   cyan_shulker_box: Блакитна коробка шалкера
+  dark_oak_fence: Паркан з темного дубу
+  dark_oak_fence_gate: Хвіртка з темного дубу
+  dark_oak_sapling: Саджанець темного дубу
+  dark_oak_stairs: Сходи з темного дубу
   dead_bubble_coral_block: Блок мертвих пухирчастих коралів
   dead_fire_coral_block: Блок мертвого вогняного коралу
   dead_horn_coral_block: Блок мертвого рогового коралу
@@ -23,8 +30,11 @@ material:
   dead_tube_coral_block: Блок мертвого трубчастого коралу
   dried_kelp: Сушена ламінарія
   emerald_block: Блок смарагду
+  flint_and_steel: Запальничка
   glass_bottle: Скляна колба
   husk_spawn_egg: Яйце виклику висушення
+  item_frame: Рамка для предметів
+  lapis_block: Блок лазуриту
   light_blue_glazed_terracotta: Світло-синя глазурована кераміка
   light_blue_shulker_box: Світло-блакитна коробка шалкера
   light_blue_terracotta: Світло-синя кераміка
@@ -39,11 +49,13 @@ material:
   nether_star: Пекельна зірка
   nether_wart: Пекельний наріст
   nether_wart_block: Блок пекельного наросту
+  oak_sapling: Саджанець дубу
   potted_allium: Різанець в горщику
   potted_brown_mushroom: Коричневий гриб в горщику
   potted_cactus: Кактус в горщику
   potted_dead_bush: Мертвий кущ в горщику
   potted_fern: Папороть в горщику
+  potted_oak_sapling: Саджанець дубу в горщику
   potted_orange_tulip: Помаранчевий тюльпан в горщику
   potted_pink_tulip: Рожевий тюльпан в горщику
   potted_poppy: Мак в горщику
@@ -58,6 +70,7 @@ material:
   quartz_block: Блок кварцу
   rail: Колія
   redstone_block: Блок редстоуну
+  redstone_ore: Руда редстоуну
   redstone_torch: Факел з редстоуну
   redstone_wall_torch: Настінний факел з редстоуну
   redstone_wire: Редстоун
@@ -83,10 +96,13 @@ potion:
   turtle_master: Черепахове зілля
 splash_potion:
   water: Вибухова пляшка води
+  luck: Вибухове зілля вдачі
 entity:
   stray: Блукач
   ender_pearl: Кинута Перлина Енду
+  item_frame: Рамка для предметів
   shulker_bullet: Куля Шалкера
+  squid: Кальмар
 effect:
   wither: Висушувач
 tropical_fish_type:

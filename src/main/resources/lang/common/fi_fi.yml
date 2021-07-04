@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:47                    #
+# Build time: 2021-07-04 21:46:03                    #
 # ####################################################
 language:
   code: fi_fi
@@ -9,15 +9,22 @@ material:
   air: Ilma
   stone: Kivi
   granite: Graniitti
-  polished_granite: Kiilotettu graniitti
+  polished_granite: Kiillotettu graniitti
   diorite: Dioriitti
-  polished_diorite: Kiilotettu dioriitti
+  polished_diorite: Kiillotettu dioriitti
   andesite: Andesiitti
-  polished_andesite: Kiilotettu andesiitti
+  polished_andesite: Kiillotettu andesiitti
+  deepslate: Pohjaliuskekivi
+  cobbled_deepslate: Murtunut pohjaliuskekivi
+  polished_deepslate: Kiillotettu pohjaliuskekivi
+  calcite: Kalsiitti
+  tuff: Tuffi
+  dripstone_block: Tippukivikuutio
   grass_block: Ruohokuutio
   dirt: Multa
   coarse_dirt: Karkea multa
   podzol: Podsoli
+  rooted_dirt: Juurtunut multa
   crimson_nylium: Karmiinisienirihmasto
   warped_nylium: Kummasienirihmasto
   cobblestone: Mukulakivi
@@ -39,10 +46,67 @@ material:
   sand: Hiekka
   red_sand: Punahiekka
   gravel: Sora
-  gold_ore: Kultamalmi
-  iron_ore: Rautamalmi
   coal_ore: Hiilimalmi
+  deepslate_coal_ore: Pohjaliuskehiilimalmi
+  iron_ore: Rautamalmi
+  deepslate_iron_ore: Pohjaliuskerautamalmi
+  copper_ore: Kuparimalmi
+  deepslate_copper_ore: Pohjaliuskekuparimalmi
+  gold_ore: Kultamalmi
+  deepslate_gold_ore: Pohjaliuskekultamalmi
+  redstone_ore: Punakivimalmi
+  deepslate_redstone_ore: Pohjaliuskepunakivimalmi
+  emerald_ore: Smaragdimalmi
+  deepslate_emerald_ore: Pohjaliuskesmaragdimalmi
+  lapis_ore: Lasuriittimalmi
+  deepslate_lapis_ore: Pohjaliuskelasuriittimalmi
+  diamond_ore: Timanttimalmi
+  deepslate_diamond_ore: Pohjaliusketimanttimalmi
   nether_gold_ore: Nether-kultamalmi
+  nether_quartz_ore: Nether-kvartsimalmi
+  ancient_debris: Muinainen romu
+  coal_block: Hiilikuutio
+  raw_iron_block: Raaka rautakuutio
+  raw_copper_block: Raaka kuparikuutio
+  raw_gold_block: Raaka kultakuutio
+  amethyst_block: Ametistikuutio
+  budding_amethyst: Versoava ametisti
+  iron_block: Rautakuutio
+  copper_block: Kuparikuutio
+  gold_block: Kultakuutio
+  diamond_block: Timanttikuutio
+  netherite_block: Netheriittikuutio
+  exposed_copper: Altistunut kupari
+  weathered_copper: Rapautunut kupari
+  oxidized_copper: Hapettunut kupari
+  cut_copper: Leikattu kupari
+  exposed_cut_copper: Altistunut leikattu kupari
+  weathered_cut_copper: Rapautunut leikattu kupari
+  oxidized_cut_copper: Hapettunut leikattu kupari
+  cut_copper_stairs: Leikatut kupariportaat
+  exposed_cut_copper_stairs: Altistuneet leikatut kupariportaat
+  weathered_cut_copper_stairs: Rapautuneet leikatut kupariportaat
+  oxidized_cut_copper_stairs: Hapettuneet leikatut kupariportaat
+  cut_copper_slab: Leikattu kuparilaatta
+  exposed_cut_copper_slab: Altistunut leikattu kuparilaatta
+  weathered_cut_copper_slab: Rapautunut leikattu kuparilaatta
+  oxidized_cut_copper_slab: Hapettunut leikattu kuparilaatta
+  waxed_copper_block: Vahattu kuparikuutio
+  waxed_exposed_copper: Vahattu altistunut kupari
+  waxed_weathered_copper: Vahattu rapautunut kupari
+  waxed_oxidized_copper: Vahattu patinoitunut kupari
+  waxed_cut_copper: Vahattu leikattu kupari
+  waxed_exposed_cut_copper: Vahattu altistunut leikattu kupari
+  waxed_weathered_cut_copper: Vahattu rapautunut leikattu kupari
+  waxed_oxidized_cut_copper: Vahattu patinoitunut leikattu kupari
+  waxed_cut_copper_stairs: Vahatut leikatut kupariportaat
+  waxed_exposed_cut_copper_stairs: Vahatut altistuneet leikatut kupariportaat
+  waxed_weathered_cut_copper_stairs: Vahatut rapautuneet leikatut kupariportaat
+  waxed_oxidized_cut_copper_stairs: Vahatut patinoituneet leikatut kupariportaat
+  waxed_cut_copper_slab: Vahattu leikattu kuparilaatta
+  waxed_exposed_cut_copper_slab: Vahattu altistunut leikattu kuparilaatta
+  waxed_weathered_cut_copper_slab: Vahattu rapautunut leikattu kuparilaatta
+  waxed_oxidized_cut_copper_slab: Vahattu patinoitunut leikattu kuparilaatta
   oak_log: Tammihalko
   spruce_log: Kuusihalko
   birch_log: Koivuhalko
@@ -81,26 +145,24 @@ material:
   jungle_leaves: Viidakkopuunlehdet
   acacia_leaves: Akaasianlehdet
   dark_oak_leaves: Tumman tammenlehdet
+  azalea_leaves: Atsalean lehdet
+  flowering_azalea_leaves: Kukkivan atsalean lehdet
   sponge: Pesusieni
   wet_sponge: Märkä pesusieni
   glass: Lasi
-  lapis_ore: Lasuriittimalmi
+  tinted_glass: Tummennettu lasi
   lapis_block: Lasuriittikuutio
-  dispenser: Jakelulaite
   sandstone: Hiekkakivi
   chiseled_sandstone: Kaiverrettu hiekkakivi
   cut_sandstone: Leikattu hiekkakivi
-  note_block: Sointukuutio
-  powered_rail: Kiihdytinraide
-  detector_rail: Tunnistinraide
-  sticky_piston: Tarttumamäntä
   cobweb: Hämähäkinseitti
   grass: Ruoho
   fern: Saniainen
+  azalea: Atsalea
+  flowering_azalea: Kukkiva atsalea
   dead_bush: Kuollut pensas
   seagrass: Meriruoho
   sea_pickle: Tulitela
-  piston: Mäntä
   white_wool: Valkoinen villa
   orange_wool: Oranssi villa
   magenta_wool: Purppura villa
@@ -130,6 +192,7 @@ material:
   cornflower: Ruiskaunokki
   lily_of_the_valley: Kielo
   wither_rose: Wither-ruusu
+  spore_blossom: Itiökukka
   brown_mushroom: Ruskea sieni
   red_mushroom: Kärpässieni
   crimson_fungus: Karmiinisieni
@@ -141,9 +204,12 @@ material:
   twisting_vines: Kieroköynnös
   sugar_cane: Sokeriruoko
   kelp: Rakkolevä
+  moss_carpet: Sammalmatto
+  moss_block: Sammalkuutio
+  hanging_roots: Roikkuvat juuret
+  big_dripleaf: Iso tippulehti
+  small_dripleaf: Pieni tippulehti
   bamboo: Bambu
-  gold_block: Kultakuutio
-  iron_block: Rautakuutio
   oak_slab: Tammilaatta
   spruce_slab: Kuusilaatta
   birch_slab: Koivulaatta
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: Sileä hiekkakivi
   smooth_stone: Sileä kivi
   bricks: Tiili
-  tnt: TNT
   bookshelf: Kirjahylly
   mossy_cobblestone: Sammaleinen mukulakivi
   obsidian: Obsidiaani
@@ -187,27 +252,11 @@ material:
   spawner: Luoja
   oak_stairs: Tammiportaat
   chest: Arkku
-  diamond_ore: Timanttimalmi
-  diamond_block: Timanttikuutio
   crafting_table: Työpöytä
   farmland: Viljelysmaa
   furnace: Uuni
   ladder: Tikas
-  rail: Raide
   cobblestone_stairs: Mukulakiviportaat
-  lever: Vipu
-  stone_pressure_plate: Kivipainelaatta
-  oak_pressure_plate: Tammipainelaatta
-  spruce_pressure_plate: Kuusipainelaatta
-  birch_pressure_plate: Koivupainelaatta
-  jungle_pressure_plate: Viidakkopuupainelaatta
-  acacia_pressure_plate: Akaasiapainelaatta
-  dark_oak_pressure_plate: Tumma tammipainelaatta
-  crimson_pressure_plate: Karmiinipainelaatta
-  warped_pressure_plate: Kummapainelaatta
-  polished_blackstone_pressure_plate: Kiillotettu mustakivipainelaatta
-  redstone_ore: Redstone-malmi
-  redstone_torch: Redstone-soihtu
   snow: Lumi
   ice: Jää
   snow_block: Lumikuutio
@@ -224,32 +273,31 @@ material:
   warped_fence: Kumma-aita
   pumpkin: Kurpitsa
   carved_pumpkin: Kaiverrettu kurpitsa
+  jack_o_lantern: Kurpitsalyhty
   netherrack: Netherrack
   soul_sand: Sieluhiekka
   soul_soil: Sielumulta
   basalt: Basaltti
   polished_basalt: Kiillotettu basaltti
+  smooth_basalt: Sileä basaltti
   soul_torch: Sielusoihtu
   glowstone: Hehkukivi
-  jack_o_lantern: Kurpitsalyhty
-  oak_trapdoor: Tammiluukku
-  spruce_trapdoor: Kuusiluukku
-  birch_trapdoor: Koivuluukku
-  jungle_trapdoor: Viidakkopuuluukku
-  acacia_trapdoor: Akaasialuukku
-  dark_oak_trapdoor: Tumma tammiluukku
-  crimson_trapdoor: Karmiiniluukku
-  warped_trapdoor: Kummaluukku
   infested_stone: Saastunut kivi
   infested_cobblestone: Saastunut mukulakivi
   infested_stone_bricks: Saastunut kivitiili
   infested_mossy_stone_bricks: Saastunut sammalkivitiili
   infested_cracked_stone_bricks: Saastunut murtunut kivitiili
   infested_chiseled_stone_bricks: Saastunut kaiverrettu kivitiili
+  infested_deepslate: Saastunut pohjaliuskekivi
   stone_bricks: Kivitiili
   mossy_stone_bricks: Sammaleinen kivitiili
   cracked_stone_bricks: Murtunut kivitiili
   chiseled_stone_bricks: Veistetty kivitiili
+  deepslate_bricks: Pohjaliuskekivitiili
+  cracked_deepslate_bricks: Murtunut pohjaliuskekivitiili
+  deepslate_tiles: Pohjaliuskekivikaakelit
+  cracked_deepslate_tiles: Murtuneet pohjaliuskekivikaakelit
+  chiseled_deepslate: Kaiverrettu pohjaliuskekivi
   brown_mushroom_block: Ruskea sienikuutio
   red_mushroom_block: Kärpässienikuutio
   mushroom_stem: Sienen varsi
@@ -258,14 +306,7 @@ material:
   glass_pane: Lasipaneeli
   melon: Meloni
   vine: Köynnös
-  oak_fence_gate: Tammiportti
-  spruce_fence_gate: Kuusiportti
-  birch_fence_gate: Koivuportti
-  jungle_fence_gate: Viidakkopuuportti
-  acacia_fence_gate: Akaasiaportti
-  dark_oak_fence_gate: Tumma tammiportti
-  crimson_fence_gate: Karmiiniportti
-  warped_fence_gate: Kummaportti
+  glow_lichen: Hehkujäkälä
   brick_stairs: Tiiliportaat
   stone_brick_stairs: Kivitiiliportaat
   mycelium: Sienirihmasto
@@ -280,11 +321,8 @@ material:
   end_stone: End-kivi
   end_stone_bricks: End-kivitiili
   dragon_egg: Lohikäärmeen muna
-  redstone_lamp: Redstone-lamppu
   sandstone_stairs: Hiekkakiviportaat
-  emerald_ore: Smaragdimalmi
   ender_chest: Ender-arkku
-  tripwire_hook: Ansalankakoukku
   emerald_block: Smaragdikuutio
   spruce_stairs: Kuusiportaat
   birch_stairs: Koivuportaat
@@ -310,33 +348,18 @@ material:
   blackstone_wall: Mustakivimuuri
   polished_blackstone_wall: Kiillotettu mustakivimuuri
   polished_blackstone_brick_wall: Kiillotettu mustakivitiilimuuri
-  stone_button: Kivinappi
-  oak_button: Tamminappi
-  spruce_button: Kuusinappi
-  birch_button: Koivunappi
-  jungle_button: Viidakkopuunappi
-  acacia_button: Akaasianappi
-  dark_oak_button: Tumma tamminappi
-  crimson_button: Karmiininappi
-  warped_button: Kummanappi
-  polished_blackstone_button: Kiillotettu mustakivinappi
+  cobbled_deepslate_wall: Murtunut pohjaliuskekivimuuri
+  polished_deepslate_wall: Kiillotettu pohjaliuskekiviseinä
+  deepslate_brick_wall: Pohjaliuskekivitiilimuuri
+  deepslate_tile_wall: Pohjaliuskivikekaakelimuuri
   anvil: Alasin
   chipped_anvil: Kolhiintunut alasin
   damaged_anvil: Vaurioitunut alasin
-  trapped_chest: Ansoitettu arkku
-  light_weighted_pressure_plate: Kevyt painelaatta
-  heavy_weighted_pressure_plate: Painava painelaatta
-  daylight_detector: Päivänvalotunnistin
-  redstone_block: Redstone-kuutio
-  nether_quartz_ore: Nether-kvartsimalmi
-  hopper: Suppilo
   chiseled_quartz_block: Kaiverrettu kvartsikuutio
   quartz_block: Kvartsikuutio
   quartz_bricks: Kvartsitiili
   quartz_pillar: Kvartsipilari
   quartz_stairs: Kvartsiportaat
-  activator_rail: Aktivointiraide
-  dropper: Pudottaja
   white_terracotta: Valkoinen terrakotta
   orange_terracotta: Oranssi terrakotta
   magenta_terracotta: Purppura terrakotta
@@ -354,7 +377,7 @@ material:
   red_terracotta: Punainen terrakotta
   black_terracotta: Musta terrakotta
   barrier: Este
-  iron_trapdoor: Rautaluukku
+  light: Valo
   hay_block: Heinäpaali
   white_carpet: Valkoinen matto
   orange_carpet: Oranssi matto
@@ -373,12 +396,10 @@ material:
   red_carpet: Punainen matto
   black_carpet: Musta matto
   terracotta: Terrakotta
-  coal_block: Hiilikuutio
   packed_ice: Pakkautunut jää
   acacia_stairs: Akaasiaportaat
   dark_oak_stairs: Tummat tammiportaat
-  slime_block: Limakuutio
-  grass_path: Ruohopolku
+  dirt_path: Multapolku
   sunflower: Auringonkukka
   lilac: Syreeni
   rose_bush: Ruusupensas
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: Punainen Nether-tiili
   bone_block: Luukuutio
   structure_void: Rakennetyhjiö
-  observer: Tarkkailija
   shulker_box: Shulker-laatikko
   white_shulker_box: Valkoinen shulker-laatikko
   orange_shulker_box: Oranssi shulker-laatikko
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: Punaiset Nether-tiiliportaat
   polished_andesite_stairs: Sileät andesiittiportaat
   diorite_stairs: Dioriittiportaat
+  cobbled_deepslate_stairs: Murtuneet pohjaliuskekiviportaat
+  polished_deepslate_stairs: Kiillotetut pohjaliuskekiviportaat
+  deepslate_brick_stairs: Pohjaliuskekivitiiliportaat
+  deepslate_tile_stairs: Pohjaliuskekivikaakeliportaat
   polished_granite_slab: Kiillotettu graniittilaatta
   smooth_red_sandstone_slab: Sileä punahiekkakivilaatta
   mossy_stone_brick_slab: Sammaleinen kivitiililaatta
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: Punainen Nether-tiililaatta
   polished_andesite_slab: Kiillotettu andesiittilaatta
   diorite_slab: Dioriittilaatta
+  cobbled_deepslate_slab: Murtunut pohjaliuskekivilaatta
+  polished_deepslate_slab: Kiillotettu pohjaliuskekivilaatta
+  deepslate_brick_slab: Pohjaliuskekivitiililaatta
+  deepslate_tile_slab: Pohjaliuskekivikaakelilaatta
   scaffolding: Rakennusteline
+  redstone: Punakivijauhe
+  redstone_torch: Punakivisoihtu
+  redstone_block: Punakivikuutio
+  repeater: Punakivitoistin
+  comparator: Punakivikomparaattori
+  piston: Mäntä
+  sticky_piston: Tarttumamäntä
+  slime_block: Limakuutio
+  honey_block: Hunajakuutio
+  observer: Tarkkailija
+  hopper: Suppilo
+  dispenser: Jakelulaite
+  dropper: Pudottaja
+  lectern: Kateederi
+  target: Maalitaulu
+  lever: Vipu
+  lightning_rod: Ukkosenjohdatin
+  daylight_detector: Päivänvalotunnistin
+  sculk_sensor: Sculk-sensori
+  tripwire_hook: Ansalankakoukku
+  trapped_chest: Ansoitettu arkku
+  tnt: TNT
+  redstone_lamp: Punakivilamppu
+  note_block: Sointukuutio
+  stone_button: Kivinappi
+  polished_blackstone_button: Kiillotettu mustakivinappi
+  oak_button: Tamminappi
+  spruce_button: Kuusinappi
+  birch_button: Koivunappi
+  jungle_button: Viidakkopuunappi
+  acacia_button: Akaasianappi
+  dark_oak_button: Tumma tamminappi
+  crimson_button: Karmiininappi
+  warped_button: Kummanappi
+  stone_pressure_plate: Kivipainelaatta
+  polished_blackstone_pressure_plate: Kiillotettu mustakivipainelaatta
+  light_weighted_pressure_plate: Kevyt painelaatta
+  heavy_weighted_pressure_plate: Painava painelaatta
+  oak_pressure_plate: Tammipainelaatta
+  spruce_pressure_plate: Kuusipainelaatta
+  birch_pressure_plate: Koivupainelaatta
+  jungle_pressure_plate: Viidakkopuupainelaatta
+  acacia_pressure_plate: Akaasiapainelaatta
+  dark_oak_pressure_plate: Tumma tammipainelaatta
+  crimson_pressure_plate: Karmiinipainelaatta
+  warped_pressure_plate: Kummapainelaatta
   iron_door: Rautaovi
   oak_door: Tammiovi
   spruce_door: Kuusiovi
@@ -572,8 +646,42 @@ material:
   dark_oak_door: Tumma tammiovi
   crimson_door: Karmiiniovi
   warped_door: Kummaovi
-  repeater: Redstone-toistin
-  comparator: Redstone-komparaattori
+  iron_trapdoor: Rautaluukku
+  oak_trapdoor: Tammiluukku
+  spruce_trapdoor: Kuusiluukku
+  birch_trapdoor: Koivuluukku
+  jungle_trapdoor: Viidakkopuuluukku
+  acacia_trapdoor: Akaasialuukku
+  dark_oak_trapdoor: Tumma tammiluukku
+  crimson_trapdoor: Karmiiniluukku
+  warped_trapdoor: Kummaluukku
+  oak_fence_gate: Tammiportti
+  spruce_fence_gate: Kuusiportti
+  birch_fence_gate: Koivuportti
+  jungle_fence_gate: Viidakkopuuportti
+  acacia_fence_gate: Akaasiaportti
+  dark_oak_fence_gate: Tumma tammiportti
+  crimson_fence_gate: Karmiiniportti
+  warped_fence_gate: Kummaportti
+  powered_rail: Kiihdytinraide
+  detector_rail: Tunnistinraide
+  rail: Raide
+  activator_rail: Aktivointiraide
+  saddle: Satula
+  minecart: Kaivosvaunu
+  chest_minecart: Arkullinen kaivosvaunu
+  furnace_minecart: Moottoroitu kaivosvaunu
+  tnt_minecart: TNT-kaivosvaunu
+  hopper_minecart: Suppilokaivosvaunu
+  carrot_on_a_stick: Porkkana kepin päässä
+  warped_fungus_on_a_stick: Kummasieni kepin päässä
+  elytra: Elytra
+  oak_boat: Tammivene
+  spruce_boat: Kuusivene
+  birch_boat: Koivuvene
+  jungle_boat: Viidakkopuuvene
+  acacia_boat: Akaasiavene
+  dark_oak_boat: Tumma tammivene
   structure_block: Rakennekuutio
   jigsaw: Palapelikuutio
   turtle_helmet: Kilpikonnan kuori
@@ -585,7 +693,15 @@ material:
   coal: Hiili
   charcoal: Puuhiili
   diamond: Timantti
+  emerald: Smaragdi
+  lapis_lazuli: Lasuriitti
+  quartz: Nether-kvartsi
+  amethyst_shard: Ametistisirpale
+  raw_iron: Raaka rauta
   iron_ingot: Rautaharkko
+  raw_copper: Raaka kupari
+  copper_ingot: Kupariharkko
+  raw_gold: Raaka kulta
   gold_ingot: Kultaharkko
   netherite_ingot: Netheriittiharkko
   netherite_scrap: Netheriittiromu
@@ -669,29 +785,27 @@ material:
   bucket: Ämpäri
   water_bucket: Vesiämpäri
   lava_bucket: Laavaämpäri
-  minecart: Kaivosvaunu
-  saddle: Satula
-  redstone: Redstone-jauhe
+  powder_snow_bucket: Puuterilumiämpäri
   snowball: Lumipallo
-  oak_boat: Tammivene
   leather: Nahka
   milk_bucket: Maitoämpäri
   pufferfish_bucket: Pallokala ämpärissä
   salmon_bucket: Lohi ämpärissä
   cod_bucket: Turska ämpärissä
   tropical_fish_bucket: Trooppinen kala ämpärissä
+  axolotl_bucket: Aksolotli ämpärissä
   brick: Tiili
   clay_ball: Savipallo
   dried_kelp_block: Kuivattu rakkoleväkuutio
   paper: Paperi
   book: Kirja
   slime_ball: Limapallo
-  chest_minecart: Arkullinen kaivosvaunu
-  furnace_minecart: Moottoroitu kaivosvaunu
   egg: Kananmuna
   compass: Kompassi
+  bundle: Pussi
   fishing_rod: Onkivapa
   clock: Kello
+  spyglass: Kaukoputki
   glowstone_dust: Hehkukivijauhe
   cod: Raaka turska
   salmon: Raaka lohi
@@ -700,8 +814,8 @@ material:
   cooked_cod: Paistettu turska
   cooked_salmon: Paistettu lohi
   ink_sac: Mustepussi
+  glow_ink_sac: Hehkumustepussi
   cocoa_beans: Kaakaopavut
-  lapis_lazuli: Lasuriitti
   white_dye: Valkoinen väriaine
   orange_dye: Oranssi väriaine
   magenta_dye: Purppura väriaine
@@ -765,6 +879,7 @@ material:
   cauldron: Pata
   ender_eye: Ender-silmä
   glistering_melon_slice: Kimalteleva melonin siivu
+  axolotl_spawn_egg: Luo aksolotli
   bat_spawn_egg: Luo lepakko
   bee_spawn_egg: Luo mehiläinen
   blaze_spawn_egg: Luo roihu
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: Luo manaaja
   fox_spawn_egg: Luo kettu
   ghast_spawn_egg: Luo ghast
+  glow_squid_spawn_egg: Luo hehkukalmari
+  goat_spawn_egg: Luo vuohi
   guardian_spawn_egg: Luo vartija
   hoglin_spawn_egg: Luo hoglin
   horse_spawn_egg: Luo hevonen
@@ -833,8 +950,8 @@ material:
   fire_charge: Tulipallo
   writable_book: Kirja ja sulkakynä
   written_book: Kirjoitettu kirja
-  emerald: Smaragdi
   item_frame: Kehys
+  glow_item_frame: Hehkukehys
   flower_pot: Kukkaruukku
   carrot: Porkkana
   potato: Peruna
@@ -848,17 +965,12 @@ material:
   zombie_head: Zombin pää
   creeper_head: Creeperin pää
   dragon_head: Lohikäärmeen pää
-  carrot_on_a_stick: Porkkana kepin päässä
-  warped_fungus_on_a_stick: Kummasieni kepin päässä
   nether_star: Nether-tähti
   pumpkin_pie: Kurpitsapiirakka
   firework_rocket: Ilotulitusraketti
   firework_star: Ilotulituspanos
   enchanted_book: Lumottu kirja
   nether_brick: Nether-tiili
-  quartz: Nether-kvartsi
-  tnt_minecart: TNT-kaivosvaunu
-  hopper_minecart: Suppilokaivosvaunu
   prismarine_shard: Prismariinisirpale
   prismarine_crystals: Prismariinikristallit
   rabbit: Raaka jäniksenliha
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: Kastettu nuoli
   lingering_potion: Viipyvä taikajuoma
   shield: Kilpi
-  elytra: Elytra
-  spruce_boat: Kuusivene
-  birch_boat: Koivuvene
-  jungle_boat: Viidakkopuuvene
-  acacia_boat: Akaasiavene
-  dark_oak_boat: Tumma tammivene
   totem_of_undying: Kuolemattomuuden toteemi
   shulker_shell: Shulkerin kuori
   iron_nugget: Rautakimpale
@@ -948,13 +1054,13 @@ material:
   cartography_table: Karttapöytä
   fletching_table: Nuolipöytä
   grindstone: Tahko
-  lectern: Kateederi
   smithing_table: Takomispöytä
   stonecutter: Kivileikkuri
   bell: Soittokello
   lantern: Lyhty
   soul_lantern: Sielulyhty
-  sweet_berries: Makeita marjoja
+  sweet_berries: Makeat marjat
+  glow_berries: Hehkumarjat
   campfire: Nuotio
   soul_campfire: Sielunuotio
   shroomlight: Sienivalo
@@ -962,12 +1068,8 @@ material:
   bee_nest: Luonnollinen mehiläispesä
   beehive: Keinotekoinen mehiläispesä
   honey_bottle: Hunajapullo
-  honey_block: Hunajakuutio
   honeycomb_block: Hunajakennokuutio
   lodestone: Magneettikivi
-  netherite_block: Netheriittikuutio
-  ancient_debris: Muinainen romu
-  target: Maalitaulu
   crying_obsidian: Itkevä obsidiaani
   blackstone: Mustakivi
   blackstone_slab: Mustakivilaatta
@@ -982,28 +1084,53 @@ material:
   polished_blackstone_brick_stairs: Kiillotetut mustakivitiiliportaat
   cracked_polished_blackstone_bricks: Murtunut kiillotettu mustakivi
   respawn_anchor: Uudelleensyntymisankkuri
+  candle: Kynttilä
+  white_candle: Valkoinen kynttilä
+  orange_candle: Oranssi kynttilä
+  magenta_candle: Purppura kynttilä
+  light_blue_candle: Vaaleansininen kynttilä
+  yellow_candle: Keltainen kynttilä
+  lime_candle: Limetinvihreä kynttilä
+  pink_candle: Vaaleanpunainen kynttilä
+  gray_candle: Harmaa kynttilä
+  light_gray_candle: Vaaleanharmaa kynttilä
+  cyan_candle: Syaani kynttilä
+  purple_candle: Violetti kynttilä
+  blue_candle: Sininen kynttilä
+  brown_candle: Ruskea kynttilä
+  green_candle: Vihreä kynttilä
+  red_candle: Punainen kynttilä
+  black_candle: Musta kynttilä
+  small_amethyst_bud: Pieni ametistinuppu
+  medium_amethyst_bud: Keskikokoinen ametistinuppu
+  large_amethyst_bud: Suuri ametistinuppu
+  amethyst_cluster: Ametistirykelmä
+  pointed_dripstone: Terävä tippukivi
   water: Vesi
   lava: Laava
   tall_seagrass: Pitkä meriruoho
   piston_head: Männän pää
   moving_piston: Liikkuva mäntä
-  wall_torch: Seinäsoihtu
+  wall_torch: Seinälle asetettu soihtu
   fire: Tuli
   soul_fire: Sielutuli
-  redstone_wire: Redstone-johto
-  oak_wall_sign: Tammi seinäkyltti
-  spruce_wall_sign: Kuusi seinäkyltti
-  birch_wall_sign: Koivu seinäkyltti
-  acacia_wall_sign: Akaasia seinäkyltti
-  jungle_wall_sign: Viidakkopuu seinäkyltti
-  dark_oak_wall_sign: Tumma tammi seinäkyltti
-  redstone_wall_torch: Ripustettu redstone-soihtu
-  soul_wall_torch: Sieluseinäsoihtu
+  redstone_wire: Punakivijohdin
+  oak_wall_sign: Ripustettu tammikyltti
+  spruce_wall_sign: Ripustettu kuusikyltti
+  birch_wall_sign: Ripustettu koivukyltti
+  acacia_wall_sign: Ripustettu akaasiakyltti
+  jungle_wall_sign: Ripustettu viidakkopuukyltti
+  dark_oak_wall_sign: Ripustettu tumma tammikyltti
+  redstone_wall_torch: Seinälle asetettu punakivisoihtu
+  soul_wall_torch: Seinälle asetettu sielusoihtu
   nether_portal: Nether-portaali
   attached_pumpkin_stem: Kytkeytynyt kurpitsan varsi
   attached_melon_stem: Kytkeytynyt meloninvarsi
   pumpkin_stem: Kurpitsan varsi
   melon_stem: Melonin varsi
+  water_cauldron: Vesipata
+  lava_cauldron: Laavapata
+  powder_snow_cauldron: Puuterilumipata
   end_portal: End-portaali
   cocoa: Kaakao
   tripwire: Ansalanka
@@ -1026,7 +1153,7 @@ material:
   potted_oxeye_daisy: Istutettu päivänkakkara
   potted_cornflower: Istutettu ruiskaunokki
   potted_lily_of_the_valley: Istutettu kielo
-  potted_wither_rose: Istutettu Wither-ruusu
+  potted_wither_rose: Istutettu wither-ruusu
   potted_red_mushroom: Istutettu kärpässieni
   potted_brown_mushroom: Istutettu ruskea sieni
   potted_dead_bush: Istutettu kuollut pensas
@@ -1077,12 +1204,36 @@ material:
   sweet_berry_bush: Makea marjapensas
   weeping_vines_plant: Itkuköynnöskasvi
   twisting_vines_plant: Kieroköynnöskasvi
-  crimson_wall_sign: Karmiini seinäkyltti
-  warped_wall_sign: Kumma seinäkyltti
+  crimson_wall_sign: Ripustettu karmiinikyltti
+  warped_wall_sign: Ripustettu kummakyltti
   potted_crimson_fungus: Istutettu karmiinisieni
   potted_warped_fungus: Istutettu kummasieni
   potted_crimson_roots: Istutetut karmiinijuuret
   potted_warped_roots: Istutetut kummajuuret
+  candle_cake: Kynttiläkakku
+  white_candle_cake: Kakku valkoisella kynttilällä
+  orange_candle_cake: Kakku oranssilla kynttilällä
+  magenta_candle_cake: Kakku purppuralla kynttilällä
+  light_blue_candle_cake: Kakku vaaleansinisellä kynttilällä
+  yellow_candle_cake: Kakku keltaisella kynttilällä
+  lime_candle_cake: Kakku limetinvihreällä kynttilällä
+  pink_candle_cake: Kakku vaaleanpunaisella kynttilällä
+  gray_candle_cake: Kakku harmaalla kynttilällä
+  light_gray_candle_cake: Kakku vaaleanharmaalla kynttilällä
+  cyan_candle_cake: Kakku syaanilla kynttilällä
+  purple_candle_cake: Kakku violetilla kynttilällä
+  blue_candle_cake: Kakku sinisellä kynttilällä
+  brown_candle_cake: Kakku ruskealla kynttilällä
+  green_candle_cake: Kakku vihreällä kynttilällä
+  red_candle_cake: Kakku punaisella kynttilällä
+  black_candle_cake: Kakku mustalla kynttilällä
+  powder_snow: Puuterilumi
+  cave_vines: Luolaköynnös
+  cave_vines_plant: Luolaköynnöskasvi
+  big_dripleaf_stem: Iso tippulehtivarsi
+  potted_azalea_bush: Istutettu atsalea
+  potted_flowering_azalea_bush: Istutettu kukkiva atsalea
+  grass_path: Ruohopolku
   zombie_pigman_spawn_egg: Luo sikamieszombi
   cactus_green: Kaktuksenvihreä väriaine
   dandelion_yellow: Voikukankeltainen väriaine
@@ -1169,46 +1320,48 @@ biome:
   crimson_forest: Karmiinimetsä
   warped_forest: Kummametsä
   basalt_deltas: Basalttisuistot
+  dripstone_caves: Tippukiviluolat
+  lush_caves: Rehevä luolasto
   nether: Nether
 enchantment:
-  fire_protection: Tulisuojaus
-  sharpness: Terävyys
-  flame: Liekki
-  soul_speed: Sielunopeus
-  aqua_affinity: Vesimieltymys
-  punch: Isku
-  loyalty: Uskollisuus
-  depth_strider: Vesivipellys
-  vanishing_curse: Katoamisen kirous
-  unbreaking: Hajoamaton
-  knockback: Raskas
-  luck_of_the_sea: Meren onni
-  binding_curse: Sitoutumisen kirous
-  fortune: Onni
   protection: Suojaus
-  efficiency: Tehokkuus
-  mending: Paikkaus
-  frost_walker: Pakkaskävelijä
-  lure: Viehe
-  looting: Ryöstely
-  piercing: Lävistys
-  blast_protection: Räjähdyssuojaus
-  smite: Sivallus
-  multishot: Moniammunta
-  fire_aspect: Liekehtivä
-  channeling: Kanavointi
-  sweeping: Kiitävä reuna
-  thorns: Piikikäs
-  bane_of_arthropods: Niveljalkaisten kirous
-  respiration: Hengitys
-  riptide: Ristiaallokko
-  silk_touch: Silkkinen kosketus
-  quick_charge: Pikalataus
-  projectile_protection: Ammussuojaus
-  impaling: Seivästys
+  fire_protection: Tulisuojaus
   feather_falling: Höyhenenkevyt
+  blast_protection: Räjähdyssuojaus
+  projectile_protection: Ammussuojaus
+  respiration: Hengitys
+  aqua_affinity: Vesimieltymys
+  thorns: Piikikäs
+  depth_strider: Vesivipellys
+  frost_walker: Pakkaskävelijä
+  binding_curse: Sitoutumisen kirous
+  sharpness: Terävyys
+  smite: Sivallus
+  bane_of_arthropods: Niveljalkaisten kirous
+  knockback: Raskas
+  fire_aspect: Liekehtivä
+  looting: Ryöstely
+  sweeping: Kiitävä reuna
+  efficiency: Tehokkuus
+  silk_touch: Silkkinen kosketus
+  unbreaking: Hajoamaton
+  fortune: Onni
   power: Voima
+  punch: Isku
+  flame: Liekki
   infinity: Loputtomuus
+  luck_of_the_sea: Meren onni
+  lure: Viehe
+  loyalty: Uskollisuus
+  impaling: Seivästys
+  riptide: Ristiaallokko
+  channeling: Kanavointi
+  multishot: Moniammunta
+  quick_charge: Pikalataus
+  piercing: Lävistys
+  mending: Paikkaus
+  vanishing_curse: Katoamisen kirous
+  soul_speed: Sielunopeus
 potion:
   uncraftable: Valmistuskelvoton taikajuoma
   water: Vesipullo
@@ -1403,6 +1556,11 @@ entity:
   strider: Rämpijä
   zoglin: Zoglin
   piglin_brute: Piglin-raakalainen
+  axolotl: Aksolotli
+  glow_item_frame: Hehkukehys
+  glow_squid: Hehkukalmari
+  goat: Vuohi
+  marker: Merkki
   fishing_hook: Koho
   lightning: Salama
   player: Pelaaja
@@ -2202,17 +2360,3 @@ villager_profession:
   shepherd: Lammaspaimen
   toolsmith: Työkaluseppä
   weaponsmith: Aseseppä
-villager_career:
-  farmer: Maanviljelijä
-  fisherman: Kalastaja
-  shepherd: Lammaspaimen
-  fletcher: Jousiseppä
-  librarian: Kirjastonhoitaja
-  cartographer: Kartoittaja
-  cleric: Pappi
-  armorer: Haarniskaseppä
-  weapon_smith: Aseseppä
-  tool_smith: Työkaluseppä
-  butcher: Teurastaja
-  leatherworker: Suutari
-  nitwit: Pölkkypää

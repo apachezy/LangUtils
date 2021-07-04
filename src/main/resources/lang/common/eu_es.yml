@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:47                    #
+# Build time: 2021-07-04 21:46:02                    #
 # ####################################################
 language:
   code: eu_es
@@ -9,15 +9,22 @@ material:
   air: Airea
   stone: Harria
   granite: Granitoa
-  polished_granite: Granito leuna
+  polished_granite: Txartatutako granitoa
   diorite: Diorita
-  polished_diorite: Diorita leuna
+  polished_diorite: Txartatutako diorita
   andesite: Andesita
-  polished_andesite: Andesita leuna
+  polished_andesite: Txartatutako andesita
+  deepslate: Sakonetako arbela
+  cobbled_deepslate: Sakonetako arbel harritsua
+  polished_deepslate: Txartatutako sakonetako arbela
+  calcite: Kaltzita
+  tuff: Toba
+  dripstone_block: Espeleotema blokea
   grass_block: Belar blokea
   dirt: Lurra
   coarse_dirt: Lur trokatsua
   podzol: Podsola
+  rooted_dirt: Lur sustraitsua
   crimson_nylium: Karmesi nekelioa
   warped_nylium: Nekelio gaiztoa
   cobblestone: Arroka
@@ -27,8 +34,8 @@ material:
   jungle_planks: Oihan oholak
   acacia_planks: Akazia oholak
   dark_oak_planks: Haritz ilun oholak
-  crimson_planks: Karmesi-egurra
-  warped_planks: Zur gaiztoa
+  crimson_planks: Ohol karminak
+  warped_planks: Ohol gaiztotuak
   oak_sapling: Haritz kimetza
   spruce_sapling: Izei kimetza
   birch_sapling: Urki kimetza
@@ -39,10 +46,67 @@ material:
   sand: Harea
   red_sand: Hare-gorria
   gravel: Legarra
-  gold_ore: Urrezko mea
-  iron_ore: Burdinazko mea
   coal_ore: Ikatzezko mea
-  nether_gold_ore: Infernuko urre mea
+  deepslate_coal_ore: Ikatzezko sakonetako arbelezko mea
+  iron_ore: Burdinazko mea
+  deepslate_iron_ore: Burdinazko sakonetako arbelezko mea
+  copper_ore: Kobrezko mea
+  deepslate_copper_ore: Kobrezko sakonetako arbelezko mea
+  gold_ore: Urrezko mea
+  deepslate_gold_ore: Urrezko sakonetako arbelezko mea
+  redstone_ore: Redstonezko mea
+  deepslate_redstone_ore: Redstonezko sakonetako arbelezko mea
+  emerald_ore: Esmeraldazko mea
+  deepslate_emerald_ore: Esmeraldazko sakonetako arbelezko mea
+  lapis_ore: Lapis lazulizko mea
+  deepslate_lapis_ore: Lapis lazulizko sakonetako arbelezko mea
+  diamond_ore: Diamantezko mea
+  deepslate_diamond_ore: Diamantezko sakonetako arbelezko mea
+  nether_gold_ore: Netherreko urrezko mea
+  nether_quartz_ore: Netherreko kuartzozko mea
+  ancient_debris: Antzinako hondakinak
+  coal_block: Ikatz blokea
+  raw_iron_block: Landugabeko burdinezko blokea
+  raw_copper_block: Landugabeko kobrezko blokea
+  raw_gold_block: Landugabeko urrezko blokea
+  amethyst_block: Ametista blokea
+  budding_amethyst: Ametista ernamuinltzailea
+  iron_block: Burdinazko blokea
+  copper_block: Kobrezko blokea
+  gold_block: Urrezko blokea
+  diamond_block: Diamantezko blokea
+  netherite_block: Netheritazko blokea
+  exposed_copper: Kobre estalgabetua
+  weathered_copper: Kobre degradatua
+  oxidized_copper: Kobre oxidatua
+  cut_copper: Kobre moztua
+  exposed_cut_copper: Moztutako kobre estalgabetua
+  weathered_cut_copper: Degradatutako kobre moztua
+  oxidized_cut_copper: Oxidatutako kobre moztua
+  cut_copper_stairs: Moztutako kobrezko eskailerak
+  exposed_cut_copper_stairs: Esposiziopeko kobre ebakiko eskailerak
+  weathered_cut_copper_stairs: Degradatutako kobre ebaki eskailerak
+  oxidized_cut_copper_stairs: Oxidatutako kobre ebakiko eskailerak
+  cut_copper_slab: Ebakitako kobre plaka
+  exposed_cut_copper_slab: Esposiziopeko kobre ebakiko plaka
+  weathered_cut_copper_slab: Degradatutako kobre ebaki plaka
+  oxidized_cut_copper_slab: Oxidatutako kobre ebakiko plaka
+  waxed_copper_block: Ezkoztatutako kobre blokea
+  waxed_exposed_copper: Ezkoztatutako esposiziopeko kobrea
+  waxed_weathered_copper: Ezkoztatutako degradatutako kobrea
+  waxed_oxidized_copper: Ezkoztatutako kobre oxidatua
+  waxed_cut_copper: Ezkoztatutako kobre ebakia
+  waxed_exposed_cut_copper: Ezkoztatutako esposiziopeko kobre ebakia
+  waxed_weathered_cut_copper: Ezkoztatutako degradatutako kobre ebakia
+  waxed_oxidized_cut_copper: Ezkoztatutako oxidatutako kobre ebakia
+  waxed_cut_copper_stairs: Ezkoztatutako kobre ebakiko eskailerak
+  waxed_exposed_cut_copper_stairs: Ezkoztatutako esposiziopeko kobre ebakizko eskailerak
+  waxed_weathered_cut_copper_stairs: Ezkoztatutako degradatutako kobre ebakizko eskailerak
+  waxed_oxidized_cut_copper_stairs: Ezkoztatutako oxidatutako kobre ebakizko eskailerak
+  waxed_cut_copper_slab: Ezkoztatutako kobre ebaki plaka
+  waxed_exposed_cut_copper_slab: Ezkoztatutako esposiziopeko kobre ebakizko plaka
+  waxed_weathered_cut_copper_slab: Ezkoztatutako degradatutako kobre ebakizko plaka
+  waxed_oxidized_cut_copper_slab: Ezkoztatutako oxidatutako kobre ebakizko plaka
   oak_log: Haritz enborra
   spruce_log: Izei enborra
   birch_log: Urki enborra
@@ -81,26 +145,23 @@ material:
   jungle_leaves: Oihan hostoak
   acacia_leaves: Akazia hostoak
   dark_oak_leaves: Haritz ilun hostoak
+  azalea_leaves: Azalea hostoak
   sponge: Belakia
   wet_sponge: Belaki bustia
   glass: Kristala
-  lapis_ore: Lapis lazulizko mea
-  lapis_block: Lapis lazulizko blokea
-  dispenser: Dispentsagailua
+  tinted_glass: Kristal tindatua
+  lapis_block: Lapis lazuli blokea
   sandstone: Hareharri
-  chiseled_sandstone: Zizelkatutako hareharria
+  chiseled_sandstone: Hareharri zizelkatua
   cut_sandstone: Hareharri moztua
-  note_block: Nota blokea
-  powered_rail: Propultsagailudun erraila
-  detector_rail: Detektagailudun erraila
-  sticky_piston: Pistoi itsaskorra
   cobweb: Armiarma-sarea
   grass: Belarra
   fern: Iratzea
+  azalea: Azalea
+  flowering_azalea: Loratutako azalea
   dead_bush: Hildako zuhaixka
   seagrass: Itsas belarra
   sea_pickle: Itsasoko eskabetxea
-  piston: Pistoia
   white_wool: Artile zuria
   orange_wool: Artile laranja
   magenta_wool: Artile magenta
@@ -130,50 +191,53 @@ material:
   cornflower: Nabar-lorea
   lily_of_the_valley: Mugeta
   wither_rose: Wither arrosa
+  spore_blossom: Esporazko lorea
   brown_mushroom: Perretxiko marroia
   red_mushroom: Onddo gorria
   crimson_fungus: onddo gorria
   warped_fungus: Onddo distortsionatua
   crimson_roots: Karmesi-sustraiak
   warped_roots: Raiz gaiztoak
-  nether_sprouts: Nether-aren azak
+  nether_sprouts: Netherreko ernamuinak
   weeping_vines: Igokari negartiak
   twisting_vines: Igokari okerra
   sugar_cane: Azukre Kanabera
   kelp: Alga
+  moss_carpet: Goroldiozko alfonbra
+  moss_block: Goroldiozko blokea
+  hanging_roots: Sustrai zintzilikariak
+  big_dripleaf: Tanta-hosto handia
+  small_dripleaf: Tanta-hosto txikia
   bamboo: Banbua
-  gold_block: Urrezko blokea
-  iron_block: Burdinazko blokea
   oak_slab: Haritzezko lauza
   spruce_slab: Izeizko lauza
   birch_slab: Urkizko lauza
   jungle_slab: Oihanezko lauza
-  acacia_slab: Akaziazko Baldosa
-  dark_oak_slab: Haritz iluna
+  acacia_slab: Akaziazko lauza
+  dark_oak_slab: Haritz ilunezko lauza
   crimson_slab: Karmesi lauza
   warped_slab: Lauza gaiztoa
   stone_slab: Harrizko lauza
   smooth_stone_slab: Harri leunezko lauza
   sandstone_slab: Hareharrizko lauza
-  cut_sandstone_slab: Hareharri moztutazko lauza
-  petrified_oak_slab: Haritz petrifikatuzko lauza
+  cut_sandstone_slab: Moztutako hareharrizko lauza
+  petrified_oak_slab: Harritutako haritzezko lauza
   cobblestone_slab: Arrokazko lauza
-  brick_slab: Adreiluzko Baldosa
-  stone_brick_slab: Adreiluzko lauza
-  nether_brick_slab: Adreilu abisalezko baldosa
-  quartz_slab: Kuartzozko baldosa
+  brick_slab: Adreiluzko lauza
+  stone_brick_slab: Harrizko adreiluzko lauza
+  nether_brick_slab: Netherreko adreiluzko lauza
+  quartz_slab: Kuartzozko lauza
   red_sandstone_slab: Hareharri gorrizko lauza
-  cut_red_sandstone_slab: Hareharri gorrizko moztutazko lauza
-  purpur_slab: Purpur baldosa
-  prismarine_slab: Prismarinazko Baldosa
-  prismarine_brick_slab: Prismarina adreiluzko lauza
-  dark_prismarine_slab: Prismarine ilunaren xafla
-  smooth_quartz: Kuartzo bloke leuna
-  smooth_red_sandstone: Hareharri leun gorria
+  cut_red_sandstone_slab: Moztutako hareharri gorrizko lauza
+  purpur_slab: Purpur lauza
+  prismarine_slab: Prismarinazko lauza
+  prismarine_brick_slab: Prismarinazko adreiluzko lauza
+  dark_prismarine_slab: Prismarina ilunezko lauza
+  smooth_quartz: Kuartzo leunezko blokea
+  smooth_red_sandstone: Hareharri gorri leuna
   smooth_sandstone: Hareharri leuna
   smooth_stone: Harri leuna
   bricks: Adreiluak
-  tnt: Dinamita
   bookshelf: Liburu-apalategia
   mossy_cobblestone: Mossy Cobblestone
   obsidian: Obsidiana
@@ -187,27 +251,11 @@ material:
   spawner: Sortzailea
   oak_stairs: Haritzezko eskailerak
   chest: Kutxa
-  diamond_ore: Diamantezko mea
-  diamond_block: Diamantezko blokea
   crafting_table: Lan-mahaia
   farmland: Saila
   furnace: Labea
   ladder: Zurubia
-  rail: Erraila
   cobblestone_stairs: Arrokazko eskailerak
-  lever: Palanka
-  stone_pressure_plate: Harrizko presio plaka
-  oak_pressure_plate: Haritz Presio Plaka
-  spruce_pressure_plate: Spruce presio plaka
-  birch_pressure_plate: Urkiaren Presio Plaka
-  jungle_pressure_plate: Oihaneko presio plaka
-  acacia_pressure_plate: Akazia presio plaka
-  dark_oak_pressure_plate: Haritz ilunaren presio plaka
-  crimson_pressure_plate: Karmesi presio-plaka
-  warped_pressure_plate: Presio-plaka gaiztoa
-  polished_blackstone_pressure_plate: harri beltza leundutako presio plaka
-  redstone_ore: Harrigorrizko mea
-  redstone_torch: Harrigorri zuzia
   snow: Elurra
   ice: Izotza
   snow_block: Elur blokea
@@ -224,32 +272,31 @@ material:
   warped_fence: Hesi gaiztoa
   pumpkin: Kalabaza
   carved_pumpkin: Kalabaza tailatua
-  netherrack: Arroka abisala
+  jack_o_lantern: Kalabaza linterna
+  netherrack: Netherrack
   soul_sand: Arima harea
   soul_soil: Arima-lurra
   basalt: Basaltoa
-  polished_basalt: Basalto lehuna
+  polished_basalt: Txartatutako basaltoa
+  smooth_basalt: Basalto leuna
   soul_torch: Arimen zuzia
   glowstone: Argi-harria
-  jack_o_lantern: Kalabaza linterna
-  oak_trapdoor: Haritz tranpa
-  spruce_trapdoor: Izei tranpa
-  birch_trapdoor: Urki tranpa
-  jungle_trapdoor: Oihan tranpa
-  acacia_trapdoor: Akazia tranpa
-  dark_oak_trapdoor: Haritz ilunezko tranpa
-  crimson_trapdoor: Karmesi-tranpa
-  warped_trapdoor: Tranpa gaiztoa
   infested_stone: Harri okitua
   infested_cobblestone: Arroka okitua
   infested_stone_bricks: Harrizko adreilu okituak
   infested_mossy_stone_bricks: Harri goroldiotsuzko adreilu okituak
-  infested_cracked_stone_bricks: block.minecraft. infested_cracked_stone_bricks
-  infested_chiseled_stone_bricks: Zizelkatutako harrizko adreilu izurrituak
+  infested_cracked_stone_bricks: Izurritutako harrizko adreilu pitzatuak
+  infested_chiseled_stone_bricks: Izurritutako harrizko adreilu zizelkatuak
+  infested_deepslate: Sakonetako arbel izurritua
   stone_bricks: Harrizko adreiluak
   mossy_stone_bricks: Harri goroldiotsuzko adreiluak
-  cracked_stone_bricks: Pitzatu harrizko adreiluak
-  chiseled_stone_bricks: Zizelkatuko harrizko adreiluak
+  cracked_stone_bricks: Harrizko adreilu pitzatuak
+  chiseled_stone_bricks: Harrizko adreilu zizelkatuak
+  deepslate_bricks: Sakonetako arbelezko adreiluak
+  cracked_deepslate_bricks: Sakonetako arbelezko adreilu pitzatuak
+  deepslate_tiles: Sakonetako arbelezko teilak
+  cracked_deepslate_tiles: Sakonetako arbelezko teila pitzatuak
+  chiseled_deepslate: Sakonetako arbel zizelkatua
   brown_mushroom_block: Perretxiko marroiazko blokea
   red_mushroom_block: Perretxiko gorrizko blokea
   mushroom_stem: Perretxiko aieta
@@ -258,33 +305,23 @@ material:
   glass_pane: Kristalezko panela
   melon: Meloia
   vine: Igokaria
-  oak_fence_gate: Haritzezko hesi atea
-  spruce_fence_gate: Izeizko hesi atea
-  birch_fence_gate: Urkizko hesi atea
-  jungle_fence_gate: Ohianezko hesi atea
-  acacia_fence_gate: Akaziazko hesi atea
-  dark_oak_fence_gate: Haritz ilunezko hesi atea
-  crimson_fence_gate: Karmesi-hesiko atea
-  warped_fence_gate: Puerta de valla perversa
+  glow_lichen: Liken distiratsua
   brick_stairs: Adreiluzko eskailerak
   stone_brick_stairs: Harri adreiluzko eskailerak
   mycelium: Mizelioa
   lily_pad: Igebelarra
-  nether_bricks: Infernuko adreiluak
-  cracked_nether_bricks: Netherren adreilu pitzatuak
-  chiseled_nether_bricks: zizelatutako adreilu baxuagoak
-  nether_brick_fence: Adreilu abisalezko hesia
-  nether_brick_stairs: Adreilu abisalezko eskailerak
+  nether_bricks: Netherreko adreiluak
+  cracked_nether_bricks: Netherreko adreilu pitzatuak
+  chiseled_nether_bricks: Netherreko adreilu zizelkatuak
+  nether_brick_fence: Netherreko adreiluzko hesia
+  nether_brick_stairs: Netherreko adreiluzko eskailerak
   enchanting_table: Sorginkeria mahaia
   end_portal_frame: Amaierako munduko markoa
   end_stone: Amaierako harria
   end_stone_bricks: Amaierako harrizko adreilua
   dragon_egg: Dragoiaren arrautza
-  redstone_lamp: Harrigorri lanpara
   sandstone_stairs: Hareharrizko eskailerak
-  emerald_ore: Esmeralda mea
   ender_chest: Enderkutxa
-  tripwire_hook: Segadaren lotura
   emerald_block: Esmeralda blokea
   spruce_stairs: Izeizko eskailerak
   birch_stairs: Urkizko eskailerak
@@ -301,42 +338,27 @@ material:
   mossy_stone_brick_wall: Harri goroldiotsu adreiluzko Pareta
   granite_wall: Granito horma
   stone_brick_wall: Harri adreiluzko pareta
-  nether_brick_wall: Adreilu abisalezko pareta
+  nether_brick_wall: Netherreko adreiluzko horma
   andesite_wall: Andesitazko pareta
-  red_nether_brick_wall: Adreilu abisal gorrizko pareta
+  red_nether_brick_wall: Netherreko adreilu gorrizko horma
   sandstone_wall: Hareharri pareta
   end_stone_brick_wall: Amaierako harri adreiluzko horma
   diorite_wall: Dioritazko horma
-  blackstone_wall: Harribeltzezko pareta
-  polished_blackstone_wall: harri beltz leundua
-  polished_blackstone_brick_wall: leundutako harri beltzezko adreiluzko horma
-  stone_button: Harrizko botoia
-  oak_button: Haritzezko botoia
-  spruce_button: Izeizko botoia
-  birch_button: Urkizko botoia
-  jungle_button: Oihanezko botoia
-  acacia_button: Akaziazko botoia
-  dark_oak_button: Haritz ilunezko botoia
-  crimson_button: Karmesi-botoia
-  warped_button: Botoi okerra
-  polished_blackstone_button: harri beltza leundutako botoia
+  blackstone_wall: Harribeltzezko horma
+  polished_blackstone_wall: Txartatutako harribeltzezko horma
+  polished_blackstone_brick_wall: Txartatutako harribeltzezko adreiluzko horma
+  cobbled_deepslate_wall: Sakonetako arbel harritsuzko horma
+  polished_deepslate_wall: Txartatutako sakonetako arbelezko horma
+  deepslate_brick_wall: Sakonetako arbelezko adreiluzko horma
+  deepslate_tile_wall: Sakonetako arbelezko teilazko horma
   anvil: Ingude
   chipped_anvil: Kaltetutako ingudea
   damaged_anvil: Ondatutako ingudea
-  trapped_chest: Tranpadun kutxa
-  light_weighted_pressure_plate: Presio-plaka arina
-  heavy_weighted_pressure_plate: Presio handiko pisu plaka
-  daylight_detector: Eguzki argi sentsorea
-  redstone_block: Harrigorri blokea
-  nether_quartz_ore: Kuartzo abisal mea
-  hopper: Kalapatxa
-  chiseled_quartz_block: Zizelkatutako kuartzo blokea
+  chiseled_quartz_block: Kuartzo zizelkatua
   quartz_block: Kuartzo blokea
   quartz_bricks: Kuartzozko adreiluak
   quartz_pillar: Kuartzozko zutabea
   quartz_stairs: Kuartzozko eskailerak
-  activator_rail: Aktibatzailedun erraila
-  dropper: Jaurtigailua
   white_terracotta: Terrakota Zuria
   orange_terracotta: Terrakota Laranja
   magenta_terracotta: Terrakota Magenta
@@ -354,7 +376,7 @@ material:
   red_terracotta: Terrakota Gorria
   black_terracotta: Terrakota Beltza
   barrier: Barrera
-  iron_trapdoor: Burdinazko tranpola
+  light: Argia
   hay_block: Lasto fardoa
   white_carpet: Alfonbra zuria
   orange_carpet: Laranja koloreko alfonbra
@@ -373,12 +395,10 @@ material:
   red_carpet: Gorri koloreko alfonbra
   black_carpet: Beltz koloreko alfonbra
   terracotta: Terrakota
-  coal_block: Ikatz blokea
   packed_ice: Izotz konprimitua
   acacia_stairs: Akaziazko eskailerak
   dark_oak_stairs: Haritz ilunezko eskailerak
-  slime_block: Likati blokea
-  grass_path: Belarbidea
+  dirt_path: Lur bidea
   sunflower: Eguzki-lorea
   lilac: Lila
   rose_bush: Arrosondoa
@@ -420,40 +440,39 @@ material:
   prismarine: Prismarina
   prismarine_bricks: Prismarina adreiluak
   dark_prismarine: Prismarina iluna
-  prismarine_stairs: Eskailera Prismarinak
+  prismarine_stairs: Prismarina eskailerak
   prismarine_brick_stairs: Prismarina adreiluzko eskailerak
   dark_prismarine_stairs: Prismarine eskailera ilunak
   sea_lantern: Itsas linterna
   red_sandstone: Hareharri gorria
-  chiseled_red_sandstone: Zizelkatutako hareharri gorria
+  chiseled_red_sandstone: Hareharri gorri zizelkatua
   cut_red_sandstone: Moztutako harearri gorria
   red_sandstone_stairs: Hareharri gorrizko eskailerak
   repeating_command_block: Iterazio-agindu blokea
   chain_command_block: Kate-agindu blokea
   magma_block: Magma Blokea
-  nether_wart_block: Infernuko Garatxoen Blokea
+  nether_wart_block: Netherreko garatxozko blokea
   warped_wart_block: Garatxo-bloke gaiztoa
-  red_nether_bricks: Infernuko adreilu gorriak
+  red_nether_bricks: Netherreko adreilu gorriak
   bone_block: Hezur Blokea
   structure_void: Egitura Hutsunea
-  observer: Behatzailea
-  shulker_box: Shulker kaxa
-  white_shulker_box: Shulker zurirako kaxa
-  orange_shulker_box: Shulker laranjarako kaxa
-  magenta_shulker_box: Shulker magentarako kaxa
-  light_blue_shulker_box: Shulker urdin argirako kaxa
-  yellow_shulker_box: Shulker horirako kaxa
-  lime_shulker_box: Shulker berde limarako kaxa
-  pink_shulker_box: Shulker arrosarako kaxa
-  gray_shulker_box: Shulker griserako kaxa
-  light_gray_shulker_box: Shulker gris argirako kaxa
-  cyan_shulker_box: Shulker turkesarako kaxa
-  purple_shulker_box: Shulker morerako kaxa
-  blue_shulker_box: Shulker urdinerako kaxa
-  brown_shulker_box: Shulker marroirako kaxa
-  green_shulker_box: Shulker berderako kaxa
-  red_shulker_box: Shulker gorrirako kaxa
-  black_shulker_box: Shulker beltzerako kaxa
+  shulker_box: Shulker kutxa
+  white_shulker_box: Shulker kutxa zuria
+  orange_shulker_box: Shulker kutxa laranja
+  magenta_shulker_box: Shulker kutxa magenta
+  light_blue_shulker_box: Shulker kutxa urdin argia
+  yellow_shulker_box: Shulker kutxa horia
+  lime_shulker_box: Shulker kutxa berde lima
+  pink_shulker_box: Shulker kutxa arrosa
+  gray_shulker_box: Shulker kutxa grisa
+  light_gray_shulker_box: Shulker kutxa gris argia
+  cyan_shulker_box: Shulker kutxa ziana
+  purple_shulker_box: Shulker kutxa morea
+  blue_shulker_box: Shulker kutxa urdina
+  brown_shulker_box: Shulker kutxa marroia
+  green_shulker_box: Shulker kutxa berdea
+  red_shulker_box: Shulker kutxa gorria
+  black_shulker_box: Shulker kutxa beltza
   white_glazed_terracotta: Azulejo Zuria
   orange_glazed_terracotta: Azulejo Laranja
   magenta_glazed_terracotta: Azulejo Magenta
@@ -486,22 +505,22 @@ material:
   green_concrete: Hormigoi Berdea
   red_concrete: Hormigoi Gorria
   black_concrete: Hormigoi Beltza
-  white_concrete_powder: Hormigoi Hauts Zuria
-  orange_concrete_powder: Hormigoi Hauts Laranja
-  magenta_concrete_powder: Hormigoi Hauts Magenta
-  light_blue_concrete_powder: Hormigoi Hauts Urdin Argia
-  yellow_concrete_powder: Hormigoi Hauts Horia
-  lime_concrete_powder: Hormigoi Hauts Lima
-  pink_concrete_powder: Hormigoi Hauts Larrosa
-  gray_concrete_powder: Hormigoi Hauts Grisa
-  light_gray_concrete_powder: Hormigoi Hauts Gris Argia
-  cyan_concrete_powder: Hormigoi Hauts Ziana
-  purple_concrete_powder: Hormigoi Hauts Morea
-  blue_concrete_powder: Hormigoi Hauts Urdina
-  brown_concrete_powder: Hormigoi Hauts Marroia
-  green_concrete_powder: Hormigoi Hauts Berdea
-  red_concrete_powder: Hormigoi Hauts Gorria
-  black_concrete_powder: Hormigoi Hauts Beltza
+  white_concrete_powder: Zementu zuria
+  orange_concrete_powder: Zementu laranja
+  magenta_concrete_powder: Zementu magenta
+  light_blue_concrete_powder: Zementu urdin argia
+  yellow_concrete_powder: Zementu horia
+  lime_concrete_powder: Zementu lima
+  pink_concrete_powder: Zementu arrosa
+  gray_concrete_powder: Zementu grisa
+  light_gray_concrete_powder: Zementu gris argia
+  cyan_concrete_powder: Zementu ziana
+  purple_concrete_powder: Zementu morea
+  blue_concrete_powder: Zementu urdina
+  brown_concrete_powder: Zementu marroia
+  green_concrete_powder: Zementu berdea
+  red_concrete_powder: Zementu gorria
+  black_concrete_powder: Zementu beltza
   turtle_egg: Dortoka arrautza
   dead_tube_coral_block: Bizigabeko hodizko koral blokea
   dead_brain_coral_block: Bizigabeko burmuinezko koral blokea
@@ -535,34 +554,88 @@ material:
   dead_horn_coral_fan: Hildako hodizko koral fan
   blue_ice: Izotz urdina
   conduit: Kanalizatzailea
-  polished_granite_stairs: Granito leunezko eskailerak
+  polished_granite_stairs: Txartatutako granitozko eskailerak
   smooth_red_sandstone_stairs: Hareharri gorri leunezko eskailerak
   mossy_stone_brick_stairs: Harri goroldiotsu adreiluzko eskailerak
-  polished_diorite_stairs: Diorita leunezko eskailerak
+  polished_diorite_stairs: Txartatutako dioritazko eskailerak
   mossy_cobblestone_stairs: Arroka goroldiotsuzko eskailerak
   end_stone_brick_stairs: Amaierako arroka adreiluzko eskailerak
   stone_stairs: Harrizko eskailerak
-  smooth_sandstone_stairs: Hareharri gorri leunezko eskailerak
+  smooth_sandstone_stairs: Hareharri leunezko eskailerak
   smooth_quartz_stairs: Kuartzo leunezko eskailerak
   granite_stairs: Ganito eskailerak
   andesite_stairs: Andesita eskailerak
-  red_nether_brick_stairs: Adreilu abisal gorrizko eskailerak
-  polished_andesite_stairs: Andesita leunezko eskailerak
+  red_nether_brick_stairs: Netherreko adreilu gorrizko eskailerak
+  polished_andesite_stairs: Txartatutako andesitazko eskailerak
   diorite_stairs: Dioritazko eskailerak
-  polished_granite_slab: Granito leunezko lauza
+  cobbled_deepslate_stairs: Sakonetako arbel harritsuzko eskailerak
+  polished_deepslate_stairs: Txartatutako sakonetako arbelezko eskailerak
+  deepslate_brick_stairs: Sakonetako arbelezko adreiluzko eskailerak
+  deepslate_tile_stairs: Sakonetako arbelezko teilazko eskailerak
+  polished_granite_slab: Txartatutako granitozko lauza
   smooth_red_sandstone_slab: Hareharri gorri leunezko lauza
   mossy_stone_brick_slab: Harri goroldiotsuzko adreiluzko lauza
-  polished_diorite_slab: Diorita leunezko lauza
+  polished_diorite_slab: Txartatutako dioritazko lauza
   mossy_cobblestone_slab: Arroka goroldiotsuzko lauza
-  end_stone_brick_slab: Amaierako arroka adreiluzko lauza
+  end_stone_brick_slab: Endeko harrizko adreiluzko lauza
   smooth_sandstone_slab: Hareharri leunezko lauza
   smooth_quartz_slab: Kuartzo leunezko lauza
   granite_slab: Ganito lauza
   andesite_slab: Andesitazko lauza
-  red_nether_brick_slab: Adreilu abisalezko baldosa
-  polished_andesite_slab: Andesita leunezko baldosa
+  red_nether_brick_slab: Netherreko adreilu gorrizko lauza
+  polished_andesite_slab: Txartatutako andesitazko lauza
   diorite_slab: Dioritazko lauza
+  cobbled_deepslate_slab: Sakonetako arbel harritsuzko lauza
+  polished_deepslate_slab: Txartatutako sakonetako arbelezko lauza
+  deepslate_brick_slab: Sakonetako arbelezko adreiluzko lauza
+  deepslate_tile_slab: Sakonetako arbelezko teilazko lauza
   scaffolding: Aldamioa
+  redstone: Redstone-hautsa
+  redstone_torch: Redstone-zuzia
+  redstone_block: Redstonezko blokea
+  repeater: Redstone-errepikagailua
+  comparator: Redstone-konparadorea
+  piston: Pistoia
+  sticky_piston: Pistoi itsaskorra
+  slime_block: Likati blokea
+  honey_block: Ezti blokea
+  observer: Behatzailea
+  hopper: Kalapatxa
+  dispenser: Dispentsagailua
+  dropper: Jaurtigailua
+  lectern: Argiontzia
+  target: helburua
+  lever: Palanka
+  lightning_rod: Tximistorratza
+  daylight_detector: Eguzki argi sentsorea
+  sculk_sensor: Sculk sentsorea
+  tripwire_hook: Segadaren lotura
+  trapped_chest: Tranpadun kutxa
+  tnt: Dinamita
+  redstone_lamp: Redstone-lanpara
+  note_block: Nota blokea
+  stone_button: Harrizko botoia
+  polished_blackstone_button: Txartatutako harribeltzezko botoia
+  oak_button: Haritzezko botoia
+  spruce_button: Izeizko botoia
+  birch_button: Urkizko botoia
+  jungle_button: Oihanezko botoia
+  acacia_button: Akaziazko botoia
+  dark_oak_button: Haritz ilunezko botoia
+  crimson_button: Karmesi-botoia
+  warped_button: Botoi okerra
+  stone_pressure_plate: Harrizko presio plaka
+  polished_blackstone_pressure_plate: Txartatutako harribeltzezko presio plaka
+  light_weighted_pressure_plate: Presio plaka arina
+  heavy_weighted_pressure_plate: Presio plaka astuna
+  oak_pressure_plate: Haritzezko presio plaka
+  spruce_pressure_plate: Izeizko presio plaka
+  birch_pressure_plate: Urkizko presio plaka
+  jungle_pressure_plate: Oihanezko presio plaka
+  acacia_pressure_plate: Akaziazko presio plaka
+  dark_oak_pressure_plate: Haritz ilunezko presio plaka
+  crimson_pressure_plate: Zur karmesizko presio plaka
+  warped_pressure_plate: Zur gaiztozko presio plaka
   iron_door: Burdinazko atea
   oak_door: Haritzezko atea
   spruce_door: Izeizko atea
@@ -572,8 +645,42 @@ material:
   dark_oak_door: Haritz ilunezko atea
   crimson_door: Ate gorrimina
   warped_door: Ate okerra
-  repeater: Harrigorrizko errepikagailua
-  comparator: Harrigorri konparadorea
+  iron_trapdoor: Burdinazko tranpola
+  oak_trapdoor: Haritz tranpa
+  spruce_trapdoor: Izei tranpa
+  birch_trapdoor: Urki tranpa
+  jungle_trapdoor: Oihan tranpa
+  acacia_trapdoor: Akazia tranpa
+  dark_oak_trapdoor: Haritz ilunezko tranpa
+  crimson_trapdoor: Karmesi-tranpa
+  warped_trapdoor: Tranpa gaiztoa
+  oak_fence_gate: Haritzezko hesi atea
+  spruce_fence_gate: Izeizko hesi atea
+  birch_fence_gate: Urkizko hesi atea
+  jungle_fence_gate: Ohianezko hesi atea
+  acacia_fence_gate: Akaziazko hesi atea
+  dark_oak_fence_gate: Haritz ilunezko hesi atea
+  crimson_fence_gate: Karmesi-hesiko atea
+  warped_fence_gate: Puerta de valla perversa
+  powered_rail: Propultsagailudun erraila
+  detector_rail: Detektagailudun erraila
+  rail: Erraila
+  activator_rail: Aktibatzailedun erraila
+  saddle: Zaltokia
+  minecart: Bagoneta
+  chest_minecart: Bagoneta kutxarekin
+  furnace_minecart: Bagoneta labearekin
+  tnt_minecart: Bagoneta dinamitarekin
+  hopper_minecart: Bagoneta kalapatxarekin
+  carrot_on_a_stick: Azenarioa makila batekin
+  warped_fungus_on_a_stick: onddo okertua makila batean
+  elytra: Elitroak
+  oak_boat: Haritzezko txalupa
+  spruce_boat: Izeizko txalupa
+  birch_boat: Urkizko txalupa
+  jungle_boat: Oihan zurezko txalupa
+  acacia_boat: Akaziazko txalupa
+  dark_oak_boat: Haritz ilunezko txalupa
   structure_block: Egitura Blokea
   jigsaw: Buruhausgarri blokea
   turtle_helmet: Dortokaren oskola
@@ -585,10 +692,18 @@ material:
   coal: Ikatza
   charcoal: Egur-ikatza
   diamond: Diamantea
+  emerald: Esmeralda
+  lapis_lazuli: Lapis lazulia
+  quartz: Netherreko kuartzoa
+  amethyst_shard: Amatista zatia
+  raw_iron: Burdin gordina
   iron_ingot: Burdinazko lingotea
+  raw_copper: Kobre gordina
+  copper_ingot: Kobre lingotea
+  raw_gold: Urre gordina
   gold_ingot: Urrezko lingotea
-  netherite_ingot: Netherita lingotea
-  netherite_scrap: Netherita puskak
+  netherite_ingot: Netheritazko lingotea
+  netherite_scrap: Netheritazko puskak
   wooden_sword: Zurezko ezpata
   wooden_shovel: Zurezko pala
   wooden_pickaxe: Zurezko pikotxa
@@ -618,7 +733,7 @@ material:
   netherite_shovel: Netheritazko pala
   netherite_pickaxe: Netheritazko pikotxa
   netherite_axe: Netheritazko aizkora
-  netherite_hoe: Netherita-aitzurra
+  netherite_hoe: Netheritazko aitzurra
   stick: Makila
   bowl: Katilua
   mushroom_stew: Perretxiko erregosia
@@ -633,24 +748,24 @@ material:
   leather_leggings: Larruzko galtzak
   leather_boots: Larruzko botak
   chainmail_helmet: Kotazko kaskoa
-  chainmail_chestplate: Kotazko armadura
-  chainmail_leggings: Kotazko prakak
+  chainmail_chestplate: Kotazko bular-oskola
+  chainmail_leggings: Kotazko zangoak
   chainmail_boots: Kotazko botak
   iron_helmet: Burdinazko kaskoa
-  iron_chestplate: Burdinazko armadura
-  iron_leggings: Burdinazko galtzak
+  iron_chestplate: Burdinazko bular-oskola
+  iron_leggings: Burdinazko zangoak
   iron_boots: Burdinazko botak
   diamond_helmet: Diamantezko kaskoa
-  diamond_chestplate: Diamantezko armadura
-  diamond_leggings: Diamantezko galtzak
+  diamond_chestplate: Diamantezko bular-oskola
+  diamond_leggings: Diamantezko zangoak
   diamond_boots: Diamantezko botak
   golden_helmet: Urrezko kaskoa
-  golden_chestplate: Urrezko armadura
-  golden_leggings: Urrezko galtzak
+  golden_chestplate: Urrezko bular-oskola
+  golden_leggings: Urrezko zangoak
   golden_boots: Urrezko botak
   netherite_helmet: Netheritazko kaskoa
-  netherite_chestplate: Netherita-petoa
-  netherite_leggings: Netheritazko prakak
+  netherite_chestplate: Netheritazko bular-oskola
+  netherite_leggings: Netheritazko zangoak
   netherite_boots: Netheritazko botak
   flint: Suharria
   porkchop: Txerri txuleta gordina
@@ -669,29 +784,27 @@ material:
   bucket: Ontzia
   water_bucket: Ur ontzia
   lava_bucket: Laba ontzia
-  minecart: Bagoneta
-  saddle: Zaltokia
-  redstone: Harrigorri hautsa
+  powder_snow_bucket: Elur-hauts ontzia
   snowball: Elur bola
-  oak_boat: Haritzezko txalupa
   leather: Larrua
   milk_bucket: Esnea Ontzia
   pufferfish_bucket: Globo-arrain kuboa
   salmon_bucket: Izokin ontzia
   cod_bucket: Bakailao ontzia
   tropical_fish_bucket: Arrain tropikal ontzia
+  axolotl_bucket: Ontzia axolote batekin
   brick: Adreilua
   clay_ball: Buztinezko bola
   dried_kelp_block: Lehortutako alga blokea
   paper: Papera
   book: Liburua
   slime_ball: Likati-bola
-  chest_minecart: Bagoneta kutxarekin
-  furnace_minecart: Bagoneta labearekin
   egg: Arrautza
   compass: Iparrorratza
+  bundle: Sorta
   fishing_rod: Arrantzarako kanabera
   clock: Erlojua
+  spyglass: Kataloxa
   glowstone_dust: Argi-harriaren hautsa
   cod: Bakailao gordina
   salmon: Izokin gordina
@@ -700,8 +813,8 @@ material:
   cooked_cod: Kozinatutako bakailaoa
   cooked_salmon: Izokin errea
   ink_sac: Tinta zakua
+  glow_ink_sac: Tinta distiratsu zakua
   cocoa_beans: Kakao aleak
-  lapis_lazuli: Lapis lazulia
   white_dye: Tindagai zuria
   orange_dye: Tindagai laranja
   magenta_dye: Tindagai magenta
@@ -750,11 +863,11 @@ material:
   chicken: Oilasko gordina
   cooked_chicken: Oilasko errea
   rotten_flesh: Haragi usteldua
-  ender_pearl: Amaierako perla
+  ender_pearl: Ender perla
   blaze_rod: Sutzarraren barra
   ghast_tear: Mamutxaren malkoa
   gold_nugget: Urrezko pipitak
-  nether_wart: Garatxo abisala
+  nether_wart: Netherreko garatxoa
   potion: Edabea
   glass_bottle: Kristalezko botila
   spider_eye: Armiarmaren begia
@@ -763,8 +876,9 @@ material:
   magma_cream: Magma krema
   brewing_stand: Edabegintzarako euskarria
   cauldron: Lapikoa
-  ender_eye: Amaierako begia
+  ender_eye: Ender begia
   glistering_melon_slice: Meloi distiratsu zatia
+  axolotl_spawn_egg: Axolotl sortzaile arrautza
   bat_spawn_egg: Saguzar sortzaile arrautza
   bee_spawn_egg: Erle sortzaile arrautza
   blaze_spawn_egg: Blaze sortzaile arrautza
@@ -783,6 +897,8 @@ material:
   evoker_spawn_egg: Arrendatzaile sortzaile arrautza
   fox_spawn_egg: Azeri agerpen arrautza
   ghast_spawn_egg: Ghast sortzaile arrautza
+  glow_squid_spawn_egg: Txipiroi distiratsu sortzaile arrautza
+  goat_spawn_egg: Ahuntz sortzaile arrautza
   guardian_spawn_egg: Babesle sortzaile arrautza
   hoglin_spawn_egg: Infernuko basurde sortzailea arrautza
   horse_spawn_egg: Zaldi sortzaile arrautza
@@ -803,7 +919,7 @@ material:
   pufferfish_spawn_egg: Globo-arrain sortzaile arrautza
   rabbit_spawn_egg: Untxi sortzaile arrautza
   ravager_spawn_egg: Suntsitzailearen agerpen arrautza
-  salmon_spawn_egg: Salmoi sortzaile arrautza
+  salmon_spawn_egg: Izokin sortzaile arrautza
   sheep_spawn_egg: Ardi sortzaile arrautza
   shulker_spawn_egg: Shulker sortzaile arrautza
   silverfish_spawn_egg: Zilar arrain sortzaile arrautza
@@ -833,8 +949,8 @@ material:
   fire_charge: Su-bola
   writable_book: Liburua eta idazluma
   written_book: Idatzitako liburua
-  emerald: Esmeralda
   item_frame: Markodun elementua
+  glow_item_frame: Marko distiratsua
   flower_pot: Loreontzi
   carrot: Azenarioa
   potato: Patata
@@ -848,17 +964,12 @@ material:
   zombie_head: Zonbi burua
   creeper_head: Creeper burua
   dragon_head: Dragoi burua
-  carrot_on_a_stick: Azenarioa makila batekin
-  warped_fungus_on_a_stick: onddo okertua makila batean
-  nether_star: Izar abisala
+  nether_star: Netherreko izarra
   pumpkin_pie: Kalabaza pastela
   firework_rocket: Suziria
   firework_star: Suziri izarra
   enchanted_book: Sorgindutako liburua
-  nether_brick: Adreilu abisala
-  quartz: Kuartzo abisala
-  tnt_minecart: Bagoneta dinamitarekin
-  hopper_minecart: Bagoneta kalapatxarekin
+  nether_brick: Netherreko adreilua
   prismarine_shard: Prismarina puska
   prismarine_crystals: Prismarina kristalak
   rabbit: Untxi gordina
@@ -904,12 +1015,6 @@ material:
   tipped_arrow: Gezi inpregnatua
   lingering_potion: Edabe iraunkorra
   shield: Ezkutua
-  elytra: Elitroak
-  spruce_boat: Izeizko txalupa
-  birch_boat: Urkizko txalupa
-  jungle_boat: Oihan zurezko txalupa
-  acacia_boat: Akaziazko txalupa
-  dark_oak_boat: Haritz ilunezko txalupa
   totem_of_undying: Hilezkortasunaren totema
   shulker_shell: Shulker oskola
   iron_nugget: Burdinezko pipitak
@@ -948,13 +1053,13 @@ material:
   cartography_table: Kartografia taula
   fletching_table: Geziak egiteko taula
   grindstone: Zorrotzailea
-  lectern: Argiontzia
   smithing_table: Aroztegi taula
   stonecutter: Harriamozgailua
   bell: Kanpaia
   lantern: Faroltxoa
   soul_lantern: Arima linterna
   sweet_berries: Fruitu Gozoak
+  glow_berries: Fruitu Distiratsuak
   campfire: Sutegia
   soul_campfire: arima kanpamentua
   shroomlight: Argionddoa
@@ -962,26 +1067,44 @@ material:
   bee_nest: Erle habia
   beehive: Erlauntza
   honey_bottle: Botila bat ezti
-  honey_block: Ezti blokea
   honeycomb_block: Abaraska
   lodestone: Magnetita
-  netherite_block: Netherita blokea
-  ancient_debris: Antzinako zaborra
-  target: helburua
   crying_obsidian: obsidiana negarrez
   blackstone: Harribeltza
-  blackstone_slab: Harribeltzezko baldosa
+  blackstone_slab: Harribeltzezko lauza
   blackstone_stairs: Harribeltzezko eskailerak
-  gilded_blackstone: urreztatutako harri beltza
-  polished_blackstone: Harribeltz lehuna
-  polished_blackstone_slab: leundutako harri beltzezko harlauza
-  polished_blackstone_stairs: harri beltza eskailera leunduak
-  chiseled_polished_blackstone: zizelatutako leundutako harri beltza
-  polished_blackstone_bricks: Harribeltzezko adreilu lehunak
-  polished_blackstone_brick_slab: leundutako harri beltzezko adreiluzko lauza
-  polished_blackstone_brick_stairs: leundutako harri beltzezko adreiluzko eskailerak
-  cracked_polished_blackstone_bricks: pitzatutako leundutako harri beltzezko adreiluak
+  gilded_blackstone: Urreztatutako harribeltza
+  polished_blackstone: Txartatutako harribeltza
+  polished_blackstone_slab: Txartatutako harribeltzezko lauza
+  polished_blackstone_stairs: Txartatutako harribeltzezko eskailerak
+  chiseled_polished_blackstone: Txartatutako harribeltz zizelkatua
+  polished_blackstone_bricks: Txartatutako harribeltzezko adreiluak
+  polished_blackstone_brick_slab: Txartatutako harribeltzezko adreiluzko lauza
+  polished_blackstone_brick_stairs: Txartatutako harribeltzezko adreiluzko eskailerak
+  cracked_polished_blackstone_bricks: Txartatutako harribeltzezko adreilu pitzatuak
   respawn_anchor: Berragertze-lotura
+  candle: Kandela
+  white_candle: Kandela zuria
+  orange_candle: Kandela laranja
+  magenta_candle: Kandela magenta
+  light_blue_candle: Kandela urdin argia
+  yellow_candle: Kandela horia
+  lime_candle: Kandela lima
+  pink_candle: Kandela arrosa
+  gray_candle: Kandela grisa
+  light_gray_candle: Kandela gris argia
+  cyan_candle: Kandela ziana
+  purple_candle: Kandela morea
+  blue_candle: Kandela urdina
+  brown_candle: Kandela marroia
+  green_candle: Kandela berdea
+  red_candle: Kandela gorria
+  black_candle: Kandela beltza
+  small_amethyst_bud: Ametista ernamuin txikia
+  medium_amethyst_bud: Ametista ernamuin ertaina
+  large_amethyst_bud: Ametista ernamuin handia
+  amethyst_cluster: Ametista-mordoa
+  pointed_dripstone: Espeleotema puntazorrotza
   water: Ura
   lava: Laba
   tall_seagrass: Itsas-belar luzea
@@ -990,20 +1113,23 @@ material:
   wall_torch: Paretako zuzia
   fire: Sua
   soul_fire: Arimetako sua
-  redstone_wire: Harrigorrizko kablea
+  redstone_wire: Redstone-kablea
   oak_wall_sign: Haritzezko horma kartela
   spruce_wall_sign: Izei horma kartela
   birch_wall_sign: Urki horma kartela
   acacia_wall_sign: Akazia horma kartela
   jungle_wall_sign: Oihan horma kartela
   dark_oak_wall_sign: Haritz ilunezko horma kartela
-  redstone_wall_torch: Paretako harrigorri zuzia
+  redstone_wall_torch: Redstone-zuzia horman
   soul_wall_torch: Arimen zuzia horman
-  nether_portal: Infernuko portala
+  nether_portal: Netherreko ataria
   attached_pumpkin_stem: Erantsitako kalabaza zurtoina
   attached_melon_stem: Angurri zurtoin lotuta
   pumpkin_stem: Kalabaza zurtoina
   melon_stem: Meloi zurtoina
+  water_cauldron: Ur pertza
+  lava_cauldron: Laba pertza
+  powder_snow_cauldron: Elur-hauts pertza
   end_portal: Amaierako portala
   cocoa: Kakao
   tripwire: Segada
@@ -1083,6 +1209,28 @@ material:
   potted_warped_fungus: Loreontzia perretxiko deformatuarekin
   potted_crimson_roots: Sustrai gorriak dituen loreontzia
   potted_warped_roots: Sustrai deformatuak dituen loreontzia
+  candle_cake: Tarta kandelarekin
+  white_candle_cake: Tarta kandela zuriarekin
+  orange_candle_cake: Tarta kandela naranjarekin
+  magenta_candle_cake: Tarta kandela magentarekin
+  light_blue_candle_cake: Tarta kandela urdin argiarekin
+  yellow_candle_cake: Tarta kandela horiarekin
+  lime_candle_cake: Tarta kandela limarekin
+  pink_candle_cake: Tarta kandela arrosarekin
+  gray_candle_cake: Tarta kandela grisarekin
+  light_gray_candle_cake: Tarta kandela gris argiarekin
+  cyan_candle_cake: Tarta kandela zianarekin
+  purple_candle_cake: Tarta kandela morearekin
+  blue_candle_cake: Tarta kandela urdinarekin
+  brown_candle_cake: Tarta kandela marroiarekin
+  green_candle_cake: Tarta kandela berdearekin
+  red_candle_cake: Tarta kandela gorriarekin
+  black_candle_cake: Tarta kandela beltzarekin
+  powder_snow: Elur-hautsa
+  cave_vines: Kobazuloko Mahastiak
+  cave_vines_plant: Kobazuloko Mahastien Landarea
+  big_dripleaf_stem: Tanta-hosto zurtoin handia
+  grass_path: Belarbidea
   zombie_pigman_spawn_egg: Gizon-txerri zonbie sortzaile arrautza
   cactus_green: Kaktusaren berdea
   dandelion_yellow: Txikoria-belarraren horia
@@ -1105,8 +1253,10 @@ biome:
   snowy_tundra: Elurtutako tundra
   snowy_mountains: Elurtutako mendiak
   mushroom_fields: Onddo larreak
+  mushroom_field_shore: Onddo larrearen kosta
   beach: Ondartza
   desert_hills: Desertuko muinoak
+  wooded_hills: Basodun Muinoak
   taiga_hills: Taiga tontorrak
   mountain_edge: Mendi ertza
   jungle: Oihana
@@ -1116,16 +1266,22 @@ biome:
   stone_shore: Kosta harritsua
   snowy_beach: Elurtutako ondartza
   birch_forest: Urki basoa
+  birch_forest_hills: Urkidizko muinoak
   dark_forest: Baso iluna
   snowy_taiga: Taiga elurtua
   snowy_taiga_hills: Elurtutako taiga tontorrak
   giant_tree_taiga: Zuhaitz erraldoien taiga
   giant_tree_taiga_hills: Zuhaitz erraldoien taiga mendiak
+  wooded_mountains: Basodun mendiak
   savanna: Sabana
   savanna_plateau: Sabanako lautada
   badlands: Lugorriak
+  wooded_badlands_plateau: Goi-ordoki zuhaizti lautada
+  badlands_plateau: Goi-ordoki lautada
   small_end_islands: End-eko isla txikiak
   end_midlands: Erdialdearen amaiera
+  end_highlands: End-eko mendialdeak
+  end_barrens: End-eko lur lehorrak
   warm_ocean: Ozeano epela
   lukewarm_ocean: Ozeano epela
   cold_ocean: Ozeano hotza
@@ -1136,61 +1292,73 @@ biome:
   the_void: Hutsa
   sunflower_plains: Eguzki-lore lautadak
   desert_lakes: Basamortuko aintzira
+  gravelly_mountains: Legarrezko Mendiak
   flower_forest: Lore basoa
   taiga_mountains: Taigako mendiak
   swamp_hills: Zingirako muinoak
   ice_spikes: Izotz puntak
   modified_jungle: Aldatutako oihana
   modified_jungle_edge: Aldatutako oihanaren ertza
+  tall_birch_forest: Urki Altuen Basoa
+  tall_birch_hills: Urki altuen tontorrak
   dark_forest_hills: Baso iluneko muinoak
+  snowy_taiga_mountains: Taiga Mendi Elurtuak
+  giant_spruce_taiga: Izei erraldoien Taiga
+  giant_spruce_taiga_hills: Zuhaitz erraldoien taiga mendiak
+  modified_gravelly_mountains: Legarrezko Mendiak+
   shattered_savanna: Sabana malkartsua
   shattered_savanna_plateau: Sabana malkartsuko goi-lautada
+  eroded_badlands: Higatutako lugorriak
+  modified_wooded_badlands_plateau: Goi-ordoki zuhaizti lautada (aldagarria)
+  modified_badlands_plateau: Goi-ordoki lautada (aldagarria)
   bamboo_jungle: Oihan indikainabera
   bamboo_jungle_hills: Oihan mendieko indikainabera
   soul_sand_valley: Arima-harana
   crimson_forest: Baso gorria
   warped_forest: Baso gaiztoa
   basalt_deltas: Basalto deltak
+  dripstone_caves: Tanta-harri kobazuloak
+  lush_caves: Kobazulo hostotsua
   nether: Nether
 enchantment:
-  fire_protection: Su babesa
-  sharpness: Doitasunezko zorrozketa
-  flame: Sugarra
-  soul_speed: Arima abiadura
-  aqua_affinity: Ur kidetasuna
-  punch: Kolpea
-  loyalty: Leialtasuna
-  depth_strider: Sakoneko zangokada
-  vanishing_curse: Desagertuaraziaren Madarikazioa
-  unbreaking: Apurtezina
-  knockback: Errebesa
-  luck_of_the_sea: Itsasoaren zortea
-  binding_curse: Kendu Ezina
-  fortune: Aberastasuna
   protection: Babesa
-  efficiency: Eraginkortasuna
-  mending: Konponketa
-  frost_walker: Izotz zuriko pasua
-  lure: Amua
-  looting: Harrapaketa
-  piercing: Zulaketa
-  blast_protection: Eztanda babesa
-  smite: Hilen zanpatekoa
-  multishot: Multitiroa
-  fire_aspect: Suzko alderdia
-  channeling: Eroankortasuna
-  sweeping: Ertz zorrotza
-  thorns: Arantzak
-  bane_of_arthropods: Artropodoen hondamendia
-  respiration: Arnasa
-  riptide: Uretako propultsioa
-  silk_touch: Zetazko kolpea
-  quick_charge: Karga azkarra
-  projectile_protection: Jaurtigai babesa
-  impaling: Palanka
+  fire_protection: Su babesa
   feather_falling: Luma erorketa
+  blast_protection: Eztanda babesa
+  projectile_protection: Jaurtigai babesa
+  respiration: Arnasa
+  aqua_affinity: Ur kidetasuna
+  thorns: Arantzak
+  depth_strider: Sakoneko zangokada
+  frost_walker: Izotz zuriko pasua
+  binding_curse: Kendu Ezina
+  sharpness: Doitasunezko zorrozketa
+  smite: Hilen zanpatekoa
+  bane_of_arthropods: Artropodoen hondamendia
+  knockback: Errebesa
+  fire_aspect: Suzko alderdia
+  looting: Harrapaketa
+  sweeping: Ertz zorrotza
+  efficiency: Eraginkortasuna
+  silk_touch: Zetazko kolpea
+  unbreaking: Apurtezina
+  fortune: Aberastasuna
   power: Ahalmena
+  punch: Kolpea
+  flame: Sugarra
   infinity: Mugagabea
+  luck_of_the_sea: Itsasoaren zortea
+  lure: Amua
+  loyalty: Leialtasuna
+  impaling: Palanka
+  riptide: Uretako propultsioa
+  channeling: Eroankortasuna
+  multishot: Multitiroa
+  quick_charge: Karga azkarra
+  piercing: Zulaketa
+  mending: Konponketa
+  vanishing_curse: Desagertuaraziaren Madarikazioa
+  soul_speed: Arima abiadura
 potion:
   uncraftable: Edabea egin ezina
   water: Botila bat ur
@@ -1385,6 +1553,11 @@ entity:
   strider: Strider
   zoglin: Zoglin
   piglin_brute: Piglin basatia
+  axolotl: Axolotl
+  glow_item_frame: Marko distiratsua
+  glow_squid: Txibia Distiratsua
+  goat: Ahuntza
+  marker: Markagailu
   fishing_hook: Arrantzatzeko amua
   lightning: Tximista
   player: Jokalaria
@@ -1392,7 +1565,7 @@ entity:
 effect:
   speed: Abiadura
   slow: Geldotasuna
-  fast_digging: Meatze azkartasuna
+  fast_digging: Meatze lehia
   slow_digging: Meatze nekea
   increase_damage: Indarra
   heal: Berehalako sendakuntza
@@ -1916,9 +2089,54 @@ banner_pattern:
   '1703949': Goiko erdi berdea
   '1703950': Goiko erdi gorria
   '1703951': Goiko erdi beltza
+  '1769472': Zuria gerriko bakoitzeko
+  '1769473': Naranja gerriko bakoitzeko
+  '1769474': Magenta gerriko bakoitzeko
+  '1769475': Urdin argia gerriko bakoitzeko
+  '1769476': Horia gerriko bakoitzeko
+  '1769477': Lima gerriko bakoitzeko
+  '1769478': Arrosa gerriko bakoitzeko
+  '1769479': Grisa gerriko bakoitzeko
+  '1769480': Gris argia gerriko bakoitzeko
+  '1769481': Zian gerriko bakoitzeko
+  '1769482': Morea gerriko bakoitzeko
+  '1769483': Urdina gerriko bakoitzeko
+  '1769484': Marroi Bakoitzeko Fess
   '1769485': Green Per Fess
   '1769486': Red Per Fess
   '1769487': Black Per Fess
+  '1835008': Zuria Pale Alderantzikatua
+  '1835009': Laranja zurbil alderantzikatua
+  '1835010': Alderantzizko magenta bakoitzeko
+  '1835011': Urdina argia alderantzizko bakoitzeko
+  '1835012': Horia zurbil alderantzikatua
+  '1835013': Karea Pale Alderantzikatua
+  '1835014': Arrosa zurbil alderantzikatua
+  '1835015': Grisa zurbil alderantzikatua
+  '1835016': Gris argia alderantzizko zurbil bakoitzeko
+  '1835017': Zian zuriak alderantzikatuta
+  '1835018': Morea zurbil alderantzikatua
+  '1835019': Urdina Alderantzikatua
+  '1835020': Alderantzizko zurbil bakoitzeko marroia
+  '1835021': Berdea zurbil alderantzikatua
+  '1835022': Gorria Alderantzikatua
+  '1835023': Beltza zurbil alderantzikatua
+  '1900544': Zuria Fess Per Alderantzikatua
+  '1900545': Laranja Fess Per Alderantzikatua
+  '1900546': Aldaera bakoitzeko Magenta
+  '1900547': Alde urdin argia alderantzikatuta
+  '1900548': Horia alderantzikatuta
+  '1900549': Fessea bakoitzeko karea alderantzikatuta
+  '1900550': Arrosa Fess Per Alderantzikatua
+  '1900551': Grey Fess Per Alderantzikatua
+  '1900552': Grey argia alderantzikatutako fessako bakoitzeko
+  '1900553': Cyan Per Fess alderantzikatua
+  '1900554': Morea Fess Per Alderantzikatua
+  '1900555': Blue Fess Per Alderantzikatua
+  '1900556': Brown Fess Per Alderantzikatua
+  '1900557': Berdea alderantzikatuta
+  '1900558': Red Fess Per Alderantzikatua
+  '1900559': Black Fess Per Alderantzikatua
   '1966080': Ertz zuria
   '1966081': Ertz laranja
   '1966082': Ertz magenta
@@ -1935,6 +2153,15 @@ banner_pattern:
   '1966093': Ertz berdea
   '1966094': Ertz gorria
   '1966095': Ertz beltza
+  '2031616': Hortzdun bordura zuria
+  '2031617': Hortzdun bordura laranja
+  '2031618': Hortzdun bordura magenta
+  '2031619': Hortzdun bordura urdin argia
+  '2031620': Hortzdun bordura horia
+  '2031621': Hortzdun bordura lima
+  '2031622': Hortzdun bordura arrosa
+  '2031623': Hortzdun bordura grisa
+  '2031624': Hortzdun bordura gris argia
   '2031625': Hortzdun Ertz Ziana
   '2031626': Hortzdun Ertz Morea
   '2031627': Hortzdun Ertz Urdina
@@ -1942,6 +2169,22 @@ banner_pattern:
   '2031629': Hortzdun Ertz Berdea
   '2031630': Hortzdun Ertz Gorria
   '2031631': Hortzdun Ertz Beltza
+  '2097152': Creeper karga zuria
+  '2097153': Creeper karga naranja
+  '2097154': Creeper karga magenta
+  '2097155': Creeper karga udin argia
+  '2097156': Creeper karga horia
+  '2097157': Creeper karga lima
+  '2097158': Creeper karga arrosa
+  '2097159': Creeper karga grisa
+  '2097160': Creeper karga gris argia
+  '2097161': Creeper karga ziana
+  '2097162': Creeper karga morea
+  '2097163': Blue Creeper Charge
+  '2097164': Brown Creeper karga
+  '2097165': Green Creeper karga
+  '2097166': Red Creeper Charge
+  '2097167': Black Creeper Charge
   '2162688': Gradiente zuria
   '2162689': Gradiente laranja
   '2162690': Gradiente magenta
@@ -1974,6 +2217,54 @@ banner_pattern:
   '2228237': Gradiente berde basean
   '2228238': Gradiente gorri basean
   '2228239': Gradiente beltz basean
+  '2293760': Igeltzari ohial zuria
+  '2293761': Igeltzari ohial naranja
+  '2293762': Igeltzari ohial magenta
+  '2293763': Igeltzari ohial urdin argia
+  '2293764': Igeltzari ohial horia
+  '2293765': Igeltzari ohial lima
+  '2293766': Igeltzari ohial arrosa
+  '2293767': Igeltzari ohial grisa
+  '2293768': Igeltzari ohial gris argia
+  '2293769': Igeltzari ohial ziana
+  '2293770': Igeltzari ohial morea
+  '2293771': Igeltzari ohial urdina
+  '2293772': Igeltzari ohial marroia
+  '2293773': Igeltzari ohial berdea
+  '2293774': Igeltzari ohial gorria
+  '2293775': Igeltzari ohial beltza
+  '2359296': Garezur karga zuria
+  '2359297': Garezur karga naranja
+  '2359298': Garezur karga magenta
+  '2359299': Garezur karga urdin argia
+  '2359300': Garezur karga horia
+  '2359301': Garezur karga lima
+  '2359302': Garezur karga arrosa
+  '2359303': Garezur karga grisa
+  '2359304': Garezur karga gris argia
+  '2359305': Garezur karga ziana
+  '2359306': Garezur karga morea
+  '2359307': Garezur karga urdina
+  '2359308': Garezur karga marroia
+  '2359309': Garezur karga berdea
+  '2359310': Garezur karga gorria
+  '2359311': Garezur karga beltza
+  '2424832': Lore Karga Zuria
+  '2424833': Lore Karga Laranja
+  '2424834': Lore karga magenta
+  '2424835': Lore karga urdin argia
+  '2424836': Lore Karga Horia
+  '2424837': Lore karga lima
+  '2424838': Lore karga arrosa
+  '2424839': Lore karga grisa
+  '2424840': Lore karga gris argia
+  '2424841': Lore karga ziana
+  '2424842': Lore karga morea
+  '2424843': Lore karga urdina
+  '2424844': Lore karga marroia
+  '2424845': Lore karga berdea
+  '2424846': Lore karga gorria
+  '2424847': Lore karga beltza
   '2490368': Gauza zuria
   '2490369': Gauza laranja
   '2490370': Gauza magenta
@@ -2065,17 +2356,3 @@ villager_profession:
   shepherd: Artzaina
   toolsmith: Errementaria
   weaponsmith: Arma errementaria
-villager_career:
-  farmer: Baserritarra
-  fisherman: Arrantzalea
-  shepherd: Artzaina
-  fletcher: Gezi artisaua
-  librarian: Liburuzaina
-  cartographer: Kartografoa
-  cleric: Apaiza
-  armorer: Armagin
-  weapon_smith: Armagilea
-  tool_smith: Errementaria
-  butcher: Harakina
-  leatherworker: Larru artisaua
-  nitwit: Inozoa

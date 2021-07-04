@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:47                    #
+# Build time: 2021-07-04 21:46:02                    #
 # ####################################################
 language:
   code: en_ca
@@ -14,10 +14,17 @@ material:
   polished_diorite: Polished Diorite
   andesite: Andesite
   polished_andesite: Polished Andesite
+  deepslate: Deepslate
+  cobbled_deepslate: Cobbled Deepslate
+  polished_deepslate: Polished Deepslate
+  calcite: Calcite
+  tuff: Tuff
+  dripstone_block: Dripstone Block
   grass_block: Grass Block
   dirt: Dirt
   coarse_dirt: Coarse Dirt
   podzol: Podzol
+  rooted_dirt: Rooted Dirt
   crimson_nylium: Crimson Nylium
   warped_nylium: Warped Nylium
   cobblestone: Cobblestone
@@ -39,10 +46,67 @@ material:
   sand: Sand
   red_sand: Red Sand
   gravel: Gravel
-  gold_ore: Gold Ore
-  iron_ore: Iron Ore
   coal_ore: Coal Ore
+  deepslate_coal_ore: Deepslate Coal Ore
+  iron_ore: Iron Ore
+  deepslate_iron_ore: Deepslate Iron Ore
+  copper_ore: Copper Ore
+  deepslate_copper_ore: Deepslate Copper Ore
+  gold_ore: Gold Ore
+  deepslate_gold_ore: Deepslate Gold Ore
+  redstone_ore: Redstone Ore
+  deepslate_redstone_ore: Deepslate Redstone Ore
+  emerald_ore: Emerald Ore
+  deepslate_emerald_ore: Deepslate Emerald Ore
+  lapis_ore: Lapis Lazuli Ore
+  deepslate_lapis_ore: Deepslate Lapis Lazuli Ore
+  diamond_ore: Diamond Ore
+  deepslate_diamond_ore: Deepslate Diamond Ore
   nether_gold_ore: Nether Gold Ore
+  nether_quartz_ore: Nether Quartz Ore
+  ancient_debris: Ancient Debris
+  coal_block: Block of Coal
+  raw_iron_block: Block of Raw Iron
+  raw_copper_block: Block of Raw Copper
+  raw_gold_block: Block of Raw Gold
+  amethyst_block: Block of Amethyst
+  budding_amethyst: Budding Amethyst
+  iron_block: Block of Iron
+  copper_block: Block of Copper
+  gold_block: Block of Gold
+  diamond_block: Block of Diamond
+  netherite_block: Block of Netherite
+  exposed_copper: Exposed Copper
+  weathered_copper: Weathered Copper
+  oxidized_copper: Oxidized Copper
+  cut_copper: Cut Copper
+  exposed_cut_copper: Exposed Cut Copper
+  weathered_cut_copper: Weathered Cut Copper
+  oxidized_cut_copper: Oxidized Cut Copper
+  cut_copper_stairs: Cut Copper Stairs
+  exposed_cut_copper_stairs: Exposed Cut Copper Stairs
+  weathered_cut_copper_stairs: Weathered Cut Copper Stairs
+  oxidized_cut_copper_stairs: Oxidized Cut Copper Stairs
+  cut_copper_slab: Cut Copper Slab
+  exposed_cut_copper_slab: Exposed Cut Copper Slab
+  weathered_cut_copper_slab: Weathered Cut Copper Slab
+  oxidized_cut_copper_slab: Oxidized Cut Copper Slab
+  waxed_copper_block: Waxed Block of Copper
+  waxed_exposed_copper: Waxed Exposed Copper
+  waxed_weathered_copper: Waxed Weathered Copper
+  waxed_oxidized_copper: Waxed Oxidized Copper
+  waxed_cut_copper: Waxed Cut Copper
+  waxed_exposed_cut_copper: Waxed Exposed Cut Copper
+  waxed_weathered_cut_copper: Waxed Weathered Cut Copper
+  waxed_oxidized_cut_copper: Waxed Oxidized Cut Copper
+  waxed_cut_copper_stairs: Waxed Cut Copper Stairs
+  waxed_exposed_cut_copper_stairs: Waxed Exposed Cut Copper Stairs
+  waxed_weathered_cut_copper_stairs: Waxed Weathered Cut Copper Stairs
+  waxed_oxidized_cut_copper_stairs: Waxed Oxidized Cut Copper Stairs
+  waxed_cut_copper_slab: Waxed Cut Copper Slab
+  waxed_exposed_cut_copper_slab: Waxed Exposed Cut Copper Slab
+  waxed_weathered_cut_copper_slab: Waxed Weathered Cut Copper Slab
+  waxed_oxidized_cut_copper_slab: Waxed Oxidized Cut Copper Slab
   oak_log: Oak Log
   spruce_log: Spruce Log
   birch_log: Birch Log
@@ -81,26 +145,24 @@ material:
   jungle_leaves: Jungle Leaves
   acacia_leaves: Acacia Leaves
   dark_oak_leaves: Dark Oak Leaves
+  azalea_leaves: Azalea Leaves
+  flowering_azalea_leaves: Flowering Azalea Leaves
   sponge: Sponge
   wet_sponge: Wet Sponge
   glass: Glass
-  lapis_ore: Lapis Lazuli Ore
-  lapis_block: Lapis Lazuli Block
-  dispenser: Dispenser
+  tinted_glass: Tinted Glass
+  lapis_block: Block of Lapis Lazuli
   sandstone: Sandstone
   chiseled_sandstone: Chiselled Sandstone
   cut_sandstone: Cut Sandstone
-  note_block: Note Block
-  powered_rail: Powered Rail
-  detector_rail: Detector Rail
-  sticky_piston: Sticky Piston
   cobweb: Cobweb
   grass: Grass
   fern: Fern
+  azalea: Azalea
+  flowering_azalea: Flowering Azalea
   dead_bush: Dead Bush
   seagrass: Seagrass
   sea_pickle: Sea Pickle
-  piston: Piston
   white_wool: White Wool
   orange_wool: Orange Wool
   magenta_wool: Magenta Wool
@@ -130,6 +192,7 @@ material:
   cornflower: Cornflower
   lily_of_the_valley: Lily of the Valley
   wither_rose: Wither Rose
+  spore_blossom: Spore Blossom
   brown_mushroom: Brown Mushroom
   red_mushroom: Red Mushroom
   crimson_fungus: Crimson Fungus
@@ -141,9 +204,12 @@ material:
   twisting_vines: Twisting Vines
   sugar_cane: Sugar Cane
   kelp: Kelp
+  moss_carpet: Moss Carpet
+  moss_block: Moss Block
+  hanging_roots: Hanging Roots
+  big_dripleaf: Big Dripleaf
+  small_dripleaf: Small Dripleaf
   bamboo: Bamboo
-  gold_block: Block of Gold
-  iron_block: Block of Iron
   oak_slab: Oak Slab
   spruce_slab: Spruce Slab
   birch_slab: Birch Slab
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: Smooth Sandstone
   smooth_stone: Smooth Stone
   bricks: Bricks
-  tnt: TNT
   bookshelf: Bookshelf
   mossy_cobblestone: Mossy Cobblestone
   obsidian: Obsidian
@@ -187,69 +252,52 @@ material:
   spawner: Spawner
   oak_stairs: Oak Stairs
   chest: Chest
-  diamond_ore: Diamond Ore
-  diamond_block: Block of Diamond
   crafting_table: Crafting Table
   farmland: Farmland
   furnace: Furnace
   ladder: Ladder
-  rail: Rail
   cobblestone_stairs: Cobblestone Stairs
-  lever: Lever
-  stone_pressure_plate: Stone Pressure Plate
-  oak_pressure_plate: Oak Pressure Plate
-  spruce_pressure_plate: Spruce Pressure Plate
-  birch_pressure_plate: Birch Pressure Plate
-  jungle_pressure_plate: Jungle Pressure Plate
-  acacia_pressure_plate: Acacia Pressure Plate
-  dark_oak_pressure_plate: Dark Oak Pressure Plate
-  crimson_pressure_plate: Crimson Pressure Plate
-  warped_pressure_plate: Warped Pressure Plate
-  polished_blackstone_pressure_plate: Polished Blackstone Pressure Plate
-  redstone_ore: Redstone Ore
-  redstone_torch: Redstone Torch
   snow: Snow
   ice: Ice
   snow_block: Snow Block
   cactus: Cactus
   clay: Clay
   jukebox: Jukebox
-  oak_fence: Oak Wood Fence
-  spruce_fence: Spruce Wood Fence
-  birch_fence: Birch Wood Fence
-  jungle_fence: Jungle Wood Fence
-  acacia_fence: Acacia Wood Fence
-  dark_oak_fence: Dark Oak Wood Fence
+  oak_fence: Oak Fence
+  spruce_fence: Spruce Fence
+  birch_fence: Birch Fence
+  jungle_fence: Jungle Fence
+  acacia_fence: Acacia Fence
+  dark_oak_fence: Dark Oak Fence
   crimson_fence: Crimson Fence
   warped_fence: Warped Fence
   pumpkin: Pumpkin
   carved_pumpkin: Carved Pumpkin
+  jack_o_lantern: Jack O'Lantern
   netherrack: Netherrack
   soul_sand: Soul Sand
   soul_soil: Soul Soil
   basalt: Basalt
   polished_basalt: Polished Basalt
+  smooth_basalt: Smooth Basalt
   soul_torch: Soul Torch
   glowstone: Glowstone
-  jack_o_lantern: Jack O'Lantern
-  oak_trapdoor: Oak Trapdoor
-  spruce_trapdoor: Spruce Trapdoor
-  birch_trapdoor: Birch Trapdoor
-  jungle_trapdoor: Jungle Trapdoor
-  acacia_trapdoor: Acacia Trapdoor
-  dark_oak_trapdoor: Dark Oak Trapdoor
-  crimson_trapdoor: Crimson Trapdoor
-  warped_trapdoor: Warped Trapdoor
   infested_stone: Infested Stone
   infested_cobblestone: Infested Cobblestone
   infested_stone_bricks: Infested Stone Bricks
   infested_mossy_stone_bricks: Infested Mossy Stone Bricks
   infested_cracked_stone_bricks: Infested Cracked Stone Bricks
   infested_chiseled_stone_bricks: Infested Chiselled Stone Bricks
+  infested_deepslate: Infested Deepslate
   stone_bricks: Stone Bricks
   mossy_stone_bricks: Mossy Stone Bricks
   cracked_stone_bricks: Cracked Stone Bricks
   chiseled_stone_bricks: Chiselled Stone Bricks
+  deepslate_bricks: Deepslate Bricks
+  cracked_deepslate_bricks: Cracked Deepslate Bricks
+  deepslate_tiles: Deepslate Tiles
+  cracked_deepslate_tiles: Cracked Deepslate Tiles
+  chiseled_deepslate: Chiselled Deepslate
   brown_mushroom_block: Brown Mushroom Block
   red_mushroom_block: Red Mushroom Block
   mushroom_stem: Mushroom Stem
@@ -258,14 +306,7 @@ material:
   glass_pane: Glass Pane
   melon: Melon
   vine: Vines
-  oak_fence_gate: Oak Wood Fence Gate
-  spruce_fence_gate: Spruce Wood Fence Gate
-  birch_fence_gate: Birch Wood Fence Gate
-  jungle_fence_gate: Jungle Wood Fence Gate
-  acacia_fence_gate: Acacia Wood Fence Gate
-  dark_oak_fence_gate: Dark Oak Wood Fence Gate
-  crimson_fence_gate: Crimson Fence Gate
-  warped_fence_gate: Warped Fence Gate
+  glow_lichen: Glow Lichen
   brick_stairs: Brick Stairs
   stone_brick_stairs: Stone Brick Stairs
   mycelium: Mycelium
@@ -280,11 +321,8 @@ material:
   end_stone: End Stone
   end_stone_bricks: End Stone Bricks
   dragon_egg: Dragon Egg
-  redstone_lamp: Redstone Lamp
   sandstone_stairs: Sandstone Stairs
-  emerald_ore: Emerald Ore
   ender_chest: Ender Chest
-  tripwire_hook: Tripwire Hook
   emerald_block: Block of Emerald
   spruce_stairs: Spruce Stairs
   birch_stairs: Birch Stairs
@@ -310,33 +348,18 @@ material:
   blackstone_wall: Blackstone Wall
   polished_blackstone_wall: Polished Blackstone Wall
   polished_blackstone_brick_wall: Polished Blackstone Brick Wall
-  stone_button: Stone Button
-  oak_button: Oak Button
-  spruce_button: Spruce Button
-  birch_button: Birch Button
-  jungle_button: Jungle Button
-  acacia_button: Acacia Button
-  dark_oak_button: Dark Oak Button
-  crimson_button: Crimson Button
-  warped_button: Warped Button
-  polished_blackstone_button: Polished Blackstone Button
+  cobbled_deepslate_wall: Cobbled Deepslate Wall
+  polished_deepslate_wall: Polished Deepslate Wall
+  deepslate_brick_wall: Deepslate Brick Wall
+  deepslate_tile_wall: Deepslate Tile Wall
   anvil: Anvil
   chipped_anvil: Chipped Anvil
   damaged_anvil: Damaged Anvil
-  trapped_chest: Trapped Chest
-  light_weighted_pressure_plate: Light Weighted Pressure Plate
-  heavy_weighted_pressure_plate: Heavy Weighted Pressure Plate
-  daylight_detector: Daylight Detector
-  redstone_block: Block of Redstone
-  nether_quartz_ore: Nether Quartz Ore
-  hopper: Hopper
   chiseled_quartz_block: Chiselled Quartz Block
   quartz_block: Block of Quartz
   quartz_bricks: Quartz Bricks
   quartz_pillar: Quartz Pillar
   quartz_stairs: Quartz Stairs
-  activator_rail: Activator Rail
-  dropper: Dropper
   white_terracotta: White Terracotta
   orange_terracotta: Orange Terracotta
   magenta_terracotta: Magenta Terracotta
@@ -354,7 +377,7 @@ material:
   red_terracotta: Red Terracotta
   black_terracotta: Black Terracotta
   barrier: Barrier
-  iron_trapdoor: Iron Trapdoor
+  light: Light
   hay_block: Straw Bale
   white_carpet: White Carpet
   orange_carpet: Orange Carpet
@@ -373,12 +396,10 @@ material:
   red_carpet: Red Carpet
   black_carpet: Black Carpet
   terracotta: Terracotta
-  coal_block: Block of Coal
   packed_ice: Packed Ice
   acacia_stairs: Acacia Stairs
   dark_oak_stairs: Dark Oak Stairs
-  slime_block: Slime Block
-  grass_path: Grass Path
+  dirt_path: Dirt Path
   sunflower: Sunflower
   lilac: Lilac
   rose_bush: Rose Bush
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: Red Nether Bricks
   bone_block: Bone Block
   structure_void: Structure Void
-  observer: Observer
   shulker_box: Shulker Box
   white_shulker_box: White Shulker Box
   orange_shulker_box: Orange Shulker Box
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: Red Nether Brick Stairs
   polished_andesite_stairs: Polished Andesite Stairs
   diorite_stairs: Diorite Stairs
+  cobbled_deepslate_stairs: Cobbled Deepslate Stairs
+  polished_deepslate_stairs: Polished Deepslate Stairs
+  deepslate_brick_stairs: Deepslate Brick Stairs
+  deepslate_tile_stairs: Deepslate Tile Stairs
   polished_granite_slab: Polished Granite Slab
   smooth_red_sandstone_slab: Smooth Red Sandstone Slab
   mossy_stone_brick_slab: Mossy Stone Brick Slab
@@ -562,18 +586,102 @@ material:
   red_nether_brick_slab: Red Nether Brick Slab
   polished_andesite_slab: Polished Andesite Slab
   diorite_slab: Diorite Slab
+  cobbled_deepslate_slab: Cobbled Deepslate Slab
+  polished_deepslate_slab: Polished Deepslate Slab
+  deepslate_brick_slab: Deepslate Brick Slab
+  deepslate_tile_slab: Deepslate Tile Slab
   scaffolding: Scaffolding
-  iron_door: Iron Door
-  oak_door: Oak Wood Door
-  spruce_door: Spruce Wood Door
-  birch_door: Birch Wood Door
-  jungle_door: Jungle Wood Door
-  acacia_door: Acacia Wood Door
-  dark_oak_door: Dark Oak Wood Door
-  crimson_door: Crimson Door
-  warped_door: Warped Door
+  redstone: Redstone Dust
+  redstone_torch: Redstone Torch
+  redstone_block: Block of Redstone
   repeater: Redstone Repeater
   comparator: Redstone Comparator
+  piston: Piston
+  sticky_piston: Sticky Piston
+  slime_block: Slime Block
+  honey_block: Honey Block
+  observer: Observer
+  hopper: Hopper
+  dispenser: Dispenser
+  dropper: Dropper
+  lectern: Lectern
+  target: Target
+  lever: Lever
+  lightning_rod: Lightning Rod
+  daylight_detector: Daylight Detector
+  sculk_sensor: Sculk Sensor
+  tripwire_hook: Tripwire Hook
+  trapped_chest: Trapped Chest
+  tnt: TNT
+  redstone_lamp: Redstone Lamp
+  note_block: Note Block
+  stone_button: Stone Button
+  polished_blackstone_button: Polished Blackstone Button
+  oak_button: Oak Button
+  spruce_button: Spruce Button
+  birch_button: Birch Button
+  jungle_button: Jungle Button
+  acacia_button: Acacia Button
+  dark_oak_button: Dark Oak Button
+  crimson_button: Crimson Button
+  warped_button: Warped Button
+  stone_pressure_plate: Stone Pressure Plate
+  polished_blackstone_pressure_plate: Polished Blackstone Pressure Plate
+  light_weighted_pressure_plate: Light Weighted Pressure Plate
+  heavy_weighted_pressure_plate: Heavy Weighted Pressure Plate
+  oak_pressure_plate: Oak Pressure Plate
+  spruce_pressure_plate: Spruce Pressure Plate
+  birch_pressure_plate: Birch Pressure Plate
+  jungle_pressure_plate: Jungle Pressure Plate
+  acacia_pressure_plate: Acacia Pressure Plate
+  dark_oak_pressure_plate: Dark Oak Pressure Plate
+  crimson_pressure_plate: Crimson Pressure Plate
+  warped_pressure_plate: Warped Pressure Plate
+  iron_door: Iron Door
+  oak_door: Oak Door
+  spruce_door: Spruce Door
+  birch_door: Birch Door
+  jungle_door: Jungle Door
+  acacia_door: Acacia Door
+  dark_oak_door: Dark Oak Door
+  crimson_door: Crimson Door
+  warped_door: Warped Door
+  iron_trapdoor: Iron Trapdoor
+  oak_trapdoor: Oak Trapdoor
+  spruce_trapdoor: Spruce Trapdoor
+  birch_trapdoor: Birch Trapdoor
+  jungle_trapdoor: Jungle Trapdoor
+  acacia_trapdoor: Acacia Trapdoor
+  dark_oak_trapdoor: Dark Oak Trapdoor
+  crimson_trapdoor: Crimson Trapdoor
+  warped_trapdoor: Warped Trapdoor
+  oak_fence_gate: Oak Fence Gate
+  spruce_fence_gate: Spruce Fence Gate
+  birch_fence_gate: Birch Fence Gate
+  jungle_fence_gate: Jungle Fence Gate
+  acacia_fence_gate: Acacia Fence Gate
+  dark_oak_fence_gate: Dark Oak Fence Gate
+  crimson_fence_gate: Crimson Fence Gate
+  warped_fence_gate: Warped Fence Gate
+  powered_rail: Powered Rail
+  detector_rail: Detector Rail
+  rail: Rail
+  activator_rail: Activator Rail
+  saddle: Saddle
+  minecart: Minecart
+  chest_minecart: Minecart with Chest
+  furnace_minecart: Minecart with Furnace
+  tnt_minecart: Minecart with TNT
+  hopper_minecart: Minecart with Hopper
+  carrot_on_a_stick: Carrot on a Stick
+  warped_fungus_on_a_stick: Warped Fungus on a Stick
+  elytra: Elytra
+  oak_boat: Oak Boat
+  spruce_boat: Spruce Boat
+  birch_boat: Birch Boat
+  jungle_boat: Jungle Boat
+  acacia_boat: Acacia Boat
+  dark_oak_boat: Dark Oak Boat
   structure_block: Structure Block
   jigsaw: Jigsaw Block
   turtle_helmet: Turtle Shell
@@ -585,7 +693,15 @@ material:
   coal: Coal
   charcoal: Charcoal
   diamond: Diamond
+  emerald: Emerald
+  lapis_lazuli: Lapis Lazuli
+  quartz: Nether Quartz
+  amethyst_shard: Amethyst Shard
+  raw_iron: Raw Iron
   iron_ingot: Iron Ingot
+  raw_copper: Raw Copper
+  copper_ingot: Copper Ingot
+  raw_gold: Raw Gold
   gold_ingot: Gold Ingot
   netherite_ingot: Netherite Ingot
   netherite_scrap: Netherite Scrap
@@ -669,29 +785,27 @@ material:
   bucket: Bucket
   water_bucket: Water Bucket
   lava_bucket: Lava Bucket
-  minecart: Minecart
-  saddle: Saddle
-  redstone: Redstone Dust
+  powder_snow_bucket: Powder Snow Bucket
   snowball: Snowball
-  oak_boat: Oak Boat
   leather: Leather
   milk_bucket: Milk Bucket
   pufferfish_bucket: Bucket of Pufferfish
   salmon_bucket: Bucket of Salmon
   cod_bucket: Bucket of Cod
   tropical_fish_bucket: Bucket of Tropical Fish
+  axolotl_bucket: Bucket of Axolotl
   brick: Brick
   clay_ball: Clay Ball
   dried_kelp_block: Dried Kelp Block
   paper: Paper
   book: Book
   slime_ball: Slimeball
-  chest_minecart: Minecart with Chest
-  furnace_minecart: Minecart with Furnace
   egg: Egg
   compass: Compass
+  bundle: Bundle
   fishing_rod: Fishing Rod
   clock: Clock
+  spyglass: Spyglass
   glowstone_dust: Glowstone Dust
   cod: Raw Cod
   salmon: Raw Salmon
@@ -700,8 +814,8 @@ material:
   cooked_cod: Cooked Cod
   cooked_salmon: Cooked Salmon
   ink_sac: Ink Sac
+  glow_ink_sac: Glow Ink Sac
   cocoa_beans: Cocoa Beans
-  lapis_lazuli: Lapis Lazuli
   white_dye: White Dye
   orange_dye: Orange Dye
   magenta_dye: Magenta Dye
@@ -765,6 +879,7 @@ material:
   cauldron: Cauldron
   ender_eye: Eye of Ender
   glistering_melon_slice: Glistering Melon Slice
+  axolotl_spawn_egg: Axolotl Spawn Egg
   bat_spawn_egg: Bat Spawn Egg
   bee_spawn_egg: Bee Spawn Egg
   blaze_spawn_egg: Blaze Spawn Egg
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: Evoker Spawn Egg
   fox_spawn_egg: Fox Spawn Egg
   ghast_spawn_egg: Ghast Spawn Egg
+  glow_squid_spawn_egg: Glow Squid Spawn Egg
+  goat_spawn_egg: Goat Spawn Egg
   guardian_spawn_egg: Guardian Spawn Egg
   hoglin_spawn_egg: Hoglin Spawn Egg
   horse_spawn_egg: Horse Spawn Egg
@@ -833,8 +950,8 @@ material:
   fire_charge: Fire Charge
   writable_book: Book and Quill
   written_book: Written Book
-  emerald: Emerald
   item_frame: Item Frame
+  glow_item_frame: Glow Item Frame
   flower_pot: Flower Pot
   carrot: Carrot
   potato: Potato
@@ -848,17 +965,12 @@ material:
   zombie_head: Zombie Head
   creeper_head: Creeper Head
   dragon_head: Dragon Head
-  carrot_on_a_stick: Carrot on a Stick
-  warped_fungus_on_a_stick: Warped Fungus on a Stick
   nether_star: Nether Star
   pumpkin_pie: Pumpkin Pie
   firework_rocket: Firework Rocket
   firework_star: Firework Star
   enchanted_book: Enchanted Book
   nether_brick: Nether Brick
-  quartz: Nether Quartz
-  tnt_minecart: Minecart with TNT
-  hopper_minecart: Minecart with Hopper
   prismarine_shard: Prismarine Shard
   prismarine_crystals: Prismarine Crystals
   rabbit: Raw Rabbit
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: Tipped Arrow
   lingering_potion: Lingering Potion
   shield: Shield
-  elytra: Elytra
-  spruce_boat: Spruce Boat
-  birch_boat: Birch Boat
-  jungle_boat: Jungle Boat
-  acacia_boat: Acacia Boat
-  dark_oak_boat: Dark Oak Boat
   totem_of_undying: Totem of Undying
   shulker_shell: Shulker Shell
   iron_nugget: Iron Nugget
@@ -948,13 +1054,13 @@ material:
   cartography_table: Cartography Table
   fletching_table: Fletching Table
   grindstone: Grindstone
-  lectern: Lectern
   smithing_table: Smithing Table
   stonecutter: Stonecutter
   bell: Bell
   lantern: Lantern
   soul_lantern: Soul Lantern
   sweet_berries: Sweet Berries
+  glow_berries: Glow Berries
   campfire: Campfire
   soul_campfire: Soul Campfire
   shroomlight: Shroomlight
@@ -962,12 +1068,8 @@ material:
   bee_nest: Bee Nest
   beehive: Beehive
   honey_bottle: Honey Bottle
-  honey_block: Honey Block
   honeycomb_block: Honeycomb Block
   lodestone: Lodestone
-  netherite_block: Block of Netherite
-  ancient_debris: Ancient Debris
-  target: Target
   crying_obsidian: Crying Obsidian
   blackstone: Blackstone
   blackstone_slab: Blackstone Slab
@@ -982,6 +1084,28 @@ material:
   polished_blackstone_brick_stairs: Polished Blackstone Brick Stairs
   cracked_polished_blackstone_bricks: Cracked Polished Blackstone Bricks
   respawn_anchor: Respawn Anchor
+  candle: Candle
+  white_candle: White Candle
+  orange_candle: Orange Candle
+  magenta_candle: Magenta Candle
+  light_blue_candle: Light Blue Candle
+  yellow_candle: Yellow Candle
+  lime_candle: Lime Candle
+  pink_candle: Pink Candle
+  gray_candle: Grey Candle
+  light_gray_candle: Light Grey Candle
+  cyan_candle: Cyan Candle
+  purple_candle: Purple Candle
+  blue_candle: Blue Candle
+  brown_candle: Brown Candle
+  green_candle: Green Candle
+  red_candle: Red Candle
+  black_candle: Black Candle
+  small_amethyst_bud: Small Amethyst Bud
+  medium_amethyst_bud: Medium Amethyst Bud
+  large_amethyst_bud: Large Amethyst Bud
+  amethyst_cluster: Amethyst Cluster
+  pointed_dripstone: Pointed Dripstone
   water: Water
   lava: Lava
   tall_seagrass: Tall Seagrass
@@ -1004,6 +1128,9 @@ material:
   attached_melon_stem: Attached Melon Stem
   pumpkin_stem: Pumpkin Stem
   melon_stem: Melon Stem
+  water_cauldron: Water Cauldron
+  lava_cauldron: Lava Cauldron
+  powder_snow_cauldron: Powder Snow Cauldron
   end_portal: End Portal
   cocoa: Cocoa
   tripwire: Tripwire
@@ -1083,6 +1210,30 @@ material:
   potted_warped_fungus: Potted Warped Fungus
   potted_crimson_roots: Potted Crimson Roots
   potted_warped_roots: Potted Warped Roots
+  candle_cake: Cake with Candle
+  white_candle_cake: Cake with White Candle
+  orange_candle_cake: Cake with Orange Candle
+  magenta_candle_cake: Cake with Magenta Candle
+  light_blue_candle_cake: Cake with Light Blue Candle
+  yellow_candle_cake: Cake with Yellow Candle
+  lime_candle_cake: Cake with Lime Candle
+  pink_candle_cake: Cake with Pink Candle
+  gray_candle_cake: Cake with Grey Candle
+  light_gray_candle_cake: Cake with Light Grey Candle
+  cyan_candle_cake: Cake with Cyan Candle
+  purple_candle_cake: Cake with Purple Candle
+  blue_candle_cake: Cake with Blue Candle
+  brown_candle_cake: Cake with Brown Candle
+  green_candle_cake: Cake with Green Candle
+  red_candle_cake: Cake with Red Candle
+  black_candle_cake: Cake with Black Candle
+  powder_snow: Powder Snow
+  cave_vines: Cave Vines
+  cave_vines_plant: Cave Vines Plant
+  big_dripleaf_stem: Big Dripleaf Stem
+  potted_azalea_bush: Potted Azalea
+  potted_flowering_azalea_bush: Potted Flowering Azalea
+  grass_path: Grass Path
   zombie_pigman_spawn_egg: Zombie Pigman Spawn Egg
   cactus_green: Cactus Green
   dandelion_yellow: Dandelion Yellow
@@ -1169,46 +1320,48 @@ biome:
   crimson_forest: Crimson Forest
   warped_forest: Warped Forest
   basalt_deltas: Basalt Deltas
+  dripstone_caves: Dripstone Caves
+  lush_caves: Lush Caves
   nether: Nether
 enchantment:
-  fire_protection: Fire Protection
-  sharpness: Sharpness
-  flame: Flame
-  soul_speed: Soul Speed
-  aqua_affinity: Aqua Affinity
-  punch: Punch
-  loyalty: Loyalty
-  depth_strider: Depth Strider
-  vanishing_curse: Curse of Vanishing
-  unbreaking: Unbreaking
-  knockback: Knockback
-  luck_of_the_sea: Luck of the Sea
-  binding_curse: Curse of Binding
-  fortune: Fortune
   protection: Protection
-  efficiency: Efficiency
-  mending: Mending
-  frost_walker: Frost Walker
-  lure: Lure
-  looting: Looting
-  piercing: Piercing
-  blast_protection: Blast Protection
-  smite: Smite
-  multishot: Multishot
-  fire_aspect: Fire Aspect
-  channeling: Channelling
-  sweeping: Sweeping Edge
-  thorns: Thorns
-  bane_of_arthropods: Bane of Arthropods
-  respiration: Respiration
-  riptide: Riptide
-  silk_touch: Silk Touch
-  quick_charge: Quick Charge
-  projectile_protection: Projectile Protection
-  impaling: Impaling
+  fire_protection: Fire Protection
   feather_falling: Feather Falling
+  blast_protection: Blast Protection
+  projectile_protection: Projectile Protection
+  respiration: Respiration
+  aqua_affinity: Aqua Affinity
+  thorns: Thorns
+  depth_strider: Depth Strider
+  frost_walker: Frost Walker
+  binding_curse: Curse of Binding
+  sharpness: Sharpness
+  smite: Smite
+  bane_of_arthropods: Bane of Arthropods
+  knockback: Knockback
+  fire_aspect: Fire Aspect
+  looting: Looting
+  sweeping: Sweeping Edge
+  efficiency: Efficiency
+  silk_touch: Silk Touch
+  unbreaking: Unbreaking
+  fortune: Fortune
   power: Power
+  punch: Punch
+  flame: Flame
   infinity: Infinity
+  luck_of_the_sea: Luck of the Sea
+  lure: Lure
+  loyalty: Loyalty
+  impaling: Impaling
+  riptide: Riptide
+  channeling: Channelling
+  multishot: Multishot
+  quick_charge: Quick Charge
+  piercing: Piercing
+  mending: Mending
+  vanishing_curse: Curse of Vanishing
+  soul_speed: Soul Speed
 potion:
   uncraftable: Uncraftable Potion
   water: Water Bottle
@@ -1403,6 +1556,11 @@ entity:
   strider: Strider
   zoglin: Zoglin
   piglin_brute: Piglin Brute
+  axolotl: Axolotl
+  glow_item_frame: Glow Item Frame
+  glow_squid: Glow Squid
+  goat: Goat
+  marker: Marker
   fishing_hook: Fishing Bobber
   lightning: Lightning Bolt
   player: Player
@@ -2202,17 +2360,3 @@ villager_profession:
   shepherd: Shepherd
   toolsmith: Toolsmith
   weaponsmith: Weaponsmith
-villager_career:
-  farmer: Farmer
-  fisherman: Fisherman
-  shepherd: Shepherd
-  fletcher: Fletcher
-  librarian: Librarian
-  cartographer: Cartographer
-  cleric: Cleric
-  armorer: Armourer
-  weapon_smith: Weapon Smith
-  tool_smith: Tool Smith
-  butcher: Butcher
-  leatherworker: Leatherworker
-  nitwit: Nitwit

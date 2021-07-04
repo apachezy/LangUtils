@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:48                    #
+# Build time: 2021-07-04 21:46:04                    #
 # ####################################################
 language:
   code: nds_de
@@ -14,10 +14,17 @@ material:
   polished_diorite: Poleerte Diorit
   andesite: Andesit
   polished_andesite: Poleerte Andesit
+  deepslate: Deefschiever
+  cobbled_deepslate: Bröökdeefschiever
+  polished_deepslate: Poleerte Deefschiever
+  calcite: Kalzit
+  tuff: Tuffsteen
+  dripstone_block: Treppsteenblok
   grass_block: Gräsblok
   dirt: Äer
   coarse_dirt: Gruowe Äer
   podzol: Podsol
+  rooted_dirt: Wuddeläer
   crimson_nylium: Purpuroot-Nezel
   warped_nylium: Wier-Nezel
   cobblestone: Brööksteen
@@ -39,10 +46,67 @@ material:
   sand: Sand
   red_sand: Rooter Sand
   gravel: Grand
-  gold_ore: Güldärts
-  iron_ore: Isenärts
   coal_ore: Steenkuole
+  deepslate_coal_ore: Deefschiever-Steenkuole
+  iron_ore: Isenärts
+  deepslate_iron_ore: Deefschiever-Isenärts
+  copper_ore: Kopperärts
+  deepslate_copper_ore: Deefschiever-Kopperärts
+  gold_ore: Güldärts
+  deepslate_gold_ore: Deefschiever-Güldärts
+  redstone_ore: Redstone-Ärts
+  deepslate_redstone_ore: Deefschiever-Redstone-Ärts
+  emerald_ore: Smaragdärts
+  deepslate_emerald_ore: Deefschiever-Smaragdärts
+  lapis_ore: Lapislatsuliärts
+  deepslate_lapis_ore: Deefschiever-Lapislatsuliärts
+  diamond_ore: Demantärts
+  deepslate_diamond_ore: Deefschiever-Demantärts
   nether_gold_ore: Nethergüldärts
+  nether_quartz_ore: Netherquartzärts
+  ancient_debris: Antiker Schroot
+  coal_block: Kuoleblok
+  raw_iron_block: Rauhisenblok
+  raw_copper_block: Rauhkopperblok
+  raw_gold_block: Rauhgüldblok
+  amethyst_block: Amethystblok
+  budding_amethyst: Amethystknosknuppblok
+  iron_block: Isenblok
+  copper_block: Kopperblok
+  gold_block: Güldblok
+  diamond_block: Demantblok
+  netherite_block: Netheritblok
+  exposed_copper: Anlopt Kopperblok
+  weathered_copper: Verwitter Kopperblok
+  oxidized_copper: Lütteriger Kopperblok
+  cut_copper: Snieden Kopperblok
+  exposed_cut_copper: Anlopt snieden Kopperblok
+  weathered_cut_copper: Verwitter snieden Kopperblok
+  oxidized_cut_copper: Lütteriger snieden Kopperblok
+  cut_copper_stairs: Snieden Koppertrapp
+  exposed_cut_copper_stairs: Anlopt snieden Koppertrapp
+  weathered_cut_copper_stairs: Verwitter snieden Koppertrapp
+  oxidized_cut_copper_stairs: Lütterige snieden Koppertrapp
+  cut_copper_slab: Snieden Kopperplaat
+  exposed_cut_copper_slab: Anlopt snieden Kopperplaat
+  weathered_cut_copper_slab: Verwitter snieden Kopperplaat
+  oxidized_cut_copper_slab: Lütterige snieden Kopperplaat
+  waxed_copper_block: Gewaaker Kopperblok
+  waxed_exposed_copper: Gewaaker anlopt Kopperblok
+  waxed_weathered_copper: Gewaaker verwitter Kopperblok
+  waxed_oxidized_copper: Gewaaker lütteriger Kopperblok
+  waxed_cut_copper: Gewaaker snieden Kopperblok
+  waxed_exposed_cut_copper: Gewaaker anlopt snieden Kopperblok
+  waxed_weathered_cut_copper: Gewaaker verwitter snieden Kopperblok
+  waxed_oxidized_cut_copper: Gewaaker lütteriger snieden Kopperblok
+  waxed_cut_copper_stairs: Gewaake snieden Koppertrapp
+  waxed_exposed_cut_copper_stairs: Gewaake anlopt snieden Koppertrapp
+  waxed_weathered_cut_copper_stairs: Gewaake verwitter snieden Koppertrapp
+  waxed_oxidized_cut_copper_stairs: Gewaake lütterige snieden Koppertrapp
+  waxed_cut_copper_slab: Gewaake snieden Kopperplaat
+  waxed_exposed_cut_copper_slab: Gewaake anlopt snieden Kopperplaat
+  waxed_weathered_cut_copper_slab: Gewaake verwitter snieden Kopperplaat
+  waxed_oxidized_cut_copper_slab: Gewaake lütterige snieden Kopperplaat
   oak_log: Ekenstam
   spruce_log: Füchtenstam
   birch_log: Biäkenstam
@@ -76,47 +140,45 @@ material:
   crimson_hyphae: Purpuroothyphen
   warped_hyphae: Wierhyphen
   oak_leaves: Ekenbliäder
-  spruce_leaves: Füchtenbliäder
+  spruce_leaves: Füchtennadeln
   birch_leaves: Biäkenbliäder
   jungle_leaves: Oorwooldbliäder
   acacia_leaves: Akatsienbliäder
   dark_oak_leaves: Swatekenbliäder
+  azalea_leaves: Azaleenlauv
+  flowering_azalea_leaves: Blöhendes Azaleenlauv
   sponge: Swamm
   wet_sponge: Natter Swamm
   glass: Glas
-  lapis_ore: Lapislatsuliärts
+  tinted_glass: Tönt Glas
   lapis_block: Lapislatsuliblok
-  dispenser: Audomaat
   sandstone: Sandsteen
   chiseled_sandstone: Baitelt Sandsteen
   cut_sandstone: Snieden Sandsteen
-  note_block: Mussikblok
-  powered_rail: Stroomschine
-  detector_rail: Fölerschine
-  sticky_piston: Kliëwriger Stempel
   cobweb: Spinkopnöst
   grass: Gräs
   fern: Faon
+  azalea: Azalee
+  flowering_azalea: Blöhende Azalee
   dead_bush: Dooter Busk
   seagrass: Kroos
   sea_pickle: Seegurk
-  piston: Stempel
   white_wool: Witte Wulle
   orange_wool: Geelroote Wulle
   magenta_wool: Magenta Wulle
   light_blue_wool: Lechtblaoe Wulle
   yellow_wool: Geele Wulle
-  lime_wool: Lechtgröne Wulle
+  lime_wool: Lechtgrööne Wulle
   pink_wool: Fienroote Wulle
   gray_wool: Graoe Wulle
   light_gray_wool: Griese Wulle
-  cyan_wool: Türkise Wulle
+  cyan_wool: Blaogrööne Wulle
   purple_wool: Vigelette Wulle
   blue_wool: Blaoe Wulle
   brown_wool: Bruune Wulle
-  green_wool: Gröne Wulle
+  green_wool: Grööne Wulle
   red_wool: Roote Wulle
-  black_wool: Schwarte Wulle
+  black_wool: Swatte Wulle
   dandelion: Kiëdenblome
   poppy: Maon
   blue_orchid: Blaoe Orchidee
@@ -130,6 +192,7 @@ material:
   cornflower: Koornblööm
   lily_of_the_valley: Maiklockje
   wither_rose: Witherroos
+  spore_blossom: Sporenblööt
   brown_mushroom: Bruune Poggenstool
   red_mushroom: Roote Poggenstool
   crimson_fungus: Purpurootpilz
@@ -141,9 +204,12 @@ material:
   twisting_vines: Zwirbelranken
   sugar_cane: Suckerrör
   kelp: Tang
+  moss_carpet: Moosteppich
+  moss_block: Moosblok
+  hanging_roots: Hangwuddeln
+  big_dripleaf: Groot Treppblatt
+  small_dripleaf: Lütt Treppblatt
   bamboo: Bambus
-  gold_block: Güldblok
-  iron_block: Isenblok
   oak_slab: Ekenplaat
   spruce_slab: Füchtenholtplaat
   birch_slab: Biäkenholtplaat
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: Glatter Sandsteen
   smooth_stone: Glatter Steen
   bricks: Tegelsteen
-  tnt: TNT
   bookshelf: Bökerschap
   mossy_cobblestone: Mussige Plaostersteen
   obsidian: Gnetersteen
@@ -187,30 +252,14 @@ material:
   spawner: Spawner
   oak_stairs: Ekenholttrapp
   chest: Truh
-  diamond_ore: Demantärts
-  diamond_block: Demantblok
   crafting_table: Wiärkbank
   farmland: Plügland
   furnace: Aven
   ladder: Ledder
-  rail: Schine
   cobblestone_stairs: Brööksteentrapp
-  lever: Hiäwel
-  stone_pressure_plate: Steendrükplaat
-  oak_pressure_plate: Ekenholtdrukplaat
-  spruce_pressure_plate: Füchtenholtdrukplaat
-  birch_pressure_plate: Biäkenholtdrukplaat
-  jungle_pressure_plate: Oorwooldholtdrukplaat
-  acacia_pressure_plate: Akatsienholtdrukplaat
-  dark_oak_pressure_plate: Swatekenholtdrukplaat
-  crimson_pressure_plate: Purpurootdrukplaat
-  warped_pressure_plate: Wierdrukplaat
-  polished_blackstone_pressure_plate: Poleerte Swaartsteendrukplaat
-  redstone_ore: Redstone-Ärts
-  redstone_torch: Redstone-Lunt
-  snow: Snai
+  snow: Snee
   ice: Ies
-  snow_block: Snaiblok
+  snow_block: Sneeblok
   cactus: Kaktus
   clay: Klai
   jukebox: Grammofoon
@@ -224,32 +273,31 @@ material:
   warped_fence: Wiertuun
   pumpkin: Kävers
   carved_pumpkin: Snidden Kävers
+  jack_o_lantern: Käverslücht
   netherrack: Netherrack
   soul_sand: Siälensand
   soul_soil: Siälenäer
   basalt: Basalt
   polished_basalt: Poleerter Basalt
+  smooth_basalt: Glatter Basalt
   soul_torch: Siälenlunt
   glowstone: Glowstone
-  jack_o_lantern: Käverslücht
-  oak_trapdoor: Ekenholtluuk
-  spruce_trapdoor: Füchtenholtluuk
-  birch_trapdoor: Biäkenholtluuk
-  jungle_trapdoor: Oorwooldholtluuk
-  acacia_trapdoor: Akatsienholtluuk
-  dark_oak_trapdoor: Swatekenholtluuk
-  crimson_trapdoor: Purpurootluuk
-  warped_trapdoor: Wierluuk
   infested_stone: Befallener Steen
   infested_cobblestone: Befallener Brööksteen
   infested_stone_bricks: Befallene Steentegel
   infested_mossy_stone_bricks: Befallene mussige Steentegel
   infested_cracked_stone_bricks: Befallene bürstige Steentegel
   infested_chiseled_stone_bricks: Befallene baitelte Steentegel
+  infested_deepslate: Befallener Deefschiever
   stone_bricks: Steentegels
   mossy_stone_bricks: Mussige Steentegel
   cracked_stone_bricks: Bürstige Steentegel
   chiseled_stone_bricks: Baitelte Steentegel
+  deepslate_bricks: Deefschievertegel
+  cracked_deepslate_bricks: Bürstige Deefschievertegel
+  deepslate_tiles: Deefschieverfliesen
+  cracked_deepslate_tiles: Bürstige Deefschieverfliesen
+  chiseled_deepslate: Baitelte Deefschiever
   brown_mushroom_block: Bruune Poggenstoolblok
   red_mushroom_block: Roote Poggenstoolblok
   mushroom_stem: Poggenstoolsteel
@@ -258,14 +306,7 @@ material:
   glass_pane: Glasschiwe
   melon: Meloon
   vine: Ranken
-  oak_fence_gate: Ekenholttuunpaort
-  spruce_fence_gate: Füchtenholttuunpaort
-  birch_fence_gate: Biäkenholttuunpaort
-  jungle_fence_gate: Oorwooldtuunpaort
-  acacia_fence_gate: Akatsienholttuunpaort
-  dark_oak_fence_gate: Swatekenholttuunpaort
-  crimson_fence_gate: Purpuroottuunpaort
-  warped_fence_gate: Wiertuunpaort
+  glow_lichen: Lüchtflecht
   brick_stairs: Tegeltrapp
   stone_brick_stairs: Steentegeltrapp
   mycelium: Mütseel
@@ -280,11 +321,8 @@ material:
   end_stone: Endsteen
   end_stone_bricks: Endsteentegel
   dragon_egg: Draakei
-  redstone_lamp: Redstone-Lamp
   sandstone_stairs: Sandsteentrapp
-  emerald_ore: Smaragdärts
   ender_chest: Endertruh
-  tripwire_hook: Haken
   emerald_block: Smaragdblok
   spruce_stairs: Füchtenholttrapp
   birch_stairs: Biäkenholttrapp
@@ -307,78 +345,61 @@ material:
   sandstone_wall: Sandsteenmüer
   end_stone_brick_wall: Endsteentegelmüer
   diorite_wall: Dioritmüer
-  blackstone_wall: Swaartsteenmüer
-  polished_blackstone_wall: Poleerte Swaartsteenmüer
-  polished_blackstone_brick_wall: Poleerte Swaartsteentegelmüer
-  stone_button: Steenknop
-  oak_button: Ekenholtknop
-  spruce_button: Füchtenholtknop
-  birch_button: Biäkenholtknop
-  jungle_button: Oorwooldholtknop
-  acacia_button: Akatsienholtknop
-  dark_oak_button: Swatekenholtknop
-  crimson_button: Purpurootknop
-  warped_button: Wierknop
-  polished_blackstone_button: Poleerter Swaartsteenknop
+  blackstone_wall: Swatsteenmüer
+  polished_blackstone_wall: Poleerte Swatsteenmüer
+  polished_blackstone_brick_wall: Poleerte Swatsteentegelmüer
+  cobbled_deepslate_wall: Bröökdeefschievermüer
+  polished_deepslate_wall: Poleerte Deefschievermüer
+  deepslate_brick_wall: Deefschievertegelmüer
+  deepslate_tile_wall: Deefschieverfliesenmüer
   anvil: Ambold
   chipped_anvil: Afbrakt Ambold
   damaged_anvil: Vönailter Ambold
-  trapped_chest: Redstonetruh
-  light_weighted_pressure_plate: Lichtwichtigdrukplaat
-  heavy_weighted_pressure_plate: Swaarwichtigdrukplaat
-  daylight_detector: Dageslechtföler
-  redstone_block: Redstone-Blok
-  nether_quartz_ore: Netherquartzärts
-  hopper: Trächter
   chiseled_quartz_block: Baitelter Kwartsblok
   quartz_block: Kwartsblok
   quartz_bricks: Kwartstegel
   quartz_pillar: Kwartssüle
   quartz_stairs: Kwartstrapp
-  activator_rail: Ankriegschine
-  dropper: Giëwer
   white_terracotta: Witte Keramik
   orange_terracotta: Geelroote Keramik
   magenta_terracotta: Magenta Keramik
-  light_blue_terracotta: Hillblaoe Keramik
+  light_blue_terracotta: Lechtblaoe Keramik
   yellow_terracotta: Geele Keramik
-  lime_terracotta: Hillgröne Keramik
+  lime_terracotta: Lechtgrööne Keramik
   pink_terracotta: Fienroote Keramik
-  gray_terracotta: Graue Keramik
+  gray_terracotta: Graoe Keramik
   light_gray_terracotta: Griese Keramik
-  cyan_terracotta: Türkise Keramik
+  cyan_terracotta: Blaogrööne Keramik
   purple_terracotta: Vigelette Keramik
   blue_terracotta: Blaoe Keramik
   brown_terracotta: Bruune Keramik
-  green_terracotta: Gröne Keramik
+  green_terracotta: Grööne Keramik
   red_terracotta: Roote Keramik
-  black_terracotta: Schwarte Keramik
+  black_terracotta: Swatte Keramik
   barrier: Barreer
-  iron_trapdoor: Isenluuk
+  light: Lüchtblok
   hay_block: Haidut
   white_carpet: Witte Teppich
   orange_carpet: Geelrooter Teppich
   magenta_carpet: Magenta Teppich
   light_blue_carpet: Lechtblaoer Teppich
   yellow_carpet: Geeler Teppich
-  lime_carpet: Lechtgröner Teppich
+  lime_carpet: Lechtgrööner Teppich
   pink_carpet: Fienrooter Teppich
   gray_carpet: Graoer Teppich
   light_gray_carpet: Grieser Teppich
-  cyan_carpet: Türkiser Teppich
+  cyan_carpet: Blaogrööner Teppich
   purple_carpet: Vigeletter Teppich
   blue_carpet: Blaoer Teppich
   brown_carpet: Bruner Teppich
-  green_carpet: Gröner Teppich
+  green_carpet: Grööner Teppich
   red_carpet: Rooter Teppich
   black_carpet: Swatter Teppich
   terracotta: Keramik
-  coal_block: Kuoleblok
   packed_ice: Pakies
   acacia_stairs: Akatsienholttrapp
   dark_oak_stairs: Swatekenholttrapp
-  slime_block: Sliemblok
-  grass_path: Tramppadd
+  dirt_path: Tramppadd
   sunflower: Sünnenbloom
   lilac: Nagelblome
   rose_bush: Rausenbusk
@@ -390,31 +411,31 @@ material:
   magenta_stained_glass: Magenta Glas
   light_blue_stained_glass: Lechtblaoes Glas
   yellow_stained_glass: Geeles Glas
-  lime_stained_glass: Hillgröne Glasschiwe
+  lime_stained_glass: Lechtgröönes Glas
   pink_stained_glass: Fienrootes Glas
-  gray_stained_glass: Grao Glas
+  gray_stained_glass: Graoes Glas
   light_gray_stained_glass: Grieses Glas
-  cyan_stained_glass: Türkise Glasschiwe
+  cyan_stained_glass: Blaogröönes Glas
   purple_stained_glass: Vigelettes Glas
-  blue_stained_glass: Blao Glas
-  brown_stained_glass: Bruun Glas
-  green_stained_glass: Gröön Glas
+  blue_stained_glass: Blaoes Glas
+  brown_stained_glass: Bruunes Glas
+  green_stained_glass: Gröönes Glas
   red_stained_glass: Rootes Glas
-  black_stained_glass: Swat Glas
+  black_stained_glass: Swattes Glas
   white_stained_glass_pane: Witte Glasschiwe
   orange_stained_glass_pane: Geelroote Glasschiwe
   magenta_stained_glass_pane: Magenta Glasschiwe
   light_blue_stained_glass_pane: Lechtblaoe Glasschiwe
   yellow_stained_glass_pane: Geele Glasschiwe
-  lime_stained_glass_pane: Lechtgröne Glasschiwe
+  lime_stained_glass_pane: Lechtgrööne Glasschiwe
   pink_stained_glass_pane: Fienroote Glasschiwe
   gray_stained_glass_pane: Graoe Glasschiwe
   light_gray_stained_glass_pane: Griese Glasschiwe
-  cyan_stained_glass_pane: Türkise Glasschiwe
+  cyan_stained_glass_pane: Blaogrööne Glasschiwe
   purple_stained_glass_pane: Vigelette Glasschiwe
   blue_stained_glass_pane: Blaoe Glasschiwe
   brown_stained_glass_pane: Brune Glasschiwe
-  green_stained_glass_pane: Gröne Glasschiwe
+  green_stained_glass_pane: Grööne Glasschiwe
   red_stained_glass_pane: Roote Glasschiwe
   black_stained_glass_pane: Swatte Glasschiwe
   prismarine: Prismarien
@@ -436,72 +457,71 @@ material:
   red_nether_bricks: Roote Nethertegel
   bone_block: Beenblok
   structure_void: Bauwiärksleege
-  observer: Waarnemer
   shulker_box: Shulkerkist
   white_shulker_box: Witte Shulkerkist
   orange_shulker_box: Geelroote Shulkerkist
   magenta_shulker_box: Magenta Shulkerkist
-  light_blue_shulker_box: Hillblaoe Shulkerkist
+  light_blue_shulker_box: Lechtblaoe Shulkerkist
   yellow_shulker_box: Geele Shulkerkist
-  lime_shulker_box: Hillgröne Shulkerkist
+  lime_shulker_box: Lechtgrööne Shulkerkist
   pink_shulker_box: Fienroote Shulkerkist
-  gray_shulker_box: Graue Shulkerkist
+  gray_shulker_box: Graoe Shulkerkist
   light_gray_shulker_box: Griese Shulkerkist
-  cyan_shulker_box: Türkise Shulkerkist
+  cyan_shulker_box: Blaogrööne Shulkerkist
   purple_shulker_box: Vigelette Shulkerkist
   blue_shulker_box: Blaoe Shulkerkist
   brown_shulker_box: Bruune Shulkerkist
-  green_shulker_box: Gröne Shulkerkist
+  green_shulker_box: Grööne Shulkerkist
   red_shulker_box: Roote Shulkerkist
-  black_shulker_box: Schwarte Shulkerkist
+  black_shulker_box: Swatte Shulkerkist
   white_glazed_terracotta: Witte glaseerte Keramik
   orange_glazed_terracotta: Geelroote glaseerte Keramik
   magenta_glazed_terracotta: Magenta glaseerte Keramik
   light_blue_glazed_terracotta: Lechtblaoe glaseerte Keramik
   yellow_glazed_terracotta: Geele glaseerte Keramik
-  lime_glazed_terracotta: Hillgröne glaseerte Keramik
+  lime_glazed_terracotta: Lechtgrööne glaseerte Keramik
   pink_glazed_terracotta: Fienroote glaseerte Keramik
-  gray_glazed_terracotta: Graue glaseerte Keramik
+  gray_glazed_terracotta: Graoe glaseerte Keramik
   light_gray_glazed_terracotta: Griese glaseerte Keramik
-  cyan_glazed_terracotta: Türkise glaseerte Keramik
+  cyan_glazed_terracotta: Blaogrööne glaseerte Keramik
   purple_glazed_terracotta: Vigelette glaseerte Keramik
   blue_glazed_terracotta: Blaoe glaseerte Keramik
   brown_glazed_terracotta: Bruune glaseerte Keramik
-  green_glazed_terracotta: Gröne glaseerte Keramik
+  green_glazed_terracotta: Grööne glaseerte Keramik
   red_glazed_terracotta: Roote glaseerte Keramik
-  black_glazed_terracotta: Schwarte glaseerte Keramik
+  black_glazed_terracotta: Swatte glaseerte Keramik
   white_concrete: Witter Beton
   orange_concrete: Geelrooter Beton
   magenta_concrete: Magenta Beton
   light_blue_concrete: Lechtblaoer Beton
   yellow_concrete: Geeler Beton
-  lime_concrete: Hillgröner Beton
+  lime_concrete: Lechtgrööner Beton
   pink_concrete: Fienrooter Beton
-  gray_concrete: Grauer Beton
+  gray_concrete: Graoer Beton
   light_gray_concrete: Grieser Beton
-  cyan_concrete: Türkiser Beton
+  cyan_concrete: Blaogrööner Beton
   purple_concrete: Vigeletter Beton
   blue_concrete: Blaoer Beton
   brown_concrete: Bruuner Beton
-  green_concrete: Gröner Beton
+  green_concrete: Grööner Beton
   red_concrete: Rooter Beton
-  black_concrete: Schwarter Beton
+  black_concrete: Swatter Beton
   white_concrete_powder: Witter Dröögbeton
   orange_concrete_powder: Geelrooter Dröögbeton
   magenta_concrete_powder: Magenta Dröögbeton
   light_blue_concrete_powder: Lechtblaoer Dröögbeton
   yellow_concrete_powder: Geeler Dröögbeton
-  lime_concrete_powder: Hillgröner Dröögbeton
+  lime_concrete_powder: Lechtgrööner Dröögbeton
   pink_concrete_powder: Fienrooter Dröögbeton
-  gray_concrete_powder: Grauer Dröögbeton
+  gray_concrete_powder: Graoer Dröögbeton
   light_gray_concrete_powder: Grieser Dröögbeton
-  cyan_concrete_powder: Türkiser Dröögbeton
+  cyan_concrete_powder: Blaogrööner Dröögbeton
   purple_concrete_powder: Vigeletter Dröögbeton
   blue_concrete_powder: Blaoer Dröögbeton
   brown_concrete_powder: Bruuner Dröögbeton
-  green_concrete_powder: Gröner Dröögbeton
+  green_concrete_powder: Grööner Dröögbeton
   red_concrete_powder: Rooter Dröögbeton
-  black_concrete_powder: Schwarter Dröögbeton
+  black_concrete_powder: Swatter Dröögbeton
   turtle_egg: Skildpadai
   dead_tube_coral_block: Dooter Röhrkorallblok
   dead_brain_coral_block: Dooter Bregenkorallblok
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: Roote Nethertegeltrapp
   polished_andesite_stairs: Poleerte Andesittrapp
   diorite_stairs: Diorittrapp
+  cobbled_deepslate_stairs: Bröökdeefschievertrapp
+  polished_deepslate_stairs: Poleerte Deefschievertrapp
+  deepslate_brick_stairs: Deefschievertegelplaat
+  deepslate_tile_stairs: Deefschieverfliesentrapp
   polished_granite_slab: Poleerte Granitplaat
   smooth_red_sandstone_slab: Glatte roote Sandsteenplaat
   mossy_stone_brick_slab: Mussige Steentegelplaat
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: Roote Nethertegelplaat
   polished_andesite_slab: Poleerte Andesitplaat
   diorite_slab: Diorittrapp
+  cobbled_deepslate_slab: Bröökdeefschieverplaat
+  polished_deepslate_slab: Poleerte Deefschieverplaat
+  deepslate_brick_slab: Deefschievertegeltrapp
+  deepslate_tile_slab: Deefschieverfliesenplaat
   scaffolding: Gerüst
+  redstone: Redstone-Pulwer
+  redstone_torch: Redstone-Lunt
+  redstone_block: Redstone-Blok
+  repeater: Redstone-Verstarker
+  comparator: Redstone-Komparator
+  piston: Stempel
+  sticky_piston: Kliëwriger Stempel
+  slime_block: Sliemblok
+  honey_block: Hönnigblok
+  observer: Waarnemer
+  hopper: Trächter
+  dispenser: Audomaat
+  dropper: Giëwer
+  lectern: Leespult
+  target: Teelblok
+  lever: Hiäwel
+  lightning_rod: Blitzafleider
+  daylight_detector: Dageslechtföler
+  sculk_sensor: Sculk-Sensor
+  tripwire_hook: Haken
+  trapped_chest: Redstonetruh
+  tnt: TNT
+  redstone_lamp: Redstone-Lamp
+  note_block: Mussikblok
+  stone_button: Steenknop
+  polished_blackstone_button: Poleerter Swatsteenknop
+  oak_button: Ekenholtknop
+  spruce_button: Füchtenholtknop
+  birch_button: Biäkenholtknop
+  jungle_button: Oorwooldholtknop
+  acacia_button: Akatsienholtknop
+  dark_oak_button: Swatekenholtknop
+  crimson_button: Purpurootknop
+  warped_button: Wierknop
+  stone_pressure_plate: Steendrükplaat
+  polished_blackstone_pressure_plate: Poleerte Swatsteendrukplaat
+  light_weighted_pressure_plate: Lichtwichtigdrukplaat
+  heavy_weighted_pressure_plate: Swaarwichtigdrukplaat
+  oak_pressure_plate: Ekenholtdrukplaat
+  spruce_pressure_plate: Füchtenholtdrukplaat
+  birch_pressure_plate: Biäkenholtdrukplaat
+  jungle_pressure_plate: Oorwooldholtdrukplaat
+  acacia_pressure_plate: Akatsienholtdrukplaat
+  dark_oak_pressure_plate: Swatekenholtdrukplaat
+  crimson_pressure_plate: Purpurootdrukplaat
+  warped_pressure_plate: Wierdrukplaat
   iron_door: Isendüör
   oak_door: Ekendüör
   spruce_door: Füchtendüör
@@ -572,8 +646,42 @@ material:
   dark_oak_door: Swatekendüör
   crimson_door: Purpurootdüör
   warped_door: Wierdüör
-  repeater: Redstone-Verstarker
-  comparator: Redstone-Komparator
+  iron_trapdoor: Isenluuk
+  oak_trapdoor: Ekenholtluuk
+  spruce_trapdoor: Füchtenholtluuk
+  birch_trapdoor: Biäkenholtluuk
+  jungle_trapdoor: Oorwooldholtluuk
+  acacia_trapdoor: Akatsienholtluuk
+  dark_oak_trapdoor: Swatekenholtluuk
+  crimson_trapdoor: Purpurootluuk
+  warped_trapdoor: Wierluuk
+  oak_fence_gate: Ekenholttuunpaort
+  spruce_fence_gate: Füchtenholttuunpaort
+  birch_fence_gate: Biäkenholttuunpaort
+  jungle_fence_gate: Oorwooldtuunpaort
+  acacia_fence_gate: Akatsienholttuunpaort
+  dark_oak_fence_gate: Swatekenholttuunpaort
+  crimson_fence_gate: Purpuroottuunpaort
+  warped_fence_gate: Wiertuunpaort
+  powered_rail: Stroomschine
+  detector_rail: Fölerschine
+  rail: Schine
+  activator_rail: Ankriegschine
+  saddle: Saddel
+  minecart: Kipkaor
+  chest_minecart: Truhkaor
+  furnace_minecart: Driewkaor
+  tnt_minecart: TNT-Kaor
+  hopper_minecart: Trächterkaor
+  carrot_on_a_stick: Wuddelroot
+  warped_fungus_on_a_stick: Wierpilzroot
+  elytra: Elytren
+  oak_boat: Ekenholtbööd
+  spruce_boat: Füchtenholtbööd
+  birch_boat: Biäkenholtbööd
+  jungle_boat: Oorwooldholtbööd
+  acacia_boat: Akatsienholtbööd
+  dark_oak_boat: Swatekenholtbööd
   structure_block: Bauwiärksblok
   jigsaw: Verbünnelblok
   turtle_helmet: Skildpadskild
@@ -585,7 +693,15 @@ material:
   coal: Kuole
   charcoal: Holtkuole
   diamond: Demant
+  emerald: Smaragd
+  lapis_lazuli: Lapislatsuli
+  quartz: Netherquarz
+  amethyst_shard: Amethystsplaot
+  raw_iron: Rauhisen
   iron_ingot: Isenbarren
+  raw_copper: Rauhkopper
+  copper_ingot: Kopperbarren
+  raw_gold: Rauhgüld
   gold_ingot: Güldbarren
   netherite_ingot: Netheritbarren
   netherite_scrap: Netheritplaten
@@ -669,75 +785,73 @@ material:
   bucket: Emmer
   water_bucket: Wateremmer
   lava_bucket: Lawaemmer
-  minecart: Kipkaor
-  saddle: Saddel
-  redstone: Redstone-Pulwer
-  snowball: Snaibal
-  oak_boat: Ekenholtbööd
+  powder_snow_bucket: Pulversneeemmer
+  snowball: Sneebal
   leather: Liäder
   milk_bucket: Melkemmer
   pufferfish_bucket: Kugelfiskemmer
   salmon_bucket: Lasemmer
   cod_bucket: Kabeljauwemmer
   tropical_fish_bucket: Tropenfiskemmer
+  axolotl_bucket: Axolotlemmer
   brick: Tegel
   clay_ball: Klaibal
   dried_kelp_block: Dröger Tangblok
   paper: Papeer
   book: Book
   slime_ball: Sliembal
-  chest_minecart: Truhkaor
-  furnace_minecart: Driewkaor
   egg: Ai
   compass: Kompas
+  bundle: Bünnel
   fishing_rod: Angelruut
   clock: Klok
+  spyglass: Kieker
   glowstone_dust: Glowstonestoff
   cod: Rauher Kabeljauw
-  salmon: Rauer Las
+  salmon: Rauher Las
   tropical_fish: Tropenfisk
   pufferfish: Kugelfisk
   cooked_cod: Brodten Kabeljauw
   cooked_salmon: Brodten Las
   ink_sac: Enksak
+  glow_ink_sac: Lüchtenksak
   cocoa_beans: Kakaubaunen
-  lapis_lazuli: Lapislatsuli
-  white_dye: Witte Klöör
-  orange_dye: Geelroote Klöör
-  magenta_dye: Magenta Klöör
-  light_blue_dye: Lechtblaoe Klöör
-  yellow_dye: Geele Klöör
-  lime_dye: Lechtgröne Klöör
-  pink_dye: Fienroote Klöör
-  gray_dye: Graoe Klöör
-  light_gray_dye: Griese Klöör
-  cyan_dye: Türkise Klöör
-  purple_dye: Vigelette Klöör
-  blue_dye: Blaoe Klöör
-  brown_dye: Bruune Klöör
-  green_dye: Grööne Klöör
-  red_dye: Roote Klöör
-  black_dye: Swarte Klöör
+  white_dye: Witte Farve
+  orange_dye: Geelroote Farve
+  magenta_dye: Magenta Farve
+  light_blue_dye: Lechtblaoe Farve
+  yellow_dye: Geele Farve
+  lime_dye: Lechtgrööne Farve
+  pink_dye: Fienroote Farve
+  gray_dye: Graoe Farve
+  light_gray_dye: Griese Farve
+  cyan_dye: Blaogrööne Farve
+  purple_dye: Vigelette Farve
+  blue_dye: Blaoe Farve
+  brown_dye: Bruune Farve
+  green_dye: Grööne Farve
+  red_dye: Roote Farve
+  black_dye: Swatte Farve
   bone_meal: Beenmiäl
   bone: Been
   sugar: Sucker
   cake: Koken
-  white_bed: Witt Bedd
+  white_bed: Wittes Bedd
   orange_bed: Geelrootes Bedd
   magenta_bed: Magenta Bedd
   light_blue_bed: Lechtblaoes Bedd
-  yellow_bed: Geel Bedd
-  lime_bed: Hillgrönes Bedd
+  yellow_bed: Geeles Bedd
+  lime_bed: Lechtgröönes Bedd
   pink_bed: Fienrootes Bedd
-  gray_bed: Graues Bedd
-  light_gray_bed: Gries Bedd
-  cyan_bed: Türkises Bedd
+  gray_bed: Graoes Bedd
+  light_gray_bed: Grieses Bedd
+  cyan_bed: Blaogröönes Bedd
   purple_bed: Vigelettes Bedd
-  blue_bed: Blao Bedd
-  brown_bed: Bruun Bedd
-  green_bed: Gröön Bedd
+  blue_bed: Blaoes Bedd
+  brown_bed: Bruunes Bedd
+  green_bed: Gröönes Bedd
   red_bed: Rootes Bedd
-  black_bed: Swart Bedd
+  black_bed: Swattes Bedd
   cookie: Keeks
   filled_map: Kaat
   shears: Scheer
@@ -745,9 +859,9 @@ material:
   dried_kelp: Dröögter Tang
   pumpkin_seeds: Käverssäöte
   melon_seeds: Meloonsäöte
-  beef: Rau Rindfleesk
+  beef: Rauhet Rindfleesk
   cooked_beef: Steik
-  chicken: Rohes Hoönken
+  chicken: Rauhet Hoönken
   cooked_chicken: Brodten Hoönken
   rotten_flesh: Vöruot Fleesk
   ender_pearl: Enderparrel
@@ -765,6 +879,7 @@ material:
   cauldron: Ketel
   ender_eye: Enderoog
   glistering_melon_slice: Glinsteren Meloonenschiev
+  axolotl_spawn_egg: Axolotl-Spawn-Ai
   bat_spawn_egg: Fleddermuus-Spawn-Ai
   bee_spawn_egg: Imme-Spawn-Ai
   blaze_spawn_egg: Lohe-Spawn-Ai
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: Magister-Spawn-Ai
   fox_spawn_egg: Voss-Spawn-Ai
   ghast_spawn_egg: Ghast-Spawn-Ai
+  glow_squid_spawn_egg: Lüchtenktfisk-Spawn-Ai
+  goat_spawn_egg: Zieg-Spawn-Ai
   guardian_spawn_egg: Wachter-Spawn-Ai
   hoglin_spawn_egg: Hoglin-Spawn-Ai
   horse_spawn_egg: Peerde-Spawn-Ai
@@ -818,7 +935,7 @@ material:
   tropical_fish_spawn_egg: Troopenfisk-Spawn-Ai
   turtle_spawn_egg: Skildpad-Spawn-Ai
   vex_spawn_egg: Plagegeest-Spawn-Ai
-  villager_spawn_egg: Dörpinwohner-Spawn-Ai
+  villager_spawn_egg: Dörpsbewahner-Spawn-Ai
   vindicator_spawn_egg: Dener-Spawn-Ai
   wandering_trader_spawn_egg: Wannernde-Hannelsmann-Spawn-Ai
   witch_spawn_egg: Hex-Spawn-Ai
@@ -827,14 +944,14 @@ material:
   zoglin_spawn_egg: Zoglin-Spawn-Ai
   zombie_spawn_egg: Zombie-Spawn-Ai
   zombie_horse_spawn_egg: Zombiepeerd-Spawn-Ai
-  zombie_villager_spawn_egg: Dörpinwohnerzombie-Spawn-Ai
+  zombie_villager_spawn_egg: Dörpsbewahnerzombie-Spawn-Ai
   zombified_piglin_spawn_egg: Zombifiiert-Piglin-Spawn-Ai
   experience_bottle: Erfaorungsbuddel
   fire_charge: Füerbal
   writable_book: Book un Fiäder
   written_book: Schriëwen Book
-  emerald: Smaragd
   item_frame: Raam
+  glow_item_frame: Lüchtraam
   flower_pot: Blöömpott
   carrot: Wuddel
   potato: Kartuffel
@@ -848,20 +965,15 @@ material:
   zombie_head: Zombiekopp
   creeper_head: Creeperkopp
   dragon_head: Draakkopp
-  carrot_on_a_stick: Wuddelroot
-  warped_fungus_on_a_stick: Wierpilzroot
   nether_star: Nethersteern
   pumpkin_pie: Käverskoken
   firework_rocket: Füerwiärksrakeet
   firework_star: Füerwiärksstään
   enchanted_book: Betövert Book
   nether_brick: Nethertegel
-  quartz: Netherquarz
-  tnt_minecart: TNT-Kaor
-  hopper_minecart: Trächterkaor
   prismarine_shard: Prismariensplaot
   prismarine_crystals: Prismarienkristallen
-  rabbit: Rohes Kanickel
+  rabbit: Rauhet Kanickel
   cooked_rabbit: Brodten Kanickel
   rabbit_stew: Kanickelragout
   rabbit_foot: Haasenpoot
@@ -874,24 +986,24 @@ material:
   lead: Line
   name_tag: Naamschild
   command_block_minecart: Befiälskaor
-  mutton: Rau Lobbenfleesk
+  mutton: Rauhet Lobbenfleesk
   cooked_mutton: Brodten Lobbenfleesk
   white_banner: Wittes Banner
   orange_banner: Geelrootes Banner
   magenta_banner: Magenta Banner
   light_blue_banner: Lechtblaoes Banner
   yellow_banner: Geeles Banner
-  lime_banner: Hillgrönes Banner
+  lime_banner: Lechtgröönes Banner
   pink_banner: Fienrootes Banner
-  gray_banner: Graues Banner
+  gray_banner: Graoes Banner
   light_gray_banner: Grieses Banner
-  cyan_banner: Türkises Banner
+  cyan_banner: Blaogröönes Banner
   purple_banner: Vigelettes Banner
   blue_banner: Blaoes Banner
   brown_banner: Bruunes Banner
-  green_banner: Grönes Banner
+  green_banner: Gröönes Banner
   red_banner: Rootes Banner
-  black_banner: Schwartes Banner
+  black_banner: Swattes Banner
   end_crystal: Endkristaal
   chorus_fruit: Chorusfrücht
   popped_chorus_fruit: Platzt Chorusfrücht
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: Drankt Piel
   lingering_potion: Wieldrank
   shield: Schild
-  elytra: Elytren
-  spruce_boat: Füchtenholtbööd
-  birch_boat: Biäkenholtbööd
-  jungle_boat: Oorwooldholtbööd
-  acacia_boat: Akatsienholtbööd
-  dark_oak_boat: Swatekenholtbööd
   totem_of_undying: Totem van Unstarvigkeeit
   shulker_shell: Shulkerschaal
   iron_nugget: Isenklump
@@ -948,13 +1054,13 @@ material:
   cartography_table: Kaarttafel
   fletching_table: Buogtafel
   grindstone: Sliepsteen
-  lectern: Leespult
   smithing_table: Smitgtafel
   stonecutter: Steensaag
   bell: Klock
   lantern: Lateern
   soul_lantern: Siälenlatern
   sweet_berries: Söötbeje
+  glow_berries: Lüchtbeern
   campfire: Loagafia
   soul_campfire: Siälenloagafia
   shroomlight: Poggenstoollücht
@@ -962,26 +1068,44 @@ material:
   bee_nest: Immennest
   beehive: Immenstock
   honey_bottle: Hönnigbuddel
-  honey_block: Hönnigblok
   honeycomb_block: Hönnigwaarblok
   lodestone: Leitsteen
-  netherite_block: Netheritblok
-  ancient_debris: Antiker Schroot
-  target: Teelblok
   crying_obsidian: Wienner Gnetersteen
-  blackstone: Swaartsteen
-  blackstone_slab: Swaartsteenplaat
-  blackstone_stairs: Swaartsteentrapp
-  gilded_blackstone: Gülddörsnitt Swaartsteen
-  polished_blackstone: Poleerter Swaartsteen
-  polished_blackstone_slab: Poleerte Swaartsteenplaat
-  polished_blackstone_stairs: Poleerte Swaartsteentrapp
-  chiseled_polished_blackstone: Baitelt poleerter Swaartsteen
-  polished_blackstone_bricks: Poleerte Swaartsteentegel
-  polished_blackstone_brick_slab: Poleerte Swaartsteentegelplaat
-  polished_blackstone_brick_stairs: Poleerte Swaartsteentegeltrapp
-  cracked_polished_blackstone_bricks: Bürstige poleerte Swaartsteentegel
+  blackstone: Swatsteen
+  blackstone_slab: Swatsteenplaat
+  blackstone_stairs: Swatsteentrapp
+  gilded_blackstone: Gülddörsnitt Swatsteen
+  polished_blackstone: Poleerter Swatsteen
+  polished_blackstone_slab: Poleerte Swatsteenplaat
+  polished_blackstone_stairs: Poleerte Swatsteentrapp
+  chiseled_polished_blackstone: Baitelt poleerter Swatsteen
+  polished_blackstone_bricks: Poleerte Swatsteentegel
+  polished_blackstone_brick_slab: Poleerte Swatsteentegelplaat
+  polished_blackstone_brick_stairs: Poleerte Swatsteentegeltrapp
+  cracked_polished_blackstone_bricks: Bürstige poleerte Swatsteentegel
   respawn_anchor: Seelanker
+  candle: Lücht
+  white_candle: Wittes Lücht
+  orange_candle: Geelrootes Lücht
+  magenta_candle: Magenta Lücht
+  light_blue_candle: Lechtblaoes Lücht
+  yellow_candle: Geeles Lücht
+  lime_candle: Lechtgröönes Lücht
+  pink_candle: Fienrootes Lücht
+  gray_candle: Graoes Lücht
+  light_gray_candle: Grieses Lücht
+  cyan_candle: Blaogröönes Lücht
+  purple_candle: Vigelettes Lücht
+  blue_candle: Blaoes Lücht
+  brown_candle: Bruunes Lücht
+  green_candle: Gröönes Lücht
+  red_candle: Rootes Lücht
+  black_candle: Swattes Lücht
+  small_amethyst_bud: Lütte Amethystknosknupp
+  medium_amethyst_bud: Middel Amethystknosknupp
+  large_amethyst_bud: Graute Amethystknosknupp
+  amethyst_cluster: Amethystschoof
+  pointed_dripstone: Spitze Treppsteen
   water: Water
   lava: Lawa
   tall_seagrass: Hooges Kroos
@@ -1004,6 +1128,9 @@ material:
   attached_melon_stem: Meloonrank
   pumpkin_stem: Käversplant
   melon_stem: Meloonplant
+  water_cauldron: Waterketel
+  lava_cauldron: Lawaketel
+  powder_snow_cauldron: Pulversneeketel
   end_portal: Endpaortaal
   cocoa: Kakau
   tripwire: Strumpeldraod
@@ -1044,17 +1171,17 @@ material:
   magenta_wall_banner: Magenta Banner
   light_blue_wall_banner: Lechtblaoes Banner
   yellow_wall_banner: Geeles Banner
-  lime_wall_banner: Hillgrönes Banner
+  lime_wall_banner: Lechtgröönes Banner
   pink_wall_banner: Fienrootes Banner
-  gray_wall_banner: Graues Banner
+  gray_wall_banner: Graoes Banner
   light_gray_wall_banner: Grieses Banner
-  cyan_wall_banner: Türkises Banner
+  cyan_wall_banner: Blaogröönes Banner
   purple_wall_banner: Vigelettes Banner
   blue_wall_banner: Blaoes Banner
   brown_wall_banner: Bruunes Banner
-  green_wall_banner: Grönes Banner
+  green_wall_banner: Gröönes Banner
   red_wall_banner: Rootes Banner
-  black_wall_banner: Schwartes Banner
+  black_wall_banner: Swattes Banner
   beetroots: Roote Beet
   end_gateway: Endtranitalpaortaal
   frosted_ice: Brökeirg Ies
@@ -1083,6 +1210,30 @@ material:
   potted_warped_fungus: Inpottede Wierpilz
   potted_crimson_roots: Inpottede Purpurootwörteln
   potted_warped_roots: Inpottede Wierwörteln
+  candle_cake: Koken met Lücht
+  white_candle_cake: Koken met wittem Lücht
+  orange_candle_cake: Koken met geelrootem Lücht
+  magenta_candle_cake: Koken met magenta Lücht
+  light_blue_candle_cake: Koken met lechtblaoem Lücht
+  yellow_candle_cake: Koken met geelem Lücht
+  lime_candle_cake: Koken met lechtgröönem Lücht
+  pink_candle_cake: Koken met fienrootem Lücht
+  gray_candle_cake: Koken met graoem Lücht
+  light_gray_candle_cake: Koken met griesem Lücht
+  cyan_candle_cake: Koken met blaogröönem Lücht
+  purple_candle_cake: Koken met vigelettem Lücht
+  blue_candle_cake: Koken met blaoem Lücht
+  brown_candle_cake: Koken met bruunem Lücht
+  green_candle_cake: Koken met gröönem Lücht
+  red_candle_cake: Koken met rootem Lücht
+  black_candle_cake: Koken met swattem Lücht
+  powder_snow: Pulversnee
+  cave_vines: Hüölenranken
+  cave_vines_plant: Hüölenrankenplant
+  big_dripleaf_stem: Groot Treppblattsteel
+  potted_azalea_bush: Inpottede Azalee
+  potted_flowering_azalea_bush: Inpottede blöhende Azalee
+  grass_path: Tramppadd
   zombie_pigman_spawn_egg: Swientjezombie Spawn Ei
   cactus_green: Kaktusgröön
   dandelion_yellow: Sunnenblomengiäl
@@ -1169,46 +1320,48 @@ biome:
   crimson_forest: Purpurootwoold
   warped_forest: Wierwoold
   basalt_deltas: Basaltdeltas
+  dripstone_caves: Treppsteenhüölen
+  lush_caves: Dööpsche Hüölen
   nether: Nether
 enchantment:
-  fire_protection: Füerschuts
-  sharpness: Schärpe
-  flame: Füertung
-  soul_speed: Siälenlöper
-  aqua_affinity: Waterlaiw
-  punch: Slag
-  loyalty: Troo
-  depth_strider: Waterloper
-  vanishing_curse: Flöök de Verswinnig
-  unbreaking: Haltbaorkait
-  knockback: Trügslag
-  luck_of_the_sea: Glük van de Se
-  binding_curse: Flöök de Binning
-  fortune: Riekdoom
   protection: Schuts
-  efficiency: Düftigkait
-  mending: Repareren
-  frost_walker: Iesloper
-  lure: Lokspise
-  looting: Plünnern
-  piercing: Dörschööt
-  blast_protection: Eksplosionsschuts
-  smite: Vödriëwen
-  multishot: Mennigmaalschuuv
-  fire_aspect: Füermaol
-  channeling: Entlading
-  sweeping: Swungkracht
-  thorns: Däöns
-  bane_of_arthropods: Vödiäw van de Lidpoten
-  respiration: Äömen
-  riptide: Soog
-  silk_touch: Sachtde
-  quick_charge: Gauladen
-  projectile_protection: Kuëgelsiëker
-  impaling: Opspießen
+  fire_protection: Füerschuts
   feather_falling: Fiäderfall
+  blast_protection: Eksplosionsschuts
+  projectile_protection: Kuëgelsiëker
+  respiration: Äömen
+  aqua_affinity: Waterlaiw
+  thorns: Däöns
+  depth_strider: Waterloper
+  frost_walker: Iesloper
+  binding_curse: Flöök de Binning
+  sharpness: Schärpe
+  smite: Vödriëwen
+  bane_of_arthropods: Vödiäw van de Lidpoten
+  knockback: Trügslag
+  fire_aspect: Füermaol
+  looting: Plünnern
+  sweeping: Swungkracht
+  efficiency: Düftigkait
+  silk_touch: Sachtde
+  unbreaking: Haltbaorkait
+  fortune: Riekdoom
   power: Kraft
+  punch: Slag
+  flame: Flamm
   infinity: Unendligkait
+  luck_of_the_sea: Glük van de Se
+  lure: Lokspise
+  loyalty: Troo
+  impaling: Opspießen
+  riptide: Soog
+  channeling: Entlading
+  multishot: Mennigmaalschuuv
+  quick_charge: Gauladen
+  piercing: Dörschööt
+  mending: Repareren
+  vanishing_curse: Flöök de Verswinnig
+  soul_speed: Siälenlöper
 potion:
   uncraftable: Nich broebar Drank
   water: Waterbuddel
@@ -1308,7 +1461,7 @@ entity:
   leash_hitch: Linnenknüppen
   painting: Beld
   arrow: Piel
-  snowball: Snaibal
+  snowball: Sneebal
   fireball: Füerbal
   small_fireball: Lütter Füerbal
   ender_pearl: Smöögt Enderparrel
@@ -1324,7 +1477,7 @@ entity:
   spectral_arrow: Spektraalpiel
   shulker_bullet: Shulkerschöös
   dragon_fireball: Draak-Fuürkuogel
-  zombie_villager: Dörpinwohnerzombie
+  zombie_villager: Dörpsbewahnerzombie
   skeleton_horse: Skeletpeerd
   zombie_horse: Zombiepeerd
   armor_stand: Rüststänner
@@ -1370,7 +1523,7 @@ entity:
   squid: Enktfisk
   wolf: Wulf
   mushroom_cow: Mooshroom
-  snowman: Snaigolem
+  snowman: Sneegolem
   ocelot: Otselot
   iron_golem: Isengolem
   horse: Peerd
@@ -1379,7 +1532,7 @@ entity:
   llama: Lama
   llama_spit: Lama speeit
   parrot: Papagoi
-  villager: Dörpinwohner
+  villager: Dörpsbewahner
   ender_crystal: Endkristaal
   turtle: Skildpad
   phantom: Fantoom
@@ -1403,6 +1556,11 @@ entity:
   strider: Lawaloper
   zoglin: Zoglin
   piglin_brute: Piglin-Barbaar
+  axolotl: Axolotl
+  glow_item_frame: Lüchtraam
+  glow_squid: Lüchtenktfisk
+  goat: Zieg
+  marker: Markeerer
   fishing_hook: Swemmer
   lightning: Blitz
   player: Speeler
@@ -1461,15 +1619,15 @@ dye_color:
   yellow: Geel
   lime: Lechtgröön
   pink: Fienroot
-  gray: Grau
+  gray: Grao
   light_gray: Gries
-  cyan: Türkis
+  cyan: Blaogröön
   purple: Vigelett
   blue: Blau
   brown: Bruun
-  green: Grön
+  green: Gröön
   red: Root
-  black: Schwart
+  black: Swat
 named:
   player_head_named: Kopp vun %s
   potion_with_amplifier: '%s %s'
@@ -1507,636 +1665,636 @@ colored_shied:
   magenta: Magenta Schild
   light_blue: Lechtblaoer Schild
   yellow: Geeler Schild
-  lime: Hillgröner Schild
+  lime: Lechtgrööner Schild
   pink: Fienrooter Schild
-  gray: Grauer Schild
+  gray: Graoer Schild
   light_gray: Grieser Schild
-  cyan: Türkiser Schild
+  cyan: Blaogrööner Schild
   purple: Vigeletter Schild
   blue: Blaoer Schild
   brown: Bruuner Schild
-  green: Gröner Schild
+  green: Grööner Schild
   red: Rooter Schild
-  black: Schwarter Schild
+  black: Swatter Schild
 banner_pattern:
   '65536': Wittes rächtes Ünnereck
   '65537': Geelrootes rächtes Ünnereck
   '65538': Magenta rächtes Ünnereck
   '65539': Lechtblaoes rächtes Ünnereck
   '65540': Geeles rächtes Ünnereck
-  '65541': Hillgrönes rächtes Ünnereck
+  '65541': Lechtgröönes rächtes Ünnereck
   '65542': Fienrootes rächtes Ünnereck
-  '65543': Graues rächtes Ünnereck
+  '65543': Graoes rächtes Ünnereck
   '65544': Grieses rächtes Ünnereck
-  '65545': Türkises rächtes Ünnereck
+  '65545': Blaogröönes rächtes Ünnereck
   '65546': Vigelettes rächtes Ünnereck
   '65547': Blaoes rächtes Ünnereck
   '65548': Bruunes rächtes Ünnereck
-  '65549': Grönes rächtes Ünnereck
+  '65549': Gröönes rächtes Ünnereck
   '65550': Rootes rächtes Ünnereck
-  '65551': Schwartes rächtes Ünnereck
-  '131072': Wittes linkes Ünnereck
-  '131073': Geelrootes linkes Ünnereck
-  '131074': Magenta linkes Ünnereck
-  '131075': Lechtblaoes linkes Ünnereck
-  '131076': Geeles linkes Ünnereck
-  '131077': Hillgrönes linkes Ünnereck
-  '131078': Fienrootes linkes Ünnereck
-  '131079': Graues linkes Ünnereck
-  '131080': Grieses linkes Ünnereck
-  '131081': Türkises linkes Ünnereck
-  '131082': Vigelettes linkes Ünnereck
-  '131083': Blaoes linkes Ünnereck
-  '131084': Bruunes linkes Ünnereck
-  '131085': Grönes linkes Ünnereck
-  '131086': Rootes linkes Ünnereck
-  '131087': Schwartes linkes Ünnereck
+  '65551': Swattes rächtes Ünnereck
+  '131072': Wittes lenkes Ünnereck
+  '131073': Geelrootes lenkes Ünnereck
+  '131074': Magenta lenkes Ünnereck
+  '131075': Lechtblaoes lenkes Ünnereck
+  '131076': Geeles lenkes Ünnereck
+  '131077': Lechtgröönes lenkes Ünnereck
+  '131078': Fienrootes lenkes Ünnereck
+  '131079': Graoes lenkes Ünnereck
+  '131080': Grieses lenkes Ünnereck
+  '131081': Blaogröönes lenkes Ünnereck
+  '131082': Vigelettes lenkes Ünnereck
+  '131083': Blaoes lenkes Ünnereck
+  '131084': Bruunes lenkes Ünnereck
+  '131085': Gröönes lenkes Ünnereck
+  '131086': Rootes lenkes Ünnereck
+  '131087': Swattes lenkes Ünnereck
   '196608': Wittes rächtes Bövereck
   '196609': Geelrootes rächtes Bövereck
   '196610': Magenta rächtes Bövereck
   '196611': Lechtblaoes rächtes Bövereck
   '196612': Geeles rächtes Bövereck
-  '196613': Hillgrönes rächtes Bövereck
+  '196613': Lechtgröönes rächtes Bövereck
   '196614': Fienrootes rächtes Bövereck
-  '196615': Graues rächtes Bövereck
+  '196615': Graoes rächtes Bövereck
   '196616': Grieses rächtes Bövereck
-  '196617': Türkises rächtes Bövereck
+  '196617': Blaogröönes rächtes Bövereck
   '196618': Vigelettes rächtes Bövereck
   '196619': Blaoes rächtes Bövereck
   '196620': Bruunes rächtes Bövereck
-  '196621': Grönes rächtes Bövereck
+  '196621': Gröönes rächtes Bövereck
   '196622': Rootes rächtes Bövereck
-  '196623': Schwartes rächtes Bövereck
-  '262144': Wittes linkes Bövereck
-  '262145': Geelrootes linkes Bövereck
-  '262146': Magenta linkes Bövereck
-  '262147': Lechtblaoes linkes Bövereck
-  '262148': Geeles linkes Bövereck
-  '262149': Hillgrönes linkes Bövereck
-  '262150': Fienrootes linkes Bövereck
-  '262151': Graues linkes Bövereck
-  '262152': Grieses linkes Bövereck
-  '262153': Türkises linkes Bövereck
-  '262154': Vigelettes linkes Bövereck
-  '262155': Blaoes linkes Bövereck
-  '262156': Bruunes linkes Bövereck
-  '262157': Grönes linkes Bövereck
-  '262158': Rootes linkes Bövereck
-  '262159': Schwartes linkes Bövereck
+  '196623': Swattes rächtes Bövereck
+  '262144': Wittes lenkes Bövereck
+  '262145': Geelrootes lenkes Bövereck
+  '262146': Magenta lenkes Bövereck
+  '262147': Lechtblaoes lenkes Bövereck
+  '262148': Geeles lenkes Bövereck
+  '262149': Lechtgröönes lenkes Bövereck
+  '262150': Fienrootes lenkes Bövereck
+  '262151': Graoes lenkes Bövereck
+  '262152': Grieses lenkes Bövereck
+  '262153': Blaogröönes lenkes Bövereck
+  '262154': Vigelettes lenkes Bövereck
+  '262155': Blaoes lenkes Bövereck
+  '262156': Bruunes lenkes Bövereck
+  '262157': Gröönes lenkes Bövereck
+  '262158': Rootes lenkes Bövereck
+  '262159': Swattes lenkes Bövereck
   '327680': Witter Bannerfot
   '327681': Geelrooter Bannerfot
   '327682': Magenta Bannerfot
   '327683': Lechtblaoer Bannerfot
   '327684': Geeler Bannerfot
-  '327685': Hillgröner Bannerfot
+  '327685': Lechtgrööner Bannerfot
   '327686': Fienrooter Bannerfot
-  '327687': Grauer Bannerfot
+  '327687': Graoer Bannerfot
   '327688': Grieser Bannerfot
-  '327689': Türkiser Bannerfot
+  '327689': Blaogrööner Bannerfot
   '327690': Vigeletter Bannerfot
   '327691': Blaoer Bannerfot
   '327692': Bruuner Bannerfot
-  '327693': Gröner Bannerfot
+  '327693': Grööner Bannerfot
   '327694': Rooter Bannerfot
-  '327695': Schwarter Bannerfot
+  '327695': Swatter Bannerfot
   '393216': Wittes Bannerhoupt
   '393217': Geelrootes Bannerhoupt
   '393218': Magenta Bannerhoupt
   '393219': Lechtblaoes Bannerhoupt
   '393220': Geeles Bannerhoupt
-  '393221': Hillgrönes Bannerhoupt
+  '393221': Lechtgröönes Bannerhoupt
   '393222': Fienrootes Bannerhoupt
-  '393223': Graues Bannerhoupt
+  '393223': Graoes Bannerhoupt
   '393224': Grieses Bannerhoupt
-  '393225': Türkises Bannerhoupt
+  '393225': Blaogröönes Bannerhoupt
   '393226': Vigelettes Bannerhoupt
   '393227': Blaoes Bannerhoupt
   '393228': Bruunes Bannerhoupt
-  '393229': Grönes Bannerhoupt
+  '393229': Gröönes Bannerhoupt
   '393230': Rootes Bannerhoupt
-  '393231': Schwartes Bannerhoupt
+  '393231': Swattes Bannerhoupt
   '458752': Witte rächte Flank
   '458753': Geelroote rächte Flank
   '458754': Magenta rächte Flank
   '458755': Lechtblaoe rächte Flank
   '458756': Geele rächte Flank
-  '458757': Hillgröne rächte Flank
+  '458757': Lechtgrööne rächte Flank
   '458758': Fienroote rächte Flank
-  '458759': Graue rächte Flank
+  '458759': Graoe rächte Flank
   '458760': Griese rächte Flank
-  '458761': Türkise rächte Flank
+  '458761': Blaogrööne rächte Flank
   '458762': Vigelette rächte Flank
   '458763': Blaoe rächte Flank
   '458764': Bruune rächte Flank
-  '458765': Gröne rächte Flank
+  '458765': Grööne rächte Flank
   '458766': Roote rächte Flank
-  '458767': Schwarte rächte Flank
-  '524288': Witte linke Flank
-  '524289': Geelroote linke Flank
-  '524290': Magenta linke Flank
-  '524291': Lechtblaoe linke Flank
-  '524292': Geele linke Flank
-  '524293': Hillgröne linke Flank
-  '524294': Fienroote linke Flank
-  '524295': Graue linke Flank
-  '524296': Griese linke Flank
-  '524297': Türkise linke Flank
-  '524298': Vigelette linke Flank
-  '524299': Blaoe linke Flank
-  '524300': Bruune linke Flank
-  '524301': Gröne linke Flank
-  '524302': Roote linke Flank
-  '524303': Schwarte linke Flank
+  '458767': Swatte rächte Flank
+  '524288': Witte lenke Flank
+  '524289': Geelroote lenke Flank
+  '524290': Magenta lenke Flank
+  '524291': Lechtblaoe lenke Flank
+  '524292': Geele lenke Flank
+  '524293': Lechtgrööne lenke Flank
+  '524294': Fienroote lenke Flank
+  '524295': Graoe lenke Flank
+  '524296': Griese lenke Flank
+  '524297': Blaogrööne lenke Flank
+  '524298': Vigelette lenke Flank
+  '524299': Blaoe lenke Flank
+  '524300': Bruune lenke Flank
+  '524301': Grööne lenke Flank
+  '524302': Roote lenke Flank
+  '524303': Swatte lenke Flank
   '589824': Witter Pahl
   '589825': Geelrooter Pahl
   '589826': Magenta Pahl
   '589827': Lechtblaoer Pahl
   '589828': Geeler Pahl
-  '589829': Hillgröner Pahl
+  '589829': Lechtgrööner Pahl
   '589830': Fienrooter Pahl
-  '589831': Grauer Pahl
+  '589831': Graoer Pahl
   '589832': Grieser Pahl
-  '589833': Türkiser Pahl
+  '589833': Blaogrööner Pahl
   '589834': Vigeletter Pahl
   '589835': Blaoer Pahl
   '589836': Bruuner Pahl
-  '589837': Gröner Pahl
+  '589837': Grööner Pahl
   '589838': Rooter Pahl
-  '589839': Schwarter Pahl
+  '589839': Swatter Pahl
   '655360': Witter Balk
   '655361': Geelrooter Balk
   '655362': Magenta Balk
   '655363': Lechtblaoer Balk
   '655364': Geeler Balk
-  '655365': Hillgröner Balk
+  '655365': Lechtgrööner Balk
   '655366': Fienrooter Balk
-  '655367': Grauer Balk
+  '655367': Graoer Balk
   '655368': Grieser Balk
-  '655369': Türkiser Balk
+  '655369': Blaogrööner Balk
   '655370': Vigeletter Balk
   '655371': Blaoer Balk
   '655372': Bruuner Balk
-  '655373': Gröner Balk
+  '655373': Grööner Balk
   '655374': Rooter Balk
-  '655375': Schwarter Balk
+  '655375': Swatter Balk
   '720896': Witter Schreegbalk
   '720897': Geelrooter Schreegbalk
   '720898': Magenta Schreegbalk
   '720899': Lechtblaoer Schreegbalk
   '720900': Geeler Schreegbalk
-  '720901': Hillgröner Schreegbalk
+  '720901': Lechtgrööner Schreegbalk
   '720902': Fienrooter Schreegbalk
-  '720903': Grauer Schreegbalk
+  '720903': Graoer Schreegbalk
   '720904': Grieser Schreegbalk
-  '720905': Türkiser Schreegbalk
+  '720905': Blaogrööner Schreegbalk
   '720906': Vigeletter Schreegbalk
   '720907': Blaoer Schreegbalk
   '720908': Bruuner Schreegbalk
-  '720909': Gröner Schreegbalk
+  '720909': Grööner Schreegbalk
   '720910': Rooter Schreegbalk
-  '720911': Schwarter Schreegbalk
-  '786432': Witter Schreeglinksbalk
-  '786433': Geelrooter Schreeglinksbalk
-  '786434': Magenta Schreeglinksbalk
-  '786435': Lechtblaoer Schreeglinksbalk
-  '786436': Geeler Schreeglinksbalk
-  '786437': Hillgröner Schreeglinksbalk
-  '786438': Fienrooter Schreeglinksbalk
-  '786439': Grauer Schreeglinksbalk
-  '786440': Grieser Schreeglinksbalk
-  '786441': Türkiser Schreeglinksbalk
-  '786442': Vigeletter Schreeglinksbalk
-  '786443': Blaoer Schreeglinksbalk
-  '786444': Bruuner Schreeglinksbalk
-  '786445': Gröner Schreeglinksbalk
-  '786446': Rooter Schreeglinksbalk
-  '786447': Schwarter Schreeglinksbalk
+  '720911': Swatter Schreegbalk
+  '786432': Witter Schreeglenksbalk
+  '786433': Geelrooter Schreeglenksbalk
+  '786434': Magenta Schreeglenksbalk
+  '786435': Lechtblaoer Schreeglenksbalk
+  '786436': Geeler Schreeglenksbalk
+  '786437': Lechtgrööner Schreeglenksbalk
+  '786438': Fienrooter Schreeglenksbalk
+  '786439': Graoer Schreeglenksbalk
+  '786440': Grieser Schreeglenksbalk
+  '786441': Blaogrööner Schreeglenksbalk
+  '786442': Vigeletter Schreeglenksbalk
+  '786443': Blaoer Schreeglenksbalk
+  '786444': Bruuner Schreeglenksbalk
+  '786445': Grööner Schreeglenksbalk
+  '786446': Rooter Schreeglenksbalk
+  '786447': Swatter Schreeglenksbalk
   '851968': Veer witte Pahle
   '851969': Veer geelroote Pahle
   '851970': Veer magenta Pahle
-  '851971': Veer hillblaoe Pahle
+  '851971': Veer lechtblaoe Pahle
   '851972': Veer geele Pahle
-  '851973': Veer hillgröne Pahle
+  '851973': Veer lechtgrööne Pahle
   '851974': Veer fienroote Pahle
-  '851975': Veer graue Pahle
+  '851975': Veer graoe Pahle
   '851976': Veer griese Pahle
-  '851977': Veer türkise Pahle
+  '851977': Veer blaogrööne Pahle
   '851978': Veer vigelette Pahle
   '851979': Veer blaoe Pahle
   '851980': Veer bruune Pahle
-  '851981': Veer gröne Pahle
+  '851981': Veer grööne Pahle
   '851982': Veer roote Pahle
-  '851983': Veer schwarte Pahle
+  '851983': Veer swatte Pahle
   '917504': Wittes Andreaskrüüz
   '917505': Geelrootes Andreaskrüüz
   '917506': Magenta Andreaskrüüz
   '917507': Lechtblaoes Andreaskrüüz
   '917508': Geeles Andreaskrüüz
-  '917509': Hillgrönes Andreaskrüüz
+  '917509': Lechtgröönes Andreaskrüüz
   '917510': Fienrootes Andreaskrüüz
-  '917511': Graues Andreaskrüüz
+  '917511': Graoes Andreaskrüüz
   '917512': Grieses Andreaskrüüz
-  '917513': Türkises Andreaskrüüz
+  '917513': Blaogröönes Andreaskrüüz
   '917514': Vigelettes Andreaskrüüz
   '917515': Blaoes Andreaskrüüz
   '917516': Bruunes Andreaskrüüz
-  '917517': Grönes Andreaskrüüz
+  '917517': Gröönes Andreaskrüüz
   '917518': Rootes Andreaskrüüz
-  '917519': Schwartes Andreaskrüüz
+  '917519': Swattes Andreaskrüüz
   '983040': Wittes Krüüz
   '983041': Geelrootes Krüüz
   '983042': Magenta Krüüz
   '983043': Lechtblaoes Krüüz
   '983044': Geeles Krüüz
-  '983045': Hillgrönes Krüüz
+  '983045': Lechtgröönes Krüüz
   '983046': Fienrootes Krüüz
-  '983047': Graues Krüüz
+  '983047': Graoes Krüüz
   '983048': Grieses Krüüz
-  '983049': Türkises Krüüz
+  '983049': Blaogröönes Krüüz
   '983050': Vigelettes Krüüz
   '983051': Blaoes Krüüz
   '983052': Bruunes Krüüz
-  '983053': Grönes Krüüz
+  '983053': Gröönes Krüüz
   '983054': Rootes Krüüz
-  '983055': Schwartes Krüüz
+  '983055': Swattes Krüüz
   '1048576': Witte halve Spitz
   '1048577': Geelroote halve Spitz
   '1048578': Magenta halve Spitz
   '1048579': Lechtblaoe halve Spitz
   '1048580': Geele halve Spitz
-  '1048581': Hillgröne halve Spitz
+  '1048581': Lechtgrööne halve Spitz
   '1048582': Fienroote halve Spitz
-  '1048583': Graue halve Spitz
+  '1048583': Graoe halve Spitz
   '1048584': Griese halve Spitz
-  '1048585': Türkise halve Spitz
+  '1048585': Blaogrööne halve Spitz
   '1048586': Vigelette halve Spitz
   '1048587': Blaoe halve Spitz
   '1048588': Bruune halve Spitz
-  '1048589': Gröne halve Spitz
+  '1048589': Grööne halve Spitz
   '1048590': Roote halve Spitz
-  '1048591': Schwarte halve Spitz
+  '1048591': Swatte halve Spitz
   '1114112': Witte gestürte halve Spitz
   '1114113': Geelroote gestürte halve Spitz
   '1114114': Magenta gestürte halve Spitz
   '1114115': Lechtblaoe gestürte halve Spitz
   '1114116': Geele gestürte halve Spitz
-  '1114117': Hillgröne gestürte halve Spitz
+  '1114117': Lechtgrööne gestürte halve Spitz
   '1114118': Fienroote gestürte halve Spitz
-  '1114119': Graue gestürte halve Spitz
+  '1114119': Graoe gestürte halve Spitz
   '1114120': Griese gestürte halve Spitz
-  '1114121': Türkise gestürte halve Spitz
+  '1114121': Blaogrööne gestürte halve Spitz
   '1114122': Vigelette gestürte halve Spitz
   '1114123': Blaoe gestürte halve Spitz
   '1114124': Bruune gestürte halve Spitz
-  '1114125': Gröne gestürte halve Spitz
+  '1114125': Grööne gestürte halve Spitz
   '1114126': Roote gestürte halve Spitz
-  '1114127': Schwarte gestürte halve Spitz
+  '1114127': Swatte gestürte halve Spitz
   '1179648': Witter gespickelter Bannerfot
   '1179649': Geelrooter gespickelter Bannerfot
   '1179650': Magenta gespickelter Bannerfot
   '1179651': Lechtblaoer gespickelter Bannerfot
   '1179652': Geeler gespickelter Bannerfot
-  '1179653': Hillgröner gespickelter Bannerfot
+  '1179653': Lechtgrööner gespickelter Bannerfot
   '1179654': Fienrooter gespickelter Bannerfot
-  '1179655': Grauer gespickelter Bannerfot
+  '1179655': Graoer gespickelter Bannerfot
   '1179656': Grieser gespickelter Bannerfot
-  '1179657': Türkiser gespickelter Bannerfot
+  '1179657': Blaogrööner gespickelter Bannerfot
   '1179658': Vigeletter gespickelter Bannerfot
   '1179659': Blaoer gespickelter Bannerfot
   '1179660': Bruuner gespickelter Bannerfot
-  '1179661': Gröner gespickelter Bannerfot
+  '1179661': Grööner gespickelter Bannerfot
   '1179662': Rooter gespickelter Bannerfot
-  '1179663': Schwarter gespickelter Bannerfot
+  '1179663': Swatter gespickelter Bannerfot
   '1245184': Wittes sprööges Bannerhoupt
   '1245185': Geelrootes sprööges Bannerhoupt
   '1245186': Magenta sprööges Bannerhoupt
   '1245187': Lechtblaoes sprööges Bannerhoupt
   '1245188': Geeles sprööges Bannerhoupt
-  '1245189': Hillgrönes sprööges Bannerhoupt
+  '1245189': Lechtgröönes sprööges Bannerhoupt
   '1245190': Fienrootes sprööges Bannerhoupt
-  '1245191': Graues sprööges Bannerhoupt
+  '1245191': Graoes sprööges Bannerhoupt
   '1245192': Grieses sprööges Bannerhoupt
-  '1245193': Türkises sprööges Bannerhoupt
+  '1245193': Blaogröönes sprööges Bannerhoupt
   '1245194': Vigelettes sprööges Bannerhoupt
   '1245195': Blaoes sprööges Bannerhoupt
   '1245196': Bruunes sprööges Bannerhoupt
-  '1245197': Grönes sprööges Bannerhoupt
+  '1245197': Gröönes sprööges Bannerhoupt
   '1245198': Rootes sprööges Bannerhoupt
-  '1245199': Schwartes sprööges Bannerhoupt
-  '1310720': Witt schreeglinks deelt
-  '1310721': Geelroot schreeglinks deelt
-  '1310722': Magenta schreeglinks deelt
-  '1310723': Lechtblao schreeglinks deelt
-  '1310724': Geel schreeglinks deelt
-  '1310725': Hillgrön schreeglinks deelt
-  '1310726': Fienroot schreeglinks deelt
-  '1310727': Grau schreeglinks deelt
-  '1310728': Gries schreeglinks deelt
-  '1310729': Türkis schreeglinks deelt
-  '1310730': Vigelett schreeglinks deelt
-  '1310731': Blau schreeglinks deelt
-  '1310732': Bruun schreeglinks deelt
-  '1310733': Grön schreeglinks deelt
-  '1310734': Root schreeglinks deelt
-  '1310735': Schwart schreeglinks deelt
-  '1376256': Witt schreeglinks deelt (Invertiert)
-  '1376257': Geelroot schreeglinks deelt (Invertiert)
-  '1376258': Magenta schreeglinks deelt (Invertiert)
-  '1376259': Lechtblao schreeglinks deelt (Invertiert)
-  '1376260': Geel schreeglinks deelt (Invertiert)
-  '1376261': Hillgrön schreeglinks deelt (Invertiert)
-  '1376262': Fienroot schreeglinks deelt (Invertiert)
-  '1376263': Grau schreeglinks deelt (Invertiert)
-  '1376264': Gries schreeglinks deelt (Invertiert)
-  '1376265': Türkis schreeglinks deelt (Invertiert)
-  '1376266': Vigelett schreeglinks deelt (Invertiert)
-  '1376267': Blau schreeglinks deelt (Invertiert)
-  '1376268': Bruun schreeglinks deelt (Invertiert)
-  '1376269': Grön schreeglinks deelt (Invertiert)
-  '1376270': Root schreeglinks deelt (Invertiert)
-  '1376271': Schwart schreeglinks deelt (Invertiert)
+  '1245199': Swattes sprööges Bannerhoupt
+  '1310720': Witt schreeglenks deelt
+  '1310721': Geelroot schreeglenks deelt
+  '1310722': Magenta schreeglenks deelt
+  '1310723': Lechtblao schreeglenks deelt
+  '1310724': Geel schreeglenks deelt
+  '1310725': Lechtgröön schreeglenks deelt
+  '1310726': Fienroot schreeglenks deelt
+  '1310727': Grao schreeglenks deelt
+  '1310728': Gries schreeglenks deelt
+  '1310729': Blaogröön schreeglenks deelt
+  '1310730': Vigelett schreeglenks deelt
+  '1310731': Blao schreeglenks deelt
+  '1310732': Bruun schreeglenks deelt
+  '1310733': Gröön schreeglenks deelt
+  '1310734': Root schreeglenks deelt
+  '1310735': Swat schreeglenks deelt
+  '1376256': Witt schreeglenks deelt (Invertiert)
+  '1376257': Geelroot schreeglenks deelt (Invertiert)
+  '1376258': Magenta schreeglenks deelt (Invertiert)
+  '1376259': Lechtblao schreeglenks deelt (Invertiert)
+  '1376260': Geel schreeglenks deelt (Invertiert)
+  '1376261': Lechtgröön schreeglenks deelt (Invertiert)
+  '1376262': Fienroot schreeglenks deelt (Invertiert)
+  '1376263': Grao schreeglenks deelt (Invertiert)
+  '1376264': Gries schreeglenks deelt (Invertiert)
+  '1376265': Blaogröön schreeglenks deelt (Invertiert)
+  '1376266': Vigelett schreeglenks deelt (Invertiert)
+  '1376267': Blau schreeglenks deelt (Invertiert)
+  '1376268': Bruun schreeglenks deelt (Invertiert)
+  '1376269': Gröön schreeglenks deelt (Invertiert)
+  '1376270': Root schreeglenks deelt (Invertiert)
+  '1376271': Swat schreeglenks deelt (Invertiert)
   '1441792': Witt schreegrächts deelt (Invertiert)
   '1441793': Geelroot schreegrächts deelt (Invertiert)
   '1441794': Magenta schreegrächts deelt (Invertiert)
   '1441795': Lechtblao schreegrächts deelt (Invertiert)
   '1441796': Geel schreegrächts deelt (Invertiert)
-  '1441797': Hillgrön schreegrächts deelt (Invertiert)
+  '1441797': Lechtgröön schreegrächts deelt (Invertiert)
   '1441798': Fienroot schreegrächts deelt (Invertiert)
-  '1441799': Grau schreegrächts deelt (Invertiert)
+  '1441799': Grao schreegrächts deelt (Invertiert)
   '1441800': Gries schreegrächts deelt (Invertiert)
-  '1441801': Türkis schreegrächts deelt (Invertiert)
+  '1441801': Blaogröön schreegrächts deelt (Invertiert)
   '1441802': Vigelett schreegrächts deelt (Invertiert)
   '1441803': Blau schreegrächts deelt (Invertiert)
   '1441804': Bruun schreegrächts deelt (Invertiert)
-  '1441805': Grön schreegrächts deelt (Invertiert)
+  '1441805': Gröön schreegrächts deelt (Invertiert)
   '1441806': Root schreegrächts deelt (Invertiert)
-  '1441807': Schwart schreegrächts deelt (Invertiert)
+  '1441807': Swat schreegrächts deelt (Invertiert)
   '1507328': Witt schreegrächts deelt
   '1507329': Geelroot schreegrächts deelt
   '1507330': Magenta schreegrächts deelt
   '1507331': Lechtblao schreegrächts deelt
   '1507332': Geel schreegrächts deelt
-  '1507333': Hillgrön schreegrächts deelt
+  '1507333': Lechtgröön schreegrächts deelt
   '1507334': Fienroot schreegrächts deelt
-  '1507335': Grau schreegrächts deelt
+  '1507335': Grao schreegrächts deelt
   '1507336': Gries schreegrächts deelt
-  '1507337': Türkis schreegrächts deelt
+  '1507337': Blaogröön schreegrächts deelt
   '1507338': Vigelett schreegrächts deelt
   '1507339': Blau schreegrächts deelt
   '1507340': Bruun schreegrächts deelt
-  '1507341': Grön schreegrächts deelt
+  '1507341': Gröön schreegrächts deelt
   '1507342': Root schreegrächts deelt
-  '1507343': Schwart schreegrächts deelt
+  '1507343': Swat schreegrächts deelt
   '1572864': Witte Kuogel
   '1572865': Geelroote Kuogel
   '1572866': Magenta Kuogel
   '1572867': Lechtblaoe Kuogel
   '1572868': Geele Kuogel
-  '1572869': Hillgröne Kuogel
+  '1572869': Lechtgrööne Kuogel
   '1572870': Fienroote Kuogel
-  '1572871': Graue Kuogel
+  '1572871': Graoe Kuogel
   '1572872': Griese Kuogel
-  '1572873': Türkise Kuogel
+  '1572873': Blaogrööne Kuogel
   '1572874': Vigelette Kuogel
   '1572875': Blaoe Kuogel
   '1572876': Bruune Kuogel
-  '1572877': Gröne Kuogel
+  '1572877': Grööne Kuogel
   '1572878': Roote Kuogel
-  '1572879': Schwarte Kuogel
+  '1572879': Swatte Kuogel
   '1638400': Witte Ruut
   '1638401': Geelroote Ruut
   '1638402': Magenta Ruut
   '1638403': Lechtblaoe Ruut
   '1638404': Geele Ruut
-  '1638405': Hillgröne Ruut
+  '1638405': Lechtgrööne Ruut
   '1638406': Fienroote Ruut
-  '1638407': Graue Ruut
+  '1638407': Graoe Ruut
   '1638408': Griese Ruut
-  '1638409': Türkise Ruut
+  '1638409': Blaogrööne Ruut
   '1638410': Vigelette Ruut
   '1638411': Blaoe Ruut
   '1638412': Bruune Ruut
-  '1638413': Gröne Ruut
+  '1638413': Grööne Ruut
   '1638414': Roote Ruut
-  '1638415': Schwarte Ruut
+  '1638415': Swatte Ruut
   '1703936': Rächts witt scheden
   '1703937': Rächts geelroot scheden
   '1703938': Rächts magenta scheden
-  '1703939': Rächts hillblao scheden
+  '1703939': Rächts lechtblao scheden
   '1703940': Rächts geel scheden
-  '1703941': Rächts hillgrön scheden
+  '1703941': Rächts lechtgröön scheden
   '1703942': Rächts fienroot scheden
-  '1703943': Rächts grau scheden
+  '1703943': Rächts grao scheden
   '1703944': Rächts gries scheden
-  '1703945': Rächts türkis scheden
+  '1703945': Rächts blaogröön scheden
   '1703946': Rächts vigelett scheden
   '1703947': Rächts blao scheden
   '1703948': Rächts bruun scheden
-  '1703949': Rächts grön scheden
+  '1703949': Rächts gröön scheden
   '1703950': Rächts root scheden
-  '1703951': Rächts schwart scheden
+  '1703951': Rächts swat scheden
   '1769472': Owen witt deelt
   '1769473': Owen geelroot deelt
   '1769474': Owen magenta deelt
-  '1769475': Owen hillblao deelt
+  '1769475': Owen lechtblao deelt
   '1769476': Owen geel deelt
-  '1769477': Owen hillgrön deelt
+  '1769477': Owen lechtgröön deelt
   '1769478': Owen fienroot deelt
-  '1769479': Owen grau deelt
+  '1769479': Owen grao deelt
   '1769480': Owen gries deelt
-  '1769481': Owen türkis deelt
+  '1769481': Owen blaogröön deelt
   '1769482': Owen vigelett deelt
   '1769483': Owen blao deelt
   '1769484': Owen bruun deelt
-  '1769485': Owen grön deelt
+  '1769485': Owen gröön deelt
   '1769486': Owen root deelt
-  '1769487': Owen schwart deelt
+  '1769487': Owen swat deelt
   '1835008': Links witt scheden
   '1835009': Links geelroot scheden
   '1835010': Links magenta scheden
-  '1835011': Links hillblao scheden
+  '1835011': Links lechtblao scheden
   '1835012': Links geel scheden
-  '1835013': Links hillgrön scheden
+  '1835013': Links lechtgröön scheden
   '1835014': Links fienroot scheden
-  '1835015': Links grau scheden
+  '1835015': Links grao scheden
   '1835016': Links gries scheden
-  '1835017': Links türkis scheden
+  '1835017': Links blaogröön scheden
   '1835018': Links vigelett scheden
   '1835019': Links blao scheden
   '1835020': Links bruun scheden
-  '1835021': Links grön scheden
+  '1835021': Links gröön scheden
   '1835022': Links root scheden
-  '1835023': Links schwart scheden
+  '1835023': Links swat scheden
   '1900544': Ünnen witt deelt
   '1900545': Ünnen geelroot deelt
   '1900546': Ünnen magenta deelt
-  '1900547': Ünnen hillblao deelt
+  '1900547': Ünnen lechtblao deelt
   '1900548': Ünnen geel deelt
-  '1900549': Ünnen hillgrön deelt
+  '1900549': Ünnen lechtgröön deelt
   '1900550': Ünnen fienroot deelt
-  '1900551': Ünnen grau deelt
+  '1900551': Ünnen grao deelt
   '1900552': Ünnen gries deelt
-  '1900553': Ünnen türkis deelt
+  '1900553': Ünnen blaogröön deelt
   '1900554': Ünnen vigelett deelt
   '1900555': Ünnen blao deelt
   '1900556': Ünnen bruun deelt
-  '1900557': Ünnen grön deelt
+  '1900557': Ünnen gröön deelt
   '1900558': Ünnen root deelt
-  '1900559': Ünnen schwart deelt
+  '1900559': Ünnen swat deelt
   '1966080': Witter Boord
   '1966081': Geelrooter Boord
   '1966082': Magenta Boord
   '1966083': Lechtblaoer Boord
   '1966084': Geeler Boord
-  '1966085': Hillgröner Boord
+  '1966085': Lechtgrööner Boord
   '1966086': Fienrooter Boord
-  '1966087': Grauer Boord
+  '1966087': Graoer Boord
   '1966088': Grieser Boord
-  '1966089': Türkiser Boord
+  '1966089': Blaogrööner Boord
   '1966090': Vigeletter Boord
   '1966091': Blaoer Boord
   '1966092': Bruuner Boord
-  '1966093': Gröner Boord
+  '1966093': Grööner Boord
   '1966094': Rooter Boord
-  '1966095': Schwarter Boord
+  '1966095': Swatter Boord
   '2031616': Witter Spickelboord
   '2031617': Geelrooter Spickelboord
   '2031618': Magenta Spickelboord
   '2031619': Lechtblaoer Spickelboord
   '2031620': Geeler Spickelboord
-  '2031621': Hillgröner Spickelboord
+  '2031621': Lechtgrööner Spickelboord
   '2031622': Fienrooter Spickelboord
-  '2031623': Grauer Spickelboord
+  '2031623': Graoer Spickelboord
   '2031624': Grieser Spickelboord
-  '2031625': Türkiser Spickelboord
+  '2031625': Blaogrööner Spickelboord
   '2031626': Vigeletter Spickelboord
   '2031627': Blaoer Spickelboord
   '2031628': Bruuner Spickelboord
-  '2031629': Gröner Spickelboord
+  '2031629': Grööner Spickelboord
   '2031630': Rooter Spickelboord
-  '2031631': Schwarter Spickelboord
+  '2031631': Swatter Spickelboord
   '2097152': Witter Creeper
   '2097153': Geelrooter Creeper
   '2097154': Magenta Creeper
   '2097155': Lechtblaoer Creeper
   '2097156': Geeler Creeper
-  '2097157': Hillgröner Creeper
+  '2097157': Lechtgrööner Creeper
   '2097158': Fienrooter Creeper
-  '2097159': Grauer Creeper
+  '2097159': Graoer Creeper
   '2097160': Grieser Creeper
-  '2097161': Türkiser Creeper
+  '2097161': Blaogrööner Creeper
   '2097162': Vigeletter Creeper
   '2097163': Blaoer Creeper
   '2097164': Bruuner Creeper
-  '2097165': Gröner Creeper
+  '2097165': Grööner Creeper
   '2097166': Rooter Creeper
-  '2097167': Schwarter Creeper
+  '2097167': Swatter Creeper
   '2162688': Witter Farvverloop
   '2162689': Geelrooter Farvverloop
   '2162690': Magenta Farvverloop
   '2162691': Lechtblaoer Farvverloop
   '2162692': Geeler Farvverloop
-  '2162693': Hillgröner Farvverloop
+  '2162693': Lechtgrööner Farvverloop
   '2162694': Fienrooter Farvverloop
-  '2162695': Grauer Farvverloop
+  '2162695': Graoer Farvverloop
   '2162696': Grieser Farvverloop
-  '2162697': Türkiser Farvverloop
+  '2162697': Blaogrööner Farvverloop
   '2162698': Vigeletter Farvverloop
   '2162699': Blaoer Farvverloop
   '2162700': Bruuner Farvverloop
-  '2162701': Gröner Farvverloop
+  '2162701': Grööner Farvverloop
   '2162702': Rooter Farvverloop
-  '2162703': Schwarter Farvverloop
+  '2162703': Swatter Farvverloop
   '2228224': Witter Farvverloop (Invertiert)
   '2228225': Geelrooter Farvverloop (Invertiert)
   '2228226': Magenta Farvverloop (Invertiert)
   '2228227': Lechtblaoer Farvverloop (Invertiert)
   '2228228': Geeler Farvverloop (Invertiert)
-  '2228229': Hillgröner Farvverloop (Invertiert)
+  '2228229': Lechtgrööner Farvverloop (Invertiert)
   '2228230': Fienrooter Farvverloop (Invertiert)
-  '2228231': Grauer Farvverloop (Invertiert)
+  '2228231': Graoer Farvverloop (Invertiert)
   '2228232': Grieser Farvverloop (Invertiert)
-  '2228233': Türkiser Farvverloop (Invertiert)
+  '2228233': Blaogrööner Farvverloop (Invertiert)
   '2228234': Vigeletter Farvverloop (Invertiert)
   '2228235': Blaoer Farvverloop (Invertiert)
   '2228236': Bruuner Farvverloop (Invertiert)
-  '2228237': Gröner Farvverloop (Invertiert)
+  '2228237': Grööner Farvverloop (Invertiert)
   '2228238': Rooter Farvverloop (Invertiert)
-  '2228239': Schwarter Farvverloop (Invertiert)
-  '2293760': Feld witt müür
-  '2293761': Feld geelroot müür
-  '2293762': Feld magenta müür
-  '2293763': Feld hillblao müür
-  '2293764': Feld geel müür
-  '2293765': Feld hillgrön müür
-  '2293766': Feld fienroot müür
-  '2293767': Feld grau müür
-  '2293768': Feld gries müür
-  '2293769': Feld türkis müür
-  '2293770': Feld vigelett müür
-  '2293771': Feld blao müür
-  '2293772': Feld bruun müür
-  '2293773': Feld grön müür
-  '2293774': Feld root müür
-  '2293775': Feld schwart müür
+  '2228239': Swatter Farvverloop (Invertiert)
+  '2293760': Feld witt smöögt
+  '2293761': Feld geelroot smöögt
+  '2293762': Feld magenta smöögt
+  '2293763': Feld lechtblao smöögt
+  '2293764': Feld geel smöögt
+  '2293765': Feld lechtgröön smöögt
+  '2293766': Feld fienroot smöögt
+  '2293767': Feld grao smöögt
+  '2293768': Feld gries smöögt
+  '2293769': Feld blaogröön smöögt
+  '2293770': Feld vigelett smöögt
+  '2293771': Feld blao smöögt
+  '2293772': Feld bruun smöögt
+  '2293773': Feld gröön smöögt
+  '2293774': Feld root smöögt
+  '2293775': Feld swat smöögt
   '2359296': Witter Kopp
   '2359297': Geelrooter Kopp
   '2359298': Magenta Kopp
   '2359299': Lechtblaoer Kopp
   '2359300': Geeler Kopp
-  '2359301': Hillgröner Kopp
+  '2359301': Lechtgrööner Kopp
   '2359302': Fienrooter Kopp
-  '2359303': Grauer Kopp
+  '2359303': Graoer Kopp
   '2359304': Grieser Kopp
-  '2359305': Türkiser Kopp
+  '2359305': Blaogrööner Kopp
   '2359306': Vigeletter Kopp
   '2359307': Blaoer Kopp
   '2359308': Bruuner Kopp
-  '2359309': Gröner Kopp
+  '2359309': Grööner Kopp
   '2359310': Rooter Kopp
-  '2359311': Schwarter Kopp
+  '2359311': Swatter Kopp
   '2424832': Witte Bloom
   '2424833': Geelroote Bloom
   '2424834': Magenta Bloom
   '2424835': Lechtblaoe Bloom
   '2424836': Geele Bloom
-  '2424837': Hillgröne Bloom
+  '2424837': Lechtgrööne Bloom
   '2424838': Fienroote Bloom
-  '2424839': Graue Bloom
+  '2424839': Graoe Bloom
   '2424840': Griese Bloom
-  '2424841': Türkise Bloom
+  '2424841': Blaogrööne Bloom
   '2424842': Vigelette Bloom
   '2424843': Blaoe Bloom
   '2424844': Bruune Bloom
-  '2424845': Gröne Bloom
+  '2424845': Grööne Bloom
   '2424846': Roote Bloom
-  '2424847': Schwarte Bloom
+  '2424847': Swatte Bloom
   '2490368': Wittes Mojang-Logo
   '2490369': Geelrootes Mojang-Logo
   '2490370': Magenta Mojang-Logo
   '2490371': Lechtblaoes Mojang-Logo
   '2490372': Geeles Mojang-Logo
-  '2490373': Hillgrönes Mojang-Logo
+  '2490373': Lechtgröönes Mojang-Logo
   '2490374': Fienrootes Mojang-Logo
-  '2490375': Graues Mojang-Logo
+  '2490375': Graoes Mojang-Logo
   '2490376': Grieses Mojang-Logo
-  '2490377': Türkises Mojang-Logo
+  '2490377': Blaogröönes Mojang-Logo
   '2490378': Vigelettes Mojang-Logo
   '2490379': Blaoes Mojang-Logo
   '2490380': Bruunes Mojang-Logo
-  '2490381': Grönes Mojang-Logo
+  '2490381': Gröönes Mojang-Logo
   '2490382': Rootes Mojang-Logo
-  '2490383': Schwartes Mojang-Logo
+  '2490383': Swattes Mojang-Logo
   '2555904': Witte Eer
   '2555905': Geelroote Eer
   '2555906': Magenta Eer
-  '2555907': Hillblaoe Eer
+  '2555907': Lechtblaoe Eer
   '2555908': Geele Eer
-  '2555909': Hillgröne Eer
+  '2555909': Lechtgrööne Eer
   '2555910': Fienroote Eer
-  '2555911': Graue Eer
+  '2555911': Graoe Eer
   '2555912': Griese Eer
-  '2555913': Türkise Eer
+  '2555913': Blaogrööne Eer
   '2555914': Vigelette Eer
   '2555915': Blaoe Eer
   '2555916': Brunne Eer
@@ -2148,21 +2306,21 @@ banner_pattern:
   '2621442': Magenta Schnut
   '2621443': Lechtblaoe Schnut
   '2621444': Geele Schnut
-  '2621445': Hillgröne Schnut
+  '2621445': Lechtgrööne Schnut
   '2621446': Fienroote Schnut
-  '2621447': Graue Schnut
+  '2621447': Graoe Schnut
   '2621448': Griese Schnut
-  '2621449': Türkise Schnut
+  '2621449': Blaogrööne Schnut
   '2621450': Vigelette Schnut
   '2621451': Blaoe Schnut
   '2621452': Bruune Schnut
-  '2621453': Gröne Schnut
+  '2621453': Grööne Schnut
   '2621454': Roote Schnut
-  '2621455': Schwarte Schnut
+  '2621455': Swatte Schnut
 music_disk:
   music_disc_13: C418 - 13
   music_disc_cat: C418 - Cat
-  music_disc_blocks: C418 - Bloks
+  music_disc_blocks: C418 - Blocks
   music_disc_chirp: C418 - Chirp
   music_disc_far: C418 - Far
   music_disc_mall: C418 - Mall
@@ -2187,7 +2345,7 @@ merchant_level:
   '4': Erfoaren
   '5': Meester
 villager_profession:
-  none: Dörpinwohner
+  none: Dörpsbewahner
   armorer: Rüstsmitg
   butcher: Slächter
   cartographer: Kartograaf
@@ -2197,22 +2355,8 @@ villager_profession:
   fletcher: Pielmaker
   leatherworker: Giärwer
   librarian: Bibliotekaar
-  mason: Müürker
+  mason: Müerer
   nitwit: Dörpstruttel
   shepherd: Schäöper
   toolsmith: Groovsmitg
   weaponsmith: Wapensmitg
-villager_career:
-  farmer: Buer
-  fisherman: Fiskerman
-  shepherd: Schäöper
-  fletcher: Pielmaker
-  librarian: Bibliotekaar
-  cartographer: Kartograaf
-  cleric: Gaistlik
-  armorer: Rüstensmit
-  weapon_smith: Wappensmit
-  tool_smith: Wiärktüügsmit
-  butcher: Slächter
-  leatherworker: Giärwer
-  nitwit: Nichtsnutz

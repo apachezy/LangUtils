@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:47                    #
+# Build time: 2021-07-04 21:46:02                    #
 # ####################################################
 language:
   code: en_ud
@@ -14,12 +14,19 @@ material:
   polished_diorite: ǝʇᴉɹoᴉᗡ pǝɥsᴉꞁoԀ
   andesite: ǝʇᴉsǝpuⱯ
   polished_andesite: ǝʇᴉsǝpuⱯ pǝɥsᴉꞁoԀ
+  deepslate: ǝʇɐꞁsdǝǝᗡ
+  cobbled_deepslate: ǝʇɐꞁsdǝǝᗡ pǝꞁqqoƆ
+  polished_deepslate: ǝʇɐꞁsdǝǝᗡ pǝɥsᴉꞁoԀ
+  calcite: ǝʇᴉɔꞁɐƆ
+  tuff: ɟɟn⟘
+  dripstone_block: ʞɔoꞁᗺ ǝuoʇsdᴉɹᗡ
   grass_block: ʞɔoꞁᗺ ssɐɹ⅁
   dirt: ʇɹᴉᗡ
   coarse_dirt: ʇɹᴉᗡ ǝsɹɐoƆ
   podzol: ꞁozpoԀ
-  crimson_nylium: ɯnᴉlʎN uosɯᴉɹƆ
-  warped_nylium: ɯnᴉlʎN pǝdɹɐM
+  rooted_dirt: ʇɹᴉᗡ pǝʇooᴚ
+  crimson_nylium: ɯnᴉꞁʎN uosɯᴉɹƆ
+  warped_nylium: ɯnᴉꞁʎN pǝdɹɐM
   cobblestone: ǝuoʇsǝꞁqqoƆ
   oak_planks: sʞuɐꞁԀ ʞɐO
   spruce_planks: sʞuɐꞁԀ ǝɔnɹdS
@@ -27,8 +34,8 @@ material:
   jungle_planks: sʞuɐꞁԀ ǝꞁᵷunՐ
   acacia_planks: sʞuɐꞁԀ ɐᴉɔɐɔⱯ
   dark_oak_planks: sʞuɐꞁԀ ʞɐO ʞɹɐᗡ
-  crimson_planks: sʞuɐlԀ ɯosɯᴉɹƆ
-  warped_planks: sʞuɐlԀ pǝdɹɐM
+  crimson_planks: sʞuɐꞁԀ uosɯᴉɹƆ
+  warped_planks: sʞuɐꞁԀ pǝdɹɐM
   oak_sapling: ᵷuᴉꞁdɐS ʞɐO
   spruce_sapling: ᵷuᴉꞁdɐS ǝɔnɹdS
   birch_sapling: ᵷuᴉꞁdɐS ɥɔɹᴉᗺ
@@ -39,10 +46,67 @@ material:
   sand: puɐS
   red_sand: puɐS pǝᴚ
   gravel: ꞁǝʌɐɹ⅁
-  gold_ore: ǝɹO pꞁo⅁
-  iron_ore: ǝɹO uoɹI
   coal_ore: ǝɹO ꞁɐoƆ
+  deepslate_coal_ore: ǝɹO ꞁɐoƆ ǝʇɐꞁsdǝǝᗡ
+  iron_ore: ǝɹO uoɹI
+  deepslate_iron_ore: ǝɹO uoɹI ǝʇɐꞁsdǝǝᗡ
+  copper_ore: ǝɹO ɹǝddoƆ
+  deepslate_copper_ore: ǝɹO ɹǝddoƆ ǝʇɐꞁsdǝǝᗡ
+  gold_ore: ǝɹO pꞁo⅁
+  deepslate_gold_ore: ǝɹO pꞁo⅁ ǝʇɐꞁsdǝǝᗡ
+  redstone_ore: ǝɹO ǝuoʇspǝᴚ
+  deepslate_redstone_ore: ǝɹO ǝuoʇspǝᴚ ǝʇɐꞁsdǝǝᗡ
+  emerald_ore: ǝɹO pꞁɐɹǝɯƎ
+  deepslate_emerald_ore: ǝɹO pꞁɐɹǝɯƎ ǝʇɐꞁsdǝǝᗡ
+  lapis_ore: ǝɹO ᴉꞁnzɐꞀ sᴉdɐꞀ
+  deepslate_lapis_ore: ǝɹO ᴉꞁnzɐꞀ sᴉdɐꞀ ǝʇɐꞁsdǝǝᗡ
+  diamond_ore: ǝɹO puoɯɐᴉᗡ
+  deepslate_diamond_ore: ǝɹO puoɯɐᴉᗡ ǝʇɐꞁsdǝǝᗡ
   nether_gold_ore: ǝɹO pꞁo⅁ ɹǝɥʇǝN
+  nether_quartz_ore: ǝɹO zʇɹɐnꝹ ɹǝɥʇǝN
+  ancient_debris: sᴉɹqǝᗡ ʇuǝᴉɔuⱯ
+  coal_block: ʞɔoꞁᗺ ꞁɐoƆ
+  raw_iron_block: uoɹI ʍɐᴚ ɟo ʞɔoꞁᗺ
+  raw_copper_block: ɹǝddoƆ ʍɐᴚ ɟo ʞɔoꞁᗺ
+  raw_gold_block: pꞁo⅁ ʍɐᴚ ɟo ʞɔoꞁᗺ
+  amethyst_block: ʇsʎɥʇǝɯⱯ ɟo ʞɔoꞁᗺ
+  budding_amethyst: ʇsʎɥʇǝɯⱯ ᵷuᴉppnᗺ
+  iron_block: ʞɔoꞁᗺ uoɹI
+  copper_block: ɹǝddoƆ ɟo ʞɔoꞁᗺ
+  gold_block: ʞɔoꞁᗺ pꞁo⅁
+  diamond_block: ʞɔoꞁᗺ puoɯɐᴉᗡ
+  netherite_block: ǝʇᴉɹǝɥʇǝN ɟo ʞɔoꞁᗺ
+  exposed_copper: ɹǝddoƆ pǝsodxƎ
+  weathered_copper: ɹǝddoƆ pǝɹǝɥʇɐǝM
+  oxidized_copper: ɹǝddoƆ pǝsᴉpᴉxO
+  cut_copper: ɹǝddoƆ ʇnƆ
+  exposed_cut_copper: ɹǝddoƆ ʇnƆ pǝsodxƎ
+  weathered_cut_copper: ɹǝddoƆ ʇnƆ pǝɹǝɥʇɐǝM
+  oxidized_cut_copper: ɹǝddoƆ ʇnƆ pǝsᴉpᴉxO
+  cut_copper_stairs: sɹᴉɐʇS ɹǝddoƆ ʇnƆ
+  exposed_cut_copper_stairs: sɹᴉɐʇS ɹǝddoƆ ʇnƆ pǝsodxƎ
+  weathered_cut_copper_stairs: sɹᴉɐʇS ɹǝddoƆ ʇnƆ pǝɹǝɥʇɐǝM
+  oxidized_cut_copper_stairs: sɹᴉɐʇS ɹǝddoƆ ʇnƆ pǝsᴉpᴉxO
+  cut_copper_slab: qɐꞁS ɹǝddoƆ ʇnƆ
+  exposed_cut_copper_slab: qɐꞁS ɹǝddoƆ ʇnƆ pǝsodxƎ
+  weathered_cut_copper_slab: qɐꞁS ɹǝddoƆ ʇnƆ pǝɹǝɥʇɐǝM
+  oxidized_cut_copper_slab: qɐꞁS ɹǝddoƆ ʇnƆ pǝsᴉpᴉxO
+  waxed_copper_block: ɹǝddoƆ ɟo ʞɔoꞁᗺ pǝxɐM
+  waxed_exposed_copper: ɹǝddoƆ pǝsodxƎ pǝxɐM
+  waxed_weathered_copper: ɹǝddoƆ pǝɹǝɥʇɐǝM pǝxɐM
+  waxed_oxidized_copper: ɹǝddoƆ pǝsᴉpᴉxO pǝxɐM
+  waxed_cut_copper: ɹǝddoƆ ʇnƆ pǝxɐM
+  waxed_exposed_cut_copper: ɹǝddoƆ ʇnƆ pǝsodxƎ pǝxɐM
+  waxed_weathered_cut_copper: ɹǝddoƆ ʇnƆ pǝɹǝɥʇɐǝM pǝxɐM
+  waxed_oxidized_cut_copper: ɹǝddoƆ ʇnƆ pǝsᴉpᴉxO pǝxɐM
+  waxed_cut_copper_stairs: sɹᴉɐʇS ɹǝddoƆ ʇnƆ pǝxɐM
+  waxed_exposed_cut_copper_stairs: sɹᴉɐʇS ɹǝddoƆ ʇnƆ pǝsodxƎ pǝxɐM
+  waxed_weathered_cut_copper_stairs: sɹᴉɐʇS ɹǝddoƆ ʇnƆ pǝɹǝɥʇɐǝM pǝxɐM
+  waxed_oxidized_cut_copper_stairs: sɹᴉɐʇS ɹǝddoƆ ʇnƆ pǝsᴉpᴉxO pǝxɐM
+  waxed_cut_copper_slab: qɐꞁS ɹǝddoƆ ʇnƆ pǝxɐM
+  waxed_exposed_cut_copper_slab: qɐꞁS ɹǝddoƆ ʇnƆ pǝsodxƎ pǝxɐM
+  waxed_weathered_cut_copper_slab: qɐꞁS ɹǝddoƆ ʇnƆ pǝɹǝɥʇɐǝM pǝxɐM
+  waxed_oxidized_cut_copper_slab: qɐꞁS ɹǝddoƆ ʇnƆ pǝsᴉpᴉxO pǝxɐM
   oak_log: ᵷoꞀ ʞɐO
   spruce_log: ᵷoꞀ ǝɔnɹdS
   birch_log: ᵷoꞀ ɥɔɹᴉᗺ
@@ -81,26 +145,24 @@ material:
   jungle_leaves: sǝʌɐǝꞀ ǝꞁᵷunՐ
   acacia_leaves: sǝʌɐǝꞀ ɐᴉɔɐɔⱯ
   dark_oak_leaves: sǝʌɐǝꞀ ʞɐO ʞɹɐᗡ
+  azalea_leaves: sǝʌɐǝꞀ ɐǝꞁɐzⱯ
+  flowering_azalea_leaves: sǝʌɐǝꞀ ɐǝꞁɐzⱯ ᵷuᴉɹǝʍoꞁℲ
   sponge: ǝᵷuodS
   wet_sponge: ǝᵷuodS ʇǝM
   glass: ssɐꞁ⅁
-  lapis_ore: ǝɹO ᴉꞁnzɐꞀ sᴉdɐꞀ
-  lapis_block: ʞɔoꞁᗺ ᴉꞁnzɐꞀ sᴉdɐꞀ
-  dispenser: ɹǝsuǝdsᴉᗡ
+  tinted_glass: ssɐꞁ⅁ pǝʇuᴉ⟘
+  lapis_block: ᴉꞁnzɐꞀ sᴉdɐꞀ ɟo ʞɔoꞁᗺ
   sandstone: ǝuoʇspuɐS
   chiseled_sandstone: ǝuoʇspuɐS pǝꞁꞁǝsᴉɥƆ
   cut_sandstone: ǝuoʇspuɐS ʇnƆ
-  note_block: ʞɔoꞁᗺ ǝʇoN
-  powered_rail: ꞁᴉɐᴚ pǝɹǝʍoԀ
-  detector_rail: ꞁᴉɐᴚ ɹoʇɔǝʇǝᗡ
-  sticky_piston: uoʇsᴉԀ ʎʞɔᴉʇS
   cobweb: qǝʍqoƆ
   grass: ssɐɹ⅁
   fern: uɹǝℲ
+  azalea: ɐǝꞁɐzⱯ
+  flowering_azalea: ɐǝꞁɐzⱯ ᵷuᴉɹǝʍoꞁℲ
   dead_bush: ɥsnᗺ pɐǝᗡ
   seagrass: ssɐɹᵷɐǝS
   sea_pickle: ǝꞁʞɔᴉԀ ɐǝS
-  piston: uoʇsᴉԀ
   white_wool: ꞁooM ǝʇᴉɥM
   orange_wool: ꞁooM ǝᵷuɐɹO
   magenta_wool: ꞁooM ɐʇuǝᵷɐW
@@ -126,32 +188,36 @@ material:
   orange_tulip: dᴉꞁn⟘ ǝᵷuɐɹO
   white_tulip: dᴉꞁn⟘ ǝʇᴉɥM
   pink_tulip: dᴉꞁn⟘ ʞuᴉԀ
-  oxeye_daisy: ʎsᴉɐp ǝʎǝxO
+  oxeye_daisy: ʎsᴉɐᗡ ǝʎǝxO
   cornflower: ɹǝʍoꞁɟuɹoƆ
   lily_of_the_valley: ʎǝꞁꞁɐΛ ǝɥʇ ɟo ʎꞁᴉꞀ
   wither_rose: ǝsoᴚ ɹǝɥʇᴉM
+  spore_blossom: ɯossoꞁᗺ ǝɹodS
   brown_mushroom: ɯooɹɥsnW uʍoɹᗺ
   red_mushroom: ɯooɹɥsnW pǝᴚ
-  crimson_fungus: snƃunℲ uosɯᴉɹƆ
-  warped_fungus: snƃunℲ pǝdɹɐM
-  crimson_roots: sʇooᴚ uosɯıɹϽ
+  crimson_fungus: snᵷunℲ uosɯᴉɹƆ
+  warped_fungus: snᵷunℲ pǝdɹɐM
+  crimson_roots: sʇooᴚ uosɯᴉɹƆ
   warped_roots: sʇooᴚ pǝdɹɐM
   nether_sprouts: sʇnoɹdS ɹǝɥʇǝN
-  weeping_vines: sǝuᴉΛ ƃuᴉdǝǝM
-  twisting_vines: sǝuᴉΛ ᵷuᴉʇsᴉʍ⟘
+  weeping_vines: sǝuᴉɅ ᵷuᴉdǝǝM
+  twisting_vines: sǝuᴉɅ ᵷuᴉʇsᴉʍ⟘
   sugar_cane: ǝuɐƆ ɹɐᵷnS
   kelp: dꞁǝꞰ
+  moss_carpet: ʇǝdɹɐƆ ssoW
+  moss_block: ʞɔoꞁᗺ ssoW
+  hanging_roots: sʇooᴚ ᵷuᴉᵷuɐH
+  big_dripleaf: ɟɐǝꞁdᴉɹᗡ ᵷᴉᗺ
+  small_dripleaf: ɟɐǝꞁdᴉɹᗡ ꞁꞁɐɯS
   bamboo: ooqɯɐᗺ
-  gold_block: pꞁo⅁ ɟo ʞɔoꞁᗺ
-  iron_block: uoɹI ɟo ʞɔoꞁᗺ
   oak_slab: qɐꞁS ʞɐO
   spruce_slab: qɐꞁS ǝɔnɹdS
   birch_slab: qɐꞁS ɥɔɹᴉᗺ
   jungle_slab: qɐꞁS ǝꞁᵷunՐ
   acacia_slab: qɐꞁS ɐᴉɔɐɔⱯ
   dark_oak_slab: qɐꞁS ʞɐO ʞɹɐᗡ
-  crimson_slab: qɐlS uosɯᴉɹƆ
-  warped_slab: qɐlS pǝdɹɐM
+  crimson_slab: qɐꞁS uosɯᴉɹƆ
+  warped_slab: qɐꞁS pǝdɹɐM
   stone_slab: qɐꞁS ǝuoʇS
   smooth_stone_slab: qɐꞁS ǝuoʇS ɥʇooɯS
   sandstone_slab: qɐꞁS ǝuoʇspuɐS
@@ -168,12 +234,11 @@ material:
   prismarine_slab: qɐꞁS ǝuᴉɹɐɯsᴉɹԀ
   prismarine_brick_slab: qɐꞁS ʞɔᴉɹᗺ ǝuᴉɹɐɯsᴉɹԀ
   dark_prismarine_slab: qɐꞁS ǝuᴉɹɐɯsᴉɹԀ ʞɹɐᗡ
-  smooth_quartz: ʞɔol𐐒 zʇɹɐnꝹ ɥʇooɯS
+  smooth_quartz: ʞɔoꞁᗺ zʇɹɐnꝹ ɥʇooɯS
   smooth_red_sandstone: ǝuoʇspuɐS pǝᴚ ɥʇooɯS
   smooth_sandstone: ǝuoʇspuɐS ɥʇooɯS
   smooth_stone: ǝuoʇS ɥʇooɯS
   bricks: sʞɔᴉɹᗺ
-  tnt: ⟘N⟘
   bookshelf: ɟꞁǝɥsʞooᗺ
   mossy_cobblestone: ǝuoʇsǝꞁqqoƆ ʎssoW
   obsidian: uɐᴉpᴉsqO
@@ -187,27 +252,11 @@ material:
   spawner: ɹǝuʍɐdS
   oak_stairs: sɹᴉɐʇS ʞɐO
   chest: ʇsǝɥƆ
-  diamond_ore: ǝɹO puoɯɐᴉᗡ
-  diamond_block: puoɯɐᴉᗡ ɟo ʞɔoꞁᗺ
   crafting_table: ǝꞁqɐ⟘ ᵷuᴉʇɟɐɹƆ
   farmland: puɐꞁɯɹɐℲ
   furnace: ǝɔɐuɹnℲ
   ladder: ɹǝppɐꞀ
-  rail: ꞁᴉɐᴚ
   cobblestone_stairs: sɹᴉɐʇS ǝuoʇsǝꞁqqoƆ
-  lever: ɹǝʌǝꞀ
-  stone_pressure_plate: ǝʇɐꞁԀ ǝɹnssǝɹԀ ǝuoʇS
-  oak_pressure_plate: ǝʇɐꞁԀ ǝɹnssǝɹԀ ʞɐO
-  spruce_pressure_plate: ǝʇɐꞁԀ ǝɹnssǝɹԀ ǝɔnɹdS
-  birch_pressure_plate: ǝʇɐꞁԀ ǝɹnssǝɹԀ ɥɔɹᴉᗺ
-  jungle_pressure_plate: ǝʇɐꞁԀ ǝɹnssǝɹԀ ǝꞁᵷunՐ
-  acacia_pressure_plate: ǝʇɐꞁԀ ǝɹnssǝɹԀ ɐᴉɔɐɔⱯ
-  dark_oak_pressure_plate: ǝʇɐꞁԀ ǝɹnssǝɹԀ ʞɐO ʞɹɐᗡ
-  crimson_pressure_plate: ǝʇɐlԀ ǝɹnssǝɹԀ uosɯᴉɹƆ
-  warped_pressure_plate: ǝʇɐlԀ ǝɹnssǝɹԀ pǝdɹɐM
-  polished_blackstone_pressure_plate: ǝʇɐꞁԀ ǝɹnssǝɹԀ ǝuoʇsʞɔɐꞁᗺ pǝɥsᴉꞁoԀ
-  redstone_ore: ǝɹO ǝuoʇspǝᴚ
-  redstone_torch: ɥɔɹo⟘ ǝuoʇspǝᴚ
   snow: ʍouS
   ice: ǝɔI
   snow_block: ʞɔoꞁᗺ ʍouS
@@ -224,32 +273,31 @@ material:
   warped_fence: ǝɔuǝℲ pǝdɹɐM
   pumpkin: uᴉʞdɯnԀ
   carved_pumpkin: uᴉʞdɯnԀ pǝʌɹɐƆ
+  jack_o_lantern: uɹǝʇuɐꞀ,o ʞɔɐՐ
   netherrack: ʞɔɐɹɹǝɥʇǝN
   soul_sand: puɐS ꞁnoS
-  soul_soil: lᴉoS lnoS
-  basalt: ʇlɐsɐ𐐒
-  polished_basalt: ʇlɐsɐ𐐒 pǝɥsᴉloԀ
+  soul_soil: ꞁᴉoS ꞁnoS
+  basalt: ʇꞁɐsɐᗺ
+  polished_basalt: ʇꞁɐsɐᗺ pǝɥsᴉꞁoԀ
+  smooth_basalt: ʇꞁɐsɐᗺ ɥʇooɯS
   soul_torch: ɥɔɹo⟘ ꞁnoS
   glowstone: ǝuoʇsʍoꞁ⅁
-  jack_o_lantern: uɹǝʇuɐꞀ,o ʞɔɐՐ
-  oak_trapdoor: ɹoopdɐɹ⟘ ʞɐO
-  spruce_trapdoor: ɹoopdɐɹ⟘ ǝɔnɹdS
-  birch_trapdoor: ɹoopdɐɹ⟘ ɥɔɹᴉᗺ
-  jungle_trapdoor: ɹoopdɐɹ⟘ ǝꞁᵷunՐ
-  acacia_trapdoor: ɹoopdɐɹ⟘ ɐᴉɔɐɔⱯ
-  dark_oak_trapdoor: ɹoopdɐɹ⟘ ʞɐO ʞɹɐᗡ
-  crimson_trapdoor: ɹoopdɐɹ⟘ uosɯᴉɹƆ
-  warped_trapdoor: ɹoopdɐɹ⟘ pǝdɹɐM
   infested_stone: ǝuoʇS pǝʇsǝɟuI
   infested_cobblestone: ǝuoʇsǝꞁqqoƆ pǝʇsǝɟuI
   infested_stone_bricks: sʞɔᴉɹᗺ ǝuoʇS pǝʇsǝɟuI
   infested_mossy_stone_bricks: sʞɔᴉɹᗺ ǝuoʇS ʎssoW pǝʇsǝɟuI
   infested_cracked_stone_bricks: sʞɔᴉɹᗺ ǝuoʇS pǝʞɔɐɹƆ pǝʇsǝɟuI
-  infested_chiseled_stone_bricks: sʞɔᴉɹᗺ ǝuoʇS pǝꞁǝsᴉɥƆ pǝʇsǝɟuI
+  infested_chiseled_stone_bricks: sʞɔᴉɹᗺ ǝuoʇS pǝꞁꞁǝsᴉɥƆ pǝʇsǝɟuI
+  infested_deepslate: ǝʇɐꞁsdǝǝᗡ pǝʇsǝɟuI
   stone_bricks: sʞɔᴉɹᗺ ǝuoʇS
   mossy_stone_bricks: sʞɔᴉɹᗺ ǝuoʇS ʎssoW
   cracked_stone_bricks: sʞɔᴉɹᗺ ǝuoʇS pǝʞɔɐɹƆ
   chiseled_stone_bricks: sʞɔᴉɹᗺ ǝuoʇS pǝꞁꞁǝsᴉɥƆ
+  deepslate_bricks: sʞɔᴉɹᗺ ǝʇɐꞁsdǝǝᗡ
+  cracked_deepslate_bricks: sʞɔᴉɹᗺ ǝʇɐꞁsdǝǝᗡ pǝʞɔɐɹƆ
+  deepslate_tiles: sǝꞁᴉ⟘ ǝʇɐꞁsdǝǝᗡ
+  cracked_deepslate_tiles: sǝꞁᴉ⟘ ǝʇɐꞁsdǝǝᗡ pǝʞɔɐɹƆ
+  chiseled_deepslate: ǝʇɐꞁsdǝǝᗡ pǝꞁǝsᴉɥƆ
   brown_mushroom_block: ʞɔoꞁᗺ ɯooɹɥsnW uʍoɹᗺ
   red_mushroom_block: ʞɔoꞁᗺ ɯooɹɥsnW pǝᴚ
   mushroom_stem: ɯǝʇS ɯooɹɥsnW
@@ -257,22 +305,15 @@ material:
   chain: uᴉɐɥƆ
   glass_pane: ǝuɐԀ ssɐꞁ⅁
   melon: uoꞁǝW
-  vine: sǝuᴉΛ
-  oak_fence_gate: ǝʇɐ⅁ ǝɔuǝℲ ʞɐO
-  spruce_fence_gate: ǝʇɐ⅁ ǝɔuǝℲ ǝɔnɹdS
-  birch_fence_gate: ǝʇɐ⅁ ǝɔuǝℲ ɥɔɹᴉᗺ
-  jungle_fence_gate: ǝʇɐ⅁ ǝɔuǝℲ ǝꞁᵷunՐ
-  acacia_fence_gate: ǝʇɐ⅁ ǝɔuǝℲ ɐᴉɔɐɔⱯ
-  dark_oak_fence_gate: ǝʇɐ⅁ ǝɔuǝℲ ʞɐO ʞɹɐᗡ
-  crimson_fence_gate: ǝʇɐפ ǝɔuǝℲ uosɯᴉɹƆ
-  warped_fence_gate: ǝʇɐפ ǝɔuǝℲ pǝdɹɐM
+  vine: sǝuᴉɅ
+  glow_lichen: uǝɥɔᴉꞀ ʍoꞁ⅁
   brick_stairs: sɹᴉɐʇS ʞɔᴉɹᗺ
   stone_brick_stairs: sɹᴉɐʇS ʞɔᴉɹᗺ ǝuoʇS
   mycelium: ɯnᴉꞁǝɔʎW
   lily_pad: pɐԀ ʎꞁᴉꞀ
   nether_bricks: sʞɔᴉɹᗺ ɹǝɥʇǝN
   cracked_nether_bricks: sʞɔᴉɹᗺ ɹǝɥʇǝN pǝʞɔɐɹƆ
-  chiseled_nether_bricks: sʞɔᴉɹᗺ ɹǝɥʇǝN pǝꞁǝsᴉɥƆ
+  chiseled_nether_bricks: sʞɔᴉɹᗺ ɹǝɥʇǝN pǝꞁꞁǝsᴉɥƆ
   nether_brick_fence: ǝɔuǝℲ ʞɔᴉɹᗺ ɹǝɥʇǝN
   nether_brick_stairs: sɹᴉɐʇS ʞɔᴉɹᗺ ɹǝɥʇǝN
   enchanting_table: ǝꞁqɐ⟘ ᵷuᴉʇuɐɥɔuƎ
@@ -280,12 +321,9 @@ material:
   end_stone: ǝuoʇS puƎ
   end_stone_bricks: sʞɔᴉɹᗺ ǝuoʇS puƎ
   dragon_egg: ᵷᵷƎ uoᵷɐɹᗡ
-  redstone_lamp: dɯɐꞀ ǝuoʇspǝᴚ
   sandstone_stairs: sɹᴉɐʇS ǝuoʇspuɐS
-  emerald_ore: ǝɹO pꞁɐɹǝɯƎ
   ender_chest: ʇsǝɥƆ ɹǝpuƎ
-  tripwire_hook: ʞooH ǝɹᴉʍdᴉɹ⟘
-  emerald_block: pꞁɐɹǝɯƎ ɟo ʞɔoꞁᗺ
+  emerald_block: ʞɔoꞁᗺ pꞁɐɹǝɯƎ
   spruce_stairs: sɹᴉɐʇS ǝɔnɹdS
   birch_stairs: sɹᴉɐʇS ɥɔɹᴉᗺ
   jungle_stairs: sɹᴉɐʇS ǝꞁᵷunՐ
@@ -307,36 +345,21 @@ material:
   sandstone_wall: llɐM ǝuoʇspuɐS
   end_stone_brick_wall: llɐM ʞɔᴉɹᗺ ǝuoʇS puƎ
   diorite_wall: llɐM ǝʇᴉɹoᴉᗡ
-  blackstone_wall: llɐM ǝuoʇsʞɔɐꞁᗺ
+  blackstone_wall: ꞁꞁɐM ǝuoʇsʞɔɐꞁᗺ
   polished_blackstone_wall: llɐM ǝuoʇsʞɔɐꞁᗺ pǝɥsᴉꞁoԀ
-  polished_blackstone_brick_wall: llɐM ʞɔᴉɹᗺ ǝuoʇsʞɔɐꞁᗺ pǝɥsᴉꞁoԀ
-  stone_button: uoʇʇnᗺ ǝuoʇS
-  oak_button: uoʇʇnᗺ ʞɐO
-  spruce_button: uoʇʇnᗺ ǝɔnɹdS
-  birch_button: uoʇʇnᗺ ɥɔɹᴉᗺ
-  jungle_button: uoʇʇnᗺ ǝꞁᵷunՐ
-  acacia_button: uoʇʇnᗺ ɐᴉɔɐɔⱯ
-  dark_oak_button: uoʇʇnᗺ ʞɐO ʞɹɐᗡ
-  crimson_button: uoʇʇn𐐒 uosɯᴉɹƆ
-  warped_button: uoʇʇn𐐒 pǝdɹɐM
-  polished_blackstone_button: uoʇʇnᗺ ǝuoʇsʞɔɐꞁᗺ pǝɥsᴉꞁoԀ
+  polished_blackstone_brick_wall: ꞁꞁɐM ʞɔᴉɹᗺ ǝuoʇsʞɔɐꞁᗺ pǝɥsᴉꞁoԀ
+  cobbled_deepslate_wall: ꞁꞁɐM ǝʇɐꞁsdǝǝᗡ pǝꞁqqoƆ
+  polished_deepslate_wall: ꞁꞁɐM ǝʇɐꞁsdǝǝᗡ pǝɥsᴉꞁoԀ
+  deepslate_brick_wall: ꞁꞁɐM ʞɔᴉɹᗺ ǝʇɐꞁsdǝǝᗡ
+  deepslate_tile_wall: ꞁꞁɐM ǝꞁᴉ⟘ ǝʇɐꞁsdǝǝᗡ
   anvil: ꞁᴉʌuⱯ
   chipped_anvil: ꞁᴉʌuⱯ pǝddᴉɥƆ
   damaged_anvil: ꞁᴉʌuⱯ pǝᵷɐɯɐᗡ
-  trapped_chest: ʇsǝɥƆ pǝddɐɹ⟘
-  light_weighted_pressure_plate: ǝʇɐꞁԀ ǝɹnssǝɹԀ pǝʇɥᵷᴉǝM ʇɥᵷᴉꞀ
-  heavy_weighted_pressure_plate: ǝʇɐꞁԀ ǝɹnssǝɹԀ pǝʇɥᵷᴉǝM ʎʌɐǝH
-  daylight_detector: ɹoʇɔǝʇǝᗡ ʇɥᵷᴉꞁʎɐᗡ
-  redstone_block: ǝuoʇspǝᴚ ɟo ʞɔoꞁᗺ
-  nether_quartz_ore: ǝɹO zʇɹɐnꝹ ɹǝɥʇǝN
-  hopper: ɹǝddoH
   chiseled_quartz_block: ʞɔoꞁᗺ zʇɹɐnꝹ pǝꞁꞁǝsᴉɥƆ
-  quartz_block: zʇɹɐnꝹ ɟo ʞɔoꞁᗺ
+  quartz_block: ʞɔoꞁᗺ zʇɹɐnꝹ
   quartz_bricks: sʞɔᴉɹᗺ zʇɹɐnꝹ
   quartz_pillar: ɹɐꞁꞁᴉԀ zʇɹɐnꝹ
   quartz_stairs: sɹᴉɐʇS zʇɹɐnꝹ
-  activator_rail: ꞁᴉɐᴚ ɹoʇɐʌᴉʇɔⱯ
-  dropper: ɹǝddoɹᗡ
   white_terracotta: ɐʇʇoɔɐɹɹǝ⟘ ǝʇᴉɥM
   orange_terracotta: ɐʇʇoɔɐɹɹǝ⟘ ǝᵷuɐɹO
   magenta_terracotta: ɐʇʇoɔɐɹɹǝ⟘ ɐʇuǝᵷɐW
@@ -354,7 +377,7 @@ material:
   red_terracotta: ɐʇʇoɔɐɹɹǝ⟘ pǝᴚ
   black_terracotta: ɐʇʇoɔɐɹɹǝ⟘ ʞɔɐꞁᗺ
   barrier: ɹǝᴉɹɹɐᗺ
-  iron_trapdoor: ɹoopdɐɹ⟘ uoɹI
+  light: ʇɥᵷᴉꞀ
   hay_block: ǝꞁɐᗺ ʎɐH
   white_carpet: ʇǝdɹɐƆ ǝʇᴉɥM
   orange_carpet: ʇǝdɹɐƆ ǝᵷuɐɹO
@@ -373,12 +396,10 @@ material:
   red_carpet: ʇǝdɹɐƆ pǝᴚ
   black_carpet: ʇǝdɹɐƆ ʞɔɐꞁᗺ
   terracotta: ɐʇʇoɔɐɹɹǝ⟘
-  coal_block: ꞁɐoƆ ɟo ʞɔoꞁᗺ
   packed_ice: ǝɔI pǝʞɔɐԀ
   acacia_stairs: sɹᴉɐʇS ɐᴉɔɐɔⱯ
   dark_oak_stairs: sɹᴉɐʇS ʞɐO ʞɹɐᗡ
-  slime_block: ʞɔoꞁᗺ ǝɯᴉꞁS
-  grass_path: ɥʇɐԀ ssɐɹ⅁
+  dirt_path: ɥʇɐԀ ʇɹᴉᗡ
   sunflower: ɹǝʍoꞁɟunS
   lilac: ɔɐꞁᴉꞀ
   rose_bush: ɥsnᗺ ǝsoᴚ
@@ -432,11 +453,10 @@ material:
   chain_command_block: ʞɔoꞁᗺ puɐɯɯoƆ uᴉɐɥƆ
   magma_block: ʞɔoꞁᗺ ɐɯᵷɐW
   nether_wart_block: ʞɔoꞁᗺ ʇɹɐM ɹǝɥʇǝN
-  warped_wart_block: ʞɔol𐐒 ʇɹɐM pǝdɹɐM
+  warped_wart_block: ʞɔoꞁᗺ ʇɹɐM pǝdɹɐM
   red_nether_bricks: sʞɔᴉɹᗺ ɹǝɥʇǝN pǝᴚ
   bone_block: ʞɔoꞁᗺ ǝuoᗺ
-  structure_void: pıoΛ əɹnʇɔnɹʇS
-  observer: ɹǝʌɹǝsqO
+  structure_void: pᴉoɅ ǝɹnʇɔnɹʇS
   shulker_box: xoᗺ ɹǝʞꞁnɥS
   white_shulker_box: xoᗺ ɹǝʞꞁnɥS ǝʇᴉɥM
   orange_shulker_box: xoᗺ ɹǝʞꞁnɥS ǝᵷuɐɹO
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: sɹᴉɐʇS ʞɔᴉɹᗺ ɹǝɥʇǝN pǝᴚ
   polished_andesite_stairs: sɹᴉɐʇS ǝʇᴉsǝpuⱯ pǝɥsᴉꞁoԀ
   diorite_stairs: sɹᴉɐʇS ǝʇᴉɹoᴉᗡ
+  cobbled_deepslate_stairs: sɹᴉɐʇS ǝʇɐꞁsdǝǝᗡ pǝꞁqqoƆ
+  polished_deepslate_stairs: sɹᴉɐʇS ǝʇɐꞁsdǝǝᗡ pǝɥsᴉꞁoԀ
+  deepslate_brick_stairs: sɹᴉɐʇS ʞɔᴉɹᗺ ǝʇɐꞁsdǝǝᗡ
+  deepslate_tile_stairs: sɹᴉɐʇS ǝꞁᴉ⟘ ǝʇɐꞁsdǝǝᗡ
   polished_granite_slab: qɐꞁS ǝʇᴉuɐɹ⅁ pǝɥsᴉꞁoԀ
   smooth_red_sandstone_slab: qɐꞁS ǝuoʇspuɐS pǝᴚ ɥʇooɯS
   mossy_stone_brick_slab: qɐꞁS ʞɔᴉɹᗺ ǝuoʇS ʎssoW
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: qɐꞁS ʞɔᴉɹᗺ ɹǝɥʇǝN pǝᴚ
   polished_andesite_slab: qɐꞁS ǝʇᴉsǝpuⱯ pǝɥsᴉꞁoԀ
   diorite_slab: qɐꞁS ǝʇᴉɹoᴉᗡ
+  cobbled_deepslate_slab: qɐꞁS ǝʇɐꞁsdǝǝᗡ pǝꞁqqoƆ
+  polished_deepslate_slab: qɐꞁS ǝʇɐꞁsdǝǝᗡ pǝɥsᴉꞁoԀ
+  deepslate_brick_slab: qɐꞁS ʞɔᴉɹᗺ ǝʇɐꞁsdǝǝᗡ
+  deepslate_tile_slab: qɐꞁS ǝꞁᴉ⟘ ǝʇɐꞁsdǝǝᗡ
   scaffolding: ᵷuᴉpꞁoɟɟɐɔS
+  redstone: ʇsnᗡ ǝuoʇspǝᴚ
+  redstone_torch: ɥɔɹo⟘ ǝuoʇspǝᴚ
+  redstone_block: ʞɔoꞁᗺ ǝuoʇspǝᴚ
+  repeater: ɹǝʇɐǝdǝᴚ ǝuoʇspǝᴚ
+  comparator: ɹoʇɐɹɐdɯoƆ ǝuoʇspǝᴚ
+  piston: uoʇsᴉԀ
+  sticky_piston: uoʇsᴉԀ ʎʞɔᴉʇS
+  slime_block: ʞɔoꞁᗺ ǝɯᴉꞁS
+  honey_block: ʞɔoꞁᗺ ʎǝuoH
+  observer: ɹǝʌɹǝsqO
+  hopper: ɹǝddoH
+  dispenser: ɹǝsuǝdsᴉᗡ
+  dropper: ɹǝddoɹᗡ
+  lectern: uɹǝʇɔǝꞀ
+  target: ʇǝᵷɹɐ⟘
+  lever: ɹǝʌǝꞀ
+  lightning_rod: poᴚ ᵷuᴉuʇɥᵷᴉꞀ
+  daylight_detector: ɹoʇɔǝʇǝᗡ ʇɥᵷᴉꞁʎɐᗡ
+  sculk_sensor: ɹosuǝS ʞꞁnɔS
+  tripwire_hook: ʞooH ǝɹᴉʍdᴉɹ⟘
+  trapped_chest: ʇsǝɥƆ pǝddɐɹ⟘
+  tnt: ⟘N⟘
+  redstone_lamp: dɯɐꞀ ǝuoʇspǝᴚ
+  note_block: ʞɔoꞁᗺ ǝʇoN
+  stone_button: uoʇʇnᗺ ǝuoʇS
+  polished_blackstone_button: uoʇʇnᗺ ǝuoʇsʞɔɐꞁᗺ pǝɥsᴉꞁoԀ
+  oak_button: uoʇʇnᗺ ʞɐO
+  spruce_button: uoʇʇnᗺ ǝɔnɹdS
+  birch_button: uoʇʇnᗺ ɥɔɹᴉᗺ
+  jungle_button: uoʇʇnᗺ ǝꞁᵷunՐ
+  acacia_button: uoʇʇnᗺ ɐᴉɔɐɔⱯ
+  dark_oak_button: uoʇʇnᗺ ʞɐO ʞɹɐᗡ
+  crimson_button: uoʇʇnᗺ uosɯᴉɹƆ
+  warped_button: uoʇʇnᗺ pǝdɹɐM
+  stone_pressure_plate: ǝʇɐꞁԀ ǝɹnssǝɹԀ ǝuoʇS
+  polished_blackstone_pressure_plate: ǝʇɐꞁԀ ǝɹnssǝɹԀ ǝuoʇsʞɔɐꞁᗺ pǝɥsᴉꞁoԀ
+  light_weighted_pressure_plate: ǝʇɐꞁԀ ǝɹnssǝɹԀ pǝʇɥᵷᴉǝM ʇɥᵷᴉꞀ
+  heavy_weighted_pressure_plate: ǝʇɐꞁԀ ǝɹnssǝɹԀ pǝʇɥᵷᴉǝM ʎʌɐǝH
+  oak_pressure_plate: ǝʇɐꞁԀ ǝɹnssǝɹԀ ʞɐO
+  spruce_pressure_plate: ǝʇɐꞁԀ ǝɹnssǝɹԀ ǝɔnɹdS
+  birch_pressure_plate: ǝʇɐꞁԀ ǝɹnssǝɹԀ ɥɔɹᴉᗺ
+  jungle_pressure_plate: ǝʇɐꞁԀ ǝɹnssǝɹԀ ǝꞁᵷunՐ
+  acacia_pressure_plate: ǝʇɐꞁԀ ǝɹnssǝɹԀ ɐᴉɔɐɔⱯ
+  dark_oak_pressure_plate: ǝʇɐꞁԀ ǝɹnssǝɹԀ ʞɐO ʞɹɐᗡ
+  crimson_pressure_plate: ǝʇɐꞁԀ ǝɹnssǝɹԀ uosɯᴉɹƆ
+  warped_pressure_plate: ǝʇɐꞁԀ ǝɹnssǝɹԀ pǝdɹɐM
   iron_door: ɹooᗡ uoɹI
   oak_door: ɹooᗡ ʞɐO
   spruce_door: ɹooᗡ ǝɔnɹdS
@@ -572,8 +646,42 @@ material:
   dark_oak_door: ɹooᗡ ʞɐO ʞɹɐᗡ
   crimson_door: ɹooᗡ uosɯᴉɹƆ
   warped_door: ɹooᗡ pǝdɹɐM
-  repeater: ɹǝʇɐǝdǝᴚ ǝuoʇspǝᴚ
-  comparator: ɹoʇɐɹɐdɯoƆ ǝuoʇspǝᴚ
+  iron_trapdoor: ɹoopdɐɹ⟘ uoɹI
+  oak_trapdoor: ɹoopdɐɹ⟘ ʞɐO
+  spruce_trapdoor: ɹoopdɐɹ⟘ ǝɔnɹdS
+  birch_trapdoor: ɹoopdɐɹ⟘ ɥɔɹᴉᗺ
+  jungle_trapdoor: ɹoopdɐɹ⟘ ǝꞁᵷunՐ
+  acacia_trapdoor: ɹoopdɐɹ⟘ ɐᴉɔɐɔⱯ
+  dark_oak_trapdoor: ɹoopdɐɹ⟘ ʞɐO ʞɹɐᗡ
+  crimson_trapdoor: ɹoopdɐɹ⟘ uosɯᴉɹƆ
+  warped_trapdoor: ɹoopdɐɹ⟘ pǝdɹɐM
+  oak_fence_gate: ǝʇɐ⅁ ǝɔuǝℲ ʞɐO
+  spruce_fence_gate: ǝʇɐ⅁ ǝɔuǝℲ ǝɔnɹdS
+  birch_fence_gate: ǝʇɐ⅁ ǝɔuǝℲ ɥɔɹᴉᗺ
+  jungle_fence_gate: ǝʇɐ⅁ ǝɔuǝℲ ǝꞁᵷunՐ
+  acacia_fence_gate: ǝʇɐ⅁ ǝɔuǝℲ ɐᴉɔɐɔⱯ
+  dark_oak_fence_gate: ǝʇɐ⅁ ǝɔuǝℲ ʞɐO ʞɹɐᗡ
+  crimson_fence_gate: ǝʇɐ⅁ ǝɔuǝℲ uosɯᴉɹƆ
+  warped_fence_gate: ǝʇɐ⅁ ǝɔuǝℲ pǝdɹɐM
+  powered_rail: ꞁᴉɐᴚ pǝɹǝʍoԀ
+  detector_rail: ꞁᴉɐᴚ ɹoʇɔǝʇǝᗡ
+  rail: ꞁᴉɐᴚ
+  activator_rail: ꞁᴉɐᴚ ɹoʇɐʌᴉʇɔⱯ
+  saddle: ǝꞁppɐS
+  minecart: ʇɹɐɔǝuᴉW
+  chest_minecart: ʇsǝɥƆ ɥʇᴉʍ ʇɹɐɔǝuᴉW
+  furnace_minecart: ǝɔɐuɹnℲ ɥʇᴉʍ ʇɹɐɔǝuᴉW
+  tnt_minecart: ⟘N⟘ ɥʇᴉʍ ʇɹɐɔǝuᴉW
+  hopper_minecart: ɹǝddoH ɥʇᴉʍ ʇɹɐɔǝuᴉW
+  carrot_on_a_stick: ʞɔᴉʇS ɐ uo ʇoɹɹɐƆ
+  warped_fungus_on_a_stick: ʞɔᴉʇS ɐ uo snᵷunℲ pǝdɹɐM
+  elytra: ɐɹʇʎꞁƎ
+  oak_boat: ʇɐoᗺ ʞɐO
+  spruce_boat: ʇɐoᗺ ǝɔnɹdS
+  birch_boat: ʇɐoᗺ ɥɔɹᴉᗺ
+  jungle_boat: ʇɐoᗺ ǝꞁᵷunՐ
+  acacia_boat: ʇɐoᗺ ɐᴉɔɐɔⱯ
+  dark_oak_boat: ʇɐoᗺ ʞɐO ʞɹɐᗡ
   structure_block: ʞɔoꞁᗺ ǝɹnʇɔnɹʇS
   jigsaw: ʞɔoꞁᗺ ʍɐsᵷᴉſ
   turtle_helmet: ꞁꞁǝɥS ǝꞁʇɹn⟘
@@ -585,9 +693,17 @@ material:
   coal: ꞁɐoƆ
   charcoal: ꞁɐoɔɹɐɥƆ
   diamond: puoɯɐᴉᗡ
+  emerald: pꞁɐɹǝɯƎ
+  lapis_lazuli: ᴉꞁnzɐꞀ sᴉdɐꞀ
+  quartz: zʇɹɐnꝹ ɹǝɥʇǝN
+  amethyst_shard: pɹɐɥS ʇsʎɥʇǝɯⱯ
+  raw_iron: uoɹI ʍɐᴚ
   iron_ingot: ʇoᵷuI uoɹI
+  raw_copper: ɹǝddoƆ ʍɐᴚ
+  copper_ingot: ʇoᵷuI ɹǝddoƆ
+  raw_gold: pꞁo⅁ ʍɐᴚ
   gold_ingot: ʇoᵷuI pꞁo⅁
-  netherite_ingot: ʇoƃuI ǝʇᴉɹǝɥʇǝN
+  netherite_ingot: ʇoᵷuI ǝʇᴉɹǝɥʇǝN
   netherite_scrap: dɐɹɔS ǝʇᴉɹǝɥʇǝN
   wooden_sword: pɹoʍS uǝpooM
   wooden_shovel: ꞁǝʌoɥS uǝpooM
@@ -615,22 +731,22 @@ material:
   diamond_axe: ǝxⱯ puoɯɐᴉᗡ
   diamond_hoe: ǝoH puoɯɐᴉᗡ
   netherite_sword: pɹoʍS ǝʇᴉɹǝɥʇǝN
-  netherite_shovel: lǝʌoɥS ǝʇᴉɹǝɥʇǝN
+  netherite_shovel: ꞁǝʌoɥS ǝʇᴉɹǝɥʇǝN
   netherite_pickaxe: ǝxɐʞɔᴉԀ ǝʇᴉɹǝɥʇǝN
-  netherite_axe: ǝx∀ ǝʇᴉɹǝɥʇǝN
+  netherite_axe: ǝxⱯ ǝʇᴉɹǝɥʇǝN
   netherite_hoe: ǝoH ǝʇᴉɹǝɥʇǝN
   stick: ʞɔᴉʇS
   bowl: ꞁʍoᗺ
-  mushroom_stew: ʍǝʇS ɯooɹɥsnW
+  mushroom_stew: dnoS ɯooɹɥsnW
   string: ᵷuᴉɹʇS
   feather: ɹǝɥʇɐǝℲ
   gunpowder: ɹǝpʍodun⅁
   wheat_seeds: spǝǝS ʇɐǝɥM
   wheat: ʇɐǝɥM
   bread: pɐǝɹᗺ
-  leather_helmet: dɐƆ ɹǝɥʇɐǝꞀ
+  leather_helmet: ʇɐH ɹǝɥʇɐǝꞀ
   leather_chestplate: ɔᴉun⟘ ɹǝɥʇɐǝꞀ
-  leather_leggings: sʇuɐԀ ɹǝɥʇɐǝꞀ
+  leather_leggings: sɹǝsnoɹ⟘ ɹǝɥʇɐǝꞀ
   leather_boots: sʇooᗺ ɹǝɥʇɐǝꞀ
   chainmail_helmet: ʇǝɯꞁǝH ꞁᴉɐɯuᴉɐɥƆ
   chainmail_chestplate: ǝʇɐꞁdʇsǝɥƆ ꞁᴉɐɯuᴉɐɥƆ
@@ -648,10 +764,10 @@ material:
   golden_chestplate: ǝʇɐꞁdʇsǝɥƆ uǝpꞁo⅁
   golden_leggings: sᵷuᴉᵷᵷǝꞀ uǝpꞁo⅁
   golden_boots: sʇooᗺ uǝpꞁo⅁
-  netherite_helmet: ʇǝɯlǝH ǝʇᴉɹǝɥʇǝN
-  netherite_chestplate: ǝʇɐldʇsǝɥƆ ǝʇᴉɹǝɥʇǝN
-  netherite_leggings: sƃuᴉƃƃǝ˥ ǝʇᴉɹǝɥʇǝN
-  netherite_boots: sʇoo𐐒 ǝʇᴉɹǝɥʇǝN
+  netherite_helmet: ʇǝɯꞁǝH ǝʇᴉɹǝɥʇǝN
+  netherite_chestplate: ǝʇɐꞁdʇsǝɥƆ ǝʇᴉɹǝɥʇǝN
+  netherite_leggings: sᵷuᴉᵷᵷǝꞀ ǝʇᴉɹǝɥʇǝN
+  netherite_boots: sʇooᗺ ǝʇᴉɹǝɥʇǝN
   flint: ʇuᴉꞁℲ
   porkchop: doɥɔʞɹoԀ ʍɐᴚ
   cooked_porkchop: doɥɔʞɹoԀ pǝʞooƆ
@@ -664,34 +780,32 @@ material:
   jungle_sign: uᵷᴉS ǝlᵷunſ
   acacia_sign: uᵷᴉS ɐᴉɔɐɔⱯ
   dark_oak_sign: uᵷᴉS ʞɐO ʞɹɐᗡ
-  crimson_sign: uƃᴉS uosɯᴉɹƆ
-  warped_sign: uƃᴉS pǝdɹɐM
+  crimson_sign: uᵷᴉS uosɯᴉɹƆ
+  warped_sign: uᵷᴉS pǝdɹɐM
   bucket: ʇǝʞɔnᗺ
   water_bucket: ʇǝʞɔnᗺ ɹǝʇɐM
   lava_bucket: ʇǝʞɔnᗺ ɐʌɐꞀ
-  minecart: ʇɹɐɔǝuᴉW
-  saddle: ǝꞁppɐS
-  redstone: ʇsnᗡ ǝuoʇspǝᴚ
+  powder_snow_bucket: ʇǝʞɔnᗺ ʍouS ɹǝpʍoԀ
   snowball: ꞁꞁɐqʍouS
-  oak_boat: ʇɐoᗺ ʞɐO
   leather: ɹǝɥʇɐǝꞀ
   milk_bucket: ʇǝʞɔnᗺ ʞꞁᴉW
   pufferfish_bucket: ɥsᴉɟɹǝɟɟnԀ ɟo ʇǝʞɔnᗺ
   salmon_bucket: uoɯꞁɐS ɟo ʇǝʞɔnᗺ
   cod_bucket: poƆ ɟo ʇǝʞɔnᗺ
   tropical_fish_bucket: ɥsᴉℲ ꞁɐɔᴉdoɹ⟘ ɟo ʇǝʞɔnᗺ
+  axolotl_bucket: ꞁʇoꞁoxⱯ ɟo ʇǝʞɔnᗺ
   brick: ʞɔᴉɹᗺ
-  clay_ball: llɐ𐐒 ʎɐlƆ
+  clay_ball: ꞁꞁɐᗺ ʎɐꞁƆ
   dried_kelp_block: ʞɔoꞁᗺ dꞁǝꞰ pǝᴉɹᗡ
   paper: ɹǝdɐԀ
   book: ʞooᗺ
   slime_ball: ꞁꞁɐqǝɯᴉꞁS
-  chest_minecart: ʇsǝɥƆ ɥʇᴉʍ ʇɹɐɔǝuᴉW
-  furnace_minecart: ǝɔɐuɹnℲ ɥʇᴉʍ ʇɹɐɔǝuᴉW
   egg: ᵷᵷƎ
   compass: ssɐdɯoƆ
+  bundle: ǝꞁpunᗺ
   fishing_rod: poᴚ ᵷuᴉɥsᴉℲ
   clock: ʞɔoꞁƆ
+  spyglass: ssɐꞁᵷʎdS
   glowstone_dust: ʇsnᗡ ǝuoʇsʍoꞁ⅁
   cod: poƆ ʍɐᴚ
   salmon: uoɯꞁɐS ʍɐᴚ
@@ -700,8 +814,8 @@ material:
   cooked_cod: poƆ pǝʞooƆ
   cooked_salmon: uoɯꞁɐS pǝʞooƆ
   ink_sac: ɔɐS ʞuI
+  glow_ink_sac: ɔɐS ʞuI ʍoꞁ⅁
   cocoa_beans: suɐǝᗺ ɐoɔoƆ
-  lapis_lazuli: ᴉꞁnzɐꞀ sᴉdɐꞀ
   white_dye: ǝʎᗡ ǝʇᴉɥM
   orange_dye: ǝʎᗡ ǝᵷuɐɹO
   magenta_dye: ǝʎᗡ ɐʇuǝᵷɐW
@@ -738,7 +852,7 @@ material:
   green_bed: pǝᗺ uǝǝɹ⅁
   red_bed: pǝᗺ pǝᴚ
   black_bed: pǝᗺ ʞɔɐꞁᗺ
-  cookie: ʇᴉnɔsᴉq
+  cookie: ʇᴉnɔsᴉᗺ
   filled_map: dɐW
   shears: sɹɐǝɥS
   melon_slice: ǝɔᴉꞁS uoꞁǝW
@@ -748,12 +862,12 @@ material:
   beef: ɟǝǝᗺ ʍɐᴚ
   cooked_beef: ʞɐǝʇS
   chicken: uǝʞɔᴉɥƆ ʍɐᴚ
-  cooked_chicken: uǝʞɔᴉɥƆ pǝʞooƆ
+  cooked_chicken: uǝʞɔᴉɥƆ ʇsɐoᴚ
   rotten_flesh: ɥsǝꞁℲ uǝʇʇoᴚ
   ender_pearl: ꞁɹɐǝԀ ɹǝpuƎ
   blaze_rod: poᴚ ǝzɐꞁᗺ
   ghast_tear: ɹɐǝ⟘ ʇsɐɥ⅁
-  gold_nugget: ʇǝᵷᵷnN pꞁo⅁
+  gold_nugget: ʇǝᵷᵷnN uǝpꞁo⅁
   nether_wart: ʇɹɐM ɹǝɥʇǝN
   potion: uoᴉʇoԀ
   glass_bottle: ǝꞁʇʇoᗺ ssɐꞁ⅁
@@ -765,6 +879,7 @@ material:
   cauldron: uoɹpꞁnɐƆ
   ender_eye: ɹǝpuƎ ɟo ǝʎƎ
   glistering_melon_slice: ǝɔᴉꞁS uoꞁǝW ᵷuᴉɹǝʇsᴉꞁ⅁
+  axolotl_spawn_egg: ᵷᵷƎ uʍɐdS ꞁʇoꞁoxⱯ
   bat_spawn_egg: ᵷᵷƎ uʍɐdS ʇɐᗺ
   bee_spawn_egg: ᵷᵷƎ uʍɐdS ǝǝᗺ
   blaze_spawn_egg: ᵷᵷƎ uʍɐdS ǝzɐꞁᗺ
@@ -783,8 +898,10 @@ material:
   evoker_spawn_egg: ᵷᵷƎ uʍɐdS ɹǝʞoʌƎ
   fox_spawn_egg: ᵷᵷƎ uʍɐdS xoℲ
   ghast_spawn_egg: ᵷᵷƎ uʍɐdS ʇsɐɥ⅁
+  glow_squid_spawn_egg: ᵷᵷƎ uʍɐdS pᴉnbS ʍoꞁ⅁
+  goat_spawn_egg: ᵷᵷƎ uʍɐdS ʇɐo⅁
   guardian_spawn_egg: ᵷᵷƎ uʍɐdS uɐᴉpɹɐn⅁
-  hoglin_spawn_egg: ƃƃƎ uʍɐdS uᴉlƃoH
+  hoglin_spawn_egg: ᵷᵷƎ uʍɐdS uᴉꞁᵷoH
   horse_spawn_egg: ᵷᵷƎ uʍɐdS ǝsɹoH
   husk_spawn_egg: ᵷᵷƎ uʍɐdS ʞsnH
   llama_spawn_egg: ᵷᵷƎ uʍɐdS ɐɯɐꞁꞀ
@@ -796,7 +913,7 @@ material:
   parrot_spawn_egg: ᵷᵷƎ uʍɐdS ʇoɹɹɐԀ
   phantom_spawn_egg: ᵷᵷƎ uʍɐdS ɯoʇuɐɥԀ
   pig_spawn_egg: ᵷᵷƎ uʍɐdS ᵷᴉԀ
-  piglin_spawn_egg: ᵷᵷƎ uʍɐdS uᴉlᵷᴉԀ
+  piglin_spawn_egg: ᵷᵷƎ uʍɐdS uᴉꞁᵷᴉԀ
   piglin_brute_spawn_egg: ᵷᵷƎ uʍɐdS ǝʇnɹᗺ uᴉꞁᵷᴉԀ
   pillager_spawn_egg: ᵷᵷƎ uʍɐdS ɹǝᵷɐꞁꞁᴉԀ
   polar_bear_spawn_egg: ᵷᵷƎ uʍɐdS ɹɐǝᗺ ɹɐꞁoԀ
@@ -817,28 +934,28 @@ material:
   trader_llama_spawn_egg: ᵷᵷƎ uʍɐdS ɐɯɐl˥ ɹǝpɐɹ⟘
   tropical_fish_spawn_egg: ᵷᵷƎ uʍɐdS ɥsᴉℲ ꞁɐɔᴉdoɹ⟘
   turtle_spawn_egg: ᵷᵷƎ uʍɐdS ǝꞁʇɹn⟘
-  vex_spawn_egg: ᵷᵷƎ uʍɐdS xǝΛ
-  villager_spawn_egg: ᵷᵷƎ uʍɐdS ɹǝᵷɐꞁꞁᴉΛ
-  vindicator_spawn_egg: ᵷᵷƎ uʍɐdS ɹoʇɐɔᴉpuᴉΛ
+  vex_spawn_egg: ᵷᵷƎ uʍɐdS xǝɅ
+  villager_spawn_egg: ᵷᵷƎ uʍɐdS ɹǝᵷɐꞁꞁᴉɅ
+  vindicator_spawn_egg: ᵷᵷƎ uʍɐdS ɹoʇɐɔᴉpuᴉɅ
   wandering_trader_spawn_egg: ᵷᵷƎ uʍɐdS ɹǝpɐɹ⊥ ᵷuıɹǝpuɐM
   witch_spawn_egg: ᵷᵷƎ uʍɐdS ɥɔʇᴉM
   wither_skeleton_spawn_egg: ᵷᵷƎ uʍɐdS uoʇǝꞁǝʞS ɹǝɥʇᴉM
   wolf_spawn_egg: ᵷᵷƎ uʍɐdS ɟꞁoM
-  zoglin_spawn_egg: ƃƃƎ uʍɐdS uᴉlƃoZ
+  zoglin_spawn_egg: ᵷᵷƎ uʍɐdS uᴉꞁᵷoZ
   zombie_spawn_egg: ᵷᵷƎ uʍɐdS ǝᴉqɯoZ
   zombie_horse_spawn_egg: ᵷᵷƎ uʍɐdS ǝsɹoH ǝᴉqɯoZ
-  zombie_villager_spawn_egg: ᵷᵷƎ uʍɐdS ɹǝᵷɐꞁꞁᴉΛ ǝᴉqɯoZ
-  zombified_piglin_spawn_egg: ƃƃƎ uʍɐdS uᴉlƃᴉԀ pǝᴉɟᴉqɯoZ
+  zombie_villager_spawn_egg: ᵷᵷƎ uʍɐdS ɹǝᵷɐꞁꞁᴉɅ ǝᴉqɯoZ
+  zombified_piglin_spawn_egg: ᵷᵷƎ uʍɐdS uᴉꞁᵷᴉԀ pǝᴉɟᴉqɯoZ
   experience_bottle: ᵷuᴉʇuɐɥɔuƎ ,o ǝꞁʇʇoᗺ
   fire_charge: ǝᵷɹɐɥƆ ǝɹᴉℲ
   writable_book: ꞁꞁᴉnꝹ puɐ ʞooᗺ
   written_book: ʞooᗺ uǝʇʇᴉɹM
-  emerald: pꞁɐɹǝɯƎ
   item_frame: ǝɯɐɹℲ ɯǝʇI
+  glow_item_frame: ǝɯɐɹℲ ɯǝʇI ʍoꞁ⅁
   flower_pot: ʇoԀ ɹǝʍoꞁℲ
   carrot: ʇoɹɹɐƆ
   potato: oʇɐʇoԀ
-  baked_potato: oʇɐʇoԀ pǝʞɐᗺ
+  baked_potato: oʇɐʇoԀ ʇǝʞɔɐՐ
   poisonous_potato: oʇɐʇoԀ snouosᴉoԀ
   map: dɐW ʎʇdɯƎ
   golden_carrot: ʇoɹɹɐƆ uǝpꞁo⅁
@@ -848,17 +965,12 @@ material:
   zombie_head: pɐǝH ǝᴉqɯoZ
   creeper_head: pɐǝH ɹǝdǝǝɹƆ
   dragon_head: pɐǝH uoᵷɐɹᗡ
-  carrot_on_a_stick: ʞɔᴉʇS ɐ uo ʇoɹɹɐƆ
-  warped_fungus_on_a_stick: ʞɔᴉʇS ɐ uo snƃunℲ pǝdɹɐM
   nether_star: ɹɐʇS ɹǝɥʇǝN
   pumpkin_pie: ǝᴉԀ uᴉʞdɯnԀ
   firework_rocket: ʇǝʞɔoᴚ ʞɹoʍǝɹᴉℲ
   firework_star: ɹɐʇS ʞɹoʍǝɹᴉℲ
   enchanted_book: ʞooᗺ pǝʇuɐɥɔuƎ
   nether_brick: ʞɔᴉɹᗺ ɹǝɥʇǝN
-  quartz: zʇɹɐnꝹ ɹǝɥʇǝN
-  tnt_minecart: ⟘N⟘ ɥʇᴉʍ ʇɹɐɔǝuᴉW
-  hopper_minecart: ɹǝddoH ɥʇᴉʍ ʇɹɐɔǝuᴉW
   prismarine_shard: pɹɐɥS ǝuᴉɹɐɯsᴉɹԀ
   prismarine_crystals: sꞁɐʇsʎɹƆ ǝuᴉɹɐɯsᴉɹԀ
   rabbit: ʇᴉqqɐᴚ ʍɐᴚ
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: ʍoɹɹⱯ pǝddᴉ⟘
   lingering_potion: uoᴉʇoԀ ᵷuᴉɹǝᵷuᴉꞀ
   shield: pꞁǝᴉɥS
-  elytra: ɐɹʇʎꞁƎ
-  spruce_boat: ʇɐoᗺ ǝɔnɹdS
-  birch_boat: ʇɐoᗺ ɥɔɹᴉᗺ
-  jungle_boat: ʇɐoᗺ ǝꞁᵷunՐ
-  acacia_boat: ʇɐoᗺ ɐᴉɔɐɔⱯ
-  dark_oak_boat: ʇɐoᗺ ʞɐO ʞɹɐᗡ
   totem_of_undying: ᵷuᴉʎpu∩ ɟo ɯǝʇo⟘
   shulker_shell: ꞁꞁǝɥS ɹǝʞꞁnɥS
   iron_nugget: ʇǝᵷᵷnN uoɹI
@@ -948,27 +1054,23 @@ material:
   cartography_table: ǝlqɐ⟘ ʎɥdɐɹᵷoʇɹɐƆ
   fletching_table: ǝlqɐ⟘ ᵷuᴉɥɔʇǝlℲ
   grindstone: ǝuoʇspuᴉɹ⅁
-  lectern: uɹǝʇɔǝꞀ
   smithing_table: ǝlqɐ⟘ ᵷuᴉɥʇᴉɯS
   stonecutter: ɹǝʇʇnɔǝuoʇS
   bell: ꞁꞁǝᗺ
   lantern: uɹǝʇuɐꞀ
-  soul_lantern: uɹǝʇuɐꞀ lnoS
+  soul_lantern: uɹǝʇuɐꞀ ꞁnoS
   sweet_berries: sǝᴉɹɹǝᗺ ʇǝǝʍS
+  glow_berries: sǝᴉɹɹǝᗺ ʍoꞁ⅁
   campfire: ǝɹᴉɟdɯɐƆ
   soul_campfire: ǝɹᴉɟdɯɐƆ ꞁnoS
-  shroomlight: ʇɥƃᴉlɯooɹɥS
+  shroomlight: ʇɥᵷᴉꞁɯooɹɥS
   honeycomb: qɯoɔʎǝuoH
   bee_nest: ʇsǝN ǝǝᗺ
   beehive: ǝʌᴉɥǝǝᗺ
   honey_bottle: ǝꞁʇʇoᗺ ʎǝuoH
-  honey_block: ʞɔoꞁᗺ ʎǝuoH
   honeycomb_block: ʞɔoꞁᗺ qɯoɔʎǝuoH
   lodestone: ǝuoʇsǝpoꞀ
-  netherite_block: ǝʇᴉɹǝɥʇǝN ɟo ʞɔolᗺ
-  ancient_debris: sᴉɹqǝᗡ ʇuǝᴉɔu∀
-  target: ʇǝƃɹɐ⊥
-  crying_obsidian: uɐᴉpᴉsqO ƃuᴉʎɹƆ
+  crying_obsidian: uɐᴉpᴉsqO ᵷuᴉʎɹƆ
   blackstone: ǝuoʇsʞɔɐꞁᗺ
   blackstone_slab: qɐꞁS ǝuoʇsʞɔɐꞁᗺ
   blackstone_stairs: sɹᴉɐʇS ǝuoʇsʞɔɐꞁᗺ
@@ -976,12 +1078,34 @@ material:
   polished_blackstone: ǝuoʇsʞɔɐꞁᗺ pǝɥsᴉꞁoԀ
   polished_blackstone_slab: qɐꞁS ǝuoʇsʞɔɐꞁᗺ pǝɥsᴉꞁoԀ
   polished_blackstone_stairs: sɹᴉɐʇS ǝuoʇsʞɔɐꞁᗺ pǝɥsᴉꞁoԀ
-  chiseled_polished_blackstone: ǝuoʇsʞɔɐꞁᗺ pǝɥsᴉꞁoԀ pǝꞁǝsᴉɥƆ
+  chiseled_polished_blackstone: ǝuoʇsʞɔɐꞁᗺ pǝɥsᴉꞁoԀ pǝꞁꞁǝsᴉɥƆ
   polished_blackstone_bricks: sʞɔᴉɹᗺ ǝuoʇsʞɔɐꞁᗺ pǝɥsᴉꞁoԀ
   polished_blackstone_brick_slab: qɐꞁS ʞɔᴉɹᗺ ǝuoʇsʞɔɐꞁᗺ pǝɥsᴉꞁoԀ
   polished_blackstone_brick_stairs: sɹᴉɐʇS ʞɔᴉɹᗺ ǝuoʇsʞɔɐꞁᗺ pǝɥsᴉꞁoԀ
   cracked_polished_blackstone_bricks: sʞɔᴉɹᗺ ǝuoʇsʞɔɐꞁᗺ pǝɥsᴉꞁoԀ pǝʞɔɐɹƆ
   respawn_anchor: ɹoɥɔuⱯ uʍɐdsǝᴚ
+  candle: ǝꞁpuɐƆ
+  white_candle: ǝꞁpuɐƆ ǝʇᴉɥM
+  orange_candle: ǝꞁpuɐƆ ǝᵷuɐɹO
+  magenta_candle: ǝꞁpuɐƆ ɐʇuǝᵷɐW
+  light_blue_candle: ǝꞁpuɐƆ ǝnꞁᗺ ʇɥᵷᴉꞀ
+  yellow_candle: ǝꞁpuɐƆ ʍoꞁꞁǝ⅄
+  lime_candle: ǝꞁpuɐƆ ǝɯᴉꞀ
+  pink_candle: ǝꞁpuɐƆ ʞuᴉԀ
+  gray_candle: ǝꞁpuɐƆ ʎǝɹ⅁
+  light_gray_candle: ǝꞁpuɐƆ ʎǝɹ⅁ ʇɥᵷᴉꞀ
+  cyan_candle: ǝꞁpuɐƆ uɐʎƆ
+  purple_candle: ǝꞁpuɐƆ ǝꞁdɹnԀ
+  blue_candle: ǝꞁpuɐƆ ǝnꞁᗺ
+  brown_candle: ǝꞁpuɐƆ uʍoɹᗺ
+  green_candle: ǝꞁpuɐƆ uǝǝɹ⅁
+  red_candle: ǝꞁpuɐƆ pǝᴚ
+  black_candle: ǝꞁpuɐƆ ʞɔɐꞁᗺ
+  small_amethyst_bud: pnᗺ ʇsʎɥʇǝɯⱯ ꞁꞁɐɯS
+  medium_amethyst_bud: pnᗺ ʇsʎɥʇǝɯⱯ ɯnᴉpǝW
+  large_amethyst_bud: pnᗺ ʇsʎɥʇǝɯⱯ ǝᵷɹɐꞀ
+  amethyst_cluster: ɹǝʇsnꞁƆ ʇsʎɥʇǝɯⱯ
+  pointed_dripstone: ǝuoʇsdᴉɹᗡ pǝʇuᴉoԀ
   water: ɹǝʇɐM
   lava: ɐʌɐꞀ
   tall_seagrass: ssɐɹᵷɐǝS ꞁꞁɐ⟘
@@ -989,7 +1113,7 @@ material:
   moving_piston: uoʇsᴉԀ ᵷuᴉʌoW
   wall_torch: ɥɔɹo⟘ ꞁꞁɐM
   fire: ǝɹᴉℲ
-  soul_fire: ǝɹᴉℲ lnoS
+  soul_fire: ǝɹᴉℲ ꞁnoS
   redstone_wire: ǝɹᴉM ǝuoʇspǝᴚ
   oak_wall_sign: uᵷᴉS ꞁꞁɐM ʞɐO
   spruce_wall_sign: uᵷᴉS ꞁꞁɐM ǝɔnɹdS
@@ -998,12 +1122,15 @@ material:
   jungle_wall_sign: uᵷᴉS ꞁꞁɐM ǝlƃunſ
   dark_oak_wall_sign: uᵷᴉS ꞁꞁɐM ʞɐO ʞɹɐᗡ
   redstone_wall_torch: ɥɔɹo⟘ ꞁꞁɐM ǝuoʇspǝᴚ
-  soul_wall_torch: ɥɔɹo⊥ llɐM lnoS
+  soul_wall_torch: ɥɔɹo⟘ ꞁꞁɐM ꞁnoS
   nether_portal: ꞁɐʇɹoԀ ɹǝɥʇǝN
   attached_pumpkin_stem: ɯǝʇS uᴉʞdɯnԀ pǝɥɔɐʇʇⱯ
   attached_melon_stem: ɯǝʇS uoꞁǝW pǝɥɔɐʇʇⱯ
   pumpkin_stem: ɯǝʇS uᴉʞdɯnԀ
   melon_stem: ɯǝʇS uoꞁǝW
+  water_cauldron: uoɹpꞁnɐƆ ɹǝʇɐM
+  lava_cauldron: uoɹpꞁnɐƆ ɐʌɐꞀ
+  powder_snow_cauldron: uoɹpꞁnɐƆ ʍouS ɹǝpʍoԀ
   end_portal: ꞁɐʇɹoԀ puƎ
   cocoa: ɐoɔoƆ
   tripwire: ǝɹᴉʍdᴉɹ⟘
@@ -1069,20 +1196,44 @@ material:
   bubble_coral_wall_fan: uɐℲ ꞁꞁɐM ꞁɐɹoƆ ǝꞁqqnᗺ
   fire_coral_wall_fan: uɐℲ ꞁꞁɐM ꞁɐɹoƆ ǝɹᴉℲ
   horn_coral_wall_fan: uɐℲ ꞁꞁɐM ꞁɐɹoƆ uɹoH
-  bamboo_sapling: ʇooɥS ooqɯɐ𐐒
+  bamboo_sapling: ʇooɥS ooqɯɐᗺ
   potted_bamboo: ooqɯɐᗺ pǝʇʇoԀ
-  void_air: ɹᴉⱯ pᴉoΛ
+  void_air: ɹᴉⱯ pᴉoɅ
   cave_air: ɹᴉⱯ ǝʌɐƆ
   bubble_column: uɯnꞁoƆ ǝꞁqqnᗺ
   sweet_berry_bush: ɥsnᗺ ʎɹɹǝᗺ ʇǝǝʍS
   weeping_vines_plant: ʇuɐlԀ sǝuᴉΛ ƃuᴉdǝǝM
-  twisting_vines_plant: ʇuɐꞁԀ sǝuᴉΛ ᵷuᴉʇsᴉʍ⟘
-  crimson_wall_sign: uƃᴉS llɐʍ uosɯᴉɹƆ
+  twisting_vines_plant: ʇuɐꞁԀ sǝuᴉɅ ᵷuᴉʇsᴉʍ⟘
+  crimson_wall_sign: uᵷᴉS ꞁꞁɐM uosɯᴉɹƆ
   warped_wall_sign: uᵷᴉS ꞁꞁɐM pǝdɹɐM
-  potted_crimson_fungus: snƃunℲ uosɯᴉɹƆ pǝʇʇoԀ
-  potted_warped_fungus: snƃunℲ pǝdɹɐM pǝʇʇoԀ
+  potted_crimson_fungus: snᵷunℲ uosɯᴉɹƆ pǝʇʇoԀ
+  potted_warped_fungus: snᵷunℲ pǝdɹɐM pǝʇʇoԀ
   potted_crimson_roots: sʇooᴚ uosɯᴉɹƆ pǝʇʇoԀ
   potted_warped_roots: sʇooᴚ pǝdɹɐM pǝʇʇoԀ
+  candle_cake: ǝꞁpuɐƆ ɥʇᴉʍ ǝʞɐƆ
+  white_candle_cake: ǝꞁpuɐƆ ǝʇᴉɥM ɥʇᴉʍ ǝʞɐƆ
+  orange_candle_cake: ǝꞁpuɐƆ ǝᵷuɐɹO ɥʇᴉʍ ǝʞɐƆ
+  magenta_candle_cake: ǝꞁpuɐƆ ɐʇuǝᵷɐW ɥʇᴉʍ ǝʞɐƆ
+  light_blue_candle_cake: ǝꞁpuɐƆ ǝnꞁᗺ ʇɥᵷᴉꞀ ɥʇᴉʍ ǝʞɐƆ
+  yellow_candle_cake: ǝꞁpuɐƆ ʍoꞁꞁǝ⅄ ɥʇᴉʍ ǝʞɐƆ
+  lime_candle_cake: ǝꞁpuɐƆ ǝɯᴉꞀ ɥʇᴉʍ ǝʞɐƆ
+  pink_candle_cake: ǝꞁpuɐƆ ʞuᴉԀ ɥʇᴉʍ ǝʞɐƆ
+  gray_candle_cake: ǝꞁpuɐƆ ʎǝɹ⅁ ɥʇᴉʍ ǝʞɐƆ
+  light_gray_candle_cake: ǝꞁpuɐƆ ʎǝɹ⅁ ʇɥᵷᴉꞀ ɥʇᴉʍ ǝʞɐƆ
+  cyan_candle_cake: ǝꞁpuɐƆ uɐʎƆ ɥʇᴉʍ ǝʞɐƆ
+  purple_candle_cake: ǝꞁpuɐƆ ǝꞁdɹnԀ ɥʇᴉʍ ǝʞɐƆ
+  blue_candle_cake: ǝꞁpuɐƆ ǝnꞁᗺ ɥʇᴉʍ ǝʞɐƆ
+  brown_candle_cake: ǝꞁpuɐƆ uʍoɹᗺ ɥʇᴉʍ ǝʞɐƆ
+  green_candle_cake: ǝꞁpuɐƆ uǝǝɹ⅁ ɥʇᴉʍ ǝʞɐƆ
+  red_candle_cake: ǝꞁpuɐƆ pǝᴚ ɥʇᴉʍ ǝʞɐƆ
+  black_candle_cake: ǝꞁpuɐƆ ʞɔɐꞁᗺ ɥʇᴉʍ ǝʞɐƆ
+  powder_snow: ʍouS ɹǝpʍoԀ
+  cave_vines: sǝuᴉɅ ǝʌɐƆ
+  cave_vines_plant: ʇuɐꞁԀ sǝuᴉɅ ǝʌɐƆ
+  big_dripleaf_stem: ɯǝʇS ɟɐǝꞁdᴉɹᗡ ᵷᴉᗺ
+  potted_azalea_bush: ɐǝꞁɐzⱯ pǝʇʇoԀ
+  potted_flowering_azalea_bush: ɐǝꞁɐzⱯ ᵷuᴉɹǝʍoꞁℲ pǝʇʇoԀ
+  grass_path: ɥʇɐԀ ssɐɹ⅁
   zombie_pigman_spawn_egg: ᵷᵷƎ uʍɐdS uɐɯᵷᴉԀ ǝᴉqɯoZ
   cactus_green: uǝǝɹ⅁ snʇɔɐƆ
   dandelion_yellow: ʍoꞁꞁǝ⅄ uoᴉꞁǝpuɐᗡ
@@ -1165,50 +1316,52 @@ biome:
   modified_badlands_plateau: nɐǝʇɐꞁԀ spuɐꞁpɐᗺ pǝᴉɟᴉpoW
   bamboo_jungle: ǝꞁᵷunՐ ooqɯɐᗺ
   bamboo_jungle_hills: sꞁꞁᴉH ǝꞁᵷunՐ ooqɯɐᗺ
-  soul_sand_valley: ʎǝllɐΛ puɐS lnoS
+  soul_sand_valley: ʎǝꞁꞁɐɅ puɐS ꞁnoS
   crimson_forest: ʇsǝɹoℲ uosɯᴉɹƆ
   warped_forest: ʇsǝɹoℲ pǝdɹɐM
   basalt_deltas: sɐʇꞁǝᗡ ʇꞁɐsɐᗺ
+  dripstone_caves: sǝʌɐƆ ǝuoʇsdᴉɹᗡ
+  lush_caves: sǝʌɐƆ ɥsnꞀ
   nether: ɹǝɥʇǝN
 enchantment:
-  fire_protection: uoᴉʇɔǝʇoɹԀ ǝɹᴉℲ
-  sharpness: ssǝudɹɐɥS
-  flame: ǝɯɐꞁℲ
-  soul_speed: pǝǝdS ꞁnoS
-  aqua_affinity: ʎʇᴉuᴉɟɟⱯ ɐnbⱯ
-  punch: ɥɔunԀ
-  loyalty: ʎʇꞁɐʎoꞀ
-  depth_strider: ɹǝpᴉɹʇS ɥʇdǝᗡ
-  vanishing_curse: ᵷuᴉɥsᴉuɐΛ ɟo ǝsɹnƆ
-  unbreaking: ᵷuᴉʞɐǝɹqu∩
-  knockback: ʞɔɐqʞɔouʞ
-  luck_of_the_sea: ɐǝS ǝɥʇ ɟo ʞɔnꞀ
-  binding_curse: ᵷuᴉpuᴉᗺ ɟo ǝsɹnƆ
-  fortune: ǝunʇɹoℲ
   protection: uoᴉʇɔǝʇoɹԀ
-  efficiency: ʎɔuǝᴉɔᴉɟɟƎ
-  mending: ᵷuᴉpuǝW
-  frost_walker: ɹǝʞꞁɐM ʇsoɹℲ
-  lure: ǝɹnꞀ
-  looting: ᵷuᴉʇooꞀ
-  piercing: ᵷuᴉɔɹǝᴉԀ
-  blast_protection: uoᴉʇɔǝʇoɹԀ ʇsɐꞁᗺ
-  smite: ǝʇᴉɯS
-  multishot: ʇoɥsᴉʇꞁnW
-  fire_aspect: ʇɔǝdsⱯ ǝɹᴉℲ
-  channeling: ᵷuᴉꞁꞁǝuuɐɥƆ
-  sweeping: ǝᵷpƎ ᵷuᴉdǝǝʍS
-  thorns: suɹoɥ⟘
-  bane_of_arthropods: spodoɹɥʇɹⱯ ɟo ǝuɐᗺ
-  respiration: uoᴉʇɐɹᴉdsǝᴚ
-  riptide: ǝpᴉʇdᴉᴚ
-  silk_touch: ɥɔno⟘ ʞꞁᴉS
-  quick_charge: ǝᵷɹɐɥƆ ʞɔᴉnꝹ
-  projectile_protection: uoᴉʇɔǝʇoɹԀ ǝꞁᴉʇɔǝɾoɹԀ
-  impaling: ᵷuᴉꞁɐdɯI
+  fire_protection: uoᴉʇɔǝʇoɹԀ ǝɹᴉℲ
   feather_falling: ᵷuᴉꞁꞁɐℲ ɹǝɥʇɐǝℲ
+  blast_protection: uoᴉʇɔǝʇoɹԀ ʇsɐꞁᗺ
+  projectile_protection: uoᴉʇɔǝʇoɹԀ ǝꞁᴉʇɔǝɾoɹԀ
+  respiration: uoᴉʇɐɹᴉdsǝᴚ
+  aqua_affinity: ʎʇᴉuᴉɟɟⱯ ɐnbⱯ
+  thorns: suɹoɥ⟘
+  depth_strider: ɹǝpᴉɹʇS ɥʇdǝᗡ
+  frost_walker: ɹǝʞꞁɐM ʇsoɹℲ
+  binding_curse: ᵷuᴉpuᴉᗺ ɟo ǝsɹnƆ
+  sharpness: ssǝudɹɐɥS
+  smite: ǝʇᴉɯS
+  bane_of_arthropods: spodoɹɥʇɹⱯ ɟo ǝuɐᗺ
+  knockback: ʞɔɐqʞɔouʞ
+  fire_aspect: ʇɔǝdsⱯ ǝɹᴉℲ
+  looting: ᵷuᴉʇooꞀ
+  sweeping: ǝᵷpƎ ᵷuᴉdǝǝʍS
+  efficiency: ʎɔuǝᴉɔᴉɟɟƎ
+  silk_touch: ɥɔno⟘ ʞꞁᴉS
+  unbreaking: ᵷuᴉʞɐǝɹqu∩
+  fortune: ǝunʇɹoℲ
   power: ɹǝʍoԀ
+  punch: ɥɔunԀ
+  flame: ǝɯɐꞁℲ
   infinity: ʎʇᴉuᴉɟuI
+  luck_of_the_sea: ɐǝS ǝɥʇ ɟo ʞɔnꞀ
+  lure: ǝɹnꞀ
+  loyalty: ʎʇꞁɐʎoꞀ
+  impaling: ᵷuᴉꞁɐdɯI
+  riptide: ǝpᴉʇdᴉᴚ
+  channeling: ᵷuᴉꞁꞁǝuuɐɥƆ
+  multishot: ʇoɥsᴉʇꞁnW
+  quick_charge: ǝᵷɹɐɥƆ ʞɔᴉnꝹ
+  piercing: ᵷuᴉɔɹǝᴉԀ
+  mending: ᵷuᴉpuǝW
+  vanishing_curse: ᵷuᴉɥsᴉuɐΛ ɟo ǝsɹnƆ
+  soul_speed: pǝǝdS ꞁnoS
 potion:
   uncraftable: uoᴉʇoԀ ǝꞁqɐʇɟɐɹɔu∩
   water: ǝꞁʇʇoᗺ ɹǝʇɐM
@@ -1350,7 +1503,7 @@ entity:
   zombie: ǝᴉqɯoZ
   slime: ǝɯᴉꞁS
   ghast: ʇsɐɥ⅁
-  zombified_piglin: uᴉlƃᴉԀ pǝᴉɟᴉqɯoZ
+  zombified_piglin: uᴉꞁᵷᴉԀ pǝᴉɟᴉqɯoZ
   enderman: uɐɯɹǝpuƎ
   cave_spider: ɹǝpᴉdS ǝʌɐƆ
   silverfish: ɥsᴉɟɹǝʌꞁᴉS
@@ -1398,11 +1551,16 @@ entity:
   wandering_trader: ɹǝpɐɹʇ buıɹǝpuɐM
   fox: xoℲ
   bee: ǝǝᗺ
-  hoglin: uᴉlƃoH
-  piglin: uᴉlᵷᴉԀ
+  hoglin: uᴉꞁᵷoH
+  piglin: uᴉꞁᵷᴉԀ
   strider: ɹǝpᴉɹʇS
-  zoglin: uᴉlƃoZ
+  zoglin: uᴉꞁᵷoZ
   piglin_brute: ǝʇnɹᗺ uᴉꞁᵷᴉԀ
+  axolotl: ꞁʇoꞁoxⱯ
+  glow_item_frame: ǝɯɐɹℲ ɯǝʇI ʍoꞁ⅁
+  glow_squid: pᴉnbS ʍoꞁ⅁
+  goat: ʇɐo⅁
+  marker: ɹǝʞɹɐW
   fishing_hook: ɹǝqqoᗺ ᵷuᴉɥsᴉℲ
   lightning: ʇꞁoᗺ ᵷuᴉuʇɥᵷᴉꞀ
   player: ɹǝʎɐꞁԀ
@@ -1826,7 +1984,7 @@ banner_pattern:
   '1310720': ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ ǝʇᴉɥM
   '1310721': ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ ǝᵷuɐɹO
   '1310722': ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ ɐʇuǝᵷɐW
-  '1310723': ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ ǝnꞁᗺ ʇɥᵷᴉꞀ
+  '1310723': pǝʇɹǝʌuI ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ ǝnꞁᗺ ʇɥᵷᴉꞀ
   '1310724': ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ ʍoꞁꞁǝ⅄
   '1310725': ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ ǝɯᴉꞀ
   '1310726': ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ ʞuᴉԀ
@@ -1834,15 +1992,15 @@ banner_pattern:
   '1310728': ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ ʎǝɹ⅁ ʇɥᵷᴉꞀ
   '1310729': ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ uɐʎƆ
   '1310730': ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ ǝꞁdɹnԀ
-  '1310731': ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ ǝnꞁᗺ
-  '1310732': ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ uʍoɹᗺ
+  '1310731': pǝʇɹǝʌuI ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ ǝnꞁᗺ
+  '1310732': pǝʇɹǝʌuI ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ uʍoɹᗺ
   '1310733': ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ uǝǝɹ⅁
   '1310734': ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ pǝᴚ
-  '1310735': ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ ʞɔɐꞁᗺ
+  '1310735': pǝʇɹǝʌuI ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ ʞɔɐꞁᗺ
   '1376256': pǝʇɹǝʌuI ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ ǝʇᴉɥM
   '1376257': pǝʇɹǝʌuI ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ ǝᵷuɐɹO
   '1376258': pǝʇɹǝʌuI ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ ɐʇuǝᵷɐW
-  '1376259': pǝʇɹǝʌuI ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ ǝnꞁᗺ ʇɥᵷᴉꞀ
+  '1376259': ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ ǝnꞁᗺ ʇɥᵷᴉꞀ
   '1376260': pǝʇɹǝʌuI ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ ʍoꞁꞁǝ⅄
   '1376261': pǝʇɹǝʌuI ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ ǝɯᴉꞀ
   '1376262': pǝʇɹǝʌuI ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ ʞuᴉԀ
@@ -1850,15 +2008,15 @@ banner_pattern:
   '1376264': pǝʇɹǝʌuI ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ ʎǝɹ⅁ ʇɥᵷᴉꞀ
   '1376265': pǝʇɹǝʌuI ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ uɐʎƆ
   '1376266': pǝʇɹǝʌuI ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ ǝꞁdɹnԀ
-  '1376267': pǝʇɹǝʌuI ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ ǝnꞁᗺ
-  '1376268': pǝʇɹǝʌuI ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ uʍoɹᗺ
+  '1376267': ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ ǝnꞁᗺ
+  '1376268': ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ uʍoɹᗺ
   '1376269': pǝʇɹǝʌuI ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ uǝǝɹ⅁
   '1376270': pǝʇɹǝʌuI ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ pǝᴚ
-  '1376271': pǝʇɹǝʌuI ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ ʞɔɐꞁᗺ
+  '1376271': ɹǝʇsᴉuᴉS puǝᗺ ɹǝԀ ʞɔɐꞁᗺ
   '1441792': pǝʇɹǝʌuI puǝᗺ ɹǝԀ ǝʇᴉɥM
   '1441793': pǝʇɹǝʌuI puǝᗺ ɹǝԀ ǝᵷuɐɹO
   '1441794': pǝʇɹǝʌuI puǝᗺ ɹǝԀ ɐʇuǝᵷɐW
-  '1441795': pǝʇɹǝʌuI puǝᗺ ɹǝԀ ǝnꞁᗺ ʇɥᵷᴉꞀ
+  '1441795': puǝᗺ ɹǝԀ ǝnꞁᗺ ʇɥᵷᴉꞀ
   '1441796': pǝʇɹǝʌuI puǝᗺ ɹǝԀ ʍoꞁꞁǝ⅄
   '1441797': pǝʇɹǝʌuI puǝᗺ ɹǝԀ ǝɯᴉꞀ
   '1441798': pǝʇɹǝʌuI puǝᗺ ɹǝԀ ʞuᴉԀ
@@ -1866,15 +2024,15 @@ banner_pattern:
   '1441800': pǝʇɹǝʌuI puǝᗺ ɹǝԀ ʎǝɹ⅁ ʇɥᵷᴉꞀ
   '1441801': pǝʇɹǝʌuI puǝᗺ ɹǝԀ uɐʎƆ
   '1441802': pǝʇɹǝʌuI puǝᗺ ɹǝԀ ǝꞁdɹnԀ
-  '1441803': pǝʇɹǝʌuI puǝᗺ ɹǝԀ ǝnꞁᗺ
-  '1441804': pǝʇɹǝʌuI puǝᗺ ɹǝԀ uʍoɹᗺ
+  '1441803': puǝᗺ ɹǝԀ ǝnꞁᗺ
+  '1441804': puǝᗺ ɹǝԀ uʍoɹᗺ
   '1441805': pǝʇɹǝʌuI puǝᗺ ɹǝԀ uǝǝɹ⅁
   '1441806': pǝʇɹǝʌuI puǝᗺ ɹǝԀ pǝᴚ
-  '1441807': pǝʇɹǝʌuI puǝᗺ ɹǝԀ ʞɔɐꞁᗺ
+  '1441807': puǝᗺ ɹǝԀ ʞɔɐꞁᗺ
   '1507328': puǝᗺ ɹǝԀ ǝʇᴉɥM
   '1507329': puǝᗺ ɹǝԀ ǝᵷuɐɹO
   '1507330': puǝᗺ ɹǝԀ ɐʇuǝᵷɐW
-  '1507331': puǝᗺ ɹǝԀ ǝnꞁᗺ ʇɥᵷᴉꞀ
+  '1507331': pǝʇɹǝʌuI puǝᗺ ɹǝԀ ǝnꞁᗺ ʇɥᵷᴉꞀ
   '1507332': puǝᗺ ɹǝԀ ʍoꞁꞁǝ⅄
   '1507333': puǝᗺ ɹǝԀ ǝɯᴉꞀ
   '1507334': puǝᗺ ɹǝԀ ʞuᴉԀ
@@ -1882,11 +2040,11 @@ banner_pattern:
   '1507336': puǝᗺ ɹǝԀ ʎǝɹ⅁ ʇɥᵷᴉꞀ
   '1507337': puǝᗺ ɹǝԀ uɐʎƆ
   '1507338': puǝᗺ ɹǝԀ ǝꞁdɹnԀ
-  '1507339': puǝᗺ ɹǝԀ ǝnꞁᗺ
-  '1507340': puǝᗺ ɹǝԀ uʍoɹᗺ
+  '1507339': pǝʇɹǝʌuI puǝᗺ ɹǝԀ ǝnꞁᗺ
+  '1507340': pǝʇɹǝʌuI puǝᗺ ɹǝԀ uʍoɹᗺ
   '1507341': puǝᗺ ɹǝԀ uǝǝɹ⅁
   '1507342': puǝᗺ ɹǝԀ pǝᴚ
-  '1507343': puǝᗺ ɹǝԀ ʞɔɐꞁᗺ
+  '1507343': pǝʇɹǝʌuI puǝᗺ ɹǝԀ ʞɔɐꞁᗺ
   '1572864': ꞁǝpunoᴚ ǝʇᴉɥM
   '1572865': ꞁǝpunoᴚ ǝᵷuɐɹO
   '1572866': ꞁǝpunoᴚ ɐʇuǝᵷɐW
@@ -2147,11 +2305,11 @@ banner_pattern:
   '2621441': ʇnouS ǝᵷuɐɹO
   '2621442': ʇnouS ɐʇuǝᵷɐW
   '2621443': ʇnouS ǝnꞁᗺ ʇɥᵷᴉꞀ
-  '2621444': ʇnouS moꞁꞁǝ⅄
+  '2621444': ʇnouS ʍoꞁꞁǝ⅄
   '2621445': ʇnouS ǝɯᴉꞀ
   '2621446': ʇnouS ʞuᴉԀ
-  '2621447': ʇnouS ʎɐɹ⅁
-  '2621448': ʇnouS ʎɐɹ⅁ ʇɥᵷᴉꞀ
+  '2621447': ʇnouS ʎǝɹ⅁
+  '2621448': ʇnouS ʎǝɹ⅁ ʇɥᵷᴉꞀ
   '2621449': ʇnouS uɐʎƆ
   '2621450': ʇnouS ǝꞁdɹnԀ
   '2621451': ʇnouS ǝnꞁᗺ
@@ -2202,17 +2360,3 @@ villager_profession:
   shepherd: pɹǝɥdǝɥS
   toolsmith: ɥʇᴉɯsꞁoo⟘
   weaponsmith: ɥʇᴉɯsuodɐǝM
-villager_career:
-  farmer: ɹǝɯɹɐℲ
-  fisherman: uɐɯɹǝɥsᴉℲ
-  shepherd: pɹǝɥdǝɥS
-  fletcher: ɹǝɥɔʇǝꞁℲ
-  librarian: uɐᴉɹɐɹqᴉꞀ
-  cartographer: ɹǝɥdɐɹᵷoʇɹɐƆ
-  cleric: ɔᴉɹǝꞁƆ
-  armorer: ɹǝɹnoɯɹⱯ
-  weapon_smith: ɥʇᴉɯS uodɐǝM
-  tool_smith: ɥʇᴉɯS ꞁoo⟘
-  butcher: ɹǝɥɔʇnᗺ
-  leatherworker: ɹǝʞɹoʍɹǝɥʇɐǝꞀ
-  nitwit: ʇᴉʍʇᴉN

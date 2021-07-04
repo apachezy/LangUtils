@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:47                    #
+# Build time: 2021-07-04 21:46:03                    #
 # ####################################################
 language:
   code: he_il
@@ -14,10 +14,17 @@ material:
   polished_diorite: דיוריט מלוטש
   andesite: אנדזיט
   polished_andesite: אנדזיט מלוטש
+  deepslate: לווחה
+  cobbled_deepslate: לווחה מרוצפת
+  polished_deepslate: לווחה מלוטשת
+  calcite: קלציט
+  tuff: טוף
+  dripstone_block: בלוק אבן טפטוף
   grass_block: בלוק דשא
   dirt: עפר
   coarse_dirt: עפר גס
   podzol: פודזול
+  rooted_dirt: אדמה מושרשת
   crimson_nylium: נייליום ארגמן
   warped_nylium: נייליום מעוות
   cobblestone: אבן מרוסקת
@@ -39,10 +46,67 @@ material:
   sand: חול
   red_sand: חול אדום
   gravel: חצץ
-  gold_ore: עפרת זהב
-  iron_ore: עפרת ברזל
   coal_ore: עפרת פחם
+  deepslate_coal_ore: עפרת לווחת פחם
+  iron_ore: עפרת ברזל
+  deepslate_iron_ore: עפרת לווחת ברזל
+  copper_ore: עפרת נחושת
+  deepslate_copper_ore: עפרת לווחת נחושת
+  gold_ore: עפרת זהב
+  deepslate_gold_ore: עפרת לווחת זהב
+  redstone_ore: עפרת רדסטון
+  deepslate_redstone_ore: עפרת לווחת רדסטון
+  emerald_ore: עפרת ברקת
+  deepslate_emerald_ore: עפרת לווחת ברקת
+  lapis_ore: עפרת לאפיס לאזולי
+  deepslate_lapis_ore: עפרת לווחת לאפיס לאזולי
+  diamond_ore: עפרת יהלום
+  deepslate_diamond_ore: עפרת לווחת יהלום
   nether_gold_ore: עפרת זהב נת'ר
+  nether_quartz_ore: עפרת נת'ר קוורץ
+  ancient_debris: רסיסים עתיקים
+  coal_block: בלוק פחם
+  raw_iron_block: בלוק ברזל גולמי
+  raw_copper_block: בלוק נחושת גולמית
+  raw_gold_block: בלוק זהב גולמי
+  amethyst_block: בלוק אחלמה
+  budding_amethyst: מושבת אחלמה
+  iron_block: בלוק ברזל
+  copper_block: בלוק נחושת
+  gold_block: בלוק זהב
+  diamond_block: בלוק יהלום
+  netherite_block: בלוק נת'רייט
+  exposed_copper: נחושת חשופה
+  weathered_copper: נחושת בלויה
+  oxidized_copper: נחושת מחומצנת
+  cut_copper: לבני נחושת
+  exposed_cut_copper: לבני נחושת חשופות
+  weathered_cut_copper: לבני נחושת בלויות
+  oxidized_cut_copper: לבני נחושת מחומצנות
+  cut_copper_stairs: מדרגות לבני נחושת
+  exposed_cut_copper_stairs: מדרגות לבני נחושת חשופות
+  weathered_cut_copper_stairs: מדרגות לבני נחושת בלויות
+  oxidized_cut_copper_stairs: מדרגות לבני נחושת מחומצנות
+  cut_copper_slab: לבנת נחושת חצויה
+  exposed_cut_copper_slab: לבנת נחושת חשופה חצויה
+  weathered_cut_copper_slab: לבנת נחושת בלויה חצויה
+  oxidized_cut_copper_slab: לבנת נחושת מחומצנת חצויה
+  waxed_copper_block: בלוק נחושת מצופה שעווה
+  waxed_exposed_copper: נחושת חשופה מצופת שעווה
+  waxed_weathered_copper: נחושת בלויה מצופת שעווה
+  waxed_oxidized_copper: נחושת מחומצנת מצופת שעווה
+  waxed_cut_copper: לבני נחושת מצופות שעווה
+  waxed_exposed_cut_copper: לבני נחושת חשופות מצופות שעווה
+  waxed_weathered_cut_copper: לבני נחושת בלויות מצופות שעווה
+  waxed_oxidized_cut_copper: לבני נחושת מחומצנות מצופות שעווה
+  waxed_cut_copper_stairs: מדרגות לבני נחושת מצופות שעווה
+  waxed_exposed_cut_copper_stairs: מדרגות לבני נחושת חשופות מצופות שעווה
+  waxed_weathered_cut_copper_stairs: מדרגות לבני נחושת בלויות מצופות שעווה
+  waxed_oxidized_cut_copper_stairs: מדרגות לבני נחושת מחומצנות מצופות שעווה
+  waxed_cut_copper_slab: לבנת נחושת מצופת שעווה חצויה
+  waxed_exposed_cut_copper_slab: לבנת נחושת חשופה מצופת שעווה חצויה
+  waxed_weathered_cut_copper_slab: לבנת נחושת בלויה מצופת שעווה חצויה
+  waxed_oxidized_cut_copper_slab: לבנת נחושת מצופת שעווה מחומצנת חצויה
   oak_log: עץ אלון
   spruce_log: עץ אשוחית
   birch_log: עץ שדר
@@ -81,26 +145,24 @@ material:
   jungle_leaves: עלי ג'ונגל
   acacia_leaves: עלי שיטה
   dark_oak_leaves: עלי אלון כהה
+  azalea_leaves: עלי אזליאה
+  flowering_azalea_leaves: עלי אזליאה פורחת
   sponge: ספוג
   wet_sponge: ספוג רטוב
   glass: זכוכית
-  lapis_ore: עפרת לאפיס לאזולי
+  tinted_glass: זכוכית אטומה
   lapis_block: בלוק לאפיס לאזולי
-  dispenser: זורקן
   sandstone: אבן חול
   chiseled_sandstone: אבן חול מפוסלת
   cut_sandstone: אבן חול חתוכה
-  note_block: בלוק צליל
-  powered_rail: מסילה ממונעת
-  detector_rail: מסילת חיישן
-  sticky_piston: בוכנה דביקה
   cobweb: קורי עכביש
   grass: דשא
   fern: שרך
+  azalea: אזליאה
+  flowering_azalea: אזליאה פורחת
   dead_bush: שיח מת
   seagrass: עשב ים
   sea_pickle: מלפפון ים
-  piston: בוכנה
   white_wool: צמר לבן
   orange_wool: צמר כתום
   magenta_wool: צמר מג'נטה
@@ -130,6 +192,7 @@ material:
   cornflower: דרדר כחול
   lily_of_the_valley: שושנת העמקים
   wither_rose: ורד ווית'ר
+  spore_blossom: נבג פורח
   brown_mushroom: פטריה חומה
   red_mushroom: פטרייה אדומה
   crimson_fungus: פטריית ארגמן
@@ -141,9 +204,12 @@ material:
   twisting_vines: גפנים מתפתלות
   sugar_cane: קנה סוכר
   kelp: אצה
+  moss_carpet: שטיח טחב
+  moss_block: בלוק טחב
+  hanging_roots: שורשי אוויר
+  big_dripleaf: עלה טפטוף גדול
+  small_dripleaf: עלה טפטוף קטן
   bamboo: במבוק
-  gold_block: בלוק זהב
-  iron_block: בלוק ברזל
   oak_slab: קרש אלון חצוי
   spruce_slab: קרש אשוחית חצוי
   birch_slab: קרש שדר חצוי
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: אבן חול חלקה
   smooth_stone: אבן חלקה
   bricks: לבנים
-  tnt: חומר נפץ
   bookshelf: מדף ספרים
   mossy_cobblestone: אבן טחב מרוסקת
   obsidian: אובסידיאן
@@ -187,27 +252,11 @@ material:
   spawner: מזמן
   oak_stairs: מדרגות אלון
   chest: תיבה
-  diamond_ore: עפרת יהלום
-  diamond_block: בלוק יהלום
   crafting_table: שולחן מלאכה
   farmland: ערוגה
   furnace: תנור
   ladder: סולם
-  rail: מסילה
   cobblestone_stairs: מדרגות אבן מרוסקת
-  lever: מפסק
-  stone_pressure_plate: לוחית לחץ מאבן
-  oak_pressure_plate: לוחית לחץ מעץ אלון
-  spruce_pressure_plate: לוחית לחץ מאשוחית
-  birch_pressure_plate: לוחית לחץ משדר
-  jungle_pressure_plate: לוחית לחץ מעץ ג'ונגל
-  acacia_pressure_plate: לוחית לחץ משיטה
-  dark_oak_pressure_plate: לוחית לחץ מאלון כהה
-  crimson_pressure_plate: לוחית לחץ מעץ ארגמן
-  warped_pressure_plate: לוחית לחץ מעוותת
-  polished_blackstone_pressure_plate: לוחית לחץ מאבן שחורה מלוטשת
-  redstone_ore: עפרת רדסטון
-  redstone_torch: לפיד רדסטון
   snow: שלג
   ice: קרח
   snow_block: בלוק שלג
@@ -224,32 +273,31 @@ material:
   warped_fence: גדר מעוותת
   pumpkin: דלעת
   carved_pumpkin: דלעת מגולפת
+  jack_o_lantern: מנורת דלעת
   netherrack: נת'רראק
   soul_sand: חול נשמה
   soul_soil: עפר נשמה
   basalt: בזלת
   polished_basalt: בזלת מלוטשת
+  smooth_basalt: בזלת חלקה
   soul_torch: לפיד נשמה
   glowstone: גלוסטון
-  jack_o_lantern: מנורת דלעת
-  oak_trapdoor: דלת סתרים מאלון
-  spruce_trapdoor: דלת סתרים מאשוחית
-  birch_trapdoor: דלת סתרים משדר
-  jungle_trapdoor: דלת סתרים מעץ ג'ונגל
-  acacia_trapdoor: דלת סתרים משיטה
-  dark_oak_trapdoor: דלת סתרים מאלון כהה
-  crimson_trapdoor: דלת סתרים מעץ ארגמן
-  warped_trapdoor: דלת סתרים מעוותת
   infested_stone: אבן נגועה
   infested_cobblestone: אבן מרוסקת נגועה
   infested_stone_bricks: לבני אבן נגועות
   infested_mossy_stone_bricks: לבני אבן טחב נגועות
   infested_cracked_stone_bricks: לבני אבן סדוקות נגועות
   infested_chiseled_stone_bricks: לבני אבן מלוטשות נגועות
+  infested_deepslate: לווחה נגועה
   stone_bricks: לבני אבן
   mossy_stone_bricks: לבני אבן טחב
   cracked_stone_bricks: לבני אבן סדוקות
   chiseled_stone_bricks: לבני אבן מפוסלות
+  deepslate_bricks: לבני לווחה
+  cracked_deepslate_bricks: לבני לווחה סדוקות
+  deepslate_tiles: אריחי לווחה
+  cracked_deepslate_tiles: אריחי לווחה סדוקים
+  chiseled_deepslate: לווחה מפוסלת
   brown_mushroom_block: בלוק פטריות חומות
   red_mushroom_block: בלוק פטריה אדומה
   mushroom_stem: גזע פטריה
@@ -258,14 +306,7 @@ material:
   glass_pane: זגוגית
   melon: אבטיח
   vine: גפנים
-  oak_fence_gate: שער גדר אלון
-  spruce_fence_gate: שער גדר אשוחית
-  birch_fence_gate: שער גדר שדר
-  jungle_fence_gate: שער גדר עץ ג'ונגל
-  acacia_fence_gate: שער גדר עץ שיטה
-  dark_oak_fence_gate: שער גדר אלון כהה
-  crimson_fence_gate: שער גדר עץ ארגמן
-  warped_fence_gate: שער גדר מעוותת
+  glow_lichen: חזזית זוהרת
   brick_stairs: מדרגות לבנים
   stone_brick_stairs: מדרגות לבני אבן
   mycelium: תפטיר
@@ -280,11 +321,8 @@ material:
   end_stone: אבן אנד
   end_stone_bricks: לבני אבן אנד
   dragon_egg: ביצת דרקון
-  redstone_lamp: מנורת רדסטון
   sandstone_stairs: מדרגות אבן חול
-  emerald_ore: עפרת ברקת
   ender_chest: תיבת אנדר
-  tripwire_hook: קרס חוט מעידה
   emerald_block: בלוק ברקת
   spruce_stairs: מדרגות אשוחית
   birch_stairs: מדרגות שדר
@@ -310,33 +348,18 @@ material:
   blackstone_wall: קיר אבן שחורה
   polished_blackstone_wall: קיר אבן שחורה מלוטשת
   polished_blackstone_brick_wall: קיר לבני אבן שחורה מלוטשת
-  stone_button: כפתור מאבן
-  oak_button: כפתור מעץ אלון
-  spruce_button: כפתור מאשוחית
-  birch_button: כפתור משדר
-  jungle_button: כפתור מעץ ג'ונגל
-  acacia_button: כפתור משיטה
-  dark_oak_button: כפתור מאלון כהה
-  crimson_button: כפתור מעץ ארגמן
-  warped_button: כפתור מעוות
-  polished_blackstone_button: כפתור מאבן שחורה מלוטשת
+  cobbled_deepslate_wall: קיר לווחה מרוצפת
+  polished_deepslate_wall: קיר לווחה מלוטשת
+  deepslate_brick_wall: קיר לבני לווחה
+  deepslate_tile_wall: קיר אריחי לווחה
   anvil: סדן
   chipped_anvil: סדן סדוק
   damaged_anvil: סדן פגום
-  trapped_chest: תיבה ממולכדת
-  light_weighted_pressure_plate: לוחית לחץ קלת משקל
-  heavy_weighted_pressure_plate: לוחית לחץ כבדת משקל
-  daylight_detector: חיישן אור יום
-  redstone_block: בלוק רדסטון
-  nether_quartz_ore: עפרת נת'ר קוורץ
-  hopper: משפך
   chiseled_quartz_block: בלוק קוורץ מפוסל
   quartz_block: בלוק קוורץ
   quartz_bricks: לבני קוורץ
   quartz_pillar: עמוד קוורץ
   quartz_stairs: מדרגות קוורץ
-  activator_rail: מסילת הפעלה
-  dropper: פולטן
   white_terracotta: טרקוטה לבנה
   orange_terracotta: טרקוטה כתומה
   magenta_terracotta: טרקוטה מג'נטה
@@ -354,7 +377,7 @@ material:
   red_terracotta: טרקוטה אדומה
   black_terracotta: טרקוטה שחורה
   barrier: מחסום
-  iron_trapdoor: דלת ברזל ממולכדת
+  light: אור
   hay_block: ערמת חציר
   white_carpet: שטיח לבן
   orange_carpet: שטיח כתום
@@ -373,12 +396,10 @@ material:
   red_carpet: שטיח אדום
   black_carpet: שטיח שחור
   terracotta: טרקוטה
-  coal_block: בלוק פחם
   packed_ice: קרח דחוס
   acacia_stairs: מדרגות שיטה
   dark_oak_stairs: מדרגות אלון כהה
-  slime_block: בלוק רפש
-  grass_path: שביל דשא
+  dirt_path: שביל אדמה
   sunflower: חמנית
   lilac: לילך
   rose_bush: שיח ורדים
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: לבני נת'ר אדומות
   bone_block: קוביית עצם
   structure_void: חלל מבנה
-  observer: תצפיתן
   shulker_box: תיבת שולקר
   white_shulker_box: תיבת שולקר לבנה
   orange_shulker_box: תיבת שולקר כתומה
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: מדרגות לבני נת'ר אדומות
   polished_andesite_stairs: מדרגות אנזיט מלוטש
   diorite_stairs: מדרגות דיוריט
+  cobbled_deepslate_stairs: מדרגות לווחה מרוצפת
+  polished_deepslate_stairs: מדרגות לווחה מלוטשת
+  deepslate_brick_stairs: מדרגות לבני לווחה
+  deepslate_tile_stairs: מדרגות אריחי לווחה
   polished_granite_slab: גרניט מלוטש חצוי
   smooth_red_sandstone_slab: אבן חול אדומה חלקה חצויה
   mossy_stone_brick_slab: לבני אבן טחב חצויות
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: לבני נת'ר אדומות חצויות
   polished_andesite_slab: אנזיט מלוטש חצוי
   diorite_slab: דיוריט חצוי
+  cobbled_deepslate_slab: לווחה מרוצפת חצויה
+  polished_deepslate_slab: לווחה מלוטשת חצויה
+  deepslate_brick_slab: לבנת לווחה חצויה
+  deepslate_tile_slab: אריח לווחה חצוי
   scaffolding: פיגום
+  redstone: אבק רדסטון
+  redstone_torch: לפיד רדסטון
+  redstone_block: בלוק רדסטון
+  repeater: משחזר רדסטון
+  comparator: משווה זרם רדסטון
+  piston: בוכנה
+  sticky_piston: בוכנה דביקה
+  slime_block: בלוק רפש
+  honey_block: בלוק דבש
+  observer: תצפיתן
+  hopper: משפך
+  dispenser: זורקן
+  dropper: פולטן
+  lectern: מעמד ספרים
+  target: מטרה
+  lever: מפסק
+  lightning_rod: כליא ברק
+  daylight_detector: חיישן אור יום
+  sculk_sensor: חיישן סקאלק
+  tripwire_hook: קרס חוט מעידה
+  trapped_chest: תיבה ממולכדת
+  tnt: חומר נפץ
+  redstone_lamp: מנורת רדסטון
+  note_block: בלוק צליל
+  stone_button: כפתור מאבן
+  polished_blackstone_button: כפתור מאבן שחורה מלוטשת
+  oak_button: כפתור מעץ אלון
+  spruce_button: כפתור מאשוחית
+  birch_button: כפתור משדר
+  jungle_button: כפתור מעץ ג'ונגל
+  acacia_button: כפתור משיטה
+  dark_oak_button: כפתור מאלון כהה
+  crimson_button: כפתור מעץ ארגמן
+  warped_button: כפתור מעוות
+  stone_pressure_plate: לוחית לחץ מאבן
+  polished_blackstone_pressure_plate: לוחית לחץ מאבן שחורה מלוטשת
+  light_weighted_pressure_plate: לוחית לחץ קלת משקל
+  heavy_weighted_pressure_plate: לוחית לחץ כבדת משקל
+  oak_pressure_plate: לוחית לחץ מעץ אלון
+  spruce_pressure_plate: לוחית לחץ מאשוחית
+  birch_pressure_plate: לוחית לחץ משדר
+  jungle_pressure_plate: לוחית לחץ מעץ ג'ונגל
+  acacia_pressure_plate: לוחית לחץ משיטה
+  dark_oak_pressure_plate: לוחית לחץ מאלון כהה
+  crimson_pressure_plate: לוחית לחץ מעץ ארגמן
+  warped_pressure_plate: לוחית לחץ מעוותת
   iron_door: דלת ברזל
   oak_door: דלת אלון
   spruce_door: דלת אשוחית
@@ -572,8 +646,42 @@ material:
   dark_oak_door: דלת אלון כהה
   crimson_door: דלת עץ ארגמן
   warped_door: דלת מעוותת
-  repeater: משחזר רדסטון
-  comparator: משווה זרם רדסטון
+  iron_trapdoor: דלת ברזל ממולכדת
+  oak_trapdoor: דלת סתרים מאלון
+  spruce_trapdoor: דלת סתרים מאשוחית
+  birch_trapdoor: דלת סתרים משדר
+  jungle_trapdoor: דלת סתרים מעץ ג'ונגל
+  acacia_trapdoor: דלת סתרים משיטה
+  dark_oak_trapdoor: דלת סתרים מאלון כהה
+  crimson_trapdoor: דלת סתרים מעץ ארגמן
+  warped_trapdoor: דלת סתרים מעוותת
+  oak_fence_gate: שער גדר אלון
+  spruce_fence_gate: שער גדר אשוחית
+  birch_fence_gate: שער גדר שדר
+  jungle_fence_gate: שער גדר עץ ג'ונגל
+  acacia_fence_gate: שער גדר עץ שיטה
+  dark_oak_fence_gate: שער גדר אלון כהה
+  crimson_fence_gate: שער גדר עץ ארגמן
+  warped_fence_gate: שער גדר מעוותת
+  powered_rail: מסילה ממונעת
+  detector_rail: מסילת חיישן
+  rail: מסילה
+  activator_rail: מסילת הפעלה
+  saddle: אוכף
+  minecart: קרונית
+  chest_minecart: קרונית עם תיבה
+  furnace_minecart: קרונית עם תנור
+  tnt_minecart: קרונית עם חומר נפץ
+  hopper_minecart: קרונית עם משפך
+  carrot_on_a_stick: גזר על מקל
+  warped_fungus_on_a_stick: פטריה מעוותת על מקל
+  elytra: אליטרה
+  oak_boat: סירת אלון
+  spruce_boat: סירת אשוחית
+  birch_boat: סירת שדר
+  jungle_boat: סירת עץ ג'ונגל
+  acacia_boat: סירת עץ שיטה
+  dark_oak_boat: סירת אלון כהה
   structure_block: בלוק מבנה
   jigsaw: בלוק פאזל
   turtle_helmet: שריון צב
@@ -585,7 +693,15 @@ material:
   coal: פחם
   charcoal: פחם עץ
   diamond: יהלום
+  emerald: ברקת
+  lapis_lazuli: לאפיס לאזולי
+  quartz: נת'ר קוורץ
+  amethyst_shard: רסיס אחלמה
+  raw_iron: ברזל גולמי
   iron_ingot: מטיל ברזל
+  raw_copper: נחושת גולמית
+  copper_ingot: מטיל נחושת
+  raw_gold: זהב גולמי
   gold_ingot: מטיל זהב
   netherite_ingot: מטיל נת'רייט
   netherite_scrap: נת'רייט מנופץ
@@ -669,29 +785,27 @@ material:
   bucket: דלי
   water_bucket: דלי מים
   lava_bucket: דלי לבה
-  minecart: קרונית
-  saddle: אוכף
-  redstone: אבק רדסטון
+  powder_snow_bucket: דלי אבקת שלג
   snowball: כדור שלג
-  oak_boat: סירת אלון
   leather: עור
   milk_bucket: דלי חלב
   pufferfish_bucket: דלי אבו נפחא
   salmon_bucket: דלי סלמון
   cod_bucket: דלי בקלה
   tropical_fish_bucket: דלי דג טרופי
+  axolotl_bucket: דלי אקסולוטל
   brick: לבנה
   clay_ball: חימר
   dried_kelp_block: בלוק אצה מיובשת
   paper: נייר
   book: ספר
   slime_ball: כדור רפש
-  chest_minecart: קרונית עם תיבה
-  furnace_minecart: קרונית עם תנור
   egg: ביצה
   compass: מצפן
+  bundle: חבילה
   fishing_rod: חכת דיג
   clock: שעון
+  spyglass: טלסקופ
   glowstone_dust: אבק גלוסטון
   cod: בקלה נא
   salmon: סלמון נא
@@ -700,8 +814,8 @@ material:
   cooked_cod: בקלה אפוי
   cooked_salmon: סלמון מבושל
   ink_sac: שק דיו
+  glow_ink_sac: שק דיו זוהר
   cocoa_beans: פולי קקאו
-  lapis_lazuli: לאפיס לאזולי
   white_dye: צבע לבן
   orange_dye: צבע כתום
   magenta_dye: צבע מג'נטה
@@ -730,7 +844,7 @@ material:
   lime_bed: מיטה ליים
   pink_bed: מיטה ורודה
   gray_bed: מיטה אפורה
-  light_gray_bed: מיטה תכלת
+  light_gray_bed: מיטה אפורה בהירה
   cyan_bed: מיטה ציאן
   purple_bed: מיטה סגולה
   blue_bed: מיטה כחולה
@@ -765,6 +879,7 @@ material:
   cauldron: קדרה
   ender_eye: עין אנדר
   glistering_melon_slice: פרוסת אבטיח מנצנץ
+  axolotl_spawn_egg: ביצת זימון אקסולוטל
   bat_spawn_egg: ביצת זימון עטלף
   bee_spawn_egg: ביצת זימון דבורה
   blaze_spawn_egg: ביצת זימון להבון
@@ -776,13 +891,15 @@ material:
   creeper_spawn_egg: ביצת זימון קריפר
   dolphin_spawn_egg: ביצת זימון דולפין
   donkey_spawn_egg: ביצת זימון חמור
-  drowned_spawn_egg: ביצת זימון טבוע
+  drowned_spawn_egg: ביצת זימון טובע
   elder_guardian_spawn_egg: ביצת זימון שומר עתיק
   enderman_spawn_egg: ביצת זימון אנדרמן
   endermite_spawn_egg: ביצת זימון אנדרמייט
   evoker_spawn_egg: ביצת זימון מעורר
   fox_spawn_egg: ביצת זימון שועל
   ghast_spawn_egg: ביצת זימון גאסט
+  glow_squid_spawn_egg: ביצת זימון דיונון זוהר
+  goat_spawn_egg: ביצת זימון עז
   guardian_spawn_egg: ביצת זימון שומר
   hoglin_spawn_egg: ביצת זימון הוגלין
   horse_spawn_egg: ביצת זימון סוס
@@ -833,8 +950,8 @@ material:
   fire_charge: כדור אש
   writable_book: ספר וקולמוס
   written_book: ספר כתוב
-  emerald: ברקת
   item_frame: מסגרת פריט
+  glow_item_frame: מסגרת פריט זוהרת
   flower_pot: עציץ
   carrot: גזר
   potato: תפוח אדמה
@@ -848,17 +965,12 @@ material:
   zombie_head: ראש זומבי
   creeper_head: ראש קריפר
   dragon_head: ראש דרקון
-  carrot_on_a_stick: גזר על מקל
-  warped_fungus_on_a_stick: פטריה מעוותת על מקל
   nether_star: כוכב נת'ר
   pumpkin_pie: פאי דלעת
   firework_rocket: טיל זיקוק
   firework_star: כוכב זיקוק
   enchanted_book: ספר מכושף
   nether_brick: לבנת נת'ר
-  quartz: נת'ר קוורץ
-  tnt_minecart: קרונית עם חומר נפץ
-  hopper_minecart: קרונית עם משפך
   prismarine_shard: שבר פריזמרין
   prismarine_crystals: קריסטלי פריזמרין
   rabbit: ארנב נא
@@ -900,16 +1012,10 @@ material:
   beetroot_soup: מרק סלק אדום
   dragon_breath: נשימת דרקון
   splash_potion: שיקוי התזה
-  spectral_arrow: חץ זוהר
+  spectral_arrow: חץ ספקטרלי
   tipped_arrow: חץ טבול
   lingering_potion: שיקוי שהייה
   shield: מגן
-  elytra: אליטרה
-  spruce_boat: סירת אשוחית
-  birch_boat: סירת שדר
-  jungle_boat: סירת עץ ג'ונגל
-  acacia_boat: סירת עץ שיטה
-  dark_oak_boat: סירת אלון כהה
   totem_of_undying: טוטם האלמוות
   shulker_shell: קונכיית שולקר
   iron_nugget: גוש ברזל
@@ -929,7 +1035,7 @@ material:
   music_disc_wait: דיסק מוזיקה
   music_disc_pigstep: דיסק מוזיקה
   trident: קלשון
-  phantom_membrane: קרום פאנטום
+  phantom_membrane: קרום הפאנטום
   nautilus_shell: קונכיית שייטן
   heart_of_the_sea: הלב של הים
   crossbow: קשת מוצלבת
@@ -948,13 +1054,13 @@ material:
   cartography_table: שולחן מיפוי
   fletching_table: שולחן הכנת חיצים
   grindstone: אבן משחזת
-  lectern: מעמד ספרים
   smithing_table: שולחן נפחות
   stonecutter: חותך אבנים
   bell: פעמון
   lantern: עששית
   soul_lantern: מנורת נשמה
   sweet_berries: פירות יער מתוקים
+  glow_berries: פירות יער זוהרים
   campfire: מדורה
   soul_campfire: מדורת נשמות
   shroomlight: פטריית זוהר
@@ -962,12 +1068,8 @@ material:
   bee_nest: קן דבורים
   beehive: כוורת
   honey_bottle: בקבוק דבש
-  honey_block: בלוק דבש
   honeycomb_block: בלוק חלת דבש
   lodestone: מגנטיט
-  netherite_block: בלוק נת'רייט
-  ancient_debris: רסיסים עתיקים
-  target: מטרה
   crying_obsidian: אובסידיאן בוכה
   blackstone: אבן שחורה
   blackstone_slab: אבן שחורה חצויה
@@ -982,6 +1084,28 @@ material:
   polished_blackstone_brick_stairs: מדרגות לבני אבן שחורה מלוטשת
   cracked_polished_blackstone_bricks: לבני אבן שחורה מלוטשת סדוקה
   respawn_anchor: עוגן התחדשות
+  candle: נר
+  white_candle: נר לבן
+  orange_candle: נר כתום
+  magenta_candle: נר מג'נטה
+  light_blue_candle: נר תכלת
+  yellow_candle: נר צהוב
+  lime_candle: נר ליים
+  pink_candle: נר ורוד
+  gray_candle: נר אפור
+  light_gray_candle: נר אפור בהיר
+  cyan_candle: נר ציאן
+  purple_candle: נר סגול
+  blue_candle: נר כחול
+  brown_candle: נר חום
+  green_candle: נר ירוק
+  red_candle: נר אדום
+  black_candle: נר שחור
+  small_amethyst_bud: ניצן אחלמה קטן
+  medium_amethyst_bud: ניצן אחלמה
+  large_amethyst_bud: ניצן אחלמה גדול
+  amethyst_cluster: גביש אחלמה
+  pointed_dripstone: אבן טפטוף מחודדת
   water: מים
   lava: לבה
   tall_seagrass: עשב ים גבוה
@@ -993,7 +1117,7 @@ material:
   redstone_wire: כבל רדסטון
   oak_wall_sign: שלט אלון
   spruce_wall_sign: שלט אשוחית
-  birch_wall_sign: שלט קיר משדר
+  birch_wall_sign: שלט שדר
   acacia_wall_sign: שלט שיטה
   jungle_wall_sign: שלט מעץ ג'ונגל
   dark_oak_wall_sign: שלט אלון כהה
@@ -1004,6 +1128,9 @@ material:
   attached_melon_stem: גזע אבטיח מחובר
   pumpkin_stem: גזע דלעת
   melon_stem: גזע אבטיח
+  water_cauldron: קדרת מים
+  lava_cauldron: קדרת לבה
+  powder_snow_cauldron: קדירת אבקת שלג
   end_portal: מסגרת שער אנד
   cocoa: קקאו
   tripwire: חוט מעידה
@@ -1083,6 +1210,30 @@ material:
   potted_warped_fungus: פטריה מעוותת שתולה
   potted_crimson_roots: שורשי ארגמן שתולים
   potted_warped_roots: שורשים מעוותים שתולים
+  candle_cake: עוגת נר
+  white_candle_cake: עוגה עם נר לבן
+  orange_candle_cake: עוגה עם נר כתום
+  magenta_candle_cake: עוגה עם נר מג'נטה
+  light_blue_candle_cake: עוגה עם נר תכלת
+  yellow_candle_cake: עוגה עם נר צהוב
+  lime_candle_cake: עוגה עם נר ליים
+  pink_candle_cake: עוגה עם נר ורוד
+  gray_candle_cake: עוגה עם נר אפור
+  light_gray_candle_cake: עוגה עם נר אפור בהיר
+  cyan_candle_cake: עוגה עם נר ציאן
+  purple_candle_cake: עוגה עם נר סגול
+  blue_candle_cake: עוגה עם נר כחול
+  brown_candle_cake: עוגה עם נר חום
+  green_candle_cake: עוגה עם נר ירוק
+  red_candle_cake: עוגה עם נר אדום
+  black_candle_cake: עוגה עם נר שחור
+  powder_snow: אבקת שלג
+  cave_vines: גפני מערות
+  cave_vines_plant: צמח גפני מערות
+  big_dripleaf_stem: גזע עלה טפטוף גדול
+  potted_azalea_bush: עציץ אזליאה
+  potted_flowering_azalea_bush: עציץ אזליאה פורחת
+  grass_path: שביל דשא
   zombie_pigman_spawn_egg: ביצת זימון זומבי אדם-חזיר
   cactus_green: ירוק קקטוס
   dandelion_yellow: צבען צהוב
@@ -1169,46 +1320,48 @@ biome:
   crimson_forest: יער ארגמן
   warped_forest: יער מעוות
   basalt_deltas: דלתאות הבזלת
+  dripstone_caves: מערות נטיפים
+  lush_caves: מערות עבותות
   nether: נת'ר
 enchantment:
-  fire_protection: חסינות לאש
-  sharpness: חדות
-  flame: להבה
-  soul_speed: מהירות נשמה
-  aqua_affinity: משיכה למים
-  punch: דחיפה
-  loyalty: נאמנות
-  depth_strider: פסיעת מעמקים
-  vanishing_curse: קללת היעלמות
-  unbreaking: בלתי שביר
-  knockback: דחייה
-  luck_of_the_sea: מזל הים
-  binding_curse: קללת כבילה
-  fortune: עושר
   protection: הגנה
-  efficiency: יעילות
-  mending: תיקון
-  frost_walker: הליכת כפור
-  lure: פיתיון
-  looting: בזיזה
-  piercing: חדירה
-  blast_protection: חסינות מפיצוצים
-  smite: השמדה
-  multishot: ייריה משולשת
-  fire_aspect: היבט האש
-  channeling: הכוונה
-  sweeping: להב סוחף
-  thorns: קוצים
-  bane_of_arthropods: קללת פרוקי-הרגליים
-  respiration: נשימה
-  riptide: גאות
-  silk_touch: מגע משי
-  quick_charge: טעינה מהירה
-  projectile_protection: הגנה מקליעים
-  impaling: פילוח
+  fire_protection: חסינות לאש
   feather_falling: נפילת נוצה
+  blast_protection: חסינות מפיצוצים
+  projectile_protection: הגנה מקליעים
+  respiration: נשימה
+  aqua_affinity: משיכה למים
+  thorns: קוצים
+  depth_strider: פסען המעמקים
+  frost_walker: הולך בשלג
+  binding_curse: קללת כבילה
+  sharpness: חדות
+  smite: השמדה
+  bane_of_arthropods: קללת פרוקי-הרגליים
+  knockback: דחייה
+  fire_aspect: היבט האש
+  looting: בזיזה
+  sweeping: להב סוחף
+  efficiency: יעילות
+  silk_touch: מגע משי
+  unbreaking: בלתי שביר
+  fortune: עושר
   power: כוח
+  punch: דחיפה
+  flame: להבה
   infinity: אינסוף
+  luck_of_the_sea: מזל הים
+  lure: פיתיון
+  loyalty: נאמנות
+  impaling: פילוח
+  riptide: גאות
+  channeling: הכוונה
+  multishot: ייריה משולשת
+  quick_charge: טעינה מהירה
+  piercing: חדירה
+  mending: תיקון
+  vanishing_curse: קללת היעלמות
+  soul_speed: מהירות נשמה
 potion:
   uncraftable: שיקוי בלתי ניתן להכנה
   water: בקבוק מים
@@ -1299,7 +1452,7 @@ tipped_arrow:
   slow_falling: חץ של נפילה איטית
 entity:
   dropped_item: פריט
-  experience_orb: נקודת נסיון
+  experience_orb: כדור נסיון
   area_effect_cloud: אזור ענן אפקט
   elder_guardian: שומר עתיק
   wither_skeleton: שלד ווית'ר
@@ -1321,7 +1474,7 @@ entity:
   falling_block: בלוק נופל
   firework: טיל זיקוק
   husk: האסק
-  spectral_arrow: חץ זוהר
+  spectral_arrow: חץ ספקטרלי
   shulker_bullet: קליע שולקר
   dragon_fireball: כדור אש דרקון
   zombie_villager: זומבי כפרי
@@ -1334,7 +1487,7 @@ entity:
   evoker: מעורר
   vex: ווקס
   vindicator: מרטש
-  illusioner: אמן האשליות
+  illusioner: אומן האשליות
   minecart_command: קרונית עם בלוק פקודה
   boat: סירה
   minecart: קרונית
@@ -1356,7 +1509,7 @@ entity:
   silverfish: דג הכסף
   blaze: להבון
   magma_cube: קוביית מאגמה
-  ender_dragon: אנדרדרקון
+  ender_dragon: דרקון אנדר
   wither: ווית'ר
   bat: עטלף
   witch: מכשפה
@@ -1403,6 +1556,11 @@ entity:
   strider: סטריידר
   zoglin: זוגלין
   piglin_brute: פיגלין פראי
+  axolotl: אקסולוטל
+  glow_item_frame: מסגרת פריט זוהרת
+  glow_squid: דיונון זוהר
+  goat: עז
+  marker: סמן
   fishing_hook: מצוף דיג
   lightning: ברק
   player: שחקן
@@ -2202,17 +2360,3 @@ villager_profession:
   shepherd: רועה צאן
   toolsmith: נפח כלים
   weaponsmith: נפח נשקים
-villager_career:
-  farmer: חקלאי
-  fisherman: דייג
-  shepherd: רועה צאן
-  fletcher: מוכר חצים
-  librarian: ספרן
-  cartographer: מפאי
-  cleric: כומר
-  armorer: נפח שריון
-  weapon_smith: נפח נשק
-  tool_smith: נפח כלים
-  butcher: קצב
-  leatherworker: רצען
-  nitwit: טמבל

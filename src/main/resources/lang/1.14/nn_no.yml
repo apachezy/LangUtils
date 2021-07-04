@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:20:01                    #
+# Build time: 2021-07-04 21:41:57                    #
 # ####################################################
 language:
   code: nn_no
@@ -25,6 +25,11 @@ material:
   hopper: Trakt for gjenstandar
   hopper_minecart: Gruvevogn med trakt
   infested_chiseled_stone_bricks: Forderva meisla steinmur
+  infested_cobblestone: Forderva brustein
+  infested_cracked_stone_bricks: Forderva sprokken steinmur
+  infested_mossy_stone_bricks: Forderva mosegrodd steinmur
+  infested_stone: Forderva stein
+  infested_stone_bricks: Forderva steinmur
   jack_o_lantern: Lykt av graskar
   leather_helmet: Skinnhue
   lime_wool: Limeléta ull
@@ -85,9 +90,12 @@ tipped_arrow:
   uncraftable: Ulagbar duva pil
   weakness: Veikleikspil
 entity:
+  primed_tnt: Klårgjord TNT
   minecart_hopper: Gruvevogn med trakt
   cave_spider: Holevevkjerring
   polar_bear: Isbjørn
+effect:
+  bad_omen: Ilt jærteikn
 tropical_fish_type:
   clayfish: Leirefisk
 tropical_fish_name:

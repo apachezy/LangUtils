@@ -1,64 +1,124 @@
 # ####################################################
-# Build time: 2021-03-17 16:17:25                    #
+# Build time: 2021-07-04 21:39:01                    #
 # ####################################################
 language:
   code: qya_aa
   name: Quenya
   region: Arda
 material:
+  acacia_boat: Luntë Nísimaldava
+  acacia_button: Tolma Nísimaldava
   acacia_door: Fenna Nísimaldava
+  acacia_fence: Yonwa Nísimaldava
   acacia_fence_gate: Yonwando Nísimaldava
+  acacia_leaves: Lassi Nísimaldava
   acacia_log: Nísimalda
   acacia_planks: Panor Nísimaldava
   acacia_pressure_plate: Sangapalo Nísimaldava
+  acacia_sapling: Nessa Nísimalda
+  acacia_sign: Tanna Nísimaldava
+  acacia_slab: Palo Nísimaldava
   acacia_stairs: Tyelli Nísimaldava
   acacia_trapdoor: Talanfenna Nísimaldava
+  acacia_wall_sign: Tanna Rambava Nísimaldava
+  acacia_wood: Toa Nísimaldo
+  andesite: Ondo Andeson
+  beef: Yaxëo Hrávë
+  birch_boat: Luntë Hwindeva
+  birch_button: Tolma Hwindeva
   birch_door: Fenna Hwindeva
+  birch_fence: Yonwa Hwindeva
   birch_fence_gate: Yonwando Hwindeva
+  birch_leaves: Lassi Hwindeva
   birch_log: Hwindë
   birch_planks: Panor Hwindeva
   birch_pressure_plate: Sangapalo Hwindeva
+  birch_sapling: Nessa Hwindë
+  birch_sign: Tanna Hwindeva
+  birch_slab: Palo Hwindeva
   birch_stairs: Tyelli Hwindeva
   birch_trapdoor: Talanfenna Hwindeva
+  birch_wall_sign: Tanna Rambava Hwindeva
+  birch_wood: Toa Hwindëo
   black_bed: Morna Caima
+  black_carpet: Morë Farma
   black_concrete: Morquë Ceberonda
   black_concrete_powder: Morquë Ceberonimalo
   black_glazed_terracotta: Mastorwa Cémitorina Morë
+  black_shulker_box: Morë colca hyalmalómëo
   black_stained_glass: Morqua Quilëa Hyellë
   black_stained_glass_pane: Morqua Quilëa Lára Hyellë
   black_terracotta: Cémitorina Morqua
+  black_wool: Morë Tó
   blaze_powder: Uryamalo
   blaze_rod: Uryahimya
+  blue_bed: Luinë Caima
+  blue_carpet: Luinë Farma
   blue_concrete: Luinë Ceberonda
   blue_concrete_powder: Luinë Ceberonimalo
   blue_glazed_terracotta: Mastorwa Cémitorina Lúnëa
+  blue_shulker_box: Luinë colca hyalmalómëo
   blue_stained_glass: Luinë Quilëa Hyellë
   blue_stained_glass_pane: Luinë Quilëa Lára Hyellë
   blue_terracotta: Cémitorina Luinë
+  blue_wool: Luinë Tó
   bone_block: Mitta Axoiva
+  bone_meal: Axoporë
+  brick: Telar
+  bricks: Telari
   brick_stairs: Tyeller Telariva
+  brown_bed: Varnë Caima
+  brown_carpet: Varnë Farma
   brown_concrete: Varnë Ceberonda
   brown_concrete_powder: Varnë Ceberonimalo
   brown_glazed_terracotta: Mastorwa Cémitorina Varnë
+  brown_shulker_box: Varnë colca hyalmalómëo
   brown_stained_glass: Varnë Quilëa Hyellë
   brown_stained_glass_pane: Varnë Quilëa Lára Hyellë
   brown_terracotta: Cémitorina Varnë
+  brown_wool: Varnë Tó
+  carrot: Sulca
+  carrots: Sulcar
+  carrot_on_a_stick: Sulca Olwendë
+  cauldron: Cemnaro
+  cave_air: Felcovista
+  charcoal: Ustanetoa
   chest: 'Mando: custody, safe-keeping.'
   chest_minecart: Norollë Mandos
+  chiseled_quartz_block: Nambaina Colca Marilwa
+  chiseled_red_sandstone: Nambaina Carnë Litseondo
+  chiseled_sandstone: Nambaina Litseondo
+  chiseled_stone_bricks: Nambaina Telari Ondova
+  coal: Ustasar
   coal_block: Colca Ustasardwa
   coal_ore: Fetsë Ustasardwa
+  coarse_dirt: Naraca Cemen
   cobblestone_slab: Perracondo
   cobblestone_stairs: Tyelli Racondon
+  cobblestone_wall: Ramba Racondo
+  cobweb: Ungwë
+  cooked_beef: Apsa Yaxëo
+  cooked_chicken: Apsa Porocëo
+  cooked_mutton: Apsa Mámo
   cooked_porkchop: Apsa Polco
+  cooked_rabbit: Apsa Lapattëo
+  cookie: Lemba
+  cornflower: Helwalos
+  cracked_stone_bricks: Hyarinë Telari Ondova
+  crafting_table: Tanwesarno
   creeper_head: Cár Hlicuiloro
   cyan_bed: Menelluin Caima
+  cyan_carpet: Eareluinë Farma
   cyan_concrete: Eareluinë Ceberonda
   cyan_concrete_powder: Eareluinë Ceberonimalo
+  cyan_dye: Eareluinë Quilë
   cyan_glazed_terracotta: Mastorwa Cémitorina Earelúnë
+  cyan_shulker_box: Ëareluinë colca hyalmalómëo
   cyan_stained_glass: Helwa Quilëa Hyellë
   cyan_stained_glass_pane: Helwa Quilëa Lára Hyellë
   cyan_terracotta: Eareluinë Cémitorina
   cyan_wool: Laiquaninwa Tó
+  dandelion: Nelcelassë
   dark_oak_boat: Luntë Morë Nornova
   dark_oak_button: Tolma Morë Nornova
   dark_oak_door: Fenna Morë Nornova
@@ -70,40 +130,67 @@ material:
   dark_oak_pressure_plate: Sangapalo Morë Nornova
   dark_oak_sapling: Nessa Morë Norno
   dark_oak_sign: Tanna Morë Nornova
+  dark_oak_slab: Palo Morë Nornova
   dark_oak_stairs: Tyelli Morë Nornova
   dark_oak_trapdoor: Talanfenna Morë Nornova
   dark_oak_wall_sign: Tanna Rambava Morë Nornova
   dark_oak_wood: Toa Morë Norno
+  dead_bush: Hessa Tussa
   diamond: Mírë
   diamond_axe: Pelecco Tinwíro
   diamond_block: Colca Míreva
+  diamond_boots: Hyapatu Míreva
   diamond_chestplate: Ambassë Míreva
   diamond_helmet: Cassa Míreva
+  diamond_hoe: Mahyar Míreva
+  diamond_leggings: Telcu Míreva
   diamond_ore: Ondo Míreva
   diamond_pickaxe: Ondopelecco Míreva
   diamond_shovel: Sampa Míreva
   diamond_sword: Macil Tinwíro
   dragon_egg: Lócë Augo
+  dragon_head: Cár Lóceo
   egg: Ohte
+  elytra: Ráma
   emerald: "Laimaril\n\n\nsorce: \nhttp://folk.uib.no/hnohf/nqnt.htm\n\nRANTA 21 \n\
     19. i cantea * lamaril.\n(the fourth emerald)\n\nHowever things like emerald ore\
     \ or emerald block, it will remain as laimíreva."
   emerald_block: Colca Laimíreva
+  emerald_ore: Fetsë Laimíreva
   ender_chest: Mettarë Mando
+  ender_eye: Mettahen
+  end_crystal: Mitta Calca
+  end_stone_bricks: Telari Metta Ondova
+  fermented_spider_eye: Ahyanë Liantë Hen
+  filled_map: Nórihalmë
   fire: Nárë
+  flint_and_steel: Sinca ar Erë
+  furnace_minecart: Norollë Urnas
+  ghast_tear: Nírë Hortafëo
   glass: Hyellë
   glass_bottle: Olpë Hyelleva
   glass_pane: Lára Hyellë
   glowstone: Lúsina Hyellë
   glowstone_dust: Lúsina Hyellë Asto
+  golden_apple: Orva Maltava
+  golden_axe: Pelecco Maltava
   golden_boots: Hyapatu Maltava
+  golden_carrot: Sulca Maltava
+  golden_chestplate: Ambassë Maltava
+  golden_helmet: Cassa Maltava
+  golden_hoe: Mahyar Maltava
+  golden_leggings: Telcu Maltava
   golden_pickaxe: Ondopelecco Maltava
   golden_shovel: Sampa Maltava
   golden_sword: Macil Maltava
   gold_block: Maltacolca
+  gold_ingot: Malta
+  gold_nugget: Maltasar
   gold_ore: Ondo Maltava
   grass_block: Salquëcolca
   grass_path: Tië Salqueva
+  gravel: Nícë Sardi
+  gray_bed: Sinda Caima
   gray_carpet: Hiswa Farma
   gray_concrete: Mísë Ceberonda
   gray_concrete_powder: Mísë Ceberonimalo
@@ -114,36 +201,66 @@ material:
   gray_stained_glass_pane: Sindë Quilëa Lára Hyellë
   gray_terracotta: Cémitorina Mistë
   gray_wool: Hiswa Tó
+  green_bed: Laica Caima
+  green_carpet: Laica Farma
   green_concrete: Laica Ceberonda
   green_concrete_powder: Laica Ceberonimalo
   green_glazed_terracotta: Mastorwa Cémitorina laicë
+  green_shulker_box: Laica colca hyalmalómëo
   green_stained_glass: Laiqua Quilëa Hyellë
   green_stained_glass_pane: Laiqua Quilëa Lára Hyellë
   green_terracotta: Cémitorina Laiqua
+  green_wool: Laica Tó
+  iron_axe: Pelecco Angaina
   iron_block: Colca Angaina
   iron_boots: Hyapatu Angaina
   iron_chestplate: Ambassë Angaina
   iron_door: Fenna Angaina
   iron_helmet: Cassa Angaina
+  iron_hoe: Mahyar Angaina
+  iron_ingot: Anga
+  iron_leggings: Telcu Angaina
+  iron_nugget: Mië Angava
   iron_ore: Ondo Angaina
   iron_pickaxe: Ondopelecco Angaina
   iron_shovel: Sampa Angava
+  iron_sword: Macil Ango
   iron_trapdoor: Fenna Talamo Angaina
+  jukebox: Lindalecolca
+  jungle_boat: Luntë Mistetaurëo
+  jungle_button: Tolma Mistetaurëo
   jungle_door: Fenna Mistetaurëo
   jungle_fence: Yonwa Mistetaurëo
   jungle_fence_gate: Yonwando Mistetaurëo
+  jungle_leaves: Lassi Mistetaurëo
   jungle_log: Turu Mistetaurëo
   jungle_planks: Panor Mistetaurëo
+  jungle_pressure_plate: Sangapalo Mistetaurëo
+  jungle_sapling: Nessa Alda Mistetaurëo
+  jungle_sign: Tanna Mistetaurëo
+  jungle_slab: Palo Mistetaurëo
   jungle_stairs: Tyelli Mistetaurëo
   jungle_trapdoor: Tamanfenna Mistetaurëo
+  jungle_wall_sign: Tanna Rambava Mistetaurëo
+  jungle_wood: Toa Mistetaurëo
+  knowledge_book: Nolweparma
+  ladder: Tyeller
   lapis_block: Luinë Quilë Colca
+  lapis_lazuli: Iluinë Caliondo
   lapis_ore: Fetsë Iluinë Caliondova
+  lava: Síranárë
   lava_bucket: Tambë Síranáreva
   leather_boots: Hyapatu Aluva
   leather_chestplate: Laupë Aluva
+  leather_leggings: Telcu Aluva
+  lever: Turolwen
+  light_blue_bed: Helwa Caima
+  light_blue_carpet: Helwa Farma
   light_blue_concrete: Helwa Ceberonda
   light_blue_concrete_powder: Helwa Ceberonimalo
+  light_blue_dye: Helwa Quilë
   light_blue_glazed_terracotta: Mastorwa Cémitorina Helwa
+  light_blue_shulker_box: Helwa colca hyalmalómëo
   light_blue_stained_glass: Calina Luinë Quilëa Hyellë
   light_blue_stained_glass_pane: Calina Luinë Quilëa Lára Hyellë
   light_blue_terracotta: Helwa Cémitorina
@@ -151,19 +268,28 @@ material:
   light_gray_carpet: Sindë Farma
   light_gray_concrete: Sindë Ceberonda
   light_gray_concrete_powder: Sindë Ceberonimalo
+  light_gray_dye: Sindë Quilë
   light_gray_glazed_terracotta: Mastorwa Cémitorina Sindë
   light_gray_shulker_box: Mísë colca hyalmalómëo
   light_gray_stained_glass: Calina Sindë Quilëa Hyellë
   light_gray_stained_glass_pane: Calina Sindë Quilëa Lára Hyellë
   light_gray_terracotta: Cémitorina Sindë
   light_gray_wool: Sindë Tó
+  lilac: Heliloctë
+  lily_of_the_valley: Indil
+  lily_pad: Nénu
+  lime_bed: Wenya Caima
+  lime_carpet: Venya Farma
   lime_concrete: Venya Ceberonda
   lime_concrete_powder: Venya Ceberonimalo
+  lime_dye: Venya Quilë
   lime_glazed_terracotta: Mastorwa Cémitorina Venya
+  lime_shulker_box: Venya colca hyalmalómëo
   lime_stained_glass: Venya Quilëa Hyellë
   lime_stained_glass_pane: Venya Quilëa Lára Hyellë
   lime_terracotta: Venya Cémitorina
   lime_wool: Venya Tó
+  lingering_potion: Suhto Lemyawelë (Draught of lingering bubbles)
   magenta_carpet: Silcarnë Farma
   magenta_concrete: Camilotë Ceberonda
   magenta_concrete_powder: Camilotë Ceberonimalo
@@ -174,11 +300,22 @@ material:
   magenta_stained_glass_pane: Helinquila Quilëa Lára Hyellë
   magenta_terracotta: Cémitorina Silcarnë
   magenta_wool: Camilotë Tó
+  minecart: Norollë
   mossy_cobblestone: Loingwëa Racondo
   mossy_cobblestone_slab: Loingwëa Perracondo
   mossy_cobblestone_stairs: Loingwië Tyelli Racondon
   mossy_cobblestone_wall: Ramba Loingwëa Racondo
   mossy_stone_bricks: Telari Tolotë Etilis
+  mushroom_stew: Telumbesulpa
+  netherrack: Angamandondo
+  nether_brick: Telar Neserwa
+  nether_brick_fence: Telar Neserwa Yonwa
+  nether_brick_slab: Lára Telari Neserwa
+  nether_brick_stairs: Tyeller Telar Neserwa
+  nether_quartz_ore: Ondo Marilwa Nesero
+  nether_star: Neser Elen
+  nether_wart: Sirpë Neserwa
+  note_block: Lammacolca
   oak_boat: Luntë Nornova
   oak_button: Tolma Nornova
   oak_door: Fenna Nornova
@@ -190,104 +327,323 @@ material:
   oak_pressure_plate: Sangapalo Nornova
   oak_sapling: Nessa Norno
   oak_sign: Tanna Nornova
+  oak_slab: Palo Nornova
   oak_stairs: Tyelli Nornova
   oak_trapdoor: Talanfenna Nornova
   oak_wall_sign: Tanna Rambava Nornova
+  oak_wood: Toa Norno
+  orange_bed: Culuina Caima
+  orange_carpet: Culuina Farma
   orange_concrete: Culuina Ceberonda
   orange_concrete_powder: Culuina Ceberonimalo
+  orange_dye: Culuina Quilë
   orange_glazed_terracotta: Mastorwa Cémitorina Culuina
+  orange_shulker_box: Culuina colca hyalmalómëo
   orange_stained_glass: Culuina Quilëa Hyellë
   orange_stained_glass_pane: Culuina Quilëa Lára Hyellë
   orange_terracotta: Cémitorina Culuina
+  orange_wool: Culuina Tó
+  packed_ice: Sangaina Helce
+  painting: Carmë
+  petrified_oak_slab: Sarda Palo Nornova
+  phantom_membrane: Fairëvainë
+  pink_carpet: Campilossë Farma
   pink_concrete: Campilossë Ceberonda
   pink_concrete_powder: Campilossë Ceberonimalo
+  pink_dye: Campilossë Quilë
   pink_glazed_terracotta: Mastorwa Cémitorina Silcarnëa
+  pink_shulker_box: Campilossë colca hyalmalómëo
   pink_stained_glass: Losillë Quilëa Hyellë
   pink_stained_glass_pane: Losillë Quilëa Lára Hyellë
   pink_terracotta: Camilotë Cémitorina
   pink_wool: Silcarnë Tó
+  piston: Nirno
+  podzol: Vinecemen
+  polished_andesite: Runda Andesite
+  polished_diorite: Runda Diorite
+  polished_granite: Runda Granite
+  poppy: Fúmella
+  potato: Cemenorva
+  potatoes: Cemenorvar
+  potted_acacia_sapling: Nessa Nísimalda Tambessë
+  potted_birch_sapling: Nessa Hwindë Tambessë
   potted_dark_oak_sapling: Nessa Morë Norno Tambessë
+  potted_jungle_sapling: Nessa Alda Mistetaurëo Tambessë
   potted_oak_sapling: Nessa Norno Tambessë
+  potted_spruce_sapling: Nessa Sánë Tambessë
+  prismarine_bricks: Nelvainarë
+  purple_carpet: Helin Farma
   purple_concrete: Helin Ceberonda
   purple_concrete_powder: Helin Ceberonimalo
+  purple_dye: Helin Quilë
   purple_glazed_terracotta: Mastorwa Cémitorina Helin
+  purple_shulker_box: Helin colca hyalmalómëo
   purple_stained_glass: Helinwa Quilëa Hyellë
   purple_stained_glass_pane: Helinwa Quilëa Lára Hyellë
   purple_terracotta: Helin Cémitorina
   purple_wool: Helin Tó
+  quartz: Maril Nesero
+  quartz_block: Colca Marilwa
+  quartz_slab: Lára Maril
+  quartz_stairs: Tyeller Marilwa
+  redstone: Carnëondo Asto
   redstone_block: Colca Carnëondova
   redstone_lamp: Carnëondo Calma
   redstone_ore: Fetsë Carnëondova
   redstone_torch: Carnëondomácálë
+  red_bed: Carnë Caima
+  red_carpet: Carnë Farma
   red_concrete: Carnë Ceberonda
   red_concrete_powder: Carnë Ceberonimalo
   red_glazed_terracotta: Mastorwa Cémitorina Carnëo
+  red_sand: Carmalin Litsë
+  red_sandstone: Carnë Listeondo
+  red_sandstone_slab: Lára Carnë Litseondo
+  red_sandstone_stairs: Tyeller Carnë Litseondo
+  red_shulker_box: Carnë colca hyalmalómëo
   red_stained_glass: Carnë Quilëa Hyellë
   red_stained_glass_pane: Carnë Quilëa Lára Hyellë
   red_terracotta: Cémitorina Carnë
+  red_wool: Carnë Tó
+  repeater: Carnëondo Vórima
+  rose_bush: Lossë Tussa
+  sandstone: Litseondo
+  sandstone_slab: Lára Litseondo
+  sandstone_stairs: Tyeller Litseondo
   shulker_box: Colca hyalmalómëo
+  shulker_shell: Hyalma hyalmalómëo
   shulker_spawn_egg: Hyalmalóméva ohtë
+  skeleton_skull: Cár Axoloiqueno
   slime_block: Mehelë Colca
+  smooth_red_sandstone: Pasta Carnë Listeondo
+  smooth_sandstone: Pasta Litseondo
+  spider_eye: Hen Liantëo
+  splash_potion: Suhto Hatavingië (Throw-splashing draught)
+  spruce_boat: Luntë Sáneva
+  spruce_button: Tolma Sáneva
   spruce_door: Fenna Sáneva
   spruce_fence: Yonwa Sáneva
   spruce_fence_gate: Yonwando Sáneva
+  spruce_leaves: Lassi Sáneva
   spruce_log: Sánë
   spruce_planks: Panor Sáneva
   spruce_pressure_plate: Sangapalo Sáneva
   spruce_sapling: Nessa Sánë
+  spruce_sign: Tanna Sáneva
+  spruce_slab: Palo Sáneva
   spruce_stairs: Tyelli Sáneva
   spruce_trapdoor: Talanfenna Sáneva
+  spruce_wall_sign: Tanna Rambava Sáneva
   spruce_wood: Toa Sánëo
+  stick: Olwen
+  sticky_piston: Himba Nirno
   stone_axe: Pelecco Ondova
+  stone_bricks: Telari Ondova
+  stone_brick_stairs: Tyeller Telar Ondo
+  stone_hoe: Mahyar Ondova
   stone_pickaxe: Ondopelecco Ondova
   stone_shovel: Sampa Ondova
+  stone_slab: Lára Ondo
+  stone_sword: Macil Ondo
   stripped_acacia_log: Racina Nísimalda
+  stripped_acacia_wood: Racina Toa Nísimaldava
   stripped_birch_log: Racina Hwindë
   stripped_birch_wood: Racina Toa Hwindeva
   stripped_dark_oak_log: Racina Morë Norno
   stripped_dark_oak_wood: Racina Toa Morë Norno
   stripped_jungle_log: Racina Turu Mistetaurëo
+  stripped_jungle_wood: Racina Toa Mistetaurëo
   stripped_oak_log: Racina Norno
   stripped_oak_wood: Racina Toa Norno
   stripped_spruce_log: Racina Sánë
   stripped_spruce_wood: Racina Toa Sánëo
+  sugar: Lissë
   terracotta: Cémitorina
   tipped_arrow: Pilindë tumyaina (lit. Arrow dipped)
+  tnt: Hórerma
+  tnt_minecart: Norollë Hórermas
+  torch: Lícuma
   trapped_chest: Atsa Mando
+  vine: Liantassi
+  water_bucket: Calpa Néno
+  wheat: Orë
+  white_bed: Ninquë Caima
+  white_carpet: Ninquë Farma
   white_concrete: Ninquë Ceberonda
   white_concrete_powder: Ninquë Ceberonimalo
   white_glazed_terracotta: Mastorwa Cémitorina Fánë
+  white_shulker_box: Ninquë colca hyalmalómëo
   white_stained_glass: Ninquë Quilëa Hyellë
   white_stained_glass_pane: Ninquë Quilëa Lára Hyellë
   white_terracotta: Ninquë Cémitorina
+  white_wool: Ninquë Tó
+  wither_rose: Nurulos
+  wither_skeleton_skull: Cár Axoloico Hestaléva
   wooden_axe: Pelecco Tavarwa
+  wooden_hoe: Mahyar Tavarwa
   wooden_pickaxe: Ondopelecco Tavarwa
   wooden_shovel: Sampa Tavarwa
   wooden_sword: Macil Tavarwa
+  writable_book: Parmanen ar tecilquessë
+  written_book: Tecina Parma
+  yellow_bed: Malina Caima
+  yellow_carpet: Malina Farma
   yellow_concrete: Malina Ceberonda
   yellow_concrete_powder: Malina Ceberonimalo
   yellow_glazed_terracotta: Mastorwa Cémitorina Malinëa
+  yellow_shulker_box: Malina colca hyalmalómëo
   yellow_stained_glass: Malina Quilëa Hyellë
   yellow_stained_glass_pane: Malina Quilëa Lára Hyellë
   yellow_terracotta: Malina Cémitorina
+  yellow_wool: Malina Tó
+  zombie_head: Úqualino Cas
+biome:
+  ocean: Airon
+  plains: Palari
+  frozen_ocean: Helcin Airon
+  frozen_river: Helcin Sír
+  desert_hills: Ambor Erumëo
+  wooded_hills: Taurië Ambor
+  jungle: Mistetaurë
+  jungle_hills: Ambor Mistetaurëo
+  jungle_edge: Cimba Mistetaurëo
+  deep_ocean: Tumba Airon
+  stone_shore: Ondo Falassë
+  snowy_beach: Lossëa Hresta
+  birch_forest: Hwindë Taurë
+  birch_forest_hills: Ambor Hwindë Taurëo
+  dark_forest: Morë Taurë
+  wooded_mountains: Taurië Oronti
+  warm_ocean: Lauca Airon
+  lukewarm_ocean: Pellauca Airon
+  cold_ocean: Ringa Airon
+  deep_warm_ocean: Tumba Lauca Airon
+  deep_lukewarm_ocean: Tumba Pellauca Airon
+  deep_cold_ocean: Tumba Ringa Airon
+  deep_frozen_ocean: Tumba Helcin Airon
+  sunflower_plains: Anarilótë Palari
+  desert_lakes: Nendi Erumëo
+  gravelly_mountains: Sarnë Oronti
+  flower_forest: Alma Taurë
+  ice_spikes: Helcë Nassi
+  modified_jungle: Viryaina Mistetaurë
+  modified_jungle_edge: Viryaina Cimba Mistetaurëo
+  tall_birch_forest: Halla Hwindë Taurë
+  tall_birch_hills: Ambor Halla Hwindëo
+  dark_forest_hills: Ambor Morë Taurëo
+  modified_gravelly_mountains: Sarnë Oronti+
+  bamboo_jungle: Aldaliscë Mistetaurë
+  bamboo_jungle_hills: Ambor Aldaliscë Mistetaurëo
+enchantment:
+  sharpness: Maikanë
+  infinity: Unmetta
+potion:
+  uncraftable: Suhto Úcurwevimë
+  water: Nén olpë
+  mundane: 'Suhto Nandavë '
+  thick: Suhto Nelya
+  awkward: Suhto Hraivarno
+  night_vision: Ceno Fuinessë Suhto
+  invisibility: Suhto Alacénimiéo
+  jump: 'Suhto Haloitëo '
+  fire_resistance: Suhto Nárenorniéo
+  poison: Suhto hloirëo
 tipped_arrow:
+  uncraftable: Pilindë tumyaina úcurwevimë
+  water: Pilin Vingelëo
   mundane: Pilindë tumyaina (lit. Arrow dipped)
   thick: Pilindë tumyaina (lit. Arrow dipped)
   awkward: Pilindë tumyaina (lit. Arrow dipped)
+  night_vision: Pilin Ceno Fuinessëo
   invisibility: 'Pilin Alacénimiéo '
+  jump: Pilin Haloitë
+  fire_resistance: Pilin Nárenorniéo
+  poison: Pilin hloirëo
 entity:
+  painting: Carmë
+  ender_signal: Mettahen
   falling_block: Lantala Colca
+  shulker_bullet: Hyalmalóméva coron
+  zombie_villager: Úrqualiva Mastolenë
+  evoker: Vuarito (from Gnomish Buar- to provoke)
+  minecart: Norollë
   minecart_chest: Norollë Mandos
+  minecart_furnace: Norollë Urnas
+  minecart_tnt: Norollë Hórermas
+  creeper: Caurër
+  skeleton: Axoquén
+  zombie: Úqualin
   slime: Mehe
+  ghast: Hortafëa
+  enderman: Mettanér
   cave_spider: felcolungwë
   blaze: Uryalë
+  magma_cube: 'Magma Cube: Colca Úrivë'
+  ender_dragon: Mettalócë
+  wither: Hestar
+  bat: Maráma
+  witch: Felusi
+  guardian: Cundolwa
+  shulker: Hyalmalómë
   chicken: porocellë
+  rabbit: Lapattë
+  polar_bear: Morco Forostar
+  llama: Múpalumpo
+  parrot: inyembalë
+  villager: Mastomaror
+  ender_crystal: Mitta Calca
+  phantom: Fairë
+  cat: Meoi
   player: Tyaler
+effect:
+  slow: Lencar
+  increase_damage: Tuo
+  regeneration: Envinyatië
+  fire_resistance: Nárë Nornië
+  water_breathing: Nén Súyië
+  invisibility: Alacénimië
+  blindness: Alacenië
+  night_vision: Lómë Olos
+  weakness: Milie
+  poison: Sangwa
+  wither: Hestar
+  glowing: Lúsina
+  luck: Valto
+  unluck: Úvalto
 dye_color:
   magenta: Silcarnë
+  pink: Campilossë
   gray: Hiswa
   light_gray: Sindë
+  cyan: Eareluinë
+  purple: Helin
+named:
+  player_head_named: Cas ho %s
 banner_pattern:
+  '327680': Ninquë Talma
+  '327681': Culuina Talma
+  '327683': Helwa Talma
+  '327684': Malina Talma
+  '327685': Wenya Talma
+  '327687': Sinda Talma
   '327688': Sindë Talma
+  '327689': Menelluin Talma
+  '327691': Luinë Talma
+  '327692': Varnë Talma
+  '327693': Laica Talma
+  '327694': Carnë Talma
+  '327695': Morna Talma
+  '2097167': 'Creeper: hlicuilorë'
+merchant_level:
+  '1': Mínë
+  '2': Parindë
+  '3': Satar
+  '4': Nólëmë
 villager_profession:
+  none: Mastomaror
+  armorer: Ambassetano
+  farmer: Nandor
+  fisherman: Lingwirembaro
+  fletcher: Pilintano
   leatherworker: Alutano
+  librarian: Istyar

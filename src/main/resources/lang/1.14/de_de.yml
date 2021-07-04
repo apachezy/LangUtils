@@ -1,27 +1,24 @@
 # ####################################################
-# Build time: 2021-03-17 16:19:58                    #
+# Build time: 2021-07-04 21:41:55                    #
 # ####################################################
 language:
   code: de_de
   name: Deutsch
   region: Deutschland
 material:
-  allium: Sternlauch
   bamboo_sapling: Bambussteckling
-  fire: Feuer
+  furnace_minecart: Antriebslore
   polar_bear_spawn_egg: Eisbär-Spawn-Ei
-  potted_allium: Eingetopfter Sternlauch
   sheep_spawn_egg: Schaf-Spawn-Ei
   skeleton_horse_spawn_egg: Skelettpferd-Spawn-Ei
   sweet_berry_bush: Süßbeerenstrauch
   vex_spawn_egg: Plagegeist-Spawn-Ei
-  wall_torch: Wandfackel
   wolf_spawn_egg: Wolf-Spawn-Ei
   zombie_horse_spawn_egg: Zombiepferd-Spawn-Ei
   zombie_villager_spawn_egg: Dorfbewohnerzombie-Spawn-Ei
 entity:
   zombie_villager: Dorfbewohnerzombie
-  ravager: Verwüster
+  minecart_furnace: Antriebslore
 effect:
   water_breathing: Unterwasseratem
 tropical_fish_type:
@@ -30,8 +27,9 @@ tropical_fish_type:
   flopper: Zappler
   glitter: Glanzfisch
 tropical_fish_name:
+  '185008129': Paletten-Doktorfisch
   '50660352': Königin-Engelfisch
   '918273': Nördlicher Schnapper
   '67108865': Fadenflosser
 villager_profession:
-  armorer: Panzermacher
+  butcher: Fleischer

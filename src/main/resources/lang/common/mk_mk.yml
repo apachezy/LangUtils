@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:48                    #
+# Build time: 2021-07-04 21:46:04                    #
 # ####################################################
 language:
   code: mk_mk
@@ -14,10 +14,17 @@ material:
   polished_diorite: Полиран диорит
   andesite: Андезит
   polished_andesite: Полиран андезит
+  deepslate: Шкрилец
+  cobbled_deepslate: Калдрмаст шкрилец
+  polished_deepslate: Полиран шкрилец
+  calcite: Калцит
+  tuff: Туф
+  dripstone_block: Дрипстоун блок
   grass_block: Блок од трева
   dirt: Земја
   coarse_dirt: Груба земја
   podzol: Подзол
+  rooted_dirt: Вкоренета кал
   crimson_nylium: Црвен Пеколцелиум
   warped_nylium: Луд Пеколцелиум
   cobblestone: Калдрма
@@ -39,10 +46,67 @@ material:
   sand: Песок
   red_sand: Црвен песок
   gravel: Чакал
-  gold_ore: Златна руда
-  iron_ore: Железна руда
   coal_ore: Јагленова руда
-  nether_gold_ore: Пеколска Златна Руда
+  deepslate_coal_ore: Руда од јаглен со длабоки плочи
+  iron_ore: Железна руда
+  deepslate_iron_ore: Шкрилеста железна руда
+  copper_ore: Бакарна руда
+  deepslate_copper_ore: Шкрилеста руда бакар
+  gold_ore: Златна руда
+  deepslate_gold_ore: Шкрилеста златна руда
+  redstone_ore: Редстоун руда
+  deepslate_redstone_ore: Шкрилеста редстоун руда
+  emerald_ore: Смарагдна руда
+  deepslate_emerald_ore: Шкрилеста руда смарагд
+  lapis_ore: Лазурна руда
+  deepslate_lapis_ore: Шкрилеста руда од лапис лазули
+  diamond_ore: Дијамантска руда
+  deepslate_diamond_ore: Шкрилеста дијамантска руда
+  nether_gold_ore: Пеколна Златна Руда
+  nether_quartz_ore: Недер-кварцна руда
+  ancient_debris: Древни Остаци
+  coal_block: Блок од јаглен
+  raw_iron_block: Блок од сурово железо
+  raw_copper_block: Блок на суров бакар
+  raw_gold_block: Блок на сурово злато
+  amethyst_block: Блок на аметист
+  budding_amethyst: Младиот и надежен аметист
+  iron_block: Блок од железо
+  copper_block: Блок од бакар
+  gold_block: Блок од злато
+  diamond_block: Блок од дијамант
+  netherite_block: Коцка од Пеколит
+  exposed_copper: Изложен бакар
+  weathered_copper: Оксидиран бакар
+  oxidized_copper: Оксидиран бакар
+  cut_copper: Сечен бакар
+  exposed_cut_copper: Изложен исечен бакар
+  weathered_cut_copper: Оксидиран сечен бакар
+  oxidized_cut_copper: Оксидиран бакар за сечење
+  cut_copper_stairs: Исечени скали од бакар
+  exposed_cut_copper_stairs: Изложени исечени бакарни скали
+  weathered_cut_copper_stairs: Оксидирани скали од сечен бакар
+  oxidized_cut_copper_stairs: Оксидирани скали од бакар
+  cut_copper_slab: Исечена бакарна плоча
+  exposed_cut_copper_slab: Изложена исечена бакарна плоча
+  weathered_cut_copper_slab: Оксидирана плоча од сечен бакар
+  oxidized_cut_copper_slab: Оксидирана плоча од бакар
+  waxed_copper_block: Блок Бакар обложен со восок
+  waxed_exposed_copper: Изложен бакар обложен со восок
+  waxed_weathered_copper: Застарен бакар обложен со восок
+  waxed_oxidized_copper: Оксидиран бакар обложен со восок
+  waxed_cut_copper: Сечен бакар обложен со восок
+  waxed_exposed_cut_copper: Изложен сечен бакар обложен со восок
+  waxed_weathered_cut_copper: Застарен сечен бакар обложен со восок
+  waxed_oxidized_cut_copper: Оксидиран сечен бакар обложен со восок
+  waxed_cut_copper_stairs: Скали од сечен бакар обложени со восок
+  waxed_exposed_cut_copper_stairs: Изложени скали од сечен бакар обложени со восок
+  waxed_weathered_cut_copper_stairs: Застарени скали од сечен бакар обложени со восок
+  waxed_oxidized_cut_copper_stairs: Скали од сечен бакар облежени со восок
+  waxed_cut_copper_slab: Плоча од сечен бакар обложена со восок
+  waxed_exposed_cut_copper_slab: Изложена плоча од сечениот бакар обложена со восок
+  waxed_weathered_cut_copper_slab: Застарена плоча од сечен бакар обложена со восок
+  waxed_oxidized_cut_copper_slab: Оксидирана плоча од сечен бакар обложена со восок
   oak_log: Труп од даб
   spruce_log: Труп од смрека
   birch_log: Труп од бреза
@@ -50,7 +114,7 @@ material:
   acacia_log: Труп од акација
   dark_oak_log: Труп од темен даб
   crimson_stem: Црвено Стебло
-  warped_stem: Лудо Стебло
+  warped_stem: Искривенo Стебло
   stripped_oak_log: Соголен труп од даб
   stripped_spruce_log: Соголен труп од смрека
   stripped_birch_log: Соголен труп од бреза
@@ -81,26 +145,24 @@ material:
   jungle_leaves: Лисја од џунглиско дрво
   acacia_leaves: Лисја од акација
   dark_oak_leaves: Лисја од темен даб
+  azalea_leaves: Азалеа Лисја
+  flowering_azalea_leaves: Цветни лисја од Азалеа
   sponge: Сунѓер
   wet_sponge: Влажен сунѓер
   glass: Стакло
-  lapis_ore: Лазурна руда
-  lapis_block: Блок од лазура
-  dispenser: Раздавач
+  tinted_glass: Затемнето стакло
+  lapis_block: Блок од Лапис Лазули
   sandstone: Песочник
   chiseled_sandstone: Длетуван песочник
   cut_sandstone: Сечен песочник
-  note_block: Музички блок
-  powered_rail: Погонска пруга
-  detector_rail: Детектирачка пруга
-  sticky_piston: Леплив клип
   cobweb: Пајажина
   grass: Трева
   fern: Папрат
+  azalea: Азалеа
+  flowering_azalea: Цветни Azalea
   dead_bush: Мртва грмушка
   seagrass: Морска трева
   sea_pickle: Морска краставица
-  piston: Клип
   white_wool: Бела волна
   orange_wool: Портокалова волна
   magenta_wool: Магента волна
@@ -130,6 +192,7 @@ material:
   cornflower: Модрика
   lily_of_the_valley: Момина солза
   wither_rose: Видер роза
+  spore_blossom: Цвет на спори
   brown_mushroom: Кафеава печурка
   red_mushroom: Црвена печурка
   crimson_fungus: Црвен Корен
@@ -141,9 +204,12 @@ material:
   twisting_vines: Вртени Гранки
   sugar_cane: Шеќерна трска
   kelp: Алга
+  moss_carpet: Мов тепих
+  moss_block: Мов блок
+  hanging_roots: Висни корени
+  big_dripleaf: Голем Каплист
+  small_dripleaf: Мал Каплист
   bamboo: Бамбус
-  gold_block: Блок од злато
-  iron_block: Блок од железо
   oak_slab: Плоча од даб
   spruce_slab: Плоча од смрека
   birch_slab: Плоча од бреза
@@ -168,12 +234,11 @@ material:
   prismarine_slab: Плоча од призмарин
   prismarine_brick_slab: Плоча од призмарински цигли
   dark_prismarine_slab: Плоча од темен призмарин
-  smooth_quartz: Мазна Кварц Коцка
+  smooth_quartz: Мазна Квартц Коцка
   smooth_red_sandstone: Мазен црвен песочник
   smooth_sandstone: Мазен песочник
   smooth_stone: Мазен камен
   bricks: Цигли
-  tnt: ТНТ
   bookshelf: Полица за книги
   mossy_cobblestone: Мовлива калдрма
   obsidian: Обсидијан
@@ -187,27 +252,11 @@ material:
   spawner: Создавач
   oak_stairs: Скали од даб
   chest: Сандак
-  diamond_ore: Дијамантска руда
-  diamond_block: Блок од дијамант
   crafting_table: Работна маса
   farmland: Обработлива земја
   furnace: Печка
   ladder: Скала
-  rail: Пруга
   cobblestone_stairs: Скали од калдрма
-  lever: Рачка
-  stone_pressure_plate: Камена притисна плоча
-  oak_pressure_plate: Притисна плоча од даб
-  spruce_pressure_plate: Притисна плоча од смрека
-  birch_pressure_plate: Притисна плоча од бреза
-  jungle_pressure_plate: Притисна плоча од џунглиско дрво
-  acacia_pressure_plate: Притисна плоча од акација
-  dark_oak_pressure_plate: Притисна плоча од темен даб
-  crimson_pressure_plate: Црвена Притисочна Плочка
-  warped_pressure_plate: Луда Притисочна Плочка
-  polished_blackstone_pressure_plate: Размазена Притисочна Плочка од Црн Камен
-  redstone_ore: Редстоун руда
-  redstone_torch: Редстоун факел
   snow: Снег
   ice: Мраз
   snow_block: Снежен блок
@@ -224,32 +273,31 @@ material:
   warped_fence: Луда Ограда
   pumpkin: Тиква
   carved_pumpkin: Врежана тиква
+  jack_o_lantern: Тиквен фенер
   netherrack: Недер камен
   soul_sand: Духовен песок
   soul_soil: Душна Земја
   basalt: Базалт
   polished_basalt: Измазен Базалт
-  soul_torch: Душни Факел
+  smooth_basalt: Мазен базалт
+  soul_torch: Душен Факел
   glowstone: Светлосен камен
-  jack_o_lantern: Тиквен фенер
-  oak_trapdoor: Врата-стапица од даб
-  spruce_trapdoor: Врата-стапица од смрека
-  birch_trapdoor: Врата-стапица од бреза
-  jungle_trapdoor: Врата-стапица од џунглиско дрво
-  acacia_trapdoor: Врата-стапица од акација
-  dark_oak_trapdoor: Врата-стапица од темен даб
-  crimson_trapdoor: Црвена Подна Врата
-  warped_trapdoor: Луда Подна Врата
   infested_stone: Заразен камен
   infested_cobblestone: Заразена калдрма
   infested_stone_bricks: Заразени камени цигли
   infested_mossy_stone_bricks: Заразени мовливи камени цигли
   infested_cracked_stone_bricks: Заразени напукнати камени цигли
   infested_chiseled_stone_bricks: Заразени длетувани камени цигли
+  infested_deepslate: Заразен шкрилец
   stone_bricks: Камени цигли
   mossy_stone_bricks: Мовливи камени цигли
   cracked_stone_bricks: Напукнати камени цигли
   chiseled_stone_bricks: Длетувани камени цигли
+  deepslate_bricks: Шкрласти цигли
+  cracked_deepslate_bricks: Пукнати шкрилести цигли
+  deepslate_tiles: Шкрлести плочки
+  cracked_deepslate_tiles: Пукнати шкрилести плочки
+  chiseled_deepslate: Исклесан шкрилец
   brown_mushroom_block: Блок од кафеава печурка
   red_mushroom_block: Блок од црвена печурка
   mushroom_stem: Стебло од печурка
@@ -258,14 +306,7 @@ material:
   glass_pane: Стаклена рамка
   melon: Лубеница
   vine: Лози
-  oak_fence_gate: Врата за ограда од даб
-  spruce_fence_gate: Врата за ограда од смрека
-  birch_fence_gate: Врата за ограда од бреза
-  jungle_fence_gate: Врата за ограда од џунглиско дрво
-  acacia_fence_gate: Врата за ограда од акација
-  dark_oak_fence_gate: Врата за ограда од темен даб
-  crimson_fence_gate: Црвена Порта
-  warped_fence_gate: Луда Порта
+  glow_lichen: Сјај лишаи
   brick_stairs: Скали од цигли
   stone_brick_stairs: Скали од камени цигли
   mycelium: Мицелиум
@@ -280,11 +321,8 @@ material:
   end_stone: Енд камен
   end_stone_bricks: Цигли од енд камен
   dragon_egg: Змејско јајце
-  redstone_lamp: Ламба
   sandstone_stairs: Скали од песочник
-  emerald_ore: Смарагдна руда
   ender_chest: Ендер сандак
-  tripwire_hook: Кука за нагазна жица
   emerald_block: Блок од смарагд
   spruce_stairs: Скали од смрека
   birch_stairs: Скали од бреза
@@ -310,33 +348,18 @@ material:
   blackstone_wall: Sид од Црн Камен
   polished_blackstone_wall: Sид од Размазен Црн Камен
   polished_blackstone_brick_wall: Sид од Размазен Црн Камен
-  stone_button: Копче од камен
-  oak_button: Копче од даб
-  spruce_button: Копче од смрека
-  birch_button: Копче од бреза
-  jungle_button: Копче од џунглиско дрво
-  acacia_button: Копче од акација
-  dark_oak_button: Копче од темен даб
-  crimson_button: Црвено Копче
-  warped_button: Лудо Копче
-  polished_blackstone_button: Размазено Копче од Црн Камен
+  cobbled_deepslate_wall: Зид од калдрмаст шкрилец
+  polished_deepslate_wall: Зид полиран со шкрилец
+  deepslate_brick_wall: Зид од шкрилести цигли
+  deepslate_tile_wall: Зид од шкрилести плочки
   anvil: Наковална
   chipped_anvil: Поткршена наковална
   damaged_anvil: Оштетена наковална
-  trapped_chest: Сандак-стапица
-  light_weighted_pressure_plate: Леснотежинска притисна плоча
-  heavy_weighted_pressure_plate: Тешкотежинска притисна плоча
-  daylight_detector: Сензор за дневна светлина
-  redstone_block: Блок од редстоун
-  nether_quartz_ore: Недер-кварцна руда
-  hopper: Собирач
   chiseled_quartz_block: Коцка од длетуван кварц
   quartz_block: Коцка од кварц
   quartz_bricks: Цигли од Квартц
   quartz_pillar: Кварцен столб
   quartz_stairs: Скали од кварц
-  activator_rail: Активаторска пруга
-  dropper: Исфрлувач
   white_terracotta: Бела теракота
   orange_terracotta: Портокалова теракота
   magenta_terracotta: Магента теракота
@@ -354,7 +377,7 @@ material:
   red_terracotta: Црвена теракота
   black_terracotta: Црна теракота
   barrier: Бариера
-  iron_trapdoor: Железна врата-стапица
+  light: Светлина
   hay_block: Бала сено
   white_carpet: Бел тепих
   orange_carpet: Портокалов тепих
@@ -373,12 +396,10 @@ material:
   red_carpet: Црвен тепих
   black_carpet: Црн тепих
   terracotta: Теракота
-  coal_block: Блок од јаглен
   packed_ice: Тврд лед
   acacia_stairs: Скали од акација
   dark_oak_stairs: Скали од темен даб
-  slime_block: Коцка од слуз
-  grass_path: Тревна патека
+  dirt_path: Патека од земја
   sunflower: Сончоглед
   lilac: Јоргован
   rose_bush: Грмушка со рози
@@ -432,11 +453,10 @@ material:
   chain_command_block: Верижен команден блок
   magma_block: Блок од магма
   nether_wart_block: Блок од Недер растение
-  warped_wart_block: Луда Бубуљична Коцка
+  warped_wart_block: Искривена брадавица Коцка
   red_nether_bricks: Црвени Недер цигли
   bone_block: Блок од коска
   structure_void: Структурна празнина
-  observer: Опсерватор
   shulker_box: Шулкер кутија
   white_shulker_box: Бела шулкер кутија
   orange_shulker_box: Портокалова шулкер кутија
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: Скали од црвени Недер цигли
   polished_andesite_stairs: Полирани андезитни скали
   diorite_stairs: Диоритни скали
+  cobbled_deepslate_stairs: Сакли од калдрмаст шкрилец
+  polished_deepslate_stairs: Скали полирани со шкрилец
+  deepslate_brick_stairs: Скали од шкрлести цигли
+  deepslate_tile_stairs: Скали од шкрилести плочки
   polished_granite_slab: Полирана гранитна плоча
   smooth_red_sandstone_slab: Плоча од полиран црвен песочник
   mossy_stone_brick_slab: Плоча од мовливи камени цигли
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: Плоча од црвени Недер цигли
   polished_andesite_slab: Полирана андезитна плоча
   diorite_slab: Диоритна плоча
+  cobbled_deepslate_slab: Плоча од калдрмаст шкрилец
+  polished_deepslate_slab: Полиран калдрмаст шкрилец
+  deepslate_brick_slab: Плоча од шкрлести цигли
+  deepslate_tile_slab: Плоча од шкрилести плочки
   scaffolding: Скеле
+  redstone: Редстоун прашина
+  redstone_torch: Редстоун факел
+  redstone_block: Блок од редстоун
+  repeater: Редстоун повторувач
+  comparator: Редстоун споредник
+  piston: Клип
+  sticky_piston: Леплив клип
+  slime_block: Коцка од слуз
+  honey_block: Меден блок
+  observer: Опсерватор
+  hopper: Собирач
+  dispenser: Раздавач
+  dropper: Исфрлувач
+  lectern: Наслон за читање
+  target: Мета
+  lever: Рачка
+  lightning_rod: Громобран
+  daylight_detector: Сензор за дневна светлина
+  sculk_sensor: Сенкул сензор
+  tripwire_hook: Кука за нагазна жица
+  trapped_chest: Сандак-стапица
+  tnt: ТНТ
+  redstone_lamp: Ламба
+  note_block: Музички блок
+  stone_button: Копче од камен
+  polished_blackstone_button: Размазено Копче од Црн Камен
+  oak_button: Копче од даб
+  spruce_button: Копче од смрека
+  birch_button: Копче од бреза
+  jungle_button: Копче од џунглиско дрво
+  acacia_button: Копче од акација
+  dark_oak_button: Копче од темен даб
+  crimson_button: Црвено Копче
+  warped_button: Лудо Копче
+  stone_pressure_plate: Камена притисна плоча
+  polished_blackstone_pressure_plate: Размазена Притисочна Плочка од Црн Камен
+  light_weighted_pressure_plate: Леснотежинска притисна плоча
+  heavy_weighted_pressure_plate: Тешкотежинска притисна плоча
+  oak_pressure_plate: Притисна плоча од даб
+  spruce_pressure_plate: Притисна плоча од смрека
+  birch_pressure_plate: Притисна плоча од бреза
+  jungle_pressure_plate: Притисна плоча од џунглиско дрво
+  acacia_pressure_plate: Притисна плоча од акација
+  dark_oak_pressure_plate: Притисна плоча од темен даб
+  crimson_pressure_plate: Црвена Притисочна Плочка
+  warped_pressure_plate: Луда Притисочна Плочка
   iron_door: Железна врата
   oak_door: Врата од даб
   spruce_door: Врата од смрека
@@ -572,8 +646,42 @@ material:
   dark_oak_door: Врата од темен даб
   crimson_door: Црвена Врата
   warped_door: Луда Врата
-  repeater: Редстоун повторувач
-  comparator: Редстоун споредник
+  iron_trapdoor: Железна врата-стапица
+  oak_trapdoor: Врата-стапица од даб
+  spruce_trapdoor: Врата-стапица од смрека
+  birch_trapdoor: Врата-стапица од бреза
+  jungle_trapdoor: Врата-стапица од џунглиско дрво
+  acacia_trapdoor: Врата-стапица од акација
+  dark_oak_trapdoor: Врата-стапица од темен даб
+  crimson_trapdoor: Црвена Подна Врата
+  warped_trapdoor: Луда Подна Врата
+  oak_fence_gate: Врата за ограда од даб
+  spruce_fence_gate: Врата за ограда од смрека
+  birch_fence_gate: Врата за ограда од бреза
+  jungle_fence_gate: Врата за ограда од џунглиско дрво
+  acacia_fence_gate: Врата за ограда од акација
+  dark_oak_fence_gate: Врата за ограда од темен даб
+  crimson_fence_gate: Црвена Порта
+  warped_fence_gate: Луда Порта
+  powered_rail: Погонска пруга
+  detector_rail: Детектирачка пруга
+  rail: Пруга
+  activator_rail: Активаторска пруга
+  saddle: Седло
+  minecart: Рударска количка
+  chest_minecart: Рударска количка со сандак
+  furnace_minecart: Рударска количка со печка
+  tnt_minecart: Рударска количка со ТНТ
+  hopper_minecart: Рударска количка со собирач
+  carrot_on_a_stick: Морков на стап
+  warped_fungus_on_a_stick: Луда Печурка на Стап
+  elytra: Крила
+  oak_boat: Чамец од даб
+  spruce_boat: Чамец од смрека
+  birch_boat: Чамец од бреза
+  jungle_boat: Чамец од џунглиско дрво
+  acacia_boat: Чамец од акација
+  dark_oak_boat: Чамец од темен даб
   structure_block: Структурен блок
   jigsaw: Сложувалка
   turtle_helmet: Желкина школка
@@ -585,7 +693,15 @@ material:
   coal: Јаглен
   charcoal: Ќумур
   diamond: Дијамант
+  emerald: Смарагд
+  lapis_lazuli: Лазура
+  quartz: Недер кварц
+  amethyst_shard: Аметист Шард
+  raw_iron: Сурово железо
   iron_ingot: Железен калап
+  raw_copper: Суров бакар
+  copper_ingot: Бакарни инготи
+  raw_gold: Сурово злато
   gold_ingot: Златен калап
   netherite_ingot: Шипка Пеколит
   netherite_scrap: Парче Пеколит
@@ -669,29 +785,27 @@ material:
   bucket: Кофа
   water_bucket: Кофа со вода
   lava_bucket: Кофа со лава
-  minecart: Рударска количка
-  saddle: Седло
-  redstone: Редстоун прашина
+  powder_snow_bucket: Кофа за снег во прав
   snowball: Снежна топка
-  oak_boat: Чамец од даб
   leather: Кожа
   milk_bucket: Кофа со млеко
   pufferfish_bucket: Кофа со риба-балон
   salmon_bucket: Кофа со лосос
   cod_bucket: Кофа со бакалар
   tropical_fish_bucket: Кофа со тропска риба
+  axolotl_bucket: Кофа со Аксолотл
   brick: Цигла
   clay_ball: Глинена Топка
   dried_kelp_block: Блок од исушена алга
   paper: Хартија
   book: Книга
   slime_ball: Слузна топка
-  chest_minecart: Рударска количка со сандак
-  furnace_minecart: Рударска количка со печка
   egg: Јајце
   compass: Компас
+  bundle: Пакет
   fishing_rod: Трска за риболов
   clock: Часовник
+  spyglass: Шпионско стакло
   glowstone_dust: Прашина од светлосен камен
   cod: Суров бакалар
   salmon: Суров лосос
@@ -700,8 +814,8 @@ material:
   cooked_cod: Печен бакалар
   cooked_salmon: Печен лосос
   ink_sac: Вреќичка со мастило
+  glow_ink_sac: Сјајно мастило сак
   cocoa_beans: Какаови зрна
-  lapis_lazuli: Лазура
   white_dye: Бела фарба
   orange_dye: Портокалова фарба
   magenta_dye: Магента фарба
@@ -765,6 +879,7 @@ material:
   cauldron: Котел
   ender_eye: Ендер око
   glistering_melon_slice: Сјајно парче од лубеница
+  axolotl_spawn_egg: Створувач на аксолотл
   bat_spawn_egg: Јајце за создавање лилјак
   bee_spawn_egg: Јајце за создавање пчела
   blaze_spawn_egg: Јајце за создавање пламен
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: Јајце за создавање повикувач
   fox_spawn_egg: Јајце за создавање лисица
   ghast_spawn_egg: Јајце за создавање гаст
+  glow_squid_spawn_egg: Створувач на светли лигњи
+  goat_spawn_egg: Створувач на кози
   guardian_spawn_egg: Јајце за создавање чувар
   hoglin_spawn_egg: Јајце за Создавање Пеколска Свиња
   horse_spawn_egg: Јајце за создавање коњ
@@ -833,8 +950,8 @@ material:
   fire_charge: Огнена топка
   writable_book: Книга и перо
   written_book: Напишана книга
-  emerald: Смарагд
   item_frame: Рамка
+  glow_item_frame: Сјајна рамка на предметот
   flower_pot: Саксија
   carrot: Морков
   potato: Компир
@@ -848,17 +965,12 @@ material:
   zombie_head: Глава од зомби
   creeper_head: Глава од крипер
   dragon_head: Глава од змеј
-  carrot_on_a_stick: Морков на стап
-  warped_fungus_on_a_stick: Луда Печурка на Стап
   nether_star: Недер ѕвезда
   pumpkin_pie: Пита од тиква
   firework_rocket: Огнометна ракета
   firework_star: Огнометна ѕвезда
   enchanted_book: Волшебна книга
   nether_brick: Недер цигла
-  quartz: Недер кварц
-  tnt_minecart: Рударска количка со ТНТ
-  hopper_minecart: Рударска количка со собирач
   prismarine_shard: Призмаринска острица
   prismarine_crystals: Призмарински кристал
   rabbit: Суров зајак
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: Засилена стрела
   lingering_potion: Лебдечка напивка
   shield: Штит
-  elytra: Крила
-  spruce_boat: Чамец од смрека
-  birch_boat: Чамец од бреза
-  jungle_boat: Чамец од џунглиско дрво
-  acacia_boat: Чамец од акација
-  dark_oak_boat: Чамец од темен даб
   totem_of_undying: Тотем на бесмртноста
   shulker_shell: Шулкер школка
   iron_nugget: Железна грутка
@@ -948,13 +1054,13 @@ material:
   cartography_table: Картографска маса
   fletching_table: Маса за изработка на стрели
   grindstone: Камен за острење
-  lectern: Наслон за читање
   smithing_table: Маса за ковање
   stonecutter: Каменорезец
   bell: Ѕвонче
   lantern: Фенер
   soul_lantern: Душни Фенер
   sweet_berries: Слатки бобинки
+  glow_berries: Сјајни бобинки
   campfire: Логорски оган
   soul_campfire: Душни Логорски Огин
   shroomlight: Печурко Светло
@@ -962,12 +1068,8 @@ material:
   bee_nest: Гнездо на пчели
   beehive: Пчеларник
   honey_bottle: Шише со мед
-  honey_block: Коскена Коцка
-  honeycomb_block: Коскена Коцка
+  honeycomb_block: Саќена Коцка
   lodestone: Магнетен Камен
-  netherite_block: Коцка од Пеколит
-  ancient_debris: Древни Остаци
-  target: Мета
   crying_obsidian: Плачлив Обцидиан
   blackstone: Црн Камен
   blackstone_slab: Плочка од Црн Камен
@@ -981,7 +1083,29 @@ material:
   polished_blackstone_brick_slab: Плочка од Размазени Цигли од Црн Камен
   polished_blackstone_brick_stairs: Скали од Размазени Цигли од Црн Камен
   cracked_polished_blackstone_bricks: Пукнати Размазени Цигли од Црн Камен
-  respawn_anchor: Препородско Сидро
+  respawn_anchor: Преродно Сидро
+  candle: Свеќа
+  white_candle: Бела свеќа
+  orange_candle: Портокалова свеќа
+  magenta_candle: Магента свеќа
+  light_blue_candle: Светло сина свеќа
+  yellow_candle: Жолта свеќа
+  lime_candle: Светло зелена свеќа
+  pink_candle: Розева свеќа
+  gray_candle: Сива свеќа
+  light_gray_candle: Светло сива свеќа
+  cyan_candle: Тиркизна свеќа
+  purple_candle: Виолетова свеќа
+  blue_candle: Сина свеќа
+  brown_candle: Кафеава свеќа
+  green_candle: Зелена свеќа
+  red_candle: Црвена свеќа
+  black_candle: Црна свеќа
+  small_amethyst_bud: Мали пупки од аметист
+  medium_amethyst_bud: Средна пупка од аметист
+  large_amethyst_bud: Големи пупки од аметист
+  amethyst_cluster: Аметист кластер
+  pointed_dripstone: Посочен Дрипстоун
   water: Вода
   lava: Лава
   tall_seagrass: Висока морска трева
@@ -1004,6 +1128,9 @@ material:
   attached_melon_stem: Поврзано стебло од лубеница
   pumpkin_stem: Стебло од тиква
   melon_stem: Стебло од лубеница
+  water_cauldron: Казан со вода
+  lava_cauldron: Казан со лава
+  powder_snow_cauldron: Казан со снег
   end_portal: Енд портал
   cocoa: Какао
   tripwire: Нагазна жица
@@ -1083,6 +1210,30 @@ material:
   potted_warped_fungus: Луда Печурка во Саксија
   potted_crimson_roots: Црвени Корени во Саксија
   potted_warped_roots: Луди Корени во Саксија
+  candle_cake: Торта со свеќа
+  white_candle_cake: Торта со Бела Свеќа
+  orange_candle_cake: Торта со Портокалова Свеќа
+  magenta_candle_cake: Торта со Магента Свеќа
+  light_blue_candle_cake: Торта со Светло Сина Свеќа
+  yellow_candle_cake: Торта со Жолта Свеќа
+  lime_candle_cake: Торта со Светло Зелена Свеќа
+  pink_candle_cake: Торта со Розева Свеќа
+  gray_candle_cake: Торта со Сива Свеќа
+  light_gray_candle_cake: Торта со Светло Сива Свеќа
+  cyan_candle_cake: Торта со Цијан Свеќа
+  purple_candle_cake: Торта со Виолетова Свеќа
+  blue_candle_cake: Торта со Сина Свеќа
+  brown_candle_cake: Торта со Кафена Свеќа
+  green_candle_cake: Торта со Зелена Свеќа
+  red_candle_cake: Торта со Црвена Свеќа
+  black_candle_cake: Торта со Црна Свеќа
+  powder_snow: Снег во прав
+  cave_vines: Пештерана лоза
+  cave_vines_plant: Пештерска билка
+  big_dripleaf_stem: Голем Матични Каплист
+  potted_azalea_bush: Кондензирана азалеа
+  potted_flowering_azalea_bush: Кондензирана цветна азалеа
+  grass_path: Тревна патека
   zombie_pigman_spawn_egg: Јајце за создавање зомби прасе-човек
   cactus_green: Кактус-зелена
   dandelion_yellow: Глуварчесто-жолта
@@ -1169,46 +1320,48 @@ biome:
   crimson_forest: Црвена Шума
   warped_forest: Луда Шума
   basalt_deltas: Базалтни Делти
+  dripstone_caves: Дрипстоун Пештери
+  lush_caves: Бујна пештера
   nether: Недер
 enchantment:
-  fire_protection: Заштита од оган
-  sharpness: Острина
-  flame: Пламен
-  soul_speed: Душна Брзина
-  aqua_affinity: Воден афинитет
-  punch: Удар
-  loyalty: Лојалност
-  depth_strider: Подводно движење
-  vanishing_curse: Клетва на исчезнување
-  unbreaking: Некршливост
-  knockback: Одбивање
-  luck_of_the_sea: Среќа на морето
-  binding_curse: Клетва на поврзување
-  fortune: Среќа
   protection: Заштита
-  efficiency: Ефикасност
-  mending: Поправање
-  frost_walker: Леден пешак
-  lure: Мамец
-  looting: Ограбување
-  piercing: Продирање
-  blast_protection: Заштита од експлозија
-  smite: Истребувач на бесмртните
-  multishot: Троен истрел
-  fire_aspect: Огнен аспект
-  channeling: Канализирање
-  sweeping: Моќен замав
-  thorns: Трње
-  bane_of_arthropods: Проклетство на членконогите
-  respiration: Дишење
-  riptide: Плима
-  silk_touch: Свилен допир
-  quick_charge: Брзо полнење
-  projectile_protection: Заштита од проектили
-  impaling: Пробивање
+  fire_protection: Заштита од оган
   feather_falling: Лесно паѓање
+  blast_protection: Заштита од експлозија
+  projectile_protection: Заштита од проектили
+  respiration: Дишење
+  aqua_affinity: Воден афинитет
+  thorns: Трње
+  depth_strider: Подводно движење
+  frost_walker: Леден пешак
+  binding_curse: Клетва на поврзување
+  sharpness: Острина
+  smite: Истребувач на бесмртните
+  bane_of_arthropods: Проклетство на членконогите
+  knockback: Одбивање
+  fire_aspect: Огнен аспект
+  looting: Ограбување
+  sweeping: Моќен замав
+  efficiency: Ефикасност
+  silk_touch: Свилен допир
+  unbreaking: Некршливост
+  fortune: Среќа
   power: Моќ
+  punch: Удар
+  flame: Пламен
   infinity: Бесконечност
+  luck_of_the_sea: Среќа на морето
+  lure: Мамец
+  loyalty: Лојалност
+  impaling: Пробивање
+  riptide: Плима
+  channeling: Канализирање
+  multishot: Троен истрел
+  quick_charge: Брзо полнење
+  piercing: Продирање
+  mending: Поправање
+  vanishing_curse: Клетва на исчезнување
+  soul_speed: Душна Брзина
 potion:
   uncraftable: Несоздавачка напивка
   water: Шише со вода
@@ -1402,6 +1555,12 @@ entity:
   piglin: Свински Човек
   strider: Чекорец
   zoglin: Зомби Пеколска Свиња
+  piglin_brute: Пиглин Брут
+  axolotl: Аксолотл
+  glow_item_frame: Сјајна рамка на предметот
+  glow_squid: Сјајни лигњи
+  goat: Коза
+  marker: Маркер
   fishing_hook: Мамка за риболов
   lightning: Молња
   player: Играч
@@ -2201,17 +2360,3 @@ villager_profession:
   shepherd: Овчар
   toolsmith: Ковач на алати
   weaponsmith: Ковач на оружја
-villager_career:
-  farmer: Фармер
-  fisherman: Рибар
-  shepherd: Овчар
-  fletcher: Изработувач на стрели
-  librarian: Библиотекар
-  cartographer: Картограф
-  cleric: Свештеник
-  armorer: Ковач на оклоп
-  weapon_smith: Ковач на оружје
-  tool_smith: Ковач на алати
-  butcher: Касап
-  leatherworker: Обработувач на кожа
-  nitwit: Неспособен

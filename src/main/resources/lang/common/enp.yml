@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:47                    #
+# Build time: 2021-07-04 21:46:02                    #
 # ####################################################
 language:
   code: enp
@@ -8,120 +8,182 @@ language:
 material:
   air: Loft
   stone: Stone
-  granite: Seedrock
-  polished_granite: Smooth Seedrock
-  diorite: Markfieldrock
-  polished_diorite: Smooth Markfieldrock
-  andesite: Andesrock
-  polished_andesite: Smooth Andesrock
-  grass_block: Grass Block
+  granite: Moorstone
+  polished_granite: Smooth Moorstone
+  diorite: Markfieldstone
+  polished_diorite: Smooth Markfieldstone
+  andesite: Andestone
+  polished_andesite: Smooth Andestone
+  deepslate: Deepstone
+  cobbled_deepslate: Cobbled Deepstone
+  polished_deepslate: Smooth Deepstone
+  calcite: Limestone
+  tuff: Ash Stone
+  dripstone_block: Dripstone Cleat
+  grass_block: Grass Cleat
   dirt: Dirt
   coarse_dirt: Rough Dirt
-  podzol: Podzol
+  podzol: Underash
+  rooted_dirt: Rooted Dirt
   crimson_nylium: Base Netherswamb
   warped_nylium: Warped Netherswamb
   cobblestone: Cobblestone
   oak_planks: Oak Boards
-  spruce_planks: Pine Boards
+  spruce_planks: Harttartree Boards
   birch_planks: Birch Boards
-  jungle_planks: Rainwold Boards
+  jungle_planks: Orwald Boards
   acacia_planks: Wattletree Boards
   dark_oak_planks: Dark Oak Boards
   crimson_planks: Base Boards
   warped_planks: Warped Boards
   oak_sapling: Oak Sapling
-  spruce_sapling: Pine Sapling
+  spruce_sapling: Harttartree Sapling
   birch_sapling: Birch Sapling
-  jungle_sapling: Rainwold Sapling
+  jungle_sapling: Orwald Sapling
   acacia_sapling: Wattletree Sapling
   dark_oak_sapling: Dark Oak Sapling
-  bedrock: Bedrock
+  bedrock: Bedstone
   sand: Sand
   red_sand: Red Sand
   gravel: Pebbles
-  gold_ore: Gold Ore
-  iron_ore: Iron Ore
   coal_ore: Coal Ore
+  deepslate_coal_ore: Deepstone Coal Ore
+  iron_ore: Iron Ore
+  deepslate_iron_ore: Deepstone Iron Ore
+  copper_ore: Are Ore
+  deepslate_copper_ore: Deepstone Are Ore
+  gold_ore: Gold Ore
+  deepslate_gold_ore: Deepstone Gold Ore
+  redstone_ore: Redstone Ore
+  deepslate_redstone_ore: Deepstone Redstone Ore
+  emerald_ore: Greenhirst Ore
+  deepslate_emerald_ore: Deepstone Greenhirst Ore
+  lapis_ore: Hewenstone Ore
+  deepslate_lapis_ore: Deepstone Hewenstone Ore
+  diamond_ore: Hardhirst Ore
+  deepslate_diamond_ore: Deepstone Hardhirst Ore
   nether_gold_ore: Nether Gold Ore
-  oak_log: Oak Log
-  spruce_log: Pine Log
-  birch_log: Birch Log
-  jungle_log: Rainwold Log
-  acacia_log: Wattletree Log
-  dark_oak_log: Dark Oak Log
+  nether_quartz_ore: Nether Hardstone Ore
+  ancient_debris: Fern Dross
+  coal_block: Cleat of Coal
+  raw_iron_block: Cleat of Raw Iron
+  raw_copper_block: Cleat of Raw Are
+  raw_gold_block: Cleat of Raw Gold
+  amethyst_block: Cleat of Drunklack
+  budding_amethyst: Budding Drunklack
+  iron_block: Cleat of Iron
+  copper_block: Cleat of Are
+  gold_block: Cleat of Gold
+  diamond_block: Cleat of Hardhirst
+  netherite_block: Cleat of Netherstone
+  exposed_copper: Bare Are
+  weathered_copper: Weathered Are
+  oxidized_copper: Sourstuffed Are
+  cut_copper: Cut Are
+  exposed_cut_copper: Bare Cut Are
+  weathered_cut_copper: Weathered Cut Are
+  oxidized_cut_copper: Sourstuffed Cut Are
+  cut_copper_stairs: Cut Are Stairs
+  exposed_cut_copper_stairs: Bare Cut Are Stairs
+  weathered_cut_copper_stairs: Weathered Cut Are Stairs
+  oxidized_cut_copper_stairs: Sourstuffed Cut Are Stairs
+  cut_copper_slab: Cut Are Slab
+  exposed_cut_copper_slab: Bare Cut Are Slab
+  weathered_cut_copper_slab: Weathered Cut Are Slab
+  oxidized_cut_copper_slab: Sourstuffed Cut Are Slab
+  waxed_copper_block: Waxed Cleat of Are
+  waxed_exposed_copper: Waxed Bare Are
+  waxed_weathered_copper: Waxed Weathered Are
+  waxed_oxidized_copper: Waxed Sourstuffed Are
+  waxed_cut_copper: Waxed Cut Are
+  waxed_exposed_cut_copper: Waxed Bare Cut Are
+  waxed_weathered_cut_copper: Waxed Weathered Cut Are
+  waxed_oxidized_cut_copper: Waxed Sourstuffed Cut Are
+  waxed_cut_copper_stairs: Waxed Cut Are Stairs
+  waxed_exposed_cut_copper_stairs: Waxed Bare Cut Are Stairs
+  waxed_weathered_cut_copper_stairs: Waxed Weathered Cut Are Stairs
+  waxed_oxidized_cut_copper_stairs: Waxed Sourstuffed Cut Are Stairs
+  waxed_cut_copper_slab: Waxed Cut Are Slab
+  waxed_exposed_cut_copper_slab: Waxed Bare Cut Are Slab
+  waxed_weathered_cut_copper_slab: Waxed Weathered Cut Are Slab
+  waxed_oxidized_cut_copper_slab: Waxed Sourstuffed Cut Are Slab
+  oak_log: Oak Woodstem
+  spruce_log: Harttartree Woodstem
+  birch_log: Birch Woodstem
+  jungle_log: Orwald Woodstem
+  acacia_log: Wattletree Woodstem
+  dark_oak_log: Dark Oak Woodstem
   crimson_stem: Base Stem
   warped_stem: Warped Stem
-  stripped_oak_log: Stripped Oak Log
-  stripped_spruce_log: Stripped Pine Log
-  stripped_birch_log: Stripped Birch Log
-  stripped_jungle_log: Stripped Rainwold Log
-  stripped_acacia_log: Stripped Wattletree Log
-  stripped_dark_oak_log: Stripped Dark Oak Log
+  stripped_oak_log: Stripped Oak Woodstem
+  stripped_spruce_log: Stripped Harttartree Woodstem
+  stripped_birch_log: Stripped Birch Woodstem
+  stripped_jungle_log: Stripped Orwald Woodstem
+  stripped_acacia_log: Stripped Wattletree Woodstem
+  stripped_dark_oak_log: Stripped Dark Oak Woodstem
   stripped_crimson_stem: Stripped Base Stem
   stripped_warped_stem: Stripped Warped Stem
   stripped_oak_wood: Stripped Oak Wood
-  stripped_spruce_wood: Stripped Pine Wood
+  stripped_spruce_wood: Stripped Harttartree Wood
   stripped_birch_wood: Stripped Birch Wood
-  stripped_jungle_wood: Stripped Rainwold Wood
+  stripped_jungle_wood: Stripped Orwald Wood
   stripped_acacia_wood: Stripped Wattletree Wood
   stripped_dark_oak_wood: Stripped Dark Oak Wood
   stripped_crimson_hyphae: Stripped Base Swambwood
   stripped_warped_hyphae: Stripped Warped Swambwood
   oak_wood: Oak Wood
-  spruce_wood: Pine Wood
+  spruce_wood: Harttartree Wood
   birch_wood: Birch Wood
-  jungle_wood: Rainwold Wood
+  jungle_wood: Orwald Wood
   acacia_wood: Wattletree Wood
   dark_oak_wood: Dark Oak Wood
   crimson_hyphae: Base Swambwood
   warped_hyphae: Warped Swambwood
   oak_leaves: Oak Leaves
-  spruce_leaves: Pine Leaves
+  spruce_leaves: Harttartree Leaves
   birch_leaves: Birch Leaves
-  jungle_leaves: Rainwold Leaves
+  jungle_leaves: Orwald Leaves
   acacia_leaves: Wattletree Leaves
   dark_oak_leaves: Dark Oak Leaves
-  sponge: Sponge
-  wet_sponge: Wet Sponge
+  azalea_leaves: Dryplant Leaves
+  flowering_azalea_leaves: Blooming Dryplant Leaves
+  sponge: Soakshaft
+  wet_sponge: Wet Soakshaft
   glass: Glass
-  lapis_ore: Bluestone Ore
-  lapis_block: Bluestone Block
-  dispenser: Thrower
+  tinted_glass: Shaded Glass
+  lapis_block: Cleat of Hewenstone
   sandstone: Sandstone
   chiseled_sandstone: Graven Sandstone
   cut_sandstone: Cut Sandstone
-  note_block: Note Block
-  powered_rail: Livened Track
-  detector_rail: Acknower Track
-  sticky_piston: Sticky Stampend
   cobweb: Cobweb
   grass: Grass
   fern: Fern
+  azalea: Dryplant
+  flowering_azalea: Blooming Dryplant
   dead_bush: Dead Bush
   seagrass: Seagrass
   sea_pickle: Sea Pickle
-  piston: Stampend
   white_wool: White Wool
   orange_wool: Yellowred Wool
   magenta_wool: Bawsered Wool
-  light_blue_wool: Light Blue Wool
+  light_blue_wool: Light Hewen Wool
   yellow_wool: Yellow Wool
   lime_wool: Light Green Wool
   pink_wool: Pink Wool
   gray_wool: Gray Wool
   light_gray_wool: Light Gray Wool
-  cyan_wool: Bluegreen Wool
+  cyan_wool: Hewengreen Wool
   purple_wool: Bawse Wool
-  blue_wool: Blue Wool
+  blue_wool: Hewen Wool
   brown_wool: Brown Wool
   green_wool: Green Wool
   red_wool: Red Wool
   black_wool: Black Wool
   dandelion: Lionstooth
   poppy: Poppy
-  blue_orchid: Blue Ballockwort
+  blue_orchid: Hewen Ballockwort
   allium: Leek
-  azure_bluet: Blueling
+  azure_bluet: Hewenling
   red_tulip: Red Houvebloom
   orange_tulip: Yellowred Houvebloom
   white_tulip: White Houvebloom
@@ -130,24 +192,28 @@ material:
   cornflower: Cornblossom
   lily_of_the_valley: May Bells
   wither_rose: Wither Rose
-  brown_mushroom: Brown Swamb
-  red_mushroom: Red Swamb
+  spore_blossom: Seed Blossom
+  brown_mushroom: Brown Toadstool
+  red_mushroom: Red Toadstool
   crimson_fungus: Base Fieldswamb
   warped_fungus: Warped Fieldswamb
   crimson_roots: Base Roots
   warped_roots: Warped Roots
   nether_sprouts: Nether Sprouts
-  weeping_vines: Weeping Winetrees
-  twisting_vines: Twisting Winetrees
+  weeping_vines: Weeping Hanggrass
+  twisting_vines: Twisting Risegrass
   sugar_cane: Sugar Reed
-  kelp: Kelp
+  kelp: Ash Seaweed
+  moss_carpet: Moss Tappet
+  moss_block: Moss Cleat
+  hanging_roots: Hanging Roots
+  big_dripleaf: Great Dripleaf
+  small_dripleaf: Small Dripleaf
   bamboo: Treereed
-  gold_block: Block of Gold
-  iron_block: Block of Iron
   oak_slab: Oak Slab
-  spruce_slab: Pine Slab
+  spruce_slab: Harttartree Slab
   birch_slab: Birch Slab
-  jungle_slab: Rainwold Slab
+  jungle_slab: Orwald Slab
   acacia_slab: Wattletree Slab
   dark_oak_slab: Dark Oak Slab
   crimson_slab: Base Slab
@@ -159,22 +225,21 @@ material:
     Cut Sandstone Slab
   petrified_oak_slab: Stoneledged Oak Slab
   cobblestone_slab: Cobblestone Slab
-  brick_slab: Brick Slab
-  stone_brick_slab: Stone Brick Slab
-  nether_brick_slab: Nether Brick Slab
+  brick_slab: Bakestone Slab
+  stone_brick_slab: Stonestave Slab
+  nether_brick_slab: Nether Bakestone Slab
   quartz_slab: Hardstone Slab
   red_sandstone_slab: Red Sandstone Slab
   cut_red_sandstone_slab: Cut Red Sandstone Slab
-  purpur_slab: Purpur Slab
+  purpur_slab: Bawser Slab
   prismarine_slab: Shimmereen Slab
-  prismarine_brick_slab: Shimmereen Brick Slab
+  prismarine_brick_slab: Shimmereen Stonestave Slab
   dark_prismarine_slab: Dark Shimmereen Slab
-  smooth_quartz: Smooth Hardstone Block
+  smooth_quartz: Smooth Hardstone Cleat
   smooth_red_sandstone: Smooth Red Sandstone
   smooth_sandstone: Smooth Sandstone
   smooth_stone: Smooth Stone
-  bricks: Bricks
-  tnt: TNT
+  bricks: Bakestones
   bookshelf: Bookshelf
   mossy_cobblestone: Mossy Cobblestone
   obsidian: Ravenglass
@@ -182,222 +247,178 @@ material:
   end_rod: End Rod
   chorus_plant: Stalplant
   chorus_flower: Stalbloom
-  purpur_block: Purpur Block
-  purpur_pillar: Purpur Staple
-  purpur_stairs: Purpur Stairs
+  purpur_block: Bawser Cleat
+  purpur_pillar: Bawser Staple
+  purpur_stairs: Bawser Stairs
   spawner: Begetter
   oak_stairs: Oak Stairs
   chest: Chest
-  diamond_ore: Diamond Ore
-  diamond_block: Block of Diamond
   crafting_table: Workbench
   farmland: Farmland
   furnace: Oven
   ladder: Ladder
-  rail: Track
   cobblestone_stairs: Cobblestone Stairs
-  lever: Switch
-  stone_pressure_plate: Stone Thrutchdish
-  oak_pressure_plate: Oak Thrutchdish
-  spruce_pressure_plate: Pine Thrutchdish
-  birch_pressure_plate: Birch Thrutchdish
-  jungle_pressure_plate: Rainwold Thrutchdish
-  acacia_pressure_plate: Wattletree Thrutchdish
-  dark_oak_pressure_plate: Dark Oak Thrutchdish
-  crimson_pressure_plate: Base Thrutchdish
-  warped_pressure_plate: Warped Thrutchdish
-  polished_blackstone_pressure_plate: Smoothed Blackstone Thrutchdish
-  redstone_ore: Redstone Ore
-  redstone_torch: Redstone Thackle
   snow: Snow
   ice: Ice
-  snow_block: Snow Block
+  snow_block: Snow Cleat
   cactus: Thorntree
   clay: Clay
-  jukebox: Jukebox
-  oak_fence: Oak Wall
-  spruce_fence: Pine Wall
-  birch_fence: Birch Wall
-  jungle_fence: Rainwold Wall
-  acacia_fence: Wattletree Wall
-  dark_oak_fence: Dark Oak Wall
-  crimson_fence: Base Wall
-  warped_fence: Warped Wall
+  jukebox: Song Crate
+  oak_fence: Oak Sundering
+  spruce_fence: Harttartree Sundering
+  birch_fence: Birch Sundering
+  jungle_fence: Orwald Sundering
+  acacia_fence: Wattletree Sundering
+  dark_oak_fence: Dark Oak Sundering
+  crimson_fence: Base Sundering
+  warped_fence: Warped Sundering
   pumpkin: Harvestovet
   carved_pumpkin: Carved Harvestovet
-  netherrack: Netherrack
+  jack_o_lantern: Jack o'Lightvat
+  netherrack: Netherharst
   soul_sand: Soul Sand
   soul_soil: Soul Dirt
   basalt: Rinestone
   polished_basalt: Smooth Rinestone
+  smooth_basalt: 6-Sided Rinestone
   soul_torch: Soul Thackle
   glowstone: Glowstone
-  jack_o_lantern: Jack o'Lightvat
-  oak_trapdoor: Oak Trapdoor
-  spruce_trapdoor: Pine Trapdoor
-  birch_trapdoor: Birch Trapdoor
-  jungle_trapdoor: Rainwold Trapdoor
-  acacia_trapdoor: Wattletree Trapdoor
-  dark_oak_trapdoor: Dark Oak Trapdoor
-  crimson_trapdoor: Base Trapdoor
-  warped_trapdoor: Warped Trapdoor
   infested_stone: Incoathed Stone
-  infested_cobblestone: Incaothed Cobblestone
-  infested_stone_bricks: Incoathed Stone Bricks
-  infested_mossy_stone_bricks: Incoathed Mossy Stone Bricks
-  infested_cracked_stone_bricks: Incoathed Cracked Stone Bricks
-  infested_chiseled_stone_bricks: Incoathed Chiseled Stone Bricks
-  stone_bricks: Stone Bricks
-  mossy_stone_bricks: Mossy Stone Bricks
-  cracked_stone_bricks: Cracked Stone Bricks
-  chiseled_stone_bricks: Graven Stone Bricks
-  brown_mushroom_block: Brown Swamb Block
-  red_mushroom_block: Red Swamb Block
-  mushroom_stem: Swamb Stem
+  infested_cobblestone: Incoathed Cobblestone
+  infested_stone_bricks: Incoathed Stonestaves
+  infested_mossy_stone_bricks: Incoathed Mossy Stonestaves
+  infested_cracked_stone_bricks: Incoathed Cracked Stonestaves
+  infested_chiseled_stone_bricks: Incoathed Graven Stonestaves
+  infested_deepslate: Incoathed Deepstone
+  stone_bricks: Stonestaves
+  mossy_stone_bricks: Mossy Stonestaves
+  cracked_stone_bricks: Cracked Stonestaves
+  chiseled_stone_bricks: Graven Stonestaves
+  deepslate_bricks: Deepstone Bricks
+  cracked_deepslate_bricks: Cracked Deepstone Bricks
+  deepslate_tiles: Deepstone Flatstaves
+  cracked_deepslate_tiles: Cracked Deepstone Flatstaves
+  chiseled_deepslate: Graven Deepstone
+  brown_mushroom_block: Brown Toadstool Steck
+  red_mushroom_block: Red Toadstool Steck
+  mushroom_stem: Toadstool Stem
   iron_bars: Iron Rods
-  chain: Fettered
+  chain: Fetter
   glass_pane: Glass Window
   melon: Entapple
-  vine: Winetree
-  oak_fence_gate: Oak Gate
-  spruce_fence_gate: Pine Gate
-  birch_fence_gate: Birch Gate
-  jungle_fence_gate: Rainwold Gate
-  acacia_fence_gate: Wattletree Gate
-  dark_oak_fence_gate: Dark Oak Gate
-  crimson_fence_gate: Base Gate
-  warped_fence_gate: Warped Gate
-  brick_stairs: Brick Stairs
-  stone_brick_stairs: Stone Brick Stairs
+  vine: Hanggrass
+  glow_lichen: Glow Lungwort
+  brick_stairs: Bakestone Stairs
+  stone_brick_stairs: Stonestave Stairs
   mycelium: Swamb
   lily_pad: Lily Pad
-  nether_bricks: Nether Bricks
+  nether_bricks: Nether Bakestones
   cracked_nether_bricks: Cracked Nether Bakestones
   chiseled_nether_bricks: Graven Nether Bakestones
-  nether_brick_fence: Nether Brick Wall
-  nether_brick_stairs: Nether Brick Stairs
-  enchanting_table: Galdercraft Table
+  nether_brick_fence: Nether Bakestone Sundering
+  nether_brick_stairs: Nether Bakestones Stairs
+  enchanting_table: Galdercraft Bench
   end_portal_frame: End Gateway Frame
   end_stone: End Stone
-  end_stone_bricks: End Stone Bricks
-  dragon_egg: Drake Egg
-  redstone_lamp: Redstone Lightvat
+  end_stone_bricks: End Stonestaves
+  dragon_egg: Wyrm Egg
   sandstone_stairs: Sandstone Stairs
-  emerald_ore: Greenhirst Ore
   ender_chest: Ender Chest
-  tripwire_hook: Tripwire Hook
-  emerald_block: Block of Greenhirst
-  spruce_stairs: Pine Stairs
+  emerald_block: Cleat of Greenhirst
+  spruce_stairs: Harttartree Stairs
   birch_stairs: Birch Stairs
-  jungle_stairs: Rainwold Stairs
+  jungle_stairs: Orwald Stairs
   crimson_stairs: Base Stairs
   warped_stairs: Warped Stairs
-  command_block: Hest Block
+  command_block: Hest Aframer
   beacon: Beacon
   cobblestone_wall: Cobblestone Wall
   mossy_cobblestone_wall: Mossy Cobblestone Wall
-  brick_wall: Brick Wall
+  brick_wall: Bakestone Wall
   prismarine_wall: Shimmereen Wall
   red_sandstone_wall: Red Sandstone Wall
-  mossy_stone_brick_wall: Mossy Stone Brick Wall
+  mossy_stone_brick_wall: Mossy Stonestave Wall
   granite_wall: Moorstone Wall
-  stone_brick_wall: Stone Brick Wall
-  nether_brick_wall: Nether Brick Wall
-  andesite_wall: Andesrock Wall
-  red_nether_brick_wall: Red Nether Brick Wall
+  stone_brick_wall: Stonestave Wall
+  nether_brick_wall: Nether Bakestone Wall
+  andesite_wall: Andestone Wall
+  red_nether_brick_wall: Red Nether Bakestone Wall
   sandstone_wall: Sandstone Wall
-  end_stone_brick_wall: End Stone Brick Wall
-  diorite_wall: Markfieldrock Wall
+  end_stone_brick_wall: End Stonestave Wall
+  diorite_wall: Markfieldstone Wall
   blackstone_wall: Blackstone Wall
-  polished_blackstone_wall: Smoothed Blackstone Wall
-  polished_blackstone_brick_wall: Smoothed Blackstone Tile Wall
-  stone_button: Stone Button
-  oak_button: Oak Button
-  spruce_button: Pine Button
-  birch_button: Birch Button
-  jungle_button: Rainwold Button
-  acacia_button: Wattletree Button
-  dark_oak_button: Dark Oak Button
-  crimson_button: Base Button
-  warped_button: Warped Button
-  polished_blackstone_button: Smoothed Blackstone Knop
+  polished_blackstone_wall: Smooth Blackstone Wall
+  polished_blackstone_brick_wall: Smooth Blackstone Stonestave Wall
+  cobbled_deepslate_wall: Cobbled Deepstone Wall
+  polished_deepslate_wall: Smooth Deepstone Wall
+  deepslate_brick_wall: Deepstone Brick Wall
+  deepslate_tile_wall: Deepstone Flatstave Wall
   anvil: Anvil
   chipped_anvil: Chipped Anvil
   damaged_anvil: Broken Anvil
-  trapped_chest: Trapped Chest
-  light_weighted_pressure_plate: Gold Thrutchdish
-  heavy_weighted_pressure_plate: Iron Thrutchdish
-  daylight_detector: Daylight Anyettend
-  redstone_block: Block of Redstone
-  nether_quartz_ore: Nether Hardstone Ore
-  hopper: Hopper
-  chiseled_quartz_block: Graven Hardstone Block
-  quartz_block: Block of Hardstone
-  quartz_bricks: Hardstone Bakestones
+  chiseled_quartz_block: Graven Hardstone Cleat
+  quartz_block: Cleat of Hardstone
+  quartz_bricks: Hardstone Stonestaves
   quartz_pillar: Hardstone Staple
   quartz_stairs: Hardstone Stairs
-  activator_rail: Astirrend Track
-  dropper: Dropper
   white_terracotta: White Bakedclay
   orange_terracotta: Yellowred Bakedclay
   magenta_terracotta: Bawsered Bakedclay
-  light_blue_terracotta: Light Blue Bakedclay
+  light_blue_terracotta: Light Hewen Bakedclay
   yellow_terracotta: Yellow Bakedclay
   lime_terracotta: Light Green Bakedclay
   pink_terracotta: Pink Bakedclay
   gray_terracotta: Gray Bakedclay
   light_gray_terracotta: Lightgray Bakedclay
-  cyan_terracotta: Bluegreen Bakedclay
+  cyan_terracotta: Hewengreen Bakedclay
   purple_terracotta: Bawse Bakedclay
-  blue_terracotta: Blue Bakedclay
+  blue_terracotta: Hewen Bakedclay
   brown_terracotta: Brown Bakedclay
   green_terracotta: Green Bakedclay
   red_terracotta: Red Bakedclay
   black_terracotta: Black Bakedclay
   barrier: Hinderer
-  iron_trapdoor: Iron Trapdoor
+  light: Light
   hay_block: Hay Bale
   white_carpet: White Tappet
   orange_carpet: Yellowred Tappet
   magenta_carpet: Bawsered Tappet
-  light_blue_carpet: Light Blue Tappet
+  light_blue_carpet: Light Hewen Tappet
   yellow_carpet: Yellow Tappet
   lime_carpet: Light Green Tappet
   pink_carpet: Pink Tappet
   gray_carpet: Gray Tappet
   light_gray_carpet: Light Gray Tappet
-  cyan_carpet: Bluegreen Tappet
+  cyan_carpet: Hewengreen Tappet
   purple_carpet: Bawse Tappet
-  blue_carpet: Blue Tappet
+  blue_carpet: Hewen Tappet
   brown_carpet: Brown Tappet
   green_carpet: Green Tappet
   red_carpet: Red Tappet
   black_carpet: Black Tappet
   terracotta: Bakedclay
-  coal_block: Block of Coal
   packed_ice: Packed Ice
   acacia_stairs: Wattletree Stairs
   dark_oak_stairs: Dark Oak Stairs
-  slime_block: Slime Block
-  grass_path: Grass Path
+  dirt_path: Dirt Path
   sunflower: Sunbloom
   lilac: Bawsebloom
   rose_bush: Rose Bush
-  peony: Peony
+  peony: Smalltidebloom
   tall_grass: Tall Grass
   large_fern: Tall Fern
   white_stained_glass: White Hued Glass
   orange_stained_glass: Yellowred Hued Glass
   magenta_stained_glass: Bawsered Hued Glass
-  light_blue_stained_glass: Light Blue Hued Glass
+  light_blue_stained_glass: Light Hewen Hued Glass
   yellow_stained_glass: Yellow Hued Glass
   lime_stained_glass: Light Green Hued Glass
   pink_stained_glass: Pink Hued Glass
   gray_stained_glass: Gray Hued Glass
   light_gray_stained_glass: Light Gray Hued Glass
-  cyan_stained_glass: Bluegreen Hued Glass
+  cyan_stained_glass: Hewengreen Hued Glass
   purple_stained_glass: Bawse Hued Glass
-  blue_stained_glass: Blue Hued Glass
+  blue_stained_glass: Hewen Hued Glass
   brown_stained_glass: Brown Hued Glass
   green_stained_glass: Green Hued Glass
   red_stained_glass: Red Hued Glass
@@ -405,68 +426,67 @@ material:
   white_stained_glass_pane: White Hued Glass Window
   orange_stained_glass_pane: Yellowred Hued Glass Window
   magenta_stained_glass_pane: Bawsered Hued Glass Window
-  light_blue_stained_glass_pane: Light Blue Hued Glass Window
+  light_blue_stained_glass_pane: Light Hewen Hued Glass Window
   yellow_stained_glass_pane: Yellow Hued Glass Window
   lime_stained_glass_pane: Light Green Hued Glass Window
   pink_stained_glass_pane: Pink Hued Glass Window
   gray_stained_glass_pane: Gray Hued Glass Window
   light_gray_stained_glass_pane: Light Gray Hued Glass Window
-  cyan_stained_glass_pane: Bluegreen Hued Glass Window
+  cyan_stained_glass_pane: Hewengreen Hued Glass Window
   purple_stained_glass_pane: Bawse Hued Glass Window
-  blue_stained_glass_pane: Blue Hued Glass Window
+  blue_stained_glass_pane: Hewen Hued Glass Window
   brown_stained_glass_pane: Brown Hued Glass Window
   green_stained_glass_pane: Green Hued Glass Window
   red_stained_glass_pane: Red Hued Glass Window
   black_stained_glass_pane: Black Hued Glass Window
   prismarine: Shimmereen
-  prismarine_bricks: Shimmereen Bricks
+  prismarine_bricks: Shimmereen Stonestaves
   dark_prismarine: Dark Shimmereen
   prismarine_stairs: Shimmereen Stairs
-  prismarine_brick_stairs: Shimmereen Brick Stairs
+  prismarine_brick_stairs: Shimmereen Stonestave Stairs
   dark_prismarine_stairs: Dark Shimmereen Stairs
   sea_lantern: Sea Lightvat
   red_sandstone: Red Sandstone
   chiseled_red_sandstone: Graven Red Sandstone
   cut_red_sandstone: Cut Red Sandstone
   red_sandstone_stairs: Red Sandstone Stairs
-  repeating_command_block: Edlocking Hest Block
-  chain_command_block: Fetter Hest Block
-  magma_block: Meltyrock Block
-  nether_wart_block: Nether Wart Block
-  warped_wart_block: Warped Wart Block
-  red_nether_bricks: Red Nether Bricks
-  bone_block: Bone Block
+  repeating_command_block: Edlocking Hest Aframer
+  chain_command_block: Fettered Hest Aframer
+  magma_block: Moltenstone Cleat
+  nether_wart_block: Nether Wart Steck
+  warped_wart_block: Warped Wart Steck
+  red_nether_bricks: Red Nether Bakestones
+  bone_block: Bone Steck
   structure_void: Framework Roomth
-  observer: Umbletend
-  shulker_box: Shulker Box
-  white_shulker_box: White Shulker Box
-  orange_shulker_box: Yellowred Shulker Box
-  magenta_shulker_box: Bawsered Shulker Box
-  light_blue_shulker_box: Light Blue Shulker Box
-  yellow_shulker_box: Yellow Shulker Box
-  lime_shulker_box: Light Green Shulker Box
-  pink_shulker_box: Pink Shulker Box
-  gray_shulker_box: Gray Shulker Box
-  light_gray_shulker_box: Light Gray Shulker Box
-  cyan_shulker_box: Bluegreen Shulker Box
-  purple_shulker_box: Bawse Shulker Box
-  blue_shulker_box: Blue Shulker Box
-  brown_shulker_box: Brown Shulker Box
-  green_shulker_box: Green Shulker Box
-  red_shulker_box: Red Shulker Box
-  black_shulker_box: Black Shulker Box
+  shulker_box: Shulker Crate
+  white_shulker_box: White Shulker Crate
+  orange_shulker_box: Yellowred Shulker Crate
+  magenta_shulker_box: Bawsered Shulker Crate
+  light_blue_shulker_box: Light Hewen Shulker Crate
+  yellow_shulker_box: Yellow Shulker Crate
+  lime_shulker_box: Light Green Shulker Crate
+  pink_shulker_box: Pink Shulker Crate
+  gray_shulker_box: Gray Shulker Crate
+  light_gray_shulker_box: Light Gray Shulker Crate
+  cyan_shulker_box: Hewengreen Shulker Crate
+  purple_shulker_box: Bawse Shulker Crate
+  blue_shulker_box: Hewen Shulker Crate
+  brown_shulker_box: Brown Shulker Crate
+  green_shulker_box: Green Shulker Crate
+  red_shulker_box: Red Shulker Crate
+  black_shulker_box: Black Shulker Crate
   white_glazed_terracotta: White Glazed Bakedclay
   orange_glazed_terracotta: Yellowred Glazed Bakedclay
   magenta_glazed_terracotta: Bawsered Glazed Bakedclay
-  light_blue_glazed_terracotta: Light Blue Glazed Bakedclay
+  light_blue_glazed_terracotta: Light Hewen Glazed Bakedclay
   yellow_glazed_terracotta: Yellow Glazed Bakedclay
   lime_glazed_terracotta: Light Green Glazed Bakedclay
   pink_glazed_terracotta: Pink Glazed Bakedclay
   gray_glazed_terracotta: Gray Glazed Bakedclay
   light_gray_glazed_terracotta: Light Gray Glazed Bakedclay
-  cyan_glazed_terracotta: Bluegreen Glazed Bakedclay
+  cyan_glazed_terracotta: Hewengreen Glazed Bakedclay
   purple_glazed_terracotta: Bawse Glazed Bakedclay
-  blue_glazed_terracotta: Blue Glazed Bakedclay
+  blue_glazed_terracotta: Hewen Glazed Bakedclay
   brown_glazed_terracotta: Brown Glazed Bakedclay
   green_glazed_terracotta: Green Glazed Bakedclay
   red_glazed_terracotta: Red Glazed Bakedclay
@@ -474,15 +494,15 @@ material:
   white_concrete: White Manstone
   orange_concrete: Yellowred Manstone
   magenta_concrete: Bawsered Manstone
-  light_blue_concrete: Light Blue Manstone
+  light_blue_concrete: Light Hewen Manstone
   yellow_concrete: Yellow Manstone
   lime_concrete: Light Green Manstone
   pink_concrete: Pink Manstone
   gray_concrete: Gray Manstone
   light_gray_concrete: Light Gray Manstone
-  cyan_concrete: Bluegreen Manstone
+  cyan_concrete: Hewengreen Manstone
   purple_concrete: Bawse Manstone
-  blue_concrete: Blue Manstone
+  blue_concrete: Hewen Manstone
   brown_concrete: Brown Manstone
   green_concrete: Green Manstone
   red_concrete: Red Manstone
@@ -490,93 +510,181 @@ material:
   white_concrete_powder: White Manstone Dust
   orange_concrete_powder: Yellowred Manstone Dust
   magenta_concrete_powder: Bawsered Manstone Dust
-  light_blue_concrete_powder: Light Blue Manstone Dust
+  light_blue_concrete_powder: Light Hewen Manstone Dust
   yellow_concrete_powder: Yellow Manstone Dust
   lime_concrete_powder: Light Green Manstone Dust
   pink_concrete_powder: Pink Manstone Dust
   gray_concrete_powder: Gray Manstone Dust
   light_gray_concrete_powder: Light Gray Manstone Dust
-  cyan_concrete_powder: Bluegreen Manstone Dust
+  cyan_concrete_powder: Hewengreen Manstone Dust
   purple_concrete_powder: Bawse Manstone Dust
-  blue_concrete_powder: Blue Manstone Dust
+  blue_concrete_powder: Hewen Manstone Dust
   brown_concrete_powder: Brown Manstone Dust
   green_concrete_powder: Green Manstone Dust
   red_concrete_powder: Red Manstone Dust
   black_concrete_powder: Black Manstone Dust
   turtle_egg: Shellpad Egg
-  dead_tube_coral_block: Dead Pipe Coral Block
-  dead_brain_coral_block: Dead Brain Coral Block
-  dead_bubble_coral_block: Dead Bubble Coral Block
-  dead_fire_coral_block: Dead Fire Coral Block
-  dead_horn_coral_block: Dead Horn Coral Block
-  tube_coral_block: Pipe Coral Block
-  brain_coral_block: Brain Coral Block
-  bubble_coral_block: Bubble Coral Block
-  fire_coral_block: Fire Coral Block
-  horn_coral_block: Horn Coral Block
-  tube_coral: Pipe Coral
-  brain_coral: Brain Coral
-  bubble_coral: Bubble Coral
-  fire_coral: Fire Coral
-  horn_coral: Horn Coral
-  dead_brain_coral: Dead Brain Coral
-  dead_bubble_coral: Dead Bubble Coral
-  dead_fire_coral: Dead Fire Coral
-  dead_horn_coral: Dead Horn Coral
-  dead_tube_coral: Dead Pipe Coral
-  tube_coral_fan: Pipe Coral Fan
-  brain_coral_fan: Brain Coral Fan
-  bubble_coral_fan: Bubble Coral Fan
-  fire_coral_fan: Fire Coral Fan
-  horn_coral_fan: Horn Coral Fan
-  dead_tube_coral_fan: Dead Pipe Coral Fan
-  dead_brain_coral_fan: Dead Brain Coral Fan
-  dead_bubble_coral_fan: Dead Bubble Coral Fan
-  dead_fire_coral_fan: Dead Fire Coral Fan
-  dead_horn_coral_fan: Dead Horn Coral Fan
-  blue_ice: Blue Ice
+  dead_tube_coral_block: Dead Reed Limeshaft Cleat
+  dead_brain_coral_block: Dead Brain Limeshaft Cleat
+  dead_bubble_coral_block: Dead Bubble Limeshaft Cleat
+  dead_fire_coral_block: Dead Fire Limeshaft Cleat
+  dead_horn_coral_block: Dead Horn Limeshaft Cleat
+  tube_coral_block: Reed Limeshaft Cleat
+  brain_coral_block: Brain Limeshaft Cleat
+  bubble_coral_block: Bubble Limeshaft Cleat
+  fire_coral_block: Fire Limeshaft Cleat
+  horn_coral_block: Horn Limeshaft Cleat
+  tube_coral: Reed Limeshaft
+  brain_coral: Brain Limeshaft
+  bubble_coral: Bubble Limeshaft
+  fire_coral: Fire Limeshaft
+  horn_coral: Horn Limeshaft
+  dead_brain_coral: Dead Brain Limeshaft
+  dead_bubble_coral: Dead Bubble Limeshaft
+  dead_fire_coral: Dead Fire Limeshaft
+  dead_horn_coral: Dead Horn Limeshaft
+  dead_tube_coral: Dead Reed Limeshaft
+  tube_coral_fan: Reed Limeshaft Waffer
+  brain_coral_fan: Brain Limeshaft Waffer
+  bubble_coral_fan: Bubble Limeshaft Waffer
+  fire_coral_fan: Fire Limeshaft Waffer
+  horn_coral_fan: Horn Limeshaft Waffer
+  dead_tube_coral_fan: Dead Reed Limeshaft Waffer
+  dead_brain_coral_fan: Dead Brain Limeshaft Waffer
+  dead_bubble_coral_fan: Dead Bubble Limeshaft Waffer
+  dead_fire_coral_fan: Dead Fire Limeshaft Waffer
+  dead_horn_coral_fan: Dead Horn Limeshaft Waffer
+  blue_ice: Hewen Ice
   conduit: Ithelode
   polished_granite_stairs: Smoothed Moorstone Stairs
   smooth_red_sandstone_stairs: Smooth Red Sandstone Stairs
-  mossy_stone_brick_stairs: Mossy Stone Brick Stairs
-  polished_diorite_stairs: Smooth Markfieldrock Stairs
+  mossy_stone_brick_stairs: Mossy Stonestave Stairs
+  polished_diorite_stairs: Smooth Markfieldstone Stairs
   mossy_cobblestone_stairs: Mossy Cobblestone Stairs
-  end_stone_brick_stairs: End Stone Brick Stairs
+  end_stone_brick_stairs: End Stonestave Stairs
   stone_stairs: Stone Stairs
   smooth_sandstone_stairs: Smooth Sandstone Stairs
   smooth_quartz_stairs: Smooth Hardstone Stairs
   granite_stairs: Moorstone Stairs
-  andesite_stairs: Andesrock Stairs
-  red_nether_brick_stairs: Red Nether Brick Stairs
-  polished_andesite_stairs: Smooth Andesrock Stairs
-  diorite_stairs: Markfieldrock Stairs
+  andesite_stairs: Andestone Stairs
+  red_nether_brick_stairs: Red Nether Bakestone Stairs
+  polished_andesite_stairs: Smooth Andestone Stairs
+  diorite_stairs: Markfieldstone Stairs
+  cobbled_deepslate_stairs: Cobbled Deepstone Stairs
+  polished_deepslate_stairs: Smooth Deepstone Stairs
+  deepslate_brick_stairs: Deepstone Brick Stairs
+  deepslate_tile_stairs: Deepstone Flatstave Stairs
   polished_granite_slab: Smoothed Moorstone Slab
   smooth_red_sandstone_slab: Smooth Red Sandstone Slab
-  mossy_stone_brick_slab: Mossy Stone Brick Slab
-  polished_diorite_slab: Smooth Markfieldrock Slab
+  mossy_stone_brick_slab: Mossy Stonestave Slab
+  polished_diorite_slab: Smooth Markfieldstone Slab
   mossy_cobblestone_slab: Mossy Cobblestone Slab
-  end_stone_brick_slab: End Stone Brick Slab
+  end_stone_brick_slab: End Stonestave Slab
   smooth_sandstone_slab: Smooth Sandstone Slab
   smooth_quartz_slab: Smooth Hardstone Slab
   granite_slab: Moorstone Slab
-  andesite_slab: Andesrock Slab
-  red_nether_brick_slab: Red Nether Brick Slab
-  polished_andesite_slab: Smooth Andesrock Slab
-  diorite_slab: Markfieldrock Slab
-  scaffolding: Scaffolding
+  andesite_slab: Andestone Slab
+  red_nether_brick_slab: Red Nether Bakestone Slab
+  polished_andesite_slab: Smooth Andestone Slab
+  diorite_slab: Markfieldstone Slab
+  cobbled_deepslate_slab: Cobbled Deepstone Slab
+  polished_deepslate_slab: Smooth Deepstone Slab
+  deepslate_brick_slab: Deepstone Brick Slab
+  deepslate_tile_slab: Deepstone Flatstave Slab
+  scaffolding: Framescape
+  redstone: Redstone Dust
+  redstone_torch: Redstone Thackle
+  redstone_block: Cleat of Redstone
+  repeater: Redstone Edlocker
+  comparator: Redstone Likener
+  piston: Stampend
+  sticky_piston: Sticky Stampend
+  slime_block: Slime Cleat
+  honey_block: Honey Cleat
+  observer: Umbletend
+  hopper: Hopper
+  dispenser: Thrower
+  dropper: Dropper
+  lectern: Reading Stand
+  target: Markle
+  lever: Switch
+  lightning_rod: Lightning Rod
+  daylight_detector: Daylight Anyettend
+  sculk_sensor: Lurk Feeler
+  tripwire_hook: Tripwire Hook
+  trapped_chest: Trapped Chest
+  tnt: Blastkeg
+  redstone_lamp: Redstone Lightvat
+  note_block: Ringer
+  stone_button: Stone Knob
+  polished_blackstone_button: Smooth Blackstone Knob
+  oak_button: Oak Knob
+  spruce_button: Harttartree Knob
+  birch_button: Birch Knob
+  jungle_button: Orwald Knob
+  acacia_button: Wattletree Knob
+  dark_oak_button: Dark Oak Knob
+  crimson_button: Base Knob
+  warped_button: Warped Knob
+  stone_pressure_plate: Stone Thrutchdish
+  polished_blackstone_pressure_plate: Smooth Blackstone Thrutchdish
+  light_weighted_pressure_plate: Gold Thrutchdish
+  heavy_weighted_pressure_plate: Iron Thrutchdish
+  oak_pressure_plate: Oak Thrutchdish
+  spruce_pressure_plate: Harttartree Thrutchdish
+  birch_pressure_plate: Birch Thrutchdish
+  jungle_pressure_plate: Orwald Thrutchdish
+  acacia_pressure_plate: Wattletree Thrutchdish
+  dark_oak_pressure_plate: Dark Oak Thrutchdish
+  crimson_pressure_plate: Base Thrutchdish
+  warped_pressure_plate: Warped Thrutchdish
   iron_door: Iron Door
   oak_door: Oak Door
-  spruce_door: Pine Door
+  spruce_door: Harttartree Door
   birch_door: Birch Door
-  jungle_door: Rainwold Door
+  jungle_door: Orwald Door
   acacia_door: Wattletree Door
   dark_oak_door: Dark Oak Door
   crimson_door: Base Door
   warped_door: Warped Door
-  repeater: Redstone Edlocker
-  comparator: Redstone Likener
-  structure_block: Framework Block
-  jigsaw: Inlocking Block
+  iron_trapdoor: Iron Trapdoor
+  oak_trapdoor: Oak Trapdoor
+  spruce_trapdoor: Harttartree Trapdoor
+  birch_trapdoor: Birch Trapdoor
+  jungle_trapdoor: Orwald Trapdoor
+  acacia_trapdoor: Wattletree Trapdoor
+  dark_oak_trapdoor: Dark Oak Trapdoor
+  crimson_trapdoor: Base Trapdoor
+  warped_trapdoor: Warped Trapdoor
+  oak_fence_gate: Oak Gate
+  spruce_fence_gate: Harttartree Gate
+  birch_fence_gate: Birch Gate
+  jungle_fence_gate: Orwald Gate
+  acacia_fence_gate: Wattletree Gate
+  dark_oak_fence_gate: Dark Oak Gate
+  crimson_fence_gate: Base Gate
+  warped_fence_gate: Warped Gate
+  powered_rail: Livened Ironpath
+  detector_rail: Acknower Ironpath
+  rail: Ironpath
+  activator_rail: Mightener Ironpath
+  saddle: Saddle
+  minecart: Delvewagon
+  chest_minecart: Delvewagon with Chest
+  furnace_minecart: Delvewagon with Oven
+  tnt_minecart: Delvewagon with Blastkeg
+  hopper_minecart: Delvewagon with Hopper
+  carrot_on_a_stick: Morroot on a Stick
+  warped_fungus_on_a_stick: Warped Fieldswamb on a Stick
+  elytra: Enderwings
+  oak_boat: Oak Boat
+  spruce_boat: Harttartree Boat
+  birch_boat: Birch Boat
+  jungle_boat: Orwald Boat
+  acacia_boat: Wattletree Boat
+  dark_oak_boat: Dark Oak Boat
+  structure_block: Framework Holder
+  jigsaw: Inlocking Lith
   turtle_helmet: Shellpad Shell
   scute: Shellpad Shield
   flint_and_steel: Flint and Steel
@@ -585,47 +693,55 @@ material:
   arrow: Arrow
   coal: Coal
   charcoal: Charcoal
-  diamond: Diamond
+  diamond: Hardhirst
+  emerald: Greenhirst
+  lapis_lazuli: Hewenstone
+  quartz: Nether Hardstone
+  amethyst_shard: Drunklack Shard
+  raw_iron: Raw Iron
   iron_ingot: Iron Ingot
+  raw_copper: Raw Are
+  copper_ingot: Are Ingot
+  raw_gold: Raw Gold
   gold_ingot: Gold Ingot
   netherite_ingot: Netherstone Ingot
-  netherite_scrap: Netherstone Scrap
+  netherite_scrap: Netherstone Offcut
   wooden_sword: Wood Sword
   wooden_shovel: Wood Shovel
-  wooden_pickaxe: Wooden Pickaxe
+  wooden_pickaxe: Wooden Pike
   wooden_axe: Wooden Axe
   wooden_hoe: Wooden Hoe
   stone_sword: Stone Sword
   stone_shovel: Stone Shovel
-  stone_pickaxe: Stone Pickaxe
+  stone_pickaxe: Stone Pike
   stone_axe: Stone Axe
   stone_hoe: Stone Hoe
   golden_sword: Golden Sword
   golden_shovel: Golden Shovel
-  golden_pickaxe: Golden Pickaxe
+  golden_pickaxe: Golden Pike
   golden_axe: Golden Axe
   golden_hoe: Golden Hoe
   iron_sword: Iron Sword
   iron_shovel: Iron Shovel
-  iron_pickaxe: Iron Pickaxe
+  iron_pickaxe: Iron Pike
   iron_axe: Iron Axe
   iron_hoe: Iron Hoe
-  diamond_sword: Diamond Sword
-  diamond_shovel: Diamond Shovel
-  diamond_pickaxe: Diamond Pickaxe
-  diamond_axe: Diamond Axe
-  diamond_hoe: Diamond Hoe
+  diamond_sword: Hardhirst Sword
+  diamond_shovel: Hardhirst Shovel
+  diamond_pickaxe: Hardhirst Pike
+  diamond_axe: Hardhirst Axe
+  diamond_hoe: Hardhirst Hoe
   netherite_sword: Netherstone Sword
   netherite_shovel: Netherstone Shovel
-  netherite_pickaxe: Netherstone Pickaxe
+  netherite_pickaxe: Netherstone Pike
   netherite_axe: Netherstone Axe
   netherite_hoe: Netherstone Hoe
   stick: Stick
   bowl: Bowl
-  mushroom_stew: Swamb Soup
+  mushroom_stew: Toadstool Pottage
   string: String
   feather: Feather
-  gunpowder: Gundust
+  gunpowder: Blackdust
   wheat_seeds: Wheat Seeds
   wheat: Wheat
   bread: Bread
@@ -641,10 +757,10 @@ material:
   iron_chestplate: Iron Chestshield
   iron_leggings: Iron Leggings
   iron_boots: Iron Shoes
-  diamond_helmet: Diamond Helm
-  diamond_chestplate: Diamond Chestshield
-  diamond_leggings: Diamond Leggings
-  diamond_boots: Diamond Shoes
+  diamond_helmet: Hardhirst Helm
+  diamond_chestplate: Hardhirst Chestshield
+  diamond_leggings: Hardhirst Leggings
+  diamond_boots: Hardhirst Shoes
   golden_helmet: Gold Helm
   golden_chestplate: Gold Chestshield
   golden_leggings: Gold Leggings
@@ -660,39 +776,37 @@ material:
   golden_apple: Golden Apple
   enchanted_golden_apple: Galed Golden Apple
   oak_sign: Oak Tokenboard
-  spruce_sign: Pine Tokenboard
+  spruce_sign: Harttartree Tokenboard
   birch_sign: Birch Tokenboard
   jungle_sign: Rainwold Tokenboard
   acacia_sign: Wattletree Tokenboard
   dark_oak_sign: Dark oak Tokenboard
   crimson_sign: Base Tokenboard
-  warped_sign: Warped Sign
-  bucket: Bucket
-  water_bucket: Water Bucket
-  lava_bucket: Moltenrock Bucket
-  minecart: Minecart
-  saddle: Saddle
-  redstone: Redstone Dust
+  warped_sign: Warped Tokenboard
+  bucket: Buck
+  water_bucket: Water Buck
+  lava_bucket: Moltenstone Buck
+  powder_snow_bucket: Dust Snow Buck
   snowball: Snowball
-  oak_boat: Oak Boat
   leather: Leather
-  milk_bucket: Milk Bucket
-  pufferfish_bucket: Bucket of Pufferfish
-  salmon_bucket: Bucket of Lax
-  cod_bucket: Bucket of Cod
-  tropical_fish_bucket: Bucket of Southsea Fish
-  brick: Brick
+  milk_bucket: Milk Buck
+  pufferfish_bucket: Buck of Pufferfish
+  salmon_bucket: Buck of Lax
+  cod_bucket: Buck of Cod
+  tropical_fish_bucket: Buck of Southsea Fish
+  axolotl_bucket: Buck of Waterhelper
+  brick: Bakestone
   clay_ball: Clay Ball
-  dried_kelp_block: Dried Kelp Block
+  dried_kelp_block: Dried Ash Seaweed Bale
   paper: Bookfell
   book: Book
   slime_ball: Slimeball
-  chest_minecart: Minecart with Chest
-  furnace_minecart: Minecart with Oven
   egg: Egg
   compass: Northfinder
+  bundle: Bundle
   fishing_rod: Fishing Rod
-  clock: Watch
+  clock: Daymeal
+  spyglass: Zooming Glass
   glowstone_dust: Glowstone Dust
   cod: Raw Cod
   salmon: Raw Lax
@@ -701,20 +815,20 @@ material:
   cooked_cod: Cooked Cod
   cooked_salmon: Cooked Lax
   ink_sac: Dye Sack
-  cocoa_beans: Cocoa Beans
-  lapis_lazuli: Bluestone
+  glow_ink_sac: Glow Dye Sack
+  cocoa_beans: Muckbeans
   white_dye: White Dye
   orange_dye: Yellowred Dye
   magenta_dye: Bawsered Dye
-  light_blue_dye: Light Blue Dye
+  light_blue_dye: Light Hewen Dye
   yellow_dye: Yellow Dye
   lime_dye: Light Green Dye
   pink_dye: Pink Dye
   gray_dye: Gray Dye
   light_gray_dye: Light Gray Dye
-  cyan_dye: Bluegreen Dye
+  cyan_dye: Hewengreen Dye
   purple_dye: Bawse Dye
-  blue_dye: Blue Dye
+  blue_dye: Hewen Dye
   brown_dye: Brown Dye
   green_dye: Green Dye
   red_dye: Red Dye
@@ -726,15 +840,15 @@ material:
   white_bed: White Bed
   orange_bed: Yellowred Bed
   magenta_bed: Bawsered Bed
-  light_blue_bed: Light Blue Bed
+  light_blue_bed: Light Hewen Bed
   yellow_bed: Yellow Bed
   lime_bed: Light Green Bed
   pink_bed: Pink Bed
   gray_bed: Gray Bed
   light_gray_bed: Light Gray Bed
-  cyan_bed: Bluegreen Bed
+  cyan_bed: Hewengreen Bed
   purple_bed: Bawse Bed
-  blue_bed: Blue Bed
+  blue_bed: Hewen Bed
   brown_bed: Brown Bed
   green_bed: Green Bed
   red_bed: Red Bed
@@ -743,7 +857,7 @@ material:
   filled_map: Map
   shears: Shears
   melon_slice: Entapple Sliver
-  dried_kelp: Dried Kelp
+  dried_kelp: Dried Ash Seaweed
   pumpkin_seeds: Harvestovet Seeds
   melon_seeds: Entapple Seeds
   beef: Raw Steak
@@ -754,55 +868,58 @@ material:
   ender_pearl: Ender Seahirst
   blaze_rod: Blaze Rod
   ghast_tear: Ghast Tear
-  gold_nugget: Gold Nugget
+  gold_nugget: Gold Lumpling
   nether_wart: Nether Wart
   potion: Lib
   glass_bottle: Glass Flask
   spider_eye: Spider Eye
   fermented_spider_eye: Rotten Spider Eye
   blaze_powder: Blaze Dust
-  magma_cream: Meltyrock Ream
+  magma_cream: Moltenstone Ream
   brewing_stand: Brewing Stand
-  cauldron: Kettle
+  cauldron: Ironcrock
   ender_eye: Eye of Ender
   glistering_melon_slice: Glistering Entapple Sliver
-  bat_spawn_egg: Bat Making Egg
+  axolotl_spawn_egg: Waterhelper Making Egg
+  bat_spawn_egg: Fluttershrew Making Egg
   bee_spawn_egg: Bee Making Egg
   blaze_spawn_egg: Blaze Making Egg
   cat_spawn_egg: Cat Making Egg
-  cave_spider_spawn_egg: Shrave Spider Making Egg
+  cave_spider_spawn_egg: Hollow Spider Making Egg
   chicken_spawn_egg: Chicken Making Egg
   cod_spawn_egg: Cod Making Egg
   cow_spawn_egg: Cow Making Egg
   creeper_spawn_egg: Creeper Making Egg
-  dolphin_spawn_egg: Mereswine Making Egg
-  donkey_spawn_egg: Donkey Making Egg
-  drowned_spawn_egg: Drowned Making Egg
+  dolphin_spawn_egg: Tumbler Making Egg
+  donkey_spawn_egg: Easle Making Egg
+  drowned_spawn_egg: Waterfilled Walker Making Egg
   elder_guardian_spawn_egg: Elder Ward Making Egg
   enderman_spawn_egg: Enderman Making Egg
   endermite_spawn_egg: Endermite Making Egg
   evoker_spawn_egg: Awakener Making Egg
   fox_spawn_egg: Fox Making Egg
   ghast_spawn_egg: Ghast Making Egg
+  glow_squid_spawn_egg: Glow Dye Fish Making Egg
+  goat_spawn_egg: Goat Making Egg
   guardian_spawn_egg: Ward Making Egg
-  hoglin_spawn_egg: Hoglin Making Egg
+  hoglin_spawn_egg: Borkle Making Egg
   horse_spawn_egg: Horse Making Egg
   husk_spawn_egg: Husk Making Egg
-  llama_spawn_egg: Llama Making Egg
-  magma_cube_spawn_egg: Meltyrock Slime Making Egg
-  mooshroom_spawn_egg: Mooshroom Making Egg
+  llama_spawn_egg: Drylandersheep Making Egg
+  magma_cube_spawn_egg: Moltenstone Slime Making Egg
+  mooshroom_spawn_egg: Moostool Making Egg
   mule_spawn_egg: Mule Making Egg
   ocelot_spawn_egg: Wildcat Making Egg
   panda_spawn_egg: Catbear Making Egg
   parrot_spawn_egg: Bleefowl Making Egg
   phantom_spawn_egg: Nightghost Making Egg
   pig_spawn_egg: Pig Making Egg
-  piglin_spawn_egg: Pigman Making Egg
-  piglin_brute_spawn_egg: Angry Pigman Making Egg
+  piglin_spawn_egg: Piggle Making Egg
+  piglin_brute_spawn_egg: Mad Piggle Making Egg
   pillager_spawn_egg: Reaver Making Egg
   polar_bear_spawn_egg: Icebear Making Egg
   pufferfish_spawn_egg: Pufferfish Making Egg
-  rabbit_spawn_egg: Rabbit Making Egg
+  rabbit_spawn_egg: Hare Making Egg
   ravager_spawn_egg: Render Making Egg
   salmon_spawn_egg: Lax Making Egg
   sheep_spawn_egg: Sheep Making Egg
@@ -812,30 +929,30 @@ material:
   skeleton_horse_spawn_egg: Boneset Horse Making Egg
   slime_spawn_egg: Slime Making Egg
   spider_spawn_egg: Spider Making Egg
-  squid_spawn_egg: Squid Making Egg
+  squid_spawn_egg: Dye Fish Making Egg
   stray_spawn_egg: Drifter Making Egg
   strider_spawn_egg: Strider Making Egg
-  trader_llama_spawn_egg: Trader Llama Making Egg
+  trader_llama_spawn_egg: Trader Drylandersheep Making Egg
   tropical_fish_spawn_egg: Southsea Fish Making Egg
   turtle_spawn_egg: Shellpad Making Egg
-  vex_spawn_egg: Hex Making Egg
+  vex_spawn_egg: Nettler Making Egg
   villager_spawn_egg: Thorpsman Making Egg
   vindicator_spawn_egg: Raider Making Egg
   wandering_trader_spawn_egg: Wandering Trader Making Egg
   witch_spawn_egg: Witch Making Egg
   wither_skeleton_spawn_egg: Wither Bonset Making Egg
   wolf_spawn_egg: Wolf Making Egg
-  zoglin_spawn_egg: Zoglin Making Egg
-  zombie_spawn_egg: Undead Warg Making Egg
+  zoglin_spawn_egg: Lorcle Making Egg
+  zombie_spawn_egg: Undead Walker Making Egg
   zombie_horse_spawn_egg: Undead Horse Making Egg
   zombie_villager_spawn_egg: Undead Thorpsman Making Egg
-  zombified_piglin_spawn_egg: Undead Piglin Making Egg
+  zombified_piglin_spawn_egg: Undead Piggle Making Egg
   experience_bottle: Flask o' Galdering
   fire_charge: Fire Dint
   writable_book: Book and Quill
   written_book: Written Book
-  emerald: Greenhirst
   item_frame: Thing Frame
+  glow_item_frame: Glow Thing Frame
   flower_pot: Bloom Pot
   carrot: Morroot
   potato: Earthpear
@@ -846,74 +963,63 @@ material:
   skeleton_skull: Boneset Headbone
   wither_skeleton_skull: Wither Boneset Headbone
   player_head: Player Head
-  zombie_head: Undead Warg Head
+  zombie_head: Undead Walker Head
   creeper_head: Creeper Head
-  dragon_head: Drake Head
-  carrot_on_a_stick: Morroot on a Stick
-  warped_fungus_on_a_stick: Warped Fieldswamb on a Stick
-  nether_star: Netherstar
+  dragon_head: Wyrm Head
+  nether_star: Nether Star
   pumpkin_pie: Harvestovet Cake
   firework_rocket: Firework
   firework_star: Firework Star
   enchanted_book: Galed Book
-  nether_brick: Nether Brick
-  quartz: Nether Hardstone
-  tnt_minecart: Minecart with TNT
-  hopper_minecart: Minecart with Hopper
+  nether_brick: Nether Bakestone
   prismarine_shard: Shimmereen Shard
-  prismarine_crystals: Shimmereen Godstones
-  rabbit: Raw Rabbit
-  cooked_rabbit: Cooked Rabbit
-  rabbit_stew: Rabbit Stew
-  rabbit_foot: Rabbit's Foot
-  rabbit_hide: Rabbit Hide
+  prismarine_crystals: Shimmereen Hirsts
+  rabbit: Raw Hare
+  cooked_rabbit: Cooked Hare
+  rabbit_stew: Hare Pottage
+  rabbit_foot: Hare's Foot
+  rabbit_hide: Hare Hide
   armor_stand: Hirsting Stand
   iron_horse_armor: Iron Horse Hirsting
   golden_horse_armor: Golden Horse Hirsting
-  diamond_horse_armor: Diamond Horse Hirsting
+  diamond_horse_armor: Hardhirst Horse Hirsting
   leather_horse_armor: Leather Horse Hirsting
   lead: Lead
   name_tag: Nametag
-  command_block_minecart: Minecart with Hest Block
+  command_block_minecart: Delvewagon with Hest Aframer
   mutton: Raw Sheep
   cooked_mutton: Cooked Sheep
   white_banner: White Streamer
   orange_banner: Yellowred Streamer
   magenta_banner: Bawsered Streamer
-  light_blue_banner: Light Blue Streamer
+  light_blue_banner: Light Hewen Streamer
   yellow_banner: Yellow Streamer
   lime_banner: Light Green Streamer
   pink_banner: Pink Streamer
   gray_banner: Gray Streamer
   light_gray_banner: Light Gray Streamer
-  cyan_banner: Bluegreen Streamer
+  cyan_banner: Hewengreen Streamer
   purple_banner: Bawse Streamer
-  blue_banner: Blue Streamer
+  blue_banner: Hewen Streamer
   brown_banner: Brown Streamer
   green_banner: Green Streamer
   red_banner: Red Streamer
   black_banner: Black Streamer
-  end_crystal: End Godstone
+  end_crystal: End Hirst
   chorus_fruit: Stalfruit
   popped_chorus_fruit: Popped Stalfruit
   beetroot: Beetroot
   beetroot_seeds: Beetroot Seeds
-  beetroot_soup: Beetroot Soup
-  dragon_breath: Drake Breath
+  beetroot_soup: Beetroot Pottage
+  dragon_breath: Wyrm's Breath
   splash_potion: Splash Lib
   spectral_arrow: Ghostly Arrow
   tipped_arrow: Tipped Arrow
   lingering_potion: Lingering Lib
   shield: Shield
-  elytra: Godwings
-  spruce_boat: Pine Boat
-  birch_boat: Birch Boat
-  jungle_boat: Rainwold Boat
-  acacia_boat: Wattletree Boat
-  dark_oak_boat: Dark Oak Boat
   totem_of_undying: Token of Undying
   shulker_shell: Shulker Shell
-  iron_nugget: Iron Nugget
+  iron_nugget: Iron Lumpling
   knowledge_book: Knowledge Book
   debug_stick: Unbug Stick
   music_disc_13: Song Dish
@@ -929,12 +1035,12 @@ material:
   music_disc_11: Song Dish
   music_disc_wait: Song Dish
   music_disc_pigstep: Song Dish
-  trident: Leister
+  trident: Thritooth
   phantom_membrane: Nightghost Hame
   nautilus_shell: Sailorfish Shell
   heart_of_the_sea: Heart of the Sea
-  crossbow: Crossbow
-  suspicious_stew: Wary Soup
+  crossbow: Roodbow
+  suspicious_stew: Wary Pottage
   loom: Loom
   flower_banner_pattern: Streamer Twill
   creeper_banner_pattern: Streamer Twill
@@ -949,13 +1055,13 @@ material:
   cartography_table: Mapmaking Bench
   fletching_table: Arrowsmithing Bench
   grindstone: Grindstone
-  lectern: Reading Stand
   smithing_table: Smithing Bench
   stonecutter: Stonecutter
   bell: Bell
   lantern: Lightvat
   soul_lantern: Soul Lightvat
   sweet_berries: Sweet Berries
+  glow_berries: Glow Berries
   campfire: Haltfire
   soul_campfire: Soul Haltfire
   shroomlight: Swamblight
@@ -963,37 +1069,55 @@ material:
   bee_nest: Bee Nest
   beehive: Beehive
   honey_bottle: Honey Flask
-  honey_block: Honey Block
-  honeycomb_block: Honeycomb Block
+  honeycomb_block: Honeycomb Cleat
   lodestone: Lodestone
-  netherite_block: Block of Netherstone
-  ancient_debris: Fern Dross
-  target: Target
   crying_obsidian: Weeping Ravenglass
   blackstone: Blackstone
   blackstone_slab: Blackstone Slab
   blackstone_stairs: Blackstone Stairs
   gilded_blackstone: Gilded Blackstone
-  polished_blackstone: Smoothed Blackstone
-  polished_blackstone_slab: Smoothed Blackstone Slab
-  polished_blackstone_stairs: Smoothed Blackstone Stairs
-  chiseled_polished_blackstone: Graven Smoothed Blackstone
-  polished_blackstone_bricks: Smoothed Blackstone Tiles
-  polished_blackstone_brick_slab: Smoothed Blackstone Tile Slab
-  polished_blackstone_brick_stairs: Smoothed Blackstone Tile Stairs
-  cracked_polished_blackstone_bricks: Cracked Smoothed Blackstone Tiles
-  respawn_anchor: Edstart Anchor
+  polished_blackstone: Smooth Blackstone
+  polished_blackstone_slab: Smooth Blackstone Slab
+  polished_blackstone_stairs: Smooth Blackstone Stairs
+  chiseled_polished_blackstone: Graven Smooth Blackstone
+  polished_blackstone_bricks: Smooth Blackstone Stonestaves
+  polished_blackstone_brick_slab: Smooth Blackstone Stonestave Slab
+  polished_blackstone_brick_stairs: Smooth Blackstone Stonestave Stairs
+  cracked_polished_blackstone_bricks: Cracked Smooth Blackstone Stonestaves
+  respawn_anchor: Edstart Holder
+  candle: Waxlight
+  white_candle: White Waxlight
+  orange_candle: Yellowred Waxlight
+  magenta_candle: Bawsered Waxlight
+  light_blue_candle: Light Hewen Waxlight
+  yellow_candle: Yellow Waxlight
+  lime_candle: Light Green Waxlight
+  pink_candle: Pink Waxlight
+  gray_candle: Gray Waxlight
+  light_gray_candle: Light Gray Waxlight
+  cyan_candle: Hewengreen Waxlight
+  purple_candle: Bawse Waxlight
+  blue_candle: Hewen Waxlight
+  brown_candle: Brown Waxlight
+  green_candle: Green Waxlight
+  red_candle: Red Waxlight
+  black_candle: Black Waxlight
+  small_amethyst_bud: Small Drunklack Bud
+  medium_amethyst_bud: Middle-Breadth Drunklack Bud
+  large_amethyst_bud: Great Drunklack Bud
+  amethyst_cluster: Drunklack Cluster
+  pointed_dripstone: Orded Dripstone
   water: Water
-  lava: Moltenrock
+  lava: Moltenstone
   tall_seagrass: Tall Seagrass
   piston_head: Stampend Head
   moving_piston: Shifting Stampend
   wall_torch: Wall Thackle
   fire: Fire
   soul_fire: Soul Fire
-  redstone_wire: Redstone Wire
+  redstone_wire: Redstone Mark
   oak_wall_sign: Oak Wall Tokenboard
-  spruce_wall_sign: Pine Wall Tokenboard
+  spruce_wall_sign: Harttartree Wall Tokenboard
   birch_wall_sign: Birch Wall Tokenboard
   acacia_wall_sign: Wattletree Wall Tokenboard
   jungle_wall_sign: Rainwold Wall Tokenboard
@@ -1005,21 +1129,24 @@ material:
   attached_melon_stem: Linked Entapple Stem
   pumpkin_stem: Harvestovet Stem
   melon_stem: Entapple Stem
+  water_cauldron: Water Ironcrock
+  lava_cauldron: Moltenstone Ironcrock
+  powder_snow_cauldron: Dust Snow Ironcrock
   end_portal: End Gateway
-  cocoa: Cocoa
+  cocoa: Muckbean
   tripwire: Tripwire
   potted_oak_sapling: Potted Oak Sapling
-  potted_spruce_sapling: Potted Pine Sapling
+  potted_spruce_sapling: Potted Harttartree Sapling
   potted_birch_sapling: Potted Birch Sapling
-  potted_jungle_sapling: Potted Rainwold Sapling
+  potted_jungle_sapling: Potted Orwald Sapling
   potted_acacia_sapling: Potted Wattletree Sapling
   potted_dark_oak_sapling: Potted Dark Oak Sapling
   potted_fern: Potted Fern
   potted_dandelion: Potted Lionstooth
   potted_poppy: Potted Poppy
-  potted_blue_orchid: Potted Blue Ballockwort
+  potted_blue_orchid: Potted Hewen Ballockwort
   potted_allium: Potted Leek
-  potted_azure_bluet: Potted Blueling
+  potted_azure_bluet: Potted Hewenling
   potted_red_tulip: Potted Red Houvebloom
   potted_orange_tulip: Potted Yellowred Houvebloom
   potted_white_tulip: Potted White Houvebloom
@@ -1028,30 +1155,30 @@ material:
   potted_cornflower: Potted Cornblossom
   potted_lily_of_the_valley: Potted May Bells
   potted_wither_rose: Potted Wither Rose
-  potted_red_mushroom: Potted Red Swamb
-  potted_brown_mushroom: Potted Brown Swamb
+  potted_red_mushroom: Potted Red Toadstool
+  potted_brown_mushroom: Potted Brown Toadstool
   potted_dead_bush: Potted Dead Bush
   potted_cactus: Potted Thorntree
   carrots: Morroot
   potatoes: Earthpear
   skeleton_wall_skull: Boneset Wall Headbone
   wither_skeleton_wall_skull: Wither Boneset Wall Headbone
-  zombie_wall_head: Undead Warg Wall Head
+  zombie_wall_head: Undead Walker Wall Head
   player_wall_head: Player Wall Head
   creeper_wall_head: Creeper Wall Head
-  dragon_wall_head: Drake Wall Head
+  dragon_wall_head: Wyrm Wall Head
   white_wall_banner: White Streamer
   orange_wall_banner: Yellowred Streamer
   magenta_wall_banner: Bawsered Streamer
-  light_blue_wall_banner: Light Blue Streamer
+  light_blue_wall_banner: Light Hewen Streamer
   yellow_wall_banner: Yellow Streamer
   lime_wall_banner: Light Green Streamer
   pink_wall_banner: Pink Streamer
   gray_wall_banner: Gray Streamer
   light_gray_wall_banner: Light Gray Streamer
-  cyan_wall_banner: Bluegreen Streamer
+  cyan_wall_banner: Hewengreen Streamer
   purple_wall_banner: Bawse Streamer
-  blue_wall_banner: Blue Streamer
+  blue_wall_banner: Hewen Streamer
   brown_wall_banner: Brown Streamer
   green_wall_banner: Green Streamer
   red_wall_banner: Red Streamer
@@ -1059,31 +1186,55 @@ material:
   beetroots: Beetroots
   end_gateway: End Gateway
   frosted_ice: Frosted Ice
-  kelp_plant: Kelp Plant
-  dead_tube_coral_wall_fan: Dead Pipe Coral Wall Fan
-  dead_brain_coral_wall_fan: Dead Brain Coral Wall Fan
-  dead_bubble_coral_wall_fan: Dead Bubble Coral Wall Fan
-  dead_fire_coral_wall_fan: Dead Fire Coral Wall Fan
-  dead_horn_coral_wall_fan: Dead Horn Coral Wall Fan
-  tube_coral_wall_fan: Pipe Coral Wall Fan
-  brain_coral_wall_fan: Brain Coral Wall Fan
-  bubble_coral_wall_fan: Bubble Coral Wall Fan
-  fire_coral_wall_fan: Fire Coral Wall Fan
-  horn_coral_wall_fan: Horn Coral Wall Fan
+  kelp_plant: Ash Seaweed Plant
+  dead_tube_coral_wall_fan: Dead Reed Limeshaft Wall Waffer
+  dead_brain_coral_wall_fan: Dead Brain Limeshaft Wall Waffer
+  dead_bubble_coral_wall_fan: Dead Bubble Limeshaft Wall Waffer
+  dead_fire_coral_wall_fan: Dead Fire Limeshaft Wall Waffer
+  dead_horn_coral_wall_fan: Dead Horn Limeshaft Wall Waffer
+  tube_coral_wall_fan: Reed Limeshaft Wall Waffer
+  brain_coral_wall_fan: Brain Limeshaft Wall Waffer
+  bubble_coral_wall_fan: Bubble Limeshaft Wall Waffer
+  fire_coral_wall_fan: Fire Limeshaft Wall Waffer
+  horn_coral_wall_fan: Horn Limeshaft Wall Waffer
   bamboo_sapling: Treereed Shoot
   potted_bamboo: Potted Treereed
   void_air: Empty Loft
   cave_air: Hollow Loft
   bubble_column: Bubble Staple
   sweet_berry_bush: Sweet Berry Bush
-  weeping_vines_plant: Weeping Winetree Plant
-  twisting_vines_plant: Twisting Winetree Plant
+  weeping_vines_plant: Weeping Hanggrass Plant
+  twisting_vines_plant: Twisting Risegrass Plant
   crimson_wall_sign: Base Wall Tokenboard
   warped_wall_sign: Warped Wall Tokenboard
   potted_crimson_fungus: Potted Base Fieldswamb
   potted_warped_fungus: Potted Warped Fieldswamb
   potted_crimson_roots: Potted Base Roots
   potted_warped_roots: Potted Warped Roots
+  candle_cake: Waxlight Cake
+  white_candle_cake: Cake with White Waxlight
+  orange_candle_cake: Cake with Yellowred Waxlight
+  magenta_candle_cake: Cake with Bawsered Waxlight
+  light_blue_candle_cake: Cake with Light Hewen Waxlight
+  yellow_candle_cake: Cake with Yellow Waxlight
+  lime_candle_cake: Cake with Light Green Waxlight
+  pink_candle_cake: Cake with Pink Waxlight
+  gray_candle_cake: Cake with Gray Waxlight
+  light_gray_candle_cake: Cake with Light Gray Waxlight
+  cyan_candle_cake: Cake with Hewengreen Waxlight
+  purple_candle_cake: Cake with Bawse Waxlight
+  blue_candle_cake: Cake with Hewen Waxlight
+  brown_candle_cake: Cake with Brown Waxlight
+  green_candle_cake: Cake with Green Waxlight
+  red_candle_cake: Cake with Red Waxlight
+  black_candle_cake: Cake with Black Waxlight
+  powder_snow: Dust Snow
+  cave_vines: Hollow Hanggrass
+  cave_vines_plant: Hollow Hanggrass Plant
+  big_dripleaf_stem: Great Dripleaf Stem
+  potted_azalea_bush: Potted Dryplant
+  potted_flowering_azalea_bush: Potted Blooming Dryplant
+  grass_path: Grass Path
   zombie_pigman_spawn_egg: Undead Pigman Making Egg
   cactus_green: Thorntree Green
   dandelion_yellow: Lionstooth Yellow
@@ -1095,7 +1246,7 @@ biome:
   plains: Flatlands
   desert: Westen
   mountains: Barrows
-  forest: Wold
+  forest: Wald
   taiga: Northwald
   swamp: Swamp
   river: Stream
@@ -1105,26 +1256,26 @@ biome:
   frozen_river: Frozen Stream
   snowy_tundra: Snowy Coldgrass
   snowy_mountains: Snowy Barrows
-  mushroom_fields: Swamb Fields
-  mushroom_field_shore: Swamb Field Shore
+  mushroom_fields: Toadstool Fields
+  mushroom_field_shore: Toadstool Field Shore
   beach: Beach
   desert_hills: Westin Hills
   wooded_hills: Wooded Hills
   taiga_hills: Northwald Hills
   mountain_edge: Barrow Edge
-  jungle: Rainwold
-  jungle_hills: Rainwold Hills
-  jungle_edge: Rainwold Edge
+  jungle: Orwald
+  jungle_hills: Orwald Hills
+  jungle_edge: Orwald Edge
   deep_ocean: Deep Sea
   stone_shore: Stone Shore
   snowy_beach: Snowy Beach
-  birch_forest: Birch Wold
-  birch_forest_hills: Birch Wold Hills
-  dark_forest: Dark Wold
+  birch_forest: Birch Wald
+  birch_forest_hills: Birch Wald Hills
+  dark_forest: Dark Wald
   snowy_taiga: Snowy North Wald
   snowy_taiga_hills: Snowy Northwald Hills
-  giant_tree_taiga: Ettin Tree Northwald
-  giant_tree_taiga_hills: Ettin Tree Northwald Hills
+  giant_tree_taiga: Entish Tree Northwald
+  giant_tree_taiga_hills: Entish Tree Northwald Hills
   wooded_mountains: Wooded Barrows
   savanna: Bareland
   savanna_plateau: Bareland Flatberg
@@ -1146,70 +1297,72 @@ biome:
   sunflower_plains: Sunbloom Flatlands
   desert_lakes: Westin Lakes
   gravelly_mountains: Pebbly Barrows
-  flower_forest: Bloom Wold
+  flower_forest: Bloom Wald
   taiga_mountains: Northwald Barrows
   swamp_hills: Swamp Hills
   ice_spikes: Ice Spikes
-  modified_jungle: Wended Rainwold
-  modified_jungle_edge: Wended Rainwold Edge
-  tall_birch_forest: Tall Birch Wold
+  modified_jungle: Wended Orwald
+  modified_jungle_edge: Wended Orwald Edge
+  tall_birch_forest: Tall Birch Wald
   tall_birch_hills: Tall Birch Hills
-  dark_forest_hills: Dark Wold Hills
+  dark_forest_hills: Dark Wald Hills
   snowy_taiga_mountains: Snowy Northwald Barrows
-  giant_spruce_taiga: Ettin Pine Northwald
-  giant_spruce_taiga_hills: Ettin Pine Northwald Hills
+  giant_spruce_taiga: Entish Harttartree Northwald
+  giant_spruce_taiga_hills: Entish Harttartree Northwald Hills
   modified_gravelly_mountains: Pebbly Barrows+
   shattered_savanna: Shattered Bareland
   shattered_savanna_plateau: Shattered Bareland Flatberg
   eroded_badlands: Gnawn Badlands
   modified_wooded_badlands_plateau: Wended Wooded Badlands Flatberg
   modified_badlands_plateau: Wended Badlands Flatberg
-  bamboo_jungle: Treereed Rainwold
-  bamboo_jungle_hills: Treereed Rainwold Hills
+  bamboo_jungle: Treereed Orwald
+  bamboo_jungle_hills: Treereed Orwald Hills
   soul_sand_valley: Soul Sand Dale
   crimson_forest: Base Wold
   warped_forest: Warped Wold
-  basalt_deltas: Touchstone Deltas
+  basalt_deltas: Rinestone Mouths
+  dripstone_caves: Dripstone Hollows
+  lush_caves: Green Hollows
   nether: Nether
 enchantment:
-  fire_protection: Fire Shielding
-  sharpness: Sharpness
-  flame: Flame
-  soul_speed: Soul speed
-  aqua_affinity: Waterkinship
-  punch: Knockback
-  loyalty: Troth
-  depth_strider: Depthstrider
-  vanishing_curse: Curse of Swinding
-  unbreaking: Unbreaking
-  knockback: Knockback
-  luck_of_the_sea: Luck of the Sea
-  binding_curse: Curse of Binding
-  fortune: Ed
   protection: Shielding
-  efficiency: Speed
-  mending: Fettling
-  frost_walker: Frost Walker
-  lure: Bait
-  looting: Looting
-  piercing: Throughshot
-  blast_protection: Blast Shielding
-  smite: Smite
-  multishot: Manishot
-  fire_aspect: Fire Ansine
-  channeling: Thunderwave
-  sweeping: Sweeping Edge
-  thorns: Thorns
-  bane_of_arthropods: Bane of Spiderlikes
-  respiration: Underwater Breathing
-  riptide: Riptide
-  silk_touch: Silk Rine
-  quick_charge: Quick Load
-  projectile_protection: Shot Shielding
-  impaling: Stabbing
+  fire_protection: Fire Shielding
   feather_falling: Feather Falling
+  blast_protection: Blast Shielding
+  projectile_protection: Shot Shielding
+  respiration: Underwater Breathing
+  aqua_affinity: Waterkinship
+  thorns: Thorns
+  depth_strider: Depthstrider
+  frost_walker: Frost Walker
+  binding_curse: Curse of Binding
+  sharpness: Sharpness
+  smite: Smite
+  bane_of_arthropods: Bane of Spiderlikes
+  knockback: Knockback
+  fire_aspect: Fire Ansine
+  looting: Looting
+  sweeping: Sweeping Edge
+  efficiency: Speed
+  silk_touch: Silk Rine
+  unbreaking: Unbreaking
+  fortune: Ed
   power: Strength
+  punch: Knockback
+  flame: Flame
   infinity: Boundlessness
+  luck_of_the_sea: Luck of the Sea
+  lure: Bait
+  loyalty: Troth
+  impaling: Stabbing
+  riptide: Riptide
+  channeling: Thunderwave
+  multishot: Manishot
+  quick_charge: Quick Load
+  piercing: Throughshot
+  mending: Fettling
+  vanishing_curse: Curse of Swinding
+  soul_speed: Soul speed
 potion:
   uncraftable: Uncraftbere Lib
   water: Water Flask
@@ -1302,7 +1455,7 @@ entity:
   dropped_item: Thing
   experience_orb: Cunball
   area_effect_cloud: Rine Cloud
-  elder_guardian: Elder Ward
+  elder_guardian: Elder Warden
   wither_skeleton: Wither Boneset
   stray: Drifter
   egg: Thrown Egg
@@ -1312,98 +1465,103 @@ entity:
   snowball: Snowball
   fireball: Fireball
   small_fireball: Small Fireball
-  ender_pearl: Thrown Enderseahirst
+  ender_pearl: Thrown Ender Seahirst
   ender_signal: Eye of Ender
   splash_potion: Lib
   thrown_exp_bottle: Thrown Flask o' Galdering
   item_frame: Thing Frame
   wither_skull: Wither Headbone
-  primed_tnt: Fired TNT
-  falling_block: Falling Block
+  primed_tnt: Fired Blastkeg
+  falling_block: Falling Cleat
   firework: Firework
   husk: Husk
   spectral_arrow: Ghostly Arrow
   shulker_bullet: Shulker Streal
-  dragon_fireball: Drake Fireball
+  dragon_fireball: Wyrm Fireball
   zombie_villager: Undead Thorpsman
   skeleton_horse: Boneset Horse
   zombie_horse: Undead Horse
   armor_stand: Hirsting Stand
-  donkey: Donkey
+  donkey: Easle
   mule: Mule
   evoker_fangs: Awakener Fangs
   evoker: Awakener
   vex: Nettler
   vindicator: Raider
   illusioner: Fokener
-  minecart_command: Minecart with Hest Block
+  minecart_command: Delvewagon with Hest Aframer
   boat: Boat
-  minecart: Minecart
-  minecart_chest: Minecart with Chest
-  minecart_furnace: Minecart with Oven
-  minecart_tnt: Minecart with TNT
-  minecart_hopper: Minecart with Hopper
-  minecart_mob_spawner: Minecart with Begetter
+  minecart: Delvewagon
+  minecart_chest: Delvewagon with Chest
+  minecart_furnace: Delvewagon with Oven
+  minecart_tnt: Delvewagon with Blastkeg
+  minecart_hopper: Delvewagon with Hopper
+  minecart_mob_spawner: Delvewagon with Begetter
   creeper: Creeper
   skeleton: Boneset
   spider: Spider
   giant: Ent
-  zombie: Undead Warg
+  zombie: Undead Walker
   slime: Slime
   ghast: Ghast
-  zombified_piglin: Undead Pigman
+  zombified_piglin: Undead Piggle
   enderman: Enderman
   cave_spider: Hollow Spider
   silverfish: Silverfish
   blaze: Blaze
-  magma_cube: Meltyrock Slime
-  ender_dragon: Enderdrake
+  magma_cube: Moltenstone Slime
+  ender_dragon: Ender Wyrm
   wither: Wither
-  bat: Bat
+  bat: Fluttershrew
   witch: Witch
   endermite: Enderbug
-  guardian: Ward
+  guardian: Warden
   shulker: Shulker
   pig: Pig
   sheep: Sheep
   cow: Cow
   chicken: Chicken
-  squid: Squid
+  squid: Dye Fish
   wolf: Wolf
-  mushroom_cow: Mooshroom
+  mushroom_cow: Moostool
   snowman: Snowman
   ocelot: Wildcat
-  iron_golem: Iron Ent
+  iron_golem: Iron Livenedman
   horse: Horse
-  rabbit: Rabbit
+  rabbit: Hare
   polar_bear: Icebear
-  llama: Olf
-  llama_spit: Llama Spit
+  llama: Drylandersheep
+  llama_spit: Drylandersheep Spit
   parrot: Bleefowl
   villager: Thorpsman
-  ender_crystal: End Godstone
+  ender_crystal: End Hirst
   turtle: Shellpad
   phantom: Nightghost
-  trident: Leister
+  trident: Thritooth
   cod: Cod
   salmon: Lax
   pufferfish: Pufferfish
   tropical_fish: Southsea Fish
-  drowned: Drowned
-  dolphin: Mereswine
+  drowned: Waterfilled Walker
+  dolphin: Tumbler
   cat: Cat
   panda: Catbear
   pillager: Reaver
   ravager: Render
-  trader_llama: Trader Sheepolf
+  trader_llama: Trader Drylandersheep
   wandering_trader: Wandering Trader
   fox: Fox
   bee: Bee
-  hoglin: Hoglin
-  piglin: Pigman
+  hoglin: Borkle
+  piglin: Piggle
   strider: Strider
-  zoglin: Zoglin
-  piglin_brute: Angry Pigman
+  zoglin: Lorcle
+  piglin_brute: Mad Piggle
+  axolotl: Waterhelper
+  glow_item_frame: Glow Thing Frame
+  glow_squid: Glow Dye Fish
+  goat: Goat
+  marker: Marker
   fishing_hook: Fishing Bobber
   lightning: Lightning Bolt
   player: Player
@@ -1438,7 +1596,7 @@ effect:
   unluck: Bad Luck
   slow_falling: Slow Falling
   conduit_power: Ithelode Strength
-  dolphins_grace: Mereswine's Este
+  dolphins_grace: Tumbler's Este
   bad_omen: Bad Halsend
   hero_of_the_village: Heleth of the Thorp
 tropical_fish_type:
@@ -1451,22 +1609,22 @@ tropical_fish_type:
   flopper: Flopper
   stripey: Stripey
   glitter: Glitter
-  blockfish: Blockfish
+  blockfish: Cleatfish
   betty: Betty
   clayfish: Clayfish
 dye_color:
   white: White
   orange: Yellowred
   magenta: Bawsered
-  light_blue: Light Blue
+  light_blue: Light Hewen
   yellow: Yellow
   lime: Light Green
   pink: Pink
   gray: Gray
   light_gray: Light Gray
-  cyan: Bluegreen
+  cyan: Hewengreen
   purple: Bawse
-  blue: Blue
+  blue: Hewen
   brown: Brown
   green: Green
   red: Red
@@ -1476,17 +1634,17 @@ named:
   potion_with_amplifier: '%s %s'
   potion_with_duration: '%s (%s)'
   none_effects: No Rines
-  unknown_enchantment: 'Unknown galder: %s'
+  unknown_enchantment: 'Unknown Galdercraft: %s'
   unknown_entity: 'Unknown ansine: %s'
   unknown_effect: Unknown rine %s
 tropical_fish_name:
-  '117506305': Windbloom
+  '117506305': Windbloom Fish
   '117899265': Black Tang
-  '185008129': Blue Tang
+  '185008129': Hewen Sailfish
   '117441793': Butterflyfish
   '118161664': Thrushfish
   '65536': Clownfish
-  '50726144': Treewool Sweets Fightingfish
+  '50726144': Sweet Treewool Fightingfish
   '67764993': Dottyback
   '234882305': Highking Red Snapper
   '67110144': Goatfish
@@ -1506,15 +1664,15 @@ colored_shied:
   white: White Shield
   orange: Yellowred Shield
   magenta: Bawsered Shield
-  light_blue: Light Blue Shield
+  light_blue: Light Hewen Shield
   yellow: Yellow Shield
   lime: Light Green Shield
   pink: Pink Shield
   gray: Gray Shield
   light_gray: Light Gray Shield
-  cyan: Bluegreen Shield
+  cyan: Hewengreen Shield
   purple: Bawse Shield
-  blue: Blue Shield
+  blue: Hewen Shield
   brown: Brown Shield
   green: Green Shield
   red: Red Shield
@@ -1523,15 +1681,15 @@ banner_pattern:
   '65536': White Bottom Right Hirn
   '65537': Yellowred Bottom Right Hirn
   '65538': Bawsered Bottom Right Hirn
-  '65539': Light Blue Bottom Right Hirn
+  '65539': Light Hewen Bottom Right Hirn
   '65540': Yellow Bottom Right Hirn
   '65541': Light Green Bottom Right Hirn
   '65542': Pink Bottom Right Hirn
   '65543': Gray Bottom Right Hirn
   '65544': Light Gray Bottom Right Hirn
-  '65545': Bluegreen Bottom Right Hirn
+  '65545': Hewengreen Bottom Right Hirn
   '65546': Bawse Bottom Right Hirn
-  '65547': Blue Bottom Right Hirn
+  '65547': Hewen Bottom Right Hirn
   '65548': Brown Bottom Right Hirn
   '65549': Green Bottom Right Hirn
   '65550': Red Bottom Right Hirn
@@ -1539,15 +1697,15 @@ banner_pattern:
   '131072': White Bottom Left Hirn
   '131073': Yellowred Bottom Left Hirn
   '131074': Bawsered Bottom Left Hirn
-  '131075': Light Blue Bottom Left Hirn
+  '131075': Light Hewen Bottom Left Hirn
   '131076': Yellow Bottom Left Hirn
   '131077': Light Green Bottom Left Hirn
   '131078': Pink Bottom Left Hirn
   '131079': Gray Bottom Left Hirn
   '131080': Light Gray Bottom Left Hirn
-  '131081': Bluegreen Bottom Left Hirn
+  '131081': Hewengreen Bottom Left Hirn
   '131082': Bawse Bottom Left Hirn
-  '131083': Blue Bottom Left Hirn
+  '131083': Hewen Bottom Left Hirn
   '131084': Brown Bottom Left Hirn
   '131085': Green Bottom Left Hirn
   '131086': Red Bottom Left Hirn
@@ -1555,15 +1713,15 @@ banner_pattern:
   '196608': White Top Right Hirn
   '196609': Yellowred Top Right Hirn
   '196610': Bawsered Top Right Hirn
-  '196611': Light Blue Top Right Hirn
+  '196611': Light Hewen Top Right Hirn
   '196612': Yellow Top Right Hirn
   '196613': Light Green Top Right Hirn
   '196614': Pink Top Right Hirn
   '196615': Gray Top Right Hirn
   '196616': Light Gray Top Right Hirn
-  '196617': Bluegreen Top Right Hirn
+  '196617': Hewengreen Top Right Hirn
   '196618': Bawse Top Right Hirn
-  '196619': Blue Top Right Hirn
+  '196619': Hewen Top Right Hirn
   '196620': Brown Top Right Hirn
   '196621': Green Top Right Hirn
   '196622': Red Top Right Hirn
@@ -1571,15 +1729,15 @@ banner_pattern:
   '262144': White Top Left Hirn
   '262145': Yellowred Top Left Hirn
   '262146': Bawsered Top Left Hirn
-  '262147': Light Blue Top Left Hirn
+  '262147': Light Hewen Top Left Hirn
   '262148': Yellow Top Left Hirn
   '262149': Light Green Top Left Hirn
   '262150': Pink Top Left Hirn
   '262151': Gray Top Left Hirn
   '262152': Light Gray Top Left Hirn
-  '262153': Bluegreen Top Left Hirn
+  '262153': Hewengreen Top Left Hirn
   '262154': Bawse Top Left Hirn
-  '262155': Blue Top Left Hirn
+  '262155': Hewen Top Left Hirn
   '262156': Brown Top Left Hirn
   '262157': Green Top Left Hirn
   '262158': Red Top Left Hirn
@@ -1587,15 +1745,15 @@ banner_pattern:
   '327680': White Bottom
   '327681': Yellowred Bottom
   '327682': Bawsered Bottom
-  '327683': Light Blue Bottom
+  '327683': Light Hewen Bottom
   '327684': Yellow Bottom
   '327685': Light Green Bottom
   '327686': Pink Bottom
   '327687': Gray Bottom
   '327688': Light Gray Bottom
-  '327689': Bluegreen Bottom
+  '327689': Hewengreen Bottom
   '327690': Bawse Bottom
-  '327691': Blue Bottom
+  '327691': Hewen Bottom
   '327692': Brown Bottom
   '327693': Green Bottom
   '327694': Red Bottom
@@ -1603,15 +1761,15 @@ banner_pattern:
   '393216': White Top
   '393217': Yellowred Top
   '393218': Bawsered Top
-  '393219': Light Blue Top
+  '393219': Light Hewen Top
   '393220': Yellow Top
   '393221': Light Green Top
   '393222': Pink Top
   '393223': Gray Top
   '393224': Light Gray Top
-  '393225': Bluegreen Top
+  '393225': Hewengreen Top
   '393226': Bawse Top
-  '393227': Blue Top
+  '393227': Hewen Top
   '393228': Brown Top
   '393229': Green Top
   '393230': Red Top
@@ -1619,15 +1777,15 @@ banner_pattern:
   '458752': White Right Thin Stripe
   '458753': Yellowred Right Thin Stripe
   '458754': Bawsered Right Thin Stripe
-  '458755': Light Blue Right Thin Stripe
+  '458755': Light Hewen Right Thin Stripe
   '458756': Yellow Right Thin Stripe
   '458757': Light Green Right Thin Stripe
   '458758': Pink Right Thin Stripe
   '458759': Gray Right Thin Stripe
   '458760': Light Gray Right Thin Stripe
-  '458761': Bluegreen Right Thin Stripe
+  '458761': Hewengreen Right Thin Stripe
   '458762': Bawse Right Thin Stripe
-  '458763': Blue Right Thin Stripe
+  '458763': Hewen Right Thin Stripe
   '458764': Brown Right Thin Stripe
   '458765': Green Right Thin Stripe
   '458766': Red Right Thin Stripe
@@ -1635,15 +1793,15 @@ banner_pattern:
   '524288': White Left Thin Stripe
   '524289': Yellowred Left Thin Stripe
   '524290': Bawsered Left Thin Stripe
-  '524291': Light Blue Left Thin Stripe
+  '524291': Light Hewen Left Thin Stripe
   '524292': Yellow Left Thin Stripe
   '524293': Light Green Left Thin Stripe
   '524294': Pink Left Thin Stripe
   '524295': Gray Left Thin Stripe
   '524296': Light Gray Left Thin Stripe
-  '524297': Bluegreen Left Thin Stripe
+  '524297': Hewengreen Left Thin Stripe
   '524298': Bawse Left Thin Stripe
-  '524299': Blue Left Thin Stripe
+  '524299': Hewen Left Thin Stripe
   '524300': Brown Left Thin Stripe
   '524301': Green Left Thin Stripe
   '524302': Red Left Thin Stripe
@@ -1651,15 +1809,15 @@ banner_pattern:
   '589824': White Thin Stripe
   '589825': Yellowred Thin Stripe
   '589826': Bawsered Thin Stripe
-  '589827': Light Blue Thin Stripe
+  '589827': Light Hewen Thin Stripe
   '589828': Yellow Thin Stripe
   '589829': Light Green Thin Stripe
   '589830': Pink Thin Stripe
   '589831': Gray Thin Stripe
   '589832': Light Gray Thin Stripe
-  '589833': Bluegreen Thin Stripe
+  '589833': Hewengreen Thin Stripe
   '589834': Bawse Thin Stripe
-  '589835': Blue Thin Stripe
+  '589835': Hewen Thin Stripe
   '589836': Brown Thin Stripe
   '589837': Green Thin Stripe
   '589838': Red Thin Stripe
@@ -1667,15 +1825,15 @@ banner_pattern:
   '655360': White Middle Stripe
   '655361': Yellowred Middle Stripe
   '655362': Bawsered Middle Stripe
-  '655363': Light Blue Middle Stripe
+  '655363': Light Hewen Balk
   '655364': Yellow Middle Stripe
   '655365': Light Green Middle Stripe
   '655366': Pink Middle Stripe
   '655367': Gray Middle Stripe
   '655368': Light Gray Middle Stripe
-  '655369': Bluegreen Middle Stripe
+  '655369': Hewengreen Middle Stripe
   '655370': Bawse Middle Stripe
-  '655371': Blue Middle Stripe
+  '655371': Hewen Balk
   '655372': Brown Middle Stripe
   '655373': Green Middle Stripe
   '655374': Red Middle Stripe
@@ -1683,15 +1841,15 @@ banner_pattern:
   '720896': White Bend
   '720897': Yellowred Bend
   '720898': Bawsered Bend
-  '720899': Light Blue Bend
+  '720899': Light Hewen Bend
   '720900': Yellow Bend
   '720901': Light Green Bend
   '720902': Pink Bend
   '720903': Gray Bend
   '720904': Light Gray Bend
-  '720905': Bluegreen Bend
+  '720905': Hewengreen Bend
   '720906': Bawse Bend
-  '720907': Blue Bend
+  '720907': Hewen Bend
   '720908': Brown Bend
   '720909': Green Bend
   '720910': Red Bend
@@ -1699,15 +1857,15 @@ banner_pattern:
   '786432': White Left Bend
   '786433': Yellowred Left Bend
   '786434': Bawsered Left Bend
-  '786435': Light Blue Left Bend
+  '786435': Light Hewen Left Bend
   '786436': Yellow Left Bend
   '786437': Light Green Left Bend
   '786438': Pink Left Bend
   '786439': Gray Left Bend
   '786440': Light Gray Left Bend
-  '786441': Bluegreen Left Bend
+  '786441': Hewengreen Left Bend
   '786442': Bawse Left Bend
-  '786443': Blue Left Bend
+  '786443': Hewen Left Bend
   '786444': Brown Left Bend
   '786445': Green Left Bend
   '786446': Red Left Bend
@@ -1715,63 +1873,63 @@ banner_pattern:
   '851968': White Field Of Standing Stripes
   '851969': Yellowred Field Of Standing Stripes
   '851970': Bawsered Field Of Standing Stripes
-  '851971': Light Blue Field Of Standing Stripes
+  '851971': Light Hewen Field Of Standing Stripes
   '851972': Yellow Field Of Standing Stripes
   '851973': Light Green Field Of Standing Stripes
   '851974': Pink Field Of Standing Stripes
   '851975': Gray Field Of Standing Stripes
   '851976': Light Gray Field Of Standing Stripes
-  '851977': Bluegreen Field Of Standing Stripes
+  '851977': Hewengreen Field Of Standing Stripes
   '851978': Bawse Field Of Standing Stripes
   '851979': Hewen Field Of Standing Stripes
   '851980': Brown Field Of Standing Stripes
   '851981': Green Field Of Standing Stripes
   '851982': Red Field Of Standing Stripes
   '851983': Black Field Of Standing Stripes
-  '917504': White Andrew's Cross
-  '917505': Yellowred Andrew's Cross
-  '917506': Bawsered Andrew's Cross
-  '917507': Light Blue Andrew's Cross
-  '917508': Yellow Andrew's Cross
-  '917509': Light Green Andrew's Cross
-  '917510': Pink Andrew's Cross
-  '917511': Gray Andrew's Cross
-  '917512': Light Gray Andrew's Cross
-  '917513': Bluegreen Andrew's Cross
-  '917514': Bawse Andrew's Cross
-  '917515': Blue Andrew's Cross
-  '917516': Brown Andrew's Cross
-  '917517': Green Andrew's Cross
-  '917518': Red Andrew's Cross
-  '917519': Black Andrew's Cross
-  '983040': White Cross
-  '983041': Yellowred Cross
-  '983042': Bawsered Cross
-  '983043': Light Blue Cross
-  '983044': Yellow Cross
-  '983045': Light Green Cross
-  '983046': Pink Cross
-  '983047': Gray Cross
-  '983048': Light Gray Cross
-  '983049': Bluegreen Cross
-  '983050': Bawse Cross
-  '983051': Blue Cross
-  '983052': Brown Cross
-  '983053': Green Cross
-  '983054': Red Cross
-  '983055': Black Cross
+  '917504': White Andrew's Rood
+  '917505': Yellowred Andrew's Rood
+  '917506': Bawsered Andrew's Rood
+  '917507': Light Hewen Andrew's Rood
+  '917508': Yellow Andrew's Rood
+  '917509': Light Green Andrew's Rood
+  '917510': Pink Andrew's Rood
+  '917511': Gray Andrew's Rood
+  '917512': Light Gray Andrew's Rood
+  '917513': Hewengreen Andrew's Rood
+  '917514': Bawse Andrew's Rood
+  '917515': Hewen Andrew's Rood
+  '917516': Brown Andrew's Rood
+  '917517': Green Andrew's Rood
+  '917518': Red Andrew's Rood
+  '917519': Black Andrew's Rood
+  '983040': White Rood
+  '983041': Yellowred Rood
+  '983042': Bawsered Rood
+  '983043': Light Hewen Rood
+  '983044': Yellow Rood
+  '983045': Light Green Rood
+  '983046': Pink Rood
+  '983047': Gray Rood
+  '983048': Light Gray Rood
+  '983049': Hewengreen Rood
+  '983050': Bawse Rood
+  '983051': Hewen Rood
+  '983052': Brown Rood
+  '983053': Green Rood
+  '983054': Red Rood
+  '983055': Black Rood
   '1048576': White Thrihirn
   '1048577': Yellowred Thrihirn
   '1048578': Bawsered Thrihirn
-  '1048579': Light Blue Thrihirn
+  '1048579': Light Hewen Thrihirn
   '1048580': Yellow Thrihirn
   '1048581': Light Green Thrihirn
   '1048582': Pink Thrihirn
   '1048583': Gray Thrihirn
   '1048584': Light Gray Thrihirn
-  '1048585': Bluegreen Thrihirn
+  '1048585': Hewengreen Thrihirn
   '1048586': Bawse Thrihirn
-  '1048587': Blue Thrihirn
+  '1048587': Hewen Thrihirn
   '1048588': Brown Thrihirn
   '1048589': Green Thrihirn
   '1048590': Red Thrihirn
@@ -1779,15 +1937,15 @@ banner_pattern:
   '1114112': White Upsidedown Thrihirn
   '1114113': Yellowred Upsidedown Thrihirn
   '1114114': Bawsered Upsidedown Thrihirn
-  '1114115': Light Blue Upsidedown Thrihirn
+  '1114115': Light Hewen Upsidedown Thrihirn
   '1114116': Yellow Upsidedown Thrihirn
   '1114117': Light Green Upsidedown Thrihirn
   '1114118': Pink Upsidedown Thrihirn
   '1114119': Gray Upsidedown Thrihirn
   '1114120': Light Gray Upsidedown Thrihirn
-  '1114121': Bluegreen Upsidedown Thrihirn
+  '1114121': Hewengreen Upsidedown Thrihirn
   '1114122': Bawse Upsidedown Thrihirn
-  '1114123': Blue Upsidedown Thrihirn
+  '1114123': Hewen Upsidedown Thrihirn
   '1114124': Brown Upsidedown Thrihirn
   '1114125': Green Upsidedown Thrihirn
   '1114126': Red Upsidedown Thrihirn
@@ -1795,15 +1953,15 @@ banner_pattern:
   '1179648': White Sawtoothed Bottom
   '1179649': Yellowred Sawtoothed Bottom
   '1179650': Bawsered Sawtoothed Bottom
-  '1179651': Light Blue Sawtoothed Bottom
+  '1179651': Light Hewen Sawtoothed Bottom
   '1179652': Yellow Sawtoothed Bottom
   '1179653': Light Green Sawtoothed Bottom
   '1179654': Pink Sawtoothed Bottom
   '1179655': Gray Sawtoothed Bottom
   '1179656': Light Gray Sawtoothed Bottom
-  '1179657': Bluegreen Sawtoothed Bottom
+  '1179657': Hewengreen Sawtoothed Bottom
   '1179658': Bawse Sawtoothed Bottom
-  '1179659': Blue Sawtoothed Bottom
+  '1179659': Hewen Sawtoothed Bottom
   '1179660': Brown Sawtoothed Bottom
   '1179661': Green Sawtoothed Bottom
   '1179662': Red Sawtoothed Bottom
@@ -1811,15 +1969,15 @@ banner_pattern:
   '1245184': White Sawtoothed Top
   '1245185': Yellowred Sawtoothed Top
   '1245186': Bawsered Sawtoothed Top
-  '1245187': Light Blue Sawtoothed Top
+  '1245187': Light Hewen Sawtoothed Top
   '1245188': Yellow Sawtoothed Top
   '1245189': Light Green Sawtoothed Top
   '1245190': Pink Sawtoothed Top
   '1245191': Gray Sawtoothed Top
   '1245192': Light Gray Sawtoothed Top
-  '1245193': Bluegreen Sawtoothed Top
+  '1245193': Hewengreen Sawtoothed Top
   '1245194': Bawse Sawtoothed Top
-  '1245195': Blue Sawtoothed Top
+  '1245195': Hewen Sawtoothed Top
   '1245196': Brown Sawtoothed Top
   '1245197': Green Sawtoothed Top
   '1245198': Red Sawtoothed Top
@@ -1827,15 +1985,15 @@ banner_pattern:
   '1310720': White Left Slanted Up
   '1310721': Yellowred Left Slanted Up
   '1310722': Bawsered Left Slanted Up
-  '1310723': Light Blue Left Slanted Up
+  '1310723': Light Hewen Left Slanted Up
   '1310724': Yellow Left Slanted Up
   '1310725': Light Green Left Slanted Up
   '1310726': Pink Left Slanted Up
   '1310727': Gray Left Slanted Up
   '1310728': Light Gray Left Slanted Up
-  '1310729': Bluegreen Left Slanted Up
+  '1310729': Hewengreen Left Slanted Up
   '1310730': Bawse Left Slanted Up
-  '1310731': Blue Left Slanted Up
+  '1310731': Hewen Left Slanted Up
   '1310732': Brown Left Slanted Up
   '1310733': Green Left Slanted Up
   '1310734': Red Left Slanted Up
@@ -1843,15 +2001,15 @@ banner_pattern:
   '1376256': White Right Slanted Down
   '1376257': Yellowred Right Slanted Down
   '1376258': Bawsered Right Slanted Down
-  '1376259': Light Blue Right Slanted Down
+  '1376259': Light Hewen Right Slanted Down
   '1376260': Yellow Right Slanted Down
   '1376261': Light Green Right Slanted Down
   '1376262': Pink Right Slanted Down
   '1376263': Gray Right Slanted Down
   '1376264': Light Gray Right Slanted Down
-  '1376265': Bluegreen Right Slanted Down
+  '1376265': Hewengreen Right Slanted Down
   '1376266': Bawse Right Slanted Down
-  '1376267': Blue Right Slanted Down
+  '1376267': Hewen Right Slanted Down
   '1376268': Brown Right Slanted Down
   '1376269': Green Right Slanted Down
   '1376270': Red Right Slanted Down
@@ -1859,15 +2017,15 @@ banner_pattern:
   '1441792': White Left Slanted Down
   '1441793': Yellowred Left Slanted Down
   '1441794': Bawsered Left Slanted Down
-  '1441795': Light Blue Left Slanted Down
+  '1441795': Light Hewen Left Slanted Down
   '1441796': Yellow Left Slanted Down
   '1441797': Light Green Left Slanted Down
   '1441798': Pink Left Slanted Down
   '1441799': Gray Left Slanted Down
   '1441800': Light Gray Left Slanted Down
-  '1441801': Bluegreen Left Slanted Down
+  '1441801': Hewengreen Left Slanted Down
   '1441802': Bawse Left Slanted Down
-  '1441803': Blue Left Slanted Down
+  '1441803': Hewen Left Slanted Down
   '1441804': Brown Left Slanted Down
   '1441805': Green Left Slanted Down
   '1441806': Red Left Slanted Down
@@ -1875,15 +2033,15 @@ banner_pattern:
   '1507328': White Right Slanted Up
   '1507329': Yellowred Right Slanted Up
   '1507330': Bawsered Right Slanted Up
-  '1507331': Light Blue Right Slanted Up
+  '1507331': Light Hewen Right Slanted Up
   '1507332': Yellow Right Slanted Up
   '1507333': Light Green Right Slanted Up
   '1507334': Pink Right Slanted Up
   '1507335': Gray Right Slanted Up
   '1507336': Light Gray Right Slanted Up
-  '1507337': Bluegreen Right Slanted Up
+  '1507337': Hewengreen Right Slanted Up
   '1507338': Bawse Right Slanted Up
-  '1507339': Blue Right Slanted Up
+  '1507339': Hewen Right Slanted Up
   '1507340': Brown Right Slanted Up
   '1507341': Green Right Slanted Up
   '1507342': Red Right Slanted Up
@@ -1891,15 +2049,15 @@ banner_pattern:
   '1572864': White Trendle
   '1572865': Yellowred Trendle
   '1572866': Bawsered Trendle
-  '1572867': Light Blue Trendle
+  '1572867': Light Hewen Trendle
   '1572868': Yellow Trendle
   '1572869': Light Green Trendle
   '1572870': Pink Trendle
   '1572871': Gray Trendle
   '1572872': Light Gray Trendle
-  '1572873': Bluegreen Trendle
+  '1572873': Hewengreen Trendle
   '1572874': Bawse Trendle
-  '1572875': Blue Trendle
+  '1572875': Hewen Trendle
   '1572876': Brown Trendle
   '1572877': Green Trendle
   '1572878': Red Trendle
@@ -1907,15 +2065,15 @@ banner_pattern:
   '1638400': White Kite
   '1638401': Yellowred Kite
   '1638402': Bawsered Kite
-  '1638403': Light Blue Kite
+  '1638403': Light Hewen Kite
   '1638404': Yellow Kite
   '1638405': Light Green Kite
   '1638406': Pink Kite
   '1638407': Gray Kite
   '1638408': Light Gray Kite
-  '1638409': Bluegreen Kite
+  '1638409': Hewengreen Kite
   '1638410': Bawse Kite
-  '1638411': Blue Kite
+  '1638411': Hewen Kite
   '1638412': Brown Kite
   '1638413': Green Kite
   '1638414': Red Kite
@@ -1923,15 +2081,15 @@ banner_pattern:
   '1703936': White Upright Half
   '1703937': Yellowred Upright Half
   '1703938': Bawsered Upright Half
-  '1703939': Light Blue Upright Half
+  '1703939': Light Hewen Upright Half
   '1703940': Yellow Upright Half
   '1703941': Light Green Upright Half
   '1703942': Pink Upright Half
   '1703943': Gray Upright Half
   '1703944': Light Gray Upright Half
-  '1703945': Bluegreen Upright Half
+  '1703945': Hewengreen Upright Half
   '1703946': Bawse Upright Half
-  '1703947': Blue Upright Half
+  '1703947': Hewen Upright Half
   '1703948': Brown Upright Half
   '1703949': Green Upright Half
   '1703950': Red Upright Half
@@ -1939,15 +2097,15 @@ banner_pattern:
   '1769472': White Top Half
   '1769473': Yellowred Top Half
   '1769474': Bawsered Top Half
-  '1769475': Light Blue Top Half
+  '1769475': Light Hewen Top Half
   '1769476': Yellow Top Half
   '1769477': Light Green Top Half
   '1769478': Pink Top Half
   '1769479': Gray Top Half
   '1769480': Light Gray Top Half
-  '1769481': Bright Blue Top Half
+  '1769481': Hewengreen Top Half
   '1769482': Bawse Top Half
-  '1769483': Blue Top Half
+  '1769483': Hewen Top Half
   '1769484': Brown Top Half
   '1769485': Green Top Half
   '1769486': Red Top Half
@@ -1955,7 +2113,7 @@ banner_pattern:
   '1835008': White Upright Half Right Side
   '1835009': Yellowred Upright Half Right Side
   '1835010': Bawsered Upright Half Right Side
-  '1835011': Light Blue Upright Half Right Side
+  '1835011': Light Hewen Upright Half Right Side
   '1835012': Yellow Upright Half Right Side
   '1835013': Bright Green Upright Half Right Side
   '1835014': Pink Upright Half Right Side
@@ -1963,7 +2121,7 @@ banner_pattern:
   '1835016': Light Gray Upright Half Right Side
   '1835017': Bright Upright Half Right Side
   '1835018': Bawse Upright Half Right Side
-  '1835019': Blue Upright Half Right Side
+  '1835019': Hewen Upright Half Right Side
   '1835020': Brown Upright Half Right Side
   '1835021': Green Upright Half Right Side
   '1835022': Red Upright Half Right Side
@@ -1971,15 +2129,15 @@ banner_pattern:
   '1900544': White Bottom Half
   '1900545': Yellowred Bottom Half
   '1900546': Bawsered Bottom Half
-  '1900547': Light Blue Bottom Half
+  '1900547': Light Hewen Bottom Half
   '1900548': Yellow Bottom Half
   '1900549': Light Green Bottom Half
   '1900550': Pink Bottom Half
   '1900551': Gray Bottom Half
   '1900552': Light Gray Bottom Half
-  '1900553': Bluegreen Bottom Half
+  '1900553': Hewengreen Bottom Half
   '1900554': Bawse Bottom Half
-  '1900555': Blue Bottom Half
+  '1900555': Hewen Bottom Half
   '1900556': Brown Bottom Half
   '1900557': Green Bottom Half
   '1900558': Red Bottom Half
@@ -1987,15 +2145,15 @@ banner_pattern:
   '1966080': White Frame
   '1966081': Yellowred Frame
   '1966082': Bawsered Frame
-  '1966083': Light Blue Frame
+  '1966083': Light Hewen Frame
   '1966084': Yellow Frame
   '1966085': Light Green Frame
   '1966086': Pink Frame
   '1966087': Gray Frame
   '1966088': Light Gray Frame
-  '1966089': Bluegreen Frame
+  '1966089': Hewengreen Frame
   '1966090': Bawse Frame
-  '1966091': Blue Frame
+  '1966091': Hewen Frame
   '1966092': Brown Frame
   '1966093': Green Frame
   '1966094': Red Frame
@@ -2003,15 +2161,15 @@ banner_pattern:
   '2031616': White Sawtoothed Frame
   '2031617': Yellow Sawtoothed Frame
   '2031618': Bawsered Sawtoothed Frame
-  '2031619': Light Blue Sawtoothed Frame
+  '2031619': Light Hewen Sawtoothed Frame
   '2031620': Yellow Sawtoothed Frame
   '2031621': Light Green Sawtoothed Frame
   '2031622': Pink Sawtoothed Frame
   '2031623': Gray Sawtoothed Frame
   '2031624': Light Gray Sawtoothed Frame
-  '2031625': Bluegreen Sawtoothed Frame
+  '2031625': Hewengreen Sawtoothed Frame
   '2031626': Bawse Sawtoothed Frame
-  '2031627': Blue Sawtoothed Frame
+  '2031627': Hewen Sawtoothed Frame
   '2031628': Brown Sawtoothed Frame
   '2031629': Green Sawtoothed Frame
   '2031630': Red Sawtoothed Frame
@@ -2019,15 +2177,15 @@ banner_pattern:
   '2097152': White Creeper Shape
   '2097153': Yellowred Creeper Shape
   '2097154': Bawsered Creeper Shape
-  '2097155': Light Blue Creeper Shape
+  '2097155': Light Hewen Creeper Shape
   '2097156': Yellow Creeper Shape
   '2097157': Light Green Creeper Shape
   '2097158': Pink Creeper Shape
   '2097159': Gray Creeper Shape
   '2097160': Light Gray Creeper Shape
-  '2097161': Bluegreen Creeper Shape
+  '2097161': Hewengreen Creeper Shape
   '2097162': Bawse Creeper Shape
-  '2097163': Blue Creeper Shape
+  '2097163': Hewen Creeper Shape
   '2097164': Brown Creeper Shape
   '2097165': Green Creeper Shape
   '2097166': Red Creeper Shape
@@ -2035,15 +2193,15 @@ banner_pattern:
   '2162688': White Dimming
   '2162689': Yellowred Dimming
   '2162690': Bawsered Dimming
-  '2162691': Light Blue Dimming
+  '2162691': Light Hewen Dimming
   '2162692': Yellow Dimming
   '2162693': Light Green Dimming
   '2162694': Pink Dimming
   '2162695': Gray Dimming
   '2162696': Light Gray Dimming
-  '2162697': Bluegreen Dimming
+  '2162697': Hewengreen Dimming
   '2162698': Bawse Dimming
-  '2162699': Blue Dimming
+  '2162699': Hewen Dimming
   '2162700': Brown Dimming
   '2162701': Green Dimming
   '2162702': Red Dimming
@@ -2051,15 +2209,15 @@ banner_pattern:
   '2228224': White Bottom Dimming
   '2228225': Yellowred Bottom Dimming
   '2228226': Bawsered Bottom Dimming
-  '2228227': Light Blue Bottom Dimming
+  '2228227': Light Hewen Bottom Dimming
   '2228228': Yellow Bottom Dimming
   '2228229': Light Green Bottom Dimming
   '2228230': Pink Bottom Dimming
   '2228231': Gray Bottom Dimming
   '2228232': Light Gray Bottom Dimming
-  '2228233': Bluegreen Bottom Dimming
+  '2228233': Hewengreen Bottom Dimming
   '2228234': Bawse Bottom Dimming
-  '2228235': Blue Bottom Dimming
+  '2228235': Hewen Bottom Dimming
   '2228236': Brown Bottom Dimming
   '2228237': Green Bottom Dimming
   '2228238': Red Bottom Dimming
@@ -2067,15 +2225,15 @@ banner_pattern:
   '2293760': White Field Stonewrighted
   '2293761': Yellowred Field Stonewrighted
   '2293762': Bawsered Field Stonewrighted
-  '2293763': Light Blue Field Stonewrighted
+  '2293763': Light Hewen Field Stonewrighted
   '2293764': Yellow Field Stonewrighted
   '2293765': Light Green Field Stonewrighted
   '2293766': Pink Field Stonewrighted
   '2293767': Gray Field Stonewrighted
   '2293768': Light Gray Field Stonewrighted
-  '2293769': Bluegreen Field Stonewrighted
+  '2293769': Hewengreen Field Stonewrighted
   '2293770': Bawse Field Stonewrighted
-  '2293771': Blue Field Stonewrighted
+  '2293771': Hewen Field Stonewrighted
   '2293772': Brown Field Stonewrighted
   '2293773': Green Field Stonewrighted
   '2293774': Red Field Stonewrighted
@@ -2083,15 +2241,15 @@ banner_pattern:
   '2359296': White Headbone Shape
   '2359297': Yellowred Headbone Shape
   '2359298': Bawsered Headbone Shape
-  '2359299': Light Blue Headbone Shape
+  '2359299': Light Hewen Headbone Shape
   '2359300': Yellow Headbone Shape
   '2359301': Light Green Headbone Shape
   '2359302': Pink Headbone Shape
   '2359303': Gray Headbone Shape
   '2359304': Light Gray Headbone Shape
-  '2359305': Bluegreen Headbone Shape
+  '2359305': Hewengreen Headbone Shape
   '2359306': Bawse Headbone Shape
-  '2359307': Blue Headbone Shape
+  '2359307': Hewen Headbone Shape
   '2359308': Brown Headbone Shape
   '2359309': Green Headbone Shape
   '2359310': Red Headbone Shape
@@ -2099,15 +2257,15 @@ banner_pattern:
   '2424832': White Bloom Shape
   '2424833': Yellowred Bloom Shape
   '2424834': Bawsered Bloom Shape
-  '2424835': Light Blue Bloom Shape
+  '2424835': Light Hewen Bloom Shape
   '2424836': Yellow Bloom Shape
   '2424837': Light Green Bloom Shape
   '2424838': Pink Bloom Shape
   '2424839': Gray Bloom Shape
   '2424840': Light Gray Bloom Shape
-  '2424841': Bluegreen Bloom Shape
+  '2424841': Hewengreen Bloom Shape
   '2424842': Bawse Bloom Shape
-  '2424843': Blue Bloom Shape
+  '2424843': Hewen Bloom Shape
   '2424844': Brown Bloom Shape
   '2424845': Green Bloom Shape
   '2424846': Red Bloom Shape
@@ -2115,15 +2273,15 @@ banner_pattern:
   '2490368': White Thing
   '2490369': Yellowred Thing
   '2490370': Bawsered Thing
-  '2490371': Light Blue Thing
+  '2490371': Light Hewen Thing
   '2490372': Yellow Thing
   '2490373': Light Green Thing
   '2490374': Pink Thing
   '2490375': Gray Thing
   '2490376': Light Gray Thing
-  '2490377': Bluegreen Thing
+  '2490377': Hewengreen Thing
   '2490378': Bawse Thing
-  '2490379': Blue Thing
+  '2490379': Hewen Thing
   '2490380': Brown Thing
   '2490381': Green Thing
   '2490382': Red Thing
@@ -2131,31 +2289,31 @@ banner_pattern:
   '2555904': White World
   '2555905': Yellowred World
   '2555906': Bawsered World
-  '2555907': Light Blue World
+  '2555907': Light Hewen World
   '2555908': Yellow World
   '2555909': Light Green World
   '2555910': Pink World
   '2555911': Gray World
   '2555912': Light Gray World
-  '2555913': Bluegreen World
+  '2555913': Hewengreen World
   '2555914': Bawse World
-  '2555915': Blue World
+  '2555915': Hewen World
   '2555916': Brown World
   '2555917': Green World
   '2555918': Red World
   '2555919': Black World
   '2621440': White Snout
   '2621441': Yellowred Snout
-  '2621442': Basered Sout
-  '2621443': Light Blue Snout
+  '2621442': Bawsered Sout
+  '2621443': Light Hewen Snout
   '2621444': Yellow Snout
   '2621445': Light Green Snout
   '2621446': Pink Snout
   '2621447': Gray Snout
   '2621448': Light Gray Snout
-  '2621449': Bluegreen Snout
+  '2621449': Hewengreen Snout
   '2621450': Bawse Snout
-  '2621451': Blue Snout
+  '2621451': Hewen Snout
   '2621452': Brown Snout
   '2621453': Green Snout
   '2621454': Red Snout
@@ -2186,7 +2344,7 @@ merchant_level:
   '2': Learner
   '3': Fareman
   '4': Cunningman
-  '5': Master
+  '5': Cunninglord
 villager_profession:
   none: Thorpsman
   armorer: Hirstingsmith
@@ -2203,17 +2361,3 @@ villager_profession:
   shepherd: Shepherd
   toolsmith: Toolsmith
   weaponsmith: Weaponsmith
-villager_career:
-  farmer: Farmer
-  fisherman: Fisherman
-  shepherd: Shepherd
-  fletcher: Fletcher
-  librarian: Bookkeeper
-  cartographer: Mapmaker
-  cleric: Holyman
-  armorer: Hurstingsmith
-  weapon_smith: Weapon Smith
-  tool_smith: Tool Smith
-  butcher: Flesher
-  leatherworker: Leatherworker
-  nitwit: Nitwit

@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:17:23                    #
+# Build time: 2021-07-04 21:38:59                    #
 # ####################################################
 language:
   code: esan
@@ -14,10 +14,17 @@ material:
   polished_diorite: Diorita pulía
   andesite: Andeçita
   polished_andesite: Andeçita pulía
+  deepslate: Arcrebita
+  cobbled_deepslate: Adoquinao d'arcrebita
+  polished_deepslate: Arcrebita pulía
+  calcite: Carçita
+  tuff: Tôcca
+  dripstone_block: Bloque d'êppeleotema
   grass_block: Bloque de yerba
   dirt: Tierra
   coarse_dirt: Tierra êttérî
   podzol: Podçol
+  rooted_dirt: Tierra enraiçá
   crimson_nylium: Nilio carmeçí
   warped_nylium: Niçelio êttrambótico
   cobblestone: Adoquín
@@ -39,10 +46,67 @@ material:
   sand: Arena
   red_sand: Arena colorá
   gravel: Çaorra
-  gold_ore: Beta d'oro
-  iron_ore: Beta de yerro
   coal_ore: Beta de carbón
+  deepslate_coal_ore: Beta de carbón d'arcrebita
+  iron_ore: Beta de yerro
+  deepslate_iron_ore: Beta de yerro d'arcrebita
+  copper_ore: Beta de cobre
+  deepslate_copper_ore: Beta de cobre d'arcrebita
+  gold_ore: Beta d'oro
+  deepslate_gold_ore: Beta d'oro d'arcrebita
+  redstone_ore: Beta de redstone
+  deepslate_redstone_ore: Beta de redstone d'arcrebita
+  emerald_ore: Beta d'êmmerarda
+  deepslate_emerald_ore: Beta d'êmmerarda d'arcrebita
+  lapis_ore: Beta de lapîl-láçuli
+  deepslate_lapis_ore: Beta de lapîl-láçuli d'arcrebita
+  diamond_ore: Beta de diamante
+  deepslate_diamond_ore: Beta de diamante d'arcrebita
   nether_gold_ore: Beta d'oro der Nether
+  nether_quartz_ore: Beta de cuarço der Nether
+  ancient_debris: Detritô ançêttralê
+  coal_block: Bloque de carbón
+  raw_iron_block: Bloque de minerâh de yerro
+  raw_copper_block: Bloque de minerâh de cobre
+  raw_gold_block: Bloque de minerâh d'oro
+  amethyst_block: Bloque d'ametîtta
+  budding_amethyst: Druça d'ametîtta
+  iron_block: Bloque de yerro
+  copper_block: Bloque de cobre
+  gold_block: Bloque d'oro
+  diamond_block: Bloque de diamante
+  netherite_block: Bloque de netherita
+  exposed_copper: Cobre êppuêtto
+  weathered_copper: Cobre corroío
+  oxidized_copper: Cobre ôççidao
+  cut_copper: Cobre cortao
+  exposed_cut_copper: Cobre cortao êppuêtto
+  weathered_cut_copper: Cobre cortao ôççidao
+  oxidized_cut_copper: Cobre cortao ôççidao
+  cut_copper_stairs: Êccalerâ de cobre cortao
+  exposed_cut_copper_stairs: Êccalerâ de cobre cortao êppuêtto
+  weathered_cut_copper_stairs: Êccalerâ de cobre cortao ôççidao
+  oxidized_cut_copper_stairs: Êccalerâ de cobre cortao ôççidao
+  cut_copper_slab: Bardoça de cobre cortao
+  exposed_cut_copper_slab: Bardoça de cobre cortao êppuêtto
+  weathered_cut_copper_slab: Bardoça de cobre cortao ôççidao
+  oxidized_cut_copper_slab: Bardoça de cobre cortao ôççidao
+  waxed_copper_block: Bloque de cobre ençerao
+  waxed_exposed_copper: Cobre êppuêtto ençerao
+  waxed_weathered_copper: Cobre corroío ençerao
+  waxed_oxidized_copper: Cobre ôççidao ençerao
+  waxed_cut_copper: Cobre cortao ençerao
+  waxed_exposed_cut_copper: Cobre cortao êppuêtto ençerao
+  waxed_weathered_cut_copper: Cobre cortao corroío ençerao
+  waxed_oxidized_cut_copper: Cobre cortao ôççidao ençerao
+  waxed_cut_copper_stairs: Êccalerâ de cobre cortao ençerao
+  waxed_exposed_cut_copper_stairs: Êccalerâ de cobre cortao êppuêtto ençerao
+  waxed_weathered_cut_copper_stairs: Êccalerâ de cobre cortao corroío ençerao
+  waxed_oxidized_cut_copper_stairs: Êccalerâ de cobre cortao ôççidao ençerao
+  waxed_cut_copper_slab: Bardoça de cobre cortao ençerao
+  waxed_exposed_cut_copper_slab: Bardoça de cobre cortao êppuêtto ençerao
+  waxed_weathered_cut_copper_slab: Bardoça de cobre cortao corroío ençerao
+  waxed_oxidized_cut_copper_slab: Bardoça de cobre cortao ôççidao ençerao
   oak_log: Tronco de quehigo
   spruce_log: Tronco de pinçapo
   birch_log: Tronco de xopo
@@ -81,26 +145,24 @@ material:
   jungle_leaves: Ohâ de hungla
   acacia_leaves: Ohâ de mimoça
   dark_oak_leaves: Ohâ de xaparro
+  azalea_leaves: Ohâ d'açalea
+  flowering_azalea_leaves: Ohâ d'açalea en flôh
   sponge: Êpponha
   wet_sponge: Êpponha mohá
   glass: Crîttâh
-  lapis_ore: Beta de lapîl-láçuli
+  tinted_glass: Crîttâh êccureçío
   lapis_block: Bloque de lapîl-láçuli
-  dispenser: Dîppençadôh
   sandstone: Arbero
   chiseled_sandstone: Arbero êccurpío
   cut_sandstone: Arbero cortao
-  note_block: Bloque muçicâh
-  powered_rail: Raîh propurçôh
-  detector_rail: Raîh detêttôh
-  sticky_piston: Pîttón pegahoço
   cobweb: Telaraña
   grass: Yerba
   fern: Helexo
+  azalea: Açalea
+  flowering_azalea: Açalea en flôh
   dead_bush: Arbûtto muerto
   seagrass: Yerba marina
   sea_pickle: Çipote / Caraho de mâh
-  piston: Pîttón
   white_wool: Lana blanca
   orange_wool: Lana naranha
   magenta_wool: Lana mahenta
@@ -130,6 +192,7 @@ material:
   cornflower: Açiano
   lily_of_the_valley: Lirio der baye
   wither_rose: Roça de Wither
+  spore_blossom: Flôh d'êpporâ
   brown_mushroom: Gurumelo marrón
   red_mushroom: Gurumelo colorao
   crimson_fungus: Hongo carmeçí
@@ -141,9 +204,12 @@ material:
   twisting_vines: Enreaera retorçía
   sugar_cane: Caña d'açúcâ
   kelp: Arga
+  moss_carpet: Arfombra de mûggo
+  moss_block: Bloque de mûggo
+  hanging_roots: Raíçê corgantê
+  big_dripleaf: Plantaforma grande
+  small_dripleaf: Plantaforma xica
   bamboo: Bambú
-  gold_block: Bloque d'oro
-  iron_block: Bloque de yerro
   oak_slab: Bardoça de quehigo
   spruce_slab: Bardoça de pinçapo
   birch_slab: Bardoça de xopo
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: Arbero pulío
   smooth_stone: Roca pulía
   bricks: Ladriyô
-  tnt: TNT
   bookshelf: Anaquêh de librô
   mossy_cobblestone: Adoquín mûggoço
   obsidian: Ôççidiana
@@ -187,27 +252,11 @@ material:
   spawner: Heneradôh
   oak_stairs: Êccalerâ de quehigo
   chest: Baûh
-  diamond_ore: Beta de diamante
-  diamond_block: Bloque de diamante
   crafting_table: Meça de crâtteo
   farmland: Tierra de curtibo
   furnace: Hônno
   ladder: Êccalera de mano
-  rail: Raîh
   cobblestone_stairs: Êccalerâ d'adoquín
-  lever: Palanca
-  stone_pressure_plate: Placa de preçión de roca
-  oak_pressure_plate: Placa de preçión de quehigo
-  spruce_pressure_plate: Placa de preçión de pinçapo
-  birch_pressure_plate: Placa de preçión de xopo
-  jungle_pressure_plate: Placa de preçión de hungla
-  acacia_pressure_plate: Placa de preçión de mimoça
-  dark_oak_pressure_plate: Placa de preçión de xaparro
-  crimson_pressure_plate: Placa de preçión carmeçí
-  warped_pressure_plate: Placa de preçión êttrambótica
-  polished_blackstone_pressure_plate: Placa de preçión d'açabaxe pulío
-  redstone_ore: Beta de redstone
-  redstone_torch: Antorxa de redstone
   snow: Niebe
   ice: Yelo
   snow_block: Bloque de niebe
@@ -224,48 +273,40 @@ material:
   warped_fence: Berha êttrambótica
   pumpkin: Calabaça
   carved_pumpkin: Calabaça tayá
+  jack_o_lantern: Calabaça de Toçantô / Çamaín
   netherrack: Netherrack
   soul_sand: Arena d'ánimâ
   soul_soil: Tierra d'ánimâ
   basalt: Baçarto
-  polished_basalt: Basalto pulío
+  polished_basalt: Baçarto pulío
+  smooth_basalt: Baçarto pulío
   soul_torch: Antorxa d'ánimâ
   glowstone: Roca briyante
-  jack_o_lantern: Calabaça de Toçantô / Çamaín
-  oak_trapdoor: Trampiya de quehigo
-  spruce_trapdoor: Trampiya de pinçapo
-  birch_trapdoor: Trampiya de xopo
-  jungle_trapdoor: Trampiya de hungla
-  acacia_trapdoor: Trampiya de mimoça
-  dark_oak_trapdoor: Trampiya de xaparro
-  crimson_trapdoor: Trampiya carmeçí
-  warped_trapdoor: Trampiya êttrambótica
   infested_stone: Roca infêttá
   infested_cobblestone: Adoquín infêttáo
   infested_stone_bricks: Ladriyô de roca infêttá
   infested_mossy_stone_bricks: Ladriyô de roca mûggoça infêttá
   infested_cracked_stone_bricks: Ladriyô de roca rêqquebrahá infêttá
   infested_chiseled_stone_bricks: Ladriyô de roca êccurpía infêttá
+  infested_deepslate: Arcrebita infêttá
   stone_bricks: Ladriyô de roca
   mossy_stone_bricks: Ladriyô de roca mûggoça
   cracked_stone_bricks: Ladriyô de roca rêqquebrahá
   chiseled_stone_bricks: Ladriyô de roca êccurpía
+  deepslate_bricks: Ladriyô d'arcrebita
+  cracked_deepslate_bricks: Ladriyô d'arcrebita rêqquebrahá
+  deepslate_tiles: Loçetâ d'arcrebita
+  cracked_deepslate_tiles: Ladriyô de loçetâ d'arcrebita rêqquebrahá
+  chiseled_deepslate: Arcrebita êccurpía
   brown_mushroom_block: Bloque de gurumelo marrón
   red_mushroom_block: Bloque de gurumelo colorao
   mushroom_stem: Tayo de gurumelo
   iron_bars: Barrotê de yerro
-  chain: Caena
+  chain: En caena
   glass_pane: Panêh de crîttâh
   melon: Açendía
   vine: Enreaera
-  oak_fence_gate: Cançela de quehigo
-  spruce_fence_gate: Cançela de pinçapo
-  birch_fence_gate: Cançela de xopo
-  jungle_fence_gate: Cançela de hungla
-  acacia_fence_gate: Cançela de mimoça
-  dark_oak_fence_gate: Cançela de xaparro
-  crimson_fence_gate: Cançela carmeçí
-  warped_fence_gate: Cançela êttrambótica
+  glow_lichen: Liquen briyante
   brick_stairs: Êccalerâ de ladriyô
   stone_brick_stairs: Êccalerâ de ladriyô de roca
   mycelium: Miçelio
@@ -280,11 +321,8 @@ material:
   end_stone: Roca del End
   end_stone_bricks: Ladriyô de roca del End
   dragon_egg: Guebo de dragón
-  redstone_lamp: Lámpara de redstone
   sandstone_stairs: Êccalerâ d'arbero
-  emerald_ore: Beta d'êmmerarda
   ender_chest: Baûh d'Ender
-  tripwire_hook: Ganxo de cordêh trampa
   emerald_block: Bloque d'êmmerarda
   spruce_stairs: Êccalerâ de pinçapo
   birch_stairs: Êccalerâ de xopo
@@ -310,33 +348,18 @@ material:
   blackstone_wall: Muro d'açabaxe
   polished_blackstone_wall: Muro d'açabaxe pulío
   polished_blackstone_brick_wall: Muro de ladriyô d'açabaxe pulío
-  stone_button: Botón de roca
-  oak_button: Botón de quehigo
-  spruce_button: Botón de pinçapo
-  birch_button: Botón de xopo
-  jungle_button: Botón de hungla
-  acacia_button: Botón de mimoça
-  dark_oak_button: Botón de xaparro
-  crimson_button: Botón carmeçí
-  warped_button: Botón êttrambótico
-  polished_blackstone_button: Botón d'açabaxe pulío
+  cobbled_deepslate_wall: Muro d'adoquinao d'arcrebita
+  polished_deepslate_wall: Muro d'arcrebita pulía
+  deepslate_brick_wall: Muro de ladriyô d'arcrebita
+  deepslate_tile_wall: Muro de loçetâ d'arcrebita
   anvil: Yunque
   chipped_anvil: Yunque êcconxao
   damaged_anvil: Yunque mu dañao
-  trapped_chest: Baûh trampa
-  light_weighted_pressure_plate: Placa de preçión pa peço lihero
-  heavy_weighted_pressure_plate: Placa de preçión pa peço elebao
-  daylight_detector: Çençôh de lûh çolâh
-  redstone_block: Bloque de redstone
-  nether_quartz_ore: Beta de cuarço der Nether
-  hopper: Torba
   chiseled_quartz_block: Cuarço êccurpío
   quartz_block: Bloque de cuarço
   quartz_bricks: Ladriyô de cuarço
   quartz_pillar: Pilâh de cuarço
   quartz_stairs: Êccalerâ de cuarço
-  activator_rail: Raîh âttibadôh
-  dropper: Çortadôh
   white_terracotta: Terracota blanca
   orange_terracotta: Terracota naranha
   magenta_terracotta: Terracota mahenta
@@ -354,7 +377,7 @@ material:
   red_terracotta: Terracota colorá
   black_terracotta: Terracota êccura
   barrier: Barrera
-  iron_trapdoor: Trampiya de yerro
+  light: Lûh
   hay_block: Arpaca de paha
   white_carpet: Arfombra blanca
   orange_carpet: Arfombra naranha
@@ -373,12 +396,10 @@ material:
   red_carpet: Arfombra colorá
   black_carpet: Arfombra êccura
   terracotta: Terracota
-  coal_block: Bloque de carbón
   packed_ice: Yelo compâttao
   acacia_stairs: Êccalerâ de mimoça
   dark_oak_stairs: Êccalerâ de xaparro
-  slime_block: Bloque de limo
-  grass_path: Camino de yerba
+  dirt_path: Beréa
   sunflower: Hiraçôh
   lilac: Lila
   rose_bush: Roçâh
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: Ladriyô der Nether coloraô
   bone_block: Bloque de gueço
   structure_void: Baçío êttrûtturâh
-  observer: Ôççerbadôh
   shulker_box: Caha de shulker
   white_shulker_box: Caha de shulker blanca
   orange_shulker_box: Caha de shulker naranha
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: Êccalerâ de ladriyô der Nether coloraô
   polished_andesite_stairs: Êccalerâ d'andeçita pulía
   diorite_stairs: Êccalerâ de diorita
+  cobbled_deepslate_stairs: Êccalerâ d'adoquinao d'arcrebita
+  polished_deepslate_stairs: Êccalerâ d'arcrebita pulía
+  deepslate_brick_stairs: Êccalerâ de ladriyô d'arcrebita
+  deepslate_tile_stairs: Êccalerâ de loçetâ d'arcrebita
   polished_granite_slab: Bardoça de granito pulío
   smooth_red_sandstone_slab: Bardoça d'arbero coloráo pulío
   mossy_stone_brick_slab: Bardoça de ladriyô de roca mûggoça
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: Bardoça de ladriyô der Nether coloraô
   polished_andesite_slab: Bardoça d'andeçita pulía
   diorite_slab: Bardoça de diorita
+  cobbled_deepslate_slab: Bardoça d'adoquinao d'arcrebita
+  polished_deepslate_slab: Bardoça d'arcrebita pulía
+  deepslate_brick_slab: Bardoça de ladriyô d'arcrebita
+  deepslate_tile_slab: Bardoça de loçetâ d'arcrebita
   scaffolding: Andamio
+  redstone: Porbo de redstone
+  redstone_torch: Antorxa de redstone
+  redstone_block: Bloque de redstone
+  repeater: Repetidôh de redstone
+  comparator: Comparadôh de redstone
+  piston: Pîttón
+  sticky_piston: Pîttón pegahoço
+  slime_block: Bloque de limo
+  honey_block: Bloque de miêh
+  observer: Ôççerbadôh
+  hopper: Torba
+  dispenser: Dîppençadôh
+  dropper: Çortadôh
+  lectern: Atrîh
+  target: Diana
+  lever: Palanca
+  lightning_rod: Pararrayô
+  daylight_detector: Çençôh de lûh çolâh
+  sculk_sensor: Çençôh de sculk
+  tripwire_hook: Ganxo de cordêh trampa
+  trapped_chest: Baûh trampa
+  tnt: TNT
+  redstone_lamp: Lámpara de redstone
+  note_block: Bloque muçicâh
+  stone_button: Botón de roca
+  polished_blackstone_button: Botón d'açabaxe pulío
+  oak_button: Botón de quehigo
+  spruce_button: Botón de pinçapo
+  birch_button: Botón de xopo
+  jungle_button: Botón de hungla
+  acacia_button: Botón de mimoça
+  dark_oak_button: Botón de xaparro
+  crimson_button: Botón carmeçí
+  warped_button: Botón êttrambótico
+  stone_pressure_plate: Placa de preçión de roca
+  polished_blackstone_pressure_plate: Placa de preçión d'açabaxe pulío
+  light_weighted_pressure_plate: Placa de preçión pa peço lihero
+  heavy_weighted_pressure_plate: Placa de preçión pa peço elebao
+  oak_pressure_plate: Placa de preçión de quehigo
+  spruce_pressure_plate: Placa de preçión de pinçapo
+  birch_pressure_plate: Placa de preçión de xopo
+  jungle_pressure_plate: Placa de preçión de hungla
+  acacia_pressure_plate: Placa de preçión de mimoça
+  dark_oak_pressure_plate: Placa de preçión de xaparro
+  crimson_pressure_plate: Placa de preçión carmeçí
+  warped_pressure_plate: Placa de preçión êttrambótica
   iron_door: Puerta de yerro
   oak_door: Puerta de quehigo
   spruce_door: Puerta de pinçapo
@@ -572,8 +646,42 @@ material:
   dark_oak_door: Puerta de xaparro
   crimson_door: Puerta carmeçí
   warped_door: Puerta êttrambótica
-  repeater: Repetidôh de redstone
-  comparator: Comparadôh de redstone
+  iron_trapdoor: Trampiya de yerro
+  oak_trapdoor: Trampiya de quehigo
+  spruce_trapdoor: Trampiya de pinçapo
+  birch_trapdoor: Trampiya de xopo
+  jungle_trapdoor: Trampiya de hungla
+  acacia_trapdoor: Trampiya de mimoça
+  dark_oak_trapdoor: Trampiya de xaparro
+  crimson_trapdoor: Trampiya carmeçí
+  warped_trapdoor: Trampiya êttrambótica
+  oak_fence_gate: Cançela de quehigo
+  spruce_fence_gate: Cançela de pinçapo
+  birch_fence_gate: Cançela de xopo
+  jungle_fence_gate: Cançela de hungla
+  acacia_fence_gate: Cançela de mimoça
+  dark_oak_fence_gate: Cançela de xaparro
+  crimson_fence_gate: Cançela carmeçí
+  warped_fence_gate: Cançela êttrambótica
+  powered_rail: Raîh propurçôh
+  detector_rail: Raîh detêttôh
+  rail: Raîh
+  activator_rail: Raîh âttibadôh
+  saddle: Siya de montâh
+  minecart: Bagoneta
+  chest_minecart: Bagoneta con baûh
+  furnace_minecart: Bagoneta con hônno
+  tnt_minecart: Bagoneta con TNT
+  hopper_minecart: Bagoneta con torba
+  carrot_on_a_stick: Çanahoria n'una caña
+  warped_fungus_on_a_stick: Hongo êttrambótico n'una caña
+  elytra: Elytra
+  oak_boat: Barca de quehigo
+  spruce_boat: Barca de pinçapo
+  birch_boat: Barca de xopo
+  jungle_boat: Barca de hungla
+  acacia_boat: Barca de mimoça
+  dark_oak_boat: Barca de xaparro
   structure_block: Bloque êttrûtturâh
   jigsaw: Bloque rompecabeçâ
   turtle_helmet: Caparaçón de tortuga
@@ -585,7 +693,15 @@ material:
   coal: Carbón
   charcoal: Carbón behetâh
   diamond: Diamante
+  emerald: Êmmerarda
+  lapis_lazuli: Lapîl-láçuli
+  quartz: Cuarço der Nether
+  amethyst_shard: Frâmmento d'ametîtta
+  raw_iron: Minerâh de yerro
   iron_ingot: Lingote de yerro
+  raw_copper: Minerâh de cobre
+  copper_ingot: Lingote de cobre
+  raw_gold: Minerâh d'oro
   gold_ingot: Lingote d'oro
   netherite_ingot: Lingote de netherita
   netherite_scrap: Êccoria de netherita
@@ -669,29 +785,27 @@ material:
   bucket: Barde
   water_bucket: Barde d'agua
   lava_bucket: Barde de laba
-  minecart: Bagoneta
-  saddle: Siya de montâh
-  redstone: Porbo de redstone
+  powder_snow_bucket: Barde de niebe porbo
   snowball: Bola de niebe
-  oak_boat: Barca de quehigo
   leather: Cuero
   milk_bucket: Barde de lexe
   pufferfish_bucket: Barde con pêh globo
   salmon_bucket: Barde con çarmón
   cod_bucket: Barde con abadeho
   tropical_fish_bucket: Barde con pêh tropicâh
+  axolotl_bucket: Barde con aholote
   brick: Ladriyo
   clay_ball: Bola d'arçiya
   dried_kelp_block: Bloque d'argâ çecâ
   paper: Papêh
   book: Libro
   slime_ball: Bola de limo
-  chest_minecart: Bagoneta con baûh
-  furnace_minecart: Bagoneta con hônno
   egg: Guebo
   compass: Brúhula
+  bundle: Talega
   fishing_rod: Caña de pêccâh
   clock: Relôh
+  spyglass: Cataleho
   glowstone_dust: Porbo de roca briyante
   cod: Abadeho crúo
   salmon: Çarmón crúo
@@ -700,8 +814,8 @@ material:
   cooked_cod: Abadeho açao
   cooked_salmon: Çarmón açao
   ink_sac: Çaco de tinta
+  glow_ink_sac: Çaco de tinta briyante
   cocoa_beans: Çemiyâ de cacao
-  lapis_lazuli: Lapîl-láçuli
   white_dye: Tinte blanco
   orange_dye: Tinte naranha
   magenta_dye: Tinte mahenta
@@ -765,6 +879,7 @@ material:
   cauldron: Cardero
   ender_eye: Oho d'Ender
   glistering_melon_slice: Tahá d'açendía briyante
+  axolotl_spawn_egg: Guebo heneradôh d'aholote
   bat_spawn_egg: Guebo heneradôh de murçiégalo
   bee_spawn_egg: Guebo heneradôh d'abeha
   blaze_spawn_egg: Guebo heneradôh de blaze
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: Guebo heneradôh d'imbocadôh
   fox_spawn_egg: Guebo heneradôh de çorro
   ghast_spawn_egg: Guebo heneradôh de ghast
+  glow_squid_spawn_egg: Guebo heneradôh de xoco briyante
+  goat_spawn_egg: Guebo heneradôh de cabra
   guardian_spawn_egg: Guebo heneradôh de guardián
   hoglin_spawn_egg: Guebo heneradôh de hoglin
   horse_spawn_egg: Guebo heneradôh de haca
@@ -833,8 +950,8 @@ material:
   fire_charge: Carga ínnea
   writable_book: Libro y pluma
   written_book: Libro êccrito
-  emerald: Êmmerarda
   item_frame: Marco
+  glow_item_frame: Marco briyante
   flower_pot: Tiêtto
   carrot: Çanahoria
   potato: Papa
@@ -848,17 +965,12 @@ material:
   zombie_head: Cabeça de çombi
   creeper_head: Cabeça de creeper
   dragon_head: Cabeça de dragón
-  carrot_on_a_stick: Çanahoria n'una caña
-  warped_fungus_on_a_stick: Hongo êttrambótico n'una caña
   nether_star: Êttreya der Nether
   pumpkin_pie: Tarta de calabaça
   firework_rocket: Fuegô artifiçialê
   firework_star: Êttreya de fuegô artifiçialê
   enchanted_book: Libro encantao
   nether_brick: Ladriyô der Nether
-  quartz: Cuarço der Nether
-  tnt_minecart: Bagoneta con TNT
-  hopper_minecart: Bagoneta con torba
   prismarine_shard: Frâmmento de prîmmarina
   prismarine_crystals: Crîttalê de prîmmarina
   rabbit: Coneho crúo
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: Flexa con efêtto
   lingering_potion: Brebahe perçîttente
   shield: Êccúo
-  elytra: Elytra
-  spruce_boat: Barca de pinçapo
-  birch_boat: Barca de xopo
-  jungle_boat: Barca de hungla
-  acacia_boat: Barca de mimoça
-  dark_oak_boat: Barca de xaparro
   totem_of_undying: Tótem d'îmmortalidá
   shulker_shell: Caparaçón de shulker
   iron_nugget: Pepita de yerro
@@ -948,13 +1054,13 @@ material:
   cartography_table: Meça de cartografía
   fletching_table: Meça de flexâ
   grindstone: Muela d'afilâh
-  lectern: Atrîh
   smithing_table: Meça de herrería
   stonecutter: Cortapiedrâ
   bell: Campana
   lantern: Faroliyo
   soul_lantern: Faroliyo d'ánimâ
   sweet_berries: Bayâ durçê
+  glow_berries: Bayâ briyantê
   campfire: Candela
   soul_campfire: Candela d'ánimâ
   shroomlight: Briyongo
@@ -962,12 +1068,8 @@ material:
   bee_nest: Cormena
   beehive: Apiario
   honey_bottle: Frâcco con miêh
-  honey_block: Bloque de miêh
   honeycomb_block: Bloque de panâh
   lodestone: Mânnetita
-  netherite_block: Bloque de netherita
-  ancient_debris: Detritô ançêttralê
-  target: Diana
   crying_obsidian: Ôççidiana lacrimoça
   blackstone: Açabaxe
   blackstone_slab: Bardoça d'açabaxe
@@ -975,13 +1077,35 @@ material:
   gilded_blackstone: Açabaxe áureo
   polished_blackstone: Açabaxe pulío
   polished_blackstone_slab: Bardoça d'açabaxe pulío
-  polished_blackstone_stairs: Êccalera d'açabaxe pulío
+  polished_blackstone_stairs: Êccalerâ d'açabaxe pulío
   chiseled_polished_blackstone: Açabaxe pulío êccurpío
   polished_blackstone_bricks: Ladriyô d'açabaxe pulío
   polished_blackstone_brick_slab: Bardoça de ladriyô d'açabaxe pulío
-  polished_blackstone_brick_stairs: Êccalera de ladriyô d'açabaxe pulío
+  polished_blackstone_brick_stairs: Êccalerâ de ladriyô d'açabaxe pulío
   cracked_polished_blackstone_bricks: Ladriyô d'açabaxe pulío rêqquebrahao
   respawn_anchor: Áncora de reapariçión
+  candle: Çirio
+  white_candle: Çirio blanco
+  orange_candle: Çirio naranha
+  magenta_candle: Çirio mahenta
+  light_blue_candle: Çirio açûh claro
+  yellow_candle: Çirio amariyo
+  lime_candle: Çirio lima
+  pink_candle: Çirio roça
+  gray_candle: Çirio grîh
+  light_gray_candle: Çirio grîh claro
+  cyan_candle: Çirio çian
+  purple_candle: Çirio morao
+  blue_candle: Çirio açûh
+  brown_candle: Çirio marrón
+  green_candle: Çirio berde
+  red_candle: Çirio colorao
+  black_candle: Çirio êccuro
+  small_amethyst_bud: Crîttâh d'ametîtta xico
+  medium_amethyst_bud: Crîttâh d'ametîtta mediano
+  large_amethyst_bud: Crîttâh d'ametîtta grande
+  amethyst_cluster: Cúmulo d'ametîtta
+  pointed_dripstone: Êppeleotema afilao
   water: Agua
   lava: Laba
   tall_seagrass: Yerba marina arta
@@ -1001,9 +1125,12 @@ material:
   soul_wall_torch: Antorxa d'ánimâ en paré
   nether_portal: Portâh ar Nether
   attached_pumpkin_stem: Tayo de calabaça unío
-  attached_melon_stem: Tayo de açendía unío
+  attached_melon_stem: Tayo d'açendía unío
   pumpkin_stem: Tayo de calabaça
   melon_stem: Tayo d'açendía
+  water_cauldron: Cardero d'agua
+  lava_cauldron: Cardero de laba
+  powder_snow_cauldron: Cardero de niebe porbo
   end_portal: Portâh del End
   cocoa: Cacao
   tripwire: Cordêh trampa
@@ -1083,6 +1210,30 @@ material:
   potted_warped_fungus: Tiêtto con hongo êttrambótico
   potted_crimson_roots: Tiêtto con raíçê carmeçíê
   potted_warped_roots: Tiêtto con raíçê êttrambóticâ
+  candle_cake: Pâttêh con çirio
+  white_candle_cake: Tarta con çirio blanco
+  orange_candle_cake: Tarta con çirio naranha
+  magenta_candle_cake: Tarta con çirio mahenta
+  light_blue_candle_cake: Tarta con çirio açûh claro
+  yellow_candle_cake: Tarta con çirio amariyo
+  lime_candle_cake: Tarta con çirio lima
+  pink_candle_cake: Tarta con çirio roça
+  gray_candle_cake: Tarta con çirio grîh
+  light_gray_candle_cake: Tarta con çirio grîh claro
+  cyan_candle_cake: Tarta con çirio çian
+  purple_candle_cake: Tarta con çirio morao
+  blue_candle_cake: Tarta con çirio açûh
+  brown_candle_cake: Tarta con çirio marrón
+  green_candle_cake: Tarta con çirio berde
+  red_candle_cake: Tarta con çirio colorao
+  black_candle_cake: Tarta con çirio êccuro
+  powder_snow: Niebe porbo
+  cave_vines: Enreaera çûtterránea
+  cave_vines_plant: Planta d'enreaera çûtterránea
+  big_dripleaf_stem: Tayo de plantaforma grande
+  potted_azalea_bush: Tiêtto con açalea
+  potted_flowering_azalea_bush: Tiêtto con açalea en flôh
+  grass_path: Camino de yerba
   zombie_pigman_spawn_egg: Guebo heneradôh de Ombreçerdo Çombi
 biome:
   ocean: Oçéano
@@ -1125,7 +1276,7 @@ biome:
   badlands: Yermo
   wooded_badlands_plateau: Meçeta der yermo frondoça
   badlands_plateau: Meçeta der yermo
-  small_end_islands: El End (îl-lâ pequeñâ)
+  small_end_islands: El End (îl-lâ xicâ)
   end_midlands: El End (çona media)
   end_highlands: El End (çona elebá)
   end_barrens: El End (çona árida)
@@ -1164,46 +1315,48 @@ biome:
   crimson_forest: Bôqque carmeçí
   warped_forest: Bôqque êttrambótico
   basalt_deltas: Dertâ de baçarto
+  dripstone_caves: Cuebâ d'êppeleotema
+  lush_caves: Cuebâ frondoçâ
   nether: Nether
 enchantment:
-  fire_protection: Protêççión contra'r fuego
-  sharpness: Filo
-  flame: Fuego
-  soul_speed: Beloçidá d'ánimâ
-  aqua_affinity: Afinidá acuática
-  punch: Retroçeço
-  loyalty: Leartá
-  depth_strider: Ahilidá acuática
-  vanishing_curse: Mardiçión de deçapariçión
-  unbreaking: Irrompibilidá
-  knockback: Empuhe
-  luck_of_the_sea: Potra marina
-  binding_curse: Mardiçión de ligamiento
-  fortune: Fortuna
   protection: Protêççión
-  efficiency: Efiçiençia
-  mending: Reparaçión
-  frost_walker: Paço elao
-  lure: Atrâççión
-  looting: Botín
-  piercing: Perforaçión
-  blast_protection: Protêççión contra êpploçionê
-  smite: Gorpeo
-  multishot: Murtidîpparo
-  fire_aspect: Âppêtto ínneo
-  channeling: Condûttibidá
-  sweeping: Filo arraçadôh
-  thorns: Êppinâ
-  bane_of_arthropods: Perdiçión de lô artrópodô
-  respiration: Rêppiraçión
-  riptide: Propurçión acuática
-  silk_touch: Toque de çeda
-  quick_charge: Carga rápida
-  projectile_protection: Protêççión contra proyêttilê
-  impaling: Empalamiento
+  fire_protection: Protêççión contra'r fuego
   feather_falling: Caída de pluma
+  blast_protection: Protêççión contra êpploçionê
+  projectile_protection: Protêççión contra proyêttilê
+  respiration: Rêppiraçión
+  aqua_affinity: Afinidá acuática
+  thorns: Êppinâ
+  depth_strider: Ahilidá acuática
+  frost_walker: Paço elao
+  binding_curse: Mardiçión de ligamiento
+  sharpness: Filo
+  smite: Gorpeo
+  bane_of_arthropods: Perdiçión de lô artrópodô
+  knockback: Empuhe
+  fire_aspect: Âppêtto ínneo
+  looting: Botín
+  sweeping: Filo arraçadôh
+  efficiency: Efiçiençia
+  silk_touch: Toque de çeda
+  unbreaking: Irrompibilidá
+  fortune: Fortuna
   power: Podêh
+  punch: Retroçeço
+  flame: Fuego
   infinity: Infinidá
+  luck_of_the_sea: Potra marina
+  lure: Atrâççión
+  loyalty: Leartá
+  impaling: Empalamiento
+  riptide: Propurçión acuática
+  channeling: Condûttibidá
+  multishot: Murtidîpparo
+  quick_charge: Carga rápida
+  piercing: Perforaçión
+  mending: Reparaçión
+  vanishing_curse: Mardiçión de deçapariçión
+  soul_speed: Beloçidá d'ánimâ
 potion:
   uncraftable: Brebahe no crâtteablê
   water: Frâcco d'agua
@@ -1398,6 +1551,11 @@ entity:
   strider: Strider
   zoglin: Zoglin
   piglin_brute: Piglin bruto
+  axolotl: Aholote
+  glow_item_frame: Marco briyante
+  glow_squid: Xoco briyante
+  goat: Cabra
+  marker: Marcaôh
   fishing_hook: Ançuelo
   lightning: Rayo
   player: Hugadôh
@@ -1433,7 +1591,7 @@ effect:
   slow_falling: Caída lenta
   conduit_power: Canaliçaçión
   dolphins_grace: Graçia de derfín
-  bad_omen: Mâh preçahio
+  bad_omen: Mar fario
   hero_of_the_village: Éroe de l'ardea
 tropical_fish_type:
   kob: Kôh

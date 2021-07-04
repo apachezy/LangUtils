@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:49                    #
+# Build time: 2021-07-04 21:46:04                    #
 # ####################################################
 language:
   code: tlh_aa
@@ -14,21 +14,25 @@ material:
   polished_diorite: vaHbo' qoD nagh pe'lu'
   andesite: nagh vaHbo' qoD
   polished_andesite: qoD vaHbo' nagh
+  deepslate: '''agh'
+  cobbled_deepslate: bIH yitlhab
+  polished_deepslate: '''aqtu'''
   grass_block: magh ngogh
   dirt: butlh
   coarse_dirt: lam ghegh
   podzol: podzol
+  rooted_dirt: '''e'' ra'''
   crimson_nylium: crimson nylium
   warped_nylium: warp nylium
   cobblestone: nagh ghorlu'bogh ngogh
-  oak_planks: luq
-  spruce_planks: QIpyuS
-  birch_planks: toQDuj
-  jungle_planks: polonyuS
-  acacia_planks: Hiq
-  dark_oak_planks: Qo'noS
-  crimson_planks: Qo'noS
-  warped_planks: Qo'noS
+  oak_planks: Sor, mIw Sor Hap
+  spruce_planks: bIr Sor, mIw Sor Hap
+  birch_planks: chIS Sor, mIw Sor Hap
+  jungle_planks: yIteb ngem mIw Sor Hap
+  acacia_planks: ghobe'-Qovpatlh tlhIH mIw Sor Hap
+  dark_oak_planks: Hurgh Sor, mIw Sor Hap
+  crimson_planks: crimson Planks
+  warped_planks: warp Planks
   oak_sapling: Sor puq
   spruce_sapling: bIr Sor, puq
   birch_sapling: chIS Sor, puq
@@ -39,10 +43,31 @@ material:
   sand: Do'ol
   red_sand: Do'ol Doq
   gravel: naghHommey
-  gold_ore: qol'om lam
-  iron_ore: '''uSqan lam'
   coal_ore: nIn nagh lam
+  deepslate_coal_ore: '''ovelya'
+  iron_ore: '''uSqan lam'
+  deepslate_iron_ore: '''ovelya'
+  gold_ore: qol'om lam
+  deepslate_gold_ore: tlhIH
+  redstone_ore: nagh Doq lam
+  deepslate_redstone_ore: tlhopDaq yuD
+  emerald_ore: naghboch SuDqu' Hal
+  deepslate_emerald_ore: tlheghqu'DI' yoH
+  lapis_ore: rItlh SuD nagh lam
+  deepslate_lapis_ore: '''ovelya'
+  diamond_ore: qut lam
+  deepslate_diamond_ore: '''aqon'
   nether_gold_ore: nether Gold ore
+  nether_quartz_ore: nether quartz ore
+  ancient_debris: tIQ DI
+  coal_block: Coal bot
+  raw_iron_block: Qo'noS
+  raw_copper_block: yIjot
+  raw_gold_block: qorDu'
+  iron_block: '''uSqan ngogh'
+  gold_block: qol'om ngogh
+  diamond_block: qut ngogh'a'
+  netherite_block: netherite bot
   oak_log: sor QonoS
   spruce_log: bIr Sor QonoS
   birch_log: chIS Sor QonoS
@@ -59,20 +84,20 @@ material:
   stripped_dark_oak_log: yub Hurgh Sor QonoS
   stripped_crimson_stem: strip Crimson Stem
   stripped_warped_stem: warp Stem stripped
-  stripped_oak_wood: '''uQ''a'' QI''yaH!'
-  stripped_spruce_wood: bIQ'a'
-  stripped_birch_wood: parmaq
-  stripped_jungle_wood: bIQ yIghoS
-  stripped_acacia_wood: nuvpu' QI'yaH
-  stripped_dark_oak_wood: Sutovoq
+  stripped_oak_wood: yub Sor Hap
+  stripped_spruce_wood: yub bIr Sor Sor Hap
+  stripped_birch_wood: yub chIS Sor Hap
+  stripped_jungle_wood: yub yIteb ngem Sor Hap
+  stripped_acacia_wood: yub petaQ Sor QonoS
+  stripped_dark_oak_wood: yub Hurgh Sor Hap
   stripped_crimson_hyphae: strip Crimson Hyphae
   stripped_warped_hyphae: warp Hyphae stripped
-  oak_wood: QI'yaH!
-  spruce_wood: ghopDu'
-  birch_wood: wov
-  jungle_wood: naQ
-  acacia_wood: naDevvo' yIghoS
-  dark_oak_wood: DaHjaj
+  oak_wood: Sor Hap
+  spruce_wood: bIr Sor Hap
+  birch_wood: chIS Sor Hap
+  jungle_wood: yIteb ngem Sor Hap
+  acacia_wood: ghobe'-Qovpatlh tlhIH Sor Hap
+  dark_oak_wood: Hurgh Sor Hap
   crimson_hyphae: crimson Hyphae
   warped_hyphae: warp Hyphae
   oak_leaves: mej Sor
@@ -81,36 +106,32 @@ material:
   jungle_leaves: mej yIteb ngem Sor
   acacia_leaves: mej Sor petaQ
   dark_oak_leaves: Hurgh Sor por
+  azalea_leaves: qeylIS
   sponge: bIQ ngaSmeH ngogh
   wet_sponge: bIQ ngaSmeH ngogh yIQ
   glass: '''al''on'
-  lapis_ore: rItlh SuD nagh lam
-  lapis_block: SuDbogh rItlh ngogh
-  dispenser: baHjan
+  lapis_block: '''iw''a'''
   sandstone: Deb lam nagh
   chiseled_sandstone: pe'lu' Deb lam nagh
   cut_sandstone: choS nagh Doq
-  note_block: wab ngogh
-  powered_rail: tlhIl He Hujlu'bogh
-  detector_rail: noch tlhIl He
-  sticky_piston: nguSDI' Hum
   cobweb: SIrgh ghomey
   grass: magh
   fern: poch woch
+  azalea: '''adyas'
+  flowering_azalea: naDevwI'
   dead_bush: Heghbogh lav
   seagrass: ngeng grass
   sea_pickle: bIQ'a' Hurgh
-  piston: nguSDI'
-  white_wool: Ruch 'Iv
-  orange_wool: Horey'So
-  magenta_wool: yIruch
-  light_blue_wool: SuD 'Iw
-  yellow_wool: SuD
-  lime_wool: qoH
+  white_wool: chISbogh veD
+  orange_wool: Doqbogh veD
+  magenta_wool: Doqqu'bogh veD
+  light_blue_wool: SuDbogh 'ej wovbogh veD
+  yellow_wool: SuDbogh veD
+  lime_wool: SuDbogh 'ej wovbe'bogh veD
   pink_wool: Doqqu'bogh 'ej wovbogh veD
   gray_wool: qIjbogh 'ej wovbogh veD
   light_gray_wool: qIjbogh 'ej wovqu'bogh veD
-  cyan_wool: latlh
+  cyan_wool: SuDbogh ’ej wovqu’bogh veD
   purple_wool: Doqbogh 'ej SuDbogh veD
   blue_wool: SuDbogh veD
   brown_wool: Doqbogh 'ej wovbe'bogh veD
@@ -131,6 +152,7 @@ material:
   lily_of_the_valley: lily ngech
   wither_rose: rose QaD
   brown_mushroom: Doq 'ej wovbe' tera' yav 'atlhqammey
+  red_mushroom: jabwI'
   crimson_fungus: crimson 'atlhqam
   warped_fungus: warp 'atlhqam
   crimson_roots: crimson 'oQqar
@@ -140,38 +162,41 @@ material:
   twisting_vines: Vines twisting
   sugar_cane: Su'ghar qutmey ro
   kelp: Kelp
-  gold_block: qol'om ngogh
-  iron_block: '''uSqan ngogh'
-  oak_slab: surgh
-  spruce_slab: ghevIl
-  birch_slab: qIj
-  jungle_slab: ghom chuq
-  acacia_slab: jabbI'
-  dark_oak_slab: Surgh
-  crimson_slab: tlhaw'DIyuS
-  warped_slab: may'lI'
+  moss_carpet: yepHa'
+  moss_block: molwI'
+  hanging_roots: chetlhobqu'
+  big_dripleaf: nargh
+  small_dripleaf: wa'ghor
+  bamboo: ghub
+  oak_slab: Sor bID bot
+  spruce_slab: bIr Sor bID bot
+  birch_slab: chIS Sor bID bot
+  jungle_slab: yIteb ngem Sor bID bot
+  acacia_slab: ghobe'-Qovpatlh tlhIH bot bID yub
+  dark_oak_slab: Hurgh Sor bID bot
+  crimson_slab: crimson Slab
+  warped_slab: warp Slab
   stone_slab: nagh bID ngogh
-  smooth_stone_slab: ghertlhuQ
+  smooth_stone_slab: Hab slab nagh
   sandstone_slab: Deb lam nagh bID ngogh
-  cut_sandstone_slab: tlhaw'DIyuS
-  petrified_oak_slab: '''oy''naQ'
+  cut_sandstone_slab: Sandstone Slab pe'
+  petrified_oak_slab: petrify Sor bID bot
   cobblestone_slab: nagh ghorlu'bogh bID ngogh
-  brick_slab: qIj
-  stone_brick_slab: ghIq yIra'jach
-  nether_brick_slab: nughIch
-  quartz_slab: Surgh
-  red_sandstone_slab: Suqlu'nIS
-  cut_red_sandstone_slab: qelI'qam
+  brick_slab: Brick Slab
+  stone_brick_slab: Slab Brick nagh
+  nether_brick_slab: Nether brick slab
+  quartz_slab: Quartz bot
+  red_sandstone_slab: Ghobe'-Qovpatlh tlhIH sandstone slab
+  cut_red_sandstone_slab: Ghobe'-Qovpatlh tlhIH Sandstone Slab pe'
   purpur_slab: yIruch
-  prismarine_slab: toy'wI'pu'
-  prismarine_brick_slab: QIbya'ghom
-  dark_prismarine_slab: Qo'noSngan
+  prismarine_slab: Prismarine Slab
+  prismarine_brick_slab: Prismarine Brick Slab
+  dark_prismarine_slab: Slab prismarine Hurgh
   smooth_quartz: Hab Quartz bot
   smooth_red_sandstone: chaS nagh Doq Hab
   smooth_sandstone: choS nagh Hab
   smooth_stone: Hab nagh
   bricks: ngoghmey
-  tnt: jorwI'
   bookshelf: paq bey'
   mossy_cobblestone: mossy scrap nagh
   obsidian: nagh qIj ngogh
@@ -185,28 +210,11 @@ material:
   spawner: boghmoHwI'
   oak_stairs: letlh Sor
   chest: DerlIq
-  diamond_ore: qut lam
-  diamond_block: qut ngogh'a'
   crafting_table: vummeH raS
   farmland: Du' yotlh
   furnace: vIncha'
   ladder: toSmeH He'
-  rail: tlhIl He
   cobblestone_stairs: nagh letlh
-  lever: chu'meH naQ
-  stone_pressure_plate: nagh gho'meH 'echlet
-  oak_pressure_plate: Sor joH rop jengva'
-  spruce_pressure_plate: bIr Sor joH rop jengva'
-  birch_pressure_plate: chIS Sor joH rop jengva'
-  jungle_pressure_plate: yIteb ngem Sor joH rop jengva'
-  acacia_pressure_plate: ghobe'-Qovpatlh tlhIH Sor joH rop jengva'
-  dark_oak_pressure_plate: Hurgh Sor joH rop jengva'
-  crimson_pressure_plate: joH rop crimson jengva'
-  warped_pressure_plate: |
-    warp joH rop jengva'
-  polished_blackstone_pressure_plate: Polish gjlnagh JoH rop jengva’
-  redstone_ore: nagh Doq lam
-  redstone_torch: nagh Doq Sech
   snow: chal chuch
   ice: chuch
   snow_block: chal chuch ngogh
@@ -223,32 +231,31 @@ material:
   warped_fence: warp Fence
   pumpkin: peb'ot'a' Doq
   carved_pumpkin: Qo'noS
+  jack_o_lantern: Doq 'ej beqpuj rur wov
   netherrack: ghe'tor nagh
   soul_sand: qa' Do'ol
   soul_soil: laH'e' Soil
   basalt: basalt
   polished_basalt: polish Basalt
+  smooth_basalt: boqrat
   soul_torch: Sech laH
   glowstone: wovbogh nagh
-  jack_o_lantern: Doq 'ej beqpuj rur wov
-  oak_trapdoor: Sor von lojmIt
-  spruce_trapdoor: bIr Sor von lojmIt
-  birch_trapdoor: chIS Sor von lojmIt
-  jungle_trapdoor: yIteb ngem Sor von lojmIt
-  acacia_trapdoor: ghobe'-Qovpatlh tlhIH Sor von lojmIt
-  dark_oak_trapdoor: Hurgh Sor von lojmIt
-  crimson_trapdoor: crimson Trapdoor
-  warped_trapdoor: warp Trapdoor
   infested_stone: nagh ngej
   infested_cobblestone: nagh DI ngej
   infested_stone_bricks: nagh bot ngej
   infested_mossy_stone_bricks: char bot nagh ngej
   infested_cracked_stone_bricks: pe'vIl vaj pumDI' qoghlIj nagh bot ngej
   infested_chiseled_stone_bricks: nanwI' nagh bot ngej
+  infested_deepslate: De' qelI'
   stone_bricks: nagh ngogh
   mossy_stone_bricks: pochmo' buy'bogh naghmey
   cracked_stone_bricks: nagh ngogh QIHlu'bogh
   chiseled_stone_bricks: pe'lu' nagh noghmey
+  deepslate_bricks: qeylIS
+  cracked_deepslate_bricks: Yab
+  deepslate_tiles: '''ay'' wej'
+  cracked_deepslate_tiles: wej SaQ
+  chiseled_deepslate: AntleH bey'
   brown_mushroom_block: Doq 'ej wovbe' bot tera' yav 'atlhqammey
   red_mushroom_block: ghobe'-Qovpatlh tlhIH bot tera' yav 'atlhqammey
   mushroom_stem: tera' yav 'atlhqammey stem
@@ -256,14 +263,7 @@ material:
   glass_pane: '''al''on ''echlet'
   melon: melon naH
   vine: tlhegh tImey
-  oak_fence_gate: Hurgh Sor Hemqu'meH
-  spruce_fence_gate: bIr Sor Hemqu'meH lojmIt
-  birch_fence_gate: chIS Sor, lojmIt lunaDHa'g
-  jungle_fence_gate: yIteb ngem Sor Hemqu'meH lojmIt
-  acacia_fence_gate: ghobe'-Qovpatlh tlhIH Sor Hemqu'meH lojmIt
-  dark_oak_fence_gate: Hurgh Sor Hemqu'meH lojmIt
-  crimson_fence_gate: crimson Fence lojmIt
-  warped_fence_gate: warp Fence lojmIt
+  glow_lichen: puq
   brick_stairs: ngogh letlh
   stone_brick_stairs: nagh ngogh letlh
   mycelium: '''atlhqam SIrghmey'
@@ -279,11 +279,8 @@ material:
   end_stone: van nagh
   end_stone_bricks: '''o''megh nagh bot'
   dragon_egg: lung'a' QIm
-  redstone_lamp: nagh Doq wovmoHwI'
   sandstone_stairs: sandstone stairs
-  emerald_ore: naghboch SuDqu' Hal
   ender_chest: vanwI' DerlIq
-  tripwire_hook: pummoHmeH SIrgh rarwI'
   emerald_block: naghboch SuDqu' ngogh
   spruce_stairs: bIr Sor ngep'oS
   birch_stairs: chIS Sor ngep'oS
@@ -297,33 +294,18 @@ material:
   blackstone_wall: Qljnaghs tlhoy'
   polished_blackstone_wall: Polish gjlnagh pa’reD
   polished_blackstone_brick_wall: Polish qjlnagh brick pa’reD
-  stone_button: nagh button
-  oak_button: Sor boch chemvaH Ho'Du'
-  spruce_button: bIr Sor boch chemvaH Ho'Du'
-  birch_button: chIS Sor boch chemvaH Ho'Du'
-  jungle_button: yIteb ngem Sor boch chemvaH Ho'Du'
-  acacia_button: yub petaQ boch chemvaH Ho'Du'
-  dark_oak_button: Hurgh Sor boch chemvaH Ho'Du'
-  crimson_button: button crimson
-  warped_button: warp button
-  polished_blackstone_button: Polish gjlnagh button
+  cobbled_deepslate_wall: DuHbe' Qebha'
+  polished_deepslate_wall: Heghpu' bIQtIq
+  deepslate_brick_wall: qeylIS betleH
+  deepslate_tile_wall: Hoch sep yIghoS
   anvil: baS raSHom
   chipped_anvil: bIQaw'DIy
   damaged_anvil: QIH nuH raS chenmoH
-  trapped_chest: vonwI' DerlIq
-  light_weighted_pressure_plate: chep ngI' joH rop jengva'
-  heavy_weighted_pressure_plate: '''ugh ngI'' joH rop jengva'''
-  daylight_detector: pem noch
-  redstone_block: redstone bot
-  nether_quartz_ore: nether quartz ore
-  hopper: SupwI'
   chiseled_quartz_block: nanwI' quartz bot
   quartz_block: quartz bot
   quartz_bricks: Quartz brick
   quartz_pillar: muSHa'chuq
   quartz_stairs: quartz letlh
-  activator_rail: Activator lunaDHa'
-  dropper: dropper
   white_terracotta: chIS Terracotta
   orange_terracotta: 'Doq Terracotta '
   magenta_terracotta: DaHjaj lengmeH qeylIS
@@ -341,7 +323,7 @@ material:
   red_terracotta: joH
   black_terracotta: boch
   barrier: le'mIS
-  iron_trapdoor: '''uSqan vonmeH lojmIt'
+  light: wovmoHwI'
   hay_block: '''uQ tlhap'
   white_carpet: tlhIm chIS
   orange_carpet: carpet Doq
@@ -360,12 +342,10 @@ material:
   red_carpet: tlhIm Doq
   black_carpet: tlhIm qIj
   terracotta: choHwI'
-  coal_block: Coal bot
   packed_ice: jeD chuch
   acacia_stairs: ghobe'-Qovpatlh tlhIH Sor ngep'oS
   dark_oak_stairs: Hurgh Sor ngep'oS
-  slime_block: HuH ngogh
-  grass_path: magh taw
+  dirt_path: lam taw
   sunflower: jul chal
   lilac: lilac
   rose_bush: poch Doq jej
@@ -423,7 +403,6 @@ material:
   red_nether_bricks: toQDuj
   bone_block: Hom bot
   structure_void: logh bot
-  observer: bejwI'
   shulker_box: tay'Hu
   white_shulker_box: Huchvetlh
   orange_shulker_box: QI'yaH
@@ -489,7 +468,7 @@ material:
   green_concrete_powder: nuqneH
   red_concrete_powder: Daghtuq
   black_concrete_powder: '''ech'
-  turtle_egg: '''ey'' wa''DIch'
+  turtle_egg: la'SIv QIm
   dead_tube_coral_block: yo' qIja'laH
   dead_brain_coral_block: yotlh
   dead_bubble_coral_block: bortaS tlhIb
@@ -508,7 +487,7 @@ material:
   dead_brain_coral: tlhuQ
   dead_bubble_coral: bIbuS'a' Hegh
   dead_fire_coral: Hegh yIbuS
-  dead_horn_coral: Horey'So
+  dead_horn_coral: Qop Horey'So
   dead_tube_coral: Separ'a'
   tube_coral_fan: tuqja'raH
   brain_coral_fan: tlhuq
@@ -521,9 +500,10 @@ material:
   dead_fire_coral_fan: vutwI'
   dead_horn_coral_fan: yuDlaw'
   blue_ice: chuch SuD
+  conduit: '''och'
   polished_granite_stairs: pila'na' ghung
   smooth_red_sandstone_stairs: Hab Doq QeyHa' nagh nagh ngep'oS
-  mossy_stone_brick_stairs: letlh Brick mossy nagh
+  mossy_stone_brick_stairs: QeHchu'
   polished_diorite_stairs: SuvwI'na' qeylIS
   mossy_cobblestone_stairs: SuvwI'
   end_stone_brick_stairs: '''enqIyDu'
@@ -535,20 +515,66 @@ material:
   red_nether_brick_stairs: neghmey
   polished_andesite_stairs: '''ej yapchu'' QongDaq'
   diorite_stairs: qeylIS belHIv
+  cobbled_deepslate_stairs: DuHoS yIhmey 'es,, qeylIS lutu'lu'
+  polished_deepslate_stairs: Heghpu'wI'
+  deepslate_brick_stairs: Segh
+  deepslate_tile_stairs: qeylIS betleHmey
   polished_granite_slab: yoltIyuS
-  smooth_red_sandstone_slab: Seqlar
   mossy_stone_brick_slab: maqchuq
   polished_diorite_slab: SutoviyuQ
-  mossy_cobblestone_slab: qeylIS be'nal
-  end_stone_brick_slab: '''enqIyDu'
   smooth_sandstone_slab: ToraQ
-  smooth_quartz_slab: qeylIS
   granite_slab: lIchya'lI'
-  andesite_slab: Serman
-  red_nether_brick_slab: qorDu' naghboch SoQ'a' je pa' qeqlI'lI'
-  polished_andesite_slab: romuluS
   diorite_slab: bora'lIH
+  cobbled_deepslate_slab: bIH yIhoS
+  polished_deepslate_slab: '''utanapIStIm'
+  deepslate_brick_slab: qon
+  deepslate_tile_slab: QIb yIHmey
   scaffolding: Scaffolding
+  redstone: nagh Doq DImey
+  redstone_torch: nagh Doq Sech
+  redstone_block: redstone bot
+  repeater: nagh Doq jabbI'ID
+  comparator: Doq nagh juvwI'
+  piston: nguSDI'
+  sticky_piston: nguSDI' Hum
+  slime_block: HuH ngogh
+  honey_block: '''aw''bogh ghew Soj ngogh'
+  observer: bejwI'
+  hopper: SupwI'
+  dispenser: baHjan
+  dropper: dropper
+  target: DoS
+  lever: chu'meH naQ
+  daylight_detector: pem noch
+  sculk_sensor: pe'wI'
+  tripwire_hook: pummoHmeH SIrgh rarwI'
+  trapped_chest: vonwI' DerlIq
+  tnt: jorwI'
+  redstone_lamp: nagh Doq wovmoHwI'
+  note_block: wab ngogh
+  stone_button: nagh button
+  polished_blackstone_button: Polish gjlnagh button
+  oak_button: Sor boch chemvaH Ho'Du'
+  spruce_button: bIr Sor boch chemvaH Ho'Du'
+  birch_button: chIS Sor boch chemvaH Ho'Du'
+  jungle_button: yIteb ngem Sor boch chemvaH Ho'Du'
+  acacia_button: yub petaQ boch chemvaH Ho'Du'
+  dark_oak_button: Hurgh Sor boch chemvaH Ho'Du'
+  crimson_button: button crimson
+  warped_button: warp button
+  stone_pressure_plate: nagh gho'meH 'echlet
+  polished_blackstone_pressure_plate: Polish gjlnagh JoH rop jengva’
+  light_weighted_pressure_plate: chep ngI' joH rop jengva'
+  heavy_weighted_pressure_plate: '''ugh ngI'' joH rop jengva'''
+  oak_pressure_plate: Sor joH rop jengva'
+  spruce_pressure_plate: bIr Sor joH rop jengva'
+  birch_pressure_plate: chIS Sor joH rop jengva'
+  jungle_pressure_plate: yIteb ngem Sor joH rop jengva'
+  acacia_pressure_plate: ghobe'-Qovpatlh tlhIH Sor joH rop jengva'
+  dark_oak_pressure_plate: Hurgh Sor joH rop jengva'
+  crimson_pressure_plate: joH rop crimson jengva'
+  warped_pressure_plate: |
+    warp joH rop jengva'
   iron_door: '''uSqan lojmIt'
   oak_door: Sor lojmIt
   spruce_door: bIr Sor lojmIt
@@ -558,9 +584,44 @@ material:
   dark_oak_door: Hurgh Sor lojmIt
   crimson_door: crimson lojmIt
   warped_door: warp lojmIt
-  repeater: nagh Doq jabbI'ID
-  comparator: Doq nagh juvwI'
+  iron_trapdoor: '''uSqan vonmeH lojmIt'
+  oak_trapdoor: Sor von lojmIt
+  spruce_trapdoor: bIr Sor von lojmIt
+  birch_trapdoor: chIS Sor von lojmIt
+  jungle_trapdoor: yIteb ngem Sor von lojmIt
+  acacia_trapdoor: ghobe'-Qovpatlh tlhIH Sor von lojmIt
+  dark_oak_trapdoor: Hurgh Sor von lojmIt
+  crimson_trapdoor: crimson Trapdoor
+  warped_trapdoor: warp Trapdoor
+  oak_fence_gate: Hurgh Sor Hemqu'meH
+  spruce_fence_gate: bIr Sor Hemqu'meH lojmIt
+  birch_fence_gate: chIS Sor, lojmIt lunaDHa'g
+  jungle_fence_gate: yIteb ngem Sor Hemqu'meH lojmIt
+  acacia_fence_gate: ghobe'-Qovpatlh tlhIH Sor Hemqu'meH lojmIt
+  dark_oak_fence_gate: Hurgh Sor Hemqu'meH lojmIt
+  crimson_fence_gate: crimson Fence lojmIt
+  warped_fence_gate: warp Fence lojmIt
+  powered_rail: tlhIl He Hujlu'bogh
+  detector_rail: noch tlhIl He
+  rail: tlhIl He
+  activator_rail: Activator lunaDHa'
+  saddle: lIghmeH quS
+  minecart: tlhIlHal Duj
+  chest_minecart: DerlIq ghajbogh tlhIlHal Duj
+  furnace_minecart: nagh tetwI' ghajbogh tlhIlHal Duj
+  tnt_minecart: jorwI' ghajbogh tlhIlHal Duj
+  hopper_minecart: SupwI' ghajbogh tlhIlHal Duj
+  carrot_on_a_stick: qe'rot 'oQqar DuDwI'
+  warped_fungus_on_a_stick: warp 'atlhqam DuDwI'
+  elytra: telqoqmey
+  oak_boat: Sor Duj
+  spruce_boat: bIr Sor Duj
+  birch_boat: chIS Sor Duj
+  jungle_boat: yIteb ngem Sor Duj
+  acacia_boat: ghobe'-Qovpatlh tlhIH Sor Duj
+  dark_oak_boat: Hurgh Sor Duj
   structure_block: logh bot
+  jigsaw: je'
   turtle_helmet: la'SIv Som
   flint_and_steel: qul chenmoHwI'
   apple: '''epIl naH'
@@ -569,12 +630,20 @@ material:
   coal: nIn nagh
   charcoal: Sor nIn nagh
   diamond: qut
+  emerald: naghboch SuDqu'
+  lapis_lazuli: SuDbogh rItlh
+  quartz: ghe'tor naghboch
+  amethyst_shard: HuD
+  raw_iron: qogh
   iron_ingot: '''uSqan ngogh'
+  raw_copper: yIvoq
+  copper_ingot: tlhe'wI'
+  raw_gold: Qo'noS
   gold_ingot: qol'om ngogh
   netherite_ingot: netherite Ingot
   netherite_scrap: netherite Scrap
   wooden_sword: Sor Hap yan
-  wooden_shovel: ghom'a'
+  wooden_shovel: Sor Hap ghevjur
   wooden_pickaxe: Sor Hap tlhIl 'obmaQ
   wooden_axe: Sor Hap 'obmaQ
   wooden_hoe: Sor Hap Du' jan
@@ -647,26 +716,24 @@ material:
   bucket: DoQmIvHom
   water_bucket: bIQ HaySIn
   lava_bucket: vaHbo' HaySIn
-  minecart: tlhIlHal Duj
-  saddle: lIghmeH quS
-  redstone: nagh Doq DImey
+  powder_snow_bucket: DaHjaj
   snowball: chal chuch QujmeH moQ
-  oak_boat: Sor Duj
   leather: qo'rIn DIr
   pufferfish_bucket: lunbogh ghotI' HaySIn
   cod_bucket: ghotI' motlh HaySIn
+  axolotl_bucket: '''ach pe''vIl Sep'
   brick: ngogh
   clay_ball: clay QujmeH moQ
   dried_kelp_block: QaD Kelp bot
   paper: nav
   book: paq
   slime_ball: HuH moQ
-  chest_minecart: DerlIq ghajbogh tlhIlHal Duj
-  furnace_minecart: nagh tetwI' ghajbogh tlhIlHal Duj
   egg: QIm
   compass: lurgh tu'wI'
+  bundle: ghom
   fishing_rod: ghotI' jonmeH naQ
   clock: tlhaq
+  spyglass: QIp
   glowstone_dust: wovbogh nagh DImey
   cod: ghotI' motlh tlhol
   salmon: tlhol latlh ghotI'
@@ -674,41 +741,29 @@ material:
   cooked_salmon: vut'lu'bogh Dung Qal ghotI'
   ink_sac: qIjbogh rItlh
   cocoa_beans: Dojbogh 'ej wovbe'bogh rItlh
-  lapis_lazuli: SuDbogh rItlh
-  white_dye: chIS
   orange_dye: Doqbogh rItlh
   magenta_dye: Doqqu'bogh rItlh
   light_blue_dye: SuDbogh 'ej wovbogh rItlh
-  yellow_dye: SuD
   lime_dye: SuDbogh 'ej wovbe'bogh rItlh
   pink_dye: Doqqu'bogh 'ej wovbogh rItlh
   gray_dye: qIjbogh 'ej wovbogh rItlh
   light_gray_dye: qIjbogh 'ej wovqu'bogh rItlh
-  cyan_dye: tera'ngan
+  cyan_dye: SuDbogh ’ej wovqu’bogh rItlh
   purple_dye: Doqbogh 'ej SuDbogh rItlh
-  blue_dye: SuD
   brown_dye: Doq 'ej wovbe'
-  green_dye: SuD
-  red_dye: Hol
   black_dye: qIj
   bone_meal: chISbogh rItlh
   bone: Hom
   sugar: Su'ghar
-  cake: nep
-  white_bed: QI'choH
-  orange_bed: Doq
-  magenta_bed: bIrchoH
+  cake: chab'a'
+  white_bed: CHIS Qongdaq
+  orange_bed: tera' na'ran
+  magenta_bed: matay'rIch
   light_blue_bed: gho'wI'
   yellow_bed: SuD
-  lime_bed: QongDaq
-  pink_bed: QongDaq
-  gray_bed: Qong
-  light_gray_bed: pe'vIl
-  cyan_bed: qaStaHvIS
-  purple_bed: QongDaq
-  blue_bed: '''IH'
+  pink_bed: Doqqu' 'ej wov
+  gray_bed: qIj 'ej wov
   brown_bed: Doq 'ej wovbe'
-  green_bed: SuD
   red_bed: Doq
   black_bed: qIj
   cookie: Su'ghar chabHom
@@ -735,75 +790,47 @@ material:
   brewing_stand: vutmeH raS
   cauldron: bargh'a'
   ender_eye: van loD mIn
-  bat_spawn_egg: maSIr
-  bee_spawn_egg: nIsIr
-  blaze_spawn_egg: maSIr
-  cat_spawn_egg: jiSIp
-  cave_spider_spawn_egg: chIrgh Hoch
-  chicken_spawn_egg: nIqIy
-  cod_spawn_egg: QIch
-  cow_spawn_egg: nIbuS
-  creeper_spawn_egg: qorDu'
-  dolphin_spawn_egg: eSIr
-  donkey_spawn_egg: qeylIs
-  drowned_spawn_egg: Horey' DaSIv'a'
-  elder_guardian_spawn_egg: '''utana'
-  enderman_spawn_egg: '''enlIya'''
-  endermite_spawn_egg: '''enlIl'
-  evoker_spawn_egg: nItlhej
-  fox_spawn_egg: jatlh
-  ghast_spawn_egg: '''eSIr'
-  guardian_spawn_egg: '''eytana'
-  hoglin_spawn_egg: qorDu'ghItlh
-  horse_spawn_egg: wornagh
-  husk_spawn_egg: qeylIS
-  llama_spawn_egg: Qay'wI'
-  magma_cube_spawn_egg: je' qelI'qam
-  mooshroom_spawn_egg: '''eSpIv'
-  mule_spawn_egg: may' yIghoS
-  ocelot_spawn_egg: qorDu'
-  panda_spawn_egg: nIrIy
-  parrot_spawn_egg: '''eSir'
-  phantom_spawn_egg: chIrghDaq qIm
-  pig_spawn_egg: wIrIy
-  piglin_spawn_egg: pIrimaQ
-  piglin_brute_spawn_egg: '''utanapIy'
-  pillager_spawn_egg: tera'ngan
-  polar_bear_spawn_egg: berghar
-  pufferfish_spawn_egg: wo'rIp
-  rabbit_spawn_egg: Qatba'
-  ravager_spawn_egg: ma'rIy
-  salmon_spawn_egg: May'hom
-  sheep_spawn_egg: nItlhej
-  shulker_spawn_egg: nItlhej
-  silverfish_spawn_egg: jatlh qonwI'
-  skeleton_spawn_egg: qeylIS Hoch
-  skeleton_horse_spawn_egg: qortlha' qeylIS
-  slime_spawn_egg: naQIr
-  spider_spawn_egg: nItlh
-  squid_spawn_egg: QIpya
-  stray_spawn_egg: maghIr
-  strider_spawn_egg: jach 'eSIp
-  trader_llama_spawn_egg: tera'ngan
-  tropical_fish_spawn_egg: QI'yaH bIQtIq
-  turtle_spawn_egg: tugh yI'el
-  vex_spawn_egg: jon
-  villager_spawn_egg: jatlh QIb
-  vindicator_spawn_egg: yanDaj Qu' qIbHa'
-  wandering_trader_spawn_egg: Hoch 'e' yImev
-  witch_spawn_egg: bIQtIq
-  wither_skeleton_spawn_egg: qeylIS holoD
-  wolf_spawn_egg: yInaS
-  zoglin_spawn_egg: qorDu'
-  zombie_spawn_egg: chIm
-  zombie_horse_spawn_egg: chIm'a'
-  zombie_villager_spawn_egg: chIrgh
-  zombified_piglin_spawn_egg: wo' DeSwIjDaq QIm
+  glistering_melon_slice: 'lIghom '
+  axolotl_spawn_egg: QIm
+  bat_spawn_egg: lIrHom boghmoHbogh QIm
+  bee_spawn_egg: '''aw''bogh ghew boghmoHbogh QIm'
+  blaze_spawn_egg: qul yagh boghmoHbogh QIm
+  cat_spawn_egg: vIghro' boghmoHbogh QIm
+  cave_spider_spawn_egg: DIS voDchuch boghmoHbogh QIm
+  chicken_spawn_egg: '''uSgheb boghmoHbogh QIm'
+  cod_spawn_egg: ghotI' motlh boghmoHbogh QIm
+  cow_spawn_egg: tangqa' boghmoHbogh QIm
+  creeper_spawn_egg: tambogh tlha'wI' boghmoHbogh QIm
+  dolphin_spawn_egg: bIQDep boghmoHbogh QIm
+  donkey_spawn_egg: Hun boghmoHbogh QIm
+  drowned_spawn_egg: yInbogh lom yIQ boghmoHbogh QIm
+  elder_guardian_spawn_egg: '''avwI'' qan boghmoHbogh QIn'
+  enderman_spawn_egg: vanwI' loD boghmoHbogh QIn
+  endermite_spawn_egg: vanwI' ghew boghmoHbogh QIn
+  evoker_spawn_egg: reSwI' boghmoHbogh QIm
+  ghast_spawn_egg: qa''a' boghmoHbogh QIm
+  guardian_spawn_egg: '''avwI'' boghmoHbogh QIn'
+  hoglin_spawn_egg: hoglin Spawn QImmey
+  horse_spawn_egg: 'Sarghyan '
+  parrot_spawn_egg: vIlInHoD boghmoHbogh QIm
+  phantom_spawn_egg: ramjep boghmoHbogh QIm
+  pig_spawn_egg: targh boghmoHbogh QIm
+  piglin_spawn_egg: piglin Spawn QImmey
+  piglin_brute_spawn_egg: Piglin Brute Spawn Qim
+  pufferfish_spawn_egg: lunbogh ghotI' boghmoHbogh QIn
+  sheep_spawn_egg: bolmaq boghmoHbogh QIm
+  skeleton_spawn_egg: nobmeD boghmoHbogh QIm
+  slime_spawn_egg: HuH boghmoHbogh QIm
+  spider_spawn_egg: voDchuch boghmoHbogh QIm
+  strider_spawn_egg: strider Spawn QImmey
+  turtle_spawn_egg: la'SIv boghmoHbogh QIm
+  villager_spawn_egg: vengHom ghot boghmoHbogh QIm
+  zoglin_spawn_egg: zoglin Spawn QImmey
+  zombified_piglin_spawn_egg: zombified piglin Spawn QImmey
   experience_bottle: XP moQ chenmoH bal
   fire_charge: qul moQ
   writable_book: paq ghItlhwI' bo je
   written_book: ghItlhta' paq
-  emerald: naghboch SuDqu'
   item_frame: Doch bey'
   flower_pot: chal 'un
   carrot: qe'rot 'oQqar
@@ -814,20 +841,16 @@ material:
   golden_carrot: qol'om qe'rot 'oQqar
   skeleton_skull: Hom loD nach
   wither_skeleton_skull: skeleton nach Hom QaD
+  player_head: QI'yaH
   zombie_head: yInbogh lom nach
   creeper_head: Creeper nach
   dragon_head: lung'a' nach
-  carrot_on_a_stick: qe'rot 'oQqar DuDwI'
-  warped_fungus_on_a_stick: warp 'atlhqam DuDwI'
   nether_star: ghe'tor Hov
   pumpkin_pie: pumqIn chab
   firework_rocket: firework Rocket
   firework_star: firework Hov
   enchanted_book: enchant paq
   nether_brick: ghe'tor ngoghmey ngogh
-  quartz: ghe'tor naghboch
-  tnt_minecart: jorwI' ghajbogh tlhIlHal Duj
-  hopper_minecart: SupwI' ghajbogh tlhIlHal Duj
   rabbit: cheS tlhol
   cooked_rabbit: cheS vut'lu'pu'bogh
   rabbit_stew: cheS chatlh
@@ -841,33 +864,11 @@ material:
   command_block_minecart: ra'ghach ngogh ghajbogh tlhIlHal Duj
   mutton: tlhol vup 'avwI' Ha'DIbaH
   cooked_mutton: vutwI' vup, 'avwI' Ha'DIbaH
-  white_banner: nuqDaq
-  orange_banner: Doq
-  magenta_banner: baraq
-  light_blue_banner: wov
-  yellow_banner: '''adersan'
-  lime_banner: ghIlghameS
-  pink_banner: yab
-  gray_banner: Qov
-  light_gray_banner: wov
-  cyan_banner: qiylan
-  purple_banner: ghormanya HIvje'ghom
-  blue_banner: '''uQ''a'''
-  brown_banner: ngIq
-  green_banner: ghuy'cha'
-  red_banner: Doq
-  black_banner: qIv
   end_crystal: '''o''megh qut'
   beetroot: veng moQ naH
+  splash_potion: ta'be' polonyuS
   spectral_arrow: le' bach
   tipped_arrow: nguvmoH bach
-  shield: yoD
-  elytra: telqoqmey
-  spruce_boat: bIr Sor Duj
-  birch_boat: chIS Sor Duj
-  jungle_boat: yIteb ngem Sor Duj
-  acacia_boat: ghobe'-Qovpatlh tlhIH Sor Duj
-  dark_oak_boat: Hurgh Sor Duj
   music_disc_13: bom jengva'
   music_disc_cat: bom jengva'
   music_disc_blocks: bom jengva'
@@ -882,43 +883,55 @@ material:
   music_disc_wait: bom jengva'
   music_disc_pigstep: bom jengva'
   phantom_membrane: Qongbe'wI' jagh DIr
-  flower_banner_pattern: yIrIv
-  creeper_banner_pattern: yIrIv
-  skull_banner_pattern: yIrIv
-  mojang_banner_pattern: yIrIv
-  globe_banner_pattern: yIrIv
-  piglin_banner_pattern: yIrIv
+  loom: '[''emvo'''
+  composter: yay'a'
   blast_furnace: ngI'bogh vIncha'
   soul_lantern: LaH'e' Lantern
+  glow_berries: bernarDo
   soul_campfire: laH'e' campfire
   shroomlight: Shroomlight
   honeycomb: '''aw''bogh ghew Soj tlhat'
   bee_nest: '''aw''bogh ghew yanwo'''
   beehive: '''aw''bogh ghew juH'
   honey_bottle: '''aw''bogh ghew Soj bal'
-  honey_block: '''aw''bogh ghew Soj ngogh'
   honeycomb_block: '''aw''bogh ghew Soj tlhat ngogh'
   lodestone: loquesone
-  netherite_block: netherite bot
-  ancient_debris: tIQ DI
-  target: DoS
   crying_obsidian: jach Obsidian
   blackstone: gjlnagh
-  blackstone_slab: ghItlh
+  blackstone_slab: qjlnagh  bID - bot
   blackstone_stairs: naghqIj ngep'oS
   gilded_blackstone: Gilg gjlnagh
   polished_blackstone: Polish gjlnagh
-  polished_blackstone_slab: QI'yaH
+  polished_blackstone_slab: Polish qjlnagh biD - bot
   polished_blackstone_stairs: Polish qjlnagh nqep’oS
   chiseled_polished_blackstone: nanw’l polish gjlnagh
   polished_blackstone_bricks: Polish qljnagh brick
-  polished_blackstone_brick_slab: QI'yaH
+  polished_blackstone_brick_slab: Polish qljnagh brick biD-bot
   polished_blackstone_brick_stairs: Polish qjlnagh brick nqep´oS
   cracked_polished_blackstone_bricks: pe'vIl vaj pumDI' qoghlIj Polish gjlnagh brick
   respawn_anchor: Anchor respawn
+  candle: weQ
+  white_candle: weQ chIS
+  orange_candle: qa'naDa'
+  magenta_candle: Sam
+  light_blue_candle: ghom'a'
+  yellow_candle: SevnIS
+  lime_candle: tlhaw'DIyuS
+  pink_candle: QIt
+  gray_candle: qarDa'
+  light_gray_candle: ghom'a'
+  cyan_candle: qa'naDa'
+  purple_candle: QIt
+  blue_candle: tlhaw'DIyuS
+  brown_candle: weQ Doq 'ej wovbe'
+  green_candle: weQ SuD
+  red_candle: weQ Doq
+  black_candle: weQ qIj
   water: bIQ
   lava: vaHbo'
   tall_seagrass: '''aD ngeng grass'
+  piston_head: naDev QIghpu'
+  moving_piston: toy'wI''a'
   wall_torch: tlhoy' Sech
   fire: qul
   soul_fire: laH'e' qul
@@ -933,19 +946,24 @@ material:
   soul_wall_torch: Sech tlhoy' laH
   nether_portal: ghe'tor lojmIt
   attached_pumpkin_stem: DaHIjQa'
+  attached_melon_stem: HIvje''a'
   pumpkin_stem: Sumatlh 'e' yIHarQo'
+  melon_stem: '''adghom'
+  water_cauldron: bIQ maHpIn
+  lava_cauldron: vaHbo' maHpIn
+  powder_snow_cauldron: tlham
   end_portal: van lojmIt
   cocoa: yuch
   tripwire: pummoHmeH SIrgh
-  potted_oak_sapling: bIjatlh 'e' yImev
-  potted_spruce_sapling: yIjaH
-  potted_birch_sapling: yIjaHqa'
-  potted_jungle_sapling: yoQ mIv 'e' yImev
-  potted_acacia_sapling: bIQ'a'
-  potted_dark_oak_sapling: bIjaQ'a'
+  potted_oak_sapling: '''un Sor puq'
+  potted_spruce_sapling: bIr Sor puq 'un
+  potted_birch_sapling: chIS Sor puq 'un
+  potted_jungle_sapling: yIteb ngem Sor puq 'un
+  potted_acacia_sapling: ghobe'-Qovpatlh tlhIH Sor puq 'un
+  potted_dark_oak_sapling: Hurgh Sor puq 'un
   potted_fern: ghu'vam
   potted_dandelion: Qo'noS
-  potted_poppy: bIjatlh 'e' yISov
+  potted_poppy: bIQ'a'
   potted_blue_orchid: qorto'ghom
   potted_allium: '''ay'' wej'
   potted_azure_bluet: '''ach yIjaH'
@@ -964,6 +982,127 @@ material:
   carrots: qe'rot 'oQqarmey
   potatoes: patat 'oQqarmey
   skeleton_wall_skull: SuvwI' Hoch
+  wither_skeleton_wall_skull: SuvwI'nI' puqloD
+  zombie_wall_head: pe'vIl SuvwI'
+  player_wall_head: pe'vIl SuvwI'
+  creeper_wall_head: yIyep
+  dragon_wall_head: DuraS
+  beetroots: '''Iw poch'
+  end_gateway: ghertlhuD
+  frosted_ice: frost chuch
+  kelp_plant: kelp poch
+  dead_tube_coral_wall_fan: SevlaHchu' mIw
+  dead_brain_coral_wall_fan: tlhob
+  dead_bubble_coral_wall_fan: SevwI' HubnIS'a'
+  dead_fire_coral_wall_fan: rojchuq tu'lu'
+  dead_horn_coral_wall_fan: yuDlaw' Qob
+  tube_coral_wall_fan: mIw'a'
+  brain_coral_wall_fan: tlhob
+  bubble_coral_wall_fan: tera' voDleH
+  fire_coral_wall_fan: verengan
+  horn_coral_wall_fan: yIbuS
+  bamboo_sapling: bamboo bach
+  potted_bamboo: yabwIj
+  void_air: Qong
+  cave_air: molwI'
+  bubble_column: ghIntaQ
+  weeping_vines_plant: jISaQ Vines poch
+  twisting_vines_plant: twist Vines poch
+  crimson_wall_sign: Tlhoy' crimson qI'
+  warped_wall_sign: Tlhoy' warp qI'
+  potted_crimson_fungus: Crimson 'atlhqam 'un
+  potted_warped_fungus: warp 'atlhqam 'un
+  potted_crimson_roots: '''un Crimson ''oQqar'
+  potted_warped_roots: '''un warp ''oQqar'
+  candle_cake: chab'a' weQ
+  white_candle_cake: NaQ
+  orange_candle_cake: qo' Dol
+  magenta_candle_cake: mInDu'wIj
+  light_blue_candle_cake: qo' Hot
+  yellow_candle_cake: mIv'a'
+  lime_candle_cake: qo' Dol
+  pink_candle_cake: NaQ
+  gray_candle_cake: qo' Do'naQ
+  light_gray_candle_cake: qeylIS lughaj
+  cyan_candle_cake: laH
+  purple_candle_cake: NaQ
+  blue_candle_cake: qo' Hol
+  brown_candle_cake: qo' Hoch
+  green_candle_cake: ghomDaj
+  red_candle_cake: laH
+  powder_snow: HoSghaj
+  big_dripleaf_stem: naDHa'ghach
+  grass_path: magh taw
+  smooth_red_sandstone_slab: Seqlar
+  mossy_cobblestone_slab: qeylIS be'nal
+  end_stone_brick_slab: '''enqIyDu'
+  smooth_quartz_slab: qeylIS
+  andesite_slab: Serman
+  red_nether_brick_slab: qorDu' naghboch SoQ'a' je pa' qeqlI'lI'
+  polished_andesite_slab: romuluS
+  white_dye: chIS
+  yellow_dye: SuD
+  blue_dye: SuD
+  green_dye: SuD
+  red_dye: Hol
+  lime_bed: QongDaq
+  light_gray_bed: pe'vIl
+  cyan_bed: qaStaHvIS
+  purple_bed: QongDaq
+  blue_bed: '''IH'
+  green_bed: SuD
+  fox_spawn_egg: jatlh
+  husk_spawn_egg: qeylIS
+  llama_spawn_egg: Qay'wI'
+  magma_cube_spawn_egg: je' qelI'qam
+  mooshroom_spawn_egg: '''eSpIv'
+  mule_spawn_egg: may' yIghoS
+  ocelot_spawn_egg: qorDu'
+  panda_spawn_egg: nIrIy
+  pillager_spawn_egg: tera'ngan
+  polar_bear_spawn_egg: berghar
+  rabbit_spawn_egg: Qatba'
+  ravager_spawn_egg: ma'rIy
+  salmon_spawn_egg: May'hom
+  shulker_spawn_egg: nItlhej
+  silverfish_spawn_egg: jatlh qonwI'
+  skeleton_horse_spawn_egg: qortlha' qeylIS
+  squid_spawn_egg: QIpya
+  stray_spawn_egg: maghIr
+  trader_llama_spawn_egg: tera'ngan
+  tropical_fish_spawn_egg: QI'yaH bIQtIq
+  vex_spawn_egg: jon
+  vindicator_spawn_egg: yanDaj Qu' qIbHa'
+  wandering_trader_spawn_egg: Hoch 'e' yImev
+  witch_spawn_egg: bIQtIq
+  wither_skeleton_spawn_egg: qeylIS holoD
+  wolf_spawn_egg: yInaS
+  zombie_spawn_egg: chIm
+  zombie_horse_spawn_egg: chIm'a'
+  zombie_villager_spawn_egg: chIrgh
+  white_banner: nuqDaq
+  orange_banner: Doq
+  magenta_banner: baraq
+  light_blue_banner: wov
+  yellow_banner: '''adersan'
+  lime_banner: ghIlghameS
+  pink_banner: yab
+  gray_banner: Qov
+  light_gray_banner: wov
+  cyan_banner: qiylan
+  purple_banner: ghormanya HIvje'ghom
+  blue_banner: '''uQ''a'''
+  brown_banner: ngIq
+  green_banner: ghuy'cha'
+  red_banner: Doq
+  black_banner: qIv
+  shield: yoD
+  flower_banner_pattern: yIrIv
+  creeper_banner_pattern: yIrIv
+  skull_banner_pattern: yIrIv
+  mojang_banner_pattern: yIrIv
+  globe_banner_pattern: yIrIv
+  piglin_banner_pattern: yIrIv
   white_wall_banner: nuqDaq
   orange_wall_banner: Doq
   magenta_wall_banner: baraq
@@ -980,43 +1119,17 @@ material:
   green_wall_banner: ghuy'cha'
   red_wall_banner: Doq
   black_wall_banner: qIv
-  beetroots: '''Iw poch'
-  frosted_ice: frost chuch
-  kelp_plant: kelp poch
-  dead_tube_coral_wall_fan: SevlaHchu' mIw
-  dead_brain_coral_wall_fan: tlhob
-  dead_bubble_coral_wall_fan: SevwI' HubnIS'a'
-  dead_fire_coral_wall_fan: rojchuq tu'lu'
-  dead_horn_coral_wall_fan: yuDlaw' Qob
-  tube_coral_wall_fan: mIw'a'
-  brain_coral_wall_fan: tlhob
-  bubble_coral_wall_fan: tera' voDleH
-  fire_coral_wall_fan: verengan
-  horn_coral_wall_fan: yIbuS
-  bamboo_sapling: bamboo bach
-  potted_bamboo: yabwIj
-  weeping_vines_plant: jISaQ Vines poch
-  twisting_vines_plant: twist Vines poch
-  crimson_wall_sign: Tlhoy' crimson qI'
-  warped_wall_sign: Tlhoy' warp qI'
-  potted_crimson_fungus: Crimson 'atlhqam 'un
-  potted_warped_fungus: warp 'atlhqam 'un
-  potted_crimson_roots: '''un Crimson ''oQqar'
-  potted_warped_roots: '''un warp ''oQqar'
   cactus_green: SuDbogh rItlh
   dandelion_yellow: SuDbogh rItlh
   rose_red: Doqbogh rItlh
 biome:
   desert: Deb
   nether_wastes: Nether Wastes
-  wooded_hills: yas
   jungle: yIteb ngem
   jungle_hills: yIteb ngem HuD
   jungle_edge: yIteb ngem HeH
   birch_forest: chIS Sor ngem
   birch_forest_hills: chIS Sor ngem HuD
-  wooded_mountains: yav 'Iq
-  wooded_badlands_plateau: '''ach yoDDuj'
   the_void: QemJIq'a'
   modified_jungle: yIteb ngem choH
   modified_jungle_edge: yIteb ngem HeH choH
@@ -1024,42 +1137,45 @@ biome:
   tall_birch_hills: tIn Sor chIS HuD
   giant_spruce_taiga: tIn Sor bIr HIvje'
   giant_spruce_taiga_hills: HuD HIvje' tIn Sor bIr
-  modified_wooded_badlands_plateau: '''IwlIj raQ'
   bamboo_jungle: Sor DuDwI' yIteb ngem
   bamboo_jungle_hills: Sor DuDwI' yIteb ngem HuD
   soul_sand_valley: LaH'e' sand ngech
   crimson_forest: Crimson ngem
   warped_forest: Warp ngem
   basalt_deltas: Bazalt delta
+  wooded_hills: yas
+  wooded_mountains: yav 'Iq
+  wooded_badlands_plateau: '''ach yoDDuj'
+  modified_wooded_badlands_plateau: '''IwlIj raQ'
 enchantment:
-  fire_protection: qul QanwI'
-  sharpness: jejqu'
-  flame: qul
-  soul_speed: LaH'e' Speed
-  aqua_affinity: bIQ maS
-  punch: qIp
-  depth_strider: qaStaHvIS bIQ yIt
-  unbreaking: ghorHa'ghach
-  knockback: cholHa'moHwI'
-  luck_of_the_sea: QaQ Dache'meH ghotI' Suq
-  fortune: Do'
   protection: QanwI'
-  efficiency: vaQ
-  mending: tI'
-  frost_walker: peD chenmoHwI'
-  lure: nom Dache'meH ghotI' Suq
-  looting: latlh Huch
-  blast_protection: jorwI' QanwI'
-  smite: HeghHa'wI'vaD 'oy''a'
-  fire_aspect: qul nob
-  thorns: thorn
-  bane_of_arthropods: ghew HeghmeH
-  respiration: tlhuH
-  silk_touch: loQ Hot
-  projectile_protection: peng QanwI'
+  fire_protection: qul QanwI'
   feather_falling: pumbogh boHey
+  blast_protection: jorwI' QanwI'
+  projectile_protection: peng QanwI'
+  respiration: tlhuH
+  aqua_affinity: bIQ maS
+  thorns: thorn
+  depth_strider: qaStaHvIS bIQ yIt
+  frost_walker: peD chenmoHwI'
+  sharpness: jejqu'
+  smite: HeghHa'wI'vaD 'oy''a'
+  bane_of_arthropods: ghew HeghmeH
+  knockback: cholHa'moHwI'
+  fire_aspect: qul nob
+  looting: latlh Huch
+  efficiency: vaQ
+  silk_touch: loQ Hot
+  unbreaking: ghorHa'ghach
+  fortune: Do'
   power: HoS
+  punch: qIp
+  flame: qul
   infinity: taH
+  luck_of_the_sea: QaQ Dache'meH ghotI' Suq
+  lure: nom Dache'meH ghotI' Suq
+  mending: tI'
+  soul_speed: LaH'e' Speed
 potion:
   uncraftable: HIvje' chenmoHlaHbe'
 splash_potion:
@@ -1076,7 +1192,6 @@ entity:
   elder_guardian: '''avwI'' qan'
   wither_skeleton: Hurgh Hom
   stray: wa' leng 'Iv
-  egg: yISop
   painting: nagh beQ
   arrow: bach
   snowball: chuch moQ
@@ -1154,6 +1269,7 @@ entity:
   strider: Strider
   zoglin: Zoglin
   player: QujwI'
+  egg: yISop
   pig_zombie: yInbogh targh lom
 effect:
   speed: Do
@@ -1208,24 +1324,29 @@ named:
 tropical_fish_name:
   '65536': tlhegh DIr ghotI'
   '917504': tomat naH tlhegh DIr ghotI'
-colored_shied:
-  white: chIS yoD
-  orange: '''ovelya'
-  magenta: Marqel
-  light_blue: SuD 'ej wov
-  yellow: SuD
-  lime: SoH
-  pink: Qom
-  gray: ghertlhuD
-  light_gray: ghom'a' wov
-  cyan: tlham
-  purple: QongDaq
-  blue: '''ach'
-  brown: petaQ
-  green: SuD
-  red: qornelyuS
-  black: qIj yoD
 banner_pattern:
+  '983040': Hub'eghtaHvIS chIS
+  '1114120': yoymoHbogh patlh Degh qIj 'ej tIS
+  '2359300': chep nach SuD
+  '2359301': chep nach SuD
+  '2359302': Doqqu' 'ej wov nach
+  '2359303': qIj 'ej wov nach
+  '2621440': ChIS Snout
+  '2621441': Doq Snout
+  '2621442': Magenta Snout
+  '2621443': Chep Snout SuD
+  '2621444': SuD Snout
+  '2621445': Lime Snout
+  '2621446': Doqqu' 'ej wov Snout
+  '2621447': Qij 'ej wov Snout
+  '2621448': Chep Snout qIj 'ej wov
+  '2621449': Cyan Snout
+  '2621450': Doq 'ej SuD Snout
+  '2621451': SuD Snout
+  '2621452': Doq 'ej wovbe' Snout
+  '2621453': SuD Snout
+  '2621454': Ghobe'-Qovpatlh tlhIH Snout
+  '2621455': Qij Snout
   '65536': qeylIS
   '65537': qo' HoD
   '65538': qorDu'ghom
@@ -1450,7 +1571,6 @@ banner_pattern:
   '917517': SuD
   '917518': polonyuS
   '917519': tlhuH
-  '983040': qeylIS
   '983041': '''oSrIq'
   '983042': marSeq
   '983043': wov
@@ -1490,7 +1610,6 @@ banner_pattern:
   '1114117': toy'wI'pu'
   '1114118': DIvI'
   '1114119': toDuj
-  '1114120': ghe''orqu'ghot
   '1114121': qorDu'ghot
   '1114122': DungDaq yIbuS
   '1114123': ghe'qor
@@ -1790,10 +1909,6 @@ banner_pattern:
   '2359297': QeHghom
   '2359298': Marqeq
   '2359299': SuD 'ej wov
-  '2359300': HIja'
-  '2359301': Hurghqu'
-  '2359302': QIrq
-  '2359303': QeylIS
   '2359304': ghorqu'ghot
   '2359305': Qo'noS
   '2359306': QeylIS HIq
@@ -1850,22 +1965,6 @@ banner_pattern:
   '2555917': SuD
   '2555918': reynalDo
   '2555919': tlhogh
-  '2621440': Hutlh
-  '2621441': Horey'So
-  '2621442': Horey'So
-  '2621443': SuD 'ej wov
-  '2621444': SuD
-  '2621445': SoHvatlh
-  '2621446': bIjatlh 'e'
-  '2621447': ghoqwI'naH
-  '2621448': ghom'a' wov
-  '2621449': tlham
-  '2621450': Doq 'ej yIDo'
-  '2621451': '''ach'
-  '2621452': Doq 'ej wovbe'
-  '2621453': ghojwI'
-  '2621454': Horey'So
-  '2621455': bijatlh
 music_disk:
   music_disc_13: C418 - 13
   music_disc_cat: C418 - cat
@@ -1881,12 +1980,12 @@ music_disk:
   music_disc_wait: C418 - wait
   music_disc_pigstep: Lena Raine - Pigstep
 new_banner_pattern:
+  piglin_banner_pattern: Snout
   flower_banner_pattern: molwI'
   creeper_banner_pattern: yIjatlh
   skull_banner_pattern: QeylIS
   mojang_banner_pattern: Doch
   globe_banner_pattern: tlhol
-  piglin_banner_pattern: Ha'DIbaH
 merchant_level:
   '1': novice
   '2': ghojwI' vImoj
@@ -1908,14 +2007,20 @@ villager_profession:
   shepherd: bolmaq DevwI'
   toolsmith: SommI' chenmoHwI'
   weaponsmith: nuH chenmoHwI'
-villager_career:
-  farmer: wIjwI'
-  fisherman: ghotI' wamwI'
-  shepherd: bolmaq DevwI'
-  fletcher: tlhevjaQHom chenmoHwI'
-  librarian: paq Dojmey ghot
-  cartographer: pu'jIn chenmoHwI'
-  cleric: lalDan ghot
-  armorer: nuv may'luch
-  weapon_smith: nuH chenmoHwI'
-  butcher: Ha'DIbaH chenmoHwI'
+colored_shied:
+  white: chIS yoD
+  orange: '''ovelya'
+  magenta: Marqel
+  light_blue: SuD 'ej wov
+  yellow: SuD
+  lime: SoH
+  pink: Qom
+  gray: ghertlhuD
+  light_gray: ghom'a' wov
+  cyan: tlham
+  purple: QongDaq
+  blue: '''ach'
+  brown: petaQ
+  green: SuD
+  red: qornelyuS
+  black: qIj yoD

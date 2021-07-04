@@ -1,29 +1,519 @@
 # ####################################################
-# Build time: 2021-03-17 16:17:25                    #
+# Build time: 2021-07-04 21:39:00                    #
 # ####################################################
 language:
   code: ms_my
   name: Bahasa Melayu
   region: Malaysia
 material:
-  acacia_door: Pintu Akasia
   bamboo_sapling: Anak Pokok Buluh
+  beehive: Sarang Lebah
+  bell: Genta
+  bubble_column: Buih lajur
   chainmail_helmet: Topi Keledar Rantai
   clay_ball: Tanah Liat
+  daylight_detector: Pengesan Cahaya Siang
+  fox_spawn_egg: Telur Penjelmaan Musang
+  infested_chiseled_stone_bricks: Bata Batu Terpahat Dikerumuni
+  infested_cobblestone: Batu Buntar Dikerumuni
+  infested_cracked_stone_bricks: Bata Batu Rekah Dikerumuni
+  infested_mossy_stone_bricks: Bata Batu Berlumut Dikerumuni
+  infested_stone: Batu Dikerumuni
+  infested_stone_bricks: Bata Batu Dikerumuni
   jigsaw: Blok Susun Suai
+  lectern: Meja Syarahan
+  lily_of_the_valley: Lili Lembah
   smooth_quartz: Kuarza Licin
-  spruce_door: Pintu Cemara
-  stripped_acacia_log: Balak Akasia Kulit Terkupas
-  stripped_acacia_wood: Kayu Akasia Kulit Terkupas
-  stripped_birch_log: Balak Birch Kulit Terkupas
-  stripped_birch_wood: Kayu Birch Kulit Terkupas
-  stripped_dark_oak_log: Balak Oak Gelap Kulit Terkupas
-  stripped_dark_oak_wood: Kayu Oak Gelap Kulit Terkupas
-  stripped_jungle_log: Balak Rimba Kulit Terkupas
-  stripped_jungle_wood: Kayu Rimba Kulit Terkupas
-  stripped_oak_log: Balak Oak Kulit Terkupas
-  stripped_oak_wood: Kayu Oak Kulit Terkupas
-  stripped_spruce_log: Balak Cemara Kulit Terkupas
-  stripped_spruce_wood: Kayu Cemara Kulit Terkupas
-biome:
-  warm_ocean: Lautan Panas
+tipped_arrow:
+  slow_falling: Anak Panah Jatuh Perlahan
+entity:
+  elder_guardian: Penjaga Tua
+  vindicator: Tunggul
+  fox: Musang
+effect:
+  slow_falling: Lambat jatuh
+banner_pattern:
+  '65536': Petak Penjuru Kiri Bawah Putih
+  '65537': Petak Penjuru Kiri Bawah Jingga
+  '65538': Petak Penjuru Kiri Bawah Magenta
+  '65539': Petak Penjuru Kiri Bawah Biru Muda
+  '65540': Petak Penjuru Kiri Bawah Kuning
+  '65541': Petak Penjuru Kiri Bawah Hijau Muda
+  '65542': Petak Penjuru Kiri Bawah Merah Jambu
+  '65543': Petak Penjuru Kiri Bawah Kelabu
+  '65544': Petak Penjuru Kiri Bawah Kelabu Muda
+  '65545': Petak Penjuru Kiri Bawah Sian
+  '65546': Petak Penjuru Kiri Bawah Ungu
+  '65547': Petak Penjuru Kiri Bawah Biru
+  '65548': Petak Penjuru Kiri Bawah Perang
+  '65549': Petak Penjuru Kiri Bawah Hijau
+  '65550': Petak Penjuru Kiri Bawah Merah
+  '65551': Petak Penjuru Kiri Bawah Hitam
+  '131072': Petak Penjuru Kanan Bawah Putih
+  '131073': Petak Penjuru Kanan Bawah Jingga
+  '131074': Petak Penjuru Kanan Bawah Magenta
+  '131075': Petak Penjuru Kanan Bawah Biru Muda
+  '131076': Petak Penjuru Kanan Bawah Kuning
+  '131077': Petak Penjuru Kanan Bawah Hijau Muda
+  '131078': Petak Penjuru Kanan Bawah Merah Jambu
+  '131079': Petak Penjuru Kanan Bawah Kelabu
+  '131080': Petak Penjuru Kanan Bawah Kelabu Muda
+  '131081': Petak Penjuru Kanan Bawah Sian
+  '131082': Petak Penjuru Kanan Bawah Ungu
+  '131083': Petak Penjuru Kanan Bawah Biru
+  '131084': Petak Penjuru Kanan Bawah Perang
+  '131085': Petak Penjuru Kanan Bawah Hijau
+  '131086': Petak Penjuru Kanan Bawah Merah
+  '131087': Petak Penjuru Kanan Bawah Hitam
+  '196608': Petak Penjuru Kiri Atas Putih
+  '196609': Petak Penjuru Kiri Atas Jingga
+  '196610': Petak Penjuru Kiri Atas Magenta
+  '196611': Petak Penjuru Kiri Atas Biru Muda
+  '196612': Petak Penjuru Kiri Atas Kuning
+  '196613': Petak Penjuru Kiri Atas Hijau Muda
+  '196614': Petak Penjuru Kiri Atas Merah Jambu
+  '196615': Petak Penjuru Kiri Atas Kelabu
+  '196616': Petak Penjuru Kiri Atas Kelabu Muda
+  '196617': Petak Penjuru Kiri Atas Sian
+  '196618': Petak Penjuru Kiri Atas Ungu
+  '196619': Petak Penjuru Kiri Atas Biru
+  '196620': Petak Penjuru Kiri Atas Perang
+  '196621': Petak Penjuru Kiri Atas Hijau
+  '196622': Petak Penjuru Kiri Atas Merah
+  '196623': Petak Penjuru Kiri Atas Hitam
+  '262144': Petak Penjuru Kanan Atas Putih
+  '262145': Petak Penjuru Kanan Atas Jingga
+  '262146': Petak Penjuru Kanan Atas Magenta
+  '262147': Petak Penjuru Kanan Atas Biru Muda
+  '262148': Petak Penjuru Kanan Atas Kuning
+  '262149': Petak Penjuru Kanan Atas Hijau Muda
+  '262150': Petak Penjuru Kanan Atas Merah Jambu
+  '262151': Petak Penjuru Kanan Atas Kelabu
+  '262152': Petak Penjuru Kanan Atas Kelabu Muda
+  '262153': Petak Penjuru Kanan Atas Sian
+  '262154': Petak Penjuru Kanan Atas Ungu
+  '262155': Petak Penjuru Kanan Atas Biru
+  '262156': Petak Penjuru Kanan Atas Perang
+  '262157': Petak Penjuru Kanan Atas Hijau
+  '262158': Petak Penjuru Kanan Atas Merah
+  '262159': Petak Penjuru Kanan Atas Hitam
+  '393216': Atas Putih
+  '393217': Atas Jingga
+  '393218': Atas Magenta
+  '393219': Atas Biru Muda
+  '393220': Atas Kuning
+  '393221': Atas Hijau Muda
+  '393222': Atas Merah Jambu
+  '393223': Atas Kelabu
+  '393224': Atas Kelabu Muda
+  '393225': Atas Sian
+  '393226': Atas Ungu
+  '393227': Atas Biru
+  '393228': Atas Perang
+  '393229': Atas Hijau
+  '393230': Atas Merah
+  '393231': Atas Hitam
+  '458752': Pancang Kiri Putih
+  '458753': Pancang Kiri Jingga
+  '458754': Pancang Kiri Magenta
+  '458755': Pancang Kiri Biru Muda
+  '458756': Pancang Kiri Kuning
+  '458757': Pancang Kiri Hijau Muda
+  '458758': Pancang Kiri Merah Jambu
+  '458759': Pancang Kiri Kelabu
+  '458760': Pancang Kiri Kelabu Muda
+  '458761': Pancang Kiri Sian
+  '458762': Pancang Kiri Ungu
+  '458763': Pancang Kiri Biru
+  '458764': Pancang Kiri Perang
+  '458765': Pancang Kiri Hijau
+  '458766': Pancang Kiri Merah
+  '458767': Pancang Kiri Hitam
+  '524288': Pancang Kanan Putih
+  '524289': Pancang Kanan Jingga
+  '524290': Pancang Kanan Magenta
+  '524291': Pancang Kanan Biru Muda
+  '524292': Pancang Kanan Kuning
+  '524293': Pancang Kanan Hijau Muda
+  '524294': Pancang Kanan Merah Jambu
+  '524295': Pancang Kanan Kelabu
+  '524296': Pancang Kanan Kelabu Muda
+  '524297': Pancang Kanan Sian
+  '524298': Pancang Kanan Ungu
+  '524299': Pancang Kanan Biru
+  '524300': Pancang Kanan Perang
+  '524301': Pancang Kanan Hijau
+  '524302': Pancang Kanan Merah
+  '524303': Pancang Kanan Hitam
+  '589824': Pancang Putih
+  '589825': Pancang Jingga
+  '589826': Pancang Magenta
+  '589827': Pancang Biru Muda
+  '589828': Pancang Kuning
+  '589829': Pancang Hijau Muda
+  '589830': Pancang Merah Jambu
+  '589831': Pancang Kelabu
+  '589832': Pancang Kelabu Muda
+  '589833': Pancang Sian
+  '589834': Jalur Ungu
+  '589835': Pancang Biru
+  '589836': Pancang Perang
+  '589837': Pancang Hijau
+  '589838': Pancang Merah
+  '589839': Pancang Hitam
+  '655360': Belahan Mendatar Putih
+  '655361': Belahan Mendatar Jingga
+  '655362': Belahan Mendatar Magenta
+  '655363': Belahan Mendatar Biru Muda
+  '655364': Belahan Mendatar Kuning
+  '655365': Belahan Mendatar Hijau Muda
+  '655366': Belahan Mendatar Merah Jambu
+  '655367': Belahan Mendatar Kelabu
+  '655368': Belahan Mendatar Kelabu Muda
+  '655369': Belahan Mendatar Sian
+  '655370': Belahan Mendatar Ungu
+  '655371': Belahan Mendatar Biru
+  '655372': Belahan Mendatar Perang
+  '655373': Belahan Mendatar Hijau
+  '655374': Belahan Mendatar Merah
+  '655375': Belahan Mendatar Hitam
+  '720896': Garis Condong Terbalik Putih
+  '720897': Garis Condong Terbalik Jingga
+  '720898': Garis Condong Terbalik Magenta
+  '720899': Garis Condong Terbalik Biru Muda
+  '720900': Garis Condong Terbalik Kuning
+  '720901': Garis Condong Terbalik Hijau Muda
+  '720902': Garis Condong Terbalik Merah Jambu
+  '720903': Garis Condong Terbalik Kelabu
+  '720904': Garis Condong Terbalik Kelabu Muda
+  '720905': Garis Condong Terbalik Sian
+  '720906': Garis Condong Terbalik Ungu
+  '720907': Garis Condong Terbalik Biru
+  '720908': Garis Condong Terbalik Perang
+  '720909': Garis Condong Terbalik Hijau
+  '720910': Garis Condong Terbalik Merah
+  '720911': Garis Condong Terbalik Hitam
+  '786432': Garis Condong Putih
+  '786433': Garis Condong Jingga
+  '786434': Garis Condong Magenta
+  '786435': Garis Condong Biru Muda
+  '786436': Garis Condong Kuning
+  '786437': Garis Condong Hijau Muda
+  '786438': Garis Condong Merah Jambu
+  '786439': Garis Condong Kelabu
+  '786440': Garis Condong Kelabu Muda
+  '786441': Garis Condong Sian
+  '786442': Garis Condong Ungu
+  '786443': Garis Condong Biru
+  '786444': Garis Condong Perang
+  '786445': Garis Condong Hijau
+  '786446': Garis Condong Merah
+  '786447': Garis Condong Hitam
+  '851968': Jalur Putih
+  '851969': Jalur Jingga
+  '851970': Jalur Magenta
+  '851971': Jalur Biru Muda
+  '851972': Jalur Kuning
+  '851973': Jalur Hijau Muda
+  '851974': Jalur Merah Jambu
+  '851975': Jalur Kelabu
+  '851976': Jalur Kelabu Muda
+  '851977': Jalur Sian
+  '851978': Jalur Ungu
+  '851979': Jalur Biru
+  '851980': Jalur Perang
+  '851981': Jalur Hijau
+  '851982': Jalur Merah
+  '851983': Jalur Hitam
+  '917504': Pangkah Putih
+  '917505': Pangkah Jingga
+  '917506': Pangkah Magenta
+  '917507': Pangkah Biru Muda
+  '917508': Pangkah Kuning
+  '917509': Pangkah Hijau Muda
+  '917510': Pangkah Merah Jambu
+  '917511': Pangkah Kelabu
+  '917512': Pangkah Kelabu Muda
+  '917513': Pangkah Sian
+  '917514': Pangkah Ungu
+  '917515': Pangkah Biru
+  '917516': Pangkah Perang
+  '917517': Pangkah Hijau
+  '917518': Pangkah Merah
+  '917519': Pangkah Hitam
+  '983040': Silang Putih
+  '983041': Silang Jingga
+  '983042': Silang Magenta
+  '983043': Silang Biru Muda
+  '983044': Silang Kuning
+  '983045': Silang Hijau Muda
+  '983046': Silang Merah Jambu
+  '983047': Silang Kelabu
+  '983048': Silang Kelabu Muda
+  '983049': Silang Sian
+  '983050': Silang Ungu
+  '983051': Silang Biru
+  '983052': Silang Perang
+  '983053': Silang Hijau
+  '983054': Silang Merah
+  '983055': Silang Hitam
+  '1114112': Sevron Terbalik Putih
+  '1114113': Sevron Terbalik Jingga
+  '1114114': Sevron Terbalik Magenta
+  '1114115': Sevron Terbalik Biru Muda
+  '1114116': Sevron Terbalik Kuning
+  '1114117': Sevron Terbalik Hijau Muda
+  '1114118': Sevron Terbalik Merah Jambu
+  '1114119': Sevron Terbalik Kelabu
+  '1114120': Sevron Terbalik Kelabu Muda
+  '1114121': Sevron Terbalik Sian
+  '1114122': Sevron Terbalik Ungu
+  '1114123': Sevron Terbalik Biru
+  '1114124': Sevron Terbalik Perang
+  '1114125': Sevron Terbalik Hijau
+  '1114126': Sevron Terbalik Merah
+  '1114127': Sevron Terbalik Hitam
+  '1245184': Atas Bergerigi Putih
+  '1245185': Atas Bergerigi Jingga
+  '1245186': Atas Bergerigi Magenta
+  '1245187': Atas Bergerigi Biru Muda
+  '1245188': Atas Bergerigi Kuning
+  '1245189': Atas Bergerigi Hijau Muda
+  '1245190': Atas Bergerigi Merah Jambu
+  '1245191': Atas Bergerigi Kelabu
+  '1245192': Atas Bergerigi Kelabu Muda
+  '1245193': Atas Bergerigi Sian
+  '1245194': Atas Bergerigi Ungu
+  '1245195': Atas Bergerigi Biru
+  '1245196': Atas Bergerigi Perang
+  '1245197': Atas Bergerigi Hijau
+  '1245198': Atas Bergerigi Merah
+  '1245199': Atas Bergerigi Hitam
+  '1310720': Separuh Kiri Atas Putih
+  '1310721': Separuh Kiri Atas Jingga
+  '1310722': Separuh Kiri Atas Magenta
+  '1310723': Separuh Kiri Atas Biru Muda
+  '1310724': Separuh Kiri Atas Kuning
+  '1310725': Separuh Kiri Atas Hijau Muda
+  '1310726': Separuh Kiri Atas Merah Jambu
+  '1310727': Separuh Kiri Atas Kelabu
+  '1310728': Separuh Kiri Atas Kelabu Muda
+  '1310729': Separuh Kiri Atas Sian
+  '1310730': Separuh Kiri Atas Ungu
+  '1310731': Separuh Kiri Atas Biru
+  '1310732': Separuh Kiri Atas Perang
+  '1310733': Separuh Kiri Atas Hijau
+  '1310734': Separuh Kiri Atas Merah
+  '1310735': Separuh Kiri Atas Hitam
+  '1376256': Separuh Kanan Bawah Putih
+  '1376257': Separuh Kanan Bawah Jingga
+  '1376258': Separuh Kanan Bawah Magenta
+  '1376259': Separuh Kanan Bawah Biru Muda
+  '1376260': Separuh Kanan Bawah Kuning
+  '1376261': Separuh Kanan Bawah Hijau Muda
+  '1376262': Separuh Kanan Bawah Merah Jambu
+  '1376263': Separuh Kanan Bawah Kelabu
+  '1376264': Separuh Kanan Bawah Kelabu Muda
+  '1376265': Separuh Kanan Bawah Sian
+  '1376266': Separuh Kanan Bawah Ungu
+  '1376267': Separuh Kanan Bawah Biru
+  '1376268': Separuh Kanan Bawah Perang
+  '1376269': Separuh Kanan Bawah Hijau
+  '1376270': Separuh Kanan Bawah Merah
+  '1376271': Separuh Kanan Bawah Hitam
+  '1441792': Separuh Kiri Bawah Putih
+  '1441793': Separuh Kiri Bawah Jingga
+  '1441794': Separuh Kiri Bawah Magenta
+  '1441795': Separuh Kiri Bawah Biru Muda
+  '1441796': Separuh Kiri Bawah Kuning
+  '1441797': Separuh Kiri Bawah Hijau Muda
+  '1441798': Separuh Kiri Bawah Merah Jambu
+  '1441799': Separuh Kiri Bawah Kelabu
+  '1441800': Separuh Kiri Bawah Kelabu Muda
+  '1441801': Separuh Kiri Bawah Sian
+  '1441802': Separuh Kiri Bawah Ungu
+  '1441803': Separuh Kiri Bawah Biru
+  '1441804': Separuh Kiri Bawah Perang
+  '1441805': Separuh Kiri Bawah Hijau
+  '1441806': Separuh Kiri Bawah Merah
+  '1441807': Separuh Kiri Bawah Hitam
+  '1507328': Separuh Kanan Atas Putih
+  '1507329': Separuh Kanan Atas Jingga
+  '1507330': Separuh Kanan Atas Magenta
+  '1507331': Separuh Kanan Atas Biru Muda
+  '1507332': Separuh Kanan Atas Kuning
+  '1507333': Separuh Kanan Atas Hijau Muda
+  '1507334': Separuh Kanan Atas Merah Jambu
+  '1507335': Separuh Kanan Atas Kelabu
+  '1507336': Separuh Kanan Atas Kelabu Muda
+  '1507337': Separuh Kanan Atas Sian
+  '1507338': Separuh Kanan Atas Ungu
+  '1507339': Separuh Kanan Atas Biru
+  '1507340': Separuh Kanan Atas Perang
+  '1507341': Separuh Kanan Atas Hijau
+  '1507342': Separuh Kanan Atas Merah
+  '1507343': Separuh Kanan Atas Hitam
+  '1703936': Separuh Kiri Putih
+  '1703937': Separuh Kiri Jingga
+  '1703938': Separuh Kiri Magenta
+  '1703939': Separuh Kiri Biru Muda
+  '1703940': Separuh Kiri Kuning
+  '1703941': Separuh Kiri Hijau Muda
+  '1703942': Separuh Kiri Merah Jambu
+  '1703943': Separuh Kiri Kelabu
+  '1703944': Separuh Kiri Kelabu Muda
+  '1703945': Separuh Kiri Sian
+  '1703946': Separuh Kiri Ungu
+  '1703947': Separuh Kiri Biru
+  '1703948': Separuh Kiri Perang
+  '1703949': Separuh Kiri Hijau
+  '1703950': Separuh Kiri Merah
+  '1703951': Separuh Kiri Hitam
+  '1769472': Separuh Atas Putih
+  '1769473': Separuh Atas Jingga
+  '1769474': Separuh Atas Magenta
+  '1769475': Separuh Atas Biru Muda
+  '1769476': Separuh Atas Kuning
+  '1769477': Separuh Atas Hijau Muda
+  '1769478': Separuh Atas Merah Jambu
+  '1769479': Separuh Atas Kelabu
+  '1769480': Separuh Atas Kelabu Muda
+  '1769481': Separuh Atas Sian
+  '1769482': Separuh Atas Ungu
+  '1769483': Separuh Atas Biru
+  '1769484': Separuh Atas Perang
+  '1769485': Separuh Atas Hijau
+  '1769486': Separuh Atas Merah
+  '1769487': Separuh Atas Hitam
+  '1835008': Separuh Kanan Putih
+  '1835009': Separuh Kanan Jingga
+  '1835010': Separuh Kanan Magenta
+  '1835011': Separuh Kanan Biru Muda
+  '1835012': Separuh Kanan Kuning
+  '1835013': Separuh Kanan Hijau Muda
+  '1835014': Separuh Kanan Merah Jambu
+  '1835015': Separuh Kanan Kelabu
+  '1835016': Separuh Kanan Kelabu Muda
+  '1835017': Separuh Kanan Sian
+  '1835018': Separuh Kanan Ungu
+  '1835019': Separuh Kanan Biru
+  '1835020': Separuh Kanan Perang
+  '1835021': Separuh Kanan Hijau
+  '1835022': Separuh Kanan Merah
+  '1835023': Separuh Kanan Hitam
+  '1900544': Separuh Bawah Putih
+  '1900545': Separuh Bawah Jingga
+  '1900546': Separuh Bawah Magenta
+  '1900547': Separuh Bawah Biru Muda
+  '1900548': Separuh Bawah Kuning
+  '1900549': Separuh Bawah Hijau Muda
+  '1900550': Separuh Bawah Merah Jambu
+  '1900551': Separuh Bawah Kelabu
+  '1900552': Separuh Bawah Kelabu Muda
+  '1900553': Separuh Bawah Sian
+  '1900554': Separuh Bawah Ungu
+  '1900555': Separuh Bawah Biru
+  '1900556': Separuh Bawah Perang
+  '1900557': Separuh Bawah Hijau
+  '1900558': Separuh Bawah Merah
+  '1900559': Separuh Bawah Hitam
+  '1966080': Sempadan Putih
+  '1966081': Sempadan Jingga
+  '1966082': Sempadan Magenta
+  '1966083': Sempadan Biru Muda
+  '1966084': Sempadan Kuning
+  '1966085': Sempadan Hijau Muda
+  '1966086': Sempadan Merah Jambu
+  '1966087': Sempadan Kelabu
+  '1966088': Sempadan Kelabu Muda
+  '1966089': Sempadan Sian
+  '1966090': Sempadan Ungu
+  '1966091': Sempadan Biru
+  '1966092': Sempadan Perang
+  '1966093': Sempadan Hijau
+  '1966094': Sempadan Merah
+  '1966095': Sempadan Hitam
+  '2031616': Sempadan Bergerigi Putih
+  '2031617': Sempadan Bergerigi Jingga
+  '2031618': Sempadan Bergerigi Magenta
+  '2031619': Sempadan Bergerigi Biru Muda
+  '2031620': Sempadan Bergerigi Kuning
+  '2031621': Sempadan Bergerigi Hijau Muda
+  '2031622': Sempadan Bergerigi Merah Jambu
+  '2031623': Sempadan Bergerigi Kelabu
+  '2031624': Sempadan Bergerigi Kelabu Muda
+  '2031625': Sempadan Bergerigi Sian
+  '2031626': Sempadan Bergerigi Ungu
+  '2031627': Sempadan Bergerigi Biru
+  '2031628': Sempadan Bergerigi Perang
+  '2031629': Sempadan Bergerigi Hijau
+  '2031630': Sempadan Bergerigi Merah
+  '2031631': Sempadan Bergerigi Hitam
+  '2097152': Isian Creeper Putih
+  '2097153': Isian Creeper Jingga
+  '2097154': Isian Creeper Magenta
+  '2097155': Isian Creeper Biru Muda
+  '2097156': Isian Creeper Kuning
+  '2097157': Isian Creeper Hijau Muda
+  '2097158': Isian Creeper Merah Jambu
+  '2097159': Isian Creeper Kelabu
+  '2097160': Isian Creeper Kelabu Muda
+  '2097161': Isian Creeper Sian
+  '2097162': Isian Creeper Ungu
+  '2097163': Isian Creeper Biru
+  '2097164': Isian Creeper Perang
+  '2097165': Isian Creeper Hijau
+  '2097166': Isian Creeper Merah
+  '2097167': Isian Creeper Hitam
+  '2293760': Corak Bata Lapangan Putih
+  '2293761': Corak Bata Lapangan Jingga
+  '2293762': Corak Bata Lapangan Magenta
+  '2293763': Corak Bata Lapangan Biru Muda
+  '2293764': Corak Bata Lapangan Kuning
+  '2293765': Corak Bata Lapangan Hijau Muda
+  '2293766': Corak Bata Lapangan Merah Jambu
+  '2293767': Corak Bata Lapangan Kelabu
+  '2293768': Corak Bata Lapangan Kelabu Muda
+  '2293769': Corak Bata Lapangan Sian
+  '2293770': Corak Bata Lapangan Ungu
+  '2293771': Corak Bata Lapangan Biru
+  '2293772': Corak Bata Lapangan Perang
+  '2293773': Corak Bata Lapangan Hijau
+  '2293774': Corak Bata Lapangan Merah
+  '2293775': Corak Bata Lapangan Hitam
+  '2359296': Isian Tengkorak Putih
+  '2359297': Isian Tengkorak Jingga
+  '2359298': Isian Tengkorak Magenta
+  '2359299': Isian Tengkorak Biru Muda
+  '2359300': Isian Tengkorak Kuning
+  '2359301': Isian Tengkorak Hijau Muda
+  '2359302': Isian Tengkorak Merah Jambu
+  '2359303': Isian Tengkorak Kelabu
+  '2359304': Isian Tengkorak Kelabu Muda
+  '2359305': Isian Tengkorak Sian
+  '2359306': Isian Tengkorak Ungu
+  '2359307': Isian Tengkorak Biru
+  '2359308': Isian Tengkorak Perang
+  '2359309': Isian Tengkorak Hijau
+  '2359310': Isian Tengkorak Merah
+  '2359311': Isian Tengkorak Hitam
+  '2424832': Isian Bunga Putih
+  '2424833': Isian Bunga Jingga
+  '2424834': Isian Bunga Magenta
+  '2424835': Isian Bunga Biru Muda
+  '2424836': Isian Bunga Kuning
+  '2424837': Isian Bunga Hijau Muda
+  '2424838': Isian Bunga Merah Jambu
+  '2424839': Isian Bunga Kelabu
+  '2424840': Isian Bunga Kelabu Muda
+  '2424841': Isian Bunga Sian
+  '2424842': Isian Bunga Ungu
+  '2424843': Isian Bunga Biru
+  '2424844': Isian Bunga Perang
+  '2424845': Isian Bunga Hijau
+  '2424846': Isian Bunga Merah
+  '2424847': Isian Bunga Hitam
+new_banner_pattern:
+  creeper_banner_pattern: Isian Creeper
+  flower_banner_pattern: Isian Bunga
+  skull_banner_pattern: Isian Tengkorak

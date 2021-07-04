@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:49                    #
+# Build time: 2021-07-04 21:46:04                    #
 # ####################################################
 language:
   code: ro_ro
@@ -14,10 +14,17 @@ material:
   polished_diorite: Diorit șlefuit
   andesite: Andezit
   polished_andesite: Andezit șlefuit
+  deepslate: Deepslate
+  cobbled_deepslate: Deepslate împietrit
+  polished_deepslate: Deepslate șlefuit
+  calcite: Calcit
+  tuff: Tuf
+  dripstone_block: Speleotemă
   grass_block: Bloc de iarbă
   dirt: Pământ
   coarse_dirt: Pământ pietros
   podzol: Podzol
+  rooted_dirt: Pământ cu rădăcini
   crimson_nylium: Niliu stacojiu
   warped_nylium: Niliu deformat
   cobblestone: Pietruială
@@ -39,10 +46,67 @@ material:
   sand: Nisip
   red_sand: Nisip roșu
   gravel: Pietriș
-  gold_ore: Minereu de aur
-  iron_ore: Minereu de fier
   coal_ore: Minereu de cărbune
+  deepslate_coal_ore: Minereu de cărbune Deepslate
+  iron_ore: Minereu de fier
+  deepslate_iron_ore: Minereu de fier deepslate
+  copper_ore: Minereu de cupru
+  deepslate_copper_ore: Minereu de cupru adânc
+  gold_ore: Minereu de aur
+  deepslate_gold_ore: Minereu de aur deepslate
+  redstone_ore: Minereu de redstone
+  deepslate_redstone_ore: Minereu de redstone deepslate
+  emerald_ore: Minereu de smarald
+  deepslate_emerald_ore: Minereu de smarald Deepslate
+  lapis_ore: Minereu de lapislazuli
+  deepslate_lapis_ore: Minereu de Lapis Lazuli deepslate
+  diamond_ore: Minereu de diamant
+  deepslate_diamond_ore: Minereu de diamant deepslate
   nether_gold_ore: Minereu de aur din Nether
+  nether_quartz_ore: Minereu de cuarț de Nether
+  ancient_debris: Relicvă antică
+  coal_block: Bloc de cărbune
+  raw_iron_block: Bloc de fier brut
+  raw_copper_block: Bloc de cupru brut
+  raw_gold_block: Bloc de aur brut
+  amethyst_block: Bloc de ametist
+  budding_amethyst: Ametist înmugurit
+  iron_block: Bloc de fier
+  copper_block: Bloc de cupru
+  gold_block: Bloc de aur
+  diamond_block: Bloc de diamant
+  netherite_block: Bloc de netherit
+  exposed_copper: Cupru expus
+  weathered_copper: Cupru erodat
+  oxidized_copper: Cupru oxidat
+  cut_copper: Bloc de cupru tăiat
+  exposed_cut_copper: Cupru tăiat expus
+  weathered_cut_copper: Bloc de cupru tăiat erodat
+  oxidized_cut_copper: Cupru tăiat oxidat
+  cut_copper_stairs: Trepte de cupru tăiate
+  exposed_cut_copper_stairs: Scări de cupru tăiate expuse
+  weathered_cut_copper_stairs: Scări de cupru tăiate erodate
+  oxidized_cut_copper_stairs: Trepte de cupru tăiate oxidate
+  cut_copper_slab: Lespede de cupru tăiată
+  exposed_cut_copper_slab: Lespede de cupru tăiată expusă
+  weathered_cut_copper_slab: Placă de cupru tăiat oxidat
+  oxidized_cut_copper_slab: Lespede de cupru tăiată oxidată
+  waxed_copper_block: Bloc de cupru ceruit
+  waxed_exposed_copper: Cupru ceruit expus
+  waxed_weathered_copper: Cupru ceruit erodat
+  waxed_oxidized_copper: Cupru ceruit oxidat
+  waxed_cut_copper: Cupru tăiat ceruit
+  waxed_exposed_cut_copper: Cupru tăiat ceruit expus
+  waxed_weathered_cut_copper: Cupru tăiat ceruit erodat
+  waxed_oxidized_cut_copper: Cupru tăiat oxidat ceruit
+  waxed_cut_copper_stairs: Scări de cupru tăiate ceruite
+  waxed_exposed_cut_copper_stairs: Scări de cupru tăiate ceruite expuse
+  waxed_weathered_cut_copper_stairs: Scări de cupru tăiate ceruite erodate
+  waxed_oxidized_cut_copper_stairs: Trepte de cupru tăiat oxidat ceruit
+  waxed_cut_copper_slab: Lespede de cupru tăiată ceruită
+  waxed_exposed_cut_copper_slab: Lespede de cupru tăiată ceruită expusă
+  waxed_weathered_cut_copper_slab: Lespede de cupru tăiată ceruită erodată
+  waxed_oxidized_cut_copper_slab: Lespede de cupru tăiat oxidat ceruit
   oak_log: Buștean de stejar
   spruce_log: Buștean de molid
   birch_log: Buștean de mesteacăn
@@ -81,26 +145,24 @@ material:
   jungle_leaves: Frunze de junglă
   acacia_leaves: Frunze de salcâm
   dark_oak_leaves: Frunze de stejar negru
+  azalea_leaves: Frunze de azalee
+  flowering_azalea_leaves: Frunze de Azalee înflorită
   sponge: Burete
   wet_sponge: Burete ud
   glass: Sticlă
-  lapis_ore: Minereu de lapislazuli
-  lapis_block: Bloc de lapislazuli
-  dispenser: Distribuitor
+  tinted_glass: Sticlă fumurie
+  lapis_block: Bloc de Lapis Lazuli
   sandstone: Gresie
   chiseled_sandstone: Gresie sculptată
   cut_sandstone: Gresie tăiată
-  note_block: Bloc muzical
-  powered_rail: Șine propulsoare
-  detector_rail: Șine detectoare
-  sticky_piston: Piston lipicios
   cobweb: Pânză de păianjen
   grass: Iarbă
   fern: Ferigă
+  azalea: Azalee
+  flowering_azalea: Azalee înflorită
   dead_bush: Tufă uscată
   seagrass: Iarbă de mare
   sea_pickle: Pirozom
-  piston: Piston
   white_wool: Lână albă
   orange_wool: Lână portocalie
   magenta_wool: Lână magenta
@@ -130,6 +192,7 @@ material:
   cornflower: Albăstrea
   lily_of_the_valley: Lăcrămioară
   wither_rose: Trandafirul Witherului
+  spore_blossom: Floare de spor
   brown_mushroom: Ciupercă maro
   red_mushroom: Ciupercă roșie
   crimson_fungus: Ciupercă stacojie
@@ -141,9 +204,12 @@ material:
   twisting_vines: Liane răsucite
   sugar_cane: Trestie de zahăr
   kelp: Algă
+  moss_carpet: Covor de mușchi
+  moss_block: Bloc de mușchi
+  hanging_roots: Rădăcini suspendate
+  big_dripleaf: Frunză picurătoare mare
+  small_dripleaf: Frunză picurătoare mică
   bamboo: Bambus
-  gold_block: Bloc de aur
-  iron_block: Bloc de fier
   oak_slab: Lespede de stejar
   spruce_slab: Lespede de molid
   birch_slab: Lespede de mesteacăn
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: Gresie netedă
   smooth_stone: Piatră netedă
   bricks: Cărămizi
-  tnt: TNT
   bookshelf: Bibliotecă
   mossy_cobblestone: Pietruială cu mușchi
   obsidian: Obsidian
@@ -187,27 +252,11 @@ material:
   spawner: Spawner
   oak_stairs: Trepte de stejar
   chest: Cufăr
-  diamond_ore: Minereu de diamant
-  diamond_block: Bloc de diamant
   crafting_table: Masă de lucru
   farmland: Teren agricol
   furnace: Cuptor
   ladder: Scară
-  rail: Șine
   cobblestone_stairs: Trepte de pietruială
-  lever: Manetă
-  stone_pressure_plate: Placă de presiune de piatră
-  oak_pressure_plate: Placă de presiune de stejar
-  spruce_pressure_plate: Placă de presiune de molid
-  birch_pressure_plate: Placă de presiune de mesteacăn
-  jungle_pressure_plate: Placă de presiune de junglă
-  acacia_pressure_plate: Placă de presiune de salcâm
-  dark_oak_pressure_plate: Placă de presiune de stejar negru
-  crimson_pressure_plate: Placă de presiune stacojie
-  warped_pressure_plate: Placă de presiune deformată
-  polished_blackstone_pressure_plate: Placă de presiune de piatră neagră șlefuită
-  redstone_ore: Minereu de redstone
-  redstone_torch: Torță de redstone
   snow: Zăpadă
   ice: Gheață
   snow_block: Bloc de zăpadă
@@ -224,32 +273,31 @@ material:
   warped_fence: Gard deformat
   pumpkin: Dovleac
   carved_pumpkin: Dovleac sculptat
+  jack_o_lantern: Dovleac de Halloween
   netherrack: Netherrack
   soul_sand: Nisip de suflete
   soul_soil: Sol de suflete
   basalt: Bazalt
   polished_basalt: Bazalt șlefuit
+  smooth_basalt: Bazalt neted
   soul_torch: Torță de suflete
   glowstone: Piatră strălucitoare
-  jack_o_lantern: Dovleac de Halloween
-  oak_trapdoor: Trapă de stejar
-  spruce_trapdoor: Trapă de molid
-  birch_trapdoor: Trapă de mesteacăn
-  jungle_trapdoor: Trapă de junglă
-  acacia_trapdoor: Trapă de salcâm
-  dark_oak_trapdoor: Trapă de stejar negru
-  crimson_trapdoor: Trapă stacojie
-  warped_trapdoor: Trapă deformată
   infested_stone: Piatră infestată
   infested_cobblestone: Pietruială infestată
   infested_stone_bricks: Cărămizi de piatră infestate
   infested_mossy_stone_bricks: Cărămizi de piatră cu mușchi infestate
   infested_cracked_stone_bricks: Cărămizi de piatră crăpate infestate
   infested_chiseled_stone_bricks: Cărămizi de piatră sculptată infestate
+  infested_deepslate: Deepslate infestat
   stone_bricks: Cărămizi de piatră
   mossy_stone_bricks: Cărămizi de piatră cu mușchi
   cracked_stone_bricks: Cărămizi de piatră crăpate
   chiseled_stone_bricks: Cărămizi de piatră sculptate
+  deepslate_bricks: Cărămizi de Deepslate
+  cracked_deepslate_bricks: Cărămizi de Deepslate crăpate
+  deepslate_tiles: Gresie de Deepslate
+  cracked_deepslate_tiles: Plăci de Deepslate crăpate
+  chiseled_deepslate: Deepslate cioplit
   brown_mushroom_block: Bloc de ciupercă maro
   red_mushroom_block: Bloc de ciupercă roșie
   mushroom_stem: Picior de ciupercă
@@ -258,14 +306,7 @@ material:
   glass_pane: Geam
   melon: Pepene
   vine: Liane
-  oak_fence_gate: Portiță de stejar
-  spruce_fence_gate: Portiță de molid
-  birch_fence_gate: Portiță de mesteacăn
-  jungle_fence_gate: Portiță de junglă
-  acacia_fence_gate: Portiță de salcâm
-  dark_oak_fence_gate: Portiță de stejar negru
-  crimson_fence_gate: Portiță stacojie
-  warped_fence_gate: Portiță deformată
+  glow_lichen: Lichen luminos
   brick_stairs: Trepte de cărămizi
   stone_brick_stairs: Trepte de cărămizi de piatră
   mycelium: Miceliu
@@ -280,11 +321,8 @@ material:
   end_stone: Piatră din End
   end_stone_bricks: Cărămizi de piatră din End
   dragon_egg: Ou de dragon
-  redstone_lamp: Lampă de redstone
   sandstone_stairs: Trepte de gresie
-  emerald_ore: Minereu de smarald
   ender_chest: Cufăr de Ender
-  tripwire_hook: Cârlig pentru fir
   emerald_block: Bloc de smarald
   spruce_stairs: Trepte de molid
   birch_stairs: Trepte de mesteacăn
@@ -310,33 +348,18 @@ material:
   blackstone_wall: Zid de piatră neagră
   polished_blackstone_wall: Zid de piatră neagră șlefuită
   polished_blackstone_brick_wall: Zid de cărămizi de piatră neagră șlefuită
-  stone_button: Buton de piatră
-  oak_button: Buton de stejar
-  spruce_button: Buton de molid
-  birch_button: Buton de mesteacăn
-  jungle_button: Buton de junglă
-  acacia_button: Buton de salcâm
-  dark_oak_button: Buton de stejar negru
-  crimson_button: Buton stacojiu
-  warped_button: Buton deformat
-  polished_blackstone_button: Buton de piatră neagră șlefuită
+  cobbled_deepslate_wall: Zid de Deepslate împietrit
+  polished_deepslate_wall: Zid de Deepslate șlefuit
+  deepslate_brick_wall: Zid de cărămizi de Deepslate
+  deepslate_tile_wall: Zid de gresie de Deepslate
   anvil: Nicovală
   chipped_anvil: Nicovală lovită
   damaged_anvil: Nicovală stricată
-  trapped_chest: Cufăr-capcană
-  light_weighted_pressure_plate: Placă de presiune ponderată ușoară
-  heavy_weighted_pressure_plate: Placă de presiune ponderată grea
-  daylight_detector: Detector solar
-  redstone_block: Bloc de redstone
-  nether_quartz_ore: Minereu de cuarț de Nether
-  hopper: Pâlnie
   chiseled_quartz_block: Bloc de cuarț sculptat
   quartz_block: Bloc de cuarț
   quartz_bricks: Cărămizi de cuarț
   quartz_pillar: Coloană de cuarț
   quartz_stairs: Trepte de cuarț
-  activator_rail: Șine activatoare
-  dropper: Aruncător
   white_terracotta: Teracotă albă
   orange_terracotta: Teracotă portocalie
   magenta_terracotta: Teracotă magenta
@@ -354,7 +377,7 @@ material:
   red_terracotta: Teracotă roșie
   black_terracotta: Teracotă neagră
   barrier: Barieră
-  iron_trapdoor: Trapă de fier
+  light: Lumină
   hay_block: Balot de paie
   white_carpet: Covor alb
   orange_carpet: Covor portocaliu
@@ -373,12 +396,10 @@ material:
   red_carpet: Covor roșu
   black_carpet: Covor negru
   terracotta: Teracotă
-  coal_block: Bloc de cărbune
   packed_ice: Gheață compactă
   acacia_stairs: Trepte de salcâm
   dark_oak_stairs: Trepte de stejar negru
-  slime_block: Bloc de mâzgă
-  grass_path: Cărare de iarbă
+  dirt_path: Potecă de pământ
   sunflower: Floarea-soarelui
   lilac: Liliac
   rose_bush: Tufă de trandafiri
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: Cărămizi de Nether roșii
   bone_block: Bloc de oase
   structure_void: Vid de structură
-  observer: Observator
   shulker_box: Cutie de shulker
   white_shulker_box: Cutie de shulker albă
   orange_shulker_box: Cutie de shulker portocalie
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: Trepte de cărămizi de Nether roșii
   polished_andesite_stairs: Trepte de andezit șlefuit
   diorite_stairs: Trepte de diorit
+  cobbled_deepslate_stairs: Trepte de Deepslate împietrit
+  polished_deepslate_stairs: Trepte de Deepslate șlefuit
+  deepslate_brick_stairs: Trepte de cărămizi de Deepslate
+  deepslate_tile_stairs: Trepte de gresie de Deepslate
   polished_granite_slab: Lespede de granit șlefuit
   smooth_red_sandstone_slab: Lespede de gresie roșie netedă
   mossy_stone_brick_slab: Lespede de cărămizi de piatră cu mușchi
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: Lespede de cărămizi de Nether roșii
   polished_andesite_slab: Lespede de andezit șlefuit
   diorite_slab: Lespede de diorit
+  cobbled_deepslate_slab: Lespede de Deepslate împietrit
+  polished_deepslate_slab: Lespede de Deepslate șlefuită
+  deepslate_brick_slab: Lespede de cărămizi Deepslate
+  deepslate_tile_slab: Lespede de gresie de Deepslate
   scaffolding: Schelă
+  redstone: Praf de redstone
+  redstone_torch: Torță de redstone
+  redstone_block: Bloc de redstone
+  repeater: Repetor de redstone
+  comparator: Comparator de redstone
+  piston: Piston
+  sticky_piston: Piston lipicios
+  slime_block: Bloc de mâzgă
+  honey_block: Bloc de miere
+  observer: Observator
+  hopper: Pâlnie
+  dispenser: Distribuitor
+  dropper: Aruncător
+  lectern: Pupitru
+  target: Țintă
+  lever: Manetă
+  lightning_rod: Paratrăsnet
+  daylight_detector: Detector solar
+  sculk_sensor: Senzor Sculk
+  tripwire_hook: Cârlig pentru fir
+  trapped_chest: Cufăr-capcană
+  tnt: TNT
+  redstone_lamp: Lampă de redstone
+  note_block: Bloc muzical
+  stone_button: Buton de piatră
+  polished_blackstone_button: Buton de piatră neagră șlefuită
+  oak_button: Buton de stejar
+  spruce_button: Buton de molid
+  birch_button: Buton de mesteacăn
+  jungle_button: Buton de junglă
+  acacia_button: Buton de salcâm
+  dark_oak_button: Buton de stejar negru
+  crimson_button: Buton stacojiu
+  warped_button: Buton deformat
+  stone_pressure_plate: Placă de presiune de piatră
+  polished_blackstone_pressure_plate: Placă de presiune de piatră neagră șlefuită
+  light_weighted_pressure_plate: Placă de presiune ponderată ușoară
+  heavy_weighted_pressure_plate: Placă de presiune ponderată grea
+  oak_pressure_plate: Placă de presiune de stejar
+  spruce_pressure_plate: Placă de presiune de molid
+  birch_pressure_plate: Placă de presiune de mesteacăn
+  jungle_pressure_plate: Placă de presiune de junglă
+  acacia_pressure_plate: Placă de presiune de salcâm
+  dark_oak_pressure_plate: Placă de presiune de stejar negru
+  crimson_pressure_plate: Placă de presiune stacojie
+  warped_pressure_plate: Placă de presiune deformată
   iron_door: Ușă de fier
   oak_door: Ușă de stejar
   spruce_door: Ușă de molid
@@ -572,8 +646,42 @@ material:
   dark_oak_door: Ușă de stejar negru
   crimson_door: Ușă stacojie
   warped_door: Ușă deformată
-  repeater: Repetor de redstone
-  comparator: Comparator de redstone
+  iron_trapdoor: Trapă de fier
+  oak_trapdoor: Trapă de stejar
+  spruce_trapdoor: Trapă de molid
+  birch_trapdoor: Trapă de mesteacăn
+  jungle_trapdoor: Trapă de junglă
+  acacia_trapdoor: Trapă de salcâm
+  dark_oak_trapdoor: Trapă de stejar negru
+  crimson_trapdoor: Trapă stacojie
+  warped_trapdoor: Trapă deformată
+  oak_fence_gate: Portiță de stejar
+  spruce_fence_gate: Portiță de molid
+  birch_fence_gate: Portiță de mesteacăn
+  jungle_fence_gate: Portiță de junglă
+  acacia_fence_gate: Portiță de salcâm
+  dark_oak_fence_gate: Portiță de stejar negru
+  crimson_fence_gate: Portiță stacojie
+  warped_fence_gate: Portiță deformată
+  powered_rail: Șine propulsoare
+  detector_rail: Șine detectoare
+  rail: Șine
+  activator_rail: Șine activatoare
+  saddle: Șa
+  minecart: Vagonet
+  chest_minecart: Cufăr în vagonet
+  furnace_minecart: Cuptor în vagonet
+  tnt_minecart: TNT în vagonet
+  hopper_minecart: Pâlnie în vagonet
+  carrot_on_a_stick: Morcov pe băț
+  warped_fungus_on_a_stick: Ciupercă deformată pe un băț
+  elytra: Elitre
+  oak_boat: Barcă de stejar
+  spruce_boat: Barcă de molid
+  birch_boat: Barcă de mesteacăn
+  jungle_boat: Barcă de junglă
+  acacia_boat: Barcă de salcâm
+  dark_oak_boat: Barcă de stejar negru
   structure_block: Bloc de structură
   jigsaw: Bloc de puzzle
   turtle_helmet: Carapace de țestoasă
@@ -585,7 +693,15 @@ material:
   coal: Cărbune
   charcoal: Cărbune de lemn
   diamond: Diamant
+  emerald: Smarald
+  lapis_lazuli: Lapislazuli
+  quartz: Cuarț de Nether
+  amethyst_shard: Ciob de ametist
+  raw_iron: Fier brut
   iron_ingot: Lingou de fier
+  raw_copper: Cupru brut
+  copper_ingot: Lingou de cupru
+  raw_gold: Aur brut
   gold_ingot: Lingou de aur
   netherite_ingot: Lingou de netherit
   netherite_scrap: Fragment de netherit
@@ -669,29 +785,27 @@ material:
   bucket: Găleată
   water_bucket: Găleată cu apă
   lava_bucket: Găleată cu lavă
-  minecart: Vagonet
-  saddle: Șa
-  redstone: Praf de redstone
+  powder_snow_bucket: Găleată cu zăpadă pulbere
   snowball: Bulgăre de zăpadă
-  oak_boat: Barcă de stejar
   leather: Piele
   milk_bucket: Găleată cu lapte
   pufferfish_bucket: Găleată cu pește-balon
   salmon_bucket: Găleată cu somon
   cod_bucket: Găleată cu cod
   tropical_fish_bucket: Găleată cu pește tropical
+  axolotl_bucket: Găleată cu Axolotl
   brick: Cărămidă
   clay_ball: Bulgăre de lut
   dried_kelp_block: Bloc de alge uscate
   paper: Hârtie
   book: Carte
   slime_ball: Bulgăre de mâzgă
-  chest_minecart: Cufăr în vagonet
-  furnace_minecart: Cuptor în vagonet
   egg: Ou
   compass: Busolă
+  bundle: Săculeț
   fishing_rod: Undiță
   clock: Ceas
+  spyglass: Ochean
   glowstone_dust: Praf strălucitor
   cod: Cod crud
   salmon: Somon crud
@@ -700,8 +814,8 @@ material:
   cooked_cod: Cod fript
   cooked_salmon: Somon fript
   ink_sac: Pungă de cerneală
+  glow_ink_sac: Pungă de cerneală luminoasă
   cocoa_beans: Boabe de cacao
-  lapis_lazuli: Lapislazuli
   white_dye: Colorant alb
   orange_dye: Colorant portocaliu
   magenta_dye: Colorant magenta
@@ -765,6 +879,7 @@ material:
   cauldron: Cazan
   ender_eye: Ochi de Ender
   glistering_melon_slice: Felie de pepene strălucitoare
+  axolotl_spawn_egg: Ou generator de Axolotl
   bat_spawn_egg: Ou generator de liliac
   bee_spawn_egg: Ou generator de albină
   blaze_spawn_egg: Ou generator de dogoreală
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: Ou generator de evocator
   fox_spawn_egg: Ou generator de vulpe
   ghast_spawn_egg: Ou generator de ghast
+  glow_squid_spawn_egg: Ou generator de calamar luminos
+  goat_spawn_egg: Ou generator de Capră
   guardian_spawn_egg: Ou generator de străjer
   hoglin_spawn_egg: Ou generator de hoglin
   horse_spawn_egg: Ou generator de cal
@@ -813,7 +930,7 @@ material:
   spider_spawn_egg: Ou generator de păianjen
   squid_spawn_egg: Ou generator de calmar
   stray_spawn_egg: Ou generator de hoinar
-  strider_spawn_egg: Ou generator de strider
+  strider_spawn_egg: Ou generator de umblător
   trader_llama_spawn_egg: Ou generator de lama negustorului
   tropical_fish_spawn_egg: Ou generator de pește tropical
   turtle_spawn_egg: Ou generator de țestoasă
@@ -833,8 +950,8 @@ material:
   fire_charge: Minge de foc
   writable_book: Carte și condei
   written_book: Carte scrisă
-  emerald: Smarald
   item_frame: Ramă de obiect
+  glow_item_frame: Suport de articole strălucitor
   flower_pot: Ghiveci de flori
   carrot: Morcov
   potato: Cartof
@@ -848,17 +965,12 @@ material:
   zombie_head: Cap de zombi
   creeper_head: Cap de creeper
   dragon_head: Cap de dragon
-  carrot_on_a_stick: Morcov pe băț
-  warped_fungus_on_a_stick: Ciupercă deformată pe un băț
   nether_star: Stea de Nether
   pumpkin_pie: Plăcintă cu dovleac
   firework_rocket: Artificiu
   firework_star: Stea de artificiu
   enchanted_book: Carte fermecată
   nether_brick: Cărămidă de Nether
-  quartz: Cuarț de Nether
-  tnt_minecart: TNT în vagonet
-  hopper_minecart: Pâlnie în vagonet
   prismarine_shard: Ciob de prismarin
   prismarine_crystals: Cristale de prismarin
   rabbit: Iepure crud
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: Săgeată impregnată
   lingering_potion: Poțiune persistentă
   shield: Scut
-  elytra: Elitre
-  spruce_boat: Barcă de molid
-  birch_boat: Barcă de mesteacăn
-  jungle_boat: Barcă de junglă
-  acacia_boat: Barcă de salcâm
-  dark_oak_boat: Barcă de stejar negru
   totem_of_undying: Totem al nemuririi
   shulker_shell: Carapace de shulker
   iron_nugget: Pepită de fier
@@ -948,13 +1054,13 @@ material:
   cartography_table: Masă de cartografie
   fletching_table: Masă de făcut săgeți
   grindstone: Tocilă
-  lectern: Pupitru
   smithing_table: Masă de fierărie
   stonecutter: Tăietor de piatră
   bell: Clopot
   lantern: Felinar
   soul_lantern: Felinar de suflete
   sweet_berries: Fructe de pădure dulci
+  glow_berries: Fructe luminoase
   campfire: Foc de tabără
   soul_campfire: Foc de tabără de suflete
   shroomlight: Strălucipercă
@@ -962,12 +1068,8 @@ material:
   bee_nest: Cuib de albine
   beehive: Stup de albine
   honey_bottle: Sticlă cu miere
-  honey_block: Bloc de miere
   honeycomb_block: Bloc de fagure
   lodestone: Magnetită
-  netherite_block: Bloc de netherit
-  ancient_debris: Relicvă antică
-  target: Țintă
   crying_obsidian: Obsidian plângător
   blackstone: Piatră neagră
   blackstone_slab: Lespede de piatră neagră
@@ -982,6 +1084,28 @@ material:
   polished_blackstone_brick_stairs: Trepte de cărămizi de piatră neagră șlefuită
   cracked_polished_blackstone_bricks: Cărămizi de piatră neagră șlefuită crăpate
   respawn_anchor: Ancoră de reînviere
+  candle: Lumânare
+  white_candle: Lumânare albă
+  orange_candle: Lumânare portocalie
+  magenta_candle: Lumânare magenta
+  light_blue_candle: Lumânare albastru-deschis
+  yellow_candle: Lumânare galbenă
+  lime_candle: Lumânare verde-deschis
+  pink_candle: Lumânare roz
+  gray_candle: Lumânare gri
+  light_gray_candle: Lumânare gri-deschis
+  cyan_candle: Lumânare turcoaz
+  purple_candle: Lumânare violet
+  blue_candle: Lumânare albastră
+  brown_candle: Lumânare brună
+  green_candle: Lumânare verde
+  red_candle: Lumânare roșie
+  black_candle: Lumânare neagră
+  small_amethyst_bud: Boboc mic de ametist
+  medium_amethyst_bud: Boboc mediu de ametist
+  large_amethyst_bud: Boboc mare de ametist
+  amethyst_cluster: Mănunchi de ametist
+  pointed_dripstone: Piatră picurătoare ascuțită
   water: Apă
   lava: Lavă
   tall_seagrass: Iarbă de mare înaltă
@@ -1004,6 +1128,9 @@ material:
   attached_melon_stem: Tulpină de pepene atașată
   pumpkin_stem: Tulpină de dovleac
   melon_stem: Tulpină de pepene
+  water_cauldron: Cazan cu apă
+  lava_cauldron: Cazan cu lavă
+  powder_snow_cauldron: Cazan cu zăpadă pudră
   end_portal: Portal spre End
   cocoa: Cacao
   tripwire: Fir declanșator
@@ -1083,6 +1210,30 @@ material:
   potted_warped_fungus: Ciupercă deformată în ghiveci
   potted_crimson_roots: Rădăcini stacojii în ghiveci
   potted_warped_roots: Rădăcini deformate în ghiveci
+  candle_cake: Tort cu lumânare
+  white_candle_cake: Tort cu lumânare albă
+  orange_candle_cake: Tort cu lumânare portocalie
+  magenta_candle_cake: Tort cu lumânare magenta
+  light_blue_candle_cake: Tort cu lumânare bleu
+  yellow_candle_cake: Tort cu lumânare galbenă
+  lime_candle_cake: Tort cu lumânare verde-deschis
+  pink_candle_cake: Tort cu lumânare roz
+  gray_candle_cake: Tort cu lumânare gri
+  light_gray_candle_cake: Tort cu lumânare gri-deschis
+  cyan_candle_cake: Tort cu lumânare turcoaz
+  purple_candle_cake: Tort cu lumânare violetă
+  blue_candle_cake: Tort cu lumânare albastră
+  brown_candle_cake: Tort cu lumânare maro
+  green_candle_cake: Tort cu lumânare verde
+  red_candle_cake: Tort cu lumânare roșie
+  black_candle_cake: Tort cu lumânare neagră
+  powder_snow: Zăpadă pulbere
+  cave_vines: Liane de peșteră
+  cave_vines_plant: Planta lianelor de peșteră
+  big_dripleaf_stem: Tulpină de frunză picurătoare mare
+  potted_azalea_bush: Azalee sădită in ghiveci
+  potted_flowering_azalea_bush: Azalee înflorită sădită in ghiveci
+  grass_path: Cărare de iarbă
   zombie_pigman_spawn_egg: Ou generator de om-porc zombi
   cactus_green: Verde de cactus
   dandelion_yellow: Galben de păpădie
@@ -1169,46 +1320,48 @@ biome:
   crimson_forest: Pădure stacojie
   warped_forest: Pădure deformată
   basalt_deltas: Delte de bazalt
+  dripstone_caves: Peșteri cu stalactite
+  lush_caves: Peșteri luxuriante
   nether: Nether
 enchantment:
-  fire_protection: Protecție împotriva focului
-  sharpness: Ascuțime
-  flame: Flacără
-  soul_speed: Viteza sufletului
-  aqua_affinity: Afinitate acvatică
-  punch: Lovitură
-  loyalty: Loialitate
-  depth_strider: Agilitate acvatică
-  vanishing_curse: Blestem al dispariției
-  unbreaking: Trăinicie
-  knockback: Împingere
-  luck_of_the_sea: Norocul mării
-  binding_curse: Blestem al legării
-  fortune: Avere
   protection: Protecție
-  efficiency: Eficiență
-  mending: Refacere
-  frost_walker: Mers de gheață
-  lure: Momeală
-  looting: Jefuire
-  piercing: Sfredelire
-  blast_protection: Protecție împotriva exploziilor
-  smite: Izbire
-  multishot: Multiproiectil
-  fire_aspect: Aspectul focului
-  channeling: Dirijare
-  sweeping: Lamă sfâșietoare
-  thorns: Spini
-  bane_of_arthropods: Spaima artropodelor
-  respiration: Răsuflare
-  riptide: Contracurent
-  silk_touch: Atingere de mătase
-  quick_charge: Încărcare rapidă
-  projectile_protection: Protecție împotriva proiectilelor
-  impaling: Străpungere
+  fire_protection: Protecție împotriva focului
   feather_falling: Ușor ca o pană
+  blast_protection: Protecție împotriva exploziilor
+  projectile_protection: Protecție împotriva proiectilelor
+  respiration: Răsuflare
+  aqua_affinity: Afinitate acvatică
+  thorns: Spini
+  depth_strider: Agilitate acvatică
+  frost_walker: Mers de gheață
+  binding_curse: Blestem al legării
+  sharpness: Ascuțime
+  smite: Izbire
+  bane_of_arthropods: Spaima artropodelor
+  knockback: Împingere
+  fire_aspect: Aspectul focului
+  looting: Jefuire
+  sweeping: Lamă sfâșietoare
+  efficiency: Eficiență
+  silk_touch: Atingere de mătase
+  unbreaking: Trăinicie
+  fortune: Avere
   power: Putere
+  punch: Lovitură
+  flame: Flacără
   infinity: Infinit
+  luck_of_the_sea: Norocul mării
+  lure: Momeală
+  loyalty: Loialitate
+  impaling: Străpungere
+  riptide: Contracurent
+  channeling: Dirijare
+  multishot: Multiproiectil
+  quick_charge: Încărcare rapidă
+  piercing: Sfredelire
+  mending: Refacere
+  vanishing_curse: Blestem al dispariției
+  soul_speed: Viteza sufletului
 potion:
   uncraftable: Poțiune nefabricabilă
   water: Sticluță cu apă
@@ -1403,6 +1556,11 @@ entity:
   strider: Umblător
   zoglin: Zoglin
   piglin_brute: Piglin brutal
+  axolotl: Axolotl
+  glow_item_frame: Suport de articole strălucitor
+  glow_squid: Calamar luminos
+  goat: Capră
+  marker: Marcator
   fishing_hook: Plută de pescuit
   lightning: Trăsnet
   player: Jucător
@@ -2202,17 +2360,3 @@ villager_profession:
   shepherd: Cioban
   toolsmith: Fierar de unelte
   weaponsmith: Fierar de arme
-villager_career:
-  farmer: Fermier
-  fisherman: Pescar
-  shepherd: Păstor
-  fletcher: Săgetar
-  librarian: Bibliotecar
-  cartographer: Cartograf
-  cleric: Cleric
-  armorer: Fierar de armură
-  weapon_smith: Fierar de arme
-  tool_smith: Fierar de unelte
-  butcher: Măcelar
-  leatherworker: Pielar
-  nitwit: Nătâng

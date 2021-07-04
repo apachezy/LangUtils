@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:20:01                    #
+# Build time: 2021-07-04 21:41:57                    #
 # ####################################################
 language:
   code: se_no
@@ -7,6 +7,7 @@ language:
   region: Sápmi
 material:
   acacia_sign: Akasie galba
+  acacia_wood: Acacia
   apple: Eappel
   bamboo: Bambus
   bamboo_sapling: Bambus šattos
@@ -21,6 +22,7 @@ material:
   birch_wood: Soahki
   black_banner: Čáhppat leavga
   black_bed: Čáhppes seaŋga
+  black_carpet: Čáhpes Láhtterátnu
   black_dye: Čáhppes ivdni
   black_stained_glass: Čáhppes Ivdnejuvvon Láse
   black_wall_banner: Čáhppat leavga
@@ -67,10 +69,14 @@ material:
   dark_oak_door: Čáhppeseaikauksa
   dark_oak_leaves: Cáhpeseaika Lastta
   dark_oak_wood: Čáhppeseaika
+  dead_bush: Jápman Miestta
   diamond: Diamántta
   diamond_axe: Diamántta-ákšu
+  diamond_block: Diamánttablohkka
   diamond_ore: Diamántta-málbma
+  diamond_pickaxe: Diamánttaguohkki
   diamond_shovel: Diamántta goaivu
+  diamond_sword: Diamánttamiehkki
   dispenser: Automáhtta
   fern: Gáiskešattut
   filled_map: Gárta
@@ -82,7 +88,6 @@ material:
   golden_apple: Golle Omen
   golden_shovel: Golle goaivu
   gold_block: Golle stuhka
-  gold_ore: Gollemálbma
   granite_wall: Granihtta seaidni
   grass: Rássi
   grass_block: Suoidne stuhka
@@ -97,6 +102,8 @@ material:
   green_stained_glass: Ruoná ivdnejuvvon láse
   green_wall_banner: Ruoná leavga
   green_wool: Ruoná ullu
+  gunpowder: Rukta
+  ice: ﻿Jiekŋa
   iron_block: Ruovde stuhka
   iron_boots: Ruovde Skuovat
   iron_door: Ruovde Uksa
@@ -114,6 +121,7 @@ material:
   ladder: Raidalas
   lapis_block: Lapis Lazuli Stuhka
   lapis_ore: Lapis Lazulimalbma
+  lead: Lavži
   leather_boots: Siste Gápmagat
   leather_chestplate: Siste báidi
   leather_helmet: Siste Gahpir
@@ -125,6 +133,7 @@ material:
   loom: Njuiku
   magenta_carpet: Magenta Láhtterátnu
   magenta_wool: Magenta Ullu
+  mushroom_stew: Guoppar málli
   music_disc_11: Musihkkaskearro
   music_disc_13: Musihkkaskearro
   music_disc_blocks: Musihkkaskearro
@@ -142,6 +151,7 @@ material:
   oak_leaves: Eaika Lasttat
   oak_sapling: Áika Vesá
   oak_sign: Áika galba
+  oak_wood: Eaika
   observer: Geahčča
   orange_banner: Oránša leavga
   orange_carpet: Oránša Láhtterátnu
@@ -156,7 +166,6 @@ material:
   piston: Ventiila
   polished_granite: Bussejuvvon granihtta
   potato: Buđetat
-  potted_lily_of_the_valley: Gilvojuvvon ávželieđđi
   prismarine_wall: Prismarineseaidni
   purple_banner: Sáhppat leavga
   purple_carpet: Fioleahtta Láhtterátnu
@@ -177,7 +186,7 @@ material:
   red_stained_glass: Rukses ivdnejuvvon láse
   red_wall_banner: Ruoksat leavga
   red_wool: Ruoksat ullu
-  sandstone: Sáttogeađgi
+  saddle: Sále
   sandstone_slab: Sáttogeađgivajahas
   sandstone_stairs: Sáttogeađgi Trahppa
   sandstone_wall: Sáttogeađge seaidni
@@ -250,6 +259,7 @@ entity:
   phantom: Gobmi
   trader_llama: Vuovdi llama
   wandering_trader: Mátkoštan vuovdi
+  lightning: Álttagas
   player: Speallára
 effect:
   speed: Johtilvuohta

@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:46                    #
+# Build time: 2021-07-04 21:46:01                    #
 # ####################################################
 language:
   code: ast_es
@@ -47,6 +47,7 @@ material:
   chest_minecart: Vagoneta con bagul
   chicken_spawn_egg: Güevu qu'apruz a pita
   chipped_anvil: Xunca estellada
+  chiseled_red_sandstone: Gres bermeyo cincelao
   chiseled_stone_bricks: Lladriyos de piedra cincelaos
   clay_ball: Barru santo
   coal_ore: Carbón entemecío
@@ -130,6 +131,7 @@ material:
   infested_cracked_stone_bricks: Lladriyos de piedra frañida infestaos
   infested_mossy_stone_bricks: Lladriyos de piedra mofosa infestaos
   infested_stone_bricks: Lladriyos de piedra infestaos
+  ink_sac: Fardela de tinta
   iron_axe: Bruesa de fierro
   iron_ore: Fierro entemecío
   jungle_boat: Chalana de madera de xungla
@@ -209,12 +211,25 @@ material:
   poppy: Papuela
   porkchop: Chuleta cruda de gochu
   potion: Brebax
+  potted_acacia_sapling: Biltu d'alcacia nun tiestu
+  potted_allium: Ayu bravu nun tiestu
+  potted_azure_bluet: Houstonia caerulea nun tiestu
+  potted_birch_sapling: Biltu de bidul nun tiestu
   potted_blue_orchid: Orquidea azul nun tiestu
   potted_brown_mushroom: Fungu marrón nun tiestu
+  potted_cactus: Cactus nun tiestu
+  potted_dark_oak_sapling: Biltu de carbayu escuru nun tiestu
+  potted_fern: Felechu nun tiestu
   potted_jungle_sapling: Biltu de xungla nun tiestu
+  potted_oak_sapling: Biltu de carbayu nun tiestu
+  potted_orange_tulip: Tulipán naranxa nun tiestu
   potted_oxeye_daisy: Catasol nun tiestu
+  potted_pink_tulip: Tulipán rosa nun tiestu
   potted_poppy: Papuela nun tiestu
   potted_red_mushroom: Fungu bermeyu nun tiestu
+  potted_red_tulip: Tulipán bermeyu nun tiestu
+  potted_spruce_sapling: Biltu d'abetu nun tiestu
+  potted_white_tulip: Tulipán blancu nun tiestu
   prismarine_brick_slab: Llábana de lladriyu de prismarín
   prismarine_brick_stairs: Pasales de lladriyu de prismarín
   prismarine_shard: Fragmentu de prismarín
@@ -239,14 +254,26 @@ material:
   redstone_torch: Antorcha de redstonita
   redstone_wall_torch: Antorcha de redstonita na parede
   redstone_wire: Povisa de redstonita
+  red_banner: Estandarte bermeyu
+  red_bed: Cama bermeya
+  red_carpet: Moqueta bermeya
+  red_concrete: Formigón bermeyo
   red_concrete_powder: Povisa bermeyo de formigón
+  red_glazed_terracotta: Azulexu bermeyu
   red_mushroom: Fungu bermeyu
   red_mushroom_block: Bloque de fungos bermeyos
   red_nether_bricks: Lladriyos bermeyos del Nether
+  red_sand: Sable bermeyo
+  red_sandstone: Gres bermeyo
+  red_sandstone_slab: Llábana de gres bermeyo
   red_sandstone_stairs: Pasales de gres acolorazao
   red_shulker_box: Caxa bermeya de Shulker
   red_stained_glass: Vidru acolorazao
   red_stained_glass_pane: Panel de vidru acolorazáu
+  red_terracotta: Terracota bermeyo
+  red_tulip: Tulipán bermeyu
+  red_wall_banner: Estandarte bermeyu
+  red_wool: Llana bermeyo
   repeater: Repitidor de redstonita
   salmon: Salmón crudo
   salmon_spawn_egg: Güevu qu'apruz a salmón
@@ -287,6 +314,7 @@ material:
   sugar_cane: Caña de zucre
   sunflower: Mirasol
   tall_seagrass: Yerba marino alto
+  totem_of_undying: Tótem d'imortalidá
   trapped_chest: Bagul armadiella
   tripwire: Cable armadiella
   tripwire_hook: Gabitu de cable armadiella
@@ -440,43 +468,75 @@ effect:
 dye_color:
   light_blue: Azul claru
   light_gray: Buxu claru
+  red: Bermeyu
 tropical_fish_name:
   '117506305': Amphiprioninae
   '185008129': Acanthuridae
 colored_shied:
   cyan: Escudu cian
+  red: Escudu bermeyu
 banner_pattern:
   '65545': Cuadráu baxeru a mandrecha en cian
+  '65550': Cuadráu baxeru a mandrecha en bermeyo
   '131081': Cuadráu baxeru a manzorga en cian
+  '131086': Cuadráu baxeru a manzorga en bermeyo
   '196617': Cuadráu cimeru a mandrecha en cian
+  '196622': Cuadráu cimeru a mandrecha en bermeyo
   '262153': Cuadráu cimeru a manzorga en cian
+  '262158': Cuadráu cimeru a manzorga en bermeyo
   '327689': Base cian
+  '327694': Base bermeya
   '393225': Dentáu cian
+  '393230': Dentáu bermeyu
   '458761': Faza cian a mandrecha
+  '458766': Faza bermeya a mandrecha
   '524297': Faza cian a manzorga
+  '524302': Faza bermeya a manzorga
   '589833': Faza cian central
+  '589838': Faza bermeya central
   '655369': Llinia cian central
+  '655374': Llinia bermeya central
   '720899': Llinia cruciada en azul claro
   '720905': Llinia cruciada en cian
   '720907': Llinia cruciada en azul
+  '720910': Llinia cruciada en bermeyo
   '786441': Llinia cruciada a manzorga en cian
+  '786446': Llinia cruciada a manzorga en bermeyo
   '851977': Rayáu con faces en cian
+  '851982': Rayáu con faces en bermeyo
   '917513': Nasa cian
+  '917518': Nasa bermeya
   '983049': Cruz cian
+  '983054': Cruz bermeya
   '1048585': Chebrón cian
+  '1048590': Chebrón bermeyu
+  '1114126': Chebrón bermeyu cimeru
+  '1179662': Dentáu bermeyu baxeru
+  '1245198': Dentáu bermeyu cimeru
   '1310729': Triángulu cimeru a manzorga en cian
+  '1310734': Triángulu cimeru a manzorga en bermeyo
   '1376265': Triángulu baxeru a manzorga en cian
+  '1376270': Triángulu baxeru a manzorga en bermeyo
   '1441801': Triángulu baxeru a mandrecha en cian
+  '1441806': Triángulu baxeru a mandrecha en bermeyo
   '1507337': Triángulu cimeru a mandrecha en cian
+  '1507342': Triángulu cimeru a mandrecha en bermeyo
   '1572873': Redondel cian
+  '1572878': Redondel bermeyu
   '1638409': Rombu cian
+  '1638414': Rombu bermeyu
   '1703939': Metá a manzorga en azul claro
   '1703945': Metá a manzorga en cian
+  '1703950': Metá a manzorga en bermeyo
   '1769481': Metá cimera en cian
+  '1769486': Metá cimera en bermeyo
   '1835017': Metá a mandrecha en cian
+  '1835022': Metá a mandrecha en bermeyo
   '1900553': Metá baxera en cian
+  '1900558': Metá baxera en bermeyo
   '1966089': Berbesu cian
   '1966091': Berbesu marrón
+  '1966094': Berbesu bermeyu
   '2031616': Berbesu blancu dentáu
   '2031617': Berbesu naranxa dentáu
   '2031618': Berbesu maxenta dentáu
@@ -493,9 +553,15 @@ banner_pattern:
   '2031629': Berbesu verde dentáu
   '2031630': Berbesu bermeyu dentáu
   '2031631': Berbesu prietu dentáu
+  '2097166': Dibuxu bermeyu de Creeper
   '2162697': Dilíu cian dende lo cimero
+  '2162702': Dilíu bermeyu dende lo cimero
+  '2228238': Dilíu bermeyu dende lo baxero
+  '2293774': Enlladriyao bermeyo
   '2359305': Craniu cian
+  '2359310': Craniu bermeyu
   '2424841': Flor cian
+  '2424846': Flor bermeya
   '2490368': Cosa blanca
   '2490369': Cosa naranxa
   '2490370': Cosa maxenta

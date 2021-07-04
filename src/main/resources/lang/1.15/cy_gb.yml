@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:17:22                    #
+# Build time: 2021-07-04 21:38:58                    #
 # ####################################################
 language:
   code: cy_gb
@@ -19,13 +19,14 @@ material:
   green_banner: Baner Wyrdd
   green_wall_banner: Baner Wyrdd
   guardian_spawn_egg: Wy Geni Gwarcheidwad
+  ink_sac: Sach Inc
   iron_nugget: Haearn y Graig
   nautilus_shell: Cragen Nautilus
   purple_banner: Baner Porffor
   purple_wall_banner: Baner Porffor
   silverfish_spawn_egg: Wy Geni Pysgodyn Arian
   smooth_quartz: Cwarts Llyfn
-  spruce_wall_sign: Arwydd Wal Pyrwydd
+  squid_spawn_egg: Wy Geni Sgwid
   structure_void: Gwagle Adeileddol
   suspicious_stew: Potes Ddrwgdybus
   tall_grass: Gwair Hir
@@ -46,6 +47,7 @@ entity:
   leash_hitch: Cwlwm Plwm
   silverfish: Pryfed Arian
   guardian: Gwarcheidwad
+  squid: Sgwid
   fishing_hook: Bobbwr Pysgota
 effect:
   slow_digging: Blinder Gloddio
@@ -101,3 +103,5 @@ banner_pattern:
   '917517': Salteir Gwyrdd
   '917518': Salteir Coch
   '917519': Salteir Du
+new_banner_pattern:
+  mojang_banner_pattern: Symbol

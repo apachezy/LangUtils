@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:20:01                    #
+# Build time: 2021-07-04 21:41:58                    #
 # ####################################################
 language:
   code: val_es
@@ -9,6 +9,7 @@ material:
   chiseled_red_sandstone: Roca sorrenca roja cisellada
   chiseled_sandstone: Roca sorrenca cisellada
   clay_ball: Argila
+  cod_bucket: Poal amb abadejos
   comparator: Comparador de coure roig
   creeper_banner_pattern: Estandard de Creeper
   creeper_head: Cap de Creeper
@@ -28,7 +29,8 @@ material:
   end_stone: Roca del Regne de la Fi
   ghast_spawn_egg: Generar medusa de l'Infern
   ghast_tear: Llàgrima de medusa de l'Infern
-  gray_carpet: Estora crisa
+  lava_bucket: Poal de lava
+  milk_bucket: Poal de llet
   netherrack: Roca de l'Infern
   nether_brick: Rajola de l'Infern
   nether_bricks: Rajoles de l'Infern
@@ -40,6 +42,8 @@ material:
   nether_star: Estrela de l'Infern
   nether_wart: Bolet de l'Infern
   nether_wart_block: Bloc de bolet de l'infern
+  polar_bear_spawn_egg: Generar ós polar
+  pufferfish_bucket: Poal amb peixos globus
   redstone: Pols de coure roig
   redstone_block: Bloc de coure roig
   redstone_lamp: Làmpada de coure roig
@@ -56,6 +60,7 @@ material:
   red_sandstone_stairs: Escales de roca sorrenca roja
   red_sandstone_wall: Mur de roca sorrenca roja
   repeater: Repetidor de coure roig
+  salmon_bucket: Poal amb salmons
   sand: Sorra
   sandstone: Roca sorrenca
   sandstone_slab: Llosa de roca sorrenca
@@ -71,10 +76,21 @@ material:
   soul_sand: Sorra d'ànimes
   sweet_berries: Baies dolces
   sweet_berry_bush: Arbust de baies dolces
+  tropical_fish_bucket: Poal amb peixos tropicals
+  water_bucket: Poal d'aigua
   wither_skeleton_skull: Calavera de l'Infern
+  wither_skeleton_spawn_egg: Generar esquelet de l'Infern
   wither_skeleton_wall_skull: Calavera de l'Infern de paret
+enchantment:
+  aqua_affinity: Rapidesa minera baix de l'aigua
+  depth_strider: Rapidesa en l'aigua
+  knockback: Espenta
+  efficiency: Rendiment
+  multishot: Multi-tir
+  silk_touch: Toc suau
+  impaling: Empalament
+  feather_falling: Lleugeresa
 entity:
-  wither_skeleton: Esquelet de l'infern
   ender_pearl: Perla del Regne de la Fi llançada
   ender_signal: Ull d'un Home de la Fi
   shulker_bullet: Projectil de Shulker
@@ -83,6 +99,7 @@ entity:
   ender_dragon: Drac del Regne de la Fi
   wither: Exorcisme d'esquelet de l'Infern
   endermite: Tèrmit de la Fi
+  polar_bear: Ós polar
 effect:
   wither: Exorcisme d'esquelet de l'Infern
 banner_pattern:

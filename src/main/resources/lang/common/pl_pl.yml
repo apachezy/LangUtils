@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:49                    #
+# Build time: 2021-07-04 21:46:04                    #
 # ####################################################
 language:
   code: pl_pl
@@ -14,10 +14,17 @@ material:
   polished_diorite: Wypolerowany dioryt
   andesite: Andezyt
   polished_andesite: Wypolerowany andezyt
+  deepslate: Łupek
+  cobbled_deepslate: Łupkowy bruk
+  polished_deepslate: Wypolerowany łupek
+  calcite: Kalcyt
+  tuff: Tuf
+  dripstone_block: Blok nacieku
   grass_block: Blok trawy
   dirt: Ziemia
   coarse_dirt: Twarda ziemia
   podzol: Bielica
+  rooted_dirt: Zakorzeniona ziemia
   crimson_nylium: Szkarłatne nylium
   warped_nylium: Spaczone nylium
   cobblestone: Bruk
@@ -39,10 +46,67 @@ material:
   sand: Piasek
   red_sand: Czerwony piasek
   gravel: Żwir
-  gold_ore: Ruda złota
-  iron_ore: Ruda żelaza
-  coal_ore: Ruda węgla
-  nether_gold_ore: Netherowa ruda złota
+  coal_ore: Złoże węgla
+  deepslate_coal_ore: Łupkowe złoże węgla
+  iron_ore: Złoże żelaza
+  deepslate_iron_ore: Łupkowe złoże żelaza
+  copper_ore: Złoże miedzi
+  deepslate_copper_ore: Łupkowe złoże miedzi
+  gold_ore: Złoże złota
+  deepslate_gold_ore: Łupkowe złoże złota
+  redstone_ore: Złoże redstone
+  deepslate_redstone_ore: Łupkowe złoże redstone
+  emerald_ore: Złoże szmaragdu
+  deepslate_emerald_ore: Łupkowe złoże szmaragdu
+  lapis_ore: Złoże lazurytu
+  deepslate_lapis_ore: Łupkowe złoże lazurytu
+  diamond_ore: Złoże diamentu
+  deepslate_diamond_ore: Łupkowe złoże diamentu
+  nether_gold_ore: Netherowe złoże złota
+  nether_quartz_ore: Złoże kwarcu
+  ancient_debris: Pradawne zgliszcza
+  coal_block: Blok węgla
+  raw_iron_block: Blok rudy żelaza
+  raw_copper_block: Blok rudy miedzi
+  raw_gold_block: Blok surowego złota
+  amethyst_block: Blok ametystu
+  budding_amethyst: Kiełkujący ametyst
+  iron_block: Blok żelaza
+  copper_block: Blok miedzi
+  gold_block: Blok złota
+  diamond_block: Blok diamentu
+  netherite_block: Blok netherytu
+  exposed_copper: Zwietrzała miedź
+  weathered_copper: Zaśniedziała miedź
+  oxidized_copper: Utleniona miedź
+  cut_copper: Żłobiona miedź
+  exposed_cut_copper: Zwietrzała żłobiona miedź
+  weathered_cut_copper: Zaśniedziała żłobiona miedź
+  oxidized_cut_copper: Utleniona żłobiona miedź
+  cut_copper_stairs: Żłobione miedziane schody
+  exposed_cut_copper_stairs: Zwietrzałe żłobione miedziane schody
+  weathered_cut_copper_stairs: Zaśniedziałe żłobione miedziane schody
+  oxidized_cut_copper_stairs: Utlenione żłobione miedziane schody
+  cut_copper_slab: Żłobiona miedziana płyta
+  exposed_cut_copper_slab: Zwietrzała żłobiona miedziana płyta
+  weathered_cut_copper_slab: Zaśniedziała żłobiona miedziana płyta
+  oxidized_cut_copper_slab: Utleniona żłobiona miedziana płyta
+  waxed_copper_block: Woskowany blok miedzi
+  waxed_exposed_copper: Woskowana zwietrzała miedź
+  waxed_weathered_copper: Woskowana zaśniedziała miedź
+  waxed_oxidized_copper: Woskowana utleniona miedź
+  waxed_cut_copper: Woskowana żłobiona miedź
+  waxed_exposed_cut_copper: Woskowana zwietrzała żłobiona miedź
+  waxed_weathered_cut_copper: Woskowana zaśniedziała żłobiona miedź
+  waxed_oxidized_cut_copper: Woskowana utleniona żłobiona miedź
+  waxed_cut_copper_stairs: Woskowane żłobione miedziane schody
+  waxed_exposed_cut_copper_stairs: Woskowane zwietrzałe żłobione miedziane schody
+  waxed_weathered_cut_copper_stairs: Woskowane zaśniedziałe żłobione miedziane schody
+  waxed_oxidized_cut_copper_stairs: Woskowane utlenione żłobione miedziane schody
+  waxed_cut_copper_slab: Woskowana żłobiona miedziana płyta
+  waxed_exposed_cut_copper_slab: Woskowana zwietrzała żłobiona miedziana płyta
+  waxed_weathered_cut_copper_slab: Woskowana zaśniedziała żłobiona miedziana płyta
+  waxed_oxidized_cut_copper_slab: Woskowana utleniona żłobiona miedziana płyta
   oak_log: Dębowy pień
   spruce_log: Świerkowy pień
   birch_log: Brzozowy pień
@@ -81,26 +145,24 @@ material:
   jungle_leaves: Tropikalne liście
   acacia_leaves: Akacjowe liście
   dark_oak_leaves: Ciemnodębowe liście
+  azalea_leaves: Liście azalii
+  flowering_azalea_leaves: Kwitnące liście azalii
   sponge: Gąbka
   wet_sponge: Mokra gąbka
   glass: Szkło
-  lapis_ore: Ruda lazurytu
+  tinted_glass: Przyciemnione szkło
   lapis_block: Blok lazurytu
-  dispenser: Dozownik
   sandstone: Piaskowiec
   chiseled_sandstone: Rzeźbiony piaskowiec
   cut_sandstone: Przycięty piaskowiec
-  note_block: Blok dźwiękowy
-  powered_rail: Zasilane tory
-  detector_rail: Tory z czujnikiem
-  sticky_piston: Lepki tłok
   cobweb: Pajęczyna
   grass: Trawa
   fern: Paproć
+  azalea: Azalia
+  flowering_azalea: Kwitnąca azalia
   dead_bush: Uschnięty krzak
   seagrass: Trawa morska
   sea_pickle: Iskrzyłuda
-  piston: Tłok
   white_wool: Biała wełna
   orange_wool: Pomarańczowa wełna
   magenta_wool: Karmazynowa wełna
@@ -130,6 +192,7 @@ material:
   cornflower: Chaber
   lily_of_the_valley: Konwalia
   wither_rose: Witherowa róża
+  spore_blossom: Pylikwiat
   brown_mushroom: Borowik
   red_mushroom: Muchomor
   crimson_fungus: Szkarłatny grzyb
@@ -141,9 +204,12 @@ material:
   twisting_vines: Krętorośl
   sugar_cane: Trzciny cukrowe
   kelp: Wodorost
+  moss_carpet: Warstwa mchu
+  moss_block: Blok mchu
+  hanging_roots: Zwisające korzenie
+  big_dripleaf: Wielki spadkoliść
+  small_dripleaf: Mały spadkoliść
   bamboo: Bambus
-  gold_block: Blok złota
-  iron_block: Blok żelaza
   oak_slab: Dębowa płyta
   spruce_slab: Świerkowa płyta
   birch_slab: Brzozowa płyta
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: Gładki piaskowiec
   smooth_stone: Gładki kamień
   bricks: Cegły
-  tnt: TNT
   bookshelf: Biblioteczka
   mossy_cobblestone: Zamszony bruk
   obsidian: Obsydian
@@ -187,27 +252,11 @@ material:
   spawner: Spawner
   oak_stairs: Dębowe schody
   chest: Skrzynia
-  diamond_ore: Ruda diamentu
-  diamond_block: Blok diamentu
   crafting_table: Stół rzemieślniczy
   farmland: Pole uprawne
   furnace: Piec
   ladder: Drabina
-  rail: Tory
   cobblestone_stairs: Brukowe schody
-  lever: Dźwignia
-  stone_pressure_plate: Kamienna płyta naciskowa
-  oak_pressure_plate: Dębowa płyta naciskowa
-  spruce_pressure_plate: Świerkowa płyta naciskowa
-  birch_pressure_plate: Brzozowa płyta naciskowa
-  jungle_pressure_plate: Tropikalna płyta naciskowa
-  acacia_pressure_plate: Akacjowa płyta naciskowa
-  dark_oak_pressure_plate: Ciemnodębowa płyta naciskowa
-  crimson_pressure_plate: Szkarłatna płyta naciskowa
-  warped_pressure_plate: Spaczona płyta naciskowa
-  polished_blackstone_pressure_plate: Wypolerowana czernitowa płytka naciskowa
-  redstone_ore: Ruda redstone
-  redstone_torch: Pochodnia redstone
   snow: Śnieg
   ice: Lód
   snow_block: Blok śniegu
@@ -224,32 +273,31 @@ material:
   warped_fence: Spaczony płot
   pumpkin: Dynia
   carved_pumpkin: Wykrawana dynia
+  jack_o_lantern: Jack o'Lantern
   netherrack: Netherrack
   soul_sand: Piasek dusz
   soul_soil: Gleba dusz
   basalt: Bazalt
   polished_basalt: Wypolerowany bazalt
+  smooth_basalt: Gładki bazalt
   soul_torch: Eteryczna pochodnia
   glowstone: Jasnogłaz
-  jack_o_lantern: Jack o'Lantern
-  oak_trapdoor: Dębowa klapa
-  spruce_trapdoor: Świerkowa klapa
-  birch_trapdoor: Brzozowa klapa
-  jungle_trapdoor: Tropikalna klapa
-  acacia_trapdoor: Akacjowa klapa
-  dark_oak_trapdoor: Ciemnodębowa klapa
-  crimson_trapdoor: Szkarłatna klapa
-  warped_trapdoor: Spaczona klapa
   infested_stone: Zarobaczony kamień
   infested_cobblestone: Zarobaczony bruk
   infested_stone_bricks: Zarobaczone kamienne cegły
   infested_mossy_stone_bricks: Zarobaczone zamszone kamienne cegły
   infested_cracked_stone_bricks: Zarobaczone popękane kamienne cegły
   infested_chiseled_stone_bricks: Zarobaczone rzeźbione kamienne cegły
+  infested_deepslate: Zarobaczony łupek
   stone_bricks: Kamienne cegły
   mossy_stone_bricks: Zamszone kamienne cegły
   cracked_stone_bricks: Popękane kamienne cegły
   chiseled_stone_bricks: Rzeźbione kamienne cegły
+  deepslate_bricks: Łupkowe cegły
+  cracked_deepslate_bricks: Popękane łupkowe cegły
+  deepslate_tiles: Łupkowe kafelki
+  cracked_deepslate_tiles: Popękane łupkowe kafelki
+  chiseled_deepslate: Rzeźbiony łupek
   brown_mushroom_block: Blok borowika
   red_mushroom_block: Blok muchomora
   mushroom_stem: Trzon grzyba
@@ -258,14 +306,7 @@ material:
   glass_pane: Szyba
   melon: Arbuz
   vine: Pnącza
-  oak_fence_gate: Dębowa furtka
-  spruce_fence_gate: Świerkowa furtka
-  birch_fence_gate: Brzozowa furtka
-  jungle_fence_gate: Tropikalna furtka
-  acacia_fence_gate: Akacjowa furtka
-  dark_oak_fence_gate: Ciemnodębowa furtka
-  crimson_fence_gate: Szkarłatna furtka
-  warped_fence_gate: Spaczona furtka
+  glow_lichen: Świecący porost
   brick_stairs: Ceglane schody
   stone_brick_stairs: Kamienne ceglane schody
   mycelium: Grzybnia
@@ -280,11 +321,8 @@ material:
   end_stone: Kamień Endu
   end_stone_bricks: Endowe kamienne cegły
   dragon_egg: Smocze jajo
-  redstone_lamp: Lampa
   sandstone_stairs: Piaskowcowe schody
-  emerald_ore: Ruda szmaragdu
   ender_chest: Skrzynia Endu
-  tripwire_hook: Zaczep na linkę
   emerald_block: Blok szmaragdu
   spruce_stairs: Świerkowe schody
   birch_stairs: Brzozowe schody
@@ -310,33 +348,18 @@ material:
   blackstone_wall: Czernitowy murek
   polished_blackstone_wall: Wypolerowany czernitowy murek
   polished_blackstone_brick_wall: Wypolerowany czernitowy ceglany murek
-  stone_button: Kamienny przycisk
-  oak_button: Dębowy przycisk
-  spruce_button: Świerkowy przycisk
-  birch_button: Brzozowy przycisk
-  jungle_button: Tropikalny przycisk
-  acacia_button: Akacjowy przycisk
-  dark_oak_button: Ciemnodębowy przycisk
-  crimson_button: Szkarłatny przycisk
-  warped_button: Spaczony przycisk
-  polished_blackstone_button: Wypolerowany czernitowy przycisk
+  cobbled_deepslate_wall: Łupkowy brukowy murek
+  polished_deepslate_wall: Wypolerowany łupkowy murek
+  deepslate_brick_wall: Łupkowy ceglany murek
+  deepslate_tile_wall: Łupkowy kafelkowy murek
   anvil: Kowadło
   chipped_anvil: Wyszczerbione kowadło
   damaged_anvil: Uszkodzone kowadło
-  trapped_chest: Skrzynia-pułapka
-  light_weighted_pressure_plate: Lekka płyta naciskowa
-  heavy_weighted_pressure_plate: Ciężka płyta naciskowa
-  daylight_detector: Detektor światła dziennego
-  redstone_block: Blok redstone
-  nether_quartz_ore: Ruda kwarcu
-  hopper: Lej
   chiseled_quartz_block: Rzeźbiony blok kwarcu
   quartz_block: Blok kwarcu
   quartz_bricks: Kwarcowe cegły
   quartz_pillar: Kwarcowy filar
   quartz_stairs: Kwarcowe schody
-  activator_rail: Tory aktywacyjne
-  dropper: Podajnik
   white_terracotta: Biała terakota
   orange_terracotta: Pomarańczowa terakota
   magenta_terracotta: Karmazynowa terakota
@@ -354,7 +377,7 @@ material:
   red_terracotta: Czerwona terakota
   black_terracotta: Czarna terakota
   barrier: Bariera
-  iron_trapdoor: Żelazna klapa
+  light: Światło
   hay_block: Snop siana
   white_carpet: Biały dywan
   orange_carpet: Pomarańczowy dywan
@@ -373,12 +396,10 @@ material:
   red_carpet: Czerwony dywan
   black_carpet: Czarny dywan
   terracotta: Terakota
-  coal_block: Blok węgla
   packed_ice: Zbity lód
   acacia_stairs: Akacjowe schody
   dark_oak_stairs: Ciemnodębowe schody
-  slime_block: Blok szlamu
-  grass_path: Ścieżka
+  dirt_path: Ścieżka
   sunflower: Słonecznik
   lilac: Bez
   rose_bush: Krzew róży
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: Czerwone netherowe cegły
   bone_block: Blok kości
   structure_void: Pustka strukturalna
-  observer: Detektor
   shulker_box: Shulkerowa skrzynia
   white_shulker_box: Biała shulkerowa skrzynia
   orange_shulker_box: Pomarańczowa shulkerowa skrzynia
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: Czerwone netherowe ceglane schody
   polished_andesite_stairs: Wypolerowane andezytowe schody
   diorite_stairs: Diorytowe schody
+  cobbled_deepslate_stairs: Łupkowe brukowe schody
+  polished_deepslate_stairs: Wypolerowane łupkowe schody
+  deepslate_brick_stairs: Łupkowe ceglane schody
+  deepslate_tile_stairs: Łupkowe kafelkowe schody
   polished_granite_slab: Wypolerowana granitowa płyta
   smooth_red_sandstone_slab: Gładka czerwona piaskowcowa płyta
   mossy_stone_brick_slab: Zamszona kamienna ceglana płyta
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: Czerwona netherowa ceglana płyta
   polished_andesite_slab: Wypolerowana andezytowa płyta
   diorite_slab: Diorytowa płyta
+  cobbled_deepslate_slab: Łupkowa brukowa płyta
+  polished_deepslate_slab: Wypolerowana łupkowa płyta
+  deepslate_brick_slab: Łupkowa ceglana płyta
+  deepslate_tile_slab: Łupkowa kafelkowa płyta
   scaffolding: Rusztowanie
+  redstone: Sproszkowany redstone
+  redstone_torch: Pochodnia redstone
+  redstone_block: Blok redstone
+  repeater: Przekaźnik
+  comparator: Komparator
+  piston: Tłok
+  sticky_piston: Lepki tłok
+  slime_block: Blok szlamu
+  honey_block: Blok miodu
+  observer: Detektor
+  hopper: Lej
+  dispenser: Dozownik
+  dropper: Podajnik
+  lectern: Pulpit
+  target: Tarcza strzelecka
+  lever: Dźwignia
+  lightning_rod: Piorunochron
+  daylight_detector: Detektor światła dziennego
+  sculk_sensor: Skulkowy czujnik
+  tripwire_hook: Zaczep na linkę
+  trapped_chest: Skrzynia-pułapka
+  tnt: TNT
+  redstone_lamp: Lampa
+  note_block: Blok dźwiękowy
+  stone_button: Kamienny przycisk
+  polished_blackstone_button: Wypolerowany czernitowy przycisk
+  oak_button: Dębowy przycisk
+  spruce_button: Świerkowy przycisk
+  birch_button: Brzozowy przycisk
+  jungle_button: Tropikalny przycisk
+  acacia_button: Akacjowy przycisk
+  dark_oak_button: Ciemnodębowy przycisk
+  crimson_button: Szkarłatny przycisk
+  warped_button: Spaczony przycisk
+  stone_pressure_plate: Kamienna płyta naciskowa
+  polished_blackstone_pressure_plate: Wypolerowana czernitowa płytka naciskowa
+  light_weighted_pressure_plate: Lekka płyta naciskowa
+  heavy_weighted_pressure_plate: Ciężka płyta naciskowa
+  oak_pressure_plate: Dębowa płyta naciskowa
+  spruce_pressure_plate: Świerkowa płyta naciskowa
+  birch_pressure_plate: Brzozowa płyta naciskowa
+  jungle_pressure_plate: Tropikalna płyta naciskowa
+  acacia_pressure_plate: Akacjowa płyta naciskowa
+  dark_oak_pressure_plate: Ciemnodębowa płyta naciskowa
+  crimson_pressure_plate: Szkarłatna płyta naciskowa
+  warped_pressure_plate: Spaczona płyta naciskowa
   iron_door: Żelazne drzwi
   oak_door: Dębowe drzwi
   spruce_door: Świerkowe drzwi
@@ -572,8 +646,42 @@ material:
   dark_oak_door: Ciemnodębowe drzwi
   crimson_door: Szkarłatne drzwi
   warped_door: Spaczone drzwi
-  repeater: Przekaźnik
-  comparator: Komparator
+  iron_trapdoor: Żelazna klapa
+  oak_trapdoor: Dębowa klapa
+  spruce_trapdoor: Świerkowa klapa
+  birch_trapdoor: Brzozowa klapa
+  jungle_trapdoor: Tropikalna klapa
+  acacia_trapdoor: Akacjowa klapa
+  dark_oak_trapdoor: Ciemnodębowa klapa
+  crimson_trapdoor: Szkarłatna klapa
+  warped_trapdoor: Spaczona klapa
+  oak_fence_gate: Dębowa furtka
+  spruce_fence_gate: Świerkowa furtka
+  birch_fence_gate: Brzozowa furtka
+  jungle_fence_gate: Tropikalna furtka
+  acacia_fence_gate: Akacjowa furtka
+  dark_oak_fence_gate: Ciemnodębowa furtka
+  crimson_fence_gate: Szkarłatna furtka
+  warped_fence_gate: Spaczona furtka
+  powered_rail: Zasilane tory
+  detector_rail: Tory z czujnikiem
+  rail: Tory
+  activator_rail: Tory aktywacyjne
+  saddle: Siodło
+  minecart: Wagonik
+  chest_minecart: Wagonik ze skrzynią
+  furnace_minecart: Napędzany wagonik
+  tnt_minecart: Wagonik z TNT
+  hopper_minecart: Wagonik z lejem
+  carrot_on_a_stick: Marchewka na patyku
+  warped_fungus_on_a_stick: Spaczony grzyb na patyku
+  elytra: Elytry
+  oak_boat: Dębowa łódka
+  spruce_boat: Świerkowa łódka
+  birch_boat: Brzozowa łódka
+  jungle_boat: Tropikalna łódka
+  acacia_boat: Akacjowa łódka
+  dark_oak_boat: Ciemnodębowa łódka
   structure_block: Blok struktur
   jigsaw: Blok konstrukcyjny
   turtle_helmet: Żółwia skorupa
@@ -585,7 +693,15 @@ material:
   coal: Węgiel
   charcoal: Węgiel drzewny
   diamond: Diament
+  emerald: Szmaragd
+  lapis_lazuli: Lazuryt
+  quartz: Kwarc
+  amethyst_shard: Odłamek ametystu
+  raw_iron: Ruda żelaza
   iron_ingot: Sztabka żelaza
+  raw_copper: Ruda miedzi
+  copper_ingot: Sztabka miedzi
+  raw_gold: Surowe złoto
   gold_ingot: Sztabka złota
   netherite_ingot: Sztabka netherytu
   netherite_scrap: Odłamek netherytu
@@ -669,29 +785,27 @@ material:
   bucket: Wiadro
   water_bucket: Wiadro wody
   lava_bucket: Wiadro lawy
-  minecart: Wagonik
-  saddle: Siodło
-  redstone: Sproszkowany redstone
+  powder_snow_bucket: Wiadro sypkiego śniegu
   snowball: Śnieżka
-  oak_boat: Dębowa łódka
   leather: Skóra
   milk_bucket: Wiadro mleka
   pufferfish_bucket: Wiadro z rozdymką
   salmon_bucket: Wiadro z łososiem
   cod_bucket: Wiadro z dorszem
   tropical_fish_bucket: Wiadro z tropikalną rybą
+  axolotl_bucket: Wiadro z aksolotlem
   brick: Cegła
   clay_ball: Kulka gliny
   dried_kelp_block: Blok suszonych wodorostów
   paper: Papier
   book: Książka
   slime_ball: Kula szlamu
-  chest_minecart: Wagonik ze skrzynią
-  furnace_minecart: Napędzany wagonik
   egg: Jajko
   compass: Kompas
+  bundle: Sakwa
   fishing_rod: Wędka
   clock: Zegar
+  spyglass: Luneta
   glowstone_dust: Jasnopył
   cod: Surowy dorsz
   salmon: Surowy łosoś
@@ -700,8 +814,8 @@ material:
   cooked_cod: Pieczony dorsz
   cooked_salmon: Pieczony łosoś
   ink_sac: Torbiel z atramentem
+  glow_ink_sac: Torbiel ze świecącym atramentem
   cocoa_beans: Ziarna kakaowe
-  lapis_lazuli: Lazuryt
   white_dye: Biały barwnik
   orange_dye: Pomarańczowy barwnik
   magenta_dye: Karmazynowy barwnik
@@ -765,6 +879,7 @@ material:
   cauldron: Kocioł
   ender_eye: Oko Endera
   glistering_melon_slice: Kawałek lśniącego arbuza
+  axolotl_spawn_egg: Jajo przyzywające aksolotla
   bat_spawn_egg: Jajo przyzywające nietoperza
   bee_spawn_egg: Jajo przyzywające pszczołę
   blaze_spawn_egg: Jajo przyzywające płomyka
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: Jajo przyzywające przywoływacza
   fox_spawn_egg: Jajo przyzywające lisa
   ghast_spawn_egg: Jajo przyzywające ghasta
+  glow_squid_spawn_egg: Jajo przyzywające świecącą kałamarnicę
+  goat_spawn_egg: Jajo przyzywające kozę
   guardian_spawn_egg: Jajo przyzywające strażnika
   hoglin_spawn_egg: Jajo przyzywające hoglina
   horse_spawn_egg: Jajo przyzywające konia
@@ -833,8 +950,8 @@ material:
   fire_charge: Ognista kula
   writable_book: Książka z piórem
   written_book: Zapisana książka
-  emerald: Szmaragd
   item_frame: Ramka na przedmiot
+  glow_item_frame: Świecąca ramka na przedmiot
   flower_pot: Doniczka
   carrot: Marchewka
   potato: Ziemniak
@@ -848,17 +965,12 @@ material:
   zombie_head: Głowa zombie
   creeper_head: Głowa creepera
   dragon_head: Głowa smoka
-  carrot_on_a_stick: Marchewka na patyku
-  warped_fungus_on_a_stick: Spaczony grzyb na patyku
   nether_star: Netherowa gwiazda
   pumpkin_pie: Placek dyniowy
   firework_rocket: Fajerwerk
   firework_star: Gwiazdka pirotechniczna
   enchanted_book: Zaklęta książka
   nether_brick: Netherowa cegła
-  quartz: Kwarc
-  tnt_minecart: Wagonik z TNT
-  hopper_minecart: Wagonik z lejem
   prismarine_shard: Odłamek pryzmarynu
   prismarine_crystals: Kryształy pryzmarynu
   rabbit: Surowy królik
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: Strzała z miksturą
   lingering_potion: Trwała mikstura
   shield: Tarcza
-  elytra: Elytry
-  spruce_boat: Świerkowa łódka
-  birch_boat: Brzozowa łódka
-  jungle_boat: Tropikalna łódka
-  acacia_boat: Akacjowa łódka
-  dark_oak_boat: Ciemnodębowa łódka
   totem_of_undying: Totem nieśmiertelności
   shulker_shell: Skorupa shulkera
   iron_nugget: Bryłka żelaza
@@ -948,13 +1054,13 @@ material:
   cartography_table: Stół kartograficzny
   fletching_table: Stół łuczarski
   grindstone: Kamień szlifierski
-  lectern: Pulpit
   smithing_table: Stół kowalski
   stonecutter: Przecinarka
   bell: Dzwon
   lantern: Latarenka
   soul_lantern: Eteryczna latarenka
   sweet_berries: Słodkie jagody
+  glow_berries: Świecące jagody
   campfire: Ognisko
   soul_campfire: Eteryczne ognisko
   shroomlight: Światłogrzyb
@@ -962,12 +1068,8 @@ material:
   bee_nest: Gniazdo pszczół
   beehive: Ul
   honey_bottle: Butelka miodu
-  honey_block: Blok miodu
   honeycomb_block: Blok plastra miodu
   lodestone: Magnetyt
-  netherite_block: Blok netherytu
-  ancient_debris: Pradawne zgliszcza
-  target: Tarcza strzelecka
   crying_obsidian: Płaczący obsydian
   blackstone: Czernit
   blackstone_slab: Czernitowa płyta
@@ -982,6 +1084,28 @@ material:
   polished_blackstone_brick_stairs: Wypolerowane czernitowe ceglane schody
   cracked_polished_blackstone_bricks: Popękane wypolerowane czernitowe cegły
   respawn_anchor: Kotwica odrodzenia
+  candle: Świeca
+  white_candle: Biała świeca
+  orange_candle: Pomarańczowa świeca
+  magenta_candle: Karmazynowa świeca
+  light_blue_candle: Jasnoniebieska świeca
+  yellow_candle: Żółta świeca
+  lime_candle: Jasnozielona świeca
+  pink_candle: Różowa świeca
+  gray_candle: Szara świeca
+  light_gray_candle: Jasnoszara świeca
+  cyan_candle: Błękitna świeca
+  purple_candle: Fioletowa świeca
+  blue_candle: Niebieska świeca
+  brown_candle: Brązowa świeca
+  green_candle: Zielona świeca
+  red_candle: Czerwona świeca
+  black_candle: Czarna świeca
+  small_amethyst_bud: Mały zarodek ametystu
+  medium_amethyst_bud: Średni zarodek ametystu
+  large_amethyst_bud: Duży zarodek ametystu
+  amethyst_cluster: Skupisko ametystu
+  pointed_dripstone: Spiczasty naciek
   water: Woda
   lava: Lawa
   tall_seagrass: Wysoka trawa morska
@@ -1004,6 +1128,9 @@ material:
   attached_melon_stem: Przyłączona łodyga arbuza
   pumpkin_stem: Łodyga dyni
   melon_stem: Łodyga arbuza
+  water_cauldron: Kocioł wody
+  lava_cauldron: Kocioł lawy
+  powder_snow_cauldron: Kocioł sypkiego śniegu
   end_portal: Portal do Endu
   cocoa: Kakao
   tripwire: Linka
@@ -1083,6 +1210,30 @@ material:
   potted_warped_fungus: Spaczony grzyb w doniczce
   potted_crimson_roots: Szkarłatne korzenie w doniczce
   potted_warped_roots: Spaczone korzenie w doniczce
+  candle_cake: Ciasto ze świeczką
+  white_candle_cake: Ciasto z białą świeczką
+  orange_candle_cake: Ciasto z pomarańczową świeczką
+  magenta_candle_cake: Ciasto z karmazynową świeczką
+  light_blue_candle_cake: Ciasto z jasnoniebieską świeczką
+  yellow_candle_cake: Ciasto z żółtą świeczką
+  lime_candle_cake: Ciasto z jasnozieloną świeczką
+  pink_candle_cake: Ciasto z różową świeczką
+  gray_candle_cake: Ciasto z szarą świeczką
+  light_gray_candle_cake: Ciasto z jasnoszarą świeczką
+  cyan_candle_cake: Ciasto z błękitną świeczką
+  purple_candle_cake: Ciasto z fioletową świeczką
+  blue_candle_cake: Ciasto z niebieską świeczką
+  brown_candle_cake: Ciasto z brązową świeczką
+  green_candle_cake: Ciasto z zieloną świeczką
+  red_candle_cake: Ciasto z czerwoną świeczką
+  black_candle_cake: Ciasto z czarną świeczką
+  powder_snow: Sypki śnieg
+  cave_vines: Jaskiniowe pnącza
+  cave_vines_plant: Rosnące jaskiniowe pnącza
+  big_dripleaf_stem: Łodyga dużego spadkoliścia
+  potted_azalea_bush: Azalia w doniczce
+  potted_flowering_azalea_bush: Kwitnąca azalia w doniczce
+  grass_path: Ścieżka
   zombie_pigman_spawn_egg: Jajo przyzywające świnię-zombie
   cactus_green: Kaktusowa zieleń
   dandelion_yellow: Mleczowa żółć
@@ -1169,46 +1320,48 @@ biome:
   crimson_forest: Szkarłatny las
   warped_forest: Spaczony las
   basalt_deltas: Bazaltowe delty
+  dripstone_caves: Jaskinie naciekowe
+  lush_caves: Bujne jaskinie
   nether: Nether
 enchantment:
-  fire_protection: Ochrona przed ogniem
-  sharpness: Ostrość
-  flame: Płomień
-  soul_speed: Prędkość dusz
-  aqua_affinity: Wydajność pod wodą
-  punch: Uderzenie
-  loyalty: Lojalność
-  depth_strider: Głębinowy wędrowiec
-  vanishing_curse: Klątwa znikania
-  unbreaking: Niezniszczalność
-  knockback: Odrzut
-  luck_of_the_sea: Morska fortuna
-  binding_curse: Klątwa uwiązania
-  fortune: Szczęście
   protection: Ochrona
-  efficiency: Wydajność
-  mending: Naprawa
-  frost_walker: Mroźny piechur
-  lure: Przynęta
-  looting: Grabież
-  piercing: Przeszycie
-  blast_protection: Ochrona przed wybuchem
-  smite: Pogromca nieumarłych
-  multishot: Wielostrzał
-  fire_aspect: Zaklęty ogień
-  channeling: Porażenie
-  sweeping: Szerokie ostrze
-  thorns: Ciernie
-  bane_of_arthropods: Zmora stawonogów
-  respiration: Oddychanie
-  riptide: Torpeda
-  silk_touch: Jedwabny dotyk
-  quick_charge: Szybkie ładowanie
-  projectile_protection: Ochrona przed pociskami
-  impaling: Przebicie
+  fire_protection: Ochrona przed ogniem
   feather_falling: Łagodny upadek
+  blast_protection: Ochrona przed wybuchem
+  projectile_protection: Ochrona przed pociskami
+  respiration: Oddychanie
+  aqua_affinity: Wydajność pod wodą
+  thorns: Ciernie
+  depth_strider: Głębinowy wędrowiec
+  frost_walker: Mroźny piechur
+  binding_curse: Klątwa uwiązania
+  sharpness: Ostrość
+  smite: Pogromca nieumarłych
+  bane_of_arthropods: Zmora stawonogów
+  knockback: Odrzut
+  fire_aspect: Zaklęty ogień
+  looting: Grabież
+  sweeping: Szerokie ostrze
+  efficiency: Wydajność
+  silk_touch: Jedwabny dotyk
+  unbreaking: Niezniszczalność
+  fortune: Szczęście
   power: Moc
+  punch: Uderzenie
+  flame: Płomień
   infinity: Nieskończoność
+  luck_of_the_sea: Morska fortuna
+  lure: Przynęta
+  loyalty: Lojalność
+  impaling: Przebicie
+  riptide: Torpeda
+  channeling: Porażenie
+  multishot: Wielostrzał
+  quick_charge: Szybkie ładowanie
+  piercing: Przeszycie
+  mending: Naprawa
+  vanishing_curse: Klątwa znikania
+  soul_speed: Prędkość dusz
 potion:
   uncraftable: Niewykonalna mikstura
   water: Butelka wody
@@ -1403,6 +1556,11 @@ entity:
   strider: Magmołaz
   zoglin: Zoglin
   piglin_brute: Piglin okrutnik
+  axolotl: Aksolotl
+  glow_item_frame: Świecąca ramka na przedmiot
+  glow_squid: Świecąca kałamarnica
+  goat: Koza
+  marker: Znacznik
   fishing_hook: Spławik
   lightning: Piorun
   player: Gracz
@@ -2202,17 +2360,3 @@ villager_profession:
   shepherd: Pasterz
   toolsmith: Narzędziarz
   weaponsmith: Zbrojmistrz
-villager_career:
-  farmer: Rolnik
-  fisherman: Rybak
-  shepherd: Pasterz
-  fletcher: Łuczarz
-  librarian: Bibliotekarz
-  cartographer: Kartograf
-  cleric: Kapłan
-  armorer: Płatnerz
-  weapon_smith: Wytwórca broni
-  tool_smith: Wytwórca narzędzi
-  butcher: Rzeźnik
-  leatherworker: Rymarz
-  nitwit: Głupiec

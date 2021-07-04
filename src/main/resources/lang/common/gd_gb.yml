@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:47                    #
+# Build time: 2021-07-04 21:46:03                    #
 # ####################################################
 language:
   code: gd_gb
@@ -14,10 +14,17 @@ material:
   polished_diorite: Dìorait lìomhte
   andesite: Andasait
   polished_andesite: Andasait lìomhte
+  deepslate: Deepslate
+  cobbled_deepslate: Cobbled Deepslate
+  polished_deepslate: Deepslate snasta
+  calcite: Calcite
+  tuff: Tuff
+  dripstone_block: Dripstone Block
   grass_block: Bloca feòir
   dirt: Ùir
   coarse_dirt: Pronn
   podzol: Podsol
+  rooted_dirt: Dirt freumhaichte
   crimson_nylium: Crimson Nylium
   warped_nylium: Warped Nylium
   cobblestone: Clach-chàsaidh
@@ -39,10 +46,67 @@ material:
   sand: Gainneamh
   red_sand: Gainneamh ruadh
   gravel: Grinneal
-  gold_ore: Clach-òir
-  iron_ore: Clach-iarainn
   coal_ore: Clach-guail
+  deepslate_coal_ore: Mèinn guail Deepslate
+  iron_ore: Clach-iarainn
+  deepslate_iron_ore: Mèinn Iarainn Deepslate
+  copper_ore: Coppar Ore
+  deepslate_copper_ore: Ore copair Deepslate
+  gold_ore: Clach-òir
+  deepslate_gold_ore: Mèinn òir Deepslate
+  redstone_ore: Clach-mhèinneir redstone
+  deepslate_redstone_ore: Deepslate Redstone Ore
+  emerald_ore: Clach-smàraige
+  deepslate_emerald_ore: Ore Emerald Deepslate
+  lapis_ore: Clach cloiche-copair
+  deepslate_lapis_ore: Deepslate Lapis Lazuli Ore
+  diamond_ore: Clach-daoimein
+  deepslate_diamond_ore: Deepslate Diamond Ore
   nether_gold_ore: Nether Gold Ore
+  nether_quartz_ore: Clach-èiteige Nether
+  ancient_debris: Seann Sprùilleach
+  coal_block: Bloca guail
+  raw_iron_block: Bloc de dh'iarann ​​amh
+  raw_copper_block: Bloc de chopair amh
+  raw_gold_block: Block of Raw Gold
+  amethyst_block: Block de Amethyst
+  budding_amethyst: Budding Amethyst
+  iron_block: Bloca iarainn
+  copper_block: Bloca Copar
+  gold_block: Bloca òir
+  diamond_block: Bloca daoimein
+  netherite_block: Bloc Netherite
+  exposed_copper: Copar fosgailte
+  weathered_copper: Copar aimsirichte
+  oxidized_copper: Copar oxidichte
+  cut_copper: Cut Coppar
+  exposed_cut_copper: Copar gearraichte fosgailte
+  weathered_cut_copper: Cut Coppar Aimsir
+  oxidized_cut_copper: Copar gearradh oxidichte
+  cut_copper_stairs: Staidhre Cut Coppar
+  exposed_cut_copper_stairs: Staidhrichean copair gearraichte fosgailte
+  weathered_cut_copper_stairs: Cut Coppar Aimsir Staidhre
+  oxidized_cut_copper_stairs: Staidhre ​​copar le gearradh oxidichte
+  cut_copper_slab: Slab de Cut Coppar
+  exposed_cut_copper_slab: Leac copair gearraichte fosgailtev
+  weathered_cut_copper_slab: Slab de Cut Coppar Aimsir
+  oxidized_cut_copper_slab: Leac copar gearradh oxidichte
+  waxed_copper_block: Bloc cèir copair
+  waxed_exposed_copper: Copar fosgailte le cèir
+  waxed_weathered_copper: Waxed Coppar Aimsir
+  waxed_oxidized_copper: Copar ocsaidichte cèir
+  waxed_cut_copper: Waxed Cut Coppar
+  waxed_exposed_cut_copper: Waxed Coppar Aimsir A 'ghearradh
+  waxed_weathered_cut_copper: Copar gearraichte le caitheamh cèir
+  waxed_oxidized_cut_copper: Copar ocsaidichte cèir a' ghearradh
+  waxed_cut_copper_stairs: Waxed Cut Coppar Staidhre
+  waxed_exposed_cut_copper_stairs: Staidhrichean copair gearraichte fosgailte
+  waxed_weathered_cut_copper_stairs: Staidhre ​​copair le caitheamh cèir Waxed
+  waxed_oxidized_cut_copper_stairs: Staidhre copar ocsaidichte cèir a' ghearradh
+  waxed_cut_copper_slab: Slab de Waxed Cut Coppar
+  waxed_exposed_cut_copper_slab: Leac copar gearradh cèir fosgailte
+  waxed_weathered_cut_copper_slab: Leac copair le caitheamh cèir Waxed
+  waxed_oxidized_cut_copper_slab: Slab de copar ocsaidichte cèir a' ghearradh
   oak_log: Loga daraich
   spruce_log: Loga giuthais
   birch_log: Loga beithe
@@ -81,26 +145,24 @@ material:
   jungle_leaves: Duilleach dlùth-choille
   acacia_leaves: Duilleach sitta
   dark_oak_leaves: Duilleach daraich dhuirch
+  azalea_leaves: Duilleagan Azalea
+  flowering_azalea_leaves: Duilleagan flùr Azalea
   sponge: Spong
   wet_sponge: Spong fliuch
   glass: Glainne
-  lapis_ore: Clach cloiche-copair
-  lapis_block: Bloca cloiche-copair
-  dispenser: Bloca tilgeil
+  tinted_glass: Glainne Tinted
+  lapis_block: Block de Lapis Lazuli
   sandstone: Clach-ghainmhich
   chiseled_sandstone: Clach-ghainmhich ghilbichte
   cut_sandstone: Geàrr Clach-ghainmhich
-  note_block: Bloca-puing
-  powered_rail: Rèile-dealain
-  detector_rail: Rèile-mothachaidh
-  sticky_piston: Loinid-tharraing
   cobweb: Eige
   grass: Feur
   fern: Raineach
+  azalea: Azalea
+  flowering_azalea: Azalea flùrach
   dead_bush: Preas marbh
   seagrass: Bilearach-mara
   sea_pickle: Piceal na mara
-  piston: Loinid
   white_wool: Clòimh gheal
   orange_wool: Clòimh orains
   magenta_wool: Clòimh mhagenta
@@ -130,6 +192,7 @@ material:
   cornflower: Cornflower
   lily_of_the_valley: Lili a ’ghlinne
   wither_rose: Ròs Wither
+  spore_blossom: Blàth spòran
   brown_mushroom: Balgan-buachair donn
   red_mushroom: Balgan-buachair dearg
   crimson_fungus: Crimson Bharrachd
@@ -141,9 +204,12 @@ material:
   twisting_vines: Twisting Vines
   sugar_cane: Cuilc an t-siùcair
   kelp: Ceilp
+  moss_carpet: Brat-ùrlair còinneach
+  moss_block: Bloc còinneach
+  hanging_roots: Roots crochte
+  big_dripleaf: Dripleaf mòr
+  small_dripleaf: Dripleaf beag
   bamboo: Bambù
-  gold_block: Bloca òir
-  iron_block: Bloca iarainn
   oak_slab: Leac daraich
   spruce_slab: Leac giuthais
   birch_slab: Leac beithe
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: Clach-ghainmhich rèidh
   smooth_stone: Clach rèidh
   bricks: Breigichean
-  tnt: TNT
   bookshelf: Sgeilp leabhraichean
   mossy_cobblestone: Clach-chàsaidh chòinneachail
   obsidian: Obsidian
@@ -187,27 +252,11 @@ material:
   spawner: Gineadair
   oak_stairs: Staidhre daraich
   chest: Ciste
-  diamond_ore: Clach-daoimein
-  diamond_block: Bloca daoimein
   crafting_table: Bòrd-ciùird
   farmland: Fearann-tuathanais
   furnace: Fùirneis
   ladder: Faradh
-  rail: Rèile
   cobblestone_stairs: Staidhre cloiche-càsaidh
-  lever: Luamhan
-  stone_pressure_plate: Pleata-brùthaidh cloiche
-  oak_pressure_plate: Pleata-brùthaidh daraich
-  spruce_pressure_plate: Pleata-brùthaidh giuthais
-  birch_pressure_plate: Pleata-brùthaidh beithe
-  jungle_pressure_plate: Pleata-brùthaidh dlùth-choille
-  acacia_pressure_plate: Pleata-brùthaidh sitta
-  dark_oak_pressure_plate: Pleata-brùthaidh daraich dhuirch
-  crimson_pressure_plate: Crimson Brùthadh Lannan
-  warped_pressure_plate: Warped Brùthadh Lannan
-  polished_blackstone_pressure_plate: Polished Blackstone Brùthadh Lannan
-  redstone_ore: Clach-mhèinneir redstone
-  redstone_torch: Lòchran redstone
   snow: Sneachd
   ice: Deigh
   snow_block: Bloca sneachda
@@ -224,32 +273,31 @@ material:
   warped_fence: Warped Feansa
   pumpkin: Peapag
   carved_pumpkin: Peapag shnaidhte
+  jack_o_lantern: Peapag Shamhna
   netherrack: Netherrack
   soul_sand: Gainneamh anman
   soul_soil: Ùir Ùir
   basalt: Basalt
   polished_basalt: Basalt lìomhte
+  smooth_basalt: Basalt rèidh
   soul_torch: Soul Torch
   glowstone: Clach-luisnidh
-  jack_o_lantern: Peapag Shamhna
-  oak_trapdoor: Doras-leigeil daraich
-  spruce_trapdoor: Doras-leigeil giuthais
-  birch_trapdoor: Doras-leigeil beithe
-  jungle_trapdoor: Doras-leigeil dlùth-choille
-  acacia_trapdoor: Doras-leigeil sitta
-  dark_oak_trapdoor: Doras-leigeil daraich dhuirch
-  crimson_trapdoor: Crimson Trapdoor
-  warped_trapdoor: Warped Trapdoor
   infested_stone: Clach fhiolanach
   infested_cobblestone: Clach-chàsaidh fhiolanach
   infested_stone_bricks: Breigichean fiolanach cloiche
   infested_mossy_stone_bricks: Breigichean fiolanach cloiche còinneachail
   infested_cracked_stone_bricks: Breigichean fiolanach sgagach cloiche
   infested_chiseled_stone_bricks: Breigichean fiolanach gilbichte cloiche
+  infested_deepslate: Deepslate infested
   stone_bricks: Breigichean cloiche
   mossy_stone_bricks: Breigichean cloiche còinneachail
   cracked_stone_bricks: Breigichean cloiche sgagach
   chiseled_stone_bricks: Breigichean cloiche gilbichte
+  deepslate_bricks: Bricichean Deepslate
+  cracked_deepslate_bricks: Bricichean Deepslate briste
+  deepslate_tiles: Tiles Deepslate
+  cracked_deepslate_tiles: Leacan Deepslate sgàinte
+  chiseled_deepslate: Deepslate chiseled
   brown_mushroom_block: Bloca balgain-bhuachair dhuinn
   red_mushroom_block: Bloca balgain-bhuachair dheirg
   mushroom_stem: Gas balgain-bhuachair
@@ -258,14 +306,7 @@ material:
   glass_pane: Leòsan glainne
   melon: Meal-bhuc
   vine: Meanglan
-  oak_fence_gate: Geata feansa darach
-  spruce_fence_gate: Geata feansa giuthais
-  birch_fence_gate: Geata feansa beithe
-  jungle_fence_gate: Geata feansa dlùth-choille
-  acacia_fence_gate: Geata feansa sitta
-  dark_oak_fence_gate: Geata feansa daraich dhuirch
-  crimson_fence_gate: Crimson Feansa Geata
-  warped_fence_gate: Warped Feansa Geata
+  glow_lichen: Crotal Glow
   brick_stairs: Staidhre bhreigichean
   stone_brick_stairs: Staidhre bhreigichean cloiche
   mycelium: Mycelium
@@ -280,11 +321,8 @@ material:
   end_stone: Clach End
   end_stone_bricks: Breigichean cloiche End
   dragon_egg: Ugh dràgoin
-  redstone_lamp: Lampa redstone
   sandstone_stairs: Staidhre cloiche-gainmhich
-  emerald_ore: Clach-smàraige
   ender_chest: Ciste Ender
-  tripwire_hook: Cromag uèir-ribe
   emerald_block: Bloca smàraige
   spruce_stairs: Staidhre giuthais
   birch_stairs: Staidhre beithe
@@ -310,33 +348,18 @@ material:
   blackstone_wall: Blackstone Bhalla
   polished_blackstone_wall: Polished Blackstone Bhalla
   polished_blackstone_brick_wall: Polished Blackstone Brick Wall
-  stone_button: Putan cloiche
-  oak_button: Putan daraich
-  spruce_button: Putan giuthais
-  birch_button: Putan beithe
-  jungle_button: Putan dlùth-choille
-  acacia_button: Putan sitta
-  dark_oak_button: Putan daraich dhuirch
-  crimson_button: Crimson Button
-  warped_button: Warped Button
-  polished_blackstone_button: Polished Blackstone Button
+  cobbled_deepslate_wall: Balla Cobbled Deepslate
+  polished_deepslate_wall: Balla snasta domhainn
+  deepslate_brick_wall: Balla breige Deepslate
+  deepslate_tile_wall: Balla leac Deepslate
   anvil: Innean
   chipped_anvil: Innean sgealbte
   damaged_anvil: Innean millte
-  trapped_chest: Ciste le ribe
-  light_weighted_pressure_plate: Pleata-brùthaidh le cuideam aotrom
-  heavy_weighted_pressure_plate: Pleata-brùthaidh le cuideam trom
-  daylight_detector: Lorgaire solais
-  redstone_block: Bloca redstone
-  nether_quartz_ore: Clach-èiteige Nether
-  hopper: Drabhailt
   chiseled_quartz_block: Bloca èiteige gilbichte
   quartz_block: Bloca èiteige
   quartz_bricks: Quartz Bricks
   quartz_pillar: Colbh èiteige
   quartz_stairs: Staidhre èiteige
-  activator_rail: Rèile-gnìomhachaidh
-  dropper: Bloca leigeil às
   white_terracotta: Terracotta geal
   orange_terracotta: Terracotta orains
   magenta_terracotta: Terracotta magenta
@@ -354,7 +377,7 @@ material:
   red_terracotta: Terracotta dearg
   black_terracotta: Terracotta dubh
   barrier: Bacadh
-  iron_trapdoor: Doras-leigeil iarainn
+  light: Solas
   hay_block: Rola-feòir
   white_carpet: Brat-ùrlair geal
   orange_carpet: Brat-ùrlair orains
@@ -373,12 +396,10 @@ material:
   red_carpet: Brat-ùrlair dearg
   black_carpet: Brat-ùrlair dubh
   terracotta: Terracotta
-  coal_block: Bloca guail
   packed_ice: Deigh theann
   acacia_stairs: Staidhre sitta
   dark_oak_stairs: Staidhre daraich dhuirch
-  slime_block: Bloca eabair
-  grass_path: Staran feòir
+  dirt_path: Rathad Salachar
   sunflower: Neòinean-grèine
   lilac: Liath-ghorm
   rose_bush: Preas nan ròs
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: Breigichean ruadha Nether
   bone_block: Bloca cnàmha
   structure_void: Fànas structair
-  observer: Amharc
   shulker_box: Bogsa shulker
   white_shulker_box: Bogsa shulker geal
   orange_shulker_box: Bogsa shulker orains
@@ -472,11 +492,11 @@ material:
   black_glazed_terracotta: Terracotta gloinichte dubh
   white_concrete: Concrait gheal
   orange_concrete: Concrait orains
-  magenta_concrete: Concrait mhagenta
-  light_blue_concrete: Concrait shoilleir-ghorm
-  yellow_concrete: Concrait bhuidhe
-  lime_concrete: Concrait dath na liomaid
-  pink_concrete: Concrait phinc
+  magenta_concrete: Concrait magenta
+  light_blue_concrete: Concrait gorm-soillear
+  yellow_concrete: Concrait buidhe
+  lime_concrete: Concrait liomaid
+  pink_concrete: Concrait pinc
   gray_concrete: Concrait liath
   light_gray_concrete: Concrait shoilleir-liath
   cyan_concrete: Concrait shaidhean
@@ -486,22 +506,22 @@ material:
   green_concrete: Concrait uaine
   red_concrete: Concrait dhearg
   black_concrete: Concrait dhubh
-  white_concrete_powder: Mìn-choncrait gheal
+  white_concrete_powder: Mìn-choncrait geal
   orange_concrete_powder: Mìn-choncrait orains
-  magenta_concrete_powder: Mìn-choncrait mhagenta
-  light_blue_concrete_powder: Mìn-choncrait shoilleir-ghorm
-  yellow_concrete_powder: Mìn-choncrait bhuidhe
-  lime_concrete_powder: Mìn-choncrait dath na liomaide
-  pink_concrete_powder: Mìn-choncrait phinc
+  magenta_concrete_powder: Mìn-choncrait magenta
+  light_blue_concrete_powder: Mìn-choncrait gorm-soillear
+  yellow_concrete_powder: Mìn-choncrait buidhe
+  lime_concrete_powder: Mìn-choncrait liomaid
+  pink_concrete_powder: Mìn-choncrait pinc
   gray_concrete_powder: Mìn-choncrait liath
-  light_gray_concrete_powder: Mìn-choncrait shoilleir-liath
-  cyan_concrete_powder: Mìn-choncrait shaidhean
-  purple_concrete_powder: Mìn-choncrait phurpaidh
-  blue_concrete_powder: Mìn-choncrait ghorm
-  brown_concrete_powder: Mìn-choncrait dhonn
+  light_gray_concrete_powder: Mìn-choncrait liath-soillear
+  cyan_concrete_powder: Mìn-choncrait saidhean
+  purple_concrete_powder: Mìn-choncrait purpaidh
+  blue_concrete_powder: Mìn-choncrait gorm
+  brown_concrete_powder: Mìn-choncrait donn
   green_concrete_powder: Mìn-choncrait uaine
-  red_concrete_powder: Mìn-choncrait dhearg
-  black_concrete_powder: Mìn-choncrait dhubh
+  red_concrete_powder: Mìn-choncrait dearg
+  black_concrete_powder: Mìn-choncrait dubh
   turtle_egg: Ugh turtair
   dead_tube_coral_block: Bloca coireil-phìoba mhairbh
   dead_brain_coral_block: Bloca coireil-eanchainne mhairbh
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: Staidhre breigichean ruadha Nether
   polished_andesite_stairs: Staidhre andasait lìomhte
   diorite_stairs: Staidhre dìorait
+  cobbled_deepslate_stairs: Staidhrichean Deepslate Cobbled
+  polished_deepslate_stairs: Staidhrichean Deepslate snasta
+  deepslate_brick_stairs: Staidhrean breige Deepslate
+  deepslate_tile_stairs: Staidhrichean Tile Deepslate
   polished_granite_slab: Leac gaireal lìomhte
   smooth_red_sandstone_slab: Leac clach-ghainmhich ruadh rèidh
   mossy_stone_brick_slab: Leac breigichean cloiche còinneachail
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: Leac breigichean ruadha Nether
   polished_andesite_slab: Leac andasait lìomhte
   diorite_slab: Leac dìorait
+  cobbled_deepslate_slab: Leac Deepslate Cobbled
+  polished_deepslate_slab: Leac Deepslate snasta
+  deepslate_brick_slab: Leac breige Deepslate
+  deepslate_tile_slab: Leac tile Deepslate
   scaffolding: Sgafallachd
+  redstone: Duslach redstone
+  redstone_torch: Lòchran redstone
+  redstone_block: Bloca redstone
+  repeater: Ath-chraoladair redstone
+  comparator: Inneal-coimeis redstone
+  piston: Loinid
+  sticky_piston: Loinid-tharraing
+  slime_block: Bloca eabair
+  honey_block: Bloc meala
+  observer: Amharc
+  hopper: Drabhailt
+  dispenser: Bloca tilgeil
+  dropper: Bloca leigeil às
+  lectern: Lectern
+  target: Targaid
+  lever: Luamhan
+  lightning_rod: Rod Dealanach
+  daylight_detector: Lorgaire solais
+  sculk_sensor: Sensor aig Sculk
+  tripwire_hook: Cromag uèir-ribe
+  trapped_chest: Ciste le ribe
+  tnt: TNT
+  redstone_lamp: Lampa redstone
+  note_block: Bloca-puing
+  stone_button: Putan cloiche
+  polished_blackstone_button: Polished Blackstone Button
+  oak_button: Putan daraich
+  spruce_button: Putan giuthais
+  birch_button: Putan beithe
+  jungle_button: Putan dlùth-choille
+  acacia_button: Putan sitta
+  dark_oak_button: Putan daraich dhuirch
+  crimson_button: Crimson Button
+  warped_button: Warped Button
+  stone_pressure_plate: Pleata-brùthaidh cloiche
+  polished_blackstone_pressure_plate: Polished Blackstone Brùthadh Lannan
+  light_weighted_pressure_plate: Pleata-brùthaidh le cuideam aotrom
+  heavy_weighted_pressure_plate: Pleata-brùthaidh le cuideam trom
+  oak_pressure_plate: Pleata-brùthaidh daraich
+  spruce_pressure_plate: Pleata-brùthaidh giuthais
+  birch_pressure_plate: Pleata-brùthaidh beithe
+  jungle_pressure_plate: Pleata-brùthaidh dlùth-choille
+  acacia_pressure_plate: Pleata-brùthaidh sitta
+  dark_oak_pressure_plate: Pleata-brùthaidh daraich dhuirch
+  crimson_pressure_plate: Crimson Brùthadh Lannan
+  warped_pressure_plate: Warped Brùthadh Lannan
   iron_door: Doras iarainn
   oak_door: Doras darach
   spruce_door: Doras giuthais
@@ -572,8 +646,42 @@ material:
   dark_oak_door: Doras daraich dhuirch
   crimson_door: Crimson Doras
   warped_door: Warped Doras
-  repeater: Ath-chraoladair redstone
-  comparator: Inneal-coimeis redstone
+  iron_trapdoor: Doras-leigeil iarainn
+  oak_trapdoor: Doras-leigeil daraich
+  spruce_trapdoor: Doras-leigeil giuthais
+  birch_trapdoor: Doras-leigeil beithe
+  jungle_trapdoor: Doras-leigeil dlùth-choille
+  acacia_trapdoor: Doras-leigeil sitta
+  dark_oak_trapdoor: Doras-leigeil daraich dhuirch
+  crimson_trapdoor: Crimson Trapdoor
+  warped_trapdoor: Warped Trapdoor
+  oak_fence_gate: Geata feansa darach
+  spruce_fence_gate: Geata feansa giuthais
+  birch_fence_gate: Geata feansa beithe
+  jungle_fence_gate: Geata feansa dlùth-choille
+  acacia_fence_gate: Geata feansa sitta
+  dark_oak_fence_gate: Geata feansa daraich dhuirch
+  crimson_fence_gate: Crimson Feansa Geata
+  warped_fence_gate: Warped Feansa Geata
+  powered_rail: Rèile-dealain
+  detector_rail: Rèile-mothachaidh
+  rail: Rèile
+  activator_rail: Rèile-gnìomhachaidh
+  saddle: Dìollaid
+  minecart: Cairt-mhèinnearachd
+  chest_minecart: Cairt-mhèinnearachd le ciste
+  furnace_minecart: Cairt-mhèinnearachd le fùirneis
+  tnt_minecart: Cairt-mhèinnearachd le TNT
+  hopper_minecart: Cairt-mhèinnearachd le drabhailt
+  carrot_on_a_stick: Bata le curran
+  warped_fungus_on_a_stick: Warped Bharrachd air Maide
+  elytra: Sgiathanan
+  oak_boat: Bàta daraich
+  spruce_boat: Bàta giuthais
+  birch_boat: Bàta beithe
+  jungle_boat: Bàta dlùth-choille
+  acacia_boat: Bàta sitta
+  dark_oak_boat: Bàta daraich dhuirch
   structure_block: Bloca structair
   jigsaw: Bloc jigsaw
   turtle_helmet: Cochall turtair
@@ -585,7 +693,15 @@ material:
   coal: Gual
   charcoal: Gual-fhiodha
   diamond: Daoimean
+  emerald: Smàrag
+  lapis_lazuli: Clach-chopair
+  quartz: Èiteag Nether
+  amethyst_shard: Shard de Amethyst
+  raw_iron: Iarann ​​amh
   iron_ingot: Unga iarainn
+  raw_copper: Copar amh
+  copper_ingot: Dearmad Coppar
+  raw_gold: Òr amh
   gold_ingot: Unga òir
   netherite_ingot: Netherite Ingot
   netherite_scrap: Netherite Seann
@@ -669,29 +785,27 @@ material:
   bucket: Peilear
   water_bucket: Peilear uisge
   lava_bucket: Peilear làbha
-  minecart: Cairt-mhèinnearachd
-  saddle: Dìollaid
-  redstone: Duslach redstone
+  powder_snow_bucket: Bucaid de Sneachd Pudar
   snowball: Ball-sneachda
-  oak_boat: Bàta daraich
   leather: Leathar
   milk_bucket: Bucaid bainne
   pufferfish_bucket: Bucaid iasg-sèididh
   salmon_bucket: Bucaid bradain
   cod_bucket: Bucaid truisg
   tropical_fish_bucket: Bucaid èisg thropaigich
+  axolotl_bucket: Bucaid de Axolotl
   brick: Breige
   clay_ball: Clay Ball
   dried_kelp_block: Bloca ceilpe thiormaichte
   paper: Pàipear
   book: Leabhar
   slime_ball: Bàla eabair
-  chest_minecart: Cairt-mhèinnearachd le ciste
-  furnace_minecart: Cairt-mhèinnearachd le fùirneis
   egg: Ugh
   compass: Combaist
+  bundle: Bundle
   fishing_rod: Slat-iasgaich
   clock: Uaireadair
+  spyglass: Farsaingeachd
   glowstone_dust: Duslach cloich-luisnidh
   cod: Trosg amh
   salmon: Bradan amh
@@ -700,13 +814,13 @@ material:
   cooked_cod: Trosg ròiste
   cooked_salmon: Bradan ròiste
   ink_sac: Poca-ince
+  glow_ink_sac: Sac de Glow Ink
   cocoa_beans: Cnòthan-còco
-  lapis_lazuli: Clach-chopair
   white_dye: Liath geal
   orange_dye: Dath orains
   magenta_dye: Dath magenta
   light_blue_dye: Dath soilleir-ghorm
-  yellow_dye: Liath bhuidhe
+  yellow_dye: Liath buidhe
   lime_dye: Dath na liomaid
   pink_dye: Dath pinc
   gray_dye: Dath liath
@@ -732,12 +846,12 @@ material:
   gray_bed: Leabaidh liath
   light_gray_bed: Leabaidh shoilleir-liath
   cyan_bed: Leabaidh shaidhean
-  purple_bed: Leabaidh phurpaidh
-  blue_bed: Leabaidh ghorm
-  brown_bed: Leabaidh dhonn
+  purple_bed: Leabaidh purpaidh
+  blue_bed: Leabaidh gorm
+  brown_bed: Leabaidh donn
   green_bed: Leabaidh uaine
-  red_bed: Leabaidh dhearg
-  black_bed: Leabaidh dhubh
+  red_bed: Leabaidh dearg
+  black_bed: Leabaidh dubh
   cookie: Briosgaid
   filled_map: Mapa
   shears: Deamhas
@@ -765,6 +879,7 @@ material:
   cauldron: Coire
   ender_eye: Sùil Ender
   glistering_melon_slice: Sliseag meal-bhuic ghleansaich
+  axolotl_spawn_egg: Spawn airson Axolotl
   bat_spawn_egg: Ugh gintinn ialtaig
   bee_spawn_egg: Ugh gintinn seillean
   blaze_spawn_egg: Ugh gintinn leòis
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: Ugh gintinn tairmeir
   fox_spawn_egg: Ugh gintinn sionnach
   ghast_spawn_egg: Ugh gintinn eugaich
+  glow_squid_spawn_egg: Spawn airson Glow Squid
+  goat_spawn_egg: Ugh sìolachaidh gobhair
   guardian_spawn_egg: Ugh gintinn freiceadain
   hoglin_spawn_egg: Hoglin Spawn Ugh
   horse_spawn_egg: Ugh gintinn eich
@@ -833,8 +950,8 @@ material:
   fire_charge: Bun teine
   writable_book: Leabhar is cleit
   written_book: Leabhar sgrìobhte
-  emerald: Smàrag
   item_frame: Frèam
+  glow_item_frame: Glow Item Frame
   flower_pot: Poit-phlanntrais
   carrot: Curran
   potato: Buntàta
@@ -848,17 +965,12 @@ material:
   zombie_head: Ceann cuirp-choisiche
   creeper_head: Ceann creeper
   dragon_head: Ceann dràgoin
-  carrot_on_a_stick: Bata le curran
-  warped_fungus_on_a_stick: Warped Bharrachd air Maide
   nether_star: Rionnag Nether
   pumpkin_pie: Pàidh peapaige
   firework_rocket: Rocaid cleasa-theine
   firework_star: Rionnag cleasa-theine
   enchanted_book: Leabhar fo gheas
   nether_brick: Breige Nether
-  quartz: Èiteag Nether
-  tnt_minecart: Cairt-mhèinnearachd le TNT
-  hopper_minecart: Cairt-mhèinnearachd le drabhailt
   prismarine_shard: Sgealb priosaim-mhara
   prismarine_crystals: Criostalan priosaim-mhara
   rabbit: Feòil-choineanaich amh
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: Saighead le barr
   lingering_potion: Deoch-fhuireachd
   shield: Sgiath
-  elytra: Sgiathanan
-  spruce_boat: Bàta giuthais
-  birch_boat: Bàta beithe
-  jungle_boat: Bàta dlùth-choille
-  acacia_boat: Bàta sitta
-  dark_oak_boat: Bàta daraich dhuirch
   totem_of_undying: Tòtam dìona o bhàs
   shulker_shell: Slige shulker
   iron_nugget: Cnapan iarainn
@@ -948,13 +1054,13 @@ material:
   cartography_table: Clàr cartografaidh
   fletching_table: Clàr fletching
   grindstone: Clach-ghràin
-  lectern: Lectern
   smithing_table: Bòrd gobha
   stonecutter: Clach-chlach
   bell: Clag
   lantern: Lanntair
   soul_lantern: Seoul Lantern
   sweet_berries: Caora milis
+  glow_berries: Caora Glow
   campfire: Campfire
   soul_campfire: Soul Cearc
   shroomlight: Shroom light
@@ -962,12 +1068,8 @@ material:
   bee_nest: Nead sheillean
   beehive: Seillean-mòr
   honey_bottle: Botail meala
-  honey_block: Bloc meala
   honeycomb_block: Bloc còn meala
   lodestone: Lodestone
-  netherite_block: Bloc Netherite
-  ancient_debris: Seann Sprùilleach
-  target: Targaid
   crying_obsidian: Crying Obsidian
   blackstone: Blackcloiche
   blackstone_slab: Blackcloiche Labs
@@ -982,6 +1084,28 @@ material:
   polished_blackstone_brick_stairs: Polished Blackstone Brick Staidhre
   cracked_polished_blackstone_bricks: Cracked Polished Blackstone Bricks
   respawn_anchor: Acair ath-shuidheachadh
+  candle: Coinneal
+  white_candle: Coinneal Geal
+  orange_candle: Coinneal Orains
+  magenta_candle: Coinneal Magenta
+  light_blue_candle: Coinneal Gorm-Soilear
+  yellow_candle: Coinneal Buidhe
+  lime_candle: Coinneal Uaine Soilear
+  pink_candle: Coinneal Pinc
+  gray_candle: Coinneal Glas
+  light_gray_candle: Coinneal Glas Soilear
+  cyan_candle: Coinneal Gorm Soilear
+  purple_candle: Coinneal Purpaidh
+  blue_candle: Coinneal Gorm
+  brown_candle: Coinneal Donn
+  green_candle: Coinneal Uaine
+  red_candle: Coinneal Dearg
+  black_candle: Coinneal Dubh
+  small_amethyst_bud: Amethyst Bud Beag
+  medium_amethyst_bud: Amethyst Bud Meadhan-Mor
+  large_amethyst_bud: Amethyst Bud Mor
+  amethyst_cluster: Cluster de Amethyst
+  pointed_dripstone: Pointed Dripstone
   water: Uisge
   lava: Làbha
   tall_seagrass: Bilearach-mara fada
@@ -1004,19 +1128,22 @@ material:
   attached_melon_stem: Lus ceangailte meal-bhuic
   pumpkin_stem: Lus peapaige
   melon_stem: Lus meal-bhuic
+  water_cauldron: Crochan Uisge
+  lava_cauldron: Crochan Lava
+  powder_snow_cauldron: Crochan de powdered snow
   end_portal: Doras End
   cocoa: Còco
   tripwire: Uèir-ribe
-  potted_oak_sapling: Fiùran daraich ann am poit
-  potted_spruce_sapling: Fiùran giuthais ann am poit
-  potted_birch_sapling: Fiùran beithe ann am poit
-  potted_jungle_sapling: Fiùran dlùth-choille ann am poit
-  potted_acacia_sapling: Fiùran sitta ann am poit
-  potted_dark_oak_sapling: Fiùran daraich dhuirch ann am poit
-  potted_fern: Raineach ann am poit
-  potted_dandelion: Beàrnan-Brìde ann am poit
-  potted_poppy: Crom-lus ann am poit
-  potted_blue_orchid: Magairle ghorm ann am poit
+  potted_oak_sapling: Poit de Fiùran daraich
+  potted_spruce_sapling: Poit de Fiùran giuthais
+  potted_birch_sapling: Poit de Fiùran beithe
+  potted_jungle_sapling: Poit de Fiùran dlùth-choille
+  potted_acacia_sapling: Poit de iùran sitta
+  potted_dark_oak_sapling: Poit de Fiùran daraich dhuirch
+  potted_fern: Poit de Raineach
+  potted_dandelion: Poit de Beàrnan-Brìde
+  potted_poppy: Poit de Crom-lus
+  potted_blue_orchid: Poit de Magairle ghorm
   potted_allium: Uinnean Pearsach ann am poit
   potted_azure_bluet: Gorm-lus ann am poit
   potted_red_tulip: Tiuilip dhearg ann am poit
@@ -1083,6 +1210,30 @@ material:
   potted_warped_fungus: Potted Warped Bharrachd
   potted_crimson_roots: Potted Crimson Roots
   potted_warped_roots: Potted Warped Roots
+  candle_cake: Coinneal Ceic
+  white_candle_cake: Ceic le Coinneal Geal
+  orange_candle_cake: Ceic le Coinneal orains
+  magenta_candle_cake: Ceic le Coinneal Magenta
+  light_blue_candle_cake: Ceic le Coinneal Gorm-Soillear
+  yellow_candle_cake: Ceic le Coinneal Buidhe
+  lime_candle_cake: Ceic le Coinneal Aoil
+  pink_candle_cake: Ceic le Coinneal Pinc
+  gray_candle_cake: Ceic le Coinneal Glas
+  light_gray_candle_cake: Ceic le Coinneal Glas-Soillear
+  cyan_candle_cake: Ceic le Coinneal Saidhean
+  purple_candle_cake: Ceic le Coinneal Purpaidh
+  blue_candle_cake: Ceic le Coinneal Gorm
+  brown_candle_cake: Ceic le Coinneal Donn
+  green_candle_cake: Ceic le Coinneal Uaine
+  red_candle_cake: Ceic le Coinneal Dearg
+  black_candle_cake: Ceic le Coinneal Dubh
+  powder_snow: Pudar Sneachd
+  cave_vines: Fìonaichean uaimhe
+  cave_vines_plant: Lusan Vines Uaimh
+  big_dripleaf_stem: Gas mòr Dripleaf
+  potted_azalea_bush: Azalea ann an poit
+  potted_flowering_azalea_bush: Flur azalea ann an poit
+  grass_path: Staran feòir
   zombie_pigman_spawn_egg: Ugh gintinn cuirp-mhucair
   cactus_green: Uaine a' chactais
   dandelion_yellow: Buidhe a' bheàrnain-Bhrìde
@@ -1169,46 +1320,48 @@ biome:
   crimson_forest: Crimson Forest
   warped_forest: Warped Forest
   basalt_deltas: Deltas basalt
+  dripstone_caves: Uaimhean Dripstone
+  lush_caves: Uaimhean Lush
   nether: Nether
 enchantment:
-  fire_protection: Dìon an aghaidh teine
-  sharpness: Geurad
-  flame: Lasair
-  soul_speed: Soul Na Gaoithe
-  aqua_affinity: Dàimh ri uisge
-  punch: Buille
-  loyalty: Dìlseachd
-  depth_strider: Coiseachd na doimhne
-  vanishing_curse: Mallachd dol à sealladh
-  unbreaking: Do-bhriseadh
-  knockback: Sraonadh
-  luck_of_the_sea: Fortan na mara
-  binding_curse: Mallachd nasgaidh
-  fortune: Fortan
   protection: Dìon
-  efficiency: Dian-obair
-  mending: Càradh
-  frost_walker: Coiseachd an reòthaidh
-  lure: Tàladh
-  looting: Spùinneadh
-  piercing: A ’tolladh
-  blast_protection: Dìon an aghaidh spreadhadh
-  smite: Beum
-  multishot: Ioma sealladh
-  fire_aspect: Losgadh
-  channeling: Seanaileadh
-  sweeping: Lann siabaidh
-  thorns: Drisean
-  bane_of_arthropods: Milleadh nan arthropod
-  respiration: Analachd
-  riptide: Bras-shruth
-  silk_touch: Làimhseachadh cùramach
-  quick_charge: Cìs luath
-  projectile_protection: Dìon an aghaidh astasan
-  impaling: Tro-lotadh
+  fire_protection: Dìon an aghaidh teine
   feather_falling: Sgiath-thuiteam
+  blast_protection: Dìon an aghaidh spreadhadh
+  projectile_protection: Dìon an aghaidh astasan
+  respiration: Analachd
+  aqua_affinity: Dàimh ri uisge
+  thorns: Drisean
+  depth_strider: Coiseachd na doimhne
+  frost_walker: Coiseachd an reòthaidh
+  binding_curse: Mallachd nasgaidh
+  sharpness: Geurad
+  smite: Beum
+  bane_of_arthropods: Milleadh nan arthropod
+  knockback: Sraonadh
+  fire_aspect: Losgadh
+  looting: Spùinneadh
+  sweeping: Lann siabaidh
+  efficiency: Dian-obair
+  silk_touch: Làimhseachadh cùramach
+  unbreaking: Do-bhriseadh
+  fortune: Fortan
   power: Cumhachd
+  punch: Buille
+  flame: Lasair
   infinity: Neo-chrìochnachd
+  luck_of_the_sea: Fortan na mara
+  lure: Tàladh
+  loyalty: Dìlseachd
+  impaling: Tro-lotadh
+  riptide: Bras-shruth
+  channeling: Seanaileadh
+  multishot: Ioma sealladh
+  quick_charge: Cìs luath
+  piercing: A ’tolladh
+  mending: Càradh
+  vanishing_curse: Mallachd dol à sealladh
+  soul_speed: Soul Na Gaoithe
 potion:
   uncraftable: Deoch nach gabh dèanamh le ceàrd
   water: Searrag le uisge
@@ -1403,6 +1556,11 @@ entity:
   strider: Strider
   zoglin: Zoglin
   piglin_brute: Brute Piglin
+  axolotl: Axolotl
+  glow_item_frame: Glow Item Frame
+  glow_squid: Glow Squid
+  goat: Gobhar
+  marker: Comharra
   fishing_hook: Bùidh iasgaich
   lightning: Beithir
   player: Cluicheadair
@@ -2202,17 +2360,3 @@ villager_profession:
   shepherd: Cìobair
   toolsmith: Inneal-inneal
   weaponsmith: Armachd
-villager_career:
-  farmer: Tuathanach
-  fisherman: Iasgair
-  shepherd: Cìobair
-  fletcher: Fleistear
-  librarian: Leabharlannaiche
-  cartographer: Fear nam mapa
-  cleric: Clèireach
-  armorer: Ceàrd-armachd
-  weapon_smith: Airm-cheàrd
-  tool_smith: Ceàrd
-  butcher: Feòladair
-  leatherworker: Ceàrd-leathrach
-  nitwit: Amadan

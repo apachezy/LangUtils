@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:46                    #
+# Build time: 2021-07-04 21:46:01                    #
 # ####################################################
 language:
   code: az_az
@@ -14,10 +14,17 @@ material:
   polished_diorite: Cilalanmış Diorit
   andesite: Andezit
   polished_andesite: Cilalanmış Andezit
+  deepslate: Şifer daşı
+  cobbled_deepslate: Qırıq şifer daşı
+  polished_deepslate: Poliroval Dərin Slatı
+  calcite: Kalsit
+  tuff: Tuf
+  dripstone_block: Damcı daşı bloku
   grass_block: Otlu Torpaq
   dirt: Torpaq
   coarse_dirt: Cod Torpaq
   podzol: Podzol
+  rooted_dirt: Köklü torpaq
   crimson_nylium: Al nilium
   warped_nylium: Əyri nilium
   cobblestone: Qırıq Daş
@@ -39,10 +46,67 @@ material:
   sand: Qum
   red_sand: Qırmızı Qum
   gravel: Çınqıl
-  gold_ore: Qızıl Filizi
-  iron_ore: Dəmir Filizi
   coal_ore: Kömür Filizi
+  deepslate_coal_ore: Şiferli kömür filizi
+  iron_ore: Dəmir Filizi
+  deepslate_iron_ore: Şiferli dəmir filizi
+  copper_ore: Mis filizi
+  deepslate_copper_ore: Şiferli mis filizi
+  gold_ore: Qızıl Filizi
+  deepslate_gold_ore: Şiferli qızıl filizi
+  redstone_ore: Qızıl Daş Filizi
+  deepslate_redstone_ore: Şiferli qırmızıdaş filizi
+  emerald_ore: Zümrüd Filizi
+  deepslate_emerald_ore: Şiferli zümrüd filizi
+  lapis_ore: Lapis Lazuli Filizi
+  deepslate_lapis_ore: Şiferli lapis lazuli filizi
+  diamond_ore: Almaz Filizi
+  deepslate_diamond_ore: Şiferli almaz filizi
   nether_gold_ore: Cəhənnəm qızıl filizi
+  nether_quartz_ore: Nether Kvarsı Filizi
+  ancient_debris: Qədim qalıq
+  coal_block: Kömür Bloku
+  raw_iron_block: Xam dəmir blok
+  raw_copper_block: Xam mis blok
+  raw_gold_block: Xam mis qızıl
+  amethyst_block: Ametist bloku
+  budding_amethyst: Tumurcuqlanan ametist
+  iron_block: Dəmir Bloku
+  copper_block: Mis bloku
+  gold_block: Qızıl Bloku
+  diamond_block: Almaz Bloku
+  netherite_block: Nezerit bloku
+  exposed_copper: Müdafiəsiz qalmış mis
+  weathered_copper: Solmuş mis
+  oxidized_copper: Oksidləşmiş mis
+  cut_copper: Kəsilmiş mis
+  exposed_cut_copper: Müdafiəsiz qalmış kəsilmiş mis
+  weathered_cut_copper: Solmuş kəsilmiş mis
+  oxidized_cut_copper: Oksidləşmiş kəsilmiş mis
+  cut_copper_stairs: Kəsilmiş mis pilləkən
+  exposed_cut_copper_stairs: Müdafiəsiz qalmış kəsilmiş mis pilləkən
+  weathered_cut_copper_stairs: Solmuş kəsilmiş mis pilləkən
+  oxidized_cut_copper_stairs: Oksidləşmiş kəsilmiş mis pilləkən
+  cut_copper_slab: Kəsilmiş mis pillə
+  exposed_cut_copper_slab: Müdafiəsiz qalmış kəsilmiş mis pillə
+  weathered_cut_copper_slab: Solmuş kəsilmiş mis pillə
+  oxidized_cut_copper_slab: Oksidləşmiş kəsilmiş mis pillə
+  waxed_copper_block: Mumlanmış mis bloku
+  waxed_exposed_copper: Mumlu müdafiəsiz qalmış mis
+  waxed_weathered_copper: Mumlu solmuş mis
+  waxed_oxidized_copper: Mumlanmış okdisləşmiş mis
+  waxed_cut_copper: Mumlanmış kəsilmiş mis
+  waxed_exposed_cut_copper: Mumlu müdafiəsiz qalmış kəsilmiş mis
+  waxed_weathered_cut_copper: Mumlu solmuş kəsilmiş mis
+  waxed_oxidized_cut_copper: Mumlanmış oksidləşmiş kəsilmiş mis
+  waxed_cut_copper_stairs: Mumlanmış kəsilmiş mis pilləkən
+  waxed_exposed_cut_copper_stairs: Mumlu müdafiəsiz qalmış kəsilmiş mis pilləkən
+  waxed_weathered_cut_copper_stairs: Mumlu solmuş kəsilmiş mis pilləkən
+  waxed_oxidized_cut_copper_stairs: Mumlanmış okdisləşmiş kəsilmiş mis pilləkən
+  waxed_cut_copper_slab: Mumlanmış kəsilmiş mis pillə
+  waxed_exposed_cut_copper_slab: Mumlu müdafiəsiz qalmış kəsilmiş mis pillə
+  waxed_weathered_cut_copper_slab: Mumlu solmuş kəsilmiş mis pillə
+  waxed_oxidized_cut_copper_slab: Mumlanmış oksidləşmiş kəsilmiş mis pillə
   oak_log: Palıd kötüyü
   spruce_log: Küknar kötüyü
   birch_log: Ağcaqayın kötüyü
@@ -81,26 +145,24 @@ material:
   jungle_leaves: Cəngəllik Ağacı Yarpaqları
   acacia_leaves: Akasiya Yarpaqları
   dark_oak_leaves: Qara Meşə Yarpaqları
+  azalea_leaves: Azaliya Yarpaqları
+  flowering_azalea_leaves: Çiçəkləyən Azaliya Yarpaqları
   sponge: Süngər
   wet_sponge: İslaq Süngər
   glass: Şüşə
-  lapis_ore: Lapis Lazuli Filizi
-  lapis_block: Lapis Lazuli Bloku
-  dispenser: Atıcı
+  tinted_glass: Rəngli şüşə
+  lapis_block: Lapis Lazuli bloku
   sandstone: Qumdaşı
   chiseled_sandstone: Oyma Qumdaşı
   cut_sandstone: Kəsilmiş qum daşı
-  note_block: Not Bloku
-  powered_rail: Gücləndirilmiş Rels
-  detector_rail: Dedektor Rels
-  sticky_piston: Yapışqan Piston
   cobweb: Hörümçək Toru
   grass: Ot
   fern: Qıjı
+  azalea: Azaliya
+  flowering_azalea: Çiçəkləyən Azaliya
   dead_bush: Ölü Bitki
   seagrass: Dəniz Otu
   sea_pickle: Dəniz xiyarı
-  piston: Piston
   white_wool: Ağ Yun
   orange_wool: Narıncı Yun
   magenta_wool: Magenta Yun
@@ -130,6 +192,7 @@ material:
   cornflower: Güləvər
   lily_of_the_valley: May inciçiçəyi
   wither_rose: Wither Gülü
+  spore_blossom: Spor çiçəyi
   brown_mushroom: Qəhvəyi Göbələk
   red_mushroom: Qırmızı Göbələk
   crimson_fungus: Al göbələk
@@ -140,10 +203,13 @@ material:
   weeping_vines: Ağlayan sarmaşıq
   twisting_vines: Burulmuş sarmaşıq
   sugar_cane: Şəkərqamışı
-  kelp: Kelp
+  kelp: Yosun
+  moss_carpet: Mamır xalçası
+  moss_block: Mamır bloku
+  hanging_roots: Sallanan köklər
+  big_dripleaf: Böyük damcıyarpaq
+  small_dripleaf: Kiçik damcıyarpaq
   bamboo: Bambuk
-  gold_block: Qızıl Bloku
-  iron_block: Dəmir Bloku
   oak_slab: Meşə Pillə
   spruce_slab: Ladin Pillə
   birch_slab: Ağcaqayın Pillə
@@ -153,7 +219,7 @@ material:
   crimson_slab: Al pillə
   warped_slab: Əyri pillə
   stone_slab: Daş Pillə
-  smooth_stone_slab: Hamar daş pillə
+  smooth_stone_slab: Düzgün Daş Pillə
   sandstone_slab: Qumdaşı Pillə
   cut_sandstone_slab: Kəsilmiş qum daşı pillə
   petrified_oak_slab: Daşlaşmış palıd pillə
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: Düzgün Qumdaşı
   smooth_stone: Hamar daş
   bricks: Kərpic
-  tnt: TNT
   bookshelf: Kitab Rəfi
   mossy_cobblestone: Mamırlı qırıq daş
   obsidian: Obsidian
@@ -187,27 +252,11 @@ material:
   spawner: Çağırıcı
   oak_stairs: Meşə Pilləkan
   chest: Sandıq
-  diamond_ore: Almaz Filizi
-  diamond_block: Almaz Bloku
   crafting_table: Hazırlama Masası
   farmland: Tarla Ərazısı
   furnace: Soba
   ladder: Nərdivan
-  rail: Rels
   cobblestone_stairs: Qırıq Daş Pilləkan
-  lever: Ling
-  stone_pressure_plate: Daş Təyziq Təbəqəsi
-  oak_pressure_plate: Meşə Təyziq Təbəqəsi
-  spruce_pressure_plate: Ladin Təyziq Təbəqəsi
-  birch_pressure_plate: Ağcaqayın Təyziq Təbəqəsi
-  jungle_pressure_plate: Cəngəllik Ağacı Təyziq Təbəqəsi
-  acacia_pressure_plate: Akasiya Təyziq Təbəqəsi
-  dark_oak_pressure_plate: Qara Meşə Təyziq Təbəqəsi
-  crimson_pressure_plate: Al təzyiq lövhəsi
-  warped_pressure_plate: Əyri təzyiq lövhəsi
-  polished_blackstone_pressure_plate: Hamar qaradaş təzyiq lövhəsi
-  redstone_ore: Qızıl Daş Filizi
-  redstone_torch: Qızıl Daş Məşəli
   snow: Qar
   ice: Buz
   snow_block: Qar Bloku
@@ -224,48 +273,40 @@ material:
   warped_fence: Əyri çəpər
   pumpkin: Balqabaq
   carved_pumpkin: Oyulmuş balqabaq
+  jack_o_lantern: Balqabaq Lampası
   netherrack: Nether Daşı
   soul_sand: Ruh Qumu
   soul_soil: Ruh torpağı
   basalt: Bazalt
   polished_basalt: Hamar bazalt
+  smooth_basalt: Hamar bazalt
   soul_torch: Ruh məşəli
   glowstone: İşıq Daşı
-  jack_o_lantern: Balqabaq Lampası
-  oak_trapdoor: Meşə Tələ Qapısı
-  spruce_trapdoor: Ladin Tələ Qapısı
-  birch_trapdoor: Ağcaqayın Tələ Qapısı
-  jungle_trapdoor: Cəngəllik Ağacı Tələ Qapısı
-  acacia_trapdoor: Akasiya Tələ Qapısı
-  dark_oak_trapdoor: Qara Meşə Tələ Qapısı
-  crimson_trapdoor: Al tələ qapısı
-  warped_trapdoor: Əyri tələ qapısı
-  infested_stone: Birləşdirmə daşı
-  infested_cobblestone: Birləşdirilmiş qırıq daş
-  infested_stone_bricks: Birləşdirilmiş daş kərpic
-  infested_mossy_stone_bricks: Birləşdirilmiş mamırlı daş kərpic
-  infested_cracked_stone_bricks: Birləşdirilmiş çatlamış daş kərpic
-  infested_chiseled_stone_bricks: Birləşdirilmiş oyma daş kərpic
+  infested_stone: Yoluxmuş Daş
+  infested_cobblestone: Yoluxmuş Qırıq Daş
+  infested_stone_bricks: Yoluxmuş Daş Kərpic
+  infested_mossy_stone_bricks: Yoluxmuş Mamırlı Daş Kərpic
+  infested_cracked_stone_bricks: Yoluxmuş Çatlamış Daş Kərpic
+  infested_chiseled_stone_bricks: Yoluxmuş Oyma Daş Kərpic
+  infested_deepslate: Pis Abyssal Şist
   stone_bricks: Daş Kərpic
   mossy_stone_bricks: Mamırlı Daş Kərpic
   cracked_stone_bricks: Çatlaq Daş Kərpic
   chiseled_stone_bricks: Oyma Daş Kərpic
+  deepslate_bricks: Şifer daşı kərpicləri
+  cracked_deepslate_bricks: Qırıq şifer kərpiclər
+  deepslate_tiles: Şifer daşı kafeli
+  cracked_deepslate_tiles: qırıq dipsleyt plitələri
+  chiseled_deepslate: Kəsilmiş Dərin Slantı
   brown_mushroom_block: Qəhvəyi Göbələk Bloku
   red_mushroom_block: Qırmızı Göbələk Bloku
   mushroom_stem: Göbələk Sapı
   iron_bars: Dəmir Barmaqlıq
-  chain: Zəncir
+  chain: Zəncirləmə
   glass_pane: İncə Şüşə
   melon: Qarpız
   vine: Sarmaşıq
-  oak_fence_gate: Meşə Çəpər Qapısı
-  spruce_fence_gate: Ladin Çəpər Qapısı
-  birch_fence_gate: Ağcaqayın Çəpər Qapısı
-  jungle_fence_gate: Cəngəllik Ağacı Çəpər Qapısı
-  acacia_fence_gate: Akasiya Çəpər Qapısı
-  dark_oak_fence_gate: Qara Meşə Çəpər Qapısı
-  crimson_fence_gate: Al çəpər qapısı
-  warped_fence_gate: Əyri çəpər qapısı
+  glow_lichen: Parıldayan şibyə
   brick_stairs: Kərpic Pilləkan
   stone_brick_stairs: Daş Kərpic Pilləkan
   mycelium: Mitseli
@@ -280,11 +321,8 @@ material:
   end_stone: End Daşı
   end_stone_bricks: End Daşı Kərpic
   dragon_egg: Əjdaha Yumurtası
-  redstone_lamp: Qızıl Daş Lampası
   sandstone_stairs: Qumdaşı Pilləkan
-  emerald_ore: Zümrüd Filizi
   ender_chest: Ender Sandıqı
-  tripwire_hook: Tələ Qarmağı
   emerald_block: Zümrüd Bloku
   spruce_stairs: Ladin Pilləkan
   birch_stairs: Ağcaqayın Pilləkan
@@ -301,7 +339,7 @@ material:
   mossy_stone_brick_wall: Mamırlı Daş Kərpic Divar
   granite_wall: Qranit Divar
   stone_brick_wall: Daş Kərpic Divar
-  nether_brick_wall: Nezer kərpici divarı
+  nether_brick_wall: Nether Kərpici Divar
   andesite_wall: Andezit Divar
   red_nether_brick_wall: Qırmızı Nezer kərpici divarı
   sandstone_wall: Qumdaşı Divar
@@ -310,33 +348,18 @@ material:
   blackstone_wall: Qaradaş divar
   polished_blackstone_wall: Hamar qaradaş divar
   polished_blackstone_brick_wall: Hamar qaradaş kərpic divar
-  stone_button: Daş Düymə
-  oak_button: Meşə Düymə
-  spruce_button: Ladin Düymə
-  birch_button: Ağcaqayın Düymə
-  jungle_button: Cəngəllik Ağacı Düymə
-  acacia_button: Akasiya Düymə
-  dark_oak_button: Qara Meşə Düymə
-  crimson_button: Al düymə
-  warped_button: Əyri düymə
-  polished_blackstone_button: Hamar qaradaş düymə
+  cobbled_deepslate_wall: Daşlatmış Dərinslatlı Divar
+  polished_deepslate_wall: Hamar şifer daşı divar
+  deepslate_brick_wall: Şifer daşı kərpicindən divar
+  deepslate_tile_wall: Şifer daşı kafelindən divar
   anvil: Dəmirçi Zindanı
-  chipped_anvil: Çatlamış zindan
-  damaged_anvil: Sınmış zindan
-  trapped_chest: Tələli Sandıq
-  light_weighted_pressure_plate: Həssas Ağırlıqlı Təyziq Təbəqəsi
-  heavy_weighted_pressure_plate: Sərt Ağırlıqlı Təyziq Təbəqəsi
-  daylight_detector: Gün işığı detektoru
-  redstone_block: Qızıl Daş Bloku
-  nether_quartz_ore: Nether Kvarsı Filizi
-  hopper: Süzgəc
+  chipped_anvil: Çatlamış Örs
+  damaged_anvil: Sınmış Örs
   chiseled_quartz_block: Oyma Kvars Bloku
   quartz_block: Kvars Bloku
   quartz_bricks: Kvars kərpic
   quartz_pillar: Kvars sütun
   quartz_stairs: Kvars Pilləkan
-  activator_rail: Aktivləyiçi Rels
-  dropper: Buraxıcı
   white_terracotta: Ağ terrakotta
   orange_terracotta: Narıncı terrakotta
   magenta_terracotta: Macenta terrakotta
@@ -349,12 +372,12 @@ material:
   cyan_terracotta: Firuzəyi terrakotta
   purple_terracotta: Bənövşəyi terrakotta
   blue_terracotta: Göy terrakotta
-  brown_terracotta: Qəhvəyi terrakotta
+  brown_terracotta: Qəhvəyi Terrakotta
   green_terracotta: Yaşıl terrakotta
   red_terracotta: Qırmızı Terrakotta
   black_terracotta: Qara Terrakotta
   barrier: Baryer
-  iron_trapdoor: Dəmir Tələ Qapısı
+  light: İşıq
   hay_block: Saman tayası
   white_carpet: Ağ Xalça
   orange_carpet: Narıncı Xalça
@@ -373,12 +396,10 @@ material:
   red_carpet: Qırmızı Xalça
   black_carpet: Qara Xalça
   terracotta: Terrakotta
-  coal_block: Kömür Bloku
   packed_ice: Paketlənmiş Buz
   acacia_stairs: Akasiya Pilləkan
   dark_oak_stairs: Qara Meşə Pilləkan
-  slime_block: Palçıq Bloku
-  grass_path: Ot Yol
+  dirt_path: Torpaq yol
   sunflower: Günəbaxan
   lilac: Yasəmən
   rose_bush: Qızılgül Kolu
@@ -421,7 +442,7 @@ material:
   prismarine_bricks: Prizmarin Kərpici
   dark_prismarine: Qara Prizmarin
   prismarine_stairs: Prizmarin pilləkən
-  prismarine_brick_stairs: Prizmarin kərpici pilləkən
+  prismarine_brick_stairs: Prizmarin Kərpici Pilləkan
   dark_prismarine_stairs: Qara prizmarin pilləkən
   sea_lantern: Dəniz Fənəri
   red_sandstone: Qırmızı Qumdaşı
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: Qırmızı Nether Kərpici
   bone_block: Sümük Bloku
   structure_void: Struktur Boşluğu
-  observer: Gözləmçi
   shulker_box: Shulker Qutusu
   white_shulker_box: Ağ Shulker Qutusu
   orange_shulker_box: Narıncı Shulker Qutusu
@@ -454,22 +474,22 @@ material:
   green_shulker_box: Yaşıl Shulker Qutusu
   red_shulker_box: Qırmızı Shulker Qutusu
   black_shulker_box: Qara Shulker Qutusu
-  white_glazed_terracotta: Ağ şirli terrakotta
+  white_glazed_terracotta: Ağ Şirli Terrakotta
   orange_glazed_terracotta: Narıncı şirli terrakotta
-  magenta_glazed_terracotta: Macenta şirli terrakotta
+  magenta_glazed_terracotta: Magenta Şirli Terrakotta
   light_blue_glazed_terracotta: Açıq göy şirli terrakotta
   yellow_glazed_terracotta: Sarı şirli terrakotta
-  lime_glazed_terracotta: Açıq yaşıl şirli terrakotta
-  pink_glazed_terracotta: Çəhrayı şirli terrakotta
+  lime_glazed_terracotta: Laym Şirli Terrakotta
+  pink_glazed_terracotta: Çəhrayı Şirli Terrakotta
   gray_glazed_terracotta: Boz Şirli Terrakotta
   light_gray_glazed_terracotta: Açıq boz çirli terrakotta
   cyan_glazed_terracotta: Firuzəyi şirli terrakotta
-  purple_glazed_terracotta: Bənövşəyi şirli terrakotta
-  blue_glazed_terracotta: Göy şirli terrakotta
-  brown_glazed_terracotta: Qəhvəyi şirli terrakotta
-  green_glazed_terracotta: Yaşıl şirli terrakotta
-  red_glazed_terracotta: Qırmızı şirli terrakotta
-  black_glazed_terracotta: Qara şirli terrakotta
+  purple_glazed_terracotta: Bənövşəyi Şirli Terrakotta
+  blue_glazed_terracotta: Göy Şirli Terrakotta
+  brown_glazed_terracotta: Qəhvəyi Şirli Terrakotta
+  green_glazed_terracotta: Yaşıl Şirli Terrakotta
+  red_glazed_terracotta: Qırmızı Şirli Terrakotta
+  black_glazed_terracotta: Qara Şirli Terrakotta
   white_concrete: Ağ Beton
   orange_concrete: Narıncı Beton
   magenta_concrete: Magenta Beton
@@ -550,6 +570,10 @@ material:
   red_nether_brick_stairs: Qırmızı Nezer kərpici pilləkanı
   polished_andesite_stairs: Cilalanmış Andezit Pilləkan
   diorite_stairs: Diorit Pilləkan
+  cobbled_deepslate_stairs: Daşlatmış Dərinslatlı pilləkən
+  polished_deepslate_stairs: Hamar şifer daşı pilləkən
+  deepslate_brick_stairs: Şifer daşı kərpicindən pilləkən
+  deepslate_tile_stairs: Şifer daşı kafelindən pilləkən
   polished_granite_slab: Cilalanmış Qranit Pillə
   smooth_red_sandstone_slab: Düzgün Qırmızı Qumdaşı Pillə
   mossy_stone_brick_slab: Mamırlı Daş Kərpic Pillə
@@ -563,7 +587,57 @@ material:
   red_nether_brick_slab: Qırmızı Nezer kərpici pilləsi
   polished_andesite_slab: Cilalanmış Andezit Pillə
   diorite_slab: Diorit Pillə
+  cobbled_deepslate_slab: Daşlamış Dərin Slab
+  polished_deepslate_slab: Hamar şifer daşı pillə
+  deepslate_brick_slab: Şifer daşı kərpicindən pillə
+  deepslate_tile_slab: Şifer daşı kafelindən pillə
   scaffolding: Səhnəyə
+  redstone: Qızıl Daş Tozu
+  redstone_torch: Qızıl Daş Məşəli
+  redstone_block: Qızıl Daş Bloku
+  repeater: Qızıl Daş Təzələyici
+  comparator: Qızıl Daş Qarşılaşdırıcı
+  piston: Piston
+  sticky_piston: Yapışqan Piston
+  slime_block: Palçıq Bloku
+  honey_block: Bal Bloku
+  observer: Gözləmçi
+  hopper: Süzgəc
+  dispenser: Atıcı
+  dropper: Buraxıcı
+  lectern: Kafedra
+  target: Hədəf
+  lever: Ling
+  lightning_rod: İldırım ötürücü
+  daylight_detector: Gün İşığı Dedektoru
+  sculk_sensor: Skalk sensoru
+  tripwire_hook: Tələ Qarmağı
+  trapped_chest: Tələli Sandıq
+  tnt: TNT
+  redstone_lamp: Qızıl Daş Lampası
+  note_block: Not Bloku
+  stone_button: Daş Düymə
+  polished_blackstone_button: Hamar qaradaş düymə
+  oak_button: Meşə Düymə
+  spruce_button: Ladin Düymə
+  birch_button: Ağcaqayın Düymə
+  jungle_button: Cəngəllik Ağacı Düymə
+  acacia_button: Akasiya Düymə
+  dark_oak_button: Qara Meşə Düymə
+  crimson_button: Al düymə
+  warped_button: Əyri düymə
+  stone_pressure_plate: Daş Təyziq Təbəqəsi
+  polished_blackstone_pressure_plate: Hamar qaradaş təzyiq lövhəsi
+  light_weighted_pressure_plate: Həssas Ağırlıqlı Təyziq Təbəqəsi
+  heavy_weighted_pressure_plate: Sərt Ağırlıqlı Təyziq Təbəqəsi
+  oak_pressure_plate: Meşə Təyziq Təbəqəsi
+  spruce_pressure_plate: Ladin Təyziq Təbəqəsi
+  birch_pressure_plate: Ağcaqayın Təyziq Təbəqəsi
+  jungle_pressure_plate: Cəngəllik Ağacı Təyziq Təbəqəsi
+  acacia_pressure_plate: Akasiya Təyziq Təbəqəsi
+  dark_oak_pressure_plate: Qara Meşə Təyziq Təbəqəsi
+  crimson_pressure_plate: Al təzyiq lövhəsi
+  warped_pressure_plate: Əyri təzyiq lövhəsi
   iron_door: Dəmir Qapı
   oak_door: Meşə Qapı
   spruce_door: Ladin Qapı
@@ -573,8 +647,42 @@ material:
   dark_oak_door: Qara Meşə Qapı
   crimson_door: Al qapı
   warped_door: Əyri qapı
-  repeater: Qızıl Daş Təzələyici
-  comparator: Qızıl Daş Qarşılaşdırıcı
+  iron_trapdoor: Dəmir Tələ Qapısı
+  oak_trapdoor: Meşə Tələ Qapısı
+  spruce_trapdoor: Ladin Tələ Qapısı
+  birch_trapdoor: Ağcaqayın Tələ Qapısı
+  jungle_trapdoor: Cəngəllik Ağacı Tələ Qapısı
+  acacia_trapdoor: Akasiya Tələ Qapısı
+  dark_oak_trapdoor: Qara Meşə Tələ Qapısı
+  crimson_trapdoor: Al tələ qapısı
+  warped_trapdoor: Əyri tələ qapısı
+  oak_fence_gate: Meşə Çəpər Qapısı
+  spruce_fence_gate: Ladin Çəpər Qapısı
+  birch_fence_gate: Ağcaqayın Çəpər Qapısı
+  jungle_fence_gate: Cəngəllik Ağacı Çəpər Qapısı
+  acacia_fence_gate: Akasiya Çəpər Qapısı
+  dark_oak_fence_gate: Qara Meşə Çəpər Qapısı
+  crimson_fence_gate: Al çəpər qapısı
+  warped_fence_gate: Əyri çəpər qapısı
+  powered_rail: Gücləndirilmiş Rels
+  detector_rail: Dedektor Rels
+  rail: Rels
+  activator_rail: Aktivləyiçi Rels
+  saddle: Yəhər
+  minecart: Vaqon
+  chest_minecart: Sandıqlı Vaqon
+  furnace_minecart: Sobalı Vaqon
+  tnt_minecart: TNT-li Vaqon
+  hopper_minecart: Süzgəcli Vaqon
+  carrot_on_a_stick: Yerkökü Tilovu
+  warped_fungus_on_a_stick: Çubuqlu əyri göbələk
+  elytra: Qanadüstü
+  oak_boat: Meşə Qayıq
+  spruce_boat: Ladin Qayıq
+  birch_boat: Ağcaqayın Qayıq
+  jungle_boat: Cəngəllik Ağacı Qayıq
+  acacia_boat: Akasiya Qayıq
+  dark_oak_boat: Qara Meşə Qayıq
   structure_block: Struktur Bloku
   jigsaw: Pazl Bloku
   turtle_helmet: Tısbağa qabığı
@@ -586,7 +694,15 @@ material:
   coal: Kömür
   charcoal: Odun Kömürü
   diamond: Almaz
+  emerald: Zümrüd
+  lapis_lazuli: Lapis Lazuli
+  quartz: Nether Kvarsı
+  amethyst_shard: Ametist parçası
+  raw_iron: Xam dəmir
   iron_ingot: Dəmir Külçə
+  raw_copper: Xam mis
+  copper_ingot: Mis külçəsi
+  raw_gold: Xam qızıl
   gold_ingot: Qızıl Külçə
   netherite_ingot: Nezerit külçəsi
   netherite_scrap: Nezerit parçası
@@ -670,29 +786,27 @@ material:
   bucket: Vedrə
   water_bucket: Su Vedrəsi
   lava_bucket: Lava Vedrəsi
-  minecart: Vaqon
-  saddle: Yəhər
-  redstone: Qızıl Daş Tozu
+  powder_snow_bucket: Tozlu qar vedrəsi
   snowball: Qar Topu
-  oak_boat: Meşə Qayıq
   leather: Dəri
   milk_bucket: Süd Vedrəsi
   pufferfish_bucket: Kirpi Balığı Vedrəsi
   salmon_bucket: Salmon Vedrəsi
   cod_bucket: Treska Vedrəsi
   tropical_fish_bucket: Tropik balıq vedrəsi
+  axolotl_bucket: Aksolotl vedrəsi
   brick: Kərpic
   clay_ball: Gil topu
-  dried_kelp_block: Qurudulmuş kelp bloku
+  dried_kelp_block: Qurudulmuş Yosun Bloku
   paper: Kağız
   book: Kitab
   slime_ball: Palçıq Topu
-  chest_minecart: Sandıqlı Vaqon
-  furnace_minecart: Sobalı Vaqon
   egg: Yumurta
   compass: Kompas
+  bundle: Boğça
   fishing_rod: Tilov
   clock: Saat
+  spyglass: Durbin
   glowstone_dust: İşıq Daşı Tozu
   cod: Çiy Treska
   salmon: Çiy Salmon
@@ -701,8 +815,8 @@ material:
   cooked_cod: Bişmiş Treska
   cooked_salmon: Bişmiş Salmon
   ink_sac: Mürəkkəb Kisəsi
+  glow_ink_sac: Parıldayan mürəkkəb kisəsi
   cocoa_beans: Kakao Dənələri
-  lapis_lazuli: Lapis Lazuli
   white_dye: Ağ Boya
   orange_dye: Narıncı Boya
   magenta_dye: Magenta Boya
@@ -766,6 +880,7 @@ material:
   cauldron: Qazan
   ender_eye: Ender Gözü
   glistering_melon_slice: Parıldayan Qapız Dilimi
+  axolotl_spawn_egg: Aksolotl spaun yumurtası
   bat_spawn_egg: Yarasa Çağırma Yumurtası
   bee_spawn_egg: Arı çağırma yumurtası
   blaze_spawn_egg: Blaze Çağırma Yumurtası
@@ -784,6 +899,8 @@ material:
   evoker_spawn_egg: Cadugər çağırma yumurtası
   fox_spawn_egg: Tülkü Çağırma Yumurtası
   ghast_spawn_egg: Ghast Çağırma Yumurtası
+  glow_squid_spawn_egg: Parıldayan osminoq spaun yumurtası
+  goat_spawn_egg: Spawn Keçi Yumurta
   guardian_spawn_egg: Mühafizəçi Çağırma Yumurtası
   hoglin_spawn_egg: Hoqlin çağırma yumurtası
   horse_spawn_egg: At Çağırma Yumurtası
@@ -812,7 +929,7 @@ material:
   skeleton_horse_spawn_egg: Skelet At Çağırma Yumurtası
   slime_spawn_egg: Palçıq Çağırma Yumurtası
   spider_spawn_egg: Hörümçək Çağırma Yumurtası
-  squid_spawn_egg: Mürəkkəb Balığı Çağırma Yumurtası
+  squid_spawn_egg: Kalmar Çağırma Yumurtası
   stray_spawn_egg: Sərsəri Çağırma Yumurtası
   strider_spawn_egg: Strayder çağırma yumurtası
   trader_llama_spawn_egg: Tacir Laması Çağırma Yumurtası
@@ -834,8 +951,8 @@ material:
   fire_charge: Alov Topu
   writable_book: Kitab və Tük
   written_book: Yazılı Kitab
-  emerald: Zümrüd
   item_frame: Əşya Çərçivəsi
+  glow_item_frame: Parıldayan əşya çərçivəsi
   flower_pot: Saxsı
   carrot: Yerkökü
   potato: Kartof
@@ -849,17 +966,12 @@ material:
   zombie_head: Zombi Başı
   creeper_head: Creeper Başı
   dragon_head: Əjdaha Başı
-  carrot_on_a_stick: Yerkökü Tilovu
-  warped_fungus_on_a_stick: Çubuqlu əyri göbələk
   nether_star: Nether Ulduzu
   pumpkin_pie: Balqabaq Keksi
   firework_rocket: Fişəng Raketi
   firework_star: Fişəng Ulduzu
   enchanted_book: Sehrli Kitab
   nether_brick: Nether Kərpici
-  quartz: Nether Kvarsı
-  tnt_minecart: TNT-li Vaqon
-  hopper_minecart: Süzgəcli Vaqon
   prismarine_shard: Prizmarin Parçası
   prismarine_crystals: Prizmarin Kristalı
   rabbit: Çiy Dovşan Əti
@@ -905,12 +1017,6 @@ material:
   tipped_arrow: Eliksirli Ox
   lingering_potion: Daimi Eliksir
   shield: Qalxan
-  elytra: Qanadüstü
-  spruce_boat: Ladin Qayıq
-  birch_boat: Ağcaqayın Qayıq
-  jungle_boat: Cəngəllik Ağacı Qayıq
-  acacia_boat: Akasiya Qayıq
-  dark_oak_boat: Qara Meşə Qayıq
   totem_of_undying: Ölməmə Totemi
   shulker_shell: Shulker Qabığı
   iron_nugget: Dəmir Parçası
@@ -949,13 +1055,13 @@ material:
   cartography_table: Xəriteçi Masası
   fletching_table: Oxçu masası
   grindstone: İtiləmə
-  lectern: Kafedra
   smithing_table: Dəmirçi Masası
   stonecutter: Turk Meshurlar
   bell: Zəng
   lantern: Fənər
-  soul_lantern: Ruh fənəri
+  soul_lantern: Ruh Fənəri
   sweet_berries: Şirin giləmeyvə
+  glow_berries: Parlaq giləmeyvələr
   campfire: Düşərgə tonqalı
   soul_campfire: Ruh tonqalı
   shroomlight: Göbələk lampası
@@ -963,15 +1069,11 @@ material:
   bee_nest: Arı Yuvası
   beehive: Arı Pətəyi
   honey_bottle: Bal butulkası
-  honey_block: Bal Bloku
   honeycomb_block: Bal Pətəyi Bloku
-  lodestone: Maqnit daşı
-  netherite_block: Nezerit bloku
-  ancient_debris: Qədim qalıq
-  target: Hədəf
+  lodestone: Maqnitləşmis daş
   crying_obsidian: Ağlayan obsidian
   blackstone: Qaradaş
-  blackstone_slab: Qaradaş pillə
+  blackstone_slab: Qaradaş pilləsi
   blackstone_stairs: Qaradaş pilləkən
   gilded_blackstone: Zərli qaradaş
   polished_blackstone: Hamar qaradaş
@@ -983,11 +1085,33 @@ material:
   polished_blackstone_brick_stairs: Hamar qaradaş kərpic pilləkən
   cracked_polished_blackstone_bricks: Sınıq hamar qaradaş kərpic
   respawn_anchor: Respaun mayakı
+  candle: Şam
+  white_candle: Ağ şam
+  orange_candle: Narıncı şam
+  magenta_candle: Macenta şam
+  light_blue_candle: Açıq göy şam
+  yellow_candle: Sarı şam
+  lime_candle: Açıq yaşıl şam
+  pink_candle: Çəhrayı şam
+  gray_candle: Boz şam
+  light_gray_candle: Açıq boz şam
+  cyan_candle: Firuzəyi şam
+  purple_candle: Bənövşəyi şam
+  blue_candle: Göy şam
+  brown_candle: Qəhvəyi şam
+  green_candle: Yaşıl şam
+  red_candle: Qırmızı şam
+  black_candle: Qara şam
+  small_amethyst_bud: Kiçik ametist tumurcuğu
+  medium_amethyst_bud: Orta ametist tumurcuğu
+  large_amethyst_bud: Böyük ametist tumurcuğu
+  amethyst_cluster: Ametist salxımı
+  pointed_dripstone: İtiuclu damcı daşı bloku
   water: Su
   lava: Lava
   tall_seagrass: Uzun Dəniz Otu
   piston_head: Piston başlığı
-  moving_piston: Hərəkətli piston
+  moving_piston: Hərəkətli Piston
   wall_torch: Divar məşəli
   fire: Atəş
   soul_fire: Ruh alovu
@@ -1001,44 +1125,47 @@ material:
   redstone_wall_torch: Kızıltaş Duvar Meşalesi
   soul_wall_torch: Ruh divarı məşəli
   nether_portal: Nezer portalı
-  attached_pumpkin_stem: Bağlı balqabaq sapı
-  attached_melon_stem: Bağlı qarpız sapı
+  attached_pumpkin_stem: Bağlı balqabaq Sapı
+  attached_melon_stem: Bağlı Qarpız Sapı
   pumpkin_stem: Balqabaq Sapı
   melon_stem: Qarpız sapı
+  water_cauldron: Su qazanı
+  lava_cauldron: Lava qazanı
+  powder_snow_cauldron: Tozlu qar qazanı
   end_portal: End Keçidi
   cocoa: Kakao
   tripwire: Tələ İpi
-  potted_oak_sapling: Dibçəkli palıd fidanı
-  potted_spruce_sapling: Dibçəkli küknar fidanı
-  potted_birch_sapling: Ağcaqayın Fidanı Saxsısı
+  potted_oak_sapling: Meşə Fidanı Saxsısı
+  potted_spruce_sapling: Ladin Fidanı Saxsısı
+  potted_birch_sapling: Dibçəkli Ağcaqayın Fidanı
   potted_jungle_sapling: Cəngəllik Ağacı Fidanı Saxsısı
   potted_acacia_sapling: Akasiya Fidanı Saxsısı
-  potted_dark_oak_sapling: Dibçəkli qara palıd fidanı
-  potted_fern: Qıjı Saxsısı
-  potted_dandelion: Zəncirotu Saxsısı
-  potted_poppy: Dibçəkli lalə
+  potted_dark_oak_sapling: Qara Meşə Fidanı Saxsısı
+  potted_fern: Qıjı Dibçəyi
+  potted_dandelion: Zəncirotu Dibçəyi
+  potted_poppy: Dibçəkli Lalə
   potted_blue_orchid: Dibçəkli göy səhləb
   potted_allium: Dibçəkli soğan
   potted_azure_bluet: Hüstoniya Saxsısı
   potted_red_tulip: Qırmızı Lalə Saxsısı
   potted_orange_tulip: Narıncı Lalə Saxsısı
-  potted_white_tulip: Ağ Lalə Saxsısı
-  potted_pink_tulip: Çəhrayı Lalə Saxsısı
-  potted_oxeye_daisy: Çobanyastığı Saxsısı
-  potted_cornflower: Göy reyhan dibçəkdə
+  potted_white_tulip: Dibçəkli Ağ Lalə
+  potted_pink_tulip: Dibçəkli Çəhrayı Lalə
+  potted_oxeye_daisy: Dibçəkli Çobanyastığı
+  potted_cornflower: Dibçəkli Göy Reyhan
   potted_lily_of_the_valley: İnciçiçəyi-da bir qazan
-  potted_wither_rose: Qazan gül Vizer
+  potted_wither_rose: Dibçəkli Vizer Gülü
   potted_red_mushroom: Qırmızı Göbələk Saxsısı
   potted_brown_mushroom: Qəhvəyi Göbələk Saxsısı
-  potted_dead_bush: Ölü Bitki Saxsısı
-  potted_cactus: Kaktus Saxsısı
+  potted_dead_bush: Dibçəkli Ölü Bitki
+  potted_cactus: Dibçəkli Kaktus
   carrots: Yerkökülər
   potatoes: Kartoflar
-  skeleton_wall_skull: Duvar Skelet Kafası
-  wither_skeleton_wall_skull: Duvar Wither İskeleti Kafası
-  zombie_wall_head: Duvar Zombi Kafası
-  player_wall_head: Duvar Oyuncu Kafası
-  creeper_wall_head: Duvar Creeper's Kafası
+  skeleton_wall_skull: Skelet başı
+  wither_skeleton_wall_skull: Vizer Skelet başı
+  zombie_wall_head: Zombi Başı
+  player_wall_head: Oyuncu Başı
+  creeper_wall_head: Kriper Başı
   dragon_wall_head: Əjdaha başı
   white_wall_banner: Ağ Bayraq
   orange_wall_banner: Narıncı Bayraq
@@ -1072,7 +1199,7 @@ material:
   fire_coral_wall_fan: Yandırmış boru mərcan divarı
   horn_coral_wall_fan: Buynuz Mərcan Divar fanatı
   bamboo_sapling: Bambuk fidanı
-  potted_bamboo: Bambuk qazan
+  potted_bamboo: Dibçəkli Bambuk
   void_air: Boşluq havası
   cave_air: Mağara Havası
   bubble_column: Baloncuk Sütunu
@@ -1085,6 +1212,30 @@ material:
   potted_warped_fungus: Dibçəkli əyri göbələk
   potted_crimson_roots: Dibçəkli al köklər
   potted_warped_roots: Dibçəkli əyri köklər
+  candle_cake: Şamlı tort
+  white_candle_cake: Ağ şam ilə tort
+  orange_candle_cake: Narıncı şam ilə tort
+  magenta_candle_cake: Bənövşəyi-qırmızı şam ilə tort
+  light_blue_candle_cake: Açıq mavi şam ilə tort
+  yellow_candle_cake: Sarı şam ilə tort
+  lime_candle_cake: Əhəng şam ilə tort
+  pink_candle_cake: Çəhrayı şam ilə tort
+  gray_candle_cake: Boz şam ilə tort
+  light_gray_candle_cake: Açıq boz şam ilə tort
+  cyan_candle_cake: Mavi-yaşıl şam ilə tort
+  purple_candle_cake: Bənövşəyi şam ilə tort
+  blue_candle_cake: Mavi şam ilə tort
+  brown_candle_cake: Qəhvəyi şam ilə tort
+  green_candle_cake: Yaşıl şam ilə tort
+  red_candle_cake: Qırmızı şam ilə tort
+  black_candle_cake: Qara şam ilə tort
+  powder_snow: Tozlu qar
+  cave_vines: Mağara üzümləri
+  cave_vines_plant: mağara üzüm bitkisi
+  big_dripleaf_stem: Böyük damcıyarpaq saplağı
+  potted_azalea_bush: Dibçəkli Azaliya
+  potted_flowering_azalea_bush: Dibçəkli Çiçəkləyən Azaliya
+  grass_path: Ot Yol
   zombie_pigman_spawn_egg: Zombi Donuz Adam Çağırma Yumurtası
   cactus_green: Kaktus Yaşılı
   dandelion_yellow: Zəncirotu Sarısı
@@ -1170,46 +1321,48 @@ biome:
   crimson_forest: Al meşə
   warped_forest: Əyri meşə
   basalt_deltas: Bazalt deltası
+  dripstone_caves: Damcı daşı mağaraları
+  lush_caves: Sulu mağaralar
   nether: Nether
 enchantment:
-  fire_protection: Atəş Qoruması
-  sharpness: Kəskinlik
-  flame: Alov
-  soul_speed: Ruh sürəti
-  aqua_affinity: Su Adaptasiyası
-  punch: Yumruq
-  loyalty: Sədaqət
-  depth_strider: Dərin Qaçışçı
-  vanishing_curse: İtmə Lənəti
-  unbreaking: Qırılmazlıq
-  knockback: Səpələmə
-  luck_of_the_sea: Dəniz Şansı
-  binding_curse: Bağlanma Lənəti
-  fortune: Sərvət
   protection: Qoruma
-  efficiency: Effektivlik
-  mending: Təmir
-  frost_walker: Şaxtalaşdırıcı yeriyici
-  lure: Aldatma
-  looting: Qənimət
-  piercing: Dəlmə
-  blast_protection: Partlayış Qoruması
-  smite: Zərbə
-  multishot: Çoxlu atəş
-  fire_aspect: Alovdan Çöhrə
-  channeling: İldırım istiqamətləndirməsi
-  sweeping: Süpürücü kənar
-  thorns: Tikanlar
-  bane_of_arthropods: Buğumayaqlıların Qiyaməti
-  respiration: Qəlsəmə
-  riptide: Geri qayıt
-  silk_touch: İpəksi Toxunuş
-  quick_charge: Sürətli yüklənmə
-  projectile_protection: Projektil Qoruması
-  impaling: Şişləmə
+  fire_protection: Atəş Qoruması
   feather_falling: Tük Enişi
+  blast_protection: Partlayış Qoruması
+  projectile_protection: Projektil Qoruması
+  respiration: Qəlsəmə
+  aqua_affinity: Su Adaptasiyası
+  thorns: Tikanlar
+  depth_strider: Dərin Qaçışçı
+  frost_walker: Şaxtalaşdırıcı yeriyici
+  binding_curse: Bağlanma Lənəti
+  sharpness: Kəskinlik
+  smite: Zərbə
+  bane_of_arthropods: Buğumayaqlıların Qiyaməti
+  knockback: Səpələmə
+  fire_aspect: Alovdan Çöhrə
+  looting: Qənimət
+  sweeping: Süpürücü kənar
+  efficiency: Effektivlik
+  silk_touch: İpəksi Toxunuş
+  unbreaking: Qırılmazlıq
+  fortune: Sərvət
   power: Güc
+  punch: Yumruq
+  flame: Alov
   infinity: Sonsuzluq
+  luck_of_the_sea: Dəniz Şansı
+  lure: Aldatma
+  loyalty: Sədaqət
+  impaling: Şişləmə
+  riptide: Geri qayıt
+  channeling: İldırım istiqamətləndirməsi
+  multishot: Çoxlu atəş
+  quick_charge: Sürətli yüklənmə
+  piercing: Dəlmə
+  mending: Təmir
+  vanishing_curse: İtmə Lənəti
+  soul_speed: Ruh sürəti
 potion:
   uncraftable: Hazırlanmayan Eliksir
   water: Su Butulkası
@@ -1335,7 +1488,7 @@ entity:
   evoker: Ovsunçu
   vex: Zəhlətökən
   vindicator: İntiqamçı
-  illusioner: Hoqqabaz
+  illusioner: İllüziyaçı
   minecart_command: Əmr Bloklu Vaqon
   boat: Qayıq
   minecart: Vaqon
@@ -1402,8 +1555,13 @@ entity:
   hoglin: Hoqlin
   piglin: Piqlin
   strider: Strayder
-  zoglin: Zoqlin
+  zoglin: Zoglin
   piglin_brute: Qəddar piqlin
+  axolotl: Aksolotl
+  glow_item_frame: Parıldayan əşya çərçivəsi
+  glow_squid: Parıldayan osminoq
+  goat: Keçi
+  marker: Marker
   fishing_hook: Balıqçılıq Bobber
   lightning: İldırım
   player: Oyunçu
@@ -2173,7 +2331,7 @@ music_disk:
   music_disc_ward: C418 - ward
   music_disc_11: C418 - 11
   music_disc_wait: C418 - wait
-  music_disc_pigstep: Lena Rayne - Piqstep
+  music_disc_pigstep: Lena Rayn - Piqstep
 new_banner_pattern:
   flower_banner_pattern: Çiçək şəkli
   creeper_banner_pattern: Kriper şəkli
@@ -2203,17 +2361,3 @@ villager_profession:
   shepherd: Çoban
   toolsmith: Alət ustası
   weaponsmith: Silah ustası
-villager_career:
-  farmer: Əkinçi
-  fisherman: Balıqçı
-  shepherd: Çoban
-  fletcher: Oxçu
-  librarian: Kitabxanaçı
-  cartographer: Xəriteçi
-  cleric: Rahib
-  armorer: Zireh Ustası
-  weapon_smith: Silah Ustası
-  tool_smith: Alət Ustası
-  butcher: Qəssab
-  leatherworker: Dəri İşçisi
-  nitwit: Avam

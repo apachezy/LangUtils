@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:49                    #
+# Build time: 2021-07-04 21:46:04                    #
 # ####################################################
 language:
   code: ru_ru
@@ -14,10 +14,17 @@ material:
   polished_diorite: Полированный диорит
   andesite: Андезит
   polished_andesite: Полированный андезит
+  deepslate: Глубинный сланец
+  cobbled_deepslate: Колотый глубинный сланец
+  polished_deepslate: Полированный глубинный сланец
+  calcite: Кальцит
+  tuff: Туф
+  dripstone_block: Натёчный камень
   grass_block: Дёрн
   dirt: Земля
   coarse_dirt: Каменистая земля
   podzol: Подзол
+  rooted_dirt: Корнистая земля
   crimson_nylium: Багровый нилий
   warped_nylium: Искажённый нилий
   cobblestone: Булыжник
@@ -39,10 +46,67 @@ material:
   sand: Песок
   red_sand: Красный песок
   gravel: Гравий
-  gold_ore: Золотая руда
+  coal_ore: Угольная руда
+  deepslate_coal_ore: Угленосный глубинный сланец
   iron_ore: Железная руда
-  coal_ore: Каменный уголь
+  deepslate_iron_ore: Железоносный глубинный сланец
+  copper_ore: Медная руда
+  deepslate_copper_ore: Меденосный глубинный сланец
+  gold_ore: Золотая руда
+  deepslate_gold_ore: Золотоносный глубинный сланец
+  redstone_ore: Редстоуновая руда
+  deepslate_redstone_ore: Редстоуноносный глубинный сланец
+  emerald_ore: Изумрудная руда
+  deepslate_emerald_ore: Изумрудоносный глубинный сланец
+  lapis_ore: Лазуритовая руда
+  deepslate_lapis_ore: Лазуритоносный глубинный сланец
+  diamond_ore: Алмазная руда
+  deepslate_diamond_ore: Алмазоносный глубинный сланец
   nether_gold_ore: Незерская золотая руда
+  nether_quartz_ore: Незер-кварцевая руда
+  ancient_debris: Древние обломки
+  coal_block: Угольный блок
+  raw_iron_block: Блок рудного железа
+  raw_copper_block: Блок рудной меди
+  raw_gold_block: Блок рудного золота
+  amethyst_block: Аметистовый блок
+  budding_amethyst: Цветущий аметист
+  iron_block: Железный блок
+  copper_block: Медный блок
+  gold_block: Золотой блок
+  diamond_block: Алмазный блок
+  netherite_block: Незеритовый блок
+  exposed_copper: Потемневший медный блок
+  weathered_copper: Состаренный медный блок
+  oxidized_copper: Окисленный медный блок
+  cut_copper: Резной медный блок
+  exposed_cut_copper: Потемневший резной медный блок
+  weathered_cut_copper: Состаренный резной медный блок
+  oxidized_cut_copper: Окисленный резной медный блок
+  cut_copper_stairs: Резные медные ступеньки
+  exposed_cut_copper_stairs: Потемневшие резные медные ступеньки
+  weathered_cut_copper_stairs: Состаренные резные медные ступеньки
+  oxidized_cut_copper_stairs: Окисленные резные медные ступеньки
+  cut_copper_slab: Резная медная плита
+  exposed_cut_copper_slab: Потемневшая резная медная плита
+  weathered_cut_copper_slab: Состаренная резная медная плита
+  oxidized_cut_copper_slab: Окисленная резная медная плита
+  waxed_copper_block: Вощёный медный блок
+  waxed_exposed_copper: Вощёный потемневший медный блок
+  waxed_weathered_copper: Вощёный состаренный медный блок
+  waxed_oxidized_copper: Вощёный окисленный медный блок
+  waxed_cut_copper: Вощёный резной медный блок
+  waxed_exposed_cut_copper: Вощёный потемневший резной медный блок
+  waxed_weathered_cut_copper: Вощёный состаренный резной медный блок
+  waxed_oxidized_cut_copper: Вощёный окисленный резной медный блок
+  waxed_cut_copper_stairs: Вощёные резные медные ступеньки
+  waxed_exposed_cut_copper_stairs: Вощёные потемневшие резные медные ступеньки
+  waxed_weathered_cut_copper_stairs: Вощёные состаренные резные медные ступеньки
+  waxed_oxidized_cut_copper_stairs: Вощёные окисленные резные медные ступеньки
+  waxed_cut_copper_slab: Вощёная резная медная плита
+  waxed_exposed_cut_copper_slab: Вощёная потемневшая резная медная плита
+  waxed_weathered_cut_copper_slab: Вощёная состаренная резная медная плита
+  waxed_oxidized_cut_copper_slab: Вощёная окисленная резная медная плита
   oak_log: Дубовое бревно
   spruce_log: Еловое бревно
   birch_log: Берёзовое бревно
@@ -81,26 +145,24 @@ material:
   jungle_leaves: Листья тропического дерева
   acacia_leaves: Листья акации
   dark_oak_leaves: Листья тёмного дуба
+  azalea_leaves: Листья азалии
+  flowering_azalea_leaves: Листья цветущей азалии
   sponge: Губка
   wet_sponge: Мокрая губка
   glass: Стекло
-  lapis_ore: Лазуритовая руда
+  tinted_glass: Тонированное стекло
   lapis_block: Лазуритовый блок
-  dispenser: Раздатчик
   sandstone: Песчаник
   chiseled_sandstone: Резной песчаник
   cut_sandstone: Пиленый песчаник
-  note_block: Нотный блок
-  powered_rail: Энергорельсы
-  detector_rail: Рельсы с датчиком
-  sticky_piston: Липкий поршень
   cobweb: Паутина
   grass: Трава
   fern: Папоротник
+  azalea: Азалия
+  flowering_azalea: Цветущая азалия
   dead_bush: Мёртвый куст
   seagrass: Морская трава
   sea_pickle: Морской огурец
-  piston: Поршень
   white_wool: Белая шерсть
   orange_wool: Оранжевая шерсть
   magenta_wool: Пурпурная шерсть
@@ -130,6 +192,7 @@ material:
   cornflower: Синий василёк
   lily_of_the_valley: Ландыш
   wither_rose: Роза визера
+  spore_blossom: Спороцвет
   brown_mushroom: Коричневый гриб
   red_mushroom: Красный гриб
   crimson_fungus: Багровый гриб
@@ -141,9 +204,12 @@ material:
   twisting_vines: Вьющаяся лоза
   sugar_cane: Сахарный тростник
   kelp: Ламинария
+  moss_carpet: Моховой ковёр
+  moss_block: Блок мха
+  hanging_roots: Свисающие корни
+  big_dripleaf: Большая бросянка
+  small_dripleaf: Маленькая бросянка
   bamboo: Бамбук
-  gold_block: Золотой блок
-  iron_block: Железный блок
   oak_slab: Дубовая плита
   spruce_slab: Еловая плита
   birch_slab: Берёзовая плита
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: Гладкий песчаник
   smooth_stone: Гладкий камень
   bricks: Кирпичи
-  tnt: Динамит
   bookshelf: Книжная полка
   mossy_cobblestone: Замшелый булыжник
   obsidian: Обсидиан
@@ -187,27 +252,11 @@ material:
   spawner: Рассадник
   oak_stairs: Дубовые ступеньки
   chest: Сундук
-  diamond_ore: Алмазная руда
-  diamond_block: Алмазный блок
   crafting_table: Верстак
   farmland: Пашня
   furnace: Печь
   ladder: Лестница
-  rail: Рельсы
   cobblestone_stairs: Булыжные ступеньки
-  lever: Рычаг
-  stone_pressure_plate: Каменная нажимная плита
-  oak_pressure_plate: Дубовая нажимная плита
-  spruce_pressure_plate: Еловая нажимная плита
-  birch_pressure_plate: Берёзовая нажимная плита
-  jungle_pressure_plate: Нажимная плита из тропического дерева
-  acacia_pressure_plate: Акациевая нажимная плита
-  dark_oak_pressure_plate: Нажимная плита из тёмного дуба
-  crimson_pressure_plate: Багровая нажимная плита
-  warped_pressure_plate: Искажённая нажимная плита
-  polished_blackstone_pressure_plate: Нажимная плита из полированного чернита
-  redstone_ore: Редстоуновая руда
-  redstone_torch: Редстоуновый факел
   snow: Снег
   ice: Лёд
   snow_block: Блок снега
@@ -224,32 +273,31 @@ material:
   warped_fence: Искажённый забор
   pumpkin: Тыква
   carved_pumpkin: Вырезанная тыква
+  jack_o_lantern: Светильник Джека
   netherrack: Незерак
   soul_sand: Песок душ
   soul_soil: Почва душ
   basalt: Базальт
   polished_basalt: Полированный базальт
+  smooth_basalt: Гладкий базальт
   soul_torch: Факел душ
   glowstone: Светокамень
-  jack_o_lantern: Светильник Джека
-  oak_trapdoor: Дубовый люк
-  spruce_trapdoor: Еловый люк
-  birch_trapdoor: Берёзовый люк
-  jungle_trapdoor: Люк из тропического дерева
-  acacia_trapdoor: Акациевый люк
-  dark_oak_trapdoor: Люк из тёмного дуба
-  crimson_trapdoor: Багровый люк
-  warped_trapdoor: Искажённый люк
   infested_stone: Заражённый камень
   infested_cobblestone: Заражённый булыжник
   infested_stone_bricks: Заражённые каменные кирпичи
   infested_mossy_stone_bricks: Заражённые замшелые каменные кирпичи
   infested_cracked_stone_bricks: Заражённые потрескавшиеся каменные кирпичи
   infested_chiseled_stone_bricks: Заражённые резные каменные кирпичи
+  infested_deepslate: Заражённый глубинный сланец
   stone_bricks: Каменные кирпичи
   mossy_stone_bricks: Замшелые каменные кирпичи
   cracked_stone_bricks: Потрескавшиеся каменные кирпичи
   chiseled_stone_bricks: Резные каменные кирпичи
+  deepslate_bricks: Глубинносланцевые кирпичи
+  cracked_deepslate_bricks: Потрескавшиеся глубинносланцевые кирпичи
+  deepslate_tiles: Глубинносланцевый плитняк
+  cracked_deepslate_tiles: Потрескавшийся глубинносланцевый плитняк
+  chiseled_deepslate: Резной глубинный сланец
   brown_mushroom_block: Блок коричневого гриба
   red_mushroom_block: Блок красного гриба
   mushroom_stem: Ножка гриба
@@ -258,14 +306,7 @@ material:
   glass_pane: Стеклянная панель
   melon: Арбуз
   vine: Лианы
-  oak_fence_gate: Дубовая калитка
-  spruce_fence_gate: Еловая калитка
-  birch_fence_gate: Берёзовая калитка
-  jungle_fence_gate: Калитка из тропического дерева
-  acacia_fence_gate: Акациевая калитка
-  dark_oak_fence_gate: Калитка из тёмного дуба
-  crimson_fence_gate: Багровая калитка
-  warped_fence_gate: Искажённая калитка
+  glow_lichen: Светящийся лишайник
   brick_stairs: Кирпичные ступеньки
   stone_brick_stairs: Ступеньки из каменного кирпича
   mycelium: Мицелий
@@ -280,11 +321,8 @@ material:
   end_stone: Эндерняк
   end_stone_bricks: Эндерняковые кирпичи
   dragon_egg: Яйцо дракона
-  redstone_lamp: Редстоуновый фонарь
   sandstone_stairs: Песчаниковые ступеньки
-  emerald_ore: Изумрудная руда
   ender_chest: Эндер-сундук
-  tripwire_hook: Крюк
   emerald_block: Изумрудный блок
   spruce_stairs: Еловые ступеньки
   birch_stairs: Берёзовые ступеньки
@@ -310,33 +348,18 @@ material:
   blackstone_wall: Чернитная ограда
   polished_blackstone_wall: Ограда из полированного чернита
   polished_blackstone_brick_wall: Ограда из полированно-чернитного кирпича
-  stone_button: Каменная кнопка
-  oak_button: Дубовая кнопка
-  spruce_button: Еловая кнопка
-  birch_button: Берёзовая кнопка
-  jungle_button: Кнопка из тропического дерева
-  acacia_button: Акациевая кнопка
-  dark_oak_button: Кнопка из тёмного дуба
-  crimson_button: Багровая кнопка
-  warped_button: Искажённая кнопка
-  polished_blackstone_button: Кнопка из полированного чернита
+  cobbled_deepslate_wall: Ограда из колотого глубинного сланца
+  polished_deepslate_wall: Ограда из полированного глубинного сланца
+  deepslate_brick_wall: Ограда из глубинносланцевого кирпича
+  deepslate_tile_wall: Ограда из глубинносланцевого плитняка
   anvil: Наковальня
   chipped_anvil: Повреждённая наковальня
   damaged_anvil: Разбитая наковальня
-  trapped_chest: Сундук-ловушка
-  light_weighted_pressure_plate: Весовая пластина
-  heavy_weighted_pressure_plate: Большегрузная весовая пластина
-  daylight_detector: Датчик дневного света
-  redstone_block: Редстоуновый блок
-  nether_quartz_ore: Незер-кварцевая руда
-  hopper: Воронка
   chiseled_quartz_block: Резной кварцевый блок
   quartz_block: Кварцевый блок
   quartz_bricks: Кварцевые кирпичи
   quartz_pillar: Кварцевая колонна
   quartz_stairs: Кварцевые ступеньки
-  activator_rail: Активирующие рельсы
-  dropper: Выбрасыватель
   white_terracotta: Белая керамика
   orange_terracotta: Оранжевая керамика
   magenta_terracotta: Пурпурная керамика
@@ -354,7 +377,7 @@ material:
   red_terracotta: Красная керамика
   black_terracotta: Чёрная керамика
   barrier: Барьер
-  iron_trapdoor: Железный люк
+  light: Свет
   hay_block: Сноп сена
   white_carpet: Белый ковёр
   orange_carpet: Оранжевый ковёр
@@ -373,12 +396,10 @@ material:
   red_carpet: Красный ковёр
   black_carpet: Чёрный ковёр
   terracotta: Терракота
-  coal_block: Угольный блок
   packed_ice: Плотный лёд
   acacia_stairs: Акациевые ступеньки
   dark_oak_stairs: Ступеньки из тёмного дуба
-  slime_block: Блок слизи
-  grass_path: Тропа
+  dirt_path: Тропинка
   sunflower: Подсолнух
   lilac: Сирень
   rose_bush: Розовый куст
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: Красные незерские кирпичи
   bone_block: Костный блок
   structure_void: Пустой блок
-  observer: Наблюдатель
   shulker_box: Шалкеровый ящик
   white_shulker_box: Белый шалкеровый ящик
   orange_shulker_box: Оранжевый шалкеровый ящик
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: Ступеньки из красного незерского кирпича
   polished_andesite_stairs: Ступеньки из полированного андезита
   diorite_stairs: Диоритовые ступеньки
+  cobbled_deepslate_stairs: Ступеньки из колотого глубинного сланца
+  polished_deepslate_stairs: Ступеньки из полированного глубинного сланца
+  deepslate_brick_stairs: Ступеньки из глубинносланцевого кирпича
+  deepslate_tile_stairs: Ступеньки из глубинносланцевого плитняка
   polished_granite_slab: Плита из полированного гранита
   smooth_red_sandstone_slab: Плита из гладкого красного песчаника
   mossy_stone_brick_slab: Плита из замшелого каменного кирпича
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: Плита из красного незерского кирпича
   polished_andesite_slab: Плита из полированного андезита
   diorite_slab: Диоритовая плита
+  cobbled_deepslate_slab: Плита из колотого глубинного сланца
+  polished_deepslate_slab: Плита из полированного глубинного сланца
+  deepslate_brick_slab: Плита из глубинносланцевого кирпича
+  deepslate_tile_slab: Плита из глубинносланцевого плитняка
   scaffolding: Подмостки
+  redstone: Редстоуновая пыль
+  redstone_torch: Редстоуновый факел
+  redstone_block: Редстоуновый блок
+  repeater: Редстоуновый повторитель
+  comparator: Редстоуновый компаратор
+  piston: Поршень
+  sticky_piston: Липкий поршень
+  slime_block: Блок слизи
+  honey_block: Блок мёда
+  observer: Наблюдатель
+  hopper: Воронка
+  dispenser: Раздатчик
+  dropper: Выбрасыватель
+  lectern: Кафедра
+  target: Мишень
+  lever: Рычаг
+  lightning_rod: Громоотвод
+  daylight_detector: Датчик дневного света
+  sculk_sensor: Скалк-сенсор
+  tripwire_hook: Крюк
+  trapped_chest: Сундук-ловушка
+  tnt: Динамит
+  redstone_lamp: Редстоуновый фонарь
+  note_block: Нотный блок
+  stone_button: Каменная кнопка
+  polished_blackstone_button: Кнопка из полированного чернита
+  oak_button: Дубовая кнопка
+  spruce_button: Еловая кнопка
+  birch_button: Берёзовая кнопка
+  jungle_button: Кнопка из тропического дерева
+  acacia_button: Акациевая кнопка
+  dark_oak_button: Кнопка из тёмного дуба
+  crimson_button: Багровая кнопка
+  warped_button: Искажённая кнопка
+  stone_pressure_plate: Каменная нажимная плита
+  polished_blackstone_pressure_plate: Нажимная плита из полированного чернита
+  light_weighted_pressure_plate: Весовая пластина
+  heavy_weighted_pressure_plate: Большегрузная весовая пластина
+  oak_pressure_plate: Дубовая нажимная плита
+  spruce_pressure_plate: Еловая нажимная плита
+  birch_pressure_plate: Берёзовая нажимная плита
+  jungle_pressure_plate: Нажимная плита из тропического дерева
+  acacia_pressure_plate: Акациевая нажимная плита
+  dark_oak_pressure_plate: Нажимная плита из тёмного дуба
+  crimson_pressure_plate: Багровая нажимная плита
+  warped_pressure_plate: Искажённая нажимная плита
   iron_door: Железная дверь
   oak_door: Дубовая дверь
   spruce_door: Еловая дверь
@@ -572,8 +646,42 @@ material:
   dark_oak_door: Дверь из тёмного дуба
   crimson_door: Багровая дверь
   warped_door: Искажённая дверь
-  repeater: Редстоуновый повторитель
-  comparator: Редстоуновый компаратор
+  iron_trapdoor: Железный люк
+  oak_trapdoor: Дубовый люк
+  spruce_trapdoor: Еловый люк
+  birch_trapdoor: Берёзовый люк
+  jungle_trapdoor: Люк из тропического дерева
+  acacia_trapdoor: Акациевый люк
+  dark_oak_trapdoor: Люк из тёмного дуба
+  crimson_trapdoor: Багровый люк
+  warped_trapdoor: Искажённый люк
+  oak_fence_gate: Дубовая калитка
+  spruce_fence_gate: Еловая калитка
+  birch_fence_gate: Берёзовая калитка
+  jungle_fence_gate: Калитка из тропического дерева
+  acacia_fence_gate: Акациевая калитка
+  dark_oak_fence_gate: Калитка из тёмного дуба
+  crimson_fence_gate: Багровая калитка
+  warped_fence_gate: Искажённая калитка
+  powered_rail: Энергорельсы
+  detector_rail: Рельсы с датчиком
+  rail: Рельсы
+  activator_rail: Активирующие рельсы
+  saddle: Седло
+  minecart: Вагонетка
+  chest_minecart: Грузовая вагонетка
+  furnace_minecart: Самоходная вагонетка
+  tnt_minecart: Вагонетка с динамитом
+  hopper_minecart: Загрузочная вагонетка
+  carrot_on_a_stick: Удочка с морковкой
+  warped_fungus_on_a_stick: Удочка с искажённым грибом
+  elytra: Элитры
+  oak_boat: Дубовая лодка
+  spruce_boat: Еловая лодка
+  birch_boat: Берёзовая лодка
+  jungle_boat: Лодка из тропического дерева
+  acacia_boat: Акациевая лодка
+  dark_oak_boat: Лодка из тёмного дуба
   structure_block: Блок-конструктор
   jigsaw: Пазл
   turtle_helmet: Черепаший панцирь
@@ -585,7 +693,15 @@ material:
   coal: Уголь
   charcoal: Древесный уголь
   diamond: Алмаз
+  emerald: Изумруд
+  lapis_lazuli: Лазурит
+  quartz: Незер-кварц
+  amethyst_shard: Осколок аметиста
+  raw_iron: Рудное железо
   iron_ingot: Железный слиток
+  raw_copper: Рудная медь
+  copper_ingot: Медный слиток
+  raw_gold: Рудное золото
   gold_ingot: Золотой слиток
   netherite_ingot: Незеритовый слиток
   netherite_scrap: Незеритовый лом
@@ -669,29 +785,27 @@ material:
   bucket: Ведро
   water_bucket: Ведро воды
   lava_bucket: Ведро лавы
-  minecart: Вагонетка
-  saddle: Седло
-  redstone: Редстоун
+  powder_snow_bucket: Ведро с рыхлым снегом
   snowball: Снежок
-  oak_boat: Дубовая лодка
   leather: Кожа
   milk_bucket: Ведро молока
   pufferfish_bucket: Иглобрюх в ведре
   salmon_bucket: Лосось в ведре
   cod_bucket: Треска в ведре
   tropical_fish_bucket: Тропическая рыба в ведре
+  axolotl_bucket: Аксолотль в ведре
   brick: Кирпич
   clay_ball: Комок глины
   dried_kelp_block: Блок сушёной ламинарии
   paper: Бумага
   book: Книга
   slime_ball: Сгусток слизи
-  chest_minecart: Грузовая вагонетка
-  furnace_minecart: Самоходная вагонетка
   egg: Яйцо
   compass: Компас
+  bundle: Мешок
   fishing_rod: Удочка
   clock: Часы
+  spyglass: Подзорная труба
   glowstone_dust: Светокаменная пыль
   cod: Сырая треска
   salmon: Сырой лосось
@@ -700,8 +814,8 @@ material:
   cooked_cod: Жареная треска
   cooked_salmon: Жареный лосось
   ink_sac: Чернильный мешок
+  glow_ink_sac: Светящийся чернильный мешок
   cocoa_beans: Какао-бобы
-  lapis_lazuli: Лазурит
   white_dye: Белый краситель
   orange_dye: Оранжевый краситель
   magenta_dye: Пурпурный краситель
@@ -765,6 +879,7 @@ material:
   cauldron: Котёл
   ender_eye: Око Эндера
   glistering_melon_slice: Сверкающий ломтик арбуза
+  axolotl_spawn_egg: Яйцо призыва аксолотля
   bat_spawn_egg: Яйцо призыва летучей мыши
   bee_spawn_egg: Яйцо призыва пчелы
   blaze_spawn_egg: Яйцо призыва всполоха
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: Яйцо призыва заклинателя
   fox_spawn_egg: Яйцо призыва лисицы
   ghast_spawn_egg: Яйцо призыва гаста
+  glow_squid_spawn_egg: Яйцо призыва светящегося спрута
+  goat_spawn_egg: Яйцо призыва козы
   guardian_spawn_egg: Яйцо призыва стража
   hoglin_spawn_egg: Яйцо призыва хоглина
   horse_spawn_egg: Яйцо призыва лошади
@@ -833,8 +950,8 @@ material:
   fire_charge: Огненный заряд
   writable_book: Книга и перо
   written_book: Завершённая книга
-  emerald: Изумруд
   item_frame: Рамка
+  glow_item_frame: Светящаяся рамка
   flower_pot: Цветочный горшок
   carrot: Морковь
   potato: Картофель
@@ -848,17 +965,12 @@ material:
   zombie_head: Голова зомби
   creeper_head: Голова крипера
   dragon_head: Голова дракона
-  carrot_on_a_stick: Удочка с морковкой
-  warped_fungus_on_a_stick: Удочка с искажённым грибом
   nether_star: Звезда Незера
   pumpkin_pie: Тыквенный пирог
   firework_rocket: Фейерверк
   firework_star: Пиротехническая звезда
   enchanted_book: Чародейская книга
   nether_brick: Незерский кирпич
-  quartz: Незер-кварц
-  tnt_minecart: Вагонетка с динамитом
-  hopper_minecart: Загрузочная вагонетка
   prismarine_shard: Осколок призмарина
   prismarine_crystals: Кристалл призмарина
   rabbit: Сырая крольчатина
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: Обработанная стрела
   lingering_potion: Туманное зелье
   shield: Щит
-  elytra: Элитры
-  spruce_boat: Еловая лодка
-  birch_boat: Берёзовая лодка
-  jungle_boat: Лодка из тропического дерева
-  acacia_boat: Акациевая лодка
-  dark_oak_boat: Лодка из тёмного дуба
   totem_of_undying: Тотем бессмертия
   shulker_shell: Панцирь шалкера
   iron_nugget: Кусочек железа
@@ -948,13 +1054,13 @@ material:
   cartography_table: Стол картографа
   fletching_table: Стол лучника
   grindstone: Точило
-  lectern: Кафедра
   smithing_table: Стол кузнеца
   stonecutter: Камнерез
   bell: Колокол
   lantern: Фонарь
   soul_lantern: Фонарь душ
   sweet_berries: Сладкие ягоды
+  glow_berries: Светящиеся ягоды
   campfire: Костёр
   soul_campfire: Костёр душ
   shroomlight: Грибосвет
@@ -962,12 +1068,8 @@ material:
   bee_nest: Пчелиное гнездо
   beehive: Улей
   honey_bottle: Бутылочка мёда
-  honey_block: Блок мёда
   honeycomb_block: Блок пчелиных сот
   lodestone: Магнетит
-  netherite_block: Незеритовый блок
-  ancient_debris: Древние обломки
-  target: Мишень
   crying_obsidian: Плачущий обсидиан
   blackstone: Чернит
   blackstone_slab: Чернитная плита
@@ -982,6 +1084,28 @@ material:
   polished_blackstone_brick_stairs: Ступеньки из полированно-чернитного кирпича
   cracked_polished_blackstone_bricks: Потрескавшиеся полированно-чернитные кирпичи
   respawn_anchor: Якорь возрождения
+  candle: Свеча
+  white_candle: Белая свеча
+  orange_candle: Оранжевая свеча
+  magenta_candle: Пурпурная свеча
+  light_blue_candle: Голубая свеча
+  yellow_candle: Жёлтая свеча
+  lime_candle: Лаймовая свеча
+  pink_candle: Розовая свеча
+  gray_candle: Серая свеча
+  light_gray_candle: Светло-серая свеча
+  cyan_candle: Бирюзовая свеча
+  purple_candle: Фиолетовая свеча
+  blue_candle: Синяя свеча
+  brown_candle: Коричневая свеча
+  green_candle: Зелёная свеча
+  red_candle: Красная свеча
+  black_candle: Чёрная свеча
+  small_amethyst_bud: Малый аметистовый бутон
+  medium_amethyst_bud: Средний аметистовый бутон
+  large_amethyst_bud: Большой аметистовый бутон
+  amethyst_cluster: Аметистовая друза
+  pointed_dripstone: Капельник
   water: Вода
   lava: Лава
   tall_seagrass: Высокая морская трава
@@ -1004,6 +1128,9 @@ material:
   attached_melon_stem: Прикреплённый стебель арбуза
   pumpkin_stem: Стебель тыквы
   melon_stem: Стебель арбуза
+  water_cauldron: Котёл с водой
+  lava_cauldron: Котёл с лавой
+  powder_snow_cauldron: Котёл с рыхлым снегом
   end_portal: Портал в Энд
   cocoa: Какао
   tripwire: Растяжка
@@ -1013,7 +1140,7 @@ material:
   potted_jungle_sapling: Саженец тропического дерева в горшке
   potted_acacia_sapling: Саженец акации в горшке
   potted_dark_oak_sapling: Саженец тёмного дуба в горшке
-  potted_fern: Папортник в горшке
+  potted_fern: Папоротник в горшке
   potted_dandelion: Одуванчик в горшке
   potted_poppy: Мак в горшке
   potted_blue_orchid: Синяя орхидея в горшке
@@ -1083,6 +1210,30 @@ material:
   potted_warped_fungus: Искажённый гриб в горшке
   potted_crimson_roots: Багровые корни в горшке
   potted_warped_roots: Искажённые корни в горшке
+  candle_cake: Торт со свечой
+  white_candle_cake: Торт с белой свечой
+  orange_candle_cake: Торт с оранжевой свечой
+  magenta_candle_cake: Торт с пурпурной свечой
+  light_blue_candle_cake: Торт с голубой свечой
+  yellow_candle_cake: Торт с жёлтой свечой
+  lime_candle_cake: Торт с лаймовой свечой
+  pink_candle_cake: Торт с розовой свечой
+  gray_candle_cake: Торт с серой свечой
+  light_gray_candle_cake: Торт со светло-серой свечой
+  cyan_candle_cake: Торт с бирюзовой свечой
+  purple_candle_cake: Торт с фиолетовой свечой
+  blue_candle_cake: Торт с синей свечой
+  brown_candle_cake: Торт с коричневой свечой
+  green_candle_cake: Торт с зелёной свечой
+  red_candle_cake: Торт с красной свечой
+  black_candle_cake: Торт с чёрной свечой
+  powder_snow: Рыхлый снег
+  cave_vines: Пещерная лоза
+  cave_vines_plant: Стебель пещерной лозы
+  big_dripleaf_stem: Стебель большой бросянки
+  potted_azalea_bush: Азалия в горшке
+  potted_flowering_azalea_bush: Цветущая азалия в горшке
+  grass_path: Тропа
   zombie_pigman_spawn_egg: Яйцо призыва свинозомби
   cactus_green: Зелёный краситель
   dandelion_yellow: Жёлтый краситель
@@ -1169,46 +1320,48 @@ biome:
   crimson_forest: Багровый лес
   warped_forest: Искажённый лес
   basalt_deltas: Базальтовые дельты
+  dripstone_caves: Карстовые пещеры
+  lush_caves: Заросшие пещеры
   nether: Незер
 enchantment:
-  fire_protection: Огнеупорность
-  sharpness: Острота
-  flame: Воспламенение
-  soul_speed: Скорость души
-  aqua_affinity: Подводник
-  punch: Откидывание
-  loyalty: Верность
-  depth_strider: Подводная ходьба
-  vanishing_curse: Проклятие утраты
-  unbreaking: Прочность
-  knockback: Отдача
-  luck_of_the_sea: Везучий рыбак
-  binding_curse: Проклятие несъёмности
-  fortune: Удача
   protection: Защита
-  efficiency: Эффективность
-  mending: Починка
-  frost_walker: Ледоход
-  lure: Приманка
-  looting: Добыча
-  piercing: Пронзающая стрела
-  blast_protection: Взрывоустойчивость
-  smite: Небесная кара
-  multishot: Тройной выстрел
-  fire_aspect: Заговор огня
-  channeling: Громовержец
-  sweeping: Разящий клинок
-  thorns: Шипы
-  bane_of_arthropods: Бич членистоногих
-  respiration: Подводное дыхание
-  riptide: Тягун
-  silk_touch: Шёлковое касание
-  quick_charge: Быстрая перезарядка
-  projectile_protection: Защита от снарядов
-  impaling: Пронзатель
+  fire_protection: Огнеупорность
   feather_falling: Невесомость
+  blast_protection: Взрывоустойчивость
+  projectile_protection: Защита от снарядов
+  respiration: Подводное дыхание
+  aqua_affinity: Подводник
+  thorns: Шипы
+  depth_strider: Подводная ходьба
+  frost_walker: Ледоход
+  binding_curse: Проклятие несъёмности
+  sharpness: Острота
+  smite: Небесная кара
+  bane_of_arthropods: Бич членистоногих
+  knockback: Отдача
+  fire_aspect: Заговор огня
+  looting: Добыча
+  sweeping: Разящий клинок
+  efficiency: Эффективность
+  silk_touch: Шёлковое касание
+  unbreaking: Прочность
+  fortune: Удача
   power: Сила
+  punch: Откидывание
+  flame: Воспламенение
   infinity: Бесконечность
+  luck_of_the_sea: Везучий рыбак
+  lure: Приманка
+  loyalty: Верность
+  impaling: Пронзатель
+  riptide: Тягун
+  channeling: Громовержец
+  multishot: Тройной выстрел
+  quick_charge: Быстрая перезарядка
+  piercing: Пронзающая стрела
+  mending: Починка
+  vanishing_curse: Проклятие утраты
+  soul_speed: Скорость души
 potion:
   uncraftable: Несоздаваемое зелье
   water: Бутылочка воды
@@ -1237,7 +1390,7 @@ splash_potion:
   mundane: Заурядное взрывное зелье
   thick: Густое взрывное зелье
   awkward: Взрывное мутное зелье
-  night_vision: Зелье ночного зрения
+  night_vision: Взрывное зелье ночного зрения
   invisibility: Взрывное зелье невидимости
   jump: Взрывное зелье прыгучести
   fire_resistance: Взрывное зелье огнестойкости
@@ -1403,6 +1556,11 @@ entity:
   strider: Лавомерка
   zoglin: Зоглин
   piglin_brute: Брутальный пиглин
+  axolotl: Аксолотль
+  glow_item_frame: Светящаяся рамка
+  glow_squid: Светящийся спрут
+  goat: Коза
+  marker: Метка
   fishing_hook: Поплавок
   lightning: Молния
   player: Игрок
@@ -1833,7 +1991,7 @@ banner_pattern:
   '1310727': Серое скошение слева
   '1310728': Светло-серое скошение слева
   '1310729': Бирюзовое скошение слева
-  '1310730': Розовое скошение слева
+  '1310730': Фиолетовое скошение слева
   '1310731': Синее скошение слева
   '1310732': Коричневое скошение слева
   '1310733': Зелёное скошение слева
@@ -2172,7 +2330,7 @@ music_disk:
   music_disc_ward: C418 — ward
   music_disc_11: C418 — 11
   music_disc_wait: C418 — wait
-  music_disc_pigstep: Лина Рейн — Pigstep
+  music_disc_pigstep: Лена Рейн — Pigstep
 new_banner_pattern:
   flower_banner_pattern: Цветок
   creeper_banner_pattern: Крипер
@@ -2202,17 +2360,3 @@ villager_profession:
   shepherd: Пастух
   toolsmith: Инструментальщик
   weaponsmith: Оружейник
-villager_career:
-  farmer: Фермер
-  fisherman: Рыбак
-  shepherd: Пастух
-  fletcher: Лучник
-  librarian: Библиотекарь
-  cartographer: Картограф
-  cleric: Священник
-  armorer: Бронник
-  weapon_smith: Оружейник
-  tool_smith: Инструментальщик
-  butcher: Мясник
-  leatherworker: Кожевник
-  nitwit: Деревенщина

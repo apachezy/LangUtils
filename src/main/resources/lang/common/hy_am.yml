@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:48                    #
+# Build time: 2021-07-04 21:46:03                    #
 # ####################################################
 language:
   code: hy_am
@@ -9,98 +9,160 @@ material:
   air: Օդ
   stone: Քար
   granite: Գրանիտ
-  polished_granite: Հարթեցված գրանիտ
+  polished_granite: Հղկված գրանիտ
   diorite: Դիորիտ
-  polished_diorite: Հարթեցված դիորիտ
+  polished_diorite: Հղկված դիորիտ
   andesite: Անդեզիտ
   polished_andesite: Հարթեցված անդեզիտ
-  grass_block: Խոտի Բլոկ
+  deepslate: Շերտաքար
+  cobbled_deepslate: Ջարդրտված շերտաքար
+  polished_deepslate: Ողորկ Deepslate
+  calcite: Կալցիտ
+  tuff: Տուֆ
+  dripstone_block: Շթաքարի կապան
+  grass_block: Խոտի կապան
   dirt: Հող
   coarse_dirt: Կոշտ հող
   podzol: Մոխրահող
+  rooted_dirt: Արմատավորված Հող
   crimson_nylium: Ալ կարմիր նիլիում
   warped_nylium: Աղավաղած նիլիում
   cobblestone: Սալաքար
   oak_planks: Կաղնու տախտակներ
-  spruce_planks: Եղևնու տախտակներ
+  spruce_planks: Եղեւնու տախտակներ
   birch_planks: Կեչու տախտակներ
-  jungle_planks: Արևադարձային ծառի տախտակներ
+  jungle_planks: Ջունգլու տախտակներ
   acacia_planks: Ակացիայի տախտակներ
   dark_oak_planks: Մուգ կաղնու տախտակներ
-  crimson_planks: Ալ կարմիր տախտակներ
+  crimson_planks: Բոսորային Տախտակներ
   warped_planks: Աղավաղված տախտակներ
   oak_sapling: Կաղնու տնկի
-  spruce_sapling: Եղևնու տնկի
-  birch_sapling: Կեչու Տնկի
-  jungle_sapling: Արևադարձային ծառի Տնկի
+  spruce_sapling: Եղեւնու տնկի
+  birch_sapling: Կեչու տնկի
+  jungle_sapling: Ջունգլու տնկի
   acacia_sapling: Ակացիայի տնկի
   dark_oak_sapling: Մուգ կաղնու տնկի
   bedrock: Բեդրոկ
   sand: Ավազ
   red_sand: Կարմիր ավազ
   gravel: Մանրախիճ
-  gold_ore: Ոսկու Հանքաքար
-  iron_ore: Երկաթի Հանքաքար
-  coal_ore: Ածուխի Հանքաքար
-  nether_gold_ore: Դժոխքային ոսկու հանք
-  oak_log: Կաղնու գերան
-  spruce_log: Եղևնու գերան
+  coal_ore: Ածուխի հանքաքար
+  deepslate_coal_ore: Խոր թերթաքարի ածխե հանքաքար
+  iron_ore: Երկաթի հանքաքար
+  deepslate_iron_ore: Խորը թերթաքարի երկաթե հանքաքար
+  copper_ore: Պղնձե հանքաքար
+  deepslate_copper_ore: Խորը թերթաքարի պղնձե հանքաքար
+  gold_ore: Ոսկու հանքաքար
+  deepslate_gold_ore: Խորը թերթաքարի ոսկե հանքաքար
+  redstone_ore: Կարմրաքարի Հանքաքար
+  deepslate_redstone_ore: Խորը թերթաքարի կարմրաքարե հանքաքար
+  emerald_ore: Զմրուխտի Հանքաքար
+  deepslate_emerald_ore: Խորը թերթաքարի զմրուխտե հանքաքար
+  lapis_ore: Լազուրիտի Հանքաքար
+  deepslate_lapis_ore: Խորը թերթաքարի լաջվարդե հանքաքար
+  diamond_ore: Ադամանդի Հանքաքար
+  deepslate_diamond_ore: Խոր թրթաքարի ադամանդե հանքաքար
+  nether_gold_ore: Նեզերի Ոսկու Հանք
+  nether_quartz_ore: Կվարցի Հանքաքար
+  ancient_debris: Հնագույն Ավերակներ
+  coal_block: Ածուխի կապան
+  raw_iron_block: Հում երկաթի կապան
+  raw_copper_block: Հում պղնձի կապան
+  raw_gold_block: Հում ոսկու կապան
+  amethyst_block: Մեղեսիկե կապան
+  budding_amethyst: Պտղավետ մեղեսիկ
+  iron_block: Երկաթի կապան
+  copper_block: Պղնձե կապան
+  gold_block: Ոսկուց կապան
+  diamond_block: Ադամանդե կապան
+  netherite_block: Նեզերիտի կապան
+  exposed_copper: Մգացած պղինձ
+  weathered_copper: Քայքայված պղինձ
+  oxidized_copper: Օքսիդացված պղինձ
+  cut_copper: Կտրտված պղինձ
+  exposed_cut_copper: Մգացած կտրտված պղինձ
+  weathered_cut_copper: Քայքայված կտրտված պղինձ
+  oxidized_cut_copper: Օքսիդացված Կտրտված Պղինձ
+  cut_copper_stairs: Կտրտված պղինձից աստիճաններ
+  exposed_cut_copper_stairs: Մգացած կտրտված պղնձե աստիճաններ
+  weathered_cut_copper_stairs: Քայքայված կտրտված պղնձից աստիճաններ
+  oxidized_cut_copper_stairs: Օքսիդացված կտրտված պղնձե աստիճաններ
+  cut_copper_slab: Կտրտված պղնձե սալիկ
+  exposed_cut_copper_slab: Մգացած կտրտված պղնձե սալիկ
+  weathered_cut_copper_slab: Քայքայված կտրտված պղնձե սալիկ
+  oxidized_cut_copper_slab: Օքսիդացված կտրտված պղնձե սալիկ
+  waxed_copper_block: Մոմապատված պղնձե կապան
+  waxed_exposed_copper: Մոմապատված Մգացած Պղինձ
+  waxed_weathered_copper: Մոմապատված Օքսիդացված Պղինձ
+  waxed_oxidized_copper: Մոմով օքսիդացված պղինձ
+  waxed_cut_copper: Մոմապատված կտրտված պղինձ
+  waxed_exposed_cut_copper: Մոմապատված մգացած կտրտված պղինձ
+  waxed_weathered_cut_copper: Մոմապատ քայքայված կտրած պղինձ
+  waxed_oxidized_cut_copper: Մոմով օքսիդացված կտրված պղինձ
+  waxed_cut_copper_stairs: Մոմապատված կտրտված պղնձե աստիճաններ
+  waxed_exposed_cut_copper_stairs: Մոմապատված Մգացած Կտրտված Պղնձե Աստիճաններ
+  waxed_weathered_cut_copper_stairs: Մոմապատված Օքսիդացված Կտրտված Պղնձե Աստիճաններ
+  waxed_oxidized_cut_copper_stairs: Մոմով օքսիդացված կտրված պղնձե աստիճաններ
+  waxed_cut_copper_slab: Մոմապատված կտրտված պղնձե սալիկ
+  waxed_exposed_cut_copper_slab: Մոմապատված Մգացած Կտրտված Պղնձե Սալիկ
+  waxed_weathered_cut_copper_slab: Մոմապատված Օքսիդացված Կտրտված Պղնձե Սալիկ
+  waxed_oxidized_cut_copper_slab: Մոմով օքսիդացված կտրված պղնձե սալիկ
+  oak_log: Կաղնե գերան
+  spruce_log: Եղեւնու գերան
   birch_log: Կեչու գերան
   jungle_log: Արևադարձային ծառի գերան
   acacia_log: Ակացիայի գերան
-  dark_oak_log: Մուգ կաղնու գերան
+  dark_oak_log: Մուգ կաղնե գերան
   crimson_stem: Ալ կարմիր ծառի գերան
-  warped_stem: Աղավաղված գերան
-  stripped_oak_log: Կեղևազրկած կաղնու գերան
-  stripped_spruce_log: Կեղևազրկած եղևնու գերան
-  stripped_birch_log: Կեղևազրկած կեչու գերան
+  warped_stem: Աղավաղված Գերան
+  stripped_oak_log: Կեղեւազրկած կաղնու գերան
+  stripped_spruce_log: Կեղեւազրկած եղեւնու գերան
+  stripped_birch_log: Կեղեւազրկած կեչու գերան
   stripped_jungle_log: Կեղևազրկած արևադարձային ծառի գերան
-  stripped_acacia_log: Կեղևազրկած ակացիայի գերան
+  stripped_acacia_log: Կեղեւազրկած ակացիայի գերան
   stripped_dark_oak_log: Կեղևազրկած մուգ կաղնու գերան
   stripped_crimson_stem: Կեղևազրկած ալ կարմիր ծառի գերան
   stripped_warped_stem: Կեղևազրկած աղավաղված գերան
-  stripped_oak_wood: Տաշած կաղնու փայտանյութ
+  stripped_oak_wood: Տաշած կաղնի
   stripped_spruce_wood: Տաշած եղևնու փայտանյութ
   stripped_birch_wood: Տաշած կեչու փայտանյութ
   stripped_jungle_wood: Տաշած արևադարձային ծառի փայտանյութ
   stripped_acacia_wood: Տաշած ակացիայի փայտանյութ
-  stripped_dark_oak_wood: Տաշած մուգ կաղնու փայտանյութ
+  stripped_dark_oak_wood: Տաշած մուգ կաղնի
   stripped_crimson_hyphae: Կեղևազրկած ալ կարմիր հիֆեր
   stripped_warped_hyphae: Կեղևազրկած աղավաղված հիֆեր
-  oak_wood: Կաղնու Փայտ
-  spruce_wood: Եղևնու Փայտ
-  birch_wood: Կեչու Փայտ
+  oak_wood: Կաղնու փայտ
+  spruce_wood: Եղևնու փայտ
+  birch_wood: Կեչու փայտ
   jungle_wood: Արևադարձային ծառի Փայտ
-  acacia_wood: Ակացիաի փայտ
-  dark_oak_wood: Մուգ կաղնու փայտ
+  acacia_wood: Ակացիայի փայտ
+  dark_oak_wood: Մուգ կաղնի
   crimson_hyphae: Ալ կարմիր հիֆեր
-  warped_hyphae: Աղավաղված հիֆեր
+  warped_hyphae: Աղավաղված Հիֆեր
   oak_leaves: Կաղնու Տերևներ
   spruce_leaves: Եղևնու Տերևներ
   birch_leaves: Կեչու Տերևներ
   jungle_leaves: Արևադարձային ծառի տերևներ
   acacia_leaves: Ակացիայի տերևներ
   dark_oak_leaves: Մուգ կաղնու տերևներ
+  azalea_leaves: Լեռնավարդի տերևներ
+  flowering_azalea_leaves: Ծաղկող Լեռնավարդի տերևներ
   sponge: Սպունգ
   wet_sponge: Թաց սպունգ
   glass: Ապակի
-  lapis_ore: Լազուրիտի Հանքաքար
-  lapis_block: Լազուրիտի Բլոկ
-  dispenser: Վանիչ
+  tinted_glass: Մգեցված ապակի
+  lapis_block: Լաջվարդից կապան
   sandstone: Ավազաքար
   chiseled_sandstone: Փորագրված Ավազաքար
-  cut_sandstone: Հարթ ավազաքար
-  note_block: Մեղեդու Բլոկ
-  powered_rail: Էներգակիր Ռելս
-  detector_rail: Հայտնաբերող Ռելս
-  sticky_piston: Կպչուն Մխոց
+  cut_sandstone: Կտրտված ավազաքար
   cobweb: Սարդոստայն
   grass: Խոտ
   fern: Պտեր
+  azalea: Լեռնավարդ
+  flowering_azalea: Ծաղկող Լեռնավարդ
   dead_bush: Մեռյալ Թուփ
   seagrass: Ծովախոտ
   sea_pickle: Ծովային վարունգ
-  piston: Մխոց
   white_wool: Ճերմակ Բուրդ
   orange_wool: Նարնջագույն Բուրդ
   magenta_wool: Մորեգույն Բուրդ
@@ -130,28 +192,32 @@ material:
   cornflower: Տերեփուկ
   lily_of_the_valley: Հովտաշուշան
   wither_rose: Թառամած Վարդ
+  spore_blossom: Բեղմնիկ Ծաղկում
   brown_mushroom: Շագանակագույն ճանճասպան
   red_mushroom: Կարմիր սունկ
-  crimson_fungus: Բոսորագույն սունկ
-  warped_fungus: Աղավաղված սունկ
-  crimson_roots: Բոսորագույն արմատներ
-  warped_roots: Աղավաղված արմատներ
-  nether_sprouts: Դժոխքի ծիլեր
-  weeping_vines: Լացող որթատունկ
+  crimson_fungus: Բոսորագույն Սունկ
+  warped_fungus: Աղավաղված Սունկ
+  crimson_roots: Բոսորագույն Արմատներ
+  warped_roots: Աղավաղված Արմատներ
+  nether_sprouts: Նեզերի Ծիլեր
+  weeping_vines: Լացող Որթատունկ
   twisting_vines: Գալարաձև որթատունկ
   sugar_cane: Եղեգնաշաքար
   kelp: Լամինարիա
+  moss_carpet: Մամռոտ ծածկույթ
+  moss_block: Մամուռի կապան
+  hanging_roots: Կախված Արմատներ
+  big_dripleaf: Մեծ Կաթլատերեւ
+  small_dripleaf: Փոքր Կաթլատերեւ
   bamboo: Բամբուկ
-  gold_block: Ոսկու Բլոկ
-  iron_block: Երկաթի Բլոկ
   oak_slab: Կաղնու սալիկ
   spruce_slab: Եղևնու սալիկ
   birch_slab: Կեչու սալիկ
   jungle_slab: Արևադարձային ծառի սալիկ
   acacia_slab: Ակացիայի սալիկ
   dark_oak_slab: Մուգ կաղնու սալիկ
-  crimson_slab: Ալ կարմիր ծառի սալիկ
-  warped_slab: Աղավաղված սալիկ
+  crimson_slab: Բոսորային Ծառի Սալիկ
+  warped_slab: Աղավաղված Սալիկ
   stone_slab: Քարե Սալիկ
   smooth_stone_slab: Հարթ Քարե Սալիկ
   sandstone_slab: Ավազաքարե Սալիկ
@@ -168,12 +234,11 @@ material:
   prismarine_slab: Պրիզմարինե սալիկ
   prismarine_brick_slab: Պրիզմարինե աղյուսի սալիկ
   dark_prismarine_slab: Մուգ Պրիզմարինե սալիկ
-  smooth_quartz: Հարթ կվարցի բլոկ
+  smooth_quartz: Հարթ կվարցի կապան
   smooth_red_sandstone: Հարթ Կարմիր Ավազաքար
   smooth_sandstone: Հարթ Ավազաքար
   smooth_stone: Հարթ քար
   bricks: Աղյուսներ
-  tnt: Դինամիտ
   bookshelf: Գրադարակ
   mossy_cobblestone: Մամռոտած սալաքար
   obsidian: Օբսիդիան
@@ -181,36 +246,20 @@ material:
   end_rod: Էնդի ձող
   chorus_plant: Քորուզի բույս
   chorus_flower: Քորուզի ծաղիկ
-  purpur_block: Պուրպուրե բլոկ
-  purpur_pillar: Սյունաձև պուրպուրե բլոկ
+  purpur_block: Պուրպուրե կապան
+  purpur_pillar: Սյունաձև պուրպուրե կապան
   purpur_stairs: Պուրպուրե աստիճաներ
   spawner: Ստեղծող
   oak_stairs: Կաղնու փայտից աստիճաններ
   chest: Սնդուկ
-  diamond_ore: Ադամանդի Հանքաքար
-  diamond_block: Ադամանդի բլոկ
   crafting_table: Արհեստասեղան
   farmland: Մշակահող
   furnace: Վառարան
   ladder: Սանդուղք
-  rail: Ռելս
   cobblestone_stairs: Սալաքարե Աստիճաններ
-  lever: Լծակ
-  stone_pressure_plate: Քարե Ճնշաթիթեղ
-  oak_pressure_plate: Կաղնու փայտից ճնշաթիթեղ
-  spruce_pressure_plate: Եղևնու փայտից ճնշաթիթեղ
-  birch_pressure_plate: Կեչու փայտից ճնշաթիթեղ
-  jungle_pressure_plate: Արևադարձային ծառի փայտից ճնշաթիթեղ
-  acacia_pressure_plate: Ակացիայի փայտից ճնշաթիթեղ
-  dark_oak_pressure_plate: Մուգ կաղնու փայտից ճնշաթիթեղ
-  crimson_pressure_plate: Ալ կարմիր ճնշաթիթեղ
-  warped_pressure_plate: Աղավաղված ճնշաթիթեղ
-  polished_blackstone_pressure_plate: Հարթեցված սևքարե ճնշաթիթեղ
-  redstone_ore: Կարմրաքարի Հանքաքար
-  redstone_torch: Կարմրաքարի Ջահ
   snow: Ձյուն
   ice: Սառույց
-  snow_block: Ձյան բլոկ
+  snow_block: Ձյան կապան
   cactus: Կակտուս
   clay: Կավ
   jukebox: Նվագարկիչ
@@ -220,52 +269,44 @@ material:
   jungle_fence: Արևադարձային Ծառի Փայտից Ցանկապատ
   acacia_fence: Ակացիայի ծառի փայտից Ցանկապատ
   dark_oak_fence: Մուգ Կաղնու ծառի փայտից Ցանկապատ
-  crimson_fence: Ալ կարմիր ցանկապատ
-  warped_fence: Աղավաղված ցանկապատ
+  crimson_fence: Բոսորային Ցանկապատ
+  warped_fence: Աղավաղված Ցանկապատ
   pumpkin: Դդում
   carved_pumpkin: Փորագրված դդում
+  jack_o_lantern: Ջեկի Լամպը
   netherrack: Նեզերաքար
   soul_sand: Հոգիների Ավազ
-  soul_soil: Հոգու հող
+  soul_soil: Հոգու Հող
   basalt: Բազալտ
-  polished_basalt: Հղկված բազալտ
-  soul_torch: Հոգու ջահ
+  polished_basalt: Հղկված Բազալտ
+  smooth_basalt: Հարթ Բազալտ
+  soul_torch: Հոգու Ջահ
   glowstone: Լուսարձակող Քար
-  jack_o_lantern: Ջեկի Լամպը
-  oak_trapdoor: Կաղնու փայտից ծուղակե դռնակ
-  spruce_trapdoor: Եղևնու փայտից ծուղակե դռնակ
-  birch_trapdoor: Կեչու փայտից ծուղակե դռնակ
-  jungle_trapdoor: Արևադարձային ծառի փայտից ծուղակե դռնակ
-  acacia_trapdoor: Ակացիայի փայտից ծուղակե դռնակ
-  dark_oak_trapdoor: Մուգ կաղնու փայտից ծուղակե դռնակ
-  crimson_trapdoor: Ալ կարմիր ծուղակե դռնակ
-  warped_trapdoor: Աղավաղված ծուղակի դռնակ
   infested_stone: Վարակված քար
   infested_cobblestone: Վարակված սալաքար
   infested_stone_bricks: Վարակված Քարաղյուս
   infested_mossy_stone_bricks: Վարակված մամռակալած քարաղյուս
   infested_cracked_stone_bricks: Վարակված ճաքած քարաղյուս
   infested_chiseled_stone_bricks: Վարակված փորագրված քարաղյուս
+  infested_deepslate: Վարակված Deepslate
   stone_bricks: Քարաղյուս
   mossy_stone_bricks: Մամռոտ Քարաղյուս
   cracked_stone_bricks: Ճաքած Քարաղյուս
   chiseled_stone_bricks: Փորագրված Քարաղյուս
-  brown_mushroom_block: Դարչնագույն սնկով բլոկ
-  red_mushroom_block: Կարմիր ճանճասպանի բլոկ
+  deepslate_bricks: Շերտաքարե աղյուսներ
+  cracked_deepslate_bricks: Craեղքված խորը աղյուսներ
+  deepslate_tiles: Խորը սալիկներ
+  cracked_deepslate_tiles: Խորացված խորը սալիկներ
+  chiseled_deepslate: Քանդակազարդ խորը խորք
+  brown_mushroom_block: Դարչնագույն սնկի կապան
+  red_mushroom_block: Կարմիր ճանճասպանի կապան
   mushroom_stem: Սնկի ցողուն
   iron_bars: Երկաթե Ճաղեր
   chain: Շղթա
-  glass_pane: Ապակու Շերտ
+  glass_pane: Ապակու պատուհան
   melon: Ձմերուկ
   vine: Որթատունկ
-  oak_fence_gate: Կաղնու դարպաս
-  spruce_fence_gate: Եղևնու փայտից ցանկապատի դարպաս
-  birch_fence_gate: Կեչու փայտից ցանկապատի դարպաս
-  jungle_fence_gate: Արևադարձային ծառի փայտից ցանկապատի դարպաս
-  acacia_fence_gate: Ակացիայի փայտից ցանկապատի դարպաս
-  dark_oak_fence_gate: Մուգ Կաղնու փայտից ցանկապատի դարպաս
-  crimson_fence_gate: Ալ կարմիր ցանկապատի դարպաս
-  warped_fence_gate: Աղավաղված ցանկապատի դարպաս
+  glow_lichen: Լուսարձակող քարաքոս
   brick_stairs: Աղյուսե Աստիճաններ
   stone_brick_stairs: Աղյուսաքարե Աստիճաններ
   mycelium: Բորբոսահող
@@ -280,18 +321,15 @@ material:
   end_stone: Վերջնաքար
   end_stone_bricks: Վերջնաքարի Աղյուսներ
   dragon_egg: Դրակոնի Ձու
-  redstone_lamp: Կարմրաքարի Լամպ
   sandstone_stairs: Ավազաքարե աստիճաններ
-  emerald_ore: Զմրուխտի Հանքաքար
   ender_chest: Էնդերի Սնդուկ
-  tripwire_hook: Թակարդի Կեռիկ
-  emerald_block: Զմրուխտի Բլոկ
+  emerald_block: Զմրուխտի կապան
   spruce_stairs: Եղևնու փայտից աստիճաններ
   birch_stairs: Կեչու փայտից աստիճաններ
   jungle_stairs: Արևադարձային ծառի փայտից աստիճաններ
-  crimson_stairs: Ալ կարմիր ծառից աստիճաններ
-  warped_stairs: Աղավաղված աստիճաններ
-  command_block: Հրամանների Բլոկ
+  crimson_stairs: Բոսորային Ծառից Աստիճաններ
+  warped_stairs: Աղավաղված Աստիճաններ
+  command_block: Հրամանների կապան
   beacon: Փարոս
   cobblestone_wall: Սալաքարե Պատ
   mossy_cobblestone_wall: Մամռոտ Սալաքարե Պատ
@@ -310,33 +348,18 @@ material:
   blackstone_wall: Սևքարե պատ
   polished_blackstone_wall: Հարթեցված սևքարե պատ
   polished_blackstone_brick_wall: Հարթեցված սևքարե աղյուսե պատ
-  stone_button: Քարե կոճակ
-  oak_button: Կաղնու փայտից կոճակ
-  spruce_button: Եղևնու փայտից կոճակ
-  birch_button: Կեչու փայտից կոճակ
-  jungle_button: Արևադարձային ծառի փայտից կոճակ
-  acacia_button: Ակացիայի փայտից կոճակ
-  dark_oak_button: Մուգ Կաղնու փայտից կոճակ
-  crimson_button: Ալ կարմիր կոճակ
-  warped_button: Աղավաղված կոճակ
-  polished_blackstone_button: Հարթեցված սևքարե կոճակ
-  anvil: Սալ
-  chipped_anvil: Վնասված սալ
-  damaged_anvil: Շատ Վնասված Սալ
-  trapped_chest: Թակարդված Սնդուկ
-  light_weighted_pressure_plate: Թեթև կշռված ճնշաթիթեղ
-  heavy_weighted_pressure_plate: Ծանր կշռված ճնշաթիթեղ
-  daylight_detector: Ցերեկային Լույսի Ցուցիչ
-  redstone_block: Կարմրաքարի Բլոկ
-  nether_quartz_ore: Կվարցի Հանքաքար
-  hopper: Ձագար
+  cobbled_deepslate_wall: Սալիկապատ խորը պատ
+  polished_deepslate_wall: Հղկված խորը պատի պատ
+  deepslate_brick_wall: Խորը աղյուսե պատ
+  deepslate_tile_wall: Խորը սալիկի պատը
+  anvil: Զնդան
+  chipped_anvil: Վնասված զնդան
+  damaged_anvil: Կոտրված զնդան
   chiseled_quartz_block: Փորագրված Կվարցի Բլոկ
   quartz_block: Կվարցի Բլոկ
   quartz_bricks: Կվարցե աղյուսներ
   quartz_pillar: Կվարցե սյուն
   quartz_stairs: Կվարցե Աստիճաններ
-  activator_rail: Ակտիվացնող Ռելս
-  dropper: Բաշխիչ
   white_terracotta: Սպիտակ Տեռակոտա
   orange_terracotta: Նարնջագույն Տեռակոտա
   magenta_terracotta: Մորեգույն Տեռակոտա
@@ -354,7 +377,7 @@ material:
   red_terracotta: Կարմիր Տեռակոտա
   black_terracotta: Սև Տեռակոտա
   barrier: խոչընդոտ
-  iron_trapdoor: Երկաթյա Դռնակ
+  light: Լույս
   hay_block: Ցորենի Խուրց
   white_carpet: Ճերմակ Գորգ
   orange_carpet: Նարնջագույն Գորգ
@@ -373,12 +396,10 @@ material:
   red_carpet: Կարմիր Գորգ
   black_carpet: Սև Գորգ
   terracotta: Տեռակոտա
-  coal_block: Ածուխի Բլոկ
   packed_ice: Խիտ Սառույց
   acacia_stairs: Ակացիայի փայտից աստիճաններ
   dark_oak_stairs: Մուգ կաղնու փայտից աստիճաններ
-  slime_block: Լորձի բլոկ
-  grass_path: Արահետ
+  dirt_path: Հողի արահետ
   sunflower: Արևածաղիկ
   lilac: Յասաման
   rose_bush: Վարդի թուփ
@@ -388,7 +409,7 @@ material:
   white_stained_glass: Սպիտակ Ապակի
   orange_stained_glass: Նարնջագույն Ապակի
   magenta_stained_glass: Մորեգույն ապակի
-  light_blue_stained_glass: Բաց Կապույտ Ապակի
+  light_blue_stained_glass: Երկնագույն Ապակի
   yellow_stained_glass: Դեղին Ապակի
   lime_stained_glass: Բաց Կանաչ Ապակի
   pink_stained_glass: Վարդագույն Ապակի
@@ -398,7 +419,7 @@ material:
   purple_stained_glass: Մանուշակագույն Գունավոր Ապակի
   blue_stained_glass: Կապույտ Ապակի
   brown_stained_glass: Դարչնագույն ապակի
-  green_stained_glass: Կանաչ Ապակի
+  green_stained_glass: Կանաչ բծերով ապակի
   red_stained_glass: Կարմիր Ապակի
   black_stained_glass: Սև Ապակի
   white_stained_glass_pane: Սպիտակ ապակու շերտ
@@ -406,17 +427,17 @@ material:
   magenta_stained_glass_pane: Մորեգույն Ապակու Շերտ
   light_blue_stained_glass_pane: Բաց կապույտ Ապակու Շերտ
   yellow_stained_glass_pane: Դեղին Ապակու Շերտ
-  lime_stained_glass_pane: Բաց Կանաչ Ապակու Շերտ
-  pink_stained_glass_pane: Վարդագույն Ապակու Շերտ
-  gray_stained_glass_pane: Մոխրագույն Ապակու Շերտ
-  light_gray_stained_glass_pane: Բաց Մոխրագույն Ապակու Շերտ
-  cyan_stained_glass_pane: Փիրուզագույն Ապակու Շերտ
-  purple_stained_glass_pane: Մանուշակագույն Ապակու Շերտ
-  blue_stained_glass_pane: Կապույտ Ապակու Շերտ
-  brown_stained_glass_pane: Դարչնագույն Ապակու Շերտ
-  green_stained_glass_pane: Կանաչ Ապակու Շերտ
-  red_stained_glass_pane: Կարմիր Ապակու Շերտ
-  black_stained_glass_pane: Սև Ապակու Շերտ
+  lime_stained_glass_pane: Լայմ ապակու պատուհան
+  pink_stained_glass_pane: Վարդագույն ապակու պատուհան
+  gray_stained_glass_pane: Մոխրագոյն գունաւոր պատուհան
+  light_gray_stained_glass_pane: Բաց մոխրագույն ապակու պատուհան
+  cyan_stained_glass_pane: Փիրուզագույն ապակու պատուհան
+  purple_stained_glass_pane: Մանուշակագույն ապակու պատուհան
+  blue_stained_glass_pane: Կապույտ ապակու պատուհան
+  brown_stained_glass_pane: Դարչնագույն ապակու պատուհան
+  green_stained_glass_pane: Կանաչ ապակու պատուհան
+  red_stained_glass_pane: Կարմիր ապակու պատուհան
+  black_stained_glass_pane: Սեւ ապակու շերտ
   prismarine: Պրիզմարին
   prismarine_bricks: Պրիզմարինե աղյուս
   dark_prismarine: Մուգ Պրիզմարին
@@ -425,18 +446,17 @@ material:
   dark_prismarine_stairs: Մուգ Պրիզմարինե աստիճաններ
   sea_lantern: Ջրային լապտեր
   red_sandstone: Կարմիր ավազաքար
-  chiseled_red_sandstone: Փորագրված Կարմիր Ավազաքար
+  chiseled_red_sandstone: Փորագրված կարմիր ավազաքար
   cut_red_sandstone: Հարթ կարմիր ավազաքար
   red_sandstone_stairs: Կարմիր Ավազաքարե Աստիճաններ
-  repeating_command_block: Կրկնվող հրամանների բլոկ
-  chain_command_block: Շղթայած հրամանների բլոկ
-  magma_block: Մագմայի Բլոկ
-  nether_wart_block: Նեզերի աճվածքի բլոկ
-  warped_wart_block: Աղավաղված աճվածքի բլոկ
+  repeating_command_block: Կրկնվող հրամանային կապան
+  chain_command_block: Շղթայած հրամանային կապան
+  magma_block: Մագմայի կապան
+  nether_wart_block: Նեզերի աճվածքի կապան
+  warped_wart_block: Աղավաղված Աճվածքի կապան
   red_nether_bricks: Կարմիր Նեզերի աղյուսներ
-  bone_block: Ոսկորի Բլոկ
-  structure_void: Դատարկ բլոկ
-  observer: Դիտող
+  bone_block: Ոսկրային կապան
+  structure_void: Դատարկ կապան
   shulker_box: Շալքերի տուփ
   white_shulker_box: Սպիտակ Շալքերի Տուփ
   orange_shulker_box: Նարնջագույն Շալքերի Տուփ
@@ -503,16 +523,16 @@ material:
   red_concrete_powder: Կարմիր չոր բետոն
   black_concrete_powder: Սև չոր բետոն
   turtle_egg: Կրիայի ձու
-  dead_tube_coral_block: Մահացած գլանային մարջանի բլոկ
-  dead_brain_coral_block: Մահացած ուղեղային մարջանի բլոկ
-  dead_bubble_coral_block: Մահացած պղպջակային մարջանի բլոկ
-  dead_fire_coral_block: Մահացած կրակոտ մարջանի բլոկ
-  dead_horn_coral_block: Մահացած կոտոշային մարջանի բլոկ
-  tube_coral_block: Գլանային մարջանի բլոկ
-  brain_coral_block: Ուղեղային մարջանի բլոկ
-  bubble_coral_block: Պղպջակային մարջանի բլոկ
-  fire_coral_block: Կրակոտ մարջանի բլոկ
-  horn_coral_block: Կոտոշավոր մարջանի բլոկ
+  dead_tube_coral_block: Մահացած գլանային մարջանի կապան
+  dead_brain_coral_block: Մահացած ուղեղային մարջանի կապան
+  dead_bubble_coral_block: Մահացած պղպջակային մարջանի կապան
+  dead_fire_coral_block: Մահացած կրակոտ մարջանի կապան
+  dead_horn_coral_block: Մահացած կոտոշային մարջանի կապան
+  tube_coral_block: Գլանային մարջանի կապան
+  brain_coral_block: Ուղեղային մարջանի կապան
+  bubble_coral_block: Պղպջակային մարջանի կապան
+  fire_coral_block: Կրակոտ մարջանի կապան
+  horn_coral_block: Կոտոշավոր մարջանի կապան
   tube_coral: Խողովակային մարջան
   brain_coral: Ուղեղային մարջան
   bubble_coral: Պղպջակային մարջան
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: Կարմիր Նեզերի աղյուսից աստիճաններ
   polished_andesite_stairs: Հարթեցված անդեզիտե աստիճաններ
   diorite_stairs: Դիորիտե աստիճաններ
+  cobbled_deepslate_stairs: Սալիկապատ խորը աստիճաններ
+  polished_deepslate_stairs: Հղկված խորը աստիճաններ
+  deepslate_brick_stairs: Խորը աղյուսե աստիճաններ
+  deepslate_tile_stairs: Խորը սալիկի սանդուղք
   polished_granite_slab: Հարթեցված գրանիտե սալիկ
   smooth_red_sandstone_slab: Հարթ կարմիր ավազաքարե սալիկ
   mossy_stone_brick_slab: Մամռակալած քարաղյուսե սալիկ
@@ -562,19 +586,103 @@ material:
   red_nether_brick_slab: Նեզերի կարմիր աղյուսե սալիկ
   polished_andesite_slab: Հարթեցված անդեզիտե սալիկ
   diorite_slab: Դիորիտե սալիկ
-  scaffolding: Շինարարական անտառներ
+  cobbled_deepslate_slab: Ջարդրտված շերտաքարի սալիկ
+  polished_deepslate_slab: Հղկված խորը սալիկ
+  deepslate_brick_slab: Խորը աղյուսե սալիկ
+  deepslate_tile_slab: Խորը սալիկի սալիկ
+  scaffolding: Լաստակ
+  redstone: Կարմիր Փոշի
+  redstone_torch: Կարմրաքարե Ջահ
+  redstone_block: Կարմրաքարի կապան
+  repeater: Կրկնիչ
+  comparator: Համեմատիչ
+  piston: Մխոց
+  sticky_piston: Կպչուն Մխոց
+  slime_block: Լորձի կապան
+  honey_block: Մեղրի կապան
+  observer: Դիտորդիչ
+  hopper: Ձագար
+  dispenser: Վանիչ
+  dropper: Բաշխիչ
+  lectern: Ամբիոն
+  target: Թիրախ
+  lever: Լծակ
+  lightning_rod: Շանթարգել
+  daylight_detector: Ցերեկային Լույսի Ցուցիչ
+  sculk_sensor: Սկալկ Տվիչ
+  tripwire_hook: Կեռիկ
+  trapped_chest: Թակարդված Սնդուկ
+  tnt: Դինամիտ
+  redstone_lamp: Կարմրաքարի Լամպ
+  note_block: Մեղեդու կապան
+  stone_button: Քարե կոճակ
+  polished_blackstone_button: Հարթեցված սևքարե կոճակ
+  oak_button: Կաղնու փայտից կոճակ
+  spruce_button: Եղևնու փայտից կոճակ
+  birch_button: Կեչու փայտից կոճակ
+  jungle_button: Արևադարձային ծառի փայտից կոճակ
+  acacia_button: Ակացիայի փայտից կոճակ
+  dark_oak_button: Մուգ Կաղնու փայտից կոճակ
+  crimson_button: Բոսորային  Կոճակ
+  warped_button: Աղավաղված Կոճակ
+  stone_pressure_plate: Քարե Ճնշաթիթեղ
+  polished_blackstone_pressure_plate: Հարթեցված սևքարե ճնշաթիթեղ
+  light_weighted_pressure_plate: Թեթև կշռված ճնշաթիթեղ
+  heavy_weighted_pressure_plate: Ծանր կշռված ճնշաթիթեղ
+  oak_pressure_plate: Կաղնու փայտից ճնշաթիթեղ
+  spruce_pressure_plate: Եղևնու փայտից ճնշաթիթեղ
+  birch_pressure_plate: Կեչու փայտից ճնշաթիթեղ
+  jungle_pressure_plate: Արևադարձային ծառի փայտից ճնշաթիթեղ
+  acacia_pressure_plate: Ակացիայի փայտից ճնշաթիթեղ
+  dark_oak_pressure_plate: Մուգ կաղնու փայտից ճնշաթիթեղ
+  crimson_pressure_plate: Բոսորային Ճնշաթիթեղ
+  warped_pressure_plate: Աղավաղված Ճնշաթիթեղ
   iron_door: Երկաթե Դուռ
-  oak_door: Կաղնու փայտից դուռ
+  oak_door: Կաղնե դուռ
   spruce_door: Եղևնու փայտից դուռ
   birch_door: Կեչու փայտից դուռ
   jungle_door: Արևադարձային ծառի փայտից դուռ
   acacia_door: Ակացիայի փայտից Դուռ
-  dark_oak_door: Մուգ Կաղնու փայտից դուռ
-  crimson_door: Ալ կարմիր դուռ
-  warped_door: Աղավաղված դուռ
-  repeater: Կրկնիչ
-  comparator: Համեմատիչ
-  structure_block: Բլոկ-կոնստրուկտոր
+  dark_oak_door: Մուգ կաղնե դուռ
+  crimson_door: Բոսորային Դուռ
+  warped_door: Աղավաղված Դուռ
+  iron_trapdoor: Երկաթե Դռնակ
+  oak_trapdoor: Կաղնու փայտից ծուղակե դռնակ
+  spruce_trapdoor: Եղևնու փայտից ծուղակե դռնակ
+  birch_trapdoor: Կեչու փայտից ծուղակե դռնակ
+  jungle_trapdoor: Արևադարձային ծառի փայտից ծուղակե դռնակ
+  acacia_trapdoor: Ակացիայի փայտից ծուղակե դռնակ
+  dark_oak_trapdoor: Մուգ կաղնու փայտից ծուղակե դռնակ
+  crimson_trapdoor: Բոսորային Ծուղակե Դռնակ
+  warped_trapdoor: Աղավաղված ծուղակի դռնակ
+  oak_fence_gate: Կաղնու դարպաս
+  spruce_fence_gate: Եղևնու փայտից ցանկապատի դարպաս
+  birch_fence_gate: Կեչու փայտից ցանկապատի դարպաս
+  jungle_fence_gate: Արևադարձային ծառի փայտից ցանկապատի դարպաս
+  acacia_fence_gate: Ակացիայի փայտից ցանկապատի դարպաս
+  dark_oak_fence_gate: Մուգ Կաղնու փայտից ցանկապատի դարպաս
+  crimson_fence_gate: Բոսորային  Ցանկապատի Դարպաս
+  warped_fence_gate: Աղավաղված ցանկապատի դարպաս
+  powered_rail: Էներգակիր Ռելս
+  detector_rail: Հայտնաբերող Ռելս
+  rail: Ռելս
+  activator_rail: Ակտիվացնող Ռելս
+  saddle: Թամբ
+  minecart: Վագոն
+  chest_minecart: Վագոն Սնդուկով
+  furnace_minecart: Շարժիչով Վագոն
+  tnt_minecart: Դինամիտով Վագոն
+  hopper_minecart: Ձագարով Վագոն
+  carrot_on_a_stick: Գազար Փայտիկի Վրա
+  warped_fungus_on_a_stick: Աղավաղված սունկ փայտի վրա
+  elytra: Էլիտրաներ
+  oak_boat: Կաղնե Նավակ
+  spruce_boat: Եղևնու ծառից Նավակ
+  birch_boat: Կեչու ծառից Նավակ
+  jungle_boat: Արևադարձային ծառի փայտից նավակ
+  acacia_boat: Ակացիայի փայտից Նավակ
+  dark_oak_boat: Մուգ Կաղնե Նավակ
+  structure_block: Կառուցվածքի կապան
   jigsaw: Jigsaw բլոկ
   turtle_helmet: Կրիայի պատյան
   scute: Պատյան
@@ -585,12 +693,20 @@ material:
   coal: Ածուխ
   charcoal: Փայտացուխ
   diamond: Ադամանդ
+  emerald: Զմրուխտ
+  lapis_lazuli: Լազուրիտ
+  quartz: Կվարց
+  amethyst_shard: Ամեթիստի կտոր
+  raw_iron: Անմշակ երկաթ
   iron_ingot: Երկաթե Ձույլ
+  raw_copper: Հում Պղինձ
+  copper_ingot: Պղնձե Ձուլակտոր
+  raw_gold: Անմշակ ոսկի
   gold_ingot: Ոսկե Ձույլ
-  netherite_ingot: Նեզերիտե ձույլ
+  netherite_ingot: Նեզերիտե ձուլակտոր
   netherite_scrap: Նեզերիտի կտոր
-  wooden_sword: Փայտե Սուր
-  wooden_shovel: Փայտե Թիակ
+  wooden_sword: Փայտե Թուր
+  wooden_shovel: Փայտե Բահ
   wooden_pickaxe: Փայտե Քլունգ
   wooden_axe: Փայտե Կացին
   wooden_hoe: Փայտե թոխր
@@ -599,13 +715,13 @@ material:
   stone_pickaxe: Քարե Քլունգ
   stone_axe: Քարե Կացին
   stone_hoe: Քարե թոխր
-  golden_sword: Ոսկե Սուր
-  golden_shovel: Ոսկե Թիակ
+  golden_sword: Ոսկե Թուր
+  golden_shovel: Ոսկե Բահ
   golden_pickaxe: Ոսկե Քլունգ
   golden_axe: Ոսկե Կացին
   golden_hoe: Ոսկե Թոխր
-  iron_sword: Երկաթե Սուր
-  iron_shovel: Երկաթե Թիակ
+  iron_sword: Երկաթե Թուր
+  iron_shovel: Երկաթե Բահ
   iron_pickaxe: Երկաթե Քլունգ
   iron_axe: Երկաթե Կացին
   iron_hoe: Երկաթե թոխր
@@ -617,7 +733,7 @@ material:
   netherite_sword: Նեզերիտե թուր
   netherite_shovel: Նեզերիտե բահ
   netherite_pickaxe: Նեզերիտե քլունգ
-  netherite_axe: Նեզերիտե կացին
+  netherite_axe: Նեզերիտե Կացին
   netherite_hoe: Նեզերիտե թոխր
   stick: Փայտիկ
   bowl: Աման
@@ -629,15 +745,15 @@ material:
   wheat: Ցորեն
   bread: Հաց
   leather_helmet: Կաշվե Սաղավարտ
-  leather_chestplate: Կաշվե Շապիկ
-  leather_leggings: Կաշվե Անդրավարտիկ
+  leather_chestplate: Կաշվե Լանջապանակ
+  leather_leggings: Կաշվե Տաբատ
   leather_boots: Կաշվե Կոշիկներ
   chainmail_helmet: Օղազրահե Սաղավարտ
   chainmail_chestplate: Օղազրահե Լանջապանակ
   chainmail_leggings: Օղազրահե Անդրավարտիք
   chainmail_boots: Օղազրահե Կոշիկներ
   iron_helmet: Երկաթե Սաղավարտ
-  iron_chestplate: Երկաթե Շապիկ
+  iron_chestplate: Երկաթե Լանջապանակ
   iron_leggings: Երկաթե Անդրավարտիկ
   iron_boots: Երկաթե Կոշիկներ
   diamond_helmet: Ադամանդե Սաղավարտ
@@ -649,12 +765,12 @@ material:
   golden_leggings: Ոսկե Անդրավարտիկ
   golden_boots: Ոսկե Կոշիկներ
   netherite_helmet: Նեզերիտե սաղավարտ
-  netherite_chestplate: Նեզերիտե շապիկ
+  netherite_chestplate: Նեզերիտե Լանջապանակ
   netherite_leggings: Նեզերիտե անդրավարտիք
   netherite_boots: Նեզերիտե կոշիկներ
   flint: Կայծքար
   porkchop: Հում Խոզի Միս
-  cooked_porkchop: Պատրաստված Խոզի Միս
+  cooked_porkchop: Խոզի խորոված
   painting: Նկար
   golden_apple: Ոսկե Խնձորր
   enchanted_golden_apple: Կախարդված ոսկե խնձոր
@@ -664,34 +780,32 @@ material:
   jungle_sign: Արևադարձային ծառի փայտից ցուցանակ
   acacia_sign: Ակացիայի փայտից ցուցանակ
   dark_oak_sign: Մուգ կաղնու փայտից ցուցանակ
-  crimson_sign: Ալ կարմիր ցուցանակ
-  warped_sign: Աղավաղված ցուցանակ
+  crimson_sign: Բոսորային Ցուցանակ
+  warped_sign: Աղավաղված Ցուցանակ
   bucket: Դույլ
   water_bucket: Ջրով Դույլ
   lava_bucket: Լավայով Դույլ
-  minecart: Վագոն
-  saddle: Թամբ
-  redstone: Կարմիր Փոշի
+  powder_snow_bucket: Փխրուն Ձնով Դույլ
   snowball: Ձնագնդիկ
-  oak_boat: Կաղնու փայտից Նավակ
   leather: Կաշի
   milk_bucket: Կաթով դույլ
   pufferfish_bucket: Փքաձուկը դույլի մեջ
   salmon_bucket: Դույլով սաղմոն
   cod_bucket: Ձողաձկան Դույլ
   tropical_fish_bucket: Արևադարձային ձուկը դույլի մեջ
+  axolotl_bucket: Աքսոլոտլով դույլ
   brick: Աղյուս
   clay_ball: Կավե գնդակ
-  dried_kelp_block: Չորացրած լամինարիայի բլոկ
+  dried_kelp_block: Չորացրած լամինարիայի կապան
   paper: Թուղթ
   book: Գիրք
   slime_ball: Լորձագնդակ
-  chest_minecart: Բեռնատար Վագոն
-  furnace_minecart: Շարժիչով Վագոն
   egg: Ձու
   compass: Կողմնացույց
+  bundle: Փունջ
   fishing_rod: Կարթաձող
   clock: Ժամացույց
+  spyglass: Հեռադիտակ
   glowstone_dust: Լուսարձակող Քարի Փոշի
   cod: Հում Ձողաձուկ
   salmon: Հում Սաղմոն
@@ -700,8 +814,8 @@ material:
   cooked_cod: Եփված Ձողաձուկ
   cooked_salmon: պատրաստված Սաղմոն
   ink_sac: Թանաք
+  glow_ink_sac: Լուսարձակող թանակի պարկ
   cocoa_beans: Կակաո-լոբի
-  lapis_lazuli: Լազուրիտ
   white_dye: Սպիտակ ներկ
   orange_dye: Նարնջագույն Ներկ
   magenta_dye: Մորեգույն Ներկ
@@ -738,24 +852,24 @@ material:
   green_bed: Կանաչ Մահճակալ
   red_bed: Կարմիր Մահճակալ
   black_bed: Սև Մահճակալ
-  cookie: Բլիթ
+  cookie: Թխվածք
   filled_map: Քարտեզ
   shears: Մկրատ
   melon_slice: Ձմերուկի կտոր
-  dried_kelp: Չորացրած ջրիմուռ
+  dried_kelp: Ջրիմուռի չիր
   pumpkin_seeds: Դդմի Սերմեր
   melon_seeds: Ձմերուկի Սերմեր
   beef: Հում Տավարի Միս
   cooked_beef: Բիֆշտեքս
   chicken: Հում Հավ
-  cooked_chicken: Պատրաստված Հավի միս
+  cooked_chicken: Հավի խորոված
   rotten_flesh: Փտած Միս
   ender_pearl: Էնդերի Մարգարիտ
   blaze_rod: Բոցի Ձող
   ghast_tear: Գաստի Արցունք
   gold_nugget: Ոսկու Բնակտոր
   nether_wart: Նեզերի աճվածք
-  potion: Դեղորայք
+  potion: Թուրմ
   glass_bottle: Ապակե Շիշ
   spider_eye: Սարդի Աչք
   fermented_spider_eye: Սարդի Ֆերմենտացված Աչք
@@ -765,6 +879,7 @@ material:
   cauldron: Կաթսա
   ender_eye: Էնդերի Աչք
   glistering_melon_slice: Շողացող ձմերուկի դիլիմ
+  axolotl_spawn_egg: Աքսոլոտլ ստեղծելու ձու
   bat_spawn_egg: Չղջիկ ստեղծելու ձու
   bee_spawn_egg: Մեղու ստեղծելու ձու
   blaze_spawn_egg: Բոցավառ ստեղծելու ձու
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: Կախարդիչ ստեղծելու ձու
   fox_spawn_egg: Աղվես ստեղծելու ձու
   ghast_spawn_egg: Գաստ ստեղծելու ձու
+  glow_squid_spawn_egg: Լուսարձակող ութոտնուկ ստեղծելու ձու
+  goat_spawn_egg: Այծ ստեղծելու ձու
   guardian_spawn_egg: Պահապան ստեղծելու ձու
   hoglin_spawn_egg: Հոգլին ստեղծելու ձու
   horse_spawn_egg: Ձի ստեղծելու ձու
@@ -796,7 +913,7 @@ material:
   parrot_spawn_egg: Թութակ ստեղծելու ձու
   phantom_spawn_egg: Ֆանտոմ ստեղծելու ձու
   pig_spawn_egg: Խոզ ստեղծելու ձու
-  piglin_spawn_egg: Փիգլին ստեղծելու ձու
+  piglin_spawn_egg: Փիգլին Ծնելու Ձու
   piglin_brute_spawn_egg: Գազանացած փիգլին ստեղծելու ձու
   pillager_spawn_egg: Ավազակ ստեղծելու ձու
   polar_bear_spawn_egg: Սպիտակ արջ ստեղծելու ձու
@@ -805,13 +922,13 @@ material:
   ravager_spawn_egg: Ավերիչ ստեղծելու ձու
   salmon_spawn_egg: Սաղմոն ստեղծելու ձու
   sheep_spawn_egg: Ոչխար ստեղծելու ձու
-  shulker_spawn_egg: Շալքեր ստեղծելու ձու
+  shulker_spawn_egg: Շալկեր ստեղծելու ձու
   silverfish_spawn_egg: Արծաթաթեփուկ ստեղծելու ձու
   skeleton_spawn_egg: Կմախք ստեղծելու ձու
   skeleton_horse_spawn_egg: Կմախք-ձի ստեղծելու ձու
   slime_spawn_egg: Լորձ ստեղծելու ձու
   spider_spawn_egg: Սարդ ստեղծելու ձու
-  squid_spawn_egg: Կաղամար ստեղծելու ձու
+  squid_spawn_egg: Ութոտնուկ ստեղծելու ձու
   stray_spawn_egg: Թափառող ստեղծելու ձու
   strider_spawn_egg: Լավաչափիկ ստեղծելու ձու
   trader_llama_spawn_egg: Առևտրականի լամա ստեղծելու ձու
@@ -828,13 +945,13 @@ material:
   zombie_spawn_egg: Զոմբի ստեղծելու ձու
   zombie_horse_spawn_egg: Զոմբիացած ձի ստեղծելու ձու
   zombie_villager_spawn_egg: Չոմբիացված գյուղացի ստեղծելու ձու
-  zombified_piglin_spawn_egg: Զոմբիֆիկացված փիգլին ստեղծելու ձու
+  zombified_piglin_spawn_egg: Զոմբիֆիկացված փիգլին ստեղծման ձու
   experience_bottle: Փորձառությունների Շիշ
   fire_charge: Կրակի Գունդ
   writable_book: Գիրք և Փետուր
   written_book: Գրված Գիրք
-  emerald: Զմրուխտ
   item_frame: Առարկայի Շրջանակ
+  glow_item_frame: Լուսարձակող իրերի շրջանակ
   flower_pot: Ծաղկաման
   carrot: Գազար
   potato: Կարտոֆիլ
@@ -848,17 +965,12 @@ material:
   zombie_head: Զոմբիի Գլուխ
   creeper_head: Քրիփերի Գլուխ
   dragon_head: Վիշապի Գլուխ
-  carrot_on_a_stick: Գազար Փայտիկի Վրա
-  warped_fungus_on_a_stick: Աղավաղված սունկ փայտի վրա
   nether_star: Նեզերի աստղ
   pumpkin_pie: Դդմով Կարկանդակ
   firework_rocket: Հրավառություն
   firework_star: Հրավառության Աստղ
   enchanted_book: Կախարդական Գիրք
   nether_brick: Դժոխքային Աղյուս
-  quartz: Կվարց
-  tnt_minecart: Դինամիտով Վագոն
-  hopper_minecart: Ձագարով Վագոն
   prismarine_shard: Պրիզմարինի Շեղ
   prismarine_crystals: Պրիզմարինային բյուրեղ
   rabbit: Հում նապաստակ
@@ -866,16 +978,16 @@ material:
   rabbit_stew: Շոգեխաշած նապաստակ
   rabbit_foot: Նապաստակի ոտք
   rabbit_hide: Նապաստակի կաշի
-  armor_stand: Հենարան զրահի համար
+  armor_stand: Զրահի Հենարան
   iron_horse_armor: Ձիու Երկաթե Զրահ
   golden_horse_armor: Ձիու Ոսկե Զրահ
   diamond_horse_armor: Ձիու Ադամանդե Զրահ
   leather_horse_armor: Ձիու Կաշվե Զրահ
   lead: Սանձ
   name_tag: Անվանապիտակ
-  command_block_minecart: Վագոն Հրամաննեի Բլոկով
+  command_block_minecart: Վագոն Հրամանի Բլոկով
   mutton: Հում ոչխարի միս
-  cooked_mutton: Պատրաստած ոչխարի միս
+  cooked_mutton: Ոչխարի խորոված
   white_banner: Սպիտակ Դրոշ
   orange_banner: Նարնջագույն Դրոշ
   magenta_banner: Մորեգույն Դրոշ
@@ -901,15 +1013,9 @@ material:
   dragon_breath: Վիշապի Շնչառաց
   splash_potion: Պայթուցիչ թեղաթույն
   spectral_arrow: Սպեկտրալ Աղեղ
-  tipped_arrow: Ազդեցությունով Աղեղ
+  tipped_arrow: Վերամշակված Աղեղ
   lingering_potion: Մառախուղի դեղաթույն
   shield: Վահան
-  elytra: Էլիտրաներ
-  spruce_boat: Եղևնու ծառից Նավակ
-  birch_boat: Կեչու ծառից Նավակ
-  jungle_boat: Արևադարձային ծառի փայտից նավակ
-  acacia_boat: Ակացիայի փայտից Նավակ
-  dark_oak_boat: Մուգ Կաղնու փայտից Նավակ
   totem_of_undying: Անմահության տոտեմ
   shulker_shell: Շալքերի կմախք
   iron_nugget: երկաթյա կտոր
@@ -944,33 +1050,29 @@ material:
   composter: Հողի մնացորդների տարա
   barrel: Տակառ
   smoker: Ծխանոց
-  blast_furnace: Դարբնի վառարան
+  blast_furnace: Հալման վառարան
   cartography_table: Քարտեզագրի սեղան
   fletching_table: Նետաձգի սեղան
   grindstone: Աղացաքար
-  lectern: Ամբիոն
   smithing_table: Դարբնի սեղան
-  stonecutter: Քարհատ
+  stonecutter: Քարհատիչ
   bell: Զանգ
   lantern: Լապտեր
-  soul_lantern: Հոգու լապտեր
+  soul_lantern: Հոգու Լապտեր
   sweet_berries: Քաղցր հատապտուղներ
+  glow_berries: Կախված Հատապտուղներ
   campfire: Խարույկ
-  soul_campfire: Հոգու կրակե խարույկ
+  soul_campfire: Հոգու Խարույկ
   shroomlight: Սնկալույս
   honeycomb: Մեղրամոմ
   bee_nest: Փեթակ
-  beehive: Փեթակ
+  beehive: Մեղվաբույն
   honey_bottle: Մեղրով շիշ
-  honey_block: Մեղրի բլոկ
-  honeycomb_block: Մեղրամոմի բլոկ
+  honeycomb_block: Մեղրամոմի կապան
   lodestone: Մագնիս
-  netherite_block: Նեզերիտի բլոկ
-  ancient_debris: Հնագույն ավերակներ
-  target: Թիրախ
   crying_obsidian: Լացող օբսիդիան
-  blackstone: Սևքար
-  blackstone_slab: Սևքարե սալիկ
+  blackstone: Սեւքար
+  blackstone_slab: Սեւքարե Սալիկ
   blackstone_stairs: Սևքարե աստիճաններ
   gilded_blackstone: Ոսկիացված սևքար
   polished_blackstone: Հարթեցված սևքար
@@ -981,7 +1083,29 @@ material:
   polished_blackstone_brick_slab: Հարթեցված սևքարե աղյուսե սալիկ
   polished_blackstone_brick_stairs: Հարթեցված սևքարե աղյուսե աստիճաններ
   cracked_polished_blackstone_bricks: Ճաքած հարթեցված սևքարե աղյուս
-  respawn_anchor: Վերածնման խարիսխ
+  respawn_anchor: Վերածնման Խարիսխ
+  candle: Մոմ
+  white_candle: Սպիտակ մոմ
+  orange_candle: Նարնջագույն մոմ
+  magenta_candle: Մորեգույն մոմ
+  light_blue_candle: Երկնագույն մոմ
+  yellow_candle: Դեղին մոմ
+  lime_candle: Լայմային մոմ
+  pink_candle: Վարդագույն մոմ
+  gray_candle: Մոխրագույն մոմ
+  light_gray_candle: Բաց մոխրագույն մոմ
+  cyan_candle: Փիրուզագույն մոմ
+  purple_candle: Մանուշակագույն մոմ
+  blue_candle: Կապույտ մոմ
+  brown_candle: Դարչնագույն մոմ
+  green_candle: Կանաչ մոմ
+  red_candle: Կարմիր մոմ
+  black_candle: Սեւ մոմ
+  small_amethyst_bud: Փոքր մեղեսիկային բողբոջ
+  medium_amethyst_bud: Միջին մեղեսիկային բողբոջ
+  large_amethyst_bud: Մեծ մեղեսիկային բողբոջ
+  amethyst_cluster: ' Մեղեսիկային բյուրեղաբույլ'
+  pointed_dripstone: Սուր շթաքար
   water: Ջուր
   lava: Լավա
   tall_seagrass: Բարձրահասակ ծովախոտ
@@ -989,7 +1113,7 @@ material:
   moving_piston: Շարժվող մխոց
   wall_torch: Պատի ջահ
   fire: Կրակ
-  soul_fire: Հոգու կրակ
+  soul_fire: Հոգու Կրակ
   redstone_wire: Կարմրափոշիի Լար
   oak_wall_sign: Կաղնու ափսե
   spruce_wall_sign: Տոնածառի ափսե
@@ -1001,36 +1125,39 @@ material:
   dark_oak_wall_sign: |
     Պատի ափսե մուգ կաղնու փայտից
   redstone_wall_torch: Պատի կարմրաքարի ջահ
-  soul_wall_torch: Պատի հոգու ջահ
+  soul_wall_torch: Պատի Հոգու Ջահ
   nether_portal: Նեզերի պորտալ
   attached_pumpkin_stem: Կցված դդմի ցողուն
   attached_melon_stem: Կցված դդմի ցողուն
   pumpkin_stem: Դդմի Ցողուն
-  melon_stem: Ձմերուկի Սերմեր
+  melon_stem: Ձմերուկի կոռն
+  water_cauldron: Ջրով կաթսա
+  lava_cauldron: Լավայով կաթսա
+  powder_snow_cauldron: Փխրուն Ձնով Կաթսա
   end_portal: Էնդի Պորտալ
   cocoa: Կակաո
   tripwire: Թակարդալար
-  potted_oak_sapling: Կաղնու սածիլ ծաղկամանի մեջ
+  potted_oak_sapling: Կաղնու տնկի ծաղկամանում
   potted_spruce_sapling: Եղևնու սածիլ ծաղկամանի մեջ
   potted_birch_sapling: Կեչու սածիլ ծաղկամանի մեջ
   potted_jungle_sapling: Արևադարձային սածիլ ծաղկամանի մեջ
   potted_acacia_sapling: Ակացիայի սածիլ ծաղկամանի մեջ
-  potted_dark_oak_sapling: Մուգ կաղնու սածիլ ծաղկամանի մեջ
-  potted_fern: Ծաղկամանով ձարխոտ
+  potted_dark_oak_sapling: Մուգ կաղնու տնկի ծաղկամանում
+  potted_fern: Ծաղկամանով պտեր
   potted_dandelion: Ծաղկամանով խատուտիկ
   potted_poppy: Ծաղկամանով կակաչ
   potted_blue_orchid: Ծաղկամանով խոլորձ
   potted_allium: Ծաղկամանով ալլիում
   potted_azure_bluet: Երկնագույն Տերեփուկ Ամանի Մեջ
-  potted_red_tulip: Կարմիր Վարդակակաչ Ամանի Մեջ
-  potted_orange_tulip: Նարնջագույն Վարդակակաչ Ամանի Մեջ
-  potted_white_tulip: Սպիտակ Վարդակակաչ Ամանի Մեջ
-  potted_pink_tulip: Վարդագույն Վարդակակաչ Ամանի Մեջ
+  potted_red_tulip: Կարմիր Վարդակակաչ ծաղկամանում
+  potted_orange_tulip: Նարնջագույն Վարդակակաչ ծաղկամանում
+  potted_white_tulip: Սպիտակ Վարդակակաչ ծաղկամանում
+  potted_pink_tulip: Վարդագույն Վարդակակաչ ծաղկամանում
   potted_oxeye_daisy: Ծաղկամանով երիցուկ
   potted_cornflower: Վասիլեկ
   potted_lily_of_the_valley: |
     Հովտաշուշան
-  potted_wither_rose: Չոր Վարդ
+  potted_wither_rose: Ծաղկամանով Թառամած Վարդ
   potted_red_mushroom: Ծաղկամանով կարմիր սունկ
   potted_brown_mushroom: Ծաղկամանով շագանակագույն սունկ
   potted_dead_bush: Ծաղկամանով չորացած թուփ
@@ -1041,7 +1168,7 @@ material:
   wither_skeleton_wall_skull: Վիզեր-կմաղքի պատի գանգ
   zombie_wall_head: Զոմբիի պատի գլուխ
   player_wall_head: Խաղացողի պատի գլուխ
-  creeper_wall_head: Քրիպերի պատի գլուխ
+  creeper_wall_head: Կրիպերի պատի գլուխ
   dragon_wall_head: Վիշապի գլուխ
   white_wall_banner: Սպիտակ Դրոշ
   orange_wall_banner: Նարնջագույն Դրոշ
@@ -1073,20 +1200,44 @@ material:
   bubble_coral_wall_fan: Պատի հովհարային պղպջակավոր մարջան
   fire_coral_wall_fan: Պատի հովհարային կրակոտ մարջան
   horn_coral_wall_fan: Պատի հովհարային կոտոշավոր մարջան
-  bamboo_sapling: Բամբուկի կտոր
+  bamboo_sapling: Բամբուկի Կտոր
   potted_bamboo: Բամբուկ
   void_air: Վակկուում
   cave_air: Քարանձավի օդ
   bubble_column: Պղպջակների սյուն
   sweet_berry_bush: Քաղցր Բերուշ Բուշը
-  weeping_vines_plant: Լացող որթատնկի բույս
+  weeping_vines_plant: Լացող Որթատնկի Բույս
   twisting_vines_plant: Գալարաձև որթատնկի բույս
-  crimson_wall_sign: Ալ կարմիր պատի ցուցանակ
-  warped_wall_sign: Աղավաղված պատի ցուցանակ
-  potted_crimson_fungus: Ալ կարմիր սունկ ծաղկամանի մեջ
+  crimson_wall_sign: Բոսորային Պատի Ցուցանակ
+  warped_wall_sign: Աղավաղված Պատի Ցուցանակ
+  potted_crimson_fungus: Բոսորային Սունկ Ծաղկամանում
   potted_warped_fungus: Աղավաղված սունկ ծաղկամանի մեջ
   potted_crimson_roots: Ալ կարմիր արմատներ ծաղկամանի մեջ
   potted_warped_roots: Աղավաղված արմատներ ծաղկամանի մեջ
+  candle_cake: Մոմով թխվածք
+  white_candle_cake: Թխվածք Սպիտակ Մոմով
+  orange_candle_cake: Թխվածք Նարնջագույն Մոմով
+  magenta_candle_cake: Թխվածք Ծիրանի Մոմով
+  light_blue_candle_cake: Թխվածք Բաց Կապույտ Մոմով
+  yellow_candle_cake: Թխվածք Դեղին Մոմով
+  lime_candle_cake: Թխվածք Լայմ Մոմով
+  pink_candle_cake: Թխվածք Վարդագույն Մոմով
+  gray_candle_cake: Թխվածք մոխրագույն մոմով
+  light_gray_candle_cake: Թխվածք բաց մոխրագույն մոմով
+  cyan_candle_cake: Թխվածք փիրուզագույն մոմով
+  purple_candle_cake: Թխվածք Մանուշակագույն Մոմով
+  blue_candle_cake: Թխվածք Կապույտ Մոմով
+  brown_candle_cake: Թխվածք Շականակագույն Մոմով
+  green_candle_cake: Թխվածք Կանաչ Մոմով
+  red_candle_cake: Թխվածք Կարմիր Մոմով
+  black_candle_cake: Թխվածք Սեւ Մոմով
+  powder_snow: Փխրուն ձյուն
+  cave_vines: Քարանձավային պատատուկներ
+  cave_vines_plant: Քարանձավային խաղողի գործարան
+  big_dripleaf_stem: Մեծ Կաթլատերեւի ցողուն
+  potted_azalea_bush: կաթսա azalea
+  potted_flowering_azalea_bush: խաշած ծաղկեփունջ azalea
+  grass_path: Արահետ
   zombie_pigman_spawn_egg: Խոզազոմբի ստեղծելու ձու
   cactus_green: Կանաչ Ներկ
   dandelion_yellow: Դեղին Ներկ
@@ -1169,73 +1320,75 @@ biome:
   bamboo_jungle: 'Բամբուկե մացառուտներ:'
   bamboo_jungle_hills: Լեռնոտ բամբուկե թփուտներ
   soul_sand_valley: Հոգու ավազի հովիտ
-  crimson_forest: Բոսորագույն անտառ
+  crimson_forest: Բոսորագույն Անտառ
   warped_forest: Աղավաղված անտառ
   basalt_deltas: Բազալտե Դելտաներ
+  dripstone_caves: Շթաքարե Քարանձավներ
+  lush_caves: Բուսածածկ քարանձավներ
   nether: Դժոխք
 enchantment:
-  fire_protection: Պաշտպանություն Կրակից
-  sharpness: Սրություն
-  flame: Հուր
-  soul_speed: Հոգու արագություն
-  aqua_affinity: Ջրասուզակ
-  punch: Հրող
-  loyalty: Հավատարմություն
-  depth_strider: Ստորջրյա քայլք
-  vanishing_curse: Կորուստի անեծք
-  unbreaking: Պնդություն
-  knockback: Հրում
-  luck_of_the_sea: Ծովի բախտը
-  binding_curse: Չհանվելու անեծք
-  fortune: Հաջողություն
   protection: Պաշտպանություն
-  efficiency: Ազդեցություն
-  mending: Վերանորոգում
-  frost_walker: Սառցեքայլող
-  lure: Խայծ
-  looting: Կողոպուտ
-  piercing: Խոցող նետ
-  blast_protection: Պայթեցման Պաշտպանություն
-  smite: Երկնային պատիժ
-  multishot: Եռակի հարված
-  fire_aspect: Կրակի Կերպարանք
-  channeling: Շանթարձակ
-  sweeping: Խոցող սայր
-  thorns: Փուշեր
-  bane_of_arthropods: Միջատների Կործանում
-  respiration: Ձրային Շնչառություն
-  riptide: Քաշող
-  silk_touch: Մետաքսի Դիպում
-  quick_charge: Արագ լիցքավորում
-  projectile_protection: Պաշպանություն Արկերից
-  impaling: Խոցող
+  fire_protection: Պաշտպանություն Կրակից
   feather_falling: Ընկնելու Պաշտպանություն
+  blast_protection: Պայթեցման Պաշտպանություն
+  projectile_protection: Պաշպանություն Արկերից
+  respiration: Ձրային Շնչառություն
+  aqua_affinity: Ջրասուզակ
+  thorns: Փուշեր
+  depth_strider: Ստորջրյա քայլք
+  frost_walker: Սառցեքայլող
+  binding_curse: Չհանվելու անեծք
+  sharpness: Սրություն
+  smite: Երկնային պատիժ
+  bane_of_arthropods: Միջատների Կործանում
+  knockback: Հետնահարում
+  fire_aspect: Կրակի Կերպարանք
+  looting: Ավար
+  sweeping: Խոցող սայր
+  efficiency: Ազդեցություն
+  silk_touch: Մետաքսի Դիպում
+  unbreaking: Պնդություն
+  fortune: Հաջողություն
   power: Ուժ
+  punch: Հրող
+  flame: Հուր
   infinity: Անվերջություն
+  luck_of_the_sea: Ծովի բախտը
+  lure: Խայծ
+  loyalty: Հավատարմություն
+  impaling: Խոցում
+  riptide: Քաշող
+  channeling: Շանթարձակ
+  multishot: Եռակի կրակոց
+  quick_charge: Արագ լիցքավորում
+  piercing: Խոցող Աղեղ
+  mending: Վերանորոգում
+  vanishing_curse: Կորստի անեծք
+  soul_speed: Հոգու արագություն
 potion:
-  uncraftable: Անսարքելի դեղորայք
+  uncraftable: Անսարքելի դեղ
   water: Ջրի շիշ
   mundane: Սովորական դեղորայք
-  thick: Թավ դեղորայք
-  awkward: Պղտոր դեղորայք
+  thick: Թավ թուրմ
+  awkward: Պղտոր թուրմ
   night_vision: Գիշերային տեսողության դեղորայք
   invisibility: Անտեսանելիության դեղորայք
   jump: Ցատկոտության դեղորայք
-  fire_resistance: Կրակի դիմադրության դեղորայք
-  speed: Արագության դեղորայք
-  slowness: Դանդաղկոտության խմորը
+  fire_resistance: Հրակայունության թուրմ
+  speed: Արագության թուրմ
+  slowness: Դանդաղության Թուրմ
   water_breathing: Ջրային շնչառության խմորը
-  instant_heal: Բուժման դեղ
-  instant_damage: Վնաս պատճառելու խմորը
-  poison: Թույն խմելիք
+  instant_heal: Բուժման Թուրմ
+  instant_damage: Վնասակար Թուրմ
+  poison: Թունավորող Թուրմ
   regen: Վերածնում դեղ
   strength: Ուժի խմորը
-  weakness: Թուլության խմորը
-  luck: Հաջողություն խմելը
+  weakness: Թուլության Թուրմ
+  luck: Հաջողություն Թուրմ
   turtle_master: Կրիայի ուժի դեղորայք
   slow_falling: Դանդաղ ընկման դեղորայք
 splash_potion:
-  uncraftable: Պայթուցիկ անսարքելի դեղորայք
+  uncraftable: Պայթուցիկ անսարքելի դեղ
   water: Պայթուցիկ ջրի շիշ
   mundane: Սովորական պայթուցիկ դեղորայք
   thick: Թավ պայթուցիկ դեղորայք
@@ -1257,12 +1410,12 @@ splash_potion:
   turtle_master: Կրիայի հզորության պայթուցիկ դեղորայք
   slow_falling: Դանդաղ ընկման պայթուցիկ դեղորայք
 lingering_potion:
-  uncraftable: Չպատրաստվող երկարատև դեղորայք
+  uncraftable: Անսարքելի երկարատեւ դեղ
   water: Երկարատև ջրի շիշ
   mundane: Սովորական երկարատև դեղորայք
   thick: Թավ երկարատև դեղորայք
   awkward: Պղտոր եկարատև դեղորայք
-  night_vision: Գիշերային տեսողության երկարատև դեղորայք
+  night_vision: Գիշերային տեսողության երկարատև թուրմ
   invisibility: Անտեսանելիության երկարտև դեղորայք
   jump: Ցատկոտության երկարտև դեղորայք
   fire_resistance: Կրակի դիմադրության երկարատև դեղորայք
@@ -1279,7 +1432,7 @@ lingering_potion:
   turtle_master: Կրիայի հզորության երկարատև դեղորայք
   slow_falling: Դանդաղ ընկնելու երկարատև դեղորայք
 tipped_arrow:
-  uncraftable: Վերամշակված անստեղծ դեղորայքով նետը
+  uncraftable: Անսարքելի դեղով նետը
   water: Պայթուցիկ նետ
   mundane: Վերամշակված նետ
   thick: Վերամշակված նետ
@@ -1302,11 +1455,11 @@ tipped_arrow:
   slow_falling: Դանդաղ ընկման աղեղ
 entity:
   dropped_item: Առարկա
-  experience_orb: Կախարդանքի Գնդիկներ
+  experience_orb: Վարպետության գնդիկներ
   area_effect_cloud: Էֆֆեկտի ամպ
-  elder_guardian: Հասուն Պահպանող
+  elder_guardian: Հնագույն Պահապան
   wither_skeleton: Ոչնչացնողի կմախք
-  stray: Կործանված
+  stray: Թափառական
   egg: Գցած Ձու
   leash_hitch: Լաշ հանգույց
   painting: Նկար
@@ -1316,14 +1469,14 @@ entity:
   small_fireball: Փոքր Հրագունդ
   ender_pearl: Գցած Էնդր Մարգարիտ
   ender_signal: Էնդերի Աչք
-  splash_potion: Դեղորայք
-  thrown_exp_bottle: Փորձի շիշ
+  splash_potion: Թուրմ
+  thrown_exp_bottle: Նետած Հմտության շիշ
   item_frame: Առարկայի Շրջանակ
   wither_skull: Ոչնչացնողի գանգ
   primed_tnt: Ակտիվացված դինամիտ
-  falling_block: Ընկնող Բլոկ
+  falling_block: Ընկնող կապան
   firework: Հրավառություն
-  husk: Կճեպ
+  husk: Ննջեցյալ
   spectral_arrow: Սպեկտրալ Աղեղ
   shulker_bullet: Շըլկրի Արկ
   dragon_fireball: Վիշապի Հրագունդ
@@ -1337,11 +1490,11 @@ entity:
   evoker: Կախարդ
   vex: Վեկց
   vindicator: Поборник
-  illusioner: Պատկերազարդ
-  minecart_command: Վագոն Հրամաննեի Բլոկով
+  illusioner: Ձեռնածու
+  minecart_command: Վագոն Հրամաննեի կապանով
   boat: Նավակ
-  minecart: Վագոն
-  minecart_chest: Բեռնատար Վագոն
+  minecart: Վագոնիկ
+  minecart_chest: Վագոն Սնդուկով
   minecart_furnace: Շարժիչով Վագոն
   minecart_tnt: Դինամիտով Վագոն
   minecart_hopper: Ձագարով Վագոն
@@ -1352,27 +1505,27 @@ entity:
   giant: Հսկա
   zombie: Զոմբի
   slime: Լորձ
-  ghast: Գաստ
+  ghast: Ուրվական
   zombified_piglin: Զոմբիֆիկացված խոզամարդ
   enderman: Էնդերմարդ
-  cave_spider: Քարանձավի Սարդ
+  cave_spider: Քարանձավային Սարդ
   silverfish: Արծաթաձուկ
-  blaze: Բոցավառ
+  blaze: Բոցավար
   magma_cube: Դժողքի Լորձ
   ender_dragon: Էնդեր-Վիշապ
   wither: Ոչնչացնող
   bat: Չղջիկ
   witch: Վհուկ
   endermite: Էնդերմիթ
-  guardian: Պահպանող
+  guardian: Պահապան
   shulker: Շուլկեր
   pig: Խոզ
   sheep: Ոչխար
   cow: Կով
   chicken: Հավ
-  squid: Կաղամար
+  squid: Ութոտնուկ
   wolf: Գայլ
-  mushroom_cow: Անասուունկ
+  mushroom_cow: Անասունկ
   snowman: Ձնեմարդ
   ocelot: Օցելոտ
   iron_golem: Երկաթե Գոլեմ
@@ -1401,11 +1554,16 @@ entity:
   wandering_trader: Թափառող Վաճառական
   fox: Աղվես
   bee: Մեղու
-  hoglin: Դժոխքի վարազ
+  hoglin: Հոգլին
   piglin: Փիգլին
   strider: Լավաչափիկ
   zoglin: Զոգլին
   piglin_brute: Գազանացած փիգլին
+  axolotl: Աքսոլոտլ
+  glow_item_frame: Լուսարձակող իրի շրջանակ
+  glow_squid: Լուսարձակող ութոտնուկ
+  goat: Այծ
+  marker: Նշան
   fishing_hook: Լողող
   lightning: Կայծակ
   player: Խաղացող
@@ -1416,29 +1574,29 @@ effect:
   fast_digging: Արագացում
   slow_digging: Դանդաղացում
   increase_damage: Ուժ
-  heal: Ակնթարթային Առողջություն
+  heal: Ակնթարթային Առողջացում
   harm: Ակնթարթային Վնաս
-  jump: Թռիչքի ունակություն
-  confusion: Գլխապտույտ
+  jump: Ցատկի Ուժգնացում
+  confusion: Սրտխառնոց
   regeneration: Վերականգնում
   damage_resistance: Դիմադրություն
-  fire_resistance: Դիմադրություն Կրակին
+  fire_resistance: Հրակայունություն
   water_breathing: Ջրային Շնչառություն
   invisibility: Անտեսանելիություն
   blindness: Կուրություն
   night_vision: Գիշերային Տեսողություն
   hunger: Սով
   weakness: Թուլություն
-  poison: Թույն
+  poison: Թունավորում
   wither: Չորացում
   health_boost: Կյանքի Ավելացում
   absorption: Կլանելիություն
   saturation: Հագեցվածություն
   glowing: Փայլում
   levitation: Լեվետացիա
-  luck: Բախտ
+  luck: Հաջողություն
   unluck: Ձախողություն
-  slow_falling: Դանդաղ ընկնում
+  slow_falling: Սահուն անկում
   conduit_power: Աղբյուրի ուժը
   dolphins_grace: Դելֆինի շնորհը
   bad_omen: Վատ Օմեն
@@ -1446,7 +1604,7 @@ effect:
 tropical_fish_type:
   kob: Կոբ
   sunstreak: Sunstreak
-  snooper: Քնած
+  snooper: Խուզարկու
   dasher: Դաշեր
   brinely: Բրինլին
   spotty: Пятнистый
@@ -1500,7 +1658,7 @@ tropical_fish_name:
   '235340288': Կարմիր Ձգվեց Բենին
   '918273': Կարմիր դիպուկահար
   '67108865': Threadfin
-  '917504': Լոլիկ Ծաղրածու
+  '917504': Լոլիկային Ծաղրածու
   '459008': Մեջքակոտոշ
   '67699456': Դեղնավուն թութակաձուկ
   '67371009': Դեղին տանգ
@@ -1671,7 +1829,7 @@ banner_pattern:
   '655362': Մորեգույն գոտի
   '655363': Բաց կապույտ գոտի
   '655364': Դեղին գոտի
-  '655365': Բաց կանաչ գոտի
+  '655365': Լայմ գոտի
   '655366': Վարդագույն գոտի
   '655367': Մոխրագույն գոտի
   '655368': Բաց կապույտ գոտի
@@ -1687,17 +1845,19 @@ banner_pattern:
   '720898': Մորեգույն կապ
   '720899': Բաց կապույտ կապ
   '720900': Դեղին կապ
-  '720901': Բաց կանաչ կապ
+  '720901': |2-
+
+    Լայմ կապ
   '720902': Վարդագուն կապ
   '720903': Մոխրագույն կապ
-  '720904': Մաց մոխրագույն կապ
+  '720904': Բաց մոխրագույն կապ
   '720905': Փիրուզագույն կապ
   '720906': Մանուշակագույն կապ
   '720907': Կապույտ կապ
   '720908': Շագանակագույն կապ
   '720909': Կանաչ կապ
   '720910': Կարմիր կապ
-  '720911': Սև կապ
+  '720911': Սեւ կապ
   '786432': Սպիտակ ձախակողմյա կապ
   '786433': Գազարագույն ձախակողմյա կապ
   '786434': Մորեգույն ձախակողմյա կապ
@@ -1987,22 +2147,22 @@ banner_pattern:
   '1900557': Կանաչ մեկ ճեղք հակադարձ
   '1900558': Կարմիր մեկ ճեղք հակադարձ
   '1900559': 'Սև մեկ ճեղք հակադարձ '
-  '1966080': Սպիտակ Կապանք
-  '1966081': Նարնջագույն Կապանք
+  '1966080': Սպիտակ եզրաքար
+  '1966081': Նարնջագույն եզրաքար
   '1966082': Մագենտա Կապանք
-  '1966083': Բաց Կապույտ Կապանք
-  '1966084': Դեղին Կապանք
-  '1966085': Բաց Կանաչ Կապանք
-  '1966086': Վարդագույն Կապանք
-  '1966087': Մոխրագույն Կապանք
-  '1966088': Բաց Մոխրագույն Կապանք
-  '1966089': Ցիան Կապանք
-  '1966090': Մանուշակագույն Կապանք
-  '1966091': Կապույտ Կապանք
-  '1966092': Շականակագույն Կապանք
-  '1966093': Կանաչ Կապանք
-  '1966094': Կարմիր Կապանք
-  '1966095': Սև Կապանք
+  '1966083': Բաց կապույտ եզրաքար
+  '1966084': Դեղին եզրաքար
+  '1966085': Լայմ եզրաքար
+  '1966086': Վարդագույն եզրաքար
+  '1966087': Մոխրագույն եզրաքար
+  '1966088': Բաց մոխրագույն եզրաքար
+  '1966089': Փիրուզ եզրաքար
+  '1966090': Մանուշակագույն եզրաքար
+  '1966091': Կապույտ եզրաքար
+  '1966092': Շականակագույն եզրաքար
+  '1966093': Կանաչ եզրաքար
+  '1966094': Կարմիր եզրաքար
+  '1966095': Սեւ եզրաքար
   '2031616': Սպիտակ կապանք շեղված
   '2031617': Նարնջագույն կապանք շեղված
   '2031618': Մագենտա կապանք շեղված
@@ -2015,10 +2175,10 @@ banner_pattern:
   '2031625': Ցիան կապանք շեղված
   '2031626': Մանուշակագույն կապանք շեղված
   '2031627': Կապույտ կապանք շեղված
-  '2031628': Շականակագույն կապանք շեղված
-  '2031629': Կանաչ կապանք շեղված
-  '2031630': Կարմիր կապանք շեղված
-  '2031631': Սև կապանք շեղված
+  '2031628': Շականակագույն ատամնավոր եզրաքար
+  '2031629': Կանաչ ատամնավոր եզրաքար
+  '2031630': Կարմիր ատամնավոր եզրաքար
+  '2031631': Սեւ ատամնավոր եզրաքար
   '2097152': Սպիտակ սողացող լիցք
   '2097153': Նարնջագույն սողացող լիցք
   '2097154': Մագնետա սողացող լիցք
@@ -2206,8 +2366,3 @@ villager_profession:
   shepherd: Չոբան
   toolsmith: Գործիքագործ
   weaponsmith: Զինագործ
-villager_career:
-  fisherman: ձկնորս
-  shepherd: Չոբան
-  fletcher: Աղեղանող
-  librarian: Գրադարանավար

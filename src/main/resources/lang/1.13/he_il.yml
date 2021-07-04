@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:47                    #
+# Build time: 2021-07-04 21:46:03                    #
 # ####################################################
 language:
   code: he_il
@@ -28,7 +28,6 @@ material:
   debug_stick: מקל תיקון באגים
   diamond_pickaxe: מקוש יהלום
   dried_kelp_block: בלוק אצה מיובש
-  drowned_spawn_egg: ביצת זימון טובע
   elder_guardian_spawn_egg: ביצת גארדיין עתיק
   evoker_spawn_egg: ביצת זימון איבוקר
   fire_charge: מטען אש
@@ -48,6 +47,7 @@ material:
   iron_pickaxe: מקוש ברזל
   jungle_trapdoor: ג'ונגל סתרים
   light_blue_dye: צבען תכלת
+  light_gray_bed: מיטה תכלת
   light_gray_dye: צבען אפור בהיר
   lime_dye: צבען ליים
   llama_spawn_egg: ביצת לאמה
@@ -66,7 +66,6 @@ material:
   orange_dye: צבען כתום
   parrot_spawn_egg: ביצת תוכי
   peony: אדמוניות
-  phantom_membrane: קרום הפאנטום
   pig_spawn_egg: ביצת חזיר
   pink_dye: צבען ורוד
   player_wall_head: ראש קיר של שחקן
@@ -95,7 +94,6 @@ material:
   seagrass: דשא ים
   slime_spawn_egg: ביצת זימון סליים
   smooth_quartz: קוורץ חלק
-  spectral_arrow: חץ ספקטרלי
   spruce_trapdoor: דלת הסתרים אשוחית
   stone_pickaxe: מקוש אבן
   stray_spawn_egg: ביצת זימון סטריי
@@ -139,8 +137,6 @@ biome:
   modified_badlands_plateau: פלטו ביצות מותאם
 enchantment:
   punch: אגרוף
-  depth_strider: פסען המעמקים
-  frost_walker: הולך בשלג
   blast_protection: |
     חסינות מפיצוצים
   sweeping: להב גורף
@@ -160,18 +156,17 @@ lingering_potion:
 tipped_arrow:
   uncraftable: חץ מכושף לא ניתן להכנה
 entity:
-  experience_orb: כדור נסיון
   wither_skeleton: גולגולת שלד ווית'ר
   wither_skull: ראש של ווידר
   primed_tnt: TNT מוכן
   husk: גוויה
-  spectral_arrow: חץ ספקטרלי
   skeleton_horse: סוס שלד
   evoker_fangs: ניבי איבוקר
   vex: מקניטן
   illusioner: כפרי אומן אשליות
   minecart_mob_spawner: קרונית עם ספאונר
   blaze: יישות מתלקחת
+  ender_dragon: אנדרדרקון
   llama: לאמה
   llama_spit: למה יורקת
   phantom: שד
@@ -711,3 +706,5 @@ banner_pattern:
   '2490381': לוגו ירוק
   '2490382': לוגו אדום
   '2490383': לוגו שחור
+villager_profession:
+  farmer: חקלאי

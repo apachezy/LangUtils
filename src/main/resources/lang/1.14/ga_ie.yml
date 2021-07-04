@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:20:00                    #
+# Build time: 2021-07-04 21:41:56                    #
 # ####################################################
 language:
   code: ga_ie
@@ -10,7 +10,6 @@ material:
   acacia_log: Lomán Acaicia
   acacia_planks: Clár Acaicia
   acacia_pressure_plate: Brúphláta Acaicia
-  acacia_sign: Comhartha Acáise
   acacia_slab: Leac Acaicia
   acacia_stairs: Staighre Acaicia
   acacia_trapdoor: Comhla Thógála Acaicia
@@ -22,10 +21,8 @@ material:
   barrier: Bacainn
   birch_log: Lomán Beithe
   birch_planks: Clár Beithe
-  birch_sign: Comhartha Beithe
   birch_slab: Leac Beithe
   birch_trapdoor: Comhla Thógála Beithe
-  birch_wall_sign: Comhartha Balla Beithe
   black_concrete: Stroighin Dhubh
   black_concrete_powder: Púdar Stroighne Dubh
   black_dye: Dath Dubh
@@ -55,9 +52,14 @@ material:
   chorus_fruit: Toradh Curfá
   chorus_plant: Planda Curfá
   clay_ball: Cré
+  cobblestone: Duirleog
+  cobblestone_slab: Leac Duirleoga
+  cobblestone_stairs: Staighre Cloiche
+  cobblestone_wall: Balla Duirleoga
   command_block_minecart: Cairt Mianaigh le Bloc Ordaithe
   composter: Bosca Múirín
   cooked_salmon: Bradán Cócaráilte
+  cracked_stone_bricks: Brící Cloiche Gágacha
   cut_red_sandstone: Gaineamhchloch Dhearg Gearrtha
   cut_red_sandstone_slab: Gearr Leac Gaineamhchloiche Deirge
   cut_sandstone_slab: Gearr Leac Gaineamhchloiche
@@ -69,10 +71,8 @@ material:
   damaged_anvil: Inneoin Damáiste
   dark_oak_log: Lomán Darach Duibhe
   dark_oak_planks: Clár Darach Duibhe
-  dark_oak_sign: Comhartha Darach Duibhe
   dark_oak_slab: Leac Darach Duibhe
   dark_oak_trapdoor: Comhla Thógála Darach Duibhe
-  dark_oak_wall_sign: Comhartha Balla Darach Duibhe
   dark_prismarine_slab: Leac Priosmuirínigh Dhuibh
   daylight_detector: Brathadóir Sholas an Lae
   dragon_wall_head: Ceann Balla Dragain
@@ -96,7 +96,6 @@ material:
   green_dye: Dath Uaine
   green_stained_glass: Gloine Dhaite Uaine
   green_stained_glass_pane: Pána Gloine Daite Uaine
-  grindstone: Cloch Fhaobhair
   hay_block: Burla Féir Thirim
   hopper_minecart: Cairt Mianaigh le Crannóg
   infested_chiseled_stone_bricks: Brící Cloiche Siséalta Salacha
@@ -106,14 +105,8 @@ material:
   infested_stone: Cloch Salach
   infested_stone_bricks: Brící Cloiche Salacha
   jigsaw: Bloc mireanna mearaí
-  jungle_button: Cnaipe Dufaire
-  jungle_log: Lomán Dufaire
-  jungle_planks: Clár Adhmad Dufaire
-  jungle_pressure_plate: Brúphláta Dufaire
   jungle_sign: Comhartha Ahmaid Dufaire
   jungle_slab: Leac Dufaire
-  jungle_stairs: Staighre Dugaire
-  jungle_trapdoor: Comhla Thógála Dufaire
   jungle_wall_sign: Comhartha Balla Adhmaid Dufaire
   kelp_plant: Planda Ceilp
   leather_horse_armor: Cathéide Leathair na gCapall
@@ -138,15 +131,16 @@ material:
   magenta_stained_glass_pane: Pána Gloine Daite Maigeanta
   melon_slice: Gearradh Mealbhacán
   milk_bucket: Buicéad Bainne
+  mossy_cobblestone: Duirleog Caonach
+  mossy_cobblestone_slab: Leac Dhuirleoga Caonaigh
   mossy_cobblestone_stairs: Staighre Duirleoga Caonaigh
+  mossy_cobblestone_wall: Balla Duirleoga Caonaí
   mushroom_stem: Gas Muisiriún
   nether_portal: Tairseach don Íochtar
   oak_log: Darach
   oak_planks: Clár Darach
-  oak_sign: Comhartha Darach
   oak_slab: Leac Darach
   oak_trapdoor: Comhla Thógála Darach
-  oak_wall_sign: Comhartha Balla Darach
   orange_concrete: Stroighin Oráisteach
   orange_concrete_powder: Púdar Stroighne Oráisteach
   orange_shulker_box: Bosca Slíogadóra Oráisteach
@@ -171,7 +165,6 @@ material:
   potted_dark_oak_sapling: Buinneán Darach Duibhe i bPota
   potted_dead_bush: Tom Marbh i bPota
   potted_fern: Raithneach i bPota
-  potted_jungle_sapling: Buinneán Dufaire i bPota
   potted_lily_of_the_valley: Lile na nGleanntán i bPota
   potted_oak_sapling: Buinneán Darach i bPota
   potted_orange_tulip: Tiúilip Orásite i bPota
@@ -203,22 +196,21 @@ material:
   shulker_box: Bosca Slíogadóra
   shulker_shell: Blaosc Slíogadóra
   skeleton_wall_skull: Cloigeann Balla Chnámharlaigh
+  slime_ball: Liathróid Slaim
+  slime_block: Bloc Slaim
   smoker: Deatóir
   smooth_quartz: Ghrianchloiche Mhín
+  smooth_stone_slab: Leac Chloiche Míne
   snow_block: Bloic Sneachta
   spruce_log: Lomán Sprúis
   spruce_planks: Clár Sprúis
-  spruce_sign: Comhartha Sprúis
   spruce_trapdoor: Comhla Thógála Sprúis
-  spruce_wall_sign: Comhartha Balla Sprúis
   stone_brick_slab: Leac Brící Cloiche
   stripped_acacia_log: Lomán Acaicia
   stripped_acacia_wood: Adhmad Scafa Acaicia
   stripped_birch_wood: Adhmad Scafa Beithe
   stripped_dark_oak_log: Lomán Darach Dhubh
   stripped_dark_oak_wood: Adhmad Scafa Darach Dhuibhe
-  stripped_jungle_log: Lomán Dufaire
-  stripped_jungle_wood: Adhmad Scafa Dufaire
   stripped_oak_wood: Lomán Darach Scafa
   stripped_spruce_wood: Lomán Sprúis Scafa
   tnt_minecart: Cairt Mianaigh le TNT
@@ -251,6 +243,7 @@ entity:
   minecart_command: Cairt Mianaigh le Bloc Ordaithe
   minecart_tnt: Cairt Mianaigh le TNT
   minecart_mob_spawner: Cairt Mianaigh le Gineadóir
+  slime: Slam
 named:
   unknown_enchantment: 'Asarlaí anaithnid: %s'
 new_banner_pattern:

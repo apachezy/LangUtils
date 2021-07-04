@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:46                    #
+# Build time: 2021-07-04 21:46:02                    #
 # ####################################################
 language:
   code: bs_ba
@@ -14,10 +14,17 @@ material:
   polished_diorite: Polirani Diorit
   andesite: Andezit
   polished_andesite: Polirani Andezit
+  deepslate: Škriljevac
+  cobbled_deepslate: Kameni škriljevac
+  polished_deepslate: Polirani škriljevac
+  calcite: Kalcit
+  tuff: Tuf
+  dripstone_block: Blok speleotema
   grass_block: Blok trave
   dirt: Zemlja
   coarse_dirt: Gruba zemlja
   podzol: Podzol
+  rooted_dirt: Ukorijenjena zemlja
   crimson_nylium: Grimizni nilijum
   warped_nylium: Izopačeni nilijum
   cobblestone: Blok kaldrme
@@ -39,10 +46,67 @@ material:
   sand: Pijesak
   red_sand: Crveni pijesak
   gravel: Šljunak
-  gold_ore: Ruda Zlata
-  iron_ore: Ruda gvožđa
   coal_ore: Ruda Uglja
+  deepslate_coal_ore: Škriljava ugljena ruda
+  iron_ore: Ruda gvožđa
+  deepslate_iron_ore: Škriljava željezna ruda
+  copper_ore: Bakrena ruda
+  deepslate_copper_ore: Škriljava bakrena ruda
+  gold_ore: Ruda Zlata
+  deepslate_gold_ore: Škriljava zlatna ruda
+  redstone_ore: Ruda Redstona
+  deepslate_redstone_ore: Škriljava redstone ruda
+  emerald_ore: Ruda Smaragda
+  deepslate_emerald_ore: Škriljava smaragdna ruda
+  lapis_ore: Ruda Lapiza
+  deepslate_lapis_ore: Škriljava lazulitna ruda
+  diamond_ore: Ruda Dijamanta
+  deepslate_diamond_ore: Škriljava dijamantna ruda
   nether_gold_ore: Paklena zlatna ruda
+  nether_quartz_ore: Neder kvarcna ruda
+  ancient_debris: Drevni ostaci
+  coal_block: Blok Uglja
+  raw_iron_block: Blok sirovog metala
+  raw_copper_block: Blok sirovog bakra
+  raw_gold_block: Blok sirovog zlata
+  amethyst_block: Blok ametista
+  budding_amethyst: Stvarač ametista
+  iron_block: Blok gvožđa
+  copper_block: Blok bakra
+  gold_block: Blok zlata
+  diamond_block: Blok Dijamanta
+  netherite_block: Blok od nederita
+  exposed_copper: Izloženi bakar
+  weathered_copper: Korodirani bakar
+  oxidized_copper: Oksidirani bakar
+  cut_copper: Rezani bakar
+  exposed_cut_copper: Izloženi rezani bakar
+  weathered_cut_copper: Istrošeni rezani bakar
+  oxidized_cut_copper: Rezani oksidirani bakar
+  cut_copper_stairs: Stepenice od rezanog bakra
+  exposed_cut_copper_stairs: Stube od izloženog rezanog bakra
+  weathered_cut_copper_stairs: Istrošene stepenice od rezanog bakra
+  oxidized_cut_copper_stairs: Stepenice od rezanog oksidiranog bakra
+  cut_copper_slab: Ploča od rezanog bakra
+  exposed_cut_copper_slab: Ploča od izloženog rezanog bakra
+  weathered_cut_copper_slab: Istrošena ploča od rezanog bakra
+  oxidized_cut_copper_slab: Polublok od rezanog oksidiranog bakra
+  waxed_copper_block: Voštani bakreni blok
+  waxed_exposed_copper: Voštani izloženi bakar
+  waxed_weathered_copper: Voštani korodirani bakar
+  waxed_oxidized_copper: Voštani oksidirani bakar
+  waxed_cut_copper: Voštani rezani bakar
+  waxed_exposed_cut_copper: Voštani izloženi rezani bakar
+  waxed_weathered_cut_copper: Rezani voštani korodirani bakar
+  waxed_oxidized_cut_copper: Voštani oksidirani rezani bakar
+  waxed_cut_copper_stairs: Voštane stepenice od rezanog bakra
+  waxed_exposed_cut_copper_stairs: Stube od voštanog izloženog rezanog bakra
+  waxed_weathered_cut_copper_stairs: Stube od rezanog voštanog koridiranog bakra
+  waxed_oxidized_cut_copper_stairs: Stubovi od voštanog oksidiranog rezanog bakra
+  waxed_cut_copper_slab: Voštana ploča od rezanog bakra
+  waxed_exposed_cut_copper_slab: Ploča od voštanog izloženog rezanog bakra
+  waxed_weathered_cut_copper_slab: Polublok od rezanog voštanog korodiranog bakra
+  waxed_oxidized_cut_copper_slab: Ploča od voštanog oksidiranog rezanog bakra
   oak_log: Hrastov panj
   spruce_log: Smrekin panj
   birch_log: Brezin panj
@@ -81,26 +145,24 @@ material:
   jungle_leaves: List džungle
   acacia_leaves: Lišće bagrema
   dark_oak_leaves: List tamnog hrasta
+  azalea_leaves: Lišće azaleje
+  flowering_azalea_leaves: Cvatući azaleja listovi
   sponge: Spužva
   wet_sponge: Mokra spužva
   glass: Staklo
-  lapis_ore: Ruda Lapiza
-  lapis_block: Blok Lapiza
-  dispenser: Automat
+  tinted_glass: Obojeno staklo
+  lapis_block: Blok lazulita
   sandstone: Pješčani kamen
   chiseled_sandstone: Klesani Pješčani Kamen
   cut_sandstone: Izrezani pješčani kamen
-  note_block: Blok Nota
-  powered_rail: Pruga s pogonom
-  detector_rail: Pruga s detektorom
-  sticky_piston: Ljepljivi Izbacivač
   cobweb: Mreža
   grass: Trava
   fern: Paprat
+  azalea: Azaleja
+  flowering_azalea: Cvatuća azaleja
   dead_bush: Mrtvi grm
   seagrass: Morska trava
   sea_pickle: Morski krastavac
-  piston: Izbacivač
   white_wool: Bijela Vuna
   orange_wool: Narandžasta Vuna
   magenta_wool: Purpurcrvena Vuna
@@ -130,10 +192,11 @@ material:
   cornflower: Različak
   lily_of_the_valley: Đurđevak
   wither_rose: Vider ruža
+  spore_blossom: Cvat spore
   brown_mushroom: Braon pečurka
   red_mushroom: Crvena pečurka
   crimson_fungus: Grimizna gljiva
-  warped_fungus: Izopačena gljiva
+  warped_fungus: Luda gljiva
   crimson_roots: Grimizno korijenje
   warped_roots: Izopačeno korijenje
   nether_sprouts: Neder klice
@@ -141,9 +204,12 @@ material:
   twisting_vines: Uvrnute lijane
   sugar_cane: Šećerna trska
   kelp: Alga
+  moss_carpet: Tepih od mahovine
+  moss_block: Blok mahovine
+  hanging_roots: Viseće korjenje
+  big_dripleaf: Veliki kaplist
+  small_dripleaf: Mali kaplist
   bamboo: Bambus
-  gold_block: Blok zlata
-  iron_block: Blok gvožđa
   oak_slab: Ploča od hrasta
   spruce_slab: Ploča od smreke
   birch_slab: Ploča od breze
@@ -168,12 +234,11 @@ material:
   prismarine_slab: Ploča od prizmarina
   prismarine_brick_slab: Prizmarinsko  Ciglasta Ploča
   dark_prismarine_slab: Ploča od tamnog prizmarina
-  smooth_quartz: Glatki Kvarcni Blok
+  smooth_quartz: Glatki kvarcni blok
   smooth_red_sandstone: Glatki crveni pješčani kamen
   smooth_sandstone: Glatki pješčani kamen
   smooth_stone: Glatki kamen
   bricks: Cigle
-  tnt: Dinamit
   bookshelf: Polica za knjige
   mossy_cobblestone: Mahovinasta kaldrma
   obsidian: Obsidijan
@@ -187,27 +252,11 @@ material:
   spawner: Stvaratelj
   oak_stairs: Stepenice od hrasta
   chest: Kovčeg
-  diamond_ore: Ruda Dijamanta
-  diamond_block: Blok Dijamanta
   crafting_table: Radni sto
   farmland: Polje
   furnace: Peć
   ladder: Ljestve
-  rail: Pruga
   cobblestone_stairs: Kamene Stepenice
-  lever: Poluga
-  stone_pressure_plate: Kamena Potisna Ploča
-  oak_pressure_plate: Potisna ploča od hrasta
-  spruce_pressure_plate: Potisna ploča od smreke
-  birch_pressure_plate: Potisna ploča od breze
-  jungle_pressure_plate: Potisna ploča od džungle
-  acacia_pressure_plate: Potisna ploča od bagrema
-  dark_oak_pressure_plate: Potisna ploča od tamnog hrasta
-  crimson_pressure_plate: Grimizna nagazna ploča
-  warped_pressure_plate: Izopačena nagazna ploča
-  polished_blackstone_pressure_plate: Nagazna ploča od poliranog crnog kamena
-  redstone_ore: Ruda Redstona
-  redstone_torch: Baklja Redstona
   snow: Snijeg
   ice: Led
   snow_block: Sniježni blok
@@ -224,32 +273,31 @@ material:
   warped_fence: Izopačena ograda
   pumpkin: Bundeva
   carved_pumpkin: Izrezbarena bundeva
+  jack_o_lantern: Svijetleća bundeva
   netherrack: Neder kamen
   soul_sand: Živi pijesak
   soul_soil: Duševna zemlja
   basalt: Bazalt
   polished_basalt: Polirani bazalt
+  smooth_basalt: Glatki bazalt
   soul_torch: Baklja duše
   glowstone: Svijetleći kamen
-  jack_o_lantern: Svijetleća bundeva
-  oak_trapdoor: Poklopac od hrasta
-  spruce_trapdoor: Poklopac od smreke
-  birch_trapdoor: Poklopac od breze
-  jungle_trapdoor: Poklopac od džungle
-  acacia_trapdoor: Poklopac od bagrema
-  dark_oak_trapdoor: Poklopac od tamnog hrasta
-  crimson_trapdoor: Grimizna podna vrata
-  warped_trapdoor: Izopačena podna vrata
   infested_stone: Opustošen kamen
   infested_cobblestone: Opustošen kaldrmasti kamen
   infested_stone_bricks: Opustošena kamena cigla
   infested_mossy_stone_bricks: Opustošena mahovita kamena cigla
   infested_cracked_stone_bricks: Opustošena napukla kamena cigla
   infested_chiseled_stone_bricks: Opustošena izdubljena kamena cigla
+  infested_deepslate: Opustošeni škriljevac
   stone_bricks: Kamene Stepenice
   mossy_stone_bricks: Obrasle Kamene Cigle
   cracked_stone_bricks: Napukle Kamene Cigle
   chiseled_stone_bricks: Klesane Kamene Cigle
+  deepslate_bricks: Škriljave cigle
+  cracked_deepslate_bricks: Napukle škriljave cigle
+  deepslate_tiles: Škriljave pločice
+  cracked_deepslate_tiles: Napukle škriljave pločice
+  chiseled_deepslate: Isklesani škriljevac
   brown_mushroom_block: Braon blok pečurki
   red_mushroom_block: Crveni blok pečurki
   mushroom_stem: Stabljika pečurke
@@ -258,20 +306,13 @@ material:
   glass_pane: Staklena ploča
   melon: Lubenica
   vine: Vinova Loza
-  oak_fence_gate: Vrata za ogradu od hrasta
-  spruce_fence_gate: Smrekvina vrata za ogradu
-  birch_fence_gate: Brezina vrata za ogradu
-  jungle_fence_gate: Džunglina vrata za ogradu
-  acacia_fence_gate: Vrata za ogradu od bagrema
-  dark_oak_fence_gate: Vrata za ogradu od tamnog hrasta
-  crimson_fence_gate: Vrata za grimiznu ogradu
-  warped_fence_gate: Vrata za izopačenu ogradu
+  glow_lichen: Svjetleći lišaj
   brick_stairs: Kamene Stepenice
   stone_brick_stairs: Stepenice od Kamenih Cigla
   mycelium: Micelijum
   lily_pad: Lokvanj
   nether_bricks: Neder cigle
-  cracked_nether_bricks: Napukle neder cigle
+  cracked_nether_bricks: Napukle Nether cigle
   chiseled_nether_bricks: Isklesane neder cigle
   nether_brick_fence: Ograda Nederskih Cigla
   nether_brick_stairs: Stepenice Nederskih Cigla
@@ -280,11 +321,8 @@ material:
   end_stone: Enderski Kamen
   end_stone_bricks: End kamene cigle
   dragon_egg: Zmajevo Jaje
-  redstone_lamp: Redstone Lampa
   sandstone_stairs: Pješčane Stepenice
-  emerald_ore: Ruda Smaragda
   ender_chest: Ender kovčeg
-  tripwire_hook: Kuka za nagaznu žicu
   emerald_block: Blok smaragda
   spruce_stairs: Stepenice od smreke
   birch_stairs: Stepenice od breze
@@ -310,33 +348,18 @@ material:
   blackstone_wall: Zid od crnog kamena
   polished_blackstone_wall: Zid od poliranog crnog kamena
   polished_blackstone_brick_wall: Zid od cigli poliranog crnog kamena
-  stone_button: Kameno dugme
-  oak_button: Dugme od hrasta
-  spruce_button: Dugme od smreke
-  birch_button: Dugme od breze
-  jungle_button: Dugme od džungle
-  acacia_button: Dugme od bagrema
-  dark_oak_button: Dugme od tamnog hrasta
-  crimson_button: Grimizno dugme
-  warped_button: Izopačeno dugme
-  polished_blackstone_button: Dugme od poliranog crnog kamena
+  cobbled_deepslate_wall: Zid od kamenog škriljevca
+  polished_deepslate_wall: Zid od poliranog škriljevca
+  deepslate_brick_wall: Zid od škriljavih cigli
+  deepslate_tile_wall: Zid od škriljavih pločica
   anvil: Nakovanj
   chipped_anvil: Okrnjen nakovanj
   damaged_anvil: Oštećeni nakovanj
-  trapped_chest: Kovčeg sa zamkom
-  light_weighted_pressure_plate: Lagana potisna ploča
-  heavy_weighted_pressure_plate: Teška Otežana Ploča
-  daylight_detector: Detektor dnevne svijetlosti
-  redstone_block: Blok redstona
-  nether_quartz_ore: Neder kvarcna ruda
-  hopper: Lijevak
   chiseled_quartz_block: Isklesani blok kvarca
   quartz_block: Blok kvarca
   quartz_bricks: Kvarcne cigle
   quartz_pillar: Kvarcni stub
   quartz_stairs: Kvarcne stepenice
-  activator_rail: Pruga sa aktivatorom
-  dropper: Izbacivač
   white_terracotta: Bijela Terakota
   orange_terracotta: Narandžasta Terakota
   magenta_terracotta: Purpurcrvena Terakota
@@ -354,7 +377,7 @@ material:
   red_terracotta: Crvena Terakota
   black_terracotta: Crna Terakota
   barrier: Barijera
-  iron_trapdoor: Gvozdeni Poklopac
+  light: Svjetlo
   hay_block: Bala Sijena
   white_carpet: Bijeli Tepih
   orange_carpet: Narandžasti Tepih
@@ -373,12 +396,10 @@ material:
   red_carpet: Crveni tepih
   black_carpet: Crni tepih
   terracotta: Terakota
-  coal_block: Blok Uglja
   packed_ice: Tvrdi led
   acacia_stairs: Stepenice od bagrema
   dark_oak_stairs: Stepenice od tamnog hrasta
-  slime_block: Ljigav blok
-  grass_path: Travnati put
+  dirt_path: Zemljani put
   sunflower: Suncokret
   lilac: Jorgovan
   rose_bush: Grm Ruže
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: Crvena neder cigla
   bone_block: Koštani blok
   structure_void: Strukturna praznina
-  observer: Posmatrač
   shulker_box: Kutija Shulkera
   white_shulker_box: Bijela kutija shulkera
   orange_shulker_box: Narandžasta kutija shulkera
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: Stepenice od crvenih cigla iz Nedera
   polished_andesite_stairs: Glatke stepenice od andezita
   diorite_stairs: Diorit Stepenice
+  cobbled_deepslate_stairs: Stepenice od kamenog škriljevca
+  polished_deepslate_stairs: Stepenice od poliranog škriljevca
+  deepslate_brick_stairs: Stepenice od škriljavih cigli
+  deepslate_tile_stairs: Stepenice od škriljavih pločica
   polished_granite_slab: Uglancana Granitna ploča
   smooth_red_sandstone_slab: Glatka Crvena Pješčana Ploča
   mossy_stone_brick_slab: Obrasla Kamena Ploča
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: Crvena Ploča Od Neder Cigle
   polished_andesite_slab: Glatka ploča od Andzita
   diorite_slab: Ploča od Diorita
+  cobbled_deepslate_slab: Ploča od kamenog škriljevca
+  polished_deepslate_slab: Ploča od poliranog škriljevca
+  deepslate_brick_slab: Ploča od škriljavih cigli
+  deepslate_tile_slab: Ploča od škriljavih pločica
   scaffolding: Skele
+  redstone: Prah Redstona
+  redstone_torch: Baklja Redstona
+  redstone_block: Blok redstona
+  repeater: Redstone pojačivač
+  comparator: Redstone komparator
+  piston: Izbacivač
+  sticky_piston: Ljepljivi Izbacivač
+  slime_block: Ljigav blok
+  honey_block: Blok meda
+  observer: Posmatrač
+  hopper: Lijevak
+  dispenser: Automat
+  dropper: Izbacivač
+  lectern: Naslon za čitanje
+  target: Meta
+  lever: Poluga
+  lightning_rod: Usmjerivač munje
+  daylight_detector: Detektor dnevne svijetlosti
+  sculk_sensor: Sculk senzor
+  tripwire_hook: Kuka za nagaznu žicu
+  trapped_chest: Kovčeg sa zamkom
+  tnt: Dinamit
+  redstone_lamp: Redstone Lampa
+  note_block: Blok Nota
+  stone_button: Kameno dugme
+  polished_blackstone_button: Dugme od poliranog crnog kamena
+  oak_button: Dugme od hrasta
+  spruce_button: Dugme od smreke
+  birch_button: Dugme od breze
+  jungle_button: Dugme od džungle
+  acacia_button: Dugme od bagrema
+  dark_oak_button: Dugme od tamnog hrasta
+  crimson_button: Grimizno dugme
+  warped_button: Izopačeno dugme
+  stone_pressure_plate: Kamena Potisna Ploča
+  polished_blackstone_pressure_plate: Nagazna ploča od poliranog crnog kamena
+  light_weighted_pressure_plate: Lagana potisna ploča
+  heavy_weighted_pressure_plate: Teška Otežana Ploča
+  oak_pressure_plate: Potisna ploča od hrasta
+  spruce_pressure_plate: Potisna ploča od smreke
+  birch_pressure_plate: Potisna ploča od breze
+  jungle_pressure_plate: Potisna ploča od džungle
+  acacia_pressure_plate: Potisna ploča od bagrema
+  dark_oak_pressure_plate: Potisna ploča od tamnog hrasta
+  crimson_pressure_plate: Grimizna nagazna ploča
+  warped_pressure_plate: Izopačena nagazna ploča
   iron_door: Gvozdena vrata
   oak_door: Vrata od hrasta
   spruce_door: Vrata od Smreke
@@ -572,8 +646,42 @@ material:
   dark_oak_door: Vrata od tamnog hrasta
   crimson_door: Grimizna vrata
   warped_door: Izopačena vrata
-  repeater: Redstone pojačivač
-  comparator: Redstone komparator
+  iron_trapdoor: Gvozdeni Poklopac
+  oak_trapdoor: Poklopac od hrasta
+  spruce_trapdoor: Poklopac od smreke
+  birch_trapdoor: Poklopac od breze
+  jungle_trapdoor: Poklopac od džungle
+  acacia_trapdoor: Poklopac od bagrema
+  dark_oak_trapdoor: Poklopac od tamnog hrasta
+  crimson_trapdoor: Grimizna podna vrata
+  warped_trapdoor: Izopačena podna vrata
+  oak_fence_gate: Vrata za ogradu od hrasta
+  spruce_fence_gate: Smrekvina vrata za ogradu
+  birch_fence_gate: Brezina vrata za ogradu
+  jungle_fence_gate: Džunglina vrata za ogradu
+  acacia_fence_gate: Vrata za ogradu od bagrema
+  dark_oak_fence_gate: Vrata za ogradu od tamnog hrasta
+  crimson_fence_gate: Vrata za grimiznu ogradu
+  warped_fence_gate: Vrata za izopačenu ogradu
+  powered_rail: Pruga s pogonom
+  detector_rail: Pruga s detektorom
+  rail: Pruga
+  activator_rail: Pruga sa aktivatorom
+  saddle: Sedlo
+  minecart: Vagon
+  chest_minecart: Vagon sa kovčegom
+  furnace_minecart: Vagon sa Peći
+  tnt_minecart: Vagon sa Dinamitom
+  hopper_minecart: Vagon sa Hoperom
+  carrot_on_a_stick: Šargarepa na štapu
+  warped_fungus_on_a_stick: Izopačena gljiva na štapu
+  elytra: Krila
+  oak_boat: Hrastov Čamac
+  spruce_boat: Smrekin Čamac
+  birch_boat: Brezin Čamac
+  jungle_boat: Džungla Čamac
+  acacia_boat: Čamac od bagrema
+  dark_oak_boat: Tamni Hrastov Čamac
   structure_block: Strukturni blok
   jigsaw: Blok slagalica
   turtle_helmet: Kornjačin oklop
@@ -585,7 +693,15 @@ material:
   coal: Ugalj
   charcoal: Drveni ugalj
   diamond: Dijamant
+  emerald: Smaragd
+  lapis_lazuli: Lapis Lazuli
+  quartz: Neder kvarc
+  amethyst_shard: Krhotina ametista
+  raw_iron: Sirovo željezo
   iron_ingot: Gvozdena poluga
+  raw_copper: Sirovi bakar
+  copper_ingot: Bakrena poluga
+  raw_gold: Sirovo zlato
   gold_ingot: Zlatna poluga
   netherite_ingot: Nederitska poluga
   netherite_scrap: Komad nederita
@@ -669,29 +785,27 @@ material:
   bucket: Kanta
   water_bucket: Kanta Vode
   lava_bucket: Kanta Magme
-  minecart: Vagon
-  saddle: Sedlo
-  redstone: Prah Redstona
+  powder_snow_bucket: Kanta sa snježnim prahom
   snowball: Grudva
-  oak_boat: Hrastov Čamac
   leather: Koža
   milk_bucket: Kanta Mlijeka
   pufferfish_bucket: Kanta sa ribom pumpicom
   salmon_bucket: Kanta sa Lososom
   cod_bucket: Kanta sa Bakalarom
   tropical_fish_bucket: Kanta sa Tropskom Ribom
+  axolotl_bucket: Kanta s aksolotlom
   brick: Cigla
   clay_ball: Glinena kugla
   dried_kelp_block: Osušen blok morske alge
   paper: Papir
   book: Knjiga
   slime_ball: Lopta od sluzi
-  chest_minecart: Vagon sa kovčegom
-  furnace_minecart: Vagon sa Peći
   egg: Jaje
   compass: Kompas
+  bundle: Paket
   fishing_rod: Štap za pecanje
   clock: Sat
+  spyglass: Dalekozor
   glowstone_dust: Prah žarkamena
   cod: Sirov bakalar
   salmon: Sirovi losos
@@ -700,8 +814,8 @@ material:
   cooked_cod: Isprženi bakalar
   cooked_salmon: Kuvani losos
   ink_sac: Vrećica sa mastilom
+  glow_ink_sac: Svjetleća tinta
   cocoa_beans: Kakao zrnevlje
-  lapis_lazuli: Lapis Lazuli
   white_dye: Bijela boja
   orange_dye: Narandžasti pigment
   magenta_dye: Purpurnocrveni pigment
@@ -765,6 +879,7 @@ material:
   cauldron: Kotao
   ender_eye: Oko endera
   glistering_melon_slice: Svetlucava kriška lubenice
+  axolotl_spawn_egg: Jaje divlje aksolotla
   bat_spawn_egg: Jaje slijepog miša
   bee_spawn_egg: Jaje za stvaranje pčela
   blaze_spawn_egg: Jaje vatrenog
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: Jaje vračara
   fox_spawn_egg: Jaje lisice
   ghast_spawn_egg: Jaje gasta
+  glow_squid_spawn_egg: Jaje za stvaranje svjetleće lignje
+  goat_spawn_egg: Jaje za stvaranje koze
   guardian_spawn_egg: Jaje čuvara
   hoglin_spawn_egg: Jaje hoglina
   horse_spawn_egg: Jaje konja
@@ -796,8 +913,8 @@ material:
   parrot_spawn_egg: Jaje papagaja
   phantom_spawn_egg: Jaje fantoma
   pig_spawn_egg: Jaje svinje
-  piglin_spawn_egg: Jaje piglina
-  piglin_brute_spawn_egg: Jaje za stvaranje surovog piglina
+  piglin_spawn_egg: Jaje paklenog praseta
+  piglin_brute_spawn_egg: Jaje za stvaranje surovog paklenog praseta
   pillager_spawn_egg: Jaje za stvaranje razbojnika
   polar_bear_spawn_egg: Jaje polarnog medvjeda
   pufferfish_spawn_egg: Jaje pumpice
@@ -828,13 +945,13 @@ material:
   zombie_spawn_egg: Jaje zombija
   zombie_horse_spawn_egg: Jaje zombi konja
   zombie_villager_spawn_egg: Jaje seljaka zombija
-  zombified_piglin_spawn_egg: Jaje zombi piglina
+  zombified_piglin_spawn_egg: Jaje za stvaranje paklenog zombi praseta
   experience_bottle: Boca za čini
   fire_charge: Vatrena lopta
   writable_book: Knjiga i pero
   written_book: Napisana knjiga
-  emerald: Smaragd
   item_frame: Ram za predmete
+  glow_item_frame: Svjetleći okvir
   flower_pot: Saksija
   carrot: Šargarepa
   potato: Krompir
@@ -848,17 +965,12 @@ material:
   zombie_head: Glava zombija
   creeper_head: Kriperova glava
   dragon_head: Zmajeva glava
-  carrot_on_a_stick: Šargarepa na štapu
-  warped_fungus_on_a_stick: Izopačena gljiva na štapu
   nether_star: Neder zvezda
   pumpkin_pie: Pita od bundeve
   firework_rocket: Vatrometska raketa
   firework_star: Vatrometska zvijezda
   enchanted_book: Začarana knjiga
   nether_brick: Neder cigla
-  quartz: Neder kvarc
-  tnt_minecart: Vagon sa Dinamitom
-  hopper_minecart: Vagon sa Hoperom
   prismarine_shard: Krhotina prizmarina
   prismarine_crystals: Kristal prizmarina
   rabbit: Sirova zečetina
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: Umočena strijela
   lingering_potion: Dugotrajni napitak
   shield: Štit
-  elytra: Krila
-  spruce_boat: Smrekin Čamac
-  birch_boat: Brezin Čamac
-  jungle_boat: Džungla Čamac
-  acacia_boat: Čamac od bagrema
-  dark_oak_boat: Tamni Hrastov Čamac
   totem_of_undying: Totem besmrtnosti
   shulker_shell: Shulker ljuska
   iron_nugget: Grumen gvožđa
@@ -948,13 +1054,13 @@ material:
   cartography_table: Kartografski sto
   fletching_table: Streljaški sto
   grindstone: Mlinski kamen
-  lectern: Naslon za čitanje
   smithing_table: Kovački sto
   stonecutter: Kamenorezac
   bell: Zvono
   lantern: Fenjer
   soul_lantern: Fenjer duše
   sweet_berries: Slatke bobice
+  glow_berries: Svjetleće bobice
   campfire: Logorska vatra
   soul_campfire: Duševna logorska vatra
   shroomlight: Gljivampa
@@ -962,12 +1068,8 @@ material:
   bee_nest: Gnijezdo pčela
   beehive: Košnica
   honey_bottle: Bočica meda
-  honey_block: Blok meda
   honeycomb_block: Blok saća
   lodestone: Kamen vodič
-  netherite_block: Blok od nederita
-  ancient_debris: Drevni ostaci
-  target: Meta
   crying_obsidian: Plačući obsidijan
   blackstone: Crni kamen
   blackstone_slab: Ploča od crnog kamena
@@ -982,6 +1084,28 @@ material:
   polished_blackstone_brick_stairs: Stepenice od cigli poliranog crnog kamena
   cracked_polished_blackstone_bricks: Napukle cigle poliranog crnog kamena
   respawn_anchor: Sidro reinkarnacije
+  candle: Svijeća
+  white_candle: Bijela svijeća
+  orange_candle: Narančasta svijeća
+  magenta_candle: Roza svijeća
+  light_blue_candle: Svjetloplava svijeća
+  yellow_candle: Žuta svijeća
+  lime_candle: Svjetlozelena svijeća
+  pink_candle: Ružičasta svijeća
+  gray_candle: Siva svijeća
+  light_gray_candle: Svjetlosiva svijeća
+  cyan_candle: Tirkizna svijeća
+  purple_candle: Ljubičasta svijeća
+  blue_candle: Plava svijeća
+  brown_candle: Smeđa svijeća
+  green_candle: Zelena svijeća
+  red_candle: Crvena svijeća
+  black_candle: Crna svijeća
+  small_amethyst_bud: Mala druza ametista
+  medium_amethyst_bud: Srednja druza ametista
+  large_amethyst_bud: Velika druza ametista
+  amethyst_cluster: Nakupina ametista
+  pointed_dripstone: Špiljska siga
   water: Voda
   lava: Lava
   tall_seagrass: Visoka morska trava
@@ -1004,6 +1128,9 @@ material:
   attached_melon_stem: Privržena stabljika lubenice
   pumpkin_stem: Stabljika od bundeve
   melon_stem: Stabljika lubenice
+  water_cauldron: Kotao s vodom
+  lava_cauldron: Kotao s lavom
+  powder_snow_cauldron: Kotao sa snježnim prahom
   end_portal: End Portal
   cocoa: Kakao
   tripwire: Nagazna žica
@@ -1069,7 +1196,7 @@ material:
   bubble_coral_wall_fan: Zidna lepeza od mjehurastog korala
   fire_coral_wall_fan: Zidna lepeza od vatrenog korala
   horn_coral_wall_fan: Zidna lepeza od rogastog korala
-  bamboo_sapling: Mladica bambusa
+  bamboo_sapling: Mladi bambus
   potted_bamboo: Bambus u saksiji
   void_air: Prazan vazduh
   cave_air: Pećinski vazduh
@@ -1083,6 +1210,30 @@ material:
   potted_warped_fungus: Izopačena gljiva u saksiji
   potted_crimson_roots: Grimizno korijenje u saksiji
   potted_warped_roots: Izopačeno korijenje u saksiji
+  candle_cake: Torta sa svijećom
+  white_candle_cake: Torta s bijelom svijećom
+  orange_candle_cake: Torta s narančastom svijećom
+  magenta_candle_cake: Torta s purprunocrvenom svijećom
+  light_blue_candle_cake: Torta s svijetlo plavom svijećom
+  yellow_candle_cake: Torta sa žutom svijećom
+  lime_candle_cake: Torta s svijetlo zelenom svijećom
+  pink_candle_cake: Torta s ružičastom svijećom
+  gray_candle_cake: Torta sa sivom svijećom
+  light_gray_candle_cake: Torta sa svijetlo sivom svijećom
+  cyan_candle_cake: Torta s tirkiznom svijećom
+  purple_candle_cake: Torta s ljubičastom svijećom
+  blue_candle_cake: Torta s plavom svijećom
+  brown_candle_cake: Torta sa smeđom svijećom
+  green_candle_cake: Torta sa zelenom svijećom
+  red_candle_cake: Torta s crvenom svijećom
+  black_candle_cake: Torta s crnom svijećom
+  powder_snow: Snježni prah
+  cave_vines: Špiljna loza
+  cave_vines_plant: Biljka špiljne loze
+  big_dripleaf_stem: Stabljika velikog kaplista
+  potted_azalea_bush: Posađena azalea
+  potted_flowering_azalea_bush: Posađena cvatuća azalea
+  grass_path: Travnati put
   zombie_pigman_spawn_egg: Jaje zombi svinje
   cactus_green: Kaktus zelena
   dandelion_yellow: Maslačak žuto
@@ -1169,46 +1320,48 @@ biome:
   crimson_forest: Grimizna šuma
   warped_forest: Izopačena šuma
   basalt_deltas: Bazaltne delte
+  dripstone_caves: Speleotemske špilje
+  lush_caves: Bujne špilje
   nether: Neder
 enchantment:
-  fire_protection: Zaštita od vatre
-  sharpness: Oštrina
-  flame: Plamen
-  soul_speed: Brzina duše
-  aqua_affinity: Privlačnost ka vodi
-  punch: Udarac
-  loyalty: Odanost
-  depth_strider: Vodeni hod
-  vanishing_curse: Kletva nestajanja
-  unbreaking: Nesalomivost
-  knockback: Odbacivanje
-  luck_of_the_sea: Sreća mora
-  binding_curse: Kletva vezivanja
-  fortune: Sreća
   protection: Zaštita
-  efficiency: Produktivnost
-  mending: Popravljanje
-  frost_walker: Ledeni pješak
-  lure: Mamac
-  looting: Pljačkanje
-  piercing: Pirsing
-  blast_protection: Zaštita od eksplozije
-  smite: Moćni udar
-  multishot: Multi pucanj
-  fire_aspect: Blagoslov vatre
-  channeling: Kanalisanje
-  sweeping: Moćni zamah
-  thorns: Bodlje
-  bane_of_arthropods: Prokletstvo zglavkara
-  respiration: Disanje
-  riptide: Plima
-  silk_touch: Svileni dodir
-  quick_charge: Brzo punjenje
-  projectile_protection: Zaštita od projektila
-  impaling: Natakanje
+  fire_protection: Zaštita od vatre
   feather_falling: Lak pad
+  blast_protection: Zaštita od eksplozije
+  projectile_protection: Zaštita od projektila
+  respiration: Disanje
+  aqua_affinity: Privlačnost ka vodi
+  thorns: Bodlje
+  depth_strider: Vodeni hod
+  frost_walker: Ledeni pješak
+  binding_curse: Kletva vezivanja
+  sharpness: Oštrina
+  smite: Moćni udar
+  bane_of_arthropods: Prokletstvo zglavkara
+  knockback: Odbacivanje
+  fire_aspect: Blagoslov vatre
+  looting: Pljačkanje
+  sweeping: Moćni zamah
+  efficiency: Produktivnost
+  silk_touch: Svileni dodir
+  unbreaking: Nesalomivost
+  fortune: Sreća
   power: Snaga
+  punch: Udarac
+  flame: Plamen
   infinity: Neograničenost
+  luck_of_the_sea: Sreća mora
+  lure: Mamac
+  loyalty: Odanost
+  impaling: Natakanje
+  riptide: Plima
+  channeling: Kanalisanje
+  multishot: Multi pucanj
+  quick_charge: Brzo punjenje
+  piercing: Pirsing
+  mending: Popravljanje
+  vanishing_curse: Kletva nestajanja
+  soul_speed: Brzina duše
 potion:
   uncraftable: Nenapravljiv napitak
   water: Boca sa vodom
@@ -1403,6 +1556,11 @@ entity:
   strider: Šetač
   zoglin: Zoglin
   piglin_brute: Surovi piglin
+  axolotl: Aksolotl
+  glow_item_frame: Svjetleći okvir
+  glow_squid: Svjetleća lignja
+  goat: Koza
+  marker: Marker
   fishing_hook: Ribarski plovak
   lightning: Munja
   player: Igrač
@@ -2202,17 +2360,3 @@ villager_profession:
   shepherd: Pastir
   toolsmith: Kovač alata
   weaponsmith: Kovač oružja
-villager_career:
-  farmer: Farmer
-  fisherman: Pecaroš
-  shepherd: Pastir
-  fletcher: Proizvođač strijela
-  librarian: Bibliotekar
-  cartographer: Kartograf
-  cleric: Sveštenik
-  armorer: Kovač oklopa
-  weapon_smith: Kovač oružja
-  tool_smith: Kovač alata
-  butcher: Mesar
-  leatherworker: Kožar
-  nitwit: Krelac

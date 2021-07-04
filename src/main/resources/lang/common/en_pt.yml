@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:47                    #
+# Build time: 2021-07-04 21:46:02                    #
 # ####################################################
 language:
   code: en_pt
@@ -8,16 +8,23 @@ language:
 material:
   air: Sail blower
   stone: Rock
-  granite: Brown Pebbles
+  granite: Brown pebbles
   polished_granite: Good lookin' brown pebbles
-  diorite: White Pebbles
+  diorite: White pebbles
   polished_diorite: Good lookin' white pebbles
-  andesite: Grey Pebbles
-  polished_andesite: Good lookin' Grey Pebbles
+  andesite: Gray pebbles
+  polished_andesite: Good lookin' gray pebbles
+  deepslate: Tough rock
+  cobbled_deepslate: Tough pebbles
+  polished_deepslate: Good lookin' tough rock
+  calcite: Stone o' White
+  tuff: Rock o' Deep Grey
+  dripstone_block: Stone o' sharpness
   grass_block: Chunk o' Grass
   dirt: Filth
-  coarse_dirt: Rough Filth
-  podzol: Pine Straw
+  coarse_dirt: Rough filth
+  podzol: Pine straw
+  rooted_dirt: Dirt o' Roots
   crimson_nylium: Red Moss o' Eerie
   warped_nylium: Moss o' Uncanny
   cobblestone: Pebbles
@@ -27,7 +34,7 @@ material:
   jungle_planks: Planks o' Jungle
   acacia_planks: Planks o' Acacia
   dark_oak_planks: Planks o' Dusky Oak
-  crimson_planks: Planks o' Ichor
+  crimson_planks: Planks o' ichor
   warped_planks: Twist'd Wood
   oak_sapling: Oak Meager shrub
   spruce_sapling: Spruce Meager shrub
@@ -39,10 +46,68 @@ material:
   sand: Sand
   red_sand: Scarlet Sand
   gravel: Rubble
-  gold_ore: Orrre o' Gold
-  iron_ore: Orrre o' Steel
-  coal_ore: Orrre o' Fuel
-  nether_gold_ore: Crumbs o' Davy Jones
+  coal_ore: Orrre o' fuel
+  deepslate_coal_ore: Tough orrre o' fuel
+  iron_ore: Orrre o' steel
+  deepslate_iron_ore: Tough orrre o' steel
+  copper_ore: Orrre o' copper
+  deepslate_copper_ore: Tough orrre o' copper
+  gold_ore: Orrre o' gold
+  deepslate_gold_ore: Tough orrre o' gold
+  redstone_ore: Orrre o' Redstone
+  deepslate_redstone_ore: Tough orrre o' redstone
+  emerald_ore: Orrre o' emerald
+  deepslate_emerald_ore: Tough orrre o' emerald
+  lapis_ore: Orrre o' lāzhward
+  deepslate_lapis_ore: Tough orrre o' lāzhward
+  diamond_ore: Orrre o' Diamond
+  deepslate_diamond_ore: Tough orrre o' diamond
+  nether_gold_ore: Devil's Buried Treasure
+  nether_quartz_ore: Orrre o' white rock
+  ancient_debris: Treasure o' Davy Jones
+  coal_block: Chunk o' fuel
+  raw_iron_block: Chunk o' rough steel
+  raw_copper_block: Chunk o' rough copper
+  raw_gold_block: Chunk o' rough gold
+  amethyst_block: Block o’ purple gems
+  budding_amethyst: Buddin' gems
+  iron_block: Chunk o' steel
+  copper_block: Chunk o' copper
+  gold_block: Chunk o' gold
+  diamond_block: Chunk o' diamond
+  netherite_block: Chunk o' Blackbeard's alloy
+  exposed_copper: Showin' Copper
+  weathered_copper: Mossy Copper
+  oxidized_copper: Very-Mossy Copper
+  cut_copper: Cut copper
+  exposed_cut_copper: Showin' Sliced Copper
+  weathered_cut_copper: Mossy Sliced Copper
+  oxidized_cut_copper: Very-Mossy Sliced Copper
+  cut_copper_stairs: Stairs o' Sliced Copper
+  exposed_cut_copper_stairs: Stairs o' Showin' Sliced Copper
+  weathered_cut_copper_stairs: Stairs o' Mossy Sliced Copper
+  oxidized_cut_copper_stairs: Very-Mossy bad Gold Stairs o' Slicin'
+  cut_copper_slab: Slab o' Sliced Copper
+  exposed_cut_copper_slab: Slab o' Showin' Sliced Copper
+  weathered_cut_copper_slab: Slab o' Mossy Sliced Copper
+  oxidized_cut_copper_slab: Slab o' Very-Mossy Sliced Copper
+  waxed_copper_block: Waxed Chunk o' Copper
+  waxed_exposed_copper: Anti-Moss Spread Showin' Bad Gold
+  waxed_weathered_copper: Anti-Moss Spread Mossy Copper
+  waxed_oxidized_copper: Anti-Moss Very-Mossy Bad Gold
+  waxed_cut_copper: Anti-Moss Spread Bad Gold o' Slicin'
+  waxed_exposed_cut_copper: Waxed Showin' Sliced Bad Gold
+  waxed_weathered_cut_copper: Anti-Moss Spread Mossy Bad Gold o' Slicin'
+  waxed_oxidized_cut_copper: Anti-Moss Very-Mossy Cut Bad Gold
+  waxed_cut_copper_stairs: Anti-Moss Spread Bad Gold Stairs o' Slicin'
+  waxed_exposed_cut_copper_stairs: Anti-Moss Spread Showin' Stairs o' Bad Gold o'
+    Slicin'
+  waxed_weathered_cut_copper_stairs: Anti-Moss Spread Mossy Bad Gold Stairs o' Slicin'
+  waxed_oxidized_cut_copper_stairs: Anti-Moss Very-Mossy Bad Gold Stairs
+  waxed_cut_copper_slab: Anti-Moss Spread Bad Gold Slab o' Slicin'
+  waxed_exposed_cut_copper_slab: Anti-Moss Spread Showin' Slab o' Bad Gold o' Slicin'
+  waxed_weathered_cut_copper_slab: Anti-Moss Spread Mossy Slab o' Bad Gold o' Slicin'
+  waxed_oxidized_cut_copper_slab: Anti-Moss Very-Mossy Bad Gold Slab
   oak_log: Log o' Oak
   spruce_log: Log o' Spruce
   birch_log: Log o' Birch
@@ -72,7 +137,7 @@ material:
   birch_wood: Birch Timber
   jungle_wood: Jungle Timber
   acacia_wood: Acacia Timber
-  dark_oak_wood: Dusky Oak Timber Log
+  dark_oak_wood: Dusky Oak Timber
   crimson_hyphae: Red Strings o' Woe
   warped_hyphae: Twisted Strings
   oak_leaves: Leaves o' Oak
@@ -81,262 +146,221 @@ material:
   jungle_leaves: Leaves o' Jungle
   acacia_leaves: Leaves o' Acacia
   dark_oak_leaves: Leaves o' Dusky Oak
+  azalea_leaves: Leaves o' Bush
+  flowering_azalea_leaves: Pretty fl’wer leaves
   sponge: Sponge
   wet_sponge: Watery Sponge
   glass: Porthole
-  lapis_ore: Orrre o' Lāzhward
-  lapis_block: Chunk o' Lāzhward
-  dispenser: Cannon
+  tinted_glass: Unwashed porthole
+  lapis_block: Chunk o' lāzhward
   sandstone: Stone o' Sands
   chiseled_sandstone: Carv'd Stone o' Sands
   cut_sandstone: Cut Stone o' Sands
-  note_block: Hornpipe
-  powered_rail: Boost Track
-  detector_rail: Magic Track
-  sticky_piston: Piston o' Slime
   cobweb: Web o' Spider
   grass: Grass
   fern: Jungle Plant
+  azalea: Bush
+  flowering_azalea: Bush o' Flowers
   dead_bush: Unfortunate Sight o' Leaves
-  seagrass: Grass o' Sea
+  seagrass: Grass o' sea
   sea_pickle: Salty Sea Pickle
-  piston: Raised Deck
-  white_wool: White Cloth
-  orange_wool: Orange Cloth
-  magenta_wool: Magenta Cloth
-  light_blue_wool: Light Blue Cloth
-  yellow_wool: Yellow Cloth
-  lime_wool: Lime Cloth
-  pink_wool: Pink Cloth
-  gray_wool: Gray Cloth
-  light_gray_wool: Light Gray Cloth
-  cyan_wool: Cyan Cloth
-  purple_wool: Purple Cloth
-  blue_wool: Blue Cloth
-  brown_wool: Brown Cloth
-  green_wool: Green Cloth
-  red_wool: Scarlet Cloth
-  black_wool: Black Cloth
-  dandelion: Dandelion
-  poppy: Scarlet Flower
-  blue_orchid: Beauty o' the Swamps
-  allium: Pink Fluff
+  white_wool: White cloth
+  orange_wool: Orange cloth
+  magenta_wool: Light purple cloth
+  light_blue_wool: Light blue cloth
+  yellow_wool: Yellow cloth
+  lime_wool: Light green cloth
+  pink_wool: Pink cloth
+  gray_wool: Gray cloth
+  light_gray_wool: Light gray cloth
+  cyan_wool: Ocean blue cloth
+  purple_wool: Purple cloth
+  blue_wool: Blue cloth
+  brown_wool: Brown cloth
+  green_wool: Green cloth
+  red_wool: Scarlet cloth
+  black_wool: Black cloth
+  dandelion: Yellow flower
+  poppy: Scarlet flower
+  blue_orchid: Beauty o' the swamps
+  allium: Pink fluff
   azure_bluet: Blue flower
-  red_tulip: Scarlet Tulip
-  orange_tulip: Or'eng Tulip
-  white_tulip: Snowy Tulip
-  pink_tulip: Pretty Tulip
+  red_tulip: Scarlet tulip
+  orange_tulip: Orange tulip
+  white_tulip: Whtie tulip
+  pink_tulip: Pink tulip
   oxeye_daisy: Daisy Fl'er
   cornflower: Cornflowarrr
   lily_of_the_valley: Pretty Poison
-  wither_rose: Wither Blossom
-  brown_mushroom: Tarnish'd 'Shroom
+  wither_rose: Wither blossom
+  spore_blossom: Spore Flower o' caves
+  brown_mushroom: Brown shroom
   red_mushroom: Scarlet 'Shroom
   crimson_fungus: Red Mushroom o' Absurdity
   warped_fungus: Fungus o' Unearthly
-  crimson_roots: Red Grass o' Horror
+  crimson_roots: Tendrils o' Ichor
   warped_roots: Nonsensical Grass o' Gloom
   nether_sprouts: Weeds o' Damnation
   weeping_vines: Green String o' Sobbin'
-  twisting_vines: Vines o' Swirlin'
-  sugar_cane: Sugar Reed
+  twisting_vines: Green Vines o' Swirlin'
+  sugar_cane: Sugar reed
   kelp: Sea Lettuce
+  moss_carpet: Mossy Rug
+  moss_block: Chunk o' moss
+  hanging_roots: Roots o' Hangin
+  big_dripleaf: Huge venus flytrap
+  small_dripleaf: Venus flytrap
   bamboo: Bambarrr
-  gold_block: Chunk o' Gold
-  iron_block: Chunk o' Steel
   oak_slab: Slab o' Oak
   spruce_slab: Slab o' Spruce
   birch_slab: Slab o' Birch
   jungle_slab: Slab o' Jungle
   acacia_slab: Slab o' Acacia
   dark_oak_slab: Slab o' Dusky Oak
-  crimson_slab: Slab o' Ichor
+  crimson_slab: Slab o' ichor
   warped_slab: Bizzare Slab o' Hyphae
-  stone_slab: Slab o' Stone
+  stone_slab: Slab o' rock
   smooth_stone_slab: Slab o' Smoot'ened Rock
   sandstone_slab: Slab o' Stone o' Sands
   cut_sandstone_slab: Cut Slab o' Stone o' Sands
   petrified_oak_slab: Slab o' Petrified Oak
-  cobblestone_slab: Slab o' Pebbles
+  cobblestone_slab: Slab o' pebbles
   brick_slab: Slab o' Brick
-  stone_brick_slab: Slab o' Brick o' Rock
+  stone_brick_slab: Slab o' bricks o' rock
   nether_brick_slab: Slab o' Brick o' Nether
-  quartz_slab: Slab o' White Rock
+  quartz_slab: Slab o' white rock
   red_sandstone_slab: Slab o' Scarlet Stone o' Sands
   cut_red_sandstone_slab: Cut Slab o' Scarlet Stone o' Sands
-  purpur_slab: Purpur Slab
-  prismarine_slab: Slab o' Prismarine
+  purpur_slab: Slab o' purpur
+  prismarine_slab: Slab o' prismarine
   prismarine_brick_slab: Brick Slab o' Prismarine
-  dark_prismarine_slab: Slab o' Dark Prismarine
-  smooth_quartz: Chunk o' Smooth White Rock
+  dark_prismarine_slab: Slab o' dusky prismarine
+  smooth_quartz: Chunk o' smooth white rock
   smooth_red_sandstone: Smooth Scarlet Sandstone
   smooth_sandstone: Smooth Stone o' Sands
   smooth_stone: Smoot'ened rock
   bricks: Bricks o' Clay
-  tnt: Powder Keg
-  bookshelf: Stack o' Knowledge
-  mossy_cobblestone: Heap o' fluffy pebbles
+  bookshelf: Stack o' knowledge
+  mossy_cobblestone: Slimy pebbles
   obsidian: Rock o' Tears
   torch: Torch
   end_rod: End Wand
   chorus_plant: Tall One's Tree
   chorus_flower: Tall One's Flower
-  purpur_block: Purpur Block
-  purpur_pillar: Purpur Post
-  purpur_stairs: Purpur Stairs
-  spawner: Cage o' Demons
+  purpur_block: Block o' purpur
+  purpur_pillar: Post o' purpur
+  purpur_stairs: Stairs o' purpur
+  spawner: Cage o' demons
   oak_stairs: Stairs o' Oak
   chest: Coffer
-  diamond_ore: Orrre o' Diamond
-  diamond_block: Chunk o' Diamond
   crafting_table: Craftin' Table
   farmland: Fertile Land
   furnace: Oven
   ladder: Riggin'
-  rail: Track
-  cobblestone_stairs: Stairs o' Pebbles
-  lever: Leverrr
-  stone_pressure_plate: Stone Booby Trap
-  oak_pressure_plate: Oak Booby Trap
-  spruce_pressure_plate: Spruce Booby Trap
-  birch_pressure_plate: Birch Booby Trap
-  jungle_pressure_plate: Jungle Booby Trap
-  acacia_pressure_plate: Acacia Booby Trap
-  dark_oak_pressure_plate: Dusky Oak Booby Trap
-  crimson_pressure_plate: Ichor Booby Trap
-  warped_pressure_plate: Twistin' Booby Trap
-  polished_blackstone_pressure_plate: Good Lookin' Black Booby Trap o' Rock
-  redstone_ore: Orrre o' Redstone
-  redstone_torch: Redstone Torch
+  cobblestone_stairs: Stairs o' pebbles
   snow: Slush
   ice: Frost
   snow_block: Block o' Snow
   cactus: Cactus
   clay: Solid Mud
-  jukebox: Barrel Organ
+  jukebox: Barrel organ
   oak_fence: Picket o' Oak Timber
   spruce_fence: Picket o' Spruce Timber
   birch_fence: Picket o' Birch Timber
   jungle_fence: Picket o' Jungle Timber
   acacia_fence: Picket o' Acacia Timber
-  dark_oak_fence: Dark Oak Fence
-  crimson_fence: Picket o' Ichor
+  dark_oak_fence: Picket o' Dusky Oak Timber
+  crimson_fence: Picket o' ichor
   warped_fence: Odd Fence o' Hyphae
   pumpkin: Gourd Squash
   carved_pumpkin: Slash'd Pumpkin'
+  jack_o_lantern: Jack o'Lantern
   netherrack: Netherrack
   soul_sand: Sand o' the Devil
-  soul_soil: Mud o' Agony
+  soul_soil: Mud o' Dead
   basalt: Rock o' Lava
   polished_basalt: Shinin' Rock o' Lava
-  soul_torch: Wooden Candle o' Gloom
+  smooth_basalt: Smooth Rock o' Delta
+  soul_torch: Spirit torch
   glowstone: Glowstone
-  jack_o_lantern: Jack o'Lantern
-  oak_trapdoor: Hatch o' Oak
-  spruce_trapdoor: Hatch o' Spruce
-  birch_trapdoor: Hatch o' Birch
-  jungle_trapdoor: Hatch o' Jungle
-  acacia_trapdoor: Hatch o' Acacia
-  dark_oak_trapdoor: Hatch o' Dusky Oak
-  crimson_trapdoor: Hatch o' Ichor
-  warped_trapdoor: Peculiar Hatch o' Hyphae
-  infested_stone: Infested Rock
-  infested_cobblestone: Infested Pile o' pebbles
-  infested_stone_bricks: Infested Bricks o' Rock
-  infested_mossy_stone_bricks: Infested Slimy Bricks O' Rock
-  infested_cracked_stone_bricks: Infested Devalued Bricks O' Rock
-  infested_chiseled_stone_bricks: Infested Carv'd Bricks o' Rock
-  stone_bricks: Bricks o' Rock
-  mossy_stone_bricks: Slimy Bricks O' Stone
-  cracked_stone_bricks: Cracked Bricks O' Stone
-  chiseled_stone_bricks: Carv'd Bricks o' Stone
+  infested_stone: Inhabited rock
+  infested_cobblestone: Inhabited pebbles
+  infested_stone_bricks: Inhabited bricks o' rock
+  infested_mossy_stone_bricks: Inhabited slimy bricks o' rock
+  infested_cracked_stone_bricks: Inhabited cracked bricks o' rock
+  infested_chiseled_stone_bricks: Inhabited carv'd bricks o' rock
+  infested_deepslate: Inhabited tough rock
+  stone_bricks: Bricks o' rock
+  mossy_stone_bricks: Slimy bricks o' rock
+  cracked_stone_bricks: Cracked bricks o' rock
+  chiseled_stone_bricks: Carv'd bricks o' rock
+  deepslate_bricks: Bricks o' tough rock
+  cracked_deepslate_bricks: Cracked bricks o' tough rock
+  deepslate_tiles: Tiles o' tough rock
+  cracked_deepslate_tiles: Cracked tiles o' tough rock
+  chiseled_deepslate: Carv'd tough rock
   brown_mushroom_block: Tarnish'd 'Shroom Block
   red_mushroom_block: Scarlet 'Shroom Block
   mushroom_stem: Stem o' 'Shroom
-  iron_bars: Bars o' Steel
+  iron_bars: Barrrs o' steel
   chain: Followin'
   glass_pane: Porthole
   melon: Watermel'n
   vine: Swingers
-  oak_fence_gate: Picket Gate o' Oak Timber
-  spruce_fence_gate: Picket Gate o' Spruce Timber
-  birch_fence_gate: Picket Gate o' Birch Timber
-  jungle_fence_gate: Picket Gate o' Jungle Timber
-  acacia_fence_gate: Picket Gate o' Acacia Timber
-  dark_oak_fence_gate: Picket Gate o' Dusky Oak Timber
-  crimson_fence_gate: Picket Gate o' Ichor
-  warped_fence_gate: Outlandish Fence Gate o' Hyphae
+  glow_lichen: Glowin' algae
   brick_stairs: Stairs o' Brick o' Clay
-  stone_brick_stairs: Stairs o' Brick o' Rock
-  mycelium: Rottin' Spores
+  stone_brick_stairs: Stairs o' bricks o' rock
+  mycelium: Rottin' spores
   lily_pad: Pond Plant
   nether_bricks: Bricks o' Nether
   cracked_nether_bricks: Cracked Bricks o' Wickedness
   chiseled_nether_bricks: Polished Bricks o' Vileness
   nether_brick_fence: Picket o' Nether
   nether_brick_stairs: Stairs o' Brick o' Nether
-  enchanting_table: Witchcraft Bench
+  enchanting_table: Witchcraft bench
   end_portal_frame: End portal holderr
   end_stone: Foreign Stone
   end_stone_bricks: Foreign Stone Bricks
   dragon_egg: Wyvern last treasure
-  redstone_lamp: Redstone Lanterrrn
   sandstone_stairs: Stairs o' Stone o' Sands
-  emerald_ore: Orrre o' Emerald
-  ender_chest: Ender Coffer
-  tripwire_hook: Trippin' Thread Hook
-  emerald_block: Chunk o' Emerald
+  ender_chest: Ender coffer
+  emerald_block: Chunk o' emerald
   spruce_stairs: Stairs o' Spruce
   birch_stairs: Stairs o' Birch
   jungle_stairs: Stairs o' Jungle
-  crimson_stairs: Stairs o' Ichor
+  crimson_stairs: Stairs o' ichor
   warped_stairs: Mysterious Stairs o' Hyphae
   command_block: Order Block
   beacon: Buoy
-  cobblestone_wall: Wall o' Pebbles
-  mossy_cobblestone_wall: Wall o' Slimy Pebbles
+  cobblestone_wall: Wall o' pebbles
+  mossy_cobblestone_wall: Wall o' slimy pebbles
   brick_wall: Wall o' Bricks o' Clay
-  prismarine_wall: Wall o' Prismarine
+  prismarine_wall: Wall o' prismarine
   red_sandstone_wall: Wall o' Scarlet Stone o' Sands
   mossy_stone_brick_wall: Wall o' Slimy Bricks o' Stone
-  granite_wall: Wall o' Brown Pebbles
+  granite_wall: Wall o' brown pebbles
   stone_brick_wall: Wall o' Bricks o' Rock
   nether_brick_wall: Wall o' Bricks o' Nether
-  andesite_wall: Wall o' Grey Pebbles
+  andesite_wall: Wall o' gray pebbles
   red_nether_brick_wall: Wall o' Scarlet Bricks o' Nether
   sandstone_wall: Wall o' Stone o' Sands
   end_stone_brick_wall: Wall o' Foreign Stone Brick
-  diorite_wall: Wall o' White Pebbles
+  diorite_wall: Wall o' white pebbles
   blackstone_wall: Wall o' Rock o' Black
-  polished_blackstone_wall: Good lookin' Black Wall o' Rock
+  polished_blackstone_wall: Wall o' Good Lookin' Black Rock
   polished_blackstone_brick_wall: Good lookin' Wall o' Bricks o' Rock o' Black
-  stone_button: Knob o' Rock
-  oak_button: Knob o' Oak
-  spruce_button: Knob o' Spruce
-  birch_button: Knob o' Birch
-  jungle_button: Knob o' Jungle
-  acacia_button: Knob o' Acacia
-  dark_oak_button: Knob o' Dusky Oak
-  crimson_button: Knob o' Ichor
-  warped_button: Odd Button o' Hyphae
-  polished_blackstone_button: Good Lookin' Black Button o' Rock
-  anvil: Slab O' Fixin
-  chipped_anvil: Chipped Slab O' Fixin
-  damaged_anvil: Crack'd Slab O' Fixin
-  trapped_chest: Trapped Coffer
-  light_weighted_pressure_plate: Booby Trap o' Light heft
-  heavy_weighted_pressure_plate: Booby Trap o' Heavy heft
-  daylight_detector: Sunrise Finder
-  redstone_block: Chunk o' Redstone
-  nether_quartz_ore: Orrre o' White Nether Rock
-  hopper: Suckin' Device
-  chiseled_quartz_block: Carv'd Chunk o' White Rock
-  quartz_block: Chunk o' White Rock
-  quartz_bricks: Block o' Pearl-Like Stone
-  quartz_pillar: Post o' White Rock
-  quartz_stairs: Stairs o' White Rock
-  activator_rail: Fuse track
-  dropper: Broken Cannon
+  cobbled_deepslate_wall: Wall o' tough pebbles
+  polished_deepslate_wall: Wall o' good lookin' tough rock
+  deepslate_brick_wall: Wall o' bricks o' tough rock
+  deepslate_tile_wall: Wall o' tiles o' tough rock
+  anvil: Slab o' fixin'
+  chipped_anvil: Chipped slab o' fixin'
+  damaged_anvil: Cracked slab o' fixin'
+  chiseled_quartz_block: Carv'd chunk o' white rock
+  quartz_block: Chunk o' white rock
+  quartz_bricks: Bricks o' white rock
+  quartz_pillar: Post o' white rock
+  quartz_stairs: Stairs o' white rock
   white_terracotta: White Ancient Clay
   orange_terracotta: Orange Ancient Clay
   magenta_terracotta: Magenta Ancient Clay
@@ -354,75 +378,73 @@ material:
   red_terracotta: Scarlet Ancient Clay
   black_terracotta: Black Ancient Clay
   barrier: Invisible wall
-  iron_trapdoor: Hatch o' Steel
-  hay_block: Bale o' Hops
-  white_carpet: White Rug
-  orange_carpet: Orange Rug
-  magenta_carpet: Magenta Rug
-  light_blue_carpet: Light Blue Rug
-  yellow_carpet: Yellow Rug
-  lime_carpet: Lime Rug
-  pink_carpet: Pink Rug
-  gray_carpet: Gray Rug
-  light_gray_carpet: Light Gray Rug
-  cyan_carpet: Cyan Rug
-  purple_carpet: Purple Rug
-  blue_carpet: Blue Rug
-  brown_carpet: Brown Rug
-  green_carpet: Green Rug
-  red_carpet: Scarlet Rug
-  black_carpet: Black Rug
+  light: Shinin' Ghost Chunk
+  hay_block: Bale o' hops
+  white_carpet: White rug
+  orange_carpet: Orange rug
+  magenta_carpet: Light purple rug
+  light_blue_carpet: Light blue rug
+  yellow_carpet: Yellow rug
+  lime_carpet: Light green rug
+  pink_carpet: Pink rug
+  gray_carpet: Gray rug
+  light_gray_carpet: Light gray rug
+  cyan_carpet: Ocean blue rug
+  purple_carpet: Purple rug
+  blue_carpet: Blue rug
+  brown_carpet: Brown rug
+  green_carpet: Green rug
+  red_carpet: Scarlet rug
+  black_carpet: Black rug
   terracotta: Ancient Clay
-  coal_block: Chunk o' Fuel
-  packed_ice: Hard Frost
+  packed_ice: Tough frost
   acacia_stairs: Stairs o' Acacia
   dark_oak_stairs: Stairs o' Dusky Oak
-  slime_block: Block o' Slime
-  grass_path: Trodden Path
+  dirt_path: Trodden path
   sunflower: Sunflower
   lilac: Ye Lilac Bouquet f' t' gals
   rose_bush: Bush o' Roses
   peony: Yer massive pink Flower
-  tall_grass: Ye Mighty Grass
+  tall_grass: Mighty grass
   large_fern: Whopper Tree
-  white_stained_glass: White Crystal
-  orange_stained_glass: Orange Crystal
-  magenta_stained_glass: Magenta Crystal
-  light_blue_stained_glass: Light Blue Crystal
-  yellow_stained_glass: Yellow Crystal
-  lime_stained_glass: Lime Crystal
-  pink_stained_glass: Pink Crystal
-  gray_stained_glass: Gray Crystal
-  light_gray_stained_glass: Light Gray Crystal
-  cyan_stained_glass: Cyan Crystal
-  purple_stained_glass: Purple Crystal
-  blue_stained_glass: Blue Crystal
-  brown_stained_glass: Brown Crystal
-  green_stained_glass: Green Crystal
-  red_stained_glass: Scarlet Crystal
-  black_stained_glass: Black Crystal
-  white_stained_glass_pane: White Porthole
-  orange_stained_glass_pane: Orange Porthole
-  magenta_stained_glass_pane: Magenta Porthole
-  light_blue_stained_glass_pane: Light Blue Porthole
-  yellow_stained_glass_pane: Yellow Porthole
-  lime_stained_glass_pane: Lime Porthole
-  pink_stained_glass_pane: Pink Porthole
-  gray_stained_glass_pane: Gray Porthole
-  light_gray_stained_glass_pane: Light Gray Porthole
-  cyan_stained_glass_pane: Cyan Porthole
-  purple_stained_glass_pane: Purple Porthole
-  blue_stained_glass_pane: Blue Porthole
-  brown_stained_glass_pane: Brown Porthole
-  green_stained_glass_pane: Green Porthole
-  red_stained_glass_pane: Scarlet Porthole
-  black_stained_glass_pane: Black Porthole
+  white_stained_glass: White crystal
+  orange_stained_glass: Orange crystal
+  magenta_stained_glass: Light purple crystal
+  light_blue_stained_glass: Light blue crystal
+  yellow_stained_glass: Yellow crystal
+  lime_stained_glass: Light green crystal
+  pink_stained_glass: Pink crystal
+  gray_stained_glass: Gray crystal
+  light_gray_stained_glass: Light gray crystal
+  cyan_stained_glass: Ocean blue crystal
+  purple_stained_glass: Purple crystal
+  blue_stained_glass: Blue crystal
+  brown_stained_glass: Brown crystal
+  green_stained_glass: Green crystal
+  red_stained_glass: Scarlet crystal
+  black_stained_glass: Black crystal
+  white_stained_glass_pane: White crystal
+  orange_stained_glass_pane: Orange porthole
+  magenta_stained_glass_pane: Light purple porthole
+  light_blue_stained_glass_pane: Light blue porthole
+  yellow_stained_glass_pane: Yellow porthole
+  lime_stained_glass_pane: Light green porthole
+  pink_stained_glass_pane: Pink porthole
+  gray_stained_glass_pane: Gray porthole
+  light_gray_stained_glass_pane: Light gray porthole
+  cyan_stained_glass_pane: Ocean blue porthole
+  purple_stained_glass_pane: Purple porthole
+  blue_stained_glass_pane: Blue porthole
+  brown_stained_glass_pane: Brown porthole
+  green_stained_glass_pane: Green porthole
+  red_stained_glass_pane: Scarlet porthole
+  black_stained_glass_pane: Black porthole
   prismarine: Prismarine
   prismarine_bricks: Bricks o' Prismarine
-  dark_prismarine: Dark Prismarine
-  prismarine_stairs: Stairs o' Prismarine
+  dark_prismarine: Dusky prismarine
+  prismarine_stairs: Stairs o' prismarine
   prismarine_brick_stairs: Stairs o' Prismarine Bricks
-  dark_prismarine_stairs: Stairs o' Dark Prismarine
+  dark_prismarine_stairs: Stairs o' dusky prismarine
   sea_lantern: Light Buoy
   red_sandstone: Scarlet Stone o' Sands
   chiseled_red_sandstone: Carv'd Scarlet Stone o' Sands
@@ -436,40 +458,39 @@ material:
   red_nether_bricks: Scarlet Bricks o' Nether
   bone_block: Block o' Bone
   structure_void: Nothin' here, lads
-  observer: Snooper
-  shulker_box: Shulker Box
-  white_shulker_box: White Shulker Box
-  orange_shulker_box: Orange Shulker Box
-  magenta_shulker_box: Magenta Shulker Box
-  light_blue_shulker_box: Light Blue Shulker Box
-  yellow_shulker_box: Yellow Shulker Box
-  lime_shulker_box: Lime Shulker Box
-  pink_shulker_box: Pink Shulker Box
-  gray_shulker_box: Gray Shulker Box
-  light_gray_shulker_box: Light Gray Shulker Box
-  cyan_shulker_box: Cyan Shulker Box
-  purple_shulker_box: Purple Shulker Box
-  blue_shulker_box: Blue Shulker Box
-  brown_shulker_box: Brown Shulker Box
-  green_shulker_box: Green Shulker Box
-  red_shulker_box: Scarlet Shulker Box
-  black_shulker_box: Black Shulker Box
-  white_glazed_terracotta: White Pricey Mosaic
-  orange_glazed_terracotta: Orange Pricey Mosaic
-  magenta_glazed_terracotta: Magenta Pricey Mosaic
-  light_blue_glazed_terracotta: Light Blue Pricey Mosaic
-  yellow_glazed_terracotta: Yellow Pricey Mosaic
-  lime_glazed_terracotta: Lime Pricey Mosaic
-  pink_glazed_terracotta: Pink Pricey Mosaic
-  gray_glazed_terracotta: Gray Pricey Mosaic
-  light_gray_glazed_terracotta: Light Gray Pricey Mosaic
-  cyan_glazed_terracotta: Cyan Pricey Mosaic
-  purple_glazed_terracotta: Purple Pricey Mosaic
-  blue_glazed_terracotta: Blue Pricey Mosaic
-  brown_glazed_terracotta: Brown Pricey Mosaic
-  green_glazed_terracotta: Green Pricey Mosaic
-  red_glazed_terracotta: Scarlet Pricey Mosaic
-  black_glazed_terracotta: Black Pricey Mosaic
+  shulker_box: Shulker box
+  white_shulker_box: White shulker box
+  orange_shulker_box: Orange shulker box
+  magenta_shulker_box: Light purple shulker box
+  light_blue_shulker_box: Light blue shulker box
+  yellow_shulker_box: Yellow shulker box
+  lime_shulker_box: Light green shulker box
+  pink_shulker_box: Pink shulker box
+  gray_shulker_box: Gray shulker box
+  light_gray_shulker_box: Light gray shulker box
+  cyan_shulker_box: Ocean blue shulker box
+  purple_shulker_box: Purple shulker box
+  blue_shulker_box: Blue shulker box
+  brown_shulker_box: Brown shulker box
+  green_shulker_box: Green shulker box
+  red_shulker_box: Scarlet shulker box
+  black_shulker_box: Black shulker box
+  white_glazed_terracotta: White pricey mosaic
+  orange_glazed_terracotta: Orange pricey mosaic
+  magenta_glazed_terracotta: Light purple pricey mosaic
+  light_blue_glazed_terracotta: Light blue pricey mosaic
+  yellow_glazed_terracotta: Yellow pricey mosaic
+  lime_glazed_terracotta: Light green pricey mosaic
+  pink_glazed_terracotta: Pink pricey mosaic
+  gray_glazed_terracotta: Gray pricey mosaic
+  light_gray_glazed_terracotta: Light gray pricey mosaic
+  cyan_glazed_terracotta: Ocean blue pricey mosaic
+  purple_glazed_terracotta: Purple pricey mosaic
+  blue_glazed_terracotta: Blue pricey mosaic
+  brown_glazed_terracotta: Brown pricey mosaic
+  green_glazed_terracotta: Green pricey mosaic
+  red_glazed_terracotta: Scarlet pricey mosaic
+  black_glazed_terracotta: Black pricey mosaic
   white_concrete: White Cement
   orange_concrete: Orange Cement
   magenta_concrete: Magenta Cement
@@ -484,7 +505,7 @@ material:
   blue_concrete: Blue Cement
   brown_concrete: Brown Cement
   green_concrete: Green Cement
-  red_concrete: Red Cement
+  red_concrete: Scarlet Cement
   black_concrete: Black Cement
   white_concrete_powder: White Cement Dusts
   orange_concrete_powder: Orange Cement Dusts
@@ -500,7 +521,7 @@ material:
   blue_concrete_powder: Blue Cement Dusts
   brown_concrete_powder: Brown Cement Dusts
   green_concrete_powder: Green Cement Dusts
-  red_concrete_powder: Red Cement Dusts
+  red_concrete_powder: Scarlet Cement Dusts
   black_concrete_powder: Black Cement Dusts
   turtle_egg: Turtle Cackle Fruit
   dead_tube_coral_block: Chunk o' Dead Cylind'r Coral
@@ -533,36 +554,90 @@ material:
   dead_bubble_coral_fan: Dead Cyst Coral Waf'r
   dead_fire_coral_fan: Dead Burnin' Coral Waf'r
   dead_horn_coral_fan: Dead Horn Coral Waf'r
-  blue_ice: Blue Frost
-  conduit: Source o' the Seas
-  polished_granite_stairs: Stairs o' Good Lookin' Brown Pebbles
+  blue_ice: Blue frost
+  conduit: Source o' the seas
+  polished_granite_stairs: Stairs o' good lookin' brown pebbles
   smooth_red_sandstone_stairs: Stairs o' Smooth Scarlet Stone o' Sands
   mossy_stone_brick_stairs: Stairs o' Slimy Bricks o' Stone
-  polished_diorite_stairs: Stairs o' Good Lookin' White Pebbles
-  mossy_cobblestone_stairs: Stairs o' Slimy Pebbles
+  polished_diorite_stairs: Stairs o' good lookin' white pebbles
+  mossy_cobblestone_stairs: Stairs o' slimy pebbles
   end_stone_brick_stairs: Stairs o' Foreign Stone Brick
-  stone_stairs: Stairs o' Rock
+  stone_stairs: Stairs o' rock
   smooth_sandstone_stairs: Stairs o' Smooth Stone o' Sands
-  smooth_quartz_stairs: Stairs o' Smooth White Rock
-  granite_stairs: Stairs o' Brown Pebbles
-  andesite_stairs: Stairs o' Grey Pebbles
+  smooth_quartz_stairs: Stairs o' smooth white rock
+  granite_stairs: Stairs o' brown pebbles
+  andesite_stairs: Stairs o' gray pebbles
   red_nether_brick_stairs: Stairs o' Scarlet Bricks o' Nether
-  polished_andesite_stairs: Stairs o' Good Lookin' Grey Pebbles
-  diorite_stairs: Stairs o' White Pebbles
-  polished_granite_slab: Slab o' Good Lookin' Brown Pebbles
+  polished_andesite_stairs: Stairs o' good lookin' gray pebbles
+  diorite_stairs: Stairs o' white pebbles
+  cobbled_deepslate_stairs: Stairs o' tough pebbles
+  polished_deepslate_stairs: Stairs o' good lookin' tough rock
+  deepslate_brick_stairs: Stairs o' bricks o' tough rock
+  deepslate_tile_stairs: Stairs o' tiles o' tough rock
+  polished_granite_slab: Slab o' good lookin' brown pebbles
   smooth_red_sandstone_slab: Slab o' Smooth Scarlet Stone o' Sands
   mossy_stone_brick_slab: Slab o' Slimy Bricks o' Stone
-  polished_diorite_slab: Slab o' Good Lookin' White Pebbles
-  mossy_cobblestone_slab: Slab o' Slimy Pebbles
+  polished_diorite_slab: Slab o' good lookin' white pebbles
+  mossy_cobblestone_slab: Slab o' slimy pebbles
   end_stone_brick_slab: Slab o' Foreign Stone Brick
   smooth_sandstone_slab: Slab o' Smooth Stone o' Sands
-  smooth_quartz_slab: Slab o' Smooth White Rock
-  granite_slab: Slab o' Brown Pebbles
-  andesite_slab: Slab o' Grey Pebbles
+  smooth_quartz_slab: Slab o' smooth white rock
+  granite_slab: Slab o' brown pebbles
+  andesite_slab: Slab o' gray pebbles
   red_nether_brick_slab: Slab o' Scarlet Bricks o' Nether
-  polished_andesite_slab: Slab o' Good Lookin' Grey Pebbles
-  diorite_slab: Slab o' White Pebbles
+  polished_andesite_slab: Slab o' good lookin' gray pebbles
+  diorite_slab: Slab o' white pebbles
+  cobbled_deepslate_slab: Slab o' tough pebbles
+  polished_deepslate_slab: Slab o' good lookin' tough rock
+  deepslate_brick_slab: Slab o' bricks o' tough rock
+  deepslate_tile_slab: Slab o' tiles o' tough rock
   scaffolding: Shipbuildin' Frame
+  redstone: Redstone Powder
+  redstone_torch: Redstone Torch
+  redstone_block: Chunk o' redstone
+  repeater: Redstone repeatarrr
+  comparator: Redstone compaaratorrr
+  piston: Raised Deck
+  sticky_piston: Piston o' Slime
+  slime_block: Block o' Slime
+  honey_block: Cube o' Bee Nectar
+  observer: Snooper
+  hopper: Suckin' device
+  dispenser: Cannon
+  dropper: Broken cannon
+  lectern: Readin' stand
+  target: Dartboard
+  lever: Leverrr
+  lightning_rod: Rod o' thunderstorms
+  daylight_detector: Sunrise finder
+  sculk_sensor: Noise finder
+  tripwire_hook: Trippin' Thread Hook
+  trapped_chest: Trapped Coffer
+  tnt: Powder keg
+  redstone_lamp: Redstone Lanterrrn
+  note_block: Hornpipe
+  stone_button: Knob o' Rock
+  polished_blackstone_button: Knob o' Good Lookin' Black Rock
+  oak_button: Knob o' Oak
+  spruce_button: Knob o' Spruce
+  birch_button: Knob o' Birch
+  jungle_button: Knob o' Jungle
+  acacia_button: Knob o' Acacia
+  dark_oak_button: Knob o' Dusky Oak
+  crimson_button: Knob o' ichor
+  warped_button: Odd Button o' Hyphae
+  stone_pressure_plate: Booby trap o' rock
+  polished_blackstone_pressure_plate: Booby trap o' good lookin' black rock
+  light_weighted_pressure_plate: Booby trap o' light heft
+  heavy_weighted_pressure_plate: Booby trap o' heavy heft
+  oak_pressure_plate: Booby trap o' oak
+  spruce_pressure_plate: Booby trap o' spruce
+  birch_pressure_plate: Booby trap o' birch
+  jungle_pressure_plate: Booby trap o' jungle
+  acacia_pressure_plate: Booby trap o' acacia
+  dark_oak_pressure_plate: Booby trap o' dusky oak
+  crimson_pressure_plate: Booby trap o' ichor
+  warped_pressure_plate: Twistin' Booby Trap
   iron_door: Door o' Steel
   oak_door: Door o' Oak Timber
   spruce_door: Door o' Spruce Timber
@@ -570,92 +645,134 @@ material:
   jungle_door: Door o' Jungle Timber
   acacia_door: Door o' Acacia Timber
   dark_oak_door: Door o' Dusky Oak Timber
-  crimson_door: Door o' Ichor
-  warped_door: Unnatural Gateway o' Hyphae
-  repeater: Redstone Repeatarrr
-  comparator: Redstone Compaaratorrr
-  structure_block: Ship Sav'r
+  crimson_door: Door o' ichor
+  warped_door: Twist'd Gateway
+  iron_trapdoor: Hatch o' steel
+  oak_trapdoor: Hatch o' Oak
+  spruce_trapdoor: Hatch o' Spruce
+  birch_trapdoor: Hatch o' Birch
+  jungle_trapdoor: Hatch o' Jungle
+  acacia_trapdoor: Hatch o' Acacia
+  dark_oak_trapdoor: Hatch o' Dusky Oak
+  crimson_trapdoor: Hatch o' ichor
+  warped_trapdoor: Peculiar Hatch o' Hyphae
+  oak_fence_gate: Picket Gate o' Oak Timber
+  spruce_fence_gate: Picket Gate o' Spruce Timber
+  birch_fence_gate: Picket Gate o' Birch Timber
+  jungle_fence_gate: Picket Gate o' Jungle Timber
+  acacia_fence_gate: Picket Gate o' Acacia Timber
+  dark_oak_fence_gate: Picket Gate o' Dusky Oak Timber
+  crimson_fence_gate: Picket gate o' ichor
+  warped_fence_gate: Outlandish Fence Gate o' Hyphae
+  powered_rail: Boost Track
+  detector_rail: Magic Track
+  rail: Track
+  activator_rail: Fuse track
+  saddle: Saddle
+  minecart: Landlubber's Boat
+  chest_minecart: Coffer in a landlubber's boat
+  furnace_minecart: Oven in a landlubber's boat
+  tnt_minecart: Powder keg in a landlubber's boat
+  hopper_minecart: Suckin' device in a landlubber's boat
+  carrot_on_a_stick: Stick o' Carrot
+  warped_fungus_on_a_stick: Bafflin' Toadstool on a Stick
+  elytra: Icarus's Wings
+  oak_boat: Oak'n Vessel
+  spruce_boat: Vessel o' Spruce Timber
+  birch_boat: Vessel o' Birch Timber
+  jungle_boat: Vessel o' Jungle Timber
+  acacia_boat: Vessel o' Acacia Timber
+  dark_oak_boat: Vessel o' Dusky Oak Timber
+  structure_block: Ship sav'r
   jigsaw: Pieces o' Eight Block
   turtle_helmet: Shell o' Turtle
   scute: Piece o' Turtleshell
-  flint_and_steel: Ship's Bane
-  apple: Scurvy's Cure
-  bow: Bow
+  flint_and_steel: Ship's bane
+  apple: Scurvy's cure
+  bow: Flintlock
   arrow: Bolt
   coal: Fuel
   charcoal: Burnt Timber
   diamond: Diamond
-  iron_ingot: Bullion o' Steel
-  gold_ingot: Bullion o' Gold
-  netherite_ingot: Alloy o' Davy Jones
-  netherite_scrap: Scrap o' Davy Jones
-  wooden_sword: Cutlass o' Timber
-  wooden_shovel: Spade o' Timber
+  emerald: Emerald
+  lapis_lazuli: Lāzhward
+  quartz: White rock
+  amethyst_shard: Shard o' gem
+  raw_iron: Rough steel
+  iron_ingot: Bullion o' steel
+  raw_copper: Rough copper
+  copper_ingot: Bullion o' copper
+  raw_gold: Rough gold
+  gold_ingot: Bullion o' gold
+  netherite_ingot: Bullion o' Blackbeard's alloy
+  netherite_scrap: Blackbeard's scrap
+  wooden_sword: Cutlass o' timber
+  wooden_shovel: Spade o' timber
   wooden_pickaxe: Pickaxe o' Timber
-  wooden_axe: Hatchet o' Timber
-  wooden_hoe: Farmin' Stick o' Timber
-  stone_sword: Cutlass o' Rock
-  stone_shovel: Spade o' Rock
+  wooden_axe: Hatchet o' timber
+  wooden_hoe: Farmin' stick o' timber
+  stone_sword: Cutlass o' rock
+  stone_shovel: Spade o' rock
   stone_pickaxe: Pickaxe o' Rock
-  stone_axe: Hatchet o' Rock
-  stone_hoe: Farmin' Stick o' Rock
-  golden_sword: Cutlass o' Gold
-  golden_shovel: Spade o' Gold
+  stone_axe: Hatchet o' rock
+  stone_hoe: Farmin' stick o' rock
+  golden_sword: Cutlass o' gold
+  golden_shovel: Spade o' gold
   golden_pickaxe: Pickaxe o' Gold
-  golden_axe: Hatchet o' Gold
-  golden_hoe: Farmin' Stick o' Gold
-  iron_sword: Cutlass o' Steel
-  iron_shovel: Spade o' Steel
+  golden_axe: Hatchet o' gold
+  golden_hoe: Farmin' stick o' gold
+  iron_sword: Cutlass o' steel
+  iron_shovel: Spade o' steel
   iron_pickaxe: Pickaxe o' Steel
-  iron_axe: Hatchet o' Steel
-  iron_hoe: Farmin' Stick o' Steel
-  diamond_sword: Cutlass o' Diamond
-  diamond_shovel: Spade o' Diamond
-  diamond_pickaxe: Diamond Pickaxe
-  diamond_axe: Hatchet o' Diamond
-  diamond_hoe: Farmin' Stick o' Diamond
-  netherite_sword: Blackbeard's Cutlass
-  netherite_shovel: Blackbeard's Spade
-  netherite_pickaxe: Devil's Pick
-  netherite_axe: Blackbeard's Battleaxe
-  netherite_hoe: Blackbeard's Scythe
+  iron_axe: Hatchet o' steel
+  iron_hoe: Farmin' stick o' steel
+  diamond_sword: Cutlass o' diamond
+  diamond_shovel: Spade o' diamond
+  diamond_pickaxe: Pickaxe o' Diamond
+  diamond_axe: Hatchet o' diamond
+  diamond_hoe: Farmin' stick o' diamond
+  netherite_sword: Blackbeard's claymore
+  netherite_shovel: Blackbeard's spade
+  netherite_pickaxe: Blackbeard's pickaxe
+  netherite_axe: Blackbeard's battleaxe
+  netherite_hoe: Blackbeard's scythe
   stick: Piece o' timber
   bowl: Nipperkin
-  mushroom_stew: '''Shroom Goulash'
-  string: Cheap Rope
+  mushroom_stew: Shroom goulash
+  string: Cheap rope
   feather: Feather
   gunpowder: Black Powder
-  wheat_seeds: Seeds o' Hops
+  wheat_seeds: Seeds o' hops
   wheat: Hops
-  bread: Hard Tack
-  leather_helmet: Bandana o' Leather
+  bread: Hard tack
+  leather_helmet: Bandana o' leather
   leather_chestplate: Jacket o' Leather
-  leather_leggings: Breeches o' Leather
-  leather_boots: Peg-leg o' Leather
+  leather_leggings: Breeches o' leather
+  leather_boots: Peg-leg o' leather
   chainmail_helmet: Helmet o' Metal Links
   chainmail_chestplate: Chestplate o' Metal Links
   chainmail_leggings: Greaves o' Metal Links
-  chainmail_boots: Peg-leg o' Metal Links
+  chainmail_boots: Peg-leg o' metal links
   iron_helmet: Helmet o' Steel
   iron_chestplate: Chestplate o' Steel
-  iron_leggings: Greaves o' Steel
-  iron_boots: Peg-leg o' Steel
+  iron_leggings: Greaves o' steel
+  iron_boots: Peg-leg o' steel
   diamond_helmet: Helmet o' Diamond
   diamond_chestplate: Chestplate o' Diamond
-  diamond_leggings: Greaves o' Diamond
-  diamond_boots: Peg-leg o' Diamond
+  diamond_leggings: Greaves o' diamond
+  diamond_boots: Peg-leg o' diamond
   golden_helmet: Helmet o' Gold
   golden_chestplate: Chestplate o' Gold
-  golden_leggings: Greaves o' Gold
-  golden_boots: Peg-leg o' Gold
-  netherite_helmet: Blackbeard's Tricorn Hat
-  netherite_chestplate: Blackbeard's Doublet
-  netherite_leggings: Blackbeard's Breaches
-  netherite_boots: Blackbeard's Waders
-  flint: Pointy Rock
+  golden_leggings: Greaves o' gold
+  golden_boots: Peg-leg o' gold
+  netherite_helmet: Blackbeard's tricorn hat
+  netherite_chestplate: Blackbeard's doublet
+  netherite_leggings: Blackbeard's breeches
+  netherite_boots: Blackbeard's waders
+  flint: Pointy rock
   porkchop: Raw Pigmeat
   cooked_porkchop: Cooked Swine
-  painting: Paintin'
+  painting: Portrait
   golden_apple: Eden's Apple
   enchanted_golden_apple: Witchcraft'd Golden Apple
   oak_sign: Seal uv Oak
@@ -664,44 +781,42 @@ material:
   jungle_sign: Seal o' Jungle
   acacia_sign: Seal uv Acacia
   dark_oak_sign: Seal o' Dusky Oak
-  crimson_sign: Seal o' Ichor
-  warped_sign: Seal o' Twistin'
+  crimson_sign: Seal o' ichor
+  warped_sign: Message o' Twistin'
   bucket: Pail
   water_bucket: Pail o' Bilge
   lava_bucket: Pail o' Molten Rock
-  minecart: Landlubber's Boat
-  saddle: Saddle
-  redstone: Redstone Powder
+  powder_snow_bucket: Pail o' snowier snow
   snowball: Ball o' Snow
-  oak_boat: Oak'n Vessel
   leather: Leather
   milk_bucket: Bovine's Juice
-  pufferfish_bucket: Pail o' Blowfish
-  salmon_bucket: Pail o' Salmon
-  cod_bucket: Pail o' Cod
-  tropical_fish_bucket: Pail o' Tropical Fish
+  pufferfish_bucket: Pail o' blowfish
+  salmon_bucket: Pail o' salmon
+  cod_bucket: Pail o' codfish
+  tropical_fish_bucket: Pail o' colorful fish
+  axolotl_bucket: Pail o' sea lizard
   brick: Brick o' Clay
-  clay_ball: Lump o' Solid Mud
+  clay_ball: Ball o' Solid Mud
   dried_kelp_block: Chunk o' Dry Sea Lettuce
   paper: Parchment
   book: Logbook
   slime_ball: Ball o' Slime
-  chest_minecart: Coffer in a Landlubber's Boat
-  furnace_minecart: Oven in a Landlubber's Boat
   egg: Cackle Fruit
   compass: Sextant
+  bundle: Pouch
   fishing_rod: Fishin' Rod
   clock: Hourglass
+  spyglass: Bring 'em near
   glowstone_dust: Glowstone Powder
-  cod: Raw Cod
+  cod: Raw codfish
   salmon: Raw Salmon
   tropical_fish: Tropical Fish
   pufferfish: Blowfish
-  cooked_cod: Smoked Cod
+  cooked_cod: Smoked codfish
   cooked_salmon: Smoked Salmon
-  ink_sac: Kraken's Paint
+  ink_sac: Kraken's paint
+  glow_ink_sac: Kraken's glowin' paint
   cocoa_beans: Beans o' Cacao
-  lapis_lazuli: Lāzhward
   white_dye: Dye o' White
   orange_dye: Dye o' Orange
   magenta_dye: Dye o' Magenta
@@ -722,22 +837,22 @@ material:
   bone: Bone
   sugar: Sugarrr
   cake: Duff
-  white_bed: Pale Bunk
-  orange_bed: Orange Bunk
-  magenta_bed: Flamboyant Bunk
-  light_blue_bed: Sky Blue Bunk
-  yellow_bed: Urine Bunk
+  white_bed: White bunk
+  orange_bed: Orange bunk
+  magenta_bed: Light purple bunk
+  light_blue_bed: Light blue bunk
+  yellow_bed: Yellow bunk
   lime_bed: Vomit Bunk
-  pink_bed: Girly Bunk
-  gray_bed: Dull Bunk
-  light_gray_bed: Dusty Bunk
-  cyan_bed: Ocean Blue Bunk
-  purple_bed: Purple Bunk
-  blue_bed: Blue Bunk
-  brown_bed: Floor Hammock
-  green_bed: Camouflaged Bunk
-  red_bed: Royal Bunk
-  black_bed: Dark Bunk
+  pink_bed: Pink bunk
+  gray_bed: Gray bunk
+  light_gray_bed: Light gray bunk
+  cyan_bed: Ocean blue bunk
+  purple_bed: Purple bunk
+  blue_bed: Blue bunk
+  brown_bed: Brown bunk
+  green_bed: Green bunk
+  red_bed: Scarlet bunk
+  black_bed: Black bunk
   cookie: Biscuit
   filled_map: Treasure Map
   shears: Cutters
@@ -765,6 +880,7 @@ material:
   cauldron: Pot
   ender_eye: Eye 'o' The Tall One
   glistering_melon_slice: Shining Melon Slice
+  axolotl_spawn_egg: Sea Lizard Cackle Fruit
   bat_spawn_egg: Flying Mouse Cackle Fruit
   bee_spawn_egg: Bee Cackle Fruit
   blaze_spawn_egg: Blisterin' Blaze Cackle Fruit
@@ -783,6 +899,8 @@ material:
   evoker_spawn_egg: Evil Wizard Cackle Fruit
   fox_spawn_egg: Fox Cackle Fruit
   ghast_spawn_egg: Ghast Cackle Fruit
+  glow_squid_spawn_egg: Glowin' Kraken Cackle Fruit
+  goat_spawn_egg: Goat Cackle Fruit
   guardian_spawn_egg: Sea Lurker Cackle Fruit
   hoglin_spawn_egg: Devil's Manatee Cackle Fruit
   horse_spawn_egg: Brumby Cackle Fruit
@@ -813,7 +931,7 @@ material:
   spider_spawn_egg: Spider Cackle Fruit
   squid_spawn_egg: Kraken Cackle Fruit
   stray_spawn_egg: Wandering Bag o' Bones Cackle Fruit
-  strider_spawn_egg: Walkin' Jellyfish o' Lava Cackle Fruit
+  strider_spawn_egg: Jellyfish o' Lava Cackle Fruit
   trader_llama_spawn_egg: Nomad's Spitting Sheep Cackle Fruit
   tropical_fish_spawn_egg: Fish o’ Tropical Cackle Fruit
   turtle_spawn_egg: Turtle Cackle Fruit
@@ -833,8 +951,8 @@ material:
   fire_charge: Cannonball
   writable_book: Captain's Log
   written_book: Full logbook
-  emerald: Emerald
   item_frame: Booty Rack
+  glow_item_frame: Shinin' Frame for Treasure
   flower_pot: Dirt Vase
   carrot: Orange Veggy
   potato: Tater
@@ -842,24 +960,19 @@ material:
   poisonous_potato: Toxic Tater
   map: Em'ty Treasure Map
   golden_carrot: Carrot o' Gold
-  skeleton_skull: Skull o' the Bag o' Bones
-  wither_skeleton_skull: Skull o' Wither Bag o' Bones
-  player_head: Skull o' Sailor
-  zombie_head: Undead Sailor Head
+  skeleton_skull: Bag o' bones skull
+  wither_skeleton_skull: Corrupted bag o' bones skull
+  player_head: Sailor skull
+  zombie_head: Undead sailor skull
   creeper_head: Creeper Skull
   dragon_head: Wyvern Skull
-  carrot_on_a_stick: Stick o' Carrot
-  warped_fungus_on_a_stick: Bafflin' Toadstool on a Stick
   nether_star: Star o' Nether
   pumpkin_pie: Roasted Gourd
   firework_rocket: Bomb o' Spark'ls
   firework_star: Bomb o' Stars
   enchanted_book: Magic book
   nether_brick: Brick o' Nether
-  quartz: White Nether Rock
-  tnt_minecart: Powder Keg in a Landlubber's Boat
-  hopper_minecart: Suckin' Device in a Landlubber's Boat
-  prismarine_shard: Shard o' Prismarine
+  prismarine_shard: Shard o' prismarine
   prismarine_crystals: Crystals o' Prismarine
   rabbit: Raw Rabbit
   cooked_rabbit: Cooked Rabbit
@@ -873,25 +986,25 @@ material:
   leather_horse_armor: Brumby Armor o' Leather
   lead: Rope
   name_tag: Name yer mate
-  command_block_minecart: Order Block in a Landlubber's Boat
+  command_block_minecart: Order block in a landlubber's boat
   mutton: Raw Meat o' Sheep
   cooked_mutton: Cooked Meat o' Sheep
-  white_banner: White Flag
-  orange_banner: Orange Flag
-  magenta_banner: Magenta Flag
-  light_blue_banner: Light Blue Flag
-  yellow_banner: Yellow Flag
-  lime_banner: Lime Flag
-  pink_banner: Pink Flag
-  gray_banner: Gray Flag
-  light_gray_banner: Light Gray Flag
-  cyan_banner: Cyan Flag
-  purple_banner: Purple Flag
-  blue_banner: Blue Flag
-  brown_banner: Brown Flag
-  green_banner: Green Flag
-  red_banner: Scarlet Flag
-  black_banner: Black Flag
+  white_banner: White flag
+  orange_banner: Orange flag
+  magenta_banner: Light purple flag
+  light_blue_banner: Light blue flag
+  yellow_banner: Yellow flag
+  lime_banner: Light green flag
+  pink_banner: Pink flag
+  gray_banner: Gray flag
+  light_gray_banner: Light gray flag
+  cyan_banner: Ocean blue flag
+  purple_banner: Purple flag
+  blue_banner: Blue flag
+  brown_banner: Brown flag
+  green_banner: Green flag
+  red_banner: Scarlet flag
+  black_banner: Black flag
   end_crystal: End Crystal
   chorus_fruit: Tall One's Fruit
   popped_chorus_fruit: Baked Tall One's Fruit
@@ -900,20 +1013,14 @@ material:
   beetroot_soup: Soup o' Bloody Potato
   dragon_breath: Wyvern's Breath
   splash_potion: Grenade
-  spectral_arrow: Magic Bolt
-  tipped_arrow: Tipped Bolt
+  spectral_arrow: Magic bolt
+  tipped_arrow: Tipped bolt
   lingering_potion: Bottled Fog
   shield: Targe
-  elytra: Icarus's Wings
-  spruce_boat: Vessel o' Spruce Timber
-  birch_boat: Vessel o' Birch Timber
-  jungle_boat: Vessel o' Jungle Timber
-  acacia_boat: Vessel o' Acacia Timber
-  dark_oak_boat: Vessel o' Dusky Oak Timber
-  totem_of_undying: Ye Jewel of Life
+  totem_of_undying: Jewel o' life
   shulker_shell: Shulker Shell
   iron_nugget: Doubloon o' Steel
-  knowledge_book: Tome Of Intellect
+  knowledge_book: Tome o' intellect
   debug_stick: Debug stick
   music_disc_13: Shanty
   music_disc_cat: Shanty
@@ -934,7 +1041,7 @@ material:
   heart_of_the_sea: Heart o' th' Seas
   crossbow: Crossbow
   suspicious_stew: Fishy Gruel
-  loom: Sewin' Station
+  loom: Sewin' station
   flower_banner_pattern: Flag Pattern
   creeper_banner_pattern: Flag Pattern
   skull_banner_pattern: Flag Pattern
@@ -948,13 +1055,13 @@ material:
   cartography_table: Cap'n's Mappin' Desk
   fletching_table: Stick Sharp'n Table
   grindstone: Smithing Rock
-  lectern: Readin' Stand
   smithing_table: Forgin' Bench
   stonecutter: Pebble Chopp'r
-  bell: Bell
+  bell: Landlubbers' nightmare
   lantern: Lantarrrn
   soul_lantern: Siren's Latern
-  sweet_berries: Land Capers
+  sweet_berries: Land capers
+  glow_berries: Glowin' capers
   campfire: Campfire
   soul_campfire: Campfire o' Agony
   shroomlight: Spore o' Glowin'
@@ -962,35 +1069,53 @@ material:
   bee_nest: Crow's Nest o' Bee
   beehive: Vessel o' Bee
   honey_bottle: Bottle o' Nectar
-  honey_block: Cube o' Bee Nectar
   honeycomb_block: Cube o' Bee Treasure
-  lodestone: Wayfindin' Stone
-  netherite_block: Cube o' Blackbeard's Alloy
-  ancient_debris: Lost Treasure o' Blackbeard
-  target: Dartboard
+  lodestone: Compass Stone
   crying_obsidian: Rock o' True Sobbin'
-  blackstone: Rock o' Black
+  blackstone: Black rock
   blackstone_slab: Slab o' Rock o' Black
   blackstone_stairs: Stairs o' Rock o' Black
   gilded_blackstone: Shiny Rock o' Black
   polished_blackstone: Good lookin' Rock o' Black
-  polished_blackstone_slab: Good Lookin' Black Slab o' Rock
-  polished_blackstone_stairs: Good Lookin' Black Stairs o' Rock
+  polished_blackstone_slab: Slab o' Good Lookin' Black Rock
+  polished_blackstone_stairs: Stairs o' Good Lookin' Black Rock
   chiseled_polished_blackstone: Good look'n Carv'd Rock o' Black
   polished_blackstone_bricks: Good lookin' Bricks o' Rock o' Black
   polished_blackstone_brick_slab: Good lookin' Slab o' Bricks o' Rock o' Black
   polished_blackstone_brick_stairs: Good lookin' Stairs o' Bricks o' Rock o' Black
   cracked_polished_blackstone_bricks: Cracked Bricks o' Rock o' Black
-  respawn_anchor: Rebirthin' Relic
+  respawn_anchor: Rebirthin' relic
+  candle: Candle
+  white_candle: White candle
+  orange_candle: Orange candle
+  magenta_candle: Light purple candle
+  light_blue_candle: Light blue candle
+  yellow_candle: Yellow candle
+  lime_candle: Light green candle
+  pink_candle: Pink candle
+  gray_candle: Gray candle
+  light_gray_candle: Light gray candle
+  cyan_candle: Ocean blue candle
+  purple_candle: Purple candle
+  blue_candle: Blue candle
+  brown_candle: Brown candle
+  green_candle: Green candle
+  red_candle: Scarlet candle
+  black_candle: Black candle
+  small_amethyst_bud: Small bud o' gem
+  medium_amethyst_bud: Sizable bud o' gem
+  large_amethyst_bud: Vast bud o' gem
+  amethyst_cluster: Clump o' gems
+  pointed_dripstone: Sharp Stone o' Drippin'
   water: Bilge
-  lava: Molten Rock
-  tall_seagrass: Mighty Grass o' Sea
+  lava: Molten rock
+  tall_seagrass: Mighty grass o' sea
   piston_head: Raised Deck Skull
   moving_piston: Movin' Arm
-  wall_torch: Wall Torch
+  wall_torch: Wall torch
   fire: Flames
-  soul_fire: Fire o' Twistenin' and Agony
-  redstone_wire: Wire o' Redstone
+  soul_fire: Fire o' Spirit
+  redstone_wire: Wire o' redstone
   oak_wall_sign: Wall Seal uv Oak
   spruce_wall_sign: Wall Seal o' Spruce
   birch_wall_sign: Wall Seal o' Birch
@@ -998,12 +1123,15 @@ material:
   jungle_wall_sign: Wall Seal o' Jungle
   dark_oak_wall_sign: Wall Seal o' Dusky Oak
   redstone_wall_torch: Redstone Torch o' Wall
-  soul_wall_torch: Wooden Wall Candle o' Gloom
-  nether_portal: Door o' Nether
+  soul_wall_torch: Wall Candle o' Gloom
+  nether_portal: Porthole to Nether
   attached_pumpkin_stem: Tied Twig o' Pumkin'
   attached_melon_stem: Tied Twig o' Melon
   pumpkin_stem: Twig o' Pumpkin'
   melon_stem: Twig o' Melon
+  water_cauldron: Pot o' bilge
+  lava_cauldron: Pot o' molten rock
+  powder_snow_cauldron: Pot o' snowier snow
   end_portal: Porthole to End
   cocoa: Cacao
   tripwire: Dirty Ol' Boot Tripper
@@ -1031,33 +1159,33 @@ material:
   potted_brown_mushroom: Dirt Vase o' Brown 'shroom
   potted_dead_bush: Dirt Vase uv Unfortunate Sight o' Leaves
   potted_cactus: Dirt Vase o' Cactus
-  carrots: Or'nge Veggies
+  carrots: Orange veggies
   potatoes: Taters
-  skeleton_wall_skull: Skelly Wall Skull
-  wither_skeleton_wall_skull: Wither Skelly Wall Skull
-  zombie_wall_head: Wall Skull uv Undead Sailor
-  player_wall_head: Wall Skull o' Sailor
+  skeleton_wall_skull: Bag o' bones wall skull
+  wither_skeleton_wall_skull: Corrupted bag o' bones wall skull
+  zombie_wall_head: Undead sailor wall skull
+  player_wall_head: Sailor wall skull
   creeper_wall_head: Wall Skull o' Creepy Bomber
   dragon_wall_head: Wyvern Wall Skull
-  white_wall_banner: White Flag
-  orange_wall_banner: Orange Flag
-  magenta_wall_banner: Magenta Flag
-  light_blue_wall_banner: Light Blue Flag
-  yellow_wall_banner: Yellow Flag
-  lime_wall_banner: Lime Flag
-  pink_wall_banner: Pink Flag
-  gray_wall_banner: Gray Flag
-  light_gray_wall_banner: Light Gray Flag
-  cyan_wall_banner: Cyan Flag
-  purple_wall_banner: Purple Flag
-  blue_wall_banner: Blue Flag
-  brown_wall_banner: Brown Flag
-  green_wall_banner: Green Flag
-  red_wall_banner: Scarlet Flag
-  black_wall_banner: Black Flag
-  beetroots: Bloody Potato
+  white_wall_banner: White flag
+  orange_wall_banner: Orange flag
+  magenta_wall_banner: Light purple flag
+  light_blue_wall_banner: Light blue flag
+  yellow_wall_banner: Yellow flag
+  lime_wall_banner: Light green flag
+  pink_wall_banner: Pink flag
+  gray_wall_banner: Gray flag
+  light_gray_wall_banner: Light gray flag
+  cyan_wall_banner: Ocean blue flag
+  purple_wall_banner: Purple flag
+  blue_wall_banner: Blue flag
+  brown_wall_banner: Brown flag
+  green_wall_banner: Green flag
+  red_wall_banner: Scarlet flag
+  black_wall_banner: Black flag
+  beetroots: Bloody taters
   end_gateway: Gateway o' th' End
-  frosted_ice: Frosty Frost
+  frosted_ice: Frosty frost
   kelp_plant: Sea Lettuce Seed
   dead_tube_coral_wall_fan: Dead Cylind'r Coral Wall Waf'r
   dead_brain_coral_wall_fan: Dead Walnut Coral Wall Waf'r
@@ -1071,18 +1199,42 @@ material:
   horn_coral_wall_fan: Horn Coral Wall Waf'r
   bamboo_sapling: Bambarrr Baby
   potted_bamboo: Dirt Vase o' Bambarrr
-  void_air: Davy Jones' Air
-  cave_air: Cave Air
+  void_air: Davy Jones' breath
+  cave_air: Cave breeze
   bubble_column: Tower o' bubbles
   sweet_berry_bush: Land Caper Shrub
   weeping_vines_plant: Vines o' Sobbin'
   twisting_vines_plant: Vines o' Swirlin' Plant
-  crimson_wall_sign: Red Sign o' Despair
-  warped_wall_sign: Strange Sign o' Hyphae
+  crimson_wall_sign: Wall seal o' ichor
+  warped_wall_sign: Wall Seal o' Blue
   potted_crimson_fungus: Potted Fungus o' Ichor
   potted_warped_fungus: Potted Fungus o' Twistin'
   potted_crimson_roots: Potted Tendrils o' Ichor
   potted_warped_roots: Potted Tendrils o' Twistin'
+  candle_cake: Cake o' The Candle
+  white_candle_cake: Duff with a white candle
+  orange_candle_cake: Cake wit' Orange Candle
+  magenta_candle_cake: Duff wit' Magenta Candle
+  light_blue_candle_cake: Duff wit' Light Blue Candle
+  yellow_candle_cake: Duff wit' Yellow Candle
+  lime_candle_cake: Duff wit' Lime Candle
+  pink_candle_cake: Duff wit' Pink Candle
+  gray_candle_cake: Duff wit' Gray Wax o' Flammable
+  light_gray_candle_cake: Duff wit' Light Gray Candle
+  cyan_candle_cake: Duff wit' Cyan Candle
+  purple_candle_cake: Duff wit' Purple Candle
+  blue_candle_cake: Duff wit' Blue Candle
+  brown_candle_cake: Duff wit' Brown Candle
+  green_candle_cake: Duff wit' Green Candle
+  red_candle_cake: Duff wit' Scarlet Candle
+  black_candle_cake: Duff wit' Black Candle
+  powder_snow: Snowier snow
+  cave_vines: Cave swingers
+  cave_vines_plant: Cave Swingers Plant
+  big_dripleaf_stem: Twig o' venus flytrap
+  potted_azalea_bush: Potted azalea
+  potted_flowering_azalea_bush: Potted flowerin' azalea
+  grass_path: Trodden Path
   zombie_pigman_spawn_egg: Undead Swine Cackle Fruit
   cactus_green: Green o' Cactus
   dandelion_yellow: Yellow o' Dandelion
@@ -1165,50 +1317,52 @@ biome:
   modified_badlands_plateau: Modified High Clay 'ills
   bamboo_jungle: Bambarrr Jungle
   bamboo_jungle_hills: Bambarrr Jungle Hills
-  soul_sand_valley: Desert o' Wailing Spirits
+  soul_sand_valley: Dead Valley o' Sandy
   crimson_forest: Woods o' Ichor
-  warped_forest: Woods o' Twistin'
+  warped_forest: Funguzz o' Twistt
   basalt_deltas: Deltas o' Rock o' Lava
+  dripstone_caves: Caves o' Sharp Rocks
+  lush_caves: Moldy caves
   nether: Nether
 enchantment:
-  fire_protection: Blockades of Flame
-  sharpness: Scarring
-  flame: Ember
-  soul_speed: Ghastly Stridin'
-  aqua_affinity: Rudder Lover
-  punch: Cannonball knockback
-  loyalty: Me loyal
-  depth_strider: Mermaid Legs
-  vanishing_curse: Evil witchery of disappearin'
-  unbreaking: Tough
-  knockback: Blowback
-  luck_of_the_sea: Luck o' yer sea
-  binding_curse: Evil witchery of stickiness
-  fortune: Treasure
   protection: Blockades
-  efficiency: Usefulness
-  mending: Renovation
-  frost_walker: Freezer
-  lure: Stronger Bait
-  looting: Plunderin'
-  piercing: Sailin' Through
+  fire_protection: Blockades of Flame
+  feather_falling: Wind in yer breeches
   blast_protection: Cannon-proof
-  smite: Vanquish
-  multishot: Fleet o' Bolts
-  fire_aspect: Embered Cutlass
-  channeling: Charging
-  sweeping: Edged Saber
-  thorns: Spikes
-  bane_of_arthropods: Critter Cutter
-  respiration: Fish-breathin'
-  riptide: Riptide
-  silk_touch: Soft Hands
-  quick_charge: Swift Riggin'
   projectile_protection: Blunderbuss Busting
-  impaling: Impaling
-  feather_falling: Wind in Yer Britches
+  respiration: Fish-breathin'
+  aqua_affinity: Rudder lover
+  thorns: Spikes
+  depth_strider: Mermaid Legs
+  frost_walker: Freezer
+  binding_curse: Evil witchery of stickiness
+  sharpness: Scarring
+  smite: Vanquish
+  bane_of_arthropods: Critter cutter
+  knockback: Blowback
+  fire_aspect: Embered cutlass
+  looting: Plunderin'
+  sweeping: Edged saber
+  efficiency: Usefulness
+  silk_touch: Soft hands
+  unbreaking: Tough
+  fortune: Treasure
   power: Vigour
+  punch: Cannonball knockback
+  flame: Ember
   infinity: Never endin' bolts
+  luck_of_the_sea: Luck o' yer sea
+  lure: Stronger bait
+  loyalty: Me loyal
+  impaling: Impaling
+  riptide: Riptide
+  channeling: Charging
+  multishot: Fleet o' bolts
+  quick_charge: Swift riggin'
+  piercing: Sailin' through
+  mending: Renovation
+  vanishing_curse: Evil witchery of disappearin'
+  soul_speed: Ghastly stridin'
 potion:
   uncraftable: Uncraftable Grog
   water: Bottle o' Water
@@ -1216,12 +1370,12 @@ potion:
   thick: Rummy Grog
   awkward: Odd Grog
   night_vision: Grog o' Moonlight
-  invisibility: Grog o' ghostliness
-  jump: Grog o' Jumpin'
+  invisibility: Grog o' Invisibility
+  jump: Grog o' Leapin'
   fire_resistance: Grog o' Flame's Bane
-  speed: Grog o' full sails
+  speed: Grog o' Full Sails
   slowness: Grog o' Sloth
-  water_breathing: Grog o' Mermaid's Breath
+  water_breathing: Grog o' Mermaid's Blessin'
   instant_heal: Grog o' Healin'
   instant_damage: Grog o' Keelhaul
   poison: Toxic Rum
@@ -1238,15 +1392,15 @@ splash_potion:
   thick: Rummy Grenade
   awkward: Odd Grenade
   night_vision: Grenade o' Moonlight
-  invisibility: Grenade o' tha Ghosts
-  jump: Grenade o' Jumpin'
+  invisibility: Grenade o' Invisibility
+  jump: Grenade o' Leapin'
   fire_resistance: Grenade o' Flame's Bane
-  speed: Grenade o' full sails
+  speed: Grenade o' Full Sails
   slowness: Grenade o' Sloth
-  water_breathing: Grenade o' th' Mermaids
+  water_breathing: Grenade o' Mermaid's Blessin'
   instant_heal: Grenade o' Healin'
   instant_damage: Grenade o' Keelhaul
-  poison: Grenade o' Poison
+  poison: Grenade o' Toxin
   regen: Grenade o' Feelin' Bett'r Slowly
   strength: Grenade o' Rum
   weakness: Grenade o' Laziness
@@ -1254,40 +1408,40 @@ splash_potion:
   turtle_master: Grenade o' the Turtle Master
   slow_falling: Grenade o' Mary Poppins' Syndrome
 lingering_potion:
-  uncraftable: Uncraftable Bottled fog
+  uncraftable: Uncraftable Bottled Fog
   water: Bottled fog
-  mundane: Useless Bottled fog
-  thick: Rummy Bottled fog
-  awkward: Odd Bottled fog
-  night_vision: Bottled fog o' Moonlight
-  invisibility: Bottled fog o' Ghost
-  jump: Bottled fog o' Leapin'
-  fire_resistance: Bottled fog o' Flame's Bane
-  speed: Bottled fog o' full sails
-  slowness: Bottled fog o' Sloth
-  water_breathing: Bottled Fog o' th' Mermaids
-  instant_heal: Bottled fog o' Healin'
-  instant_damage: Bottled fog o' Keelhaul
-  poison: Bottled fog o' Poison
-  regen: Bottled fog o' Feelin' Bett'r Slowly
-  strength: Bottled fog o' Rum
-  weakness: Bottled fog o' Laziness
-  luck: Bottled fog o' Luck
+  mundane: Useless Bottled Fog
+  thick: Rummy Bottled Fog
+  awkward: Odd Bottled Fog
+  night_vision: Bottled Fog o' Moonlight
+  invisibility: Bottled Fog o' Invisibility
+  jump: Bottled Fog o' Leapin'
+  fire_resistance: Bottled Fog o' Flame's Bane
+  speed: Bottled Fog o' Full Sails
+  slowness: Bottled Fog o' Sloth
+  water_breathing: Bottled Fog o' Mermaid's Blessin'
+  instant_heal: Bottled Fog o' Healin'
+  instant_damage: Bottled Fog o' Keelhaul
+  poison: Bottled Fog o' Toxin
+  regen: Bottled Fog o' Feelin' Bett'r Slowly
+  strength: Bottled Fog o' Rum
+  weakness: Bottled Fog o' Laziness
+  luck: Bottled Fog o' Luck
   turtle_master: Bottled Fog o' Turtle Master
-  slow_falling: Bottled fog o' Mary Poppins' Syndrome
+  slow_falling: Bottled Fog o' Mary Poppins' Syndrome
 tipped_arrow:
-  uncraftable: Bolt o' witchery that ye can't make
+  uncraftable: Uncraftable Tipped Bolt
   water: Bolt o' Splashin'
   mundane: Tipped Bolt
   thick: Tipped Bolt
   awkward: Tipped Bolt
   night_vision: Bolt o' Moonlight
   invisibility: Bolt o' Invisibility
-  jump: Bolt o' Jumpin'
+  jump: Bolt o' Leapin'
   fire_resistance: Bolt o' Flame's Bane
   speed: Bolt o' Full Sails
   slowness: Bolt o' Sloth
-  water_breathing: Bolt o' th' Mermaids
+  water_breathing: Bolt o' Mermaid's Blessin'
   instant_heal: Bolt o' Healin'
   instant_damage: Bolt o' Keelhaul
   poison: Bolt o' Toxin
@@ -1300,17 +1454,17 @@ tipped_arrow:
 entity:
   dropped_item: Item
   experience_orb: Ball 'o' Wisdom
-  area_effect_cloud: The Mists of Sorcery
-  elder_guardian: Great Sea Lurker
-  wither_skeleton: Corrupted Bag o' Bones
-  stray: Wandering Bag o' Bones
+  area_effect_cloud: The mists o' sorcery
+  elder_guardian: Great sea lurker
+  wither_skeleton: Corrupted bag o' bones
+  stray: Wanderin' bag o' bones
   egg: Broken Egg
-  leash_hitch: Rope Knot
-  painting: Paintin'
+  leash_hitch: Rope knot
+  painting: Portrait
   arrow: Bolt
-  snowball: Ball o' Snow
+  snowball: Ball o' snow
   fireball: Cannonball
-  small_fireball: Small Cannonball
+  small_fireball: Small cannonball
   ender_pearl: Tossed Treasure o' the Enderrr
   ender_signal: Eye 'o' The Tall One
   splash_potion: Grog
@@ -1320,48 +1474,48 @@ entity:
   primed_tnt: Fire in the 'ole!
   falling_block: Unstable deck
   firework: Bomb o' Spark'ls
-  husk: Heated Sailor
-  spectral_arrow: Magic Bolt
-  shulker_bullet: Shulker Cannonball
-  dragon_fireball: Wyvern Cannonball
-  zombie_villager: Undead Landlubber
-  skeleton_horse: Bag o' Bones' Brumby
-  zombie_horse: Undead Brumby
+  husk: Heated sailor
+  spectral_arrow: Magic bolt
+  shulker_bullet: Shulker cannonball
+  dragon_fireball: Wyvern cannonball
+  zombie_villager: Undead landlubber
+  skeleton_horse: Bag o' bones' brumby
+  zombie_horse: Undead brumby
   armor_stand: Stand o' Armor
-  donkey: Furry Cargo
+  donkey: Furry cargo
   mule: Mule
-  evoker_fangs: Evil Wizard Fangs
-  evoker: Evil Wizard
+  evoker_fangs: Summoner fangs
+  evoker: Summoner
   vex: Nagger
   vindicator: Servant
   illusioner: Warlock
-  minecart_command: Order Block in a Landlubber's Boat
+  minecart_command: Order block in a landlubber's boat
   boat: Vessel
-  minecart: Landlubber's Boat
-  minecart_chest: Coffer in a Landlubber's Boat
-  minecart_furnace: Oven in a Landlubber's Boat
-  minecart_tnt: Powder Keg in a Landlubber's Boat
-  minecart_hopper: Suckin' Device in a Landlubber's Boat
-  minecart_mob_spawner: Land lubber's boat w'th Cage o' Demons
+  minecart: Landlubber's boat
+  minecart_chest: Coffer in a landlubber's boat
+  minecart_furnace: Oven in a landlubber's boat
+  minecart_tnt: Powder keg in a landlubber's boat
+  minecart_hopper: Suckin' device in a landlubber's boat
+  minecart_mob_spawner: Cage o' demons in a landlubber's boat
   creeper: Creeper
-  skeleton: Bag o' Bones
-  spider: Night Bug
-  giant: Ten-fathoms-tall man
-  zombie: Undead Sailor
-  slime: Cube o' Slime
+  skeleton: Bag o' bones
+  spider: Night bug
+  giant: Ten-fathoms-tall sailor
+  zombie: Undead sailor
+  slime: Cube o' slime
   ghast: Ghast
   zombified_piglin: Corpse o' Devil's Swine
   enderman: Enderman
-  cave_spider: Cave Horror
-  silverfish: Bilge Rat
-  blaze: Blisterin' Blaze
+  cave_spider: Cave horror
+  silverfish: Bilge rat
+  blaze: Blisterin' blaze
   magma_cube: Cube o' Magma
-  ender_dragon: Ender Wyvern
+  ender_dragon: Ender wyvern
   wither: Wither
-  bat: Flying Mouse
+  bat: Flyin' mouse
   witch: Wizard
   endermite: Endermite
-  guardian: Sea Lurker
+  guardian: Sea lurker
   shulker: Shulker
   pig: Swine
   sheep: Sheep
@@ -1369,43 +1523,48 @@ entity:
   chicken: Fowl
   squid: Kraken
   wolf: Hound
-  mushroom_cow: Mooshroom
-  snowman: Golem o' Snow
-  ocelot: Cat o' Jungles
-  iron_golem: Golem o' Steel
+  mushroom_cow: Shroom bovine
+  snowman: Golem o' snow
+  ocelot: Lynx
+  iron_golem: Golem o' steel
   horse: Brumby
   rabbit: Rabbit
-  polar_bear: Polar Bear
-  llama: Spitting Sheep
-  llama_spit: Sheep Spit
+  polar_bear: Polar bear
+  llama: Spittin' sheep
+  llama_spit: Spittin' sheep spit
   parrot: Polly
   villager: Landlubber
   ender_crystal: End Crystal
   turtle: Turtle
   phantom: Flying Devil
-  trident: Poseidon's Fightn' Fork
-  cod: Cod
+  trident: Poseidon's fightin' fork
+  cod: Codfish
   salmon: Salmon
   pufferfish: Blowfish
-  tropical_fish: Tropical Fish
-  drowned: Sunken Sailor
-  dolphin: Treasure Hound
-  cat: Parrot Killer
-  panda: Landlubbin' Orca
+  tropical_fish: Colorful fish
+  drowned: Sunken sailor
+  dolphin: Treasure hound
+  cat: Parrot killer
+  panda: Landlubbin' orca
   pillager: Raider
   ravager: Arrvager
-  trader_llama: Nomad's Spitting Sheep
-  wandering_trader: Movin' Merchant
+  trader_llama: Nomad's spittin' sheep
+  wandering_trader: Nomad
   fox: Fox
   bee: Bee
-  hoglin: Devil's Manatee
+  hoglin: Devil's manatee
   piglin: Devil's Swine
   strider: Fish o' the underworld
-  zoglin: Corpse o' Devil's Manatee
+  zoglin: Rottin' manatee
   piglin_brute: Swine o' Ashy Fortress
-  fishing_hook: Fishin' Bobber
+  axolotl: Sea lizard
+  glow_item_frame: Shinin' Frame for Treasure
+  glow_squid: Glowin' kraken
+  goat: Goat
+  marker: Ghost flag
+  fishing_hook: Fishin' bobber
   lightning: Flash o' the Skies
-  player: Crewmate
+  player: Sailor
   pig_zombie: Undead Swine
 effect:
   speed: Full Sails
@@ -1414,7 +1573,7 @@ effect:
   slow_digging: Scurvey
   increase_damage: Drunkenness
   heal: Quick Healin'
-  harm: Blast of Pain
+  harm: Blast o' Pain
   jump: High Tide
   confusion: Seasickness
   regeneration: Feelin' Bett'r Slowly
@@ -1439,10 +1598,10 @@ effect:
   conduit_power: Sea's Blessing
   dolphins_grace: Treasure Hound's Grace
   bad_omen: Black Spot
-  hero_of_the_village: King of Landlubbers' territory
+  hero_of_the_village: King o' Landlubbers' Territory
 tropical_fish_type:
   kob: Kob
-  sunstreak: Fish o' Sunstreak
+  sunstreak: Sunstreak
   snooper: Snooper
   dasher: Dasher
   brinely: Brinely
@@ -1471,7 +1630,7 @@ dye_color:
   red: Scarlet
   black: Black
 named:
-  player_head_named: '%s''s Skull'
+  player_head_named: '%s''s skull'
   potion_with_amplifier: '%s %s'
   potion_with_duration: '%s (%s)'
   none_effects: Useless
@@ -1482,7 +1641,7 @@ tropical_fish_name:
   '117506305': Anemone
   '117899265': Black Tang
   '185008129': Blue Tang
-  '117441793': Butterfly Fish
+  '117441793': Butterflyfish
   '118161664': Cichlid
   '65536': Clownfish
   '50726144': Cotton Candy Betta
@@ -1519,646 +1678,646 @@ colored_shied:
   red: Scarlet Targe
   black: Black Targe
 banner_pattern:
-  '65536': White Base Dexter Canton
-  '65537': Orange Base Dexter Canton
-  '65538': Magenta Base Dexter Canton
-  '65539': Light Blue Base Dexter Canton
-  '65540': Yellow Base Dexter Canton
-  '65541': Lime Base Dexter Canton
-  '65542': Pink Base Dexter Canton
-  '65543': Gray Base Dexter Canton
-  '65544': Light Gray Base Dexter Canton
-  '65545': Cyan Base Dexter Canton
-  '65546': Purple Base Dexter Canton
-  '65547': Blue Base Dexter Canton
-  '65548': Brown Base Dexter Canton
-  '65549': Green Base Dexter Canton
-  '65550': Scarlet Base Dexter Canton
-  '65551': Black Base Dexter Canton
-  '131072': White Base Sinister Canton
-  '131073': Orange Base Sinister Canton
-  '131074': Magenta Base Sinister Canton
-  '131075': Light Blue Base Sinister Canton
-  '131076': Yellow Base Sinister Canton
-  '131077': Lime Base Sinister Canton
-  '131078': Pink Base Sinister Canton
-  '131079': Gray Base Sinister Canton
-  '131080': Light Gray Base Sinister Canton
-  '131081': Cyan Base Sinister Canton
-  '131082': Purple Base Sinister Canton
-  '131083': Blue Base Sinister Canton
-  '131084': Brown Base Sinister Canton
-  '131085': Green Base Sinister Canton
-  '131086': Scarlet Base Sinister Canton
-  '131087': Black Base Sinister Canton
-  '196608': White Chief Dexter Canton
-  '196609': Orange Chief Dexter Canton
-  '196610': Magenta Chief Dexter Canton
-  '196611': Light Blue Chief Dexter Canton
-  '196612': Yellow Chief Dexter Canton
-  '196613': Lime Chief Dexter Canton
-  '196614': Pink Chief Dexter Canton
-  '196615': Gray Chief Dexter Canton
-  '196616': Light Gray Chief Dexter Canton
-  '196617': Cyan Chief Dexter Canton
-  '196618': Purple Chief Dexter Canton
-  '196619': Blue Chief Dexter Canton
-  '196620': Brown Chief Dexter Canton
-  '196621': Green Chief Dexter Canton
-  '196622': Scarlet Chief Dexter Canton
-  '196623': Black Chief Dexter Canton
-  '262144': White Chief Sinister Canton
-  '262145': Orange Chief Sinister Canton
-  '262146': Magenta Chief Sinister Canton
-  '262147': Light Blue Chief Sinister Canton
-  '262148': Yellow Chief Sinister Canton
-  '262149': Lime Chief Sinister Canton
-  '262150': Pink Chief Sinister Canton
-  '262151': Gray Chief Sinister Canton
-  '262152': Light Gray Chief Sinister Canton
-  '262153': Cyan Chief Sinister Canton
-  '262154': Purple Chief Sinister Canton
-  '262155': Blue Chief Sinister Canton
-  '262156': Brown Chief Sinister Canton
-  '262157': Green Chief Sinister Canton
-  '262158': Scarlet Chief Sinister Canton
-  '262159': Black Chief Sinister Canton
-  '327680': White Base
-  '327681': Orange Base
-  '327682': Magenta Base
-  '327683': Light Blue Base
-  '327684': Yellow Base
-  '327685': Lime Base
-  '327686': Pink Base
-  '327687': Gray Base
-  '327688': Light Gray Base
-  '327689': Cyan Base
-  '327690': Purple Base
-  '327691': Blue Base
-  '327692': Brown Base
-  '327693': Green Base
-  '327694': Scarlet Base
-  '327695': Black Base
-  '393216': White Chief
-  '393217': Orange Chief
-  '393218': Magenta Chief
-  '393219': Light Blue Chief
-  '393220': Yellow Chief
-  '393221': Lime Chief
-  '393222': Pink Chief
-  '393223': Gray Chief
-  '393224': Light Gray Chief
-  '393225': Cyan Chief
-  '393226': Purple Chief
-  '393227': Blue Chief
-  '393228': Brown Chief
-  '393229': Green Chief
-  '393230': Scarlet Chief
-  '393231': Black Chief
-  '458752': White Pale Dexter
-  '458753': Orange Pale Dexter
-  '458754': Magenta Pale Dexter
-  '458755': Light Blue Pale Dexter
-  '458756': Yellow Pale Dexter
-  '458757': Lime Pale Dexter
-  '458758': Pink Pale Dexter
-  '458759': Gray Pale Dexter
-  '458760': Light Gray Pale Dexter
-  '458761': Cyan Pale Dexter
-  '458762': Purple Pale Dexter
-  '458763': Blue Pale Dexter
-  '458764': Brown Pale Dexter
-  '458765': Green Pale Dexter
-  '458766': Scarlet Pale Dexter
-  '458767': Black Pale Dexter
-  '524288': White Pale Sinister
-  '524289': Orange Pale Sinister
-  '524290': Magenta Pale Sinister
-  '524291': Light Blue Pale Sinister
-  '524292': Yellow Pale Sinister
-  '524293': Lime Pale Sinister
-  '524294': Pink Pale Sinister
-  '524295': Gray Pale Sinister
-  '524296': Light Gray Pale Sinister
-  '524297': Cyan Pale Sinister
-  '524298': Purple Pale Sinister
-  '524299': Blue Pale Sinister
-  '524300': Brown Pale Sinister
-  '524301': Green Pale Sinister
-  '524302': Scarlet Pale Sinister
-  '524303': Black Pale Sinister
-  '589824': White Pale
-  '589825': Orange Pale
-  '589826': Magenta Pale
-  '589827': Light Blue Pale
-  '589828': Yellow Pale
-  '589829': Lime Pale
-  '589830': Pink Pale
-  '589831': Gray Pale
-  '589832': Light Gray Pale
-  '589833': Cyan Pale
-  '589834': Purple Pale
-  '589835': Blue Pale
-  '589836': Brown Pale
-  '589837': Green Pale
-  '589838': Scarlet Pale
-  '589839': Black Pale
-  '655360': White Fess
-  '655361': Orange Fess
-  '655362': Magenta Fess
-  '655363': Light Blue Fess
-  '655364': Yellow Fess
-  '655365': Lime Fess
-  '655366': Pink Fess
-  '655367': Gray Fess
-  '655368': Light Gray Fess
-  '655369': Cyan Fess
-  '655370': Purple Fess
-  '655371': Blue Fess
-  '655372': Brown Fess
-  '655373': Green Fess
-  '655374': Scarlet Fess
-  '655375': Black Fess
-  '720896': White Bend
-  '720897': Orange Bend
-  '720898': Magenta Bend
-  '720899': Light Blue Bend
-  '720900': Yellow Bend
-  '720901': Lime Bend
-  '720902': Pink Bend
-  '720903': Gray Bend
-  '720904': Light Gray Bend
-  '720905': Cyan Bend
-  '720906': Purple Bend
-  '720907': Blue Bend
-  '720908': Brown Bend
-  '720909': Green Bend
-  '720910': Scarlet Bend
-  '720911': Black Bend
-  '786432': White Bend Sinister
-  '786433': Orange Bend Sinister
-  '786434': Magenta Bend Sinister
-  '786435': Light Blue Bend Sinister
-  '786436': Yellow Bend Sinister
-  '786437': Lime Bend Sinister
-  '786438': Pink Bend Sinister
-  '786439': Gray Bend Sinister
-  '786440': Light Gray Bend Sinister
-  '786441': Cyan Bend Sinister
-  '786442': Purple Bend Sinister
-  '786443': Blue Bend Sinister
-  '786444': Brown Bend Sinister
-  '786445': Green Bend Sinister
-  '786446': Scarlet Bend Sinister
-  '786447': Black Bend Sinister
-  '851968': White Paly
-  '851969': Orange Paly
-  '851970': Magenta Paly
-  '851971': Light Blue Paly
-  '851972': Yellow Paly
-  '851973': Lime Paly
-  '851974': Pink Paly
-  '851975': Gray Paly
-  '851976': Light Gray Paly
-  '851977': Cyan Paly
-  '851978': Purple Paly
-  '851979': Blue Paly
-  '851980': Brown Paly
-  '851981': Green Paly
-  '851982': Scarlet Paly
-  '851983': Black Paly
-  '917504': White Saltire
-  '917505': Orange Saltire
-  '917506': Magenta Saltire
-  '917507': Light Blue Saltire
-  '917508': Yellow Saltire
-  '917509': Lime Saltire
-  '917510': Pink Saltire
-  '917511': Gray Saltire
-  '917512': Light Gray Saltire
-  '917513': Cyan Saltire
-  '917514': Purple Saltire
-  '917515': Blue Saltire
-  '917516': Brown Saltire
-  '917517': Green Saltire
-  '917518': Scarlet Saltire
-  '917519': Black Saltire
-  '983040': White Cross
-  '983041': Orange Cross
-  '983042': Magenta Cross
-  '983043': Light Blue Cross
-  '983044': Yellow Cross
-  '983045': Lime Cross
-  '983046': Pink Cross
-  '983047': Gray Cross
-  '983048': Light Gray Cross
-  '983049': Cyan Cross
-  '983050': Purple Cross
-  '983051': Blue Cross
-  '983052': Brown Cross
-  '983053': Green Cross
-  '983054': Scarlet Cross
-  '983055': Black Cross
-  '1048576': White Chevron
-  '1048577': Orange Chevron
-  '1048578': Magenta Chevron
-  '1048579': Light Blue Chevron
-  '1048580': Yellow Chevron
-  '1048581': Lime Chevron
-  '1048582': Pink Chevron
-  '1048583': Gray Chevron
-  '1048584': Light Gray Chevron
-  '1048585': Cyan Chevron
-  '1048586': Purple Chevron
-  '1048587': Blue Chevron
-  '1048588': Brown Chevron
-  '1048589': Green Chevron
-  '1048590': Scarlet Chevron
-  '1048591': Black Chevron
-  '1114112': White Inverted Chevron
-  '1114113': Orange Inverted Chevron
-  '1114114': Magenta Inverted Chevron
-  '1114115': Light Blue Inverted Chevron
-  '1114116': Yellow Inverted Chevron
-  '1114117': Lime Inverted Chevron
-  '1114118': Pink Inverted Chevron
-  '1114119': Gray Inverted Chevron
-  '1114120': Light Gray Inverted Chevron
-  '1114121': Cyan Inverted Chevron
-  '1114122': Purple Inverted Chevron
-  '1114123': Blue Inverted Chevron
-  '1114124': Brown Inverted Chevron
-  '1114125': Green Inverted Chevron
-  '1114126': Scarlet Inverted Chevron
-  '1114127': Black Inverted Chevron
-  '1179648': White Base Indented
-  '1179649': Orange Base Indented
-  '1179650': Magenta Base Indented
-  '1179651': Light Blue Base Indented
-  '1179652': Yellow Base Indented
-  '1179653': Lime Base Indented
-  '1179654': Pink Base Indented
-  '1179655': Gray Base Indented
-  '1179656': Light Gray Base Indented
-  '1179657': Cyan Base Indented
-  '1179658': Purple Base Indented
-  '1179659': Blue Base Indented
-  '1179660': Brown Base Indented
-  '1179661': Green Base Indented
-  '1179662': Scarlet Base Indented
-  '1179663': Black Base Indented
-  '1245184': White Chief Indented
-  '1245185': Orange Chief Indented
-  '1245186': Magenta Chief Indented
-  '1245187': Light Blue Chief Indented
-  '1245188': Yellow Chief Indented
-  '1245189': Lime Chief Indented
-  '1245190': Pink Chief Indented
-  '1245191': Gray Chief Indented
-  '1245192': Light Gray Chief Indented
-  '1245193': Cyan Chief Indented
-  '1245194': Purple Chief Indented
-  '1245195': Blue Chief Indented
-  '1245196': Brown Chief Indented
-  '1245197': Green Chief Indented
-  '1245198': Scarlet Chief Indented
-  '1245199': Black Chief Indented
-  '1310720': White Per Bend Sinister
-  '1310721': Orange Per Bend Sinister
-  '1310722': Magenta Per Bend Sinister
-  '1310723': Light Blue Per Bend Sinister
-  '1310724': Yellow Per Bend Sinister
-  '1310725': Lime Per Bend Sinister
-  '1310726': Pink Per Bend Sinister
-  '1310727': Gray Per Bend Sinister
-  '1310728': Light Gray Per Bend Sinister
-  '1310729': Cyan Per Bend Sinister
-  '1310730': Purple Per Bend Sinister
-  '1310731': Blue Per Bend Sinister
-  '1310732': Brown Per Bend Sinister
-  '1310733': Green Per Bend Sinister
-  '1310734': Scarlet Per Bend Sinister
-  '1310735': Black Per Bend Sinister
-  '1376256': White Per Bend Sinister Inverted
-  '1376257': Orange Per Bend Sinister Inverted
-  '1376258': Magenta Per Bend Sinister Inverted
-  '1376259': Light Blue Per Bend Sinister Inverted
-  '1376260': Yellow Per Bend Sinister Inverted
-  '1376261': Lime Per Bend Sinister Inverted
-  '1376262': Pink Per Bend Sinister Inverted
-  '1376263': Gray Per Bend Sinister Inverted
-  '1376264': Light Gray Per Bend Sinister Inverted
-  '1376265': Cyan Per Bend Sinister Inverted
-  '1376266': Purple Per Bend Sinister Inverted
-  '1376267': Blue Per Bend Sinister Inverted
-  '1376268': Brown Per Bend Sinister Inverted
-  '1376269': Green Per Bend Sinister Inverted
-  '1376270': Scarlet Per Bend Sinister Inverted
-  '1376271': Black Per Bend Sinister Inverted
-  '1441792': White Per Bend Inverted
-  '1441793': Orange Per Bend Inverted
-  '1441794': Magenta Per Bend Inverted
-  '1441795': Light Blue Per Bend Inverted
-  '1441796': Yellow Per Bend Inverted
-  '1441797': Lime Per Bend Inverted
-  '1441798': Pink Per Bend Inverted
-  '1441799': Gray Per Bend Inverted
-  '1441800': Light Gray Per Bend Inverted
-  '1441801': Cyan Per Bend Inverted
-  '1441802': Purple Per Bend Inverted
-  '1441803': Blue Per Bend Inverted
-  '1441804': Brown Per Bend Inverted
-  '1441805': Green Per Bend Inverted
-  '1441806': Scarlet Per Bend Inverted
-  '1441807': Black Per Bend Inverted
-  '1507328': White Per Bend
-  '1507329': Orange Per Bend
-  '1507330': Magenta Per Bend
-  '1507331': Light Blue Per Bend
-  '1507332': Yellow Per Bend
-  '1507333': Lime Per Bend
-  '1507334': Pink Per Bend
-  '1507335': Gray Per Bend
-  '1507336': Light Gray Per Bend
-  '1507337': Cyan Per Bend
-  '1507338': Purple Per Bend
-  '1507339': Blue Per Bend
-  '1507340': Brown Per Bend
-  '1507341': Green Per Bend
-  '1507342': Scarlet Per Bend
-  '1507343': Black Per Bend
-  '1572864': White Roundel
-  '1572865': Orange Roundel
-  '1572866': Magenta Roundel
-  '1572867': Light Blue Roundel
-  '1572868': Yellow Roundel
-  '1572869': Lime Roundel
-  '1572870': Pink Roundel
-  '1572871': Gray Roundel
-  '1572872': Light Gray Roundel
-  '1572873': Cyan Roundel
-  '1572874': Purple Roundel
-  '1572875': Blue Roundel
-  '1572876': Brown Roundel
-  '1572877': Green Roundel
-  '1572878': Scarlet Roundel
-  '1572879': Black Roundel
-  '1638400': White Lozenge
-  '1638401': Orange Lozenge
-  '1638402': Magenta Lozenge
-  '1638403': Light Blue Lozenge
-  '1638404': Yellow Lozenge
-  '1638405': Lime Lozenge
-  '1638406': Pink Lozenge
-  '1638407': Gray Lozenge
-  '1638408': Light Gray Lozenge
-  '1638409': Cyan Lozenge
-  '1638410': Purple Lozenge
-  '1638411': Blue Lozenge
-  '1638412': Brown Lozenge
-  '1638413': Green Lozenge
-  '1638414': Scarlet Lozenge
-  '1638415': Black Lozenge
-  '1703936': White Per Pale
-  '1703937': Orange Per Pale
-  '1703938': Magenta Per Pale
-  '1703939': Light Blue Per Pale
-  '1703940': Yellow Per Pale
-  '1703941': Lime Per Pale
-  '1703942': Pink Per Pale
-  '1703943': Gray Per Pale
-  '1703944': Light Gray Per Pale
-  '1703945': Cyan Per Pale
-  '1703946': Purple Per Pale
-  '1703947': Blue Per Pale
-  '1703948': Brown Per Pale
-  '1703949': Green Per Pale
-  '1703950': Scarlet Per Pale
-  '1703951': Black Per Pale
-  '1769472': White Per Fess
-  '1769473': Orange Per Fess
-  '1769474': Magenta Per Fess
-  '1769475': Light Blue Per Fess
-  '1769476': Yellow Per Fess
-  '1769477': Lime Per Fess
-  '1769478': Pink Per Fess
-  '1769479': Gray Per Fess
-  '1769480': Light Gray Per Fess
-  '1769481': Cyan Per Fess
-  '1769482': Purple Per Fess
-  '1769483': Blue Per Fess
-  '1769484': Brown Per Fess
-  '1769485': Green Per Fess
-  '1769486': Scarlet Per Fess
-  '1769487': Black Per Fess
-  '1835008': White Per Pale Inverted
-  '1835009': Orange Per Pale Inverted
-  '1835010': Magenta Per Pale Inverted
-  '1835011': Light Blue Per Pale Inverted
-  '1835012': Yellow Per Pale Inverted
-  '1835013': Lime Per Pale Inverted
-  '1835014': Pink Per Pale Inverted
-  '1835015': Gray Per Pale Inverted
-  '1835016': Light Gray Per Pale Inverted
-  '1835017': Cyan Per Pale Inverted
-  '1835018': Purple Per Pale Inverted
-  '1835019': Blue Per Pale Inverted
-  '1835020': Brown Per Pale Inverted
-  '1835021': Green Per Pale Inverted
-  '1835022': Scarlet Per Pale Inverted
-  '1835023': Black Per Pale Inverted
-  '1900544': White Per Fess Inverted
-  '1900545': Orange Per Fess Inverted
-  '1900546': Magenta Per Fess Inverted
-  '1900547': Light Blue Per Fess Inverted
-  '1900548': Yellow Per Fess Inverted
-  '1900549': Lime Per Fess Inverted
-  '1900550': Pink Per Fess Inverted
-  '1900551': Gray Per Fess Inverted
-  '1900552': Light Gray Per Fess Inverted
-  '1900553': Cyan Per Fess Inverted
-  '1900554': Purple Per Fess Inverted
-  '1900555': Blue Per Fess Inverted
-  '1900556': Brown Per Fess Inverted
-  '1900557': Green Per Fess Inverted
-  '1900558': Scarlet Per Fess Inverted
-  '1900559': Black Per Fess Inverted
-  '1966080': White Bordure
-  '1966081': Orange Bordure
-  '1966082': Magenta Bordure
-  '1966083': Light Blue Bordure
-  '1966084': Yellow Bordure
-  '1966085': Lime Bordure
-  '1966086': Pink Bordure
-  '1966087': Gray Bordure
-  '1966088': Light Gray Bordure
-  '1966089': Cyan Bordure
-  '1966090': Purple Bordure
-  '1966091': Blue Bordure
-  '1966092': Brown Bordure
-  '1966093': Green Bordure
-  '1966094': Scarlet Bordure
-  '1966095': Black Bordure
-  '2031616': White Bordure Indented
-  '2031617': Orange Bordure Indented
-  '2031618': Magenta Bordure Indented
-  '2031619': Light Blue Bordure Indented
-  '2031620': Yellow Bordure Indented
-  '2031621': Lime Bordure Indented
-  '2031622': Pink Bordure Indented
-  '2031623': Gray Bordure Indented
-  '2031624': Light Gray Bordure Indented
-  '2031625': Cyan Bordure Indented
-  '2031626': Purple Bordure Indented
-  '2031627': Blue Bordure Indented
-  '2031628': Brown Bordure Indented
-  '2031629': Green Bordure Indented
-  '2031630': Scarlet Bordure Indented
-  '2031631': Black Bordure Indented
-  '2097152': White Creeper Charge
-  '2097153': Orange Creeper Charge
-  '2097154': Magenta Creeper Charge
-  '2097155': Light Blue Creeper Charge
-  '2097156': Yellow Creeper Charge
-  '2097157': Lime Creeper Charge
-  '2097158': Pink Creeper Charge
-  '2097159': Gray Creeper Charge
-  '2097160': Light Gray Creeper Charge
-  '2097161': Cyan Creeper Charge
-  '2097162': Purple Creeper Charge
-  '2097163': Blue Creeper Charge
-  '2097164': Brown Creeper Charge
-  '2097165': Green Creeper Charge
-  '2097166': Scarlet Creeper Charge
-  '2097167': Black Creeper Charge
-  '2162688': White Gradient
-  '2162689': Orange Gradient
-  '2162690': Magenta Gradient
-  '2162691': Light Blue Gradient
-  '2162692': Yellow Gradient
-  '2162693': Lime Gradient
-  '2162694': Pink Gradient
-  '2162695': Gray Gradient
-  '2162696': Light Gray Gradient
-  '2162697': Cyan Gradient
-  '2162698': Purple Gradient
-  '2162699': Blue Gradient
-  '2162700': Brown Gradient
-  '2162701': Green Gradient
-  '2162702': Scarlet Gradient
-  '2162703': Black Gradient
-  '2228224': White Base Gradient
-  '2228225': Orange Base Gradient
-  '2228226': Magenta Base Gradient
-  '2228227': Light Blue Base Gradient
-  '2228228': Yellow Base Gradient
-  '2228229': Lime Base Gradient
-  '2228230': Pink Base Gradient
-  '2228231': Gray Base Gradient
-  '2228232': Light Gray Base Gradient
-  '2228233': Cyan Base Gradient
-  '2228234': Purple Base Gradient
-  '2228235': Blue Base Gradient
-  '2228236': Brown Base Gradient
-  '2228237': Green Base Gradient
-  '2228238': Scarlet Base Gradient
-  '2228239': Black Base Gradient
-  '2293760': White Field Masoned
-  '2293761': Orange Field Masoned
-  '2293762': Magenta Field Masoned
-  '2293763': Light Blue Field Masoned
-  '2293764': Yellow Field Masoned
-  '2293765': Lime Field Masoned
-  '2293766': Pink Field Masoned
-  '2293767': Gray Field Masoned
-  '2293768': Light Gray Field Masoned
-  '2293769': Cyan Field Masoned
-  '2293770': Purple Field Masoned
-  '2293771': Blue Field Masoned
-  '2293772': Brown Field Masoned
-  '2293773': Green Field Masoned
-  '2293774': Scarlet Field Masoned
-  '2293775': Black Field Masoned
-  '2359296': White Skull Charge
-  '2359297': Orange Skull Charge
-  '2359298': Magenta Skull Charge
-  '2359299': Light Blue Skull Charge
-  '2359300': Yellow Skull Charge
-  '2359301': Lime Skull Charge
-  '2359302': Pink Skull Charge
-  '2359303': Gray Skull Charge
-  '2359304': Light Gray Skull Charge
-  '2359305': Cyan Skull Charge
-  '2359306': Purple Skull Charge
-  '2359307': Blue Skull Charge
-  '2359308': Brown Skull Charge
-  '2359309': Green Skull Charge
-  '2359310': Scarlet Skull Charge
-  '2359311': Black Skull Charge
-  '2424832': White Flower Charge
-  '2424833': Orange Flower Charge
-  '2424834': Magenta Flower Charge
-  '2424835': Light Blue Flower Charge
-  '2424836': Yellow Flower Charge
-  '2424837': Lime Flower Charge
-  '2424838': Pink Flower Charge
-  '2424839': Gray Flower Charge
-  '2424840': Light Gray Flower Charge
-  '2424841': Cyan Flower Charge
-  '2424842': Purple Flower Charge
-  '2424843': Blue Flower Charge
-  '2424844': Brown Flower Charge
-  '2424845': Green Flower Charge
-  '2424846': Scarlet Flower Charge
-  '2424847': Black Flower Charge
-  '2490368': White Thing
-  '2490369': Orange Thing
-  '2490370': Magenta Thing
-  '2490371': Light Blue Thing
-  '2490372': Yellow Thing
-  '2490373': Lime Thing
-  '2490374': Pink Thing
-  '2490375': Gray Thing
-  '2490376': Light Gray Thing
-  '2490377': Cyan Thing
-  '2490378': Purple Thing
-  '2490379': Blue Thing
-  '2490380': Brown Thing
-  '2490381': Green Thing
-  '2490382': Scarlet Thing
-  '2490383': Black Thing
-  '2555904': Globe o' White
-  '2555905': Globe o' Orange
-  '2555906': Globe o' Magenta
-  '2555907': Globe o' Light Blue
-  '2555908': Globe o' Yellow
-  '2555909': Globe o' Lime
-  '2555910': Globe o' Pink
-  '2555911': Globe o' Gray
-  '2555912': Globe o' Light Gray
-  '2555913': Globe o' Cyan
-  '2555914': Globe o' Purple
-  '2555915': Globe o' Blue
-  '2555916': Globe o' Brown
-  '2555917': Globe o' Green
-  '2555918': Globe o' Scarlet
-  '2555919': Globe o' Black
-  '2621440': White Nose o' Swine
-  '2621441': Orange Nose o' Swine
-  '2621442': Magenta Nose o' Swine
-  '2621443': Light Blue Nose o' Swine
-  '2621444': Yellow Nose o' Swine
-  '2621445': Lime Nose o' Swine
-  '2621446': Pink Nose o' Swine
-  '2621447': Grey Nose o' Swine
-  '2621448': Light Grey Nose o' Swine
-  '2621449': Cyan Nose o' Swine
-  '2621450': Purple Nose o' Swine
-  '2621451': Blue Nose o' Swine
-  '2621452': Brown Nose o' Swine
-  '2621453': Green Nose o' Swine
-  '2621454': Red Nose o' Swine
-  '2621455': Black Nose o' Swine
+  '65536': White base dexter canton
+  '65537': Orange base dexter canton
+  '65538': Light purple base dexter canton
+  '65539': Light blue base dexter canton
+  '65540': Yellow base dexter canton
+  '65541': Light green base dexter canton
+  '65542': Pink base dexter canton
+  '65543': Gray base dexter canton
+  '65544': Light gray base dexter canton
+  '65545': Ocean blue base dexter canton
+  '65546': Purple base dexter canton
+  '65547': Blue base dexter canton
+  '65548': Brown base dexter canton
+  '65549': Green base dexter canton
+  '65550': Scarlet base dexter canton
+  '65551': Black base dexter canton
+  '131072': White base sinister canton
+  '131073': Orange base sinister canton
+  '131074': Light purple base sinister canton
+  '131075': Light blue base sinister canton
+  '131076': Yellow base sinister canton
+  '131077': Light green base sinister canton
+  '131078': Pink base sinister canton
+  '131079': Gray base sinister canton
+  '131080': Light gray base sinister canton
+  '131081': Ocean blue base sinister canton
+  '131082': Purple base sinister canton
+  '131083': Blue base sinister canton
+  '131084': Brown base sinister canton
+  '131085': Green base sinister canton
+  '131086': Scarlet base sinister canton
+  '131087': Black base sinister canton
+  '196608': White chief dexter canton
+  '196609': Orange chief dexter canton
+  '196610': Light purple chief dexter canton
+  '196611': Light blue chief dexter canton
+  '196612': Yellow chief dexter canton
+  '196613': Light green chief dexter canton
+  '196614': Pink chief dexter canton
+  '196615': Gray chief dexter canton
+  '196616': Light gray chief dexter canton
+  '196617': Ocean blue chief dexter canton
+  '196618': Purple chief dexter canton
+  '196619': Blue chief dexter canton
+  '196620': Brown chief dexter canton
+  '196621': Green chief dexter canton
+  '196622': Scarlet chief dexter canton
+  '196623': Black chief dexter canton
+  '262144': White chief sinister canton
+  '262145': Orange chief sinister canton
+  '262146': Light purple chief sinister canton
+  '262147': Light blue chief sinister canton
+  '262148': Yellow chief sinister canton
+  '262149': Light green chief sinister canton
+  '262150': Pink chief sinister canton
+  '262151': Gray chief sinister canton
+  '262152': Light gray chief sinister canton
+  '262153': Ocean blue chief sinister canton
+  '262154': Purple chief sinister canton
+  '262155': Blue chief sinister canton
+  '262156': Brown chief sinister canton
+  '262157': Green chief sinister canton
+  '262158': Scarlet chief sinister canton
+  '262159': Black chief sinister canton
+  '327680': White base
+  '327681': Orange base
+  '327682': Light purple base
+  '327683': Light blue base
+  '327684': Yellow base
+  '327685': Light green base
+  '327686': Pink base
+  '327687': Gray base
+  '327688': Light gray base
+  '327689': Ocean blue base
+  '327690': Purple base
+  '327691': Blue base
+  '327692': Brown base
+  '327693': Green base
+  '327694': Scarlet base
+  '327695': Black base
+  '393216': White chief
+  '393217': Orange chief
+  '393218': Light purple chief
+  '393219': Light blue chief
+  '393220': Yellow chief
+  '393221': Light green chief
+  '393222': Pink chief
+  '393223': Gray chief
+  '393224': Light gray chief
+  '393225': Ocean blue chief
+  '393226': Purple chief
+  '393227': Blue chief
+  '393228': Brown chief
+  '393229': Green chief
+  '393230': Scarlet chief
+  '393231': Black chief
+  '458752': White pale dexter
+  '458753': Orange pale dexter
+  '458754': Light purple pale dexter
+  '458755': Light blue pale dexter
+  '458756': Yellow pale dexter
+  '458757': Light green pale dexter
+  '458758': Pink pale dexter
+  '458759': Gray pale dexter
+  '458760': Light gray pale dexter
+  '458761': Ocean blue pale dexter
+  '458762': Purple pale dexter
+  '458763': Blue pale dexter
+  '458764': Brown pale dexter
+  '458765': Green pale dexter
+  '458766': Scarlet pale dexter
+  '458767': Black pale dexter
+  '524288': White pale sinister
+  '524289': Orange pale sinister
+  '524290': Light purple pale sinister
+  '524291': Light blue pale sinister
+  '524292': Yellow pale sinister
+  '524293': Light green pale sinister
+  '524294': Pink pale sinister
+  '524295': Gray pale sinister
+  '524296': Light gray pale sinister
+  '524297': Ocean blue pale sinister
+  '524298': Purple pale sinister
+  '524299': Blue pale sinister
+  '524300': Brown pale sinister
+  '524301': Green pale sinister
+  '524302': Scarlet pale sinister
+  '524303': Black pale sinister
+  '589824': White pale
+  '589825': Orange pale
+  '589826': Light purple pale
+  '589827': Light blue pale
+  '589828': Yellow pale
+  '589829': Light green pale
+  '589830': Pink pale
+  '589831': Gray pale
+  '589832': Light gray pale
+  '589833': Ocean blue pale
+  '589834': Purple pale
+  '589835': Blue pale
+  '589836': Brown pale
+  '589837': Green pale
+  '589838': Scarlet pale
+  '589839': Black pale
+  '655360': White fess
+  '655361': Orange fess
+  '655362': Light purple fess
+  '655363': Light blue fess
+  '655364': Yellow fess
+  '655365': Light green fess
+  '655366': Pink fess
+  '655367': Gray fess
+  '655368': Light gray fess
+  '655369': Ocean blue fess
+  '655370': Purple fess
+  '655371': Blue fess
+  '655372': Brown fess
+  '655373': Green fess
+  '655374': Scarlet fess
+  '655375': Black fess
+  '720896': White bend
+  '720897': Orange bend
+  '720898': Light purple bend
+  '720899': Light blue bend
+  '720900': Yellow bend
+  '720901': Light green bend
+  '720902': Pink bend
+  '720903': Gray bend
+  '720904': Light gray bend
+  '720905': Ocean blue bend
+  '720906': Purple bend
+  '720907': Blue bend
+  '720908': Brown bend
+  '720909': Green bend
+  '720910': Scarlet bend
+  '720911': Black bend
+  '786432': White bend sinister
+  '786433': Orange bend sinister
+  '786434': Light purple bend sinister
+  '786435': Light blue bend sinister
+  '786436': Yellow bend sinister
+  '786437': Light green bend sinister
+  '786438': Pink bend sinister
+  '786439': Gray bend sinister
+  '786440': Light gray bend sinister
+  '786441': Ocean blue bend sinister
+  '786442': Purple bend sinister
+  '786443': Blue bend sinister
+  '786444': Brown bend sinister
+  '786445': Green bend sinister
+  '786446': Scarlet bend sinister
+  '786447': Black bend sinister
+  '851968': White paly
+  '851969': Orange paly
+  '851970': Light purple paly
+  '851971': Light blue paly
+  '851972': Yellow paly
+  '851973': Light green paly
+  '851974': Pink paly
+  '851975': Gray paly
+  '851976': Light gray paly
+  '851977': Ocean blue paly
+  '851978': Purple paly
+  '851979': Blue paly
+  '851980': Brown paly
+  '851981': Green paly
+  '851982': Scarlet paly
+  '851983': Black paly
+  '917504': White saltire
+  '917505': Orange saltire
+  '917506': Light purple saltire
+  '917507': Light blue saltire
+  '917508': Yellow saltire
+  '917509': Light green saltire
+  '917510': Pink saltire
+  '917511': Gray saltire
+  '917512': Light gray saltire
+  '917513': Ocean blue saltire
+  '917514': Purple saltire
+  '917515': Blue saltire
+  '917516': Brown saltire
+  '917517': Green saltire
+  '917518': Scarlet saltire
+  '917519': Black saltire
+  '983040': White cross
+  '983041': Orange cross
+  '983042': Light purple cross
+  '983043': Light blue cross
+  '983044': Yellow cross
+  '983045': Light green cross
+  '983046': Pink cross
+  '983047': Gray gross
+  '983048': Light gray cross
+  '983049': Ocean blue cross
+  '983050': Purple cross
+  '983051': Blue cross
+  '983052': Brown cross
+  '983053': Green cross
+  '983054': Scarlet cross
+  '983055': Black cross
+  '1048576': White chevron
+  '1048577': Orange chevron
+  '1048578': Light purple chevron
+  '1048579': Light blue chevron
+  '1048580': Yellow chevron
+  '1048581': Light green chevron
+  '1048582': Pink chevron
+  '1048583': Gray chevron
+  '1048584': Light gray chevron
+  '1048585': Ocean blue chevron
+  '1048586': Purple chevron
+  '1048587': Blue chevron
+  '1048588': Brown chevron
+  '1048589': Green chevron
+  '1048590': Scarlet chevron
+  '1048591': Black chevron
+  '1114112': White inverted chevron
+  '1114113': Orange inverted chevron
+  '1114114': Light purple inverted chevron
+  '1114115': Light blue inverted chevron
+  '1114116': Yellow inverted chevron
+  '1114117': Light green inverted chevron
+  '1114118': Pink inverted chevron
+  '1114119': Gray inverted chevron
+  '1114120': Light gray inverted chevron
+  '1114121': Ocean blue inverted chevron
+  '1114122': Purple inverted chevron
+  '1114123': Blue inverted chevron
+  '1114124': Brown inverted chevron
+  '1114125': Green inverted chevron
+  '1114126': Scarlet inverted chevron
+  '1114127': Black inverted chevron
+  '1179648': White base indented
+  '1179649': Orange base indented
+  '1179650': Light purple base indented
+  '1179651': Light blue base indented
+  '1179652': Yellow base indented
+  '1179653': Light green base indented
+  '1179654': Pink base indented
+  '1179655': Gray base indented
+  '1179656': Light gray base indented
+  '1179657': Ocean blue base indented
+  '1179658': Purple base indented
+  '1179659': Blue base indented
+  '1179660': Brown base indented
+  '1179661': Green base indented
+  '1179662': Scarlet base indented
+  '1179663': Black base indented
+  '1245184': White chief indented
+  '1245185': Orange chief indented
+  '1245186': Light purple chief indented
+  '1245187': Light blue chief indented
+  '1245188': Yellow chief indented
+  '1245189': Light green chief indented
+  '1245190': Pink chief indented
+  '1245191': Gray chief indented
+  '1245192': Light gray chief indented
+  '1245193': Ocean blue chief indented
+  '1245194': Purple chief indented
+  '1245195': Blue chief indented
+  '1245196': Brown chief indented
+  '1245197': Green chief indented
+  '1245198': Scarlet chief indented
+  '1245199': Black chief indented
+  '1310720': White per bend sinister
+  '1310721': Orange per bend sinister
+  '1310722': Light purple per bend sinister
+  '1310723': Light blue per bend sinister
+  '1310724': Yellow per bend sinister
+  '1310725': Light green per bend sinister
+  '1310726': Pink per bend sinister
+  '1310727': Gray per bend sinister
+  '1310728': Light gray per bend sinister
+  '1310729': Ocean blue per bend sinister
+  '1310730': Purple per bend sinister
+  '1310731': Blue per bend sinister
+  '1310732': Brown per bend sinister
+  '1310733': Green per bend sinister
+  '1310734': Scarlet per bend sinister
+  '1310735': Black per bend sinister
+  '1376256': White per bend sinister inverted
+  '1376257': Orange per bend sinister inverted
+  '1376258': Light purple per bend sinister inverted
+  '1376259': Light blue per bend sinister inverted
+  '1376260': Yellow per bend sinister inverted
+  '1376261': Light green per bend sinister inverted
+  '1376262': Pink per bend sinister inverted
+  '1376263': Gray per bend sinister inverted
+  '1376264': Light gray per bend sinister inverted
+  '1376265': Ocean blue per bend sinister inverted
+  '1376266': Purple per bend sinister inverted
+  '1376267': Blue per bend sinister inverted
+  '1376268': Brown per bend sinister inverted
+  '1376269': Green per bend sinister inverted
+  '1376270': Scarlet per bend sinister inverted
+  '1376271': Black per bend sinister inverted
+  '1441792': White per bend inverted
+  '1441793': Orange per bend inverted
+  '1441794': Light purple per bend inverted
+  '1441795': Light blue per bend inverted
+  '1441796': Yellow per bend inverted
+  '1441797': Light green per bend inverted
+  '1441798': Pink per bend inverted
+  '1441799': Gray per bend inverted
+  '1441800': Light gray per bend inverted
+  '1441801': Ocean blue per bend inverted
+  '1441802': Purple per bend inverted
+  '1441803': Blue per bend inverted
+  '1441804': Brown per bend inverted
+  '1441805': Green per bend inverted
+  '1441806': Scarlet per bend inverted
+  '1441807': Black per bend inverted
+  '1507328': White per bend
+  '1507329': Orange per bend
+  '1507330': Light purple per bend
+  '1507331': Light blue per bend
+  '1507332': Yellow per bend
+  '1507333': Light green per bend
+  '1507334': Pink per bend
+  '1507335': Gray per bend
+  '1507336': Light gray per bend
+  '1507337': Ocean blue per bend
+  '1507338': Purple per bend
+  '1507339': Blue per bend
+  '1507340': Brown per bend
+  '1507341': Green per bend
+  '1507342': Scarlet per bend
+  '1507343': Black per bend
+  '1572864': White roundel
+  '1572865': Orange roundel
+  '1572866': Light purple roundel
+  '1572867': Light blue roundel
+  '1572868': Yellow roundel
+  '1572869': Light green roundel
+  '1572870': Pink roundel
+  '1572871': Gray roundel
+  '1572872': Light gray roundel
+  '1572873': Ocean blue roundel
+  '1572874': Purple roundel
+  '1572875': Blue roundel
+  '1572876': Brown roundel
+  '1572877': Green roundel
+  '1572878': Scarlet roundel
+  '1572879': Black roundel
+  '1638400': White lozenge
+  '1638401': Orange lozenge
+  '1638402': Light purple lozenge
+  '1638403': Light blue lozenge
+  '1638404': Yellow lozenge
+  '1638405': Light green lozenge
+  '1638406': Pink lozenge
+  '1638407': Gray lozenge
+  '1638408': Light gray lozenge
+  '1638409': Ocean blue lozenge
+  '1638410': Purple lozenge
+  '1638411': Blue lozenge
+  '1638412': Brown lozenge
+  '1638413': Green lozenge
+  '1638414': Scarlet lozenge
+  '1638415': Black lozenge
+  '1703936': White per pale
+  '1703937': Orange per pale
+  '1703938': Light purple per pale
+  '1703939': Light blue per pale
+  '1703940': Yellow per pale
+  '1703941': Light green per pale
+  '1703942': Pink per pale
+  '1703943': Gray per pale
+  '1703944': Light gray per pale
+  '1703945': Ocean blue per pale
+  '1703946': Purple per pale
+  '1703947': Blue per pale
+  '1703948': Brown per pale
+  '1703949': Green per pale
+  '1703950': Scarlet per pale
+  '1703951': Black per pale
+  '1769472': White per fess
+  '1769473': Orange per fess
+  '1769474': Light purple per fess
+  '1769475': Light blue per fess
+  '1769476': Yellow per fess
+  '1769477': Light green per fess
+  '1769478': Pink per fess
+  '1769479': Gray per fess
+  '1769480': Light gray per fess
+  '1769481': Ocean blue per fess
+  '1769482': Purple per fess
+  '1769483': Blue per fess
+  '1769484': Brown per fess
+  '1769485': Green per fess
+  '1769486': Scarlet per fess
+  '1769487': Black per fess
+  '1835008': White per pale inverted
+  '1835009': Orange per pale inverted
+  '1835010': Light purple per pale inverted
+  '1835011': Light blue per pale inverted
+  '1835012': Yellow per pale inverted
+  '1835013': Light green per pale inverted
+  '1835014': Pink per pale inverted
+  '1835015': Gray per pale inverted
+  '1835016': Light gray per pale inverted
+  '1835017': Ocean blue per pale inverted
+  '1835018': Purple per pale inverted
+  '1835019': Blue per pale inverted
+  '1835020': Brown per pale inverted
+  '1835021': Green per pale inverted
+  '1835022': Scarlet per pale inverted
+  '1835023': Black per pale inverted
+  '1900544': White per fess inverted
+  '1900545': Orange per fess inverted
+  '1900546': Light purple per fess inverted
+  '1900547': Light blue per fess inverted
+  '1900548': Yellow per fess inverted
+  '1900549': Light green per fess inverted
+  '1900550': Pink per fess inverted
+  '1900551': Gray per fess inverted
+  '1900552': Light gray per fess inverted
+  '1900553': Ocean blue per fess inverted
+  '1900554': Purple per fess inverted
+  '1900555': Blue per fess inverted
+  '1900556': Brown per fess inverted
+  '1900557': Green per fess inverted
+  '1900558': Scarlet per fess inverted
+  '1900559': Black per fess inverted
+  '1966080': White bordure
+  '1966081': Orange bordure
+  '1966082': Light purple bordure
+  '1966083': Light blue bordure
+  '1966084': Yellow bordure
+  '1966085': Light green bordure
+  '1966086': Pink bordure
+  '1966087': Gray bordure
+  '1966088': Light gray bordure
+  '1966089': Ocean blue bordure
+  '1966090': Purple bordure
+  '1966091': Blue bordure
+  '1966092': Brown bordure
+  '1966093': Green bordure
+  '1966094': Scarlet bordure
+  '1966095': Black bordure
+  '2031616': White bordure indented
+  '2031617': Orange bordure indented
+  '2031618': Light purple bordure indented
+  '2031619': Light blue bordure indented
+  '2031620': Yellow bordure indented
+  '2031621': Light green bordure indented
+  '2031622': Pink bordure indented
+  '2031623': Gray bordure indented
+  '2031624': Light gray bordure indented
+  '2031625': Ocean blue bordure indented
+  '2031626': Purple bordure indented
+  '2031627': Blue bordure indented
+  '2031628': Brown bordure indented
+  '2031629': Green bordure indented
+  '2031630': Scarlet bordure indented
+  '2031631': Black bordure indented
+  '2097152': White creeper charge
+  '2097153': Orange creeper charge
+  '2097154': Light purple creeper charge
+  '2097155': Light blue creeper charge
+  '2097156': Yellow creeper charge
+  '2097157': Light green creeper charge
+  '2097158': Pink creeper charge
+  '2097159': Gray creeper charge
+  '2097160': Light gray creeper charge
+  '2097161': Ocean blue creeper charge
+  '2097162': Purple creeper charge
+  '2097163': Blue creeper charge
+  '2097164': Brown creeper charge
+  '2097165': Green creeper charge
+  '2097166': Scarlet creeper charge
+  '2097167': Black creeper charge
+  '2162688': White gradient
+  '2162689': Orange gradient
+  '2162690': Light purple gradient
+  '2162691': Light blue gradient
+  '2162692': Yellow gradient
+  '2162693': Light green gradient
+  '2162694': Pink gradient
+  '2162695': Gray gradient
+  '2162696': Light gray gradient
+  '2162697': Ocean blue gradient
+  '2162698': Purple gradient
+  '2162699': Blue gradient
+  '2162700': Brown gradient
+  '2162701': Green gradient
+  '2162702': Scarlet gradient
+  '2162703': Black gradient
+  '2228224': White base gradient
+  '2228225': Orange base gradient
+  '2228226': Light purple base gradient
+  '2228227': Light blue base gradient
+  '2228228': Yellow base gradient
+  '2228229': Light green base gradient
+  '2228230': Pink base gradient
+  '2228231': Gray base gradient
+  '2228232': Light gray base gradient
+  '2228233': Ocean blue base gradient
+  '2228234': Purple base gradient
+  '2228235': Blue base gradient
+  '2228236': Brown base gradient
+  '2228237': Green base gradient
+  '2228238': Scarlet base gradient
+  '2228239': Black base bradient
+  '2293760': White field masoned
+  '2293761': Orange field masoned
+  '2293762': Light purple field masoned
+  '2293763': Light blue field masoned
+  '2293764': Yellow field masoned
+  '2293765': Light green field masoned
+  '2293766': Pink field masoned
+  '2293767': Gray field masoned
+  '2293768': Light gray field masoned
+  '2293769': Ocean blue field masoned
+  '2293770': Purple field masoned
+  '2293771': Blue field masoned
+  '2293772': Brown field masoned
+  '2293773': Green field masoned
+  '2293774': Scarlet field masoned
+  '2293775': Black field masoned
+  '2359296': White skull charge
+  '2359297': Orange skull charge
+  '2359298': Light purple skull charge
+  '2359299': Light blue skull charge
+  '2359300': Yellow skull charge
+  '2359301': Light green skull charge
+  '2359302': Pink skull charge
+  '2359303': Gray skull charge
+  '2359304': Light gray skull charge
+  '2359305': Ocean blue skull charge
+  '2359306': Purple skull charge
+  '2359307': Blue skull charge
+  '2359308': Brown skull charge
+  '2359309': Green skull charge
+  '2359310': Scarlet skull charge
+  '2359311': Black skull charge
+  '2424832': White flower charge
+  '2424833': Orange flower charge
+  '2424834': Light purple flower charge
+  '2424835': Light blue flower charge
+  '2424836': Yellow flower charge
+  '2424837': Light green flower charge
+  '2424838': Pink flower charge
+  '2424839': Gray flower charge
+  '2424840': Light gray flower charge
+  '2424841': Ocean blue flower charge
+  '2424842': Purple flower charge
+  '2424843': Blue flower charge
+  '2424844': Brown flower charge
+  '2424845': Green flower charge
+  '2424846': Scarlet flower charge
+  '2424847': Black flower charge
+  '2490368': White thing
+  '2490369': Orange thing
+  '2490370': Light purple thing
+  '2490371': Light blue thing
+  '2490372': Yellow thing
+  '2490373': Light green thing
+  '2490374': Pink thing
+  '2490375': Gray thing
+  '2490376': Light gray thing
+  '2490377': Ocean blue thing
+  '2490378': Purple thing
+  '2490379': Blue thing
+  '2490380': Brown thing
+  '2490381': Green thing
+  '2490382': Scarlet thing
+  '2490383': Black thing
+  '2555904': White globe
+  '2555905': Orange globe
+  '2555906': Light purple globe
+  '2555907': Light blue globe
+  '2555908': Yellow globe
+  '2555909': Light green globe
+  '2555910': Pink globe
+  '2555911': Gray globe
+  '2555912': Light gray globe
+  '2555913': Ocean blue globe
+  '2555914': Purple globe
+  '2555915': Blue globe
+  '2555916': Brown globe
+  '2555917': Green globe
+  '2555918': Scarlet globe
+  '2555919': Black globe
+  '2621440': White snout
+  '2621441': Orange snout
+  '2621442': Light purple snout
+  '2621443': Light blue snout
+  '2621444': Yellow snout
+  '2621445': Light green snout
+  '2621446': Pink snout
+  '2621447': Gray snout
+  '2621448': Light gray snout
+  '2621449': Ocean blue snout
+  '2621450': Purple snout
+  '2621451': Blue snout
+  '2621452': Brown snout
+  '2621453': Green snout
+  '2621454': Scarlet snout
+  '2621455': Black snout
 music_disk:
   music_disc_13: C418 - 13
   music_disc_cat: C418 - cat
@@ -2179,7 +2338,7 @@ new_banner_pattern:
   skull_banner_pattern: Skull Charge
   mojang_banner_pattern: Thing
   globe_banner_pattern: Globe
-  piglin_banner_pattern: Muzzle o' Swine
+  piglin_banner_pattern: Snout
 merchant_level:
   '1': Novice
   '2': Steward
@@ -2198,21 +2357,7 @@ villager_profession:
   leatherworker: Skin Worker
   librarian: Knowledge Keep'r
   mason: Pebble Work'r
-  nitwit: Landlubber
+  nitwit: Fool
   shepherd: Clother
   toolsmith: Smith o' Chisellin' Parts
   weaponsmith: Smith o' Cutlasses
-villager_career:
-  farmer: Dirt digging landlubber
-  fisherman: Kipperman
-  shepherd: Clother
-  fletcher: Stick Sharpn'r
-  librarian: Knowledge Keep'r
-  cartographer: Map Drawer
-  cleric: Man o' Magic
-  armorer: Clothes Maker
-  weapon_smith: Blacksmith o' Cutlass
-  tool_smith: Blacksmith o' Tools
-  butcher: Meat Chopper
-  leatherworker: Skin Worker
-  nitwit: Landlubber

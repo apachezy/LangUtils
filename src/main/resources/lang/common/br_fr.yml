@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:46                    #
+# Build time: 2021-07-04 21:46:02                    #
 # ####################################################
 language:
   code: br_fr
@@ -35,9 +35,18 @@ material:
   sand: Traezh
   red_sand: Traezh ruz
   gravel: Grouan
-  gold_ore: Kailh aour
-  iron_ore: Kailh houarn
   coal_ore: Kailh glaou
+  iron_ore: Kailh houarn
+  gold_ore: Kailh aour
+  redstone_ore: Kailh Redstone
+  emerald_ore: Kailh emrodez
+  lapis_ore: Kailh Lapis Lazuli
+  diamond_ore: Kailh diamant
+  nether_quartz_ore: Kailh kouarz an Nether
+  coal_block: Bloc'h glaou
+  iron_block: Bloc'h houarn
+  gold_block: Bloc'h aour
+  diamond_block: Bloc'h diamant
   oak_log: Kef derv
   spruce_log: Kef pruñs
   birch_log: Kef bezv
@@ -72,23 +81,15 @@ material:
   sponge: Spoue
   wet_sponge: Spoueenn c'hleb
   glass: Gwerenn
-  lapis_ore: Kailh Lapis Lazuli
-  lapis_block: Bloc'h Lapis-Lazuli
-  dispenser: Tennerez
   sandstone: Maen-traezh
   chiseled_sandstone: Maen-traezh sizailhet
   cut_sandstone: Maen-traezh sizailhet
-  note_block: Bloc'h notenn
-  powered_rail: Hent-houarn galloudus
-  detector_rail: Hent-houarn dinoer
-  sticky_piston: Bountell begus
   cobweb: Gwiad kevnidenn
   grass: Geot
   fern: Raden
   dead_bush: Bochad gwez marv
   seagrass: Geot mor
   sea_pickle: Gwerc'heot
-  piston: Bountell
   white_wool: Gloan Gwenn
   orange_wool: Gloan orañjez
   magenta_wool: Gloan majenta
@@ -123,8 +124,6 @@ material:
   sugar_cane: Korzenn sukr
   kelp: Bezhin
   bamboo: Bambouz
-  gold_block: Bloc'h aour
-  iron_block: Bloc'h houarn
   oak_slab: Dar derv
   spruce_slab: Dar pruñs
   birch_slab: Dar bezv
@@ -151,7 +150,6 @@ material:
   smooth_sandstone: Maen-traezh lintr
   smooth_stone: Roc'h plaen
   bricks: Brikennoù
-  tnt: TNT
   bookshelf: Levraoueg
   mossy_cobblestone: Roc'h man
   obsidian: Obsidian
@@ -165,24 +163,11 @@ material:
   spawner: Ganerez
   oak_stairs: Diri derv
   chest: Arc'h
-  diamond_ore: Kailh diamant
-  diamond_block: Bloc'h diamant
   crafting_table: Taol aozañ
   farmland: Douar labouret
   furnace: Forn
   ladder: Skeul
-  rail: Hent-houarn
   cobblestone_stairs: Diri maen
-  lever: Loc'henn
-  stone_pressure_plate: Plakenn gwask maen
-  oak_pressure_plate: Plakenn gwask derv
-  spruce_pressure_plate: Plakenn wask pruñs
-  birch_pressure_plate: Plakenn wask bezv
-  jungle_pressure_plate: Plakenn wask koad janglenn
-  acacia_pressure_plate: Plakenn wask kasia
-  dark_oak_pressure_plate: Plakenn wask derv teñval
-  redstone_ore: Kailh Redstone
-  redstone_torch: Etev-gouloù Redstone
   snow: Erc'h
   ice: Skorn
   snow_block: Bloc'h erc'h
@@ -197,16 +182,10 @@ material:
   dark_oak_fence: Kloued derv teñval
   pumpkin: Sitrouilhezenn
   carved_pumpkin: Sitrouilhezenn kizellet
+  jack_o_lantern: Sitrouilhezenn-letern
   netherrack: Netherrack
   soul_sand: Traezh an Ene
   glowstone: Maen lufrus
-  jack_o_lantern: Sitrouilhezenn-letern
-  oak_trapdoor: Dor trap derv
-  spruce_trapdoor: Trap bruñs
-  birch_trapdoor: Trap bezv
-  jungle_trapdoor: Trap koad janglenn
-  acacia_trapdoor: Trap kasia
-  dark_oak_trapdoor: Trap derv teñval
   infested_stone: Roc'h gwastet
   infested_cobblestone: Maen gwastet
   infested_stone_bricks: Brikennoù roc'h gwastet
@@ -225,12 +204,6 @@ material:
   glass_pane: Gwerenn
   melon: Sukrinenn
   vine: Lianennoù
-  oak_fence_gate: Dorikell derv
-  spruce_fence_gate: Dorikell pruñs
-  birch_fence_gate: Dorikell bezv
-  jungle_fence_gate: Dorikell janglenn
-  acacia_fence_gate: Dorikell gwez kasia
-  dark_oak_fence_gate: Dorikell derv teñval
   brick_stairs: Diri brikennoù
   stone_brick_stairs: Diri brikennoù roc'h
   mycelium: Mikeliom
@@ -243,11 +216,8 @@ material:
   end_stone: Roc'h an End
   end_stone_bricks: Brikennoù roc'h an End
   dragon_egg: Vi aerouant
-  redstone_lamp: Gouloù Redstone
   sandstone_stairs: Diri maen-traezh
-  emerald_ore: Kailh emrodez
   ender_chest: Arc'h an End
-  tripwire_hook: Krog neudenn ziaskañ
   emerald_block: Bloc'h emrodez
   spruce_stairs: Diri pruñs
   birch_stairs: Diri bezv
@@ -268,29 +238,13 @@ material:
   sandstone_wall: Moger maen-traezh
   end_stone_brick_wall: Moger brikennoù roc'h an End
   diorite_wall: Moger diorit
-  stone_button: Bouton koad
-  oak_button: Bouton derv
-  spruce_button: Afell bruñs
-  birch_button: Bouton vezv
-  jungle_button: Bouton koad janglenn
-  acacia_button: Bouton kasia
-  dark_oak_button: Bouton derv teñval
   anvil: Annev
   chipped_anvil: Annev boulc'het
   damaged_anvil: Annev gwallaozet
-  trapped_chest: Arc'h trapet
-  light_weighted_pressure_plate: Plakenn gwask skañv pouezet
-  heavy_weighted_pressure_plate: Plakenn gwask pounner pouezet
-  daylight_detector: Dinoer gouloù an deiz
-  redstone_block: Bloc'h Redstone
-  nether_quartz_ore: Kailh kouarz an Nether
-  hopper: Founilh
   chiseled_quartz_block: Bloc'h kouarz sizailhet
   quartz_block: Bloc'h kouarz
   quartz_pillar: Peul kouarz
   quartz_stairs: Diri kouarz
-  activator_rail: Hent-houarn gweredekaer
-  dropper: Ingalerez
   white_terracotta: Pri poazh gwenn
   orange_terracotta: Pri poazh orañjez
   magenta_terracotta: Pri poazh majenta
@@ -308,7 +262,6 @@ material:
   red_terracotta: Pri poazh ruz
   black_terracotta: Pri poazh du
   barrier: Harz
-  iron_trapdoor: Trap houarn
   hay_block: Boutelenn blouz
   white_carpet: Tapis Gwenn
   orange_carpet: Pallenn orañjez
@@ -327,12 +280,9 @@ material:
   red_carpet: Pallenn ruz
   black_carpet: Pallenn du
   terracotta: Pri poazh
-  coal_block: Bloc'h glaou
   packed_ice: Pakad skorn
   acacia_stairs: Diri kasia
   dark_oak_stairs: Diri derv teñval
-  slime_block: Bloc'h slime
-  grass_path: Hent geot
   sunflower: Tro-heol
   lilac: Lireu
   rose_bush: Bod-roz
@@ -389,7 +339,6 @@ material:
   red_nether_bricks: Brikennoù ruz an Nether
   bone_block: Bloc'h eskern
   structure_void: Goullonder frammad
-  observer: Arvester
   shulker_box: Boest Shulker
   white_shulker_box: Boest Shulker Gwenn
   orange_shulker_box: Boest Shulker Orañjez
@@ -516,6 +465,43 @@ material:
   polished_andesite_slab: Dar andezit lufret
   diorite_slab: Dar diorit
   scaffolding: Chafod
+  redstone: Poultr Redstone
+  redstone_torch: Etev-gouloù Redstone
+  redstone_block: Bloc'h Redstone
+  repeater: Azganer Redstone
+  comparator: Keñverier Redstone
+  piston: Bountell
+  sticky_piston: Bountell begus
+  slime_block: Bloc'h slime
+  honey_block: Blokad Mell
+  observer: Arvester
+  hopper: Founilh
+  dispenser: Tennerez
+  dropper: Ingalerez
+  lectern: Letrinad
+  lever: Loc'henn
+  daylight_detector: Dinoer gouloù an deiz
+  tripwire_hook: Krog neudenn ziaskañ
+  trapped_chest: Arc'h trapet
+  tnt: TNT
+  redstone_lamp: Gouloù Redstone
+  note_block: Bloc'h notenn
+  stone_button: Bouton koad
+  oak_button: Bouton derv
+  spruce_button: Afell bruñs
+  birch_button: Bouton vezv
+  jungle_button: Bouton koad janglenn
+  acacia_button: Bouton kasia
+  dark_oak_button: Bouton derv teñval
+  stone_pressure_plate: Plakenn gwask maen
+  light_weighted_pressure_plate: Plakenn gwask skañv pouezet
+  heavy_weighted_pressure_plate: Plakenn gwask pounner pouezet
+  oak_pressure_plate: Plakenn gwask derv
+  spruce_pressure_plate: Plakenn wask pruñs
+  birch_pressure_plate: Plakenn wask bezv
+  jungle_pressure_plate: Plakenn wask koad janglenn
+  acacia_pressure_plate: Plakenn wask kasia
+  dark_oak_pressure_plate: Plakenn wask derv teñval
   iron_door: Dor houarn
   oak_door: Dor zerv
   spruce_door: Dor bruñs
@@ -523,8 +509,37 @@ material:
   jungle_door: Dor goad janglenn
   acacia_door: Dor gasia
   dark_oak_door: Dor zerv teñval
-  repeater: Azganer Redstone
-  comparator: Keñverier Redstone
+  iron_trapdoor: Trap houarn
+  oak_trapdoor: Dor trap derv
+  spruce_trapdoor: Trap bruñs
+  birch_trapdoor: Trap bezv
+  jungle_trapdoor: Trap koad janglenn
+  acacia_trapdoor: Trap kasia
+  dark_oak_trapdoor: Trap derv teñval
+  oak_fence_gate: Dorikell derv
+  spruce_fence_gate: Dorikell pruñs
+  birch_fence_gate: Dorikell bezv
+  jungle_fence_gate: Dorikell janglenn
+  acacia_fence_gate: Dorikell gwez kasia
+  dark_oak_fence_gate: Dorikell derv teñval
+  powered_rail: Hent-houarn galloudus
+  detector_rail: Hent-houarn dinoer
+  rail: Hent-houarn
+  activator_rail: Hent-houarn gweredekaer
+  saddle: Dibr
+  minecart: Bagon vengleuz
+  chest_minecart: Bagon vengleuz gant ur c'houfr
+  furnace_minecart: Bagon vengleuz gant ur forn
+  tnt_minecart: Bagon vengleuz gant TNT
+  hopper_minecart: Bagon vengleuz gant ur founilh
+  carrot_on_a_stick: Karotezenn war ur vazh
+  elytra: Adeskell
+  oak_boat: Bag derv
+  spruce_boat: Bag pruñs
+  birch_boat: Bag bezv
+  jungle_boat: Bag janglenn
+  acacia_boat: Bag kasia
+  dark_oak_boat: Bag derv teñval
   structure_block: Bloc'hoù savadur
   jigsaw: Bloc'h mil-tamm
   turtle_helmet: Krogenn vaot
@@ -536,6 +551,9 @@ material:
   coal: Glaou
   charcoal: Glaou koad
   diamond: Diamant
+  emerald: Emrodez
+  lapis_lazuli: Lapis Lazuli
+  quartz: Kouarz an Nether
   iron_ingot: Tolzenn houarn
   gold_ingot: Tolzenn aour
   wooden_sword: Kleze koad
@@ -607,11 +625,7 @@ material:
   bucket: Sailh
   water_bucket: Sailh dour
   lava_bucket: Sailh lava
-  minecart: Bagon vengleuz
-  saddle: Dibr
-  redstone: Poultr Redstone
   snowball: Boulenn erc'h
-  oak_boat: Bag derv
   leather: Lêr
   milk_bucket: Sailhad laezh
   pufferfish_bucket: Sailhad fugu
@@ -623,8 +637,6 @@ material:
   paper: Paper
   book: Levr
   slime_ball: Bolotenn slime
-  chest_minecart: Bagon vengleuz gant ur c'houfr
-  furnace_minecart: Bagon vengleuz gant ur forn
   egg: Vi
   compass: Nadoz-vor
   fishing_rod: Bazh-pesketañ
@@ -638,7 +650,6 @@ material:
   cooked_salmon: Eog Poazh
   ink_sac: Sac'h inkr
   cocoa_beans: Fav kakao
-  lapis_lazuli: Lapis Lazuli
   white_dye: Livadur gwenn
   orange_dye: Livadur orañjez
   magenta_dye: Livadur majenta
@@ -764,7 +775,6 @@ material:
   fire_charge: Karg tan
   writable_book: Levr ha pluenn
   written_book: Levr skrivet
-  emerald: Emrodez
   item_frame: Framm an objed
   flower_pot: Pod bleunioù
   carrot: Karotezenn
@@ -779,16 +789,12 @@ material:
   zombie_head: Penn zombi
   creeper_head: Penn Creeper
   dragon_head: Penn Aerouant
-  carrot_on_a_stick: Karotezenn war ur vazh
   nether_star: Steredenn Nether
   pumpkin_pie: Tartezenn sitrouilhez
   firework_rocket: Fuc'hell tan-arvest
   firework_star: Steredenn tan-arvest
   enchanted_book: Levr strobinellet
   nether_brick: Brikenn Nether
-  quartz: Kouarz an Nether
-  tnt_minecart: Bagon vengleuz gant TNT
-  hopper_minecart: Bagon vengleuz gant ur founilh
   prismarine_shard: Lufr Prismarine
   prismarine_crystals: Strink Prismarine
   rabbit: Kig-lapin kriz
@@ -834,12 +840,6 @@ material:
   tipped_arrow: Bir gant efedoù
   lingering_potion: Died Padus
   shield: Skoed
-  elytra: Adeskell
-  spruce_boat: Bag pruñs
-  birch_boat: Bag bezv
-  jungle_boat: Bag janglenn
-  acacia_boat: Bag kasia
-  dark_oak_boat: Bag derv teñval
   totem_of_undying: Totem an Divarvelezh
   shulker_shell: Krogen Shulker
   iron_nugget: Malzenn Houarn
@@ -878,7 +878,6 @@ material:
   cartography_table: Taol kartennouriezh
   fletching_table: Taol gwaregañ
   grindstone: Breolimerez
-  lectern: Letrinad
   smithing_table: Taol goveliañ
   stonecutter: Kizellerez
   bell: Kloc'h
@@ -889,7 +888,6 @@ material:
   bee_nest: Ruskenn
   beehive: Koloenn
   honey_bottle: Bouteillad Mell
-  honey_block: Blokad Mell
   honeycomb_block: Blokad Mell
   water: Dour
   lava: Lava
@@ -981,6 +979,8 @@ material:
   cave_air: Aer ar mougev
   bubble_column: Peul klogorennoù
   sweet_berry_bush: Bod skav sukret
+  lapis_block: Bloc'h Lapis-Lazuli
+  grass_path: Hent geot
   bamboo_sapling: Strujenn vambouz
   clay_ball: Pri
   smooth_quartz: Kouarz plaen
@@ -1065,43 +1065,43 @@ biome:
   bamboo_jungle_hills: Torgennoù janglenn bambou
   nether: Nether
 enchantment:
-  fire_protection: Gwarez a-enep an tan
-  sharpness: Dremm
-  flame: Flammañ
-  aqua_affinity: Kerentiezh d'an dour
-  punch: Skoadenn
-  loyalty: Lealded
-  depth_strider: Ouesk en dour
-  vanishing_curse: Mallozh gant ar Steuziadur
-  unbreaking: Solut
-  knockback: Kiladenn
-  luck_of_the_sea: Chañs ar mor
-  binding_curse: Mallozh gant al Liamm
-  fortune: Peadra
   protection: Gwarez
-  efficiency: Efedusted
-  mending: Dresañ
-  frost_walker: Baleer ar skorn
-  lure: Bouedenn
-  looting: Preizhadenn
-  piercing: Toullus
-  blast_protection: Gwarez e-enep an tarzhadennoù
-  smite: Kastiz
-  multishot: Tenn lies
-  fire_aspect: Kelc'hienn tan
-  channeling: Sanelladur
-  sweeping: Emezelañ
-  thorns: Spern
-  bane_of_arthropods: Bosenn an artropoded
-  respiration: Analadur
-  riptide: Luskadenn
-  silk_touch: Stokadenn seiz
-  quick_charge: Karg prim
-  projectile_protection: Gwarez a-enep ar bannadelloù
-  impaling: Peuliañ
+  fire_protection: Gwarez a-enep an tan
   feather_falling: Kouezhadenn dousig
+  blast_protection: Gwarez e-enep an tarzhadennoù
+  projectile_protection: Gwarez a-enep ar bannadelloù
+  respiration: Analadur
+  aqua_affinity: Kerentiezh d'an dour
+  thorns: Spern
+  depth_strider: Ouesk en dour
+  frost_walker: Baleer ar skorn
+  binding_curse: Mallozh gant al Liamm
+  sharpness: Dremm
+  smite: Kastiz
+  bane_of_arthropods: Bosenn an artropoded
+  knockback: Kiladenn
+  fire_aspect: Kelc'hienn tan
+  looting: Preizhadenn
+  sweeping: Emezelañ
+  efficiency: Efedusted
+  silk_touch: Stokadenn seiz
+  unbreaking: Solut
+  fortune: Peadra
   power: Galloud
+  punch: Skoadenn
+  flame: Flammañ
   infinity: Amfin
+  luck_of_the_sea: Chañs ar mor
+  lure: Bouedenn
+  loyalty: Lealded
+  impaling: Peuliañ
+  riptide: Luskadenn
+  channeling: Sanelladur
+  multishot: Tenn lies
+  quick_charge: Karg prim
+  piercing: Toullus
+  mending: Dresañ
+  vanishing_curse: Mallozh gant ar Steuziadur
 potion:
   uncraftable: Braou n'haller ket aozañ
   water: Boutailhad dour
@@ -2071,17 +2071,3 @@ villager_profession:
   shepherd: Dañvaer
   toolsmith: Gov ostilhoù
   weaponsmith: Gov armoù
-villager_career:
-  farmer: Labourer-douar
-  fisherman: Pesketaer
-  shepherd: Dañvaer
-  fletcher: Gwareger
-  librarian: Levraoueger
-  cartographer: Kartennour
-  cleric: Kloareg
-  armorer: Armdiour
-  weapon_smith: Govel armoù
-  tool_smith: Govel ostilhoù
-  butcher: Kiger
-  leatherworker: Labourer al lêr
-  nitwit: Morjin

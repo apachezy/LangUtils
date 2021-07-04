@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:47                    #
+# Build time: 2021-07-04 21:46:03                    #
 # ####################################################
 language:
   code: fra_de
@@ -9,129 +9,192 @@ material:
   air: Lufd
   stone: Staa
   granite: Granidd
-  polished_granite: Poliede Granidd
+  polished_granite: Poliada Granidd
   diorite: Dioridd
   polished_diorite: Poliede Dioridd
   andesite: Andesidd
   polished_andesite: Poliede Andesidd
+  deepslate: Diefnschiefa
+  cobbled_deepslate: Bruchdiefnschiefa
+  polished_deepslate: Poalieada Diefnschiefa
+  calcite: Galzid
+  tuff: Duffstoa
+  dripstone_block: Droapfstoablogg
   grass_block: Groosblogg
   dirt: Dregg
   coarse_dirt: Groba Dregg
   podzol: Podsol
+  rooted_dirt: Wuazelerdn
   crimson_nylium: Karmesin-Nezl
   warped_nylium: Wirr-Nezl
-  cobblestone: Bruchstaa
-  oak_planks: Eichnholzbredda
-  spruce_planks: Fichdnholzbredda
-  birch_planks: Berknholzholzbredda
-  jungle_planks: Droubnholzbredda
-  acacia_planks: Akazienholzbredda
-  dark_oak_planks: Schwazzeichnholzbredda
+  cobblestone: Bruchschdoi
+  oak_planks: Ächahulzbredda
+  spruce_planks: Fichdnhulzbredda
+  birch_planks: Berknhulzbredda
+  jungle_planks: Droubnhulzbredda
+  acacia_planks: Akazienhulzbredda
+  dark_oak_planks: Schwoazächahulzbredda
   crimson_planks: Karmesinbredda
   warped_planks: Wirrbredda
   oak_sapling: Ächasetzling
   spruce_sapling: Fichdnsetzling
   birch_sapling: Berknsetzling
-  jungle_sapling: Droubnbaumsetzling
+  jungle_sapling: Droubnboamsetzling
   acacia_sapling: Akaziensetzling
-  dark_oak_sapling: Schwazzächnsetzling
+  dark_oak_sapling: Schwoazächasetzling
   bedrock: Grundgeschdein
   sand: Sand
   red_sand: Rouda Sand
   gravel: Kies
-  gold_ore: Goidätz
-  iron_ore: Aasenätz
   coal_ore: Schdoikohl
+  deepslate_coal_ore: Diefnschiefa-Stoakohln
+  iron_ore: Aasnätz
+  deepslate_iron_ore: Diefnschiefa-Aasnätz
+  copper_ore: Kupfaätz
+  deepslate_copper_ore: Diefnschiefa-Kupfaätz
+  gold_ore: Goidätz
+  deepslate_gold_ore: Diefnschiefa-Goaldätz
+  redstone_ore: Redstone-Ätz
+  deepslate_redstone_ore: Diefnschiefa-Redstone-Ätz
+  emerald_ore: Smaragdäaz
+  deepslate_emerald_ore: Diefnschiefa-Smaragdätz
+  lapis_ore: Labislazuliätz
+  deepslate_lapis_ore: Diefnschiefa-Labislazuliätz
+  diamond_ore: Diormandätz
+  deepslate_diamond_ore: Diefnschiefa-Diamandätz
   nether_gold_ore: Nethergoidätz
-  oak_log: Eichnschdamm
+  nether_quartz_ore: Netherkwarzätz
+  ancient_debris: Antika Schrodt
+  coal_block: Kohlblogg
+  raw_iron_block: Rohaasnblogg
+  raw_copper_block: Rohkupfablogg
+  raw_gold_block: Roggoidblogg
+  amethyst_block: Amethysdblogg
+  budding_amethyst: Amethysdknosbmblogg
+  iron_block: Aasnblogg
+  copper_block: Kupfablogg
+  gold_block: Goidblogg
+  diamond_block: Diormandblogg
+  netherite_block: Netheritblogg
+  exposed_copper: Anglaufna Kupfablogg
+  weathered_copper: Veawiddada Kupfablogg
+  oxidized_copper: Oxidieada Kupfablogg
+  cut_copper: Gschniddna Kupfablogg
+  exposed_cut_copper: Anglaufna gschniddna Kupfablogg
+  weathered_cut_copper: Veawiddada gschniddna Kupfablogg
+  oxidized_cut_copper: Oxidieada gschniddna Kupfablogg
+  cut_copper_stairs: Gschniddne Kupfadrebbn
+  exposed_cut_copper_stairs: Anglaufne gschniddne Kupfadrebbn
+  weathered_cut_copper_stairs: Veawiddade gschniddne Kupfadrebbn
+  oxidized_cut_copper_stairs: Oxidiade gschniddne Kupfadrebbn
+  cut_copper_slab: Gschniddne Kupfaschdufn
+  exposed_cut_copper_slab: Anglaufne gschniddne Kupfaschdufn
+  weathered_cut_copper_slab: Veawiddade gschniddne Kupfaschdufn
+  oxidized_cut_copper_slab: Oxidiade gschniddne Kupfaschdufn
+  waxed_copper_block: Gwachsda Kupfablogg
+  waxed_exposed_copper: Gwachsda anglaufna Kupfablogg
+  waxed_weathered_copper: Gwachsda veawiddada Kupfablogg
+  waxed_oxidized_copper: Gwachsda oxidieada Kupfablogg
+  waxed_cut_copper: Gwachsda gschniddna Kupfablogg
+  waxed_exposed_cut_copper: Gwachsda anglaufna gschniddna Kupfablogg
+  waxed_weathered_cut_copper: Gwachsda veawiddada gschniddna Kupfablogg
+  waxed_oxidized_cut_copper: Gwachsda oxidieada gschniddna Kupfablogg
+  waxed_cut_copper_stairs: Gwachsde gschniddne Kupfadrebbn
+  waxed_exposed_cut_copper_stairs: Gwachsde anglaufne gschniddne Kupfadrebbn
+  waxed_weathered_cut_copper_stairs: Gwachsde veawiddade gschniddne Kupfadrebbn
+  waxed_oxidized_cut_copper_stairs: Gwachsde oxidieade gschniddne Kupfadrebbn
+  waxed_cut_copper_slab: Gwachste gschniddene Kupfaschdufn
+  waxed_exposed_cut_copper_slab: Gwachste anglaufne gschniddene Kupfaschdufn
+  waxed_weathered_cut_copper_slab: Gwachsde veawiddade gschniddne Kupfaschdufn
+  waxed_oxidized_cut_copper_slab: Gwachsde oxidieade gschniddne Kupfaschdufn
+  oak_log: Ächaschdamm
   spruce_log: Fichdnschdamm
   birch_log: Berknschdamm
-  jungle_log: Droubnbaumschdamm
+  jungle_log: Droubnboamschdamm
   acacia_log: Akazienschdamm
-  dark_oak_log: Schwazzeichnschdamm
+  dark_oak_log: Schwoazächaschdamm
   crimson_stem: Karmesinstiel
   warped_stem: Wirrstiel
   stripped_oak_log: Endrindeda Ächaschdamm
   stripped_spruce_log: Endrindeda Fichdnschdamm
   stripped_birch_log: Endrindeda Berknschdamm
-  stripped_jungle_log: Endrindeda Droubnbaumschdamm
+  stripped_jungle_log: Endrindeda Droubnboamschdamm
   stripped_acacia_log: Endrindeda Akazienschdamm
-  stripped_dark_oak_log: Endrindeda Schwazzächaschdamm
+  stripped_dark_oak_log: Endrindeda Schwoazächaschdamm
   stripped_crimson_stem: Geschälter Karmesinstiel
   stripped_warped_stem: Geschälter Wirrstiel
-  stripped_oak_wood: Endrindeds Ächaholz
-  stripped_spruce_wood: Endrindeds Fichdnholz
-  stripped_birch_wood: Endrindeds Berknholz
-  stripped_jungle_wood: Endrindeds Droubnholz
-  stripped_acacia_wood: Endrindeds Akazienholz
-  stripped_dark_oak_wood: Endrindeds Schwarzächaholz
+  stripped_oak_wood: Endindeds Ächahulz
+  stripped_spruce_wood: Endrindeds Fichdnhulz
+  stripped_birch_wood: Endrindeds Berknhulz
+  stripped_jungle_wood: Endrindeds Droubnhulz
+  stripped_acacia_wood: Endrindeds Akazienhulz
+  stripped_dark_oak_wood: Endindeds Schwoazächahulz
   stripped_crimson_hyphae: Geschälte Karmesinhyphen
   stripped_warped_hyphae: Geschälte Wirrhyphen
-  oak_wood: Eichnholz
-  spruce_wood: Fichdnholz
-  birch_wood: Berknholz
-  jungle_wood: Droubnholz
-  acacia_wood: Akazienholz
-  dark_oak_wood: Schwazzeichnholz
+  oak_wood: Ächahulz
+  spruce_wood: Fichdnhulz
+  birch_wood: Berknhulz
+  jungle_wood: Droubnhulz
+  acacia_wood: Akazienhulz
+  dark_oak_wood: Schwoazächahulz
   crimson_hyphae: Karmesinhyphen
   warped_hyphae: Wirrhyphen
-  oak_leaves: Eichnlaab
-  spruce_leaves: Fichdnlaab
+  oak_leaves: Ächalaab
+  spruce_leaves: Fichdnnoadln
   birch_leaves: Berknlaab
-  jungle_leaves: Droubnbaumlaab
+  jungle_leaves: Droubnboamlaab
   acacia_leaves: Akazienlaab
-  dark_oak_leaves: Schwarzächenlaab
+  dark_oak_leaves: Schwoazächalaab
+  azalea_leaves: Azaleenlaab
+  flowering_azalea_leaves: Blühndes Azaleenlaab
   sponge: Schwamm
   wet_sponge: Nasser Schwamm
-  glass: Glòs
-  lapis_ore: Labislazuliärz
+  glass: Glos
+  tinted_glass: Gfärbdes Glos
   lapis_block: Labislazuliblogg
-  dispenser: Wärfa
-  sandstone: Sondschdoi
-  chiseled_sandstone: Gemeißlde Sondschdoi
-  cut_sandstone: Gschniddene Sondschdoi
-  note_block: Nodnblogg
-  powered_rail: Ontriebschiena
-  detector_rail: Sensorschiene
-  sticky_piston: Klebriga Kolbm
+  sandstone: Sandschdoi
+  chiseled_sandstone: Gmeißelda Sandschdoi
+  cut_sandstone: Gschniddena Sandschdoi
   cobweb: Spinnanetz
   grass: Groos
-  fern: Farn
-  dead_bush: Doda Busch
+  fern: Faan
+  azalea: Azalee
+  flowering_azalea: Blühnde Azalee
+  dead_bush: Doda Bischl
   seagrass: Herbier
   sea_pickle: Seegurkn
-  piston: Kolbm
   white_wool: Woaße Woll
   orange_wool: Orange Woll
   magenta_wool: Magenda Woll
   light_blue_wool: Hellblaue Woll
   yellow_wool: Gelbe Woll
-  lime_wool: Hellgrüne Woll
-  pink_wool: Pinke Woll
+  lime_wool: Hellgrine Woll
+  pink_wool: Bingge Woll
   gray_wool: Graue Woll
   light_gray_wool: Hellgraue Woll
   cyan_wool: Dürgise Woll
-  purple_wool: Lilane Woll
+  purple_wool: Violedde Woll
   blue_wool: Blaue Woll
-  brown_wool: Braune Woll
+  brown_wool: Broaune Woll
   green_wool: Grine Woll
-  red_wool: Rode Woll
-  black_wool: Schwoarze Woll
-  dandelion: Kuabloeme
-  poppy: Keidsche
-  blue_orchid: Blaue Orchidee
-  allium: Lauch
-  azure_bluet: Porzellansternchen
-  red_tulip: Rode Tulbm
-  orange_tulip: Orange Tulbm
-  white_tulip: Weiße Tulbm
-  pink_tulip: Pinke Tulbm
-  oxeye_daisy: Gänseblümchen
-  cornflower: blaues Blümchen
-  lily_of_the_valley: Maiglöckchen
-  wither_rose: Witherrose
-  brown_mushroom: Brauner Bilz
-  red_mushroom: Roda Bilz
+  red_wool: Roude Woll
+  black_wool: Schwoaze Woll
+  dandelion: Lewnzohn
+  poppy: Mōn
+  blue_orchid: Blaua Orchideen
+  allium: Ziealauch
+  azure_bluet: Boazellansteanchn
+  red_tulip: Roude Dulbn
+  orange_tulip: Orange Dulbn
+  white_tulip: Woaße Dulbn
+  pink_tulip: Bingge Dulbn
+  oxeye_daisy: Magaride
+  cornflower: Kornbluma
+  lily_of_the_valley: Maiglöckchn
+  wither_rose: Witherrousn
+  spore_blossom: Spoanblüde
+  brown_mushroom: Broauna Bilz
+  red_mushroom: Rouda Bilz
   crimson_fungus: Karmesinpilz
   warped_fungus: Wirrpilz
   crimson_roots: Karmesinwurzln
@@ -141,43 +204,45 @@ material:
   twisting_vines: Zwiablrankn
   sugar_cane: Zuckarohr
   kelp: Seetang
+  moss_carpet: Moosteppich
+  moss_block: Moosblogg
+  hanging_roots: Hängewuazl
+  big_dripleaf: Großes Dropfbladd
+  small_dripleaf: Glanes Dropfbladd
   bamboo: Bambus
-  gold_block: Goidblogg
-  iron_block: Aasnblogg
-  oak_slab: Eichenhalbsteen
-  spruce_slab: Fichdnholzschdufn
-  birch_slab: Birkenhalbsteen
-  jungle_slab: Dschungelholzschdufn
-  acacia_slab: Akazienholzschdufn
-  dark_oak_slab: Schwazzeichnholzschdufn
-  crimson_slab: Karmesinstufe
-  warped_slab: Wirrstufn
-  stone_slab: Schdoistufn
-  smooth_stone_slab: Gladda Schdoistufn
-  sandstone_slab: Sondschdoistufn
-  cut_sandstone_slab: Gschniddene Sondschdoistufn
-  petrified_oak_slab: Verschdainada Eichnstufn
-  cobblestone_slab: Pflasterschdastufn
-  brick_slab: Bagschdastufn
-  stone_brick_slab: Schdazieglstufn
-  nether_brick_slab: Netherglödds
-  quartz_slab: Quarzhalbsteen
-  red_sandstone_slab: Rouda Sondschdoistufn
-  cut_red_sandstone_slab: Gschniddana rode Sondschdoistufn
-  purpur_slab: Purpurstufn
+  oak_slab: Ächahulzschdufn
+  spruce_slab: Fichdnhulzschdufn
+  birch_slab: Berknhulzschdufn
+  jungle_slab: Droubnhulzschdufn
+  acacia_slab: Akazienhulzschdufn
+  dark_oak_slab: Schwoazeichnhulzschdufn
+  crimson_slab: Karmesinschdufn
+  warped_slab: Wirrschdufn
+  stone_slab: Schdoischdufn
+  smooth_stone_slab: Gladde Schdoischdufn
+  sandstone_slab: Sandschdoischdufn
+  cut_sandstone_slab: Gschniddene Sandschdoischdufn
+  petrified_oak_slab: Verschdainada Eichnschdufn
+  cobblestone_slab: Bruchschdoischdufn
+  brick_slab: Zieglschdufn
+  stone_brick_slab: Schdoizieglschdufn
+  nether_brick_slab: Netherzieglschdufn
+  quartz_slab: Kwarzschdufn
+  red_sandstone_slab: Roude Sandschdoischdufn
+  cut_red_sandstone_slab: Gschniddene roude Sandschdoischdufn
+  purpur_slab: Purpurschdufn
   prismarine_slab: Brismarinschdufn
   prismarine_brick_slab: Brismarinziegelschdufn
   dark_prismarine_slab: Dungle Brismarinschdufn
-  smooth_quartz: Glatta Quarzblogg
-  smooth_red_sandstone: Gladda roda Sondschdoi
-  smooth_sandstone: Gladda Sondschdoi
+  smooth_quartz: Gladda Kwarzblogg
+  smooth_red_sandstone: Gladda rouda Sandschdoi
+  smooth_sandstone: Gladda Sandschdoi
   smooth_stone: Gladda Schdoi
   bricks: Ziegelstaa
-  tnt: DND
-  bookshelf: Bücherregal
-  mossy_cobblestone: mossscher Steen
+  bookshelf: Bücharegal
+  mossy_cobblestone: Bmoosda Bruchschdoi
   obsidian: Obsidian
-  torch: Fackl
+  torch: Faggl
   end_rod: Endstoab
   chorus_plant: Choruspflanzn
   chorus_flower: Chorusblüdn
@@ -185,249 +250,213 @@ material:
   purpur_pillar: Purpursäuln
   purpur_stairs: Purpurdrebbn
   spawner: Spawna
-  oak_stairs: Eichnholzdrebbn
-  chest: Kischte
-  diamond_ore: Diormantätz
-  diamond_block: Diormantblogg
+  oak_stairs: Ächahulzdrebbn
+  chest: Druhe
   crafting_table: Werkbänk
-  farmland: Aggerland
+  farmland: Aggaland
   furnace: oufn
-  ladder: Leider
-  rail: Schiene
-  cobblestone_stairs: Bruchstaadrebbn
-  lever: Hebel
-  stone_pressure_plate: Staadruggbladdn
-  oak_pressure_plate: Eichnholzdruggbladdn
-  spruce_pressure_plate: Fichdnholzdruggbladdn
-  birch_pressure_plate: Berknholzdruggbladdn
-  jungle_pressure_plate: Droubnholzdruggbladdn
-  acacia_pressure_plate: Akazienholzdruggbladdn
-  dark_oak_pressure_plate: Schwazzeichnholzdruggbladdn
-  crimson_pressure_plate: Karmesindruckplatte
-  warped_pressure_plate: Wirrdruckpladdn
-  polished_blackstone_pressure_plate: Poliada Schwoazstoadrckbladdn
-  redstone_ore: Redstone-Ätz
-  redstone_torch: Redstone-Fackl
-  snow: Schnee
-  ice: Eis
+  ladder: Loidan
+  cobblestone_stairs: Bruchschdoidrebbn
+  snow: Schnäh
+  ice: Ais
   snow_block: Schnähblogg
   cactus: Gagtus
   clay: leem
   jukebox: Pladdnschbiela
-  oak_fence: Ächaholzzaun
-  spruce_fence: Fichdnholzzaun
-  birch_fence: Berknholzzaun
-  jungle_fence: Droubnholzzaun
-  acacia_fence: Akazienholzzaun
-  dark_oak_fence: Schwazzeichnholzzaun
+  oak_fence: Ächahulzzou
+  spruce_fence: Fichdnhulzzou
+  birch_fence: Berknhulzzou
+  jungle_fence: Droubnhulzzou
+  acacia_fence: Akazienhulzzaun
+  dark_oak_fence: Schwoazächahulzzou
   crimson_fence: Karmesinzaun
   warped_fence: Wirrzaun
   pumpkin: Kärwis
   carved_pumpkin: G'schnitza Küabis
+  jack_o_lantern: Küabisladern
   netherrack: Netherrack
   soul_sand: Seelnsand
   soul_soil: Seelnerde
-  basalt: Basalt
-  polished_basalt: Polierda Basalt
-  soul_torch: Seelnfackl
+  basalt: Basaldd
+  polished_basalt: Poliada Basald
+  smooth_basalt: Gladda Basald
+  soul_torch: Seelnfaggl
   glowstone: Glowstone
-  jack_o_lantern: Küabisladern
-  oak_trapdoor: Ächaholzfalldüe
-  spruce_trapdoor: Fichdnholzfalldür
-  birch_trapdoor: Berknholzfalldüe
-  jungle_trapdoor: Droubnholzfalldür
-  acacia_trapdoor: Akazienholzfalldüe
-  dark_oak_trapdoor: Schwazzächaholzfalldür
-  crimson_trapdoor: Karmesinfalltür
-  warped_trapdoor: Wirrfoidia
-  infested_stone: Verseuchta Schdoi
-  infested_cobblestone: Verseuchta Bruchstaa
-  infested_stone_bricks: Bfallnde Stoaziegl
-  infested_mossy_stone_bricks: Bfallnde bmoosde Stoaziegl
-  infested_cracked_stone_bricks: Bfallnde rissicha Stoaziegl
-  infested_chiseled_stone_bricks: Bfallnde gmeißelda Stoaziegl
+  infested_stone: Bfallnda Schdoi
+  infested_cobblestone: Bfallnda Bruchschdoi
+  infested_stone_bricks: Bfallnde Schdoiziegl
+  infested_mossy_stone_bricks: Bfallnde bmoosde Schdoiziegl
+  infested_cracked_stone_bricks: Bfallnde rissicha Schdoiziegl
+  infested_chiseled_stone_bricks: Bfallnde gmeißelda Schdoiziegl
+  infested_deepslate: Bfallnea Diefnschiefa
   stone_bricks: Stå Zeigel
   mossy_stone_bricks: Bmoosde Stoaziegl
-  cracked_stone_bricks: Rissicha Stoaziegl
-  chiseled_stone_bricks: Gmeißelda Stoaziegl
-  brown_mushroom_block: Broauna Pilzblogg
-  red_mushroom_block: Roda Pilzblogg
-  mushroom_stem: Bilzstiel
+  cracked_stone_bricks: Rissicha Schdoiziegl
+  chiseled_stone_bricks: Gmeißelda Schdoiziegl
+  deepslate_bricks: Diefnschiefaziegl
+  cracked_deepslate_bricks: Rissiche Diefnschiefaziegl
+  deepslate_tiles: Diefnschiefafliesn
+  cracked_deepslate_tiles: Rissiche Diefnschiefafliesn
+  chiseled_deepslate: Gmeißelda Diefnschiefa
+  brown_mushroom_block: Broauna Bilzblogg
+  red_mushroom_block: Rouda Bilzblogg
+  mushroom_stem: Bilzschdiel
   iron_bars: Aasngidder
-  chain: Keddn
-  glass_pane: Glasscheibe
+  chain: Veakeddn
+  glass_pane: Glosschaim
   melon: Melon
   vine: Rankn
-  oak_fence_gate: Eichnholzzauntor
-  spruce_fence_gate: Fichdnholzzauntor
-  birch_fence_gate: Berknholzzauntor
-  jungle_fence_gate: Droubnholzzauntor
-  acacia_fence_gate: Akazienholzzauntor
-  dark_oak_fence_gate: Schwazzeichnzauntor
-  crimson_fence_gate: Karmesinzauntor
-  warped_fence_gate: Wirrzauntor
-  brick_stairs: Ziechldrebbn
-  stone_brick_stairs: Schdoizeigeldrebbn
+  glow_lichen: Leuchdflechdn
+  brick_stairs: Ziegldrebbn
+  stone_brick_stairs: Schdoiziegldrebbn
   mycelium: Myzl
   lily_pad: Seerosnbladd
   nether_bricks: Netherziegl
   cracked_nether_bricks: Rissicha Netherziegl
   chiseled_nether_bricks: Gmeißelda Netherziegl
-  nether_brick_fence: Netherzieglzaun
-  nether_brick_stairs: Netherziechldrebbn
+  nether_brick_fence: Netherzieglzou
+  nether_brick_stairs: Netherziegldrebbn
   enchanting_table: Zaubadisch
-  end_portal_frame: Endportalrahmn
+  end_portal_frame: Endpoadalrahmn
   end_stone: Endstaa
   end_stone_bricks: Endstoaziegl
-  dragon_egg: Drachnei
-  redstone_lamp: Redstone-Lambm
-  sandstone_stairs: Sondschdoidrebbn
-  emerald_ore: Smaragdäaz
-  ender_chest: Endadruhe
-  tripwire_hook: Hakn
+  dragon_egg: Drachngaggeli
+  sandstone_stairs: Sandschdoidrebbn
+  ender_chest: Enderdruhe
   emerald_block: Smaragdblogg
-  spruce_stairs: Fichdnholzdrebbn
-  birch_stairs: Berknholzdrebbn
-  jungle_stairs: Droubnholzdrebbn
+  spruce_stairs: Fichdnhulzdrebbn
+  birch_stairs: Berknhulzdrebbn
+  jungle_stairs: Droubnhulzdrebbn
   crimson_stairs: Karmesindrebbn
   warped_stairs: Wirrdrebbn
   command_block: Bfehlsblogg
   beacon: Leuchdfeua
-  cobblestone_wall: Bruchstoamaua
-  mossy_cobblestone_wall: Bmoosde Bruchstoamaua
+  cobblestone_wall: Bruchschdoimaua
+  mossy_cobblestone_wall: Bmoosde Bruchschdoimaua
+  brick_wall: Schdoizieglmaua
   prismarine_wall: Brismarinmauer
-  red_sandstone_wall: Roude Sondschdoiwand
-  sandstone_wall: Sondschdoiwand
-  blackstone_wall: Schwoazstoamaua
-  polished_blackstone_wall: Poliada Schwoazstoamaua
-  polished_blackstone_brick_wall: Poliada Schwoazstoazieglmaua
-  stone_button: Staagnopf
-  oak_button: Ächagnopf
-  spruce_button: Fichdngnopf
-  birch_button: Berkngnopf
-  jungle_button: Droubnholzgnopf
-  acacia_button: Akazienholzgnopf
-  dark_oak_button: Schwazzeichnholzgnopf
-  crimson_button: Karmesinknopf
-  warped_button: Wirrknopf
-  polished_blackstone_button: Poliada Schwoazstoaknopf
+  red_sandstone_wall: Roude Sandschdoimaua
+  mossy_stone_brick_wall: Bmoosde Schdoizieglmaua
+  granite_wall: Graniddmaua
+  stone_brick_wall: Schdazieglmaua
+  nether_brick_wall: Netherzieglmaua
+  andesite_wall: Andesiddmaua
+  red_nether_brick_wall: Roude Netherzieglmaua
+  sandstone_wall: Sandschdoimaua
+  end_stone_brick_wall: Endschdoizieglmaua
+  diorite_wall: Dioriddmaua
+  blackstone_wall: Schwoazschdoimaua
+  polished_blackstone_wall: Poliada Schwoazschdoimaua
+  polished_blackstone_brick_wall: Poliada Schwoazschdoizieglmaua
+  cobbled_deepslate_wall: Bruchdiefnschiefamaua
+  polished_deepslate_wall: Poalieade Diefnschiefamaua
+  deepslate_brick_wall: Diefnschiefazieglmaua
+  deepslate_tile_wall: Diefnschiefafliesnmaua
   anvil: Amboß
   chipped_anvil: Angschlachena Amboss
   damaged_anvil: Bschädigda Amboss
-  trapped_chest: Redstone-Kistn
-  light_weighted_pressure_plate: Fainwägplattn
-  heavy_weighted_pressure_plate: Grobwägplattn
-  daylight_detector: Dageslichdsensoa
-  redstone_block: Redstone-Blogg
-  nether_quartz_ore: Netherquarzäaz
-  hopper: Drichda
-  chiseled_quartz_block: Gmeißeldea Kwarzblogg
+  chiseled_quartz_block: Gmeißelda Kwarzblogg
   quartz_block: Kwarzblogg
-  quartz_bricks: Quarzziegl
+  quartz_bricks: Kwarzziegl
   quartz_pillar: Kwarzsäuln
   quartz_stairs: Kwarzdrebbn
-  activator_rail: Agdivierungsschiene
-  dropper: Spenda
   white_terracotta: Woaße Keramig
   orange_terracotta: Orange Keramig
   magenta_terracotta: Magenda Keramig
   light_blue_terracotta: Hellblaue Keramig
   yellow_terracotta: Gelbe Keramig
-  lime_terracotta: Hellgrüne Keramig
+  lime_terracotta: Hellgrine Keramig
   pink_terracotta: Bingge Keramig
   gray_terracotta: Graue Keramig
   light_gray_terracotta: Hellgraue Keramig
   cyan_terracotta: Dürgise Keramig
   purple_terracotta: Violedde Keramig
   blue_terracotta: Blaue Keramig
-  brown_terracotta: Braune Keramig
-  green_terracotta: Grüne Keramig
+  brown_terracotta: Broaune Keramig
+  green_terracotta: Grine Keramig
   red_terracotta: Roude Keramig
-  black_terracotta: Schwoarze Keramig
+  black_terracotta: Schwoaze Keramig
   barrier: Barrier
-  iron_trapdoor: Aasnfalldür
+  light: Glichdablogg
   hay_block: Schdruabolln
   white_carpet: Woaßa Debbich
   orange_carpet: Oranga Debbich
   magenta_carpet: Magenda Debbich
   light_blue_carpet: Hellblaua Debbich
   yellow_carpet: Gelba Debbich
-  lime_carpet: Hellgrüna Debbich
+  lime_carpet: Hellgrina Debbich
   pink_carpet: Bingga Debbich
   gray_carpet: Graua Debbich
   light_gray_carpet: Hellgraua Debbich
   cyan_carpet: Dürgisa Debbich
   purple_carpet: Violedda Debbich
   blue_carpet: Blaua Debbich
-  brown_carpet: Brauna Debbich
-  green_carpet: Grüna Debbich
-  red_carpet: Roda Debbich
-  black_carpet: Schwoarza Debbich
+  brown_carpet: Broauna Debbich
+  green_carpet: Grina Debbich
+  red_carpet: Rouda Debbich
+  black_carpet: Schwoaza Debbich
   terracotta: Keramig
-  coal_block: Kohlblogg
-  packed_ice: Backeis
-  acacia_stairs: Akazienholzdrebbn
-  dark_oak_stairs: Dungle Ächadrebbn
-  slime_block: Schloimblogg
-  grass_path: Dramblpfoad
+  packed_ice: Baggais
+  acacia_stairs: Akazienhulzdrebbn
+  dark_oak_stairs: Schwoazächahulzdrebbn
+  dirt_path: Dramplpfad
   sunflower: Sunnebloeme
   lilac: Flieder
-  rose_bush: Rousnbusch
+  rose_bush: Rousnbischl
   peony: Hunnertbletarousn
   tall_grass: Hoch’s Groos
-  large_fern: Gruaser Foan
-  white_stained_glass: Weißes Glas
-  orange_stained_glass: Oranges Glas
-  magenta_stained_glass: Magenda Glas
-  light_blue_stained_glass: Hellblaues Glas
-  yellow_stained_glass: Gelbes Glas
-  lime_stained_glass: Hellgrüns Glas
-  pink_stained_glass: Rosa Glas
-  gray_stained_glass: Graues Glas
-  light_gray_stained_glass: Hellgraues Glas
-  cyan_stained_glass: Türkises Glas
-  purple_stained_glass: Lila Glas
-  blue_stained_glass: Blaues Glas
-  brown_stained_glass: Braun Gebeiztes Glas
-  green_stained_glass: Grüne Glasmalerei
-  red_stained_glass: Rote Glasmalerei
-  black_stained_glass: Schwarz Glasmalerei
-  white_stained_glass_pane: Weiße Glasmalerei
-  orange_stained_glass_pane: Orange Glasmalerei
-  magenta_stained_glass_pane: Magenda Glasmalerei
-  light_blue_stained_glass_pane: Hellblaue Glasmalerei
-  yellow_stained_glass_pane: Gelbe Glasmalerei
-  lime_stained_glass_pane: Hellgrüne Glassscheibn
-  pink_stained_glass_pane: Rosa Glasmalerei
-  gray_stained_glass_pane: Graue Glasmalerei
-  light_gray_stained_glass_pane: Hellgraue Glasmalerei
-  cyan_stained_glass_pane: Blaugrüne Glasmalerei
-  purple_stained_glass_pane: Lilane Glasmalerei
-  blue_stained_glass_pane: Blaue Glasmalerei
-  brown_stained_glass_pane: Braune Glasmalerei
-  green_stained_glass_pane: Grüne Glasmalerei
-  red_stained_glass_pane: Rote Glasmalerei
-  black_stained_glass_pane: Schwarze Glasmalerei
+  large_fern: Großa Faan
+  white_stained_glass: Woaßes Glos
+  orange_stained_glass: Oranges Glos
+  magenta_stained_glass: Magenda Glos
+  light_blue_stained_glass: Hellblaues Glos
+  yellow_stained_glass: Gelbes Glos
+  lime_stained_glass: Hellgrines Glos
+  pink_stained_glass: Bingges Glos
+  gray_stained_glass: Graues Glos
+  light_gray_stained_glass: Hellgraues Glos
+  cyan_stained_glass: Dürgises Glos
+  purple_stained_glass: Violeddes Glos
+  blue_stained_glass: Blaues Glos
+  brown_stained_glass: Broaunes Glos
+  green_stained_glass: Grines Glos
+  red_stained_glass: Roudes Glos
+  black_stained_glass: Schwoazes Glos
+  white_stained_glass_pane: Woaße Glosschaim
+  orange_stained_glass_pane: Orange Glosschaim
+  magenta_stained_glass_pane: Magenda Glosschaim
+  light_blue_stained_glass_pane: Hellblaue Glosschaim
+  yellow_stained_glass_pane: Gelbe Glosschaim
+  lime_stained_glass_pane: Hellgrine Glosschaim
+  pink_stained_glass_pane: Bingge Glosschaim
+  gray_stained_glass_pane: Graue Glosschaim
+  light_gray_stained_glass_pane: Hellgraue Glosschaim
+  cyan_stained_glass_pane: Dürgise Glosschaim
+  purple_stained_glass_pane: Violedde Glosschaim
+  blue_stained_glass_pane: Blaue Glosschaim
+  brown_stained_glass_pane: Broaune Glosschaim
+  green_stained_glass_pane: Grine Glosschaim
+  red_stained_glass_pane: Roude Glosschaim
+  black_stained_glass_pane: Schwoaze Glosschaim
   prismarine: Brismarin
   prismarine_bricks: Brismarinblogg
   dark_prismarine: Dungler Brismarin
   prismarine_stairs: Prismarindrebbn
-  prismarine_brick_stairs: Prismarinziechldrebbn
+  prismarine_brick_stairs: Prismarinziegldrebbn
   dark_prismarine_stairs: Dungle Prismarindrebbn
   sea_lantern: Seeladern
-  red_sandstone: Rouda Sondschdoi
-  chiseled_red_sandstone: Gemeißlde roda Sondschdoi
-  cut_red_sandstone: Gschniddena rouda Sondschdoi
-  red_sandstone_stairs: Rode Sondschdoidrebbn
+  red_sandstone: Rouda Sandschdoi
+  chiseled_red_sandstone: Gmeißelda rouda Sandschdoi
+  cut_red_sandstone: Gschniddena rouda Sandschdoi
+  red_sandstone_stairs: Roude Sandschdoidrebbn
   repeating_command_block: Wiedahol-Bfehlsblogg
-  chain_command_block: Kettn-Bfehlsblogg
+  chain_command_block: Keddn-Bfehlsblogg
   magma_block: Magmablogg
   nether_wart_block: Netherwarzblogg
   warped_wart_block: Wirrwarznblogg
   red_nether_bricks: Rode Netherziegl
   bone_block: Knochnblogg
   structure_void: Konsdrugtiondsleere
-  observer: Bobachda
   shulker_box: Shulkerkischdla
   white_shulker_box: Woaße Shulkerkischdla
   orange_shulker_box: Orange Shulkerkischdla
@@ -444,23 +473,23 @@ material:
   brown_shulker_box: Broaune Shulkerkischdla
   green_shulker_box: Grine Shulkerkischdla
   red_shulker_box: Roude Shulkerkischdla
-  black_shulker_box: Schwoarze Shulkerkischdla
-  white_glazed_terracotta: Woaße gloasierte Keramig
-  orange_glazed_terracotta: Orange gloasierte Keramig
-  magenta_glazed_terracotta: Magenda gloasierte Keramig
-  light_blue_glazed_terracotta: Hellblaue gloasierte Keramig
-  yellow_glazed_terracotta: Gelbe gloasierte Keramig
-  lime_glazed_terracotta: Hellgrine gloasierte Keramig
-  pink_glazed_terracotta: Bingge gloasierte Keramig
-  gray_glazed_terracotta: Graue gloasierte Keramig
-  light_gray_glazed_terracotta: Hellgraue gloasierte Keramig
-  cyan_glazed_terracotta: Dürgise gloasierte Keramig
-  purple_glazed_terracotta: Violedde gloasierte Keramig
-  blue_glazed_terracotta: Blaue gloasierte Keramig
-  brown_glazed_terracotta: Braune gloasierte Keramig
-  green_glazed_terracotta: Grine gloasierte Keramig
-  red_glazed_terracotta: Rode gloasierte Keramig
-  black_glazed_terracotta: Schwoarze gloasierte Keramig
+  black_shulker_box: Schwoaze Shulkerkischdla
+  white_glazed_terracotta: Woaße gloasierde Keramig
+  orange_glazed_terracotta: Orange gloasierde Keramig
+  magenta_glazed_terracotta: Magenda gloasierde Keramig
+  light_blue_glazed_terracotta: Hellblaue gloasierde Keramig
+  yellow_glazed_terracotta: Gelbe gloasierde Keramig
+  lime_glazed_terracotta: Hellgrine gloasierde Keramig
+  pink_glazed_terracotta: Bingge gloasierde Keramig
+  gray_glazed_terracotta: Graue gloasierde Keramig
+  light_gray_glazed_terracotta: Hellgraue gloasierde Keramig
+  cyan_glazed_terracotta: Dürgise gloasierde Keramig
+  purple_glazed_terracotta: Violedde gloasierde Keramig
+  blue_glazed_terracotta: Blaue gloasierde Keramig
+  brown_glazed_terracotta: Broaune gloasierde Keramig
+  green_glazed_terracotta: Grine gloasierde Keramig
+  red_glazed_terracotta: Roude gloasierde Keramig
+  black_glazed_terracotta: Schwoaze gloasierde Keramig
   white_concrete: Woaßa Bedon
   orange_concrete: Oranga Bedon
   magenta_concrete: Magenda Bedon
@@ -476,97 +505,203 @@ material:
   brown_concrete: Broauna Bedon
   green_concrete: Grina Bedon
   red_concrete: Rouda Bedon
-  black_concrete: Schwoarza Bedon
-  white_concrete_powder: Woaßa Trockenbedon
-  orange_concrete_powder: Oranga Trockenbedon
-  magenta_concrete_powder: Magenda Trockenbedon
-  light_blue_concrete_powder: Hellblaua Trockenbedon
-  yellow_concrete_powder: Gelba Trockenbedon
-  lime_concrete_powder: Hellgrüna Trockenbedon
-  pink_concrete_powder: Bingga Trockenbedon
-  gray_concrete_powder: Graua Trockenbedon
-  light_gray_concrete_powder: Hellgraua Trockenbedon
-  cyan_concrete_powder: Dürgisa Trockenbedon
-  purple_concrete_powder: Violedda Trockenbedon
-  blue_concrete_powder: Blaua Trockenbedon
-  brown_concrete_powder: Brauna Trockenbedon
-  green_concrete_powder: Grina Trockenbedon
-  red_concrete_powder: Rouda Trockenbedon
-  black_concrete_powder: Schwoarza Trockenbedon
+  black_concrete: Schwoaza Bedon
+  white_concrete_powder: Woaßa Druggnbedon
+  orange_concrete_powder: Oranga Druggnbedon
+  magenta_concrete_powder: Magenda Druggnbedon
+  light_blue_concrete_powder: Hellblaua Druggnbedon
+  yellow_concrete_powder: Gelba Druggnbedon
+  lime_concrete_powder: Hellgrina Druggnbedon
+  pink_concrete_powder: Bingga Druggnbedon
+  gray_concrete_powder: Graua Druggnbedon
+  light_gray_concrete_powder: Hellgraua Druggnbedon
+  cyan_concrete_powder: Dürgisa Druggnbedon
+  purple_concrete_powder: Violedda Druggnbedon
+  blue_concrete_powder: Blaua Druggnbedon
+  brown_concrete_powder: Broauna Druggnbedon
+  green_concrete_powder: Grina Druggnbedon
+  red_concrete_powder: Rouda Druggnbedon
+  black_concrete_powder: Schwoaza Druggnbedon
   turtle_egg: Schildgrödnei
   dead_tube_coral_block: Doda Orgelgrallenblogg
   dead_brain_coral_block: Doda Herngrallnblogg
   dead_bubble_coral_block: Doda Blaasngrallnblogg
-  dead_fire_coral_block: Doda Feiagrallnblogg
+  dead_fire_coral_block: Doda Feuagrallnblogg
   dead_horn_coral_block: Doda Gweihgrallnblogg
   tube_coral_block: Orgelgrallnblogg
   brain_coral_block: Herngrallnblogg
   bubble_coral_block: Blaasngrallnblogg
-  fire_coral_block: Feiagrallnblogg
+  fire_coral_block: Feuagrallnblogg
   horn_coral_block: Gweihgrallnblogg
   tube_coral: Orgelgralle
-  brain_coral: Hernkrallä
-  bubble_coral: Blaasnkrallä
+  brain_coral: Herngralle
+  bubble_coral: Blaasngralle
   fire_coral: Feuagralle
   horn_coral: Gweihgralle
   dead_brain_coral: Dode Herngralle
   dead_bubble_coral: Dode Blaasngralle
-  dead_fire_coral: Dode Feiagralle
+  dead_fire_coral: Dode Feuagralle
   dead_horn_coral: Dode Gweihgralle
   dead_tube_coral: Dode Orgelgralle
   tube_coral_fan: Orgelgrallnfächa
   brain_coral_fan: Herngrallnfächa
   bubble_coral_fan: Blaasngrallnfächa
-  fire_coral_fan: Feiagrallnfächa
+  fire_coral_fan: Feuagrallnfächa
   horn_coral_fan: Gweihgrallnfächa
   dead_tube_coral_fan: Doda Orgelgrallnfächa
   dead_brain_coral_fan: Doda Herngrallnfächa
   dead_bubble_coral_fan: Doda Blaasngrallnfächa
-  dead_fire_coral_fan: Doda Feiagrallnfächa
+  dead_fire_coral_fan: Doda Feuagrallnfächa
   dead_horn_coral_fan: Doda Gweihgrallnfächa
-  blue_ice: Blaueis
+  blue_ice: Blauais
   conduit: Aquisador
-  polished_granite_stairs: Poliada Graniddrebbn
-  smooth_red_sandstone_stairs: Gladde roude Sondschdoidrebbn
-  mossy_stone_brick_stairs: Bmoosde Schdoiziechldrebbn
+  polished_granite_stairs: Poliada Granidddrebbn
+  smooth_red_sandstone_stairs: Gladde roude Sandschdoidrebbn
+  mossy_stone_brick_stairs: Bmoosde Schdoiziegldrebbn
   polished_diorite_stairs: Poliada Dioriddrebbn
   mossy_cobblestone_stairs: Bmoosde Bruchschdoidrebbn
-  end_stone_brick_stairs: Endschdoiziechldrebbn
+  end_stone_brick_stairs: Endschdoiziegldrebbn
   stone_stairs: Schdoidrebbn
-  smooth_sandstone_stairs: Gladde Sandstoadreppn
+  smooth_sandstone_stairs: Gladde Sandschdoidrebbn
   smooth_quartz_stairs: Gladde Kwarzdrebbn
-  granite_stairs: Graniddrebbn
-  andesite_stairs: Andesitdrebbn
-  red_nether_brick_stairs: Roude Netherziechldrebbn
-  polished_andesite_stairs: Poliada Andesitdrebbn
+  granite_stairs: Granidddrebbn
+  andesite_stairs: Andesidddrebbn
+  red_nether_brick_stairs: Roude Netherziegldrebbn
+  polished_andesite_stairs: Poliada Andesidddrebbn
   diorite_stairs: Dioriddrebbn
-  polished_granite_slab: Poliada Granidstufn
-  smooth_red_sandstone_slab: Gladde rode Sondschdoistufn
-  mossy_stone_brick_slab: Bmoosde Stoazieglstufn
-  polished_diorite_slab: Poliada Dioridstufn
-  smooth_sandstone_slab: Gladde Sondschdoistufn
-  scaffolding: Gerüsdd
-  iron_door: Aasndür
-  oak_door: Ächaholzdür
-  spruce_door: Fichdnholzdür
-  birch_door: Berknholzdür
-  jungle_door: Droubnholzdür
-  acacia_door: Akazienholzdür
-  dark_oak_door: Schwazzächaholzdür
-  crimson_door: Karmesintür
-  warped_door: Wirrtür
+  cobbled_deepslate_stairs: Bruchdiefnschiefadrebbn
+  polished_deepslate_stairs: Poalieade Diefnschiefadrebbn
+  deepslate_brick_stairs: Diefnschiefaziegldrebbn
+  deepslate_tile_stairs: Diefnschiefafliesndrebbn
+  polished_granite_slab: Poliada Graniddschdufn
+  smooth_red_sandstone_slab: Gladde roude Sandschdoischdufn
+  mossy_stone_brick_slab: Bmoosde Stoazieglschdufn
+  polished_diorite_slab: Poliada Dioridschdufn
+  mossy_cobblestone_slab: Bmoosde Bruchschdoischdufn
+  end_stone_brick_slab: Endschdoizieglschdufn
+  smooth_sandstone_slab: Gladde Sandschdoischdufn
+  smooth_quartz_slab: Gladde Kwarzschdufn
+  granite_slab: Graniddschdufn
+  andesite_slab: Andesiddschdufn
+  red_nether_brick_slab: Roude Netherzieglschdufn
+  polished_andesite_slab: Poliada Andesiddschdufn
+  diorite_slab: Dioridschdufn
+  cobbled_deepslate_slab: Bruchdiefnschiefaschdufn
+  polished_deepslate_slab: Poalieada Diefnschiefaschdufn
+  deepslate_brick_slab: Diefnschiefazieglschdufn
+  deepslate_tile_slab: Diefnschiefafliesnschdufn
+  scaffolding: Grüsdd
+  redstone: Redstone-Staab
+  redstone_torch: Redstone-Faggl
+  redstone_block: Redstone-Blogg
   repeater: Redstone-Verstärka
+  comparator: Redstone-Kombaradoa
+  piston: Kolbm
+  sticky_piston: Klebriga Kolbm
+  slime_block: Schloimblogg
+  honey_block: Honigblogg
+  observer: Bobachda
+  hopper: Drichda
+  dispenser: Wärfa
+  dropper: Spenda
+  lectern: Lesebuld
+  target: Zielscheibenblogg
+  lever: Hebl
+  lightning_rod: Blidzableida
+  daylight_detector: Dageslichdsensoa
+  sculk_sensor: Sculk-Sensoa
+  tripwire_hook: Hakn
+  trapped_chest: Redstone-Druhe
+  tnt: DND
+  redstone_lamp: Redstone-Lambm
+  note_block: Nodnblogg
+  stone_button: Staagnobf
+  polished_blackstone_button: Poliada Schwoazschdoignobf
+  oak_button: Ächagnobf
+  spruce_button: Fichdngnobf
+  birch_button: Berkngnobf
+  jungle_button: Droubnhulzgnobf
+  acacia_button: Akazienhulzgnobf
+  dark_oak_button: Schwoazächahulzgnobf
+  crimson_button: Karmesingnobf
+  warped_button: Wirrknopf
+  stone_pressure_plate: Staadruggbladdn
+  polished_blackstone_pressure_plate: Poliada Schwoazschdoidruggbladdn
+  light_weighted_pressure_plate: Fainwägplattn
+  heavy_weighted_pressure_plate: Grobwägplattn
+  oak_pressure_plate: Ächahulzdruggbladdn
+  spruce_pressure_plate: Fichdnhulzdruggbladdn
+  birch_pressure_plate: Berknhulzdruggbladdn
+  jungle_pressure_plate: Droubnhulzdruggbladdn
+  acacia_pressure_plate: Akazienhulzdruggbladdn
+  dark_oak_pressure_plate: Schwoazächahulzdruggbladdn
+  crimson_pressure_plate: Karmesindruggbladdn
+  warped_pressure_plate: Wirrdruggbladdn
+  iron_door: Aasndüe
+  oak_door: Ächahulzdüe
+  spruce_door: Fichdnhulzdüe
+  birch_door: Berknhulzdüe
+  jungle_door: Droubnhulzdüe
+  acacia_door: Akazienhulzdüe
+  dark_oak_door: Schwoazächahulzdüe
+  crimson_door: Karmesindüe
+  warped_door: Wirrdüe
+  iron_trapdoor: Aasnfalldüe
+  oak_trapdoor: Ächahulzfalldüe
+  spruce_trapdoor: Fichdnhulzfalldüe
+  birch_trapdoor: Berknhulzfalldüe
+  jungle_trapdoor: Droubnhulzfalldüe
+  acacia_trapdoor: Akazienhulzfalldüe
+  dark_oak_trapdoor: Schwoazächahulzfalldüe
+  crimson_trapdoor: Karmesinfalldüe
+  warped_trapdoor: Wirrfalldüe
+  oak_fence_gate: Eichnhulzzauntor
+  spruce_fence_gate: Fichdnhulzzauntor
+  birch_fence_gate: Berknhulzzauntor
+  jungle_fence_gate: Droubnhulzzauntor
+  acacia_fence_gate: Akazienhulzzauntor
+  dark_oak_fence_gate: Schwoazächazauntor
+  crimson_fence_gate: Karmesinzaundüa
+  warped_fence_gate: Wirrzaundüa
+  powered_rail: Ontriebschiena
+  detector_rail: Sensorschiene
+  rail: Schiene
+  activator_rail: Agdivierungsschiene
+  saddle: Saddl
+  minecart: Lore
+  chest_minecart: Lore mid Druhe
+  furnace_minecart: Lore mid Ofn
+  tnt_minecart: Lore mid DND
+  hopper_minecart: Lore mid Drichda
+  carrot_on_a_stick: Karodde am Schdegge
+  warped_fungus_on_a_stick: Wirrpilzrudn
+  elytra: Elydre
+  oak_boat: Ächahulzbood
+  spruce_boat: Fichdnhulzbood
+  birch_boat: Berknhulzbood
+  jungle_boat: Droubnhulzbood
+  acacia_boat: Akazienhulzbood
+  dark_oak_boat: Schwoazächahulzbood
   structure_block: Konsdrugtiondsblogg
   jigsaw: Veabundsblogg
-  turtle_helmet: Schildgrednbanza
+  turtle_helmet: Schildgrödnbanza
   scute: Honnschild
   flint_and_steel: Feuazeuch
   apple: Abfl
   bow: Boochn
   arrow: Pfail
   coal: Kohl
-  diamond: Diormant
-  iron_ingot: Aasenboa
+  charcoal: Hulzkohl
+  diamond: Diormand
+  emerald: Stala
+  lapis_lazuli: Labislazuli
+  quartz: Netherkwarz
+  amethyst_shard: Amethysdscherbn
+  raw_iron: Rohaasn
+  iron_ingot: Aasnboa
+  raw_copper: Rohkupfa
+  copper_ingot: Kupfaboa
+  raw_gold: Rohgold
   gold_ingot: Goidboa
   netherite_ingot: Netheritboa
   netherite_scrap: Netheritbladdn
@@ -585,104 +720,118 @@ material:
   golden_pickaxe: Goidpickl
   golden_axe: Goidbarte
   golden_hoe: Goidhaue
-  iron_sword: Aasenschwerd
-  iron_shovel: Aasenschaufl
+  iron_sword: Aasnschwerd
+  iron_shovel: Aasnschaufl
   iron_pickaxe: Aasnpickl
-  iron_axe: Aasnaxd
-  iron_hoe: Aasenhaue
-  diamond_sword: Diormantschwerd
-  diamond_shovel: Diormantschaufl
-  diamond_pickaxe: Diormantpickl
-  diamond_axe: Diormantbarte
-  diamond_hoe: Diormanthaue
+  iron_axe: Aasnbarte
+  iron_hoe: Aasnhaue
+  diamond_sword: Diormandschwerd
+  diamond_shovel: Diormandschaufl
+  diamond_pickaxe: Diormandpickl
+  diamond_axe: Diormandbarte
+  diamond_hoe: Diormandhaue
   netherite_sword: Netheritschwead
   netherite_shovel: Netheritschaufl
   netherite_pickaxe: Netheritspitzhackn
-  netherite_axe: Netheritaxt
-  netherite_hoe: Netherithackn
+  netherite_axe: Netheritaxn
+  netherite_hoe: Netherithaue
   stick: Schdegge
   bowl: Schüssl
   mushroom_stew: Bilzsubbn
   string: Foudn
   feather: Feda
-  gunpowder: Schwazzbulva
+  gunpowder: Schwoazbulva
+  wheat_seeds: Waiznköana
   wheat: Waaz
   bread: Weggla
-  leather_helmet: Ledderkappn
-  leather_chestplate: Ledejäggle
-  leather_leggings: Ledderhusn
-  leather_boots: Ledderschdiefl
+  leather_helmet: Leddakappn
+  leather_chestplate: Leddajäggle
+  leather_leggings: Leddahuus
+  leather_boots: Leddaschdiefl
+  chainmail_helmet: Keddnhaum
+  chainmail_chestplate: Keddnhemmd
+  chainmail_leggings: Keddnhuus
+  chainmail_boots: Keddnschdiefl
   iron_helmet: Aasnhelm
-  iron_chestplate: Aasnharnisch
-  iron_leggings: Aasnhuus
+  iron_chestplate: Aasnbruasdschild
+  iron_leggings: Aasnboischuz
   iron_boots: Aasnschdiefl
-  diamond_helmet: Diormanthelm
-  diamond_chestplate: Diormantharnisch
-  diamond_leggings: Diormanthusn
-  diamond_boots: Diormantschdiefl
+  diamond_helmet: Diormandhelm
+  diamond_chestplate: Diormandbruasdschild
+  diamond_leggings: Diormandboischuz
+  diamond_boots: Diormandschdiefl
   golden_helmet: Goidhelm
-  golden_chestplate: Goidharnisch
-  golden_leggings: Goidhusn
+  golden_chestplate: Goidbruasdschild
+  golden_leggings: Goidboischuz
   golden_boots: Goidschdiefl
   netherite_helmet: Netherithelm
   netherite_chestplate: Netheritbruasdschild
-  netherite_leggings: Netherithusn
+  netherite_leggings: Netheritboischuz
   netherite_boots: Netheritschdiefl
-  flint: Feiasta
+  flint: Feuasta
   porkchop: Rohs Schweinsflasch
   cooked_porkchop: Scheiferla
   painting: Zeichnung
   golden_apple: Goidena Abfl
-  enchanted_golden_apple: Verzauberda Goidena Abfl
-  oak_sign: Eichnholzschild
-  spruce_sign: Fichdnholzschild
-  birch_sign: Berknholzschild
-  jungle_sign: Droubnholzschild
-  acacia_sign: Akazienholzschild
-  dark_oak_sign: Schwazzeichnholzschild
+  enchanted_golden_apple: Verzauberda goidena Abfl
+  oak_sign: Ächahulzschild
+  spruce_sign: Fichdnhulzschild
+  birch_sign: Berknhulzschild
+  jungle_sign: Droubnhulzschild
+  acacia_sign: Akazienhulzschild
+  dark_oak_sign: Schwoazächahulzschild
   crimson_sign: Karmesinschild
   warped_sign: Wirrschild
-  bucket: Aamer
-  water_bucket: Wasseraamer
-  lava_bucket: Lòvaaamer
-  minecart: Lore
-  saddle: Saddl
-  redstone: Redstone-Staab
+  bucket: Aima
+  water_bucket: Wassaaima
+  lava_bucket: Lovaaima
+  powder_snow_bucket: Bulverschnähaima
   snowball: Schnähbool
-  oak_boat: Ächaholzbood
-  milk_bucket: Millichaamer
-  pufferfish_bucket: Kuglfischaamer
-  salmon_bucket: Laggsaamer
+  leather: Ledda
+  milk_bucket: Milliaima
+  pufferfish_bucket: Kuglfischaima
+  salmon_bucket: Laggsaima
+  cod_bucket: Kabljauaima
+  tropical_fish_bucket: Drobnfischaima
+  axolotl_bucket: Axolodlaima
   brick: Glodds
   clay_ball: Tonklumbn
   dried_kelp_block: Schnähblūk
   paper: Babier
   book: Bouch
+  slime_ball: Schloimbool
   egg: Gaggeli
   compass: Gommbass
+  bundle: Bündl
   fishing_rod: Angl
   clock: Uah
+  spyglass: Feanroa
   glowstone_dust: Glowstonestaab
+  cod: Roha Kabljau
   salmon: Rohe Laggs
-  pufferfish: Kuglfusch
+  tropical_fish: Drobnfisch
+  pufferfish: Kuglfisch
+  cooked_cod: Gbradena Kabljau
   cooked_salmon: Gebrodna Laggs
   ink_sac: Dindnsagg
-  white_dye: Woaßa Foarbstoff
-  orange_dye: Oranger Fabbschdoff
+  glow_ink_sac: Leuchddindnbeudl
+  cocoa_beans: Kakaobohnn
+  white_dye: Woaßa Fabbschdoff
+  orange_dye: Oranga Fabbschdoff
   magenta_dye: Magenda Fabbschdoff
-  light_blue_dye: Hellblaue Fabbschdoff
-  yellow_dye: Gelber Foarbstoff
-  lime_dye: Hellgrüne Fabbschdoff
-  pink_dye: Bingge Fabbschdoff
-  gray_dye: Graue Fabbschdoff
-  light_gray_dye: Hellgraue Fabbschdoff
-  cyan_dye: Dürgise Fabbschdoff
-  purple_dye: Violedde Fabbschdoff
-  blue_dye: Blauer Foarbstoff
-  brown_dye: Broauner Foarbstoff
-  green_dye: Grüner Foarbstoff
-  red_dye: Roder Foarbstoff
-  black_dye: Schwoarzer Foarbstoff
+  light_blue_dye: Hellblaua Fabbschdoff
+  yellow_dye: Gelba Fabbschdoff
+  lime_dye: Hellgrina Fabbschdoff
+  pink_dye: Bingga Fabbschdoff
+  gray_dye: Graua Fabbschdoff
+  light_gray_dye: Hellgraua Fabbschdoff
+  cyan_dye: Dürgisa Fabbschdoff
+  purple_dye: Violedda Fabbschdoff
+  blue_dye: Blaua Fabbschdoff
+  brown_dye: Broauna Fabbschdoff
+  green_dye: Grina Fabbschdoff
+  red_dye: Rouda Fabbschdoff
+  black_dye: Schwoaza Fabbschdoff
   bone_meal: Gnochnmehl
   bone: Gnochn
   sugar: Zugga
@@ -693,20 +842,21 @@ material:
   light_blue_bed: Hellblaues Bedd
   yellow_bed: Gelbes Bedd
   lime_bed: Hellgrines Bedd
-  pink_bed: Pinkes Bedd
+  pink_bed: Bingges Bedd
   gray_bed: Graues Bedd
   light_gray_bed: Hellgraues Bedd
   cyan_bed: Dürgises Bedd
   purple_bed: Violeddes Bedd
   blue_bed: Blaues Bedd
-  brown_bed: Braunes Bedd
+  brown_bed: Broaunes Bedd
   green_bed: Grines Bedd
-  red_bed: Rodes Bedd
-  black_bed: Schwoarzes Bedd
+  red_bed: Roudes Bedd
+  black_bed: Schwoazes Bedd
   cookie: Blezla
   filled_map: Kadde
   shears: Scher
   melon_slice: Melonscheim
+  dried_kelp: Gdrocknedea Seedang
   pumpkin_seeds: Kärwissoma
   melon_seeds: Melonsoma
   beef: Rohs Rindsfleisch
@@ -717,7 +867,7 @@ material:
   ender_pearl: Enderbeale
   blaze_rod: Lohnrude
   ghast_tear: Ghastdräne
-  gold_nugget: Goidbatze
+  gold_nugget: Goidglumbn
   nether_wart: Netherwazn
   potion: Drangg
   glass_bottle: Glosbuddel
@@ -726,17 +876,20 @@ material:
   blaze_powder: Lohnschdaub
   magma_cream: Mochmagreem
   brewing_stand: Brauschdand
-  cauldron: Kessl
+  cauldron: Gessl
   ender_eye: Enderach
   glistering_melon_slice: Glitzende Melonscheim
+  axolotl_spawn_egg: Axolodl-Spawn-Gaggeli
   bat_spawn_egg: Fledamaus-Spawn-Gaggeli
-  bee_spawn_egg: Bie-Spawn-Aa
+  bee_spawn_egg: Biena-Spawn-Gaggeli
   blaze_spawn_egg: Lohn-Spawn-Gaggeli
-  cat_spawn_egg: Koatzen-Spawn-Gaggeli
+  cat_spawn_egg: Koatzn-Spawn-Gaggeli
   cave_spider_spawn_egg: Höhlnschbinn-Spawn-Gaggeli
   chicken_spawn_egg: Hüecher-Spawn-Gaggeli
-  cow_spawn_egg: Kou-Spawn-Ei
+  cod_spawn_egg: Kabljau-Spawn-Gaggeli
+  cow_spawn_egg: Kou-Spawn-Gaggeli
   creeper_spawn_egg: Creeper-Spawn-Gaggeli
+  dolphin_spawn_egg: Delfin-Spawn-Gaggeli
   donkey_spawn_egg: Esl-Spawn-Gaggeli
   drowned_spawn_egg: Erdrunggenen-Spawn-Gaggeli
   elder_guardian_spawn_egg: Großa-Wächda-Spawn-Gaggeli
@@ -745,6 +898,8 @@ material:
   evoker_spawn_egg: Mogie-Spawn-Gaggeli
   fox_spawn_egg: Fuchs-Spawn-Gaggeli
   ghast_spawn_egg: Ghast-Spawn-Gaggeli
+  glow_squid_spawn_egg: Leuchddindnfisch-Spawn-Gaggeli
+  goat_spawn_egg: Ziegn-Spawn-Gaggeli
   guardian_spawn_egg: Wächda-Spawn-Gaggeli
   hoglin_spawn_egg: Hoglin-Spawn-Gaggeli
   horse_spawn_egg: Gaul-Spawn-Gaggeli
@@ -762,23 +917,27 @@ material:
   piglin_brute_spawn_egg: Piglin-Babarn-Spawn-Gaggeli
   pillager_spawn_egg: Blündera-Spawn-Gaggeli
   polar_bear_spawn_egg: Eisbeä-Spawn-Gaggeli
-  pufferfish_spawn_egg: Kuglfusch-Spawn-Gaggeli
+  pufferfish_spawn_egg: Kuglfisch-Spawn-Gaggeli
   rabbit_spawn_egg: Karnickel-Spawn-Gaggeli
+  ravager_spawn_egg: Vawüsda-Spawn-Gaggeli
   salmon_spawn_egg: Laggs-Spawn-Gaggeli
   sheep_spawn_egg: Hämml-Spawn-Gaggeli
   shulker_spawn_egg: Shulker-Spawn-Gaggeli
   silverfish_spawn_egg: Silbefisch-Spawn-Gaggeli
   skeleton_spawn_egg: Sgeledd-Spawn-Gaggeli
-  skeleton_horse_spawn_egg: Skeleddgaul-Spawn-Gaggeli
-  slime_spawn_egg: Schleim-Spawn-Gaggeli
+  skeleton_horse_spawn_egg: Sgeleddgaul-Spawn-Gaggeli
+  slime_spawn_egg: Schloim-Spawn-Gaggeli
   spider_spawn_egg: Schbinn-Spawn-Gaggeli
   squid_spawn_egg: Dindnfisch-Spawn-Gaggeli
-  stray_spawn_egg: Eiswandera-Spawn-Gaggeli
+  stray_spawn_egg: Aiswandra-Spawn-Gaggeli
   strider_spawn_egg: Schreida-Spawn-Gaggeli
-  turtle_spawn_egg: Schildgredn-Spawn-Gaggeli
-  vex_spawn_egg: Blagegeisd-Spawn-Gaggeli
+  trader_llama_spawn_egg: Händlaloma-Spawn-Gaggeli
+  tropical_fish_spawn_egg: Drobnfisch-Spawn-Gaggeli
+  turtle_spawn_egg: Schildgrödn-Spawn-Gaggeli
+  vex_spawn_egg: Gschbensd-Spawn-Gaggeli
   villager_spawn_egg: Doefbewohne-Spawn-Gaggeli
-  vindicator_spawn_egg: Diene-Spawn-Gaggeli
+  vindicator_spawn_egg: Diena-Spawn-Gaggeli
+  wandering_trader_spawn_egg: Fahrnda-Händla-Spawn-Gaggeli
   witch_spawn_egg: Affarlaa-Spawn-Gaggeli
   wither_skeleton_spawn_egg: Withersgeledd-Spawn-Gaggeli
   wolf_spawn_egg: Wolf-Spawn-Gaggeli
@@ -786,40 +945,49 @@ material:
   zombie_spawn_egg: Zombie-Spawn-Gaggeli
   zombie_horse_spawn_egg: Zombiegaul-Spawn-Gaggeli
   zombie_villager_spawn_egg: Zombiedoefbewohne-Spawn-Gaggeli
-  zombified_piglin_spawn_egg: Zombifizierter-Piglin-Spawn-Gaggeli
-  experience_bottle: Erfohrungsfläschle
-  fire_charge: Feiaball
+  zombified_piglin_spawn_egg: Zombifizieada-Piglin-Spawn-Gaggeli
+  experience_bottle: Eafohrungsfläschla
+  fire_charge: Feuabool
   writable_book: Bouch mid Fede
   written_book: Beschriebens Bouch
-  emerald: Stala
+  item_frame: Rahmn
+  glow_item_frame: Leuchdrahmn
   flower_pot: Blumndobf
-  carrot: Gelwa Rum
+  carrot: Karoddn
   potato: Kadoffe
-  baked_potato: Gniedl
+  baked_potato: Ofnkadoffe
   poisonous_potato: Giffdiche Kadoffe
   map: Leere Kadde
   golden_carrot: Goidene Karoddn
-  skeleton_skull: Sgeleddschädl
-  wither_skeleton_skull: Withersgeleddschädl
+  skeleton_skull: Sgeleddschedl
+  wither_skeleton_skull: Withersgeleddschedl
   player_head: Schbielakupf
   zombie_head: Zombiekupf
   creeper_head: Creeperkupf
   dragon_head: Drachnkupf
-  carrot_on_a_stick: Karodde am Schdegge
-  warped_fungus_on_a_stick: Wirrpilzrudn
   nether_star: Netherschdean
   pumpkin_pie: Kärwiskuchn
-  firework_rocket: Feuawechsrachede
-  firework_star: Feuawechsschdean
+  firework_rocket: Feuaweaksrachede
+  firework_star: Feuaweaksschdean
   enchanted_book: Verzauberds Bouch
   nether_brick: Netherglödds
-  quartz: Netherquaaz
   prismarine_shard: Brismarinscherbm
   prismarine_crystals: Brismaringrissdall
+  rabbit: Rohes Kaniggl
+  cooked_rabbit: Gbratenes Kaniggl
+  rabbit_stew: Kanigglragout
+  rabbit_foot: Kanigglpfode
+  rabbit_hide: Kanigglfell
   armor_stand: Rüsdungsschdände
-  iron_horse_armor: Aasnne Pfeddrüsdung
+  iron_horse_armor: Aasne Pfeddrüsdung
   golden_horse_armor: Goidene Pfeddrüsdung
-  diamond_horse_armor: Diormantpfeddrüsdung
+  diamond_horse_armor: Diormandpfeddrüsdung
+  leather_horse_armor: Leddane Pfeddrüsdung
+  lead: Laine
+  name_tag: Noamensschild
+  command_block_minecart: Lore mid Bfehlsblogg
+  mutton: Rohes Hammlflaisch
+  cooked_mutton: Gbratenes Hammlflaisch
   white_banner: Woaßes Banner
   orange_banner: Oranges Banner
   magenta_banner: Magenda Banner
@@ -834,8 +1002,8 @@ material:
   blue_banner: Blaues Banner
   brown_banner: Broaunes Banner
   green_banner: Grines Banner
-  red_banner: Rodes Banner
-  black_banner: Schwoarzes Banner
+  red_banner: Roudes Banner
+  black_banner: Schwoazes Banner
   end_crystal: Endergrissdall
   chorus_fruit: Chorusfruchd
   popped_chorus_fruit: Geblatzde Chorusfruchd
@@ -843,20 +1011,14 @@ material:
   beetroot_seeds: Roude-Bede-Soma
   beetroot_soup: Borschtsch
   dragon_breath: Drochnadem
-  splash_potion: Wuffdrangg
+  splash_potion: Wuafdrangg
   spectral_arrow: Spekdralpfail
   tipped_arrow: Gdränkda Pfail
-  lingering_potion: Vaweildrangg
+  lingering_potion: Veaweildrangg
   shield: Schild
-  elytra: Elydre
-  spruce_boat: Fichdnholzbood
-  birch_boat: Berknholzbood
-  jungle_boat: Droubnholzbood
-  acacia_boat: Akazienholzbood
-  dark_oak_boat: Schwazzeichnbood
   totem_of_undying: Dodem der Unschdebblichgaad
   shulker_shell: Shulkerschole
-  iron_nugget: Aasenbatze
+  iron_nugget: Aasnglumbn
   knowledge_book: Bouch des Wissns
   debug_stick: Debug-Schdegge
   music_disc_13: Schallbladdn
@@ -872,10 +1034,12 @@ material:
   music_disc_11: Schallbladdn
   music_disc_wait: Schallbladdn
   music_disc_pigstep: Schallbladdn
-  trident: Dreezagg
+  trident: Draizagg
   phantom_membrane: Phandomhaud
   nautilus_shell: Naudilusschole
   heart_of_the_sea: Hätz vom Meer
+  crossbow: Aambrusd
+  suspicious_stew: Seldsame Suppn
   loom: Webstuhl
   flower_banner_pattern: Bannermuschder
   creeper_banner_pattern: Bannermuschder
@@ -887,64 +1051,87 @@ material:
   barrel: Fässla
   smoker: Räuchaofn
   blast_furnace: Schmelzofn
-  cartography_table: Kardntisch
+  cartography_table: Kaddndisch
   fletching_table: Bognertisch
   grindstone: Schleifstaa
   smithing_table: Schmiedetisch
-  stonecutter: Stoasäch
+  stonecutter: Schdoisäch
   bell: Glockn
-  lantern: Loaterne
-  soul_lantern: Seelelaterne
+  lantern: Ladeane
+  soul_lantern: Seelnlaterne
+  sweet_berries: Süßbeean
+  glow_berries: Leuchdbeean
   campfire: Lachafeua
   soul_campfire: Seelnlagafeua
   shroomlight: Pilzliachd
   honeycomb: Honichwòwe
   bee_nest: Bienanest
-  beehive: Bienastogg
+  beehive: Bienaschdogg
   honey_bottle: Honichbuddel
-  honey_block: Honigblogg
   honeycomb_block: Knochnblogg
   lodestone: Leidstoa
-  netherite_block: Netheritblock
-  ancient_debris: Antiker Schutt
-  target: Zielscheibenblogg
-  crying_obsidian: Weinender Obsidian
-  blackstone: Schwoarzstaa
-  blackstone_slab: Schwoazstoastufn
-  blackstone_stairs: Schwoarzschdoidrebbn
-  gilded_blackstone: Goaldduachzochena Schwoazstoa
-  polished_blackstone: Poliada Schwoazstoa
-  polished_blackstone_slab: Poliada Schwoazstoabladdn
-  polished_blackstone_stairs: Poliada Schwoarzschdoiadrebbn
-  chiseled_polished_blackstone: Gmeißelda poliada Schwoazstoa
-  polished_blackstone_bricks: Poliada Schwoazstoaziegl
-  polished_blackstone_brick_slab: Poliada Schwoazstoazieglbladdn
-  polished_blackstone_brick_stairs: Poliada Schwoarzschdoiziechldrebbn
-  cracked_polished_blackstone_bricks: Rissiga poliada Schwoazstoaziegl
+  crying_obsidian: Weinenda Obsidian
+  blackstone: Schwoazschdoi
+  blackstone_slab: Schwoazschdoischdufn
+  blackstone_stairs: Schwoazschdoidrebbn
+  gilded_blackstone: Goidduachzochena Schwoazschdoi
+  polished_blackstone: Poliada Schwoazschdoi
+  polished_blackstone_slab: Poliada Schwoazschdoischdufn
+  polished_blackstone_stairs: Poliada Schwoazschdoidrebbn
+  chiseled_polished_blackstone: Gmeißelda poliada Schwoazschdoi
+  polished_blackstone_bricks: Poliada Schwoazschdoiziegl
+  polished_blackstone_brick_slab: Poliada Schwoazschdoizieglschdufn
+  polished_blackstone_brick_stairs: Poliada Schwoazschdoiziegldrebbn
+  cracked_polished_blackstone_bricks: Rissicha poliada Schwoazschdoiziegl
   respawn_anchor: Seelnanka
-  water: Wasser
-  lava: Lòva
+  candle: Kirza
+  white_candle: Woeißa Kirza
+  orange_candle: Oranga Kirza
+  magenta_candle: Magenda Kirza
+  light_blue_candle: Hellblaua Kirza
+  yellow_candle: Gelba Kirza
+  lime_candle: Hellgrina Kirza
+  pink_candle: Bingge Kirza
+  gray_candle: Graue Kirza
+  light_gray_candle: Hellgraue Kirza
+  cyan_candle: Dürgise Kirza
+  purple_candle: Violedde Kirza
+  blue_candle: Blaua Kirza
+  brown_candle: Broauna Kirza
+  green_candle: Grina Kirza
+  red_candle: Roude Kirza
+  black_candle: Schwoaze Kirza
+  small_amethyst_bud: Glane Amethysdknosb
+  medium_amethyst_bud: Mittläre Amethysdknosb
+  large_amethyst_bud: Große Amethysdknosb
+  amethyst_cluster: Amethysdhaafn
+  pointed_dripstone: Spitza Droapfstoa
+  water: Wassa
+  lava: Lova
   tall_seagrass: Hoch’s Seegroos
-  piston_head: Kolmkupf
+  piston_head: Kolbmkupf
   moving_piston: Bwegda Blogg
-  wall_torch: Kohlwandfackl
+  wall_torch: Kohlwandfaggl
   fire: Feua
   soul_fire: Seelnfeua
   redstone_wire: Redstone-Kobl
-  oak_wall_sign: Eichnwandschild
-  spruce_wall_sign: Fichdnholzwandschild
-  birch_wall_sign: Berknholzwandschild
-  acacia_wall_sign: Akazienholzwandschild
-  jungle_wall_sign: Droubnholzwandschild
-  dark_oak_wall_sign: Schwazzeichnholzwandschild
-  redstone_wall_torch: Redstone-Wandfackl
-  soul_wall_torch: Seelnwandfackl
-  nether_portal: Netherportal
+  oak_wall_sign: Ächahulzwandschild
+  spruce_wall_sign: Fichdnhulzwandschild
+  birch_wall_sign: Berknhulzwandschild
+  acacia_wall_sign: Akazienhulzwandschild
+  jungle_wall_sign: Droubnhulzwandschild
+  dark_oak_wall_sign: Schwoazächahulzwandschild
+  redstone_wall_torch: Redstone-Wandfaggl
+  soul_wall_torch: Seelnwandfaggl
+  nether_portal: Netherpoadal
   attached_pumpkin_stem: Küabisrankn
   attached_melon_stem: Küabisrankn
   pumpkin_stem: Küabispflanzn
   melon_stem: Melonpflanzn
-  end_portal: Endportal
+  water_cauldron: Wassagessl
+  lava_cauldron: Lovagessl
+  powder_snow_cauldron: Bulverschnähgessl
+  end_portal: Endpoadal
   cocoa: Kakao
   tripwire: Stolbadrahd
   potted_oak_sapling: Eingetopfta Ächasetzling
@@ -952,29 +1139,29 @@ material:
   potted_birch_sapling: Eingetopfta Berknsetzling
   potted_jungle_sapling: Eingetopfta Droubnboamsetzling
   potted_acacia_sapling: Eingetopfta Akaziensetzling
-  potted_dark_oak_sapling: Eingetopfta Schwoazeichnsetzling
+  potted_dark_oak_sapling: Eingetopfta Schwoazächasetzling
   potted_fern: Eingetopfta Faan
-  potted_dandelion: Eingetopfta Löwnzah
-  potted_poppy: Eingetopfta Mohn
+  potted_dandelion: Eingetopfta Lewnzohn
+  potted_poppy: Eingetopfta Mōn
   potted_blue_orchid: Eingetopfta blaua Orchideen
   potted_allium: Eingetopfta Ziealauch
   potted_azure_bluet: Eingetopfta Boazellansteanchn
   potted_red_tulip: Eingetopfta roude Dulbn
   potted_orange_tulip: Eingetopfta orange Dulbn
-  potted_white_tulip: Eingetopfta woeißa Dulbn
+  potted_white_tulip: Eingetopfta woaßa Dulbn
   potted_pink_tulip: Eingetopfta bingge Dulbn
   potted_oxeye_daisy: Eingetopfta Magaride
   potted_cornflower: Eingetopfta Kornbluma
   potted_lily_of_the_valley: Eingetopfta Maiglöckchn
-  potted_wither_rose: Eingetopfta Witherrosn
+  potted_wither_rose: Eingetopfta Witherrousn
   potted_red_mushroom: Eingetopfta rouda Bilz
   potted_brown_mushroom: Eingetopfta broauna Bilz
-  potted_dead_bush: Eingetopfta totta Busch
+  potted_dead_bush: Eingetopfta doda Bischl
   potted_cactus: Eingetopfta Kakdus
   carrots: Gelba Rübn
   potatoes: Eardäpfl
-  skeleton_wall_skull: Sgeledd-Wandschädl
-  wither_skeleton_wall_skull: Withersgeledd-Wandschädl
+  skeleton_wall_skull: Sgeledd-Wandschedl
+  wither_skeleton_wall_skull: Withersgeledd-Wandschedl
   zombie_wall_head: Zombie-Wandkupf
   player_wall_head: Schbiela-Wandkupf
   creeper_wall_head: Creeper-Wandkupf
@@ -993,85 +1180,327 @@ material:
   blue_wall_banner: Blaues Banner
   brown_wall_banner: Broaunes Banner
   green_wall_banner: Grines Banner
-  red_wall_banner: Rodes Banner
-  black_wall_banner: Schwoarzes Banner
+  red_wall_banner: Roudes Banner
+  black_wall_banner: Schwoazes Banner
   beetroots: Rode Bede
-  end_gateway: Enddransidportal
-  frosted_ice: gefrones Eis
+  end_gateway: Enddransidpoadal
+  frosted_ice: Brüchiges Ais
   kelp_plant: Seetangstängel
   dead_tube_coral_wall_fan: Doda Orgelgrallnwandfächa
   dead_brain_coral_wall_fan: Doda Herngrallnwandfächa
   dead_bubble_coral_wall_fan: Doda Blaasngrallnwandfächa
-  dead_fire_coral_wall_fan: Doda Feiagrallnwandfächa
+  dead_fire_coral_wall_fan: Doda Feuagrallnwandfächa
   dead_horn_coral_wall_fan: Doda Gweihgrallnwandfächa
   tube_coral_wall_fan: Orgelgrallnwandfächa
   brain_coral_wall_fan: Herngrallnwandfächa
   bubble_coral_wall_fan: Blaasngrallnwandfächa
-  fire_coral_wall_fan: Feiagrallnwandfächa
+  fire_coral_wall_fan: Feuagrallnwandfächa
   horn_coral_wall_fan: Gweihgrallnwandfächa
-  bamboo_sapling: Bambussprössling
+  bamboo_sapling: Bambussprösslin
   potted_bamboo: Eingetopfta Bambus
   void_air: Leernlufd
-  cave_air: Höhnlufd
+  cave_air: Höhlnlufd
   bubble_column: Blasnsäule
+  sweet_berry_bush: Süßbeernschtrach
   weeping_vines_plant: Trauerranknpflanz
   twisting_vines_plant: Zwiablranknpflanz
   crimson_wall_sign: Karmesinwandschild
   warped_wall_sign: Wirrwandschild
-  potted_crimson_fungus: Eingetopfter Karmesinpilz
-  potted_warped_fungus: Eingetopfter Wirrpilz
-  potted_crimson_roots: Eingetopfte Karmesinwurzeln
-  potted_warped_roots: Eingetopfte Wirrwurzeln
+  potted_crimson_fungus: Eingedopfda Karmesinbilz
+  potted_warped_fungus: Eingedopfda Wirrbilz
+  potted_crimson_roots: Eingedopfde Karmesinwuazeln
+  potted_warped_roots: Eingedopfde Wirrwuazeln
+  candle_cake: Kuchn midn Kirza
+  white_candle_cake: Kuchn midn woaßa Kirza
+  orange_candle_cake: Kuchn midn oranga Kirza
+  magenta_candle_cake: Kuchn midn magenda Kirza
+  light_blue_candle_cake: Kuchn midn hellblaua Kirza
+  yellow_candle_cake: Kuchn midn gelba Kirza
+  lime_candle_cake: Kuchn midn hellgrina Kirza
+  pink_candle_cake: Kuchn midn bingga Kirza
+  gray_candle_cake: Kuchn midn graua Kirza
+  light_gray_candle_cake: Kuchn midn hellgraua Kirza
+  cyan_candle_cake: Kuchn midn dürgisa Kirza
+  purple_candle_cake: Kuchn midn violedda Kirza
+  blue_candle_cake: Kuchn midn blaua Kirza
+  brown_candle_cake: Kuchn midn broauna Kirza
+  green_candle_cake: Kuchn midn grina Kirza
+  red_candle_cake: Kuchn midn rouda Kirza
+  black_candle_cake: Kuchn midn schwoaza Kirza
+  powder_snow: Bulverschnäh
+  cave_vines: Höhlnrankn
+  cave_vines_plant: Höhlnranknpflanzn
+  big_dripleaf_stem: Großa Dropfbladdstiel
+  potted_azalea_bush: Eingetopfte Azalee
+  potted_flowering_azalea_bush: Eingetopfte blühnde Azalee
+  grass_path: Dramblpfoad
   zombie_pigman_spawn_egg: Schweinszombie-Spawn-Gaggeli
   cactus_green: Kaggdusgrün
   rose_red: Rosnroud
   sign: Schild
 biome:
+  ocean: Ozean
+  plains: Ebne
   mountains: Berche
+  forest: Wold
+  taiga: Taiga
+  swamp: Sumpf
+  river: Fluss
   nether_wastes: Nether-Ödland
+  the_end: Des Ende
+  frozen_ocean: Veaeisda Ozean
+  frozen_river: Veaeisda Fluss
+  snowy_tundra: Veaschneide Tundra
+  snowy_mountains: Veaschneide Beache
+  mushroom_fields: Bilzland
+  mushroom_field_shore: Bilzlandgüsde
+  desert_hills: Wüsdnhügl
   wooded_hills: Woldhügl
-  jungle: Drobn
-  dark_forest: Dichder Wald
+  taiga_hills: Taigahügl
+  mountain_edge: Beachrand
+  jungle: Droubn
+  jungle_hills: Droubnhügl
+  jungle_edge: Dschunglrand
+  stone_shore: Felsküsdn
+  birch_forest: Berknwold
+  birch_forest_hills: Berknwoldhügl
+  dark_forest: Dichder Wold
+  snowy_taiga: Veaschneide Taiga
+  snowy_taiga_hills: Veaschneida Taigahügl
+  giant_tree_taiga: Riesnbaumtaiga
+  giant_tree_taiga_hills: Riesnbaumtaigahügl
   wooded_mountains: Woldbärche
-  dark_forest_hills: Dichder Hüglwald
-  soul_sand_valley: Seelensandtal
-  crimson_forest: Karmesinwald
-  warped_forest: Wirrwald
-  basalt_deltas: Basalddeldas
+  savanna: Savanne
+  savanna_plateau: Savannenhochebne
+  badlands: Taflbeach
+  wooded_badlands_plateau: Taflbeachwaldhochebne
+  badlands_plateau: Taflbeachhochebne
+  small_end_islands: Glane Endinsl
+  end_midlands: End-Middlland
+  end_highlands: End-Hochland
+  end_barrens: End-Kagland
+  warm_ocean: Wama Ozean
+  lukewarm_ocean: Lauwama Ozean
+  the_void: Des Nix
+  sunflower_plains: Sonnenblumenebne
+  desert_lakes: Wüsdnseen
+  gravelly_mountains: Gröllbeache
+  flower_forest: Blumanwold
+  taiga_mountains: Taigabeache
+  swamp_hills: Sumpfhügl
+  ice_spikes: Aiszapfndundra
+  modified_jungle: Dschungl (Variandn)
+  modified_jungle_edge: Dschunglrand (Variandn)
+  tall_birch_forest: Höchberknwold
+  tall_birch_hills: Höchberknwoldhügl
+  dark_forest_hills: Dichder Hüglwold
+  snowy_taiga_mountains: Veaschneide Taigabeache
+  giant_spruce_taiga: Riesnfichdntaiga
+  giant_spruce_taiga_hills: Riesnfichdntaigahügl
+  modified_gravelly_mountains: Gröllbeache (Variandn)
+  shattered_savanna: Zeaklüfdede Savanne
+  shattered_savanna_plateau: Zeaklüfdede Savannenhochebne
+  eroded_badlands: Abgedrachena Taflbeach
+  modified_wooded_badlands_plateau: Taflbeachwaldhochebne (Variandn)
+  modified_badlands_plateau: Taflbeachhochebne (Variandn)
+  bamboo_jungle: Bambusdschungl
+  bamboo_jungle_hills: Bambusdschunglhügl
+  soul_sand_valley: Seelnsanddal
+  crimson_forest: Karmesinwold
+  warped_forest: Wirrwold
+  basalt_deltas: Basaldddeldas
+  dripstone_caves: Tropfstoahöhln
+  lush_caves: Übbige Höhln
 enchantment:
+  protection: Schutz
+  fire_protection: Feuaschutz
+  feather_falling: Fedafall
+  blast_protection: Exblosionsschutz
+  projectile_protection: Schusssicha
+  respiration: Admung
+  aqua_affinity: Wassaaffinidäd
+  thorns: Doanen
+  depth_strider: Wassaläufa
+  frost_walker: Aisläufa
+  binding_curse: Fluch dea Bindung
+  sharpness: Schäafä
+  smite: Bann
+  bane_of_arthropods: Veadeabn dea Gliedafüßla
+  knockback: Rüggstoß
+  fire_aspect: Vabrnnung
+  looting: Blündarung
+  sweeping: Schwungkrafd
+  efficiency: Effizienz
+  silk_touch: Behudsamkeid
+  unbreaking: Haldbakeid
+  fortune: Glügg
+  power: Stärkn
+  punch: Schloach
+  flame: Flamme
+  infinity: Unendlichkeid
+  luck_of_the_sea: Glügg des Meeas
+  lure: Köda
+  loyalty: Dreue
+  impaling: Habune
+  riptide: Soch
+  channeling: Endladung
+  multishot: Meafachschuss
+  quick_charge: Schnellladn
+  piercing: Duachschuss
+  mending: Rebaradua
+  vanishing_curse: Fluch des Veaschwindns
   soul_speed: Seelnläufa
 potion:
-  water: Wasserbuddel
+  uncraftable: Net brauchbara Drangg
+  water: Wassabuddel
+  mundane: Gwöhnlicha Drangg
+  thick: Dickflüssiga Drangg
+  awkward: Seldsama Drangg
+  night_vision: Drangg dea Nachdsichd
+  invisibility: Drangg dea Unsichdbakeid
+  jump: Drangg dea Sprungkrafd
+  fire_resistance: Drangg dea Feuaresisdenz
+  speed: Drangg dea Schnellichkeid
+  slowness: Drangg dea Langsamkeid
+  water_breathing: Drangg dea Undawassaadmung
+  instant_heal: Drangg dea Hailung
+  instant_damage: Drangg des Schadns
+  poison: Drangg dea Veagifdung
+  regen: Drangg dea Regeneration
+  strength: Drangg dea Stärkn
+  weakness: Drangg dea Schwächn
+  luck: Drangg des Glücks
+  turtle_master: Drangg des Schildkrödnmaistas
+  slow_falling: Drangg des sanfdn Fallns
+splash_potion:
+  uncraftable: Net brauchbara Drangg
+  water: Weafbare Wassabuddel
+  mundane: Gwöhnlicha Wuafdrangg
+  thick: Dickflüssiga Wuafdrangg
+  awkward: Seldsama Wuafdrangg
+  night_vision: Wuafdrangg dea Nachdsichd
+  invisibility: Wuafdrangg dea Unsichdbakeid
+  jump: Wuafdrangg dea Sprungkrafd
+  fire_resistance: Wuafdrangg dea Feuaresisdenz
+  speed: Wuadrangg dea Schnellichkeid
+  slowness: Wuafdrangg dea Langsamkeid
+  water_breathing: Wuafdrangg dea Undawassaadmung
+  instant_heal: Wuafdrangg dea Hailung
+  instant_damage: Wuafdrangg des Schadns
+  poison: Wuafdrangg dea Veagifdung
+  regen: Wuafdrangg dea Regeneration
+  strength: Wuafdrangg dea Stärkn
+  weakness: Wuafdrangg dea Schwächn
+  luck: Wuafdrangg des Glücks
+  turtle_master: Wuafdrangg des Schildkrödnmaistas
+  slow_falling: Wuafdrangg des sanfdn Fallns
+lingering_potion:
+  uncraftable: Ned brauchbara Veaweildrangg
+  water: Veaweilnde Wassabuddel
+  mundane: Gwöhnlicha Veaweildrangg
+  thick: Dickflüssiga Veaweildrangg
+  awkward: Seldsama Veaweildrangg
+  night_vision: Veaweildrangg dea Nachdsichd
+  invisibility: Veaweildrangg dea Unsichdbakeid
+  jump: Veaweildrangg dea Sprungkrafd
+  fire_resistance: Veaweildrangg dea Feuaresisdenz
+  speed: Veaweildrangg dea Schnellichkeid
+  slowness: Veaweildrangg dea Langsamkeid
+  water_breathing: Veaweildrangg dea Undawassaadmung
+  instant_heal: Veaweildrangg dea Hailung
+  instant_damage: Veaweildrangg des Schadns
+  poison: Veaweildrangg dea Veagifdung
+  regen: Veaweildrangg dea Regeneration
+  strength: Veaweildrangg dea Stärkn
+  weakness: Veaweildrangg dea Schwächn
+  luck: Veaweildrangg des Glücks
+  turtle_master: Veaweildrangg des Schildkrödnmaistas
+  slow_falling: Veaweildrangg des sanfdn Fallns
+tipped_arrow:
+  uncraftable: Ned heastellbara gdränkda Pfail
+  water: Nassa Pfail
+  mundane: Gdränkda Pfail
+  thick: Gdränkda Pfail
+  awkward: Gdränkda Pfail
+  night_vision: Pfail dea Nachdsichd
+  invisibility: Pfail dea Unsichdbakeid
+  jump: Pfail dea Sprungkrafd
+  fire_resistance: Pfail dea Feuaresisdenz
+  speed: Pfail dea Schnelligkeid
+  slowness: Pfail dea Langsamkeid
+  water_breathing: Pfail dea Undawassaadmung
+  instant_heal: Pfail dea Hailung
+  instant_damage: Pfail des Schadns
+  poison: Pfail dea Veagifdung
+  regen: Pfail dea Regeneration
+  strength: Pfail dea Stärkn
+  weakness: Pfail dea Schwächn
+  luck: Pfail des Glücks
+  turtle_master: Pfail des Schildkrödnmaistas
+  slow_falling: Pfail des sanfdn Fallns
 entity:
+  dropped_item: Gechnschdand
+  experience_orb: Eafohrungsbool
+  area_effect_cloud: Badiklwolkn
   elder_guardian: Großa Wächda
   wither_skeleton: Withersgeledd
-  stray: Eiswandera
+  stray: Aiswandra
+  egg: Gworfnes Gaggeli
+  leash_hitch: Lainenknodn
+  painting: Gmälde
+  arrow: Pfail
   snowball: Schnähbool
   fireball: Feuakugl
+  small_fireball: Glane Feuakugl
+  ender_pearl: Gworfene Enderbeale
+  ender_signal: Endaochn
+  splash_potion: Drangg
+  thrown_exp_bottle: Gworfnes Eafohrungsfläschla
+  item_frame: Rahmn
+  wither_skull: Witherschädl
+  primed_tnt: Gzündedes DND
+  falling_block: Fallnda Blogg
+  firework: Feuaweaksrachede
   husk: Wüsdnzombie
+  spectral_arrow: Spekdralpfail
+  shulker_bullet: Shulkagschoss
+  dragon_fireball: Drachn-Feuakugl
   zombie_villager: Zombiedoefbewohne
-  skeleton_horse: Skeleddgaul
+  skeleton_horse: Sgeleddgaul
   zombie_horse: Zombiegaul
+  armor_stand: Rüsdungsschdända
   donkey: Esl
   mule: Mauldier
+  evoker_fangs: Fangzähn
   evoker: Mogie
   vex: Gschbensd
-  vindicator: Diene
+  vindicator: Diena
+  illusioner: Illusionisd
+  minecart_command: Lore mid Bfehlsblogg
   boat: Bood
+  minecart: Lore
+  minecart_chest: Lore mid Druhe
+  minecart_furnace: Lore mid Ofn
+  minecart_tnt: Lore mid DND
+  minecart_hopper: Lore mid Drichda
+  minecart_mob_spawner: Lore mid Spawna
   creeper: Creeper
   skeleton: Sgeledd
   spider: Schbinn
+  giant: Gigand
   zombie: Zombie
-  slime: Schleim
+  slime: Schloim
   ghast: Ghast
-  zombified_piglin: Zombifiziada Piglin
+  zombified_piglin: Zombifizieada Piglin
   enderman: Enderman
   cave_spider: Höhlnschbinn
   silverfish: Silbefisch
   blaze: Lohe
   magma_cube: Mochmawüffel
+  ender_dragon: Endadrachn
+  wither: Wither
   bat: Fledamaus
-  witch: Afferlaa
+  witch: Affarlaa
   endermite: Endermidn
   guardian: Wächda
   shulker: Shulker
@@ -1082,31 +1511,93 @@ entity:
   squid: Dindnfisch
   wolf: Wolf
   mushroom_cow: Mooshroom
+  snowman: Schnähgolm
+  ocelot: Ozlod
+  iron_golem: Aasngolm
   horse: Gaul
   rabbit: Karnickel
   polar_bear: Eisbeä
   llama: Loma
+  llama_spit: Lomaschbugge
   parrot: Babagei
   villager: Doefbewohne
-  turtle: Schildgredn
+  ender_crystal: Endagrisdall
+  turtle: Schildgröde
   phantom: Phandom
+  trident: Draizagg
+  cod: Kabljau
   salmon: Laggs
   pufferfish: Kuglfisch
+  tropical_fish: Drobnfisch
   drowned: Erdrunggena
+  dolphin: Delphin
   cat: Koatzn
   panda: Poanda
   pillager: Blündera
+  ravager: Vawüsda
+  trader_llama: Händlaloma
+  wandering_trader: Fahrnda Händla
   fox: Fuchs
-  bee: Bie
+  bee: Biena
   hoglin: Hoglin
   piglin: Piglin
   strider: Schreida
   zoglin: Zoglin
   piglin_brute: Piglin-Babar
-  lightning: Blitz
+  axolotl: Axolodl
+  glow_item_frame: Leuchdrahmn
+  glow_squid: Leuchddindnfisch
+  goat: Beachziegn
+  marker: Marka
+  fishing_hook: Schwimma
+  lightning: Blidz
   player: Schbiela
+effect:
+  speed: Schnellichkeid
+  slow: Langsamkeid
+  fast_digging: Aile
+  slow_digging: Abbaulähmung
+  increase_damage: Stärkn
+  heal: Direkdhailung
+  harm: Direkdschadn
+  jump: Sprungkrafd
+  confusion: Üblkeid
+  regeneration: Regeneration
+  damage_resistance: Wiedastand
+  fire_resistance: Feuaschutz
+  water_breathing: Untawassaatmung
+  invisibility: Unsichdbakeid
+  blindness: Blindheid
+  night_vision: Nachdsichd
+  hunger: Hunga
+  weakness: Schwächn
+  poison: Veagifdung
+  wither: Ausdörrung
+  health_boost: Exdraeneagie
+  absorption: Absoabtion
+  saturation: Säddichung
+  glowing: Leuchdn
+  levitation: Schwebekrafd
+  luck: Glück
+  unluck: Pech
+  slow_falling: Sanfda Fall
+  conduit_power: Meerskrafd
+  dolphins_grace: Gunsd des Delfins
+  bad_omen: Böses Omen
+  hero_of_the_village: Held des Doafs
 tropical_fish_type:
-  sunstreak: Sonstroafnfisch
+  kob: Drommlafisch
+  sunstreak: Sonn'nstraifnfisch
+  snooper: Schnüffla
+  dasher: Flidza
+  brinely: Soalzfisch
+  spotty: Fleggn-Libbnfisch
+  flopper: Bladscha
+  stripey: Schdreifla
+  glitter: Glidzafisch
+  blockfish: Bloggfisch
+  betty: Beidschnfisch
+  clayfish: Lehmfisch
 dye_color:
   white: Woaß
   orange: Orange
@@ -1123,117 +1614,139 @@ dye_color:
   brown: Broaun
   green: Grin
   red: Roud
-  black: Schwoarz
+  black: Schwoaz
 named:
   player_head_named: Kupf von %s
   potion_with_amplifier: '%s %s'
   potion_with_duration: '%s (%s)'
+  none_effects: Wiakunglos
 tropical_fish_name:
+  '117506305': Anemone
+  '117899265': Schwoaza Seglflossndogda
+  '185008129': Blaua Seglflossndogda
+  '117441793': Faldafisch
+  '118161664': Bundbasch
+  '65536': Clownfisch
+  '50726144': Zuggawaddn-Kampffisch
+  '67764993': Zwerchbasch
+  '234882305': Kaisa-Schnabba
+  '67110144': Meabarbn
+  '117441025': Halfdafisch
+  '16778497': Orangschdraifn-Faldafisch
   '101253888': Babageifisch
+  '50660352': Diadem-Brachdkaisafisch
+  '918529': Rouda Bundbasch
+  '235340288': Ruodlibbn-Schlaimfisch
+  '918273': Rouda Schnabba
+  '67108865': Fingafisch
+  '917504': Roda Anemonnfisch
+  '459008': Drüggafisch
+  '67699456': Gelbschwoanz-Babageifisch
+  '67371009': Gelba Seglflossndogda
 colored_shied:
   white: Woaßa Schild
   orange: Oranga Schild
   magenta: Magenda Schild
   light_blue: Hellblaua Schild
   yellow: Gelba Schild
-  lime: Hellgrüner Schild
+  lime: Hellgrina Schild
   pink: Bingga Schild
-  gray: Grauer Schild
+  gray: Graua Schild
   light_gray: Hellgraua Schild
   cyan: Dürgisa Schild
   purple: Violedda Schild
-  blue: Blauer Schild
+  blue: Blaua Schild
   brown: Broauna Schild
-  green: Grüner Schild
+  green: Grina Schild
   red: Rouda Schild
-  black: Schwoarza Schild
+  black: Schwoaza Schild
 banner_pattern:
-  '65536': Woaßes rächdes Ünnareck
-  '65537': Oranges rächdes Ünnareck
-  '65538': Magenda rächdes Ünnareck
-  '65539': Hellblaues rächdes Ünnareck
-  '65540': Gelbes rächdes Ünnareck
-  '65541': Hellgrines rächdes Ünnareck
-  '65542': Bingges rächdes Ünnareck
-  '65543': Graues rächdes Ünnareck
-  '65544': Hellgraues rächdes Ünnareck
-  '65545': Dürgises rächdes Ünnareck
-  '65546': Violeddes rächdes Ünnareck
-  '65547': Blaues rächdes Ünnareck
-  '65548': Broaunes rächdes Ünnareck
-  '65549': Grines rächdes Ünnareck
-  '65550': Rodes rächdes Ünnareck
-  '65551': Schwoarzes rächdes Ünnareck
-  '131072': Woaßes linkes Ünnareck
-  '131073': Oranges linkes Ünnareck
-  '131074': Magenda linkes Ünnareck
-  '131075': Hellblaues linkes Ünnareck
-  '131076': Gelbes linkes Ünnareck
-  '131077': Hellgrines linkes Ünnareck
-  '131078': Bingges linkes Ünnareck
-  '131079': Graues linkes Ünnareck
-  '131080': Hellgraues linkes Ünnareck
-  '131081': Dürgises linkes Ünnareck
-  '131082': Violeddes linkes Ünnareck
-  '131083': Blaues linkes Ünnareck
-  '131084': Broaunes linkes Ünnareck
-  '131085': Grines linkes Ünnareck
-  '131086': Roudes linkes Ünnareck
-  '131087': Schwoarzes linkes Ünnareck
-  '196608': Woaßes rächdes Ouwaeck
-  '196609': Oranges rächdes Ouwaeck
-  '196610': Magenda rächdes Ouwaeck
-  '196611': Hellblaues rächdes Ouwaeck
-  '196612': Gelbes rächdes Ouwaeck
-  '196613': Hellgrines rächdes Ouwaeck
-  '196614': Bingges rächdes Ouwaeck
-  '196615': Graues rächdes Ouwaeck
-  '196616': Hellgraues rächdes Ouwaeck
-  '196617': Dürgises rächdes Ouwaeck
-  '196618': Violeddes rächdes Ouwaeck
-  '196619': Blaues rächdes Ouwaeck
-  '196620': Broaunes rächdes Ouwaeck
-  '196621': Grines rächdes Ouwaeck
-  '196622': Roudes rächdes Ouwaeck
-  '196623': Schwoarzes rächdes Ouwaeck
-  '262144': Woaßes linkes Ouwaeck
-  '262145': Oranges linkes Ouwaeck
-  '262146': Magenda linkes Ouwaeck
-  '262147': Hellblaues linkes Ouwaeck
-  '262148': Gelbes linkes Ouwaeck
-  '262149': Hellgriner linkes Ouwaeck
-  '262150': Bingges linkes Ouwaeck
-  '262151': Graues linkes Ouwaeck
-  '262152': Hellgraues linkes Ouwaeck
-  '262153': Dürgises linkes Ouwaeck
-  '262154': Violeddes linkes Ouwaeck
-  '262155': Blaues linkes Ouwaeck
-  '262156': Broaunes linkes Ouwaeck
-  '262157': Grines linkes Ouwaeck
-  '262158': Roudes linkes Ouwaeck
-  '262159': Schwoarzes linkes Ouwaeck
+  '65536': Woaßes rechdes Ünnareck
+  '65537': Oranges rechdes Ünnareck
+  '65538': Magenda rechdes Ünnareck
+  '65539': Hellblaues rechdes Ünnareck
+  '65540': Gelbes rechdes Ünnareck
+  '65541': Hellgrines rechdes Ünnareck
+  '65542': Bingges rechdes Ünnareck
+  '65543': Graues rechdes Ünnareck
+  '65544': Hellgraues rechdes Ünnareck
+  '65545': Dürgises rechdes Ünnareck
+  '65546': Violeddes rechdes Ünnareck
+  '65547': Blaues rechdes Ünnareck
+  '65548': Broaunes rechdes Ünnareck
+  '65549': Grines rechdes Ünnareck
+  '65550': Roudes rechdes Ünnareck
+  '65551': Schwoazes rechdes Ünnareck
+  '131072': Woaßes linges Ünnareck
+  '131073': Oranges linges Ünnareck
+  '131074': Magenda linges Ünnareck
+  '131075': Hellblaues linges Ünnareck
+  '131076': Gelbes linges Ünnareck
+  '131077': Hellgrines linges Ünnareck
+  '131078': Bingges linges Ünnareck
+  '131079': Graues linges Ünnareck
+  '131080': Hellgraues linges Ünnareck
+  '131081': Dürgises linges Ünnareck
+  '131082': Violeddes linges Ünnareck
+  '131083': Blaues linges Ünnareck
+  '131084': Broaunes linges Ünnareck
+  '131085': Grines linges Ünnareck
+  '131086': Roudes linges Ünnareck
+  '131087': Schwoazes linges Ünnareck
+  '196608': Woaßes rechdes Ouwaeck
+  '196609': Oranges rechdes Ouwaeck
+  '196610': Magenda rechdes Ouwaeck
+  '196611': Hellblaues rechdes Ouwaeck
+  '196612': Gelbes rechdes Ouwaeck
+  '196613': Hellgrines rechdes Ouwaeck
+  '196614': Bingges rechdes Ouwaeck
+  '196615': Graues rechdes Ouwaeck
+  '196616': Hellgraues rechdes Ouwaeck
+  '196617': Dürgises rechdes Ouwaeck
+  '196618': Violeddes rechdes Ouwaeck
+  '196619': Blaues rechdes Ouwaeck
+  '196620': Broaunes rechdes Ouwaeck
+  '196621': Grines rechdes Ouwaeck
+  '196622': Roudes rechdes Ouwaeck
+  '196623': Schwoazes rechdes Ouwaeck
+  '262144': Woaßes linges Ouwaeck
+  '262145': Oranges linges Ouwaeck
+  '262146': Magenda linges Ouwaeck
+  '262147': Hellblaues linges Ouwaeck
+  '262148': Gelbes linges Ouwaeck
+  '262149': Hellgrines linges Ouwaeck
+  '262150': Bingges linges Ouwaeck
+  '262151': Graues linges Ouwaeck
+  '262152': Hellgraues linges Ouwaeck
+  '262153': Dürgises linges Ouwaeck
+  '262154': Violeddes linges Ouwaeck
+  '262155': Blaues linges Ouwaeck
+  '262156': Broaunes linges Ouwaeck
+  '262157': Grines linges Ouwaeck
+  '262158': Roudes linges Ouwaeck
+  '262159': Schwoazes linges Ouwaeck
   '327680': Woaßa Bannerfiaß
-  '327681': Oranga Bannerföiß
-  '327682': Magenda Bannerföiß
-  '327683': Hellblaua Bannerföiß
-  '327684': Gelba Bannerföiß
-  '327685': Hellgrüna Bannerföiß
-  '327686': Bingga Bannerföiß
-  '327687': Graua Bannerföiß
-  '327688': Hellgraua Bannerföiß
-  '327689': Dürgisa Bannerföiß
-  '327690': Violedda Bannerföiß
+  '327681': Oranga Bannerfiaß
+  '327682': Magenda Bannerfiaß
+  '327683': Hellblaua Bannerfiaß
+  '327684': Gelba Bannerfiaß
+  '327685': Hellgrina Bannerfiaß
+  '327686': Bingga Bannerfiaß
+  '327687': Graua Bannerfiaß
+  '327688': Hellgraua Bannerfiaß
+  '327689': Dürgisa Bannerfiaß
+  '327690': Violedda Bannerfiaß
   '327691': Blaua Bannerfiaß
-  '327692': Broauna Bannerföiß
-  '327693': Grüna Bannerföiß
-  '327694': Roda Bannerfiaß
-  '327695': Schwoarza Bannerfiaß
+  '327692': Broauna Bannerfiaß
+  '327693': Grina Bannerfiaß
+  '327694': Rouda Bannerfiaß
+  '327695': Schwoaza Bannerfiaß
   '393216': Woaßes Bannerhaad
   '393217': Oranges Bannerhaad
   '393218': Magenda Bannerhaad
   '393219': Hellblaues Bannerhaad
   '393220': Gelbes Bannerhaad
-  '393221': Hellgrünes Bannerhaad
+  '393221': Hellgrines Bannerhaad
   '393222': Bingges Bannerhaad
   '393223': Graues Bannerhaad
   '393224': Hellgraues Bannerhaad
@@ -1242,56 +1755,56 @@ banner_pattern:
   '393227': Blaues Bannerhaad
   '393228': Broaunes Bannerhaad
   '393229': Grines Bannerhaad
-  '393230': Rodes Bannerhaad
-  '393231': Schwoarzes Bannerhaad
-  '458752': Woaße rächde Flank
-  '458753': Orange rächde Flank
-  '458754': Magenda rächde Flank
-  '458755': Hellblaue rächde Flank
-  '458756': Gelbe rächde Flank
-  '458757': Hellgrine rächde Flank
-  '458758': Bingge rächde Flank
-  '458759': Graue rächde Flank
-  '458760': Hellgraue rächde Flank
-  '458761': Dürgise rächde Flank
-  '458762': Violedde rächde Flank
-  '458763': Blaue rächde Flank
-  '458764': Braune rächde Flankn
-  '458765': Grine rächde Flankn
-  '458766': Rode rächde Flankn
-  '458767': Schwoarze rächde Flank
-  '524288': Woaße linke Flank
-  '524289': Orange linke Flank
-  '524290': Magenda linke Flank
-  '524291': Hellblaue linke Flank
-  '524292': Gelbe linke Flank
-  '524293': Hellgrine linke Flank
-  '524294': Bingge linke Flank
-  '524295': Graue linke Flank
-  '524296': Hellgraue linke Flank
-  '524297': Dürgise linke Flank
-  '524298': Violedde linke Flank
-  '524299': Blaue linke Flank
-  '524300': Broaune linke Flank
-  '524301': Grüne linke Flank
-  '524302': Roude linke Flankn
-  '524303': Schwoarze linke Flank
+  '393230': Roudes Bannerhaad
+  '393231': Schwoazes Bannerhaad
+  '458752': Woaße rechde Flankn
+  '458753': Orange rechde Flankn
+  '458754': Magenda rechde Flankn
+  '458755': Hellblaue rechde Flankn
+  '458756': Gelbe rechde Flankn
+  '458757': Hellgrine rechde Flankn
+  '458758': Bingge rechde Flankn
+  '458759': Graue rechde Flankn
+  '458760': Hellgraue rechde Flankn
+  '458761': Dürgise rechde Flankn
+  '458762': Violedde rechde Flankn
+  '458763': Blaue rechde Flankn
+  '458764': Broaune rechde Flankn
+  '458765': Grine rechde Flankn
+  '458766': Roude rechde Flankn
+  '458767': Schwoaze rechde Flankn
+  '524288': Woaße linge Flankn
+  '524289': Orange linge Flankn
+  '524290': Magenda linge Flankn
+  '524291': Hellblaue linge Flankn
+  '524292': Gelbe linge Flankn
+  '524293': Hellgrine linge Flankn
+  '524294': Bingge linge Flankn
+  '524295': Graue linge Flankn
+  '524296': Hellgraue linge Flankn
+  '524297': Dürgise linge Flankn
+  '524298': Violedde linge Flankn
+  '524299': Blaue linge Flankn
+  '524300': Broaune linge Flankn
+  '524301': Grine linge Flankn
+  '524302': Roude linge Flankn
+  '524303': Schwoaze linge Flankn
   '589824': Woaßa Pfohl
   '589825': Oranga Pfohl
   '589826': Magenda Pfohl
   '589827': Hellblaua Pfohl
   '589828': Gelba Pfohl
   '589829': Hellgrina Pfohl
-  '589830': Bigga Pfohl
+  '589830': Bingga Pfohl
   '589831': Graua Pfohl
   '589832': Hellgraua Pfohl
   '589833': Dürgisa Pfohl
   '589834': Violedda Pfohl
   '589835': Blaua Pfohl
-  '589836': Brauner Pfohl
+  '589836': Broauna Pfohl
   '589837': Grina Pfohl
-  '589838': Roda Pfohl
-  '589839': Schwoarza Pfohl
+  '589838': Rouda Pfohl
+  '589839': Schwoaza Pfohl
   '655360': Woaßa Balkn
   '655361': Oranga Balkn
   '655362': Magenda Balkn
@@ -1304,16 +1817,16 @@ banner_pattern:
   '655369': Dürgisa Balkn
   '655370': Violedda Balkn
   '655371': Blaua Balkn
-  '655372': Brauna Balkn
+  '655372': Broauna Balkn
   '655373': Grina Balkn
-  '655374': Roda Balkn
-  '655375': Schwoarza Balkn
+  '655374': Rouda Balkn
+  '655375': Schwoaza Balkn
   '720896': Woaßa Schrechbalkn
   '720897': Oranga Schrechbalkn
-  '720898': MagendaSchrechbalkn
+  '720898': Magenda Schrechbalkn
   '720899': Hellblaua Schrechbalkn
   '720900': Gelba Schrechbalkn
-  '720901': Hellgrüna Schrechbalkn
+  '720901': Hellgrina Schrechbalkn
   '720902': Bingga Schrechbalkn
   '720903': Graua Schrechbalkn
   '720904': Hellgraua Schrechbalkn
@@ -1321,42 +1834,42 @@ banner_pattern:
   '720906': Violedda Schrechbalkn
   '720907': Blaua Schrechbalkn
   '720908': Broauna Schrechbalkn
-  '720909': Grüna Schrechbalkn
+  '720909': Grina Schrechbalkn
   '720910': Rouda Schrechbalkn
-  '720911': Schwoarza Schrechbalkn
-  '786432': Woaßa Schrechlinksbalkn
-  '786433': Oranga Schrechlinksbalkn
-  '786434': Magenda Schrechlinksbalkn
-  '786435': Hellblaua Schrechlinksbalkn
-  '786436': Gelba Schrechlinksbalkn
-  '786437': Hellgrüna Schrechlinksbalkn
-  '786438': Bingga Schrechlinksbalkn
-  '786439': Graua Schrechlinksbalkn
-  '786440': Hellgraua Schrechlinksbalkn
-  '786441': Dürgisa Schrechlinksbalkn
-  '786442': Violedda Schrechlinksbalkn
-  '786443': Blaua Schrechlinksbalkn
-  '786444': Broauna Schrechlinksbalkn
-  '786445': Grüna Schrechlinksbalkn
-  '786446': Rouda Schrechlinksbalkn
-  '786447': Schwoarza Schrechlinksbalkn
-  '851968': Vier woaße Pfohle
-  '851969': Vier orange Pfohle
-  '851970': Vier magenda Pfohle
-  '851971': Vier hellblaue Pfohle
-  '851972': Vier gelbe Pfohle
-  '851973': Vier hellgrine Pfohle
-  '851974': Vier bingge Pfohle
-  '851975': Vier graue Pfohle
-  '851976': Vier hellgraue Pfohle
-  '851977': Vier dürgise Pfohle
-  '851978': Vier violedde Pfohle
-  '851979': Vier blaue Pfohle
-  '851980': Vier braune Pfohle
-  '851981': Vier grine Pfohle
-  '851982': Vier rode Pfohle
-  '851983': Vier schwoarze Pfohle
-  '917504': Woaßes Andreaskreiz
+  '720911': Schwoaza Schrechbalkn
+  '786432': Woaßa Schrechlingsbalkn
+  '786433': Oranga Schrechlingsbalkn
+  '786434': Magenda Schrechlingsbalkn
+  '786435': Hellblaua Schrechlingsbalkn
+  '786436': Gelba Schrechlingsbalkn
+  '786437': Hellgrina Schrechlingsbalkn
+  '786438': Bingga Schrechlingsbalkn
+  '786439': Graua Schrechlingsbalkn
+  '786440': Hellgraua Schrechlingsbalkn
+  '786441': Dürgisa Schrechlingsbalkn
+  '786442': Violedda Schrechlingsbalkn
+  '786443': Blaua Schrechlingsbalkn
+  '786444': Broauna Schrechlingsbalkn
+  '786445': Grina Schrechlingsbalkn
+  '786446': Rouda Schrechlingsbalkn
+  '786447': Schwoaza Schrechlingsbalkn
+  '851968': Via woaße Pfohle
+  '851969': Via orange Pfohle
+  '851970': Via magenda Pfohle
+  '851971': Via hellblaue Pfohle
+  '851972': Via gelbe Pfohle
+  '851973': Via hellgrine Pfohle
+  '851974': Via bingge Pfohle
+  '851975': Via graue Pfohle
+  '851976': Via hellgraue Pfohle
+  '851977': Via dürgise Pfohle
+  '851978': Via violedde Pfohle
+  '851979': Via blaue Pfohle
+  '851980': Via broaune Pfohle
+  '851981': Via grine Pfohle
+  '851982': Via roude Pfohle
+  '851983': Via schwoarze Pfohle
+  '917504': Woaßes Andreasgraits
   '917505': Oranges Andreasgraits
   '917506': Magenda Andreasgraits
   '917507': Hellblaues Andreasgraits
@@ -1369,25 +1882,25 @@ banner_pattern:
   '917514': Violeddes Andreasgraits
   '917515': Blaues Andreasgraits
   '917516': Broaunes Andreasgraits
-  '917517': Grünes Andreasgraits
-  '917518': Rodes Andreasgraits
-  '917519': Schwoarzes Andreasgraits
-  '983040': Woaßes Kreiz
-  '983041': Oranges Kreiz
-  '983042': Magenda Kreiz
-  '983043': Hellblaues Kreiz
-  '983044': Gelbes Kreiz
-  '983045': Hellgrünes Kreiz
-  '983046': Bingges Kreiz
-  '983047': Graues Kreiz
-  '983048': Hellgraues Kreiz
-  '983049': Dürgises Kreiz
-  '983050': Violeddes Kreiz
-  '983051': Blaues Kreiz
-  '983052': Braunes Kreiz
-  '983053': Grines Kreiz
-  '983054': Roudes Kreiz
-  '983055': Schwoarzes Kreiz
+  '917517': Grines Andreasgraits
+  '917518': Roudes Andreasgraits
+  '917519': Schwoazes Andreasgraits
+  '983040': Woaßes Graits
+  '983041': Oranges Graits
+  '983042': Magenda Graits
+  '983043': Hellblaues Graits
+  '983044': Gelbes Graits
+  '983045': Hellgrines Graits
+  '983046': Bingges Graits
+  '983047': Graues Graits
+  '983048': Hellgraues Graits
+  '983049': Dürgises Graits
+  '983050': Violeddes Graits
+  '983051': Blaues Graits
+  '983052': Broaunes Graits
+  '983053': Grines Graits
+  '983054': Roudes Graits
+  '983055': Schwoazes Graits
   '1048576': Woaße hoalbe Schbitzn
   '1048577': Orange hoalbe Schbitzn
   '1048578': Magenda hoalbe Schbitzn
@@ -1400,10 +1913,10 @@ banner_pattern:
   '1048585': Dürgise hoalbe Schbitzn
   '1048586': Violedde hoalbe Schbitzn
   '1048587': Blaue hoalbe Schbitzn
-  '1048588': Braune hoalbe Schbitzn
+  '1048588': Broaune hoalbe Schbitzn
   '1048589': Grine hoalbe Schbitzn
-  '1048590': Rode hoalbe Schbitzn
-  '1048591': Schwoarze hoalbe Schbitzn
+  '1048590': Roude hoalbe Schbitzn
+  '1048591': Schwoaze hoalbe Schbitzn
   '1114112': Woaße gstürzte hoalbe Schbitzn
   '1114113': Orange gstürzte hoalbe Schbitzn
   '1114114': Magenda gstürzte hoalbe Schbitzn
@@ -1416,106 +1929,106 @@ banner_pattern:
   '1114121': Dürgise gstürzte hoalbe Schbitzn
   '1114122': Violedde gstürzte hoalbe Schbitzn
   '1114123': Blaue gstürzte hoalbe Schbitzn
-  '1114124': Braune gstürzte hoalbe Schbitzn
+  '1114124': Broaune gstürzte hoalbe Schbitzn
   '1114125': Grine gstürzte hoalbe Schbitzn
-  '1114126': Rode gstürzte hoalbe Schbitzn
-  '1114127': Schwoarze gstürzte hoalbe Schbitzn
-  '1179648': Woaßa gschpicklta Bannerföiß
-  '1179649': Oranga gschpicklta Bannerföiß
-  '1179650': Magenda gschpicklta Bannerföiß
-  '1179651': Hellblaua gschpicklta Bannerföiß
-  '1179652': Gelba gschpicklta Bannerföiß
-  '1179653': Hellgrina gschpicklta Bannerföiß
-  '1179654': Bingga gschpicklta Bannerföiß
-  '1179655': Graua gschpicklta Bannerföiß
-  '1179656': Hellgraua gschpicklta Bannerföiß
-  '1179657': Dürgisa gschpicklta Bannerföiß
-  '1179658': Violedda gschpicklta Bannerföiß
-  '1179659': Blaua gschpicklta Bannerföiß
-  '1179660': Brauna gschpicklta Bannerföiß
-  '1179661': Grina gschpicklta Bannerföiß
-  '1179662': Rouda gschpicklta Bannerföiß
-  '1179663': Schwoarza gschpicklta Bannerföiß
+  '1114126': Roude gstürzte hoalbe Schbitzn
+  '1114127': Schwoaze gstürzte hoalbe Schbitzn
+  '1179648': Woaßa gschpicklta Bannerfiaß
+  '1179649': Oranga gschpicklta Bannerfiaß
+  '1179650': Magenda gschpicklta Bannerfiaß
+  '1179651': Hellblaua gschpicklta Bannerfiaß
+  '1179652': Gelba gschpicklta Bannerfiaß
+  '1179653': Hellgrina gschpicklta Bannerfiaß
+  '1179654': Bingga gschpicklta Bannerfiaß
+  '1179655': Graua gschpicklta Bannerfiaß
+  '1179656': Hellgraua gschpicklta Bannerfiaß
+  '1179657': Dürgisa gschpicklta Bannerfiaß
+  '1179658': Violedda gschpicklta Bannerfiaß
+  '1179659': Blaua gschpicklta Bannerfiaß
+  '1179660': Broauna gschpicklta Bannerfiaß
+  '1179661': Grina gschpicklta Bannerfiaß
+  '1179662': Rouda gschpicklta Bannerfiaß
+  '1179663': Schwoaza gschpicklta Bannerfiaß
   '1245184': Woaßes gschpickltes Bannerhaad
-  '1245185': Oranges gschpickltes Bannerhappt
-  '1245186': Magenda gschpickltes Bannerhappt
-  '1245187': Hellblaues gschpickltes Bannerhappt
-  '1245188': Gelbes gschpickltes Bannerhappt
-  '1245189': Hellgrines gschpickltes Bannerhappt
-  '1245190': Bingges gschpickltes Bannerhappt
-  '1245191': Graues gschpickltes Bannerhappt
-  '1245192': Hellgraues gschpickltes Bannerhappt
-  '1245193': Dürgises gschpickltes Bannerhappt
-  '1245194': Violeddes gschpickltes Bannerhappt
-  '1245195': Blaues gschpickltes Bannerhappt
-  '1245196': Braunes gschpickltes Bannerhappt
-  '1245197': Grünes gschpickltes Bannerhappt
-  '1245198': Roudes gschpickltes Bannerhappt
-  '1245199': Schwoarzes gschpickltes Bannerhappt
-  '1310720': Woaß schrechlinks deeld
-  '1310721': Orange schrechlinks deeld
-  '1310722': Magenda schrechlinks deeld
-  '1310723': Hellblau schrechlinks deeld
-  '1310724': Gelb schrechlinks deeld
-  '1310725': Hellgrün schrechlinks deeld
-  '1310726': Bingg schrechlinks deeld
-  '1310727': Grau schrechlinks deeld
-  '1310728': Hellgrau schrechlinks deeld
-  '1310729': Dürgis schrechlinks deeld
-  '1310730': Violedd schrechlinks deeld
-  '1310731': Blau schrechlinks deeld
-  '1310732': Braun schrechlinks deeld
-  '1310733': Grün schrechlinks deeld
-  '1310734': Roud schrechlinks deeld
-  '1310735': Schwoarz schrechlinks deeld
-  '1376256': Woaß schrechlinks deeld (Invertiert)
-  '1376257': Orange schrechlinks deeld (Invertiert)
-  '1376258': Magenda schrechlinks deeld (Invertiert)
-  '1376259': Hellblau schrechlinks deeld (Invertiert)
-  '1376260': Gelb schrechlinks deeld (Invertiert)
-  '1376261': Hellgrin schrechlinks deeld (Invertiert)
-  '1376262': Bingg schrechlinks deeld (Invertiert)
-  '1376263': Grau schrechlinks deeld (Invertiert)
-  '1376264': Hellgrau schrechlinks deeld (Invertiert)
-  '1376265': Dürgis schrechlinks deeld (Invertiert)
-  '1376266': Violedd schrechlinks deeld (Invertiert)
-  '1376267': Blau schrechlinks deeld (Invertiert)
-  '1376268': Broaun schrechlinks deeld (Invertiert)
-  '1376269': Grin schrechlinks deeld (Invertiert)
-  '1376270': Rod schrechlinks deeld (Invertiert)
-  '1376271': Schwoarz schrechlinks deeld (Invertiert)
-  '1441792': Woaß schrechrächds deeld (Invertiert)
-  '1441793': Orange schrechrächds deeld (Invertiert)
-  '1441794': Magenda schrechrächds deeld (Invertiert)
-  '1441795': Hellblau schrechrächds deeld (Invertiert)
-  '1441796': Gelb schrechrächds deeld (Invertiert)
-  '1441797': Hellgrün schrechrächds deeld (Invertiert)
-  '1441798': Bingg schrechrächds deeld (Invertiert)
-  '1441799': Grau schrechrächds deeld (Invertiert)
-  '1441800': Hellgrau schrechrächds deeld (Invertiert)
-  '1441801': Dürgis schrechrächds deeld (Invertiert)
-  '1441802': Violedd schrechrächds deeld (Invertiert)
-  '1441803': Blau schrechrächds deeld (Invertiert)
-  '1441804': Braun schrechrächds deeld (Invertiert)
-  '1441805': Grün schrechrächds deeld (Invertiert)
-  '1441806': Roud schrechrächds deeld (Invertiert)
-  '1441807': Schwoarz schrechrächds deeld (Invertiert)
-  '1507328': Woaß schrechrächds deeld
-  '1507329': Orange schrechrächds deeld
-  '1507330': Magenda schrechrächds deeld
-  '1507331': Hellblau schrechrächds deeld
-  '1507332': Gelb schrechrächds deeld
-  '1507333': Hellgrün schrechrächds deeld
-  '1507334': Bingg schrechrächds deeld
-  '1507335': Grau schrechrächds deeld
-  '1507336': Hellgrau schrechrächds deeld
-  '1507337': Dürgis schrechrächds deeld
-  '1507338': Violedd schrechrächds deeld
-  '1507339': Blau schrechrächds deeld
-  '1507340': Braun schrechrächds deeld
-  '1507341': Grün schrechrächds deeld
-  '1507342': Roud schrechrächds deeld
-  '1507343': Schwoarz schrechrächds deeld
+  '1245185': Oranges gschpickltes Bannerhaad
+  '1245186': Magenda gschpickltes Bannerhaad
+  '1245187': Hellblaues gschpickltes Bannerhaad
+  '1245188': Gelbes gschpickltes Bannerhaad
+  '1245189': Hellgrines gschpickltes Bannerhaad
+  '1245190': Bingges gschpickltes Bannerhaad
+  '1245191': Graues gschpickltes Bannerhaad
+  '1245192': Hellgraues gschpickltes Bannerhaad
+  '1245193': Dürgises gschpickltes Bannerhaad
+  '1245194': Violeddes gschpickltes Bannerhaad
+  '1245195': Blaues gschpickltes Bannerhaad
+  '1245196': Broaunes gschpickltes Bannerhaad
+  '1245197': Grines gschpickltes Bannerhaad
+  '1245198': Roudes gschpickltes Bannerhaad
+  '1245199': Schwoazes gschpickltes Bannerhaad
+  '1310720': Woaß schrechlings deeld
+  '1310721': Orange schrechlings deeld
+  '1310722': Magenda schrechlings deeld
+  '1310723': Hellblau schrechlings deeld
+  '1310724': Gelb schrechlings deeld
+  '1310725': Hellgrin schrechlings deeld
+  '1310726': Bingg schrechlings deeld
+  '1310727': Grau schrechlings deeld
+  '1310728': Hellgrau schrechlings deeld
+  '1310729': Dürgis schrechlings deeld
+  '1310730': Violedd schrechlings deeld
+  '1310731': Blau schrechlings deeld
+  '1310732': Broaun schrechlings deeld
+  '1310733': Grin schrechlings deeld
+  '1310734': Roud schrechlings deeld
+  '1310735': Schwoaz schrechlings deeld
+  '1376256': Woaß schrechlings deeld (Invertiert)
+  '1376257': Orange schrechlings deeld (Invertiert)
+  '1376258': Magenda schrechlings deeld (Invertiert)
+  '1376259': Hellblau schrechlings deeld (Invertiert)
+  '1376260': Gelb schrechlings deeld (Invertiert)
+  '1376261': Hellgrin schrechlings deeld (Invertiert)
+  '1376262': Bingg schrechlings deeld (Invertiert)
+  '1376263': Grau schrechlings deeld (Invertiert)
+  '1376264': Hellgrau schrechlings deeld (Invertiert)
+  '1376265': Dürgis schrechlings deeld (Invertiert)
+  '1376266': Violedd schrechlings deeld (Invertiert)
+  '1376267': Blau schrechlings deeld (Invertiert)
+  '1376268': Broaun schrechlings deeld (Invertiert)
+  '1376269': Grin schrechlings deeld (Invertiert)
+  '1376270': Roud schrechlings deeld (Invertiert)
+  '1376271': Schwoaz schrechlings deeld (Invertiert)
+  '1441792': Woaß schrechrechds deeld (Invertiert)
+  '1441793': Orange schrechrechds deeld (Invertiert)
+  '1441794': Magenda schrechrechds deeld (Invertiert)
+  '1441795': Hellblau schrechrechds deeld (Invertiert)
+  '1441796': Gelb schrechrechds deeld (Invertiert)
+  '1441797': Hellgrin schrechrechds deeld (Invertiert)
+  '1441798': Bingg schrechrechds deeld (Invertiert)
+  '1441799': Grau schrechrechds deeld (Invertiert)
+  '1441800': Hellgrau schrechrechds deeld (Invertiert)
+  '1441801': Dürgis schrechrechds deeld (Invertiert)
+  '1441802': Violedd schrechrechds deeld (Invertiert)
+  '1441803': Blau schrechrechds deeld (Invertiert)
+  '1441804': Broaun schrechrechds deeld (Invertiert)
+  '1441805': Grin schrechrechds deeld (Invertiert)
+  '1441806': Roud schrechrechds deeld (Invertiert)
+  '1441807': Schwoaz schrechrechds deeld (Invertiert)
+  '1507328': Woaß schrechrechds deeld
+  '1507329': Orange schrechrechds deeld
+  '1507330': Magenda schrechrechds deeld
+  '1507331': Hellblau schrechrechds deeld
+  '1507332': Gelb schrechrechds deeld
+  '1507333': Hellgrin schrechrechds deeld
+  '1507334': Bingg schrechrechds deeld
+  '1507335': Grau schrechrechds deeld
+  '1507336': Hellgrau schrechrechds deeld
+  '1507337': Dürgis schrechrechds deeld
+  '1507338': Violedd schrechrechds deeld
+  '1507339': Blau schrechrechds deeld
+  '1507340': Broaun schrechrechds deeld
+  '1507341': Grin schrechrechds deeld
+  '1507342': Roud schrechrechds deeld
+  '1507343': Schwoaz schrechrechds deeld
   '1572864': Woaße Kugl
   '1572865': Orange Kugl
   '1572866': Magenda Kugl
@@ -1528,42 +2041,42 @@ banner_pattern:
   '1572873': Dürgise Kugl
   '1572874': Violedde Kugl
   '1572875': Blaue Kugl
-  '1572876': Braune Kugl
+  '1572876': Broaune Kugl
   '1572877': Grine Kugl
-  '1572878': Rode Kugl
-  '1572879': Schwoarze Kugl
-  '1638400': Woaße Raute
-  '1638401': Orange Raute
-  '1638402': Magenda Raute
-  '1638403': Hellblaue Raute
-  '1638404': Gelbe Raute
-  '1638405': Hellgrine Raute
-  '1638406': Bingge Raute
-  '1638407': Graue Raute
-  '1638408': Hellgraue Raute
-  '1638409': Dürgise Raute
-  '1638410': Violedde Raute
-  '1638411': Blaue Raute
-  '1638412': Braune Raute
-  '1638413': Grine Raute
-  '1638414': Rode Raute
-  '1638415': Schwoarze Raute
-  '1703936': Rächds woaß gschbaldn
-  '1703937': Rächds orange gschbaldn
-  '1703938': Rächds magenda gschbaldn
-  '1703939': Rächds hellblau gschbaldn
-  '1703940': Rächds gelb gschbaldn
-  '1703941': Rächds hellgrin gschbaldn
-  '1703942': Rächds bingg gschbaldn
-  '1703943': Rächds grau gschbaldn
-  '1703944': Rächds hellgrau gschbaldn
-  '1703945': Rächds dürgis gschbaldn
-  '1703946': Rächds violedd gschbaldn
-  '1703947': Rächds blau gschbaldn
-  '1703948': Rächds broaun gschbaldn
-  '1703949': Rächds grin gschbaldn
-  '1703950': Rächds rod gschbaldn
-  '1703951': Rächds schwoarz gschbaldn
+  '1572878': Roude Kugl
+  '1572879': Schwoaze Kugl
+  '1638400': Woaße Raude
+  '1638401': Orange Raude
+  '1638402': Magenda Raude
+  '1638403': Hellblaue Raude
+  '1638404': Gelbe Raude
+  '1638405': Hellgrine Raude
+  '1638406': Bingge Raude
+  '1638407': Graue Raude
+  '1638408': Hellgraue Raude
+  '1638409': Dürgise Raude
+  '1638410': Violedde Raude
+  '1638411': Blaue Raude
+  '1638412': Broaune Raude
+  '1638413': Grine Raude
+  '1638414': Roude Raude
+  '1638415': Schwoaze Raude
+  '1703936': Rechds woaß gschbaldn
+  '1703937': Rechds orange gschbaldn
+  '1703938': Rechds magenda gschbaldn
+  '1703939': Rechds hellblau gschbaldn
+  '1703940': Rechds gelb gschbaldn
+  '1703941': Rechds hellgrin gschbaldn
+  '1703942': Rechds bingg gschbaldn
+  '1703943': Rechds grau gschbaldn
+  '1703944': Rechds hellgrau gschbaldn
+  '1703945': Rechds dürgis gschbaldn
+  '1703946': Rechds violedd gschbaldn
+  '1703947': Rechds blau gschbaldn
+  '1703948': Rechds broaun gschbaldn
+  '1703949': Rechds grin gschbaldn
+  '1703950': Rechds roud gschbaldn
+  '1703951': Rechds schwoarz gschbaldn
   '1769472': Ouwa woaß deeld
   '1769473': Ouwa orange deeld
   '1769474': Ouwa magenda deeld
@@ -1580,22 +2093,22 @@ banner_pattern:
   '1769485': Ouwa grin deeld
   '1769486': Ouwa roud deeld
   '1769487': Ouwa schwoarz deeld
-  '1835008': Links woaß gschbaldn
-  '1835009': Links orange gschbaldn
-  '1835010': Links magenda gschbaldn
-  '1835011': Links hellblau gschbaldn
-  '1835012': Links gelb gschbaldn
-  '1835013': Links hellgrin gschbaldn
-  '1835014': Links bingg gschbaldn
-  '1835015': Links grau gschbaldn
-  '1835016': Links hellgrau gschbaldn
-  '1835017': Links dürgis gschbaldn
-  '1835018': Links violedd gschbaldn
-  '1835019': Links blau gschbaldn
-  '1835020': Links broaun gschbaldn
-  '1835021': Links grin gschbaldn
-  '1835022': Links rod gschbaldn
-  '1835023': Links schwoarz gschbaldn
+  '1835008': Lings woaß gschbaldn
+  '1835009': Lings orange gschbaldn
+  '1835010': Lings magenda gschbaldn
+  '1835011': Lings hellblau gschbaldn
+  '1835012': Lings gelb gschbaldn
+  '1835013': Lings hellgrin gschbaldn
+  '1835014': Lings bingg gschbaldn
+  '1835015': Lings grau gschbaldn
+  '1835016': Lings hellgrau gschbaldn
+  '1835017': Lings dürgis gschbaldn
+  '1835018': Lings violedd gschbaldn
+  '1835019': Lings blau gschbaldn
+  '1835020': Lings broaun gschbaldn
+  '1835021': Lings grin gschbaldn
+  '1835022': Lings roud gschbaldn
+  '1835023': Lings schwoarz gschbaldn
   '1900544': Undn woaß deeld
   '1900545': Undn orange deeld
   '1900546': Undn magenda deeld
@@ -1627,23 +2140,23 @@ banner_pattern:
   '1966092': Broauna Board
   '1966093': Grina Board
   '1966094': Rouda Board
-  '1966095': Schwoarza Board
-  '2031616': Woaßa Schpicklboard
-  '2031617': Oranga Schpicklboard
-  '2031618': Magenda Schpicklboard
-  '2031619': Hellblaua Schpicklboard
-  '2031620': Gelba Schpicklboard
-  '2031621': Hellgrina Schpicklboard
-  '2031622': Bingga Schpicklboard
-  '2031623': Graua Schpicklboard
-  '2031624': Hellgraua Schpicklboard
-  '2031625': Dürgisa Schpicklboard
-  '2031626': Violedda Schpicklboard
-  '2031627': Blaua Schpicklboard
-  '2031628': Broauna Schpicklboard
-  '2031629': Grina Schpicklboard
-  '2031630': Rouda Schpicklboard
-  '2031631': Schwoarza Schpicklboard
+  '1966095': Schwoaza Board
+  '2031616': Woaßa Schbicklboard
+  '2031617': Oranga Schbicklboard
+  '2031618': Magenda Schbicklboard
+  '2031619': Hellblaua Schbicklboard
+  '2031620': Gelba Schbicklboard
+  '2031621': Hellgrina Schbicklboard
+  '2031622': Bingga Schbicklboard
+  '2031623': Graua Schbicklboard
+  '2031624': Hellgraua Schbicklboard
+  '2031625': Dürgisa Schbicklboard
+  '2031626': Violedda Schbicklboard
+  '2031627': Blaua Schbicklboard
+  '2031628': Broauna Schbicklboard
+  '2031629': Grina Schbicklboard
+  '2031630': Rouda Schbicklboard
+  '2031631': Schwoaza Schbicklboard
   '2097152': Woaßa Creeper
   '2097153': Oranga Creeper
   '2097154': Magenda Creeper
@@ -1658,8 +2171,8 @@ banner_pattern:
   '2097163': Blaua Creeper
   '2097164': Broauna Creeper
   '2097165': Grina Creeper
-  '2097166': Roda Creeper
-  '2097167': Schwoarza Creeper
+  '2097166': Rouda Creeper
+  '2097167': Schwoaza Creeper
   '2162688': Woaßa Farbverlaaf
   '2162689': Oranga Farbverlaaf
   '2162690': Magenda Farbverlaaf
@@ -1675,7 +2188,7 @@ banner_pattern:
   '2162700': Broauna Farbverlaaf
   '2162701': Grina Farbverlaaf
   '2162702': Rouda Farbverlaaf
-  '2162703': Schwoarza Farbverlaaf
+  '2162703': Schwoaza Farbverlaaf
   '2228224': Woaßa Farbverlaaf (Invertiert)
   '2228225': Oranga Farbverlaaf (Invertiert)
   '2228226': Magenda Farbverlaaf (Invertiert)
@@ -1691,7 +2204,7 @@ banner_pattern:
   '2228236': Broauna Farbverlaaf (Invertiert)
   '2228237': Grina Farbverlaaf (Invertiert)
   '2228238': Rouda Farbverlaaf (Invertiert)
-  '2228239': Schwoarza Farbverlaaf (Invertiert)
+  '2228239': Schwoaza Farbverlaaf (Invertiert)
   '2293760': Föid woaß gmauert
   '2293761': Föid orange gmauert
   '2293762': Föid magenda gmauert
@@ -1706,24 +2219,24 @@ banner_pattern:
   '2293771': Föid blau gmauert
   '2293772': Föid broaun gmauert
   '2293773': Föid grin gmauert
-  '2293774': Föid rod gmauert
+  '2293774': Föid roud gmauert
   '2293775': Föid schwoarz gmauert
   '2359296': Woaßa Schedl
-  '2359297': Oranga Schädl
-  '2359298': Magenda Schädl
-  '2359299': Hellblaua Schädl
-  '2359300': Gelba Schädl
-  '2359301': Hellgrüna Schädl
-  '2359302': Bingga Schädl
-  '2359303': Graua Schädl
-  '2359304': Hellgraua Schädl
-  '2359305': Dürgisa Schädl
-  '2359306': Violedda Schädl
-  '2359307': Blaua Schädl
-  '2359308': Broauna Schädl
-  '2359309': Grina Schädl
-  '2359310': Rouda Schädl
-  '2359311': Schwoarza Schädl
+  '2359297': Oranga Schedl
+  '2359298': Magenda Schedl
+  '2359299': Hellblaua Schedl
+  '2359300': Gelba Schedl
+  '2359301': Hellgrina Schedl
+  '2359302': Bingga Schedl
+  '2359303': Graua Schedl
+  '2359304': Hellgraua Schedl
+  '2359305': Dürgisa Schedl
+  '2359306': Violedda Schedl
+  '2359307': Blaua Schedl
+  '2359308': Broauna Schedl
+  '2359309': Grina Schedl
+  '2359310': Rouda Schedl
+  '2359311': Schwoaza Schedl
   '2424832': Woaße Bluma
   '2424833': Orange Bluma
   '2424834': Magenda Bluma
@@ -1739,7 +2252,7 @@ banner_pattern:
   '2424844': Broaune Bluma
   '2424845': Grine Bluma
   '2424846': Roude Bluma
-  '2424847': Schwoarze Bluma
+  '2424847': Schwoaze Bluma
   '2490368': Woaßes Mojang-Logo
   '2490369': Oranges Mojang-Logo
   '2490370': Magenda Mojang-Logo
@@ -1755,7 +2268,7 @@ banner_pattern:
   '2490380': Broaunes Mojang-Logo
   '2490381': Grines Mojang-Logo
   '2490382': Roudes Mojang-Logo
-  '2490383': Schwoarzes Mojang-Logo
+  '2490383': Schwoazes Mojang-Logo
   '2555904': Woaßa Globus
   '2555905': Oranga Globus
   '2555906': Magenda Globus
@@ -1771,7 +2284,7 @@ banner_pattern:
   '2555916': Broauna Globus
   '2555917': Grina Globus
   '2555918': Rouda Globus
-  '2555919': Schwoarza Globus
+  '2555919': Schwoaza Globus
   '2621440': Woaße Schnauzn
   '2621441': Orange Schnauzn
   '2621442': Magenda Schnauzn
@@ -1785,9 +2298,9 @@ banner_pattern:
   '2621450': Violedde Schnauzn
   '2621451': Blaue Schnauzn
   '2621452': Broaune Schnauzn
-  '2621453': Grüne Schnauzn
+  '2621453': Grine Schnauzn
   '2621454': Roude Schnauzn
-  '2621455': Schwoarze Schnauzn
+  '2621455': Schwoaze Schnauzn
 music_disk:
   music_disc_13: C418 - 13
   music_disc_cat: C418 - Cat
@@ -1805,7 +2318,7 @@ music_disk:
 new_banner_pattern:
   flower_banner_pattern: Bluma
   creeper_banner_pattern: Creeper
-  skull_banner_pattern: Schädl
+  skull_banner_pattern: Schedl
   mojang_banner_pattern: Mojang-Logo
   globe_banner_pattern: Globus
   piglin_banner_pattern: Schnauzn
@@ -1817,4 +2330,17 @@ merchant_level:
   '5': Meester
 villager_profession:
   none: Doefbewohne
-  nitwit: Dolldi
+  armorer: Banzamacha
+  butcher: Flaischa
+  cartographer: Kadograf
+  cleric: Gaisdlicha
+  farmer: Baua
+  fisherman: Fischa
+  fletcher: Pfailmacha
+  leatherworker: Geaba
+  librarian: Bibliotheka
+  mason: Maura
+  nitwit: Dorgl
+  shepherd: Schäfa
+  toolsmith: Groabschmied
+  weaponsmith: Waffnschmied

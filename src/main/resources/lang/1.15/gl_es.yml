@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:17:24                    #
+# Build time: 2021-07-04 21:39:00                    #
 # ####################################################
 language:
   code: gl_es
@@ -7,15 +7,20 @@ language:
   region: Galicia
 material:
   acacia_sapling: Brote de acacia
+  acacia_slab: Lousa de acacia
   acacia_wall_sign: Letreiro de acacia na parede
   activator_rail: Rail activador
   air: Aire
   allium: Allium
+  andesite_slab: Lousa de andesita
   andesite_wall: Parede de andesita
+  anvil: Zafra
   baked_potato: Pataca cocida
+  bamboo_sapling: Brote de bambú
   barrel: Barril
   birch_boat: Barca de abedul
   birch_sapling: Brote de bidueiro
+  birch_slab: Lousa de bidueiro
   birch_wall_sign: Letreiro de bidueiro na parede
   black_glazed_terracotta: Azulexo negra
   black_shulker_box: Caixa de Shulker negra
@@ -25,6 +30,7 @@ material:
   blue_shulker_box: Caixa de Shulker azul
   bone: Oso
   bookshelf: Librería
+  brick_slab: Lousa de ladrillos
   brick_stairs: Escaleiras de ladrillo
   brick_wall: Parede de ladrillos
   brown_shulker_box: Caixa de Shulker marrón
@@ -33,6 +39,7 @@ material:
   cave_air: Aire de cova
   chainmail_helmet: Casco de cota de mallas
   chicken: Polo crú
+  chipped_anvil: Zafra danada
   chiseled_red_sandstone: Arenita vermella cicelada
   chiseled_sandstone: Arenita cicelada
   clay_ball: Arxila
@@ -41,6 +48,7 @@ material:
   cobblestone_stairs: Escaleiras de rocha
   cobblestone_wall: Muro de rocha
   composter: Compostador
+  cooked_beef: Filete
   cooked_cod: Bacallau cocido
   cooked_salmon: Salmón cocido
   cornflower: Aciano
@@ -59,8 +67,11 @@ material:
   cyan_shulker_box: Caixa de Shulker ciana
   cyan_terracotta: Terracota ciana
   cyan_wool: La ciana
+  damaged_anvil: Zafra moi danada
   dark_oak_sapling: Brote de carballo escuro
+  dark_oak_slab: Lousa de carballo escuro
   dark_oak_wall_sign: Letreiro de carballo escuro na parede
+  dark_prismarine_slab: Lousa de prismariña escura
   dead_brain_coral_wall_fan: Gorgonia de cerebro de parede morta
   dead_bubble_coral: Coral de burbullas morto
   dead_bubble_coral_block: Bloque de coral de burbullas morto
@@ -70,6 +81,7 @@ material:
   dead_tube_coral_wall_fan: Gorgonia tubular de parede morta
   debug_stick: Pau debug
   diamond_horse_armor: Armadura de diamante para cabalos
+  diorite_slab: Lousa de diorita
   diorite_wall: Parede de diorita
   dragon_breath: Alento de dragón
   dragon_wall_head: Cabeza de dragón na parede
@@ -88,6 +100,7 @@ material:
   ghast_spawn_egg: Xerar Ghast
   ghast_tear: Bágoa de Ghast
   glistering_melon_slice: Porción de sandía relucente
+  granite_slab: Lousa de granito
   granite_wall: Parede de granito
   gravel: Grava
   gray_shulker_box: Caixa de Shulker gris
@@ -104,6 +117,7 @@ material:
   item_frame: Marco para obxectos
   jigsaw: Bloque de arquitecto
   jungle_sapling: Brote de selva
+  jungle_slab: Lousa de selva
   jungle_wall_sign: Letreiro de selva na parede
   light_blue_shulker_box: Caixa de Shulker azul claro
   light_gray_shulker_box: Caixa de Shulker gris claro
@@ -115,6 +129,7 @@ material:
   melon_slice: Porción de sandía
   milk_bucket: Balde con leite
   mossy_cobblestone: Rocha musgosa
+  mossy_cobblestone_slab: Lousa de pedra musgosa
   mossy_cobblestone_stairs: Escaleiras de rocha musgosa
   mossy_cobblestone_wall: Parede de rocha musgosa
   mossy_stone_brick_slab: Lousa de ladrillo de pedra musgosa
@@ -122,11 +137,13 @@ material:
   mossy_stone_brick_wall: Parede de ladrillos de pedra musgosa
   mutton: Cordeiro crú
   name_tag: Etiqueta
+  nether_brick_slab: Lousa de ladrillos do Nether
   nether_brick_wall: Parede de ladrillo do Nether
   nether_portal: Portal ao Nether
   nether_quartz_ore: Mineral de cuarzo
   oak_sapling: Brote de carballo
   oak_sign: Cartel de carballo
+  oak_slab: Lousa de carballo
   oak_wall_sign: Letreiro de carballo na parede
   orange_shulker_box: Caixa de Shulker laranxa
   packed_ice: Xeo compacto
@@ -157,11 +174,15 @@ material:
   potted_spruce_sapling: Testo con brote de abeto
   potted_wither_rose: Pote con rosa de Wither
   prismarine_bricks: Bloques de prismariña
+  prismarine_brick_slab: Lousa de ladrillos de prismariña
   prismarine_shard: Fragmento de prismariña
+  prismarine_slab: Lousa de prismariña
   prismarine_wall: Parede de prismarina
   purple_shulker_box: Caixa de Shulker púrpura
   purpur_pillar: Pilar de púrpur
+  purpur_slab: Lousa de púrpur
   quartz_pillar: Pilar de cuarzo
+  quartz_slab: Lousa de cuarzo
   rabbit: Coello crú
   redstone_wall_torch: Facho de redstone na parede
   redstone_wire: Cable de redstone
@@ -188,15 +209,19 @@ material:
   slime_spawn_egg: Xerar Slime
   smoker: Afumador
   smooth_quartz: Cuarzo liso
+  smooth_quartz_slab: Lousa de cuarzo liso
   smooth_red_sandstone: Arenita vermella lisa
   smooth_red_sandstone_slab: Lousa de arenita vermella lisa
   smooth_red_sandstone_stairs: Escaleras de arenita vermella lisa
   smooth_sandstone: Arenita lisa
   smooth_sandstone_slab: Lousa de arenita lisa
   smooth_sandstone_stairs: Escaleiras de arenita lisa
+  smooth_stone_slab: Lousa de pedra lisa
   spruce_sapling: Brote de abeto
+  spruce_slab: Lousa de abeto
   spruce_wall_sign: Letreiro de abeto na parede
   stone: Pedra
+  stone_brick_slab: Lousa de ladrillos de pedra
   stone_brick_wall: Parede de ladrillo de pedra
   stone_slab: Lousa de pedra
   stone_stairs: Escaleiras de pedra
@@ -223,13 +248,34 @@ material:
   zombie_wall_head: Cabeza de zombi na parede
 biome:
   desert_hills: Outeiros do deserto
+  wooded_hills: Outeiros frondosos
   taiga_hills: Outeiro de taiga
   birch_forest_hills: Outeiro de bidueiros
+  wooded_mountains: Montañas frondosas
+  badlands: Canóns
+  wooded_badlands_plateau: Meseta de canóns frondosa
   small_end_islands: O End - Illas pequenas
   end_midlands: O End - Zona media
   end_highlands: O End - Zona elevada
   end_barrens: O End - Zona árida
   giant_spruce_taiga_hills: Outeiro de taiga con abetos xigantes
+  eroded_badlands: Badlands erosionadas
+  modified_wooded_badlands_plateau: Meseta de badlands frondosas (variante)
+  modified_badlands_plateau: Meseta de badlands (variante)
+enchantment:
+  fire_protection: Protección ó lume
+  flame: Chamas
+  punch: Retroceso
+  loyalty: Lealtade
+  knockback: Empuxe
+  binding_curse: Maldición de ligamento
+  mending: Reparación
+  lure: Cebo
+  looting: Saqueo
+  fire_aspect: Aspecto ígneo
+  bane_of_arthropods: Perdición dos artrópodos
+  riptide: Propulsión acuática
+  feather_falling: Caída liviá
 potion:
   uncraftable: Poción infabricable
   water: Frasco con auga
@@ -272,6 +318,7 @@ effect:
   jump: Aumento de salto
   fire_resistance: Resistencia ó lume
   water_breathing: Apnea
+  glowing: Brillante
 tropical_fish_type:
   kob: Kob
   sunstreak: Peixe sol

@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:47                    #
+# Build time: 2021-07-04 21:46:03                    #
 # ####################################################
 language:
   code: fa_ir
@@ -14,11 +14,18 @@ material:
   polished_diorite: دیوریت تراش خورده
   andesite: آندزیت
   polished_andesite: آندزیت تراش خورده
+  deepslate: لایه سنگ عمیق
+  cobbled_deepslate: قلوه سنگ عمیق
+  polished_deepslate: سنگ عمیق صیقل خورده
+  calcite: کلسیت
+  tuff: سنگ خاکستر
+  dripstone_block: بلوک چکنده‌سنگ
   grass_block: بلوک چمن
   dirt: خاک
   coarse_dirt: خاک آهکی
   podzol: گیاخاک
-  crimson_nylium: نیلیوم سرخو
+  rooted_dirt: خاک ریشه‌دار
+  crimson_nylium: نیلیوم کریمسون
   warped_nylium: نیلیوم پیچ‌خورده
   cobblestone: قلوه سنگ
   oak_planks: تخته های بلوط
@@ -27,7 +34,7 @@ material:
   jungle_planks: الوار جنگلی
   acacia_planks: الوار اقاقیا
   dark_oak_planks: تخته های بلوط تیره
-  crimson_planks: الوار سرخو
+  crimson_planks: الوار کریمسون
   warped_planks: الوار پیچ‌خورده
   oak_sapling: نهال درخت بلوط
   spruce_sapling: نهال درخت صنوبر
@@ -39,17 +46,74 @@ material:
   sand: شن و ماسه
   red_sand: شن و ماسه قرمز
   gravel: ریگ
-  gold_ore: سنگ معدن طلا
-  iron_ore: سنگ معدن آهن
   coal_ore: سنگ معدن ذغال
+  deepslate_coal_ore: سنگ معدن ذغال عمیق
+  iron_ore: سنگ معدن آهن
+  deepslate_iron_ore: سنگ معدن عمیق آهن
+  copper_ore: سنگ معدن مس
+  deepslate_copper_ore: سنگ معدن مس عمیق
+  gold_ore: سنگ معدن طلا
+  deepslate_gold_ore: سنگ معدن عمیق طلا
+  redstone_ore: سنگ معدن ردستون
+  deepslate_redstone_ore: سنگ معدن عمیق ردستون
+  emerald_ore: سنگ معدن زمرد
+  deepslate_emerald_ore: سنگ معدن زمرد عمیق
+  lapis_ore: سنگ معدن لاجورد
+  deepslate_lapis_ore: سنگ معدن عمیق لاجورد
+  diamond_ore: سنگ معدن الماس
+  deepslate_diamond_ore: سنگ معدن عمیق الماس
   nether_gold_ore: ندر طلا
+  nether_quartz_ore: سنگ معدن کوارتز جهنمي
+  ancient_debris: آوار های باستانی
+  coal_block: بلوک ذغال سنگ
+  raw_iron_block: بلوک آهن خام
+  raw_copper_block: بلوک مس خام
+  raw_gold_block: بلوک طلای خام
+  amethyst_block: بلوک آمیتیست
+  budding_amethyst: گوهر بنفش درحال جوانه زدن
+  iron_block: بلوک آهن
+  copper_block: بلوک مس
+  gold_block: بلوک طلا
+  diamond_block: بلوک الماس
+  netherite_block: بلوک ندرایت
+  exposed_copper: مس درمعرض هوا قرارگرفته
+  weathered_copper: مس هوازده
+  oxidized_copper: مس اکسید شده
+  cut_copper: مس تکه شده
+  exposed_cut_copper: تکه مسی درمعرض هوا قرارگرفته
+  weathered_cut_copper: تکه مسی هوازده
+  oxidized_cut_copper: تکه مسی اکسید شده
+  cut_copper_stairs: پله تکه مسی
+  exposed_cut_copper_stairs: پله تکه مسی درمعرض هوا قرارگرفته
+  weathered_cut_copper_stairs: پله مس تکه شده در معرض هوا است
+  oxidized_cut_copper_stairs: پله تکه مسی اکسید شده
+  cut_copper_slab: نیمه مس تکه شده
+  exposed_cut_copper_slab: نیمه تکه مس درمعرض هوا قرارگرفته شده
+  weathered_cut_copper_slab: نیمه مس تکه شده در معرض هوا قرار گرفته شده
+  oxidized_cut_copper_slab: نیمه تکه مس اکسید شده
+  waxed_copper_block: بلوک مس واکس شده
+  waxed_exposed_copper: مس درمعرض هوا قرارگرفته واکس شده
+  waxed_weathered_copper: مس هوازده واکس شده
+  waxed_oxidized_copper: مس واکس کشیده اکسید شده
+  waxed_cut_copper: مس تراشیده شده و واکس شده
+  waxed_exposed_cut_copper: تکه مسی درمعرض هوا قرارگرفته واکس شده
+  waxed_weathered_cut_copper: تکه مس هوازده واکس شده
+  waxed_oxidized_cut_copper: تکه مسی واکس کشیده اکسید شده
+  waxed_cut_copper_stairs: پله مسی تراشیده شده واکس شده
+  waxed_exposed_cut_copper_stairs: پله تکه مسی درمعرض هوا قرارگرفته واکس شده
+  waxed_weathered_cut_copper_stairs: تکه پله مسی هوازده واکس شده
+  waxed_oxidized_cut_copper_stairs: پله تکه مسی واکس کشیده اکسید شده
+  waxed_cut_copper_slab: نیمه تکه مسی واکس شده
+  waxed_exposed_cut_copper_slab: نیمه تکه مس درمعرض هوا قرارگرفته واکس شده
+  waxed_weathered_cut_copper_slab: نیمه تکه مسی هوازده واکس شده
+  waxed_oxidized_cut_copper_slab: نیمه تکه مسی واکس کشیده اکسید شده
   oak_log: کنده ی بلوط
   spruce_log: کنده ی صنوبر
   birch_log: کنده توس
   jungle_log: کنده ی چوب جنگلی
   acacia_log: کنده اقاقیا
   dark_oak_log: کنده بلوط تیره
-  crimson_stem: ساقه سرخو
+  crimson_stem: ساقه کریمسون
   warped_stem: ساقه پیچ‌خورده
   stripped_oak_log: کنده ی بلوط برهنه
   stripped_spruce_log: کنده صنوبر برهنه
@@ -57,50 +121,48 @@ material:
   stripped_jungle_log: الوارجنگلی پوست کنده
   stripped_acacia_log: ااوار اقاقیا پوست کنده
   stripped_dark_oak_log: الوار بلوط سیاه پوست کنده
-  stripped_crimson_stem: ساقه سرخو‌ی پوست کنده
-  stripped_warped_stem: ساقه تحریف کنده
+  stripped_crimson_stem: تنه پوست‌کنده کریمسون
+  stripped_warped_stem: تنه پوست‌کنده پیچ خورده
   stripped_oak_wood: چوب بلوط پوست کنده
   stripped_spruce_wood: چوب صنوبر پوست کنده
   stripped_birch_wood: چوب غان پوست کنده
   stripped_jungle_wood: چوب جنگلی پوست کنده
   stripped_acacia_wood: چوب اقاقیا پوست کنده
   stripped_dark_oak_wood: چوب بلوط سیاه پوست کنده
-  stripped_crimson_hyphae: هیفی سرخ پوست‌کنده
-  stripped_warped_hyphae: هیفی پیچ‌خورده پوست‌کنده
+  stripped_crimson_hyphae: سرشاخه پوست‌کنده کریمسون
+  stripped_warped_hyphae: سرشاخه پوست‌کنده پیچ خورده
   oak_wood: چوب بلوط
   spruce_wood: چوب صنوبر
   birch_wood: چوب توس
   jungle_wood: چوب جنگلی
   acacia_wood: چوب اقاقیا
   dark_oak_wood: چوب بلوط تیره
-  crimson_hyphae: ریشه های هیفی سرخو
-  warped_hyphae: هیفی تاب‌خورده
+  crimson_hyphae: سرشاخه کریمسون
+  warped_hyphae: سرشاخه پیچ‌خورده
   oak_leaves: برگ بلوط
   spruce_leaves: برگ صنوبر
   birch_leaves: برگ توس
   jungle_leaves: برگ جنگلی
   acacia_leaves: برگ اقاقیا
   dark_oak_leaves: برگ بلوط تیره
+  azalea_leaves: برگ های آزالیا
+  flowering_azalea_leaves: برگ های گل‌دهنده آزالیا
   sponge: اسفنج
   wet_sponge: اسفنج خیس
   glass: شیشه
-  lapis_ore: سنگ معدن لاجورد
-  lapis_block: بلوک لاجورد
-  dispenser: توزيعگر
+  tinted_glass: شیشه دودی
+  lapis_block: بلوکِ لاجورد
   sandstone: ماسه سنگ
   chiseled_sandstone: ماسه سنگ تراش خورده
   cut_sandstone: ماسه سنگ برش خورده
-  note_block: بلوک نت
-  powered_rail: ريل حرکتی
-  detector_rail: ريل يابنده
-  sticky_piston: پيستون چسبناک
   cobweb: تار عنکبوت
   grass: چمن
   fern: بوته سرخس
+  azalea: آزالیا
+  flowering_azalea: آزالیا گل‌دهنده
   dead_bush: بته خشک
   seagrass: علف دریایی
   sea_pickle: خیارشور دریایی
-  piston: پيستون
   white_wool: پشم سفید
   orange_wool: پشم نارنجي
   magenta_wool: پشم سرخآبي
@@ -130,28 +192,32 @@ material:
   cornflower: شقایق
   lily_of_the_valley: زنبق دره
   wither_rose: گل ویدر
+  spore_blossom: شکوفه هاگ
   brown_mushroom: قارچ قهوه‌ای
   red_mushroom: قارچ قرمز
-  crimson_fungus: قارچ سرخو
+  crimson_fungus: قارچ کریمسون
   warped_fungus: قارچ پیچ‌خورده
-  crimson_roots: ریشه سرخو
-  warped_roots: ریشه‌ی پیچ‌خورده
-  nether_sprouts: جوانه جهنمی
+  crimson_roots: ریشه های کریمسون
+  warped_roots: ریشه های پیچ‌خورده
+  nether_sprouts: جوانه ندری
   weeping_vines: پیچک گریان
-  twisting_vines: پیچک تابنده
+  twisting_vines: تاک های پیچنده
   sugar_cane: نیشکر
   kelp: جلبک دریایی
+  moss_carpet: فرش خزه‌ای
+  moss_block: بلوک خزه
+  hanging_roots: ریشه های آویزان
+  big_dripleaf: چکه‌برگ بزرگ
+  small_dripleaf: چکه‌برگ کوچک
   bamboo: بامبو
-  gold_block: بلوک طلا
-  iron_block: بلوک آهن
   oak_slab: تخته بلوط
   spruce_slab: تخته صنوبر
   birch_slab: تخته غان
   jungle_slab: تخته جنگلی
   acacia_slab: تخته اقاقیا
   dark_oak_slab: تخته بلوط تیره
-  crimson_slab: نیم بلاک سرخو
-  warped_slab: نیم بلاک پیچ‌خورده
+  crimson_slab: نیمه بلوک کریمسون
+  warped_slab: نیمه بلوک پیچ‌خورده
   stone_slab: قطعه سنگي
   smooth_stone_slab: سنگ صیقلی نصف شده
   sandstone_slab: قطعه ماسه سنگي
@@ -160,7 +226,7 @@ material:
   cobblestone_slab: قطعه قلوه سنگي
   brick_slab: تخته آجر
   stone_brick_slab: تخته آجر سنگی
-  nether_brick_slab: قطعه آجر جهنمي
+  nether_brick_slab: قطعه آجر ندر
   quartz_slab: قطعه کوارتزي
   red_sandstone_slab: قطعه ماسه سنگ قرمز
   cut_red_sandstone_slab: قطعه ماسه سنگ قرمز صیقل داده شده
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: ماسه سنگ صاف
   smooth_stone: سنگ صاف
   bricks: بلوک آجر
-  tnt: تي ان تي
   bookshelf: قفسه کتاب
   mossy_cobblestone: قلوه سنگ خزه‌زده
   obsidian: آبسيديان
@@ -187,27 +252,11 @@ material:
   spawner: تولید کننده
   oak_stairs: پله بلوط
   chest: صندوقچه
-  diamond_ore: سنگ معدن الماس
-  diamond_block: بلوک الماس
   crafting_table: ميزکار
   farmland: خاک مزرعه
   furnace: اجاق
   ladder: نردبان
-  rail: ریل
   cobblestone_stairs: پله قلوه سنگي
-  lever: اهرم
-  stone_pressure_plate: صفحه فشاری سنگی
-  oak_pressure_plate: تخته تشخيصگر بلوط
-  spruce_pressure_plate: تخته تشخيصگر صنوبر
-  birch_pressure_plate: تخته تشخيصگر غان
-  jungle_pressure_plate: تخته تشخيصگر جنگلی
-  acacia_pressure_plate: تخته تشخيصگر اقاقیا
-  dark_oak_pressure_plate: تخته تشخيصگر بلوط تیره
-  crimson_pressure_plate: صفحه فشاری سرخو
-  warped_pressure_plate: صفحه فشاری پیچ‌خورده
-  polished_blackstone_pressure_plate: صفحه فشاری سیاه‌سنگ صیقلی
-  redstone_ore: سنگ معدن ردستون
-  redstone_torch: مشعل ردستونی
   snow: برف
   ice: يخ
   snow_block: بلوک برف
@@ -220,36 +269,35 @@ material:
   jungle_fence: نرده جنگل
   acacia_fence: نرده های اقاقیا
   dark_oak_fence: نرده بلوط تیره
-  crimson_fence: نرده‌ی سرخو
+  crimson_fence: نرده‌ی کریمسون
   warped_fence: نرده پیچ‌خورده
   pumpkin: کدوتنبل
   carved_pumpkin: کدو تنبل تراشیده شده
-  netherrack: جهنم سنگ
+  jack_o_lantern: کدوتنبل نوري
+  netherrack: سنگ ندر
   soul_sand: شن ارواح
   soul_soil: خاک ارواح
   basalt: بازالت
   polished_basalt: بازالت صيقلی
+  smooth_basalt: بازالت صاف
   soul_torch: مشعل روح
   glowstone: سنگ روشنا
-  jack_o_lantern: کدوتنبل نوري
-  oak_trapdoor: دریچه‌ی بلوطی
-  spruce_trapdoor: دریچه‌ی کاج نوئل
-  birch_trapdoor: دریچه‌ی توسی
-  jungle_trapdoor: دریچه‌ی جنگلی
-  acacia_trapdoor: دریچه‌ی آکاسیا
-  dark_oak_trapdoor: دریچه‌ی بلوطی تیره
-  crimson_trapdoor: درب تله‌ی سرخو
-  warped_trapdoor: درب تله‌ی پیچ‌خورده
   infested_stone: سنگ آفت زده
   infested_cobblestone: قلوه سنگ آفت زده
   infested_stone_bricks: آجر سنگ آفت زده
   infested_mossy_stone_bricks: آجر سنگ خزه ای آفت زده
   infested_cracked_stone_bricks: آجر سنگ آفت زدۀ ترک خرده
   infested_chiseled_stone_bricks: آجر سنگ آفت زدۀ تراشیده شده
+  infested_deepslate: سنگ عمیق آفت‌زده
   stone_bricks: آجرسنگ
   mossy_stone_bricks: آجرسنگ لجني
   cracked_stone_bricks: آجرسنگ شکسته
   chiseled_stone_bricks: آجرسنگ تراشي
+  deepslate_bricks: آجر های سنگ عمیق
+  cracked_deepslate_bricks: آجر های شکسته سنگ عمیق
+  deepslate_tiles: کاشی های سنگ عمیق
+  cracked_deepslate_tiles: کاشی های شکسته سنگ عمیق
+  chiseled_deepslate: سنگ عمیق تراش خورده
   brown_mushroom_block: بلوک قارچ قهوه‌ای
   red_mushroom_block: بلوک قارچ قرمز
   mushroom_stem: ساقه قارچ
@@ -258,41 +306,31 @@ material:
   glass_pane: پنجره
   melon: هندوانه
   vine: تاک ها
-  oak_fence_gate: دروازه چوبي
-  spruce_fence_gate: دروازه نرده صنوبر
-  birch_fence_gate: دروازه نرده توس
-  jungle_fence_gate: دروازه حصار جنگل
-  acacia_fence_gate: دروازه حصار اقاقیا
-  dark_oak_fence_gate: دروازه نرده های چوب بلوط تیره
-  crimson_fence_gate: درب نرده سرخو
-  warped_fence_gate: درب نرده پیچ‌خورده
+  glow_lichen: گل سنگ نورانی
   brick_stairs: پله آجري
   stone_brick_stairs: پله آجرسنگي
   mycelium: قارچخاک
   lily_pad: زنبق دريايي
   nether_bricks: آجر ندر
-  cracked_nether_bricks: آجر جهنمی ترک‌خورده
-  chiseled_nether_bricks: آجر جهنمی تراش‌خورده
-  nether_brick_fence: حصار جهنمی
-  nether_brick_stairs: پله آجر جهنمی
+  cracked_nether_bricks: آجر ندری ترک‌خورده
+  chiseled_nether_bricks: آجر ندری تراش‌خورده
+  nether_brick_fence: حصار ندر
+  nether_brick_stairs: پله آجر ندر
   enchanting_table: ميز افسونگری
   end_portal_frame: چارچوب درگاه فرجام
   end_stone: فرجام سنگ
   end_stone_bricks: آجر سنگ اند
   dragon_egg: تخم اژدها
-  redstone_lamp: لامپ
   sandstone_stairs: پله ماسه سنگي
-  emerald_ore: سنگ معدن زمرد
   ender_chest: صندوقچه فرجام
-  tripwire_hook: گیره تله نخی
   emerald_block: بلوک زمرد
   spruce_stairs: پله صنوبر
   birch_stairs: پله توس
   jungle_stairs: پله جوب جنگلی
-  crimson_stairs: پله سرحو
+  crimson_stairs: پله کریمسون
   warped_stairs: پله‌های پیچ‌خورده
   command_block: بلوک دستور
-  beacon: فضاجادو
+  beacon: فانوس
   cobblestone_wall: ديوار قلوه سنگ
   mossy_cobblestone_wall: ديوار قلوه سنگ لجني
   brick_wall: دیوار آجری
@@ -301,42 +339,27 @@ material:
   mossy_stone_brick_wall: دیوار آجر سنگی خزه گرفته
   granite_wall: دیوار گرنیت
   stone_brick_wall: دیوار آجر سنگی
-  nether_brick_wall: دیوار آجر جهنم
+  nether_brick_wall: دیوار آجر ندر
   andesite_wall: دیوار أندسیت
-  red_nether_brick_wall: دیوار آجر سرخ جهنم
+  red_nether_brick_wall: دیوار آجر ندری قرمز
   sandstone_wall: دیوار سنگ ماسه
   end_stone_brick_wall: دیوار آجر سنگ اند
   diorite_wall: دیوار دایوریت
   blackstone_wall: دیوار سیاه سنگ
   polished_blackstone_wall: دیوار سیاه‌سنگ صیقلی
   polished_blackstone_brick_wall: دیوار آجر سیاه‌سنگ صیقلی
-  stone_button: دکمه سنگی
-  oak_button: دکمه بلوطی
-  spruce_button: دکمه صنوبری
-  birch_button: دکمه غانی
-  jungle_button: دکمه جنگلی
-  acacia_button: دکمه اقاقیایی
-  dark_oak_button: دکمه بلوط تیره
-  crimson_button: دکمه سرخو
-  warped_button: دکمه‌ی پیچ‌خورده
-  polished_blackstone_button: دکمه‌ی سیاه‌سنگ صیقلی
+  cobbled_deepslate_wall: دیوار قلوه سنگ عمیق
+  polished_deepslate_wall: دیواره سنگ عمیق صیقلی
+  deepslate_brick_wall: دیوار آجری سنگ عمیق
+  deepslate_tile_wall: دیوار کاشی سنگ عمیق
   anvil: سندان
   chipped_anvil: سندان لب پر شده
   damaged_anvil: سندان آسیب دیده
-  trapped_chest: صندوقچه تله گذاري
-  light_weighted_pressure_plate: تخته تشخیص‌گر سبک
-  heavy_weighted_pressure_plate: تخته تشخیص‌گر سنگین
-  daylight_detector: سنسور نور
-  redstone_block: بلوک ردستون
-  nether_quartz_ore: سنگ معدن کوارتز جهنمي
-  hopper: قيف
   chiseled_quartz_block: بلوک کوارتز تراشي
   quartz_block: بلوک کوارتز
   quartz_bricks: آجر کوارتزی
   quartz_pillar: ستون کوارتز
   quartz_stairs: پله کوارتز
-  activator_rail: ریل فعالساز
-  dropper: پرتابگر
   white_terracotta: سفال سفید
   orange_terracotta: سفال نارنجی
   magenta_terracotta: سفال ارغوانی
@@ -354,8 +377,8 @@ material:
   red_terracotta: سفال قرمز
   black_terracotta: سفال سیاه
   barrier: مانع
-  iron_trapdoor: دریچه آهن
-  hay_block: یونجه خشک
+  light: نور
+  hay_block: بلوک گندم
   white_carpet: فرش سفید
   orange_carpet: فرش نارنجي
   magenta_carpet: فرش سرخآبي
@@ -373,12 +396,10 @@ material:
   red_carpet: فرش قرمز
   black_carpet: فرش مشکي
   terracotta: سفال
-  coal_block: بلوک ذغال سنگ
   packed_ice: يخ فشرده
   acacia_stairs: پله اقاقيا
   dark_oak_stairs: پله بلوط تيره
-  slime_block: بلوک لجن
-  grass_path: راه چمن
+  dirt_path: مسیر خاکی
   sunflower: گل آفتابگردان
   lilac: گل سايرينگا
   rose_bush: بوته رز
@@ -432,18 +453,17 @@ material:
   chain_command_block: بلاک فرمان زنجیره ای
   magma_block: بلاک ماگما
   nether_wart_block: بلوک زگیل ندر
-  warped_wart_block: بلوک زیگیل پیچ‌خورده‌ی جهنمی
+  warped_wart_block: بلوک زگیل پیچ‌خورده‌
   red_nether_bricks: آجر ندری قرمز
   bone_block: بلاک استخوان
   structure_void: ساختار خالی
-  observer: اوبزرور
-  shulker_box: جعبه شالکر
+  shulker_box: جعبه‌ی صدفی
   white_shulker_box: جعبه سفید شالکر
   orange_shulker_box: جعبه نارنجی شالکر
-  magenta_shulker_box: جعبه‌ی صدفی ارغوانی
-  light_blue_shulker_box: جعبه ابی کمرنگ شالکر
+  magenta_shulker_box: جعبه‌ی شالکر ارغوانی
+  light_blue_shulker_box: جعبه شالکر آبی روشن
   yellow_shulker_box: جعبه‌ی صدفی زرد
-  lime_shulker_box: جعبه سبز کمرنگ شالکر
+  lime_shulker_box: جعبه سبز روشن شالکر
   pink_shulker_box: جعبه صورتی شالکر
   gray_shulker_box: جعبه خاکستری شالکر
   light_gray_shulker_box: جعبه نقره ای شالکر
@@ -534,7 +554,7 @@ material:
   dead_fire_coral_fan: مرجان آتشین مرده
   dead_horn_coral_fan: مرجان شاخکی مرده
   blue_ice: یخ آبی
-  conduit: مجرا
+  conduit: جریان انداز
   polished_granite_stairs: پله گرنیتی صیقلی
   smooth_red_sandstone_stairs: پله سنگ ماسه قرمز صیقلی
   mossy_stone_brick_stairs: پله آجر سنگی خزه گرفته
@@ -546,9 +566,13 @@ material:
   smooth_quartz_stairs: پله سنگ چینی صیقلی
   granite_stairs: پله گرنیتی
   andesite_stairs: پله آندزیت
-  red_nether_brick_stairs: پله سنگی سرخ جهنم
+  red_nether_brick_stairs: پله آجر ندری قرمز
   polished_andesite_stairs: پله آندسیت صیقلی
   diorite_stairs: پله ديوريت
+  cobbled_deepslate_stairs: پله قله سنگ عمیق
+  polished_deepslate_stairs: پله سنگ عمیق صیقلی
+  deepslate_brick_stairs: پله های آجری سنگ عمیق
+  deepslate_tile_stairs: پله های کاشی سنگ عمیق
   polished_granite_slab: پله گرنیت صیقلی
   smooth_red_sandstone_slab: سنگ ماسه قرمز صیقلی نصف
   mossy_stone_brick_slab: آجر سنگی خزه گرفته نصف
@@ -559,10 +583,60 @@ material:
   smooth_quartz_slab: سنگ چینی صیقلی نصف
   granite_slab: گرنیت نصف
   andesite_slab: آندسیت نصف
-  red_nether_brick_slab: تخته سنگ آجری قرمز
+  red_nether_brick_slab: نیمه آجر ندری قرمز
   polished_andesite_slab: آندسیت صیقلی نصف
   diorite_slab: دایوریت نصف
+  cobbled_deepslate_slab: نیمه قلوه سنگ عمیق
+  polished_deepslate_slab: نیمه سنگ عمیق صیقل خورده
+  deepslate_brick_slab: نیمه آجری سنگ عمیق
+  deepslate_tile_slab: نیمه کاشی سنگ عمیق
   scaffolding: داربست
+  redstone: گَرد ردستون
+  redstone_torch: مشعل ردستونی
+  redstone_block: بلوک ردستون
+  repeater: تکرارکننده ردستوني
+  comparator: مقایسه گر ردستوني
+  piston: پيستون
+  sticky_piston: پيستون چسبناک
+  slime_block: بلوک لجن
+  honey_block: بلوک عسل
+  observer: نظاره‌گر
+  hopper: قيف
+  dispenser: توزيعگر
+  dropper: پرتابگر
+  lectern: میز قرائت
+  target: هدف
+  lever: اهرم
+  lightning_rod: میله رعد و برق گیر
+  daylight_detector: سنسور نور
+  sculk_sensor: سنسور مجسمه سازی
+  tripwire_hook: گیره تله نخی
+  trapped_chest: صندوقچه تله گذاري
+  tnt: تي ان تي
+  redstone_lamp: لامپ ردستونی
+  note_block: بلوک نت
+  stone_button: دکمه سنگی
+  polished_blackstone_button: دکمه‌ی سیاه‌سنگ صیقلی
+  oak_button: دکمه بلوطی
+  spruce_button: دکمه صنوبری
+  birch_button: دکمه غانی
+  jungle_button: دکمه جنگلی
+  acacia_button: دکمه اقاقیایی
+  dark_oak_button: دکمه بلوط تیره
+  crimson_button: دکمه کریمسون
+  warped_button: دکمه‌ی پیچ‌خورده
+  stone_pressure_plate: صفحه فشاری سنگی
+  polished_blackstone_pressure_plate: صفحه فشاری سیاه‌سنگ صیقلی
+  light_weighted_pressure_plate: تخته تشخیص‌گر سبک
+  heavy_weighted_pressure_plate: تخته تشخیص‌گر سنگین
+  oak_pressure_plate: تخته تشخيصگر بلوط
+  spruce_pressure_plate: تخته تشخيصگر صنوبر
+  birch_pressure_plate: تخته تشخيصگر غان
+  jungle_pressure_plate: تخته تشخيصگر جنگلی
+  acacia_pressure_plate: تخته تشخيصگر اقاقیا
+  dark_oak_pressure_plate: تخته تشخيصگر بلوط تیره
+  crimson_pressure_plate: صفحه فشاری کریمسون
+  warped_pressure_plate: صفحه فشاری پیچ‌خورده
   iron_door: در آهنی
   oak_door: درب بلوط
   spruce_door: درب صنوبر
@@ -570,10 +644,44 @@ material:
   jungle_door: درب جنگل
   acacia_door: درب اقاقیا
   dark_oak_door: درب بلوط تیره
-  crimson_door: درب سرخو
+  crimson_door: درب کریمسون
   warped_door: درب پیچ‌خورده
-  repeater: تکرارکننده ردستوني
-  comparator: مقایسه گر ردستوني
+  iron_trapdoor: دریچه آهن
+  oak_trapdoor: دریچه‌ی بلوطی
+  spruce_trapdoor: دریچه‌ی کاج نوئل
+  birch_trapdoor: دریچه‌ی توسی
+  jungle_trapdoor: دریچه‌ی جنگلی
+  acacia_trapdoor: دریچه‌ی آکاسیا
+  dark_oak_trapdoor: دریچه‌ی بلوطی تیره
+  crimson_trapdoor: درب تله‌ی کریمسون
+  warped_trapdoor: درب تله‌ی پیچ‌خورده
+  oak_fence_gate: دروازه چوبي
+  spruce_fence_gate: دروازه نرده صنوبر
+  birch_fence_gate: دروازه نرده توس
+  jungle_fence_gate: دروازه حصار جنگل
+  acacia_fence_gate: دروازه حصار اقاقیا
+  dark_oak_fence_gate: دروازه نرده های چوب بلوط تیره
+  crimson_fence_gate: درب نرده کریمسون
+  warped_fence_gate: درب نرده پیچ‌خورده
+  powered_rail: ريل حرکتی
+  detector_rail: ريل يابنده
+  rail: ریل
+  activator_rail: ریل فعالساز
+  saddle: زين
+  minecart: ماشين معدن
+  chest_minecart: ماشين معدن با صندوقچه
+  furnace_minecart: ماشين معدن با کوره
+  tnt_minecart: ماشين معدن با تي ان تي
+  hopper_minecart: ماشين معدن با قيف
+  carrot_on_a_stick: هويج روی میله
+  warped_fungus_on_a_stick: قارچ پیچ‌خورده روی قلاب
+  elytra: بالپوش
+  oak_boat: قایق بلوط
+  spruce_boat: قایق صنوبر
+  birch_boat: قایق توس
+  jungle_boat: قایق جنگلی
+  acacia_boat: قایق اقاقیا
+  dark_oak_boat: قایق بلوط تیره
   structure_block: ساختار بلوک
   jigsaw: بلاک منبت کاری
   turtle_helmet: لاک لاکپشت
@@ -585,10 +693,18 @@ material:
   coal: ذغال سنگ
   charcoal: ذغال چوب
   diamond: الماس
+  emerald: زمرد
+  lapis_lazuli: لاجورد
+  quartz: کوارتز ندر
+  amethyst_shard: تکه آمیتیست
+  raw_iron: آهن خام
   iron_ingot: شمش آهن
+  raw_copper: مس خام
+  copper_ingot: شمش مس
+  raw_gold: طلای خام
   gold_ingot: شمش طلا
-  netherite_ingot: شمش نثریتی
-  netherite_scrap: نثریتی قراضه
+  netherite_ingot: شمش ندرایت
+  netherite_scrap: تکه ندرایت
   wooden_sword: شمشير چوبي
   wooden_shovel: بيل چوبي
   wooden_pickaxe: کلنگ چوبي
@@ -614,11 +730,11 @@ material:
   diamond_pickaxe: کلنگ الماس
   diamond_axe: تبر الماس
   diamond_hoe: خیش الماس
-  netherite_sword: شمشیر نترایت
-  netherite_shovel: بیل نترایت
-  netherite_pickaxe: کلنگ نترایت
-  netherite_axe: تبر نترایت
-  netherite_hoe: کج بیل نترایت
+  netherite_sword: شمشیر ندرایت
+  netherite_shovel: بیل ندرایت
+  netherite_pickaxe: کلنگ ندرایت
+  netherite_axe: تبر ندرایت
+  netherite_hoe: خیش ندرایت
   stick: تیکه چوبي
   bowl: کاسه
   mushroom_stew: سوپ قارچ
@@ -648,10 +764,10 @@ material:
   golden_chestplate: پيراهن طلايي
   golden_leggings: شلوار طلايي
   golden_boots: کفش طلايي
-  netherite_helmet: کلاه‌خود نترایت
-  netherite_chestplate: زره نترایت
-  netherite_leggings: شلوار نترایت
-  netherite_boots: چکمه‌ی نترایت
+  netherite_helmet: کلاه‌خود ندرایت
+  netherite_chestplate: زره ندرایت
+  netherite_leggings: شلوار ندرایت
+  netherite_boots: چکمه‌ی ندرایت
   flint: سنگ چخماق
   porkchop: گوشت خوک خام
   cooked_porkchop: استيک خوک
@@ -664,34 +780,32 @@ material:
   jungle_sign: تابلو چوب جنگلی
   acacia_sign: تابلو چوب اقاقیا
   dark_oak_sign: تابلو چوب بلوط سیاه
-  crimson_sign: تابلوی سرخو
-  warped_sign: تابلو عجیب
+  crimson_sign: تابلوی کریمسون
+  warped_sign: تابلوی پیچ‌خورده
   bucket: سطل
   water_bucket: سطل آب
   lava_bucket: سطل گدازه
-  minecart: ماشين معدن
-  saddle: زين
-  redstone: گرد ردستون
+  powder_snow_bucket: سطل پودر برف
   snowball: گوله برفي
-  oak_boat: قایق بلوط
   leather: چرم
   milk_bucket: سطل شیر
   pufferfish_bucket: سطل ماهی بادکنکی
   salmon_bucket: سطل سالمون
   cod_bucket: سطل روغن‌ماهی
   tropical_fish_bucket: سطل ماهی استوایی
+  axolotl_bucket: سطل اکسولوتل
   brick: آجر
   clay_ball: توده سفالی
   dried_kelp_block: بلوک جلبک دریایی خشک شده
   paper: کاغذ
   book: کتاب
   slime_ball: توپ لجن
-  chest_minecart: ماشين معدن با صندوقچه
-  furnace_minecart: ماشين معدن با کوره
   egg: تخم مرغ
   compass: قطب نما
+  bundle: کیسه
   fishing_rod: چوب ماهيگيري
   clock: ساعت
+  spyglass: تلسکوپ
   glowstone_dust: گرد روشنا
   cod: روغن‌ماهی خام
   salmon: سالمون خام
@@ -700,8 +814,8 @@ material:
   cooked_cod: روغن‌ماهی پخته شده
   cooked_salmon: سالمون پخته
   ink_sac: مرکب
+  glow_ink_sac: مرکب درخشان
   cocoa_beans: دانه کاکائو
-  lapis_lazuli: لاجورد
   white_dye: رنگ سفید
   orange_dye: رنگ نارنجي
   magenta_dye: رنگ سرخابي
@@ -752,11 +866,11 @@ material:
   rotten_flesh: گوشت زامبي
   ender_pearl: گوهر فرجام
   blaze_rod: ميله آتشين
-  ghast_tear: اشک روح
+  ghast_tear: اشک گَست
   gold_nugget: ذره طلا
   nether_wart: زگیل ندر
   potion: معجون
-  glass_bottle: بطري شيشه اي
+  glass_bottle: بطری شیشه ای
   spider_eye: چشم عنکبوت
   fermented_spider_eye: چشم عنکبوت تخمیر شده
   blaze_powder: پودر شعله
@@ -765,6 +879,7 @@ material:
   cauldron: ديگ
   ender_eye: چشم فرجام
   glistering_melon_slice: قاچ هندوانه درخشان
+  axolotl_spawn_egg: تخم تولید کننده سمندر مکزیکی
   bat_spawn_egg: تخم تولید خفاش
   bee_spawn_egg: تخم زنبور
   blaze_spawn_egg: تخم تولید شعله
@@ -780,24 +895,26 @@ material:
   elder_guardian_spawn_egg: تخم تولید نگهبان ارشد
   enderman_spawn_egg: تخم تولید اندرمن
   endermite_spawn_egg: تخم تولید اندر مایت
-  evoker_spawn_egg: تخم تولید احضار کننده
+  evoker_spawn_egg: تخم تولید فراخواننده
   fox_spawn_egg: تخم تولید روباه
-  ghast_spawn_egg: تخم تولید روح
+  ghast_spawn_egg: تخم تولید گَست
+  glow_squid_spawn_egg: تخم تولید ماهی مرکب درخشان
+  goat_spawn_egg: تخمه تولید کننده بز
   guardian_spawn_egg: تخم تولید نگهبان
   hoglin_spawn_egg: تخم تولید هوگلین
   horse_spawn_egg: تم تولید اسب
   husk_spawn_egg: تخم تولید هاسک
   llama_spawn_egg: تخم تولید لاما
   magma_cube_spawn_egg: تخم تولید مکعب ماگما
-  mooshroom_spawn_egg: تخم تولید گاوچ
+  mooshroom_spawn_egg: تخم تولید قاو
   mule_spawn_egg: تخم تولید قاطر
   ocelot_spawn_egg: تخم تولید پلنگ
   panda_spawn_egg: تخم تولید پاندا
   parrot_spawn_egg: تخم تولید طوطی
   phantom_spawn_egg: تخم تولید شبح
   pig_spawn_egg: تخم تولید خوک
-  piglin_spawn_egg: تخم پیگلین
-  piglin_brute_spawn_egg: تخم اسپاون گرازنمای وحشی
+  piglin_spawn_egg: تخم تولید پیگلین
+  piglin_brute_spawn_egg: تخم تولید پیگلین وحشی
   pillager_spawn_egg: تخم تولید غارتگر
   polar_bear_spawn_egg: تخم تولید خرس قطبی
   pufferfish_spawn_egg: تخم تولید ماهی بادکنکی
@@ -805,36 +922,36 @@ material:
   ravager_spawn_egg: تخم تولید نابودگر
   salmon_spawn_egg: تخم تولید سالمون
   sheep_spawn_egg: تخم تولید گوسفند
-  shulker_spawn_egg: تخم تولید صدف کمین‌ دار
-  silverfish_spawn_egg: تخم تولید بید کاغذ
+  shulker_spawn_egg: تخم تولید شالکر
+  silverfish_spawn_egg: تخم تولید سیلورفیش
   skeleton_spawn_egg: تخم تولید اسکلت
   skeleton_horse_spawn_egg: تخم تولید اسب اسکلتی
   slime_spawn_egg: تخم تولید اسلایم
   spider_spawn_egg: تخم تولید عنکبوت
   squid_spawn_egg: تخم تولید ماهی مرکب
-  stray_spawn_egg: تخم تولد گم شده
+  stray_spawn_egg: تخم تولد استری
   strider_spawn_egg: تخم قدم‌زن
   trader_llama_spawn_egg: تخم تولید لاما معامله گر
   tropical_fish_spawn_egg: تخم تولید ماهی استوایی
   turtle_spawn_egg: تخم تولید لاکپشت
   vex_spawn_egg: تخم تولید آزار
   villager_spawn_egg: تخم تولید روستایی
-  vindicator_spawn_egg: تخم تولید حامی
+  vindicator_spawn_egg: تخم تولید کینه‌ورز
   wandering_trader_spawn_egg: تخم تولید معامله گر سرگردان
   witch_spawn_egg: تخم تولید ساحره
-  wither_skeleton_spawn_egg: تخم تولید اسکلت پژمرده گر
+  wither_skeleton_spawn_egg: تخم تولید اسکلت ویدر
   wolf_spawn_egg: تخم تولید گرگ
   zoglin_spawn_egg: تخم زوگلین
   zombie_spawn_egg: تخم تولید زامبی
   zombie_horse_spawn_egg: تخم تولید اسب زامبی
   zombie_villager_spawn_egg: تخم تولید روستایی زامبی
-  zombified_piglin_spawn_egg: تخم پیگلین زامبی شده
-  experience_bottle: بتري تجربه
+  zombified_piglin_spawn_egg: تخم تولید پیگلین زامبی شده
+  experience_bottle: بطری تجربه
   fire_charge: مهمات آتش
   writable_book: کتاب و قلم
   written_book: کتاب نوشته شده
-  emerald: زمرد
   item_frame: قاب
+  glow_item_frame: قاب آیتم درخشان
   flower_pot: گلدان
   carrot: هويج
   potato: سیب زمینی
@@ -843,22 +960,17 @@ material:
   map: نقشه خالی
   golden_carrot: هويج طلايی
   skeleton_skull: جمجمه اسکلت
-  wither_skeleton_skull: جمجمه اسکلت پژمرده گر
+  wither_skeleton_skull: جمجمه اسکلت ویدر
   player_head: سر بازیکن
   zombie_head: سر زامبی
   creeper_head: سر خزنده
   dragon_head: سر اژدها
-  carrot_on_a_stick: هويج روی میله
-  warped_fungus_on_a_stick: قارچ پیچ‌خورده سیخ‌زده شده
   nether_star: ستاره ندر
   pumpkin_pie: کيک کدو
   firework_rocket: راکت آتشبازي
   firework_star: گلوله باروت
   enchanted_book: کتاب افسون شده
-  nether_brick: آجر جهنمی
-  quartz: کوارتز ندر
-  tnt_minecart: ماشين معدن با تي ان تي
-  hopper_minecart: ماشين معدن با قيف
+  nether_brick: آجر ندر
   prismarine_shard: تکه منشور دریایی
   prismarine_crystals: کریستال منشور دریایی
   rabbit: خرگوش خام
@@ -894,7 +1006,7 @@ material:
   black_banner: پرچم سیاه
   end_crystal: کریستال پایان
   chorus_fruit: میوه کر
-  popped_chorus_fruit: Popped chorus fruit
+  popped_chorus_fruit: میوه کر پف کرده
   beetroot: چغندر
   beetroot_seeds: بذر چغندر
   beetroot_soup: سوپ چغندر
@@ -902,17 +1014,11 @@ material:
   splash_potion: معجون پرتاپی
   spectral_arrow: تیر نشانگر
   tipped_arrow: تیر افکت دار
-  lingering_potion: معجون طولانی
+  lingering_potion: معجون ماندگار
   shield: سپر
-  elytra: بالپوش
-  spruce_boat: قایق صنوبر
-  birch_boat: قایق توس
-  jungle_boat: قایق جنگلی
-  acacia_boat: قایق اقاقیا
-  dark_oak_boat: قایق بلوط تیره
   totem_of_undying: مجسمه زد مرگ
   shulker_shell: صدف شالکر
-  iron_nugget: تکه اهن
+  iron_nugget: تکه آهن
   knowledge_book: کتاب دانش
   debug_stick: چوب باگ کشی
   music_disc_13: ديسک موزيک
@@ -930,7 +1036,7 @@ material:
   music_disc_pigstep: ديسک موزيک
   trident: چنگک
   phantom_membrane: غشا شبح
-  nautilus_shell: صدف ملوانک
+  nautilus_shell: صدف ناتیلوس
   heart_of_the_sea: قلب دریا
   crossbow: کمان پولادی
   suspicious_stew: سوپ مرموز
@@ -948,26 +1054,22 @@ material:
   cartography_table: میز نقشه کشی
   fletching_table: میز تیر سازی
   grindstone: سنگ سمباده
-  lectern: تریبون
   smithing_table: میز آهنگری
   stonecutter: سنگ تراش
   bell: ناقوس
   lantern: فانوس
   soul_lantern: فانوس روح
   sweet_berries: توت های شیرین
-  campfire: آتش اردو
+  glow_berries: توت درخشان
+  campfire: کنده آتش
   soul_campfire: کنده‌آتش روح
   shroomlight: چراغ قارچی
-  honeycomb: شانه ی عسل
+  honeycomb: موم عسل
   bee_nest: کندو
   beehive: لانه زنبور
   honey_bottle: بطری عسل
-  honey_block: بلاک عسل
-  honeycomb_block: بلاک شانه عسل
-  lodestone: سنگ‌بار
-  netherite_block: بلاک نترایت
-  ancient_debris: عتیقه باقی مانده بلوک
-  target: هدف
+  honeycomb_block: بلاک موم عسل
+  lodestone: سنگ مرتعش
   crying_obsidian: آبسيديان گريان
   blackstone: سیاه‌سنگ
   blackstone_slab: نیم‌بلاک سیاه‌سنگ
@@ -981,29 +1083,54 @@ material:
   polished_blackstone_brick_slab: نیم‌بلاک آجر سیاه‌سنگ صیقلی
   polished_blackstone_brick_stairs: پله‌ی آجر سیاه‌سنگ صیقلی
   cracked_polished_blackstone_bricks: آجر سیاه‌سنگ صیقلی ترک‌خورده
-  respawn_anchor: بلاک نقطه‌ بازگشت
+  respawn_anchor: پشتوان احضار مجدد
+  candle: شمع
+  white_candle: شمع سفید
+  orange_candle: شمع نارنجی
+  magenta_candle: شمع ارغوانی
+  light_blue_candle: شمع آبی روشن
+  yellow_candle: شمع زرد
+  lime_candle: شمع سبز روشن
+  pink_candle: شمع صورتی
+  gray_candle: شمع خاکستری
+  light_gray_candle: شمع خاکستری روشن
+  cyan_candle: شمع فیروزه ای
+  purple_candle: شمع بنفش
+  blue_candle: شمع آبی
+  brown_candle: شمع قهوه ای
+  green_candle: شمع سبز
+  red_candle: شمع قرمز
+  black_candle: شمع سیاه
+  small_amethyst_bud: جوانه کوچک آمیتیست
+  medium_amethyst_bud: جوانه متوسط آمیتی ست
+  large_amethyst_bud: جوانه بزرگ آمیتیست
+  amethyst_cluster: خوشه آمیتیست
+  pointed_dripstone: چکیده‌سنگ جهت‌دار
   water: آب
   lava: گدازه
-  tall_seagrass: علف دریایی بلند
+  tall_seagrass: چمن دریایی بلند
   piston_head: سر پیستون
   moving_piston: پیستون متحرک
   wall_torch: مشعل دیواری
   fire: آتش
   soul_fire: آتش ارواح
-  redstone_wire: پودر رد استون
+  redstone_wire: پودر ردستون
   oak_wall_sign: تابلو دیواری چوب بلوط
   spruce_wall_sign: تابلو دیواری چوب کاج
   birch_wall_sign: تابلو دیواری چوب توس
   acacia_wall_sign: تابلو دیواری چوب آکاسیا
   jungle_wall_sign: تابلو دیواری چوب جنگل
   dark_oak_wall_sign: تابلو دیواری چوب بلوط سیاه
-  redstone_wall_torch: مشعل سنگ سرخ دیواری
+  redstone_wall_torch: مشعل ردستون دیواری
   soul_wall_torch: مشعل دیواری روح
   nether_portal: دروازه ندر
   attached_pumpkin_stem: ساقه کدو تنبل متصل
   attached_melon_stem: ساقه هندوانه متصل
   pumpkin_stem: ساقه کدو
   melon_stem: ساقه هندوانه
+  water_cauldron: دیگ آب
+  lava_cauldron: دیگ گدازه
+  powder_snow_cauldron: دیگ پودر برف
   end_portal: درگاه فرجام
   cocoa: کاکائو
   tripwire: نخ تله
@@ -1034,7 +1161,7 @@ material:
   carrots: هويج
   potatoes: سيب زميني ها
   skeleton_wall_skull: جمجمه دیواری اسکلت
-  wither_skeleton_wall_skull: جمجمه پژمرده گر
+  wither_skeleton_wall_skull: جمجمه ویدر روی دیوار
   zombie_wall_head: سر دیواری زامبی
   player_wall_head: سر دیواری بازیکن
   creeper_wall_head: سر دیواری خزنده
@@ -1076,13 +1203,37 @@ material:
   bubble_column: ستون حباب
   sweet_berry_bush: بوته توت شیرین
   weeping_vines_plant: گیاه تاک مجنون
-  twisting_vines_plant: گیاه پیچک تابنده
-  crimson_wall_sign: تابلوی دیواری زرشکی
+  twisting_vines_plant: گیاه تاک پیچنده
+  crimson_wall_sign: تابلوی دیواری کریمسون
   warped_wall_sign: تابلو دیواری پیچ خورده
-  potted_crimson_fungus: قارچ سرخوی کاشته شده
-  potted_warped_fungus: قارچ پیچ‌خورده‌ی کاشته شده
-  potted_crimson_roots: سرخو‌ی کاشته شده
-  potted_warped_roots: ریشه پیچ‌خورده‌ی کاشته شده
+  potted_crimson_fungus: قارچ کریمسون داخل گلدان
+  potted_warped_fungus: قارچ پیچ‌خورده‌ی داخل گلدان
+  potted_crimson_roots: ریشه های کریمسون داخل گلدان
+  potted_warped_roots: ریشه های پیچ‌خورده‌ی داخل گلدان
+  candle_cake: شمع کیک
+  white_candle_cake: کیک با شمع سفید
+  orange_candle_cake: کیک با شمع نارنجی
+  magenta_candle_cake: کیک با شمع ارغوانی
+  light_blue_candle_cake: کیک با شمع آبی روشن
+  yellow_candle_cake: کیک با شمع زرد
+  lime_candle_cake: کیک با شمع سبز روشن
+  pink_candle_cake: کیک با شمع صورتی
+  gray_candle_cake: کیک با شمع خاکستری
+  light_gray_candle_cake: کیک با شمع خاکستری روشن
+  cyan_candle_cake: کیک با شمع فیروزه‌ای
+  purple_candle_cake: کیک با شمع بنفش
+  blue_candle_cake: کیک با شمع آبی
+  brown_candle_cake: کیک با شمع قهوه‌ای
+  green_candle_cake: کیک با شمع سبز
+  red_candle_cake: کیک با شمع قرمز
+  black_candle_cake: کیک با شمع سیاه
+  powder_snow: پودر برف
+  cave_vines: تاک‌های غاری
+  cave_vines_plant: گیاه تاک‌های غاری
+  big_dripleaf_stem: ساقه چکه‌برگ بزرگ
+  potted_azalea_bush: گلدان آزالیا
+  potted_flowering_azalea_bush: گلدان آزالیا گل‌دهنده
+  grass_path: راه چمن
   zombie_pigman_spawn_egg: تخم تولید زامبی مردخوکی
   cactus_green: رنگ سبز
   dandelion_yellow: رنگ زرد
@@ -1098,7 +1249,7 @@ biome:
   taiga: تایگا
   swamp: مرداب
   river: رودخانه
-  nether_wastes: جهنم
+  nether_wastes: زمین های از بین رفته ندر
   the_end: فرجام
   frozen_ocean: اقیانوس یخ زده
   frozen_river: رودخانه یخ زده
@@ -1141,7 +1292,7 @@ biome:
   deep_lukewarm_ocean: اقیانوس نیمه گرم عمیق
   deep_cold_ocean: اقیانوس سرد عمیق
   deep_frozen_ocean: اقیانوس یخ زده عمیق
-  the_void: خالی
+  the_void: فضای خالی
   sunflower_plains: دشت های گل های آفتابگردان
   desert_lakes: دریاچه های بیابانی
   gravelly_mountains: کوهستان شنی
@@ -1166,49 +1317,51 @@ biome:
   bamboo_jungle: جنگل بامبو
   bamboo_jungle_hills: تپه جنگل بامبو
   soul_sand_valley: دره شن‌روح
-  crimson_forest: جنگل سرخو
+  crimson_forest: جنگل کریمسون
   warped_forest: جنگل پیچ خورده
   basalt_deltas: دلتا های بازالتی
+  dripstone_caves: غارهای چکه سنگی
+  lush_caves: غارهای سرسبز
   nether: ندر
 enchantment:
+  protection: حفاظت
   fire_protection: محافظ در برابر آتش
-  sharpness: تیزی
-  flame: آتش زن
-  soul_speed: سرعت روح
-  aqua_affinity: ورزشهای آبی میل
-  punch: مشت زن
-  loyalty: وفاداری
-  depth_strider: عمق Strider
-  vanishing_curse: نفرین ناپدید شدن
-  unbreaking: نشکن
-  knockback: شوت کن
-  luck_of_the_sea: بخت دریا
-  binding_curse: معجون انقیاد
-  fortune: اقبال
-  protection: حفاظت کن
-  efficiency: بهره وری
-  mending: مرمت
-  frost_walker: راه رونده یخی
-  lure: جذب
-  looting: جمع کن
-  piercing: سوراخ کنندگی
+  feather_falling: سقوط پَر مانند
   blast_protection: حفاظت از انفجار
+  projectile_protection: حفاظت از پرتاب ها
+  respiration: نفس
+  aqua_affinity: تمایل به آب
+  thorns: شوک دهنده
+  depth_strider: گام زدن عمیق
+  frost_walker: قدم‌زن سرما
+  binding_curse: نفرین تعیّن
+  sharpness: تیزی
   smite: کوبیدن
-  multishot: سه تیر زدن
-  fire_aspect: آتش نگیر
-  channeling: کانال کردن
-  sweeping: لبه های سودمند
-  thorns: شیطان کش
   bane_of_arthropods: زهر بندپایان
-  respiration: دم زن
-  riptide: Riptide
-  silk_touch: لمس ملایم
-  quick_charge: مسلح کردن سریع
-  projectile_protection: حفاظت از وسایل پرتابی
-  impaling: سوراخ کردن
-  feather_falling: سبک وزن کن
-  power: قدرت زا
+  knockback: عقب پرت‌کننده
+  fire_aspect: جلوه آتش
+  looting: گردآور غنیمت
+  sweeping: لبه ممتد
+  efficiency: بهره وری
+  silk_touch: لمس ابریشمی
+  unbreaking: نشکن
+  fortune: اقبال
+  power: قدرت
+  punch: مشت
+  flame: شعله افروز
   infinity: ابدی
+  luck_of_the_sea: بخت دریا
+  lure: تطمیع
+  loyalty: وفاداری
+  impaling: سپوختن
+  riptide: موج بازگشت
+  channeling: نبش رعد
+  multishot: سه تیر زدن
+  quick_charge: مسلح کردن سریع
+  piercing: سوراخ کنندگی
+  mending: مرمت
+  vanishing_curse: نفرین ناپدید شدن
+  soul_speed: سرعت روح
 potion:
   uncraftable: معجون غیر قابل ساخت
   water: بطری آب
@@ -1302,8 +1455,8 @@ entity:
   experience_orb: گوی تجربه
   area_effect_cloud: منطقه ابری
   elder_guardian: نگهبان بزرگ
-  wither_skeleton: اسکلت پژمرده گر
-  stray: ولگرد
+  wither_skeleton: اسکلت ویدر
+  stray: استری
   egg: پرتاب تخم
   leash_hitch: گره افسار
   painting: نقاشی
@@ -1316,7 +1469,7 @@ entity:
   splash_potion: معجون
   thrown_exp_bottle: پدید آوردن بطري تجربه
   item_frame: قاب
-  wither_skull: جمجمه پژمرده گر
+  wither_skull: جمجمه ویدر
   primed_tnt: بمب تحریک پذیر
   falling_block: بلوک در حال سقوط
   firework: راکت آتشبازي
@@ -1330,10 +1483,10 @@ entity:
   armor_stand: پایه زره پوش
   donkey: الاغ
   mule: قاطر
-  evoker_fangs: دندان نیش شوهر
-  evoker: توسعه دهنده
+  evoker_fangs: فراخواننده ریشه ها را احضار می کند
+  evoker: فراخواننده
   vex: آزار
-  vindicator: مدافع
+  vindicator: کینه‌ورز
   illusioner: توهم ساز
   minecart_command: ماشين معدن با بلوک دستور
   boat: قايق
@@ -1349,18 +1502,18 @@ entity:
   giant: غول
   zombie: زامبی
   slime: لجن مکعبي
-  ghast: روح
+  ghast: گَست
   zombified_piglin: پيگلين زامبی شده
   enderman: اِندِرمن
   cave_spider: عنکبوت غار
-  silverfish: ماهی نقره ای
+  silverfish: سیلورفیش
   blaze: شعله
   magma_cube: مکعب مذاب
   ender_dragon: اژدهای فرجام
-  wither: پژمرده گر
+  wither: ویدر
   bat: خفاش
   witch: افسونگر
-  endermite: تننده فرجام
+  endermite: اندرمایت
   guardian: نگهبان
   shulker: شالکر
   pig: خوک
@@ -1402,7 +1555,12 @@ entity:
   piglin: پيگلين
   strider: قدم‌زن
   zoglin: زوگلین
-  piglin_brute: گرازنمای وحشی
+  piglin_brute: پیگلین وحشی
+  axolotl: سمندر مکزیکی
+  glow_item_frame: قاب آیتم درخشان
+  glow_squid: ماهی مرکب درخشان
+  goat: بز
+  marker: مشخص کننده
   fishing_hook: ماهیگیری باببر
   lightning: رعد و برق
   player: بازیکن
@@ -1436,7 +1594,7 @@ effect:
   luck: شانس
   unluck: بد شانسی
   slow_falling: سقوط آزاد
-  conduit_power: قدرت کانال
+  conduit_power: قدرت جریان
   dolphins_grace: بخشش دلفین
   bad_omen: نشانه بد
   hero_of_the_village: قهرمان روستا
@@ -1473,11 +1631,11 @@ dye_color:
 named:
   player_head_named: سر %s
   potion_with_amplifier: '%s %s'
-  potion_with_duration: '%s %s)'
+  potion_with_duration: '%s (%s)'
   none_effects: بدون عوارض
   unknown_enchantment: 'افسون نامشخص: %s'
-  unknown_entity: نام افکت (%s) ناشناخت است
-  unknown_effect: نام افکت (%s) ناشناخت است
+  unknown_entity: 'انتیتی ناشناخته: %s'
+  unknown_effect: 'افکت ناشناخته: %s'
 tropical_fish_name:
   '117506305': شقایق نعمان
   '117899265': جراح‌ماهی سیاه
@@ -1519,22 +1677,22 @@ colored_shied:
   red: سپر قرمز
   black: سپر مشکی
 banner_pattern:
-  '65536': گوشه جنوب غربی سفید
-  '65537': گوشه جنوب غربی نارنجی
-  '65538': گوشه جنوب غربی
-  '65539': گوشه جنوب غربی آبی
-  '65540': گوشه جنوب غربی زرد
-  '65541': گوشه جنوب غربی لیمویی
-  '65542': گوشه جنوب غربی صورتی
-  '65543': گوشه جنوب غربی خاکستری
-  '65544': گوشه جنوب غربی نقره ای
-  '65545': گوشه جنوب غربی آبی دریایی
-  '65546': گوشه جنوب غربی بنفش
-  '65547': گوشه جنوب غربی آبی
-  '65548': گوشه جنوب غربی قهوه ای
-  '65549': گوشه جنوب غربی سبز
-  '65550': گوشه جنوب غربی قرمز
-  '65551': گوشه جنوب غربی سیاه
+  '65536': گوشه چپ پایین سفید
+  '65537': گوشه چپ پایین نارنجی
+  '65538': گوشه چپ پایین ارغوانی
+  '65539': گوشه چپ پایین آبی روشن
+  '65540': گوشه چپ پایین زرد
+  '65541': گوشه چپ پایین سبز روشن
+  '65542': گوشه چپ پایین صورتی
+  '65543': گوشه چپ پایین خاکستری
+  '65544': گوشه چپ پایین خاکستری روشن
+  '65545': گوشه چپ پایین فیروزه ای
+  '65546': گوشه چپ پایین بنفش
+  '65547': گوشه چپ پایین آبی
+  '65548': گوشه چپ پایین قهوه‌ای
+  '65549': گوشه چپ پایین سبز
+  '65550': گوشه چپ پایین قرمز
+  '65551': گوشه چپ پایین سیاه
   '131072': White Base Sinister Canton
   '131073': Orange Base Sinister Canton
   '131074': Magenta Base Sinister Canton
@@ -1547,10 +1705,10 @@ banner_pattern:
   '131081': گوشه جنوب شرقی فیروزه ای
   '131082': گوشه جنوب شرقی بنفش
   '131083': گوشه جنوب شرقی آبی
-  '131084': گوشه جنوب شرقی قهوه ای
-  '131085': گوشه جنوب شرقی سبز
-  '131086': گوشه جنوب شرقی قرمز
-  '131087': گوشه جنوب شرقی سیاه
+  '131084': گوشه راست-پایین قهوه‌ای
+  '131085': گوشه راست-پایین سبز
+  '131086': گوشه راست-پایین قرمز
+  '131087': گوشه راست-پایین سیاه
   '196608': White Chief Dexter Canton
   '196609': Orange Chief Dexter Canton
   '196610': Magenta Chief Dexter Canton
@@ -1567,523 +1725,518 @@ banner_pattern:
   '196621': Green Chief Dexter Canton
   '196622': Red Chief Dexter Canton
   '196623': Black Chief Dexter Canton
-  '262144': White Chief Sinister Canton
-  '262145': Orange Chief Sinister Canton
-  '262146': Magenta Chief Sinister Canton
-  '262147': Light Blue Chief Sinister Canton
-  '262148': Yellow Chief Sinister Canton
-  '262149': Lime Chief Sinister Canton
-  '262150': Pink Chief Sinister Canton
-  '262151': Gray Chief Sinister Canton
-  '262152': Light Gray Chief Sinister Canton
-  '262153': Cyan Chief Sinister Canton
-  '262154': Purple Chief Sinister Canton
-  '262155': Blue Chief Sinister Canton
-  '262156': Brown Chief Sinister Canton
-  '262157': Green Chief Sinister Canton
+  '262144': گوشه راست-بالا سفید
+  '262145': گوشه راست-بالا نارنجی
+  '262146': گوشه راست-بالا ارغوانی
+  '262147': گوشه راست-بالا آبی روشن
+  '262148': گوشه راست-بالا زرد
+  '262149': گوشه راست-بالا سبز روشن
+  '262150': گوشه راست-بالا صورتی
+  '262151': گوشه راست-بالا خاکستری
+  '262152': گوشه راست-بالا خاکستری روشن
+  '262153': گوشه راست-بالا فیروزه ای
+  '262154': گوشه راست-بالا بنفش
+  '262155': گوشه راست-بالا آبی
+  '262156': گوشه راست-بالا قهوه‌ای
+  '262157': گوشه راست-بالا سبز
   '262158': Red Chief Sinister Canton
   '262159': Black Chief Sinister Canton
-  '327680': پایین سفید
-  '327681': پایین نارنجی
-  '327682': پایین ارغوانی
-  '327683': پایین آبی روشن
-  '327684': پایین زرد
-  '327685': پایین لیمویی
-  '327686': پایین صورتی
-  '327687': پایین خاکستری
-  '327688': پایین خاکستری روشن
-  '327689': پایین فیروزه ای
-  '327690': پایین بنفش
+  '327680': پایه سفید
+  '327681': پایه نارنجی
+  '327682': پایه ارغوانی
+  '327683': پایه آبی روشن
+  '327684': پایه زرد
+  '327685': پایه سبز روشن
+  '327686': پایه صورتی
+  '327687': پایه خاکستری
+  '327688': پایه خاکستری روشن
+  '327689': پایه فیروزه ای
+  '327690': پایه بنفش
   '327691': پایه آبی
-  '327692': پایه قهوای
+  '327692': پایه قهوه‌ای
   '327693': پایه سبز
   '327694': پایه قرمز
   '327695': پایه سیاه
-  '393216': بالا سفید
-  '393217': بالا نارنجی
-  '393218': بالا ارغوانی
-  '393219': بالا آبی روشن
-  '393220': بالا زرد
-  '393221': بالا لیمویی
-  '393222': بالا صورتی
-  '393223': بالا خاکستری
-  '393224': بالا خاکستری روشن
-  '393225': بالا فیروزه ای
-  '393226': بالا بنفش
-  '393227': بالا آبی
-  '393228': بالا قهوه ای
-  '393229': بالا سبز
-  '393230': بالا قرمز
-  '393231': بالا سیاه
-  '458752': چپ سفید
-  '458753': چپ نارنجی
-  '458754': چپ ارغوانی
-  '458755': چپ آبی روشن
-  '458756': چپ زرد
-  '458757': چپ لیمویی
-  '458758': چپ صورتی
-  '458759': چپ خاکستری
-  '458760': چپ خاکستری روشن
-  '458761': چپ فیروزه ای
-  '458762': چپ بنفش
-  '458763': چپ آبی
-  '458764': چپ قهوه ای
-  '458765': چپ سبز
-  '458766': چپ سرخ
-  '458767': چپ سیاه
-  '524288': سفید Pale Sinister
-  '524289': نارنجی Pale Sinister
-  '524290': ارغوانی Pale Sinister
-  '524291': آبی کمرنگ Pale Sinister
-  '524292': زرد Pale Sinister
-  '524293': لیمویی Pale Sinister
-  '524294': صورتی Pale Sinister
-  '524295': خاکستری Pale Sinister
-  '524296': Light Gray Pale Sinister
-  '524297': فیروزه ای Pale Sinister
-  '524298': بنفش Pale Sinister
-  '524299': راست آبی
-  '524300': راست قهوه ای
-  '524301': راست سبز
-  '524302': راست قرمز
-  '524303': راست سیاه
-  '589824': سفید Pale
-  '589825': نارنجی Pale
-  '589826': ارغوانی Pale
-  '589827': آبی کمرنگ Pale
-  '589828': زرد Pale
-  '589829': لیمویی Pale
-  '589830': صورتی Pale
-  '589831': خاکستری Pale
-  '589832': خاکستری کم رنگ Pale
-  '589833': فیروزه ای Pale
-  '589834': بنفش Pale
-  '589835': آبی Pale
-  '589836': قهوه ایPale
-  '589837': سبز Pale
-  '589838': قرمز Pale
-  '589839': سیاه Pale
-  '655360': White Fess
-  '655361': Orange Fess
-  '655362': Magenta Fess
-  '655363': Light Blue Fess
-  '655364': Yellow Fess
-  '655365': Lime Fess
-  '655366': Pink Fess
-  '655367': Gray Fess
-  '655368': Light Gray Fess
-  '655369': Cyan Fess
-  '655370': Purple Fess
-  '655371': Blue Fess
-  '655372': Brown Fess
-  '655373': Green Fess
-  '655374': Red Fess
-  '655375': Black Fess
-  '720896': خم سفید
-  '720897': خم نارنجی
-  '720898': خم شدن ارغوانی
-  '720899': خم آبی روشن
-  '720900': خم زرد
-  '720901': آهک خم
-  '720902': خم صورتی
-  '720903': خم خاکستری
-  '720904': خم خاکستری روشن
-  '720905': خم فیروزه ای
-  '720906': خم بنفش
-  '720907': خم آبی
-  '720908': خم قهو
-  '720909': خم سبز
-  '720910': خم سرخ
-  '720911': خم سیاه
-  '786432': سفید شیطانی خم
-  '786433': نارنجی شیطانی خم
-  '786434': ارغوانی شیطانی خم
-  '786435': شیطانی خم آبی سبک
-  '786436': زرد شیطانی خم
-  '786437': اهک شیطانی خم
-  '786438': صورتی شیطانی خم
-  '786439': خاکستری شیطانی خم
-  '786440': خاکستری روشن شیطانی خم
-  '786441': فیروزه ای شیطانی خم
-  '786442': زرشکی شیطانی خم
-  '786443': آبی شیطانی خم
-  '786444': شیطانی خم قهوه ای
-  '786445': سبز شیطانی خم
-  '786446': سیاه شیطانی خم
-  '786447': سیاه شیطانی خم
-  '851968': سفید رنگ پریده
-  '851969': نارنجی پالی
-  '851970': قرمز بازی
-  '851971': نور کم رنگ
-  '851972': کم رنگ رنگ زرد
-  '851973': Pale lime
-  '851974': کم رنگ صورتی
-  '851975': Pale gray
-  '851976': کم رنگ خاکستری روشن
-  '851977': کم رنگ فیروزه
-  '851978': کم رنگ جامه ارغوانی
-  '851979': آبی کمرنگ
-  '851980': کم رنگ قهوه ای
-  '851981': Pale green
-  '851982': Pale red
-  '851983': کم رنگ سیاه و سفید
-  '917504': White Saltire
-  '917505': Orange Saltire
-  '917506': Magenta Saltire
-  '917507': Light Blue Saltire
-  '917508': Lime Saltire
-  '917509': Lime Saltire
-  '917510': Pink Saltire
-  '917511': پیراهن خاکستری
-  '917512': سلتیر فیروزه ای
-  '917513': سلتیر فیروزه ای
-  '917514': پیراهن بنفش
-  '917515': بلو سالتیر
-  '917516': پیراهن قهوه ای
-  '917517': پیراهن سبز
-  '917518': پیراهن قرمز
-  '917519': سیاه, ستاره فیلم سکسی
-  '983040': صلیب سفید
-  '983041': صلیب نارنجی
-  '983042': Magenta Cross
-  '983043': صلیب آبی روشن
-  '983044': صلیب زرد
-  '983045': صلیب آهک
-  '983046': صلیب صورتی
-  '983047': صلیب خاکستری
-  '983048': صلیب خاکستری روشن
-  '983049': صلیب آبی روشن
-  '983050': صلیب بنفش
-  '983051': صلیب آبی
-  '983052': صلیب قهوه ای
-  '983053': صلیب سبز
-  '983054': صلیب سرخ
-  '983055': صلیب سیاه
-  '1048576': دستکش سفید
-  '1048577': Magenta Chevron
-  '1048578': Magenta Chevron
-  '1048579': Light Blue Chevron
-  '1048580': Yellow Chevron
-  '1048581': Lime Chevron
-  '1048582': Pink Chevron
-  '1048583': Gray Chevron
-  '1048584': Light Gray Chevron
-  '1048585': Cyan Chevron
-  '1048586': Purple Chevron
-  '1048587': Blue Chevron
-  '1048588': Brown Chevron
-  '1048589': Green Chevron
-  '1048590': Red Chevron
-  '1048591': Black Chevron
-  '1114112': شورون معکوس سفید
-  '1114113': نارنجی معکوس شورون
-  '1114114': Magenta شورون شور
-  '1114115': شورون آبی وارونه
-  '1114116': شورون معکوس زرد
-  '1114117': لیمو معکوس شورون
-  '1114118': شورون صورتی معکوس صورتی
-  '1114119': خاکستری معکوس شورون
-  '1114120': لایت خاکستری شورون معکوس
-  '1114121': سیانون معکوس شورون
-  '1114122': شورون معکوس بنفش
-  '1114123': شورون معکوس آبی
-  '1114124': قهوه ای معکوس شورون
-  '1114125': شورون معکوس سبز
-  '1114126': شورون معکوس قرمز
-  '1114127': دستکش معکوس سیاه
-  '1179648': بیس سفید
-  '1179649': پایه نارنج
-  '1179650': پایه سرخدار برجسته
-  '1179651': پایه آبی روشن برجسته
-  '1179652': پایه زرد سوزن
-  '1179653': پایه آهک فرو رفته
-  '1179654': پایه صورتی برجسته
-  '1179655': پایه خاکستری
-  '1179656': پایه خاکستری سبک
-  '1179657': پایه سبز غرق
-  '1179658': پایه بنفش برجسته
-  '1179659': پایه آبی بی سیم
-  '1179660': پایه قهوه ای غرق
-  '1179661': پایه سبز غرق
-  '1179662': پایه سرخ
-  '1179663': پایه سیاه برجسته
-  '1245184': رئیس سفید متخلف
-  '1245185': رئیس نارنجی
-  '1245186': رئیس مژگان تورفت
-  '1245187': رئیس آبی روشن برجسته
-  '1245188': رئیس زرد متخلف
-  '1245189': رئیس آهک فروخورده
-  '1245190': رئیس صورتی برجسته
-  '1245191': رئیس خاکستری
-  '1245192': نور خاکستری رئیس برجسته
-  '1245193': رئیس سیان
-  '1245194': رئیس ارغوانی متخلف
-  '1245195': سر رئیس آبی
-  '1245196': رئیس قهوه ای برجسته
-  '1245197': سر سبز
-  '1245198': رئیس سرخ
-  '1245199': رئیس سیاه دندانه دار
-  '1310720': سفید برای خم شوم
-  '1310721': نارنجی برای خم شوم
-  '1310722': ارغوانی برای خم شوم
-  '1310723': آبی روشن برای bend sinister
-  '1310724': زرد برای خم شوم
-  '1310725': رنگ آهک برای خم شوم
-  '1310726': صورتی برای خم شوم
-  '1310727': خاکستری برای خم شوم
-  '1310728': نور خاکستری در خم شدن
-  '1310729': فیروزه ای شیطانی خم
-  '1310730': مورب پیچ بنفش
-  '1310731': مورب پیچ ابی
-  '1310732': Kh
-  '1310733': سبز شیطانی خم
-  '1310734': سیاه شیطانی خم
-  '1310735': سیاه شیطانی خم
-  '1376256': White Per Bend Sinister معکوس شد
-  '1376257': Orange Per Bend Sinister معکوس شد
-  '1376258': Magenta Per Bend Sinister معکوس
-  '1376259': آبی روشن در هر خم شوم معکوس
-  '1376260': زرد در هر خم Sinister معکوس
-  '1376261': Lime Per Bend Sinister معکوس شد
-  '1376262': Pink Per Bend Sinister معکوس شد
-  '1376263': Grey Per Bend Sinister معکوس
-  '1376264': Light Grey Per Bend Sinister معکوس شده است
-  '1376265': Cyan Per Bend Sinister معکوس
-  '1376266': Purple Per Bend Sinister معکوس شده است
-  '1376267': Cyan Per Bend Sinister معکوس
-  '1376268': Grey Per Bend Sinister معکوس
-  '1376269': Grey Per Bend Sinister معکوس
-  '1376270': Cyan Per Bend Sinister معکوس
-  '1376271': Cyan Per Bend Sinister معکوس
-  '1441792': وایت در فس وارونه
-  '1441793': نارنجی در هر فس معکوس شد
-  '1441794': Magenta Per Fess وارونه شد
-  '1441795': آبی روشن در فس وارونه
-  '1441796': زرد در هر فس وارونه
-  '1441797': لیمو در هر فس معکوس شد
-  '1441798': معکوس صورتی در فس
-  '1441799': قرمز در خم معکوس
-  '1441800': نور خاکستری در خم شدن
-  '1441801': -> مسدود کردن.کنفرانسبنرمورب_سمت_چپسیاه
-  '1441802': قرمز در خم معکوس
-  '1441803': آبی در خم معکوس
-  '1441804': قهوه ای در خم معکوس
-  '1441805': قرمز در خم معکوس
-  '1441806': قرمز در خم معکوس
-  '1441807': -> مسدود کردن.کنفرانسبنرمورب_سمت_چپسیاه
-  '1507328': |
-    -> مسدود کردن.کنفرانسبنرمورب_سمت راستسفید
-  '1507329': -> مسدود کردن.کنفرانسبنرمورب_سمت راستنارنجی
-  '1507330': -> مسدود کردن.کنفرانسبنرمورب_سمت راستارغوانی
-  '1507331': -> مسدود کردن.کنفرانسبنرمورب_سمت راس?آبی کمرنگ
-  '1507332': -> مسدود کردن.کنفرانسبنرمورب_سمت راسترنگ زرد
-  '1507333': -> مسدود کردن.کنفرانسبنرمورب_سمت راستاهک
-  '1507334': |2
-     -> مسدود کردن.کنفرانسبنرمورب_سمت راسترنگ صورتی
-  '1507335': -> مسدود کردن.کنفرانسبنرمور_ سمت راستخاکستری
-  '1507336': ' -> مسدود کردن.کنفرانس.بنر.مور_ سمت راست.خاکستری روشن'
-  '1507337': فیروزه ای در هر خم
-  '1507338': بنفش در هر خم
-  '1507339': آبی در هر خم
-  '1507340': قهوه ای در هر خم
-  '1507341': سبز در هر خم
-  '1507342': قرمز در هر خم
-  '1507343': سیاه در هر خم
-  '1572864': گرد سفید
-  '1572865': گرد نارنجی
-  '1572866': گردونه گرد
-  '1572867': گرد آبی روشن
-  '1572868': گرد زرد
-  '1572869': گرد آهک
-  '1572870': گرد گرد
-  '1572871': گرد خاکستری
-  '1572872': گرد خاکستری روشن
-  '1572873': سیان گرد
-  '1572874': Roundel بنفش
-  '1572875': Roundel آبی
-  '1572876': گرد قهوه ای
-  '1572877': گرد سبز
-  '1572878': گرد قرمز
-  '1572879': سیاه گرد
-  '1638400': لوزه سفید
-  '1638401': نارنجی نارنجی
-  '1638402': مژگان لوزه
-  '1638403': لوزه آبی روشن
-  '1638404': زردپوش زرد
-  '1638405': لوزه آهک
-  '1638406': صورتی لوزه
-  '1638407': خاکستری لوزه
-  '1638408': لوزه خاکستری سبک
-  '1638409': Cyan Lozenge
-  '1638410': لوزه بنفش
-  '1638411': آبی رنگ
-  '1638412': قهوه ای Lozenge
-  '1638413': سبز لوزه
-  '1638414': لوزه قرمز
-  '1638415': لوزه سیاه
-  '1703936': سیاه در هر رنگ
-  '1703937': نارنجی Pale
-  '1703938': ارغوانی Pale
-  '1703939': آبی کمرنگ Pale
-  '1703940': زرد در هر رنگ پریده
-  '1703941': سیاه در هر رنگ
-  '1703942': سیاه در هر رنگ
-  '1703943': سبز در هر رنگ
-  '1703944': خاکستری کم رنگ Pale
-  '1703945': سیان پرل
-  '1703946': بنفش در هر رنگ
-  '1703947': آبی در هر رنگ
-  '1703948': قهوه ای در هر رنگ
-  '1703949': سبز در هر رنگ
-  '1703950': قرمز در هر رنگ
-  '1703951': سیاه در هر رنگ
-  '1769472': |2
-     -> مسدود کردن.کنفرانسبنرمورب_سمت راسترنگ صورتی
-  '1769473': -> مسدود کردن.کنفرانسبنرمورب_سمت راستنارنجی
-  '1769474': -> مسدود کردن.کنفرانسبنرمورب_سمت راستارغوانی
-  '1769475': -> مسدود کردن.کنفرانسبنرمورب_سمت راس?آبی کمرنگ
-  '1769476': -> مسدود کردن.کنفرانسبنرمورب_سمت راسترنگ زرد
-  '1769477': |2
-     -> مسدود کردن.کنفرانسبنرمورب_سمت راسترنگ صورتی
-  '1769478': |2
-     -> مسدود کردن.کنفرانسبنرمورب_سمت راسترنگ صورتی
-  '1769479': سبز در هر خم
-  '1769480': ' -> مسدود کردن.کنفرانس.بنر.مور_ سمت راست.خاکستری روشن'
-  '1769481': فیروزه ای در هر خم
-  '1769482': بنفش در هر خم
-  '1769483': آبی در هر Fess
-  '1769484': سبز در هر خم
-  '1769485': سبز در هر خم
-  '1769486': قرمز در هر خم
-  '1769487': سیاه در هر خم
-  '1835008': نیمه عمودی سفید برعکس شده
-  '1835009': نیمه عمودی نارنجی برعکس شده
-  '1835010': نیمه عمودی ارغوانی برعکس شده
-  '1835011': نیمه عمودی آبی روشن برعکس شده
-  '1835012': نیمه عمودی زرد برعکس شده
-  '1835013': نیمه عمودی لیمویی برعکس شده
-  '1835014': نیمه عمودی صورتی برعکس شده
-  '1835015': نیمه عمودی خاکستری برعکس شده
-  '1835016': نیمه عمودی خاکستری روشن برعکس شده
-  '1835017': نیمه عمودی فیروزه ای برعکس شده
-  '1835018': بلاک. ماینکرفت. بنر. نیمه عمودی سمت راست. بنفش
-  '1835019': بلاک. ماینکرفت. بنر. نیمه عمودی سمت راست. آبی
-  '1835020': بلاک. ماینکرفت. بنر. نیمه عمودی سمت راست. قهوه ای
-  '1835021': بلاک. ماینکرفت. بنر. نیمه_عمودی_راست. سبز
-  '1835022': بلاک. ماینکرفت. بنر. نیمه عمودی سمت راست. قرمز
-  '1835023': بلاک. ماینکرفت. بنر. نیمه عمودی سمت راست. سیاه
-  '1900544': وایت در فس وارونه
-  '1900545': نارنجی در هر فس معکوس شد
-  '1900546': Magenta Per Fess وارونه شد
-  '1900547': آبی روشن در فس وارونه
-  '1900548': زرد در هر فس وارونه
-  '1900549': لیمو در هر فس معکوس شد
-  '1900550': معکوس صورتی در فس
-  '1900551': نیمه افقی خاکستری برعکس شده
-  '1900552': نیمه افقی خاکستری روشن برعکس شده
-  '1900553': نیمه افقی فیروزه ای برعکس شده
-  '1900554': نیمه افقی بنفش برعکس شده
-  '1900555': نیمه افقی آبی برعکس شده
-  '1900556': نیمه افقی قهوه ای برعکس شده
-  '1900557': نیمه افقی سبز برعکس شده
-  '1900558': نیمه افقی قرمز برعکس شده
-  '1900559': نیمه افقی سیاه برعکس شده
-  '1966080': بند سفید
-  '1966081': باند نارنجی
-  '1966082': بند مژگان
-  '1966083': بورد آبی روشن
-  '1966084': بورد زرد
-  '1966085': بند آهک
-  '1966086': بند بند صورتی
-  '1966087': بوردور خاکستری
-  '1966088': بورد نور خاکستری
-  '1966089': بندر سیان
-  '1966090': بند بند بنفش
-  '1966091': بند بند آبی
-  '1966092': بند قهوه ای
-  '1966093': بورد سبز
-  '1966094': بورد قرمز
-  '1966095': بند سیاه
-  '2031616': بند باریک برجسته
-  '2031617': بند سرخدار پیچ خورده
-  '2031618': بند سرخدار پیچ خورده
-  '2031619': باند آبی روشن برجسته
-  '2031620': بورد زرد پوشانده شده است
-  '2031621': باند سوراخ آهک
-  '2031622': بند باریک صورتی برجسته
-  '2031623': بوردور خاکستری
-  '2031624': بورد نور خاکستری پیچ خورده
-  '2031625': بند ناف سیان
-  '2031626': بند ناف ارغوانی برجسته
-  '2031627': بوردر آبی برجسته
-  '2031628': بند قهوه ای پیچ خورده
-  '2031629': باند سبز غرق
-  '2031630': سرخوردگی سرخورده
-  '2031631': کشش سیاه و سفید
-  '2097152': شارژ خزنده سفید
-  '2097153': شارژ خزنده نارنجی
-  '2097154': شارژ خزنده سبز
-  '2097155': شارژ خزنده نور آبی
-  '2097156': شارژ خزنده زرد
-  '2097157': شارژ آهک خزنده
-  '2097158': شارژ خزنده صورتی
-  '2097159': شارژ خزنده خاکستری
-  '2097160': شارژ خزنده نور خاکستری
-  '2097161': شارژ خزنده سیان
-  '2097162': شارژ خزنده بنفش
-  '2097163': شارژ خزنده آبی
-  '2097164': شارژ خزنده قهوه ای
-  '2097165': شارژ خزنده سبز
-  '2097166': شارژ قرمز خزنده
-  '2097167': شارژ خزنده سیاه
-  '2162688': گرادیان سفید
-  '2162689': گرادینت نارنجی
-  '2162690': گرادینت ارغوانی
-  '2162691': گرادینت ابی روشن
-  '2162692': گرادیان زرد
-  '2162693': گرادیان آهک
-  '2162694': گرادیان صورتی
-  '2162695': گرادیان خاکستری
-  '2162696': گرادیان خاکستری سبک
-  '2162697': گرادیان سیان
-  '2162698': گرادیان بنفش
-  '2162699': شیب آبی
-  '2162700': گرادیان قهوه ای
-  '2162701': گرادیان سبز
-  '2162702': گرادیان قرمز
-  '2162703': گرادیان سیاه
-  '2228224': گرادینت پایه لیمویی
-  '2228225': گرادینت پایه فیروزه ای
-  '2228226': گرادینت پایه ارغوانی
-  '2228227': گرادینت پایه ابی روشن
-  '2228228': گرادینت پایه زرد
-  '2228229': گرادینت پایه لیمویی
-  '2228230': گرادینت پایه بنفش
-  '2228231': گرادینت پایه خاکستری
-  '2228232': گرادینت پایه خاکستری روشن
-  '2228233': گرادینت پایه فیروزه ای
-  '2228234': گرادینت پایه بنفش
-  '2228235': گرادینت پایه آبی
-  '2228236': گرادینت پایه قهوه ای
-  '2228237': گرادینت پایه سبز
-  '2228238': گرادینت پایه قرمز
-  '2228239': گرادینت پایه مشکی
-  '2293760': مزارع آهک
-  '2293761': خاکستری مزون
-  '2293762': مزارع آهک
-  '2293763': زمینه آبی روشن Masoned
-  '2293764': زمینه زرد ماسون
-  '2293765': مزارع آهک
-  '2293766': زمینه مزون صورتی
-  '2293767': خاکستری مزون
-  '2293768': زمینه خاکستری روشن
-  '2293769': Green Field Masoned
-  '2293770': Green Field Masoned
-  '2293771': Black Field Masoned
-  '2293772': Brown Field Masoned
-  '2293773': Green Field Masoned
-  '2293774': Red Red Masoned
-  '2293775': Black Field Masoned
+  '393216': خط بالا سفید
+  '393217': خط بالا نارنجی
+  '393218': خط بالا ارغوانی
+  '393219': خط بالا آبی روشن
+  '393220': خط بالا زرد
+  '393221': خط بالا سبز روشن
+  '393222': خط بالا صورتی
+  '393223': خط بالا خاکستری
+  '393224': خط بالا خاکستری روشن
+  '393225': خط بالا فیروزه ای
+  '393226': خط بالا بنفش
+  '393227': خط بالا آبی
+  '393228': خط بالا قهوه‌ای
+  '393229': خط بالا سبز
+  '393230': خط بالا قرمز
+  '393231': خط بالا سیاه
+  '458752': خط چپ سفید
+  '458753': خط چپ نارنجی
+  '458754': خط چپ ارغوانی
+  '458755': خط چپ آبی روشن
+  '458756': خط چپ زرد
+  '458757': خط چپ سبز روشن
+  '458758': خط چپ صورتی
+  '458759': خط چپ خاکستری
+  '458760': خط چپ خاکستری روشن
+  '458761': خط چپ فیروزه ای
+  '458762': خط چپ بنفش
+  '458763': خط چپ آبی
+  '458764': خط چپ قهوه‌ای
+  '458765': خط چپ سبز
+  '458766': خط چپ قرمز
+  '458767': خط چپ سیاه
+  '524288': خط راست سفید
+  '524289': خط راست نارنجی
+  '524290': خط راست ارغوانی
+  '524291': خط راست آبی روشن
+  '524292': خط راست زرد
+  '524293': خط راست سبز روشن
+  '524294': خط راست صورتی
+  '524295': خط راست خاکستری
+  '524296': خط راست خاکستری روشن
+  '524297': خط راست فیروزه ای
+  '524298': خط راست بنفش
+  '524299': خط راست آبی
+  '524300': خط راست قهوه‌ای
+  '524301': خط راست سبز
+  '524302': خط راست قرمز
+  '524303': خط راست سیاه
+  '589824': خط وسط عمودی سفید
+  '589825': خط وسط عمودی نارنجی
+  '589826': خط وسط عمودی ارغوانی
+  '589827': خط وسط عمودی آبی روشن
+  '589828': خط وسط عمودی زرد
+  '589829': خط وسط عمودی سبز روشن
+  '589830': خط وسط عمودی صورتی
+  '589831': خط وسط عمودی خاکستری
+  '589832': خط وسط عمودی خاکستری روشن
+  '589833': خط وسط عمودی فیروزه ای
+  '589834': خط وسط عمودی بنفش
+  '589835': خط وسط عمودی آبی
+  '589836': خط وسط عمودی قهوه‌ای
+  '589837': خط وسط عمودی سبز
+  '589838': خط وسط عمودی قرمز
+  '589839': خط وسط عمودی سیاه
+  '655360': خط وسط افقی سفید
+  '655361': خط وسط افقی نارنجی
+  '655362': خط وسط افقی ارغوانی
+  '655363': خط وسط افقی آبی روشن
+  '655364': خط وسط افقی زرد
+  '655365': خط وسط افقی سبز روشن
+  '655366': خط وسط افقی صورتی
+  '655367': خط وسط افقی خاکستری
+  '655368': خط وسط افقی خاکستری روشن
+  '655369': خط وسط افقی فیروزه ای
+  '655370': خط وسط افقی بنفش
+  '655371': خط وسط افقی آبی
+  '655372': خط وسط افقی قهوه‌ای
+  '655373': خط وسط افقی سبز
+  '655374': خط وسط افقی قرمز
+  '655375': خط وسط افقی سیاه
+  '720896': خط مورب به راست-پایین سفید
+  '720897': خط مورب به راست-پایین نارنجی
+  '720898': خط مورب به راست-پایین ارغوانی
+  '720899': خط مورب به راست-پایین آبی روشن
+  '720900': خط مورب به راست-پایین زرد
+  '720901': خط مورب به راست-پایین سبز روشن
+  '720902': خط مورب به راست-پایین صورتی
+  '720903': خط مورب به راست-پایین خاکستری
+  '720904': خط مورب به راست-پایین خاکستری روشن
+  '720905': خط مورب به راست-پایین فیروزه ای
+  '720906': خط مورب به راست-پایین بنفش
+  '720907': خط مورب به راست-پایین آبی
+  '720908': خط مورب به راست-پایین قهوه‌ای
+  '720909': خط مورب به راست-پایین سبز
+  '720910': خط مورب به راست-پایین قرمز
+  '720911': خط مورب به راست-پایین سیاه
+  '786432': خط مورب به چپ-پایین سفید
+  '786433': خط مورب به چپ-پایین نارنجی
+  '786434': خط مورب به چپ-پایین ارغوانی
+  '786435': خط مورب به چپ-پایین آبی روشن
+  '786436': خط مورب به چپ-پایین زرد
+  '786437': خط مورب به چپ-پایین سبز روشن
+  '786438': خط مورب به چپ-پایین صورتی
+  '786439': خط مورب به چپ-پایین خاکستری
+  '786440': خط مورب به چپ-پایین خاکستری روشن
+  '786441': خط مورب به چپ-پایین فیروزه ای
+  '786442': خط مورب به چپ-پایین بنفش
+  '786443': خط مورب به چپ-پایین آبی
+  '786444': خط مورب به چپ-پایین قهوه‌ای
+  '786445': خط مورب به چپ-پایین سبز
+  '786446': خط مورب به چپ-پایین قرمز
+  '786447': خط مورب به چپ-پایین سیاه
+  '851968': راه راه سفید
+  '851969': راه راه نارنجی
+  '851970': راه راه ارغوانی
+  '851971': راه راه آبی روشن
+  '851972': راه راه زرد
+  '851973': راه راه سبز روشن
+  '851974': راه راه صورتی
+  '851975': راه راه خاکستری
+  '851976': راه راه خاکستری روشن
+  '851977': راه راه فیروزه ای
+  '851978': راه راه بنفش
+  '851979': راه راه آبی
+  '851980': راه راه قهوه‌ای
+  '851981': راه راه سبز
+  '851982': راه راه قرمز
+  '851983': راه راه سیاه
+  '917504': ضربدر سفید
+  '917505': ضربدر نارنجی
+  '917506': ضربدر ارغوانی
+  '917507': ضربدر آبی روشن
+  '917508': ضربدر زرد
+  '917509': ضربدر سبز روشن
+  '917510': ضربدر صورتی
+  '917511': ضربدر خاکستری
+  '917512': ضربدر خاکستری روشن
+  '917513': ضربدر فیروزه ای
+  '917514': ضربدر بنفش
+  '917515': ضربدر آبی
+  '917516': ضربدر قهوه‌ای
+  '917517': ضربدر سبز
+  '917518': ضربدر قرمز
+  '917519': ضربدر سیاه
+  '983040': متقاطع سفید
+  '983041': متقاطع نارنجی
+  '983042': متقاطع ارغوانی
+  '983043': متقاطع آبی روشن
+  '983044': متقاطع زرد
+  '983045': متقاطع سبز روشن
+  '983046': متقاطع صورتی
+  '983047': متقاطع خاکستری
+  '983048': متقاطع خاکستری روشن
+  '983049': متقاطع فیروزه ای
+  '983050': متقاطع بنفش
+  '983051': متقاطع آبی
+  '983052': متقاطع قهوه‌ای
+  '983053': متقاطع سبز
+  '983054': متقاطع قرمز
+  '983055': متقاطع سیاه
+  '1048576': مثلث پایین سفید
+  '1048577': مثلث پایین نارنجی
+  '1048578': مثلث پایین ارغوانی
+  '1048579': مثلث پایین آبی روشن
+  '1048580': مثلث پایین زرد
+  '1048581': مثلث پایین سبز روشن
+  '1048582': مثلث پایین صورتی
+  '1048583': مثلث پایین خاکستری
+  '1048584': مثلث پایین خاکستری روشن
+  '1048585': مثلث پایین فیروزه ای
+  '1048586': مثلث پایین بنفش
+  '1048587': مثلث پایین آبی
+  '1048588': مثلث پایین قهوه‌ای
+  '1048589': مثلث پایین سبز
+  '1048590': مثلث پایین قرمز
+  '1048591': مثلث پایین سیاه
+  '1114112': مثلث بالا سفید
+  '1114113': مثلث بالا نارنجی
+  '1114114': مثلث بالا ارغوانی
+  '1114115': مثلث بالا آبی روشن
+  '1114116': مثلث بالا زرد
+  '1114117': مثلث بالا سبز روشن
+  '1114118': مثلث بالا صورتی
+  '1114119': مثلث بالا خاکستری
+  '1114120': مثلث بالا خاکستری روشن
+  '1114121': مثلث بالا فیروزه ای
+  '1114122': مثلث بالا بنفش
+  '1114123': مثلث بالا آبی
+  '1114124': مثلث بالا قهوه‌ای
+  '1114125': مثلث بالا سبز
+  '1114126': مثلث بالا قرمز
+  '1114127': مثلث بالا سیاه
+  '1179648': موج پایین سفید
+  '1179649': موج پایین نارنجی
+  '1179650': موج پایین ارغوانی
+  '1179651': موج پایین آبی روشن
+  '1179652': موج پایین زرد
+  '1179653': موج پایین سبز روشن
+  '1179654': موج پایین صورتی
+  '1179655': موج پایین خاکستری
+  '1179656': موج پایین خاکستری روشن
+  '1179657': موج پایین فیروزه ای
+  '1179658': موج پایین بنفش
+  '1179659': موج پایین آبی
+  '1179660': موج پایین قهوه‌ای
+  '1179661': موج پایین سبز
+  '1179662': موج پایین قرمز
+  '1179663': موج پایین سیاه
+  '1245184': موج بالا سفید
+  '1245185': موج بالا نارنجی
+  '1245186': موج بالا ارغوانی
+  '1245187': موج بالا آبی روشن
+  '1245188': موج بالا زرد
+  '1245189': موج بالا سبز روشن
+  '1245190': موج بالا صورتی
+  '1245191': موج بالا خاکستری
+  '1245192': موج بالا خاکستری روشن
+  '1245193': موج بالا فیروزه ای
+  '1245194': موج بالا بنفش
+  '1245195': موج بالا آبی
+  '1245196': موج بالا قهوه‌ای
+  '1245197': موج بالا سبز
+  '1245198': موج بالا قرمز
+  '1245199': موج بالا سیاه
+  '1310720': مورب پرشده بالا-چپ سفید
+  '1310721': مورب پرشده بالا-چپ نارنجی
+  '1310722': مورب پرشده بالا-چپ ارغوانی
+  '1310723': مورب پرشده بالا-چپ آبی روشن
+  '1310724': مورب پرشده بالا-چپ زرد
+  '1310725': مورب پرشده بالا-چپ سبز روشن
+  '1310726': مورب پرشده بالا-چپ صورتی
+  '1310727': مورب پرشده بالا-چپ خاکستری
+  '1310728': مورب پرشده بالا-چپ خاکستری روشن
+  '1310729': مورب پرشده بالا-چپ فیروزه ای
+  '1310730': مورب پیچ بنفشمورب پرشده بالا-چپ بنفش
+  '1310731': مورب پرشده بالا-چپ آبی
+  '1310732': مورب پرشده بالا-چپ قهوه‌ای
+  '1310733': مورب پرشده بالا-چپ سبز
+  '1310734': مورب پرشده بالا-چپ قرمز
+  '1310735': مورب پرشده بالا-چپ سیاه
+  '1376256': مورب پرشده پایین-راست سفید
+  '1376257': مورب پرشده پایین-راست نارنجی
+  '1376258': مورب پرشده پایین-راست ارغوانی
+  '1376259': مورب پرشده پایین-راست آبی روشن
+  '1376260': مورب پرشده پایین-راست زرد
+  '1376261': مورب پرشده پایین-راست سبز روشن
+  '1376262': مورب پرشده پایین-راست صورتی
+  '1376263': مورب پرشده پایین-راست خاکستری
+  '1376264': مورب پرشده پایین-راست خاکستری روشن
+  '1376265': مورب پرشده پایین-راست فیروزه ای
+  '1376266': مورب پرشده پایین-راست بنفش
+  '1376267': مورب پرشده پایین-راست آبی
+  '1376268': مورب پرشده پایین-راست قهوه‌ای
+  '1376269': مورب پرشده پایین-راست سبز
+  '1376270': مورب پرشده پایین-راست قرمز
+  '1376271': مورب پرشده پایین-راست سیاه
+  '1441792': مورب پرشده پایین-چپ سفید
+  '1441793': مورب پرشده پایین-چپ نارنجی
+  '1441794': مورب پرشده پایین-چپ ارغوانی
+  '1441795': مورب پرشده پایین-چپ آبی روشن
+  '1441796': مورب پرشده پایین-چپ زرد
+  '1441797': مورب پرشده پایین-چپ سبز روشن
+  '1441798': مورب پرشده پایین-چپ صورتی
+  '1441799': مورب پرشده پایین-چپ خاکستری
+  '1441800': مورب پرشده پایین-چپ خاکستری روشن
+  '1441801': مورب پرشده پایین-چپ فیروزه‌ای
+  '1441802': مورب پرشده پایین-چپ بنفش
+  '1441803': مورب پرشده پایین-چپ آبی
+  '1441804': مورب پرشده پایین-چپ قهوه‌ای
+  '1441805': مورب پرشده پایین-چپ سبز
+  '1441806': مورب پرشده پایین-چپ قرمز
+  '1441807': مورب پرشده پایین-چپ سیاه
+  '1507328': مورب پرشده بالا-راست سفید
+  '1507329': مورب پرشده بالا-راست نارنجی
+  '1507330': مورب پرشده بالا-راست ارغوانی
+  '1507331': مورب پرشده بالا-راست آبی روشن
+  '1507332': مورب پرشده بالا-راست زرد
+  '1507333': مورب پرشده بالا-راست سبز روشن
+  '1507334': مورب پرشده بالا-راست صورتی
+  '1507335': مورب پرشده بالا-راست خاکستری
+  '1507336': مورب پرشده بالا-راست خاکستری روشن
+  '1507337': مورب پرشده بالا-راست فیروزه ای
+  '1507338': مورب پرشده بالا-راست بنفش
+  '1507339': مورب پرشده بالا-راست آبی
+  '1507340': مورب پرشده بالا-راست قهوه‌ای
+  '1507341': مورب پرشده بالا-راست سبز
+  '1507342': مورب پرشده بالا-راست قرمز
+  '1507343': مورب پرشده بالا-راست سیاه
+  '1572864': دایره مرکزی سفید
+  '1572865': دایره مرکزی نارنجی
+  '1572866': دایره مرکزی ارغوانی
+  '1572867': دایره مرکزی آبی روشن
+  '1572868': دایره مرکزی زرد
+  '1572869': دایره مرکزی سبز روشن
+  '1572870': دایره مرکزی صورتی
+  '1572871': دایره مرکزی خاکستری
+  '1572872': دایره مرکزی خاکستری روشن
+  '1572873': دایره مرکزی فیروزه ای
+  '1572874': دایره مرکزی بنفش
+  '1572875': دایره مرکزی آبی
+  '1572876': دایره مرکزی قهوه‌ای
+  '1572877': دایره مرکزی سبز
+  '1572878': دایره مرکزی قرمز
+  '1572879': دایره مرکزی سیاه
+  '1638400': لوزی سفید
+  '1638401': لوزی نارنجی
+  '1638402': لوزی ارغوانی
+  '1638403': لوزی آبی روشن
+  '1638404': لوزی زرد
+  '1638405': لوزی سبز روشن
+  '1638406': لوزی صورتی
+  '1638407': لوزی خاکستری
+  '1638408': لوزی خاکستری روشن
+  '1638409': لوزی فیروزه ای
+  '1638410': لوزی بنفش
+  '1638411': لوزی آبی
+  '1638412': لوزی قهوه‌ای
+  '1638413': لوزی سبز
+  '1638414': لوزی قرمز
+  '1638415': لوزی سیاه
+  '1703936': نیمه عمودی چپ سفید
+  '1703937': نیمه عمودی چپ نارنجی
+  '1703938': نیمه عمودی چپ ارغوانی
+  '1703939': نیمه عمودی چپ آبی روشن
+  '1703940': نیمه عمودی چپ زرد
+  '1703941': نیمه عمودی چپ سبز روشن
+  '1703942': نیمه عمودی چپ صورتی
+  '1703943': نیمه عمودی چپ خاکستری
+  '1703944': نیمه عمودی چپ خاکستری روشن
+  '1703945': نیمه عمودی چپ فیروزه ای
+  '1703946': نیمه عمودی چپ بنفش
+  '1703947': نیمه عمودی چپ آبی
+  '1703948': نیمه عمودی چپ قهوه‌ای
+  '1703949': نیمه عمودی چپ سبز
+  '1703950': نیمه عمودی چپ قرمز
+  '1703951': نیمه عمودی چپ سیاه
+  '1769472': نیمه افقی بالایی سفید
+  '1769473': نیمه افقی بالایی نارنجی
+  '1769474': نیمه افقی بالایی ارغوانی
+  '1769475': نیمه افقی بالایی آبی روشن
+  '1769476': نیمه افقی بالایی زرد
+  '1769477': نیمه افقی بالایی سبز روشن
+  '1769478': نیمه افقی بالایی صورتی
+  '1769479': نیمه افقی بالایی خاکستری
+  '1769480': نیمه افقی بالایی خاکستری روشن
+  '1769481': نیمه افقی بالایی فیروزه ای
+  '1769482': نیمه افقی بالایی بنفش
+  '1769483': نیمه افقی بالایی آبی
+  '1769484': نیمه افقی بالایی قهوه‌ای
+  '1769485': نیمه افقی بالایی سبز
+  '1769486': نیمه افقی بالایی قرمز
+  '1769487': نیمه افقی بالایی سیاه
+  '1835008': نیمه عمودی راست سفید
+  '1835009': نیمه عمودی راست نارنجی
+  '1835010': نیمه عمودی راست ارغوانی
+  '1835011': نیمه عمودی راست آبی روشن
+  '1835012': نیمه عمودی راست زرد
+  '1835013': نیمه عمودی راست سبز روشن
+  '1835014': نیمه عمودی راست صورتی
+  '1835015': نیمه عمودی راست خاکستری
+  '1835016': نیمه عمودی راست خاکستری روشن
+  '1835017': نیمه عمودی راست فیروزه ای
+  '1835018': نیمه عمودی راست بنفش
+  '1835019': نیمه عمودی راست آبی
+  '1835020': نیمه عمودی راست قهوه‌ای
+  '1835021': نیمه عمودی راست سبز
+  '1835022': نیمه عمودی راست قرمز
+  '1835023': نیمه عمودی راست سیاه
+  '1900544': نیمه افقی پایین سفید
+  '1900545': نیمه افقی پایین نارنجی
+  '1900546': نیمه افقی پایین ارغوانی
+  '1900547': نیمه افقی پایین آبی روشن
+  '1900548': نیمه افقی پایین زرد
+  '1900549': نیمه افقی پایین سبز روشن
+  '1900550': نیمه افقی پایین صورتی
+  '1900551': نیمه افقی پایین خاکستری
+  '1900552': نیمه افقی پایین خاکستری روشن
+  '1900553': نیمه افقی پایین فیروزه ای
+  '1900554': نیمه افقی پایین بنفش
+  '1900555': نیمه افقی پایین آبی
+  '1900556': نیمه افقی پایین قهوه‌ای
+  '1900557': نیمه افقی پایین سبز
+  '1900558': نیمه افقی پایین قرمز
+  '1900559': نیمه افقی پایین سیاه
+  '1966080': حاشیه سفید
+  '1966081': حاشیه نارنجی
+  '1966082': حاشیه ارغوانی
+  '1966083': حاشیه آبی روشن
+  '1966084': حاشیه زرد
+  '1966085': حاشیه سبز روشن
+  '1966086': حاشیه صورتی
+  '1966087': حاشیه خاکستری
+  '1966088': حاشیه خاکستری روشن
+  '1966089': حاشیه فیروزه ای
+  '1966090': حاشیه بنفش
+  '1966091': حاشیه آبی
+  '1966092': حاشیه قهوه‌ای
+  '1966093': حاشیه سبز
+  '1966094': حاشیه قرمز
+  '1966095': حاشیه سیاه
+  '2031616': حاشیه مواج سفید
+  '2031617': حاشیه مواج نارنجی
+  '2031618': حاشیه مواج ارغوانی
+  '2031619': حاشیه مواج آبی روشن
+  '2031620': حاشیه مواج زرد
+  '2031621': حاشیه مواج سبز روشن
+  '2031622': حاشیه مواج صورتی
+  '2031623': حاشیه مواج خاکستری
+  '2031624': حاشیه مواج خاکستری روشن
+  '2031625': حاشیه مواج فیروزه ای
+  '2031626': حاشیه مواج بنفش
+  '2031627': حاشیه مواج آبی
+  '2031628': حاشیه مواج قهوه‌ای
+  '2031629': حاشیه مواج سبز
+  '2031630': حاشیه مواج قرمز
+  '2031631': حاشیه مواج سیاه
+  '2097152': کریپر سفید
+  '2097153': کریپر نارنجی
+  '2097154': کریپر ارغوانی
+  '2097155': کریپر آبی روشن
+  '2097156': کریپر زرد
+  '2097157': کریپر سبز روشن
+  '2097158': کریپر صورتی
+  '2097159': کریپر خاکستری
+  '2097160': کریپر خاکستری روشن
+  '2097161': کریپر فیروزه ای
+  '2097162': کریپر بنفش
+  '2097163': کریپر آبی
+  '2097164': کریپر قهوه‌ای
+  '2097165': کریپر سبز
+  '2097166': کریپر قرمز
+  '2097167': کریپر سیاه
+  '2162688': افت شدت بالا به پایین سفید
+  '2162689': افت شدت بالا به پایین نارنجی
+  '2162690': افت شدت بالا به پایین ارغوانی
+  '2162691': افت شدت بالا به پایین آبی روشن
+  '2162692': افت شدت بالا به پایین زرد
+  '2162693': افت شدت بالا به پایین سبز روشن
+  '2162694': افت شدت بالا به پایین صورتی
+  '2162695': افت شدت بالا به پایین خاکستری
+  '2162696': افت شدت بالا به پایین خاکستری روشن
+  '2162697': افت شدت بالا به پایین فیروزه ای
+  '2162698': افت شدت بالا به پایین بنفش
+  '2162699': افت شدت بالا به پایین آبی
+  '2162700': افت شدت بالا به پایین قهوه‌ای
+  '2162701': افت شدت بالا به پایین سبز
+  '2162702': افت شدت بالا به پایین قرمز
+  '2162703': افت شدت بالا به پایین سیاه
+  '2228224': افت شدت پایین به بالا سفید
+  '2228225': افت شدت پایین به بالا نارنجی
+  '2228226': افت شدت پایین به بالا ارغوانی
+  '2228227': افت شدت پایین به بالا آبی روشن
+  '2228228': افت شدت پایین به بالا زرد
+  '2228229': افت شدت پایین به بالا سبز روشن
+  '2228230': افت شدت پایین به بالا صورتی
+  '2228231': افت شدت پایین به بالا خاکستری
+  '2228232': افت شدت پایین به بالا خاکستری روشن
+  '2228233': افت شدت پایین به بالا فیروزه ای
+  '2228234': افت شدت پایین به بالا بنفش
+  '2228235': افت شدت پایین به بالا آبی
+  '2228236': افت شدت پایین به بالا قهوه‌ای
+  '2228237': افت شدت پایین به بالا سبز
+  '2228238': افت شدت پایین به بالا قرمز
+  '2228239': افت شدت پایین به بالا سیاه
+  '2293760': دیوار آجر سفید
+  '2293761': دیوار آجر نارنجی
+  '2293762': دیوار آجر ارغوانی
+  '2293763': دیوار آجر آبی روشن
+  '2293764': دیوار آجر زرد
+  '2293765': دیوار آجر سبز روشن
+  '2293766': دیوار آجر صورتی
+  '2293767': دیوار آجر خاکستری
+  '2293768': دیوار آجر خاکستری روشن
+  '2293769': دیوار آجر فیروزه ای
+  '2293770': دیوار آجر بنفش
+  '2293771': دیوار آجر آبی
+  '2293772': دیوار آجر قهوه‌ای
+  '2293773': دیوار آجر سبز
+  '2293774': دیوار آجر قرمز
+  '2293775': دیوار آجر سیاه
   '2359296': طرح سفید جمجمه
   '2359297': طرح نارنجی جمجمه
   '2359298': طرح ارغوانی جمجمه
@@ -2100,28 +2253,28 @@ banner_pattern:
   '2359309': طرح سبز جمجمه
   '2359310': طرح قرمز جمجمه
   '2359311': طرح سیاه جمجمه
-  '2424832': شارژ گل سفید
-  '2424833': شارژ گل نارنجی
-  '2424834': شارژ گل سرخ
-  '2424835': شارژ خزنده نور خاکستری
-  '2424836': شارژ خزنده زرد
-  '2424837': شارژ گل سفید
-  '2424838': شارژ گل سفید
-  '2424839': طرح گل سبز
-  '2424840': شارژ خزنده نور خاکستری
-  '2424841': شارژ گل نارنجی
-  '2424842': شارژ خزنده بنفش
-  '2424843': طرح گل سیاه
+  '2424832': طرح گل سفید
+  '2424833': طرح گل نارنجی
+  '2424834': طرح گل ارغوانی
+  '2424835': طرح گل آبی روشن
+  '2424836': طرح گل زرد
+  '2424837': طرح گل سبز روشن
+  '2424838': طرح گل صورتی
+  '2424839': طرح گل خاکستری
+  '2424840': طرح گل خاکستری روشن
+  '2424841': طرح گل فیروزه ای
+  '2424842': طرح گل بنفش
+  '2424843': طرح گل آبی
   '2424844': طرح گل قهوه ای
   '2424845': طرح گل سبز
   '2424846': طرح گل قرمز
   '2424847': طرح گل سیاه
   '2490368': چیز سفید
   '2490369': چیز نارنجی
-  '2490370': مگنتا چیز
-  '2490371': چیزهای آبی روشن
+  '2490370': چیز ارغوانی
+  '2490371': چیز آبی روشن
   '2490372': چیز زرد
-  '2490373': چیز فسفری
+  '2490373': چیز سبز روشن
   '2490374': چیز صورتی
   '2490375': چیز خاکستری
   '2490376': چیزهای خاکستری سبک
@@ -2137,11 +2290,11 @@ banner_pattern:
   '2555906': کره ارغوانی
   '2555907': کره آبی آسمانی
   '2555908': کره زرد
-  '2555909': کره لیمویی
+  '2555909': کره سبز روشن
   '2555910': کره صورتی
-  '2555911': کره توسی
-  '2555912': کره نقره ای
-  '2555913': کره آبی نفتی
+  '2555911': کره خاکستری
+  '2555912': کره خاکستری روشن
+  '2555913': کره فیروزه ای
   '2555914': کره بنفش
   '2555915': کره آبی
   '2555916': کره قهوه ای
@@ -2207,16 +2360,3 @@ villager_profession:
   shepherd: چوپان
   toolsmith: ابزارساز
   weaponsmith: اسلحه ساز
-villager_career:
-  farmer: کشاورز
-  fisherman: ماهیگیر
-  shepherd: چوپان
-  fletcher: تیرساز
-  librarian: کتابدار
-  cartographer: نقشه دار
-  cleric: روحانی
-  armorer: زراد
-  weapon_smith: سلاح اسمیت
-  tool_smith: ابزار اسمیت
-  butcher: قصاب
-  leatherworker: دباغ

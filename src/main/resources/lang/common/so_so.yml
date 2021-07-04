@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:49                    #
+# Build time: 2021-07-04 21:46:04                    #
 # ####################################################
 language:
   code: so_so
@@ -14,10 +14,16 @@ material:
   polished_diorite: Granite Polished
   andesite: Andesite
   polished_andesite: Smooth Andesite
+  deepslate: Qeexid
+  calcite: |
+    Calcite
+  tuff: Dhagax tuff
+  dripstone_block: Dripstone Xannibaadda
   grass_block: Block Grass
   dirt: Wasakh
   coarse_dirt: Stony ground
   podzol: Podzol
+  rooted_dirt: Wasakh xididdada
   crimson_nylium: |
     Crimson Nylium
   warped_nylium: Dagaalkii Nylium
@@ -42,11 +48,76 @@ material:
   sand: Sand
   red_sand: Red Sand
   gravel: Isbahaysiga
-  gold_ore: Hadal dahab ah
-  iron_ore: Iron Mare
   coal_ore: Dhuxul Ore
+  deepslate_coal_ore: Qoto dheer oo dhuxul ah
+  iron_ore: Iron Mare
+  deepslate_iron_ore: Qoto dheer bir bir ah
+  copper_ore: |2-
+
+    Macdanta Copper
+  deepslate_copper_ore: Deepslate Naxaaska Copper
+  gold_ore: Hadal dahab ah
+  deepslate_gold_ore: Qoto dheer oo dahab ah oo dahab ah
+  redstone_ore: Redstone Macdanta
+  deepslate_redstone_ore: Qoto-dheer oo guduudan oo guduudan
+  emerald_ore: Emerald Ore
+  deepslate_emerald_ore: Qoto-dheer oo qoto dheer
+  lapis_ore: Lapis Lazuli Ore
+  deepslate_lapis_ore: Qoto dheer oo jilicsan lapis lazuli ore
+  diamond_ore: Dheeman Dheeman
+  deepslate_diamond_ore: Qoto dheer dheeman dheeman
   nether_gold_ore: |
     Nether Gold Ore
+  nether_quartz_ore: Jutchz
+  ancient_debris: |
+    Burburkii Qadiimiga ahaa
+  coal_block: Dhuxusha Dhuxusha
+  amethyst_block: Baloogga Ametusti
+  budding_amethyst: Ametida Budding
+  iron_block: Block ee Iron
+  copper_block: Block of Copper
+  gold_block: Block oo dahab
+  diamond_block: Joojinta Ee Dheeman
+  netherite_block: |
+    Xirmooyinka Netherite
+  exposed_copper: Naxaas la kashifay
+  weathered_copper: Copper Weathered
+  oxidized_copper: Copper Oxidized
+  cut_copper: |2-
+
+    Jar Copper
+  exposed_cut_copper: Naxaas Goos Goos ah
+  weathered_cut_copper: |2-
+
+    Copper Weathered Jar
+  oxidized_cut_copper: Copper Oxidized
+  cut_copper_stairs: |2-
+
+    Iska yaree Jaranjarada Maarta
+  exposed_cut_copper_stairs: Jaranjarooyinka Copper Cut
+  weathered_cut_copper_stairs: Jaranjarooyinka Copper Jarista Weathered
+  oxidized_cut_copper_stairs: Jaranjarooyinka Naxaasta La Jarjaray
+  cut_copper_slab: Iska jar Naxaasta
+  exposed_cut_copper_slab: Basaasid Goobo Nabar
+  weathered_cut_copper_slab: Jaranjarooyinka Copper Jarista Weathered
+  oxidized_cut_copper_slab: Dharka Nadiifinta Nadiifinta
+  waxed_copper_block: Block Wax Copper ah
+  waxed_exposed_copper: Naxaas La Soo Bandhigay
+  waxed_weathered_copper: Naxa Weathered Copper
+  waxed_oxidized_copper: Naxaas Lagu Dareemay Waxsoosaar
+  waxed_cut_copper: Waxed Cut Coppe
+  waxed_exposed_cut_copper: Naxaas Goos Goos ah oo Soo Baxay
+  waxed_weathered_cut_copper: Naxa Weathered Jar Copper
+  waxed_oxidized_cut_copper: Naxaaska La Qaxay ee Lagu Darey
+  waxed_cut_copper_stairs: Jaranjarooyinka Copper Waxed Cut
+  waxed_exposed_cut_copper_stairs: Jaranjarooyinka Copper-ga ah ee Waxed Qaawan
+  waxed_weathered_cut_copper_stairs: Jaranjarooyinka Copper-ka ee Waxed Weedhered
+    Gooyay
+  waxed_oxidized_cut_copper_stairs: Jaranjarooyinka Copper-ga ah ee Waxsoosaaray
+  waxed_cut_copper_slab: Waxed Cut Copper Slab
+  waxed_exposed_cut_copper_slab: Waxed Soo Bandhigay Nabad Naxaas
+  waxed_weathered_cut_copper_slab: Waxed Weathered Jar Copper Slab
+  waxed_oxidized_cut_copper_slab: Waxsoosaar Cajiin ah oo Nadiif ah
   oak_log: Qoraallo kulul
   spruce_log: Daadi taariikhda
   birch_log: Diiwaangelinta Birch
@@ -91,26 +162,24 @@ material:
   jungle_leaves: Hawdka caleen
   acacia_leaves: Caleenta Acacia
   dark_oak_leaves: Caleemaha geedkii mugdiga
+  azalea_leaves: Azalea Caleemaha
+  flowering_azalea_leaves: Caleemaha Azalea
   sponge: Isbonji
   wet_sponge: Isbonji qoyan
   glass: Galaas
-  lapis_ore: Lapis Lazuli Ore
-  lapis_block: Lapis Lazuli Block
-  dispenser: Fasax
+  tinted_glass: Glass midab leh
+  lapis_block: Block Lapis Lazuli
   sandstone: Sandstone
   chiseled_sandstone: Qoray sandstone
   cut_sandstone: Iska yaree sanduuqa
-  note_block: Xusuus qor
-  powered_rail: Korantada biraha
-  detector_rail: Dareemayaal biraha
-  sticky_piston: Dhegdheg qalab
   cobweb: Webka
   grass: Cows
   fern: Fern
+  azalea: Azalea
+  flowering_azalea: Azalea
   dead_bush: Baadiyaha Dhintay
   seagrass: Cawska Badda
   sea_pickle: Qajaar badda
-  piston: Qalab
   white_wool: Dhogor cad
   orange_wool: Dhogorta oranji
   magenta_wool: Dhogorta magneta
@@ -140,7 +209,9 @@ material:
   cornflower: Miisaanka qulqulka
   lily_of_the_valley: Tufaaxa dooxada
   wither_rose: Waaba kor u kacay
+  spore_blossom: Spore Blossom
   brown_mushroom: Likaha bunn
+  red_mushroom: Likaha guduudan
   crimson_fungus: Crimson Fungus
   warped_fungus: Fangaska Fangas
   crimson_roots: Xididdada gaduudka
@@ -153,9 +224,12 @@ material:
     Wareejinta Vine
   sugar_cane: Sonkorta cawsduur
   kelp: Kelp
+  moss_carpet: Rooga moss
+  moss_block: Moss xannibaadda
+  hanging_roots: Xididdada sudhan
+  big_dripleaf: Saxarka weyn
+  small_dripleaf: Ifplat yar
   bamboo: Dhir dheer
-  gold_block: Block oo dahab
-  iron_block: Block ee Iron
   oak_slab: Dhuxusha Xargaha
   spruce_slab: Dhir Xargaha
   birch_slab: Bjørk Xargaha
@@ -177,6 +251,7 @@ material:
   quartz_slab: Quartz Slab
   red_sandstone_slab: Red Sandstone Slab
   cut_red_sandstone_slab: Cut Red Sandstone Slab
+  purpur_slab: Ujeeddooyin Slab
   prismarine_slab: Prismarine Xargaha
   prismarine_brick_slab: Prismarine Lebbiska Xargaha
   dark_prismarine_slab: Madow Prismarine Xargaha
@@ -185,40 +260,27 @@ material:
   smooth_sandstone: Sandstone siman
   smooth_stone: Dhagax jilicsan
   bricks: Lebenkii
-  tnt: Dynamite
   bookshelf: Shelf buugga
   mossy_cobblestone: Ajaa Cawska
   obsidian: Obsidian
   torch: Toosh
+  end_rod: Dhamaadka usha
+  chorus_plant: Warshad chorus
+  chorus_flower: Ubax Chorus
+  purpur_block: Ujeeddada foosha
+  purpur_pillar: Tiirarka Ujacaa
+  purpur_stairs: Jaranjarooyinka Ujeeddada
   spawner: Spawner
   oak_stairs: Talaabooyinka Oak
   chest: Sanduuq
-  diamond_ore: Dheeman Dheeman
-  diamond_block: Joojinta Ee Dheeman
   crafting_table: Workbench
   farmland: Beeraley
   furnace: Foornada
   ladder: Jaranjarada
-  rail: Biraha
   cobblestone_stairs: Jaranjarooyinka Cobblestone
-  lever: Kabaal
-  stone_pressure_plate: Cadaadiska Cadaadiska dhagaxa
-  oak_pressure_plate: Mashiinka cadaadiska
-  spruce_pressure_plate: Daadi saxanka cadaadiska
-  birch_pressure_plate: Cadaadiska Birch Cadaadiska
-  jungle_pressure_plate: Cadaadiska Cadaadiska Jungle
-  acacia_pressure_plate: Cadaadiska Cadaadiska Acacia
-  dark_oak_pressure_plate: Cadaadiska Cadaadiska Acacia
-  crimson_pressure_plate: |
-    Cadaadiska Cadaadiska
-  warped_pressure_plate: |
-    Cadaadiska Cadaadiska Dagaal
-  polished_blackstone_pressure_plate: |
-    Cadaadiska Cadaanka Madoow ee Cadaanka ah
-  redstone_ore: Redstone Macdanta
-  redstone_torch: Redstone Shuclada
   snow: Baraf
   ice: Baraf
+  snow_block: Barafka barafka
   cactus: Tiin
   clay: Clay
   jukebox: Jukebox
@@ -234,6 +296,7 @@ material:
     Dayrka Dagaalka
   pumpkin: Bocor
   carved_pumpkin: Xaraash
+  jack_o_lantern: Jack oLantern
   netherrack: Netherrack
   soul_sand: Soul ciid
   soul_soil: Nafta
@@ -243,17 +306,6 @@ material:
     Basalt Polured
   soul_torch: Soul Torch
   glowstone: Glowstone
-  jack_o_lantern: Jack oLantern
-  oak_trapdoor: Oak hatch
-  spruce_trapdoor: Koofiyadaha loo yaqaan 'Spruce hatch'
-  birch_trapdoor: Birch Hatch
-  jungle_trapdoor: Hatch geedka Tropical
-  acacia_trapdoor: Acacia hatch
-  dark_oak_trapdoor: Madow oak albaabka
-  crimson_trapdoor: |
-    Crimson Trapdoor
-  warped_trapdoor: |
-    Trapdoor Dagaal
   infested_stone: dhagax la jeexay
   infested_cobblestone: 'cudurka loo yaqaan '
   infested_stone_bricks: Lebenkii qoray Stone
@@ -271,18 +323,11 @@ material:
   glass_pane: Murayaad
   melon: Qaraha
   vine: Liana
-  oak_fence_gate: Albaabka Oak Fence
-  spruce_fence_gate: Albaabada Spruce Fence
-  birch_fence_gate: Albaabka Birch Fence
-  jungle_fence_gate: Albaabka kaymaha Jungle
-  acacia_fence_gate: Albaabka Acacia Fence
-  dark_oak_fence_gate: Albaabka madow ee Oak Fence
-  crimson_fence_gate: Albaabada Fudud
-  warped_fence_gate: |
-    Albaabka Fure Albaabka
+  glow_lichen: Glow Lichen
   brick_stairs: tallaabooyinka lebenka
   stone_brick_stairs: Jaranjarada Dhagaxa Dhagaxa
   mycelium: Mycelium
+  lily_pad: Lily Pad
   nether_bricks: lebenkii jahannamada
   cracked_nether_bricks: |
     Burburkii Nether Brick
@@ -291,8 +336,13 @@ material:
   nether_brick_fence: xayndaabka nezer
   nether_brick_stairs: Jaranjarada Nether Brick
   enchanting_table: miiska sixirka
+  end_portal_frame: Qaabka End Portal
   end_stone: dhagax dhamaadka
+  end_stone_bricks: Dhamaadka dhagaxa dhagaxa
+  dragon_egg: Ukunta Masduulaagii
   sandstone_stairs: Jaranjarooyinka Sandstone
+  ender_chest: Weelka Ender
+  emerald_block: Block of Emerald
   spruce_stairs: Dhir Jaranjaro
   birch_stairs: Bjørk Jaranjaro
   jungle_stairs: Duurjoogta Jaranjaro
@@ -300,6 +350,10 @@ material:
     Jaranjarooyinka Dulmiga ah
   warped_stairs: |
     Jaranjarooyinka Fudud
+  command_block: Lebenkii amarka
+  beacon: Iftiinka
+  cobblestone_wall: gidaarka dhagaxa ah
+  mossy_cobblestone_wall: Darbiga dhagxaanta Mossy
   brick_wall: Derbiga lebbiska
   prismarine_wall: Derbiga prismarine
   red_sandstone_wall: Derbiga sandstone sanduuqa
@@ -317,27 +371,15 @@ material:
   polished_blackstone_wall: Darbiga Dhagaxa ah ee Madoow
   polished_blackstone_brick_wall: |
     Darbiga Madoow ee Dhagaxa ah
-  stone_button: Badhanka dhagaxa
-  oak_button: Badhanka Oak
-  spruce_button: Spruce badhanka
-  birch_button: Geedka Birch Badhanka
-  jungle_button: Geedaha kuleylaha badhanka
-  acacia_button: Badhanka acacia
-  dark_oak_button: Badhanka Oak madow
-  crimson_button: |
-    Jaranjarooyinka Dulmiga ah
-  warped_button: |
-    Badhanka dagaalka
-  polished_blackstone_button: |
-    Bambada madow ee la nuujiyey
   anvil: Anvil
-  trapped_chest: Dabin sanduuq
-  light_weighted_pressure_plate: Cadaadiska Cadaadiska Iftiiminta Khafiifka ah
-  heavy_weighted_pressure_plate: Culayska Cadaadiska culus
+  chipped_anvil: Xanrunta jaban
+  damaged_anvil: Xudun yar oo jabtay
+  chiseled_quartz_block: chiseled xannibaadda quarterz
+  quartz_block: Xannibaadda quarterz
   quartz_bricks: |
     Nalalka Quartz
-  activator_rail: Firfircoonaan biraha
-  dropper: Cajiin
+  quartz_pillar: Tilmaamaha rubuc
+  quartz_stairs: Jaranjarooyinka rubuc
   white_terracotta: Ceramics cad
   orange_terracotta: Ceramics oranji
   magenta_terracotta: Ceramics magenta
@@ -355,7 +397,7 @@ material:
   red_terracotta: Ceramics casaan
   black_terracotta: Ceramics madow
   barrier: Ooday
-  iron_trapdoor: Birch Hatch
+  light: Iftiin
   hay_block: Sheaf ee hay
   white_carpet: Caddaan kaarbadka
   orange_carpet: Orange kaarbadka
@@ -374,10 +416,10 @@ material:
   red_carpet: Red kaarbadka
   black_carpet: Black kaarbadka
   terracotta: Ceramics
-  coal_block: Dhuxusha Dhuxusha
   packed_ice: Ice buuxiyey
   acacia_stairs: Qudhac ah Jaranjaro
   dark_oak_stairs: Madow Dhuxusha Jaranjaro
+  dirt_path: Wadada wasakhda ah
   sunflower: Gabbaldayaha
   lilac: Lilac
   rose_bush: Cawska casaan
@@ -417,15 +459,63 @@ material:
   red_stained_glass_pane: Red wasakheeyey Murayaad
   black_stained_glass_pane: Black wasakheeyey Murayaad
   prismarine: Prismarine
+  prismarine_bricks: Prismarine Lebbiska Xargaha
+  dark_prismarine: Maskax madoobaadka
   prismarine_stairs: Jaranjarada Prismarine
   prismarine_brick_stairs: Prismarine Lebbiska Jaranjaro
   dark_prismarine_stairs: Jaranjarada Prismarine Jaranjarada
+  sea_lantern: Badda Faynuus
   red_sandstone: Casaan Sandstone
   chiseled_red_sandstone: Qoray Red sandstone
   cut_red_sandstone: Iska yaree sanduuqa casaanka ah
   red_sandstone_stairs: Jaranjarooyinka Cas ee Dhagaxa ah
+  repeating_command_block: Ku celcelinta leben amarka
+  chain_command_block: Ku celcelinta leben amarka
+  nether_wart_block: Kala Soco Wart Block
   warped_wart_block: |
     Kala Soco Wart Block
+  red_nether_bricks: Casaan dhalaalaysa
+  bone_block: Laf Block
+  shulker_box: Sanduuqa Sholle
+  white_shulker_box: Sanduuqa White Shulle
+  orange_shulker_box: Sanduuqa shalker oranji
+  magenta_shulker_box: Magenta Shuller sanduuqa
+  light_blue_shulker_box: Sanduuqa shalker buluug ah oo fudud
+  yellow_shulker_box: Sanduuqa shalker jaalaha ah
+  lime_shulker_box: Sanduuqa lime Sholker
+  pink_shulker_box: Sanduuqa shalker pink
+  gray_shulker_box: Sanduuqa cawlan
+  light_gray_shulker_box: Sanduuqa Shuck Schker fudud
+  cyan_shulker_box: Sanduuqa Crancan Shulker
+  purple_shulker_box: Sanduuqa Shuckper
+  blue_shulker_box: Sanduuqa shalker buluug
+  brown_shulker_box: Sanduuqa shaleefka bunni
+  green_shulker_box: Sanduuqa cagaaran
+  red_shulker_box: Sanduuqa Red Sholker
+  black_shulker_box: Sanduuqa madow ee madow
+  white_glazed_terracotta: Cadcad cad oo loo yaqaan Terracotta
+  orange_glazed_terracotta: Oranji glazed terracotta
+  magenta_glazed_terracotta: Cadcad cad oo loo yaqaan Terracotta
+  light_blue_glazed_terracotta: Blass buluug iftiin leh oo buluug ah
+  yellow_glazed_terracotta: Huruud huruud ah oo huruud ah
+  lime_glazed_terracotta: Cadcad cad oo loo yaqaan Terracotta
+  pink_glazed_terracotta: Casaan dhalaalaya Terracotta
+  gray_glazed_terracotta: Oranji glazed terracotta
+  light_gray_glazed_terracotta: Grod Fer Tracotta
+  cyan_glazed_terracotta: Cran glazed Terracotta
+  purple_glazed_terracotta: Buluug gropled terracotta
+  blue_glazed_terracotta: Buluug glazed terracotta
+  green_glazed_terracotta: Grown Glazed Terracotta
+  orange_concrete: La taaban karo oranji
+  light_blue_concrete: Buluug buluug ah oo fudud
+  gray_concrete: La taaban karo
+  light_gray_concrete: Iftiiminta cawlan
+  cyan_concrete: Cury la taaban karo
+  purple_concrete: Si la taaban karo oo la taaban karo
+  blue_concrete: Buluug la taaban karo
+  red_concrete: La taaban karo
+  dead_brain_coral_block: Dhimashada maskaxda maskaxda maskaxda
+  brain_coral: Maskaxda corta
   blue_ice: Baraf buluug ah
   polished_granite_stairs: Jaranjaro granite leh
   smooth_red_sandstone_stairs: Jaranjarada sandstone dhagax casaan leh
@@ -455,6 +545,55 @@ material:
   polished_andesite_slab: Daboolan oo laysku qurxiyo
   diorite_slab: Qolka diorite
   scaffolding: Xayiraad
+  redstone_torch: Redstone Shuclada
+  redstone_block: Block of Redstone
+  piston: Qalab
+  sticky_piston: Dhegdheg qalab
+  slime_block: Xannibaadda slime
+  honey_block: Malab block
+  observer: Fiirso
+  hopper: Miro hod lagu dhisan
+  dispenser: Fasax
+  dropper: Cajiin
+  lectern: Lectern
+  target: Bartilmaameed
+  lever: Kabaal
+  lightning_rod: Usha Hillaaca
+  daylight_detector: Qalabka maalinlaha
+  sculk_sensor: Sensor Sculk
+  tripwire_hook: Hook Tripwireka
+  trapped_chest: Dabin sanduuq
+  tnt: Dynamite
+  redstone_lamp: Laydhka Redstone
+  note_block: Xusuus qor
+  stone_button: Badhanka dhagaxa
+  polished_blackstone_button: |
+    Bambada madow ee la nuujiyey
+  oak_button: Badhanka Oak
+  spruce_button: Spruce badhanka
+  birch_button: Geedka Birch Badhanka
+  jungle_button: Geedaha kuleylaha badhanka
+  acacia_button: Badhanka acacia
+  dark_oak_button: Badhanka Oak madow
+  crimson_button: |
+    Jaranjarooyinka Dulmiga ah
+  warped_button: |
+    Badhanka dagaalka
+  stone_pressure_plate: Cadaadiska Cadaadiska dhagaxa
+  polished_blackstone_pressure_plate: |
+    Cadaadiska Cadaanka Madoow ee Cadaanka ah
+  light_weighted_pressure_plate: Cadaadiska Cadaadiska Iftiiminta Khafiifka ah
+  heavy_weighted_pressure_plate: Culayska Cadaadiska culus
+  oak_pressure_plate: Mashiinka cadaadiska
+  spruce_pressure_plate: Daadi saxanka cadaadiska
+  birch_pressure_plate: Cadaadiska Birch Cadaadiska
+  jungle_pressure_plate: Cadaadiska Cadaadiska Jungle
+  acacia_pressure_plate: Cadaadiska Cadaadiska Acacia
+  dark_oak_pressure_plate: Cadaadiska Cadaadiska Acacia
+  crimson_pressure_plate: |
+    Cadaadiska Cadaadiska
+  warped_pressure_plate: |
+    Cadaadiska Cadaadiska Dagaal
   iron_door: Albaab bir ah
   oak_door: Oak albaabka
   spruce_door: Dhir albaabka
@@ -466,13 +605,59 @@ material:
     Albaabka Dambiilaha
   warped_door: |
     Warped Door
+  iron_trapdoor: Birch Hatch
+  oak_trapdoor: Oak hatch
+  spruce_trapdoor: Koofiyadaha loo yaqaan 'Spruce hatch'
+  birch_trapdoor: Birch Hatch
+  jungle_trapdoor: Hatch geedka Tropical
+  acacia_trapdoor: Acacia hatch
+  dark_oak_trapdoor: Madow oak albaabka
+  crimson_trapdoor: |
+    Crimson Trapdoor
+  warped_trapdoor: |
+    Trapdoor Dagaal
+  oak_fence_gate: Albaabka Oak Fence
+  spruce_fence_gate: Albaabada Spruce Fence
+  birch_fence_gate: Albaabka Birch Fence
+  jungle_fence_gate: Albaabka kaymaha Jungle
+  acacia_fence_gate: Albaabka Acacia Fence
+  dark_oak_fence_gate: Albaabka madow ee Oak Fence
+  crimson_fence_gate: Albaabada Fudud
+  warped_fence_gate: |
+    Albaabka Fure Albaabka
+  powered_rail: Korantada biraha
+  detector_rail: Dareemayaal biraha
+  rail: Biraha
+  activator_rail: Firfircoonaan biraha
+  warped_fungus_on_a_stick: |
+    Furuut dillaacay on Stick ah
+  elytra: Elytra
   jigsaw: Xujo jigsaw
   scute: Gaashaan
+  apple: Tufaax
   charcoal: Dhuxul dhagax
+  diamond: Dheeman
+  amethyst_shard: Amethyst Shard
+  copper_ingot: Copper Ingot
   netherite_ingot: |
     Netherite Ingot
   netherite_scrap: |
     Xadhiga Netherite
+  wooden_sword: Seef alwaax ah
+  wooden_shovel: Majarafad alwaax ah
+  wooden_pickaxe: Alwaax alwaax ah
+  wooden_axe: Alwaax alwaax ah
+  wooden_hoe: Alwaax hoe
+  stone_sword: Seefta dhagax
+  stone_shovel: Majarafad dhagax ah
+  stone_pickaxe: Dhagax ka qaatay
+  stone_axe: Fan dhagxan
+  stone_hoe: Dhagax adag
+  golden_pickaxe: Dahab dahab ah
+  golden_axe: Farta dahabka
+  iron_sword: Seefto birta
+  iron_hoe: Bir hoe
+  diamond_hoe: Dheeman hoe
   netherite_sword: |
     Seefta Netherite
   netherite_shovel: |
@@ -483,7 +668,20 @@ material:
     Axmaarada Ax
   netherite_hoe: |
     Netherite Hoe
+  string: Xadhig
+  feather: Baal
+  gunpowder: Gunpowyder
+  wheat_seeds: Badbaadiyaha
   wheat: Dalagyada qamadida
+  iron_boots: Kabaha birta
+  diamond_helmet: Koofiyadda dheemanka
+  diamond_chestplate: Dheemanka dheeman
+  diamond_leggings: Lugeynta dheemanka
+  diamond_boots: Kabaha dheeman
+  golden_helmet: Koofiyad Dahab ah
+  golden_chestplate: Chebtplate dahab ah
+  golden_leggings: Gogol dahab ah
+  golden_boots: Kabaha Dahabka ah
   netherite_helmet: |
     Netherite Ingot
   netherite_chestplate: |
@@ -492,6 +690,8 @@ material:
     Legitings Netherite
   netherite_boots: |
     Boorsooyinka Netherite
+  painting: Rinjiyeyn
+  golden_apple: Tufaax dahab ah
   oak_sign: Calaamadda maqalka
   spruce_sign: Dhir saxiix
   birch_sign: Saxiix bjørk
@@ -501,24 +701,80 @@ material:
   crimson_sign: Calaamadda Cas
   warped_sign: |
     Saxeex Dagaal
+  powder_snow_bucket: Budada Barafka Barafka
+  leather: Maqaar
+  axolotl_bucket: Baaldi ee Axolotl
+  brick: Leben
   clay_ball: Dhoobo Kubadda
   dried_kelp_block: Kelp qalalan
+  paper: Waraaq
+  book: Buug
+  slime_ball: Kubad kubbad
   egg: Ukun
+  compass: Diirad
+  bundle: Bushqad
+  fishing_rod: Usha kalluumeysiga
+  clock: Saacad
+  spyglass: Spyglass
+  glowstone_dust: Boodhka dhalaalaya
   cod: Codka cagaaran
+  salmon: Clonn clon
+  tropical_fish: Kalluunka kuleylka ah
+  pufferfish: Burfunshish
   cooked_cod: Codka la kariyey
+  cooked_salmon: Salmon la kariyey
   white_dye: Dheeha cad
+  orange_dye: Dheeh oranji
+  magenta_dye: Magenta Dheef
+  light_blue_dye: Dhogorta dhalaalaya buluug
   yellow_dye: Dheeha jaalaha ah
+  lime_dye: Dheeh dheeh
+  pink_dye: Dheeh casaan
+  light_gray_dye: Dheeh casaan ah
+  cyan_dye: Cyran dheeh dheeh
+  purple_dye: Dheedka buluuga ah
   blue_dye: Dheeh buluug ah
   brown_dye: Dheeha madow
   green_dye: Dheeh cagaaran
   red_dye: Dheeha cas
   black_dye: Dheeha madow
+  bone_meal: Cuntada lafaha
+  bone: Lafaha
+  sugar: Sonkorta
   cake: Cake
+  cyan_bed: Sariirta cran
+  purple_bed: Sariir guduudan
+  blue_bed: Sariirta Buluugga ah
+  brown_bed: Sariirta Brown
+  green_bed: Sariir cagaaran
+  red_bed: Sariirta gaduudan
+  black_bed: Sariirta madow
+  filled_map: Khariidad
   dried_kelp: Balsi qalalan
+  pumpkin_seeds: Abuurka bocorka
+  melon_seeds: Abuurka qaraha
+  cooked_beef: Isteek
   nether_wart: Nether Wart
+  brewing_stand: Istaag taagan
   cauldron: kuleylka
+  ender_eye: Indhaha dhamaadka
+  glistering_melon_slice: Qaraha xarkaha qaraha
+  axolotl_spawn_egg: Ukunta Axolotl
+  bat_spawn_egg: Bisad ku dhalatay ukunta
   bee_spawn_egg: Shinni Spawn Ukunta
+  blaze_spawn_egg: Shinni Spawn Ukunta
   cat_spawn_egg: Bisad ku dhalatay ukunta
+  cave_spider_spawn_egg: Cadaadiska cagaaran ukunta spawn
+  chicken_spawn_egg: Ukunta digaagga
+  cod_spawn_egg: Bisad ku dhalatay ukunta
+  cow_spawn_egg: Bisad ku dhalatay ukunta
+  creeper_spawn_egg: Cadaadiska cagaaran ukunta spawn
+  dolphin_spawn_egg: Zoglin Spawn Egg
+  donkey_spawn_egg: Dameer ukunta
+  drowned_spawn_egg: Ukun u dhinta ukunta
+  elder_guardian_spawn_egg: Magangelyo oday ah ukunta
+  enderman_spawn_egg: Ukunta enderman
+  endermite_spawn_egg: Ukunta u dhinta ukunta
   hoglin_spawn_egg: |
     Hoglin Spawn Egg
   panda_spawn_egg: Panda spawn ukunta
@@ -529,14 +785,15 @@ material:
   pillager_spawn_egg: Pillager kalluunka ukun
   strider_spawn_egg: |
     Strider Spawn Egg
+  villager_spawn_egg: Pillager kalluunka ukun
   zoglin_spawn_egg: |
     Zoglin Spawn Egg
   zombified_piglin_spawn_egg: |
     Zombified Piglin Spawn Egg
+  flower_pot: Dheriga ubaxa
+  potato: Baradho
+  skeleton_skull: Qalfoofka skeleton
   player_head: Madaxa cayaaraha
-  warped_fungus_on_a_stick: |
-    Furuut dillaacay on Stick ah
-  elytra: Elytra
   crossbow: Isbaaro
   suspicious_stew: Feejignaan shaki
   loom: Dhar
@@ -551,7 +808,6 @@ material:
   cartography_table: Miiska sawirka
   fletching_table: Miis jeexan
   grindstone: Garaacid
-  lectern: Lectern
   smithing_table: Miiska jumlada
   stonecutter: Dhagxaan
   bell: Jal
@@ -566,14 +822,8 @@ material:
   bee_nest: Shinni buul
   beehive: Guri shinni
   honey_bottle: Dhalada malabka
-  honey_block: Malab block
   honeycomb_block: Xanibida malab
   lodestone: Lodestone
-  netherite_block: |
-    Xirmooyinka Netherite
-  ancient_debris: |
-    Burburkii Qadiimiga ahaa
-  target: Bartilmaameed
   crying_obsidian: |
     Oohinta Obsidian
   blackstone: |
@@ -602,6 +852,28 @@ material:
     Dhagax Madoow oo la jeexjeexay
   respawn_anchor: |
     Dib-u-hagaajinta Xarigga
+  candle: Shumac
+  white_candle: Shumaca Cad
+  orange_candle: Shumaca Liinta
+  magenta_candle: Magenta Shumaca
+  light_blue_candle: Shumac Buluug Iftiin ah
+  yellow_candle: Shumac Jaalo
+  lime_candle: Shumaca Liinta
+  pink_candle: Shumac casaan
+  gray_candle: Shumaca Gray
+  light_gray_candle: Shumac Fudud
+  cyan_candle: Shumaca Cyan
+  purple_candle: Shumaca Purple
+  blue_candle: Shumaca Buluuga ah
+  brown_candle: Shumaca buniga ah
+  green_candle: Shumaca Cagaaran
+  red_candle: Shumaca Casaanka ah
+  black_candle: Shumaca Madoow
+  small_amethyst_bud: Bud yar oo Amethyst ah
+  medium_amethyst_bud: Dhexdhexaad Amethyst Bud
+  large_amethyst_bud: Bud weyn oo Ametusti ah
+  amethyst_cluster: Kooxda Amethyst
+  pointed_dripstone: Dripstone tilmaamaya
   water: Biyaha
   lava: Lava
   tall_seagrass: Sare cawska badda
@@ -621,13 +893,26 @@ material:
     Soul Wall Torch
   nether_portal: Xulka Nether Portal
   attached_pumpkin_stem: Stem Pumpkin Stem
+  attached_melon_stem: Qaraha qaraha ee ku lifaaqan
   pumpkin_stem: Stem Steam
+  melon_stem: Qaraha qaraha
+  water_cauldron: Cauldron biyo
+  lava_cauldron: Lava Cauldron
+  powder_snow_cauldron: Budada Barafka Cauldron
+  end_portal: Xariirka dhamaadka
   cocoa: Kookaha
+  tripwire: Tripwire
   potted_cornflower: Dhirta la kariyey
   potted_lily_of_the_valley: Laydi dhoobo ah ee dooxada
   potted_wither_rose: Qallajiyey qadhaadh
+  potted_dead_bush: Duurka loo yaqaan pott
+  potted_cactus: Castrated Tictus
+  carrots: Karooto
+  potatoes: Baradha
+  skeleton_wall_skull: Qalfoofka darbiga
   creeper_wall_head: Madaxa derbiga derbiga
   dragon_wall_head: Madaxa derbiga ee maskaxda
+  beetroots: Bahalto
   end_gateway: Dhamee albaabka
   frosted_ice: Baraf barafoobay
   kelp_plant: Caleemaha Kelp
@@ -651,6 +936,29 @@ material:
     Xididdada Dambiilaha Dheriga
   potted_warped_roots: |
     Xididdada Xididaysan
+  candle_cake: Cake Shumaca
+  white_candle_cake: Cake leh Shumaca Cad
+  orange_candle_cake: Ku kariso Shumaca Liinta
+  magenta_candle_cake: Keeg leh Magenta Shumaca
+  light_blue_candle_cake: Keeg leh Shumac Fudud oo Buluug ah
+  yellow_candle_cake: Kee la Shumaca Jaalaha ah
+  lime_candle_cake: Keeg leh Shumaca Lime
+  pink_candle_cake: Keeg leh Shumaca Casaanka ah
+  gray_candle_cake: Keeg leh Shumaca Gray
+  light_gray_candle_cake: Keeg leh Shumac Fudud
+  cyan_candle_cake: Keeg leh Shumaca Cyan
+  purple_candle_cake: Cake la Shumaca Purple
+  blue_candle_cake: Keeg Buluug Buluug ah
+  brown_candle_cake: Keeg leh Shumaca buniga ah
+  green_candle_cake: Keeg leh Shumaca Cagaaran
+  red_candle_cake: Keeg leh Shumaca Casaanka ah
+  black_candle_cake: Keeg leh Shumaca Madoow
+  powder_snow: Barafka budada ah
+  cave_vines: Cawska godka
+  cave_vines_plant: Goynta geedaha geedaha
+  big_dripleaf_stem: Shoppros weyn oo stem
+  potted_azalea_bush: Dhoobada Azalea
+  potted_flowering_azalea_bush: Caleemaha Ubax Azalea
   redstone: Redstone
   wall_sign: Saxeexa derbiga
 biome:
@@ -668,11 +976,11 @@ biome:
   basalt_deltas: |
     Basalt Deltas
 enchantment:
-  soul_speed: |
-    Xawaaraha Soul
-  piercing: Dillaac
   multishot: Badan
   quick_charge: Lacag degdeg ah
+  piercing: Dillaac
+  soul_speed: |
+    Xawaaraha Soul
 entity:
   area_effect_cloud: Xayawaanka Saameynta Aagga
   egg: Dufanka Ukun
@@ -684,6 +992,8 @@ entity:
   wither: Wither
   endermite: Endermite
   shulker: Shulker
+  pig: Doofaar
+  cow: Sac
   mushroom_cow: Mooshroom
   drowned: Qarqid
   dolphin: Hoon-baro
@@ -696,6 +1006,8 @@ entity:
   strider: Strider
   zoglin: Zoglin
   piglin_brute: Piglin Brute
+  axolotl: Axolotl
+  player: Ciyaaryahan
 effect:
   wither: Wither
   saturation: Robab

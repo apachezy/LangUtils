@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:49                    #
+# Build time: 2021-07-04 21:46:04                    #
 # ####################################################
 language:
   code: se_no
@@ -14,10 +14,17 @@ material:
   polished_diorite: Bussejuvvon Diorihtta
   andesite: Ándasihtta
   polished_andesite: Bussejuvvon Ándasihtta
+  deepslate: Bodneráktu
+  cobbled_deepslate: Mollejuvvon bodneráktu
+  polished_deepslate: Bussejuvvon bodneráktu
+  calcite: Kalsihtta
+  tuff: Tuffageađgi
+  dripstone_block: Goaikogeađgeblohkka
   grass_block: Suoidneblohkka
   dirt: Eana
   coarse_dirt: Roattoseana
   podzol: Podsola
+  rooted_dirt: Ruohtaseana
   crimson_nylium: Skárllatmirkoeana
   warped_nylium: Skuibesmirkoeana
   cobblestone: Luoddageađgi
@@ -34,73 +41,128 @@ material:
   birch_sapling: Soahkemuoraš
   jungle_sapling: Suhkkesvuovdemuoraš
   acacia_sapling: Acaciamuoraš
-  dark_oak_sapling: Sevdnjes Eaikamuoraš
+  dark_oak_sapling: Sevdnjes eaikamuoraš
   bedrock: Báktevuođđu
   sand: Sáttu
   red_sand: Ruksessáttu
   gravel: Čievra
-  gold_ore: Gollegeađgi
-  iron_ore: Ruovdegeađgi
-  coal_ore: Koallageađgi
-  nether_gold_ore: Nether Gollegeađgi
+  coal_ore: Koallamálbma
+  deepslate_coal_ore: Bodnerávttu koallamálbma
+  iron_ore: Ruovdemálbma
+  deepslate_iron_ore: Bodnerávttu ruovdemálbma
+  copper_ore: Veaikemálbma
+  deepslate_copper_ore: Bodnerávttu veaikemálbma
+  gold_ore: Gollemálbma
+  deepslate_gold_ore: Bodnerávttu gollemálbma
+  redstone_ore: Redstonemálbma
+  deepslate_redstone_ore: Bodnerávttu redstonemálbma
+  emerald_ore: Emeraldamálbma
+  deepslate_emerald_ore: Bodnerávttu emeraldamálbma
+  lapis_ore: Lasuramálbma
+  deepslate_lapis_ore: Bodnerávttu lasuramálbma
+  diamond_ore: Diamántamálbma
+  deepslate_diamond_ore: Bodnerávttu diamántamálbma
+  nether_gold_ore: Nether gollemálbma
+  nether_quartz_ore: Nether kvárcamálbma
+  ancient_debris: Dološ bázahusat
+  coal_block: Koallablohkka
+  raw_iron_block: Roavvaruovdeblohkka
+  raw_copper_block: Roavvaveaikeblohkka
+  raw_gold_block: Roavvagolleblohkka
+  amethyst_block: Ametistablohkka
+  budding_amethyst: Bohciidis ametista
+  iron_block: Ruovdeblohkka
+  copper_block: Veaikeblohkka
+  gold_block: Golleblohkka
+  diamond_block: Diamántablohkka
+  netherite_block: Netherihttablohkka
+  exposed_copper: Suojehis veaiki
+  weathered_copper: Giimmagoahtan veaiki
+  oxidized_copper: Giimman veaiki
+  cut_copper: Čuhppon veaiki
+  exposed_cut_copper: Suojehis čuhppon veaiki
+  weathered_cut_copper: Giimmagoahtan čuhppon veaiki
+  oxidized_cut_copper: Giimman čuhppon veaiki
+  cut_copper_stairs: Čuhppon veaiketráhppá
+  exposed_cut_copper_stairs: Suojehis čuhppon veaiketráhppát
+  weathered_cut_copper_stairs: Giimmagoahtan čuhppon veaiketráhppát
+  oxidized_cut_copper_stairs: Giimman čuhppon veaiketráhppát
+  cut_copper_slab: Čuhppon veaikebealli
+  exposed_cut_copper_slab: Suojehis čuhppon veaikebealli
+  weathered_cut_copper_slab: Giimmagoahtan čuhppon veaikebealli
+  oxidized_cut_copper_slab: Giimman čuhppon veaikebealli
+  waxed_copper_block: Váksajuvvon veaikeblohkka
+  waxed_exposed_copper: Váksajuvvon suojehis veaiki
+  waxed_weathered_copper: Váksajuvvon giimmagoahtan veaiki
+  waxed_oxidized_copper: Váksajuvvon giimman veaiki
+  waxed_cut_copper: Váksajuvvon čuhppon veaiki
+  waxed_exposed_cut_copper: Váksajuvvon suojehis čuhppon veaiki
+  waxed_weathered_cut_copper: Váksajuvvon giimmagoahtan čuhppon veaiki
+  waxed_oxidized_cut_copper: Váksajuvvon giimman čuhppon veaiki
+  waxed_cut_copper_stairs: Váksajuvvon čuhppon veaiketráhppát
+  waxed_exposed_cut_copper_stairs: Váksajuvvon suojehis čuhppon veaiketráhppát
+  waxed_weathered_cut_copper_stairs: Váksajuvvon giimmagoahtan čuhppon veaiketráhppát
+  waxed_oxidized_cut_copper_stairs: Váksajuvvon giimman čuhppon veaiketráhppát
+  waxed_cut_copper_slab: Váksajuvvon čuhppon veaikebealli
+  waxed_exposed_cut_copper_slab: Váksajuvvon suojehis čuhppon veaikebealli
+  waxed_weathered_cut_copper_slab: Váksajuvvon giimmagoahtan čuhppon veaikebealli
+  waxed_oxidized_cut_copper_slab: Váksajuvvon giimman čuhppon veaikebealli
   oak_log: Eaikačoska
-  spruce_log: Guossočoskka
+  spruce_log: Guossačoska
   birch_log: Soahkečoska
   jungle_log: Suhkkesvuovdečoska
   acacia_log: Acaciačoska
-  dark_oak_log: Sevdnjes Eaikačoska
+  dark_oak_log: Sevdnjes eaikačoska
   crimson_stem: Skárllatmátta
   warped_stem: Skuibemátta
-  stripped_oak_log: Álás Eaikačoska
-  stripped_spruce_log: Álás Guossačoska
-  stripped_birch_log: Álás Soahkečoska
-  stripped_jungle_log: Álás Suhkkesvuovdečoska
-  stripped_acacia_log: Álás Acaciačoska
-  stripped_dark_oak_log: Álás Sevdnjeseaikačoska
-  stripped_crimson_stem: Álás Skárllatmátta
-  stripped_warped_stem: Álás Skuibemátta
-  stripped_oak_wood: Álas Eaikačoska
-  stripped_spruce_wood: Álás Guossačoska
-  stripped_birch_wood: Álás Soahkečoska
-  stripped_jungle_wood: Álás Suhkkesvuovdečoska
-  stripped_acacia_wood: Álás Acaciačoska
-  stripped_dark_oak_wood: Áláss Sevdnjeseaikačoska
-  stripped_crimson_hyphae: Álás Skárllatsuorus
-  stripped_warped_hyphae: Álás Skuibesuorus
-  oak_wood: Eaika
+  stripped_oak_log: Fullojuvvon eaikačoska
+  stripped_spruce_log: Fullojuvvon guossačoska
+  stripped_birch_log: Fullojuvvon soahkečoska
+  stripped_jungle_log: Fullojuvvon suhkkesvuovdečoska
+  stripped_acacia_log: Fullojuvvon acaciačoska
+  stripped_dark_oak_log: Fullojuvvon sevdnjes eaikačoska
+  stripped_crimson_stem: Fullojuvvon skárllatmátta
+  stripped_warped_stem: Fullojuvvon skuibemátta
+  stripped_oak_wood: Fullojuvvon eaikamuorra
+  stripped_spruce_wood: Fullojuvvon guossamuorra
+  stripped_birch_wood: Fullojuvvon soahkemuorra
+  stripped_jungle_wood: Fullojuvvon suhkkesvuovdemuorra
+  stripped_acacia_wood: Fullojuvvon acaciamuorra
+  stripped_dark_oak_wood: Fullojuvvon sevdnjes eaikamuorra
+  stripped_crimson_hyphae: Fullojuvvon skárllatsuorus
+  stripped_warped_hyphae: Fullojuvvon skuibesuorus
+  oak_wood: Eaikamuorra
   spruce_wood: Guossamuorra
   birch_wood: Soahkemuorra
   jungle_wood: Suhkkesvuovdemuorra
-  acacia_wood: Acacia
-  dark_oak_wood: Sevdnjeseaikamuorra
+  acacia_wood: Acaciamuorra
+  dark_oak_wood: Sevdnjes eaikamuorra
   crimson_hyphae: Skárllatsuorus
   warped_hyphae: Skuibesuorus
   oak_leaves: Eaikalasttat
-  spruce_leaves: Guossolastat
-  birch_leaves: Soahkelastat
-  jungle_leaves: Suhkkesvuovdelastat
-  acacia_leaves: Acacialastat
-  dark_oak_leaves: Sevdnjes Eaikalastat
+  spruce_leaves: Guossalasttat
+  birch_leaves: Soahkelasttat
+  jungle_leaves: Suhkkesvuovdelasttat
+  acacia_leaves: Acacialasttat
+  dark_oak_leaves: Sevdnjes eaikalasttat
+  azalea_leaves: Asalealasttat
+  flowering_azalea_leaves: Lieđđudeaddji asalealasttat
   sponge: Guopparas
   wet_sponge: Njuoska guopparas
   glass: Láse
-  lapis_ore: Lapis Lázulihttageađgi
-  lapis_block: Lapis Lázulihtta Blohkka
-  dispenser: Bálkessteaddji
-  sandstone: Sáddogeađgi
-  chiseled_sandstone: Lukčon Sáddogeađgi
-  cut_sandstone: Njuolgejuvvon Sáddogeađgi
-  note_block: Nuohttablohkka
-  powered_rail: Rávdnjás Ruovdemáđđi
-  detector_rail: Iskkan Ruovdemáđđi
-  sticky_piston: Njivllas Hoigadeaddji
+  tinted_glass: Seđđes láse
+  lapis_block: Lasurablohkka
+  sandstone: Sáttogeađgi
+  chiseled_sandstone: Lukčon sáttogeađgi
+  cut_sandstone: Njuolgejuvvon sáttogeađgi
   cobweb: Heavdnefierbmi
   grass: Suoidni
   fern: Gáiski
-  dead_bush: Jápman Miestta
+  azalea: Asalea
+  flowering_azalea: Lieđđudeaddji asalea
+  dead_bush: Goikemiestta
   seagrass: Debbot
   sea_pickle: Mearrašaddu
-  piston: Hoigadeaddji
   white_wool: Vilges Ullu
   orange_wool: Runta Ullu
   magenta_wool: Čuvgessáhppes Ullu
@@ -130,146 +192,125 @@ material:
   cornflower: Rohkarássi
   lily_of_the_valley: Ávželieđđi
   wither_rose: Witherlieđđi
+  spore_blossom: Iđuslieđđi
   brown_mushroom: Ruškes Guoppar
-  red_mushroom: Rukses Guoppar
+  red_mushroom: Rukses guoppar
   crimson_fungus: Skárllatguoppar
   warped_fungus: Skuibeguoppar
   crimson_roots: Skárllatruohtas
   warped_roots: Skuibesruohtas
   nether_sprouts: Netherrahttá
-  weeping_vines: Gaŋaldatsuoidni
-  twisting_vines: Gierrisuoidni
+  weeping_vines: Ganjaldan goargŋunšaddu
+  twisting_vines: Gierrinan goargŋunšaddu
   sugar_cane: Sohkarrevre
   kelp: Stárra
+  moss_carpet: Darferátnu
+  moss_block: Darfeblohkka
+  hanging_roots: Sluŋkeruohttasat
+  big_dripleaf: Stuora goaikolasta
+  small_dripleaf: Unna goaikolasta
   bamboo: Bamboa
-  gold_block: Golleblohkka
-  iron_block: Ruovdeblohkka
-  oak_slab: Eaika Bealli
-  spruce_slab: Guosso Bealli
-  birch_slab: Soahke Bealli
-  jungle_slab: Suhkkesvuovde Bealli
-  acacia_slab: Acacia Bealli
-  dark_oak_slab: Sevdnjeseaika Bealli
+  oak_slab: Eaikabealli
+  spruce_slab: Guossabealli
+  birch_slab: Soahkebealli
+  jungle_slab: Suhkkesvuovdebealli
+  acacia_slab: Acaciabealli
+  dark_oak_slab: Sevdnjes eaikabealli
   crimson_slab: Skárllatbealli
-  warped_slab: Skuibbas Bealli
-  stone_slab: Geađge Bealli
-  smooth_stone_slab: Jalgageađge Bealli
-  sandstone_slab: Sáddogeađge Bealli
-  cut_sandstone_slab: Njuolgejuvvon Sáddogeađge Bealli
-  petrified_oak_slab: Balláneaika Bealli
-  cobblestone_slab: Luoddageađge Bealli
-  brick_slab: Muvra Bealli
-  stone_brick_slab: Geađgemuvra Bealli
-  nether_brick_slab: Nethermuvra Bealli
-  quartz_slab: Kvárca Bealli
-  red_sandstone_slab: Rukses Sáddogeađgi Bealli
-  cut_red_sandstone_slab: Njuolgabut Ruksessáddogeađge Bealli
-  purpur_slab: Purpur Bealli
-  prismarine_slab: Prismariidna Bealli
-  prismarine_brick_slab: Prismariidna Muvra Bealli
-  dark_prismarine_slab: Sevdnjes Prismariidna Bealli
+  warped_slab: Skuibebealli
+  stone_slab: Geađgebealli
+  smooth_stone_slab: Jalgageađgebealli
+  sandstone_slab: Sáttogeađgebealli
+  cut_sandstone_slab: Čuhppon sáttogeađgebealli
+  petrified_oak_slab: Geađgás eaikabealli
+  cobblestone_slab: Luoddageađgebealli
+  brick_slab: Muvrabealli
+  stone_brick_slab: Geađgemuvrabealli
+  nether_brick_slab: Nethermuvrabealli
+  quartz_slab: Kvárcabealli
+  red_sandstone_slab: Rukses sáttogeađgibealli
+  cut_red_sandstone_slab: Čuhppon ruksessáttogeađgebealli
+  purpur_slab: Purpurbealli
+  prismarine_slab: Prismariidnabealli
+  prismarine_brick_slab: Prismariidnamuvrabealli
+  dark_prismarine_slab: Sevdnjes prismariidnabealli
   smooth_quartz: Fiinna Kvárcablohkka
-  smooth_red_sandstone: Fiinna Rukses Sáddogeađgi
-  smooth_sandstone: Fiinna Sáddogeađgi
-  smooth_stone: Fiinna Geađgi
+  smooth_red_sandstone: Fiinna rukses Sáttogeađgi
+  smooth_sandstone: Fiinna sáttogeađgi
+  smooth_stone: Fiinna geađgi
   bricks: Muvra
-  tnt: TNT
   bookshelf: Girjehildu
-  mossy_cobblestone: Darfinuvvon Luoddageađgi
+  mossy_cobblestone: Darfinuvvon luoddageađgi
   obsidian: Garrageađgi
   torch: Spáiddar
   end_rod: Endor Sággi
-  chorus_plant: Chorus Šaddu
-  chorus_flower: Chorus Lieđđi
-  purpur_block: Purpur Blohkka
-  purpur_pillar: Purpur Pillara
+  chorus_plant: Chorusšaddu
+  chorus_flower: Choruslieđđi
+  purpur_block: Purpurblohkka
+  purpur_pillar: Purpurstoalpu
   purpur_stairs: Purpurtráhppá
   spawner: Ealáskeaddji
   oak_stairs: Eaikatráhppá
   chest: Bumbá
-  diamond_ore: Diamánttageađgi
-  diamond_block: Diamánttablohkka
   crafting_table: Duodjebeavdi
   farmland: Gilvineana
   furnace: Ovdna
   ladder: Ráidalas
-  rail: Ruovdemáđđi
   cobblestone_stairs: Luoddageađgetráhppá
-  lever: Geavja
-  stone_pressure_plate: Geađge Deattopláhtta
-  oak_pressure_plate: Eaika Deattopláhtta
-  spruce_pressure_plate: Guossa Deattopláhtta
-  birch_pressure_plate: Soahke Deattopláhtta
-  jungle_pressure_plate: Suhkkesvuovde Deattopláhtta
-  acacia_pressure_plate: Acacia Deattopláhtta
-  dark_oak_pressure_plate: Sevdnjeseaikka Deattopláhtta
-  crimson_pressure_plate: Skárllatdeattopláhtta
-  warped_pressure_plate: Skuibedeattopláhtta
-  polished_blackstone_pressure_plate: Bussejuvvon Čáhppesgeađge Deattopláhttá
-  redstone_ore: Redstonegeađgi
-  redstone_torch: Redstone Spáiddar
   snow: Muohta
-  ice: ﻿Jiekŋa
+  ice: Jiekŋa
   snow_block: Muohtablohkka
   cactus: Káktus
   clay: Láirá
-  jukebox: Čuojaheaddji
+  jukebox: Čuojanas
   oak_fence: Eaika Áidi
   spruce_fence: Guossa Áidi
   birch_fence: Soahke Áidi
   jungle_fence: Suhkkesvuovde Áidi
   acacia_fence: Acacia Áidi
-  dark_oak_fence: Sevdnjes Eaikaáidi
+  dark_oak_fence: Sevdnjes eaikaáidi
   crimson_fence: Skárllatáidi
   warped_fence: Skuibeáidi
   pumpkin: Gurbbet
   carved_pumpkin: Čuhppon Gurbbet
+  jack_o_lantern: Gurbbetčuovga
   netherrack: Nethergeađgi
   soul_sand: Siellosáttu
   soul_soil: Sielloeana
   basalt: Basaltta
   polished_basalt: Bussejuvvon Basaltta
+  smooth_basalt: Fiinna basalta
   soul_torch: Siellospáiddar
   glowstone: Čuovgageađgi
-  jack_o_lantern: Gurbbetčuovga
-  oak_trapdoor: Eaikaleabma
-  spruce_trapdoor: Guossa Leabma
-  birch_trapdoor: Soahke Leabma
-  jungle_trapdoor: Suhkkesvuovde Leabma
-  acacia_trapdoor: Acacia Leabma
-  dark_oak_trapdoor: Sevdnjes Eaikaleabma
-  crimson_trapdoor: Skárllat Leabma
-  warped_trapdoor: Skuibeleabma
-  infested_stone: Njommon Geađgi
-  infested_cobblestone: Njommon Luoddageađgi
+  infested_stone: Njommongeađgi
+  infested_cobblestone: Njommon luoddageađgi
   infested_stone_bricks: Njommon Geađgemuvra
   infested_mossy_stone_bricks: Njommon Darfinuvvon Geađgemuvra
   infested_cracked_stone_bricks: Njommon Luoddanan Geađgemuvra
   infested_chiseled_stone_bricks: Njommon Lukčon Geađgemuvra
+  infested_deepslate: Njommon bodneráktu
   stone_bricks: Geađgemuvra
   mossy_stone_bricks: Darfinuvvon Geađgemuvra
   cracked_stone_bricks: Luoddanan Geađgemuvra
   chiseled_stone_bricks: Lukčon Geađgemuvra
-  brown_mushroom_block: Ruškes Guoppar Blohkka
-  red_mushroom_block: Rukses Guoppar Blohkka
-  mushroom_stem: Guoppar Máddu
+  deepslate_bricks: Bodneráktomuvra
+  cracked_deepslate_bricks: Luoddanan bodneráktomuvra
+  deepslate_tiles: Bodneráktotiila
+  cracked_deepslate_tiles: Luoddanan bodneráktotiila
+  chiseled_deepslate: Lukčon bodneráktu
+  brown_mushroom_block: Ruškes guopparblohkka
+  red_mushroom_block: Rukses guopparblohkka
+  mushroom_stem: Guoppamáddu
   iron_bars: Ruovdegiddagas
   chain: Viđji
   glass_pane: Lásebealli
   melon: Melovdna
-  vine: Šloancasuoidni
-  oak_fence_gate: Eaikaverrát
-  spruce_fence_gate: Guossaverrát
-  birch_fence_gate: Soahkeverrát
-  jungle_fence_gate: Suhkkesvuovdeverrát
-  acacia_fence_gate: Acaciaverrát
-  dark_oak_fence_gate: Sevdnjes Eaikaverrát
-  crimson_fence_gate: Skárllatverrát
-  warped_fence_gate: Skuibeverrát
+  vine: Goargŋunsuoidni
+  glow_lichen: Áhcagas jeagil
   brick_stairs: Muvratráhppá
   stone_brick_stairs: Geađgemuvratráhppá
   mycelium: Mirkoeana
-  lily_pad: Govdolieđđi
+  lily_pad: Govdodanlieđđi
   nether_bricks: Nethermuvra
   cracked_nether_bricks: Luoddanan Nethergeađgemuvra
   chiseled_nether_bricks: Lukčon Nethergeađgemuvra
@@ -280,13 +321,10 @@ material:
   end_stone: Endor Geađgi
   end_stone_bricks: Endor Geađgemuvra
   dragon_egg: Drágemonni
-  redstone_lamp: Redstone Čuovga
   sandstone_stairs: Sáttogeađgitráhppá
-  emerald_ore: Emeraldageađgi
   ender_chest: Endorbumbá
-  tripwire_hook: Guossanbátti Sággi
   emerald_block: Emeraldablohkka
-  spruce_stairs: Guossotráhppá
+  spruce_stairs: Guossatráhppá
   birch_stairs: Soahketráhppá
   jungle_stairs: Suhkkesvuovdetráhppá
   crimson_stairs: Skárllattráhppát
@@ -310,51 +348,36 @@ material:
   blackstone_wall: Čáhppesgeađge Seaidni
   polished_blackstone_wall: Bussejuvvon Čáhppesgeađge Seaidni
   polished_blackstone_brick_wall: Bussejuvvon Čáhppesgeađgemuvraseaidni
-  stone_button: Geađgeboallu
-  oak_button: Eaikaboallu
-  spruce_button: Guossaboallu
-  birch_button: Soahkeboallu
-  jungle_button: Suhkkesvuovdeboallu
-  acacia_button: Acaciaboallu
-  dark_oak_button: Sevdnjes eaikaboallu
-  crimson_button: Skárllatboallu
-  warped_button: Skuibeboallu
-  polished_blackstone_button: Bussejuvvon Čáhppesgeađgeboallu
+  cobbled_deepslate_wall: Mollejuvvon bodneráktoseaidni
+  polished_deepslate_wall: Bussejuvvon bodneráktoseaidni
+  deepslate_brick_wall: Bodneráktomuvraseaidni
+  deepslate_tile_wall: Bodneráktotiilaseaidni
   anvil: Stáđđi
   chipped_anvil: Reakčanan Stáđđi
   damaged_anvil: Billašuvvan Stáđđi
-  trapped_chest: Darvvihahttin Bumbá
-  light_weighted_pressure_plate: Geahpadas Deattopláhtta
-  heavy_weighted_pressure_plate: Lossodas Deattopláhtta
-  daylight_detector: Beaivečuovgga Iskkadeaddji
-  redstone_block: Redstoneblohkka
-  nether_quartz_ore: Nether Kvárcageađgi
-  hopper: Njammaleaddji
   chiseled_quartz_block: Lukčon Kvárcablohkka
   quartz_block: Kvárcablohkka
   quartz_bricks: Kvarcamuvra
-  quartz_pillar: Kvárca Stoalpu
+  quartz_pillar: Kvárcastoalpu
   quartz_stairs: Kvárcatráhppá
-  activator_rail: Álggahahttin Ruovdemáđđi
-  dropper: Luoitileaddji
-  white_terracotta: Vilges Terracotta
-  orange_terracotta: Runta Terracotta
-  magenta_terracotta: Čuvgessáhppes Terracotta
-  light_blue_terracotta: Čuvgesalit Terracotta
-  yellow_terracotta: Fiskes Terracotta
-  lime_terracotta: Čuvgesruoná Terracotta
-  pink_terracotta: Rosa Terracotta
-  gray_terracotta: Ránes Terracotta
-  light_gray_terracotta: Čuvgesránes Terracotta
-  cyan_terracotta: Turkiisa Terracotta
-  purple_terracotta: Sáhppes Terracotta
-  blue_terracotta: Alit Terracotta
-  brown_terracotta: Ruškes Terracotta
-  green_terracotta: Ruoná Terracotta
-  red_terracotta: Rukses Terracotta
-  black_terracotta: Čáhppes Terracotta
+  white_terracotta: Vilges terrakotta
+  orange_terracotta: Runta terrakotta
+  magenta_terracotta: Čuvgessáhppes terrakotta
+  light_blue_terracotta: Čuvgesalit terrakotta
+  yellow_terracotta: Fiskes terrakotta
+  lime_terracotta: Čuvgesruoná terrakotta
+  pink_terracotta: Rosa terrakotta
+  gray_terracotta: Ránes terrakotta
+  light_gray_terracotta: Čuvgesránes terrakotta
+  cyan_terracotta: Turkiisa terrakotta
+  purple_terracotta: Sáhppes terrakotta
+  blue_terracotta: Alit terrakotta
+  brown_terracotta: Ruškes terrakotta
+  green_terracotta: Ruoná terrakotta
+  red_terracotta: Rukses terrakotta
+  black_terracotta: Čáhppes terrakotta
   barrier: Caggi
-  iron_trapdoor: Ruovde Leabma
+  light: Čuovga
   hay_block: Suoidnegubá
   white_carpet: Vilges Láhtterátnu
   orange_carpet: Runta Láhtterátnu
@@ -371,14 +394,12 @@ material:
   brown_carpet: Ruškes Láhtterátnu
   green_carpet: Ruoná Láhtterátnu
   red_carpet: Rukses Láhtterátnu
-  black_carpet: Čáhpes Láhtterátnu
-  terracotta: Terracotta
-  coal_block: Koallablohkka
+  black_carpet: Čáhppes Láhtterátnu
+  terracotta: Terrakotta
   packed_ice: Garrajiekŋa
   acacia_stairs: Acaciatráhppá
-  dark_oak_stairs: Sevdnjes Eaikatráhppá
-  slime_block: Njivleblohkka
-  grass_path: Bálggis
+  dark_oak_stairs: Sevdnjes eaikatráhppá
+  dirt_path: Bálggis
   sunflower: Beaivvášlieđđi
   lilac: Siriidna
   rose_bush: Rosamiestta
@@ -418,16 +439,16 @@ material:
   red_stained_glass_pane: Ruksesivdnásaš Lásebealli
   black_stained_glass_pane: Čáhppesivdnásaš Lásebealli
   prismarine: Prismariidna
-  prismarine_bricks: Prismariidna Muvra
-  dark_prismarine: Sevdnjes Prismariidna
+  prismarine_bricks: Prismariidnamuvra
+  dark_prismarine: Sevdnjes prismariidna
   prismarine_stairs: Prismariidnatráhppá
-  prismarine_brick_stairs: Prismariidna Muvratráhppá
-  dark_prismarine_stairs: Sevdnjes Prismariidnatráhppá
+  prismarine_brick_stairs: Prismariidnamuvratráhppá
+  dark_prismarine_stairs: Sevdnjes prismariidnatráhppá
   sea_lantern: Mearračuovga
-  red_sandstone: Rukses Sáddogeađgi
-  chiseled_red_sandstone: Lukčon Rukses Sáddogeađgi
-  cut_red_sandstone: Njuolgejuvvon Rukses Sáddogeađgi
-  red_sandstone_stairs: Rukses Sáttogeađgitráhppá
+  red_sandstone: Rukses sáttogeađgi
+  chiseled_red_sandstone: Lukčon rukses sáttogeađgi
+  cut_red_sandstone: Njuolgejuvvon rukses sáttogeađgi
+  red_sandstone_stairs: Rukses sáttogeađgetráhppá
   repeating_command_block: Geardduhan Kommándoblohkka
   chain_command_block: Ráido Kommándoblohkka
   magma_block: Magmablohkka
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: Rukses Nethermuvra
   bone_block: Dákteblohkka
   structure_void: Huskehus Gomuvuohta
-  observer: Iskkadeaddji
   shulker_box: Shulkerboksa
   white_shulker_box: Vilges Shulkerboksa
   orange_shulker_box: Runta Shulkerboksa
@@ -454,54 +474,54 @@ material:
   green_shulker_box: Ruoná Shulkerboksa
   red_shulker_box: Rukses Shulkerboksa
   black_shulker_box: Čáhppes Shulkerboksa
-  white_glazed_terracotta: Vilges Šelges Terracotta
-  orange_glazed_terracotta: Runta Šelges Terracotta
-  magenta_glazed_terracotta: Čuvgessáhppes Šelges Terracotta
-  light_blue_glazed_terracotta: Čuvgesalit Šelges Terracotta
-  yellow_glazed_terracotta: Fiskes Šelges Terracotta
-  lime_glazed_terracotta: Čuvgesruoná Šelges Terracotta
-  pink_glazed_terracotta: Vilgesrukses Šelges Terracotta
-  gray_glazed_terracotta: Ránes Šelges Terracotta
-  light_gray_glazed_terracotta: Čuvgesránes Šelges Terracotta
-  cyan_glazed_terracotta: Turkiisa Šelges Terracotta
-  purple_glazed_terracotta: Sáhppes Šelges Terracotta
-  blue_glazed_terracotta: Alit Šelges Terracotta
-  brown_glazed_terracotta: Ruškes Šelges Terracotta
-  green_glazed_terracotta: Ruoná Šelges Terracotta
-  red_glazed_terracotta: Rukses Šelges Terracotta
-  black_glazed_terracotta: Čáhppes Šelges Terracotta
-  white_concrete: Vilges Betoŋŋa
-  orange_concrete: Runta Betoŋŋa
-  magenta_concrete: Čuvgessáhppes Betoŋŋa
-  light_blue_concrete: Čuvgesalit Betoŋŋa
-  yellow_concrete: Fiskes Betoŋŋa
-  lime_concrete: Čuvgesruoná Betoŋŋa
-  pink_concrete: Čuvgesrukses Betoŋŋa
-  gray_concrete: Ránes Betoŋŋa
-  light_gray_concrete: Čuvgesránes Betoŋŋa
-  cyan_concrete: Turkiisa Betoŋŋa
-  purple_concrete: Sáhppes Betoŋŋa
-  blue_concrete: Alit Betoŋŋa
-  brown_concrete: Ruškes Betoŋŋa
-  green_concrete: Ruoná Betoŋŋa
-  red_concrete: Rukses Betoŋŋa
-  black_concrete: Čáhppes Betoŋŋa
-  white_concrete_powder: Vilges Betoŋŋa Pulvar
-  orange_concrete_powder: Runta Betoŋŋa Pulvar
-  magenta_concrete_powder: Čuvgessáhppes Betoŋŋa Pulvar
-  light_blue_concrete_powder: Čuvgesalit Betoŋŋa Pulvar
-  yellow_concrete_powder: Fiskes Betoŋŋa Pulvar
-  lime_concrete_powder: Čuvgesruonaá Betoŋŋa Pulvar
-  pink_concrete_powder: Čuvgesrukses Betoŋŋa Pulvar
-  gray_concrete_powder: Ránes Betoŋŋa Pulvar
-  light_gray_concrete_powder: Čuvgesránes Betoŋŋa Pulvar
-  cyan_concrete_powder: Turkiisa Betoŋŋa Pulvar
-  purple_concrete_powder: Sáhppes Betoŋŋa Pulvar
-  blue_concrete_powder: Alit Betoŋŋa Pulvar
-  brown_concrete_powder: Ruškes Betoŋŋa Pulvar
-  green_concrete_powder: Ruoná Betoŋŋa Pulvar
-  red_concrete_powder: Rukses Betoŋŋa Pulvar
-  black_concrete_powder: Čáhppes Betoŋŋa Pulvar
+  white_glazed_terracotta: Vilges šelges terrakotta
+  orange_glazed_terracotta: Runta šelges terrakotta
+  magenta_glazed_terracotta: Čuvgessáhppes šelges terrakotta
+  light_blue_glazed_terracotta: Čuvgesalit šelges terrakotta
+  yellow_glazed_terracotta: Fiskes šelges terrakotta
+  lime_glazed_terracotta: Čuvgesruoná šelges terrakotta
+  pink_glazed_terracotta: Vilgesrukses šelges terrakotta
+  gray_glazed_terracotta: Ránes šelges terrakotta
+  light_gray_glazed_terracotta: Čuvgesránes šelges terrakotta
+  cyan_glazed_terracotta: Turkiisa šelges terrakotta
+  purple_glazed_terracotta: Sáhppes šelges terrakotta
+  blue_glazed_terracotta: Alit šelges terrakotta
+  brown_glazed_terracotta: Ruškes šelges terrakotta
+  green_glazed_terracotta: Ruoná šelges terrakotta
+  red_glazed_terracotta: Rukses šelges terrakotta
+  black_glazed_terracotta: Čáhppes šelges terrakotta
+  white_concrete: Vilges betoŋŋa
+  orange_concrete: Runta betoŋŋa
+  magenta_concrete: Čuvgessáhppes betoŋŋa
+  light_blue_concrete: Čuvgesalit betoŋŋa
+  yellow_concrete: Fiskes betoŋŋa
+  lime_concrete: Čuvgesruoná betoŋŋa
+  pink_concrete: Čuvgesrukses betoŋŋa
+  gray_concrete: Ránes betoŋŋa
+  light_gray_concrete: Čuvgesránes betoŋŋa
+  cyan_concrete: Turkiisa betoŋŋa
+  purple_concrete: Sáhppes betoŋŋa
+  blue_concrete: Alit betoŋŋa
+  brown_concrete: Ruškes betoŋŋa
+  green_concrete: Ruoná betoŋŋa
+  red_concrete: Rukses betoŋŋa
+  black_concrete: Čáhppes betoŋŋa
+  white_concrete_powder: Vilges betoŋŋabulvvar
+  orange_concrete_powder: Runta betoŋŋabulvvar
+  magenta_concrete_powder: Čuvgessáhppes betoŋŋabulvvar
+  light_blue_concrete_powder: Čuvgesalit betoŋŋabulvvar
+  yellow_concrete_powder: Fiskes betoŋŋabulvvar
+  lime_concrete_powder: Čuvgesruonaá betoŋŋabulvvar
+  pink_concrete_powder: Čuvgesrukses betoŋŋabulvvar
+  gray_concrete_powder: Ránes betoŋŋabulvvar
+  light_gray_concrete_powder: Čuvgesránes betoŋŋabulvvar
+  cyan_concrete_powder: Turkiisa betoŋŋabulvvar
+  purple_concrete_powder: Sáhppes betoŋŋabulvvar
+  blue_concrete_powder: Alit betoŋŋabulvvar
+  brown_concrete_powder: Ruškes betoŋŋabulvvar
+  green_concrete_powder: Ruoná betoŋŋabulvvar
+  red_concrete_powder: Rukses betoŋŋabulvvar
+  black_concrete_powder: Čáhppes betoŋŋabulvvar
   turtle_egg: Galbarihccemonni
   dead_tube_coral_block: Jápman Bohcci Korallablohkka
   dead_brain_coral_block: Jápman Vuoŋŋamuš Korallablohkka
@@ -536,44 +556,132 @@ material:
   blue_ice: Alitjiekŋa
   conduit: Mearrameannudeaddji
   polished_granite_stairs: Bussejuvvon Granihttatráhppá
-  smooth_red_sandstone_stairs: Fiinna Ruksessáddogeađgetráhppá
+  smooth_red_sandstone_stairs: Fiinna ruksessáttogeađgetráhppá
   mossy_stone_brick_stairs: Darfinuvvon Geađgemuvratráhppá
   polished_diorite_stairs: Bussejuvvon Diorihttatráhppá
-  mossy_cobblestone_stairs: Darfinuvvon Luoddageađgitráhppá
+  mossy_cobblestone_stairs: Darfinuvvon luoddageađgetráhppá
   end_stone_brick_stairs: Endor Geađgemuvratráhppá
   stone_stairs: Geađgetráhppá
-  smooth_sandstone_stairs: Fiinna Sáddogeađgetráhppá
+  smooth_sandstone_stairs: Fiinna sáttogeađgetráhppá
   smooth_quartz_stairs: Fiinna Kvárcatráhppá
   granite_stairs: Granihttatráhppá
   andesite_stairs: Ándasihttatráhppá
   red_nether_brick_stairs: Rukses Nethermuvratráhppá
   polished_andesite_stairs: Bussejuvvon Ándasihttatráhppá
   diorite_stairs: Diorihttatráhppá
-  polished_granite_slab: Bussejuvvon Granihttabealli
-  smooth_red_sandstone_slab: Fiinna Rukses Sáddogeađgebealli
-  mossy_stone_brick_slab: Darfinuvvon Geađgemuvrabealli
-  polished_diorite_slab: Bussejuvvon Diorihttabealli
-  mossy_cobblestone_slab: Darfinuvvon Luoddageađgebealli
-  end_stone_brick_slab: Endor Geađgemuvrabealli
-  smooth_sandstone_slab: Fiinna Sáddogeađgebealli
-  smooth_quartz_slab: Fiinna Kvárcabealli
+  cobbled_deepslate_stairs: Mollejuvvon bodneráktotráhppát
+  polished_deepslate_stairs: Bussejuvvon bodneráktotráhppát
+  deepslate_brick_stairs: Bodneráktomuvratráhppá
+  deepslate_tile_stairs: Bodneráktotiilatráhppá
+  polished_granite_slab: Bussejuvvon granihttabealli
+  smooth_red_sandstone_slab: Fiinna rukses sáttogeađgebealli
+  mossy_stone_brick_slab: Darfinuvvon geađgemuvrabealli
+  polished_diorite_slab: Bussejuvvon diorihttabealli
+  mossy_cobblestone_slab: Darfinuvvon luoddageađgebealli
+  end_stone_brick_slab: Endorgeađgemuvrabealli
+  smooth_sandstone_slab: Fiinna sáttogeađgebealli
+  smooth_quartz_slab: Fiinna kvárcabealli
   granite_slab: Granihttabealli
   andesite_slab: Ándasihttabealli
-  red_nether_brick_slab: Rukses Nethermuvrabealli
-  polished_andesite_slab: Bussejuvvon Ándasihttabealli
+  red_nether_brick_slab: Rukses nethermuvrabealli
+  polished_andesite_slab: Bussejuvvon ándasihttabealli
   diorite_slab: Diorihttabealli
+  cobbled_deepslate_slab: Mollejuvvon bodneráktobealli
+  polished_deepslate_slab: Bussejuvvon bodneráktobealli
+  deepslate_brick_slab: Bodneráktomuvrabealli
+  deepslate_tile_slab: Bodneráktotiilabealli
   scaffolding: Luovvi
+  redstone: Redstonedopmu
+  redstone_torch: Redstonespáiddar
+  redstone_block: Redstoneblohkka
+  repeater: Redstone geardduheaddji
+  comparator: Redstone iskkadeaddji
+  piston: Hoigi
+  sticky_piston: Njivllas hoigi
+  slime_block: Njivleblohkka
+  honey_block: Honnetblohkka
+  observer: Iskkadeaddji
+  hopper: Njammi
+  dispenser: Bálkessteaddji
+  dropper: Luoiti
+  lectern: Sárdnestuollu
+  target: Deaivvus
+  lever: Geavja
+  lightning_rod: Álddagasa dustensoabbi
+  daylight_detector: Beaivečuovgga iski
+  sculk_sensor: Sculk-dovddan
+  tripwire_hook: Guossanbátti Sággi
+  trapped_chest: Darvvihahttinbumbá
+  tnt: TNT
+  redstone_lamp: Redstonečuovga
+  note_block: Nuohttablohkka
+  stone_button: Geađgeboallu
+  polished_blackstone_button: Bussejuvvon Čáhppesgeađgeboallu
+  oak_button: Eaikaboallu
+  spruce_button: Guossaboallu
+  birch_button: Soahkeboallu
+  jungle_button: Suhkkesvuovdeboallu
+  acacia_button: Acaciaboallu
+  dark_oak_button: Sevdnjes eaikaboallu
+  crimson_button: Skárllatboallu
+  warped_button: Skuibeboallu
+  stone_pressure_plate: Geađge Deattopláhtta
+  polished_blackstone_pressure_plate: Bussejuvvon Čáhppesgeađge Deattopláhttá
+  light_weighted_pressure_plate: Geahpadas Deattopláhtta
+  heavy_weighted_pressure_plate: Lossodas deattopláhtta
+  oak_pressure_plate: Eaika Deattopláhtta
+  spruce_pressure_plate: Guossa Deattopláhtta
+  birch_pressure_plate: Soahke Deattopláhtta
+  jungle_pressure_plate: Suhkkesvuovde Deattopláhtta
+  acacia_pressure_plate: Acacia Deattopláhtta
+  dark_oak_pressure_plate: Sevdnjeseaikka deattopláhtta
+  crimson_pressure_plate: Skárllatdeattopláhtta
+  warped_pressure_plate: Skuibedeattopláhtta
   iron_door: Ruovdeuksa
   oak_door: Eaikauksa
   spruce_door: Guossauksa
   birch_door: Soahkeuksa
   jungle_door: Suhkkesvuvdemuorrauksa
   acacia_door: Acaciauksa
-  dark_oak_door: Sevdnjes Eaikauksa
+  dark_oak_door: Sevdnjes eaikauksa
   crimson_door: Skárllatuksa
   warped_door: Skuibeuksa
-  repeater: Redstone Gearddojeaddji
-  comparator: Redstone Iskkadeaddji
+  iron_trapdoor: Ruovde Leabma
+  oak_trapdoor: Eaikaleabma
+  spruce_trapdoor: Guossa Leabma
+  birch_trapdoor: Soahke Leabma
+  jungle_trapdoor: Suhkkesvuovde Leabma
+  acacia_trapdoor: Acacia Leabma
+  dark_oak_trapdoor: Sevdnjes eaikaleabma
+  crimson_trapdoor: Skárllat Leabma
+  warped_trapdoor: Skuibeleabma
+  oak_fence_gate: Eaikaverrát
+  spruce_fence_gate: Guossaverrát
+  birch_fence_gate: Soahkeverrát
+  jungle_fence_gate: Suhkkesvuovdeverrát
+  acacia_fence_gate: Acaciaverrát
+  dark_oak_fence_gate: Sevdnjes eaikaverrát
+  crimson_fence_gate: Skárllatverrát
+  warped_fence_gate: Skuibeverrát
+  powered_rail: Rávdnjás ruovdemáđđi
+  detector_rail: Iskkan Ruovdemáđđi
+  rail: Ruovdemáđđi
+  activator_rail: Álggahahttin Ruovdemáđđi
+  saddle: Riidensálat
+  minecart: Roggangielká
+  chest_minecart: Roggangielká mas bumbá
+  furnace_minecart: Roggangielká mas ovdna
+  tnt_minecart: Roggangielká mas TNT
+  hopper_minecart: Roggangielká mas njammi
+  carrot_on_a_stick: Rušpi Oaggunstávrras
+  warped_fungus_on_a_stick: Skuibeguoppar Oaggunstávrras
+  elytra: Soajit
+  oak_boat: Eaikafanas
+  spruce_boat: Guossafanas
+  birch_boat: Soahkefanas
+  jungle_boat: Suhkesvuovdefanas
+  acacia_boat: Acaciafanas
+  dark_oak_boat: Sevdnjes eaikafanas
   structure_block: Huskehusblohkka
   jigsaw: Ásahanblohkka
   turtle_helmet: Skálžogahpir
@@ -585,7 +693,15 @@ material:
   coal: Koalla
   charcoal: Čađđa
   diamond: Diamánta
+  emerald: Emerálda
+  lapis_lazuli: Lasura
+  quartz: Nether Kvártsa
+  amethyst_shard: Ametistamoallu
+  raw_iron: Roavvaruovdi
   iron_ingot: Ruovdebihttá
+  raw_copper: Roavvaveaiki
+  copper_ingot: Veaikebihttá
+  raw_gold: Roavvagolli
   gold_ingot: Gollebihttá
   netherite_ingot: Netherihtta bihttá
   netherite_scrap: Netherihttabihttážat
@@ -609,11 +725,11 @@ material:
   iron_pickaxe: Ruovdeguohkki
   iron_axe: Ruovdeákšu
   iron_hoe: Ruovdepluovva
-  diamond_sword: Diamánttamiehkki
-  diamond_shovel: Diamánttagoaivu
-  diamond_pickaxe: Diamánttaguohkki
-  diamond_axe: Diamánttaákšu
-  diamond_hoe: Diamánttapluovva
+  diamond_sword: Diamántamiehkki
+  diamond_shovel: Diamántagoaivu
+  diamond_pickaxe: Diamántaguohkki
+  diamond_axe: Diamántaákšu
+  diamond_hoe: Diamántapluovva
   netherite_sword: Netherihttamiehkki
   netherite_shovel: Netherihttagoaivu
   netherite_pickaxe: Netherihttaguohkki
@@ -621,10 +737,10 @@ material:
   netherite_hoe: Netherihttapluovva
   stick: Sággi
   bowl: Bollu
-  mushroom_stew: Guoppar málli
+  mushroom_stew: Guopparmálli
   string: Láigi
   feather: Dolgi
-  gunpowder: Rukta
+  gunpowder: Kruvttu
   wheat_seeds: Nisugordne Siemat
   wheat: Nisugordni
   bread: Láibi
@@ -640,10 +756,10 @@ material:
   iron_chestplate: Ruovdesuodju
   iron_leggings: Ruovdebuvssat
   iron_boots: Ruovdegápmagat
-  diamond_helmet: Diamánttagahpir
-  diamond_chestplate: Diamánttasuodju
-  diamond_leggings: Diamánttabuvssat
-  diamond_boots: Diamánttagápmagat
+  diamond_helmet: Diamántagahpir
+  diamond_chestplate: Diamántasuodju
+  diamond_leggings: Diamántabuvssat
+  diamond_boots: Diamántagápmagat
   golden_helmet: Gollegahpir
   golden_chestplate: Gollesuodju
   golden_leggings: Gollebuvssat
@@ -659,49 +775,47 @@ material:
   golden_apple: Golle Ebel
   enchanted_golden_apple: Noidojuvvon Golle Ebel
   oak_sign: Eaikagalba
-  spruce_sign: Guossogalba
+  spruce_sign: Guossagalba
   birch_sign: Soahkegalba
   jungle_sign: Suhkkesvuovdegalba
   acacia_sign: Acaciagalba
-  dark_oak_sign: Sevdnjes Eaikagalba
+  dark_oak_sign: Sevdnjes eaikagalba
   crimson_sign: Skárllatgalba
   warped_sign: Skuibegalba
   bucket: Gievdni
   water_bucket: Čáhcegievdni
   lava_bucket: Lavagievdni
-  minecart: Roggangielká
-  saddle: Sále
-  redstone: Redstonedopmu
+  powder_snow_bucket: Oppasgievdni
   snowball: Muohtačahkir
-  oak_boat: Eaikafanas
   leather: Sisti
   milk_bucket: Mielkegievdni
-  pufferfish_bucket: Mierkoguolleskállu
+  pufferfish_bucket: Mirkoguolleskállu
   salmon_bucket: Luossaskállu
   cod_bucket: Dorskeskállu
-  tropical_fish_bucket: Tropiskasguolleskállu
+  tropical_fish_bucket: Trohpalašguolleskállu
+  axolotl_bucket: Aksolohtalskállu
   brick: Muvrabihttá
   clay_ball: Láiraspábba
-  dried_kelp_block: Goikoduvvon Stárrablohkka
+  dried_kelp_block: Goikaduvvon stárrablohkka
   paper: Bábir
   book: Girji
   slime_ball: Njivlespábba
-  chest_minecart: Roggangielká mas Gumbá
-  furnace_minecart: Roggangielká mas Ovdna
   egg: Monni
   compass: Kompássa
+  bundle: Dávvirbursa
   fishing_rod: Oaggunstávrá
   clock: Diibmu
+  spyglass: Giikan
   glowstone_dust: Čuovgageađggedopmu
   cod: Njuoska dorski
   salmon: Njuoska luossa
-  tropical_fish: Tropiskas Guolli
+  tropical_fish: Trohpalaš guolli
   pufferfish: Mirkoguolli
   cooked_cod: Basson Dorski
   cooked_salmon: Basson Luossa
   ink_sac: Čáhppesivdnečoalli
+  glow_ink_sac: Áhcagas ivdnečoalli
   cocoa_beans: Kakáošaddu
-  lapis_lazuli: Lapis Lázulihtta
   white_dye: Vilges Ivdni
   orange_dye: Runta Ivdni
   magenta_dye: Čuvgessáhppes Ivdni
@@ -751,7 +865,7 @@ material:
   cooked_chicken: Basson Vuoncáčivga
   rotten_flesh: Guohcagan Biergu
   ender_pearl: Endorhelbmo
-  blaze_rod: Buollistálu Sággi
+  blaze_rod: Buollistálu sággi
   ghast_tear: Gopmi Gaŋaldat
   gold_nugget: Gollebihttáš
   nether_wart: Nether Spártu
@@ -759,12 +873,13 @@ material:
   glass_bottle: Lásebohtal
   spider_eye: Heavdne Čalbmi
   fermented_spider_eye: Fermenterejuvvon Heavdnečalbmi
-  blaze_powder: Buollistálu Pulvar
-  magma_cream: Magma Kreamma
+  blaze_powder: Buollistálu bulvvar
+  magma_cream: Magmakreamma
   brewing_stand: Vuoššahat
   cauldron: Ruitu
   ender_eye: Endorčalbmi
   glistering_melon_slice: Šelges Meluvdnabihttáš
+  axolotl_spawn_egg: Aksolohtala Ealáskanmonni
   bat_spawn_egg: Girdisáhpána Ealáskanmonni
   bee_spawn_egg: Uvllu Ealáskanmonni
   blaze_spawn_egg: Buollistálu Ealáskanmonni
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: Gonstošeaddji Ealáskanmonni
   fox_spawn_egg: Riebana Ealáskanmonni
   ghast_spawn_egg: Gopmi Ealáskanmonni
+  glow_squid_spawn_egg: Áhcagas áhkárguoli ealáskanmonni
+  goat_spawn_egg: Gáicca Ealáskanmonni
   guardian_spawn_egg: Várjaleaddji Ealáskanmonni
   hoglin_spawn_egg: Hoglina Ealáskanmonni
   horse_spawn_egg: Heasta Ealáskanmonni
@@ -791,7 +908,7 @@ material:
   magma_cube_spawn_egg: Magmaealli Ealáskanmonni
   mooshroom_spawn_egg: Mooshrooma Ealáskanmonni
   mule_spawn_egg: Muvlla Ealáskanmonni
-  ocelot_spawn_egg: Oselotbussá Ealáskanmonni
+  ocelot_spawn_egg: Meahccebussá Ealáskanmonni
   panda_spawn_egg: Panda Ealáskanmonni
   parrot_spawn_egg: Papegoia Ealáskanmonni
   phantom_spawn_egg: Idjagopmi Ealáskanmonni
@@ -802,7 +919,7 @@ material:
   polar_bear_spawn_egg: Jiekŋaguovžža Ealáskanmonni
   pufferfish_spawn_egg: Mirkoguoli Ealáskanmonni
   rabbit_spawn_egg: Njoammila Ealáskanmonni
-  ravager_spawn_egg: Ravager Ealáskanmonni
+  ravager_spawn_egg: Mollenstálu Ealáskanmonni
   salmon_spawn_egg: Luosa Ealáskanmonni
   sheep_spawn_egg: Sávzza Ealáskanmonni
   shulker_spawn_egg: Shulkera Ealáskanmonni
@@ -815,7 +932,7 @@ material:
   stray_spawn_egg: Vádjoleaddji Ealáskanmonni
   strider_spawn_egg: Gálašeaddji Ealáskanmonni
   trader_llama_spawn_egg: Vuovdaleaddji Llama Ealáskanmonni
-  tropical_fish_spawn_egg: Tropiskas Guoli Ealáskanmonni
+  tropical_fish_spawn_egg: Trohpalaš guoli Ealáskanmonni
   turtle_spawn_egg: Galbarihcci Ealáskanmonni
   vex_spawn_egg: Biidnogopmi Ealáskanmonni
   villager_spawn_egg: Gillilačča Ealáskanmonni
@@ -833,34 +950,29 @@ material:
   fire_charge: Buolligeađgi
   writable_book: Girji ja Čállinávnnas
   written_book: Čállon Girji
-  emerald: Emerálda
   item_frame: Dávvirrámma
-  flower_pot: Lieđđe Bohttu
+  glow_item_frame: Áhcagas dávvirrámma
+  flower_pot: Lieđđeruhkku
   carrot: Rušpi
   potato: Buđet
-  baked_potato: Liggejuvvon Buđet
-  poisonous_potato: Mirkkolaš Buđet
+  baked_potato: Liggejuvvon buđet
+  poisonous_potato: Mirkkolaš buđet
   map: Guoros Kárta
   golden_carrot: Gollerušpi
   skeleton_skull: Dákterikki Oaiveskálžu
   wither_skeleton_skull: Wither Dákterikki Oaiveskálžu
-  player_head: Speallároaivi
+  player_head: Speallioaivi
   zombie_head: Jámeža oaivi
   creeper_head: Creeper Oaivi
   dragon_head: Drága Oaivi
-  carrot_on_a_stick: Rušpi Oaggunstávrras
-  warped_fungus_on_a_stick: Skuibeguoppar Oaggunstávrras
   nether_star: Nether Násti
   pumpkin_pie: Gurbbet Paia
   firework_rocket: Rakeahtta
-  firework_star: Rahkeahta Násti
+  firework_star: Rahkeahttanásti
   enchanted_book: Noidojuvvon girji
   nether_brick: Nethermuvra
-  quartz: Nether Kvártsa
-  tnt_minecart: Roggangielká mas TNT
-  hopper_minecart: Roggangielká mas Njammaleaddji
   prismarine_shard: Prismariidnamoallu
-  prismarine_crystals: Prismariidna Krystalla
+  prismarine_crystals: Prismariidnakristálla
   rabbit: Njuoska Njoammilbiergu
   cooked_rabbit: Basson Njoammilbiergu
   rabbit_stew: Njoammelmálli
@@ -869,11 +981,11 @@ material:
   armor_stand: Suodjalus Čajeheaddji
   iron_horse_armor: Heasta Ruovdesudjalus
   golden_horse_armor: Heasta Gollesudjalus
-  diamond_horse_armor: Heasta Diamánttasudjalus
+  diamond_horse_armor: Heasta diamántasuodjalus
   leather_horse_armor: Heasta Náhkkesudjalus
-  lead: Lavži
-  name_tag: Namma Mearka
-  command_block_minecart: Roggangielká mas Kommándoblohkka
+  lead: Lávži
+  name_tag: Nammalihppu
+  command_block_minecart: Roggangielká mas kommándoblohkka
   mutton: Njuoska Lábbabiergu
   cooked_mutton: Basson Lábbabiergu
   white_banner: Vilges Leavga
@@ -892,29 +1004,23 @@ material:
   green_banner: Ruoná Leavga
   red_banner: Rukses Leavga
   black_banner: Čáhppes Leavga
-  end_crystal: Endor Krystalla
-  chorus_fruit: Chorusšaddu
-  popped_chorus_fruit: Rahppon Chorusšaddu
+  end_crystal: Endorkristálla
+  chorus_fruit: Chorusšattus
+  popped_chorus_fruit: Rahpasan chorusšattus
   beetroot: Ruksesruohtas
   beetroot_seeds: Ruksesruohta Siepma
-  beetroot_soup: Ruksesruohtas Málli
+  beetroot_soup: Ruksesruohtasmálli
   dragon_breath: Drágavuoiŋŋastat
   splash_potion: Diškalanjugus
   spectral_arrow: Suotnjar Njuolla
   tipped_arrow: Budnjon Njuolla
-  lingering_potion: Bissovaš Jugus
+  lingering_potion: Bissovaš jugus
   shield: Galba
-  elytra: Soajit
-  spruce_boat: Guossofanas
-  birch_boat: Soahkefanas
-  jungle_boat: Suhkesvuovdefanas
-  acacia_boat: Acaciafanas
-  dark_oak_boat: Sevdnjes Eaikafanas
   totem_of_undying: Jápmemeahttunvuođa Árdna
   shulker_shell: Shulker Skálžu
   iron_nugget: Ruovdebihttáš
   knowledge_book: Máhttogirji
-  debug_stick: Sivvaohcan Sággi
+  debug_stick: Sivvaohcansággi
   music_disc_13: Musihkkaskearru
   music_disc_cat: Musihkkaskearru
   music_disc_blocks: Musihkkaskearru
@@ -933,7 +1039,7 @@ material:
   nautilus_shell: Nautilus Skálžu
   heart_of_the_sea: Mearaváibmu
   crossbow: Dávgebissu
-  suspicious_stew: Imašlagan Málli
+  suspicious_stew: Imašlagan málli
   loom: Gođđi
   flower_banner_pattern: Leavga minsttár
   creeper_banner_pattern: Leavga minsttár
@@ -945,16 +1051,16 @@ material:
   barrel: Fárppal
   smoker: Suovastuhttii
   blast_furnace: Goardinovdna
-  cartography_table: Kárttenbeavdi
+  cartography_table: Kártenbeavdi
   fletching_table: Njuollabeavdi
   grindstone: Heidnengeađgi
-  lectern: Sárdnestuollu
   smithing_table: Rávdenbeavdi
   stonecutter: Geađgečuohppi
   bell: Biellu
   lantern: Likta
   soul_lantern: Siello Likta
   sweet_berries: Váran
+  glow_berries: Čuovgi muorjjit
   campfire: Dollagáddi
   soul_campfire: Siellodollagáddi
   shroomlight: Guopparčuovga
@@ -962,26 +1068,44 @@ material:
   bee_nest: Uvlubeassi
   beehive: Uvluviessu
   honey_bottle: Honnetbohtal
-  honey_block: Honnetblohkka
   honeycomb_block: Honnetbihttáblohkka
   lodestone: Láidengeađgi
-  netherite_block: Netherihttablohkka
-  ancient_debris: Dološ bázahusat
-  target: Deaivvus
   crying_obsidian: Čierru Garrageađgi
   blackstone: Čáhppesgeađgi
-  blackstone_slab: Čáhppesgeađge Bealli
+  blackstone_slab: Čáhppesgeađgebealli
   blackstone_stairs: Čáhppesgeađgitráhppá
   gilded_blackstone: Gollás Čáhppesgeađgi
   polished_blackstone: Bussejuvvon Čáhppesgeađgi
-  polished_blackstone_slab: Bussejuvvon Čáhppesgeađge Bealli
+  polished_blackstone_slab: Bussejuvvon čáhppesgeađgebealli
   polished_blackstone_stairs: Bussejuvvon Čáhppesgeađgetráhppá
   chiseled_polished_blackstone: Lukčon Bussejuvvon Čáhppesgeađgi
   polished_blackstone_bricks: Bussejuvvon Čáhppesgeađgemuvra
-  polished_blackstone_brick_slab: Bussejuvvon Čáhppesgeađgemuvrabealli
+  polished_blackstone_brick_slab: Bussejuvvon čáhppesgeađgemuvrabealli
   polished_blackstone_brick_stairs: Bussejuvvon Čáhppesgeađgemuvratráhppá
   cracked_polished_blackstone_bricks: Luoddanan Bussejuvvon Čáhppesgeađgemuvra
   respawn_anchor: Ealáskanáŋkor
+  candle: Ginttal
+  white_candle: Vilges ginttal
+  orange_candle: Runta ginttal
+  magenta_candle: Čuvgessáhppes ginttal
+  light_blue_candle: Čuvgesalit ginttal
+  yellow_candle: Fiskes ginttal
+  lime_candle: Čuvgesruoná ginttal
+  pink_candle: Guvgesruokses ginttal
+  gray_candle: Ránes ginttal
+  light_gray_candle: Čuovgesránes ginttal
+  cyan_candle: Turkiisa ginttal
+  purple_candle: Sáhppes ginttal
+  blue_candle: Alit ginttal
+  brown_candle: Ruškes ginttal
+  green_candle: Ruoná ginttal
+  red_candle: Rukses ginttal
+  black_candle: Čáhppes ginttal
+  small_amethyst_bud: Unna ametistaurbi
+  medium_amethyst_bud: Gaskasturrosaš ametistaurbi
+  large_amethyst_bud: Stuora ametistaurbi
+  amethyst_cluster: Ametistačoaltu
+  pointed_dripstone: Goaikogeađgecuipi
   water: Čáhci
   lava: Lava
   tall_seagrass: Allá debbot
@@ -997,46 +1121,49 @@ material:
   acacia_wall_sign: Seaidnegalba Acacias
   jungle_wall_sign: Suhkkesvuovde Seaidnegalba
   dark_oak_wall_sign: Seaidnegalba sevdnjes eaikkas
-  redstone_wall_torch: Redstone Seaidne Spáiddar
+  redstone_wall_torch: Redstone seaidnespáiddar
   soul_wall_torch: Siello Seaidnespáiddár
   nether_portal: Nether Portála
   attached_pumpkin_stem: Čatnasan Gurbbet Máddu
   attached_melon_stem: Čatnasan Meluvdna Máddu
   pumpkin_stem: Murbbet Máddu
   melon_stem: Meluvdna Máddu
+  water_cauldron: Čáhceruitu
+  lava_cauldron: Lavaruitu
+  powder_snow_cauldron: Oppasruitu
   end_portal: Endor Portála
   cocoa: Kakáo
   tripwire: Guossanbáddi
-  potted_oak_sapling: Gilvon Eaikamuoraš
-  potted_spruce_sapling: Gilvon Guosaš
-  potted_birch_sapling: Gilvon Sogaš
+  potted_oak_sapling: Gilvojuvvon eaikkaš
+  potted_spruce_sapling: Gilvojuvvon guosaš
+  potted_birch_sapling: Gilvojuvvon sogaš
   potted_jungle_sapling: Gilvos Suhkesvuovdemuoraš
-  potted_acacia_sapling: Gilvon Acaciamuoraš
-  potted_dark_oak_sapling: Gilvon Sevdnjeseaikamuoraš
-  potted_fern: Gilvon Gáiska
-  potted_dandelion: Gilvon Uvlorássi
-  potted_poppy: Gilvon Ajerássi
-  potted_blue_orchid: Gilvon Alit Orkidéa
-  potted_allium: Gilvon Ruksesluovvar
-  potted_azure_bluet: Gilvon Nuorsá
-  potted_red_tulip: Gilvon Rukses Tulipána
-  potted_orange_tulip: Gilvon Runta Tulipána
-  potted_white_tulip: Gilvon Vilges Tulipána
-  potted_pink_tulip: Gilvon Čuvgesrukses Tulipána
-  potted_oxeye_daisy: Gilvon Báhpačehporas
-  potted_cornflower: Gilvon Rohkarássi
-  potted_lily_of_the_valley: Gilvon Ávželieđđi
-  potted_wither_rose: Gilvon Wither Rosa
+  potted_acacia_sapling: Gilvojuvvon acaciamuoraš
+  potted_dark_oak_sapling: Gilvojuvvon sevdnjeseaikamuoraš
+  potted_fern: Gilvojuvvon gáiska
+  potted_dandelion: Gilvojuvvon uvlorássi
+  potted_poppy: Gilvojuvvon ajerássi
+  potted_blue_orchid: Gilvojuvvon alit orkidéa
+  potted_allium: Gilvojuvvon ruksesluovvar
+  potted_azure_bluet: Gilvojuvvon nuorsá
+  potted_red_tulip: Gilvojuvvon rukses tulipána
+  potted_orange_tulip: Gilvojuvvon runta tulipána
+  potted_white_tulip: Gilvojuvvon vilges tulipána
+  potted_pink_tulip: Gilvojuvvon čuvgesrukses tulipána
+  potted_oxeye_daisy: Gilvojuvvon báhpačehporas
+  potted_cornflower: Gilvojuvvon rohkarássi
+  potted_lily_of_the_valley: Gilvojuvvon ávželieđđi
+  potted_wither_rose: Gilvojuvvon witherrosa
   potted_red_mushroom: Gilvojuvvon Ruksesguoppar
-  potted_brown_mushroom: Gilvon Ruškesguoppar
-  potted_dead_bush: Gilvon Jápmánmiestta
-  potted_cactus: Gilvon Káktus
+  potted_brown_mushroom: Gilvojuvvon ruškesguoppar
+  potted_dead_bush: Gilvojuvvon goikemiestta
+  potted_cactus: Gilvojuvvon káktus
   carrots: Rušppit
   potatoes: Buđehat
   skeleton_wall_skull: Dákterikki Seaindeoaiveskálžu
   wither_skeleton_wall_skull: Wither Dákterikki Seaidne Oaiveskálžu
   zombie_wall_head: Jámeža Seaidneoaivi
-  player_wall_head: Speallár Seaidnoaivi
+  player_wall_head: Spealli seaidneoaivi
   creeper_wall_head: Gopmi Seaidneoaivi
   dragon_wall_head: Drága Seaidneoaivi
   white_wall_banner: Vilges Leavga
@@ -1070,26 +1197,50 @@ material:
   fire_coral_wall_fan: Dolla Koralla Libardahtti
   horn_coral_wall_fan: Čoarvvás Koralla Libardahtti
   bamboo_sapling: Bambusšaddu
-  potted_bamboo: Gilvon Bamboa
+  potted_bamboo: Gilvojuvvon bamboa
   void_air: Gomuvuohta
-  cave_air: Roggeáibmu
+  cave_air: Bákteráiggeáibmu
   bubble_column: Bulljarasrevre
-  sweet_berry_bush: Váranbuhttu
-  weeping_vines_plant: Gaŋaldatsuoinni Rássi
-  twisting_vines_plant: Gierrisuoinni Rássi
+  sweet_berry_bush: Váranmiestta
+  weeping_vines_plant: Ganjaldan goargŋunšattu rássi
+  twisting_vines_plant: Gierrinan goargŋunšattu rássi
   crimson_wall_sign: Skárllat Seaidnegalba
   warped_wall_sign: Skuibes Seaidnegalba
-  potted_crimson_fungus: Gilvon Skárllatguoppar
-  potted_warped_fungus: Gilvon Skuibeguoppar
-  potted_crimson_roots: Gilvon Skárllatruohtas
-  potted_warped_roots: Gilvon Skuibesruohtas
+  potted_crimson_fungus: Gilvojuvvon skárllatguoppar
+  potted_warped_fungus: Gilvojuvvon skuibeguoppar
+  potted_crimson_roots: Gilvojuvvon skárllatruohtas
+  potted_warped_roots: Gilvojuvvon skuibesruohtas
+  candle_cake: Ginttalgáhkku
+  white_candle_cake: Gáhkku vilges gintaliin
+  orange_candle_cake: Gáhkku runta gintaliin
+  magenta_candle_cake: Gáhkku čuvgessáhppes gintaliin
+  light_blue_candle_cake: Gáhkku čuvgesalit gintaliin
+  yellow_candle_cake: Gáhkku fiskes gintaliin
+  lime_candle_cake: Gáhkku čuvgesruoná gintaliin
+  pink_candle_cake: Gáhkku čuvgesrukses gintaliin
+  gray_candle_cake: Gáhkku ránis gintaliin
+  light_gray_candle_cake: Gáhkku čuvgesránis gintaliin
+  cyan_candle_cake: Gáhkku čuvgesalit gintaliin
+  purple_candle_cake: Gáhkku sáhppes gintaliin
+  blue_candle_cake: Gáhkku alit gintaliin
+  brown_candle_cake: Gáhkku ruškes gintaliin
+  green_candle_cake: Gáhkku ruoná gintaliin
+  red_candle_cake: Gáhkku rukses gintaliin
+  black_candle_cake: Gáhkku čáhppes gintaliin
+  powder_snow: Oppas
+  cave_vines: Bákteráigegoargŋunsuoidni
+  cave_vines_plant: Bákteráigegoargŋunsuoidnerássi
+  big_dripleaf_stem: Stuora goaikolasta mátta
+  potted_azalea_bush: Gilvojuvvon asalea
+  potted_flowering_azalea_bush: Gilvojuvvon lieđđudeaddji asalea
+  grass_path: Bálggis
   zombie_pigman_spawn_egg: Jámeš Spiidnealbmá Ealáskanmonni
   dandelion_yellow: Vuodjarássafiskat
   sign: Sivdnidat
 biome:
   ocean: Áhpi
   plains: Giettit
-  desert: Sáddomearra
+  desert: Sáttomearra
   mountains: Várit
   forest: Vuovdi
   taiga: Guovssovuovdi
@@ -1103,8 +1254,8 @@ biome:
   snowy_mountains: Muohtavárit
   mushroom_fields: Guoppargieddi
   mushroom_field_shore: Guoppargiettegáddi
-  beach: Sáddogáddi
-  desert_hills: Sáddomearadievát
+  beach: Sáttogáddi
+  desert_hills: Sáttomearadievát
   wooded_hills: Vuovdásdievát
   taiga_hills: Guovssovuovddedievát
   mountain_edge: Bákteravda
@@ -1113,7 +1264,7 @@ biome:
   jungle_edge: Suhkkesvuodegeahči
   deep_ocean: Áhpi
   stone_shore: Geađgegáddi
-  snowy_beach: Muohttás Sáddogáddi
+  snowy_beach: Muohttás sáttogáddi
   birch_forest: Soahkevuovdi
   birch_forest_hills: Soahkevuovddedievát
   dark_forest: Sevdnjesvuovdi
@@ -1140,7 +1291,7 @@ biome:
   deep_frozen_ocean: Jikŋon Áhpi
   the_void: Gomuvuohta
   sunflower_plains: Beivelieđe Giettit
-  desert_lakes: Sáddomearajávrrit
+  desert_lakes: Sáttomearajávrrit
   gravelly_mountains: Čievravárit
   flower_forest: Lieđásvuovdi
   taiga_mountains: Duottarmeahcci
@@ -1162,55 +1313,57 @@ biome:
   modified_badlands_plateau: Heivehuvvon Ávdineanaaláš
   bamboo_jungle: Suhkkes Bamboovuovdi
   bamboo_jungle_hills: Suhkkes Bamboovuovddedievát
-  soul_sand_valley: Siellosáddoleahkki
+  soul_sand_valley: Siellosáttoleahkki
   crimson_forest: Skárllatmeahcci
   warped_forest: Skuibemeahcci
   basalt_deltas: Basaltaoaivvuš
+  dripstone_caves: Goaikogeađggi bákteráiggit
+  lush_caves: Šattolaš bákterokkit
   nether: Nether
 enchantment:
-  fire_protection: Dollasuojus
-  sharpness: Bastilisvuohta
-  flame: Dolla
-  soul_speed: Sielloleahttu
-  aqua_affinity: Guolleoaidnu
-  punch: Časkkástat
-  loyalty: Oskkáldas
-  depth_strider: Čáhceleahttu
-  vanishing_curse: Jávkadan noaidun
-  unbreaking: Nanusvuohta
-  knockback: Hoigadahttin
-  luck_of_the_sea: Ábilihkku
-  binding_curse: Čatnašuvvon noaidun
-  fortune: Rogganlihkku
   protection: Suodju
-  efficiency: Leahttoroggan
-  mending: Divvun
-  frost_walker: Jiekŋavázzi
-  lure: Vuogga
-  looting: Oažžun
-  piercing: Sákkastahttin
-  blast_protection: Bávkalahttinsuojus
-  smite: Jámežiid loahppa
-  multishot: Máŋgabáhčin
-  fire_aspect: Cahkkehallan
-  channeling: Áltagasti
-  sweeping: Fuoikun
-  thorns: Nálločuoggun
-  bane_of_arthropods: Divrriid loahppa
-  respiration: Čáhcevuoidnan
-  riptide: Miehterávdnjái
-  silk_touch: Silkeguoskkahus
-  quick_charge: Gealdinleahttu
-  projectile_protection: Njuollasuojus
-  impaling: Čuggen
+  fire_protection: Dollasuojus
   feather_falling: Dolgeseaivumuš
+  blast_protection: Bávkalahttinsuojus
+  projectile_protection: Njuollasuojus
+  respiration: Čáhcevuoidnan
+  aqua_affinity: Guolleoaidnu
+  thorns: Nálločuoggun
+  depth_strider: Čáhceleahttu
+  frost_walker: Jiekŋavázzi
+  binding_curse: Čatnašuvvon noaidun
+  sharpness: Bastilisvuohta
+  smite: Jámežiid loahppa
+  bane_of_arthropods: Divrriid loahppa
+  knockback: Hoigadahttin
+  fire_aspect: Cahkkehallan
+  looting: Oažžun
+  sweeping: Fuoikun
+  efficiency: Leahttoroggan
+  silk_touch: Silkeguoskkahus
+  unbreaking: Nanusvuohta
+  fortune: Rogganlihkku
   power: Fápmu
+  punch: Časkkástat
+  flame: Dolla
   infinity: Ágalašvuohta
+  luck_of_the_sea: Ábilihkku
+  lure: Seakti
+  loyalty: Oskkáldas
+  impaling: Čuggen
+  riptide: Miehterávdnjái
+  channeling: Áltagasti
+  multishot: Máŋgabáhčin
+  quick_charge: Gealdinleahttu
+  piercing: Sákkastahttin
+  mending: Divvun
+  vanishing_curse: Jávkadan noaidun
+  soul_speed: Sielloleahttu
 potion:
   uncraftable: Duojatkas Jugus
   water: Čáhcebohtal
-  mundane: Láittas Jugus
-  thick: Suhkkes Jugus
+  mundane: Dábálaš jugus
+  thick: Suhkkes jugus
   awkward: Vuođđojugus
   night_vision: Idjaoainnu noaidejugus
   invisibility: Geaidagasvuođa noaidejugus
@@ -1231,8 +1384,8 @@ potion:
 splash_potion:
   uncraftable: Duojakas Diškalanjugus
   water: Diškalanjugus mas čáhci
-  mundane: Láittas Diškalanjugus
-  thick: Suhkkes Diškalanjugus
+  mundane: Dábálaš diškalanjugus
+  thick: Suhkkes diškalanjugus
   awkward: Vuođđodiškalanjugus
   night_vision: Diškalanjugus mas idjaoaidnu
   invisibility: Diškalanjugus mas geaidagasvuohta
@@ -1252,9 +1405,9 @@ splash_potion:
   slow_falling: Diškalanjugus mas njoazesgáhčči
 lingering_potion:
   uncraftable: Bissovaš Duojatkas Jugus
-  water: Bissovaš Čáhcebohtal
-  mundane: Láittas Bissovaš Jugus
-  thick: Suhkkes Bissovaš Jugus
+  water: Bissovaš čáhcebohtal
+  mundane: Dábálaš bissovaš jugus
+  thick: Suhkkes bissovaš jugus
   awkward: Bissovaš Vuođđojugus
   night_vision: Bissovaš idjaoainnu noaidejugus
   invisibility: Bissovaš geaidagasvuođa noaidejugus
@@ -1281,7 +1434,7 @@ tipped_arrow:
   night_vision: Njuolla mas Idjaoaidnu
   invisibility: Njuolla mas Geaidagasvuohta
   jump: Njuolla mas Njuiken
-  fire_resistance: Njuolla mas Dolla Gierdevašvuohta
+  fire_resistance: Dolladierdevašvuođa njuolla
   speed: Njuolla mas Leahttu
   slowness: Njuolla mas Hiđisvuohta
   water_breathing: Njuolla mas Čáhce Vuoiŋŋahat
@@ -1302,7 +1455,7 @@ entity:
   wither_skeleton: Witherdákteriggi
   stray: Vádjoleaddji
   egg: Bálkestuvvon Monni
-  leash_hitch: Lavžečuolbma
+  leash_hitch: Lávžečuolbma
   painting: Govva
   arrow: Njuolla
   snowball: Muohtačahkir
@@ -1332,14 +1485,14 @@ entity:
   vex: Biidnogobmi
   vindicator: Vákta
   illusioner: Geaidojeaddji
-  minecart_command: Roggangielká mas Kommándoblohkka
+  minecart_command: Roggangielká mas kommándoblohkka
   boat: Fanas
   minecart: Roggangielká
-  minecart_chest: Roggangielká mas Bumbá
-  minecart_furnace: Roggangielká mas Ovdna
+  minecart_chest: Roggangielká mas bumbá
+  minecart_furnace: Roggangielká mas ovdna
   minecart_tnt: Roggangielká mas TNT
-  minecart_hopper: Roggangielká mas Njammaleaddji
-  minecart_mob_spawner: Roggangielká mas Ealáskeaddji
+  minecart_hopper: Roggangielká mas njammi
+  minecart_mob_spawner: Roggangielká mas ealáskeaddji
   creeper: Creeper
   skeleton: Dákteriggi
   spider: Heavdni
@@ -1349,7 +1502,7 @@ entity:
   ghast: Gobmi
   zombified_piglin: Piglinjábmi
   enderman: Endorolmmoš
-  cave_spider: Roggeheavdni
+  cave_spider: Bákteráiggeheavdni
   silverfish: Silbasáhpán
   blaze: Buollistállu
   magma_cube: Magmaealli
@@ -1368,7 +1521,7 @@ entity:
   wolf: Gumpe
   mushroom_cow: Mooshroom
   snowman: Muohtaáddja
-  ocelot: Oselotbussá
+  ocelot: Meahccebussá
   iron_golem: Ruovddejiehtanas
   horse: Heasta
   rabbit: Kaniidna
@@ -1377,14 +1530,14 @@ entity:
   llama_spit: Llama čolgá
   parrot: Papegoia
   villager: Gillilaš
-  ender_crystal: Endor Krystalla
+  ender_crystal: Endorkristálla
   turtle: Galbarihcci
   phantom: Idjagobmi
   trident: Háŋgu
   cod: Dorski
   salmon: Luossa
   pufferfish: Mirkoguolli
-  tropical_fish: Tropiskas Guolli
+  tropical_fish: Trohpalaš guolli
   drowned: Heavvanan
   dolphin: Dolfiidna
   cat: Bussá
@@ -1399,10 +1552,15 @@ entity:
   piglin: Piglin
   strider: Gálašeaddji
   zoglin: Zoglin
-  piglin_brute: Piglin bahálaš
+  piglin_brute: Piglinbahálaš
+  axolotl: Aksolohtal
+  glow_item_frame: Áhcagas dávvirrámma
+  glow_squid: Áhcagas áhkárguolli
+  goat: Gáica
+  marker: Mearka
   fishing_hook: Goarkagoarvvet vuogga
-  lightning: Álttagas
-  player: Speallár
+  lightning: Álddagas
+  player: Spealli
   pig_zombie: Jámeš Spiidnealmmái
 effect:
   speed: Leahttu
@@ -1416,10 +1574,10 @@ effect:
   confusion: Váibmomoiddodat
   regeneration: Heaggaoažžun
   damage_resistance: Gierdevašvuohta
-  fire_resistance: Dolla Gierdevašvuohta
+  fire_resistance: Dollagierdevašvuohta
   water_breathing: Čáhce Vuoiŋŋahat
   invisibility: Geaidagasvuohta
-  blindness: Čálmmehisvuohta
+  blindness: Čalmmehisvuohta
   night_vision: Idjaoaidnu
   hunger: Nealgi
   weakness: Geanuhuvvon
@@ -1428,12 +1586,12 @@ effect:
   health_boost: Liige Heagga
   absorption: Absorveren
   saturation: Nealgečoavi
-  glowing: Suotnjarastin
+  glowing: Áhcagastin
   levitation: Girdin
   luck: Lihkku
   unluck: Lihkkuhisvuohta
   slow_falling: Njoazesgáhččan
-  conduit_power: Mearrameannudeaddji Fápmu
+  conduit_power: Mearrameannudeaddji fápmu
   dolphins_grace: Delfiinna Gudni
   bad_omen: Báhas Diida
   hero_of_the_village: Min Ofelaš
@@ -1468,7 +1626,7 @@ dye_color:
   red: Ruoksat
   black: Čáhppat
 named:
-  player_head_named: Čuojaheaddji %s oaivi
+  player_head_named: '%s spealli oaivi'
   potion_with_amplifier: '%s %s'
   potion_with_duration: '%s (%s)'
   none_effects: Ii leat váikkuhuvvon
@@ -1645,7 +1803,7 @@ banner_pattern:
   '524302': Rukses Olgešsárggis
   '524303': Čáhppes Olgešsárggis
   '589824': Vilges Guovdosárggis
-  '589825': Rutna Guovdosárggis
+  '589825': Runta Guovdosárggis
   '589826': Čuvgessáhppes Guovdosárggis
   '589827': Čuvgesalit Guovdosárggis
   '589828': Fiskes Guovdosárggis
@@ -2185,9 +2343,9 @@ merchant_level:
   '5': Measttir
 villager_profession:
   none: Gillilaš
-  armorer: Suodjejeaddji
+  armorer: Suodjalusdahkki
   butcher: Njuovvi
-  cartographer: Kárttadahkki
+  cartographer: Kártadahkki
   cleric: Vuošši
   farmer: Boanda
   fisherman: Guollebivdi
@@ -2199,7 +2357,3 @@ villager_profession:
   shepherd: Guođoheaddji
   toolsmith: Reaidoduojar
   weaponsmith: Vearjoduojar
-villager_career:
-  farmer: Boanda
-  fisherman: Guollebivdi
-  librarian: Girjerájusbargi

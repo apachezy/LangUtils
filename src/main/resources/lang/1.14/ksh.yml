@@ -1,33 +1,85 @@
 # ####################################################
-# Build time: 2021-03-17 16:20:00                    #
+# Build time: 2021-07-04 21:41:57                    #
 # ####################################################
 language:
   code: ksh
   name: Kölsch/Ripoarisch
   region: Rhingland
 material:
+  acacia_slab: Akazijeholzplaat
+  andesite_slab: Andesitplaat
   bamboo_sapling: Bambussteckling
+  birch_slab: Birkeholzplaat
+  brick_slab: Ziejelplaat
+  cake: Kooche
+  cave_air: Hölleluff
+  cave_spider_spawn_egg: Höllespenne-Spawn-Ei
   chicken: Rüh Hohn
   chiseled_quartz_block: Ziseleet Kwarz
   chiseled_red_sandstone: Ziseleet rude Sandstein
   chiseled_sandstone: Ziseleet Sandstein
   chiseled_stone_bricks: Ziseleet Steinziejel
   clay_ball: Tonklumpe
+  cobblestone_slab: Brochsteinplaat
   compass: Kompass
   cooked_chicken: Jebrode Hohn
+  cut_red_sandstone_slab: Jeschnigge rut Sandsteinplaat
+  cut_sandstone_slab: Jeschnigge Sandsteinplaat
+  dark_oak_slab: Schwatzeescheholzplaat
+  dark_prismarine_slab: Dunkle Prismarinplaat
+  diorite_slab: Dijoritplaat
+  end_stone_brick_slab: Endsteinziejelplaat
+  granite_slab: Jranitplaat
   husk_spawn_egg: Balch-Spawn-Ei
   jack_o_lantern: Kürbislantern
+  jungle_slab: Tropeholzplaat
+  lapis_block: Lapislazoli
+  mossy_cobblestone_slab: Bemoste Brochsteinplaat
+  mossy_stone_brick_slab: Bemoste Steinziejelplaat
+  nether_brick_slab: Netherziejelplaat
+  oak_slab: Eescheholzplaat
+  petrified_oak_slab: Versteinerte Eescheholzplaat
+  polished_andesite_slab: Poleete Andesitplaat
+  polished_diorite_slab: Poleete Dijoritplaat
+  polished_granite_slab: Poleete Jranitplaat
+  prismarine_brick_slab: Prismarinziejelplaat
+  prismarine_slab: Prismarinplaat
   pufferfish: Klotfesch
   pufferfish_bucket: Klotfeschemmer
   pufferfish_spawn_egg: Klotfesch-Spawn-Ei
+  purpur_slab: Purpurplaat
+  quartz_slab: Kwarzplaat
+  red_nether_brick_slab: Rude Netherziejelplaat
+  red_sandstone_slab: Rut Sandsteinplaat
+  sandstone_slab: Sandsteinplaat
   sea_lantern: Sielantern
   smooth_quartz: Jlatte Kwarz
+  smooth_quartz_slab: Jlatte Kwarzplaat
+  smooth_red_sandstone_slab: Jlatte rude Sandsteinplaat
+  smooth_sandstone_slab: Jlatte Sandsteinplaat
+  smooth_stone_slab: Jlatte Steinplaat
+  spruce_slab: Danneholzplaat
+  stone_brick_slab: Steinziejelplaat
+  stone_slab: Steinplaat
+  turtle_egg: Scheldkröte-Ei
+  turtle_helmet: Schildkrötepanzer
+  turtle_spawn_egg: Schildkröte-Spawn-Ei
   zombie_villager_spawn_egg: Enwonnerzombi-Spawn-Ei
 enchantment:
   knockback: Zeröckdäu
   sweeping: Schwungkkraff
+potion:
+  turtle_master: Scheldkrötedrank
+splash_potion:
+  turtle_master: Scheldkrötewerpdrank
+lingering_potion:
+  turtle_master: Blievende Scheldkrötedrank
+tipped_arrow:
+  turtle_master: Scheldkrötepiel
 entity:
   husk: Balch
   zombie_villager: Enwonnerzombi
+  cave_spider: Höllespenn
   chicken: Hohn
+  turtle: Scheldkröt
   pufferfish: Klotfesch

@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:49                    #
+# Build time: 2021-07-04 21:46:04                    #
 # ####################################################
 language:
   code: yo_ng
@@ -14,10 +14,17 @@ material:
   polished_diorite: Pólándì diorite
   andesite: Andesite
   polished_andesite: Pólándì andesite
+  deepslate: Deepslate
+  cobbled_deepslate: Awọn Deepslate Cobbled
+  polished_deepslate: Awọn awoṣe didan
+  calcite: Calcite
+  tuff: Tuff
+  dripstone_block: Ohun Amorindun
   grass_block: Dii koriko
   dirt: Aiye
   coarse_dirt: Aye lile
   podzol: Alaadun
+  rooted_dirt: Dirt fidimule
   crimson_nylium: Pupa Nylium
   warped_nylium: Nylium ti ogun
   cobblestone: Pèpéle
@@ -39,10 +46,67 @@ material:
   sand: Iyanrin
   red_sand: Iyanrin pupa
   gravel: Wẹwẹ
-  gold_ore: Ohun irin goolu
-  iron_ore: Iron Ẹsọ́
   coal_ore: Erogba irin
+  deepslate_coal_ore: Deepslate Oédú Ore
+  iron_ore: Iron Ẹsọ́ 
+  deepslate_iron_ore: Deepslate Irin irin
+  copper_ore: Ejò Ejò
+  deepslate_copper_ore: Deepslate Ejò Ore
+  gold_ore: Ohun irin goolu
+  deepslate_gold_ore: Jinna ohun èlò wúrà
+  redstone_ore: Redstone irin
+  deepslate_redstone_ore: Deepslate Redstone Ore
+  emerald_ore: Emerald Ore
+  deepslate_emerald_ore: Deepslate Emerald Ore
+  lapis_ore: Lapis Lazuli Ẹsọ́
+  deepslate_lapis_ore: Deepslate Lapis Lazuli Ore
+  diamond_ore: Okuta Ẹsọ́
+  deepslate_diamond_ore: Deepslate Diamond irin
   nether_gold_ore: Nether Ore Gold
+  nether_quartz_ore: Nether Quatz Ore
+  ancient_debris: Ibajẹ atijọ
+  coal_block: Àkọsílẹ edu
+  raw_iron_block: Àkọsílẹ ti Raw Iron
+  raw_copper_block: Àkọsílẹ ti Raw Ejò
+  raw_gold_block: Àkọsílẹ ti Raw Raw
+  amethyst_block: Àkọsílẹ ti Amethyst
+  budding_amethyst: Budding Amethyst
+  iron_block: Iwọn Iron
+  copper_block: Àkọsílẹ ti Ejò
+  gold_block: Iwọn Goolu
+  diamond_block: Àkọsílẹ okuta
+  netherite_block: Dẹkun Netherite
+  exposed_copper: Ejò Ti A Fi Han
+  weathered_copper: Ejò Oju Ojo
+  oxidized_copper: Ejò Oniduro
+  cut_copper: Ge Ejò
+  exposed_cut_copper: Ifihan Ge Ejò
+  weathered_cut_copper: Oju Ojo Ge Ejò
+  oxidized_cut_copper: Oxidized Ge Ejò
+  cut_copper_stairs: Ge Ejò pẹtẹẹsì
+  exposed_cut_copper_stairs: Ṣe afihan awọn pẹtẹẹsì idẹ
+  weathered_cut_copper_stairs: Weathered Ge Ejò pẹtẹẹsì
+  oxidized_cut_copper_stairs: Oxidized Ge Ejò pẹtẹẹsì
+  cut_copper_slab: Ge pẹlẹbẹ irin
+  exposed_cut_copper_slab: Ifihan Ge Ejò Slab
+  weathered_cut_copper_slab: Weathered Ge Ejò Slab
+  oxidized_cut_copper_slab: Oxidized Ge Ejò Slab
+  waxed_copper_block: Epo-Epo ti Ejò
+  waxed_exposed_copper: Ejò Ti A Fi Han
+  waxed_weathered_copper: Ejò oju-ojo ti a fi epo-eti ṣe
+  waxed_oxidized_copper: Ejò Oxidized Waxed
+  waxed_cut_copper: Ejò Ge Ejò
+  waxed_exposed_cut_copper: Waxed Exposed Cut Copper
+  waxed_weathered_cut_copper: Waxed Weathered Ge Ejò
+  waxed_oxidized_cut_copper: Waxed Oxidized Ge Ejò
+  waxed_cut_copper_stairs: Waxed Ge Ejò pẹtẹẹsì
+  waxed_exposed_cut_copper_stairs: Waxed fara han Ejò pẹtẹẹsì
+  waxed_weathered_cut_copper_stairs: Waxed Weathered Ge Ejò pẹtẹẹsì
+  waxed_oxidized_cut_copper_stairs: Waxed Oxidized Ge Ejò pẹtẹẹsì
+  waxed_cut_copper_slab: Waxed Ge Ejò slab
+  waxed_exposed_cut_copper_slab: Waxed Fifi Ge Ejò Slab
+  waxed_weathered_cut_copper_slab: Waxed Weathered Ge Ejò Slab
+  waxed_oxidized_cut_copper_slab: Waxed Oxidized Ge Ejò Slab
   oak_log: Oka Wọle
   spruce_log: Spruce wọle
   birch_log: Birch Wọle
@@ -81,26 +145,23 @@ material:
   jungle_leaves: Jungle bunkun
   acacia_leaves: Acacia bunkun
   dark_oak_leaves: Oaku dudu bunkun
+  azalea_leaves: Awọn ewe Azalea
   sponge: Kanrinkan
   wet_sponge: Tutu kanrinkan
   glass: Gilasi
-  lapis_ore: Lapis Lazuli Ẹsọ́
-  lapis_block: Lapis Lazuli Àkọsílẹ
-  dispenser: Atokan
+  tinted_glass: Gilasi Tinted
+  lapis_block: Àkọsílẹ ti Lapis Lazuli
   sandstone: Iyanrinokuta
   chiseled_sandstone: Gbe Iyanrinokuta
   cut_sandstone: Ge Gusu
-  note_block: Àkọsílẹ dun
-  powered_rail: Agbara iṣinipopada
-  detector_rail: Iṣinipopada pẹlu sensọ
-  sticky_piston: Piston alalepo
   cobweb: Ibuwọlu
   grass: Koriko
   fern: Ewedò wẹ̀wẹ̀
+  azalea: Azalea
+  flowering_azalea: Aladodo Azalea
   dead_bush: Igi ti o gbẹ
   seagrass: Seagrass
   sea_pickle: Pupa Pickle
-  piston: Piston
   white_wool: Funfun kìki irun
   orange_wool: Osan kìki irun
   magenta_wool: Crimson kìki irun
@@ -130,6 +191,7 @@ material:
   cornflower: Oka
   lily_of_the_valley: Lily ti afonifoji
   wither_rose: Wither Soke
+  spore_blossom: Spore Iruwe
   brown_mushroom: Brown Olu
   red_mushroom: Olu pupa
   crimson_fungus: Crimson Fungus
@@ -141,9 +203,12 @@ material:
   twisting_vines: Fọn igi àjara
   sugar_cane: Ohun ọgbin
   kelp: Kelp
+  moss_carpet: Moss Kapeti
+  moss_block: Iboju Moss
+  hanging_roots: Awọn gbongbo Adiye
+  big_dripleaf: Big Dripleaf
+  small_dripleaf: Ewe Kekere Sisun
   bamboo: Oparun
-  gold_block: Iwọn Goolu
-  iron_block: Iwọn Iron
   oak_slab: Oaku awo
   spruce_slab: Egungun Spruce
   birch_slab: Birch awo
@@ -173,7 +238,6 @@ material:
   smooth_sandstone: Dudu gusu
   smooth_stone: Dudu Okuta
   bricks: Biriki
-  tnt: Ìmúdàgba
   bookshelf: Iwe oju
   mossy_cobblestone: A apẹrẹ paati
   obsidian: Ojuju
@@ -187,27 +251,11 @@ material:
   spawner: Ti o dara
   oak_stairs: Pẹtẹẹsì oke
   chest: Àyà
-  diamond_ore: Okuta Ẹsọ́
-  diamond_block: Àkọsílẹ okuta
   crafting_table: Ipele iṣẹ
   farmland: Aaye ti a gbin
   furnace: Beki
   ladder: Akaba
-  rail: Iṣinipopada
   cobblestone_stairs: Pèpéle atẹgun
-  lever: Lefa
-  stone_pressure_plate: Okuta atilẹyin Itoju
-  oak_pressure_plate: Atilẹyin Itoju Oaku
-  spruce_pressure_plate: Iwọn Spruce Ipaju
-  birch_pressure_plate: Birch Ipa titẹ
-  jungle_pressure_plate: Ikọju Igi Ilu
-  acacia_pressure_plate: Acacia Ipaju awo
-  dark_oak_pressure_plate: Dudu Oaku Ipaba
-  crimson_pressure_plate: Plateson Ipa Plate
-  warped_pressure_plate: Plateau Ipa Ipa
-  polished_blackstone_pressure_plate: Awo didan Stone Ipa
-  redstone_ore: Redstone irin
-  redstone_torch: Redstone ògùṣọ
   snow: Egbon
   ice: Yinyin
   snow_block: Isinmi apẹrẹ
@@ -224,32 +272,31 @@ material:
   warped_fence: Ogun ti Odi
   pumpkin: Elegede
   carved_pumpkin: Ti gbe elegede
+  jack_o_lantern: Jack o'Lantern
   netherrack: Netherrack
   soul_sand: Iyanrin ti ọkàn
   soul_soil: Ọkàn
   basalt: Basalt
   polished_basalt: Basalt didan
+  smooth_basalt: Dan Basalt
   soul_torch: Ọkàn Torch
   glowstone: Imọlẹ okuta
-  jack_o_lantern: Jack o'Lantern
-  oak_trapdoor: Oak oṣuwọn
-  spruce_trapdoor: Spruce Oṣuwọn
-  birch_trapdoor: Birch niye
-  jungle_trapdoor: Jungle niyeon
-  acacia_trapdoor: Acacia niye
-  dark_oak_trapdoor: Oṣuwọn ti oṣu dudu
-  crimson_trapdoor: Crimson Trapdoor
-  warped_trapdoor: Trapdoor ti Ogun
   infested_stone: Okuta ti a da
   infested_cobblestone: Ti fi kún pèpéle
   infested_stone_bricks: Biriki okuta ti a ti fi ẹ si
   infested_mossy_stone_bricks: Biriki ti a fi okuta pa ti a da
   infested_cracked_stone_bricks: Biriki okuta ti a ti fi okuta ṣubu
   infested_chiseled_stone_bricks: Biriki okuta ti a fi oju ṣe
+  infested_deepslate: Awọn ẹlẹsẹ ti o ni ipalara
   stone_bricks: Okuta biriki
   mossy_stone_bricks: A apẹrẹ okuta biriki
   cracked_stone_bricks: Bricks Stone Bricks
   chiseled_stone_bricks: Awọn Bricks Odi Bọtini
+  deepslate_bricks: Deepslate Awọn biriki
+  cracked_deepslate_bricks: Awọn biriki Ti a fọ
+  deepslate_tiles: Awọn alẹmọ Deepslate
+  cracked_deepslate_tiles: Awọn Tiles Deepslate Ti Fọ
+  chiseled_deepslate: Cobbled Deepslate Odi
   brown_mushroom_block: Ilana mycelium
   red_mushroom_block: Iwe-iṣiro pupa mycelium
   mushroom_stem: Egbin je
@@ -258,14 +305,7 @@ material:
   glass_pane: Gilasi
   melon: Melon
   vine: Ajara
-  oak_fence_gate: Oaku Ẹnubodè Pada
-  spruce_fence_gate: Spruce Ẹnubodè Pada
-  birch_fence_gate: Birch Ẹnubodè Pada
-  jungle_fence_gate: Jungle Ẹnubodè Pada
-  acacia_fence_gate: Acacia Ẹnubodè Pada
-  dark_oak_fence_gate: Dudu oaku Ẹnubodè Pada
-  crimson_fence_gate: Crimson Fence Gate
-  warped_fence_gate: Ẹnu ọ̀nà Fence
+  glow_lichen: Glow Lichen
   brick_stairs: Brick Okuta
   stone_brick_stairs: Okuta Brick Awọn atẹsẹ
   mycelium: Mycelium
@@ -280,11 +320,8 @@ material:
   end_stone: Opin Okuta
   end_stone_bricks: Ipari Awọn biriki Stone
   dragon_egg: Dragon Ẹyin
-  redstone_lamp: Redstone Atupa
   sandstone_stairs: Iyanrinokuta atẹgun
-  emerald_ore: Emerald Ore
   ender_chest: Ender Ọpa
-  tripwire_hook: Tripwire ifikọti
   emerald_block: Àkọsílẹ Ti Emerald
   spruce_stairs: Gbe atẹgun spruce
   birch_stairs: Birch atẹgun
@@ -310,33 +347,18 @@ material:
   blackstone_wall: Dudu odi dudu
   polished_blackstone_wall: Odi Okuta Odi dudu
   polished_blackstone_brick_wall: Odi Okuta biriki dudu
-  stone_button: Bọtini okuta
-  oak_button: Bọtini Oaku
-  spruce_button: Bọtini Spruce
-  birch_button: Bọtini Birch
-  jungle_button: Bọtini Jungle
-  acacia_button: Bọtini Acacia
-  dark_oak_button: Bọtini lati oaku dudu
-  crimson_button: Bọtini Crimson
-  warped_button: Bọtini Ogun
-  polished_blackstone_button: Bọtini Okuta Okuta dudu
+  cobbled_deepslate_wall: Cobbled Deepslate Odi
+  polished_deepslate_wall: Didan Deepslate Odi
+  deepslate_brick_wall: Deepslate biriki Odi
+  deepslate_tile_wall: Deepslate Tile Odi
   anvil: Anvil
   chipped_anvil: Bọtini ti a ti bajẹ pupọ
   damaged_anvil: Ago ti a ti bajẹ
-  trapped_chest: Àyà pakute
-  light_weighted_pressure_plate: Iwọn Pilasi Oye
-  heavy_weighted_pressure_plate: Iwọn ipilẹ ti o ni irọra pípẹ
-  daylight_detector: Oluwari Oju-ọjọ
-  redstone_block: Àkọsílẹ Ti Redstone
-  nether_quartz_ore: Nether Quatz Ore
-  hopper: Hopper
   chiseled_quartz_block: Chiseled Quatz Block
   quartz_block: Block Of Quartz
   quartz_bricks: Awọn biriki Quartz
   quartz_pillar: Ẹrọ Quartz
   quartz_stairs: Quartet Awọn atẹgun
-  activator_rail: Ibere iṣinipopada
-  dropper: Ọgbẹ
   white_terracotta: Funfun teracota
   orange_terracotta: Osan terakota
   magenta_terracotta: Crimson terakota
@@ -354,7 +376,7 @@ material:
   red_terracotta: Pupa terakota
   black_terracotta: Dudu terakota
   barrier: Idankan
-  iron_trapdoor: Gbigbọn irín
+  light: Imọlẹ
   hay_block: Igi ti koriko
   white_carpet: Funfun capeti
   orange_carpet: Osan carpeti
@@ -373,12 +395,10 @@ material:
   red_carpet: Pupa carpeti
   black_carpet: Dudu carpeti
   terracotta: Terakota
-  coal_block: Àkọsílẹ edu
   packed_ice: Iwapọ yinyin
   acacia_stairs: Acacia atẹgun
   dark_oak_stairs: Pẹtẹẹsì oaku dudu
-  slime_block: Iwọn Ilana Slime
-  grass_path: Ọna koriko
+  dirt_path: Dọti Ona
   sunflower: Oorun-ododo
   lilac: Lai
   rose_bush: Abo igbo
@@ -436,7 +456,6 @@ material:
   red_nether_bricks: Biriki Nether pupa
   bone_block: Bọnkun Dena
   structure_void: Ko si be
-  observer: Oluwoye
   shulker_box: Apoti Shulker
   white_shulker_box: Apoti Shulker Funfun
   orange_shulker_box: Apoti Shulker Orange
@@ -549,6 +568,10 @@ material:
   red_nether_brick_stairs: Nether Brick Stairs
   polished_andesite_stairs: Atẹgun Andesite ti a da didan
   diorite_stairs: Diorite pẹtẹẹsì
+  cobbled_deepslate_stairs: Cobbled Deepslate pẹtẹẹsì
+  polished_deepslate_stairs: Awọn pẹtẹẹsẹ Deeplate didan
+  deepslate_brick_stairs: Deepslate biriki pẹtẹẹsì
+  deepslate_tile_stairs: Deepslate Tile pẹtẹẹsì
   polished_granite_slab: Awọn Ẹlẹdẹ Granite Slab
   smooth_red_sandstone_slab: Awọn Ọgbọn Ikun Iyanrin pupa
   mossy_stone_brick_slab: A apẹrẹ okuta biriki
@@ -562,7 +585,57 @@ material:
   red_nether_brick_slab: Red Nether Brick Slab
   polished_andesite_slab: Agbara Andesite ti a gbin
   diorite_slab: Diorite Slab
+  cobbled_deepslate_slab: Cobbled Deepslate Slab
+  polished_deepslate_slab: Didan Deepslate Slab
+  deepslate_brick_slab: Deepslate Brick Slab
+  deepslate_tile_slab: Deepslate Tile Slab
   scaffolding: Scaffolding
+  redstone: Redstone lulú
+  redstone_torch: Redstone ògùṣọ
+  redstone_block: Àkọsílẹ Ti Redstone
+  repeater: Atunṣe Redstone
+  comparator: Afiwera Redstone
+  piston: Piston
+  sticky_piston: Piston alalepo
+  slime_block: Iwọn Ilana Slime
+  honey_block: Dẹkun Ẹnu
+  observer: Oluwoye
+  hopper: Hopper
+  dispenser: Atokan
+  dropper: Ọgbẹ
+  lectern: Lectern
+  target: Ibi-afẹde
+  lever: Lefa
+  lightning_rod: Opa Itanna
+  daylight_detector: Oluwari Oju-ọjọ
+  sculk_sensor: Sculk Sensọ
+  tripwire_hook: Tripwire ifikọti
+  trapped_chest: Àyà pakute
+  tnt: Ìmúdàgba
+  redstone_lamp: Redstone Atupa
+  note_block: Àkọsílẹ dun
+  stone_button: Bọtini okuta
+  polished_blackstone_button: Bọtini Okuta Okuta dudu
+  oak_button: Bọtini Oaku
+  spruce_button: Bọtini Spruce
+  birch_button: Bọtini Birch
+  jungle_button: Bọtini Jungle
+  acacia_button: Bọtini Acacia
+  dark_oak_button: Bọtini lati oaku dudu
+  crimson_button: Bọtini Crimson
+  warped_button: Bọtini Ogun
+  stone_pressure_plate: Okuta atilẹyin Itoju
+  polished_blackstone_pressure_plate: Awo didan Stone Ipa
+  light_weighted_pressure_plate: Iwọn Pilasi Oye
+  heavy_weighted_pressure_plate: Iwọn ipilẹ ti o ni irọra pípẹ
+  oak_pressure_plate: Atilẹyin Itoju Oaku
+  spruce_pressure_plate: Iwọn Spruce Ipaju
+  birch_pressure_plate: Birch Ipa titẹ
+  jungle_pressure_plate: Ikọju Igi Ilu
+  acacia_pressure_plate: Acacia Ipaju awo
+  dark_oak_pressure_plate: Dudu Oaku Ipaba
+  crimson_pressure_plate: Plateson Ipa Plate
+  warped_pressure_plate: Plateau Ipa Ipa
   iron_door: Iron enu
   oak_door: Oaku enu
   spruce_door: Spruce enu
@@ -572,8 +645,42 @@ material:
   dark_oak_door: Oaku dudu enu
   crimson_door: Crimson ilekun
   warped_door: Ilekun Warped
-  repeater: Atunṣe Redstone
-  comparator: Afiwera Redstone
+  iron_trapdoor: Gbigbọn irín
+  oak_trapdoor: Oak oṣuwọn
+  spruce_trapdoor: Spruce Oṣuwọn
+  birch_trapdoor: Birch niye
+  jungle_trapdoor: Jungle niyeon
+  acacia_trapdoor: Acacia niye
+  dark_oak_trapdoor: Oṣuwọn ti oṣu dudu
+  crimson_trapdoor: Crimson Trapdoor
+  warped_trapdoor: Trapdoor ti Ogun
+  oak_fence_gate: Oaku Ẹnubodè Pada
+  spruce_fence_gate: Spruce Ẹnubodè Pada
+  birch_fence_gate: Birch Ẹnubodè Pada
+  jungle_fence_gate: Jungle Ẹnubodè Pada
+  acacia_fence_gate: Acacia Ẹnubodè Pada
+  dark_oak_fence_gate: Dudu oaku Ẹnubodè Pada
+  crimson_fence_gate: Crimson Fence Gate
+  warped_fence_gate: Ẹnu ọ̀nà Fence
+  powered_rail: Agbara iṣinipopada
+  detector_rail: Iṣinipopada pẹlu sensọ
+  rail: Iṣinipopada
+  activator_rail: Ibere iṣinipopada
+  saddle: Gàárì
+  minecart: Minecart
+  chest_minecart: Minecart pẹlu àya
+  furnace_minecart: Minecart pẹlu ileru
+  tnt_minecart: Minecart pẹlu TNT
+  hopper_minecart: Minecart pẹlu Hopper
+  carrot_on_a_stick: Karooti lori Ọpá kan
+  warped_fungus_on_a_stick: Ipeja Olu Olu Ipeja
+  elytra: Elytra
+  oak_boat: Okọ oju omi oaku
+  spruce_boat: Okọ oju omi spruce
+  birch_boat: Oko birch
+  jungle_boat: Okọ oju omi igbo
+  acacia_boat: Okọ akasia
+  dark_oak_boat: Okọ oju omi oaku dudu
   structure_block: Dẹkun igbekale
   jigsaw: Jigsaw Àkọsílẹ
   turtle_helmet: Ipele ijapa
@@ -585,7 +692,15 @@ material:
   coal: Alóró
   charcoal: Eedu
   diamond: Alumọni
+  emerald: Emerald
+  lapis_lazuli: Lapis Lazuli
+  quartz: Nether Quartz
+  amethyst_shard: Amethyst Shard
+  raw_iron: Aise Aise
   iron_ingot: Iron Ingot
+  raw_copper: Ejò Aise
+  copper_ingot: Ejò Ingot
+  raw_gold: Raw Gold
   gold_ingot: Goolu Ingot
   netherite_ingot: Netherite Ingot
   netherite_scrap: Alokuirin Netherite
@@ -669,29 +784,27 @@ material:
   bucket: Garawa
   water_bucket: Garawa Omi
   lava_bucket: Lava Garawa
-  minecart: Minecart
-  saddle: Gàárì
-  redstone: Redstone lulú
+  powder_snow_bucket: Powder Egbon Garawa
   snowball: Bọọlu afẹsẹgba
-  oak_boat: Okọ oju omi oaku
   leather: Awọ
   milk_bucket: Wara garawa
   pufferfish_bucket: Garawa pẹlu fifaju
   salmon_bucket: Akara pẹlu iru ẹja nla kan
   cod_bucket: Garawa pẹlu cod
   tropical_fish_bucket: Ogo kan pẹlu ẹja ti oorun
+  axolotl_bucket: Garawa ti Axolotl
   brick: Okuta
   clay_ball: Odidi amọ
   dried_kelp_block: Ti gbin Kelp Block
   paper: Iwe
   book: Iwe
   slime_ball: Slimeball
-  chest_minecart: Minecart pẹlu àya
-  furnace_minecart: Minecart pẹlu ileru
   egg: Ẹyin
   compass: Kọmpasi
+  bundle: Apapo
   fishing_rod: Igi ipẹja
   clock: Aago
+  spyglass: Spyglass
   glowstone_dust: Ekuru Glowstone
   cod: Iwọn Ipele
   salmon: Salmoni Aise
@@ -700,8 +813,8 @@ material:
   cooked_cod: Ṣunna ẹja kan
   cooked_salmon: Salmoni ti a jinna
   ink_sac: Inki Sac
+  glow_ink_sac: Alábá Inki Sac
   cocoa_beans: Koko Ewa
-  lapis_lazuli: Lapis Lazuli
   white_dye: Funfun dai
   orange_dye: Oyinbo Osan
   magenta_dye: Magenta dai
@@ -765,6 +878,7 @@ material:
   cauldron: Ikoko
   ender_eye: Oju ti Ender
   glistering_melon_slice: Giṣẹ Melon Ibẹbẹ
+  axolotl_spawn_egg: Axolotl Spawn Ẹyin
   bat_spawn_egg: Ẹyin pe pipe
   bee_spawn_egg: Ẹyin Bee Spawn
   blaze_spawn_egg: Ẹyin pe kan ina
@@ -783,6 +897,8 @@ material:
   evoker_spawn_egg: Ẹyin ti o pe olupe naa
   fox_spawn_egg: Fox ṣiṣe
   ghast_spawn_egg: Ẹyin pe Ghast
+  glow_squid_spawn_egg: Alábá Squid Spawn Ẹyin
+  goat_spawn_egg: Ewure Spawn Egg
   guardian_spawn_egg: Ẹyin pe olutọju
   hoglin_spawn_egg: Ẹyin Hoglin Summon
   horse_spawn_egg: Ẹyin pe ẹṣin
@@ -833,8 +949,8 @@ material:
   fire_charge: Ina Idiyele
   writable_book: Iwe ati ki o Quill
   written_book: Iwe ti a Kọ
-  emerald: Emerald
   item_frame: Fireemu Ohunkan
+  glow_item_frame: Fireemu Ohun Ina
   flower_pot: Ikoko Adodo
   carrot: Karọọti
   potato: Ọdunkun
@@ -848,17 +964,12 @@ material:
   zombie_head: Zombie ori
   creeper_head: Creeper Orí
   dragon_head: Dragoni Orí
-  carrot_on_a_stick: Karooti lori Ọpá kan
-  warped_fungus_on_a_stick: Ipeja Olu Olu Ipeja
   nether_star: Nether Irawọ
   pumpkin_pie: Elegede Paii
   firework_rocket: Ise ina Rocket
   firework_star: Ise ina Irawo
   enchanted_book: Iwe Enchanted
   nether_brick: Nether Brick
-  quartz: Nether Quartz
-  tnt_minecart: Minecart pẹlu TNT
-  hopper_minecart: Minecart pẹlu Hopper
   prismarine_shard: Prismarine Shard
   prismarine_crystals: Awọn kirisita Prismarine
   rabbit: Ehoro aise
@@ -904,12 +1015,6 @@ material:
   tipped_arrow: Arrow olorun
   lingering_potion: Pẹ Ogun
   shield: Apata
-  elytra: Elytra
-  spruce_boat: Okọ oju omi spruce
-  birch_boat: Oko birch
-  jungle_boat: Okọ oju omi igbo
-  acacia_boat: Okọ akasia
-  dark_oak_boat: Okọ oju omi oaku dudu
   totem_of_undying: Totem ti Iku
   shulker_shell: Ikarahun Shulker
   iron_nugget: Irin Nugget
@@ -948,13 +1053,13 @@ material:
   cartography_table: Atilẹyin Awọn aworan
   fletching_table: Fletching Table
   grindstone: Oṣuwọn eefun
-  lectern: Lectern
   smithing_table: Titiipa Smithing
   stonecutter: Ṣiṣẹ Stone
   bell: Belii
   lantern: Atupa
   soul_lantern: Okun Okun
   sweet_berries: Sweet eso
+  glow_berries: Alábá Berries
   campfire: Agbona mejo
   soul_campfire: Nipa ina ti ẹmi
   shroomlight: Itankalẹ yara
@@ -962,12 +1067,8 @@ material:
   bee_nest: Bee itẹ-ẹiyẹ
   beehive: Bee
   honey_bottle: Igo Ipara
-  honey_block: Dẹkun Ẹnu
   honeycomb_block: Dina ohun amorindun
   lodestone: Oofa
-  netherite_block: Dẹkun Netherite
-  ancient_debris: Ibajẹ atijọ
-  target: Ibi-afẹde
   crying_obsidian: Wiko obsidian
   blackstone: Okuta dudu
   blackstone_slab: Apẹrẹ gusu
@@ -982,6 +1083,28 @@ material:
   polished_blackstone_brick_stairs: Dudu okuta didan biriki
   cracked_polished_blackstone_bricks: Biriki okuta didan dudu pẹlu awọn dojuijako
   respawn_anchor: Olupin respawn
+  candle: Abẹla
+  white_candle: Funfun Abẹla
+  orange_candle: Ọsan Abẹla
+  magenta_candle: Magenta Abẹla
+  light_blue_candle: Bulu Didan Abẹla
+  yellow_candle: Ofeefee Abẹla
+  lime_candle: Orombo Wewe Abẹla
+  pink_candle: Pink Abẹla
+  gray_candle: Grẹy Abẹla
+  light_gray_candle: Bulu ina Abẹla
+  cyan_candle: Alawọ Ewe Bulu Abẹla
+  purple_candle: Eleyi ti Abẹla
+  blue_candle: Bulu Abẹla
+  brown_candle: Burawun Abẹla
+  green_candle: Alawọ ewe Abẹla
+  red_candle: Pupa Abẹla
+  black_candle: Dudu Abẹla
+  small_amethyst_bud: Bud Amethyst Egbon
+  medium_amethyst_bud: Alabọde Amethyst Egbọn
+  large_amethyst_bud: Amethyst Egbon Nla
+  amethyst_cluster: Iṣupọ Amethyst
+  pointed_dripstone: Spiky drip
   water: Omi
   lava: Lava
   tall_seagrass: Ga Seagrass
@@ -1004,6 +1127,9 @@ material:
   attached_melon_stem: Sọ Melon Stem
   pumpkin_stem: Elegede tita
   melon_stem: Melon Tita
+  water_cauldron: Igbomikana omi
+  lava_cauldron: Igbomikana omi
+  powder_snow_cauldron: Lulú Egbon Cauldron
   end_portal: Ender Albúté
   cocoa: Koko
   tripwire: Irin-ajo
@@ -1083,6 +1209,12 @@ material:
   potted_warped_fungus: Potted Warung Fungus
   potted_crimson_roots: Gbongbo Pupa ni Ikoko
   potted_warped_roots: Awọn gbongbo ti a fọ
+  candle_cake: Abẹla Akara Oyinbo
+  powder_snow: Powder Snow
+  cave_vines: Iho Ajara
+  cave_vines_plant: Iho Ajara Plant
+  big_dripleaf_stem: Big Dripleaf Stem
+  grass_path: Ọna koriko
   zombie_pigman_spawn_egg: Ẹyin pipe kan Zombie ẹlẹdẹ
   sign: Tabulẹti
   wall_sign: Ifihan odi
@@ -1095,45 +1227,47 @@ biome:
   crimson_forest: Igbo Crimson
   warped_forest: Igbo Igbin
   basalt_deltas: Basalt Deltas
+  dripstone_caves: Awọn iho Dripstone
+  lush_caves: Awọn iho ọti
 enchantment:
-  fire_protection: Idaabobo Ina
-  sharpness: Didasilẹ
-  flame: Ina
-  soul_speed: Ọkàn iyara
-  aqua_affinity: Omi Ijora
-  punch: Punch
-  loyalty: Iṣootọ
-  depth_strider: Ijinle Strider
-  vanishing_curse: Egún ti Ṣegbé
-  unbreaking: Kikan
-  knockback: Ẹkunkun
-  luck_of_the_sea: Orire ti Okun
-  binding_curse: Egún ti Abuda
-  fortune: Fortune
   protection: Idaabobo
-  efficiency: Ṣiṣe
-  mending: Fifiranṣẹ
-  frost_walker: Yinyin Alarinkiri
-  lure: Lure
-  looting: Ikogun
-  piercing: Lilu
-  blast_protection: Aruwo Idaabobo
-  smite: Lu
-  multishot: Multishot
-  fire_aspect: Ina Aye
-  channeling: Palsy
-  sweeping: Gbigba Eti
-  thorns: Ẹgún
-  bane_of_arthropods: Bane ti Arthropods
-  respiration: Isinmi
-  riptide: Torpedo
-  silk_touch: Ifọwọkan Siliki
-  quick_charge: Iyara Idiyele
-  projectile_protection: Idaabobo Projectile
-  impaling: Puncture
+  fire_protection: Idaabobo Ina
   feather_falling: Iyẹ Silẹ Iye
+  blast_protection: Aruwo Idaabobo
+  projectile_protection: Idaabobo Projectile
+  respiration: Isinmi
+  aqua_affinity: Omi Ijora
+  thorns: Ẹgún
+  depth_strider: Ijinle Strider
+  frost_walker: Yinyin Alarinkiri
+  binding_curse: Egún ti Abuda
+  sharpness: Didasilẹ
+  smite: Lu
+  bane_of_arthropods: Bane ti Arthropods
+  knockback: Ẹkunkun
+  fire_aspect: Ina Aye
+  looting: Ikogun
+  sweeping: Gbigba Eti
+  efficiency: Ṣiṣe
+  silk_touch: Ifọwọkan Siliki
+  unbreaking: Kikan
+  fortune: Fortune
   power: Agbara
+  punch: Punch
+  flame: Ina
   infinity: Ailopin
+  luck_of_the_sea: Orire ti Okun
+  lure: Lure
+  loyalty: Iṣootọ
+  impaling: Puncture
+  riptide: Torpedo
+  channeling: Palsy
+  multishot: Multishot
+  quick_charge: Iyara Idiyele
+  piercing: Lilu
+  mending: Fifiranṣẹ
+  vanishing_curse: Egún ti Ṣegbé
+  soul_speed: Ọkàn iyara
 potion:
   uncraftable: Ikoko Ti ko ṣee gbe
   water: Igo Omi
@@ -1328,6 +1462,11 @@ entity:
   strider: Strider
   zoglin: Zoglin
   piglin_brute: Iyatọ Piglin
+  axolotl: Axolotl
+  glow_item_frame: Fireemu Ohun Ina
+  glow_squid: Alábá Squid
+  goat: Ewúrẹ
+  marker: Oluṣami
   fishing_hook: Leefofo
   lightning: Monomono
   player: Orin
@@ -1406,6 +1545,10 @@ tropical_fish_name:
   '67699456': Yellowtail Parrotfish
   '67371009': Ofeefee Tang
 colored_shied:
+  white: Aṣọ funfun
+  orange: Apata Osan
+  magenta: Shienta Magenta
+  light_blue: Awọ Blue Shield
   yellow: Shield Shield
   lime: Apamọwọ Orombo wewe
   pink: Awọ Pink
@@ -1419,13 +1562,54 @@ colored_shied:
   red: Aabo Pupa
   black: Aṣọ Dudu
 banner_pattern:
+  '65536': White Base Dexter Canton
+  '65537': Osan Mimọ Dexter Canton
+  '65538': Magenta Mimọ Dexter Canton
+  '65539': Imọlẹ Blue Base Dexter Canton
+  '65540': Yellow Mimọ Dexter Canton
+  '65541': Orombo Mimọ Dexter Canton
+  '65542': Pink Mimọ Dexter Canton
+  '65543': Grey Mimọ Dexter Canton
+  '65544': Light Gray Mimọ Dexter Canton
+  '65545': Cyan Mimọ Dexter Canton
   '65546': Purple Chief Sinister Canton
   '65547': Blue Chief Sinister Canton
   '65548': Brown Chief Sinister Canton
   '65549': Green Chief Sinister Canton
   '65550': Red Chief Sinister Canton
+  '65551': Black Mimọ Dexter Canton
+  '131072': White Base Sinister Canton
+  '131073': Osan Mimọ Sinister Canton
+  '131074': Magenta Mimọ Sinister Canton
+  '131075': Imọlẹ Blue Base Sinister Canton
+  '131076': Yellow Mimọ Sinister Canton
+  '131077': Orombo Mimọ Sinister Canton
+  '131078': Pink Mimọ Sinister Canton
+  '131079': Gray Mimọ Sinister Canton
+  '131080': Light Gray Mimọ Sinister Canton
+  '131081': Cyan Mimọ Sinister Canton
+  '131082': Eleyi ti Base Sinister Canton
+  '131083': Blue Base Sinister Canton
+  '131084': Brown Mimọ Sinister Canton
+  '131085': Green Mimọ Sinister Canton
+  '131086': Red Base Sinister Canton
+  '131087': Black Mimọ Sinister Canton
   '196608': White Chief Dexter Canton
   '196609': Olomi Oloye Dexter Canton
+  '196610': Magenta Chief Dexter Canton
+  '196611': Imọlẹ Blue Chief Dexter Canton
+  '196612': Yellow Chief Dexter Canton
+  '196613': Orombo Olori Dexter Canton
+  '196614': Pink Chief Dexter Canton
+  '196615': Grey Chief Dexter Canton
+  '196616': Olori Grey Chief Dexter Canton
+  '196617': Cyan Chief Dexter Canton
+  '196618': Eleyi ti Chief Dexter Canton
+  '196619': Blue Chief Dexter Canton
+  '196620': Brown Chief Dexter Canton
+  '196621': Green Chief Dexter Canton
+  '196622': Red Chief Dexter Canton
+  '196623': Black Chief Dexter Canton
   '262144': White Chief Sinister Canton
   '262145': Olomi Chief Sinister Canton
   '262146': Magenta Chief Sinister Canton
@@ -1474,6 +1658,41 @@ banner_pattern:
   '393229': Olori Alawọ ewe
   '393230': Red Chief
   '393231': Olori Dudu
+  '458752': White bia Dexter
+  '458753': Dexter Osan bia
+  '458754': Magenta bia Dexter
+  '458755': Ina Dexter Bulu Onitẹlẹ
+  '458756': Dexter bia bia
+  '458757': Orombo bia Dexter
+  '458758': Pink bia Dexter
+  '458759': Grey bia Dexter
+  '458760': Ina Grey bia Dexter
+  '458761': Cyan bia Dexter
+  '458762': Dexter bia eleyi ti
+  '458763': Blue Dile Dexter
+  '458764': Brown bia Dexter
+  '458765': Green bia Dexter
+  '458766': Red bia Dexter
+  '458767': Black bia Dexter
+  '524288': White Pale Sinister
+  '524289': Osan bia Sinister
+  '524290': Magenta bia Sinister
+  '524291': Light Blue Pale Sinister
+  '524292': Yellow bia Sinister
+  '524293': Orombo bia Sinister
+  '524294': Pink bia Sinister
+  '524295': Grẹy bia ominous
+  '524296': Light Gray bia Sinister
+  '524297': Cyan bia Sinister
+  '524298': Sinister bia
+  '524299': Blue bia Sinister
+  '524300': Brown bia Sinister
+  '524301': Green bia Sinister
+  '524302': Red bia Sinister
+  '524303': Black bia Sinister
+  '589837': Imọlẹ Alawọ ewe
+  '589838': Pupa bia
+  '589839': Black Mimọ
   '655360': Funfun Fess
   '655361': Osan Osan
   '655362': Magenta Fess
@@ -1488,7 +1707,57 @@ banner_pattern:
   '655371': Blue Fess
   '655372': Brown Fess
   '655373': Awọn ọya Green
+  '720896': Funfun Tẹ
+  '720897': Tẹ Orange
+  '720898': Magenta Tẹ
+  '720899': Ina Blue Tẹ
   '720911': Black tẹ
+  '786432': Funfun Tẹ Sinister
+  '786434': Magenta Tẹ Sinister
+  '786435': Ina Blue tẹ Sinister
+  '786438': Pink tẹ Sinister
+  '786439': Grey tẹ Sinister
+  '786440': Light Gray tẹ Sinister
+  '786441': Cyan Tẹ Sinister
+  '786442': Eleyi ti tẹ Sinister
+  '786443': Blue Tẹ Sinister
+  '786444': Brown tẹ Sinister
+  '786447': Black tẹ Sinister
+  '851968': White Paly
+  '851969': Orange Paly
+  '851970': Magenta Paly
+  '851971': Imọlẹ Blue Paly
+  '851972': Yellow Ṣiṣẹ
+  '851973': Orombo Dun
+  '851975': Grey Paly
+  '851976': Imọlẹ Grey Paly
+  '917504': White Saltire
+  '917505': Ọsan Saltire
+  '917506': Magenta Saltire
+  '917507': Ina Saltire Blue
+  '917508': Saltire Yellow
+  '917509': Orombo Saltire
+  '917510': Pink Saltire
+  '917511': Imọlẹ Gray Saltire
+  '917512': Imọlẹ Grey Saltire
+  '917513': Cyan Saltire
+  '917514': Saltire eleyi ti
+  '917515': Saltire Bulu
+  '917516': Brown Saltire
+  '917517': Green Saltire
+  '917518': Red Saltire
+  '917519': Saltire Dudu
+  '1048576': White Chevron
+  '1048585': Cyan Chevron
+  '1048586': Eleyi ti Chevron
+  '1048587': Blue Chevron
+  '1048588': Brown Chevron
+  '1048589': Alawọ ewe Chevron
+  '1048590': Pupa Chevron
+  '1048591': Black Chevron
+  '1114124': Brown Inverted Chevron
+  '1114125': Green Inverted Chevron
+  '1114127': Dudu Iyipada Chevron
   '2162703': Dudu Alawodudu
   '2621440': Igba funfun
   '2621441': Igba rirun osan

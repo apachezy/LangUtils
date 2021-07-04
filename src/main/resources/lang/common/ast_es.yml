@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:46                    #
+# Build time: 2021-07-04 21:46:01                    #
 # ####################################################
 language:
   code: ast_es
@@ -14,10 +14,17 @@ material:
   polished_diorite: Diorita pulío
   andesite: Andesita
   polished_andesite: Andesita pulío
+  deepslate: Pizarra
+  cobbled_deepslate: Llastra de pizarra
+  polished_deepslate: Pizarra pulío
+  calcite: Calcita
+  tuff: Toba
+  dripstone_block: Bloque d'espeleotema
   grass_block: Tapín
   dirt: Tierra
   coarse_dirt: Tierra seco
   podzol: Llamargu
+  rooted_dirt: Tierra arraigonao
   crimson_nylium: Niliu carmesín
   warped_nylium: Niliu distorsionao
   cobblestone: Llastra
@@ -37,12 +44,52 @@ material:
   dark_oak_sapling: Biltu de carbayu escuru
   bedrock: Piedra base
   sand: Sable
-  red_sand: Sable bermeyo
+  red_sand: Sable colorao
   gravel: Grava
-  gold_ore: Veta d'oru
-  iron_ore: Veta de fierro
   coal_ore: Veta de carbón
+  deepslate_coal_ore: Veta de carbón en pizarra
+  iron_ore: Veta de fierro
+  deepslate_iron_ore: Veta de fierro en pizarra
+  copper_ore: Veta de cobre
+  deepslate_copper_ore: Veta de cobre en pizarra
+  gold_ore: Veta d'oru
+  deepslate_gold_ore: Veta d'oru en pizarra
+  redstone_ore: Veta de redstone
+  deepslate_redstone_ore: Veta de redstone en pizarra
+  emerald_ore: Veta d'esmeralda
+  deepslate_emerald_ore: Veta d'esmeralda en pizarra
+  lapis_ore: Veta de llapislázuli
+  deepslate_lapis_ore: Veta de llapislázuli en pizarra
+  diamond_ore: Veta de diamante
+  deepslate_diamond_ore: Veta de diamante en pizarra
   nether_gold_ore: Veta d'oru del Nether
+  nether_quartz_ore: Veta de cuarzu del Nether
+  ancient_debris: Escombrios antiguos
+  coal_block: Bloque de carbón
+  raw_iron_block: Bloque de fierro en bruto
+  raw_copper_block: Bloque de cobre en bruto
+  raw_gold_block: Bloque d'oru en bruto
+  iron_block: Bloque de fierro
+  copper_block: Bloque de cobre
+  gold_block: Bloque d'oru
+  diamond_block: Bloque de diamante
+  netherite_block: Bloque de netherita
+  exposed_copper: Cobre espuesto
+  weathered_copper: Cobre corroyío
+  oxidized_copper: Cobre oxidao
+  cut_copper: Cobre cortao
+  weathered_cut_copper: Cobre cortao corroyío
+  oxidized_cut_copper: Cobre cortao oxidao
+  cut_copper_stairs: Pasales de cobre cortao
+  weathered_cut_copper_stairs: Pasales de cobre cortao corroyíos
+  oxidized_cut_copper_stairs: Pasales de cobre cortao oxidaos
+  cut_copper_slab: Llábana de cobre cortao
+  weathered_cut_copper_slab: Llábana de cobre cortao corroyida
+  oxidized_cut_copper_slab: Llábana de cobre cortao oxidada
+  waxed_copper_block: Bloque de cobre enceráu
+  waxed_cut_copper: Cobre cortao encerao
+  waxed_cut_copper_stairs: Pasales de cobre cortao enceraos
+  waxed_cut_copper_slab: Llábana de cobre cortao encerada
   oak_log: Tueru de carbayu
   spruce_log: Tueru d'abetu
   birch_log: Tueru de bidul
@@ -77,26 +124,24 @@ material:
   jungle_leaves: Fueyes de la xungla
   acacia_leaves: Fueyes d'alcacia
   dark_oak_leaves: Fueyes de carbayu escuru
+  azalea_leaves: Fueyes de rododendru
+  flowering_azalea_leaves: Fueyes de rododentru florecío
   sponge: Esponxa
   wet_sponge: Esponxa moyada
   glass: Vidru
-  lapis_ore: Veta de llapislázuli
+  tinted_glass: Vidru tiñío
   lapis_block: Bloque de llapislázuli
-  dispenser: Llanzador
   sandstone: Gres
   chiseled_sandstone: Gres cincelao
   cut_sandstone: Gres cortao
-  note_block: Bloque de notes
-  powered_rail: Vía puxadora
-  detector_rail: Vía detectora
-  sticky_piston: Pistón pegañón
   cobweb: Telaraña
   grass: Yerba
   fern: Felechu
+  azalea: Rododendru
+  flowering_azalea: Rododendru florecío
   dead_bush: Plantu muertu
   seagrass: Ocle marino
   sea_pickle: Pirosoma
-  piston: Pistón
   white_wool: Llana blanco
   orange_wool: Llana naranxa
   magenta_wool: Llana maxenta
@@ -111,33 +156,34 @@ material:
   blue_wool: Llana azul
   brown_wool: Llana marrón
   green_wool: Llana verde
-  red_wool: Llana bermeyo
+  red_wool: Llana colorao
   black_wool: Llana prieto
   dandelion: Xiblata
   poppy: Papola
   blue_orchid: Orquídea azul
   allium: Ayu bravu
   azure_bluet: Houstonia caerulea
-  red_tulip: Tulipán bermeyu
+  red_tulip: Tulipán coloráu
   orange_tulip: Tulipán naranxa
   white_tulip: Tulipán blancu
   pink_tulip: Tulipán rosa
   oxeye_daisy: Catasol grande
   cornflower: Clavelina
   lily_of_the_valley: Lliriu de los valles
-  wither_rose: Rosa de wither
+  wither_rose: Rosa de Wither
   brown_mushroom: Xampiñón
   red_mushroom: Xetu roxu
   crimson_fungus: Fungu carmesín
   warped_fungus: Fungu distorsionáu
   crimson_roots: Yerba carmesín
   warped_roots: Yerba distorsionao
-  nether_sprouts: Biltu del Nether
   sugar_cane: Caña d'azucre
   kelp: Laminarial
+  moss_carpet: Moqueta de mofu
+  moss_block: Bloque de mofu
+  big_dripleaf: Plantaforma grande
+  small_dripleaf: Plantaforma pequeña
   bamboo: Bambú
-  gold_block: Bloque d'oru
-  iron_block: Bloque de fierro
   oak_slab: Llábana de carbayu
   spruce_slab: Llábana d'abetu
   birch_slab: Llábana de bidul
@@ -156,18 +202,17 @@ material:
   stone_brick_slab: Llábana de lladriyos de piedra
   nether_brick_slab: Llábana de lladriyos del Nether
   quartz_slab: Llábana de cuarzu
-  red_sandstone_slab: Llábana de gres bermeyo
-  cut_red_sandstone_slab: Llábana de gres bermeyo cortada
+  red_sandstone_slab: Llábana de gres colorao
+  cut_red_sandstone_slab: Llábana de gres colorao cortada
   purpur_slab: Llábana de purpur
   prismarine_slab: Llábana de prismarín
   prismarine_brick_slab: Llábana de lladriyos de prismarín
   dark_prismarine_slab: Llábana de prismarín escuro
   smooth_quartz: Bloque de cuarzu dondo
-  smooth_red_sandstone: Gres bermeyo dondo
+  smooth_red_sandstone: Gres colorao dondo
   smooth_sandstone: Gres dondo
   smooth_stone: Piedra donda
   bricks: Lladriyos
-  tnt: TNT
   bookshelf: Llibrería
   mossy_cobblestone: Llastra mofoso
   obsidian: Obsidiana
@@ -181,27 +226,11 @@ material:
   spawner: Aprucidor
   oak_stairs: Pasales de carbayu
   chest: Bagul
-  diamond_ore: Veta de diamante
-  diamond_block: Bloque de diamante
   crafting_table: Mesa d'ellaboración
   farmland: Eru
   furnace: Fornu
   ladder: Escalera de mano
-  rail: Vía
   cobblestone_stairs: Pasales de llastra
-  lever: Palanca
-  stone_pressure_plate: Placa presión de piedra
-  oak_pressure_plate: Placa de presión de carbayu
-  spruce_pressure_plate: Placa de presión d'abetu
-  birch_pressure_plate: Placa de presión de bidul
-  jungle_pressure_plate: Placa de presión de madera de la xungla
-  acacia_pressure_plate: Placa de presión d'alcacia
-  dark_oak_pressure_plate: Placa de presión de carbayu escuru
-  crimson_pressure_plate: Placa de presión carmesín
-  warped_pressure_plate: Placa distorsionada de presión
-  polished_blackstone_pressure_plate: Placa de presión de nigrilitu pulío
-  redstone_ore: Veta de redstone
-  redstone_torch: Antorcha de redstone
   snow: Ñeve
   ice: Xelu
   snow_block: Bloque de ñeve
@@ -218,48 +247,40 @@ material:
   warped_fence: Valla distorsionada
   pumpkin: Calabaza
   carved_pumpkin: Calabaza tallada
+  jack_o_lantern: Jack o'Lantern
   netherrack: Netherrack
   soul_sand: Sable d'ánimes
   soul_soil: Tierra d'ánimes
   basalt: Basaltu
   polished_basalt: Basaltu pulío
+  smooth_basalt: Basaltu dondo
   soul_torch: Antorcha d'ánimes
   glowstone: Piedra rellumante
-  jack_o_lantern: Jack o'Lantern
-  oak_trapdoor: Trapiella de carbayu
-  spruce_trapdoor: Trapiella d'abetu
-  birch_trapdoor: Carbayu de bidul
-  jungle_trapdoor: Trapiella de madera de la xungla
-  acacia_trapdoor: Trapiella d'alcacia
-  dark_oak_trapdoor: Trapiella de carbayu escuru
-  crimson_trapdoor: Trapiella carmesín
-  warped_trapdoor: Trapiella distorsionada
   infested_stone: Piedra infestada
   infested_cobblestone: Llastra infestao
   infested_stone_bricks: Lladriyos de piedra infestada
   infested_mossy_stone_bricks: Lladriyos de piedra mofosa infestada
   infested_cracked_stone_bricks: Lladriyos de piedra frañida infestada
   infested_chiseled_stone_bricks: Lladriyos de piedra cincelada infestada
+  infested_deepslate: Pizarra infestao
   stone_bricks: Lladriyos de piedra
   mossy_stone_bricks: Lladriyos de piedra mofosa
   cracked_stone_bricks: Lladriyos de piedra frañida
   chiseled_stone_bricks: Lladriyos de piedra cincelada
+  deepslate_bricks: Lladriyos de pizarra
+  cracked_deepslate_bricks: Lladriyos de pizarra frañaos
+  deepslate_tiles: Azulexos de pizarra
+  cracked_deepslate_tiles: Azulexos de pizarra frañaos
+  chiseled_deepslate: Pizarra cincelao
   brown_mushroom_block: Bloque de fungos marrones
   red_mushroom_block: Bloque de xetos roxos
   mushroom_stem: Tallu de fungu
   iron_bars: Barrotes de fierro
-  chain: En cadena
+  chain: Cadena
   glass_pane: Panel de vidru
   melon: Sandía
   vine: Enromadoriu
-  oak_fence_gate: Portiella de carbayu
-  spruce_fence_gate: Portiella d'abetu
-  birch_fence_gate: Portiella de bidul
-  jungle_fence_gate: Portiella de madera de la xungla
-  acacia_fence_gate: Portiella d'alcacia
-  dark_oak_fence_gate: Portiella de carbayu escuru
-  crimson_fence_gate: Portiella carmesín
-  warped_fence_gate: Portiella distorsionada
+  glow_lichen: Lique rellumante
   brick_stairs: Pasales de lladriyu
   stone_brick_stairs: Pasales de lladriyos de piedra
   mycelium: Miceliu
@@ -274,11 +295,8 @@ material:
   end_stone: Piedra del End
   end_stone_bricks: Lladriyos de piedra del End
   dragon_egg: Güevu de cuélebre
-  redstone_lamp: Llámpara de redstone
   sandstone_stairs: Pasales de gres
-  emerald_ore: Veta d'esmeralda
   ender_chest: Bagul d'Ender
-  tripwire_hook: Ganchu
   emerald_block: Bloque d'esmeralda
   spruce_stairs: Pasales d'abetu
   birch_stairs: Pasales de bidul
@@ -291,46 +309,31 @@ material:
   mossy_cobblestone_wall: Muria de llastra mofoso
   brick_wall: Muria de lladriyos
   prismarine_wall: Muria de prismarín
-  red_sandstone_wall: Muria de gres bermeyo
+  red_sandstone_wall: Muria de gres colorao
   mossy_stone_brick_wall: Muria de lladriyos de piedra mofosa
   granite_wall: Muria de granitu
   stone_brick_wall: Muria de lladriyos de piedra
   nether_brick_wall: Muria de lladriyos del Nether
   andesite_wall: Muria d'andesita
-  red_nether_brick_wall: Muria de lladriyos bermeyos del Nether
+  red_nether_brick_wall: Muria de lladriyos coloraos del Nether
   sandstone_wall: Muria de gres
   end_stone_brick_wall: Muria de lladriyos de piedra del End
   diorite_wall: Muria de diorita
   blackstone_wall: Muria de nigrilitu
   polished_blackstone_wall: Muria de nigrilitu pulío
   polished_blackstone_brick_wall: Muria de lladriyos de nigrilitu pulío
-  stone_button: Botón de piedra
-  oak_button: Botón de carbayu
-  spruce_button: Botón d'abetu
-  birch_button: Botón de bidul
-  jungle_button: Botón de madera de la xungla
-  acacia_button: Botón d'alcacia
-  dark_oak_button: Botón de carbayu escuru
-  crimson_button: Botón carmesín
-  warped_button: Botón distorsionáu
-  polished_blackstone_button: Botón de nigrilitu pulío
+  cobbled_deepslate_wall: Muria de llastra de pizarra
+  polished_deepslate_wall: Muria de pizarra pulío
+  deepslate_brick_wall: Muria de lladriyos de pizarra
+  deepslate_tile_wall: Muria d'azulexos de pizarra
   anvil: Xuncla
   chipped_anvil: Xuncla estellada
   damaged_anvil: Xuncla perdañada
-  trapped_chest: Bagul trampa
-  light_weighted_pressure_plate: Placa de presión pa pesu llixeru
-  heavy_weighted_pressure_plate: Placa de presión pa pesu pesáu
-  daylight_detector: Sensor de llume solar
-  redstone_block: Bloque de redstone
-  nether_quartz_ore: Veta de cuarzu del Nether
-  hopper: Embudu
   chiseled_quartz_block: Bloque de cuarzu cincelao
   quartz_block: Bloque de cuarzu
   quartz_bricks: Lladriyos de cuarzu
   quartz_pillar: Pilar de cuarzu
   quartz_stairs: Pasales de cuarzu
-  activator_rail: Vía activadora
-  dropper: Apurridor
   white_terracotta: Terracota blanco
   orange_terracotta: Terracota naranxa
   magenta_terracotta: Terracota maxenta
@@ -345,10 +348,10 @@ material:
   blue_terracotta: Terracota azul
   brown_terracotta: Terracota marrón
   green_terracotta: Terracota verde
-  red_terracotta: Terracota bermeyo
+  red_terracotta: Terracota colorao
   black_terracotta: Terracota prieto
   barrier: Barrera
-  iron_trapdoor: Trapiella de fierro
+  light: Lluz
   hay_block: Paca
   white_carpet: Moqueta blanca
   orange_carpet: Moqueta naranxa
@@ -364,15 +367,13 @@ material:
   blue_carpet: Moqueta azul
   brown_carpet: Moqueta marrón
   green_carpet: Moqueta verde
-  red_carpet: Moqueta bermeya
+  red_carpet: Moqueta colorada
   black_carpet: Moqueta prieta
   terracotta: Terracota
-  coal_block: Bloque de carbón
   packed_ice: Xelu compauto
   acacia_stairs: Pasales d'alcacia
   dark_oak_stairs: Pasales de carbayu escuru
-  slime_block: Bloque de llimu
-  grass_path: Sienda
+  dirt_path: Camín de tierra
   sunflower: Xirasol
   lilac: Lilá
   rose_bush: Rosal
@@ -393,7 +394,7 @@ material:
   blue_stained_glass: Vidru tintao n'azul
   brown_stained_glass: Vidru tintao en marrón
   green_stained_glass: Vidru tintao en verde
-  red_stained_glass: Vidru tintao en bermeyo
+  red_stained_glass: Vidru tintao en colorao
   black_stained_glass: Vidru tintao en prieto
   white_stained_glass_pane: Panel de vidru tintao en blanco
   orange_stained_glass_pane: Panel de vidru tintao en naranxa
@@ -409,7 +410,7 @@ material:
   blue_stained_glass_pane: Panel de vidru tintao n'azul
   brown_stained_glass_pane: Panel de vidru tintao en marrón
   green_stained_glass_pane: Panel de vidru tintao en verde
-  red_stained_glass_pane: Panel de vidru tintao en bermeyo
+  red_stained_glass_pane: Panel de vidru tintao en colorao
   black_stained_glass_pane: Panel de vidru tintao en prieto
   prismarine: Prismarín
   prismarine_bricks: Lladriyos de prismarín
@@ -418,19 +419,18 @@ material:
   prismarine_brick_stairs: Pasales de lladriyos de prismarín
   dark_prismarine_stairs: Pasales de prismarín escuro
   sea_lantern: Llámpara marina
-  red_sandstone: Gres bermeyo
-  chiseled_red_sandstone: Gres bermeyo cincelao
-  cut_red_sandstone: Gres bermeyo cortao
-  red_sandstone_stairs: Pasales de gres bermeyo
+  red_sandstone: Gres colorao
+  chiseled_red_sandstone: Gres colorao cincelao
+  cut_red_sandstone: Gres colorao cortao
+  red_sandstone_stairs: Pasales de gres colorao
   repeating_command_block: Bloque de comandos iterativu
   chain_command_block: Bloque de comandos en cadena
   magma_block: Bloque magmáticu
   nether_wart_block: Bloque d'úzara del Nether
   warped_wart_block: Bloque d'úzares distorsionaes
-  red_nether_bricks: Lladriyos del Nether bermeyos
+  red_nether_bricks: Lladriyos del Nether coloraos
   bone_block: Bloque oseu
   structure_void: Vacíu de cadarma
-  observer: Observador
   shulker_box: Caxa de shulker
   white_shulker_box: Caxa blanca de shulker
   orange_shulker_box: Caxa naranxa de shulker
@@ -446,7 +446,7 @@ material:
   blue_shulker_box: Caxa azul de shulker
   brown_shulker_box: Caxa marrón de shulker
   green_shulker_box: Caxa verde de shulker
-  red_shulker_box: Caxa bermeya de shulker
+  red_shulker_box: Caxa colorada de shulker
   black_shulker_box: Caxa prieta de shulker
   white_glazed_terracotta: Azulexu blancu
   orange_glazed_terracotta: Azulexu naranxa
@@ -462,7 +462,7 @@ material:
   blue_glazed_terracotta: Azulexu azul
   brown_glazed_terracotta: Azulexu marrón
   green_glazed_terracotta: Azulexu verde
-  red_glazed_terracotta: Azulexu bermeyu
+  red_glazed_terracotta: Azulexu coloráu
   black_glazed_terracotta: Azulexu prietu
   white_concrete: Formigón blanco
   orange_concrete: Formigón naranxa
@@ -478,7 +478,7 @@ material:
   blue_concrete: Formigón azul
   brown_concrete: Formigón marrón
   green_concrete: Formigón verde
-  red_concrete: Formigón bermeyo
+  red_concrete: Formigón colorao
   black_concrete: Formigón prieto
   white_concrete_powder: Povisa de formigón blanco
   orange_concrete_powder: Povisa de formigón naranxa
@@ -494,7 +494,7 @@ material:
   blue_concrete_powder: Povisa de formigón azul
   brown_concrete_powder: Povisa de formigón marrón
   green_concrete_powder: Povisa de formigón verde
-  red_concrete_powder: Povisa de formigón bermeyo
+  red_concrete_powder: Povisa de formigón colorao
   black_concrete_powder: Povisa de formigón prieto
   turtle_egg: Güevu de tortuga
   dead_tube_coral_block: Bloque de coral de tubos muerto
@@ -508,7 +508,7 @@ material:
   fire_coral_block: Bloque de coral de fueu
   horn_coral_block: Bloque de coral de cuernos
   tube_coral: Coral de tubos
-  brain_coral: Coral de cerrebru
+  brain_coral: Coral de cerebru
   bubble_coral: Coral de borboyos
   fire_coral: Coral de fueu
   horn_coral: Coral de cuernos
@@ -530,7 +530,7 @@ material:
   blue_ice: Xelu
   conduit: Canalizador
   polished_granite_stairs: Pasales de granitu pulío
-  smooth_red_sandstone_stairs: Pasales de gres bermeyo dondo
+  smooth_red_sandstone_stairs: Pasales de gres colorao dondo
   mossy_stone_brick_stairs: Pasales de lladriyos de piedra mofosa
   polished_diorite_stairs: Pasales de diorita pulío
   mossy_cobblestone_stairs: Pasales de llastra mofoso
@@ -540,11 +540,15 @@ material:
   smooth_quartz_stairs: Pasales de cuarzu dondo
   granite_stairs: Pasales de granitu
   andesite_stairs: Pasales d'andesita
-  red_nether_brick_stairs: Pasales de lladriyos bermeyos del Nether
+  red_nether_brick_stairs: Pasales de lladriyos coloraos del Nether
   polished_andesite_stairs: Pasales d'andesita pulío
   diorite_stairs: Pasales de diorita
+  cobbled_deepslate_stairs: Pasales de llastra de pizarra
+  polished_deepslate_stairs: Pasales de pizarra pulío
+  deepslate_brick_stairs: Pasales de lladriyos de pizarra
+  deepslate_tile_stairs: Pasales d'azulexos de pizarra
   polished_granite_slab: Llábana de granitu pulío
-  smooth_red_sandstone_slab: Llábana de gres bermeyo dondo
+  smooth_red_sandstone_slab: Llábana de gres colorao dondo
   mossy_stone_brick_slab: Llábana de lladriyos de piedra mofosa
   polished_diorite_slab: Llábana de diorita pulío
   mossy_cobblestone_slab: Llábana de llastra mofoso
@@ -553,10 +557,60 @@ material:
   smooth_quartz_slab: Llábana de cuarzu dondo
   granite_slab: Llábana de granitu
   andesite_slab: Llábana d'andesita
-  red_nether_brick_slab: Llábana de lladriyos bermeyos del Nether
+  red_nether_brick_slab: Llábana de lladriyos coloraos del Nether
   polished_andesite_slab: Llábana d'andesita pulío
   diorite_slab: Llábana de diorita
+  cobbled_deepslate_slab: Llábana de llastra de pizarra
+  polished_deepslate_slab: Llábana de pizarra pulío
+  deepslate_brick_slab: Llábana de lladriyos de pizarra
+  deepslate_tile_slab: Llábana d'azulexos de pizarra
   scaffolding: Andamiu
+  redstone: Povisa de redstone
+  redstone_torch: Antorcha de redstone
+  redstone_block: Bloque de redstone
+  repeater: Repitidor de redstone
+  comparator: Comparador de redstone
+  piston: Pistón
+  sticky_piston: Pistón pegañón
+  slime_block: Bloque de llimu
+  honey_block: Bloque de miel
+  observer: Observador
+  hopper: Embudu
+  dispenser: Llanzador
+  dropper: Apurridor
+  lectern: Atril
+  target: Diana
+  lever: Palanca
+  lightning_rod: Pararrayos
+  daylight_detector: Sensor de llume solar
+  sculk_sensor: Sensor Sculk
+  tripwire_hook: Ganchu
+  trapped_chest: Bagul trampa
+  tnt: TNT
+  redstone_lamp: Llámpara de redstone
+  note_block: Bloque de notes
+  stone_button: Botón de piedra
+  polished_blackstone_button: Botón de nigrilitu pulío
+  oak_button: Botón de carbayu
+  spruce_button: Botón d'abetu
+  birch_button: Botón de bidul
+  jungle_button: Botón de madera de la xungla
+  acacia_button: Botón d'alcacia
+  dark_oak_button: Botón de carbayu escuru
+  crimson_button: Botón carmesín
+  warped_button: Botón distorsionáu
+  stone_pressure_plate: Placa presión de piedra
+  polished_blackstone_pressure_plate: Placa de presión de nigrilitu pulío
+  light_weighted_pressure_plate: Placa de presión pa pesu llixeru
+  heavy_weighted_pressure_plate: Placa de presión pa pesu pesáu
+  oak_pressure_plate: Placa de presión de carbayu
+  spruce_pressure_plate: Placa de presión d'abetu
+  birch_pressure_plate: Placa de presión de bidul
+  jungle_pressure_plate: Placa de presión de madera de la xungla
+  acacia_pressure_plate: Placa de presión d'alcacia
+  dark_oak_pressure_plate: Placa de presión de carbayu escuru
+  crimson_pressure_plate: Placa de presión carmesín
+  warped_pressure_plate: Placa distorsionada de presión
   iron_door: Puerta de fierro
   oak_door: Puerta de carbayu
   spruce_door: Puerta d'abetu
@@ -566,8 +620,42 @@ material:
   dark_oak_door: Puerta de carbayu escuru
   crimson_door: Puerta carmesín
   warped_door: Puerta distorsionada
-  repeater: Repitidor de redstone
-  comparator: Comparador de redstone
+  iron_trapdoor: Trapiella de fierro
+  oak_trapdoor: Trapiella de carbayu
+  spruce_trapdoor: Trapiella d'abetu
+  birch_trapdoor: Carbayu de bidul
+  jungle_trapdoor: Trapiella de madera de la xungla
+  acacia_trapdoor: Trapiella d'alcacia
+  dark_oak_trapdoor: Trapiella de carbayu escuru
+  crimson_trapdoor: Trapiella carmesín
+  warped_trapdoor: Trapiella distorsionada
+  oak_fence_gate: Portiella de carbayu
+  spruce_fence_gate: Portiella d'abetu
+  birch_fence_gate: Portiella de bidul
+  jungle_fence_gate: Portiella de madera de la xungla
+  acacia_fence_gate: Portiella d'alcacia
+  dark_oak_fence_gate: Portiella de carbayu escuru
+  crimson_fence_gate: Portiella carmesín
+  warped_fence_gate: Portiella distorsionada
+  powered_rail: Vía puxadora
+  detector_rail: Vía detectora
+  rail: Vía
+  activator_rail: Vía activadora
+  saddle: Sillín
+  minecart: Vagoneta
+  chest_minecart: Vagoneta con un bagul
+  furnace_minecart: Vagoneta con un fornu
+  tnt_minecart: Vagoneta con TNT
+  hopper_minecart: Vagoneta con embudu
+  carrot_on_a_stick: Cenahoria nuna caña
+  warped_fungus_on_a_stick: Fungu distorsionáu nuna caña
+  elytra: Élitru
+  oak_boat: Barca de carbayu
+  spruce_boat: Barca d'abetu
+  birch_boat: Barca de bidul
+  jungle_boat: Barca de madera de la xungla
+  acacia_boat: Barca d'alcacia
+  dark_oak_boat: Barca de carbayu escuru
   structure_block: Bloque d'estructures
   turtle_helmet: Cascu de tortuga
   flint_and_steel: Chisqueru
@@ -577,7 +665,15 @@ material:
   coal: Carbón
   charcoal: Carbón vexetal
   diamond: Diamante
+  emerald: Esmeralda
+  lapis_lazuli: Llapislázuli
+  quartz: Cuarzu del Nether
+  amethyst_shard: Cachu d'amatista
+  raw_iron: Fierro en bruto
   iron_ingot: Llingote de fierro
+  raw_copper: Cobre en bruto
+  copper_ingot: Llingote de cobre
+  raw_gold: Oru en bruto
   gold_ingot: Llingote d'oru
   netherite_ingot: Llingote de netherita
   netherite_scrap: Escoria de netherita
@@ -661,27 +757,23 @@ material:
   bucket: Calderu
   water_bucket: Calderu con agua
   lava_bucket: Calderu con llava
-  minecart: Vagoneta
-  saddle: Sillín
-  redstone: Povisa de redstone
   snowball: Pella
-  oak_boat: Barca de carbayu
   leather: Cueru
   milk_bucket: Calderu con lleche
   pufferfish_bucket: Calderu con pexe globu
   salmon_bucket: Calderu con salmón
   cod_bucket: Calderu con bacalláu
   tropical_fish_bucket: Calderu con pexe tropical
+  axolotl_bucket: Calderu con axolote
   brick: Lladriyu
   clay_ball: Bola de barru santo
   dried_kelp_block: Bloque de laminarial seco
   paper: Papel
   book: Llibru
   slime_ball: Bola de llimu
-  chest_minecart: Vagoneta con un bagul
-  furnace_minecart: Vagoneta con un fornu
   egg: Güevu
   compass: Brúxula
+  bundle: Fardela
   fishing_rod: Caña de pescar
   clock: Reló
   glowstone_dust: Povisa de piedra rellumante
@@ -691,9 +783,9 @@ material:
   pufferfish: Pexe globu
   cooked_cod: Bacalláu cocináu
   cooked_salmon: Salmón cocináu
-  ink_sac: Fardela de tinta
+  ink_sac: Sacu de tinta
+  glow_ink_sac: Sacu de tinta rellumante
   cocoa_beans: Fabes de cacáu
-  lapis_lazuli: Llapislázuli
   white_dye: Tiñe blancu
   orange_dye: Tiñe naranxa
   magenta_dye: Tiñe maxenta
@@ -708,7 +800,7 @@ material:
   blue_dye: Tiñe azul
   brown_dye: Tiñe marrón
   green_dye: Tiñe verde
-  red_dye: Tiñe bermeyu
+  red_dye: Tiñe coloráu
   black_dye: Tiñe prietu
   bone_meal: Fariña óseo
   bone: Güesu
@@ -728,7 +820,7 @@ material:
   blue_bed: Cama azul
   brown_bed: Cama marrón
   green_bed: Cama verde
-  red_bed: Cama bermeya
+  red_bed: Cama colorada
   black_bed: Cama prieta
   cookie: Galleta
   filled_map: Mapa
@@ -757,6 +849,7 @@ material:
   cauldron: Caldera
   ender_eye: Güeyu d'Ender
   glistering_melon_slice: Cachu de sandía rellumante
+  axolotl_spawn_egg: Güevu qu'apruz a un axolote
   bat_spawn_egg: Güevu qu'apruz a un esperteyu
   bee_spawn_egg: Güevu qu'apruz a una abeya
   blaze_spawn_egg: Güevu qu'apruz a un espíritu llumiegu
@@ -775,6 +868,8 @@ material:
   evoker_spawn_egg: Güevu qu'apruz a un evocador
   fox_spawn_egg: Güevu qu'apruz a un raposu
   ghast_spawn_egg: Güevu qu'apruz a un ghast
+  glow_squid_spawn_egg: Güevu qu'apruz a un calamar rellumante
+  goat_spawn_egg: Güevu qu'apruz a una cabra
   guardian_spawn_egg: Güevu qu'apruz a un guardián
   hoglin_spawn_egg: Güevu qu'apruz a un hoglin
   horse_spawn_egg: Güevu qu'apruz a un caballu
@@ -823,7 +918,6 @@ material:
   fire_charge: Carga de fueu
   writable_book: Llibru y pluma
   written_book: Llibru escritu
-  emerald: Esmeralda
   item_frame: Marcu d'oxetos
   flower_pot: Tiestu
   carrot: Cenahoria
@@ -838,17 +932,12 @@ material:
   zombie_head: Tiesta de zombi
   creeper_head: Tiesta de Creeper
   dragon_head: Tiesta de cuélebre
-  carrot_on_a_stick: Cenahoria nuna caña
-  warped_fungus_on_a_stick: Fungu distorsionáu nuna caña
   nether_star: Estrella del Nether
   pumpkin_pie: Pastel de calabaza
   firework_rocket: Volador
   firework_star: Volador d'estrella
   enchanted_book: Llibru encantexáu
   nether_brick: Lladriyu del Nether
-  quartz: Cuarzu del Nether
-  tnt_minecart: Vagoneta con TNT
-  hopper_minecart: Vagoneta con embudu
   prismarine_shard: Cachu de prismarín
   prismarine_crystals: Cristales de prismarín
   rabbit: Coneyu crudu
@@ -879,7 +968,7 @@ material:
   blue_banner: Estandarte azul
   brown_banner: Estandarte marrón
   green_banner: Estandarte verde
-  red_banner: Estandarte bermeyu
+  red_banner: Estandarte coloráu
   black_banner: Estandarte prietu
   end_crystal: Cristal del End
   chorus_fruit: Fruta del Coru
@@ -893,13 +982,7 @@ material:
   tipped_arrow: Flecha calistrada
   lingering_potion: Brebaxe prollongáu
   shield: Escudu
-  elytra: Élitru
-  spruce_boat: Barca d'abetu
-  birch_boat: Barca de bidul
-  jungle_boat: Barca de madera de la xungla
-  acacia_boat: Barca d'alcacia
-  dark_oak_boat: Barca de carbayu escuru
-  totem_of_undying: Tótem d'imortalidá
+  totem_of_undying: Tótem d'inmortalidá
   shulker_shell: Cascu de shulker
   iron_nugget: Llixu de fierro
   knowledge_book: Llibru de conocencia
@@ -937,25 +1020,21 @@ material:
   cartography_table: Mesa de cartografía
   fletching_table: Mesa de fleches
   grindstone: Piedra p'amolar
-  lectern: Atril
   smithing_table: Mesa de ferrería
   stonecutter: Cortapiedra
   bell: Campana
   lantern: Llámpara
   soul_lantern: Llámpara d'ánimes
   sweet_berries: Vagues dulces
+  glow_berries: Bagues dulces rellumantes
   campfire: Foguera
   soul_campfire: Foguera d'ánimes
   honeycomb: Caxellar
   bee_nest: Nial d'abeyes
   beehive: Colmena
   honey_bottle: Frascu con miel
-  honey_block: Bloque de miel
   honeycomb_block: Bloque de caxellos
   lodestone: Magnetita
-  netherite_block: Bloque de netherita
-  ancient_debris: Escombrios antiguos
-  target: Diana
   crying_obsidian: Obsidiana lloroso
   blackstone: Nigrilitu
   blackstone_slab: Llábana de nigrilitu
@@ -970,6 +1049,22 @@ material:
   polished_blackstone_brick_stairs: Pasales de lladriyos de nigrilitu pulío
   cracked_polished_blackstone_bricks: Lladriyos frañaos de nigrilitu pulío
   respawn_anchor: Bloque de remanecimientu
+  candle: Vela
+  white_candle: Vela blanca
+  orange_candle: Vela naranxa
+  magenta_candle: Vela maxenta
+  yellow_candle: Vela mariella
+  lime_candle: Vela llima
+  pink_candle: Vela rosa
+  gray_candle: Vela buxa
+  cyan_candle: Vela ciana
+  purple_candle: Vela morada
+  blue_candle: Vela azul
+  brown_candle: Vela marrón
+  green_candle: Vela verde
+  red_candle: Vela colorada
+  black_candle: Vela prieta
+  pointed_dripstone: Espeleotema puntiao
   water: Agua
   lava: Llava
   tall_seagrass: Ocle alto
@@ -991,32 +1086,35 @@ material:
   attached_melon_stem: Tallu de sandía xuníu
   pumpkin_stem: Tallu de calabaza
   melon_stem: Tallu de sandía
+  water_cauldron: Caldera con agua
+  lava_cauldron: Caldera con llava
+  powder_snow_cauldron: Caldera con ñeve en polvu
   end_portal: Portal del End
   cocoa: Cacáu
   tripwire: Cable trampa
-  potted_oak_sapling: Biltu de carbayu nun tiestu
-  potted_spruce_sapling: Biltu d'abetu nun tiestu
-  potted_birch_sapling: Biltu de bidul nun tiestu
-  potted_jungle_sapling: Biltu de la xungla nun tiestu
-  potted_acacia_sapling: Biltu d'alcacia nun tiestu
-  potted_dark_oak_sapling: Biltu de carbayu escuru nun tiestu
-  potted_fern: Felechu nun tiestu
-  potted_dandelion: Xiblata nun tiestu
-  potted_poppy: Papola nun tiestu
-  potted_blue_orchid: Orquídea azul nun tiestu
-  potted_allium: Ayu bravu nun tiestu
-  potted_azure_bluet: Houstonia caerulea nun tiestu
-  potted_red_tulip: Tulipán bermeyu nun tiestu
-  potted_orange_tulip: Tulipán naranxa nun tiestu
-  potted_white_tulip: Tulipán blancu nun tiestu
-  potted_pink_tulip: Tulipán rosa nun tiestu
-  potted_oxeye_daisy: Catasol grande nun tiestu
-  potted_cornflower: Clavelina nun tiestu
-  potted_lily_of_the_valley: Lliriu de los valles nun tiestu
-  potted_wither_rose: Rosa de wither nun tiestu
-  potted_red_mushroom: Xetu roxu nun tiestu
-  potted_brown_mushroom: Xampiñón nun tiestu
-  potted_cactus: Cactus nun tiestu
+  potted_oak_sapling: Tiestu con un biltu de carbayu
+  potted_spruce_sapling: Tiestu con un biltu d'abetu
+  potted_birch_sapling: Tiestu con un biltu de bidul
+  potted_jungle_sapling: Tiestu con un biltu de la xungla
+  potted_acacia_sapling: Tiestu con un biltu d'alcacia
+  potted_dark_oak_sapling: Tiestu con un biltu de carbayu escuru
+  potted_fern: Tiestu con un felechu
+  potted_dandelion: Tiestu con una xiblata
+  potted_poppy: Tiestu con una papola
+  potted_blue_orchid: Tiestu con una orquídea azul
+  potted_allium: Tiestu con un ayu bravu
+  potted_azure_bluet: Tiestu con una houstonia caerulea
+  potted_red_tulip: Tiestu con un tulipán coloráu
+  potted_orange_tulip: Tiestu con un tulipán naranxa
+  potted_white_tulip: Tiestu con un tulipán blancu
+  potted_pink_tulip: Tiestu con un tulipán rosa
+  potted_oxeye_daisy: Tiestu con un catasol grande
+  potted_cornflower: Tiestu con una clavelina
+  potted_lily_of_the_valley: Tiestu con un lliriu de los valles
+  potted_wither_rose: Tiestu con una rosa de Wither
+  potted_red_mushroom: Tiestu con un xetu roxu
+  potted_brown_mushroom: Tiestu con un xampiñón
+  potted_cactus: Tiestu con un cactus
   carrots: Cenahories
   potatoes: Pataques
   skeleton_wall_skull: Craniu na parede
@@ -1039,7 +1137,7 @@ material:
   blue_wall_banner: Estandarte azul
   brown_wall_banner: Estandarte marrón
   green_wall_banner: Estandarte verde
-  red_wall_banner: Estandarte bermeyu
+  red_wall_banner: Estandarte coloráu
   black_wall_banner: Estandarte prietu
   beetroots: Remolaches
   end_gateway: Pasera al End
@@ -1056,14 +1154,35 @@ material:
   fire_coral_wall_fan: Gorgonia de fueu de parede
   horn_coral_wall_fan: Gorgonia de tubos de parede
   bamboo_sapling: Biltu de bambú
-  potted_bamboo: Bambú nun tiestu
+  potted_bamboo: Tiestu con bambú
   void_air: Aire del vacíu
   cave_air: Aire de cueva
   bubble_column: Columna de borboyos
-  potted_crimson_fungus: Fungu carmesín nun tiestu
-  potted_warped_fungus: Fungu distorsionáu nun tiestu
-  potted_crimson_roots: Yerba carmesín nun tiestu
-  potted_warped_roots: Yerba distorsionao nun tiestu
+  potted_crimson_fungus: Tiestu con un fungu carmesín
+  potted_warped_fungus: Tiestu con un fungu distorsionáu
+  potted_crimson_roots: Tiestu con yerba carmesín
+  potted_warped_roots: Tiestu con yerba distorsionao
+  candle_cake: Tarta con una vela
+  white_candle_cake: Tarta con una vela blanca
+  orange_candle_cake: Tarta con una vela naranxa
+  magenta_candle_cake: Tarta con una vela maxenta
+  yellow_candle_cake: Tarta con una vela mariella
+  lime_candle_cake: Tarta con una vela llima
+  pink_candle_cake: Tarta con una vela rosa
+  gray_candle_cake: Tarta con una vela buxa
+  cyan_candle_cake: Tarta con una vela ciana
+  purple_candle_cake: Tarta con una vela morada
+  blue_candle_cake: Tarta con una vela azul
+  brown_candle_cake: Tarta con una vela marrón
+  green_candle_cake: Tarta con una vela verde
+  red_candle_cake: Tarta con una vela colorada
+  black_candle_cake: Tarta con una vela prieta
+  powder_snow: Ñeve en polvu
+  big_dripleaf_stem: Tallu de plantaforma grande
+  potted_azalea_bush: Tiestu con rododendru
+  potted_flowering_azalea_bush: Tiestu con rododendru florecío
+  nether_sprouts: Biltu del Nether
+  grass_path: Sienda
   zombie_pigman_spawn_egg: Güevu qu'apruz a un home-gochu zombi
   scute: Escutu
   cactus_green: Tinte verde
@@ -1145,44 +1264,45 @@ biome:
   soul_sand_valley: Valle de sable d'ánimes
   crimson_forest: Viesca carmesín
   warped_forest: Viesca distorsionada
+  dripstone_caves: Cueves d'espeleotema
   nether: Nether
 enchantment:
-  fire_protection: Proteición escontra'l fueu
-  sharpness: Amoladura
-  flame: Fleches amburadores
-  soul_speed: Velocidá d'ánimes
-  aqua_affinity: Afinidá acuático
-  punch: Truñada
-  loyalty: Llealtá
-  depth_strider: Axilidá acuático
-  vanishing_curse: Maldición de desapaición
-  unbreaking: Durabilidá
-  knockback: Emburriu
-  luck_of_the_sea: Suerte de la mar
-  binding_curse: Maldición d'atadura
-  fortune: Fortuna
   protection: Proteición
-  efficiency: Eficiencia
-  mending: Igua
-  frost_walker: Pasu xeláu
-  lure: Cebu
-  looting: Saquéu
-  piercing: Perforación
-  blast_protection: Antiespañíos
-  smite: Redención
-  multishot: Multitiru
-  fire_aspect: Aspeutu amburador
-  sweeping: Filu atropador
-  thorns: Escayos
-  bane_of_arthropods: Velea artrópoda
-  respiration: Aliendu
-  riptide: Impulsu acuáticu
-  silk_touch: Toque de seda
-  quick_charge: Carga rápida
-  projectile_protection: Antiproyeutiles
+  fire_protection: Proteición escontra'l fueu
   feather_falling: Lliviandá
+  blast_protection: Antiespañíos
+  projectile_protection: Antiproyeutiles
+  respiration: Aliendu
+  aqua_affinity: Afinidá acuático
+  thorns: Escayos
+  depth_strider: Axilidá acuático
+  frost_walker: Pasu xeláu
+  binding_curse: Maldición d'atadura
+  sharpness: Amoladura
+  smite: Redención
+  bane_of_arthropods: Velea artrópoda
+  knockback: Emburriu
+  fire_aspect: Aspeutu amburador
+  looting: Saquéu
+  sweeping: Filu atropador
+  efficiency: Eficiencia
+  silk_touch: Toque de seda
+  unbreaking: Durabilidá
+  fortune: Fortuna
   power: Fuercia
+  punch: Truñada
+  flame: Fleches amburadores
   infinity: Infinidá
+  luck_of_the_sea: Suerte de la mar
+  lure: Cebu
+  loyalty: Llealtá
+  riptide: Impulsu acuáticu
+  multishot: Multitiru
+  quick_charge: Carga rápida
+  piercing: Perforación
+  mending: Igua
+  vanishing_curse: Maldición de desapaición
+  soul_speed: Velocidá d'ánimes
 potion:
   uncraftable: Brebaxe non ellaborable
   water: Frascu d'agua
@@ -1373,6 +1493,10 @@ entity:
   hoglin: Hoglin
   piglin: Piglin
   zoglin: Zoglin
+  axolotl: Axolote
+  glow_squid: Calamar rellumante
+  goat: Cabra
+  marker: Marcador
   lightning: Rayu
   player: Xugador
   pig_zombie: Home-gochu
@@ -1400,7 +1524,7 @@ effect:
   health_boost: Puxu de salú
   absorption: Absorción
   saturation: Saturación
-  glowing: Brilléu
+  glowing: Brillu
   levitation: Llevitación
   luck: Suerte
   unluck: Suerte mala
@@ -1423,7 +1547,7 @@ dye_color:
   blue: Azul
   brown: Marrón
   green: Verde
-  red: Bermeyu
+  red: Coloráu
   black: Prietu
 named:
   player_head_named: Tiesta de %s
@@ -1470,7 +1594,7 @@ colored_shied:
   blue: Escudu azul
   brown: Escudu marrón
   green: Escudu verde
-  red: Escudu bermeyu
+  red: Escudu coloráu
   black: Escudu prietu
 banner_pattern:
   '65536': Cuadráu baxeru a mandrecha en blanco
@@ -1487,7 +1611,7 @@ banner_pattern:
   '65547': Cuadráu baxeru a mandrecha n'azul
   '65548': Cuadráu baxeru a mandrecha en marrón
   '65549': Cuadráu baxeru a mandrecha en verde
-  '65550': Cuadráu baxeru a mandrecha en bermeyo
+  '65550': Cuadráu baxeru a mandrecha en colorao
   '65551': Cuadráu baxeru a mandrecha en prieto
   '131072': Cuadráu baxeru a manzorga en blanco
   '131073': Cuadráu baxeru a manzorga en naranxa
@@ -1503,7 +1627,7 @@ banner_pattern:
   '131083': Cuadráu baxeru a manzorga n'azul
   '131084': Cuadráu baxeru a manzorga en marrón
   '131085': Cuadráu baxeru a manzorga en verde
-  '131086': Cuadráu baxeru a manzorga en bermeyo
+  '131086': Cuadráu baxeru a manzorga en colorao
   '131087': Cuadráu baxeru a manzorga en prieto
   '196608': Cuadráu cimeru a mandrecha en blanco
   '196609': Cuadráu cimeru a mandrecha en naranxa
@@ -1519,7 +1643,7 @@ banner_pattern:
   '196619': Cuadráu cimeru a mandrecha n'azul
   '196620': Cuadráu cimeru a mandrecha en marrón
   '196621': Cuadráu cimeru a mandrecha en verde
-  '196622': Cuadráu cimeru a mandrecha en bermeyo
+  '196622': Cuadráu cimeru a mandrecha en colorao
   '196623': Cuadráu cimeru a mandrecha en prieto
   '262144': Cuadráu cimeru a manzorga en blanco
   '262145': Cuadráu cimeru a manzorga en naranxa
@@ -1535,7 +1659,7 @@ banner_pattern:
   '262155': Cuadráu cimeru a manzorga n'azul
   '262156': Cuadráu cimeru a manzorga en marrón
   '262157': Cuadráu cimeru a manzorga en verde
-  '262158': Cuadráu cimeru a manzorga en bermeyo
+  '262158': Cuadráu cimeru a manzorga en colorao
   '262159': Cuadráu cimeru a manzorga en prieto
   '327680': Base blanca
   '327681': Base naranxa
@@ -1551,7 +1675,7 @@ banner_pattern:
   '327691': Base azul
   '327692': Base marrón
   '327693': Base verde
-  '327694': Base bermeya
+  '327694': Base colorada
   '327695': Base prieta
   '393216': Dentáu blancu
   '393217': Dentáu naranxa
@@ -1567,7 +1691,7 @@ banner_pattern:
   '393227': Dentáu azul
   '393228': Dentáu marrón
   '393229': Dentáu verde
-  '393230': Dentáu bermeyu
+  '393230': Dentáu coloráu
   '393231': Dentáu prietu
   '458752': Faza blanca a mandrecha
   '458753': Faza naranxa a mandrecha
@@ -1583,7 +1707,7 @@ banner_pattern:
   '458763': Faza azul a mandrecha
   '458764': Faza marrón a mandrecha
   '458765': Faza verde a mandrecha
-  '458766': Faza bermeya a mandrecha
+  '458766': Faza colorada a mandrecha
   '458767': Faza prieta a mandrecha
   '524288': Faza blanca a manzorga
   '524289': Faza naranxa a manzorga
@@ -1599,7 +1723,7 @@ banner_pattern:
   '524299': Faza azul a manzorga
   '524300': Faza marrón a manzorga
   '524301': Faza verde a manzorga
-  '524302': Faza bermeya a manzorga
+  '524302': Faza colorada a manzorga
   '524303': Faza prieta a manzorga
   '589824': Faza blanca central
   '589825': Faza naranxa central
@@ -1615,7 +1739,7 @@ banner_pattern:
   '589835': Faza azul central
   '589836': Faza marrón central
   '589837': Faza verde central
-  '589838': Faza bermeya central
+  '589838': Faza colorada central
   '589839': Faza prieta central
   '655360': Llinia blanca central
   '655361': Llinia naranxa central
@@ -1631,7 +1755,7 @@ banner_pattern:
   '655371': Llinia azul central
   '655372': Llinia marrón central
   '655373': Llinia verde central
-  '655374': Llinia bermeya central
+  '655374': Llinia colorada central
   '655375': Llinia prieta central
   '720896': Llinia cruciada en blanco
   '720897': Llinia cruciada en naranxa
@@ -1647,7 +1771,7 @@ banner_pattern:
   '720907': Llinia cruciada n'azul
   '720908': Llinia cruciada en marrón
   '720909': Llinia cruciada en verde
-  '720910': Llinia cruciada en bermeyo
+  '720910': Llinia cruciada en colorao
   '720911': Llinia cruciada en prieto
   '786432': Llinia cruciada a manzorga en blanco
   '786433': Llinia cruciada a manzorga en naranxa
@@ -1663,7 +1787,7 @@ banner_pattern:
   '786443': Llinia cruciada a manzorga n'azul
   '786444': Llinia cruciada a manzorga en marrón
   '786445': Llinia cruciada a manzorga en verde
-  '786446': Llinia cruciada a manzorga en bermeyo
+  '786446': Llinia cruciada a manzorga en colorao
   '786447': Llinia cruciada a manzorga en prieto
   '851968': Rayáu con faces en blanco
   '851969': Rayáu con faces en naranxa
@@ -1679,7 +1803,7 @@ banner_pattern:
   '851979': Rayáu con faces n'azul
   '851980': Rayáu con faces en marrón
   '851981': Rayáu con faces en verde
-  '851982': Rayáu con faces en bermeyo
+  '851982': Rayáu con faces en colorao
   '851983': Rayáu con faces en prieto
   '917504': Nasa blanca
   '917505': Nasa naranxa
@@ -1695,7 +1819,7 @@ banner_pattern:
   '917515': Nasa azul
   '917516': Nasa marrón
   '917517': Nasa verde
-  '917518': Nasa bermeya
+  '917518': Nasa colorada
   '917519': Nasa prieta
   '983040': Cruz blanca
   '983041': Cruz naranxa
@@ -1711,7 +1835,7 @@ banner_pattern:
   '983051': Cruz azul
   '983052': Cruz marrón
   '983053': Cruz verde
-  '983054': Cruz bermeya
+  '983054': Cruz colorada
   '983055': Cruz prieta
   '1048576': Chebrón blancu
   '1048577': Chebrón naranxa
@@ -1727,7 +1851,7 @@ banner_pattern:
   '1048587': Chebrón azul
   '1048588': Chebrón marrón
   '1048589': Chebrón verde
-  '1048590': Chebrón bermeyu
+  '1048590': Chebrón coloráu
   '1048591': Chebrón prietu
   '1114112': Chebrón blancu cimeru
   '1114113': Chebrón naranxa cimeru
@@ -1743,7 +1867,7 @@ banner_pattern:
   '1114123': Chebrón azul cimeru
   '1114124': Chebrón marrón cimeru
   '1114125': Chebrón verde cimeru
-  '1114126': Chebrón bermeyu cimeru
+  '1114126': Chebrón coloráu cimeru
   '1114127': Chebrón prietu cimeru
   '1179648': Dentáu blancu baxeru
   '1179649': Dentáu naranxa baxeru
@@ -1759,7 +1883,7 @@ banner_pattern:
   '1179659': Dentáu azul baxeru
   '1179660': Dentáu marrón baxeru
   '1179661': Dentáu verde baxeru
-  '1179662': Dentáu bermeyu baxeru
+  '1179662': Dentáu coloráu baxeru
   '1179663': Dentáu prietu baxeru
   '1245184': Dentáu blancu cimeru
   '1245185': Dentáu naranxa cimeru
@@ -1775,7 +1899,7 @@ banner_pattern:
   '1245195': Dentáu azul cimeru
   '1245196': Dentáu marrón cimeru
   '1245197': Dentáu verde cimeru
-  '1245198': Dentáu bermeyu cimeru
+  '1245198': Dentáu coloráu cimeru
   '1245199': Dentáu prietu cimeru
   '1310720': Triángulu cimeru a manzorga en blanco
   '1310721': Triángulu cimeru a manzorga en naranxa
@@ -1791,7 +1915,7 @@ banner_pattern:
   '1310731': Triángulu cimeru a manzorga n'azul
   '1310732': Triángulu cimeru a manzorga en marrón
   '1310733': Triángulu cimeru a manzorga en verde
-  '1310734': Triángulu cimeru a manzorga en bermeyo
+  '1310734': Triángulu cimeru a manzorga en colorao
   '1310735': Triángulu cimeru a manzorga en prieto
   '1376256': Triángulu baxeru a manzorga en blanco
   '1376257': Triángulu baxeru a manzorga en naranxa
@@ -1807,7 +1931,7 @@ banner_pattern:
   '1376267': Triángulu baxeru a manzorga n'azul
   '1376268': Triángulu baxeru a manzorga en marrón
   '1376269': Triángulu baxeru a manzorga en verde
-  '1376270': Triángulu baxeru a manzorga en bermeyo
+  '1376270': Triángulu baxeru a manzorga en colorao
   '1376271': Triángulu baxeru a manzorga en prieto
   '1441792': Triángulu baxeru a mandrecha en blanco
   '1441793': Triángulu baxeru a mandrecha en naranxa
@@ -1823,7 +1947,7 @@ banner_pattern:
   '1441803': Triángulu baxeru a mandrecha n'azul
   '1441804': Triángulu baxeru a mandrecha en marrón
   '1441805': Triángulu baxeru a mandrecha en verde
-  '1441806': Triángulu baxeru a mandrecha en bermeyo
+  '1441806': Triángulu baxeru a mandrecha en colorao
   '1441807': Triángulu baxeru a mandrecha en prieto
   '1507328': Triángulu cimeru a mandrecha en blanco
   '1507329': Triángulu cimeru a mandrecha en naranxa
@@ -1839,7 +1963,7 @@ banner_pattern:
   '1507339': Triángulu cimeru a mandrecha n'azul
   '1507340': Triángulu cimeru a mandrecha en marrón
   '1507341': Triángulu cimeru a mandrecha en verde
-  '1507342': Triángulu cimeru a mandrecha en bermeyo
+  '1507342': Triángulu cimeru a mandrecha en colorao
   '1507343': Triángulu cimeru a mandrecha en prieto
   '1572864': Redondel blancu
   '1572865': Redondel naranxa
@@ -1855,7 +1979,7 @@ banner_pattern:
   '1572875': Redondel azul
   '1572876': Redondel marrón
   '1572877': Redondel verde
-  '1572878': Redondel bermeyu
+  '1572878': Redondel coloráu
   '1572879': Redondel prietu
   '1638400': Rombu blancu
   '1638401': Rombu naranxa
@@ -1871,7 +1995,7 @@ banner_pattern:
   '1638411': Rombu azul
   '1638412': Rombu marrón
   '1638413': Rombu verde
-  '1638414': Rombu bermeyu
+  '1638414': Rombu coloráu
   '1638415': Rombu prietu
   '1703936': Metá a manzorga en blanco
   '1703937': Metá a manzorga en naranxa
@@ -1887,7 +2011,7 @@ banner_pattern:
   '1703947': Metá a manzorga n'azul
   '1703948': Metá a manzorga en marrón
   '1703949': Metá a manzorga en verde
-  '1703950': Metá a manzorga en bermeyo
+  '1703950': Metá a manzorga en colorao
   '1703951': Metá a manzorga en prieto
   '1769472': Metá cimera en blanco
   '1769473': Metá cimera en naranxa
@@ -1903,7 +2027,7 @@ banner_pattern:
   '1769483': Metá cimera n'azul
   '1769484': Metá cimera en marrón
   '1769485': Metá cimera en verde
-  '1769486': Metá cimera en bermeyo
+  '1769486': Metá cimera en colorao
   '1769487': Metá cimera en prieto
   '1835008': Metá a mandrecha en blanco
   '1835009': Metá a mandrecha en naranxa
@@ -1919,7 +2043,7 @@ banner_pattern:
   '1835019': Metá a mandrecha n'azul
   '1835020': Metá a mandrecha en marrón
   '1835021': Metá a mandrecha en verde
-  '1835022': Metá a mandrecha en bermeyo
+  '1835022': Metá a mandrecha en colorao
   '1835023': Metá a mandrecha en prieto
   '1900544': Metá baxera en blanco
   '1900545': Metá baxera en naranxa
@@ -1935,7 +2059,7 @@ banner_pattern:
   '1900555': Metá baxera n'azul
   '1900556': Metá baxera en marrón
   '1900557': Metá baxera en verde
-  '1900558': Metá baxera en bermeyo
+  '1900558': Metá baxera en colorao
   '1900559': Metá baxera en prieto
   '1966080': Berbesu blancu
   '1966081': Berbesu naranxa
@@ -1951,7 +2075,7 @@ banner_pattern:
   '1966091': Berbesu azul
   '1966092': Berbesu marrón
   '1966093': Berbesu verde
-  '1966094': Berbesu bermeyu
+  '1966094': Berbesu coloráu
   '1966095': Berbesu prietu
   '2031616': Berbesu dentáu en blanco
   '2031617': Berbesu dentáu en naranxa
@@ -1967,7 +2091,7 @@ banner_pattern:
   '2031627': Berbesu dentáu n'azul
   '2031628': Berbesu dentáu en marrón
   '2031629': Berbesu dentáu en verde
-  '2031630': Berbesu dentáu en bermeyo
+  '2031630': Berbesu dentáu en colorao
   '2031631': Berbesu dentáu en prieto
   '2097152': Dibuxu blancu de Creeper
   '2097153': Dibuxu naranxa de Creeper
@@ -1983,7 +2107,7 @@ banner_pattern:
   '2097163': Dibuxu azul de Creeper
   '2097164': Dibuxu marrón de Creeper
   '2097165': Dibuxu verde de Creeper
-  '2097166': Dibuxu bermeyu de Creeper
+  '2097166': Dibuxu coloráu de Creeper
   '2097167': Dibuxu prietu de Creeper
   '2162688': Dilíu blancu dende lo cimero
   '2162689': Dilíu naranxa dende lo cimero
@@ -1999,7 +2123,7 @@ banner_pattern:
   '2162699': Dilíu azul dende lo cimero
   '2162700': Dilíu marrón dende lo cimero
   '2162701': Dilíu verde dende lo cimero
-  '2162702': Dilíu bermeyu dende lo cimero
+  '2162702': Dilíu coloráu dende lo cimero
   '2162703': Dilíu prietu dende lo cimero
   '2228224': Dilíu blancu dende lo baxero
   '2228225': Dilíu naranxa dende lo baxero
@@ -2015,7 +2139,7 @@ banner_pattern:
   '2228235': Dilíu azul dende lo baxero
   '2228236': Dilíu marrón dende lo baxero
   '2228237': Dilíu verde dende lo baxero
-  '2228238': Dilíu bermeyu dende lo baxero
+  '2228238': Dilíu coloráu dende lo baxero
   '2228239': Dilíu prietu dende lo baxero
   '2293760': Enlladriyao blanco
   '2293761': Enlladriyao naranxa
@@ -2031,7 +2155,7 @@ banner_pattern:
   '2293771': Enlladriyao azul
   '2293772': Enlladriyao marrón
   '2293773': Enlladriyao verde
-  '2293774': Enlladriyao bermeyo
+  '2293774': Enlladriyao colorao
   '2293775': Enlladriyao prieto
   '2359296': Craniu blancu
   '2359297': Craniu naranxa
@@ -2047,7 +2171,7 @@ banner_pattern:
   '2359307': Craniu azul
   '2359308': Craniu marrón
   '2359309': Craniu verde
-  '2359310': Craniu bermeyu
+  '2359310': Craniu coloráu
   '2359311': Craniu prietu
   '2424832': Flor blanca
   '2424833': Flor naranxa
@@ -2063,7 +2187,7 @@ banner_pattern:
   '2424843': Flor azul
   '2424844': Flor marrón
   '2424845': Flor verde
-  '2424846': Flor bermeya
+  '2424846': Flor colorada
   '2424847': Flor prieta
   '2490368': Llogotipu blancu
   '2490369': Llogotipu naranxa
@@ -2079,7 +2203,7 @@ banner_pattern:
   '2490379': Llogotipu azul
   '2490380': Llogotipu marrón
   '2490381': Llogotipu verde
-  '2490382': Llogotipu bermeyu
+  '2490382': Llogotipu coloráu
   '2490383': Llogotipu prietu
   '2555904': Planeta blancu
   '2555905': Planeta naranxa
@@ -2093,7 +2217,7 @@ banner_pattern:
   '2555915': Planeta azul
   '2555916': Planeta marrón
   '2555917': Planeta verde
-  '2555918': Planeta bermeyu
+  '2555918': Planeta coloráu
   '2555919': Planeta prietu
   '2621440': Focicu blancu
   '2621441': Focicu naranxa
@@ -2107,7 +2231,7 @@ banner_pattern:
   '2621451': Focicu azul
   '2621452': Focicu marrón
   '2621453': Focicu verde
-  '2621454': Focicu bermeyu
+  '2621454': Focicu coloráu
   '2621455': Focicu prietu
 music_disk:
   music_disc_13: C418 - 13
@@ -2152,17 +2276,3 @@ villager_profession:
   shepherd: Oveyeru
   toolsmith: Ferreru de preseos
   weaponsmith: Armeru
-villager_career:
-  farmer: Granxeru
-  fisherman: Pescador
-  shepherd: Oveyeru
-  fletcher: Flecheru
-  librarian: Bibliotecariu
-  cartographer: Cartógrafu
-  cleric: Clérigu
-  armorer: Ferreru d'armadures
-  weapon_smith: Armeru
-  tool_smith: Ferreru
-  butcher: Carniceru
-  leatherworker: Curtidor
-  nitwit: Folganzán

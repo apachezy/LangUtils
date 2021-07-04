@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:46                    #
+# Build time: 2021-07-04 21:46:02                    #
 # ####################################################
 language:
   code: cy_gb
@@ -14,10 +14,17 @@ material:
   polished_diorite: Diorit Caboledig
   andesite: Andesit
   polished_andesite: Andesit Caboledig
+  deepslate: Dwfnlech
+  cobbled_deepslate: Dwfnlech Coblog
+  polished_deepslate: Dwfnlech Caboledig
+  calcite: Calsit
+  tuff: Twff
+  dripstone_block: Bloc Diferfaen
   grass_block: Bloc Glaswellt
   dirt: Pridd
   coarse_dirt: Pridd Garw
   podzol: Podsol
+  rooted_dirt: Pridd Gwreiddiog
   crimson_nylium: Neliwm Rhuddgoch
   warped_nylium: Neliwm Annaearol
   cobblestone: Crynion
@@ -39,10 +46,67 @@ material:
   sand: Tywod
   red_sand: Tywod Coch
   gravel: Graean
-  gold_ore: Mwyn Aur
-  iron_ore: Mwyn Haearn
   coal_ore: Mwyn Glo
+  deepslate_coal_ore: Mwyn Glo Dwfnlech
+  iron_ore: Mwyn Haearn
+  deepslate_iron_ore: Mwyn Haearn Dwfnlech
+  copper_ore: Mwyn Copr
+  deepslate_copper_ore: Mwyn Copr Dwfnlech
+  gold_ore: Mwyn Aur
+  deepslate_gold_ore: Mwyn Aur Dwfnlech
+  redstone_ore: Mwyn Redstone
+  deepslate_redstone_ore: Mwyn Redstone Dwfnlech
+  emerald_ore: Mwyn Emrallt
+  deepslate_emerald_ore: Mwyn Emrallt Dwfnlech
+  lapis_ore: Mwyn Lapis-Laswli
+  deepslate_lapis_ore: Mwyn Lapis-Laswli Dwfnlech
+  diamond_ore: Mwyn Diemwnt
+  deepslate_diamond_ore: Mwyn Diemwnt Dwfnlech
   nether_gold_ore: Mwyn Aur Nether
+  nether_quartz_ore: Mwyn Cwarts Nether
+  ancient_debris: Malurion Hynafol
+  coal_block: Bloc Glo
+  raw_iron_block: Bloc Haearn Crai
+  raw_copper_block: Bloc Copr Crai
+  raw_gold_block: Block Aur Crai
+  amethyst_block: Bloc Amethyst
+  budding_amethyst: Amethyst Blagurol
+  iron_block: Bloc Haearn
+  copper_block: Bloc Copr
+  gold_block: Bloc Aur
+  diamond_block: Bloc Diemwnt
+  netherite_block: Bloc Netherit
+  exposed_copper: Copr Wedi Pylu
+  weathered_copper: Copr Hindreuliedig
+  oxidized_copper: Copr Ocsidiedig
+  cut_copper: Copr Toredig
+  exposed_cut_copper: Copr Toredig Wedi Pylu
+  weathered_cut_copper: Copr Toredig Hindreuliedig
+  oxidized_cut_copper: Copr Toredig Ocsidiedig
+  cut_copper_stairs: Grisiau Copr Toredig
+  exposed_cut_copper_stairs: Grisiau Copr Toredig Wedi Pylu
+  weathered_cut_copper_stairs: Grisiau Copr Toredig Hindreuliedig
+  oxidized_cut_copper_stairs: Grisiau Copr Toredig Ocsidiedig
+  cut_copper_slab: Slab Copr Toredig
+  exposed_cut_copper_slab: Slab Copr Toredig Wedi Pylu
+  weathered_cut_copper_slab: Slab Copr Toredig Hindreuliedig
+  oxidized_cut_copper_slab: Slab Copr Toredig Ocsidiedig
+  waxed_copper_block: Bloc Copr Cwyrog
+  waxed_exposed_copper: Copr Cwyrog Wedi Pylu
+  waxed_weathered_copper: Copr Cwyrog Hindreuliedig
+  waxed_oxidized_copper: Copr Cwyrog Ocsidiedig
+  waxed_cut_copper: Copr Cwyrog Toredig
+  waxed_exposed_cut_copper: Copr Cwyrog Toredig Wedi Pylu
+  waxed_weathered_cut_copper: Copr Cwyrog Toredig Hindreuliedig
+  waxed_oxidized_cut_copper: Copr Cwyrog Toredig Ocsidiedig
+  waxed_cut_copper_stairs: Grisiau Copr Cwyrog Toredig
+  waxed_exposed_cut_copper_stairs: Grisiau Copr Cwyrog Toredig Wedi Pylu
+  waxed_weathered_cut_copper_stairs: Grisiau Copr Cwyrog Toredig Hindreuliedig
+  waxed_oxidized_cut_copper_stairs: Grisiau Copr Cwyrog Toredig Ocsidiedig
+  waxed_cut_copper_slab: Slab Copr Cwyrog Toredig
+  waxed_exposed_cut_copper_slab: Slab Copr Cwyrog Toredig Wedi Pylu
+  waxed_weathered_cut_copper_slab: Slab Copr Cwyrog Toredig Hindreuliedig
+  waxed_oxidized_cut_copper_slab: Slab Copr Cwyrog Toredig Ocsidiedig
   oak_log: Boncyff Derw
   spruce_log: Boncyff Pyrwydd
   birch_log: Boncyff Bedw
@@ -81,26 +145,24 @@ material:
   jungle_leaves: Dail Jyngl
   acacia_leaves: Dail Acesia
   dark_oak_leaves: Dail Derw Tywyll
+  azalea_leaves: Dail Asalea
+  flowering_azalea_leaves: Dail Asalea Blodeuog
   sponge: Sbwng
   wet_sponge: Spwng Gwlyb
   glass: Gwydr
-  lapis_ore: Mwyn Lapis-Laswli
+  tinted_glass: Gwydr Arlliw
   lapis_block: Bloc Lapis-Laswli
-  dispenser: Dosbarthwr
   sandstone: Tywodfaen
   chiseled_sandstone: Tywodfaen Nadd
   cut_sandstone: Tywodfaen Toredig
-  note_block: Bloc Nodyn
-  powered_rail: Cledren â Phŵer
-  detector_rail: Cledren Synhwyrydd
-  sticky_piston: Piston Gludiog
   cobweb: Gwe Pricopyn
   grass: Glaswellt
   fern: Rhedyn
+  azalea: Asalea
+  flowering_azalea: Asalea Blodeuog
   dead_bush: Llwyn Marw
   seagrass: Morwellt
   sea_pickle: Picl Môr
-  piston: Piston
   white_wool: Gwlân Gwyn
   orange_wool: Gwlân Oren
   magenta_wool: Gwlân Majenta
@@ -130,6 +192,7 @@ material:
   cornflower: Penlas Wen
   lily_of_the_valley: Lili'r Dyffrynnoedd
   wither_rose: Rhosyn Wither
+  spore_blossom: Blodeuyn Sbor
   brown_mushroom: Madarchen Frown
   red_mushroom: Madarchen Goch
   crimson_fungus: Ffwng Rhuddgoch
@@ -141,9 +204,12 @@ material:
   twisting_vines: Gwinwydd Dirdro
   sugar_cane: Cansen Siwgr
   kelp: Gwymon
+  moss_carpet: Carped Mwsog
+  moss_block: Bloc Mwsog
+  hanging_roots: Gwreiddiau Crog
+  big_dripleaf: Diferddeilen Fawr
+  small_dripleaf: Diferddeilen Fach
   bamboo: Bambŵ
-  gold_block: Bloc Aur
-  iron_block: Bloc Haearn
   oak_slab: Slab Derw
   spruce_slab: Slab Pyrwydd
   birch_slab: Slab Bedw
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: Tywodfaen Llyfn
   smooth_stone: Carreg Llyfn
   bricks: Briciau
-  tnt: TNT
   bookshelf: Silff Lyfrau
   mossy_cobblestone: Crynion Mwsoglyd
   obsidian: Llosgraig
@@ -187,27 +252,11 @@ material:
   spawner: Siliwr
   oak_stairs: Grisiau Derw
   chest: Cist
-  diamond_ore: Mwyn Diemwnt
-  diamond_block: Bloc Diemwnt
   crafting_table: Bwrdd Crefft
   farmland: Tir Fferm
   furnace: Ffwrnais
   ladder: Ysgol
-  rail: Cledren
   cobblestone_stairs: Grisiau Carreg
-  lever: Lifer
-  stone_pressure_plate: Gwasglechen Carreg
-  oak_pressure_plate: Gwasglechen Derw
-  spruce_pressure_plate: Gwasglechen Pyrwydd
-  birch_pressure_plate: Gwasglechen Bedw
-  jungle_pressure_plate: Gwasglechen Jyngl
-  acacia_pressure_plate: Gwasglechen Acesia
-  dark_oak_pressure_plate: Gwasglechen Derw Tywyll
-  crimson_pressure_plate: Plât Pwysedd Rhuddgoch
-  warped_pressure_plate: Plât Pwysedd Annaearol
-  polished_blackstone_pressure_plate: Plât Pwysedd Carregddu Caboledig
-  redstone_ore: Mwyn Redstone
-  redstone_torch: Tors Redstone
   snow: Eira
   ice: Rhew
   snow_block: Bloc Eira
@@ -224,32 +273,31 @@ material:
   warped_fence: Ffens Annaearol
   pumpkin: Pwmpen
   carved_pumpkin: Pwmpen Gerfiedig
+  jack_o_lantern: Jac y Lantarn
   netherrack: Netherrack
   soul_sand: Tywod Enaid
   soul_soil: Pridd Enaid
   basalt: Pilergraig
   polished_basalt: Pilergraig Gloyw
+  smooth_basalt: Pilergraig Llyfn
   soul_torch: Tors Enaid
   glowstone: Gloywgarreg
-  jack_o_lantern: Jac y Lantarn
-  oak_trapdoor: Drws Cudd Derw
-  spruce_trapdoor: Drws Cudd Pyrwydd
-  birch_trapdoor: Drws Cudd Fedwen
-  jungle_trapdoor: Drws Cudd Jyngl
-  acacia_trapdoor: Drws Cudd Acesia
-  dark_oak_trapdoor: Drws Cudd Derw Tywyll
-  crimson_trapdoor: Drws Cudd Rhuddgoch
-  warped_trapdoor: Drws Cudd Annaearol
   infested_stone: Carreg Pla
   infested_cobblestone: Crynion Pla
   infested_stone_bricks: Briciau Carreg Pla
   infested_mossy_stone_bricks: Briciau Carreg Mwsoglyd Pla
   infested_cracked_stone_bricks: Briciau Carreg Chwâl Pla
   infested_chiseled_stone_bricks: Briciau Carreg Nadd Pla
+  infested_deepslate: Dwfnlech Pla
   stone_bricks: Briciau Carreg
   mossy_stone_bricks: Briciau Carreg Mwsoglyd
   cracked_stone_bricks: Briciau Carreg Chwâl
   chiseled_stone_bricks: Briciau Carreg Nadd
+  deepslate_bricks: Briciau Dwfnlech
+  cracked_deepslate_bricks: Briciau Dwfnlech Chwâl
+  deepslate_tiles: Teils Dwfnlech
+  cracked_deepslate_tiles: Teils Dwfnlech Chwâl
+  chiseled_deepslate: Dwfnlech Nadd
   brown_mushroom_block: Bloc Madarch Brown
   red_mushroom_block: Bloc Madarch Coch
   mushroom_stem: Coesyn Madarch
@@ -258,14 +306,7 @@ material:
   glass_pane: Paen Gwydr
   melon: Melon
   vine: Gwinwydd
-  oak_fence_gate: Gât Ffens Dderw
-  spruce_fence_gate: Gât Ffens Byrwydd
-  birch_fence_gate: Gât Ffens Fedw
-  jungle_fence_gate: Gât Ffens Jyngl
-  acacia_fence_gate: Gât Ffens Acesia
-  dark_oak_fence_gate: Gât Ffens Dderw Dwywll
-  crimson_fence_gate: Gât Ffens Ruddgoch
-  warped_fence_gate: Gât Ffens Annaearol
+  glow_lichen: Cen Gloyw
   brick_stairs: Grisiau Bricsen
   stone_brick_stairs: Grisiau Bricsen Carreg
   mycelium: Myseliwm
@@ -280,11 +321,8 @@ material:
   end_stone: Carreg End
   end_stone_bricks: Briciau Carreg End
   dragon_egg: Ŵy Ddraig
-  redstone_lamp: Lamp Redstone
   sandstone_stairs: Grisiau Tywodfaen
-  emerald_ore: Mwyn Emrallt
   ender_chest: Cist Ender
-  tripwire_hook: Bachyn Weiren Faglu
   emerald_block: Bloc Emrallt
   spruce_stairs: Grisiau Pyrwydd
   birch_stairs: Grisiau Bedw
@@ -310,33 +348,18 @@ material:
   blackstone_wall: Wal Garregddu
   polished_blackstone_wall: Wal Garregddu Caboledig
   polished_blackstone_brick_wall: Wal Friciau Carregddu Caboledig
-  stone_button: Botwm Carreg
-  oak_button: Botwm Derw
-  spruce_button: Botwm Pyrwydd
-  birch_button: Botwm Bedw
-  jungle_button: Botwm Jyngl
-  acacia_button: Botwm Acesia
-  dark_oak_button: Botwm Derw Tywyll
-  crimson_button: Botwm Rhuddgoch
-  warped_button: Botwm Annaearol
-  polished_blackstone_button: Botwm Carregddu Caboledig
+  cobbled_deepslate_wall: Wal Ddwfnlech Coblog
+  polished_deepslate_wall: Wal Ddwfnlech Caboledig
+  deepslate_brick_wall: Wal Fricsen Dwfnlech
+  deepslate_tile_wall: Wal Teils Dwfnlech
   anvil: Einion
   chipped_anvil: Einion Dolciog
   damaged_anvil: Einion wedi'i Ddifrodi
-  trapped_chest: Magl-gist
-  light_weighted_pressure_plate: Gwasglechen Ysgafn
-  heavy_weighted_pressure_plate: Gwasglechen Trwm
-  daylight_detector: Synhwyrydd Golau Dydd
-  redstone_block: Bloc Redstone
-  nether_quartz_ore: Mwyn Cwarts Nether
-  hopper: Hopran
   chiseled_quartz_block: Bloc Cwarts Nadd
   quartz_block: Bloc Cwarts
   quartz_bricks: Briciau Cwarts
   quartz_pillar: Colofn Cwarts
   quartz_stairs: Grisiau Cwarts
-  activator_rail: Cledren Actifadydd
-  dropper: Gollyngwr
   white_terracotta: Terracotta Gwyn
   orange_terracotta: Terracotta Oren
   magenta_terracotta: Terracotta Majenta
@@ -354,7 +377,7 @@ material:
   red_terracotta: Terracotta Coch
   black_terracotta: Terracotta Du
   barrier: Rhwystr
-  iron_trapdoor: Drws Cudd Haearn
+  light: Golau
   hay_block: Bwrn Gwair
   white_carpet: Carped Gwyn
   orange_carpet: Carped Oren
@@ -373,12 +396,10 @@ material:
   red_carpet: Carped Coch
   black_carpet: Carped Du
   terracotta: Terracotta
-  coal_block: Bloc Glo
   packed_ice: Rhew Cywasgedig
   acacia_stairs: Grisiau Acesia
   dark_oak_stairs: Grisiau Derw Tywyll
-  slime_block: Bloc Sleim
-  grass_path: Llwybr Glaswellt
+  dirt_path: Llwybr Lludw
   sunflower: Blodyn yr Haul
   lilac: Lelog
   rose_bush: Llwyn Rhosod
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: Briciau Nether Coch
   bone_block: Bloc Asgwrn
   structure_void: Gwagle Strwythur
-  observer: Gwyliwr
   shulker_box: Blwch Shulker
   white_shulker_box: Blwch Shulker Gwyn
   orange_shulker_box: Blwch Shulker Oren
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: Grisiau Bricsen Nether Coch
   polished_andesite_stairs: Grisiau Andesit Caboledig
   diorite_stairs: Grisiau Diorit
+  cobbled_deepslate_stairs: Grisiau Dwfnlech Coblog
+  polished_deepslate_stairs: Grisiau Dwfnlech Caboledig
+  deepslate_brick_stairs: Grisiau Bricsen Dwfnlech
+  deepslate_tile_stairs: Grisiau Teils Dwfnlech
   polished_granite_slab: Slab Gwenithfaen Caboledig
   smooth_red_sandstone_slab: Slab Tywodfaen Coch Llyfn
   mossy_stone_brick_slab: Slab Bricsen Carreg Mwsoglyd
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: Slab Bricsen Nether Coch
   polished_andesite_slab: Slab Andesit Caboledig
   diorite_slab: Slab Diorit
+  cobbled_deepslate_slab: Slab Dwfnlech Coblog
+  polished_deepslate_slab: Slab Dwfnlech Caboledig
+  deepslate_brick_slab: Slab Bricsen Dwfnlech
+  deepslate_tile_slab: Slab Teils Dwfnlech
   scaffolding: Sgaffaldiau
+  redstone: Llwch Redstone
+  redstone_torch: Tors Redstone
+  redstone_block: Bloc Redstone
+  repeater: Ailadroddwr Redstone
+  comparator: Cymharydd Redstone
+  piston: Piston
+  sticky_piston: Piston Gludiog
+  slime_block: Bloc Sleim
+  honey_block: Bloc Mêl
+  observer: Gwyliwr
+  hopper: Hopran
+  dispenser: Dosbarthwr
+  dropper: Gollyngwr
+  lectern: Darllenfa
+  target: Targed
+  lever: Lifer
+  lightning_rod: Rhoden Fellt
+  daylight_detector: Synhwyrydd Golau Dydd
+  sculk_sensor: Synhwyrydd Sculk
+  tripwire_hook: Bachyn Weiren Faglu
+  trapped_chest: Magl-gist
+  tnt: TNT
+  redstone_lamp: Lamp Redstone
+  note_block: Bloc Nodyn
+  stone_button: Botwm Carreg
+  polished_blackstone_button: Botwm Carregddu Caboledig
+  oak_button: Botwm Derw
+  spruce_button: Botwm Pyrwydd
+  birch_button: Botwm Bedw
+  jungle_button: Botwm Jyngl
+  acacia_button: Botwm Acesia
+  dark_oak_button: Botwm Derw Tywyll
+  crimson_button: Botwm Rhuddgoch
+  warped_button: Botwm Annaearol
+  stone_pressure_plate: Gwasglechen Carreg
+  polished_blackstone_pressure_plate: Plât Pwysedd Carregddu Caboledig
+  light_weighted_pressure_plate: Gwasglechen Ysgafn
+  heavy_weighted_pressure_plate: Gwasglechen Trwm
+  oak_pressure_plate: Gwasglechen Derw
+  spruce_pressure_plate: Gwasglechen Pyrwydd
+  birch_pressure_plate: Gwasglechen Bedw
+  jungle_pressure_plate: Gwasglechen Jyngl
+  acacia_pressure_plate: Gwasglechen Acesia
+  dark_oak_pressure_plate: Gwasglechen Derw Tywyll
+  crimson_pressure_plate: Plât Pwysedd Rhuddgoch
+  warped_pressure_plate: Plât Pwysedd Annaearol
   iron_door: Drws Haearn
   oak_door: Drws Derw
   spruce_door: Drws Pyrwydd
@@ -572,8 +646,42 @@ material:
   dark_oak_door: Drws Derw Tywyll
   crimson_door: Drws Rhuddgoch
   warped_door: Drws Annaearol
-  repeater: Ailadroddwr Redstone
-  comparator: Cymharydd Redstone
+  iron_trapdoor: Drws Cudd Haearn
+  oak_trapdoor: Drws Cudd Derw
+  spruce_trapdoor: Drws Cudd Pyrwydd
+  birch_trapdoor: Drws Cudd Fedwen
+  jungle_trapdoor: Drws Cudd Jyngl
+  acacia_trapdoor: Drws Cudd Acesia
+  dark_oak_trapdoor: Drws Cudd Derw Tywyll
+  crimson_trapdoor: Drws Cudd Rhuddgoch
+  warped_trapdoor: Drws Cudd Annaearol
+  oak_fence_gate: Gât Ffens Dderw
+  spruce_fence_gate: Gât Ffens Byrwydd
+  birch_fence_gate: Gât Ffens Fedw
+  jungle_fence_gate: Gât Ffens Jyngl
+  acacia_fence_gate: Gât Ffens Acesia
+  dark_oak_fence_gate: Gât Ffens Dderw Dwywll
+  crimson_fence_gate: Gât Ffens Ruddgoch
+  warped_fence_gate: Gât Ffens Annaearol
+  powered_rail: Cledren â Phŵer
+  detector_rail: Cledren Synhwyrydd
+  rail: Cledren
+  activator_rail: Cledren Actifadydd
+  saddle: Cyfrwy
+  minecart: Cart Pwll
+  chest_minecart: Cart Pwll gyda Chist
+  furnace_minecart: Cart Pwll gyda Ffwrnais
+  tnt_minecart: Cart Pwll gyda TNT
+  hopper_minecart: Cart Pwll gyda Hopran
+  carrot_on_a_stick: Moronen ar Ffon
+  warped_fungus_on_a_stick: Ffwng Annaearol ar Ffon
+  elytra: Elytra
+  oak_boat: Cwch Derw
+  spruce_boat: Cwch Pyrwydd
+  birch_boat: Cwch Bedw
+  jungle_boat: Cwch Jyngl
+  acacia_boat: Cwch Acesia
+  dark_oak_boat: Cwch Derw Tywyll
   structure_block: Bloc Adeileddol
   jigsaw: Bloc Jig-sô
   turtle_helmet: Cragen Crwban
@@ -585,7 +693,15 @@ material:
   coal: Glo
   charcoal: Golosg
   diamond: Diemwnt
+  emerald: Emrallt
+  lapis_lazuli: Lapis-Laswli
+  quartz: Cwarts Nether
+  amethyst_shard: Telchyn Amethyst
+  raw_iron: Haearn Crai
   iron_ingot: Bar Haearn
+  raw_copper: Copr Crai
+  copper_ingot: Bar Copr
+  raw_gold: Aur Crai
   gold_ingot: Bar Aur
   netherite_ingot: Bar Netherit
   netherite_scrap: Sgrap Netherit
@@ -669,29 +785,27 @@ material:
   bucket: Bwced
   water_bucket: Bwced Dŵr
   lava_bucket: Bwced Lafa
-  minecart: Cart Pwll
-  saddle: Cyfrwy
-  redstone: Llwch Redstone
+  powder_snow_bucket: Bwced Eira Powdr
   snowball: Pelen Eira
-  oak_boat: Cwch Derw
   leather: Lledr
   milk_bucket: Bwced Llaeth
   pufferfish_bucket: Bwced o Chwyddbysgod
   salmon_bucket: Bwced o Eog
   cod_bucket: Bwced o Benfrasiaid
   tropical_fish_bucket: Bwced o Bysgod Trofannol
+  axolotl_bucket: Bwced o Acsolotlod
   brick: Bricsen
   clay_ball: Pelen Clai
   dried_kelp_block: Bloc Gwymon Sych
   paper: Papur
   book: Llyfr
   slime_ball: Pelen Sleim
-  chest_minecart: Cart Pwll gyda Chist
-  furnace_minecart: Cart Pwll gyda Ffwrnais
   egg: Wy
   compass: Cwmpawd
+  bundle: Bwndel
   fishing_rod: Gwialen Pysgota
   clock: Cloc
+  spyglass: Sbinglas
   glowstone_dust: Llwch Gloywgarreg
   cod: Penfras Amrwd
   salmon: Eog Amrwd
@@ -699,9 +813,9 @@ material:
   pufferfish: Chwyddbysgodyn
   cooked_cod: Penfras Rhost
   cooked_salmon: Eog Rhost
-  ink_sac: Sach Inc
+  ink_sac: Coden Inc
+  glow_ink_sac: Coden Inc Gloyw
   cocoa_beans: Ffa Coco
-  lapis_lazuli: Lapis-Laswli
   white_dye: Llifyn Gwyn
   orange_dye: Llifyn Oren
   magenta_dye: Llifyn Majenta
@@ -765,6 +879,7 @@ material:
   cauldron: Crochan
   ender_eye: Llygad Ender
   glistering_melon_slice: Tafell Melon Euraid
+  axolotl_spawn_egg: Wy Geni Acsolotl
   bat_spawn_egg: Wy Geni Ystlum
   bee_spawn_egg: Ŵy Geni Gwenyn
   blaze_spawn_egg: Wy Geni Tanfwystfil
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: Wy Geni Consuriwr
   fox_spawn_egg: Wy Geni Llwynog
   ghast_spawn_egg: Wy Geni Ghast
+  glow_squid_spawn_egg: Wy Geni Ystifflog Gloyw
+  goat_spawn_egg: Wy Geni Gafr
   guardian_spawn_egg: Wy Geni Gwarchodwr
   hoglin_spawn_egg: Ŵy Geni Hoglin
   horse_spawn_egg: Wy Geni Ceffyl
@@ -811,7 +928,7 @@ material:
   skeleton_horse_spawn_egg: Wy Geni Ceffyl Sgerbwd
   slime_spawn_egg: Wy Geni Sleim
   spider_spawn_egg: Wy Geni Pry Copyn
-  squid_spawn_egg: Wy Geni Sgwid
+  squid_spawn_egg: Wy Geni Ystifflog
   stray_spawn_egg: Wy Geni Crwydryn
   strider_spawn_egg: Ŵy Geni Brasgamwr
   trader_llama_spawn_egg: Wy Geni Lama Masnachwr
@@ -833,8 +950,8 @@ material:
   fire_charge: Pelen Dân
   writable_book: Llyfr a Chwilsen
   written_book: Llyfr a Ysgrifennwyd
-  emerald: Emrallt
   item_frame: Ffrâm Eitem
+  glow_item_frame: Ffrâm Eitem Gloyw
   flower_pot: Pot Blodau
   carrot: Moronen
   potato: Taten
@@ -848,17 +965,12 @@ material:
   zombie_head: Pen Sombi
   creeper_head: Pen Cripyr
   dragon_head: Pen Draig
-  carrot_on_a_stick: Moronen ar Ffon
-  warped_fungus_on_a_stick: Ffwng Annaearol ar Ffon
   nether_star: Seren Nether
   pumpkin_pie: Pei Pwmpen
   firework_rocket: Roced Tân Gwyllt
   firework_star: Seren Tân Gwyllt
   enchanted_book: Llyfr Hudolus
   nether_brick: Bricsen Nether
-  quartz: Cwarts Nether
-  tnt_minecart: Cart Pwll gyda TNT
-  hopper_minecart: Cart Pwll gyda Hopran
   prismarine_shard: Telchyn Prismarin
   prismarine_crystals: Crisialau Prismarin
   rabbit: Cwningen Amrwd
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: Saeth wedi'i Drochi
   lingering_potion: Diod Parhaus
   shield: Tarian
-  elytra: Elytra
-  spruce_boat: Cwch Pyrwydd
-  birch_boat: Cwch Bedw
-  jungle_boat: Cwch Jyngl
-  acacia_boat: Cwch Acesia
-  dark_oak_boat: Cwch Derw Tywyll
   totem_of_undying: Totem Anfarwol
   shulker_shell: Cragen Shulker
   iron_nugget: Clap Haearn
@@ -948,13 +1054,13 @@ material:
   cartography_table: Bwrdd Cartograffeg
   fletching_table: Bwrdd Pluo
   grindstone: Hogfaen
-  lectern: Darllenfa
   smithing_table: Bwrdd Gwaith Gof
   stonecutter: Naddwr Cerrig
   bell: Cloch
   lantern: Llusern
   soul_lantern: Llusern Enaid
   sweet_berries: Aeron Melys
+  glow_berries: Eirin Gloyw
   campfire: Tân Gwersyll
   soul_campfire: Tân Gwersyll Enaid
   shroomlight: Goleuffwng
@@ -962,12 +1068,8 @@ material:
   bee_nest: Nyth Gwenyn
   beehive: Cwch Gwenyn
   honey_bottle: Potel Fêl
-  honey_block: Bloc Mêl
   honeycomb_block: Bloc Dil Mêl
   lodestone: Tynfaen
-  netherite_block: Bloc Netherit
-  ancient_debris: Malurion Hynafol
-  target: Targed
   crying_obsidian: Wylolosgraig
   blackstone: Carregddu
   blackstone_slab: Slab Carregddu
@@ -982,6 +1084,28 @@ material:
   polished_blackstone_brick_stairs: Grisiau Briciau Carregddu Caboledig
   cracked_polished_blackstone_bricks: Briciau Carregddu Caboledig Chwâl
   respawn_anchor: Angor Atgyfodi
+  candle: Canwyll
+  white_candle: Canwyll Wen
+  orange_candle: Canwyll Oren
+  magenta_candle: Canwyll Majenta
+  light_blue_candle: Canwyll Las Golau
+  yellow_candle: Canwyll Felyn
+  lime_candle: Canwyll Leim
+  pink_candle: Canwyll Binc
+  gray_candle: Canwyll Lwyd
+  light_gray_candle: Canwyll Lwyd Golau
+  cyan_candle: Canwyll Wyrddlas
+  purple_candle: Canwyll Borffor
+  blue_candle: Canwyll Las
+  brown_candle: Canwyll Frown
+  green_candle: Canwyll Wyrdd
+  red_candle: Canwyll Goch
+  black_candle: Canwyll Ddu
+  small_amethyst_bud: Blagur Bychain Amethyst
+  medium_amethyst_bud: Blagur Canolog Amethyst
+  large_amethyst_bud: Blagur Mawr Amethyst
+  amethyst_cluster: Clwstwr Amethyst
+  pointed_dripstone: Diferfaen Pigfain
   water: Dŵr
   lava: Lafa
   tall_seagrass: Morwellt Tal
@@ -992,7 +1116,7 @@ material:
   soul_fire: Tân Enaid
   redstone_wire: Gwifren Redstone
   oak_wall_sign: Arwydd Wal Derw
-  spruce_wall_sign: Arwydd Mur Pyrwydd
+  spruce_wall_sign: Arwydd Wal Pyrwydd
   birch_wall_sign: Arwydd Wal Bedw
   acacia_wall_sign: Arwydd Wal Acesia
   jungle_wall_sign: Arwydd Wal Jyngl
@@ -1004,6 +1128,9 @@ material:
   attached_melon_stem: Coesyn Melon Ynghlwm
   pumpkin_stem: Coesyn Pwmpen
   melon_stem: Coesyn Melon
+  water_cauldron: Crochen Ddŵr
+  lava_cauldron: Crochen Lava
+  powder_snow_cauldron: Crochen Eira Powdr
   end_portal: Porth End
   cocoa: Coco
   tripwire: Weiren Faglu
@@ -1083,6 +1210,30 @@ material:
   potted_warped_fungus: Ffwng Annaearol mewn Pot
   potted_crimson_roots: Gwreiddiau Rhuddgoch mewn Pot
   potted_warped_roots: Gwreiddiau Annaearol mewn Pot
+  candle_cake: Teisien â Channwyll
+  white_candle_cake: Teisen â Channwyll Gwyn
+  orange_candle_cake: Teisen â Channwyll Oren
+  magenta_candle_cake: Teisen â Channwyll Majenta
+  light_blue_candle_cake: Teisen â Channwyll Glas Golau
+  yellow_candle_cake: Teisen â Channwyll Melyn
+  lime_candle_cake: Teisen â Channwyll Leim
+  pink_candle_cake: Teisen â Channwyll Pinc
+  gray_candle_cake: Teisen â Channwyll Llwyd
+  light_gray_candle_cake: Teisen â Channwyll Llwyd Golau
+  cyan_candle_cake: Teisen â Channwyll Gwyrddlas
+  purple_candle_cake: Teisen â Channwyll Porffor
+  blue_candle_cake: Teisen â Channwyll Glas
+  brown_candle_cake: Teisen â Channwyll Brown
+  green_candle_cake: Teisen â Channwyll Gwyrdd
+  red_candle_cake: Teisen â Channwyll Coch
+  black_candle_cake: Teisen â Channwyll Du
+  powder_snow: Eira Powdr
+  cave_vines: Gwinwydd Ogof
+  cave_vines_plant: Planhigyn Gwinwydd Ogof
+  big_dripleaf_stem: Coesyn Diferddeilen Fawr
+  potted_azalea_bush: Asalea Mewn Pot
+  potted_flowering_azalea_bush: Asalea Blodeuog Mewn Pot
+  grass_path: Llwybr Glaswellt
   zombie_pigman_spawn_egg: Ŵy Geni Mochddyn Sombi
   cactus_green: Gwyrdd Cactws
   dandelion_yellow: Melyn Dant Y Llew
@@ -1168,46 +1319,48 @@ biome:
   crimson_forest: Coedwig Rhuddgoch
   warped_forest: Coedwig Annaearol
   basalt_deltas: Deltâu Pilergraig
+  dripstone_caves: Ogofâu Diferfaen
+  lush_caves: Ogofâu Gwyrddlas
   nether: Nether
 enchantment:
-  fire_protection: Amddiffyniad Tân
-  sharpness: Min
-  flame: Fflam
-  soul_speed: Gwib Enaid
-  aqua_affinity: Cyfathrach Dŵr
-  punch: Dyrniad
-  loyalty: Teyrngarwch
-  depth_strider: Camwr y Dyfnderoedd
-  vanishing_curse: Melltith o Ddiflannu
-  unbreaking: Didorri
-  knockback: Curo 'nol
-  luck_of_the_sea: Lwc y Môr
-  binding_curse: Melltith o Rwymo
-  fortune: Ffortiwn
   protection: Amddiffyn
-  efficiency: Effeithlonrwydd
-  mending: Trwsio
-  frost_walker: Rhodiwr Rhew
-  lure: Llithiwr
-  looting: Ysbeilio
-  piercing: Treiddio
-  blast_protection: Amddiffyniad Ffrwydriad
-  smite: Taro
-  multishot: Aml-saethu
-  fire_aspect: Agwedd Tân
-  channeling: Sianelu
-  sweeping: Ymyl Ysgubol
-  thorns: Drain
-  bane_of_arthropods: Melltith Arthropodau
-  respiration: Respiradu
-  riptide: Tryfer Wîb
-  silk_touch: Cyffyrddiad Sidan
-  quick_charge: Llwytho Chwim
-  projectile_protection: Amddiffyniad Saeth
-  impaling: Trywanu
+  fire_protection: Amddiffyniad Tân
   feather_falling: Cwympiad Plu
+  blast_protection: Amddiffyniad Ffrwydriad
+  projectile_protection: Amddiffyniad Saeth
+  respiration: Respiradu
+  aqua_affinity: Cyfathrach Dŵr
+  thorns: Drain
+  depth_strider: Camwr y Dyfnderoedd
+  frost_walker: Rhodiwr Rhew
+  binding_curse: Melltith o Rwymo
+  sharpness: Min
+  smite: Taro
+  bane_of_arthropods: Melltith Arthropodau
+  knockback: Curo 'nol
+  fire_aspect: Agwedd Tân
+  looting: Ysbeilio
+  sweeping: Ymyl Ysgubol
+  efficiency: Effeithlonrwydd
+  silk_touch: Cyffyrddiad Sidan
+  unbreaking: Didorri
+  fortune: Ffortiwn
   power: Pŵer
+  punch: Dyrniad
+  flame: Fflam
   infinity: Anfeidredd
+  luck_of_the_sea: Lwc y Môr
+  lure: Llithiwr
+  loyalty: Teyrngarwch
+  impaling: Trywanu
+  riptide: Tryfer Wîb
+  channeling: Sianelu
+  multishot: Aml-saethu
+  quick_charge: Llwytho Chwim
+  piercing: Treiddio
+  mending: Trwsio
+  vanishing_curse: Melltith o Ddiflannu
+  soul_speed: Gwib Enaid
 potion:
   uncraftable: Diod Anghrefftadwy
   water: Potel Ddŵr
@@ -1366,7 +1519,7 @@ entity:
   sheep: Dafad
   cow: Buwch
   chicken: Iâr
-  squid: Sgwid
+  squid: Ystifflog
   wolf: Blaidd
   mushroom_cow: Mooshroom
   snowman: Golem Eira
@@ -1402,6 +1555,11 @@ entity:
   strider: Brasgamwr
   zoglin: Soglin
   piglin_brute: Piglin Brwnt
+  axolotl: Acsolotl
+  glow_item_frame: Ffrâm Eitem Gloyw
+  glow_squid: Ystifflog Gloyw
+  goat: Gafr
+  marker: Marciwr
   fishing_hook: Corcyn Pysgota
   lightning: Mellten
   player: Chwaraewr
@@ -2176,7 +2334,7 @@ new_banner_pattern:
   flower_banner_pattern: Luws Blodyn
   creeper_banner_pattern: Luws Crîpyr
   skull_banner_pattern: Luws Penglog
-  mojang_banner_pattern: Symbol
+  mojang_banner_pattern: Peth
   globe_banner_pattern: Glôb
   piglin_banner_pattern: Trwyn
 merchant_level:
@@ -2201,17 +2359,3 @@ villager_profession:
   shepherd: Bugail
   toolsmith: Gof Teclynau
   weaponsmith: Gof Arfau
-villager_career:
-  farmer: Ffermwr
-  fisherman: Pysgotwr
-  shepherd: Bugail
-  fletcher: Saethweithiwr
-  librarian: Llyfrgellydd
-  cartographer: Cartograffydd
-  cleric: Clerigwr
-  armorer: Arfogwr
-  weapon_smith: Gof Arfau
-  tool_smith: Gof Offer
-  butcher: Cigydd
-  leatherworker: Gweithiwr Lledr
-  nitwit: Twpsyn

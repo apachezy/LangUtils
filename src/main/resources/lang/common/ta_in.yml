@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:49                    #
+# Build time: 2021-07-04 21:46:04                    #
 # ####################################################
 language:
   code: ta_in
@@ -14,10 +14,17 @@ material:
   polished_diorite: பளபளப்பான Diorite
   andesite: அண்டிசைட்
   polished_andesite: பளபளப்பான ஆண்டிசைட்
+  deepslate: ஆழமான
+  cobbled_deepslate: கோபல்ட் டீப்ஸ்லேட்
+  polished_deepslate: வெட்டப்பட்ட ஆழமான
+  calcite: சுண்ணாம்புக்கல்
+  tuff: எரிமலை சாம்பற்பாரை
+  dripstone_block: சொட்டு கல் கனசதுரம்
   grass_block: குறுக்கு பிளாக்
   dirt: டர்ட்
   coarse_dirt: கரடுமுரடான அழுக்கு
   podzol: Podzol
+  rooted_dirt: வேரூன்றிய அழுக்கு
   crimson_nylium: கிரிம்சன் நைலியம்
   warped_nylium: வார்ப் நைலியம்
   cobblestone: உருளைக்கல்
@@ -39,10 +46,67 @@ material:
   sand: மணல்
   red_sand: சிவப்பு மணல்
   gravel: சரளை
-  gold_ore: தங்க ஓரே
-  iron_ore: இரும்பு தாது
   coal_ore: நிலக்கரி ஓரே
-  nether_gold_ore: நேதர் தங்க தாது
+  deepslate_coal_ore: ஆழமான நிலக்கரி தாது
+  iron_ore: இரும்பு தாது
+  deepslate_iron_ore: ஆழமான நிலக்கரி தாது
+  copper_ore: செப்பு தாது
+  deepslate_copper_ore: ஆழமான செப்பு தாது
+  gold_ore: தங்க ஓரே
+  deepslate_gold_ore: ஆழமான நிலக்கரி தாது
+  redstone_ore: ரெட்ஸ்டோன் ஓரே
+  deepslate_redstone_ore: ஆழமான நிலக்கரி தாது
+  emerald_ore: எமரால்டு தாது
+  deepslate_emerald_ore: ஆழமான நிலக்கரி தாது
+  lapis_ore: லாபீஸ் லஸுலி ஓரே
+  deepslate_lapis_ore: டீப்ஸ்லேட் லாபிஸ் லாசுலி தாது
+  diamond_ore: டயமண்ட் ஓரே
+  deepslate_diamond_ore: ஆழமான நிலக்கரி தாது
+  nether_gold_ore: நெதர் தங்க தாது
+  nether_quartz_ore: நெதர்லாந்தின் குவார்ட்ஸ்
+  ancient_debris: பண்டைய குப்பைகள்
+  coal_block: நிலக்கரி பிளாக்
+  raw_iron_block: மூல இரும்பின் தொகுதி
+  raw_copper_block: மூல தாமிரத்தின் தொகுதி
+  raw_gold_block: மூல தங்கத்தின் தொகுதி
+  amethyst_block: ஆமெத்திஸ்ட் கனசதுரம்
+  budding_amethyst: வளரும் ஆமெத்திஸ்ட்
+  iron_block: இரும்புத் தொகுதி
+  copper_block: தாமிரத்தின் தொகுதி
+  gold_block: தங்கம் பிளாக்
+  diamond_block: டயமண்ட் பிளாக்
+  netherite_block: நெதரைட்டின் தொகுதி
+  exposed_copper: அம்பலப்படுத்தப்பட்ட செம்பு
+  weathered_copper: செம்பு வளிமண்டலம்
+  oxidized_copper: ஆக்ஸிஜனேற்றப்பட்ட செம்பு
+  cut_copper: செதுக்கிய செப்பு
+  exposed_cut_copper: மெழுகு பூசிய செதுக்கிய செப்பு
+  weathered_cut_copper: பழுதான செதுக்கிய செப்பு
+  oxidized_cut_copper: மெழுகு பூசிய செதுக்கிய செப்பு
+  cut_copper_stairs: செதுக்கிய செப்பு படிகள்
+  exposed_cut_copper_stairs: மெழுகு பூசிய செதுக்கிய செப்பு படிகள்
+  weathered_cut_copper_stairs: பழுதான செதுக்கிய செப்பு படிகள்
+  oxidized_cut_copper_stairs: மெழுகு பூசிய செதுக்கிய செப்பு படிகள்
+  cut_copper_slab: செதுக்கிய செப்பு அறைகணசதுரம்
+  exposed_cut_copper_slab: மெழுகு பூசிய செதுக்கிய செப்பு படிகள்
+  weathered_cut_copper_slab: பழுதான செதுக்கிய செப்பு அறைகனசதுரம்
+  oxidized_cut_copper_slab: மெழுகு பூசிய செதுக்கிய செப்பு படிகள்
+  waxed_copper_block: செம்பு மெழுகு தொகுதி
+  waxed_exposed_copper: மெழுகு வெளிப்படுத்தப்பட்ட செம்பு
+  waxed_weathered_copper: மெழுகு வளிமண்டல செம்பு
+  waxed_oxidized_copper: மெழுகு ஆக்ஸிஜனேற்றப்பட்ட செம்பு
+  waxed_cut_copper: மெழுகு பூசிய செதுக்கிய செப்பு
+  waxed_exposed_cut_copper: மெழுகு வெளிப்படுத்தப்பட்ட வெட்டு தாமிரம்
+  waxed_weathered_cut_copper: மெழுகு வளிமண்டல வெட்டு செம்பு
+  waxed_oxidized_cut_copper: மெழுகு ஆக்ஸிஜனேற்றப்பட்ட வெட்டு செம்பு
+  waxed_cut_copper_stairs: மெழுகு பூசிய செதுக்கிய செப்பு படிகள்
+  waxed_exposed_cut_copper_stairs: மெழுகு வெளிப்படுத்தப்பட்ட வெட்டு செப்பு படிக்கட்டுகள்
+  waxed_weathered_cut_copper_stairs: மெழுகு வளிமண்டல வெட்டு செப்பு படிக்கட்டுகள்
+  waxed_oxidized_cut_copper_stairs: மெழுகு ஆக்ஸிஜனேற்றப்பட்ட வெட்டு செப்பு படிக்கட்டுகள்
+  waxed_cut_copper_slab: மெழுகு பூசிய செதுக்கிய செப்பு அறைகானசதுரம்
+  waxed_exposed_cut_copper_slab: மெழுகு வெளிப்படுத்தப்பட்ட வெட்டு காப்பர் ஸ்லாப்
+  waxed_weathered_cut_copper_slab: மெழுகு வளிமண்டல வெட்டு காப்பர் ஸ்லாப்
+  waxed_oxidized_cut_copper_slab: மெழுகு ஆக்ஸிஜனேற்றப்பட்ட வெட்டு காப்பர் ஸ்லாப்
   oak_log: ஓக் பதிவு
   spruce_log: ஸ்ப்ரூஸ் பதிவு
   birch_log: பிர்ச் பதிவு
@@ -81,26 +145,24 @@ material:
   jungle_leaves: ஜங்கிள் இலைகள்
   acacia_leaves: அகாசி இலைகள்
   dark_oak_leaves: டார்க் ஓக் இலைகள்
+  azalea_leaves: அசேலியா இலைகள்
+  flowering_azalea_leaves: பூக்கும் அசேலியா இலைகள்
   sponge: கடற்பாசி
   wet_sponge: வெட் கடற்பாசி
   glass: கண்ணாடி
-  lapis_ore: லாபீஸ் லஸுலி ஓரே
-  lapis_block: லேபிஸ் லாஜூலி பிளாக்
-  dispenser: வழங்கு
+  tinted_glass: நிறம் பூசப்பட்ட கண்ணாடி
+  lapis_block: லாபிஸ் லாசூலியின் தொகுதி
   sandstone: மணற்கல்
   chiseled_sandstone: சிஸ்டெல் சாண்ட்ஸ்டோன்
   cut_sandstone: வெட்டு மணல்
-  note_block: குறிப்பு தடு
-  powered_rail: திருத்தினோம் ரயில்
-  detector_rail: கண்டறிதல் ரயில்
-  sticky_piston: ஒட்டும் பிஸ்டன்
   cobweb: கோப்வெப்
   grass: புல்
   fern: பன்னம்
+  azalea: அசேலியா
+  flowering_azalea: பூக்கும் அசேலியா
   dead_bush: டெட் புஷ்
   seagrass: கடல் புல்
   sea_pickle: கடல் பிகில்
-  piston: பிஸ்டன்
   white_wool: வெள்ளை கம்பளி
   orange_wool: ஆரஞ்சு கம்பளி
   magenta_wool: மெஜந்தா கம்பளி
@@ -130,6 +192,7 @@ material:
   cornflower: கான்ஃபிளவர்
   lily_of_the_valley: பள்ளத்தாக்கு லில்லி
   wither_rose: வாட் ரோஸ்
+  spore_blossom: வித்து மலரும்
   brown_mushroom: பிரவுன் காளான்
   red_mushroom: சிவப்பு காளான்
   crimson_fungus: கிரிம்சன் பூஞ்சை
@@ -141,9 +204,12 @@ material:
   twisting_vines: முறுக்கு கொடிகள்
   sugar_cane: கரும்பு
   kelp: கெல்ப்
+  moss_carpet: பாசி கம்பளம்
+  moss_block: பாசி தொகுதி
+  hanging_roots: தொங்கும் வேர்கள்
+  big_dripleaf: பெரிய டிரிப்லீஃப்
+  small_dripleaf: சிறிய டிரிப்லீஃப்
   bamboo: மூங்கில்
-  gold_block: தங்கம் பிளாக்
-  iron_block: இரும்புத் தொகுதி
   oak_slab: ஓக் ஸ்லாப்
   spruce_slab: ஸ்ப்ரூஸ் ஸ்லாப்
   birch_slab: பிர்ச் ஸ்லாப்
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: மென்மையான மணல்
   smooth_stone: மென்மையான கல்
   bricks: செங்கல்கள்
-  tnt: டிஎன்டி
   bookshelf: புக்செல்ஃப்
   mossy_cobblestone: மோஸ்ஸி உருளைக்கல்
   obsidian: ஒபசிடியன் ஸ்டோன்
@@ -187,27 +252,11 @@ material:
   spawner: ஸ்பான்
   oak_stairs: ஓக் மாடி
   chest: மார்பு
-  diamond_ore: டயமண்ட் ஓரே
-  diamond_block: டயமண்ட் பிளாக்
   crafting_table: கைவினை அட்டவணை
   farmland: விவசாய நிலத்தை
   furnace: சூளை
   ladder: லேடர்
-  rail: ரயில்
   cobblestone_stairs: கோபல்ஸ்டோன் மாடிகளில்
-  lever: லீவர்
-  stone_pressure_plate: கல் அழுத்தம் தட்டு
-  oak_pressure_plate: ஓக் அழுத்தம் தட்டு
-  spruce_pressure_plate: ஸ்ப்ரூஸ் அழுத்தம் தட்டு
-  birch_pressure_plate: பிர்ச் அழுத்தம் தட்டு
-  jungle_pressure_plate: ஜங்கிள் அழுத்தம் தட்டு
-  acacia_pressure_plate: அக்ஸாரியா அழுத்தம் தட்டு
-  dark_oak_pressure_plate: டார்க் ஓக் அழுத்தம் தட்டு
-  crimson_pressure_plate: கிரிம்சன் பிரஷர் பிளேட்
-  warped_pressure_plate: வார்ப் பிரஷர் பிளேட்
-  polished_blackstone_pressure_plate: மெருகூட்டப்பட்ட பிளாக்ஸ்டோன் பிரஷர் பிளேட்
-  redstone_ore: ரெட்ஸ்டோன் ஓரே
-  redstone_torch: ரெட்ஸ்டோன் டார்ச்
   snow: ஸ்னோ
   ice: ஐஸ்
   snow_block: பனி தடுப்பு
@@ -224,32 +273,31 @@ material:
   warped_fence: திசைதிருப்பப்பட்ட வேலி
   pumpkin: பூசணிக்காய்
   carved_pumpkin: செதுக்கப்பட்ட பூசணி
+  jack_o_lantern: ஜாக் ஓ'லாந்தர்ன்
   netherrack: நரகத்தின் பாறை
   soul_sand: சோல் மணல்
   soul_soil: ஆத்மா மண்
   basalt: பசால்ட்
   polished_basalt: பளபளப்பான கருங்கல்
+  smooth_basalt: மென்மையான பசால்ட்
   soul_torch: சோல் டார்ச்
   glowstone: ஒளி கல்
-  jack_o_lantern: ஜாக் ஓ'லாந்தர்ன்
-  oak_trapdoor: ஓக் ட்ராபர்டு
-  spruce_trapdoor: ஸ்ப்ரூஸ் ட்ராபர்டு
-  birch_trapdoor: பிர்ச் டிராபூர்
-  jungle_trapdoor: ஜங்கிள் டிராபூர்
-  acacia_trapdoor: அகாசியா ட்ராபர்டு
-  dark_oak_trapdoor: டார்க் ஓக் ட்ராபர்டு
-  crimson_trapdoor: கிரிம்சன் டிராப்டூர்
-  warped_trapdoor: வார்ப் டிராப்டோர்
   infested_stone: இன்ஸ்டஸ்ட் ஸ்டோன்
   infested_cobblestone: பாதிக்கப்பட்ட உருளைக்கல்
   infested_stone_bricks: இன்ஸ்ட்டெட் ஸ்டோன் பிரிக்ஸ்
   infested_mossy_stone_bricks: பாதிக்கப்பட்ட மோஸ்ஸி கல் செங்கல்கள்
   infested_cracked_stone_bricks: உள்ளார்ந்த கிராக் ஸ்டோன் பிரிக்ஸ்
   infested_chiseled_stone_bricks: உட்செலுத்தப்பட்ட கல் வெட்டப்பட்ட செங்கற்கள்
+  infested_deepslate: வெட்டப்பட்ட ஆழமான
   stone_bricks: கல் செங்கல்கள்
   mossy_stone_bricks: மோசி ஸ்டோன் பிரிக்ஸ்
   cracked_stone_bricks: கிராக் ஸ்டோன் பிரிக்ஸ்
   chiseled_stone_bricks: சிசிடல் ஸ்டோன் பிரிக்ஸ்
+  deepslate_bricks: ஆழமான செங்கற்கள்
+  cracked_deepslate_bricks: கிராக் டீப்ஸ்லேட் செங்கற்கள்
+  deepslate_tiles: ஆழமான ஓடுகள்
+  cracked_deepslate_tiles: கிராக் டீப்ஸ்லேட் செங்கற்கள்
+  chiseled_deepslate: வெட்டப்பட்ட ஆழமான
   brown_mushroom_block: பிரவுன் காளான் பிளாக்
   red_mushroom_block: சிவப்பு மஷ்ரூம் பிளாக்
   mushroom_stem: காளான் தண்டு
@@ -258,14 +306,7 @@ material:
   glass_pane: கண்ணாடி பேன்
   melon: முலாம்பழம்
   vine: கொடிகள்
-  oak_fence_gate: ஓக் வேலி கேட்
-  spruce_fence_gate: ஸ்ப்ரூஸ் வேலி கேட்
-  birch_fence_gate: பிர்ச் வேலி கேட்
-  jungle_fence_gate: ஜங்கிள் ஃபென்ஸ் கேட்
-  acacia_fence_gate: அகாசி வேலி நுழைவாயில்
-  dark_oak_fence_gate: டார்க் ஓக் வேலி கேட்
-  crimson_fence_gate: கிரிம்சன் வேலி வாயில்
-  warped_fence_gate: திசைதிருப்பப்பட்ட வேலி வாயில்
+  glow_lichen: ஒளிரும் லிச்சென்
   brick_stairs: செங்கல் மாடி
   stone_brick_stairs: கல் செங்கல் மாடி
   mycelium: பூசண
@@ -280,11 +321,8 @@ material:
   end_stone: முடிவு கல்
   end_stone_bricks: முடிவு கல் செங்கல்கள்
   dragon_egg: டிராகன் முட்டை
-  redstone_lamp: ரெட்ஸ்டோன் லேம்ப்
   sandstone_stairs: மணல் மாடி
-  emerald_ore: எமரால்டு தாது
   ender_chest: எண்டர் செஸ்ட்
-  tripwire_hook: ட்ரிப்வைர் ஹூக்
   emerald_block: எமரால்டு தடுப்பு
   spruce_stairs: ஸ்ப்ரூஸ் மாடிகளில்
   birch_stairs: பிர்ச் படிக்கட்டுகள்
@@ -310,33 +348,18 @@ material:
   blackstone_wall: கருப்புக்கல் சுவர்
   polished_blackstone_wall: மெருகூட்டப்பட்ட பிளாக்ஸ்டோன் சுவர்
   polished_blackstone_brick_wall: மெருகேற்றப்பட்ட கருப்புக்கல் செங்கல் சுவர்
-  stone_button: ஸ்டோன் பட்டன்
-  oak_button: ஓக் பட்டன்
-  spruce_button: ஸ்ப்ரூஸ் பட்டன்
-  birch_button: பிர்ச் பட்டன்
-  jungle_button: ஜங்கிள் பட்டன்
-  acacia_button: அகாசி பட்டன்
-  dark_oak_button: டார்க் ஓக் பட்டன்
-  crimson_button: கிரிம்சன் பட்டன்
-  warped_button: வார்ப்பட் பட்டன்
-  polished_blackstone_button: மெருகூட்டப்பட்ட பிளாக்ஸ்டோன் பொத்தான்
+  cobbled_deepslate_wall: கோபல்ட் டீப்ஸ்லேட் சுவர்
+  polished_deepslate_wall: மெருகூட்டப்பட்ட ஆழமான சுவர்
+  deepslate_brick_wall: ஆழமான செங்கல் சுவர்
+  deepslate_tile_wall: ஆழமான செங்கல் சுவர்
   anvil: பட்டறை
   chipped_anvil: முட்டாள் அன்வில்
   damaged_anvil: சேதமடைந்த அன்வில்
-  trapped_chest: சிக்கிய மார்பு
-  light_weighted_pressure_plate: லேசான எடை கொண்ட அழுத்தம் தட்டு
-  heavy_weighted_pressure_plate: கனரக எடை அழுத்த அழுத்தம்
-  daylight_detector: பகல் கண்டறிதல்
-  redstone_block: சிவப்பு கல் தொகுதி
-  nether_quartz_ore: நெதர்லாந்தின் குவார்ட்ஸ்
-  hopper: ஹாப்பர்
   chiseled_quartz_block: சிசல்ட் குவார்ட்ஸ் பிளாக்
   quartz_block: குவார்ட்ஸ் பிளாக்
   quartz_bricks: குவார்ட்ஸ் செங்கற்கள்
   quartz_pillar: குவார்ட்ஸ் தூண்
   quartz_stairs: குவார்ட்ஸ் படிக்கட்டுகள்
-  activator_rail: செயல்பாட்டாளர் ரயில்
-  dropper: துளிசொட்டி
   white_terracotta: வெள்ளை டெர்ராகோட்டா
   orange_terracotta: ஆரஞ்சு டெர்ராகோட்டா
   magenta_terracotta: மெஜந்த டெர்ராகோட்டா
@@ -354,7 +377,7 @@ material:
   red_terracotta: ரெட் டெர்ரகோட்டா
   black_terracotta: கருப்பு டெர்ரகோட்டா
   barrier: தடை
-  iron_trapdoor: அயன் ட்ராபர்டு
+  light: ஒளி
   hay_block: ஹே பேல்
   white_carpet: வெள்ளை கம்பளம்
   orange_carpet: ஆரஞ்சு கார்பெட்
@@ -373,12 +396,10 @@ material:
   red_carpet: சிவப்பு கம்பளம்
   black_carpet: பிளாக் கார்பெட்
   terracotta: சிவப்பாய்
-  coal_block: நிலக்கரி பிளாக்
   packed_ice: பேக் ஐஸ்
   acacia_stairs: அகாசி ஸ்டேர்ஸ்
   dark_oak_stairs: டார்க் ஓக் மாடி
-  slime_block: மெல்லிய பிளாக்
-  grass_path: புல் பாத்
+  dirt_path: அழுக்கு பாதை
   sunflower: சூரியகாந்தி
   lilac: இளஞ்சிவப்பு
   rose_bush: ரோஸ் புஷ்
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: ரெட் நெதர் பிரிக்ஸ்
   bone_block: எலும்பு பிளாக்
   structure_void: அமைப்பு வெற்றிடத்தை
-  observer: அப்சர்வர்
   shulker_box: ஷுல்கர் பெட்டி
   white_shulker_box: வெள்ளை ஷுல்கர் பெட்டி
   orange_shulker_box: ஆரஞ்சு ஷூல்கர் பெட்டி
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: ரெட் நெதர் செங்கல் மாடி
   polished_andesite_stairs: பளபளப்பான ஆன்டிசைட் படிக்கட்டுகள்
   diorite_stairs: கிரானைட் படிக்கட்டுகள்
+  cobbled_deepslate_stairs: கோபல்ட் டீப்ஸ்லேட் படிக்கட்டுகள்
+  polished_deepslate_stairs: மெருகூட்டப்பட்அடுக்கு
+  deepslate_brick_stairs: ஆழமான செங்கல் படிக்கட்டுகள்
+  deepslate_tile_stairs: ஆழமான செங்கல் படிக்கட்டுகள்
   polished_granite_slab: பளபளப்பான கிரானைட் ஸ்லாப்
   smooth_red_sandstone_slab: மென்மையான சிவப்பு மணற்கல் மாடி
   mossy_stone_brick_slab: மோசி ஸ்டோன் பிரிக் ஸ்லாப்
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: ரெட் நெதர் ப்ரிக் ஸ்லாப்
   polished_andesite_slab: பளபளப்பான ஆன்டிசைட் ஸ்லாப்
   diorite_slab: தியரிட் ஸ்லாப்
+  cobbled_deepslate_slab: ஒரு வேளை
+  polished_deepslate_slab: மெருகூட்டப்பட்ட ஆழமான அடுக்கு
+  deepslate_brick_slab: ஆழமான செங்கற்கள்
+  deepslate_tile_slab: ஆழமான செங்கற்கள்
   scaffolding: சாரக்கட்டு
+  redstone: ரெட்ஸ்டோன் டஸ்ட்
+  redstone_torch: ரெட்ஸ்டோன் டார்ச்
+  redstone_block: சிவப்பு கல் தொகுதி
+  repeater: ரெட்ஸ்டோன் ரிப்பீட்டர்
+  comparator: ரெட்ஸ்டோன் ஒப்பீட்டாளர்
+  piston: பிஸ்டன்
+  sticky_piston: ஒட்டும் பிஸ்டன்
+  slime_block: மெல்லிய பிளாக்
+  honey_block: தேன் தொகுதி
+  observer: அப்சர்வர்
+  hopper: ஹாப்பர்
+  dispenser: வழங்கு
+  dropper: துளிசொட்டி
+  lectern: இதனூடாக
+  target: இலக்கு
+  lever: லீவர்
+  lightning_rod: மின்னல் ஈற்பு கம்பி
+  daylight_detector: பகல் கண்டறிதல்
+  sculk_sensor: ஸ்கல்க் சென்சார்
+  tripwire_hook: ட்ரிப்வைர் ஹூக்
+  trapped_chest: சிக்கிய மார்பு
+  tnt: டிஎன்டி
+  redstone_lamp: ரெட்ஸ்டோன் லேம்ப்
+  note_block: குறிப்பு தடு
+  stone_button: ஸ்டோன் பட்டன்
+  polished_blackstone_button: மெருகூட்டப்பட்ட பிளாக்ஸ்டோன் பொத்தான்
+  oak_button: ஓக் பட்டன்
+  spruce_button: ஸ்ப்ரூஸ் பட்டன்
+  birch_button: பிர்ச் பட்டன்
+  jungle_button: ஜங்கிள் பட்டன்
+  acacia_button: அகாசி பட்டன்
+  dark_oak_button: டார்க் ஓக் பட்டன்
+  crimson_button: கிரிம்சன் பட்டன்
+  warped_button: வார்ப்பட் பட்டன்
+  stone_pressure_plate: கல் அழுத்தம் தட்டு
+  polished_blackstone_pressure_plate: மெருகூட்டப்பட்ட பிளாக்ஸ்டோன் பிரஷர் பிளேட்
+  light_weighted_pressure_plate: லேசான எடை கொண்ட அழுத்தம் தட்டு
+  heavy_weighted_pressure_plate: கனரக எடை அழுத்த அழுத்தம்
+  oak_pressure_plate: ஓக் அழுத்தம் தட்டு
+  spruce_pressure_plate: ஸ்ப்ரூஸ் அழுத்தம் தட்டு
+  birch_pressure_plate: பிர்ச் அழுத்தம் தட்டு
+  jungle_pressure_plate: ஜங்கிள் அழுத்தம் தட்டு
+  acacia_pressure_plate: அக்ஸாரியா அழுத்தம் தட்டு
+  dark_oak_pressure_plate: டார்க் ஓக் அழுத்தம் தட்டு
+  crimson_pressure_plate: கிரிம்சன் பிரஷர் பிளேட்
+  warped_pressure_plate: வார்ப் பிரஷர் பிளேட்
   iron_door: இரும்பு கதவு
   oak_door: ஓக் கதவு
   spruce_door: ஸ்ப்ரூஸ் கதவு
@@ -572,8 +646,42 @@ material:
   dark_oak_door: டார்க் ஓக் கதவு
   crimson_door: கிரிம்சன் கதவு
   warped_door: வார்ப் டோர்
-  repeater: ரெட்ஸ்டோன் ரிப்பீட்டர்
-  comparator: ரெட்ஸ்டோன் ஒப்பீட்டாளர்
+  iron_trapdoor: அயன் ட்ராபர்டு
+  oak_trapdoor: ஓக் ட்ராபர்டு
+  spruce_trapdoor: ஸ்ப்ரூஸ் ட்ராபர்டு
+  birch_trapdoor: பிர்ச் டிராபூர்
+  jungle_trapdoor: ஜங்கிள் டிராபூர்
+  acacia_trapdoor: அகாசியா ட்ராபர்டு
+  dark_oak_trapdoor: டார்க் ஓக் ட்ராபர்டு
+  crimson_trapdoor: கிரிம்சன் டிராப்டூர்
+  warped_trapdoor: வார்ப் டிராப்டோர்
+  oak_fence_gate: ஓக் வேலி கேட்
+  spruce_fence_gate: ஸ்ப்ரூஸ் வேலி கேட்
+  birch_fence_gate: பிர்ச் வேலி கேட்
+  jungle_fence_gate: ஜங்கிள் ஃபென்ஸ் கேட்
+  acacia_fence_gate: அகாசி வேலி நுழைவாயில்
+  dark_oak_fence_gate: டார்க் ஓக் வேலி கேட்
+  crimson_fence_gate: கிரிம்சன் வேலி வாயில்
+  warped_fence_gate: திசைதிருப்பப்பட்ட வேலி வாயில்
+  powered_rail: திருத்தினோம் ரயில்
+  detector_rail: கண்டறிதல் ரயில்
+  rail: ரயில்
+  activator_rail: செயல்பாட்டாளர் ரயில்
+  saddle: சேணம்
+  minecart: வேகன்
+  chest_minecart: மார்போடு மின்கார்ட்
+  furnace_minecart: உலைகளுடன் மின்கார்ட்
+  tnt_minecart: டி. என். டி உடன் மின்கார்ட்
+  hopper_minecart: ஹாப்பருடன் மின்கார்ட்
+  carrot_on_a_stick: ஒரு குச்சி மீது கேரட்
+  warped_fungus_on_a_stick: திசைதிருப்பல் பூஞ்சை ஒரு குச்சி
+  elytra: இறக்கை மூடி
+  oak_boat: ஓக் படகு
+  spruce_boat: ஸ்ப்ரூஸ் படகு
+  birch_boat: பிர்ச் படகு
+  jungle_boat: ஜங்கிள் படகு
+  acacia_boat: அகாசி படகு
+  dark_oak_boat: டார்க் ஓக் படகு
   structure_block: கட்டமைப்பு பிளாக்
   jigsaw: ஜிக் பிளாக்
   turtle_helmet: ஆமை ஷெல்
@@ -585,7 +693,15 @@ material:
   coal: நிலக்கரி
   charcoal: கரி
   diamond: டயமண்ட்
+  emerald: எமரால்டு
+  lapis_lazuli: லேபிஸ் லாஜூலி
+  quartz: நேதர் குவார்ட்ஸ்
+  amethyst_shard: ஆமெதிஸ்ட் சில்லு
+  raw_iron: மூல இரும்பு
   iron_ingot: இரும்பு இங்காட்
+  raw_copper: மூல செம்பு
+  copper_ingot: செப்பு இங்காட்
+  raw_gold: மூல தங்கம்
   gold_ingot: தங்க இகோட்
   netherite_ingot: நெதரைட் இங்காட்
   netherite_scrap: நெதரைட் ஸ்கிராப்
@@ -669,29 +785,27 @@ material:
   bucket: வாளி
   water_bucket: நீர் வாளி
   lava_bucket: லாவா பக்கெட்
-  minecart: வேகன்
-  saddle: சேணம்
-  redstone: ரெட்ஸ்டோன் டஸ்ட்
+  powder_snow_bucket: பொடியான பனி வாளி
   snowball: பனிப்பந்து
-  oak_boat: ஓக் படகு
   leather: தோல்
   milk_bucket: பால் பருந்து
   pufferfish_bucket: பஃபெர்ஃபி ஆஃப் பஃபெர்ஃபி
   salmon_bucket: சால்மன் வாளி
   cod_bucket: காட் பக்
   tropical_fish_bucket: வெப்பமண்டல மீன் வாளி
+  axolotl_bucket: ஆக்சோலோட்டில் வாலி
   brick: செங்கல்
   clay_ball: களிமண் பந்து
   dried_kelp_block: உலர்ந்த கெல்ப் பிளாக்
   paper: காகிதம்
   book: புத்தகம்
   slime_ball: இழிந்த தன்மையுடைய நபர்
-  chest_minecart: மார்போடு மின்கார்ட்
-  furnace_minecart: உலைகளுடன் மின்கார்ட்
   egg: முட்டை
   compass: திசைகாட்டி
+  bundle: மூட்டை
   fishing_rod: மீன்பிடி ராட்
   clock: கடிகாரம்
+  spyglass: உளவுக்கண்ணாடி
   glowstone_dust: க்ளோஸ்டோன் தூசி
   cod: ரா காட்
   salmon: மூல சால்மன்
@@ -700,8 +814,8 @@ material:
   cooked_cod: சமைத்த காட்
   cooked_salmon: சமைத்த சால்மன்
   ink_sac: மைப்பை
+  glow_ink_sac: ஒளிர் மை சாக்கு
   cocoa_beans: கோகோ பீன்ஸ்
-  lapis_lazuli: லேபிஸ் லாஜூலி
   white_dye: வெள்ளை சாயம்
   orange_dye: ஆரஞ்சு சாயம்
   magenta_dye: மெஜந்தா சாயம்
@@ -765,6 +879,7 @@ material:
   cauldron: கொப்பரை
   ender_eye: எண்டரின் கண்
   glistering_melon_slice: மெலனோ ஸ்லஸ்
+  axolotl_spawn_egg: ஆக்சொலோடில் தோற்ற முட்டை
   bat_spawn_egg: பேட் ஸ்பான் முட்டை
   bee_spawn_egg: தேனீ ஸ்பான் முட்டை
   blaze_spawn_egg: பிளேஸ் ஸ்பான் முட்டை
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: வருவதற்காகஆர் ஸ்பான் முட்டை
   fox_spawn_egg: ஃபாக்ஸ் ஸ்பான் முட்டை
   ghast_spawn_egg: காஸ்ட் ஸ்பான் முட்டை
+  glow_squid_spawn_egg: ஒளிர் ஸ்குயிட் தோற்ற முட்டை
+  goat_spawn_egg: ஆடு ஸ்பான் முட்டை
   guardian_spawn_egg: கார்டியன் ஸ்பான் முட்டை
   hoglin_spawn_egg: ஹாக்லின் ஸ்பான் முட்டை
   horse_spawn_egg: குதிரை ஸ்பான் முட்டை
@@ -833,8 +950,8 @@ material:
   fire_charge: தீ கட்டணம்
   writable_book: புத்தகம் மற்றும் குயில்
   written_book: எழுதப்பட்ட புத்தகம்
-  emerald: எமரால்டு
   item_frame: பொருள் சட்டகம்
+  glow_item_frame: ஒளிரும் பொருள் சட்டகம்
   flower_pot: மலர் பாட்
   carrot: கேரட்
   potato: உருளைக்கிழங்கு
@@ -848,17 +965,12 @@ material:
   zombie_head: சோம்பை தலை
   creeper_head: க்ரீப்பர் ஹெட்
   dragon_head: டிராகன் தலைமை
-  carrot_on_a_stick: ஒரு குச்சி மீது கேரட்
-  warped_fungus_on_a_stick: திசைதிருப்பல் பூஞ்சை ஒரு குச்சி
   nether_star: நெதர் ஸ்டார்
   pumpkin_pie: பூசணி பை
   firework_rocket: வாணவேடிக்கை ராக்கெட்
   firework_star: வாணவேடிக்கை நட்சத்திரம்
   enchanted_book: மந்திரித்த புத்தகம்
   nether_brick: நார் செங்கல்
-  quartz: நேதர் குவார்ட்ஸ்
-  tnt_minecart: டி. என். டி உடன் மின்கார்ட்
-  hopper_minecart: ஹாப்பருடன் மின்கார்ட்
   prismarine_shard: பிரிஸ்மரைன் ஷார்ட்
   prismarine_crystals: பிரிஸ்மரைன் படிகங்கள்
   rabbit: ரா ராபிட்
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: தலைகீழ் அம்பு
   lingering_potion: நீடித்த போஷன்
   shield: கேடயம்
-  elytra: இறக்கை மூடி
-  spruce_boat: ஸ்ப்ரூஸ் படகு
-  birch_boat: பிர்ச் படகு
-  jungle_boat: ஜங்கிள் படகு
-  acacia_boat: அகாசி படகு
-  dark_oak_boat: டார்க் ஓக் படகு
   totem_of_undying: மொத்தம் நீக்குதல்
   shulker_shell: சுல்கர் ஷெல்
   iron_nugget: இரும்பு நகம்
@@ -948,13 +1054,13 @@ material:
   cartography_table: வரைபட அட்டவணை
   fletching_table: ஃபிளெக்கிங் டேபிள்
   grindstone: அம்மி
-  lectern: இதனூடாக
   smithing_table: ஸ்மிமிங் டேபிள்
   stonecutter: கல்கட்டர்
   bell: பெல்
   lantern: விளக்கு
   soul_lantern: சோல் விளக்கு
   sweet_berries: இனிப்பு பெர்ரி
+  glow_berries: பளபளப்பான பெர்ரி
   campfire: முகாமில் மூட்டும் நெருப்பு
   soul_campfire: சோல் கேம்ப்ஃபயர்
   shroomlight: ஷ்ரூம்லைட்
@@ -962,12 +1068,8 @@ material:
   bee_nest: தேனீ கூடு
   beehive: தேன் கூடு
   honey_bottle: ஒரு பாட்டில் தேன்
-  honey_block: தேன் தொகுதி
   honeycomb_block: தேன்கூடு தொகுதி
   lodestone: மடய்கல்
-  netherite_block: நெதரைட்டின் தொகுதி
-  ancient_debris: பண்டைய குப்பைகள்
-  target: இலக்கு
   crying_obsidian: அழுகை அப்சிடியன்
   blackstone: கருப்புக்கல்
   blackstone_slab: கருப்புக்கல் பலகை
@@ -982,6 +1084,28 @@ material:
   polished_blackstone_brick_stairs: மெருகேற்றப்பட்ட கருப்புக்கல் செங்கல் படிக்கட்டுகள்
   cracked_polished_blackstone_bricks: கிராக் செய்யப்பட்ட பளபளப்பான பிளாக்ஸ்டோன் செங்கற்கள்
   respawn_anchor: மறுதோற்ற நங்கூரம்
+  candle: மெழுகுவர்த்தி
+  white_candle: வெள்ளை மெழுகுவர்த்தி
+  orange_candle: ஆரஞ்சு மெழுகுவர்த்தி
+  magenta_candle: மெஜந்தா மெழுகுவர்த்தி
+  light_blue_candle: வெளிர் நீல மெழுகுவர்த்தி
+  yellow_candle: மஞ்சள் மெழுகுவர்த்தி
+  lime_candle: சுண்ணாம்பு மெழுகுவர்த்தி
+  pink_candle: இளஞ்சிவப்பு மெழுகுவர்த்தி
+  gray_candle: சாம்பல் மெழுகுவர்த்தி
+  light_gray_candle: வெளிர் சாம்பல் மெழுகுவர்த்தி
+  cyan_candle: சியான் மெழுகுவர்த்தி
+  purple_candle: ஊதா மெழுகுவர்த்தி
+  blue_candle: நீல மெழுகுவர்த்தி
+  brown_candle: பிரவுன் மெழுகுவர்த்தி
+  green_candle: பச்சை மெழுகுவர்த்தி
+  red_candle: சிவப்பு மெழுகுவர்த்தி
+  black_candle: கருப்பு மெழுகுவர்த்தி
+  small_amethyst_bud: சிறிய ஆமெத்திஸ்ட் மொட்டு
+  medium_amethyst_bud: நடுத்தர அளவிலான ஆமெத்திஸ்ட் மொட்டு
+  large_amethyst_bud: பெரிய ஆமெத்திஸ்ட் மொட்டு
+  amethyst_cluster: ஆமெத்திஸ்ட் கொத்து
+  pointed_dripstone: கூர்மையான சொட்டு கள்
   water: நீர்
   lava: எரிமலைக்குழம்பு
   tall_seagrass: உயரமான சீகிராஸ்
@@ -1004,6 +1128,9 @@ material:
   attached_melon_stem: இணைக்கப்பட்ட மெலோன் ஸ்டெம்
   pumpkin_stem: பூசணி தண்டு
   melon_stem: மெலோன் ஸ்டெம்
+  water_cauldron: தண்ணீர்கொதிகலன்
+  lava_cauldron: லாவா கொதிகலன்
+  powder_snow_cauldron: தூள் பனி கால்ட்ரான்
   end_portal: இறுதி வலைவாசல்
   cocoa: கோகோ
   tripwire: ட்ரிப்வைர்
@@ -1083,6 +1210,30 @@ material:
   potted_warped_fungus: பானை வார்ப்பட் பூஞ்சை
   potted_crimson_roots: பானை கிரிம்சன் வேர்கள்
   potted_warped_roots: பானை வார்ப் வேர்கள்
+  candle_cake: மஞ்சள் மெழுகுவர்த்தி
+  white_candle_cake: வெள்ளை மெழுகுவர்த்தியுடன் கேக்
+  orange_candle_cake: ஆரஞ்சு மெழுகுவர்த்தியுடன் கேக்
+  magenta_candle_cake: ஒரு வேளை
+  light_blue_candle_cake: வெளிர் நீல மெழுகுவர்த்தியுடன் கேக்
+  yellow_candle_cake: மஞ்சள் மெழுகுவர்த்தியுடன் கேக்
+  lime_candle_cake: சுண்ணாம்பு மெழுகுவர்த்தியுடன் கேக்
+  pink_candle_cake: பிங்க் மெழுகுவர்த்தியுடன் கேக்
+  gray_candle_cake: சாம்பல் மெழுகுவர்த்தியுடன் கேக்
+  light_gray_candle_cake: ஒளி சாம்பல் மெழுகுவர்த்தியுடன் கேக்
+  cyan_candle_cake: சியான் மெழுகுவர்த்தியுடன் கேக்
+  purple_candle_cake: ஊதா மெழுகுவர்த்தியுடன் கேக்
+  blue_candle_cake: நீல மெழுகுவர்த்தியுடன் கேக்
+  brown_candle_cake: பிரவுன் மெழுகுவர்த்தியுடன் கேக்
+  green_candle_cake: பச்சை மெழுகுவர்த்தியுடன் கேக்
+  red_candle_cake: சிவப்பு மெழுகுவர்த்தியுடன் கேக்
+  black_candle_cake: கருப்பு மெழுகுவர்த்தியுடன் கேக்
+  powder_snow: பொடிபொன்ற பனி
+  cave_vines: குகை கொடிகள்
+  cave_vines_plant: குகை கொடிகள் ஆலை
+  big_dripleaf_stem: பெரிய டிரிப்லெஃப் ஸ்டெம்
+  potted_azalea_bush: பானை அசேலியா
+  potted_flowering_azalea_bush: பானை பூக்கும் அசேலியா
+  grass_path: புல் பாத்
   zombie_pigman_spawn_egg: சோம்பை பிக்மன் ஸ்பான் முட்டை
   wall_sign: வோல் சைன்
 biome:
@@ -1165,46 +1316,48 @@ biome:
   crimson_forest: கிரிம்சன் காடு
   warped_forest: திசைதிருப்பப்பட்ட காடு
   basalt_deltas: பசால்ட் டெல்டாஸ்
+  dripstone_caves: சொட்டு கற்கள்
+  lush_caves: பசுமையான குகைகள்
   nether: அடியில்
 enchantment:
-  fire_protection: தீ பாதுகாப்பு
-  sharpness: கூர்மை
-  flame: சுடர்
-  soul_speed: ஆத்ம வேகம்
-  aqua_affinity: அக்வா இணைப்பு
-  punch: பன்ச்
-  loyalty: லாயல்டி
-  depth_strider: ஆழம் ஸ்ட்ரைடர்
-  vanishing_curse: மறைந்துபோன சாபம்
-  unbreaking: உடைக்காத
-  knockback: மீண்டும் தட்டுங்கள்
-  luck_of_the_sea: கடல் அதிர்ஷ்டம்
-  binding_curse: பிணைப்பு சாபம்
-  fortune: அதிர்ஷ்டம்
   protection: பாதுகாப்பு
-  efficiency: செயல்திறன்
-  mending: பொருந்தச்செய்தல்
-  frost_walker: ஃப்ரோஸ்ட் வாக்கர்
-  lure: லூர்
-  looting: கொள்ளை
-  piercing: குத்திக்கொள்வது
-  blast_protection: குண்டு வெடிப்பு பாதுகாப்பு
-  smite: அடியுங்கள்
-  multishot: பலஷாட்
-  fire_aspect: தீ அம்சம்
-  channeling: கால்வாய் வழி
-  sweeping: ஸ்வீப்பிங் எட்ஜ்
-  thorns: முட்கள்
-  bane_of_arthropods: கனுக்காலிகளின் சாபம்
-  respiration: சுவாசம்
-  riptide: கிழித்தெறியஅலை
-  silk_touch: சில்க் டச்
-  quick_charge: விரைவு கட்டணம்
-  projectile_protection: எறிபொருள் பாதுகாப்பு
-  impaling: குறும்புக்காரஅலின்கிராம்
+  fire_protection: தீ பாதுகாப்பு
   feather_falling: இறகு விழுதல்
+  blast_protection: குண்டு வெடிப்பு பாதுகாப்பு
+  projectile_protection: எறிபொருள் பாதுகாப்பு
+  respiration: சுவாசம்
+  aqua_affinity: அக்வா இணைப்பு
+  thorns: முட்கள்
+  depth_strider: ஆழம் ஸ்ட்ரைடர்
+  frost_walker: ஃப்ரோஸ்ட் வாக்கர்
+  binding_curse: பிணைப்பு சாபம்
+  sharpness: கூர்மை
+  smite: அடியுங்கள்
+  bane_of_arthropods: கனுக்காலிகளின் சாபம்
+  knockback: மீண்டும் தட்டுங்கள்
+  fire_aspect: தீ அம்சம்
+  looting: கொள்ளை
+  sweeping: ஸ்வீப்பிங் எட்ஜ்
+  efficiency: செயல்திறன்
+  silk_touch: சில்க் டச்
+  unbreaking: உடைக்காத
+  fortune: அதிர்ஷ்டம்
   power: பவர்
+  punch: பன்ச்
+  flame: சுடர்
   infinity: முடிவிலி
+  luck_of_the_sea: கடல் அதிர்ஷ்டம்
+  lure: லூர்
+  loyalty: லாயல்டி
+  impaling: குறும்புக்காரஅலின்கிராம்
+  riptide: கிழித்தெறியஅலை
+  channeling: கால்வாய் வழி
+  multishot: பலஷாட்
+  quick_charge: விரைவு கட்டணம்
+  piercing: குத்திக்கொள்வது
+  mending: பொருந்தச்செய்தல்
+  vanishing_curse: மறைந்துபோன சாபம்
+  soul_speed: ஆத்ம வேகம்
 potion:
   uncraftable: பிரிக்க முடியாத போஷன்
   water: தண்ணீர் குடுவை
@@ -1399,6 +1552,11 @@ entity:
   strider: ஸ்ட்ரைடர்
   zoglin: ஜோக்ளின்
   piglin_brute: பிக்லின் முரட்டுத்தனம்
+  axolotl: ஆக்சொலோடில்
+  glow_item_frame: ஒளிரும் பொருள் சட்டகம்
+  glow_squid: ஒளிர் ஸ்க்விட்
+  goat: ஆடு
+  marker: மார்க்கர்
   fishing_hook: மீன்பிடி பாபர்
   lightning: மின்னல் போல்ட்
   player: ஆட்டக்காரர்

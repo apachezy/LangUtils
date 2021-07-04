@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:17:26                    #
+# Build time: 2021-07-04 21:39:01                    #
 # ####################################################
 language:
   code: val_es
@@ -9,6 +9,7 @@ material:
   chiseled_red_sandstone: Roca sorrenca roja cisellada
   chiseled_sandstone: Roca sorrenca cisellada
   clay_ball: Argila
+  cod_bucket: Poal amb abadejos
   creeper_banner_pattern: Estandard de Creeper
   creeper_head: Cap de Creeper
   creeper_wall_head: Cap de Creeper de paret
@@ -17,8 +18,11 @@ material:
   enchanting_table: Taula d'encanteria
   enderman_spawn_egg: Generar Home de la Fi
   endermite_spawn_egg: Generar tèrmit de la Fi
+  ender_chest: Cofre de la Fi
   ender_eye: Ull d'Home de la Fi
-  gray_carpet: Estora crisa
+  ender_pearl: Perla de la Fi
+  lava_bucket: Poal de lava
+  milk_bucket: Poal de llet
   netherrack: Roca de l'Infern
   nether_brick: Rajola de l'Infern
   nether_bricks: Rajoles de l'Infern
@@ -30,6 +34,8 @@ material:
   nether_star: Estrela de l'Infern
   nether_wart: Bolet de l'Infern
   nether_wart_block: Bloc de bolet de l'infern
+  polar_bear_spawn_egg: Generar ós polar
+  pufferfish_bucket: Poal amb peixos globus
   red_nether_bricks: Rajoles de l'Infern roges
   red_nether_brick_slab: Llosa de rajoles de l'Infern roges
   red_nether_brick_stairs: Escales de rajoles de l'Infern roges
@@ -39,6 +45,7 @@ material:
   red_sandstone_slab: Llosa de roca sorrenca roja
   red_sandstone_stairs: Escales de roca sorrenca roja
   red_sandstone_wall: Mur de roca sorrenca roja
+  salmon_bucket: Poal amb salmons
   sand: Sorra
   sandstone: Roca sorrenca
   sandstone_slab: Llosa de roca sorrenca
@@ -52,15 +59,29 @@ material:
   smooth_sandstone_slab: Llosa de roca sorrenca llisa
   smooth_sandstone_stairs: Escales de roca sorrenca llises
   soul_sand: Sorra d'ànimes
+  tropical_fish_bucket: Poal amb peixos tropicals
+  water_bucket: Poal d'aigua
   wither_skeleton_skull: Calavera de l'Infern
+  wither_skeleton_spawn_egg: Generar esquelet de l'Infern
   wither_skeleton_wall_skull: Calavera de l'Infern de paret
+enchantment:
+  aqua_affinity: Rapidesa minera baix de l'aigua
+  depth_strider: Rapidesa en l'aigua
+  knockback: Espenta
+  efficiency: Rendiment
+  multishot: Multi-tir
+  silk_touch: Toc suau
+  impaling: Empalament
+  feather_falling: Lleugeresa
 entity:
-  wither_skeleton: Esquelet de l'infern
+  ender_pearl: Perla de la Fi llançada
   ender_signal: Ull d'un Home de la Fi
   shulker_bullet: Projectil de Shulker
   enderman: Home de la Fi
+  ender_dragon: Drac de la Fi
   wither: Exorcisme d'esquelet de l'Infern
   endermite: Tèrmit de la Fi
+  polar_bear: Ós polar
 effect:
   wither: Exorcisme d'esquelet de l'Infern
 banner_pattern:

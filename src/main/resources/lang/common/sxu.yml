@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:49                    #
+# Build time: 2021-07-04 21:46:04                    #
 # ####################################################
 language:
   code: sxu
@@ -14,10 +14,17 @@ material:
   polished_diorite: Bolierter Diorid
   andesite: Andesid
   polished_andesite: Bolierdor Andesid
+  deepslate: Diefnschieforr
+  cobbled_deepslate: Bruchdiefnschieforr
+  polished_deepslate: Bolierdorr Diefnschieforr
+  calcite: Galzid
+  tuff: Tuffschdeen
+  dripstone_block: Drobbschdeenblogg
   grass_block: Grasblogg
   dirt: Ährde
   coarse_dirt: Grobe Erde
   podzol: Podsol
+  rooted_dirt: Vorrwurdselde Erde
   crimson_nylium: Garmesin-Nätzel
   warped_nylium: Wörr-Nätzel
   cobblestone: Bruchschdeen
@@ -39,10 +46,67 @@ material:
   sand: Sand
   red_sand: Roder Sand
   gravel: Gies
-  gold_ore: Goldärds
-  iron_ore: Eisnärds
   coal_ore: Schdeengohle
+  deepslate_coal_ore: Diefnschieforr-Schdeengoule
+  iron_ore: Eisnärds
+  deepslate_iron_ore: Diefnschieforr-Eisnärds
+  copper_ore: Gupforrärds
+  deepslate_copper_ore: Diefnschieforr-Gupforrärds
+  gold_ore: Goldärds
+  deepslate_gold_ore: Diefnschieforr-Goldärds
+  redstone_ore: Redstone-Ärds
+  deepslate_redstone_ore: Diefnschieforr-Redstoneärds
+  emerald_ore: Smaragdärds
+  deepslate_emerald_ore: Diefnschieforr-Smaragdärds
+  lapis_ore: Labislazuliärds
+  deepslate_lapis_ore: Diefnschieforr-Labisladzuliärds
+  diamond_ore: Diamandärds
+  deepslate_diamond_ore: Diefnschieforr-Diamandärds
   nether_gold_ore: Nethergoldärz
+  nether_quartz_ore: Netherquarzärds
+  ancient_debris: Andikor Schrodd
+  coal_block: Gohleblogg
+  raw_iron_block: Roheisnblogg
+  raw_copper_block: Rohgupforrblogg
+  raw_gold_block: Rohgoldblogg
+  amethyst_block: Amethystdrusnblogg
+  budding_amethyst: Gnosbende Amethystdruse
+  iron_block: Eisnblogg
+  copper_block: Gupforrblogg
+  gold_block: Goldblogg
+  diamond_block: Diamandblogg
+  netherite_block: Netheritblogg
+  exposed_copper: Angeloofnorr Gupforrblogg
+  weathered_copper: Vorrwiddorrdorr Gupforrblogg
+  oxidized_copper: Oxidierdorr Gupforrblogg
+  cut_copper: Geschniddnorr Gupforrblogg
+  exposed_cut_copper: Blangorr geschniddnorr Gupforrblogg
+  weathered_cut_copper: Vorrwiddorrdorr geschniddnorr Gupforrblogg
+  oxidized_cut_copper: Oxidierdorr geschniddnorr Gupforrblogg
+  cut_copper_stairs: Geschniddne Gupforrdrebbe
+  exposed_cut_copper_stairs: Blange geschniddne Gupforrdrebbe
+  weathered_cut_copper_stairs: Vorrwiddorrde geschniddne Gupforrdrebbe
+  oxidized_cut_copper_stairs: Oxidierde geschniddne Gupforrdrebbe
+  cut_copper_slab: Geschniddne Gupforrschdufe
+  exposed_cut_copper_slab: Blange geschniddne Gupforrschdufe
+  weathered_cut_copper_slab: Vorrwiddorrde geschniddne Gupforrschdufe
+  oxidized_cut_copper_slab: Oxidierde geschniddne Gupforrblogg
+  waxed_copper_block: Gewachsdorr Gupforrblogg
+  waxed_exposed_copper: Gewachsdorr blangorr Gupforrblogg
+  waxed_weathered_copper: Gewachsdorr vorrwiddorrdorr Gupforrblogg
+  waxed_oxidized_copper: Gewachsdorr oxidierdorr Gupforrblogg
+  waxed_cut_copper: Gewachsdorr geschniddnorr Gupforrblogg
+  waxed_exposed_cut_copper: Gewachsdorr blangorr geschniddnorr Gupforrblogg
+  waxed_weathered_cut_copper: Gewachsdorr vorrwiddorrdorr geschniddnorr Gupforrblogg
+  waxed_oxidized_cut_copper: Gewachsdorr oxidierdorr geschniddnorr Gupforrblogg
+  waxed_cut_copper_stairs: Gewachsde geschniddne Gupforrdrebbe
+  waxed_exposed_cut_copper_stairs: Gewachsde blange geschniddne Gupforrdrebbe
+  waxed_weathered_cut_copper_stairs: Gewachsde vorrwiddorrde geschniddne Gupforrdrebbe
+  waxed_oxidized_cut_copper_stairs: Gewachsde oxidierde geschniddne Gupforrdrebbe
+  waxed_cut_copper_slab: Gewachsde geschniddne Gupforrschdufe
+  waxed_exposed_cut_copper_slab: Gewachsde blange geschniddne Gupforrschdufe
+  waxed_weathered_cut_copper_slab: Gewachsde vorrwiddorrde geschniddne Gupforrschdufe
+  waxed_oxidized_cut_copper_slab: Gewachsde oxidierde geschniddne Gupforrschdufe
   oak_log: Eischnschdamm
   spruce_log: Fischdnschdamm
   birch_log: Bürschnhulz
@@ -81,26 +145,24 @@ material:
   jungle_leaves: Drobnbohmlaub
   acacia_leaves: Agazienlaub
   dark_oak_leaves: Schworzeischnlaub
+  azalea_leaves: Azaleenlaub
+  flowering_azalea_leaves: Blühendes Azaleenlaub
   sponge: Schwamm
   wet_sponge: Nassor Schwamm
   glass: Glas
-  lapis_ore: Labislazuliärds
-  lapis_block: Labislazuliblogg
-  dispenser: Werfor
+  tinted_glass: Gedöndes Glas
+  lapis_block: Labisladsuliblogg
   sandstone: Sandschdeen
   chiseled_sandstone: Gemeeßelder Sandsteen
   cut_sandstone: Geschniddener Sandsteen
-  note_block: Noodnblogg
-  powered_rail: Andriebsschiene
-  detector_rail: Sensorschiene
-  sticky_piston: Gläbrigor Golbn
   cobweb: Schbinnnädds
   grass: Gras
   fern: Farn
+  azalea: Azalee
+  flowering_azalea: Blühende Azalee
   dead_bush: Todor Busch
   seagrass: Seegras
   sea_pickle: Seegurke
-  piston: Kulbn
   white_wool: Weeße Wolle
   orange_wool: Orangsche Wolle
   magenta_wool: Magenda Wolle
@@ -130,6 +192,7 @@ material:
   cornflower: Gornblume
   lily_of_the_valley: Maiglöggschn
   wither_rose: Witherrose
+  spore_blossom: Schbornblüde
   brown_mushroom: Braunor Bilz
   red_mushroom: Rodor Bilz
   crimson_fungus: Garmesinpilz
@@ -141,9 +204,12 @@ material:
   twisting_vines: Zwörbelrangn
   sugar_cane: Zuggorrohr
   kelp: Seedang
+  moss_carpet: Moostäppsch
+  moss_block: Moosblogg
+  hanging_roots: Hängewurdsln
+  big_dripleaf: Großes Drobbbladd
+  small_dripleaf: Gleenes Drobbbladd
   bamboo: Bambus
-  gold_block: Goldblogg
-  iron_block: Eisnblogg
   oak_slab: Eischnhulzschdufe
   spruce_slab: Fischdnhulzschdufe
   birch_slab: Bürschnhulzschdufe
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: Gladdor Sandschdeen
   smooth_stone: Gladdor Schdeen
   bricks: Zieschel
-  tnt: TNT
   bookshelf: Schwahrdnregal
   mossy_cobblestone: Bemoosdor Bruchschdeen
   obsidian: Obsidian
@@ -187,27 +252,11 @@ material:
   spawner: Schpawner
   oak_stairs: Eischenhulzdrebbe
   chest: Druhe
-  diamond_ore: Diamandärds
-  diamond_block: Diamandblogg
   crafting_table: Werschbang
   farmland: Aggorbodn
   furnace: Ofen
   ladder: Leider
-  rail: Schiene
   cobblestone_stairs: Bruchschdeendrebbe
-  lever: Hebel
-  stone_pressure_plate: Steendrugbladde
-  oak_pressure_plate: Eischnhulzdruggbladde
-  spruce_pressure_plate: Fischdnhulzdruggbladde
-  birch_pressure_plate: Bürschnhulzdruggbladde
-  jungle_pressure_plate: Drobnhulzdruggbladde
-  acacia_pressure_plate: Agazienhulzdruggbladde
-  dark_oak_pressure_plate: Schworzeischnhulzdruggbladde
-  crimson_pressure_plate: Garmesindrugbladde
-  warped_pressure_plate: Wörrdrugbladde
-  polished_blackstone_pressure_plate: Bohlierde Schworzschdeendrugbladde
-  redstone_ore: Redstone-Ärds
-  redstone_torch: Redstone-Faggl
   snow: Schnee
   ice: Eis
   snow_block: Schneeblogg
@@ -224,32 +273,31 @@ material:
   warped_fence: Wörrzaun
   pumpkin: Gärbs
   carved_pumpkin: Geschnidzder Körbis
+  jack_o_lantern: Körbisladerne
   netherrack: Netherrack
   soul_sand: Seelensand
   soul_soil: Seelenerde
   basalt: Basald
   polished_basalt: Bohlierder Basald
+  smooth_basalt: Gladdorr Basald
   soul_torch: Seelenfaggl
   glowstone: Glowsteen
-  jack_o_lantern: Körbisladerne
-  oak_trapdoor: Eischnhulzfalldiere
-  spruce_trapdoor: Fischdnhulzfalldiere
-  birch_trapdoor: Bürschnhulzfalldiere
-  jungle_trapdoor: Drobnhulzfalldiere
-  acacia_trapdoor: Agazienhulzfalldiere
-  dark_oak_trapdoor: Schworzeischnhulzfalldiere
-  crimson_trapdoor: Garmesinfalldür
-  warped_trapdoor: Wörrfalldür
   infested_stone: Befallenor Schdeen
   infested_cobblestone: Befallenor Bruchschdeen
   infested_stone_bricks: Befallene Schdeenzieschl
   infested_mossy_stone_bricks: Befallene bemoosde Schdeenzieschl
   infested_cracked_stone_bricks: Befallenor riss'schor Schdeenzieschl
   infested_chiseled_stone_bricks: Befallene gemeeßelde Schdeenzieschl
+  infested_deepslate: Befallnorr Diefnschieforr
   stone_bricks: Schdeenziegel
   mossy_stone_bricks: Bemoosde Steenzieschel
   cracked_stone_bricks: Rissische Steenzieschel
   chiseled_stone_bricks: Gemeeßelde Steenzieschel
+  deepslate_bricks: Diefenschieforzischel
+  cracked_deepslate_bricks: Riss'sche Diefnschieforrzieschl
+  deepslate_tiles: Diefnschieforrfliesn
+  cracked_deepslate_tiles: Riss'sche Diefnschieforrfliesn
+  chiseled_deepslate: Gemeißeldorr Diefnschieforr
   brown_mushroom_block: Braunor Bilzblogg
   red_mushroom_block: Rodor Bilzblogg
   mushroom_stem: Bilzschdiel
@@ -258,14 +306,7 @@ material:
   glass_pane: Glasscheebe
   melon: Melone
   vine: Rangn
-  oak_fence_gate: Eischnhulzzaundor
-  spruce_fence_gate: Fischdnhulzzaundor
-  birch_fence_gate: Bürschnhulzzaundor
-  jungle_fence_gate: Drobnhulzzaundor
-  acacia_fence_gate: Agazienhulzzaundor
-  dark_oak_fence_gate: Schworzeischnhulzzaundor
-  crimson_fence_gate: Garmesinzaundor
-  warped_fence_gate: Wörrzaundor
+  glow_lichen: Leuschdfleschde
   brick_stairs: Zieschldrebbe
   stone_brick_stairs: Schdeenzieschldrebbe
   mycelium: Myzel
@@ -280,11 +321,8 @@ material:
   end_stone: Endschdeen
   end_stone_bricks: Endschdeenzieschl
   dragon_egg: Drachnei
-  redstone_lamp: Redstone-Funsl
   sandstone_stairs: Sandsteendrebbe
-  emerald_ore: Smaragdärds
   ender_chest: Enderdruhe
-  tripwire_hook: Hagn
   emerald_block: Smaragdblogg
   spruce_stairs: Fischdnhulzdrebbe
   birch_stairs: Bürschnhulzdrebbe
@@ -310,33 +348,18 @@ material:
   blackstone_wall: Schworzschdeenmauor
   polished_blackstone_wall: Bohlierde Schworzschdeenmauer
   polished_blackstone_brick_wall: Bohlierde Schworzschdeenzieschelmauer
-  stone_button: Schdeengnopp
-  oak_button: Eischnhulzgnopp
-  spruce_button: Fischdnhulzgnopp
-  birch_button: Bürschnhulzgnopp
-  jungle_button: Drobnhulzgnopp
-  acacia_button: Agazienhulzgnopp
-  dark_oak_button: Schworzeischnhulzgnopp
-  crimson_button: Garmesingnopp
-  warped_button: Wörrgnopp
-  polished_blackstone_button: Bohlierder Schworzschdeengnopp
+  cobbled_deepslate_wall: Bruchdiefnschieforrmauorr
+  polished_deepslate_wall: Bolierde Diefnschieforrmauorr
+  deepslate_brick_wall: Diefnschieforrzieschlmauorr
+  deepslate_tile_wall: Diefnschieforrfliesnmauorr
   anvil: Amboss
   chipped_anvil: Angeschlagnor Amboss
   damaged_anvil: Beschädigdor Amboss
-  trapped_chest: Redstone-Druhe
-  light_weighted_pressure_plate: Feenwäschebladde
-  heavy_weighted_pressure_plate: Grobwäschebladde
-  daylight_detector: Daacheslischdsensor
-  redstone_block: Redstone-Blogg
-  nether_quartz_ore: Netherquarzärds
-  hopper: Drischdor
   chiseled_quartz_block: Gemeißeldor Quarzblogg
   quartz_block: Quarzblogg
   quartz_bricks: Quarzzieschel
   quartz_pillar: Quarzsäule
   quartz_stairs: Quarzdrebbe
-  activator_rail: Agdivierungsschiene
-  dropper: Spendor
   white_terracotta: Weeße Geramigg
   orange_terracotta: Orangschne Geramigg
   magenta_terracotta: Magenda Geramigg
@@ -354,14 +377,14 @@ material:
   red_terracotta: Rode Geramigg
   black_terracotta: Schworze Geramigg
   barrier: Borriere
-  iron_trapdoor: Eesenfalldiere
+  light: Lichtblock
   hay_block: Schdrohballn
   white_carpet: Weeßorr Täppsch
   orange_carpet: Orangschnor Täppsch
   magenta_carpet: Magenda Täppsch
   light_blue_carpet: Hellblauor Täppsch
   yellow_carpet: Gelbor Täppsch
-  lime_carpet: Hellgrienor Täppsch
+  lime_carpet: Hellgrünor Täppsch
   pink_carpet: Rosa Täppsch
   gray_carpet: Grauor Täppsch
   light_gray_carpet: Hellgrauor Täppsch
@@ -373,12 +396,10 @@ material:
   red_carpet: Roodor Täppsch
   black_carpet: Schwarzor Täppsch
   terracotta: Geramigg
-  coal_block: Gohleblogg
   packed_ice: Paggeis
   acacia_stairs: Agazienhulzdrebbe
   dark_oak_stairs: Schworzeischnhulzdrebbe
-  slime_block: Schleemblogg
-  grass_path: Latschpfad
+  dirt_path: Dramblpfad
   sunflower: Sonnenblume
   lilac: Fliedor
   rose_bush: Rosnschdrauch
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: Rode Netherzieschl
   bone_block: Knochnblogg
   structure_void: Gonsdrugtionsleere
-  observer: Beobachdor
   shulker_box: Shulkergissde
   white_shulker_box: Weeße Shulkergissde
   orange_shulker_box: Orangschne Shulkergissde
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: Rodde Netherzieschltrebbe
   polished_andesite_stairs: Bolierde Andesiddrebbe
   diorite_stairs: Diorittrebbe
+  cobbled_deepslate_stairs: Bruchdiefnschieforrdrebbe
+  polished_deepslate_stairs: Bolierde Diefnschieforrdrebbe
+  deepslate_brick_stairs: Diefnschieforrzieschldrebbe
+  deepslate_tile_stairs: Diefnschieforrfliesndrebbe
   polished_granite_slab: Bolierte Granitschtufe
   smooth_red_sandstone_slab: Gladde rodde Sandschdeenschdufe
   mossy_stone_brick_slab: Bemoosde Schdeenzieschlschdufe
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: Rodde Netherzieschlschtufe
   polished_andesite_slab: Bolierde Andesidschdufe
   diorite_slab: Dioritschtufe
+  cobbled_deepslate_slab: Bruchdiefnschieforrschdufe
+  polished_deepslate_slab: Bolierde Diefnschieforrschdufe
+  deepslate_brick_slab: Diefnschieforrzieschlschdufe
+  deepslate_tile_slab: Diefnschieforrfliesnschdufe
   scaffolding: Gerüschd
+  redstone: Redstone-Schdoob
+  redstone_torch: Redstone-Faggl
+  redstone_block: Redstone-Blogg
+  repeater: Redstone-Vorschdärgor
+  comparator: Redstone-Gombarador
+  piston: Kulbn
+  sticky_piston: Gläbrigor Golbn
+  slime_block: Schleemblogg
+  honey_block: Honischblogg
+  observer: Beobachdor
+  hopper: Drischdor
+  dispenser: Werfor
+  dropper: Spendor
+  lectern: Lesebuld
+  target: Zielblogg
+  lever: Hebel
+  lightning_rod: Blidsableidorr
+  daylight_detector: Daacheslischdsensor
+  sculk_sensor: Sculk-Sensor
+  tripwire_hook: Hagn
+  trapped_chest: Redstone-Druhe
+  tnt: TNT
+  redstone_lamp: Redstone-Funsl
+  note_block: Noodnblogg
+  stone_button: Schdeengnopp
+  polished_blackstone_button: Bohlierder Schworzschdeengnopp
+  oak_button: Eischnhulzgnopp
+  spruce_button: Fischdnhulzgnopp
+  birch_button: Bürschnhulzgnopp
+  jungle_button: Drobnhulzgnopp
+  acacia_button: Agazienhulzgnopp
+  dark_oak_button: Schworzeischnhulzgnopp
+  crimson_button: Garmesingnopp
+  warped_button: Wörrgnopp
+  stone_pressure_plate: Steendrugbladde
+  polished_blackstone_pressure_plate: Bohlierde Schworzschdeendrugbladde
+  light_weighted_pressure_plate: Feenwäschebladde
+  heavy_weighted_pressure_plate: Grobwäschebladde
+  oak_pressure_plate: Eischnhulzdruggbladde
+  spruce_pressure_plate: Fischdnhulzdruggbladde
+  birch_pressure_plate: Bürschnhulzdruggbladde
+  jungle_pressure_plate: Drobnhulzdruggbladde
+  acacia_pressure_plate: Agazienhulzdruggbladde
+  dark_oak_pressure_plate: Schworzeischnhulzdruggbladde
+  crimson_pressure_plate: Garmesindrugbladde
+  warped_pressure_plate: Wörrdrugbladde
   iron_door: Eesendiere
   oak_door: Eischnhulzdiere
   spruce_door: Fischdnhulzdiere
@@ -572,8 +646,42 @@ material:
   dark_oak_door: Schworzeischnhulzdiere
   crimson_door: Garmesindür
   warped_door: Wörrdür
-  repeater: Redstone-Vorschdärgor
-  comparator: Redstone-Gombarador
+  iron_trapdoor: Eesenfalldiere
+  oak_trapdoor: Eischnhulzfalldiere
+  spruce_trapdoor: Fischdnhulzfalldiere
+  birch_trapdoor: Bürschnhulzfalldiere
+  jungle_trapdoor: Drobnhulzfalldiere
+  acacia_trapdoor: Agazienhulzfalldiere
+  dark_oak_trapdoor: Schworzeischnhulzfalldiere
+  crimson_trapdoor: Garmesinfalldür
+  warped_trapdoor: Wörrfalldür
+  oak_fence_gate: Eischnhulzzaundor
+  spruce_fence_gate: Fischdnhulzzaundor
+  birch_fence_gate: Bürschnhulzzaundor
+  jungle_fence_gate: Drobnhulzzaundor
+  acacia_fence_gate: Agazienhulzzaundor
+  dark_oak_fence_gate: Schworzeischnhulzzaundor
+  crimson_fence_gate: Garmesinzaundor
+  warped_fence_gate: Wörrzaundor
+  powered_rail: Andriebsschiene
+  detector_rail: Sensorschiene
+  rail: Schiene
+  activator_rail: Agdivierungsschiene
+  saddle: Saddl
+  minecart: Lore
+  chest_minecart: Güdorlore
+  furnace_minecart: Andriebslore
+  tnt_minecart: TNT-Lore
+  hopper_minecart: Drischdorlore
+  carrot_on_a_stick: Möhrnrude
+  warped_fungus_on_a_stick: Wörrpilzrude
+  elytra: Elydren
+  oak_boat: Eischnhulzboot
+  spruce_boat: Fischdnhulzboot
+  birch_boat: Bürschnhulzboot
+  jungle_boat: Drobnhulzboot
+  acacia_boat: Agazienhulzboot
+  dark_oak_boat: Schworzeischnhulzboot
   structure_block: Gonsdrugtionsblogg
   jigsaw: Puschlblogg
   turtle_helmet: Schüldgrödnbanzor
@@ -585,7 +693,15 @@ material:
   coal: Gohle
   charcoal: Holzgohle
   diamond: Diamand
+  emerald: Smaragd
+  lapis_lazuli: Lapislazuli
+  quartz: Netherquarz
+  amethyst_shard: Amethystschärbe
+  raw_iron: Roheisn
   iron_ingot: Eisnbarrn
+  raw_copper: Rohgupforr
+  copper_ingot: Gupforrbarrn
+  raw_gold: Rohgold
   gold_ingot: Goldbarrn
   netherite_ingot: Netheritbarrn
   netherite_scrap: Nädderidschdügge
@@ -669,29 +785,27 @@ material:
   bucket: Ehmorr
   water_bucket: Wassorrehmorr
   lava_bucket: Lavaehmorr
-  minecart: Lore
-  saddle: Saddl
-  redstone: Redstone-Schdoob
+  powder_snow_bucket: Bulvorrschneeehmor
   snowball: Schneeball
-  oak_boat: Eischnhulzboot
   leather: Lädor
   milk_bucket: Milschehmorr
   pufferfish_bucket: Guchlfischehmorr
   salmon_bucket: Lachsehmorr
   cod_bucket: Gabljauehmorr
   tropical_fish_bucket: Trobnfischehmor
+  axolotl_bucket: Aggsolodlehmor
   brick: Zieschel
   clay_ball: Tonglumpen
   dried_kelp_block: Gedroggneder Seedangblogg
   paper: Babbier
   book: Schwahrde
   slime_ball: Schleemball
-  chest_minecart: Güdorlore
-  furnace_minecart: Andriebslore
   egg: Ei
   compass: Gombass
+  bundle: Bündl
   fishing_rod: Angl
   clock: Uhr
+  spyglass: Färnrohr
   glowstone_dust: Glowstoneschdaub
   cod: Rohorr Gabljau
   salmon: Rohorr Lachs
@@ -700,8 +814,8 @@ material:
   cooked_cod: Gebradnorr Gabljau
   cooked_salmon: Gebradnorr Lachs
   ink_sac: Dindnbeudl
+  glow_ink_sac: Leuschddindnbeudl
   cocoa_beans: Gaggaubohn
-  lapis_lazuli: Lapislazuli
   white_dye: Weeßorr Farbschdoff
   orange_dye: Orangschorr Farbschdoff
   magenta_dye: Magenda Farbschdoff
@@ -765,63 +879,66 @@ material:
   cauldron: Dobb
   ender_eye: Enderooche
   glistering_melon_slice: Glidzornde Melonscheibe
-  bat_spawn_egg: Flädormaus-Spawn-Ei
+  axolotl_spawn_egg: Aggsolodl-Schborn-Ei
+  bat_spawn_egg: Flädorrmaus-Schborn-Ei
   bee_spawn_egg: Bienen-Schborn-Ei
-  blaze_spawn_egg: Lohän-Spawn-Ei
-  cat_spawn_egg: Miedzn-Spawn-Ei
-  cave_spider_spawn_egg: Höhlnschbinnen-Spawn-Ei
-  chicken_spawn_egg: Huhn-Spawn-Ei
-  cod_spawn_egg: Kabljau-Spawn-Ei
-  cow_spawn_egg: Kuh-Spawn-Ei
+  blaze_spawn_egg: Lohän-Schborn-Ei
+  cat_spawn_egg: Gadsn-Schborn-Ei
+  cave_spider_spawn_egg: Höhlnschbinnen-Schborn-Ei
+  chicken_spawn_egg: Huhn-Schborn-Ei
+  cod_spawn_egg: Gabljau-Schborn-Ei
+  cow_spawn_egg: Guh-Schborn-Ei
   creeper_spawn_egg: Creeper-Schborn-Ei
-  dolphin_spawn_egg: Delfin-Spawn-Ei
-  donkey_spawn_egg: Esl-Spawn-Ei
+  dolphin_spawn_egg: Delfin-Schborn-Ei
+  donkey_spawn_egg: Esl-Schborn-Ei
   drowned_spawn_egg: Erdrungnen-Schborn-Ei
-  elder_guardian_spawn_egg: Großor-Wäschdor-Spawn-Ei
+  elder_guardian_spawn_egg: Großorr-Wäschdorr-Schborn-Ei
   enderman_spawn_egg: Enderman-Schborn-Ei
-  endermite_spawn_egg: Endermiten-Spawn-Ei
-  evoker_spawn_egg: Magior-Spawn-Ei
+  endermite_spawn_egg: Endermiten-Schborn-Ei
+  evoker_spawn_egg: Magiorr-Schborn-Ei
   fox_spawn_egg: Fuggs-Schborn-Ei
-  ghast_spawn_egg: Ghast-Spawn-Ei
-  guardian_spawn_egg: Wäschdor-Spawn-Ei
+  ghast_spawn_egg: Ghast-Schborn-Ei
+  glow_squid_spawn_egg: Leuschddindnfisch-Schborn-Ei
+  goat_spawn_egg: Ziegn-Schborn-Ei
+  guardian_spawn_egg: Wäschdorr-Schborn-Ei
   hoglin_spawn_egg: Hoglin-Schborn-Ei
-  horse_spawn_egg: Pferde-Spawn-Ei
-  husk_spawn_egg: Wüsdnzombie-Spawn-Ei
-  llama_spawn_egg: Lama-Spawn-Ei
-  magma_cube_spawn_egg: Magmawürfl-Spawn-Ei
-  mooshroom_spawn_egg: Mooshroom-Spawn-Ei
-  mule_spawn_egg: Mauldier-Spawn-Ei
-  ocelot_spawn_egg: Ozelod-Spawn-Ei
+  horse_spawn_egg: Färde-Schborn-Ei
+  husk_spawn_egg: Wüsdnzombie-Schborn-Ei
+  llama_spawn_egg: Lama-Schborn-Ei
+  magma_cube_spawn_egg: Magmawürfl-Schborn-Ei
+  mooshroom_spawn_egg: Mooshroom-Schborn-Ei
+  mule_spawn_egg: Mauldier-Schborn-Ei
+  ocelot_spawn_egg: Oddselod-Schborn-Ei
   panda_spawn_egg: Panda-Schborn-Ei
-  parrot_spawn_egg: Papagein-Spawn-Ei
-  phantom_spawn_egg: Phandom-Spawn-Ei
-  pig_spawn_egg: Schweine-Spawn-Ei
+  parrot_spawn_egg: Babagein-Schborn-Ei
+  phantom_spawn_egg: Phandom-Schborn-Ei
+  pig_spawn_egg: Schweene-Schborn-Ei
   piglin_spawn_egg: Piglin-Schborn-Ei
   piglin_brute_spawn_egg: Piglin-Barbarn-Schborn-Ei
-  pillager_spawn_egg: Plündoror-Schborn-Ei
-  polar_bear_spawn_egg: Eisbären-Spawn-Ei
-  pufferfish_spawn_egg: Kuglfisch-Spawn-Ei
-  rabbit_spawn_egg: Kaninschn-Spawn-Ei
+  pillager_spawn_egg: Plündoror-Spawn-Ei
+  polar_bear_spawn_egg: Eisbärn-Schborn-Ei
+  pufferfish_spawn_egg: Guchlfisch-Schborn-Ei
+  rabbit_spawn_egg: Garniggl-Schborn-Ei
   ravager_spawn_egg: Vorwüstor-Spawn-Ei
-  salmon_spawn_egg: Lachs-Spawn-Ei
+  salmon_spawn_egg: Lachs-Schborn-Ei
   sheep_spawn_egg: Schafs-Schborn-Ei
-  shulker_spawn_egg: Shulker-Spawn-Ei
-  silverfish_spawn_egg: Silborfischchen-Spawn-Ei
-  skeleton_spawn_egg: Schgeledd-Spawn-Ei
-  skeleton_horse_spawn_egg: Schgeleddpferd-Spawn-Ei
-  slime_spawn_egg: Schleim-Spawn-Ei
-  spider_spawn_egg: Schbinnen-Spawn-Ei
-  squid_spawn_egg: Tindnfisch-Spawn-Ei
-  stray_spawn_egg: Eiswandoror-Spawn-Ei
+  shulker_spawn_egg: Shulker-Schborn-Ei
+  silverfish_spawn_egg: Silborrfischschn-Schborn-Ei
+  skeleton_spawn_egg: Schgeledd-Schborn-Ei
+  skeleton_horse_spawn_egg: Schgeleddfärd-Schborn-Ei
+  slime_spawn_egg: Schleim-Schborn-Ei
+  spider_spawn_egg: Schbinnen-Schborn-Ei
+  squid_spawn_egg: Dindnfisch-Schborn-Ei
+  stray_spawn_egg: Eiswandororr-Schborn-Ei
   strider_spawn_egg: Schreidor-Spawn-Ei
-  trader_llama_spawn_egg: Händlorlama-Schborn-Ei
-  tropical_fish_spawn_egg: Trobnfisch-Spawn-Ei
-  turtle_spawn_egg: Schildgrödn-Spawn-Ei
-  vex_spawn_egg: Plagegeisdor-Spawn-Ei
-  villager_spawn_egg: Dorfbewohnor-Spawn-Ei
-  vindicator_spawn_egg: Dienor-Spawn-Ei
+  trader_llama_spawn_egg: Händlorrlama-Schborn-Ei
+  tropical_fish_spawn_egg: Trobnfisch-Schborn-Ei
+  turtle_spawn_egg: Schüldgrödn-Schborn-Ei
+  vex_spawn_egg: Blagegeisdorr-Schborn-Ei
+  villager_spawn_egg: Dorfbewohnorr-Schborn-Ei
+  vindicator_spawn_egg: Dienorr-Schborn-Ei
   wandering_trader_spawn_egg: Fahrendorr-Händlorr-Schborn-Ei
-  witch_spawn_egg: Hexn-Schborn-Ei
+  witch_spawn_egg: Heggsn-Schborn-Ei
   wither_skeleton_spawn_egg: Witherschgeledd-Schborn-Ei
   wolf_spawn_egg: Wulfs-Schborn-Ei
   zoglin_spawn_egg: Zoglin-Schborn-Ei
@@ -833,8 +950,8 @@ material:
   fire_charge: Feierguchel
   writable_book: Schwahrde un Fädor
   written_book: Beschriebne Schwahrde
-  emerald: Smaragd
   item_frame: Rahm
+  glow_item_frame: Leuschdrahm
   flower_pot: Bluhmdobb
   carrot: Möhre
   potato: Gardoffl
@@ -844,21 +961,16 @@ material:
   golden_carrot: Guldne Möhre
   skeleton_skull: Schgeleddgobb
   wither_skeleton_skull: Witherschgeleddgobb
-  player_head: Schbielorkopp
+  player_head: Schbielorrnischl
   zombie_head: Zombiekopp
   creeper_head: Creeperkopp
   dragon_head: Drachnnischl
-  carrot_on_a_stick: Möhrnrude
-  warped_fungus_on_a_stick: Wörrpilzrude
   nether_star: Netherschdern
   pumpkin_pie: Gürbiskuchn
   firework_rocket: Feuorwergsragede
   firework_star: Feuorwergsschdern
   enchanted_book: Vorzauborde Schwahrde
   nether_brick: Netherzieschl
-  quartz: Netherquarz
-  tnt_minecart: TNT-Lore
-  hopper_minecart: Drischdorlore
   prismarine_shard: Prismarinschärm
   prismarine_crystals: Prismaringrisdalle
   rabbit: Rohes Garniggl
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: Gedrängdor Pfeil
   lingering_potion: Verweiltrank
   shield: Schüld
-  elytra: Elydren
-  spruce_boat: Fischdnhulzboot
-  birch_boat: Bürschnhulzboot
-  jungle_boat: Drobnhulzboot
-  acacia_boat: Agazienhulzboot
-  dark_oak_boat: Schworzeischnhulzboot
   totem_of_undying: Dodem dor Unschderblischkeed
   shulker_shell: Shulkerschale
   iron_nugget: Eisnglumbn
@@ -948,13 +1054,13 @@ material:
   cartography_table: Kardntüsch
   fletching_table: Bochnortüsch
   grindstone: Schleefschdeen
-  lectern: Lesebuld
   smithing_table: Schmiedetüsch
   stonecutter: Schdeensäsche
   bell: Glogge
   lantern: Funnsel
   soul_lantern: Seelnladderne
   sweet_berries: Süßbeern
+  glow_berries: Leuschdbeern
   campfire: Gnäggerchn
   soul_campfire: Seelnlagorfeuor
   shroomlight: Pilzlischt
@@ -962,12 +1068,8 @@ material:
   bee_nest: Biennesd
   beehive: Bienschdogg
   honey_bottle: Honischbulle
-  honey_block: Honischblogg
   honeycomb_block: Honischwabnblogg
   lodestone: Leedschdeen
-  netherite_block: Netheritblogg
-  ancient_debris: Andikor Schrodd
-  target: Zielblogg
   crying_obsidian: Ninglndor Obsidian
   blackstone: Schworzschdeen
   blackstone_slab: Schworzschdeenschdufe
@@ -982,6 +1084,28 @@ material:
   polished_blackstone_brick_stairs: Bohlierde Schworzschdeenziescheldrebbe
   cracked_polished_blackstone_bricks: Rissische bohlierde Schworzschdeenzieschel
   respawn_anchor: Seelenangor
+  candle: Gerdse
+  white_candle: Weeße Gerdse
+  orange_candle: Orangsche Gerdse
+  magenta_candle: Magenda Gerdse
+  light_blue_candle: Hellblaue Gerdse
+  yellow_candle: Gelbe Gerdse
+  lime_candle: Hellgriene Gerdse
+  pink_candle: Pinge Gerdse
+  gray_candle: Graue Gerdse
+  light_gray_candle: Hellgraue Gerdse
+  cyan_candle: Dürgise Gerdse
+  purple_candle: Lila Gerdse
+  blue_candle: Blaue Gerdse
+  brown_candle: Braune Gerdse
+  green_candle: Griene Gerdse
+  red_candle: Rode Gerdse
+  black_candle: Schworze Gerdse
+  small_amethyst_bud: Gleene Amethystgnosbe
+  medium_amethyst_bud: Mittlorre Amethystgnosbe
+  large_amethyst_bud: Große Amethystgnosbe
+  amethyst_cluster: Amethysthaufn
+  pointed_dripstone: Schbidsorr Drobbschdeen
   water: Wasser
   lava: Lava
   tall_seagrass: Hohes Seegras
@@ -1004,6 +1128,9 @@ material:
   attached_melon_stem: Melonrange
   pumpkin_stem: Gürbispflanze
   melon_stem: Melonbflanze
+  water_cauldron: Wassorrgessl
+  lava_cauldron: Lavagessl
+  powder_snow_cauldron: Bulvorrschneegessl
   end_portal: Endportal
   cocoa: Gaggau
   tripwire: Schdolbordrahd
@@ -1036,7 +1163,7 @@ material:
   skeleton_wall_skull: Schgeledd-Wandgobb
   wither_skeleton_wall_skull: Witherschgeledd-Wandnischl
   zombie_wall_head: Zombie-Wandnischl
-  player_wall_head: Schbielor-Wandnischl
+  player_wall_head: Schbielorr-Wandnischl
   creeper_wall_head: Creeper-Wandnischl
   dragon_wall_head: Drachn-Wandnischl
   white_wall_banner: Weeßes Bannor
@@ -1083,6 +1210,30 @@ material:
   potted_warped_fungus: Eengedopfter Wörrpilz
   potted_crimson_roots: Eengedopfter Garmesinworzeln
   potted_warped_roots: Eengedopfter Wirrworzeln
+  candle_cake: Guchn mid Gerdse
+  white_candle_cake: Guchn mid weeßorr Gerdse
+  orange_candle_cake: Guchn mid orangschorr Gerdse
+  magenta_candle_cake: Guchn mid magenda Gerdse
+  light_blue_candle_cake: Guchn mit hellblauorr Gerdse
+  yellow_candle_cake: Guchn mid gelborr Gerdse
+  lime_candle_cake: Guchn mid hellgrienorr Gerdse
+  pink_candle_cake: Guchn mid pingorr Gerdse
+  gray_candle_cake: Guchn mid grauorr Gerdse
+  light_gray_candle_cake: Guchn mid hellgrauorr Gerdse
+  cyan_candle_cake: Guchn mid dürgisorr Gerdse
+  purple_candle_cake: Guchn mid lila Gerdse
+  blue_candle_cake: Guchn mid blauorr Gerdse
+  brown_candle_cake: Guchn mid braunorr Gerdse
+  green_candle_cake: Guchn mid grienorr Gerdse
+  red_candle_cake: Guchn mid rodorr Gerdse
+  black_candle_cake: Guchn mid schworzorr Gerdse
+  powder_snow: Bulvorrschnee
+  cave_vines: Höhlnrangn
+  cave_vines_plant: Höhlnrangnpflanze
+  big_dripleaf_stem: Großorr Drobbbladdschdiel
+  potted_azalea_bush: Eingedobbde Azalee
+  potted_flowering_azalea_bush: Eingedobbde blühende Azalee
+  grass_path: Latschpfad
   zombie_pigman_spawn_egg: Schweinezombie-Spawn-Ei
   cactus_green: Kaktusgrün
   dandelion_yellow: Löwenzahngelb
@@ -1116,7 +1267,7 @@ biome:
   jungle_edge: Dschunglrand
   deep_ocean: Diefsee
   stone_shore: Felsgüsde
-  snowy_beach: Vorschneidor Schdrand
+  snowy_beach: Vorrschneidorr Schdrand
   birch_forest: Bürschnwald
   birch_forest_hills: Bürschnwaldhüschl
   dark_forest: Dischdorr Wald
@@ -1136,11 +1287,11 @@ biome:
   end_barrens: End-Kargland
   warm_ocean: Warmor Ozean
   lukewarm_ocean: Lauwarmor Ozean
-  cold_ocean: Kaldor Ozean
+  cold_ocean: Kaldorr Ozean
   deep_warm_ocean: Warme Diefsee
   deep_lukewarm_ocean: Lauwarme Diefsee
   deep_cold_ocean: Kalde Diefsee
-  deep_frozen_ocean: Voreisde Diefsee
+  deep_frozen_ocean: Vorreisde Diefsee
   the_void: Die Leere
   sunflower_plains: Sonnenblumebene
   desert_lakes: Wüsdnseen
@@ -1169,46 +1320,48 @@ biome:
   crimson_forest: Karmesinwald
   warped_forest: Wirrwald
   basalt_deltas: Basaltdeltas
+  dripstone_caves: Drobbschdeenhöhln
+  lush_caves: Übbsche Höhln
   nether: Nether
 enchantment:
-  fire_protection: Feuorschudz
-  sharpness: Schärfe
-  flame: Flamme
-  soul_speed: Seelenläufer
-  aqua_affinity: Wasseraffinidäd
-  punch: Schlag
-  loyalty: Treue
-  depth_strider: Wassorläufor
-  vanishing_curse: Fluch des Vorschwindns
-  unbreaking: Haldbarkeed
-  knockback: Rüggschdoß
-  luck_of_the_sea: Glügg des Meeres
-  binding_curse: Fluch dor Bindung
-  fortune: Glügg
   protection: Schudz
-  efficiency: Effizienz
-  mending: Rebaradur
-  frost_walker: Eisläufor
-  lure: Ködor
-  looting: Blündorung
-  piercing: Durschschuss
-  blast_protection: Exblosionsschudz
-  smite: Bann
-  multishot: Mährfachschuss
-  fire_aspect: Vorbrennung
-  channeling: Blidzschlag
-  sweeping: Schwunggrafd
-  thorns: Dornen
-  bane_of_arthropods: Nemesis dor Gliedorfüßor
-  respiration: Admung
-  riptide: Sog
-  silk_touch: Behudsamkeed
-  quick_charge: Schnellladn
-  projectile_protection: Schusssischor
-  impaling: Schbießor
+  fire_protection: Feuorschudz
   feather_falling: Fädorfall
+  blast_protection: Exblosionsschudz
+  projectile_protection: Schusssischor
+  respiration: Admung
+  aqua_affinity: Wasseraffinidäd
+  thorns: Dornen
+  depth_strider: Wassorläufor
+  frost_walker: Eisläufor
+  binding_curse: Fluch dor Bindung
+  sharpness: Schärfe
+  smite: Bann
+  bane_of_arthropods: Nemesis dor Gliedorfüßor
+  knockback: Rüggschdoß
+  fire_aspect: Vorbrennung
+  looting: Blündorung
+  sweeping: Schwunggrafd
+  efficiency: Effizienz
+  silk_touch: Behudsamkeed
+  unbreaking: Haldbarkeed
+  fortune: Glügg
   power: Schdärge
+  punch: Schlag
+  flame: Flamme
   infinity: Unendlischkeed
+  luck_of_the_sea: Glügg des Meeres
+  lure: Ködor
+  loyalty: Treue
+  impaling: Schbießor
+  riptide: Sog
+  channeling: Blidzschlag
+  multishot: Mährfachschuss
+  quick_charge: Schnellladn
+  piercing: Durschschuss
+  mending: Rebaradur
+  vanishing_curse: Fluch des Vorschwindns
+  soul_speed: Seelenläufer
 potion:
   uncraftable: Nisch braubaror Drang
   water: Wassorrbulle
@@ -1403,6 +1556,11 @@ entity:
   strider: Schreidor
   zoglin: Zoglin
   piglin_brute: Piglin-Barbar
+  axolotl: Aggsolodl
+  glow_item_frame: Leuschdrahm
+  glow_squid: Leuschddindnfisch
+  goat: Ziesche
+  marker: Marker
   fishing_hook: Schwimmor
   lightning: Blidz
   player: Schbielorr
@@ -1988,7 +2146,7 @@ banner_pattern:
   '1966082': Magenda Bord
   '1966083': Hellblauorr Bord
   '1966084': Gelborr Bord
-  '1966085': Hellgrienor Bord
+  '1966085': Hellgrienorr Bord
   '1966086': Pingorr Bord
   '1966087': Grauorr Bord
   '1966088': Hellgrauorr Bord
@@ -2004,7 +2162,7 @@ banner_pattern:
   '2031618': Magenda Schbigglbord
   '2031619': Hellblauorr Schbigglbord
   '2031620': Gelborr Schbigglbord
-  '2031621': Hellgrienor Schbigglbord
+  '2031621': Hellgrienorr Schbigglbord
   '2031622': Pingorr Schbigglbord
   '2031623': Grauorr Schbigglbord
   '2031624': Hellgrauorr Schbigglbord
@@ -2052,7 +2210,7 @@ banner_pattern:
   '2228226': Magenda Farbvorloof (Inverdiord)
   '2228227': Hellblauor Farbvorloof (Inverdiord)
   '2228228': Gelbor Farbvorloof (Inverdiord)
-  '2228229': Hellgrienor Farbvorloof (Inverdierd)
+  '2228229': Hellgrienor Farbvorloof (Inverdiord)
   '2228230': Pingor Farbvorloof (Inverdiord)
   '2228231': Grauor Farbvorloof (Inverdiord)
   '2228232': Hellgrauor Farbvorloof (Inverdiord)
@@ -2068,7 +2226,7 @@ banner_pattern:
   '2293762': Fäld magenda gemauord
   '2293763': Fäld hellblau gemauord
   '2293764': Fäld gelb gemauord
-  '2293765': Feld hellgrien gemauord
+  '2293765': Fäld hellgrien gemauord
   '2293766': Fäld ping gemauord
   '2293767': Fäld grau gemauord
   '2293768': Fäld hellgrau gemauord
@@ -2084,7 +2242,7 @@ banner_pattern:
   '2359298': Magenda Nischl
   '2359299': Hellblauor Nischl
   '2359300': Gelbor Nischl
-  '2359301': Hellgrienor Schädl
+  '2359301': Hellgrienor Nischl
   '2359302': Pingor Nischl
   '2359303': Grauor Nischl
   '2359304': Hellgrauor Nischl
@@ -2132,7 +2290,7 @@ banner_pattern:
   '2555906': Magenda Globus
   '2555907': Hellblauorr Globus
   '2555908': Gelborr Globus
-  '2555909': Hellgrienor Globus
+  '2555909': Hellgrienorr Globus
   '2555910': Pingorr Globus
   '2555911': Grauorr Globus
   '2555912': Hellgrauorr Globus
@@ -2202,17 +2360,3 @@ villager_profession:
   shepherd: Schäforr
   toolsmith: Grobschmied
   weaponsmith: Waffnschmied
-villager_career:
-  farmer: Bauer
-  fisherman: Fischer
-  shepherd: Schäfer
-  fletcher: Pfeilmacher
-  librarian: Bibliothekar
-  cartographer: Kartograf
-  cleric: Geistlicher
-  armorer: Panzermacher
-  weapon_smith: Waffenschmied
-  tool_smith: Grobschmied
-  butcher: Fleischer
-  leatherworker: Gerber
-  nitwit: Nichtsnutz

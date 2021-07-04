@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:48                    #
+# Build time: 2021-07-04 21:46:04                    #
 # ####################################################
 language:
   code: ms_my
@@ -14,10 +14,17 @@ material:
   polished_diorite: Diorit Digilap
   andesite: Andesit
   polished_andesite: Andesit Digilap
+  deepslate: Batu Loh
+  cobbled_deepslate: Batu Buntar Loh
+  polished_deepslate: Batu Loh Digilap
+  calcite: Kalsit
+  tuff: Tuf
+  dripstone_block: Blok Batu Titis
   grass_block: Blok Rumput
   dirt: Tanah
   coarse_dirt: Tanah Kasar
   podzol: Podzol
+  rooted_dirt: Tanah Berakar
   crimson_nylium: Nilium Kirmizi
   warped_nylium: Nilium Terleding
   cobblestone: Batu Buntar
@@ -39,10 +46,67 @@ material:
   sand: Pasir
   red_sand: Pasir Merah
   gravel: Batu Kelikir
-  gold_ore: Bijih Emas
-  iron_ore: Bijih Besi
   coal_ore: Bijih Arang Batu
+  deepslate_coal_ore: Bijih Arang Batu Loh
+  iron_ore: Bijih Besi
+  deepslate_iron_ore: Bijih Besi Loh
+  copper_ore: Bijih Tembaga
+  deepslate_copper_ore: Bijih Tembaga Loh
+  gold_ore: Bijih Emas
+  deepslate_gold_ore: Bijih Emas Loh
+  redstone_ore: Bijih Redstone
+  deepslate_redstone_ore: Bijih Redstone Loh
+  emerald_ore: Bijih Zamrud
+  deepslate_emerald_ore: Bijih Zamrud Loh
+  lapis_ore: Bijih Lapis Lazuli
+  deepslate_lapis_ore: Bijih Lapis Lazuli Loh
+  diamond_ore: Bijih Berlian
+  deepslate_diamond_ore: Bijih Berlian Loh
   nether_gold_ore: Bijih Emas Nether
+  nether_quartz_ore: Bijih Kuarza Nether
+  ancient_debris: Puing Purba
+  coal_block: Blok Arang Batu
+  raw_iron_block: Blok Besi Mentah
+  raw_copper_block: Blok Tembaga Mentah
+  raw_gold_block: Blok Emas Mentah
+  amethyst_block: Blok Kecebung
+  budding_amethyst: Kecebung Menunas
+  iron_block: Blok Besi
+  copper_block: Blok Tembaga
+  gold_block: Blok Emas
+  diamond_block: Blok Berlian
+  netherite_block: Blok Netherit
+  exposed_copper: Tembaga Terdedah
+  weathered_copper: Tembaga Terluluhawa
+  oxidized_copper: Tembaga Teroksida
+  cut_copper: Tembaga Terpotong
+  exposed_cut_copper: Tembaga Terpotong Terdedah
+  weathered_cut_copper: Tembaga Terpotong Terluluhawa
+  oxidized_cut_copper: Tembaga Terpotong Teroksida
+  cut_copper_stairs: Tangga Tembaga Terpotong
+  exposed_cut_copper_stairs: Tangga Tembaga Terpotong Terdedah
+  weathered_cut_copper_stairs: Tangga Tembaga Terpotong Terluluhawa
+  oxidized_cut_copper_stairs: Tangga Tembaga Terpotong Teroksida
+  cut_copper_slab: Papak Tembaga Terpotong
+  exposed_cut_copper_slab: Papak Tembaga Terpotong Terdedah
+  weathered_cut_copper_slab: Papak Tembaga Terpotong Terluluhawa
+  oxidized_cut_copper_slab: Papak Tembaga Terpotong Teroksida
+  waxed_copper_block: Blok Tembaga Berlilin
+  waxed_exposed_copper: Tembaga Terdedah Berlilin
+  waxed_weathered_copper: Tembaga Terluluhawa Berlilin
+  waxed_oxidized_copper: Tembaga Teroksida Berlilin
+  waxed_cut_copper: Tembaga Terpotong Berlilin
+  waxed_exposed_cut_copper: Tembaga Terpotong Terdedah Berlilin
+  waxed_weathered_cut_copper: Tembaga Terpotong Terluluhawa Berlilin
+  waxed_oxidized_cut_copper: Tembaga Terpotong Teroksida Berlilin
+  waxed_cut_copper_stairs: Tangga Tembaga Terpotong Berlilin
+  waxed_exposed_cut_copper_stairs: Tangga Tembaga Terpotong Terdedah Berlilin
+  waxed_weathered_cut_copper_stairs: Tangga Tembaga Terpotong Terluluhawa Berlilin
+  waxed_oxidized_cut_copper_stairs: Tangga Tembaga Terpotong Teroksida Berlilin
+  waxed_cut_copper_slab: Papak Tembaga Terpotong Berlilin
+  waxed_exposed_cut_copper_slab: Papak Tembaga Terpotong Terdedah Berlilin
+  waxed_weathered_cut_copper_slab: Papak Tembaga Terpotong Terluluhawa Berlilin
+  waxed_oxidized_cut_copper_slab: Papak Tembaga Terpotong Teroksida Berlilin
   oak_log: Kayu Balak Oak
   spruce_log: Kayu Balak Cemara
   birch_log: Kayu Balak Birch
@@ -51,20 +115,20 @@ material:
   dark_oak_log: Kayu Balak Oak Gelap
   crimson_stem: Batang Kirmizi
   warped_stem: Batang Terleding
-  stripped_oak_log: Kayu Balak Oak yang Dikupas Kulit
-  stripped_spruce_log: Kayu Balak Cemara yang Dikupas Kulit
-  stripped_birch_log: Kayu Balak Birch yang Dikupas Kulit
-  stripped_jungle_log: Kayu Balak Rimba yang Dikupas Kulit
-  stripped_acacia_log: Kayu Balak Akasia yang Dikupas Kulit
-  stripped_dark_oak_log: Kayu Balak Oak Gelap yang Dikupas Kulit
+  stripped_oak_log: Balak Oak Kulit Terkupas
+  stripped_spruce_log: Balak Cemara Kulit Terkupas
+  stripped_birch_log: Balak Birch Kulit Terkupas
+  stripped_jungle_log: Balak Rimba Kulit Terkupas
+  stripped_acacia_log: Balak Akasia Kulit Terkupas
+  stripped_dark_oak_log: Balak Oak Gelap Kulit Terkupas
   stripped_crimson_stem: Batang Kirmizi Kulit Terkupas
   stripped_warped_stem: Batang Terleding Kulit Terkupas
-  stripped_oak_wood: Kayu Oak yang Dikupas Kulit
-  stripped_spruce_wood: Kayu Cemara yang Dikupas Kulit
-  stripped_birch_wood: Kayu Birch yang Dikupas Kulit
-  stripped_jungle_wood: Kayu Rimba yang Dikupas Kulit
-  stripped_acacia_wood: Kayu Akasia yang Dikupas Kulit
-  stripped_dark_oak_wood: Kayu Oak Gelap yang Dikupas Kulit
+  stripped_oak_wood: Kayu Oak Kulit Terkupas
+  stripped_spruce_wood: Kayu Cemara Kulit Terkupas
+  stripped_birch_wood: Kayu Birch Kulit Terkupas
+  stripped_jungle_wood: Kayu Rimba Kulit Terkupas
+  stripped_acacia_wood: Kayu Akasia Kulit Terkupas
+  stripped_dark_oak_wood: Kayu Oak Gelap Kulit Terkupas
   stripped_crimson_hyphae: Hifa Kirmizi Kulit Terkupas
   stripped_warped_hyphae: Hifa Terleding Kulit Terkupas
   oak_wood: Kayu Oak
@@ -81,26 +145,24 @@ material:
   jungle_leaves: Daun Rimba
   acacia_leaves: Daun Akasia
   dark_oak_leaves: Daun Kayu Oak Gelap
+  azalea_leaves: Daun Azalea
+  flowering_azalea_leaves: Daun Azalea Bermekar
   sponge: Span
   wet_sponge: Span Basah
   glass: Kaca
-  lapis_ore: Bijih Lapis Lazuli
+  tinted_glass: Cermin Gelap
   lapis_block: Blok Lapis Lazuli
-  dispenser: Pengagih
   sandstone: Batu Pasir
   chiseled_sandstone: Batu Pasir Terpahat
   cut_sandstone: Batu Pasir Dipotong
-  note_block: Blok Not
-  powered_rail: Landasan Berkuasa
-  detector_rail: Landasan Pengesan
-  sticky_piston: Omboh Melekit
   cobweb: Sarang Labah-labah
   grass: Rumput
   fern: Paku Pakis
+  azalea: Azalea
+  flowering_azalea: Azalea Bermekar
   dead_bush: Semak Mati
   seagrass: Rumput Laut
   sea_pickle: Jeruk Laut
-  piston: Omboh
   white_wool: Bulu Putih
   orange_wool: Bulu Jingga
   magenta_wool: Bulu Magenta
@@ -128,8 +190,9 @@ material:
   pink_tulip: Tulip Merah Jambu
   oxeye_daisy: Daisi Oxeye
   cornflower: Bunga Jagung
-  lily_of_the_valley: Lili Lembah
+  lily_of_the_valley: Bakung Lembah
   wither_rose: Mawar Wither
+  spore_blossom: Bunga Spora
   brown_mushroom: Cendawan Perang
   red_mushroom: Cendawan Merah
   crimson_fungus: Kulat Kirmizi
@@ -141,9 +204,12 @@ material:
   twisting_vines: Penjalar Memulas
   sugar_cane: Tebu
   kelp: Kelp
+  moss_carpet: Litupan Lumut
+  moss_block: Blok Lumut
+  hanging_roots: Akar Tergantung
+  big_dripleaf: Daun Titis Besar
+  small_dripleaf: Daun Titis Kecil
   bamboo: Buluh
-  gold_block: Blok Emas
-  iron_block: Blok Besi
   oak_slab: Papak Oak
   spruce_slab: Papak Cemara
   birch_slab: Papak Birch
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: Batu Pasir Licin
   smooth_stone: Batu Licin
   bricks: Bata
-  tnt: TNT
   bookshelf: Rak Buku
   mossy_cobblestone: Batu Buntar Berlumut
   obsidian: Obsidian
@@ -187,27 +252,11 @@ material:
   spawner: Penjelma
   oak_stairs: Tangga Oak
   chest: Peti
-  diamond_ore: Bijih Berlian
-  diamond_block: Blok Berlian
   crafting_table: Bangku Kerja
   farmland: Tanah Ladang
   furnace: Relau
   ladder: Tangga
-  rail: Landasan
   cobblestone_stairs: Tangga Batu Buntar
-  lever: Tuas
-  stone_pressure_plate: Plat Tekanan Batu
-  oak_pressure_plate: Plat Tekanan Oak
-  spruce_pressure_plate: Plat Tekanan Cemara
-  birch_pressure_plate: Plat Tekanan Birch
-  jungle_pressure_plate: Plat Tekanan Rimba
-  acacia_pressure_plate: Plat Tekanan Akasia
-  dark_oak_pressure_plate: Plat Tekanan Oak Gelap
-  crimson_pressure_plate: Plat Tekanan Kirmizi
-  warped_pressure_plate: Plat Tekanan Terleding
-  polished_blackstone_pressure_plate: Plat Tekanan Batu Hitam Digilap
-  redstone_ore: Bijih Redstone
-  redstone_torch: Obor Redstone
   snow: Salji
   ice: Ais
   snow_block: Blok Salji
@@ -224,32 +273,31 @@ material:
   warped_fence: Pagar Terleding
   pumpkin: Labu
   carved_pumpkin: Labu Diukir
+  jack_o_lantern: Tanglung Labu
   netherrack: Netherrack
   soul_sand: Pasir Roh
   soul_soil: Tanah Roh
   basalt: Basalt
   polished_basalt: Basalt Digilap
+  smooth_basalt: Basalt Licin
   soul_torch: Obor Roh
   glowstone: Batu Menyala
-  jack_o_lantern: Tanglung Labu
-  oak_trapdoor: Pintu Kolong Oak
-  spruce_trapdoor: Pintu Kolong Cemara
-  birch_trapdoor: Pintu Kolong Birch
-  jungle_trapdoor: Pintu Kolong Rimba
-  acacia_trapdoor: Pintu Kolong Akasia
-  dark_oak_trapdoor: Pintu Kolong Oak Gelap
-  crimson_trapdoor: Pintu Kolong Kirmizi
-  warped_trapdoor: Pintu Kolong Terleding
-  infested_stone: Batu Dikerumuni
-  infested_cobblestone: Batu Buntar Dikerumuni
-  infested_stone_bricks: Bata Batu Dikerumuni
-  infested_mossy_stone_bricks: Bata Batu Berlumut Dikerumuni
-  infested_cracked_stone_bricks: Bata Batu Rekah Dikerumuni
-  infested_chiseled_stone_bricks: Bata Batu Terpahat Dikerumuni
+  infested_stone: Batu Teremut
+  infested_cobblestone: Batu Buntar Teremut
+  infested_stone_bricks: Bata Batu Teremut
+  infested_mossy_stone_bricks: Bata Batu Berlumut Teremut
+  infested_cracked_stone_bricks: Bata Batu Rekah Teremut
+  infested_chiseled_stone_bricks: Bata Batu Terpahat Teremut
+  infested_deepslate: Batu Loh Teremut
   stone_bricks: Bata Batu
   mossy_stone_bricks: Bata Batu Berlumut
   cracked_stone_bricks: Bata Batu Rekah
   chiseled_stone_bricks: Bata Batu Terpahat
+  deepslate_bricks: Batu Bata Loh
+  cracked_deepslate_bricks: Batu Bata Loh Rekah
+  deepslate_tiles: Genting Loh
+  cracked_deepslate_tiles: Genting Loh Rekah
+  chiseled_deepslate: Batu Loh Terpahat
   brown_mushroom_block: Blok Cendawan Perang
   red_mushroom_block: Blok Cendawan Merah
   mushroom_stem: Batang Cendawan
@@ -258,14 +306,7 @@ material:
   glass_pane: Anak Kaca
   melon: Tembikai
   vine: Penjalar
-  oak_fence_gate: Pintu Pagar Kayu Oak
-  spruce_fence_gate: Pintu Pagar Cemara
-  birch_fence_gate: Pintu Pagar Birch
-  jungle_fence_gate: Pintu Pagar Kayu Rimba
-  acacia_fence_gate: Pintu Pagar Akasia
-  dark_oak_fence_gate: Pintu Pagar Oak Gelap
-  crimson_fence_gate: Pintu Pagar Kirmizi
-  warped_fence_gate: Pintu Pagar Terleding
+  glow_lichen: Liken Bersinar
   brick_stairs: Tangga Bata
   stone_brick_stairs: Anak Tangga Batu Bata
   mycelium: Miselium
@@ -280,11 +321,8 @@ material:
   end_stone: Batu End
   end_stone_bricks: Bata Batu End
   dragon_egg: Telur Naga
-  redstone_lamp: Lampu Redstone
   sandstone_stairs: Tangga Batu Pasir
-  emerald_ore: Bijih Zamrud
   ender_chest: Peti Ender
-  tripwire_hook: Penyangkuk Tali Belantik
   emerald_block: Blok Zamrud
   spruce_stairs: Tangga Cemara
   birch_stairs: Tangga Birch
@@ -310,33 +348,18 @@ material:
   blackstone_wall: Tembok Batu Hitam
   polished_blackstone_wall: Tembok Batu Hitam Digilap
   polished_blackstone_brick_wall: Tembok Bata Batu Hitam Digilap
-  stone_button: Butang Batu
-  oak_button: Butang Oak
-  spruce_button: Butang Cemara
-  birch_button: Butang Birch
-  jungle_button: Butang Rimba
-  acacia_button: Butang Akasia
-  dark_oak_button: Butang Oak Gelap
-  crimson_button: Butang Kirmizi
-  warped_button: Butang Terleding
-  polished_blackstone_button: Butang Batu Hitam Digilap
+  cobbled_deepslate_wall: Tembok Batu Buntar Loh
+  polished_deepslate_wall: Tembok Batu Loh Digilap
+  deepslate_brick_wall: Tembok Batu Bata Loh
+  deepslate_tile_wall: Tembok Genting Loh
   anvil: Andas
   chipped_anvil: Andas Sumbing
   damaged_anvil: Andas Rosak
-  trapped_chest: Peti Perangkap
-  light_weighted_pressure_plate: Plat Tekanan Berpemberat Ringan
-  heavy_weighted_pressure_plate: Plat Tekanan Berpemberat Berat
-  daylight_detector: Pengesan Cahaya Siang
-  redstone_block: Blok Redstone
-  nether_quartz_ore: Bijih Kuarza Nether
-  hopper: Corong Tuang
   chiseled_quartz_block: Blok Kuarza Bercorak
   quartz_block: Blok Kuarza
   quartz_bricks: Bata Kuarza
   quartz_pillar: Tonggak Kuarza
   quartz_stairs: Tangga Kuarza
-  activator_rail: Landasan Pengaktif
-  dropper: Penitis
   white_terracotta: Terakota Putih
   orange_terracotta: Terakota Jingga
   magenta_terracotta: Terakota Magenta
@@ -354,7 +377,7 @@ material:
   red_terracotta: Terakota Merah
   black_terracotta: Terakota Hitam
   barrier: Halangan
-  iron_trapdoor: Pintu Kolong Besi
+  light: Cahaya
   hay_block: Bandela Jerami
   white_carpet: Permaidani Putih
   orange_carpet: Permaidani Jingga
@@ -373,12 +396,10 @@ material:
   red_carpet: Permaidani Merah
   black_carpet: Permaidani Hitam
   terracotta: Terakota
-  coal_block: Blok Arang Batu
   packed_ice: Ais Padat
   acacia_stairs: Tangga Akasia
   dark_oak_stairs: Tangga Oak Gelap
-  slime_block: Blok Lendir
-  grass_path: Laluan Rumput
+  dirt_path: Laluan Tanah
   sunflower: Bunga Matahari
   lilac: Lilac
   rose_bush: Semak Ros
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: Bata Merah Nether
   bone_block: Blok Tulang
   structure_void: Struktur Kekosongan
-  observer: Pemerhati
   shulker_box: Kotak Shulker
   white_shulker_box: Kotak Shulker Putih
   orange_shulker_box: Kotak Shulker Jingga
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: Tangga Bata Nether Merah
   polished_andesite_stairs: Tangga Andesit Digilap
   diorite_stairs: Tangga Diorit
+  cobbled_deepslate_stairs: Tangga Batu Buntar Loh
+  polished_deepslate_stairs: Tangga Batu Loh Digilap
+  deepslate_brick_stairs: Tangga Batu Bata Loh
+  deepslate_tile_stairs: Tangga Genting Loh
   polished_granite_slab: Papak Granit Digilap
   smooth_red_sandstone_slab: Papak Batu Pasir Merah Licin
   mossy_stone_brick_slab: Papak Bata Batu Berlumut
@@ -562,18 +586,102 @@ material:
   red_nether_brick_slab: Papak Bata Nether Merah
   polished_andesite_slab: Papak Andesit Digilap
   diorite_slab: Papak Diorit
+  cobbled_deepslate_slab: Papak Batu Buntar Loh
+  polished_deepslate_slab: Papak Batu Loh Digilap
+  deepslate_brick_slab: Papak Batu Bata Loh
+  deepslate_tile_slab: Papak Genting Loh
   scaffolding: Perancah
+  redstone: Serbuk Redstone
+  redstone_torch: Obor Redstone
+  redstone_block: Blok Redstone
+  repeater: Pengulang Redstone
+  comparator: Pembanding Redstone
+  piston: Omboh
+  sticky_piston: Omboh Melekit
+  slime_block: Blok Lendir
+  honey_block: Blok Madu
+  observer: Pemerhati
+  hopper: Corong Tuang
+  dispenser: Pengagih
+  dropper: Penitis
+  lectern: Mimbar
+  target: Sasaran
+  lever: Tuas
+  lightning_rod: Pengalir Kilat
+  daylight_detector: Pengesan Cahaya Langit
+  sculk_sensor: Penderia Sculk
+  tripwire_hook: Penyangkuk Tali Belantik
+  trapped_chest: Peti Perangkap
+  tnt: TNT
+  redstone_lamp: Lampu Redstone
+  note_block: Blok Not
+  stone_button: Butang Batu
+  polished_blackstone_button: Butang Batu Hitam Digilap
+  oak_button: Butang Oak
+  spruce_button: Butang Cemara
+  birch_button: Butang Birch
+  jungle_button: Butang Rimba
+  acacia_button: Butang Akasia
+  dark_oak_button: Butang Oak Gelap
+  crimson_button: Butang Kirmizi
+  warped_button: Butang Terleding
+  stone_pressure_plate: Plat Tekanan Batu
+  polished_blackstone_pressure_plate: Plat Tekanan Batu Hitam Digilap
+  light_weighted_pressure_plate: Plat Tekanan Berpemberat Ringan
+  heavy_weighted_pressure_plate: Plat Tekanan Berpemberat Berat
+  oak_pressure_plate: Plat Tekanan Oak
+  spruce_pressure_plate: Plat Tekanan Cemara
+  birch_pressure_plate: Plat Tekanan Birch
+  jungle_pressure_plate: Plat Tekanan Rimba
+  acacia_pressure_plate: Plat Tekanan Akasia
+  dark_oak_pressure_plate: Plat Tekanan Oak Gelap
+  crimson_pressure_plate: Plat Tekanan Kirmizi
+  warped_pressure_plate: Plat Tekanan Terleding
   iron_door: Pintu Besi
   oak_door: Pintu Kayu Oak
-  spruce_door: Pintu Kayu Cemara
+  spruce_door: Pintu Cemara
   birch_door: Pintu Kayu Birch
   jungle_door: Pintu Kayu Rimba
-  acacia_door: Pintu Kayu Akasia
+  acacia_door: Pintu Akasia
   dark_oak_door: Pintu Kayu Oak Gelap
   crimson_door: Pintu Kirmizi
   warped_door: Pintu Terleding
-  repeater: Pengulang Redstone
-  comparator: Pembanding Redstone
+  iron_trapdoor: Pintu Kolong Besi
+  oak_trapdoor: Pintu Kolong Oak
+  spruce_trapdoor: Pintu Kolong Cemara
+  birch_trapdoor: Pintu Kolong Birch
+  jungle_trapdoor: Pintu Kolong Rimba
+  acacia_trapdoor: Pintu Kolong Akasia
+  dark_oak_trapdoor: Pintu Kolong Oak Gelap
+  crimson_trapdoor: Pintu Kolong Kirmizi
+  warped_trapdoor: Pintu Kolong Terleding
+  oak_fence_gate: Pintu Pagar Kayu Oak
+  spruce_fence_gate: Pintu Pagar Cemara
+  birch_fence_gate: Pintu Pagar Birch
+  jungle_fence_gate: Pintu Pagar Kayu Rimba
+  acacia_fence_gate: Pintu Pagar Akasia
+  dark_oak_fence_gate: Pintu Pagar Oak Gelap
+  crimson_fence_gate: Pintu Pagar Kirmizi
+  warped_fence_gate: Pintu Pagar Terleding
+  powered_rail: Landasan Berkuasa
+  detector_rail: Landasan Pengesan
+  rail: Landasan
+  activator_rail: Landasan Pengaktif
+  saddle: Pelana
+  minecart: Kereta Lombong
+  chest_minecart: Kereta Lombong dengan Peti
+  furnace_minecart: Kereta Lombong dengan Relau
+  tnt_minecart: Kereta Lombong dengan TNT
+  hopper_minecart: Kereta Lombong dengan Corong Tuang
+  carrot_on_a_stick: Lobak di atas Kayu
+  warped_fungus_on_a_stick: Kulat Gila di atas Kayu
+  elytra: Elytra
+  oak_boat: Bot Kayu Oak
+  spruce_boat: Bot Cemara
+  birch_boat: Bot Birch
+  jungle_boat: Bot Rimba
+  acacia_boat: Bot Akasia
+  dark_oak_boat: Bot Oak Gelap
   structure_block: Blok Struktur
   jigsaw: Blok Suai-Jodoh
   turtle_helmet: Karapas Penyu
@@ -585,7 +693,15 @@ material:
   coal: Arang Batu
   charcoal: Arang
   diamond: Berlian
+  emerald: Zamrud
+  lapis_lazuli: Lapis Lazuli
+  quartz: Kuarza Nether
+  amethyst_shard: Beling Batu Kecubung
+  raw_iron: Besi Mentah
   iron_ingot: Jongkong Besi
+  raw_copper: Tembaga Mentah
+  copper_ingot: Jongkong Tembaga
+  raw_gold: Emas Mentah
   gold_ingot: Jongkong Emas
   netherite_ingot: Jongkong Netherit
   netherite_scrap: Netherit Sekerap
@@ -669,29 +785,27 @@ material:
   bucket: Baldi
   water_bucket: Baldi Air
   lava_bucket: Baldi Lava
-  minecart: Kereta Lombong
-  saddle: Pelana
-  redstone: Serbuk Redstone
+  powder_snow_bucket: Baldi Salji Serbuk
   snowball: Bola Salji
-  oak_boat: Bot Kayu Oak
   leather: Kulit Lembu
   milk_bucket: Baldi Susu
   pufferfish_bucket: Sebaldi Ikan Buntal
   salmon_bucket: Sebaldi Ikan Salmon
   cod_bucket: Sebaldi Kod
   tropical_fish_bucket: Sebaldi Ikan Tropika
+  axolotl_bucket: Baldi Axolotl
   brick: Bata
   clay_ball: Bebola Tanah Liat
   dried_kelp_block: Blok Kelp Kering
   paper: Kertas
   book: Buku
   slime_ball: Bebola Lendir
-  chest_minecart: Kereta Lombong dengan Peti
-  furnace_minecart: Kereta Lombong dengan Relau
   egg: Telur
   compass: Kompas
+  bundle: Guni
   fishing_rod: Joran
   clock: Jam
+  spyglass: Teropong Kecil
   glowstone_dust: Serbuk Batu Berkilau
   cod: Kod Mentah
   salmon: Salmon Mentah
@@ -700,8 +814,8 @@ material:
   cooked_cod: Kod Masak
   cooked_salmon: Salmon Masak
   ink_sac: Pundi Dakwat
+  glow_ink_sac: Pundi Dakwat Bersinar
   cocoa_beans: Biji Koko
-  lapis_lazuli: Lapis Lazuli
   white_dye: Pewarna Putih
   orange_dye: Pewarna Jingga
   magenta_dye: Pewarna Magenta
@@ -765,6 +879,7 @@ material:
   cauldron: Kawah
   ender_eye: Mata Ender
   glistering_melon_slice: Hirisan Tembikai Berkilauan
+  axolotl_spawn_egg: Telur Penjelmaan Axolotl
   bat_spawn_egg: Telur Penjelmaan Kelawar
   bee_spawn_egg: Telur Penjelmaan Lebah
   blaze_spawn_egg: Telur Penjelmaan Blaze
@@ -781,8 +896,10 @@ material:
   enderman_spawn_egg: Telur Penjelmaan Enderman
   endermite_spawn_egg: Telur Penjelmaan Endermite
   evoker_spawn_egg: Telur Penjelmaan Evoker
-  fox_spawn_egg: Telur Penjelmaan Musang
+  fox_spawn_egg: Telur Penjelmaan Rubah
   ghast_spawn_egg: Telur Penjelmaan Ghast
+  glow_squid_spawn_egg: Telur Penjelmaan Sotong Bersinar
+  goat_spawn_egg: Telur Penjelmaan Kambing
   guardian_spawn_egg: Telur Penjelmaan Penjaga
   hoglin_spawn_egg: Telur Penjelmaan Hoglin
   horse_spawn_egg: Telur Penjelmaan Kuda
@@ -833,8 +950,8 @@ material:
   fire_charge: Bebola Api
   writable_book: Buku dan Bulu Pelepah
   written_book: Buku Bertulis
-  emerald: Zamrud
   item_frame: Bingkai Item
+  glow_item_frame: Bingkai Item Bersinar
   flower_pot: Pasu Bunga
   carrot: Lobak
   potato: Kentang
@@ -848,17 +965,12 @@ material:
   zombie_head: Kepala Zombi
   creeper_head: Kepala Creeper
   dragon_head: Kepala Naga
-  carrot_on_a_stick: Lobak di atas Kayu
-  warped_fungus_on_a_stick: Kulat Gila di atas Kayu
   nether_star: Bintang Nether
   pumpkin_pie: Pai Labu
   firework_rocket: Roket Bunga Api
   firework_star: Bintang Bunga Api
   enchanted_book: Buku Tersihir
   nether_brick: Bata Nether
-  quartz: Kuarza Nether
-  tnt_minecart: Kereta Lombong dengan TNT
-  hopper_minecart: Kereta Lombong dengan Corong Tuang
   prismarine_shard: Beling Prismarin
   prismarine_crystals: Kristal Prismarin
   rabbit: Arnab Mentah
@@ -906,12 +1018,6 @@ material:
   tipped_arrow: Anak Panah Tertip
   lingering_potion: Posyen Berlarutan
   shield: Perisai
-  elytra: Elytra
-  spruce_boat: Bot Cemara
-  birch_boat: Bot Birch
-  jungle_boat: Bot Rimba
-  acacia_boat: Bot Akasia
-  dark_oak_boat: Bot Oak Gelap
   totem_of_undying: Totem Abadi
   shulker_shell: Cangkerang Shulker
   iron_nugget: Nuget Besi
@@ -950,26 +1056,22 @@ material:
   cartography_table: Meja Kartografi
   fletching_table: Meja Pertukangan Busur
   grindstone: Batu Pengasah
-  lectern: Meja Syarahan
   smithing_table: Meja Tukang Besi
   stonecutter: Pemotong Batu
-  bell: Genta
+  bell: Loceng
   lantern: Tanglung
   soul_lantern: Tanglung Roh
   sweet_berries: Beri Manis
+  glow_berries: Beri Bersinar
   campfire: Unggun Api
   soul_campfire: Unggun Api Roh
   shroomlight: Lampu Cendawan
   honeycomb: Indung madu
   bee_nest: Sarang Lebah
-  beehive: Sarang Lebah
+  beehive: Sarang Lebah Buatan
   honey_bottle: Botol Madu
-  honey_block: Blok Madu
   honeycomb_block: Blok Indung Madu
   lodestone: Batu Magnet
-  netherite_block: Blok Netherit
-  ancient_debris: Puing Purba
-  target: Sasaran
   crying_obsidian: Obsidian Menangis
   blackstone: Batu Hitam
   blackstone_slab: Papak Batu Hitam
@@ -984,6 +1086,28 @@ material:
   polished_blackstone_brick_stairs: Tangga Bata Batu Hitam Digilap
   cracked_polished_blackstone_bricks: Bata Batu Hitam Digilap Rekah
   respawn_anchor: Penambat Penjelmaan
+  candle: Lilin
+  white_candle: Lilin Putih
+  orange_candle: Lilin Jingga
+  magenta_candle: Lilin Magenta
+  light_blue_candle: Lilin Biru Muda
+  yellow_candle: Lilin Kuning
+  lime_candle: Lilin Hijau Muda
+  pink_candle: Lilin Merah Jambu
+  gray_candle: Lilin Kelabu
+  light_gray_candle: Lilin Kelabu Muda
+  cyan_candle: Lilin Sian
+  purple_candle: Lilin Ungu
+  blue_candle: Lilin Biru
+  brown_candle: Lilin Perang
+  green_candle: Lilin Hijau
+  red_candle: Lilin Merah
+  black_candle: Lilin Hitam
+  small_amethyst_bud: Tunas Kecebung Kecil
+  medium_amethyst_bud: Tunas Kecebung Sederhana
+  large_amethyst_bud: Tunas Kecebung Besar
+  amethyst_cluster: Gugusan Kecebung
+  pointed_dripstone: Batu Titis Runcing
   water: Air
   lava: Lava
   tall_seagrass: Rumput Laut Tinggi
@@ -1006,6 +1130,9 @@ material:
   attached_melon_stem: Batang Tembikai Dihubung
   pumpkin_stem: Batang Labu
   melon_stem: Batang Tembikai
+  water_cauldron: Kawah Air
+  lava_cauldron: Kawah Lava
+  powder_snow_cauldron: Kawah Berisi Salji Serbuk
   end_portal: Portal End
   cocoa: Koko
   tripwire: Tripwayar
@@ -1075,7 +1202,7 @@ material:
   potted_bamboo: Buluh Berpasu
   void_air: Udara Kekosongan
   cave_air: Udara Gua
-  bubble_column: Buih lajur
+  bubble_column: Kepulan Buih
   sweet_berry_bush: Pohon Beri Manis
   weeping_vines_plant: Pokok Penjalar Menjulai
   twisting_vines_plant: Pokok Penjalar Memulas
@@ -1085,6 +1212,30 @@ material:
   potted_warped_fungus: Kulat Terleding Berpasu
   potted_crimson_roots: Akar Kirmizi Berpasu
   potted_warped_roots: Akar Terleding Berpasu
+  candle_cake: Kek Lilin
+  white_candle_cake: Kek Berlilin Putih
+  orange_candle_cake: Kek Berlilin Oren
+  magenta_candle_cake: Kek Berlilin Magenta
+  light_blue_candle_cake: Kek Berlilin Biru Muda
+  yellow_candle_cake: Kek Berlilin Kuning
+  lime_candle_cake: Kek Berlilin Hijau Muda
+  pink_candle_cake: Kek Berlilin Merah Jambu
+  gray_candle_cake: Kek Berlilin Kelabu
+  light_gray_candle_cake: Kek Berlilin Kelabu Muda
+  cyan_candle_cake: Kek Berlilin Sian
+  purple_candle_cake: Kek Berlilin Ungu
+  blue_candle_cake: Kek Berlilin Biru
+  brown_candle_cake: Kek Berlilin Perang
+  green_candle_cake: Kek Berlilin Hijau
+  red_candle_cake: Kek Berlilin Merah
+  black_candle_cake: Kek Berlilin Hitam
+  powder_snow: Salji Serbuk
+  cave_vines: Penjalar Gua
+  cave_vines_plant: Pokok Penjalar Gua
+  big_dripleaf_stem: Batang Daun Titis Besar
+  potted_azalea_bush: Azalea Berpasu
+  potted_flowering_azalea_bush: Azalea Bermekar Berpasu
+  grass_path: Laluan Rumput
   zombie_pigman_spawn_egg: Telur Penjelmaan Zombi Manusia Khinzir
   cactus_green: Hijau Kaktus
   dandelion_yellow: Kuning Dandelion
@@ -1136,7 +1287,7 @@ biome:
   end_midlands: Bahagian Tengah End
   end_highlands: Tanah Tinggi End
   end_barrens: End Bertandus
-  warm_ocean: Laut Suam
+  warm_ocean: Lautan Panas
   lukewarm_ocean: Lautan Suam
   cold_ocean: Lautan Sejuk
   deep_warm_ocean: Lautan Dalam Hangat
@@ -1171,46 +1322,48 @@ biome:
   crimson_forest: Hutan Kirmizi
   warped_forest: Hutan Terleding
   basalt_deltas: Delta Basalt
+  dripstone_caves: Gua Batu Titis
+  lush_caves: Gua Subur
   nether: Nether
 enchantment:
-  fire_protection: Perlindungan Api
-  sharpness: Ketajaman
-  flame: Nyalaan
-  soul_speed: Kepantasan Roh
-  aqua_affinity: Afiniti Akua
-  punch: Tumbuk
-  loyalty: Kesetiaan
-  depth_strider: Pejalan Dasar Laut
-  vanishing_curse: Sumpahan Mengghaib
-  unbreaking: Tahan Pecah
-  knockback: Tolakan
-  luck_of_the_sea: Tuah Lautan
-  binding_curse: Sumpahan Mengikat
-  fortune: Tuah
   protection: Perlindungan
-  efficiency: Kecekapan
-  mending: Memulih
-  frost_walker: Pejalan Fros
-  lure: Umpan
-  looting: Merampas
-  piercing: Penusukan
-  blast_protection: Perlindungan Letupan
-  smite: Kudus
-  multishot: Serangan Berbilang
-  fire_aspect: Unsur Api
-  channeling: Penyaluran
-  sweeping: Bucu Tajam
-  thorns: Duri
-  bane_of_arthropods: Budi Anthropod
-  respiration: Pernafasan
-  riptide: Pasang Surut Simbar
-  silk_touch: Sentuhan Halus
-  quick_charge: Pengisian Pantas
-  projectile_protection: Perlindungan Peluru
-  impaling: Menikam
+  fire_protection: Perlindungan Api
   feather_falling: Peringan Kejatuhan
+  blast_protection: Perlindungan Letupan
+  projectile_protection: Perlindungan Peluru
+  respiration: Pernafasan
+  aqua_affinity: Afiniti Akua
+  thorns: Duri
+  depth_strider: Pejalan Dasar Laut
+  frost_walker: Pejalan Fros
+  binding_curse: Sumpahan Mengikat
+  sharpness: Ketajaman
+  smite: Kudus
+  bane_of_arthropods: Budi Anthropod
+  knockback: Tolakan
+  fire_aspect: Unsur Api
+  looting: Merampas
+  sweeping: Bucu Tajam
+  efficiency: Kecekapan
+  silk_touch: Sentuhan Halus
+  unbreaking: Tahan Pecah
+  fortune: Tuah
   power: Kuasa
+  punch: Tumbuk
+  flame: Nyalaan
   infinity: Infiniti
+  luck_of_the_sea: Tuah Lautan
+  lure: Umpan
+  loyalty: Kesetiaan
+  impaling: Menikam
+  riptide: Pasang Surut Simbar
+  channeling: Penyaluran
+  multishot: Serangan Berbilang
+  quick_charge: Pengisian Pantas
+  piercing: Penusukan
+  mending: Memulih
+  vanishing_curse: Sumpahan Mengghaib
+  soul_speed: Kepantasan Roh
 potion:
   uncraftable: Posyen Yang Tidak Boleh Dikrafkan
   water: Botol Air
@@ -1298,12 +1451,12 @@ tipped_arrow:
   weakness: Anak Panah Kelemahan
   luck: Anak Panah Tuah
   turtle_master: Anak Panah Mahaguru Penyu
-  slow_falling: Anak Panah Jatuh Perlahan
+  slow_falling: Anak Panah Kejatuhan Lambat
 entity:
   dropped_item: Item
   experience_orb: Bebola Pengalaman
   area_effect_cloud: Kawasan Awan Kesan
-  elder_guardian: Penjaga Tua
+  elder_guardian: Penggawa Penjaga
   wither_skeleton: Kerangka Wither
   stray: Pengliar
   egg: Telur Dicampak
@@ -1335,7 +1488,7 @@ entity:
   evoker_fangs: Siung Pembangkit
   evoker: Evoker
   vex: Vex
-  vindicator: Tunggul
+  vindicator: Pembela
   illusioner: Pengkhayal
   minecart_command: Kereta Lombong dengan Blok Arahan
   boat: Bot
@@ -1398,13 +1551,18 @@ entity:
   ravager: Pemusnah
   trader_llama: Llama Peniaga
   wandering_trader: Peniaga Berkelana
-  fox: Musang
+  fox: Rubah
   bee: Lebah
   hoglin: Hoglin
   piglin: Piglin
   strider: Perentas
   zoglin: Zoglin
   piglin_brute: Piglin Ganas
+  axolotl: Axolotl
+  glow_item_frame: Bingkai Item Bersinar
+  glow_squid: Sotong Bersinar
+  goat: Kambing
+  marker: Penanda
   fishing_hook: Balak Apung Memancing
   lightning: Panahan Petir
   player: Pemain
@@ -1437,7 +1595,7 @@ effect:
   levitation: Apungan
   luck: Nasib
   unluck: Nasib Malang
-  slow_falling: Lambat jatuh
+  slow_falling: Kejatuhan Lambat
   conduit_power: Kuasa Pembuluh
   dolphins_grace: Gaya Dolfin
   bad_omen: Badi
@@ -1521,70 +1679,70 @@ colored_shied:
   red: Perisai Merah
   black: Perisai Hitam
 banner_pattern:
-  '65536': Petak Penjuru Kiri Bawah Putih
-  '65537': Petak Penjuru Kiri Bawah Jingga
-  '65538': Petak Penjuru Kiri Bawah Magenta
-  '65539': Petak Penjuru Kiri Bawah Biru Muda
-  '65540': Petak Penjuru Kiri Bawah Kuning
-  '65541': Petak Penjuru Kiri Bawah Hijau Muda
-  '65542': Petak Penjuru Kiri Bawah Merah Jambu
-  '65543': Petak Penjuru Kiri Bawah Kelabu
-  '65544': Petak Penjuru Kiri Bawah Kelabu Muda
-  '65545': Petak Penjuru Kiri Bawah Sian
-  '65546': Petak Penjuru Kiri Bawah Ungu
-  '65547': Petak Penjuru Kiri Bawah Biru
-  '65548': Petak Penjuru Kiri Bawah Perang
-  '65549': Petak Penjuru Kiri Bawah Hijau
-  '65550': Petak Penjuru Kiri Bawah Merah
-  '65551': Petak Penjuru Kiri Bawah Hitam
-  '131072': Petak Penjuru Kanan Bawah Putih
-  '131073': Petak Penjuru Kanan Bawah Jingga
-  '131074': Petak Penjuru Kanan Bawah Magenta
-  '131075': Petak Penjuru Kanan Bawah Biru Muda
-  '131076': Petak Penjuru Kanan Bawah Kuning
-  '131077': Petak Penjuru Kanan Bawah Hijau Muda
-  '131078': Petak Penjuru Kanan Bawah Merah Jambu
-  '131079': Petak Penjuru Kanan Bawah Kelabu
-  '131080': Petak Penjuru Kanan Bawah Kelabu Muda
-  '131081': Petak Penjuru Kanan Bawah Sian
-  '131082': Petak Penjuru Kanan Bawah Ungu
-  '131083': Petak Penjuru Kanan Bawah Biru
-  '131084': Petak Penjuru Kanan Bawah Perang
-  '131085': Petak Penjuru Kanan Bawah Hijau
-  '131086': Petak Penjuru Kanan Bawah Merah
-  '131087': Petak Penjuru Kanan Bawah Hitam
-  '196608': Petak Penjuru Kiri Atas Putih
-  '196609': Petak Penjuru Kiri Atas Jingga
-  '196610': Petak Penjuru Kiri Atas Magenta
-  '196611': Petak Penjuru Kiri Atas Biru Muda
-  '196612': Petak Penjuru Kiri Atas Kuning
-  '196613': Petak Penjuru Kiri Atas Hijau Muda
-  '196614': Petak Penjuru Kiri Atas Merah Jambu
-  '196615': Petak Penjuru Kiri Atas Kelabu
-  '196616': Petak Penjuru Kiri Atas Kelabu Muda
-  '196617': Petak Penjuru Kiri Atas Sian
-  '196618': Petak Penjuru Kiri Atas Ungu
-  '196619': Petak Penjuru Kiri Atas Biru
-  '196620': Petak Penjuru Kiri Atas Perang
-  '196621': Petak Penjuru Kiri Atas Hijau
-  '196622': Petak Penjuru Kiri Atas Merah
-  '196623': Petak Penjuru Kiri Atas Hitam
-  '262144': Petak Penjuru Kanan Atas Putih
-  '262145': Petak Penjuru Kanan Atas Jingga
-  '262146': Petak Penjuru Kanan Atas Magenta
-  '262147': Petak Penjuru Kanan Atas Biru Muda
-  '262148': Petak Penjuru Kanan Atas Kuning
-  '262149': Petak Penjuru Kanan Atas Hijau Muda
-  '262150': Petak Penjuru Kanan Atas Merah Jambu
-  '262151': Petak Penjuru Kanan Atas Kelabu
-  '262152': Petak Penjuru Kanan Atas Kelabu Muda
-  '262153': Petak Penjuru Kanan Atas Sian
-  '262154': Petak Penjuru Kanan Atas Ungu
-  '262155': Petak Penjuru Kanan Atas Biru
-  '262156': Petak Penjuru Kanan Atas Perang
-  '262157': Petak Penjuru Kanan Atas Hijau
-  '262158': Petak Penjuru Kanan Atas Merah
-  '262159': Petak Penjuru Kanan Atas Hitam
+  '65536': Kanton Kiri Bawah Putih
+  '65537': Kanton Kiri Bawah Jingga
+  '65538': Kanton Kiri Bawah Magenta
+  '65539': Kanton Kiri Bawah Biru Muda
+  '65540': Kanton Kiri Bawah Kuning
+  '65541': Kanton Kiri Bawah Hijau Muda
+  '65542': Kanton Kiri Bawah Merah Jambu
+  '65543': Kanton Kiri Bawah Kelabu
+  '65544': Kanton Kiri Bawah Kelabu Muda
+  '65545': Kanton Kiri Bawah Sian
+  '65546': Kanton Kiri Bawah Ungu
+  '65547': Kanton Kiri Bawah Biru
+  '65548': Kanton Kiri Bawah Perang
+  '65549': Kanton Kiri Bawah Hijau
+  '65550': Kanton Kiri Bawah Merah
+  '65551': Kanton Kiri Bawah Hitam
+  '131072': Kanton Kanan Bawah Putih
+  '131073': Kanton Kanan Bawah Jingga
+  '131074': Kanton Kanan Bawah Magenta
+  '131075': Kanton Kanan Bawah Biru Muda
+  '131076': Kanton Kanan Bawah Kuning
+  '131077': Kanton Kanan Bawah Hijau Muda
+  '131078': Kanton Kanan Bawah Merah Jambu
+  '131079': Kanton Kanan Bawah Kelabu
+  '131080': Kanton Kanan Bawah Kelabu Muda
+  '131081': Kanton Kanan Bawah Sian
+  '131082': Kanton Kanan Bawah Ungu
+  '131083': Kanton Kanan Bawah Biru
+  '131084': Kanton Kanan Bawah Perang
+  '131085': Kanton Kanan Bawah Hijau
+  '131086': Kanton Kanan Bawah Merah
+  '131087': Kanton Kanan Bawah Hitam
+  '196608': Kanton Kiri Atas Putih
+  '196609': Kanton Kiri Atas Jingga
+  '196610': Kanton Kiri Atas Magenta
+  '196611': Kanton Kiri Atas Biru Muda
+  '196612': Kanton Kiri Atas Kuning
+  '196613': Kanton Kiri Atas Hijau Muda
+  '196614': Kanton Kiri Atas Merah Jambu
+  '196615': Kanton Kiri Atas Kelabu
+  '196616': Kanton Kiri Atas Kelabu Muda
+  '196617': Kanton Kiri Atas Sian
+  '196618': Kanton Kiri Atas Ungu
+  '196619': Kanton Kiri Atas Biru
+  '196620': Kanton Kiri Atas Perang
+  '196621': Kanton Kiri Atas Hijau
+  '196622': Kanton Kiri Atas Merah
+  '196623': Kanton Kiri Atas Hitam
+  '262144': Kanton Kanan Atas Putih
+  '262145': Kanton Kanan Atas Jingga
+  '262146': Kanton Kanan Atas Magenta
+  '262147': Kanton Kanan Atas Biru Muda
+  '262148': Kanton Kanan Atas Kuning
+  '262149': Kanton Kanan Atas Hijau Muda
+  '262150': Kanton Kanan Atas Merah Jambu
+  '262151': Kanton Kanan Atas Kelabu
+  '262152': Kanton Kanan Atas Kelabu Muda
+  '262153': Kanton Kanan Atas Sian
+  '262154': Kanton Kanan Atas Ungu
+  '262155': Kanton Kanan Atas Biru
+  '262156': Kanton Kanan Atas Perang
+  '262157': Kanton Kanan Atas Hijau
+  '262158': Kanton Kanan Atas Merah
+  '262159': Kanton Kanan Atas Hitam
   '327680': Asas Putih
   '327681': Asas Jingga
   '327682': Tapak Magenta
@@ -1601,166 +1759,166 @@ banner_pattern:
   '327693': Asas Hijau
   '327694': Asas Merah
   '327695': Asas Hitam
-  '393216': Atas Putih
-  '393217': Atas Jingga
-  '393218': Atas Magenta
-  '393219': Atas Biru Muda
-  '393220': Atas Kuning
-  '393221': Atas Hijau Muda
-  '393222': Atas Merah Jambu
-  '393223': Atas Kelabu
-  '393224': Atas Kelabu Muda
-  '393225': Atas Sian
-  '393226': Atas Ungu
-  '393227': Atas Biru
-  '393228': Atas Perang
-  '393229': Atas Hijau
-  '393230': Atas Merah
-  '393231': Atas Hitam
-  '458752': Pancang Kiri Putih
-  '458753': Pancang Kiri Jingga
-  '458754': Pancang Kiri Magenta
-  '458755': Pancang Kiri Biru Muda
-  '458756': Pancang Kiri Kuning
-  '458757': Pancang Kiri Hijau Muda
-  '458758': Pancang Kiri Merah Jambu
-  '458759': Pancang Kiri Kelabu
-  '458760': Pancang Kiri Kelabu Muda
-  '458761': Pancang Kiri Sian
-  '458762': Pancang Kiri Ungu
-  '458763': Pancang Kiri Biru
-  '458764': Pancang Kiri Perang
-  '458765': Pancang Kiri Hijau
-  '458766': Pancang Kiri Merah
-  '458767': Pancang Kiri Hitam
-  '524288': Pancang Kanan Putih
-  '524289': Pancang Kanan Jingga
-  '524290': Pancang Kanan Magenta
-  '524291': Pancang Kanan Biru Muda
-  '524292': Pancang Kanan Kuning
-  '524293': Pancang Kanan Hijau Muda
-  '524294': Pancang Kanan Merah Jambu
-  '524295': Pancang Kanan Kelabu
-  '524296': Pancang Kanan Kelabu Muda
-  '524297': Pancang Kanan Sian
-  '524298': Pancang Kanan Ungu
-  '524299': Pancang Kanan Biru
-  '524300': Pancang Kanan Perang
-  '524301': Pancang Kanan Hijau
-  '524302': Pancang Kanan Merah
-  '524303': Pancang Kanan Hitam
-  '589824': Pancang Putih
-  '589825': Pancang Jingga
-  '589826': Pancang Magenta
-  '589827': Pancang Biru Muda
-  '589828': Pancang Kuning
-  '589829': Pancang Hijau Muda
-  '589830': Pancang Merah Jambu
-  '589831': Pancang Kelabu
-  '589832': Pancang Kelabu Muda
-  '589833': Pancang Sian
-  '589834': Jalur Ungu
-  '589835': Pancang Biru
-  '589836': Pancang Perang
-  '589837': Pancang Hijau
-  '589838': Pancang Merah
-  '589839': Pancang Hitam
-  '655360': Belahan Mendatar Putih
-  '655361': Belahan Mendatar Jingga
-  '655362': Belahan Mendatar Magenta
-  '655363': Belahan Mendatar Biru Muda
-  '655364': Belahan Mendatar Kuning
-  '655365': Belahan Mendatar Hijau Muda
-  '655366': Belahan Mendatar Merah Jambu
-  '655367': Belahan Mendatar Kelabu
-  '655368': Belahan Mendatar Kelabu Muda
-  '655369': Belahan Mendatar Sian
-  '655370': Belahan Mendatar Ungu
-  '655371': Belahan Mendatar Biru
-  '655372': Belahan Mendatar Perang
-  '655373': Belahan Mendatar Hijau
-  '655374': Belahan Mendatar Merah
-  '655375': Belahan Mendatar Hitam
-  '720896': Garis Condong Terbalik Putih
-  '720897': Garis Condong Terbalik Jingga
-  '720898': Garis Condong Terbalik Magenta
-  '720899': Garis Condong Terbalik Biru Muda
-  '720900': Garis Condong Terbalik Kuning
-  '720901': Garis Condong Terbalik Hijau Muda
-  '720902': Garis Condong Terbalik Merah Jambu
-  '720903': Garis Condong Terbalik Kelabu
-  '720904': Garis Condong Terbalik Kelabu Muda
-  '720905': Garis Condong Terbalik Sian
-  '720906': Garis Condong Terbalik Ungu
-  '720907': Garis Condong Terbalik Biru
-  '720908': Garis Condong Terbalik Perang
-  '720909': Garis Condong Terbalik Hijau
-  '720910': Garis Condong Terbalik Merah
-  '720911': Garis Condong Terbalik Hitam
-  '786432': Garis Condong Putih
-  '786433': Garis Condong Jingga
-  '786434': Garis Condong Magenta
-  '786435': Garis Condong Biru Muda
-  '786436': Garis Condong Kuning
-  '786437': Garis Condong Hijau Muda
-  '786438': Garis Condong Merah Jambu
-  '786439': Garis Condong Kelabu
-  '786440': Garis Condong Kelabu Muda
-  '786441': Garis Condong Sian
-  '786442': Garis Condong Ungu
-  '786443': Garis Condong Biru
-  '786444': Garis Condong Perang
-  '786445': Garis Condong Hijau
-  '786446': Garis Condong Merah
-  '786447': Garis Condong Hitam
-  '851968': Jalur Putih
-  '851969': Jalur Jingga
-  '851970': Jalur Magenta
-  '851971': Jalur Biru Muda
-  '851972': Jalur Kuning
-  '851973': Jalur Hijau Muda
-  '851974': Jalur Merah Jambu
-  '851975': Jalur Kelabu
-  '851976': Jalur Kelabu Muda
-  '851977': Jalur Sian
-  '851978': Jalur Ungu
-  '851979': Jalur Biru
-  '851980': Jalur Perang
-  '851981': Jalur Hijau
-  '851982': Jalur Merah
-  '851983': Jalur Hitam
-  '917504': Pangkah Putih
-  '917505': Pangkah Jingga
-  '917506': Pangkah Magenta
-  '917507': Pangkah Biru Muda
-  '917508': Pangkah Kuning
-  '917509': Pangkah Hijau Muda
-  '917510': Pangkah Merah Jambu
-  '917511': Pangkah Kelabu
-  '917512': Pangkah Kelabu Muda
-  '917513': Pangkah Sian
-  '917514': Pangkah Ungu
-  '917515': Pangkah Biru
-  '917516': Pangkah Perang
-  '917517': Pangkah Hijau
-  '917518': Pangkah Merah
-  '917519': Pangkah Hitam
-  '983040': Silang Putih
-  '983041': Silang Jingga
-  '983042': Silang Magenta
-  '983043': Silang Biru Muda
-  '983044': Silang Kuning
-  '983045': Silang Hijau Muda
-  '983046': Silang Merah Jambu
-  '983047': Silang Kelabu
-  '983048': Silang Kelabu Muda
-  '983049': Silang Sian
-  '983050': Silang Ungu
-  '983051': Silang Biru
-  '983052': Silang Perang
-  '983053': Silang Hijau
-  '983054': Silang Merah
-  '983055': Silang Hitam
+  '393216': Pengepala Putih
+  '393217': Pengepala Jingga
+  '393218': Pengepala Magenta
+  '393219': Pengepala Biru Muda
+  '393220': Pengepala Kuning
+  '393221': Pengepala Hijau Muda
+  '393222': Pengepala Merah Jambu
+  '393223': Pengepala Kelabu
+  '393224': Pengepala Kelabu Muda
+  '393225': Pengepala Sian
+  '393226': Pengepala Ungu
+  '393227': Pengepala Biru
+  '393228': Pengepala Perang
+  '393229': Pengepala Hijau
+  '393230': Pengepala Merah
+  '393231': Pengepala Hitam
+  '458752': Jalur Mencacang Kiri Putih
+  '458753': Jalur Mencacang Kiri Jingga
+  '458754': Jalur Mencacang Kiri Magenta
+  '458755': Jalur Mencacang Kiri Biru Muda
+  '458756': Jalur Mencacang Kiri Kuning
+  '458757': Jalur Mencacang Kiri Hijau Muda
+  '458758': Jalur Mencacang Kiri Merah Jambu
+  '458759': Jalur Mencacang Kiri Kelabu
+  '458760': Jalur Mencacang Kiri Kelabu Muda
+  '458761': Jalur Mencacang Kiri Sian
+  '458762': Jalur Mencacang Kiri Ungu
+  '458763': Jalur Mencacang Kiri Biru
+  '458764': Jalur Mencacang Kiri Perang
+  '458765': Jalur Mencacang Kiri Hijau
+  '458766': Jalur Mencacang Kiri Merah
+  '458767': Jalur Mencacang Kiri Hitam
+  '524288': Jalur Mencacang Kanan Putih
+  '524289': Jalur Mencacang Kanan Jingga
+  '524290': Jalur Mencacang Kanan Magenta
+  '524291': Jalur Mencacang Kanan Biru Muda
+  '524292': Jalur Mencacang Kanan Kuning
+  '524293': Jalur Mencacang Kanan Hijau Muda
+  '524294': Jalur Mencacang Kanan Merah Jambu
+  '524295': Jalur Mencacang Kanan Kelabu
+  '524296': Jalur Mencacang Kanan Kelabu Muda
+  '524297': Jalur Mencacang Kanan Sian
+  '524298': Jalur Mencacang Kanan Ungu
+  '524299': Jalur Mencacang Kanan Biru
+  '524300': Jalur Mencacang Kanan Perang
+  '524301': Jalur Mencacang Kanan Hijau
+  '524302': Jalur Mencacang Kanan Merah
+  '524303': Jalur Mencacang Kanan Hitam
+  '589824': Jalur Mencacang Putih
+  '589825': Jalur Mencacang Jingga
+  '589826': Jalur Mencacang Magenta
+  '589827': Jalur Mencacang Biru Muda
+  '589828': Jalur Mencacang Kuning
+  '589829': Jalur Mencacang Hijau Muda
+  '589830': Jalur Mencacang Merah Jambu
+  '589831': Jalur Mencacang Kelabu
+  '589832': Jalur Mencacang Kelabu Muda
+  '589833': Jalur Mencacang Sian
+  '589834': Jejalur Ungu
+  '589835': Jalur Mencacang Biru
+  '589836': Jalur Mencacang Perang
+  '589837': Jalur Mencacang Hijau
+  '589838': Jalur Mencacang Merah
+  '589839': Jalur Mencacang Hitam
+  '655360': Jalur Mengufuk Putih
+  '655361': Jalur Mengufuk Jingga
+  '655362': Jalur Mengufuk Magenta
+  '655363': Jalur Mengufuk Biru Muda
+  '655364': Jalur Mengufuk Kuning
+  '655365': Jalur Mengufuk Hijau Muda
+  '655366': Jalur Mengufuk Merah Jambu
+  '655367': Jalur Mengufuk Kelabu
+  '655368': Jalur Mengufuk Kelabu Muda
+  '655369': Jalur Mengufuk Sian
+  '655370': Jalur Mengufuk Ungu
+  '655371': Jalur Mengufuk Biru
+  '655372': Jalur Mengufuk Perang
+  '655373': Jalur Mengufuk Hijau
+  '655374': Jalur Mengufuk Merah
+  '655375': Jalur Mengufuk Hitam
+  '720896': Jalur Serong Putih
+  '720897': Jalur Serong Jingga
+  '720898': Jalur Serong Magenta
+  '720899': Jalur Serong Biru Muda
+  '720900': Jalur Serong Kuning
+  '720901': Jalur Serong Hijau Muda
+  '720902': Jalur Serong Merah Jambu
+  '720903': Jalur Serong Kelabu
+  '720904': Jalur Serong Kelabu Muda
+  '720905': Jalur Serong Sian
+  '720906': Jalur Serong Ungu
+  '720907': Jalur Serong Biru
+  '720908': Jalur Serong Perang
+  '720909': Jalur Serong Hijau
+  '720910': Jalur Serong Merah
+  '720911': Jalur Serong Hitam
+  '786432': Jalur Serong Kiri Putih
+  '786433': Jalur Serong Kiri Jingga
+  '786434': Jalur Serong Kiri Magenta
+  '786435': Jalur Serong Kiri Biru Muda
+  '786436': Jalur Serong Kiri Kuning
+  '786437': Jalur Serong Kiri Hijau Muda
+  '786438': Jalur Serong Kiri Merah Jambu
+  '786439': Jalur Serong Kiri Kelabu
+  '786440': Jalur Serong Kiri Kelabu Muda
+  '786441': Jalur Serong Kiri Sian
+  '786442': Jalur Serong Kiri Ungu
+  '786443': Jalur Serong Kiri Biru
+  '786444': Jalur Serong Kiri Perang
+  '786445': Jalur Serong Kiri Hijau
+  '786446': Jalur Serong Kiri Merah
+  '786447': Jalur Serong Kiri Hitam
+  '851968': Jejalur Putih
+  '851969': Jejalur Jingga
+  '851970': Jejalur Magenta
+  '851971': Jejalur Biru Muda
+  '851972': Jejalur Kuning
+  '851973': Jejalur Hijau Muda
+  '851974': Jejalur Merah Jambu
+  '851975': Jejalur Kelabu
+  '851976': Jejalur Kelabu Muda
+  '851977': Jejalur Sian
+  '851978': Jejalur Ungu
+  '851979': Jejalur Biru
+  '851980': Jejalur Perang
+  '851981': Jejalur Hijau
+  '851982': Jejalur Merah
+  '851983': Jejalur Hitam
+  '917504': Palang Serong Putih
+  '917505': Palang Serong Jingga
+  '917506': Palang Serong Magenta
+  '917507': Palang Serong Biru Muda
+  '917508': Palang Serong Kuning
+  '917509': Palang Serong Hijau Muda
+  '917510': Palang Serong Merah Jambu
+  '917511': Palang Serong Kelabu
+  '917512': Palang Serong Kelabu Muda
+  '917513': Palang Serong Sian
+  '917514': Palang Serong Ungu
+  '917515': Palang Serong Biru
+  '917516': Palang Serong Perang
+  '917517': Palang Serong Hijau
+  '917518': Palang Serong Merah
+  '917519': Palang Serong Hitam
+  '983040': Palang Putih
+  '983041': Palang Jingga
+  '983042': Palang Magenta
+  '983043': Palang Biru Muda
+  '983044': Palang Kuning
+  '983045': Palang Hijau Muda
+  '983046': Palang Merah Jambu
+  '983047': Palang Kelabu
+  '983048': Palang Kelabu Muda
+  '983049': Palang Sian
+  '983050': Palang Ungu
+  '983051': Palang Biru
+  '983052': Palang Perang
+  '983053': Palang Hijau
+  '983054': Palang Merah
+  '983055': Palang Hitam
   '1048576': Sevron Putih
   '1048577': Sevron Jingga
   '1048578': Sevron Magenta
@@ -1777,22 +1935,22 @@ banner_pattern:
   '1048589': Sevron Hijau
   '1048590': Sevron Merah
   '1048591': Sevron Hitam
-  '1114112': Sevron Terbalik Putih
-  '1114113': Sevron Terbalik Jingga
-  '1114114': Sevron Terbalik Magenta
-  '1114115': Sevron Terbalik Biru Muda
-  '1114116': Sevron Terbalik Kuning
-  '1114117': Sevron Terbalik Hijau Muda
-  '1114118': Sevron Terbalik Merah Jambu
-  '1114119': Sevron Terbalik Kelabu
-  '1114120': Sevron Terbalik Kelabu Muda
-  '1114121': Sevron Terbalik Sian
-  '1114122': Sevron Terbalik Ungu
-  '1114123': Sevron Terbalik Biru
-  '1114124': Sevron Terbalik Perang
-  '1114125': Sevron Terbalik Hijau
-  '1114126': Sevron Terbalik Merah
-  '1114127': Sevron Terbalik Hitam
+  '1114112': Sevron Songsang Putih
+  '1114113': Sevron Songsang Jingga
+  '1114114': Sevron Songsang Magenta
+  '1114115': Sevron Songsang Biru Muda
+  '1114116': Sevron Songsang Kuning
+  '1114117': Sevron Songsang Hijau Muda
+  '1114118': Sevron Songsang Merah Jambu
+  '1114119': Sevron Songsang Kelabu
+  '1114120': Sevron Songsang Kelabu Muda
+  '1114121': Sevron Songsang Sian
+  '1114122': Sevron Songsang Ungu
+  '1114123': Sevron Songsang Biru
+  '1114124': Sevron Songsang Perang
+  '1114125': Sevron Songsang Hijau
+  '1114126': Sevron Songsang Merah
+  '1114127': Sevron Songsang Hitam
   '1179648': Tapak Bergerigi Putih
   '1179649': Tapak Bergerigi Jingga
   '1179650': Tapak Bergerigi Magenta
@@ -1809,86 +1967,86 @@ banner_pattern:
   '1179661': Tapak Bergerigi Hijau
   '1179662': Tapak Bergerigi Merah
   '1179663': Tapak Bergerigi Hitam
-  '1245184': Atas Bergerigi Putih
-  '1245185': Atas Bergerigi Jingga
-  '1245186': Atas Bergerigi Magenta
-  '1245187': Atas Bergerigi Biru Muda
-  '1245188': Atas Bergerigi Kuning
-  '1245189': Atas Bergerigi Hijau Muda
-  '1245190': Atas Bergerigi Merah Jambu
-  '1245191': Atas Bergerigi Kelabu
-  '1245192': Atas Bergerigi Kelabu Muda
-  '1245193': Atas Bergerigi Sian
-  '1245194': Atas Bergerigi Ungu
-  '1245195': Atas Bergerigi Biru
-  '1245196': Atas Bergerigi Perang
-  '1245197': Atas Bergerigi Hijau
-  '1245198': Atas Bergerigi Merah
-  '1245199': Atas Bergerigi Hitam
-  '1310720': Separuh Kiri Atas Putih
-  '1310721': Separuh Kiri Atas Jingga
-  '1310722': Separuh Kiri Atas Magenta
-  '1310723': Separuh Kiri Atas Biru Muda
-  '1310724': Separuh Kiri Atas Kuning
-  '1310725': Separuh Kiri Atas Hijau Muda
-  '1310726': Separuh Kiri Atas Merah Jambu
-  '1310727': Separuh Kiri Atas Kelabu
-  '1310728': Separuh Kiri Atas Kelabu Muda
-  '1310729': Separuh Kiri Atas Sian
-  '1310730': Separuh Kiri Atas Ungu
-  '1310731': Separuh Kiri Atas Biru
-  '1310732': Separuh Kiri Atas Perang
-  '1310733': Separuh Kiri Atas Hijau
-  '1310734': Separuh Kiri Atas Merah
-  '1310735': Separuh Kiri Atas Hitam
-  '1376256': Separuh Kanan Bawah Putih
-  '1376257': Separuh Kanan Bawah Jingga
-  '1376258': Separuh Kanan Bawah Magenta
-  '1376259': Separuh Kanan Bawah Biru Muda
-  '1376260': Separuh Kanan Bawah Kuning
-  '1376261': Separuh Kanan Bawah Hijau Muda
-  '1376262': Separuh Kanan Bawah Merah Jambu
-  '1376263': Separuh Kanan Bawah Kelabu
-  '1376264': Separuh Kanan Bawah Kelabu Muda
-  '1376265': Separuh Kanan Bawah Sian
-  '1376266': Separuh Kanan Bawah Ungu
-  '1376267': Separuh Kanan Bawah Biru
-  '1376268': Separuh Kanan Bawah Perang
-  '1376269': Separuh Kanan Bawah Hijau
-  '1376270': Separuh Kanan Bawah Merah
-  '1376271': Separuh Kanan Bawah Hitam
-  '1441792': Separuh Kiri Bawah Putih
-  '1441793': Separuh Kiri Bawah Jingga
-  '1441794': Separuh Kiri Bawah Magenta
-  '1441795': Separuh Kiri Bawah Biru Muda
-  '1441796': Separuh Kiri Bawah Kuning
-  '1441797': Separuh Kiri Bawah Hijau Muda
-  '1441798': Separuh Kiri Bawah Merah Jambu
-  '1441799': Separuh Kiri Bawah Kelabu
-  '1441800': Separuh Kiri Bawah Kelabu Muda
-  '1441801': Separuh Kiri Bawah Sian
-  '1441802': Separuh Kiri Bawah Ungu
-  '1441803': Separuh Kiri Bawah Biru
-  '1441804': Separuh Kiri Bawah Perang
-  '1441805': Separuh Kiri Bawah Hijau
-  '1441806': Separuh Kiri Bawah Merah
-  '1441807': Separuh Kiri Bawah Hitam
-  '1507328': Separuh Kanan Atas Putih
-  '1507329': Separuh Kanan Atas Jingga
-  '1507330': Separuh Kanan Atas Magenta
-  '1507331': Separuh Kanan Atas Biru Muda
-  '1507332': Separuh Kanan Atas Kuning
-  '1507333': Separuh Kanan Atas Hijau Muda
-  '1507334': Separuh Kanan Atas Merah Jambu
-  '1507335': Separuh Kanan Atas Kelabu
-  '1507336': Separuh Kanan Atas Kelabu Muda
-  '1507337': Separuh Kanan Atas Sian
-  '1507338': Separuh Kanan Atas Ungu
-  '1507339': Separuh Kanan Atas Biru
-  '1507340': Separuh Kanan Atas Perang
-  '1507341': Separuh Kanan Atas Hijau
-  '1507342': Separuh Kanan Atas Merah
-  '1507343': Separuh Kanan Atas Hitam
+  '1245184': Pengepala Bergerigi Putih
+  '1245185': Pengepala Bergerigi Jingga
+  '1245186': Pengepala Bergerigi Magenta
+  '1245187': Pengepala Bergerigi Biru Muda
+  '1245188': Pengepala Bergerigi Kuning
+  '1245189': Pengepala Bergerigi Hijau Muda
+  '1245190': Pengepala Bergerigi Merah Jambu
+  '1245191': Pengepala Bergerigi Kelabu
+  '1245192': Pengepala Bergerigi Kelabu Muda
+  '1245193': Pengepala Bergerigi Sian
+  '1245194': Pengepala Bergerigi Ungu
+  '1245195': Pengepala Bergerigi Biru
+  '1245196': Pengepala Bergerigi Perang
+  '1245197': Pengepala Bergerigi Hijau
+  '1245198': Pengepala Bergerigi Merah
+  '1245199': Pengepala Bergerigi Hitam
+  '1310720': Belahan Serong Kiri Putih
+  '1310721': Belahan Serong Kiri Jingga
+  '1310722': Belahan Serong Kiri Magenta
+  '1310723': Belahan Serong Kiri Biru Muda
+  '1310724': Belahan Serong Kiri Kuning
+  '1310725': Belahan Serong Kiri Hijau Muda
+  '1310726': Belahan Serong Kiri Merah Jambu
+  '1310727': Belahan Serong Kiri Kelabu
+  '1310728': Belahan Serong Kiri Kelabu Muda
+  '1310729': Belahan Serong Kiri Sian
+  '1310730': Belahan Serong Kiri Ungu
+  '1310731': Belahan Serong Kiri Biru
+  '1310732': Belahan Serong Kiri Perang
+  '1310733': Belahan Serong Kiri Hijau
+  '1310734': Belahan Serong Kiri Merah
+  '1310735': Belahan Serong Kiri Hitam
+  '1376256': Belahan Serong Kiri Songsang Putih
+  '1376257': Belahan Serong Kiri Songsang Jingga
+  '1376258': Belahan Serong Kiri Songsang Magenta
+  '1376259': Belahan Serong Kiri Songsang Biru Muda
+  '1376260': Belahan Serong Kiri Songsang Kuning
+  '1376261': Belahan Serong Kiri Songsang Hijau Muda
+  '1376262': Belahan Serong Kiri Songsang Merah Jambu
+  '1376263': Belahan Serong Kiri Songsang Kelabu
+  '1376264': Belahan Serong Kiri Songsang Kelabu Muda
+  '1376265': Belahan Serong Kiri Songsang Sian
+  '1376266': Belahan Serong Kiri Songsang Ungu
+  '1376267': Belahan Serong Kiri Songsang Biru
+  '1376268': Belahan Serong Kiri Songsang Perang
+  '1376269': Belahan Serong Kiri Songsang Hijau
+  '1376270': Belahan Serong Kiri Songsang Merah
+  '1376271': Belahan Serong Kiri Songsang Hitam
+  '1441792': Belahan Serong Songsang Putih
+  '1441793': Belahan Serong Songsang Jingga
+  '1441794': Belahan Serong Songsang Magenta
+  '1441795': Belahan Serong Songsang Biru Muda
+  '1441796': Belahan Serong Songsang Kuning
+  '1441797': Belahan Serong Songsang Hijau Muda
+  '1441798': Belahan Serong Songsang Merah Jambu
+  '1441799': Belahan Serong Songsang Kelabu
+  '1441800': Belahan Serong Songsang Kelabu Muda
+  '1441801': Belahan Serong Songsang Sian
+  '1441802': Belahan Serong Songsang Ungu
+  '1441803': Belahan Serong Songsang Biru
+  '1441804': Belahan Serong Songsang Perang
+  '1441805': Belahan Serong Songsang Hijau
+  '1441806': Belahan Serong Songsang Merah
+  '1441807': Belahan Serong Songsang Hitam
+  '1507328': Belahan Serong Putih
+  '1507329': Belahan Serong Jingga
+  '1507330': Belahan Serong Magenta
+  '1507331': Belahan Serong Biru Muda
+  '1507332': Belahan Serong Kuning
+  '1507333': Belahan Serong Hijau Muda
+  '1507334': Belahan Serong Merah Jambu
+  '1507335': Belahan Serong Kelabu
+  '1507336': Belahan Serong Kelabu Muda
+  '1507337': Belahan Serong Sian
+  '1507338': Belahan Serong Ungu
+  '1507339': Belahan Serong Biru
+  '1507340': Belahan Serong Perang
+  '1507341': Belahan Serong Hijau
+  '1507342': Belahan Serong Merah
+  '1507343': Belahan Serong Hitam
   '1572864': Bulatan Putih
   '1572865': Bulatan Jingga
   '1572866': Bulatan Magenta
@@ -1921,118 +2079,118 @@ banner_pattern:
   '1638413': Rombus Hijau
   '1638414': Rombus Merah
   '1638415': Rombus Hitam
-  '1703936': Separuh Kiri Putih
-  '1703937': Separuh Kiri Jingga
-  '1703938': Separuh Kiri Magenta
-  '1703939': Separuh Kiri Biru Muda
-  '1703940': Separuh Kiri Kuning
-  '1703941': Separuh Kiri Hijau Muda
-  '1703942': Separuh Kiri Merah Jambu
-  '1703943': Separuh Kiri Kelabu
-  '1703944': Separuh Kiri Kelabu Muda
-  '1703945': Separuh Kiri Sian
-  '1703946': Separuh Kiri Ungu
-  '1703947': Separuh Kiri Biru
-  '1703948': Separuh Kiri Perang
-  '1703949': Separuh Kiri Hijau
-  '1703950': Separuh Kiri Merah
-  '1703951': Separuh Kiri Hitam
-  '1769472': Separuh Atas Putih
-  '1769473': Separuh Atas Jingga
-  '1769474': Separuh Atas Magenta
-  '1769475': Separuh Atas Biru Muda
-  '1769476': Separuh Atas Kuning
-  '1769477': Separuh Atas Hijau Muda
-  '1769478': Separuh Atas Merah Jambu
-  '1769479': Separuh Atas Kelabu
-  '1769480': Separuh Atas Kelabu Muda
-  '1769481': Separuh Atas Sian
-  '1769482': Separuh Atas Ungu
-  '1769483': Separuh Atas Biru
-  '1769484': Separuh Atas Perang
-  '1769485': Separuh Atas Hijau
-  '1769486': Separuh Atas Merah
-  '1769487': Separuh Atas Hitam
-  '1835008': Separuh Kanan Putih
-  '1835009': Separuh Kanan Jingga
-  '1835010': Separuh Kanan Magenta
-  '1835011': Separuh Kanan Biru Muda
-  '1835012': Separuh Kanan Kuning
-  '1835013': Separuh Kanan Hijau Muda
-  '1835014': Separuh Kanan Merah Jambu
-  '1835015': Separuh Kanan Kelabu
-  '1835016': Separuh Kanan Kelabu Muda
-  '1835017': Separuh Kanan Sian
-  '1835018': Separuh Kanan Ungu
-  '1835019': Separuh Kanan Biru
-  '1835020': Separuh Kanan Perang
-  '1835021': Separuh Kanan Hijau
-  '1835022': Separuh Kanan Merah
-  '1835023': Separuh Kanan Hitam
-  '1900544': Separuh Bawah Putih
-  '1900545': Separuh Bawah Jingga
-  '1900546': Separuh Bawah Magenta
-  '1900547': Separuh Bawah Biru Muda
-  '1900548': Separuh Bawah Kuning
-  '1900549': Separuh Bawah Hijau Muda
-  '1900550': Separuh Bawah Merah Jambu
-  '1900551': Separuh Bawah Kelabu
-  '1900552': Separuh Bawah Kelabu Muda
-  '1900553': Separuh Bawah Sian
-  '1900554': Separuh Bawah Ungu
-  '1900555': Separuh Bawah Biru
-  '1900556': Separuh Bawah Perang
-  '1900557': Separuh Bawah Hijau
-  '1900558': Separuh Bawah Merah
-  '1900559': Separuh Bawah Hitam
-  '1966080': Sempadan Putih
-  '1966081': Sempadan Jingga
-  '1966082': Sempadan Magenta
-  '1966083': Sempadan Biru Muda
-  '1966084': Sempadan Kuning
-  '1966085': Sempadan Hijau Muda
-  '1966086': Sempadan Merah Jambu
-  '1966087': Sempadan Kelabu
-  '1966088': Sempadan Kelabu Muda
-  '1966089': Sempadan Sian
-  '1966090': Sempadan Ungu
-  '1966091': Sempadan Biru
-  '1966092': Sempadan Perang
-  '1966093': Sempadan Hijau
-  '1966094': Sempadan Merah
-  '1966095': Sempadan Hitam
-  '2031616': Sempadan Bergerigi Putih
-  '2031617': Sempadan Bergerigi Jingga
-  '2031618': Sempadan Bergerigi Magenta
-  '2031619': Sempadan Bergerigi Biru Muda
-  '2031620': Sempadan Bergerigi Kuning
-  '2031621': Sempadan Bergerigi Hijau Muda
-  '2031622': Sempadan Bergerigi Merah Jambu
-  '2031623': Sempadan Bergerigi Kelabu
-  '2031624': Sempadan Bergerigi Kelabu Muda
-  '2031625': Sempadan Bergerigi Sian
-  '2031626': Sempadan Bergerigi Ungu
-  '2031627': Sempadan Bergerigi Biru
-  '2031628': Sempadan Bergerigi Perang
-  '2031629': Sempadan Bergerigi Hijau
-  '2031630': Sempadan Bergerigi Merah
-  '2031631': Sempadan Bergerigi Hitam
-  '2097152': Isian Creeper Putih
-  '2097153': Isian Creeper Jingga
-  '2097154': Isian Creeper Magenta
-  '2097155': Isian Creeper Biru Muda
-  '2097156': Isian Creeper Kuning
-  '2097157': Isian Creeper Hijau Muda
-  '2097158': Isian Creeper Merah Jambu
-  '2097159': Isian Creeper Kelabu
-  '2097160': Isian Creeper Kelabu Muda
-  '2097161': Isian Creeper Sian
-  '2097162': Isian Creeper Ungu
-  '2097163': Isian Creeper Biru
-  '2097164': Isian Creeper Perang
-  '2097165': Isian Creeper Hijau
-  '2097166': Isian Creeper Merah
-  '2097167': Isian Creeper Hitam
+  '1703936': Belahan Mencacang Putih
+  '1703937': Belahan Mencacang Jingga
+  '1703938': Belahan Mencacang Magenta
+  '1703939': Belahan Mencacang Biru Muda
+  '1703940': Belahan Mencacang Kuning
+  '1703941': Belahan Mencacang Hijau Muda
+  '1703942': Belahan Mencacang Merah Jambu
+  '1703943': Belahan Mencacang Kelabu
+  '1703944': Belahan Mencacang Kelabu Muda
+  '1703945': Belahan Mencacang Sian
+  '1703946': Belahan Mencacang Ungu
+  '1703947': Belahan Mencacang Biru
+  '1703948': Belahan Mencacang Perang
+  '1703949': Belahan Mencacang Hijau
+  '1703950': Belahan Mencacang Merah
+  '1703951': Belahan Mencacang Hitam
+  '1769472': Belahan Mengufuk Putih
+  '1769473': Belahan Mengufuk Jingga
+  '1769474': Belahan Mengufuk Magenta
+  '1769475': Belahan Mengufuk Biru Muda
+  '1769476': Belahan Mengufuk Kuning
+  '1769477': Belahan Mengufuk Hijau Muda
+  '1769478': Belahan Mengufuk Merah Jambu
+  '1769479': Belahan Mengufuk Kelabu
+  '1769480': Belahan Mengufuk Kelabu Muda
+  '1769481': Belahan Mengufuk Sian
+  '1769482': Belahan Mengufuk Ungu
+  '1769483': Belahan Mengufuk Biru
+  '1769484': Belahan Mengufuk Perang
+  '1769485': Belahan Mengufuk Hijau
+  '1769486': Belahan Mengufuk Merah
+  '1769487': Belahan Mengufuk Hitam
+  '1835008': Belahan Mencacang Songsang Putih
+  '1835009': Belahan Mencacang Songsang Jingga
+  '1835010': Belahan Mencacang Songsang Magenta
+  '1835011': Belahan Mencacang Songsang Biru Muda
+  '1835012': Belahan Mencacang Songsang Kuning
+  '1835013': Belahan Mencacang Songsang Hijau Muda
+  '1835014': Belahan Mencacang Songsang Merah Jambu
+  '1835015': Belahan Mencacang Songsang Kelabu
+  '1835016': Belahan Mencacang Songsang Kelabu Muda
+  '1835017': Belahan Mencacang Songsang Sian
+  '1835018': Belahan Mencacang Songsang Ungu
+  '1835019': Belahan Mencacang Songsang Biru
+  '1835020': Belahan Mencacang Songsang Perang
+  '1835021': Belahan Mencacang Songsang Hijau
+  '1835022': Belahan Mencacang Songsang Merah
+  '1835023': Belahan Mencacang Songsang Hitam
+  '1900544': Belahan Mengufuk Songsang Putih
+  '1900545': Belahan Mengufuk Songsang Jingga
+  '1900546': Belahan Mengufuk Songsang Magenta
+  '1900547': Belahan Mengufuk Songsang Biru Muda
+  '1900548': Belahan Mengufuk Songsang Kuning
+  '1900549': Belahan Mengufuk Songsang Hijau Muda
+  '1900550': Belahan Mengufuk Songsang Merah Jambu
+  '1900551': Belahan Mengufuk Songsang Kelabu
+  '1900552': Belahan Mengufuk Songsang Kelabu Muda
+  '1900553': Belahan Mengufuk Songsang Sian
+  '1900554': Belahan Mengufuk Songsang Ungu
+  '1900555': Belahan Mengufuk Songsang Biru
+  '1900556': Belahan Mengufuk Songsang Perang
+  '1900557': Belahan Mengufuk Songsang Hijau
+  '1900558': Belahan Mengufuk Songsang Merah
+  '1900559': Belahan Mengufuk Songsang Hitam
+  '1966080': Bingkai Putih
+  '1966081': Bingkai Jingga
+  '1966082': Bingkai Magenta
+  '1966083': Bingkai Biru Muda
+  '1966084': Bingkai Kuning
+  '1966085': Bingkai Hijau Muda
+  '1966086': Bingkai Merah Jambu
+  '1966087': Bingkai Kelabu
+  '1966088': Bingkai Kelabu Muda
+  '1966089': Bingkai Sian
+  '1966090': Bingkai Ungu
+  '1966091': Bingkai Biru
+  '1966092': Bingkai Perang
+  '1966093': Bingkai Hijau
+  '1966094': Bingkai Merah
+  '1966095': Bingkai Hitam
+  '2031616': Bingkai Bergerigi Putih
+  '2031617': Bingkai Bergerigi Jingga
+  '2031618': Bingkai Bergerigi Magenta
+  '2031619': Bingkai Bergerigi Biru Muda
+  '2031620': Bingkai Bergerigi Kuning
+  '2031621': Bingkai Bergerigi Hijau Muda
+  '2031622': Bingkai Bergerigi Merah Jambu
+  '2031623': Bingkai Bergerigi Kelabu
+  '2031624': Bingkai Bergerigi Kelabu Muda
+  '2031625': Bingkai Bergerigi Sian
+  '2031626': Bingkai Bergerigi Ungu
+  '2031627': Bingkai Bergerigi Biru
+  '2031628': Bingkai Bergerigi Perang
+  '2031629': Bingkai Bergerigi Hijau
+  '2031630': Bingkai Bergerigi Merah
+  '2031631': Bingkai Bergerigi Hitam
+  '2097152': Lambang Creeper Putih
+  '2097153': Lambang Creeper Jingga
+  '2097154': Lambang Creeper Magenta
+  '2097155': Lambang Creeper Biru Muda
+  '2097156': Lambang Creeper Kuning
+  '2097157': Lambang Creeper Hijau Muda
+  '2097158': Lambang Creeper Merah Jambu
+  '2097159': Lambang Creeper Kelabu
+  '2097160': Lambang Creeper Kelabu Muda
+  '2097161': Lambang Creeper Sian
+  '2097162': Lambang Creeper Ungu
+  '2097163': Lambang Creeper Biru
+  '2097164': Lambang Creeper Perang
+  '2097165': Lambang Creeper Hijau
+  '2097166': Lambang Creeper Merah
+  '2097167': Lambang Creeper Hitam
   '2162688': Gradien Putih
   '2162689': Gradien Jingga
   '2162690': Gradien Magenta
@@ -2065,54 +2223,54 @@ banner_pattern:
   '2228237': Kecerunan Asas Hijau
   '2228238': Kecerunan Asas Merah
   '2228239': Kecerunan Asas Hitam
-  '2293760': Corak Bata Lapangan Putih
-  '2293761': Corak Bata Lapangan Jingga
-  '2293762': Corak Bata Lapangan Magenta
-  '2293763': Corak Bata Lapangan Biru Muda
-  '2293764': Corak Bata Lapangan Kuning
-  '2293765': Corak Bata Lapangan Hijau Muda
-  '2293766': Corak Bata Lapangan Merah Jambu
-  '2293767': Corak Bata Lapangan Kelabu
-  '2293768': Corak Bata Lapangan Kelabu Muda
-  '2293769': Corak Bata Lapangan Sian
-  '2293770': Corak Bata Lapangan Ungu
-  '2293771': Corak Bata Lapangan Biru
-  '2293772': Corak Bata Lapangan Perang
-  '2293773': Corak Bata Lapangan Hijau
-  '2293774': Corak Bata Lapangan Merah
-  '2293775': Corak Bata Lapangan Hitam
-  '2359296': Isian Tengkorak Putih
-  '2359297': Isian Tengkorak Jingga
-  '2359298': Isian Tengkorak Magenta
-  '2359299': Isian Tengkorak Biru Muda
-  '2359300': Isian Tengkorak Kuning
-  '2359301': Isian Tengkorak Hijau Muda
-  '2359302': Isian Tengkorak Merah Jambu
-  '2359303': Isian Tengkorak Kelabu
-  '2359304': Isian Tengkorak Kelabu Muda
-  '2359305': Isian Tengkorak Sian
-  '2359306': Isian Tengkorak Ungu
-  '2359307': Isian Tengkorak Biru
-  '2359308': Isian Tengkorak Perang
-  '2359309': Isian Tengkorak Hijau
-  '2359310': Isian Tengkorak Merah
-  '2359311': Isian Tengkorak Hitam
-  '2424832': Isian Bunga Putih
-  '2424833': Isian Bunga Jingga
-  '2424834': Isian Bunga Magenta
-  '2424835': Isian Bunga Biru Muda
-  '2424836': Isian Bunga Kuning
-  '2424837': Isian Bunga Hijau Muda
-  '2424838': Isian Bunga Merah Jambu
-  '2424839': Isian Bunga Kelabu
-  '2424840': Isian Bunga Kelabu Muda
-  '2424841': Isian Bunga Sian
-  '2424842': Isian Bunga Ungu
-  '2424843': Isian Bunga Biru
-  '2424844': Isian Bunga Perang
-  '2424845': Isian Bunga Hijau
-  '2424846': Isian Bunga Merah
-  '2424847': Isian Bunga Hitam
+  '2293760': Bataan Putih
+  '2293761': Bataan Jingga
+  '2293762': Bataan Magenta
+  '2293763': Bataan Biru Muda
+  '2293764': Bataan Kuning
+  '2293765': Bataan Hijau Muda
+  '2293766': Bataan Merah Jambu
+  '2293767': Bataan Kelabu
+  '2293768': Bataan Kelabu Muda
+  '2293769': Bataan Sian
+  '2293770': Bataan Ungu
+  '2293771': Bataan Biru
+  '2293772': Bataan Perang
+  '2293773': Bataan Hijau
+  '2293774': Bataan Merah
+  '2293775': Bataan Hitam
+  '2359296': Lambang Tengkorak Putih
+  '2359297': Lambang Tengkorak Jingga
+  '2359298': Lambang Tengkorak Magenta
+  '2359299': Lambang Tengkorak Biru Muda
+  '2359300': Lambang Tengkorak Kuning
+  '2359301': Lambang Tengkorak Hijau Muda
+  '2359302': Lambang Tengkorak Merah Jambu
+  '2359303': Lambang Tengkorak Kelabu
+  '2359304': Lambang Tengkorak Kelabu Muda
+  '2359305': Lambang Tengkorak Sian
+  '2359306': Lambang Tengkorak Ungu
+  '2359307': Lambang Tengkorak Biru
+  '2359308': Lambang Tengkorak Perang
+  '2359309': Lambang Tengkorak Hijau
+  '2359310': Lambang Tengkorak Merah
+  '2359311': Lambang Tengkorak Hitam
+  '2424832': Lambang Bunga Putih
+  '2424833': Lambang Bunga Jingga
+  '2424834': Lambang Bunga Magenta
+  '2424835': Lambang Bunga Biru Muda
+  '2424836': Lambang Bunga Kuning
+  '2424837': Lambang Bunga Hijau Muda
+  '2424838': Lambang Bunga Merah Jambu
+  '2424839': Lambang Bunga Kelabu
+  '2424840': Lambang Bunga Kelabu Muda
+  '2424841': Lambang Bunga Sian
+  '2424842': Lambang Bunga Ungu
+  '2424843': Lambang Bunga Biru
+  '2424844': Lambang Bunga Perang
+  '2424845': Lambang Bunga Hijau
+  '2424846': Lambang Bunga Merah
+  '2424847': Lambang Bunga Hitam
   '2490368': Benda Putih
   '2490369': Benda Jingga
   '2490370': Benda Magenta
@@ -2176,9 +2334,9 @@ music_disk:
   music_disc_wait: C418 - wait
   music_disc_pigstep: Lena Raine - Pigstep
 new_banner_pattern:
-  flower_banner_pattern: Isian Bunga
-  creeper_banner_pattern: Isian Creeper
-  skull_banner_pattern: Isian Tengkorak
+  flower_banner_pattern: Lambang Bunga
+  creeper_banner_pattern: Lambang Creeper
+  skull_banner_pattern: Lambang Tengkorak
   mojang_banner_pattern: Benda
   globe_banner_pattern: Glob
   piglin_banner_pattern: Muncung
@@ -2204,17 +2362,3 @@ villager_profession:
   shepherd: Pengembala
   toolsmith: Tukang alat
   weaponsmith: Tukang senjata
-villager_career:
-  farmer: Petani
-  fisherman: Nelayan
-  shepherd: Pengembala
-  fletcher: Pemanah
-  librarian: Pustakawan
-  cartographer: Ahli Kartografi
-  cleric: Paderi
-  armorer: Tukang Perisai
-  weapon_smith: Pembuat Senjata
-  tool_smith: Pembuat Alatan
-  butcher: Penjual Daging
-  leatherworker: Tukang Jahit
-  nitwit: Nitwit

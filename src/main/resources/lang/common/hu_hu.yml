@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:48                    #
+# Build time: 2021-07-04 21:46:03                    #
 # ####################################################
 language:
   code: hu_hu
@@ -14,10 +14,17 @@ material:
   polished_diorite: Csiszolt diorit
   andesite: Andezit
   polished_andesite: Csiszolt andezit
+  deepslate: Mélypala
+  cobbled_deepslate: Zúzott mélypala
+  polished_deepslate: Csiszolt mélypala
+  calcite: Kalcit
+  tuff: Tufa
+  dripstone_block: Cseppkőblokk
   grass_block: Füves földblokk
   dirt: Föld
   coarse_dirt: Terméketlen föld
   podzol: Podzol
+  rooted_dirt: Gyökeres föld
   crimson_nylium: Karmazsin nílium
   warped_nylium: Torz nílium
   cobblestone: Zúzottkő
@@ -39,10 +46,67 @@ material:
   sand: Homok
   red_sand: Vörös homok
   gravel: Sóder
-  gold_ore: Aranyérc
-  iron_ore: Vasérc
   coal_ore: Szénérc
+  deepslate_coal_ore: Szénérc mélypalában
+  iron_ore: Vasérc
+  deepslate_iron_ore: Vasérc mélypalában
+  copper_ore: Rézérc
+  deepslate_copper_ore: Rézérc mélypalában
+  gold_ore: Aranyérc
+  deepslate_gold_ore: Aranyérc mélypalában
+  redstone_ore: Redstone-érc
+  deepslate_redstone_ore: Redstone-érc mélypalában
+  emerald_ore: Smaragdérc
+  deepslate_emerald_ore: Smaragdérc mélypalában
+  lapis_ore: Lazuritérc
+  deepslate_lapis_ore: Lazuritérc mélypalában
+  diamond_ore: Gyémántérc
+  deepslate_diamond_ore: Gyémántérc mélypalában
   nether_gold_ore: Netheraranyérc
+  nether_quartz_ore: Netherkvarcérc
+  ancient_debris: Ősi törmelék
+  coal_block: Szénblokk
+  raw_iron_block: Nyersvasblokk
+  raw_copper_block: Nyersrézblokk
+  raw_gold_block: Nyersaranyblokk
+  amethyst_block: Ametisztblokk
+  budding_amethyst: Kristályosodó ametiszt
+  iron_block: Vasblokk
+  copper_block: Rézblokk
+  gold_block: Aranyblokk
+  diamond_block: Gyémántblokk
+  netherite_block: Netheritblokk
+  exposed_copper: Megviselt rézblokk
+  weathered_copper: Viharvert rézblokk
+  oxidized_copper: Patinás rézblokk
+  cut_copper: Vágott rézblokk
+  exposed_cut_copper: Megviselt vágott rézblokk
+  weathered_cut_copper: Viharvert vágott rézblokk
+  oxidized_cut_copper: Patinás vágott rézblokk
+  cut_copper_stairs: Vágott rézlépcső
+  exposed_cut_copper_stairs: Megviselt vágott rézlépcső
+  weathered_cut_copper_stairs: Viharvert vágott rézlépcső
+  oxidized_cut_copper_stairs: Patinás vágott rézlépcső
+  cut_copper_slab: Vágott rézlap
+  exposed_cut_copper_slab: Megviselt vágott rézlap
+  weathered_cut_copper_slab: Viharvert vágott rézlap
+  oxidized_cut_copper_slab: Patinás vágott rézlap
+  waxed_copper_block: Viaszolt rézblokk
+  waxed_exposed_copper: Viaszolt megviselt rézblokk
+  waxed_weathered_copper: Viaszolt viharvert rézblokk
+  waxed_oxidized_copper: Viaszolt patinás rézblokk
+  waxed_cut_copper: Viaszolt vágott rézblokk
+  waxed_exposed_cut_copper: Viaszolt megviselt vágott rézblokk
+  waxed_weathered_cut_copper: Viaszolt viharvert vágott rézblokk
+  waxed_oxidized_cut_copper: Viaszolt patinás vágott rézblokk
+  waxed_cut_copper_stairs: Viaszolt vágott rézlépcső
+  waxed_exposed_cut_copper_stairs: Viaszolt megviselt vágott rézlépcső
+  waxed_weathered_cut_copper_stairs: Viaszolt viharvert vágott rézlépcső
+  waxed_oxidized_cut_copper_stairs: Viaszolt patinás vágott rézlépcső
+  waxed_cut_copper_slab: Viaszolt vágott rézlap
+  waxed_exposed_cut_copper_slab: Viaszolt megviselt vágott rézlap
+  waxed_weathered_cut_copper_slab: Viaszolt viharvert vágott rézlap
+  waxed_oxidized_cut_copper_slab: Viaszolt patinás vágott rézlap
   oak_log: Tölgyfarönk
   spruce_log: Fenyőrönk
   birch_log: Nyírfarönk
@@ -81,26 +145,24 @@ material:
   jungle_leaves: Dzsungelfalevelek
   acacia_leaves: Akácialevelek
   dark_oak_leaves: Sötéttölgy-levelek
+  azalea_leaves: Azálealevelek
+  flowering_azalea_leaves: Virágzó azálealevelek
   sponge: Szivacs
   wet_sponge: Nedves szivacs
   glass: Üveg
-  lapis_ore: Lazuritérc
+  tinted_glass: Sötétített üveg
   lapis_block: Lazuritblokk
-  dispenser: Adagoló
   sandstone: Homokkő
   chiseled_sandstone: Vésett homokkő
   cut_sandstone: Vágott homokkő
-  note_block: Hangdoboz
-  powered_rail: Elektromos sín
-  detector_rail: Érzékelősín
-  sticky_piston: Ragacsos dugattyú
   cobweb: Pókháló
   grass: Fű
   fern: Páfrány
+  azalea: Azálea
+  flowering_azalea: Virágzó azálea
   dead_bush: Száraz kóró
   seagrass: Tengerifű
   sea_pickle: Világító zsákállat
-  piston: Dugattyú
   white_wool: Fehér gyapjú
   orange_wool: Narancssárga gyapjú
   magenta_wool: Bíbor gyapjú
@@ -130,6 +192,7 @@ material:
   cornflower: Búzavirág
   lily_of_the_valley: Gyöngyvirág
   wither_rose: Witherrózsa
+  spore_blossom: Spóravirág
   brown_mushroom: Barna gomba
   red_mushroom: Piros gomba
   crimson_fungus: Karmazsin gomba
@@ -141,9 +204,12 @@ material:
   twisting_vines: Tekergő indák
   sugar_cane: Cukornád
   kelp: Hínár
+  moss_carpet: Mohaszőnyeg
+  moss_block: Mohablokk
+  hanging_roots: Lógó gyökerek
+  big_dripleaf: Nagy csepplevél
+  small_dripleaf: Kis csepplevél
   bamboo: Bambusz
-  gold_block: Aranyblokk
-  iron_block: Vasblokk
   oak_slab: Tölgyfa lap
   spruce_slab: Fenyőfa lap
   birch_slab: Nyírfa lap
@@ -160,7 +226,7 @@ material:
   cobblestone_slab: Zúzottkő lap
   brick_slab: Tégla-lap
   stone_brick_slab: Kőtégla lap
-  nether_brick_slab: Nethertégla-lap
+  nether_brick_slab: Nethertégla lap
   quartz_slab: Kvarclap
   red_sandstone_slab: Vörös homokkő lap
   cut_red_sandstone_slab: Vágott vörös homokkő lap
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: Csiszolt homokkő
   smooth_stone: Csiszolt kő
   bricks: Tégla
-  tnt: TNT
   bookshelf: Könyvespolc
   mossy_cobblestone: Mohás zúzottkő
   obsidian: Obszidián
@@ -187,27 +252,11 @@ material:
   spawner: Idézőketrec
   oak_stairs: Tölgyfa lépcső
   chest: Láda
-  diamond_ore: Gyémántérc
-  diamond_block: Gyémántblokk
   crafting_table: Barkácsasztal
   farmland: Termőföld
   furnace: Kemence
   ladder: Létra
-  rail: Sín
   cobblestone_stairs: Zúzottkő lépcső
-  lever: Kar
-  stone_pressure_plate: Kő nyomólap
-  oak_pressure_plate: Tölgyfa nyomólap
-  spruce_pressure_plate: Fenyőfa nyomólap
-  birch_pressure_plate: Nyírfa nyomólap
-  jungle_pressure_plate: Dzsungelfa nyomólap
-  acacia_pressure_plate: Akáciafa nyomólap
-  dark_oak_pressure_plate: Sötéttölgy nyomólap
-  crimson_pressure_plate: Karmazsin nyomólap
-  warped_pressure_plate: Torz nyomólap
-  polished_blackstone_pressure_plate: Csiszolt feketekő nyomólap
-  redstone_ore: Redstone-érc
-  redstone_torch: Redstone-fáklya
   snow: Hó
   ice: Jég
   snow_block: Hóblokk
@@ -224,48 +273,40 @@ material:
   warped_fence: Torz kerítés
   pumpkin: Tök
   carved_pumpkin: Faragott tök
+  jack_o_lantern: Töklámpás
   netherrack: Netherrack
   soul_sand: Lélekhomok
   soul_soil: Lélektalaj
   basalt: Bazalt
   polished_basalt: Csiszolt bazalt
+  smooth_basalt: Sima bazalt
   soul_torch: Lélekfáklya
   glowstone: Izzókő
-  jack_o_lantern: Töklámpás
-  oak_trapdoor: Tölgyfa csapóajtó
-  spruce_trapdoor: Fenyőfa csapóajtó
-  birch_trapdoor: Nyírfa csapóajtó
-  jungle_trapdoor: Dzsungelfa csapóajtó
-  acacia_trapdoor: Akáciafa csapóajtó
-  dark_oak_trapdoor: Sötéttölgy csapóajtó
-  crimson_trapdoor: Karmazsin csapóajtó
-  warped_trapdoor: Torz csapóajtó
   infested_stone: Kő ezüstmollyal
   infested_cobblestone: Zúzottkő ezüstmollyal
   infested_stone_bricks: Kőtégla ezüstmollyal
   infested_mossy_stone_bricks: Mohás kőtégla ezüstmollyal
   infested_cracked_stone_bricks: Repedt kőtégla ezüstmollyal
   infested_chiseled_stone_bricks: Vésett kőtégla ezüstmollyal
+  infested_deepslate: Mélypala ezüstmollyal
   stone_bricks: Kőtégla
   mossy_stone_bricks: Mohás kőtégla
   cracked_stone_bricks: Repedezett kőtégla
   chiseled_stone_bricks: Vésett kőtégla
+  deepslate_bricks: Mélypalatégla
+  cracked_deepslate_bricks: Repedt mélypalatégla
+  deepslate_tiles: Mélypala csempe
+  cracked_deepslate_tiles: Repedt mélypalacsempe
+  chiseled_deepslate: Vésett mélypala
   brown_mushroom_block: Barna gombablokk
   red_mushroom_block: Piros gombablokk
   mushroom_stem: Gombatönk
   iron_bars: Vasrács
-  chain: Lánc
+  chain: Láncolt
   glass_pane: Üveglap
   melon: Dinnye
   vine: Inda
-  oak_fence_gate: Tölgyfa kerítéskapu
-  spruce_fence_gate: Fenyőfa kerítéskapu
-  birch_fence_gate: Nyírfa kerítéskapu
-  jungle_fence_gate: Dzsungelfa kerítéskapu
-  acacia_fence_gate: Akáciafa kerítéskapu
-  dark_oak_fence_gate: Sötéttölgy kerítéskapu
-  crimson_fence_gate: Karmazsin kerítéskapu
-  warped_fence_gate: Torz kerítéskapu
+  glow_lichen: Fénylő zuzmó
   brick_stairs: Téglalépcső
   stone_brick_stairs: Kőtégla-lépcső
   mycelium: Micélium
@@ -280,11 +321,8 @@ material:
   end_stone: Endkő
   end_stone_bricks: Endkőtégla
   dragon_egg: Sárkánytojás
-  redstone_lamp: Redstone-lámpa
   sandstone_stairs: Homokkő lépcső
-  emerald_ore: Smaragdérc
   ender_chest: Enderláda
-  tripwire_hook: Botlódrót-horog
   emerald_block: Smaragdblokk
   spruce_stairs: Fenyőfa lépcső
   birch_stairs: Nyírfa lépcső
@@ -310,33 +348,18 @@ material:
   blackstone_wall: Feketekő fal
   polished_blackstone_wall: Csiszolt feketekő fal
   polished_blackstone_brick_wall: Csiszolt feketekőtégla-fal
-  stone_button: Kőgomb
-  oak_button: Tölgyfa gomb
-  spruce_button: Fenyőfa gomb
-  birch_button: Nyírfa gomb
-  jungle_button: Dzsungelfa gomb
-  acacia_button: Akáciafa gomb
-  dark_oak_button: Sötéttölgy gomb
-  crimson_button: Karmazsin gomb
-  warped_button: Torz gomb
-  polished_blackstone_button: Csiszolt feketekő gomb
+  cobbled_deepslate_wall: Zúzott-mélypala fal
+  polished_deepslate_wall: Csiszolt mélypala fal
+  deepslate_brick_wall: Mélypalatégla-fal
+  deepslate_tile_wall: Mélypalacsempe-fal
   anvil: Üllő
   chipped_anvil: Repedt üllő
   damaged_anvil: Sérült üllő
-  trapped_chest: Csapdaláda
-  light_weighted_pressure_plate: Könnyű súlymérő nyomólap
-  heavy_weighted_pressure_plate: Nehéz súlymérő nyomólap
-  daylight_detector: Napfényérzékelő
-  redstone_block: Redstone-blokk
-  nether_quartz_ore: Netherkvarcérc
-  hopper: Tölcsér
   chiseled_quartz_block: Vésett kvarcblokk
   quartz_block: Kvarcblokk
   quartz_bricks: Kvarctégla
   quartz_pillar: Kvarcoszlop
   quartz_stairs: Kvarclépcső
-  activator_rail: Aktiválósín
-  dropper: Kidobó
   white_terracotta: Fehér terrakotta
   orange_terracotta: Narancssárga terrakotta
   magenta_terracotta: Bíbor terrakotta
@@ -354,7 +377,7 @@ material:
   red_terracotta: Vörös terrakotta
   black_terracotta: Fekete terrakotta
   barrier: Akadály
-  iron_trapdoor: Vas csapóajtó
+  light: Fény
   hay_block: Szalmabála
   white_carpet: Fehér szőnyeg
   orange_carpet: Narancssárga szőnyeg
@@ -373,12 +396,10 @@ material:
   red_carpet: Vörös szőnyeg
   black_carpet: Fekete szőnyeg
   terracotta: Terrakotta
-  coal_block: Szénblokk
   packed_ice: Tömör jég
   acacia_stairs: Akáciafa lépcső
   dark_oak_stairs: Sötéttölgy lépcső
-  slime_block: Nyálkablokk
-  grass_path: Ösvény
+  dirt_path: Ösvény
   sunflower: Napraforgó
   lilac: Orgona
   rose_bush: Rózsabokor
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: Vörös nethertégla
   bone_block: Csontblokk
   structure_void: Struktúraűr
-  observer: Megfigyelő
   shulker_box: Shulkerdoboz
   white_shulker_box: Fehér shulkerdoboz
   orange_shulker_box: Narancssárga shulkerdoboz
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: Vörös nethertégla-lépcső
   polished_andesite_stairs: Csiszolt andezitlépcső
   diorite_stairs: Dioritlépcső
+  cobbled_deepslate_stairs: Zúzott-mélypala lépcső
+  polished_deepslate_stairs: Csiszolt mélypala lépcső
+  deepslate_brick_stairs: Mélypalatégla-lépcső
+  deepslate_tile_stairs: Mélypalacsempe-lépcső
   polished_granite_slab: Csiszolt gránitlap
   smooth_red_sandstone_slab: Csiszolt vörös homokkő lap
   mossy_stone_brick_slab: Mohás kőtégla-lap
@@ -559,10 +583,60 @@ material:
   smooth_quartz_slab: Csiszolt kvarclap
   granite_slab: Gránitlap
   andesite_slab: Andezitlap
-  red_nether_brick_slab: Vörös nethertégla-lap
+  red_nether_brick_slab: Vörös nethertégla lap
   polished_andesite_slab: Csiszolt andezitlap
   diorite_slab: Dioritlap
+  cobbled_deepslate_slab: Zúzott-mélypala lap
+  polished_deepslate_slab: Csiszolt mélypala lap
+  deepslate_brick_slab: Mélypalatégla lap
+  deepslate_tile_slab: Mélypalacsempe-lap
   scaffolding: Állványzat
+  redstone: Redstone-por
+  redstone_torch: Redstone-fáklya
+  redstone_block: Redstone-blokk
+  repeater: Redstone-jelismétlő
+  comparator: Redstone-komparátor
+  piston: Dugattyú
+  sticky_piston: Ragacsos dugattyú
+  slime_block: Nyálkablokk
+  honey_block: Mézblokk
+  observer: Megfigyelő
+  hopper: Tölcsér
+  dispenser: Adagoló
+  dropper: Kidobó
+  lectern: Olvasóállvány
+  target: Céltábla
+  lever: Kar
+  lightning_rod: Villámhárító
+  daylight_detector: Napfényérzékelő
+  sculk_sensor: Sculkérzékelő
+  tripwire_hook: Botlódrót-horog
+  trapped_chest: Csapdaláda
+  tnt: TNT
+  redstone_lamp: Redstone-lámpa
+  note_block: Hangdoboz
+  stone_button: Kőgomb
+  polished_blackstone_button: Csiszolt feketekő gomb
+  oak_button: Tölgyfa gomb
+  spruce_button: Fenyőfa gomb
+  birch_button: Nyírfa gomb
+  jungle_button: Dzsungelfa gomb
+  acacia_button: Akáciafa gomb
+  dark_oak_button: Sötéttölgy gomb
+  crimson_button: Karmazsin gomb
+  warped_button: Torz gomb
+  stone_pressure_plate: Kő nyomólap
+  polished_blackstone_pressure_plate: Csiszolt feketekő nyomólap
+  light_weighted_pressure_plate: Könnyű súlymérő nyomólap
+  heavy_weighted_pressure_plate: Nehéz súlymérő nyomólap
+  oak_pressure_plate: Tölgyfa nyomólap
+  spruce_pressure_plate: Fenyőfa nyomólap
+  birch_pressure_plate: Nyírfa nyomólap
+  jungle_pressure_plate: Dzsungelfa nyomólap
+  acacia_pressure_plate: Akáciafa nyomólap
+  dark_oak_pressure_plate: Sötéttölgy nyomólap
+  crimson_pressure_plate: Karmazsin nyomólap
+  warped_pressure_plate: Torz nyomólap
   iron_door: Vasajtó
   oak_door: Tölgyfa ajtó
   spruce_door: Fenyőfa ajtó
@@ -572,8 +646,42 @@ material:
   dark_oak_door: Sötéttölgy ajtó
   crimson_door: Karmazsin ajtó
   warped_door: Torz ajtó
-  repeater: Redstone-jelismétlő
-  comparator: Redstone-komparátor
+  iron_trapdoor: Vas csapóajtó
+  oak_trapdoor: Tölgyfa csapóajtó
+  spruce_trapdoor: Fenyőfa csapóajtó
+  birch_trapdoor: Nyírfa csapóajtó
+  jungle_trapdoor: Dzsungelfa csapóajtó
+  acacia_trapdoor: Akáciafa csapóajtó
+  dark_oak_trapdoor: Sötéttölgy csapóajtó
+  crimson_trapdoor: Karmazsin csapóajtó
+  warped_trapdoor: Torz csapóajtó
+  oak_fence_gate: Tölgyfa kerítéskapu
+  spruce_fence_gate: Fenyőfa kerítéskapu
+  birch_fence_gate: Nyírfa kerítéskapu
+  jungle_fence_gate: Dzsungelfa kerítéskapu
+  acacia_fence_gate: Akáciafa kerítéskapu
+  dark_oak_fence_gate: Sötéttölgy kerítéskapu
+  crimson_fence_gate: Karmazsin kerítéskapu
+  warped_fence_gate: Torz kerítéskapu
+  powered_rail: Elektromos sín
+  detector_rail: Érzékelősín
+  rail: Sín
+  activator_rail: Aktiválósín
+  saddle: Nyereg
+  minecart: Csille
+  chest_minecart: Tárolócsille
+  furnace_minecart: Csille kemencével
+  tnt_minecart: TNT csille
+  hopper_minecart: Tölcséres csille
+  carrot_on_a_stick: Répa horgászboton
+  warped_fungus_on_a_stick: Torz gomba horgászboton
+  elytra: Kitinszárny
+  oak_boat: Tölgyfa csónak
+  spruce_boat: Fenyőfa csónak
+  birch_boat: Nyírfa csónak
+  jungle_boat: Dzsungelfa csónak
+  acacia_boat: Akáciafa csónak
+  dark_oak_boat: Sötéttölgy csónak
   structure_block: Struktúrablokk
   jigsaw: Kirakósblokk
   turtle_helmet: Teknőspáncél
@@ -585,7 +693,15 @@ material:
   coal: Szén
   charcoal: Faszén
   diamond: Gyémánt
+  emerald: Smaragd
+  lapis_lazuli: Lazurit
+  quartz: Netherkvarc
+  amethyst_shard: Ametisztszilánk
+  raw_iron: Nyersvas
   iron_ingot: Vasrúd
+  raw_copper: Nyersréz
+  copper_ingot: Rézrúd
+  raw_gold: Nyersarany
   gold_ingot: Aranyrúd
   netherite_ingot: Netheritrúd
   netherite_scrap: Netheritdarab
@@ -669,29 +785,27 @@ material:
   bucket: Vödör
   water_bucket: Vizesvödör
   lava_bucket: Lávásvödör
-  minecart: Csille
-  saddle: Nyereg
-  redstone: Redstone-por
+  powder_snow_bucket: Porhavas vödör
   snowball: Hógolyó
-  oak_boat: Tölgyfa csónak
   leather: Bőr
   milk_bucket: Tejesvödör
   pufferfish_bucket: Gömbhal vödörben
   salmon_bucket: Lazac vödörben
   cod_bucket: Tőkehal vödörben
   tropical_fish_bucket: Trópusi hal vödörben
+  axolotl_bucket: Axolotl vödörben
   brick: Tégla
   clay_ball: Agyaggolyó
   dried_kelp_block: Szárított hínárblokk
   paper: Papír
   book: Könyv
   slime_ball: Nyálkagolyó
-  chest_minecart: Tárolócsille
-  furnace_minecart: Csille kemencével
   egg: Tojás
   compass: Iránytű
+  bundle: Batyu
   fishing_rod: Horgászbot
   clock: Óra
+  spyglass: Távcső
   glowstone_dust: Izzókő-por
   cod: Nyers tőkehal
   salmon: Nyers lazac
@@ -700,8 +814,8 @@ material:
   cooked_cod: Sült tőkehal
   cooked_salmon: Sült lazac
   ink_sac: Tintazsák
+  glow_ink_sac: Fénylő tintazsák
   cocoa_beans: Kakaóbab
-  lapis_lazuli: Lazurit
   white_dye: Fehér festék
   orange_dye: Narancssárga festék
   magenta_dye: Bíbor festék
@@ -765,6 +879,7 @@ material:
   cauldron: Üst
   ender_eye: Ender szeme
   glistering_melon_slice: Csillámló dinnyeszelet
+  axolotl_spawn_egg: Axolotlidéző tojás
   bat_spawn_egg: Denevéridéző tojás
   bee_spawn_egg: Méhidéző tojás
   blaze_spawn_egg: Őrlángidéző tojás
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: Idézőt idéző tojás
   fox_spawn_egg: Rókaidéző tojás
   ghast_spawn_egg: Ghastidéző tojás
+  glow_squid_spawn_egg: Fénylő tintahalat idéző tojás
+  goat_spawn_egg: Kecskeidéző tojás
   guardian_spawn_egg: Őrszemidéző tojás
   hoglin_spawn_egg: Hoglinidéző tojás
   horse_spawn_egg: Lóidéző tojás
@@ -797,7 +914,7 @@ material:
   phantom_spawn_egg: Fantomidéző tojás
   pig_spawn_egg: Malacidéző tojás
   piglin_spawn_egg: Piglinidéző tojás
-  piglin_brute_spawn_egg: Vandál Piglinidéző tojás
+  piglin_brute_spawn_egg: Piglin verőlegényt idéző tojás
   pillager_spawn_egg: Rablóidéző tojás
   polar_bear_spawn_egg: Jegesmedve-idéző tojás
   pufferfish_spawn_egg: Gömbhalidéző tojás
@@ -833,8 +950,8 @@ material:
   fire_charge: Tűzgolyó
   writable_book: Könyv és toll
   written_book: Befejezett könyv
-  emerald: Smaragd
   item_frame: Eszközkeret
+  glow_item_frame: Fénylő eszközkeret
   flower_pot: Virágcserép
   carrot: Sárgarépa
   potato: Burgonya
@@ -848,17 +965,12 @@ material:
   zombie_head: Zombifej
   creeper_head: Creeperfej
   dragon_head: Sárkányfej
-  carrot_on_a_stick: Répa horgászboton
-  warped_fungus_on_a_stick: Torz gomba horgászboton
   nether_star: Nethercsillag
   pumpkin_pie: Tökpite
   firework_rocket: Tűzijáték
   firework_star: Tűzijátékcsillag
   enchanted_book: Varázskönyv
   nether_brick: Nethertégla
-  quartz: Netherkvarc
-  tnt_minecart: TNT csille
-  hopper_minecart: Tölcséres csille
   prismarine_shard: Prizmarinszilánk
   prismarine_crystals: Prizmarinkristály
   rabbit: Nyers nyúlhús
@@ -871,7 +983,7 @@ material:
   golden_horse_armor: Arany lópáncél
   diamond_horse_armor: Gyémánt lópáncél
   leather_horse_armor: Bőr lópáncél
-  lead: Póráz
+  lead: Lasszó
   name_tag: Cédula
   command_block_minecart: Parancsblokk-csille
   mutton: Nyers birkahús
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: Varázsnyíl
   lingering_potion: Időző bájital
   shield: Pajzs
-  elytra: Kitinszárny
-  spruce_boat: Fenyőfa csónak
-  birch_boat: Nyírfa csónak
-  jungle_boat: Dzsungelfa csónak
-  acacia_boat: Akáciafa csónak
-  dark_oak_boat: Sötéttölgy csónak
   totem_of_undying: Életmentés toteme
   shulker_shell: Shulkerhéj
   iron_nugget: Vasrög
@@ -948,13 +1054,13 @@ material:
   cartography_table: Térképasztal
   fletching_table: Íjászasztal
   grindstone: Köszörűkő
-  lectern: Olvasóállvány
   smithing_table: Kovácsasztal
   stonecutter: Kővágó
   bell: Harang
   lantern: Lámpás
   soul_lantern: Léleklámpás
   sweet_berries: Édes bogyók
+  glow_berries: Fényszeder
   campfire: Tábortűz
   soul_campfire: Lélektábortűz
   shroomlight: Fényspóra
@@ -962,12 +1068,8 @@ material:
   bee_nest: Méhkas
   beehive: Méhkaptár
   honey_bottle: Mézespalack
-  honey_block: Mézblokk
   honeycomb_block: Méhsejtblokk
   lodestone: Iránykő
-  netherite_block: Netheritblokk
-  ancient_debris: Ősi törmelék
-  target: Céltábla
   crying_obsidian: Könnyező obszidián
   blackstone: Feketekő
   blackstone_slab: Feketekő lap
@@ -982,6 +1084,28 @@ material:
   polished_blackstone_brick_stairs: Csiszolt feketekőtégla-lépcső
   cracked_polished_blackstone_bricks: Repedt csiszolt feketekőtégla
   respawn_anchor: Újraéledés-kapocs
+  candle: Gyertya
+  white_candle: Fehér gyertya
+  orange_candle: Narancssárga gyertya
+  magenta_candle: Bíbor gyertya
+  light_blue_candle: Világoskék gyertya
+  yellow_candle: Sárga gyertya
+  lime_candle: Világoszöld gyertya
+  pink_candle: Rózsaszín gyertya
+  gray_candle: Szürke gyertya
+  light_gray_candle: Világosszürke gyertya
+  cyan_candle: Türkizkék gyertya
+  purple_candle: Lila gyertya
+  blue_candle: Kék gyertya
+  brown_candle: Barna gyertya
+  green_candle: Zöld gyertya
+  red_candle: Vörös gyertya
+  black_candle: Fekete gyertya
+  small_amethyst_bud: Kis ametisztkristály
+  medium_amethyst_bud: Közepes ametisztkristály
+  large_amethyst_bud: Nagy ametisztkristály
+  amethyst_cluster: Ametiszt-kristálycsoport
+  pointed_dripstone: Hegyes cseppkő
   water: Víz
   lava: Láva
   tall_seagrass: Magas tengerifű
@@ -1004,6 +1128,9 @@ material:
   attached_melon_stem: Csatlakozott dinnyeszár
   pumpkin_stem: Tökszár
   melon_stem: Dinnyeszár
+  water_cauldron: Vízzel teli üst
+  lava_cauldron: Lávával teli üst
+  powder_snow_cauldron: Porhóval teli üst
   end_portal: End-portál
   cocoa: Kakaó
   tripwire: Botlódrót
@@ -1083,6 +1210,30 @@ material:
   potted_warped_fungus: Torz gomba cserépben
   potted_crimson_roots: Karmazsin gyökerek cserépben
   potted_warped_roots: Torz gyökerek cserépben
+  candle_cake: Torta gyertyával
+  white_candle_cake: Torta fehér gyertyával
+  orange_candle_cake: Torta narancssárga gyertyával
+  magenta_candle_cake: Torta bíbor gyertyával
+  light_blue_candle_cake: Torta világoskék gyertyával
+  yellow_candle_cake: Torta sárga gyertyával
+  lime_candle_cake: Torta világoszöld gyertyával
+  pink_candle_cake: Torta rózsaszín gyertyával
+  gray_candle_cake: Torta szürke gyertyával
+  light_gray_candle_cake: Torta világosszürke gyertyával
+  cyan_candle_cake: Torta türkizkék gyertyával
+  purple_candle_cake: Torta lila gyertyával
+  blue_candle_cake: Torta kék gyertyával
+  brown_candle_cake: Torta barna gyertyával
+  green_candle_cake: Torta zöld gyertyával
+  red_candle_cake: Torta vörös gyertyával
+  black_candle_cake: Torta fekete gyertyával
+  powder_snow: Porhó
+  cave_vines: Barlangi indák
+  cave_vines_plant: Barlangi indaszár
+  big_dripleaf_stem: Nagy csepplevél szára
+  potted_azalea_bush: Azálea cserépben
+  potted_flowering_azalea_bush: Virágzó azálea cserépben
+  grass_path: Ösvény
   zombie_pigman_spawn_egg: Zombi-malacembert idéző tojás
   cactus_green: Kaktuszzöld
   dandelion_yellow: Pitypangsárga
@@ -1169,46 +1320,48 @@ biome:
   crimson_forest: Karmazsin erdő
   warped_forest: Torz erdő
   basalt_deltas: Bazaltdelta
+  dripstone_caves: Cseppkőbarlangok
+  lush_caves: Buja barlangok
   nether: Nether
 enchantment:
-  fire_protection: Tűzállóság
-  sharpness: Élesség
-  flame: Láng
-  soul_speed: Lélekjárás
-  aqua_affinity: Vízaffinitás
-  punch: Ütés
-  loyalty: Hűség
-  depth_strider: Mélyjárás
-  vanishing_curse: Eltűnés átka
-  unbreaking: Törhetetlenség
-  knockback: Hátralökés
-  luck_of_the_sea: Horgászszerencse
-  binding_curse: Bilincselés átka
-  fortune: Szerencse
   protection: Védelem
-  efficiency: Hatékonyság
-  mending: Önjavítás
-  frost_walker: Fagyjárás
-  lure: Csalétek
-  looting: Zsákmányolás
-  piercing: Átdöfés
-  blast_protection: Robbanásvédelem
-  smite: Sújtás
-  multishot: Többszörös lövés
-  fire_aspect: Lángpallos
-  channeling: Földelés
-  sweeping: Suhintás
-  thorns: Tüskék
-  bane_of_arthropods: Ízeltlábúak veszedelme
-  respiration: Légzés
-  riptide: Szökőár
-  silk_touch: Gyengéd érintés
-  quick_charge: Gyors töltés
-  projectile_protection: Lövedékvédelem
-  impaling: Felnyársalás
+  fire_protection: Tűzállóság
   feather_falling: Könnyű esés
+  blast_protection: Robbanásvédelem
+  projectile_protection: Lövedékvédelem
+  respiration: Légzés
+  aqua_affinity: Vízaffinitás
+  thorns: Tüskék
+  depth_strider: Mélyjárás
+  frost_walker: Fagyjárás
+  binding_curse: Bilincselés átka
+  sharpness: Élesség
+  smite: Sújtás
+  bane_of_arthropods: Ízeltlábúak veszedelme
+  knockback: Hátralökés
+  fire_aspect: Lángpallos
+  looting: Zsákmányolás
+  sweeping: Suhintás
+  efficiency: Hatékonyság
+  silk_touch: Gyengéd érintés
+  unbreaking: Törhetetlenség
+  fortune: Szerencse
   power: Erő
+  punch: Ütés
+  flame: Láng
   infinity: Végtelen
+  luck_of_the_sea: Horgászszerencse
+  lure: Csalétek
+  loyalty: Hűség
+  impaling: Felnyársalás
+  riptide: Szökőár
+  channeling: Földelés
+  multishot: Többszörös lövés
+  quick_charge: Gyors töltés
+  piercing: Átdöfés
+  mending: Önjavítás
+  vanishing_curse: Eltűnés átka
+  soul_speed: Lélekjárás
 potion:
   uncraftable: Nem főzhető bájital
   water: Vizespalack
@@ -1403,6 +1556,11 @@ entity:
   strider: Álomfutó
   zoglin: Zoglin
   piglin_brute: Piglin verőlegény
+  axolotl: Axolotl
+  glow_item_frame: Fénylő eszközkeret
+  glow_squid: Fénylő tintahal
+  goat: Kecske
+  marker: Jelölő
   fishing_hook: Úszó
   lightning: Villám
   player: Játékos
@@ -1483,20 +1641,20 @@ tropical_fish_name:
   '117899265': Hamuszín doktorhal
   '185008129': Kék doktorhal
   '117441793': Pillangóhal
-  '118161664': Bölcsőszájúhal
+  '118161664': Indigósügér
   '65536': Bohóchal
   '50726144': Sziámi harcoshal
-  '67764993': Törpesügér
+  '67764993': Királyhal
   '234882305': Császár csattogóhal
   '67110144': Tengeri márna
   '117441025': Zászlóshal
   '16778497': Pompás pillangóhal
   '101253888': Papagájhal
   '50660352': Tündöklő császárhal
-  '918529': Piros bölcsőszájúhal
+  '918529': Diszkoszhal
   '235340288': Vörösajkú nyálkáshal
   '918273': Vörös csattogóhal
-  '67108865': Polynemidae
+  '67108865': Fonalasszárnyú hal
   '917504': Fehérsávos bohóchal
   '459008': Íjhal
   '67699456': Sárgafarkú papagájhal
@@ -2202,17 +2360,3 @@ villager_profession:
   shepherd: Pásztor
   toolsmith: Eszközkovács
   weaponsmith: Fegyverkovács
-villager_career:
-  farmer: Földműves
-  fisherman: Halász
-  shepherd: Pásztor
-  fletcher: Nyílkészítő
-  librarian: Könyvtáros
-  cartographer: Térképész
-  cleric: Pap
-  armorer: Páncélkovács
-  weapon_smith: Fegyverkovács
-  tool_smith: Eszközkovács
-  butcher: Hentes
-  leatherworker: Tímár
-  nitwit: Lágyagyú

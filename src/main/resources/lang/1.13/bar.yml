@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:46                    #
+# Build time: 2021-07-04 21:46:01                    #
 # ####################################################
 language:
   code: bar
@@ -122,6 +122,7 @@ material:
   chiseled_sandstone: Gemeißelter Sandstein
   chiseled_stone_bricks: Gemeißelte Steinziegel
   chorus_flower: Chorusblüte
+  chorus_plant: Choruspflanze
   clay_ball: Tonklumpen
   clock: Uhr
   coal: Kohle
@@ -401,6 +402,7 @@ material:
   map: Leere Karte
   melon_seeds: Melonenkerne
   melon_slice: Melonenscheibe
+  melon_stem: Melonenpflanze
   milk_bucket: Milcheimer
   mooshroom_spawn_egg: Mooshroom-Spawn-Ei
   mossy_cobblestone: Bemooster Bruchstein
@@ -481,6 +483,7 @@ material:
   potted_allium: Eingetopfter Sternlauch
   potted_azure_bluet: Eingetopftes Porzellansternchen
   potted_birch_sapling: Eingetopfter Birkensetzling
+  potted_blue_orchid: Eingetopfte blaue Orchidee
   potted_brown_mushroom: Eingetopfter brauner Pilz
   potted_cactus: Eingetopfter Kaktus
   potted_dandelion: Eingetopfter Löwenzahn
@@ -506,6 +509,7 @@ material:
   pufferfish_spawn_egg: Kugelfisch-Spawn-Ei
   pumpkin_pie: Kürbiskuchen
   pumpkin_seeds: Kürbiskerne
+  pumpkin_stem: Kürbispflanze
   purple_banner: Violettes Banner
   purple_bed: Violettes Bett
   purple_carpet: Violetter Teppich
@@ -624,6 +628,7 @@ material:
   sugar: Zucker
   sugar_cane: Zuckerrohr
   sunflower: Sonnenblume
+  totem_of_undying: Totem der Unsterblichkeit
   tripwire: Stolperdraht
   tripwire_hook: Haken
   tropical_fish: Tropenfisch
@@ -753,6 +758,7 @@ enchantment:
   loyalty: Treue
   depth_strider: Wasserläufer
   luck_of_the_sea: Glück des Meeres
+  binding_curse: Fluch der Bindung
   efficiency: Effizienz
   frost_walker: Eisläufer
   fire_aspect: Verbrennung
@@ -761,8 +767,18 @@ potion:
   uncraftable: Nicht braubarer Trank
   water: Wasserflasche
   thick: Dickflüssiger Trank
+  night_vision: Trank der Nachtsicht
+  invisibility: Trank der Unsichtbarkeit
+  jump: Trank der Sprungkraft
+  fire_resistance: Trank der Feuerresistenz
+  speed: Trank der Schnelligkeit
+  slowness: Trank der Langsamkeit
   water_breathing: Trank der Unterwasseratmung
+  instant_heal: Trank der Heilung
   poison: Trank der Vergiftung
+  regen: Trank der Regeneration
+  strength: Trank der Stärke
+  weakness: Trank der Schwäche
   turtle_master: Trank des Schildkrötenmeisters
   slow_falling: Trank des sanften Falls
 splash_potion:
@@ -772,18 +788,36 @@ splash_potion:
   thick: Dickflüssiger Wurftrank
   awkward: Seltsamer Wurftrank
   night_vision: Wurftrank der Nachtsicht
+  invisibility: Wurftrank der Unsichtbarkeit
   jump: Wurftrank der Sprungkraft
   fire_resistance: Wurftrank der Feuerresistenz
   speed: Wurftrank der Schnelligkeit
+  slowness: Wurftrank der Langsamkeit
   water_breathing: Wurftrank der Unterwasseratmung
+  instant_heal: Wurftrank der Heilung
   instant_damage: Wurftrank des Schadens
+  poison: Wurftrank der Vergiftung
+  regen: Wurftrank der Regeneration
+  strength: Wurftrank der Stärke
+  weakness: Wurftrank der Schwäche
   turtle_master: Wurftrank des Schildkrötenmeisters
   slow_falling: Wurftrank des sanften Falls
 lingering_potion:
   uncraftable: Nicht braubarer Verweiltrank
   water: Verweilende Wasserflasche
   mundane: Gewöhnlicher Verweiltrank
+  night_vision: Verweiltrank der Nachtsicht
+  invisibility: Verweiltrank der Unsichtbarkeit
+  jump: Verweiltrank der Sprungkraft
+  fire_resistance: Verweiltrank der Feuerresistenz
+  speed: Verweiltrank der Schnelligkeit
+  slowness: Verweiltrank der Langsamkeit
   water_breathing: Verweiltrank der Unterwasseratmung
+  instant_heal: Verweiltrank der Heilung
+  poison: Verweiltrank der Vergiftung
+  regen: Verweiltrank der Regeneration
+  strength: Verweiltrank der Stärke
+  weakness: Verweiltrank der Schwäche
 tipped_arrow:
   uncraftable: Nicht herstellbarer getränkter Pfeil
   mundane: Getränkter Pfeil
@@ -1469,3 +1503,8 @@ banner_pattern:
   '2490381': Grünes Mojang-Logo
   '2490382': Rotes Mojang-Logo
   '2490383': Schwarzes Mojang-Logo
+villager_profession:
+  farmer: Bauer
+  librarian: Bibliothekar
+  butcher: Fleischer
+  nitwit: Nichtsnutz

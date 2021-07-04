@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:49                    #
+# Build time: 2021-07-04 21:46:04                    #
 # ####################################################
 language:
   code: vi_vn
@@ -14,10 +14,17 @@ material:
   polished_diorite: Đá diorit được đánh bóng
   andesite: Đá andesit
   polished_andesite: Đá andesit được đánh bóng
+  deepslate: Đá bảng sâu
+  cobbled_deepslate: Đá cuội bảng sâu
+  polished_deepslate: Đá bảng sâu được đánh bóng
+  calcite: Can-xít
+  tuff: Đá túp
+  dripstone_block: Khối thạch nhũ
   grass_block: Khối cỏ
   dirt: Đất
   coarse_dirt: Đất thô
   podzol: Đất podzol
+  rooted_dirt: Đất đã bén rễ
   crimson_nylium: Khuẩn dị thể đỏ thẫm
   warped_nylium: Khuẩn dị thể kì dị
   cobblestone: Đá cuội
@@ -39,10 +46,67 @@ material:
   sand: Cát
   red_sand: Cát đỏ
   gravel: Sỏi
-  gold_ore: Quặng vàng
-  iron_ore: Quặng sắt
   coal_ore: Quặng than
+  deepslate_coal_ore: Quặng than đá bảng sâu
+  iron_ore: Quặng sắt
+  deepslate_iron_ore: Quặng sắt đá bảng sâu
+  copper_ore: Quặng đồng
+  deepslate_copper_ore: Quặng đồng đá bảng sâu
+  gold_ore: Quặng vàng
+  deepslate_gold_ore: Quặng vàng đá bảng sâu
+  redstone_ore: Quặng Redstone
+  deepslate_redstone_ore: Quặng Redstone đá bảng sâu
+  emerald_ore: Quặng ngọc lục bảo
+  deepslate_emerald_ore: Quặng ngọc lục bảo đá bảng sâu
+  lapis_ore: Quặng ngọc lưu ly
+  deepslate_lapis_ore: Quặng ngọc lưu ly đá bảng sâu
+  diamond_ore: Quặng kim cương
+  deepslate_diamond_ore: Quặng kim cương đá bảng sâu
   nether_gold_ore: Quặng vàng Nether
+  nether_quartz_ore: Quặng thạch anh Nether
+  ancient_debris: Mảnh vỡ cổ đại
+  coal_block: Khối than
+  raw_iron_block: Khối sắt thô
+  raw_copper_block: Khối đồng thô
+  raw_gold_block: Khối vàng thô
+  amethyst_block: Khối thạch anh tím
+  budding_amethyst: Nụ thạch anh tím
+  iron_block: Khối sắt
+  copper_block: Khối đồng
+  gold_block: Khối vàng
+  diamond_block: Khối kim cương
+  netherite_block: Khối Netherit
+  exposed_copper: Khối đồng bị ẩm
+  weathered_copper: Khối đồng bị phong hoá
+  oxidized_copper: Khối đồng bị oxi hóa
+  cut_copper: Khối đồng được cắt
+  exposed_cut_copper: Khối đồng được cắt bị ẩm
+  weathered_cut_copper: Khối đồng được cắt bị phong hóa
+  oxidized_cut_copper: Khối đồng được cắt bị oxi hóa
+  cut_copper_stairs: Cầu thang đồng được cắt
+  exposed_cut_copper_stairs: Cầu thang đồng được cắt bị ẩm
+  weathered_cut_copper_stairs: Cầu thang đồng được cắt bị phong hóa
+  oxidized_cut_copper_stairs: Cầu thang đồng được cắt bị oxi hóa
+  cut_copper_slab: Phiến đồng được cắt
+  exposed_cut_copper_slab: Phiến đồng được cắt bị ẩm
+  weathered_cut_copper_slab: Phiến đồng được cắt bị phong hoá
+  oxidized_cut_copper_slab: Phiến đồng được xén bị oxi hóa
+  waxed_copper_block: Khối đồng đã bôi sáp
+  waxed_exposed_copper: Khối đồng đã bôi sáp bị ẩm
+  waxed_weathered_copper: Khối đồng đã bôi sáp bị phong hoá
+  waxed_oxidized_copper: Khối đồng đã bôi sáp bị oxi hóa
+  waxed_cut_copper: Khối đồng đã bôi sáp được cắt
+  waxed_exposed_cut_copper: Khối đồng được cắt đã bôi sáp bị ẩm
+  waxed_weathered_cut_copper: Khối đồng được cắt đã bôi sáp bị phong hoá
+  waxed_oxidized_cut_copper: Khối đồng được cắt đã bôi sáp bị oxi hóa
+  waxed_cut_copper_stairs: Cầu thang đồng được cắt đã bôi sáp
+  waxed_exposed_cut_copper_stairs: Cầu thang đồng được cắt đã bôi sáp bị ẩm
+  waxed_weathered_cut_copper_stairs: Cầu thang đồng được cắt đã bôi sáp bị phong hoá
+  waxed_oxidized_cut_copper_stairs: Cầu thang đồng được cắt đã bôi sáp bị oxi hóa
+  waxed_cut_copper_slab: Phiến đồng được cắt đã bôi sáp
+  waxed_exposed_cut_copper_slab: Phiến đồng được cắt đã bôi sáp bị ẩm
+  waxed_weathered_cut_copper_slab: Phiến đồng được cắt đã bôi sáp bị phong hoá
+  waxed_oxidized_cut_copper_slab: Phiến đồng được cắt đã bôi sáp bị oxi hóa
   oak_log: Thân cây sồi
   spruce_log: Thân cây vân sam
   birch_log: Thân cây bạch dương
@@ -81,26 +145,24 @@ material:
   jungle_leaves: Lá rừng
   acacia_leaves: Lá xiêm gai
   dark_oak_leaves: Lá sồi sẫm
+  azalea_leaves: Lá đỗ quyên
+  flowering_azalea_leaves: Lá đỗ quyên có hoa
   sponge: Miếng bọt biển
   wet_sponge: Miếng bọt biển ướt
   glass: Thủy tinh
-  lapis_ore: Quặng ngọc lưu ly
+  tinted_glass: Kính mờ
   lapis_block: Khối ngọc lưu ly
-  dispenser: Máy phân phát
   sandstone: Cát kết
   chiseled_sandstone: Cát kết được đục
   cut_sandstone: Cát kết được cắt
-  note_block: Khối nốt nhạc
-  powered_rail: Đường ray tăng tốc
-  detector_rail: Đường ray cảm biến
-  sticky_piston: Pít-tông dính
   cobweb: Mạng nhện
   grass: Cỏ
   fern: Dương xỉ
+  azalea: Đỗ quyên
+  flowering_azalea: Đỗ quyên đang trổ bông
   dead_bush: Bụi cây khô
   seagrass: Cỏ biển
   sea_pickle: Dưa muối biển
-  piston: Pít-tông
   white_wool: Len trắng
   orange_wool: Len cam
   magenta_wool: Len đỏ sậm
@@ -130,6 +192,7 @@ material:
   cornflower: Thanh cúc
   lily_of_the_valley: Linh lan
   wither_rose: Hoa hồng Wither
+  spore_blossom: Hoa bào tử
   brown_mushroom: Nấm nâu
   red_mushroom: Nấm đỏ
   crimson_fungus: Nấm đỏ thẫm
@@ -141,9 +204,12 @@ material:
   twisting_vines: Dây leo xoắn
   sugar_cane: Cây mía
   kelp: Tảo bẹ
+  moss_carpet: Thảm rêu
+  moss_block: Khối rêu
+  hanging_roots: Rễ treo
+  big_dripleaf: Lá nhỏ giọt lớn
+  small_dripleaf: Lá nhỏ giọt nhỏ
   bamboo: Cây tre
-  gold_block: Khối vàng
-  iron_block: Khối sắt
   oak_slab: Phiến gỗ sồi
   spruce_slab: Phiến gỗ vân sam
   birch_slab: Phiến gỗ bạch dương
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: Cát kết mịn
   smooth_stone: Đá mịn
   bricks: Gạch
-  tnt: TNT
   bookshelf: Kệ sách
   mossy_cobblestone: Đá cuội phủ rêu
   obsidian: Hắc diện thạch
@@ -187,27 +252,11 @@ material:
   spawner: Lồng triệu hồi
   oak_stairs: Cầu thang gỗ sồi
   chest: Rương
-  diamond_ore: Quặng kim cương
-  diamond_block: Khối kim cương
   crafting_table: Bàn chế tạo
   farmland: Đất ruộng
   furnace: Lò nung
   ladder: Thang
-  rail: Đường ray
   cobblestone_stairs: Cầu thang đá cuội
-  lever: Cần gạt
-  stone_pressure_plate: Đĩa cảm biến áp lực bằng đá
-  oak_pressure_plate: Đĩa cảm biến áp lực gỗ sồi
-  spruce_pressure_plate: Đĩa cảm biến áp lực gỗ vân sam
-  birch_pressure_plate: Đĩa cảm biến áp lực gỗ bạch dương
-  jungle_pressure_plate: Đĩa cảm biến áp lực gỗ rừng
-  acacia_pressure_plate: Đĩa cảm biến áp lực gỗ xiêm gai
-  dark_oak_pressure_plate: Đĩa cảm biến áp lực gỗ sồi sẫm
-  crimson_pressure_plate: Đĩa cảm biến áp lực đỏ thẫm
-  warped_pressure_plate: Đĩa cảm biến áp lực kì dị
-  polished_blackstone_pressure_plate: Đĩa cảm biến áp lực đá đen được đánh bóng
-  redstone_ore: Quặng Redstone
-  redstone_torch: Đuốc Redstone
   snow: Tuyết
   ice: Băng
   snow_block: Khối tuyết
@@ -224,32 +273,31 @@ material:
   warped_fence: Hàng rào kì dị
   pumpkin: Bí ngô
   carved_pumpkin: Bí ngô được khắc
+  jack_o_lantern: Đèn bí ngô
   netherrack: Netherrack
   soul_sand: Cát linh hồn
   soul_soil: Đất linh hồn
   basalt: Đá bazan
   polished_basalt: Đá bazan được đánh bóng
+  smooth_basalt: Đá bazan mịn
   soul_torch: Đuốc linh hồn
   glowstone: Đá phát sáng
-  jack_o_lantern: Đèn bí ngô
-  oak_trapdoor: Cửa sập gỗ sồi
-  spruce_trapdoor: Cửa sập gỗ vân sam
-  birch_trapdoor: Cửa sập gỗ bạch dương
-  jungle_trapdoor: Cửa sập gỗ rừng
-  acacia_trapdoor: Cửa sập gỗ xiêm gai
-  dark_oak_trapdoor: Cửa sập gỗ sồi sẫm
-  crimson_trapdoor: Cửa sập đỏ thẫm
-  warped_trapdoor: Cửa sập kì dị
   infested_stone: Đá bị nhiễm khuẩn
   infested_cobblestone: Đá cuội bị nhiễm khuẩn
   infested_stone_bricks: Gạch đá bị nhiễm khuẩn
   infested_mossy_stone_bricks: Gạch đá phủ rêu bị nhiễm khuẩn
   infested_cracked_stone_bricks: Gạch đá nứt bị nhiễm khuẩn
   infested_chiseled_stone_bricks: Gạch đá được đục bị nhiễm khuẩn
+  infested_deepslate: Đá bảng sâu bị nhiễm khuẩn
   stone_bricks: Gạch đá
   mossy_stone_bricks: Gạch đá phủ rêu
   cracked_stone_bricks: Gạch đá nứt
   chiseled_stone_bricks: Gạch đá được đục
+  deepslate_bricks: Gạch đá bảng sâu
+  cracked_deepslate_bricks: Gạch đá bảng sâu nứt
+  deepslate_tiles: Đá lát bảng sâu
+  cracked_deepslate_tiles: Đá lát bảng sâu nứt
+  chiseled_deepslate: Đá bảng sâu được đục
   brown_mushroom_block: Khối nấm nâu
   red_mushroom_block: Khối nấm đỏ
   mushroom_stem: Thân nấm
@@ -258,14 +306,7 @@ material:
   glass_pane: Tấm thủy tinh
   melon: Dưa hấu
   vine: Dây leo
-  oak_fence_gate: Cổng rào gỗ sồi
-  spruce_fence_gate: Cổng rào gỗ vân sam
-  birch_fence_gate: Cổng rào gỗ bạch dương
-  jungle_fence_gate: Cổng rào gỗ rừng
-  acacia_fence_gate: Cổng rào gỗ xiêm gai
-  dark_oak_fence_gate: Cổng rào gỗ sồi sẫm
-  crimson_fence_gate: Cổng rào đỏ thẫm
-  warped_fence_gate: Cổng rào kì dị
+  glow_lichen: Địa y phát sáng
   brick_stairs: Cầu thang gạch
   stone_brick_stairs: Cầu thang gạch đá
   mycelium: Khuẩn ty thể
@@ -280,11 +321,8 @@ material:
   end_stone: Đá End
   end_stone_bricks: Gạch đá End
   dragon_egg: Trứng rồng
-  redstone_lamp: Đèn Redstone
   sandstone_stairs: Cầu thang cát kết
-  emerald_ore: Quặng ngọc lục bảo
   ender_chest: Rương Ender
-  tripwire_hook: Móc dây bẫy
   emerald_block: Khối ngọc lục bảo
   spruce_stairs: Cầu thang gỗ vân sam
   birch_stairs: Cầu thang gỗ bạch dương
@@ -310,33 +348,18 @@ material:
   blackstone_wall: Tường đá đen
   polished_blackstone_wall: Tường đá đen được đánh bóng
   polished_blackstone_brick_wall: Tường gạch đá đen được đánh bóng
-  stone_button: Nút đá
-  oak_button: Nút gỗ sồi
-  spruce_button: Nút gỗ vân sam
-  birch_button: Nút gỗ bạch dương
-  jungle_button: Nút gỗ rừng
-  acacia_button: Nút gỗ xiêm gai
-  dark_oak_button: Nút gỗ sồi sẫm
-  crimson_button: Nút đỏ thẫm
-  warped_button: Nút kì dị
-  polished_blackstone_button: Nút đá đen được đánh bóng
+  cobbled_deepslate_wall: Tường đá cuội bảng sâu
+  polished_deepslate_wall: Tường đá bảng sâu được đánh bóng
+  deepslate_brick_wall: Tường gạch đá bảng sâu
+  deepslate_tile_wall: Tường đá lát bảng sâu
   anvil: Cái đe
   chipped_anvil: Cái đe bị nứt
   damaged_anvil: Cái đe bị hỏng
-  trapped_chest: Rương bị kẹt
-  light_weighted_pressure_plate: Đĩa cảm biến áp lực nhẹ
-  heavy_weighted_pressure_plate: Đĩa cảm biến áp lực nặng
-  daylight_detector: Máy dò ánh sáng
-  redstone_block: Khối Redstone
-  nether_quartz_ore: Quặng thạch anh Nether
-  hopper: Cái phễu
   chiseled_quartz_block: Khối thạch anh được đục
   quartz_block: Khối thạch anh
   quartz_bricks: Gạch thạch anh
   quartz_pillar: Cột trụ thạch anh
   quartz_stairs: Cầu thang thạch anh
-  activator_rail: Đường ray kích hoạt
-  dropper: Máy thả
   white_terracotta: Đất nung trắng
   orange_terracotta: Đất nung cam
   magenta_terracotta: Đất nung đỏ sậm
@@ -354,7 +377,7 @@ material:
   red_terracotta: Đất nung đỏ
   black_terracotta: Đất nung đen
   barrier: Rào chắn
-  iron_trapdoor: Cửa sập sắt
+  light: Ánh sáng
   hay_block: Kiện rơm
   white_carpet: Thảm trắng
   orange_carpet: Thảm cam
@@ -373,12 +396,10 @@ material:
   red_carpet: Thảm đỏ
   black_carpet: Thảm đen
   terracotta: Đất nung
-  coal_block: Khối than
   packed_ice: Băng nén
   acacia_stairs: Cầu thang gỗ xiêm gai
   dark_oak_stairs: Cầu thang gỗ sồi sẫm
-  slime_block: Khối chất nhờn
-  grass_path: Đường đi trên cỏ
+  dirt_path: Đường đất
   sunflower: Hướng dương
   lilac: Tử đinh hương
   rose_bush: Bụi hoa hồng
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: Gạch Nether đỏ
   bone_block: Khối xương
   structure_void: Cấu trúc trống
-  observer: Khối theo dõi
   shulker_box: Hộp Shulker
   white_shulker_box: Hộp Shulker trắng
   orange_shulker_box: Hộp Shulker cam
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: Cầu thang gạch Nether đỏ
   polished_andesite_stairs: Cầu thang đá andesit được đánh bóng
   diorite_stairs: Cầu thang đá diorit
+  cobbled_deepslate_stairs: Cầu thang đá cuội bảng sâu
+  polished_deepslate_stairs: Cầu thang đá bảng sâu được đánh bóng
+  deepslate_brick_stairs: Cầu thang gạch đá bảng sâu
+  deepslate_tile_stairs: Cầu thang đá lát bảng sâu
   polished_granite_slab: Phiến đá hoa cương được đánh bóng
   smooth_red_sandstone_slab: Phiến cát kết đỏ mịn
   mossy_stone_brick_slab: Phiến gạch đá phủ rêu
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: Phiến gạch Nether đỏ
   polished_andesite_slab: Phiến đá andesit được đánh bóng
   diorite_slab: Phiến đá diorit
+  cobbled_deepslate_slab: Phiến đá cuội bảng sâu
+  polished_deepslate_slab: Phiến đá bảng sâu được đánh bóng
+  deepslate_brick_slab: Phiến gạch đá bảng sâu
+  deepslate_tile_slab: Phiến đá lát bảng sâu
   scaffolding: Giàn giáo
+  redstone: Bột Redstone
+  redstone_torch: Đuốc Redstone
+  redstone_block: Khối Redstone
+  repeater: Bộ lặp Redstone
+  comparator: Mạch so sánh Redstone
+  piston: Pít-tông
+  sticky_piston: Pít-tông dính
+  slime_block: Khối chất nhờn
+  honey_block: Khối mật ong
+  observer: Khối theo dõi
+  hopper: Cái phễu
+  dispenser: Máy phân phát
+  dropper: Máy thả
+  lectern: Bục để sách
+  target: Bia bắn
+  lever: Cần gạt
+  lightning_rod: Cột thu lôi
+  daylight_detector: Máy dò ánh sáng
+  sculk_sensor: Cảm biến Sculk
+  tripwire_hook: Móc dây bẫy
+  trapped_chest: Rương bị kẹt
+  tnt: TNT
+  redstone_lamp: Đèn Redstone
+  note_block: Khối nốt nhạc
+  stone_button: Nút đá
+  polished_blackstone_button: Nút đá đen được đánh bóng
+  oak_button: Nút gỗ sồi
+  spruce_button: Nút gỗ vân sam
+  birch_button: Nút gỗ bạch dương
+  jungle_button: Nút gỗ rừng
+  acacia_button: Nút gỗ xiêm gai
+  dark_oak_button: Nút gỗ sồi sẫm
+  crimson_button: Nút đỏ thẫm
+  warped_button: Nút kì dị
+  stone_pressure_plate: Đĩa cảm biến áp lực bằng đá
+  polished_blackstone_pressure_plate: Đĩa cảm biến áp lực đá đen được đánh bóng
+  light_weighted_pressure_plate: Đĩa cảm biến áp lực nhẹ
+  heavy_weighted_pressure_plate: Đĩa cảm biến áp lực nặng
+  oak_pressure_plate: Đĩa cảm biến áp lực gỗ sồi
+  spruce_pressure_plate: Đĩa cảm biến áp lực gỗ vân sam
+  birch_pressure_plate: Đĩa cảm biến áp lực gỗ bạch dương
+  jungle_pressure_plate: Đĩa cảm biến áp lực gỗ rừng
+  acacia_pressure_plate: Đĩa cảm biến áp lực gỗ xiêm gai
+  dark_oak_pressure_plate: Đĩa cảm biến áp lực gỗ sồi sẫm
+  crimson_pressure_plate: Đĩa cảm biến áp lực đỏ thẫm
+  warped_pressure_plate: Đĩa cảm biến áp lực kì dị
   iron_door: Cửa sắt
   oak_door: Cửa gỗ sồi
   spruce_door: Cửa gỗ vân sam
@@ -572,8 +646,42 @@ material:
   dark_oak_door: Cửa gỗ sồi sẫm
   crimson_door: Cửa đỏ thẫm
   warped_door: Cửa kì dị
-  repeater: Bộ lặp Redstone
-  comparator: Mạch so sánh Redstone
+  iron_trapdoor: Cửa sập sắt
+  oak_trapdoor: Cửa sập gỗ sồi
+  spruce_trapdoor: Cửa sập gỗ vân sam
+  birch_trapdoor: Cửa sập gỗ bạch dương
+  jungle_trapdoor: Cửa sập gỗ rừng
+  acacia_trapdoor: Cửa sập gỗ xiêm gai
+  dark_oak_trapdoor: Cửa sập gỗ sồi sẫm
+  crimson_trapdoor: Cửa sập đỏ thẫm
+  warped_trapdoor: Cửa sập kì dị
+  oak_fence_gate: Cổng rào gỗ sồi
+  spruce_fence_gate: Cổng rào gỗ vân sam
+  birch_fence_gate: Cổng rào gỗ bạch dương
+  jungle_fence_gate: Cổng rào gỗ rừng
+  acacia_fence_gate: Cổng rào gỗ xiêm gai
+  dark_oak_fence_gate: Cổng rào gỗ sồi sẫm
+  crimson_fence_gate: Cổng rào đỏ thẫm
+  warped_fence_gate: Cổng rào kì dị
+  powered_rail: Đường ray tăng tốc
+  detector_rail: Đường ray cảm biến
+  rail: Đường ray
+  activator_rail: Đường ray kích hoạt
+  saddle: Yên cưỡi
+  minecart: Xe mỏ
+  chest_minecart: Xe mỏ có rương
+  furnace_minecart: Xe mỏ có lò nung
+  tnt_minecart: Xe mỏ có TNT
+  hopper_minecart: Xe mỏ có phễu
+  carrot_on_a_stick: Cần câu gắn cà rốt
+  warped_fungus_on_a_stick: Cần câu gắn nấm kì dị
+  elytra: Cánh cứng
+  oak_boat: Thuyền gỗ sồi
+  spruce_boat: Thuyền gỗ van sâm
+  birch_boat: Thuyền gỗ bạch dương
+  jungle_boat: Thuyền gỗ rừng
+  acacia_boat: Thuyền gỗ xiêm gai
+  dark_oak_boat: Thuyền gỗ sồi sẫm
   structure_block: Khối cấu trúc
   jigsaw: Khối mảnh ghép
   turtle_helmet: Mai rùa
@@ -585,7 +693,15 @@ material:
   coal: Than
   charcoal: Than gỗ
   diamond: Kim cương
+  emerald: Ngọc lục bảo
+  lapis_lazuli: Ngọc lưu ly
+  quartz: Thạch anh Nether
+  amethyst_shard: Mảnh thạch anh tím
+  raw_iron: Sắt thô
   iron_ingot: Phôi sắt
+  raw_copper: Đồng thô
+  copper_ingot: Phôi đồng
+  raw_gold: Vàng thô
   gold_ingot: Phôi vàng
   netherite_ingot: Phôi Netherit
   netherite_scrap: Vụn Netherit
@@ -669,29 +785,27 @@ material:
   bucket: Xô
   water_bucket: Xô nước
   lava_bucket: Xô dung nham
-  minecart: Xe mỏ
-  saddle: Yên cưỡi
-  redstone: Bột Redstone
+  powder_snow_bucket: Xô bột tuyết
   snowball: Bóng tuyết
-  oak_boat: Thuyền gỗ sồi
   leather: Da thuộc
   milk_bucket: Xô sữa
   pufferfish_bucket: Xô cá nóc
   salmon_bucket: Xô cá hồi
   cod_bucket: Xô cá tuyết
   tropical_fish_bucket: Xô cá nhiệt đới
+  axolotl_bucket: Xô kì giông
   brick: Viên gạch
   clay_ball: Quả cầu đất sét
   dried_kelp_block: Khối tảo bẹ khô
   paper: Giấy
   book: Quyển sách
   slime_ball: Bóng nhờn
-  chest_minecart: Xe mỏ có rương
-  furnace_minecart: Xe mỏ có lò nung
   egg: Trứng
   compass: La bàn
+  bundle: Túi bọc
   fishing_rod: Cần câu cá
   clock: Đồng hồ
+  spyglass: Ống nhòm
   glowstone_dust: Bột đá phát sáng
   cod: Cá tuyết sống
   salmon: Cá hồi sống
@@ -700,8 +814,8 @@ material:
   cooked_cod: Cá tuyết chín
   cooked_salmon: Cá hồi chín
   ink_sac: Túi mực
+  glow_ink_sac: Túi mực phát sáng
   cocoa_beans: Hạt ca cao
-  lapis_lazuli: Ngọc lưu ly
   white_dye: Bột nhuộm trắng
   orange_dye: Bột nhuộm cam
   magenta_dye: Bột nhuộm đỏ sậm
@@ -765,6 +879,7 @@ material:
   cauldron: Vạc
   ender_eye: Mắt của Ender
   glistering_melon_slice: Lát cắt dưa hấu lấp lánh
+  axolotl_spawn_egg: Trứng sinh ra Kì giông
   bat_spawn_egg: Trứng sinh ra Con dơi
   bee_spawn_egg: Trứng sinh ra Con ong
   blaze_spawn_egg: Trứng sinh ra Quỷ lửa
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: Trứng sinh ra Kẻ chiêu hồn
   fox_spawn_egg: Trứng sinh ra Con cáo
   ghast_spawn_egg: Trứng sinh ra Ghast
+  glow_squid_spawn_egg: Trứng sinh ra Mực phát sáng
+  goat_spawn_egg: Trứng sinh ra Con dê
   guardian_spawn_egg: Trứng sinh ra Giám hộ
   hoglin_spawn_egg: Trứng sinh ra Hoglin
   horse_spawn_egg: Trứng sinh ra Con ngựa
@@ -833,8 +950,8 @@ material:
   fire_charge: Cầu lửa
   writable_book: Sách và bút lông
   written_book: Sách được viết
-  emerald: Ngọc lục bảo
   item_frame: Khung vật phẩm
+  glow_item_frame: Khung vật phẩm phát sáng
   flower_pot: Chậu hoa
   carrot: Cà rốt
   potato: Khoai tây
@@ -848,17 +965,12 @@ material:
   zombie_head: Đầu thây ma
   creeper_head: Đầu Creeper
   dragon_head: Đầu rồng
-  carrot_on_a_stick: Cần câu gắn cà rốt
-  warped_fungus_on_a_stick: Cần câu gắn nấm kì dị
   nether_star: Sao Nether
   pumpkin_pie: Bánh bí ngô
   firework_rocket: Pháo hoa
   firework_star: Bông pháo hoa
   enchanted_book: Sách được phù phép
   nether_brick: Gạch Nether
-  quartz: Thạch anh Nether
-  tnt_minecart: Xe mỏ có TNT
-  hopper_minecart: Xe mỏ có phễu
   prismarine_shard: Mảnh lăng trụ biển
   prismarine_crystals: Tinh thể lăng trụ biển
   rabbit: Thịt thỏ sống
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: Mũi tên tẩm thuốc
   lingering_potion: Thuốc kéo dài
   shield: Khiên
-  elytra: Cánh cứng
-  spruce_boat: Thuyền gỗ van sâm
-  birch_boat: Thuyền gỗ bạch dương
-  jungle_boat: Thuyền gỗ rừng
-  acacia_boat: Thuyền gỗ xiêm gai
-  dark_oak_boat: Thuyền gỗ sồi sẫm
   totem_of_undying: Vật tổ trường sinh
   shulker_shell: Vỏ Shulker
   iron_nugget: Hạt sắt
@@ -948,13 +1054,13 @@ material:
   cartography_table: Bàn vẽ bản đồ
   fletching_table: Bàn làm cung tên
   grindstone: Đá mài
-  lectern: Bục để sách
   smithing_table: Bàn rèn
   stonecutter: Máy cắt đá
   bell: Chuông
   lantern: Đèn lồng
   soul_lantern: Đèn linh hồn
   sweet_berries: Quả mọng ngọt
+  glow_berries: Quả mọng phát sáng
   campfire: Lửa trại
   soul_campfire: Lửa trại linh hồn
   shroomlight: Đèn nấm
@@ -962,12 +1068,8 @@ material:
   bee_nest: Tổ ong tự nhiên
   beehive: Tổ ong nhân tạo
   honey_bottle: Chai mật ong
-  honey_block: Khối mật ong
   honeycomb_block: Khối sáp ong
   lodestone: Đá nam châm
-  netherite_block: Khối Netherit
-  ancient_debris: Mảnh vỡ cổ đại
-  target: Bia bắn
   crying_obsidian: Hắc diện thạch khóc
   blackstone: Đá đen
   blackstone_slab: Phiến đá đen
@@ -982,6 +1084,28 @@ material:
   polished_blackstone_brick_stairs: Cầu thang gạch đá đen được đánh bóng
   cracked_polished_blackstone_bricks: Gạch đá đen được đánh bóng nứt
   respawn_anchor: Neo hồi sinh
+  candle: Nến
+  white_candle: Nến trắng
+  orange_candle: Nến cam
+  magenta_candle: Nến đỏ sậm
+  light_blue_candle: Nến xanh nước biển nhạt
+  yellow_candle: Nến vàng
+  lime_candle: Nến xanh lá mạ
+  pink_candle: Nến hồng
+  gray_candle: Nến xám
+  light_gray_candle: Nến xám nhạt
+  cyan_candle: Nến lục lam
+  purple_candle: Nến tím
+  blue_candle: Nến xanh nước biển
+  brown_candle: Nến nâu
+  green_candle: Nến xanh lá cây
+  red_candle: Nến đỏ
+  black_candle: Nến đen
+  small_amethyst_bud: Chồi thạch anh tím nhỏ
+  medium_amethyst_bud: Chồi thạch anh tím trung bình
+  large_amethyst_bud: Chồi thạch anh tím lớn
+  amethyst_cluster: Cụm thạch anh tím
+  pointed_dripstone: Khối thạch nhũ nhọn
   water: Nước
   lava: Dung nham
   tall_seagrass: Cỏ biển cao
@@ -1004,6 +1128,9 @@ material:
   attached_melon_stem: Cuống dưa hấu được gắn
   pumpkin_stem: Cuống bí ngô
   melon_stem: Cuống dưa hấu
+  water_cauldron: Vạc nước
+  lava_cauldron: Vạc dung nham
+  powder_snow_cauldron: Vạc bột tuyết
   end_portal: Cổng End
   cocoa: Ca cao
   tripwire: Dây bẫy
@@ -1083,6 +1210,30 @@ material:
   potted_warped_fungus: Chậu nấm kì dị
   potted_crimson_roots: Chậu rễ đỏ thẫm
   potted_warped_roots: Chậu rễ kì dị
+  candle_cake: Bánh ngọt có nến
+  white_candle_cake: Bánh ngọt có nến trắng
+  orange_candle_cake: Bánh ngọt có nến cam
+  magenta_candle_cake: Bánh ngọt có nến đỏ sậm
+  light_blue_candle_cake: Bánh ngọt có nến xanh nước biển nhạt
+  yellow_candle_cake: Bánh ngọt có nến vàng
+  lime_candle_cake: Bánh ngọt có nến xanh lá mạ
+  pink_candle_cake: Bánh ngọt có nến hồng
+  gray_candle_cake: Bánh ngọt có nến xám
+  light_gray_candle_cake: Bánh ngọt có nến xám nhạt
+  cyan_candle_cake: Bánh ngọt có nến lục lam
+  purple_candle_cake: Bánh ngọt có nến tím
+  blue_candle_cake: Bánh ngọt có nến xanh nước biển
+  brown_candle_cake: Bánh ngọt có nến nâu
+  green_candle_cake: Bánh ngọt có nến xanh lá cây
+  red_candle_cake: Bánh ngọt có nến đỏ
+  black_candle_cake: Bánh ngọt có nến đen
+  powder_snow: Bột tuyết
+  cave_vines: Dây leo hang động
+  cave_vines_plant: Cây dây leo hang động
+  big_dripleaf_stem: Cuống lá nhỏ giọt lớn
+  potted_azalea_bush: Chậu đỗ quyên
+  potted_flowering_azalea_bush: Chậu đỗ quyên có hoa
+  grass_path: Đường đi trên cỏ
   zombie_pigman_spawn_egg: Trứng sinh ra Người lợn thây ma
   cactus_green: Bột nhuộm xanh lá cây
   dandelion_yellow: Bột nhuộm vàng
@@ -1169,46 +1320,48 @@ biome:
   crimson_forest: Rừng đỏ thẫm
   warped_forest: Rừng kì dị
   basalt_deltas: Châu thổ đá bazan
+  dripstone_caves: Hang động thạch nhũ
+  lush_caves: Hang động tươi tốt
   nether: Nether
 enchantment:
-  fire_protection: Bảo vệ khỏi lửa
-  sharpness: Sắc bén
-  flame: Lửa
-  soul_speed: Tốc độ linh hồn
-  aqua_affinity: Đào nhanh dưới nước
-  punch: Bật lùi
-  loyalty: Lòng trung thành
-  depth_strider: Sải bước dưới nước
-  vanishing_curse: Lời nguyền biến mất
-  unbreaking: Chậm hỏng
-  knockback: Đánh bật lùi
-  luck_of_the_sea: May mắn
-  binding_curse: Lời nguyền ràng buộc
-  fortune: Gia tài
   protection: Bảo vệ
-  efficiency: Hiệu suất
-  mending: Sửa chữa
-  frost_walker: Chân lạnh
-  lure: Nhử
-  looting: Nhặt
-  piercing: Xuyên thủng
-  blast_protection: Bảo vệ khỏi vụ nổ
-  smite: Hại thây ma
-  multishot: Mưa tên
-  fire_aspect: Gây cháy
-  channeling: Chớp điện
-  sweeping: Quét cạnh
-  thorns: Gai
-  bane_of_arthropods: Hại loài chân đốt
-  respiration: Hô hấp
-  riptide: Sóng dữ
-  silk_touch: Độ mềm mại
-  quick_charge: Nạp nhanh
-  projectile_protection: Bảo vệ khỏi vật bắn ra
-  impaling: Xiên vào da thịt
+  fire_protection: Bảo vệ khỏi lửa
   feather_falling: Bảo vệ khỏi sát thương khi rơi
+  blast_protection: Bảo vệ khỏi vụ nổ
+  projectile_protection: Bảo vệ khỏi vật bắn ra
+  respiration: Hô hấp
+  aqua_affinity: Đào nhanh dưới nước
+  thorns: Gai
+  depth_strider: Sải bước dưới nước
+  frost_walker: Chân lạnh
+  binding_curse: Lời nguyền ràng buộc
+  sharpness: Sắc bén
+  smite: Hại thây ma
+  bane_of_arthropods: Hại loài chân đốt
+  knockback: Đánh bật lùi
+  fire_aspect: Gây cháy
+  looting: Nhặt
+  sweeping: Quét cạnh
+  efficiency: Hiệu suất
+  silk_touch: Độ mềm mại
+  unbreaking: Chậm hỏng
+  fortune: Gia tài
   power: Sức mạnh
+  punch: Bật lùi
+  flame: Lửa
   infinity: Vô hạn
+  luck_of_the_sea: May mắn
+  lure: Nhử
+  loyalty: Lòng trung thành
+  impaling: Xiên vào da thịt
+  riptide: Sóng dữ
+  channeling: Chớp điện
+  multishot: Mưa tên
+  quick_charge: Nạp nhanh
+  piercing: Xuyên thủng
+  mending: Sửa chữa
+  vanishing_curse: Lời nguyền biến mất
+  soul_speed: Tốc độ linh hồn
 potion:
   uncraftable: Thuốc không tạo ra được
   water: Chai nước
@@ -1403,6 +1556,11 @@ entity:
   strider: Kẻ sải bước
   zoglin: Zoglin
   piglin_brute: Piglin hung bạo
+  axolotl: Kì giông
+  glow_item_frame: Khung vật phẩm phát sáng
+  glow_squid: Mực phát sáng
+  goat: Con dê
+  marker: Vật đánh dấu
   fishing_hook: Phao câu cá
   lightning: Tia sét
   player: Người chơi
@@ -2202,17 +2360,3 @@ villager_profession:
   shepherd: Người chăn cừu
   toolsmith: Thợ công cụ
   weaponsmith: Thợ vũ khí
-villager_career:
-  farmer: Nông dân
-  fisherman: Ngư dân
-  shepherd: Người chăn cừu
-  fletcher: Người làm cung tên
-  librarian: Thủ thư
-  cartographer: Người vẽ bản đồ
-  cleric: Linh mục
-  armorer: Thợ làm giáp
-  weapon_smith: Thợ vũ khí
-  tool_smith: Thợ công cụ
-  butcher: Người giết mổ
-  leatherworker: Thợ làm đồ da
-  nitwit: Thằng đần

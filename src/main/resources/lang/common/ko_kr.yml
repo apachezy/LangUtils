@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:48                    #
+# Build time: 2021-07-04 21:46:03                    #
 # ####################################################
 language:
   code: ko_kr
@@ -14,10 +14,17 @@ material:
   polished_diorite: 윤나는 섬록암
   andesite: 안산암
   polished_andesite: 윤나는 안산암
+  deepslate: 심층암
+  cobbled_deepslate: 심층암 조약돌
+  polished_deepslate: 윤나는 심층암
+  calcite: 방해석
+  tuff: 응회암
+  dripstone_block: 점적석 블록
   grass_block: 잔디 블록
   dirt: 흙
   coarse_dirt: 거친 흙
   podzol: 회백토
+  rooted_dirt: 뿌리내린 흙
   crimson_nylium: 진홍빛 네사체
   warped_nylium: 뒤틀린 네사체
   cobblestone: 조약돌
@@ -39,14 +46,71 @@ material:
   sand: 모래
   red_sand: 붉은 모래
   gravel: 자갈
-  gold_ore: 금광석
-  iron_ore: 철광석
   coal_ore: 석탄 광석
-  nether_gold_ore: 네더 금광석
+  deepslate_coal_ore: 심층암 석탄 광석
+  iron_ore: 철 광석
+  deepslate_iron_ore: 심층암 철 광석
+  copper_ore: 구리 광석
+  deepslate_copper_ore: 심층암 구리 광석
+  gold_ore: 금 광석
+  deepslate_gold_ore: 심층암 금 광석
+  redstone_ore: 레드스톤 광석
+  deepslate_redstone_ore: 심층암 레드스톤 광석
+  emerald_ore: 에메랄드 광석
+  deepslate_emerald_ore: 심층암 에메랄드 광석
+  lapis_ore: 청금석 광석
+  deepslate_lapis_ore: 심층암 청금석 광석
+  diamond_ore: 다이아몬드 광석
+  deepslate_diamond_ore: 심층암 다이아몬드 광석
+  nether_gold_ore: 네더 금 광석
+  nether_quartz_ore: 네더 석영 광석
+  ancient_debris: 고대 잔해
+  coal_block: 석탄 블록
+  raw_iron_block: 철 원석 블록
+  raw_copper_block: 구리 원석 블록
+  raw_gold_block: 금 원석 블록
+  amethyst_block: 자수정 블록
+  budding_amethyst: 싹 틔우는 자수정
+  iron_block: 철 블록
+  copper_block: 구리 블록
+  gold_block: 금 블록
+  diamond_block: 다이아몬드 블록
+  netherite_block: 네더라이트 블록
+  exposed_copper: 약간 녹슨 구리
+  weathered_copper: 녹슨 구리
+  oxidized_copper: 산화된 구리
+  cut_copper: 깎인 구리
+  exposed_cut_copper: 약간 녹슨 깎인 구리
+  weathered_cut_copper: 녹슨 깎인 구리
+  oxidized_cut_copper: 산화된 깎인 구리
+  cut_copper_stairs: 깎인 구리 계단
+  exposed_cut_copper_stairs: 약간 녹슨 깎인 구리 계단
+  weathered_cut_copper_stairs: 녹슨 깎인 구리 계단
+  oxidized_cut_copper_stairs: 산화된 깎인 구리 계단
+  cut_copper_slab: 깎인 구리 반 블록
+  exposed_cut_copper_slab: 약간 녹슨 깎인 구리 반 블록
+  weathered_cut_copper_slab: 녹슨 깎인 구리 반 블록
+  oxidized_cut_copper_slab: 산화된 깎인 구리 반 블록
+  waxed_copper_block: 밀랍칠한 구리 블록
+  waxed_exposed_copper: 밀랍칠한 약간 녹슨 구리
+  waxed_weathered_copper: 밀랍칠한 녹슨 구리
+  waxed_oxidized_copper: 밀랍칠한 산화된 구리
+  waxed_cut_copper: 밀랍칠한 깎인 구리
+  waxed_exposed_cut_copper: 밀랍칠한 약간 녹슨 깎인 구리
+  waxed_weathered_cut_copper: 밀랍칠한 녹슨 깎인 구리
+  waxed_oxidized_cut_copper: 밀랍칠한 산화된 깎인 구리
+  waxed_cut_copper_stairs: 밀랍칠한 깎인 구리 계단
+  waxed_exposed_cut_copper_stairs: 밀랍칠한 약간 녹슨 깎인 구리 계단
+  waxed_weathered_cut_copper_stairs: 밀랍칠한 녹슨 깎인 구리 계단
+  waxed_oxidized_cut_copper_stairs: 밀랍칠한 산화된 깎인 구리 계단
+  waxed_cut_copper_slab: 밀랍칠한 깎인 구리 반 블록
+  waxed_exposed_cut_copper_slab: 밀랍칠한 약간 녹슨 깎인 구리 반 블록
+  waxed_weathered_cut_copper_slab: 밀랍칠한 녹슨 깎인 구리 반 블록
+  waxed_oxidized_cut_copper_slab: 밀랍칠한 산화된 깎인 구리 반 블록
   oak_log: 참나무 원목
   spruce_log: 가문비나무 원목
   birch_log: 자작나무 원목
-  jungle_log: 정글나무 원목
+  jungle_log: 정글 나무 원목
   acacia_log: 아카시아나무 원목
   dark_oak_log: 짙은 참나무 원목
   crimson_stem: 진홍빛 자루
@@ -81,26 +145,24 @@ material:
   jungle_leaves: 정글 나무 잎
   acacia_leaves: 아카시아나무 잎
   dark_oak_leaves: 짙은 참나무 잎
+  azalea_leaves: 진달래 잎
+  flowering_azalea_leaves: 꽃 핀 진달래 잎
   sponge: 스펀지
   wet_sponge: 젖은 스펀지
   glass: 유리
-  lapis_ore: 청금석 원석
+  tinted_glass: 차광 유리
   lapis_block: 청금석 블록
-  dispenser: 발사기
   sandstone: 사암
   chiseled_sandstone: 조각된 사암
   cut_sandstone: 깎인 사암
-  note_block: 소리 블록
-  powered_rail: 전동 레일
-  detector_rail: 탐지 레일
-  sticky_piston: 끈끈이 피스톤
   cobweb: 거미줄
   grass: 잔디
   fern: 고사리
+  azalea: 진달래
+  flowering_azalea: 꽃 핀 진달래
   dead_bush: 마른 덤불
   seagrass: 해초
   sea_pickle: 불우렁쉥이
-  piston: 피스톤
   white_wool: 하얀색 양털
   orange_wool: 주황색 양털
   magenta_wool: 자홍색 양털
@@ -130,6 +192,7 @@ material:
   cornflower: 수레국화
   lily_of_the_valley: 은방울꽃
   wither_rose: 위더 장미
+  spore_blossom: 포자 꽃
   brown_mushroom: 갈색 버섯
   red_mushroom: 빨간색 버섯
   crimson_fungus: 진홍빛 균
@@ -141,9 +204,12 @@ material:
   twisting_vines: 휘어진 덩굴
   sugar_cane: 사탕수수
   kelp: 켈프
+  moss_carpet: 이끼 바닥
+  moss_block: 이끼 블록
+  hanging_roots: 매달린 뿌리
+  big_dripleaf: 큰 흘림잎
+  small_dripleaf: 작은 흘림잎
   bamboo: 대나무
-  gold_block: 황금 블록
-  iron_block: 철 블록
   oak_slab: 참나무 반 블록
   spruce_slab: 가문비나무 반 블록
   birch_slab: 자작나무 반 블록
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: 매끄러운 사암
   smooth_stone: 매끄러운 돌
   bricks: 벽돌
-  tnt: TNT
   bookshelf: 책장
   mossy_cobblestone: 이끼 낀 조약돌
   obsidian: 흑요석
@@ -187,27 +252,11 @@ material:
   spawner: 생성기
   oak_stairs: 참나무 계단
   chest: 상자
-  diamond_ore: 다이아몬드 원석
-  diamond_block: 다이아몬드 블록
   crafting_table: 제작대
   farmland: 경작지
   furnace: 화로
   ladder: 사다리
-  rail: 레일
   cobblestone_stairs: 조약돌 계단
-  lever: 레버
-  stone_pressure_plate: 돌 압력판
-  oak_pressure_plate: 참나무 압력판
-  spruce_pressure_plate: 가문비나무 압력판
-  birch_pressure_plate: 자작나무 압력판
-  jungle_pressure_plate: 정글 나무 압력판
-  acacia_pressure_plate: 아카시아나무 압력판
-  dark_oak_pressure_plate: 짙은 참나무 압력판
-  crimson_pressure_plate: 진홍빛 압력판
-  warped_pressure_plate: 뒤틀린 압력판
-  polished_blackstone_pressure_plate: 윤나는 흑암 압력판
-  redstone_ore: 레드스톤 광석
-  redstone_torch: 레드스톤 횃불
   snow: 눈
   ice: 얼음
   snow_block: 눈 블록
@@ -224,32 +273,31 @@ material:
   warped_fence: 뒤틀린 울타리
   pumpkin: 호박
   carved_pumpkin: 조각된 호박
+  jack_o_lantern: 잭오랜턴
   netherrack: 네더랙
   soul_sand: 영혼 모래
   soul_soil: 영혼 흙
   basalt: 현무암
   polished_basalt: 윤나는 현무암
+  smooth_basalt: 매끄러운 현무암
   soul_torch: 영혼 횃불
   glowstone: 발광석
-  jack_o_lantern: 잭오랜턴
-  oak_trapdoor: 참나무 다락문
-  spruce_trapdoor: 가문비나무 다락문
-  birch_trapdoor: 자작나무 다락문
-  jungle_trapdoor: 정글 나무 다락문
-  acacia_trapdoor: 아카시아나무 다락문
-  dark_oak_trapdoor: 짙은 참나무 다락문
-  crimson_trapdoor: 진홍빛 다락문
-  warped_trapdoor: 뒤틀린 다락문
   infested_stone: 벌레 먹은 돌
   infested_cobblestone: 벌레 먹은 조약돌
   infested_stone_bricks: 벌레 먹은 석재 벽돌
   infested_mossy_stone_bricks: 벌레 먹은 이끼 낀 석재 벽돌
   infested_cracked_stone_bricks: 벌레 먹은 금 간 석재 벽돌
   infested_chiseled_stone_bricks: 벌레 먹은 조각된 석재 벽돌
+  infested_deepslate: 벌레 먹은 심층암
   stone_bricks: 석재 벽돌
   mossy_stone_bricks: 이끼 낀 석재 벽돌
   cracked_stone_bricks: 금 간 석재 벽돌
   chiseled_stone_bricks: 조각된 석재 벽돌
+  deepslate_bricks: 심층암 벽돌
+  cracked_deepslate_bricks: 금 간 심층암 벽돌
+  deepslate_tiles: 심층암 타일
+  cracked_deepslate_tiles: 금 간 심층암 타일
+  chiseled_deepslate: 조각된 심층암
   brown_mushroom_block: 갈색 버섯 블록
   red_mushroom_block: 빨간색 버섯 블록
   mushroom_stem: 버섯 자루
@@ -258,14 +306,7 @@ material:
   glass_pane: 유리판
   melon: 수박
   vine: 덩굴
-  oak_fence_gate: 참나무 울타리 문
-  spruce_fence_gate: 가문비나무 울타리 문
-  birch_fence_gate: 자작나무 울타리 문
-  jungle_fence_gate: 정글 나무 울타리 문
-  acacia_fence_gate: 아카시아나무 울타리 문
-  dark_oak_fence_gate: 짙은 참나무 울타리 문
-  crimson_fence_gate: 진홍빛 울타리 문
-  warped_fence_gate: 뒤틀린 울타리 문
+  glow_lichen: 발광 이끼
   brick_stairs: 벽돌 계단
   stone_brick_stairs: 석재 벽돌 계단
   mycelium: 균사체
@@ -280,11 +321,8 @@ material:
   end_stone: 엔드 돌
   end_stone_bricks: 엔드 석재 벽돌
   dragon_egg: 드래곤 알
-  redstone_lamp: 레드스톤 조명
   sandstone_stairs: 사암 계단
-  emerald_ore: 에메랄드 원석
   ender_chest: 엔더 상자
-  tripwire_hook: 철사 덫 갈고리
   emerald_block: 에메랄드 블록
   spruce_stairs: 가문비나무 계단
   birch_stairs: 자작나무 계단
@@ -310,33 +348,18 @@ material:
   blackstone_wall: 흑암 담장
   polished_blackstone_wall: 윤나는 흑암 담장
   polished_blackstone_brick_wall: 윤나는 흑암 벽돌 담장
-  stone_button: 돌 버튼
-  oak_button: 참나무 버튼
-  spruce_button: 가문비나무 버튼
-  birch_button: 자작나무 버튼
-  jungle_button: 정글 나무 버튼
-  acacia_button: 아카시아나무 버튼
-  dark_oak_button: 짙은 참나무 버튼
-  crimson_button: 진홍빛 버튼
-  warped_button: 뒤틀린 버튼
-  polished_blackstone_button: 윤나는 흑암 버튼
+  cobbled_deepslate_wall: 심층암 조약돌 담장
+  polished_deepslate_wall: 윤나는 심층암 담장
+  deepslate_brick_wall: 심층암 벽돌 담장
+  deepslate_tile_wall: 심층암 타일 담장
   anvil: 모루
   chipped_anvil: 금 간 모루
   damaged_anvil: 손상된 모루
-  trapped_chest: 덫 상자
-  light_weighted_pressure_plate: 경형 무게 압력판
-  heavy_weighted_pressure_plate: 중형 무게 압력판
-  daylight_detector: 햇빛 감지기
-  redstone_block: 레드스톤 블록
-  nether_quartz_ore: 네더 석영 원석
-  hopper: 호퍼
   chiseled_quartz_block: 조각된 석영 블록
   quartz_block: 석영 블록
   quartz_bricks: 석영 벽돌
   quartz_pillar: 석영 기둥
   quartz_stairs: 석영 계단
-  activator_rail: 활성화 레일
-  dropper: 공급기
   white_terracotta: 하얀색 테라코타
   orange_terracotta: 주황색 테라코타
   magenta_terracotta: 자홍색 테라코타
@@ -354,7 +377,7 @@ material:
   red_terracotta: 빨간색 테라코타
   black_terracotta: 검은색 테라코타
   barrier: 방벽
-  iron_trapdoor: 철 다락문
+  light: 빛
   hay_block: 건초 더미
   white_carpet: 하얀색 양탄자
   orange_carpet: 주황색 양탄자
@@ -373,12 +396,10 @@ material:
   red_carpet: 빨간색 양탄자
   black_carpet: 검은색 양탄자
   terracotta: 테라코타
-  coal_block: 석탄 블록
   packed_ice: 꽁꽁 언 얼음
   acacia_stairs: 아카시아나무 계단
   dark_oak_stairs: 짙은 참나무 계단
-  slime_block: 슬라임 블록
-  grass_path: 잔디 길
+  dirt_path: 흙 길
   sunflower: 해바라기
   lilac: 라일락
   rose_bush: 장미 덤불
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: 붉은 네더 벽돌
   bone_block: 뼈 블록
   structure_void: 구조물 공허 공간
-  observer: 관측기
   shulker_box: 셜커 상자
   white_shulker_box: 하얀색 셜커 상자
   orange_shulker_box: 주황색 셜커 상자
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: 붉은 네더 벽돌 계단
   polished_andesite_stairs: 윤나는 안산암 계단
   diorite_stairs: 섬록암 계단
+  cobbled_deepslate_stairs: 심층암 조약돌 계단
+  polished_deepslate_stairs: 윤나는 심층암 계단
+  deepslate_brick_stairs: 심층암 벽돌 계단
+  deepslate_tile_stairs: 심층암 타일 계단
   polished_granite_slab: 윤나는 화강암 반 블록
   smooth_red_sandstone_slab: 매끄러운 붉은 사암 반 블록
   mossy_stone_brick_slab: 이끼 낀 석재 벽돌 반 블록
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: 붉은 네더 벽돌 반 블록
   polished_andesite_slab: 윤나는 안산암 반 블록
   diorite_slab: 섬록암 반 블록
+  cobbled_deepslate_slab: 심층암 조약돌 반 블록
+  polished_deepslate_slab: 윤나는 심층암 반 블록
+  deepslate_brick_slab: 심층암 벽돌 반 블록
+  deepslate_tile_slab: 심층암 타일 반 블록
   scaffolding: 비계
+  redstone: 레드스톤 가루
+  redstone_torch: 레드스톤 횃불
+  redstone_block: 레드스톤 블록
+  repeater: 레드스톤 중계기
+  comparator: 레드스톤 비교기
+  piston: 피스톤
+  sticky_piston: 끈끈이 피스톤
+  slime_block: 슬라임 블록
+  honey_block: 꿀 블록
+  observer: 관측기
+  hopper: 호퍼
+  dispenser: 발사기
+  dropper: 공급기
+  lectern: 독서대
+  target: 과녁
+  lever: 레버
+  lightning_rod: 피뢰침
+  daylight_detector: 햇빛 감지기
+  sculk_sensor: 스컬크 감지기
+  tripwire_hook: 철사 덫 갈고리
+  trapped_chest: 덫 상자
+  tnt: TNT
+  redstone_lamp: 레드스톤 조명
+  note_block: 소리 블록
+  stone_button: 돌 버튼
+  polished_blackstone_button: 윤나는 흑암 버튼
+  oak_button: 참나무 버튼
+  spruce_button: 가문비나무 버튼
+  birch_button: 자작나무 버튼
+  jungle_button: 정글 나무 버튼
+  acacia_button: 아카시아나무 버튼
+  dark_oak_button: 짙은 참나무 버튼
+  crimson_button: 진홍빛 버튼
+  warped_button: 뒤틀린 버튼
+  stone_pressure_plate: 돌 압력판
+  polished_blackstone_pressure_plate: 윤나는 흑암 압력판
+  light_weighted_pressure_plate: 경형 무게 압력판
+  heavy_weighted_pressure_plate: 중형 무게 압력판
+  oak_pressure_plate: 참나무 압력판
+  spruce_pressure_plate: 가문비나무 압력판
+  birch_pressure_plate: 자작나무 압력판
+  jungle_pressure_plate: 정글 나무 압력판
+  acacia_pressure_plate: 아카시아나무 압력판
+  dark_oak_pressure_plate: 짙은 참나무 압력판
+  crimson_pressure_plate: 진홍빛 압력판
+  warped_pressure_plate: 뒤틀린 압력판
   iron_door: 철문
   oak_door: 참나무 문
   spruce_door: 가문비나무 문
@@ -572,8 +646,42 @@ material:
   dark_oak_door: 짙은 참나무 문
   crimson_door: 진홍빛 문
   warped_door: 뒤틀린 문
-  repeater: 레드스톤 중계기
-  comparator: 레드스톤 비교기
+  iron_trapdoor: 철 다락문
+  oak_trapdoor: 참나무 다락문
+  spruce_trapdoor: 가문비나무 다락문
+  birch_trapdoor: 자작나무 다락문
+  jungle_trapdoor: 정글 나무 다락문
+  acacia_trapdoor: 아카시아나무 다락문
+  dark_oak_trapdoor: 짙은 참나무 다락문
+  crimson_trapdoor: 진홍빛 다락문
+  warped_trapdoor: 뒤틀린 다락문
+  oak_fence_gate: 참나무 울타리 문
+  spruce_fence_gate: 가문비나무 울타리 문
+  birch_fence_gate: 자작나무 울타리 문
+  jungle_fence_gate: 정글 나무 울타리 문
+  acacia_fence_gate: 아카시아나무 울타리 문
+  dark_oak_fence_gate: 짙은 참나무 울타리 문
+  crimson_fence_gate: 진홍빛 울타리 문
+  warped_fence_gate: 뒤틀린 울타리 문
+  powered_rail: 전동 레일
+  detector_rail: 감지 레일
+  rail: 레일
+  activator_rail: 활성화 레일
+  saddle: 안장
+  minecart: 광산 수레
+  chest_minecart: 상자가 실린 광산 수레
+  furnace_minecart: 화로가 실린 광산 수레
+  tnt_minecart: TNT가 실린 광산 수레
+  hopper_minecart: 호퍼가 실린 광산 수레
+  carrot_on_a_stick: 당근 낚싯대
+  warped_fungus_on_a_stick: 뒤틀린 균 낚싯대
+  elytra: 겉날개
+  oak_boat: 참나무 보트
+  spruce_boat: 가문비나무 보트
+  birch_boat: 자작나무 보트
+  jungle_boat: 정글 나무 보트
+  acacia_boat: 아카시아나무 보트
+  dark_oak_boat: 짙은 참나무 보트
   structure_block: 구조물 블록
   jigsaw: 직소 블록
   turtle_helmet: 거북 등딱지
@@ -585,8 +693,16 @@ material:
   coal: 석탄
   charcoal: 숯
   diamond: 다이아몬드
-  iron_ingot: 철괴
-  gold_ingot: 금괴
+  emerald: 에메랄드
+  lapis_lazuli: 청금석
+  quartz: 네더 석영
+  amethyst_shard: 자수정 조각
+  raw_iron: 철 원석
+  iron_ingot: 철 주괴
+  raw_copper: 구리 원석
+  copper_ingot: 구리 주괴
+  raw_gold: 금 원석
+  gold_ingot: 금 주괴
   netherite_ingot: 네더라이트 주괴
   netherite_scrap: 네더라이트 파편
   wooden_sword: 나무 검
@@ -599,11 +715,11 @@ material:
   stone_pickaxe: 돌 곡괭이
   stone_axe: 돌 도끼
   stone_hoe: 돌 괭이
-  golden_sword: 황금 검
-  golden_shovel: 황금 삽
-  golden_pickaxe: 황금 곡괭이
-  golden_axe: 황금 도끼
-  golden_hoe: 황금 괭이
+  golden_sword: 금 검
+  golden_shovel: 금 삽
+  golden_pickaxe: 금 곡괭이
+  golden_axe: 금 도끼
+  golden_hoe: 금 괭이
   iron_sword: 철 검
   iron_shovel: 철 삽
   iron_pickaxe: 철 곡괭이
@@ -634,23 +750,23 @@ material:
   leather_boots: 가죽 장화
   chainmail_helmet: 사슬 투구
   chainmail_chestplate: 사슬 흉갑
-  chainmail_leggings: 사슬 각반
+  chainmail_leggings: 사슬 레깅스
   chainmail_boots: 사슬 부츠
   iron_helmet: 철 투구
   iron_chestplate: 철 흉갑
-  iron_leggings: 철 각반
+  iron_leggings: 철 레깅스
   iron_boots: 철 부츠
   diamond_helmet: 다이아몬드 투구
   diamond_chestplate: 다이아몬드 흉갑
-  diamond_leggings: 다이아몬드 각반
+  diamond_leggings: 다이아몬드 레깅스
   diamond_boots: 다이아몬드 부츠
-  golden_helmet: 황금 투구
-  golden_chestplate: 황금 흉갑
-  golden_leggings: 황금 각반
-  golden_boots: 황금 부츠
+  golden_helmet: 금 투구
+  golden_chestplate: 금 흉갑
+  golden_leggings: 금 레깅스
+  golden_boots: 금 부츠
   netherite_helmet: 네더라이트 투구
   netherite_chestplate: 네더라이트 흉갑
-  netherite_leggings: 네더라이트 각반
+  netherite_leggings: 네더라이트 레깅스
   netherite_boots: 네더라이트 부츠
   flint: 부싯돌
   porkchop: 익히지 않은 돼지고기
@@ -669,29 +785,27 @@ material:
   bucket: 양동이
   water_bucket: 물 양동이
   lava_bucket: 용암 양동이
-  minecart: 광산 수레
-  saddle: 안장
-  redstone: 레드스톤 가루
+  powder_snow_bucket: 가루눈 양동이
   snowball: 눈덩이
-  oak_boat: 참나무 보트
   leather: 가죽
   milk_bucket: 우유 양동이
   pufferfish_bucket: 복어가 담긴 양동이
   salmon_bucket: 연어가 담긴 양동이
   cod_bucket: 대구가 담긴 양동이
   tropical_fish_bucket: 열대어가 담긴 양동이
+  axolotl_bucket: 아홀로틀이 담긴 양동이
   brick: 벽돌
   clay_ball: 점토 덩이
   dried_kelp_block: 말린 켈프 블록
   paper: 종이
   book: 책
   slime_ball: 슬라임볼
-  chest_minecart: 상자가 실린 광산 수레
-  furnace_minecart: 화로가 실린 광산 수레
   egg: 달걀
   compass: 나침반
+  bundle: 꾸러미
   fishing_rod: 낚싯대
   clock: 시계
+  spyglass: 망원경
   glowstone_dust: 발광석 가루
   cod: 생대구
   salmon: 생연어
@@ -700,8 +814,8 @@ material:
   cooked_cod: 익힌 대구
   cooked_salmon: 익힌 연어
   ink_sac: 먹물 주머니
+  glow_ink_sac: 발광 먹물 주머니
   cocoa_beans: 코코아 콩
-  lapis_lazuli: 청금석
   white_dye: 하얀색 염료
   orange_dye: 주황색 염료
   magenta_dye: 자홍색 염료
@@ -753,7 +867,7 @@ material:
   ender_pearl: 엔더 진주
   blaze_rod: 블레이즈 막대기
   ghast_tear: 가스트 눈물
-  gold_nugget: 황금 조각
+  gold_nugget: 금 조각
   nether_wart: 네더 사마귀
   potion: 물약
   glass_bottle: 유리병
@@ -765,6 +879,7 @@ material:
   cauldron: 가마솥
   ender_eye: 엔더의 눈
   glistering_melon_slice: 반짝이는 수박 조각
+  axolotl_spawn_egg: 아홀로틀 생성 알
   bat_spawn_egg: 박쥐 생성 알
   bee_spawn_egg: 꿀벌 생성 알
   blaze_spawn_egg: 블레이즈 생성 알
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: 소환사 생성 알
   fox_spawn_egg: 여우 생성 알
   ghast_spawn_egg: 가스트 생성 알
+  glow_squid_spawn_egg: 발광 오징어 생성 알
+  goat_spawn_egg: 염소 생성 알
   guardian_spawn_egg: 가디언 생성 알
   hoglin_spawn_egg: 호글린 생성 알
   horse_spawn_egg: 말 생성 알
@@ -833,8 +950,8 @@ material:
   fire_charge: 화염구
   writable_book: 책과 깃펜
   written_book: 글이 쓰인 책
-  emerald: 에메랄드
   item_frame: 아이템 액자
+  glow_item_frame: 발광 아이템 액자
   flower_pot: 화분
   carrot: 당근
   potato: 감자
@@ -848,17 +965,12 @@ material:
   zombie_head: 좀비 머리
   creeper_head: 크리퍼 머리
   dragon_head: 드래곤 머리
-  carrot_on_a_stick: 당근 낚싯대
-  warped_fungus_on_a_stick: 뒤틀린 균 낚싯대
   nether_star: 네더의 별
   pumpkin_pie: 호박 파이
   firework_rocket: 폭죽 로켓
   firework_star: 폭죽 탄약
   enchanted_book: 마법이 부여된 책
   nether_brick: 네더 벽돌
-  quartz: 네더 석영
-  tnt_minecart: TNT가 실린 광산 수레
-  hopper_minecart: 호퍼가 실린 광산 수레
   prismarine_shard: 프리즈머린 조각
   prismarine_crystals: 프리즈머린 수정
   rabbit: 익히지 않은 토끼고기
@@ -868,7 +980,7 @@ material:
   rabbit_hide: 토끼 가죽
   armor_stand: 갑옷 거치대
   iron_horse_armor: 철 말 갑옷
-  golden_horse_armor: 황금 말 갑옷
+  golden_horse_armor: 금 말 갑옷
   diamond_horse_armor: 다이아몬드 말 갑옷
   leather_horse_armor: 가죽 말 갑옷
   lead: 끈
@@ -895,21 +1007,15 @@ material:
   end_crystal: 엔드 수정
   chorus_fruit: 후렴과
   popped_chorus_fruit: 튀긴 후렴과
-  beetroot: 사탕무
-  beetroot_seeds: 사탕무 씨앗
-  beetroot_soup: 사탕무 수프
+  beetroot: 비트
+  beetroot_seeds: 비트 씨앗
+  beetroot_soup: 비트 수프
   dragon_breath: 드래곤의 숨결
   splash_potion: 투척용 물약
   spectral_arrow: 분광 화살
   tipped_arrow: 물약이 묻은 화살
   lingering_potion: 잔류형 물약
   shield: 방패
-  elytra: 겉날개
-  spruce_boat: 가문비나무 보트
-  birch_boat: 자작나무 보트
-  jungle_boat: 정글 나무 보트
-  acacia_boat: 아카시아나무 보트
-  dark_oak_boat: 짙은 참나무 보트
   totem_of_undying: 불사의 토템
   shulker_shell: 셜커 껍데기
   iron_nugget: 철 조각
@@ -948,13 +1054,13 @@ material:
   cartography_table: 지도 제작대
   fletching_table: 화살 작업대
   grindstone: 숫돌
-  lectern: 독서대
   smithing_table: 대장장이 작업대
   stonecutter: 석재 절단기
   bell: 종
   lantern: 랜턴
   soul_lantern: 영혼 랜턴
   sweet_berries: 달콤한 열매
+  glow_berries: 발광 열매
   campfire: 모닥불
   soul_campfire: 영혼 모닥불
   shroomlight: 버섯불
@@ -962,12 +1068,8 @@ material:
   bee_nest: 벌집
   beehive: 벌통
   honey_bottle: 꿀이 든 병
-  honey_block: 꿀 블록
   honeycomb_block: 벌집 조각 블록
   lodestone: 자석석
-  netherite_block: 네더라이트 블록
-  ancient_debris: 고대 잔해
-  target: 과녁
   crying_obsidian: 우는 흑요석
   blackstone: 흑암
   blackstone_slab: 흑암 반 블록
@@ -982,6 +1084,28 @@ material:
   polished_blackstone_brick_stairs: 윤나는 흑암 벽돌 계단
   cracked_polished_blackstone_bricks: 금 간 윤나는 흑암 벽돌
   respawn_anchor: 리스폰 정박기
+  candle: 초
+  white_candle: 하얀색 초
+  orange_candle: 주황색 초
+  magenta_candle: 자홍색 초
+  light_blue_candle: 하늘색 초
+  yellow_candle: 노란색 초
+  lime_candle: 연두색 초
+  pink_candle: 분홍색 초
+  gray_candle: 회색 초
+  light_gray_candle: 회백색 초
+  cyan_candle: 청록색 초
+  purple_candle: 보라색 초
+  blue_candle: 파란색 초
+  brown_candle: 갈색 초
+  green_candle: 초록색 초
+  red_candle: 빨간색 초
+  black_candle: 검은색 초
+  small_amethyst_bud: 작은 자수정 봉오리
+  medium_amethyst_bud: 중간 자수정 봉오리
+  large_amethyst_bud: 큰 자수정 봉오리
+  amethyst_cluster: 자수정 군집
+  pointed_dripstone: 뾰족한 점적석
   water: 물
   lava: 용암
   tall_seagrass: 키 큰 해초
@@ -1004,6 +1128,9 @@ material:
   attached_melon_stem: 수박이 달린 줄기
   pumpkin_stem: 호박 줄기
   melon_stem: 수박 줄기
+  water_cauldron: 물 가마솥
+  lava_cauldron: 용암 가마솥
+  powder_snow_cauldron: 가루눈 가마솥
   end_portal: 엔드 차원문
   cocoa: 코코아
   tripwire: 철사 덫
@@ -1055,7 +1182,7 @@ material:
   green_wall_banner: 초록색 현수막
   red_wall_banner: 빨간색 현수막
   black_wall_banner: 검은색 현수막
-  beetroots: 사탕무
+  beetroots: 비트
   end_gateway: 엔드 관문
   frosted_ice: 살얼음
   kelp_plant: 켈프 식물
@@ -1083,6 +1210,30 @@ material:
   potted_warped_fungus: 화분에 심은 뒤틀린 균
   potted_crimson_roots: 화분에 심은 진홍빛 뿌리
   potted_warped_roots: 화분에 심은 뒤틀린 뿌리
+  candle_cake: 초를 꽂은 케이크
+  white_candle_cake: 하얀색 초를 꽂은 케이크
+  orange_candle_cake: 주황색 초를 꽂은 케이크
+  magenta_candle_cake: 자홍색 초를 꽂은 케이크
+  light_blue_candle_cake: 하늘색 초를 꽂은 케이크
+  yellow_candle_cake: 노란색 초를 꽂은 케이크
+  lime_candle_cake: 연두색 초를 꽂은 케이크
+  pink_candle_cake: 분홍색 초를 꽂은 케이크
+  gray_candle_cake: 회색 초를 꽂은 케이크
+  light_gray_candle_cake: 회백색 초를 꽂은 케이크
+  cyan_candle_cake: 청록색 초를 꽂은 케이크
+  purple_candle_cake: 보라색 초를 꽂은 케이크
+  blue_candle_cake: 파란색 초를 꽂은 케이크
+  brown_candle_cake: 갈색 초를 꽂은 케이크
+  green_candle_cake: 초록색 초를 꽂은 케이크
+  red_candle_cake: 빨간색 초를 꽂은 케이크
+  black_candle_cake: 검은색 초를 꽂은 케이크
+  powder_snow: 가루눈
+  cave_vines: 동굴 덩굴
+  cave_vines_plant: 동굴 덩굴 식물
+  big_dripleaf_stem: 큰 흘림잎 줄기
+  potted_azalea_bush: 화분에 심은 진달래
+  potted_flowering_azalea_bush: 화분에 심은 꽃 핀 진달래
+  grass_path: 잔디 길
   zombie_pigman_spawn_egg: 좀비 피그맨 생성 알
   cactus_green: 선인장빛 초록 염료
   dandelion_yellow: 민들렛빛 노랑 염료
@@ -1169,46 +1320,48 @@ biome:
   crimson_forest: 진홍빛 숲
   warped_forest: 뒤틀린 숲
   basalt_deltas: 현무암 삼각주
+  dripstone_caves: 점적석 동굴
+  lush_caves: 무성한 동굴
   nether: 네더
 enchantment:
-  fire_protection: 화염으로부터 보호
-  sharpness: 날카로움
-  flame: 화염
-  soul_speed: 영혼 가속
-  aqua_affinity: 친수성
-  punch: 밀어내기
-  loyalty: 충절
-  depth_strider: 물갈퀴
-  vanishing_curse: 소실 저주
-  unbreaking: 내구성
-  knockback: 밀치기
-  luck_of_the_sea: 바다의 행운
-  binding_curse: 귀속 저주
-  fortune: 행운
   protection: 보호
-  efficiency: 효율
-  mending: 수선
-  frost_walker: 차가운 걸음
-  lure: 미끼
-  looting: 약탈
-  piercing: 관통
-  blast_protection: 폭발로부터 보호
-  smite: 강타
-  multishot: 다중 발사
-  fire_aspect: 발화
-  channeling: 집전
-  sweeping: 휘몰아치는 칼날
-  thorns: 가시
-  bane_of_arthropods: 살충
-  respiration: 호흡
-  riptide: 급류
-  silk_touch: 섬세한 손길
-  quick_charge: 빠른 장전
-  projectile_protection: 발사체로부터 보호
-  impaling: 찌르기
+  fire_protection: 화염으로부터 보호
   feather_falling: 가벼운 착지
+  blast_protection: 폭발로부터 보호
+  projectile_protection: 발사체로부터 보호
+  respiration: 호흡
+  aqua_affinity: 친수성
+  thorns: 가시
+  depth_strider: 물갈퀴
+  frost_walker: 차가운 걸음
+  binding_curse: 귀속 저주
+  sharpness: 날카로움
+  smite: 강타
+  bane_of_arthropods: 살충
+  knockback: 밀치기
+  fire_aspect: 발화
+  looting: 약탈
+  sweeping: 휩쓸기
+  efficiency: 효율
+  silk_touch: 섬세한 손길
+  unbreaking: 내구성
+  fortune: 행운
   power: 힘
+  punch: 밀어내기
+  flame: 화염
   infinity: 무한
+  luck_of_the_sea: 바다의 행운
+  lure: 미끼
+  loyalty: 충성
+  impaling: 찌르기
+  riptide: 급류
+  channeling: 집전
+  multishot: 다중 발사
+  quick_charge: 빠른 장전
+  piercing: 관통
+  mending: 수선
+  vanishing_curse: 소실 저주
+  soul_speed: 영혼 가속
 potion:
   uncraftable: 제작 불가능 물약
   water: 물병
@@ -1403,6 +1556,11 @@ entity:
   strider: 스트라이더
   zoglin: 조글린
   piglin_brute: 피글린 야수
+  axolotl: 아홀로틀
+  glow_item_frame: 발광 아이템 액자
+  glow_squid: 발광 오징어
+  goat: 염소
+  marker: 표지
   fishing_hook: 낚시 찌
   lightning: 벼락
   player: 플레이어
@@ -1437,7 +1595,7 @@ effect:
   unluck: 불운
   slow_falling: 느린 낙하
   conduit_power: 전달체의 힘
-  dolphins_grace: 돌고래의 우아함
+  dolphins_grace: 돌고래의 가호
   bad_omen: 흉조
   hero_of_the_village: 마을의 영웅
 tropical_fish_type:
@@ -2202,17 +2360,3 @@ villager_profession:
   shepherd: 양치기
   toolsmith: 도구 대장장이
   weaponsmith: 무기 대장장이
-villager_career:
-  farmer: 농부
-  fisherman: 어부
-  shepherd: 양치기
-  fletcher: 화살 제조인
-  librarian: 사서
-  cartographer: 지도 제작자
-  cleric: 성직자
-  armorer: 갑옷 제조인
-  weapon_smith: 무기 제조인
-  tool_smith: 도구 제조인
-  butcher: 도살업자
-  leatherworker: 가죽 세공인
-  nitwit: 멍청이

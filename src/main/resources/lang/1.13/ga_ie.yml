@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:47                    #
+# Build time: 2021-07-04 21:46:03                    #
 # ####################################################
 language:
   code: ga_ie
@@ -46,8 +46,13 @@ material:
   chorus_fruit: Toradh Curfá
   chorus_plant: Planda Curfá
   clay_ball: Cré
+  cobblestone: Duirleog
+  cobblestone_slab: Leac Duirleoga
+  cobblestone_stairs: Staighre Cloiche
+  cobblestone_wall: Balla Duirleoga
   command_block_minecart: Cairt Mianaigh le Bloc Ordaithe
   cooked_salmon: Bradán Cócaráilte
+  cracked_stone_bricks: Brící Cloiche Gágacha
   creeper_spawn_egg: Ubh Ghinte Téaltóra
   creeper_wall_head: Ceann Balla Téaltóra
   cut_red_sandstone: Gaineamhchloch Dhearg Gearrtha
@@ -90,13 +95,7 @@ material:
   infested_mossy_stone_bricks: Brící Cloiche Caonacha Salacha
   infested_stone: Cloch Salach
   infested_stone_bricks: Brící Cloiche Salacha
-  jungle_button: Cnaipe Dufaire
-  jungle_log: Lomán Dufaire
-  jungle_planks: Clár Adhmad Dufaire
-  jungle_pressure_plate: Brúphláta Dufaire
   jungle_slab: Leac Dufaire
-  jungle_stairs: Staighre Dugaire
-  jungle_trapdoor: Comhla Thógála Dufaire
   kelp_plant: Planda Ceilp
   light_blue_concrete_powder: Púdar Stroighne Bánghorm
   light_blue_shulker_box: Bosca Slíogadóra Bhánghoirm
@@ -119,6 +118,8 @@ material:
   magenta_stained_glass_pane: Pána Gloine Daite Maigeanta
   melon_slice: Gearradh Mealbhacán
   milk_bucket: Buicéad Bainne
+  mossy_cobblestone: Duirleog Caonach
+  mossy_cobblestone_wall: Balla Duirleoga Caonaí
   mushroom_stem: Gas Muisiriún
   nether_portal: Tairseach don Íochtar
   oak_log: Darach
@@ -149,7 +150,6 @@ material:
   potted_dark_oak_sapling: Buinneán Darach Duibhe i bPota
   potted_dead_bush: Tom Marbh i bPota
   potted_fern: Raithneach i bPota
-  potted_jungle_sapling: Buinneán Dufaire i bPota
   potted_oak_sapling: Buinneán Darach i bPota
   potted_orange_tulip: Tiúilip Orásite i bPota
   potted_oxeye_daisy: Nóinín Mór i bPota
@@ -181,6 +181,8 @@ material:
   shulker_shell: Blaosc Slíogadóra
   shulker_spawn_egg: Ubh Ghinte Slíogadóra
   skeleton_wall_skull: Cloigeann Balla Chnámharlaigh
+  slime_ball: Liathróid Slaim
+  slime_block: Bloc Slaim
   smooth_quartz: Ghrianchloiche Mhín
   snow_block: Bloic Sneachta
   spruce_log: Lomán Sprúis
@@ -192,8 +194,6 @@ material:
   stripped_birch_wood: Adhmad Scafa Beithe
   stripped_dark_oak_log: Lomán Darach Dhubh
   stripped_dark_oak_wood: Adhmad Scafa Darach Dhuibhe
-  stripped_jungle_log: Lomán Dufaire
-  stripped_jungle_wood: Adhmad Scafa Dufaire
   stripped_oak_wood: Lomán Darach Scafa
   stripped_spruce_wood: Lomán Sprúis Scafa
   tnt_minecart: Cairt Mianaigh le TNT
@@ -223,6 +223,7 @@ entity:
   minecart_command: Cairt Mianaigh le Bloc Ordaithe
   minecart_tnt: Cairt Mianaigh le TNT
   minecart_mob_spawner: Cairt Mianaigh le Gineadóir
+  slime: Slam
   wither: Seargthóir
 named:
   unknown_enchantment: 'Asarlaí anaithnid: %s'

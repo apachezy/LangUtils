@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:19:59                    #
+# Build time: 2021-07-04 21:41:56                    #
 # ####################################################
 language:
   code: fra_de
@@ -8,35 +8,50 @@ language:
 material:
   acacia_door: Akazienholzdüe
   acacia_leaves: Akazienblätter
+  acacia_planks: Akazienholzbredda
+  acacia_wood: Akazienholz
+  allium: Lauch
   azure_bluet: Bleu azur
+  baked_potato: Gniedl
   bat_spawn_egg: Fledamaus-Spawn-Ä
   birch_door: Berknholzdüe
   birch_leaves: Birkenblätter
   birch_planks: -> block. minecraft. birch_planks
+  birch_wood: Berknholz
   black_dye: Schwoarze foarbe
+  black_stained_glass: Schwarz Glasmalerei
+  black_stained_glass_pane: Schwarze Glasmalerei
   blaze_spawn_egg: Lohn-Spawn-Ä
   blue_dye: Blaue Farbe
   blue_orchid: blaue Orchidee
   blue_stained_glass: Vitrail bleu
+  blue_stained_glass_pane: Blaue Glasmalerei
   brown_dye: Broaune foarbe
   brown_mushroom: Champignon brun
   brown_mushroom_block: Champignon brun
+  brown_stained_glass: Braun Gebeiztes Glas
+  brown_stained_glass_pane: Braune Glasmalerei
+  bucket: Aamer
+  carrot: Gelwa Rum
   cat_spawn_egg: Koatzen spawn oei
-  cauldron: Gessl
   cave_spider_spawn_egg: Höhlnschbinn-Spawn-Ä
   chicken_spawn_egg: Hüecher-Spawn-Ä
   chiseled_red_sandstone: Gemeißlde rouda Sandschdoi
   chiseled_sandstone: Gemeißlde Sandschdoi
   clay_ball: Donglummbn
+  cobblestone: Bruchstaa
   creeper_banner_pattern: Shädle boanner
   creeper_spawn_egg: Creeper-Spawn-Ä
-  cut_red_sandstone: Gschniddena rouda Sandschdoi
   cut_sandstone: Gschniddene Sandschdoi
+  cyan_dye: Dürgise Fabbschdoff
   cyan_stained_glass: Vitrail cyan
+  cyan_stained_glass_pane: Blaugrüne Glasmalerei
+  dandelion: Kuabloeme
   dark_oak_door: Schwazzächaholzdüe
   dark_oak_leaves: Dunkle Eichenblätter
   dark_oak_log: Schwazzächaschdamm
   dark_oak_planks: Schwazzächaholzbredda
+  dark_oak_sapling: Schwazzächnsetzling
   dark_oak_wood: Schwazzächaholz
   dead_bush: Toter Busch
   diamond_horse_armor: Diamandpfeddrüsdung
@@ -45,35 +60,60 @@ material:
   drowned_spawn_egg: Erdrunggenen-Spawn-Ä
   egg: Ä
   elder_guardian_spawn_egg: Großa-Wächda-Spawn-Ä
+  enchanted_golden_apple: Verzauberda Goidena Abfl
   enderman_spawn_egg: Enderman-Spawn-Ä
   endermite_spawn_egg: Endermidn-Spawn-Ä
   evoker_spawn_egg: Mogie-Spawn-Ä
+  experience_bottle: Erfohrungsfläschle
+  fern: Farn
   firework_rocket: Feiewechsrachede
   firework_star: Feierwechsschdean
+  fire_charge: Feiaball
+  flint: Feiasta
   ghast_spawn_egg: Ghast-Spawn-Ä
   glass: Gloass
   glass_bottle: Glosflåschn
+  glass_pane: Glasscheibe
   gold_nugget: Goidbaotza
   grass_path: Fueh
+  gray_dye: Graue Fabbschdoff
   gray_stained_glass: Vitrail gris
+  gray_stained_glass_pane: Graue Glasmalerei
   green_dye: Grüne foarbe
+  green_stained_glass: Grüne Glasmalerei
+  green_stained_glass_pane: Grüne Glasmalerei
   guardian_spawn_egg: Wächda-Spawn-Ä
+  gunpowder: Schwazzbulva
   horse_spawn_egg: Gaul-Spawn-Ä
   husk_spawn_egg: Wüsdnzombie-Spawn-Ä
+  iron_hoe: Aasenhaue
   iron_horse_armor: Aasenne Pfeddrüsdung
+  iron_ingot: Aasenboa
   iron_nugget: Aasenbaotza
-  iron_ore: Aasnätz
+  iron_shovel: Aasenschaufl
+  iron_sword: Aasenschwerd
   jungle_door: Droubnholzdüe
   jungle_leaves: Dschungel geht
+  jungle_log: Droubnbaumschdamm
   jungle_planks: -> block.minecraft.jungle_planks
+  jungle_sapling: Droubnbaumsetzling
+  jungle_wood: Droubnholz
   kelp_plant: Seetang Pflanze
-  lava: Lova
+  lantern: Loaterne
   lava_bucket: Lovaaamer
+  leather_chestplate: Ledejäggle
+  leather_helmet: Ledderkappn
   leather_leggings: Ledderhuus
+  light_blue_dye: Hellblaue Fabbschdoff
   light_blue_stained_glass: Vitrail bleu clair
+  light_blue_stained_glass_pane: Hellblaue Glasmalerei
+  light_gray_dye: Hellgraue Fabbschdoff
   light_gray_stained_glass: Vitrail gris clair
+  light_gray_stained_glass_pane: Hellgraue Glasmalerei
+  lime_dye: Hellgrüne Fabbschdoff
   lime_stained_glass: Vitrail à la chaux
   lime_stained_glass_pane: Kalk Glasmalerei
+  lingering_potion: Vaweildrangg
   llama_spawn_egg: Loma-Spawn-Ä
   magenta_stained_glass: Vitrail Magenta
   magenta_stained_glass_pane: Magenta Glasmalerei
@@ -83,57 +123,82 @@ material:
   mule_spawn_egg: Mauldier-Spawn-Ä
   oak_door: Ächaholzdüe
   oak_leaves: Eichenblätter
-  oak_log: Ächaschdamm
   oak_planks: Bruchsta
   oak_wood: Ächaholz
   ocelot_spawn_egg: Ozelodn-Spawn-Ä
+  orange_dye: Oranger Fabbschdoff
   orange_stained_glass: Vitrail Orange
+  orange_stained_glass_pane: Orange Glasmalerei
   orange_tulip: Tulipe orange
+  oxeye_daisy: Gänseblümchen
   panda_spawn_egg: Poanda spawn Oei
   parrot_spawn_egg: Babagein-Spawn-Ä
   phantom_spawn_egg: Phandom-Spawn-Ä
+  pink_dye: Bingge Fabbschdoff
   pink_stained_glass: Vitrail rose
+  pink_stained_glass_pane: Rosa Glasmalerei
   pink_tulip: Tulipe Rose
   polar_bear_spawn_egg: Eisbeä-Spawn-Ä
+  polished_granite: Poliede Granidd
+  poppy: Keidsche
+  purple_dye: Violedde Fabbschdoff
   purple_stained_glass: Vitrail violet
+  purple_stained_glass_pane: Lilane Glasmalerei
+  quartz: Netherquaaz
   red_dye: Rode foarbe
   red_mushroom_block: Champignon rouge
-  red_sandstone: Rouda Sandschdoi
+  red_stained_glass: Rote Glasmalerei
+  red_stained_glass_pane: Rote Glasmalerei
   red_tulip: Tulipe rouge
+  salmon_bucket: Laggsaamer
   salmon_spawn_egg: Laggs-Spawn-Ä
-  sandstone: Sandschdoi
   sea_pickle: Marinade de mer
   sheep_spawn_egg: Hämml-Spawn-Ä
   shulker_spawn_egg: Shulker-Spawn-Ä
   silverfish_spawn_egg: Silbefisch-Spawn-Ä
   skeleton_horse_spawn_egg: Skeleddgaul-Spawn-Ä
+  skeleton_skull: Sgeleddschädl
   skeleton_spawn_egg: Sgeledd-Spawn-Ä
   slime_spawn_egg: Schleim-Spawn-Ä
   spider_spawn_egg: Schbinn-Spawn-Ä
+  splash_potion: Wuffdrangg
   spruce_door: Fichdnholzdüe
   spruce_leaves: Fichtenblätter
   spruce_planks: -> block. minecraft. spruce_planks
+  spruce_wood: Fichdnholz
   squid_spawn_egg: Dindnfisch-Spawn-Ä
   stray_spawn_egg: Eiswandera-Spawn-Ä
   stripped_acacia_wood: " \n-> block.minecraft.stripped_acacia_wood"
+  stripped_birch_wood: Endrindeds Berknholz
+  stripped_dark_oak_log: Endrindeda Schwazzächaschdamm
   stripped_dark_oak_wood: -> block. minecraft. stripped_dark_oak_wood
+  stripped_jungle_log: Endrindeda Droubnbaumschdamm
+  stripped_jungle_wood: Endrindeds Droubnholz
   stripped_oak_wood: Endindeds Ächaholz
+  stripped_spruce_wood: Endrindeds Fichdnholz
+  trident: Dreezagg
+  turtle_helmet: Schildgrednbanza
   turtle_spawn_egg: Schildgredn-Spawn-Ä
   vex_spawn_egg: Blagegeisd-Spawn-Ä
   villager_spawn_egg: Doefbewohne-Spawn-Ä
   vindicator_spawn_egg: Diene-Spawn-Ä
+  water: Wasser
+  water_bucket: Wasseraamer
   white_dye: Woeiße foarbe
   white_stained_glass: Vitrail blanc
+  white_stained_glass_pane: Weiße Glasmalerei
   white_tulip: Tulipe blanche
   witch_spawn_egg: Affarlaa-Spawn-Ä
+  wither_skeleton_skull: Withersgeleddschädl
   wither_skeleton_spawn_egg: Withersgeledd-Spawn-Ä
   wolf_spawn_egg: Wolf-Spawn-Ä
   yellow_dye: Gelbe foarbe
   yellow_stained_glass: Vitrail jaune
+  yellow_stained_glass_pane: Gelbe Glasmalerei
   zombie_horse_spawn_egg: Zombiegaul-Spawn-Ä
   zombie_pigman_spawn_egg: Schweinszombie-Spawn-Ä
   zombie_spawn_egg: Zombie-Spawn-Ä
   zombie_villager_spawn_egg: Doefbewohnezombie-Spawn-Ä
 entity:
-  witch: Affarlaa
   pillager: Pillager
+  lightning: Blitz

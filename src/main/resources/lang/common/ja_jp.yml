@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:48                    #
+# Build time: 2021-07-04 21:46:03                    #
 # ####################################################
 language:
   code: ja_jp
@@ -14,15 +14,22 @@ material:
   polished_diorite: 磨かれた閃緑岩
   andesite: 安山岩
   polished_andesite: 磨かれた安山岩
+  deepslate: 深層岩
+  cobbled_deepslate: 深層岩の丸石
+  polished_deepslate: 磨かれた深層岩
+  calcite: 方解石
+  tuff: 凝灰岩
+  dripstone_block: 鍾乳石ブロック
   grass_block: 草ブロック
   dirt: 土
   coarse_dirt: 粗い土
   podzol: ポドゾル
+  rooted_dirt: 根付いた土
   crimson_nylium: 真紅のナイリウム
   warped_nylium: 歪んだナイリウム
   cobblestone: 丸石
   oak_planks: オークの板材
-  spruce_planks: マツの板材
+  spruce_planks: トウヒの板材
   birch_planks: シラカバの板材
   jungle_planks: ジャングルの板材
   acacia_planks: アカシアの板材
@@ -30,7 +37,7 @@ material:
   crimson_planks: 真紅の板材
   warped_planks: 歪んだ板材
   oak_sapling: オークの苗木
-  spruce_sapling: マツの苗木
+  spruce_sapling: トウヒの苗木
   birch_sapling: シラカバの苗木
   jungle_sapling: ジャングルの苗木
   acacia_sapling: アカシアの苗木
@@ -39,12 +46,69 @@ material:
   sand: 砂
   red_sand: 赤い砂
   gravel: 砂利
-  gold_ore: 金鉱石
-  iron_ore: 鉄鉱石
   coal_ore: 石炭鉱石
+  deepslate_coal_ore: 深層石炭鉱石
+  iron_ore: 鉄鉱石
+  deepslate_iron_ore: 深層鉄鉱石
+  copper_ore: 銅鉱石
+  deepslate_copper_ore: 深層銅鉱石
+  gold_ore: 金鉱石
+  deepslate_gold_ore: 深層金鉱石
+  redstone_ore: レッドストーン鉱石
+  deepslate_redstone_ore: 深層レッドストーン鉱石
+  emerald_ore: エメラルド鉱石
+  deepslate_emerald_ore: 深層エメラルド鉱石
+  lapis_ore: ラピスラズリ鉱石
+  deepslate_lapis_ore: 深層ラピスラズリ鉱石
+  diamond_ore: ダイヤモンド鉱石
+  deepslate_diamond_ore: 深層ダイヤモンド鉱石
   nether_gold_ore: ネザー金鉱石
+  nether_quartz_ore: ネザークォーツ鉱石
+  ancient_debris: 古代の残骸
+  coal_block: 石炭ブロック
+  raw_iron_block: 鉄の原石ブロック
+  raw_copper_block: 銅の原石ブロック
+  raw_gold_block: 金の原石ブロック
+  amethyst_block: アメジストブロック
+  budding_amethyst: 芽生えたアメジスト
+  iron_block: 鉄ブロック
+  copper_block: 銅ブロック
+  gold_block: 金ブロック
+  diamond_block: ダイヤモンドブロック
+  netherite_block: ネザライトブロック
+  exposed_copper: 風化した銅
+  weathered_copper: 錆びた銅
+  oxidized_copper: 酸化した銅
+  cut_copper: 切り込み入りの銅
+  exposed_cut_copper: 風化した切り込み入りの銅
+  weathered_cut_copper: 錆びた切り込み入りの銅
+  oxidized_cut_copper: 酸化した切り込み入りの銅
+  cut_copper_stairs: 切り込み入りの銅の階段
+  exposed_cut_copper_stairs: 風化した切り込み入りの銅の階段
+  weathered_cut_copper_stairs: 錆びた切り込み入りの銅の階段
+  oxidized_cut_copper_stairs: 酸化した切り込み入りの銅の階段
+  cut_copper_slab: 切り込み入りの銅のハーフブロック
+  exposed_cut_copper_slab: 風化した切り込み入りの銅のハーフブロック
+  weathered_cut_copper_slab: 錆びた切り込み入りの銅のハーフブロック
+  oxidized_cut_copper_slab: 酸化した切り込み入りの銅のハーフブロック
+  waxed_copper_block: 錆止めされた銅ブロック
+  waxed_exposed_copper: 錆止めされた風化した銅
+  waxed_weathered_copper: 錆止めされた錆びた銅
+  waxed_oxidized_copper: 錆止めされた酸化した銅
+  waxed_cut_copper: 錆止めされた切り込み入りの銅
+  waxed_exposed_cut_copper: 錆止めされた風化した切り込み入りの銅
+  waxed_weathered_cut_copper: 錆止めされた錆びた切り込み入りの銅
+  waxed_oxidized_cut_copper: 錆止めされた酸化した切り込み入りの銅
+  waxed_cut_copper_stairs: 錆止めされた切り込み入りの銅の階段
+  waxed_exposed_cut_copper_stairs: 錆止めされた風化した切り込み入りの銅の階段
+  waxed_weathered_cut_copper_stairs: 錆止めされた錆びた切り込み入りの銅の階段
+  waxed_oxidized_cut_copper_stairs: 錆止めされた酸化した切り込み入りの銅の階段
+  waxed_cut_copper_slab: 錆止めされた切り込み入りの銅のハーフブロック
+  waxed_exposed_cut_copper_slab: 錆止めされた風化した切り込み入りの銅のハーフブロック
+  waxed_weathered_cut_copper_slab: 錆止めされた錆びた切り込み入りの銅のハーフブロック
+  waxed_oxidized_cut_copper_slab: 錆止めされた酸化した切り込み入りの銅のハーフブロック
   oak_log: オークの原木
-  spruce_log: マツの原木
+  spruce_log: トウヒの原木
   birch_log: シラカバの原木
   jungle_log: ジャングルの原木
   acacia_log: アカシアの原木
@@ -52,7 +116,7 @@ material:
   crimson_stem: 真紅の幹
   warped_stem: 歪んだ幹
   stripped_oak_log: 樹皮を剥いだオークの原木
-  stripped_spruce_log: 樹皮を剥いだマツの原木
+  stripped_spruce_log: 樹皮を剥いだトウヒの原木
   stripped_birch_log: 樹皮を剥いだシラカバの原木
   stripped_jungle_log: 樹皮を剥いだジャングルの原木
   stripped_acacia_log: 樹皮を剥いだアカシアの原木
@@ -60,7 +124,7 @@ material:
   stripped_crimson_stem: 表皮を剥いだ真紅の幹
   stripped_warped_stem: 表皮を剥いだ歪んだ幹
   stripped_oak_wood: 樹皮を剥いだオークの木
-  stripped_spruce_wood: 樹皮を剥いだマツの木
+  stripped_spruce_wood: 樹皮を剥いだトウヒの木
   stripped_birch_wood: 樹皮を剥いだシラカバの木
   stripped_jungle_wood: 樹皮を剥いだジャングルの木
   stripped_acacia_wood: 樹皮を剥いだアカシアの木
@@ -68,7 +132,7 @@ material:
   stripped_crimson_hyphae: 表皮を剥いだ真紅の菌糸
   stripped_warped_hyphae: 表皮を剥いだ歪んだ菌糸
   oak_wood: オークの木
-  spruce_wood: マツの木
+  spruce_wood: トウヒの木
   birch_wood: シラカバの木
   jungle_wood: ジャングルの木
   acacia_wood: アカシアの木
@@ -76,31 +140,29 @@ material:
   crimson_hyphae: 真紅の菌糸
   warped_hyphae: 歪んだ菌糸
   oak_leaves: オークの葉
-  spruce_leaves: マツの葉
+  spruce_leaves: トウヒの葉
   birch_leaves: シラカバの葉
   jungle_leaves: ジャングルの葉
   acacia_leaves: アカシアの葉
   dark_oak_leaves: ダークオークの葉
+  azalea_leaves: ツツジの葉
+  flowering_azalea_leaves: 開花したツツジの葉
   sponge: スポンジ
   wet_sponge: 濡れたスポンジ
   glass: ガラス
-  lapis_ore: ラピスラズリ鉱石
+  tinted_glass: 遮光ガラス
   lapis_block: ラピスラズリブロック
-  dispenser: ディスペンサー
   sandstone: 砂岩
   chiseled_sandstone: 模様入りの砂岩
   cut_sandstone: 研がれた砂岩
-  note_block: 音符ブロック
-  powered_rail: パワードレール
-  detector_rail: ディテクターレール
-  sticky_piston: 粘着ピストン
   cobweb: クモの巣
   grass: 草
   fern: シダ
+  azalea: ツツジ
+  flowering_azalea: 開花したツツジ
   dead_bush: 枯れ木
   seagrass: 海草
   sea_pickle: シーピクルス
-  piston: ピストン
   white_wool: 白色の羊毛
   orange_wool: 橙色の羊毛
   magenta_wool: 赤紫色の羊毛
@@ -130,6 +192,7 @@ material:
   cornflower: ヤグルマギク
   lily_of_the_valley: スズラン
   wither_rose: ウィザーローズ
+  spore_blossom: 胞子の花
   brown_mushroom: 茶色のキノコ
   red_mushroom: 赤色のキノコ
   crimson_fungus: 真紅のキノコ
@@ -141,11 +204,14 @@ material:
   twisting_vines: ねじれツタ
   sugar_cane: サトウキビ
   kelp: コンブ
+  moss_carpet: 苔のカーペット
+  moss_block: 苔ブロック
+  hanging_roots: 垂れ根
+  big_dripleaf: 大きなドリップリーフ
+  small_dripleaf: 小さなドリップリーフ
   bamboo: 竹
-  gold_block: 金ブロック
-  iron_block: 鉄ブロック
   oak_slab: オークのハーフブロック
-  spruce_slab: マツのハーフブロック
+  spruce_slab: トウヒのハーフブロック
   birch_slab: シラカバのハーフブロック
   jungle_slab: ジャングルのハーフブロック
   acacia_slab: アカシアのハーフブロック
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: 滑らかな砂岩
   smooth_stone: 滑らかな石
   bricks: レンガ
-  tnt: TNT
   bookshelf: 本棚
   mossy_cobblestone: 苔むした丸石
   obsidian: 黒曜石
@@ -187,27 +252,11 @@ material:
   spawner: スポナー
   oak_stairs: オークの階段
   chest: チェスト
-  diamond_ore: ダイヤモンド鉱石
-  diamond_block: ダイヤモンドブロック
   crafting_table: 作業台
   farmland: 耕地
   furnace: かまど
   ladder: はしご
-  rail: レール
   cobblestone_stairs: 丸石の階段
-  lever: レバー
-  stone_pressure_plate: 石の感圧板
-  oak_pressure_plate: オークの感圧板
-  spruce_pressure_plate: マツの感圧板
-  birch_pressure_plate: シラカバの感圧板
-  jungle_pressure_plate: ジャングルの感圧板
-  acacia_pressure_plate: アカシアの感圧板
-  dark_oak_pressure_plate: ダークオークの感圧板
-  crimson_pressure_plate: 真紅の感圧板
-  warped_pressure_plate: 歪んだ感圧板
-  polished_blackstone_pressure_plate: 磨かれたブラックストーンの感圧板
-  redstone_ore: レッドストーン鉱石
-  redstone_torch: レッドストーントーチ
   snow: 雪
   ice: 氷
   snow_block: 雪ブロック
@@ -215,7 +264,7 @@ material:
   clay: 粘土
   jukebox: ジュークボックス
   oak_fence: オークのフェンス
-  spruce_fence: マツのフェンス
+  spruce_fence: トウヒのフェンス
   birch_fence: シラカバのフェンス
   jungle_fence: ジャングルのフェンス
   acacia_fence: アカシアのフェンス
@@ -224,48 +273,40 @@ material:
   warped_fence: 歪んだフェンス
   pumpkin: カボチャ
   carved_pumpkin: くり抜かれたカボチャ
+  jack_o_lantern: ジャック・オ・ランタン
   netherrack: ネザーラック
   soul_sand: ソウルサンド
   soul_soil: ソウルソイル
   basalt: 玄武岩
   polished_basalt: 磨かれた玄武岩
+  smooth_basalt: 滑らかな玄武岩
   soul_torch: 魂の松明
   glowstone: グロウストーン
-  jack_o_lantern: ジャック・オ・ランタン
-  oak_trapdoor: オークのトラップドア
-  spruce_trapdoor: マツのトラップドア
-  birch_trapdoor: シラカバのトラップドア
-  jungle_trapdoor: ジャングルのトラップドア
-  acacia_trapdoor: アカシアのトラップドア
-  dark_oak_trapdoor: ダークオークのトラップドア
-  crimson_trapdoor: 真紅のトラップドア
-  warped_trapdoor: 歪んだトラップドア
   infested_stone: 虫食い石
   infested_cobblestone: 虫食い丸石
   infested_stone_bricks: 虫食い石レンガ
   infested_mossy_stone_bricks: 苔むした虫食い石レンガ
   infested_cracked_stone_bricks: ひび割れた虫食い石レンガ
   infested_chiseled_stone_bricks: 模様入りの虫食い石レンガ
+  infested_deepslate: 虫食い深層岩
   stone_bricks: 石レンガ
   mossy_stone_bricks: 苔むした石レンガ
   cracked_stone_bricks: ひび割れた石レンガ
   chiseled_stone_bricks: 模様入りの石レンガ
+  deepslate_bricks: 深層岩レンガ
+  cracked_deepslate_bricks: ひび割れた深層岩レンガ
+  deepslate_tiles: 深層岩タイル
+  cracked_deepslate_tiles: ひび割れた深層岩タイル
+  chiseled_deepslate: 模様入りの深層岩
   brown_mushroom_block: 茶色のキノコブロック
   red_mushroom_block: 赤色のキノコブロック
   mushroom_stem: キノコの柄
   iron_bars: 鉄格子
-  chain: 鎖
+  chain: チェーン
   glass_pane: ガラス板
   melon: スイカ
   vine: ツタ
-  oak_fence_gate: オークのフェンスゲート
-  spruce_fence_gate: マツのフェンスゲート
-  birch_fence_gate: シラカバのフェンスゲート
-  jungle_fence_gate: ジャングルのフェンスゲート
-  acacia_fence_gate: アカシアのフェンスゲート
-  dark_oak_fence_gate: ダークオークのフェンスゲート
-  crimson_fence_gate: 真紅のフェンスゲート
-  warped_fence_gate: 歪んだフェンスゲート
+  glow_lichen: ヒカリゴケ
   brick_stairs: レンガの階段
   stone_brick_stairs: 石レンガの階段
   mycelium: 菌糸
@@ -280,13 +321,10 @@ material:
   end_stone: エンドストーン
   end_stone_bricks: エンドストーンレンガ
   dragon_egg: ドラゴンの卵
-  redstone_lamp: レッドストーンランプ
   sandstone_stairs: 砂岩の階段
-  emerald_ore: エメラルド鉱石
   ender_chest: エンダーチェスト
-  tripwire_hook: トリップワイヤーフック
   emerald_block: エメラルドブロック
-  spruce_stairs: マツの階段
+  spruce_stairs: トウヒの階段
   birch_stairs: シラカバの階段
   jungle_stairs: ジャングルの階段
   crimson_stairs: 真紅の階段
@@ -310,33 +348,18 @@ material:
   blackstone_wall: ブラックストーンの塀
   polished_blackstone_wall: 磨かれたブラックストーンの塀
   polished_blackstone_brick_wall: 磨かれたブラックストーンレンガの塀
-  stone_button: 石のボタン
-  oak_button: オークのボタン
-  spruce_button: マツのボタン
-  birch_button: シラカバのボタン
-  jungle_button: ジャングルのボタン
-  acacia_button: アカシアのボタン
-  dark_oak_button: ダークオークのボタン
-  crimson_button: 真紅のボタン
-  warped_button: 歪んだボタン
-  polished_blackstone_button: 磨かれたブラックストーンのボタン
+  cobbled_deepslate_wall: 深層岩の丸石の塀
+  polished_deepslate_wall: 磨かれた深層岩の塀
+  deepslate_brick_wall: 深層岩レンガの塀
+  deepslate_tile_wall: 深層岩タイルの塀
   anvil: 金床
   chipped_anvil: 欠けた金床
   damaged_anvil: 壊れかけの金床
-  trapped_chest: トラップチェスト
-  light_weighted_pressure_plate: 軽量用感圧板
-  heavy_weighted_pressure_plate: 重量用感圧板
-  daylight_detector: 日照センサー
-  redstone_block: レッドストーンブロック
-  nether_quartz_ore: ネザークォーツ鉱石
-  hopper: ホッパー
   chiseled_quartz_block: 模様入りのクォーツブロック
   quartz_block: クォーツブロック
   quartz_bricks: クォーツレンガ
   quartz_pillar: クォーツの柱
   quartz_stairs: クォーツの階段
-  activator_rail: アクティベーターレール
-  dropper: ドロッパー
   white_terracotta: 白色のテラコッタ
   orange_terracotta: 橙色のテラコッタ
   magenta_terracotta: 赤紫色のテラコッタ
@@ -354,7 +377,7 @@ material:
   red_terracotta: 赤色のテラコッタ
   black_terracotta: 黒色のテラコッタ
   barrier: バリアブロック
-  iron_trapdoor: 鉄のトラップドア
+  light: ライトブロック
   hay_block: 干草の俵
   white_carpet: 白色のカーペット
   orange_carpet: 橙色のカーペット
@@ -373,12 +396,10 @@ material:
   red_carpet: 赤色のカーペット
   black_carpet: 黒色のカーペット
   terracotta: テラコッタ
-  coal_block: 石炭ブロック
   packed_ice: 氷塊
   acacia_stairs: アカシアの階段
   dark_oak_stairs: ダークオークの階段
-  slime_block: スライムブロック
-  grass_path: 草の道
+  dirt_path: 土の道
   sunflower: ヒマワリ
   lilac: ライラック
   rose_bush: バラの低木
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: 赤いネザーレンガ
   bone_block: 骨ブロック
   structure_void: ストラクチャーヴォイド
-  observer: オブザーバー
   shulker_box: シュルカーボックス
   white_shulker_box: 白色のシュルカーボックス
   orange_shulker_box: 橙色のシュルカーボックス
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: 赤いネザーレンガの階段
   polished_andesite_stairs: 磨かれた安山岩の階段
   diorite_stairs: 閃緑岩の階段
+  cobbled_deepslate_stairs: 深層岩の丸石の階段
+  polished_deepslate_stairs: 磨かれた深層岩の階段
+  deepslate_brick_stairs: 深層岩レンガの階段
+  deepslate_tile_stairs: 深層岩タイルの階段
   polished_granite_slab: 磨かれた花崗岩のハーフブロック
   smooth_red_sandstone_slab: 滑らかな赤い砂岩のハーフブロック
   mossy_stone_brick_slab: 苔むした石レンガのハーフブロック
@@ -562,18 +586,102 @@ material:
   red_nether_brick_slab: 赤いネザーレンガのハーフブロック
   polished_andesite_slab: 磨かれた安山岩のハーフブロック
   diorite_slab: 閃緑岩のハーフブロック
+  cobbled_deepslate_slab: 深層岩の丸石のハーフブロック
+  polished_deepslate_slab: 磨かれた深層岩のハーフブロック
+  deepslate_brick_slab: 深層岩レンガのハーフブロック
+  deepslate_tile_slab: 深層岩タイルのハーフブロック
   scaffolding: 足場
+  redstone: レッドストーンダスト
+  redstone_torch: レッドストーントーチ
+  redstone_block: レッドストーンブロック
+  repeater: レッドストーンリピーター
+  comparator: レッドストーンコンパレーター
+  piston: ピストン
+  sticky_piston: 粘着ピストン
+  slime_block: スライムブロック
+  honey_block: ハチミツブロック
+  observer: オブザーバー
+  hopper: ホッパー
+  dispenser: ディスペンサー
+  dropper: ドロッパー
+  lectern: 書見台
+  target: 的
+  lever: レバー
+  lightning_rod: 避雷針
+  daylight_detector: 日照センサー
+  sculk_sensor: スカルクセンサー
+  tripwire_hook: トリップワイヤーフック
+  trapped_chest: トラップチェスト
+  tnt: TNT
+  redstone_lamp: レッドストーンランプ
+  note_block: 音符ブロック
+  stone_button: 石のボタン
+  polished_blackstone_button: 磨かれたブラックストーンのボタン
+  oak_button: オークのボタン
+  spruce_button: トウヒのボタン
+  birch_button: シラカバのボタン
+  jungle_button: ジャングルのボタン
+  acacia_button: アカシアのボタン
+  dark_oak_button: ダークオークのボタン
+  crimson_button: 真紅のボタン
+  warped_button: 歪んだボタン
+  stone_pressure_plate: 石の感圧板
+  polished_blackstone_pressure_plate: 磨かれたブラックストーンの感圧板
+  light_weighted_pressure_plate: 軽量用感圧板
+  heavy_weighted_pressure_plate: 重量用感圧板
+  oak_pressure_plate: オークの感圧板
+  spruce_pressure_plate: トウヒの感圧板
+  birch_pressure_plate: シラカバの感圧板
+  jungle_pressure_plate: ジャングルの感圧板
+  acacia_pressure_plate: アカシアの感圧板
+  dark_oak_pressure_plate: ダークオークの感圧板
+  crimson_pressure_plate: 真紅の感圧板
+  warped_pressure_plate: 歪んだ感圧板
   iron_door: 鉄のドア
   oak_door: オークのドア
-  spruce_door: マツのドア
+  spruce_door: トウヒのドア
   birch_door: シラカバのドア
   jungle_door: ジャングルのドア
   acacia_door: アカシアのドア
   dark_oak_door: ダークオークのドア
   crimson_door: 真紅のドア
   warped_door: 歪んだドア
-  repeater: レッドストーンリピーター
-  comparator: レッドストーンコンパレーター
+  iron_trapdoor: 鉄のトラップドア
+  oak_trapdoor: オークのトラップドア
+  spruce_trapdoor: トウヒのトラップドア
+  birch_trapdoor: シラカバのトラップドア
+  jungle_trapdoor: ジャングルのトラップドア
+  acacia_trapdoor: アカシアのトラップドア
+  dark_oak_trapdoor: ダークオークのトラップドア
+  crimson_trapdoor: 真紅のトラップドア
+  warped_trapdoor: 歪んだトラップドア
+  oak_fence_gate: オークのフェンスゲート
+  spruce_fence_gate: トウヒのフェンスゲート
+  birch_fence_gate: シラカバのフェンスゲート
+  jungle_fence_gate: ジャングルのフェンスゲート
+  acacia_fence_gate: アカシアのフェンスゲート
+  dark_oak_fence_gate: ダークオークのフェンスゲート
+  crimson_fence_gate: 真紅のフェンスゲート
+  warped_fence_gate: 歪んだフェンスゲート
+  powered_rail: パワードレール
+  detector_rail: ディテクターレール
+  rail: レール
+  activator_rail: アクティベーターレール
+  saddle: 鞍
+  minecart: トロッコ
+  chest_minecart: チェスト付きトロッコ
+  furnace_minecart: かまど付きトロッコ
+  tnt_minecart: TNT付きトロッコ
+  hopper_minecart: ホッパー付きトロッコ
+  carrot_on_a_stick: ニンジン付きの棒
+  warped_fungus_on_a_stick: 歪んだキノコ付きの棒
+  elytra: エリトラ
+  oak_boat: オークのボート
+  spruce_boat: トウヒのボート
+  birch_boat: シラカバのボート
+  jungle_boat: ジャングルのボート
+  acacia_boat: アカシアのボート
+  dark_oak_boat: ダークオークのボート
   structure_block: ストラクチャーブロック
   jigsaw: ジグソーブロック
   turtle_helmet: カメの甲羅
@@ -585,7 +693,15 @@ material:
   coal: 石炭
   charcoal: 木炭
   diamond: ダイヤモンド
+  emerald: エメラルド
+  lapis_lazuli: ラピスラズリ
+  quartz: ネザークォーツ
+  amethyst_shard: アメジストの欠片
+  raw_iron: 鉄の原石
   iron_ingot: 鉄インゴット
+  raw_copper: 銅の原石
+  copper_ingot: 銅インゴット
+  raw_gold: 金の原石
   gold_ingot: 金インゴット
   netherite_ingot: ネザライトインゴット
   netherite_scrap: ネザライトの欠片
@@ -659,7 +775,7 @@ material:
   golden_apple: 金のリンゴ
   enchanted_golden_apple: エンチャントされた金のリンゴ
   oak_sign: オークの看板
-  spruce_sign: マツの看板
+  spruce_sign: トウヒの看板
   birch_sign: シラカバの看板
   jungle_sign: ジャングルの看板
   acacia_sign: アカシアの看板
@@ -669,29 +785,27 @@ material:
   bucket: バケツ
   water_bucket: 水入りバケツ
   lava_bucket: 溶岩入りバケツ
-  minecart: トロッコ
-  saddle: 鞍
-  redstone: レッドストーンダスト
+  powder_snow_bucket: 粉雪入りバケツ
   snowball: 雪玉
-  oak_boat: オークのボート
   leather: 革
-  milk_bucket: 牛乳入りバケツ
+  milk_bucket: ミルク入りバケツ
   pufferfish_bucket: フグ入りバケツ
   salmon_bucket: サケ入りバケツ
   cod_bucket: タラ入りバケツ
   tropical_fish_bucket: 熱帯魚入りバケツ
+  axolotl_bucket: ウーパールーパー入りバケツ
   brick: レンガ
   clay_ball: 粘土玉
   dried_kelp_block: 乾燥した昆布ブロック
   paper: 紙
   book: 本
   slime_ball: スライムボール
-  chest_minecart: チェスト付きトロッコ
-  furnace_minecart: かまど付きトロッコ
   egg: 卵
   compass: コンパス
+  bundle: バンドル
   fishing_rod: 釣竿
   clock: 時計
+  spyglass: 望遠鏡
   glowstone_dust: グロウストーンダスト
   cod: 生鱈
   salmon: 生鮭
@@ -700,8 +814,8 @@ material:
   cooked_cod: 焼き鱈
   cooked_salmon: 焼き鮭
   ink_sac: イカスミ
+  glow_ink_sac: 輝くイカスミ
   cocoa_beans: カカオ豆
-  lapis_lazuli: ラピスラズリ
   white_dye: 白色の染料
   orange_dye: 橙色の染料
   magenta_dye: 赤紫色の染料
@@ -765,6 +879,7 @@ material:
   cauldron: 大釜
   ender_eye: エンダーアイ
   glistering_melon_slice: きらめくスイカの薄切り
+  axolotl_spawn_egg: ウーパールーパーのスポーンエッグ
   bat_spawn_egg: コウモリのスポーンエッグ
   bee_spawn_egg: ミツバチのスポーンエッグ
   blaze_spawn_egg: ブレイズのスポーンエッグ
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: エヴォーカーのスポーンエッグ
   fox_spawn_egg: キツネのスポーンエッグ
   ghast_spawn_egg: ガストのスポーンエッグ
+  glow_squid_spawn_egg: ヒカリイカのスポーンエッグ
+  goat_spawn_egg: ヤギのスポーンエッグ
   guardian_spawn_egg: ガーディアンのスポーンエッグ
   hoglin_spawn_egg: ホグリンのスポーンエッグ
   horse_spawn_egg: ウマのスポーンエッグ
@@ -833,8 +950,8 @@ material:
   fire_charge: ファイヤーチャージ
   writable_book: 本と羽根ペン
   written_book: 記入済みの本
-  emerald: エメラルド
   item_frame: 額縁
+  glow_item_frame: 輝く額縁
   flower_pot: 植木鉢
   carrot: ニンジン
   potato: ジャガイモ
@@ -848,17 +965,12 @@ material:
   zombie_head: ゾンビの頭
   creeper_head: クリーパーの頭
   dragon_head: ドラゴンの頭
-  carrot_on_a_stick: ニンジン付きの棒
-  warped_fungus_on_a_stick: 歪んだキノコ付きの棒
   nether_star: ネザースター
   pumpkin_pie: パンプキンパイ
   firework_rocket: ロケット花火
   firework_star: 花火の星
   enchanted_book: エンチャントの本
   nether_brick: ネザーレンガ
-  quartz: ネザークォーツ
-  tnt_minecart: TNT 付きトロッコ
-  hopper_minecart: ホッパー付きトロッコ
   prismarine_shard: プリズマリンの欠片
   prismarine_crystals: プリズマリンクリスタル
   rabbit: 生の兎肉
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: 効能付きの矢
   lingering_potion: 残留ポーション
   shield: 盾
-  elytra: エリトラ
-  spruce_boat: マツのボート
-  birch_boat: シラカバのボート
-  jungle_boat: ジャングルのボート
-  acacia_boat: アカシアのボート
-  dark_oak_boat: ダークオークのボート
   totem_of_undying: 不死のトーテム
   shulker_shell: シュルカーの殻
   iron_nugget: 鉄塊
@@ -948,13 +1054,13 @@ material:
   cartography_table: 製図台
   fletching_table: 矢細工台
   grindstone: 砥石
-  lectern: 書見台
   smithing_table: 鍛冶台
   stonecutter: 石切台
   bell: 鐘
   lantern: ランタン
   soul_lantern: 魂のランタン
   sweet_berries: スイートベリー
+  glow_berries: グロウベリー
   campfire: 焚き火
   soul_campfire: 魂の焚き火
   shroomlight: シュルームライト
@@ -962,12 +1068,8 @@ material:
   bee_nest: ミツバチの巣
   beehive: 養蜂箱
   honey_bottle: ハチミツ入りの瓶
-  honey_block: ハチミツブロック
   honeycomb_block: ハニカムブロック
   lodestone: ロードストーン
-  netherite_block: ネザライトブロック
-  ancient_debris: 古代の残骸
-  target: 的
   crying_obsidian: 泣く黒曜石
   blackstone: ブラックストーン
   blackstone_slab: ブラックストーンのハーフブロック
@@ -982,6 +1084,28 @@ material:
   polished_blackstone_brick_stairs: 磨かれたブラックストーンレンガの階段
   cracked_polished_blackstone_bricks: ひび割れたブラックストーンレンガ
   respawn_anchor: リスポーンアンカー
+  candle: ろうそく
+  white_candle: 白色のろうそく
+  orange_candle: 橙色のろうそく
+  magenta_candle: 赤紫色のろうそく
+  light_blue_candle: 空色のろうそく
+  yellow_candle: 黄色のろうそく
+  lime_candle: 黄緑色のろうそく
+  pink_candle: 桃色のろうそく
+  gray_candle: 灰色のろうそく
+  light_gray_candle: 薄灰色のろうそく
+  cyan_candle: 青緑色のろうそく
+  purple_candle: 紫色のろうそく
+  blue_candle: 青色のろうそく
+  brown_candle: 茶色のろうそく
+  green_candle: 緑色のろうそく
+  red_candle: 赤色のろうそく
+  black_candle: 黒色のろうそく
+  small_amethyst_bud: 小さなアメジストの芽
+  medium_amethyst_bud: 中くらいのアメジストの芽
+  large_amethyst_bud: 大きなアメジストの芽
+  amethyst_cluster: アメジストの塊
+  pointed_dripstone: 鍾乳石
   water: 水
   lava: 溶岩
   tall_seagrass: 背の高い海草
@@ -992,7 +1116,7 @@ material:
   soul_fire: 魂の炎
   redstone_wire: レッドストーンワイヤー
   oak_wall_sign: 壁に付けられたオークの看板
-  spruce_wall_sign: 壁に付けられたマツの看板
+  spruce_wall_sign: 壁に付けられたトウヒの看板
   birch_wall_sign: 壁に付けられたシラカバの看板
   acacia_wall_sign: 壁に付けられたアカシアの看板
   jungle_wall_sign: 壁に付けられたジャングルの看板
@@ -1004,11 +1128,14 @@ material:
   attached_melon_stem: 実がなったスイカの茎
   pumpkin_stem: カボチャの茎
   melon_stem: スイカの茎
+  water_cauldron: 水入りの大釜
+  lava_cauldron: 溶岩入りの大釜
+  powder_snow_cauldron: 粉雪入りの大釜
   end_portal: エンドポータル
   cocoa: カカオの実
   tripwire: トリップワイヤー
   potted_oak_sapling: 植えられたオークの苗木
-  potted_spruce_sapling: 植えられたマツの苗木
+  potted_spruce_sapling: 植えられたトウヒの苗木
   potted_birch_sapling: 植えられたシラカバの苗木
   potted_jungle_sapling: 植えられたジャングルの苗木
   potted_acacia_sapling: 植えられたアカシアの苗木
@@ -1083,6 +1210,30 @@ material:
   potted_warped_fungus: 植えられた歪んだキノコ
   potted_crimson_roots: 植えられた真紅の根
   potted_warped_roots: 植えられた歪んだ根
+  candle_cake: ろうそくが立てられたケーキ
+  white_candle_cake: 白色のろうそく付きケーキ
+  orange_candle_cake: 橙色のろうそく付きケーキ
+  magenta_candle_cake: 赤紫色のろうそく付きケーキ
+  light_blue_candle_cake: 空色のろうそく付きケーキ
+  yellow_candle_cake: 黄色のろうそく付きケーキ
+  lime_candle_cake: 黄緑色のろうそく付きケーキ
+  pink_candle_cake: 桃色のろうそく付きケーキ
+  gray_candle_cake: 灰色のろうそく付きケーキ
+  light_gray_candle_cake: 薄灰色のろうそく付きケーキ
+  cyan_candle_cake: 青緑色のろうそく付きケーキ
+  purple_candle_cake: 紫色のろうそく付きケーキ
+  blue_candle_cake: 青色のろうそく付きケーキ
+  brown_candle_cake: 茶色のろうそく付きケーキ
+  green_candle_cake: 緑色のろうそく付きケーキ
+  red_candle_cake: 赤色のろうそく付きケーキ
+  black_candle_cake: 黒色のろうそく付きケーキ
+  powder_snow: 粉雪
+  cave_vines: 洞窟のツタ
+  cave_vines_plant: 洞窟のツタのツル
+  big_dripleaf_stem: 大きなドリップリーフの茎
+  potted_azalea_bush: 植えられたツツジ
+  potted_flowering_azalea_bush: 植えられた開花したツツジ
+  grass_path: 草の道
   zombie_pigman_spawn_egg: ゾンビピッグマンのスポーンエッグ
   cactus_green: 緑色の染料
   dandelion_yellow: 黄色の染料
@@ -1096,7 +1247,7 @@ biome:
   mountains: 山岳
   forest: 森林
   taiga: タイガ
-  swamp: 湿地帯
+  swamp: 沼地
   river: 河川
   nether_wastes: ネザーの荒地
   the_end: ジ・エンド
@@ -1147,7 +1298,7 @@ biome:
   gravelly_mountains: 砂利の山
   flower_forest: 花の森
   taiga_mountains: タイガの山
-  swamp_hills: 湿地の丘陵
+  swamp_hills: 沼地の丘陵
   ice_spikes: 氷樹
   modified_jungle: 変異したジャングル
   modified_jungle_edge: 変異したジャングルの端
@@ -1155,8 +1306,8 @@ biome:
   tall_birch_hills: 巨大シラカバの丘陵
   dark_forest_hills: 暗い森の丘陵
   snowy_taiga_mountains: 雪のタイガの山
-  giant_spruce_taiga: 巨大マツのタイガ
-  giant_spruce_taiga_hills: 巨大マツのタイガの丘陵
+  giant_spruce_taiga: 巨大トウヒのタイガ
+  giant_spruce_taiga_hills: 巨大トウヒのタイガの丘陵
   modified_gravelly_mountains: 砂利の山+
   shattered_savanna: 荒廃したサバンナ
   shattered_savanna_plateau: 荒廃したサバンナの高原
@@ -1169,46 +1320,48 @@ biome:
   crimson_forest: 真紅の森
   warped_forest: 歪んだ森
   basalt_deltas: 玄武岩の三角州
+  dripstone_caves: 鍾乳洞
+  lush_caves: 繁茂した洞窟
   nether: ネザー
 enchantment:
-  fire_protection: 火炎耐性
-  sharpness: ダメージ増加
-  flame: フレイム
-  soul_speed: ソウルスピード
-  aqua_affinity: 水中採掘
-  punch: パンチ
-  loyalty: 忠誠
-  depth_strider: 水中歩行
-  vanishing_curse: 消滅の呪い
-  unbreaking: 耐久力
-  knockback: ノックバック
-  luck_of_the_sea: 宝釣り
-  binding_curse: 束縛の呪い
-  fortune: 幸運
   protection: ダメージ軽減
-  efficiency: 効率強化
-  mending: 修繕
-  frost_walker: 氷渡り
-  lure: 入れ食い
-  looting: ドロップ増加
-  piercing: 貫通
-  blast_protection: 爆発耐性
-  smite: アンデッド特効
-  multishot: 拡散
-  fire_aspect: 火属性
-  channeling: 召雷
-  sweeping: 範囲ダメージ増加
-  thorns: 棘の鎧
-  bane_of_arthropods: 虫特効
-  respiration: 水中呼吸
-  riptide: 激流
-  silk_touch: シルクタッチ
-  quick_charge: 高速装填
-  projectile_protection: 飛び道具耐性
-  impaling: 水生特効
+  fire_protection: 火炎耐性
   feather_falling: 落下耐性
+  blast_protection: 爆発耐性
+  projectile_protection: 飛び道具耐性
+  respiration: 水中呼吸
+  aqua_affinity: 水中採掘
+  thorns: 棘の鎧
+  depth_strider: 水中歩行
+  frost_walker: 氷渡り
+  binding_curse: 束縛の呪い
+  sharpness: ダメージ増加
+  smite: アンデッド特効
+  bane_of_arthropods: 虫特効
+  knockback: ノックバック
+  fire_aspect: 火属性
+  looting: ドロップ増加
+  sweeping: 範囲ダメージ増加
+  efficiency: 効率強化
+  silk_touch: シルクタッチ
+  unbreaking: 耐久力
+  fortune: 幸運
   power: 射撃ダメージ増加
+  punch: パンチ
+  flame: フレイム
   infinity: 無限
+  luck_of_the_sea: 宝釣り
+  lure: 入れ食い
+  loyalty: 忠誠
+  impaling: 水生特効
+  riptide: 激流
+  channeling: 召雷
+  multishot: 拡散
+  quick_charge: 高速装填
+  piercing: 貫通
+  mending: 修繕
+  vanishing_curse: 消滅の呪い
+  soul_speed: ソウルスピード
 potion:
   uncraftable: クラフト不可能なポーション
   water: 水入り瓶
@@ -1317,7 +1470,7 @@ entity:
   thrown_exp_bottle: 投げられたエンチャントの瓶
   item_frame: 額縁
   wither_skull: ウィザーの頭蓋骨
-  primed_tnt: 着火された TNT
+  primed_tnt: 着火されたTNT
   falling_block: 落下中のブロック
   firework: ロケット花火
   husk: ハスク
@@ -1340,7 +1493,7 @@ entity:
   minecart: トロッコ
   minecart_chest: チェスト付きトロッコ
   minecart_furnace: かまど付きトロッコ
-  minecart_tnt: TNT 付きトロッコ
+  minecart_tnt: TNT付きトロッコ
   minecart_hopper: ホッパー付きトロッコ
   minecart_mob_spawner: スポナー付きトロッコ
   creeper: クリーパー
@@ -1403,6 +1556,11 @@ entity:
   strider: ストライダー
   zoglin: ゾグリン
   piglin_brute: ピグリンブルート
+  axolotl: ウーパールーパー
+  glow_item_frame: 輝く額縁
+  glow_squid: ヒカリイカ
+  goat: ヤギ
+  marker: マーカー
   fishing_hook: 浮き
   lightning: 雷
   player: プレイヤー
@@ -1471,7 +1629,7 @@ dye_color:
   red: 赤色
   black: 黒色
 named:
-  player_head_named: '%s の頭'
+  player_head_named: '%sの頭'
   potion_with_amplifier: '%s %s'
   potion_with_duration: '%s（%s）'
   none_effects: 効果なし
@@ -1519,198 +1677,198 @@ colored_shied:
   red: 赤色の盾
   black: 黒色の盾
 banner_pattern:
-  '65536': 右下に白色の方形
-  '65537': 右下に橙色の方形
-  '65538': 右下に赤紫色の方形
-  '65539': 右下に空色の方形
-  '65540': 右下に黄色の方形
-  '65541': 右下に黄緑色の方形
-  '65542': 右下に桃色の方形
-  '65543': 右下に灰色の方形
-  '65544': 右下に薄灰色の方形
-  '65545': 右下に青緑色の方形
-  '65546': 右下に紫色の方形
-  '65547': 右下に青色の方形
-  '65548': 右下に茶色の方形
-  '65549': 右下に緑色の方形
-  '65550': 右下に赤色の方形
-  '65551': 右下に黒色の方形
-  '131072': 左下に白色の方形
-  '131073': 左下に橙色の方形
-  '131074': 左下に赤紫色の方形
-  '131075': 左下に空色の方形
-  '131076': 左下に黄色の方形
-  '131077': 左下に黄緑色の方形
-  '131078': 左下に桃色の方形
-  '131079': 左下に灰色の方形
-  '131080': 左下に薄灰色の方形
-  '131081': 左下に青緑色の方形
-  '131082': 左下に紫色の方形
-  '131083': 左下に青色の方形
-  '131084': 左下に茶色の方形
-  '131085': 左下に緑色の方形
-  '131086': 左下に赤色の方形
-  '131087': 左下に黒色の方形
-  '196608': 右上に白色の方形
-  '196609': 右上に橙色の方形
-  '196610': 右上に赤紫色の方形
-  '196611': 右上に空色の方形
-  '196612': 右上に黄色の方形
-  '196613': 右上に黄緑色の方形
-  '196614': 右上に桃色の方形
-  '196615': 右上に灰色の方形
-  '196616': 右上に薄灰色の方形
-  '196617': 右上に青緑色の方形
-  '196618': 右上に紫色の方形
-  '196619': 右上に青色の方形
-  '196620': 右上に茶色の方形
-  '196621': 右上に緑色の方形
-  '196622': 右上に赤色の方形
-  '196623': 右上に黒色の方形
-  '262144': 左上に白色の方形
-  '262145': 左上に橙色の方形
-  '262146': 左上に赤紫色の方形
-  '262147': 左上に空色の方形
-  '262148': 左上に黄色の方形
-  '262149': 左上に黄緑色の方形
-  '262150': 左上に桃色の方形
-  '262151': 左上に灰色の方形
-  '262152': 左上に薄灰色の方形
-  '262153': 左上に青緑色の方形
-  '262154': 左上に紫色の方形
-  '262155': 左上に青色の方形
-  '262156': 左上に茶色の方形
-  '262157': 左上に緑色の方形
-  '262158': 左上に赤色の方形
-  '262159': 左上に黒色の方形
-  '327680': 下に白色の横帯
-  '327681': 下に橙色の横帯
-  '327682': 下に赤紫色の横帯
-  '327683': 下に空色の横帯
-  '327684': 下に黄色の横帯
-  '327685': 下に黄緑色の横帯
-  '327686': 下に桃色の横帯
-  '327687': 下に灰色の横帯
-  '327688': 下に薄灰色の横帯
-  '327689': 下に青緑色の横帯
-  '327690': 下に紫色の横帯
-  '327691': 下に青色の横帯
-  '327692': 下に茶色の横帯
-  '327693': 下に緑色の横帯
-  '327694': 下に赤色の横帯
-  '327695': 下に黒色の横帯
-  '393216': 上に白色の横帯
-  '393217': 上に橙色の横帯
-  '393218': 上に赤紫色の横帯
-  '393219': 上に空色の横帯
-  '393220': 上に黄色の横帯
-  '393221': 上に黄緑色の横帯
-  '393222': 上に桃色の横帯
-  '393223': 上に灰色の横帯
-  '393224': 上に薄灰色の横帯
-  '393225': 上に青緑色の横帯
-  '393226': 上に紫色の横帯
-  '393227': 上に青色の横帯
-  '393228': 上に茶色の横帯
-  '393229': 上に緑色の横帯
-  '393230': 上に赤色の横帯
-  '393231': 上に黒色の横帯
-  '458752': 右に白色の縦帯
-  '458753': 右に橙色の縦帯
-  '458754': 右に赤紫色の縦帯
-  '458755': 右に空色の縦帯
-  '458756': 右に黄色の縦帯
-  '458757': 右に黄緑色の縦帯
-  '458758': 右に桃色の縦帯
-  '458759': 右に灰色の縦帯
-  '458760': 右に薄灰色の縦帯
-  '458761': 右に青緑色の縦帯
-  '458762': 右に紫色の縦帯
-  '458763': 右に青色の縦帯
-  '458764': 右に茶色の縦帯
-  '458765': 右に緑色の縦帯
-  '458766': 右に赤色の縦帯
-  '458767': 右に黒色の縦帯
-  '524288': 左に白色の縦帯
-  '524289': 左に橙色の縦帯
-  '524290': 左に赤紫色の縦帯
-  '524291': 左に空色の縦帯
-  '524292': 左に黄色の縦帯
-  '524293': 左に黄緑色の縦帯
-  '524294': 左に桃色の縦帯
-  '524295': 左に灰色の縦帯
-  '524296': 左に薄灰色の縦帯
-  '524297': 左に青緑色の縦帯
-  '524298': 左に紫色の縦帯
-  '524299': 左に青色の縦帯
-  '524300': 左に茶色の縦帯
-  '524301': 左に緑色の縦帯
-  '524302': 左に赤色の縦帯
-  '524303': 左に黒色の縦帯
-  '589824': 白色の縦帯
-  '589825': 橙色の縦帯
-  '589826': 赤紫色の縦帯
-  '589827': 空色の縦帯
-  '589828': 黄色の縦帯
-  '589829': 黄緑色の縦帯
-  '589830': 桃色の縦帯
-  '589831': 灰色の縦帯
-  '589832': 薄灰色の縦帯
-  '589833': 青緑色の縦帯
-  '589834': 紫色の縦帯
-  '589835': 青色の縦帯
-  '589836': 茶色の縦帯
-  '589837': 緑色の縦帯
-  '589838': 赤色の縦帯
-  '589839': 黒色の縦帯
-  '655360': 白色の横帯
-  '655361': 橙色の横帯
-  '655362': 赤紫色の横帯
-  '655363': 空色の横帯
-  '655364': 黄色の横帯
-  '655365': 黄緑色の横帯
-  '655366': 桃色の横帯
-  '655367': 灰色の横帯
-  '655368': 薄灰色の横帯
-  '655369': 青緑色の横帯
-  '655370': 紫色の横帯
-  '655371': 青色の横帯
-  '655372': 茶色の横帯
-  '655373': 緑色の横帯
-  '655374': 赤色の横帯
-  '655375': 黒色の横帯
-  '720896': 白色の斜め帯
-  '720897': 橙色の斜め帯
-  '720898': 赤紫色の斜め帯
-  '720899': 空色の斜め帯
-  '720900': 黄色の斜め帯
-  '720901': 黄緑色の斜め帯
-  '720902': 桃色の斜め帯
-  '720903': 灰色の斜め帯
-  '720904': 薄灰色の斜め帯
-  '720905': 青緑色の斜め帯
-  '720906': 紫色の斜め帯
-  '720907': 青色の斜め帯
-  '720908': 茶色の斜め帯
-  '720909': 緑色の斜め帯
-  '720910': 赤色の斜め帯
-  '720911': 黒色の斜め帯
-  '786432': 白色の逆斜め帯
-  '786433': 橙色の逆斜め帯
-  '786434': 赤紫色の逆斜め帯
-  '786435': 空色の逆斜め帯
-  '786436': 黄色の逆斜め帯
-  '786437': 黄緑色の逆斜め帯
-  '786438': 桃色の逆斜め帯
-  '786439': 灰色の逆斜め帯
-  '786440': 薄灰色の逆斜め帯
-  '786441': 青緑色の逆斜め帯
-  '786442': 紫色の逆斜め帯
-  '786443': 青色の逆斜め帯
-  '786444': 茶色の逆斜め帯
-  '786445': 緑色の逆斜め帯
-  '786446': 赤色の逆斜め帯
-  '786447': 黒色の逆斜め帯
+  '65536': 左下隅に白色の方形
+  '65537': 左下隅に橙色の方形
+  '65538': 左下隅に赤紫色の方形
+  '65539': 左下隅に空色の方形
+  '65540': 左下隅に黄色の方形
+  '65541': 左下隅に黄緑色の方形
+  '65542': 左下隅に桃色の方形
+  '65543': 左下隅に灰色の方形
+  '65544': 左下隅に薄灰色の方形
+  '65545': 左下隅に青緑色の方形
+  '65546': 左下隅に紫色の方形
+  '65547': 左下隅に青色の方形
+  '65548': 左下隅に茶色の方形
+  '65549': 左下隅に緑色の方形
+  '65550': 左下隅に赤色の方形
+  '65551': 左下隅に黒色の方形
+  '131072': 右下隅に白色の方形
+  '131073': 右下隅に橙色の方形
+  '131074': 右下隅に赤紫色の方形
+  '131075': 右下隅に空色の方形
+  '131076': 右下隅に黄色の方形
+  '131077': 右下隅に黄緑色の方形
+  '131078': 右下隅に桃色の方形
+  '131079': 右下隅に灰色の方形
+  '131080': 右下隅に薄灰色の方形
+  '131081': 右下隅に青緑色の方形
+  '131082': 右下隅に紫色の方形
+  '131083': 右下隅に青色の方形
+  '131084': 右下隅に茶色の方形
+  '131085': 右下隅に緑色の方形
+  '131086': 右下隅に赤色の方形
+  '131087': 右下隅に黒色の方形
+  '196608': 左上隅に白色の方形
+  '196609': 左上隅に橙色の方形
+  '196610': 左上隅に赤紫色の方形
+  '196611': 左上隅に空色の方形
+  '196612': 左上隅に黄色の方形
+  '196613': 左上隅に黄緑色の方形
+  '196614': 左上隅に桃色の方形
+  '196615': 左上隅に灰色の方形
+  '196616': 左上隅に薄灰色の方形
+  '196617': 左上隅に青緑色の方形
+  '196618': 左上隅に紫色の方形
+  '196619': 左上隅に青色の方形
+  '196620': 左上隅に茶色の方形
+  '196621': 左上隅に緑色の方形
+  '196622': 左上隅に赤色の方形
+  '196623': 左上隅に黒色の方形
+  '262144': 右上隅に白色の方形
+  '262145': 右上隅に橙色の方形
+  '262146': 右上隅に赤紫色の方形
+  '262147': 右上隅に空色の方形
+  '262148': 右上隅に黄色の方形
+  '262149': 右上隅に黄緑色の方形
+  '262150': 右上隅に桃色の方形
+  '262151': 右上隅に灰色の方形
+  '262152': 右上隅に薄灰色の方形
+  '262153': 右上隅に青緑色の方形
+  '262154': 右上隅に紫色の方形
+  '262155': 右上隅に青色の方形
+  '262156': 右上隅に茶色の方形
+  '262157': 右上隅に緑色の方形
+  '262158': 右上隅に赤色の方形
+  '262159': 右上隅に黒色の方形
+  '327680': 下端に白色の横帯
+  '327681': 下端に橙色の横帯
+  '327682': 下端に赤紫色の横帯
+  '327683': 下端に空色の横帯
+  '327684': 下端に黄色の横帯
+  '327685': 下端に黄緑色の横帯
+  '327686': 下端に桃色の横帯
+  '327687': 下端に灰色の横帯
+  '327688': 下端に薄灰色の横帯
+  '327689': 下端に青緑色の横帯
+  '327690': 下端に紫色の横帯
+  '327691': 下端に青色の横帯
+  '327692': 下端に茶色の横帯
+  '327693': 下端に緑色の横帯
+  '327694': 下端に赤色の横帯
+  '327695': 下端に黒色の横帯
+  '393216': 上端に白色の横帯
+  '393217': 上端に橙色の横帯
+  '393218': 上端に赤紫色の横帯
+  '393219': 上端に空色の横帯
+  '393220': 上端に黄色の横帯
+  '393221': 上端に黄緑色の横帯
+  '393222': 上端に桃色の横帯
+  '393223': 上端に灰色の横帯
+  '393224': 上端に薄灰色の横帯
+  '393225': 上端に青緑色の横帯
+  '393226': 上端に紫色の横帯
+  '393227': 上端に青色の横帯
+  '393228': 上端に茶色の横帯
+  '393229': 上端に緑色の横帯
+  '393230': 上端に赤色の横帯
+  '393231': 上端に黒色の横帯
+  '458752': 左端に白色の縦帯
+  '458753': 左端に橙色の縦帯
+  '458754': 左端に赤紫色の縦帯
+  '458755': 左端に空色の縦帯
+  '458756': 左端に黄色の縦帯
+  '458757': 左端に黄緑色の縦帯
+  '458758': 左端に桃色の縦帯
+  '458759': 左端に灰色の縦帯
+  '458760': 左端に薄灰色の縦帯
+  '458761': 左端に青緑色の縦帯
+  '458762': 左端に紫色の縦帯
+  '458763': 左端に青色の縦帯
+  '458764': 左端に茶色の縦帯
+  '458765': 左端に緑色の縦帯
+  '458766': 左端に赤色の縦帯
+  '458767': 左端に黒色の縦帯
+  '524288': 右端に白色の縦帯
+  '524289': 右端に橙色の縦帯
+  '524290': 右端に赤紫色の縦帯
+  '524291': 右端に空色の縦帯
+  '524292': 右端に黄色の縦帯
+  '524293': 右端に黄緑色の縦帯
+  '524294': 右端に桃色の縦帯
+  '524295': 右端に灰色の縦帯
+  '524296': 右端に薄灰色の縦帯
+  '524297': 右端に青緑色の縦帯
+  '524298': 右端に紫色の縦帯
+  '524299': 右端に青色の縦帯
+  '524300': 右端に茶色の縦帯
+  '524301': 右端に緑色の縦帯
+  '524302': 右端に赤色の縦帯
+  '524303': 右端に黒色の縦帯
+  '589824': 中央に白色の縦帯
+  '589825': 中央に橙色の縦帯
+  '589826': 中央に赤紫色の縦帯
+  '589827': 中央に空色の縦帯
+  '589828': 中央に黄色の縦帯
+  '589829': 中央に黄緑色の縦帯
+  '589830': 中央に桃色の縦帯
+  '589831': 中央に灰色の縦帯
+  '589832': 中央に薄灰色の縦帯
+  '589833': 中央に青緑色の縦帯
+  '589834': 中央に紫色の縦帯
+  '589835': 中央に青色の縦帯
+  '589836': 中央に茶色の縦帯
+  '589837': 中央に緑色の縦帯
+  '589838': 中央に赤色の縦帯
+  '589839': 中央に黒色の縦帯
+  '655360': 中央に白色の横帯
+  '655361': 中央に橙色の横帯
+  '655362': 中央に赤紫色の横帯
+  '655363': 中央に空色の横帯
+  '655364': 中央に黄色の横帯
+  '655365': 中央に黄緑色の横帯
+  '655366': 中央に桃色の横帯
+  '655367': 中央に灰色の横帯
+  '655368': 中央に薄灰色の横帯
+  '655369': 中央に青緑色の横帯
+  '655370': 中央に紫色の横帯
+  '655371': 中央に青色の横帯
+  '655372': 中央に茶色の横帯
+  '655373': 中央に緑色の横帯
+  '655374': 中央に赤色の横帯
+  '655375': 中央に黒色の横帯
+  '720896': 右下向きに白色の斜め帯
+  '720897': 右下向きに橙色の斜め帯
+  '720898': 右下向きに赤紫色の斜め帯
+  '720899': 右下向きに空色の斜め帯
+  '720900': 右下向きに黄色の斜め帯
+  '720901': 右下向きに黄緑色の斜め帯
+  '720902': 右下向きに桃色の斜め帯
+  '720903': 右下向きに灰色の斜め帯
+  '720904': 右下向きに薄灰色の斜め帯
+  '720905': 右下向きに青緑色の斜め帯
+  '720906': 右下向きに紫色の斜め帯
+  '720907': 右下向きに青色の斜め帯
+  '720908': 右下向きに茶色の斜め帯
+  '720909': 右下向きに緑色の斜め帯
+  '720910': 右下向きに赤色の斜め帯
+  '720911': 右下向きに黒色の斜め帯
+  '786432': 左下向きに白色の斜め帯
+  '786433': 左下向きに橙色の斜め帯
+  '786434': 左下向きに赤紫色の斜め帯
+  '786435': 左下向きに空色の斜め帯
+  '786436': 左下向きに黄色の斜め帯
+  '786437': 左下向きに黄緑色の斜め帯
+  '786438': 左下向きに桃色の斜め帯
+  '786439': 左下向きに灰色の斜め帯
+  '786440': 左下向きに薄灰色の斜め帯
+  '786441': 左下向きに青緑色の斜め帯
+  '786442': 左下向きに紫色の斜め帯
+  '786443': 左下向きに青色の斜め帯
+  '786444': 左下向きに茶色の斜め帯
+  '786445': 左下向きに緑色の斜め帯
+  '786446': 左下向きに赤色の斜め帯
+  '786447': 左下向きに黒色の斜め帯
   '851968': 白色の縦縞
   '851969': 橙色の縦縞
   '851970': 赤紫色の縦縞
@@ -1759,134 +1917,134 @@ banner_pattern:
   '983053': 緑色の十字
   '983054': 赤色の十字
   '983055': 黒色の十字
-  '1048576': 白色の山形
-  '1048577': 橙色の山形
-  '1048578': 赤紫色の山形
-  '1048579': 空色の山形
-  '1048580': 黄色の山形
-  '1048581': 黄緑色の山形
-  '1048582': 桃色の山形
-  '1048583': 灰色の山形
-  '1048584': 薄灰色の山形
-  '1048585': 青緑色の山形
-  '1048586': 紫色の山形
-  '1048587': 青色の山形
-  '1048588': 茶色の山形
-  '1048589': 緑色の山形
-  '1048590': 赤色の山形
-  '1048591': 黒色の山形
-  '1114112': 白色の下向きの山形
-  '1114113': 橙色の下向きの山形
-  '1114114': 赤紫色の下向きの山形
-  '1114115': 空色の下向きの山形
-  '1114116': 黄色の下向きの山形
-  '1114117': 黄緑色の下向きの山形
-  '1114118': 桃色の下向きの山形
-  '1114119': 灰色の下向きの山形
-  '1114120': 薄灰色の下向きの山形
-  '1114121': 青緑色の下向きの山形
-  '1114122': 紫色の下向きの山形
-  '1114123': 青色の下向きの山形
-  '1114124': 茶色の下向きの山形
-  '1114125': 緑色の下向きの山形
-  '1114126': 赤色の下向きの山形
-  '1114127': 黒色の下向きの山形
-  '1179648': 下に白色の波形
-  '1179649': 下に橙色の波形
-  '1179650': 下に赤紫色の波形
-  '1179651': 下に空色の波形
-  '1179652': 下に黄色の波形
-  '1179653': 下に黄緑色の波形
-  '1179654': 下に桃色の波形
-  '1179655': 下に灰色の波形
-  '1179656': 下に薄灰色の波形
-  '1179657': 下に青緑色の波形
-  '1179658': 下に紫色の波形
-  '1179659': 下に青色の波形
-  '1179660': 下に茶色の波形
-  '1179661': 下に緑色の波形
-  '1179662': 下に赤色の波形
-  '1179663': 下に黒色の波形
-  '1245184': 上に白色の波形
-  '1245185': 上に橙色の波形
-  '1245186': 上に赤紫色の波形
-  '1245187': 上に空色の波形
-  '1245188': 上に黄色の波形
-  '1245189': 上に黄緑色の波形
-  '1245190': 上に桃色の波形
-  '1245191': 上に灰色の波形
-  '1245192': 上に薄灰色の波形
-  '1245193': 上に青緑色の波形
-  '1245194': 上に紫色の波形
-  '1245195': 上に青色の波形
-  '1245196': 上に茶色の波形
-  '1245197': 上に緑色の波形
-  '1245198': 上に赤色の波形
-  '1245199': 上に黒色の波形
-  '1310720': 上に白色の逆斜め分割
-  '1310721': 上に橙色の逆斜め分割
-  '1310722': 上に赤紫色の逆斜め分割
-  '1310723': 上に空色の逆斜め分割
-  '1310724': 上に黄色の逆斜め分割
-  '1310725': 上に黄緑色の逆斜め分割
-  '1310726': 上に桃色の逆斜め分割
-  '1310727': 上に灰色の逆斜め分割
-  '1310728': 上に薄灰色の逆斜め分割
-  '1310729': 上に青緑色の逆斜め分割
-  '1310730': 上に紫色の逆斜め分割
-  '1310731': 上に青色の逆斜め分割
-  '1310732': 上に茶色の逆斜め分割
-  '1310733': 上に緑色の逆斜め分割
-  '1310734': 上に赤色の逆斜め分割
-  '1310735': 上に黒色の逆斜め分割
-  '1376256': 下に白色の逆斜め分割
-  '1376257': 下に橙色の逆斜め分割
-  '1376258': 下に赤紫色の逆斜め分割
-  '1376259': 下に空色の逆斜め分割
-  '1376260': 下に黄色の逆斜め分割
-  '1376261': 下に黄緑色の逆斜め分割
-  '1376262': 下に桃色の逆斜め分割
-  '1376263': 下に灰色の逆斜め分割
-  '1376264': 下に薄灰色の逆斜め分割
-  '1376265': 下に青緑色の逆斜め分割
-  '1376266': 下に紫色の逆斜め分割
-  '1376267': 下に青色の逆斜め分割
-  '1376268': 下に茶色の逆斜め分割
-  '1376269': 下に緑色の逆斜め分割
-  '1376270': 下に赤色の逆斜め分割
-  '1376271': 下に黒色の逆斜め分割
-  '1441792': 下に白色の斜め分割
-  '1441793': 下に橙色の斜め分割
-  '1441794': 下に赤紫色の斜め分割
-  '1441795': 下に空色の斜め分割
-  '1441796': 下に黄色の斜め分割
-  '1441797': 下に黄緑色の斜め分割
-  '1441798': 下に桃色の斜め分割
-  '1441799': 下に灰色の斜め分割
-  '1441800': 下に薄灰色の斜め分割
-  '1441801': 下に青緑色の斜め分割
-  '1441802': 下に紫色の斜め分割
-  '1441803': 下に青色の斜め分割
-  '1441804': 下に茶色の斜め分割
-  '1441805': 下に緑色の斜め分割
-  '1441806': 下に赤色の斜め分割
-  '1441807': 下に黒色の斜め分割
-  '1507328': 上に白色の斜め分割
-  '1507329': 上に橙色の斜め分割
-  '1507330': 上に赤紫色の斜め分割
-  '1507331': 上に空色の斜め分割
-  '1507332': 上に黄色の斜め分割
-  '1507333': 上に黄緑色の斜め分割
-  '1507334': 上に桃色の斜め分割
-  '1507335': 上に灰色の斜め分割
-  '1507336': 上に薄灰色の斜め分割
-  '1507337': 上に青緑色の斜め分割
-  '1507338': 上に紫色の斜め分割
-  '1507339': 上に青色の斜め分割
-  '1507340': 上に茶色の斜め分割
-  '1507341': 上に緑色の斜め分割
-  '1507342': 上に赤色の斜め分割
-  '1507343': 上に黒色の斜め分割
+  '1048576': 下半に白色の上向き山形
+  '1048577': 下半に橙色の上向き山形
+  '1048578': 下半に赤紫色の上向き山形
+  '1048579': 下半に空色の上向き山形
+  '1048580': 下半に黄色の上向き山形
+  '1048581': 下半に黄緑色の上向き山形
+  '1048582': 下半に桃色の上向き山形
+  '1048583': 下半に灰色の上向き山形
+  '1048584': 下半に薄灰色の上向き山形
+  '1048585': 下半に青緑色の上向き山形
+  '1048586': 下半に紫色の上向き山形
+  '1048587': 下半に青色の上向き山形
+  '1048588': 下半に茶色の上向き山形
+  '1048589': 下半に緑色の上向き山形
+  '1048590': 下半に赤色の上向き山形
+  '1048591': 下半に黒色の上向き山形
+  '1114112': 上半に白色の下向き山形
+  '1114113': 上半に橙色の下向き山形
+  '1114114': 上半に赤紫色の下向き山形
+  '1114115': 上半に空色の下向き山形
+  '1114116': 上半に黄色の下向き山形
+  '1114117': 上半に黄緑色の下向き山形
+  '1114118': 上半に桃色の下向き山形
+  '1114119': 上半に灰色の下向き山形
+  '1114120': 上半に薄灰色の下向き山形
+  '1114121': 上半に青緑色の下向き山形
+  '1114122': 上半に紫色の下向き山形
+  '1114123': 上半に青色の下向き山形
+  '1114124': 上半に茶色の下向き山形
+  '1114125': 上半に緑色の下向き山形
+  '1114126': 上半に赤色の下向き山形
+  '1114127': 上半に黒色の下向き山形
+  '1179648': 下端に白色の上向き山形波
+  '1179649': 下端に橙色の上向き山形波
+  '1179650': 下端に赤紫色の上向き山形波
+  '1179651': 下端に空色の上向き山形波
+  '1179652': 下端に黄色の上向き山形波
+  '1179653': 下端に黄緑色の上向き山形波
+  '1179654': 下端に桃色の上向き山形波
+  '1179655': 下端に灰色の上向き山形波
+  '1179656': 下端に薄灰色の上向き山形波
+  '1179657': 下端に青緑色の上向き山形波
+  '1179658': 下端に紫色の上向き山形波
+  '1179659': 下に青色の上向き山形波
+  '1179660': 下端に茶色の上向き山形波
+  '1179661': 下端に緑色の上向き山形波
+  '1179662': 下端に赤色の上向き山形波
+  '1179663': 下端に黒色の上向き山形波
+  '1245184': 上端に白色の下向き山形波
+  '1245185': 上端に橙色の下向き山形波
+  '1245186': 上端に赤紫色の下向き山形波
+  '1245187': 上端に空色の下向き山形波
+  '1245188': 上端に黄色の下向き山形波
+  '1245189': 上端に黄緑色の下向き山形波
+  '1245190': 上端に桃色の下向き山形波
+  '1245191': 上端に灰色の下向き山形波
+  '1245192': 上端に薄灰色の下向き山形波
+  '1245193': 上端に青緑色の下向き山形波
+  '1245194': 上端に紫色の下向き山形波
+  '1245195': 上端に青色の下向き山形波
+  '1245196': 上端に茶色の下向き山形波
+  '1245197': 上端に緑色の下向き山形波
+  '1245198': 上端に赤色の下向き山形波
+  '1245199': 上端に黒色の下向き山形波
+  '1310720': 左上半に白色の斜め分割
+  '1310721': 左上半に橙色の斜め分割
+  '1310722': 左上半に赤紫色の斜め分割
+  '1310723': 左上半に空色の斜め分割
+  '1310724': 左上半に黄色の斜め分割
+  '1310725': 左上半に黄緑色の斜め分割
+  '1310726': 左上半に桃色の斜め分割
+  '1310727': 左上半に灰色の斜め分割
+  '1310728': 左上半に薄灰色の斜め分割
+  '1310729': 左上半に青緑色の斜め分割
+  '1310730': 左上半に紫色の斜め分割
+  '1310731': 左上半に青色の斜め分割
+  '1310732': 左上半に茶色の斜め分割
+  '1310733': 左上半に緑色の斜め分割
+  '1310734': 左上半に赤色の斜め分割
+  '1310735': 左上半に黒色の斜め分割
+  '1376256': 右下半に白色の斜め分割
+  '1376257': 右下半に橙色の斜め分割
+  '1376258': 右下半に赤紫色の斜め分割
+  '1376259': 右下半に空色の斜め分割
+  '1376260': 右下半に黄色の斜め分割
+  '1376261': 右下半に黄緑色の斜め分割
+  '1376262': 右下半に桃色の斜め分割
+  '1376263': 右下半に灰色の斜め分割
+  '1376264': 右下半に薄灰色の斜め分割
+  '1376265': 右下半に青緑色の斜め分割
+  '1376266': 右下半に紫色の斜め分割
+  '1376267': 右下半に青色の斜め分割
+  '1376268': 右下半に茶色の斜め分割
+  '1376269': 右下半に緑色の斜め分割
+  '1376270': 右下半に赤色の斜め分割
+  '1376271': 右下半に黒色の斜め分割
+  '1441792': 左下半に白色の斜め分割
+  '1441793': 左下半に橙色の斜め分割
+  '1441794': 左下半に赤紫色の斜め分割
+  '1441795': 左下半に空色の斜め分割
+  '1441796': 左下半に黄色の斜め分割
+  '1441797': 左下半に黄緑色の斜め分割
+  '1441798': 左下半に桃色の斜め分割
+  '1441799': 左下半に灰色の斜め分割
+  '1441800': 左下半に薄灰色の斜め分割
+  '1441801': 左下半に青緑色の斜め分割
+  '1441802': 左下半に紫色の斜め分割
+  '1441803': 左下半に青色の斜め分割
+  '1441804': 左下半に茶色の斜め分割
+  '1441805': 左下半に緑色の斜め分割
+  '1441806': 左下半に赤色の斜め分割
+  '1441807': 左下半に黒色の斜め分割
+  '1507328': 右上半に白色の斜め分割
+  '1507329': 右上半に橙色の斜め分割
+  '1507330': 右上半に赤紫色の斜め分割
+  '1507331': 右上半に空色の斜め分割
+  '1507332': 右上半に黄色の斜め分割
+  '1507333': 右上半に黄緑色の斜め分割
+  '1507334': 右上半に桃色の斜め分割
+  '1507335': 右上半に灰色の斜め分割
+  '1507336': 右上半に薄灰色の斜め分割
+  '1507337': 右上半に青緑色の斜め分割
+  '1507338': 右上半に紫色の斜め分割
+  '1507339': 右上半に青色の斜め分割
+  '1507340': 右上半に茶色の斜め分割
+  '1507341': 右上半に緑色の斜め分割
+  '1507342': 右上半に赤色の斜め分割
+  '1507343': 右上半に黒色の斜め分割
   '1572864': 白色の円形
   '1572865': 橙色の円形
   '1572866': 赤紫色の円形
@@ -1919,70 +2077,70 @@ banner_pattern:
   '1638413': 緑色の菱形
   '1638414': 赤色の菱形
   '1638415': 黒色の菱形
-  '1703936': 右に白色の縦二分割
-  '1703937': 右に橙色の縦二分割
-  '1703938': 右に赤紫色の縦二分割
-  '1703939': 右に空色の縦二分割
-  '1703940': 右に黄色の縦二分割
-  '1703941': 右に黄緑色の縦二分割
-  '1703942': 右に桃色の縦二分割
-  '1703943': 右に灰色の縦二分割
-  '1703944': 右に薄灰色の縦二分割
-  '1703945': 右に青緑色の縦二分割
-  '1703946': 右に紫色の縦二分割
-  '1703947': 右に青色の縦二分割
-  '1703948': 右に茶色の縦二分割
-  '1703949': 右に緑色の縦二分割
-  '1703950': 右に赤色の縦二分割
-  '1703951': 右に黒色の縦二分割
-  '1769472': 上に白色の横二分割
-  '1769473': 上に橙色の横二分割
-  '1769474': 上に赤紫色の横二分割
-  '1769475': 上に空色の横二分割
-  '1769476': 上に黄色の横二分割
-  '1769477': 上に黄緑色の横二分割
-  '1769478': 上に桃色の横二分割
-  '1769479': 上に灰色の横二分割
-  '1769480': 上に薄灰色の横二分割
-  '1769481': 上に青緑色の横二分割
-  '1769482': 上に紫色の横二分割
-  '1769483': 上に青色の横二分割
-  '1769484': 上に茶色の横二分割
-  '1769485': 上に緑色の横二分割
-  '1769486': 上に赤色の横二分割
-  '1769487': 上に黒色の横二分割
-  '1835008': 左に白色の縦二分割
-  '1835009': 左に橙色の縦二分割
-  '1835010': 左に赤紫色の縦二分割
-  '1835011': 左に空色の縦二分割
-  '1835012': 左に黄色の縦二分割
-  '1835013': 左に黄緑色の縦二分割
-  '1835014': 左に桃色の縦二分割
-  '1835015': 左に灰色の縦二分割
-  '1835016': 左に薄灰色の縦二分割
-  '1835017': 左に青緑色の縦二分割
-  '1835018': 左に紫色の縦二分割
-  '1835019': 左に青色の縦二分割
-  '1835020': 左に茶色の縦二分割
-  '1835021': 左に緑色の縦二分割
-  '1835022': 左に赤色の縦二分割
-  '1835023': 左に黒色の縦二分割
-  '1900544': 下に白色の横二分割
-  '1900545': 下に橙色の横二分割
-  '1900546': 下に赤紫色の横二分割
-  '1900547': 下に空色の横二分割
-  '1900548': 下に黄色の横二分割
-  '1900549': 下に黄緑色の横二分割
-  '1900550': 下に桃色の横二分割
-  '1900551': 下に灰色の横二分割
-  '1900552': 下に薄灰色の横二分割
-  '1900553': 下に青緑色の横二分割
-  '1900554': 下に紫色の横二分割
-  '1900555': 下に青色の横二分割
-  '1900556': 下に茶色の横二分割
-  '1900557': 下に緑色の横二分割
-  '1900558': 下に赤色の横二分割
-  '1900559': 下に黒色の横二分割
+  '1703936': 左半に白色の縦分割
+  '1703937': 左半に橙色の縦分割
+  '1703938': 左半に赤紫色の縦分割
+  '1703939': 左半に空色の縦分割
+  '1703940': 左半に黄色の縦分割
+  '1703941': 左半に黄緑色の縦分割
+  '1703942': 左半に桃色の縦分割
+  '1703943': 左半に灰色の縦分割
+  '1703944': 左半に薄灰色の縦分割
+  '1703945': 左半に青緑色の縦分割
+  '1703946': 左半に紫色の縦分割
+  '1703947': 左半に青色の縦分割
+  '1703948': 左半に茶色の縦分割
+  '1703949': 左半に緑色の縦分割
+  '1703950': 左半に赤色の縦分割
+  '1703951': 左半に黒色の縦分割
+  '1769472': 上半に白色の横分割
+  '1769473': 上半に橙色の横分割
+  '1769474': 上半に赤紫色の横分割
+  '1769475': 上半に空色の横分割
+  '1769476': 上半に黄色の横分割
+  '1769477': 上半に黄緑色の横分割
+  '1769478': 上半に桃色の横分割
+  '1769479': 上半に灰色の横分割
+  '1769480': 上半に薄灰色の横分割
+  '1769481': 上半に青緑色の横分割
+  '1769482': 上半に紫色の横分割
+  '1769483': 上半に青色の横分割
+  '1769484': 上半に茶色の横分割
+  '1769485': 上半に緑色の横分割
+  '1769486': 上半に赤色の横分割
+  '1769487': 上半に黒色の横分割
+  '1835008': 右半に白色の縦分割
+  '1835009': 右半に橙色の縦分割
+  '1835010': 右半に赤紫色の縦分割
+  '1835011': 右半に空色の縦分割
+  '1835012': 右半に黄色の縦分割
+  '1835013': 右半に黄緑色の縦分割
+  '1835014': 右半に桃色の縦分割
+  '1835015': 右半に灰色の縦分割
+  '1835016': 右半に薄灰色の縦分割
+  '1835017': 右半に青緑色の縦分割
+  '1835018': 右半に紫色の縦分割
+  '1835019': 右半に青色の縦分割
+  '1835020': 右半に茶色の縦分割
+  '1835021': 右半に緑色の縦分割
+  '1835022': 右半に赤色の縦分割
+  '1835023': 右半に黒色の縦分割
+  '1900544': 下半に白色の横分割
+  '1900545': 下半に橙色の横分割
+  '1900546': 下半に赤紫色の横分割
+  '1900547': 下半に空色の横分割
+  '1900548': 下半に黄色の横分割
+  '1900549': 下半に黄緑色の横分割
+  '1900550': 下半に桃色の横分割
+  '1900551': 下半に灰色の横分割
+  '1900552': 下半に薄灰色の横分割
+  '1900553': 下半に青緑色の横分割
+  '1900554': 下半に紫色の横分割
+  '1900555': 下半に青色の横分割
+  '1900556': 下半に茶色の横分割
+  '1900557': 下半に緑色の横分割
+  '1900558': 下半に赤色の横分割
+  '1900559': 下半に黒色の横分割
   '1966080': 白色の縁取り
   '1966081': 橙色の縁取り
   '1966082': 赤紫色の縁取り
@@ -1999,22 +2157,22 @@ banner_pattern:
   '1966093': 緑色の縁取り
   '1966094': 赤色の縁取り
   '1966095': 黒色の縁取り
-  '2031616': 白色の波形の縁取り
-  '2031617': 橙色の波形の縁取り
-  '2031618': 赤紫色の波形の縁取り
-  '2031619': 空色の波形の縁取り
-  '2031620': 黄色の波形の縁取り
-  '2031621': 黄緑色の波形の縁取り
-  '2031622': 桃色の波形の縁取り
-  '2031623': 灰色の波形の縁取り
-  '2031624': 薄灰色の波形の縁取り
-  '2031625': 青緑色の波形の縁取り
-  '2031626': 紫色の波形の縁取り
-  '2031627': 青色の波形の縁取り
-  '2031628': 茶色の波形の縁取り
-  '2031629': 緑色の波形の縁取り
-  '2031630': 赤色の波形の縁取り
-  '2031631': 黒色の波形の縁取り
+  '2031616': 白色の山形波の縁取り
+  '2031617': 橙色の山形波の縁取り
+  '2031618': 赤紫色の山形波の縁取り
+  '2031619': 空色の山形波の縁取り
+  '2031620': 黄色の山形波の縁取り
+  '2031621': 黄緑色の山形波の縁取り
+  '2031622': 桃色の山形波の縁取り
+  '2031623': 灰色の山形波の縁取り
+  '2031624': 薄灰色の山形波の縁取り
+  '2031625': 青緑色の山形波の縁取り
+  '2031626': 紫色の山形波の縁取り
+  '2031627': 青色の山形波の縁取り
+  '2031628': 茶色の山形波の縁取り
+  '2031629': 緑色の山形波の縁取り
+  '2031630': 赤色の山形波の縁取り
+  '2031631': 黒色の山形波の縁取り
   '2097152': 白色のクリーパー模様
   '2097153': 橙色のクリーパー模様
   '2097154': 赤紫色のクリーパー模様
@@ -2202,17 +2360,3 @@ villager_profession:
   shepherd: 羊飼い
   toolsmith: 道具鍛冶
   weaponsmith: 武器鍛冶
-villager_career:
-  farmer: 農民
-  fisherman: 釣り人
-  shepherd: 羊飼い
-  fletcher: 矢師
-  librarian: 司書
-  cartographer: 製図家
-  cleric: 聖職者
-  armorer: 防具鍛冶
-  weapon_smith: 武器鍛冶
-  tool_smith: 道具鍛冶
-  butcher: 肉屋
-  leatherworker: 革細工師
-  nitwit: 無職

@@ -1,178 +1,399 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:47                    #
+# Build time: 2021-07-04 21:46:02                    #
 # ####################################################
 language:
   code: enp
   name: Anglish
   region: Foroned Kingdom
 material:
+  acacia_button: Wattletree Button
+  acacia_fence: Wattletree Wall
+  acacia_log: Wattletree Log
   activator_rail: Mightener Track
+  andesite: Andesrock
   armor_stand: Hursting Stand
+  azure_bluet: Blueling
   bat_spawn_egg: Bat Birthing Egg
+  bedrock: Bedrock
+  beetroot_soup: Beetroot Soup
+  birch_button: Birch Button
+  birch_fence: Birch Wall
+  birch_log: Birch Log
   black_carpet: Black Rug
+  black_shulker_box: Black Shulker Box
   blaze_spawn_egg: Blaze Birthing Egg
+  blue_banner: Blue Streamer
+  blue_bed: Blue Bed
   blue_carpet: Blue Rug
+  blue_concrete: Blue Manstone
+  blue_concrete_powder: Blue Manstone Dust
+  blue_glazed_terracotta: Blue Glazed Bakedclay
+  blue_ice: Blue Ice
+  blue_orchid: Blue Ballockwort
+  blue_shulker_box: Blue Shulker Box
+  blue_stained_glass: Blue Hued Glass
+  blue_stained_glass_pane: Blue Hued Glass Window
+  blue_terracotta: Blue Bakedclay
+  blue_wall_banner: Blue Streamer
+  blue_wool: Blue Wool
+  bone_block: Bone Block
+  brain_coral: Brain Coral
+  brain_coral_block: Brain Coral Block
+  brain_coral_fan: Brain Coral Fan
+  brain_coral_wall_fan: Brain Coral Wall Fan
+  brick: Brick
+  bricks: Bricks
+  brick_slab: Brick Slab
+  brick_stairs: Brick Stairs
   brown_carpet: Brown Rug
-  brown_mushroom: Brown Toadstool
   brown_mushroom_block: Brown Toadstool Block
+  brown_shulker_box: Brown Shulker Box
+  bubble_coral: Bubble Coral
+  bubble_coral_block: Bubble Coral Block
+  bubble_coral_fan: Bubble Coral Fan
+  bubble_coral_wall_fan: Bubble Coral Wall Fan
+  bucket: Bucket
+  cauldron: Kettle
   cave_spider_spawn_egg: Shrave Spider Birthing Egg
+  chain_command_block: Fetter Hest Block
+  chest_minecart: Minecart with Chest
   chicken_spawn_egg: Chicken Birthing Egg
   chiseled_quartz_block: Graven Quartz Block
+  chiseled_stone_bricks: Graven Stone Bricks
   clay_ball: Clay
-  clock: Daymeal
-  cod_bucket: Buck of Cod
+  coal_block: Block of Coal
+  cocoa: Cocoa
+  cocoa_beans: Cocoa Beans
   cod_spawn_egg: Cod Birthing Egg
+  command_block: Hest Block
+  command_block_minecart: Minecart with Hest Block
   conduit: Flooder
+  cooked_rabbit: Cooked Rabbit
   cow_spawn_egg: Cow Birthing Egg
+  cracked_stone_bricks: Cracked Stone Bricks
   creeper_spawn_egg: Creeper Birthing Egg
+  cyan_banner: Bluegreen Streamer
+  cyan_bed: Bluegreen Bed
   cyan_carpet: Bluegreen Rug
+  cyan_concrete: Bluegreen Manstone
+  cyan_concrete_powder: Bluegreen Manstone Dust
+  cyan_dye: Bluegreen Dye
+  cyan_glazed_terracotta: Bluegreen Glazed Bakedclay
+  cyan_shulker_box: Bluegreen Shulker Box
+  cyan_stained_glass: Bluegreen Hued Glass
+  cyan_stained_glass_pane: Bluegreen Hued Glass Window
+  cyan_terracotta: Bluegreen Bakedclay
+  cyan_wall_banner: Bluegreen Streamer
+  cyan_wool: Bluegreen Wool
+  dark_oak_button: Dark Oak Button
+  dark_oak_fence: Dark Oak Wall
+  dark_oak_log: Dark Oak Log
   daylight_detector: Daylight Anyittend
+  dead_brain_coral_block: Dead Brain Coral Block
+  dead_brain_coral_fan: Dead Brain Coral Fan
+  dead_brain_coral_wall_fan: Dead Brain Coral Wall Fan
+  dead_bubble_coral_block: Dead Bubble Coral Block
+  dead_bubble_coral_fan: Dead Bubble Coral Fan
+  dead_bubble_coral_wall_fan: Dead Bubble Coral Wall Fan
+  dead_fire_coral_block: Dead Fire Coral Block
+  dead_fire_coral_fan: Dead Fire Coral Fan
+  dead_fire_coral_wall_fan: Dead Fire Coral Wall Fan
+  dead_horn_coral_block: Dead Horn Coral Block
+  dead_horn_coral_fan: Dead Horn Coral Fan
+  dead_horn_coral_wall_fan: Dead Horn Coral Wall Fan
+  dead_tube_coral_block: Dead Pipe Coral Block
+  dead_tube_coral_fan: Dead Pipe Coral Fan
+  dead_tube_coral_wall_fan: Dead Pipe Coral Wall Fan
+  detector_rail: Acknower Track
+  diamond: Diamond
+  diamond_axe: Diamond Axe
+  diamond_block: Block of Diamond
+  diamond_boots: Diamond Shoes
+  diamond_chestplate: Diamond Chestshield
+  diamond_helmet: Diamond Helm
+  diamond_hoe: Diamond Hoe
   diamond_horse_armor: Diamond Horse Hursting
+  diamond_leggings: Diamond Leggings
+  diamond_ore: Diamond Ore
+  diamond_pickaxe: Diamond Pickaxe
+  diamond_shovel: Diamond Shovel
+  diamond_sword: Diamond Sword
+  diorite: Markfieldrock
   dolphin_spawn_egg: Mereswine Birthing Egg
   donkey_spawn_egg: Donkey Birthing Egg
+  dragon_breath: Drake Breath
+  dragon_egg: Drake Egg
+  dragon_head: Drake Head
+  dragon_wall_head: Drake Wall Head
+  dried_kelp: Dried Kelp
+  dried_kelp_block: Dried Kelp Block
   drowned_spawn_egg: Drowned Birthing Egg
   elder_guardian_spawn_egg: Elder Ward Birthing Egg
+  elytra: Godwings
+  emerald_block: Block of Greenhirst
+  enchanting_table: Galdercraft Table
   enderman_spawn_egg: Enderman Birthing Egg
   endermite_spawn_egg: Endermite Spawn Egg
+  end_crystal: End Godstone
   end_gateway: Endgateway
   end_portal_frame: Enddoorway-Frame
   end_stone_bricks: Endstone Bricks
   evoker_spawn_egg: Ghastspeaker Birthing Egg
+  fire_coral: Fire Coral
+  fire_coral_block: Fire Coral Block
+  fire_coral_fan: Fire Coral Fan
+  fire_coral_wall_fan: Fire Coral Wall Fan
+  furnace_minecart: Minecart with Oven
   ghast_spawn_egg: Ghast Birthing Egg
   golden_horse_armor: Golden Horse Hursting
+  golden_pickaxe: Golden Pickaxe
+  gold_block: Block of Gold
+  gold_nugget: Gold Nugget
+  granite: Seedrock
+  grass_block: Grass Block
   gray_carpet: Gray Rug
+  gray_shulker_box: Gray Shulker Box
   green_carpet: Green Rug
+  green_shulker_box: Green Shulker Box
   guardian_spawn_egg: Ward Birthing Egg
+  gunpowder: Gundust
+  hopper_minecart: Minecart with Hopper
+  horn_coral: Horn Coral
+  horn_coral_block: Horn Coral Block
+  horn_coral_fan: Horn Coral Fan
+  horn_coral_wall_fan: Horn Coral Wall Fan
   horse_spawn_egg: Horse Birthing Egg
   husk_spawn_egg: Husk Birthing Egg
   infested_chiseled_stone_bricks: Infested Chiseled Stonebricks
   infested_cracked_stone_bricks: Infested Cracked Stonebricks
   infested_mossy_stone_bricks: Infested Mossy Stonebricks
   infested_stone_bricks: Infested Stonebricks
+  iron_block: Block of Iron
   iron_horse_armor: Iron Horse Hursting
-  jungle_boat: Orwald Boat
+  iron_nugget: Iron Nugget
+  iron_pickaxe: Iron Pickaxe
+  jukebox: Jukebox
   jungle_button: Orwald Button
-  jungle_door: Orwald Door
   jungle_fence: Orwald Wall
-  jungle_fence_gate: Orwald Gate
-  jungle_leaves: Orwald Leaves
   jungle_log: Orwald Log
-  jungle_planks: Orwald Boards
-  jungle_pressure_plate: Orwald Thrutchdish
-  jungle_sapling: Orwald Sapling
-  jungle_slab: Orwald Slab
-  jungle_stairs: Orwald Stairs
-  jungle_trapdoor: Orwald Trapdoor
-  jungle_wood: Orwald Wood
+  kelp: Kelp
+  kelp_plant: Kelp Plant
+  lapis_block: Bluestone Block
+  lapis_lazuli: Bluestone
+  lapis_ore: Bluestone Ore
+  lava: Moltenrock
   lava_bucket: Moltenrock Buck
   light_blue_banner: Lightblue Streamer
+  light_blue_bed: Light Blue Bed
   light_blue_carpet: Light Blue Rug
+  light_blue_concrete: Light Blue Manstone
+  light_blue_concrete_powder: Light Blue Manstone Dust
+  light_blue_dye: Light Blue Dye
+  light_blue_glazed_terracotta: Light Blue Glazed Bakedclay
+  light_blue_shulker_box: Light Blue Shulker Box
+  light_blue_stained_glass: Light Blue Hued Glass
+  light_blue_stained_glass_pane: Light Blue Hued Glass Window
+  light_blue_terracotta: Light Blue Bakedclay
   light_blue_wall_banner: Lightblue Streamer
+  light_blue_wool: Light Blue Wool
   light_gray_carpet: Light Gray Rug
+  light_gray_shulker_box: Light Gray Shulker Box
   lime_banner: Lightgreen Streamer
   lime_carpet: Light Green Rug
   lime_concrete: Lightgreen Manstone
+  lime_shulker_box: Light Green Shulker Box
   lime_terracotta: Lightgreen Bakedclay
   lime_wall_banner: Lightgreen Streamer
   llama_spawn_egg: Llama Birthing Egg
   magenta_carpet: Bawsered Rug
+  magenta_shulker_box: Bawsered Shulker Box
+  magma_block: Meltyrock Block
+  magma_cream: Meltyrock Ream
   magma_cube_spawn_egg: Meltyrock Slime Birthing Egg
-  milk_bucket: Milk Buck
+  minecart: Minecart
   mooshroom_spawn_egg: Mooshroom Birthing Egg
+  mossy_stone_bricks: Mossy Stone Bricks
   mule_spawn_egg: Mule Birthing Egg
-  mushroom_stem: Toadstool Stem
   mushroom_stew: Toadstool Soup
+  netherrack: Netherrack
+  nether_brick: Nether Brick
+  nether_bricks: Nether Bricks
+  nether_brick_fence: Nether Brick Wall
+  nether_brick_slab: Nether Brick Slab
+  nether_brick_stairs: Nether Brick Stairs
   nether_quartz_ore: Nether Quartz Ore
+  nether_star: Netherstar
+  nether_wart_block: Nether Wart Block
+  note_block: Note Block
+  oak_button: Oak Button
+  oak_fence: Oak Wall
+  oak_log: Oak Log
   ocelot_spawn_egg: Wildcat Birthing Egg
   orange_carpet: Yellowred Rug
+  orange_shulker_box: Yellowred Shulker Box
   parrot_spawn_egg: Bleefowl Birthing Egg
+  peony: Peony
   phantom_spawn_egg: Nightghost Birthing Egg
   pig_spawn_egg: Pig Birthing Egg
   pink_carpet: Pink Rug
+  pink_shulker_box: Pink Shulker Box
+  podzol: Podzol
   polar_bear_spawn_egg: Icebear Birthing Egg
-  potted_brown_mushroom: Potted Brown Toadstool
-  potted_jungle_sapling: Potted Orwald Sapling
-  potted_red_mushroom: Potted Red Toadstool
-  pufferfish_bucket: Buck of Pufferfish
+  polished_andesite: Smooth Andesrock
+  polished_diorite: Smooth Markfieldrock
+  polished_granite: Smooth Seedrock
+  potted_azure_bluet: Potted Blueling
+  potted_blue_orchid: Potted Blue Ballockwort
+  potted_spruce_sapling: Potted Pine Sapling
+  powered_rail: Livened Track
+  prismarine_bricks: Shimmereen Bricks
+  prismarine_brick_slab: Shimmereen Brick Slab
+  prismarine_brick_stairs: Shimmereen Brick Stairs
+  prismarine_crystals: Shimmereen Godstones
   pufferfish_spawn_egg: Pufferfish Birthing Egg
   purple_carpet: Bawse Rug
+  purple_shulker_box: Bawse Shulker Box
+  purpur_block: Purpur Block
+  purpur_pillar: Purpur Staple
+  purpur_slab: Purpur Slab
+  purpur_stairs: Purpur Stairs
   quartz: Nether Quartz
   quartz_block: Block of Quartz
   quartz_pillar: Quartz Staple
   quartz_slab: Quartz Slab
   quartz_stairs: Quartz Stairs
+  rabbit: Raw Rabbit
+  rabbit_foot: Rabbit's Foot
+  rabbit_hide: Rabbit Hide
   rabbit_spawn_egg: Rabbit Birthing Egg
+  rabbit_stew: Rabbit Stew
+  rail: Track
   redstone: Redstone
+  redstone_block: Block of Redstone
   redstone_wire: Redstone Dust
   red_carpet: Red Rug
-  red_mushroom: Red Toadstool
   red_mushroom_block: Red Toadstool Block
-  salmon_bucket: Buck of Lax
+  red_nether_bricks: Red Nether Bricks
+  red_shulker_box: Red Shulker Box
+  repeating_command_block: Edlocking Hest Block
   salmon_spawn_egg: Lax birthing Egg
   sheep_spawn_egg: Sheep Birthing Egg
+  shulker_box: Shulker Box
   shulker_spawn_egg: Shulker Birthing Egg
   silverfish_spawn_egg: Silverfish Birthing Egg
   skeleton_horse_spawn_egg: Boneset Horse Birthing Egg
   skeleton_spawn_egg: Boneset Birthing Egg
+  slime_block: Slime Block
   slime_spawn_egg: Slime Birthing Egg
   smooth_quartz: Smooth Quartz
+  snow_block: Snow Block
   spider_spawn_egg: Spider Birthing Egg
+  sponge: Sponge
+  spruce_boat: Pine Boat
+  spruce_button: Pine Button
+  spruce_door: Pine Door
+  spruce_fence: Pine Wall
+  spruce_fence_gate: Pine Gate
+  spruce_leaves: Pine Leaves
+  spruce_log: Pine Log
+  spruce_planks: Pine Boards
+  spruce_pressure_plate: Pine Thrutchdish
+  spruce_sapling: Pine Sapling
+  spruce_slab: Pine Slab
+  spruce_stairs: Pine Stairs
+  spruce_trapdoor: Pine Trapdoor
+  spruce_wood: Pine Wood
   squid_spawn_egg: Squid Birthing Egg
+  stone_bricks: Stone Bricks
+  stone_brick_slab: Stone Brick Slab
+  stone_brick_stairs: Stone Brick Stairs
+  stone_button: Stone Button
+  stone_pickaxe: Stone Pickaxe
   stray_spawn_egg: Drifter Birthing Egg
+  stripped_acacia_log: Stripped Wattletree Log
+  stripped_birch_log: Stripped Birch Log
+  stripped_dark_oak_log: Stripped Dark Oak Log
   stripped_jungle_log: Stripped Orwald Log
-  stripped_jungle_wood: Stripped Orwald Wood
-  trident: Thritooth
-  tropical_fish_bucket: Buck of Southsea Fish
+  stripped_oak_log: Stripped Oak Log
+  stripped_spruce_log: Stripped Pine Log
+  stripped_spruce_wood: Stripped Pine Wood
+  structure_block: Framework Block
+  tnt: TNT
+  tnt_minecart: Minecart with TNT
   tropical_fish_spawn_egg: Southsea Fish Birthing Egg
+  tube_coral: Pipe Coral
+  tube_coral_block: Pipe Coral Block
+  tube_coral_fan: Pipe Coral Fan
+  tube_coral_wall_fan: Pipe Coral Wall Fan
   turtle_spawn_egg: Shellpad Birthing Egg
   vex_spawn_egg: Hex Birthing Egg
   villager_spawn_egg: Wicksman Birthing Egg
   vindicator_spawn_egg: Bespeaker Birthing Egg
-  vine: Hanggrass
-  water_bucket: Water Buck
+  wet_sponge: Wet Sponge
   white_carpet: White Rug
+  white_shulker_box: White Shulker Box
   witch_spawn_egg: Witch Birthing Egg
   wither_skeleton_spawn_egg: Wither Bonset Birthing Egg
   wolf_spawn_egg: Wolf Birthing Egg
+  wooden_pickaxe: Wooden Pickaxe
   yellow_carpet: Yellow Rug
+  yellow_shulker_box: Yellow Shulker Box
+  zombie_head: Undead Warg Head
   zombie_horse_spawn_egg: Undead Horse Birthing Egg
   zombie_pigman_spawn_egg: Undead Pigman Birthing Egg
   zombie_spawn_egg: Undead Warg Birthing Egg
   zombie_villager_spawn_egg: Undead Wicksman Birthing Egg
+  zombie_wall_head: Undead Warg Wall Head
 biome:
-  forest: Wald
-  mushroom_fields: Toadstool Fields
-  mushroom_field_shore: Toadstool Field Shore
-  jungle: Orwald
-  jungle_hills: Orwald Hills
-  jungle_edge: Orwald Edge
-  birch_forest: Birch Wald
-  birch_forest_hills: Birch Wald Hills
-  dark_forest: Dark Wald
-  flower_forest: Bloom Wald
-  modified_jungle: Wended Orwald
-  modified_jungle_edge: Wended Orwald Edge
-  tall_birch_forest: Tall Birch Wald
-  dark_forest_hills: Dark Wald Hills
+  giant_tree_taiga: Ettin Tree Northwald
+  giant_tree_taiga_hills: Ettin Tree Northwald Hills
+  giant_spruce_taiga: Ettin Pine Northwald
+  giant_spruce_taiga_hills: Ettin Pine Northwald Hills
 enchantment:
   efficiency: Frimfulness
 entity:
-  elder_guardian: Elder Warden
+  ender_pearl: Thrown Enderseahirst
+  primed_tnt: Fired TNT
+  falling_block: Falling Block
+  dragon_fireball: Drake Fireball
   zombie_villager: Undead Wicksman
   armor_stand: Hursting Stand
+  donkey: Donkey
   evoker_fangs: Ghastspeaker Fangs
   evoker: Ghastspeaker
   vindicator: Bespeaker
-  guardian: Warden
+  minecart_command: Minecart with Hest Block
+  minecart: Minecart
+  minecart_chest: Minecart with Chest
+  minecart_furnace: Minecart with Oven
+  minecart_tnt: Minecart with TNT
+  minecart_hopper: Minecart with Hopper
+  minecart_mob_spawner: Minecart with Begetter
+  zombie: Undead Warg
+  magma_cube: Meltyrock Slime
+  ender_dragon: Enderdrake
+  bat: Bat
+  squid: Squid
+  mushroom_cow: Mooshroom
+  iron_golem: Iron Ent
+  rabbit: Rabbit
+  llama: Olf
+  llama_spit: Llama Spit
   villager: Wicksman
-  trident: Thritooth
+  ender_crystal: End Godstone
+  drowned: Drowned
+  dolphin: Mereswine
 effect:
   conduit_power: Flooderstrength
   dolphins_grace: Mereswine's Worthmind
 tropical_fish_type:
   sunstreak: SunStreak
+  blockfish: Blockfish
 dye_color:
+  light_blue: Light Blue
   lime: Lightgreen
+  cyan: Bluegreen
+  blue: Blue
 tropical_fish_name:
   '50726144': Candyfloss Battlefish
   '234882305': Kaiser Red Snapper
@@ -186,54 +407,73 @@ tropical_fish_name:
 colored_shied:
   light_blue: Lightblue Shield
   lime: Lightgreen Shield
+  cyan: Bluegreen Shield
+  blue: Blue Shield
 banner_pattern:
   '65539': Lightblue Bottom Right Hirn
   '65541': Lightgreen Bottom Right Hirn
   '65542': Lightred Bottom Right Hirn
   '65543': Grey Bottom Right Hirn
   '65544': Lightgrey Bottom Right Hirn
+  '65545': Bluegreen Bottom Right Hirn
+  '65547': Blue Bottom Right Hirn
   '131075': Lightblue Bottom Left Hirn
   '131077': Lightgreen Bottom Left Hirn
   '131078': Lightred Bottom Left Hirn
   '131079': Grey Bottom Left Hirn
   '131080': Lightgrey Bottom Left Hirn
+  '131081': Bluegreen Bottom Left Hirn
+  '131083': Blue Bottom Left Hirn
   '196611': Lightblue Top Right Hirn
   '196613': Lightgreen Top Right Hirn
   '196614': Lightred Top Right Hirn
   '196615': Grey Top Right Hirn
   '196616': Lightgrey Top Right Hirn
+  '196617': Bluegreen Top Right Hirn
+  '196619': Blue Top Right Hirn
   '262147': Lightblue Top Left Hirn
   '262149': Lightgreen Top Left Hirn
   '262150': Lightred Top Left Hirn
   '262151': Grey Top Left Hirn
   '262152': Lightgrey Top Left Hirn
+  '262153': Bluegreen Top Left Hirn
+  '262155': Blue Top Left Hirn
   '327683': Lightblue Bottom
   '327685': Lightgreen Bottom
   '327686': Lightred Bottom
   '327687': Grey Bottom
   '327688': Lightgrey Bottom
+  '327689': Bluegreen Bottom
+  '327691': Blue Bottom
   '393219': Lightblue Top
   '393221': Lightgreen Top
   '393222': Lightred Top
   '393223': Grey Top
   '393224': Lightgrey Top
+  '393225': Bluegreen Top
   '393226': Bawsered Top
+  '393227': Blue Top
   '458755': Lightblue Right Thin Stripe
   '458757': Lightgreen Right Thin Stripe
   '458758': Lightred Right Thin Stripe
   '458759': Grey Right Thin Stripe
   '458760': Lightgrey Right Thin Stripe
   '458761': Bluegreen Left Thin Stripe
+  '458763': Blue Right Thin Stripe
   '524291': Lightblue Left Thin Stripe
   '524293': Lightgreen Left Thin Stripe
   '524294': Lightred Left Thin Stripe
   '524295': Grey Left Thin Stripe
   '524296': Lightgrey Left Thin Stripe
+  '524297': Bluegreen Left Thin Stripe
+  '524299': Blue Left Thin Stripe
   '589827': Lightblue Thin Stripe
   '589829': Lightgreen Thin Stripe
   '589830': Lightred Thin Stripe
   '589831': Grey Thin Stripe
   '589832': Lightgrey Thin Stripe
+  '589833': Bluegreen Thin Stripe
+  '589835': Blue Thin Stripe
   '655360': White Balk
   '655361': Yellowred Balk
   '655362': Bawsered Balk
@@ -255,11 +495,15 @@ banner_pattern:
   '720902': Lightred Bend
   '720903': Grey Bend
   '720904': Lightgrey Bend
+  '720905': Bluegreen Bend
+  '720907': Blue Bend
   '786435': Lightblue Left Bend
   '786437': Lightgreen Left Bend
   '786438': Light Red Left Bend
   '786439': Grey Left Bend
   '786440': Lightgrey Left Bend
+  '786441': Bluegreen Left Bend
+  '786443': Blue Left Bend
   '851968': White Fess
   '851969': Yellowred Fess
   '851970': Bawsered Fess
@@ -269,17 +513,40 @@ banner_pattern:
   '851974': Lightred Field Of Standing Stripes
   '851975': Grey Field Of Standing Stripes
   '851976': Lightgrey Field Of Standing Stripes
+  '851977': Bluegreen Field Of Standing Stripes
   '851979': Blue Field Of Standing Stripes
+  '917504': White Andrew's Cross
+  '917505': Yellowred Andrew's Cross
+  '917506': Bawsered Andrew's Cross
   '917507': Lightblue Andrew's Cross
+  '917508': Yellow Andrew's Cross
   '917509': Lightgreen Andrew's Cross
   '917510': Lightred Andrew's Cross
   '917511': Grey Andrew's Cross
   '917512': Lightgrey Andrew's Cross
+  '917513': Bluegreen Andrew's Cross
+  '917514': Bawse Andrew's Cross
+  '917515': Blue Andrew's Cross
+  '917516': Brown Andrew's Cross
+  '917517': Green Andrew's Cross
+  '917518': Red Andrew's Cross
+  '917519': Black Andrew's Cross
+  '983040': White Cross
+  '983041': Yellowred Cross
+  '983042': Bawsered Cross
   '983043': Lightblue Cross
+  '983044': Yellow Cross
   '983045': Lightgreen Cross
   '983046': Lightred Cross
   '983047': Grey Cross
   '983048': Lightgrey Cross
+  '983049': Bluegreen Cross
+  '983050': Bawse Cross
+  '983051': Blue Cross
+  '983052': Brown Cross
+  '983053': Green Cross
+  '983054': Red Cross
+  '983055': Black Cross
   '1048576': White Thriwinkle
   '1048577': Yellowred Thriwinkle
   '1048578': Bawsered Thriwinkle
@@ -317,11 +584,15 @@ banner_pattern:
   '1179654': Lightred Sawtoothed Bottom
   '1179655': Grey Sawtoothed Bottom
   '1179656': Lightgrey Sawtoothed Bottom
+  '1179657': Bluegreen Sawtoothed Bottom
+  '1179659': Blue Sawtoothed Bottom
   '1245187': Lightblue Sawtoothed Top
   '1245189': Lightgreen Sawtoothed Top
   '1245190': Lightred Sawtoothed Top
   '1245191': Grey Sawtoothed Top
   '1245192': Lightgrey Sawtoothed Top
+  '1245193': Bluegreen Sawtoothed Top
+  '1245195': Blue Sawtoothed Top
   '1310720': White Per Bend Sinister
   '1310721': Orange Per Bend Sinister
   '1310722': Magenta Per Bend Sinister
@@ -391,9 +662,14 @@ banner_pattern:
   '1638406': Lightred Kite
   '1638407': Grey Kite
   '1638408': Lightgrey Kite
+  '1638409': Bluegreen Kite
+  '1638411': Blue Kite
+  '1703939': Light Blue Upright Half
   '1703941': Lightgreen Upright Half
   '1703943': Grey Upright Half
   '1703944': Lightgrey Upright Half
+  '1703945': Bluegreen Upright Half
+  '1703947': Blue Upright Half
   '1769472': White Sidelong Half
   '1769473': Orange Sidelong Half
   '1769474': Bawsered Sidelong Half
@@ -447,11 +723,15 @@ banner_pattern:
   '1966086': Lightred Frame
   '1966087': Grey Frame
   '1966088': Lightgrey Frame
+  '1966089': Bluegreen Frame
+  '1966091': Blue Frame
   '2031619': Lightblue Sawtoothed Frame
   '2031621': Lightgreen Sawtoothed Frame
   '2031622': Lightred Sawtoothed Frame
   '2031623': Grey Sawtoothed Frame
   '2031624': Lightgrey Sawtoothed Frame
+  '2031625': Bluegreen Sawtoothed Frame
+  '2031627': Blue Sawtoothed Frame
   '2097152': White Creeper-Shape
   '2097153': Yellowred Creeper-Shape
   '2097154': Bawsered Creeper-Shape
@@ -473,11 +753,15 @@ banner_pattern:
   '2162694': Lightred Dimming
   '2162695': Grey Dimming
   '2162696': Lightgrey Dimming
+  '2162697': Bluegreen Dimming
+  '2162699': Blue Dimming
   '2228227': Lightblue Bottom Dimming
   '2228229': Lightgreen Bottom Dimming
   '2228230': Lightred Bottom Dimming
   '2228231': Grey Bottom Dimming
   '2228232': Lightgrey Bottom Dimming
+  '2228233': Bluegreen Bottom Dimming
+  '2228235': Blue Bottom Dimming
   '2293760': White Bakestone Field
   '2293761': Yellowred Bakestone Field
   '2293762': Bawsered Bakestone Field
@@ -526,7 +810,10 @@ banner_pattern:
   '2424845': Green Bloomshape
   '2424846': Red Bloomshape
   '2424847': Black Bloomshape
+  '2490371': Light Blue Thing
   '2490373': Lightgreen Thing
   '2490374': Lightred Thing
   '2490375': Grey Thing
   '2490376': Lightgrey Thing
+  '2490377': Bluegreen Thing
+  '2490379': Blue Thing

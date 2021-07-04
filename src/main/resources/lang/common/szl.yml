@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:49                    #
+# Build time: 2021-07-04 21:46:04                    #
 # ####################################################
 language:
   code: szl
@@ -14,10 +14,17 @@ material:
   polished_diorite: Wyglancōwany dyjoryt
   andesite: Andezit
   polished_andesite: Wyglancōwany andezit
+  deepslate: Łupek
+  cobbled_deepslate: Łupkowŏ kostka
+  polished_deepslate: Glancōwany łupek
+  calcite: Kalcit
+  tuff: Tuf
+  dripstone_block: Blok nacieku
   grass_block: Blok trŏwy
   dirt: Źymja
   coarse_dirt: Twardŏ źymja
   podzol: Bjołlica
+  rooted_dirt: Źymia z korczami
   crimson_nylium: Szkarłŏtne podglybie
   warped_nylium: Szage podglybie
   cobblestone: Kostka
@@ -39,10 +46,69 @@ material:
   sand: Pjosek
   red_sand: Czyrwōny pjosek
   gravel: Kis
-  gold_ore: Ruda zôta
-  iron_ore: Ruda żylazŏ
   coal_ore: Ruda wōngla
+  deepslate_coal_ore: Łupkowŏ ruda wōngla
+  iron_ore: Ruda żylŏza
+  deepslate_iron_ore: Łupkowŏ ruda żylŏza
+  copper_ore: Ruda miydzi
+  deepslate_copper_ore: Łupkowŏ ruda miydzi
+  gold_ore: Ruda zôta
+  deepslate_gold_ore: Łupkowŏ ruda zôta
+  redstone_ore: Ruda rudziŏka
+  deepslate_redstone_ore: Łupkowŏ ruda redstone
+  emerald_ore: Ruda szmarogdu
+  deepslate_emerald_ore: Łupkowŏ ruda szmarŏgdu
+  lapis_ore: Ruda lazuritu
+  deepslate_lapis_ore: Łupkowŏ ruda lazuritu
+  diamond_ore: Ruda dyjomyntu
+  deepslate_diamond_ore: Łupkowŏ ruda dyjomyntu
   nether_gold_ore: Netherowŏ ruda zôta
+  nether_quartz_ore: Ruda kworcu
+  ancient_debris: Dŏwny ściep
+  coal_block: Blok wōngla
+  raw_iron_block: Blok surowygŏ żylŏza
+  raw_copper_block: Blok surowyj miydzi
+  raw_gold_block: Blok surowygŏ zôta
+  amethyst_block: Blok ametistu
+  budding_amethyst: Krisztalizujōncy ametist
+  iron_block: Blok żylŏza
+  copper_block: Blok miydzi
+  gold_block: Blok zôta
+  diamond_block: Blok dyjomyntu
+  netherite_block: Blok netheritu
+  exposed_copper: Leko utlyniōnŏ miydź
+  weathered_copper: Strzedniŏ utlyniōnŏ miydź
+  oxidized_copper: Utlyniōnŏ miydź
+  cut_copper: Pokrŏtŏ miydź
+  exposed_cut_copper: Leko utlyniōnŏ rzezanŏ miydź
+  weathered_cut_copper: Utlyniōnŏ pokrŏtŏ miydź
+  oxidized_cut_copper: Utleniōnŏ rzezanŏ miydź
+  cut_copper_stairs: Pokrŏte miydzianne schodki
+  exposed_cut_copper_stairs: Leko utlyniōne rzezane miydzianne schodki
+  weathered_cut_copper_stairs: Utlyniōne pokrŏte miydzianne schodki
+  oxidized_cut_copper_stairs: Utlyniōne rzezane miydzianne schodki
+  cut_copper_slab: Pokrŏtŏ miydziannŏ kachla
+  exposed_cut_copper_slab: Leko utlyniōnŏ rzezanŏ miydziannŏ kachla
+  weathered_cut_copper_slab: Waksowanŏ pokrŏtŏ miydziannŏ kachla
+  oxidized_cut_copper_slab: Utlyniōnŏ rzezanŏ miydziannŏ kachla
+  waxed_copper_block: Waksowany blok miydzi
+  waxed_exposed_copper: Waksowanŏ leko utlyniōnŏ miydź
+  waxed_weathered_copper: Waksowanŏ strzedniŏ utlyniōnŏ miydź
+  waxed_oxidized_copper: Waksowanŏ utlyniōnŏ miydź
+  waxed_cut_copper: Waksowanŏ pokrŏtŏ miydź
+  waxed_exposed_cut_copper: Waksowanŏ leko utlyniōnŏ rzezanŏ miydź
+  waxed_weathered_cut_copper: Waksowanŏ strzedniŏ utlyniōnŏ rzezanŏ miydź
+  waxed_oxidized_cut_copper: Waksowanŏ utlyniōnŏ rzezanŏ miydź
+  waxed_cut_copper_stairs: Waksowane pokrŏte miydzianne schodki
+  waxed_exposed_cut_copper_stairs: Waksowane rzezane miydzianne schodki
+  waxed_weathered_cut_copper_stairs: Waksowane strzedniŏ utlyniōne rzezane miydzianne
+    schodki
+  waxed_oxidized_cut_copper_stairs: Waksowane utlyniōne rzezane miydzianne schodki
+  waxed_cut_copper_slab: Waksowanŏ pokrŏtŏ miydziannŏ kachla
+  waxed_exposed_cut_copper_slab: Waksowanŏ leko utlyniōnŏ rzezanŏ miydziannŏ kachla
+  waxed_weathered_cut_copper_slab: Waksowanŏ strzedniŏ utlyniōnŏ rzezanŏ miydziannŏ
+    kachla
+  waxed_oxidized_cut_copper_slab: Waksowanŏ utlyniōnŏ rzezanŏ miydziannŏ kachla
   oak_log: Dymbowy pniŏk
   spruce_log: Smrekowy pniŏk
   birch_log: Brzeźny pniŏk
@@ -81,26 +147,24 @@ material:
   jungle_leaves: Dżunglowe liście
   acacia_leaves: Agacowe liście
   dark_oak_leaves: Ćmawodymbowe liście
+  azalea_leaves: Listki azalije
+  flowering_azalea_leaves: Kwitnōnce liście azalije
   sponge: Gōmbka
   wet_sponge: Mokrŏ gōmbka
   glass: Szkło
-  lapis_ore: Ruda lazuritu
+  tinted_glass: Ćmawe szkło
   lapis_block: Blok lazuritu
-  dispenser: Szczylŏcz
   sandstone: Pjoskowjec
   chiseled_sandstone: Ôciosany pjoskowjec
   cut_sandstone: Pokroty pjoskowjec
-  note_block: Klangblok
-  powered_rail: Napyndzane glajzy
-  detector_rail: Glajzy ze synsorym
-  sticky_piston: Lepkawy pistōn
   cobweb: Kawalera
   grass: Trŏwa
   fern: Paprotka
+  azalea: Azalijŏ
+  flowering_azalea: Kwitnōncŏ azalijŏ
   dead_bush: Uschnyty krzok
   seagrass: Morskŏ trŏwa
   sea_pickle: Ôgniczka
-  piston: Pistōn
   white_wool: Bjołŏ wołna
   orange_wool: Oranżowŏ wołna
   magenta_wool: Karminowŏ wołna
@@ -130,6 +194,7 @@ material:
   cornflower: Faber
   lily_of_the_valley: Majglokla
   wither_rose: Witherrōłza
+  spore_blossom: Fukōwka
   brown_mushroom: Prawok
   red_mushroom: Sromotniŏk
   crimson_fungus: Szkarłŏtny grzib
@@ -141,9 +206,12 @@ material:
   twisting_vines: Skryncōne pnōncza
   sugar_cane: Trzcina cukrowŏ
   kelp: Alga
+  moss_carpet: Szichta mchu
+  moss_block: Blok mchu
+  hanging_roots: Wiszōnce korcze
+  big_dripleaf: Wielgi czampiōnek
+  small_dripleaf: Mały czampiōnek
   bamboo: Bambus
-  gold_block: Blok zôta
-  iron_block: Blok żylaza
   oak_slab: Dymbowŏ kachla
   spruce_slab: Smrekowŏ kachla
   birch_slab: Brzeźnŏ kachla
@@ -173,7 +241,6 @@ material:
   smooth_sandstone: Śliski pjoskowjec
   smooth_stone: Śliski kamjyń
   bricks: Cegłōwki
-  tnt: TNT
   bookshelf: Ksiōnżnicŏ
   mossy_cobblestone: Zamszōnŏ kostka
   obsidian: Ôbsydjōn
@@ -187,27 +254,11 @@ material:
   spawner: Złōnacznik
   oak_stairs: Dymbowe schodki
   chest: Kastla
-  diamond_ore: Ruda dyjomyntu
-  diamond_block: Blok dyjomyntu
   crafting_table: Falbanek
   farmland: Źymja uprownŏ
   furnace: Żeleźniŏk
   ladder: Rzyps
-  rail: Glajzy
   cobblestone_stairs: Kostkowe schodki
-  lever: Wajcha
-  stone_pressure_plate: Kamjynnŏ klikwoga
-  oak_pressure_plate: Dymbowŏ klikwoga
-  spruce_pressure_plate: Smrekowŏ klikwoga
-  birch_pressure_plate: Brzeźnŏ klikwoga
-  jungle_pressure_plate: Dżunglowŏ klikwoga
-  acacia_pressure_plate: Agacowŏ klikwoga
-  dark_oak_pressure_plate: Ćmawodymbowŏ klikwoga
-  crimson_pressure_plate: Szkarłŏtnŏ klikwoga
-  warped_pressure_plate: Szagŏ klikwoga
-  polished_blackstone_pressure_plate: Wyglancōwanŏ czorniŏkowŏ klikwoga
-  redstone_ore: Ruda rudziŏka
-  redstone_torch: Rudziŏkowŏ fakla
   snow: Śniyg
   ice: Lōd
   snow_block: Blok śniygu
@@ -224,48 +275,40 @@ material:
   warped_fence: Szagi płot
   pumpkin: Bania
   carved_pumpkin: Wystruganŏ bania
+  jack_o_lantern: Śwjycōncŏ bania
   netherrack: Netherrack
   soul_sand: Pjosek dusz
   soul_soil: Zol dusz
   basalt: Bazŏlt
   polished_basalt: Wyglancōwany bazŏlt
+  smooth_basalt: Śliski bazŏlt
   soul_torch: Fakla dusz
   glowstone: Blyndŏk
-  jack_o_lantern: Śwjycōncŏ bania
-  oak_trapdoor: Dymbowŏ szłapa
-  spruce_trapdoor: Smrekowŏ szłapa
-  birch_trapdoor: Brzeźnŏ szłapa
-  jungle_trapdoor: Dżunglowŏ szłapa
-  acacia_trapdoor: Agacowŏ szłapa
-  dark_oak_trapdoor: Ćmawodymbowŏ szłapa
-  crimson_trapdoor: Szkarłŏtnŏ szłapa
-  warped_trapdoor: Szagŏ szłapa
   infested_stone: Chrobaczywy kamjyń
   infested_cobblestone: Chrobaczywŏ kostka
   infested_stone_bricks: Chrobaczywe kamjynne cygłōwki
   infested_mossy_stone_bricks: Chrobaczywe zamszōne kamjynne cygłōwki
   infested_cracked_stone_bricks: Chrobaczywe pynknyte kamjynne cygłōwki
   infested_chiseled_stone_bricks: Chrobaczywe wyrezane kamjynne cygłōwki
+  infested_deepslate: Chrobaczywy łupek
   stone_bricks: Kamjynne cygłōwki
   mossy_stone_bricks: Zamszōne kamjynne cygłōwki
   cracked_stone_bricks: Pynknyte kamjynne cygłōwki
   chiseled_stone_bricks: Ôciosane kamjynne cygłōwki
+  deepslate_bricks: Łupkowe cygłōwki
+  cracked_deepslate_bricks: Pynknyte łupkowe cygłōwki
+  deepslate_tiles: Łupkowe flizy
+  cracked_deepslate_tiles: Pynknyte łupkowe flizy
+  chiseled_deepslate: Wyrezany łupek
   brown_mushroom_block: Blok prawoka
   red_mushroom_block: Blok sromotniŏka
   mushroom_stem: Sztyngel grziba
-  iron_bars: Żyloznŏ gitra
-  chain: Ketowy
+  iron_bars: Żylŏznŏ gitra
+  chain: Keta
   glass_pane: Szyba
   melon: Arbuz
   vine: Klimatisu
-  oak_fence_gate: Dymbowŏ bramka
-  spruce_fence_gate: Smrekowŏ bramka
-  birch_fence_gate: Brzeźnŏ bramka
-  jungle_fence_gate: Dżunglowŏ bramka
-  acacia_fence_gate: Agacowŏ bramka
-  dark_oak_fence_gate: Ćmawodymbowŏ bramka
-  crimson_fence_gate: Szkarłŏtnŏ bramka
-  warped_fence_gate: Szagŏ bramka
+  glow_lichen: Blyndbotek
   brick_stairs: Cygłōwkowe schodki
   stone_brick_stairs: Schodki ze kamjynnych cegłōwek
   mycelium: Grziybniŏ
@@ -280,11 +323,8 @@ material:
   end_stone: Kamjyń Endu
   end_stone_bricks: Cygłōwka ze kamjyniŏ Endu
   dragon_egg: Jajco draka
-  redstone_lamp: Rudziŏkowŏ lampa
   sandstone_stairs: Pjoskowcowe schodki
-  emerald_ore: Ruda szmarogdu
   ender_chest: Kastla Endu
-  tripwire_hook: Hok na szpagat
   emerald_block: Blok szmarogdu
   spruce_stairs: Smrekowe schodki
   birch_stairs: Brzeźne schodki
@@ -310,33 +350,18 @@ material:
   blackstone_wall: Czorniŏkowy gelynder
   polished_blackstone_wall: Wyglancōwany czorniŏkowy gelynder
   polished_blackstone_brick_wall: Wyglancōwany czorniŏkowy cygłōwkowy gelynder
-  stone_button: Kamjynny knefel
-  oak_button: Dymbowy knefel
-  spruce_button: Smrekowy knefel
-  birch_button: Brzeźny knefel
-  jungle_button: Dżunglowy knefel
-  acacia_button: Agacowy knefel
-  dark_oak_button: Ćmawodymbowy knefel
-  crimson_button: Szkarłŏtny knefel
-  warped_button: Szagi knefel
-  polished_blackstone_button: Wyglancōwany czorniŏkowy knefel
+  cobbled_deepslate_wall: Łupkowy kostkowy gelynder
+  polished_deepslate_wall: Glancōwany łupkowy gelynder
+  deepslate_brick_wall: Łupkowy cygłōwkowy gelynder
+  deepslate_tile_wall: Łupkowy flizowy gelynder
   anvil: Ambos
   chipped_anvil: Uszczyrbany ambos
   damaged_anvil: Poprzniōny ambos
-  trapped_chest: Paść-kastla
-  light_weighted_pressure_plate: Lekŏ klikwoga
-  heavy_weighted_pressure_plate: Ciyńszkŏ klikwoga
-  daylight_detector: Synsōr jasnŏka
-  redstone_block: Blok rudziŏka
-  nether_quartz_ore: Ruda kworcu
-  hopper: Lyjok
   chiseled_quartz_block: Ôciosany blok kworcu
   quartz_block: Blok kworcu
   quartz_bricks: Kwŏrcŏwe cygłōwki
   quartz_pillar: Kworcowy filorek
   quartz_stairs: Kworcowe schodki
-  activator_rail: Aktiwacyjne glajzy
-  dropper: Podŏwocz
   white_terracotta: Bjołŏ kamiōnka
   orange_terracotta: Oranżowŏ kamiōnka
   magenta_terracotta: Karminowŏ kamiōnka
@@ -354,7 +379,7 @@ material:
   red_terracotta: Czerwōnŏ kamiōnka
   black_terracotta: Czornŏ kamiōnka
   barrier: Baryjera
-  iron_trapdoor: Żylaznŏ szłapa
+  light: Światło
   hay_block: Bal siana
   white_carpet: Bjoły tepich
   orange_carpet: Oranżowy tepich
@@ -373,12 +398,10 @@ material:
   red_carpet: Czerwōny tepich
   black_carpet: Czorny tepich
   terracotta: Kamiōnka
-  coal_block: Blok wōngla
   packed_ice: Strzaskany lōd
   acacia_stairs: Agacowe schodki
   dark_oak_stairs: Ćmawodymbowe schodki
-  slime_block: Szlōmblok
-  grass_path: Trŏwjastŏ cesta
+  dirt_path: Cesta
   sunflower: Zonynbluma
   lilac: Bez
   rose_bush: Krzok rŏzy
@@ -436,7 +459,6 @@ material:
   red_nether_bricks: Czerwōne netherowe cygłōwki
   bone_block: Blok kostyry
   structure_void: Prōżniŏ strukturalnŏ
-  observer: Detektōr
   shulker_box: Shulkerowŏ kastla
   white_shulker_box: Bjołŏ shulkerowŏ kastla
   orange_shulker_box: Oranżowŏ shulkerowŏ kastla
@@ -549,6 +571,10 @@ material:
   red_nether_brick_stairs: Schodki ze czyrwōnyj netherowyj cygłōwki
   polished_andesite_stairs: Schodki ze wyglancōwanygŏ andezitu
   diorite_stairs: Schodki ze dyjorytu
+  cobbled_deepslate_stairs: Łupkowe kostkowe schodki
+  polished_deepslate_stairs: Glancōwane łupkowe schodki
+  deepslate_brick_stairs: Łupkowe cygłōwkowe schodki
+  deepslate_tile_stairs: Łupkowe flizowe schodki
   polished_granite_slab: Kachla ze wyglancōwanygŏ granitu
   smooth_red_sandstone_slab: Kachla ze śliskiygŏ czyrwōnygŏ pjoskŏwca
   mossy_stone_brick_slab: Kachla ze zamszōnych kamjynnych cygłōwek
@@ -562,8 +588,58 @@ material:
   red_nether_brick_slab: Kachla ze czyrwōnyj netherowyj cygłōwki
   polished_andesite_slab: Kachla ze wyglancōwanygŏ andezitu
   diorite_slab: Dyjorytŏwŏ kachla
+  cobbled_deepslate_slab: Łupkowŏ kostkowŏ kachla
+  polished_deepslate_slab: Glancōwanŏ łupkowŏ kachla
+  deepslate_brick_slab: Łupkowŏ cygłōwkowŏ kachla
+  deepslate_tile_slab: Łupkowŏ flizowŏ kachla
   scaffolding: Rusztōnek
-  iron_door: Żylazne dźwiyrza
+  redstone: Utrzyty rudziŏk
+  redstone_torch: Rudziŏkowŏ fakla
+  redstone_block: Blok rudziŏka
+  repeater: Przekŏźnik
+  comparator: Kōmparatōr
+  piston: Pistōn
+  sticky_piston: Lepkawy pistōn
+  slime_block: Szlōmblok
+  honey_block: Blok miodu
+  observer: Detektōr
+  hopper: Lyjok
+  dispenser: Strzylŏcz
+  dropper: Podŏwocz
+  lectern: Sztynder
+  target: Tarcza
+  lever: Wajcha
+  lightning_rod: Blizablajfer
+  daylight_detector: Synsōr jasnŏka
+  sculk_sensor: Sculkowy synsōr
+  tripwire_hook: Hok na szpagat
+  trapped_chest: Paść-kastla
+  tnt: TNT
+  redstone_lamp: Rudziŏkowŏ lampa
+  note_block: Klangblok
+  stone_button: Kamjynny knefel
+  polished_blackstone_button: Wyglancōwany czorniŏkowy knefel
+  oak_button: Dymbowy knefel
+  spruce_button: Smrekowy knefel
+  birch_button: Brzeźny knefel
+  jungle_button: Dżunglowy knefel
+  acacia_button: Agacowy knefel
+  dark_oak_button: Ćmawodymbowy knefel
+  crimson_button: Szkarłŏtny knefel
+  warped_button: Szagi knefel
+  stone_pressure_plate: Kamjynnŏ klikwoga
+  polished_blackstone_pressure_plate: Wyglancōwanŏ czorniŏkowŏ klikwoga
+  light_weighted_pressure_plate: Lekŏ klikwoga
+  heavy_weighted_pressure_plate: Ciyńszkŏ klikwoga
+  oak_pressure_plate: Dymbowŏ klikwoga
+  spruce_pressure_plate: Smrekowŏ klikwoga
+  birch_pressure_plate: Brzeźnŏ klikwoga
+  jungle_pressure_plate: Dżunglowŏ klikwoga
+  acacia_pressure_plate: Agacowŏ klikwoga
+  dark_oak_pressure_plate: Ćmawodymbowŏ klikwoga
+  crimson_pressure_plate: Szkarłŏtnŏ klikwoga
+  warped_pressure_plate: Szagŏ klikwoga
+  iron_door: Żylŏzne dźwiyrza
   oak_door: Dymbowe dźwiyrza
   spruce_door: Smrekowe dźwiyrza
   birch_door: Brzeźne dźwiyrza
@@ -572,8 +648,42 @@ material:
   dark_oak_door: Ćmawodymbowe dźwiyrza
   crimson_door: Szkarłŏtne dźwiyrza
   warped_door: Szage dźwiyrza
-  repeater: Przekŏźnik
-  comparator: Kōmparatōr
+  iron_trapdoor: Żylŏznŏ szłapa
+  oak_trapdoor: Dymbowŏ szłapa
+  spruce_trapdoor: Smrekowŏ szłapa
+  birch_trapdoor: Brzeźnŏ szłapa
+  jungle_trapdoor: Dżunglowŏ szłapa
+  acacia_trapdoor: Agacowŏ szłapa
+  dark_oak_trapdoor: Ćmawodymbowŏ szłapa
+  crimson_trapdoor: Szkarłŏtnŏ szłapa
+  warped_trapdoor: Szagŏ szłapa
+  oak_fence_gate: Dymbowŏ bramka
+  spruce_fence_gate: Smrekowŏ bramka
+  birch_fence_gate: Brzeźnŏ bramka
+  jungle_fence_gate: Dżunglowŏ bramka
+  acacia_fence_gate: Agacowŏ bramka
+  dark_oak_fence_gate: Ćmawodymbowŏ bramka
+  crimson_fence_gate: Szkarłŏtnŏ bramka
+  warped_fence_gate: Szagŏ bramka
+  powered_rail: Napyndzane glajzy
+  detector_rail: Glajzy ze synsorym
+  rail: Glajzy
+  activator_rail: Aktiwacyjne glajzy
+  saddle: Zic
+  minecart: Wagōn
+  chest_minecart: Wagōn ze kastlōm
+  furnace_minecart: Damfmaszyna
+  tnt_minecart: Wagōn ze TNT
+  hopper_minecart: Wagōn ze lyjokiym
+  carrot_on_a_stick: Markew na kijoku
+  warped_fungus_on_a_stick: Szagi grzib na kijŏku
+  elytra: Krzidła
+  oak_boat: Dymbowy korab
+  spruce_boat: Smrekowy korab
+  birch_boat: Brzeźny korab
+  jungle_boat: Dżunglowy korab
+  acacia_boat: Agacowy korab
+  dark_oak_boat: Ćmawodymbowy korab
   structure_block: Blok struktur
   jigsaw: Blok łōmigōwyk
   turtle_helmet: Żōłwiŏ szupa
@@ -581,11 +691,19 @@ material:
   flint_and_steel: Fojercok
   apple: Płōnka
   bow: Bōgyn
-  arrow: Szczała
+  arrow: Strzała
   coal: Wōngel
   charcoal: Drzewny wōngel
   diamond: Dyjomynt
+  emerald: Szmarogd
+  lapis_lazuli: Lazurit
+  quartz: Kworc
+  amethyst_shard: Szkyrtek ametistu
+  raw_iron: Surowe żylŏzo
   iron_ingot: Szynka żylŏza
+  raw_copper: Surowŏ miydź
+  copper_ingot: Szynka miydzi
+  raw_gold: Surowe zôto
   gold_ingot: Szynka zôta
   netherite_ingot: Szynka netheritu
   netherite_scrap: Netheritowy klamor
@@ -608,7 +726,7 @@ material:
   iron_shovel: Żylŏznŏ szipa
   iron_pickaxe: Żylŏznŏ haka
   iron_axe: Żylŏznŏ cieślica
-  iron_hoe: Żyloznŏ kōpaczka
+  iron_hoe: Żylŏznŏ kōpaczka
   diamond_sword: Dyjomyntowy mjycz
   diamond_shovel: Dyjomyntowŏ szipa
   diamond_pickaxe: Dyjomyntowŏ haka
@@ -631,15 +749,15 @@ material:
   leather_helmet: Skōrzanŏ czopka
   leather_chestplate: Skōrzanŏ jakla
   leather_leggings: Skōrzane galoty
-  leather_boots: Skōrzane szczewiki
+  leather_boots: Skōrzane strzewiki
   chainmail_helmet: Szupny hyłm
   chainmail_chestplate: Szupny kirys
   chainmail_leggings: Szupne galŏty
-  chainmail_boots: Szupne szczewiki
+  chainmail_boots: Szupne strzewiki
   iron_helmet: Żylŏzny hyłm
   iron_chestplate: Żylŏzny kirys
   iron_leggings: Żylŏzne galoty
-  iron_boots: Żylŏzne szczewiki
+  iron_boots: Żylŏzne strzewiki
   diamond_helmet: Dyjomyntowy hyłm
   diamond_chestplate: Dyjomyntŏwy kirys
   diamond_leggings: Dyjomyntŏwe galoty
@@ -669,29 +787,27 @@ material:
   bucket: Kibel
   water_bucket: Kibel ze wodōm
   lava_bucket: Kibel ze lawōm
-  minecart: Wagōn
-  saddle: Zic
-  redstone: Utrzyty rudziŏk
+  powder_snow_bucket: Kibel ze sypkim śniygiym
   snowball: Śniyżka
-  oak_boat: Dymbowy korab
   leather: Skōra
   milk_bucket: Kibel mlyka
   pufferfish_bucket: Kibel ze balorybōm
   salmon_bucket: Kibel ze łosōsiym
   cod_bucket: Kibel ze wōntuszym
   tropical_fish_bucket: Kibel ze dżunglowōm rybōm
+  axolotl_bucket: Kibel z aksolotlym
   brick: Cygłōwka
   clay_ball: Bal bōncu
   dried_kelp_block: Blok wyschnytych algōw
   paper: Papjōr
   book: Ksiōnżka
   slime_ball: Szlōmkula
-  chest_minecart: Wagōn ze kastlōm
-  furnace_minecart: Damfmaszyna
   egg: Jajco
   compass: Kōmpas
+  bundle: Miyszek
   fishing_rod: Wyndka
   clock: Zygor
+  spyglass: Optikruła
   glowstone_dust: Proch ze blyndoka
   cod: Surowy wōntusz
   salmon: Surowy łosōś
@@ -700,8 +816,8 @@ material:
   cooked_cod: Pieczōny wōntusz
   cooked_salmon: Pieczōny łosōś
   ink_sac: Miech ze tintōm
+  glow_ink_sac: Miech ze blyndtintōm
   cocoa_beans: Ôsucie kakaôwe
-  lapis_lazuli: Lazurit
   white_dye: Bjołŏ barwiczka
   orange_dye: Oranżowŏ barwiczka
   magenta_dye: Karminowŏ farbiczka
@@ -718,7 +834,7 @@ material:
   green_dye: Źielōnŏ barwiczka
   red_dye: Czyrwōnŏ barwiczka
   black_dye: Czornŏ barwiczka
-  bone_meal: Kostyrnŏ mōnczkŏ
+  bone_meal: Kostyrnŏ mōnczka
   bone: Kostyra
   sugar: Cuker
   cake: Torta
@@ -765,6 +881,7 @@ material:
   cauldron: Kastrol
   ender_eye: Ślypie Endu
   glistering_melon_slice: Zôtawy kōnsek arbuza
+  axolotl_spawn_egg: Jajco z aksolotlym
   bat_spawn_egg: Jajco ze gacopjyrzym
   bee_spawn_egg: Jajco ze binōm
   blaze_spawn_egg: Jajco ze flamŏkiym
@@ -783,6 +900,8 @@ material:
   evoker_spawn_egg: Jajco ze guślŏrzym
   fox_spawn_egg: Jajco z liszkōm
   ghast_spawn_egg: Jajco ze Dōchym
+  glow_squid_spawn_egg: Jajco ze migotnicōm
+  goat_spawn_egg: Jajco ze cigōm
   guardian_spawn_egg: Jajco ze wachtyrzym
   hoglin_spawn_egg: Jajco ze hoglinym
   horse_spawn_egg: Jajco ze kōniym
@@ -833,8 +952,8 @@ material:
   fire_charge: Ôgnisty bal
   writable_book: Ksiōnżka ze filokem
   written_book: Szrajbnytŏ ksiōnżka
-  emerald: Szmarogd
-  item_frame: Roma na klamoty
+  item_frame: Roma na klamot
+  glow_item_frame: Blyndroma na klamot
   flower_pot: Dōniczka
   carrot: Markew
   potato: Kartofel
@@ -848,17 +967,12 @@ material:
   zombie_head: Gowa zōmbiaka
   creeper_head: Gowa creepera
   dragon_head: Gowa draka
-  carrot_on_a_stick: Markew na kijoku
-  warped_fungus_on_a_stick: Szagi grzib na kijŏku
   nether_star: Netherowŏ gwjŏzdŏ
   pumpkin_pie: Kołŏcz ze bani
   firework_rocket: Fojerwerka
   firework_star: Fojerwekowŏ gwiŏzdka
   enchanted_book: Zamagōwanŏ ksiōnżka
   nether_brick: Netherowe cygłōwki
-  quartz: Kworc
-  tnt_minecart: Wagōn ze TNT
-  hopper_minecart: Wagōn ze lyjokiym
   prismarine_shard: Szkyrtek prizmarinu
   prismarine_crystals: Krysztoły prizmarinu
   rabbit: Surowy mycŏk
@@ -867,9 +981,9 @@ material:
   rabbit_foot: Szłapka mycŏka
   rabbit_hide: Skora mycŏka
   armor_stand: Stojŏk na zbrojŏ
-  iron_horse_armor: Żylŏznŏ kōńskŏ zbrojŏ
-  golden_horse_armor: Zôtŏ kōńskŏ zbrojŏ
-  diamond_horse_armor: Dyjomyntowŏ kōńskŏ zbrojŏ
+  iron_horse_armor: Żylŏznŏ kōńskŏ zbroja
+  golden_horse_armor: Zôtŏ kōńskŏ zbroja
+  diamond_horse_armor: Dyjomyntowŏ kōńskŏ zbroja
   leather_horse_armor: Skōrzannŏ kōńskŏ zbroja
   lead: Smycz
   name_tag: Znocznik
@@ -900,16 +1014,10 @@ material:
   beetroot_soup: Ćwikelzupa
   dragon_breath: Dech draka
   splash_potion: Ciepany wywōr
-  spectral_arrow: Blinkowŏ szczała
-  tipped_arrow: Tōnknytŏ szczała
+  spectral_arrow: Blinkowŏ strzała
+  tipped_arrow: Tōnknytŏ strzała
   lingering_potion: Kurzwywōr
   shield: Powynż
-  elytra: Krzidła
-  spruce_boat: Smrekowy korab
-  birch_boat: Brzeźny korab
-  jungle_boat: Dżunglowy korab
-  acacia_boat: Agacowy korab
-  dark_oak_boat: Ćmawodymbowy korab
   totem_of_undying: Totym niyśmiyrtelności
   shulker_shell: Szupa shulkera
   iron_nugget: Kōnsek żylŏzŏ
@@ -946,15 +1054,15 @@ material:
   smoker: Wyndzŏk
   blast_furnace: Martin
   cartography_table: Kartografowy stōł
-  fletching_table: Stōł dŏ szczał
+  fletching_table: Stōł dŏ strzał
   grindstone: Brusek
-  lectern: Sztynder
   smithing_table: Kŏwŏczowy stōł
   stonecutter: Krajzyga
   bell: Zwōn
   lantern: Blyndka
   soul_lantern: Blyndka dusz
   sweet_berries: Słodke borōwki
+  glow_berries: Blyndōwki
   campfire: Fojera
   soul_campfire: Fojera dusz
   shroomlight: Blyndogrzib
@@ -962,12 +1070,8 @@ material:
   bee_nest: Gniŏzdo binōw
   beehive: Binehaus
   honey_bottle: Flaszka miodu
-  honey_block: Blok miodu
   honeycomb_block: Blok ślyzykōw miodu
   lodestone: Magnetit
-  netherite_block: Blok netheritu
-  ancient_debris: Dŏwny ściep
-  target: Tarcza
   crying_obsidian: Płaczkowy ôbsydjōn
   blackstone: Czorniŏk
   blackstone_slab: Czorniŏkowŏ kachla
@@ -982,6 +1086,28 @@ material:
   polished_blackstone_brick_stairs: Wyglancōwane czorniŏkowe cygłōwkowe schodki
   cracked_polished_blackstone_bricks: Pynknyte wyglancōwane czorniŏkowe cygłōwki
   respawn_anchor: Ankra ôdrŏdzyniŏ
+  candle: Świyczka
+  white_candle: Bjołŏ świyczka
+  orange_candle: Oranżowŏ świyczka
+  magenta_candle: Karminowŏ świyczka
+  light_blue_candle: Jasnomodrŏ świyczka
+  yellow_candle: Żōłtŏ świyczka
+  lime_candle: Limōnkowŏ świyczka
+  pink_candle: Rōżowŏ świyczka
+  gray_candle: Szadŏ świyczka
+  light_gray_candle: Jasnoszadŏ świyczka
+  cyan_candle: Azurowŏ świyczka
+  purple_candle: Lilowŏ świyczka
+  blue_candle: Modrŏ świyczka
+  brown_candle: Brunŏtnŏ świyczka
+  green_candle: Zielōnŏ świyczka
+  red_candle: Czerwōnŏ świyczka
+  black_candle: Czornŏ świyczka
+  small_amethyst_bud: Mały pōnczek ametistu
+  medium_amethyst_bud: Strzedni pōnczek ametistu
+  large_amethyst_bud: Srogi pōnczek ametistu
+  amethyst_cluster: Kympa ametistu
+  pointed_dripstone: Szpicaty ciōmpel
   water: Woda
   lava: Lawŏ
   tall_seagrass: Wysokŏ trŏwa morskŏ
@@ -1004,33 +1130,36 @@ material:
   attached_melon_stem: Prziłōnczōny sztyngel arbuzu
   pumpkin_stem: Sztyngel bani
   melon_stem: Sztyngel arbuza
+  water_cauldron: Kastrol wody
+  lava_cauldron: Kastrol lawy
+  powder_snow_cauldron: Kastrol sypkiygŏ śniygu
   end_portal: Portol Endu
   cocoa: Kakau
   tripwire: Szpagat
-  potted_oak_sapling: Flanca dymbu we fajerce
-  potted_spruce_sapling: Flanca smreku we fajerce
-  potted_birch_sapling: Flanca brzōzki we fajerce
-  potted_jungle_sapling: Dżunglowŏ flanca we fajerce
-  potted_acacia_sapling: Flanca agacy we fajerce
-  potted_dark_oak_sapling: Flanca ćmawygŏ dymbu we fajerce
-  potted_fern: Paprotka we fajerce
-  potted_dandelion: Mlycz we fajerce
-  potted_poppy: Mak we fajerce
-  potted_blue_orchid: Modry storczyk we fajerce
-  potted_allium: Knobloch we fajerce
-  potted_azure_bluet: Azurowŏ houstonia we fajerce
-  potted_red_tulip: Czerwōnŏ tulpa we fajerce
-  potted_orange_tulip: Oranżowŏ tulpa we fajerce
-  potted_white_tulip: Bjołŏ tulpa we fajerce
-  potted_pink_tulip: Rōżôwŏ tulpa we fajerce
-  potted_oxeye_daisy: Gynsipympek we fajerce
-  potted_cornflower: Faber we fajerce
-  potted_lily_of_the_valley: Majowniczek we fajerce
-  potted_wither_rose: Witherrōłza we fajerce
-  potted_red_mushroom: Sromotniŏk we fajerce
-  potted_brown_mushroom: Prawok we fajerce
-  potted_dead_bush: Uschnyty krzok we fajerce
-  potted_cactus: Kaktus we fajerce
+  potted_oak_sapling: Flanca dymbu we ôtce
+  potted_spruce_sapling: Flanca smreku we ôtce
+  potted_birch_sapling: Flanca brzōzki we ôtce
+  potted_jungle_sapling: Dżunglowŏ flanca we ôtce
+  potted_acacia_sapling: Flanca agacy we ôtce
+  potted_dark_oak_sapling: Flanca ćmawygŏ dymbu we ôtce
+  potted_fern: Paprotka we ôtce
+  potted_dandelion: Mlycz we ôtce
+  potted_poppy: Mak we ôtce
+  potted_blue_orchid: Modry storczyk we ôtce
+  potted_allium: Knobloch we ôtce
+  potted_azure_bluet: Azurowŏ houstonia we ôtce
+  potted_red_tulip: Czerwōnŏ tulpa we ôtce
+  potted_orange_tulip: Oranżowŏ tulpa we ôtce
+  potted_white_tulip: Bjołŏ tulpa we ôtce
+  potted_pink_tulip: Rōżôwŏ tulpa we ôtce
+  potted_oxeye_daisy: Gynsipympek we ôtce
+  potted_cornflower: Faber we ôtce
+  potted_lily_of_the_valley: Majowniczek we ôtce
+  potted_wither_rose: Witherrōłza we ôtce
+  potted_red_mushroom: Sromotniŏk we ôtce
+  potted_brown_mushroom: Prawŏk we ôtce
+  potted_dead_bush: Uschnyty krzŏk we ôtce
+  potted_cactus: Kaktus we ôtce
   carrots: Markwie
   potatoes: Kartofle
   skeleton_wall_skull: Ściynnŏ czacha szkeleta
@@ -1070,7 +1199,7 @@ material:
   fire_coral_wall_fan: Wachlŏrz naściynny kōrola ôgniŏwygŏ
   horn_coral_wall_fan: Wachlŏrz naściynny kōrola rōgatygŏ
   bamboo_sapling: Pynd bambusa
-  potted_bamboo: Bambus we fajerce
+  potted_bamboo: Bambus we ôtce
   void_air: Luft prōżnijŏ
   cave_air: Jaskińŏwy luft
   bubble_column: Bōmble
@@ -1079,10 +1208,34 @@ material:
   twisting_vines_plant: Flanca skryncōnych pnōnczy
   crimson_wall_sign: Szkarłŏtny ściynny znŏk
   warped_wall_sign: Szagi ściynny znŏk
-  potted_crimson_fungus: Szkarłŏtny grzib we fajerce
-  potted_warped_fungus: Szagi grzib we fajerce
-  potted_crimson_roots: Szkarłŏtne korcze we fajerce
-  potted_warped_roots: Szage korcze we fajerce
+  potted_crimson_fungus: Szkarłŏtny grzib we ôtce
+  potted_warped_fungus: Szagi grzib we ôtce
+  potted_crimson_roots: Szkarłŏtne korcze we ôtce
+  potted_warped_roots: Szage korcze we ôtce
+  candle_cake: Torta ze świyczkōm
+  white_candle_cake: Torta ze bjŏłōm świyczkōm
+  orange_candle_cake: Torta ze oranżowōm świyczkōm
+  magenta_candle_cake: Torta ze karminowōm świyczkōm
+  light_blue_candle_cake: Torta ze jasnomodrōm świyczkōm
+  yellow_candle_cake: Torta ze żōłtōm świyczkōm
+  lime_candle_cake: Torta ze limōnkowōm świyczkōm
+  pink_candle_cake: Torta ze rōżowōm świyczkōm
+  gray_candle_cake: Torta ze szadōm świyczkōm
+  light_gray_candle_cake: Torta ze jasnoszadōm świyczkōm
+  cyan_candle_cake: Torta ze azurowōm świyczkōm
+  purple_candle_cake: Torta ze lilowōm świyczkōm
+  blue_candle_cake: Torta ze modrōm świyczkōm
+  brown_candle_cake: Torta ze brunŏtnōm świyczkōm
+  green_candle_cake: Torta ze zielōnōm świyczkōm
+  red_candle_cake: Torta ze czerwōnōm świyczkōm
+  black_candle_cake: Torta ze czŏrnōm świyczkōm
+  powder_snow: Sypki śniyg
+  cave_vines: Jaskińowe pnōncza
+  cave_vines_plant: Rosnōnce jaskińowe pnōncza
+  big_dripleaf_stem: Sztyngel wielgigo czampiōnka
+  potted_azalea_bush: Azalijŏ we ôtce
+  potted_flowering_azalea_bush: Kwitnōncŏ azalijŏ we ôtce
+  grass_path: Trŏwjastŏ cesta
   zombie_pigman_spawn_egg: Jajco ze świniokiym zōmbiokiym
   cactus_green: Kaktusowŏ źielyń
   dandelion_yellow: Mleczowa żółć
@@ -1111,7 +1264,7 @@ biome:
   wooded_hills: Zalysiōne hołdy
   taiga_hills: Tajgowe hołdy
   mountain_edge: Kraj wjyrchu
-  jungle: Dżunglŏ
+  jungle: Dżungla
   jungle_hills: Dżunglowe hołdy
   jungle_edge: Kraj dżunglŏ
   deep_ocean: Dymboki ôcyjon
@@ -1169,46 +1322,48 @@ biome:
   crimson_forest: Szkarłŏtny las
   warped_forest: Szagi las
   basalt_deltas: Bazŏltŏwe uścia
+  dripstone_caves: Ciōmplowe jaskińy
+  lush_caves: Ktajōnce jaskińy
   nether: Nether
 enchantment:
-  fire_protection: Ôgniŏôbstōńy
-  sharpness: Ôstrŏść
-  flame: Pōmjyń
-  soul_speed: Drapkość dusz
-  aqua_affinity: W gorkiyj wodzie kōmpany
-  punch: Fanga
-  loyalty: Wjernŏść
-  depth_strider: Głymbinowy wandrus
-  vanishing_curse: Przirok podzianiŏ
-  unbreaking: Ńyzhuntŏwnŏść
-  knockback: Ôdciep
-  luck_of_the_sea: Morske darziyńy
-  binding_curse: Przirok pomŏtlania
-  fortune: Darziyńy
   protection: Ôchrōna
-  efficiency: Ôbrotność
-  mending: Sprŏwunek
-  frost_walker: Zmarznyty łazik
-  lure: Podkłŏdek
-  looting: Habjyńy
-  piercing: Przeżgańy
-  blast_protection: Ôchrōna przed abszusym
-  smite: Tympiciyl
-  multishot: Mockaszczał
-  fire_aspect: Zaklynty ôgiyń
-  channeling: Blicszlag
-  sweeping: Szyrokŏ szpica
-  thorns: Ôżyny
-  bane_of_arthropods: Mora chrobŏkōw
-  respiration: Dychańy
-  riptide: Wrŏcajōncŏ wela
-  silk_touch: Jedbŏwne tykanie
-  quick_charge: Gibke nabićy
-  projectile_protection: Ôchrōna przed szustami
-  impaling: Przebodnyćy
+  fire_protection: Ôgniŏôbstōńy
   feather_falling: Ôpaterne padniyńcie
+  blast_protection: Ôchrōna przed abszusym
+  projectile_protection: Ôchrōna przed szustami
+  respiration: Dychańy
+  aqua_affinity: W gorkiyj wodzie kōmpany
+  thorns: Ôżyny
+  depth_strider: Głymbinowy wandrus
+  frost_walker: Zmarznyty łazik
+  binding_curse: Przirok pomŏtlania
+  sharpness: Ôstrŏść
+  smite: Tympiciyl
+  bane_of_arthropods: Mora chrobŏkōw
+  knockback: Ôdciep
+  fire_aspect: Zaklynty ôgiyń
+  looting: Habjyńy
+  sweeping: Szyrokŏ szpica
+  efficiency: Ôbrotność
+  silk_touch: Jedbŏwne tykanie
+  unbreaking: Ńyzhuntŏwnŏść
+  fortune: Darziyńy
   power: Siyła
+  punch: Fanga
+  flame: Pōmjyń
   infinity: Ńyskōnczōnŏść
+  luck_of_the_sea: Morske darziyńy
+  lure: Podkłŏdek
+  loyalty: Wjernŏść
+  impaling: Przebodnyćy
+  riptide: Wrŏcajōncŏ wela
+  channeling: Blicszlag
+  multishot: Mockastrzał
+  quick_charge: Gibke nabićy
+  piercing: Przeżgańy
+  mending: Sprŏwunek
+  vanishing_curse: Przirok podzianiŏ
+  soul_speed: Drapkość dusz
 potion:
   uncraftable: Ńyzłōnaczalny wywōr
   water: Flaszka wody
@@ -1276,27 +1431,27 @@ lingering_potion:
   turtle_master: Kurzwywōr żōłwiygŏ majstra
   slow_falling: Kurzwywōr lekkygŏ slatywaniŏ
 tipped_arrow:
-  uncraftable: Ńyzłōnaczalnŏ tōnknytŏ szczała
-  water: Szczała ciŏplaniŏ
-  mundane: Tōnknytŏ szczała
-  thick: Tōnknytŏ szczała
-  awkward: Tōnknytŏ szczała
-  night_vision: Szczała widzyniŏ w ćmie
-  invisibility: Szczała ńywidzianości
-  jump: Szczała hibu
-  fire_resistance: Szczała ôgniŏôbstōniŏ
-  speed: Szczała gibkości
-  slowness: Szczałŏ spōmalyniŏ
-  water_breathing: Szczała dychaniŏ pod wodōm
-  instant_heal: Szczała lykōwaniŏ
-  instant_damage: Szczała harataniŏ
-  poison: Szczała zajadzyniŏ
-  regen: Szczała regeneracyjŏ
-  strength: Szczała siyły
-  weakness: Szczała słaboty
-  luck: Szczała szczynściŏ
-  turtle_master: Szczała żōłwiygŏ majstra
-  slow_falling: Szczała polekkygŏ slatywaniŏ
+  uncraftable: Ńyzłōnaczalnŏ tōnknytŏ strzała
+  water: Strzała ciŏplaniŏ
+  mundane: Tōnknytŏ strzała
+  thick: Tōnknytŏ strzała
+  awkward: Tōnknytŏ strzała
+  night_vision: Strzała widzyniŏ we ćmie
+  invisibility: Strzała ńywidzianości
+  jump: Strzała hibu
+  fire_resistance: Strzała ôgniŏôbstōniŏ
+  speed: Strzała gibkości
+  slowness: Strzałŏ spōmalyniŏ
+  water_breathing: Strzała dychaniŏ pod wodōm
+  instant_heal: Strzała lykōwaniŏ
+  instant_damage: Strzała harataniŏ
+  poison: Strzała zajadzyniŏ
+  regen: Strzała regeneracyjŏ
+  strength: Strzała siyły
+  weakness: Strzała słaboty
+  luck: Strzała szczynściŏ
+  turtle_master: Strzała żōłwiygŏ majstra
+  slow_falling: Strzała polekkygŏ slatywaniŏ
 entity:
   dropped_item: Klamot
   experience_orb: Kula yksperiyncyjŏ
@@ -1307,7 +1462,7 @@ entity:
   egg: Ciepnyte jajco
   leash_hitch: Knŏtyl szpagatu
   painting: Ôbrŏz
-  arrow: Szczała
+  arrow: Strzała
   snowball: Śniyżka
   fireball: Ôgniobal
   small_fireball: Mały ôgniobal
@@ -1315,19 +1470,19 @@ entity:
   ender_signal: Ślypie Endu
   splash_potion: Wywōr
   thrown_exp_bottle: Ciepnytŏ zamagōwanŏ flaszka
-  item_frame: Roma na klamoty
+  item_frame: Roma na klamot
   wither_skull: Czacha withera
   primed_tnt: Ôdpalōne TNT
   falling_block: Slatujōncy blok
   firework: Fojerwerka
   husk: Zdechlŏk
-  spectral_arrow: Blinkowŏ szczała
+  spectral_arrow: Blinkowŏ strzała
   shulker_bullet: Patrony shulkera
   dragon_fireball: Ôgniŏkula draka
   zombie_villager: Siedlok-zōmbiŏk
   skeleton_horse: Kōń-szkelet
   zombie_horse: Kōń-zōmbiok
-  armor_stand: Stojŏl na zbrojŏ
+  armor_stand: Stojŏk na zbroja
   donkey: Ôsioł
   mule: Mōł
   evoker_fangs: Gryzŏk guślŏrza
@@ -1350,7 +1505,7 @@ entity:
   zombie: Zombiok
   slime: Szlōm
   ghast: Ghast
-  zombified_piglin: Ńyumrzity wieprzōń
+  zombified_piglin: Zombie wieprzōń
   enderman: Endermon
   cave_spider: Jaskiniŏwy pajōnk
   silverfish: Strzibnoryba
@@ -1372,7 +1527,7 @@ entity:
   mushroom_cow: Mooshroom
   snowman: Śniygŏwy golym
   ocelot: Ôcylot
-  iron_golem: Żylŏżny golym
+  iron_golem: Żylŏzny golym
   horse: Kōń
   rabbit: Mycŏk
   polar_bear: Śniygŏwy ńydźwjydź
@@ -1402,7 +1557,12 @@ entity:
   piglin: Piglin
   strider: Magmŏk
   zoglin: Zoglin
-  piglin_brute: Wieprzōń chwant
+  piglin_brute: Piglin chwant
+  axolotl: Aksolotl
+  glow_item_frame: Blyndroma na klamot
+  glow_squid: Migotnica
+  goat: Ciga
+  marker: Znŏcznik
   fishing_hook: Spłowik
   lightning: Blysk
   player: Grŏcz
@@ -2194,7 +2354,7 @@ villager_profession:
   cleric: Farorz
   farmer: Gospŏdŏrz
   fisherman: Rybjŏrz
-  fletcher: Szczałŏrz
+  fletcher: Strzałŏrz
   leatherworker: Siodlŏrz
   librarian: Ksiōnszkŏrz
   mason: Mulŏrz
@@ -2202,17 +2362,3 @@ villager_profession:
   shepherd: Ôwcŏrz
   toolsmith: Norzyndziŏrz
   weaponsmith: Zbrojmajster
-villager_career:
-  farmer: Gospŏdŏrz
-  fisherman: Rybjŏrz
-  shepherd: Ôwcŏrz
-  fletcher: Szczałŏrz
-  librarian: Ksiōnkŏrz
-  cartographer: Kartogrof
-  cleric: Farorz
-  armorer: Zbrojŏrz
-  weapon_smith: Kŏwŏcz
-  tool_smith: Kŏwŏl
-  butcher: Masorz
-  leatherworker: Siodlorz
-  nitwit: Gupielok

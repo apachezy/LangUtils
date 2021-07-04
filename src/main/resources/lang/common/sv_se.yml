@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:49                    #
+# Build time: 2021-07-04 21:46:04                    #
 # ####################################################
 language:
   code: sv_se
@@ -14,10 +14,17 @@ material:
   polished_diorite: Polerad diorit
   andesite: Andesit
   polished_andesite: Polerad andesit
+  deepslate: Djupskiffer
+  cobbled_deepslate: Kullerstensformad djupskiffer
+  polished_deepslate: Polerad djupskiffer
+  calcite: Kalcit
+  tuff: Tuff
+  dripstone_block: Droppstensblock
   grass_block: Gräsblock
   dirt: Jord
   coarse_dirt: Grusig jord
   podzol: Podsol
+  rooted_dirt: Rotad jord
   crimson_nylium: Karmosinnycel
   warped_nylium: Förvrängd nycel
   cobblestone: Kullersten
@@ -39,10 +46,67 @@ material:
   sand: Sand
   red_sand: Röd sand
   gravel: Grus
-  gold_ore: Guldmalm
-  iron_ore: Järnmalm
   coal_ore: Kolmalm
+  deepslate_coal_ore: Djupskifferinbäddad kolmalm
+  iron_ore: Järnmalm
+  deepslate_iron_ore: Djupskifferinbäddad järnmalm
+  copper_ore: Kopparmalm
+  deepslate_copper_ore: Djupskifferinbäddad kopparmalm
+  gold_ore: Guldmalm
+  deepslate_gold_ore: Djupskifferinbäddad guldmalm
+  redstone_ore: Redstonemalm
+  deepslate_redstone_ore: Djupskifferinbäddad redstonemalm
+  emerald_ore: Smaragdmalm
+  deepslate_emerald_ore: Djupskifferinbäddad smaragdmalm
+  lapis_ore: Lapis lazulimalm
+  deepslate_lapis_ore: Djupskifferinbäddad lapis lazulimalm
+  diamond_ore: Diamantmalm
+  deepslate_diamond_ore: Djupskifferinbäddad diamantmalm
   nether_gold_ore: Netherguldmalm
+  nether_quartz_ore: Netherkvartsmalm
+  ancient_debris: Forntida spillror
+  coal_block: Kolblock
+  raw_iron_block: Råjärnsblock
+  raw_copper_block: Råkopparblock
+  raw_gold_block: Råguldsblock
+  amethyst_block: Ametistblock
+  budding_amethyst: Knoppande ametist
+  iron_block: Järnblock
+  copper_block: Kopparblock
+  gold_block: Guldblock
+  diamond_block: Diamantblock
+  netherite_block: Netheritblock
+  exposed_copper: Exponerad koppar
+  weathered_copper: Väderbiten koppar
+  oxidized_copper: Ärgad koppar
+  cut_copper: Skuren koppar
+  exposed_cut_copper: Exponerad skuren koppar
+  weathered_cut_copper: Väderbiten skuren koppar
+  oxidized_cut_copper: Ärgad skuren koppar
+  cut_copper_stairs: Skuren koppartrappa
+  exposed_cut_copper_stairs: Exponerad skuren koppartrappa
+  weathered_cut_copper_stairs: Väderbiten skuren koppartrappa
+  oxidized_cut_copper_stairs: Ärgad skuren koppartrappa
+  cut_copper_slab: Skuren kopparplatta
+  exposed_cut_copper_slab: Exponerad skuren kopparplatta
+  weathered_cut_copper_slab: Väderbiten skuren kopparplatta
+  oxidized_cut_copper_slab: Ärgad skuren kopparplatta
+  waxed_copper_block: Vaxat kopparblock
+  waxed_exposed_copper: Vaxad exponerad koppar
+  waxed_weathered_copper: Vaxad väderbiten koppar
+  waxed_oxidized_copper: Vaxad ärgad koppar
+  waxed_cut_copper: Vaxad skuren koppar
+  waxed_exposed_cut_copper: Vaxad exponerad skuren koppar
+  waxed_weathered_cut_copper: Vaxad väderbiten skuren koppar
+  waxed_oxidized_cut_copper: Vaxad ärgad skuren koppar
+  waxed_cut_copper_stairs: Vaxad skuren koppartrappa
+  waxed_exposed_cut_copper_stairs: Vaxad exponerad skuren koppartrappa
+  waxed_weathered_cut_copper_stairs: Vaxad väderbiten skuren koppartrappa
+  waxed_oxidized_cut_copper_stairs: Vaxad ärgad skuren koppartrappa
+  waxed_cut_copper_slab: Vaxad skuren kopparplatta
+  waxed_exposed_cut_copper_slab: Vaxad exponerad skuren kopparplatta
+  waxed_weathered_cut_copper_slab: Vaxad väderbiten skuren kopparplatta
+  waxed_oxidized_cut_copper_slab: Vaxad ärgad skuren kopparplatta
   oak_log: Ekstam
   spruce_log: Granstam
   birch_log: Björkstam
@@ -81,26 +145,24 @@ material:
   jungle_leaves: Djungellöv
   acacia_leaves: Akacialöv
   dark_oak_leaves: Mörka eklöv
+  azalea_leaves: Azalealöv
+  flowering_azalea_leaves: Blommande azalealöv
   sponge: Svamp
   wet_sponge: Våt svamp
   glass: Glas
-  lapis_ore: Lapis lazulimalm
+  tinted_glass: Tonat glas
   lapis_block: Lapis lazuliblock
-  dispenser: Automat
   sandstone: Sandsten
   chiseled_sandstone: Mejslad sandsten
   cut_sandstone: Skuren sandsten
-  note_block: Notblock
-  powered_rail: Krafträls
-  detector_rail: Sensorräls
-  sticky_piston: Klibbig kolv
   cobweb: Spindelnät
   grass: Gräs
   fern: Ormbunke
+  azalea: Azalea
+  flowering_azalea: Blommande azalea
   dead_bush: Död buske
   seagrass: Sjögräs
   sea_pickle: Havsgurka
-  piston: Kolv
   white_wool: Vit ull
   orange_wool: Orange ull
   magenta_wool: Ljuslila ull
@@ -130,6 +192,7 @@ material:
   cornflower: Blåklint
   lily_of_the_valley: Liljekonvalj
   wither_rose: Witherros
+  spore_blossom: Sporblomma
   brown_mushroom: Brun svamp
   red_mushroom: Röd svamp
   crimson_fungus: Karmosinsvamp
@@ -141,9 +204,12 @@ material:
   twisting_vines: Vridande klätterväxt
   sugar_cane: Sockerrör
   kelp: Kelp
+  moss_carpet: Mossmatta
+  moss_block: Mossblock
+  hanging_roots: Hängande rötter
+  big_dripleaf: Stort dropplöv
+  small_dripleaf: Litet dropplöv
   bamboo: Bambu
-  gold_block: Guldblock
-  iron_block: Järnblock
   oak_slab: Ekplatta
   spruce_slab: Granplatta
   birch_slab: Björkplatta
@@ -158,7 +224,7 @@ material:
   cut_sandstone_slab: Skuren sandstensplatta
   petrified_oak_slab: Förstenad ekplatta
   cobblestone_slab: Kullerstensplatta
-  brick_slab: Tegelstensplatta
+  brick_slab: Tegelplatta
   stone_brick_slab: Murstensplatta
   nether_brick_slab: Nethertegelplatta
   quartz_slab: Kvartsplatta
@@ -166,14 +232,13 @@ material:
   cut_red_sandstone_slab: Skuren röd sandstensplatta
   purpur_slab: Purpurplatta
   prismarine_slab: Prismarinplatta
-  prismarine_brick_slab: Prismarintegelplatta
+  prismarine_brick_slab: Prismarinmurstensplatta
   dark_prismarine_slab: Mörk prismarinplatta
   smooth_quartz: Lent kvartsblock
   smooth_red_sandstone: Len röd sandsten
   smooth_sandstone: Len sandsten
   smooth_stone: Len sten
-  bricks: Tegelstenar
-  tnt: Dynamit
+  bricks: Tegel
   bookshelf: Bokhylla
   mossy_cobblestone: Mossig kullersten
   obsidian: Obsidian
@@ -187,27 +252,11 @@ material:
   spawner: Monsterskapare
   oak_stairs: Ektrappa
   chest: Kista
-  diamond_ore: Diamantmalm
-  diamond_block: Diamantblock
   crafting_table: Arbetsbänk
   farmland: Åkerjord
   furnace: Ugn
   ladder: Stege
-  rail: Räls
   cobblestone_stairs: Kullerstenstrappa
-  lever: Spak
-  stone_pressure_plate: Stentryckplatta
-  oak_pressure_plate: Ektryckplatta
-  spruce_pressure_plate: Grantryckplatta
-  birch_pressure_plate: Björktryckplatta
-  jungle_pressure_plate: Djungeltryckplatta
-  acacia_pressure_plate: Akaciatryckplatta
-  dark_oak_pressure_plate: Mörk ektryckplatta
-  crimson_pressure_plate: Karmosintryckplatta
-  warped_pressure_plate: Förvrängd tryckplatta
-  polished_blackstone_pressure_plate: Polerad svartstenstryckplatta
-  redstone_ore: Redstonemalm
-  redstone_torch: Redstonefackla
   snow: Snö
   ice: Is
   snow_block: Snöblock
@@ -224,32 +273,31 @@ material:
   warped_fence: Förvrängt staket
   pumpkin: Pumpa
   carved_pumpkin: Skuren pumpa
+  jack_o_lantern: Pumpalykta
   netherrack: Netherrack
   soul_sand: Själsand
   soul_soil: Själjord
   basalt: Basalt
   polished_basalt: Polerad basalt
+  smooth_basalt: Len basalt
   soul_torch: Själfackla
   glowstone: Glödsten
-  jack_o_lantern: Pumpalykta
-  oak_trapdoor: Ekfallucka
-  spruce_trapdoor: Granfallucka
-  birch_trapdoor: Björkfallucka
-  jungle_trapdoor: Djungelfallucka
-  acacia_trapdoor: Akaciafallucka
-  dark_oak_trapdoor: Mörk ekfallucka
-  crimson_trapdoor: Karmosinfallucka
-  warped_trapdoor: Förvrängd fallucka
   infested_stone: Angripen sten
   infested_cobblestone: Angripen kullersten
   infested_stone_bricks: Angripen mursten
   infested_mossy_stone_bricks: Angripen mossig mursten
   infested_cracked_stone_bricks: Angripen sprucken mursten
   infested_chiseled_stone_bricks: Angripen mejslad mursten
+  infested_deepslate: Angripen djupskiffer
   stone_bricks: Mursten
   mossy_stone_bricks: Mossig mursten
   cracked_stone_bricks: Sprucken mursten
   chiseled_stone_bricks: Mejslad mursten
+  deepslate_bricks: Djupskiffermursten
+  cracked_deepslate_bricks: Sprucken djupskiffermursten
+  deepslate_tiles: Djupskiffertegel
+  cracked_deepslate_tiles: Sprucket djupskiffertegel
+  chiseled_deepslate: Mejslad djupskiffer
   brown_mushroom_block: Brunt svampblock
   red_mushroom_block: Rött svampblock
   mushroom_stem: Svampfot
@@ -258,15 +306,8 @@ material:
   glass_pane: Glasruta
   melon: Melon
   vine: Klätterväxt
-  oak_fence_gate: Ekgrind
-  spruce_fence_gate: Grangrind
-  birch_fence_gate: Björkgrind
-  jungle_fence_gate: Djungelgrind
-  acacia_fence_gate: Akaciagrind
-  dark_oak_fence_gate: Mörk ekgrind
-  crimson_fence_gate: Karmosingrind
-  warped_fence_gate: Förvrängd grind
-  brick_stairs: Tegelstenstrappa
+  glow_lichen: Glödande lav
+  brick_stairs: Tegeltrappa
   stone_brick_stairs: Murstenstrappa
   mycelium: Mycel
   lily_pad: Näckrosblad
@@ -280,11 +321,8 @@ material:
   end_stone: Endsten
   end_stone_bricks: Endmursten
   dragon_egg: Drakägg
-  redstone_lamp: Redstonelampa
   sandstone_stairs: Sandstenstrappa
-  emerald_ore: Smaragdmalm
   ender_chest: Enderkista
-  tripwire_hook: Snubbeltrådskrok
   emerald_block: Smaragdblock
   spruce_stairs: Grantrappa
   birch_stairs: Björktrappa
@@ -295,7 +333,7 @@ material:
   beacon: Fyr
   cobblestone_wall: Kullerstensmur
   mossy_cobblestone_wall: Mossig kullerstensmur
-  brick_wall: Tegelstensmur
+  brick_wall: Tegelmur
   prismarine_wall: Prismarinmur
   red_sandstone_wall: Röd sandstensmur
   mossy_stone_brick_wall: Mossig murstensmur
@@ -309,34 +347,19 @@ material:
   diorite_wall: Dioritmur
   blackstone_wall: Svartstensmur
   polished_blackstone_wall: Polerad svartstensmur
-  polished_blackstone_brick_wall: Polerad svartstenstegelmur
-  stone_button: Stenknapp
-  oak_button: Ekknapp
-  spruce_button: Granknapp
-  birch_button: Björkknapp
-  jungle_button: Djungelknapp
-  acacia_button: Akaciaknapp
-  dark_oak_button: Mörk ekknapp
-  crimson_button: Karmosinknapp
-  warped_button: Förvrängd knapp
-  polished_blackstone_button: Polerad svartstensknapp
+  polished_blackstone_brick_wall: Polerad svartmurstensmur
+  cobbled_deepslate_wall: Kullerstensformad djupskiffermur
+  polished_deepslate_wall: Polerad djupskiffermur
+  deepslate_brick_wall: Djupskiffermurstensmur
+  deepslate_tile_wall: Djupskiffertegelmur
   anvil: Städ
   chipped_anvil: Sprucket städ
   damaged_anvil: Skadat städ
-  trapped_chest: Kistfälla
-  light_weighted_pressure_plate: Lätt tyngdtryckplatta
-  heavy_weighted_pressure_plate: Tung tyngdtryckplatta
-  daylight_detector: Dagsljusdetektor
-  redstone_block: Redstoneblock
-  nether_quartz_ore: Netherkvartsmalm
-  hopper: Tratt
   chiseled_quartz_block: Mejslat kvartsblock
   quartz_block: Kvartsblock
-  quartz_bricks: Kvartstegel
+  quartz_bricks: Kvartsmursten
   quartz_pillar: Kvartspelare
   quartz_stairs: Kvartstrappa
-  activator_rail: Aktiveringsräls
-  dropper: Utmatare
   white_terracotta: Vit terrakotta
   orange_terracotta: Orange terrakotta
   magenta_terracotta: Ljuslila terrakotta
@@ -354,7 +377,7 @@ material:
   red_terracotta: Röd terrakotta
   black_terracotta: Svart terrakotta
   barrier: Barriär
-  iron_trapdoor: Järnfallucka
+  light: Ljus
   hay_block: Höbal
   white_carpet: Vit matta
   orange_carpet: Orange matta
@@ -373,12 +396,10 @@ material:
   red_carpet: Röd matta
   black_carpet: Svart matta
   terracotta: Terrakotta
-  coal_block: Kolblock
   packed_ice: Packad is
   acacia_stairs: Akaciatrappa
   dark_oak_stairs: Mörk ektrappa
-  slime_block: Slemblock
-  grass_path: Grässtig
+  dirt_path: Jordstig
   sunflower: Solros
   lilac: Syren
   rose_bush: Rosbuske
@@ -418,10 +439,10 @@ material:
   red_stained_glass_pane: Rödfärgad glasruta
   black_stained_glass_pane: Svartfärgad glasruta
   prismarine: Prismarin
-  prismarine_bricks: Prismarintegel
+  prismarine_bricks: Prismarinmursten
   dark_prismarine: Mörk prismarin
   prismarine_stairs: Prismarintrappa
-  prismarine_brick_stairs: Prismarintegeltrappa
+  prismarine_brick_stairs: Prismarinmurstenstrappa
   dark_prismarine_stairs: Mörk prismarintrappa
   sea_lantern: Havslykta
   red_sandstone: Röd sandsten
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: Rött nethertegel
   bone_block: Benblock
   structure_void: Strukturtomrum
-  observer: Observatör
   shulker_box: Shulkerlåda
   white_shulker_box: Vit shulkerlåda
   orange_shulker_box: Orange shulkerlåda
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: Röd nethertegeltrappa
   polished_andesite_stairs: Polerad andesittrappa
   diorite_stairs: Diorittrappa
+  cobbled_deepslate_stairs: Kullerstensformad djupskiffertrappa
+  polished_deepslate_stairs: Polerad djupskiffertrappa
+  deepslate_brick_stairs: Djupskiffermurstenstrappa
+  deepslate_tile_stairs: Djupskiffertegeltrappa
   polished_granite_slab: Polerad granitplatta
   smooth_red_sandstone_slab: Len röd sandstensplatta
   mossy_stone_brick_slab: Mossig murstensplatta
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: Röd nethertegelplatta
   polished_andesite_slab: Polerad andesitplatta
   diorite_slab: Dioritplatta
+  cobbled_deepslate_slab: Kullerstensformad djupskifferplatta
+  polished_deepslate_slab: Polerad djupskifferplatta
+  deepslate_brick_slab: Djupskiffermurstensplatta
+  deepslate_tile_slab: Djupskiffertegelplatta
   scaffolding: Byggnadsställning
+  redstone: Redstonedamm
+  redstone_torch: Redstonefackla
+  redstone_block: Redstoneblock
+  repeater: Redstonerepeterare
+  comparator: Redstonejämförare
+  piston: Kolv
+  sticky_piston: Klibbig kolv
+  slime_block: Slemblock
+  honey_block: Honungsblock
+  observer: Observatör
+  hopper: Tratt
+  dispenser: Automat
+  dropper: Utmatare
+  lectern: Läspulpet
+  target: Måltavla
+  lever: Spak
+  lightning_rod: Åskledare
+  daylight_detector: Dagsljusdetektor
+  sculk_sensor: Sculksensor
+  tripwire_hook: Snubbeltrådskrok
+  trapped_chest: Kistfälla
+  tnt: Dynamit
+  redstone_lamp: Redstonelampa
+  note_block: Notblock
+  stone_button: Stenknapp
+  polished_blackstone_button: Polerad svartstensknapp
+  oak_button: Ekknapp
+  spruce_button: Granknapp
+  birch_button: Björkknapp
+  jungle_button: Djungelknapp
+  acacia_button: Akaciaknapp
+  dark_oak_button: Mörk ekknapp
+  crimson_button: Karmosinknapp
+  warped_button: Förvrängd knapp
+  stone_pressure_plate: Stentryckplatta
+  polished_blackstone_pressure_plate: Polerad svartstenstryckplatta
+  light_weighted_pressure_plate: Lätt tyngdtryckplatta
+  heavy_weighted_pressure_plate: Tung tyngdtryckplatta
+  oak_pressure_plate: Ektryckplatta
+  spruce_pressure_plate: Grantryckplatta
+  birch_pressure_plate: Björktryckplatta
+  jungle_pressure_plate: Djungeltryckplatta
+  acacia_pressure_plate: Akaciatryckplatta
+  dark_oak_pressure_plate: Mörk ektryckplatta
+  crimson_pressure_plate: Karmosintryckplatta
+  warped_pressure_plate: Förvrängd tryckplatta
   iron_door: Järndörr
   oak_door: Ekdörr
   spruce_door: Grandörr
@@ -572,8 +646,42 @@ material:
   dark_oak_door: Mörk ekdörr
   crimson_door: Karmosindörr
   warped_door: Förvrängd dörr
-  repeater: Redstonerepeterare
-  comparator: Redstonejämförare
+  iron_trapdoor: Järnfallucka
+  oak_trapdoor: Ekfallucka
+  spruce_trapdoor: Granfallucka
+  birch_trapdoor: Björkfallucka
+  jungle_trapdoor: Djungelfallucka
+  acacia_trapdoor: Akaciafallucka
+  dark_oak_trapdoor: Mörk ekfallucka
+  crimson_trapdoor: Karmosinfallucka
+  warped_trapdoor: Förvrängd fallucka
+  oak_fence_gate: Ekgrind
+  spruce_fence_gate: Grangrind
+  birch_fence_gate: Björkgrind
+  jungle_fence_gate: Djungelgrind
+  acacia_fence_gate: Akaciagrind
+  dark_oak_fence_gate: Mörk ekgrind
+  crimson_fence_gate: Karmosingrind
+  warped_fence_gate: Förvrängd grind
+  powered_rail: Krafträls
+  detector_rail: Sensorräls
+  rail: Räls
+  activator_rail: Aktiveringsräls
+  saddle: Sadel
+  minecart: Gruvvagn
+  chest_minecart: Gruvvagn med kista
+  furnace_minecart: Gruvvagn med ugn
+  tnt_minecart: Gruvvagn med dynamit
+  hopper_minecart: Gruvvagn med tratt
+  carrot_on_a_stick: Morot på pinne
+  warped_fungus_on_a_stick: Förvrängd svamp på pinne
+  elytra: Elytra
+  oak_boat: Ekbåt
+  spruce_boat: Granbåt
+  birch_boat: Björkbåt
+  jungle_boat: Djungelbåt
+  acacia_boat: Akaciabåt
+  dark_oak_boat: Mörk ekbåt
   structure_block: Strukturblock
   jigsaw: Pusselbitsblock
   turtle_helmet: Sköldpaddsskal
@@ -585,7 +693,15 @@ material:
   coal: Kol
   charcoal: Träkol
   diamond: Diamant
+  emerald: Smaragd
+  lapis_lazuli: Lapis lazuli
+  quartz: Netherkvarts
+  amethyst_shard: Ametistskärva
+  raw_iron: Rått järn
   iron_ingot: Järntacka
+  raw_copper: Rå koppar
+  copper_ingot: Koppartacka
+  raw_gold: Rått guld
   gold_ingot: Guldtacka
   netherite_ingot: Netherittacka
   netherite_scrap: Netheritstycke
@@ -669,29 +785,27 @@ material:
   bucket: Hink
   water_bucket: Vattenhink
   lava_bucket: Lavahink
-  minecart: Gruvvagn
-  saddle: Sadel
-  redstone: Redstonedamm
+  powder_snow_bucket: Pudersnöhink
   snowball: Snöboll
-  oak_boat: Ekbåt
   leather: Läder
   milk_bucket: Mjölkhink
   pufferfish_bucket: Hink med blåsfisk
   salmon_bucket: Hink med lax
   cod_bucket: Hink med torsk
   tropical_fish_bucket: Hink med tropisk fisk
+  axolotl_bucket: Hink med axolotl
   brick: Tegelsten
   clay_ball: Lerboll
   dried_kelp_block: Torkat kelpblock
   paper: Papper
   book: Bok
   slime_ball: Slemboll
-  chest_minecart: Gruvvagn med kista
-  furnace_minecart: Gruvvagn med ugn
   egg: Ägg
   compass: Kompass
+  bundle: Påse
   fishing_rod: Fiskespö
   clock: Klocka
+  spyglass: Kikare
   glowstone_dust: Glödstensdamm
   cod: Rå torsk
   salmon: Rå lax
@@ -700,8 +814,8 @@ material:
   cooked_cod: Tillagad torsk
   cooked_salmon: Tillagad lax
   ink_sac: Bläcksäck
+  glow_ink_sac: Glödande bläcksäck
   cocoa_beans: Kakaobönor
-  lapis_lazuli: Lapis lazuli
   white_dye: Vit färg
   orange_dye: Orange färg
   magenta_dye: Ljuslila färg
@@ -765,6 +879,7 @@ material:
   cauldron: Kittel
   ender_eye: Enderöga
   glistering_melon_slice: Gnistrande melonskiva
+  axolotl_spawn_egg: Skapelseägg för axolotl
   bat_spawn_egg: Skapelseägg för fladdermus
   bee_spawn_egg: Skapelseägg för bi
   blaze_spawn_egg: Skapelseägg för brännare
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: Skapelseägg för frammanare
   fox_spawn_egg: Skapelseägg för räv
   ghast_spawn_egg: Skapelseägg för ghast
+  glow_squid_spawn_egg: Skapelseägg för glödande bläckfisk
+  goat_spawn_egg: Skapelseägg för get
   guardian_spawn_egg: Skapelseägg för väktare
   hoglin_spawn_egg: Skapelseägg för hoglin
   horse_spawn_egg: Skapelseägg för häst
@@ -833,8 +950,8 @@ material:
   fire_charge: Eldladdning
   writable_book: Bok och fjäderpenna
   written_book: Skriven bok
-  emerald: Smaragd
   item_frame: Föremålsram
+  glow_item_frame: Glödande föremålsram
   flower_pot: Blomkruka
   carrot: Morot
   potato: Potatis
@@ -848,17 +965,12 @@ material:
   zombie_head: Zombiehuvud
   creeper_head: Creeperhuvud
   dragon_head: Drakhuvud
-  carrot_on_a_stick: Morot på pinne
-  warped_fungus_on_a_stick: Förvrängd svamp på pinne
   nether_star: Netherstjärna
   pumpkin_pie: Pumpapaj
   firework_rocket: Fyrverkeriraket
   firework_star: Fyrverkeristjärna
   enchanted_book: Förtrollad bok
   nether_brick: Nethertegelsten
-  quartz: Netherkvarts
-  tnt_minecart: Gruvvagn med dynamit
-  hopper_minecart: Gruvvagn med tratt
   prismarine_shard: Prismarinskärva
   prismarine_crystals: Prismarinkristaller
   rabbit: Rå kanin
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: Förtrollad pil
   lingering_potion: Kvardröjande brygd
   shield: Sköld
-  elytra: Elytra
-  spruce_boat: Granbåt
-  birch_boat: Björkbåt
-  jungle_boat: Djungelbåt
-  acacia_boat: Akaciabåt
-  dark_oak_boat: Mörk ekbåt
   totem_of_undying: Odödlighetstotem
   shulker_shell: Shulkerskal
   iron_nugget: Järnklimp
@@ -948,13 +1054,13 @@ material:
   cartography_table: Kartografbord
   fletching_table: Pilmakarbänk
   grindstone: Slipsten
-  lectern: Läspulpet
   smithing_table: Smedsbänk
   stonecutter: Stenskärare
   bell: Ringklocka
   lantern: Lykta
   soul_lantern: Själlykta
   sweet_berries: Söta bär
+  glow_berries: Glödande bär
   campfire: Lägereld
   soul_campfire: Själlägereld
   shroomlight: Svampljus
@@ -962,12 +1068,8 @@ material:
   bee_nest: Bisamhälle
   beehive: Bikupa
   honey_bottle: Honungsflaska
-  honey_block: Honungsblock
   honeycomb_block: Vaxkaksblock
   lodestone: Magnetit
-  netherite_block: Netheritblock
-  ancient_debris: Forntida spillror
-  target: Måltavla
   crying_obsidian: Gråtande obsidian
   blackstone: Svartsten
   blackstone_slab: Svartstensplatta
@@ -977,11 +1079,33 @@ material:
   polished_blackstone_slab: Polerad svartstensplatta
   polished_blackstone_stairs: Polerad svartstenstrappa
   chiseled_polished_blackstone: Mejslad polerad svartsten
-  polished_blackstone_bricks: Polerat svartstenstegel
-  polished_blackstone_brick_slab: Polerad svartstenstegelplatta
-  polished_blackstone_brick_stairs: Polerad svartstenstegeltrappa
-  cracked_polished_blackstone_bricks: Sprucket polerat svartstenstegel
+  polished_blackstone_bricks: Polerad svartmursten
+  polished_blackstone_brick_slab: Polerad svartmurstensplatta
+  polished_blackstone_brick_stairs: Polerad svartmurstenstrappa
+  cracked_polished_blackstone_bricks: Sprucken polerad svartmursten
   respawn_anchor: Återuppståndelseankare
+  candle: Stearinljus
+  white_candle: Vitt stearinljus
+  orange_candle: Orange stearinljus
+  magenta_candle: Ljuslila stearinljus
+  light_blue_candle: Ljusblått stearinljus
+  yellow_candle: Gult stearinljus
+  lime_candle: Ljusgrönt stearinljus
+  pink_candle: Rosa stearinljus
+  gray_candle: Grått stearinljus
+  light_gray_candle: Ljusgrått stearinljus
+  cyan_candle: Turkost stearinljus
+  purple_candle: Lila stearinljus
+  blue_candle: Blått stearinljus
+  brown_candle: Brunt stearinljus
+  green_candle: Grönt stearinljus
+  red_candle: Rött stearinljus
+  black_candle: Svart stearinljus
+  small_amethyst_bud: Liten ametistknopp
+  medium_amethyst_bud: Medelstor ametistknopp
+  large_amethyst_bud: Stor ametistknopp
+  amethyst_cluster: Ametistkluster
+  pointed_dripstone: Spetsig droppsten
   water: Vatten
   lava: Lava
   tall_seagrass: Högt sjögräs
@@ -1004,6 +1128,9 @@ material:
   attached_melon_stem: Ansluten melonstjälk
   pumpkin_stem: Pumpastjälk
   melon_stem: Melonstjälk
+  water_cauldron: Vattenkittel
+  lava_cauldron: Lavakittel
+  powder_snow_cauldron: Pudersnökittel
   end_portal: Endportal
   cocoa: Kakao
   tripwire: Snubbeltråd
@@ -1083,6 +1210,30 @@ material:
   potted_warped_fungus: Förvrängd svamp i kruka
   potted_crimson_roots: Karmosinrötter i kruka
   potted_warped_roots: Förvrängda rötter i kruka
+  candle_cake: Tårta med stearinljus
+  white_candle_cake: Tårta med vitt stearinljus
+  orange_candle_cake: Tårta med orange stearinljus
+  magenta_candle_cake: Tårta med ljuslila stearinljus
+  light_blue_candle_cake: Tårta med ljusblått stearinljus
+  yellow_candle_cake: Tårta med gult stearinljus
+  lime_candle_cake: Tårta med limegrönt stearinljus
+  pink_candle_cake: Tårta med rosa stearinljus
+  gray_candle_cake: Tårta med grått stearinljus
+  light_gray_candle_cake: Tårta med ljusgrått stearinljus
+  cyan_candle_cake: Tårta med turkost stearinljus
+  purple_candle_cake: Tårta med lila stearinljus
+  blue_candle_cake: Tårta med blått stearinljus
+  brown_candle_cake: Tårta med brunt stearinljus
+  green_candle_cake: Tårta med grönt stearinljus
+  red_candle_cake: Tårta med rött stearinljus
+  black_candle_cake: Tårta med svart stearinljus
+  powder_snow: Pudersnö
+  cave_vines: Grottklätterväxt
+  cave_vines_plant: Grottklätterväxtsplanta
+  big_dripleaf_stem: Stor dropplövsstjälk
+  potted_azalea_bush: Azalea i kruka
+  potted_flowering_azalea_bush: Blommande azalea i kruka
+  grass_path: Grässtig
   zombie_pigman_spawn_egg: Skapelseägg för zombiegrisman
   cactus_green: Kaktusgrön
   dandelion_yellow: Maskrosgul
@@ -1169,46 +1320,48 @@ biome:
   crimson_forest: Karmosinskog
   warped_forest: Förvrängd skog
   basalt_deltas: Basaltdeltan
+  dripstone_caves: Droppstensgrottor
+  lush_caves: Frodiga grottor
   nether: Nether
 enchantment:
-  fire_protection: Eldskydd
-  sharpness: Skärpa
-  flame: Flamma
-  soul_speed: Själhastighet
-  aqua_affinity: Vattenvana
-  punch: Slag
-  loyalty: Lojalitet
-  depth_strider: Djupgående
-  vanishing_curse: Försvinnandets förbannelse
-  unbreaking: Oförstörbar
-  knockback: Knuff
-  luck_of_the_sea: Fiskelycka
-  binding_curse: Bindningsförbannelse
-  fortune: Rikedom
   protection: Skydd
-  efficiency: Effektivitet
-  mending: Lagning
-  frost_walker: Frostgående
-  lure: Bete
-  looting: Plundring
-  piercing: Genomträngande
-  blast_protection: Explosionsskydd
-  smite: Heligt
-  multishot: Multiskott
-  fire_aspect: Eldkraft
-  channeling: Kanalisering
-  sweeping: Svepande svärdsegg
-  thorns: Taggar
-  bane_of_arthropods: Leddjurens skräck
-  respiration: Andning
-  riptide: Tidvattenvåg
-  silk_touch: Silkesvante
-  quick_charge: Snabbladdning
-  projectile_protection: Projektilskydd
-  impaling: Spetsning
+  fire_protection: Eldskydd
   feather_falling: Fjäderfall
+  blast_protection: Explosionsskydd
+  projectile_protection: Projektilskydd
+  respiration: Andning
+  aqua_affinity: Vattenvana
+  thorns: Taggar
+  depth_strider: Djupgående
+  frost_walker: Frostgående
+  binding_curse: Bindningsförbannelse
+  sharpness: Skärpa
+  smite: Heligt
+  bane_of_arthropods: Leddjurens skräck
+  knockback: Knuff
+  fire_aspect: Eldkraft
+  looting: Plundring
+  sweeping: Svepande svärdsegg
+  efficiency: Effektivitet
+  silk_touch: Silkesvante
+  unbreaking: Oförstörbar
+  fortune: Rikedom
   power: Kraft
+  punch: Slag
+  flame: Flamma
   infinity: Oändlig
+  luck_of_the_sea: Fiskelycka
+  lure: Bete
+  loyalty: Lojalitet
+  impaling: Spetsning
+  riptide: Tidvattenvåg
+  channeling: Kanalisering
+  multishot: Multiskott
+  quick_charge: Snabbladdning
+  piercing: Genomträngande
+  mending: Lagning
+  vanishing_curse: Försvinnandets förbannelse
+  soul_speed: Själhastighet
 potion:
   uncraftable: Icke-tillverkningsbar brygd
   water: Vattenflaska
@@ -1403,12 +1556,17 @@ entity:
   strider: Vandrare
   zoglin: Zoglin
   piglin_brute: Piglinbarbar
+  axolotl: Axolotl
+  glow_item_frame: Glödande föremålsram
+  glow_squid: Glödande bläckfisk
+  goat: Get
+  marker: Markör
   fishing_hook: Flöte
   lightning: Ljusblixt
   player: Spelare
   pig_zombie: Zombiegrisman
 effect:
-  speed: Hastighet
+  speed: hastighet
   slow: Långsamhet
   fast_digging: Skyndsamhet
   slow_digging: Trötthet
@@ -1903,22 +2061,22 @@ banner_pattern:
   '1572877': Grön cirkel
   '1572878': Röd cirkel
   '1572879': Svart cirkel
-  '1638400': Vit diamant
-  '1638401': Orange diamant
-  '1638402': Ljuslila diamant
-  '1638403': Ljusblå diamant
-  '1638404': Gul diamant
-  '1638405': Limegrön diamant
-  '1638406': Rosa diamant
-  '1638407': Grå diamant
-  '1638408': Ljusgrå diamant
-  '1638409': Turkos diamant
-  '1638410': Lila diamant
-  '1638411': Blå diamant
-  '1638412': Brun diamant
-  '1638413': Grön diamant
-  '1638414': Röd diamant
-  '1638415': Svart diamant
+  '1638400': Vit romb
+  '1638401': Orange romb
+  '1638402': Ljuslila romb
+  '1638403': Ljusblå romb
+  '1638404': Gul romb
+  '1638405': Limegrön romb
+  '1638406': Rosa romb
+  '1638407': Grå romb
+  '1638408': Ljusgrå romb
+  '1638409': Turkos romb
+  '1638410': Lila romb
+  '1638411': Blå romb
+  '1638412': Brun romb
+  '1638413': Grön romb
+  '1638414': Röd romb
+  '1638415': Svart romb
   '1703936': Vit vänsterhalva
   '1703937': Orange vänsterhalva
   '1703938': Ljuslila vänsterhalva
@@ -2202,17 +2360,3 @@ villager_profession:
   shepherd: Herde
   toolsmith: Verktygssmed
   weaponsmith: Vapensmed
-villager_career:
-  farmer: Bonde
-  fisherman: Fiskare
-  shepherd: Herde
-  fletcher: Pilmakare
-  librarian: Bibliotekarie
-  cartographer: Kartograf
-  cleric: Präst
-  armorer: Rustningssmed
-  weapon_smith: Vapensmed
-  tool_smith: Verktygssmed
-  butcher: Slaktare
-  leatherworker: Läderarbetare
-  nitwit: Byfåne

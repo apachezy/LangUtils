@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:48                    #
+# Build time: 2021-07-04 21:46:04                    #
 # ####################################################
 language:
   code: nn_no
@@ -29,7 +29,11 @@ material:
   hopper: Trakt for gjenstandar
   hopper_minecart: Gruvevogn med trakt
   infested_chiseled_stone_bricks: Forderva meisla steinmur
+  infested_cobblestone: Forderva brustein
+  infested_cracked_stone_bricks: Forderva sprokken steinmur
   infested_mossy_stone_bricks: Forderva mosut steinmur
+  infested_stone: Forderva stein
+  infested_stone_bricks: Forderva steinmur
   jack_o_lantern: Lykt av graskar
   lava_bucket: Bytte med lava
   leather_helmet: Skinnhue
@@ -104,6 +108,7 @@ tipped_arrow:
   weakness: Veikleikspil
 entity:
   thrown_exp_bottle: Kasta røynsleflaske
+  primed_tnt: Klårgjord TNT
   zombie_villager: Grendedauding
   minecart_hopper: Gruvevogn med trakt
   cave_spider: Holevevkjerring
@@ -130,3 +135,5 @@ banner_pattern:
   '917517': Grønt kross
   '917518': Rødt kross
   '2293769': Blågrøn mursteinmønster
+villager_profession:
+  nitwit: Fåming

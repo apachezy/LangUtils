@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:47                    #
+# Build time: 2021-07-04 21:46:03                    #
 # ####################################################
 language:
   code: haw_us
@@ -14,10 +14,17 @@ material:
   polished_diorite: Pala Hinu Keʻokeʻo Pohaku
   andesite: Hinahina Pohaku
   polished_andesite: Pala Hinu Hinahina Pohaku
+  deepslate: Poʻokela
+  cobbled_deepslate: ʻO Cobbled Deepslate
+  polished_deepslate: Hoʻoheno Deepslate
+  calcite: Calcite
+  tuff: ʻO Tuff
+  dripstone_block: Pōhaku Dripstone
   grass_block: Mauʻu
   dirt: Lepo
   coarse_dirt: Mānoanoa Lepo
   podzol: Laʻau Lepo
+  rooted_dirt: Mele ʻaʻa
   crimson_nylium: Mea Kūkaelio Nether ʻUlaʻula
   warped_nylium: Mea Kūkaelio Nekele Pupule
   cobblestone: Nahā pohaku
@@ -39,10 +46,67 @@ material:
   sand: One
   red_sand: ʻUlaʻula One
   gravel: ʻIliʻili
-  gold_ore: Kula Pohaku
-  iron_ore: Hao Pohaku
   coal_ore: Lānahu Pohaku
+  deepslate_coal_ore: ʻO Deewlate Coal Ore
+  iron_ore: Hao Pohaku
+  deepslate_iron_ore: Hoʻomaʻamaʻa hao
+  copper_ore: ʻ Omela keleawe
+  deepslate_copper_ore: Hoʻopiʻi i ka palaoa keleawe
+  gold_ore: Kula Pohaku
+  deepslate_gold_ore: Hoʻomaʻamaʻa i ke gula
+  redstone_ore: Ka pulu uila
+  deepslate_redstone_ore: ʻO Deepslate Redstone ʻOre
+  emerald_ore: ʻEmelala Pohaku
+  deepslate_emerald_ore: ʻO Deepslate Emerald Ore
+  lapis_ore: Polū Pohaku
+  deepslate_lapis_ore: ʻO Deepslate Lapis Lazuli ʻOre
+  diamond_ore: Kaimana Pohaku
+  deepslate_diamond_ore: Deepslate Diamond Ore
   nether_gold_ore: Ka ʻŌhaʻi Kula Nekele
+  nether_quartz_ore: Pohaku Aʻiaʻi
+  ancient_debris: Koena Kahiko
+  coal_block: Lānahu Palaka
+  raw_iron_block: Palaka o ka hao hao
+  raw_copper_block: Palaka o ke keleawe maka
+  raw_gold_block: Palaka o ke gula maka
+  amethyst_block: Palaka o Amethyst
+  budding_amethyst: ʻO Budding Amethyst
+  iron_block: Hao Palaka
+  copper_block: Palaka o keleawe
+  gold_block: Kula Palaka
+  diamond_block: Kaimana Palaka
+  netherite_block: Palaka Mekalanekele
+  exposed_copper: Hōʻike keleawe
+  weathered_copper: Keleawe keleawe
+  oxidized_copper: Keleawe ʻokiʻoki
+  cut_copper: ʻOki keleawe
+  exposed_cut_copper: Lawe ʻia ke keleawe keleawe
+  weathered_cut_copper: Aniani ʻoki keleawe
+  oxidized_cut_copper: Keleawe ʻoki ʻoki ʻia
+  cut_copper_stairs: ʻOhi i nā alapiʻi keleawe
+  exposed_cut_copper_stairs: Hōʻike ʻia ke alapiʻi keleawe ʻoki
+  weathered_cut_copper_stairs: ʻO nā alapiʻi keleawe ʻoki kalaiwa
+  oxidized_cut_copper_stairs: ʻO nā alapiʻi keleawe ʻoki ʻokiʻoki
+  cut_copper_slab: ʻOki ʻĀpana keleawe
+  exposed_cut_copper_slab: Hōʻike ʻia kahi ʻoki pala keleawe
+  weathered_cut_copper_slab: ʻoki loa i ka ʻāpana keleawe
+  oxidized_cut_copper_slab: '''Okikokiʻokiʻoki keleawe papa'
+  waxed_copper_block: Pākuʻi lākea o ke keleawe
+  waxed_exposed_copper: Keleawe Wehewehe Hou ʻia
+  waxed_weathered_copper: Keleawe Weathered Wax
+  waxed_oxidized_copper: Keleawe ʻĀpana Holo ʻia
+  waxed_cut_copper: Pākuʻi Kīʻoki ʻoʻī
+  waxed_exposed_cut_copper: Kuhi ʻia ʻo Cut Copper
+  waxed_weathered_cut_copper: Keleawe ʻoki poʻopoʻo ʻia
+  waxed_oxidized_cut_copper: Wajaka ʻokiʻoki kipi ʻoki ʻia
+  waxed_cut_copper_stairs: Hana i ʻoki i ke alapiʻi keleawe
+  waxed_exposed_cut_copper_stairs: Hoʻolaha Hōʻike ʻia ʻoki ʻia nā alapiʻi keleawe
+  waxed_weathered_cut_copper_stairs: Hoʻopaʻi ʻia ke anuanu i nā alapiʻi keleawe keleawe
+  waxed_oxidized_cut_copper_stairs: Waxed oxidized ʻokiʻoki keleawe piʻi
+  waxed_cut_copper_slab: Pākuʻi keleawe kīʻaha pālahalaha
+  waxed_exposed_cut_copper_slab: Hoʻolaha ʻia ka ʻoki keleawe keleawe
+  waxed_weathered_cut_copper_slab: Pākuʻi ʻia ke aniani keleawe keleawe
+  waxed_oxidized_cut_copper_slab: Waxed oxidized ʻoki keleawe papa
   oak_log: WaeʻOka
   spruce_log: Paina lāʻau moku
   birch_log: Keʻokeʻo lāʻau moku
@@ -81,26 +145,24 @@ material:
   jungle_leaves: Wao nahele lau
   acacia_leaves: ʻAkakiʻa lau
   dark_oak_leaves: Pouli ʻOke Lau
+  azalea_leaves: Nā Lau Azalea
+  flowering_azalea_leaves: ʻO nā lau Azalea pua
   sponge: Huʻahuʻakai
   wet_sponge: Pulu Huʻahuʻakai
   glass: Aniani
-  lapis_ore: Polū Pohaku
-  lapis_block: Polū Palaka
-  dispenser: Pana Palaka
+  tinted_glass: Aniani Kelepona
+  lapis_block: ʻāpana o ka Lapis Lazuli
   sandstone: Kumuone
   chiseled_sandstone: Kiʻi Kālaiʻia Kumuone
   cut_sandstone: ʻUlaʻula Kumuone
-  note_block: Pila hoʻokani Palaka
-  powered_rail: Uila Alahao
-  detector_rail: Mākaʻikiu Alahao
-  sticky_piston: Pipili Kuʻe
   cobweb: Pūnāwelewele
   grass: Mauʻu
   fern: Kupukupu
+  azalea: Azalea
+  flowering_azalea: ʻO Azalea pua
   dead_bush: Make ʻOʻoi
   seagrass: Seagrass
   sea_pickle: ʻO ka Sea Pickle
-  piston: Kuʻe
   white_wool: Ke'oke'o Hulu Hipa
   orange_wool: ʻĀlani Hulu Hipa
   magenta_wool: ʻĀkala Poni Hulu Hipa
@@ -130,6 +192,7 @@ material:
   cornflower: Kui
   lily_of_the_valley: Lily o ke awāwa
   wither_rose: ina makadicmea ng
+  spore_blossom: ʻO Spore Blossom
   brown_mushroom: ʻO Kawa Mushroom
   red_mushroom: Hoʻokumuʻulaʻula
   crimson_fungus: Kūkaelio ʻUalʻula
@@ -141,8 +204,12 @@ material:
   twisting_vines: Kālī Wili
   sugar_cane: ʻOhe
   kelp: Kelp
-  gold_block: Kula Palaka
-  iron_block: Hao Palaka
+  moss_carpet: Kapeta Moss
+  moss_block: Moss ālai
+  hanging_roots: Nā Mole Kau
+  big_dripleaf: ʻO Dripleaf Nui
+  small_dripleaf: ʻO Dripleaf liʻiliʻi
+  bamboo: Bamboo
   oak_slab: PākuʻiʻOka
   spruce_slab: Paina lāʻau moku
   birch_slab: Keʻokeʻo lāʻau moku
@@ -172,7 +239,6 @@ material:
   smooth_sandstone: Malino Kumuone
   smooth_stone: Malino Kumuone
   bricks: Lepo
-  tnt: Hoʻopahū
   bookshelf: Pahu puke
   mossy_cobblestone: Limu pā pohaku
   obsidian: ʻEleʻele Pele
@@ -186,27 +252,11 @@ material:
   spawner: Ana
   oak_stairs: ʻO ke ala kūiki
   chest: Pahu
-  diamond_ore: Kaimana Pohaku
-  diamond_block: Kaimana Palaka
   crafting_table: Papa Hana
   farmland: Kīhāpai
   furnace: Umu
   ladder: Alapiʻi
-  rail: Alahao
   cobblestone_stairs: Uʻuku Pohaku Anuʻu
-  lever: Lōhai
-  stone_pressure_plate: Pale Kūkulu Pōhaku
-  oak_pressure_plate: Pale Kūkulu Pōhaku
-  spruce_pressure_plate: Pale Kūkulu Pōhaku
-  birch_pressure_plate: Pale Kūkulu Pōhaku
-  jungle_pressure_plate: Pale Kūkulu Pōhaku
-  acacia_pressure_plate: Pale Kūkulu Pōhaku
-  dark_oak_pressure_plate: Pale Kūkulu Pōhaku
-  crimson_pressure_plate: Pā Mīkā ʻUlaʻula
-  warped_pressure_plate: Pā Mīkā Pupule
-  polished_blackstone_pressure_plate: Pā Mīkā Pōhaku ʻEleʻele Hinua
-  redstone_ore: Ka pulu uila
-  redstone_torch: Ke kukui uila
   snow: Hau
   ice: Hau
   snow_block: Ka Poʻa Mele
@@ -223,47 +273,40 @@ material:
   warped_fence: Pā Pupule
   pumpkin: Palaʻai
   carved_pumpkin: Paʻalu Paʻupaʻa
+  jack_o_lantern: Malamalama Palaʻai
   netherrack: Netherrack
   soul_sand: Uhane One
   soul_soil: ʻO ka lepo me nā ʻuhane
   basalt: Pōhaku Paʻa
   polished_basalt: Pōhaku Paʻa Hinua
+  smooth_basalt: Basalt mānoanoa
   soul_torch: Paʻa Makapu
   glowstone: Glowstone
-  jack_o_lantern: Malamalama Palaʻai
-  oak_trapdoor: Pākuʻi'Oak
-  spruce_trapdoor: Ka spruce trapdoor
-  birch_trapdoor: Hao ʻŪmiʻi Puka
-  jungle_trapdoor: Wahi Kū'ē
-  acacia_trapdoor: Paʻa Acacia
-  dark_oak_trapdoor: Pākuʻi'Oak
-  crimson_trapdoor: Puka ʻŪmiʻi ʻUlaʻula
-  warped_trapdoor: Puka ʻŪmiʻi Pupule
   infested_stone: Ke Pipi Kūmole
   infested_cobblestone: Ka pōhaku hoʻomoe pōhaku
   infested_stone_bricks: Enekela Pohaku Lepo
   infested_mossy_stone_bricks: Enekela Pohaku Lepo
   infested_cracked_stone_bricks: Enekela Pohaku Lepo
   infested_chiseled_stone_bricks: Enekela Pohaku Lepo
+  infested_deepslate: Deepslate i hoʻopilikia ʻia
   stone_bricks: Pohaku Lepo
   mossy_stone_bricks: Limu Pohaku Lepo
   cracked_stone_bricks: Nahā Pohaku Lepo
   chiseled_stone_bricks: Pohaku Pao Lepo
+  deepslate_bricks: Nā pōhaku lepo hoʻohaʻahaʻa
+  cracked_deepslate_bricks: Nā pōhaku lepo hoʻohaʻahaʻa
+  deepslate_tiles: Nā Kile Deepslate
+  cracked_deepslate_tiles: Mau kile Deepslate
+  chiseled_deepslate: ʻO Chiseled Deepslate
   brown_mushroom_block: ʻO Brown Mushroom Poraka
   red_mushroom_block: ʻOhana Red Mushroom
   mushroom_stem: Kūkaileo Kupa
   iron_bars: Hao Kī
+  chain: Kaulahao
   glass_pane: ʻĀpana Aniani
   melon: Ipu
   vine: Kolokolo
-  oak_fence_gate: ʻOke pā puka lāʻau
-  spruce_fence_gate: Paina pā puka lāʻau
-  birch_fence_gate: Keʻokeʻo pā puka lāʻau
-  jungle_fence_gate: Wao nahele pā puka lāʻau
-  acacia_fence_gate: ʻAkakiʻa pā puka lāʻau
-  dark_oak_fence_gate: Pouli ʻOke Pā Puka Lāʻau
-  crimson_fence_gate: '] Pā ʻUlaʻula'
-  warped_fence_gate: Puka Pā Pupule
+  glow_lichen: ʻO Glow Lichen
   brick_stairs: Lepo Anuʻu
   stone_brick_stairs: Pohaku Lepo Anuʻu
   mycelium: Kūkaileo Mauʻu
@@ -278,11 +321,8 @@ material:
   end_stone: Enekela Pohaku
   end_stone_bricks: Enekela Pohaku Lepo
   dragon_egg: Moʻo Hua
-  redstone_lamp: ʻUlaʻula Pohaku Malamalama
   sandstone_stairs: One Pohaku Anuʻu
-  emerald_ore: ʻEmelala Pohaku
   ender_chest: Enekela Pahu
-  tripwire_hook: Kahi Hookani
   emerald_block: ʻEmelala Palaka
   spruce_stairs: Paina Papa Lāʻau Anuʻu
   birch_stairs: Lepo Anuʻu
@@ -308,33 +348,18 @@ material:
   blackstone_wall: Pā Pōhaku ʻEleʻele
   polished_blackstone_wall: Pā Pōhaku ʻEleʻele Hinua
   polished_blackstone_brick_wall: Pā Pōhaku ʻEleʻele Hinua
-  stone_button: Kaomi Pōhaku
-  oak_button: PākuʻiʻOka
-  spruce_button: ʻOihana Pākuhi
-  birch_button: '''Oiho Pāhili'
-  jungle_button: Ka Pākiho Mahu
-  acacia_button: Pākuʻi Acacia
-  dark_oak_button: ʻO ka'ōkuhiʻoka o ka pōʻeleʻele
-  crimson_button: Pihi ʻUlaʻula
-  warped_button: Pihi Pupule
-  polished_blackstone_button: Pihi Pōhaku ʻEleʻele Hinua
+  cobbled_deepslate_wall: ʻO Wall Wall Cobbled
+  polished_deepslate_wall: Pā Pōlō Deepslate
+  deepslate_brick_wall: Pā Pōhaku Deepslate
+  deepslate_tile_wall: Pā pōhaku ʻo Deepslate
   anvil: Kua
   chipped_anvil: Kiʻi i ka pākū
   damaged_anvil: Paʻeha Haʻe
-  trapped_chest: Pahu ʻŪmiʻi
-  light_weighted_pressure_plate: Plate Palekana Uila
-  heavy_weighted_pressure_plate: Plate Palekana Uila
-  daylight_detector: Kaʻike o ke ao
-  redstone_block: ʻUlaʻula Pohaku Palaka
-  nether_quartz_ore: Pohaku Aʻiaʻi
-  hopper: Kānuku
   chiseled_quartz_block: Pohaku Aʻiaʻi Pao Palaka
   quartz_block: Pohaku Aʻiaʻi Palaka
   quartz_bricks: Pōhaku Lepo Pōaka Keʻo
   quartz_pillar: Ka pahu quartz
   quartz_stairs: Pohaku aʻiaʻi Anuʻu
-  activator_rail: Hoʻonā lawelawe
-  dropper: Hoʻi Palaka
   white_terracotta: ʻO ka lepo'ōpiopio
   orange_terracotta: ʻO ka lepo'ōpiopio
   magenta_terracotta: ʻO ka lepo kāpili
@@ -352,7 +377,7 @@ material:
   red_terracotta: ʻO ka lepo kāpili
   black_terracotta: ʻO ka lepo'ōpiopio
   barrier: Kaola
-  iron_trapdoor: Hao ʻŪmiʻi Puka
+  light: Kukui
   hay_block: Pela Mauʻu Maloʻo
   white_carpet: Kea kape
   orange_carpet: ʻĀlani Kāpeka
@@ -371,12 +396,10 @@ material:
   red_carpet: ʻUlaʻula Kāpeka
   black_carpet: ʻEleʻele Kāpeka
   terracotta: ʻO ka lepo kāpili
-  coal_block: Lānahu Palaka
   packed_ice: Hoʻokomo ʻIa Hau
   acacia_stairs: Pouli ʻOke Papa Lāʻau Anuʻu
   dark_oak_stairs: ʻEleʻele ʻOka Papa Lāʻau Anuʻu
-  slime_block: Walewale Palaka
-  grass_path: Mauʻu Ala
+  dirt_path: Alanui lepo
   sunflower: Pua nānā lā
   lilac: Hueloʻīlio
   rose_bush: Loke ʻoʻoi
@@ -434,7 +457,6 @@ material:
   red_nether_bricks: ʻUlaʻula Nekele Lepo
   bone_block: Iwi Palaka
   structure_void: Hakahaka Palaka
-  observer: Ka mea nānā
   shulker_box: Kāleka Shulker
   white_shulker_box: Kea ka pahu shulker
   orange_shulker_box: Kea ka pahu shulker
@@ -547,6 +569,10 @@ material:
   red_nether_brick_stairs: Nekele Lepo Anuʻu
   polished_andesite_stairs: Hoʻokumuʻiaʻo Andesite Slab
   diorite_stairs: ʻO Diorite Kala
+  cobbled_deepslate_stairs: Nā ʻanuʻu Cobbled Deepslate
+  polished_deepslate_stairs: Nā Alapiʻi Deepslate i Hoʻoila
+  deepslate_brick_stairs: Hoʻopiʻi i nā alapiʻi brick
+  deepslate_tile_stairs: Nā Alapi Tile Deepslate
   polished_granite_slab: Hoʻokumuʻiaʻo Andesite Slab
   smooth_red_sandstone_slab: Malino ʻUlaʻula Kumuone
   mossy_stone_brick_slab: ʻO Mossy Stone Brick Wall
@@ -560,7 +586,57 @@ material:
   red_nether_brick_slab: ʻO Red Nether Brick Slab
   polished_andesite_slab: Hoʻokumuʻiaʻo Andesite Slab
   diorite_slab: ʻO Diorite Kala
+  cobbled_deepslate_slab: ʻO Cobbled Deepslate Slab
+  polished_deepslate_slab: Pāpaʻi Deepslate i hoʻonani ʻia
+  deepslate_brick_slab: Pākuʻi Pōhaku Deepslate
+  deepslate_tile_slab: Pāpā Kile Deepslate
   scaffolding: huina“ʻāpala
+  redstone: Ke kapaʻeleʻele
+  redstone_torch: Ke kukui uila
+  redstone_block: ʻUlaʻula Pohaku Palaka
+  repeater: ʻUlaʻula Pohaku Hana Hou
+  comparator: ʻUlaʻula Pohaku Komapalakola
+  piston: Kuʻe
+  sticky_piston: Pipili Kuʻe
+  slime_block: Walewale Palaka
+  honey_block: Meli Palaka
+  observer: Ka mea nānā
+  hopper: Kānuku
+  dispenser: Pana Palaka
+  dropper: Hoʻi Palaka
+  lectern: Lectern
+  target: Māka
+  lever: Lōhai
+  lightning_rod: ʻAukā uila
+  daylight_detector: Kaʻike o ke ao
+  sculk_sensor: Sculk Sensor
+  tripwire_hook: Kahi Hookani
+  trapped_chest: Pahu ʻŪmiʻi
+  tnt: Hoʻopahū
+  redstone_lamp: ʻUlaʻula Pohaku Malamalama
+  note_block: Pila hoʻokani Palaka
+  stone_button: Kaomi Pōhaku
+  polished_blackstone_button: Pihi Pōhaku ʻEleʻele Hinua
+  oak_button: PākuʻiʻOka
+  spruce_button: ʻOihana Pākuhi
+  birch_button: '''Oiho Pāhili'
+  jungle_button: Ka Pākiho Mahu
+  acacia_button: Pākuʻi Acacia
+  dark_oak_button: ʻO ka'ōkuhiʻoka o ka pōʻeleʻele
+  crimson_button: Pihi ʻUlaʻula
+  warped_button: Pihi Pupule
+  stone_pressure_plate: Pale Kūkulu Pōhaku
+  polished_blackstone_pressure_plate: Pā Mīkā Pōhaku ʻEleʻele Hinua
+  light_weighted_pressure_plate: Plate Palekana Uila
+  heavy_weighted_pressure_plate: Plate Palekana Uila
+  oak_pressure_plate: Pale Kūkulu Pōhaku
+  spruce_pressure_plate: Pale Kūkulu Pōhaku
+  birch_pressure_plate: Pale Kūkulu Pōhaku
+  jungle_pressure_plate: Pale Kūkulu Pōhaku
+  acacia_pressure_plate: Pale Kūkulu Pōhaku
+  dark_oak_pressure_plate: Pale Kūkulu Pōhaku
+  crimson_pressure_plate: Pā Mīkā ʻUlaʻula
+  warped_pressure_plate: Pā Mīkā Pupule
   iron_door: Hao Puka
   oak_door: ʻOke lāʻau puka
   spruce_door: Paina lāʻau puka
@@ -570,9 +646,45 @@ material:
   dark_oak_door: Pouli ʻOke Lāʻau Puka
   crimson_door: Puka ʻUlaʻula
   warped_door: Puka Pupule
-  repeater: ʻUlaʻula Pohaku Hana Hou
-  comparator: ʻUlaʻula Pohaku Komapalakola
+  iron_trapdoor: Hao ʻŪmiʻi Puka
+  oak_trapdoor: Pākuʻi'Oak
+  spruce_trapdoor: Ka spruce trapdoor
+  birch_trapdoor: Hao ʻŪmiʻi Puka
+  jungle_trapdoor: Wahi Kū'ē
+  acacia_trapdoor: Paʻa Acacia
+  dark_oak_trapdoor: Pākuʻi'Oak
+  crimson_trapdoor: Puka ʻŪmiʻi ʻUlaʻula
+  warped_trapdoor: Puka ʻŪmiʻi Pupule
+  oak_fence_gate: ʻOke pā puka lāʻau
+  spruce_fence_gate: Paina pā puka lāʻau
+  birch_fence_gate: Keʻokeʻo pā puka lāʻau
+  jungle_fence_gate: Wao nahele pā puka lāʻau
+  acacia_fence_gate: ʻAkakiʻa pā puka lāʻau
+  dark_oak_fence_gate: Pouli ʻOke Pā Puka Lāʻau
+  crimson_fence_gate: '] Pā ʻUlaʻula'
+  warped_fence_gate: Puka Pā Pupule
+  powered_rail: Uila Alahao
+  detector_rail: Mākaʻikiu Alahao
+  rail: Alahao
+  activator_rail: Hoʻonā lawelawe
+  saddle: Noho lio
+  minecart: Kaʻa huila la
+  chest_minecart: Nā kāleka me Chest
+  furnace_minecart: Minecart me ka umu ahi
+  tnt_minecart: Nā kāleka me TNT
+  hopper_minecart: Nā kāleka me Hopper
+  carrot_on_a_stick: Carrot on a Stick
+  warped_fungus_on_a_stick: Kūkaelio Pupule ma ka Lāʻau
+  elytra: Elytra
+  oak_boat: ʻOke lāʻau moku
+  spruce_boat: Paina lāʻau moku
+  birch_boat: Keʻokeʻo lāʻau moku
+  jungle_boat: Wao nahele lāʻau moku
+  acacia_boat: ʻAkakiʻa lāʻau moku
+  dark_oak_boat: Pouli ʻOke lāʻau moku
   structure_block: Hale Palaka
+  jigsaw: Palaka o Nane
+  turtle_helmet: Pūpū Manu Kuhukukū
   scute: Kūleʻa
   flint_and_steel: Pohaku paea, a me kila
   apple: ʻĀpala
@@ -581,7 +693,15 @@ material:
   coal: Lānahu
   charcoal: Lāʻau Lānahu
   diamond: Kaimana
+  emerald: ʻEmelala
+  lapis_lazuli: Polū Pohaku
+  quartz: Nekele Pohaku Aʻiaʻi
+  amethyst_shard: ʻO Amethyst Shard
+  raw_iron: ʻAilana maka
   iron_ingot: Hao Lepo
+  raw_copper: Keleawe maka
+  copper_ingot: Keleawe Ingot
+  raw_gold: Gula maka
   gold_ingot: Kula Lepo
   netherite_ingot: Mahele Mekalanekele
   netherite_scrap: Huna Mekalanekele
@@ -649,8 +769,11 @@ material:
   netherite_leggings: Lole Wāwae Mekalanekele
   netherite_boots: Puki Mekalanekele
   flint: Pohaku Paea
+  porkchop: ʻiʻo puaʻa maka
+  cooked_porkchop: ʻiʻo puaʻa moʻa
   painting: Pena
   golden_apple: Kula ʻĀpala
+  enchanted_golden_apple: ʻO Apple Apple
   oak_sign: inaiʻlimapine
   spruce_sign: Paina lāʻau moku
   birch_sign: Keʻokeʻo lāʻau moku
@@ -662,32 +785,48 @@ material:
   bucket: Pākeke
   water_bucket: Wai Pākeke
   lava_bucket: Pele Pākeke
-  minecart: Kaʻa huila la
-  saddle: Noho lio
-  redstone: Ke kapaʻeleʻele
+  powder_snow_bucket: Pahu hau pauka
   snowball: Pōpōhau
-  oak_boat: ʻOke lāʻau moku
   leather: ʻIli Holoholona
+  milk_bucket: Pākī Milk
+  pufferfish_bucket: Pākeke o Pufferfish
+  salmon_bucket: Pākeke o Salemona
+  cod_bucket: Pākeke o Cod
+  tropical_fish_bucket: Pākeke iʻa Tropical
+  axolotl_bucket: Pākeke o Axolotl
   brick: Lepo
   clay_ball: Kinipōpō Pālolo
   dried_kelp_block: Piʻi Kelp Poraka
   paper: Pepa
   book: Buke
   slime_ball: Pōpōwalewale
-  chest_minecart: Nā kāleka me Chest
   egg: Hua
   compass: Pānānā
+  bundle: Pūʻolo
   fishing_rod: Mākoi
   clock: Uaki
+  spyglass: Kiʻi Kūkākūkā
   glowstone_dust: Ke kapaʻeleʻele
+  cod: Cod maka
   salmon: Maka Kāmano
   tropical_fish: ʻO iʻa iʻa
   pufferfish: Ākēkē
+  cooked_cod: Kāpena kuke
   cooked_salmon: Moʻa Kāmano
-  lapis_lazuli: Polū Pohaku
+  ink_sac: Inika Eke
+  glow_ink_sac: ʻO Glow Ink Sac
+  cocoa_beans: ʻO ka pīniʻu koko
   white_dye: Pāleka Dye
   orange_dye: ʻĀlani Waihoʻoluʻu
+  magenta_dye: Lila Poni
+  light_blue_dye: Pale Uila Uila
   yellow_dye: Ka Pulu Uliula
+  lime_dye: Ka waihoʻoluʻu ʻōmaʻomaʻo
+  pink_dye: Lau ʻulaʻula
+  gray_dye: Pale hina
+  light_gray_dye: Pohina Hinahina Māmā
+  cyan_dye: Waihoʻoluʻu cyan
+  purple_dye: Lila Poni
   blue_dye: '''Okole Blue'
   brown_dye: Keʻala
   green_dye: ʻO ka'ōmole kala
@@ -702,6 +841,17 @@ material:
   magenta_bed: Ka moena magenta
   light_blue_bed: Malamalama Polū Hulu Hipa
   yellow_bed: Ke moe moe
+  lime_bed: Moe ʻōmaʻomaʻo
+  pink_bed: Moe Ākala
+  gray_bed: Moe hina
+  light_gray_bed: Moe Hinahina Māmā
+  cyan_bed: Kuhukukū Moe
+  purple_bed: Moe Lila
+  blue_bed: Moe Kahuna
+  brown_bed: Moe Kope
+  green_bed: Moe ʻōmaʻomaʻo
+  red_bed: Moe ʻulaʻula
+  black_bed: Moe ʻEleʻele
   cookie: Mea ʻono
   filled_map: Palapalaʻāina
   shears: ʻŪpā
@@ -709,7 +859,10 @@ material:
   dried_kelp: Kelp maloʻo
   pumpkin_seeds: Palaʻai ʻAnoʻano
   melon_seeds: Ipu ʻAnoʻano
+  beef: ʻiʻo pipi maka
   cooked_beef: ʻiʻo pipi
+  chicken: ʻiʻo moa maka
+  cooked_chicken: ʻiʻo moa moʻa
   rotten_flesh: ʻIʻo Pilau
   ender_pearl: Enekela Momi
   blaze_rod: Lālā pale
@@ -726,6 +879,7 @@ material:
   cauldron: Ipu hao
   ender_eye: Ka maka o ke kuʻi
   glistering_melon_slice: Me ka'āpana melon
+  axolotl_spawn_egg: ʻO Egolotl Spawn Egg
   bat_spawn_egg: ʻO ka huaʻo Spa spawn
   bee_spawn_egg: ʻO ka Bee Spawn Egg
   blaze_spawn_egg: ʻO ka huaʻo Spa spawn
@@ -744,6 +898,8 @@ material:
   evoker_spawn_egg: Hoʻopukaʻia ka iʻa i ka iʻa
   fox_spawn_egg: Fox Spawn Egg
   ghast_spawn_egg: ʻO ka huaʻo Spa spawn
+  glow_squid_spawn_egg: ʻO Glow Squid Spawn Egg
+  goat_spawn_egg: ʻOki kāki hua manu
   guardian_spawn_egg: Ua pale ka kahu kahiko i ka hua
   hoglin_spawn_egg: Hua Hoʻokumu Hokalina
   horse_spawn_egg: Hoʻopukaʻia ka iʻa i ka iʻa
@@ -776,6 +932,7 @@ material:
   stray_spawn_egg: Hua Hoʻokumu Strider
   strider_spawn_egg: Hua Hoʻokumu Strider
   trader_llama_spawn_egg: Mea kūʻai Llama Spawn Egg
+  tropical_fish_spawn_egg: Pāhuna I’a ʻōpuʻu Huamoa
   turtle_spawn_egg: Honu hua manu
   vex_spawn_egg: Ka hua manu hua ma Vex
   villager_spawn_egg: Villager Spawn Egg
@@ -791,11 +948,15 @@ material:
   zombified_piglin_spawn_egg: Hua Hoʻokumu Pikalina i Hoʻomake ʻia
   experience_bottle: ʻŌmole Hoʻokalakupua
   fire_charge: Pōpōahi
-  emerald: ʻEmelala
+  writable_book: Puke A Kuilima
+  written_book: Buke Kakau
+  item_frame: Pākuʻi huahana
+  glow_item_frame: Glame Item Frame
   flower_pot: Poho Mea Kanu
   carrot: Kāloke
   potato: ʻUala kahiki
   baked_potato: ʻUala Kahiki Kālua
+  poisonous_potato: Uala ʻino
   map: Palapalaʻāina Hakahaka
   golden_carrot: Kāloke Kula
   skeleton_skull: Iwi kanaka poʻo
@@ -804,15 +965,19 @@ material:
   zombie_head: Huakaʻi po poʻo
   creeper_head: Kelepela Poʻo
   dragon_head: Moʻo Poʻo
-  warped_fungus_on_a_stick: Kūkaelio Pupule ma ka Lāʻau
   nether_star: Nekela Hoku
   pumpkin_pie: ʻAmokiʻi
+  firework_rocket: Pōhaku ahi
+  firework_star: Hoku ahi
+  enchanted_book: Puke hoʻokalakupua
   nether_brick: Nekele Lepo
-  quartz: Nekele Pohaku Aʻiaʻi
-  tnt_minecart: Nā kāleka me TNT
-  hopper_minecart: Nā kāleka me Hopper
   prismarine_shard: Pelikimalina Pohaku
   prismarine_crystals: Pelikimalina Aʻiaʻi
+  rabbit: ʻiole lāPaki maka
+  cooked_rabbit: ʻiole lāPaki moʻa
+  rabbit_stew: ʻiole lāPaki kū
+  rabbit_foot: wāwae o ka lāpaki
+  rabbit_hide: Hūnā lāpaki
   armor_stand: ʻAʻahu Kaua Pākaukau
   iron_horse_armor: Hao Lio ʻAʻahu Kaua
   golden_horse_armor: Kula Lio ʻAʻahu Kaua
@@ -820,18 +985,42 @@ material:
   leather_horse_armor: Ka lole Horse Armor
   lead: Kaula paʻa lima
   name_tag: Inoa Mekala
+  command_block_minecart: Minecart me ka poloka kauoha
+  mutton: ʻIʻo hipa maka
+  cooked_mutton: ʻIʻo hipa moʻa
+  white_banner: Hae Keʻokeʻo
+  orange_banner: ʻĀlani ʻalani
+  magenta_banner: Mālama Magenta
+  light_blue_banner: Pāʻā Uila Māmā
+  yellow_banner: Pākuʻi melemele
+  lime_banner: ʻĀlapa Lime
+  pink_banner: Pākuʻi ʻĀlani
+  gray_banner: Pākuʻi hina
+  light_gray_banner: Paina Hinahina Māmā
+  cyan_banner: Pākuʻi Cyan
+  purple_banner: Pākuʻi Lila
+  blue_banner: Paʻa polū
+  brown_banner: Pākuʻi Brown
+  green_banner: Pākuʻi ʻōmaʻomaʻo
+  red_banner: Pākuʻi ʻulaʻula
+  black_banner: Pākuʻi ʻEleʻele
   end_crystal: Enekela Aʻiaʻi
   chorus_fruit: Hui Hua
+  popped_chorus_fruit: ʻO Pepe Chorus Huina
   beetroot: Pika
+  beetroot_seeds: ʻO Pepe Chorus Huina
+  beetroot_soup: ʻeke beetroot
+  dragon_breath: Hanu Deragona
   splash_potion: Hoʻomākaukau Potion
   spectral_arrow: ʻEna pua pana
   tipped_arrow: Pākuʻi pūʻia
   lingering_potion: Ka ipu lōʻihi
-  spruce_boat: Paina lāʻau moku
-  birch_boat: Keʻokeʻo lāʻau moku
-  jungle_boat: Wao nahele lāʻau moku
-  acacia_boat: ʻAkakiʻa lāʻau moku
-  dark_oak_boat: Pouli ʻOke lāʻau moku
+  shield: Pale kaua
+  totem_of_undying: Totem o ka make ʻole ʻana
+  shulker_shell: Pūpū shulker
+  iron_nugget: Pūliki hao
+  knowledge_book: Puke ʻIke
+  debug_stick: Laau Hoʻoiho
   music_disc_13: Pā hoʻokani
   music_disc_cat: Pā hoʻokani
   music_disc_blocks: Pā hoʻokani
@@ -846,26 +1035,32 @@ material:
   music_disc_wait: Pā hoʻokani
   music_disc_pigstep: Pā hoʻokani
   trident: Ke kuhi
+  phantom_membrane: Membrane Phantom
+  nautilus_shell: Kaheilus Hauʻoli
+  heart_of_the_sea: Puʻuwai o ke kai
   crossbow: Crossbow
   suspicious_stew: ʻO ke kai
   loom: Loom
+  flower_banner_pattern: Pākuʻi Banner
   creeper_banner_pattern: Hōʻike Banner
   skull_banner_pattern: Hōʻike Banner
   mojang_banner_pattern: Hōʻike Banner
   globe_banner_pattern: Hōʻike Banner
   piglin_banner_pattern: Hōʻike Banner
+  composter: Mea kīpulu
   barrel: ʻO Barrel
   smoker: Pumekala
   blast_furnace: Ka makani heʻe
   cartography_table: Papa Papa Kinohi
   fletching_table: ʻO ka papaʻaina
   grindstone: ʻO Grindstone
-  lectern: Lectern
   smithing_table: Ka Papa Hana Hana
   stonecutter: Kopaʻu
   bell: Bell
   lantern: Lantern
   soul_lantern: Lama ʻUhane
+  sweet_berries: Nā hua berena
+  glow_berries: ʻO Glow Berries
   campfire: ʻO ke ahi
   soul_campfire: Luaahi ʻUhane
   shroomlight: Ao Kūkaelio
@@ -873,12 +1068,8 @@ material:
   bee_nest: Piʻi manu
   beehive: Hale Pi
   honey_bottle: ʻŌmole Meli
-  honey_block: Meli Palaka
   honeycomb_block: Waihona Meli Palaka
   lodestone: Pōhaku Mākēneki
-  netherite_block: Palaka Mekalanekele
-  ancient_debris: Koena Kahiko
-  target: Māka
   crying_obsidian: Mākā Uē
   blackstone: Pōhaku ʻEleʻele
   blackstone_slab: Paukū Pālālā Pōhaku ʻEleʻele
@@ -893,6 +1084,28 @@ material:
   polished_blackstone_brick_stairs: ʻAnuʻu Pōhaku ʻEleʻele Hinua
   cracked_polished_blackstone_bricks: Pōhaku Lepo ʻEleʻele Hinua i Kīkē ʻia
   respawn_anchor: Heleuma Hoʻi
+  candle: Ihoiho
+  white_candle: Ihoiho keʻokeʻo
+  orange_candle: Ihoiho ʻalani
+  magenta_candle: Ihoiho Magenta
+  light_blue_candle: Malamalama Polū Ihoiho
+  yellow_candle: Ihoiho kukui
+  lime_candle: Līkini Lime
+  pink_candle: Lilinela ʻulaʻula
+  gray_candle: Lilinela Hinahina
+  light_gray_candle: Lilinela Hinahina Māmā
+  cyan_candle: Kukui Cyan
+  purple_candle: Lilinā Lila
+  blue_candle: Lilinui Blue
+  brown_candle: Kukui ihoiho
+  green_candle: Kukui ʻōmaʻomaʻo
+  red_candle: Kukui ʻulaʻula
+  black_candle: Ihoiho
+  small_amethyst_bud: Puʻupuʻu Amethyst liʻiliʻi
+  medium_amethyst_bud: Waena Amethyst liʻiliʻi
+  large_amethyst_bud: ʻO Bud Amethyst nui
+  amethyst_cluster: Kāpena Amethyst
+  pointed_dripstone: Dripstone Kānāwai
   water: Wai
   lava: Pele
   tall_seagrass: Kahiki
@@ -915,6 +1128,9 @@ material:
   attached_melon_stem: Pākuʻi Kūʻokoʻa Paʻi
   pumpkin_stem: ʻAmokiʻi
   melon_stem: Ipu ʻAnoʻano
+  water_cauldron: Kaila wai
+  lava_cauldron: Lava Cauldron
+  powder_snow_cauldron: Powder Snow Cauldron
   end_portal: Enekela Puka Nui
   cocoa: Kōkō Kanu
   tripwire: Huakaʻi hele
@@ -937,6 +1153,7 @@ material:
   potted_oxeye_daisy: k tauauHuStates maoAA
   potted_cornflower: k taueka kumu Ai
   potted_lily_of_the_valley: k taula Asaaiminʻi welaminNorma
+  potted_wither_rose: Wither Rose in a pot
   potted_red_mushroom: ʻO ka mea i puhiʻia i ka ulaʻula
   potted_brown_mushroom: ʻO ka mea i puhiʻia i ka ulaʻula
   potted_dead_bush: Ke Kaʻo Pōʻuku Pā
@@ -949,6 +1166,22 @@ material:
   player_wall_head: Leo Pāʻani Honua
   creeper_wall_head: Kelepela Poʻo
   dragon_wall_head: Ke poʻo o ka huelo Dragon
+  white_wall_banner: Hae Keʻokeʻo
+  orange_wall_banner: ʻĀlani ʻalani
+  magenta_wall_banner: Mālama Magenta
+  light_blue_wall_banner: Pāʻā Uila Māmā
+  yellow_wall_banner: Pākuʻi melemele
+  lime_wall_banner: ʻĀlapa Lime
+  pink_wall_banner: Pākuʻi ʻĀlani
+  gray_wall_banner: Pākuʻi hina
+  light_gray_wall_banner: Paina Hinahina Māmā
+  cyan_wall_banner: Pākuʻi Cyan
+  purple_wall_banner: Pākuʻi Lila
+  blue_wall_banner: Paʻa polū
+  brown_wall_banner: Pākuʻi Brown
+  green_wall_banner: Pākuʻi ʻōmaʻomaʻo
+  red_wall_banner: Pākuʻi ʻulaʻula
+  black_wall_banner: Pākuʻi ʻEleʻele
   beetroots: Pika
   end_gateway: Hoʻoponopono Kope
   frosted_ice: Kēhau anu
@@ -964,6 +1197,7 @@ material:
   fire_coral_wall_fan: Kukui pākuʻu kōpana
   horn_coral_wall_fan: ʻO ke Kino WailuaʻOi
   bamboo_sapling: Keiki ʻOhe
+  potted_bamboo: Bamboo in a pot
   void_air: Ea ka ea
   cave_air: Ka Air Nalu
   bubble_column: Kālamu maha
@@ -976,6 +1210,30 @@ material:
   potted_warped_fungus: Kūkaelio Pupule i Poho ʻia
   potted_crimson_roots: Aʻa ʻUlaʻula i Poho ʻia
   potted_warped_roots: Aʻa Pupule i Poho ʻia
+  candle_cake: Kukui kukui
+  white_candle_cake: Kaka me ka ihoiho keʻokeʻo
+  orange_candle_cake: Kaka me ka ihoiho ʻAlani
+  magenta_candle_cake: Kaka me ka ihoiho Magenta
+  light_blue_candle_cake: Kaka me ka ihoiho kukui ʻālohilohi
+  yellow_candle_cake: Kaka me ka ihoiho melemele
+  lime_candle_cake: Kaka me ka ihoiho Lime
+  pink_candle_cake: Kaka me ka ihoiho ʻulaʻula
+  gray_candle_cake: Kaka me ka ihoiho Kukui
+  light_gray_candle_cake: Kaka me ka ihoiho ʻāhinahina Uila
+  cyan_candle_cake: Kaka me ka ihoiho Cyan
+  purple_candle_cake: Kaka me ka ihoiho Lila
+  blue_candle_cake: Kaka me ka ihoiho polū
+  brown_candle_cake: Kaka me ka ihoiho Brown
+  green_candle_cake: Kaka me ka ihoiho ʻōmaʻomaʻo
+  red_candle_cake: Kaka me ka ihoiho ʻulaʻula
+  black_candle_cake: Kaka me ka ihoiho ʻeleʻele
+  powder_snow: Pulu hau
+  cave_vines: Waina Cave
+  cave_vines_plant: Mea kanu Cave Vine
+  big_dripleaf_stem: ʻO Stem Big Dripleaf
+  potted_azalea_bush: ʻO Poti Azalea
+  potted_flowering_azalea_bush: ʻO Poti Azalea
+  grass_path: Mauʻu Ala
 biome:
   desert: Wao akua
   nether_wastes: Nekele ʻIlikona
@@ -986,48 +1244,200 @@ biome:
   crimson_forest: Aʻa ʻUlaʻula
   warped_forest: Warped Ululaau
   basalt_deltas: Delta Basalt
+  dripstone_caves: Nā Ana Dripstone
+  lush_caves: Ana Lush
 enchantment:
+  protection: Palekana
+  fire_protection: Pale kinai ahi
+  feather_falling: Ke heleleʻi ʻana o ka hulu
+  blast_protection: Pāpale Puhi
+  projectile_protection: Palekana Projectile
+  respiration: Hoʻoikaika
+  aqua_affinity: ʻO Aqua Affinity
+  thorns: Kakala
+  depth_strider: Ka hohonu Strider
+  frost_walker: ʻO Frost Walker
+  binding_curse: Ka hōʻino o ka hoʻopaʻa ʻana
   sharpness: ʻOi
-  soul_speed: Uhane Speed
   smite: Kuʻi
+  bane_of_arthropods: ʻO Bane o nā Arthropods
+  knockback: Knockback
+  fire_aspect: ʻAha ʻAha
+  looting: Looting
+  sweeping: Lihi Kahili
+  efficiency: Ka hoʻokō ʻana
+  silk_touch: Pā Silk
+  unbreaking: Hewa ʻole
+  fortune: Pōmaikaʻi
+  power: Mana
+  punch: Punch
+  flame: ʻAhi
+  infinity: Makahiki
+  luck_of_the_sea: Laki o ke Kai
+  lure: Lure
+  loyalty: Kūpono
+  impaling: Ke kau nei
+  riptide: ʻO Riptide
+  channeling: Kanela
+  multishot: Pākuʻi lehulehu
+  quick_charge: Kauoha Wikiwiki
+  piercing: Piercing
+  mending: Hoʻolālā
+  vanishing_curse: Ka hōʻino o ka nalowale
+  soul_speed: Uhane Speed
+potion:
+  uncraftable: ʻO Potion Uncraftable
+  water: Mole wai
+  mundane: ʻO Mundane Potion
+  thick: Pākuʻi mānoanoa
+  awkward: Aloha ʻAha
+  night_vision: Kaha o ka Hihi Po
+  invisibility: Kiʻi o ka ʻike maka ʻole ʻia
+  jump: Kaha o ka Lele ʻana
+  fire_resistance: Kaha o ke kūʻē ahi
+  speed: Kaha o ka wikiwiki
+  slowness: Pili o ka Lohi
+  water_breathing: Kaha o ka hanu wai
+  instant_heal: Kukui Hoola
+  instant_damage: Kiʻi o ka hōʻino
+  poison: Kiʻi o ka lāʻau make
+  regen: Kiʻi o ka hoʻoulu hou ʻana
+  strength: Kaha o ka ikaika
+  weakness: Kaona o ka nāwaliwali
+  luck: Kiʻi o ka Laki
+  turtle_master: Kiʻi o ka Haku Honu
+  slow_falling: Potion o ka hāʻule lohi
+splash_potion:
+  uncraftable: Splash Uncraftable Potion
+  water: ʻLemole wai pīpī
+  mundane: ʻO Mundane Splash Potion
+  thick: ʻO Potion Splash mānoanoa
+  awkward: ʻO Awkward Splash Potion
+  night_vision: Splash Potion o ka Po hihio
+  invisibility: Splash Potion o ka ʻike maka ʻole ʻia
+  jump: Splash Potion o ka lele ʻana
+  fire_resistance: ʻO Splash Potion o ke kūʻē ahi
+  speed: ʻO Splash Potion o ka wikiwiki
+  slowness: Splash Potion o ka lohi
+  water_breathing: Splash Potion of Water Breathing
+  instant_heal: Splash Potion of Healing
+  instant_damage: Splash Potion o ka hōʻeha
+  poison: Splash Potion o ka lāʻau make
+  regen: ʻO Splash Potion o ka Hoʻohou Hou
+  strength: Splash Potion o ka ikaika
+  weakness: Splash Potion o ka nāwaliwali
+  luck: Splash Potion o Laki
+  turtle_master: ʻO Splash Potion o ke Kumu Honu
+  slow_falling: Splash Potion o ka hāʻule lohi
+lingering_potion:
+  uncraftable: ʻO Lingering Unotionable Potion
+  water: ʻLemole wai lingering
+  mundane: ʻO Mundane Lingering Potion
+  thick: Pākuʻi Lingering mānoanoa
+  awkward: ʻAha Hoʻonā Awewe
+  night_vision: ʻO Lingering Potion o ka Hōʻike Po
+  invisibility: Lingering Potion o ka ʻike maka ʻole ʻia
+  jump: ʻO Lingering Potion o ka lele
+  fire_resistance: ʻO Lingering Potion o ke kūʻē ahi
+  speed: ʻO Lingering Potion o ka wikiwiki
+  slowness: ʻO Lingering Potion o ka Lohi
+  water_breathing: ʻO Lingering Potion o ka hanu wai
+  instant_heal: Hoʻomaha lingering o ka hoʻōla
+  instant_damage: ʻO Lingering Potion o ka hōʻino
+  poison: ʻO Lingering Potion o ka Poison
+  regen: ʻO Lingering Potion of Regeneration
+  strength: Lingering Potion o ka ikaika
+  weakness: ʻO Lingering Potion o ka nāwaliwali
+  luck: ʻO Lingering Potion o Laki
+  turtle_master: ʻO Lingering Potion o ke Kumu Honu
+  slow_falling: ʻO Lingering Potion o ka hāʻule lohi
+tipped_arrow:
+  uncraftable: ʻĀpana Tipped Uncraftable
+  water: Pana o ka ʻulupā
+  mundane: ʻĀlika ʻōlapa
+  thick: ʻĀlika ʻōlapa
+  awkward: ʻĀlika ʻōlapa
+  night_vision: Pana o ka Hihi Po
+  invisibility: Pana o ka ʻike maka ʻole ʻia
+  jump: Pana o ka lele ʻana
+  fire_resistance: Pana o ke ahi Kūʻē
+  speed: Pana o ka wikiwiki
+  slowness: ʻRowlau Lohi
+  water_breathing: Pana o ka hanu wai
+  instant_heal: Pana o ka hoʻōla
+  instant_damage: Pana o ka hōʻeha
+  poison: Pana o ka lāʻau make
+  regen: Pana o ka hana hou ʻana
+  strength: Pana o ka ikaika
+  weakness: Pana o ka nāwaliwali
+  luck: ʻRowlau Laki
+  turtle_master: Pana a ka Haku Honu
+  slow_falling: Pana Haule Haule
 entity:
   dropped_item: ʻIkamu
   experience_orb: Ka hoao ana pōpō
+  area_effect_cloud: Kapua Āpana Āpana
+  elder_guardian: Lunakahiko kahu
   wither_skeleton: Iwi wikela kanaka poʻo
   stray: Kuhi
+  egg: Hina ʻAi
+  leash_hitch: Leash Knot
   painting: Pena
   arrow: Pua pana
   snowball: Pōpōhau
   fireball: Pōpōahi
   small_fireball: ʻUʻuku Pōpōahi
+  ender_pearl: Kiola ʻia ʻo Ender Pearl
   ender_signal: Ka maka o ke kuʻi
   splash_potion: ʻApu
   thrown_exp_bottle: ʻŌmole Hoʻokalakupua
+  item_frame: Pākuʻi huahana
+  wither_skull: Kapuaʻa Maʻa
   primed_tnt: Hoʻomaka ka TNT
+  falling_block: Palaka hāʻule
+  firework: ʻO Rocket Firework
+  husk: Husk
   spectral_arrow: ʻEna pua pana
   shulker_bullet: Ka mea kanu shulker
   dragon_fireball: Moʻo Pōpōahi
+  zombie_villager: ʻO Zombie Kaona
   skeleton_horse: Iwi kanaka lio
   zombie_horse: Huakaʻi pō lio
   armor_stand: ʻAʻahu Kaua Pākaukau
   donkey: Kēkake
   mule: Miula
+  evoker_fangs: Evang Fangs
+  evoker: ʻO Evoker
   vex: ʻO Vex
+  vindicator: Mea Hoʻohanohano
+  illusioner: Illusioner
+  minecart_command: Minecart me ka poloka kauoha
   boat: Moku
   minecart: Kaʻa huila la
+  minecart_chest: Minecart me ka pahu
+  minecart_furnace: Minecart me ka umu ahi
   minecart_tnt: Nā kāleka me TNT
   minecart_hopper: Nā kāleka me Hopper
   minecart_mob_spawner: Nā kāleka me Spawner
   creeper: Creeper
   skeleton: Kaomi
   spider: Nananana
+  giant: Pilikua
   zombie: Zombie
   slime: Ka slime
+  ghast: ʻĀhū
   zombified_piglin: Pikalina i Hoʻomake ʻia
+  enderman: ʻO Enderman
+  cave_spider: Punawelewele Cave
   silverfish: Kauwai
+  blaze: ʻLapa ahi
+  magma_cube: ʻO Magma Cube
+  ender_dragon: ʻO Ender Dragon
   wither: |
     Wither
   bat: ʻŌpeʻapeʻa
+  witch: Wahine kilokilo
+  endermite: ʻO Endermite
   guardian: Kahu
   shulker: Kulekela
   pig: Puaʻa
@@ -1036,35 +1446,81 @@ entity:
   chicken: Moa
   squid: Mūheʻe
   wolf: ʻīlio hae
+  mushroom_cow: Mooshroom
   snowman: Hao Kālai
   ocelot: Pōpōki hihiu
   iron_golem: Hao Kālai
   horse: Lio
   rabbit: Lāpaki
   polar_bear: Polar Bear
+  llama: Llama
+  llama_spit: Llama Spit
   parrot: Pāloke
   villager: Kauhale
   ender_crystal: Enekela Aʻiaʻi
   turtle: Kaʻi
+  phantom: Phantom
   trident: Ke kuhi
   cod: Pakaliao
   salmon: Salmon
   pufferfish: Ākēkē
   tropical_fish: ʻO iʻa iʻa
+  drowned: Pahu ʻia
   dolphin: Hoikiuna
   cat: Pōpōki
+  panda: Panda
+  pillager: Pillager
+  ravager: ʻO Ravager
+  trader_llama: Mea kālepa Llama
+  wandering_trader: Mea Kalepa holoholo
   fox: ʻalopeka
   bee: Nalo Meli
-  hoglin: Hokalina
+  hoglin: Hoglin
   piglin: Pikalina
   strider: Strider
-  zoglin: Zokalina
+  zoglin: Zoglin
   piglin_brute: Kolohe Pikalina
+  axolotl: Axolotl
+  glow_item_frame: Glame Item Frame
+  glow_squid: ʻO Glow Squid
+  goat: Kao
+  marker: Peni māka
+  fishing_hook: ʻO Bobber lawaiʻa
+  lightning: Ka uila
+  player: Mea pāʻani
 effect:
+  speed: Wikiwiki
   slow: Lohi
   fast_digging: ʻAwīwī
+  slow_digging: Hoʻoikaika luhi
   increase_damage: Ikaika
+  heal: Ola Ola Loa
+  harm: Pōʻino koke
+  jump: Lele hoʻonui
+  confusion: Nusea
+  regeneration: Hoʻōla Hou
+  damage_resistance: Kūʻē
+  fire_resistance: Kūʻē ahi
+  water_breathing: Hanu wai
+  invisibility: ʻIke maka ʻole ʻia
+  blindness: Makapō
+  night_vision: Hōʻikeʻike Po
+  hunger: Pololi
+  weakness: Nawaliwali
+  poison: Poison
   wither: Wither
+  health_boost: Hoʻoikaika Ola
+  absorption: Hoʻohui
+  saturation: Hoʻopau
+  glowing: ʻOwinglohilohi
+  levitation: ʻO ka Levi
+  luck: Laki
+  unluck: Laki maikaʻi
+  slow_falling: Heleleʻi Haule
+  conduit_power: ʻAha Hoʻokele
+  dolphins_grace: ʻO ka Makana Dolphin
+  bad_omen: ʻOmen maikaʻi
+  hero_of_the_village: Hero o ke kauhale
 tropical_fish_type:
   kob: Kob
   sunstreak: Kāheʻa
@@ -1099,12 +1555,438 @@ named:
   player_head_named: '%s poʻo'
   potion_with_amplifier: '%s %s'
   potion_with_duration: '%s (%s)'
+  none_effects: ʻAʻohe hopena
 tropical_fish_name:
   '117506305': Nā anemones
   '117899265': ʻO ke kinoʻeleʻele
+  '185008129': ʻO Tang Tang
+  '117441793': Momi Puʻupuʻu
+  '118161664': ʻO Cichlid
+  '65536': ʻO Clownfish
+  '50726144': Cotton Candy Betta
+  '67764993': ʻO Dottyback
+  '234882305': ʻO Emperor Red Snapper
+  '67110144': ʻAtpala kao
+  '117441025': ʻO Idol Moor
+  '16778497': Pepeiao Ornate
+  '101253888': ʻRotlapa kāka
+  '50660352': Queen Angelfish
+  '918529': Cichlid ʻulaʻula
+  '235340288': ʻO Red Lipped Blenny
+  '918273': ʻSnaplapa ʻulaʻula
+  '67108865': Threadfin
+  '917504': ʻO Tomato Clownfish
   '459008': Humuhumunukunukuapua'a
+  '67699456': ʻO Parrotfish Yellowtail
   '67371009': Ka pulu'āpana
+colored_shied:
+  white: Pale keʻokeʻo
+  orange: Pale ʻAlani
+  magenta: ʻO Magenta Shield
+  light_blue: Pale Pulu Uila
+  yellow: Pale Melemele
+  lime: Lime Shield
+  pink: Pale Pale
+  gray: Pālei Pele
+  light_gray: Pale Puʻukū Māmā
+  cyan: Kāpena Cyan
+  purple: Pale Poni
+  blue: Pale Pulu
+  brown: Palekona Brown
+  green: Pale ʻōmaʻomaʻo
+  red: Pale ʻulaʻula
+  black: Pale ʻeleʻele
 banner_pattern:
+  '65536': White Base Dexter Canton
+  '65537': ʻO Orange Base Dexter Canton
+  '65538': ʻO Magenta Base Dexter Canton
+  '65539': ʻO Light Blue Base Dexter Canton
+  '65540': Yellow Base Dexter Canton
+  '65541': ʻO Lime Base Dexter Canton
+  '65542': Pink Base Dexter Canton
+  '65543': ʻO Gray Base Dexter Canton
+  '65544': ʻO Base Grey Base Dexter Canton
+  '65545': ʻO Cyan Base Dexter Canton
+  '65546': Lila Pepe Dexter Canton
+  '65547': Blue Base Dexter Canton
+  '65548': ʻO Brown Base Dexter Canton
+  '65549': ʻO Green Base Dexter Canton
+  '65550': ʻO Red Base Dexter Canton
+  '65551': ʻO Black Base Dexter Canton
+  '131072': Kanalehua Sinister Canton
+  '131073': ʻO Orange Base Sinister Canton
+  '131074': ʻO Magenta Base Sinister Canton
+  '131075': ʻOihana Blue Blue Sinister Canton
+  '131076': O' Yellow Base Sinister Canton
+  '131077': ʻO Lime Base Sinister Canton
+  '131078': Pink Base Sinister Canton
+  '131079': ʻO Gray Base Sinister Canton
+  '131080': ʻO Base Grey Base Sinister Canton
+  '131081': ʻO Cyan Base Sinister Canton
+  '131082': Pepeiao Sinist Canton
+  '131083': Blue Base Sinister Canton
+  '131084': ʻO Brown Base Sinister Canton
+  '131085': ʻO Green Base Sinister Canton
+  '131086': ʻO Base Base Sinister Canton
+  '131087': ʻO Base Base Sinister Canton
+  '196608': Ke Aliʻi Keʻokeʻo Dexter Canton
+  '196609': ʻO Orange Aliʻi Dexter Canton
+  '196610': ʻO Magenta Aliʻi Dexter Canton
+  '196611': ʻO Blue Chief Light Dexter Canton
+  '196612': ʻO Yellow Chief Dexter Canton
+  '196613': ʻO Lime Chief Dexter Canton
+  '196614': ʻO Pink Chief Dexter Canton
+  '196615': ʻO Gray Aliʻi Dexter Canton
+  '196616': Ke Aliʻi ʻ Grayhinahina Light Dexter Canton
+  '196617': ʻO Cyan Chief Dexter Canton
+  '196618': Pepeiao Dexter Canton
+  '196619': ʻO Blue Chief Dexter Canton
+  '196620': ʻO Brown Aliʻi Dexter Canton
+  '196621': ʻO Green Chief Dexter Canton
+  '196622': ʻO Red Chief Dexter Canton
+  '196623': Ke Aliʻi ʻEleʻele Dexter Canton
+  '262144': Ke Aliʻi Keʻokeʻo Sinister Canton
+  '262145': ʻO Orange Aliʻi Sinister Canton
+  '262146': ʻO Magenta Aliʻi Sinister Canton
+  '262147': Ke Aliʻi ʻAni Muli ʻO Sinister Canton
+  '262148': ʻO Yellow Chief Sinister Canton
+  '262149': ʻO Lime Chief Sinister Canton
+  '262150': ʻO Pink Chief Sinister Canton
+  '262151': ʻO Gray Aliʻi Sinister Canton
+  '262152': Ke Aliʻi Keʻokeʻo Uila Sinister Canton
+  '262153': ʻO Cyan Aliʻi Sinister Canton
+  '262154': Luna Nui Lila Sinister Canton
+  '262155': ʻO Blue Chief Sinister Canton
+  '262156': ʻO Brown Aliʻi Sinister Canton
+  '262157': ʻO Green Chief Sinister Canton
+  '262158': Ke Aliʻi Ulaula Sinister Canton
+  '262159': Ke Aliʻi ʻEleʻele Sinister Canton
+  '327680': Kahua Keʻokeʻo
+  '327681': Kahua ʻAlani
+  '327682': Kahua Magenta
+  '327683': Kahua Paʻa Uila
+  '327684': Kahua Melemele
+  '327685': Kahua Lime
+  '327686': Kahua Poni
+  '327687': Kahua Hinahina
+  '327688': Kahua Hinahina Māmā
+  '327689': Kahua Cyan
+  '327690': Paepae Lila
+  '327691': Kahua Pulu
+  '327692': Kumu Brown
+  '327693': Kahua ʻōmaʻomaʻo
+  '327694': Kumu ʻulaʻula
+  '327695': Kahua ʻeleʻele
+  '393216': Aliʻi Keʻokeʻo
+  '393217': Aliʻi ʻAlani
+  '393218': Magenta Aliʻi
+  '393219': Aliʻi ʻAno Malamalama
+  '393220': Aliʻi melemele
+  '393221': Lime Aliʻi
+  '393222': Aliʻi ʻulaʻula
+  '393223': Aliʻi Hinahina
+  '393224': Aliʻi Hinahina Māmā
+  '393225': Aliʻi Cyan
+  '393226': Aliʻi Lila
+  '393227': Aliʻi polū
+  '393228': Brown Aliʻi
+  '393229': Aliʻi ʻōmaʻomaʻo
+  '393230': Aliʻi ʻulaʻula
+  '393231': Aliʻi ʻEleʻele
+  '458752': White Pale Dexter
+  '458753': ʻO Orange Pale Dexter
+  '458754': ʻO Magenta Pale Dexter
+  '458755': ʻO Blue Pale Dexter
+  '458756': ʻO Yellow Pale Dexter
+  '458757': ʻO Lime Pale Dexter
+  '458758': ʻO Pink Pale Dexter
+  '458759': ʻO Gray Pale Dexter
+  '458760': Pākuʻi Pale Dexter Māmā
+  '458761': ʻO Cyan Pale Dexter
+  '458762': Lila Pale Dexter
+  '458763': ʻO Blue Pale Dexter
+  '458764': ʻO Brown Pale Dexter
+  '458765': ʻO Green Pale Dexter
+  '458766': ʻO Red Pale Dexter
+  '458767': ʻEleʻele Pale Dexter
+  '524288': ʻO White Pale Sinister
+  '524289': ʻO Orange Pale Sinister
+  '524290': Magenta Pale Sinister
+  '524291': Pale Pale Uila Sinister
+  '524292': ʻO Yellow Pale Sinister
+  '524293': ʻO Lime Pale Sinister
+  '524294': ʻO Pink Pale Sinister
+  '524295': ʻO Gray Pale Sinister
+  '524296': Sinale Pale Uila Sinister
+  '524297': ʻO Cyan Pale Sinister
+  '524298': ʻO Pale Pale Sinister
+  '524299': ʻO Blue Pale Sinister
+  '524300': ʻO Brown Pale Sinister
+  '524301': ʻO Green Pale Sinister
+  '524302': ʻO Red Pale Sinister
+  '524303': ʻO Pale ʻEleʻele Sinister
+  '589824': Pāʻokeʻo
+  '589825': Pale ʻalani
+  '589826': Magenta Pale
+  '589827': Pāleʻele Blue Mālamalama
+  '589828': Pale melemele
+  '589829': Pale Lime
+  '589830': Pale ʻĀlani
+  '589831': Pālehu hina
+  '589832': Pale Hinahina Māmā
+  '589833': ʻO Cyan Pale
+  '589834': Pāleʻa Lila
+  '589835': Pāleʻele Blue
+  '589836': Pale Brown
+  '589837': Pale ʻōmaʻomaʻo
+  '589838': Pale ʻulaʻula
+  '589839': Pāleʻele
+  '655360': Lehi Keʻokeʻo
+  '655361': ʻAlani Fess
+  '655362': ʻO Magenta Fess
+  '655363': Pahu ʻAilana Mālamalama
+  '655364': ʻAha Mele melemele
+  '655365': ʻO Lime Fess
+  '655366': Pink Fess
+  '655367': ʻO Fess Grey
+  '655368': Fess Kukui Māmā
+  '655369': ʻO Cyan Fess
+  '655370': Lila Poni
+  '655371': Blue Fess
+  '655372': ʻO Fess Brown
+  '655373': Uku ʻōmaʻomaʻo
+  '655374': ʻAla ʻulaʻula
+  '655375': ʻUmi ʻEleʻele
+  '720896': Pālua Keʻokeʻo
+  '720897': Pua ʻalani
+  '720898': ʻO Magenta Bend
+  '720899': Pua Pulu Uila
+  '720900': Pua melemele
+  '720901': Kulou Lime
+  '720902': Pink Bend
+  '720903': Pālua hina
+  '720904': Pālua Hinahina Māmā
+  '720905': Cyan Bend
+  '720906': Pua Lila
+  '720907': Pālua Kahuli
+  '720908': ʻO Bend Bend
+  '720909': Pālena ʻōmaʻomaʻo
+  '720910': Kulou ʻulaʻula
+  '720911': Pua ʻEleʻele
+  '786434': ʻO Magenta Bend Sinister
+  '786435': ʻO Sinister Bend Pōlani Sinister
+  '786436': ʻO Yellow Bend Sinister
+  '786437': ʻO Lime Bend Sinister
+  '786438': Pink Bend Sinister
+  '786439': ʻO Gray Bend Sinister
+  '786440': ʻO Sinister Bend Bend Sinister
+  '786441': ʻO Cyan Bend Sinister
+  '786442': Lila Pepe Sinister
+  '786443': ʻO Blue Bend Sinister
+  '786444': ʻO Brown Bend Sinister
+  '786445': ʻO Green Bend Sinister
+  '786446': ʻO Red Bend Sinister
+  '786447': ʻO Black Bend Sinister
+  '917504': Paakai Paakai
+  '1048576': Chevron Keʻokeʻo
+  '1048577': ʻO Cyan Chevron
+  '1048578': Magenta Chevro
+  '1048579': ʻO Chevron Blue Mālamalama
+  '1048580': ʻO Chevron Yellow
+  '1048581': Lime Chevron
+  '1048582': Pink Chevron
+  '1048583': ʻO Gray Chevron
+  '1048584': Chevron Hinahina Māmā
+  '1048585': ʻO Cyan Chevron
+  '1048586': '''O Chevron Lila'
+  '1048587': Blue Chevron
+  '1048588': ʻO Brown Chevron
+  '1048589': ʻO Chevron Green
+  '1048590': Chevron ʻulaʻula
+  '1048591': Chevron ʻEleʻele
+  '1114112': Chevron Kahuli Keʻokeʻo
+  '1114113': ʻO Chevron Kahuli ʻIlani
+  '1114114': ʻO Chevron hoʻohuli ʻia ʻo Magenta
+  '1114115': ʻO Chevron Kahuli Kahuli Kahuli
+  '1114116': Ua huli ʻo ʻO Chevron Lvert
+  '1114117': ʻO Chevron Lvert Inverted
+  '1114118': ʻO Chevron Kahuli Huli
+  '1114119': Chevron Kahuli Hewa
+  '1114120': Chevron Kahuli ʻhinahina
+  '1114121': ʻO Chevron hoʻohuli ʻia ʻo Cyan
+  '1114122': Chevron Kahuli
+  '1114123': ʻO Chevron Kahuli Kahuli
+  '1114124': Chevron Kahuli Kahuli
+  '1114125': ʻO Chevron Kahuli Green
+  '1114126': Chevron Kahuli ʻUla
+  '1114127': Chevron Kahuli ʻEleʻele
+  '1179648': Indented Base Keʻokeʻo
+  '1179649': Indent Base Kahuna
+  '1179650': Indent Base Magenta
+  '1179651': Indented Base Kahuli Uila
+  '1179652': ʻAnuʻu Yellow Yellow
+  '1179653': ʻAnuʻu Lime Hoʻokomo ʻia
+  '1179654': Indentis Base Kahuli
+  '1179655': ʻAnuʻu hina hina
+  '1179656': Indented Base Kahina Pākuʻi
+  '1179657': Indented Base Cyan
+  '1179658': Indent Base Kahuna
+  '1179659': Indent Base Blue
+  '1179660': Indentment Base Brown
+  '1179661': Indent Base Kahuna
+  '1179662': Indented Base ʻulaʻula
+  '1179663': Indented Base ʻEleʻele
+  '1245199': Huli ʻia ke Aliʻi ʻEleʻele
+  '1376256': ʻO White Per Bend Sinister i hoʻohuli ʻia
+  '1376257': ʻIliuli ʻo Orange Per Bend Sinister
+  '1376258': Magenta Per Bend Sinister hoʻohuli ʻia
+  '1376259': ʻO Blue Blue Per Bend Sinister i huli ʻia
+  '1376260': Huli ʻo Yellow Per Bend Sinister i hoʻohuli ʻia
+  '1376261': Lime Per Bend Sinister hoʻohuli ʻia
+  '1376262': ʻO Pink Per Bend Sinister i hoʻohuli ʻia
+  '1376263': Hinahina Per Bend Sinister hoʻohuli ʻia
+  '1376264': Hinahina Māmā Per Bend Sinister hoʻohuli ʻia
+  '1376265': Ua hoʻohuli ʻia ʻo Cyan Per Bend Sinister
+  '1376266': Poni Per Bend Sinister hoʻohuli ʻia
+  '1376267': ʻO Blue Per Bend Sinister i hoʻohuli ʻia
+  '1376268': ʻO Brown Per Bend Sinister i hoʻohuli ʻia
+  '1376269': ʻO Green Per Bend Sinister i hoʻohuli ʻia
+  '1376270': Ua huli ʻo Red Per Bend Sinister i hoʻohuli ʻia
+  '1376271': ʻO Black Per Bend Sinister i hoʻohuli ʻia
+  '1441792': Keʻokeʻo Per Bend i huli ʻia
+  '1441793': ʻOrangelani Per Bend i hoʻohuli ʻia
+  '1441794': Hoʻokahuli ʻo Magenta Per Bend
+  '1441795': ʻO Blue Blue Per Bend i huli ʻia
+  '1441796': Lepo Per Bend i huli ʻia
+  '1441797': Lime Per Bend huli aʻe
+  '1441798': ʻO Pink Per Bend i huli ʻia
+  '1441799': Hinahina Per Bend Huli ʻia
+  '1441800': Hinahina Mālamama Per Bend Huli ʻia
+  '1441801': Ua hoʻohuli ʻia ʻo Cyan Per Bend
+  '1441802': Poni Per Bend Huli ʻia
+  '1441803': ʻO Blue Per Bend i huli ʻia
+  '1441804': ʻO Brown Per Bend i hoʻohuli ʻia
+  '1572864': White Roundel
+  '1572865': ʻO Orange Roundel
+  '1572866': Magenta Roundel
+  '1572867': ʻO Blue Roundel
+  '1572868': Yellow Roundel
+  '1572869': Lime Roundel
+  '1572870': Pink Roundel
+  '1572871': ʻO Gray Roundel
+  '1572872': ʻO Roundel hina hina
+  '1572873': ʻO Cyan Roundel
+  '1572874': Puni Roundel
+  '1572875': Blue Roundel
+  '1572876': Brown Roundel
+  '1572877': Green Roundel
+  '1572878': Red Rounde
+  '1572879': ʻEleʻele Roundel
+  '1638411': Lozenge polū
+  '1638412': ʻO Lozenge Brown
+  '1638413': Lozenge ʻōmaʻomaʻo
+  '1638414': Lozenge ʻulaʻula
+  '1638415': Lozenge ʻeleʻele
+  '1835008': Keʻokeʻo Per Pale huli ʻia
+  '1835009': ʻPerlani Per Pale huli ʻia
+  '1835010': Hoʻololi ʻo Magenta Per Pale
+  '1835011': ʻO Blue Blue Per Pale Hoʻohuli
+  '1835012': Lepo Per Pale Huli
+  '1835013': Lime Per Pale huli ʻia
+  '1835014': ʻO Pink Per Pale Hoʻohuli
+  '1835015': Hinahina Per Pale huli ʻia
+  '1835016': Hinahina Mālamama Per Pale Huli
+  '1900544': Keʻokeʻo Per Fess Huli ʻia
+  '1900545': ʻIliuli ʻo Per Peress Fvers
+  '1900546': Hoʻokahuli ʻo Magenta Per Fess
+  '1900547': ʻAuliuli Paha Per Fess huli ʻia
+  '1900548': Huli ʻia ʻo Yellow Per Fess
+  '1900549': Lime Per Fess Huli ʻia
+  '1900550': ʻO Pink Per Fess i huli ʻia
+  '1900551': Hinahina Per Fess Huli ʻia
+  '1900552': Hinahina Māmā Per Fess Huli ʻia
+  '1900553': Ua hoʻohuli ʻia ʻo Cyan Per Fess
+  '1900554': Poni Per Fess huli ʻia
+  '1900555': ʻO Blue Per Fess i huli ʻia
+  '1900556': ʻO Brown Per Fess huli ʻia
+  '1900557': ʻO Green Per Fess i huli ʻia
+  '1900558': Huli Ke ʻulaʻula per Fess
+  '1900559': Huli ʻEliuli Per Fess
+  '1966080': Pākuʻi keʻokeʻo
+  '1966081': Bordure ʻalani
+  '1966082': Magenta Bordure
+  '1966083': Pākuʻi Blue Light
+  '1966084': Pālani melemele
+  '1966085': Lime Bordure
+  '1966086': Pink Bordure
+  '1966087': Pākuʻi hina
+  '1966088': Pākuʻi Hinahina Māmā
+  '1966089': Cyan Bordure
+  '1966090': Pākuʻi Lil
+  '1966091': Paʻa polū
+  '1966092': Palena Brown
+  '1966093': Laina ʻōmaʻomaʻo
+  '1966094': Palena ʻulaʻula
+  '1966095': Pākuʻi ʻEleʻele
+  '2031619': Pākuʻi ʻia ka Blue Blue Bordure
+  '2031620': Pākuʻi ʻia ka Yellow Yellow
+  '2031621': Pākuʻi ʻia ka Lime Bordure
+  '2031622': Pākuʻi ʻia ʻo Pink Bordure
+  '2031623': Hinahina Hinahina Hinahina
+  '2031624': Pākuʻi ʻia ka Hina Grey Light
+  '2031625': Kālena ʻia ʻo Cyan Bordure
+  '2031626': Indent Bordure Indent
+  '2031627': Indented Blue
+  '2031628': Indentina Brown
+  '2031629': Pākuʻi ʻia ka Green Bordure
+  '2031630': Indented Ulaula
+  '2031631': Pākuʻi ʻia ka Black Bordure
+  '2097152': Kauoha Creeper White
+  '2097153': Kauoha Creeper ʻalani
+  '2097154': Kauoha Creeper Magenta
+  '2097155': Kauoha Crepe Uila Uila
+  '2097156': Kauoha Creeper Yellow
+  '2097157': Lime Creeper Charge
+  '2097158': Uku Crepe Pink
+  '2097159': Kauoha Creeper Grey
+  '2097160': Kauoha Creeper Uku Uila
+  '2097161': ʻO Cyan Creeper Charge
+  '2097162': Kauoha Creeper Lila
+  '2097163': Kauoha Crepe Blue
+  '2097164': Kauoha Creeper Brown
+  '2097165': Kauoha Creeper Green
+  '2097166': Uku Creeper ʻUla
+  '2097167': Uku Crepe ʻeleʻele
+  '2293767': ʻO Gray Field Masoned
+  '2293768': Māhina hina hina hina
+  '2293769': ʻO Cyan Field Masoned
+  '2293770': Masoned mānoanoa
+  '2293771': ʻO Blue Field Masoned
+  '2293772': ʻO Brown Field Masoned
+  '2293773': ʻO Green Field Masoned
+  '2293774': Kahua Masoned Masoned
+  '2293775': ʻĀinaʻeleʻele Masoned
+  '2359296': Kāko poʻo poʻo poʻo keʻokeʻo
+  '2359297': Charge poʻo poʻo iwi ʻalani
+  '2359298': Kākoʻo ʻo Skenta Magenta
+  '2359299': Kāko poʻo ʻōniʻoniʻo Blue Light
+  '2359300': Kāko poʻo poʻo poʻo melemele
+  '2424832': Kāko pua keʻokeʻo
+  '2424833': Kāko pua ʻalani
+  '2424834': Kauoha pua Magenta
+  '2424835': Kāko pua pua ʻānō
+  '2424836': Kauoha pua melemele
+  '2424837': Kālepa Lime Lime
+  '2424838': Uku pua pua ʻula
+  '2424839': Kāko pua hina
+  '2424840': Kāko pua pua ʻālohilohi
+  '2424841': Hoʻoiho pua Cyan
+  '2424842': Uku Pepe Lila
+  '2424843': Kāko pua pua ʻānō
+  '2424844': Kauoha Puʻupuʻu Brown
+  '2424845': Kāko pua pua ʻōmaʻomaʻo
+  '2424846': Kauoha pua ʻulaʻula
+  '2424847': Kauoha pua ʻeleʻele
   '2555904': White Globe
   '2555905': ʻO Orange Globe
   '2555906': Magenta Globe
@@ -1152,6 +2034,11 @@ music_disk:
   music_disc_wait: C418 - wait
   music_disc_pigstep: Lena Raine - Pigstep
 new_banner_pattern:
+  flower_banner_pattern: Kauoha pua
+  creeper_banner_pattern: Kauoha Creeper
+  skull_banner_pattern: Kāleka poʻo poʻo poʻo poʻo
+  mojang_banner_pattern: Mea
+  globe_banner_pattern: Poepoe honua
   piglin_banner_pattern: Nuku
 merchant_level:
   '1': ʻO Novice
@@ -1163,8 +2050,15 @@ villager_profession:
   none: Kauhale
   armorer: Ka mea hoʻolimalima
   butcher: Make
+  cartographer: Mea kaha kiʻi paʻi kiʻi
+  cleric: Kakauolelo
   farmer: Mahiai
   fisherman: Lawaiʻa
-villager_career:
-  farmer: Mahiai
-  fisherman: Lawaiʻa
+  fletcher: Fletcher
+  leatherworker: Hana ʻili
+  librarian: Waihona puke
+  mason: Mason
+  nitwit: ʻO Nitwit
+  shepherd: Kahuhipa
+  toolsmith: Mea Hana Mea Hana
+  weaponsmith: Mea Kaua Mea Paka

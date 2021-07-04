@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:20:00                    #
+# Build time: 2021-07-04 21:41:56                    #
 # ####################################################
 language:
   code: he_il
@@ -9,6 +9,7 @@ material:
   acacia_wall_sign: שלט קיר משיטה
   attached_melon_stem: גזע מלון מחובר
   bamboo_sapling: שתיל במבוק
+  birch_wall_sign: שלט קיר משדר
   cave_air: חמצן מערה
   chainmail_boots: 'מגפי אבירים גמיש העשוי טבעות מחוברות '
   chainmail_leggings: 'מכנס אבירים גמיש העשוי טבעות מחוברות '
@@ -19,7 +20,6 @@ material:
   cyan_dye: צבען ציאן
   dark_oak_wall_sign: שלט מאלון כהה
   debug_stick: מקל מצבים
-  drowned_spawn_egg: ביצת זימון טובע
   elder_guardian_spawn_egg: ביצת שומר קדום
   fire_charge: מטען אש
   ghast_spawn_egg: ביצת זימון רוח
@@ -35,6 +35,7 @@ material:
   jungle_sign: שלט עץ ג'ונגל
   jungle_wall_sign: שלט קיר מעץ ג'ונגל
   light_blue_dye: צבען תכלת
+  light_gray_bed: מיטה תכלת
   light_gray_dye: צבען אפור בהיר
   lime_dye: צבען ליים
   magenta_concrete_powder: אבקת בטון מגנטה
@@ -65,7 +66,6 @@ material:
   red_nether_bricks: לבני גיהנום אדומות
   seagrass: דשא ים
   smooth_quartz: קוורץ חלק
-  spectral_arrow: חץ ספקטרלי
   spruce_wall_sign: שלט קיר מאשוחית
   stray_spawn_egg: ביצת זימון שלד אבוד
   void_air: אוויר עמוק
@@ -75,8 +75,6 @@ material:
   zombie_wall_head: ' ראש גולגולת זומבי'
 enchantment:
   punch: אגרוף
-  depth_strider: פסען המעמקים
-  frost_walker: הולך בשלג
   blast_protection: |
     חסינות מפיצוצים
   sweeping: להב גורף
@@ -96,14 +94,13 @@ lingering_potion:
 tipped_arrow:
   uncraftable: חץ מכושף לא ניתן להכנה
 entity:
-  experience_orb: כדור נסיון
   wither_skeleton: גולגולת שלד ווית'ר
   wither_skull: ראש ווית'ר
   primed_tnt: TNT מוכן
   husk: מומיה
-  spectral_arrow: חץ ספקטרלי
   skeleton_horse: סוס שלד
   illusioner: כפרי אומן אשליות
+  ender_dragon: אנדרדרקון
   llama: לאמה
   phantom: שד
   drowned: טובע

@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:47                    #
+# Build time: 2021-07-04 21:46:02                    #
 # ####################################################
 language:
   code: eo_uy
@@ -12,7 +12,9 @@ material:
   acacia_fence_gate: Akacia ligna barilpordo
   acacia_trapdoor: Akacia Klappordo
   activator_rail: Aktiviga relo
+  armor_stand: Kirasoportilo
   attached_pumpkin_stem: Alligita kukurbo tigo
+  beacon: Balizo
   bedrock: Fundoŝtono
   beetroot: Ruĝa beto
   beetroots: Ruĝaj betoj
@@ -30,26 +32,35 @@ material:
   blue_banner: Blua flago
   blue_concrete_powder: Blua Betona Pulvoro
   blue_wall_banner: Blua flago
+  bone_meal: Ostpulvoro
+  brewing_stand: Eliksirfarejo
+  bricks: Briko
   brown_banner: Bruna flago
   brown_concrete_powder: Bruna Betona Pulvoro
   brown_mushroom: Bruna fungo
   brown_mushroom_block: Bloko da bruna fungo
   brown_wall_banner: Bruna flago
   bubble_column: Kolumno de Bobelo
+  carrot_on_a_stick: Bastono kun karoto
   cave_air: Kaverna Aero
   chainmail_chestplate: Ĉena kiraso
+  chain_command_block: Ĉena komandbloko
   chest: Kesto
   chest_minecart: Ĉaro kun kesto
   chipped_anvil: Ĉirkaŭĉiza amboso
+  chiseled_red_sandstone: Ĉizila ruĝa sabloŝtono
+  chiseled_stone_bricks: Ĉizita ŝtonbriko
   clay: Argilo
   clay_ball: Argilo
   cod: Moruo kruda
   cod_bucket: Sitelo da moruo
+  command_block: Komandbloko
   command_block_minecart: Ĉaro kun komandbloko
   comparator: Ruĝaŝtonkomparilo
   conduit: Kanalo
   cooked_cod: Muruo kuirita
   cooked_rabbit: Kuirita kuniklo
+  cracked_stone_bricks: Rompita ŝtonbriko
   cut_red_sandstone: Tajlata ruĝa sabloŝtono
   cut_sandstone: Tajlata sabloŝtono
   cyan_banner: Turkisa flago
@@ -64,6 +75,26 @@ material:
   dark_prismarine_slab: Ŝtupo de malhela prismarino
   dark_prismarine_stairs: Ŝtuparo de malhela prismarino
   daylight_detector: Somera detektilo
+  dead_brain_coral: Mortita cerbokoralo
+  dead_brain_coral_block: Mortita bloko cerbokorala
+  dead_brain_coral_fan: Mortita ventumilo cerbokorala
+  dead_brain_coral_wall_fan: Mortita mura ventumilo cerbokorala
+  dead_bubble_coral: Mortita bobelokoralo
+  dead_bubble_coral_block: Mortita bloko bobelokorala
+  dead_bubble_coral_fan: Mortita ventumilo bobelokorala
+  dead_bubble_coral_wall_fan: Mortita mura ventumilo bobelokorala
+  dead_fire_coral: Mortita fajrokoralo
+  dead_fire_coral_block: Mortita bloko fajrokorala
+  dead_fire_coral_fan: Mortita ventumilo fajrokorala
+  dead_fire_coral_wall_fan: Mortita mura ventumilo fajrokorala
+  dead_horn_coral: Mortita kornokoralo
+  dead_horn_coral_block: Mortita bloko kornokorala
+  dead_horn_coral_fan: Mortita ventumilo kornokorala
+  dead_horn_coral_wall_fan: Mortita mura ventumilo kornokorala
+  dead_tube_coral: Mortita tubokoralo
+  dead_tube_coral_block: Mortita bloko tubokorala
+  dead_tube_coral_fan: Mortita ventumilo tubokorala
+  dead_tube_coral_wall_fan: Mortita mura ventumilo tubokorala
   debug_stick: Sencimiga Bastono
   detector_rail: Detekta relo
   diamond_chestplate: Diamanta kiraso
@@ -100,8 +131,13 @@ material:
   heavy_weighted_pressure_plate: Peza pesanta premplato
   hopper_minecart: Ĉaro kun funelo
   husk_spawn_egg: Aperigovo de mumio
+  infested_chiseled_stone_bricks: Infestita ĉizita ŝtonbriko
+  infested_cracked_stone_bricks: Infestita rompita ŝtonbriko
+  infested_mossy_stone_bricks: Infestita muska ŝtonbriko
+  infested_stone_bricks: Infestita ŝtonbriko
   iron_chestplate: Fera kiraso
   iron_nugget: Fera ciro
+  item_frame: Objektkadro
   jungle_boat: Ĝangala ligna boato
   jungle_door: Ĝangala ligna pordo
   jungle_fence: Ĝangala ligna barilo
@@ -140,7 +176,10 @@ material:
   melon_slice: Tranĉaĵo da akvomelono
   minecart: Ĉaro
   mooshroom_spawn_egg: Aperigovo de mooshroomo
+  mossy_stone_bricks: Muska ŝtonbriko
   mushroom_stem: Stipo
+  name_tag: Nometikedo
+  nautilus_shell: Naŭtilokonko
   netherrack: Inferŝtono
   nether_brick: Inferbriko
   nether_bricks: Inferbrikoj
@@ -169,13 +208,32 @@ material:
   polished_andesite: Glatandezito
   polished_diorite: Glatdiorito
   polished_granite: Glatgranito
+  potted_acacia_sapling: Florpota akacia arbido
+  potted_allium: Florpota aliumo
+  potted_azure_bluet: Florpota blua houstonio
+  potted_birch_sapling: Florpota betula arbido
+  potted_blue_orchid: Florpota blua orkido
   potted_brown_mushroom: Florpota bruna fungo
   potted_cactus: Florpota Kakto
+  potted_dandelion: Florpota leontodo
+  potted_dark_oak_sapling: Florpota malhelkverka arbido
+  potted_dead_bush: Florpota mortinta arbusto
+  potted_fern: Florpota filiko
+  potted_jungle_sapling: Florpota ĝangala arbido
+  potted_oak_sapling: Florpota kverka arbido
+  potted_orange_tulip: Florpota oranĝkolora tulipo
+  potted_oxeye_daisy: Florpota lekanto
+  potted_pink_tulip: Florpota rozkolora tulipo
+  potted_poppy: Florpota papaveto
   potted_red_mushroom: Florpota ruĝa fungo
+  potted_red_tulip: Florpota ruĝa tulipo
+  potted_spruce_sapling: Florpota picea arbido
+  potted_white_tulip: Florpota blanka tulipo
   prismarine_bricks: Prismarinaj brikoj
   prismarine_brick_slab: Ŝtupo de prismarinaj brikoj
   prismarine_brick_stairs: Ŝtuparo de prismarinaj brikoj
   pufferfish_bucket: Sitelo da Pintfiŝo
+  pumpkin_pie: Kukurbotorto
   pumpkin_stem: Kukurbo tigo
   purple_banner: Violkolora flago
   purple_concrete_powder: Violkolora Betona Pulvoro
@@ -198,6 +256,7 @@ material:
   red_nether_bricks: Ruĝaj inferbrikoj
   red_wall_banner: Ruĝa flago
   repeater: Ruĝŝtonrepetilo
+  repeating_command_block: Ripeta komandbloko
   rose_bush: Rozarbo
   salmon_bucket: Sitelo da salmo
   scute: Keratino
@@ -208,6 +267,7 @@ material:
   spruce_door: Picea ligna pordo
   spruce_fence: Picea ligna barilo
   spruce_fence_gate: Picea ligna barilpordo
+  stone_bricks: Ŝtonbriko
   stone_brick_stairs: Ŝtonobrika ŝtuparo
   stripped_acacia_wood: Akacia Ligno sen Ŝelo
   stripped_birch_wood: Betula Ligno sen Ŝelo
@@ -220,6 +280,7 @@ material:
   structure_void: Svoido
   tall_grass: Alta Herbo
   tall_seagrass: Alta Marherbo
+  tipped_arrow: Eliksirsago
   tnt_minecart: Ĉaro kun TNT
   totem_of_undying: Totemo de Senmortado
   trapped_chest: Baskulkesto
@@ -227,6 +288,7 @@ material:
   tripwire_hook: Hoko por ŝaltila kablo
   tropical_fish_bucket: Sitelo da Tropika fiŝo
   tropical_fish_spawn_egg: Aperigovo da tropika fiŝo
+  turtle_helmet: Testudŝelo
   turtle_spawn_egg: Aperigovo da testudo
   void_air: Malplenaĵa Aero
   wall_torch: Muro torĉo
@@ -239,6 +301,7 @@ material:
   yellow_banner: Flava flago
   yellow_concrete_powder: Flava Betona Pulvoro
   yellow_wall_banner: Flava flago
+  zombie_villager_spawn_egg: Aperigovo de zombivilaĝano
 biome:
   nether: Infero
   the_end: La End
@@ -253,6 +316,7 @@ biome:
   deep_frozen_ocean: Profunda frostita oceano
   the_void: La Malplenaĵo
 enchantment:
+  depth_strider: Profundpaŝanto
   frost_walker: Prujna marŝo
   smite: Turmento
   sweeping: Balaa Eĝo
@@ -260,6 +324,7 @@ enchantment:
   riptide: Pulso
   impaling: Palisumanta
 potion:
+  water: Akvobotelo
   instant_heal: Eliksiro de Sanigado
   instant_damage: Eliksiro de Lezado
   poison: Eliksiro de Veneno
@@ -296,7 +361,11 @@ lingering_potion:
   turtle_master: Resta Eliksiro de la Testudo Majstro
   slow_falling: Resta Eliksiro de Malrapida Falateco
 tipped_arrow:
+  uncraftable: Nefarebla eliksirsago
   water: Sago de Ŝprucado
+  mundane: Eliksirsago
+  thick: Eliksirsago
+  awkward: Eliksirsago
   night_vision: Sago de Noktvido
   invisibility: Sago de Nevidebleco
   jump: Sago de Saltado
@@ -320,9 +389,13 @@ entity:
   egg: Ĵetita Ovo
   ender_pearl: Ĵetita Finejperlo
   thrown_exp_bottle: Ĵetita Botelo de Sorĉado
+  item_frame: Objektkadro
   wither_skull: Kranio de Wither
   husk: Mumio
+  shulker_bullet: Kuglo de ŝulkro
   dragon_fireball: Draka farjropilko
+  zombie_villager: Zombivilaĝano
+  armor_stand: Kirasoportilo
   evoker_fangs: Alvokisto Dentegoj
   minecart_command: Ĉaro kun komandbloko
   minecart: Ĉaro
@@ -622,3 +695,5 @@ banner_pattern:
   '2490381': Verda Aĵo
   '2490382': Ruĝa Aĵo
   '2490383': Nigra Aĵo
+villager_profession:
+  nitwit: Kreteno

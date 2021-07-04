@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:17:22                    #
+# Build time: 2021-07-04 21:38:58                    #
 # ####################################################
 language:
   code: bar
@@ -9,15 +9,21 @@ material:
   bamboo_sapling: Bambussteckling
   bubble_column: Blubberblasenstrom
   bucket: Eimer
+  chorus_plant: Choruspflanze
   cyan_banner: Türkiser Banner
   cyan_wall_banner: Türkiser Banner
   diamond_hoe: Diamanthakn
   golden_hoe: Goidhakn
+  ink_sac: Tintnbeutel
   iron_hoe: Eisenhakn
   lava_bucket: Lavaeimer
+  melon_stem: Melonenpflanze
   milk_bucket: Muicheimer
+  mushroom_stem: Schwammalstiel
   nether_portal: block.minecraft.nether_portal
+  potted_blue_orchid: Eingetopfte blaue Orchidee
   pufferfish_bucket: Kuglfiischeimer
+  pumpkin_stem: Kürbispflanze
   red_banner: Rouder Banner
   red_concrete_powder: Rouder Trocknbedau
   red_mushroom: Rouder Schwammal
@@ -27,6 +33,8 @@ material:
   red_sandstone: Rouder Sondstoa
   red_wall_banner: Rouder Banner
   stone_hoe: Stoahakn
+  sweet_berries: Siaßbeeren
+  totem_of_undying: Totem der Unsterblichkeit
   tropical_fish_bucket: Tropnfiischeimer
   water_bucket: Wossaeimer
   wither_skeleton_skull: Witheskelettschädl
@@ -34,12 +42,49 @@ material:
 enchantment:
   aqua_affinity: Wasseraffinität
   depth_strider: Wasserläufer
+  binding_curse: Fluch der Bindung
 potion:
+  night_vision: Trank der Nachtsicht
+  invisibility: Trank der Unsichtbarkeit
+  jump: Trank der Sprungkraft
+  fire_resistance: Trank der Feuerresistenz
+  speed: Trank der Schnelligkeit
+  slowness: Trank der Langsamkeit
   water_breathing: Trank der Unterwasseratmung
+  instant_heal: Trank der Heilung
+  regen: Trank der Regeneration
+  strength: Trank der Stärke
+  weakness: Trank der Schwäche
+splash_potion:
+  night_vision: Wurftrank der Nochtsicht
+  invisibility: Wurftrank der Unsichtbarkeit
+  jump: Wurftrank der Sprungkroft
+  fire_resistance: Wurftrank der Feiaresistenz
+  speed: Wurftrank der Schneiigkeit
+  slowness: Wurftrank der Langsamkeit
+  water_breathing: Wurftrank der Untawossaatmung
+  instant_heal: Wurftrank der Heilung
+  poison: Wurftrank der Vergiftung
+  regen: Wurftrank der Regeneration
+  strength: Wurftrank der Stärke
+  weakness: Wurftrank der Schwäche
 lingering_potion:
+  night_vision: Verweiltrank der Nachtsicht
+  invisibility: Verweiltrank der Unsichtbarkeit
+  jump: Verweiltrank der Sprungkraft
+  fire_resistance: Verweiltrank der Feuerresistenz
+  speed: Verweiltrank der Schnelligkeit
+  slowness: Verweiltrank der Langsamkeit
   water_breathing: Verweiltrank der Unterwasseratmung
+  instant_heal: Verweiltrank der Heilung
+  poison: Verweiltrank der Vergiftung
+  regen: Verweiltrank der Regeneration
+  strength: Verweiltrank der Stärke
+  weakness: Verweiltrank der Schwäche
 tipped_arrow:
   water_breathing: Wasseratmungspfeil
+entity:
+  falling_block: Block, der wo nunter foit
 effect:
   water_breathing: Unterwasseratmung
 tropical_fish_type:

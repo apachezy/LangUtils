@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:48                    #
+# Build time: 2021-07-04 21:46:03                    #
 # ####################################################
 language:
   code: lol_us
@@ -14,10 +14,17 @@ material:
   polished_diorite: pretteh kitteh litter rockz
   andesite: grey rock
   polished_andesite: pretteh grey rock
+  deepslate: dark ston
+  cobbled_deepslate: coobled dark ston
+  polished_deepslate: shiny dark ston
+  calcite: Wite rok
+  tuff: Tfff
+  dripstone_block: bootleg netherite
   grass_block: Gras blak
   dirt: Durt
   coarse_dirt: Ruff durt
   podzol: Durtee durt
+  rooted_dirt: durt wit stickz
   crimson_nylium: Crimzun Nyanium
   warped_nylium: wrped nyanium
   cobblestone: Cooblestoneh
@@ -39,10 +46,67 @@ material:
   sand: litter box stuffs
   red_sand: Red sand
   gravel: Graval
-  gold_ore: Rockz wif Guld
-  iron_ore: Rockz wif Irun
   coal_ore: Rockz wif Coel
+  deepslate_coal_ore: dark ston koal or
+  iron_ore: Rockz wif Irun
+  deepslate_iron_ore: dark ston irony or
+  copper_ore: Copurr rok
+  deepslate_copper_ore: dark ston coppur or
+  gold_ore: Rockz wif Guld
+  deepslate_gold_ore: dark ston gold or
+  redstone_ore: Rockz wif Redstone
+  deepslate_redstone_ore: dark ston red or
+  emerald_ore: Rockz wif Emmiez
+  deepslate_emerald_ore: dark ston green shiny or
+  lapis_ore: Rockz wif Blu Stuf
+  deepslate_lapis_ore: dark ston bloo or
+  diamond_ore: Rockz wif Deemond
+  deepslate_diamond_ore: dark ston deemond or
   nether_gold_ore: Netherockz wif Guld
+  nether_quartz_ore: Nether Kworts Ore
+  ancient_debris: super old stuffz
+  coal_block: Koala
+  raw_iron_block: Bluk ov RAWWWW irun
+  raw_copper_block: Bluk ov moldy wurst
+  raw_gold_block: Bluk ov shiny coal
+  amethyst_block: Purpur shinee bluk
+  budding_amethyst: Purpur shinee makr
+  iron_block: Blok of Irony
+  copper_block: Blok of copurr
+  gold_block: Shiny blok
+  diamond_block: MUCH MUNY $$$
+  netherite_block: omg rich kitteh
+  exposed_copper: EXPOSED copurr
+  weathered_copper: Rainy copurr
+  oxidized_copper: Very-old copurr
+  cut_copper: 1000° kniv vs cuprr blok
+  exposed_cut_copper: EXPOSED cut coppurr
+  weathered_cut_copper: Old slised copurr
+  oxidized_cut_copper: Very-old sliced copurr
+  cut_copper_stairs: Slised copurr sters
+  exposed_cut_copper_stairs: Seen Sliced Copurr sters
+  weathered_cut_copper_stairs: Old yucky slised copurr sters
+  oxidized_cut_copper_stairs: Very-old Copurr sters
+  cut_copper_slab: Slised copurr sleb
+  exposed_cut_copper_slab: Seen Sliced Copurr Half Block
+  weathered_cut_copper_slab: Kinda-old slised copurr bluk haf
+  oxidized_cut_copper_slab: Very-old Copurr sleb
+  waxed_copper_block: Shiny Blok of copurr
+  waxed_exposed_copper: Shiny Seen Copurr
+  waxed_weathered_copper: Yucky old copurr
+  waxed_oxidized_copper: Shiny very-old copurr
+  waxed_cut_copper: Slised copurr smels B
+  waxed_exposed_cut_copper: Shiny Seen Sliced Copurr
+  waxed_weathered_cut_copper: Shiny Yucky old sliced copurr
+  waxed_oxidized_cut_copper: Shiny very-old sliced copurr
+  waxed_cut_copper_stairs: Yucky slised copurr sters
+  waxed_exposed_cut_copper_stairs: Shiny Seen Sliced Steal sters
+  waxed_weathered_cut_copper_stairs: Shiny rained sliced copurr sters
+  waxed_oxidized_cut_copper_stairs: Shiny cery-old copurr sters
+  waxed_cut_copper_slab: Yucky slised copurr sleb
+  waxed_exposed_cut_copper_slab: Shineh Seen Sliced Steal Half Block
+  waxed_weathered_cut_copper_slab: Shiny rained sliced steal half block
+  waxed_oxidized_cut_copper_slab: Shiny very-old copurr sleb
   oak_log: Oak lawg
   spruce_log: Spruce lawg
   birch_log: lite woodezn lawg
@@ -81,26 +145,24 @@ material:
   jungle_leaves: jungel salad
   acacia_leaves: savana lefs
   dark_oak_leaves: derk ok lefs
+  azalea_leaves: Les pretehh lefs
+  flowering_azalea_leaves: Flowerin azalee leevez
   sponge: Spangblob
   wet_sponge: wet Spangblob
   glass: Glazz
-  lapis_ore: Rockz wif Blu Stuf
-  lapis_block: Comppressed LeLazululi
-  dispenser: Dizpnzur
+  tinted_glass: Skary glazz
+  lapis_block: Glosy Blu Bluk
   sandstone: litter box rockz
   chiseled_sandstone: carved litter box rockz
   cut_sandstone: Warmy sanstown
-  note_block: nowht blohk
-  powered_rail: PUWERD RAIL
-  detector_rail: Ditektar Ral
-  sticky_piston: Stickeh Pushurr
   cobweb: icky spider webz
   grass: Grazz
   fern: furn
+  azalea: Turtl-shel-laik trea
+  flowering_azalea: Tertl-shel-laik tree but in FLOWARZZ
   dead_bush: Died bushez
   seagrass: MARIN GRAZZ
   sea_pickle: See pikol
-  piston: Pushur
   white_wool: Waite Fur Bluk
   orange_wool: Ornge Fur Bluk
   magenta_wool: Majenta Fur Bluk
@@ -130,6 +192,7 @@ material:
   cornflower: Unicornflowerpower
   lily_of_the_valley: Lily of da Vallyz
   wither_rose: Wither Roos
+  spore_blossom: snees flowar
   brown_mushroom: brwn Mushroom
   red_mushroom: blood Mooshroom
   crimson_fungus: Crimzn Foongis
@@ -141,9 +204,12 @@ material:
   twisting_vines: Spyrale noodel
   sugar_cane: BAMBOOO
   kelp: Yucky lettuce
+  moss_carpet: squeeshd grazz
+  moss_block: squishy gras blok
+  hanging_roots: hangin stickz
+  big_dripleaf: Big fall thru plantt
+  small_dripleaf: Smol fall thru plantt
   bamboo: Green Stick
-  gold_block: Shiny blok
-  iron_block: Blok of Irony
   oak_slab: Oak Sleb
   spruce_slab: Sproos Sleb
   birch_slab: Burch Sleb
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: smooth litter box rockz
   smooth_stone: Smooth Rockz
   bricks: brickz
-  tnt: BOOM
   bookshelf: bed 4 bookz
   mossy_cobblestone: DURTY COBULSTOWN
   obsidian: hardest thing evar
@@ -187,27 +252,11 @@ material:
   spawner: Spaawnr
   oak_stairs: WOAKOAK Stairz
   chest: Cat Box
-  diamond_ore: Rockz wif Deemond
-  diamond_block: MUCH MUNY $$$
   crafting_table: Krafting Tabal
   farmland: fudholz
   furnace: Hot Box
   ladder: Ladr
-  rail: Trakz
   cobblestone_stairs: rok stairz
-  lever: Flipurr
-  stone_pressure_plate: Stone Presar Plat
-  oak_pressure_plate: Oak Prseure Pleitz
-  spruce_pressure_plate: Sproos Prseure Pleitz
-  birch_pressure_plate: Burch Prseure Pleitz
-  jungle_pressure_plate: Jongle Prseure Pleitz
-  acacia_pressure_plate: Akacia Prseure Pleitz
-  dark_oak_pressure_plate: Dark Oke Prseure Pleitz
-  crimson_pressure_plate: Crimson prseure Pleitz
-  warped_pressure_plate: Wapt Weight Plaet
-  polished_blackstone_pressure_plate: shiny blak rok step button
-  redstone_ore: Rockz wif Redstone
-  redstone_torch: Glowy Redstone Stik
   snow: Cold white stuff
   ice: Frozen water
   snow_block: Snowi bloc
@@ -225,32 +274,31 @@ material:
   warped_fence: Warpt Fenc
   pumpkin: Pangkan
   carved_pumpkin: Karvd Pumpkin
+  jack_o_lantern: Big glowy squash
   netherrack: Netherrack
-  soul_sand: sole snd
+  soul_sand: Sool Sand
   soul_soil: ded peeple dirt
   basalt: Bawzult
   polished_basalt: cleened baisolt
+  smooth_basalt: smoos bazalt
   soul_torch: Creepy torch thingy
   glowstone: Glowstone
-  jack_o_lantern: Big glowy squash
-  oak_trapdoor: Oak Trap
-  spruce_trapdoor: Sproos Trap
-  birch_trapdoor: Burch Trap
-  jungle_trapdoor: Jongle Trap
-  acacia_trapdoor: Akacia Trap
-  dark_oak_trapdoor: Blak Oke Trap
-  crimson_trapdoor: Crimzn Kat Door
-  warped_trapdoor: Warpt Kat Door
   infested_stone: 'Invezzted Stoon '
   infested_cobblestone: Invezzted Cooblestoon
   infested_stone_bricks: Rockz Wit Patternz And Monsters
   infested_mossy_stone_bricks: Rockz Wit Mozs And Monsters
   infested_cracked_stone_bricks: Brokin Rockz Wit Monsters
   infested_chiseled_stone_bricks: Kewl Rockz Wit Monsters
+  infested_deepslate: dark ston wit weird thing inside idk
   stone_bricks: Stackd Rockz
   mossy_stone_bricks: Stacked Greenish Rockz
   cracked_stone_bricks: Stacked Pebblez
   chiseled_stone_bricks: Stacked Rockz en an Patternz
+  deepslate_bricks: dark ston brikz
+  cracked_deepslate_bricks: half brokn dark ston breekz
+  deepslate_tiles: dark ston tilez
+  cracked_deepslate_tiles: half brokn dark ston tilz
+  chiseled_deepslate: chizeled dark ston
   brown_mushroom_block: brwn Mushroom Blok
   red_mushroom_block: blood Mushroom blok
   mushroom_stem: Mushroom Stem
@@ -259,14 +307,7 @@ material:
   glass_pane: Glazz Payn
   melon: mlon
   vine: Climbin plantz
-  oak_fence_gate: Oke Wod fence Gate
-  spruce_fence_gate: Sprce Fenc Gaet
-  birch_fence_gate: BURCH GAIT
-  jungle_fence_gate: Janggal Fence Gate
-  acacia_fence_gate: ACAISHA GAIT
-  dark_oak_fence_gate: DARK GAIT
-  crimson_fence_gate: Crimzn Fenc Gaet
-  warped_fence_gate: Warpt Fenc Gaet
+  glow_lichen: shiny moss
   brick_stairs: Brik stairez
   stone_brick_stairs: Stone Brik Sters
   mycelium: miceliwm
@@ -281,11 +322,8 @@ material:
   end_stone: Weird white rock
   end_stone_bricks: Kat Litter Briks
   dragon_egg: Dwagon Eg
-  redstone_lamp: Redstone lapm
   sandstone_stairs: Sanston Sters
-  emerald_ore: Rockz wif Emmiez
   ender_chest: Endur Chest
-  tripwire_hook: String huk
   emerald_block: Shineh bloock of Green stuff
   spruce_stairs: Sproos Stairz
   birch_stairs: Burch Stairz
@@ -311,33 +349,18 @@ material:
   blackstone_wall: bleckston wal
   polished_blackstone_wall: shiny blak rok wal
   polished_blackstone_brick_wall: polised bleck brik wal
-  stone_button: Stoon Button
-  oak_button: Oak Button
-  spruce_button: Sproos Button
-  birch_button: Burch Button
-  jungle_button: Jongle Button
-  acacia_button: Akacia Button
-  dark_oak_button: Blak Oke Button
-  crimson_button: Crimzn Bawttn
-  warped_button: Warpt Thingy
-  polished_blackstone_button: shiny blak rok buton
+  cobbled_deepslate_wall: coobled dark ston wal
+  polished_deepslate_wall: shiny dark ston wal
+  deepslate_brick_wall: dark ston brik wal
+  deepslate_tile_wall: dark ston til wal
   anvil: Anvehl
   chipped_anvil: Oh so much chipped anvehl
   damaged_anvil: Oh so much braken anvehl
-  trapped_chest: Rigged Cat Box
-  light_weighted_pressure_plate: liht weightefd prueusure platt
-  heavy_weighted_pressure_plate: hvy weited presplat plet
-  daylight_detector: light eater
-  redstone_block: Redstone Bluk
-  nether_quartz_ore: Nether Kworts Ore
-  hopper: Huperr
   chiseled_quartz_block: Chizald Kworts Blak
   quartz_block: Blak Av Kworts
   quartz_bricks: Kwartz brickz
   quartz_pillar: Kwartz piler
   quartz_stairs: Kworts Sters
-  activator_rail: POWAAAAAAAAAAAH
-  dropper: DRUPPER
   white_terracotta: Waite Terrakattah
   orange_terracotta: Orang Teracottah
   magenta_terracotta: Majenta Teracottah
@@ -355,7 +378,7 @@ material:
   red_terracotta: Reddish Teracottah
   black_terracotta: Blak Teracottah
   barrier: You shall not pass
-  iron_trapdoor: Trappy Irun Kitty Dore
+  light: Shin'
   hay_block: Stwaw bael
   white_carpet: White scratchy stuff
   orange_carpet: Ornge Cat Rug
@@ -374,12 +397,10 @@ material:
   red_carpet: Redish Cat Rug
   black_carpet: Black Cat Rug
   terracotta: Terrakattah
-  coal_block: Koala
   packed_ice: Pack'd Frozen Water
   acacia_stairs: Acaci Stairz
   dark_oak_stairs: Dakwoak Stairz
-  slime_block: bouncy green stuff
-  grass_path: Gr's peth
+  dirt_path: Durt roud
   sunflower: Rly tall flowr
   lilac: tall purpl flowr
   rose_bush: Rose brah
@@ -437,7 +458,6 @@ material:
   red_nether_bricks: 'Blud nezer brik '
   bone_block: Compresd bone
   structure_void: Blank space
-  observer: CREEPY StaLKeR DuDE
   shulker_box: Shulker Bux
   white_shulker_box: Waite Shulker Bux
   orange_shulker_box: Ornge Shulker Bux
@@ -550,6 +570,10 @@ material:
   red_nether_brick_stairs: Red Nether Brik Sters
   polished_andesite_stairs: Pretteh Grey Rock Stairz
   diorite_stairs: Diorito Stairz
+  cobbled_deepslate_stairs: coobled dark ston stairz
+  polished_deepslate_stairs: shiny dark ston stairz
+  deepslate_brick_stairs: dark ston brik stairz
+  deepslate_tile_stairs: dark ston til stairz
   polished_granite_slab: Pretteh Red Rock Sleb
   smooth_red_sandstone_slab: Smooth Redy Sandston Sleb
   mossy_stone_brick_slab: Mossy Ston Brick Sleb
@@ -563,7 +587,57 @@ material:
   red_nether_brick_slab: Red Sleb that nevah bricks
   polished_andesite_slab: Pretteh Grey Rock Sleb
   diorite_slab: Diorito Sleb
+  cobbled_deepslate_slab: coobled dark ston sleb
+  polished_deepslate_slab: shiny dark ston sleb
+  deepslate_brick_slab: dark ston brik sleb
+  deepslate_tile_slab: dark ston til sleb
   scaffolding: Sceffolding
+  redstone: Redstone Dust
+  redstone_torch: Glowy Redstone Stik
+  redstone_block: Redstone Bluk
+  repeater: Redstone Repeetah
+  comparator: Redstone thingy
+  piston: Pushur
+  sticky_piston: Stickeh Pushurr
+  slime_block: bouncy green stuff
+  honey_block: Huny Bloc
+  observer: CREEPY StaLKeR DuDE
+  hopper: Huperr
+  dispenser: Dizpnzur
+  dropper: DRUPPER
+  lectern: Book readin ting
+  target: Tawget
+  lever: Flipurr
+  lightning_rod: Litnin rot
+  daylight_detector: light eater
+  sculk_sensor: Kat detektor
+  tripwire_hook: String huk
+  trapped_chest: Rigged Cat Box
+  tnt: BOOM
+  redstone_lamp: Redstone lapm
+  note_block: nowht blohk
+  stone_button: Stoon Button
+  polished_blackstone_button: shiny blak rok buton
+  oak_button: Oak Button
+  spruce_button: Sproos Button
+  birch_button: Burch Button
+  jungle_button: Jongle Button
+  acacia_button: Akacia Button
+  dark_oak_button: Blak Oke Button
+  crimson_button: Crimzn Bawttn
+  warped_button: Warpt Thingy
+  stone_pressure_plate: Stone Presar Plat
+  polished_blackstone_pressure_plate: shiny blak rok step button
+  light_weighted_pressure_plate: liht weightefd prueusure platt
+  heavy_weighted_pressure_plate: hvy weited presplat plet
+  oak_pressure_plate: Oak Prseure Pleitz
+  spruce_pressure_plate: Sproos Prseure Pleitz
+  birch_pressure_plate: Burch Prseure Pleitz
+  jungle_pressure_plate: Jongle Prseure Pleitz
+  acacia_pressure_plate: Akacia Prseure Pleitz
+  dark_oak_pressure_plate: Dark Oke Prseure Pleitz
+  crimson_pressure_plate: Crimson prseure Pleitz
+  warped_pressure_plate: Wapt Weight Plaet
   iron_door: Iron Dor
   oak_door: Oak Dor
   spruce_door: Spruz Dor
@@ -573,8 +647,42 @@ material:
   dark_oak_door: Dark Oak Dor
   crimson_door: Krimzn Big Kat Door
   warped_door: Warpt Big Kat Door
-  repeater: Redstone Repeetah
-  comparator: Redstone thingy
+  iron_trapdoor: Trappy Irun Kitty Dore
+  oak_trapdoor: Oak Trap
+  spruce_trapdoor: Sproos Trap
+  birch_trapdoor: Burch Trap
+  jungle_trapdoor: Jongle Trap
+  acacia_trapdoor: Akacia Trap
+  dark_oak_trapdoor: Blak Oke Trap
+  crimson_trapdoor: Crimzn Kat Door
+  warped_trapdoor: Warpt Kat Door
+  oak_fence_gate: Oke Wod fence Gate
+  spruce_fence_gate: Sprce Fenc Gaet
+  birch_fence_gate: BURCH GAIT
+  jungle_fence_gate: Janggal Fence Gate
+  acacia_fence_gate: ACAISHA GAIT
+  dark_oak_fence_gate: DARK GAIT
+  crimson_fence_gate: Crimzn Fenc Gaet
+  warped_fence_gate: Warpt Fenc Gaet
+  powered_rail: PUWERD RAIL
+  detector_rail: Ditektar Ral
+  rail: Trakz
+  activator_rail: POWAAAAAAAAAAAH
+  saddle: Sad-le :c
+  minecart: Minecat
+  chest_minecart: Minecat wif Cat Box
+  furnace_minecart: Minecat wif Hot Box
+  tnt_minecart: Boomy Minecat
+  hopper_minecart: Minecat wif hoppez
+  carrot_on_a_stick: YUMMY FOOD ON STIK
+  warped_fungus_on_a_stick: Warpt Foongis on a stick
+  elytra: FLYYYYYYYY
+  oak_boat: Ouk Watr Car
+  spruce_boat: Sproos Watr Car
+  birch_boat: Burch Watr Car
+  jungle_boat: Jungo Watr Car
+  acacia_boat: Akacia Watr Car
+  dark_oak_boat: Blak Oke Watr Car
   structure_block: Strcter blek
   jigsaw: Jig saw Blok
   turtle_helmet: TortL head
@@ -586,7 +694,15 @@ material:
   coal: ur present
   charcoal: burned w00d
   diamond: Ooooh shineee!
+  emerald: shineh green stuff
+  lapis_lazuli: blu stuffz
+  quartz: Nether cloudz
+  amethyst_shard: Purpur shinee pice
+  raw_iron: RAWWWW irun
   iron_ingot: Irun Ingot
+  raw_copper: moldy wurst
+  copper_ingot: Copurr ingut
+  raw_gold: shiny coal
   gold_ingot: GULDEN INGUT
   netherite_ingot: OP ingut
   netherite_scrap: Netherit skrapz
@@ -670,29 +786,27 @@ material:
   bucket: Shiny sit-in cold thing
   water_bucket: WatR Buket
   lava_bucket: bukkit full of HOT SAUCE
-  minecart: Minecat
-  saddle: Sad-le :c
-  redstone: Redstone Dust
+  powder_snow_bucket: Bukkit wit Powdr Sno
   snowball: Cold wet
-  oak_boat: Ouk Watr Car
   leather: Lethur
   milk_bucket: mikk buket!!!
   pufferfish_bucket: Pafforfosh buket!!!
   salmon_bucket: Salmon buket!!!
   cod_bucket: Cot buket
   tropical_fish_bucket: Weird water thing buket!!!
+  axolotl_bucket: Bukkit wit KUTE PINK FISHH
   brick: Burned Clay
   clay_ball: cley prom
   dried_kelp_block: Smoky lettuce cube
   paper: Papyrus
   book: Book
   slime_ball: boogerz
-  chest_minecart: Minecat wif Cat Box
-  furnace_minecart: Minecat wif Hot Box
   egg: Eg
   compass: Spinny thing
+  bundle: Cat powch
   fishing_rod: kitteh feedin' device
   clock: Tiem tellur
+  spyglass: I C U
   glowstone_dust: Glowstone duzt
   cod: Roh Cod
   salmon: Rawr Pink Nomz
@@ -701,8 +815,8 @@ material:
   cooked_cod: Cookd Cod
   cooked_salmon: Crisp Pink Nomz
   ink_sac: Squirty nasty stuff
+  glow_ink_sac: Shiny ink sac
   cocoa_beans: itz poop
-  lapis_lazuli: blu stuffz
   white_dye: Blank powder
   orange_dye: Bright powder
   magenta_dye: Warmish powder
@@ -766,6 +880,7 @@ material:
   cauldron: Rly big pot
   ender_eye: teh evil eye
   glistering_melon_slice: glistrin melooon sliz
+  axolotl_spawn_egg: KUTE PINK FISH spon ec
   bat_spawn_egg: Bad spon ec
   bee_spawn_egg: B spon ec
   blaze_spawn_egg: Bleze spon ec
@@ -784,6 +899,8 @@ material:
   evoker_spawn_egg: Evokr spon ec
   fox_spawn_egg: Fuxe spon ec
   ghast_spawn_egg: Gast spon ec
+  glow_squid_spawn_egg: Shiny skwid spon ec
+  goat_spawn_egg: monten shep spon ec
   guardian_spawn_egg: Gardien spon ec
   hoglin_spawn_egg: Boar vessel, 600-500 BC Etruscan ceramic span ec
   horse_spawn_egg: Hors spon ec
@@ -834,8 +951,8 @@ material:
   fire_charge: Fire Punch!
   writable_book: NeRd!
   written_book: Book 4 Reeding
-  emerald: shineh green stuff
   item_frame: Kitteh Fraem
+  glow_item_frame: Brite item holdr
   flower_pot: container for all the pretty plantz
   carrot: rebbit treetz
   potato: Pootato
@@ -849,17 +966,12 @@ material:
   zombie_head: Zombee Hed
   creeper_head: Creeper Hed
   dragon_head: Dragun Hed
-  carrot_on_a_stick: YUMMY FOOD ON STIK
-  warped_fungus_on_a_stick: Warpt Foongis on a stick
   nether_star: Nether Asterisk
   pumpkin_pie: pie with squash in it
   firework_rocket: shiny 'splody thing
   firework_star: dis makes da rocket go BOOM BOOM
   enchanted_book: Shineh Magic Book
   nether_brick: Nether brik
-  quartz: Nether cloudz
-  tnt_minecart: Boomy Minecat
-  hopper_minecart: Minecat wif hoppez
   prismarine_shard: Prizmarine thingy
   prismarine_crystals: Prizmarine pebblez
   rabbit: Bloody Jumpin Foodz
@@ -905,12 +1017,6 @@ material:
   tipped_arrow: Shooty Tihng
   lingering_potion: Lingerin Poshun
   shield: Cat protecshun
-  elytra: FLYYYYYYYY
-  spruce_boat: Sproos Watr Car
-  birch_boat: Burch Watr Car
-  jungle_boat: Jungo Watr Car
-  acacia_boat: Akacia Watr Car
-  dark_oak_boat: Blak Oke Watr Car
   totem_of_undying: 'Anti-dyin'' Totum '
   shulker_shell: Shulker Shell
   iron_nugget: Steely thingy
@@ -949,13 +1055,13 @@ material:
   cartography_table: Cartogrophy Table
   fletching_table: Fleching Tabel
   grindstone: Removezstone
-  lectern: Book readin ting
   smithing_table: Smissing Table
   stonecutter: Shrpy movin thingy
   bell: Belly
   lantern: Lanturn
   soul_lantern: Sol Lanturn
   sweet_berries: Sweet Beries
+  glow_berries: shiny berriz
   campfire: Campfireh
   soul_campfire: sul camfiri
   shroomlight: Shroomy Lite
@@ -963,12 +1069,8 @@ material:
   bee_nest: B nest
   beehive: Beez's place
   honey_bottle: huny buttle
-  honey_block: Huny Bloc
   honeycomb_block: B thing bloc
   lodestone: Loserstone
-  netherite_block: omg rich kitteh
-  ancient_debris: super old stuffz
-  target: Tawget
   crying_obsidian: sad hardest thing evar
   blackstone: Blecston
   blackstone_slab: bleckston sleb
@@ -983,6 +1085,28 @@ material:
   polished_blackstone_brick_stairs: shiny blak rok brik sters
   cracked_polished_blackstone_bricks: craked polised bleck briks
   respawn_anchor: Reezpon mawgic blok
+  candle: Land pikl
+  white_candle: Wite land pikl
+  orange_candle: Ornge land pikl
+  magenta_candle: Majentra land pikl
+  light_blue_candle: Lite blu land pikl
+  yellow_candle: Yello land pikl
+  lime_candle: Liem hot stik
+  pink_candle: Pinc land pikl
+  gray_candle: Gra hot stik
+  light_gray_candle: Lite gra hot stik
+  cyan_candle: C-an land pikl
+  purple_candle: Parpal hot stik
+  blue_candle: Bloo hot stik
+  brown_candle: Brwn land pikl
+  green_candle: Gren hot stik
+  red_candle: Red land pikl
+  black_candle: Blak land pikl
+  small_amethyst_bud: Smol purpur shinee
+  medium_amethyst_bud: Midl purpur shinee
+  large_amethyst_bud: Big purpur shinee
+  amethyst_cluster: Dun purpur shinee
+  pointed_dripstone: Sharp cave rok
   water: Watr
   lava: hot sauce
   tall_seagrass: TOLL MARIN GRAZZ
@@ -1005,6 +1129,9 @@ material:
   attached_melon_stem: sticky melon stik
   pumpkin_stem: Dat thing teh orange scary thing grows on
   melon_stem: melon stik
+  water_cauldron: big bukkit wit watr
+  lava_cauldron: big bukkit wif hot sauec
+  powder_snow_cauldron: Big bukkit wit Powdr Sno
   end_portal: Magik yarn bawl howl
   cocoa: dont feed dis to ur catz
   tripwire: String
@@ -1084,6 +1211,30 @@ material:
   potted_warped_fungus: Pottd Warpt Foongis
   potted_crimson_roots: Pottd Crimzn Rutez
   potted_warped_roots: Pottd Warpd Rootz
+  candle_cake: lie wif hot stix
+  white_candle_cake: Caek Wif Wite Candle
+  orange_candle_cake: Caek Wif Orange Candle
+  magenta_candle_cake: Caek Wif Magenta Candle
+  light_blue_candle_cake: Caek Wif Light Blu Candle
+  yellow_candle_cake: Caek Wif Yelow Candle
+  lime_candle_cake: Caek Wif Lime Candle
+  pink_candle_cake: Caek Wif Pink Candle
+  gray_candle_cake: Caek Wif Gray Candle
+  light_gray_candle_cake: Caek wif Lite Grai Candl
+  cyan_candle_cake: Caek wif Cyan Candle
+  purple_candle_cake: Caek wif Purpl Candl
+  blue_candle_cake: Caek Wif Blu Candle
+  brown_candle_cake: Caek wif Brown Candl
+  green_candle_cake: Caek wif Grin Candl
+  red_candle_cake: Caek wif Rd Candl
+  black_candle_cake: Caek wif Blak Candl
+  powder_snow: Powdr Sno
+  cave_vines: Caev wiskrs
+  cave_vines_plant: Shinin' Viine Plantta o' Caevs
+  big_dripleaf_stem: Big fall thru plantt stehm
+  potted_azalea_bush: Pottd Alakazam
+  potted_flowering_azalea_bush: Pottd Flowerig Alakazam
+  grass_path: Gr's peth
   zombie_pigman_spawn_egg: Zobi pegmen spon ec
   cactus_green: Grassy powder
   dandelion_yellow: Cat Pee
@@ -1170,46 +1321,48 @@ biome:
   crimson_forest: Crimsun wuds
   warped_forest: warpd wuds
   basalt_deltas: Bawzult deltaz
+  dripstone_caves: VERY sharp caevz
+  lush_caves: Forest caevz
   nether: Nether
 enchantment:
-  fire_protection: Fier Protecshun
-  sharpness: Much sharp
-  flame: Flaem
-  soul_speed: rannin on ded peepl
-  aqua_affinity: Kitteh no like water
-  punch: Punsh
-  loyalty: BFF
-  depth_strider: Fuzt Watur Wullken
-  vanishing_curse: wen u getrekt its gon
-  unbreaking: Nevr break
-  knockback: Nockback
-  luck_of_the_sea: Luk ov se zee
-  binding_curse: cant taek dis off
-  fortune: Forshun
   protection: Protecshun
-  efficiency: Fuzt Diggin'
-  mending: Mendin
-  frost_walker: cat no liek water hax
-  lure: Luer
-  looting: Steal all dis thingz
-  piercing: Errow gous thru
-  blast_protection: Blast Protecshun
-  smite: Smiet
-  multishot: Manysot
-  fire_aspect: Burn dis thing
-  channeling: Being thor
-  sweeping: Sweeper Deeper
-  thorns: Spiky
-  bane_of_arthropods: KILL ALL DIS SPIDRZ
-  respiration: fish moed
-  riptide: COME BACK
-  silk_touch: Smooth Diggin'
-  quick_charge: Qwick Charge
-  projectile_protection: Projektile Protecshun
-  impaling: Idk lmao
+  fire_protection: Fier Protecshun
   feather_falling: Fall on ur feetz
+  blast_protection: Blast Protecshun
+  projectile_protection: Projektile Protecshun
+  respiration: fish moed
+  aqua_affinity: Kitteh no like water
+  thorns: Spiky
+  depth_strider: Fuzt Watur Wullken
+  frost_walker: cat no liek water hax
+  binding_curse: cant taek dis off
+  sharpness: Much sharp
+  smite: Smiet
+  bane_of_arthropods: KILL ALL DIS SPIDRZ
+  knockback: Nockback
+  fire_aspect: Burn dis thing
+  looting: Steal all dis thingz
+  sweeping: Sweeper Deeper
+  efficiency: Fuzt Diggin'
+  silk_touch: Smooth Diggin'
+  unbreaking: Nevr break
+  fortune: Forshun
   power: Powir
+  punch: Punsh
+  flame: Flaem
   infinity: FOREVERS
+  luck_of_the_sea: Luk ov se zee
+  lure: Luer
+  loyalty: BFF
+  impaling: Idk lmao
+  riptide: COME BACK
+  channeling: Being thor
+  multishot: Manysot
+  quick_charge: Qwick Charge
+  piercing: Errow gous thru
+  mending: Mendin
+  vanishing_curse: wen u getrekt its gon
+  soul_speed: rannin on ded peepl
 potion:
   uncraftable: Poshun u Cann Onli Gat in HAX MODE
   water: Not for katz
@@ -1405,6 +1558,11 @@ entity:
   strider: mr hoo walx on laava
   zoglin: Zzomlin
   piglin_brute: Piklin Brut
+  axolotl: KUTE PINK FISHH
+  glow_item_frame: Brite item holdr
+  glow_squid: Shiny skwid
+  goat: monten shep
+  marker: Meowrker
   fishing_hook: watuur toy
   lightning: litnin bot
   player: Cat
@@ -2205,17 +2363,3 @@ villager_profession:
   shepherd: Shehprd
   toolsmith: Toolsmif
   weaponsmith: Weponsmif
-villager_career:
-  farmer: Farmr
-  fisherman: Fishr
-  shepherd: Shehprd
-  fletcher: Fletchur
-  librarian: Nerdz
-  cartographer: Mapmakr
-  cleric: Cleyric
-  armorer: Armurur
-  weapon_smith: Wepon Smif
-  tool_smith: Tul Smif
-  butcher: Butchur
-  leatherworker: Lethurwurkur
-  nitwit: shtOOpid man

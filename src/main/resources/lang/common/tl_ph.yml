@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:17:25                    #
+# Build time: 2021-07-04 21:39:01                    #
 # ####################################################
 language:
   code: tl_ph
@@ -14,10 +14,17 @@ material:
   polished_diorite: Makinis na Diyorayt
   andesite: Andesayt
   polished_andesite: Makinis na Andesayt
+  deepslate: Bumagsak
+  cobbled_deepslate: Cobbled Deepslate
+  polished_deepslate: Makinis na Pisarang Lalim
+  calcite: Kalsit
+  tuff: Tupa ng Bulkan
+  dripstone_block: Bloke ng Patakbato
   grass_block: Bloke ng Damo
   dirt: Lupa
   coarse_dirt: Lupang Magaspang
   podzol: Podzol
+  rooted_dirt: Nakaugat na Dumi
   crimson_nylium: Krimsong Nylium
   warped_nylium: Nakiwal na Nylium
   cobblestone: Biyak na Bato
@@ -39,10 +46,42 @@ material:
   sand: Buhangin
   red_sand: Pulang Buhangin
   gravel: Graba
-  gold_ore: Batong Ginto
-  iron_ore: Batong Bakal
   coal_ore: Batong Karbon
-  nether_gold_ore: Nether na Batong Ginto
+  deepslate_coal_ore: Deepslate Coal Ore
+  iron_ore: Batong Bakal
+  deepslate_iron_ore: Ipagpalabas ang Iron Ore
+  copper_ore: Mambatong Tanso
+  deepslate_copper_ore: Tansong Pisarang-Lalim
+  gold_ore: Batong Ginto
+  deepslate_gold_ore: I-deeplate ang Gold Ore
+  redstone_ore: Mambatong Kulog
+  deepslate_redstone_ore: Deepslate Redstone Ore
+  emerald_ore: Batong Esmeralda
+  deepslate_emerald_ore: Deepslate Emerald Ore
+  lapis_ore: Batong Lapis Lazuli
+  deepslate_lapis_ore: Deepslate Lapis Lazuli Ore
+  diamond_ore: Batong Brilyante
+  deepslate_diamond_ore: Ibagsak ang Diamond Ore
+  nether_gold_ore: Impyer Mambatong Ginto
+  nether_quartz_ore: Mambatong Impyer Kuwarts
+  ancient_debris: Sinaunang Yagit
+  coal_block: Karbong Bloke
+  raw_iron_block: Bloke ng Raw Iron
+  raw_copper_block: Block ng Raw Copper
+  raw_gold_block: Block ng Hilaw na Ginto
+  amethyst_block: Bloke ng Ametista
+  budding_amethyst: Namumukong Ametista
+  iron_block: Bakal na Bloke
+  copper_block: Bloke ng Tanso
+  gold_block: Gintong Bloke
+  diamond_block: Brilyanteng Bloke
+  netherite_block: Blokeng Impyer Yaman
+  exposed_copper: Tansong Nabilad
+  weathered_copper: Tansong Kinalawang
+  cut_copper: Pinutol Tanso
+  weathered_cut_copper: Buo-Kalawanging Pinutol Tanso
+  cut_copper_stairs: Pinutol Tansong Hagdan
+  weathered_cut_copper_stairs: Buo-Kalawanging Pinutol Tansong Hagdan
   oak_log: Robleng Troso
   spruce_log: Pinong Troso
   birch_log: Birkeng Troso
@@ -81,26 +120,24 @@ material:
   jungle_leaves: Gubatang Dahon
   acacia_leaves: Akasyang Dahon
   dark_oak_leaves: Madilim na Robleng Dahon
+  azalea_leaves: Mga Dahon ng Azalea
+  flowering_azalea_leaves: Dahong Azaleyang Namumulaklak
   sponge: Espongha
   wet_sponge: Basang Espongha
   glass: Salamin
-  lapis_ore: Batong Lapis Lazuli
-  lapis_block: Bloke ng Lapis Lazuli
-  dispenser: Taga-bigay
+  tinted_glass: Malabong Salamin
+  lapis_block: Block ng Lapis Lazuli
   sandstone: Batubuhangin
   chiseled_sandstone: Buhang-pait
   cut_sandstone: Ginupit na Sandstone
-  note_block: Bloke ng Nota
-  powered_rail: Malakas na Riles
-  detector_rail: Detektor na Riles
-  sticky_piston: Pistong Malagkit
   cobweb: Sapot
   grass: Damo
   fern: Eletso
+  azalea: Azalea
+  flowering_azalea: Flowering Azalea
   dead_bush: Patay na Palumpong
   seagrass: Damong Dagat
   sea_pickle: Atsarang Dagat
-  piston: Piston
   white_wool: Lanang Puti
   orange_wool: Lanang Kahel
   magenta_wool: Lanang Mahenta
@@ -130,20 +167,24 @@ material:
   cornflower: Cornflower
   lily_of_the_valley: Liryo ng Lambak
   wither_rose: Rosas ng Wither
+  spore_blossom: Spore Blossom
   brown_mushroom: Kayumangging Kabute
   red_mushroom: Pulang Kabute
   crimson_fungus: Kabuting-Krimson
   warped_fungus: Kabuting-Kiwal
   crimson_roots: Krimsong Ugat
   warped_roots: Nakiwal na Ugat
-  nether_sprouts: Nether na Usbong
+  nether_sprouts: Impyer Usbong
   weeping_vines: Lumuluhang Baging
   twisting_vines: Pulupot na Baging
   sugar_cane: Tubo
   kelp: Kelp
+  moss_carpet: Moss Carpet
+  moss_block: Moss Block
+  hanging_roots: Mga Hanging Roots
+  big_dripleaf: Malaking Dripleaf
+  small_dripleaf: Maliit na Dripleaf
   bamboo: Kawayan
-  gold_block: Gintong Bloke
-  iron_block: Bakal na Bloke
   oak_slab: Robleng Tilad
   spruce_slab: Pinong Tilad
   birch_slab: Birkeng Tilad
@@ -160,7 +201,7 @@ material:
   cobblestone_slab: Tilang Biyak na Bato
   brick_slab: Laryong Tilad
   stone_brick_slab: Laryong Batong Tilad
-  nether_brick_slab: Tilang Nether na Laryo
+  nether_brick_slab: Impyer Laryong Tilad
   quartz_slab: Tilang Kwarta
   red_sandstone_slab: Tilang Pulang Batubuhangin
   cut_red_sandstone_slab: Hiniwang Tilang Pulang Batubuhangin
@@ -173,7 +214,6 @@ material:
   smooth_sandstone: Buhang-buli
   smooth_stone: Makinis na Bato
   bricks: Mga Ladrilyo
-  tnt: Bomba
   bookshelf: Istante ng Aklat
   mossy_cobblestone: Malumot na Batu-Bato
   obsidian: Obsidiyano
@@ -187,27 +227,11 @@ material:
   spawner: Panlikhaan
   oak_stairs: Robleng Hagdanan
   chest: Baul
-  diamond_ore: Batong Brilyante
-  diamond_block: Brilyanteng Bloke
   crafting_table: Gawaan
   farmland: Bukiran
   furnace: Pugon
   ladder: Hagdan
-  rail: Riles
   cobblestone_stairs: Hagdanang Biyak na Bato
-  lever: Baras
-  stone_pressure_plate: Apakan na Bato
-  oak_pressure_plate: Robleng Apakan
-  spruce_pressure_plate: Pinong Apakan
-  birch_pressure_plate: Birkeng Apakan
-  jungle_pressure_plate: Gubat na Apakan
-  acacia_pressure_plate: Akasyang Apakan
-  dark_oak_pressure_plate: Maitim na Robleng Apakan
-  crimson_pressure_plate: Krimsong Apakan
-  warped_pressure_plate: Nakiwal na Apakan
-  polished_blackstone_pressure_plate: Makinis na Batong-itim na Apakan
-  redstone_ore: Batong Redstone
-  redstone_torch: Redstone na Ilaw
   snow: Niyebe
   ice: Yelo
   snow_block: Bloke ng Niyebe
@@ -224,32 +248,31 @@ material:
   warped_fence: Nakiwal na Bakod
   pumpkin: Kalabasa
   carved_pumpkin: Inukit na Kalabasa
-  netherrack: Netherrack
-  soul_sand: Kaluluwang Buhangin
-  soul_soil: Kaluluwang Lupa
+  jack_o_lantern: Diyak ng Parol
+  netherrack: Impyersabitan
+  soul_sand: Kaluwan Hangin
+  soul_soil: Kaluwan Lupa
   basalt: Basalto
   polished_basalt: Makinis na Basalto
-  soul_torch: Kaluluwang Apoy
+  smooth_basalt: Makinis na Basalt
+  soul_torch: Kaluwan Sulo
   glowstone: Sindin-bato
-  jack_o_lantern: Diyak ng Parol
-  oak_trapdoor: Maliit na Robleng Pinto
-  spruce_trapdoor: Maliit na Pinong Pinto
-  birch_trapdoor: Maliit na Birkeng Pinto
-  jungle_trapdoor: Maliit na Gubat na Pinto
-  acacia_trapdoor: Maliit na Akasyang Pinto
-  dark_oak_trapdoor: Maliit na Maitim na Robleng Pinto
-  crimson_trapdoor: Maliit na Krimsong Pinto
-  warped_trapdoor: Maliit na Nakiwal na Pinto
   infested_stone: Nahawaang Bato
   infested_cobblestone: Nahawaang Biyak na Bato
   infested_stone_bricks: Nahawaang Laryong Bato
   infested_mossy_stone_bricks: Nahawaang Laryong Lumot
   infested_cracked_stone_bricks: Nahawaang Laryong Sira
   infested_chiseled_stone_bricks: Nahawaang Laryong Pinait
+  infested_deepslate: Pinuno ng Deepslate
   stone_bricks: Laryong Bato
   mossy_stone_bricks: Laryong Lumot
   cracked_stone_bricks: Laryong Sira
   chiseled_stone_bricks: Laryong Pinait
+  deepslate_bricks: Deepslate brick
+  cracked_deepslate_bricks: Basag na Deepslate brick
+  deepslate_tiles: Deepslate Tile
+  cracked_deepslate_tiles: Basag na Deepslate Tile
+  chiseled_deepslate: Chiseled Deepslate
   brown_mushroom_block: Bloke ng Kayumangging Kabute
   red_mushroom_block: Bloke ng Pulang Kabute
   mushroom_stem: Tangkay ng Kabute
@@ -258,33 +281,23 @@ material:
   glass_pane: Bintana
   melon: Melon
   vine: Baging
-  oak_fence_gate: Robleng Tarangkahan
-  spruce_fence_gate: Pinong Tarangkahan
-  birch_fence_gate: Birkeng Tarangkahan
-  jungle_fence_gate: Gubat na Tarangkahan
-  acacia_fence_gate: Akasyang Tarangkahan
-  dark_oak_fence_gate: Maitim na Robleng Tarangkahan
-  crimson_fence_gate: Krimsong Tarangkahan
-  warped_fence_gate: Nakiwal na Tarangkahan
+  glow_lichen: Glow Lichen
   brick_stairs: Hagdanang Laryo
   stone_brick_stairs: Hagdanang Laryong Bato
   mycelium: Maisiliyum
   lily_pad: Dahon ng Liryo
-  nether_bricks: Nether na Laryo
-  cracked_nether_bricks: Nether na Laryong Sira
-  chiseled_nether_bricks: Nether na Laryong Pinait
-  nether_brick_fence: Nether na Laryong Bakod
-  nether_brick_stairs: Hagdanang Nether na Laryo
+  nether_bricks: Impyer Laryo
+  cracked_nether_bricks: Byak Impyer Laryo
+  chiseled_nether_bricks: Pinait Impyer Laryo
+  nether_brick_fence: Impyer Laryong Bakod
+  nether_brick_stairs: Impyer Laryong Hagdan
   enchanting_table: Pangmahikang Mesa
   end_portal_frame: Balangkas ng Lagusan sa End
   end_stone: End na Bato
   end_stone_bricks: End na Laryong Bato
   dragon_egg: Itlog ng Dragon
-  redstone_lamp: Redstone na Lampara
   sandstone_stairs: Hagdanang Batubuhangin
-  emerald_ore: Batong Esmeralda
   ender_chest: End na Baul
-  tripwire_hook: Sabitan ng Dapaan
   emerald_block: Esmeraldang Bloke
   spruce_stairs: Pinong Hagdanan
   birch_stairs: Birkeng Hagdanan
@@ -301,42 +314,27 @@ material:
   mossy_stone_brick_wall: Pader na Laryong Lumot
   granite_wall: Pader na Granayt
   stone_brick_wall: Pader na Laryong Bato
-  nether_brick_wall: Laryo Pader mula sa Impiyerno
+  nether_brick_wall: Impyer Laryong Pader
   andesite_wall: Pader na Andesayt
-  red_nether_brick_wall: Pader na Pulang Nether na Laryo
+  red_nether_brick_wall: Pulang Impyer Laryong Pader
   sandstone_wall: Pader na Batubuhangin
   end_stone_brick_wall: Pader na End na Laryong Bato
   diorite_wall: Pader na Dayorait
   blackstone_wall: Pader na Batong-itim
   polished_blackstone_wall: Pader na Makinis na Batong-itim
   polished_blackstone_brick_wall: Pader na Makinis na Batong-itim na Laryo
-  stone_button: Batong Pindutan
-  oak_button: Robleng Pindutan
-  spruce_button: Pinong Pindutan
-  birch_button: Birkeng Pindutan
-  jungle_button: Gubat na Pindutan
-  acacia_button: Akasyang Pindutan
-  dark_oak_button: Maitim na Robleng Pindutan
-  crimson_button: Krimsong Pindutan
-  warped_button: Nakiwal na Pindutan
-  polished_blackstone_button: Makinis na Batong-itim na Pindutan
+  cobbled_deepslate_wall: Cobbled Deepslate Wall
+  polished_deepslate_wall: Makinis na Pisarang Lalim na Dingding
+  deepslate_brick_wall: Ibagsak ang Brick Wall
+  deepslate_tile_wall: Deepslate Tile Wall
   anvil: Palihan
   chipped_anvil: Basag na Palihan
   damaged_anvil: Nasirang Palihan
-  trapped_chest: Umangbaul
-  light_weighted_pressure_plate: Magaang Apakan
-  heavy_weighted_pressure_plate: Mabigat na Apakan
-  daylight_detector: Detektor ng Liwanag ng Araw
-  redstone_block: Redstone na Bloke
-  nether_quartz_ore: Batong Kuwarta
-  hopper: Lukton
   chiseled_quartz_block: Pinaitang Kuwartang Bloke
   quartz_block: Kuwartang Bloke
   quartz_bricks: Laryong Kwarta
   quartz_pillar: Haligi na Kuwarts
   quartz_stairs: Hagdanang Kwarta
-  activator_rail: Taga-bukas na Riles
-  dropper: Taga-hulog
   white_terracotta: Puting Terakota
   orange_terracotta: Kahel na Terakota
   magenta_terracotta: Mahentang Terakota
@@ -354,7 +352,7 @@ material:
   red_terracotta: Pulang Terakota
   black_terracotta: Itim na Terakota
   barrier: Harang
-  iron_trapdoor: Bakal na Pintong Maliit
+  light: Ilaw
   hay_block: Paldo ng Dayami
   white_carpet: Alpombrang Puti
   orange_carpet: Alpombrang Dalandan
@@ -373,12 +371,10 @@ material:
   red_carpet: Alpombrang Pula
   black_carpet: Alpombrang Itim
   terracotta: Terakota
-  coal_block: Karbong Bloke
   packed_ice: Siniksik na Yelo
   acacia_stairs: Akasyang Hagdanan
   dark_oak_stairs: Maitim na Robleng Hagdanan
-  slime_block: Bloke ng Lusak
-  grass_path: Damong Landas
+  dirt_path: Lupang Panlandas
   sunflower: Mirasol
   lilac: Lila
   rose_bush: Palumpong Rosas
@@ -431,12 +427,11 @@ material:
   repeating_command_block: Paulit-ulit na Bloke ng Utos
   chain_command_block: Kadenang Bloke ng Utos
   magma_block: Magmang Bloke
-  nether_wart_block: Nether na Butig na Bloke
+  nether_wart_block: Blokeng Impyer Butig
   warped_wart_block: Nakiwal na Butig na Bloke
-  red_nether_bricks: Pulang Nether na Laryo
+  red_nether_bricks: Pulang Impyer Laryo
   bone_block: Butong Bloke
   structure_void: Kawalan ng Gusali
-  observer: Tagamasid
   shulker_box: Kahon ng Shulker
   white_shulker_box: Puting Kahon ng Shulker
   orange_shulker_box: Kahel na Kahon ng Shulker
@@ -546,9 +541,13 @@ material:
   smooth_quartz_stairs: Makinis na Kuwartang Hagdanan
   granite_stairs: Granayt na Hagdanan
   andesite_stairs: Andesayt na Hagdanan
-  red_nether_brick_stairs: Pulang Nether na Laryong Hagdanan
+  red_nether_brick_stairs: Pulang Impyer Laryong Hagdan
   polished_andesite_stairs: Makinis na Andesayt na Hagdanan
   diorite_stairs: Diyorayt na Hagdanan
+  cobbled_deepslate_stairs: Cobbled Deepslate Stair
+  polished_deepslate_stairs: Makinis na Pisarang Lalim na Hagdanan
+  deepslate_brick_stairs: Ibagsak ang Mga Hagdan ng Brick
+  deepslate_tile_stairs: Deepslate Tile Stair
   polished_granite_slab: Pinakintab na Granayt na Tilad
   smooth_red_sandstone_slab: Mapulang Buhang-buling Tilad
   mossy_stone_brick_slab: Laryong Lumot na Tilad
@@ -559,10 +558,60 @@ material:
   smooth_quartz_slab: Makinis na Kuwartang Tilad
   granite_slab: Granayt na Tilad
   andesite_slab: Andesayt na Tilad
-  red_nether_brick_slab: Pulang Nether na Laryong Tilad
+  red_nether_brick_slab: Pulang Laryong Laryong Tilad
   polished_andesite_slab: Makinis na Andesayt na Tilad
   diorite_slab: Diyorayt na Tilad
+  cobbled_deepslate_slab: Cobbled Deepslate Slab
+  polished_deepslate_slab: Makinis na Pisarang Lalim na Tilad
+  deepslate_brick_slab: Deepslate Brick Slab
+  deepslate_tile_slab: Deepslate Tile Slab
   scaffolding: Patungan
+  redstone: Kulog Pulbo
+  redstone_torch: Kulog Sulo
+  redstone_block: Blokeng Kulog
+  repeater: Kulog Duhandas
+  comparator: Kulog Panakwil
+  piston: Piston
+  sticky_piston: Pistong Malagkit
+  slime_block: Bloke ng Lusak
+  honey_block: Bloke ng Pulot-pukyutan
+  observer: Tagamasid
+  hopper: Lukton
+  dispenser: Taga-bigay
+  dropper: Taga-hulog
+  lectern: Patungan ng Libro
+  target: Tudlaan
+  lever: Baras
+  lightning_rod: Baras Pankidlat
+  daylight_detector: Detektor ng Liwanag ng Araw
+  sculk_sensor: Kublim Tagramdam
+  tripwire_hook: Sabitan ng Dapaan
+  trapped_chest: Umangbaul
+  tnt: Bomba
+  redstone_lamp: Kulog Lampara
+  note_block: Bloke ng Nota
+  stone_button: Batong Pindutan
+  polished_blackstone_button: Makinis na Batong-itim na Pindutan
+  oak_button: Robleng Pindutan
+  spruce_button: Pinong Pindutan
+  birch_button: Birkeng Pindutan
+  jungle_button: Gubat na Pindutan
+  acacia_button: Akasyang Pindutan
+  dark_oak_button: Maitim na Robleng Pindutan
+  crimson_button: Krimsong Pindutan
+  warped_button: Nakiwal na Pindutan
+  stone_pressure_plate: Apakan na Bato
+  polished_blackstone_pressure_plate: Makinis na Batong-itim na Apakan
+  light_weighted_pressure_plate: Magaang Apakan
+  heavy_weighted_pressure_plate: Mabigat na Apakan
+  oak_pressure_plate: Robleng Apakan
+  spruce_pressure_plate: Pinong Apakan
+  birch_pressure_plate: Birkeng Apakan
+  jungle_pressure_plate: Gubat na Apakan
+  acacia_pressure_plate: Akasyang Apakan
+  dark_oak_pressure_plate: Maitim na Robleng Apakan
+  crimson_pressure_plate: Krimsong Apakan
+  warped_pressure_plate: Nakiwal na Apakan
   iron_door: Pintuang Bakal
   oak_door: Robleng Pinto
   spruce_door: Pinong Pinto
@@ -572,8 +621,42 @@ material:
   dark_oak_door: Madilim na Robleng Pinto
   crimson_door: Krimsong Pinto
   warped_door: Nakiwal na Pinto
-  repeater: Redstone na Paulit
-  comparator: Taga-hambing ng Redstone
+  iron_trapdoor: Bakal na Pintong Maliit
+  oak_trapdoor: Maliit na Robleng Pinto
+  spruce_trapdoor: Maliit na Pinong Pinto
+  birch_trapdoor: Maliit na Birkeng Pinto
+  jungle_trapdoor: Maliit na Gubat na Pinto
+  acacia_trapdoor: Maliit na Akasyang Pinto
+  dark_oak_trapdoor: Maliit na Maitim na Robleng Pinto
+  crimson_trapdoor: Maliit na Krimsong Pinto
+  warped_trapdoor: Maliit na Nakiwal na Pinto
+  oak_fence_gate: Robleng Tarangkahan
+  spruce_fence_gate: Pinong Tarangkahan
+  birch_fence_gate: Birkeng Tarangkahan
+  jungle_fence_gate: Gubat na Tarangkahan
+  acacia_fence_gate: Akasyang Tarangkahan
+  dark_oak_fence_gate: Maitim na Robleng Tarangkahan
+  crimson_fence_gate: Krimsong Tarangkahan
+  warped_fence_gate: Nakiwal na Tarangkahan
+  powered_rail: Malakas na Riles
+  detector_rail: Detektor na Riles
+  rail: Riles
+  activator_rail: Taga-bukas na Riles
+  saddle: Sintadera
+  minecart: Karitela
+  chest_minecart: Karitelang Baul
+  furnace_minecart: Karitelang Pugon
+  tnt_minecart: Karitelang Bomba
+  hopper_minecart: Karitelang Lukton
+  carrot_on_a_stick: Karot sa Tunkod
+  warped_fungus_on_a_stick: Kabuting-Kiwal sa isang Tunkod
+  elytra: Elytra
+  oak_boat: Robleng Bangka
+  spruce_boat: Pinong Bangka
+  birch_boat: Birkeng Bangka
+  jungle_boat: Gubat na Bangka
+  acacia_boat: Akasyang Bangka
+  dark_oak_boat: Maitim na Robleng Bangka
   structure_block: Bloke ng Gusali
   jigsaw: Palaisipang Bloke
   turtle_helmet: Talukab ng Pagong
@@ -585,10 +668,18 @@ material:
   coal: Karbon
   charcoal: Uling
   diamond: Brilyante
+  emerald: Esmeralda
+  lapis_lazuli: Lapis Lazuli
+  quartz: Impyer Kuwarts
+  amethyst_shard: Amatista Shard
+  raw_iron: Raw Iron
   iron_ingot: Bakal
+  raw_copper: Raw Copper
+  copper_ingot: Copper Ingot
+  raw_gold: Hilaw na Ginto
   gold_ingot: Ginto
-  netherite_ingot: Netherite
-  netherite_scrap: Mumong Netherite
+  netherite_ingot: Impyer Yaman
+  netherite_scrap: Tipak ng Impyer Yaman
   wooden_sword: Espadang Kahoy
   wooden_shovel: Palang Kahoy
   wooden_pickaxe: Pikong Kahoy
@@ -614,11 +705,11 @@ material:
   diamond_pickaxe: Pikong Brilyante
   diamond_axe: Palakong Brilyante
   diamond_hoe: Asadang Brilyante
-  netherite_sword: Espadang Netherite
-  netherite_shovel: Palang Netherite
-  netherite_pickaxe: Pikong Netherite
-  netherite_axe: Palakong Netherite
-  netherite_hoe: Asadang Netherite
+  netherite_sword: Impyer Espada
+  netherite_shovel: Impyer Pala
+  netherite_pickaxe: Impyer Piko
+  netherite_axe: Impyer Palakol
+  netherite_hoe: Impyer Asada
   stick: Tunkod
   bowl: Mangkok
   mushroom_stew: Nilagang Kabuti
@@ -648,10 +739,10 @@ material:
   golden_chestplate: Baluting Ginto
   golden_leggings: Pulinasang Ginto
   golden_boots: Botang Ginto
-  netherite_helmet: Kupyang Netherite
-  netherite_chestplate: Baluting Netherite
-  netherite_leggings: Pulinasang Netherite
-  netherite_boots: Botang Netherite
+  netherite_helmet: Impyer Helmet
+  netherite_chestplate: Impyer Kasuotan
+  netherite_leggings: Impyer Pulinas
+  netherite_boots: Impyer Botas
   flint: Puyusan
   porkchop: Hilaw na Porkchop
   cooked_porkchop: Lutong Porkchop
@@ -669,29 +760,27 @@ material:
   bucket: Balde
   water_bucket: Balde ng Tubig
   lava_bucket: Balde ng Kumukulong Putik
-  minecart: Karitela
-  saddle: Sintadera
-  redstone: Alikabok ng Redstone
+  powder_snow_bucket: Balde ng Mapulbong Niyebe
   snowball: Bola ng Niyebe
-  oak_boat: Robleng Bangka
   leather: Katad
   milk_bucket: Balde ng Gatas
   pufferfish_bucket: Balde ng Pufferfish
   salmon_bucket: Balde ng Salmon
   cod_bucket: Balde ng Bakalaw
   tropical_fish_bucket: Balde ng Isdang Tropikal
+  axolotl_bucket: Timba ng Aholote
   brick: Ladrilyo
   clay_ball: Bola ng Luwad
   dried_kelp_block: Tuyong Bloke ng Kelp
   paper: Papel
   book: Aklat
   slime_ball: Bola ng Lusak
-  chest_minecart: Karitelang Baul
-  furnace_minecart: Karitelang Pugon
   egg: Itlog
   compass: Bruhula
+  bundle: Bundle
   fishing_rod: Pamingwit
   clock: Orasan
+  spyglass: Pantanaw
   glowstone_dust: Sindin-abo
   cod: Hilaw na Bakalaw
   salmon: Hilaw na Salmon
@@ -700,8 +789,8 @@ material:
   cooked_cod: Luto na Bakalaw
   cooked_salmon: Lutong Salmon
   ink_sac: Tinta
+  glow_ink_sac: Sindin Supot ng Tina
   cocoa_beans: Kakaw
-  lapis_lazuli: Lapis Lazuli
   white_dye: Tintang Puti
   orange_dye: Tintang Kahel
   magenta_dye: Tintang Mahenta
@@ -754,7 +843,7 @@ material:
   blaze_rod: Liyabaras
   ghast_tear: Luha ng Ghast
   gold_nugget: Pirasong Ginto
-  nether_wart: Nether na Butig
+  nether_wart: Impyer Butig
   potion: Gayuma
   glass_bottle: Salaming Bote
   spider_eye: Mata ng Gagamba
@@ -765,15 +854,16 @@ material:
   cauldron: Kaldero
   ender_eye: Mata ng Wakas
   glistering_melon_slice: Linang Hiwa ng Pakwan
+  axolotl_spawn_egg: Panlikhaang Itlog ng Aholote
   bat_spawn_egg: Panlikhaang Itlog ng Paniki
   bee_spawn_egg: Panlikhaang Itlog ng Bubuyog
-  blaze_spawn_egg: Panlikhaang Itlog ng Blaze
+  blaze_spawn_egg: Panlikhaang Itlog ng Liyab
   cat_spawn_egg: Panlikhaang Itlog ng Pusa
   cave_spider_spawn_egg: Panlikhaang Itlog ng Gagambang-Kuweba
   chicken_spawn_egg: Panlikhaang Itlog ng Manok
   cod_spawn_egg: Panlikhaang Itlog ng Bakalaw
   cow_spawn_egg: Panlikhaang Itlog ng Baka
-  creeper_spawn_egg: Panlikhaang Itlog ng Creeper
+  creeper_spawn_egg: Panlikhaang Itlog ng Kilabot
   dolphin_spawn_egg: Panlikhaang Itlog ng Dolpin
   donkey_spawn_egg: Panlikhaang Itlog ng Asno
   drowned_spawn_egg: Panlikhaang Itlog ng Nangalunod
@@ -783,13 +873,15 @@ material:
   evoker_spawn_egg: Panlikhaang Itlog ng Evoker
   fox_spawn_egg: Panlikhaang Itlog ng Soro
   ghast_spawn_egg: Panlikhaang Itlog ng Ghast
+  glow_squid_spawn_egg: Panlikhaang Itlog ng Sindin Pusit
+  goat_spawn_egg: Panlikhaang Itlog ng Kambing
   guardian_spawn_egg: Panlikhaang Itlog ng Tagabantay
   hoglin_spawn_egg: Panlikhaang Itlog ng Hoglin
   horse_spawn_egg: Panlikhaang Itlog ng Kabayo
   husk_spawn_egg: Panlikhaang Itlog ng Huska
   llama_spawn_egg: Panlikhaang Itlog ng Liyama
   magma_cube_spawn_egg: Panlikhaang Itlog ng Kubong Magma
-  mooshroom_spawn_egg: Panlikhaang Itlog ng Mooshroom
+  mooshroom_spawn_egg: Panlikhaang Itlog ng Bakabute
   mule_spawn_egg: Panlikhaang Itlog ng Mola
   ocelot_spawn_egg: Panlikhaang Itlog ng Oselot
   panda_spawn_egg: Panlikhaang Itlog ng Panda
@@ -833,8 +925,8 @@ material:
   fire_charge: Karga ng Apoy
   writable_book: Aklat at Pluma
   written_book: Sinulatang Aklat
-  emerald: Esmeralda
   item_frame: Kuwardo
+  glow_item_frame: Sindin Larawan
   flower_pot: Paso
   carrot: Karot
   potato: Patatas
@@ -846,19 +938,14 @@ material:
   wither_skeleton_skull: Bungo ng Wither na Kalansay
   player_head: Ulo ng Manlalaro
   zombie_head: Bungo ng Zombi
-  creeper_head: Bungo ng Creeper
+  creeper_head: Ulo ng Kilabot
   dragon_head: Ulo ng Dragon
-  carrot_on_a_stick: Karot sa Tunkod
-  warped_fungus_on_a_stick: Kabuting-Kiwal sa isang Tunkod
-  nether_star: Nether na Bituin
+  nether_star: Impyerituin
   pumpkin_pie: Pastel na Kalabasa
   firework_rocket: Raketa ng Paputok
   firework_star: Bituin ng Paputok
   enchanted_book: Mahikang Aklat
-  nether_brick: Nether na Laryo
-  quartz: Nether na Kuwarta
-  tnt_minecart: Karitelang Bomba
-  hopper_minecart: Karitelang Lukton
+  nether_brick: Impyer Laryo
   prismarine_shard: Shard ng Prismarin
   prismarine_crystals: Mga Kristal ng Prismarin
   rabbit: Hilaw na Karne ng Kuneho
@@ -904,12 +991,6 @@ material:
   tipped_arrow: Hinawakang Tunod
   lingering_potion: Gayumang Tumatagal
   shield: Panangga
-  elytra: Elytra
-  spruce_boat: Pinong Bangka
-  birch_boat: Birkeng Bangka
-  jungle_boat: Gubat na Bangka
-  acacia_boat: Akasyang Bangka
-  dark_oak_boat: Maitim na Robleng Bangka
   totem_of_undying: Agimat ng Walang Kamatayan
   shulker_shell: Kabibi ng Shulker
   iron_nugget: Pirasong Bakal
@@ -948,26 +1029,22 @@ material:
   cartography_table: Mesa ng Kartograpiya
   fletching_table: Mesa ng Tagagawa ng Tunod
   grindstone: Panghasa
-  lectern: Patungan ng Libro
   smithing_table: Mesa ng Panday
   stonecutter: Pamutol ng Bato
   bell: Kampana
   lantern: Parol
-  soul_lantern: Kaluluwang Parol
+  soul_lantern: Kaluwan Parol
   sweet_berries: Mga Matamis na Berry
+  glow_berries: Mamulang berries
   campfire: Apoy ng kampo
-  soul_campfire: Kaluluwang Apoy ng kampo
+  soul_campfire: Kaluwan Apuyan
   shroomlight: Kabuting-ilaw
-  honeycomb: Pulot-pukyutan
+  honeycomb: Saray
   bee_nest: Pugad ng Bubuyog
   beehive: Bahay-pukyutan
   honey_bottle: Bote ng Pulot-pukyutan
-  honey_block: Bloke ng Pulot-pukyutan
-  honeycomb_block: Bloke ng Bahay-pukyutan
+  honeycomb_block: Blokeng Saray
   lodestone: Batubalani
-  netherite_block: Bloke ng Netherite
-  ancient_debris: Sinaunang Yagit
-  target: Tudlaan
   crying_obsidian: Lumuluhang Obsidiyano
   blackstone: Itim na bato
   blackstone_slab: Tilang Batong-itim
@@ -982,6 +1059,28 @@ material:
   polished_blackstone_brick_stairs: Makinis na Batong-itim na Laryong Hagdanan
   cracked_polished_blackstone_bricks: Makinis na Batong-itim na Laryong Sira
   respawn_anchor: Pagbubuhayang Angkla
+  candle: Kandila
+  white_candle: Puting Kandila
+  orange_candle: Kahel na Kandila
+  magenta_candle: Mahentang Kandila
+  light_blue_candle: Langit na Kandila
+  yellow_candle: Dilaw na Kandila
+  lime_candle: Dayap na Kandila
+  pink_candle: Rosas na Kandila
+  gray_candle: Abong Kandila
+  light_gray_candle: Pilak na Kandila
+  cyan_candle: Cyan na Kandila
+  purple_candle: Lilang Kandila
+  blue_candle: Bughaw na Kandila
+  brown_candle: Kayumangging Kandila
+  green_candle: Luntiang Kandila
+  red_candle: Pulang Kandila
+  black_candle: Itim na Kandila
+  small_amethyst_bud: Maliit na Buko ng Ametista
+  medium_amethyst_bud: Katamtamang Buko ng Ametista
+  large_amethyst_bud: Malaking Buko ng Ametista
+  amethyst_cluster: Kumpol ng Ametista
+  pointed_dripstone: Matulis Patakbato
   water: Tubig
   lava: Kumukulong Putik
   tall_seagrass: Mataas na Damong Dagat
@@ -989,21 +1088,24 @@ material:
   moving_piston: Gumagalaw na Piston
   wall_torch: Ilaw sa Pader
   fire: Apoy
-  soul_fire: Kaluluwang Apoy
-  redstone_wire: Kawad ng Redstone
+  soul_fire: Kaluwan Apoy
+  redstone_wire: Kulog Kawad
   oak_wall_sign: Robleng Karatula sa Pader
   spruce_wall_sign: Pinong Karatula sa Pader
   birch_wall_sign: Birkeng Karatula sa Pader
   acacia_wall_sign: Akasyang Karatula sa Pader
   jungle_wall_sign: Gubat na Karatula sa Pader
   dark_oak_wall_sign: Maitim na Robleng Karatula sa Pader
-  redstone_wall_torch: Redstone na Ilaw sa Pader
-  soul_wall_torch: Kaluluwang Apoy sa Pader
-  nether_portal: Lagusan ng Nether
+  redstone_wall_torch: Kulog Sulo sa Pader
+  soul_wall_torch: Paderang Kaluwan Sulo
+  nether_portal: Lagusan ng Impyerno
   attached_pumpkin_stem: Nakakabit na Tangkay ng Kalabasa
   attached_melon_stem: Nakakabit na Tangkay ng Melon
   pumpkin_stem: Tangkay ng Kalabasa
   melon_stem: Tangkay ng Melon
+  water_cauldron: Kaldero ng Tubig
+  lava_cauldron: Kaldero ng Lava
+  powder_snow_cauldron: Mapulbong Niyebeng Tulyasi
   end_portal: End na Lagusan
   cocoa: Kakaw
   tripwire: Dapaan
@@ -1037,7 +1139,7 @@ material:
   wither_skeleton_wall_skull: Bungo ng Wither na Kalansay sa Pader
   zombie_wall_head: Ulo ng Sombi sa Pader
   player_wall_head: Ulo ng Manlalaro sa Pader
-  creeper_wall_head: Ulo ng Creeper sa Pader
+  creeper_wall_head: Ulo ng Kilabot sa Pader
   dragon_wall_head: Ulo ng Dragon sa Pader
   white_wall_banner: Puting Watawat
   orange_wall_banner: Kahel na Watawat
@@ -1083,14 +1185,45 @@ material:
   potted_warped_fungus: Nakapasong Kabuting-Kiwal
   potted_crimson_roots: Nakapasong Krimsong Ugat
   potted_warped_roots: Nakapasong Nakiwal na Ugat
+  candle_cake: Keyk na may Kandila
+  white_candle_cake: Cake na may Puting Kandila
+  orange_candle_cake: Cake with Orange Candle
+  magenta_candle_cake: Cake na may Magenta Candle
+  light_blue_candle_cake: Cake na may Light Blue Candle
+  yellow_candle_cake: Cake na may Dilaw na Kandila
+  lime_candle_cake: Cake na may Lime Candle
+  pink_candle_cake: Keyk na may Rosas na Kandila
+  gray_candle_cake: Keyk na may Abong Kandila
+  light_gray_candle_cake: Keyk na may Pilak na Kandila
+  cyan_candle_cake: Keyk na may Cyan na Kandila
+  purple_candle_cake: Keyk na may Lilang Kandila
+  blue_candle_cake: Keyk na may Asul na Kandila
+  brown_candle_cake: Keyk na may Kayumangging Kandila
+  green_candle_cake: Keyk na may Berdeng Kandila
+  red_candle_cake: Keyk na may Pulang Kandila
+  black_candle_cake: Keyk na may Itim na Kandila
+  powder_snow: Mapulbong Niyebe
+  cave_vines: Baging ng Kweba
+  cave_vines_plant: Halamang Baging ng Kweba
+  big_dripleaf_stem: Malaking Batang Dripleaf
+  potted_azalea_bush: Nakapasong Azaleya
+  potted_flowering_azalea_bush: Nakapasong Azaleyang Namumulaklak
+  grass_path: Damong Landas
   zombie_pigman_spawn_egg: Panlikhaang Itlog ng Sombing Taong-Baboy
 biome:
+  ocean: Karagatan
+  plains: Kapatagan
   desert: Disyerto
   mountains: Mga Bundok
   forest: Kagubatan
-  nether_wastes: Basura ng Nether
+  taiga: Taiga
+  swamp: Latian
+  river: Ilog
+  nether_wastes: Basura ng Impyerno
+  the_end: Ang End
   frozen_ocean: Nagyelo Dagat
   frozen_river: Nagyelo Ilog
+  snowy_tundra: Maniyebeng Tundra
   snowy_mountains: Mga Bundok ng Niyebe
   mushroom_fields: Mga Patlang ng Kabute
   mushroom_field_shore: Mga Patlang ng Kabute sa Baybayin
@@ -1098,64 +1231,107 @@ biome:
   desert_hills: Burol ng Disyerto
   wooded_hills: Burol ng Kagubatan
   taiga_hills: Taiga Na May Mga Burol
+  mountain_edge: Gilid ng Gubat
+  jungle: Gubat
   jungle_hills: Gubat Na May Mga Burol
+  jungle_edge: Gilid ng gubat
   deep_ocean: Malalim na Karagatan
-  snowy_beach: Dalampasigan maniyebe
+  stone_shore: Batong baybayin
+  snowy_beach: Maniyebeng dalampasigan
   birch_forest: Kagubatan Birch
   birch_forest_hills: Kagubatang Birch Na May Mga Burol
+  dark_forest: Madilim na gubat
+  snowy_taiga: Maniyebeng Taiga
   snowy_taiga_hills: Maniyebeng Maburol na Taiga
+  giant_tree_taiga: Higanteng Puno ng Taiga
   giant_tree_taiga_hills: Burol ng Higanteng Puno ng Taiga
   wooded_mountains: Mga Bundok ng Kagubatan
+  savanna: Sabana
+  savanna_plateau: Sabana Talampas
+  badlands: Badlands
+  wooded_badlands_plateau: Makahoy na Badlands Talampas
+  badlands_plateau: Badlands Talampas
+  small_end_islands: Maliit ng mga End Isla
+  end_midlands: End Gitnanglupain
+  end_highlands: End Kabundukan
+  end_barrens: End Kutad
+  warm_ocean: Mainit na karagatan
+  lukewarm_ocean: Maligamgam na Karagatan
   cold_ocean: Malamig na Dagat
+  deep_warm_ocean: Malalim na Mainit na Karagatan
+  deep_lukewarm_ocean: Malalim na maligamgan na karagatan
+  deep_cold_ocean: Malamig na malalim na karagatan
+  deep_frozen_ocean: Nagyeyelong malalim na karagatan
+  the_void: Ang Kawalan
+  sunflower_plains: Kapatagan ng Mirasol
+  desert_lakes: Oasis
+  gravelly_mountains: Mabatong Mga Bundok
+  flower_forest: Gubat ng bulaklak
+  taiga_mountains: Bundok ng Taiga
   swamp_hills: Banang Burol
+  ice_spikes: Mga haligi ng yelo
+  modified_jungle: Binagong Gubat
+  modified_jungle_edge: Binagong gilid ng gubat
+  tall_birch_forest: Kagubatan ng Mataas na Birch
   tall_birch_hills: Mataas na Birkeng mga Burol
   dark_forest_hills: Burol ng Madilim na Kagubatan
+  snowy_taiga_mountains: Maniyebeng Bundok ng Taiga
+  giant_spruce_taiga: Higante na Pustura ng Taiga
   giant_spruce_taiga_hills: Higanteng Pinong Taiga na mga Burol
+  modified_gravelly_mountains: Mabatong Mga Bundok+
+  shattered_savanna: Basag na Sabana
+  shattered_savanna_plateau: Basag na Sabana talampas
+  eroded_badlands: Nawasak na Badlands
+  modified_wooded_badlands_plateau: Binago namakahoy Badlands Talampas
+  modified_badlands_plateau: Binago na Badlands Talampas
+  bamboo_jungle: Kagubatan ng kawayan
   bamboo_jungle_hills: Kawayan gubat burol
-  soul_sand_valley: Lambak ng Kaluwan-buhangin
+  soul_sand_valley: Lambak ng Kaluwanhangin
   crimson_forest: Krimsong Kagubatan
   warped_forest: Nakiwal na Kagubatan
   basalt_deltas: Basalt Deltas
+  dripstone_caves: Kuweba ng Patakbato
+  lush_caves: Malagong Kweba
   nether: Nether
 enchantment:
-  fire_protection: Proteksyon ng Sunog
-  sharpness: Kataliman
-  flame: Apoy
-  soul_speed: Kaluluwang Bilis
-  aqua_affinity: Trabaho sa Tubig
-  punch: Suntok
-  loyalty: Katapatan
-  depth_strider: Paglakad sa Tubig
-  vanishing_curse: Sumpa ng Laho
-  unbreaking: Matibay
-  knockback: Tulak
-  luck_of_the_sea: Kapalarang Dagat
-  binding_curse: Sumpa ng Dikit
-  fortune: Kapalaran
   protection: Proteksyon
-  efficiency: Bilis
-  mending: Kumpuni
-  frost_walker: Pagyelo ng Tubig
-  lure: Pang-akit
-  looting: Kuha
-  piercing: Paglagos
-  blast_protection: Proteksyon sa Sabog
-  smite: Bigwas
-  multishot: Maramihang pagbaril
-  fire_aspect: Sunog
-  channeling: Pagsaloy
-  sweeping: Pagwalis Gilid
-  thorns: Tinik
-  bane_of_arthropods: Katay ng Kulisap
-  respiration: Paghinga
-  riptide: Pagpunit sa Taog
-  silk_touch: Alaga
-  quick_charge: Kargahang mabilis
-  projectile_protection: Proteksyon ng Hinahagis
-  impaling: Pagtuhog
+  fire_protection: Proteksyon ng Sunog
   feather_falling: Hulog ng Pakpak
+  blast_protection: Proteksyon sa Sabog
+  projectile_protection: Proteksyon ng Hinahagis
+  respiration: Paghinga
+  aqua_affinity: Trabaho sa Tubig
+  thorns: Tinik
+  depth_strider: Paglakad sa Tubig
+  frost_walker: Pagyelo ng Tubig
+  binding_curse: Sumpa ng Dikit
+  sharpness: Kataliman
+  smite: Bigwas
+  bane_of_arthropods: Katay ng Kulisap
+  knockback: Tulak
+  fire_aspect: Sunog
+  looting: Kuha
+  sweeping: Pagwalis Gilid
+  efficiency: Bilis
+  silk_touch: Alaga
+  unbreaking: Matibay
+  fortune: Kapalaran
   power: Tagos
+  punch: Suntok
+  flame: Apoy
   infinity: Impinidad
+  luck_of_the_sea: Kapalarang Dagat
+  lure: Pang-akit
+  loyalty: Katapatan
+  impaling: Pagtuhog
+  riptide: Pagpunit sa Taog
+  channeling: Pagsaloy
+  multishot: Maramihang pagbaril
+  quick_charge: Kargahang mabilis
+  piercing: Paglagos
+  mending: Kumpuni
+  vanishing_curse: Sumpa ng Laho
+  soul_speed: Kaluwan-Bilis
 potion:
   uncraftable: Gayumang Di-magawa
   water: Bote ng Tubig
@@ -1258,7 +1434,7 @@ entity:
   snowball: Bola ng Niyebe
   fireball: Bola ng Apoy
   small_fireball: Maliit na Apoy
-  ender_pearl: Tinapon na Perlas na Ender
+  ender_pearl: Tinapong Wakasang Perlas
   ender_signal: Mata ng Wakas
   splash_potion: Gayuma
   thrown_exp_bottle: Binatong Bote ng Karanasan
@@ -1269,7 +1445,7 @@ entity:
   firework: Raketa ng Paputok
   husk: Huska
   spectral_arrow: Multong Tunod
-  shulker_bullet: Bala ng Shulker
+  shulker_bullet: Bala ng Kabikubli
   dragon_fireball: Apoy ng Dragon
   zombie_villager: Zombing Taganayon
   skeleton_horse: Kabayong Kalansay
@@ -1290,7 +1466,7 @@ entity:
   minecart_tnt: Karitelang Bomba
   minecart_hopper: Karitelang Lukton
   minecart_mob_spawner: Karitelang Panlikhaan
-  creeper: Creeper
+  creeper: Kilabot
   skeleton: Kalansay
   spider: Gagamba
   giant: Higante
@@ -1298,7 +1474,7 @@ entity:
   slime: Lusak
   ghast: Ghast
   zombified_piglin: Zombing Piglin
-  enderman: Enderman
+  enderman: Taong Wakas
   cave_spider: Gagambang Kuweba
   silverfish: Kulisap
   blaze: Blaze
@@ -1307,16 +1483,16 @@ entity:
   wither: Wither
   bat: Paniki
   witch: Bruha
-  endermite: Endermite
+  endermite: Wakasang Uod
   guardian: Tagabantay
-  shulker: Shulker
+  shulker: Kabikubli
   pig: Baboy
   sheep: tupa
   cow: Baka
   chicken: Manok
   squid: Pusit
   wolf: Lobo
-  mushroom_cow: Mooshroom
+  mushroom_cow: Bakabute
   snowman: Niyebeng Golem
   ocelot: Oselot
   iron_golem: Bakal na Golem
@@ -1350,6 +1526,11 @@ entity:
   strider: Strider
   zoglin: Zoglin
   piglin_brute: Halimaw na Piglin
+  axolotl: Aholote
+  glow_item_frame: Sindin Larawan
+  glow_squid: Sindin Pusit
+  goat: Kambing
+  marker: Pananda
   fishing_hook: Kawit ng Baliwasnan
   lightning: Kidlat
   player: Manlalaro
@@ -1392,14 +1573,14 @@ tropical_fish_type:
   sunstreak: Sunstreak
   snooper: Snooper
   dasher: Dasher
-  brinely: Brinely
-  spotty: Spotty
+  brinely: Isdang tubig-alat
+  spotty: Isdang mabatik
   flopper: Flopper
   stripey: Stripey
   glitter: Kinang
   blockfish: Blockfish
   betty: Betty
-  clayfish: Clayfish
+  clayfish: Isdang luwad
 dye_color:
   white: Puti
   orange: Kahel
@@ -1422,7 +1603,9 @@ named:
   potion_with_amplifier: '%s %s'
   potion_with_duration: '%s (%s)'
   none_effects: Walang Epekto
+  unknown_enchantment: 'Di-kilalang gayuma: %s'
   unknown_entity: 'Hindi kilala entity: %s'
+  unknown_effect: 'Di-kilalang epekto: %s'
 tropical_fish_name:
   '117506305': Anemone
   '117899265': Itim na Tang
@@ -2120,7 +2303,7 @@ music_disk:
   music_disc_pigstep: Lena Raine - Pigstep
 new_banner_pattern:
   flower_banner_pattern: Bulakak na Charge
-  creeper_banner_pattern: Creeper Charge
+  creeper_banner_pattern: Kargang Kilabot
   skull_banner_pattern: Bungong Charge
   mojang_banner_pattern: Bagay
   globe_banner_pattern: Globo

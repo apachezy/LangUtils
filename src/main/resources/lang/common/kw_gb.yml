@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:48                    #
+# Build time: 2021-07-04 21:46:03                    #
 # ####################################################
 language:
   code: kw_gb
@@ -14,13 +14,20 @@ material:
   polished_diorite: Diorit Bolsys
   andesite: Andesit
   polished_andesite: Andesit Bolsys
+  deepslate: Downgyllas
+  cobbled_deepslate: Downgyllas Kaunsys
+  polished_deepslate: Downgyllas Polsys
+  calcite: Kalsit
+  tuff: Tuff
+  dripstone_block: Stock Men-Devera
   grass_block: Stock Gwels
   dirt: Dor
   coarse_dirt: Dor Garow
   podzol: Podsol
+  rooted_dirt: Dor gans Gwreydh
   crimson_nylium: Nylium Kogh
   warped_nylium: Nylium Koynt
-  cobblestone: Meyn
+  cobblestone: Men Kauns
   oak_planks: Estyl Dar
   spruce_planks: Estyl Sprus
   birch_planks: Estyl Besow
@@ -39,10 +46,67 @@ material:
   sand: Tewes
   red_sand: Tewes Rudh
   gravel: Grow
-  gold_ore: Moon Owr
-  iron_ore: Moon Horn
   coal_ore: Moon Glow
+  deepslate_coal_ore: Moon Glow Downgyllas
+  iron_ore: Moon Horn
+  deepslate_iron_ore: Moon Horn Downgyllas
+  copper_ore: Moon Kober
+  deepslate_copper_ore: Moon Kober Downgyllas
+  gold_ore: Moon Owr
+  deepslate_gold_ore: Moon Owr Downgyllas
+  redstone_ore: Moon Menrudh
+  deepslate_redstone_ore: Moon Menrudh Downgyllas
+  emerald_ore: Moon Gwerem
+  deepslate_emerald_ore: Moon Gwerem Downgyllas
+  lapis_ore: Moon Lapis
+  deepslate_lapis_ore: Moon Lapis Lazuli Downgyllas
+  diamond_ore: Moon Adamant
+  deepslate_diamond_ore: Moon Adamant Downgyllas
   nether_gold_ore: Moon Owr Nether
+  nether_quartz_ore: Moon Kanndir Nether
+  ancient_debris: Hen Atal
+  coal_block: Stock Glow
+  raw_iron_block: Stock a Horn Kriv
+  raw_copper_block: Stock a Gober Kriv
+  raw_gold_block: Stock a Owr Kriv
+  amethyst_block: Stock Amethyst
+  budding_amethyst: Amethyst ow Tevi
+  iron_block: Stock Horn
+  copper_block: Stock a Gober
+  gold_block: Stock Owr
+  diamond_block: Stock Adamant
+  netherite_block: Stock Netherit
+  exposed_copper: Kober Godewedhys
+  weathered_copper: Kober Tewedhys
+  oxidized_copper: Kober Gortewedhys
+  cut_copper: Kober Treghys
+  exposed_cut_copper: Kober Treghys Godewedhys
+  weathered_cut_copper: Kober Treghys Tewedhys
+  oxidized_cut_copper: Kober Treghys Gortewedhys
+  cut_copper_stairs: Grisyow Kober Treghys
+  exposed_cut_copper_stairs: Grisyow Kober Treghys Godewedhys
+  weathered_cut_copper_stairs: Grisyow Kober Treghys Tewedhys
+  oxidized_cut_copper_stairs: Grisyow Kober Treghys Gortewedhys
+  cut_copper_slab: Leghen Gober Treghys
+  exposed_cut_copper_slab: Leghen Gober Treghys Godewedhys
+  weathered_cut_copper_slab: Leghen Gober Treghys Tewedhys
+  oxidized_cut_copper_slab: Leghen Gober Treghys Gortewedhys
+  waxed_copper_block: Stock a Gober Korys
+  waxed_exposed_copper: Kober Korys Godewedhys
+  waxed_weathered_copper: Kober Korys Tewedhys
+  waxed_oxidized_copper: Kober Korys Oksidisys
+  waxed_cut_copper: Kober Treghys Korys
+  waxed_exposed_cut_copper: Kober Korys Treghys Godewedhys
+  waxed_weathered_cut_copper: Kober Korys Treghys Tewedhys
+  waxed_oxidized_cut_copper: Kober Korys Treghys Oksidisys
+  waxed_cut_copper_stairs: Grisyow Kober Treghys Korys
+  waxed_exposed_cut_copper_stairs: Grisyow Kober Korys Treghys Godewedhys
+  waxed_weathered_cut_copper_stairs: Grisyow Kober Treghys Korys Tewedhys
+  waxed_oxidized_cut_copper_stairs: Grisyow Kober Korys Treghys Oksidisys
+  waxed_cut_copper_slab: Leghen Gober Treghys Korys
+  waxed_exposed_cut_copper_slab: Leghen Gober Korys Treghys Godewedhys
+  waxed_weathered_cut_copper_slab: Leghen Gober Treghys Korys Tewedhys
+  waxed_oxidized_cut_copper_slab: Leghen Gober Korys Treghys Oksidisys
   oak_log: Kyf Dar
   spruce_log: Kyf Sprus
   birch_log: Kyf Besow
@@ -81,26 +145,24 @@ material:
   jungle_leaves: Del Gwylgos
   acacia_leaves: Del Akasia
   dark_oak_leaves: Del Dar Tewal
+  azalea_leaves: Del Azalea
+  flowering_azalea_leaves: Del Azalea ow Pleujyowa
   sponge: Spong
   wet_sponge: Spong Glyb
   glass: Gweder
-  lapis_ore: Moon Lapis
-  lapis_block: Stock Lapis
-  dispenser: Lesranner
+  tinted_glass: Gweder Arliwys
+  lapis_block: Stock Lapis Lazuli
   sandstone: Krag
   chiseled_sandstone: Krag Kervys
   cut_sandstone: Krag Treghys
-  note_block: Stock Noten
-  powered_rail: Hyns Horn Tredanek
-  detector_rail: Hyns Horn Helerghi
-  sticky_piston: Pyston Glusek
   cobweb: Gwias Kevnis
   grass: Gwels
   fern: Redenen
+  azalea: Azalea
+  flowering_azalea: Azalea ow Pleujyowa
   dead_bush: Prysken Varow
   seagrass: Gwels Mor
   sea_pickle: Pyckel Mor
-  piston: Pyston
   white_wool: Gwlan Gwynn
   orange_wool: Gwlan Rudhvelyn
   magenta_wool: Gwlan Majenta
@@ -130,6 +192,7 @@ material:
   cornflower: Glasik
   lily_of_the_valley: Losow an Hav
   wither_rose: Rosyn Wither
+  spore_blossom: Bleujen Spor
   brown_mushroom: Skavel Gronek Ell
   red_mushroom: Skavel Gronek Rudh
   crimson_fungus: Fong Kogh
@@ -141,9 +204,12 @@ material:
   twisting_vines: Gwinbrennyer Nedha
   sugar_cane: Gwelen Sugra
   kelp: Gommon
+  moss_carpet: Leurlen Gewni
+  moss_block: Stock a Gewni
+  hanging_roots: Gwreydh Kregi
+  big_dripleaf: Delen-Dhevera Bras
+  small_dripleaf: Delen-Dhevera Byghan
   bamboo: Kors Eynda
-  gold_block: Stock Owr
-  iron_block: Stock Horn
   oak_slab: Leghen Dhar
   spruce_slab: Leghen Sprus
   birch_slab: Leghen Vesow
@@ -157,7 +223,7 @@ material:
   sandstone_slab: Leghen Grag
   cut_sandstone_slab: Leghen Grag Treghys
   petrified_oak_slab: Leghen Dhar Menhes
-  cobblestone_slab: Leghen Veyn
+  cobblestone_slab: Leghen Ven Kauns
   brick_slab: Leghen Vryck
   stone_brick_slab: Leghen Vryck Men
   nether_brick_slab: Leghen Vryck Nether
@@ -173,41 +239,24 @@ material:
   smooth_sandstone: Krag Smodh
   smooth_stone: Men Smodh
   bricks: Bryckys
-  tnt: Dynamit
   bookshelf: Argh Lyvrow
-  mossy_cobblestone: Meyn Kewniek
+  mossy_cobblestone: Men Kauns Kewniek
   obsidian: Obsydyann
   torch: Faglen
-  end_rod: Gwelen an End
+  end_rod: Gwelen an Diwedh
   chorus_plant: Losowen Koros
-  chorus_flower: Bleujen Koros
+  chorus_flower: Bleujen Goros
   purpur_block: Stock Purpur
   purpur_pillar: Koloven Burpur
   purpur_stairs: Grisyow Purpur
   spawner: Bywher
   oak_stairs: Grisyow Dar
   chest: Kist
-  diamond_ore: Moon Adamant
-  diamond_block: Stock Adamant
   crafting_table: Moos Kreftya
   farmland: Bargen Tir
   furnace: Fog
   ladder: Skeul
-  rail: Hyns Horn
-  cobblestone_stairs: Grisyow Meyn
-  lever: Kolpes
-  stone_pressure_plate: Plat Gwaskedh Men
-  oak_pressure_plate: Plat Gwaskedh Dar
-  spruce_pressure_plate: Plat Gwaskedh Sprus
-  birch_pressure_plate: Plat Gwaskedh Besow
-  jungle_pressure_plate: Plat Gwaskedh Gwylgos
-  acacia_pressure_plate: Plat Gwaskedh Akasia
-  dark_oak_pressure_plate: Plat Gwaskedh Dar Tewal
-  crimson_pressure_plate: Plat Gwaskedh Kogh
-  warped_pressure_plate: Gwaskleghen Goynt
-  polished_blackstone_pressure_plate: Plat Gwaskedh Men Du Polsys
-  redstone_ore: Moon Menrudh
-  redstone_torch: Faglen Menrudh
+  cobblestone_stairs: Grisyow Men Kauns
   snow: Ergh
   ice: Rew
   snow_block: Stock Ergh
@@ -224,32 +273,31 @@ material:
   warped_fence: Ke Koynt
   pumpkin: Pompyon
   carved_pumpkin: Pompyon Kervys
-  netherrack: Netherrack
+  jack_o_lantern: Lugarn Pompyon
+  netherrack: Yfarngarrek
   soul_sand: Tewes Enev
   soul_soil: Dor Enev
   basalt: Pyllargarrek
   polished_basalt: Pyllargarrek Bolsys
+  smooth_basalt: Pyllargarrek Smodh
   soul_torch: Faglen Enev
   glowstone: Men Splann
-  jack_o_lantern: Lugarn Pompyon
-  oak_trapdoor: Lo an Jowl Dar
-  spruce_trapdoor: Lo an Jowl Sprus
-  birch_trapdoor: Lo an Jowl Besow
-  jungle_trapdoor: Lo an Jowl Gwylgos
-  acacia_trapdoor: Lo an Jowl Akasia
-  dark_oak_trapdoor: Lo an Jowl Dar Tewal
-  crimson_trapdoor: Lo an Jowl Kogh
-  warped_trapdoor: Lo an Jowl Koynt
   infested_stone: Men Pla
-  infested_cobblestone: Meyn Pla
+  infested_cobblestone: Men Kauns Plagys
   infested_stone_bricks: Bryckys Men Pla
   infested_mossy_stone_bricks: Bryckys Men Pla Kewniek
   infested_cracked_stone_bricks: Bryckys Men Pla Krackys
   infested_chiseled_stone_bricks: Bryckys Men Pla Gennys
+  infested_deepslate: Downgyllas Plagys
   stone_bricks: Bryckys Men
   mossy_stone_bricks: Bryckys Men Kewniek
   cracked_stone_bricks: Bryckys Men Krackys
   chiseled_stone_bricks: Bryckys Meyn Kervys
+  deepslate_bricks: Bryckys Downgyllas
+  cracked_deepslate_bricks: Bryckys Downgyllas Krackys
+  deepslate_tiles: Prilegh Downgyllas
+  cracked_deepslate_tiles: Prilegh Downgyllas Krackys
+  chiseled_deepslate: Downgyllas Kervys
   brown_mushroom_block: Stock Skavel Gronek Ell
   red_mushroom_block: Stock Skavel Gronek Rudh
   mushroom_stem: Garen Skavel Gronek
@@ -258,33 +306,23 @@ material:
   glass_pane: Kwarel
   melon: Pompyon Hweg
   vine: Gwinbrennyer
-  oak_fence_gate: Yet Ke Dar
-  spruce_fence_gate: Yet Ke Sprus
-  birch_fence_gate: Yet Ke Besow
-  jungle_fence_gate: Yet Ke Prenn Gwylgos
-  acacia_fence_gate: Yet Ke Akasia
-  dark_oak_fence_gate: Yet Ke Dar Tewal
-  crimson_fence_gate: Yet Ke Kogh
-  warped_fence_gate: Yet Ke Koynt
+  glow_lichen: Fongalgi-Splanna
   brick_stairs: Grisyow Bryck
   stone_brick_stairs: Grisyow Bryck Men
-  mycelium: Mycelium
+  mycelium: Towargh Tewl
   lily_pad: Padyn Lili
   nether_bricks: Bryckys Nether
   cracked_nether_bricks: Bryckys Nether Krackys
   chiseled_nether_bricks: Bryckys Nether Kervys
-  nether_brick_fence: Ke Bryck Nether
-  nether_brick_stairs: Grisyow Bryck Nether
+  nether_brick_fence: Ke Bryckys Yfarngarrek
+  nether_brick_stairs: Grisyow Vryckys Yfarngarrek
   enchanting_table: Moos Hus
   end_portal_frame: Fram Porth an End
   end_stone: Men an Diwedh
-  end_stone_bricks: Bryckys Men an End
+  end_stone_bricks: Bryckys Men an Diwedh
   dragon_egg: Oy Dragon
-  redstone_lamp: Lugarn Menrudh
   sandstone_stairs: Grisyow Krag
-  emerald_ore: Moon Gwerem
   ender_chest: Kist an Diwedh
-  tripwire_hook: Higen rag Gwivren
   emerald_block: Stock Gwerem
   spruce_stairs: Grisyow Sprus
   birch_stairs: Grisyow Besow
@@ -293,8 +331,8 @@ material:
   warped_stairs: Grisyow Koynt
   command_block: Stock Gorhemmyn
   beacon: Golowva
-  cobblestone_wall: Fos Meyn
-  mossy_cobblestone_wall: Fos Meyn Kewniek
+  cobblestone_wall: Fos Men Kauns
+  mossy_cobblestone_wall: Fos Men Kauns Kewniek
   brick_wall: Fos Bryck
   prismarine_wall: Fos Prismarin
   red_sandstone_wall: Fos Krag Rudh
@@ -305,38 +343,23 @@ material:
   andesite_wall: Fos Andesit
   red_nether_brick_wall: Fos Bryck Nether Rudh
   sandstone_wall: Fos Krag
-  end_stone_brick_wall: Fos Bryck Men an End
+  end_stone_brick_wall: Fos Bryck Men an Diwedh
   diorite_wall: Fos Diorit
   blackstone_wall: Fos Ven Du
   polished_blackstone_wall: Fos Ven Du Polsys
   polished_blackstone_brick_wall: Fos Vryck Men Du Polsys
-  stone_button: Boton Men
-  oak_button: Boton Dar
-  spruce_button: Boton Sprus
-  birch_button: Boton Besow
-  jungle_button: Boton Gwylgos
-  acacia_button: Boton Akasia
-  dark_oak_button: Boton Dar Tewal
-  crimson_button: Boton Kogh
-  warped_button: Boton Koynt
-  polished_blackstone_button: Boton Mendhu Polsys
+  cobbled_deepslate_wall: Fos Downgyllas Kaunsys
+  polished_deepslate_wall: Fos Downgyllas Polsys
+  deepslate_brick_wall: Fos Bryck Downgyllas
+  deepslate_tile_wall: Fos Prilegh Downgyllas
   anvil: Anwan
-  chipped_anvil: Anwan Askloesys
+  chipped_anvil: Anwan Asklosys
   damaged_anvil: Anwan Kisys
-  trapped_chest: Kist gans Maglen
-  light_weighted_pressure_plate: Plat Gwaskedh Skav
-  heavy_weighted_pressure_plate: Plat Gwaskedh Poos
-  daylight_detector: Sensour Golow an Howl
-  redstone_block: Stock Menrudh
-  nether_quartz_ore: Moon Kanndir Nether
-  hopper: Funnel
   chiseled_quartz_block: Stock Kanndir Kervys
   quartz_block: Stock Kanndir
   quartz_bricks: Bryckys Kanndir
   quartz_pillar: Koloven Ganndir
   quartz_stairs: Grisyow Kanndir
-  activator_rail: Hyns Horn Bywhe
-  dropper: Droppyer
   white_terracotta: Pri Pebys Gwynn
   orange_terracotta: Pri Pebys Rudhvelyn
   magenta_terracotta: Pri Pebys Majenta
@@ -354,7 +377,7 @@ material:
   red_terracotta: Pri Pebys Rudh
   black_terracotta: Pri Pebys Du
   barrier: Lett
-  iron_trapdoor: Lo an Jowl Horn
+  light: Golow
   hay_block: Pusorn a Wora
   white_carpet: Leurlen Wynn
   orange_carpet: Leurlen Rudhvelyn
@@ -373,16 +396,14 @@ material:
   red_carpet: Leurlen Rudh
   black_carpet: Leurlen Dhu
   terracotta: Pri Pebys
-  coal_block: Stock Glow
   packed_ice: Rew Kales
   acacia_stairs: Grisyow Akasia
   dark_oak_stairs: Grisyow Dar Tewal
-  slime_block: Stock Leys
-  grass_path: Hyns Gwels
+  dirt_path: Hyns Dor
   sunflower: Bleujen an Howl
   lilac: Bleujen Lilac
   rose_bush: Prysken Ros
-  peony: Rosen Menydh
+  peony: Rosen Venydh
   tall_grass: Gwels Hir
   large_fern: Redenen Vras
   white_stained_glass: Gweder Nammys Gwynn
@@ -431,12 +452,11 @@ material:
   repeating_command_block: Stock Gorhemmyn Daswul
   chain_command_block: Stock Gorhemmyn Chayn
   magma_block: Stock Magma
-  nether_wart_block: Stock Losow Nether
+  nether_wart_block: Stock Losow an Yfarn
   warped_wart_block: Stock a Losow Koynt
   red_nether_bricks: Bryckys Nether Rudh
   bone_block: Stock Askorn
-  structure_void: Stock Gwag
-  observer: Mirer
+  structure_void: Gwagle Strethur
   shulker_box: Boks Shulker
   white_shulker_box: Boks Shulker Gwynn
   orange_shulker_box: Boks Shulker Rudhvelyn
@@ -539,8 +559,8 @@ material:
   smooth_red_sandstone_stairs: Grisyow Krag Rudh Smodh
   mossy_stone_brick_stairs: Grisyow Bryck Men Kewniek
   polished_diorite_stairs: Grisyow Diorit Polsys
-  mossy_cobblestone_stairs: Grisyow Meyn Kewniek
-  end_stone_brick_stairs: Grisyow Bryck Men an End
+  mossy_cobblestone_stairs: Grisyow Men Kauns Kewniek
+  end_stone_brick_stairs: Grisyow Bryck Men an Diwedh
   stone_stairs: Grisyow Men
   smooth_sandstone_stairs: Grisyow Krag Smodh
   smooth_quartz_stairs: Grisyow Kanndir Smodh
@@ -549,12 +569,16 @@ material:
   red_nether_brick_stairs: Grisyow Bryck Nether Rudh
   polished_andesite_stairs: Grisyow Andesit Polsys
   diorite_stairs: Grisyow Diorit
+  cobbled_deepslate_stairs: Grisyow Downgyllas Kaunsys
+  polished_deepslate_stairs: Grisyow Downgyllas Polsys
+  deepslate_brick_stairs: Grisyow Bryckys Downgyllas
+  deepslate_tile_stairs: Grisyow Prilegh Downgyllas
   polished_granite_slab: Leghen Wrowan Polsys
   smooth_red_sandstone_slab: Leghen Grag Rudh Smodh
   mossy_stone_brick_slab: Leghen Vryck Men Kewniek
   polished_diorite_slab: Leghen Dhiorit Polsys
-  mossy_cobblestone_slab: Leghen Veyn Kewniek
-  end_stone_brick_slab: Leghen Vryck Men an End
+  mossy_cobblestone_slab: Leghen Ven Kauns Kewniek
+  end_stone_brick_slab: Leghen Vryck Men an Diwedh
   smooth_sandstone_slab: Leghen Grag Smodh
   smooth_quartz_slab: Leghen Ganndir Smodh
   granite_slab: Leghen Wrowan
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: Leghen Bryck Nether Rudh
   polished_andesite_slab: Leghen Andesit Polsys
   diorite_slab: Leghen Dhiorit
+  cobbled_deepslate_slab: Leghen Dhowngyllas Kaunsys
+  polished_deepslate_slab: Leghen Dhowngyllas Polsys
+  deepslate_brick_slab: Leghen Vryck Downgyllas
+  deepslate_tile_slab: Leghen Brilegh Downgyllas
   scaffolding: Mynk
+  redstone: Ponn Menrudh
+  redstone_torch: Faglen Menrudh
+  redstone_block: Stock Menrudh
+  repeater: Daswrier Men Rudh
+  comparator: Komparyer Men Rudh
+  piston: Pyston
+  sticky_piston: Pyston Glusek
+  slime_block: Stock Leys
+  honey_block: Stock Mel
+  observer: Mirer
+  hopper: Funnel
+  dispenser: Lesrannell
+  dropper: Droppyer
+  lectern: Lennva
+  target: Kosten
+  lever: Kolpes
+  lightning_rod: Gwelen Lughes
+  daylight_detector: Sensour Golow an Howl
+  sculk_sensor: Sensour Sculk
+  tripwire_hook: Higen rag Gwivren
+  trapped_chest: Kist gans Maglen
+  tnt: Dynamit
+  redstone_lamp: Lugarn Menrudh
+  note_block: Stock Noten
+  stone_button: Boton Men
+  polished_blackstone_button: Boton Mendhu Polsys
+  oak_button: Boton Dar
+  spruce_button: Boton Sprus
+  birch_button: Boton Besow
+  jungle_button: Boton Gwylgos
+  acacia_button: Boton Akasia
+  dark_oak_button: Boton Dar Tewal
+  crimson_button: Boton Kogh
+  warped_button: Boton Koynt
+  stone_pressure_plate: Plat Gwaskedh Men
+  polished_blackstone_pressure_plate: Plat Gwaskedh Men Du Polsys
+  light_weighted_pressure_plate: Plat Gwaskedh Skav
+  heavy_weighted_pressure_plate: Plat Gwaskedh Poos
+  oak_pressure_plate: Plat Gwaskedh Dar
+  spruce_pressure_plate: Plat Gwaskedh Sprus
+  birch_pressure_plate: Plat Gwaskedh Besow
+  jungle_pressure_plate: Plat Gwaskedh Gwylgos
+  acacia_pressure_plate: Plat Gwaskedh Akasia
+  dark_oak_pressure_plate: Plat Gwaskedh Dar Tewal
+  crimson_pressure_plate: Plat Gwaskedh Kogh
+  warped_pressure_plate: Gwaskleghen Goynt
   iron_door: Daras Horn
   oak_door: Daras Dar
   spruce_door: Daras Sprus
@@ -572,8 +646,42 @@ material:
   dark_oak_door: Daras Dar Tewal
   crimson_door: Daras Kogh
   warped_door: Daras Koynt
-  repeater: Daswrier Redstone
-  comparator: Komparyer Redstone
+  iron_trapdoor: Lo an Jowl Horn
+  oak_trapdoor: Lo an Jowl Dar
+  spruce_trapdoor: Lo an Jowl Sprus
+  birch_trapdoor: Lo an Jowl Besow
+  jungle_trapdoor: Lo an Jowl Gwylgos
+  acacia_trapdoor: Lo an Jowl Akasia
+  dark_oak_trapdoor: Lo an Jowl Dar Tewal
+  crimson_trapdoor: Lo an Jowl Kogh
+  warped_trapdoor: Lo an Jowl Koynt
+  oak_fence_gate: Yet Ke Dar
+  spruce_fence_gate: Yet Ke Sprus
+  birch_fence_gate: Yet Ke Besow
+  jungle_fence_gate: Yet Ke Prenn Gwylgos
+  acacia_fence_gate: Yet Ke Akasia
+  dark_oak_fence_gate: Yet Ke Dar Tewal
+  crimson_fence_gate: Yet Ke Kogh
+  warped_fence_gate: Yet Ke Koynt
+  powered_rail: Hyns Horn Tredanek
+  detector_rail: Hyns Horn Helerghi
+  rail: Hyns Horn
+  activator_rail: Hyns Horn Bywhe
+  saddle: Diber
+  minecart: Balgert
+  chest_minecart: Balgert gans Argh
+  furnace_minecart: Balkert gans Fog
+  tnt_minecart: Balgert gans Dynamit
+  hopper_minecart: Balgert gans Korn Denewi
+  carrot_on_a_stick: Karetysen war Gwelen
+  warped_fungus_on_a_stick: Fong Koynt war Welen
+  elytra: Elytra
+  oak_boat: Skath Dar
+  spruce_boat: Skath Sprus
+  birch_boat: Skath Besow
+  jungle_boat: Skath Gwylgos
+  acacia_boat: Skath Akasia
+  dark_oak_boat: Skath Dar Tewal
   structure_block: Stock Strethur
   jigsaw: Stock Mildam
   turtle_helmet: Krogen Vorgroban
@@ -585,7 +693,15 @@ material:
   coal: Glow
   charcoal: Glowbren
   diamond: Adamant
+  emerald: Gwerem
+  lapis_lazuli: Lapis
+  quartz: Kanndir Nether
+  amethyst_shard: Darn Amethyst
+  raw_iron: Horn Kriv
   iron_ingot: Etewyk Horn
+  raw_copper: Kober Kriv
+  copper_ingot: Etewyk Kober
+  raw_gold: Owr Kriv
   gold_ingot: Etewyk Owr
   netherite_ingot: Etewik Netherit
   netherite_scrap: Tamm Netherit
@@ -606,7 +722,7 @@ material:
   golden_hoe: Kravell Owr
   iron_sword: Kledha Horn
   iron_shovel: Pal Horn
-  iron_pickaxe: Pigel Horn
+  iron_pickaxe: Pigell Horn
   iron_axe: Bool Horn
   iron_hoe: Kravell Horn
   diamond_sword: Kledha Adamant
@@ -669,29 +785,27 @@ material:
   bucket: Kelorn
   water_bucket: Kelorn Dowr
   lava_bucket: Kelorn Lava
-  minecart: Balgert
-  saddle: Diber
-  redstone: Ponn Menrudh
+  powder_snow_bucket: Kelorn Ergh Poltrus
   snowball: Pel Ergh
-  oak_boat: Skath Dar
   leather: Ledher
   milk_bucket: Kelorn Leth
   pufferfish_bucket: Kelorn Hwythpysk
   salmon_bucket: Kelorn Eghek
   cod_bucket: Kelorn Barvus
   tropical_fish_bucket: Kelorn Pysk Trovannel
+  axolotl_bucket: Kelorn Aksolotl
   brick: Bryck
   clay_ball: Pel Bri
   dried_kelp_block: Stock Gommon Seghys
   paper: Paper
   book: Lyver
   slime_ball: Leyspel
-  chest_minecart: Balgert hag Argh
-  furnace_minecart: Balgert ha Fog
   egg: Oy
   compass: Mornaswydh
-  fishing_rod: Gwelen Byskessa
+  bundle: Gronn
+  fishing_rod: Gwelen-Byskessa
   clock: Klock
+  spyglass: Gweder Aspia
   glowstone_dust: Ponn Men Splann
   cod: Barvus Kriv
   salmon: Eghek Kriv
@@ -700,8 +814,8 @@ material:
   cooked_cod: Barvus Keginys
   cooked_salmon: Eghek Keginys
   ink_sac: Sagh Ynk
+  glow_ink_sac: Sagh Ynk-Splanna
   cocoa_beans: Fav Kokoa
-  lapis_lazuli: Lapis
   white_dye: Liw Gwynn
   orange_dye: Liw Rudhvelyn
   magenta_dye: Liw Majenta
@@ -754,22 +868,23 @@ material:
   blaze_rod: Gwelen Dan
   ghast_tear: Dager Tarosvan
   gold_nugget: Tamm Owr
-  nether_wart: Losowen Nether
+  nether_wart: Losowen an Yfarn
   potion: Ismegen
   glass_bottle: Botel Gweder
-  spider_eye: Lagas Kevnis
-  fermented_spider_eye: Lagas Kevnis Fermentys
+  spider_eye: Lagas Kevnisen
+  fermented_spider_eye: Lagas Kevnisen Fermentys
   blaze_powder: Ponn Tan
   magma_cream: Dehen Magma
   brewing_stand: Sav Braga
   cauldron: Chek
-  ender_eye: Lagas an Ender
+  ender_eye: Lagas Den an Diwedh
   glistering_melon_slice: Tregh Pompyon Hweg Splann
+  axolotl_spawn_egg: Oy Bywhe Aksolotl
   bat_spawn_egg: Oy Bywhe Askel Groghen
   bee_spawn_egg: Oy Bywhe Gwenenen
   blaze_spawn_egg: Oy Bywhe Tarosvan Tan
   cat_spawn_egg: Oy Bywhe Kath
-  cave_spider_spawn_egg: Oy Bywhe Kevnisen Kav
+  cave_spider_spawn_egg: Oy Bywhe Kevnisen Gav
   chicken_spawn_egg: Oy Bywhe Yar
   cod_spawn_egg: Oy Bywhe Barvus
   cow_spawn_egg: Oy Bywhe Bugh
@@ -778,18 +893,20 @@ material:
   donkey_spawn_egg: Oy Bywhe Asen
   drowned_spawn_egg: Oy Bywhe Zombi Beudhys
   elder_guardian_spawn_egg: Oy Bywhe Gwithyas Koth
-  enderman_spawn_egg: Oy Bywhe Enderman
+  enderman_spawn_egg: Oy Bywhe Den an Diwedh
   endermite_spawn_egg: Oy Bywhe Endermite
   evoker_spawn_egg: Oy Bywhe Sordyer
   fox_spawn_egg: Oy Bywhe Lowarn
   ghast_spawn_egg: Oy Bywhe Tarosvan
+  glow_squid_spawn_egg: Oy Bywhe Stifek-Splanna
+  goat_spawn_egg: Oy Bywhe Gaver
   guardian_spawn_egg: Oy Bywhe Gwithyas
   hoglin_spawn_egg: Oy Bywhe Hoglin
   horse_spawn_egg: Oy Bywhe Margh
   husk_spawn_egg: Oy Bywhe Krogen Wag
   llama_spawn_egg: Oy Bywhe Llama
   magma_cube_spawn_egg: Oy Bywhe Kub Lava
-  mooshroom_spawn_egg: Oy Bywhe Mooshroom
+  mooshroom_spawn_egg: Oy Bywhe Bughshroom
   mule_spawn_egg: Oy Bywhe Mul
   ocelot_spawn_egg: Oy Bywhe Kath Wyls
   panda_spawn_egg: Oy Bywhe Panda
@@ -833,8 +950,8 @@ material:
   fire_charge: Diskargans Tan
   writable_book: Lyver ha Pluven
   written_book: Lyver Skrifys
-  emerald: Gwerem
   item_frame: Fram
+  glow_item_frame: Fram-Splanna
   flower_pot: Pott
   carrot: Karetysen
   potato: Aval Dor
@@ -846,19 +963,14 @@ material:
   wither_skeleton_skull: Klopen Wither
   player_head: Penn Gwarier
   zombie_head: Penn Zombi
-  creeper_head: Penn Creeper
+  creeper_head: Penn Kreeper
   dragon_head: Penn Dragon
-  carrot_on_a_stick: Karetysen war Gwelen
-  warped_fungus_on_a_stick: Fong Koynt war Welen
   nether_star: Steren Nether
   pumpkin_pie: Hogen Bompyon
-  firework_rocket: Tanweyth
+  firework_rocket: Fusen Danweythen
   firework_star: Steren Tanweyth
   enchanted_book: Lyver gans Hus
   nether_brick: Bryckys Nether
-  quartz: Kanndir Nether
-  tnt_minecart: Balgert ha Dynamit
-  hopper_minecart: Balgert ha Funnel
   prismarine_shard: Tamm Prismarin
   prismarine_crystals: Gwrysow Prismarin
   rabbit: Kig Konin Kriv
@@ -892,9 +1004,9 @@ material:
   green_banner: Baner Gwyrdh
   red_banner: Baner Rudh
   black_banner: Baner Du
-  end_crystal: Gwrys an End
-  chorus_fruit: Frothen Koros
-  popped_chorus_fruit: Frothen Koros Poppys
+  end_crystal: Gwrys an Diwedh
+  chorus_fruit: Frothen Goros
+  popped_chorus_fruit: Frothen Goros Poppys
   beetroot: Betysen Rudh
   beetroot_seeds: Has Betys Rudh
   beetroot_soup: Kowl Betys
@@ -904,16 +1016,10 @@ material:
   tipped_arrow: Seth gans Bleyn
   lingering_potion: Ismegen Dhidorr
   shield: Skoos
-  elytra: Elytra
-  spruce_boat: Skath Sprus
-  birch_boat: Skath Besow
-  jungle_boat: Skath Gwylgos
-  acacia_boat: Skath Akasia
-  dark_oak_boat: Skath Dar Tewal
   totem_of_undying: Ikon Dasserghyans
   shulker_shell: Krogen Shulker
   iron_nugget: Tamm Horn
-  knowledge_book: Lyver an Skians
+  knowledge_book: Lyver Skians
   debug_stick: Gwelen Dhibryv
   music_disc_13: Plasen Ilow
   music_disc_cat: Plasen Ilow
@@ -945,29 +1051,25 @@ material:
   barrel: Balyer
   smoker: Megell
   blast_furnace: Fog Hwyth
-  cartography_table: Moos Mappa
+  cartography_table: Moos Vappa
   fletching_table: Moos Sethweyth
   grindstone: Men Mala
-  lectern: Lennva
   smithing_table: Moos Gov
   stonecutter: Treghell Ven
   bell: Klogh
   lantern: Lugarn
   soul_lantern: Lugarn Enev
   sweet_berries: Moren Hweg
+  glow_berries: Moren-Splanna
   campfire: Tan Kamp
   soul_campfire: Tan Kamp Enev
   shroomlight: Golow-shroom
   honeycomb: Kriben vel
-  bee_nest: Neyth gwenen
+  bee_nest: Neyth Gwenen
   beehive: Kowel Gwenen
   honey_bottle: Botel Mel
-  honey_block: Stock Mel
   honeycomb_block: Stock Kriben Vel
   lodestone: Tenven
-  netherite_block: Stock Netherit
-  ancient_debris: Hen Atal
-  target: Kosten
   crying_obsidian: Obsydyann Ola
   blackstone: Men Du
   blackstone_slab: Leghen Vendhu
@@ -982,6 +1084,28 @@ material:
   polished_blackstone_brick_stairs: Grisyow Bryck Men Du Polsys
   cracked_polished_blackstone_bricks: Bryckys Men Du Polsys Krackys
   respawn_anchor: Ankor Dasserghi
+  candle: Kantol
+  white_candle: Kantol Wynn
+  orange_candle: Kantol Rudhvelyn
+  magenta_candle: Kantol Vajenta
+  light_blue_candle: Kantol Laswynn
+  yellow_candle: Kantol Velyn
+  lime_candle: Kantol Wyrdhwynn
+  pink_candle: Kantol Rudhwynn
+  gray_candle: Kantol Loos
+  light_gray_candle: Kantol Wynnloos
+  cyan_candle: Kantol Laswyrdh
+  purple_candle: Kantol Burpur
+  blue_candle: Kantol Las
+  brown_candle: Kantol Ell
+  green_candle: Kantol Wyrdh
+  red_candle: Kantol Rudh
+  black_candle: Kantol Dhu
+  small_amethyst_bud: Egyn Amethyst Byghan
+  medium_amethyst_bud: Egyn Amethyst Kres
+  large_amethyst_bud: Egyn Amethyst Bras
+  amethyst_cluster: Bush Amethyst
+  pointed_dripstone: Men-Devera Bleynek
   water: Dowr
   lava: Lava
   tall_seagrass: Gwels Mor Hir
@@ -1004,6 +1128,9 @@ material:
   attached_melon_stem: Garen Bompyon Hweg Stag
   pumpkin_stem: Garen Bompyon
   melon_stem: Garen Bompyon Hweg
+  water_cauldron: Chek Dowr
+  lava_cauldron: Chek Lava
+  powder_snow_cauldron: Chek gans Ergh Poltrus
   end_portal: Porth an Diwedh
   cocoa: Kokoa
   tripwire: Gwivren
@@ -1083,6 +1210,30 @@ material:
   potted_warped_fungus: Fong Koynt yn Pott
   potted_crimson_roots: Gwreydh Kogh yn Pott
   potted_warped_roots: Gwreydh Koynt yn Pott
+  candle_cake: Tesen gans Kantol
+  white_candle_cake: Tesen gans Kantol Wynn
+  orange_candle_cake: Tesen gans Kantol Rudhvelyn
+  magenta_candle_cake: Tesen gans Kantol Vajenta
+  light_blue_candle_cake: Tesen gans Kantol Laswyn
+  yellow_candle_cake: Tesen gans Kantol Velyn
+  lime_candle_cake: Tesen gans Kantol Wyrdhwyn
+  pink_candle_cake: Tesen gans Kantol Rudhwyn
+  gray_candle_cake: Tesen gans Kantol Loos
+  light_gray_candle_cake: Tesen gans Kantol Wynnlos
+  cyan_candle_cake: Tesen gans Kantol Laswyrdh
+  purple_candle_cake: Tesen gans Kantol Burpur
+  blue_candle_cake: Tesen gans Kantol Las
+  brown_candle_cake: Tesen gans Kantol Ell
+  green_candle_cake: Tesen gans Kantol Wyrdh
+  red_candle_cake: Tesen gans Kantol Rudh
+  black_candle_cake: Tesen gans Kantol Dhu
+  powder_snow: Ergh Poltrus
+  cave_vines: Gwinbrennyer Kav
+  cave_vines_plant: Plans Gwinbrennyer Kav
+  big_dripleaf_stem: Garen Dhelen-Dhevera Bras
+  potted_azalea_bush: Azalea yn Pott
+  potted_flowering_azalea_bush: Azalea yn Pott ow Pleujyowa
+  grass_path: Hyns Gwels
   zombie_pigman_spawn_egg: Oy Bywhe Denvogh Zombi
   cactus_green: Gwyrdh Kaktus
   dandelion_yellow: Melyn Dans Lew
@@ -1168,46 +1319,48 @@ biome:
   crimson_forest: Koos Kogh
   warped_forest: Koos Koynt
   basalt_deltas: Delta Pyllargarrek
+  dripstone_caves: Kavyow Men-Devera
+  lush_caves: Gogowyow Rych
   nether: Nether
 enchantment:
-  fire_protection: Difresyans rag Tan
-  sharpness: Tynnder
-  flame: Flamm
-  soul_speed: Tooth Enev
-  aqua_affinity: Hegaredh Dowr
-  punch: Hwaff
-  loyalty: Lelder
-  depth_strider: Hirgammer Downder
-  vanishing_curse: Molleth Vansya
-  unbreaking: Disderri
-  knockback: Herdhya
-  luck_of_the_sea: Chons an Mor
-  binding_curse: Molleth Kelmi
-  fortune: Fortun
   protection: Difresyans
-  efficiency: Effeythadewder
-  mending: Ewna
-  frost_walker: Kerdher Rew
-  lure: Dynya
-  looting: Preydha
-  piercing: Gwana
-  blast_protection: Difresyans rag Tardhow
-  smite: Kessydhya
-  multishot: Liestenn
-  fire_aspect: Hus Tan
-  channeling: Dover Lughes
-  sweeping: Hakkya Efan
-  thorns: Spern
-  bane_of_arthropods: Diswrians Kevnis
-  respiration: Anella
-  riptide: Mordid Skwardya
-  silk_touch: Toch Owrlin
-  quick_charge: Tenna Uskis
-  projectile_protection: Difresyans rag Towlyn
-  impaling: Lons
+  fire_protection: Difresyans rag Tan
   feather_falling: Difresyans rag Kodh
+  blast_protection: Difresyans rag Tardhow
+  projectile_protection: Difresyans rag Towlyn
+  respiration: Anella
+  aqua_affinity: Hegaredh Dowr
+  thorns: Spern
+  depth_strider: Hirgammer Downder
+  frost_walker: Kerdher Rew
+  binding_curse: Molleth Kelmi
+  sharpness: Tynnder
+  smite: Kessydhya
+  bane_of_arthropods: Diswrians Kevnis
+  knockback: Herdhya
+  fire_aspect: Hus Tan
+  looting: Preydha
+  sweeping: Hakkya Efan
+  efficiency: Effeythadewder
+  silk_touch: Toch Owrlin
+  unbreaking: Disderri
+  fortune: Fortun
   power: Nerth
+  punch: Hwaff
+  flame: Flamm
   infinity: Didhiwedhter
+  luck_of_the_sea: Chons an Mor
+  lure: Dynya
+  loyalty: Lelder
+  impaling: Lons
+  riptide: Mordid Skwardya
+  channeling: Dover Lughes
+  multishot: Liestenn
+  quick_charge: Tenna Uskis
+  piercing: Gwana
+  mending: Ewna
+  vanishing_curse: Molleth Vansya
+  soul_speed: Tooth Enev
 potion:
   uncraftable: Ismegen Ankreftyadow
   water: Botel Dowr
@@ -1297,28 +1450,28 @@ tipped_arrow:
   turtle_master: Seth Arlodh an Morgroban
   slow_falling: Seth Kodh Lent
 entity:
-  dropped_item: Tra
+  dropped_item: Taklen
   experience_orb: Pel Brevyans
   area_effect_cloud: Kommol Effeyth Arenebedh
   elder_guardian: Gwithyas Koth
-  wither_skeleton: Korf Eskern Wither
+  wither_skeleton: Korf Eskern Gwedhrys
   stray: Kellys
-  egg: Oy Towlys
+  egg: Oy Tewlys
   leash_hitch: Kolm Lesh
-  painting: Liwyans
+  painting: Lymnans
   arrow: Seth
   snowball: Pel Ergh
   fireball: Pel Dan
   small_fireball: Pel Dan Byghan
-  ender_pearl: Perl Ender Towlys
-  ender_signal: Lagas an Ender
+  ender_pearl: Perl Ender Tewlys
+  ender_signal: Lagas Den an Diwedh
   splash_potion: Ismegen
-  thrown_exp_bottle: Botel a Hus Towlys
+  thrown_exp_bottle: Botel a Hus Tewlys
   item_frame: Fram
-  wither_skull: Klopen Penn Wither
+  wither_skull: Klopen Penn Gwedhrys
   primed_tnt: Dynamit parys
   falling_block: Stock ow Kodha
-  firework: Tanweyth
+  firework: Fusen Tanweythen
   husk: Krogen Wag
   spectral_arrow: Seth Tarosvannus
   shulker_bullet: Pellen Shulker
@@ -1338,11 +1491,11 @@ entity:
   boat: Skath
   minecart: Balgert
   minecart_chest: Balgert hag Kist
-  minecart_furnace: Balgert ha Fog
-  minecart_tnt: Balgert ha Dynamit
+  minecart_furnace: Balgert gans Fog
+  minecart_tnt: Balgert gans Dynamit
   minecart_hopper: Balgert ha Funnel
-  minecart_mob_spawner: Balgert ha Bywher
-  creeper: Creeper
+  minecart_mob_spawner: Balgert gans Bywher
+  creeper: Kreeper
   skeleton: Korf Eskern
   spider: Kevnisen
   giant: Kowr
@@ -1350,14 +1503,14 @@ entity:
   slime: Leys
   ghast: Tarosvan
   zombified_piglin: Piglin Zombi
-  enderman: Enderman
-  cave_spider: Kevnis Kav
+  enderman: Den an Diwedh
+  cave_spider: Kevnisen Gav
   silverfish: Pysk Arghans
   blaze: Tarosvan Tan
   magma_cube: Kub Lava
-  ender_dragon: Dragon an End
+  ender_dragon: Dragon an Diwedh
   wither: Wither
-  bat: Askell Groghen
+  bat: Askel Groghen
   witch: Gwragh
   endermite: Endermite
   guardian: Gwithyas
@@ -1368,7 +1521,7 @@ entity:
   chicken: Yar
   squid: Stifek
   wolf: Bleydh
-  mushroom_cow: Mooshroom
+  mushroom_cow: Bughshroom
   snowman: Golem Ergh
   ocelot: Kath Jangal
   iron_golem: Golem Horn
@@ -1402,6 +1555,11 @@ entity:
   strider: Hirgammer
   zoglin: Zoglin
   piglin_brute: Bilen Piglin
+  axolotl: Aksolotl
+  glow_item_frame: Fram-Splanna
+  glow_squid: Stifek-Splanna
+  goat: Gaver
+  marker: Merkyer
   fishing_hook: Neuvell
   lightning: Lughesen
   player: Gwarier
@@ -1442,7 +1600,7 @@ effect:
 tropical_fish_type:
   kob: Kob
   sunstreak: Brith Bryntin
-  snooper: Snooper
+  snooper: Snoupyer
   dasher: Fyskpysk
   brinely: Hyliek
   spotty: Nammys
@@ -1451,7 +1609,7 @@ tropical_fish_type:
   glitter: Dewynnek
   blockfish: Stockbysk
   betty: Betty
-  clayfish: Pripysk
+  clayfish: Pribysk
 dye_color:
   white: Gwynn
   orange: Rudhvelyn
@@ -2201,17 +2359,3 @@ villager_profession:
   shepherd: Bugel
   toolsmith: Gov Toul
   weaponsmith: Gov Arv
-villager_career:
-  farmer: Tiek
-  fisherman: Pyskador
-  shepherd: Bugel
-  fletcher: Gwareger
-  librarian: Lyveryas
-  cartographer: Den an Vappow
-  cleric: Klorek
-  armorer: Den an Arvwisk
-  weapon_smith: Gov an Arvow
-  tool_smith: Gov an Doulys
-  butcher: Kiger
-  leatherworker: Ledhrer
-  nitwit: Skogyn

@@ -1,15 +1,27 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:48                    #
+# Build time: 2021-07-04 21:46:04                    #
 # ####################################################
 language:
   code: oc_fr
   name: Occitan
   region: Occitània
 material:
+  acacia_boat: Batèl de Cacièr
+  acacia_door: Pòrta de Cacièr
   acacia_fence: Barralha de Cacièr
   acacia_fence_gate: Pòrta de Barralha de Cacièr
   acacia_leaves: Fuèlhas de Cacièr
+  acacia_planks: Plancas en Fusta de Cacièr
   acacia_sapling: Grelh de Cacièr
+  acacia_wood: Fusta de Cacièr
+  activator_rail: Ralh Desenclavador
+  allium: Alliom
+  azure_bluet: Blavet Azur
+  baked_potato: Patana Cuècha
+  barrier: Barralha
+  beef: Buòu Crus
+  beetroot_seeds: Granas de Bledarava
+  beetroot_soup: Sopa de Bledarava
   birch_boat: Batèl de Beç
   birch_door: Pòrta de Beç
   birch_fence: Barralha de Beç
@@ -18,112 +30,373 @@ material:
   birch_planks: Plancas en Fusta de Beç
   birch_sapling: Grelh de Beç
   birch_wood: Fusta de Beç
+  black_banner: Bandièra Negra
+  black_bed: Lièch Negre
   black_carpet: Moqueta Negra
+  black_concrete: Beton Negre
+  black_concrete_powder: Polsa de Beton Negra
   black_glazed_terracotta: Tèrra Cuècha Esmaltada Negra
+  black_stained_glass: Veire Negre
+  black_stained_glass_pane: Panèl de Veire Negre
   black_terracotta: Tèrra cuèita negra
+  black_wall_banner: Bandièra Negra
   black_wool: Lana Negra
+  blue_banner: Bandièra Blava
+  blue_bed: Lièch Blau
   blue_carpet: Moqueta Blava
+  blue_concrete: Beton Blau
+  blue_concrete_powder: Polsa de Beton Blava
   blue_glazed_terracotta: Tèrra Cuècha Esmaltada Blava
+  blue_orchid: Orquidèa Blava
+  blue_stained_glass: Veire Blau
+  blue_stained_glass_pane: Panèl de Veire Blau
   blue_terracotta: Tèrra cuèita blava
+  blue_wall_banner: Bandièra Blava
   blue_wool: Lana Blava
+  bone_block: Blòt d'òsses
+  bone_meal: Polsa d'Òs
+  brick_stairs: Escalièrs en Bricas
+  brown_banner: Bandièra Bruna
   brown_carpet: Moqueta Bruna
+  brown_concrete: Beton Brun
+  brown_concrete_powder: Polsa de Beton Bruna
   brown_glazed_terracotta: Tèrra Cuècha Esmaltada Bruna
+  brown_shulker_box: Bóstia de Shulker marron
+  brown_stained_glass: Veire Brun
+  brown_stained_glass_pane: Panèl de Veire Brun
   brown_terracotta: Tèrra cuèita marron
+  brown_wall_banner: Bandièra Bruna
   brown_wool: Lana Bruna
+  carrot_on_a_stick: Pastenaga sus un Baston
+  chain_command_block: Blòc de Comanda en Cadena
+  charcoal: Carbon de Fusta
+  chest_minecart: Vagonet amb un Còfre
+  chicken: Gal Crus
   chiseled_quartz_block: Blòc de Qüars Escalprat
+  chiseled_red_sandstone: Gres Roge Escalprat
+  chiseled_sandstone: Gres Escalprat
   chiseled_stone_bricks: Bricas de Pèira Escalpradas
+  clay_ball: Argila
+  coal_block: Blòc de Carbon
+  coal_ore: Minièra de Carbon
+  coarse_dirt: Tèrra Estèrla
   cobblestone: Ròca
   cobblestone_slab: Lausa en Ròca
   cobblestone_stairs: Escalièrs en Pèira
   cobblestone_wall: Mur de Ròca
+  command_block: Blòc de Comanda
+  command_block_minecart: Vagonet amb Blòc de Comanda
+  comparator: Comparador Redstone
+  compass: Compàs
+  cooked_chicken: Gal Cuèch
+  cooked_mutton: Moton Cuèch
+  cooked_porkchop: Pòrc Cuèch
+  cooked_rabbit: Conilh Cuèch
+  cooked_salmon: Salmon Cuèch
   cracked_stone_bricks: Bricas de Pèira Fendilhadas
+  crafting_table: Taula de Trabalh
+  creeper_head: Cap de Creeper
+  cyan_banner: Bandièra Cian
+  cyan_bed: Lièch Cian
   cyan_carpet: Moqueta Cian
+  cyan_concrete: Beton Cian
+  cyan_concrete_powder: Polsa de Beton Cian
   cyan_glazed_terracotta: Tèrra Cuècha Esmaltada Cian
+  cyan_stained_glass: Veire Cian
+  cyan_stained_glass_pane: Panèl de Veire Cian
   cyan_terracotta: Tèrra cuèita cian
+  cyan_wall_banner: Bandièra Cian
   cyan_wool: Lana Cian
+  dark_oak_boat: Batèl d'Euse Escur
+  dark_oak_door: Pòrta d'Euse Escur
   dark_oak_fence: Barralha d'Euse Escur
   dark_oak_fence_gate: Barralha de Pòrta d'Euse Escur
   dark_oak_leaves: Fuèlhas d'Euse Escur
+  dark_oak_planks: Plancas en Fusta d'Euse Escur
+  dark_oak_sapling: Gralh d'Euse Escur
+  dark_oak_wood: Fusta d'Euse Escur
+  dark_prismarine: Prismarina Escura
   dead_bush: Arbrilhon Mòrt
+  detector_rail: Ralh Detector
+  diamond_axe: Pigassa en Diamant
+  diamond_block: Blòc de Diamant
+  diamond_boots: Bòtas en Diamant
+  diamond_chestplate: Plastron en Diamant
+  diamond_helmet: Casco en Diamant
+  diamond_hoe: Bigòs en Diamant
+  diamond_horse_armor: Armadura en Diamant per Caval
+  diamond_leggings: Cambièras en Diamant
+  diamond_ore: Minièra de Diamant
+  diamond_pickaxe: Trenca en Diamant
+  diamond_shovel: Pala en Diamant
+  diamond_sword: Espasa en Diamant
+  dragon_breath: Buf de Dragon
+  dragon_head: Cap de Dragon
+  emerald_block: Blòc d'Esmerauda
+  emerald_ore: Minièra d'Esmerauda
+  enchanted_book: Libre Encantat
   end_stone: Pèira de l'End
+  end_stone_bricks: Bricas de Pèira de l'End
+  experience_bottle: Botelhon d'Experiéncia
+  farmland: Tèrra Laurada
+  fermented_spider_eye: Uèlh d'Aranha Fermentat
+  fishing_rod: Cana de Pesca
   frosted_ice: Glaç Gibrada
+  furnace_minecart: Vagonet amb un Forn
+  glass_bottle: Botelhon
+  glass_pane: Panèl de Veire
+  glowstone: Pèira Luminosa
+  glowstone_dust: Polsa de Pèira Luminosa
+  golden_apple: Poma Daurada
+  golden_axe: Pigassa en Aur
+  golden_boots: Bòtas en Aur
+  golden_carrot: Pastenaga Daurada
+  golden_chestplate: Plastron en Aur
+  golden_helmet: Casco en Aur
+  golden_hoe: Bigòs en Aur
+  golden_leggings: Cambièras en Aur
+  golden_pickaxe: Trenca en Aur
+  golden_shovel: Pala en Aur
+  golden_sword: Espasa en Aur
+  gold_block: Blòc d'Aur
+  gold_ingot: Lingòt d'Aur
+  gold_nugget: Bocinet d'Aur
+  gold_ore: Minièra d'Aur
+  grass_block: Blòc d'Èrba
+  gray_banner: Bandièra Grisa
+  gray_bed: Lièch Gris
   gray_carpet: Moqueta Grisa
+  gray_concrete: Beton Gris
+  gray_concrete_powder: Polsa de Beton Grisa
   gray_glazed_terracotta: Tèrra Cuècha Esmaltada Grisa
+  gray_stained_glass: Veire Gris
+  gray_stained_glass_pane: Panèl de Veire Gris
   gray_terracotta: Tèrra cuèita grisa
+  gray_wall_banner: Bandièra Grisa
   gray_wool: Lana Grisa
+  green_banner: Bandièra Verda
+  green_bed: Lièch Verd
   green_carpet: Moqueta Verda
+  green_concrete: Beton Vèrd
+  green_concrete_powder: Polsa de Beton Vèrda
   green_glazed_terracotta: Tèrra Cuècha Esmaltada Vèrda
+  green_stained_glass: Veire Verd
+  green_stained_glass_pane: Panèl de Veire Verd
   green_terracotta: Tèrra cuèita verda
+  green_wall_banner: Bandièra Verda
   green_wool: Lana Verda
+  hay_block: Blòc de Palha
+  hopper_minecart: Vagonet amb un Embut
+  ink_sac: Sac de Tencha
+  iron_axe: Pigassa en Fèrre
+  iron_bars: Barrets de Fèrre
+  iron_block: Blòc de Fèrre
+  iron_boots: Bòtas en Fèrre
+  iron_chestplate: Plastron en Fèrre
+  iron_door: Pòrta de Fèrre
+  iron_helmet: Casco en Fèrre
+  iron_hoe: Bigòs en Fèrre
+  iron_horse_armor: Armadura en Fèrre per Caval
+  iron_ingot: Lingòt de Fèrre
+  iron_leggings: Cambièras en Fèrre
+  iron_ore: Minièra de Fèrre
+  iron_pickaxe: Trenca en Fèrre
+  iron_shovel: Pala en Fèrre
+  iron_sword: Espasa en Fèrre
+  iron_trapdoor: Trapa de fèrre
+  jack_o_lantern: Lantèrna Coja
+  jukebox: Jukebox
+  jungle_boat: Batèl de Fusta de Jungla
+  jungle_door: Pòrta de Fusta de Jungla
   jungle_fence: Barralha de Fusta de Jungla
   jungle_fence_gate: Pòrta de Barralha de Fusta de Jungle
   jungle_leaves: Fuèlhas de Jungla
+  jungle_planks: Plancas en Fusta de Jungla
   jungle_sapling: Grelh de Jungla
+  jungle_wood: Fusta de Jungla
+  lapis_block: Blòc de Lapis Lazuli
+  lapis_lazuli: Lapis Lazuli
+  lapis_ore: Minièra de Lapis Lazuli
+  large_fern: Falguièra Granda
+  lava_bucket: Ferrat de Lava
+  leather_boots: Bòtas en Cuèr
+  leather_chestplate: Tunica en Cuèr
+  leather_helmet: Capèl en Cuèr
+  leather_leggings: Braias en Cuèr
+  light_blue_banner: Bandièra Blau Clar
+  light_blue_bed: Lièch Blau Clar
   light_blue_carpet: Moqueta Blau Clar
+  light_blue_concrete: Beton Blau Clar
+  light_blue_concrete_powder: Polsa de Beton Blau Clar
   light_blue_glazed_terracotta: Tèrra Cuècha Esmaltada Blau Clar
+  light_blue_shulker_box: Bóstia de Shulker blau cèl
   light_blue_stained_glass: Veire Blau Clar
+  light_blue_stained_glass_pane: Panèl de Veire Blau Clar
   light_blue_terracotta: Tèrra cuèita blau cèl
+  light_blue_wall_banner: Bandièra Blau Clar
   light_blue_wool: Lana Blau Clar
+  light_gray_banner: Bandièra Gris Clar
+  light_gray_bed: Lièch Gris Clar
   light_gray_carpet: Moqueta Gris Clar
+  light_gray_concrete: Beton Gris Clar
+  light_gray_concrete_powder: Polsa de Beton Gris Clar
   light_gray_glazed_terracotta: Tèrra Cuècha Esmaltada Gris Clar
+  light_gray_stained_glass: Veire Gris Clar
+  light_gray_stained_glass_pane: Panèl de Veire Gris Clar
   light_gray_terracotta: Tèrra cuèita gris clar
+  light_gray_wall_banner: Bandièra Gris Clar
   light_gray_wool: Lana Gris Clar
+  lime_banner: Bandièra Lima
+  lime_bed: Lièch Lima
   lime_carpet: Moqueta Lima
+  lime_concrete: Beton Lima
+  lime_concrete_powder: Polsa de Beton Lima
   lime_glazed_terracotta: Tèrra Cuècha Esmaltada Lima
+  lime_stained_glass: Veire Lima
+  lime_stained_glass_pane: Panèl de Veire Lima
   lime_terracotta: Tèrra cuèita verd clar
+  lime_wall_banner: Bandièra Lima
   lime_wool: Lana Lima
+  magenta_banner: Bandièra Magenta
+  magenta_bed: Lièch Magenta
   magenta_carpet: Moqueta Magenta
+  magenta_concrete: Beton Magenta
+  magenta_concrete_powder: Polsa de Beton Magenta
   magenta_glazed_terracotta: Tèrra Cuècha Esmaltada Magenta
+  magenta_stained_glass: Veire Magenta
+  magenta_stained_glass_pane: Panèl de Veire Magenta
   magenta_terracotta: Tèrra cuèita magenta
+  magenta_wall_banner: Bandièra Magenta
   magenta_wool: Lana Magenta
+  magma_block: Blòt de magma
+  magma_cream: Crèma de Magma
+  melon: Melon d'Aiga
+  melon_seeds: Granas de Melon d'Aiga
   mossy_cobblestone_wall: Mur de Ròca Mofut
   mossy_stone_bricks: Bricas de Pèira Mofudas
   mushroom_stew: Sopa de Campairòl
+  music_disc_blocks: Disc de Musica
+  mutton: Moton Crus
   nether_brick_fence: Barralha en Bricas del Nether
   nether_brick_slab: Lausa en Bricas del Nether
   nether_brick_stairs: Escalièrs en Bricas del Nether
   nether_quartz_ore: Minièra de Qüars del Nether
+  nether_wart_block: Blòt de botiòlas del Nether
+  note_block: Blòc Musical
+  oak_boat: Batèl d'Euse
+  oak_door: Pòrta d'Euse
   oak_fence: Barralha
   oak_fence_gate: Pòrta de Barralha
   oak_leaves: Fuèlhas d'Euse
+  oak_planks: Plancas en Fusta d'Euse
   oak_sapling: Grelh d'Euse
+  oak_wood: Fusta d'Euse
+  orange_banner: Bandièra Iranja
+  orange_bed: Lièch Irange
   orange_carpet: Moqueta Iranja
+  orange_concrete: Beton Irange
+  orange_concrete_powder: Polsa de Beton Iranja
   orange_glazed_terracotta: Tèrra Cuècha Esmaltada Iranja
   orange_stained_glass: Veire Irange
+  orange_stained_glass_pane: Panèl de Veire Irange
   orange_terracotta: Tèrra cuèita iranja
+  orange_tulip: Tulipa Iranja
+  orange_wall_banner: Bandièra Iranja
   orange_wool: Lana Iranja
   packed_ice: Glaç Compactat
+  pink_banner: Bandièra Ròsa
+  pink_bed: Lièch Ròse
   pink_carpet: Moqueta Ròsa
+  pink_concrete: Beton Ròse
+  pink_concrete_powder: Polsa de Beton Ròsa
   pink_glazed_terracotta: Tèrra Cuècha Esmaltada Ròsa
+  pink_stained_glass: Veire Ròse
+  pink_stained_glass_pane: Panèl de Veire Ròse
   pink_terracotta: Tèrra cuèita ròsa
+  pink_tulip: Tulipa Ròsa
+  pink_wall_banner: Bandièra Ròsa
   pink_wool: Lana Ròsa
+  poisonous_potato: Patana Empoisonada
   polished_andesite: Andesit Polit
   polished_diorite: Diorit Polit
   polished_granite: Granit Polit
+  porkchop: Pòrc Crus
+  powered_rail: Ralh Propulsor
+  prismarine_bricks: Bricas de Prismarina
+  prismarine_crystals: Cristals de Prismarina
+  prismarine_shard: Tròç de Prismarina
+  pufferfish: Peis-Glòbe
+  pumpkin_pie: Tarta de Coja
+  pumpkin_seeds: Granas de Coja
+  pumpkin_stem: Tija de Coja
+  purple_banner: Bandièra Violeta
+  purple_bed: Lièch Violet
   purple_carpet: Moqueta Violeta
+  purple_concrete: Beton Violet
+  purple_concrete_powder: Polsa de Beton Violeta
   purple_glazed_terracotta: Tèrra Cuècha Esmaltada Violeta
+  purple_stained_glass: Veire Violet
+  purple_stained_glass_pane: Panèl de Veire Violet
   purple_terracotta: Tèrra cuèita violeta
+  purple_wall_banner: Bandièra Violeta
   purple_wool: Lana Violeta
+  purpur_block: Blòc Porpre
+  purpur_pillar: Pilar Porpre
+  purpur_slab: Lausa Porpra
+  purpur_stairs: Escalièrs Porpres
   quartz_block: Blòc de Qüars
   quartz_slab: Lausa en Qüars
   quartz_stairs: Escalièrs en Qüars
+  rabbit: Conilh Crus
+  rabbit_foot: Pauta de Conilh
+  rabbit_hide: Pèl de Conilh
+  rabbit_stew: Fricòt de Conilh
   redstone: Redstone
+  redstone_block: Blòc de Redstone
+  redstone_lamp: Lum de Redstone
+  redstone_ore: Minièra de Redstone
+  redstone_torch: Entòrcha de Redstone
   redstone_wire: Polsa de Redstone
+  red_banner: Bandièra Roja
+  red_bed: Lièch Roge
   red_carpet: Moqueta Roja
+  red_concrete: Beton Roge
+  red_concrete_powder: Polsa de Beton Roja
   red_glazed_terracotta: Tèrra Cuècha Esmaltada Roja
+  red_sand: Sabla Roja
+  red_sandstone: Gres Roge
   red_sandstone_slab: Lausa de Gres Roge
+  red_sandstone_stairs: Escalièrs de Gres Roge
+  red_stained_glass: Veire Roge
+  red_stained_glass_pane: Panèl de Veire Roge
   red_terracotta: Tèrra cuèita roja
+  red_tulip: Tulipa Roja
+  red_wall_banner: Bandièra Roja
   red_wool: Lana Roja
+  repeater: Repetidor Redstone
+  repeating_command_block: Repetir lo Blòc de Comanda
+  rotten_flesh: Carn Poirida
+  salmon: Salmon Crus
   sandstone_slab: Lausa en Gres
   sandstone_stairs: Escalièrs en Gres
   sea_lantern: Lantèrna Aiguenca
+  skeleton_skull: Cran d'Esqueleta
+  slime_ball: Pelòta Vescosa
   smooth_red_sandstone: Gres Roge Lis
   smooth_sandstone: Gres Lisc
+  snowball: Pelòta de Nèu
+  soul_sand: Sablas de las Armas
+  spectral_arrow: Sageta Espectrala
+  spider_eye: Uèlh d'Aranha
   spruce_boat: Batèl d'Avet
+  spruce_door: Pòrta d'Avet
   spruce_fence: Barralha d'Avet
   spruce_fence_gate: Pòrta de Barralha d'Avet
   spruce_leaves: Fuèlhas d'Avet
+  spruce_planks: Plancas en Fusta d'Avet
   spruce_sapling: Grelh d'Avet
+  spruce_wood: Fusta d'Avet
+  sticky_piston: Piston Pegant
   stone: Pèira
   stone_axe: Pigassa en Pèira
   stone_bricks: Bricas de Pèira
@@ -134,13 +407,127 @@ material:
   stone_shovel: Pala en Pèira
   stone_slab: Lausa en Pèira
   stone_sword: Espasa en Pèira
+  structure_void: Structura
+  tipped_arrow: Sageta d'Efièch
+  trapped_chest: Còfre Trapadèla
+  water_bucket: Ferrat d'Aiga
+  wet_sponge: Esponja Trempada
+  white_banner: Bandièra Blanca
+  white_bed: Lièch Blanc
   white_carpet: Tapís blanc
+  white_concrete: Beton Blanc
+  white_concrete_powder: Polsa de Beton Blanca
   white_glazed_terracotta: Tèrra Cuècha Esmaltada Blanca
+  white_stained_glass: Veire Blanc
+  white_stained_glass_pane: Panèl de Veire Blanc
   white_terracotta: Tèrra cuèita blanca
+  white_tulip: Tulipa Blanca
+  white_wall_banner: Bandièra Blanca
+  wither_skeleton_skull: Cran d'Esqueleta Wither
+  wooden_axe: Pigassa en Fusta
+  wooden_hoe: Bigòs en Fusta
+  wooden_pickaxe: Trenca en Fusta
+  wooden_shovel: Pala en Fusta
+  wooden_sword: Espasa en Fusta
+  writable_book: Libre e Pluma
+  yellow_banner: Bandièra Auriòla
+  yellow_bed: Lièch Auriòl
   yellow_carpet: Moqueta Jauna
+  yellow_concrete: Beton Rossòl
   yellow_concrete_powder: Polsa de Beton Rossòla
   yellow_glazed_terracotta: Tèrra Cuècha Esmaltada Rossòla
+  yellow_stained_glass: Veire Jaune
+  yellow_stained_glass_pane: Panèl de Veire Jaune
   yellow_terracotta: Tèrra cuèita jauna
+  yellow_wall_banner: Bandièra Auriòla
   yellow_wool: Lana Jauna
+  zombie_head: Cap de Zombi
 enchantment:
+  aqua_affinity: Afinitat Aqüatica
+  depth_strider: Caminaire de las Prigondors
+  vanishing_curse: Malediccion de Desaparicion
   luck_of_the_sea: L'Astre de la Mar
+  binding_curse: Malediccion del Ligam Eternal
+  blast_protection: Resisténcia a las Explosions
+  fire_aspect: Aspècte Ardent
+  sweeping: Talh Desolator
+  bane_of_arthropods: Flagèl dels Artropòdes
+  silk_touch: Tocar de Seda
+  feather_falling: Pes Pluma
+potion:
+  water: Botelhon d'Aiga
+splash_potion:
+  water: Pocion Getabla d'Aiga
+tipped_arrow:
+  mundane: Sageta d'Efièch
+  thick: Sageta d'Efièch
+  awkward: Sageta d'Efièch
+  night_vision: Sageta de Vision Nocturna
+  invisibility: Sageta d'Invisibilitat
+  jump: Sageta de Saut
+  fire_resistance: Sageta de Resisténcia al Fuòc
+  speed: Sageta de Velocitat
+  slowness: Sageta de Lentor
+  water_breathing: Sageta de Respiracion Aqüatica
+  instant_heal: Sageta de Suènh
+  instant_damage: Sageta de Degalh
+  poison: Sageta de Poison
+  regen: Sageta de Regeneracion
+  strength: Sageta de Fòrça
+  weakness: Sageta de Flaquesa
+  luck: Sageta d'Astre
+entity:
+  snowball: Pelòta de Nèu
+  fireball: Pelòta de Fuòc
+  small_fireball: Pelòta de Fuòc Pichona
+  falling_block: Blòc en Casuda
+  spectral_arrow: Sageta Espectrala
+  minecart_command: Vagonet amb Blòc de Comanda
+  minecart_chest: Vagonet amb un Còfre
+  minecart_furnace: Vagonet amb un Forn
+  minecart_hopper: Vagonet amb un Embut
+  zombie: Zombi
+  cave_spider: Aranha de Bauma
+  silverfish: Peis d'Argent
+  chicken: Galina
+  squid: Pofre
+  pufferfish: Peis-Glòbe
+effect:
+  heal: Suènh Instantanèu
+  harm: Degalh Instantanèu
+  jump: Melhorança dels Sauts
+  fire_resistance: Resisténcia al Fuòc
+  water_breathing: Respiracion Aqüatica
+  invisibility: Invesibilitat
+  night_vision: Vision Nocturna
+  health_boost: Bonus de Santat
+colored_shied:
+  brown: Bloquièr Brun
+banner_pattern:
+  '65548': Canton Brun en Basa a Drecha
+  '131084': Canton Brun en Basa a Esquèrra
+  '196620': Canton Brun en Cap a Drecha
+  '262156': Canton Brun en Cap a Esquèrra
+  '458764': Pal Brun a Drecha
+  '524300': Pal Brun a Esquèrra
+  '589836': Pal Brun
+  '655372': Fàscia Bruna
+  '720908': Benda Bruna
+  '786444': Benda Bruna a Esquèrra
+  '851968': Quatre Pals Blancs
+  '851969': Quatre Pals Iranges
+  '851970': Quatre Pals Magenta
+  '851971': Quatre Pals Blau Clar
+  '851972': Quatre Pals Auriòls
+  '851973': Quatre Pals Lima
+  '851974': Quatre Pals Ròses
+  '851975': Quatre Pals Grises
+  '851976': Quatre Pals Gris Clar
+  '851977': Quatre Pals Cian
+  '851978': Quatre Pals Violets
+  '851979': Quatre Pals Blaus
+  '851980': Quatre Pals Bruns
+  '851981': Quatre Pals Verds
+  '851982': Quatre Pals Roges
+  '851983': Quatre Pals Negres
+  '917516': Sautor Brun

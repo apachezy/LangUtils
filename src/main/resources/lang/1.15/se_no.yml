@@ -1,37 +1,333 @@
 # ####################################################
-# Build time: 2021-03-17 16:17:25                    #
+# Build time: 2021-07-04 21:39:01                    #
 # ####################################################
 language:
   code: se_no
   name: Davvisámegiella
   region: Sápmi
 material:
+  acacia_leaves: Acacialastat
+  acacia_slab: Acacia Bealli
+  acacia_wood: Acacia
+  baked_potato: Liggejuvvon Buđet
   bamboo_sapling: Bambošattos
+  beetroot_soup: Ruksesruohtas Málli
+  birch_leaves: Soahkelastat
+  birch_slab: Soahke Bealli
+  black_carpet: Čáhpes Láhtterátnu
+  black_concrete: Čáhppes Betoŋŋa
+  black_concrete_powder: Čáhppes Betoŋŋa Pulvar
+  black_glazed_terracotta: Čáhppes Šelges Terracotta
+  black_terracotta: Čáhppes Terracotta
+  blaze_powder: Buollistálu Pulvar
+  blaze_rod: Buollistálu Sággi
+  blue_concrete: Alit Betoŋŋa
+  blue_concrete_powder: Alit Betoŋŋa Pulvar
+  blue_glazed_terracotta: Alit Šelges Terracotta
+  blue_terracotta: Alit Terracotta
   bowl: Bolljá
   brick: Tiillat
+  brick_slab: Muvra Bealli
+  brown_concrete: Ruškes Betoŋŋa
+  brown_concrete_powder: Ruškes Betoŋŋa Pulvar
+  brown_glazed_terracotta: Ruškes Šelges Terracotta
+  brown_mushroom_block: Ruškes Guoppar Blohkka
+  brown_terracotta: Ruškes Terracotta
+  cartography_table: Kárttenbeavdi
+  cave_air: Roggeáibmu
+  chest_minecart: Roggangielká mas Gumbá
   chicken_spawn_egg: Vuonccá Ealáskanmonni
+  chiseled_red_sandstone: Lukčon Rukses Sáddogeađgi
+  chiseled_sandstone: Lukčon Sáddogeađgi
+  chorus_flower: Chorus Lieđđi
+  chorus_fruit: Chorusšaddu
+  chorus_plant: Chorus Šaddu
   clay_ball: Láira
+  coal_ore: Koallageađgi
+  cobblestone_slab: Luoddageađge Bealli
+  command_block_minecart: Roggangielká mas Kommándoblohkka
+  comparator: Redstone Iskkadeaddji
+  cut_red_sandstone: Njuolgejuvvon Rukses Sáddogeađgi
+  cut_red_sandstone_slab: Njuolgabut Ruksessáddogeađge Bealli
+  cut_sandstone: Njuolgejuvvon Sáddogeađgi
+  cut_sandstone_slab: Njuolgejuvvon Sáddogeađge Bealli
+  cyan_concrete: Turkiisa Betoŋŋa
+  cyan_concrete_powder: Turkiisa Betoŋŋa Pulvar
+  cyan_glazed_terracotta: Turkiisa Šelges Terracotta
+  cyan_terracotta: Turkiisa Terracotta
+  dark_oak_boat: Sevdnjes Eaikafanas
+  dark_oak_door: Sevdnjes Eaikauksa
+  dark_oak_fence: Sevdnjes Eaikaáidi
+  dark_oak_fence_gate: Sevdnjes Eaikaverrát
+  dark_oak_leaves: Sevdnjes Eaikalastat
+  dark_oak_log: Sevdnjes Eaikačoska
+  dark_oak_pressure_plate: Sevdnjeseaikka Deattopláhtta
+  dark_oak_sapling: Sevdnjes Eaikamuoraš
+  dark_oak_sign: Sevdnjes Eaikagalba
+  dark_oak_slab: Sevdnjeseaika Bealli
+  dark_oak_stairs: Sevdnjes Eaikatráhppá
+  dark_oak_trapdoor: Sevdnjes Eaikaleabma
+  dark_oak_wood: Sevdnjeseaikamuorra
+  dark_prismarine: Sevdnjes Prismariidna
+  dark_prismarine_slab: Sevdnjes Prismariidna Bealli
+  dark_prismarine_stairs: Sevdnjes Prismariidnatráhppá
+  daylight_detector: Beaivečuovgga Iskkadeaddji
+  dead_bush: Jápman Miestta
+  debug_stick: Sivvaohcan Sággi
   diamond: Diamántta
+  diamond_axe: Diamánttaákšu
+  diamond_block: Diamánttablohkka
+  diamond_boots: Diamánttagápmagat
+  diamond_chestplate: Diamánttasuodju
+  diamond_helmet: Diamánttagahpir
+  diamond_hoe: Diamánttapluovva
+  diamond_horse_armor: Heasta Diamánttasudjalus
+  diamond_leggings: Diamánttabuvssat
+  diamond_ore: Diamánttageađgi
+  diamond_pickaxe: Diamánttaguohkki
+  diamond_shovel: Diamánttagoaivu
+  diamond_sword: Diamánttamiehkki
+  dried_kelp_block: Goikoduvvon Stárrablohkka
+  dropper: Luoitileaddji
+  emerald_ore: Emeraldageađgi
+  end_crystal: Endor Krystalla
+  end_stone_brick_slab: Endor Geađgemuvrabealli
   filled_map: Gárta
+  firework_star: Rahkeahta Násti
   flint_and_steel: Cáhkkehanruovdi
+  flower_pot: Lieđđe Bohttu
+  furnace_minecart: Roggangielká mas Ovdna
+  gold_ore: Gollegeađgi
+  gray_concrete: Ránes Betoŋŋa
+  gray_concrete_powder: Ránes Betoŋŋa Pulvar
+  gray_glazed_terracotta: Ránes Šelges Terracotta
+  gray_terracotta: Ránes Terracotta
+  green_concrete: Ruoná Betoŋŋa
+  green_concrete_powder: Ruoná Betoŋŋa Pulvar
+  green_glazed_terracotta: Ruoná Šelges Terracotta
+  green_terracotta: Ruoná Terracotta
+  gunpowder: Rukta
+  heavy_weighted_pressure_plate: Lossodas Deattopláhtta
+  hopper: Njammaleaddji
+  hopper_minecart: Roggangielká mas Njammaleaddji
+  ice: ﻿Jiekŋa
+  infested_cobblestone: Njommon Luoddageađgi
+  infested_stone: Njommon Geađgi
+  iron_ore: Ruovdegeađgi
+  jukebox: Čuojaheaddji
+  jungle_leaves: Suhkkesvuovdelastat
+  jungle_slab: Suhkkesvuovde Bealli
+  lapis_block: Lapis Lázulihtta Blohkka
+  lapis_lazuli: Lapis Lázulihtta
+  lapis_ore: Lapis Lázulihttageađgi
+  lead: Lavži
+  light_blue_concrete: Čuvgesalit Betoŋŋa
+  light_blue_concrete_powder: Čuvgesalit Betoŋŋa Pulvar
+  light_blue_glazed_terracotta: Čuvgesalit Šelges Terracotta
+  light_blue_terracotta: Čuvgesalit Terracotta
+  light_gray_concrete: Čuvgesránes Betoŋŋa
+  light_gray_concrete_powder: Čuvgesránes Betoŋŋa Pulvar
+  light_gray_glazed_terracotta: Čuvgesránes Šelges Terracotta
+  light_gray_terracotta: Čuvgesránes Terracotta
+  lily_pad: Govdolieđđi
+  lime_concrete: Čuvgesruoná Betoŋŋa
+  lime_concrete_powder: Čuvgesruonaá Betoŋŋa Pulvar
+  lime_glazed_terracotta: Čuvgesruoná Šelges Terracotta
+  lime_terracotta: Čuvgesruoná Terracotta
+  lingering_potion: Bissovaš Jugus
+  magenta_concrete: Čuvgessáhppes Betoŋŋa
+  magenta_concrete_powder: Čuvgessáhppes Betoŋŋa Pulvar
+  magenta_glazed_terracotta: Čuvgessáhppes Šelges Terracotta
+  magenta_terracotta: Čuvgessáhppes Terracotta
+  magma_cream: Magma Kreamma
+  mossy_cobblestone: Darfinuvvon Luoddageađgi
+  mossy_cobblestone_slab: Darfinuvvon Luoddageađgebealli
+  mossy_cobblestone_stairs: Darfinuvvon Luoddageađgitráhppá
+  mossy_stone_brick_slab: Darfinuvvon Geađgemuvrabealli
+  mushroom_stem: Guoppar Máddu
+  mushroom_stew: Guoppar málli
+  name_tag: Namma Mearka
+  nether_brick_slab: Nethermuvra Bealli
+  nether_quartz_ore: Nether Kvárcageađgi
+  oak_slab: Eaika Bealli
+  oak_wood: Eaika
+  ocelot_spawn_egg: Oselotbussá Ealáskanmonni
+  orange_concrete: Runta Betoŋŋa
+  orange_concrete_powder: Runta Betoŋŋa Pulvar
+  orange_glazed_terracotta: Runta Šelges Terracotta
+  orange_terracotta: Runta Terracotta
+  petrified_oak_slab: Balláneaika Bealli
+  pink_concrete: Čuvgesrukses Betoŋŋa
+  pink_concrete_powder: Čuvgesrukses Betoŋŋa Pulvar
+  pink_glazed_terracotta: Vilgesrukses Šelges Terracotta
+  pink_terracotta: Rosa Terracotta
+  piston: Hoigadeaddji
+  player_head: Speallároaivi
+  player_wall_head: Speallár Seaidnoaivi
   poisonous_potato: Mirkoluvvon Buđet
+  polished_andesite_slab: Bussejuvvon Ándasihttabealli
+  polished_diorite_slab: Bussejuvvon Diorihttabealli
+  polished_granite_slab: Bussejuvvon Granihttabealli
+  popped_chorus_fruit: Rahppon Chorusšaddu
+  potted_acacia_sapling: Gilvon Acaciamuoraš
+  potted_allium: Gilvon Ruksesluovvar
+  potted_azure_bluet: Gilvon Nuorsá
+  potted_bamboo: Gilvon Bamboa
+  potted_birch_sapling: Gilvon Sogaš
+  potted_blue_orchid: Gilvon Alit Orkidéa
+  potted_brown_mushroom: Gilvon Ruškesguoppar
+  potted_cactus: Gilvon Káktus
+  potted_cornflower: Gilvon Rohkarássi
+  potted_dandelion: Gilvon Uvlorássi
+  potted_dark_oak_sapling: Gilvon Sevdnjeseaikamuoraš
+  potted_dead_bush: Gilvon Jápmánmiestta
+  potted_fern: Gilvon Gáiska
+  potted_lily_of_the_valley: Gilvon Ávželieđđi
+  potted_oak_sapling: Gilvon Eaikamuoraš
+  potted_orange_tulip: Gilvon Runta Tulipána
+  potted_oxeye_daisy: Gilvon Báhpačehporas
+  potted_pink_tulip: Gilvon Čuvgesrukses Tulipána
+  potted_poppy: Gilvon Ajerássi
+  potted_red_tulip: Gilvon Rukses Tulipána
+  potted_spruce_sapling: Gilvon Guosaš
+  potted_white_tulip: Gilvon Vilges Tulipána
+  potted_wither_rose: Gilvon Wither Rosa
+  powered_rail: Rávdnjás Ruovdemáđđi
+  prismarine_bricks: Prismariidna Muvra
+  prismarine_brick_slab: Prismariidna Muvra Bealli
+  prismarine_brick_stairs: Prismariidna Muvratráhppá
+  prismarine_crystals: Prismariidna Krystalla
+  prismarine_slab: Prismariidna Bealli
+  pufferfish_bucket: Mierkoguolleskállu
+  purple_concrete: Sáhppes Betoŋŋa
+  purple_concrete_powder: Sáhppes Betoŋŋa Pulvar
+  purple_glazed_terracotta: Sáhppes Šelges Terracotta
+  purple_terracotta: Sáhppes Terracotta
+  purpur_block: Purpur Blohkka
+  purpur_pillar: Purpur Pillara
+  purpur_slab: Purpur Bealli
+  quartz_pillar: Kvárca Stoalpu
+  quartz_slab: Kvárca Bealli
+  ravager_spawn_egg: Ravager Ealáskanmonni
+  redstone_lamp: Redstone Čuovga
+  redstone_ore: Redstonegeađgi
+  redstone_torch: Redstone Spáiddar
+  redstone_wall_torch: Redstone Seaidne Spáiddar
+  red_concrete: Rukses Betoŋŋa
+  red_concrete_powder: Rukses Betoŋŋa Pulvar
+  red_glazed_terracotta: Rukses Šelges Terracotta
+  red_mushroom: Rukses Guoppar
+  red_mushroom_block: Rukses Guoppar Blohkka
+  red_nether_brick_slab: Rukses Nethermuvrabealli
+  red_sandstone: Rukses Sáddogeađgi
+  red_sandstone_slab: Rukses Sáddogeađgi Bealli
+  red_sandstone_stairs: Rukses Sáttogeađgitráhppá
+  red_terracotta: Rukses Terracotta
+  repeater: Redstone Gearddojeaddji
+  saddle: Sále
+  sandstone: Sáddogeađgi
+  sandstone_slab: Sáddogeađge Bealli
   smooth_quartz: Fiinna Kvárca
+  smooth_quartz_slab: Fiinna Kvárcabealli
+  smooth_red_sandstone: Fiinna Rukses Sáddogeađgi
+  smooth_red_sandstone_slab: Fiinna Rukses Sáddogeađgebealli
+  smooth_red_sandstone_stairs: Fiinna Ruksessáddogeađgetráhppá
+  smooth_sandstone: Fiinna Sáddogeađgi
+  smooth_sandstone_slab: Fiinna Sáddogeađgebealli
+  smooth_sandstone_stairs: Fiinna Sáddogeađgetráhppá
+  smooth_stone: Fiinna Geađgi
+  smooth_stone_slab: Jalgageađge Bealli
+  spruce_boat: Guossofanas
+  spruce_leaves: Guossolastat
+  spruce_log: Guossočoskka
+  spruce_sign: Guossogalba
+  spruce_slab: Guosso Bealli
+  spruce_stairs: Guossotráhppá
+  sticky_piston: Njivllas Hoigadeaddji
+  stone_brick_slab: Geađgemuvra Bealli
+  stone_slab: Geađge Bealli
+  stripped_acacia_log: Álás Acaciačoska
+  stripped_acacia_wood: Álás Acaciačoska
+  stripped_birch_log: Álás Soahkečoska
+  stripped_birch_wood: Álás Soahkečoska
+  stripped_dark_oak_log: Álás Sevdnjeseaikačoska
+  stripped_dark_oak_wood: Áláss Sevdnjeseaikačoska
+  stripped_jungle_log: Álás Suhkkesvuovdečoska
+  stripped_jungle_wood: Álás Suhkkesvuovdečoska
+  stripped_oak_log: Álás Eaikačoska
+  stripped_oak_wood: Álas Eaikačoska
+  stripped_spruce_log: Álás Guossačoska
+  stripped_spruce_wood: Álás Guossačoska
+  suspicious_stew: Imašlagan Málli
+  sweet_berry_bush: Váranbuhttu
+  terracotta: Terracotta
+  trapped_chest: Darvvihahttin Bumbá
+  tropical_fish: Tropiskas Guolli
+  tropical_fish_bucket: Tropiskasguolleskállu
+  tropical_fish_spawn_egg: Tropiskas Guoli Ealáskanmonni
+  vine: Šloancasuoidni
+  white_concrete: Vilges Betoŋŋa
+  white_concrete_powder: Vilges Betoŋŋa Pulvar
+  white_glazed_terracotta: Vilges Šelges Terracotta
+  white_terracotta: Vilges Terracotta
   wither_skeleton_skull: Witherdákterikki Oaiveskálžu
+  yellow_concrete: Fiskes Betoŋŋa
+  yellow_concrete_powder: Fiskes Betoŋŋa Pulvar
+  yellow_glazed_terracotta: Fiskes Šelges Terracotta
+  yellow_terracotta: Fiskes Terracotta
+biome:
+  desert: Sáddomearra
+  beach: Sáddogáddi
+  desert_hills: Sáddomearadievát
+  snowy_beach: Muohttás Sáddogáddi
+  desert_lakes: Sáddomearajávrrit
 enchantment:
+  lure: Vuogga
   fire_aspect: Cáhkkehallan
 potion:
+  mundane: Láittas Jugus
+  thick: Suhkkes Jugus
   poison: Mirkkohusa noaidejugus
 splash_potion:
+  mundane: Láittas Diškalanjugus
+  thick: Suhkkes Diškalanjugus
   poison: Diškalanjugus mas mirku
 lingering_potion:
+  water: Bissovaš Čáhcebohtal
+  mundane: Láittas Bissovaš Jugus
+  thick: Suhkkes Bissovaš Jugus
   poison: Bissovaš mirkkohusa noaidejugus
 tipped_arrow:
+  fire_resistance: Njuolla mas Dolla Gierdevašvuohta
   poison: Njuolla mas Mirkoluvvon
 entity:
+  leash_hitch: Lavžečuolbma
   primed_tnt: Cáhkkehuvvon TNT
+  minecart_command: Roggangielká mas Kommándoblohkka
+  minecart_chest: Roggangielká mas Bumbá
+  minecart_furnace: Roggangielká mas Ovdna
+  minecart_hopper: Roggangielká mas Njammaleaddji
+  minecart_mob_spawner: Roggangielká mas Ealáskeaddji
+  cave_spider: Roggeheavdni
   chicken: Vuonccá
+  ocelot: Oselotbussá
+  ender_crystal: Endor Krystalla
+  tropical_fish: Tropiskas Guolli
+  lightning: Álttagas
+  player: Speallár
 effect:
   confusion: VáibmogákkahatGomuoaivi
+  fire_resistance: Dolla Gierdevašvuohta
+  blindness: Čálmmehisvuohta
   poison: Mirkoluvvon
+  glowing: Suotnjarastin
+  conduit_power: Mearrameannudeaddji Fápmu
 dye_color:
   orange: Oránša
+named:
+  player_head_named: Čuojaheaddji %s oaivi
+banner_pattern:
+  '589825': Rutna Guovdosárggis
+villager_profession:
+  armorer: Suodjejeaddji
+  cartographer: Kárttadahkki

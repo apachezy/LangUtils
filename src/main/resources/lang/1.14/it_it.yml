@@ -1,16 +1,31 @@
 # ####################################################
-# Build time: 2021-03-17 16:20:00                    #
+# Build time: 2021-07-04 21:41:57                    #
 # ####################################################
 language:
   code: it_it
   name: Italiano
   region: Italia
 material:
+  allium: Fiore di aglio
+  azure_bluet: Fiori di campo
+  bedrock: Roccia di fondo
   chainmail_leggings: Gambiera di maglia
+  coal_ore: Carbone grezzo
+  cracked_stone_bricks: Mattoni di pietra incrinati
   diamond_leggings: Gambiera di diamante
+  diamond_ore: Diamante grezzo
+  emerald_ore: Smeraldo grezzo
   golden_leggings: Gambiera d'oro
+  gold_ore: Oro grezzo
+  infested_cracked_stone_bricks: Mattoni di pietra incrinati infestati
   iron_leggings: Gambiera di ferro
+  iron_ore: Ferro grezzo
+  lapis_ore: Lapislazzuli grezzo
+  nether_quartz_ore: Quarzo del Nether grezzo
   ocelot_spawn_egg: Uovo generatore di gattopardo
+  potted_allium: Vaso con fiore di aglio
+  potted_azure_bluet: Vaso con fiori di campo
+  redstone_ore: Redstone grezza
   smooth_quartz: Blocco di quarzo levigato
   smooth_quartz_slab: Lastra di quarzo levigato
   smooth_quartz_stairs: Scalini di quarzo levigato
@@ -22,9 +37,11 @@ material:
   smooth_sandstone_stairs: Scalini di arenaria levigata
   smooth_stone: Pietra levigata
   smooth_stone_slab: Lastra di pietra levigata
+  vindicator_spawn_egg: Uovo generatore di difensore
 lingering_potion:
   turtle_master: Pozione persistente del maestro tartaruga
 entity:
+  vindicator: Difensore
   minecart_command: Carrello con blocco comandi
   minecart_chest: Carrello con baule
   minecart_furnace: Carrello con fornace

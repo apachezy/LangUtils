@@ -1,17 +1,87 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:47                    #
+# Build time: 2021-07-04 21:46:02                    #
 # ####################################################
 language:
   code: en_pt
   name: Pirate Speak
   region: The Seven Seas
 material:
+  acacia_pressure_plate: Acacia Booby Trap
+  allium: Pink Fluff
+  andesite: Grey Pebbles
+  anvil: Slab O' Fixin
+  apple: Scurvy's Cure
   beef: Fresh Beef
+  beetroots: Bloody Potato
+  birch_pressure_plate: Birch Booby Trap
+  black_banner: Black Flag
+  black_bed: Dark Bunk
+  black_carpet: Black Rug
+  black_glazed_terracotta: Black Pricey Mosaic
+  black_shulker_box: Black Shulker Box
+  black_stained_glass: Black Crystal
+  black_stained_glass_pane: Black Porthole
+  black_wall_banner: Black Flag
+  black_wool: Black Cloth
+  blue_banner: Blue Flag
+  blue_bed: Blue Bunk
+  blue_carpet: Blue Rug
+  blue_glazed_terracotta: Blue Pricey Mosaic
+  blue_ice: Blue Frost
+  blue_orchid: Beauty o' the Swamps
+  blue_shulker_box: Blue Shulker Box
+  blue_stained_glass: Blue Crystal
+  blue_stained_glass_pane: Blue Porthole
+  blue_wall_banner: Blue Flag
+  blue_wool: Blue Cloth
+  bookshelf: Stack o' Knowledge
   bow: Musket
+  bread: Hard Tack
+  brown_banner: Brown Flag
+  brown_bed: Floor Hammock
+  brown_carpet: Brown Rug
+  brown_glazed_terracotta: Brown Pricey Mosaic
+  brown_mushroom: Tarnish'd 'Shroom
+  brown_shulker_box: Brown Shulker Box
+  brown_stained_glass: Brown Crystal
+  brown_stained_glass_pane: Brown Porthole
+  brown_wall_banner: Brown Flag
+  brown_wool: Brown Cloth
+  carrots: Or'nge Veggies
+  cave_air: Cave Air
+  chainmail_boots: Peg-leg o' Metal Links
+  chest_minecart: Coffer in a Landlubber's Boat
+  chipped_anvil: Chipped Slab O' Fixin
+  chiseled_quartz_block: Carv'd Chunk o' White Rock
+  chiseled_stone_bricks: Carv'd Bricks o' Stone
   clay_ball: Solid Mud
+  coal_block: Chunk o' Fuel
+  coal_ore: Orrre o' Fuel
+  coarse_dirt: Rough Filth
+  cobblestone_slab: Slab o' Pebbles
+  cobblestone_stairs: Stairs o' Pebbles
+  cobblestone_wall: Wall o' Pebbles
   cod: Fresh Cod
+  cod_bucket: Pail o' Cod
+  command_block_minecart: Order Block in a Landlubber's Boat
+  comparator: Redstone Compaaratorrr
+  conduit: Source o' the Seas
+  cooked_cod: Smoked Cod
   cow_spawn_egg: Cow Cackle Fruit
+  cracked_stone_bricks: Cracked Bricks O' Stone
+  cyan_banner: Cyan Flag
+  cyan_bed: Ocean Blue Bunk
+  cyan_carpet: Cyan Rug
+  cyan_glazed_terracotta: Cyan Pricey Mosaic
+  cyan_shulker_box: Cyan Shulker Box
+  cyan_stained_glass: Cyan Crystal
+  cyan_stained_glass_pane: Cyan Porthole
+  cyan_wall_banner: Cyan Flag
+  cyan_wool: Cyan Cloth
+  damaged_anvil: Crack'd Slab O' Fixin
+  dandelion: Dandelion
   dark_oak_button: Knob o' Dark Oak
+  dark_oak_fence: Dark Oak Fence
   dark_oak_leaves: Leaves o' Dark Oak
   dark_oak_log: Log o' Dark Oak
   dark_oak_planks: Planks o' Dark Oak
@@ -19,13 +89,969 @@ material:
   dark_oak_sapling: Dark Oak Meager shrub
   dark_oak_stairs: Stairs o' Dark Oak
   dark_oak_trapdoor: Hatch o' Dark Oak
+  dark_oak_wood: Dusky Oak Timber Log
+  dark_prismarine: Dark Prismarine
+  dark_prismarine_slab: Slab o' Dark Prismarine
+  dark_prismarine_stairs: Stairs o' Dark Prismarine
+  daylight_detector: Sunrise Finder
+  diamond_axe: Hatchet o' Diamond
+  diamond_block: Chunk o' Diamond
+  diamond_boots: Peg-leg o' Diamond
+  diamond_hoe: Farmin' Stick o' Diamond
+  diamond_leggings: Greaves o' Diamond
+  diamond_pickaxe: Diamond Pickaxe
+  diamond_shovel: Spade o' Diamond
+  diamond_sword: Cutlass o' Diamond
+  diorite: White Pebbles
+  dropper: Broken Cannon
+  emerald_block: Chunk o' Emerald
+  emerald_ore: Orrre o' Emerald
+  enchanting_table: Witchcraft Bench
+  ender_chest: Ender Coffer
+  flint: Pointy Rock
+  flint_and_steel: Ship's Bane
+  frosted_ice: Frosty Frost
+  furnace_minecart: Oven in a Landlubber's Boat
+  golden_axe: Hatchet o' Gold
+  golden_boots: Peg-leg o' Gold
+  golden_hoe: Farmin' Stick o' Gold
+  golden_leggings: Greaves o' Gold
+  golden_shovel: Spade o' Gold
+  golden_sword: Cutlass o' Gold
+  gold_block: Chunk o' Gold
+  gold_ingot: Bullion o' Gold
+  gold_ore: Orrre o' Gold
+  granite: Brown Pebbles
+  gray_banner: Gray Flag
+  gray_bed: Dull Bunk
+  gray_carpet: Gray Rug
+  gray_glazed_terracotta: Gray Pricey Mosaic
+  gray_shulker_box: Gray Shulker Box
+  gray_stained_glass: Gray Crystal
+  gray_stained_glass_pane: Gray Porthole
+  gray_wall_banner: Gray Flag
+  gray_wool: Gray Cloth
+  green_banner: Green Flag
+  green_bed: Camouflaged Bunk
+  green_carpet: Green Rug
+  green_glazed_terracotta: Green Pricey Mosaic
+  green_shulker_box: Green Shulker Box
+  green_stained_glass: Green Crystal
+  green_stained_glass_pane: Green Porthole
+  green_wall_banner: Green Flag
+  green_wool: Green Cloth
+  hay_block: Bale o' Hops
+  heavy_weighted_pressure_plate: Booby Trap o' Heavy heft
+  hopper: Suckin' Device
+  hopper_minecart: Suckin' Device in a Landlubber's Boat
+  infested_chiseled_stone_bricks: Infested Carv'd Bricks o' Rock
+  infested_cobblestone: Infested Pile o' pebbles
+  infested_cracked_stone_bricks: Infested Devalued Bricks O' Rock
+  infested_mossy_stone_bricks: Infested Slimy Bricks O' Rock
+  infested_stone: Infested Rock
+  infested_stone_bricks: Infested Bricks o' Rock
+  ink_sac: Kraken's Paint
+  iron_axe: Hatchet o' Steel
+  iron_bars: Bars o' Steel
+  iron_block: Chunk o' Steel
+  iron_boots: Peg-leg o' Steel
+  iron_hoe: Farmin' Stick o' Steel
+  iron_ingot: Bullion o' Steel
+  iron_leggings: Greaves o' Steel
+  iron_ore: Orrre o' Steel
+  iron_shovel: Spade o' Steel
+  iron_sword: Cutlass o' Steel
+  iron_trapdoor: Hatch o' Steel
+  jukebox: Barrel Organ
+  jungle_pressure_plate: Jungle Booby Trap
+  knowledge_book: Tome Of Intellect
+  lapis_block: Chunk o' Lāzhward
+  lapis_ore: Orrre o' Lāzhward
+  lava: Molten Rock
+  leather_boots: Peg-leg o' Leather
+  leather_helmet: Bandana o' Leather
+  leather_leggings: Breeches o' Leather
+  light_blue_banner: Light Blue Flag
+  light_blue_bed: Sky Blue Bunk
+  light_blue_carpet: Light Blue Rug
+  light_blue_glazed_terracotta: Light Blue Pricey Mosaic
+  light_blue_shulker_box: Light Blue Shulker Box
+  light_blue_stained_glass: Light Blue Crystal
+  light_blue_stained_glass_pane: Light Blue Porthole
+  light_blue_wall_banner: Light Blue Flag
+  light_blue_wool: Light Blue Cloth
+  light_gray_banner: Light Gray Flag
+  light_gray_bed: Dusty Bunk
+  light_gray_carpet: Light Gray Rug
+  light_gray_glazed_terracotta: Light Gray Pricey Mosaic
+  light_gray_shulker_box: Light Gray Shulker Box
+  light_gray_stained_glass: Light Gray Crystal
+  light_gray_stained_glass_pane: Light Gray Porthole
+  light_gray_wall_banner: Light Gray Flag
+  light_gray_wool: Light Gray Cloth
+  light_weighted_pressure_plate: Booby Trap o' Light heft
+  lime_banner: Lime Flag
+  lime_carpet: Lime Rug
+  lime_glazed_terracotta: Lime Pricey Mosaic
+  lime_shulker_box: Lime Shulker Box
+  lime_stained_glass: Lime Crystal
+  lime_stained_glass_pane: Lime Porthole
+  lime_wall_banner: Lime Flag
+  lime_wool: Lime Cloth
+  magenta_banner: Magenta Flag
+  magenta_bed: Flamboyant Bunk
+  magenta_carpet: Magenta Rug
+  magenta_glazed_terracotta: Magenta Pricey Mosaic
+  magenta_shulker_box: Magenta Shulker Box
+  magenta_stained_glass: Magenta Crystal
+  magenta_stained_glass_pane: Magenta Porthole
+  magenta_wall_banner: Magenta Flag
+  magenta_wool: Magenta Cloth
+  mossy_cobblestone: Heap o' fluffy pebbles
+  mossy_cobblestone_wall: Wall o' Slimy Pebbles
+  mossy_stone_bricks: Slimy Bricks O' Stone
+  mushroom_stew: '''Shroom Goulash'
+  mycelium: Rottin' Spores
+  nether_portal: Door o' Nether
+  nether_quartz_ore: Orrre o' White Nether Rock
+  oak_pressure_plate: Oak Booby Trap
+  orange_banner: Orange Flag
+  orange_bed: Orange Bunk
+  orange_carpet: Orange Rug
+  orange_glazed_terracotta: Orange Pricey Mosaic
+  orange_shulker_box: Orange Shulker Box
+  orange_stained_glass: Orange Crystal
+  orange_stained_glass_pane: Orange Porthole
+  orange_tulip: Or'eng Tulip
+  orange_wall_banner: Orange Flag
+  orange_wool: Orange Cloth
+  packed_ice: Hard Frost
+  painting: Paintin'
+  pink_banner: Pink Flag
+  pink_bed: Girly Bunk
+  pink_carpet: Pink Rug
+  pink_glazed_terracotta: Pink Pricey Mosaic
+  pink_shulker_box: Pink Shulker Box
+  pink_stained_glass: Pink Crystal
+  pink_stained_glass_pane: Pink Porthole
+  pink_tulip: Pretty Tulip
+  pink_wall_banner: Pink Flag
+  pink_wool: Pink Cloth
+  player_head: Skull o' Sailor
+  player_wall_head: Wall Skull o' Sailor
+  podzol: Pine Straw
+  polished_andesite: Good lookin' Grey Pebbles
+  poppy: Scarlet Flower
   porkchop: Fresh Pig Meat
   potted_dark_oak_sapling: Dirt Vase o' Dark Oak Meager shrub
+  prismarine_shard: Shard o' Prismarine
+  prismarine_slab: Slab o' Prismarine
+  prismarine_stairs: Stairs o' Prismarine
+  pufferfish_bucket: Pail o' Blowfish
+  purple_banner: Purple Flag
+  purple_bed: Purple Bunk
+  purple_carpet: Purple Rug
+  purple_glazed_terracotta: Purple Pricey Mosaic
+  purple_shulker_box: Purple Shulker Box
+  purple_stained_glass: Purple Crystal
+  purple_stained_glass_pane: Purple Porthole
+  purple_wall_banner: Purple Flag
+  purple_wool: Purple Cloth
+  purpur_block: Purpur Block
+  purpur_pillar: Purpur Post
+  purpur_slab: Purpur Slab
+  purpur_stairs: Purpur Stairs
+  quartz: White Nether Rock
+  quartz_block: Chunk o' White Rock
+  quartz_pillar: Post o' White Rock
+  quartz_slab: Slab o' White Rock
+  quartz_stairs: Stairs o' White Rock
   redstone: Redstone
+  redstone_block: Chunk o' Redstone
   redstone_wire: Redstone Powder
+  red_banner: Scarlet Flag
+  red_bed: Royal Bunk
+  red_carpet: Scarlet Rug
+  red_concrete: Red Cement
+  red_concrete_powder: Red Cement Dusts
+  red_glazed_terracotta: Scarlet Pricey Mosaic
+  red_shulker_box: Scarlet Shulker Box
+  red_stained_glass: Scarlet Crystal
+  red_stained_glass_pane: Scarlet Porthole
+  red_tulip: Scarlet Tulip
+  red_wall_banner: Scarlet Flag
+  red_wool: Scarlet Cloth
+  repeater: Redstone Repeatarrr
+  salmon_bucket: Pail o' Salmon
+  seagrass: Grass o' Sea
+  shulker_box: Shulker Box
+  skeleton_skull: Skull o' the Bag o' Bones
+  skeleton_wall_skull: Skelly Wall Skull
   smooth_quartz: Smooth Quartz
+  spawner: Cage o' Demons
+  spectral_arrow: Magic Bolt
+  spruce_pressure_plate: Spruce Booby Trap
+  stone_axe: Hatchet o' Rock
+  stone_bricks: Bricks o' Rock
   stone_brick_slab: Slab o' Stone Brick
+  stone_brick_stairs: Stairs o' Brick o' Rock
+  stone_hoe: Farmin' Stick o' Rock
+  stone_pressure_plate: Stone Booby Trap
+  stone_shovel: Spade o' Rock
+  stone_slab: Slab o' Stone
+  stone_sword: Cutlass o' Rock
+  string: Cheap Rope
   stripped_dark_oak_log: Bare Dark Oak Timber
   stripped_dark_oak_wood: Bare Dark Oak Wood
+  structure_block: Ship Sav'r
+  sugar_cane: Sugar Reed
+  tall_grass: Ye Mighty Grass
+  tall_seagrass: Mighty Grass o' Sea
+  tipped_arrow: Tipped Bolt
+  tnt: Powder Keg
+  tnt_minecart: Powder Keg in a Landlubber's Boat
+  totem_of_undying: Ye Jewel of Life
+  tropical_fish_bucket: Pail o' Tropical Fish
+  void_air: Davy Jones' Air
+  wall_torch: Wall Torch
+  wheat_seeds: Seeds o' Hops
+  white_banner: White Flag
+  white_bed: Pale Bunk
+  white_carpet: White Rug
+  white_glazed_terracotta: White Pricey Mosaic
+  white_shulker_box: White Shulker Box
+  white_stained_glass: White Crystal
+  white_stained_glass_pane: White Porthole
+  white_tulip: Snowy Tulip
+  white_wall_banner: White Flag
+  white_wool: White Cloth
+  wither_skeleton_skull: Skull o' Wither Bag o' Bones
+  wither_skeleton_wall_skull: Wither Skelly Wall Skull
+  wooden_axe: Hatchet o' Timber
+  wooden_hoe: Farmin' Stick o' Timber
+  wooden_shovel: Spade o' Timber
+  wooden_sword: Cutlass o' Timber
+  yellow_banner: Yellow Flag
+  yellow_bed: Urine Bunk
+  yellow_carpet: Yellow Rug
+  yellow_glazed_terracotta: Yellow Pricey Mosaic
+  yellow_shulker_box: Yellow Shulker Box
+  yellow_stained_glass: Yellow Crystal
+  yellow_stained_glass_pane: Yellow Porthole
+  yellow_wall_banner: Yellow Flag
+  yellow_wool: Yellow Cloth
+  zombie_head: Undead Sailor Head
+  zombie_wall_head: Wall Skull uv Undead Sailor
+enchantment:
+  aqua_affinity: Rudder Lover
+  lure: Stronger Bait
+  fire_aspect: Embered Cutlass
+  sweeping: Edged Saber
+  bane_of_arthropods: Critter Cutter
+  silk_touch: Soft Hands
+  feather_falling: Wind in Yer Britches
+potion:
+  invisibility: Grog o' ghostliness
+  jump: Grog o' Jumpin'
+  speed: Grog o' full sails
+  water_breathing: Grog o' Mermaid's Breath
+splash_potion:
+  invisibility: Grenade o' tha Ghosts
+  jump: Grenade o' Jumpin'
+  speed: Grenade o' full sails
+  water_breathing: Grenade o' th' Mermaids
+  poison: Grenade o' Poison
+lingering_potion:
+  uncraftable: Uncraftable Bottled fog
+  mundane: Useless Bottled fog
+  thick: Rummy Bottled fog
+  awkward: Odd Bottled fog
+  night_vision: Bottled fog o' Moonlight
+  invisibility: Bottled fog o' Ghost
+  jump: Bottled fog o' Leapin'
+  fire_resistance: Bottled fog o' Flame's Bane
+  speed: Bottled fog o' full sails
+  slowness: Bottled fog o' Sloth
+  water_breathing: Bottled Fog o' th' Mermaids
+  instant_heal: Bottled fog o' Healin'
+  instant_damage: Bottled fog o' Keelhaul
+  poison: Bottled fog o' Poison
+  regen: Bottled fog o' Feelin' Bett'r Slowly
+  strength: Bottled fog o' Rum
+  weakness: Bottled fog o' Laziness
+  luck: Bottled fog o' Luck
+  slow_falling: Bottled fog o' Mary Poppins' Syndrome
+tipped_arrow:
+  uncraftable: Bolt o' witchery that ye can't make
+  jump: Bolt o' Jumpin'
+  water_breathing: Bolt o' th' Mermaids
+entity:
+  area_effect_cloud: The Mists of Sorcery
+  elder_guardian: Great Sea Lurker
+  wither_skeleton: Corrupted Bag o' Bones
+  stray: Wandering Bag o' Bones
+  leash_hitch: Rope Knot
+  painting: Paintin'
+  snowball: Ball o' Snow
+  small_fireball: Small Cannonball
+  husk: Heated Sailor
+  spectral_arrow: Magic Bolt
+  shulker_bullet: Shulker Cannonball
+  dragon_fireball: Wyvern Cannonball
+  zombie_villager: Undead Landlubber
+  skeleton_horse: Bag o' Bones' Brumby
+  zombie_horse: Undead Brumby
+  donkey: Furry Cargo
+  evoker_fangs: Evil Wizard Fangs
+  evoker: Evil Wizard
+  minecart_command: Order Block in a Landlubber's Boat
+  minecart: Landlubber's Boat
+  minecart_chest: Coffer in a Landlubber's Boat
+  minecart_furnace: Oven in a Landlubber's Boat
+  minecart_tnt: Powder Keg in a Landlubber's Boat
+  minecart_hopper: Suckin' Device in a Landlubber's Boat
+  minecart_mob_spawner: Land lubber's boat w'th Cage o' Demons
+  skeleton: Bag o' Bones
+  spider: Night Bug
+  giant: Ten-fathoms-tall man
+  zombie: Undead Sailor
+  slime: Cube o' Slime
+  cave_spider: Cave Horror
+  silverfish: Bilge Rat
+  blaze: Blisterin' Blaze
+  ender_dragon: Ender Wyvern
+  bat: Flying Mouse
+  guardian: Sea Lurker
+  mushroom_cow: Mooshroom
+  snowman: Golem o' Snow
+  ocelot: Cat o' Jungles
+  iron_golem: Golem o' Steel
+  polar_bear: Polar Bear
+  llama: Spitting Sheep
+  llama_spit: Sheep Spit
+  trident: Poseidon's Fightn' Fork
+  cod: Cod
+  tropical_fish: Tropical Fish
+  drowned: Sunken Sailor
+  dolphin: Treasure Hound
+  fishing_hook: Fishin' Bobber
+  player: Crewmate
+effect:
+  harm: Blast of Pain
 tropical_fish_type:
   sunstreak: SunStreak
+named:
+  player_head_named: '%s''s Skull'
+tropical_fish_name:
+  '117441793': Butterfly Fish
+banner_pattern:
+  '65536': White Base Dexter Canton
+  '65537': Orange Base Dexter Canton
+  '65538': Magenta Base Dexter Canton
+  '65539': Light Blue Base Dexter Canton
+  '65540': Yellow Base Dexter Canton
+  '65541': Lime Base Dexter Canton
+  '65542': Pink Base Dexter Canton
+  '65543': Gray Base Dexter Canton
+  '65544': Light Gray Base Dexter Canton
+  '65545': Cyan Base Dexter Canton
+  '65546': Purple Base Dexter Canton
+  '65547': Blue Base Dexter Canton
+  '65548': Brown Base Dexter Canton
+  '65549': Green Base Dexter Canton
+  '65550': Scarlet Base Dexter Canton
+  '65551': Black Base Dexter Canton
+  '131072': White Base Sinister Canton
+  '131073': Orange Base Sinister Canton
+  '131074': Magenta Base Sinister Canton
+  '131075': Light Blue Base Sinister Canton
+  '131076': Yellow Base Sinister Canton
+  '131077': Lime Base Sinister Canton
+  '131078': Pink Base Sinister Canton
+  '131079': Gray Base Sinister Canton
+  '131080': Light Gray Base Sinister Canton
+  '131081': Cyan Base Sinister Canton
+  '131082': Purple Base Sinister Canton
+  '131083': Blue Base Sinister Canton
+  '131084': Brown Base Sinister Canton
+  '131085': Green Base Sinister Canton
+  '131086': Scarlet Base Sinister Canton
+  '131087': Black Base Sinister Canton
+  '196608': White Chief Dexter Canton
+  '196609': Orange Chief Dexter Canton
+  '196610': Magenta Chief Dexter Canton
+  '196611': Light Blue Chief Dexter Canton
+  '196612': Yellow Chief Dexter Canton
+  '196613': Lime Chief Dexter Canton
+  '196614': Pink Chief Dexter Canton
+  '196615': Gray Chief Dexter Canton
+  '196616': Light Gray Chief Dexter Canton
+  '196617': Cyan Chief Dexter Canton
+  '196618': Purple Chief Dexter Canton
+  '196619': Blue Chief Dexter Canton
+  '196620': Brown Chief Dexter Canton
+  '196621': Green Chief Dexter Canton
+  '196622': Scarlet Chief Dexter Canton
+  '196623': Black Chief Dexter Canton
+  '262144': White Chief Sinister Canton
+  '262145': Orange Chief Sinister Canton
+  '262146': Magenta Chief Sinister Canton
+  '262147': Light Blue Chief Sinister Canton
+  '262148': Yellow Chief Sinister Canton
+  '262149': Lime Chief Sinister Canton
+  '262150': Pink Chief Sinister Canton
+  '262151': Gray Chief Sinister Canton
+  '262152': Light Gray Chief Sinister Canton
+  '262153': Cyan Chief Sinister Canton
+  '262154': Purple Chief Sinister Canton
+  '262155': Blue Chief Sinister Canton
+  '262156': Brown Chief Sinister Canton
+  '262157': Green Chief Sinister Canton
+  '262158': Scarlet Chief Sinister Canton
+  '262159': Black Chief Sinister Canton
+  '327680': White Base
+  '327681': Orange Base
+  '327682': Magenta Base
+  '327683': Light Blue Base
+  '327684': Yellow Base
+  '327685': Lime Base
+  '327686': Pink Base
+  '327687': Gray Base
+  '327688': Light Gray Base
+  '327689': Cyan Base
+  '327690': Purple Base
+  '327691': Blue Base
+  '327692': Brown Base
+  '327693': Green Base
+  '327694': Scarlet Base
+  '327695': Black Base
+  '393216': White Chief
+  '393217': Orange Chief
+  '393218': Magenta Chief
+  '393219': Light Blue Chief
+  '393220': Yellow Chief
+  '393221': Lime Chief
+  '393222': Pink Chief
+  '393223': Gray Chief
+  '393224': Light Gray Chief
+  '393225': Cyan Chief
+  '393226': Purple Chief
+  '393227': Blue Chief
+  '393228': Brown Chief
+  '393229': Green Chief
+  '393230': Scarlet Chief
+  '393231': Black Chief
+  '458752': White Pale Dexter
+  '458753': Orange Pale Dexter
+  '458754': Magenta Pale Dexter
+  '458755': Light Blue Pale Dexter
+  '458756': Yellow Pale Dexter
+  '458757': Lime Pale Dexter
+  '458758': Pink Pale Dexter
+  '458759': Gray Pale Dexter
+  '458760': Light Gray Pale Dexter
+  '458761': Cyan Pale Dexter
+  '458762': Purple Pale Dexter
+  '458763': Blue Pale Dexter
+  '458764': Brown Pale Dexter
+  '458765': Green Pale Dexter
+  '458766': Scarlet Pale Dexter
+  '458767': Black Pale Dexter
+  '524288': White Pale Sinister
+  '524289': Orange Pale Sinister
+  '524290': Magenta Pale Sinister
+  '524291': Light Blue Pale Sinister
+  '524292': Yellow Pale Sinister
+  '524293': Lime Pale Sinister
+  '524294': Pink Pale Sinister
+  '524295': Gray Pale Sinister
+  '524296': Light Gray Pale Sinister
+  '524297': Cyan Pale Sinister
+  '524298': Purple Pale Sinister
+  '524299': Blue Pale Sinister
+  '524300': Brown Pale Sinister
+  '524301': Green Pale Sinister
+  '524302': Scarlet Pale Sinister
+  '524303': Black Pale Sinister
+  '589824': White Pale
+  '589825': Orange Pale
+  '589826': Magenta Pale
+  '589827': Light Blue Pale
+  '589828': Yellow Pale
+  '589829': Lime Pale
+  '589830': Pink Pale
+  '589831': Gray Pale
+  '589832': Light Gray Pale
+  '589833': Cyan Pale
+  '589834': Purple Pale
+  '589835': Blue Pale
+  '589836': Brown Pale
+  '589837': Green Pale
+  '589838': Scarlet Pale
+  '589839': Black Pale
+  '655360': White Fess
+  '655361': Orange Fess
+  '655362': Magenta Fess
+  '655363': Light Blue Fess
+  '655364': Yellow Fess
+  '655365': Lime Fess
+  '655366': Pink Fess
+  '655367': Gray Fess
+  '655368': Light Gray Fess
+  '655369': Cyan Fess
+  '655370': Purple Fess
+  '655371': Blue Fess
+  '655372': Brown Fess
+  '655373': Green Fess
+  '655374': Scarlet Fess
+  '655375': Black Fess
+  '720896': White Bend
+  '720897': Orange Bend
+  '720898': Magenta Bend
+  '720899': Light Blue Bend
+  '720900': Yellow Bend
+  '720901': Lime Bend
+  '720902': Pink Bend
+  '720903': Gray Bend
+  '720904': Light Gray Bend
+  '720905': Cyan Bend
+  '720906': Purple Bend
+  '720907': Blue Bend
+  '720908': Brown Bend
+  '720909': Green Bend
+  '720910': Scarlet Bend
+  '720911': Black Bend
+  '786432': White Bend Sinister
+  '786433': Orange Bend Sinister
+  '786434': Magenta Bend Sinister
+  '786435': Light Blue Bend Sinister
+  '786436': Yellow Bend Sinister
+  '786437': Lime Bend Sinister
+  '786438': Pink Bend Sinister
+  '786439': Gray Bend Sinister
+  '786440': Light Gray Bend Sinister
+  '786441': Cyan Bend Sinister
+  '786442': Purple Bend Sinister
+  '786443': Blue Bend Sinister
+  '786444': Brown Bend Sinister
+  '786445': Green Bend Sinister
+  '786446': Scarlet Bend Sinister
+  '786447': Black Bend Sinister
+  '851968': White Paly
+  '851969': Orange Paly
+  '851970': Magenta Paly
+  '851971': Light Blue Paly
+  '851972': Yellow Paly
+  '851973': Lime Paly
+  '851974': Pink Paly
+  '851975': Gray Paly
+  '851976': Light Gray Paly
+  '851977': Cyan Paly
+  '851978': Purple Paly
+  '851979': Blue Paly
+  '851980': Brown Paly
+  '851981': Green Paly
+  '851982': Scarlet Paly
+  '851983': Black Paly
+  '917504': White Saltire
+  '917505': Orange Saltire
+  '917506': Magenta Saltire
+  '917507': Light Blue Saltire
+  '917508': Yellow Saltire
+  '917509': Lime Saltire
+  '917510': Pink Saltire
+  '917511': Gray Saltire
+  '917512': Light Gray Saltire
+  '917513': Cyan Saltire
+  '917514': Purple Saltire
+  '917515': Blue Saltire
+  '917516': Brown Saltire
+  '917517': Green Saltire
+  '917518': Scarlet Saltire
+  '917519': Black Saltire
+  '983040': White Cross
+  '983041': Orange Cross
+  '983042': Magenta Cross
+  '983043': Light Blue Cross
+  '983044': Yellow Cross
+  '983045': Lime Cross
+  '983046': Pink Cross
+  '983047': Gray Cross
+  '983048': Light Gray Cross
+  '983049': Cyan Cross
+  '983050': Purple Cross
+  '983051': Blue Cross
+  '983052': Brown Cross
+  '983053': Green Cross
+  '983054': Scarlet Cross
+  '983055': Black Cross
+  '1048576': White Chevron
+  '1048577': Orange Chevron
+  '1048578': Magenta Chevron
+  '1048579': Light Blue Chevron
+  '1048580': Yellow Chevron
+  '1048581': Lime Chevron
+  '1048582': Pink Chevron
+  '1048583': Gray Chevron
+  '1048584': Light Gray Chevron
+  '1048585': Cyan Chevron
+  '1048586': Purple Chevron
+  '1048587': Blue Chevron
+  '1048588': Brown Chevron
+  '1048589': Green Chevron
+  '1048590': Scarlet Chevron
+  '1048591': Black Chevron
+  '1114112': White Inverted Chevron
+  '1114113': Orange Inverted Chevron
+  '1114114': Magenta Inverted Chevron
+  '1114115': Light Blue Inverted Chevron
+  '1114116': Yellow Inverted Chevron
+  '1114117': Lime Inverted Chevron
+  '1114118': Pink Inverted Chevron
+  '1114119': Gray Inverted Chevron
+  '1114120': Light Gray Inverted Chevron
+  '1114121': Cyan Inverted Chevron
+  '1114122': Purple Inverted Chevron
+  '1114123': Blue Inverted Chevron
+  '1114124': Brown Inverted Chevron
+  '1114125': Green Inverted Chevron
+  '1114126': Scarlet Inverted Chevron
+  '1114127': Black Inverted Chevron
+  '1179648': White Base Indented
+  '1179649': Orange Base Indented
+  '1179650': Magenta Base Indented
+  '1179651': Light Blue Base Indented
+  '1179652': Yellow Base Indented
+  '1179653': Lime Base Indented
+  '1179654': Pink Base Indented
+  '1179655': Gray Base Indented
+  '1179656': Light Gray Base Indented
+  '1179657': Cyan Base Indented
+  '1179658': Purple Base Indented
+  '1179659': Blue Base Indented
+  '1179660': Brown Base Indented
+  '1179661': Green Base Indented
+  '1179662': Scarlet Base Indented
+  '1179663': Black Base Indented
+  '1245184': White Chief Indented
+  '1245185': Orange Chief Indented
+  '1245186': Magenta Chief Indented
+  '1245187': Light Blue Chief Indented
+  '1245188': Yellow Chief Indented
+  '1245189': Lime Chief Indented
+  '1245190': Pink Chief Indented
+  '1245191': Gray Chief Indented
+  '1245192': Light Gray Chief Indented
+  '1245193': Cyan Chief Indented
+  '1245194': Purple Chief Indented
+  '1245195': Blue Chief Indented
+  '1245196': Brown Chief Indented
+  '1245197': Green Chief Indented
+  '1245198': Scarlet Chief Indented
+  '1245199': Black Chief Indented
+  '1310720': White Per Bend Sinister
+  '1310721': Orange Per Bend Sinister
+  '1310722': Magenta Per Bend Sinister
+  '1310723': Light Blue Per Bend Sinister
+  '1310724': Yellow Per Bend Sinister
+  '1310725': Lime Per Bend Sinister
+  '1310726': Pink Per Bend Sinister
+  '1310727': Gray Per Bend Sinister
+  '1310728': Light Gray Per Bend Sinister
+  '1310729': Cyan Per Bend Sinister
+  '1310730': Purple Per Bend Sinister
+  '1310731': Blue Per Bend Sinister
+  '1310732': Brown Per Bend Sinister
+  '1310733': Green Per Bend Sinister
+  '1310734': Scarlet Per Bend Sinister
+  '1310735': Black Per Bend Sinister
+  '1376256': White Per Bend Sinister Inverted
+  '1376257': Orange Per Bend Sinister Inverted
+  '1376258': Magenta Per Bend Sinister Inverted
+  '1376259': Light Blue Per Bend Sinister Inverted
+  '1376260': Yellow Per Bend Sinister Inverted
+  '1376261': Lime Per Bend Sinister Inverted
+  '1376262': Pink Per Bend Sinister Inverted
+  '1376263': Gray Per Bend Sinister Inverted
+  '1376264': Light Gray Per Bend Sinister Inverted
+  '1376265': Cyan Per Bend Sinister Inverted
+  '1376266': Purple Per Bend Sinister Inverted
+  '1376267': Blue Per Bend Sinister Inverted
+  '1376268': Brown Per Bend Sinister Inverted
+  '1376269': Green Per Bend Sinister Inverted
+  '1376270': Scarlet Per Bend Sinister Inverted
+  '1376271': Black Per Bend Sinister Inverted
+  '1441792': White Per Bend Inverted
+  '1441793': Orange Per Bend Inverted
+  '1441794': Magenta Per Bend Inverted
+  '1441795': Light Blue Per Bend Inverted
+  '1441796': Yellow Per Bend Inverted
+  '1441797': Lime Per Bend Inverted
+  '1441798': Pink Per Bend Inverted
+  '1441799': Gray Per Bend Inverted
+  '1441800': Light Gray Per Bend Inverted
+  '1441801': Cyan Per Bend Inverted
+  '1441802': Purple Per Bend Inverted
+  '1441803': Blue Per Bend Inverted
+  '1441804': Brown Per Bend Inverted
+  '1441805': Green Per Bend Inverted
+  '1441806': Scarlet Per Bend Inverted
+  '1441807': Black Per Bend Inverted
+  '1507328': White Per Bend
+  '1507329': Orange Per Bend
+  '1507330': Magenta Per Bend
+  '1507331': Light Blue Per Bend
+  '1507332': Yellow Per Bend
+  '1507333': Lime Per Bend
+  '1507334': Pink Per Bend
+  '1507335': Gray Per Bend
+  '1507336': Light Gray Per Bend
+  '1507337': Cyan Per Bend
+  '1507338': Purple Per Bend
+  '1507339': Blue Per Bend
+  '1507340': Brown Per Bend
+  '1507341': Green Per Bend
+  '1507342': Scarlet Per Bend
+  '1507343': Black Per Bend
+  '1572864': White Roundel
+  '1572865': Orange Roundel
+  '1572866': Magenta Roundel
+  '1572867': Light Blue Roundel
+  '1572868': Yellow Roundel
+  '1572869': Lime Roundel
+  '1572870': Pink Roundel
+  '1572871': Gray Roundel
+  '1572872': Light Gray Roundel
+  '1572873': Cyan Roundel
+  '1572874': Purple Roundel
+  '1572875': Blue Roundel
+  '1572876': Brown Roundel
+  '1572877': Green Roundel
+  '1572878': Scarlet Roundel
+  '1572879': Black Roundel
+  '1638400': White Lozenge
+  '1638401': Orange Lozenge
+  '1638402': Magenta Lozenge
+  '1638403': Light Blue Lozenge
+  '1638404': Yellow Lozenge
+  '1638405': Lime Lozenge
+  '1638406': Pink Lozenge
+  '1638407': Gray Lozenge
+  '1638408': Light Gray Lozenge
+  '1638409': Cyan Lozenge
+  '1638410': Purple Lozenge
+  '1638411': Blue Lozenge
+  '1638412': Brown Lozenge
+  '1638413': Green Lozenge
+  '1638414': Scarlet Lozenge
+  '1638415': Black Lozenge
+  '1703936': White Per Pale
+  '1703937': Orange Per Pale
+  '1703938': Magenta Per Pale
+  '1703939': Light Blue Per Pale
+  '1703940': Yellow Per Pale
+  '1703941': Lime Per Pale
+  '1703942': Pink Per Pale
+  '1703943': Gray Per Pale
+  '1703944': Light Gray Per Pale
+  '1703945': Cyan Per Pale
+  '1703946': Purple Per Pale
+  '1703947': Blue Per Pale
+  '1703948': Brown Per Pale
+  '1703949': Green Per Pale
+  '1703950': Scarlet Per Pale
+  '1703951': Black Per Pale
+  '1769472': White Per Fess
+  '1769473': Orange Per Fess
+  '1769474': Magenta Per Fess
+  '1769475': Light Blue Per Fess
+  '1769476': Yellow Per Fess
+  '1769477': Lime Per Fess
+  '1769478': Pink Per Fess
+  '1769479': Gray Per Fess
+  '1769480': Light Gray Per Fess
+  '1769481': Cyan Per Fess
+  '1769482': Purple Per Fess
+  '1769483': Blue Per Fess
+  '1769484': Brown Per Fess
+  '1769485': Green Per Fess
+  '1769486': Scarlet Per Fess
+  '1769487': Black Per Fess
+  '1835008': White Per Pale Inverted
+  '1835009': Orange Per Pale Inverted
+  '1835010': Magenta Per Pale Inverted
+  '1835011': Light Blue Per Pale Inverted
+  '1835012': Yellow Per Pale Inverted
+  '1835013': Lime Per Pale Inverted
+  '1835014': Pink Per Pale Inverted
+  '1835015': Gray Per Pale Inverted
+  '1835016': Light Gray Per Pale Inverted
+  '1835017': Cyan Per Pale Inverted
+  '1835018': Purple Per Pale Inverted
+  '1835019': Blue Per Pale Inverted
+  '1835020': Brown Per Pale Inverted
+  '1835021': Green Per Pale Inverted
+  '1835022': Scarlet Per Pale Inverted
+  '1835023': Black Per Pale Inverted
+  '1900544': White Per Fess Inverted
+  '1900545': Orange Per Fess Inverted
+  '1900546': Magenta Per Fess Inverted
+  '1900547': Light Blue Per Fess Inverted
+  '1900548': Yellow Per Fess Inverted
+  '1900549': Lime Per Fess Inverted
+  '1900550': Pink Per Fess Inverted
+  '1900551': Gray Per Fess Inverted
+  '1900552': Light Gray Per Fess Inverted
+  '1900553': Cyan Per Fess Inverted
+  '1900554': Purple Per Fess Inverted
+  '1900555': Blue Per Fess Inverted
+  '1900556': Brown Per Fess Inverted
+  '1900557': Green Per Fess Inverted
+  '1900558': Scarlet Per Fess Inverted
+  '1900559': Black Per Fess Inverted
+  '1966080': White Bordure
+  '1966081': Orange Bordure
+  '1966082': Magenta Bordure
+  '1966083': Light Blue Bordure
+  '1966084': Yellow Bordure
+  '1966085': Lime Bordure
+  '1966086': Pink Bordure
+  '1966087': Gray Bordure
+  '1966088': Light Gray Bordure
+  '1966089': Cyan Bordure
+  '1966090': Purple Bordure
+  '1966091': Blue Bordure
+  '1966092': Brown Bordure
+  '1966093': Green Bordure
+  '1966094': Scarlet Bordure
+  '1966095': Black Bordure
+  '2031616': White Bordure Indented
+  '2031617': Orange Bordure Indented
+  '2031618': Magenta Bordure Indented
+  '2031619': Light Blue Bordure Indented
+  '2031620': Yellow Bordure Indented
+  '2031621': Lime Bordure Indented
+  '2031622': Pink Bordure Indented
+  '2031623': Gray Bordure Indented
+  '2031624': Light Gray Bordure Indented
+  '2031625': Cyan Bordure Indented
+  '2031626': Purple Bordure Indented
+  '2031627': Blue Bordure Indented
+  '2031628': Brown Bordure Indented
+  '2031629': Green Bordure Indented
+  '2031630': Scarlet Bordure Indented
+  '2031631': Black Bordure Indented
+  '2097152': White Creeper Charge
+  '2097153': Orange Creeper Charge
+  '2097154': Magenta Creeper Charge
+  '2097155': Light Blue Creeper Charge
+  '2097156': Yellow Creeper Charge
+  '2097157': Lime Creeper Charge
+  '2097158': Pink Creeper Charge
+  '2097159': Gray Creeper Charge
+  '2097160': Light Gray Creeper Charge
+  '2097161': Cyan Creeper Charge
+  '2097162': Purple Creeper Charge
+  '2097163': Blue Creeper Charge
+  '2097164': Brown Creeper Charge
+  '2097165': Green Creeper Charge
+  '2097166': Scarlet Creeper Charge
+  '2097167': Black Creeper Charge
+  '2162688': White Gradient
+  '2162689': Orange Gradient
+  '2162690': Magenta Gradient
+  '2162691': Light Blue Gradient
+  '2162692': Yellow Gradient
+  '2162693': Lime Gradient
+  '2162694': Pink Gradient
+  '2162695': Gray Gradient
+  '2162696': Light Gray Gradient
+  '2162697': Cyan Gradient
+  '2162698': Purple Gradient
+  '2162699': Blue Gradient
+  '2162700': Brown Gradient
+  '2162701': Green Gradient
+  '2162702': Scarlet Gradient
+  '2162703': Black Gradient
+  '2228224': White Base Gradient
+  '2228225': Orange Base Gradient
+  '2228226': Magenta Base Gradient
+  '2228227': Light Blue Base Gradient
+  '2228228': Yellow Base Gradient
+  '2228229': Lime Base Gradient
+  '2228230': Pink Base Gradient
+  '2228231': Gray Base Gradient
+  '2228232': Light Gray Base Gradient
+  '2228233': Cyan Base Gradient
+  '2228234': Purple Base Gradient
+  '2228235': Blue Base Gradient
+  '2228236': Brown Base Gradient
+  '2228237': Green Base Gradient
+  '2228238': Scarlet Base Gradient
+  '2228239': Black Base Gradient
+  '2293760': White Field Masoned
+  '2293761': Orange Field Masoned
+  '2293762': Magenta Field Masoned
+  '2293763': Light Blue Field Masoned
+  '2293764': Yellow Field Masoned
+  '2293765': Lime Field Masoned
+  '2293766': Pink Field Masoned
+  '2293767': Gray Field Masoned
+  '2293768': Light Gray Field Masoned
+  '2293769': Cyan Field Masoned
+  '2293770': Purple Field Masoned
+  '2293771': Blue Field Masoned
+  '2293772': Brown Field Masoned
+  '2293773': Green Field Masoned
+  '2293774': Scarlet Field Masoned
+  '2293775': Black Field Masoned
+  '2359296': White Skull Charge
+  '2359297': Orange Skull Charge
+  '2359298': Magenta Skull Charge
+  '2359299': Light Blue Skull Charge
+  '2359300': Yellow Skull Charge
+  '2359301': Lime Skull Charge
+  '2359302': Pink Skull Charge
+  '2359303': Gray Skull Charge
+  '2359304': Light Gray Skull Charge
+  '2359305': Cyan Skull Charge
+  '2359306': Purple Skull Charge
+  '2359307': Blue Skull Charge
+  '2359308': Brown Skull Charge
+  '2359309': Green Skull Charge
+  '2359310': Scarlet Skull Charge
+  '2359311': Black Skull Charge
+  '2424832': White Flower Charge
+  '2424833': Orange Flower Charge
+  '2424834': Magenta Flower Charge
+  '2424835': Light Blue Flower Charge
+  '2424836': Yellow Flower Charge
+  '2424837': Lime Flower Charge
+  '2424838': Pink Flower Charge
+  '2424839': Gray Flower Charge
+  '2424840': Light Gray Flower Charge
+  '2424841': Cyan Flower Charge
+  '2424842': Purple Flower Charge
+  '2424843': Blue Flower Charge
+  '2424844': Brown Flower Charge
+  '2424845': Green Flower Charge
+  '2424846': Scarlet Flower Charge
+  '2424847': Black Flower Charge
+  '2490368': White Thing
+  '2490369': Orange Thing
+  '2490370': Magenta Thing
+  '2490371': Light Blue Thing
+  '2490372': Yellow Thing
+  '2490373': Lime Thing
+  '2490374': Pink Thing
+  '2490375': Gray Thing
+  '2490376': Light Gray Thing
+  '2490377': Cyan Thing
+  '2490378': Purple Thing
+  '2490379': Blue Thing
+  '2490380': Brown Thing
+  '2490381': Green Thing
+  '2490382': Scarlet Thing
+  '2490383': Black Thing
+villager_profession:
+  nitwit: Landlubber

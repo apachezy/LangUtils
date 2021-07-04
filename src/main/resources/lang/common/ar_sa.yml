@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:46                    #
+# Build time: 2021-07-04 21:46:01                    #
 # ####################################################
 language:
   code: ar_sa
@@ -12,21 +12,28 @@ material:
   polished_granite: جرانيت مصقول
   diorite: ديوريت
   polished_diorite: ديوريت مصقول
-  andesite: أنديزيت
-  polished_andesite: أنديزيت مصقول
+  andesite: أنديسايت
+  polished_andesite: أنديسايت مصقول
+  deepslate:  الأردواز
+  cobbled_deepslate: أردواز مرصوص
+  polished_deepslate: أردواز مصقول
+  calcite: كالسيت
+  tuff: طفة
+  dripstone_block: كتلة حجر التنقيط
   grass_block: كتلة عشب
   dirt: تراب
   coarse_dirt: تراب خشن
   podzol: تراب الغابة
+  rooted_dirt: تراب له جذور
   crimson_nylium: فطر الجحيم القرمزي
   warped_nylium: فطر الجحيم العجيب
   cobblestone: حصاة الرصف
-  oak_planks: لوح خشب البلوط
-  spruce_planks: لوح خشب التنوب
-  birch_planks: لوح خشب البتولا
-  jungle_planks: لوح خشب الأدغال
-  acacia_planks: لوح خشب السنط
-  dark_oak_planks: لوح خشب البلوط الداكن
+  oak_planks: ألواح خشب البلوط
+  spruce_planks: ألواح خشب التنوب
+  birch_planks: ألواح خشب البتولا
+  jungle_planks: ألواح خشب الأدغال
+  acacia_planks: ألواح خشب السنط
+  dark_oak_planks: ألواح خشب البلوط الداكن
   crimson_planks: لوح خشب قرمزي
   warped_planks: لوح خشب غريب
   oak_sapling: شتلة البلوط
@@ -37,26 +44,83 @@ material:
   dark_oak_sapling: شتلة البلوط الداكن
   bedrock: صخر القاع
   sand: رمل
-  red_sand: رمل احمر
+  red_sand: رمل أحمر
   gravel: حصى
-  gold_ore: خام الذهب
-  iron_ore: خام الحديد
   coal_ore: خام الفحم
+  deepslate_coal_ore: خام الفحم الاردوازي
+  iron_ore: خام الحديد
+  deepslate_iron_ore: خام الحديد الاردوازي
+  copper_ore: خام النحاس
+  deepslate_copper_ore: خام نحاس اردوازي
+  gold_ore: خام الذهب
+  deepslate_gold_ore: خام الذهب الاردوازي
+  redstone_ore: خام الريدستون
+  deepslate_redstone_ore: خام Redstone الاردوازي
+  emerald_ore: خام الزمرد
+  deepslate_emerald_ore: خام الزمرد الاردوازي
+  lapis_ore: خام اللازورد
+  deepslate_lapis_ore: خام Lapiz Lazuli اردوازي
+  diamond_ore: خام الألماس
+  deepslate_diamond_ore: خام الالماس الاردوازي
   nether_gold_ore: خام ذهب الجحيم
-  oak_log: خشب البلوط
-  spruce_log: خشب التنوب
-  birch_log: خشب البتولا
-  jungle_log: خشب الأدغال
-  acacia_log: خشب السنط
-  dark_oak_log: خشب البلوط الداكن
+  nether_quartz_ore: 'خام الكوارتز '
+  ancient_debris: حطام قديم
+  coal_block: كتلة من الفحم
+  raw_iron_block: مكعب من الحديد النيء
+  raw_copper_block: مكعب من النحاس النيء
+  raw_gold_block: مكعب من الذهب النيء
+  amethyst_block: كتلة من الجمشت
+  budding_amethyst: جمشت مجوهر
+  iron_block: كتلة من الحديد
+  copper_block: كتلة من النحاس
+  gold_block: كتلة من الذهب
+  diamond_block: كتلة من الألماس
+  netherite_block: كتلة نيذرايت
+  exposed_copper: نحاس مكشوف
+  weathered_copper: نحاس مؤكسد
+  oxidized_copper: النحاس المؤكسد
+  cut_copper: نحاس مقطع
+  exposed_cut_copper: قطع النحاس المكشوفة
+  weathered_cut_copper: نحاس مقطع تام التأكسد
+  oxidized_cut_copper: قطع النحاس المؤكسدة
+  cut_copper_stairs: سلم نحاسي مقصوص
+  exposed_cut_copper_stairs: سلم نحاسي مقصوص مكشوف
+  weathered_cut_copper_stairs: سلم نحاسي مقطع متأكسد
+  oxidized_cut_copper_stairs: سلالم نحاس مقصوص مؤكسد
+  cut_copper_slab: نصف مكعب نحاس مقطع
+  exposed_cut_copper_slab: نصف مكعب نحاس مقطوع منكشف
+  weathered_cut_copper_slab: تصف مكعب نحاس مقطع مؤكسد
+  oxidized_cut_copper_slab: بلاطة نحاس مقطوعة مؤكسدة
+  waxed_copper_block: كتلة نحاس مشمع
+  waxed_exposed_copper: نحاس مكشوف مشمع
+  waxed_weathered_copper: نحاس مشمع مؤكسد
+  waxed_oxidized_copper: نحاس مشمع مؤكسد
+  waxed_cut_copper: نحاس مشمع مقطع
+  waxed_exposed_cut_copper: نحاس مقطوع مكشوف مشمع
+  waxed_weathered_cut_copper: نحاس مقطوع مشمع تام التأكسد
+  waxed_oxidized_cut_copper: نحاس مقصوص مؤكسد مشمع
+  waxed_cut_copper_stairs: سلالم نحاس مشمع مقصوص
+  waxed_exposed_cut_copper_stairs: سلالم نحاسية مكشوفة مشمعة
+  waxed_weathered_cut_copper_stairs: سلالم نحاسية مكشوفة مغطاة بالشمع
+  waxed_oxidized_cut_copper_stairs: سلالم من النحاس المقطع المؤكسد المشمع
+  waxed_cut_copper_slab: بلاط نحاس مشمع مقصوص
+  waxed_exposed_cut_copper_slab: نصف مكعب نحاسي مكشوف مشمع
+  waxed_weathered_cut_copper_slab: نصف مكعب نحاسي مقصوص مكشوف مشمع
+  waxed_oxidized_cut_copper_slab: نصف مكعب من نحاس مقطوع مؤكسد مشمع
+  oak_log: جذع البلوط
+  spruce_log: جذع التنوب
+  birch_log: جذع البتولا
+  jungle_log: جذع الأدغال
+  acacia_log: جذع السنط
+  dark_oak_log: جذع البلوط الداكن
   crimson_stem: جذع الشجرة القرمزية
   warped_stem: جذع مشوه
-  stripped_oak_log: خشب البلوط منزوع اللحاء
-  stripped_spruce_log: خشب التنوب منزوع اللحاء
-  stripped_birch_log: خشب البتولا منزوع اللحاء
-  stripped_jungle_log: خشب الأدغال منزوع اللحاء
-  stripped_acacia_log: خشب السنط منزوع اللحاء
-  stripped_dark_oak_log: خشب البلوط الداكن منزوع اللحاء
+  stripped_oak_log: جذع البلوط منزوع اللحاء
+  stripped_spruce_log: جذع التنوب منزوع اللحاء
+  stripped_birch_log: جذع البتولا منزوع اللحاء
+  stripped_jungle_log: جذع الأدغال منزوع اللحاء
+  stripped_acacia_log: جذع السنط منزوع اللحاء
+  stripped_dark_oak_log: جذع البلوط الداكن منزوع اللحاء
   stripped_crimson_stem: جذع شجرة قرمزي منزوع اللحاء
   stripped_warped_stem: جذع شجرة عجيب منزوع اللحاء
   stripped_oak_wood: خشب البلوط منزوع اللحاء
@@ -79,28 +143,26 @@ material:
   spruce_leaves: أوراق التنوب
   birch_leaves: أوراق البتولا
   jungle_leaves: أوراق الأدغال
-  acacia_leaves: أوراق الأكاسيا
-  dark_oak_leaves: أوراق البلوط الداكنة
-  sponge: اسفنج
+  acacia_leaves: أوراق السنط
+  dark_oak_leaves: أوراق البلوط الداكن
+  azalea_leaves: أوراق الأضاليا
+  flowering_azalea_leaves: أوراق الأضالية المزهرة
+  sponge: إسفنج
   wet_sponge: إسفنج رطب
   glass: زجاج
-  lapis_ore: خام اللازورد
+  tinted_glass: زجاج مظلل
   lapis_block: كتلة لازورد
-  dispenser: قاذف
   sandstone: حجر رملي
   chiseled_sandstone: حجر رملي منقوش
-  cut_sandstone: قطعة الحجر الرملي
-  note_block: كتلة موسيقى
-  powered_rail: سكة حديدية تعمل بالطاقة
-  detector_rail: سكة حديدية مستشعرة
-  sticky_piston: مكبس لزج
+  cut_sandstone: الحجر رملي مقطع
   cobweb: شبكة العنكبوت
   grass: عشب
-  fern: خنشار
+  fern: سرخس
+  azalea: أضاليا
+  flowering_azalea: أزاليا مزهرة
   dead_bush: شجيرة ميتة
-  seagrass: عشب البحر
+  seagrass: أعشاب البحر
   sea_pickle: خيار البحر
-  piston: مكبس
   white_wool: صوف أبيض
   orange_wool: صوف برتقالي
   magenta_wool: صوف أرجواني
@@ -118,10 +180,10 @@ material:
   red_wool: صوف أحمر
   black_wool: صوف أسود
   dandelion: الهندباء
-  poppy: وردة حمراء
-  blue_orchid: زهرة سحلبية زرقاء
-  allium: زهرة ثوم
-  azure_bluet: الزهرة الصفراء السماوية
+  poppy: خشخاش
+  blue_orchid: أوركيد أزرق
+  allium: زهرة الثوم
+  azure_bluet: زهرة اللازوردية الزرقاء
   red_tulip: زهرة التوليب الأحمر
   orange_tulip: زهرة التوليب البرتقالي
   white_tulip: زهرة التوليب الأبيض
@@ -129,53 +191,56 @@ material:
   oxeye_daisy: أقحوان المروج
   cornflower: وردة الذرة
   lily_of_the_valley: زنبق الوادي
-  wither_rose: الوردة الذابلة
-  brown_mushroom: الفطر البني
+  wither_rose: وردة الوذر
+  spore_blossom: زهرة بوغ
+  brown_mushroom: فطر بني
   red_mushroom: فطر أحمر
   crimson_fungus: فطر قرمزي
   warped_fungus: الفطر الغريب
   crimson_roots: جذور قرمزية
   warped_roots: جذور عجيبة
   nether_sprouts: براعم النذر
-  weeping_vines: نبات متسلق باكي
+  weeping_vines: البكاء فاينز
   twisting_vines: نبتة متسلقة ملتوية
   sugar_cane: قصب السكر
   kelp: عشب البحر
+  moss_carpet: سجاد طحلبي
+  moss_block: مكعب طحلبي
+  hanging_roots: جذور متعلقة
+  big_dripleaf: قاذف كبير
+  small_dripleaf: ورقة تنقيط صغيرة
   bamboo: قصب الخيزران
-  gold_block: كتلة ذهب
-  iron_block: كتلة حديد
-  oak_slab: لوح خشب البلوط
-  spruce_slab: لوح خشب التنوب
-  birch_slab: لوح خشب البتولا
-  jungle_slab: لوح الأدغال
-  acacia_slab: لوح خشب السنط
-  dark_oak_slab: لوح خشب البلوط الداكن
+  oak_slab: بلاطة خشب البلوط
+  spruce_slab: بلاطة خشب التنوب
+  birch_slab: بلاطة خشب البتولا
+  jungle_slab: بلاطة خشب الأدغال
+  acacia_slab: بلاطة خشب السنط
+  dark_oak_slab: بلاطة خشب البلوط الداكن
   crimson_slab: بلاط من الخشب القرمزي
   warped_slab: بلاط من الخشب العجيب
   stone_slab: بلاطة حجرية
-  smooth_stone_slab: بلاطة الحجر الأملس
-  sandstone_slab: بلاطة الحجر الرملي
-  cut_sandstone_slab: قطع بلاطة الحجر الرملي
-  petrified_oak_slab: لوح خشب البلوط المتحجر
+  smooth_stone_slab: بلاطة حجر أملس
+  sandstone_slab: بلاطة حجر رملي
+  cut_sandstone_slab: بلاطة حجر رملي مقطعة
+  petrified_oak_slab: بلاطة خشب البلوط المتحجرة
   cobblestone_slab: بلاطة حصاة الرصف
-  brick_slab: بلاطة الطوب
-  stone_brick_slab: بلاطة من الطوب الحجري
+  brick_slab: بلاطة طوب
+  stone_brick_slab: بلاطة طوب حجري
   nether_brick_slab: بلاطة من طوب الجحيم
-  quartz_slab: بلاطة الكوارتز
+  quartz_slab: بلاطة كوارتز
   red_sandstone_slab: بلاطة حجر رملي أحمر
-  cut_red_sandstone_slab: قطع بلاطة الحجر الرملي الأحمر
+  cut_red_sandstone_slab: بلاطة حجر رملي أحمر مقطعة
   purpur_slab: لوح باربر
-  prismarine_slab: بلاطة البريسمارين
-  prismarine_brick_slab: بلاطة من طوب البريسمارين
-  dark_prismarine_slab: بلاطة البريسمارين الداكن
+  prismarine_slab: بلاطة بريسمارين
+  prismarine_brick_slab: بلاطة طوب البريسمارين
+  dark_prismarine_slab: بلاطة بريسمارين داكن
   smooth_quartz: مكعب الكوارتز الناعم
-  smooth_red_sandstone: حجر رملي أحمر ناعم
+  smooth_red_sandstone: حجر رملي أحمر أملس
   smooth_sandstone: حجر رملي أملس
   smooth_stone: حجر أملس
   bricks: طوب
-  tnt: ديناميت
   bookshelf: رف كتب
-  mossy_cobblestone: حصاة مطحلبة
+  mossy_cobblestone: حصاة رصف مطحلبة
   obsidian: السبج
   torch: شعلة
   end_rod: عود الاند
@@ -184,88 +249,64 @@ material:
   purpur_block: حجر باربر
   purpur_pillar: عمود باربر
   purpur_stairs: درج باربر
-  spawner: سبونر
+  spawner: مولد
   oak_stairs: درج خشب البلوط
   chest: صندوق
-  diamond_ore: خام الألماس
-  diamond_block: كتلة ألماس
   crafting_table: طاولة النجارة
   farmland: أرض زراعية
   furnace: فرن
   ladder: سلم
-  rail: سكة حديدية
-  cobblestone_stairs: درج حجري
-  lever: مقبض
-  stone_pressure_plate: لوح ضغط حجري
-  oak_pressure_plate: لوح ضغط خشب البلوط
-  spruce_pressure_plate: لوح ضغط خشب التنوب
-  birch_pressure_plate: لوح ضغط خشب البتولا
-  jungle_pressure_plate: لوح ضغط خشب الأدغال
-  acacia_pressure_plate: لوح ضغط خشب السنط
-  dark_oak_pressure_plate: لوح ضغط خشب البلوط الداكن
-  crimson_pressure_plate: لوح ضغط من الخشب القرمزي
-  warped_pressure_plate: لوحة الضغط الملتوية
-  polished_blackstone_pressure_plate: صفيحة ضغط للحجر الأسود المصقول
-  redstone_ore: خام الريدستون
-  redstone_torch: شعلة الريدستون
+  cobblestone_stairs: درج حصاة الرصف
   snow: ثلج
   ice: جليد
   snow_block: كتلة ثلج
   cactus: صبار
   clay: صلصال
-  jukebox: صندوق موسيقي
-  oak_fence: سياج
-  spruce_fence: سياج شجرة التنوب
-  birch_fence: سياج من البتولا
-  jungle_fence: سياج من الأدغال
-  acacia_fence: سياج من الطلح
-  dark_oak_fence: سياج من البلوط الداكن
+  jukebox: صندوق الموسيقى
+  oak_fence: سياج البلوط
+  spruce_fence: سياج التنوب
+  birch_fence: سياج البتولا
+  jungle_fence: سياج الأدغال
+  acacia_fence: سياج السنط
+  dark_oak_fence: سياج البلوط الداكن
   crimson_fence: سياج قرمزي
   warped_fence: سياج من الخشب الغريب
   pumpkin: يقطين
-  carved_pumpkin: يقطينة منحوتة
+  carved_pumpkin: يقطين منحوت
+  jack_o_lantern: يقطين مضيء
   netherrack: كتلة العالم السفلي
   soul_sand: رمل الروح
   soul_soil: رمل الروح
   basalt: بازلت
   polished_basalt: البازلت المصقول
+  smooth_basalt: حجر بركاني ناعم
   soul_torch: شعلة روحية
   glowstone: حجر مضيء
-  jack_o_lantern: اليقطين المضيئ
-  oak_trapdoor: باب أرضي من خشب البلوط
-  spruce_trapdoor: باب أرضي من خشب التنوب
-  birch_trapdoor: باب أرضي من خشب البتولا
-  jungle_trapdoor: باب أرضي من خشب الأدغال
-  acacia_trapdoor: باب أرضي من خشب السنط
-  dark_oak_trapdoor: باب أرضي من خشب البلوط الداكن
-  crimson_trapdoor: باب أرضي من الخشب القرمزي
-  warped_trapdoor: باب أرضي من الخشب العجيب
   infested_stone: الحجر المسكون
   infested_cobblestone: الحصاة المسكونة
   infested_stone_bricks: الطوب الحجري المسكون
   infested_mossy_stone_bricks: الطوب الحجري الطحلبي المسكون
   infested_cracked_stone_bricks: الطوب الحجري المتصدع المسكون
   infested_chiseled_stone_bricks: الطوب الحجري المنقوش المسكون
+  infested_deepslate: أردواز منتشر
   stone_bricks: طوب حجري
   mossy_stone_bricks: طوب حجري مطحلب
   cracked_stone_bricks: طوب حجري متشقق
   chiseled_stone_bricks: طوب حجري منقوش
+  deepslate_bricks: طوب الأردواز
+  cracked_deepslate_bricks: طوب الأردواز المتشقق
+  deepslate_tiles: حجر نقطي مربع الشكل
+  cracked_deepslate_tiles: أردواز مربع الشكل مشقوق
+  chiseled_deepslate: أردواز منقوش
   brown_mushroom_block: مكعب الفطر البني
-  red_mushroom_block: كتلة الفطر الأحمر
-  mushroom_stem: حساء الفطر
+  red_mushroom_block: كتلة فطر أحمر
+  mushroom_stem: جذع الفطر
   iron_bars: قضبان حديدية
   chain: سلسلة
   glass_pane: لوح زجاجي
   melon: بطيخة
   vine: نبات متسلق
-  oak_fence_gate: بوابة سياج البلوط
-  spruce_fence_gate: بوابة سياج من التنوب
-  birch_fence_gate: بوابة سياج من البتولا
-  jungle_fence_gate: بوابة سياج من الأدغال
-  acacia_fence_gate: بوابة سياج من الطلح
-  dark_oak_fence_gate: بوابة سياج من البلوط الداكن
-  crimson_fence_gate: بوابة سياج من الخشب القرمزي
-  warped_fence_gate: بوابة سياج غريبة
+  glow_lichen: فطريات مضيئة
   brick_stairs: درج من الطوب
   stone_brick_stairs: درج من الطوب الحجري
   mycelium: أفطورة
@@ -280,63 +321,45 @@ material:
   end_stone: حجر النهاية
   end_stone_bricks: طوب حجر الاند
   dragon_egg: بيضة تنين
-  redstone_lamp: مصباح الريدستون
-  sandstone_stairs: درج من الحجر الرملي
-  emerald_ore: خام الزمرد
+  sandstone_stairs: درج حجر رملي
   ender_chest: صندوق الاندر
-  tripwire_hook: خطاف سلك المصيدة
-  emerald_block: كتلة زمرد
-  spruce_stairs: درج من خشب التنوب
-  birch_stairs: درج من خشب البتولا
-  jungle_stairs: درج من خشب الأدغال
+  emerald_block: كتلة من الزمرد
+  spruce_stairs: درج خشب التنوب
+  birch_stairs: درج خشب البتولا
+  jungle_stairs: درج خشب الأدغال
   crimson_stairs: دَرَج من الخشب القرمزي
   warped_stairs: درج من الخشب العجيب
   command_block: كتلة الأوامر
   beacon: منارة
-  cobblestone_wall: جدار حصاة
-  mossy_cobblestone_wall: جدار حصاة مطحلب
+  cobblestone_wall: جدار حصاة الرصف
+  mossy_cobblestone_wall: جدار حصاة رصف مطحلب
   brick_wall: جدار طوبي
-  prismarine_wall: جدار الموشور البحري
-  red_sandstone_wall: جدار الحجر الرملي الأحمر
-  mossy_stone_brick_wall: جدار طوب الحجر المصقول
-  granite_wall: جدار الجرانيت
-  stone_brick_wall: جدار الطوب الحجري
+  prismarine_wall: جدار بريسمارين
+  red_sandstone_wall: جدار حجر رملي أحمر
+  mossy_stone_brick_wall: جدار طوب حجري مطحلب
+  granite_wall: جدار جرانيت
+  stone_brick_wall: جدار طوب حجري
   nether_brick_wall: جدار الطوب السفلي
-  andesite_wall: جدار أنديزيت
+  andesite_wall: جدار أنديسايت
   red_nether_brick_wall: جدار الحجر الاحمر للعالم السفلي
-  sandstone_wall: جدار الحجر الرملي
-  end_stone_brick_wall: جدار حجر عالم النهاية الصلب
-  diorite_wall: جدار الديوريت
+  sandstone_wall: جدار حجر رملي
+  end_stone_brick_wall: جدار طوب حجر الاند
+  diorite_wall: جدار ديوريت
   blackstone_wall: جدار الحجر الأسود
-  polished_blackstone_wall: جظار الحجر الاسود المصقول
+  polished_blackstone_wall: جدار من الحجر الأسود المصقول
   polished_blackstone_brick_wall: جدار من الطوب المصقول
-  stone_button: زر من الحجر
-  oak_button: زر خشب البلوط
-  spruce_button: زر خشب التنوب
-  birch_button: زر خشب البتولا
-  jungle_button: زر خشب الأدغال
-  acacia_button: زر خشب السنط
-  dark_oak_button: زر خشب البلوط الداكن
-  crimson_button: زِر قرمزي
-  warped_button: زِر غريب
-  polished_blackstone_button: زر الحجر الاسود المصقول
+  cobbled_deepslate_wall: جدار أردوازي مرصوص
+  polished_deepslate_wall: جدار أردواز مصقول
+  deepslate_brick_wall: جدار من الطوب الأردوازي
+  deepslate_tile_wall: جدار أردواز مربع الشكل
   anvil: السندان
   chipped_anvil: سندان متكسر
   damaged_anvil: السندان المتضرر
-  trapped_chest: صندوق مفخخ
-  light_weighted_pressure_plate: لوح ضغط خفيف الوزن
-  heavy_weighted_pressure_plate: لوح ضغط ثقيل الوزن
-  daylight_detector: حساس ضوء الشمس
-  redstone_block: مكعب ريدستون
-  nether_quartz_ore: 'خام الكوارتز '
-  hopper: هوبر
   chiseled_quartz_block: مكتب كوارتز منحوت
   quartz_block: كتلة كوارتز
   quartz_bricks: طوب الكوارتز
   quartz_pillar: عمود الكوارتز
   quartz_stairs: درج كوارتز
-  activator_rail: سكة التفعيل
-  dropper: القطارة
   white_terracotta: طين النضيج الأبيض
   orange_terracotta: طين النضيج البرتقالي
   magenta_terracotta: طين النضيج الأرجواني
@@ -353,8 +376,8 @@ material:
   green_terracotta: طين النضيج الأخضر
   red_terracotta: طين النضيج الأحمر
   black_terracotta: طين النضيج الأسود
-  barrier: الحاجز
-  iron_trapdoor: باب أرضي حديدي
+  barrier: حاجز
+  light: ضوء
   hay_block: كومة قش
   white_carpet: سجاد أبيض
   orange_carpet: سجاد برتقالي
@@ -373,21 +396,19 @@ material:
   red_carpet: سجاد أحمر
   black_carpet: سجاد أسود
   terracotta: طين النضيج
-  coal_block: كتلة من الفحم
-  packed_ice: الجليد معبأة
+  packed_ice: جليد معبأ
   acacia_stairs: درج خشب السنط
-  dark_oak_stairs: درج من خشب البلوط الداكن
-  slime_block: كتلة اللزج
-  grass_path: طريق عشبي
+  dark_oak_stairs: درج البلوط الداكن
+  dirt_path: طريق ترابي
   sunflower: عباد الشمس
-  lilac: أرجواني فاتح
-  rose_bush: ﺩﻭﺭﻭ ﺓﺮﻴﺠﺷ
-  peony: عود
-  tall_grass: العشب الطويل
-  large_fern: السرخس الكبيرة
+  lilac: ليلك
+  rose_bush: شجيرة ورد
+  peony: عود الصليب
+  tall_grass: عشب طويل
+  large_fern: سرخس كبيرة
   white_stained_glass: زجاج ابيض
   orange_stained_glass: زجاج برتقالي
-  magenta_stained_glass: زجاج بنفسجي
+  magenta_stained_glass: زجاج أرجواني
   light_blue_stained_glass: زجاج ازرق فاتح
   yellow_stained_glass: زجاج اصفر
   lime_stained_glass: زجاج ليموني
@@ -421,33 +442,32 @@ material:
   prismarine_bricks: احجار الصخور البحرية
   dark_prismarine: الموشور البحري المظلم
   prismarine_stairs: درج البريسمارين
-  prismarine_brick_stairs: درج من طوب البريسمارين
+  prismarine_brick_stairs: درج طوب البريسمارين
   dark_prismarine_stairs: درج البريسمارين الداكن
   sea_lantern: مصباح البحر
-  red_sandstone: الحجر الرملي الأحمر
+  red_sandstone: حجر رملي أحمر
   chiseled_red_sandstone: حجر رملي أحمر منقوش
-  cut_red_sandstone: قطعة الحجر الرملي الأحمر
+  cut_red_sandstone: حجر رملي أحمر مقطع
   red_sandstone_stairs: درج حجر رملي أحمر
-  repeating_command_block: تكرار مصدرة الأوامر
+  repeating_command_block: كتلة الأوامر المكرِّرة
   chain_command_block: توصيل مصدرات الاوامر
   magma_block: كتلة الصهارة
   nether_wart_block: اسفل البثرة بلوك
-  warped_wart_block: مكعب الWart الغريب
+  warped_wart_block: مكعب الواربد وارت
   red_nether_bricks: طوب العالم السفلي الأحمر
   bone_block: كتلة عظام
   structure_void: هيكل باطلة
-  observer: المراقب
   shulker_box: صندوق الشلكر
   white_shulker_box: صندوق شلكر أبيض
   orange_shulker_box: صندوق شلكر برتقالي
   magenta_shulker_box: صندوق شلكر أرجواني
-  light_blue_shulker_box: صندوق شلكر سماوي
+  light_blue_shulker_box: صندوق شلكر أزرق فاتح
   yellow_shulker_box: صندوق شلكر أصفر
   lime_shulker_box: صندوق شلكر ليموني
   pink_shulker_box: صندوق شلكر زهري
   gray_shulker_box: صندوق شلكر رمادي
   light_gray_shulker_box: صندوق شلكر رمادي فاتح
-  cyan_shulker_box: صندوق شلكر سماوي غامق
+  cyan_shulker_box: صندوق شلكر سماوي
   purple_shulker_box: صندوق شلكر بنفسجي
   blue_shulker_box: صندوق شلكر أزرق
   brown_shulker_box: صندوق شلكر بني
@@ -502,7 +522,7 @@ material:
   green_concrete_powder: مسحوق أسمنت أخضر
   red_concrete_powder: مسحوق أسمنت أحمر
   black_concrete_powder: مسحوق أسمنت أسود
-  turtle_egg: بيضة السلحفاة
+  turtle_egg: بيضة سلحفاة
   dead_tube_coral_block: كتلة مرجان أنبوبي ميت
   dead_brain_coral_block: كتلة مرجان عقلي ميت
   dead_bubble_coral_block: كتلة مرجان فقاعي ميت
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: درج الطوب الأحمر السفلي
   polished_andesite_stairs: درج أنديزيت مصقول
   diorite_stairs: درج الديوريت
+  cobbled_deepslate_stairs: سلالم أردوازية مرصوصة
+  polished_deepslate_stairs: سلالم أردواز مصقولة
+  deepslate_brick_stairs: السلالم من الطوب الأردواز
+  deepslate_tile_stairs: سلالم أردواز مربعة الشكل
   polished_granite_slab: بلاطة جرانيت مصقولة
   smooth_red_sandstone_slab: بلاطة حجر الرمل الأحمر الناعم
   mossy_stone_brick_slab: بلاطة الطوب الحجري المطحلب
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: بلاطة الطوب الأحمر السفلية
   polished_andesite_slab: بلاطة أنديزيت مصقولة
   diorite_slab: بلاطة الديوريت
+  cobbled_deepslate_slab: نصف مكعب أردواز مرصوص
+  polished_deepslate_slab: نصف مكعب أردواز مصقول
+  deepslate_brick_slab: نصف مكعب من طوب الأردواز
+  deepslate_tile_slab: نصف مكعب أردواز مربع الشكل
   scaffolding: سقالة
+  redstone: مسحوق الريدستون
+  redstone_torch: شعلة الريدستون
+  redstone_block: مكعب ريدستون
+  repeater: مكرر الريدستون
+  comparator: مقارن الريدستون
+  piston: مكبس
+  sticky_piston: مكبس لزج
+  slime_block: كتلة اللزج
+  honey_block: مكعب عسل
+  observer: المراقب
+  hopper: هوبر
+  dispenser: قاذف
+  dropper: قطارة
+  lectern: الفانوس
+  target: هدف
+  lever: مقبض
+  lightning_rod: عصا البرق
+  daylight_detector: حساس ضوء الشمس
+  sculk_sensor: مستشعر السكالك
+  tripwire_hook: خطاف سلك المصيدة
+  trapped_chest: صندوق مفخخ
+  tnt: ديناميت
+  redstone_lamp: مصباح الريدستون
+  note_block: كتلة موسيقى
+  stone_button: زر حجري
+  polished_blackstone_button: زر من الحجر الأسود المصقول
+  oak_button: زر خشب البلوط
+  spruce_button: زر خشب التنوب
+  birch_button: زر خشب البتولا
+  jungle_button: زر خشب الأدغال
+  acacia_button: زر خشب السنط
+  dark_oak_button: زر خشب البلوط الداكن
+  crimson_button: زِر قرمزي
+  warped_button: زِر غريب
+  stone_pressure_plate: صفيحة ضغط حجرية
+  polished_blackstone_pressure_plate: صفيحة ضغط للحجر الأسود المصقول
+  light_weighted_pressure_plate: صفيحة ضغط خفيفة الوزن
+  heavy_weighted_pressure_plate: صفيحة ضغط ثقيلة الوزن
+  oak_pressure_plate: صفيحة ضغط خشب البلوط
+  spruce_pressure_plate: صفيحة ضغط خشب التنوب
+  birch_pressure_plate: صفيحة ضغط خشب البتولا
+  jungle_pressure_plate: صفيحة ضغط خشب الأدغال
+  acacia_pressure_plate: صفيحة ضغط خشب السنط
+  dark_oak_pressure_plate: صفيحة ضغط خشب البلوط الداكن
+  crimson_pressure_plate: لوحة ضغط قرمزي
+  warped_pressure_plate: لوحة الضغط الملتوية
   iron_door: باب حديدي
   oak_door: باب من خشب البلوط
   spruce_door: باب من خشب التنوب
@@ -572,8 +646,42 @@ material:
   dark_oak_door: باب من خشب البلوط الداكن
   crimson_door: باب قرمزي
   warped_door: باب غريب
-  repeater: مكرر الريدستون
-  comparator: مقارن الريدستون
+  iron_trapdoor: باب أرضي حديدي
+  oak_trapdoor: باب أرضي من خشب البلوط
+  spruce_trapdoor: باب أرضي من خشب التنوب
+  birch_trapdoor: باب أرضي من خشب البتولا
+  jungle_trapdoor: باب أرضي من خشب الأدغال
+  acacia_trapdoor: باب أرضي من خشب السنط
+  dark_oak_trapdoor: باب أرضي من خشب البلوط الداكن
+  crimson_trapdoor: باب أرضي من الخشب القرمزي
+  warped_trapdoor: باب أرضي من الخشب العجيب
+  oak_fence_gate: بوابة سياج البلوط
+  spruce_fence_gate: بوابة سياج التنوب
+  birch_fence_gate: بوابة سياج البتولا
+  jungle_fence_gate: بوابة سياج الأدغال
+  acacia_fence_gate: بوابة سياج السنط
+  dark_oak_fence_gate: بوابة سياج البلوط الداكن
+  crimson_fence_gate: بوابة سياج من الخشب القرمزي
+  warped_fence_gate: بوابة سياج غريبة
+  powered_rail: سكة حديدية تعمل بالطاقة
+  detector_rail: سكة حديدية مستشعرة
+  rail: سكة حديدية
+  activator_rail: سكة حديدية مفعِّلة
+  saddle: سرج
+  minecart: عربة منجم
+  chest_minecart: عربة منجم بصندوق
+  furnace_minecart: عربة منجم بفرن
+  tnt_minecart: عربة منجم بديناميت
+  hopper_minecart: عربة مع هوبر
+  carrot_on_a_stick: جزرة على عصا
+  warped_fungus_on_a_stick: فطر غريب على عصا
+  elytra: جناح
+  oak_boat: قارب البلوط
+  spruce_boat: قارب التنوب
+  birch_boat: قارب من البتولا
+  jungle_boat: قارب الأدغال
+  acacia_boat: قارب السنط
+  dark_oak_boat: قارب البلوط الداكن
   structure_block: حجر البناء
   jigsaw: كتلة بانورامية
   turtle_helmet: صدفة سلحفاة
@@ -585,7 +693,15 @@ material:
   coal: فحم
   charcoal: فحم نباتي
   diamond: ألماس
+  emerald: زمرد
+  lapis_lazuli: لازورد
+  quartz: كوارتز الجحيم
+  amethyst_shard: شظية جمشت
+  raw_iron: حديد خام
   iron_ingot: سبيكة حديد
+  raw_copper: النحاس النيء
+  copper_ingot: سبيكة نحاس
+  raw_gold: الذهب النيء
   gold_ingot: سبيكة ذهب
   netherite_ingot: سبيكة نيذرايت
   netherite_scrap: خردة نيذرايت
@@ -669,29 +785,27 @@ material:
   bucket: دلو
   water_bucket: دلو ماء
   lava_bucket: دلو حمم بركانية
-  minecart: عربة منجم
-  saddle: سرج
-  redstone: مسحوق الريدستون
+  powder_snow_bucket: دلو مسحوق الثلج
   snowball: كرة ثلج
-  oak_boat: قارب البلوط
   leather: جلد
   milk_bucket: دلو حليب
-  pufferfish_bucket: دلو سمكة المنتفخة
-  salmon_bucket: دلو سمكة السلمون
-  cod_bucket: دلو سمكة القد
-  tropical_fish_bucket: دلو السمكة الإستوائية
+  pufferfish_bucket: دلو فيه سمكة منتفخة
+  salmon_bucket: دلو فيه سمكة السلمون
+  cod_bucket: دلو فيه سمكة القد
+  tropical_fish_bucket: دلو فيه سمكة إستوائية
+  axolotl_bucket: دلو فيه إبسولوتل
   brick: طوب
   clay_ball: كرة طين
   dried_kelp_block: كتلة عشب البحر المجفف
   paper: ورقة
   book: كتاب
   slime_ball: كرة لزجة
-  chest_minecart: عربة منجم بصندوق
-  furnace_minecart: عربة منجم بفرن
   egg: بيضة
   compass: بوصلة
+  bundle: حزمة
   fishing_rod: صنارة
   clock: ساعة
+  spyglass: منظار
   glowstone_dust: مسحوق الحجر المضيئ
   cod: سمك القد النيء
   salmon: السلمون الخام
@@ -700,11 +814,11 @@ material:
   cooked_cod: سمك القد المطبوخ
   cooked_salmon: سمك السلمون المطبوخ
   ink_sac: كيس حبر
+  glow_ink_sac: كيس حبر متوهج
   cocoa_beans: حبوب الكاكاو
-  lapis_lazuli: لازورد
   white_dye: صبغة بيضاء
   orange_dye: صبغ برتقالي
-  magenta_dye: صبغ أرجواني
+  magenta_dye: صبغة أرجوانية
   light_blue_dye: صبغ ازرق فاتح
   yellow_dye: صبغة صفراء
   lime_dye: صبغ ليموني
@@ -724,7 +838,7 @@ material:
   cake: كعكة
   white_bed: سرير أبيض
   orange_bed: سرير برتقالي
-  magenta_bed: سرير بنفسجي
+  magenta_bed: سرير أرجواني
   light_blue_bed: سرير أزرق فاتح
   yellow_bed: سرير أصفر
   lime_bed: سرير ليموني
@@ -762,9 +876,10 @@ material:
   blaze_powder: بودرة اللهب
   magma_cream: كريم الصهارة
   brewing_stand: منضدة التخمير
-  cauldron: قدر
+  cauldron: مرجل
   ender_eye: عين الاندر
   glistering_melon_slice: قطعة بطيخ لامعة
+  axolotl_spawn_egg: بيضة Axolotl
   bat_spawn_egg: بيضة الخفاش
   bee_spawn_egg: بيضة نحلة
   blaze_spawn_egg: بيضة الملتهب
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: بيضة المدعي الساحر
   fox_spawn_egg: بيضة الثعلب
   ghast_spawn_egg: بيضة الشبح
+  glow_squid_spawn_egg: بيضة الأخطبوط المضيئ
+  goat_spawn_egg: بيضة ماعز
   guardian_spawn_egg: بيضة الحارس
   hoglin_spawn_egg: بيضة الهوجلين
   horse_spawn_egg: بيضة الحصان
@@ -833,8 +950,8 @@ material:
   fire_charge: شحنة نارية
   writable_book: الكتاب والريشة
   written_book: كتاب مكتوب
-  emerald: زمرد
   item_frame: إطار الأغراض
+  glow_item_frame: إطار أغراض متوهج
   flower_pot: وعاء الزهور
   carrot: جزرة
   potato: بطاطس
@@ -848,17 +965,12 @@ material:
   zombie_head: رأس زومبي
   creeper_head: رأس كريبر
   dragon_head: رأس التنين
-  carrot_on_a_stick: جزرة على عصا
-  warped_fungus_on_a_stick: فطر غريب على عصا
   nether_star: نجمة العالم السفلي
   pumpkin_pie: فطيرة اليقطين
   firework_rocket: الالعاب النارية
   firework_star: نجمة الالعاب النارية
   enchanted_book: كتاب مسحور
   nether_brick: طوب العالم السفلي
-  quartz: كوارتز الجحيم
-  tnt_minecart: عربة منجم بديناميت
-  hopper_minecart: عربة مع هوبر
   prismarine_shard: قشرة موشور البحر
   prismarine_crystals: كريستال موشور البحر
   rabbit: لحم أرنب
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: سهم مغموس
   lingering_potion: لينقرنق بوشن
   shield: درع
-  elytra: جناح
-  spruce_boat: قارب التنوب
-  birch_boat: قارب من البتولا
-  jungle_boat: قارب الأدغال
-  acacia_boat: قارب السنط
-  dark_oak_boat: قارب البلوط الداكن
   totem_of_undying: تميمة الخلود
   shulker_shell: صدفة الشلكر
   iron_nugget: قطعة حديدية
@@ -948,13 +1054,13 @@ material:
   cartography_table: طاولة دراسة الخرائط
   fletching_table: طاولة صناعة الأسهم
   grindstone: جلاخة
-  lectern: الفانوس
   smithing_table: منضدة الحدادة
   stonecutter: قاطع الحجارة
   bell: جرس
   lantern: فانوس
   soul_lantern: فانوس نار الروح
   sweet_berries: التوت الحلو
+  glow_berries: توت متوهج
   campfire: موقد
   soul_campfire: موقد نار الروح
   shroomlight: فطر مضيء
@@ -962,12 +1068,8 @@ material:
   bee_nest: عش نحل
   beehive: خلية نحل
   honey_bottle: زجاجة عسل
-  honey_block: مكعب عسل
   honeycomb_block: مكعب خلية النحل
   lodestone: حجر المغناطيس
-  netherite_block: كتلة نيذرايت
-  ancient_debris: حطام قديم
-  target: هدف
   crying_obsidian: السبج الباكي
   blackstone: حجر أسود
   blackstone_slab: بلاطة الحجر الأسود
@@ -982,28 +1084,53 @@ material:
   polished_blackstone_brick_stairs: جدار طوب الحجر الأسود مصقول
   cracked_polished_blackstone_bricks: طوب الحجر الأسود مصقول
   respawn_anchor: مرتكز الإحياء
+  candle: شمعة
+  white_candle: شمعة بيضاء
+  orange_candle: شمعة برتقالية
+  magenta_candle: شمعة أرجوانية
+  light_blue_candle: شمعة زرقاء فاتحة
+  yellow_candle: شمعة صفراء
+  lime_candle: شمعة ليمونية
+  pink_candle: شمعة وردية
+  gray_candle: شمعة رمادية
+  light_gray_candle: شمعة رمادية فاتحة
+  cyan_candle: شمعة سماوية
+  purple_candle: شمعة بنفسجية
+  blue_candle: شمعة زرقاء
+  brown_candle: شمعة بنية
+  green_candle: شمعة خضراء
+  red_candle: شمعة حمراء
+  black_candle: شمعة سوداء
+  small_amethyst_bud: شظية جمشت صغيرة
+  medium_amethyst_bud: جوهرة جمشت متوسطة
+  large_amethyst_bud: جوهرة جمشت كبيرة
+  amethyst_cluster: عنقود جمشت
+  pointed_dripstone: حجر تنقيط مدبب الرأس
   water: ماء
   lava: حمم
-  tall_seagrass: عشب البحر الطويل
+  tall_seagrass: أعشاب البحر الطويلة
   piston_head: رأس المكبس
   moving_piston: مكبس متحرك
-  wall_torch: شعلة جدار
+  wall_torch: شعلة جدارية
   fire: نار
   soul_fire: نار الروح
-  redstone_wire: سلك الحجر الأحمر
+  redstone_wire: سلك ريدستون
   oak_wall_sign: لافتة جدارية من البلوط
   spruce_wall_sign: لافتة جدارية من التنوب
   birch_wall_sign: لافتة جدارية من البتولا
   acacia_wall_sign: لافتة جدارية من السنط
   jungle_wall_sign: لافتة جدارية من الأدغال
   dark_oak_wall_sign: لافتة جدارية من البلوط الداكن
-  redstone_wall_torch: شعلة الريدستون
-  soul_wall_torch: شعلة حائط روحية
+  redstone_wall_torch: شعلة ريدستون جدارية
+  soul_wall_torch: شعلة جدارية روحية
   nether_portal: بوابة العالم السفلي
   attached_pumpkin_stem: جذع يقطين موصول
   attached_melon_stem: جذع بطيخ موصول
-  pumpkin_stem: جذع اليقطين
+  pumpkin_stem: جذع يقطين
   melon_stem: ساق البطيخ
+  water_cauldron: مرجل ماء
+  lava_cauldron: مرجل حمم بركانبة
+  powder_snow_cauldron: مرجل مسحوق الثلج
   end_portal: بوابة النهاية
   cocoa: كاكاو
   tripwire: سلك المصيدة
@@ -1033,12 +1160,12 @@ material:
   potted_cactus: أصيص الصبار
   carrots: الجزر
   potatoes: البطاطا
-  skeleton_wall_skull: جمجمة هيكل عظمى
+  skeleton_wall_skull: جمجمة هيكل عظمى حائطية
   wither_skeleton_wall_skull: جمجمة الويذر سكلتون
-  zombie_wall_head: جمجمة الزومبي
-  player_wall_head: جمجمة اللاعب
+  zombie_wall_head: جمجمة زومبي حائطية
+  player_wall_head: جمجمة لاعب حائطية
   creeper_wall_head: جمجمة المتفجر
-  dragon_wall_head: جمجمة التنين
+  dragon_wall_head: جمجمة تنين حائطية
   white_wall_banner: راية بيضاء
   orange_wall_banner: راية برتقالية
   magenta_wall_banner: راية أرجوانية
@@ -1055,9 +1182,9 @@ material:
   green_wall_banner: راية خضراء
   red_wall_banner: راية حمراء
   black_wall_banner: راية سوداء
-  beetroots: فجل
+  beetroots: شمندر
   end_gateway: بوابة الأند
-  frosted_ice: ثلج قاسي
+  frosted_ice: جليد متجمد
   kelp_plant: نبات عشب البحر
   dead_tube_coral_wall_fan: شعب مرجان أنبوبى جدارى ميت
   dead_brain_coral_wall_fan: جدار مرجان المروحة العقلي الميت
@@ -1083,6 +1210,30 @@ material:
   potted_warped_fungus: وعاء الفطر الغريب
   potted_crimson_roots: وعاء الجذور القرمزية
   potted_warped_roots: وعاء الجذور الغريبة
+  candle_cake: كعكة مع شمعة
+  white_candle_cake: كعكة مع شمعة بيضاء
+  orange_candle_cake: كعكة مع شمعة برتقالية
+  magenta_candle_cake: كعكة مع شمعة أرجوانية
+  light_blue_candle_cake: كعكة مع شمعة زرقاء فاتحة
+  yellow_candle_cake: كعكة مع شمعة صفراء
+  lime_candle_cake: كعكة مع شمعة خضراء فاتحة
+  pink_candle_cake: كعكة مع شمعة وردية
+  gray_candle_cake: كعكة مع شمعة رمادية
+  light_gray_candle_cake: كعكة مع شمعة رمادية فاتحة اللون
+  cyan_candle_cake: كعكة مع شمعة زرقاء سماوية
+  purple_candle_cake: كعكة مع شمعة بنفسجية
+  blue_candle_cake: كعكة مع شمعة زرقاء
+  brown_candle_cake: كعكة مع شمعة بنية
+  green_candle_cake: كعكة مع شمعة خضراء
+  red_candle_cake: كعكة مع شمعة حمراء
+  black_candle_cake: كعكة مع شمعة سوداء
+  powder_snow: مسحوق الثلج
+  cave_vines: عروق الكهف
+  cave_vines_plant: مصنع عروق الكهف
+  big_dripleaf_stem: جذع ورقة نقطية كبير
+  potted_azalea_bush: أزاليا محفوظ بمزهرية
+  potted_flowering_azalea_bush: زرعت الأزاليا في المزهرية
+  grass_path: طريق عشبي
   zombie_pigman_spawn_egg: بيضة الزومبي الخنزيري
   cactus_green: صبغة الصبار الخضراء
   dandelion_yellow: الهندباء الصفراء
@@ -1101,20 +1252,20 @@ biome:
   nether_wastes: نفايات الجحيم
   the_end: عالم الإند
   frozen_ocean: المحيط المتجمد
-  frozen_river: نهر متجمد
+  frozen_river: النهر المتجمد
   snowy_tundra: التندرا ثلجي
   snowy_mountains: الجبال الثلجية
   mushroom_fields: حقول الفطر
   mushroom_field_shore: حقل الفطر
-  beach: شاطيء
+  beach: شاطئ
   desert_hills: تلال الصحراء
   wooded_hills: تلال مشجرة
   taiga_hills: تلال التايغا
   mountain_edge: حافة الجبل
   jungle: أدغال
-  jungle_hills: تلال الغابة
+  jungle_hills: تلال الأدغال
   jungle_edge: حافة الأدغال
-  deep_ocean: أعماق المحيط
+  deep_ocean: المحيط العميق
   stone_shore: ساحل الحجر
   snowy_beach: شاطيء ثلجي
   birch_forest: غابة البتولا
@@ -1137,7 +1288,7 @@ biome:
   warm_ocean: المحيط الدافئ
   lukewarm_ocean: المحيط الفاتر
   cold_ocean: المحيط البارد
-  deep_warm_ocean: المحيط الدافيء العميق
+  deep_warm_ocean: المحيط الدافئ العميق
   deep_lukewarm_ocean: المحيط الفاتر العميق
   deep_cold_ocean: المحيط البارد العميق
   deep_frozen_ocean: المحيط المتجمد العميق
@@ -1150,7 +1301,7 @@ biome:
   swamp_hills: تلال المستنقع
   ice_spikes: الأبراج الثلجية
   modified_jungle: أدغال معدلة
-  modified_jungle_edge: حافة أدغال معدلة
+  modified_jungle_edge: حافة الأدغال المعدلة
   tall_birch_forest: غابة بتولا طويلة
   tall_birch_hills: تلال بتولا طويلة
   dark_forest_hills: غابة التلال المظلمة
@@ -1169,46 +1320,48 @@ biome:
   crimson_forest: غابة قرمزية
   warped_forest: غابة عجيبة
   basalt_deltas: بازلت الدلتا
+  dripstone_caves: كهوف حجر تنقيط
+  lush_caves: الكهوف المورقة
   nether: Nether العالم السفلي
 enchantment:
-  fire_protection: حماية من النار
-  sharpness: حدة
-  flame: لهب
-  soul_speed: سرعة الروح
-  aqua_affinity: الألفة مع الماء
-  punch: لكمة
-  loyalty: الولاء
-  depth_strider: السرعة تحت الماء
-  vanishing_curse: لعنة الإختفاء
-  unbreaking: حماية من الكسر
-  knockback: إبعاد
-  luck_of_the_sea: حظ البحر
-  binding_curse: لعنة التشبث
-  fortune: ثروة
   protection: حماية
-  efficiency: كفاءة
-  mending: الإصلاح
-  frost_walker: حذاء التجمد
-  lure: إغراء
-  looting: النهب
-  piercing: ثقب
-  blast_protection: حماية من الانفجار
-  smite: تعذيب
-  multishot: طلقات متعددة
-  fire_aspect: احراق
-  channeling: التوجيه
-  sweeping: الحافة الكانسة
-  thorns: الأشواك
-  bane_of_arthropods: هلاك المفصليات
-  respiration: تنفس
-  riptide: الإندفاع
-  silk_touch: لمسة الحرير
-  quick_charge: تعشيق سريع
-  projectile_protection: حماية من المقذوفات
-  impaling: التطويق
+  fire_protection: حماية من النار
   feather_falling: سقوط الريشة
+  blast_protection: حماية من الانفجار
+  projectile_protection: حماية من المقذوفات
+  respiration: تنفس
+  aqua_affinity: الألفة مع الماء
+  thorns: الأشواك
+  depth_strider: السرعة تحت الماء
+  frost_walker: حذاء التجمد
+  binding_curse: لعنة التشبث
+  sharpness: حدة
+  smite: تعذيب
+  bane_of_arthropods: هلاك المفصليات
+  knockback: إبعاد
+  fire_aspect: احراق
+  looting: النهب
+  sweeping: الحافة الكانسة
+  efficiency: كفاءة
+  silk_touch: لمسة الحرير
+  unbreaking: حماية من الكسر
+  fortune: ثروة
   power: القوة
+  punch: لكمة
+  flame: لهب
   infinity: اللامحدودية
+  luck_of_the_sea: حظ البحر
+  lure: إغراء
+  loyalty: الولاء
+  impaling: التطويق
+  riptide: الإندفاع
+  channeling: التوجيه
+  multishot: طلقات متعددة
+  quick_charge: تعشيق سريع
+  piercing: ثقب
+  mending: الإصلاح
+  vanishing_curse: لعنة الإختفاء
+  soul_speed: سرعة الروح
 potion:
   uncraftable: جرعة غير قابلة للصناعة
   water: قنينة مياه
@@ -1403,6 +1556,11 @@ entity:
   strider: سترايدر
   zoglin: هوجلين
   piglin_brute: Piglin الغاشمة
+  axolotl: Axolotl
+  glow_item_frame: إطار أغراض متوهج
+  glow_squid: الأخطبوط المتوهج
+  goat: خروف
+  marker: علامة
   fishing_hook: عوامة صيد
   lightning: صاعقة برق
   player: لاعب
@@ -1545,7 +1703,7 @@ banner_pattern:
   '131079': مربع سفلي أيمن رمادي
   '131080': مربع سفلي أيمن رمادي فاتح
   '131081': مربع سفلي أيمن سماوي
-  '131082': مربع سفلي أيمن بنفسي
+  '131082': مربع سفلي أيمن بنفسجي
   '131083': مربع سفلي أيمن أزرق
   '131084': مربع سفلي أيمن بني
   '131085': مربع سفلي أيمن أخضر
@@ -1721,7 +1879,7 @@ banner_pattern:
   '851975': خطوط صغيرة رمتدية
   '851976': خطوط صغيرة رمادية فاتحة
   '851977': خطوط صغيرة سماوية
-  '851978': خطوط صغيرة أرجوانية
+  '851978': خطوط صغيرة بنفسجية
   '851979': خطوط صغيرة زرقاء
   '851980': خطوط صغيرة بنية
   '851981': خطوط صغيرة خضراء
@@ -1753,7 +1911,7 @@ banner_pattern:
   '983047': صليب رمادي
   '983048': صليب رمادي فاتح
   '983049': صليب سماوي
-  '983050': صليب أرجواني
+  '983050': صليب بنفسجي
   '983051': صليب أزرق
   '983052': صليب بني
   '983053': صليب أخضر
@@ -1801,7 +1959,7 @@ banner_pattern:
   '1179655': مثلثات سفلية رمادية
   '1179656': مثلثات سفلية رمادية فاتحة
   '1179657': مثلثات سفلية سماوية
-  '1179658': مثلثات سفلية بنية
+  '1179658': مثلثات سفلية بنفسجية
   '1179659': مثلثات سفلية زرقاء
   '1179660': مثلثات سفلية بنية
   '1179661': مثلثات سفلية جضراء
@@ -2121,7 +2279,7 @@ banner_pattern:
   '2490375': شيء رمادي
   '2490376': شيء رمادي فاتح
   '2490377': شيء سماوي
-  '2490378': شيء أرجواني
+  '2490378': شيء بنفسجي
   '2490379': شيء أزرق
   '2490380': شيء بني
   '2490381': شيء أخضر
@@ -2137,7 +2295,7 @@ banner_pattern:
   '2555911': كرة أرضية رمادية
   '2555912': كرة أرضية رمادية فاتحة
   '2555913': كرة أرضية سماوية
-  '2555914': كرة أرضية قرمزية
+  '2555914': كرة أرضية بنفسجية
   '2555915': كرة أرضية زرقاء
   '2555916': كرة أرضية بنية
   '2555917': كرة أرضية خضراء
@@ -2145,7 +2303,7 @@ banner_pattern:
   '2555919': كرة أرضية سوداء
   '2621440': الانف الابيض
   '2621441': انف البرتقالي
-  '2621442': الانف ارجواني
+  '2621442': أنف أرجواني
   '2621443': الانف فاتح زرقاء
   '2621444': الانف الاصفر
   '2621445': انف بني غامق
@@ -2153,7 +2311,7 @@ banner_pattern:
   '2621447': انف رصاصي
   '2621448': الخطم بني فاتح
   '2621449': انف سماوي
-  '2621450': انف البنفسجي
+  '2621450': أنف بنفسجي
   '2621451': انف الأزرق
   '2621452': انف البنى
   '2621453': انف الاخضر
@@ -2183,7 +2341,7 @@ new_banner_pattern:
 merchant_level:
   '1': مبتدئ
   '2': مبتدئ
-  '3': التاجر اليومي
+  '3': بارع
   '4': خبير
   '5': رئيس
 villager_profession:
@@ -2202,17 +2360,3 @@ villager_profession:
   shepherd: الراعي
   toolsmith: حدادة الأدوات
   weaponsmith: حدادة الأسلحة
-villager_career:
-  farmer: مزارع
-  fisherman: الصياد
-  shepherd: الراعي
-  fletcher: فليتشر
-  librarian: امين المكتبة
-  cartographer: بائع الخرائط
-  cleric: كاهن
-  armorer: حداد الدروع
-  weapon_smith: حداد الاسلحة
-  tool_smith: حداد الادوات
-  butcher: الجزار
-  leatherworker: عامل الجلود
-  nitwit: الجاهل

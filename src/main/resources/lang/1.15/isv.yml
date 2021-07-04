@@ -1,45 +1,171 @@
 # ####################################################
-# Build time: 2021-03-17 16:17:24                    #
+# Build time: 2021-07-04 21:39:00                    #
 # ####################################################
 language:
   code: isv
   name: Medžuslovjansky
   region: Slavija
 material:
+  acacia_button: Akacovy klaviš
+  acacia_fence_gate: Akacova vrata
+  acacia_log: Akacovo brvno
   acacia_sign: Akacova nadpis
   acacia_wall_sign: Nastěnna akacova nadpis
+  azure_bluet: Haustonja modra
+  bee_nest: Pčelino gnězdo
+  birch_button: Brězovy klaviš
+  birch_fence_gate: Brězova vrata
+  birch_log: Brězovo brvno
   birch_sign: Brězova nadpis
   birch_wall_sign: Nastěnna brězova nadpis
+  birch_wood: Brězove drěvo
+  black_dye: Črno barvivo
+  black_shulker_box: Črna šalkerova skrinja
+  blue_dye: Modro barvivo
+  blue_ice: Nebesky led
+  brown_dye: Koričnevo barvivo
+  brown_shulker_box: Koričneva šalkerova skrinja
+  cake: Kolač
+  chest: Skladišče
+  chest_minecart: Vagonetka so skladiščem
+  chicken: Surova Kura
+  coal_block: Blok vuglja
+  coarse_dirt: Gruba zemja
+  cooked_chicken: Pečena Kura
   creeper_head: Glava Creepera
   creeper_spawn_egg: Jajce s Creeperom
   creeper_wall_head: Nastěnna glava Creepera
+  cyan_dye: Turkysovo barvivo
+  cyan_shulker_box: Turkysova šalkerova skrinja
+  dark_oak_button: Mračnodubovy klaviš
+  dark_oak_fence_gate: Mračnodubova vrata
+  dark_oak_log: Mračnodubovo brvno
   dark_oak_sign: Mračnodubova nadpis
   dark_oak_wall_sign: Nastěnna mračnodubova nadpis
+  dark_oak_wood: Mračnodubove drěvo
+  dead_bush: Usohnuty kust
   elytra: Elitry
   ender_chest: Ender-skladišče
+  experience_bottle: Čarovna butylka
+  farmland: Obrabotyvano polje
   fire_coral_fan: Vějarny ognjeny koral
+  furnace_minecart: Vozok s pečem
+  glass_bottle: Steklěna butylka
+  gray_dye: Sivo barvivo
+  gray_shulker_box: Siva šalkerova skrinja
+  green_dye: Zeleno barvivo
+  green_shulker_box: Zelena šalkerova skrinja
+  guardian_spawn_egg: Jajce s stražem
+  honeycomb: Sotovje
+  honey_bottle: Butylka meda
+  item_frame: Oprava na prědemet
+  jungle_button: Džunglovy klaviš
+  jungle_fence_gate: Džunglova vrata
+  jungle_log: Džunglovo brvno
   jungle_sign: Džunglova nadpis
   jungle_wall_sign: Nastěnna džunglova nadpis
+  lapis_block: Blok lazurita
+  light_blue_dye: Jasnomodro barvivo
+  light_gray_dye: Jasnosivo barvivo
+  light_gray_shulker_box: Jasnosiva šalkerova skrinja
+  lime_dye: Jasnozeleno barvivo
+  lime_shulker_box: Jasnozelena šalkerova skrinja
+  magenta_dye: Purpurno barvivo
+  magenta_shulker_box: Purpurna šalkerova skrinja
+  music_disc_11: Melodičny disk
+  music_disc_13: Melodičny disk
+  music_disc_blocks: Melodičny disk
+  music_disc_cat: Melodičny disk
+  music_disc_chirp: Melodičny disk
+  music_disc_far: Melodičny disk
+  music_disc_mall: Melodičny disk
+  music_disc_mellohi: Melodičny disk
+  music_disc_stal: Melodičny disk
+  music_disc_strad: Melodičny disk
+  music_disc_wait: Melodičny disk
+  music_disc_ward: Melodičny disk
+  nether_brick_fence: Nezerova ograda
+  nether_brick_slab: Nezerovy platform
+  nether_brick_stairs: Nezerovo stupenišče
+  nether_quartz_ore: Kvarceva ruda
+  oak_button: Dubovy klaviš
+  oak_fence_gate: Dubova vrata
+  oak_log: Dubovo brvno
   oak_sign: Dubova nadpis
   oak_wall_sign: Nastěnna dubova nadpis
-  potted_spruce_sapling: Smrěkovy rastok v grnu
+  oak_wood: Dubove drěvo
+  orange_dye: Oranževo barvivo
+  orange_shulker_box: Oranževa šalkerova skrinja
+  phantom_membrane: Blana fantoma
+  phantom_spawn_egg: Jajce s fantomom
+  pink_dye: Rozovo barvivo
+  pink_shulker_box: Rozova šalkerova skrinja
+  podzol: Podzolj
+  potted_azure_bluet: Haustonja modra v grnu
+  potted_dead_bush: Usohnuty kust v grnu
+  purple_dye: Fioletovo barvivo
+  purple_shulker_box: Fioletova šalkerova skrinja
+  purpur_stairs: Purpurove stupenišče
+  redstone_lamp: Redstounova světilka
+  red_dye: Črveno barvivo
+  red_shulker_box: Črvena šalkerova skrinja
+  repeater: Redstounovy povtoritel
+  shulker_box: Šalkerova skrinja
   shulker_spawn_egg: Jajce so shulkerom
   smooth_quartz: Gladky Kvarc
+  smooth_quartz_slab: Gladko kvarcovy platform
+  spruce_button: Smrěkovy klaviš
+  spruce_fence_gate: Smrěkova vrata
+  spruce_log: Smrěkovo brvno
   spruce_sign: Smrěkova nadpis
   spruce_wall_sign: Nastěenna smrěkova nadpis
+  spruce_wood: Smrěkove drěvo
+  squid_spawn_egg: Jajce so sprukom
+  stick: Palka
+  stone_button: Kamenny klaviš
+  stripped_acacia_log: Tesano akacovo brvno
+  stripped_birch_log: Tesano brězovo brvno
+  stripped_dark_oak_log: Tesano mračnodubovo brvno
+  stripped_jungle_log: Tesano džunglovo brvno
+  stripped_oak_log: Tesano dubovo brvno
+  stripped_spruce_log: Tesano smrěkovo brvno
   turtle_egg: Jajce žolve
   turtle_helmet: Pancyr žolvi
-  wither_skeleton_skull: Čerep vizerovogo skeleta
+  white_dye: Bělo barvivo
+  white_shulker_box: Běla šalkerova skrinja
+  yellow_dye: Žolto barvivo
+  yellow_shulker_box: Žolta šalkerova skrinja
+enchantment:
+  blast_protection: Ohrana protiv eizbuhu
+potion:
+  water: Butylka vody
+splash_potion:
+  water: Metana butylka vody
+lingering_potion:
+  water: Dolgotrajna butylka vody
 entity:
-  spectral_arrow: Prividna strěla
+  thrown_exp_bottle: Kydnuta čarovna butylka
+  item_frame: Oprava na prědemet
+  zombie_villager: Seljan zombi
+  minecart_command: Vozok s blokom prikazov
   minecart_chest: Vozok so skrinjoju
+  minecart_furnace: Vozok s pečem
+  zombie: Zombi
+  bat: Lětajuča myš
   shulker: Šulker
+  phantom: Fantom
 colored_shied:
   light_blue: Nebesky ščit
   lime: Světlozeleny ščit
   light_gray: Světlosivy ščit
+  blue: Modry ščit
   brown: Kaštanovy ščit
 banner_pattern:
+  '2097152': Bělo lice Creepera
+  '2097153': Oranževo lice Creepera
+  '2097154': Purpurno lice Creepera
+  '2097155': Jasnomodro lice Creepera
+  '2097156': Žolto lice Creepera
   '2097157': Jasnozeleno lice Creepera
   '2097158': Rozovo lice Creepera
   '2097159': Sivo lice Creepera
@@ -51,6 +177,19 @@ banner_pattern:
   '2097165': Zeleno lice Creepera
   '2097166': Črveno lice Creepera
   '2097167': Črno lice Creepera
+music_disk:
+  music_disc_11: C418 — 11
+  music_disc_13: C418 — 13
+  music_disc_blocks: C418 — blocks
+  music_disc_cat: C418 — cat
+  music_disc_chirp: C418 — chirp
+  music_disc_far: C418 — far
+  music_disc_mall: C418 — mall
+  music_disc_mellohi: C418 — mellohi
+  music_disc_stal: C418 — stal
+  music_disc_strad: C418 — strad
+  music_disc_wait: C418 — wait
+  music_disc_ward: C418 — ward
 new_banner_pattern:
   creeper_banner_pattern: Lice Creepera
   globe_banner_pattern: Kolpak

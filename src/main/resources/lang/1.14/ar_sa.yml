@@ -1,22 +1,162 @@
 # ####################################################
-# Build time: 2021-03-17 16:19:58                    #
+# Build time: 2021-07-04 21:41:54                    #
 # ####################################################
 language:
   code: ar_sa
   name: العربية
   region: العالم العربي
 material:
+  acacia_fence: سياج من الطلح
+  acacia_fence_gate: بوابة سياج من الطلح
+  acacia_leaves: أوراق الأكاسيا
+  acacia_log: خشب السنط
+  acacia_planks: لوح خشب السنط
+  acacia_pressure_plate: لوح ضغط خشب السنط
+  acacia_slab: لوح خشب السنط
+  activator_rail: سكة التفعيل
+  allium: زهرة ثوم
+  andesite: أنديزيت
+  andesite_wall: جدار أنديزيت
+  azure_bluet: الزهرة الصفراء السماوية
   bamboo_sapling: شجيرة قصب الخيزران
+  barrier: الحاجز
+  beetroots: فجل
+  birch_fence: سياج من البتولا
+  birch_fence_gate: بوابة سياج من البتولا
+  birch_log: خشب البتولا
+  birch_planks: لوح خشب البتولا
+  birch_pressure_plate: لوح ضغط خشب البتولا
+  birch_slab: لوح خشب البتولا
+  birch_stairs: درج من خشب البتولا
+  blue_orchid: زهرة سحلبية زرقاء
+  brick_slab: بلاطة الطوب
+  brown_mushroom: الفطر البني
+  carved_pumpkin: يقطينة منحوتة
+  cauldron: قدر
   chiseled_red_sandstone: حجر رملي أحمر منحوت
   clay_ball: صلصال
+  cobblestone_stairs: درج حجري
+  cobblestone_wall: جدار حصاة
+  cod_bucket: دلو سمكة القد
   cornflower: القنطريون العنبري
+  cut_red_sandstone: قطعة الحجر الرملي الأحمر
+  cut_red_sandstone_slab: قطع بلاطة الحجر الرملي الأحمر
+  cut_sandstone: قطعة الحجر الرملي
+  cut_sandstone_slab: قطع بلاطة الحجر الرملي
+  cyan_shulker_box: صندوق شلكر سماوي غامق
+  dark_oak_fence: سياج من البلوط الداكن
+  dark_oak_fence_gate: بوابة سياج من البلوط الداكن
+  dark_oak_leaves: أوراق البلوط الداكنة
+  dark_oak_log: خشب البلوط الداكن
+  dark_oak_planks: لوح خشب البلوط الداكن
+  dark_oak_pressure_plate: لوح ضغط خشب البلوط الداكن
+  dark_oak_slab: لوح خشب البلوط الداكن
+  dark_oak_stairs: درج من خشب البلوط الداكن
+  dark_prismarine_slab: بلاطة البريسمارين الداكن
+  diamond_block: كتلة ألماس
+  diorite_wall: جدار الديوريت
+  dragon_wall_head: جمجمة التنين
+  dropper: القطارة
+  emerald_block: كتلة زمرد
+  end_stone_brick_wall: جدار حجر عالم النهاية الصلب
+  fern: خنشار
   flint_and_steel: ولاعة
+  frosted_ice: ثلج قاسي
+  gold_block: كتلة ذهب
+  granite_wall: جدار الجرانيت
+  heavy_weighted_pressure_plate: لوح ضغط ثقيل الوزن
+  iron_block: كتلة حديد
+  jack_o_lantern: اليقطين المضيئ
   jukebox: فونوغراف
+  jungle_fence: سياج من الأدغال
+  jungle_fence_gate: بوابة سياج من الأدغال
+  jungle_log: خشب الأدغال
+  jungle_planks: لوح خشب الأدغال
+  jungle_pressure_plate: لوح ضغط خشب الأدغال
+  jungle_slab: لوح الأدغال
+  jungle_stairs: درج من خشب الأدغال
+  large_fern: السرخس الكبيرة
+  light_blue_shulker_box: صندوق شلكر سماوي
+  light_weighted_pressure_plate: لوح ضغط خفيف الوزن
+  lilac: أرجواني فاتح
+  magenta_bed: سرير بنفسجي
+  magenta_dye: صبغ أرجواني
+  magenta_stained_glass: زجاج بنفسجي
+  mossy_cobblestone: حصاة مطحلبة
+  mossy_cobblestone_wall: جدار حصاة مطحلب
   mossy_stone_brick_wall: جدار طوب الحجر المطحلب
+  mushroom_stem: حساء الفطر
   nether_brick_slab: طوب الأسفل بلاطة
+  oak_fence: سياج
+  oak_log: خشب البلوط
+  oak_planks: لوح خشب البلوط
+  oak_pressure_plate: لوح ضغط خشب البلوط
+  oak_slab: لوح خشب البلوط
+  packed_ice: الجليد معبأة
+  peony: عود
+  petrified_oak_slab: لوح خشب البلوط المتحجر
+  player_wall_head: جمجمة اللاعب
+  polished_andesite: أنديزيت مصقول
   polished_diorite_slab: بلاطة الديوريت المطحلب
+  poppy: وردة حمراء
+  prismarine_brick_slab: بلاطة من طوب البريسمارين
+  prismarine_brick_stairs: درج من طوب البريسمارين
+  prismarine_slab: بلاطة البريسمارين
+  prismarine_wall: جدار الموشور البحري
+  pufferfish_bucket: دلو سمكة المنتفخة
+  pumpkin_stem: جذع اليقطين
+  quartz_slab: بلاطة الكوارتز
+  redstone_wall_torch: شعلة الريدستون
+  redstone_wire: سلك الحجر الأحمر
+  red_mushroom_block: كتلة الفطر الأحمر
   red_nether_brick_wall: جدار الطوب الأحمر السفلي
+  red_sand: رمل احمر
+  red_sandstone: الحجر الرملي الأحمر
+  red_sandstone_wall: جدار الحجر الرملي الأحمر
+  repeating_command_block: تكرار مصدرة الأوامر
+  rose_bush: ﺩﻭﺭﻭ ﺓﺮﻴﺠﺷ
+  salmon_bucket: دلو سمكة السلمون
+  sandstone_slab: بلاطة الحجر الرملي
+  sandstone_stairs: درج من الحجر الرملي
+  sandstone_wall: جدار الحجر الرملي
+  seagrass: عشب البحر
+  skeleton_wall_skull: جمجمة هيكل عظمى
   smooth_quartz: كوارتز ناعم
+  smooth_red_sandstone: حجر رملي أحمر ناعم
+  smooth_stone_slab: بلاطة الحجر الأملس
+  spawner: سبونر
+  sponge: اسفنج
+  spruce_fence: سياج شجرة التنوب
+  spruce_fence_gate: بوابة سياج من التنوب
+  spruce_log: خشب التنوب
+  spruce_planks: لوح خشب التنوب
+  spruce_pressure_plate: لوح ضغط خشب التنوب
+  spruce_slab: لوح خشب التنوب
+  spruce_stairs: درج من خشب التنوب
+  stone_brick_slab: بلاطة من الطوب الحجري
+  stone_brick_wall: جدار الطوب الحجري
+  stone_button: زر من الحجر
+  stone_pressure_plate: لوح ضغط حجري
+  stripped_acacia_log: خشب السنط منزوع اللحاء
+  stripped_birch_log: خشب البتولا منزوع اللحاء
+  stripped_dark_oak_log: خشب البلوط الداكن منزوع اللحاء
+  stripped_jungle_log: خشب الأدغال منزوع اللحاء
+  stripped_oak_log: خشب البلوط منزوع اللحاء
+  stripped_spruce_log: خشب التنوب منزوع اللحاء
+  tall_grass: العشب الطويل
+  tall_seagrass: عشب البحر الطويل
+  tropical_fish_bucket: دلو السمكة الإستوائية
+  turtle_egg: بيضة السلحفاة
+  wall_torch: شعلة جدار
+  wither_rose: الوردة الذابلة
+  zombie_wall_head: جمجمة الزومبي
+biome:
+  frozen_river: نهر متجمد
+  beach: شاطيء
+  jungle_hills: تلال الغابة
+  deep_ocean: أعماق المحيط
+  deep_warm_ocean: المحيط الدافيء العميق
+  modified_jungle_edge: حافة أدغال معدلة
 enchantment:
   knockback: ضربة عنيفة
   piercing: نافذ
@@ -25,5 +165,13 @@ entity:
   minecart_mob_spawner: عربة منجم مع مولد
 tropical_fish_type:
   sunstreak: خط الشمس
+banner_pattern:
+  '131082': مربع سفلي أيمن بنفسي
+  '851978': خطوط صغيرة أرجوانية
+  '983050': صليب أرجواني
+  '1179658': مثلثات سفلية بنية
+  '2490378': شيء أرجواني
+  '2555914': كرة أرضية قرمزية
 merchant_level:
   '2': متمهن
+  '3': التاجر اليومي

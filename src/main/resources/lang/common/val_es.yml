@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:49                    #
+# Build time: 2021-07-04 21:46:04                    #
 # ####################################################
 language:
   code: val_es
@@ -14,10 +14,17 @@ material:
   polished_diorite: Diorita polida
   andesite: Andesita
   polished_andesite: Andesita polida
+  deepslate: Pissarra
+  cobbled_deepslate: Empedrat de pissarra
+  polished_deepslate: Pissarra polida
+  calcite: Calcita
+  tuff: Tova volcànica
+  dripstone_block: Bloc d'espeleotema
   grass_block: Bloc d'herba
   dirt: Terra
   coarse_dirt: Terra estèril
   podzol: Pinassa
+  rooted_dirt: Terra amb arrels
   crimson_nylium: Miceli carmesí
   warped_nylium: Miceli estrambòtic
   cobblestone: Empedrat
@@ -39,10 +46,67 @@ material:
   sand: Arena
   red_sand: Arena roja
   gravel: Grava
-  gold_ore: Mena d'or
-  iron_ore: Mena de ferro
   coal_ore: Mena de carbó
+  deepslate_coal_ore: Mena de carbó pissarrosa
+  iron_ore: Mena de ferro
+  deepslate_iron_ore: Mena de ferro pissarrosa
+  copper_ore: Mena de coure
+  deepslate_copper_ore: Mena de coure pissarrosa
+  gold_ore: Mena d'or
+  deepslate_gold_ore: Mena d'or pissarrosa
+  redstone_ore: Mena de redstone
+  deepslate_redstone_ore: Mena de redstone pissarrosa
+  emerald_ore: Mena de maragda
+  deepslate_emerald_ore: Mena de maragda pissarrosa
+  lapis_ore: Mena de lapislàtzuli
+  deepslate_lapis_ore: Mena de lapislàtzuli pissarrosa
+  diamond_ore: Mena de diamant
+  deepslate_diamond_ore: Mena de diamant pissarrosa
   nether_gold_ore: Mena d'or del Nether
+  nether_quartz_ore: Mena de quars
+  ancient_debris: Enderrocs antics
+  coal_block: Bloc de carbó
+  raw_iron_block: Bloc de mineral de ferro
+  raw_copper_block: Bloc de mineral de coure
+  raw_gold_block: Bloc de mineral d'or
+  amethyst_block: Bloc d'ametista
+  budding_amethyst: Ametista incipient
+  iron_block: Bloc de ferro
+  copper_block: Bloc de coure
+  gold_block: Bloc d'or
+  diamond_block: Bloc de diamant
+  netherite_block: Bloc de netherita
+  exposed_copper: Coure exposat
+  weathered_copper: Coure rovellat
+  oxidized_copper: Coure oxidat
+  cut_copper: Coure tallat
+  exposed_cut_copper: Coure tallat exposat
+  weathered_cut_copper: Coure tallat rovellat
+  oxidized_cut_copper: Coure tallat oxidat
+  cut_copper_stairs: Escales de coure tallat
+  exposed_cut_copper_stairs: Escales de coure tallat exposat
+  weathered_cut_copper_stairs: Escales de coure tallat rovellades
+  oxidized_cut_copper_stairs: Escales de coure tallat oxidat
+  cut_copper_slab: Llosa de coure tallat
+  exposed_cut_copper_slab: Llosa de coure tallat exposat
+  weathered_cut_copper_slab: Llosa de coure tallat rovellada
+  oxidized_cut_copper_slab: Llosa de coure tallat oxidat
+  waxed_copper_block: Bloc de coure encerat
+  waxed_exposed_copper: Coure encerat exposat
+  waxed_weathered_copper: Coure encerat rovellat
+  waxed_oxidized_copper: Coure oxidat encerat
+  waxed_cut_copper: Coure tallat encerat
+  waxed_exposed_cut_copper: Coure tallat encerat exposat
+  waxed_weathered_cut_copper: Coure tallat encerat rovellat
+  waxed_oxidized_cut_copper: Coure tallat oxidat encerat
+  waxed_cut_copper_stairs: Escales de coure tallat encerat
+  waxed_exposed_cut_copper_stairs: Escales de coure tallat encerat exposat
+  waxed_weathered_cut_copper_stairs: Escales de coure tallat encerat rovellat
+  waxed_oxidized_cut_copper_stairs: Escales de coure tallat oxidat encerat
+  waxed_cut_copper_slab: Llosa de coure tallat encerat
+  waxed_exposed_cut_copper_slab: Llosa de coure tallat encerat exposat
+  waxed_weathered_cut_copper_slab: Llosa de coure tallat encerat rovellat
+  waxed_oxidized_cut_copper_slab: Llosa de coure tallat oxidat encerat
   oak_log: Tronc de pomer
   spruce_log: Tronc d'avet
   birch_log: Tronc de bedoll
@@ -81,26 +145,24 @@ material:
   jungle_leaves: Fulles d'arbre de jungla
   acacia_leaves: Fulles d'acàcia
   dark_oak_leaves: Fulles de roure
+  azalea_leaves: Fulles d'azalea
+  flowering_azalea_leaves: Fulles d'azalea florent
   sponge: Esponja
   wet_sponge: Esponja humida
   glass: Vidre
-  lapis_ore: Mena de lapislàtzuli
+  tinted_glass: Vidre opac
   lapis_block: Bloc de lapislàtzuli
-  dispenser: Dispensador
   sandstone: Roca arenosa
   chiseled_sandstone: Roca arenosa cisellada
   cut_sandstone: Roca arenosa tallada
-  note_block: Bloc de notes
-  powered_rail: Via d'accelaració
-  detector_rail: Via detectora
-  sticky_piston: Pistó apegalós
   cobweb: Teranyina
   grass: Herba
   fern: Falaguera
+  azalea: Azalea
+  flowering_azalea: Azalea florent
   dead_bush: Arbust mort
   seagrass: Herba marina
   sea_pickle: Cogombre de mar
-  piston: Pistó
   white_wool: Llana blanca
   orange_wool: Llana taronja
   magenta_wool: Llana magenta
@@ -130,6 +192,7 @@ material:
   cornflower: Blauet
   lily_of_the_valley: Lliri de la Mare de Déu
   wither_rose: Rosa mústia
+  spore_blossom: Flor d'espores
   brown_mushroom: Xampinyó marró
   red_mushroom: Xampinyó roig
   crimson_fungus: Fong carmesí
@@ -141,9 +204,12 @@ material:
   twisting_vines: Lianes estrambòtiques
   sugar_cane: Canya de sucre
   kelp: Alga
+  moss_carpet: Estora de molsa
+  moss_block: Bloc de molsa
+  hanging_roots: Arrels
+  big_dripleaf: Fulla relliscosa gran
+  small_dripleaf: Fulla relliscosa xicoteta
   bamboo: Bambú
-  gold_block: Bloc d'or
-  iron_block: Bloc de ferro
   oak_slab: Llosa de fusta de pomer
   spruce_slab: Llosa de fusta d'avet
   birch_slab: Llosa de fusta de bedoll
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: Roca arenosa llisa
   smooth_stone: Roca llisa
   bricks: Rajola
-  tnt: Explosius
   bookshelf: Llibreria
   mossy_cobblestone: Empedrat amb molsa
   obsidian: Obsidiana
@@ -187,27 +252,11 @@ material:
   spawner: Generador d'entitats
   oak_stairs: Escales de fusta de pomer
   chest: Cofre
-  diamond_ore: Mena de diamant
-  diamond_block: Bloc de diamant
   crafting_table: Taula de manufactures
   farmland: Terra arada
   furnace: Forn
   ladder: Escala
-  rail: Via
   cobblestone_stairs: Escales d'empedrat
-  lever: Palanca
-  stone_pressure_plate: Placa de pressió de pedra
-  oak_pressure_plate: Placa de pressió de fusta de pomer
-  spruce_pressure_plate: Placa de pressió de fusta d'avet
-  birch_pressure_plate: Placa de pressió de fusta de bedoll
-  jungle_pressure_plate: Placa de pressió de fusta d'arbre de jungla
-  acacia_pressure_plate: Placa de pressió de fusta d'acàcia
-  dark_oak_pressure_plate: Placa de pressió de fusta de roure
-  crimson_pressure_plate: Placa de pressió carmesí
-  warped_pressure_plate: Placa de pressió estrambòtica
-  polished_blackstone_pressure_plate: Placa de pressió de roca negra polida
-  redstone_ore: Mena de redstone
-  redstone_torch: Torxa de redstone
   snow: Neu
   ice: Gel
   snow_block: Bloc de neu
@@ -224,32 +273,31 @@ material:
   warped_fence: Tanca estrambòtica
   pumpkin: Carabassa
   carved_pumpkin: Carabassa tallada
+  jack_o_lantern: Carabassa de Halloween
   netherrack: Roca del Nether
   soul_sand: Arena d'ànimes
   soul_soil: Terra d'ànimes
   basalt: Basalt
   polished_basalt: Basalt polit
+  smooth_basalt: Basalt llis
   soul_torch: Torxa d'ànimes
   glowstone: Roca brillant
-  jack_o_lantern: Carabassa de Halloween
-  oak_trapdoor: Trapa de fusta de pomer
-  spruce_trapdoor: Trapa de fusta d'avet
-  birch_trapdoor: Trapa de fusta de bedoll
-  jungle_trapdoor: Trapa de fusta d'arbre de jungla
-  acacia_trapdoor: Trapa de fusta d'acàcia
-  dark_oak_trapdoor: Trapa de fusta de roure
-  crimson_trapdoor: Trapa carmesí
-  warped_trapdoor: Trapa estrambòtica
   infested_stone: Roca infestada
   infested_cobblestone: Empedrat infestat
   infested_stone_bricks: Rajoles de roca infestades
   infested_mossy_stone_bricks: Rajoles de roca amb molsa infestades
   infested_cracked_stone_bricks: Rajoles de roca esquerdades infestades
   infested_chiseled_stone_bricks: Rajoles de roca cisellades infestades
+  infested_deepslate: Pissarra infestada
   stone_bricks: Rajoles de roca
   mossy_stone_bricks: Rajoles de roca amb molsa
   cracked_stone_bricks: Rajoles de roca esquerdades
   chiseled_stone_bricks: Rajoles de roca cisellades
+  deepslate_bricks: Rajoles de pissarra
+  cracked_deepslate_bricks: Rajoles de pissarra esquerdades
+  deepslate_tiles: Taulells de pissarra
+  cracked_deepslate_tiles: Taulells de pissarra esquerdats
+  chiseled_deepslate: Pissarra cisellada
   brown_mushroom_block: Bloc de xampinyó marró
   red_mushroom_block: Bloc de xampinyó roig
   mushroom_stem: Tija de xampinyó
@@ -258,14 +306,7 @@ material:
   glass_pane: Panell de vidre
   melon: Meló d'Alger
   vine: Lianes
-  oak_fence_gate: Porta de tanca de fusta de pomer
-  spruce_fence_gate: Porta de tanca de fusta d'avet
-  birch_fence_gate: Porta de tanca de fusta de bedoll
-  jungle_fence_gate: Porta de tanca de fusta d'arbre de jungla
-  acacia_fence_gate: Porta de tanca de fusta d'acàcia
-  dark_oak_fence_gate: Porta de tanca de fusta de roure
-  crimson_fence_gate: Porta de tanca carmesí
-  warped_fence_gate: Porta de tanca estrambòtica
+  glow_lichen: Liquen fosforescent
   brick_stairs: Escales de rajola
   stone_brick_stairs: Escales de rajola de roca
   mycelium: Miceli
@@ -280,11 +321,8 @@ material:
   end_stone: Roca de la Fi
   end_stone_bricks: Rajoles de roca de la Fi
   dragon_egg: Ou del drac de la Fi
-  redstone_lamp: Làmpada de redstone
   sandstone_stairs: Escales de roca arenosa
-  emerald_ore: Mena de maragda
-  ender_chest: Cofre de la Fi
-  tripwire_hook: Ganxo
+  ender_chest: Cofre d'Ender
   emerald_block: Bloc de maragda
   spruce_stairs: Escales de fusta d'avet
   birch_stairs: Escales de fusta de bedoll
@@ -310,33 +348,18 @@ material:
   blackstone_wall: Mur de roca negra
   polished_blackstone_wall: Mur de roca negra polida
   polished_blackstone_brick_wall: Mur de rajoles de roca negra polida
-  stone_button: Botó de pedra
-  oak_button: Botó de fusta de pomer
-  spruce_button: Botó de fusta d'avet
-  birch_button: Botó de fusta de bedoll
-  jungle_button: Botó de fusta d'arbre de jungla
-  acacia_button: Botó de fusta d'acàcia
-  dark_oak_button: Botó de fusta de roure
-  crimson_button: Botó de fusta carmesina
-  warped_button: Botó estrambòtic
-  polished_blackstone_button: Botó de roca negra polida
+  cobbled_deepslate_wall: Mur d'empedrat de pissarra
+  polished_deepslate_wall: Mur de pissarra polida
+  deepslate_brick_wall: Mur de rajoles de pissarra
+  deepslate_tile_wall: Mur de taulells de pissarra
   anvil: Enclusa
   chipped_anvil: Enclusa esquerdada
   damaged_anvil: Enclusa vella
-  trapped_chest: Cofre trampa
-  light_weighted_pressure_plate: Placa de pressió per a pes lleuger
-  heavy_weighted_pressure_plate: Placa de pressió per a pes elevat
-  daylight_detector: Sensor de llum solar
-  redstone_block: Bloc de redstone
-  nether_quartz_ore: Mena de quars
-  hopper: Tremuja
   chiseled_quartz_block: Bloc de quars cisellat
   quartz_block: Bloc de quars
   quartz_bricks: Rajoles de quars
   quartz_pillar: Pilar de quars
   quartz_stairs: Escales de quars
-  activator_rail: Via activadora
-  dropper: Subministrador
   white_terracotta: Terracota blanca
   orange_terracotta: Terracota taronja
   magenta_terracotta: Terracota magenta
@@ -354,7 +377,7 @@ material:
   red_terracotta: Terracota roja
   black_terracotta: Terracota negra
   barrier: Barrera
-  iron_trapdoor: Trapa de ferro
+  light: Llum
   hay_block: Bala de fenc
   white_carpet: Estora blanca
   orange_carpet: Estora taronja
@@ -363,7 +386,7 @@ material:
   yellow_carpet: Estora groga
   lime_carpet: Estora verda llima
   pink_carpet: Estora rosa
-  gray_carpet: Estora grisa
+  gray_carpet: Estora crisa
   light_gray_carpet: Estora grisa clara
   cyan_carpet: Estora cian
   purple_carpet: Estora morada
@@ -373,12 +396,10 @@ material:
   red_carpet: Estora roja
   black_carpet: Estora negra
   terracotta: Terracota
-  coal_block: Bloc de carbó
   packed_ice: Gel compacte
   acacia_stairs: Escales de fusta d'acàcia
   dark_oak_stairs: Escales de fusta de roure
-  slime_block: Bloc de llim
-  grass_path: Camí d'herba
+  dirt_path: Camí de terra
   sunflower: Gira-sol
   lilac: Lilà
   rose_bush: Roser
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: Rajoles del Nether roges
   bone_block: Bloc d'os
   structure_void: Estructura buida
-  observer: Observador
   shulker_box: Caixa de shulker
   white_shulker_box: Caixa de shulker blanca
   orange_shulker_box: Caixa de shulker taronja
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: Escales de rajoles del Nether roges
   polished_andesite_stairs: Escales d'andesita polides
   diorite_stairs: Escales de diorita
+  cobbled_deepslate_stairs: Escales d'empedrat de pissarra
+  polished_deepslate_stairs: Escales de pissarra polida
+  deepslate_brick_stairs: Escales de rajoles de pissarra
+  deepslate_tile_stairs: Escales de taulells de pissarra
   polished_granite_slab: Llosa de granit polida
   smooth_red_sandstone_slab: Llosa de roca arenosa roja llisa
   mossy_stone_brick_slab: Llosa de rajoles de roca amb molsa
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: Llosa de rajoles del Nether roges
   polished_andesite_slab: Llosa d'andesita polida
   diorite_slab: Llosa de diorita
+  cobbled_deepslate_slab: Llosa d'empedrat de pissarra
+  polished_deepslate_slab: Llosa de pissarra polida
+  deepslate_brick_slab: Llosa de rajoles de pissarra
+  deepslate_tile_slab: Llosa de taulells de pissarra
   scaffolding: Bastida
+  redstone: Pols de redstone
+  redstone_torch: Torxa de redstone
+  redstone_block: Bloc de redstone
+  repeater: Repetidor de redstone
+  comparator: Comparador de redstone
+  piston: Pistó
+  sticky_piston: Pistó apegalós
+  slime_block: Bloc de llim
+  honey_block: Bloc de mel
+  observer: Observador
+  hopper: Tremuja
+  dispenser: Dispensador
+  dropper: Subministrador
+  lectern: Faristol
+  target: Diana
+  lever: Palanca
+  lightning_rod: Parallamps
+  daylight_detector: Sensor de llum solar
+  sculk_sensor: Sensor de sculk
+  tripwire_hook: Ganxo
+  trapped_chest: Cofre trampa
+  tnt: Explosius
+  redstone_lamp: Làmpada de redstone
+  note_block: Bloc de notes
+  stone_button: Botó de pedra
+  polished_blackstone_button: Botó de roca negra polida
+  oak_button: Botó de fusta de pomer
+  spruce_button: Botó de fusta d'avet
+  birch_button: Botó de fusta de bedoll
+  jungle_button: Botó de fusta d'arbre de jungla
+  acacia_button: Botó de fusta d'acàcia
+  dark_oak_button: Botó de fusta de roure
+  crimson_button: Botó de fusta carmesina
+  warped_button: Botó estrambòtic
+  stone_pressure_plate: Placa de pressió de pedra
+  polished_blackstone_pressure_plate: Placa de pressió de roca negra polida
+  light_weighted_pressure_plate: Placa de pressió per a pes lleuger
+  heavy_weighted_pressure_plate: Placa de pressió per a pes elevat
+  oak_pressure_plate: Placa de pressió de fusta de pomer
+  spruce_pressure_plate: Placa de pressió de fusta d'avet
+  birch_pressure_plate: Placa de pressió de fusta de bedoll
+  jungle_pressure_plate: Placa de pressió de fusta d'arbre de jungla
+  acacia_pressure_plate: Placa de pressió de fusta d'acàcia
+  dark_oak_pressure_plate: Placa de pressió de fusta de roure
+  crimson_pressure_plate: Placa de pressió carmesí
+  warped_pressure_plate: Placa de pressió estrambòtica
   iron_door: Porta de ferro
   oak_door: Porta de fusta de pomer
   spruce_door: Porta de fusta d'avet
@@ -572,8 +646,42 @@ material:
   dark_oak_door: Porta de fusta de roure
   crimson_door: Porta de fusta carmesina
   warped_door: Porta estrambòtica
-  repeater: Repetidor de redstone
-  comparator: Comparador de redstone
+  iron_trapdoor: Trapa de ferro
+  oak_trapdoor: Trapa de fusta de pomer
+  spruce_trapdoor: Trapa de fusta d'avet
+  birch_trapdoor: Trapa de fusta de bedoll
+  jungle_trapdoor: Trapa de fusta d'arbre de jungla
+  acacia_trapdoor: Trapa de fusta d'acàcia
+  dark_oak_trapdoor: Trapa de fusta de roure
+  crimson_trapdoor: Trapa carmesí
+  warped_trapdoor: Trapa estrambòtica
+  oak_fence_gate: Porta de tanca de fusta de pomer
+  spruce_fence_gate: Porta de tanca de fusta d'avet
+  birch_fence_gate: Porta de tanca de fusta de bedoll
+  jungle_fence_gate: Porta de tanca de fusta d'arbre de jungla
+  acacia_fence_gate: Porta de tanca de fusta d'acàcia
+  dark_oak_fence_gate: Porta de tanca de fusta de roure
+  crimson_fence_gate: Porta de tanca carmesí
+  warped_fence_gate: Porta de tanca estrambòtica
+  powered_rail: Via d'accelaració
+  detector_rail: Via detectora
+  rail: Via
+  activator_rail: Via activadora
+  saddle: Sella de muntar
+  minecart: Vagoneta
+  chest_minecart: Vagoneta amb cofre
+  furnace_minecart: Vagoneta amb forn
+  tnt_minecart: Vagoneta amb explosius
+  hopper_minecart: Vagoneta amb tremuja
+  carrot_on_a_stick: Carlota en un pal
+  warped_fungus_on_a_stick: Fong estrambòtic en un pal
+  elytra: Èlitres
+  oak_boat: Barca de fusta de pomer
+  spruce_boat: Barca de fusta d'avet
+  birch_boat: Barca de fusta de bedoll
+  jungle_boat: Barca de fusta de la jungla
+  acacia_boat: Barca de fusta d'acàcia
+  dark_oak_boat: Barca de fusta de roure
   structure_block: Bloc d'estructura
   jigsaw: Bloc de trencaclosques
   turtle_helmet: Closca de tortuga marina
@@ -585,7 +693,15 @@ material:
   coal: Carbó
   charcoal: Carbó vegetal
   diamond: Diamant
+  emerald: Maragda
+  lapis_lazuli: Lapislàtzuli
+  quartz: Quars
+  amethyst_shard: Fragment d'ametista
+  raw_iron: Mineral de ferro
   iron_ingot: Lingot de ferro
+  raw_copper: Mineral de coure
+  copper_ingot: Lingot de coure
+  raw_gold: Mineral d'or
   gold_ingot: Lingot d'or
   netherite_ingot: Lingot de netherita
   netherite_scrap: Fragments de netherita
@@ -667,31 +783,29 @@ material:
   crimson_sign: Cartell carmesí
   warped_sign: Cartell estrambòtic
   bucket: Poal
-  water_bucket: Poal d'aigua
-  lava_bucket: Poal de lava
-  minecart: Vagoneta
-  saddle: Sella de muntar
-  redstone: Pols de redstone
+  water_bucket: Poal amb aigua
+  lava_bucket: Poal amb lava
+  powder_snow_bucket: Poal amb neu pols
   snowball: Bola de neu
-  oak_boat: Barca de fusta de pomer
   leather: Cuir
-  milk_bucket: Poal de llet
-  pufferfish_bucket: Poal amb peixos globus
-  salmon_bucket: Poal amb salmons
-  cod_bucket: Poal amb abadejos
-  tropical_fish_bucket: Poal amb peixos tropicals
+  milk_bucket: Poal amb llet
+  pufferfish_bucket: Poal amb peix globus
+  salmon_bucket: Poal amb salmó
+  cod_bucket: Poal amb abadejo
+  tropical_fish_bucket: Poal amb peix tropical
+  axolotl_bucket: Poal amb axolot
   brick: Rajola
   clay_ball: Bola d'argila
   dried_kelp_block: Bloc d'algues seques
   paper: Paper
   book: Llibre
   slime_ball: Bola de Llim
-  chest_minecart: Vagoneta amb cofre
-  furnace_minecart: Vagoneta amb forn
   egg: Ou
   compass: Brúixola
+  bundle: Saquet
   fishing_rod: Canya de pescar
   clock: Rellotge
+  spyglass: Ullera
   glowstone_dust: Pols de roca brillant
   cod: Abadejo cru
   salmon: Salmó cru
@@ -700,8 +814,8 @@ material:
   cooked_cod: Abadejo torrat
   cooked_salmon: Salmó torrat
   ink_sac: Sac de tinta
+  glow_ink_sac: Sac de tinta fosforescent
   cocoa_beans: Grans de cacau
-  lapis_lazuli: Lapislàtzuli
   white_dye: Tint blanc
   orange_dye: Tint taronja
   magenta_dye: Tint magenta
@@ -750,7 +864,7 @@ material:
   chicken: Pollastre cru
   cooked_chicken: Pollastre torrat
   rotten_flesh: Carn podrida
-  ender_pearl: Perla de la Fi
+  ender_pearl: Perla d'Ender
   blaze_rod: Vara flamejant
   ghast_tear: Llàgrima de ghast
   gold_nugget: Palleta d'or
@@ -763,8 +877,9 @@ material:
   magma_cream: Bola de magma
   brewing_stand: Altar de pocions
   cauldron: Calderó
-  ender_eye: Ull de la Fi
+  ender_eye: Ull d'Ender
   glistering_melon_slice: Rodanxa de meló d'Alger daurat
+  axolotl_spawn_egg: Generar axolot
   bat_spawn_egg: Generar ratpenat
   bee_spawn_egg: Generar abella
   blaze_spawn_egg: Generar Flama
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: Generar evocador
   fox_spawn_egg: Generar rabosa
   ghast_spawn_egg: Generar ghast
+  glow_squid_spawn_egg: Generar calamar fosforescent
+  goat_spawn_egg: Generar cabra
   guardian_spawn_egg: Generar guardià de les profunditats
   hoglin_spawn_egg: Generar hoglin
   horse_spawn_egg: Generar cavall
@@ -799,7 +916,7 @@ material:
   piglin_spawn_egg: Generar piglin
   piglin_brute_spawn_egg: Generar piglin brut
   pillager_spawn_egg: Generar bandit
-  polar_bear_spawn_egg: Generar ós polar
+  polar_bear_spawn_egg: Generar os polar
   pufferfish_spawn_egg: Generar peix globus
   rabbit_spawn_egg: Generar conill
   ravager_spawn_egg: Generar bèstia dels bandits
@@ -822,7 +939,7 @@ material:
   vindicator_spawn_egg: Generar defensor
   wandering_trader_spawn_egg: Generar comerciant
   witch_spawn_egg: Generar bruixa
-  wither_skeleton_spawn_egg: Generar esquelet de l'Infern
+  wither_skeleton_spawn_egg: Generar esquelet del Nether
   wolf_spawn_egg: Generar llop
   zoglin_spawn_egg: Generar zoglin
   zombie_spawn_egg: Generar zombi
@@ -833,8 +950,8 @@ material:
   fire_charge: Projectil de foc
   writable_book: Llibre, tinter i ploma
   written_book: Llibre escrit
-  emerald: Maragda
   item_frame: Marc
+  glow_item_frame: Marc fosforescent
   flower_pot: Test
   carrot: Carlota
   potato: Creïlla
@@ -848,17 +965,12 @@ material:
   zombie_head: Cap de zombi
   creeper_head: Cap de creeper
   dragon_head: Cap del drac
-  carrot_on_a_stick: Carlota en un pal
-  warped_fungus_on_a_stick: Fong estrambòtic en un pal
   nether_star: Estrela del Nether
   pumpkin_pie: Coca de carabassa
   firework_rocket: Focs artificials
   firework_star: Estrela de focs artificials
   enchanted_book: Llibre encantat
   nether_brick: Rajola del Nether
-  quartz: Quars
-  tnt_minecart: Vagoneta amb explosius
-  hopper_minecart: Vagoneta amb tremuja
   prismarine_shard: Fragment de prismarina
   prismarine_crystals: Cristalls de prismarina
   rabbit: Carn de conill crua
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: Fletxa amb efecte
   lingering_potion: Poció persistent
   shield: Escut
-  elytra: Èlitres
-  spruce_boat: Barca de fusta d'avet
-  birch_boat: Barca de fusta de bedoll
-  jungle_boat: Barca de fusta de la jungla
-  acacia_boat: Barca de fusta d'acàcia
-  dark_oak_boat: Barca de fusta de roure
   totem_of_undying: Tòtem de la immortalitat
   shulker_shell: Closca de shulker
   iron_nugget: Palleta de ferro
@@ -940,7 +1046,7 @@ material:
   skull_banner_pattern: Estandard calavera
   mojang_banner_pattern: Estandard de Mojang
   globe_banner_pattern: Estandard planeta
-  piglin_banner_pattern: Estandard de piglin
+  piglin_banner_pattern: Estandard de creeper
   composter: Compostador
   barrel: Barril
   smoker: Fumador
@@ -948,13 +1054,13 @@ material:
   cartography_table: Taula de cartografia
   fletching_table: Taller de fletxes
   grindstone: Mola
-  lectern: Faristol
   smithing_table: Ferreria
   stonecutter: Tallapedra
   bell: Campana
   lantern: Fanal
   soul_lantern: Fanal d'ànimes
   sweet_berries: Mores
+  glow_berries: Baies fosforescents
   campfire: Foguera
   soul_campfire: Foguera d'ànimes
   shroomlight: Bloc d'espores lluminoses
@@ -962,12 +1068,8 @@ material:
   bee_nest: Rusc
   beehive: Buc
   honey_bottle: Botella de mel
-  honey_block: Bloc de mel
   honeycomb_block: Bloc de bresca
   lodestone: Imant
-  netherite_block: Bloc de netherita
-  ancient_debris: Enderrocs antics
-  target: Diana
   crying_obsidian: Obsidiana plorosa
   blackstone: Roca negra
   blackstone_slab: Llosa de roca negra
@@ -982,6 +1084,28 @@ material:
   polished_blackstone_brick_stairs: Escales de rajoles de roca negra polida
   cracked_polished_blackstone_bricks: Rajoles de roca negra polida esquerdades
   respawn_anchor: Àncora de reaparició
+  candle: Ciri
+  white_candle: Ciri blanc
+  orange_candle: Ciri taronja
+  magenta_candle: Ciri magenta
+  light_blue_candle: Ciri blau clar
+  yellow_candle: Ciri groc
+  lime_candle: Ciri verd llima
+  pink_candle: Ciri rosa
+  gray_candle: Ciri gris
+  light_gray_candle: Ciri gris clar
+  cyan_candle: Ciri cian
+  purple_candle: Ciri morat
+  blue_candle: Ciri blau
+  brown_candle: Ciri marró
+  green_candle: Ciri verd
+  red_candle: Ciri roig
+  black_candle: Ciri negre
+  small_amethyst_bud: Brot d'ametista xicotet
+  medium_amethyst_bud: Brot d'ametista mitjà
+  large_amethyst_bud: Brot d'ametista gran
+  amethyst_cluster: Cúmul d'ametista
+  pointed_dripstone: Espeleotema punteguda
   water: Aigua
   lava: Lava
   tall_seagrass: Herba marina alta
@@ -1004,6 +1128,9 @@ material:
   attached_melon_stem: Tija de meló d'Alger unida
   pumpkin_stem: Tija de carabassa
   melon_stem: Tija de meló d'Alger
+  water_cauldron: Calderó amb aigua
+  lava_cauldron: Calderó amb lava
+  powder_snow_cauldron: Calderó amb neu pols
   end_portal: Portal a la Fi
   cocoa: Cacau
   tripwire: Corda
@@ -1083,6 +1210,30 @@ material:
   potted_warped_fungus: Test amb fong estrambòtic
   potted_crimson_roots: Test amb arrels carmesines
   potted_warped_roots: Test amb arrels estrambòtiques
+  candle_cake: Ciri de pastís
+  white_candle_cake: Pastís amb ciri blanc
+  orange_candle_cake: Pastís amb ciri taronja
+  magenta_candle_cake: Pastís amb ciri magenta
+  light_blue_candle_cake: Pastís amb ciri blau clar
+  yellow_candle_cake: Pastís amb ciri groc
+  lime_candle_cake: Pastís amb ciri verd llima
+  pink_candle_cake: Pastís amb ciri rosa
+  gray_candle_cake: Pastís amb ciri gris
+  light_gray_candle_cake: Pastís amb ciri gris clar
+  cyan_candle_cake: Pastís amb ciri cian
+  purple_candle_cake: Pastís amb ciri morat
+  blue_candle_cake: Pastís amb ciri blau
+  brown_candle_cake: Pastís amb ciri marró
+  green_candle_cake: Pastís amb ciri verd
+  red_candle_cake: Pastís amb ciri roig
+  black_candle_cake: Pastís amb ciri negre
+  powder_snow: Neu pols
+  cave_vines: Lianes de cova
+  cave_vines_plant: Planta de lianes de cova
+  big_dripleaf_stem: Tija de fulla relliscosa gran
+  potted_azalea_bush: Test amb azalea
+  potted_flowering_azalea_bush: Test amb azalea florent
+  grass_path: Camí d'herba
   zombie_pigman_spawn_egg: Generar home-porc zombi
   cactus_green: Verd de cactus
   dandelion_yellow: Groc dent de lleó
@@ -1169,46 +1320,48 @@ biome:
   crimson_forest: Bosc carmesí
   warped_forest: Bosc estrambòtic
   basalt_deltas: Delta de basalt
+  dripstone_caves: Coves d'espeleotema
+  lush_caves: Coves frondoses
   nether: Infern
 enchantment:
-  fire_protection: Protecció ígnia
-  sharpness: Fulla esmolada
-  flame: Fletxes incendiàries
-  soul_speed: Favor de les ànimes
-  aqua_affinity: Rapidesa minera baix de l'aigua
-  punch: Espenta
-  loyalty: Lleialtat
-  depth_strider: Rapidesa en l'aigua
-  vanishing_curse: Maledicció de desaparició
-  unbreaking: Duració
-  knockback: Espenta
-  luck_of_the_sea: La sort de la mar
-  binding_curse: Maledicció d'enllaç
-  fortune: Fortuna
   protection: Protecció
-  efficiency: Rendiment
-  mending: Reparació amb l'experiència
-  frost_walker: Peus gelats
-  lure: Esquer
-  looting: Saqueig
-  piercing: Perforació
+  fire_protection: Protecció ígnia
+  feather_falling: Pes ploma
   blast_protection: Protecció contra explosions
-  smite: Mortalitat
-  multishot: Multi-tir
-  fire_aspect: Fulla de foc
-  channeling: Canalització
-  sweeping: Batuda
-  thorns: Espines
-  bane_of_arthropods: La perdició dels artròpodes
-  respiration: Respiració
-  riptide: Corrent marina
-  silk_touch: Toc suau
-  quick_charge: Càrrega ràpida
   projectile_protection: Protecció contra projectils
-  impaling: Empalament
-  feather_falling: Lleugeresa
+  respiration: Respiració
+  aqua_affinity: Aiguafinitat
+  thorns: Espines
+  depth_strider: Aletes
+  frost_walker: Peus gelats
+  binding_curse: Maledicció d'enllaç
+  sharpness: Fulla esmolada
+  smite: Mortalitat
+  bane_of_arthropods: La perdició dels artròpodes
+  knockback: Retrocés
+  fire_aspect: Fulla de foc
+  looting: Saqueig
+  sweeping: Batuda
+  efficiency: Eficiència
+  silk_touch: Toc de seda
+  unbreaking: Duració
+  fortune: Fortuna
   power: Potència
+  punch: Espenta
+  flame: Fletxes incendiàries
   infinity: Fletxes infinites
+  luck_of_the_sea: La sort de la mar
+  lure: Esquer
+  loyalty: Lleialtat
+  impaling: Arpó
+  riptide: Corrent marina
+  channeling: Canalització
+  multishot: Tir múltiple
+  quick_charge: Càrrega ràpida
+  piercing: Perforació
+  mending: Reparació amb l'experiència
+  vanishing_curse: Maledicció de desaparició
+  soul_speed: Favor de les ànimes
 potion:
   uncraftable: Poció no fabricable
   water: Botella d'aigua
@@ -1302,7 +1455,7 @@ entity:
   experience_orb: Orbe d'experiència
   area_effect_cloud: Àrea del núvol d'efecte
   elder_guardian: Gran guardià de les profunditats
-  wither_skeleton: Esquelet de l'Infern
+  wither_skeleton: Esquelet de l'infern
   stray: Esquelet glacial
   egg: Ou llançat
   leash_hitch: Nus de llaç
@@ -1311,8 +1464,8 @@ entity:
   snowball: Bola de neu
   fireball: Bola de foc
   small_fireball: Bola de foc xicoteta
-  ender_pearl: Perla de la Fi llançada
-  ender_signal: Ull de la Fi
+  ender_pearl: Perla d'Ender llançada
+  ender_signal: Ull d'Ender
   splash_potion: Poció
   thrown_exp_bottle: S'ha llançat una botella màgica
   item_frame: Marc
@@ -1356,7 +1509,7 @@ entity:
   silverfish: Peixet de plata
   blaze: Flama
   magma_cube: Cub de magma
-  ender_dragon: Drac de la Fi
+  ender_dragon: Drac d'Ender
   wither: Wither
   bat: Ratpenat
   witch: Bruixa
@@ -1375,7 +1528,7 @@ entity:
   iron_golem: Guardià de ferro
   horse: Cavall
   rabbit: Conill
-  polar_bear: Ós polar
+  polar_bear: Os polar
   llama: Llama
   llama_spit: Escopinyada de Llama
   parrot: Lloro
@@ -1403,6 +1556,11 @@ entity:
   strider: Caminant
   zoglin: Zoglin
   piglin_brute: Piglin brut
+  axolotl: Axolot
+  glow_item_frame: Marc fosforescent
+  glow_squid: Calamar fosforescent
+  goat: Cabra
+  marker: Marcador
   fishing_hook: Suro
   lightning: Raig
   player: Jugador
@@ -1427,7 +1585,7 @@ effect:
   hunger: Fam
   weakness: Debilitat
   poison: Verí
-  wither: Podrimenta
+  wither: Marcit
   health_boost: Salut extra
   absorption: Absorció
   saturation: Saturació
@@ -2202,17 +2360,3 @@ villager_profession:
   shepherd: Pastor
   toolsmith: Ferreter
   weaponsmith: Armer
-villager_career:
-  farmer: Granger
-  fisherman: Pescador
-  shepherd: Pastor
-  fletcher: Fletxer
-  librarian: Bibliotecari
-  cartographer: Cartògraf
-  cleric: Capellà
-  armorer: Armer
-  weapon_smith: Armer
-  tool_smith: Ferrer
-  butcher: Carnisser
-  leatherworker: Pelleter
-  nitwit: Aturat

@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:17:25                    #
+# Build time: 2021-07-04 21:39:01                    #
 # ####################################################
 language:
   code: tl_ph
@@ -12,7 +12,6 @@ material:
   bee_nest: Pugad ng bubuyog
   black_dye: Itim na Tina
   blast_furnace: Pugon para sa panday
-  blaze_spawn_egg: Panlikhaang Itlog ng Liyab
   blue_banner: Asul na Watawat
   blue_bed: Asul na Kama
   blue_concrete: Asul na Kongkreto
@@ -35,6 +34,9 @@ material:
   cod_bucket: Timba ng Bakalaw
   comparator: Redstone na Pahambing
   conduit: Conduit
+  creeper_head: Bungo ng Creeper
+  creeper_spawn_egg: Panlikhaang Itlog ng Creeper
+  creeper_wall_head: Ulo ng Creeper sa Pader
   crossbow: Balyesta
   cut_red_sandstone_slab: Pulang Buhang-hiwang Tilad
   cut_sandstone_slab: Buhang-hiwang Tilad
@@ -70,10 +72,13 @@ material:
   green_stained_glass_pane: Bintanang Berde
   green_wool: Lanang Berde
   guardian_spawn_egg: Panlikhaang Itlog ng Tagapagbantay
+  honeycomb: Pulot-pukyutan
+  honeycomb_block: Bloke ng Bahay-pukyutan
   honey_bottle: Bote ng Pulot
   horn_coral_wall_fan: Dilaw na Pamaypay ng Koral sa Dingding
   husk_spawn_egg: Panlikhaang Itlog ng Talupak
   jigsaw: Durugtunging Bloke
+  lapis_block: Bloke ng Lapis Lazuli
   leather_horse_armor: Katad ng nakasout para sa kabayo
   lectern: Atril
   light_gray_stained_glass: Salaming Abong Mapusyaw
@@ -89,10 +94,23 @@ material:
   magenta_terracotta: Ibig na Terakota
   magenta_wool: Lanang Ibig
   magma_cube_spawn_egg: Panlikhaang Itlog ng Kubo ng Magma
+  mooshroom_spawn_egg: Panlikhaang Itlog ng Mooshroom
   mossy_cobblestone_slab: Malumot na Batu-batong Tilad
   mossy_stone_brick_slab: Malumot na Tilad ng Tilad
   mossy_stone_brick_wall: Malumot na Bato Laryo Pader
   moving_piston: Gumagalaw na Bloke
+  netherrack: Netherrack
+  nether_brick: Nether na Laryo
+  nether_bricks: Nether na Laryo
+  nether_brick_fence: Nether na Laryong Bakod
+  nether_brick_slab: Tilang Nether na Laryo
+  nether_brick_stairs: Hagdanang Nether na Laryo
+  nether_brick_wall: Laryo Pader mula sa Impiyerno
+  nether_portal: Lagusan ng Nether
+  nether_quartz_ore: Batong Kuwarta
+  nether_star: Nether na Bituin
+  nether_wart: Nether na Butig
+  nether_wart_block: Nether na Butig na Bloke
   orange_carpet: Alpombrang Kahel
   phantom_spawn_egg: Panlikhaang Itlog ng Guniguni
   pink_bed: Pink na Kama
@@ -134,11 +152,22 @@ material:
   potted_wither_rose: Nakapasong Lantang Rosas
   pufferfish_bucket: Timba ng Butete
   pufferfish_spawn_egg: Panlikhaang Itlog ng Butete
+  quartz: Nether na Kuwarta
   ravager_spawn_egg: Panlikhaang Itlog ng Mandudurog
+  redstone: Alikabok ng Redstone
+  redstone_block: Redstone na Bloke
+  redstone_lamp: Redstone na Lampara
+  redstone_ore: Batong Redstone
+  redstone_torch: Redstone na Ilaw
+  redstone_wall_torch: Redstone na Ilaw sa Pader
+  redstone_wire: Kawad ng Redstone
   red_dye: Pulang Tina
+  red_nether_bricks: Pulang Nether na Laryo
   red_nether_brick_slab: Andesayt na Tilad
+  red_nether_brick_stairs: Pulang Nether na Laryong Hagdanan
   red_nether_brick_wall: Pulang Laryo Pader mula sa Impiyerno
   red_sandstone_wall: Pader na Pulang Buhang-bato
+  repeater: Redstone na Paulit
   salmon_bucket: Timba ng Salmon
   sandstone_wall: Pader na Buhang-bato
   scaffolding: Plantsa
@@ -165,12 +194,24 @@ material:
   white_dye: Puting Tina
   writable_book: Libro't Pluma
   yellow_dye: Dilaw na Tina
+biome:
+  snowy_beach: Dalampasigan maniyebe
 entity:
+  ender_pearl: Tinapon na Perlas na Ender
+  shulker_bullet: Bala ng Shulker
+  creeper: Creeper
+  enderman: Enderman
+  endermite: Endermite
+  shulker: Shulker
+  mushroom_cow: Mooshroom
   dolphin: Lumba-lumba
 effect:
   dolphins_grace: Biyaya ng Lumba-lumba
 tropical_fish_type:
   sunstreak: SunStreak
+  brinely: Brinely
+  spotty: Spotty
+  clayfish: Clayfish
 dye_color:
   magenta: Magenta
   light_blue: Banayad na Asul
@@ -238,3 +279,5 @@ banner_pattern:
   '2424843': Asul na Bulaklak na Charge
   '2490379': Asul na Bagay
   '2555915': Asul na Globo
+new_banner_pattern:
+  creeper_banner_pattern: Creeper Charge

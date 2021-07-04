@@ -1,18 +1,15 @@
 # ####################################################
-# Build time: 2021-03-17 16:17:23                    #
+# Build time: 2021-07-04 21:38:58                    #
 # ####################################################
 language:
   code: de_de
   name: Deutsch
   region: Deutschland
 material:
-  allium: Sternlauch
   bamboo_sapling: Bambussteckling
-  fire: Feuer
-  potted_allium: Eingetopfter Sternlauch
-  wall_torch: Wandfackel
+  furnace_minecart: Antriebslore
 entity:
-  ravager: Verwüster
+  minecart_furnace: Antriebslore
 effect:
   water_breathing: Unterwasseratem
 tropical_fish_type:
@@ -21,8 +18,9 @@ tropical_fish_type:
   flopper: Zappler
   glitter: Glanzfisch
 tropical_fish_name:
+  '185008129': Paletten-Doktorfisch
   '50660352': Königin-Engelfisch
   '918273': Nördlicher Schnapper
   '67108865': Fadenflosser
 villager_profession:
-  armorer: Panzermacher
+  butcher: Fleischer

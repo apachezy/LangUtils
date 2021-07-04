@@ -1,17 +1,17 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:48                    #
+# Build time: 2021-07-04 21:46:04                    #
 # ####################################################
 language:
   code: ms_my
   name: Bahasa Melayu
   region: Malaysia
 material:
-  acacia_door: Pintu Akasia
   acacia_slab: Bongkah Akasia
   acacia_trapdoor: Jerangkap Akasia
   birch_slab: Bongkah Birch
   birch_trapdoor: Jerangkap Birch
   brick_slab: Bongkah Bata
+  bubble_column: Buih lajur
   carved_pumpkin: Ukiran Labu
   chainmail_chestplate: Perisai Dada Rantai
   chainmail_helmet: Topi Keledar Rantai
@@ -22,8 +22,15 @@ material:
   dark_prismarine: Prismarine Gelap
   dark_prismarine_slab: Bongkah Prismarine Gelap
   dark_prismarine_stairs: Tangga Prismarine Gelap
+  daylight_detector: Pengesan Cahaya Siang
   enchanted_golden_apple: Epal Emas Disihir
   end_portal_frame: Bingkai Portal End
+  infested_chiseled_stone_bricks: Bata Batu Terpahat Dikerumuni
+  infested_cobblestone: Batu Buntar Dikerumuni
+  infested_cracked_stone_bricks: Bata Batu Rekah Dikerumuni
+  infested_mossy_stone_bricks: Bata Batu Berlumut Dikerumuni
+  infested_stone: Batu Dikerumuni
+  infested_stone_bricks: Bata Batu Dikerumuni
   iron_trapdoor: Jerangkap Besi
   jungle_slab: Bongkah Rimba
   jungle_trapdoor: Jerangkap Rimba
@@ -70,18 +77,23 @@ material:
   red_sandstone_slab: Bongkah Batu Pasir Merah
   sandstone_slab: Bongkah Batu Pasir
   smooth_quartz: Kuarza Licin
-  spruce_door: Pintu Cemara
   spruce_planks: Papan Kayu Oak
   spruce_slab: Bongkah Cemara
   spruce_trapdoor: Jerangkap Cemara
   stone_brick_slab: Bongkah Batu Bata
   stone_slab: Bongkah Batu
   stripped_acacia_log: Balak Akasia yang Dikupas Kulit
+  stripped_acacia_wood: Kayu Akasia yang Dikupas Kulit
   stripped_birch_log: Balak Birch yang Dikupas Kulit
+  stripped_birch_wood: Kayu Birch yang Dikupas Kulit
   stripped_dark_oak_log: Balak Oak Gelap yang Dikupas Kulit
+  stripped_dark_oak_wood: Kayu Oak Gelap yang Dikupas Kulit
   stripped_jungle_log: Balak Rimba yang Dikupas Kulit
+  stripped_jungle_wood: Kayu Rimba yang Dikupas Kulit
   stripped_oak_log: Balak Oak yang Dikupas Kulit
+  stripped_oak_wood: Kayu Oak yang Dikupas Kulit
   stripped_spruce_log: Balak Cemara yang Dikupas Kulit
+  stripped_spruce_wood: Kayu Cemara yang Dikupas Kulit
 biome:
   frozen_ocean: Laut Beku
   mushroom_field_shore: Pesisir Padang Cendawan
@@ -114,6 +126,11 @@ lingering_potion:
 tipped_arrow:
   turtle_master: Anak Panah Pakar Penyu
   slow_falling: Anak panah jatuh perlahan
+entity:
+  elder_guardian: Penjaga Tua
+  vindicator: Tunggul
+effect:
+  slow_falling: Lambat jatuh
 tropical_fish_name:
   '117441793': Ikan rama-rama
   '118161664': Cichilid
@@ -263,7 +280,22 @@ banner_pattern:
   '589837': Belahan Menegak Hijau
   '589838': Belahan Menegak Merah
   '589839': Belahan Menegak Hitam
+  '655360': Belahan Mendatar Putih
+  '655361': Belahan Mendatar Jingga
+  '655362': Belahan Mendatar Magenta
+  '655363': Belahan Mendatar Biru Muda
+  '655364': Belahan Mendatar Kuning
   '655365': Belahan Mendatar Limau Hijau
+  '655366': Belahan Mendatar Merah Jambu
+  '655367': Belahan Mendatar Kelabu
+  '655368': Belahan Mendatar Kelabu Muda
+  '655369': Belahan Mendatar Sian
+  '655370': Belahan Mendatar Ungu
+  '655371': Belahan Mendatar Biru
+  '655372': Belahan Mendatar Perang
+  '655373': Belahan Mendatar Hijau
+  '655374': Belahan Mendatar Merah
+  '655375': Belahan Mendatar Hitam
   '720896': Liku Putih
   '720897': Liku Oren
   '720898': Liku Magenta
@@ -478,8 +510,21 @@ banner_pattern:
   '1638409': Rombus Cyan
   '1638412': Rombus Coklat
   '1703936': Belahan Menegak Putih
+  '1703937': Separuh Kiri Jingga
+  '1703938': Separuh Kiri Magenta
+  '1703939': Separuh Kiri Biru Muda
+  '1703940': Separuh Kiri Kuning
+  '1703941': Separuh Kiri Hijau Muda
+  '1703942': Separuh Kiri Merah Jambu
+  '1703943': Separuh Kiri Kelabu
+  '1703944': Separuh Kiri Kelabu Muda
   '1703945': Separuh Kiri Cyan
+  '1703946': Separuh Kiri Ungu
+  '1703947': Separuh Kiri Biru
   '1703948': Separuh Kiri Coklat
+  '1703949': Separuh Kiri Hijau
+  '1703950': Separuh Kiri Merah
+  '1703951': Separuh Kiri Hitam
   '1769472': Separuh Bahagian Putih
   '1769473': Separuh Bahagian Jingga
   '1769474': Separuh Bahagian Magenta
@@ -528,9 +573,22 @@ banner_pattern:
   '1900557': Separuh Bahagian Hijau Terbalik
   '1900558': Separuh Bahagian Merah Terbalik
   '1900559': Separuh Bahagian Hitam Terbalik
+  '1966080': Sempadan Putih
   '1966081': Sempadan Oren
+  '1966082': Sempadan Magenta
+  '1966083': Sempadan Biru Muda
+  '1966084': Sempadan Kuning
   '1966085': Sempadan Limau
+  '1966086': Sempadan Merah Jambu
+  '1966087': Sempadan Kelabu
+  '1966088': Sempadan Kelabu Muda
   '1966089': Sempadan Cyan
+  '1966090': Sempadan Ungu
+  '1966091': Sempadan Biru
+  '1966092': Sempadan Perang
+  '1966093': Sempadan Hijau
+  '1966094': Sempadan Merah
+  '1966095': Sempadan Hitam
   '2031616': Sempadan Diinden Putih
   '2031617': Sempadan Diinden Oren
   '2031618': Sempadan Diinden Magenta

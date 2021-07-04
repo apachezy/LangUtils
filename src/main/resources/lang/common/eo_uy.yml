@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:47                    #
+# Build time: 2021-07-04 21:46:02                    #
 # ####################################################
 language:
   code: eo_uy
@@ -14,12 +14,19 @@ material:
   polished_diorite: Polurita diorito
   andesite: Andezito
   polished_andesite: Polurita andezito
+  deepslate: Ardezo
+  cobbled_deepslate: Pavimardezo
+  polished_deepslate: Polurita ardezo
+  calcite: Kalcito
+  tuff: Tofo
+  dripstone_block: Gutŝtona bloko
   grass_block: Herba bloko
   dirt: Tero
   coarse_dirt: Maldelikata tero
   podzol: Podzolo
+  rooted_dirt: Radika tero
   crimson_nylium: Skarlata nilio
-  warped_nylium: Tordita nilio
+  warped_nylium: Torda nilio
   cobblestone: Pavimŝtono
   oak_planks: Kverkaj tabuloj
   spruce_planks: Piceaj tabuloj
@@ -28,7 +35,7 @@ material:
   acacia_planks: Akaciaj tabuloj
   dark_oak_planks: Malhelkverkaj tabuloj
   crimson_planks: Skarlataj tabuloj
-  warped_planks: Torditaj tabuloj
+  warped_planks: Tordaj tabuloj
   oak_sapling: Kverka arbido
   spruce_sapling: Picea arbido
   birch_sapling: Betula arbido
@@ -39,10 +46,67 @@ material:
   sand: Sablo
   red_sand: Ruĝa sablo
   gravel: Gruzo
-  gold_ore: Ora erco
-  iron_ore: Fera erco
   coal_ore: Karba erco
+  deepslate_coal_ore: Ardeza karba erco
+  iron_ore: Fera erco
+  deepslate_iron_ore: Ardeza fera erco
+  copper_ore: Kupra erco
+  deepslate_copper_ore: Ardeza kupra erco
+  gold_ore: Ora erco
+  deepslate_gold_ore: Ardeza ora erco
+  redstone_ore: Ruĝona erco
+  deepslate_redstone_ore: Ardeza ruĝona erco
+  emerald_ore: Smeralda erco
+  deepslate_emerald_ore: Ardeza smeralda erco
+  lapis_ore: Lazurita erco
+  deepslate_lapis_ore: Ardeza lazurita erco
+  diamond_ore: Diamanta erco
+  deepslate_diamond_ore: Ardeza diamanta erco
   nether_gold_ore: Submonda ora erco
+  nether_quartz_ore: Kvarca erco
+  ancient_debris: Antikva rubo
+  coal_block: Karba bloko
+  raw_iron_block: Krudfera bloko
+  raw_copper_block: Krudkupra bloko
+  raw_gold_block: Krudora bloko
+  amethyst_block: Ametista bloko
+  budding_amethyst: Burĝonanta ametisto
+  iron_block: Fera bloko
+  copper_block: Kupra bloko
+  gold_block: Ora bloko
+  diamond_block: Diamanta bloko
+  netherite_block: Subena bloko
+  exposed_copper: Verdigreta kupro
+  weathered_copper: Verdigra kupro
+  oxidized_copper: Verdigrega kupro
+  cut_copper: Tranĉita kupro
+  exposed_cut_copper: Verdigreta tranĉita kupro
+  weathered_cut_copper: Verdigra tranĉita kupro
+  oxidized_cut_copper: Verdigrega tranĉita kupro
+  cut_copper_stairs: Tranĉita kupra ŝtuparo
+  exposed_cut_copper_stairs: Verdigreta tranĉita kupra ŝtuparo
+  weathered_cut_copper_stairs: Verdigra tranĉita kupra ŝtuparo
+  oxidized_cut_copper_stairs: Verdigrega tranĉita kupra ŝtuparo
+  cut_copper_slab: Tranĉita kupra ŝtupo
+  exposed_cut_copper_slab: Verdigreta tranĉita kupra ŝtupo
+  weathered_cut_copper_slab: Verdigra tranĉita kupra ŝtupo
+  oxidized_cut_copper_slab: Verdigrega tranĉita kupra ŝtupo
+  waxed_copper_block: Vaksita kupra bloko
+  waxed_exposed_copper: Vaksita verdigreta kupro
+  waxed_weathered_copper: Vaksita verdigra kupro
+  waxed_oxidized_copper: Vaksita verdigrega kupro
+  waxed_cut_copper: Vaksita tranĉita kupro
+  waxed_exposed_cut_copper: Vaksita verdigreta tranĉita kupro
+  waxed_weathered_cut_copper: Vaksita verdigra tranĉita kupro
+  waxed_oxidized_cut_copper: Vaksita verdigrega tranĉita kupro
+  waxed_cut_copper_stairs: Vaksita tranĉita kupra ŝtuparo
+  waxed_exposed_cut_copper_stairs: Vaksita verdigreta tranĉita kupra ŝtuparo
+  waxed_weathered_cut_copper_stairs: Vaksita verdigra tranĉita kupra ŝtuparo
+  waxed_oxidized_cut_copper_stairs: Vaksita verdigrega tranĉita kupra ŝtuparo
+  waxed_cut_copper_slab: Vaksita tranĉita kupra ŝtupo
+  waxed_exposed_cut_copper_slab: Vaksita verdigreta tranĉita kupra ŝtupo
+  waxed_weathered_cut_copper_slab: Vaksita verdigra tranĉita kupra ŝtupo
+  waxed_oxidized_cut_copper_slab: Vaksita verdigrega tranĉita kupra ŝtupo
   oak_log: Kverka ŝtipo
   spruce_log: Picea ŝtipo
   birch_log: Betula ŝtipo
@@ -50,7 +114,7 @@ material:
   acacia_log: Akacia ŝtipo
   dark_oak_log: Malhelkverka ŝtipo
   crimson_stem: Skarlata stipo
-  warped_stem: Tordita stipo
+  warped_stem: Torda stipo
   stripped_oak_log: Senŝela kverka ŝtipo
   stripped_spruce_log: Senŝela picea ŝtipo
   stripped_birch_log: Senŝela betula ŝtipo
@@ -58,7 +122,7 @@ material:
   stripped_acacia_log: Senŝela akacia ŝtipo
   stripped_dark_oak_log: Senŝela malhelkverka ŝtipo
   stripped_crimson_stem: Senŝela skarlata stipo
-  stripped_warped_stem: Senŝela tordita stipo
+  stripped_warped_stem: Senŝela torda stipo
   stripped_oak_wood: Senŝela kverka ligno
   stripped_spruce_wood: Senŝela picea ligno
   stripped_birch_wood: Senŝela betula ligno
@@ -66,7 +130,7 @@ material:
   stripped_acacia_wood: Senŝela akacia ligno
   stripped_dark_oak_wood: Senŝela malhelkverka ligno
   stripped_crimson_hyphae: Senŝelaj skarlataj hifoj
-  stripped_warped_hyphae: Senŝelaj torditaj hifoj
+  stripped_warped_hyphae: Senŝelaj tordaj hifoj
   oak_wood: Kverka ligno
   spruce_wood: Picea ligno
   birch_wood: Betula ligno
@@ -74,36 +138,34 @@ material:
   acacia_wood: Akacia ligno
   dark_oak_wood: Malhelkverka ligno
   crimson_hyphae: Skarlataj hifoj
-  warped_hyphae: Torditaj hifoj
+  warped_hyphae: Tordaj hifoj
   oak_leaves: Kverkaj folioj
   spruce_leaves: Piceaj folioj
   birch_leaves: Betulaj folioj
   jungle_leaves: Ĝangalaj folioj
   acacia_leaves: Akaciaj folioj
   dark_oak_leaves: Malhelkverkaj folioj
+  azalea_leaves: Azaleaj folioj
+  flowering_azalea_leaves: Folioj de floranta azaleo
   sponge: Spongo
   wet_sponge: Malseka spongo
   glass: Vitro
-  lapis_ore: Lazurita erco
+  tinted_glass: Malluma vitro
   lapis_block: Lazurita bloko
-  dispenser: Ĵetilo
   sandstone: Sabloŝtono
   chiseled_sandstone: Ĉizita sabloŝtono
   cut_sandstone: Tranĉita sabloŝtono
-  note_block: Notbloko
-  powered_rail: Elektra relo
-  detector_rail: Detektila relo
-  sticky_piston: Adhera piŝto
   cobweb: Araneaĵo
   grass: Herbo
   fern: Filiko
+  azalea: Azaleo
+  flowering_azalea: Floranta azaleo
   dead_bush: Mortinta arbusto
   seagrass: Marherbo
   sea_pickle: Pirosomo
-  piston: Piŝto
   white_wool: Blanka lano
   orange_wool: Oranĝkolora lano
-  magenta_wool: Maĝenta lano
+  magenta_wool: Malva lano
   light_blue_wool: Helblua lano
   yellow_wool: Flava lano
   lime_wool: Helverda lano
@@ -130,20 +192,24 @@ material:
   cornflower: Cejano
   lily_of_the_valley: Konvalo
   wither_rose: Vizerrozo
+  spore_blossom: Sporfloro
   brown_mushroom: Boleto
   red_mushroom: Muŝfungo
   crimson_fungus: Skarlata fungo
-  warped_fungus: Tordita fungo
+  warped_fungus: Torda fungo
   crimson_roots: Skarlataj radikoj
-  warped_roots: Torditaj radikoj
+  warped_roots: Tordaj radikoj
   nether_sprouts: Submondaj ŝosoj
   weeping_vines: Larmantaj hederoj
   twisting_vines: Serpentantaj hederoj
   sugar_cane: Sukerkano
   kelp: Algo
+  moss_carpet: Muska tapiŝo
+  moss_block: Muska bloko
+  hanging_roots: Pendantaj radikoj
+  big_dripleaf: Gutfoliego
+  small_dripleaf: Gutfolieto
   bamboo: Bambuo
-  gold_block: Ora bloko
-  iron_block: Fera bloko
   oak_slab: Kverka ŝtupo
   spruce_slab: Picea ŝtupo
   birch_slab: Betula ŝtupo
@@ -151,7 +217,7 @@ material:
   acacia_slab: Akacia ŝtupo
   dark_oak_slab: Malhelkverka ŝtupo
   crimson_slab: Skarlata ŝtupo
-  warped_slab: Tordita ŝtupo
+  warped_slab: Torda ŝtupo
   stone_slab: Ŝtona ŝtupo
   smooth_stone_slab: Glata ŝtona ŝtupo
   sandstone_slab: Sabloŝtona ŝtupo
@@ -172,8 +238,7 @@ material:
   smooth_red_sandstone: Glata ruĝa sabloŝtono
   smooth_sandstone: Glata sabloŝtono
   smooth_stone: Glata ŝtono
-  bricks: Briko
-  tnt: TNT
+  bricks: Brikoj
   bookshelf: Librobretaro
   mossy_cobblestone: Muska pavimŝtono
   obsidian: Obsidiano
@@ -187,27 +252,11 @@ material:
   spawner: Generilo
   oak_stairs: Kverka ŝtuparo
   chest: Kofro
-  diamond_ore: Diamanta erco
-  diamond_block: Diamanta bloko
   crafting_table: Labortablo
   farmland: Kultivtero
   furnace: Forno
   ladder: Ŝtupetaro
-  rail: Relo
   cobblestone_stairs: Pavimŝtona ŝtuparo
-  lever: Levilo
-  stone_pressure_plate: Ŝtona premplato
-  oak_pressure_plate: Kverka premplato
-  spruce_pressure_plate: Picea premplato
-  birch_pressure_plate: Betula premplato
-  jungle_pressure_plate: Ĝangala premplato
-  acacia_pressure_plate: Akacia premplato
-  dark_oak_pressure_plate: Malhelkverka premplato
-  crimson_pressure_plate: Skarlata premplato
-  warped_pressure_plate: Tordita premplato
-  polished_blackstone_pressure_plate: Polurita nigroŝtona premplato
-  redstone_ore: Ruĝona erco
-  redstone_torch: Ruĝona torĉo
   snow: Neĝo
   ice: Glacio
   snow_block: Neĝa bloko
@@ -221,35 +270,34 @@ material:
   acacia_fence: Akacia barilo
   dark_oak_fence: Malhelkverka barilo
   crimson_fence: Skarlata barilo
-  warped_fence: Tordita barilo
+  warped_fence: Torda barilo
   pumpkin: Kukurbo
   carved_pumpkin: Tajlita kukurbo
+  jack_o_lantern: Kukurba lanterno
   netherrack: Submondŝtono
   soul_sand: Animsablo
   soul_soil: Animtero
   basalt: Bazalto
   polished_basalt: Polurita bazalto
+  smooth_basalt: Glata bazalto
   soul_torch: Anima torĉo
   glowstone: Lumŝtono
-  jack_o_lantern: Kukurba lanterno
-  oak_trapdoor: Kverka klappordo
-  spruce_trapdoor: Picea klappordo
-  birch_trapdoor: Betula klappordo
-  jungle_trapdoor: Ĝangala klappordo
-  acacia_trapdoor: Akacia klappordo
-  dark_oak_trapdoor: Malhelkverka klappordo
-  crimson_trapdoor: Skarlata klappordo
-  warped_trapdoor: Tordita klappordo
   infested_stone: Infestita ŝtono
   infested_cobblestone: Infestita pavimŝtono
-  infested_stone_bricks: Infestita ŝtonbriko
-  infested_mossy_stone_bricks: Infestita muska ŝtonbriko
-  infested_cracked_stone_bricks: Infestita rompita ŝtonbriko
-  infested_chiseled_stone_bricks: Infestita ĉizita ŝtonbriko
-  stone_bricks: Ŝtonbriko
-  mossy_stone_bricks: Muska ŝtonbriko
-  cracked_stone_bricks: Rompita ŝtonbriko
-  chiseled_stone_bricks: Ĉizita ŝtonbriko
+  infested_stone_bricks: Infestitaj ŝtonbrikoj
+  infested_mossy_stone_bricks: Infestitaj muskaj ŝtonbrikoj
+  infested_cracked_stone_bricks: Infestitaj rompitaj ŝtonbrikoj
+  infested_chiseled_stone_bricks: Infestitaj ĉizitaj ŝtonbrikoj
+  infested_deepslate: Infestita ardezo
+  stone_bricks: Ŝtonbrikoj
+  mossy_stone_bricks: Muskaj ŝtonbrikoj
+  cracked_stone_bricks: Rompitaj ŝtonbrikoj
+  chiseled_stone_bricks: Ĉizitaj ŝtonbrikoj
+  deepslate_bricks: Ardezbrikoj
+  cracked_deepslate_bricks: Rompitaj ardezbrikoj
+  deepslate_tiles: Ardezaj briketoj
+  cracked_deepslate_tiles: Rompitaj ardezaj briketoj
+  chiseled_deepslate: Ĉizita ardezo
   brown_mushroom_block: Boleta bloko
   red_mushroom_block: Muŝfunga bloko
   mushroom_stem: Fungstipo
@@ -258,41 +306,31 @@ material:
   glass_pane: Glaco
   melon: Akvomelono
   vine: Hederoj
-  oak_fence_gate: Kverka barilpordo
-  spruce_fence_gate: Picea barilpordo
-  birch_fence_gate: Betula barilpordo
-  jungle_fence_gate: Ĝangala barilpordo
-  acacia_fence_gate: Akacia barilpordo
-  dark_oak_fence_gate: Malhelkverka barilpordo
-  crimson_fence_gate: Skarlata barilpordo
-  warped_fence_gate: Tordita barilpordo
+  glow_lichen: Lumlikeno
   brick_stairs: Brika ŝtuparo
   stone_brick_stairs: Ŝtonbrika ŝtuparo
   mycelium: Micelio
   lily_pad: Akvolilio
-  nether_bricks: Submondbriko
-  cracked_nether_bricks: Rompita submondbriko
-  chiseled_nether_bricks: Ĉizita submondbriko
+  nether_bricks: Submondbrikoj
+  cracked_nether_bricks: Rompitaj submondbrikoj
+  chiseled_nether_bricks: Ĉizitaj submondbrikoj
   nether_brick_fence: Submondbrika barilo
   nether_brick_stairs: Submondbrika ŝtuparo
   enchanting_table: Sorĉtablo
   end_portal_frame: Kadro de finejportalo
   end_stone: Finejŝtono
-  end_stone_bricks: Finejŝtonbriko
+  end_stone_bricks: Finejŝtonaj brikoj
   dragon_egg: Draka ovo
-  redstone_lamp: Ruĝona lampo
   sandstone_stairs: Sabloŝtona ŝtuparo
-  emerald_ore: Smeralda erco
   ender_chest: Finejkofro
-  tripwire_hook: Hoko por insiddrato
   emerald_block: Smeralda bloko
   spruce_stairs: Picea ŝtuparo
   birch_stairs: Betula ŝtuparo
   jungle_stairs: Ĝangala ŝtuparo
   crimson_stairs: Skarlata ŝtuparo
-  warped_stairs: Tordita ŝtuparo
-  command_block: Komandbloko
-  beacon: Balizo
+  warped_stairs: Torda ŝtuparo
+  command_block: Komanda bloko
+  beacon: Lumstriilo
   cobblestone_wall: Pavimŝtona muro
   mossy_cobblestone_wall: Muska pavimŝtona muro
   brick_wall: Brika muro
@@ -310,36 +348,21 @@ material:
   blackstone_wall: Nigroŝtona muro
   polished_blackstone_wall: Polurita nigroŝtona muro
   polished_blackstone_brick_wall: Polurita nigroŝtonbrika muro
-  stone_button: Ŝtona butono
-  oak_button: Kverka butono
-  spruce_button: Picea butono
-  birch_button: Betula butono
-  jungle_button: Ĝangala butono
-  acacia_button: Akacia butono
-  dark_oak_button: Malhelkverka butono
-  crimson_button: Skarlata butono
-  warped_button: Tordita butono
-  polished_blackstone_button: Polurita nigroŝtona butono
+  cobbled_deepslate_wall: Pavimardeza muro
+  polished_deepslate_wall: Polurita ardeza muro
+  deepslate_brick_wall: Ardezbrika muro
+  deepslate_tile_wall: Ardeza briketa muro
   anvil: Amboso
   chipped_anvil: Fendiĝinta amboso
   damaged_anvil: Damaĝita amboso
-  trapped_chest: Baskulkofro
-  light_weighted_pressure_plate: Malpeza premplato
-  heavy_weighted_pressure_plate: Peza premplato
-  daylight_detector: Taglumdetektilo
-  redstone_block: Ruĝona bloko
-  nether_quartz_ore: Submondkvarca erco
-  hopper: Funelo
   chiseled_quartz_block: Ĉizita kvarca bloko
   quartz_block: Kvarca bloko
-  quartz_bricks: Kvarcbriko
+  quartz_bricks: Kvarcbrikoj
   quartz_pillar: Kvarca kolono
   quartz_stairs: Kvarca ŝtuparo
-  activator_rail: Aktivigila relo
-  dropper: Donilo
   white_terracotta: Blanka terakoto
   orange_terracotta: Oranĝkolora terakoto
-  magenta_terracotta: Maĝenta terakoto
+  magenta_terracotta: Malva terakoto
   light_blue_terracotta: Helblua terakoto
   yellow_terracotta: Flava terakoto
   lime_terracotta: Helverda terakoto
@@ -354,11 +377,11 @@ material:
   red_terracotta: Ruĝa terakoto
   black_terracotta: Nigra terakoto
   barrier: Barilego
-  iron_trapdoor: Fera klappordo
+  light: Lumo
   hay_block: Fojnpako
   white_carpet: Blanka tapiŝo
   orange_carpet: Oranĝkolora tapiŝo
-  magenta_carpet: Maĝenta tapiŝo
+  magenta_carpet: Malva tapiŝo
   light_blue_carpet: Helblua tapiŝo
   yellow_carpet: Flava tapiŝo
   lime_carpet: Helverda tapiŝo
@@ -373,12 +396,10 @@ material:
   red_carpet: Ruĝa tapiŝo
   black_carpet: Nigra tapiŝo
   terracotta: Terakoto
-  coal_block: Karba bloko
   packed_ice: Malmola glacio
   acacia_stairs: Akacia ŝtuparo
   dark_oak_stairs: Malhelkverka ŝtuparo
-  slime_block: Mukbloko
-  grass_path: Herba pado
+  dirt_path: Tera pado
   sunflower: Sunfloro
   lilac: Siringo
   rose_bush: Rozarbusto
@@ -387,7 +408,7 @@ material:
   large_fern: Granda filiko
   white_stained_glass: Blankigita vitro
   orange_stained_glass: Oranĝkolorigita vitro
-  magenta_stained_glass: Maĝentigita vitro
+  magenta_stained_glass: Malvigita vitro
   light_blue_stained_glass: Helbluigita vitro
   yellow_stained_glass: Flavigita vitro
   lime_stained_glass: Helverdigita vitro
@@ -403,7 +424,7 @@ material:
   black_stained_glass: Nigrigita vitro
   white_stained_glass_pane: Blankigita glaco
   orange_stained_glass_pane: Oranĝkolorigita glaco
-  magenta_stained_glass_pane: Maĝentigita glaco
+  magenta_stained_glass_pane: Malvigita glaco
   light_blue_stained_glass_pane: Helbluigita glaco
   yellow_stained_glass_pane: Flavigita glaco
   lime_stained_glass_pane: Helverdigita glaco
@@ -418,29 +439,28 @@ material:
   red_stained_glass_pane: Ruĝigita glaco
   black_stained_glass_pane: Nigrigita glaco
   prismarine: Prismarino
-  prismarine_bricks: Prismarinbriko
+  prismarine_bricks: Prismarinbrikoj
   dark_prismarine: Malhelprismarino
   prismarine_stairs: Prismarina ŝtuparo
   prismarine_brick_stairs: Prismarinbrika ŝtuparo
   dark_prismarine_stairs: Malhelprismarina ŝtuparo
   sea_lantern: Marlanterno
   red_sandstone: Ruĝa sabloŝtono
-  chiseled_red_sandstone: Ĉizila ruĝa sabloŝtono
+  chiseled_red_sandstone: Ĉizita ruĝa sabloŝtono
   cut_red_sandstone: Tranĉita ruĝa sabloŝtono
   red_sandstone_stairs: Ruĝa sabloŝtona ŝtuparo
-  repeating_command_block: Ripeta komandbloko
-  chain_command_block: Ĉena komandbloko
+  repeating_command_block: Ripeta komanda bloko
+  chain_command_block: Ĉena komanda bloko
   magma_block: Magma bloko
   nether_wart_block: Submondveruka bloko
-  warped_wart_block: Tordita submondveruka bloko
-  red_nether_bricks: Ruĝa submondbriko
+  warped_wart_block: Torda submondveruka bloko
+  red_nether_bricks: Ruĝaj submondbrikoj
   bone_block: Osta bloko
   structure_void: Strukturvakuo
-  observer: Observilo
   shulker_box: Skatolo de ŝulkro
   white_shulker_box: Blanka skatolo de ŝulkro
   orange_shulker_box: Oranĝkolora skatolo de ŝulkro
-  magenta_shulker_box: Maĝenta skatolo de ŝulkro
+  magenta_shulker_box: Malva skatolo de ŝulkro
   light_blue_shulker_box: Helblua skatolo de ŝulkro
   yellow_shulker_box: Flava skatolo de ŝulkro
   lime_shulker_box: Helverda skatolo de ŝulkro
@@ -456,7 +476,7 @@ material:
   black_shulker_box: Nigra skatolo de ŝulkro
   white_glazed_terracotta: Blanka glazurita terakoto
   orange_glazed_terracotta: Oranĝkolora glazurita terakoto
-  magenta_glazed_terracotta: Maĝenta glazurita terakoto
+  magenta_glazed_terracotta: Malva glazurita terakoto
   light_blue_glazed_terracotta: Helblua glazurita terakoto
   yellow_glazed_terracotta: Flava glazurita terakoto
   lime_glazed_terracotta: Helverda glazurita terakoto
@@ -472,7 +492,7 @@ material:
   black_glazed_terracotta: Nigra glazurita terakoto
   white_concrete: Blanka betono
   orange_concrete: Oranĝkolora betono
-  magenta_concrete: Maĝenta betono
+  magenta_concrete: Malva betono
   light_blue_concrete: Helblua betono
   yellow_concrete: Flava betono
   lime_concrete: Helverda betono
@@ -488,7 +508,7 @@ material:
   black_concrete: Nigra betono
   white_concrete_powder: Blanka cemento
   orange_concrete_powder: Oranĝkolora cemento
-  magenta_concrete_powder: Maĝenta cemento
+  magenta_concrete_powder: Malva cemento
   light_blue_concrete_powder: Helblua cemento
   yellow_concrete_powder: Flava cemento
   lime_concrete_powder: Helverda cemento
@@ -503,11 +523,11 @@ material:
   red_concrete_powder: Ruĝa cemento
   black_concrete_powder: Nigra cemento
   turtle_egg: Testudovo
-  dead_tube_coral_block: Mortita bloko tubokorala
-  dead_brain_coral_block: Mortita bloko cerbokorala
-  dead_bubble_coral_block: Mortita bloko bobelokorala
-  dead_fire_coral_block: Mortita bloko fajrokorala
-  dead_horn_coral_block: Mortita bloko kornokorala
+  dead_tube_coral_block: Mortinta bloko tubokorala
+  dead_brain_coral_block: Mortinta bloko cerbokorala
+  dead_bubble_coral_block: Mortinta bloko bobelokorala
+  dead_fire_coral_block: Mortinta bloko fajrokorala
+  dead_horn_coral_block: Mortinta bloko kornokorala
   tube_coral_block: Bloko tubokorala
   brain_coral_block: Bloko cerbokorala
   bubble_coral_block: Bloko bobelokorala
@@ -518,21 +538,21 @@ material:
   bubble_coral: Bobelokoralo
   fire_coral: Fajrokoralo
   horn_coral: Kornokoralo
-  dead_brain_coral: Mortita cerbokoralo
-  dead_bubble_coral: Mortita bobelokoralo
-  dead_fire_coral: Mortita fajrokoralo
-  dead_horn_coral: Mortita kornokoralo
-  dead_tube_coral: Mortita tubokoralo
+  dead_brain_coral: Mortinta cerbokoralo
+  dead_bubble_coral: Mortinta bobelokoralo
+  dead_fire_coral: Mortinta fajrokoralo
+  dead_horn_coral: Mortinta kornokoralo
+  dead_tube_coral: Mortinta tubokoralo
   tube_coral_fan: Ventumilo tubokorala
   brain_coral_fan: Ventumilo cerbokorala
   bubble_coral_fan: Ventumilo bobelokorala
   fire_coral_fan: Ventumilo fajrokorala
   horn_coral_fan: Ventumilo kornokorala
-  dead_tube_coral_fan: Mortita ventumilo tubokorala
-  dead_brain_coral_fan: Mortita ventumilo cerbokorala
-  dead_bubble_coral_fan: Mortita ventumilo bobelokorala
-  dead_fire_coral_fan: Mortita ventumilo fajrokorala
-  dead_horn_coral_fan: Mortita ventumilo kornokorala
+  dead_tube_coral_fan: Mortinta ventumilo tubokorala
+  dead_brain_coral_fan: Mortinta ventumilo cerbokorala
+  dead_bubble_coral_fan: Mortinta ventumilo bobelokorala
+  dead_fire_coral_fan: Mortinta ventumilo fajrokorala
+  dead_horn_coral_fan: Mortinta ventumilo kornokorala
   blue_ice: Glacio blua
   conduit: Markondukto
   polished_granite_stairs: Polurita granita ŝtuparo
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: Ruĝa submondbrika ŝtuparo
   polished_andesite_stairs: Polurita andezita ŝtuparo
   diorite_stairs: Diorita ŝtuparo
+  cobbled_deepslate_stairs: Pavimardeza ŝtuparo
+  polished_deepslate_stairs: Polurita ardeza ŝtuparo
+  deepslate_brick_stairs: Ardezbrika ŝtuparo
+  deepslate_tile_stairs: Ardeza briketa ŝtuparo
   polished_granite_slab: Polurita granita ŝtupo
   smooth_red_sandstone_slab: Glata ruĝa sabloŝtona ŝtupo
   mossy_stone_brick_slab: Muska ŝtonbrika ŝtupo
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: Ruĝa submondbrika ŝtupo
   polished_andesite_slab: Polurita andezita ŝtupo
   diorite_slab: Diorita ŝtupo
+  cobbled_deepslate_slab: Pavimardeza ŝtupo
+  polished_deepslate_slab: Polurita ardeza ŝtupo
+  deepslate_brick_slab: Ardezbrika ŝtupo
+  deepslate_tile_slab: Ardeza briketa ŝtupo
   scaffolding: Skafaldo
+  redstone: Ruĝona polvo
+  redstone_torch: Ruĝona torĉo
+  redstone_block: Ruĝona bloko
+  repeater: Repetilo
+  comparator: Komparilo
+  piston: Piŝto
+  sticky_piston: Adhera piŝto
+  slime_block: Mukbloko
+  honey_block: Mielbloko
+  observer: Observilo
+  hopper: Funelo
+  dispenser: Ĵetilo
+  dropper: Donilo
+  lectern: Libropupitro
+  target: Pafcelo
+  lever: Levilo
+  lightning_rod: Fulmoŝirmilo
+  daylight_detector: Taglumdetektilo
+  sculk_sensor: Skulka sensoro
+  tripwire_hook: Hoko por insiddrato
+  trapped_chest: Baskulkofro
+  tnt: TNT
+  redstone_lamp: Ruĝona lampo
+  note_block: Notbloko
+  stone_button: Ŝtona butono
+  polished_blackstone_button: Polurita nigroŝtona butono
+  oak_button: Kverka butono
+  spruce_button: Picea butono
+  birch_button: Betula butono
+  jungle_button: Ĝangala butono
+  acacia_button: Akacia butono
+  dark_oak_button: Malhelkverka butono
+  crimson_button: Skarlata butono
+  warped_button: Torda butono
+  stone_pressure_plate: Ŝtona premplato
+  polished_blackstone_pressure_plate: Polurita nigroŝtona premplato
+  light_weighted_pressure_plate: Malpeza premplato
+  heavy_weighted_pressure_plate: Peza premplato
+  oak_pressure_plate: Kverka premplato
+  spruce_pressure_plate: Picea premplato
+  birch_pressure_plate: Betula premplato
+  jungle_pressure_plate: Ĝangala premplato
+  acacia_pressure_plate: Akacia premplato
+  dark_oak_pressure_plate: Malhelkverka premplato
+  crimson_pressure_plate: Skarlata premplato
+  warped_pressure_plate: Torda premplato
   iron_door: Fera pordo
   oak_door: Kverka pordo
   spruce_door: Picea pordo
@@ -571,12 +645,46 @@ material:
   acacia_door: Akacia pordo
   dark_oak_door: Malhelkverka pordo
   crimson_door: Skarlata pordo
-  warped_door: Tordita pordo
-  repeater: Repetilo
-  comparator: Komparilo
+  warped_door: Torda pordo
+  iron_trapdoor: Fera klappordo
+  oak_trapdoor: Kverka klappordo
+  spruce_trapdoor: Picea klappordo
+  birch_trapdoor: Betula klappordo
+  jungle_trapdoor: Ĝangala klappordo
+  acacia_trapdoor: Akacia klappordo
+  dark_oak_trapdoor: Malhelkverka klappordo
+  crimson_trapdoor: Skarlata klappordo
+  warped_trapdoor: Torda klappordo
+  oak_fence_gate: Kverka barilpordo
+  spruce_fence_gate: Picea barilpordo
+  birch_fence_gate: Betula barilpordo
+  jungle_fence_gate: Ĝangala barilpordo
+  acacia_fence_gate: Akacia barilpordo
+  dark_oak_fence_gate: Malhelkverka barilpordo
+  crimson_fence_gate: Skarlata barilpordo
+  warped_fence_gate: Torda barilpordo
+  powered_rail: Elektra relo
+  detector_rail: Detektila relo
+  rail: Relo
+  activator_rail: Aktivigila relo
+  saddle: Selo
+  minecart: Vagoneto
+  chest_minecart: Vagoneto kun kofro
+  furnace_minecart: Vagoneto kun forno
+  tnt_minecart: Vagoneto kun TNT
+  hopper_minecart: Vagoneto kun funelo
+  carrot_on_a_stick: Fiŝkaptilo kun karoto
+  warped_fungus_on_a_stick: Fiŝkaptilo kun torda fungo
+  elytra: Elitroj
+  oak_boat: Kverka boato
+  spruce_boat: Picea boato
+  birch_boat: Betula boato
+  jungle_boat: Ĝangala boato
+  acacia_boat: Akacia boato
+  dark_oak_boat: Malhelkverka boato
   structure_block: Strukturbloko
   jigsaw: Konstruktbloko
-  turtle_helmet: Testudŝelo
+  turtle_helmet: Testuda ŝelo
   scute: Ŝelero
   flint_and_steel: Fajrilo
   apple: Pomo
@@ -585,7 +693,15 @@ material:
   coal: Karbo
   charcoal: Lignokarbo
   diamond: Diamanto
+  emerald: Smeraldo
+  lapis_lazuli: Lazurito
+  quartz: Kvarco
+  amethyst_shard: Fragmento de ametisto
+  raw_iron: Kruda fero
   iron_ingot: Fera ingoto
+  raw_copper: Kruda kupro
+  copper_ingot: Kupra ingoto
+  raw_gold: Kruda oro
   gold_ingot: Ora ingoto
   netherite_ingot: Subena ingoto
   netherite_scrap: Subena fragmento
@@ -665,33 +781,31 @@ material:
   acacia_sign: Akacia ŝildeto
   dark_oak_sign: Malhelkverka ŝildeto
   crimson_sign: Skarlata ŝildeto
-  warped_sign: Tordita ŝildeto
+  warped_sign: Torda ŝildeto
   bucket: Sitelo
   water_bucket: Sitelo da akvo
   lava_bucket: Sitelo da lafo
-  minecart: Vagoneto
-  saddle: Selo
-  redstone: Ruĝona polvo
+  powder_snow_bucket: Sitelo da pulvora neĝo
   snowball: Neĝbulo
-  oak_boat: Kverka boato
   leather: Ledo
   milk_bucket: Sitelo da lakto
   pufferfish_bucket: Sitelo kun pintfiŝo
   salmon_bucket: Sitelo kun salmo
   cod_bucket: Sitelo kun moruo
   tropical_fish_bucket: Sitelo kun tropika fiŝo
+  axolotl_bucket: Sitelo kun aksolotlo
   brick: Briko
   clay_ball: Argilbulo
   dried_kelp_block: Sekigita alga bloko
   paper: Papero
   book: Libro
   slime_ball: Mukbulo
-  chest_minecart: Vagoneto kun kofro
-  furnace_minecart: Vagoneto kun forno
   egg: Ovo
   compass: Kompaso
+  bundle: Sako
   fishing_rod: Fiŝkaptilo
   clock: Horloĝo
+  spyglass: Lorno
   glowstone_dust: Lumpolvo
   cod: Kruda moruo
   salmon: Kruda salmo
@@ -700,11 +814,11 @@ material:
   cooked_cod: Kuirita muruo
   cooked_salmon: Kuirita salmo
   ink_sac: Inksako
+  glow_ink_sac: Sako da luminko
   cocoa_beans: Kakao
-  lapis_lazuli: Lazurito
   white_dye: Blanka tinkturo
   orange_dye: Oranĝkolora tinkturo
-  magenta_dye: Maĝenta tinkturo
+  magenta_dye: Malva tinkturo
   light_blue_dye: Helblua tinkturo
   yellow_dye: Flava tinkturo
   lime_dye: Helverda tinkturo
@@ -718,13 +832,13 @@ material:
   green_dye: Verda tinkturo
   red_dye: Ruĝa tinkturo
   black_dye: Nigra tinkturo
-  bone_meal: Ostpulvoro
+  bone_meal: Osta faruno
   bone: Osto
   sugar: Sukero
   cake: Kuko
   white_bed: Blanka lito
   orange_bed: Oranĝkolora lito
-  magenta_bed: Maĝenta lito
+  magenta_bed: Malva lito
   light_blue_bed: Helblua lito
   yellow_bed: Flava lito
   lime_bed: Helverda lito
@@ -752,19 +866,20 @@ material:
   rotten_flesh: Putra karno
   ender_pearl: Finejperlo
   blaze_rod: Incendia vergo
-  ghast_tear: Ĥastlarmo
+  ghast_tear: Ĥasta larmo
   gold_nugget: Orobulo
-  nether_wart: Submondveruko
+  nether_wart: Submonda veruko
   potion: Eliksiro
   glass_bottle: Vitra botelo
   spider_eye: Okulo de araneo
   fermented_spider_eye: Fermentita okulo de araneo
   blaze_powder: Incendia pulvoro
   magma_cream: Magmokremo
-  brewing_stand: Eliksirfarejo
+  brewing_stand: Eliksira farilo
   cauldron: Kaldrono
   ender_eye: Finejokulo
   glistering_melon_slice: Tranĉaĵo da brila akvomelono
+  axolotl_spawn_egg: Aperigovo de aksolotlo
   bat_spawn_egg: Aperigovo de vesperto
   bee_spawn_egg: Aperigovo de abelo
   blaze_spawn_egg: Aperigovo de incendio
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: Aperigovo de alvokisto
   fox_spawn_egg: Aperigovo de vulpo
   ghast_spawn_egg: Aperigovo de ĥasto
+  glow_squid_spawn_egg: Aperigovo de lumkalmaro
+  goat_spawn_egg: Aperigovo de kapro
   guardian_spawn_egg: Aperigovo de gardisto
   hoglin_spawn_egg: Aperigovo de hoglo
   horse_spawn_egg: Aperigovo de ĉevalo
@@ -797,7 +914,7 @@ material:
   phantom_spawn_egg: Aperigovo de fantomo
   pig_spawn_egg: Aperigovo de porko
   piglin_spawn_egg: Aperigovo de piglo
-  piglin_brute_spawn_egg: Aperigovo de piglbruto
+  piglin_brute_spawn_egg: Aperigovo de brutala piglo
   pillager_spawn_egg: Aperigovo de rabisto
   polar_bear_spawn_egg: Aperigovo de blanka urso
   pufferfish_spawn_egg: Aperigovo de pintfiŝo
@@ -827,14 +944,14 @@ material:
   zoglin_spawn_egg: Aperigovo de zoglo
   zombie_spawn_egg: Aperigovo de zombio
   zombie_horse_spawn_egg: Aperigovo de zombia ĉevalo
-  zombie_villager_spawn_egg: Aperigovo de zombivilaĝano
+  zombie_villager_spawn_egg: Aperigovo de zombia vilaĝano
   zombified_piglin_spawn_egg: Aperigovo de zombia piglo
   experience_bottle: Botelo de sorĉado
   fire_charge: Fajrobulo
   writable_book: Libro kaj plumo
   written_book: Skribita libro
-  emerald: Smeraldo
-  item_frame: Objektkadro
+  item_frame: Kadro
+  glow_item_frame: Luma kadro
   flower_pot: Florpoto
   carrot: Karoto
   potato: Terpomo
@@ -848,17 +965,12 @@ material:
   zombie_head: Kapo de zombio
   creeper_head: Kapo de kripero
   dragon_head: Kapo de drako
-  carrot_on_a_stick: Bastono kun karoto
-  warped_fungus_on_a_stick: Bastono kun tordita fungo
   nether_star: Submonda stelo
-  pumpkin_pie: Kukurbotorto
+  pumpkin_pie: Kukurba pirogo
   firework_rocket: Artfajraĵa raketo
   firework_star: Artfajraĵa stelo
   enchanted_book: Sorĉita libro
   nether_brick: Submondbriko
-  quartz: Submondkvarco
-  tnt_minecart: Vagoneto kun TNT
-  hopper_minecart: Vagoneto kun funelo
   prismarine_shard: Prismarina rompopeco
   prismarine_crystals: Prismarina kristalo
   rabbit: Kruda kuniklaĵo
@@ -866,19 +978,19 @@ material:
   rabbit_stew: Kuniklaĵa raguo
   rabbit_foot: Kunikla piedo
   rabbit_hide: Kunikla felo
-  armor_stand: Kirasoportilo
+  armor_stand: Kirasa tenilo
   iron_horse_armor: Fera ĉevala kiraso
   golden_horse_armor: Ora ĉevala kiraso
   diamond_horse_armor: Diamanta ĉevala kiraso
   leather_horse_armor: Leda ĉevala kiraso
   lead: Kondukilo
-  name_tag: Nometikedo
-  command_block_minecart: Vagoneto kun komandbloko
+  name_tag: Nomilo
+  command_block_minecart: Vagoneto kun komanda bloko
   mutton: Kruda ŝafaĵo
   cooked_mutton: Kuirita ŝafaĵo
   white_banner: Blanka standardo
   orange_banner: Oranĝkolora standardo
-  magenta_banner: Maĝenta standardo
+  magenta_banner: Malva standardo
   light_blue_banner: Helblua standardo
   yellow_banner: Flava standardo
   lime_banner: Helverda standardo
@@ -901,16 +1013,10 @@ material:
   dragon_breath: Draka blovo
   splash_potion: Ŝpruca eliksiro
   spectral_arrow: Spektra sago
-  tipped_arrow: Eliksirsago
+  tipped_arrow: Eliksira sago
   lingering_potion: Resta eliksiro
   shield: Ŝildo
-  elytra: Elitroj
-  spruce_boat: Picea boato
-  birch_boat: Betula boato
-  jungle_boat: Ĝangala boato
-  acacia_boat: Akacia boato
-  dark_oak_boat: Malhelkverka boato
-  totem_of_undying: Totemo de senmortado
+  totem_of_undying: Totemo de senmorteco
   shulker_shell: Ŝelo de ŝulkro
   iron_nugget: Ferobulo
   knowledge_book: Libro de sciado
@@ -930,7 +1036,7 @@ material:
   music_disc_pigstep: Sondisko
   trident: Tridento
   phantom_membrane: Fantoma membrano
-  nautilus_shell: Naŭtilokonko
+  nautilus_shell: Naŭtila konko
   heart_of_the_sea: Kerno de la maro
   crossbow: Arbalesto
   suspicious_stew: Suspektinda manĝaĵo
@@ -948,26 +1054,22 @@ material:
   cartography_table: Kartografitablo
   fletching_table: Pafarktablo
   grindstone: Akrigilo
-  lectern: Libropupitro
   smithing_table: Fandtablo
   stonecutter: Ŝtontranĉilo
   bell: Sonorilo
   lantern: Lanterno
   soul_lantern: Anima lanterno
   sweet_berries: Dolĉberoj
+  glow_berries: Lumberoj
   campfire: Tendarfajro
   soul_campfire: Animtendarfajro
   shroomlight: Lumfungo
-  honeycomb: Mielĉelaro
+  honeycomb: Miela ĉelaro
   bee_nest: Abelnesto
   beehive: Abelujo
-  honey_bottle: Mielbotelo
-  honey_block: Mielbloko
+  honey_bottle: Botelo da mielo
   honeycomb_block: Mielĉelarbloko
   lodestone: Magnetŝtono
-  netherite_block: Subena bloko
-  ancient_debris: Antikva rubo
-  target: Pafcelo
   crying_obsidian: Plorobsidiano
   blackstone: Nigroŝtono
   blackstone_slab: Nigroŝtona ŝtupo
@@ -977,11 +1079,33 @@ material:
   polished_blackstone_slab: Polurita nigroŝtona ŝtupo
   polished_blackstone_stairs: Polurita nigroŝtona ŝtuparo
   chiseled_polished_blackstone: Ĉizita polurita nigroŝtono
-  polished_blackstone_bricks: Polurita nigroŝtonbriko
+  polished_blackstone_bricks: Poluritaj nigroŝtonbrikoj
   polished_blackstone_brick_slab: Polurita nigroŝtonbrika ŝtupo
   polished_blackstone_brick_stairs: Polurita nigroŝtonbrika ŝtuparo
-  cracked_polished_blackstone_bricks: Rompita polurita nigroŝtonbriko
+  cracked_polished_blackstone_bricks: Rompitaj poluritaj nigroŝtonbrikoj
   respawn_anchor: Reaperankro
+  candle: Kandelo
+  white_candle: Blanka kandelo
+  orange_candle: Oranĝkolora kandelo
+  magenta_candle: Malva kandelo
+  light_blue_candle: Helblua kandelo
+  yellow_candle: Flava kandelo
+  lime_candle: Helverda kandelo
+  pink_candle: Rozkolora kandelo
+  gray_candle: Griza kandelo
+  light_gray_candle: Helgriza kandelo
+  cyan_candle: Turkisa kandelo
+  purple_candle: Violkolora kandelo
+  blue_candle: Blua kandelo
+  brown_candle: Bruna kandelo
+  green_candle: Verda kandelo
+  red_candle: Ruĝa kandelo
+  black_candle: Nigra kandelo
+  small_amethyst_bud: Malgranda ametista burĝono
+  medium_amethyst_bud: Mezgranda ametista burĝono
+  large_amethyst_bud: Granda ametista burĝono
+  amethyst_cluster: Amasiĝo da ametisto
+  pointed_dripstone: Pinta gutŝtono
   water: Akvo
   lava: Lafo
   tall_seagrass: Alta marherbo
@@ -1004,33 +1128,36 @@ material:
   attached_melon_stem: Alligita akvomelona tigo
   pumpkin_stem: Kukurba tigo
   melon_stem: Akvomelona tigo
+  water_cauldron: Kaldrono da akvo
+  lava_cauldron: Kaldrono da lafo
+  powder_snow_cauldron: Kaldrono da pulvora neĝo
   end_portal: Finejportalo
   cocoa: Kakao
   tripwire: Insiddrato
-  potted_oak_sapling: Florpota kverka arbido
-  potted_spruce_sapling: Florpota picea arbido
-  potted_birch_sapling: Florpota betula arbido
-  potted_jungle_sapling: Florpota ĝangala arbido
-  potted_acacia_sapling: Florpota akacia arbido
-  potted_dark_oak_sapling: Florpota malhelkverka arbido
-  potted_fern: Florpota filiko
-  potted_dandelion: Florpota leontodo
-  potted_poppy: Florpota papaveto
-  potted_blue_orchid: Florpota blua orkido
-  potted_allium: Florpota aliumo
-  potted_azure_bluet: Florpota blua houstonio
-  potted_red_tulip: Florpota ruĝa tulipo
-  potted_orange_tulip: Florpota oranĝkolora tulipo
-  potted_white_tulip: Florpota blanka tulipo
-  potted_pink_tulip: Florpota rozkolora tulipo
-  potted_oxeye_daisy: Florpota lekanto
-  potted_cornflower: Florpota cejano
-  potted_lily_of_the_valley: Florpota konvalo
-  potted_wither_rose: Florpota vizerrozo
-  potted_red_mushroom: Florpota muŝfungo
-  potted_brown_mushroom: Florpota boleto
-  potted_dead_bush: Florpota mortinta arbusto
-  potted_cactus: Florpota kakto
+  potted_oak_sapling: Kverka arbido en florpoto
+  potted_spruce_sapling: Picea arbido en florpoto
+  potted_birch_sapling: Betula arbido en florpoto
+  potted_jungle_sapling: Ĝangala arbido en florpoto
+  potted_acacia_sapling: Akacia arbido en florpoto
+  potted_dark_oak_sapling: Malhelkverka arbido en florpoto
+  potted_fern: Filiko en florpoto
+  potted_dandelion: Leontodo en florpoto
+  potted_poppy: Papaveto en florpoto
+  potted_blue_orchid: Blua orkido en florpoto
+  potted_allium: Aliumo en florpoto
+  potted_azure_bluet: Blua houstonio en florpoto
+  potted_red_tulip: Ruĝa tulipo en florpoto
+  potted_orange_tulip: Oranĝkolora tulipo en florpoto
+  potted_white_tulip: Blanka tulipo en florpoto
+  potted_pink_tulip: Rozkolora tulipo en florpoto
+  potted_oxeye_daisy: Lekanto en florpoto
+  potted_cornflower: Cejano en florpoto
+  potted_lily_of_the_valley: Konvalo en florpoto
+  potted_wither_rose: Vizerrozo en florpoto
+  potted_red_mushroom: Muŝfungo en florpoto
+  potted_brown_mushroom: Boleto en florpoto
+  potted_dead_bush: Mortinta arbusto en florpoto
+  potted_cactus: Kakto en florpoto
   carrots: Karotoj
   potatoes: Terpomoj
   skeleton_wall_skull: Mura kranio de skeleto
@@ -1041,7 +1168,7 @@ material:
   dragon_wall_head: Mura kapo de drako
   white_wall_banner: Blanka standardo
   orange_wall_banner: Oranĝkolora standardo
-  magenta_wall_banner: Maĝenta standardo
+  magenta_wall_banner: Malva standardo
   light_blue_wall_banner: Helblua standardo
   yellow_wall_banner: Flava standardo
   lime_wall_banner: Helverda standardo
@@ -1059,18 +1186,18 @@ material:
   end_gateway: Finejportego
   frosted_ice: Prujno
   kelp_plant: Planto de algo
-  dead_tube_coral_wall_fan: Mortita mura ventumilo tubokorala
-  dead_brain_coral_wall_fan: Mortita mura ventumilo cerbokorala
-  dead_bubble_coral_wall_fan: Mortita mura ventumilo bobelokorala
-  dead_fire_coral_wall_fan: Mortita mura ventumilo fajrokorala
-  dead_horn_coral_wall_fan: Mortita mura ventumilo kornokorala
+  dead_tube_coral_wall_fan: Mortinta mura ventumilo tubokorala
+  dead_brain_coral_wall_fan: Mortinta mura ventumilo cerbokorala
+  dead_bubble_coral_wall_fan: Mortinta mura ventumilo bobelokorala
+  dead_fire_coral_wall_fan: Mortinta mura ventumilo fajrokorala
+  dead_horn_coral_wall_fan: Mortinta mura ventumilo kornokorala
   tube_coral_wall_fan: Mura ventumilo tubokorala
   brain_coral_wall_fan: Mura ventumilo cerbokorala
   bubble_coral_wall_fan: Mura ventumilo bobelokorala
   fire_coral_wall_fan: Mura ventumilo fajrokorala
   horn_coral_wall_fan: Mura ventumilo kornokorala
   bamboo_sapling: Bambua plantido
-  potted_bamboo: Florpota bambuo
+  potted_bamboo: Bambuo en florpoto
   void_air: Vakueja aero
   cave_air: Kaverna aero
   bubble_column: Bobela kolumno
@@ -1078,11 +1205,35 @@ material:
   weeping_vines_plant: Planto de larmantaj hederoj
   twisting_vines_plant: Planto de serpentantaj hederoj
   crimson_wall_sign: Skarlata mura ŝildeto
-  warped_wall_sign: Tordita mura ŝildeto
-  potted_crimson_fungus: Florpota skarlata fungo
-  potted_warped_fungus: Florpota tordita fungo
-  potted_crimson_roots: Florpotaj skarlataj radikoj
-  potted_warped_roots: Florpotaj torditaj radikoj
+  warped_wall_sign: Torda mura ŝildeto
+  potted_crimson_fungus: Skarlata fungo en florpoto
+  potted_warped_fungus: Torda fungo en florpoto
+  potted_crimson_roots: Skarlataj radikoj en florpoto
+  potted_warped_roots: Tordaj radikoj en florpoto
+  candle_cake: Kuko kun kandelo
+  white_candle_cake: Kuko kun blanka kandelo
+  orange_candle_cake: Kuko kun oranĝkolora kandelo
+  magenta_candle_cake: Kuko kun malva kandelo
+  light_blue_candle_cake: Kuko kun helblua kandelo
+  yellow_candle_cake: Kuko kun flava kandelo
+  lime_candle_cake: Kuko kun helverda kandelo
+  pink_candle_cake: Kuko kun rozkolora kandelo
+  gray_candle_cake: Kuko kun griza kandelo
+  light_gray_candle_cake: Kuko kun helgriza kandelo
+  cyan_candle_cake: Kuko kun turkisa kandelo
+  purple_candle_cake: Kuko kun violkolora kandelo
+  blue_candle_cake: Kuko kun blua kandelo
+  brown_candle_cake: Kuko kun bruna kandelo
+  green_candle_cake: Kuko kun verda kandelo
+  red_candle_cake: Kuko kun ruĝa kandelo
+  black_candle_cake: Kuko kun nigra kandelo
+  powder_snow: Pulvora neĝo
+  cave_vines: Kavernaj lianoj
+  cave_vines_plant: Planto de kavernaj lianoj
+  big_dripleaf_stem: Gutfoliega tigo
+  potted_azalea_bush: Azaleo en florpoto
+  potted_flowering_azalea_bush: Floranta azaleo en florpoto
+  grass_path: Herba pado
   zombie_pigman_spawn_egg: Aperigovo de zombia porkhomo
   cactus_green: Verdo de kakto
   dandelion_yellow: Leontoda flavo
@@ -1167,51 +1318,53 @@ biome:
   bamboo_jungle_hills: Montetoj de bambua ĝangalo
   soul_sand_valley: Animsabla valo
   crimson_forest: Skarlata arbaro
-  warped_forest: Tordita arbaro
+  warped_forest: Torda arbaro
   basalt_deltas: Bazaltaj deltoj
+  dripstone_caves: Gutŝtonaj kavernoj
+  lush_caves: Luksaj kavernoj
   nether: Submondo
 enchantment:
-  fire_protection: Fajra protekto
-  sharpness: Akreco
-  flame: Flamo
-  soul_speed: Animrapido
-  aqua_affinity: Akva afineco
-  punch: Pafego
-  loyalty: Fideleco
-  depth_strider: Profundpaŝanto
-  vanishing_curse: Malbeno de malapero
-  unbreaking: Nerompiĝemo
-  knockback: Forpuŝo
-  luck_of_the_sea: Bonŝanco de la maro
-  binding_curse: Malbeno de kunligo
-  fortune: Fortuno
   protection: Protekto
-  efficiency: Efikeco
-  mending: Flikado
-  frost_walker: Prujnmarŝanto
-  lure: Logilo
-  looting: Predado
-  piercing: Penetremo
-  blast_protection: Eksploda protekto
-  smite: Turmento de malmortuloj
-  multishot: Multpafo
-  fire_aspect: Bruligo
-  channeling: Kanalado
-  sweeping: Eksvinganta eĝo
-  thorns: Dornoj
-  bane_of_arthropods: Turmento de artropodoj
-  respiration: Spirado
-  riptide: Impulso
-  silk_touch: Silka tuŝo
-  quick_charge: Rapida superŝarĝado
-  projectile_protection: Pafaĵa protekto
-  impaling: Palisumado
+  fire_protection: Fajra protekto
   feather_falling: Plumfalo
+  blast_protection: Eksploda protekto
+  projectile_protection: Pafaĵa protekto
+  respiration: Spirado
+  aqua_affinity: Akva afineco
+  thorns: Dornoj
+  depth_strider: Funda paŝanto
+  frost_walker: Prujnmarŝanto
+  binding_curse: Malbeno de kunligo
+  sharpness: Akreco
+  smite: Turmento de malmortuloj
+  bane_of_arthropods: Turmento de artropodoj
+  knockback: Forpuŝo
+  fire_aspect: Bruligo
+  looting: Predado
+  sweeping: Eksvinganta eĝo
+  efficiency: Efikeco
+  silk_touch: Silka tuŝo
+  unbreaking: Nerompiĝemo
+  fortune: Fortuno
   power: Potenco
+  punch: Pafego
+  flame: Flamo
   infinity: Senfino
+  luck_of_the_sea: Bonŝanco de la maro
+  lure: Logilo
+  loyalty: Fideleco
+  impaling: Palisumado
+  riptide: Impulso
+  channeling: Kanalado
+  multishot: Multpafo
+  quick_charge: Rapida superŝarĝado
+  piercing: Penetremo
+  mending: Flikado
+  vanishing_curse: Malbeno de malapero
+  soul_speed: Animrapido
 potion:
   uncraftable: Nefarebla eliksiro
-  water: Akvobotelo
+  water: Botelo da akvo
   mundane: Banala eliksiro
   thick: Densa eliksiro
   awkward: Stranga eliksiro
@@ -1233,7 +1386,7 @@ potion:
   slow_falling: Eliksiro de malrapida falo
 splash_potion:
   uncraftable: Ŝpruca nefarebla eliksiro
-  water: Ŝpruca akvobotelo
+  water: Ŝpruca botelo da akvo
   mundane: Banala ŝpruca eliksiro
   thick: Densa ŝpruca eliksiro
   awkward: Stranga ŝpruca eliksiro
@@ -1255,7 +1408,7 @@ splash_potion:
   slow_falling: Ŝpruca eliksiro de malrapida falo
 lingering_potion:
   uncraftable: Resta nefarebla eliksiro
-  water: Resta akvobotelo
+  water: Resta botelo da akvo
   mundane: Banala resta eliksiro
   thick: Densa resta eliksiro
   awkward: Stranga resta eliksiro
@@ -1276,11 +1429,11 @@ lingering_potion:
   turtle_master: Resta eliksiro de la testudmajstro
   slow_falling: Resta eliksiro de malrapida falo
 tipped_arrow:
-  uncraftable: Nefarebla eliksirsago
+  uncraftable: Nefarebla eliksira sago
   water: Sago de ŝprucado
-  mundane: Eliksirsago
-  thick: Eliksirsago
-  awkward: Eliksirsago
+  mundane: Eliksira sago
+  thick: Eliksira sago
+  awkward: Eliksira sago
   night_vision: Sago de noktvido
   invisibility: Sago de nevidebleco
   jump: Sago de saltado
@@ -1315,19 +1468,19 @@ entity:
   ender_signal: Finejokulo
   splash_potion: Eliksiro
   thrown_exp_bottle: Ĵetita botelo de sorĉado
-  item_frame: Objektkadro
+  item_frame: Kadro
   wither_skull: Kranio de Vizero
   primed_tnt: TNT fajrigita
   falling_block: Falanta bloko
   firework: Artfajraĵa raketo
   husk: Sekulo
   spectral_arrow: Spektra sago
-  shulker_bullet: Kuglo de ŝulkro
+  shulker_bullet: Pafaĵo de ŝulkro
   dragon_fireball: Draka farjrobulo
-  zombie_villager: Zombivilaĝano
+  zombie_villager: Zombia vilaĝano
   skeleton_horse: Skeleta ĉevalo
   zombie_horse: Zombia ĉevalo
-  armor_stand: Kirasoportilo
+  armor_stand: Kirasa tenilo
   donkey: Azeno
   mule: Mulo
   evoker_fangs: Alvokista dentegoj
@@ -1335,7 +1488,7 @@ entity:
   vex: Vekso
   vindicator: Praviganto
   illusioner: Iluziisto
-  minecart_command: Vagoneto kun komandbloko
+  minecart_command: Vagoneto kun komanda bloko
   boat: Boato
   minecart: Vagoneto
   minecart_chest: Vagoneto kun kofro
@@ -1403,6 +1556,11 @@ entity:
   strider: Lafpaŝanto
   zoglin: Zoglo
   piglin_brute: Piglinbruto
+  axolotl: Aksolotlo
+  glow_item_frame: Luma kadro
+  glow_squid: Lumkalmaro
+  goat: Kapro
+  marker: Marko
   fishing_hook: Fiŝflosilo
   lightning: Fulmo
   player: Ludanto
@@ -1456,7 +1614,7 @@ tropical_fish_type:
 dye_color:
   white: Blanka
   orange: Oranĝkolora
-  magenta: Maĝenta
+  magenta: Malva
   light_blue: Helblua
   yellow: Flava
   lime: Helverda
@@ -1504,7 +1662,7 @@ tropical_fish_name:
 colored_shied:
   white: Blanka ŝildo
   orange: Oranĝkolora ŝildo
-  magenta: Maĝenta ŝildo
+  magenta: Malva ŝildo
   light_blue: Helblua ŝildo
   yellow: Flava ŝildo
   lime: Helverda ŝildo
@@ -1521,7 +1679,7 @@ colored_shied:
 banner_pattern:
   '65536': Blanka malsupra dekstra angulo
   '65537': Oranĝkolora malsupra dekstra angulo
-  '65538': Maĝenta malsupra dekstra angulo
+  '65538': Malva malsupra dekstra angulo
   '65539': Helblua malsupra dekstra angulo
   '65540': Flava malsupra dekstra angulo
   '65541': Helverda malsupra dekstra angulo
@@ -1537,7 +1695,7 @@ banner_pattern:
   '65551': Nigra malsupra dekstra angulo
   '131072': Blanka malsupra maldekstra angulo
   '131073': Oranĝkolora malsupra maldekstra angulo
-  '131074': Maĝenta malsupra maldekstra angulo
+  '131074': Malva malsupra maldekstra angulo
   '131075': Helblua malsupra maldekstra angulo
   '131076': Flava malsupra maldekstra angulo
   '131077': Helverda malsupra maldekstra angulo
@@ -1553,7 +1711,7 @@ banner_pattern:
   '131087': Nigra malsupra maldekstra angulo
   '196608': Blanka supra dekstra angulo
   '196609': Oranĝkolora supra dekstra angulo
-  '196610': Maĝenta supra dekstra angulo
+  '196610': Malva supra dekstra angulo
   '196611': Helblua supra dekstra angulo
   '196612': Flava supra dekstra angulo
   '196613': Helverda supra dekstra angulo
@@ -1569,7 +1727,7 @@ banner_pattern:
   '196623': Nigra supra dekstra angulo
   '262144': Blanka supra maldekstra angulo
   '262145': Oranĝkolora supra maldekstra angulo
-  '262146': Maĝenta supra maldekstra angulo
+  '262146': Malva supra maldekstra angulo
   '262147': Helblua supra maldekstra angulo
   '262148': Flava supra maldekstra angulo
   '262149': Helverda supra maldekstra angulo
@@ -1585,7 +1743,7 @@ banner_pattern:
   '262159': Nigra supra maldekstra angulo
   '327680': Blanka bazo
   '327681': Oranĝkolora bazo
-  '327682': Maĝenta bazo
+  '327682': Malva bazo
   '327683': Helblua bazo
   '327684': Flava bazo
   '327685': Helverda bazo
@@ -1601,7 +1759,7 @@ banner_pattern:
   '327695': Nigra bazo
   '393216': Blanka kapo
   '393217': Oranĝkolora kapo
-  '393218': Maĝenta kapo
+  '393218': Malva kapo
   '393219': Helblua kapo
   '393220': Flava kapo
   '393221': Helverda kapo
@@ -1617,7 +1775,7 @@ banner_pattern:
   '393231': Nigra kapo
   '458752': Blanka dekstra kolono
   '458753': Oranĝkolora dekstra kolono
-  '458754': Maĝenta dekstra kolono
+  '458754': Malva dekstra kolono
   '458755': Helblua dekstra kolono
   '458756': Flava dekstra kolono
   '458757': Helverda dekstra kolono
@@ -1633,7 +1791,7 @@ banner_pattern:
   '458767': Nigra dekstra kolono
   '524288': Blanka maldekstra kolono
   '524289': Oranĝkolora maldekstra kolono
-  '524290': Maĝenta maldekstra kolono
+  '524290': Malva maldekstra kolono
   '524291': Helblua maldekstra kolono
   '524292': Flava maldekstra kolono
   '524293': Helverda maldekstra kolono
@@ -1649,7 +1807,7 @@ banner_pattern:
   '524303': Nigra maldekstra kolono
   '589824': Blanka kolono
   '589825': Oranĝkolora kolono
-  '589826': Maĝenta kolono
+  '589826': Malva kolono
   '589827': Helblua kolono
   '589828': Flava kolono
   '589829': Helverda kolono
@@ -1665,7 +1823,7 @@ banner_pattern:
   '589839': Nigra kolono
   '655360': Blanka trabo
   '655361': Oranĝa trabo
-  '655362': Maĝenta trabo
+  '655362': Malva trabo
   '655363': Helblua trabo
   '655364': Flava trabo
   '655365': Helverda trabo
@@ -1681,7 +1839,7 @@ banner_pattern:
   '655375': Nigra trabo
   '720896': Blanka dekstra diagonalo
   '720897': Oranĝkolora dekstra diagonalo
-  '720898': Maĝenta dekstra diagonalo
+  '720898': Malva dekstra diagonalo
   '720899': Helblua dekstra diagonalo
   '720900': Flava dekstra diagonalo
   '720901': Helverda dekstra diagonalo
@@ -1697,7 +1855,7 @@ banner_pattern:
   '720911': Nigra dekstra diagonalo
   '786432': Blanka maldekstra diagonalo
   '786433': Oranĝkolora maldekstra diagonalo
-  '786434': Maĝenta maldekstra diagonalo
+  '786434': Malva maldekstra diagonalo
   '786435': Helblua maldekstra diagonalo
   '786436': Flava maldekstra diagonalo
   '786437': Helverda maldekstra diagonalo
@@ -1713,7 +1871,7 @@ banner_pattern:
   '786447': Nigra maldekstra diagonalo
   '851968': Blankaj strioj
   '851969': Oranĝkoloraj strioj
-  '851970': Maĝentaj strioj
+  '851970': Malvaj strioj
   '851971': Helblua strioj
   '851972': Flavaj strioj
   '851973': Helverdaj strioj
@@ -1729,7 +1887,7 @@ banner_pattern:
   '851983': Nigraj strioj
   '917504': Blanka saltiero
   '917505': Oranĝkolora saltiero
-  '917506': Maĝenta saltiero
+  '917506': Malva saltiero
   '917507': Helblua saltiero
   '917508': Flava saltiero
   '917509': Helverda saltiero
@@ -1745,7 +1903,7 @@ banner_pattern:
   '917519': Nigra saltiero
   '983040': Blanka kruco
   '983041': Oranĝkolora kruco
-  '983042': Maĝenta kruco
+  '983042': Malva kruco
   '983043': Helblua kruco
   '983044': Flava kruco
   '983045': Helverda kruco
@@ -1761,7 +1919,7 @@ banner_pattern:
   '983055': Nigra kruco
   '1048576': Blanka ĉevrono
   '1048577': Oranĝkolora ĉevrono
-  '1048578': Maĝenta ĉevrono
+  '1048578': Malva ĉevrono
   '1048579': Helblua ĉevrono
   '1048580': Flava ĉevrono
   '1048581': Helverda ĉevrono
@@ -1777,7 +1935,7 @@ banner_pattern:
   '1048591': Nigra ĉevrono
   '1114112': Blanka inversa ĉevrono
   '1114113': Oranĝkolora inversa ĉevrono
-  '1114114': Maĝenta inversa ĉevrono
+  '1114114': Malva inversa ĉevrono
   '1114115': Helblua inversa ĉevrono
   '1114116': Flava inversa ĉevrono
   '1114117': Helverda inversa ĉevrono
@@ -1793,7 +1951,7 @@ banner_pattern:
   '1114127': Nigra inversa ĉevrono
   '1179648': Blanka pinta bazo
   '1179649': Oranĝkolora pinta bazo
-  '1179650': Maĝenta pinta bazo
+  '1179650': Malva pinta bazo
   '1179651': Helblua pinta bazo
   '1179652': Flava pinta bazo
   '1179653': Helverda pinta bazo
@@ -1809,7 +1967,7 @@ banner_pattern:
   '1179663': Nigra pinta bazo
   '1245184': Blanka pinta kapo
   '1245185': Oranĝkolora pinta kapo
-  '1245186': Maĝenta pinta kapo
+  '1245186': Malva pinta kapo
   '1245187': Helblua pinta kapo
   '1245188': Flava pinta kapo
   '1245189': Helverda pinta kapo
@@ -1825,7 +1983,7 @@ banner_pattern:
   '1245199': Nigra pinta kapo
   '1310720': Blanka dekstra supra duono
   '1310721': Oranĝkolora dekstra supra duono
-  '1310722': Maĝenta dekstra supra duono
+  '1310722': Malva dekstra supra duono
   '1310723': Helblua dekstra supra duono
   '1310724': Flava dekstra supra duono
   '1310725': Helverda dekstra supra duono
@@ -1841,7 +1999,7 @@ banner_pattern:
   '1310735': Nigra dekstra supra duono
   '1376256': Blanka maldekstra suba duono
   '1376257': Oranĝkolora maldekstra suba duono
-  '1376258': Maĝenta maldekstra suba duono
+  '1376258': Malva maldekstra suba duono
   '1376259': Helblua maldekstra suba duono
   '1376260': Flava maldekstra suba duono
   '1376261': Helverda maldekstra suba duono
@@ -1857,7 +2015,7 @@ banner_pattern:
   '1376271': Nigra maldekstra suba duono
   '1441792': Blanka dekstra suba duono
   '1441793': Oranĝkolora dekstra suba duono
-  '1441794': Maĝenta dekstra suba duono
+  '1441794': Malva dekstra suba duono
   '1441795': Helblua dekstra suba duono
   '1441796': Flava dekstra suba duono
   '1441797': Helverda dekstra suba duono
@@ -1873,7 +2031,7 @@ banner_pattern:
   '1441807': Nigra dekstra suba duono
   '1507328': Blanka maldekstra supra duono
   '1507329': Oranĝkolora maldekstra supra duono
-  '1507330': Maĝenta maldekstra supra duono
+  '1507330': Malva maldekstra supra duono
   '1507331': Helblua maldekstra supra duono
   '1507332': Flava maldekstra supra duono
   '1507333': Helverda maldekstra supra duono
@@ -1889,7 +2047,7 @@ banner_pattern:
   '1507343': Nigra maldekstra supra duono
   '1572864': Blanka cirklo
   '1572865': Oranĝkolora cirklo
-  '1572866': Maĝenta cirklo
+  '1572866': Malva cirklo
   '1572867': Helblua cirklo
   '1572868': Flava cirklo
   '1572869': Helverda cirklo
@@ -1905,7 +2063,7 @@ banner_pattern:
   '1572879': Nigra cirklo
   '1638400': Blanka rombo
   '1638401': Oranĝkolora rombo
-  '1638402': Maĝenta rombo
+  '1638402': Malva rombo
   '1638403': Helblua rombo
   '1638404': Flava rombo
   '1638405': Helverda rombo
@@ -1921,7 +2079,7 @@ banner_pattern:
   '1638415': Nigra rombo
   '1703936': Blanka dekstra flanko
   '1703937': Oranĝkolora dekstra flanko
-  '1703938': Maĝenta dekstra flanko
+  '1703938': Malva dekstra flanko
   '1703939': Helblua dekstra flanko
   '1703940': Flava dekstra flanko
   '1703941': Helverda dekstra flanko
@@ -1937,7 +2095,7 @@ banner_pattern:
   '1703951': Nigra dekstra flanko
   '1769472': Blanka supra duono
   '1769473': Oranĝkolora supra duono
-  '1769474': Maĝenta supra duono
+  '1769474': Malva supra duono
   '1769475': Helblua supra duono
   '1769476': Flava supra duono
   '1769477': Helverda supra duono
@@ -1953,7 +2111,7 @@ banner_pattern:
   '1769487': Nigra supra duono
   '1835008': Blanka maldekstra flanko
   '1835009': Oranĝkolora maldekstra flanko
-  '1835010': Maĝenta maldekstra flanko
+  '1835010': Malva maldekstra flanko
   '1835011': Helblua maldekstra flanko
   '1835012': Flava maldekstra flanko
   '1835013': Helverda maldekstra flanko
@@ -1969,7 +2127,7 @@ banner_pattern:
   '1835023': Nigra maldekstra flanko
   '1900544': Blanka suba duono
   '1900545': Oranĝkolora suba duono
-  '1900546': Maĝenta suba duono
+  '1900546': Malva suba duono
   '1900547': Helblua suba duono
   '1900548': Flava suba duono
   '1900549': Helverda suba duono
@@ -1985,7 +2143,7 @@ banner_pattern:
   '1900559': Nigra suba duono
   '1966080': Blanka flagbordero
   '1966081': Oranĝkolora flagbordero
-  '1966082': Maĝenta flagbordero
+  '1966082': Malva flagbordero
   '1966083': Helblua flagbordero
   '1966084': Flava flagbordero
   '1966085': Helverda flagbordero
@@ -2001,7 +2159,7 @@ banner_pattern:
   '1966095': Nigra flagbordero
   '2031616': Blanka pintbordero
   '2031617': Oranĝkolora pintbordero
-  '2031618': Maĝenta pintbordero
+  '2031618': Malva pintbordero
   '2031619': Helblua pintbordero
   '2031620': Flava pintbordero
   '2031621': Helverda pintbordero
@@ -2017,7 +2175,7 @@ banner_pattern:
   '2031631': Nigra pintbordero
   '2097152': Blanka kapo de kripero
   '2097153': Oranĝkolora kapo de kripero
-  '2097154': Maĝenta kapo de kripero
+  '2097154': Malva kapo de kripero
   '2097155': Helblua kapo de kripero
   '2097156': Flava kapo de kripero
   '2097157': Helverda kapo de kripero
@@ -2033,7 +2191,7 @@ banner_pattern:
   '2097167': Nigra kapo de kripero
   '2162688': Blanka gradiento
   '2162689': Oranĝkolora gradiento
-  '2162690': Maĝenta gradiento
+  '2162690': Malva gradiento
   '2162691': Helblua gradiento
   '2162692': Flava gradiento
   '2162693': Helverda gradiento
@@ -2049,7 +2207,7 @@ banner_pattern:
   '2162703': Nigra gradiento
   '2228224': Blanka baza gradiento
   '2228225': Oranĝkolora baza gradiento
-  '2228226': Maĝenta baza gradiento
+  '2228226': Malva baza gradiento
   '2228227': Helblua baza gradiento
   '2228228': Flava baza gradiento
   '2228229': Helverda baza gradiento
@@ -2065,7 +2223,7 @@ banner_pattern:
   '2228239': Nigra baza gradiento
   '2293760': Blanka muro
   '2293761': Oranĝkolora muro
-  '2293762': Maĝenta muro
+  '2293762': Malva muro
   '2293763': Helblua muro
   '2293764': Flava muro
   '2293765': Helverda muro
@@ -2081,7 +2239,7 @@ banner_pattern:
   '2293775': Nigra muro
   '2359296': Blanka kranio
   '2359297': Oranĝkolora kranio
-  '2359298': Maĝenta kranio
+  '2359298': Malva kranio
   '2359299': Helblua kranio
   '2359300': Flava kranio
   '2359301': Helverda kranio
@@ -2097,7 +2255,7 @@ banner_pattern:
   '2359311': Nigra kranio
   '2424832': Blanka floro
   '2424833': Oranĝkolora floro
-  '2424834': Maĝenta floro
+  '2424834': Malva floro
   '2424835': Helblua floro
   '2424836': Flava floro
   '2424837': Helverda floro
@@ -2113,7 +2271,7 @@ banner_pattern:
   '2424847': Nigra floro
   '2490368': Blanka simbolo
   '2490369': Oranĝkolora simbolo
-  '2490370': Maĝenta simbolo
+  '2490370': Malva simbolo
   '2490371': Helblua simbolo
   '2490372': Flava simbolo
   '2490373': Limea simbolo
@@ -2129,7 +2287,7 @@ banner_pattern:
   '2490383': Nigra simbolo
   '2555904': Blanka terkubo
   '2555905': Oranĝkolora terkubo
-  '2555906': Maĝenta terkubo
+  '2555906': Malva terkubo
   '2555907': Helblua terkubo
   '2555908': Flava terkubo
   '2555909': Helverda terkubo
@@ -2145,7 +2303,7 @@ banner_pattern:
   '2555919': Nigra terkubo
   '2621440': Blanka muzelo
   '2621441': Oranĝkolora muzelo
-  '2621442': Maĝenta muzelo
+  '2621442': Malva muzelo
   '2621443': Helblua muzelo
   '2621444': Flava muzelo
   '2621445': Helverda muzelo
@@ -2202,17 +2360,3 @@ villager_profession:
   shepherd: Ŝafisto
   toolsmith: Ilforĝisto
   weaponsmith: Armilforĝisto
-villager_career:
-  farmer: Farmisto
-  fisherman: Fiŝisto
-  shepherd: Ŝafisto
-  fletcher: Sagisto
-  librarian: Bibliotekisto
-  cartographer: Mapisto
-  cleric: Kleriko
-  armorer: Armaĵforĝisto
-  weapon_smith: Armilforĝisto
-  tool_smith: Iloforĝisto
-  butcher: Viandisto
-  leatherworker: Ledlaboristo
-  nitwit: Kreteno

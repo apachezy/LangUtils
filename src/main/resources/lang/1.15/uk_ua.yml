@@ -1,11 +1,14 @@
 # ####################################################
-# Build time: 2021-03-17 16:17:26                    #
+# Build time: 2021-07-04 21:39:01                    #
 # ####################################################
 language:
   code: uk_ua
   name: Українська
   region: Україна
 material:
+  acacia_leaves: Акацієве листя
+  brick: Цегла
+  bricks: Цегляний блок
   bubble_coral: Пухирчастий корал
   bubble_coral_block: Блок пухирчастих коралів
   bubble_coral_fan: Віяло з пухирчастих коралів
@@ -19,14 +22,21 @@ material:
   cut_sandstone_slab: Плита з гладкого пісковику
   cyan_glazed_terracotta: Блакитна глазурована кераміка
   cyan_shulker_box: Блакитна коробка шалкера
+  dark_oak_fence: Паркан з темного дубу
+  dark_oak_fence_gate: Хвіртка з темного дубу
+  dark_oak_sapling: Саджанець темного дубу
+  dark_oak_stairs: Сходи з темного дубу
   dead_bubble_coral_block: Блок мертвих пухирчастих коралів
   dead_horn_coral_block: Блок мертвого рогового коралу
   dead_tube_coral: Мертвий трубчастий корал
   emerald_block: Блок смарагду
   end_portal_frame: Рамка порталу Енду
+  flint_and_steel: Запальничка
   glistering_melon_slice: Скибка блискучого кавуна
   honeycomb: Медові соти
   honeycomb_block: Блок медових сот
+  item_frame: Рамка для предметів
+  lapis_block: Блок лазуриту
   light_blue_glazed_terracotta: Світло-синя глазурована кераміка
   light_blue_shulker_box: Світло-блакитна коробка шалкера
   light_blue_terracotta: Світло-синя кераміка
@@ -37,12 +47,14 @@ material:
   nether_brick_wall: Огорожа з незерської цегли
   nether_quartz_ore: Незеритова кварцова руда
   nether_wart: Пекельний наріст
+  oak_sapling: Саджанець дубу
   potted_allium: Різанець в горщику
   potted_brown_mushroom: Коричневий гриб в горщику
   potted_cactus: Кактус в горщику
   potted_dead_bush: Мертвий кущ в горщику
   potted_fern: Папороть в горщику
   potted_lily_of_the_valley: Конвалія в горщику
+  potted_oak_sapling: Саджанець дубу в горщику
   potted_orange_tulip: Помаранчевий тюльпан в горщику
   potted_pink_tulip: Рожевий тюльпан в горщику
   potted_poppy: Мак в горщику
@@ -53,6 +65,7 @@ material:
   potted_wither_rose: Троянда Висушувача в горщику
   quartz_block: Блок кварцу
   redstone_block: Блок редстоуну
+  redstone_ore: Руда редстоуну
   red_nether_brick_stairs: Сходи з червоної пекельної цегли
   smooth_quartz: Гладкий кварц
   void_air: Порожнеча
@@ -60,6 +73,11 @@ material:
   writable_book: Книга й перо
 potion:
   turtle_master: Черепахове зілля
+splash_potion:
+  luck: Вибухове зілля вдачі
+entity:
+  item_frame: Рамка для предметів
+  squid: Кальмар
 banner_pattern:
   '2490368': Білий символ
   '2490369': Помаранчевий символ

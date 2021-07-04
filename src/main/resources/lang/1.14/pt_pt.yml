@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:20:01                    #
+# Build time: 2021-07-04 21:41:57                    #
 # ####################################################
 language:
   code: pt_pt
@@ -8,6 +8,8 @@ language:
 material:
   acacia_log: Toro de acácia
   birch_log: Toro de bétula
+  blue_orchid: Orquídea-azul
+  chorus_plant: Planta-do-coro
   cobblestone: Empedrado
   cobblestone_slab: Degrau de empedrado
   cobblestone_stairs: Escadas de empedrado
@@ -24,6 +26,7 @@ material:
   infested_cobblestone: Empedrado infestado
   iron_ingot: Lingote de ferro
   jungle_log: Toro de madeira da selva
+  kelp_plant: Pé da alga
   lantern: Lampião
   leather: Cabedal
   leather_boots: Botas de cabedal
@@ -37,14 +40,11 @@ material:
   mossy_cobblestone_stairs: Escadas de empedrado com musgo
   mossy_cobblestone_wall: Muro de empedrado com musgo
   oak_log: Toro de carvalho
-  smooth_quartz: Bloco de quartzo liso
-  smooth_red_sandstone: Arenito vermelho liso
-  smooth_red_sandstone_slab: Degrau de arenito vermelho liso
-  smooth_red_sandstone_stairs: Escadas de arenito vermelho liso
-  smooth_sandstone: Arenito liso
-  smooth_sandstone_slab: Degrau de arenito liso
-  smooth_sandstone_stairs: Escadas de arenito liso
-  smooth_stone: Pedra lisa
+  potted_blue_orchid: Orquídea-azul num vaso
+  smoker: Defumadouro
+  smooth_quartz_slab: Degrau de quartzo polido
+  smooth_quartz_stairs: Escadas de quartzo polido
+  smooth_stone_slab: Degrau de pedra polida
   splash_potion: Poção de arremesso
   spruce_log: Toro de abeto
   stripped_acacia_log: Toro de acácia descascado
@@ -85,3 +85,5 @@ entity:
 effect:
   conduit_power: Proteção do oceano
   dolphins_grace: Graça do golfinho
+tropical_fish_name:
+  '67699456': Peixe-papagaio-da-cauda-amarela

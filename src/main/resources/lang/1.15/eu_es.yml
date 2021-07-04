@@ -1,17 +1,130 @@
 # ####################################################
-# Build time: 2021-03-17 16:17:23                    #
+# Build time: 2021-07-04 21:38:59                    #
 # ####################################################
 language:
   code: eu_es
   name: Euskara
   region: Euskal Herria
 material:
+  acacia_pressure_plate: Akazia presio plaka
+  acacia_slab: Akaziazko Baldosa
   bamboo_sapling: Indikainabera kimetza
+  birch_pressure_plate: Urkiaren Presio Plaka
+  black_concrete_powder: Hormigoi Hauts Beltza
+  black_shulker_box: Shulker beltzerako kaxa
+  blue_concrete_powder: Hormigoi Hauts Urdina
+  blue_shulker_box: Shulker urdinerako kaxa
+  brick_slab: Adreiluzko Baldosa
+  brown_concrete_powder: Hormigoi Hauts Marroia
+  brown_shulker_box: Shulker marroirako kaxa
+  chainmail_chestplate: Kotazko armadura
+  chainmail_leggings: Kotazko prakak
+  chiseled_quartz_block: Zizelkatutako kuartzo blokea
+  chiseled_red_sandstone: Zizelkatutako hareharri gorria
+  chiseled_sandstone: Zizelkatutako hareharria
+  chiseled_stone_bricks: Zizelkatuko harrizko adreiluak
   clay_ball: Buztina
+  comparator: Harrigorri konparadorea
+  cracked_stone_bricks: Pitzatu harrizko adreiluak
+  cut_red_sandstone_slab: Hareharri gorrizko moztutazko lauza
+  cut_sandstone_slab: Hareharri moztutazko lauza
+  cyan_concrete_powder: Hormigoi Hauts Ziana
+  cyan_shulker_box: Shulker turkesarako kaxa
+  dark_oak_pressure_plate: Haritz ilunaren presio plaka
+  dark_oak_slab: Haritz iluna
+  dark_prismarine_slab: Prismarine ilunaren xafla
+  diamond_chestplate: Diamantezko armadura
+  diamond_leggings: Diamantezko galtzak
+  emerald_ore: Esmeralda mea
+  ender_eye: Amaierako begia
+  ender_pearl: Amaierako perla
+  end_stone_brick_slab: Amaierako arroka adreiluzko lauza
+  golden_chestplate: Urrezko armadura
+  golden_leggings: Urrezko galtzak
+  gray_concrete_powder: Hormigoi Hauts Grisa
+  gray_shulker_box: Shulker griserako kaxa
+  green_concrete_powder: Hormigoi Hauts Berdea
+  green_shulker_box: Shulker berderako kaxa
+  heavy_weighted_pressure_plate: Presio handiko pisu plaka
+  infested_chiseled_stone_bricks: Zizelkatutako harrizko adreilu izurrituak
+  infested_cracked_stone_bricks: block.minecraft. infested_cracked_stone_bricks
+  iron_chestplate: Burdinazko armadura
+  iron_leggings: Burdinazko galtzak
+  jungle_pressure_plate: Oihaneko presio plaka
+  lapis_block: Lapis lazulizko blokea
+  light_blue_concrete_powder: Hormigoi Hauts Urdin Argia
+  light_blue_shulker_box: Shulker urdin argirako kaxa
+  light_gray_concrete_powder: Hormigoi Hauts Gris Argia
+  light_gray_shulker_box: Shulker gris argirako kaxa
+  light_weighted_pressure_plate: Presio-plaka arina
+  lime_concrete_powder: Hormigoi Hauts Lima
+  lime_shulker_box: Shulker berde limarako kaxa
+  magenta_concrete_powder: Hormigoi Hauts Magenta
+  magenta_shulker_box: Shulker magentarako kaxa
+  netherrack: Arroka abisala
+  nether_brick: Adreilu abisala
+  nether_bricks: Infernuko adreiluak
+  nether_brick_fence: Adreilu abisalezko hesia
+  nether_brick_slab: Adreilu abisalezko baldosa
+  nether_brick_stairs: Adreilu abisalezko eskailerak
+  nether_brick_wall: Adreilu abisalezko pareta
+  nether_portal: Infernuko portala
+  nether_quartz_ore: Kuartzo abisal mea
+  nether_star: Izar abisala
+  nether_wart: Garatxo abisala
+  nether_wart_block: Infernuko Garatxoen Blokea
+  oak_pressure_plate: Haritz Presio Plaka
+  orange_concrete_powder: Hormigoi Hauts Laranja
+  orange_shulker_box: Shulker laranjarako kaxa
+  petrified_oak_slab: Haritz petrifikatuzko lauza
+  pink_concrete_powder: Hormigoi Hauts Larrosa
+  pink_shulker_box: Shulker arrosarako kaxa
+  polished_andesite: Andesita leuna
+  polished_andesite_slab: Andesita leunezko baldosa
+  polished_andesite_stairs: Andesita leunezko eskailerak
+  polished_diorite: Diorita leuna
+  polished_diorite_slab: Diorita leunezko lauza
+  polished_diorite_stairs: Diorita leunezko eskailerak
+  polished_granite: Granito leuna
+  polished_granite_slab: Granito leunezko lauza
+  polished_granite_stairs: Granito leunezko eskailerak
+  prismarine_brick_slab: Prismarina adreiluzko lauza
+  prismarine_slab: Prismarinazko Baldosa
+  prismarine_stairs: Eskailera Prismarinak
+  purple_concrete_powder: Hormigoi Hauts Morea
+  purple_shulker_box: Shulker morerako kaxa
+  purpur_slab: Purpur baldosa
+  quartz: Kuartzo abisala
+  quartz_slab: Kuartzozko baldosa
+  redstone: Harrigorri hautsa
+  redstone_block: Harrigorri blokea
+  redstone_lamp: Harrigorri lanpara
   redstone_ore: Harrigorri mea
+  redstone_torch: Harrigorri zuzia
+  redstone_wall_torch: Paretako harrigorri zuzia
+  redstone_wire: Harrigorrizko kablea
+  red_concrete_powder: Hormigoi Hauts Gorria
+  red_nether_bricks: Infernuko adreilu gorriak
+  red_nether_brick_slab: Adreilu abisalezko baldosa
+  red_nether_brick_stairs: Adreilu abisal gorrizko eskailerak
+  red_nether_brick_wall: Adreilu abisal gorrizko pareta
+  red_shulker_box: Shulker gorrirako kaxa
+  repeater: Harrigorrizko errepikagailua
+  salmon_spawn_egg: Salmoi sortzaile arrautza
+  shulker_box: Shulker kaxa
   smooth_quartz: Kuartzo leuna
+  smooth_red_sandstone: Hareharri leun gorria
+  smooth_sandstone_stairs: Hareharri gorri leunezko eskailerak
+  spruce_pressure_plate: Spruce presio plaka
+  stone_brick_slab: Adreiluzko lauza
+  white_concrete_powder: Hormigoi Hauts Zuria
+  white_shulker_box: Shulker zurirako kaxa
+  yellow_concrete_powder: Hormigoi Hauts Horia
+  yellow_shulker_box: Shulker horirako kaxa
 entity:
   ender_dragon: Amaierako herensugea
   pillager: Arpilatzailea
+effect:
+  fast_digging: Meatze azkartasuna
 tropical_fish_type:
   sunstreak: Eguzki-arraina

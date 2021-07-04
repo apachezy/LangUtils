@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:46                    #
+# Build time: 2021-07-04 21:46:02                    #
 # ####################################################
 language:
   code: de_ch
@@ -9,7 +9,6 @@ material:
   acacia_boat: Akazieböötli
   acacia_button: Akaziöchnopf
   acacia_door: Akaziätürä
-  acacia_fence: Akazieholzhaag
   acacia_fence_gate: Akazieholzhaagtörli
   acacia_log: Akaziäholz
   acacia_planks: Akaziäholzbrätter
@@ -21,18 +20,27 @@ material:
   attached_pumpkin_stem: Chürbisrankä
   baked_potato: Ofägummel
   bat_spawn_egg: Flädermuus-Spawn-Ei
+  beetroots: Rande
+  beetroot_soup: Randäsuppä
+  birch_boat: Birkeböötli
+  birch_button: Birkechnopf
   birch_door: Birkätürä
-  birch_fence: Birkeholzhaag
   birch_fence_gate: Birkeholzhaagtörli
   birch_pressure_plate: Birkeholzdruck
   birch_slab: Birkeholzstufä
   birch_trapdoor: Birkefalltürä
   black_concrete_powder: Schwarzes Betonpulver
+  black_glazed_terracotta: Schwarz glasierti Keramik
   black_shulker_box: Schwarzi Shulkerbox
+  black_terracotta: Schwarzi Keramik
   black_wool: Schwarzi Wullä
   blue_concrete_powder: Blaus Betonpulver
+  blue_glazed_terracotta: Blau glasierti Keramik
   blue_shulker_box: Blaui Shulkerbox
+  blue_terracotta: Blaui Keramik
   blue_wool: Blaui Wullä
+  bone_block: Chnocheblock
+  bone_meal: Chnochämäl
   bread: Brout
   brick_slab: Ziegelstufä
   brown_banner: Bruuns Banner
@@ -60,7 +68,9 @@ material:
   clay_ball: Ton
   cobblestone_slab: Bruchsteistufä
   cobblestone_stairs: Bruchsteiträppä
-  cod_spawn_egg: Dorsch-Spawn-Ei
+  cod: Rohä Dorsch
+  cooked_cod: Bratene Dorsch
+  cooked_porkchop: Bratnigs Schwiinigs
   cut_red_sandstone: Gschnittnigä rotä Sandstei
   cut_sandstone: Gschnittnigä Sandstei
   cyan_banner: Zyanfarbigs Banner
@@ -74,6 +84,7 @@ material:
   cyan_terracotta: Türkisi Keramik
   cyan_wall_banner: Zyanfarbigs Banner
   cyan_wool: Türkiisi Wullä
+  dark_oak_boat: Schwarzeicheböötli
   dark_oak_button: Schwarzeichächnopf
   dark_oak_door: Schwarzeichätürä
   dark_oak_fence_gate: Schwarzeicheholzhaagtörli
@@ -93,6 +104,7 @@ material:
   dead_tube_coral_wall_fan: Abgstorbene Orgälkorallwandfächer
   diamond_boots: Diamantästiefel
   diamond_chestplate: Diamantäharnisch
+  diamond_horse_armor: Diamantigi Rossrüstig
   diamond_leggings: Diamantäbeischutz
   dispenser: Wörfer
   dragon_wall_head: Drachä-Wandchopf
@@ -103,23 +115,24 @@ material:
   endermite_spawn_egg: Endermit-Spawn-Ei
   ender_chest: Enderchiste
   evoker_spawn_egg: Magiär-Spawn-Ei
-  firework_star: Füürwerchsstärn
   furnace: Ofä
   glass_pane: Glassschiibe
-  glowstone: Glowstone
+  glowstone_dust: Lüüchtsteistaub
   golden_leggings: Glodhosä
   gold_ingot: Goldabarre
   gray_carpet: Grauä Teppich
   gray_concrete_powder: Graus Betonpulver
+  gray_glazed_terracotta: Grau glasierti Keramik
   gray_shulker_box: Graui Shulkerbox
   gray_terracotta: Graui Keramik
   gray_wool: Graui Wullä
   green_carpet: Grüenä Teppich
   green_concrete_powder: Grüens Betonpulver
+  green_glazed_terracotta: Grüen glasierti Keramik
   green_shulker_box: Grüeni Shulkerbox
+  green_terracotta: Grüeni Keramik
   green_wool: Grüeni Wullä
   heavy_weighted_pressure_plate: Schwerlast-Druckplattä
-  horse_spawn_egg: Ross-Spawn-Ei
   infested_chiseled_stone_bricks: Infiziertä gmeisletä Steiziegel
   infested_cobblestone: Infiziertä Pflasterstei
   infested_cracked_stone_bricks: Infiziertä rissigä Steiziegel
@@ -138,14 +151,13 @@ material:
   jungle_log: Tschungelholz
   jungle_planks: Tschungelholzbrätter
   jungle_pressure_plate: Tschungelholzdruckplattä
+  jungle_sapling: Tropebaumsetzling
   jungle_slab: Tschungelholzstufä
   jungle_stairs: Tschungelholzstäge
   jungle_trapdoor: Tschungelfalltürä
   kelp: Algästängel
   kelp_plant: Algästängel
   leather_boots: Läderstifel
-  leather_chestplate: Läderjagge
-  leather_helmet: Läderchappä
   leather_leggings: Läderhosä
   lever: Hebäl
   light_blue_concrete: Hellblauä Beton
@@ -157,6 +169,7 @@ material:
   light_blue_wool: Hellblaui Wullä
   light_gray_carpet: Hellgrauä Teppich
   light_gray_concrete_powder: Hellgraus Betonpulver
+  light_gray_glazed_terracotta: Hellgrau glasierti Keramik
   light_gray_shulker_box: Hellgraui Shulkerbox
   light_gray_terracotta: Hellgraui Kreamik
   light_gray_wool: Hellgraui Wullä
@@ -179,6 +192,8 @@ material:
   magenta_wall_banner: Magentafarbigs Banner
   magenta_wool: Magenta Wullä
   melon: Meloneschiibli
+  melon_seeds: Melonesömli
+  milk_bucket: Milchchessel
   mooshroom_spawn_egg: Pilzchuäh-Spawn-Ei
   mossy_cobblestone: Bemoostä Pflasterstei
   mossy_cobblestone_wall: Bemoosti Pflastersteimuur
@@ -186,6 +201,7 @@ material:
   netherrack: Netherräck
   nether_brick_slab: Netherziegelstufä
   note_block: Notäblock
+  oak_boat: Eichäholzböötli
   oak_button: Eichächnopf
   oak_door: Eichätür
   oak_fence: Eichäholzzaun
@@ -211,6 +227,7 @@ material:
   pink_carpet: Pinkä Teppich
   pink_concrete: Pinkä Beton
   pink_concrete_powder: Pinks Betonpulver
+  pink_glazed_terracotta: Pink glasierti Keramik
   pink_shulker_box: Pinki Shulkerbox
   pink_wool: Pinki Wullä
   player_wall_head: Wandchopf vomene Spieler
@@ -241,16 +258,17 @@ material:
   powered_rail: Atriebsgleis
   prismarine_brick_slab: Prismarinziegelstufä
   prismarine_slab: Prismarinstufä
+  pufferfish_bucket: Kugelfischeimer
   pufferfish_spawn_egg: Chugälfisch-Spawn-Ei
   pumpkin_stem: Chürbispflanzä
   purple_carpet: Violettä Teppich
   purple_concrete_powder: Violetts Betonpulver
   purple_dye: Violettä Farbstoff
+  purple_glazed_terracotta: Violett glasierti Keramik
   purple_shulker_box: Violetti Shulkerbox
   purple_terracotta: Violetti Keramik
   purple_wool: Violetti Wullä
   quartz_slab: Quarzstufä
-  rabbit_spawn_egg: Chüngel-Spawn-Ei
   rail: Gleis
   redstone: Redstone
   redstone_torch: Redstone-Facklä
@@ -258,25 +276,28 @@ material:
   redstone_wire: Redstone-Staub
   red_carpet: Rotä Teppich
   red_concrete_powder: Rots Betonpulver
+  red_glazed_terracotta: Rot glasierti Keramik
   red_mushroom: Rotä Pilz
   red_mushroom_block: Rote Pilz
   red_sandstone_slab: Rote Sandsteistufä
   red_sandstone_stairs: Roti Sandsteiträppä
   red_shulker_box: Roti Shulkerbox
+  red_terracotta: Roti Keramik
   red_wool: Roti Wullä
+  salmon_bucket: Lachseimer
   sandstone_stairs: Sandsteiträppä
   sea_pickle: Meeresgurke
   sheep_spawn_egg: Schaf-Spawn-Ei
   shulker_box: Shulkerbox
-  skeleton_horse_spawn_egg: Skelettross-Spawn-Ei
+  slime_spawn_egg: Schleim-Spawn-Ei
   smooth_quartz: Glattä Quarz
   smooth_stone: Glattä Stei
   soul_sand: Seeläsand
+  spider_eye: Spinneäugli
   spider_spawn_egg: Spinnä-Spawn-Ei
   spruce_boat: Fichtäholzböötli
   spruce_button: Fichtächnopf
   spruce_door: Fichtätürä
-  spruce_fence: Fichteholzhaag
   spruce_fence_gate: Fichteholzhaagtörli
   spruce_log: Fichtäholz
   spruce_planks: Fichtäholzbrätter
@@ -287,24 +308,27 @@ material:
   squid_spawn_egg: Tintäfisch-Spawn-Ei
   stone_brick_slab: Steiziegelstufä
   stone_pressure_plate: Steidruggplattä
-  stray_spawn_egg: Iiswanderer-Spawn-Ei
   stripped_acacia_log: Entrindets Akaziäholz
   stripped_acacia_wood: Entrindetäs Akazienholz
   stripped_birch_log: Entrindets Birkeholz
+  stripped_birch_wood: Entrindetäs Birkäholz
   stripped_dark_oak_log: Entrindets Schwarzeichäholz
   stripped_dark_oak_wood: Entrindetäs Schwarzeichäholz
   stripped_jungle_log: Entrindets Tschungelholz
+  stripped_jungle_wood: Entrindetäs Tropeholz
   stripped_oak_log: Entrindets Eichäholz
   stripped_oak_wood: Entrindetäs Eicheholz
   stripped_spruce_log: Entrindets Fichtäholz
   stripped_spruce_wood: Entrindetäs Fichtäholz
   sugar_cane: Zuckerrohr
-  tropical_fish_spawn_egg: Tropäfisch-Spawn-Ei
+  tropical_fish_bucket: Tropäfischeimer
   turtle_helmet: Schildchrotäpanzer
   turtle_spawn_egg: Schildchrotä-Spawn-Ei
   vex_spawn_egg: Galöli-Spawn-Ei
   vindicator_spawn_egg: Diänär-Spawn-Ei
   wall_torch: Wandfacklä
+  wheat: Weizä
+  wheat_seeds: Weizechöreli
   white_banner: Wiises Banner
   white_bed: Wiises Bett
   white_carpet: Wiisä Teppich
@@ -327,9 +351,10 @@ material:
   yellow_terracotta: Gelbi Keramik
   yellow_wall_banner: Gelbs Banner
   yellow_wool: Gelbi Wullä
-  zombie_horse_spawn_egg: Zombieross-Spawn-Ei
   zombie_villager_spawn_egg: Dorfbewohnerzombie-Spawn-Ei
 biome:
+  mountains: Bärg
+  snowy_mountains: Verschneitii Bärgä
   desert_hills: Wüestähügel
   jungle: Tschungel
   jungle_hills: Tschungelhügel
@@ -337,15 +362,26 @@ biome:
   birch_forest: Birkäwald
   birch_forest_hills: Birkäwaldhügel
   dark_forest: Diächte Wald
+  snowy_taiga: Verschneiti Taiga
+  snowy_taiga_hills: Verschneiti Taigahügel
   giant_tree_taiga_hills: Riesiigi Baumtaigahügel
+  wooded_mountains: Bärgwald
+  savanna: Savanne
+  savanna_plateau: Savannenehöchebeni
+  end_midlands: End Mittelland
+  desert_lakes: Wüsteseeä
+  taiga_mountains: Taigabärge
   swamp_hills: Sumpf Hügel
-  modified_jungle: Dschungel (Variante)
-  modified_jungle_edge: Dschungelrand (Variante)
+  ice_spikes: Iissstachle
   tall_birch_forest: Höhe Birkewald
   tall_birch_hills: Höhe Birkewaldhügel
   dark_forest_hills: Dichtä Hügelwald
+  snowy_taiga_mountains: Verschneitii Taigabergä
   giant_spruce_taiga: Riisigi Fichtetaiga
   giant_spruce_taiga_hills: Riisigi Fichtetaigahügel
+  shattered_savanna: Zerklüftetii Savannä
+  shattered_savanna_plateau: Zerklüfetii Savannenhöchebeni
+  modified_badlands_plateau: Tafelberghöchebeni (Variantä)
 potion:
   turtle_master: Trank vom Schildchrotämeischter
 splash_potion:
@@ -356,6 +392,11 @@ tipped_arrow:
   turtle_master: Pfiil vom Schildchrotämeischter
 entity:
   minecart_chest: Chistelore
+  slime: Schleim
+  turtle: Schildchröt
+  cod: Kabeljau
+effect:
+  glowing: Lüchtend
 tropical_fish_type:
   sunstreak: Sunnestrahler
 dye_color:

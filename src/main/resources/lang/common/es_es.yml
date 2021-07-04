@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:47                    #
+# Build time: 2021-07-04 21:46:02                    #
 # ####################################################
 language:
   code: es_es
@@ -14,10 +14,17 @@ material:
   polished_diorite: Diorita pulida
   andesite: Andesita
   polished_andesite: Andesita pulida
+  deepslate: Pizarra profunda
+  cobbled_deepslate: Pizarra profunda rocosa
+  polished_deepslate: Pizarra profunda pulida
+  calcite: Calcita
+  tuff: Toba
+  dripstone_block: Bloque de espeleotema
   grass_block: Césped
   dirt: Tierra
   coarse_dirt: Tierra estéril
   podzol: Podsol
+  rooted_dirt: Tierra enraizada
   crimson_nylium: Necelio carmesí
   warped_nylium: Necelio distorsionado
   cobblestone: Roca
@@ -27,8 +34,8 @@ material:
   jungle_planks: Tablones de jungla
   acacia_planks: Tablones de acacia
   dark_oak_planks: Tablones de roble oscuro
-  crimson_planks: Madera carmesí
-  warped_planks: Madera distorsionada
+  crimson_planks: Tablones carmesí
+  warped_planks: Tablones distorsionados
   oak_sapling: Brote de roble
   spruce_sapling: Brote de abeto
   birch_sapling: Brote de abedul
@@ -39,10 +46,67 @@ material:
   sand: Arena
   red_sand: Arena roja
   gravel: Grava
-  gold_ore: Mena de oro
-  iron_ore: Mena de hierro
   coal_ore: Mena de carbón
+  deepslate_coal_ore: Mena de carbón de pizarra profunda
+  iron_ore: Mena de hierro
+  deepslate_iron_ore: Mena de hierro de pizarra profunda
+  copper_ore: Mena de cobre
+  deepslate_copper_ore: Mena de cobre de pizarra profunda
+  gold_ore: Mena de oro
+  deepslate_gold_ore: Mena de oro de pizarra profunda
+  redstone_ore: Mena de redstone
+  deepslate_redstone_ore: Mena de redstone de pizarra profunda
+  emerald_ore: Mena de esmeralda
+  deepslate_emerald_ore: Mena de esmeralda de pizarra profunda
+  lapis_ore: Mena de lapislázuli
+  deepslate_lapis_ore: Mena de lapislázuli de pizarra profunda
+  diamond_ore: Mena de diamante
+  deepslate_diamond_ore: Mena de diamante de pizarra profunda
   nether_gold_ore: Mena de oro del Nether
+  nether_quartz_ore: Mena de cuarzo del Nether
+  ancient_debris: Escombros ancestrales
+  coal_block: Bloque de carbón
+  raw_iron_block: Bloque de hierro en bruto
+  raw_copper_block: Bloque de cobre en bruto
+  raw_gold_block: Bloque de oro en bruto
+  amethyst_block: Bloque de amatista
+  budding_amethyst: Brotador de amatista
+  iron_block: Bloque de hierro
+  copper_block: Bloque de cobre
+  gold_block: Bloque de oro
+  diamond_block: Bloque de diamante
+  netherite_block: Bloque de netherita
+  exposed_copper: Cobre expuesto
+  weathered_copper: Cobre degradado
+  oxidized_copper: Cobre oxidado
+  cut_copper: Cobre cortado
+  exposed_cut_copper: Cobre cortado expuesto
+  weathered_cut_copper: Cobre cortado degradado
+  oxidized_cut_copper: Cobre cortado oxidado
+  cut_copper_stairs: Escaleras de cobre cortado
+  exposed_cut_copper_stairs: Escaleras de cobre cortado expuesto
+  weathered_cut_copper_stairs: Escaleras de cobre cortado degradado
+  oxidized_cut_copper_stairs: Escaleras de cobre cortado oxidado
+  cut_copper_slab: Losa de cobre cortado
+  exposed_cut_copper_slab: Losa de cobre cortado expuesto
+  weathered_cut_copper_slab: Losa de cobre cortado degradado
+  oxidized_cut_copper_slab: Losa de cobre cortado oxidado
+  waxed_copper_block: Bloque de cobre encerado
+  waxed_exposed_copper: Cobre expuesto encerado
+  waxed_weathered_copper: Cobre degradado encerado
+  waxed_oxidized_copper: Cobre oxidado encerado
+  waxed_cut_copper: Cobre cortado encerado
+  waxed_exposed_cut_copper: Cobre cortado expuesto encerado
+  waxed_weathered_cut_copper: Cobre cortado degradado encerado
+  waxed_oxidized_cut_copper: Cobre cortado oxidado encerado
+  waxed_cut_copper_stairs: Escaleras de cobre cortado encerado
+  waxed_exposed_cut_copper_stairs: Escaleras de cobre cortado expuesto encerado
+  waxed_weathered_cut_copper_stairs: Escaleras de cobre cortado degradado encerado
+  waxed_oxidized_cut_copper_stairs: Escaleras de cobre cortado oxidado encerado
+  waxed_cut_copper_slab: Losa de cobre cortado encerado
+  waxed_exposed_cut_copper_slab: Losa de cobre cortado expuesto encerado
+  waxed_weathered_cut_copper_slab: Losa de cobre cortado degradado encerado
+  waxed_oxidized_cut_copper_slab: Losa de cobre cortado oxidado encerado
   oak_log: Tronco de roble
   spruce_log: Tronco de abeto
   birch_log: Tronco de abedul
@@ -81,26 +145,24 @@ material:
   jungle_leaves: Hojas de jungla
   acacia_leaves: Hojas de acacia
   dark_oak_leaves: Hojas de roble oscuro
+  azalea_leaves: Hojas de azalea
+  flowering_azalea_leaves: Hojas de azalea florecida
   sponge: Esponja
   wet_sponge: Esponja mojada
   glass: Cristal
-  lapis_ore: Mena de lapislázuli
+  tinted_glass: Cristal opaco
   lapis_block: Bloque de lapislázuli
-  dispenser: Dispensador
   sandstone: Arenisca
   chiseled_sandstone: Arenisca cincelada
   cut_sandstone: Arenisca cortada
-  note_block: Bloque musical
-  powered_rail: Raíl propulsor
-  detector_rail: Raíl detector
-  sticky_piston: Pistón pegajoso
   cobweb: Telaraña
   grass: Hierba
   fern: Helecho
+  azalea: Azalea
+  flowering_azalea: Azalea florecida
   dead_bush: Arbusto muerto
   seagrass: Hierba marina
   sea_pickle: Pepino de mar
-  piston: Pistón
   white_wool: Lana blanca
   orange_wool: Lana naranja
   magenta_wool: Lana magenta
@@ -130,6 +192,7 @@ material:
   cornflower: Aciano
   lily_of_the_valley: Convalaria
   wither_rose: Rosa de Wither
+  spore_blossom: Flor de esporas
   brown_mushroom: Champiñón marrón
   red_mushroom: Champiñón rojo
   crimson_fungus: Hongo carmesí
@@ -141,16 +204,19 @@ material:
   twisting_vines: Enredaderas retorcidas
   sugar_cane: Caña de azúcar
   kelp: Alga
+  moss_carpet: Alfombra de musgo
+  moss_block: Bloque de musgo
+  hanging_roots: Raíces colgantes
+  big_dripleaf: Plantaforma grande
+  small_dripleaf: Plantaforma pequeña
   bamboo: Bambú
-  gold_block: Bloque de oro
-  iron_block: Bloque de hierro
   oak_slab: Losa de roble
   spruce_slab: Losa de abeto
   birch_slab: Losa de abedul
   jungle_slab: Losa de jungla
   acacia_slab: Losa de acacia
   dark_oak_slab: Losa de roble oscuro
-  crimson_slab: Losa de madera carmesí
+  crimson_slab: Losa carmesí
   warped_slab: Losa distorsionada
   stone_slab: Losa de piedra
   smooth_stone_slab: Losa de piedra lisa
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: Arenisca lisa
   smooth_stone: Piedra lisa
   bricks: Ladrillos
-  tnt: Dinamita
   bookshelf: Librería
   mossy_cobblestone: Roca musgosa
   obsidian: Obsidiana
@@ -187,32 +252,16 @@ material:
   spawner: Generador
   oak_stairs: Escaleras de roble
   chest: Cofre
-  diamond_ore: Mena de diamante
-  diamond_block: Bloque de diamante
   crafting_table: Mesa de trabajo
   farmland: Tierra de cultivo
   furnace: Horno
   ladder: Escalera de mano
-  rail: Raíl
   cobblestone_stairs: Escaleras de roca
-  lever: Palanca
-  stone_pressure_plate: Placa de presión de piedra
-  oak_pressure_plate: Placa de presión de roble
-  spruce_pressure_plate: Placa de presión de abeto
-  birch_pressure_plate: Placa de presión de abedul
-  jungle_pressure_plate: Placa de presión de jungla
-  acacia_pressure_plate: Placa de presión de acacia
-  dark_oak_pressure_plate: Placa de presión de roble oscuro
-  crimson_pressure_plate: Placa de presión carmesí
-  warped_pressure_plate: Placa de presión distorsionada
-  polished_blackstone_pressure_plate: Placa de presión de piedra negra pulida
-  redstone_ore: Mena de redstone
-  redstone_torch: Antorcha de redstone
   snow: Capa de nieve
   ice: Hielo
   snow_block: Bloque de nieve
   cactus: Cactus
-  clay: Arcilla
+  clay: Bloque de arcilla
   jukebox: Tocadiscos
   oak_fence: Valla de roble
   spruce_fence: Valla de abeto
@@ -224,32 +273,31 @@ material:
   warped_fence: Valla distorsionada
   pumpkin: Calabaza
   carved_pumpkin: Calabaza tallada
+  jack_o_lantern: Calabaza de Halloween
   netherrack: Netherrack
   soul_sand: Arena de almas
   soul_soil: Tierra de almas
   basalt: Basalto
   polished_basalt: Basalto pulido
+  smooth_basalt: Basalto liso
   soul_torch: Antorcha de almas
   glowstone: Piedra luminosa
-  jack_o_lantern: Calabaza de Halloween
-  oak_trapdoor: Trampilla de roble
-  spruce_trapdoor: Trampilla de abeto
-  birch_trapdoor: Trampilla de abedul
-  jungle_trapdoor: Trampilla de jungla
-  acacia_trapdoor: Trampilla de acacia
-  dark_oak_trapdoor: Trampilla de roble oscuro
-  crimson_trapdoor: Trampilla de madera carmesí
-  warped_trapdoor: Trampilla distorsionada
   infested_stone: Piedra infestada
   infested_cobblestone: Roca infestada
   infested_stone_bricks: Ladrillos de piedra infestados
   infested_mossy_stone_bricks: Ladrillos de piedra musgosos infestados
   infested_cracked_stone_bricks: Ladrillos de piedra agrietados infestados
   infested_chiseled_stone_bricks: Ladrillos de piedra cincelados infestados
+  infested_deepslate: Pizarra profunda infestada
   stone_bricks: Ladrillos de piedra
   mossy_stone_bricks: Ladrillos de piedra musgosos
   cracked_stone_bricks: Ladrillos de piedra agrietados
   chiseled_stone_bricks: Ladrillos de piedra cincelados
+  deepslate_bricks: Ladrillos de pizarra profunda
+  cracked_deepslate_bricks: Ladrillos de pizarra profunda agrietados
+  deepslate_tiles: Baldosas de pizarra profunda
+  cracked_deepslate_tiles: Baldosas de pizarra profunda agrietadas
+  chiseled_deepslate: Pizarra profunda cincelada
   brown_mushroom_block: Bloque de champiñón marrón
   red_mushroom_block: Bloque de champiñón rojo
   mushroom_stem: Tallo de champiñón
@@ -258,14 +306,7 @@ material:
   glass_pane: Panel de cristal
   melon: Sandía
   vine: Enredadera
-  oak_fence_gate: Puerta de valla de roble
-  spruce_fence_gate: Puerta de valla de abeto
-  birch_fence_gate: Puerta de valla de abedul
-  jungle_fence_gate: Puerta de valla de jungla
-  acacia_fence_gate: Puerta de valla de acacia
-  dark_oak_fence_gate: Puerta de valla de roble oscuro
-  crimson_fence_gate: Puerta de valla de madera carmesí
-  warped_fence_gate: Puerta de valla distorsionada
+  glow_lichen: Liquen luminoso
   brick_stairs: Escaleras de ladrillos
   stone_brick_stairs: Escaleras de ladrillos de piedra
   mycelium: Micelio
@@ -280,16 +321,13 @@ material:
   end_stone: Piedra del End
   end_stone_bricks: Ladrillos de piedra del End
   dragon_egg: Huevo de dragón
-  redstone_lamp: Lámpara de redstone
   sandstone_stairs: Escaleras de arenisca
-  emerald_ore: Mena de esmeralda
   ender_chest: Cofre de ender
-  tripwire_hook: Gancho de cuerda
   emerald_block: Bloque de esmeralda
   spruce_stairs: Escaleras de abeto
   birch_stairs: Escaleras de abedul
   jungle_stairs: Escaleras de jungla
-  crimson_stairs: Escaleras de madera carmesí
+  crimson_stairs: Escaleras carmesí
   warped_stairs: Escaleras distorsionadas
   command_block: Bloque de comandos
   beacon: Faro
@@ -310,33 +348,18 @@ material:
   blackstone_wall: Muro de piedra negra
   polished_blackstone_wall: Muro de piedra negra pulida
   polished_blackstone_brick_wall: Muro de ladrillos de piedra negra pulida
-  stone_button: Botón de piedra
-  oak_button: Botón de roble
-  spruce_button: Botón de abeto
-  birch_button: Botón de abedul
-  jungle_button: Botón de jungla
-  acacia_button: Botón de acacia
-  dark_oak_button: Botón de roble oscuro
-  crimson_button: Botón de madera carmesí
-  warped_button: Botón distorsionado
-  polished_blackstone_button: Botón de piedra negra pulida
+  cobbled_deepslate_wall: Muro de pizarra profunda rocosa
+  polished_deepslate_wall: Muro de pizarra profunda pulida
+  deepslate_brick_wall: Muro de ladrillos de pizarra profunda
+  deepslate_tile_wall: Muro de baldosas de pizarra profunda
   anvil: Yunque
   chipped_anvil: Yunque dañado
   damaged_anvil: Yunque muy dañado
-  trapped_chest: Cofre trampa
-  light_weighted_pressure_plate: Placa de presión para peso ligero
-  heavy_weighted_pressure_plate: Placa de presión para peso elevado
-  daylight_detector: Sensor de luz solar
-  redstone_block: Bloque de redstone
-  nether_quartz_ore: Mena de cuarzo del Nether
-  hopper: Tolva
   chiseled_quartz_block: Cuarzo cincelado
   quartz_block: Cuarzo
   quartz_bricks: Ladrillos de cuarzo
   quartz_pillar: Pilar de cuarzo
   quartz_stairs: Escaleras de cuarzo
-  activator_rail: Raíl activador
-  dropper: Soltador
   white_terracotta: Terracota blanca
   orange_terracotta: Terracota naranja
   magenta_terracotta: Terracota magenta
@@ -354,7 +377,7 @@ material:
   red_terracotta: Terracota roja
   black_terracotta: Terracota negra
   barrier: Barrera
-  iron_trapdoor: Trampilla de hierro
+  light: Luz
   hay_block: Bala de heno
   white_carpet: Alfombra blanca
   orange_carpet: Alfombra naranja
@@ -373,12 +396,10 @@ material:
   red_carpet: Alfombra roja
   black_carpet: Alfombra negra
   terracotta: Terracota
-  coal_block: Bloque de carbón
   packed_ice: Hielo compacto
   acacia_stairs: Escaleras de acacia
   dark_oak_stairs: Escaleras de roble oscuro
-  slime_block: Bloque de slime
-  grass_path: Camino de césped
+  dirt_path: Camino de tierra
   sunflower: Girasol
   lilac: Lila
   rose_bush: Rosal
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: Ladrillos del Nether rojos
   bone_block: Bloque de huesos
   structure_void: Vacío estructural
-  observer: Observador
   shulker_box: Caja de shulker
   white_shulker_box: Caja de shulker blanca
   orange_shulker_box: Caja de shulker naranja
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: Escaleras de ladrillos del Nether rojos
   polished_andesite_stairs: Escaleras de andesita pulida
   diorite_stairs: Escaleras de diorita
+  cobbled_deepslate_stairs: Escaleras de pizarra profunda rocosa
+  polished_deepslate_stairs: Escaleras de pizarra profunda pulida
+  deepslate_brick_stairs: Escaleras de ladrillos de pizarra profunda
+  deepslate_tile_stairs: Escaleras de baldosas de pizarra profunda
   polished_granite_slab: Losa de granito pulido
   smooth_red_sandstone_slab: Losa de arenisca roja lisa
   mossy_stone_brick_slab: Losa de ladrillos de piedra musgosos
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: Losa de ladrillos del Nether rojos
   polished_andesite_slab: Losa de andesita pulida
   diorite_slab: Losa de diorita
+  cobbled_deepslate_slab: Losa de pizarra profunda rocosa
+  polished_deepslate_slab: Losa de pizarra profunda pulida
+  deepslate_brick_slab: Losa de ladrillos de pizarra profunda
+  deepslate_tile_slab: Losa de baldosas de pizarra profunda
   scaffolding: Andamio
+  redstone: Polvo de redstone
+  redstone_torch: Antorcha de redstone
+  redstone_block: Bloque de redstone
+  repeater: Repetidor de redstone
+  comparator: Comparador de redstone
+  piston: Pistón
+  sticky_piston: Pistón pegajoso
+  slime_block: Bloque de slime
+  honey_block: Bloque de miel
+  observer: Observador
+  hopper: Tolva
+  dispenser: Dispensador
+  dropper: Soltador
+  lectern: Atril
+  target: Diana
+  lever: Palanca
+  lightning_rod: Pararrayos
+  daylight_detector: Sensor de luz solar
+  sculk_sensor: Sensor de sculk
+  tripwire_hook: Gancho de cuerda
+  trapped_chest: Cofre trampa
+  tnt: Dinamita
+  redstone_lamp: Lámpara de redstone
+  note_block: Bloque musical
+  stone_button: Botón de piedra
+  polished_blackstone_button: Botón de piedra negra pulida
+  oak_button: Botón de roble
+  spruce_button: Botón de abeto
+  birch_button: Botón de abedul
+  jungle_button: Botón de jungla
+  acacia_button: Botón de acacia
+  dark_oak_button: Botón de roble oscuro
+  crimson_button: Botón carmesí
+  warped_button: Botón distorsionado
+  stone_pressure_plate: Placa de presión de piedra
+  polished_blackstone_pressure_plate: Placa de presión de piedra negra pulida
+  light_weighted_pressure_plate: Placa de presión para peso ligero
+  heavy_weighted_pressure_plate: Placa de presión para peso elevado
+  oak_pressure_plate: Placa de presión de roble
+  spruce_pressure_plate: Placa de presión de abeto
+  birch_pressure_plate: Placa de presión de abedul
+  jungle_pressure_plate: Placa de presión de jungla
+  acacia_pressure_plate: Placa de presión de acacia
+  dark_oak_pressure_plate: Placa de presión de roble oscuro
+  crimson_pressure_plate: Placa de presión carmesí
+  warped_pressure_plate: Placa de presión distorsionada
   iron_door: Puerta de hierro
   oak_door: Puerta de roble
   spruce_door: Puerta de abeto
@@ -570,10 +644,44 @@ material:
   jungle_door: Puerta de jungla
   acacia_door: Puerta de acacia
   dark_oak_door: Puerta de roble oscuro
-  crimson_door: Puerta de madera carmesí
+  crimson_door: Puerta carmesí
   warped_door: Puerta distorsionada
-  repeater: Repetidor de redstone
-  comparator: Comparador de redstone
+  iron_trapdoor: Trampilla de hierro
+  oak_trapdoor: Trampilla de roble
+  spruce_trapdoor: Trampilla de abeto
+  birch_trapdoor: Trampilla de abedul
+  jungle_trapdoor: Trampilla de jungla
+  acacia_trapdoor: Trampilla de acacia
+  dark_oak_trapdoor: Trampilla de roble oscuro
+  crimson_trapdoor: Trampilla carmesí
+  warped_trapdoor: Trampilla distorsionada
+  oak_fence_gate: Puerta de valla de roble
+  spruce_fence_gate: Puerta de valla de abeto
+  birch_fence_gate: Puerta de valla de abedul
+  jungle_fence_gate: Puerta de valla de jungla
+  acacia_fence_gate: Puerta de valla de acacia
+  dark_oak_fence_gate: Puerta de valla de roble oscuro
+  crimson_fence_gate: Puerta de valla carmesí
+  warped_fence_gate: Puerta de valla distorsionada
+  powered_rail: Raíl propulsor
+  detector_rail: Raíl detector
+  rail: Raíl
+  activator_rail: Raíl activador
+  saddle: Montura
+  minecart: Vagoneta
+  chest_minecart: Vagoneta con cofre
+  furnace_minecart: Vagoneta con horno
+  tnt_minecart: Vagoneta con dinamita
+  hopper_minecart: Vagoneta con tolva
+  carrot_on_a_stick: Caña con zanahoria
+  warped_fungus_on_a_stick: Caña con hongo distorsionado
+  elytra: Élitros
+  oak_boat: Barca de roble
+  spruce_boat: Barca de abeto
+  birch_boat: Barca de abedul
+  jungle_boat: Barca de jungla
+  acacia_boat: Barca de acacia
+  dark_oak_boat: Barca de roble oscuro
   structure_block: Bloque estructural
   jigsaw: Bloque rompecabezas
   turtle_helmet: Caparazón de tortuga
@@ -585,7 +693,15 @@ material:
   coal: Carbón
   charcoal: Carbón vegetal
   diamond: Diamante
+  emerald: Esmeralda
+  lapis_lazuli: Lapislázuli
+  quartz: Cuarzo del Nether
+  amethyst_shard: Fragmento de amatista
+  raw_iron: Hierro en bruto
   iron_ingot: Lingote de hierro
+  raw_copper: Cobre en bruto
+  copper_ingot: Lingote de cobre
+  raw_gold: Oro en bruto
   gold_ingot: Lingote de oro
   netherite_ingot: Lingote de netherita
   netherite_scrap: Fragmentos de netherita
@@ -664,34 +780,32 @@ material:
   jungle_sign: Cartel de jungla
   acacia_sign: Cartel de acacia
   dark_oak_sign: Cartel de roble oscuro
-  crimson_sign: Cartel de madera carmesí
+  crimson_sign: Cartel carmesí
   warped_sign: Cartel distorsionado
   bucket: Cubo
   water_bucket: Cubo con agua
   lava_bucket: Cubo con lava
-  minecart: Vagoneta
-  saddle: Montura
-  redstone: Polvo de redstone
+  powder_snow_bucket: Cubo con nieve polvo
   snowball: Bola de nieve
-  oak_boat: Barca de roble
   leather: Cuero
   milk_bucket: Cubo con leche
   pufferfish_bucket: Cubo con pez globo
   salmon_bucket: Cubo con salmón
   cod_bucket: Cubo con bacalao
   tropical_fish_bucket: Cubo con pez tropical
+  axolotl_bucket: Cubo con ajolote
   brick: Ladrillo
   clay_ball: Bola de arcilla
   dried_kelp_block: Bloque de algas secas
   paper: Papel
   book: Libro
   slime_ball: Bola de slime
-  chest_minecart: Vagoneta con cofre
-  furnace_minecart: Vagoneta con horno
   egg: Huevo
   compass: Brújula
+  bundle: Saco
   fishing_rod: Caña de pescar
   clock: Reloj
+  spyglass: Catalejo
   glowstone_dust: Polvo de piedra luminosa
   cod: Bacalao crudo
   salmon: Salmón crudo
@@ -700,8 +814,8 @@ material:
   cooked_cod: Bacalao cocinado
   cooked_salmon: Salmón cocinado
   ink_sac: Saco de tinta
+  glow_ink_sac: Saco de tinta luminosa
   cocoa_beans: Semillas de cacao
-  lapis_lazuli: Lapislázuli
   white_dye: Tinte blanco
   orange_dye: Tinte naranja
   magenta_dye: Tinte magenta
@@ -765,6 +879,7 @@ material:
   cauldron: Caldero
   ender_eye: Ojo de ender
   glistering_melon_slice: Rodaja de sandía reluciente
+  axolotl_spawn_egg: Generar ajolote
   bat_spawn_egg: Generar murciélago
   bee_spawn_egg: Generar abeja
   blaze_spawn_egg: Generar blaze
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: Generar invocador
   fox_spawn_egg: Generar zorro
   ghast_spawn_egg: Generar ghast
+  glow_squid_spawn_egg: Generar calamar luminoso
+  goat_spawn_egg: Generar cabra
   guardian_spawn_egg: Generar guardián
   hoglin_spawn_egg: Generar hoglin
   horse_spawn_egg: Generar caballo
@@ -833,8 +950,8 @@ material:
   fire_charge: Carga ígnea
   writable_book: Libro y pluma
   written_book: Libro escrito
-  emerald: Esmeralda
   item_frame: Marco
+  glow_item_frame: Marco luminoso
   flower_pot: Maceta
   carrot: Zanahoria
   potato: Patata
@@ -848,17 +965,12 @@ material:
   zombie_head: Cabeza de zombi
   creeper_head: Cabeza de creeper
   dragon_head: Cabeza de dragón
-  carrot_on_a_stick: Caña con zanahoria
-  warped_fungus_on_a_stick: Caña con hongo distorsionado
   nether_star: Estrella del Nether
   pumpkin_pie: Tarta de calabaza
   firework_rocket: Cohete de fuegos artificiales
   firework_star: Estrella de fuegos artificiales
   enchanted_book: Libro encantado
   nether_brick: Ladrillo del Nether
-  quartz: Cuarzo del Nether
-  tnt_minecart: Vagoneta con dinamita
-  hopper_minecart: Vagoneta con tolva
   prismarine_shard: Fragmento de prismarina
   prismarine_crystals: Cristales de prismarina
   rabbit: Conejo crudo
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: Flecha con efecto
   lingering_potion: Poción persistente
   shield: Escudo
-  elytra: Élitros
-  spruce_boat: Barca de abeto
-  birch_boat: Barca de abedul
-  jungle_boat: Barca de jungla
-  acacia_boat: Barca de acacia
-  dark_oak_boat: Barca de roble oscuro
   totem_of_undying: Tótem de inmortalidad
   shulker_shell: Caparazón de shulker
   iron_nugget: Pepita de hierro
@@ -939,7 +1045,7 @@ material:
   creeper_banner_pattern: Diseño de estandarte
   skull_banner_pattern: Diseño de estandarte
   mojang_banner_pattern: Diseño de estandarte
-  globe_banner_pattern: Estandarte con diseño de planeta
+  globe_banner_pattern: Diseño de estandarte
   piglin_banner_pattern: Diseño de estandarte
   composter: Compostador
   barrel: Barril
@@ -948,13 +1054,13 @@ material:
   cartography_table: Mesa de cartografía
   fletching_table: Mesa de flechas
   grindstone: Afiladora
-  lectern: Atril
   smithing_table: Mesa de herrería
   stonecutter: Cortapiedras
   bell: Campana
   lantern: Farol
   soul_lantern: Farol de almas
   sweet_berries: Bayas dulces
+  glow_berries: Bayas luminosas
   campfire: Hoguera
   soul_campfire: Hoguera de almas
   shroomlight: Brillongo
@@ -962,12 +1068,8 @@ material:
   bee_nest: Colmena
   beehive: Apiario
   honey_bottle: Frasco con miel
-  honey_block: Bloque de miel
   honeycomb_block: Bloque de panal
   lodestone: Magnetita
-  netherite_block: Bloque de netherita
-  ancient_debris: Escombros ancestrales
-  target: Diana
   crying_obsidian: Obsidiana llorosa
   blackstone: Piedra negra
   blackstone_slab: Losa de piedra negra
@@ -982,6 +1084,28 @@ material:
   polished_blackstone_brick_stairs: Escaleras de ladrillos de piedra negra pulida
   cracked_polished_blackstone_bricks: Ladrillos de piedra negra pulida agrietados
   respawn_anchor: Nexo de reaparición
+  candle: Vela
+  white_candle: Vela blanca
+  orange_candle: Vela naranja
+  magenta_candle: Vela magenta
+  light_blue_candle: Vela azul claro
+  yellow_candle: Vela amarilla
+  lime_candle: Vela verde lima
+  pink_candle: Vela rosa
+  gray_candle: Vela gris
+  light_gray_candle: Vela gris claro
+  cyan_candle: Vela cian
+  purple_candle: Vela morada
+  blue_candle: Vela azul
+  brown_candle: Vela marrón
+  green_candle: Vela verde
+  red_candle: Vela roja
+  black_candle: Vela negra
+  small_amethyst_bud: Brote de amatista pequeño
+  medium_amethyst_bud: Brote de amatista mediano
+  large_amethyst_bud: Brote de amatista grande
+  amethyst_cluster: Cúmulo de amatista
+  pointed_dripstone: Espeleotema puntiagudo
   water: Agua
   lava: Lava
   tall_seagrass: Hierba marina alta
@@ -1004,7 +1128,10 @@ material:
   attached_melon_stem: Tallo de sandía unido
   pumpkin_stem: Tallo de calabaza
   melon_stem: Tallo de sandía
-  end_portal: Marco del portal del End
+  water_cauldron: Caldero con agua
+  lava_cauldron: Caldero con lava
+  powder_snow_cauldron: Caldero con nieve polvo
+  end_portal: Portal del End
   cocoa: Cacao
   tripwire: Hilo trampa
   potted_oak_sapling: Maceta con brote de roble
@@ -1057,8 +1184,8 @@ material:
   black_wall_banner: Estandarte negro
   beetroots: Remolachas
   end_gateway: Acceso al End
-  frosted_ice: Escarcha
-  kelp_plant: Tallo de alga
+  frosted_ice: Hielo escarchado
+  kelp_plant: Planta de alga
   dead_tube_coral_wall_fan: Gorgonia de tubo muerta en pared
   dead_brain_coral_wall_fan: Gorgonia de cerebro muerta en pared
   dead_bubble_coral_wall_fan: Gorgonia de burbuja muerta en pared
@@ -1075,14 +1202,38 @@ material:
   cave_air: Aire de cueva
   bubble_column: Columna de burbujas
   sweet_berry_bush: Arbusto de bayas dulces
-  weeping_vines_plant: Enredaderas lacrimosas
-  twisting_vines_plant: Enredaderas retorcidas
-  crimson_wall_sign: Cartel de madera carmesí en pared
+  weeping_vines_plant: Planta de enredaderas lacrimosas
+  twisting_vines_plant: Planta de enredaderas retorcidas
+  crimson_wall_sign: Cartel carmesí en pared
   warped_wall_sign: Cartel distorsionado en pared
   potted_crimson_fungus: Maceta con hongo carmesí
   potted_warped_fungus: Maceta con hongo distorsionado
   potted_crimson_roots: Maceta con raíces carmesí
   potted_warped_roots: Maceta con raíces distorsionadas
+  candle_cake: Tarta con vela
+  white_candle_cake: Tarta con vela blanca
+  orange_candle_cake: Tarta con vela naranja
+  magenta_candle_cake: Tarta con vela magenta
+  light_blue_candle_cake: Tarta con vela azul claro
+  yellow_candle_cake: Tarta con vela amarilla
+  lime_candle_cake: Tarta con vela verde lima
+  pink_candle_cake: Tarta con vela rosa
+  gray_candle_cake: Tarta con vela gris
+  light_gray_candle_cake: Tarta con vela gris claro
+  cyan_candle_cake: Tarta con vela cian
+  purple_candle_cake: Tarta con vela morada
+  blue_candle_cake: Tarta con vela azul
+  brown_candle_cake: Tarta con vela marrón
+  green_candle_cake: Tarta con vela verde
+  red_candle_cake: Tarta con vela roja
+  black_candle_cake: Tarta con vela negra
+  powder_snow: Nieve polvo
+  cave_vines: Enredaderas de cueva
+  cave_vines_plant: Planta de enredaderas de cueva
+  big_dripleaf_stem: Tallo de plantaforma grande
+  potted_azalea_bush: Maceta con azalea
+  potted_flowering_azalea_bush: Maceta con azalea florecida
+  grass_path: Camino de césped
   zombie_pigman_spawn_egg: Generar hombrecerdo zombi
   cactus_green: Tinte verde
   dandelion_yellow: Tinte amarillo
@@ -1169,46 +1320,48 @@ biome:
   crimson_forest: Bosque carmesí
   warped_forest: Bosque distorsionado
   basalt_deltas: Deltas de basalto
+  dripstone_caves: Cuevas kársticas
+  lush_caves: Cuevas frondosas
   nether: El Nether
 enchantment:
-  fire_protection: Protección contra el fuego
-  sharpness: Filo
-  flame: Fuego
-  soul_speed: Velocidad del alma
-  aqua_affinity: Afinidad acuática
-  punch: Retroceso
-  loyalty: Lealtad
-  depth_strider: Agilidad acuática
-  vanishing_curse: Maldición de desaparición
-  unbreaking: Irrompibilidad
-  knockback: Empuje
-  luck_of_the_sea: Suerte marina
-  binding_curse: Maldición de ligamiento
-  fortune: Fortuna
   protection: Protección
-  efficiency: Eficiencia
-  mending: Reparación
-  frost_walker: Paso helado
-  lure: Atracción
-  looting: Botín
-  piercing: Perforación
-  blast_protection: Protección contra explosiones
-  smite: Golpeo
-  multishot: Multidisparo
-  fire_aspect: Aspecto ígneo
-  channeling: Conductividad
-  sweeping: Filo arrasador
-  thorns: Espinas
-  bane_of_arthropods: Perdición de los artrópodos
-  respiration: Respiración
-  riptide: Propulsión acuática
-  silk_touch: Toque de seda
-  quick_charge: Carga rápida
-  projectile_protection: Protección contra proyectiles
-  impaling: Empalamiento
+  fire_protection: Protección contra el fuego
   feather_falling: Caída de pluma
+  blast_protection: Protección contra explosiones
+  projectile_protection: Protección contra proyectiles
+  respiration: Respiración
+  aqua_affinity: Afinidad acuática
+  thorns: Espinas
+  depth_strider: Agilidad acuática
+  frost_walker: Paso helado
+  binding_curse: Maldición de ligamiento
+  sharpness: Filo
+  smite: Golpeo
+  bane_of_arthropods: Perdición de los artrópodos
+  knockback: Empuje
+  fire_aspect: Aspecto ígneo
+  looting: Botín
+  sweeping: Barrido
+  efficiency: Eficiencia
+  silk_touch: Toque de seda
+  unbreaking: Irrompibilidad
+  fortune: Fortuna
   power: Poder
+  punch: Retroceso
+  flame: Fuego
   infinity: Infinidad
+  luck_of_the_sea: Suerte marina
+  lure: Atracción
+  loyalty: Lealtad
+  impaling: Empalamiento
+  riptide: Propulsión acuática
+  channeling: Conductividad
+  multishot: Multidisparo
+  quick_charge: Carga rápida
+  piercing: Perforación
+  mending: Reparación
+  vanishing_curse: Maldición de desaparición
+  soul_speed: Velocidad del alma
 potion:
   uncraftable: Poción no fabricable
   water: Frasco con agua
@@ -1403,6 +1556,11 @@ entity:
   strider: Lavagante
   zoglin: Zoglin
   piglin_brute: Piglin bruto
+  axolotl: Ajolote
+  glow_item_frame: Marco luminoso
+  glow_squid: Calamar luminoso
+  goat: Cabra
+  marker: Marcador
   fishing_hook: Anzuelo
   lightning: Rayo
   player: Jugador
@@ -2111,22 +2269,22 @@ banner_pattern:
   '2424845': Estampado verde de flor
   '2424846': Estampado rojo de flor
   '2424847': Estampado negro de flor
-  '2490368': Estampado blanco de Mojang
-  '2490369': Estampado naranja de Mojang
-  '2490370': Estampado magenta de Mojang
-  '2490371': Estampado azul claro de Mojang
-  '2490372': Estampado amarillo de Mojang
-  '2490373': Estampado verde lima de Mojang
-  '2490374': Estampado rosa de Mojang
-  '2490375': Estampado gris de Mojang
-  '2490376': Estampado gris claro de Mojang
-  '2490377': Estampado cian de Mojang
-  '2490378': Estampado morado de Mojang
-  '2490379': Estampado azul de Mojang
-  '2490380': Estampado marrón de Mojang
-  '2490381': Estampado verde de Mojang
-  '2490382': Estampado rojo de Mojang
-  '2490383': Estampado negro de Mojang
+  '2490368': Cosa blanca
+  '2490369': Cosa naranja
+  '2490370': Cosa magenta
+  '2490371': Cosa azul claro
+  '2490372': Cosa amarilla
+  '2490373': Cosa verde lima
+  '2490374': Cosa rosa
+  '2490375': Cosa gris
+  '2490376': Cosa gris claro
+  '2490377': Cosa cian
+  '2490378': Cosa morada
+  '2490379': Cosa azul
+  '2490380': Cosa marrón
+  '2490381': Cosa verde
+  '2490382': Cosa roja
+  '2490383': Cosa negra
   '2555904': Planeta blanco
   '2555905': Planeta naranja
   '2555906': Planeta magenta
@@ -2179,7 +2337,7 @@ new_banner_pattern:
   skull_banner_pattern: Estampado de calavera
   mojang_banner_pattern: Estampado de Mojang
   globe_banner_pattern: Estampado de planeta
-  piglin_banner_pattern: Hocico
+  piglin_banner_pattern: Estampado de hocico
 merchant_level:
   '1': Novato
   '2': Aprendiz
@@ -2202,17 +2360,3 @@ villager_profession:
   shepherd: Pastor
   toolsmith: Herrero de herramientas
   weaponsmith: Herrero de armas
-villager_career:
-  farmer: Granjero
-  fisherman: Pescador
-  shepherd: Pastor
-  fletcher: Flechador
-  librarian: Bibliotecario
-  cartographer: Cartógrafo
-  cleric: Sacerdote
-  armorer: Herrero de armaduras
-  weapon_smith: Herrero de armas
-  tool_smith: Herrero de herramientas
-  butcher: Carnicero
-  leatherworker: Peletero
-  nitwit: Simplón

@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:48                    #
+# Build time: 2021-07-04 21:46:03                    #
 # ####################################################
 language:
   code: jbo_en
@@ -39,10 +39,21 @@ material:
   sand: canre
   red_sand: xunre canre
   gravel: rokci canre
-  gold_ore: solji kunra
-  iron_ore: tirse kunra
   coal_ore: kolme kunra
+  iron_ore: tirse kunra
+  gold_ore: solji kunra
+  redstone_ore: me la redston. kunra
+  emerald_ore: ri'ojme kunra
+  lapis_ore: blaro'i kunra
+  diamond_ore: tabjme kunra
   nether_gold_ore: me la .ne'er. solji kunra
+  nether_quartz_ore: krilrne'eri kunra
+  ancient_debris: tcepru spisa
+  coal_block: kolme bliku
+  iron_block: tirse bliku
+  gold_block: solji bliku
+  diamond_block: tabjme bliku
+  netherite_block: dzimujyjinme bliku
   oak_log: cindu stani
   spruce_log: konku'u stani
   birch_log: .eptula stani
@@ -84,23 +95,15 @@ material:
   sponge: panje
   wet_sponge: cilmo panje
   glass: blaci
-  lapis_ore: blaro'i kunra
-  lapis_block: blaro'i bliku
-  dispenser: dudzmi
   sandstone: canre rokci
   chiseled_sandstone: se rakpra ke canre rokci
   cut_sandstone: selka'a canrokci
-  note_block: tonga bliku
-  powered_rail: dikca teltrene
-  detector_rail: ganse teltrene
-  sticky_piston: stali ca'erslanu
   cobweb: jukyzda
   grass: srasu
   fern: filcina
   dead_bush: morsi demspa
   seagrass: xasni'asrasu
   sea_pickle: xasyjirstagi
-  piston: ca'erslanu
   white_wool: blabi sunla
   orange_wool: narju sunla
   magenta_wool: nukni sunla
@@ -140,8 +143,6 @@ material:
   sugar_cane: sakta stani
   kelp: vraike
   bamboo: bambu
-  gold_block: solji bliku
-  iron_block: tirse bliku
   oak_slab: cindu xabybli
   spruce_slab: kondu'u xabybli
   birch_slab: .eptula xabybli
@@ -169,7 +170,6 @@ material:
   smooth_sandstone: xutla ke canre rokci
   smooth_stone: xutla rokci
   bricks: kitybli
-  tnt: jbama
   bookshelf: cukta kajna
   mossy_cobblestone: clika spirokci
   obsidian: xekyblaci
@@ -183,27 +183,11 @@ material:
   spawner: bradi mockra
   oak_stairs: cindu serti
   chest: vasru
-  diamond_ore: tabjme kunra
-  diamond_block: tabjme bliku
   crafting_table: zbasu jubme
   farmland: selcange
   furnace: zbasu toknu
   ladder: rajyserti
-  rail: teltrene
   cobblestone_stairs: spirokci serti
-  lever: vraga
-  stone_pressure_plate: rokci loldi batke
-  oak_pressure_plate: cindu lolbatke
-  spruce_pressure_plate: kondu'u lolbatke
-  birch_pressure_plate: .eptula lolbatke
-  jungle_pressure_plate: cicricfoi lolbatke
-  acacia_pressure_plate: .atkaciia lolbatke
-  dark_oak_pressure_plate: mancindu lolbatke
-  crimson_pressure_plate: zirxu'e danrytapla
-  warped_pressure_plate: cizra danrytapla
-  polished_blackstone_pressure_plate: selspali xekro'i danrytapla
-  redstone_ore: me la redston. kunra
-  redstone_torch: me la redston. fagytergu'i
   snow: snime
   ice: bisli
   snow_block: snime bliku
@@ -220,6 +204,7 @@ material:
   warped_fence: cizra garbi'u
   pumpkin: guzmrkukurbita
   carved_pumpkin: selsraku guzmrkukurbita
+  jack_o_lantern: selte'a guzmrkukurbita
   netherrack: me la neterak.
   soul_sand: ruxse'i canre
   soul_soil: pruxi dertu
@@ -227,15 +212,6 @@ material:
   polished_basalt: se spali kamjyro'i
   soul_torch: pruxi fagytergu'i
   glowstone: carmyro'i
-  jack_o_lantern: selte'a guzmrkukurbita
-  oak_trapdoor: cindu lolvrogai
-  spruce_trapdoor: kondu'u lolvrogai
-  birch_trapdoor: .eptula lolvrogai
-  jungle_trapdoor: cicricfoi lolvrogai
-  acacia_trapdoor: .atkaciia lolvrogai
-  dark_oak_trapdoor: mancindu lolvrogai
-  crimson_trapdoor: zirxu'e lolvrogai
-  warped_trapdoor: cizra lolvrogai
   infested_stone: cinki rokci
   infested_cobblestone: spirocki se infeste
   infested_stone_bricks: cinki ke rokci kitybli
@@ -254,14 +230,6 @@ material:
   glass_pane: canko blaci
   melon: guzme
   vine: skospa
-  oak_fence_gate: cindu garbi'u lojvro
-  spruce_fence_gate: konku'u garbi'u lojvro
-  birch_fence_gate: .eptula garbi'u lojvro
-  jungle_fence_gate: cicricfoi garbi'u lojvro
-  acacia_fence_gate: atkaciia garbi'u lojvro
-  dark_oak_fence_gate: mancindu garbi'u lojvro
-  crimson_fence_gate: zirxu'e ke garbi'u vrogai
-  warped_fence_gate: cizra ke garbi'u vrogai
   brick_stairs: kitybli serti
   stone_brick_stairs: rokci serti
   mycelium: mledi
@@ -276,11 +244,8 @@ material:
   end_stone: .endre rokci
   end_stone_bricks: .endre ke rokci bliku
   dragon_egg: drakono sovda
-  redstone_lamp: me la redston. tergu'i
   sandstone_stairs: canre rokci serti
-  emerald_ore: ri'ojme kunra
   ender_chest: .endre vasru
-  tripwire_hook: terkavbu genxu
   emerald_block: ri'ojme bliku
   spruce_stairs: konku'u serti
   birch_stairs: .eptula serti
@@ -305,30 +270,14 @@ material:
   blackstone_wall: xekro'i bitmu
   polished_blackstone_wall: selspali xekro'i bitmu
   polished_blackstone_brick_wall: selspali xekro'i kubli bitmu
-  stone_button: rokci batke
-  oak_button: cindu batke
-  spruce_button: kondu'u batke
-  birch_button: .eptula batke
-  jungle_button: cicricfoi batke
-  acacia_button: .atkaciia batke
-  dark_oak_button: mancindu batke
-  crimson_button: zirxu'e batke
-  warped_button: cizra batke
-  polished_blackstone_button: selspali xekro'i batke
   anvil: jimda'izbe
   chipped_anvil: selxai toltce jimda'izbe
   damaged_anvil: selxai jimda'izbe
-  trapped_chest: terkavbu vasru
-  redstone_block: me la redston. bliku
-  nether_quartz_ore: krilrne'eri kunra
-  hopper: se'arko'u
   chiseled_quartz_block: se rakpra ke krili bliku
   quartz_block: krili bliku
   quartz_bricks: krilrkartso kubli bliku
   quartz_pillar: kamju krilrkartso
   quartz_stairs: krili serti
-  activator_rail: actigau garna
-  dropper: falcru
   white_terracotta: blabi stakrterakota
   orange_terracotta: narju stakrterakota
   magenta_terracotta: nukni stakrterakota
@@ -346,7 +295,6 @@ material:
   red_terracotta: xunre stakrterakota
   black_terracotta: xekri stakrterakota
   barrier: zunbi'u
-  iron_trapdoor: tirse lolvrogai
   hay_block: sudysrasu bakfu
   white_carpet: blabi buklolgai
   orange_carpet: narju buklolgai
@@ -365,12 +313,9 @@ material:
   red_carpet: xunre buklolgai
   black_carpet: xekri buklolgai
   terracotta: stakrterakota
-  coal_block: kolme bliku
   packed_ice: demri'a bisli
   acacia_stairs: atkaciia serti
   dark_oak_stairs: mancindu serti
-  slime_block: rigdulda'u bliku
-  grass_path: saslu'a
   sunflower: solspa
   lilac: tricrsiringa
   rose_bush: dzitricu rozgu
@@ -426,7 +371,6 @@ material:
   warped_wart_block: cizra malspa bliku
   red_nether_bricks: la me neter.kitybli co xunre
   bone_block: bongu bliku
-  observer: zgagau
   shulker_box: tanxe pe la cylkr.
   white_shulker_box: blabi tanxe pe la cylkr.
   orange_shulker_box: narju tanxe pe la cylkr.
@@ -532,6 +476,47 @@ material:
   polished_andesite_slab: se spali rokcrande'i xabybli
   diorite_slab: rokcrdi'ori xabybli
   scaffolding: tsina
+  redstone: me la redston. pulce
+  redstone_torch: me la redston. fagytergu'i
+  redstone_block: me la redston. bliku
+  repeater: me la redston. bejrapli
+  comparator: me la redston. karbi
+  piston: ca'erslanu
+  sticky_piston: stali ca'erslanu
+  slime_block: rigdulda'u bliku
+  honey_block: melmi bliku
+  observer: zgagau
+  hopper: se'arko'u
+  dispenser: dudzmi
+  dropper: falcru
+  lectern: nunctuta'a jubme
+  target: teryre'o
+  lever: vraga
+  tripwire_hook: terkavbu genxu
+  trapped_chest: terkavbu vasru
+  tnt: jbama
+  redstone_lamp: me la redston. tergu'i
+  note_block: tonga bliku
+  stone_button: rokci batke
+  polished_blackstone_button: selspali xekro'i batke
+  oak_button: cindu batke
+  spruce_button: kondu'u batke
+  birch_button: .eptula batke
+  jungle_button: cicricfoi batke
+  acacia_button: .atkaciia batke
+  dark_oak_button: mancindu batke
+  crimson_button: zirxu'e batke
+  warped_button: cizra batke
+  stone_pressure_plate: rokci loldi batke
+  polished_blackstone_pressure_plate: selspali xekro'i danrytapla
+  oak_pressure_plate: cindu lolbatke
+  spruce_pressure_plate: kondu'u lolbatke
+  birch_pressure_plate: .eptula lolbatke
+  jungle_pressure_plate: cicricfoi lolbatke
+  acacia_pressure_plate: .atkaciia lolbatke
+  dark_oak_pressure_plate: mancindu lolbatke
+  crimson_pressure_plate: zirxu'e danrytapla
+  warped_pressure_plate: cizra danrytapla
   iron_door: tirse vrogai
   oak_door: cindu vrogai
   spruce_door: konku'u vrogai
@@ -541,8 +526,42 @@ material:
   dark_oak_door: mancindu vrogai
   crimson_door: zirxu'e vrogai
   warped_door: cizra vrogai
-  repeater: me la redston. bejrapli
-  comparator: me la redston. karbi
+  iron_trapdoor: tirse lolvrogai
+  oak_trapdoor: cindu lolvrogai
+  spruce_trapdoor: kondu'u lolvrogai
+  birch_trapdoor: .eptula lolvrogai
+  jungle_trapdoor: cicricfoi lolvrogai
+  acacia_trapdoor: .atkaciia lolvrogai
+  dark_oak_trapdoor: mancindu lolvrogai
+  crimson_trapdoor: zirxu'e lolvrogai
+  warped_trapdoor: cizra lolvrogai
+  oak_fence_gate: cindu garbi'u lojvro
+  spruce_fence_gate: konku'u garbi'u lojvro
+  birch_fence_gate: .eptula garbi'u lojvro
+  jungle_fence_gate: cicricfoi garbi'u lojvro
+  acacia_fence_gate: atkaciia garbi'u lojvro
+  dark_oak_fence_gate: mancindu garbi'u lojvro
+  crimson_fence_gate: zirxu'e ke garbi'u vrogai
+  warped_fence_gate: cizra ke garbi'u vrogai
+  powered_rail: dikca teltrene
+  detector_rail: ganse teltrene
+  rail: teltrene
+  activator_rail: actigau garna
+  saddle: danlu seltse
+  minecart: baktu trene
+  chest_minecart: baktu trene joi vasru
+  furnace_minecart: baktu trene joi zbasu toknu
+  tnt_minecart: baktu trene joi jbama
+  hopper_minecart: baktu trene joi se'arko'u
+  carrot_on_a_stick: najgenja co jorne be lo grana
+  warped_fungus_on_a_stick: cizra bo gumri joi grana
+  elytra: na'irnelitrono
+  oak_boat: cindu bloti
+  spruce_boat: konku'u bloti
+  birch_boat: .eptula bloti
+  jungle_boat: cicricfoi bloti
+  acacia_boat: atkaciia bloti
+  dark_oak_boat: mancindu bloti
   structure_block: dinju bliku
   jigsaw: stura kruca bliku
   turtle_helmet: cakrespa calku
@@ -554,6 +573,9 @@ material:
   coal: kolme
   charcoal: fagytabno
   diamond: tabjme
+  emerald: ri'ojme
+  lapis_lazuli: blaro'i
+  quartz: krilrne'eri
   iron_ingot: tirse tanbo
   gold_ingot: solji tanbo
   netherite_ingot: dzimujyjinme kubli
@@ -638,11 +660,7 @@ material:
   bucket: baktu
   water_bucket: djacu baktu
   lava_bucket: likro'i baktu
-  minecart: baktu trene
-  saddle: danlu seltse
-  redstone: me la redston. pulce
   snowball: snime bolci
-  oak_boat: cindu bloti
   leather: bakskapi
   milk_bucket: ladru baktu
   pufferfish_bucket: fiprtetraudontidi baktu
@@ -655,8 +673,6 @@ material:
   paper: pelji
   book: cukta
   slime_ball: rigyjdu
-  chest_minecart: baktu trene joi vasru
-  furnace_minecart: baktu trene joi zbasu toknu
   egg: sovda
   compass: makfartci
   fishing_rod: fipkalte grana
@@ -670,7 +686,6 @@ material:
   cooked_salmon: seljukpa salmone
   ink_sac: xinmo dakli
   cocoa_beans: cakla dembi
-  lapis_lazuli: blaro'i
   white_dye: blabi xinmo
   orange_dye: narju xinmo
   magenta_dye: nukni xinmo
@@ -800,7 +815,6 @@ material:
   fire_charge: mafselfagri
   writable_book: penbi joi cukta
   written_book: fanmo cukta
-  emerald: ri'ojme
   item_frame: ja'ordai greku
   flower_pot: patxu xrula
   carrot: najgenja
@@ -815,17 +829,12 @@ material:
   zombie_head: mivymro stedu
   creeper_head: stedu be la .kripr.
   dragon_head: lo stedu be lo drakono
-  carrot_on_a_stick: najgenja co jorne be lo grana
-  warped_fungus_on_a_stick: cizra bo gumri joi grana
   nether_star: la me neter. tarci
   pumpkin_pie: guzmrkukurbita nabypalne
   firework_rocket: mlefagri jakne
   firework_star: spoja tarmi fa
   enchanted_book: mafcku
   nether_brick: la me neter. kitybli
-  quartz: krilrne'eri
-  tnt_minecart: baktu trene joi jbama
-  hopper_minecart: baktu trene joi se'arko'u
   prismarine_shard: selpo'i me la prismarin.
   rabbit: nalseljukpa ractu
   cooked_rabbit: seljukpa ractu
@@ -869,12 +878,6 @@ material:
   tipped_arrow: makfa calga'a
   lingering_potion: mafsodva mau'ufri
   shield: badgai
-  elytra: na'irnelitrono
-  spruce_boat: konku'u bloti
-  birch_boat: .eptula bloti
-  jungle_boat: cicricfoi bloti
-  acacia_boat: atkaciia bloti
-  dark_oak_boat: mancindu bloti
   totem_of_undying: nalmro nindode
   shulker_shell: calku pe la cylkr.
   iron_nugget: tirse spisa
@@ -912,7 +915,6 @@ material:
   cartography_table: catplajbu
   fletching_table: celga'azbajbu
   grindstone: zalxi'u
-  lectern: nunctuta'a jubme
   smithing_table: tcizbajbu
   stonecutter: rokyka'armi'i
   bell: janbe
@@ -926,12 +928,8 @@ material:
   bee_nest: bicyzda
   beehive: rutni bicyzda
   honey_bottle: melmybo'i
-  honey_block: melmi bliku
   honeycomb_block: biclakse bliku
   lodestone: maksi
-  netherite_block: dzimujyjinme bliku
-  ancient_debris: tcepru spisa
-  target: teryre'o
   crying_obsidian: klaku xekyblaci
   blackstone: xekro'i
   blackstone_slab: xekro'i xabybli
@@ -1038,6 +1036,8 @@ material:
   potted_warped_fungus: kabri joi ke cizra gumri
   potted_crimson_roots: kabri joi ke zirxu'e genja
   potted_warped_roots: kabri joi ke cizra genja
+  lapis_block: blaro'i bliku
+  grass_path: saslu'a
   zombie_pigman_spawn_egg: mivymro xajre'a jbeso'a
   cactus_green: jesyspa
   dandelion_yellow: tarksako
@@ -1081,44 +1081,44 @@ biome:
   basalt_deltas: fagma'a tumla
   nether: neter
 enchantment:
-  fire_protection: fagri bandu
-  sharpness: kinli
-  flame: fagri
-  soul_speed: ruxse'i sutli'u
-  aqua_affinity: djacu klina
-  punch: darxi
-  loyalty: nu kraice
-  depth_strider: sutra
-  vanishing_curse: nuncanci dapma
-  unbreaking: jdari
-  knockback: catke
-  luck_of_the_sea: xamsi funca
-  binding_curse: nalmu'u dapma
-  fortune: zabna
   protection: bandu
-  efficiency: sutygu'a
-  mending: lo nu cikre
-  frost_walker: bislunsa cadzu
-  lure: trisku
-  looting: crepu
-  piercing: greke'a selri'a
-  blast_protection: spoja bandu
-  smite: censa darxi
-  multishot: za'umei cecla
-  fire_aspect: fagri
-  channeling: lindi klacpe
-  sweeping: brulu'i korbi
-  thorns: jesni
-  bane_of_arthropods: jukni daspo
-  respiration: vasxu
-  riptide: sutfle
-  silk_touch: milxe pencu
-  quick_charge: sutra ke skogarce'a bredi
-  projectile_protection: danti bandu
-  impaling: gregunta
+  fire_protection: fagri bandu
   feather_falling: farlu jabre
+  blast_protection: spoja bandu
+  projectile_protection: danti bandu
+  respiration: vasxu
+  aqua_affinity: djacu klina
+  thorns: jesni
+  depth_strider: sutra
+  frost_walker: bislunsa cadzu
+  binding_curse: nalmu'u dapma
+  sharpness: kinli
+  smite: censa darxi
+  bane_of_arthropods: jukni daspo
+  knockback: catke
+  fire_aspect: fagri
+  looting: crepu
+  sweeping: brulu'i korbi
+  efficiency: sutygu'a
+  silk_touch: milxe pencu
+  unbreaking: jdari
+  fortune: zabna
   power: tsali
+  punch: darxi
+  flame: fagri
   infinity: cimni
+  luck_of_the_sea: xamsi funca
+  lure: trisku
+  loyalty: nu kraice
+  impaling: gregunta
+  riptide: sutfle
+  channeling: lindi klacpe
+  multishot: za'umei cecla
+  quick_charge: sutra ke skogarce'a bredi
+  piercing: greke'a selri'a
+  mending: lo nu cikre
+  vanishing_curse: nuncanci dapma
+  soul_speed: ruxse'i sutli'u
 potion:
   uncraftable: nalzbaka'e mafsodva
   water: djacu botpi
@@ -1926,17 +1926,3 @@ villager_profession:
   shepherd: lankurji
   toolsmith: tutci zbasu prenu
   weaponsmith: xarci zbasu prenu
-villager_career:
-  farmer: cagypre
-  fisherman: fipkalte
-  shepherd: lankurji
-  fletcher: celga'a zbapre
-  librarian: ckuzdacre
-  cartographer: catyzba
-  cleric: jdaca'i
-  armorer: dabycalku zbapre
-  weapon_smith: xarci zbapre
-  tool_smith: tutci zbapre
-  butcher: bakcatra
-  leatherworker: skapi zbapre
-  nitwit: tolmencre

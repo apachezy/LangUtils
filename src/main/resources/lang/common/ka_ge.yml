@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:48                    #
+# Build time: 2021-07-04 21:46:03                    #
 # ####################################################
 language:
   code: ka_ge
@@ -14,6 +14,10 @@ material:
   polished_diorite: გაპრიალებული დიორიტი
   andesite: ანდეზიტი
   polished_andesite: გაპრიალებული ანდეზიტი
+  deepslate: ღრმა ფენა
+  calcite: კალციტი
+  tuff: ტუფი
+  dripstone_block: დრიპსტოუნის ბლოკი
   grass_block: ბალახის ბლოკი
   dirt: მიწა
   coarse_dirt: გამომშრალი მიწა
@@ -39,10 +43,45 @@ material:
   sand: ქვიშა
   red_sand: წითელი ქვიშა
   gravel: ხრეში
-  gold_ore: ოქროს მადანი
-  iron_ore: რკინის მადანი
   coal_ore: ქვანახშირის მადანი
+  iron_ore: რკინის მადანი
+  deepslate_iron_ore: ღრმა ფენის რკინის საბადო
+  copper_ore: Სპილენძის საბადო
+  deepslate_copper_ore: Deepslate სპილენძის საბადო
+  gold_ore: ოქროს მადანი
+  redstone_ore: რედსტოუნის მადანი
+  deepslate_redstone_ore: ღრმა ფენის წითელი ქვის საბადო
+  emerald_ore: ზურმუხტის მადანი
+  lapis_ore: ლილაქვის მადანი
+  diamond_ore: ალმასის მადანი
   nether_gold_ore: ჯოჯოხეთის ოქროს მადანი
+  nether_quartz_ore: ნეზერის კვარცის მადანი
+  ancient_debris: უძველესი ნარჩენები
+  coal_block: ქვანახშირის ბლოკი
+  raw_iron_block: რკინის ბლოკის ნედლი
+  amethyst_block: ამეთვისტოს ბლოკი
+  budding_amethyst: დამწყები ამეთვისტო
+  iron_block: რკინის ბლოკი
+  copper_block: სპილენძის ბლოკი
+  gold_block: ოქროს ბლოკი
+  diamond_block: ალმასის ბლოკი
+  netherite_block: ნეთრიტის ბლოკი
+  exposed_copper: დაუცველი სპილენძი
+  oxidized_copper: დაჟანგული სპილენძი
+  cut_copper: დაჭრილი სპილენძი
+  weathered_cut_copper: ამინდი დაჭრილი სპილენძი
+  oxidized_cut_copper: დაჟანგული დაჭრილი სპილენძი
+  cut_copper_stairs: დაჭრილი სპილენძის კიბეები
+  weathered_cut_copper_stairs: ამინდი მოჭრილი სპილენძის კიბეები
+  oxidized_cut_copper_stairs: დაჟანგული დაჭრილი სპილენძის კიბეები
+  cut_copper_slab: დაჭრილი სპილენძის ფილის
+  weathered_cut_copper_slab: ამინდი მოჭრილი სპილენძის ფილის
+  oxidized_cut_copper_slab: დაჟანგული დაჭრილი სპილენძის ფილები
+  waxed_copper_block: დამუშავებული სპილენძის ბლოკი
+  waxed_cut_copper: დამუშავებული დაჭრილი სპილენძი
+  waxed_cut_copper_stairs: ცვილისფერი სპილენძის კიბეები
+  waxed_cut_copper_slab: ცვილისებრი მოჭრილი სპილენძის ფილა
+  waxed_oxidized_cut_copper_slab: დამუშავებული დაჟანგული დაჭრილი სპილენძის ფილები
   oak_log: მუხის ლოდი
   spruce_log: ნაძვის ლოდი
   birch_log: არყის ლოდი
@@ -84,23 +123,17 @@ material:
   sponge: ღრუბელი
   wet_sponge: სველი ღრუბელი
   glass: შუშა
-  lapis_ore: ლილაქვის მადანი
-  lapis_block: ლილაქვის ბლოკი
-  dispenser: გამტყორცნი
+  tinted_glass: შეფერილი მინა
+  lapis_block: ლაპის ლაზურის ბლოკი
   sandstone: ქვიშაქვა
   chiseled_sandstone: მოპირკეთებული ქვიშაქვა
   cut_sandstone: მოჭრილი ქვიშაქვა
-  note_block: მუსიკალური ბლოკი
-  powered_rail: ამაჩქარებელი
-  detector_rail: მგრძნობიარე რელსი
-  sticky_piston: წებოვანი დგუში
   cobweb: აბლაბუდა
   grass: ბალახი
   fern: გვიმრა
   dead_bush: გამხმარი ბუჩქი
   seagrass: წყლის ბალახი
   sea_pickle: ზღვის კიტრი
-  piston: დგუში
   white_wool: თეთრი მატყლი
   orange_wool: ნარინჯისფერი მატყლი
   magenta_wool: იასამნისფერი მატყლი
@@ -130,6 +163,7 @@ material:
   cornflower: ლურჯი ყვავილი
   lily_of_the_valley: შროშანი
   wither_rose: ვიდერის ვარდი
+  spore_blossom: ყვავილობის სპორა
   brown_mushroom: ყავისფერი სოკო
   red_mushroom: წითელი სოკო
   crimson_fungus: ჟოლოსფერი სოკო
@@ -141,9 +175,8 @@ material:
   twisting_vines: გრეხა ვაზები
   sugar_cane: შაქრის ლერწამი
   kelp: წყალქვეშა ბალახი
+  moss_carpet: ხავსის ხალიჩა
   bamboo: ბამბუკი
-  gold_block: ოქროს ბლოკი
-  iron_block: რკინის ბლოკი
   oak_slab: მუხის ფილა
   spruce_slab: ნაძვის ფილა
   birch_slab: არყის ფილა
@@ -173,7 +206,6 @@ material:
   smooth_sandstone: გლუვი ქვეშაქვა
   smooth_stone: ნაზი ქვა
   bricks: აგურები
-  tnt: TNT ასაფეთქებელი
   bookshelf: წიგნის თარო
   mossy_cobblestone: ხავსიანი რიყის ქვა
   obsidian: ობსიდიანი
@@ -187,27 +219,11 @@ material:
   spawner: სპავნერი
   oak_stairs: მუხის საფეხურები
   chest: სკივრი
-  diamond_ore: ალმასის მადანი
-  diamond_block: ალმასის ბლოკი
   crafting_table: დაზგა
   farmland: დამუშავებული მიწა
   furnace: ღუმელი
   ladder: კიბე
-  rail: რელსი
   cobblestone_stairs: ქვის საფეხურები
-  lever: ბერკეტი
-  stone_pressure_plate: ქვის მგრძნობიარე ფილა
-  oak_pressure_plate: მუხის ზეწოლის ფილა
-  spruce_pressure_plate: ნაძვის მგრძნობიარე ფილა
-  birch_pressure_plate: არყის მგრძნობიარე ფილა
-  jungle_pressure_plate: ჯუნგლის ხის მგრძნობიარე ფილა
-  acacia_pressure_plate: აკაციის მგრძნობიარე ფილა
-  dark_oak_pressure_plate: მუქი მუხის ზეწოლის ფილა
-  crimson_pressure_plate: ჟოლოსფერი მგრძნობიარე ფილა
-  warped_pressure_plate: უცნაური მგრძნობიარე ფილა
-  polished_blackstone_pressure_plate: ნატიფი შავქვის წნეხის ფირფიტა
-  redstone_ore: რედსტოუნის მადანი
-  redstone_torch: რედსტოუნის ჩირაღდანი
   snow: თოვლი
   ice: ყინული
   snow_block: თოვლის ბლოკი
@@ -224,6 +240,7 @@ material:
   warped_fence: უცნაური ღობე
   pumpkin: გოგრა
   carved_pumpkin: გამოჭრილი გოგრა
+  jack_o_lantern: მანათობელი გოგრა
   netherrack: ნეზერქვა
   soul_sand: სულთა ქვიშა
   soul_soil: სულის მიწა
@@ -231,25 +248,19 @@ material:
   polished_basalt: დამუშავებული ბაზალტი
   soul_torch: სულის ჩირაღდანი
   glowstone: ნათობქვა
-  jack_o_lantern: მანათობელი გოგრა
-  oak_trapdoor: მუხის ხუფი
-  spruce_trapdoor: ნაძვის ხუპი
-  birch_trapdoor: არყის ხუფი
-  jungle_trapdoor: ჯუნგლის ხის ხუფი
-  acacia_trapdoor: აკაციის ხუფი
-  dark_oak_trapdoor: მუქი მუხის ხუფი
-  crimson_trapdoor: ჟოლოსფერი ლუქი
-  warped_trapdoor: უცნაური საძვრენი კარი
   infested_stone: მონსტრის ქვა
   infested_cobblestone: მონსტრის რიყის ქვა
   infested_stone_bricks: მონსტრის აგურქვა
   infested_mossy_stone_bricks: მონსტრის ლიანიანი აგურქვა
   infested_cracked_stone_bricks: მონსტრის გატეხილი აგურქვა
   infested_chiseled_stone_bricks: მონსტრის მოკაზმული აგურქვა
+  infested_deepslate: დაინფიცირებული ღრმა ფენის
   stone_bricks: ქვის აგურები
   mossy_stone_bricks: ხავსიანი ქვის აგურები
   cracked_stone_bricks: გაბზარული ქვის აგურები
   chiseled_stone_bricks: მოპირკეთებული ქვის აგურები
+  deepslate_bricks: ღრმა ფენის აგური
+  cracked_deepslate_bricks: დაბზარული ღრმა ფენის აგური
   brown_mushroom_block: ყავისფერი სოკოს ბლოკი
   red_mushroom_block: წითელი სოკოს ბლოკი
   mushroom_stem: სოკოს სუპი
@@ -258,14 +269,6 @@ material:
   glass_pane: შუშის პანელი
   melon: საზამთრო
   vine: სურო
-  oak_fence_gate: მუხის ღობის ჭიშკარი
-  spruce_fence_gate: ნაძვის ღობის ჭიშკარი
-  birch_fence_gate: არყის ღობის ჭიშკარი
-  jungle_fence_gate: ჯუნგლის ღობის ჭიშკარი
-  acacia_fence_gate: აკაციის ღობის ჭიშკარი
-  dark_oak_fence_gate: მუქი მუხის ღობის ჭიშკარი
-  crimson_fence_gate: ჟოლოსფერი კარიბჭე
-  warped_fence_gate: უცნაური ჭიშკარი
   brick_stairs: აგურის საფეხურები
   stone_brick_stairs: ქვის აგურის საფეხურები
   mycelium: მიცელიუმი
@@ -280,11 +283,8 @@ material:
   end_stone: სასრულქვა
   end_stone_bricks: ენდის ქვის აგურები
   dragon_egg: დრაკონის კვერცხი
-  redstone_lamp: რედსტოუნის ნათურა
   sandstone_stairs: ქვიშაქვის საფეხურები
-  emerald_ore: ზურმუხტის მადანი
   ender_chest: ენდერის სკივრი
-  tripwire_hook: ხაფანგის კაუჭი
   emerald_block: ზურმუხტის ბლოკი
   spruce_stairs: ნაძვის საფეხურები
   birch_stairs: არყის საფეხურები
@@ -310,33 +310,14 @@ material:
   blackstone_wall: შავქვის კედელი
   polished_blackstone_wall: ნატიფი შავქვის კედელი
   polished_blackstone_brick_wall: ნატიფი შავქვის აგურის კედელი
-  stone_button: ქვის ღილაკი
-  oak_button: მუხის ღილაკი
-  spruce_button: ნაძვის ღილაკი
-  birch_button: არყის ღილაკი
-  jungle_button: ჯუნგლის ხის ღილაკი
-  acacia_button: აკაციის ღილაკი
-  dark_oak_button: მუქი მუხის ღილაკი
-  crimson_button: ჟოლოსფერი ღილაკი
-  warped_button: უცნაური ღილაკი
-  polished_blackstone_button: ნატიფი შავქვის ღილაკი
   anvil: გრდემლი
   chipped_anvil: დაზიანებული გრდემლი
   damaged_anvil: გატეხილი გრდემლი
-  trapped_chest: ხაფანგიანი სკივრი
-  light_weighted_pressure_plate: მსუბუქი მგრძნობიარე ფილა
-  heavy_weighted_pressure_plate: მძიმე მგრძნობიარე ფილა
-  daylight_detector: სინათლის დეტექტორი
-  redstone_block: რედსტოუნის ბლოკი
-  nether_quartz_ore: ნეზერის კვარცის მადანი
-  hopper: ძაბრი
   chiseled_quartz_block: გამოქანდაკებული კვარცის ბლოკი
   quartz_block: კვარცის ბლოკი
   quartz_bricks: კვარცის აგურები
   quartz_pillar: კვარცის სვეტი
   quartz_stairs: კვარცის საფეხურები
-  activator_rail: ჩამრთველი რელსი
-  dropper: დამყრელი
   white_terracotta: თეთრი ტერაკოტა
   orange_terracotta: ნარინჯისფერი ტერაკოტა
   magenta_terracotta: იასამნისფერი ტერაკოტა
@@ -354,7 +335,7 @@ material:
   red_terracotta: წითელი ტერაკოტა
   black_terracotta: შავი ტერაკოტა
   barrier: ბარიერი
-  iron_trapdoor: რკინის საძვრენი
+  light: სინათლე
   hay_block: თივის შეკვრა
   white_carpet: თეთრი ხალიჩა
   orange_carpet: ნარინჯისფერი ხალიჩა
@@ -373,12 +354,10 @@ material:
   red_carpet: წითელი ხალიჩა
   black_carpet: შავი ხალიჩა
   terracotta: ტერაკოტა
-  coal_block: ქვანახშირის ბლოკი
   packed_ice: მკვრივი ყინული
   acacia_stairs: აკაციის საფეხურები
   dark_oak_stairs: მუქი მუხის საფეხურები
-  slime_block: ლორწოს ბლოკი
-  grass_path: ბილიკი
+  dirt_path: ჭუჭყიანი გზა
   sunflower: მზესუმზირა
   lilac: იასამანი
   rose_bush: ვარდის ბუჩქი
@@ -436,7 +415,6 @@ material:
   red_nether_bricks: წითელი ქვესკნელის აგური
   bone_block: ძვლის ბლოკი
   structure_void: ცარიელი ბლოკი
-  observer: მეთვალყურე
   shulker_box: შულკერის ყუთი
   white_shulker_box: თეთრი შულკერის ყუთი
   orange_shulker_box: ნარინჯისფერი შულკერის ყუთი
@@ -562,7 +540,54 @@ material:
   red_nether_brick_slab: წითელი ნეზერის აგურის ფილა
   polished_andesite_slab: გაპრიალებული ანდეზიტის ფილა
   diorite_slab: დიორიტის ფილა
+  deepslate_tile_slab: ღრმა ფენის კრამიტის ფილა
   scaffolding: საყრდენი
+  redstone: რედსტოუნის მტვერი
+  redstone_torch: რედსტოუნის ჩირაღდანი
+  redstone_block: რედსტოუნის ბლოკი
+  repeater: რედსტოუნის განმეორებელი დიოდი
+  comparator: რედსტოუნის კომპარატორი
+  piston: დგუში
+  sticky_piston: წებოვანი დგუში
+  slime_block: ლორწოს ბლოკი
+  honey_block: თაფლის ბლოკი
+  observer: მეთვალყურე
+  hopper: ძაბრი
+  dispenser: გამტყორცნი
+  dropper: დამყრელი
+  lectern: კათედრა
+  target: მიზანი
+  lever: ბერკეტი
+  lightning_rod: Მეხამრიდი
+  daylight_detector: სინათლის დეტექტორი
+  sculk_sensor: სქალკ სენსორი
+  tripwire_hook: ხაფანგის კაუჭი
+  trapped_chest: ხაფანგიანი სკივრი
+  tnt: TNT ასაფეთქებელი
+  redstone_lamp: რედსტოუნის ნათურა
+  note_block: მუსიკალური ბლოკი
+  stone_button: ქვის ღილაკი
+  polished_blackstone_button: ნატიფი შავქვის ღილაკი
+  oak_button: მუხის ღილაკი
+  spruce_button: ნაძვის ღილაკი
+  birch_button: არყის ღილაკი
+  jungle_button: ჯუნგლის ხის ღილაკი
+  acacia_button: აკაციის ღილაკი
+  dark_oak_button: მუქი მუხის ღილაკი
+  crimson_button: ჟოლოსფერი ღილაკი
+  warped_button: უცნაური ღილაკი
+  stone_pressure_plate: ქვის მგრძნობიარე ფილა
+  polished_blackstone_pressure_plate: ნატიფი შავქვის წნეხის ფირფიტა
+  light_weighted_pressure_plate: მსუბუქი მგრძნობიარე ფილა
+  heavy_weighted_pressure_plate: მძიმე მგრძნობიარე ფილა
+  oak_pressure_plate: მუხის ზეწოლის ფილა
+  spruce_pressure_plate: ნაძვის მგრძნობიარე ფილა
+  birch_pressure_plate: არყის მგრძნობიარე ფილა
+  jungle_pressure_plate: ჯუნგლის ხის მგრძნობიარე ფილა
+  acacia_pressure_plate: აკაციის მგრძნობიარე ფილა
+  dark_oak_pressure_plate: მუქი მუხის ზეწოლის ფილა
+  crimson_pressure_plate: ჟოლოსფერი მგრძნობიარე ფილა
+  warped_pressure_plate: უცნაური მგრძნობიარე ფილა
   iron_door: რკინის ქარები
   oak_door: მუხის კარები
   spruce_door: ნაძვის კარები
@@ -572,8 +597,42 @@ material:
   dark_oak_door: მუქი მუხის კარები
   crimson_door: ჟოლოსფერი კარი
   warped_door: უცნაური კარი
-  repeater: რედსტოუნის განმეორებელი დიოდი
-  comparator: რედსტოუნის კომპარატორი
+  iron_trapdoor: რკინის საძვრენი
+  oak_trapdoor: მუხის ხუფი
+  spruce_trapdoor: ნაძვის ხუპი
+  birch_trapdoor: არყის ხუფი
+  jungle_trapdoor: ჯუნგლის ხის ხუფი
+  acacia_trapdoor: აკაციის ხუფი
+  dark_oak_trapdoor: მუქი მუხის ხუფი
+  crimson_trapdoor: ჟოლოსფერი ლუქი
+  warped_trapdoor: უცნაური საძვრენი კარი
+  oak_fence_gate: მუხის ღობის ჭიშკარი
+  spruce_fence_gate: ნაძვის ღობის ჭიშკარი
+  birch_fence_gate: არყის ღობის ჭიშკარი
+  jungle_fence_gate: ჯუნგლის ღობის ჭიშკარი
+  acacia_fence_gate: აკაციის ღობის ჭიშკარი
+  dark_oak_fence_gate: მუქი მუხის ღობის ჭიშკარი
+  crimson_fence_gate: ჟოლოსფერი კარიბჭე
+  warped_fence_gate: უცნაური ჭიშკარი
+  powered_rail: ამაჩქარებელი
+  detector_rail: მგრძნობიარე რელსი
+  rail: რელსი
+  activator_rail: ჩამრთველი რელსი
+  saddle: უნაგირი
+  minecart: ურიკა
+  chest_minecart: სკივრიანი ურიკა
+  furnace_minecart: ძრავიანი ურიკა
+  tnt_minecart: ასაფეთქებლიანი ურიკა
+  hopper_minecart: ძაბრიანი ურიკა
+  carrot_on_a_stick: სტაფილო ჯოხზე
+  warped_fungus_on_a_stick: ინფიცირებული სოკო მიბმული ანკესზე
+  elytra: ელიტრა
+  oak_boat: მუხის ნავი
+  spruce_boat: ნაძვის ნავი
+  birch_boat: არყის ნავი
+  jungle_boat: ჯუნგლის ხის ნავი
+  acacia_boat: აკაციის ნავი
+  dark_oak_boat: მუქი მუხის ნავი
   structure_block: კონსტრუქციის ბლოკი
   jigsaw: თავსატეხი ბლოკი
   turtle_helmet: კუს ნიჟარა
@@ -585,7 +644,14 @@ material:
   coal: ქვანახშირი
   charcoal: ნახშირი
   diamond: ალმასი
+  emerald: ზურმუხტი
+  lapis_lazuli: ლილაქვა
+  quartz: ნეზერის კვარცი
+  amethyst_shard: ამეთვისტო შარდი
+  raw_iron: რკინის ნედლი
   iron_ingot: რკინის ზოდი
+  raw_copper: სპილენძის ნედლი
+  copper_ingot: სპილენძის ინგოტი
   gold_ingot: ოქროს ზოდი
   netherite_ingot: ნეზერიტის ზოდი
   netherite_scrap: ნეზერიტის ნატეხი
@@ -669,29 +735,27 @@ material:
   bucket: სათლი
   water_bucket: წყლიანი სათლი
   lava_bucket: ლავიანი სათლი
-  minecart: ურიკა
-  saddle: უნაგირი
-  redstone: რედსტოუნის მტვერი
+  powder_snow_bucket: ფხვნილის თოვლის ვედრო
   snowball: თოვლის გუნდა
-  oak_boat: მუხის ნავი
   leather: ტყავი
   milk_bucket: რძის სათლი
   pufferfish_bucket: ფუგით სავსე სათლი
   salmon_bucket: სალმონით სავსე სათლი
   cod_bucket: ქოდით სავსე სათლი
   tropical_fish_bucket: ტროპიკული თევზით სავსე სათლი
+  axolotl_bucket: აქსოლოტლის ვედრო
   brick: აგური
   clay_ball: თიხის ბურთი
   dried_kelp_block: გამომშრალი წყალქვეშა ბალახის ბლოკი
   paper: ქაღალდი
   book: წიგნი
   slime_ball: ლორწო
-  chest_minecart: სკივრიანი ურიკა
-  furnace_minecart: ძრავიანი ურიკა
   egg: კვერცხი
   compass: კომპასი
+  bundle: შეკვრა
   fishing_rod: სათევზაო ანკესი
   clock: საათი
+  spyglass: ჯაშუში
   glowstone_dust: ნათობქვის მტვერი
   cod: უმი ქოდი
   salmon: უმი ორაგული
@@ -701,7 +765,6 @@ material:
   cooked_salmon: შემწვარი ორაგული
   ink_sac: სამელნე
   cocoa_beans: კაკაოს მარცვლები
-  lapis_lazuli: ლილაქვა
   white_dye: თეთრი საღებავი
   orange_dye: ნარინჯისფერი საღებავი
   magenta_dye: იასამნისფერი საღებავი
@@ -765,6 +828,7 @@ material:
   cauldron: ქვაბი
   ender_eye: ენდერის თვალი
   glistering_melon_slice: მოოქროვილი საზამთროს ნაჭერი
+  axolotl_spawn_egg: აქსოლოტლის გასაჩეკი კვერცხი
   bat_spawn_egg: ღამურის სპავნერი კვერცხი
   bee_spawn_egg: ფუტკრის სპავნერი კვერცხი
   blaze_spawn_egg: ბლეიზის სპავნერი კვერცხი
@@ -783,6 +847,7 @@ material:
   evoker_spawn_egg: გამღვიძებლის გასაჩეკი კვერცხი
   fox_spawn_egg: მელიის გასაჩენი კვერცხი
   ghast_spawn_egg: გასტის გასაჩეკი კვერცხი
+  glow_squid_spawn_egg: მანათობელი კალმარის გაჩენის კვერცხი
   guardian_spawn_egg: მცველისგასაჩეკი კვერცხი
   hoglin_spawn_egg: ჰოგლინის გასაჩენი კვერცხი
   horse_spawn_egg: ცხენის გასაჩეკი კვერცხი
@@ -833,7 +898,6 @@ material:
   fire_charge: ცეცხლოვანი ბურთი
   writable_book: წიგნი და ბუმბულის კალამი
   written_book: დაწერილი წიგნი
-  emerald: ზურმუხტი
   item_frame: ნივთის ჩარჩო
   flower_pot: ყვავილის ქოთანი
   carrot: სტაფილო
@@ -848,17 +912,12 @@ material:
   zombie_head: ზომბის თავი
   creeper_head: კრიპერის თავი
   dragon_head: დრაკონის თავი
-  carrot_on_a_stick: სტაფილო ჯოხზე
-  warped_fungus_on_a_stick: ინფიცირებული სოკო მიბმული ანკესზე
   nether_star: ნეზერის ვარსკვლავი
   pumpkin_pie: გოგრის ღვეზელი
   firework_rocket: რაკეტა მაშხალა
   firework_star: მაშხალის ვარსკლავი
   enchanted_book: ჯადოსნური წიგნი
   nether_brick: ნეზერის აგური
-  quartz: ნეზერის კვარცი
-  tnt_minecart: ასაფეთქებლიანი ურიკა
-  hopper_minecart: ძაბრიანი ურიკა
   prismarine_shard: პრიზმარინის ნატეხი
   prismarine_crystals: პრიზმარინის კრისტალი
   rabbit: უმი კურდღელი
@@ -904,12 +963,6 @@ material:
   tipped_arrow: დამუშავებული ისარი
   lingering_potion: მძიმე ხსნარი
   shield: ფარი
-  elytra: ელიტრა
-  spruce_boat: ნაძვის ნავი
-  birch_boat: არყის ნავი
-  jungle_boat: ჯუნგლის ხის ნავი
-  acacia_boat: აკაციის ნავი
-  dark_oak_boat: მუქი მუხის ნავი
   totem_of_undying: უკვდავობის ტოტემი
   shulker_shell: შულკერის გარსი
   iron_nugget: რკინის ნატეხი
@@ -948,7 +1001,6 @@ material:
   cartography_table: კარტოგრაფის მაგიდა
   fletching_table: მეიარაღეს მაგიდა
   grindstone: მლესავი ქვა
-  lectern: კათედრა
   smithing_table: სამჭედლო მაგიდა
   stonecutter: ქვის მჭრელი
   bell: ზარი
@@ -962,12 +1014,8 @@ material:
   bee_nest: ფუტკრის ბუდე
   beehive: ბეჰევი
   honey_bottle: თაფლის ბოთლი
-  honey_block: თაფლის ბლოკი
   honeycomb_block: ფიჭის ბლოკი
   lodestone: მაგნიტური ქვა
-  netherite_block: ნეთრიტის ბლოკი
-  ancient_debris: უძველესი ნარჩენები
-  target: მიზანი
   crying_obsidian: მტირალა ობსიდიანი
   blackstone: შავქვა
   blackstone_slab: შავქვის ფილა
@@ -982,6 +1030,28 @@ material:
   polished_blackstone_brick_stairs: ნატიფი შავქვის აგურის კიბე
   cracked_polished_blackstone_bricks: გაბზარული ნატიფი შავქვის აგური
   respawn_anchor: თავიდან გაჩენის შუქურა
+  candle: სანთელი
+  white_candle: თეთრი სანთელი
+  orange_candle: ნარინჯისფერი სანთელი
+  magenta_candle: მაგენტას სანთელი
+  light_blue_candle: ღია ცისფერი სანთელი
+  yellow_candle: ყვითელი სანთელი
+  lime_candle: ცაცხვის სანთელი
+  pink_candle: ვარდისფერი სანთელი
+  gray_candle: ნაცრისფერი სანთელი
+  light_gray_candle: ღია ნაცრისფერი სანთელი
+  cyan_candle: ცისფერი სანთელი
+  purple_candle: მეწამული სანთელი
+  blue_candle: ლურჯი სანთელი
+  brown_candle: ყავისფერი სანთელი
+  green_candle: მწვანე სანთელი
+  red_candle: წითელი სანთელი
+  black_candle: შავი სანთელი
+  small_amethyst_bud: პატარა ამეთვისტო კვირტი
+  medium_amethyst_bud: საშუალო ამეთვისტო კვირტი
+  large_amethyst_bud: დიდი ამეთვისტო კვირტი
+  amethyst_cluster: ამეთვისტო კასეტური
+  pointed_dripstone: წერტილოვანი დრიპსტოუნი
   water: წყალი
   lava: ლავა
   tall_seagrass: მაღალი წყლის ბალახი
@@ -1004,6 +1074,9 @@ material:
   attached_melon_stem: ნესვის მიმაგრებული ღერო
   pumpkin_stem: გოგრის ღერო
   melon_stem: ნესვის ღერო
+  water_cauldron: წყლის ქვაბი
+  lava_cauldron: ლავის ქვაბი
+  powder_snow_cauldron: ფხვნილი თოვლის ქვაბი
   end_portal: დასასრულის პორტალი
   cocoa: კაკაო
   tripwire: ხაფანგი
@@ -1083,6 +1156,10 @@ material:
   potted_warped_fungus: ქოთანში ჩარგული უცნაური სოკო
   potted_crimson_roots: ქოთანში ჩარგული ჟოლოსფერი ფესვები
   potted_warped_roots: ქოთანში ჩარგული უცნაური ფესვები
+  candle_cake: სანთლის ტორტი
+  powder_snow: ფხვნილი თოვლი
+  cave_vines_plant: გამოქვაბულის ვაზის მცენარე
+  grass_path: ბილიკი
   zombie_pigman_spawn_egg: ზომბი ღორის სპავნერი კვერცხი
   cactus_green: კაქტუსის მწვანილი
   dandelion_yellow: ყვითელი ბაბუაწვერა
@@ -1101,46 +1178,47 @@ biome:
   crimson_forest: კრიმსონის ტყე
   warped_forest: მეჭეჭის გრეხა ტყე
   basalt_deltas: ბაზალტის დელტა
+  dripstone_caves: წვეთოვანი ქვის გამოქვაბული
   nether: ქვეშეთი
 enchantment:
-  fire_protection: დაცვა ცეცხლისაგან
-  sharpness: მახვილი
-  flame: ცეცხლი
-  soul_speed: სულის სიჩქარე
-  aqua_affinity: წყლის ძალა
-  punch: დარტყმა
-  loyalty: ერთგულება
-  depth_strider: წყალთამპყრობელი
-  vanishing_curse: უჩინარობის წყევლა
-  unbreaking: გამაგრებული
-  knockback: უკუგდება
-  luck_of_the_sea: ზღვის იღბალი
-  binding_curse: დაბმის წყევლა
-  fortune: იღბლიანი
   protection: დაცვა
-  efficiency: ქმედითობა
-  mending: შეკეთება
-  frost_walker: ყინულზე მოსიარულე
-  lure: სატყუარა
-  looting: მაროდიორობა
-  piercing: ჩხვლეტა
-  blast_protection: დაცვა აფეთქებისაგან
-  smite: განდევნა
-  multishot: მულტიმტყორცნი
-  fire_aspect: ცეცხლოვანი ხასიათის
-  channeling: არხი
-  sweeping: ფართე პირი
-  thorns: ეკლები
-  bane_of_arthropods: ფეხსახსრიანების უბედურება
-  respiration: სუნთქვა
-  riptide: ნაკადი
-  silk_touch: ნაზი შეხება
-  quick_charge: ჩქარი გადატენა
-  projectile_protection: დაცვა გასროლილისგან
-  impaling: გაანგარიშება
+  fire_protection: დაცვა ცეცხლისაგან
   feather_falling: ბუმბულივით მსუბუქი
+  blast_protection: დაცვა აფეთქებისაგან
+  projectile_protection: დაცვა გასროლილისგან
+  respiration: სუნთქვა
+  aqua_affinity: წყლის ძალა
+  thorns: ეკლები
+  depth_strider: წყალთამპყრობელი
+  frost_walker: ყინულზე მოსიარულე
+  binding_curse: დაბმის წყევლა
+  sharpness: მახვილი
+  smite: განდევნა
+  bane_of_arthropods: ფეხსახსრიანების უბედურება
+  knockback: უკუგდება
+  fire_aspect: ცეცხლოვანი ხასიათის
+  looting: მაროდიორობა
+  sweeping: ფართე პირი
+  efficiency: ქმედითობა
+  silk_touch: ნაზი შეხება
+  unbreaking: გამაგრებული
+  fortune: იღბლიანი
   power: სიმძლავრე
+  punch: დარტყმა
+  flame: ცეცხლი
   infinity: უსასრულო
+  luck_of_the_sea: ზღვის იღბალი
+  lure: სატყუარა
+  loyalty: ერთგულება
+  impaling: გაანგარიშება
+  riptide: ნაკადი
+  channeling: არხი
+  multishot: მულტიმტყორცნი
+  quick_charge: ჩქარი გადატენა
+  piercing: ჩხვლეტა
+  mending: შეკეთება
+  vanishing_curse: უჩინარობის წყევლა
+  soul_speed: სულის სიჩქარე
 potion:
   uncraftable: შეუქმნადი ხსნარი
   water: წყლის ბოთლი
@@ -1335,6 +1413,8 @@ entity:
   strider: სტრაიდერი
   zoglin: ზოგლინი
   piglin_brute: პიგლინი უხეში
+  axolotl: აქსელოტლი
+  glow_squid: მანათობელი კალმარი
   fishing_hook: ტივტივა
   lightning: ელვა
   player: მოთამაშე
@@ -2131,17 +2211,3 @@ villager_profession:
   shepherd: მწყემსი
   toolsmith: ხელსაწყოთა ოსტატი
   weaponsmith: იარაღის ოსტატი
-villager_career:
-  farmer: ფერმერი
-  fisherman: მეთევზე
-  shepherd: მწყემსი
-  fletcher: მეისრე
-  librarian: ბიბლიოთეკარი
-  cartographer: კარტოგრაფი
-  cleric: მღვდელი
-  armorer: მეაბჯრე
-  weapon_smith: იარაღის მჭედელი
-  tool_smith: ინსტრუმენტების მჭედელი
-  butcher: ყასაბი
-  leatherworker: ტყავზე მომუშავე
-  nitwit: ტუტუცი

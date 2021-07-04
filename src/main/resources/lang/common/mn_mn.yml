@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:48                    #
+# Build time: 2021-07-04 21:46:04                    #
 # ####################################################
 language:
   code: mn_mn
@@ -14,10 +14,17 @@ material:
   polished_diorite: Өнгөлсөн диорит
   andesite: Андезит
   polished_andesite: Өнгөлсөн андезит
+  deepslate: Гүний занар
+  cobbled_deepslate: Хагархай гүний занар
+  polished_deepslate: Гөлгөр гүний занар
+  calcite: Кальцит
+  tuff: Туф
+  dripstone_block: Бана блок
   grass_block: Өвстэй хөрс
   dirt: Шороо
   coarse_dirt: Чулуутай шороо
   podzol: Шилмүүст хөрс
+  rooted_dirt: Үндэстэй шороо
   crimson_nylium: Нөжит хөрс
   warped_nylium: Гажуудсан хөрс
   cobblestone: Хагархай чулуу
@@ -27,7 +34,7 @@ material:
   jungle_planks: Ширэнгэн ойн модон банз
   acacia_planks: Хуайс модон банз
   dark_oak_planks: Хар царс модон банз
-  crimson_planks: Нөжит банз
+  crimson_planks: Нөжит модон банз
   warped_planks: Гажуудсан модон банз
   oak_sapling: Зулзаган царс мод
   spruce_sapling: Зулзаган гацуур мод
@@ -39,10 +46,67 @@ material:
   sand: Элс
   red_sand: Улаан элс
   gravel: Хайрга
-  gold_ore: Алтны хүдэр
-  iron_ore: Төмрийн хүдэр
   coal_ore: Нүүрсны хүдэр
+  deepslate_coal_ore: Гүний занар дахь нүүрсний хүдэр
+  iron_ore: Төмрийн хүдэр
+  deepslate_iron_ore: Гүний занар дахь төмрийн хүдэр
+  copper_ore: Зэсийн хүдэр
+  deepslate_copper_ore: Гүний занар дахь зэсийн хүдэр
+  gold_ore: Алтны хүдэр
+  deepslate_gold_ore: Гүний занар дахь алтны хүдэр
+  redstone_ore: Улаан чулууны хүдэр
+  deepslate_redstone_ore: Гүний занар дахь улаан чулууны хүдэр
+  emerald_ore: Маргадын хүдэр
+  deepslate_emerald_ore: Гүний занар дахь маргадын хүдэр
+  lapis_ore: Номин чулууны хүдэр
+  deepslate_lapis_ore: Гүний занар дахь номин чулууны хүдэр
+  diamond_ore: Алмаасын хүдэр
+  deepslate_diamond_ore: Гүний занар дахь амлаасын хүдэр
   nether_gold_ore: Тамын алтны хүдэр
+  nether_quartz_ore: Кварцын хүдэр
+  ancient_debris: Эртний металл
+  coal_block: Нүүрсэн блок
+  raw_iron_block: Боловсруулаагүй төмөр блок
+  raw_copper_block: Боловсруулаагүй зэс блок
+  raw_gold_block: Боловсруулаагүй алтан блок
+  amethyst_block: Ягаан болор блок
+  budding_amethyst: Нахиалагч ягаан болор
+  iron_block: Төмөр блок
+  copper_block: Зэс блок
+  gold_block: Алтан блок
+  diamond_block: Алмаас эрдэнэн блок
+  netherite_block: Недерит блок
+  exposed_copper: Ил гарсан зэс
+  weathered_copper: Өгөршсөн зэс
+  oxidized_copper: Исэлдсэн зэс
+  cut_copper: Сийлсэн зэс
+  exposed_cut_copper: Ил гарсан сийлсэн зэс
+  weathered_cut_copper: Өгөршсөн сийлсэн зэс
+  oxidized_cut_copper: Исэлдсэн сийлсэн зэс
+  cut_copper_stairs: Сийлсэн зэс шат
+  exposed_cut_copper_stairs: Ил гарсан сийлсэн зэс шат
+  weathered_cut_copper_stairs: Өгөршсөн сийлсэн зэс шат
+  oxidized_cut_copper_stairs: Исэлдсэн сийлсэн зэс шат
+  cut_copper_slab: Сийлсэн зэс хавтан
+  exposed_cut_copper_slab: Ил гарсан сийлсэн зэс хавтан
+  weathered_cut_copper_slab: Өгөршсөн сийлсэн зэс хавтан
+  oxidized_cut_copper_slab: Исэлдсэн сийлсэн зэс хавтан
+  waxed_copper_block: Бүрэлттэй зэс блок
+  waxed_exposed_copper: Бүрэлттэй ил гарсан зэс
+  waxed_weathered_copper: Бүрэлттэй өгөршсөн зэс
+  waxed_oxidized_copper: Бүрэлттэй исэлдсэн зэс
+  waxed_cut_copper: Бүрэлттэй сийлсэн зэс
+  waxed_exposed_cut_copper: Бүрэлттэй ил гарсан сийлсэн зэс
+  waxed_weathered_cut_copper: Бүрэлттэй өгөршсөн сийлсэн зэс
+  waxed_oxidized_cut_copper: Бүрэлттэй Исэлдсэн сийлсэн зэс
+  waxed_cut_copper_stairs: Бүрэлттэй сийлсэн зэс шат
+  waxed_exposed_cut_copper_stairs: Бүрэлттэй ил гарсан сийлсэн зэс шат
+  waxed_weathered_cut_copper_stairs: Бүрэлттэй өгөршсөн сийлсэн зэс шат
+  waxed_oxidized_cut_copper_stairs: Бүрэлттэй Исэлдсэн сийлсэн зэс шат
+  waxed_cut_copper_slab: Бүрэлттэй сийлсэн зэс хавтан
+  waxed_exposed_cut_copper_slab: Бүрэлттэй ил гарсан сийлсэн зэс шат
+  waxed_weathered_cut_copper_slab: Бүрэлттэй өгөршсөн сийлсэн зэс шат
+  waxed_oxidized_cut_copper_slab: Бүрэлттэй Исэлдсэн сийлсэн зэс хавтан
   oak_log: Царс модон дүнз
   spruce_log: Гацуур модон дүнз
   birch_log: Хус модон дүнз
@@ -81,26 +145,24 @@ material:
   jungle_leaves: Ширэнгэн ойн модны навч
   acacia_leaves: Хуайс модны навч
   dark_oak_leaves: Хар царс модны навч
+  azalea_leaves: Aзалиан навч
+  flowering_azalea_leaves: Цэцэглэсэн азалиан навч
   sponge: Хөвөн
   wet_sponge: Нойтон хөвөн
   glass: Шил
-  lapis_ore: Номингийн хүдэр
+  tinted_glass: Харанхуй шил
   lapis_block: Номин чулуун блок
-  dispenser: Харвагч
   sandstone: Элсэн чулуу
   chiseled_sandstone: Сийлсэн элсэн чулуу
   cut_sandstone: Өөлсөн элсэн чулуу
-  note_block: Хөгжим
-  powered_rail: Хүчжүүлсэн төмөр зам
-  detector_rail: Илрүүлэгч төмөр зам
-  sticky_piston: Наалдамхай түлхэгч
   cobweb: Аалзны тор
   grass: Өвс
   fern: Ойм
+  azalea: Азалиа
+  flowering_azalea: Цэцэглэсэн азалиа
   dead_bush: Үхсэн бут
   seagrass: Тэнгисийн өвс
   sea_pickle: Тэнгисийн гэрлэн биет
-  piston: Түлхэгч
   white_wool: Цагаан ноос
   orange_wool: Улбар шар ноос
   magenta_wool: Ягаан ноос
@@ -130,6 +192,7 @@ material:
   cornflower: Хөх хонгорзул
   lily_of_the_valley: Хөндийн сараана
   wither_rose: Витерийн сарнай
+  spore_blossom: Үрэнцэрт дэлбээ
   brown_mushroom: Бор мөөг
   red_mushroom: Улаан мөөг
   crimson_fungus: Нөжит мөөг
@@ -141,16 +204,19 @@ material:
   twisting_vines: Мушгиа ургамал
   sugar_cane: Чихрийн нишингэ
   kelp: Замаг
+  moss_carpet: Хөвдөн дэвсгэр
+  moss_block: Хөвдөн блок
+  hanging_roots: Унжиж буй үндэс
+  big_dripleaf: Том гоожингор навч
+  small_dripleaf: Жижиг гоожингор навч
   bamboo: Хулс
-  gold_block: Алтан блок
-  iron_block: Төмөр блок
   oak_slab: Царс модон хавтан
   spruce_slab: Гацуур модон хавтан
   birch_slab: Хус модон хавтан
   jungle_slab: Ширэнгэн ойн модон хавтан
   acacia_slab: Хуайс модон хавтан
   dark_oak_slab: Хар царс модон хавтан
-  crimson_slab: Нөжит модон хавтас
+  crimson_slab: Нөжит модон хавтан
   warped_slab: Гажуудсан модон хавтан
   stone_slab: Чулуун хавтан
   smooth_stone_slab: Гөлгөр чулуун хавтан
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: Гөлгөр элсэн чулуу
   smooth_stone: Гөлгөр чулуу
   bricks: Тоосго
-  tnt: TNT
   bookshelf: Номын тавиур
   mossy_cobblestone: Хөвдтэй хагархай чулуу
   obsidian: Хар шил
@@ -187,27 +252,11 @@ material:
   spawner: Төрүүлэгч
   oak_stairs: Царс модон шат
   chest: Авдар
-  diamond_ore: Алмаасны хүдэр
-  diamond_block: Алмаас эрдэнэн блок
   crafting_table: Урлах ширээ
   farmland: Хагалсан газар
   furnace: Зуух
   ladder: Босоо шат
-  rail: Төмөр зам
   cobblestone_stairs: Хагархай чулуун шат
-  lever: Хөшүүрэг
-  stone_pressure_plate: Чулуун даралтын хавтан
-  oak_pressure_plate: Царс модон даралтын хавтан
-  spruce_pressure_plate: Гацуур модон даралтын хавтан
-  birch_pressure_plate: Хус модон даралтын хавтан
-  jungle_pressure_plate: Ширэнгэн ойн модон даралтын хавтан
-  acacia_pressure_plate: Хуайс модон даралтын хавтан
-  dark_oak_pressure_plate: Хар царс модон даралтын хавтан
-  crimson_pressure_plate: Нөжит модон даралтын хавтан
-  warped_pressure_plate: Гажуудсан модон даралтын хавтан
-  polished_blackstone_pressure_plate: Өнгөлсөн хар чулуун даралтын хавтан
-  redstone_ore: Улаан чулууны хүдэр
-  redstone_torch: Улаан чулуун бамбар
   snow: Цас
   ice: Мөс
   snow_block: Цасан блок
@@ -224,32 +273,31 @@ material:
   warped_fence: Гажуудсан модон хашаа
   pumpkin: Хулуу
   carved_pumpkin: Сийлсэн хулуу
+  jack_o_lantern: Гэрэлт хулуу
   netherrack: Тамын чулуу
-  soul_sand: Сүнслэг элс
+  soul_sand: Сүнстэй элс
   soul_soil: Сүнслэг хөрс
   basalt: Базальт
   polished_basalt: Өнгөлсөн базальт
+  smooth_basalt: Гөлгөр базальт
   soul_torch: Сүнслэг бамбар
   glowstone: Гэрэлт чулуу
-  jack_o_lantern: Гэрэлт хулуу
-  oak_trapdoor: Царс модон сөхдөг хаалга
-  spruce_trapdoor: Гацуур модон сөхдөг хаалга
-  birch_trapdoor: Хус модон сөхдөг хаалга
-  jungle_trapdoor: Ширэнгэн ойн модон сөхдөг хаалга
-  acacia_trapdoor: Хуайс модон сөхдөг хаалга
-  dark_oak_trapdoor: Хар царс модон сөхдөг хаалга
-  crimson_trapdoor: Нөжит модон сөхдөг хаалга
-  warped_trapdoor: Гажуудсан модон сөхдөг хаалга
   infested_stone: Язганах чулуу
   infested_cobblestone: Язганах хагархай чулуу
   infested_stone_bricks: Язганах чулуун тоосго
   infested_mossy_stone_bricks: Язганах хөвдтэй хагархай чулуу
   infested_cracked_stone_bricks: Язганах хөвдтэй чулуун тоосго
   infested_chiseled_stone_bricks: Язганах сийлсэн чулуун тоосго
+  infested_deepslate: Язганах гүний занар
   stone_bricks: Чулуун тоосго
   mossy_stone_bricks: Хөвдтэй чулуун тоосго
   cracked_stone_bricks: Хагарсан чулуун тоосго
   chiseled_stone_bricks: Сийлсэн чулуун тоосго
+  deepslate_bricks: Гүний занар тоосго
+  cracked_deepslate_bricks: Хагархай гүний занар тоосго
+  deepslate_tiles: Дөрвөлжин хээтэй гүний занар
+  cracked_deepslate_tiles: Дөрвөлжин хээтэй хагархай гүний занар
+  chiseled_deepslate: Сийлсэн гүний занар
   brown_mushroom_block: Бор мөөгөн блок
   red_mushroom_block: Улаан мөөгөн блок
   mushroom_stem: Мөөгний иш
@@ -257,15 +305,8 @@ material:
   chain: Гинж
   glass_pane: Шилэн хавтан
   melon: Тарвас
-  vine: Ороонги ургамал
-  oak_fence_gate: Царс модон хашааны хаалга
-  spruce_fence_gate: Гацуур модон хашааны хаалга
-  birch_fence_gate: Хус модон хашааны хаалга
-  jungle_fence_gate: Ширэнгэн ойн модон хашааны хаалга
-  acacia_fence_gate: Хуайс модон хашааны хаалга
-  dark_oak_fence_gate: Хар царс модон хашааны хаалга
-  crimson_fence_gate: Нөжит модон хашааны хаалга
-  warped_fence_gate: Гажуудсан модон хашааны хаалга
+  vine: Ороонго ургамал
+  glow_lichen: Гэрэлт хаг
   brick_stairs: Тоосгон шат
   stone_brick_stairs: Чулуун тоосгон шат
   mycelium: Мөөгний хөрс
@@ -280,11 +321,8 @@ material:
   end_stone: Ээндийн чулуу
   end_stone_bricks: Ээндийн чулуун тоосго
   dragon_egg: Лууны өндөг
-  redstone_lamp: Улаан чулуун гэрэл
   sandstone_stairs: Элсэн чулуун шат
-  emerald_ore: Маргадын хүдэр
   ender_chest: Ээндэрийн авдар
-  tripwire_hook: Тээглүүр утасны дэгээ
   emerald_block: Маргад блок
   spruce_stairs: Гацуур модон шат
   birch_stairs: Хус модон шат
@@ -310,51 +348,36 @@ material:
   blackstone_wall: Хар чулуун хана
   polished_blackstone_wall: Өнгөлсөн хар чулуун хана
   polished_blackstone_brick_wall: Өнгөлсөн хар чулуун тоосгон хана
-  stone_button: Чулуун товч
-  oak_button: Царс модон товч
-  spruce_button: Гацуур модон товч
-  birch_button: Хус модон товч
-  jungle_button: Ширэнгэн ойн модон товч
-  acacia_button: Хуайс модон товч
-  dark_oak_button: Хар царс модон товч
-  crimson_button: Нөжит модон товч
-  warped_button: Гажуудсан модон товч
-  polished_blackstone_button: Өнгөлсөн хар чулуун товч
+  cobbled_deepslate_wall: Хагархай гүний занар хана
+  polished_deepslate_wall: Гөлгөр гүний занар хана
+  deepslate_brick_wall: Гүний занар тоосгон хана
+  deepslate_tile_wall: Дөрвөлжин хээтэй гүний занар хана
   anvil: Дөш
   chipped_anvil: Эмтэрсэн дөш
   damaged_anvil: Эвдэрсэн дөш
-  trapped_chest: Урхитай авдар
-  light_weighted_pressure_plate: Хөнгөн жингийн даралтын хавтан
-  heavy_weighted_pressure_plate: Хүнд жингийн даралтын хавтан
-  daylight_detector: Нарны гэрэл мэдрэгч
-  redstone_block: Улаан чулуун блок
-  nether_quartz_ore: Кварцын хүдэр
-  hopper: Гулгуулагч
   chiseled_quartz_block: Сийлсэн кварц блок
   quartz_block: Кварц блок
   quartz_bricks: Кварц тоосго
   quartz_pillar: Кварц багана
   quartz_stairs: Кварц шат
-  activator_rail: Идэвхжүүлэгч төмөр зам
-  dropper: Унагагч
-  white_terracotta: Цагаан шавар
-  orange_terracotta: Улбар шар шавар
-  magenta_terracotta: Ягаан шавар
-  light_blue_terracotta: Цайвар цэнхэр шавар
-  yellow_terracotta: Шар шавар
-  lime_terracotta: Цайвар ногоон шавар
-  pink_terracotta: Цайвар ягаан шавар
-  gray_terracotta: Саарал шавар
-  light_gray_terracotta: Цайвар саарал шавар
-  cyan_terracotta: Цэнхэр шавар
-  purple_terracotta: Нил ягаан шавар
-  blue_terracotta: Хөх шавар
-  brown_terracotta: Бор шавар
-  green_terracotta: Ногоон шавар
-  red_terracotta: Улаан шавар
-  black_terracotta: Хар шавар
+  white_terracotta: Цагаан хатуу шавар
+  orange_terracotta: Улбар шар хатуу шавар
+  magenta_terracotta: Ягаан хатуу шавар
+  light_blue_terracotta: Цайвар цэнхэр хатуу шавар
+  yellow_terracotta: Шар хатуу шавар
+  lime_terracotta: Цайвар ногоон хатуу шавар
+  pink_terracotta: Цайвар ягаан хатуу шавар
+  gray_terracotta: Саарал хатуу шавар
+  light_gray_terracotta: Цайвар саарал хатуу шавар
+  cyan_terracotta: Цэнхэр хатуу шавар
+  purple_terracotta: Нил ягаан хатуу шавар
+  blue_terracotta: Хөх хатуу шавар
+  brown_terracotta: Бор хатуу шавар
+  green_terracotta: Ногоон хатуу шавар
+  red_terracotta: Улаан хатуу шавар
+  black_terracotta: Хар хатуу шавар
   barrier: Хаалт
-  iron_trapdoor: Төмөр сөхдөг хаалга
+  light: Гэрэл
   hay_block: Бухал өвс
   white_carpet: Цагаан хивс
   orange_carpet: Улбар шар хивс
@@ -372,13 +395,11 @@ material:
   green_carpet: Ногоон хивс
   red_carpet: Улаан хивс
   black_carpet: Хар хивс
-  terracotta: Шавар
-  coal_block: Нүүрсэн блок
+  terracotta: Хатуу шавар
   packed_ice: Нягт мөс
   acacia_stairs: Хуайс модон шат
   dark_oak_stairs: Хар царс модон шат
-  slime_block: Салс блок
-  grass_path: Өвсөн зам
+  dirt_path: Шороон зам
   sunflower: Наранцэцэг
   lilac: Голт бор
   rose_bush: Сарнайн бут
@@ -435,8 +456,7 @@ material:
   warped_wart_block: Гажуудсан үүн блок
   red_nether_bricks: Улаан тамын тоосго
   bone_block: Ясан блок
-  structure_void: Хоосон
-  observer: Ажиглагч
+  structure_void: Байгууламжийн хоосон
   shulker_box: Шалкер хайрцаг
   white_shulker_box: Цагаан шалкер хайрцаг
   orange_shulker_box: Улбар шар шалкер хайрцаг
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: Улаан тамын тоосгон шат
   polished_andesite_stairs: Өнгөлсөн андезит шат
   diorite_stairs: Диорит шат
+  cobbled_deepslate_stairs: Хагархай гүний занар шат
+  polished_deepslate_stairs: Гөлгөр гүний занар шат
+  deepslate_brick_stairs: Гүний занар тоосгон шат
+  deepslate_tile_stairs: Дөрвөлжин хээтэй гүний занар шат
   polished_granite_slab: Өнгөлсөн боржин хавтан
   smooth_red_sandstone_slab: Гөлгөр улаан элсэн чулуун хавтан
   mossy_stone_brick_slab: Хөвдтэй чулуун тоосгон хавтан
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: Улаан тамын тоосгон хавтан
   polished_andesite_slab: Өнгөлсөн андезит хавтан
   diorite_slab: Диорит хавтан
+  cobbled_deepslate_slab: Хагархай гүний занар хавтан
+  polished_deepslate_slab: Гөлгөр гүний занар хавтан
+  deepslate_brick_slab: Гүний занар тоосгон хавтан
+  deepslate_tile_slab: Дөрвөлжин хээтэй гүний занар хавтан
   scaffolding: Барилгын шат
+  redstone: Улаан чулууны тоос
+  redstone_torch: Улаан чулуун бамбар
+  redstone_block: Улаан чулуун блок
+  repeater: Үйлдлийн өсгөгч
+  comparator: Улаан чулуун харьцуулагч
+  piston: Түлхэгч
+  sticky_piston: Наалдамхай түлхэгч
+  slime_block: Салс блок
+  honey_block: Зөгийн балан блок
+  observer: Ажиглагч
+  hopper: Гулгуулагч
+  dispenser: Харвагч
+  dropper: Унагагч
+  lectern: Индэр
+  target: Бай
+  lever: Хөшүүрэг
+  lightning_rod: Аянга газардуулагч
+  daylight_detector: Нарны гэрэл мэдрэгч
+  sculk_sensor: Мэдрэгч скалк
+  tripwire_hook: Тээглүүр утасны дэгээ
+  trapped_chest: Урхитай авдар
+  tnt: TNT
+  redstone_lamp: Улаан чулуун гэрэл
+  note_block: Хөгжим
+  stone_button: Чулуун товч
+  polished_blackstone_button: Өнгөлсөн хар чулуун товч
+  oak_button: Царс модон товч
+  spruce_button: Гацуур модон товч
+  birch_button: Хус модон товч
+  jungle_button: Ширэнгэн ойн модон товч
+  acacia_button: Хуайс модон товч
+  dark_oak_button: Хар царс модон товч
+  crimson_button: Нөжит модон товч
+  warped_button: Гажуудсан модон товч
+  stone_pressure_plate: Чулуун даралтын хавтан
+  polished_blackstone_pressure_plate: Өнгөлсөн хар чулуун даралтын хавтан
+  light_weighted_pressure_plate: Хөнгөн жингийн даралтын хавтан
+  heavy_weighted_pressure_plate: Хүнд жингийн даралтын хавтан
+  oak_pressure_plate: Царс модон даралтын хавтан
+  spruce_pressure_plate: Гацуур модон даралтын хавтан
+  birch_pressure_plate: Хус модон даралтын хавтан
+  jungle_pressure_plate: Ширэнгэн ойн модон даралтын хавтан
+  acacia_pressure_plate: Хуайс модон даралтын хавтан
+  dark_oak_pressure_plate: Хар царс модон даралтын хавтан
+  crimson_pressure_plate: Нөжит модон даралтын хавтан
+  warped_pressure_plate: Гажуудсан модон даралтын хавтан
   iron_door: Төмөр хаалга
   oak_door: Царс модон хаалга
   spruce_door: Гацуур модон хаалга
@@ -572,8 +646,42 @@ material:
   dark_oak_door: Хар царс модон хаалга
   crimson_door: Нөжит модон хаалга
   warped_door: Гажуудсан модон хаалга
-  repeater: Үйлдлийн өсгөгч
-  comparator: Улаан чулуун харьцуулагч
+  iron_trapdoor: Төмөр сөхдөг хаалга
+  oak_trapdoor: Царс модон сөхдөг хаалга
+  spruce_trapdoor: Гацуур модон сөхдөг хаалга
+  birch_trapdoor: Хус модон сөхдөг хаалга
+  jungle_trapdoor: Ширэнгэн ойн модон сөхдөг хаалга
+  acacia_trapdoor: Хуайс модон сөхдөг хаалга
+  dark_oak_trapdoor: Хар царс модон сөхдөг хаалга
+  crimson_trapdoor: Нөжит модон сөхдөг хаалга
+  warped_trapdoor: Гажуудсан модон сөхдөг хаалга
+  oak_fence_gate: Царс модон хашааны хаалга
+  spruce_fence_gate: Гацуур модон хашааны хаалга
+  birch_fence_gate: Хус модон хашааны хаалга
+  jungle_fence_gate: Ширэнгэн ойн модон хашааны хаалга
+  acacia_fence_gate: Хуайс модон хашааны хаалга
+  dark_oak_fence_gate: Хар царс модон хашааны хаалга
+  crimson_fence_gate: Нөжит модон хашааны хаалга
+  warped_fence_gate: Гажуудсан модон хашааны хаалга
+  powered_rail: Хүчжүүлсэн төмөр зам
+  detector_rail: Илрүүлэгч төмөр зам
+  rail: Төмөр зам
+  activator_rail: Идэвхжүүлэгч төмөр зам
+  saddle: Эмээл
+  minecart: Уурхайн тэрэг
+  chest_minecart: Авдартай тэрэг
+  furnace_minecart: Зуухтай тэрэг
+  tnt_minecart: TNT-тэй тэрэг
+  hopper_minecart: Гулгуулагчтай тэрэг
+  carrot_on_a_stick: Лууван зүүсэн уурга
+  warped_fungus_on_a_stick: Гажуудсан мөөгтэй уурга
+  elytra: Далавч
+  oak_boat: Царс модон завь
+  spruce_boat: Гацуур модон завь
+  birch_boat: Хус модон завь
+  jungle_boat: Ширэнгэн ойн модон завь
+  acacia_boat: Хуайс модон завь
+  dark_oak_boat: Хар царс модон завь
   structure_block: Байгууламжийн блок
   jigsaw: Эвлүүлдэг блок
   turtle_helmet: Яст мэлхийн хуяг
@@ -585,7 +693,15 @@ material:
   coal: Нүүрс
   charcoal: Модны нүүрс
   diamond: Алмаас эрдэнэ
+  emerald: Маргад эрдэнэ
+  lapis_lazuli: Номин чулуу
+  quartz: Кварц
+  amethyst_shard: Ягаан болор
+  raw_iron: Боловсруулаагүй төмөр
   iron_ingot: Төмөр
+  raw_copper: Боловсруулаагүй зэс
+  copper_ingot: Зэс
+  raw_gold: Боловсруулаагүй алт
   gold_ingot: Алт
   netherite_ingot: Недерит
   netherite_scrap: Недеритийн хэлтэрхий
@@ -669,29 +785,27 @@ material:
   bucket: Хувин
   water_bucket: Устай хувин
   lava_bucket: Хайлмагтай хувин
-  minecart: Уурхайн тэрэг
-  saddle: Эмээл
-  redstone: Улаан чулууны тоос
+  powder_snow_bucket: Сэвсгэр цастай хувин
   snowball: Цасан бөмбөг
-  oak_boat: Царс модон завь
   leather: Арьс
   milk_bucket: Сүүтэй хувин
   pufferfish_bucket: Үлээгч загастай хувин
   salmon_bucket: Яргай загастай хувин
   cod_bucket: Сагамхай загастай хувин
   tropical_fish_bucket: Халуун орны загастай хувин
+  axolotl_bucket: Аксолотльтой хувин
   brick: Тоосго
   clay_ball: Шавар бөмбөг
   dried_kelp_block: Хатаасан замган блок
   paper: Цаас
   book: Ном
   slime_ball: Салс бөмбөг
-  chest_minecart: Авдартай тэрэг
-  furnace_minecart: Зуухтай тэрэг
   egg: Өндөг
   compass: Луужин
+  bundle: Богц
   fishing_rod: Загасны уурга
   clock: Цаг
+  spyglass: Дуран
   glowstone_dust: Гэрэлт тоос
   cod: Түүхий сагамхай загас
   salmon: Түүхий яргай загас
@@ -700,8 +814,8 @@ material:
   cooked_cod: Шарсан сагамхай загас
   cooked_salmon: Шарсан яргай загас
   ink_sac: Бэх
+  glow_ink_sac: Гэрэлт бэх
   cocoa_beans: Какаоны шош
-  lapis_lazuli: Номин чулуу
   white_dye: Цагаан будаг
   orange_dye: Улбар шар будаг
   magenta_dye: Ягаан будаг
@@ -765,6 +879,7 @@ material:
   cauldron: Тогоо
   ender_eye: Ээндэрийн нүд
   glistering_melon_slice: Гялтагнадаг зүсэм тарвас
+  axolotl_spawn_egg: Аксолотль төрүүлэх өндөг
   bat_spawn_egg: Сарьсан багваахай төрүүлэх өндөг
   bee_spawn_egg: Зөгий төрүүлэх өндөг
   blaze_spawn_egg: Түймэрдэгч төрүүлэх өндөг
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: Сүнс дуудагч төрүүлэх өндөг
   fox_spawn_egg: Үнэг төрүүлэх өндөг
   ghast_spawn_egg: Гаст төрүүлэх өндөг
+  glow_squid_spawn_egg: Гэрэлт наймалж төрүүлэх өндөг
+  goat_spawn_egg: Ямаа төрүүлэх өндөг
   guardian_spawn_egg: Хамгаалагч төрүүлэх өндөг
   hoglin_spawn_egg: Хоглин төрүүлэх өндөг
   horse_spawn_egg: Морь төрүүлэх өндөг
@@ -811,7 +928,7 @@ material:
   skeleton_horse_spawn_egg: Араг ясан морь төрүүлэх өндөг
   slime_spawn_egg: Салстан төрүүлэх өндөг
   spider_spawn_egg: Аалз төрүүлэх өндөг
-  squid_spawn_egg: Наймаалж төрүүлэх өндөг
+  squid_spawn_egg: Наймалж төрүүлэх өндөг
   stray_spawn_egg: Тэнүүчлэгч төрүүлэх өндөг
   strider_spawn_egg: Хайлмалхагч төрүүлэх өндөг
   trader_llama_spawn_egg: Худалдаачны тэмээн гөрөөс төрүүлэх өндөн
@@ -833,8 +950,8 @@ material:
   fire_charge: Галт бөмбөг
   writable_book: Ном болон үзэг
   written_book: Бичсэн ном
-  emerald: Маргад эрдэнэ
   item_frame: Эд зүйлийн хүрээ
+  glow_item_frame: Гэрэлт эд зүйлийн хүрээ
   flower_pot: Цэцгийн сав
   carrot: Лууван
   potato: Төмс
@@ -848,17 +965,12 @@ material:
   zombie_head: Зомбины толгой
   creeper_head: Криперийн толгой
   dragon_head: Лууны толгой
-  carrot_on_a_stick: Лууван зүүсэн уурга
-  warped_fungus_on_a_stick: Гажуудсан мөөгтэй уурга
   nether_star: Тамын од
   pumpkin_pie: Хулууны бялуу
   firework_rocket: Галт пуужин
   firework_star: Галт од
   enchanted_book: Шидэт ном
   nether_brick: Тамын тоосго
-  quartz: Кварц
-  tnt_minecart: TNT-тэй тэрэг
-  hopper_minecart: Гулгуулагчтай тэрэг
   prismarine_shard: Присмарины хэлтэрхий
   prismarine_crystals: Присмарины талст
   rabbit: Түүхийн туулайн мах
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: Хандтай сум
   lingering_potion: Ууршимтгай ханд
   shield: Бамбай
-  elytra: Далавч
-  spruce_boat: Гацуур модон завь
-  birch_boat: Хус модон завь
-  jungle_boat: Ширэнгэн ойн модон завь
-  acacia_boat: Хуайс модон завь
-  dark_oak_boat: Хар царс модон завь
   totem_of_undying: Үхэшгүй мөнхийн сахиус
   shulker_shell: Шалкерийн хуяг
   iron_nugget: Төмрийн хэлтэрхий
@@ -948,26 +1054,22 @@ material:
   cartography_table: Зураг зүйн ширээ
   fletching_table: Нум сум урлах ширээ
   grindstone: Билүү
-  lectern: Индэр
   smithing_table: Дархны ширээ
   stonecutter: Чулуу зүсэгч
   bell: Хонх
   lantern: Дэнлүү
   soul_lantern: Сүнслэг дэнлүү
   sweet_berries: Чихэрлэг жимсгэнэ
+  glow_berries: Гэрэлт жимсгэнэ
   campfire: Түүдэг гал
   soul_campfire: Сүнслэг түүдэг гал
   shroomlight: Мөөгний гэрэл
   honeycomb: Зөгийн сархинаг
-  bee_nest: Зөгийн оромж
+  bee_nest: Зөгийн үүр
   beehive: Зөгийн үүр
   honey_bottle: Шилтэй зөгийн бал
-  honey_block: Зөгийн балан блок
   honeycomb_block: Зөгийн сархинаган блок
   lodestone: Чиглүүлэгч чулуу
-  netherite_block: Недерит блок
-  ancient_debris: Эртний металл
-  target: Бай
   crying_obsidian: Уйлж буй хар шил
   blackstone: Хар чулуу
   blackstone_slab: Хар чулуун хавтан
@@ -982,6 +1084,28 @@ material:
   polished_blackstone_brick_stairs: Өнгөлсөн хар чулуун тоосгон шат
   cracked_polished_blackstone_bricks: Хагархай өнгөлсөн хар чулуун тоосго
   respawn_anchor: Дахин төрүүлэх зангуу
+  candle: Лаа
+  white_candle: Цагаан лаа
+  orange_candle: Улбар шар лаа
+  magenta_candle: Ягаан лаа
+  light_blue_candle: Цайвар цэнхэр лаа
+  yellow_candle: Шар лаа
+  lime_candle: Цайвар ногоон лаа
+  pink_candle: Цайвар ягаан лаа
+  gray_candle: Саарал лаа
+  light_gray_candle: Цайвар саарал лаа
+  cyan_candle: Цэнхэр лаа
+  purple_candle: Нил ягаан лаа
+  blue_candle: Хөх лаа
+  brown_candle: Бор лаа
+  green_candle: Ногоон лаа
+  red_candle: Улаан лаа
+  black_candle: Хар лаа
+  small_amethyst_bud: Ягаан болрын бяцхан нахиа
+  medium_amethyst_bud: Ягаан болрын жижиг нахиа
+  large_amethyst_bud: Ягаан болрын том нахиа
+  amethyst_cluster: Ягаан болрын хонгорцог
+  pointed_dripstone: Бана
   water: Ус
   lava: Хайлмаг
   tall_seagrass: Тэнгисийн өндөр өвс
@@ -1004,6 +1128,9 @@ material:
   attached_melon_stem: Тарвастай иш
   pumpkin_stem: Хулууны иш
   melon_stem: Тарвасны иш
+  water_cauldron: Устай тогоо
+  lava_cauldron: Хайлмагтай тогоо
+  powder_snow_cauldron: Сэвсгэр цастай тогоо
   end_portal: Ээндийн хаалга
   cocoa: Какао
   tripwire: Тээглүүр утас
@@ -1083,6 +1210,30 @@ material:
   potted_warped_fungus: Ваартай гажуудсан мөөг
   potted_crimson_roots: Ваартай нөжит ургамал
   potted_warped_roots: Ваартай гажуудсан ургамал
+  candle_cake: Лаатай бялуу
+  white_candle_cake: Цагаан лаатай бялуу
+  orange_candle_cake: Улбар шар лаатай бялуу
+  magenta_candle_cake: Ягаан лаатай бялуу
+  light_blue_candle_cake: Цайвар цэнхэр лаатай бялуу
+  yellow_candle_cake: Шар лаатай бялуу
+  lime_candle_cake: Цайвар ногоон лаатай бялуу
+  pink_candle_cake: Цайвар ягаан лаатай бялуу
+  gray_candle_cake: Саарал лаатай бялуу
+  light_gray_candle_cake: Цайвар саарал лаатай бялуу
+  cyan_candle_cake: Цэнхэр лаатай бялуу
+  purple_candle_cake: Нил ягаан лаатай бялуу
+  blue_candle_cake: Хөх лаатай бялуу
+  brown_candle_cake: Бор лаатай бялуу
+  green_candle_cake: Ногоон лаатай бялуу
+  red_candle_cake: Улаан лаатай бялуу
+  black_candle_cake: Хар лаатай бялуу
+  powder_snow: Сэвсгэр цас
+  cave_vines: Агуйн ороонго
+  cave_vines_plant: Агуйн ороонгон ургамал
+  big_dripleaf_stem: Том гоожингор навчны иш
+  potted_azalea_bush: Ваартай азалиа
+  potted_flowering_azalea_bush: Ваартай цэцэглэсэн азалиа
+  grass_path: Өвсөн зам
   zombie_pigman_spawn_egg: Гахай зомби төрүүлэх өндөг
   cactus_green: Кактусны ногоон
   dandelion_yellow: Багваахайн шар
@@ -1169,46 +1320,48 @@ biome:
   crimson_forest: Нөжит ой
   warped_forest: Гажуудсан ой
   basalt_deltas: Базальтын бэлчир
+  dripstone_caves: Бана чулуут агуй
+  lush_caves: Навчит агуй
   nether: Там
 enchantment:
-  fire_protection: Галын хамгаалалт
-  sharpness: Хурц ир
-  flame: Гал
-  soul_speed: Сүнсний хурд
-  aqua_affinity: Усны ажилчин
-  punch: Цохилттой сум
-  loyalty: Үнэнч байдал
-  depth_strider: Усанд явагч
-  vanishing_curse: Замхрах хараал
-  unbreaking: Бат бөх
-  knockback: Түлхэлт
-  luck_of_the_sea: Тэнгисийн аз
-  binding_curse: Залхаагч хараал
-  fortune: Аз
   protection: Хамгаалалт
-  efficiency: Хурд
-  mending: Нөхөх
-  frost_walker: Мөсөн алхаа
-  lure: Өгөөш
-  looting: Олз
-  piercing: Нэвтлэх
-  blast_protection: Дэлбэрэлтийн хамгаалалт
-  smite: Цохилт
-  multishot: Давхар харвах
-  fire_aspect: Галт цохилт
-  channeling: Сувагчлал
-  sweeping: Далайцтай цохилт
-  thorns: Хатгалт
-  bane_of_arthropods: Үет хөлтний мөхөл
-  respiration: Усны амьсгал
-  riptide: Түрлэг
-  silk_touch: Зөөлөн авах
-  quick_charge: Хурдан татах
-  projectile_protection: Сумны хамгаалалт
-  impaling: Сүлбэлт
+  fire_protection: Галын хамгаалалт
   feather_falling: Зөөлөн газардах
+  blast_protection: Дэлбэрэлтийн хамгаалалт
+  projectile_protection: Сумны хамгаалалт
+  respiration: Усны амьсгал
+  aqua_affinity: Усны ажилчин
+  thorns: Хатгалт
+  depth_strider: Усанд явагч
+  frost_walker: Мөсөн алхаа
+  binding_curse: Залхаагч хараал
+  sharpness: Хурц ир
+  smite: Цохилт
+  bane_of_arthropods: Үет хөлтний мөхөл
+  knockback: Түлхэлт
+  fire_aspect: Галт цохилт
+  looting: Олз
+  sweeping: Далайцтай цохилт
+  efficiency: Хурд
+  silk_touch: Зөөлөн авах
+  unbreaking: Бат бөх
+  fortune: Аз
   power: Хүч
+  punch: Цохилттой сум
+  flame: Гал
   infinity: Хязгааргүй
+  luck_of_the_sea: Тэнгисийн аз
+  lure: Өгөөш
+  loyalty: Үнэнч байдал
+  impaling: Сүлбэлт
+  riptide: Түрлэг
+  channeling: Сувагчлал
+  multishot: Давхар харвах
+  quick_charge: Хурдан татах
+  piercing: Нэвтлэх
+  mending: Нөхөх
+  vanishing_curse: Замхрах хараал
+  soul_speed: Сүнсний хурд
 potion:
   uncraftable: Гаргах боломжгүй ханд
   water: Устай лонх
@@ -1367,7 +1520,7 @@ entity:
   sheep: Хонь
   cow: Үхэр
   chicken: Тахиа
-  squid: Наймаалж
+  squid: Наймалж
   wolf: Чоно
   mushroom_cow: Мүүшрүүм
   snowman: Цасан хүн
@@ -1403,6 +1556,11 @@ entity:
   strider: Хайлмалхагч
   zoglin: Зоглин
   piglin_brute: Харгис пиглин
+  axolotl: Аксолотль
+  glow_item_frame: Гэрэлт эд зүйлийн хүрээ
+  glow_squid: Гэрэлт наймалж
+  goat: Ямаа
+  marker: Тэмдэглэгч
   fishing_hook: Уурганы хөвүүр
   lightning: Цахилгаан
   player: Тоглогч
@@ -1441,10 +1599,16 @@ effect:
   bad_omen: Муу ёр
   hero_of_the_village: Тосгоны баатар
 tropical_fish_type:
+  kob: Коб
+  sunstreak: Наран зурааст
+  brinely: Нулимсан
   spotty: Толбот
+  flopper: Дэвэгч
   stripey: Судалт
+  glitter: Гялтгануур
   blockfish: Дөрвөлжин загас
-  glitter: Glitter
+  betty: Бетти
+  clayfish: Шавран загас
 dye_color:
   white: Цагаан
   orange: Улбар шар
@@ -1481,7 +1645,13 @@ tropical_fish_name:
   '67110144': Ямаа загас
   '16778497': Судалтай эрвээхэй загас
   '101253888': Тоть загас
+  '50660352': Хатан хаан Angelfish
   '918529': Улаан циклид
+  '235340288': Улаан Lipped Blenny
+  '918273': Улаан Snapper
+  '917504': Улаан алиалагч загас
+  '67699456': Шар сүүлт тотин загас
+  '67371009': Шар Танг
 colored_shied:
   white: Цагаан бамбай
   orange: Улбар шар бамбай
@@ -2183,17 +2353,3 @@ villager_profession:
   shepherd: Хоньчин
   toolsmith: Багажны дархан
   weaponsmith: Зэвсгийн дархан
-villager_career:
-  farmer: Тариачин
-  fisherman: Загасчин
-  shepherd: Хоньчин
-  fletcher: Нум сум хийгч
-  librarian: Номын санч
-  cartographer: Зураг зүйч
-  cleric: Санваартан
-  armorer: Хуягны дархан
-  weapon_smith: Зэвсгийн дархан
-  tool_smith: Багажны дархан
-  butcher: Мал нядлагч
-  leatherworker: Арьс боловсруулагч
-  nitwit: Ажилгүй тосгоны хүн

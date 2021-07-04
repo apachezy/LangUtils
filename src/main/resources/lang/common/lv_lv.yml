@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:48                    #
+# Build time: 2021-07-04 21:46:03                    #
 # ####################################################
 language:
   code: lv_lv
@@ -14,10 +14,17 @@ material:
   polished_diorite: Pulēts Diorīts
   andesite: Andesīts
   polished_andesite: Pulēts Andesīts
+  deepslate: Dziļslāneklis
+  cobbled_deepslate: Saplaisājis Dziļslāneklis
+  polished_deepslate: Pulēts Dziļslāneklis
+  calcite: Kalcīts
+  tuff: Kūdra
+  dripstone_block: Tekakmens Bloks
   grass_block: Zāles bloks
   dirt: Melnzeme
   coarse_dirt: Rupja zeme
   podzol: Podzols
+  rooted_dirt: Sakņota zeme
   crimson_nylium: Tumšsarkans Nīlijs
   warped_nylium: Izlocīts Nīlijs
   cobblestone: Mūrakmens
@@ -39,10 +46,67 @@ material:
   sand: Smiltis
   red_sand: Sarkanās Smiltis
   gravel: Grants
-  gold_ore: Zelta rūda
-  iron_ore: Dzelzs rūda
   coal_ore: Akmeņogles
+  deepslate_coal_ore: Dziļslānekļa Ogles Rūda
+  iron_ore: Dzelzs rūda
+  deepslate_iron_ore: Dziļslānekļa Dzelzs Rūda
+  copper_ore: Vara rūda
+  deepslate_copper_ore: Dziļslānekļa Vara Rūda
+  gold_ore: Zelta rūda
+  deepslate_gold_ore: Dziļslānekļa Zelta Rūda
+  redstone_ore: Sarkanakmens Rūda
+  deepslate_redstone_ore: Dziļslānekļa Sarkanakmens Rūda
+  emerald_ore: Smaragda rūda
+  deepslate_emerald_ore: Dziļslānekļa Emeralda Rūda
+  lapis_ore: Lazurīta rūda
+  deepslate_lapis_ore: Dziļslānekļa Lazurīta Rūda
+  diamond_ore: Dimanta rūda
+  deepslate_diamond_ore: Dziļslānekļa Dimanta Rūda
   nether_gold_ore: Elles zelta rūda
+  nether_quartz_ore: Nether kvarca rūda
+  ancient_debris: Senie Gruveši
+  coal_block: Ogļu Bloks
+  raw_iron_block: Jēldzelzs bloks
+  raw_copper_block: Jēlvarš bloks
+  raw_gold_block: Jēlzelts bloks
+  amethyst_block: Ametista bloks
+  budding_amethyst: Augošs Ametists
+  iron_block: Dzelzs bloks
+  copper_block: Kapara bloks
+  gold_block: Zelta bloks
+  diamond_block: Dimantu bloks
+  netherite_block: Nederīta Bloks
+  exposed_copper: Atsegts varš
+  weathered_copper: Apsūbējis Varš
+  oxidized_copper: Oksidēts Varš
+  cut_copper: Apstrādāts Varš
+  exposed_cut_copper: Atsegts Apstrādātais Varš
+  weathered_cut_copper: Apsūbējis Apstrādāts Varš
+  oxidized_cut_copper: Oksidēts Apstrādāts Varš
+  cut_copper_stairs: Apstrādāta Vara Pakāpieni
+  exposed_cut_copper_stairs: Oksidēts Apstrādāta Vara Pakāpieni
+  weathered_cut_copper_stairs: Apsūbējuša Apstrādāta Vara Pakāpieni
+  oxidized_cut_copper_stairs: Oksidētas Apstrādātas Vara Kāpnes
+  cut_copper_slab: Apstrādāta Vara plāksne
+  exposed_cut_copper_slab: Atsegta Apstrādāta Vara Plāksne
+  weathered_cut_copper_slab: Apsūbējusi Apstrādāta Vara plāksne
+  oxidized_cut_copper_slab: Oksidēta Apstrādāta Vara Plāksne
+  waxed_copper_block: Vaskots Vara Bloks
+  waxed_exposed_copper: Vaskots Atsegts Varš
+  waxed_weathered_copper: Vaskots Apsūbējis Varš
+  waxed_oxidized_copper: Oksidēts vaskotais varš
+  waxed_cut_copper: Vaskots Apstrādāts Varš
+  waxed_exposed_cut_copper: Vaskots Atsegts Apstrādāts Varš
+  waxed_weathered_cut_copper: Vaskots Apsūbējis Apstrādāts Varš
+  waxed_oxidized_cut_copper: Vaskots Oksidēts Griezts Varš
+  waxed_cut_copper_stairs: Vaskota Apstrādāta Vara Pakāpieni
+  waxed_exposed_cut_copper_stairs: Vaskots Atsegts Apstrādāti Vara pakāpieni
+  waxed_weathered_cut_copper_stairs: Vaskotas Apsūbējušas Apstrādātas Vara Kāpnes
+  waxed_oxidized_cut_copper_stairs: Vaskota Oksidēta Griezta Vara Kāpnes
+  waxed_cut_copper_slab: Vaskota Apstrādāta Vara plāksne
+  waxed_exposed_cut_copper_slab: Vaskota Atsegta Apstrādāta Vara Plāksne
+  waxed_weathered_cut_copper_slab: Vaskota Apsūbējuša Apstrādāta Vara Plāksne
+  waxed_oxidized_cut_copper_slab: Vaskota Oksidēta Griezta Vara Plāksne
   oak_log: Ozolkoks
   spruce_log: Egles Koks
   birch_log: Bērza Koks
@@ -81,26 +145,23 @@ material:
   jungle_leaves: Džungļu Koka Lapas
   acacia_leaves: Akāciju lapas
   dark_oak_leaves: Tumšā ozola lapas
+  azalea_leaves: Acāliju lapas
   sponge: Sūklis
   wet_sponge: Mitrs sūklis
   glass: Stikls
-  lapis_ore: Lazurīta rūda
+  tinted_glass: Tonēts stikls
   lapis_block: Lazurīta bloks
-  dispenser: Izšāvējs
   sandstone: Smilšakmens
   chiseled_sandstone: Noslīpēts smilšakmens
   cut_sandstone: Gluds Smilšakmens
-  note_block: Nošu bloks
-  powered_rail: Elektriskās sliedes
-  detector_rail: Detektorsliedes
-  sticky_piston: Lipīgs virzulis
   cobweb: Zirnekļtīkls
   grass: Zāle
   fern: Paparde
+  azalea: Acālija
+  flowering_azalea: Ziedoša acālija
   dead_bush: Nokaltis krūms
   seagrass: Jūraszāle
   sea_pickle: Jūras gurķis
-  piston: Virzulis
   white_wool: Balta vilna
   orange_wool: Oranža vilna
   magenta_wool: Violeta vilna
@@ -130,20 +191,24 @@ material:
   cornflower: Rudzupuķe
   lily_of_the_valley: Maijpuķīte
   wither_rose: Kaltes Roze
+  spore_blossom: Sporu zieds
   brown_mushroom: Brūna Sēne
   red_mushroom: Sarkana Sēne
   crimson_fungus: Tumšsarkana Sēne
-  warped_fungus: Dīvaina Sēne
+  warped_fungus: Izlocīta Sēne
   crimson_roots: Tumšsarkanās Saknes
-  warped_roots: Dīvainās Saknes
+  warped_roots: Izlocītas Saknes
   nether_sprouts: Elles Asni
-  weeping_vines: Raudošais vīteņaugs
-  twisting_vines: Sagrieztais vīteņaugs
+  weeping_vines: Raudošs vīteņaugs
+  twisting_vines: Sagrozītais vīteņaugs
   sugar_cane: Cukurniedres
   kelp: Brūnaļģe
+  moss_carpet: Sūnu Paklājs
+  moss_block: Sūnu bloks
+  hanging_roots: Karājošās saknes
+  big_dripleaf: Liela krītlapa
+  small_dripleaf: Jauna krītlapa
   bamboo: Bambuss
-  gold_block: Zelta bloks
-  iron_block: Dzelzs bloks
   oak_slab: Ozolkoka Plāksne
   spruce_slab: Egles Koka Plāksne
   birch_slab: Bērza Koka Plāksne
@@ -173,7 +238,6 @@ material:
   smooth_sandstone: Gludais Smilšakmems
   smooth_stone: Gluds Akmens
   bricks: Ķieģeļi
-  tnt: Dinamīts
   bookshelf: Grāmatu plaukts
   mossy_cobblestone: Sūnu bruģakmens
   obsidian: Obsidiāns
@@ -187,27 +251,11 @@ material:
   spawner: Izsaucējs
   oak_stairs: Ozolkoka kāpnes
   chest: Lāde
-  diamond_ore: Dimanta rūda
-  diamond_block: Dimantu bloks
   crafting_table: Darbagalds
   farmland: Lauks
   furnace: Krāsns
   ladder: Kāpnes
-  rail: Sliedes
   cobblestone_stairs: Akmens kāpnes
-  lever: Svira
-  stone_pressure_plate: Akmens spiediena plāksne
-  oak_pressure_plate: Ozolkoka spiediena plāksne
-  spruce_pressure_plate: Egles spiediena plāksne
-  birch_pressure_plate: Bērza spiediena plāksne
-  jungle_pressure_plate: Džungļu spiediena plāksne
-  acacia_pressure_plate: Akāciju spiediena plāksne
-  dark_oak_pressure_plate: Tumša ozolkoka spiediena plāksne
-  crimson_pressure_plate: Tumšsarkana Spiediena Plāksne
-  warped_pressure_plate: Izlocīta Spiediena Plāksne
-  polished_blackstone_pressure_plate: Pulēta Melnakmens Spiediena Plāksne
-  redstone_ore: Sarkanakmens Rūda
-  redstone_torch: Sarkanakmens Lāpa
   snow: Sniegs
   ice: Ledus
   snow_block: Sniega Bloks
@@ -224,32 +272,31 @@ material:
   warped_fence: Dīvains Žogs
   pumpkin: Ķirbis
   carved_pumpkin: Izgrebts ķirbis
+  jack_o_lantern: Ķirbja Laterna
   netherrack: Elles akmens
   soul_sand: Dvēseļu smiltis
   soul_soil: Dvēseļu Augsne
   basalt: Bazalts
   polished_basalt: Nospodrinātais bazalts
+  smooth_basalt: Gluds Bazalts
   soul_torch: Dvēseļu lāpa
   glowstone: Mirdzakmens
-  jack_o_lantern: Ķirbja Laterna
-  oak_trapdoor: Ozolkoka lūka
-  spruce_trapdoor: Egles lūka
-  birch_trapdoor: Bērza lūka
-  jungle_trapdoor: Džungļu lūka
-  acacia_trapdoor: Akācijas lūka
-  dark_oak_trapdoor: Tumša ozolkoka lūka
-  crimson_trapdoor: Tumšsarkana Lūka
-  warped_trapdoor: Dīvaina Lūka
   infested_stone: Inficēts akmens
   infested_cobblestone: Inficēts bruģakmens
   infested_stone_bricks: Inficēti akmens ķieģeļi
   infested_mossy_stone_bricks: Inficēti sūnaini akmens ķieģeļi
   infested_cracked_stone_bricks: Inficēti salauzti akmens ķieģeļi
   infested_chiseled_stone_bricks: Inficēti noslīpēti akmens ķieģeļi
+  infested_deepslate: Inficēts Dziļslāneklis
   stone_bricks: Akmens Ķieģeļi
   mossy_stone_bricks: Apsūnojuši Akmens Ķieģeļi
   cracked_stone_bricks: Saplaisājuši Akmens Ķieģeļi
   chiseled_stone_bricks: Noslīpēti Akmens Ķieģeļi
+  deepslate_bricks: Dziļslānekļa Ķieģeļi
+  cracked_deepslate_bricks: Saplaisājuši Dziļslānekļa Ķieģeļi
+  deepslate_tiles: Dziļslānekļa Flīzes
+  cracked_deepslate_tiles: Saplaisājušas Dziļslānekļa Flīzes
+  chiseled_deepslate: Noslīpēts Dziļslāneklis
   brown_mushroom_block: Brūno Sēņu bloks
   red_mushroom_block: Sarkano Sēņu Bloks
   mushroom_stem: Sēnes kāts
@@ -258,14 +305,7 @@ material:
   glass_pane: Stikla plāksne
   melon: Arbūzs
   vine: Vītenes
-  oak_fence_gate: Žoga vārti
-  spruce_fence_gate: Egles žoga vārti
-  birch_fence_gate: Bērza žoga vārti
-  jungle_fence_gate: Džungļu žoga Vārti
-  acacia_fence_gate: Akācijas žoga vārti
-  dark_oak_fence_gate: Tumša ozolkoka žoga Vārti
-  crimson_fence_gate: Tumšsarkanas Žoga Durvis
-  warped_fence_gate: Izlocīta žoga vārti
+  glow_lichen: Spīdošie Ķērpji
   brick_stairs: Ķieģeļu trepes
   stone_brick_stairs: Bruģakmens trepes
   mycelium: Micēlijs
@@ -280,11 +320,8 @@ material:
   end_stone: Beigu Akmens
   end_stone_bricks: Beigu Akmens Ķieģeļi
   dragon_egg: Pūķa ola
-  redstone_lamp: Sarkanakmens Lampa
   sandstone_stairs: Smilšakmens trepes
-  emerald_ore: Smaragda rūda
   ender_chest: Ender lāde
-  tripwire_hook: Lamatu āķis
   emerald_block: Smaragda bloks
   spruce_stairs: Egles koka kāpnes
   birch_stairs: Bērza koka kāpnes
@@ -310,51 +347,36 @@ material:
   blackstone_wall: Melnakmens Siena
   polished_blackstone_wall: Pulēta Melnakmens Siena
   polished_blackstone_brick_wall: Pulēta Melnakmens Ķieģeļu Siena
-  stone_button: Akmens poga
-  oak_button: Ozolkoka poga
-  spruce_button: Egles poga
-  birch_button: Bērza poga
-  jungle_button: Džungļu poga
-  acacia_button: Akācijas poga
-  dark_oak_button: Tumša ozolkoka poga
-  crimson_button: Tumšsarkana Poga
-  warped_button: Dīvaina Poga
-  polished_blackstone_button: Pulēta Melnakmens Poga
+  cobbled_deepslate_wall: Saplaisājuša Dziļslānekļa Siena
+  polished_deepslate_wall: Pulēta Dziļslānekļa Siena
+  deepslate_brick_wall: Dziļslānekļa Ķieģeļu Siena
+  deepslate_tile_wall: Dziļslānekļa Flīžu Siena
   anvil: Lakta
   chipped_anvil: Apdauzīta lakta
   damaged_anvil: Bojāta lakta
-  trapped_chest: Lamatu Lāde
-  light_weighted_pressure_plate: Viegla spiediena plātne
-  heavy_weighted_pressure_plate: Smaga spiediena plātne
-  daylight_detector: Dienasgaismu detektors
-  redstone_block: Sarkanakmens bloks
-  nether_quartz_ore: Nether kvarca rūda
-  hopper: Piltuve
   chiseled_quartz_block: Slīpēts kvarca bloks
   quartz_block: Kvarca bloks
   quartz_bricks: Kvarca Ķieģeļi
   quartz_pillar: Kvarca Pīlārs
   quartz_stairs: Kvarca kāpnes
-  activator_rail: Aktivatora Sliedes
-  dropper: Izsviedējs
-  white_terracotta: Balta keramika
-  orange_terracotta: Oranža keramika
-  magenta_terracotta: Violeta keramika
-  light_blue_terracotta: Gaiši zila keramika
-  yellow_terracotta: Dzeltena keramika
-  lime_terracotta: Laima krāsas keramika
-  pink_terracotta: Rozā keramika
-  gray_terracotta: Pelēka keramika
-  light_gray_terracotta: Gaiši pelēka keramika
-  cyan_terracotta: Ciāna keramika
-  purple_terracotta: Violeta keramika
-  blue_terracotta: Zila keramika
-  brown_terracotta: Brūna keramika
-  green_terracotta: Zaļa keramika
-  red_terracotta: Sarkana keramika
-  black_terracotta: Melna keramika
+  white_terracotta: Balta Terakota
+  orange_terracotta: Oranža Terakota
+  magenta_terracotta: Violeta Terakota
+  light_blue_terracotta: Gaiši zila Terakota
+  yellow_terracotta: Dzeltena Terakota
+  lime_terracotta: Gaiši zaļa terakota
+  pink_terracotta: Rozā Terakota
+  gray_terracotta: Pelēka Terakota
+  light_gray_terracotta: Gaiši pelēka Terakota
+  cyan_terracotta: Ciāna Terakota
+  purple_terracotta: Violeta Terakota
+  blue_terracotta: Zila Terakota
+  brown_terracotta: Brūna Terakota
+  green_terracotta: Zaļa Terakota
+  red_terracotta: Sarkana Terakota
+  black_terracotta: Melna Terakota
   barrier: Barjera
-  iron_trapdoor: Dzelzs lūka
+  light: Gaismas bloks
   hay_block: Siena ķīpa
   white_carpet: Balts paklājs
   orange_carpet: Oranžs Paklājs
@@ -372,13 +394,11 @@ material:
   green_carpet: Zaļš Paklājs
   red_carpet: Sarkans Paklājs
   black_carpet: Melns Paklājs
-  terracotta: Keramika
-  coal_block: Ogļu Bloks
+  terracotta: Terakota
   packed_ice: Pakots ledus
   acacia_stairs: Akācijas koka kāpnes
   dark_oak_stairs: Tumšā ozolkoka kāpnes
-  slime_block: Gļotu bloks
-  grass_path: Zāles taka
+  dirt_path: Zemesceļš
   sunflower: Saulespuķe
   lilac: Ceriņi
   rose_bush: Rožu krūms
@@ -436,7 +456,6 @@ material:
   red_nether_bricks: Sarkanie Elles Ķieģeļi
   bone_block: Kaula bloks
   structure_void: Neesoša struktūra
-  observer: Novērotājs
   shulker_box: Šulkera kaste
   white_shulker_box: Balta šulkera kaste
   orange_shulker_box: Oranža šulkera kaste
@@ -454,22 +473,22 @@ material:
   green_shulker_box: Zaļa šulkera kaste
   red_shulker_box: Sarkana šulkera kaste
   black_shulker_box: Melna šulkera kaste
-  white_glazed_terracotta: Balta Glazēta Terracotta
-  orange_glazed_terracotta: Oranža Glazēta Terracotta
-  magenta_glazed_terracotta: Violeta Glazēta Terracotta
-  light_blue_glazed_terracotta: Gaiši Zila Glazēta Terracotta
-  yellow_glazed_terracotta: Dzeltena Glazēta Terracotta
+  white_glazed_terracotta: Balta Glazēta Terakota
+  orange_glazed_terracotta: Oranža Glazēta Terakota
+  magenta_glazed_terracotta: Violeta Glazēta Terakota
+  light_blue_glazed_terracotta: Gaiši Zila Glazēta Terakota
+  yellow_glazed_terracotta: Dzeltena Glazēta Terakota
   lime_glazed_terracotta: Laima Glazēta Terracotta
-  pink_glazed_terracotta: Rozā Glazēta Terracotta
-  gray_glazed_terracotta: Pelēka Glazēta Terracotta
-  light_gray_glazed_terracotta: Gaiši Pelēka Glazēta Terracotta
-  cyan_glazed_terracotta: Ciāna Glazēta Terracotta
-  purple_glazed_terracotta: Purpura Glazēta Terracotta
-  blue_glazed_terracotta: Zila Glazēta Terracotta
-  brown_glazed_terracotta: Brūna Glazēta Terracotta
-  green_glazed_terracotta: Zaļa Glazēta Terracotta
-  red_glazed_terracotta: Sarkana Glazēta Terracotta
-  black_glazed_terracotta: Melna Glazēta Terracotta
+  pink_glazed_terracotta: Rozā Glazēta Terakota
+  gray_glazed_terracotta: Pelēka Glazēta Terakota
+  light_gray_glazed_terracotta: Gaiši Pelēka Glazēta Terakota
+  cyan_glazed_terracotta: Ciāna Glazēta Terakota
+  purple_glazed_terracotta: Purpura Glazēta Terakota
+  blue_glazed_terracotta: Zila Glazēta Terakota
+  brown_glazed_terracotta: Brūna Glazēta Terakota
+  green_glazed_terracotta: Zaļa Glazēta Terakota
+  red_glazed_terracotta: Sarkana Glazēta Terakota
+  black_glazed_terracotta: Melna Glazēta Terakota
   white_concrete: Balts Betons
   orange_concrete: Oranžš Betons
   magenta_concrete: Violets Betons
@@ -549,6 +568,10 @@ material:
   red_nether_brick_stairs: Sarkano Elles Ķieģeļu Kāpnes
   polished_andesite_stairs: Pulētas Andesīta Kāpnes
   diorite_stairs: Diorīta Kāpnes
+  cobbled_deepslate_stairs: Saplaisājuša Dziļslānekļa Kāpnes
+  polished_deepslate_stairs: Pulēta Dziļslānekļa Kāpnes
+  deepslate_brick_stairs: Dziļslānekļa Ķieģeļu Kāpnes
+  deepslate_tile_stairs: Dziļslānekļa Flīžu Kāpnes
   polished_granite_slab: Pulēta Granīta Plātne
   smooth_red_sandstone_slab: Gluda Sarkanā Smilšakmens Plātne
   mossy_stone_brick_slab: Apsūnojusi Akmens Ķieģeļu Plātne
@@ -562,7 +585,57 @@ material:
   red_nether_brick_slab: Sarkano Elles Ķieģeļu Plātne
   polished_andesite_slab: Pulēta Andesīta Plātne
   diorite_slab: Diorīta Plātne
+  cobbled_deepslate_slab: Saplaisājuša Dziļslānekļa Plāksne
+  polished_deepslate_slab: Pulēta Dziļslānekļa Plāksne
+  deepslate_brick_slab: Dziļslānekļa Ķieģeļu Plāksne
+  deepslate_tile_slab: Dziļslānekļa Flīžu Plāksne
   scaffolding: Sastatnes
+  redstone: Sarkanakmens putekļi
+  redstone_torch: Sarkanakmens Lāpa
+  redstone_block: Sarkanakmens bloks
+  repeater: Sarkanakmens atkārtotājs
+  comparator: Sarkanakmens salīdzinātājs
+  piston: Virzulis
+  sticky_piston: Lipīgs virzulis
+  slime_block: Gļotu bloks
+  honey_block: Medus Bloks
+  observer: Novērotājs
+  hopper: Piltuve
+  dispenser: Izšāvējs
+  dropper: Izsviedējs
+  lectern: Grāmatu Statīvs
+  target: Mērķis
+  lever: Svira
+  lightning_rod: Zibensnovedējs
+  daylight_detector: Dienasgaismu detektors
+  sculk_sensor: Peilētājs
+  tripwire_hook: Lamatu āķis
+  trapped_chest: Lamatu Lāde
+  tnt: Dinamīts
+  redstone_lamp: Sarkanakmens Lampa
+  note_block: Nošu bloks
+  stone_button: Akmens poga
+  polished_blackstone_button: Pulēta Melnakmens Poga
+  oak_button: Ozolkoka poga
+  spruce_button: Egles poga
+  birch_button: Bērza poga
+  jungle_button: Džungļu poga
+  acacia_button: Akācijas poga
+  dark_oak_button: Tumša ozolkoka poga
+  crimson_button: Tumšsarkana Poga
+  warped_button: Dīvaina Poga
+  stone_pressure_plate: Akmens spiediena plāksne
+  polished_blackstone_pressure_plate: Pulēta Melnakmens Spiediena Plāksne
+  light_weighted_pressure_plate: Viegla spiediena plātne
+  heavy_weighted_pressure_plate: Smaga spiediena plātne
+  oak_pressure_plate: Ozolkoka spiediena plāksne
+  spruce_pressure_plate: Egles spiediena plāksne
+  birch_pressure_plate: Bērza spiediena plāksne
+  jungle_pressure_plate: Džungļu spiediena plāksne
+  acacia_pressure_plate: Akāciju spiediena plāksne
+  dark_oak_pressure_plate: Tumša ozolkoka spiediena plāksne
+  crimson_pressure_plate: Tumšsarkana Spiediena Plāksne
+  warped_pressure_plate: Izlocīta Spiediena Plāksne
   iron_door: Dzelzs druvis
   oak_door: Ozolkoka durvis
   spruce_door: Egles durvis
@@ -572,8 +645,42 @@ material:
   dark_oak_door: Tumša ozolkoka durvis
   crimson_door: Tumšsarkanas Durvis
   warped_door: Dīvainas Durvis
-  repeater: Sarkanakmens atkārtotājs
-  comparator: Sarkanakmens salīdzinātājs
+  iron_trapdoor: Dzelzs lūka
+  oak_trapdoor: Ozolkoka lūka
+  spruce_trapdoor: Egles lūka
+  birch_trapdoor: Bērza lūka
+  jungle_trapdoor: Džungļu lūka
+  acacia_trapdoor: Akācijas lūka
+  dark_oak_trapdoor: Tumša ozolkoka lūka
+  crimson_trapdoor: Tumšsarkana Lūka
+  warped_trapdoor: Dīvaina Lūka
+  oak_fence_gate: Žoga vārti
+  spruce_fence_gate: Egles žoga vārti
+  birch_fence_gate: Bērza žoga vārti
+  jungle_fence_gate: Džungļu žoga Vārti
+  acacia_fence_gate: Akācijas žoga vārti
+  dark_oak_fence_gate: Tumša ozolkoka žoga Vārti
+  crimson_fence_gate: Tumšsarkanas Žoga Durvis
+  warped_fence_gate: Izlocīta žoga vārti
+  powered_rail: Elektriskās sliedes
+  detector_rail: Detektorsliedes
+  rail: Sliedes
+  activator_rail: Aktivatora Sliedes
+  saddle: Segli
+  minecart: Vagons
+  chest_minecart: Vagons ar lādi
+  furnace_minecart: Lokomotīve
+  tnt_minecart: Vagons ar dinamītu
+  hopper_minecart: Vagons ar piltuvi
+  carrot_on_a_stick: Burkāns uz Kociņa
+  warped_fungus_on_a_stick: Dīvaina Sēne uz Nūjas
+  elytra: Deltaplāns
+  oak_boat: Ozolkoka laiva
+  spruce_boat: Egles koka laiva
+  birch_boat: Bērza koka laiva
+  jungle_boat: Džungļu laiva
+  acacia_boat: Akācijas koka laiva
+  dark_oak_boat: Tumša ozolkoka laiva
   structure_block: Struktūras bloks
   jigsaw: Finierzāģa Bloks
   turtle_helmet: Bruņurupuča čaula
@@ -585,7 +692,15 @@ material:
   coal: Ogles
   charcoal: Kokogles
   diamond: Dimants
+  emerald: Smaragds
+  lapis_lazuli: Lazurīts
+  quartz: Elles kvarcs
+  amethyst_shard: Ametista lauska
+  raw_iron: Jēldzelzs
   iron_ingot: Dzelzs stienis
+  raw_copper: Jēlvarš
+  copper_ingot: Vara stienis
+  raw_gold: Jēlzelts
   gold_ingot: Zelta stienis
   netherite_ingot: Nezerīta Stienis
   netherite_scrap: Neterīta Gabaliņš
@@ -665,33 +780,31 @@ material:
   acacia_sign: Akācijas Zīme
   dark_oak_sign: Tumšā Ozolkoka Zīme
   crimson_sign: Tumšsarkana Zīme
-  warped_sign: Dīvaina Zīme
+  warped_sign: Izlocīta Zīme
   bucket: Spainis
   water_bucket: Spainis ar ūdeni
   lava_bucket: Spainis ar lavu
-  minecart: Vagons
-  saddle: Segli
-  redstone: Sarkanakmens putekļi
+  powder_snow_bucket: Drupena sniega spainis
   snowball: Sniega pika
-  oak_boat: Ozolkoka laiva
   leather: Āda
   milk_bucket: Piena spainis
   pufferfish_bucket: Pūšļa zivs spainis
   salmon_bucket: Laša spainis
   cod_bucket: Mencas spainis
   tropical_fish_bucket: Tropiskās zivs spainis
+  axolotl_bucket: Spainis ar Aksolotli
   brick: Ķieģelis
   clay_ball: Māla Bumba
   dried_kelp_block: Izkaltētu Brūnaļģu Bloks
   paper: Papīrs
   book: Grāmata
   slime_ball: Gļotu bumba
-  chest_minecart: Vagons ar lādi
-  furnace_minecart: Lokomotīve
   egg: Ola
   compass: Kompass
+  bundle: Sainis
   fishing_rod: Makšķere
   clock: Pulkstenis
+  spyglass: Tālskatis
   glowstone_dust: Mirdzakmens putekļi
   cod: Jēla Menca
   salmon: Jēls lasis
@@ -700,8 +813,8 @@ material:
   cooked_cod: Cepta Menca
   cooked_salmon: Cepts lasis
   ink_sac: Tintes maisiņš
+  glow_ink_sac: Spīdošais Tintes Maisiņš
   cocoa_beans: Kakao pupiņas
-  lapis_lazuli: Lazurīts
   white_dye: Balta Krāsviela
   orange_dye: Oranža krāsa
   magenta_dye: Violēta krāsa
@@ -765,6 +878,7 @@ material:
   cauldron: Katls
   ender_eye: Endera Acs
   glistering_melon_slice: Arbūza šķēle
+  axolotl_spawn_egg: Aksolotļa radīšanas ola
   bat_spawn_egg: Sikspārņa radīšanas ola
   bee_spawn_egg: Bites Radīšanas Ola
   blaze_spawn_egg: Liesmekļa radīšanas ola
@@ -783,6 +897,8 @@ material:
   evoker_spawn_egg: Evokera radīšanas ola
   fox_spawn_egg: Lapsas radīšanas ola
   ghast_spawn_egg: Spoka radīšanas ola
+  glow_squid_spawn_egg: Spīdoša Kalmāra radīšanas ola
+  goat_spawn_egg: Kazas radīšanas ola
   guardian_spawn_egg: Sarga radīšanas ola
   hoglin_spawn_egg: Hoglina Radīšanas Ola
   horse_spawn_egg: Zirga radīšanas ola
@@ -833,8 +949,8 @@ material:
   fire_charge: Ugunsbumba
   writable_book: Grāmata un Spalva
   written_book: Sarakstīta Grāmata
-  emerald: Smaragds
   item_frame: Priekšmetu Rāmis
+  glow_item_frame: Spīdošs Priekšmetu Rāmis
   flower_pot: Puķupods
   carrot: Burkāns
   potato: Kartupelis
@@ -848,17 +964,12 @@ material:
   zombie_head: Zombija galva
   creeper_head: Krīpera Galva
   dragon_head: Pūķa galva
-  carrot_on_a_stick: Burkāns uz Kociņa
-  warped_fungus_on_a_stick: Dīvaina Sēne uz Nūjas
   nether_star: Nether Zvaigzne
   pumpkin_pie: Ķirbju pīrāgs
   firework_rocket: Salūta raķete
   firework_star: Salūta zvaigzne
   enchanted_book: Uzlabota Grāmata
   nether_brick: Elles Ķieģeļi
-  quartz: Elles kvarcs
-  tnt_minecart: Vagons ar dinamītu
-  hopper_minecart: Vagons ar piltuvi
   prismarine_shard: Prismarīna Lauska
   prismarine_crystals: Prismarīna Kristāli
   rabbit: Jēla truša gaļa
@@ -904,12 +1015,6 @@ material:
   tipped_arrow: Uzlabotas bultas
   lingering_potion: Ilgstošā Dzira
   shield: Vairogs
-  elytra: Deltaplāns
-  spruce_boat: Egles koka laiva
-  birch_boat: Bērza koka laiva
-  jungle_boat: Džungļu laiva
-  acacia_boat: Akācijas koka laiva
-  dark_oak_boat: Tumša ozolkoka laiva
   totem_of_undying: Nemirstīgā totēms
   shulker_shell: Šulkera Čaula
   iron_nugget: Dzelzs pārsla
@@ -948,13 +1053,13 @@ material:
   cartography_table: Kartogrāfijas Galds
   fletching_table: Bultu Kalšanas Galds
   grindstone: Galoda
-  lectern: Grāmatu Statīvs
   smithing_table: Kalēja Galds
   stonecutter: Akmeņkalis
   bell: Zvans
   lantern: Laterna
   soul_lantern: Dvēseļu Laterna
   sweet_berries: Saldās ogas
+  glow_berries: Spīdošās ogas
   campfire: Ugunskurs
   soul_campfire: Dvēseļu ugunskurs
   shroomlight: Sēnesgaisma
@@ -962,12 +1067,8 @@ material:
   bee_nest: Bišu pūznis
   beehive: Bišu strops
   honey_bottle: Medus pudele
-  honey_block: Medus Bloks
   honeycomb_block: Šūnveida Bloks
   lodestone: gaismas akmens
-  netherite_block: Nederīta Bloks
-  ancient_debris: Senie Gruveši
-  target: Mērķis
   crying_obsidian: Raudošais Obsidiāns
   blackstone: Melnakmens
   blackstone_slab: Melnakmens Plāksne
@@ -982,6 +1083,28 @@ material:
   polished_blackstone_brick_stairs: Pulētu Melnakmens Ķieģeļu Kāpnes
   cracked_polished_blackstone_bricks: Ieplaisājuši Pulēti Melnakmens Ķieģeļi
   respawn_anchor: Atsaukt enkuru
+  candle: Svece
+  white_candle: Balta svece
+  orange_candle: Oranža svece
+  magenta_candle: Purpura svece
+  light_blue_candle: Gaiši zila svece
+  yellow_candle: Dzeltena svece
+  lime_candle: Gaišzaļa svece
+  pink_candle: Rozā svece
+  gray_candle: Pelēka svece
+  light_gray_candle: Gaišpelēka svece
+  cyan_candle: Tirkīzzila svece
+  purple_candle: Violeta svece
+  blue_candle: Zila svece
+  brown_candle: Brūna svece
+  green_candle: Zaļa svece
+  red_candle: Sarkana svece
+  black_candle: Melna svece
+  small_amethyst_bud: Mazs Ametista gabals
+  medium_amethyst_bud: Vidējs Ametista gabals
+  large_amethyst_bud: Liels Ametista gabals
+  amethyst_cluster: Ametistu kopa
+  pointed_dripstone: Tekošs Tekakmens
   water: Ūdens
   lava: Lava
   tall_seagrass: Gara jūraszāle
@@ -1004,6 +1127,9 @@ material:
   attached_melon_stem: Pievienots Arbūza Kāts
   pumpkin_stem: Ķirbju lieta
   melon_stem: Arbūza Kāts
+  water_cauldron: Ūdens katls
+  lava_cauldron: Lavas katls
+  powder_snow_cauldron: Drupena sniega katls
   end_portal: End portāls
   cocoa: Kakao
   tripwire: Lamatu aukla
@@ -1083,6 +1209,29 @@ material:
   potted_warped_fungus: Dīvaina sēne podiņā
   potted_crimson_roots: Tumšsarkanās sēnes saknes
   potted_warped_roots: Dīvaina sakne podiņā
+  candle_cake: Torte ar sveci
+  white_candle_cake: Torte ar baltu sveci
+  orange_candle_cake: Torte ar oranžu sveci
+  magenta_candle_cake: Torte ar violetu sveci
+  light_blue_candle_cake: Torte ar gaišzilu sveci
+  yellow_candle_cake: Torte ar dzeltenu sveci
+  lime_candle_cake: Torte ar gaišzaļu sveci
+  pink_candle_cake: Torte ar rozā sveci
+  gray_candle_cake: Torte ar pelēku sveci
+  light_gray_candle_cake: Torte ar gaišpelēku sveci
+  cyan_candle_cake: Torte ar ciānzilu sveci
+  purple_candle_cake: Torte ar purpuru sveci
+  blue_candle_cake: Torte ar zilu sveci
+  brown_candle_cake: Torte ar brūnu sveci
+  green_candle_cake: Torte ar zaļu sveci
+  red_candle_cake: Torte ar sarkanu sveci
+  black_candle_cake: Torte ar melnu sveci
+  powder_snow: Drupens sniegs
+  cave_vines: Alu liāna
+  big_dripleaf_stem: Liela krītlapa kāts
+  potted_azalea_bush: Acālija puķupodā
+  potted_flowering_azalea_bush: Ziedošā acālija puķupodā
+  grass_path: Zāles taka
   zombie_pigman_spawn_egg: Zombijcūkas radīšanas ola
   cactus_green: Kaktuszaļš
   dandelion_yellow: Pieneņu dzeltena
@@ -1169,46 +1318,48 @@ biome:
   crimson_forest: Tumšsarkanais Mežs
   warped_forest: Dīvains Mežs
   basalt_deltas: Bazalta Deltas
+  dripstone_caves: Tekakmens Alas
+  lush_caves: Aizaugušas alas
   nether: Elle
 enchantment:
-  fire_protection: Uguns Aizsardzība
-  sharpness: Asums
-  flame: Liesma
-  soul_speed: Dvēseļu ātrums
-  aqua_affinity: Ūdenslīdējs
-  punch: Sitiens
-  loyalty: Lojalitāte
-  depth_strider: Ūdens Staigātājs
-  vanishing_curse: Pazušanas lāsts
-  unbreaking: Nelūztošs
-  knockback: Atsitiens
-  luck_of_the_sea: Jūras Laime
-  binding_curse: Saistīšanas lāsts
-  fortune: Bagātība
   protection: Aizsardzība
-  efficiency: Efektivitāte
-  mending: Lāpīšana
-  frost_walker: Sala staigātājs
-  lure: Vilinājums
-  looting: Laupošs
-  piercing: Pīrsings
-  blast_protection: Sprādziena Aizsardzība
-  smite: Sods
-  multishot: Multišāviens
-  fire_aspect: Uguns Aspekts
-  channeling: Fokusējošs
-  sweeping: Slaucīšana robeža
-  thorns: Ērkšķi
-  bane_of_arthropods: Posmkāju Posts
-  respiration: Elpošana
-  riptide: Riptīds
-  silk_touch: Zīda pieskāriens
-  quick_charge: Ātrā uzlāde
-  projectile_protection: Šāvienu aizsardzība
-  impaling: Caurdurošs
+  fire_protection: Uguns Aizsardzība
   feather_falling: Spalvas kritiens
+  blast_protection: Sprādziena Aizsardzība
+  projectile_protection: Šāvienu aizsardzība
+  respiration: Elpošana
+  aqua_affinity: Ūdenslīdējs
+  thorns: Ērkšķi
+  depth_strider: Ūdens Staigātājs
+  frost_walker: Sala staigātājs
+  binding_curse: Saistīšanas lāsts
+  sharpness: Asums
+  smite: Sods
+  bane_of_arthropods: Posmkāju Posts
+  knockback: Atsitiens
+  fire_aspect: Uguns Aspekts
+  looting: Laupošs
+  sweeping: Slaucīšana robeža
+  efficiency: Efektivitāte
+  silk_touch: Zīda pieskāriens
+  unbreaking: Nelūztošs
+  fortune: Bagātība
   power: Spēks
+  punch: Sitiens
+  flame: Liesma
   infinity: Bezgalība
+  luck_of_the_sea: Jūras Laime
+  lure: Vilinājums
+  loyalty: Lojalitāte
+  impaling: Caurdurošs
+  riptide: Riptīds
+  channeling: Fokusējošs
+  multishot: Multišāviens
+  quick_charge: Ātrā uzlāde
+  piercing: Pīrsings
+  mending: Lāpīšana
+  vanishing_curse: Pazušanas lāsts
+  soul_speed: Dvēseļu ātrums
 potion:
   uncraftable: Neizveidojama dzira
   water: Ūdens pudele
@@ -1403,6 +1554,10 @@ entity:
   strider: Lēkātājs
   zoglin: Zoglins
   piglin_brute: Brutālais Piglins
+  axolotl: Aksolotlis
+  glow_item_frame: Spīdošais Priekšmetu Rāmis
+  glow_squid: Spīdošais Kalmārs
+  goat: Kaza
   fishing_hook: Pludiņš
   lightning: Zibens bulta
   player: Spēlētājs
@@ -2202,17 +2357,3 @@ villager_profession:
   shepherd: Aitu Gans
   toolsmith: Gatavo darbarīkus
   weaponsmith: Gatavo ieročus
-villager_career:
-  farmer: Zemnieks
-  fisherman: Zvejnieks
-  shepherd: Aitu Gans
-  fletcher: Bultu Kalējs
-  librarian: Bibliotekārs
-  cartographer: Kartogrāfs
-  cleric: Garīdznieks
-  armorer: Apbruņotājs
-  weapon_smith: Ieroču Kalējs
-  tool_smith: Darbarīku Kalējs
-  butcher: Miesnieks
-  leatherworker: Ādas apstrādātājs
-  nitwit: Muļķis

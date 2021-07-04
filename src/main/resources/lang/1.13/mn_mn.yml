@@ -1,19 +1,23 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:48                    #
+# Build time: 2021-07-04 21:46:04                    #
 # ####################################################
 language:
   code: mn_mn
   name: Монгол
   region: Монгол Улс
 material:
+  black_terracotta: Хар шавар
   blaze_rod: Түймэрдэгчийн савх
+  blue_terracotta: Хөх шавар
   brain_coral_wall_fan: Угалзарсан хананы шүр
+  brown_terracotta: Бор шавар
   bubble_coral_wall_fan: Бөмбөлгөн хананы шүр
   clay_ball: Шавар
   cookie: Жигэнэмэг
   cut_red_sandstone: Гөлгөр улаан элсэн чулуу
   cut_sandstone: Гөлгөр элсэн чулуу
   cyan_stained_glass: Цайвар хөх будагтай шил
+  cyan_terracotta: Цэнхэр шавар
   dandelion: Багваахай цэцэг
   dead_brain_coral_fan: Үхсэн угалзарсан шүр
   dead_brain_coral_wall_fan: Үхсэн угалзарсан хананы шүр
@@ -40,10 +44,17 @@ material:
   diamond_sword: Алмазан сэлэм
   end_stone_bricks: Ээнд чулуун тоосго
   fire_coral_wall_fan: Гал хананы шүр
+  gray_terracotta: Саарал шавар
+  green_terracotta: Ногоон шавар
   horn_coral_wall_fan: Эвэр хананы шүр
+  lapis_ore: Номингийн хүдэр
   light_blue_carpet: Цэнхэр хивс
   light_blue_stained_glass: Цэнхэр будагтай шил
   light_blue_stained_glass_pane: Цэнхэр будагтай шилэн хавтан
+  light_blue_terracotta: Цайвар цэнхэр шавар
+  light_gray_terracotta: Цайвар саарал шавар
+  lime_terracotta: Цайвар ногоон шавар
+  magenta_terracotta: Ягаан шавар
   melon_stem: Хулууны иш
   name_tag: Нэртэй зүүлт
   orange_concrete: Улбар бетон
@@ -51,6 +62,7 @@ material:
   orange_glazed_terracotta: Улбар хээтэй шавар
   orange_terracotta: Улбар шавар
   painting: Зураг
+  pink_terracotta: Цайвар ягаан шавар
   player_head: Хүний толгой
   player_wall_head: Хүний толгой хананд
   popped_chorus_fruit: Дахилтат жимсний хэлтэрхий
@@ -58,15 +70,22 @@ material:
   potted_oxeye_daisy: Ваартай хонин нүдэн цэцэг
   potted_poppy: Ваартай намуу цэцэг
   powered_rail: Идэвхжсэн төмөр зам
+  purple_terracotta: Нил ягаан шавар
   redstone: Улаан чулуу
   redstone_wire: Улаан чулууны тоос
+  red_terracotta: Улаан шавар
   sea_pickle: Гэрлэн биет
   smooth_quartz: Гөлгөр кварц
-  soul_sand: Сүнстэй элс
+  squid_spawn_egg: Наймаалж төрүүлэх өндөг
+  structure_void: Хоосон
+  terracotta: Шавар
   tipped_arrow: Хортой сум
   tripwire_hook: Тээглүүрийн утасны дэгээ
   tube_coral_wall_fan: Хоолой хананы шүр
   vex_spawn_egg: Сүнс төрүүлэх өндөг
+  vine: Ороонги ургамал
+  white_terracotta: Цагаан шавар
+  yellow_terracotta: Шар шавар
   zombie_wall_head: Ханан дээрх зомбины толгой
 biome:
   the_end: Төгсгөл
@@ -116,6 +135,7 @@ entity:
   vex: Сүнс
   vindicator: Хамгаалагч
   wither: Витэр
+  squid: Наймаалж
   fishing_hook: Загасны өгөөш
 effect:
   slow_digging: Удаан ухах
@@ -129,3 +149,5 @@ named:
   unknown_entity: 'Мэдэгдэхгүй субъект: %s'
 banner_pattern:
   '983045': Цайвар цэнхэр загалмай
+villager_profession:
+  nitwit: Ажилгүй тосгоны хүн

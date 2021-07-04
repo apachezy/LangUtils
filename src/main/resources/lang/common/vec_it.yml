@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:49                    #
+# Build time: 2021-07-04 21:46:04                    #
 # ####################################################
 language:
   code: vec_it
@@ -14,10 +14,17 @@ material:
   polished_diorite: Diorite łustra
   andesite: Andezite
   polished_andesite: Andezite łustra
+  deepslate: Ardesia fonda
+  cobbled_deepslate: Ardesia fonda cogołàda
+  polished_deepslate: Ardesia fonda lustra
+  calcite: Calsite
+  tuff: Tufo
+  dripstone_block: Bloco de pirołoto
   grass_block: Bloco de erba
   dirt: Tera
   coarse_dirt: Tera seca
   podzol: Podzol
+  rooted_dirt: Tera inraisada
   crimson_nylium: Nesełio crèmeze
   warped_nylium: Nesełio strùpia
   cobblestone: Piere
@@ -39,10 +46,62 @@ material:
   sand: Sabia
   red_sand: Sabia rosa
   gravel: Giara
-  gold_ore: Oro grezo
-  iron_ore: Fero grezo
   coal_ore: Carbon grezo
+  deepslate_coal_ore: Carbon grezo in ardesia fonda
+  iron_ore: Fero grezo
+  deepslate_iron_ore: Fero grezo in ardesia fonda
+  copper_ore: Ramo grezo
+  deepslate_copper_ore: Ramo grezo in ardesia fonda
+  gold_ore: Oro grezo
+  deepslate_gold_ore: Oro grezo in ardesia fonda
+  redstone_ore: Redstone greza
+  deepslate_redstone_ore: Redstone greza in ardesia fonda
+  emerald_ore: Zmeraldo grezo
+  deepslate_emerald_ore: Zmeraldo grezo in ardesia fonda
+  lapis_ore: Łapislàsułi grezi
+  deepslate_lapis_ore: Łapislàsaro grezo in ardesia fonda
+  diamond_ore: Diamante grezo
+  deepslate_diamond_ore: Brilante grezo in ardesia fonda
   nether_gold_ore: Oro de'l Nether grézo
+  nether_quartz_ore: Cuarso de'l Nether grezo
+  ancient_debris: Ruinassi antighi
+  coal_block: Bloco de carbon
+  raw_iron_block: Bloco de fero grezo
+  raw_gold_block: Bloco de oro grezo
+  amethyst_block: Bloco de ametista
+  budding_amethyst: Rabuto de Ametista
+  iron_block: Bloco de fero
+  copper_block: Bloco de rame
+  gold_block: Bloco de oro
+  diamond_block: Bloco de diamante
+  netherite_block: Bloco de netherite
+  exposed_copper: Ramo mostrà
+  weathered_copper: Ramo ruxenìo
+  oxidized_copper: Rame ossidà
+  cut_copper: Ramo intajà
+  exposed_cut_copper: Ramo mostrà intaja
+  weathered_cut_copper: Bloco de ramo intajà ruxenìo
+  oxidized_cut_copper: Rame ossidà intaja
+  cut_copper_stairs: Scałe de ramo intajà
+  exposed_cut_copper_stairs: Scałe de ramo mostrà intajà
+  weathered_cut_copper_stairs: Scałe de ramo intajà ruxenìo
+  oxidized_cut_copper_stairs: Scałe de ramo mostrà ossidà
+  cut_copper_slab: Liston de ramo intajà
+  exposed_cut_copper_slab: Łiston de ramo mostrà intajà
+  weathered_cut_copper_slab: Łiston de ramo intajà ruxenìo
+  oxidized_cut_copper_slab: Łiston de ramo intajà ossidà
+  waxed_copper_block: Bloco de ramo incerà
+  waxed_exposed_copper: Ramo mostrà incerà
+  waxed_weathered_copper: Bloco de ramo incerà ruxenìo
+  waxed_cut_copper: Bloco de ramo incerà intajà
+  waxed_exposed_cut_copper: Ramo mostrà intajà incerà
+  waxed_weathered_cut_copper: Ramo incerà intajà ruxenìo
+  waxed_cut_copper_stairs: Scałe de ramo incerà intajà
+  waxed_exposed_cut_copper_stairs: Scałe de ramo mostrà intajà incerà
+  waxed_weathered_cut_copper_stairs: Scałe de ramo incerà ruxenìo
+  waxed_cut_copper_slab: Łiston de ramo incerà intajà
+  waxed_exposed_cut_copper_slab: Łiston de ramo mostrà intajà incerà
+  waxed_weathered_cut_copper_slab: Łiston de ramo incerà ruxenìo
   oak_log: Fusto de ròvare
   spruce_log: Fusto de avede
   birch_log: Fusto de brédoła
@@ -81,26 +140,23 @@ material:
   jungle_leaves: Foje de ła jungla
   acacia_leaves: Foje de acasia
   dark_oak_leaves: Foje de ròvare scura
+  azalea_leaves: Foje de azalea
   sponge: Sponga
   wet_sponge: Sponga moja
   glass: Vero
-  lapis_ore: Łapislàsułi grezi
-  lapis_block: Bloco de Łapislàsułi
-  dispenser: Despensador
+  tinted_glass: Vero scurìo
+  lapis_block: Bloco de Lapislàsuli
   sandstone: Arenaria
   chiseled_sandstone: Arenaria łavorà
   cut_sandstone: Arenaria intajà
-  note_block: Bloco sonoro
-  powered_rail: Roara ałimentada
-  detector_rail: Roara rełevadora
-  sticky_piston: Piston tacaiso
   cobweb: Tełarina
   grass: Erba
   fern: Felze
+  azalea: Azalea
+  flowering_azalea: Azalea fiorìa
   dead_bush: Rame seche
   seagrass: Erba acuàdega
   sea_pickle: Serùmoło de mar
-  piston: Piston
   white_wool: Łana bianca
   orange_wool: Łana naransa
   magenta_wool: Łana mazenta
@@ -130,6 +186,7 @@ material:
   cornflower: Sełestin
   lily_of_the_valley: Łiłio
   wither_rose: Roza de Wither
+  spore_blossom: Bòcoło de spore
   brown_mushroom: Fongo maron
   red_mushroom: Fongo roso
   crimson_fungus: Fongo crèmeze
@@ -141,9 +198,12 @@ material:
   twisting_vines: Roveghìn intriveładi
   sugar_cane: Cana da sùcaro
   kelp: Àlega
+  moss_carpet: Tapéo de muscio
+  moss_block: Bloco de muscio
+  hanging_roots: Raise pendente
+  big_dripleaf: Fojogiossa granda
+  small_dripleaf: Fojogiossa picenina
   bamboo: Canavera
-  gold_block: Bloco de oro
-  iron_block: Bloco de fero
   oak_slab: Łiston de ròvare
   spruce_slab: Łiston de avede
   birch_slab: Łiston de brédoła
@@ -173,11 +233,10 @@ material:
   smooth_sandstone: Arenaria łustra
   smooth_stone: Piera łustra
   bricks: Cuarełi
-  tnt: TNT
   bookshelf: Librarìa
   mossy_cobblestone: Piere musciade
   obsidian: Osidiana
-  torch: Torsa
+  torch: Łuzeta
   end_rod: Zbara de'l End
   chorus_plant: Pianta de chorus
   chorus_flower: Fior de chorus
@@ -187,27 +246,11 @@ material:
   spawner: Zenarador
   oak_stairs: Scałe de ròvare
   chest: Baùl
-  diamond_ore: Diamante grezo
-  diamond_block: Bloco de diamante
   crafting_table: Banco da łaoro
   farmland: Tera sapada
   furnace: Fornaze
   ladder: Scałion
-  rail: Roara
   cobblestone_stairs: Scałe de piera
-  lever: Łieva
-  stone_pressure_plate: Pedana a presion de piera
-  oak_pressure_plate: Pedana a presion de ròvare
-  spruce_pressure_plate: Pedana a presion de avede
-  birch_pressure_plate: Pedana a presion de brédoła
-  jungle_pressure_plate: Pedana a presion de ła jungla
-  acacia_pressure_plate: Pedana a presion de acasia
-  dark_oak_pressure_plate: Pedana a presion de ròvare scura
-  crimson_pressure_plate: Pedana a presion crèmeze
-  warped_pressure_plate: Pedana a presion strùpia
-  polished_blackstone_pressure_plate: Pedana a presion de piera negra łustra
-  redstone_ore: Redstone greza
-  redstone_torch: Torsa de redstone
   snow: Neve
   ice: Giaso
   snow_block: Bloco de neve
@@ -224,48 +267,40 @@ material:
   warped_fence: Ringhiera strùpia
   pumpkin: Suca
   carved_pumpkin: Suca intajada
+  jack_o_lantern: Łanterna de suca
   netherrack: Netherrack
-  soul_sand: Sabia de łe àneme
+  soul_sand: Sabia de l'ànema
   soul_soil: Tera de l'ànema
   basalt: Bazalto
   polished_basalt: Bazalto łustro
+  smooth_basalt: Bazalto łustro
   soul_torch: Torsa de łe àneme
   glowstone: Zluzorite
-  jack_o_lantern: Łanterna de suca
-  oak_trapdoor: Rebalta de ròvare
-  spruce_trapdoor: Rebalta de avede
-  birch_trapdoor: Rebalta de brédoła
-  jungle_trapdoor: Rebalta de ła jungla
-  acacia_trapdoor: Rebalta de acasia
-  dark_oak_trapdoor: Rebalta de ròvare
-  crimson_trapdoor: Rebalta crèmeze
-  warped_trapdoor: Rebalta strùpia
   infested_stone: Piera infestada
   infested_cobblestone: Piere infestade
   infested_stone_bricks: Cuarełi de piera infestadi
   infested_mossy_stone_bricks: Cuarełi de piera musciadi infestadi
   infested_cracked_stone_bricks: Cuarełi de piera crepè infestadi
   infested_chiseled_stone_bricks: Cuarełi de piera łavoradi infestadi
+  infested_deepslate: Ardesia fonda infestada
   stone_bricks: Cuarełi de piera
   mossy_stone_bricks: Cuarełi de piera musciadi
   cracked_stone_bricks: Cuarełi de piera crepadi
   chiseled_stone_bricks: Cuarełi de piera łavoradi
+  deepslate_bricks: Cuarèłi de ardesia fonda
+  cracked_deepslate_bricks: Quarełi de ardesia fonda crepada
+  deepslate_tiles: Matonèłe de ardesia fonda
+  cracked_deepslate_tiles: Matonèłe de ardesia fonda crepada
+  chiseled_deepslate: Ardesia fonda scarpełà
   brown_mushroom_block: Bloco de fongo maron
   red_mushroom_block: Bloco de fongo roso
   mushroom_stem: Ganbo de fongo
   iron_bars: Sbare de fero
-  chain: Cadena
+  chain: In cadena
   glass_pane: Panel de vero
   melon: Inguria
   vine: Ranpegante
-  oak_fence_gate: Sarajo de ròvare
-  spruce_fence_gate: Sarajo de avede
-  birch_fence_gate: Sarajo de brédoła
-  jungle_fence_gate: Sarajo de ła jungla
-  acacia_fence_gate: Sarajo de acasia
-  dark_oak_fence_gate: Sarajo de ròvare scura
-  crimson_fence_gate: Sarajo crèmeze
-  warped_fence_gate: Sarajo strùpio
+  glow_lichen: Lichen lusente
   brick_stairs: Scałe de cuarełi
   stone_brick_stairs: Scałe de cuarełi de piera
   mycelium: Micełio
@@ -280,18 +315,15 @@ material:
   end_stone: Piera de'l End
   end_stone_bricks: Cuarełi de piera de'l End
   dragon_egg: Ovo de dragon
-  redstone_lamp: Lànpada redstone
   sandstone_stairs: Scałe de arenaria
-  emerald_ore: Zmeraldo grezo
   ender_chest: Baùl de Ender
-  tripwire_hook: Ingancio par fiło
   emerald_block: Bloco de zmeraldo
   spruce_stairs: Scałe de avede
   birch_stairs: Scałe de brédoła
   jungle_stairs: Scałe de ła jungla
   crimson_stairs: Scałe crèmeze
   warped_stairs: Scałe strùpie
-  command_block: Bloco comando
+  command_block: Bloco órdeni
   beacon: Faro
   cobblestone_wall: Mureta de piere
   mossy_cobblestone_wall: Mureta de piere musciade
@@ -310,33 +342,18 @@ material:
   blackstone_wall: Mureta de piera negra
   polished_blackstone_wall: Mureta de piera negra łustra
   polished_blackstone_brick_wall: Mureta de cuarełi de piera negra łustra
-  stone_button: Boton de piera
-  oak_button: Boton de ròvare
-  spruce_button: Boton de avede
-  birch_button: Boton de brédoła
-  jungle_button: Boton de ła jungla
-  acacia_button: Boton de acasia
-  dark_oak_button: Boton de ròvare scura
-  crimson_button: Boton crèmeze
-  warped_button: Boton strùpio
-  polished_blackstone_button: Boton de piera negra łustra
+  cobbled_deepslate_wall: Mureta ardesia fonda cogołàda
+  polished_deepslate_wall: Mureta de ardesia fonda lustra
+  deepslate_brick_wall: Mureta de cuarèłi de ardesia fonda
+  deepslate_tile_wall: Mureta de matonèłe de ardesia fonda
   anvil: Ancùzene
   chipped_anvil: Ancùzene schejà
   damaged_anvil: Ancùzene danezada
-  trapped_chest: Baùl tràpoła
-  light_weighted_pressure_plate: Pedana a pezo (pezi picenini)
-  heavy_weighted_pressure_plate: Pedana a pezo (pezi grosi)
-  daylight_detector: Sensor de łuze diurna
-  redstone_block: Bloco de redstone
-  nether_quartz_ore: Cuarso de'l Nether grezo
-  hopper: Tramoza
   chiseled_quartz_block: Bloco de cuarso łavorà
   quartz_block: Bloco de cuarso
   quartz_bricks: Cuarełi de cuarso
   quartz_pillar: Piłastro de cuarso
   quartz_stairs: Scałe de cuarso
-  activator_rail: Roara de ativasion
-  dropper: Dropador
   white_terracotta: Teracota bianca
   orange_terracotta: Teracota naransa
   magenta_terracotta: Teracota mazenta
@@ -354,31 +371,29 @@ material:
   red_terracotta: Teracota rosa
   black_terracotta: Teracota negra
   barrier: Bariera
-  iron_trapdoor: Rebalta de fero
+  light: Luxe
   hay_block: Bała de fen
-  white_carpet: Tapé bianco
-  orange_carpet: Tapé naransa
-  magenta_carpet: Tapé mazenta
-  light_blue_carpet: Tapé sełeste
-  yellow_carpet: Tapé zało
-  lime_carpet: Tapé lime
-  pink_carpet: Tapé roza
-  gray_carpet: Tapé grizo
-  light_gray_carpet: Tapé grizo ciaro
-  cyan_carpet: Tapé sian
-  purple_carpet: Tapé vioła
-  blue_carpet: Tapé blè
-  brown_carpet: Tapé maron
-  green_carpet: Tapé verdo
-  red_carpet: Tapé roso
-  black_carpet: Tapé negro
+  white_carpet: Tapéo bianco
+  orange_carpet: Tapéo naransa
+  magenta_carpet: Tapéo magenta
+  light_blue_carpet: Tapéo çeleste
+  yellow_carpet: Tapéo zało
+  lime_carpet: Tapéo lime
+  pink_carpet: Tapéo rosa
+  gray_carpet: Tapéo griso
+  light_gray_carpet: Tapéo griso ciaro
+  cyan_carpet: Tapéo çian
+  purple_carpet: Tapéo vioła
+  blue_carpet: Tapéo blè
+  brown_carpet: Tapéo maron
+  green_carpet: Tapéo verdo
+  red_carpet: Tapéo rosso
+  black_carpet: Tapéo negro
   terracotta: Teracota
-  coal_block: Bloco de carbon
   packed_ice: Giaso macà
   acacia_stairs: Scałe de acasia
   dark_oak_stairs: Scałe de ròvare scura
-  slime_block: Bloco de zeładina
-  grass_path: Senter de erba
+  dirt_path: Sentier batùo
   sunflower: Zirasol
   lilac: Secomoro
   rose_bush: Rozar
@@ -428,15 +443,14 @@ material:
   chiseled_red_sandstone: Arenaria rosa łavorà
   cut_red_sandstone: Arenaria rosa intajada
   red_sandstone_stairs: Scałe de arenaria rosa
-  repeating_command_block: Bloco comando a repetision
-  chain_command_block: Bloco comando a cadena
+  repeating_command_block: Bloco órdeni a repetision
+  chain_command_block: Bloco órdeni a cadena
   magma_block: Bloco de magma
   nether_wart_block: Bloco de pori de'l Nether
   warped_wart_block: Bloco de pòri strùpio
   red_nether_bricks: Cuarełi rosi de'l Nether
   bone_block: Bloco de osi
   structure_void: Vudo de ła strutura
-  observer: Oservador
   shulker_box: Scàtoła de shulker
   white_shulker_box: Scàtoła de shulker bianca
   orange_shulker_box: Scàtoła de shulker naransa
@@ -549,6 +563,10 @@ material:
   red_nether_brick_stairs: Scałe de cuarełi rosi de'l Nether
   polished_andesite_stairs: Scałe de andezite łustra
   diorite_stairs: Scałe de diorite
+  cobbled_deepslate_stairs: Scałe ardesia fonda cogołàda
+  polished_deepslate_stairs: Scałe de ardesia fonda lustra
+  deepslate_brick_stairs: Scałe de cuarèłi de ardesia fonda
+  deepslate_tile_stairs: Scałe de matonèłe de ardesia fonda
   polished_granite_slab: Łiston de granito łustro
   smooth_red_sandstone_slab: Łiston de arenaria rosa łustra
   mossy_stone_brick_slab: Łiston de cuarełi de piera musciadi
@@ -562,7 +580,57 @@ material:
   red_nether_brick_slab: Łiston de cuarełi rosi de'l Nether
   polished_andesite_slab: Łiston de andezite łustra
   diorite_slab: Łiston de diorite
+  cobbled_deepslate_slab: Łiston ardesia fonda cogołàda
+  polished_deepslate_slab: Łiston de ardesia fonda lustra
+  deepslate_brick_slab: Łiston de cuarèłi de ardesia fonda
+  deepslate_tile_slab: Łiston de matonèłe de ardesia fonda
   scaffolding: Inpalcadura
+  redstone: Pólvar de redstone
+  redstone_torch: Łuzeta de redstone
+  redstone_block: Bloco de redstone
+  repeater: Repetidor de redstone
+  comparator: Conparador de redstone
+  piston: Piston
+  sticky_piston: Piston tacaiso
+  slime_block: Bloco de zeładina
+  honey_block: Bloco de mel
+  observer: Oservador
+  hopper: Tramoza
+  dispenser: Despensador
+  dropper: Dropador
+  lectern: Letorin
+  target: Bersajo
+  lever: Łieva
+  lightning_rod: Parafulmen
+  daylight_detector: Sensor de łuze diurna
+  sculk_sensor: Sensor de sculk
+  tripwire_hook: Ingancio par fiło
+  trapped_chest: Baùl tràpoła
+  tnt: TNT
+  redstone_lamp: Lànpada redstone
+  note_block: Bloco sonoro
+  stone_button: Boton de piera
+  polished_blackstone_button: Boton de piera negra łustra
+  oak_button: Boton de ròvare
+  spruce_button: Boton de avede
+  birch_button: Boton de brédoła
+  jungle_button: Boton de ła jungla
+  acacia_button: Boton de acasia
+  dark_oak_button: Boton de ròvare scura
+  crimson_button: Boton crèmeze
+  warped_button: Boton strùpio
+  stone_pressure_plate: Pedana a presion de piera
+  polished_blackstone_pressure_plate: Pedana a presion de piera negra łustra
+  light_weighted_pressure_plate: Pedana a pezo (pezi picenini)
+  heavy_weighted_pressure_plate: Pedana a pezo (pezi grosi)
+  oak_pressure_plate: Pedana a presion de ròvare
+  spruce_pressure_plate: Pedana a presion de avede
+  birch_pressure_plate: Pedana a presion de brédoła
+  jungle_pressure_plate: Pedana a presion de ła jungla
+  acacia_pressure_plate: Pedana a presion de acasia
+  dark_oak_pressure_plate: Pedana a presion de ròvare scura
+  crimson_pressure_plate: Pedana a presion crèmeze
+  warped_pressure_plate: Pedana a presion strùpia
   iron_door: Porta de fero
   oak_door: Porta de ròvare
   spruce_door: Porta de avede
@@ -572,8 +640,42 @@ material:
   dark_oak_door: Porta de ròvare scura
   crimson_door: Porta crèmeze
   warped_door: Porta strùpia
-  repeater: Repetidor de redstone
-  comparator: Conparador de redstone
+  iron_trapdoor: Rebalta de fero
+  oak_trapdoor: Rebalta de ròvare
+  spruce_trapdoor: Rebalta de avede
+  birch_trapdoor: Rebalta de brédoła
+  jungle_trapdoor: Rebalta de ła jungla
+  acacia_trapdoor: Rebalta de acasia
+  dark_oak_trapdoor: Rebalta de ròvare
+  crimson_trapdoor: Rebalta crèmeze
+  warped_trapdoor: Rebalta strùpia
+  oak_fence_gate: Sarajo de ròvare
+  spruce_fence_gate: Sarajo de avede
+  birch_fence_gate: Sarajo de brédoła
+  jungle_fence_gate: Sarajo de ła jungla
+  acacia_fence_gate: Sarajo de acasia
+  dark_oak_fence_gate: Sarajo de ròvare scura
+  crimson_fence_gate: Sarajo crèmeze
+  warped_fence_gate: Sarajo strùpio
+  powered_rail: Roara ałimentada
+  detector_rail: Roara rełevadora
+  rail: Roara
+  activator_rail: Roara de ativasion
+  saddle: Seła
+  minecart: Carel da minera
+  chest_minecart: Carel co' baùl
+  furnace_minecart: Carel co' fornaze
+  tnt_minecart: Carel co' TNT
+  hopper_minecart: Carel co' tramoza
+  carrot_on_a_stick: Baston e carota
+  warped_fungus_on_a_stick: Fongo strùpio su bachéto
+  elytra: Elytre
+  oak_boat: Barca de ròvare
+  spruce_boat: Barca de avede
+  birch_boat: Barca de brédoła
+  jungle_boat: Barca de ła jungla
+  acacia_boat: Barca de acasia
+  dark_oak_boat: Barca de ròvare scura
   structure_block: Bloco strutura
   jigsaw: Bloco de architeto
   turtle_helmet: Zgusa de tartaruga
@@ -585,7 +687,14 @@ material:
   coal: Carbon
   charcoal: Carboneła
   diamond: Diamante
+  emerald: Zmeraldo
+  lapis_lazuli: Łapislàsułi
+  quartz: Cuarso de'l Nether
+  amethyst_shard: Scheza de ametista
+  raw_iron: Fero grezo
   iron_ingot: Łingoto de fero
+  copper_ingot: Lingoto de ramo
+  raw_gold: Oro grezo
   gold_ingot: Łingoto de oro
   netherite_ingot: Łingoto de netherite
   netherite_scrap: Sgrexenda de netherite
@@ -669,29 +778,27 @@ material:
   bucket: Secio
   water_bucket: Secio de àcua
   lava_bucket: Secio de łava
-  minecart: Carel da minera
-  saddle: Seła
-  redstone: Pólvar de redstone
+  powder_snow_bucket: Secio de neve polveroxa
   snowball: Bałoco
-  oak_boat: Barca de ròvare
   leather: Corame
   milk_bucket: Secio de łate
   pufferfish_bucket: Secio con pese bała
   salmon_bucket: Secio con salmon
   cod_bucket: Secio con merluso
   tropical_fish_bucket: Secio con pese tropical
+  axolotl_bucket: Secio con axolotl
   brick: Cuarel
   clay_ball: Bała de crea
   dried_kelp_block: Bloco de àlega seca
   paper: Fojo
   book: Łibro
   slime_ball: Bała de zeładina
-  chest_minecart: Carel co' baùl
-  furnace_minecart: Carel co' fornaze
   egg: Ovo
   compass: Bùsoła
+  bundle: Sachéto
   fishing_rod: Cana da pesca
   clock: Rełojo
+  spyglass: Canocial
   glowstone_dust: Pólvar de zluzorite
   cod: Merluso crùo
   salmon: Salmon crùo
@@ -700,8 +807,8 @@ material:
   cooked_cod: Merluso cozesto
   cooked_salmon: Salmon cozesto
   ink_sac: Saca de inciostro
+  glow_ink_sac: Saca de ingiostro luxénte
   cocoa_beans: Fave de cacào
-  lapis_lazuli: Łapislàsułi
   white_dye: Cołorante bianco
   orange_dye: Cołorante naransa
   magenta_dye: Cołorante mazenta
@@ -765,76 +872,79 @@ material:
   cauldron: Calderon
   ender_eye: Ocio de ender
   glistering_melon_slice: Feta de inguria zluzegante
-  bat_spawn_egg: Ovo zenarador de barbastreło
-  bee_spawn_egg: Ovo zenarador de ava
-  blaze_spawn_egg: Ovo zenarador de blaze
-  cat_spawn_egg: Ovo zenarador de gato
-  cave_spider_spawn_egg: Ovo zenarador de ranjo de łe grote
-  chicken_spawn_egg: Ovo zenarador de połastro
-  cod_spawn_egg: Ovo zenarador de merluso
-  cow_spawn_egg: Ovo zenarador de vaca
-  creeper_spawn_egg: Ovo zenarador de creeper
-  dolphin_spawn_egg: Ovo zenarador de dolfin
-  donkey_spawn_egg: Ovo zenarador de àzeno
-  drowned_spawn_egg: Ovo zenarador de negà
-  elder_guardian_spawn_egg: Ovo zenarador de guardian antigo
-  enderman_spawn_egg: Ovo zenarador de enderman
-  endermite_spawn_egg: Ovo zenarador de endermite
-  evoker_spawn_egg: Ovo zenarador de evocador
-  fox_spawn_egg: Ovo zenarador de volpe
-  ghast_spawn_egg: Ovo zenarador de ghast
-  guardian_spawn_egg: Ovo zenarador de guardian
-  hoglin_spawn_egg: Vòvo zenarador de Hoglin
-  horse_spawn_egg: Ovo zenarador de caval
-  husk_spawn_egg: Ovo zenarador de zonbi seco
-  llama_spawn_egg: Ovo zenarador de łama
-  magma_cube_spawn_egg: Ovo zenarador de cubo de magma
-  mooshroom_spawn_egg: Ovo zenarador de mooshroom
-  mule_spawn_egg: Ovo zenarador de muło
-  ocelot_spawn_egg: Ovo zenarador de gatopardo
-  panda_spawn_egg: Ovo zenarador de panda
-  parrot_spawn_egg: Ovo zenarador de papagal
-  phantom_spawn_egg: Ovo zenarador de phantom
-  pig_spawn_egg: Ovo zenarador de porsel
+  axolotl_spawn_egg: Ovo zenerador de axolotl
+  bat_spawn_egg: Ovo zenerador de barbastreło
+  bee_spawn_egg: Ovo zenerador de ava
+  blaze_spawn_egg: Ovo zenerador de blaze
+  cat_spawn_egg: Ovo zenerador de gato
+  cave_spider_spawn_egg: Ovo zenerador de ragno de le grote
+  chicken_spawn_egg: Ovo zenerador de polastro
+  cod_spawn_egg: Ovo zenerador de merlusso
+  cow_spawn_egg: Ovo zenerador de vaca
+  creeper_spawn_egg: Ovo zenerador de creeper
+  dolphin_spawn_egg: Ovo zenerador de dolfin
+  donkey_spawn_egg: Ovo zenerador de àseno
+  drowned_spawn_egg: Ovo zenerador de negà
+  elder_guardian_spawn_egg: Ovo zenerador de guardian antigo
+  enderman_spawn_egg: Ovo zenerador de enderman
+  endermite_spawn_egg: Ovo zenerador de endermite
+  evoker_spawn_egg: Ovo zenerador de evocador
+  fox_spawn_egg: Ovo zenerador de volpe
+  ghast_spawn_egg: Ovo zenerador de ghast
+  glow_squid_spawn_egg: Ovo zenerador de całamar luxénte
+  goat_spawn_egg: Ovo zenerador de cavra
+  guardian_spawn_egg: Ovo zenerador de guardian
+  hoglin_spawn_egg: Vòvo zenerador de Hoglin
+  horse_spawn_egg: Ovo zenerador de caval
+  husk_spawn_egg: Ovo zenerador de zonbi seco
+  llama_spawn_egg: Ovo zenerador de lama
+  magma_cube_spawn_egg: Ovo zenerador de cubo de magma
+  mooshroom_spawn_egg: Ovo zenerador de mooshroom
+  mule_spawn_egg: Ovo zenerador de mulo
+  ocelot_spawn_egg: Ovo zenerador de gatopardo
+  panda_spawn_egg: Ovo zenerador de panda
+  parrot_spawn_egg: Ovo zenerador de papagal
+  phantom_spawn_egg: Ovo zenerador de phantom
+  pig_spawn_egg: Ovo zenerador de porsel
   piglin_spawn_egg: Ovo zenarador de Piglin
-  piglin_brute_spawn_egg: Vòvo zenarador de Piglin bruto
-  pillager_spawn_egg: Ovo zenarador de sachejador
-  polar_bear_spawn_egg: Ovo zenarador de orso połar
-  pufferfish_spawn_egg: Ovo zenarador de pese bała
-  rabbit_spawn_egg: Ovo zenarador de conejo
+  piglin_brute_spawn_egg: Ovo zenerador de Piglin bruto
+  pillager_spawn_egg: Ovo zenerador de sachejador
+  polar_bear_spawn_egg: Ovo zenerador de orso polar
+  pufferfish_spawn_egg: Ovo zenerador de pesse bala
+  rabbit_spawn_egg: Ovo zenerador de conejo
   ravager_spawn_egg: Ovo zenarador de devastador
-  salmon_spawn_egg: Ovo zenarador de salmon
-  sheep_spawn_egg: Ovo zenarador de pégora
-  shulker_spawn_egg: Ovo zenarador de shulker
-  silverfish_spawn_egg: Ovo zenarador de pese arzentà
-  skeleton_spawn_egg: Ovo zenarador de schèłetro
-  skeleton_horse_spawn_egg: Ovo zenarador de caval schèłetro
-  slime_spawn_egg: Ovo zenarador de zeładina
-  spider_spawn_egg: Ovo zenarador de ranjo
-  squid_spawn_egg: Ovo zenarador de całamaro
-  stray_spawn_egg: Ovo zenarador de viandon
-  strider_spawn_egg: Vòvo zenarador de caminador
-  trader_llama_spawn_egg: Ovo zenarador de łama de'l marcante
-  tropical_fish_spawn_egg: Ovo zenarador de pese tropigal
-  turtle_spawn_egg: Ovo zenarador de tartaruga
-  vex_spawn_egg: Ovo zenarador de vex
-  villager_spawn_egg: Ovo zenarador de paezan
+  salmon_spawn_egg: Ovo zenerador de salmon
+  sheep_spawn_egg: Ovo zenerador de pégora
+  shulker_spawn_egg: Ovo zenerador de shulker
+  silverfish_spawn_egg: Ovo zenerador de pesse arzentà
+  skeleton_spawn_egg: Ovo zenerador de schèletro
+  skeleton_horse_spawn_egg: Ovo zenerador de caval schèletro
+  slime_spawn_egg: Ovo zenerador de zeladina
+  spider_spawn_egg: Ovo zenerador de ragno
+  squid_spawn_egg: Ovo zenerador de calamaro
+  stray_spawn_egg: Ovo zenerador de viandante
+  strider_spawn_egg: Ovo zenerador de caminador
+  trader_llama_spawn_egg: Ovo zenerador de lama del marcante
+  tropical_fish_spawn_egg: Ovo zenerador de pesse tropigal
+  turtle_spawn_egg: Ovo zenerador de tartaruga
+  vex_spawn_egg: Ovo zenerador de vex
+  villager_spawn_egg: Ovo zenerador de paesan
   vindicator_spawn_egg: Ovo zenarador de vendegador
   wandering_trader_spawn_egg: Ovo zenarador de marcante anbułante
   witch_spawn_egg: Ovo zenarador de strìa
   wither_skeleton_spawn_egg: Ovo zenarador de schèłetro wither
   wolf_spawn_egg: Ovo zenarador de łovo
-  zoglin_spawn_egg: Vòvo zenarador de Zoglin
+  zoglin_spawn_egg: Ovo zenerador de Zoglin
   zombie_spawn_egg: Ovo zenarador de zonbi
   zombie_horse_spawn_egg: Ovo zenarador de caval zonbi
-  zombie_villager_spawn_egg: Ovo zenarador de paezan zonbi
+  zombie_villager_spawn_egg: Ovo zenerador de paesan zonbi
   zombified_piglin_spawn_egg: Ovo zenarador de piglin zonbifegà
   experience_bottle: Anpoła de espariensa
   fire_charge: Carga de fogo
   writable_book: Łibro e pena
   written_book: Łibro scrivesto
-  emerald: Zmeraldo
   item_frame: Corniza
+  glow_item_frame: Soàxa luxénte
   flower_pot: Vazo da fiori
   carrot: Carota
   potato: Patata
@@ -848,17 +958,12 @@ material:
   zombie_head: Testa de zonbi
   creeper_head: Testa de creeper
   dragon_head: Testa de dragon
-  carrot_on_a_stick: Carota su baston
-  warped_fungus_on_a_stick: Fongo strùpio su bachéto
   nether_star: Steła de'l Nether
   pumpkin_pie: Torta de suca
   firework_rocket: Rocheta pirotècnega
   firework_star: Steła pirotècnega
   enchanted_book: Łibro incantà
   nether_brick: Cuarel de'l Nether
-  quartz: Cuarso de'l Nether
-  tnt_minecart: Carel co' TNT
-  hopper_minecart: Carel co' tramoza
   prismarine_shard: Scheja de prizmarin
   prismarine_crystals: Cristal de prizmarin
   rabbit: Conejo crùo
@@ -873,7 +978,7 @@ material:
   leather_horse_armor: Bardadura de corame
   lead: Zguinsajo
   name_tag: Tabel
-  command_block_minecart: Carel co' bloco comando
+  command_block_minecart: Carel co' bloco órdeni
   mutton: Carne de piégora crùa
   cooked_mutton: Carne de piégora cozesta
   white_banner: Gonfałon bianco
@@ -904,12 +1009,6 @@ material:
   tipped_arrow: Fresa inbevùa
   lingering_potion: Posion parsistente
   shield: Scudo
-  elytra: Elytre
-  spruce_boat: Barca de avede
-  birch_boat: Barca de brédoła
-  jungle_boat: Barca de ła jungla
-  acacia_boat: Barca de acasia
-  dark_oak_boat: Barca de ròvare scura
   totem_of_undying: Totem de l'inmortalidà
   shulker_shell: Zgusa de shulker
   iron_nugget: Pepita de fero
@@ -948,13 +1047,13 @@ material:
   cartography_table: Banco de'l cartògrafo
   fletching_table: Banco de l'arser
   grindstone: Moła
-  lectern: Letorin
   smithing_table: Banco de'l ferar
   stonecutter: Tajapiere
   bell: Canpana
   lantern: Łume
   soul_lantern: Canfìn de łe àneme
   sweet_berries: Pomełe dolse
+  glow_berries: Pomele slusorine
   campfire: Fogo da canpo
   soul_campfire: Fogo da canpo de łe àneme
   shroomlight: Zluzifongo
@@ -962,12 +1061,8 @@ material:
   bee_nest: Avearo
   beehive: Avearo artifisial
   honey_bottle: Anpoła de mel
-  honey_block: Bloco de mel
   honeycomb_block: Bloco de caraze
   lodestone: Magnetite
-  netherite_block: Bloco de netherite
-  ancient_debris: Ruinassi antighi
-  target: Bersajo
   crying_obsidian: Osidiana pianzente
   blackstone: Piera negra
   blackstone_slab: Łiston de piera negra
@@ -982,12 +1077,34 @@ material:
   polished_blackstone_brick_stairs: Scałe de cuarełi de piera negra łustra
   cracked_polished_blackstone_bricks: Cuarełi de piera negra łustra crepadi
   respawn_anchor: Àncora de respawn
+  candle: Candela
+  white_candle: Candela bianca
+  orange_candle: Candela naransa
+  magenta_candle: Candela magenta
+  light_blue_candle: Candela çeleste
+  yellow_candle: Candela zala
+  lime_candle: Candela lime
+  pink_candle: Candela rosa
+  gray_candle: Candela grisa
+  light_gray_candle: Candela grisa ciara
+  cyan_candle: Candela ciana
+  purple_candle: Candela viola
+  blue_candle: Candela blé
+  brown_candle: Candela maron
+  green_candle: Candela verda
+  red_candle: Candela rossa
+  black_candle: Candela negra
+  small_amethyst_bud: Bòcolo de ametista picenin
+  medium_amethyst_bud: Bòcolo de ametista medio
+  large_amethyst_bud: Bòcolo de ametista grando
+  amethyst_cluster: Grumo de Ametista
+  pointed_dripstone: Pirołoto
   water: Acua
   lava: Łava
   tall_seagrass: Erba acuàdega alta
   piston_head: Testa de piston
   moving_piston: Piston drio móvarse
-  wall_torch: Torsa a muro
+  wall_torch: Łuzeta a muro
   fire: Fogo
   soul_fire: Fogo de łe àneme
   redstone_wire: Cao de redstone
@@ -997,26 +1114,29 @@ material:
   acacia_wall_sign: Cartel de acasia a muro
   jungle_wall_sign: Cartel de ła jungla a muro
   dark_oak_wall_sign: Cartel de ròvare scura a muro
-  redstone_wall_torch: Torsa de redstone a muro
+  redstone_wall_torch: Łuzeta de redstone a muro
   soul_wall_torch: Torsa de łe àneme a muro
   nether_portal: Portal de'l Nether
   attached_pumpkin_stem: Pianta de suca maura
   attached_melon_stem: Pianta de inguria maura
   pumpkin_stem: Pianta de suca
   melon_stem: Pianta de inguria
+  water_cauldron: Calderon de àcua
+  lava_cauldron: Calderon de lava
+  powder_snow_cauldron: Calderon de neve polvarosa
   end_portal: Portal de'l End
   cocoa: Cacao
   tripwire: Fiło
-  potted_oak_sapling: Albareło de ròvare in vazo
-  potted_spruce_sapling: Albareło de avede in vazo
-  potted_birch_sapling: Albareło de brédoła in vazo
-  potted_jungle_sapling: Albareło de ła jungla in vazo
+  potted_oak_sapling: Albareło de ròvare in vaso
+  potted_spruce_sapling: Albareło de avede in vaso
+  potted_birch_sapling: Albareło de brédoła in vaso
+  potted_jungle_sapling: Albareło de ła jungla in vaso
   potted_acacia_sapling: Albareło de acasia in vazo
   potted_dark_oak_sapling: Albareło de ròvare scura in vazo
   potted_fern: Felze in vazo
   potted_dandelion: Pisacan in vazo
   potted_poppy: Papàvaro in vazo
-  potted_blue_orchid: Orchidèa in vazo
+  potted_blue_orchid: Orchidèa blè in vaso
   potted_allium: Fior de ajo in vazo
   potted_azure_bluet: Fior de canpo in vazo
   potted_red_tulip: Tułipan roso in vazo
@@ -1075,7 +1195,7 @@ material:
   cave_air: Aria de grota
   bubble_column: Cołona de bołe
   sweet_berry_bush: Giavasco de pomełe dolse
-  weeping_vines_plant: Fusto de roveghìn pianzente
+  weeping_vines_plant: Fusto de ranpegante pianzente
   twisting_vines_plant: Fusto de roveghìn intriveładi
   crimson_wall_sign: Carteło crèmeze a muro
   warped_wall_sign: Carteło strùpio a muro
@@ -1083,6 +1203,12 @@ material:
   potted_warped_fungus: Pitaro con fongo strùpio
   potted_crimson_roots: Pitaro co raìze crèmeze
   potted_warped_roots: Pitaro co raìze strùpie
+  candle_cake: Candela su torta
+  powder_snow: Neve polvarosa
+  cave_vines: Ranpeganti de le sprugie
+  cave_vines_plant: Fusto de ranpegante de le sprugie
+  big_dripleaf_stem: Ganbo de fojogiossa granda
+  grass_path: Senter de erba
   zombie_pigman_spawn_egg: Ovo zenarador de zonbi porsel
   cactus_green: Verdo cactus
   dandelion_yellow: Cołorante zało
@@ -1169,46 +1295,48 @@ biome:
   crimson_forest: Foresta crèmeze
   warped_forest: Foresta strùpia
   basalt_deltas: Delta de bazalto
+  dripstone_caves: Sprùgia de pirołoti
+  lush_caves: Sprùgie salvàdeghe
   nether: El Nether
 enchantment:
-  fire_protection: Protesion da'l fogo
-  sharpness: Gusa
-  flame: Fiama
-  soul_speed: Zveltesa de łe àneme
-  aqua_affinity: Favor de l'àcua
-  punch: Poncio
-  loyalty: Łealtà
-  depth_strider: Paso d'i fondałi
-  vanishing_curse: Małedision de sparision
-  unbreaking: Indestrutìbiłità
-  knockback: Rebàtar
-  luck_of_the_sea: Fortuna de'l mar
-  binding_curse: Małedision de'l łigame
-  fortune: Fortuna
   protection: Protesion
-  efficiency: Eficiensa
-  mending: Reprìstino
-  frost_walker: Caminador de giaso
-  lure: Lesca
-  looting: Sachezo
-  piercing: Parforasion
-  blast_protection: Protesion da i sciopi
-  smite: Anatema
-  multishot: Multiprojètiłe
-  fire_aspect: Aspeto de fogo
-  channeling: Condutività
-  sweeping: Łama scuasante
-  thorns: Spini
-  bane_of_arthropods: Flazel d'i artròpodi
-  respiration: Respirasion
-  riptide: Propulsion acuàtega
-  silk_touch: Toco de seda
-  quick_charge: Carga ràpida
-  projectile_protection: Protesion da i projètiłi
-  impaling: Inpałamento
+  fire_protection: Protesion da'l fogo
   feather_falling: Cascada łenta
+  blast_protection: Protesion da i sciopi
+  projectile_protection: Protesion da i projètiłi
+  respiration: Respirasion
+  aqua_affinity: Favor de l'àcua
+  thorns: Spini
+  depth_strider: Paso d'i fondałi
+  frost_walker: Caminador de giaso
+  binding_curse: Małedision de'l łigame
+  sharpness: Gusa
+  smite: Anatema
+  bane_of_arthropods: Flazel d'i artròpodi
+  knockback: Rebàtar
+  fire_aspect: Aspeto de fogo
+  looting: Sachezo
+  sweeping: Łama scuasante
+  efficiency: Eficiensa
+  silk_touch: Toco de seda
+  unbreaking: Indestrutìbiłità
+  fortune: Fortuna
   power: Poder
+  punch: Poncio
+  flame: Fiama
   infinity: Infinità
+  luck_of_the_sea: Fortuna de'l mar
+  lure: Lesca
+  loyalty: Łealtà
+  impaling: Inpałamento
+  riptide: Propulsion acuàtega
+  channeling: Condutività
+  multishot: Multiprojètiłe
+  quick_charge: Carga ràpida
+  piercing: Parforasion
+  mending: Reprìstino
+  vanishing_curse: Małedision de sparision
+  soul_speed: Zveltesa de łe àneme
 potion:
   uncraftable: Posion mìa fabricàbiłe
   water: Anpoła de àcua
@@ -1324,7 +1452,7 @@ entity:
   spectral_arrow: Fresa spetral
   shulker_bullet: Bałotoła de shulker
   dragon_fireball: Bała de fogo de dragon
-  zombie_villager: Paezan zonbi
+  zombie_villager: Paesan zonbi
   skeleton_horse: Caval schèłetro
   zombie_horse: Caval zonbi
   armor_stand: Suporto par armadura
@@ -1335,7 +1463,7 @@ entity:
   vex: Vex
   vindicator: Vendegador
   illusioner: Iłuzionista
-  minecart_command: Carel co' bloco comando
+  minecart_command: Carel co' bloco órdeni
   boat: Barca
   minecart: Carel da miniera
   minecart_chest: Carel co' baùl
@@ -1379,7 +1507,7 @@ entity:
   llama: Łama
   llama_spit: Spuo de łama
   parrot: Papagal
-  villager: Paezan
+  villager: Paesan
   ender_crystal: Cristal de'l End
   turtle: Tartaruga
   phantom: Phantom
@@ -1403,6 +1531,11 @@ entity:
   strider: Caminador
   zoglin: Zoglin
   piglin_brute: Piglin bruto
+  axolotl: Axolotl
+  glow_item_frame: Soàxa luxénte
+  glow_squid: Całamar luxénte
+  goat: Cavra
+  marker: Marcador
   fishing_hook: Gałezante da pesca
   lightning: Sciantizo
   player: Zugador
@@ -2187,7 +2320,7 @@ merchant_level:
   '4': Pràtego
   '5': Mestro
 villager_profession:
-  none: Paezan
+  none: Paesan
   armorer: Corasar
   butcher: Becar
   cartographer: Cartògrafo
@@ -2202,17 +2335,3 @@ villager_profession:
   shepherd: Pastor
   toolsmith: Fàbrica arte
   weaponsmith: Armarol
-villager_career:
-  farmer: Contadin
-  fisherman: Pescador
-  shepherd: Pastor
-  fletcher: Creador de frese
-  librarian: Librar
-  cartographer: Creador de mape
-  cleric: Cèrego
-  armorer: Corasar
-  weapon_smith: Armarol
-  tool_smith: Ferar
-  butcher: Becar
-  leatherworker: Pełatier
-  nitwit: Baùco

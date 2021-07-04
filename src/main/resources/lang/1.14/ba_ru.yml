@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:19:58                    #
+# Build time: 2021-07-04 21:41:55                    #
 # ####################################################
 language:
   code: ba_ru
@@ -10,6 +10,7 @@ material:
   bamboo_sapling: Бамбук үҫтереме
   bucket: Силәк
   clay_ball: Балсыҡ
+  coarse_dirt: Ташлы ер
   cod_bucket: Тәрәс силәге
   composter: Тишкес
   conduit: Диңгеҙ шишмәһе
@@ -21,6 +22,7 @@ material:
   map: Буш карта
   mycelium: Мицелий
   nether_brick_wall: Тамуҡ кирбес ҡоймаһы
+  podzol: Подзол
   poisonous_potato: Ағыулы картуф
   potato: Картуф
   potatoes: Картуф
@@ -29,8 +31,22 @@ material:
   red_nether_brick_wall: Ҡыҙыл тамуҡ кирбес ҡоймаһы
   salmon_bucket: Һөмбаш силәге
   smooth_quartz: Шыма кварц
+  smooth_quartz_slab: Тигеҙ кварц плитаһы
+  smooth_sandstone_slab: Тигеҙ ҡомташ плитаһы
+  smooth_stone: Тигеҙ таш
   spruce_trapdoor: Шыршы люге
+  stripped_acacia_log: Мунаҡ сәрүәр бүрәнәһе
+  stripped_acacia_wood: Мунаҡ сәрүәр
+  stripped_birch_log: Мунаҡ ҡайын бүрәнәһе
+  stripped_birch_wood: Мунаҡ ҡайын
+  stripped_dark_oak_log: Мунаҡ ҡара имән бүрәнәһе
   stripped_dark_oak_wood: Мунаҡ ҡара имән
+  stripped_jungle_log: Мунаҡ тропик ағас бүрәнәһе
+  stripped_jungle_wood: Мунаҡ тропик ағас
+  stripped_oak_log: Мунаҡ имән бүрәнәһе
+  stripped_oak_wood: Мунаҡ имән
+  stripped_spruce_log: Мунаҡ шыршы бүрәнәһе
+  stripped_spruce_wood: Мунаҡ шыршы
   tropical_fish_bucket: Тропик балығы силәге
   water_bucket: Һыу силәге
   zombie_villager_spawn_egg: Зомби-крәҫтиән саҡырыу йомортҡаһы
@@ -42,3 +58,10 @@ effect:
   wither: Кибеү
   conduit_power: Шишмә көсө
   dolphins_grace: Дельфиндың нәзәкәтлелеге
+banner_pattern:
+  '458763': Көрән уң яҡ бағана
+  '589835': Зәңгәр бағана
+  '1703947': Зәңгәр һул яҡ
+  '1835019': Көрән уң яҡ
+villager_profession:
+  cleric: Мулла

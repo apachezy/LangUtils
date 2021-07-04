@@ -1,0 +1,2353 @@
+# ####################################################
+# Build time: 2021-07-04 21:26:41                    #
+# ####################################################
+language:
+  code: rpr
+  name: Дореформенный русскій
+  region: Россійская имперія
+material:
+  air: Воздухъ
+  stone: Камень
+  granite: Гранитъ
+  polished_granite: Полированный гранитъ
+  diorite: Діоритъ
+  polished_diorite: Полированный діоритъ
+  andesite: Андезитъ
+  polished_andesite: Полированный андезитъ
+  deepslate: Глубинный сланецъ
+  cobbled_deepslate: Дроблённый глубинный сланецъ
+  polished_deepslate: Полированный глубинный сланецъ
+  calcite: Кальцитъ
+  tuff: Туфъ
+  dripstone_block: Натёчный камень
+  grass_block: Дернина
+  dirt: Земля
+  coarse_dirt: Каменистая земля
+  podzol: Подзолъ
+  rooted_dirt: Корнистая земля
+  crimson_nylium: Багровый нилій
+  warped_nylium: Искажённый нилій
+  cobblestone: Булыжникъ
+  oak_planks: Дубовыя доски
+  spruce_planks: Еловыя доски
+  birch_planks: Берёзовыя доски
+  jungle_planks: Доски изъ тропическаго дерева
+  acacia_planks: Акаціевыя доски
+  dark_oak_planks: Доски изъ тёмнаго дуба
+  crimson_planks: Багровыя доски
+  warped_planks: Искажённыя доски
+  oak_sapling: Саженецъ дуба
+  spruce_sapling: Саженецъ ели
+  birch_sapling: Саженецъ берёзы
+  jungle_sapling: Саженецъ тропическаго дерева
+  acacia_sapling: Саженецъ акаціи
+  dark_oak_sapling: Саженецъ тёмнаго дуба
+  bedrock: Коренная порода
+  sand: Песокъ
+  red_sand: Червонный песокъ
+  gravel: Гравій
+  coal_ore: Угольная руда
+  deepslate_coal_ore: Угленосный глубинный сланецъ
+  iron_ore: Желѣзная руда
+  deepslate_iron_ore: Желѣзоносный глубинный сланецъ
+  copper_ore: Мѣдная руда
+  deepslate_copper_ore: Мѣдоносный глубинный сланецъ
+  gold_ore: Золотая руда
+  deepslate_gold_ore: Золотоносный глубинный сланецъ
+  redstone_ore: Редстоуновая руда
+  deepslate_redstone_ore: Редстоуноносный глубинный сланецъ
+  emerald_ore: Смарагдовая руда
+  deepslate_emerald_ore: Смарагдоносный глубинный сланецъ
+  lapis_ore: Лазуриковая руда
+  deepslate_lapis_ore: Лазуриконосный глубинный сланецъ
+  diamond_ore: Діамантовая руда
+  deepslate_diamond_ore: Діамантоносный глубинный сланецъ
+  nether_gold_ore: ' Нѣдрская золотая руда'
+  nether_quartz_ore: Руда нѣдрскаго кварца
+  ancient_debris: Древніе обломки
+  coal_block: Угольный блокъ
+  raw_iron_block: Блокъ руднаго желѣза
+  raw_copper_block: Блокъ рудной мѣди
+  raw_gold_block: Блокъ руднаго золота
+  amethyst_block: Аметистовый блокъ
+  budding_amethyst: Цвѣтущій аметистъ
+  iron_block: Желѣзный блокъ
+  copper_block: Мѣдный блокъ
+  gold_block: Золотой блокъ
+  diamond_block: Діамантовый блокъ
+  netherite_block: Нѣдритовый блокъ
+  exposed_copper: Патиновый мѣдный блокъ
+  weathered_copper: Состаренный мѣдный блокъ
+  oxidized_copper: Окисленный мѣдный блокъ
+  cut_copper: Рѣзной мѣдный блокъ
+  exposed_cut_copper: Патиновый рѣзной мѣдный блокъ
+  weathered_cut_copper: Состаренный рѣзной мѣдный блокъ
+  oxidized_cut_copper: Окисленный рѣзной мѣдный блокъ
+  cut_copper_stairs: Рѣзныя мѣдныя ступеньки
+  exposed_cut_copper_stairs: Патиновыя рѣзныя мѣдныя ступеньки
+  weathered_cut_copper_stairs: Состаренныя рѣзныя мѣдныя ступеньки
+  oxidized_cut_copper_stairs: Окисленныя рѣзныя мѣдныя ступеньки
+  cut_copper_slab: Рѣзная мѣдная плита
+  exposed_cut_copper_slab: Патиновая рѣзная мѣдная плита
+  weathered_cut_copper_slab: Состаренная рѣзная мѣдная плита
+  oxidized_cut_copper_slab: Окисленная рѣзная мѣдная плита
+  waxed_copper_block: Вощёный мѣдный блокъ
+  waxed_exposed_copper: Вощёный патиновый мѣдный блокъ
+  waxed_weathered_copper: Вощёный состаренный мѣдный блокъ
+  waxed_oxidized_copper: Вощёный окисленный мѣдный блокъ
+  waxed_cut_copper: Вощёный рѣзной мѣдный блокъ
+  waxed_exposed_cut_copper: Вощёный патиновый рѣзной мѣдный блокъ
+  waxed_weathered_cut_copper: Вощёный состаренный рѣзной мѣдный блокъ
+  waxed_oxidized_cut_copper: Вощёный окисленный рѣзной мѣдный блокъ
+  waxed_cut_copper_stairs: Вощёныя рѣзныя мѣдныя ступеньки
+  waxed_exposed_cut_copper_stairs: Вощёныя патиновыя рѣзныя мѣдныя ступеньки
+  waxed_weathered_cut_copper_stairs: Вощёныя состаренныя рѣзныя мѣдныя ступеньки
+  waxed_oxidized_cut_copper_stairs: Вощёныя окисленныя рѣзныя мѣдныя ступеньки
+  waxed_cut_copper_slab: Вощёная рѣзная мѣдная плита
+  waxed_exposed_cut_copper_slab: Вощёная патиновая рѣзная мѣдная плита
+  waxed_weathered_cut_copper_slab: Вощёная состаренная рѣзная мѣдная плита
+  waxed_oxidized_cut_copper_slab: Вощёная окисленная рѣзная мѣдная плита
+  oak_log: Дубовое бревно
+  spruce_log: Еловое бревно
+  birch_log: Берёзовое бревно
+  jungle_log: Бревно тропическаго дерева
+  acacia_log: Бревно акаціи
+  dark_oak_log: Бревно тёмнаго дуба
+  crimson_stem: Багровый стебель
+  warped_stem: Искажённый стебель
+  stripped_oak_log: Обтёсанное дубовое бревно
+  stripped_spruce_log: Обтёсанное еловое бревно
+  stripped_birch_log: Обтёсанное берёзовое бревно
+  stripped_jungle_log: Обтёсанное бревно тропическаго дерева
+  stripped_acacia_log: Обтёсанное бревно акаціи
+  stripped_dark_oak_log: Обтёсанное бревно тёмнаго дуба
+  stripped_crimson_stem: Очищенный багровый стебель
+  stripped_warped_stem: Обтесанный искажённый стебель
+  stripped_oak_wood: Обтёсанная дубовая древесина
+  stripped_spruce_wood: Обтёсанная еловая древесина
+  stripped_birch_wood: Обтёсанная берёзовая древесина
+  stripped_jungle_wood: Обтёсанная тропическая древесина
+  stripped_acacia_wood: Обтёсанная акаціевая древесина
+  stripped_dark_oak_wood: Обтёсанная древесина тёмнаго дуба
+  stripped_crimson_hyphae: Очищенные багровые гифы
+  stripped_warped_hyphae: Очищенные искажённые гифы
+  oak_wood: Дубъ
+  spruce_wood: Ель
+  birch_wood: Берёза
+  jungle_wood: Тропическое дерево
+  acacia_wood: Акація
+  dark_oak_wood: Тёмный дубъ
+  crimson_hyphae: Багровые гифы
+  warped_hyphae: Искажённые гифы
+  oak_leaves: Дубовые листья
+  spruce_leaves: Хвоя
+  birch_leaves: Берёзовые листья
+  jungle_leaves: Листья тропическаго дерева
+  acacia_leaves: Листья акаціи
+  dark_oak_leaves: Листья тёмнаго дуба
+  azalea_leaves: Листья азаліи
+  flowering_azalea_leaves: Листья цвѣтущей азаліи
+  sponge: Губка
+  wet_sponge: Мокрая губка
+  glass: Стекло
+  tinted_glass: Затемнённое стекло
+  lapis_block: Лазуриковый блокъ
+  sandstone: Песчаникъ
+  chiseled_sandstone: Декоративный песчаникъ
+  cut_sandstone: Рѣзной песчаникъ
+  cobweb: Паутина
+  grass: Трава
+  fern: Папоротникъ
+  azalea: Азалія
+  flowering_azalea: Цвѣтущая азалія
+  dead_bush: Мёртвый кустъ
+  seagrass: Водоросли
+  sea_pickle: Морской огурецъ
+  white_wool: Бѣлая шерсть
+  orange_wool: Оранжевая шерсть
+  magenta_wool: Пурпурная шерсть
+  light_blue_wool: Голубая шерсть
+  yellow_wool: Жёлтая шерсть
+  lime_wool: Яркозелёная шерсть
+  pink_wool: Розовая шерсть
+  gray_wool: Сѣрая шерсть
+  light_gray_wool: Свѣтлосѣрая шерсть
+  cyan_wool: Бирюзовая шерсть
+  purple_wool: Фіолетовая шерсть
+  blue_wool: Лазурная шерсть
+  brown_wool: Коричневая шерсть
+  green_wool: Зелёная шерсть
+  red_wool: Червонная шерсть
+  black_wool: Чёрная шерсть
+  dandelion: Одуванчикъ
+  poppy: Макъ
+  blue_orchid: Лазурная орхидея
+  allium: Лукъ-батунъ
+  azure_bluet: Голубой василёкъ
+  red_tulip: Червонный тюльпанъ
+  orange_tulip: Оранжевый тюльпанъ
+  white_tulip: Бѣлый тюльпанъ
+  pink_tulip: Розовый тюльпанъ
+  oxeye_daisy: Ромашка
+  cornflower: Синій василёкъ
+  lily_of_the_valley: Ландышъ
+  wither_rose: Роза визера
+  spore_blossom: Спороцвѣтъ
+  brown_mushroom: Моховикъ
+  red_mushroom: Мухоморъ
+  crimson_fungus: Багровый грибъ
+  warped_fungus: Искажённый грибъ
+  crimson_roots: Багровые корни
+  warped_roots: Искажённые корни
+  nether_sprouts: Ростки Нѣдра
+  weeping_vines: Плакучая лоза
+  twisting_vines: Вьющаяся лоза
+  sugar_cane: Сахарный тростникъ
+  kelp: Ламинаріи
+  moss_carpet: Моховой покровъ
+  moss_block: Блокъ мха
+  hanging_roots: Свисающіе корни
+  big_dripleaf: Большая бросянка
+  small_dripleaf: Маленькая бросянка
+  bamboo: Бамбукъ
+  oak_slab: Дубовая плита
+  spruce_slab: Еловая плита
+  birch_slab: Берёзовая плита
+  jungle_slab: Плита изъ тропическаго дерева
+  acacia_slab: Акаціевая плита
+  dark_oak_slab: Плита изъ тёмнаго дуба
+  crimson_slab: Багровая плита
+  warped_slab: Искажённая плита
+  stone_slab: Каменная плита
+  smooth_stone_slab: Плита изъ гладкаго камня
+  sandstone_slab: Песчаниковая плита
+  cut_sandstone_slab: Плита изъ рѣзного песчаника
+  petrified_oak_slab: Окаменѣвшая дубовая плита
+  cobblestone_slab: Булыжная плита
+  brick_slab: Кирпичная плита
+  stone_brick_slab: Плита изъ каменнаго кирпича
+  nether_brick_slab: Нѣдрская плита
+  quartz_slab: Нѣдрокварцевая плита
+  red_sandstone_slab: Плита изъ червоннаго песчаника
+  cut_red_sandstone_slab: Плита изъ рѣзного червоннаго песчаника
+  purpur_slab: Пурпуровая плита
+  prismarine_slab: Призмариновая плита
+  prismarine_brick_slab: Плита изъ призмариноваго кирпича
+  dark_prismarine_slab: Плита изъ тёмнаго призмарина
+  smooth_quartz: Гладкій нѣдрскій кварцъ
+  smooth_red_sandstone: Гладкій червонный песчаникъ
+  smooth_sandstone: Гладкій песчаникъ
+  smooth_stone: Гладкій камень
+  bricks: Кирпичи
+  bookshelf: Книжная полка
+  mossy_cobblestone: Мшистый булыжникъ
+  obsidian: Обсидіанъ
+  torch: Факелъ
+  end_rod: Стержень Энда
+  chorus_plant: Хорусъ
+  chorus_flower: Цвѣтокъ хоруса
+  purpur_block: Пурпуръ
+  purpur_pillar: Пурпуровый пилонъ
+  purpur_stairs: Пурпуровыя ступеньки
+  spawner: Разсадникъ
+  oak_stairs: Дубовыя ступеньки
+  chest: Сундукъ
+  crafting_table: Верстакъ
+  farmland: Пашня
+  furnace: Печь
+  ladder: Лѣстница
+  cobblestone_stairs: Булыжныя ступеньки
+  snow: Снѣгъ
+  ice: Лёдъ
+  snow_block: Блокъ снѣга
+  cactus: Кактусъ
+  clay: Глина
+  jukebox: Патефонъ
+  oak_fence: Дубовый заборъ
+  spruce_fence: Еловый заборъ
+  birch_fence: Берёзовый заборъ
+  jungle_fence: Заборъ изъ тропическаго дерева
+  acacia_fence: Акаціевый заборъ
+  dark_oak_fence: Заборъ изъ тёмнаго дуба
+  crimson_fence: Багровый заборъ
+  warped_fence: Искажённый заборъ
+  pumpkin: Тыква
+  carved_pumpkin: Рѣзная тыква
+  jack_o_lantern: Свѣтильникъ Джека
+  netherrack: Нѣдеракъ
+  soul_sand: Песокъ душъ
+  soul_soil: Почва душъ
+  basalt: Базальтъ
+  polished_basalt: Полированный базальтъ
+  smooth_basalt: Гладкій базальтъ
+  soul_torch: Факелъ душъ
+  glowstone: Свѣтокамень
+  infested_stone: Заражённый камень
+  infested_cobblestone: Заражённый булыжникъ
+  infested_stone_bricks: Заражённые каменные кирпичи
+  infested_mossy_stone_bricks: Заражённые мшистые каменные кирпичи
+  infested_cracked_stone_bricks: Заражённые потрескавшіеся каменные кирпичи
+  infested_chiseled_stone_bricks: Заражённые рѣзные каменные кирпичи
+  infested_deepslate: Заражённый глубинный сланецъ
+  stone_bricks: Каменные кирпичи
+  mossy_stone_bricks: Мшистые каменные кирпичи
+  cracked_stone_bricks: Потрескавшіеся каменные кирпичи
+  chiseled_stone_bricks: Рѣзные каменные кирпичи
+  deepslate_bricks: Глубинносланцевые кирпичи
+  cracked_deepslate_bricks: Потрескавшіеся глубинносланцевые кирпичи
+  deepslate_tiles: Глубинносланцевый кафель
+  cracked_deepslate_tiles: Потрескавшійся глубинносланцевый кафель
+  chiseled_deepslate: Рѣзной глубинный сланецъ
+  brown_mushroom_block: Блокъ моховика
+  red_mushroom_block: Блокъ мухомора
+  mushroom_stem: Ножка гриба
+  iron_bars: Желѣзная рѣшётка
+  chain: Цѣпной
+  glass_pane: Стеклянная панель
+  melon: Арбузъ
+  vine: Ліаны
+  glow_lichen: Свѣтящійся лишайникъ
+  brick_stairs: Кирпичныя ступеньки
+  stone_brick_stairs: Ступеньки изъ каменнаго кирпича
+  mycelium: Мицелій
+  lily_pad: Кувшинка
+  nether_bricks: Нѣдрскіе кирпичи
+  cracked_nether_bricks: Потрескавшіеся нѣдрскіе кирпичи
+  chiseled_nether_bricks: Рѣзные нѣдрскіе кирпичи
+  nether_brick_fence: Нѣдрскій заборъ
+  nether_brick_stairs: Нѣдрскіе ступеньки
+  enchanting_table: Чародѣйскій алтарь
+  end_portal_frame: Рамка вратъ въ Эндъ
+  end_stone: Эндернякъ
+  end_stone_bricks: Эндерняковые кирпичи
+  dragon_egg: Яйцо змѣя
+  sandstone_stairs: Песчаниковыя ступеньки
+  ender_chest: Эндеръ-ларецъ
+  emerald_block: Смарагдовый блокъ
+  spruce_stairs: Еловыя ступеньки
+  birch_stairs: Берёзовыя ступеньки
+  jungle_stairs: Ступеньки изъ тропическаго дерева
+  crimson_stairs: Багровыя ступеньки
+  warped_stairs: Искажённыя ступеньки
+  command_block: Ариѳмометръ
+  beacon: Маякъ
+  cobblestone_wall: Булыжная ограда
+  mossy_cobblestone_wall: Мшистая булыжная ограда
+  brick_wall: Кирпичная ограда
+  prismarine_wall: Призмариновая ограда
+  red_sandstone_wall: Ограда изъ червоннаго песчаника
+  mossy_stone_brick_wall: Ограда изъ мшистаго каменнаго кирпича
+  granite_wall: Гранитная ограда
+  stone_brick_wall: Ограда изъ каменнаго кирпича
+  nether_brick_wall: Ограда изъ нѣдрскаго кирпича
+  andesite_wall: Андезитовая ограда
+  red_nether_brick_wall: Ограда изъ червоннаго нѣдрскаго кирпича
+  sandstone_wall: Песчаниковая ограда
+  end_stone_brick_wall: Ограда изъ эндерняковаго кирпича
+  diorite_wall: Діоритовая ограда
+  blackstone_wall: Чернокаменная ограда
+  polished_blackstone_wall: Ограда изъ полированнаго чернокамня
+  polished_blackstone_brick_wall: Ограда изъ полированнаго чернокаменнаго кирпича
+  cobbled_deepslate_wall: Ограда изъ дроблённаго глубиннаго сланца
+  polished_deepslate_wall: Ограда изъ полированнаго глубиннаго сланца
+  deepslate_brick_wall: Ограда изъ глубинносланцеваго кирпича
+  deepslate_tile_wall: Ограда изъ глубинносланцеваго кафеля
+  anvil: Наковальня
+  chipped_anvil: Сколотая наковальня
+  damaged_anvil: Разбитая наковальня
+  chiseled_quartz_block: Рѣзной нѣдрокварцевый блокъ
+  quartz_block: Блокъ нѣдрскаго кварца
+  quartz_bricks: Нѣдрокварцевые кирпичи
+  quartz_pillar: Нѣдрокварцевая колонна
+  quartz_stairs: Нѣдрокварцевыя ступеньки
+  white_terracotta: Бѣлая керамика
+  orange_terracotta: Оранжевая керамика
+  magenta_terracotta: Пурпурная керамика
+  light_blue_terracotta: Голубая керамика
+  yellow_terracotta: Жёлтая керамика
+  lime_terracotta: Яркозелёная керамика
+  pink_terracotta: Розовая керамика
+  gray_terracotta: Сѣрая керамика
+  light_gray_terracotta: Свѣтлосѣрая керамика
+  cyan_terracotta: Бирюзовая керамика
+  purple_terracotta: Фіолетовая керамика
+  blue_terracotta: Лазурная керамика
+  brown_terracotta: Коричневая керамика
+  green_terracotta: Зелёная керамика
+  red_terracotta: Червонная керамика
+  black_terracotta: Чёрная керамика
+  barrier: Барьеръ
+  light: Свѣтъ
+  hay_block: Снопъ сѣна
+  white_carpet: Бѣлый ковёръ
+  orange_carpet: Оранжевый ковёръ
+  magenta_carpet: Пурпурный ковёръ
+  light_blue_carpet: Голубой ковёръ
+  yellow_carpet: Жёлтый ковёръ
+  lime_carpet: Яркозелёный ковёръ
+  pink_carpet: Розовый ковёръ
+  gray_carpet: Сѣрый ковёръ
+  light_gray_carpet: Свѣтлосѣрый ковёръ
+  cyan_carpet: Бирюзовый ковёръ
+  purple_carpet: Фіолетовый ковёръ
+  blue_carpet: Лазурный ковёръ
+  brown_carpet: Коричневый ковёръ
+  green_carpet: Зелёный ковёръ
+  red_carpet: Червонный ковёръ
+  black_carpet: Чёрный ковёръ
+  terracotta: Керамика
+  packed_ice: Плотный лёдъ
+  acacia_stairs: Акаціевыя ступеньки
+  dark_oak_stairs: Ступеньки изъ тёмнаго дуба
+  dirt_path: Тропинка
+  sunflower: Подсолнухъ
+  lilac: Сирень
+  rose_bush: Кустъ розъ
+  peony: Піонъ
+  tall_grass: Высокая трава
+  large_fern: Раскидистый папоротникъ
+  white_stained_glass: Бѣлое стекло
+  orange_stained_glass: Оранжевое стекло
+  magenta_stained_glass: Пурпурное стекло
+  light_blue_stained_glass: Голубое стекло
+  yellow_stained_glass: Жёлтое стекло
+  lime_stained_glass: Яркозелёное стекло
+  pink_stained_glass: Розовое стекло
+  gray_stained_glass: Сѣрое стекло
+  light_gray_stained_glass: Свѣтлосѣрое стекло
+  cyan_stained_glass: Бирюзовое стекло
+  purple_stained_glass: Фіолетовое стекло
+  blue_stained_glass: Лазурное стекло
+  brown_stained_glass: Коричневое стекло
+  green_stained_glass: Зелёное стекло
+  red_stained_glass: Червонное стекло
+  black_stained_glass: Чёрное стекло
+  white_stained_glass_pane: Бѣлая стеклянная панель
+  orange_stained_glass_pane: Оранжевая стеклянная панель
+  magenta_stained_glass_pane: Пурпурная стеклянная панель
+  light_blue_stained_glass_pane: Голубая окрашенная стеклянная панель
+  yellow_stained_glass_pane: Жёлтая стеклянная панель
+  lime_stained_glass_pane: Яркозёленая окрашенная стеклянная панель
+  pink_stained_glass_pane: Розовая стеклянная панель
+  gray_stained_glass_pane: Сѣрая стеклянная панель
+  light_gray_stained_glass_pane: Свѣтлосѣрая стеклянная панель
+  cyan_stained_glass_pane: Бирюзовая стеклянная панель
+  purple_stained_glass_pane: Фіолетовая стеклянная панель
+  blue_stained_glass_pane: Лазурная стеклянная панель
+  brown_stained_glass_pane: Коричневая стеклянная панель
+  green_stained_glass_pane: Зелёная стеклянная панель
+  red_stained_glass_pane: Червонная стеклянная панель
+  black_stained_glass_pane: Чёрная стеклянная панель
+  prismarine: Призмаринъ
+  prismarine_bricks: Призмариновые кирпичи
+  dark_prismarine: Тёмный призмаринъ
+  prismarine_stairs: Призмариновыя ступеньки
+  prismarine_brick_stairs: Ступеньки изъ призмариновыхъ кирпичей
+  dark_prismarine_stairs: Ступеньки изъ тёмнаго призмарина
+  sea_lantern: Морской фонарь
+  red_sandstone: Червонный песчаникъ
+  chiseled_red_sandstone: Рѣзной червонный песчаникъ
+  cut_red_sandstone: Рѣзаный червонный песчаникъ
+  red_sandstone_stairs: Ступеньки изъ червоннаго песчаника
+  repeating_command_block: Повторяющій ариѳмометръ
+  chain_command_block: Цѣпной ариѳмометръ
+  magma_block: Магма
+  nether_wart_block: Блокъ нѣдрскаго нароста
+  warped_wart_block: Блокъ искажённаго нароста
+  red_nether_bricks: Червонный нѣдрскій кирпичъ
+  bone_block: Костный блокъ
+  structure_void: Пустой блокъ
+  shulker_box: Шалкеровый ящикъ
+  white_shulker_box: Бѣлый шалкеровый ящикъ
+  orange_shulker_box: Оранжевый шалкеровый ящикъ
+  magenta_shulker_box: Пурпурный шалкеровый ящикъ
+  light_blue_shulker_box: Голубой шалкеровый ящикъ
+  yellow_shulker_box: Жёлтый шалкеровый ящикъ
+  lime_shulker_box: Яркозелёный шалкеровый ящикъ
+  pink_shulker_box: Розовый шалкеровый ящикъ
+  gray_shulker_box: Сѣрый шалкеровый ящикъ
+  light_gray_shulker_box: Свѣтлосѣрый шалкеровый ящикъ
+  cyan_shulker_box: Бирюзовый шалкеровый ящикъ
+  purple_shulker_box: Фіолетовый шалкеровый ящикъ
+  blue_shulker_box: Лазурный шалкеровый ящикъ
+  brown_shulker_box: Коричневый шалкеровый ящикъ
+  green_shulker_box: Зелёный шалкеровый ящикъ
+  red_shulker_box: Червонный шалкеровый ящикъ
+  black_shulker_box: Чёрный шалкеровый ящикъ
+  white_glazed_terracotta: Бѣлая глазированная керамика
+  orange_glazed_terracotta: Оранжевая глазурованная керамика
+  magenta_glazed_terracotta: Пурпурная глазурованная керамика
+  light_blue_glazed_terracotta: Голубая глазурованная керамика
+  yellow_glazed_terracotta: Жёлтая глазурованная керамика
+  lime_glazed_terracotta: Яркозелёная глазурованная керамика
+  pink_glazed_terracotta: Розовая глазурованная керамика
+  gray_glazed_terracotta: Сѣрая глазурованная керамика
+  light_gray_glazed_terracotta: Свѣтлосѣрая глазурованная керамика
+  cyan_glazed_terracotta: Бирюзовая глазурованная керамика
+  purple_glazed_terracotta: Фіолетовая глазурованная керамика
+  blue_glazed_terracotta: Лазурная глазурованная керамика
+  brown_glazed_terracotta: Коричневая глазурованная керамика
+  green_glazed_terracotta: Зелёная глазурованная керамика
+  red_glazed_terracotta: Червонная глазурованная керамика
+  black_glazed_terracotta: Чёрная глазурованная керамика
+  white_concrete: Бѣлый бетонъ
+  orange_concrete: Оранжевый бетонъ
+  magenta_concrete: Пурпурный бетонъ
+  light_blue_concrete: Голубой бетонъ
+  yellow_concrete: Жёлтый бетонъ
+  lime_concrete: Яркозелёный бетонъ
+  pink_concrete: Розовый бетонъ
+  gray_concrete: Сѣрый бетонъ
+  light_gray_concrete: Свѣтлосѣрый бетонъ
+  cyan_concrete: Бирюзовый бетонъ
+  purple_concrete: Фіолетовый бетонъ
+  blue_concrete: Лазурный бетонъ
+  brown_concrete: Коричневый бетонъ
+  green_concrete: Зелёный бетонъ
+  red_concrete: Червонный бетонъ
+  black_concrete: Чёрный бетонъ
+  white_concrete_powder: Бѣлый бетонный порошокъ
+  orange_concrete_powder: Оранжевый бетонный порошокъ
+  magenta_concrete_powder: Пурпурный бетонный порошокъ
+  light_blue_concrete_powder: Голубой бетонный порошокъ
+  yellow_concrete_powder: Жёлтый бетонный порошокъ
+  lime_concrete_powder: Яркозелёный бетонный порошокъ
+  pink_concrete_powder: Розовый бетонный порошокъ
+  gray_concrete_powder: Сѣрый бетонный порошокъ
+  light_gray_concrete_powder: Свѣтлосѣрый бетонный порошокъ
+  cyan_concrete_powder: Бирюзовый бетонный порошокъ
+  purple_concrete_powder: Фіолетовый бетонный порошокъ
+  blue_concrete_powder: Лазурный бетонный порошокъ
+  brown_concrete_powder: Коричневый бетонный порошокъ
+  green_concrete_powder: Зелёный бетонный порошокъ
+  red_concrete_powder: Червонный бетонный порошокъ
+  black_concrete_powder: Черный бетонный порошокъ
+  turtle_egg: Черепашье яйцо
+  dead_tube_coral_block: Блокъ мёртваго трубчатаго коралла
+  dead_brain_coral_block: Блокъ мёртваго коралла-мозговика
+  dead_bubble_coral_block: Блокъ мёртваго пузырчатаго коралла
+  dead_fire_coral_block: Блокъ мёртваго огненнаго коралла
+  dead_horn_coral_block: Блокъ мёртваго рогового коралла
+  tube_coral_block: Блокъ трубчатаго коралла
+  brain_coral_block: Блокъ коралла-мозговика
+  bubble_coral_block: Блокъ пузырчатаго коралла
+  fire_coral_block: Блокъ огненнаго коралла
+  horn_coral_block: Блокъ рогового коралла
+  tube_coral: Трубчатый кораллъ
+  brain_coral: Кораллъ-мозговикъ
+  bubble_coral: Пузырчатый кораллъ
+  fire_coral: Огненный кораллъ
+  horn_coral: Роговой кораллъ
+  dead_brain_coral: Мёртвый волнистый кораллъ
+  dead_bubble_coral: Мёртвый пузырчатый кораллъ
+  dead_fire_coral: Мёртвый огненный кораллъ
+  dead_horn_coral: Мёртвый роговой кораллъ
+  dead_tube_coral: Мёртвый трубчатый кораллъ
+  tube_coral_fan: Вѣерный трубчатый кораллъ
+  brain_coral_fan: Вѣерный кораллъ-мозговикъ
+  bubble_coral_fan: Вѣерный пузырчатый кораллъ
+  fire_coral_fan: Вѣерный огненный кораллъ
+  horn_coral_fan: Вѣерный роговой кораллъ
+  dead_tube_coral_fan: Мёртвый вѣерный трубчатый кораллъ
+  dead_brain_coral_fan: Мёртвый вѣерный волновой кораллъ
+  dead_bubble_coral_fan: Мёртвый вѣерный пузырчатый кораллъ
+  dead_fire_coral_fan: Мёртвый вѣерный огненный кораллъ
+  dead_horn_coral_fan: Мёртвый вѣерный роговой кораллъ
+  blue_ice: Синій лёдъ
+  conduit: Морской источникъ
+  polished_granite_stairs: Ступеньки изъ полированнаго гранита
+  smooth_red_sandstone_stairs: Ступеньки изъ гладкаго червоннаго песчаника
+  mossy_stone_brick_stairs: Ступеньки изъ мшистаго каменнаго кирпича
+  polished_diorite_stairs: Ступеньки изъ полированнаго діорита
+  mossy_cobblestone_stairs: Ступеньки изъ мшистаго булыжника
+  end_stone_brick_stairs: Ступеньки изъ эндерняковаго кирпича
+  stone_stairs: Каменныя ступеньки
+  smooth_sandstone_stairs: Ступеньки изъ гладкаго песчаника
+  smooth_quartz_stairs: Ступеньки изъ гладкаго нѣдрокварцеваго блока
+  granite_stairs: Гранитныя ступеньки
+  andesite_stairs: Андезитовыя ступеньки
+  red_nether_brick_stairs: Ступеньки изъ червоннаго нѣдрскаго кирпича
+  polished_andesite_stairs: Ступеньки изъ полированнаго андезита
+  diorite_stairs: Діоритовыя ступеньки
+  cobbled_deepslate_stairs: Ступеньки изъ дроблённаго глубиннаго сланца
+  polished_deepslate_stairs: Ступеньки изъ полированнаго глубиннаго сланца
+  deepslate_brick_stairs: Ступеньки изъ глубинносланцеваго кирпича
+  deepslate_tile_stairs: Ступеньки изъ глубинносланцеваго кафеля
+  polished_granite_slab: Плита изъ полированнаго гранита
+  smooth_red_sandstone_slab: Плита изъ гладкаго червоннаго песчаника
+  mossy_stone_brick_slab: Плита изъ мшистаго каменнаго кирпича
+  polished_diorite_slab: Плита изъ полированнаго діорита
+  mossy_cobblestone_slab: Мшистая булыжная плита
+  end_stone_brick_slab: Плита изъ эндерняковаго кирпича
+  smooth_sandstone_slab: Плита изъ гладкаго песчаника
+  smooth_quartz_slab: Плита изъ гладкаго нѣдрокварцеваго блока
+  granite_slab: Гранитная плита
+  andesite_slab: Андезитовая плита
+  red_nether_brick_slab: Плита изъ червоннаго нѣдрскаго кирпича
+  polished_andesite_slab: Плита изъ полированнаго андезита
+  diorite_slab: Діоритовая плита
+  cobbled_deepslate_slab: Плита изъ дроблённаго глубиннаго сланца
+  polished_deepslate_slab: Плита изъ полированнаго глубиннаго сланца
+  deepslate_brick_slab: Плита изъ глубинносланцевыхъ кирпичей
+  deepslate_tile_slab: Плита изъ глубинносланцеваго кафеля
+  scaffolding: Строительные лѣса
+  redstone: Редстоунъ
+  redstone_torch: Редстоуновый факелъ
+  redstone_block: Редстоуновый блокъ
+  repeater: Редстоуновый повторитель
+  comparator: Редстоуновый сравниватель
+  piston: Поршень
+  sticky_piston: Липкій поршень
+  slime_block: Блокъ слизи
+  honey_block: Блокъ мёда
+  observer: Смотритель
+  hopper: Пріёмная воронка
+  dispenser: Раздатчикъ
+  dropper: Выбрасыватель
+  lectern: Каѳедра
+  target: Мишень
+  lever: Рычагъ
+  lightning_rod: Громоотводъ
+  daylight_detector: Датчикъ дневного свѣта
+  sculk_sensor: Скалкъ-датчикъ
+  tripwire_hook: Крюкъ
+  trapped_chest: Сундукъ-ловушка
+  tnt: Динамитъ
+  redstone_lamp: Редстоуновый фонарь
+  note_block: Музыкальный блокъ
+  stone_button: Каменная кнопка
+  polished_blackstone_button: Кнопка изъ полированнаго чернокамня
+  oak_button: Дубовая кнопка
+  spruce_button: Еловая кнопка
+  birch_button: Берёзовая кнопка
+  jungle_button: Кнопка изъ тропическаго дерева
+  acacia_button: Акаціевая кнопка
+  dark_oak_button: Кнопка изъ тёмнаго дуба
+  crimson_button: Багровая кнопка
+  warped_button: Искажённая кнопка
+  stone_pressure_plate: Каменная нажимная плита
+  polished_blackstone_pressure_plate: Нажимная плита изъ полированнаго чернокамня
+  light_weighted_pressure_plate: Легковѣсная нажимная плита
+  heavy_weighted_pressure_plate: Тяжеловѣсная нажимная плита
+  oak_pressure_plate: Дубовая нажимная плита
+  spruce_pressure_plate: Еловая нажимная плита
+  birch_pressure_plate: Берёзовая нажимная плита
+  jungle_pressure_plate: Нажимная плита изъ тропическаго дерева
+  acacia_pressure_plate: Акаціевая нажимная плита
+  dark_oak_pressure_plate: Нажимная плита изъ тёмнаго дуба
+  crimson_pressure_plate: Багровая нажимная плита
+  warped_pressure_plate: Искажённая нажимная плита
+  iron_door: Желѣзная дверь
+  oak_door: Дубовая дверь
+  spruce_door: Еловая дверь
+  birch_door: Берёзовая дверь
+  jungle_door: Дверь изъ тропическаго дерева
+  acacia_door: Дверь изъ акаціи
+  dark_oak_door: Дверь изъ тёмнаго дуба
+  crimson_door: Багровая дверь
+  warped_door: Искажённая дверь
+  iron_trapdoor: Желѣзный люкъ
+  oak_trapdoor: Дубовый люкъ
+  spruce_trapdoor: Еловый люкъ
+  birch_trapdoor: Берёзовый люкъ
+  jungle_trapdoor: Люкъ изъ тропическаго дерева
+  acacia_trapdoor: Акаціевый люкъ
+  dark_oak_trapdoor: Люкъ изъ тёмнаго дуба
+  crimson_trapdoor: Багровый люкъ
+  warped_trapdoor: Искажённый люкъ
+  oak_fence_gate: Дубовая калитка
+  spruce_fence_gate: Еловая калитка
+  birch_fence_gate: Берёзовая калитка
+  jungle_fence_gate: Калитка изъ тропическаго дерева
+  acacia_fence_gate: Акаціевая калитка
+  dark_oak_fence_gate: Калитка изъ тёмнаго дуба
+  crimson_fence_gate: Багровая калитка
+  warped_fence_gate: Искажённая калитка
+  powered_rail: Запитанные рельсы
+  detector_rail: Сигнальные рельсы
+  rail: Рельсы
+  activator_rail: Подающіе рельсы
+  saddle: Сѣдло
+  minecart: Вагонетка
+  chest_minecart: Грузовая вагонетка
+  furnace_minecart: Самоходная вагонетка
+  tnt_minecart: Взрывная вагонетка
+  hopper_minecart: Загрузочная вагонетка
+  carrot_on_a_stick: Удочка съ морковкой
+  warped_fungus_on_a_stick: Удочка съ искажённымъ грибомъ
+  elytra: Надкрылья
+  oak_boat: Дубовая лодка
+  spruce_boat: Еловая лодка
+  birch_boat: Берёзовая лодка
+  jungle_boat: Лодка изъ тропическаго дерева
+  acacia_boat: Акаціевая лодка
+  dark_oak_boat: Лодка изъ тёмнаго дуба
+  structure_block: Структурный блокъ
+  jigsaw: Пазлъ
+  turtle_helmet: Черепашій панцырь
+  scute: Щитокъ
+  flint_and_steel: Огниво
+  apple: Яблоко
+  bow: Лукъ
+  arrow: Стрѣла
+  coal: Уголь
+  charcoal: Древесный уголь
+  diamond: Діамантъ
+  emerald: Смарагдъ
+  lapis_lazuli: Лазурикъ
+  quartz: Нѣдрскій кварцъ
+  amethyst_shard: Осколокъ аметиста
+  raw_iron: Рудное желѣзо
+  iron_ingot: Желѣзный слитокъ
+  raw_copper: Рудная мѣдь
+  copper_ingot: Мѣдный слитокъ
+  raw_gold: Рудное золото
+  gold_ingot: Золотой слитокъ
+  netherite_ingot: Нѣдритовый слитокъ
+  netherite_scrap: Нѣдритовый ломъ
+  wooden_sword: Деревянный мечъ
+  wooden_shovel: Деревянная лопата
+  wooden_pickaxe: Деревянная кирка
+  wooden_axe: Деревянный топоръ
+  wooden_hoe: Деревянная мотыга
+  stone_sword: Каменный мечъ
+  stone_shovel: Каменная лопата
+  stone_pickaxe: Каменная кирка
+  stone_axe: Каменный топоръ
+  stone_hoe: Каменная мотыга
+  golden_sword: Золотой мечъ
+  golden_shovel: Золотая лопата
+  golden_pickaxe: Золотая кирка
+  golden_axe: Золотой топоръ
+  golden_hoe: Золотая мотыга
+  iron_sword: Желѣзный мечъ
+  iron_shovel: Желѣзная лопата
+  iron_pickaxe: Желѣзная кирка
+  iron_axe: Желѣзный топоръ
+  iron_hoe: Желѣзная мотыга
+  diamond_sword: Діамантовый мечъ
+  diamond_shovel: Діамантовая лопата
+  diamond_pickaxe: Діамантовая кирка
+  diamond_axe: Діамантовый топоръ
+  diamond_hoe: Діамантовая мотыга
+  netherite_sword: Нѣдритовый мечъ
+  netherite_shovel: Нѣдритовая лопата
+  netherite_pickaxe: Нѣдритовая кирка
+  netherite_axe: Нѣдритовый топоръ
+  netherite_hoe: Нѣдритовая мотыга
+  stick: Палка
+  bowl: Миска
+  mushroom_stew: Грибной супъ
+  string: Нить
+  feather: Перо
+  gunpowder: Порохъ
+  wheat_seeds: Сѣмена пшеницы
+  wheat: Пшеница
+  bread: Хлѣбъ
+  leather_helmet: Кожаная шапка
+  leather_chestplate: Кожаная куртка
+  leather_leggings: Кожаные гамаши
+  leather_boots: Кожаные сапоги
+  chainmail_helmet: Койфъ
+  chainmail_chestplate: Кольчуга
+  chainmail_leggings: Кольчужные поножи
+  chainmail_boots: Кольчужные ботинки
+  iron_helmet: Желѣзный шлемъ
+  iron_chestplate: Желѣзный нагрудникъ
+  iron_leggings: Желѣзные поножи
+  iron_boots: Желѣзные ботинки
+  diamond_helmet: Діамантовый шлемъ
+  diamond_chestplate: Діамантовый нагрудникъ
+  diamond_leggings: Діамантовые поножи
+  diamond_boots: Діамантовые ботинки
+  golden_helmet: Золотой шлемъ
+  golden_chestplate: Золотой нагрудникъ
+  golden_leggings: Золотые поножи
+  golden_boots: Золотые ботинки
+  netherite_helmet: Нѣдритовый шлемъ
+  netherite_chestplate: Нѣдритовый нагрудникъ
+  netherite_leggings: Нѣдритовые поножи
+  netherite_boots: Нѣдритовые ботинки
+  flint: Кремень
+  porkchop: Сырая свинина
+  cooked_porkchop: Жареная свинина
+  painting: Картина
+  golden_apple: Золотое яблоко
+  enchanted_golden_apple: Молодильное яблоко
+  oak_sign: Дубовая табличка
+  spruce_sign: Еловая табличка
+  birch_sign: Берёзовая табличка
+  jungle_sign: Табличка изъ тропическаго дерева
+  acacia_sign: Акаціевая табличка
+  dark_oak_sign: Табличка изъ тёмнаго дуба
+  crimson_sign: Багровая табличка
+  warped_sign: Искажённая табличка
+  bucket: Ведро
+  water_bucket: Ведро воды
+  lava_bucket: Ведро лавы
+  powder_snow_bucket: Ведро съ рыхлымъ снѣгомъ
+  snowball: Снѣжокъ
+  leather: Кожа
+  milk_bucket: Ведро молока
+  pufferfish_bucket: Ведро съ иглобрюхомъ
+  salmon_bucket: Лосось въ ведре
+  cod_bucket: Треска въ ведре
+  tropical_fish_bucket: Тропическая рыба въ ведре
+  axolotl_bucket: Аксолотль въ ведрѣ
+  brick: Кирпичъ
+  clay_ball: Комокъ глины
+  dried_kelp_block: Блокъ сушёной ламинаріи
+  paper: Бумага
+  book: Книга
+  slime_ball: Сгустокъ слизи
+  egg: Яйцо
+  compass: Компасъ
+  bundle: Мѣшочекъ
+  fishing_rod: Удочка
+  clock: Часы
+  spyglass: Подзорная труба
+  glowstone_dust: Свѣтокаменная пыль
+  cod: Сырая треска
+  salmon: Сырой лосось
+  tropical_fish: Тропическая рыба
+  pufferfish: Иглобрюхъ
+  cooked_cod: Жареная треска
+  cooked_salmon: Жареный лосось
+  ink_sac: Чернильный мѣшочекъ
+  glow_ink_sac: Сіяющій чернильный мѣшокъ
+  cocoa_beans: Какао-бобы
+  white_dye: Бѣлый краситель
+  orange_dye: Оранжевый краситель
+  magenta_dye: Пурпурный краситель
+  light_blue_dye: Голубой краситель
+  yellow_dye: Жёлтый краситель
+  lime_dye: Яркозелёный краситель
+  pink_dye: Розовый краситель
+  gray_dye: Сѣрый краситель
+  light_gray_dye: Свѣтлосѣрый краситель
+  cyan_dye: Бирюзовый краситель
+  purple_dye: Фіолетовый краситель
+  blue_dye: Лазурный краситель
+  brown_dye: Коричневый краситель
+  green_dye: Зелёный краситель
+  red_dye: Червонный краситель
+  black_dye: Чёрный краситель
+  bone_meal: Костная мука
+  bone: Кость
+  sugar: Сахаръ
+  cake: Тортъ
+  white_bed: Бѣлая постель
+  orange_bed: Оранжевая постель
+  magenta_bed: Пурпурная постель
+  light_blue_bed: Голубая постель
+  yellow_bed: Жёлтая постель
+  lime_bed: Яркозелёная постель
+  pink_bed: Розовая постель
+  gray_bed: Сѣрая постель
+  light_gray_bed: Свѣтлосѣрая постель
+  cyan_bed: Бирюзовая постель
+  purple_bed: Фіолетовая постель
+  blue_bed: Лазурная постель
+  brown_bed: Коричневая постель
+  green_bed: Зелёная постель
+  red_bed: Червонная постель
+  black_bed: Чёрная постель
+  cookie: Печенье
+  filled_map: Карта
+  shears: Ножницы
+  melon_slice: Ломтикъ арбуза
+  dried_kelp: Сушёная ламинарія
+  pumpkin_seeds: Сѣмена тыквы
+  melon_seeds: Сѣмена арбуза
+  beef: Сырая говядина
+  cooked_beef: Жареная говядина
+  chicken: Курятина
+  cooked_chicken: Жареная курица
+  rotten_flesh: Прѣлая плоть
+  ender_pearl: Эндеръ-жемчугъ
+  blaze_rod: Огненный жезлъ
+  ghast_tear: Слеза гаста
+  gold_nugget: Золотой самородокъ
+  nether_wart: Нѣдрскій наростъ
+  potion: Снадобье
+  glass_bottle: Бутылочка
+  spider_eye: Паучье око
+  fermented_spider_eye: Засоленное паучье око
+  blaze_powder: Огненный порошокъ
+  magma_cream: Сгустокъ магмы
+  brewing_stand: Варочная стойка
+  cauldron: Котёлъ
+  ender_eye: Око Эндера
+  glistering_melon_slice: Сіяющій ломтикъ арбуза
+  axolotl_spawn_egg: Яйцо призыва аксолотля
+  bat_spawn_egg: Яйцо призыва летучей мыши
+  bee_spawn_egg: Яйцо призыва пчелы
+  blaze_spawn_egg: Яйцо призыва пламеня
+  cat_spawn_egg: Яйцо призыва кошки
+  cave_spider_spawn_egg: Яйцо призыва мизгиря
+  chicken_spawn_egg: Яйцо призыва курицы
+  cod_spawn_egg: Яйцо призыва трески
+  cow_spawn_egg: Яйцо призыва коровы
+  creeper_spawn_egg: Яйцо призыва крипера
+  dolphin_spawn_egg: Яйцо призыва дельфина
+  donkey_spawn_egg: Яйцо призыва осла
+  drowned_spawn_egg: Яйцо призыва утопленника
+  elder_guardian_spawn_egg: Яйцо призыва старѣйшаго сторожа
+  enderman_spawn_egg: Яйцо призыва эндермана
+  endermite_spawn_egg: Яйцо призыва эндермита
+  evoker_spawn_egg: Яйцо призыва чародѣя
+  fox_spawn_egg: Яйцо призыва лисицы
+  ghast_spawn_egg: Яйцо призыва гаста
+  glow_squid_spawn_egg: Яйцо призыва сіяющаго осьминога
+  goat_spawn_egg: Яйцо призыва козы
+  guardian_spawn_egg: Яйцо призыва сторожа
+  hoglin_spawn_egg: Яйцо призыва хоглина
+  horse_spawn_egg: Яйцо призыва лошади
+  husk_spawn_egg: Яйцо призыва кадавра
+  llama_spawn_egg: Яйцо призыва ламы
+  magma_cube_spawn_egg: Яйцо призыва магмоваго куба
+  mooshroom_spawn_egg: Яйцо призыва муухомора
+  mule_spawn_egg: Яйцо призыва мула
+  ocelot_spawn_egg: Яйцо призыва оцелота
+  panda_spawn_egg: Яйцо призыва панды
+  parrot_spawn_egg: Яйцо призыва попугая
+  phantom_spawn_egg: Яйцо призыва фантома
+  pig_spawn_egg: Яйцо призыва свиньи
+  piglin_spawn_egg: Яйцо призыва пиглина
+  piglin_brute_spawn_egg: Яйцо призыва брутальнаго пиглина
+  pillager_spawn_egg: Яйцо призыва разбойника
+  polar_bear_spawn_egg: Яйцо призыва бѣлаго медвѣдя
+  pufferfish_spawn_egg: Яйцо призыва иглобрюха
+  rabbit_spawn_egg: Яйцо призыва кролика
+  ravager_spawn_egg: Яйцо призыва разорителя
+  salmon_spawn_egg: Яйцо призыва лосося
+  sheep_spawn_egg: Яйцо призыва овцы
+  shulker_spawn_egg: Яйцо призыва шалкера
+  silverfish_spawn_egg: Яйцо призыва чешуйницы
+  skeleton_spawn_egg: Яйцо призыва скелета
+  skeleton_horse_spawn_egg: Яйцо призыва лошади-скелета
+  slime_spawn_egg: Яйцо призыва слизня
+  spider_spawn_egg: Яйцо призыва паука
+  squid_spawn_egg: Яйцо призыва осьминога
+  stray_spawn_egg: Яйцо призыва зимогора
+  strider_spawn_egg: Яйцо призыва лавомѣрки
+  trader_llama_spawn_egg: Яйцо призыва ламы коробейника
+  tropical_fish_spawn_egg: Яйцо призыва тропической рыбы
+  turtle_spawn_egg: Яйцо призыва черепахи
+  vex_spawn_egg: Яйцо призыва вредины
+  villager_spawn_egg: Яйцо призыва крестьянина
+  vindicator_spawn_egg: Яйцо призыва воздаятеля
+  wandering_trader_spawn_egg: Яйцо призыва коробейника
+  witch_spawn_egg: Яйцо призыва вѣдьмы
+  wither_skeleton_spawn_egg: Яйцо призыва визеръ-скелета
+  wolf_spawn_egg: Яйцо призыва волка
+  zoglin_spawn_egg: Яйцо призыва зоглина
+  zombie_spawn_egg: Яйцо призыва мертвеца
+  zombie_horse_spawn_egg: Яйцо призыва лошади-мертвеца
+  zombie_villager_spawn_egg: Яйцо призыва крестьянина-мертвеца
+  zombified_piglin_spawn_egg: Яйцо призыва пиглина-мертвеца
+  experience_bottle: Бутылочка мудрости
+  fire_charge: Огненный зарядъ
+  writable_book: Книга и перо
+  written_book: Завершённая книга
+  item_frame: Рамка
+  glow_item_frame: Сіяющая рамка
+  flower_pot: Цвѣточный горшокъ
+  carrot: Морковка
+  potato: Картофель
+  baked_potato: Запечённый картофель
+  poisonous_potato: Ядовитый картофель
+  map: Чистая карта
+  golden_carrot: Золотая морковь
+  skeleton_skull: Черепъ скелета
+  wither_skeleton_skull: Черепъ визеръ-скелета
+  player_head: Человѣческая голова
+  zombie_head: Голова мертвеца
+  creeper_head: Голова крипера
+  dragon_head: Голова змѣя
+  nether_star: Звѣзда Нѣдра
+  pumpkin_pie: Тыквенный пирогъ
+  firework_rocket: Фейерверкъ
+  firework_star: Пиротехническая звѣзда
+  enchanted_book: Чародѣйская книга
+  nether_brick: Нѣдрскій кирпичъ
+  prismarine_shard: Осколокъ призмарина
+  prismarine_crystals: Кристаллъ призмарина
+  rabbit: Сырая крольчатина
+  cooked_rabbit: Жареная крольчатина
+  rabbit_stew: Жаркое изъ кролика
+  rabbit_foot: Кроличья лапка
+  rabbit_hide: Кроличья шкурка
+  armor_stand: Стойка для брони
+  iron_horse_armor: Желѣзные конскіе доспѣхи
+  golden_horse_armor: Золотые конскіе доспѣхи
+  diamond_horse_armor: Діамантовые конскіе доспѣхи
+  leather_horse_armor: Кожаные конскіе доспѣхи
+  lead: Поводокъ
+  name_tag: Ярлыкъ
+  command_block_minecart: Вагонетка съ ариѳмометромъ
+  mutton: Сырая баранина
+  cooked_mutton: Жареная баранина
+  white_banner: Бѣлый флагъ
+  orange_banner: Оранжевый флагъ
+  magenta_banner: Пурпурный флагъ
+  light_blue_banner: Голубой флагъ
+  yellow_banner: Жёлтый флагъ
+  lime_banner: Яркозелёный флагъ
+  pink_banner: Розовый флагъ
+  gray_banner: Сѣрый флагъ
+  light_gray_banner: Свѣтлосѣрый флагъ
+  cyan_banner: Бирюзовый флагъ
+  purple_banner: Фіолетовый флагъ
+  blue_banner: Лазурный флагъ
+  brown_banner: Коричневый флагъ
+  green_banner: Зелёный флагъ
+  red_banner: Червонный флагъ
+  black_banner: Чёрный флагъ
+  end_crystal: Кристаллъ Энда
+  chorus_fruit: Плодъ хоруса
+  popped_chorus_fruit: Жареный плодъ хоруса
+  beetroot: Свёкла
+  beetroot_seeds: Сѣмена свёклы
+  beetroot_soup: Борщъ
+  dragon_breath: Дыханіе змѣя
+  splash_potion: Взрывное снадобье
+  spectral_arrow: Стрѣла наблюденія
+  tipped_arrow: Обработанная стрѣла
+  lingering_potion: Туманное снадобье
+  shield: Щитъ
+  totem_of_undying: Тотемъ безсмертія
+  shulker_shell: Панцырь шалкера
+  iron_nugget: Кусочек желѣза
+  knowledge_book: Книга знаній
+  debug_stick: Палка отладки
+  music_disc_13: Пластинка
+  music_disc_cat: Пластинка
+  music_disc_blocks: Пластинка
+  music_disc_chirp: Пластинка
+  music_disc_far: Пластинка
+  music_disc_mall: Пластинка
+  music_disc_mellohi: Пластинка
+  music_disc_stal: Пластинка
+  music_disc_strad: Пластинка
+  music_disc_ward: Пластинка
+  music_disc_11: Пластинка
+  music_disc_wait: Пластинка
+  music_disc_pigstep: Пластинка
+  trident: Трезубецъ
+  phantom_membrane: Мембрана фантома
+  nautilus_shell: Раковина наутилуса
+  heart_of_the_sea: Сердце моря
+  crossbow: Самострѣлъ
+  suspicious_stew: Диковинное рагу
+  loom: Ткацкій станокъ
+  flower_banner_pattern: Узоръ флага
+  creeper_banner_pattern: Шаблонъ флага
+  skull_banner_pattern: Узоръ флага
+  mojang_banner_pattern: Узоръ флага
+  globe_banner_pattern: Узоръ флага
+  piglin_banner_pattern: Шаблонъ флага
+  composter: Компостница
+  barrel: Бочка
+  smoker: Коптильня
+  blast_furnace: Сыродутный горнъ
+  cartography_table: Картографическій столъ
+  fletching_table: Столъ лучника
+  grindstone: Точило
+  smithing_table: Столъ кузнеца
+  stonecutter: Камнерѣзъ
+  bell: Колоколъ
+  lantern: Фонарь
+  soul_lantern: Фонарь душъ
+  sweet_berries: Сладкія ягоды
+  glow_berries: Свѣтящіяся ягоды
+  campfire: Костёръ
+  soul_campfire: Костёръ душъ
+  shroomlight: Грибосвѣтъ
+  honeycomb: Пчелиныя соты
+  bee_nest: Пчелиное гнѣздо
+  beehive: Пасѣка
+  honey_bottle: Бутылочка мёда
+  honeycomb_block: Блокъ пчелиныхъ сотъ
+  lodestone: Магнетитъ
+  crying_obsidian: Плачущій обсидіанъ
+  blackstone: Чернокамень
+  blackstone_slab: Чернокаменная плита
+  blackstone_stairs: Чернокаменныя ступеньки
+  gilded_blackstone: Золочёный чернокамень
+  polished_blackstone: Полированный чернокамень
+  polished_blackstone_slab: Плита изъ полированнаго чернокамня
+  polished_blackstone_stairs: Ступеньки изъ полированнаго чернокамня
+  chiseled_polished_blackstone: Рѣзной полированный чернокамень
+  polished_blackstone_bricks: Полированные чернокаменные кирпичи
+  polished_blackstone_brick_slab: Плита изъ полированнаго чернокаменнаго кирпича
+  polished_blackstone_brick_stairs: Ступеньки изъ полированнаго чернокаменнаго кирпича
+  cracked_polished_blackstone_bricks: Потрескавшіеся полированные чернокаменные кирпичи
+  respawn_anchor: Якорь возрожденія
+  candle: Свѣча
+  white_candle: Бѣлая свѣча
+  orange_candle: Оранжевая свѣча
+  magenta_candle: Пурпурная свѣча
+  light_blue_candle: Голубая свѣча
+  yellow_candle: Жёлтая свѣча
+  lime_candle: Яркозелёная свѣча
+  pink_candle: Розовая свѣча
+  gray_candle: Сѣрая свѣча
+  light_gray_candle: Свѣтлосѣрая свѣча
+  cyan_candle: Бирюзовая свѣча
+  purple_candle: Фіолетовая свѣча
+  blue_candle: Лазурная свѣча
+  brown_candle: Коричневая свѣча
+  green_candle: Зелёная свѣча
+  red_candle: Червонная свѣча
+  black_candle: Чёрная свѣча
+  small_amethyst_bud: Малый аметистовый бутонъ
+  medium_amethyst_bud: Средній аметистовый бутонъ
+  large_amethyst_bud: Большой аметистовый бутонъ
+  amethyst_cluster: Аметистовая друза
+  pointed_dripstone: Капельникъ
+  water: Вода
+  lava: Лава
+  tall_seagrass: Высокая морская трава
+  piston_head: Головка поршня
+  moving_piston: Движущійся поршень
+  wall_torch: Настѣнный факелъ
+  fire: Пламя
+  soul_fire: Огонь душъ
+  redstone_wire: Редстоуновый проводъ
+  oak_wall_sign: Дубовая настѣнная табличка
+  spruce_wall_sign: Еловая настѣнная табличка
+  birch_wall_sign: Берёзовая настѣнная табличка
+  acacia_wall_sign: Акаціевая настѣнная табличка
+  jungle_wall_sign: Настѣнная табличка изъ тропическаго дерева
+  dark_oak_wall_sign: Настѣнная табличка изъ тёмнаго дуба
+  redstone_wall_torch: Настѣнный редстоуновый факелъ
+  soul_wall_torch: Настѣнный факелъ душъ
+  nether_portal: Врата въ Нѣдръ
+  attached_pumpkin_stem: Прикрѣплённый стебель тыквы
+  attached_melon_stem: Прикрѣплённый стебель арбуза
+  pumpkin_stem: Стебель тыквы
+  melon_stem: Стебель арбуза
+  water_cauldron: Котёлъ съ водой
+  lava_cauldron: Котёлъ съ лавой
+  powder_snow_cauldron: Котёлъ съ рыхлымъ снѣгомъ
+  end_portal: Врата въ Эндъ
+  cocoa: Какао
+  tripwire: Растяжка
+  potted_oak_sapling: Саженецъ дуба въ горшкѣ
+  potted_spruce_sapling: Саженецъ ели въ горшкѣ
+  potted_birch_sapling: Саженецъ берёзы въ горшкѣ
+  potted_jungle_sapling: Саженецъ тропическаго дерева въ горшкѣ
+  potted_acacia_sapling: Саженецъ акаціи въ горшкѣ
+  potted_dark_oak_sapling: Саженецъ тёмнаго дуба въ горшкѣ
+  potted_fern: Папоротникъ въ горшкѣ
+  potted_dandelion: Одуванчикъ въ горшкѣ
+  potted_poppy: Макъ въ горшкѣ
+  potted_blue_orchid: Лазурная орхидея въ горшкѣ
+  potted_allium: Лукъ-батунъ въ горшкѣ
+  potted_azure_bluet: Хаустонія сѣрая въ горшкѣ
+  potted_red_tulip: Червонный тюльпанъ въ горшкѣ
+  potted_orange_tulip: Оранжевый тюльпанъ въ горшкѣ
+  potted_white_tulip: Бѣлый тюльпанъ въ горшкѣ
+  potted_pink_tulip: Розовый тюльпанъ въ горшкѣ
+  potted_oxeye_daisy: Ромашка въ горшкѣ
+  potted_cornflower: Синій василёкъ въ горшкѣ
+  potted_lily_of_the_valley: Ландышъ въ горшкѣ
+  potted_wither_rose: Визеръ-роза въ горшкѣ
+  potted_red_mushroom: Мухоморъ въ горшкѣ
+  potted_brown_mushroom: Моховикъ въ горшкѣ
+  potted_dead_bush: Мёртвый кустъ въ горшкѣ
+  potted_cactus: Кактусъ въ горшкѣ
+  carrots: Морковь
+  potatoes: Картофель
+  skeleton_wall_skull: Настѣнный черепъ скелета
+  wither_skeleton_wall_skull: Настѣнный черепъ визеръ-скелета
+  zombie_wall_head: Настѣнная голова мертвеца
+  player_wall_head: Настѣнная человѣческая голова
+  creeper_wall_head: Настѣнная голова крипера
+  dragon_wall_head: Настѣнная голова змѣя
+  white_wall_banner: Бѣлый флагъ
+  orange_wall_banner: Оранжевый флагъ
+  magenta_wall_banner: Пурпурный флагъ
+  light_blue_wall_banner: Голубой флагъ
+  yellow_wall_banner: Жёлтый флагъ
+  lime_wall_banner: Яркозелёный флагъ
+  pink_wall_banner: Розовый флагъ
+  gray_wall_banner: Сѣрый флагъ
+  light_gray_wall_banner: Свѣтлосѣрый флагъ
+  cyan_wall_banner: Бирюзовый флагъ
+  purple_wall_banner: Фіолетовый флагъ
+  blue_wall_banner: Лазурный флагъ
+  brown_wall_banner: Коричневый флагъ
+  green_wall_banner: Зелёный флагъ
+  red_wall_banner: Червонный флагъ
+  black_wall_banner: Чёрный флагъ
+  beetroots: Свёкла
+  end_gateway: Врата Энда
+  frosted_ice: Талый лёдъ
+  kelp_plant: Стебель ламинаріи
+  dead_tube_coral_wall_fan: Мёртвый вѣерный трубчатый кораллъ на стѣнѣ
+  dead_brain_coral_wall_fan: Мёртвый вѣерный волновой кораллъ на стѣнѣ
+  dead_bubble_coral_wall_fan: Мёртвый вѣерный пузырчатый кораллъ на стѣнѣ
+  dead_fire_coral_wall_fan: Мёртвый вѣерный огненный кораллъ на стѣнѣ
+  dead_horn_coral_wall_fan: Мёртвый вѣерный роговой кораллъ на стѣнѣ
+  tube_coral_wall_fan: Вѣерный трубчатый кораллъ на стѣнѣ
+  brain_coral_wall_fan: Вѣерный волновой кораллъ на стѣнѣ
+  bubble_coral_wall_fan: Вѣерный пузырчатый кораллъ на стѣнѣ
+  fire_coral_wall_fan: Вѣерный огненный кораллъ на стѣнѣ
+  horn_coral_wall_fan: Вѣерный роговой кораллъ на стѣнѣ
+  bamboo_sapling: Побѣгъ бамбука
+  potted_bamboo: Бамбукъ въ горшкѣ
+  void_air: Воздухъ пустоты
+  cave_air: Пещерный воздухъ
+  bubble_column: Колонна пузырей
+  sweet_berry_bush: Кустъ сладкихъ ягодъ
+  weeping_vines_plant: Стебель плачущей лозы
+  twisting_vines_plant: Стебель вьющейся лозы
+  crimson_wall_sign: Багровая настѣнная табличка
+  warped_wall_sign: Искажённая настѣнная табличка
+  potted_crimson_fungus: Багровый грибъ въ горшкѣ
+  potted_warped_fungus: Искажённый грибъ въ горшкѣ
+  potted_crimson_roots: Багровые корни въ горшкѣ
+  potted_warped_roots: Искажённые корни въ горшкѣ
+  candle_cake: Тортъ со свѣчёй
+  white_candle_cake: Тортъ съ бѣлой свѣчой
+  orange_candle_cake: Тортъ съ оранжевой свѣчой
+  magenta_candle_cake: Тортъ съ пурпурной свѣчой
+  light_blue_candle_cake: Тортъ съ голубой свѣчой
+  yellow_candle_cake: Тортъ съ жёлтой свѣчой
+  lime_candle_cake: Тортъ съ яркозелёной свѣчой
+  pink_candle_cake: Тортъ съ розовой свѣчой
+  gray_candle_cake: Тортъ съ сѣрой свѣчой
+  light_gray_candle_cake: Тортъ со свѣтлосѣрой свѣчой
+  cyan_candle_cake: Тортъ съ бирюзовой свѣчой
+  purple_candle_cake: Тортъ съ фіолетовой свѣчой
+  blue_candle_cake: Тортъ съ лазурной свѣчой
+  brown_candle_cake: Тортъ съ коричневой свѣчой
+  green_candle_cake: Тортъ съ зелёной свѣчой
+  red_candle_cake: Тортъ съ червонной свѣчой
+  black_candle_cake: Тортъ съ чёрной свѣчой
+  powder_snow: Рыхлый снѣгъ
+  cave_vines: Пещерная лоза
+  cave_vines_plant: Стебель пещерной лозы
+  big_dripleaf_stem: Стебель большой бросянки
+  potted_azalea_bush: Азалія въ горшкѣ
+  potted_flowering_azalea_bush: Цвѣтущая азалія въ горшкѣ
+biome:
+  ocean: Океанъ
+  plains: Равнины
+  desert: Пустыня
+  mountains: Горы
+  forest: Лѣсъ
+  taiga: Тайга
+  swamp: Болото
+  river: Рѣка
+  nether_wastes: Пустоши Нѣдра
+  the_end: Эндъ
+  frozen_ocean: Замёрзшій океанъ
+  frozen_river: Замёрзшая рѣка
+  snowy_tundra: Заснѣженная тундра
+  snowy_mountains: Снѣжныя горы
+  mushroom_fields: Грибныя поля
+  mushroom_field_shore: Грибное побережье
+  beach: Пляжъ
+  desert_hills: Холмистая пустыня
+  wooded_hills: Лѣсистые холмы
+  taiga_hills: Холмистая тайга
+  mountain_edge: Окраины горъ
+  jungle: Дождевой лѣсъ
+  jungle_hills: Холмистый дождевой лѣсъ
+  jungle_edge: Окраина дождевого лѣса
+  deep_ocean: Глубокій океанъ
+  stone_shore: Каменистый берегъ
+  snowy_beach: Заснѣженный пляжъ
+  birch_forest: Берёзовый лѣсъ
+  birch_forest_hills: Холмистый берёзовый лѣсъ
+  dark_forest: Тёмный лѣсъ
+  snowy_taiga: Заснѣженная тайга
+  snowy_taiga_hills: Холмистая заснѣженная тайга
+  giant_tree_taiga: Тайга съ огромными деревьями
+  giant_tree_taiga_hills: Холмистая тайга съ огромными деревьями
+  wooded_mountains: Лѣсистыя горы
+  savanna: Степь
+  savanna_plateau: Степь (плато)
+  badlands: Безплодныя земли
+  wooded_badlands_plateau: Лѣсистое безплодное плато
+  badlands_plateau: Безплодное плато
+  small_end_islands: Островки Энда
+  end_midlands: Равнины Энда
+  end_highlands: Возвышенности Энда
+  end_barrens: Окраины Энда
+  warm_ocean: Тёплый океанъ
+  lukewarm_ocean: Тепловатый океанъ
+  cold_ocean: Холодный океанъ
+  deep_warm_ocean: Глубокій тёплый океанъ
+  deep_lukewarm_ocean: Глубокій тепловатый океанъ
+  deep_cold_ocean: Глубокій холодный океанъ
+  deep_frozen_ocean: Глубокій замёрзшій океанъ
+  the_void: Ничто
+  sunflower_plains: Подсолнуховыя поля
+  desert_lakes: Пустынныя озёра
+  gravelly_mountains: Гравійныя горы
+  flower_forest: Цвѣточный лѣсъ
+  taiga_mountains: Таёжныя горы
+  swamp_hills: Болотистые холмы
+  ice_spikes: Ледяныя пики
+  modified_jungle: Необычный дождевой лѣсъ
+  modified_jungle_edge: Необычная окраина дождевого лѣса
+  tall_birch_forest: Лѣсъ высокихъ берёзъ
+  tall_birch_hills: Холмы высокихъ берёзъ
+  dark_forest_hills: Холмистый тёмный лѣсъ
+  snowy_taiga_mountains: Заснѣженныя таёжныя горы
+  giant_spruce_taiga: Тайга съ огромными елями
+  giant_spruce_taiga_hills: Холмистая тайга съ огромными елями
+  modified_gravelly_mountains: Гравійныя горы+
+  shattered_savanna: Вывѣтренная степь
+  shattered_savanna_plateau: Вывѣтренная степь (плато)
+  eroded_badlands: Вывѣтренныя безплодныя земли
+  modified_wooded_badlands_plateau: Необычное лѣсистое безплодное плато
+  modified_badlands_plateau: Необычное безплодное плато
+  bamboo_jungle: Бамбуковыя заросли
+  bamboo_jungle_hills: Холмистыя бамбуковыя заросли
+  soul_sand_valley: Долина песка душъ
+  crimson_forest: Багровый лѣсъ
+  warped_forest: Искажённый лѣсъ
+  basalt_deltas: Базальтовыя дельты
+  dripstone_caves: Карстовыя пещеры
+  lush_caves: Заросшія пещеры
+enchantment:
+  protection: Защита
+  fire_protection: Защита отъ огня
+  feather_falling: Невѣсомость
+  blast_protection: Защита отъ взрывовъ
+  projectile_protection: Защита отъ снарядовъ
+  respiration: Подводное дыханіе
+  aqua_affinity: Подводникъ
+  thorns: Шипы
+  depth_strider: Странникъ глубинъ
+  frost_walker: Ледоходъ
+  binding_curse: Проклятіе привязки
+  sharpness: Острота
+  smite: Кара
+  bane_of_arthropods: Бичъ членистоногихъ
+  knockback: Отдача
+  fire_aspect: Поджогъ
+  looting: Добыча
+  sweeping: Разящій клинокъ
+  efficiency: Эффективность
+  silk_touch: Шёлковое касаніе
+  unbreaking: Прочность
+  fortune: Удача
+  power: Сила
+  punch: Откидываніе
+  flame: Воспламененіе
+  infinity: Безконечность
+  luck_of_the_sea: Везучій рыбакъ
+  lure: Приманка
+  loyalty: Вѣрность
+  impaling: Пронзатель
+  riptide: Тягунъ
+  channeling: Громовержецъ
+  multishot: Тройной выстрѣлъ
+  quick_charge: Быстрая перезарядка
+  piercing: Пронзающая стрѣла
+  mending: Починка
+  vanishing_curse: Проклятіе пропажи
+  soul_speed: Рѣзвость души
+potion:
+  uncraftable: Несоздаваемое снадобье
+  water: Бутылочка воды
+  mundane: Заурядное снадобье
+  thick: Густое снадобье
+  awkward: Мутное снадобье
+  night_vision: Снадобье ночного зрѣнія
+  invisibility: Снадобье незримости
+  jump: Снадобье прыгучести
+  fire_resistance: Снадобье огнестойкости
+  speed: Снадобье рѣзвости
+  slowness: Снадобье медлительности
+  water_breathing: Снадобье дыханія въ водѣ
+  instant_heal: Снадобье исцѣленія
+  instant_damage: Снадобье вреда
+  poison: Снадобье отравленія
+  regen: Снадобье возстановленія
+  strength: Снадобье силы
+  weakness: Снадобье слабости
+  luck: Снадобье везенія
+  turtle_master: Снадобье черепашьей мощи
+  slow_falling: Снадобье плавнаго паденія
+splash_potion:
+  uncraftable: Взрывное несоздаваемое снадобье
+  water: Взрывная бутылочка воды
+  mundane: Заурядное взрывное снадобье
+  thick: Густое взрывное снадобье
+  awkward: Мутное взрывное снадобье
+  night_vision: Взрывное снадобье ночного зрѣнія
+  invisibility: Взрывное снадобье незримости
+  jump: Взрывное снадобье прыгучести
+  fire_resistance: Взрывное снадобье огнестойкости
+  speed: Взрывное снадобье рѣзвости
+  slowness: Взрывное снадобье медлительности
+  water_breathing: Взрывное снадобье дыханія въ водѣ
+  instant_heal: Взрывное снадобье исцѣленія
+  instant_damage: Взрывное снадобье вреда
+  poison: Взрывное снадобье отравленія
+  regen: Взрывное снадобье возстановленія
+  strength: Взрывное снадобье силы
+  weakness: Взрывное снадобье слабости
+  luck: Взрывное снадобье везенія
+  turtle_master: Взрывное снадобье черепашьей мощи
+  slow_falling: Взрывное снадобье плавнаго паденія
+lingering_potion:
+  uncraftable: Несоздаваемое туманное снадобье
+  water: Туманная бутылочка воды
+  mundane: Заурядное туманное снадобье
+  thick: Густое туманное снадобье
+  awkward: Мутное туманное снадобье
+  night_vision: Туманное снадобье ночного зрѣнія
+  invisibility: Туманное снадобье незримости
+  jump: Туманное снадобье прыгучести
+  fire_resistance: Туманное снадобье огнестойкости
+  speed: Туманное снадобье рѣзвости
+  slowness: Туманное снадобье медлительности
+  water_breathing: Туманное снадобье дыханія въ водѣ
+  instant_heal: Туманное снадобье исцѣленія
+  instant_damage: Туманное снадобье урона
+  poison: Туманное снадобье отравленія
+  regen: Туманное снадобье возстановленія
+  strength: Туманное снадобье силы
+  weakness: Туманное снадобье слабости
+  luck: Туманное снадобье везенія
+  turtle_master: Туманное снадобье черепашьей мощи
+  slow_falling: Туманное снадобье плавнаго паденія
+tipped_arrow:
+  uncraftable: Стрѣла, обработанная несоздаваемымъ снадобьемъ
+  water: Взрывная стрѣла
+  mundane: Обработанная стрѣла
+  thick: Обработанная стрѣла
+  awkward: Обработанная стрѣла
+  night_vision: Стрѣла ночного зрѣнія
+  invisibility: Стрѣла незримости
+  jump: Стрѣла прыгучести
+  fire_resistance: Стрѣла огнестойкости
+  speed: Стрѣла рѣзвости
+  slowness: Стрѣла медлительности
+  water_breathing: Стрѣла дыханія въ водѣ
+  instant_heal: Стрѣла исцѣленія
+  instant_damage: Стрѣла вреда
+  poison: Стрѣла отравленія
+  regen: Стрѣла возстановленія
+  strength: Стрѣла силы
+  weakness: Стрѣла слабости
+  luck: Стрѣла везенія
+  turtle_master: Стрѣла черепашьей мощи
+  slow_falling: Стрѣла плавнаго паденія
+entity:
+  dropped_item: Вещь
+  experience_orb: Сфера мудрости
+  area_effect_cloud: Облако эффекта
+  elder_guardian: Старѣйшій сторожъ
+  wither_skeleton: Визеръ-скелетъ
+  stray: Зимогоръ
+  egg: Брошенное яйцо
+  leash_hitch: Узелъ поводка
+  painting: Картина
+  arrow: Стрѣла
+  snowball: Снѣжокъ
+  fireball: Огненный шаръ
+  small_fireball: Малый огненный шаръ
+  ender_pearl: Брошенный эндеръ-жемчугъ
+  ender_signal: Око Эндера
+  splash_potion: Снадобье
+  thrown_exp_bottle: Брошенная бутылочка мудрости
+  item_frame: Рамка
+  wither_skull: Черепъ визеръ-скелета
+  primed_tnt: Активированный динамитъ
+  falling_block: Падающій блокъ
+  firework: Фейерверкъ
+  husk: Кадавръ
+  spectral_arrow: Стрѣла наблюденія
+  shulker_bullet: Снарядъ шалкера
+  dragon_fireball: Огненный шаръ змѣя
+  zombie_villager: Крестьянинъ-мертвецъ
+  skeleton_horse: Лошадь-скелетъ
+  zombie_horse: Лошадь-мертвецъ
+  armor_stand: Стойка для брони
+  donkey: Осёлъ
+  mule: Мулъ
+  evoker_fangs: Клыки чародѣя
+  evoker: Чародѣй
+  vex: Вредина
+  vindicator: Воздаятель
+  illusioner: Иллюзоръ
+  minecart_command: Вагонетка съ ариѳмометромъ
+  boat: Лодка
+  minecart: Вагонетка
+  minecart_chest: Вагонетка съ сундукомъ
+  minecart_furnace: Самоходная вагонетка
+  minecart_tnt: Вагонетка съ динамитомъ
+  minecart_hopper: Пріёмная вагонетка
+  minecart_mob_spawner: Вагонетка съ разсадникомъ
+  creeper: Криперъ
+  skeleton: Скелетъ
+  spider: Паукъ
+  giant: Великанъ
+  zombie: Мертвецъ
+  slime: Слизень
+  ghast: Гастъ
+  zombified_piglin: Пиглинъ-мертвецъ
+  enderman: Эндерманъ
+  cave_spider: Мизгирь
+  silverfish: Чешуйница
+  blaze: Пламень
+  magma_cube: Магмовый кубъ
+  ender_dragon: Эндеръ-змѣй
+  wither: Визеръ
+  bat: Летучая мышь
+  witch: Вѣдьма
+  endermite: Эндермитъ
+  guardian: Сторожъ
+  shulker: Шалкеръ
+  pig: Свинья
+  sheep: Овца
+  cow: Корова
+  chicken: Курица
+  squid: Осьминогъ
+  wolf: Волкъ
+  mushroom_cow: Муухоморъ
+  snowman: Снѣговикъ
+  ocelot: Оцелотъ
+  iron_golem: Желѣзный витязь
+  horse: Лошадь
+  rabbit: Кроликъ
+  polar_bear: Бѣлый медвѣдь
+  llama: Лама
+  llama_spit: Плевокъ ламы
+  parrot: Попугай
+  villager: Крестьянинъ
+  ender_crystal: Кристаллъ Энда
+  turtle: Черепаха
+  phantom: Фантомъ
+  trident: Трезубецъ
+  cod: Треска
+  salmon: Лосось
+  pufferfish: Иглобрюхъ
+  tropical_fish: Тропическая рыба
+  drowned: Утопленникъ
+  dolphin: Дельфинъ
+  cat: Кошка
+  panda: Панда
+  pillager: Разбойникъ
+  ravager: Разоритель
+  trader_llama: Лама коробейника
+  wandering_trader: Коробейникъ
+  fox: Лисица
+  bee: Пчела
+  hoglin: Хоглинъ
+  piglin: Пиглинъ
+  strider: Лавомѣрка
+  zoglin: Зоглинъ
+  piglin_brute: Брутальный пиглинъ
+  axolotl: Аксолотль
+  glow_item_frame: Свѣтящаяся рамка
+  glow_squid: Сіяющій осьминогъ
+  goat: Коза
+  marker: Мѣтка
+  fishing_hook: Поплавокъ
+  lightning: Молнія
+  player: Игрокъ
+effect:
+  speed: Рѣзвость
+  slow: Медлительность
+  fast_digging: Спѣшка
+  slow_digging: Утомленіе
+  increase_damage: Сила
+  heal: Исцѣленіе
+  harm: Моментальный вредъ
+  jump: Прыгучесть
+  confusion: Тошнота
+  regeneration: Возстановленіе
+  damage_resistance: Сопротивленіе
+  fire_resistance: Огнестойкость
+  water_breathing: Дыханіе въ водѣ
+  invisibility: Незримость
+  blindness: Слѣпота
+  night_vision: Ночное зрѣніе
+  hunger: Голодъ
+  weakness: Слабость
+  poison: Отравленіе
+  wither: Изсушеніе
+  health_boost: Приливъ здравія
+  absorption: Поглощеніе
+  saturation: Насыщеніе
+  glowing: Свѣченіе
+  levitation: Легковѣсность
+  luck: Везеніе
+  unluck: Невезеніе
+  slow_falling: Плавное паденіе
+  conduit_power: Сила источника
+  dolphins_grace: Грація дельфина
+  bad_omen: Зловѣщее знаменіе
+  hero_of_the_village: Герой двора
+tropical_fish_type:
+  kob: Горбыль
+  sunstreak: Лучехвостка
+  snooper: Сыщикъ
+  dasher: Живецъ
+  brinely: Красотка
+  spotty: Пеструшка
+  flopper: Плескунъ
+  stripey: Полосатка
+  glitter: Блестянка
+  blockfish: Блокунь
+  betty: Пѣтушокъ
+  clayfish: Глинянка
+dye_color:
+  white: Бѣлый
+  orange: Оранжевый
+  magenta: Пурпурный
+  light_blue: Голубой
+  yellow: Жёлтый
+  lime: Яркозелёный
+  pink: Розовый
+  gray: Сѣрый
+  light_gray: Свѣтлосѣрый
+  cyan: Бирюзовый
+  purple: Фіолетовый
+  blue: Лазурный
+  brown: Коричневый
+  green: Зелёный
+  red: Червонный
+  black: Чёрный
+named:
+  player_head_named: Голова %s
+  potion_with_amplifier: '%s %s'
+  potion_with_duration: '%s (%s)'
+  none_effects: Безъ эффектовъ
+  unknown_enchantment: 'Неизвѣстныя чары: %s'
+  unknown_entity: 'Неизвѣстная сущность: %s'
+  unknown_effect: 'Неизвѣстный эффектъ: %s'
+tropical_fish_name:
+  '117506305': Амфипріонъ
+  '117899265': Чёрная зебрасома
+  '185008129': Голубой хирургъ
+  '117441793': Рыба-бабочка
+  '118161664': Цихлида
+  '65536': Рыба-клоунъ
+  '50726144': Сіамскій пѣтушокъ
+  '67764993': Грамма двуцвѣтная
+  '234882305': Трехполосый луціанъ
+  '67110144': Султанка
+  '117441025': Мавританскій идолъ
+  '16778497': Разукрашенная бабочка
+  '101253888': Рыба-попугай
+  '50660352': Ангелъ-королева
+  '918529': Червонная цихлида
+  '235340288': Красногубая морская собачка
+  '918273': Бериксъ
+  '67108865': Пальцепёръ
+  '917504': Клоунъ томатный
+  '459008': Спинорогъ
+  '67699456': Желтохвостая рыба-попугай
+  '67371009': Зебрасома жёлтая
+colored_shied:
+  white: Бѣлый щитъ
+  orange: Оранжевый щитъ
+  magenta: Пурпурный щитъ
+  light_blue: Голубой щитъ
+  yellow: Жёлтый щитъ
+  lime: Яркозелёный щитъ
+  pink: Розовый щитъ
+  gray: Сѣрый щитъ
+  light_gray: Свѣтлосѣрый щитъ
+  cyan: Бирюзовый щитъ
+  purple: Фіолетовый щитъ
+  blue: Лазурный щитъ
+  brown: Коричневый щитъ
+  green: Зелёный щитъ
+  red: Червонный щитъ
+  black: Чёрный щитъ
+banner_pattern:
+  '65536': Бѣлый нижній правый крыжъ
+  '65537': Оранжевый нижній правый крыжъ
+  '65538': Пурпурный нижній правый крыжъ
+  '65539': Голубой нижній правый крыжъ
+  '65540': Жёлтый нижній правый крыжъ
+  '65541': Яркозелёный нижній правый крыжъ
+  '65542': Розовый нижній правый крыжъ
+  '65543': Сѣрый нижній правый кантонъ
+  '65544': Свѣтлосѣрый нижній правый крыжъ
+  '65545': Бирюзовый нижній правый крыжъ
+  '65546': Фіолетовый нижній правый крыжъ
+  '65547': Лазурный нижній правый крыжъ
+  '65548': Коричневый нижній правый кантонъ
+  '65549': Зелёный нижній правый крыжъ
+  '65550': Червонный нижній правый крыжъ
+  '65551': Черный нижній правый крыжъ
+  '131072': Бѣлый нижній лѣвый крыжъ
+  '131073': Оранжевый нижній лѣвый крыжъ
+  '131074': Пурпурный нижній лѣвый крыжъ
+  '131075': Голубой нижній лѣвый крыжъ
+  '131076': Жёлтый нижній лѣвый крыжъ
+  '131077': Яркозёленый нижній лѣвый крыжъ
+  '131078': Розовый нижній лѣвый крыжъ
+  '131079': Сѣрый нижній лѣвый крыжъ
+  '131080': Свѣтлосѣрый нижній лѣвый крыжъ
+  '131081': Бирюзовый нижній лѣвый крыжъ
+  '131082': Фіолетовый нижній лѣвый крыжъ
+  '131083': Лазурный нижній лѣвый крыжъ
+  '131084': Коричневый нижній лѣвый кантонъ
+  '131085': Зелёный нижній лѣвый крыжъ
+  '131086': Червонный нижній лѣвый крыжъ
+  '131087': Чёрный нижній лѣвый кантонъ
+  '196608': Бѣлый верхній правый крыжъ
+  '196609': Оранжевый верхній правый крыжъ
+  '196610': Пурпурный верхній правый крыжъ
+  '196611': Голубой верхній правый крыжъ
+  '196612': Жёлтый верхній правый крыжъ
+  '196613': Яркозелёный верхній правый крыжъ
+  '196614': Розовый верхній правый крыжъ
+  '196615': Cѣрый верхній правый крыжъ
+  '196616': Свѣтлосѣрый верхній правый крыжъ
+  '196617': Бирюзовый верхній правый крыжъ
+  '196618': Фіолетовый верхній правый крыжъ
+  '196619': Синій верхній правый крыжъ
+  '196620': Коричневый верхній правый крыжъ
+  '196621': Зелёный верхній правый крыжъ
+  '196622': Червонный верхній правый крыжъ
+  '196623': Чёрный верхній правый крыжъ
+  '262144': Бѣлый верхній лѣвый крыжъ
+  '262145': Оранжевый верхній лѣвый крыжъ
+  '262146': Пурпурный верхній лѣвый крыжъ
+  '262147': Голубой верхній лѣвый крыжъ
+  '262148': Жёлтый верхній лѣвый крыжъ
+  '262149': Яркозелёный верхній лѣвый крыжъ
+  '262150': Розовый верхній лѣвый крыжъ
+  '262151': Cѣрый верхній лѣвый крыжъ
+  '262152': Свѣтлосѣрый верхній лѣвый крыжъ
+  '262153': Бирюзовый верхній лѣвый крыжъ
+  '262154': Фіолетовый верхній лѣвый крыжъ
+  '262155': Лазурный верхній лѣвый крыжъ
+  '262156': Коричневый верхній лѣвый крыжъ
+  '262157': Зелёный верхній лѣвый крыжъ
+  '262158': Червонный верхній лѣвый крыжъ
+  '262159': Чёрный верхній лѣвый крыжъ
+  '327680': Бѣлое основаніе
+  '327681': Оранжевое основаніе
+  '327682': Пурпурное основаніе
+  '327683': Голубое основаніе
+  '327684': Жёлтое основаніе
+  '327685': Яркозелёное основаніе
+  '327686': Розовое основаніe
+  '327687': Cѣрое основаніe
+  '327688': Свѣтлосѣрое основаніе
+  '327689': Бирюзовое основаніе
+  '327690': Фіолетовое основаніе
+  '327691': Лазурное основаніе
+  '327692': Коричневое основаніе
+  '327693': Зелёное основаніе
+  '327694': Червонное основаніе
+  '327695': Чёрное основаніе
+  '393216': Бѣлая глава
+  '393217': Оранжевая глава
+  '393218': Пурпурная глава
+  '393219': Голубая глава
+  '393220': Жёлтая глава
+  '393221': Яркозелёная глава
+  '393222': Розовая глава
+  '393223': Сѣрая глава
+  '393224': Свѣтлосѣрая глава
+  '393225': Бирюзовая глава
+  '393226': Фіолетовая глава
+  '393227': Лазурная глава
+  '393228': Коричневая глава
+  '393229': Зелёная глава
+  '393230': Червонная глава
+  '393231': Чёрная глава
+  '458752': Бѣлый правосторонній столбъ
+  '458753': Оранжевый правосторонній столбъ
+  '458754': Пурпурный правосторонній столбъ
+  '458755': Голубой правосторонній столбъ
+  '458756': Жёлтый правосторонній столбъ
+  '458757': Яркозелёный правосторонній столбъ
+  '458758': Розовый правосторонній столбъ
+  '458759': Сѣрый правосторонній столбъ
+  '458760': Свѣтлосѣрый правосторонній столбъ
+  '458761': Бирюзовый правосторонній столбъ
+  '458762': Фіолетовый правосторонній столбъ
+  '458763': Лазурный правосторонній столбъ
+  '458764': Коричневый правосторонній столбъ
+  '458765': Зелёный правосторонній столбъ
+  '458766': Червонный правосторонній столбъ
+  '458767': Чёрный правосторонній столбъ
+  '524288': Бѣлый лѣвосторонній столбъ
+  '524289': Оранжевый лѣвосторонній столбъ
+  '524290': Пурпурный лѣвосторонній столбъ
+  '524291': Голубой лѣвосторонній столбъ
+  '524292': Жёлтый лѣвосторонній столбъ
+  '524293': Яркозелёный лѣвосторонній столбъ
+  '524294': Розовый лѣвосторонній столбъ
+  '524295': Сѣрый лѣвосторонній столбъ
+  '524296': Свѣтлосѣрый лѣвосторонній столбъ
+  '524297': Бирюзовый лѣвосторонній столбъ
+  '524298': Фіолетовый лѣвосторонній столбъ
+  '524299': Лазурный лѣвосторонній столбъ
+  '524300': Коричневый лѣвосторонній столбъ
+  '524301': Зеленый лѣвосторонній столбъ
+  '524302': Червонный лѣвосторонній столбъ
+  '524303': Чёрный лѣвосторонній столбъ
+  '589824': Бѣлый столбъ
+  '589825': Оранжевый столбъ
+  '589826': Пурпурный столбъ
+  '589827': Голубой столбъ
+  '589828': Жёлтый столбъ
+  '589829': Яркозелёная центральная полоса
+  '589830': Розовый столбъ
+  '589831': Сѣрый столбъ
+  '589832': Свѣтлосѣрый столбъ
+  '589833': Бирюзовый столбъ
+  '589834': Фіолетовый столбъ
+  '589835': Лазурный столбъ
+  '589836': Коричневый столбъ
+  '589837': Зелёный столбъ
+  '589838': Червонный столбъ
+  '589839': Чёрный столбъ
+  '655360': Бѣлый поясъ
+  '655361': Оранжевый поясъ
+  '655362': Пурпурный поясъ
+  '655363': Голубой поясъ
+  '655364': Жёлтый поясъ
+  '655365': Яркозелёный поясъ
+  '655366': Розовый поясъ
+  '655367': Cѣрый поясъ
+  '655368': Свѣтлосѣрый поясъ
+  '655369': Бирюзовый поясъ
+  '655370': Фіолетовый поясъ
+  '655371': Лазурный поясъ
+  '655372': Коричневый поясъ
+  '655373': Зелёный поясъ
+  '655374': Червонный поясъ
+  '655375': Чёрный поясъ
+  '720896': Бѣлая перевязь
+  '720897': Оранжевая перевязь
+  '720898': Пурпурная перевязь
+  '720899': Голубая перевязь
+  '720900': Жёлтая перевязь
+  '720901': Яркозелёная перевязь
+  '720902': Розовая перевязь
+  '720903': Cѣрая перевязь
+  '720904': Свѣтлосѣрая перевязь
+  '720905': Бирюзовая перевязь
+  '720906': Фіолетовая перевязь
+  '720907': Лазурная перевязь
+  '720908': Коричневая перевязь
+  '720909': Зелёная перевязь
+  '720910': Червонная перевязь
+  '720911': Чёрная перевязь
+  '786432': Бѣлая лѣвосторонняя перевязь
+  '786433': Оранжевая лѣвосторонняя перевязь
+  '786434': Пурпурная лѣвосторонняя перевязь
+  '786435': Голубая лѣвосторонняя перевязь
+  '786436': Жёлтая лѣвосторонняя перевязь
+  '786437': Яркозелёная лѣвосторонняя перевязь
+  '786438': Розовая лѣвосторонняя перевязь
+  '786439': Сѣрая лѣвосторонняя перевязь
+  '786440': Свѣтлосѣрая лѣвосторонняя перевязь
+  '786441': Бирюзовая лѣвосторонняя перевязь
+  '786442': Фіолетовая лѣвосторонняя перевязь
+  '786443': Лазурная лѣвосторонняя перевязь
+  '786444': Коричневая лѣвосторонняя перевязь
+  '786445': Зелёная лѣвосторонняя перевязь
+  '786446': Червонная лѣвосторонняя перевязь
+  '786447': Чёрная лѣвосторонняя перевязь
+  '851968': Бѣлые столбы
+  '851969': Оранжевые столбы
+  '851970': Пурпурные столбы
+  '851971': Голубые столбы
+  '851972': Жёлтые столбы
+  '851973': Яркозелёные столбы
+  '851974': Розовые столбы
+  '851975': Сѣрые столбы
+  '851976': Свѣтлосѣрые столбы
+  '851977': Бирюзовые столбы
+  '851978': Фіолетовые столбы
+  '851979': Лазурные столбы
+  '851980': Коричневые столбы
+  '851981': Зелёные столбы
+  '851982': Червонные столбы
+  '851983': Чёрные столбы
+  '917504': Бѣлый Андреевскій крестъ
+  '917505': Оранжевый Андреевскій крестъ
+  '917506': Пурпурный Андреевскій крестъ
+  '917507': Голубой Андреевскій крестъ
+  '917508': Жёлтый Андреевскій крестъ
+  '917509': Яркозелёный Андреевскій крестъ
+  '917510': Розовый Андреевскій крестъ
+  '917511': Сѣрый Андреевскій крестъ
+  '917512': Свѣтлосѣрый Андреевскій крестъ
+  '917513': Бирюзовый Андреевскій крестъ
+  '917514': Фіолетовый Андреевскій крестъ
+  '917515': Лазурный Андреевскій крестъ
+  '917516': Коричневый Андреевскій крестъ
+  '917517': Зелёный Андреевскій крестъ
+  '917518': Червонный Андреевскій крестъ
+  '917519': Чёрный Андреевскій крестъ
+  '983040': Бѣлый греческій крестъ
+  '983041': Оранжевый греческій крестъ
+  '983042': Пурпурный греческій крестъ
+  '983043': Голубой греческій крестъ
+  '983044': Жёлтый греческій крестъ
+  '983045': Яркозелёный греческій крестъ
+  '983046': Розовый греческій крестъ
+  '983047': Сѣрый греческій крестъ
+  '983048': Свѣтлосѣрый греческій крестъ
+  '983049': Бирюзовый греческій крестъ
+  '983050': Фіолетовый греческій крестъ
+  '983051': Лазурный греческій крестъ
+  '983052': Коричневый греческій крестъ
+  '983053': Зелёный греческій крестъ
+  '983054': Червонный греческій крестъ
+  '983055': Чёрный греческій крестъ
+  '1048576': Бѣлое остріё
+  '1048577': Оранжевое остріё
+  '1048578': Пурпурное остріё
+  '1048579': Голубое остріё
+  '1048580': Жёлтое остріё
+  '1048581': Яркозелёное остріё
+  '1048582': Розовое остріё
+  '1048583': Сѣрое остріё
+  '1048584': Свѣтлосѣрое остріё
+  '1048585': Бирюзовое остріё
+  '1048586': Фіолетовое остріё
+  '1048587': Лазурное остріё
+  '1048588': Коричневое остріё
+  '1048589': Зелёное остріё
+  '1048590': Червонное остріё
+  '1048591': Чёрное остріё
+  '1114112': Бѣлое опрокинутое остріё
+  '1114113': Оранжевое опрокинутое остріё
+  '1114114': Пурпурное опрокинутое остріё
+  '1114115': Голубое опрокинутое остріё
+  '1114116': Жёлтое опрокинутое остріё
+  '1114117': Яркозелёное опрокинутое остріё
+  '1114118': Розовое опрокинутое остріё
+  '1114119': Сѣрое опрокинутое остріё
+  '1114120': Свѣтлосѣрое опрокинутое остріё
+  '1114121': Бирюзовое опрокинутое остріё
+  '1114122': Фіолетовое опрокинутое остріё
+  '1114123': Лазурное опрокинутое остріё
+  '1114124': Коричневое опрокинутое остріё
+  '1114125': Зелёное опрокинутое остріё
+  '1114126': Червонное опрокинутое остріё
+  '1114127': Чёрное опрокинутое остріё
+  '1179648': Бѣлое зубчатое основаніе
+  '1179649': Оранжевое зубчатое основаніе
+  '1179650': Пурпурное зубчатое основаніе
+  '1179651': Голубое зубчатое основаніе
+  '1179652': Жёлтое зубчатое основаніе
+  '1179653': Яркозелёное зубчатое основаніе
+  '1179654': Розовое зубчатое основаніе
+  '1179655': Сѣрое зубчатое основаніе
+  '1179656': Свѣтлосѣрое зубчатое основаніе
+  '1179657': Бирюзовое зубчатое основаніе
+  '1179658': Фіолетовое зубчатое основаніе
+  '1179659': Лазурное зубчатое основаніе
+  '1179660': Коричневое зубчатое основаніе
+  '1179661': Зелёное зубчатое основаніе
+  '1179662': Червонное зубчатое основаніе
+  '1179663': Чёрное зубчатое основаніе
+  '1245184': Бѣлая зубчатая глава
+  '1245185': Оранжевая зубчатая глава
+  '1245186': Пурпурная зубчатая глава
+  '1245187': Голубая зубчатая глава
+  '1245188': Жёлтая зубчатая глава
+  '1245189': Яркозелёная зубчатая глава
+  '1245190': Розовая зубчатая глава
+  '1245191': Сѣрая зубчатая глава
+  '1245192': Свѣтлосѣрая зубчатая глава
+  '1245193': Бирюзовая зубчатая глава
+  '1245194': Фіолетовая зубчатая глава
+  '1245195': Лазурная зубчатая глава
+  '1245196': Коричневая зубчатая глава
+  '1245197': Зелёная зубчатая глава
+  '1245198': Червонная зубчатая глава
+  '1245199': Чёрная зубчатая глава
+  '1310720': Бѣлое скошеніе слѣва
+  '1310721': Оранжевое скошеніе слѣва
+  '1310722': Пурпурное скошеніе слѣва
+  '1310723': Голубое скошеніе слѣва
+  '1310724': Жёлтое скошеніе слѣва
+  '1310725': Яркозелёное скошеніе справа
+  '1310726': Розовое скошеніе слѣва
+  '1310727': Сѣрое скошеніе слѣва
+  '1310728': Свѣтлосѣрое скошеніе слѣва
+  '1310729': Бирюзовое скошеніе слѣва
+  '1310730': Фіолетовое скошеніе слѣва
+  '1310731': Лазурное скошеніе слѣва
+  '1310732': Коричневое скошеніе слѣва
+  '1310733': Зелёное скошеніе слѣва
+  '1310734': Червонное скошеніе слѣва
+  '1310735': Чёрное скошеніе слѣва
+  '1376256': Бѣлое опрокинутое скошеніе слѣва
+  '1376257': Оранжевое опрокинутое скошеніе слѣва
+  '1376258': Пурпурное опрокинутое скошеніе слѣва
+  '1376259': Голубое опрокинутое скошеніе слѣва
+  '1376260': Жёлтое опрокинутое скошеніе слѣва
+  '1376261': Яркозелёное опрокинутое скошеніе слѣва
+  '1376262': Розовое опрокинутое скошеніе слѣва
+  '1376263': Сѣрое опрокинутое скошеніе слѣва
+  '1376264': Свѣтлосѣрое опрокинутое скошеніе слѣва
+  '1376265': Бирюзовое опрокинутое скошеніе слѣва
+  '1376266': Фіолетовое опрокинутое скошеніе слѣва
+  '1376267': Лазурное опрокинутое скошеніе слѣва
+  '1376268': Коричневое опрокинутое скошеніе слѣва
+  '1376269': Зелёное опрокинутое скошеніе слѣва
+  '1376270': Червонное опрокинутое скошеніе слѣва
+  '1376271': Чёрное опрокинутое скошеніе слѣва
+  '1441792': Бѣлое опрокинутое скошеніе
+  '1441793': Оранжевое опрокинутое скошеніе
+  '1441794': Пурпурное опрокинутое скошеніе
+  '1441795': Голубое опрокинутое скошеніе
+  '1441796': Жёлтое опрокинутое скошеніе
+  '1441797': Яркозелёное опрокинутое скошеніе
+  '1441798': Розовое опрокинутое скошеніе
+  '1441799': Сѣрое опрокинутое скошеніе
+  '1441800': Свѣтлосѣрое опрокинутое скошеніе
+  '1441801': Бирюзовое опрокинутое скошеніе
+  '1441802': Фіолетовое опрокинутое скошеніе
+  '1441803': Лазурное опрокинутое скошеніе
+  '1441804': Коричневое опрокинутое скошеніе
+  '1441805': Зелёное опрокинутое скошеніе
+  '1441806': Червонное опрокинутое скошеніе
+  '1441807': Чёрное опрокинутое скошеніе
+  '1507328': Бѣлое скошеніе
+  '1507329': Оранжевое скошеніе
+  '1507330': Пурпурное скошеніе
+  '1507331': Голубое скошеніе
+  '1507332': Жёлтое скошеніе
+  '1507333': Яркозелёное скошеніе
+  '1507334': Розовое скошеніе
+  '1507335': Сѣрое скошеніе
+  '1507336': Свѣтлосѣрое скошеніе
+  '1507337': Бирюзовое скошеніе
+  '1507338': Фіолетовое скошеніе
+  '1507339': Лазурное скошеніе
+  '1507340': Коричневое скошеніе
+  '1507341': Зелёное скошеніе
+  '1507342': Червонное скошеніе
+  '1507343': Чёрное скошеніе
+  '1572864': Бѣлый кругъ
+  '1572865': Оранжевый кругъ
+  '1572866': Пурпурный кругъ
+  '1572867': Голубой кругъ
+  '1572868': Жёлтый кругъ
+  '1572869': Яркозелёный кругъ
+  '1572870': Розовый кругъ
+  '1572871': Сѣрый кругъ
+  '1572872': Свѣтлосѣрый кругъ
+  '1572873': Бирюзовый кругъ
+  '1572874': Фіолетовый кругъ
+  '1572875': Лазурный кругъ
+  '1572876': Коричневый кругъ
+  '1572877': Зелёный кругъ
+  '1572878': Червонный кругъ
+  '1572879': Чёрный кругъ
+  '1638400': Бѣлый ромбъ
+  '1638401': Оранжевый ромбъ
+  '1638402': Пурпурный ромбъ
+  '1638403': Голубой ромбъ
+  '1638404': Жёлтый ромбъ
+  '1638405': Яркозелёный ромбъ
+  '1638406': Розовый ромбъ
+  '1638407': Cѣрый ромбъ
+  '1638408': Свѣтлосѣрый ромбъ
+  '1638409': Бирюзовый ромбъ
+  '1638410': Фіолетовый ромбъ
+  '1638411': Лазурный ромбъ
+  '1638412': Коричневый ромбъ
+  '1638413': Зелёный ромбъ
+  '1638414': Червонный ромбъ
+  '1638415': Чёрный ромбъ
+  '1703936': Бѣлая лѣвая половина
+  '1703937': Оранжевая лѣвая половина
+  '1703938': Пурпурная лѣвая половина
+  '1703939': Голубая лѣвая половина
+  '1703940': Жёлтая лѣвая половина
+  '1703941': Яркозелёная лѣвая половина
+  '1703942': Розовая лѣвая половина
+  '1703943': Сѣрая лѣвая половина
+  '1703944': Свѣтлосѣрая лѣвая половина
+  '1703945': Бирюзовая лѣвая половина
+  '1703946': Фіолетовая лѣвая половина
+  '1703947': Лазурная лѣвая половина
+  '1703948': Коричневая лѣвая половина
+  '1703949': Зелёная лѣвая половина
+  '1703950': Червонная лѣвая половина
+  '1703951': Чёрная лѣвая половина
+  '1769472': Бѣлая верхняя половина
+  '1769473': Оранжевая верхняя половина
+  '1769474': Пурпурная верхняя половина
+  '1769475': Голубая верхняя половина
+  '1769476': Жёлтая верхняя половина
+  '1769477': Яркозелёная верхняя половина знамени
+  '1769478': Розовая верхняя половина
+  '1769479': Сѣрая верхняя половина
+  '1769480': Свѣтлосѣрая верхняя половина
+  '1769481': Бирюзовая верхняя половина
+  '1769482': Фіолетовая верхняя половина
+  '1769483': Лазурная верхняя половина
+  '1769484': Коричневая верхняя половина
+  '1769485': Зелёная верхняя половина
+  '1769486': Червонная верхняя половина
+  '1769487': Чёрная верхняя половина
+  '1835008': Бѣлая правая половина
+  '1835009': Оранжевая правая половина
+  '1835010': Пурпурная правая половина
+  '1835011': Голубая правая половина
+  '1835012': Жёлтая правая половина
+  '1835013': Зелёная лѣвая половина
+  '1835014': Розовая правая половина
+  '1835015': Сѣрая правая половина
+  '1835016': Свѣтлосѣрая правая половина
+  '1835017': Бирюзовая правая половина
+  '1835018': Фіолетовая правая половина
+  '1835019': Лазурная правая половина
+  '1835020': Коричневая правая половина
+  '1835021': Зелёная правая половина
+  '1835022': Червонная правая половина
+  '1835023': Чёрная правая половина
+  '1900544': Бѣлая нижняя половина
+  '1900545': Оранжевая нижняя половина
+  '1900546': Пурпурная нижняя половина
+  '1900547': Голубая нижняя половина
+  '1900548': Жёлтая нижняя половина
+  '1900549': Яркозелёная нижняя половина знамени
+  '1900550': Розовая нижняя половина
+  '1900551': Сѣрая нижняя половина
+  '1900552': Свѣтлосѣрая нижняя половина
+  '1900553': Бирюзовая нижняя половина
+  '1900554': Фіолетовая нижняя половина
+  '1900555': Лазурная нижняя половина
+  '1900556': Коричневая нижняя половина
+  '1900557': Зелёная нижняя половина
+  '1900558': Червонная нижняя половина
+  '1900559': Чёрная нижняя половина
+  '1966080': Бѣлая кайма
+  '1966081': Оранжевая кайма
+  '1966082': Пурпурная кайма
+  '1966083': Голубая кайма
+  '1966084': Жёлтая кайма
+  '1966085': Яркозелёная кайма
+  '1966086': Розовая кайма
+  '1966087': Сѣрая кайма
+  '1966088': Свѣтлосѣрая кайма
+  '1966089': Бирюзовая кайма
+  '1966090': Фіолетовая кайма
+  '1966091': Лазурная кайма
+  '1966092': Коричневая кайма
+  '1966093': Зелёная кайма
+  '1966094': Червонная кайма
+  '1966095': Чёрная кайма
+  '2031616': Бѣлая зубчатая кайма
+  '2031617': Оранжевая зубчатая кайма
+  '2031618': Пурпурная зубчатая кайма
+  '2031619': Голубая зубчатая кайма
+  '2031620': Жёлтая зубчатая кайма
+  '2031621': Яркозелёная зубчатая кайма
+  '2031622': Розовая зубчатая кайма
+  '2031623': Сѣрая зубчатая кайма
+  '2031624': Свѣтлосѣрая зубчатая кайма
+  '2031625': Бирюзовая зубчатая кайма
+  '2031626': Фіолетовая зубчатая кайма
+  '2031627': Лазурная зубчатая кайма
+  '2031628': Коричневая зубчатая кайма
+  '2031629': Зелёная зубчатая кайма
+  '2031630': Червонная зубчатая кайма
+  '2031631': Чёрная зубчатая кайма
+  '2097152': Бѣлая рожица крипера
+  '2097153': Оранжевая рожица крипера
+  '2097154': Пурпурная рожица крипера
+  '2097155': Голубая рожица крипера
+  '2097156': Жёлтая рожица крипера
+  '2097157': Яркозелёная рожица крипера
+  '2097158': Розовая рожица крипера
+  '2097159': Сѣрая рожица крипера
+  '2097160': Свѣтлосѣрая рожица крипера
+  '2097161': Бирюзовая рожица крипера
+  '2097162': Фіолетовое лицо крипера
+  '2097163': Лазурная рожица крипера
+  '2097164': Коричневая рожица крипера
+  '2097165': Зелёная рожица крипера
+  '2097166': Червонная рожица крипера
+  '2097167': Чёрная рожица крипера
+  '2162688': Бѣлый градіентъ
+  '2162689': Оранжевый градіентъ
+  '2162690': Пурпурный градіентъ
+  '2162691': Голубой градіентъ
+  '2162692': Жёлтый градіентъ
+  '2162693': Яркозелёный градіентъ
+  '2162694': Розовый градіентъ
+  '2162695': Сѣрый градіентъ
+  '2162696': Свѣтлосѣрый градіентъ
+  '2162697': Бирюзовый градіентъ
+  '2162698': Фіолетовый градіентъ
+  '2162699': Лазурный градіентъ
+  '2162700': Коричневый градіентъ
+  '2162701': Зелёный градіентъ
+  '2162702': Червонный градіентъ
+  '2162703': Чёрный градіентъ
+  '2228224': Бѣлый обратный градіентъ
+  '2228225': Оранжевый обратный градіентъ
+  '2228226': Пурпурный обратный градіентъ
+  '2228227': Голубой обратный градіентъ
+  '2228228': Жёлтый обратный градіентъ
+  '2228229': Яркозелёный обратный градіентъ
+  '2228230': Розовый обратный градіентъ
+  '2228231': Сѣрый обратный градіентъ
+  '2228232': Свѣтлосѣрый обратный градіентъ
+  '2228233': Бирюзовый обратный градіентъ
+  '2228234': Фіолетовый обратный градіентъ
+  '2228235': Лазурный обратный градіентъ
+  '2228236': Коричневый обратный градіентъ
+  '2228237': Зелёный обратный градіентъ
+  '2228238': Червонный обратный градіентъ
+  '2228239': Чёрный обратный градіентъ
+  '2293760': Бѣлая муровка
+  '2293761': Оранжевая муровка
+  '2293762': Пурпурная муровка
+  '2293763': Голубая муровка
+  '2293764': Жёлтая муровка
+  '2293765': Яркозелёная муровка
+  '2293766': Розовая муровка
+  '2293767': Сѣрая муровка
+  '2293768': Свѣтлосѣрая муровка
+  '2293769': Бирюзовая муровка
+  '2293770': Фіолетовая муровка
+  '2293771': Лазоревая муровка
+  '2293772': Коричневая муровка
+  '2293773': Зелёная муровка
+  '2293774': Червонная муровка
+  '2293775': Чёрная муровка
+  '2359296': Бѣлый черепъ
+  '2359297': Оранжевый черепъ
+  '2359298': Пурпурный черепъ
+  '2359299': Голубой черепъ
+  '2359300': Жёлтый черепъ
+  '2359301': Яркозелёный черепъ
+  '2359302': Розовый черепъ
+  '2359303': Сѣрый черепъ
+  '2359304': Свѣтлосѣрый черепъ
+  '2359305': Бирюзовый черепъ
+  '2359306': Фіолетовый черепъ
+  '2359307': Лазурный черепъ
+  '2359308': Коричневый черепъ
+  '2359309': Зелёный черепъ
+  '2359310': Червонный черепъ
+  '2359311': Чёрный черепъ
+  '2424832': Бѣлый цвѣтокъ
+  '2424833': Оранжевый цвѣтокъ
+  '2424834': Пурпурный цвѣтокъ
+  '2424835': Голубой цвѣтокъ
+  '2424836': Жёлтый цвѣтокъ
+  '2424837': Яркозелёный цвѣтокъ
+  '2424838': Розовый цвѣтокъ
+  '2424839': Сѣрый цвѣтокъ
+  '2424840': Свѣтлосѣрый цвѣтокъ
+  '2424841': Бирюзовый цвѣтокъ
+  '2424842': Фіолетовый цвѣтокъ
+  '2424843': Лазурный цвѣтокъ
+  '2424844': Коричневый цвѣтокъ
+  '2424845': Зелёный цвѣтокъ
+  '2424846': Червонный цвѣтокъ
+  '2424847': Чёрный цвѣтокъ
+  '2490368': Бѣлое нѣчто
+  '2490369': Оранжевое нѣчто
+  '2490370': Пурпурное нѣчто
+  '2490371': Голубое нѣчто
+  '2490372': Жёлтое нѣчто
+  '2490373': Яркозелёное нѣчто
+  '2490374': Розовое нѣчто
+  '2490375': Сѣрое нѣчто
+  '2490376': Свѣтлосѣрое нѣчто
+  '2490377': Бирюзовое нѣчто
+  '2490378': Фіолетовое нѣчто
+  '2490379': Лазурное нѣчто
+  '2490380': Коричневое нѣчто
+  '2490381': Зелёное нѣчто
+  '2490382': Червонное нѣчто
+  '2490383': Чёрное нѣчто
+  '2555904': Бѣлый глобусъ
+  '2555905': Оранжевый глобусъ
+  '2555906': Пурпурный глобусъ
+  '2555907': Голубой глобусъ
+  '2555908': Жёлтый глобусъ
+  '2555909': Яркозелёный глобусъ
+  '2555910': Розовый глобусъ
+  '2555911': Сѣрый глобусъ
+  '2555912': Свѣтлосѣрый глобусъ
+  '2555913': Бирюзовый глобусъ
+  '2555914': Фіолетовый глобусъ
+  '2555915': Лазурный глобусъ
+  '2555916': Коричневый глобусъ
+  '2555917': Зелёный глобусъ
+  '2555918': Червонный глобусъ
+  '2555919': Чёрный глобусъ
+  '2621440': Бѣлое рыло
+  '2621441': Оранжевое рыло
+  '2621442': Пурпурное рыло
+  '2621443': Голубое рыло
+  '2621444': Жёлтое рыло
+  '2621445': Яркозелёное рыло
+  '2621446': Розовое рыло
+  '2621447': Сѣрое рыло
+  '2621448': Свѣтлосѣрое рыло
+  '2621449': Бирюзовое рыло
+  '2621450': Фіолетовое рыло
+  '2621451': Синее рыло
+  '2621452': Коричневое рыло
+  '2621453': Зелёное рыло
+  '2621454': Красное рыло
+  '2621455': Чёрное рыло
+music_disk:
+  music_disc_13: C418 — 13
+  music_disc_cat: C418 — cat
+  music_disc_blocks: C418 — blocks
+  music_disc_chirp: C418 - chіrp
+  music_disc_far: C418 - far
+  music_disc_mall: C418 - mall
+  music_disc_mellohi: C418 - mellohі
+  music_disc_stal: C418 - stal
+  music_disc_strad: C418 - strad
+  music_disc_ward: C418 - ward
+  music_disc_11: C418 - 11
+  music_disc_wait: C418 - waіt
+  music_disc_pigstep: Лена Рейнъ — Pіgstep
+new_banner_pattern:
+  flower_banner_pattern: Цвѣтокъ
+  creeper_banner_pattern: Рожица крипера
+  skull_banner_pattern: Черепъ
+  mojang_banner_pattern: Нѣчто
+  globe_banner_pattern: Глобусъ
+  piglin_banner_pattern: Рыло
+merchant_level:
+  '1': Неопытный
+  '2': Подмастерье
+  '3': Ремесленникъ
+  '4': Экспертъ
+  '5': Мастеръ
+villager_profession:
+  none: Крестьянинъ
+  armorer: Бронникъ
+  butcher: Скотоводъ
+  cartographer: Картографъ
+  cleric: Игуменъ
+  farmer: Земледѣлецъ
+  fisherman: Рыбакъ
+  fletcher: Лучникъ
+  leatherworker: Кожевникъ
+  librarian: Библіотекарь
+  mason: Каменщикъ
+  nitwit: Валандай
+  shepherd: Пастухъ
+  toolsmith: Инструментальщикъ
+  weaponsmith: Оружейныхъ дѣлъ мастеръ

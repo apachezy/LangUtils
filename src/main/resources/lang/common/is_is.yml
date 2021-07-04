@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:48                    #
+# Build time: 2021-07-04 21:46:03                    #
 # ####################################################
 language:
   code: is_is
@@ -14,11 +14,18 @@ material:
   polished_diorite: Slípað díórít
   andesite: Andesít
   polished_andesite: Slípað andesít
+  deepslate: Djúpsteinn
+  cobbled_deepslate: Steinsteyptur Djúpteinn
+  polished_deepslate: Pússað Djúpslétta
+  calcite: Kalsít
+  tuff: Móberg
+  dripstone_block: Dropasteins kubbur
   grass_block: Graskubbur
   dirt: Mold
   coarse_dirt: Gróf mold
   podzol: mór
-  crimson_nylium: Dreyrrauð heljarmygla
+  rooted_dirt: Rótuð mold
+  crimson_nylium: Hárautt heljarmygli
   warped_nylium: Brenglað heljarmygli
   cobblestone: Grjót
   oak_planks: Eikarplankar
@@ -27,7 +34,7 @@ material:
   jungle_planks: Frumskógsplankar
   acacia_planks: Akasíuplankar
   dark_oak_planks: Dökkeikarplankar
-  crimson_planks: Dreyrrauðir plankar
+  crimson_planks: Hárauðir plankar
   warped_planks: Brenglaðir plankar
   oak_sapling: Eikargræðlingur
   spruce_sapling: Grenigræðlingur
@@ -37,19 +44,76 @@ material:
   dark_oak_sapling: Dökkeikargræðlingur
   bedrock: Berggrunnur
   sand: Sandur
-  red_sand: Rauður Sandur
+  red_sand: Rauðsandur
   gravel: Möl
-  gold_ore: Gullgrýti
-  iron_ore: Járngrýti
   coal_ore: Kolagrýti
+  deepslate_coal_ore: Djúpsteypt Kolgrýti
+  iron_ore: Járngrýti
+  deepslate_iron_ore: Djúpsteypt Járngrýti
+  copper_ore: Kopargrýti
+  deepslate_copper_ore: Djúpsteypt Kopargrýti
+  gold_ore: Gullgrýti
+  deepslate_gold_ore: Djúpsteypt Gullgrýti
+  redstone_ore: Roðsteins grýti
+  deepslate_redstone_ore: Djúpsteypt Rauðgrýti
+  emerald_ore: Smaragðsgrýti
+  deepslate_emerald_ore: Djúpsteypt Smáragaðsgrýti
+  lapis_ore: Asúrsteinn
+  deepslate_lapis_ore: Djúpsteypt Blásteinsgrýti
+  diamond_ore: Demantsgrýti
+  deepslate_diamond_ore: Djúpsteypt Demantsgrýti
   nether_gold_ore: Heljargullgrýti
+  nether_quartz_ore: Heljarkvarsgrýti
+  ancient_debris: Fornleifar
+  coal_block: Kolakubbur
+  raw_iron_block: Kubbur af hrájárni
+  raw_copper_block: Kubbur af hrákopar
+  raw_gold_block: Kubbur af hrágulli
+  amethyst_block: Blákvarskubbur
+  budding_amethyst: Brumandi blákvars
+  iron_block: Járnkubbur
+  copper_block: Koparkubbur
+  gold_block: Gullkubbur
+  diamond_block: Demantskubbur
+  netherite_block: Heljarmálmskubbur
+  exposed_copper: Óvarinn kopar
+  weathered_copper: Veðraður kopar
+  oxidized_copper: Oxaður kopar
+  cut_copper: Skorinn kopar
+  exposed_cut_copper: Óvarinn skorinn kopar
+  weathered_cut_copper: Veðraður skorinn kopar
+  oxidized_cut_copper: Oxaður skorinn kopar
+  cut_copper_stairs: Skornar kopartröppur
+  exposed_cut_copper_stairs: Óvarnar skornar kopartröppur
+  weathered_cut_copper_stairs: Veðraðar skornar kopartröppur
+  oxidized_cut_copper_stairs: Oxaðar skornar kopartröppur
+  cut_copper_slab: Skorin koparhella
+  exposed_cut_copper_slab: Óvarin skorin koparhella
+  weathered_cut_copper_slab: Veðruð skorin koparhella
+  oxidized_cut_copper_slab: Oxuð skorin koparhella
+  waxed_copper_block: Vaxhúðuð blokk af kopar
+  waxed_exposed_copper: Vaxiður Óvarinn kopar
+  waxed_weathered_copper: Vaxiaður Veðraður kopar
+  waxed_oxidized_copper: Vaxaður oxaður kopar
+  waxed_cut_copper: Bónaður skorinn kopar
+  waxed_exposed_cut_copper: Vaxaður óvarinn skorin kopar
+  waxed_weathered_cut_copper: Vaxaður veðraður skorin kopar
+  waxed_oxidized_cut_copper: Vaxaður oxaður skorinn kopar
+  waxed_cut_copper_stairs: Vaxaðar klipptar kopar tröppur
+  waxed_exposed_cut_copper_stairs: Vaxaðar óvarnar skornar kopartröppur
+  waxed_weathered_cut_copper_stairs: Vaxaðar Veðraðar skornar kopartröppur
+  waxed_oxidized_cut_copper_stairs: Vaxaðar oxaðar skornar kopartröppur
+  waxed_cut_copper_slab: Bónuð skorin koparhella
+  waxed_exposed_cut_copper_slab: Vaxuð óvarin skorin koparhella
+  waxed_weathered_cut_copper_slab: Vöxuð veðruð skorin koparplata
+  waxed_oxidized_cut_copper_slab: Vöxuð skorin koparhella
   oak_log: Eikardrumbur
   spruce_log: Grenidrumbur
   birch_log: Birkidrumbur
   jungle_log: Frumskógsdrumbur
   acacia_log: Akasíudrumbur
   dark_oak_log: Dökkeikardrumbur
-  crimson_stem: Dreyrrauður stilkur
+  crimson_stem: Hárauður stilkur
   warped_stem: Brenglaður stofn
   stripped_oak_log: Afrifinn eikardrumbur
   stripped_spruce_log: Afrifinn grenidrumbur
@@ -57,7 +121,7 @@ material:
   stripped_jungle_log: Afrifinn frumskógsdrumbur
   stripped_acacia_log: Afrifinn akasíudrumbur
   stripped_dark_oak_log: Afrifinn dökkeikardrumbur
-  stripped_crimson_stem: Afrifinn hárauður stilkur
+  stripped_crimson_stem: Strípaður hárauður stilkur
   stripped_warped_stem: Afrifinn brenglaður stofn
   stripped_oak_wood: Afrifinn eikarviður
   stripped_spruce_wood: Afrifinn greniviður
@@ -65,7 +129,7 @@ material:
   stripped_jungle_wood: Afrifinn frumskógsviður
   stripped_acacia_wood: Afrifinn akasíuviður
   stripped_dark_oak_wood: Afrifinn dökkeikarviður
-  stripped_crimson_hyphae: Heflaðir dreyrrauðir sveppþræðir
+  stripped_crimson_hyphae: Strípaðir hárauðir sveppaþræðir
   stripped_warped_hyphae: Strípaðir brenglaðir sveppaþræðir
   oak_wood: Eikarviður
   spruce_wood: Greniviður
@@ -73,7 +137,7 @@ material:
   jungle_wood: Frumskógarviður
   acacia_wood: Akasíuviður
   dark_oak_wood: Dökkeikarviður
-  crimson_hyphae: Dreyrrauðir sveppþræðir
+  crimson_hyphae: Hárauðir sveppaþræðir
   warped_hyphae: Brenglaðir sveppaþræðir
   oak_leaves: Eikarlauf
   spruce_leaves: Greninálar
@@ -81,26 +145,24 @@ material:
   jungle_leaves: Frumskógarlauf
   acacia_leaves: Akasíulauf
   dark_oak_leaves: Dökkeikarlauf
+  azalea_leaves: Lyngrósablöð
+  flowering_azalea_leaves: Blómstrandi Lyngrósablöð
   sponge: Svampur
   wet_sponge: Blautur svampur
   glass: Gler
-  lapis_ore: Asúrsteinn
-  lapis_block: Asúrsteinskubbur
-  dispenser: Skammtari
+  tinted_glass: Litað gler
+  lapis_block: Blásteinskubbur
   sandstone: Sandsteinn
   chiseled_sandstone: Útskorinn sandsteinn
   cut_sandstone: Skorinn sandsteinn
-  note_block: Nótnakubbur
-  powered_rail: Orku teinar
-  detector_rail: Teinnemi
-  sticky_piston: Klístraður stimpill
   cobweb: Köngulóarvefur
   grass: Gras
   fern: Burkni
+  azalea: Lyngrós
+  flowering_azalea: Blómstrandi Lyngrós
   dead_bush: Dauður runni
   seagrass: Sægras
   sea_pickle: Sjávargúrka
-  piston: Stimpill
   white_wool: Hvít ull
   orange_wool: Appelsínugul ull
   magenta_wool: Vínrauð ull
@@ -122,28 +184,32 @@ material:
   blue_orchid: Blátt brönugras
   allium: Villilaukur
   azure_bluet: Bláeyg
-  red_tulip: Rauður Túlipani
-  orange_tulip: Appelsínugulur Túlipani
-  white_tulip: Hvítur Túlipani
-  pink_tulip: Bleikur Túlipani
+  red_tulip: Rauður túlípani
+  orange_tulip: Appelsínugulur túlípani
+  white_tulip: Hvítur túlípani
+  pink_tulip: Bleikur túlípani
   oxeye_daisy: Freyjubrá
   cornflower: Garðakornblóm
   lily_of_the_valley: Dalalilja
   wither_rose: Visnuð rós
+  spore_blossom: Bergsóley
   brown_mushroom: Brúnn sveppakubbur
   red_mushroom: Rauður sveppur
-  crimson_fungus: Dreyrrauður sveppur
+  crimson_fungus: Hárauður sveppur
   warped_fungus: Brenglaður sveppur
-  crimson_roots: Dreyrrauðar rætur
+  crimson_roots: Hárautt heljargras
   warped_roots: Brenglað heljargras
   nether_sprouts: Heljarspírur
   weeping_vines: Grátvínviður
   twisting_vines: Vafningsviður
   sugar_cane: Sykurreyr
   kelp: Þari
+  moss_carpet: Mosateppi
+  moss_block: Mosablokk
+  hanging_roots: Hangandi rætur
+  big_dripleaf: Stórt Hallalauf
+  small_dripleaf: Lítið Hallalauf
   bamboo: Bambus
-  gold_block: Gullkubbur
-  iron_block: Járnkubbur
   oak_slab: Eikarhella
   spruce_slab: Grenihella
   birch_slab: Birkihella
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: Sléttur sandsteinn
   smooth_stone: Sléttur steinn
   bricks: Múrsteinar
-  tnt: Sprengiefni
   bookshelf: Bókahilla
   mossy_cobblestone: Mosasteinn
   obsidian: Hrafntinna
@@ -187,27 +252,11 @@ material:
   spawner: Framkallari
   oak_stairs: Eikartröppur
   chest: Kista
-  diamond_ore: Demantsgrýti
-  diamond_block: Demantskubbur
   crafting_table: Vinnubekkur
   farmland: Ræktunarland
   furnace: Ofn
   ladder: Stigi
-  rail: Járnbraut
   cobblestone_stairs: Steintröppur
-  lever: Rofi
-  stone_pressure_plate: Þrýstihella úr steini
-  oak_pressure_plate: Þrýstihella úr eik
-  spruce_pressure_plate: Þrýstihella úr greni
-  birch_pressure_plate: Þrýstihella úr birki
-  jungle_pressure_plate: Þrýstihella úr frumskógarviði
-  acacia_pressure_plate: Þrýstihella úr akasíu
-  dark_oak_pressure_plate: Þrýstihella úr dökkeik
-  crimson_pressure_plate: Dreyrrauð þrýstihella
-  warped_pressure_plate: Brengluð þrýstihella
-  polished_blackstone_pressure_plate: Slípuð svartgrýtisþrýstihella
-  redstone_ore: Roðsteins grýti
-  redstone_torch: Rauðsteinskyndill
   snow: Snjór
   ice: Klaki
   snow_block: Snjókubbur
@@ -220,36 +269,35 @@ material:
   jungle_fence: Frumskógargirðing
   acacia_fence: Akasíugirðing
   dark_oak_fence: Dökkeikargirðing
-  crimson_fence: Dreyrrauð girðing
+  crimson_fence: Hárauð girðing
   warped_fence: Brengluð girðing
   pumpkin: Grasker
   carved_pumpkin: Útskorið grasker
+  jack_o_lantern: Ljósker
   netherrack: Heljargrjót
   soul_sand: Sálarsandur
   soul_soil: Sálarmold
   basalt: Basalt
   polished_basalt: Slípað basalt
+  smooth_basalt: Slétt basalt
   soul_torch: Sálarkyndill
   glowstone: Glósteinn
-  jack_o_lantern: Ljósker
-  oak_trapdoor: Eikarlúga
-  spruce_trapdoor: Grenihleri
-  birch_trapdoor: Birkilúga
-  jungle_trapdoor: Frumskógarviðarlúga
-  acacia_trapdoor: Akasíuhleri
-  dark_oak_trapdoor: Svarteikarhleri
-  crimson_trapdoor: Dreyrrauður hleri
-  warped_trapdoor: Brenglaður hleri
   infested_stone: Sýktur steinn
   infested_cobblestone: Sýkt grjót
   infested_stone_bricks: Sýktur steinmúr
   infested_mossy_stone_bricks: Sýktur mosagróin steinmúr
   infested_cracked_stone_bricks: Sýktur brotin steinmúr
   infested_chiseled_stone_bricks: Sýktur meitlaður steinmúr
+  infested_deepslate: Sýkt djúpgrýti
   stone_bricks: Steinmúr
   mossy_stone_bricks: Mosagróin steinhleðsla
   cracked_stone_bricks: Brotin steinhleðsla
   chiseled_stone_bricks: Útskorinn steinhleðsla
+  deepslate_bricks: Djúpsteinsmúr
+  cracked_deepslate_bricks: Brotinn Djúpsteinsmúr
+  deepslate_tiles: Djúpsteinsflísar
+  cracked_deepslate_tiles: Djúpsteinshellur
+  chiseled_deepslate: Meitlaður Djúpskífa
   brown_mushroom_block: Brúnn sveppakubbur
   red_mushroom_block: Rauður sveppakubbur
   mushroom_stem: Sveppsfótur
@@ -258,14 +306,7 @@ material:
   glass_pane: Rúða
   melon: Melóna
   vine: Vínviður
-  oak_fence_gate: Hlið
-  spruce_fence_gate: Grenigirðingarhlið
-  birch_fence_gate: Hlið úr birki
-  jungle_fence_gate: Hlið úr frumskógarviði
-  acacia_fence_gate: Hlið úr akasíuviði
-  dark_oak_fence_gate: Dökkeikarhlið
-  crimson_fence_gate: Dreyrrautt hlið
-  warped_fence_gate: Brenglað hlið
+  glow_lichen: Ljómandi Mosi
   brick_stairs: Múrsteinströppur
   stone_brick_stairs: Steinmúrströppur
   mycelium: Svepparætur
@@ -280,16 +321,13 @@ material:
   end_stone: Enda steinn
   end_stone_bricks: Endasteinshleðsla
   dragon_egg: Drekaegg
-  redstone_lamp: Rauðsteinslampi
   sandstone_stairs: Sandsteinströppur
-  emerald_ore: Smaragðsgrýti
-  ender_chest: Endakista
-  tripwire_hook: Vírkrækja
+  ender_chest: Enda kista
   emerald_block: Smaragðskubbur
   spruce_stairs: Grenitröppur
   birch_stairs: Birkitröppur
   jungle_stairs: Frumskógarviðartröppur
-  crimson_stairs: Dreyrrauðar tröppur
+  crimson_stairs: Hárauðar tröppur
   warped_stairs: Brenglaðar tröppur
   command_block: Forritunarkubbur
   beacon: Geisli
@@ -310,33 +348,18 @@ material:
   blackstone_wall: Svartgrýtismúr
   polished_blackstone_wall: Slípaður svartgrýtismúr
   polished_blackstone_brick_wall: Slípaður svartgrýtismúrsteinsmúr
-  stone_button: Steintakki
-  oak_button: Eikarhnappur
-  spruce_button: Grenihnappur
-  birch_button: Birkihnappur
-  jungle_button: Frumskógshnappur
-  acacia_button: Akasíuhnappur
-  dark_oak_button: Dökkur eikarhnappur
-  crimson_button: Dreyrrauður hnappur
-  warped_button: Brenglaður hnappur
-  polished_blackstone_button: Slípaður svartgrýtishnappur
+  cobbled_deepslate_wall: Steinlagður Djúpsteinsveggur
+  polished_deepslate_wall: Fáður Djúpsteinsveggur
+  deepslate_brick_wall: Djúpsteins Múrveggur
+  deepslate_tile_wall: Djúpsteinsflísaveggur
   anvil: Steðji
   chipped_anvil: Skaðaður steðji
   damaged_anvil: Skemmdur steðji
-  trapped_chest: Gildrukista
-  light_weighted_pressure_plate: Létt þyngdarnæm þrýstihella
-  heavy_weighted_pressure_plate: Þung þyngdarnæm þrýstihella
-  daylight_detector: Ljósnemi
-  redstone_block: Rauðsteinskubbur
-  nether_quartz_ore: Heljarkvarsgrýti
-  hopper: Trekt
   chiseled_quartz_block: Tilhöggvinn kvarskubbur
   quartz_block: Kvarskubbur
   quartz_bricks: Heljarkvarsmúr
   quartz_pillar: Kvarssúla
   quartz_stairs: Kvarströppur
-  activator_rail: Kveikjuteinn
-  dropper: Sleppir
   white_terracotta: Hvítt keramik
   orange_terracotta: Appelnsínugult keramik
   magenta_terracotta: Vínrautt keramik
@@ -354,7 +377,7 @@ material:
   red_terracotta: Rautt keramik
   black_terracotta: Svart keramik
   barrier: Hlið
-  iron_trapdoor: Járnlúga
+  light: Ljós
   hay_block: Heybaggi
   white_carpet: Hvítt gólfteppi
   orange_carpet: Appelsínugult gólfteppi
@@ -373,12 +396,10 @@ material:
   red_carpet: Rautt gólfteppi
   black_carpet: Svart gólfteppi
   terracotta: Keramik
-  coal_block: Kolakubbur
   packed_ice: Þjappaður ís
   acacia_stairs: Akasíutröppur
   dark_oak_stairs: Dökkeikartröppur
-  slime_block: Slímkubbur
-  grass_path: Grasstígur
+  dirt_path: Moldarstígur
   sunflower: Sólblóm
   lilac: Sýrena
   rose_bush: Rósarunni
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: Rauður heljarmúr
   bone_block: Beinakubbur
   structure_void: Tómarúms Bygging
-  observer: Skynjari
   shulker_box: Hylki skálks
   white_shulker_box: Hvítt hylki skálks
   orange_shulker_box: Appelsínugult hylki skálks
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: Rauðar heljarmúrströppur
   polished_andesite_stairs: Slípaðar andesíttröppur
   diorite_stairs: Díóríttröppur
+  cobbled_deepslate_stairs: Steinlagðir Djúpsteins Stigar
+  polished_deepslate_stairs: Fáður Djúpsléttustigi
+  deepslate_brick_stairs: Djúpsteinsstiga Múrtröppur
+  deepslate_tile_stairs: Djúpsteinsflísastigi
   polished_granite_slab: Slípuð graníthella
   smooth_red_sandstone_slab: Sléttar roðasandsteinshella
   mossy_stone_brick_slab: Mosavaxin hleðslusteinshella
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: Rauð heljarmúrshella
   polished_andesite_slab: Slípuð andesíthella
   diorite_slab: Díóríthella
+  cobbled_deepslate_slab: Steinlagðar Djúpsteinsplötur
+  polished_deepslate_slab: Slípuð Djúpsteinsplata
+  deepslate_brick_slab: Djúpsteins Múrhella
+  deepslate_tile_slab: Djúpsteinsflísarhella
   scaffolding: Stillans
+  redstone: Roðsteinsduft
+  redstone_torch: Rauðsteinskyndill
+  redstone_block: Rauðsteinskubbur
+  repeater: Roðsteinsmagnari
+  comparator: Samanburðarrofi
+  piston: Stimpill
+  sticky_piston: Klístraður stimpill
+  slime_block: Slímkubbur
+  honey_block: Hunangskubbur
+  observer: Skynjari
+  hopper: Trekt
+  dispenser: Skammtari
+  dropper: Sleppir
+  lectern: Ræðupúlt
+  target: Skotmark
+  lever: Rofi
+  lightning_rod: Eldingavari
+  daylight_detector: Ljósnemi
+  sculk_sensor: Sculk skynjari
+  tripwire_hook: Vírkrækja
+  trapped_chest: Gildrukista
+  tnt: Sprengiefni
+  redstone_lamp: Rauðsteinslampi
+  note_block: Nótnakubbur
+  stone_button: Steintakki
+  polished_blackstone_button: Slípaður svartgrýtishnappur
+  oak_button: Eikarhnappur
+  spruce_button: Grenihnappur
+  birch_button: Birkihnappur
+  jungle_button: Frumskógshnappur
+  acacia_button: Akasíuhnappur
+  dark_oak_button: Dökkur eikarhnappur
+  crimson_button: Hárauður hnappur
+  warped_button: Brenglaður hnappur
+  stone_pressure_plate: Þrýstihella úr steini
+  polished_blackstone_pressure_plate: Slípuð svartgrýtisþrýstihella
+  light_weighted_pressure_plate: Létt þyngdarnæm þrýstihella
+  heavy_weighted_pressure_plate: Þung þyngdarnæm þrýstihella
+  oak_pressure_plate: Þrýstihella úr eik
+  spruce_pressure_plate: Þrýstihella úr greni
+  birch_pressure_plate: Þrýstihella úr birki
+  jungle_pressure_plate: Þrýstihella úr frumskógarviði
+  acacia_pressure_plate: Þrýstihella úr akasíu
+  dark_oak_pressure_plate: Þrýstihella úr dökkeik
+  crimson_pressure_plate: Hárauð þrýstihella
+  warped_pressure_plate: Brengluð þrýstihella
   iron_door: Járnhurð
   oak_door: Eikarhurð
   spruce_door: Grenihurð
@@ -570,12 +644,46 @@ material:
   jungle_door: Frumskógarviðshurð
   acacia_door: Akasíuviðarhurð
   dark_oak_door: Dökkeikarhurð
-  crimson_door: Dreyrrauð hurð
+  crimson_door: Hárauð hurð
   warped_door: Brengluð hurð
-  repeater: Roðsteinsmagnari
-  comparator: Samanburðarrofi
+  iron_trapdoor: Járnlúga
+  oak_trapdoor: Eikarlúga
+  spruce_trapdoor: Grenihleri
+  birch_trapdoor: Birkilúga
+  jungle_trapdoor: Frumskógarviðarlúga
+  acacia_trapdoor: Akasíuhleri
+  dark_oak_trapdoor: Svarteikarhleri
+  crimson_trapdoor: Hárauð lúga
+  warped_trapdoor: Brenglaður hleri
+  oak_fence_gate: Hlið
+  spruce_fence_gate: Grenigirðingarhlið
+  birch_fence_gate: Hlið úr birki
+  jungle_fence_gate: Hlið úr frumskógarviði
+  acacia_fence_gate: Hlið úr akasíuviði
+  dark_oak_fence_gate: Dökkeikarhlið
+  crimson_fence_gate: Hárautt hlið
+  warped_fence_gate: Brenglað hlið
+  powered_rail: Orku teinar
+  detector_rail: Teinnemi
+  rail: Járnbraut
+  activator_rail: Kveikjuteinn
+  saddle: Hnakkur
+  minecart: Námuvagn
+  chest_minecart: Námuvagn með Kistu
+  furnace_minecart: Námuvagn með Ofni
+  tnt_minecart: Námuvagn með Sprengiefni
+  hopper_minecart: Námuvagn með trekt
+  carrot_on_a_stick: Gulrót á stöng
+  warped_fungus_on_a_stick: Brenglaður sveppur á stöng
+  elytra: Þekjuvængir
+  oak_boat: Eikarbátur
+  spruce_boat: Grenibátur
+  birch_boat: Birkibátur
+  jungle_boat: Frumskógarviðarbátur
+  acacia_boat: Akasíubátur
+  dark_oak_boat: Dökkeikarbátur
   structure_block: Byggingarkubbur
-  jigsaw: Púsluspils-kubbur
+  jigsaw: Púsluspilskubbur
   turtle_helmet: Skjaldbökuskel
   scute: Hreistur
   flint_and_steel: Tinna og Stál
@@ -585,7 +693,15 @@ material:
   coal: Kol
   charcoal: Viðarkol
   diamond: Demantur
+  emerald: Smaragður
+  lapis_lazuli: Asúrsteinn
+  quartz: Heljarkvars
+  amethyst_shard: Blákvarsflís
+  raw_iron: Hrátt járn
   iron_ingot: Járnhleifur
+  raw_copper: Hrár kopar
+  copper_ingot: Koparhleifur
+  raw_gold: Hrátt gull
   gold_ingot: Gullhleifur
   netherite_ingot: Heljarmálmshleifur
   netherite_scrap: Heljarmálmsbrot
@@ -664,34 +780,32 @@ material:
   jungle_sign: Frumskógarviðsskilti
   acacia_sign: Akasíuskilti
   dark_oak_sign: Dökkt eikarskilti
-  crimson_sign: Dreyrrautt skilti
+  crimson_sign: Hárautt skilti
   warped_sign: Brenglað skilti
   bucket: Fata
   water_bucket: Vatnsfata
   lava_bucket: Hraunfata
-  minecart: Námuvagn
-  saddle: Hnakkur
-  redstone: Roðsteinsduft
+  powder_snow_bucket: Púðursnjósfata
   snowball: Snjóbolti
-  oak_boat: Eikarbátur
   leather: Leður
   milk_bucket: Mjólkurfata
   pufferfish_bucket: Fata með kúlufisk
   salmon_bucket: Fata með laxi
   cod_bucket: Fata með þorski
   tropical_fish_bucket: Hitabeltisfiskur í fötu
+  axolotl_bucket: Fata með tálknamöndru
   brick: Múrsteinn
   clay_ball: Leirkúla
   dried_kelp_block: Þurrkaður þarakubbur
   paper: Blað
   book: Bók
-  slime_ball: Slímkúla
-  chest_minecart: Námuvagn með Kistu
-  furnace_minecart: Námuvagn með Ofni
+  slime_ball: Slímbolti
   egg: Egg
   compass: Áttaviti
+  bundle: Knippi
   fishing_rod: Veiðistöng
   clock: Klukka
+  spyglass: Sjónauki
   glowstone_dust: Glósteinsduft
   cod: Hrár þorskur
   salmon: Hrár lax
@@ -700,8 +814,8 @@ material:
   cooked_cod: Eldaður þorskur
   cooked_salmon: Eldaður lax
   ink_sac: Bleksekkur
+  glow_ink_sac: Ljómandi blekpoki
   cocoa_beans: Kakóbaunir
-  lapis_lazuli: Asúrsteinn
   white_dye: Hvítt litarefni
   orange_dye: Appelsínugulur litur
   magenta_dye: Vínrauður litur
@@ -712,7 +826,7 @@ material:
   gray_dye: Grár litur
   light_gray_dye: Ljósgrár litur
   cyan_dye: Lillablár litur
-  purple_dye: Fjólublár litur
+  purple_dye: Fjólublár liltur
   blue_dye: Blátt litarefni
   brown_dye: Brúnt litarefni
   green_dye: Grænt litarefni
@@ -765,6 +879,7 @@ material:
   cauldron: Seiðpottur
   ender_eye: Endaauga
   glistering_melon_slice: Glitrandi Melónusneið
+  axolotl_spawn_egg: Tálknamöndru framköllunaregg
   bat_spawn_egg: Leðurblöku framköllunaregg
   bee_spawn_egg: Býflugu framköllunaregg
   blaze_spawn_egg: Loga framköllunaregg
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: Kraftaskáldsspunaegg
   fox_spawn_egg: Refs framköllunaregg
   ghast_spawn_egg: Voms framköllunaregg
+  glow_squid_spawn_egg: Glóandi smokkfisks framköllunaregg
+  goat_spawn_egg: Geitar framköllunaregg
   guardian_spawn_egg: Verndara framköllunaregg
   hoglin_spawn_egg: Göltungs framköllunaregg
   horse_spawn_egg: Hesta framköllunaregg
@@ -809,7 +926,7 @@ material:
   silverfish_spawn_egg: Silfurskottu framköllunaregg
   skeleton_spawn_egg: Beinagrindar framköllunaregg
   skeleton_horse_spawn_egg: Beinagands framköllunaregg
-  slime_spawn_egg: Slíms framköllunaregg
+  slime_spawn_egg: Slím framköllunaregg
   spider_spawn_egg: Köngulóar framköllunaregg
   squid_spawn_egg: Smokkfisks framköllunaregg
   stray_spawn_egg: Frávillings framköllunaregg
@@ -833,8 +950,8 @@ material:
   fire_charge: Eldhnöttur
   writable_book: Bók og Fjaðurpenni
   written_book: Skrifuð bók
-  emerald: Smaragður
   item_frame: Hlutarrammi
+  glow_item_frame: Glóandi hlutarrammi
   flower_pot: Blómaker
   carrot: Gulrót
   potato: Kartafla
@@ -848,17 +965,12 @@ material:
   zombie_head: Höfuð uppvaknings
   creeper_head: Höfuð af laumupúka
   dragon_head: Drekahöfuð
-  carrot_on_a_stick: Gulrót á stöng
-  warped_fungus_on_a_stick: Brenglaður sveppur á stöng
   nether_star: Heljarstjarna
   pumpkin_pie: Graskers baka
   firework_rocket: Raketta
   firework_star: Flugeldastjarna
   enchanted_book: Galdrabók
   nether_brick: Heljarmúrsteinn
-  quartz: Heljarkvars
-  tnt_minecart: Námuvagn með Sprengiefni
-  hopper_minecart: Námuvagn með trekt
   prismarine_shard: Prismarínbrot
   prismarine_crystals: Prismarínkristallar
   rabbit: Hrátt kanínukjöt
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: Slagsör
   lingering_potion: Langvarandi seyði
   shield: Skjöldur
-  elytra: Þekjuvængir
-  spruce_boat: Grenibátur
-  birch_boat: Birkibátur
-  jungle_boat: Frumskógarviðarbátur
-  acacia_boat: Akasíubátur
-  dark_oak_boat: Dökkeikarbátur
   totem_of_undying: Tótem ódauðleika
   shulker_shell: Shulkerskel
   iron_nugget: Járnmoli
@@ -948,13 +1054,13 @@ material:
   cartography_table: Kortaborð
   fletching_table: Fjöðrunarbekkur
   grindstone: Smergel
-  lectern: Ræðupúlt
   smithing_table: Járnsmíðabekkur
   stonecutter: Steinskeri
   bell: Bjalla
   lantern: Ljósker
   soul_lantern: Sálarljósker
   sweet_berries: Sætuber
+  glow_berries: Ljómber
   campfire: Varðeldur
   soul_campfire: Sálarvarðeldur
   shroomlight: Sveppaljós
@@ -962,12 +1068,8 @@ material:
   bee_nest: Býkúpa
   beehive: Býflugnabú
   honey_bottle: Hunangsflaska
-  honey_block: Hunangskubbur
   honeycomb_block: Vaxkökukubbur
   lodestone: Varða
-  netherite_block: Heljarmálmskubbur
-  ancient_debris: Fornleifar
-  target: Skotmark
   crying_obsidian: Grátandi hrafntinna
   blackstone: Svartgrýti
   blackstone_slab: Svartgrýtishella
@@ -982,6 +1084,28 @@ material:
   polished_blackstone_brick_stairs: Slípaðar svartgrýtismúrsteinströppur
   cracked_polished_blackstone_bricks: Brotnir slípaðir svartgrýtismúrsteinar
   respawn_anchor: Endurlífgunar akkeri
+  candle: Kerti
+  white_candle: Hvítt kerti
+  orange_candle: Appelsínugult kerti
+  magenta_candle: Vínrautt kerti
+  light_blue_candle: Ljósblátt kerti
+  yellow_candle: Gult kerti
+  lime_candle: Ljósgrænt kerti
+  pink_candle: Bleikt kerti
+  gray_candle: Grátt kerti
+  light_gray_candle: Ljósgrátt kerti
+  cyan_candle: Blágrænt kerti
+  purple_candle: Fjólublátt kerti
+  blue_candle: Blátt kerti
+  brown_candle: Brúnt kerti
+  green_candle: Grænt kerti
+  red_candle: Rautt kerti
+  black_candle: Svart kerti
+  small_amethyst_bud: Lítið blákvarsbrum
+  medium_amethyst_bud: Miðlungsstórt blákvarsbrum
+  large_amethyst_bud: Stórt blákvarsbrum
+  amethyst_cluster: Blákvarsklasi
+  pointed_dripstone: Oddhvassur Dropasteinn
   water: Vatn
   lava: Hraun
   tall_seagrass: Hátt sægras
@@ -999,11 +1123,14 @@ material:
   dark_oak_wall_sign: Dökkt eikarskilti á vegg
   redstone_wall_torch: Rauðsteinskyndill á vegg
   soul_wall_torch: Veggkyndill með sálareldi
-  nether_portal: Heljarhlið
+  nether_portal: Heljargátt
   attached_pumpkin_stem: Tengdur graskersstilkur
   attached_melon_stem: Tengdur melónustilkur
   pumpkin_stem: Graskerstilkur
   melon_stem: Melónustilkur
+  water_cauldron: Vatnspottur
+  lava_cauldron: Kvikupottur
+  powder_snow_cauldron: Lausamjallarpottur
   end_portal: Endagátt
   cocoa: Kakó
   tripwire: Vírgildra
@@ -1083,6 +1210,30 @@ material:
   potted_warped_fungus: Brenglaður sveppur í potti
   potted_crimson_roots: Hárautt heljargras í potti
   potted_warped_roots: Brenglað heljargras í potti
+  candle_cake: Kaka með kertum
+  white_candle_cake: Kaka með hvítu kerti
+  orange_candle_cake: Kaka með appelsínugulu kerti
+  magenta_candle_cake: Kaka með vínrauðu kerti
+  light_blue_candle_cake: Kaka með ljósbláu kerti
+  yellow_candle_cake: Kaka með gulu kerti
+  lime_candle_cake: Kaka með ljósgrænu kerti
+  pink_candle_cake: Kaka með bleiku kerti
+  gray_candle_cake: Kaka með gráu kerti
+  light_gray_candle_cake: Kaka með ljósgráu kerti
+  cyan_candle_cake: Kaka með blágrænu kerti
+  purple_candle_cake: Kaka með fjólubláu kerti
+  blue_candle_cake: Kaka með bláu kerti
+  brown_candle_cake: Kaka með brúnu kerti
+  green_candle_cake: Kaka með grænu kerti
+  red_candle_cake: Kaka með gráu kerti
+  black_candle_cake: Kaka með svörtu kerti
+  powder_snow: Púðursnjór
+  cave_vines: Hellavínviður
+  cave_vines_plant: Hellavínviðsplanta
+  big_dripleaf_stem: Stór Hallalaufs stofn
+  potted_azalea_bush: Lyngrós í potti
+  potted_flowering_azalea_bush: Blómstrandi lyngrós í potti
+  grass_path: Grasstígur
   zombie_pigman_spawn_egg: Svíngengils framköllunaregg
   cactus_green: Kaktusgrænn
   dandelion_yellow: Fífilgult litarefni
@@ -1166,49 +1317,51 @@ biome:
   bamboo_jungle: Bambus Frumskógur
   bamboo_jungle_hills: Bambusfrumskógahæðir
   soul_sand_valley: Sálarsandsdalur
-  crimson_forest: Dreyrrauður skógur
+  crimson_forest: Hárauður skógur
   warped_forest: Brenglaður skógur
   basalt_deltas: Basaltsósar
+  dripstone_caves: Dropasteins hellar
+  lush_caves: Grónir hellar
   nether: Hel
 enchantment:
-  fire_protection: Eldvörn
-  sharpness: Skerpa
-  flame: Logi
-  soul_speed: Sálarhraði
-  aqua_affinity: Neðansjávar vinnugarpur
-  punch: Högg
-  loyalty: Tryggð
-  depth_strider: Vatnsgengill
-  vanishing_curse: Bölvun hvarfs
-  unbreaking: Óbrjótanlegt
-  knockback: Afturkast
-  luck_of_the_sea: Heppni Hafsins
-  binding_curse: Bölvun bindingar
-  fortune: Gæfa
   protection: Vörn
-  efficiency: Dugnaður
-  mending: Heilun
-  frost_walker: Frostgengill
-  lure: Beita
-  looting: Þjófnaður
-  piercing: Stingandi
-  blast_protection: Sprengivörn
-  smite: Uppvakningabani
-  multishot: Hríðskot
-  fire_aspect: Eldkraftur
-  channeling: Leiðandi
-  sweeping: Sveiflukraftur
-  thorns: Þyrnar
-  bane_of_arthropods: Liðdýrabani
-  respiration: Kafari
-  riptide: Tog
-  silk_touch: Vandaverk
-  quick_charge: Skyndihleðsla
-  projectile_protection: Skotheldur
-  impaling: Stingandi
+  fire_protection: Eldvörn
   feather_falling: Fjöðurfall
+  blast_protection: Sprengivörn
+  projectile_protection: Skotheldur
+  respiration: Kafari
+  aqua_affinity: Neðansjávar vinnugarpur
+  thorns: Þyrnar
+  depth_strider: Vatnsgengill
+  frost_walker: Frostgengill
+  binding_curse: Bölvun bindingar
+  sharpness: Skerpa
+  smite: Uppvakningabani
+  bane_of_arthropods: Liðdýrabani
+  knockback: Afturkast
+  fire_aspect: Eldkraftur
+  looting: Þjófnaður
+  sweeping: Sveiflukraftur
+  efficiency: Dugnaður
+  silk_touch: Vandaverk
+  unbreaking: Óbrjótanlegt
+  fortune: Gæfa
   power: Kraftur
+  punch: Högg
+  flame: Logi
   infinity: Óendanlegar örvar
+  luck_of_the_sea: Heppni Hafsins
+  lure: Beita
+  loyalty: Tryggð
+  impaling: Stingandi
+  riptide: Tog
+  channeling: Leiðandi
+  multishot: Hríðskot
+  quick_charge: Skyndihleðsla
+  piercing: Stingandi
+  mending: Heilun
+  vanishing_curse: Bölvun hvarfs
+  soul_speed: Sálarhraði
 potion:
   uncraftable: Ósmíðanlegt Seyði
   water: Vatnsflaska
@@ -1403,6 +1556,11 @@ entity:
   strider: Röltari
   zoglin: Nágöltur
   piglin_brute: Svínahrotti
+  axolotl: Vatnamandra
+  glow_item_frame: Ljóma Liður Rammi
+  glow_squid: Glóandi smokkfiskur
+  goat: Geit
+  marker: Merki
   fishing_hook: Flotholt
   lightning: Elding
   player: Spilari
@@ -2205,17 +2363,3 @@ villager_profession:
   shepherd: Fjárhirðir
   toolsmith: Verkfærasmiður
   weaponsmith: Vopnasmiður
-villager_career:
-  farmer: Bóndi
-  fisherman: Fiskimaður
-  shepherd: Fjárhirðir
-  fletcher: Örvasmiður
-  librarian: Bókavörður
-  cartographer: Kortagerðarmaður
-  cleric: Klerkur
-  armorer: Brynjusmiður
-  weapon_smith: Vopnasmiður
-  tool_smith: Verkfærasmiður
-  butcher: Slátrari
-  leatherworker: Leðurskeri
-  nitwit: Flón

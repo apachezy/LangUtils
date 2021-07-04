@@ -1,34 +1,72 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:48                    #
+# Build time: 2021-07-04 21:46:03                    #
 # ####################################################
 language:
   code: ksh
   name: Kölsch/Ripoarisch
   region: Rhingland
 material:
+  acacia_slab: Akazijeholzplaat
+  birch_slab: Birkeholzplaat
+  brick_slab: Ziejelplaat
+  cake: Kooche
+  cave_air: Hölleluff
+  cave_spider_spawn_egg: Höllespenne-Spawn-Ei
   chicken: Rüh Hohn
   chiseled_quartz_block: Ziseleet Kwarz
   chiseled_red_sandstone: Ziseleet rude Sandstein
   chiseled_sandstone: Ziseleet Sandstein
   chiseled_stone_bricks: Ziseleet Steinziejel
   clay_ball: Tonklumpe
+  cobblestone_slab: Brochsteinplaat
   compass: Kompass
   cooked_chicken: Jebrode Hohn
+  dark_oak_slab: Schwatzeescheholzplaat
+  dark_prismarine_slab: Dunkle Prismarinplaat
   husk_spawn_egg: Balch-Spawn-Ei
   jack_o_lantern: Kürbislantern
+  jungle_slab: Tropeholzplaat
+  lapis_block: Lapislazoli
+  nether_brick_slab: Netherziejelplaat
+  oak_slab: Eescheholzplaat
+  petrified_oak_slab: Versteinerte Eescheholzplaat
+  prismarine_brick_slab: Prismarinziejelplaat
+  prismarine_slab: Prismarinplaat
   pufferfish: Klotfesch
   pufferfish_bucket: Klotfeschemmer
   pufferfish_spawn_egg: Klotfesch-Spawn-Ei
+  purpur_slab: Purpurplaat
+  quartz_slab: Kwarzplaat
   redstone: Redstone
   redstone_wire: Redstone-Stöbb
+  red_sandstone_slab: Rut Sandsteinplaat
+  sandstone_slab: Sandsteinplaat
   sea_lantern: Sielantern
   smooth_quartz: Jlatte Kwarz
+  spruce_slab: Danneholzplaat
+  stone_brick_slab: Steinziejelplaat
+  stone_slab: Steinplaat
+  turtle_egg: Scheldkröte-Ei
+  turtle_helmet: Schildkrötepanzer
+  turtle_spawn_egg: Schildkröte-Spawn-Ei
   zombie_villager_spawn_egg: Enwonnerzombi-Spawn-Ei
 enchantment:
   knockback: Zeröckdäu
   sweeping: Schwungkkraff
+potion:
+  turtle_master: Scheldkrötedrank
+splash_potion:
+  turtle_master: Scheldkrötewerpdrank
+lingering_potion:
+  turtle_master: Blievende Scheldkrötedrank
+tipped_arrow:
+  turtle_master: Scheldkrötepiel
 entity:
   husk: Balch
   zombie_villager: Enwonnerzombi
+  cave_spider: Höllespenn
   chicken: Hohn
+  turtle: Scheldkröt
   pufferfish: Klotfesch
+villager_profession:
+  farmer: Enwonner

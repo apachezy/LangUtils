@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:17:24                    #
+# Build time: 2021-07-04 21:39:00                    #
 # ####################################################
 language:
   code: kw_gb
@@ -9,6 +9,7 @@ material:
   acacia_sapling: Gwedhen Akasia Yowynk
   baked_potato: Patatys Pebys
   bamboo_sapling: Kors Eynda Yowynk
+  bee_nest: Neyth gwenen
   black_glazed_terracotta: Leghen Bri Pebys Du
   blue_carpet: Leurlen Vlou
   blue_concrete_powder: Ponn Kestevyn Blou
@@ -16,41 +17,57 @@ material:
   blue_wool: Gwlan Blou
   bookshelf: Argh lyvrow
   brown_glazed_terracotta: Leghen Bri Pebys Gell
+  cartography_table: Moos Mappa
+  cave_spider_spawn_egg: Oy Bywhe Kevnisen Kav
   charcoal: Glowbrenn
+  chest_minecart: Balgert hag Argh
+  chipped_anvil: Anwan Askloesys
   chiseled_stone_bricks: Bryckys Meyn Gervys
+  chorus_flower: Bleujen Koros
+  chorus_fruit: Frothen Koros
   clay_ball: Pri
+  cobblestone: Meyn
   cobblestone_slab: Leghen Meyn
-  comparator: Komparyer Men Rudh
+  cobblestone_stairs: Grisyow Meyn
+  cobblestone_wall: Fos Meyn
   cooked_mutton: Kig Davas Keginys
+  creeper_head: Penn Creeper
   creeper_wall_head: Penn Creeper Fos
   cyan_glazed_terracotta: Leghen Bri Pebys Glaswyrdh
   dark_oak_sign: Arwodh Dar Tewal
   diamond_horse_armor: Gwisk Margh Adamant
   diorite_slab: Leghen Diorit
+  dispenser: Lesranner
   emerald: Gwyrven
   emerald_block: Stock Gwyrven
   emerald_ore: Moen Gwyrven
+  enderman_spawn_egg: Oy Bywhe Enderman
   endermite_spawn_egg: Oy Bywhe Pryv an Diwedh
+  ender_eye: Lagas an Ender
   end_crystal: Kristall an Diwedh
   end_gateway: Porth an Diwedh
   end_portal_frame: Fram Porth an Diwedh
-  end_rod: Gwelen an Diwedh
-  end_stone_bricks: Bryckys Men an Diwedh
-  end_stone_brick_slab: Leghen Vryck Men an Diwedh
-  end_stone_brick_stairs: Grisyow Bryck Men an Diwedh
-  end_stone_brick_wall: Fos Bryck Men an Diwedh
+  fermented_spider_eye: Lagas Kevnis Fermentys
+  firework_rocket: Tanweyth
+  fishing_rod: Gwelen Byskessa
   flint_and_steel: Flynt ha Dur
+  furnace_minecart: Balgert ha Fog
   ghast_spawn_egg: Oy Bywhe Ghast
   golden_carrot: Karetys Owr
   golden_pickaxe: Pigel Owr
   gray_glazed_terracotta: Leghen Bri Pebys Loos
   green_glazed_terracotta: Leghen Bri Pebys Gwyrdh
+  hopper_minecart: Balgert ha Funnel
+  infested_cobblestone: Meyn Pla
   iron_horse_armor: Gwisk Margh Horn
+  iron_pickaxe: Pigel Horn
   iron_trapdoor: Leurdharas Horn
   jukebox: Gramafon
   jungle_fence: Ke Gwydh Gwylgos
   jungle_fence_gate: Yet Ke Gwydh Gwylgos
   jungle_sign: Arwodh Gwylgos
+  knowledge_book: Lyver an Skians
+  lapis_block: Stock Lapis
   large_fern: Redenen Bras
   light_blue_glazed_terracotta: Leghen Bri Pebys Glaswynn
   light_gray_glazed_terracotta: Leghen Bri Pebys Gwynnloos
@@ -59,7 +76,11 @@ material:
   llama_spawn_egg: Oy Bywhe Lama
   magenta_glazed_terracotta: Leghen Bri Pebys Majenta
   melon_seeds: Has Melon
+  mooshroom_spawn_egg: Oy Bywhe Mooshroom
+  mossy_cobblestone: Meyn Kewniek
   mossy_cobblestone_slab: Leghen Meyn Kewniek
+  mossy_cobblestone_stairs: Grisyow Meyn Kewniek
+  mossy_cobblestone_wall: Fos Meyn Kewniek
   mushroom_stew: Kowl gans Skavellow Kronek
   music_disc_11: Plasenn Ilow
   music_disc_13: Plasenn Ilow
@@ -74,14 +95,14 @@ material:
   music_disc_wait: Plasenn Ilow
   music_disc_ward: Plasenn Ilow
   mutton: Kig Davas Kriv
+  mycelium: Mycelium
   name_tag: Libel Hanow
-  netherrack: Yfarngarrek
   nether_brick: Bryckys Yfarngarrek
+  nether_brick_fence: Ke Bryck Nether
   nether_brick_slab: Leghen Bryck Nether
+  nether_brick_stairs: Grisyow Bryck Nether
   nether_quartz_ore: Moon Kanndir
   nether_star: Steren an Yfarn
-  nether_wart: Losowen an Yfarn
-  nether_wart_block: Stock Losow an Yfarn
   ocelot_spawn_egg: Oy Bywhe Kath Gwyls
   orange_carpet: Leurlen Rudh-Velyn
   orange_glazed_terracotta: Leghen Bri Pebys Rudhvelyn
@@ -93,6 +114,7 @@ material:
   pink_glazed_terracotta: Leghen Bri Pebys Gwynnrudh
   pink_stained_glass_pane: Kwarel Nammys Gwynnrudh
   poisonous_potato: Patatys Gwenonek
+  popped_chorus_fruit: Frothen Koros Poppys
   potato: Patatys
   potatoes: Patatysen
   potion: Diwes
@@ -112,7 +134,6 @@ material:
   redstone_wall_torch: Faglen Menrudh Fos
   red_glazed_terracotta: Leghen Bri Pebys Rudh
   red_sandstone_stairs: Grisyow Grag Rudh
-  repeater: Daswrier Men Rudh
   salmon: Ehek Kriv
   sandstone_slab: Leghen Krag
   sandstone_stairs: Grisyow Grag
@@ -123,6 +144,7 @@ material:
   smooth_sandstone_slab: Leghen Rag Smodh
   smooth_sandstone_stairs: Grisyow Grag Smodh
   smooth_stone_slab: Leghen Men Smodh
+  spider_eye: Lagas Kevnis
   splash_potion: Posyon Dardh
   stonecutter: Treghell Men
   stone_slab: Leghen Men
@@ -134,8 +156,10 @@ material:
   stripped_oak_wood: Prenn Dar Destryppys
   stripped_spruce_log: Kyf Sprus Destryppys
   stripped_spruce_wood: Prenn Sprus Destryppys
+  structure_void: Stock Gwag
   sunflower: Howlvleujen
   sweet_berries: Morenn Hweg
+  tnt_minecart: Balgert ha Dynamit
   tropical_fish: Pyskl Trovannel
   white_glazed_terracotta: Leghen Bri Pebys Gwynn
   yellow_glazed_terracotta: Leghen Bri Pebys Melyn
@@ -207,18 +231,35 @@ lingering_potion:
 tipped_arrow:
   strength: Seth Grevder
 entity:
+  dropped_item: Tra
+  wither_skeleton: Korf Eskern Wither
+  egg: Oy Towlys
+  painting: Liwyans
   ender_pearl: Perl Den an Diwedh Towlys
+  ender_signal: Lagas an Ender
   splash_potion: Diwes
+  thrown_exp_bottle: Botel a Hus Towlys
   wither_skull: Krogen Benn Wither
+  firework: Tanweyth
+  minecart_furnace: Balgert ha Fog
+  minecart_tnt: Balgert ha Dynamit
+  minecart_mob_spawner: Balgert ha Bywher
+  creeper: Creeper
   ghast: Ghast
+  enderman: Enderman
+  cave_spider: Kevnis Kav
   silverfish: Pysk Arhgansek
-  ender_dragon: Dragon an Diwedh
+  bat: Askell Groghen
   endermite: Pryv an Diwedh
+  mushroom_cow: Mooshroom
   ender_crystal: Kristall an Diwedh
   phantom: Tarosvan
 effect:
   wither: Wither
   conduit_power: Nerth Goeth
+tropical_fish_type:
+  snooper: Snooper
+  clayfish: Pripysk
 dye_color:
   blue: Blou
 colored_shied:

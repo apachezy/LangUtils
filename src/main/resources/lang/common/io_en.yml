@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:48                    #
+# Build time: 2021-07-04 21:46:03                    #
 # ####################################################
 language:
   code: io_en
@@ -39,10 +39,21 @@ material:
   sand: Sablo
   red_sand: Reda sablo
   gravel: Gravio
-  gold_ore: Erco di oro
-  iron_ore: Erco di fero
   coal_ore: Erco di karbono
+  iron_ore: Erco di fero
+  gold_ore: Erco di oro
+  redstone_ore: Erco di redstoneo
+  emerald_ore: Erco di smeraldo
+  lapis_ore: Erco di lapislazulo
+  diamond_ore: Erco di diamanto
   nether_gold_ore: Erco di oro netherala
+  nether_quartz_ore: Erco di quarco
+  ancient_debris: Resajo anciena
+  coal_block: Bloko di karbono
+  iron_block: Bloko di fero
+  gold_block: Bloko di oro
+  diamond_block: Bloko di diamanto
+  netherite_block: Bloko di netherito
   oak_log: Lenio querka
   spruce_log: Lenio abieta
   birch_log: Lenio birka
@@ -84,23 +95,15 @@ material:
   sponge: Sponjo
   wet_sponge: Sponjo imbibita
   glass: Vitro
-  lapis_ore: Erco di lapislazulo
-  lapis_block: Bloko di lapislazulo
-  dispenser: Lansilo
   sandstone: Greso
   chiseled_sandstone: Greso cizelita
   cut_sandstone: Greso tailita
-  note_block: Notbloko
-  powered_rail: Relo di propulso
-  detector_rail: Ralo di detekteso
-  sticky_piston: Pistono adherema
   cobweb: Aranereto
   grass: Herbo
   fern: Filiko
   dead_bush: Arbusto mortinta
   seagrass: Marherbo
   sea_pickle: Piklo marala
-  piston: Pistono
   white_wool: Blanka lano
   orange_wool: Oranjea lano
   magenta_wool: Magenta lano
@@ -142,8 +145,6 @@ material:
   sugar_cane: Sukrokano
   kelp: Algo
   bamboo: Bambuo
-  gold_block: Bloko di oro
-  iron_block: Bloko di fero
   oak_slab: Plako querka
   spruce_slab: Plako abieta
   birch_slab: Plako birka
@@ -173,7 +174,6 @@ material:
   smooth_sandstone: Greso glata
   smooth_stone: Petro glata
   bricks: Briki
-  tnt: TNT
   bookshelf: Biblioteko
   mossy_cobblestone: Eskombro muskoza
   obsidian: Obsidiano
@@ -187,26 +187,11 @@ material:
   spawner: Frayifanto
   oak_stairs: Eskalero querka
   chest: Kofro
-  diamond_ore: Erco di diamanto
-  diamond_block: Bloko di diamanto
   crafting_table: Tablo di fabrikado
   farmland: Farmsulo
   furnace: Furnazo
   ladder: Skalo
-  rail: Relo
   cobblestone_stairs: Eskalero di eskombro
-  lever: Levero
-  stone_pressure_plate: Petra presoplako
-  oak_pressure_plate: Presoplako querka
-  spruce_pressure_plate: Presoplako abieta
-  birch_pressure_plate: Presoplako birka
-  jungle_pressure_plate: Presoplako mahagoniera
-  acacia_pressure_plate: Presoplako akacia
-  dark_oak_pressure_plate: Presoplako obskurquerka
-  crimson_pressure_plate: Presoplako karmezina
-  warped_pressure_plate: Presoplako bizara
-  redstone_ore: Erco di redstoneo
-  redstone_torch: Torch di redstoneo
   snow: Nivo
   ice: Glacio
   snow_block: Bloko di nivo
@@ -223,21 +208,13 @@ material:
   warped_fence: Fenco bizara
   pumpkin: Kukurbito
   carved_pumpkin: Skultata kukurbito
+  jack_o_lantern: Kukurbita lanterno
   netherrack: Netherracko
   soul_sand: Anmosablo
   soul_soil: Anmosulo
   basalt: Bazalto
   polished_basalt: Bazalto polisita
   glowstone: Lumpetro
-  jack_o_lantern: Kukurbita lanterno
-  oak_trapdoor: Trapo querka
-  spruce_trapdoor: Trapo abieta
-  birch_trapdoor: Trapo birka
-  jungle_trapdoor: Trapo mahagoniera
-  acacia_trapdoor: Trapo akacia
-  dark_oak_trapdoor: Trapo obskurquerka
-  crimson_trapdoor: Trapo karmezina
-  warped_trapdoor: Trapo bizara
   infested_stone: Infestita petro
   infested_cobblestone: Infestita eskombro
   infested_stone_bricks: Infestita petrabriki
@@ -256,14 +233,6 @@ material:
   glass_pane: Vitrokarelo
   melon: Melono
   vine: Viti
-  oak_fence_gate: Pordeto querka
-  spruce_fence_gate: Pordeto abieta
-  birch_fence_gate: Pordeto birka
-  jungle_fence_gate: Pordeto mahagoniera
-  acacia_fence_gate: Pordeto akacia
-  dark_oak_fence_gate: Pordeto obskurquerka
-  crimson_fence_gate: Pordeto karmezina
-  warped_fence_gate: Pordeto bizara
   brick_stairs: Eskalero di briko
   stone_brick_stairs: Eskalero di petrabriko
   mycelium: Mycelio
@@ -276,11 +245,8 @@ material:
   end_stone: Petro di End
   end_stone_bricks: Petrabriki di End
   dragon_egg: Ovo di drako
-  redstone_lamp: Lampo di redstoneo
   sandstone_stairs: Eskalero di greso
-  emerald_ore: Erco di smeraldo
   ender_chest: Enderkofro
-  tripwire_hook: Hoko di insidia filo
   emerald_block: Bloko di smeraldo
   spruce_stairs: Eskalero abieta
   birch_stairs: Eskalero birka
@@ -304,31 +270,13 @@ material:
   end_stone_brick_wall: Muro di petrabriki di End
   diorite_wall: Muro diorita
   blackstone_wall: Muro di nigrapetro
-  stone_button: Petra butono
-  oak_button: Butono querka
-  spruce_button: Butono abieta
-  birch_button: Butono birka
-  jungle_button: Butono mahagoniera
-  acacia_button: Butono akacia
-  dark_oak_button: Butono obskurquerka
-  crimson_button: Butono karmezina
-  warped_button: Butono bizara
   anvil: Amboso
   chipped_anvil: Amboso ruptetita
   damaged_anvil: Amboso domajita
-  trapped_chest: Kofro insidiita
-  light_weighted_pressure_plate: Lejera presoplako pezanta
-  heavy_weighted_pressure_plate: Grava presoplako pezanta
-  daylight_detector: Detektanto di dilumo
-  redstone_block: Bloko di redstoneo
-  nether_quartz_ore: Erco di quarco
-  hopper: Funelego
   chiseled_quartz_block: Bloko di quarco cizelita
   quartz_block: Bloko di quarco
   quartz_pillar: Kolono di quarco
   quartz_stairs: Eskalero di quarco
-  activator_rail: Relo aktiviga
-  dropper: Distributilo
   white_terracotta: Blanka terakoto
   orange_terracotta: Oranjea terakoto
   magenta_terracotta: Magenta terakoto
@@ -346,7 +294,6 @@ material:
   red_terracotta: Reda terakoto
   black_terracotta: Nigra terakoto
   barrier: Barilo
-  iron_trapdoor: Trapo fera
   hay_block: Bloko di feno
   white_carpet: Blanka tapiso
   orange_carpet: Oranjea tapiso
@@ -365,12 +312,9 @@ material:
   red_carpet: Reda tapiso
   black_carpet: Nigra tapiso
   terracotta: Terakoto
-  coal_block: Bloko di karbono
   packed_ice: Glacio ferma
   acacia_stairs: Eskalero akacia
   dark_oak_stairs: Eskalero obskurquerka
-  slime_block: Bloko di slamo
-  grass_path: Herbaleo
   sunflower: Sunfloro
   lilac: Lilaco
   rose_bush: Roziero
@@ -428,24 +372,23 @@ material:
   red_nether_bricks: Reda netherbriki
   bone_block: Bloko di osto
   structure_void: Vakuo strukturala
-  observer: Observilo
-  shulker_box: Buxo di Shulkero
-  white_shulker_box: Blanka buxo di Shulkero
-  orange_shulker_box: Oranjea buxo di Shulkero
-  magenta_shulker_box: Magenta buxo di Shulkero
-  light_blue_shulker_box: Cielblua buxo di Shulkero
-  yellow_shulker_box: Flava buxo di Shulkero
-  lime_shulker_box: Klarverda buxo di Shulkero
-  pink_shulker_box: Rozea buxo di Shulkero
-  gray_shulker_box: Griza buxo di Shulkero
-  light_gray_shulker_box: Klargriza buxo di Shulkero
-  cyan_shulker_box: Cyana buxo di Shulkero
-  purple_shulker_box: Purpura buxo di Shulkero
-  blue_shulker_box: Blua buxo di Shulkero
-  brown_shulker_box: Bruna buxo di Shulkero
-  green_shulker_box: Verda buxo di Shulkero
-  red_shulker_box: Reda buxo di Shulkero
-  black_shulker_box: Nigra buxo di Shulkero
+  shulker_box: Buxo di Shulker
+  white_shulker_box: Blanka buxo di Shulker
+  orange_shulker_box: Oranjea buxo di Shulker
+  magenta_shulker_box: Magenta buxo di Shulker
+  light_blue_shulker_box: Cielblua buxo di Shulker
+  yellow_shulker_box: Flava buxo di Shulker
+  lime_shulker_box: Klarverda buxo di Shulker
+  pink_shulker_box: Rozea buxo di Shulker
+  gray_shulker_box: Griza buxo di Shulker
+  light_gray_shulker_box: Klargriza buxo di Shulker
+  cyan_shulker_box: Cyana buxo di Shulker
+  purple_shulker_box: Purpura buxo di Shulker
+  blue_shulker_box: Blua buxo di Shulker
+  brown_shulker_box: Bruna buxo di Shulker
+  green_shulker_box: Verda buxo di Shulker
+  red_shulker_box: Reda buxo di Shulker
+  black_shulker_box: Nigra buxo di Shulker
   white_glazed_terracotta: Blanka terakoto glezita
   orange_glazed_terracotta: Oranjea terakoto glezita
   magenta_glazed_terracotta: Magenta terakoto glezita
@@ -555,6 +498,48 @@ material:
   polished_andesite_slab: Polisita plako andesita
   diorite_slab: Plako diorita
   scaffolding: Eshafodo
+  redstone: Pulvero di redstoneo
+  redstone_torch: Torch di redstoneo
+  redstone_block: Bloko di redstoneo
+  repeater: Repetilo di redstoneo
+  comparator: Komparilo di redstoneo
+  piston: Pistono
+  sticky_piston: Pistono adherema
+  slime_block: Bloko di slamo
+  honey_block: Bloko di mielo
+  observer: Observilo
+  hopper: Funelego
+  dispenser: Lansilo
+  dropper: Distributilo
+  lectern: Libropupitro
+  target: Pafskopo
+  lever: Levero
+  daylight_detector: Detektanto di dilumo
+  tripwire_hook: Hoko di insidia filo
+  trapped_chest: Kofro insidiita
+  tnt: TNT
+  redstone_lamp: Lampo di redstoneo
+  note_block: Notbloko
+  stone_button: Petra butono
+  oak_button: Butono querka
+  spruce_button: Butono abieta
+  birch_button: Butono birka
+  jungle_button: Butono mahagoniera
+  acacia_button: Butono akacia
+  dark_oak_button: Butono obskurquerka
+  crimson_button: Butono karmezina
+  warped_button: Butono bizara
+  stone_pressure_plate: Petra presoplako
+  light_weighted_pressure_plate: Lejera presoplako pezanta
+  heavy_weighted_pressure_plate: Grava presoplako pezanta
+  oak_pressure_plate: Presoplako querka
+  spruce_pressure_plate: Presoplako abieta
+  birch_pressure_plate: Presoplako birka
+  jungle_pressure_plate: Presoplako mahagoniera
+  acacia_pressure_plate: Presoplako akacia
+  dark_oak_pressure_plate: Presoplako obskurquerka
+  crimson_pressure_plate: Presoplako karmezina
+  warped_pressure_plate: Presoplako bizara
   iron_door: Pordo fera
   oak_door: Pordo querka
   spruce_door: Pordo abieta
@@ -564,8 +549,42 @@ material:
   dark_oak_door: Pordo obskurquerka
   crimson_door: Pordo karmezina
   warped_door: Pordo bizara
-  repeater: Repetilo di redstoneo
-  comparator: Komparilo di redstoneo
+  iron_trapdoor: Trapo fera
+  oak_trapdoor: Trapo querka
+  spruce_trapdoor: Trapo abieta
+  birch_trapdoor: Trapo birka
+  jungle_trapdoor: Trapo mahagoniera
+  acacia_trapdoor: Trapo akacia
+  dark_oak_trapdoor: Trapo obskurquerka
+  crimson_trapdoor: Trapo karmezina
+  warped_trapdoor: Trapo bizara
+  oak_fence_gate: Pordeto querka
+  spruce_fence_gate: Pordeto abieta
+  birch_fence_gate: Pordeto birka
+  jungle_fence_gate: Pordeto mahagoniera
+  acacia_fence_gate: Pordeto akacia
+  dark_oak_fence_gate: Pordeto obskurquerka
+  crimson_fence_gate: Pordeto karmezina
+  warped_fence_gate: Pordeto bizara
+  powered_rail: Relo di propulso
+  detector_rail: Ralo di detekteso
+  rail: Relo
+  activator_rail: Relo aktiviga
+  saddle: Selo
+  minecart: Minvagono
+  chest_minecart: Minvagono kun kofro
+  furnace_minecart: Minvagono kun furnazo
+  tnt_minecart: Minvagono kun TNT
+  hopper_minecart: Minvagono kun funelego
+  carrot_on_a_stick: Karoto sur bastono
+  warped_fungus_on_a_stick: Fungo bizara sur bastono
+  elytra: Elitri
+  oak_boat: Batelo querka
+  spruce_boat: Batelo abieta
+  birch_boat: Batelo birka
+  jungle_boat: Batelo mahagoniera
+  acacia_boat: Batelo akacia
+  dark_oak_boat: Batelo obskurquerka
   structure_block: Bloko strukturala
   jigsaw: Konstruktbloko
   turtle_helmet: Skalio di torguto
@@ -577,6 +596,9 @@ material:
   coal: Karbono
   charcoal: Lignakarbono
   diamond: Diamanto
+  emerald: Smeraldo
+  lapis_lazuli: Lapislazulo
+  quartz: Quarco di Nether
   iron_ingot: Lingoto fera
   gold_ingot: Lingoto ora
   netherite_ingot: Lingoto netherita
@@ -661,25 +683,20 @@ material:
   bucket: Sitelo
   water_bucket: Sitelo di Aquo
   lava_bucket: Sitelo di Lavao
-  minecart: Minvagono
-  saddle: Selo
-  redstone: Pulvero di redstoneo
   snowball: Nivbulo
-  oak_boat: Batelo querka
   leather: Ledro
   milk_bucket: Sitelo di lakto
   pufferfish_bucket: Sitelo di suflantofisho
   salmon_bucket: Sitelo di salmono
   cod_bucket: Sitelo di gado
   tropical_fish_bucket: Sitelo di fishi tropikala
+  axolotl_bucket: Sitelo di axoloto
   brick: Briko
   clay_ball: Argilbulo
   dried_kelp_block: Bloko di algo sika
   paper: Papero
   book: Libro
   slime_ball: Slambulo
-  chest_minecart: Minvagono kun kofro
-  furnace_minecart: Minvagono kun furnazo
   egg: Ovo
   compass: Busolo
   fishing_rod: Peskobastono
@@ -693,7 +710,6 @@ material:
   cooked_salmon: Koquita salmono
   ink_sac: Inksako
   cocoa_beans: Kakafabi
-  lapis_lazuli: Lapislazulo
   white_dye: Blanka tinto
   orange_dye: Oranjea tinto
   magenta_dye: Magenta tinto
@@ -757,6 +773,7 @@ material:
   cauldron: Kaldrono
   ender_eye: Enderokulo
   glistering_melon_slice: Loncho di melono brilanta
+  axolotl_spawn_egg: Kreurovo di axoloto
   bat_spawn_egg: Kreurovo di vespertilio
   bee_spawn_egg: Frayifanto-ovo di abelo
   blaze_spawn_egg: Kreurovo di blazo
@@ -823,7 +840,6 @@ material:
   fire_charge: Fairbulo
   writable_book: Libro e plumo
   written_book: Libro skribita
-  emerald: Smeraldo
   item_frame: Kadro
   flower_pot: Florpoto
   carrot: Karoto
@@ -838,17 +854,12 @@ material:
   zombie_head: Kapo di zombio
   creeper_head: Kapo di creepero
   dragon_head: Kapo di drako
-  carrot_on_a_stick: Karoto sur bastono
-  warped_fungus_on_a_stick: Fungo bizara sur bastono
   nether_star: Stelo di Nether
   pumpkin_pie: Torto di kukurbito
   firework_rocket: Fuzeo di pirotekno
   firework_star: Stelo di pirotekno
   enchanted_book: Libro sorcita
   nether_brick: Netherbriko
-  quartz: Quarco di Nether
-  tnt_minecart: Minvagono kun TNT
-  hopper_minecart: Minvagono kun funelego
   prismarine_shard: Ruptopeco di prismarino
   prismarine_crystals: Kristali di prismarino
   rabbit: Kruda kuniklokarno
@@ -894,12 +905,6 @@ material:
   tipped_arrow: Flecho pintizita
   lingering_potion: Duranta pociono
   shield: Shildo
-  elytra: Elitri
-  spruce_boat: Batelo abieta
-  birch_boat: Batelo birka
-  jungle_boat: Batelo mahagoniera
-  acacia_boat: Batelo akacia
-  dark_oak_boat: Batelo obskurquerka
   totem_of_undying: Totemo di nemortivado
   shulker_shell: Skalio di shulkero
   iron_nugget: Pepiro fera
@@ -938,7 +943,6 @@ material:
   cartography_table: Tablo di kartografio
   fletching_table: Tablo di flechado
   grindstone: Grindstono
-  lectern: Libropupitro
   smithing_table: Tablo di forjisto
   stonecutter: Petrotaliilo
   bell: Klosho
@@ -951,12 +955,8 @@ material:
   bee_nest: Abelnesto
   beehive: Abeluyo
   honey_bottle: Botelo di mielo
-  honey_block: Bloko di mielo
   honeycomb_block: Bloko di vabo
   lodestone: Magnetstono
-  netherite_block: Bloko di netherito
-  ancient_debris: Resajo anciena
-  target: Pafskopo
   crying_obsidian: Obsidiano ploranta
   blackstone: Nigrapetro
   blackstone_slab: Plako di Nigrapetro
@@ -1060,6 +1060,8 @@ material:
   potted_warped_fungus: Fungo bizara en poto
   potted_crimson_roots: Radiki karmezina en poto
   potted_warped_roots: Radiki bizara en poto
+  lapis_block: Bloko di lapislazulo
+  grass_path: Herbaleo
   zombie_pigman_spawn_egg: Kreurovo di zombia pigmano
   cactus_green: Verdo di kaktus
   dandelion_yellow: Flavo di leondento
@@ -1143,44 +1145,44 @@ biome:
   bamboo_jungle_hills: Kolini di bambujunglo
   nether: Nether
 enchantment:
-  fire_protection: Fairprotekto
-  sharpness: Akuteso
-  flame: Flameso
-  soul_speed: Rapideso amnala
-  aqua_affinity: Aqua afineso
-  punch: Retrofrapo
-  loyalty: Loyaleso
-  depth_strider: Marpazar
-  vanishing_curse: Malediko di desparado
-  unbreaking: Duriveso
-  knockback: Retrosalto
-  luck_of_the_sea: Chanco di la maro
-  binding_curse: Malediko di bindado
-  fortune: Fortuno
   protection: Protekto
-  efficiency: Efikiveso
-  mending: Reparado
-  frost_walker: Frostmarchar
-  lure: Lurado
-  looting: Spoilado
-  piercing: Penetreso
-  blast_protection: Explozoprotekto
-  smite: Puniso
-  multishot: Poliflecho
-  fire_aspect: Fairaspekto
-  channeling: Kanaligado
-  sweeping: Akutajo repidega
-  thorns: Dorni
-  bane_of_arthropods: Pesto di artropodi
-  respiration: Respiro
-  riptide: Impulso
-  silk_touch: Silktusho
-  quick_charge: Pafajo rapida
-  projectile_protection: Projektilprotekto
-  impaling: Empalado
+  fire_protection: Fairprotekto
   feather_falling: Plumfalado
+  blast_protection: Explozoprotekto
+  projectile_protection: Projektilprotekto
+  respiration: Respiro
+  aqua_affinity: Aqua afineso
+  thorns: Dorni
+  depth_strider: Marpazar
+  frost_walker: Frostmarchar
+  binding_curse: Malediko di bindado
+  sharpness: Akuteso
+  smite: Puniso
+  bane_of_arthropods: Pesto di artropodi
+  knockback: Retrosalto
+  fire_aspect: Fairaspekto
+  looting: Spoilado
+  sweeping: Akutajo repidega
+  efficiency: Efikiveso
+  silk_touch: Silktusho
+  unbreaking: Duriveso
+  fortune: Fortuno
   power: Poveso
+  punch: Retrofrapo
+  flame: Flameso
   infinity: Infiniteso
+  luck_of_the_sea: Chanco di la maro
+  lure: Lurado
+  loyalty: Loyaleso
+  impaling: Empalado
+  riptide: Impulso
+  channeling: Kanaligado
+  multishot: Poliflecho
+  quick_charge: Pafajo rapida
+  piercing: Penetreso
+  mending: Reparado
+  vanishing_curse: Malediko di desparado
+  soul_speed: Rapideso amnala
 potion:
   uncraftable: Pociono nefabrikebla
   water: Aquobotelo
@@ -1374,6 +1376,7 @@ entity:
   piglin: Piglino
   strider: Pazeganto
   zoglin: Zoglin
+  axolotl: Axoloto
   fishing_hook: Angelo
   lightning: Fulminostroko
   player: Ludanto
@@ -2156,17 +2159,3 @@ villager_profession:
   shepherd: Pastoro
   toolsmith: Utensilforjisto
   weaponsmith: Armforjisto
-villager_career:
-  farmer: Farmisto
-  fisherman: Peskero
-  shepherd: Pastoro
-  fletcher: Flechisto
-  librarian: Bibliotekisto
-  cartographer: Kartografo
-  cleric: Kleriko
-  armorer: Armtifisto
-  weapon_smith: Armforjisto
-  tool_smith: Utensilforjisto
-  butcher: Buchisto
-  leatherworker: Ledropreparisto
-  nitwit: Idioto

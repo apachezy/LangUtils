@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:20:01                    #
+# Build time: 2021-07-04 21:41:58                    #
 # ####################################################
 language:
   code: yi_de
@@ -14,10 +14,17 @@ material:
   polished_diorite: פּאלירטער דיאגיט
   andesite: אנדעזיט
   polished_andesite: פּאלירטער אנדעזיט
+  deepslate: דעעפּסלאַטע
+  cobbled_deepslate: קאָבבלעד דעעפּסלאַטע
+  polished_deepslate: פּאַלישט וואַקס
+  calcite: קאַלסייט
+  tuff: טוף
+  dripstone_block: דריפּסטאָנע בלאַק
   grass_block: גראזבלאק
   dirt: ערד
   coarse_dirt: גראבע ערד
   podzol: אשבאדן
+  rooted_dirt: איינגעווארצלט שמוץ
   crimson_nylium: פאמסן ניליום
   warped_nylium: צעמישט ניליום
   cobblestone: ברוק
@@ -39,10 +46,67 @@ material:
   sand: זאמד
   red_sand: רויטער זאמד
   gravel: זשוויר
-  gold_ore: גאלדארץ
-  iron_ore: אייַזנארץ
   coal_ore: שטיינקויל
+  deepslate_coal_ore: דעעפּסלאַטע קוילן אַרץ
+  iron_ore: אייַזנארץ
+  deepslate_iron_ore: דעעפּסלאַטע יראָן אַרץ
+  copper_ore: קופּער אַרץ
+  deepslate_copper_ore: דעעפּסלאַטע קאַפּער אַרץ
+  gold_ore: גאלדארץ
+  deepslate_gold_ore: דעעפּסלאַטע גאָלד אַרץ
+  redstone_ore: רעדסטאן־ארץ
+  deepslate_redstone_ore: דעעפּסלאַטע רעדסטאָנע אַרץ
+  emerald_ore: שמאראקארץ
+  deepslate_emerald_ore: דעעפּסלאַטע שמאַראַגד אַרץ
+  lapis_ore: בלאשטיינארץ
+  deepslate_lapis_ore: דעעפּסלאַטע לאַפּיס לאַזולי אַרץ
+  diamond_ore: דימענטארץ
+  deepslate_diamond_ore: דעעפּסלאַטע דיאַמאָנד אַרץ
   nether_gold_ore: נעטהער גאלד אר
+  nether_quartz_ore: נעדער־קווארצארץ
+  ancient_debris: אלטע בויברעך
+  coal_block: קוילבלאק
+  raw_iron_block: אייַזן בלאַק ביטע
+  raw_copper_block: קופּער בלאָק ביטע
+  raw_gold_block: גאָלד בלאָק ביטע
+  amethyst_block: פאַרשפּאַרן פון אַמעטהיסט
+  budding_amethyst: באַדינג אַמעטהיסט
+  iron_block: אייַזנבלאק
+  copper_block: בלאָק פון קאַפּער
+  gold_block: גאלדבלאק
+  diamond_block: דימענטבלאק
+  netherite_block: נעטהעריטע בלאק
+  exposed_copper: יקספּאָוזד קופּער
+  weathered_copper: וועדערד קופּער
+  oxidized_copper: אַקסאַדייזד קאַפּער
+  cut_copper: שנייַדן קאַפּער
+  exposed_cut_copper: יקספּאָוזד קאַט קאַפּער
+  weathered_cut_copper: וועדערד קאַט קאַפּער
+  oxidized_cut_copper: אַקסאַדייזד קאַט קאַפּער
+  cut_copper_stairs: שנייַדן קאַפּער טרעפּ
+  exposed_cut_copper_stairs: יקספּאָוזד קאַט קאַפּער טרעפּ
+  weathered_cut_copper_stairs: וועדערד קאַט קאַפּער טרעפּ
+  oxidized_cut_copper_stairs: אַקסאַדייזד קאַט קופּער טרעפּ
+  cut_copper_slab: שנייַדן קאַפּער סלאַב
+  exposed_cut_copper_slab: יקספּאָוזד קאַט קופּער פּלאַטע
+  weathered_cut_copper_slab: וועדערד קאַט קופּער פּלאַטע
+  oxidized_cut_copper_slab: אַקסאַדייזד קאַט קופּער פּלאַטע
+  waxed_copper_block: וואַקסט בלאַק פון קופּער
+  waxed_exposed_copper: וואַקסעד יקספּאָוזד קופּער
+  waxed_weathered_copper: וואַקסעד וועדערד קופּער
+  waxed_oxidized_copper: וואַקסעד אַקסאַדייזד קאַפּער
+  waxed_cut_copper: וואַקסט קאַט קופּער
+  waxed_exposed_cut_copper: וואַקסעד יקספּאָוזד קאַט קופּער
+  waxed_weathered_cut_copper: וואַקסעד וועדערד קאַט קאַפּער
+  waxed_oxidized_cut_copper: וואַקסיד אַקסידייזד קאַט קאַפּער
+  waxed_cut_copper_stairs: וואַקסעד קאַט קופּער טרעפּ
+  waxed_exposed_cut_copper_stairs: וואַקסעד קאַט קופּער טרעפּ
+  waxed_weathered_cut_copper_stairs: וואַקסעד וועדערד קאַט קאַפּער טרעפּ
+  waxed_oxidized_cut_copper_stairs: וואַקסיד אַקסאַדייזד קאַט קופּער טרעפּ
+  waxed_cut_copper_slab: וואַקסט קאַט קופּער פּלאַטע
+  waxed_exposed_cut_copper_slab: וואַקסעד יקספּאָוזד קאַט קופּער פּלאַטע
+  waxed_weathered_cut_copper_slab: וואַקסעד וועדערד קאַט קופּער פּלאַטע
+  waxed_oxidized_cut_copper_slab: וואַקסיד אַקסאַדייזד קאַט קופּער פּלאַטע
   oak_log: אייכנשטאם
   spruce_log: טענענשטאם
   birch_log: בערעזעשטאם
@@ -81,26 +145,24 @@ material:
   jungle_leaves: זשונגלבלעטער
   acacia_leaves: אקאציענבלעטער
   dark_oak_leaves: שווארצייכנבלעטער
+  azalea_leaves: אַזייליאַ בלעטער
+  flowering_azalea_leaves: פלאַוערינג אַזאַליאַ בלעטער
   sponge: שוואם
   wet_sponge: נאסער שוואם
   glass: גלאז
-  lapis_ore: בלאשטיינארץ
-  lapis_block: בלאשטיינבלאק
-  dispenser: צעגעבער
+  tinted_glass: טינטעד גלאַס
+  lapis_block: פאַרשפּאַרן פון לאַפּיס לאַזולי
   sandstone: זאמדשטיין
   chiseled_sandstone: גראווירטער זאמדשטיין
   cut_sandstone: געשניטנער זאמדשטיין
-  note_block: נאטנבלאק
-  powered_rail: אנטריבסדראבע
-  detector_rail: סענסארדראבע
-  sticky_piston: קלעפּיקע קאלבע
   cobweb: פאוועטינע
   grass: גראז
   fern: פֿעדערגראז
+  azalea: אזאליע
+  flowering_azalea: פלאַוערינג אַזאַלעאַ
   dead_bush: טויטער קוסט
   seagrass: ים־גראז
   sea_pickle: ים־וגערקע
-  piston: קאלבע
   white_wool: ווייַסע וואל
   orange_wool: אראנזשע וואל
   magenta_wool: מאדזשענטאע וואל
@@ -130,6 +192,7 @@ material:
   cornflower: קארנבלימל
   lily_of_the_valley: מייגלעקל
   wither_rose: ווידער־רויז
+  spore_blossom: ספּאָר בלאָססאָם
   brown_mushroom: ברוינשוועמל
   red_mushroom: רויטשוועמל
   crimson_fungus: פאמסן שוועמל
@@ -141,9 +204,12 @@ material:
   twisting_vines: טוויסטינג וויינשטאק
   sugar_cane: צוקערראר
   kelp: ים־גראז
+  moss_carpet: מאָך קאַרפּעט
+  moss_block: מאָך בלאַק
+  hanging_roots: כאַנגגינג ראָאָץ
+  big_dripleaf: גרויס דריפּלעף
+  small_dripleaf: קליין דריפּלעף
   bamboo: באמבוק
-  gold_block: גאלדבלאק
-  iron_block: אייַזנבלאק
   oak_slab: אייכנהאלצפּלאטע
   spruce_slab: טענענהאלצפּלאטע
   birch_slab: בערעזעהאלצפּלאטע
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: גלאטער זאמגשטיין
   smooth_stone: גלאטער שטיין
   bricks: ציגלשטיינער
-  tnt: דינאמיט
   bookshelf: ביכערשענק
   mossy_cobblestone: באמאכטער ברוק
   obsidian: אבסידיאן
@@ -187,27 +252,11 @@ material:
   spawner: ספּאנער
   oak_stairs: אייכנהאלצטרעפף
   chest: קאסטן
-  diamond_ore: דימענטארץ
-  diamond_block: דימענטבלאק
   crafting_table: ווערקבאנק
   farmland: אקערבאדן
   furnace: אויוון
   ladder: לייטער
-  rail: דראבע
   cobblestone_stairs: ברוקטרעף
-  lever: הייבל
-  stone_pressure_plate: שטיינדרוקפלאטע
-  oak_pressure_plate: אייכנהאלצדרוקפּלאטע
-  spruce_pressure_plate: טענענהאלצדרוקפּלאטע
-  birch_pressure_plate: בערעזעהאלצדרוקפּלאטע
-  jungle_pressure_plate: זשונגלהאלצדרוקפּלאטע
-  acacia_pressure_plate: אקאציענהאלצדרוקפּלאטע
-  dark_oak_pressure_plate: שווארצייכנהאלצדרוקפּלאטע
-  crimson_pressure_plate: פאמסן דרוקפלאטע
-  warped_pressure_plate: צעמישט דרוקפלאטע
-  polished_blackstone_pressure_plate: פאלישט שווארצשטיינדרוקפלאטע
-  redstone_ore: רעדסטאן־ארץ
-  redstone_torch: רעדסטאן־פֿאקל
   snow: שניי
   ice: אייַז
   snow_block: שנייבלאק
@@ -224,32 +273,31 @@ material:
   warped_fence: צעמישט פלויט
   pumpkin: קירבעס
   carved_pumpkin: געשניצער קירבעס
+  jack_o_lantern: קירבעסלאמטערן
   netherrack: נעדערראק
   soul_sand: זעלנזאמד
   soul_soil: נשמה באדן
   basalt: באזאלט
   polished_basalt: פאלישט באזאלט
+  smooth_basalt: גלאַט באַסאַלט
   soul_torch: נשמה טארטש
   glowstone: לייַכטשטיין
-  jack_o_lantern: קירבעסלאמטערן
-  oak_trapdoor: אייכנהאלצפֿאלטיר
-  spruce_trapdoor: טענענהאלצפֿאלטיר
-  birch_trapdoor: בערעזעהאלצפֿאלטיר
-  jungle_trapdoor: זשונגלהאלצפֿאלטיר
-  acacia_trapdoor: אקאציענהאלצפֿאלטיר
-  dark_oak_trapdoor: שווארצייכנהאלצפֿאלטיר
-  crimson_trapdoor: פלאטע טראפ טיר
-  warped_trapdoor: צעמישט טראפ טיר
   infested_stone: פֿארשרצטער שטיין
   infested_cobblestone: פֿארשרצטער ברוק
   infested_stone_bricks: פֿארשרצטע שטיינציגל
   infested_mossy_stone_bricks: פֿארשרצטע באמאכטע שטיינציגל
   infested_cracked_stone_bricks: פֿארשרצטע ריסיקע שטיינציגל
   infested_chiseled_stone_bricks: פֿארשרצטע גראווירטע שטיינציגל
+  infested_deepslate: ינפעקטאַד ינפעקציע
   stone_bricks: שטיינציגל
   mossy_stone_bricks: באמאכטע שטיינציגל
   cracked_stone_bricks: ריסיקע שטיינציגל
   chiseled_stone_bricks: גראווירטע שטיינציגל
+  deepslate_bricks: כאַווד לאַוואַהאַ
+  cracked_deepslate_bricks: קראַקט וואַפליע בריקס
+  deepslate_tiles: לאַוואַ טיילז
+  cracked_deepslate_tiles: קראַקט לאַוואַ טיילז
+  chiseled_deepslate: סקאַלפּטיד וואַקס
   brown_mushroom_block: ברוינשוועמלבלאק
   red_mushroom_block: רויטשוועמלבלאק
   mushroom_stem: שוועמלשטאם
@@ -258,14 +306,7 @@ material:
   glass_pane: בלעזערל
   melon: קאווענע
   vine: קלעטערערקרויט
-  oak_fence_gate: אייכנהאלצצוימטויער
-  spruce_fence_gate: טענענהאלצצוימטויער
-  birch_fence_gate: בערעזעהאלצצוימטויער
-  jungle_fence_gate: זשונגלהאלצצוימטויער
-  acacia_fence_gate: אקאציענהאלצצוימטויער
-  dark_oak_fence_gate: שווארצייכנהאלצצוימטויער
-  crimson_fence_gate: פאמסן פלויט טויער
-  warped_fence_gate: צעמישט פלויט טויער
+  glow_lichen: שייַנען ליטשען
   brick_stairs: ציגלטשטיינרעף
   stone_brick_stairs: שטיינציגלטרעף
   mycelium: מיצעל
@@ -280,11 +321,8 @@ material:
   end_stone: ענדשטיין
   end_stone_bricks: ענדשטיינציגל
   dragon_egg: דראקאניי
-  redstone_lamp: רעדסטאנ־לאמף
   sandstone_stairs: זאמדשטיינטרעף
-  emerald_ore: שמאראקארץ
   ender_chest: ענדערקאסטן
-  tripwire_hook: ניכשלדראטהאקן
   emerald_block: שמאראקבלאק
   spruce_stairs: טענענהאלצטרעפף
   birch_stairs: בערעזעהאלצטרעף
@@ -310,33 +348,18 @@ material:
   blackstone_wall: שווארצשטיינמויער
   polished_blackstone_wall: פאלישט שווארצשטיינמויער
   polished_blackstone_brick_wall: פאלישט שווארצשטיינציגלמויער
-  stone_button: שטיינקנאף
-  oak_button: אייכנהאלצקנאף
-  spruce_button: טענענהאלצקנאף
-  birch_button: בערעזעהאלצקנאף
-  jungle_button: זשונגלהאלצקנאף
-  acacia_button: אקאציענהאלצקנאף
-  dark_oak_button: שווארצייכנהאלצקנאף
-  crimson_button: פלאטע קנעפל
-  warped_button: צעמישט קנעפּל
-  polished_blackstone_button: פאלישט שווארצשטיינציגלקנעפל
+  cobbled_deepslate_wall: אַ פּאַוועד וווילשטאנד וואנט
+  polished_deepslate_wall: פּאַלישט וואַפליע וואַנט
+  deepslate_brick_wall: א ציגל וואַנט
+  deepslate_tile_wall: וואַלאַ קאַכל וואַנט
   anvil: אנשטול
   chipped_anvil: אנגעשלאגנער אנשטול
   damaged_anvil: באשעדיקטער אנשטול
-  trapped_chest: כאפּקאסטן
-  light_weighted_pressure_plate: פֿייַנגעוויכטדרוקפּלאטע
-  heavy_weighted_pressure_plate: גראבגעוויכטדרוקפּלאטע
-  daylight_detector: טאגליכטססענסאר
-  redstone_block: רעדסטאנ־בלאק
-  nether_quartz_ore: נעדער־קווארצארץ
-  hopper: לייקע
   chiseled_quartz_block: גראווירטער קווארצבלאק
   quartz_block: קווארצבלאק
   quartz_bricks: קווארצציגל
   quartz_pillar: קווארצזייַל
   quartz_stairs: קווארצטרעף
-  activator_rail: אקטיווירונגדראבע
-  dropper: פֿארגיסער
   white_terracotta: ווייַסע קעראמיק
   orange_terracotta: אראנזשע קעראמיק
   magenta_terracotta: מאדזשענטאע קעראמיק
@@ -354,7 +377,7 @@ material:
   red_terracotta: רויטע קעראמיק
   black_terracotta: שווארע קעראמיק
   barrier: באריער
-  iron_trapdoor: אייַזנפֿאלטיר
+  light: ליכט
   hay_block: שטרויבאלן
   white_carpet: ווייַסער טעפּעך
   orange_carpet: אראנזשער טעפּעך
@@ -373,12 +396,10 @@ material:
   red_carpet: רויטער טעפּעך
   black_carpet: שווארצער טעפּעך
   terracotta: קעראמיק
-  coal_block: קוילבלאק
   packed_ice: פּאקייַז
   acacia_stairs: אקאציענהאלצטרעף
   dark_oak_stairs: שווארצייכנהאלצטרעף
-  slime_block: שליימבלאק
-  grass_path: גראזוועג
+  dirt_path: שמוץ דרך
   sunflower: סאנישניק
   lilac: בעז
   rose_bush: רויזנקשאקע
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: רויטע נעדער־ציגל
   bone_block: ביינבלאק
   structure_void: סטרוקטור־תּהום
-  observer: אכטגעבער
   shulker_box: שולקערקאסע
   white_shulker_box: ווייסע שולקערקאסע
   orange_shulker_box: אראנזשע שולקערקאסע
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: רויטע נעדער־ציגלטרכף
   polished_andesite_stairs: פּאלירטער אנדעזיטטרעפ
   diorite_stairs: דיאגיטטרעפ
+  cobbled_deepslate_stairs: קאָבבלעד דעעפּסלאַטע טרעפּ
+  polished_deepslate_stairs: גליטשיק פּאַלישט טרעפּ
+  deepslate_brick_stairs: טרעפּ צו לעוואַנאַ
+  deepslate_tile_stairs: טרעפּ צו לאַוואַ טיילז
   polished_granite_slab: פּאלירטע גראניטפלאטע
   smooth_red_sandstone_slab: גלאטע רויטזאמגשטיינפלאטע
   mossy_stone_brick_slab: באמאכטע שטיינציגלפלאטע
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: רויטע נעדער־ציגלפלאטע
   polished_andesite_slab: פּאלירטע אנדעזיטפלאטע
   diorite_slab: דיאגיטפלאטע
+  cobbled_deepslate_slab: קאָבבלעד דעעפּסלאַטע סלאַב
+  polished_deepslate_slab: שפּאַלטן פּאַלישט וואַקס
+  deepslate_brick_slab: ציגל שפּאַלטן כאַווד
+  deepslate_tile_slab: קאַכל פֿאַר כאַווד
   scaffolding: געשטעל
+  redstone: רעדסטאן־שטויב
+  redstone_torch: רעדסטאן־פֿאקל
+  redstone_block: רעדסטאנ־בלאק
+  repeater: רעדסטאן־פארשטארקער
+  comparator: רעדסטאן־קאמפאראטאר
+  piston: קאלבע
+  sticky_piston: קלעפּיקע קאלבע
+  slime_block: שליימבלאק
+  honey_block: האניק בלאק
+  observer: אכטגעבער
+  hopper: לייקע
+  dispenser: צעגעבער
+  dropper: פֿארגיסער
+  lectern: שטענדער
+  target: ציל בלאק
+  lever: הייבל
+  lightning_rod: בליץ רוט
+  daylight_detector: טאגליכטססענסאר
+  sculk_sensor: סקולק סענסאָר
+  tripwire_hook: ניכשלדראטהאקן
+  trapped_chest: כאפּקאסטן
+  tnt: דינאמיט
+  redstone_lamp: רעדסטאנ־לאמף
+  note_block: נאטנבלאק
+  stone_button: שטיינקנאף
+  polished_blackstone_button: פאלישט שווארצשטיינציגלקנעפל
+  oak_button: אייכנהאלצקנאף
+  spruce_button: טענענהאלצקנאף
+  birch_button: בערעזעהאלצקנאף
+  jungle_button: זשונגלהאלצקנאף
+  acacia_button: אקאציענהאלצקנאף
+  dark_oak_button: שווארצייכנהאלצקנאף
+  crimson_button: פלאטע קנעפל
+  warped_button: צעמישט קנעפּל
+  stone_pressure_plate: שטיינדרוקפלאטע
+  polished_blackstone_pressure_plate: פאלישט שווארצשטיינדרוקפלאטע
+  light_weighted_pressure_plate: פֿייַנגעוויכטדרוקפּלאטע
+  heavy_weighted_pressure_plate: גראבגעוויכטדרוקפּלאטע
+  oak_pressure_plate: אייכנהאלצדרוקפּלאטע
+  spruce_pressure_plate: טענענהאלצדרוקפּלאטע
+  birch_pressure_plate: בערעזעהאלצדרוקפּלאטע
+  jungle_pressure_plate: זשונגלהאלצדרוקפּלאטע
+  acacia_pressure_plate: אקאציענהאלצדרוקפּלאטע
+  dark_oak_pressure_plate: שווארצייכנהאלצדרוקפּלאטע
+  crimson_pressure_plate: פאמסן דרוקפלאטע
+  warped_pressure_plate: צעמישט דרוקפלאטע
   iron_door: אייַזנטיר
   oak_door: אייכנהאלצטיר
   spruce_door: טענענהאלצטיר
@@ -572,8 +646,42 @@ material:
   dark_oak_door: שווארצייכנהאלצטיר
   crimson_door: פאמסן טיר
   warped_door: צעמישט טיר
-  repeater: רעדסטאן־פארשטארקער
-  comparator: רעדסטאן־קאמפאראטאר
+  iron_trapdoor: אייַזנפֿאלטיר
+  oak_trapdoor: אייכנהאלצפֿאלטיר
+  spruce_trapdoor: טענענהאלצפֿאלטיר
+  birch_trapdoor: בערעזעהאלצפֿאלטיר
+  jungle_trapdoor: זשונגלהאלצפֿאלטיר
+  acacia_trapdoor: אקאציענהאלצפֿאלטיר
+  dark_oak_trapdoor: שווארצייכנהאלצפֿאלטיר
+  crimson_trapdoor: פלאטע טראפ טיר
+  warped_trapdoor: צעמישט טראפ טיר
+  oak_fence_gate: אייכנהאלצצוימטויער
+  spruce_fence_gate: טענענהאלצצוימטויער
+  birch_fence_gate: בערעזעהאלצצוימטויער
+  jungle_fence_gate: זשונגלהאלצצוימטויער
+  acacia_fence_gate: אקאציענהאלצצוימטויער
+  dark_oak_fence_gate: שווארצייכנהאלצצוימטויער
+  crimson_fence_gate: פאמסן פלויט טויער
+  warped_fence_gate: צעמישט פלויט טויער
+  powered_rail: אנטריבסדראבע
+  detector_rail: סענסארדראבע
+  rail: דראבע
+  activator_rail: אקטיווירונגדראבע
+  saddle: זאטל
+  minecart: דראבינע
+  chest_minecart: קאסטנדראבינע
+  furnace_minecart: אויוונדראבינע
+  tnt_minecart: דינאמיטדראבינע
+  hopper_minecart: לייקעדראבינע
+  carrot_on_a_stick: מעררוט
+  warped_fungus_on_a_stick: צעמישט שוועמל רוט
+  elytra: עליטרע
+  oak_boat: אייכנהאלצלאדקע
+  spruce_boat: טענענהאלצלאדקע
+  birch_boat: בערעזעהאלצלאדקע
+  jungle_boat: זשונגלהאלצלאדקע
+  acacia_boat: אקאציענההאלצלאדקעלאדקע
+  dark_oak_boat: שווארצייכנהאלצלאדקע
   structure_block: סטרוקטורבלאק
   jigsaw: פארבונדבלאק
   turtle_helmet: שילדקרויטנפאנצער
@@ -585,7 +693,15 @@ material:
   coal: קויל
   charcoal: האלצקויל
   diamond: דימענט
+  emerald: שמאראק
+  lapis_lazuli: בלאשטיין
+  quartz: נעדערקווארץ
+  amethyst_shard: אַהלאַמאַ סליווער
+  raw_iron: אייַזן פירן
   iron_ingot: אייַזנצאנקען
+  raw_copper: קופּער פירן
+  copper_ingot: קופּער ינגגאַץ
+  raw_gold: ניט-פּראַסעסט גאָלד
   gold_ingot: גאלדצאנקען
   netherite_ingot: נעטהעריטע באראן
   netherite_scrap: נעטהעריטע ברעקלעך
@@ -669,29 +785,27 @@ material:
   bucket: עמער
   water_bucket: וואסערעמער
   lava_bucket: לאוועעמער
-  minecart: דראבינע
-  saddle: זאטל
-  redstone: רעדסטאן־שטויב
+  powder_snow_bucket: שניי פּודער עמער
   snowball: שנייבאל
-  oak_boat: אייכנהאלצלאדקע
   leather: לעדער
   milk_bucket: מליכעמער
   pufferfish_bucket: שוועלפישעמער
   salmon_bucket: לאקסעמער
   cod_bucket: דארשעמער
   tropical_fish_bucket: טראפנפישעמער
+  axolotl_bucket: עמער פון אַקסאָלאָטל
   brick: ציגלשטיין
   clay_ball: שטיק פון ליים
   dried_kelp_block: טרוקנע ים־גראזבלאק
   paper: פאפיר
   book: בוך
   slime_ball: שליימבאל
-  chest_minecart: קאסטנדראבינע
-  furnace_minecart: אויוונדראבינע
   egg: איי
   compass: קאמפאס
+  bundle: פּעקל
   fishing_rod: ווענטקע
   clock: זייגער
+  spyglass: טעלעסקאָפּ
   glowstone_dust: לייַכטשטיינשטויב
   cod: רויער דארש
   salmon: רויער לאקס
@@ -700,8 +814,8 @@ material:
   cooked_cod: געבראטנער דארש
   cooked_salmon: געבראטנער לאקס
   ink_sac: טינטנבייטל
+  glow_ink_sac: גלאָוינג טינט זעקל
   cocoa_beans: קאקאאבוינענ
-  lapis_lazuli: בלאשטיין
   white_dye: ווייסער פארבשטאף
   orange_dye: אראנזשפארבשטאף
   magenta_dye: מאדזשענטאפארבשטאףפארבשטאף
@@ -765,6 +879,7 @@ material:
   cauldron: קעסל
   ender_eye: ענדערויג
   glistering_melon_slice: גלענצלדיקע מעלאנענשויב
+  axolotl_spawn_egg: אַקסאָלאָטל ספּאָן איי
   bat_spawn_egg: פֿלעדערמויז־באמידשזי־איי
   bee_spawn_egg: האנייקאמב בלאק
   blaze_spawn_egg: טאוזנ־באמידשזי־איי
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: אויסרופער־באמידשזי־איי
   fox_spawn_egg: פאקס־באמידשזי־איי
   ghast_spawn_egg: גאסט־באמידשזי־איי
+  glow_squid_spawn_egg: סוממונינג יי סומס שייַנען
+  goat_spawn_egg: אַ ציג סוממאָנינג יי
   guardian_spawn_egg: דאזארע־באמידשזי־איי
   hoglin_spawn_egg: האגלין באמידשזי איי
   horse_spawn_egg: פערד־באמידשזי־איי
@@ -833,8 +950,8 @@ material:
   fire_charge: פייערבאל
   writable_book: בוך און פעדער
   written_book: באשריבנס בוך
-  emerald: שמאראק
   item_frame: געגנשטאנדראם
+  glow_item_frame: גלאָוינג נומער ראַם
   flower_pot: בלומנטאף
   carrot: מער
   potato: קארטאפל
@@ -848,17 +965,12 @@ material:
   zombie_head: זאמביקאף
   creeper_head: קריפערקאף
   dragon_head: דראקאנסקאף
-  carrot_on_a_stick: מעררוט
-  warped_fungus_on_a_stick: צעמישט שוועמל רוט
   nether_star: נעדערשטערן
   pumpkin_pie: קירבעסקוכן
   firework_rocket: פייערווערקסראקעט
   firework_star: פייערווערקסשטערן
   enchanted_book: פארצויבערטס בוך
   nether_brick: נעדערציגל
-  quartz: נעדערקווארץ
-  tnt_minecart: דינאמיטדראבינע
-  hopper_minecart: לייקעדראבינע
   prismarine_shard: פּריסמארינשערבל
   prismarine_crystals: פּריסמארינקרישטאלן
   rabbit: רויס קראליקפלייש
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: געטונקע פייל
   lingering_potion: פארוויילטרונק
   shield: שילד
-  elytra: עליטרע
-  spruce_boat: טענענהאלצלאדקע
-  birch_boat: בערעזעהאלצלאדקע
-  jungle_boat: זשונגלהאלצלאדקע
-  acacia_boat: אקאציענההאלצלאדקעלאדקע
-  dark_oak_boat: שווארצייכנהאלצלאדקע
   totem_of_undying: טאטעם פון דער אומשטארבלעכקייט
   shulker_shell: שולקערשאל
   iron_nugget: אייזנקלומף
@@ -948,13 +1054,13 @@ material:
   cartography_table: קארטנטיש
   fletching_table: בויגנערטיש
   grindstone: שלייפשטיין
-  lectern: שטענדער
   smithing_table: שמידטיש
   stonecutter: שטיינזעג
   bell: גלאק
   lantern: לאמטערן
   soul_lantern: נשמה לאנטערן
   sweet_berries: זיסיאגדעס
+  glow_berries: גלאָוינג בעריז
   campfire: לאגערפייער
   soul_campfire: נשמה קאמפפירע
   shroomlight: שראאםליכט
@@ -962,12 +1068,8 @@ material:
   bee_nest: ביננעסט
   beehive: בינשטאק
   honey_bottle: האניקפֿלאש
-  honey_block: האניק בלאק
   honeycomb_block: האנייקאמב בלאק
   lodestone: לאדעשטיין
-  netherite_block: נעטהעריטע בלאק
-  ancient_debris: אלטע בויברעך
-  target: ציל בלאק
   crying_obsidian: געוויין אבסידיאן
   blackstone: שווארצשטיין
   blackstone_slab: שווארצשטיינפלאטע
@@ -982,6 +1084,28 @@ material:
   polished_blackstone_brick_stairs: פאלישט שווארצשטיינציגלטרעף
   cracked_polished_blackstone_bricks: קראקט פאלישט שווארצשטיינציגל
   respawn_anchor: רעספאוון אנקער
+  candle: ליכט
+  white_candle: ווייַס ליכט
+  orange_candle: מאַראַנץ קאַנדלע
+  magenta_candle: מאַגענטאַ קאַנדלע
+  light_blue_candle: העלבלױע ליכט
+  yellow_candle: געל ליכט
+  lime_candle: לייַם קאַנדלע
+  pink_candle: ראָזעווע קאַנדלע
+  gray_candle: גרוי קאַנדלע
+  light_gray_candle: ליכט גריי קאַנדלע
+  cyan_candle: סיאַן ליכט
+  purple_candle: לילאַ קאַנדלע
+  blue_candle: בלוי קאַנדלע
+  brown_candle: ברוין ליכט
+  green_candle: גרין ליכט
+  red_candle: רויט ליכט
+  black_candle: שוואַרץ ליכט
+  small_amethyst_bud: קליין אַמעטהיסט באַד
+  medium_amethyst_bud: מיטל אַמעטהיסט באַד
+  large_amethyst_bud: גרויס אַמעטהיסט באַד
+  amethyst_cluster: אַמעטהיסט קלאַסטער
+  pointed_dripstone: שפּיציק דריפּסטאָנע
   water: וואסער
   lava: לאווע
   tall_seagrass: האיכס ים־גראז
@@ -1004,6 +1128,9 @@ material:
   attached_melon_stem: מעלאנעשטענגל
   pumpkin_stem: קירבעסשטאם
   melon_stem: מעלאנענשטאם
+  water_cauldron: וואַסער קעסל
+  lava_cauldron: לאַוואַ קעסל
+  powder_snow_cauldron: פּודער שניי קעסל
   end_portal: ענדפארטאל
   cocoa: קאקאא
   tripwire: ניכשלדראט
@@ -1083,23 +1210,56 @@ material:
   potted_warped_fungus: פאטטעד צעמישט שוועמל
   potted_crimson_roots: פאטטעד פאמסן ווארצל
   potted_warped_roots: פאטטעד צעמישט ווארצל
+  candle_cake: שפּיל ליכט שטיקל
+  white_candle_cake: שטיקל מיט ווייַס ליכט
+  orange_candle_cake: שטיקל מיט אָראַנדזש קאַנדלע
+  magenta_candle_cake: שטיקל מיט מאַגענטאַ קאַנדלע
+  light_blue_candle_cake: שטיקל מיט ליכט בלו קאַנדלע
+  yellow_candle_cake: שטיקל מיט אַ געל ליכט
+  lime_candle_cake: שטיקל מיט לייַם קאַנדלע
+  pink_candle_cake: שטיקל מיט ראָזעווע קאַנדלע
+  gray_candle_cake: שטיקל מיט גריי ליכט
+  light_gray_candle_cake: שטיקל מיט ליכט גרוי ליכט
+  cyan_candle_cake: שטיקל מיט סיאַן ליכט
+  purple_candle_cake: שטיקל מיט לילאַ קאַנדלע
+  blue_candle_cake: שטיקל מיט בלו קאַנדלע
+  brown_candle_cake: שטיקל מיט ברוין ליכט
+  green_candle_cake: שטיקל מיט גרין ליכט
+  red_candle_cake: שטיקל מיט רויט ליכט
+  black_candle_cake: שטיקל מיט שוואַרץ ליכט
+  powder_snow: פּודער שניי
+  cave_vines: קאַווע וויינז
+  cave_vines_plant: קאַווע וויינז פּלאַנט
+  big_dripleaf_stem: גרויס דריפּלעף סטעם
+  potted_azalea_bush: פּאָטטעד אַזאַליאַ
+  potted_flowering_azalea_bush: פּאָטטעד פלאַוערינג אַזאַלעאַ
+  grass_path: גראזוועג
   zombie_pigman_spawn_egg: פּאליציסט־באמידשזי־איי
 biome:
   ocean: ים
+  plains: פּליינז
   desert: וויסט
   mountains: בערג
   forest: וואלד
   taiga: טייגע
   swamp: זומפ
+  river: טייַך
   nether_wastes: נעדער וואסטעס
   the_end: דאס ענד
   frozen_ocean: אייזיקער ים
+  frozen_river: פאַרפרוירן טייַך
+  snowy_tundra: שניייק טאַנדראַ
   snowy_mountains: פארשנייטע בערג
+  mushroom_fields: שוועמל פיעלדס
+  mushroom_field_shore: שוועמל ברעג פעלד
   beach: פלאזשע
   desert_hills: וויסטנבערגלעך
   wooded_hills: וואלדבערגלעך
   taiga_hills: טייגעבערגלעך
   mountain_edge: בערגראנד
+  jungle: דזשאַנגגאַל
+  jungle_hills: דזשונגלע היללס
+  jungle_edge: דזשונגלע גרענעץ
   deep_ocean: טיפער ים
   stone_shore: שטיינבארטן
   snowy_beach: פארשנייטע פלאזשע
@@ -1112,72 +1272,91 @@ biome:
   giant_tree_taiga_hills: ריזנבוימטייגעבערגלעך
   wooded_mountains: בערגוואלד
   savanna: סאוואנע
+  savanna_plateau: סאַווונאַ פּליינז
+  badlands: אין בענעפיץ
+  wooded_badlands_plateau: פּליינז אין ביימער גרינדינג
+  badlands_plateau: קאַנווערזשאַנז פון פּלאַינס
   small_end_islands: קליינע ענדינדזלן
   end_midlands: ענדמיטללאנד
   end_highlands: ענדהויכלאנד
   end_barrens: ענדניוועצלאנד
   warm_ocean: ווארעמער ים
+  lukewarm_ocean: וואַרעם אקעאן
   cold_ocean: קאלטער ים
   deep_warm_ocean: טיפער ווארעמער ים
+  deep_lukewarm_ocean: טיף און וואַרעם אָקעאַן
   deep_cold_ocean: קאלטער טיף־ים
   deep_frozen_ocean: טיפער אייזיקער ים
   the_void: די לערע
+  sunflower_plains: זונרויז פּליינז
   desert_lakes: וויסטנטייכן
   gravelly_mountains: זשווירבערג
   flower_forest: בלומנוואלד
   taiga_mountains: טייגעבערג
   swamp_hills: זומפבערגלעך
+  ice_spikes: אייז דערנער
+  modified_jungle: דזשונגלע איז אַדזשאַסטיד
+  modified_jungle_edge: דזשונגלע ברעג אַדזשאַסטיד
   tall_birch_forest: הויכבערעזעוואלד
   tall_birch_hills: הויכבערעזעבערגלעך
   dark_forest_hills: פינסטערוואלדבערגלעך
   snowy_taiga_mountains: פארשנייטע טייגעבערג
+  giant_spruce_taiga: טאַיגאַ מיט ריזיק טענענבוים
+  giant_spruce_taiga_hills: טאַיגאַ היללס מיט ריזיק טענענבוים
   modified_gravelly_mountains: איבערזשווירבערג
+  shattered_savanna: סאַוואַנאַ שאַטערד
+  shattered_savanna_plateau: סאַוואַננאַה פּלאַינס שאַטערד
+  eroded_badlands: אין פלאָוטינג בענעפיץ
+  modified_wooded_badlands_plateau: די אַדוואַנטאַגעס פון אַדזשאַסטיד ביימער
+  modified_badlands_plateau: פּליינז אין אַדאַפּטיד בענעפיץ
   bamboo_jungle: באמבוקזשונגל
   bamboo_jungle_hills: באמבוקזשונגלבערגלעך
   soul_sand_valley: נשמה זאמד וואלי
   crimson_forest: פּאמסן וואלד
   warped_forest: ווארפּט וואלד
   basalt_deltas: באזאלט דעלטאס
+  dripstone_caves: סטאַלאַקטיטע קאַוועס
+  lush_caves: דיק קאַוועס
   nether: נעדער
 enchantment:
-  fire_protection: פייערשוץ
-  sharpness: שארפקייט
-  flame: שׂריפֿה
-  soul_speed: גיכקייַט שפּריץ
-  aqua_affinity: וואסערקראפט
-  punch: שלאג
-  loyalty: טרייַהייַט
-  depth_strider: וואסערלויפער
-  vanishing_curse: פארשווינדונגספלוך
-  unbreaking: אומברעשבארקייט
-  knockback: ריקשטויס
-  luck_of_the_sea: מזל הים
-  binding_curse: בינדונגספלוך
-  fortune: גליק
   protection: שוץ
-  efficiency: עפעשטיווקייט
-  mending: רעפעראטור
-  frost_walker: אייזלויפער
-  lure: מאניעניש
-  looting: זאקרויב
-  piercing: דורכשאס
-  blast_protection: עקספלאזיעסשוץ
-  smite: צדק
-  multishot: מערפֿאכשאס
-  fire_aspect: פארברענונג
-  channeling: קאנאליזאציע
-  sweeping: שווונגקראפט
-  thorns: דערנער
-  bane_of_arthropods: גלידערפיס־שׂונא
-  respiration: אטעם
-  riptide: זויג
-  silk_touch: זיידנבארירונג
-  quick_charge: שנעללאדן
-  projectile_protection: שאסנזיכער
-  impaling: אדוכשפיזן
+  fire_protection: פייערשוץ
   feather_falling: פעדערפאל
+  blast_protection: עקספלאזיעסשוץ
+  projectile_protection: שאסנזיכער
+  respiration: אטעם
+  aqua_affinity: וואסערקראפט
+  thorns: דערנער
+  depth_strider: וואסערלויפער
+  frost_walker: אייזלויפער
+  binding_curse: בינדונגספלוך
+  sharpness: שארפקייט
+  smite: צדק
+  bane_of_arthropods: גלידערפיס־שׂונא
+  knockback: ריקשטויס
+  fire_aspect: פארברענונג
+  looting: זאקרויב
+  sweeping: שווונגקראפט
+  efficiency: עפעשטיווקייט
+  silk_touch: זיידנבארירונג
+  unbreaking: אומברעשבארקייט
+  fortune: גליק
   power: שטארקייט
+  punch: שלאג
+  flame: שׂריפֿה
   infinity: אומענדלעכקייט
+  luck_of_the_sea: מזל הים
+  lure: מאניעניש
+  loyalty: טרייַהייַט
+  impaling: אדוכשפיזן
+  riptide: זויג
+  channeling: קאנאליזאציע
+  multishot: מערפֿאכשאס
+  quick_charge: שנעללאדן
+  piercing: דורכשאס
+  mending: רעפעראטור
+  vanishing_curse: פארשווינדונגספלוך
+  soul_speed: גיכקייַט שפּריץ
 potion:
   uncraftable: אומברויבארער טרונק
   water: וואסערפלאש
@@ -1371,7 +1550,12 @@ entity:
   piglin: פיגלין
   strider: סטרידער
   zoglin: זאגלין
-  piglin_brute: חזיר ברוט
+  piglin_brute: פּיגלין ברוט
+  axolotl: אַקסאָלאָטל
+  glow_item_frame: גלאָוינג נומער ראַם
+  glow_squid: גלאָוינג טינטפיש
+  goat: ציג
+  marker: לויפֿער
   fishing_hook: שווימערל
   lightning: בליץ
   player: שפּילער
@@ -1411,7 +1595,7 @@ effect:
   hero_of_the_village: דארפֿסהעלד
 tropical_fish_type:
   kob: פייקלערפיש
-  sunstreak: זוןסטריק פיש
+  sunstreak: זונסטריק פיש
   snooper: שניפלער
   dasher: פליצערפיש
   brinely: זאלצפיש
@@ -1444,6 +1628,9 @@ named:
   potion_with_amplifier: '%s %s'
   potion_with_duration: '%s (%s)'
   none_effects: ווירקונגלאז
+  unknown_enchantment: 'אַן אומבאַקאַנט רעגע: %s'
+  unknown_entity: אַן אומבאַקאַנט ענטיטי %s
+  unknown_effect: אומבאַקאַנט ווירקונג %s
 tropical_fish_name:
   '117506305': אנעמאנענפיש
   '117899265': שווארצער זעגלפלאסנדאקטארפיש

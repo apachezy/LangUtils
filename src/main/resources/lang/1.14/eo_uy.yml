@@ -1,23 +1,54 @@
 # ####################################################
-# Build time: 2021-03-17 16:19:59                    #
+# Build time: 2021-07-04 21:41:55                    #
 # ####################################################
 language:
   code: eo_uy
   name: Esperanto
   region: Esperantujo
 material:
+  armor_stand: Kirasoportilo
+  beacon: Balizo
   beetroot_soup: Ruĝa barĉo
   blast_furnace: Metalurgia forno
+  bone_meal: Ostpulvoro
+  brewing_stand: Eliksirfarejo
+  bricks: Briko
   brown_mushroom: Bruna fungo
   brown_mushroom_block: Bloko da bruna fungo
+  carrot_on_a_stick: Bastono kun karoto
   chainmail_chestplate: Ĉena kiraso
+  chain_command_block: Ĉena komandbloko
   chest: Kesto
   chest_minecart: Ĉaro kun kesto
   chipped_anvil: Ĉirkaŭĉiza amboso
+  chiseled_red_sandstone: Ĉizila ruĝa sabloŝtono
+  chiseled_stone_bricks: Ĉizita ŝtonbriko
   clay_ball: Argilo
   cod_bucket: Sitelo da moruo
+  command_block: Komandbloko
   command_block_minecart: Ĉaro kun komandbloko
   cooked_rabbit: Kuirita kuniklo
+  cracked_stone_bricks: Rompita ŝtonbriko
+  dead_brain_coral: Mortita cerbokoralo
+  dead_brain_coral_block: Mortita bloko cerbokorala
+  dead_brain_coral_fan: Mortita ventumilo cerbokorala
+  dead_brain_coral_wall_fan: Mortita mura ventumilo cerbokorala
+  dead_bubble_coral: Mortita bobelokoralo
+  dead_bubble_coral_block: Mortita bloko bobelokorala
+  dead_bubble_coral_fan: Mortita ventumilo bobelokorala
+  dead_bubble_coral_wall_fan: Mortita mura ventumilo bobelokorala
+  dead_fire_coral: Mortita fajrokoralo
+  dead_fire_coral_block: Mortita bloko fajrokorala
+  dead_fire_coral_fan: Mortita ventumilo fajrokorala
+  dead_fire_coral_wall_fan: Mortita mura ventumilo fajrokorala
+  dead_horn_coral: Mortita kornokoralo
+  dead_horn_coral_block: Mortita bloko kornokorala
+  dead_horn_coral_fan: Mortita ventumilo kornokorala
+  dead_horn_coral_wall_fan: Mortita mura ventumilo kornokorala
+  dead_tube_coral: Mortita tubokoralo
+  dead_tube_coral_block: Mortita bloko tubokorala
+  dead_tube_coral_fan: Mortita ventumilo tubokorala
+  dead_tube_coral_wall_fan: Mortita mura ventumilo tubokorala
   diamond_chestplate: Diamanta kiraso
   drowned_spawn_egg: Aperigovo de dronito
   enderman_spawn_egg: Aperigovo de endano
@@ -41,7 +72,12 @@ material:
   golden_chestplate: Ora kiraso
   grass_path: Herba vojo
   hopper_minecart: Ĉaro kun funelo
+  infested_chiseled_stone_bricks: Infestita ĉizita ŝtonbriko
+  infested_cracked_stone_bricks: Infestita rompita ŝtonbriko
+  infested_mossy_stone_bricks: Infestita muska ŝtonbriko
+  infested_stone_bricks: Infestita ŝtonbriko
   iron_chestplate: Fera kiraso
+  item_frame: Objektkadro
   lead: Gvidilo
   magenta_banner: Magenta standardo
   magenta_bed: Magenta lito
@@ -57,6 +93,9 @@ material:
   magenta_wall_banner: Magenta standardo
   magenta_wool: Magenta lano
   minecart: Ĉaro
+  mossy_stone_bricks: Muska ŝtonbriko
+  name_tag: Nometikedo
+  nautilus_shell: Naŭtilokonko
   netherrack: Inferŝtono
   nether_brick: Inferbriko
   nether_bricks: Inferbriko
@@ -69,10 +108,34 @@ material:
   nether_star: Infera stelo
   nether_wart: Inferveruko
   nether_wart_block: Inferveruka bloko
+  potted_acacia_sapling: Florpota akacia arbido
+  potted_allium: Florpota aliumo
+  potted_azure_bluet: Florpota blua houstonio
+  potted_bamboo: Florpota bambuo
+  potted_birch_sapling: Florpota betula arbido
+  potted_blue_orchid: Florpota blua orkido
   potted_brown_mushroom: Florpota bruna fungo
+  potted_cactus: Florpota kakto
+  potted_cornflower: Florpota cejano
+  potted_dandelion: Florpota leontodo
+  potted_dark_oak_sapling: Florpota malhelkverka arbido
+  potted_dead_bush: Florpota mortinta arbusto
+  potted_fern: Florpota filiko
+  potted_jungle_sapling: Florpota ĝangala arbido
+  potted_lily_of_the_valley: Florpota konvalo
+  potted_oak_sapling: Florpota kverka arbido
+  potted_orange_tulip: Florpota oranĝkolora tulipo
+  potted_oxeye_daisy: Florpota lekanto
+  potted_pink_tulip: Florpota rozkolora tulipo
+  potted_poppy: Florpota papaveto
   potted_red_mushroom: Florpota ruĝa fungo
+  potted_red_tulip: Florpota ruĝa tulipo
+  potted_spruce_sapling: Florpota picea arbido
+  potted_white_tulip: Florpota blanka tulipo
   potted_wither_rose: Florpota witherozo
+  prismarine_bricks: Prismarinbriko
   pufferfish_bucket: Sitelo da pintfiŝo
+  pumpkin_pie: Kukurbotorto
   quartz: Inferkvarco
   rabbit: Kruda kuniklo
   rabbit_stew: Kunikla raguo
@@ -89,19 +152,25 @@ material:
   red_nether_brick_slab: Ruĝa inferbrika ŝtupo
   red_nether_brick_stairs: Ruĝa inferbrika ŝtuparo
   red_nether_brick_wall: Ruĝa inferbrika muro
+  repeating_command_block: Ripeta komandbloko
   salmon_bucket: Sitelo da salmo
   scute: Keratino
   smooth_quartz: Glata kvarco
   splash_potion: Plaŭda eliksiro
+  stone_bricks: Ŝtonbriko
   stone_brick_stairs: Ŝtonobrika ŝtuparo
+  tipped_arrow: Eliksirsago
   tnt_minecart: Ĉaro kun TNT
+  totem_of_undying: Totemo de senmortado
   trapped_chest: Baskulkesto
   tropical_fish_bucket: Sitelo da tropika fiŝo
+  turtle_helmet: Testudŝelo
   void_air: Malplenaĵa aero
   wither_rose: Witherrozo
   wither_skeleton_skull: Kranio de wither-skeleto
   wither_skeleton_spawn_egg: Aperigovo de wither-skeleto
   wither_skeleton_wall_skull: Mura kranio de wither-skeleto
+  zombie_villager_spawn_egg: Aperigovo de zombivilaĝano
 biome:
   nether: Infero
   the_end: La End
@@ -111,18 +180,26 @@ biome:
   end_barrens: Endaj sovaĝejoj
   the_void: La Malplenaĵo
 enchantment:
+  depth_strider: Profundpaŝanto
   frost_walker: Prujna marŝo
   sweeping: Larĝa klingo
 potion:
+  water: Akvobotelo
   instant_heal: Eliksiro de sanigado
   regen: Eliksiro de resanigo
 splash_potion:
+  water: Ŝpruca akvobotelo
   instant_heal: Ŝpruca eliksiro de sanigado
   regen: Ŝpruca eliksiro de resanigo
 lingering_potion:
+  water: Resta akvobotelo
   instant_heal: Resta eliksiro de sanigado
   regen: Resta eliksiro de resanigo
 tipped_arrow:
+  uncraftable: Nefarebla eliksirsago
+  mundane: Eliksirsago
+  thick: Eliksirsago
+  awkward: Eliksirsago
   instant_heal: Sago de sanigado
   regen: Sago de resanigo
 entity:
@@ -130,7 +207,11 @@ entity:
   wither_skeleton: Wither-skeleto
   ender_pearl: Ĵetita enderperlo
   ender_signal: Enderokulo
+  item_frame: Objektkadro
   wither_skull: Kranio de Wither
+  shulker_bullet: Kuglo de ŝulkro
+  zombie_villager: Zombivilaĝano
+  armor_stand: Kirasoportilo
   minecart_command: Ĉaro kun komandbloko
   minecart: Ĉaro
   minecart_chest: Ĉaro kun kesto

@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:48                    #
+# Build time: 2021-07-04 21:46:03                    #
 # ####################################################
 language:
   code: lt_lt
@@ -14,12 +14,19 @@ material:
   polished_diorite: Šlifuotas dioritas
   andesite: Andezitas
   polished_andesite: Šlifuotas andezitas
+  deepslate: Gilakmenis
+  cobbled_deepslate: Gilakmenio skalda
+  polished_deepslate: Šlifuotas gilakmenis
+  calcite: Kalcitas
+  tuff: Tufas
+  dripstone_block: Varvakmenio blokas
   grass_block: Žolės blokas
   dirt: Žemė
-  coarse_dirt: Skurdi žemė
+  coarse_dirt: Šiurkšti žemė
   podzol: Jaura
-  crimson_nylium: Tamsiai raudonas nilijumas
-  warped_nylium: Iškreiptas nilijumas
+  rooted_dirt: Įsišaknijusi žemė
+  crimson_nylium: Raudonio grybiena
+  warped_nylium: Klaikioji grybiena
   cobblestone: Akmens skalda
   oak_planks: Ąžuolo lentos
   spruce_planks: Eglės lentos
@@ -27,8 +34,8 @@ material:
   jungle_planks: Džiunglių medžio lentos
   acacia_planks: Akacijos lentos
   dark_oak_planks: Tamsiojo ąžuolo lentos
-  crimson_planks: Tamsiai raudonos lentos
-  warped_planks: Iškreiptos lentos
+  crimson_planks: Raudonio lentos
+  warped_planks: Klaikiosios lentos
   oak_sapling: Ąžuolo sodinukas
   spruce_sapling: Eglės sodinukas
   birch_sapling: Beržo sodinukas
@@ -39,74 +46,129 @@ material:
   sand: Smėlis
   red_sand: Raudonasis smėlis
   gravel: Žvyras
-  gold_ore: Aukso rūda
-  iron_ore: Geležies rūda
   coal_ore: Anglies rūda
-  nether_gold_ore: Pragaro aukso rūda
+  deepslate_coal_ore: Gilakmenio anglies rūda
+  iron_ore: Geležies rūda
+  deepslate_iron_ore: Gilakmenio geležies rūda
+  copper_ore: Vario rūda
+  deepslate_copper_ore: Gilakmenio vario rūda
+  gold_ore: Aukso rūda
+  deepslate_gold_ore: Gilakmenio aukso rūda
+  redstone_ore: Redstouno rūda
+  deepslate_redstone_ore: Gilakmenio redstouno rūda
+  emerald_ore: Smaragdo rūda
+  deepslate_emerald_ore: Gilakmenio emeraldo rūda
+  lapis_ore: Lazurito rūda
+  deepslate_lapis_ore: Gilakmenio lazurito rūda
+  diamond_ore: Deimanto rūda
+  deepslate_diamond_ore: Gilakmenio deimanto rūda
+  nether_gold_ore: Neterio aukso rūda
+  nether_quartz_ore: Neterio kvarco rūda
+  ancient_debris: Senovinis fragmentas
+  coal_block: Anglies blokas
+  raw_iron_block: Neapdorotos geležies blokas
+  raw_copper_block: Neapdoroto vario blokas
+  raw_gold_block: Neapdoroto aukso blokas
+  amethyst_block: Ametisto blokas
+  budding_amethyst: Augantis ametisto blokas
+  iron_block: Geležies blokas
+  copper_block: Vario blokas
+  gold_block: Aukso blokas
+  diamond_block: Deimanto blokas
+  netherite_block: Neterito blokas
+  exposed_copper: Paveiktas vario blokas
+  weathered_copper: Stipriai paveiktas vario blokas
+  oxidized_copper: Oksiduotas vario blokas
+  cut_copper: Pjauto vario blokas
+  exposed_cut_copper: Paveiktas pjauto vario blokas
+  weathered_cut_copper: Stipriai paveiktas pjauto vario blokas
+  oxidized_cut_copper: Oksiduotas pjauto vario blokas
+  cut_copper_stairs: Pjauto vario laiptai
+  exposed_cut_copper_stairs: Paveikto pjauto vario laiptai
+  weathered_cut_copper_stairs: Stipriai paveikto pjauto vario laiptai
+  oxidized_cut_copper_stairs: Oksiduoto pjauto vario laiptai
+  cut_copper_slab: Pjauto vario pusblokis
+  exposed_cut_copper_slab: Paveikto pjauto vario pusblokis
+  weathered_cut_copper_slab: Stipriai paveikto pjauto vario pusblokis
+  oxidized_cut_copper_slab: Oksiduoto pjauto vario pusblokis
+  waxed_copper_block: Vaškuoto vario blokas
+  waxed_exposed_copper: Vaškuoto paveikto vario blokas
+  waxed_weathered_copper: Vaškuoto stipriai paveikto vario blokas
+  waxed_oxidized_copper: Vaškuotas oksiduotas varis
+  waxed_cut_copper: Vaškuoto pjauto vario blokas
+  waxed_exposed_cut_copper: Vaškuoto paveikto pjauto vario blokas
+  waxed_weathered_cut_copper: Vaškuoto stipriai paveikto pjauto vario blokas
+  waxed_oxidized_cut_copper: Vaškuotas oksiduotas pjautas varis
+  waxed_cut_copper_stairs: Vaškuoto pjauto vario laiptai
+  waxed_exposed_cut_copper_stairs: Vaškuoto paveikto pjauto vario laiptai
+  waxed_weathered_cut_copper_stairs: Vaškuoto stipriai paveikto pjauto vario laiptai
+  waxed_oxidized_cut_copper_stairs: Vaškuoto oksiduoto pjauto vario laiptai
+  waxed_cut_copper_slab: Vaškuoto pjauto vario pusblokis
+  waxed_exposed_cut_copper_slab: Vaškuoto paveikto pjauto vario pusblokis
+  waxed_weathered_cut_copper_slab: Vaškuoto stipriai paveikto pjauto vario pusblokis
+  waxed_oxidized_cut_copper_slab: Vaškuoto oksiduoto pjauto vario pusblokis
   oak_log: Ąžuolo rąstas
   spruce_log: Eglės rąstas
   birch_log: Beržo rąstas
   jungle_log: Džiunglių medžio rąstas
   acacia_log: Akacijos rąstas
   dark_oak_log: Tamsiojo ąžuolo rąstas
-  crimson_stem: Tamsiai raudonas stiebas
-  warped_stem: Iškreiptas stiebas
-  stripped_oak_log: Nužievintas ąžuolo rąstas
-  stripped_spruce_log: Nužievintas eglės rąstas
-  stripped_birch_log: Nužievintas beržo rąstas
-  stripped_jungle_log: Nužievintas džiunglių medžio rąstas
-  stripped_acacia_log: Nužievintas akacijos rąstas
-  stripped_dark_oak_log: Nužievintas tamsiojo ąžuolo rąstas
-  stripped_crimson_stem: Obliuotas tamsiai raudonas stiebas
-  stripped_warped_stem: Obliuotas iškreiptas stiebas
-  stripped_oak_wood: Ąžuolo medis be žievės
-  stripped_spruce_wood: Eglės medis be žievės
-  stripped_birch_wood: Beržo medis be žievės
-  stripped_jungle_wood: Džiunglių medis be žievės
-  stripped_acacia_wood: Akacijos medis be žievės
-  stripped_dark_oak_wood: Tamsiojio ąžuolo medis be žievės
-  stripped_crimson_hyphae: Obliuoti tamsiai raudoni hifai
-  stripped_warped_hyphae: Obliuoti ir iškreipti hifai
-  oak_wood: Ąžuolo rąstas
-  spruce_wood: Eglės rąstas
-  birch_wood: Beržo rąstas
-  jungle_wood: Džiunglių medžio rąstas
-  acacia_wood: Akacijos rąstas
-  dark_oak_wood: Tamsiojo ąžuolo rąstas
-  crimson_hyphae: Tamsiai raudoni hifai
-  warped_hyphae: Iškreipti hifai
+  crimson_stem: Raudonio stiebas
+  warped_stem: Klaikusis stiebas
+  stripped_oak_log: Obliuotas ąžuolo rąstas
+  stripped_spruce_log: Obliuotas eglės rąstas
+  stripped_birch_log: Obliuotas beržo rąstas
+  stripped_jungle_log: Obliuotas džiunglių medžio rąstas
+  stripped_acacia_log: Obliuotas akacijos rąstas
+  stripped_dark_oak_log: Obliuotas tamsiojo ąžuolo rąstas
+  stripped_crimson_stem: Obliuotas raudonio stiebas
+  stripped_warped_stem: Obliuotas klaikusis stiebas
+  stripped_oak_wood: Obliuotas ąžuolo medis
+  stripped_spruce_wood: Obliuotas eglės medis
+  stripped_birch_wood: Obliuotas beržo medis
+  stripped_jungle_wood: Obliuotas džiunglių medis
+  stripped_acacia_wood: Obliuotas akacijos medis
+  stripped_dark_oak_wood: Obliuotas tamsiojo ąžuolo medis
+  stripped_crimson_hyphae: Obliuoti raudonio hifai
+  stripped_warped_hyphae: Obliuoti klaikieji hifai
+  oak_wood: Ąžuolo medis
+  spruce_wood: Eglės medis
+  birch_wood: Beržo medis
+  jungle_wood: Džiunglių medžio medis
+  acacia_wood: Akacijos medis
+  dark_oak_wood: Tamsiojo ąžuolo medis
+  crimson_hyphae: Raudonio hifai
+  warped_hyphae: Klaikieji hifai
   oak_leaves: Ąžuolo lapai
   spruce_leaves: Eglės spygliai
   birch_leaves: Beržo lapai
   jungle_leaves: Džiunglių medžio lapai
   acacia_leaves: Akacijos lapai
   dark_oak_leaves: Tamsiojo ąžuolo lapai
+  azalea_leaves: Azalijos lapai
+  flowering_azalea_leaves: Žydinčios azalijos lapai
   sponge: Kempinė
   wet_sponge: Šlapia kempinė
   glass: Stiklas
-  lapis_ore: Lazurito rūda
+  tinted_glass: Tamsintas stiklas
   lapis_block: Lazurito blokas
-  dispenser: Dalytuvas
   sandstone: Smiltainis
   chiseled_sandstone: Raižytas smiltainis
-  cut_sandstone: Poliruotas smiltainis
-  note_block: Natų blokas
-  powered_rail: Greitintuvas
-  detector_rail: Detektoriniai bėgiai
-  sticky_piston: Lipnus stūmoklis
+  cut_sandstone: Šlifuotas smiltainis
   cobweb: Voratinklis
   grass: Žolė
   fern: Papartis
+  azalea: Azalija
+  flowering_azalea: Žydinti azalija
   dead_bush: Negyvas krūmas
   seagrass: Jūržolė
   sea_pickle: Jūros agurkas
-  piston: Stūmoklis
   white_wool: Balta vilna
   orange_wool: Oranžinė vilna
   magenta_wool: Šviesiai purpurinė vilna
   light_blue_wool: Žydra vilna
   yellow_wool: Geltona vilna
-  lime_wool: Šviesiai žalia vilna
+  lime_wool: Citrininė žalia vilna
   pink_wool: Rausva vilna
   gray_wool: Pilka vilna
   light_gray_wool: Šviesiai pilka vilna
@@ -130,50 +192,53 @@ material:
   cornflower: Rugiagėlė
   lily_of_the_valley: Pakalnutė
   wither_rose: Viterio rožė
+  spore_blossom: Sporų žiedas
   brown_mushroom: Rudas grybas
   red_mushroom: Raudonas grybas
-  crimson_fungus: Tamsiai raudonas grybas
-  warped_fungus: Iškreiptasis grybas
-  crimson_roots: Tamsiai raudonos šaknys
-  warped_roots: Iškreiptos šaknys
-  nether_sprouts: Pragaro daigai
-  weeping_vines: Pragaro vijokliai
-  twisting_vines: Persipynę vijokliai
+  crimson_fungus: Raudonio grybas
+  warped_fungus: Klaikusis grybas
+  crimson_roots: Raudonio šaknys
+  warped_roots: Klaikiosios šaknys
+  nether_sprouts: Neterio daigai
+  weeping_vines: Raudonio vijokliai
+  twisting_vines: Klaikieji vijokliai
   sugar_cane: Cukranendrė
   kelp: Rudadumbliai
+  moss_carpet: Samanų kilimas
+  moss_block: Samanų blokas
+  hanging_roots: Kabančios šaknys
+  big_dripleaf: Didelis varvalapis
+  small_dripleaf: Mažas varvalapis
   bamboo: Bambukas
-  gold_block: Aukso blokas
-  iron_block: Geležies blokas
   oak_slab: Ąžuolo pusblokis
   spruce_slab: Eglės pusblokis
   birch_slab: Beržo pusblokis
   jungle_slab: Džiunglių medžio pusblokis
   acacia_slab: Akacijos pusblokis
   dark_oak_slab: Tamsiojo ąžuolo pusblokis
-  crimson_slab: Raudonio medienos pusblokis
-  warped_slab: Iškreiptas pusblokis
+  crimson_slab: Raudonio pusblokis
+  warped_slab: Klaikusis pusblokis
   stone_slab: Akmens pusblokis
-  smooth_stone_slab: Lygus akmens pusblokis
+  smooth_stone_slab: Lygaus akmens pusblokis
   sandstone_slab: Smiltainio pusblokis
-  cut_sandstone_slab: Poliruoto smiltainio pusblokis
+  cut_sandstone_slab: Šlifuoto smiltainio pusblokis
   petrified_oak_slab: Suakmenėjęs ąžuolo pusblokis
   cobblestone_slab: Akmens skaldos pusblokis
   brick_slab: Plytų pusblokis
   stone_brick_slab: Akmens plytų pusblokis
   nether_brick_slab: Neterio plytų pusblokis
   quartz_slab: Kvarco pusblokis
-  red_sandstone_slab: Raudono smiltainio pusblokis
-  cut_red_sandstone_slab: Poliruoto raudono smiltainio pusblokis
+  red_sandstone_slab: Raudonojo smiltainio pusblokis
+  cut_red_sandstone_slab: Šlifuoto raudonojo smiltainio pusblokis
   purpur_slab: Purpuro pusblokis
-  prismarine_slab: Prismarino pusblokis
+  prismarine_slab: Prizmarino pusblokis
   prismarine_brick_slab: Prismarino plytų pusblokis
-  dark_prismarine_slab: Tamsaus prismarino pusblokis
-  smooth_quartz: Lygusis kvarco blokas
-  smooth_red_sandstone: Lygus raudonas smiltainis
+  dark_prismarine_slab: Tamsiojo prizmarino pusblokis
+  smooth_quartz: Lygus kvarco blokas
+  smooth_red_sandstone: Lygus raudonasis smiltainis
   smooth_sandstone: Lygus smiltainis
   smooth_stone: Lygus akmuo
   bricks: Plytos
-  tnt: TNT
   bookshelf: Knygų lentyna
   mossy_cobblestone: Samanota akmens skalda
   obsidian: Obsidianas
@@ -187,27 +252,11 @@ material:
   spawner: Atsiradimo narvas
   oak_stairs: Ąžuolo laiptai
   chest: Skrynia
-  diamond_ore: Deimanto rūda
-  diamond_block: Deimanto blokas
   crafting_table: Darbastalis
   farmland: Išarta žemė
   furnace: Krosnis
   ladder: Kopėčios
-  rail: Bėgiai
   cobblestone_stairs: Akmens skaldos laiptai
-  lever: Svirtis
-  stone_pressure_plate: Akmeninė slėgio plokštė
-  oak_pressure_plate: Ąžuolinė slėgio plokštė
-  spruce_pressure_plate: Eglinė slėgio plokštė
-  birch_pressure_plate: Beržinė slėgio plokštė
-  jungle_pressure_plate: Džiunglių medžio slėgio plokštė
-  acacia_pressure_plate: Akacijos slėgio plokštė
-  dark_oak_pressure_plate: Tamsiojo ąžuolo slėgio plokštė
-  crimson_pressure_plate: Raudonojo medžio slėgio plokštė
-  warped_pressure_plate: Iškreipta slėgio plokštė
-  polished_blackstone_pressure_plate: Šlifuoto juodakmenio slėgio plokštė
-  redstone_ore: Redstouno rūda
-  redstone_torch: Redstouno deglas
   snow: Sniegas
   ice: Ledas
   snow_block: Sniego blokas
@@ -220,77 +269,66 @@ material:
   jungle_fence: Džiunglių medžio tvora
   acacia_fence: Akacijos tvora
   dark_oak_fence: Tamsiojo ąžuolo tvora
-  crimson_fence: Raudonosios medienos tvora
-  warped_fence: Iškreipta tvora
+  crimson_fence: Raudonio tvora
+  warped_fence: Klaikioji tvora
   pumpkin: Moliūgas
   carved_pumpkin: Išskobtas moliūgas
-  netherrack: Neteritas
+  jack_o_lantern: Moliūgo žibintas
+  netherrack: Neterrakas
   soul_sand: Sielų smėlis
   soul_soil: Sielų dirva
   basalt: Bazaltas
   polished_basalt: Šlifuotas bazaltas
+  smooth_basalt: Lygus bazaltas
   soul_torch: Sielų deglas
   glowstone: Šviesakmenis
-  jack_o_lantern: Džeko žibintas
-  oak_trapdoor: Ąžuolo liukas
-  spruce_trapdoor: Eglės liukas
-  birch_trapdoor: Beržo liukas
-  jungle_trapdoor: Džiunglių medžio liukas
-  acacia_trapdoor: Akacijos liukas
-  dark_oak_trapdoor: Tamsiojo ąžuolo liukas
-  crimson_trapdoor: Raudonosios medienos liukas
-  warped_trapdoor: Iškreiptas liukas
   infested_stone: Užkrėstas akmuo
   infested_cobblestone: Užkrėsta akmens skalda
   infested_stone_bricks: Užkrėstos akmens plytos
   infested_mossy_stone_bricks: Užkrėstos samanotos akmens plytos
   infested_cracked_stone_bricks: Užkrėstos sutrūkinėjusios akmens plytos
   infested_chiseled_stone_bricks: Užkrėstos raižytos akmens plytos
+  infested_deepslate: Užkrėstas gilakmenis
   stone_bricks: Akmens plytos
   mossy_stone_bricks: Samanotos akmens plytos
   cracked_stone_bricks: Sutrūkinėjusios akmens plytos
   chiseled_stone_bricks: Raižytos akmens plytos
+  deepslate_bricks: Gilakmenio plytos
+  cracked_deepslate_bricks: Sutrūkinėjusios gilakmenio plytos
+  deepslate_tiles: Gilakmenio plytelės
+  cracked_deepslate_tiles: Sutrūkinėjusios gilakmenio plytelės
+  chiseled_deepslate: Raižytas gilakmenis
   brown_mushroom_block: Rudo grybo blokas
   red_mushroom_block: Raudono grybo blokas
   mushroom_stem: Grybo stiebas
   iron_bars: Grotos
   chain: Grandinė
-  glass_pane: Stiklo lakštas
+  glass_pane: Stiklo plokštė
   melon: Arbūzas
   vine: Vijokliai
-  oak_fence_gate: Varteliai
-  spruce_fence_gate: Eglės varteliai
-  birch_fence_gate: Beržo varteliai
-  jungle_fence_gate: Džiunglių medžio varteliai
-  acacia_fence_gate: Akacijos varteliai
-  dark_oak_fence_gate: Tamsiojo ąžuolo varteliai
-  crimson_fence_gate: Raudonosios medienos varteliai
-  warped_fence_gate: Iškreipti varteliai
+  glow_lichen: Švytinčios kerpės
   brick_stairs: Plytų laiptai
   stone_brick_stairs: Akmens plytų laiptai
   mycelium: Grybiena
   lily_pad: Lelijos lapas
   nether_bricks: Neterio plytos
   cracked_nether_bricks: Sutrūkinėjusios Neterio plytos
-  chiseled_nether_bricks: Raišytos Neterio plytos
+  chiseled_nether_bricks: Raižytos Neterio plytos
   nether_brick_fence: Neterio plytų tvora
   nether_brick_stairs: Neterio plytų laiptai
-  enchanting_table: Kerėjimų stalas
+  enchanting_table: Kerų stalas
   end_portal_frame: Endo portalo rėmas
-  end_stone: Endo akmuo
-  end_stone_bricks: Endo akmens plytos
+  end_stone: Endakmenis
+  end_stone_bricks: Endakmenio plytos
   dragon_egg: Drakonės kiaušinis
-  redstone_lamp: Redstouninė lempa
   sandstone_stairs: Smiltainio laiptai
-  emerald_ore: Smaragdo rūda
   ender_chest: Enderio skrynia
-  tripwire_hook: Vielos kablys
   emerald_block: Smaragdo blokas
   spruce_stairs: Eglės laiptai
   birch_stairs: Beržo laiptai
   jungle_stairs: Džiunglių medžio laiptai
-  crimson_stairs: Raudonosios medienos laiptai
-  warped_stairs: Iškreipti laiptai
+  crimson_stairs: Raudonio laiptai
+  warped_stairs: Klaikieji laiptai
   command_block: Komandos blokas
   beacon: Švyturys
   cobblestone_wall: Akmens skaldos siena
@@ -303,46 +341,31 @@ material:
   stone_brick_wall: Akmens plytų siena
   nether_brick_wall: Neterio plytų siena
   andesite_wall: Andezito siena
-  red_nether_brick_wall: Raudonųjų Neterio plytų siena
+  red_nether_brick_wall: Raudonų Neterio plytų siena
   sandstone_wall: Smiltainio siena
-  end_stone_brick_wall: Endo akmens plytų siena
+  end_stone_brick_wall: Endakmenio plytų siena
   diorite_wall: Diorito siena
   blackstone_wall: Juodakmenio siena
   polished_blackstone_wall: Šlifuoto juodakmenio siena
   polished_blackstone_brick_wall: Šlifuoto juodakmenio plytų siena
-  stone_button: Akmens mygtukas
-  oak_button: Ąžuolo mygtukas
-  spruce_button: Eglės mygtukas
-  birch_button: Beržo mygtukas
-  jungle_button: Džiunglių medžio mygtukas
-  acacia_button: Akacijos mygtukas
-  dark_oak_button: Tamsiojo ąžuolo mygtukas
-  crimson_button: Raudonosios medienos mygtukas
-  warped_button: Iškreiptas mygtukas
-  polished_blackstone_button: Šlifuoto juodakmenio mygtukas
+  cobbled_deepslate_wall: Gilakmenio skaldos siena
+  polished_deepslate_wall: Šlifuoto gilakmenio siena
+  deepslate_brick_wall: Gilakmenio plytų siena
+  deepslate_tile_wall: Gilakmenio plytelių siena
   anvil: Priekalas
   chipped_anvil: Įdaužtas priekalas
   damaged_anvil: Apgadintas priekalas
-  trapped_chest: Skrynia-spąstai
-  light_weighted_pressure_plate: Lengva svorinė slėgio plokštė
-  heavy_weighted_pressure_plate: Sunki svorinė slėgio plokštė
-  daylight_detector: Dienos šviesos jutiklis
-  redstone_block: Redstouno blokas
-  nether_quartz_ore: Neterio kvarco rūda
-  hopper: Piltuvas
   chiseled_quartz_block: Raižytas kvarco blokas
   quartz_block: Kvarco blokas
   quartz_bricks: Kvarco plytos
   quartz_pillar: Kvarco kolona
   quartz_stairs: Kvarco laiptai
-  activator_rail: Aktyvuojantieji bėgiai
-  dropper: Mėtytuvas
   white_terracotta: Balta terakota
   orange_terracotta: Oranžinė terakota
   magenta_terracotta: Šviesiai purpurinė terakota
   light_blue_terracotta: Žydra terakota
   yellow_terracotta: Geltona terakota
-  lime_terracotta: Šviesiai žalia terakota
+  lime_terracotta: Citrininė žalia terakota
   pink_terracotta: Rausva terakota
   gray_terracotta: Pilka terakota
   light_gray_terracotta: Šviesiai pilka terakota
@@ -354,14 +377,14 @@ material:
   red_terracotta: Raudona terakota
   black_terracotta: Juoda terakota
   barrier: Barjeras
-  iron_trapdoor: Geležinis liukas
+  light: Šviesa
   hay_block: Šieno kupeta
   white_carpet: Baltas kilimas
   orange_carpet: Oranžinis kilimas
   magenta_carpet: Šviesiai purpurinis kilimas
   light_blue_carpet: Žydras kilimas
   yellow_carpet: Geltonas kilimas
-  lime_carpet: Šviesiai žalias kilimas
+  lime_carpet: Citrininis žalias kilimas
   pink_carpet: Rausvas kilimas
   gray_carpet: Pilkas kilimas
   light_gray_carpet: Šviesiai pilkas kilimas
@@ -373,12 +396,10 @@ material:
   red_carpet: Raudonas kilimas
   black_carpet: Juodas kilimas
   terracotta: Terakota
-  coal_block: Anglies blokas
-  packed_ice: Sukietėjęs ledas
+  packed_ice: Suspaustas ledas
   acacia_stairs: Akacijos laiptai
   dark_oak_stairs: Tamsiojo ąžuolo laiptai
-  slime_block: Gleivių blokas
-  grass_path: Žolės takas
+  dirt_path: Takas
   sunflower: Saulėgrąža
   lilac: Alyva
   rose_bush: Rožių krūmas
@@ -390,7 +411,7 @@ material:
   magenta_stained_glass: Šviesiai purpurinis dažytas stiklas
   light_blue_stained_glass: Žydras dažytas stiklas
   yellow_stained_glass: Geltonas dažytas stiklas
-  lime_stained_glass: Šviesiai žalias dažytas stiklas
+  lime_stained_glass: Citrininis žalias dažytas stiklas
   pink_stained_glass: Rausvas dažytas stiklas
   gray_stained_glass: Pilkas dažytas stiklas
   light_gray_stained_glass: Šviesiai pilkas dažytas stiklas
@@ -406,7 +427,7 @@ material:
   magenta_stained_glass_pane: Šviesiai purpurinė dažyto stiklo plokštė
   light_blue_stained_glass_pane: Žydra dažyto stiklo plokštė
   yellow_stained_glass_pane: Geltona dažyto stiklo plokštė
-  lime_stained_glass_pane: Šviesiai žalia dažyto stiklo plokštė
+  lime_stained_glass_pane: Citrininė žalia dažyto stiklo plokštė
   pink_stained_glass_pane: Rausva dažyto stiklo plokštė
   gray_stained_glass_pane: Pilka dažyto stiklo plokštė
   light_gray_stained_glass_pane: Šviesiai pilka dažyto stiklo plokštė
@@ -415,28 +436,27 @@ material:
   blue_stained_glass_pane: Mėlyna dažyto stiklo plokštė
   brown_stained_glass_pane: Ruda dažyto stiklo plokštė
   green_stained_glass_pane: Žalia dažyto stiklo plokštė
-  red_stained_glass_pane: Raudonas dažyto stiklo lakštas
+  red_stained_glass_pane: Raudona dažyto stiklo plokštė
   black_stained_glass_pane: Juoda dažyto stiklo plokštė
-  prismarine: Prismarinas
-  prismarine_bricks: Prismarino plytos
-  dark_prismarine: Tamsusis prismarinas
-  prismarine_stairs: Prismarino laiptai
-  prismarine_brick_stairs: Prismarino plytų laiptai
-  dark_prismarine_stairs: Tamsaus prismarino laiptai
+  prismarine: Prizmarinas
+  prismarine_bricks: Prizmarino plytos
+  dark_prismarine: Tamsusis prizmarinas
+  prismarine_stairs: Prizmarino laiptai
+  prismarine_brick_stairs: Prizmarino plytų laiptai
+  dark_prismarine_stairs: Tamsiojo prizmarino laiptai
   sea_lantern: Jūros žibintas
-  red_sandstone: Raudonas smiltainis
-  chiseled_red_sandstone: Raižytas raudonas smiltainis
-  cut_red_sandstone: Poliruotas raudonas smiltainis
-  red_sandstone_stairs: Raudono smiltainio laiptai
+  red_sandstone: Raudonasis smiltainis
+  chiseled_red_sandstone: Raižytas raudonasis smiltainis
+  cut_red_sandstone: Šlifuotas raudonasis smiltainis
+  red_sandstone_stairs: Raudonojo smiltainio laiptai
   repeating_command_block: Besikartojantis komandos blokas
   chain_command_block: Grandininis komandos blokas
   magma_block: Magmos blokas
-  nether_wart_block: Neterio gumbų blokas
-  warped_wart_block: Iškreiptų gumbų blokas
-  red_nether_bricks: Raudonosios Neterio plytos
+  nether_wart_block: Neterio gumbo blokas
+  warped_wart_block: Klaikusis gumbo blokas
+  red_nether_bricks: Raudonos Neterio plytos
   bone_block: Kaulų blokas
   structure_void: Struktūrinė tuštuma
-  observer: Stebėtojas
   shulker_box: Šulkerio dėžė
   white_shulker_box: Balta šulkerio dėžė
   orange_shulker_box: Oranžinė šulkerio dėžė
@@ -459,7 +479,7 @@ material:
   magenta_glazed_terracotta: Šviesiai purpurinė glazūruota terakota
   light_blue_glazed_terracotta: Žydra glazūruota terakota
   yellow_glazed_terracotta: Geltona glazūruota terakota
-  lime_glazed_terracotta: Šviesiai žalia glazūruota terakota
+  lime_glazed_terracotta: Citrininė žalia glazūruota terakota
   pink_glazed_terracotta: Rausva glazūruota terakota
   gray_glazed_terracotta: Pilka glazūruota terakota
   light_gray_glazed_terracotta: Šviesiai pilka glazūruota terakota
@@ -540,29 +560,83 @@ material:
   mossy_stone_brick_stairs: Samanotų akmenų plytų laiptai
   polished_diorite_stairs: Šlifuoto diorito laiptai
   mossy_cobblestone_stairs: Samanotos akmens skaldos laiptai
-  end_stone_brick_stairs: Pabaigos akmens plytų laiptai
+  end_stone_brick_stairs: Endakmenio plytų laiptai
   stone_stairs: Akmens laiptai
   smooth_sandstone_stairs: Lygaus smiltainio laiptai
   smooth_quartz_stairs: Lygaus kvarco laiptai
   granite_stairs: Granito laiptai
   andesite_stairs: Andezito laiptai
-  red_nether_brick_stairs: Raudonųjų Neterio plytų laiptai
+  red_nether_brick_stairs: Raudonų Neterio plytų laiptai
   polished_andesite_stairs: Šlifuoto andezito laiptai
   diorite_stairs: Diorito laiptai
+  cobbled_deepslate_stairs: Gilakmenio skaldos laiptai
+  polished_deepslate_stairs: Šlifuoto gilakmenio laiptai
+  deepslate_brick_stairs: Gilakmenio plytų laiptai
+  deepslate_tile_stairs: Gilakmenio plytelių laiptai
   polished_granite_slab: Šlifuoto granito pusblokis
   smooth_red_sandstone_slab: Lygaus raudonojo smiltainio pusblokis
   mossy_stone_brick_slab: Samanotų akmenų plytų pusblokis
   polished_diorite_slab: Šlifuoto diorito pusblokis
   mossy_cobblestone_slab: Samanotos akmens skaldos pusblokis
-  end_stone_brick_slab: Pabaigos akmens plytų pusblokis
+  end_stone_brick_slab: Endakmenio plytų pusblokis
   smooth_sandstone_slab: Lygaus smiltainio pusblokis
   smooth_quartz_slab: Lygaus kvarco pusblokis
   granite_slab: Granito pusblokis
   andesite_slab: Andezito pusblokis
-  red_nether_brick_slab: Raudonųjų Neterio plytų pusblokis
+  red_nether_brick_slab: Raudonų Neterio plytų pusblokis
   polished_andesite_slab: Šlifuoto andezito pusblokis
   diorite_slab: Diorito pusblokis
+  cobbled_deepslate_slab: Gilakmenio skaldos pusblokis
+  polished_deepslate_slab: Šlifuoto gilakmenio pusblokis
+  deepslate_brick_slab: Gilakmenio plytų pusblokis
+  deepslate_tile_slab: Gilakmenio plytelių pusblokis
   scaffolding: Pastoliai
+  redstone: Redstouno dulkės
+  redstone_torch: Redstouno deglas
+  redstone_block: Redstouno blokas
+  repeater: Redstouno kartotuvas
+  comparator: Redstouno komparatorius
+  piston: Stūmoklis
+  sticky_piston: Lipnus stūmoklis
+  slime_block: Gleivių blokas
+  honey_block: Medaus blokas
+  observer: Stebėtojas
+  hopper: Piltuvas
+  dispenser: Dalytuvas
+  dropper: Mėtytuvas
+  lectern: Pultas
+  target: Taikinys
+  lever: Svirtis
+  lightning_rod: Žaibolaidis
+  daylight_detector: Dienos šviesos jutiklis
+  sculk_sensor: Skulko sensorius
+  tripwire_hook: Vielos kablys
+  trapped_chest: Skrynia-spąstai
+  tnt: TNT
+  redstone_lamp: Redstouninė lempa
+  note_block: Natų blokas
+  stone_button: Akmens mygtukas
+  polished_blackstone_button: Šlifuoto juodakmenio mygtukas
+  oak_button: Ąžuolo mygtukas
+  spruce_button: Eglės mygtukas
+  birch_button: Beržo mygtukas
+  jungle_button: Džiunglių medžio mygtukas
+  acacia_button: Akacijos mygtukas
+  dark_oak_button: Tamsiojo ąžuolo mygtukas
+  crimson_button: Raudonio mygtukas
+  warped_button: Klaikusis mygtukas
+  stone_pressure_plate: Akmeninė slėgio plokštė
+  polished_blackstone_pressure_plate: Šlifuoto juodakmenio slėgio plokštė
+  light_weighted_pressure_plate: Lengva svorinė slėgio plokštė
+  heavy_weighted_pressure_plate: Sunki svorinė slėgio plokštė
+  oak_pressure_plate: Ąžuolinė slėgio plokštė
+  spruce_pressure_plate: Eglinė slėgio plokštė
+  birch_pressure_plate: Beržinė slėgio plokštė
+  jungle_pressure_plate: Džiunglių medžio slėgio plokštė
+  acacia_pressure_plate: Akacijos slėgio plokštė
+  dark_oak_pressure_plate: Tamsiojo ąžuolo slėgio plokštė
+  crimson_pressure_plate: Raudonio slėgio plokštė
+  warped_pressure_plate: Klaikioji slėgio plokštė
   iron_door: Geležinės durys
   oak_door: Ąžuolo durys
   spruce_door: Eglės durys
@@ -570,10 +644,44 @@ material:
   jungle_door: Džiunglių medžio durys
   acacia_door: Akacijos durys
   dark_oak_door: Tamsiojo ąžuolo durys
-  crimson_door: Raudonosios medienos durys
-  warped_door: Iškreiptos durys
-  repeater: Redstouno kartotuvas
-  comparator: Redstouno komparatorius
+  crimson_door: Raudonio durys
+  warped_door: Klaikiosios durys
+  iron_trapdoor: Geležinis liukas
+  oak_trapdoor: Ąžuolo liukas
+  spruce_trapdoor: Eglės liukas
+  birch_trapdoor: Beržo liukas
+  jungle_trapdoor: Džiunglių medžio liukas
+  acacia_trapdoor: Akacijos liukas
+  dark_oak_trapdoor: Tamsiojo ąžuolo liukas
+  crimson_trapdoor: Raudonio liukas
+  warped_trapdoor: Klaikusis liukas
+  oak_fence_gate: Varteliai
+  spruce_fence_gate: Eglės varteliai
+  birch_fence_gate: Beržo varteliai
+  jungle_fence_gate: Džiunglių medžio varteliai
+  acacia_fence_gate: Akacijos varteliai
+  dark_oak_fence_gate: Tamsiojo ąžuolo varteliai
+  crimson_fence_gate: Raudonio vartai
+  warped_fence_gate: Klaikieji vartai
+  powered_rail: Greitintuvas
+  detector_rail: Detektoriniai bėgiai
+  rail: Bėgiai
+  activator_rail: Aktyvuojantieji bėgiai
+  saddle: Balnas
+  minecart: Vagonėlis
+  chest_minecart: Vagonėlis su skrynia
+  furnace_minecart: Vagonėlis su krosnimi
+  tnt_minecart: Vagonėlis su TNT
+  hopper_minecart: Vagonėlis su piltuvu
+  carrot_on_a_stick: Morka ant pagaliuko
+  warped_fungus_on_a_stick: Klaikusis grybas ant pagaliuko
+  elytra: Sparnai
+  oak_boat: Ąžuolo valtis
+  spruce_boat: Eglės valtis
+  birch_boat: Beržo valtis
+  jungle_boat: Džiunglių medžio valtis
+  acacia_boat: Akacijos valtis
+  dark_oak_boat: Tamsiojo ąžuolo valtis
   structure_block: Struktūros blokas
   jigsaw: Dėlionės blokas
   turtle_helmet: Vėžlio kiautas
@@ -585,40 +693,48 @@ material:
   coal: Anglis
   charcoal: Medžio anglis
   diamond: Deimantas
+  emerald: Smaragdas
+  lapis_lazuli: Lazuritas
+  quartz: Neterio kvarcas
+  amethyst_shard: Ametisto skeveldra
+  raw_iron: Neapdorota geležis
   iron_ingot: Geležies liejinys
+  raw_copper: Neapdorotas varis
+  copper_ingot: Vario liejinys
+  raw_gold: Neapdorotas auksas
   gold_ingot: Aukso liejinys
-  netherite_ingot: Nederito liejinys
-  netherite_scrap: Nederito grynuolis
+  netherite_ingot: Neterito liejinys
+  netherite_scrap: Neterito atraiža
   wooden_sword: Medinis kardas
   wooden_shovel: Medinis kastuvas
   wooden_pickaxe: Medinis kirtiklis
   wooden_axe: Medinis kirvis
-  wooden_hoe: Medinis kauptukas
+  wooden_hoe: Medinis kaplys
   stone_sword: Akmeninis kardas
   stone_shovel: Akmeninis kastuvas
   stone_pickaxe: Akmeninis kirtiklis
   stone_axe: Akmeninis kirvis
-  stone_hoe: Akmeninis kauptukas
+  stone_hoe: Akmeninis kaplys
   golden_sword: Auksinis kardas
   golden_shovel: Auksinis kastuvas
   golden_pickaxe: Auksinis kirtiklis
   golden_axe: Auksinis kirvis
-  golden_hoe: Auksinis kauptukas
+  golden_hoe: Auksinis kaplys
   iron_sword: Geležinis kardas
   iron_shovel: Geležinis kastuvas
   iron_pickaxe: Geležinis kirtiklis
   iron_axe: Geležinis kirvis
-  iron_hoe: Geležinis kauptukas
+  iron_hoe: Geležinis kaplys
   diamond_sword: Deimantinis kardas
   diamond_shovel: Deimantinis kastuvas
   diamond_pickaxe: Deimantinis kirtiklis
   diamond_axe: Deimantinis kirvis
-  diamond_hoe: Deimantinis kauptukas
-  netherite_sword: Nederito kardas
-  netherite_shovel: Nederito kastuvas
-  netherite_pickaxe: Nederito kirtiklis
-  netherite_axe: Nederito kirvis
-  netherite_hoe: Nederito kauptukas
+  diamond_hoe: Deimantinis kaplys
+  netherite_sword: Neteritinis kardas
+  netherite_shovel: Neteritinis kastuvas
+  netherite_pickaxe: Neteritinis kirtiklis
+  netherite_axe: Neteritinis kirvis
+  netherite_hoe: Neteritinis kaplys
   stick: Pagaliukas
   bowl: Dubuo
   mushroom_stew: Grybų troškinys
@@ -648,10 +764,10 @@ material:
   golden_chestplate: Auksinis antkrūtinis
   golden_leggings: Auksinės kelnės
   golden_boots: Auksiniai batai
-  netherite_helmet: Nederito šalmas
-  netherite_chestplate: Nederito antkrūtinis
-  netherite_leggings: Nederito kelnės
-  netherite_boots: Nederito batai
+  netherite_helmet: Neteritinis šalmas
+  netherite_chestplate: Neteritinis antkrūtinis
+  netherite_leggings: Neteritinės kelnės
+  netherite_boots: Neteritiniai batai
   flint: Titnagas
   porkchop: Žalia kiauliena
   cooked_porkchop: Kepta kiauliena
@@ -664,34 +780,32 @@ material:
   jungle_sign: Džiunglių medžio ženklas
   acacia_sign: Akacijos ženklas
   dark_oak_sign: Tamsiojo ąžuolo ženklas
-  crimson_sign: Raudonosios medienos ženklas
-  warped_sign: Iškreiptas ženklas
+  crimson_sign: Raudonio ženklas
+  warped_sign: Klaikusis ženklas
   bucket: Kibiras
   water_bucket: Vandens kibiras
   lava_bucket: Lavos kibiras
-  minecart: Vagonėlis
-  saddle: Balnas
-  redstone: Redstouno dulkės
+  powder_snow_bucket: Puraus sniego kibiras
   snowball: Sniego gniūžtė
-  oak_boat: Ąžuolo valtis
   leather: Oda
   milk_bucket: Pieno kibiras
   pufferfish_bucket: Pūsliažuvė kibire
   salmon_bucket: Lašiša kibire
   cod_bucket: Menkė kibire
   tropical_fish_bucket: Tropinė žuvis kibire
+  axolotl_bucket: Aksolotlio kibiras
   brick: Plyta
   clay_ball: Molio kamuoliukas
   dried_kelp_block: Džiovintų rudadumblių blokas
   paper: Popierius
   book: Knyga
   slime_ball: Gleivių kamuolėlis
-  chest_minecart: Vagonėlis su skrynia
-  furnace_minecart: Vagonėlis su krosnimi
   egg: Kiaušinis
   compass: Kompasas
+  bundle: Ryšulys
   fishing_rod: Meškerė
   clock: Laikrodis
+  spyglass: Žiūronas
   glowstone_dust: Šviesakmenio dulkės
   cod: Žalia menkė
   salmon: Žalia lašiša
@@ -700,8 +814,8 @@ material:
   cooked_cod: Kepta menkė
   cooked_salmon: Kepta lašiša
   ink_sac: Rašalo pūslė
+  glow_ink_sac: Švytinčio rašalo pūslė
   cocoa_beans: Kakavos pupelės
-  lapis_lazuli: Lazuritas
   white_dye: Balti dažai
   orange_dye: Oranžiniai dažai
   magenta_dye: Šviesiai purpuriniai dažai
@@ -727,7 +841,7 @@ material:
   magenta_bed: Šviesiai purpurinė lova
   light_blue_bed: Žydra lova
   yellow_bed: Geltona lova
-  lime_bed: Šviesiai žalia lova
+  lime_bed: Citrininė žalia lova
   pink_bed: Rausva lova
   gray_bed: Pilka lova
   light_gray_bed: Šviesiai pilka lova
@@ -765,76 +879,79 @@ material:
   cauldron: Katilas
   ender_eye: Enderio akis
   glistering_melon_slice: Žvilganti arbūzo skiltelė
-  bat_spawn_egg: Šikšnosparnio atsiradimo kiaušinis
-  bee_spawn_egg: Bitės atsiradimo kiaušinis
-  blaze_spawn_egg: Liepsnos atsiradimo kiaušinis
-  cat_spawn_egg: Katės atsiradimo kiaušinis
-  cave_spider_spawn_egg: Urvinio voro atsiradimo kiaušinis
-  chicken_spawn_egg: Vištos atsiradimo kiaušinis
-  cod_spawn_egg: Menkės atsiradimo kiaušinis
-  cow_spawn_egg: Karvės atsiradimo kiaušinis
-  creeper_spawn_egg: Kryperio atsiradimo kiaušinis
-  dolphin_spawn_egg: Delfino atsiradimo kiaušinis
-  donkey_spawn_egg: Asilo atsiradimo kiaušinis
-  drowned_spawn_egg: Skenduolio atsiradimo kiaušinis
-  elder_guardian_spawn_egg: Vyresniojo sargybinio atsiradimo kiaušinis
-  enderman_spawn_egg: Endermeno atsiradimo kiaušinis
-  endermite_spawn_egg: Endermaito atsiradimo kiaušinis
-  evoker_spawn_egg: Šamano atsiradimo kiaušinis
-  fox_spawn_egg: Lapės atsiradimo kiaušinis
-  ghast_spawn_egg: Gasto atsiradimo kiaušinis
-  guardian_spawn_egg: Sargybinio atsiradimo kiaušinis
-  hoglin_spawn_egg: Hoglino atsiradimo kiaušinis
-  horse_spawn_egg: Arklio atsiradimo kiaušinis
-  husk_spawn_egg: Sudžiūvėlio atsiradimo kiaušinis
-  llama_spawn_egg: Lamos atsiradimo kiaušinis
-  magma_cube_spawn_egg: Magmos kubo atsiradimo kiaušinis
-  mooshroom_spawn_egg: Mūšrūmo atsiradimo kiaušinis
-  mule_spawn_egg: Mulo atsiradimo kiaušinis
-  ocelot_spawn_egg: Oceloto atsiradimo kiaušinis
-  panda_spawn_egg: Pandos atsiradimo kiaušinis
-  parrot_spawn_egg: Papūgos atsiradimo kiaušinis
-  phantom_spawn_egg: Fantomo atsiradimo kiaušinis
-  pig_spawn_egg: Kiaulės atsiradimo kiaušinis
-  piglin_spawn_egg: Piglino atsiradimo kiaušinis
-  piglin_brute_spawn_egg: Piglino kareivio atsiradimo kiaušinis
-  pillager_spawn_egg: Plėšiko atsiradimo kiaušinis
-  polar_bear_spawn_egg: Baltojo lokio atsiradimo kiaušinis
-  pufferfish_spawn_egg: Pūsliažuvės atsiradimo kiaušinis
-  rabbit_spawn_egg: Triušio atsiradimo kiaušinis
-  ravager_spawn_egg: Siaubūno atsiradimo kiaušinis
-  salmon_spawn_egg: Lašišos atsiradimo kiaušinis
-  sheep_spawn_egg: Avies atsiradimo kiaušinis
-  shulker_spawn_egg: Šulkerio atsiradimo kiaušinis
-  silverfish_spawn_egg: Žvyninuko atsiradimo kiaušinis
-  skeleton_spawn_egg: Skeleto atsiradimo kiaušinis
-  skeleton_horse_spawn_egg: Arklio skeleto atsiradimo kiaušinis
-  slime_spawn_egg: Gleiviaus atsiradimo kiaušinis
-  spider_spawn_egg: Voro atsiradimo kiaušinis
-  squid_spawn_egg: Kalmaro atsiradimo kiaušinis
-  stray_spawn_egg: Klajūno atsiradimo kiaušinis
-  strider_spawn_egg: Ilgažingsnio atsiradimo kiaušinis
-  trader_llama_spawn_egg: Pirklio lamos atsiradimo kiaušinis
-  tropical_fish_spawn_egg: Tropinės žuvies atsiradimo kiaušinis
-  turtle_spawn_egg: Vėžlio atsiradimo kiaušinis
-  vex_spawn_egg: Velės atsiradimo kiaušinis
-  villager_spawn_egg: Kaimiečio atsiradimo kiaušinis
-  vindicator_spawn_egg: Vindikatoriaus atsiradimo kiaušinis
-  wandering_trader_spawn_egg: Keliaujančio pirklio atsiradimo kiaušinis
-  witch_spawn_egg: Raganos atsiradimo kiaušinis
-  wither_skeleton_spawn_egg: Viterio skeleto atsiradimo kiaušinis
-  wolf_spawn_egg: Vilko atsiradimo kiaušinis
-  zoglin_spawn_egg: Zoglino atsiradimo kiaušinis
-  zombie_spawn_egg: Zombio atsiradimo kiaušinis
-  zombie_horse_spawn_egg: Arklio zombio atsiradimo kiaušinis
-  zombie_villager_spawn_egg: Zombio kaimiečio atsiradimo kiaušinis
-  zombified_piglin_spawn_egg: Zombifikuoto piglino atsiradimo kiaušinis
+  axolotl_spawn_egg: Suformuoto aksolotlio kiaušinis
+  bat_spawn_egg: Suformuoto šikšnosparnio kiaušinis
+  bee_spawn_egg: Suformuotos bitės kiaušinis
+  blaze_spawn_egg: Suformuotos liepsnos kiaušinis
+  cat_spawn_egg: Suformuotos katės kiaušinis
+  cave_spider_spawn_egg: Suformuoto urvinio voro kiaušinis
+  chicken_spawn_egg: Suformuotos vištos kiaušinis
+  cod_spawn_egg: Suformuotos menkės kiaušinis
+  cow_spawn_egg: Suformuotos karvės kiaušinis
+  creeper_spawn_egg: Suformuoto kryperio kiaušinis
+  dolphin_spawn_egg: Suformuoto delfino kiaušinis
+  donkey_spawn_egg: Suformuoto asilo kiaušinis
+  drowned_spawn_egg: Suformuoto skenduolio kiaušinis
+  elder_guardian_spawn_egg: Suformuoto didžiojo gelmių sargo kiaušinis
+  enderman_spawn_egg: Suformuoto endermeno kiaušinis
+  endermite_spawn_egg: Suformuoto endermaito kiaušinis
+  evoker_spawn_egg: Suformuoto šamano kiaušinis
+  fox_spawn_egg: Suformuotos lapės kiaušinis
+  ghast_spawn_egg: Suformuoto gasto kiaušinis
+  glow_squid_spawn_egg: Suformuoto švytinčio kalmaro kiaušinis
+  goat_spawn_egg: Suformuotos ožkos kiaušinis
+  guardian_spawn_egg: Suformuoto gelmių sargo kiaušinis
+  hoglin_spawn_egg: Suformuoto hoglino kiaušinis
+  horse_spawn_egg: Suformuoto arklio kiaušinis
+  husk_spawn_egg: Suformuoto sudžiūvėlio kiaušinis
+  llama_spawn_egg: Suformuotos lamos kiaušinis
+  magma_cube_spawn_egg: Suformuoto magmos kubo kiaušinis
+  mooshroom_spawn_egg: Suformuotos mūšrumos kiaušinis
+  mule_spawn_egg: Suformuoto mulo kiaušinis
+  ocelot_spawn_egg: Suformuoto oceloto kiaušinis
+  panda_spawn_egg: Suformuotos pandos kiaušinis
+  parrot_spawn_egg: Suformuotos papūgos kiaušinis
+  phantom_spawn_egg: Suformuoto fantomo kiaušinis
+  pig_spawn_egg: Suformuotos kiaulės kiaušinis
+  piglin_spawn_egg: Suformuoto piglino kiaušinis
+  piglin_brute_spawn_egg: Suformuoto aršiojo piglino kiaušinis
+  pillager_spawn_egg: Suformuoto plėšiko kiaušinis
+  polar_bear_spawn_egg: Suformuoto baltojo lokio kiaušinis
+  pufferfish_spawn_egg: Suformuotos pūsliažuvės kiaušinis
+  rabbit_spawn_egg: Suformuoto triušio kiaušinis
+  ravager_spawn_egg: Suformuoto siaubūno kiaušinis
+  salmon_spawn_egg: Suformuotos lašišos kiaušinis
+  sheep_spawn_egg: Suformuotos avies kiaušinis
+  shulker_spawn_egg: Suformuoto šulkerio kiaušinis
+  silverfish_spawn_egg: Suformuoto žvyninuko kiaušinis
+  skeleton_spawn_egg: Suformuoto skeleto kiaušinis
+  skeleton_horse_spawn_egg: Suformuoto skeleto arklio kiaušinis
+  slime_spawn_egg: Suformuoto gleiviaus kiaušinis
+  spider_spawn_egg: Suformuoto voro kiaušinis
+  squid_spawn_egg: Suformuoto kalmaro kiaušinis
+  stray_spawn_egg: Suformuoto klajūno kiaušinis
+  strider_spawn_egg: Suformuoto ilgažingsnio kiaušinis
+  trader_llama_spawn_egg: Suformuotos pirklio lamos kiaušinis
+  tropical_fish_spawn_egg: Suformuotos tropinės žuvies kiaušinis
+  turtle_spawn_egg: Suformuoto vėžlio kiaušinis
+  vex_spawn_egg: Suformuotos vėlės kiaušinis
+  villager_spawn_egg: Suformuoto kaimiečio kiaušinis
+  vindicator_spawn_egg: Suformuoto vindikatoriaus kiaušinis
+  wandering_trader_spawn_egg: Suformuoto klajojančio pirklio kiaušinis
+  witch_spawn_egg: Suformuotos raganos kiaušinis
+  wither_skeleton_spawn_egg: Suformuoto viterio skeleto kiaušinis
+  wolf_spawn_egg: Suformuoto vilko kiaušinis
+  zoglin_spawn_egg: Suformuoto zoglino kiaušinis
+  zombie_spawn_egg: Suformuoto zombio kiaušinis
+  zombie_horse_spawn_egg: Suformuoto zombio arklio kiaušinis
+  zombie_villager_spawn_egg: Suformuoto zombio kaimiečio kiaušinis
+  zombified_piglin_spawn_egg: Suformuoto suzombinto piglino kiaušinis
   experience_bottle: Patirties buteliukas
   fire_charge: Ugnies kamuolys
   writable_book: Knyga ir plunksna
   written_book: Prirašyta knyga
-  emerald: Smaragdas
   item_frame: Rėmelis
+  glow_item_frame: Švytintis daikto rėmas
   flower_pot: Vazonas
   carrot: Morka
   potato: Bulvė
@@ -848,19 +965,14 @@ material:
   zombie_head: Zombio galva
   creeper_head: Kryperio galva
   dragon_head: Drakonės galva
-  carrot_on_a_stick: Morka ant pagaliuko
-  warped_fungus_on_a_stick: Iškreiptasis grybelis ant pagaliuko
   nether_star: Neterio žvaigždė
   pumpkin_pie: Moliūgų pyragas
   firework_rocket: Fejerverkas
   firework_star: Fejerverko žvaigždė
   enchanted_book: Užkerėta knyga
   nether_brick: Neterio plytos
-  quartz: Neterio kvarcas
-  tnt_minecart: Vagonėlis su TNT
-  hopper_minecart: Vagonėlis su piltuvu
-  prismarine_shard: Prismarino skeveldra
-  prismarine_crystals: Prismarino kristalai
+  prismarine_shard: Prizmarino skeveldra
+  prismarine_crystals: Prizmarino kristalai
   rabbit: Žalias triušis
   cooked_rabbit: Keptas triušis
   rabbit_stew: Triušienos troškinys
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: Patepta strėlė
   lingering_potion: Garuojantis eliksyras
   shield: Skydas
-  elytra: Sparnai
-  spruce_boat: Eglės valtis
-  birch_boat: Beržo valtis
-  jungle_boat: Džiunglių medžio valtis
-  acacia_boat: Akacijos valtis
-  dark_oak_boat: Tamsiojo ąžuolo valtis
   totem_of_undying: Nemirtingumo totemas
   shulker_shell: Šulkerio kiautas
   iron_nugget: Geležies grynuolis
@@ -948,27 +1054,23 @@ material:
   cartography_table: Kartografijos stalas
   fletching_table: Lankininkų stalas
   grindstone: Tekėlas
-  lectern: Pultas
   smithing_table: Kalvio stalas
   stonecutter: Akmens pjaustyklė
   bell: Varpas
   lantern: Žibintas
   soul_lantern: Sielų žibintas
   sweet_berries: Saldžiosios uogos
+  glow_berries: Švytinčios uogos
   campfire: Laužas
   soul_campfire: Sielų laužas
-  shroomlight: Grybašviesė
+  shroomlight: Šviesagrybis
   honeycomb: Korys
   bee_nest: Bičių lizdas
   beehive: Avilys
-  honey_bottle: Buteliukas medaus
-  honey_block: Medaus blokas
+  honey_bottle: Medaus buteliukas
   honeycomb_block: Medaus korio blokas
-  lodestone: Magnetinė rūda
-  netherite_block: Neterito blokas
-  ancient_debris: Senoviniai griuvėsiai
-  target: Taikinys
-  crying_obsidian: Verkiantis obsidianas
+  lodestone: Magnetitas
+  crying_obsidian: Ašarotas obsidianas
   blackstone: Juodakmenis
   blackstone_slab: Juodakmenio pusblokis
   blackstone_stairs: Juodakmenio laiptai
@@ -976,12 +1078,34 @@ material:
   polished_blackstone: Šlifuotas juodakmenis
   polished_blackstone_slab: Šlifuoto juodakmenio pusblokis
   polished_blackstone_stairs: Šlifuoto juodakmenio laiptai
-  chiseled_polished_blackstone: Išraižytas šlifuotas juodakmenis
+  chiseled_polished_blackstone: Raižytas šlifuotas juodakmenis
   polished_blackstone_bricks: Šlifuoto juodakmenio plytos
   polished_blackstone_brick_slab: Šlifuoto juodakmenio plytų pusblokis
   polished_blackstone_brick_stairs: Šlifuoto juodakmenio plytų laiptai
   cracked_polished_blackstone_bricks: Sutrūkinėjusio šlifuoto juodakmenio plytos
-  respawn_anchor: Prisikėlimo Inkaras
+  respawn_anchor: Prisikėlimo inkaras
+  candle: Žvakė
+  white_candle: Balta žvakė
+  orange_candle: Oranžinė žvakė
+  magenta_candle: Šviesiai purpurinė žvakė
+  light_blue_candle: Žydra žvakė
+  yellow_candle: Geltona žvakė
+  lime_candle: Šviesiai žalia žvakė
+  pink_candle: Rausva žvakė
+  gray_candle: Pilka žvakė
+  light_gray_candle: Šviesiai pilka žvakė
+  cyan_candle: Tamsiai žydra žvakė
+  purple_candle: Purpurinė žvakė
+  blue_candle: Mėlyna žvakė
+  brown_candle: Ruda žvakė
+  green_candle: Žalia žvakė
+  red_candle: Raudona žvakė
+  black_candle: Juoda žvakė
+  small_amethyst_bud: Mažas ametisto kristalas
+  medium_amethyst_bud: Vidutinis ametisto kristalas
+  large_amethyst_bud: Didelis ametisto kristalas
+  amethyst_cluster: Užaugęs ametisto kristalas
+  pointed_dripstone: Aštrus varvakmenis
   water: Vanduo
   lava: Lava
   tall_seagrass: Aukšta jūržolė
@@ -991,9 +1115,9 @@ material:
   fire: Ugnis
   soul_fire: Sielų ugnis
   redstone_wire: Redstouno laidas
-  oak_wall_sign: Ąžuolinis sienos ženklas
-  spruce_wall_sign: Eglinis sienos ženklas
-  birch_wall_sign: Beržinis sienos ženklas
+  oak_wall_sign: Ąžuolo sienos ženklas
+  spruce_wall_sign: Eglės sienos ženklas
+  birch_wall_sign: Beržo sienos ženklas
   acacia_wall_sign: Akacijos sienos ženklas
   jungle_wall_sign: Džiunglių medžio sienos ženklas
   dark_oak_wall_sign: Tamsiojo ąžuolo sienos ženklas
@@ -1001,9 +1125,12 @@ material:
   soul_wall_torch: Sielų sienos deglas
   nether_portal: Neterio portalas
   attached_pumpkin_stem: Prijungtas moliūgo stiebas
-  attached_melon_stem: Prijungtas moliūgo stiebas
+  attached_melon_stem: Prijungtas arbūzo stiebas
   pumpkin_stem: Moliūgo stiebas
   melon_stem: Arbūzo stiebas
+  water_cauldron: Vandens katilas
+  lava_cauldron: Lavos katilas
+  powder_snow_cauldron: Puraus sniego katilas
   end_portal: Endo portalas
   cocoa: Kakava
   tripwire: Viela
@@ -1069,20 +1196,44 @@ material:
   bubble_coral_wall_fan: Burbulinis sienos koralas vėduoklė
   fire_coral_wall_fan: Ugninis sienos koralas vėduoklė
   horn_coral_wall_fan: Raguotas sienos koralas vėduoklė
-  bamboo_sapling: Bambuko ūglys
+  bamboo_sapling: Bambuko stiebas
   potted_bamboo: Pasodintas bambukas
   void_air: Tuštumos oras
   cave_air: Urvų oras
   bubble_column: Burbulų stulpas
   sweet_berry_bush: Saldžiųjų uogų krūmas
-  weeping_vines_plant: Pragaro vijoklių augalas
-  twisting_vines_plant: Persipynusių vijoklių augalas
-  crimson_wall_sign: Raudonosios sienos ženklas
-  warped_wall_sign: Iškreiptos sienos ženklas
-  potted_crimson_fungus: Pasodintas raudonasis grybelis
-  potted_warped_fungus: Pasodintas iškreiptasis grybelis
-  potted_crimson_roots: Pasodintos raudonosios šaknys
-  potted_warped_roots: Pasodintos iškreiptosios šaknys
+  weeping_vines_plant: Raudonio vijoklių augalas
+  twisting_vines_plant: Klaikiųjų vijoklių augalas
+  crimson_wall_sign: Raudonio sienos ženklas
+  warped_wall_sign: Klaikusis sienos ženklas
+  potted_crimson_fungus: Pasodintas raudonio grybas
+  potted_warped_fungus: Pasodintas klaikusis grybas
+  potted_crimson_roots: Pasodintos raudonio šaknys
+  potted_warped_roots: Pasodintos klaikiosios šaknys
+  candle_cake: Tortas su žvake
+  white_candle_cake: Tortas su balta žvake
+  orange_candle_cake: Tortas su oranžine žvake
+  magenta_candle_cake: Tortas su šviesiai purpurine žvake
+  light_blue_candle_cake: Tortas su žydra žvake
+  yellow_candle_cake: Tortas su geltona žvake
+  lime_candle_cake: Tortas su šviesiai žalia žvake
+  pink_candle_cake: Tortas su rausva žvake
+  gray_candle_cake: Tortas su pilka žvake
+  light_gray_candle_cake: Tortas su šviesiai pilka žvake
+  cyan_candle_cake: Tortas su tamsiai žydra žvake
+  purple_candle_cake: Tortas su purpurine žvake
+  blue_candle_cake: Tortas su mėlyna žvake
+  brown_candle_cake: Tortas su ruda žvake
+  green_candle_cake: Tortas su žalia žvake
+  red_candle_cake: Tortas su raudona žvake
+  black_candle_cake: Tortas su juoda žvake
+  powder_snow: Purus sniegas
+  cave_vines: Urvų vijokliai
+  cave_vines_plant: Urvų vijoklių augalas
+  big_dripleaf_stem: Didelis varvalapio stiebas
+  potted_azalea_bush: Pasodinta azalija
+  potted_flowering_azalea_bush: Pasodinta žydinti azalija
+  grass_path: Žolės takas
   zombie_pigman_spawn_egg: Zombio kiauliažmogio atsiradimo kiaušinis
   cactus_green: Kaktuso žaluma
   dandelion_yellow: Pienės geltonis
@@ -1098,7 +1249,7 @@ biome:
   taiga: Taiga
   swamp: Pelkė
   river: Upė
-  nether_wastes: Pragaro dykumos
+  nether_wastes: Neterio dykynė
   the_end: Endas
   frozen_ocean: Užšalęs vandenynas
   frozen_river: Užšalusi upė
@@ -1166,49 +1317,51 @@ biome:
   bamboo_jungle: Bambukų džiunglės
   bamboo_jungle_hills: Bambukų džiunglių kalvos
   soul_sand_valley: Sielų smėlio slėnis
-  crimson_forest: Raudonasis pragaro miškas
-  warped_forest: Iškreiptas miškas
+  crimson_forest: Raudonio miškas
+  warped_forest: Klaikusis miškas
   basalt_deltas: Bazalto deltos
+  dripstone_caves: Varvakmenio urvai
+  lush_caves: Vešlūs urvai
   nether: Neteris
 enchantment:
-  fire_protection: Apsauga nuo ugnies
-  sharpness: Aštrumas
-  flame: Liepsna
-  soul_speed: Sielos Greitis
-  aqua_affinity: Naras
-  punch: Smūgis
-  loyalty: Lojalumas
-  depth_strider: Gilumų keliautojas
-  vanishing_curse: Pranykimo prakeiksmas
-  unbreaking: Nesulaužomumas
-  knockback: Nubloškimas
-  luck_of_the_sea: Jūros sėkmė
-  binding_curse: Prisirišimo prakeiksmas
-  fortune: Sėkmė
   protection: Apsauga
-  efficiency: Efektyvumas
-  mending: Susitaisymas
-  frost_walker: Speigo žingsnis
-  lure: Masalas
-  looting: Laimikis
-  piercing: Pradūrimas
-  blast_protection: Apsauga nuo sprogimų
-  smite: Triuškinimas
-  multishot: Daugiašovis
-  fire_aspect: Ugnies išraiška
-  channeling: Nukreipimas
-  sweeping: Platūs ašmenys
-  thorns: Spygliai
-  bane_of_arthropods: Voragyvių skausmas
-  respiration: Kvėpavimas
-  riptide: Plėšimas
-  silk_touch: Šilko prisilietimas
-  quick_charge: Greitas užtaisymas
-  projectile_protection: Apsauga nuo sviedinių
-  impaling: Smeigimas
+  fire_protection: Apsauga nuo ugnies
   feather_falling: Lengvas nusileidimas
+  blast_protection: Apsauga nuo sprogimų
+  projectile_protection: Apsauga nuo sviedinių
+  respiration: Kvėpavimas
+  aqua_affinity: Naras
+  thorns: Spygliai
+  depth_strider: Gilumų keliautojas
+  frost_walker: Speigo žingsnis
+  binding_curse: Prisirišimo prakeiksmas
+  sharpness: Aštrumas
+  smite: Triuškinimas
+  bane_of_arthropods: Voragyvių skausmas
+  knockback: Nubloškimas
+  fire_aspect: Ugnies išraiška
+  looting: Laimikis
+  sweeping: Platūs ašmenys
+  efficiency: Efektyvumas
+  silk_touch: Šilko prisilietimas
+  unbreaking: Nesulaužomumas
+  fortune: Sėkmė
   power: Galia
+  punch: Smūgis
+  flame: Liepsna
   infinity: Begalybė
+  luck_of_the_sea: Jūros sėkmė
+  lure: Masalas
+  loyalty: Lojalumas
+  impaling: Smeigimas
+  riptide: Plėšimas
+  channeling: Nukreipimas
+  multishot: Daugiašovis
+  quick_charge: Greitas užtaisymas
+  piercing: Pradūrimas
+  mending: Susitaisymas
+  vanishing_curse: Pranykimo prakeiksmas
+  soul_speed: Sielų žingsnis
 potion:
   uncraftable: Nepagaminamas eliksyras
   water: Vandens buteliukas
@@ -1301,7 +1454,7 @@ entity:
   dropped_item: Daiktas
   experience_orb: Patirties kamuolėlis
   area_effect_cloud: Ploto efekto debesis
-  elder_guardian: Vyresnysis sargybinis
+  elder_guardian: Didysis gelmių sargas
   wither_skeleton: Viterio skeletas
   stray: Klajūnas
   egg: Mestas kiaušinis
@@ -1325,7 +1478,7 @@ entity:
   shulker_bullet: Šulkerio kulka
   dragon_fireball: Drakonės ugnies kamuolys
   zombie_villager: Zombis kaimietis
-  skeleton_horse: Arklys skeletas
+  skeleton_horse: Skeletas arklys
   zombie_horse: Arklys zombis
   armor_stand: Šarvų stovas
   donkey: Asilas
@@ -1350,7 +1503,7 @@ entity:
   zombie: Zombis
   slime: Gleivius
   ghast: Gastas
-  zombified_piglin: Zombifikuotas piglinas
+  zombified_piglin: Suzombintas piglinas
   enderman: Endermenas
   cave_spider: Urvinis voras
   silverfish: Žvyninukas
@@ -1361,7 +1514,7 @@ entity:
   bat: Šikšnosparnis
   witch: Ragana
   endermite: Endermaitas
-  guardian: Sargybinis
+  guardian: Gelmių sargas
   shulker: Šulkeris
   pig: Kiaulė
   sheep: Avis
@@ -1369,7 +1522,7 @@ entity:
   chicken: Višta
   squid: Kalmaras
   wolf: Vilkas
-  mushroom_cow: Mūšrūmas
+  mushroom_cow: Mūšruma
   snowman: Sniego golemas
   ocelot: Ocelotas
   iron_golem: Geležinis golemas
@@ -1395,14 +1548,19 @@ entity:
   pillager: Plėšikas
   ravager: Siaubūnas
   trader_llama: Pirklio lama
-  wandering_trader: Keliaujantis pirklys
+  wandering_trader: Klajojantis pirklys
   fox: Lapė
   bee: Bitė
   hoglin: Hoglinas
   piglin: Piglinas
   strider: Ilgažingsnis
   zoglin: Zoglinas
-  piglin_brute: Piglino kareivis
+  piglin_brute: Aršusis piglinas
+  axolotl: Aksolotlis
+  glow_item_frame: Švytintis daikto rėmas
+  glow_squid: Švytintis kalmaras
+  goat: Ožka
+  marker: Žymeklis
   fishing_hook: Plūdė
   lightning: Žaibas
   player: Žaidėjas
@@ -1427,7 +1585,7 @@ effect:
   hunger: Alkis
   weakness: Silpnumas
   poison: Nuodai
-  wither: Viteris
+  wither: Nykumas
   health_boost: Papildoma sveikata
   absorption: Sugertis
   saturation: Prisotinimas
@@ -1507,7 +1665,7 @@ colored_shied:
   magenta: Šviesiai purpurinis skydas
   light_blue: Žydra skydas
   yellow: Geltonas skydas
-  lime: Šviesiai žalias skydas
+  lime: Citrininis žalias skydas
   pink: Rausvas skydas
   gray: Pilkas skydas
   light_gray: Šviesiai pilkas skydas
@@ -2132,7 +2290,7 @@ banner_pattern:
   '2555906': Šviesiai purpurinis gaublys
   '2555907': Žydras gaublys
   '2555908': Geltonas gaublys
-  '2555909': Šviesiai žalias gaublys
+  '2555909': Citrininis žalias gaublys
   '2555910': Rausvas gaublys
   '2555911': Pilkas gaublys
   '2555912': Šviesiai pilkas gaublys
@@ -2148,7 +2306,7 @@ banner_pattern:
   '2621442': Šviesiai purpurinis šnipas
   '2621443': Žydras šnipas
   '2621444': Geltonas šnipas
-  '2621445': Šviesiai žalias šnipas
+  '2621445': Citrininis žalias šnipas
   '2621446': Rausvas šnipas
   '2621447': Pilkas šnipas
   '2621448': Šviesiai pilkas šnipas
@@ -2202,17 +2360,3 @@ villager_profession:
   shepherd: Piemuo
   toolsmith: Įrankių meistras
   weaponsmith: Ginklakalys
-villager_career:
-  farmer: Ūkininkas
-  fisherman: Žvejys
-  shepherd: Piemuo
-  fletcher: Strėlininkas
-  librarian: Bibliotekininkas
-  cartographer: Kartografas
-  cleric: Dvasininkas
-  armorer: Šarvų kalvis
-  weapon_smith: Ginklų kalvis
-  tool_smith: Įrankių kalvis
-  butcher: Mėsininkas
-  leatherworker: Odos siuvėjas
-  nitwit: Kvailelis

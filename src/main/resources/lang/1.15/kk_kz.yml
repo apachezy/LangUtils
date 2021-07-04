@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:17:24                    #
+# Build time: 2021-07-04 21:39:00                    #
 # ####################################################
 language:
   code: kk_kz
@@ -14,6 +14,7 @@ material:
   acacia_pressure_plate: Қараған қысым тілімшесі
   acacia_sign: Қараған тақтайша
   acacia_stairs: Қараған басқыштар
+  acacia_trapdoor: Қараған люк
   acacia_wall_sign: Қабырғалы қараған тақтайшасы
   activator_rail: Белсендіру темір жол
   andesite_stairs: Андезит басқыштар
@@ -40,6 +41,7 @@ material:
   birch_pressure_plate: Қайың қысым тілімшесі
   birch_sign: Қайың тақтайша
   birch_stairs: Қайың басқыштар
+  birch_trapdoor: Қайың люк
   birch_wall_sign: Қабырғалы қайың тақтайшасы
   black_dye: Қара бояу
   black_shulker_box: Қара шалкер тартпасы
@@ -87,10 +89,12 @@ material:
   clay: Балшық
   clay_ball: Балшық
   coal_block: Көмір кәсегі
+  coal_ore: Таскөмір
   cobblestone_stairs: Жұмыртас басқыштар
   cobblestone_wall: Жұмыртас дуалы
   cobweb: Өрмектор
   cocoa_beans: Какао-атбастары
+  cod: Шикі нәлім
   cod_bucket: Шелектегі нәлім
   cod_spawn_egg: Нәлім шығару жұмыртқасы
   command_block: Командалық кәсек
@@ -182,6 +186,7 @@ material:
   dragon_wall_head: Қабырғалы аждаһа басы
   dried_kelp: Кепкен балдыр
   dried_kelp_block: Кепкен балдыр кәсегі
+  dropper: Лақтырғыш
   drowned_spawn_egg: Батқан шығару жұмыртқасы
   elder_guardian_spawn_egg: Көне қорғаушы шығару жұмыртқасы
   elytra: Топшылар
@@ -192,9 +197,11 @@ material:
   enderman_spawn_egg: Эндермен шығару жұмыртқасы
   endermite_spawn_egg: Эндермит шығару жұмыртқасы
   ender_chest: Эндер-сандық
+  ender_eye: Эндер көзі
   ender_pearl: Эндер-меруерт
   end_crystal: Энд кристаллы
   end_gateway: Энд қақпа
+  end_portal: Энд порталы
   end_portal_frame: Энд портал жиектеме
   end_rod: Энд өзегі
   end_stone: Эндертас
@@ -215,12 +222,12 @@ material:
   furnace_minecart: Пеш бар вагонша
   ghast_spawn_egg: Гаст шығару жұмыртқасы
   ghast_tear: Гасттың көз жасы
+  glass_bottle: Шыны бөтелке
   glass_pane: Шыны панель
   glistering_melon_slice: Қарбыздың жылтыр тілімі
   glowstone: Жылтыртас
   glowstone_dust: Жылтыртас тозаңы
   golden_horse_armor: Аттың алтын сауыты
-  golden_sword: Алтын қылыш
   gold_block: Алтын кәсегі
   gold_nugget: Алтын саф
   granite_stairs: Гранит басқыштар
@@ -256,7 +263,7 @@ material:
   iron_block: Темір кәсегі
   iron_horse_armor: Аттың темір сауыты
   iron_nugget: Темір саф
-  iron_sword: Темір қылыш
+  iron_trapdoor: Темір люк
   jack_o_lantern: Джек шамы
   jigsaw: Жұмбақтас
   jukebox: Күйтабақ ойнатқыш
@@ -370,6 +377,7 @@ material:
   oak_pressure_plate: Емен қысым тілімшесі
   oak_sign: Емен тақтайша
   oak_stairs: Емен басқыштар
+  oak_trapdoor: Емен люк
   oak_wall_sign: Қабырғалы емен тақтайшасы
   observer: Бақылаушы
   ocelot_spawn_egg: Оцелот шығару жұмыртқасы
@@ -417,6 +425,7 @@ material:
   polished_granite_stairs: Жылтыратылған гранит басқыштар
   popped_chorus_fruit: Дайындалған хорус жемісі
   potatoes: Картоптар
+  potion: Ішімдік
   potted_acacia_sapling: Отырғызған қараған көшеті
   potted_allium: Отырғызған жуа
   potted_azure_bluet: Отырғызған көгілдір гүлкекіре
@@ -515,6 +524,7 @@ material:
   spectral_arrow: Елесті жебе
   spider_eye: Өрмекшінің көзі
   spider_spawn_egg: Өрмекші шығару жұмыртқасы
+  splash_potion: Жарылғыш ішімдік
   sponge: Сорғыш
   spruce_boat: Шырша қайығы
   spruce_button: Шырша батырма
@@ -524,6 +534,7 @@ material:
   spruce_pressure_plate: Шырша қысым тілімшесі
   spruce_sign: Шырша тақтайша
   spruce_stairs: Шырша басқыштар
+  spruce_trapdoor: Шырша люк
   spruce_wall_sign: Қабырғалы шырша  тақтайшасы
   squid_spawn_egg: Сегізаяқ шығару жұмыртқасы
   stone_bricks: Тас кірпішері
@@ -532,7 +543,6 @@ material:
   stone_button: Тас батырма
   stone_pressure_plate: Тас қысым тілімшесі
   stone_stairs: Тас басқыштар
-  stone_sword: Тас қылыш
   stray_spawn_egg: Қаңғыбас шығару жұмыртқасы
   stripped_dark_oak_log: Жонылған қарақоңыр емен бөренесі
   stripped_dark_oak_wood: Жонылған қарақоңыр емен
@@ -577,7 +587,6 @@ material:
   wither_skeleton_spawn_egg: Визер-сүлде шығару жұмыртқасы
   wither_skeleton_wall_skull: Қабырғалы визер-сүлде басы
   wolf_spawn_egg: Қасқыр шығару жұмыртқасы
-  wooden_sword: Ағаш қылыш
   written_book: Жазылған кітап
   yellow_dye: Сары бояу
   yellow_shulker_box: Сары шалкер тартпасы
@@ -589,32 +598,54 @@ material:
 biome:
   plains: Жазықтар
   mountains: Таулар
-  swamp: Батпақ
+  the_end: Энд
   snowy_mountains: Қарлы таулар
+  mushroom_fields: Саңырауқұлақ далалары
+  mushroom_field_shore: Саңырауқұлақ жағалауы
   desert_hills: Шөл дала төбелері
+  wooded_hills: Орманды төбелер
   taiga_hills: Тайга төбелері
+  mountain_edge: Тау асуы
   jungle: Тропиктік орман
   jungle_hills: Тропиктік орман төбелері
   jungle_edge: Тропиктік орман асуы
+  stone_shore: Жартасты жағалау
+  birch_forest: Қайың орманы
   birch_forest_hills: Қайың орман төбелері
   dark_forest: Дүлей орман
   snowy_taiga_hills: Қарлы тайга төбелері
+  giant_tree_taiga: Алып ағаштар бар тайга
   giant_tree_taiga_hills: Алып ағаштар бар тайга төбелері
   wooded_mountains: Орманды таулар
+  savanna_plateau: Саванна үстірті
   badlands: Бедеу
   wooded_badlands_plateau: Орманды бедеу үстірті
   badlands_plateau: Бедеу үстірті
   small_end_islands: Энд кішкентай аралдар
+  end_midlands: Энд жазығы
+  end_highlands: Энд үстірті
   end_barrens: Энд асуы
   warm_ocean: Ыстық мұхит
   lukewarm_ocean: Жылы мұхит
   deep_warm_ocean: Терең ыстық мұхит
   deep_lukewarm_ocean: Терең жылы мұхит
+  sunflower_plains: Күнбағыс жазығы
   desert_lakes: Шөл көлдері
+  gravelly_mountains: Қиыршықтас таулары
+  taiga_mountains: Тайга таулары
   swamp_hills: Батпақ төбелері
   ice_spikes: Мұз шыңдары
+  modified_jungle: Өзгертілген тропиктік орман
+  modified_jungle_edge: Өзгертілген тропиктік орман асуы
+  tall_birch_forest: Ұзың қайың орманы
+  tall_birch_hills: Ұзын қайың төбелері
   dark_forest_hills: Дүлей орман төбелері
+  snowy_taiga_mountains: Қарлы тайга таулары
+  giant_spruce_taiga: Алып шыршалар бар тайга
   giant_spruce_taiga_hills: Алып шыршалар бар тайга төбелері
+  modified_gravelly_mountains: Қиыршықтас таулары+
+  shattered_savanna: Желді саванна
+  shattered_savanna_plateau: Желді саванна үстірті
   eroded_badlands: Шөлді бедеу
   modified_wooded_badlands_plateau: Өзгертілген орманды бедеу үстірті
   modified_badlands_plateau: Өзгертілген бедеу үстірті
@@ -622,9 +653,34 @@ biome:
   bamboo_jungle_hills: Бамбук орман төбелері
 enchantment:
   flame: Жанғыш жебе
+  aqua_affinity: Сүңгуір
+  punch: Серпу
+  loyalty: Адалдық
+  depth_strider: Су асты жүруі
+  vanishing_curse: Жоғалту қарғысы
+  unbreaking: Мызғымастық
+  knockback: Қайтарыс
+  luck_of_the_sea: Теңіз бағы
+  binding_curse: Байлынысу қарғысы
+  efficiency: Тиімділік
+  frost_walker: Мұзды жүріс
+  lure: Жем
   piercing: Өтуші жебе
+  smite: Катты соққы
+  multishot: Үштік ату
+  fire_aspect: Отты қыр
+  channeling: Жай атқыш
+  sweeping: Заһарлы жүз
+  thorns: Тікенектер
   bane_of_arthropods: Бунақденелердің өлімі
+  respiration: Су тынысы
+  riptide: Тартқыш
+  silk_touch: Жібек жанасуы
+  quick_charge: Жылдам қайта оқтау
+  projectile_protection: Оқтан қорғау
+  impaling: Түйреткіш
   feather_falling: Жеңілдік
+  infinity: Шексіздік
 potion:
   uncraftable: Жасалмаған ішімдік
   water: Су бөтелке
@@ -634,24 +690,46 @@ potion:
   night_vision: Түнгі көрінушілік ішімдігі
   invisibility: Көрінбеусіздік ішімдігі
   jump: Секіріс ішімдігі
+  fire_resistance: Отқа төзімділік ішімдігі
+  speed: Жылдамдық ішімдігі
   slowness: Бәсеңдік ішімдігі
   water_breathing: Судың тыныс ішімдігі
   instant_heal: Жазылу ішімдігі
+  instant_damage: Зақым ішімдігі
+  poison: Улану ішімдігі
+  regen: Регенерация ішімдігі
+  strength: Күш ішімдігі
+  weakness: Әлсіздік ішімдігі
+  luck: Сәттілік ішімдігі
   turtle_master: Тасбақа шеберінің ішімдігі
+  slow_falling: Баяу құлау ішімдігі
 splash_potion:
   uncraftable: Жасалмаған жарылғыш ішімдік
   water: Жарылғыш су бөтелке
   mundane: Орташа жарылғыш ішімдік
   thick: Қалың жарылғыш ішімдік
+  awkward: Тұнбалы жарылғыш ішімдік
   night_vision: Түнгі көрінушілік жарылғыш ішімдік
   invisibility: Көрінбеусіздік жарылғыш ішімдік
   jump: Секіріс жарылғыш ішімдік
+  fire_resistance: Отқа төзімділік жарылғыш ішімдік
+  speed: Жылдамдық жарылғыш ішімдік
   slowness: Бәсеңдік жарылғыш ішімдік
   water_breathing: Судың тыныс жарылғыш ішімдік
+  instant_heal: Жазылу жарылғыш ішімдік
+  instant_damage: Зақым жарылғыш ішімдік
+  poison: Улану жарылғыш ішімдік
+  regen: Регенерация жарылғыш ішімдік
+  strength: Күш жарылғыш ішімдік
+  weakness: Әлсіздік жарылғыш ішімдік
+  luck: Сәттілік жарылғыш ішімдік
   turtle_master: Тасбақа шеберінің жарылғыш ішімдік
+  slow_falling: Баяу құлау жарылғыш ішімдік
 lingering_potion:
   uncraftable: Тұмандық жасалмаған ішімдігі
   water: Тұмандық су бөтелке
+  mundane: Орташа тұмандық ішімдік
+  thick: Тұманды қалың ішімдік
   awkward: Тұмандық тұнбалы ішімдік
   night_vision: Тұмандық түнгі көрінушілік ішімдігі
   invisibility: Тұмандық көрінбеусіздік ішімдігі
@@ -660,6 +738,7 @@ lingering_potion:
   speed: Тұмандық жылдамдық ішімдігі
   slowness: Тұманды бәсеңдік ішімдігі
   water_breathing: Тұмандық су тыныс ішімдігі
+  instant_heal: Тұманды жазылу ішімдігі
   instant_damage: Тұмандық залым ішімдігі
   poison: Тұмандық улану ішімдігі
   regen: Тұмандық регенерация ішімдігі
@@ -696,11 +775,14 @@ entity:
   wither_skeleton: Визер-сүлде
   stray: Қаңғыбас
   egg: Тасталған жұмыртқа
+  leash_hitch: Шылбыр түйіні
   arrow: Жебе
   snowball: Қар кесегі
   fireball: Отты шар
   small_fireball: Кішкентай отты шар
   ender_pearl: Тасталған эндер-меруерт
+  ender_signal: Эндер көзі
+  splash_potion: Ішімдік
   thrown_exp_bottle: Тасталған сиқыр толы бөтелке
   wither_skull: Визер басы
   primed_tnt: Белсендірілген динамит
@@ -722,17 +804,22 @@ entity:
   minecart_hopper: Тиегіш құйғыш бар вагонша
   minecart_mob_spawner: Тәлімбақ бар вагонша
   skeleton: Сүлде
+  ghast: Гаст
+  enderman: Эндермен
   cave_spider: Үнгір өрмеші
   silverfish: Қоңызқұрт
   blaze: Жалыншық
   magma_cube: Магмолық куб
   ender_dragon: Эндер-аждаһасы
   wither: Визер
+  endermite: Эндермит
   mushroom_cow: Мууңіреуқұлақ
   llama_spit: Лама түкіреігі
   parrot: Тотықұс
+  ender_crystal: Энд кристалы
   phantom: Жын
   trident: Үш ашалы
+  cod: Нәлім
   pufferfish: Кірпі-балық
   tropical_fish: Тропикалық балық
   ravager: Бүлдіруші
@@ -740,6 +827,7 @@ entity:
   fishing_hook: Қалтқыт
 effect:
   slow: Бәсеңдік
+  fast_digging: Асығыстық
   slow_digging: Болдырғандық
   heal: Жазылу
   harm: Жедел зақым
@@ -754,6 +842,7 @@ effect:
   glowing: Жалтырау
   levitation: Левитация
   unluck: Қырсық
+  slow_falling: Баяу құлау
   conduit_power: Теңіз көзінің күші
   dolphins_grace: Дельфин әсемдігі
   bad_omen: Жаман белгі
@@ -774,6 +863,9 @@ dye_color:
   pink: Алқызыл
   light_gray: Бозғылт
   cyan: Зеңгір
+named:
+  unknown_enchantment: 'Белгісіз сиқыр: %s'
+  unknown_entity: 'Белгісіз жанды: %s'
 tropical_fish_name:
   '117506305': Анемон-балық
   '117899265': Кара хирург

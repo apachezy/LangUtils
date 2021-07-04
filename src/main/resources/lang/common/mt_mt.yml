@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:48                    #
+# Build time: 2021-07-04 21:46:04                    #
 # ####################################################
 language:
   code: mt_mt
@@ -14,12 +14,19 @@ material:
   polished_diorite: Diorite Illustrat
   andesite: Andesite
   polished_andesite: Andesite Illustrat
+  deepslate: Deepslate
+  cobbled_deepslate: Cobbled Deepslate
+  polished_deepslate: Deepslate illustrat
+  calcite: Kalċit
+  tuff: Tuff
+  dripstone_block: Blokka tal-ġebel tad-dripp
   grass_block: Blokka tal-Ħaxix
   dirt: Ħamrija
   coarse_dirt: Ħamrija Ħoxna
   podzol: Podzol
-  crimson_nylium: Niċelju Krimżi
-  warped_nylium: Niċelju Stramb
+  rooted_dirt: Ħmieġ bl-Għeruq
+  crimson_nylium: Njlium Krimżi
+  warped_nylium: Njlium Stramb
   cobblestone: Ġebel Imfarrak
   oak_planks: Planks tal-ballut
   spruce_planks: Planks ta ' l-g ħażil
@@ -39,10 +46,67 @@ material:
   sand: Ramel
   red_sand: Ramel Aħmar
   gravel: Żrar
-  gold_ore: Sigħat tad-Deheb
-  iron_ore: Sigħat tal-Ħadid
   coal_ore: Sigħat tal-Faħam
+  deepslate_coal_ore: "Deepslate \nFaħam Minerali"
+  iron_ore: Sigħat tal-Ħadid
+  deepslate_iron_ore: Deepslate Ħadid Minerali
+  copper_ore: Minerali tar-ram
+  deepslate_copper_ore: Ore tar-Ram Deepslate
+  gold_ore: Sigħat tad-Deheb
+  deepslate_gold_ore: Deepslate Deheb Minerali
+  redstone_ore: Sigħat tar-Redstone
+  deepslate_redstone_ore: Mineral tal-laħam tal-ġebel aħmar
+  emerald_ore: Sigħat tal-Iżmerald
+  deepslate_emerald_ore: Deepslate Emerald Minerali
+  lapis_ore: Sigħat tal-Lapis Lazuli
+  deepslate_lapis_ore: Deepslate Lapis Lazuli Minerali
+  diamond_ore: Sigħat tad-Djamant
+  deepslate_diamond_ore: Deepslate Djamant Minerali
   nether_gold_ore: Ore tad-Deheb Nether
+  nether_quartz_ore: Sigħat tal-Kwartz tan-Nether
+  ancient_debris: Tifrik Antik
+  coal_block: Blokka tal-Faħam
+  raw_iron_block: Blokk ta 'Ħadid mhux maħdum
+  raw_copper_block: Blokk ta 'Ram mhux maħdum
+  raw_gold_block: Blokk ta 'Deheb mhux maħdum
+  amethyst_block: Blokk ta ' Amethyst
+  budding_amethyst: Amethyst li tibża '
+  iron_block: Blokka tal-Ħadid
+  copper_block: Blocka Ram
+  gold_block: Blokka tad-Deheb
+  diamond_block: Blokka tad-Djamant
+  netherite_block: Blokk ta 'Netherajt
+  exposed_copper: Ram Espost
+  weathered_copper: Ram ittrattat
+  oxidized_copper: Ram Ossidat
+  cut_copper: Ram maqtugħ
+  exposed_cut_copper: Ram Maqtugħ Espost
+  weathered_cut_copper: Ram maqtugħ imfewwek
+  oxidized_cut_copper: Ram Maqtugħ Ossidat
+  cut_copper_stairs: Taraġ tar-Ram Maqtugħ
+  exposed_cut_copper_stairs: Taraġ tar-Ram Maqtugħ Espost
+  weathered_cut_copper_stairs: Taraġ tar-ram maqtugħ imteffi
+  oxidized_cut_copper_stairs: Taraġ tar-Ram Maqtugħ Ossidat
+  cut_copper_slab: Slab tar-ram maqtugħ
+  exposed_cut_copper_slab: Ċangatura tar-Ram Maqtugħa Esposta
+  weathered_cut_copper_slab: Slab tar-ram maqtugħ imteeħed
+  oxidized_cut_copper_slab: Slab tar-Ram Maqtugħ Ossidat
+  waxed_copper_block: Blokk tax-Xama 'tar-Ram
+  waxed_exposed_copper: Ram Espost Ix-Xama '
+  waxed_weathered_copper: Ram Imlaħħam Bix-Xama '
+  waxed_oxidized_copper: Ram Ossidat Ix-Xama '
+  waxed_cut_copper: Ram Maqtugħ xema'
+  waxed_exposed_cut_copper: Ram Maqtugħ Espost Ix-Xama '
+  waxed_weathered_cut_copper: Ram Maqtugħ bit-Tneħħija tax-Xama '
+  waxed_oxidized_cut_copper: Ram Maqtugħ Ossidat Ix-Xama '
+  waxed_cut_copper_stairs: Taraġ maqtugħ tar-Ram tax-Xama'
+  waxed_exposed_cut_copper_stairs: Taraġ tar-Ram Maqtugħ Espost Xama '
+  waxed_weathered_cut_copper_stairs: Taraġ tar-Ram Maqtugħ bit-Tbaqbieq
+  waxed_oxidized_cut_copper_stairs: Taraġ tar-Ram Maqtugħ Ossidat Ix-Xama '
+  waxed_cut_copper_slab: Slab tar-ram maqtugħ mix-xama'
+  waxed_exposed_cut_copper_slab: Slab tar-Ram Maqtugħ Espost Ix-Xama '
+  waxed_weathered_cut_copper_slab: Ċangatura tar-Ram Maqtugħa Mqaddsa Bix-Xama '
+  waxed_oxidized_cut_copper_slab: Slab tar-Ram Maqtugħ Ossidat Ix-Xama '
   oak_log: Ġurnal tal-ballut
   spruce_log: Reġistru tal-ispruce
   birch_log: Zokk tal-betbiena
@@ -81,26 +145,24 @@ material:
   jungle_leaves: Weraq tal-Ġungla
   acacia_leaves: Weraq tal-Akaċja
   dark_oak_leaves: Wearaq tal-Ballut Skur
+  azalea_leaves: Weraq tal-Azalea
+  flowering_azalea_leaves: Weraq tal-Azalea tal-Fjuri
   sponge: Sponża
   wet_sponge: Sponża Mxarba
   glass: Ħġieġ
-  lapis_ore: Sigħat tal-Lapis Lazuli
-  lapis_block: Blokka tal-Lapis Lazuli
-  dispenser: Dispensur
+  tinted_glass: Ħġieġ ikkulurit
+  lapis_block: Blokk ta' Lapis Lazuli
   sandstone: Ġebel tal-Franka
   chiseled_sandstone: Ġebel tal-Franka Mnaqqax
   cut_sandstone: Ġebel imrammel
-  note_block: Blokka tal-Mużika
-  powered_rail: Linji Mixgħulin
-  detector_rail: Linji Didekters
-  sticky_piston: Pistun Iweħħel
   cobweb: Għanqbuta
   grass: Ħaxix
   fern: Xitla
+  azalea: Azalea
+  flowering_azalea: Azalea tal-Fjuri
   dead_bush: Xitla Niexfa
   seagrass: Ħaxix tal-ba ħar
   sea_pickle: Pickle tal-ba ħar
-  piston: Pistun
   white_wool: Suf Abjad
   orange_wool: Suf Oranġjo
   magenta_wool: Suf Vjola Ċar
@@ -130,6 +192,7 @@ material:
   cornflower: Fjura tal-qam ħirrun
   lily_of_the_valley: Lily tal-Wied
   wither_rose: Wither Rose
+  spore_blossom: Fjur tal-Ispora
   brown_mushroom: Faqqiegħ kannella
   red_mushroom: Faqqiegħ aħmar
   crimson_fungus: Fungi Krimżi
@@ -141,9 +204,12 @@ material:
   twisting_vines: Dwieli li Jduru
   sugar_cane: Kannamieli zokkor
   kelp: Kelp
+  moss_carpet: Tapit ħażiż
+  moss_block: Blokk Ħażiż
+  hanging_roots: Għeruq Mdendlin
+  big_dripleaf: Dripleaf Kbir
+  small_dripleaf: Dripleaf Żgħir
   bamboo: Bambù
-  gold_block: Blokka tad-Deheb
-  iron_block: Blokka tal-Ħadid
   oak_slab: Blokka tal-ballut
   spruce_slab: Blokka ta ' l-ispruce
   birch_slab: Blokka tal-betula
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: Ġebel tal-Franka Lixx
   smooth_stone: Ġebla lixxa
   bricks: Briks
-  tnt: Splussivi
   bookshelf: Xkafef
   mossy_cobblestone: Il-mossija Cobblestone
   obsidian: Ossidnu
@@ -187,27 +252,11 @@ material:
   spawner: Qed jaqla '
   oak_stairs: Turġien tal-ballut
   chest: Senduq
-  diamond_ore: Sigħat tad-Djamant
-  diamond_block: Blokka tad-Djamant
   crafting_table: Mejda tas-Snajja
   farmland: Art tar-Raba
   furnace: Forn
   ladder: Sellum
-  rail: Linji tat-Trakk
   cobblestone_stairs: Taraġ tal-Ġebel
-  lever: Swiċċ
-  stone_pressure_plate: Pjanċa tal-Ġebel
-  oak_pressure_plate: Pjanċa tal-pressjoni tal-ballut
-  spruce_pressure_plate: Pjanċa tal-pressjoni spruce
-  birch_pressure_plate: Pjanċa tal-pressjoni tal-birch
-  jungle_pressure_plate: Pjanċa tal-pressjoni ġungla
-  acacia_pressure_plate: Pjanċa tal-pressjoni tal-AKA ċja
-  dark_oak_pressure_plate: Pjanċa tal-pressjoni tal-ballut skura
-  crimson_pressure_plate: Pjanċa tal-Pressjoni Krimżi
-  warped_pressure_plate: Pjanċa tal-Pressjoni Stramb
-  polished_blackstone_pressure_plate: Pjanċa tal-Pressjoni tal-Ġebla Sewda Illostrata
-  redstone_ore: Sigħat tar-Redstone
-  redstone_torch: Torċa tar-Redstone
   snow: Borra
   ice: Silġ
   snow_block: Blokka tas-Sil ġ
@@ -224,32 +273,31 @@ material:
   warped_fence: Ċint Stramb
   pumpkin: Qargħa Ħamra
   carved_pumpkin: Qara ' ħamra
+  jack_o_lantern: Qargħa Ħamra Tixgħel
   netherrack: Ġebel tan-Nether
   soul_sand: Trab tal-Erwieħ
   soul_soil: Ħamrija tar-Ruħ
   basalt: Bażalt
   polished_basalt: Bażalt Illostrat
-  soul_torch: Torċa tar-Ruħ
+  smooth_basalt: Basalt Lixx
+  soul_torch: Ruħ Torċa
   glowstone: Ġebel Jixgħel
-  jack_o_lantern: Qargħa Ħamra Tixgħel
-  oak_trapdoor: Trapbieba tal-ballut
-  spruce_trapdoor: Trapbieb ta ' l-ispruce
-  birch_trapdoor: Traplbieba tal-betula
-  jungle_trapdoor: '"Jungla Trapbieb"'
-  acacia_trapdoor: It-Trapbieb tal-AKA ċja
-  dark_oak_trapdoor: Trapbieb skur tal-ballut
-  crimson_trapdoor: Bieba Krimżi
-  warped_trapdoor: Bieba Stramba
   infested_stone: Ġebel infestat
   infested_cobblestone: Il-Cobblestone infestati
   infested_stone_bricks: Briks tal-ġebel infestati
   infested_mossy_stone_bricks: Briks tal-ġebel tal-Mossija infestati
   infested_cracked_stone_bricks: Briks tal-ġebel Ikkrekkjati bis-s ĦANA
   infested_chiseled_stone_bricks: Briks tal-ġebel Chismejjel
+  infested_deepslate: Deepslate infestat
   stone_bricks: Briks tal-Ġebel
   mossy_stone_bricks: Briks tal-Ġebel bil-Moffa
   cracked_stone_bricks: Briks tal-Ġebel Imxaqqaq
   chiseled_stone_bricks: Briks tal-Ġebel Imnaqqax
+  deepslate_bricks: Briks Deepslate
+  cracked_deepslate_bricks: Cracked Deepslate Bricks
+  deepslate_tiles: Madum Deepslate
+  cracked_deepslate_tiles: Madum Deepslate maqsum
+  chiseled_deepslate: Ċilindru Deepslate
   brown_mushroom_block: Blokka tal-Faqqieg ħ kannella
   red_mushroom_block: Blokk tal-Faqqieg ħ aħmar
   mushroom_stem: Zokk tal-faqqieg ħ
@@ -258,14 +306,7 @@ material:
   glass_pane: Ħġieġa Ċatta
   melon: Dulliegħa
   vine: Dwieli
-  oak_fence_gate: Grada tal-Ballut
-  spruce_fence_gate: Grada tal-Arżnu
-  birch_fence_gate: Grada tal-Betula
-  jungle_fence_gate: Grada tal-Injam tal-Ġungla
-  acacia_fence_gate: Grada tal-Akaċja
-  dark_oak_fence_gate: Grada tal-Ballut Skur
-  crimson_fence_gate: Grada Krimżi
-  warped_fence_gate: Grada Stramba
+  glow_lichen: Tiddix Liken
   brick_stairs: Taraġ tal-Briks
   stone_brick_stairs: Taraġ tal-Briks tal-Ġebel
   mycelium: Moffa
@@ -280,11 +321,8 @@ material:
   end_stone: Ġebel tal-Ender
   end_stone_bricks: Briks tal-Ġebel tal-Ender
   dragon_egg: Bajda ta' Dragun
-  redstone_lamp: Lampa tar-Redstone
   sandstone_stairs: Taraġ tal-Franka
-  emerald_ore: Sigħat tal-Iżmerald
   ender_chest: Senduq tal-Ender
-  tripwire_hook: Ganċ tat-Trappola
   emerald_block: Blokka tal-Iżmerald
   spruce_stairs: Turġien fuq spruce
   birch_stairs: Turġien tal-betula
@@ -310,33 +348,18 @@ material:
   blackstone_wall: Ħajt tal-Ġebla Sewda
   polished_blackstone_wall: Ħajt tal-Ġebla Sewda Illostrata
   polished_blackstone_brick_wall: Ħajt tal-Briks tal-Ġebel Sewda Illostrata
-  stone_button: Buttuna tal-ġebel
-  oak_button: Buttuna tal-ballut
-  spruce_button: Buttuna ta ' spruce
-  birch_button: Buttuna tal-betula
-  jungle_button: Buttuna tal-ġungla
-  acacia_button: Buttuna tal-AKA ċja
-  dark_oak_button: Buttuna tal-ballut skura
-  crimson_button: Buttuna Krimżi
-  warped_button: Buttuna Stramba
-  polished_blackstone_button: Buttuna tal-Ġebla Sewda Illostrata
+  cobbled_deepslate_wall: Ħajt Cobbled Deepslate
+  polished_deepslate_wall: Ħajt Deepslate illustrat
+  deepslate_brick_wall: Ħajt tal-Briks Deepslate
+  deepslate_tile_wall: Ħajt tal-Madum Deepslate
   anvil: Inkwina
   chipped_anvil: Imqatta ' bċejjeċ tal-art
   damaged_anvil: Anvil bil-ħsara
-  trapped_chest: Senduq Trappola
-  light_weighted_pressure_plate: Pjanċa tal-pressjoni peżata ħafifa
-  heavy_weighted_pressure_plate: Pjanċa tal-pressjoni ppeżata ħafna
-  daylight_detector: Ditekter tad-dawl tax-xemx
-  redstone_block: Blokka tar-Redstone
-  nether_quartz_ore: Sigħat tal-Kwartz tan-Nether
-  hopper: Lembut
   chiseled_quartz_block: Blokka tal-Kwarz Imnaqqxa
   quartz_block: Blokka tal-Kwarz
   quartz_bricks: Briks tal-Kwarz
   quartz_pillar: Pilastru tal-kwarz
   quartz_stairs: Taraġ tal-Kwarz
-  activator_rail: Linji Jattivaw
-  dropper: Qattara
   white_terracotta: Abjad Terracotta
   orange_terracotta: Oranġjo Terracotta
   magenta_terracotta: Magenta Terracotta
@@ -354,7 +377,7 @@ material:
   red_terracotta: Terrakotta aħmar
   black_terracotta: Terrakotta sewda
   barrier: Blokka Inviżibli
-  iron_trapdoor: Bokkaport tal-Ħadid
+  light: Dawl
   hay_block: Tiben
   white_carpet: Tapit abjad
   orange_carpet: Tapit Oranġjo
@@ -373,12 +396,10 @@ material:
   red_carpet: Tapit Aħmar
   black_carpet: Tapit Iswed
   terracotta: Terracotta
-  coal_block: Blokka tal-Faħam
   packed_ice: Silġ Solidu
   acacia_stairs: Turġien tal-AKA ċja
   dark_oak_stairs: Turġien skuri tal-ballut
-  slime_block: Blokka tal-Ħama
-  grass_path: Passaġġ fil-Ħaxix
+  dirt_path: Mogħdija tal-Ħmieġ
   sunflower: Ġirasol
   lilac: Lela'
   rose_bush: Xitla tal-Ward
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: Brikks tan-neputi ħomor
   bone_block: Blokka tal-Għadam
   structure_void: Struttura Vojta
-  observer: Osservatur
   shulker_box: Kaxxa ta ' shulker
   white_shulker_box: Kaxxa ta ' Shulker bajda
   orange_shulker_box: Kaxxa ta ' Shulker oranġjo
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: Turġien ħomor tal-briks
   polished_andesite_stairs: Turġien tat-Estint illustrati
   diorite_stairs: Turġien tad-diorite
+  cobbled_deepslate_stairs: Taraġ Cobbled Deepslate
+  polished_deepslate_stairs: Taraġ Deepslate illustrat
+  deepslate_brick_stairs: Taraġ tal-Briks Deepslate
+  deepslate_tile_stairs: Taraġ tal-Madum Deepslate
   polished_granite_slab: Blokka tal-granit illustrati
   smooth_red_sandstone_slab: Blokka tas-Sandstone ħamra
   mossy_stone_brick_slab: Blokka tal-briks tal-ġebel mossija
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: Blokka tal-briks tan-Nether ħamra
   polished_andesite_slab: Blokka tat-Estint illustrati
   diorite_slab: Blokka tad-diorite
+  cobbled_deepslate_slab: Ċangatura ta 'l-islava ċatta
+  polished_deepslate_slab: Slab Deepslate illustrat
+  deepslate_brick_slab: Deepslate Brick Slab
+  deepslate_tile_slab: Ċangatura tal-Madum Deepslate
   scaffolding: Armar
+  redstone: Trab tar-Redstone
+  redstone_torch: Torċa tar-Redstone
+  redstone_block: Blokka tar-Redstone
+  repeater: Dajowd tar-Redstone
+  comparator: Komparatur tar-Redstone
+  piston: Pistun
+  sticky_piston: Pistun Iweħħel
+  slime_block: Blokka tal-Ħama
+  honey_block: Blokka tal-g ħasel
+  observer: Osservatur
+  hopper: Lembut
+  dispenser: Dispensur
+  dropper: Qattara
+  lectern: Lectern
+  target: Mira
+  lever: Swiċċ
+  lightning_rod: Virga tas-sajjetti
+  daylight_detector: Ditekter tad-dawl tax-xemx
+  sculk_sensor: Sculk Ditekter
+  tripwire_hook: Ganċ tat-Trappola
+  trapped_chest: Senduq Trappola
+  tnt: Splussivi
+  redstone_lamp: Lampa tar-Redstone
+  note_block: Blokka tal-Mużika
+  stone_button: Buttuna tal-ġebel
+  polished_blackstone_button: Buttuna tal-Ġebla Sewda Illostrata
+  oak_button: Buttuna tal-ballut
+  spruce_button: Buttuna ta ' spruce
+  birch_button: Buttuna tal-betula
+  jungle_button: Buttuna tal-ġungla
+  acacia_button: Buttuna tal-AKA ċja
+  dark_oak_button: Buttuna tal-ballut skura
+  crimson_button: Buttuna Krimżi
+  warped_button: Buttuna Stramba
+  stone_pressure_plate: Pjanċa tal-Ġebel
+  polished_blackstone_pressure_plate: Pjanċa tal-Pressjoni tal-Ġebla Sewda Illostrata
+  light_weighted_pressure_plate: Pjanċa tal-pressjoni peżata ħafifa
+  heavy_weighted_pressure_plate: Pjanċa tal-pressjoni ppeżata ħafna
+  oak_pressure_plate: Pjanċa tal-pressjoni tal-ballut
+  spruce_pressure_plate: Pjanċa tal-pressjoni spruce
+  birch_pressure_plate: Pjanċa tal-pressjoni tal-birch
+  jungle_pressure_plate: Pjanċa tal-pressjoni ġungla
+  acacia_pressure_plate: Pjanċa tal-pressjoni tal-AKA ċja
+  dark_oak_pressure_plate: Pjanċa tal-pressjoni tal-ballut skura
+  crimson_pressure_plate: Pjanċa tal-Pressjoni Krimżi
+  warped_pressure_plate: Pjanċa tal-Pressjoni Stramb
   iron_door: Bieb tal-Ħadid
   oak_door: Bieb tal-Ballut
   spruce_door: Bieb tal-Arżnu
@@ -572,8 +646,42 @@ material:
   dark_oak_door: Bieb tal-Ballut Skur
   crimson_door: Bieb Krimżi
   warped_door: Bieb Stramb
-  repeater: Dajowd tar-Redstone
-  comparator: Komparatur tar-Redstone
+  iron_trapdoor: Bokkaport tal-Ħadid
+  oak_trapdoor: Trapbieba tal-ballut
+  spruce_trapdoor: Trapbieb ta ' l-ispruce
+  birch_trapdoor: Traplbieba tal-betula
+  jungle_trapdoor: '"Jungla Trapbieb"'
+  acacia_trapdoor: It-Trapbieb tal-AKA ċja
+  dark_oak_trapdoor: Trapbieb skur tal-ballut
+  crimson_trapdoor: Bieba Krimżi
+  warped_trapdoor: Bieba Stramba
+  oak_fence_gate: Grada tal-Ballut
+  spruce_fence_gate: Grada tal-Arżnu
+  birch_fence_gate: Grada tal-Betula
+  jungle_fence_gate: Grada tal-Injam tal-Ġungla
+  acacia_fence_gate: Grada tal-Akaċja
+  dark_oak_fence_gate: Grada tal-Ballut Skur
+  crimson_fence_gate: Grada Krimżi
+  warped_fence_gate: Grada Stramba
+  powered_rail: Linji Mixgħulin
+  detector_rail: Linji Didekters
+  rail: Linji tat-Trakk
+  activator_rail: Linji Jattivaw
+  saddle: Sarġ
+  minecart: Karretta
+  chest_minecart: Karretta b'Senduq
+  furnace_minecart: Karretta b'Forn
+  tnt_minecart: Karretta bl-Isplussivi
+  hopper_minecart: Karretta b'Lembut
+  carrot_on_a_stick: Karrotta fuq Stikka
+  warped_fungus_on_a_stick: Fungu Stramb fuq Stikka
+  elytra: Elytra
+  oak_boat: Dgħajsa tal-Ballut
+  spruce_boat: Dgħajsa tal-Arżnu
+  birch_boat: Dgħajsa tal-Betula
+  jungle_boat: Dgħajsa tal-Injam tal-Ġungla
+  acacia_boat: Dgħajsa tal-Akaċja
+  dark_oak_boat: Dgħajsa tal-Ballut Skur
   structure_block: Blokka tal-Istruttura
   jigsaw: Blokk ta ' jigsaw
   turtle_helmet: Qoxra tal-fekruna
@@ -585,7 +693,15 @@ material:
   coal: Faħam
   charcoal: Faħam tal-Injam
   diamond: Djamant
+  emerald: Żmerald
+  lapis_lazuli: Lapis Lazuli
+  quartz: Kwarz tan-Nether
+  amethyst_shard: Amethyst Frak
+  raw_iron: Ħadid mhux maħdum
   iron_ingot: Ingott tal-Ħadid
+  raw_copper: Ram mhux maħdum
+  copper_ingot: Ingotta tar-ram
+  raw_gold: Deheb mhux maħdum
   gold_ingot: Ingott tad-Deheb
   netherite_ingot: Ingott tan-Netherajt
   netherite_scrap: Ferralja tan-Netherajt
@@ -669,29 +785,27 @@ material:
   bucket: Barmil
   water_bucket: Barmil Ilma
   lava_bucket: Barmil Lava
-  minecart: Karretta
-  saddle: Sarġ
-  redstone: Trab tar-Redstone
+  powder_snow_bucket: Trab Barmil Borra
   snowball: Ballun tas-Silġ
-  oak_boat: Dgħajsa tal-Ballut
   leather: Ġilda
   milk_bucket: Barmil tal-ħalib
   pufferfish_bucket: Barmil ta ' Pufferfish
   salmon_bucket: Barmil tas-salamun
   cod_bucket: Barmil tal-bakkaljaw
   tropical_fish_bucket: Barmil tal-ħut tropikali
+  axolotl_bucket: Barmil ta 'Axolotl
   brick: Briksa
   clay_ball: Ballun tat-Tafal
   dried_kelp_block: Blokk Kelp imnixxef
   paper: Karta
   book: Ktieb
   slime_ball: Ballun tal-Ħama
-  chest_minecart: Karretta b'Senduq
-  furnace_minecart: Karretta b'Forn
   egg: Bajda
   compass: Boxla
+  bundle: Gozz
   fishing_rod: Qasba tas-Sajd
   clock: Arloġġ
+  spyglass: Tazza tal-ispija
   glowstone_dust: Trab tal-Ġebel Jixgħel
   cod: Bakkaljaw mhux maħdum
   salmon: Salamun Nej
@@ -700,8 +814,8 @@ material:
   cooked_cod: Merluzz imsajjar
   cooked_salmon: Salamun Imsajjar
   ink_sac: Inka
+  glow_ink_sac: Glow Ink Sac
   cocoa_beans: Fażola tal-Kawkaw
-  lapis_lazuli: Lapis Lazuli
   white_dye: Kulur abjad
   orange_dye: Żebgħa Oranġjo
   magenta_dye: Żebgħa Vjola Ċara
@@ -765,6 +879,7 @@ material:
   cauldron: Kaldarun
   ender_eye: Għajn tal-Ender
   glistering_melon_slice: Glistering Melon porzjon
+  axolotl_spawn_egg: Bajd ta 'Axolotl
   bat_spawn_egg: Bajda tal-bajd
   bee_spawn_egg: Bajd tan-na Ħal
   blaze_spawn_egg: Il-bajda
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: Bajda tal-bajd (evoker)
   fox_spawn_egg: Bajda tal-volpi
   ghast_spawn_egg: Bajda tal-bajd ghast
+  glow_squid_spawn_egg: Klamar brillanti Bajd li jbid
+  goat_spawn_egg: Bajd ta 'Mogħoż
   guardian_spawn_egg: Guardian Spawn Egg
   hoglin_spawn_egg: Bajda tal-Hoglin
   horse_spawn_egg: Bajd taż-żiemel
@@ -833,8 +950,8 @@ material:
   fire_charge: Balma tan-Nar
   writable_book: Ktieb bir-Rixa
   written_book: Ktieb Miktub
-  emerald: Żmerald
   item_frame: Inkwatru
+  glow_item_frame: Qawwa tal-Oġġett Tiddix
   flower_pot: Qasrija
   carrot: Karrotta
   potato: Patata
@@ -848,17 +965,12 @@ material:
   zombie_head: Ras ta' Mostru
   creeper_head: Ras ta' Creeper
   dragon_head: Ras ta' Dragun
-  carrot_on_a_stick: Karrotta fuq Stikka
-  warped_fungus_on_a_stick: Fungu Stramb fuq Stikka
   nether_star: Stilla tan-Nether
   pumpkin_pie: Torta tal-Qargħa Ħamra
   firework_rocket: Murtal
   firework_star: Balma tal-Murtali
   enchanted_book: Ktieb Maġiku
   nether_brick: Briks tan-Nether
-  quartz: Kwarz tan-Nether
-  tnt_minecart: Karretta bl-Isplussivi
-  hopper_minecart: Karretta b'Lembut
   prismarine_shard: Farka tal-Prismarine
   prismarine_crystals: Kristalli tal-Prismarine
   rabbit: Fenek Nej
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: Vleġġa Miksija
   lingering_potion: Il-Pozzjoni tal-lingering
   shield: Tarka
-  elytra: Elytra
-  spruce_boat: Dgħajsa tal-Arżnu
-  birch_boat: Dgħajsa tal-Betula
-  jungle_boat: Dgħajsa tal-Injam tal-Ġungla
-  acacia_boat: Dgħajsa tal-Akaċja
-  dark_oak_boat: Dgħajsa tal-Ballut Skur
   totem_of_undying: Totem tal-Undikazzjoni
   shulker_shell: Qoxra tas-shulker
   iron_nugget: Nugget tal-ħadid
@@ -948,13 +1054,13 @@ material:
   cartography_table: Tabella tal-kartografija
   fletching_table: Fletching table
   grindstone: Ġebla tal-g ħadma
-  lectern: Lectern
   smithing_table: Smithing table
   stonecutter: Stonecutter
   bell: Bell
   lantern: Fanal
   soul_lantern: Fanal tar-Ruħ
   sweet_berries: Berries ħelu
+  glow_berries: Berries Tiddix
   campfire: Ħuġġieġa
   soul_campfire: Nar tal-Kamp tar-Ruħ
   shroomlight: Faqqiegħ li Jixgħel
@@ -962,12 +1068,8 @@ material:
   bee_nest: Bejta tan-na Ħal
   beehive: Tad doqqajs
   honey_bottle: Flixkun tal-g ħasel
-  honey_block: Blokka tal-g ħasel
   honeycomb_block: Xehda Blokk
-  lodestone: Ġebla tad-Direzzjonijiet
-  netherite_block: Blokk ta 'Netherajt
-  ancient_debris: Tifrik Antik
-  target: Mira
+  lodestone: Ġebla tad-Direzzjoni
   crying_obsidian: Obsidjana tal-Biki
   blackstone: Ġebla Sewda
   blackstone_slab: Ċangatura tal-Ġebla Sewda
@@ -977,11 +1079,33 @@ material:
   polished_blackstone_slab: Ċangatura tal-Ġebla Sewda Illostrata
   polished_blackstone_stairs: Taraġ tal-Ġebla Sewda Illostrata
   chiseled_polished_blackstone: Ġebla Sewda Illostrata bid-Disinn
-  polished_blackstone_bricks: Briks tal-Ġebla Sewda Illostrata
-  polished_blackstone_brick_slab: Ċangatura tal-Briks tal-Ġebla Sewda Illostrata
+  polished_blackstone_bricks: Briksiet tal-Ġebla Sewda Illostrata
+  polished_blackstone_brick_slab: Ċangatura tal-Ġebla Sewda Illostrata
   polished_blackstone_brick_stairs: Taraġ tal-Briks tal-Ġebla Sewda Illostrata
-  cracked_polished_blackstone_bricks: Briks tal-Ġebla Sewda Illostrati bil-Konsenturi
-  respawn_anchor: Ankra tar-Reġenerizzjoni
+  cracked_polished_blackstone_bricks: Briksiet tal-Ġebla Sewda Illostrati bil-Konsenturi
+  respawn_anchor: Ankra Mġarrba
+  candle: Xemg ħa
+  white_candle: Xemgħa bajda
+  orange_candle: Xemgħa oranġjo
+  magenta_candle: Xemgħa tal-Magenta
+  light_blue_candle: Xemgħa Blu Ċara
+  yellow_candle: Xemgħa safra
+  lime_candle: Xemgħa tal-ġir
+  pink_candle: Xemgħa roża
+  gray_candle: Xemgħa griża
+  light_gray_candle: Xemgħa griża ċara
+  cyan_candle: Xemgħa taċ-ċjani
+  purple_candle: Xemgħa vjola
+  blue_candle: Xemgħa blu
+  brown_candle: Xemgħa kannella
+  green_candle: Xemgħa ħadra
+  red_candle: Xemgħa ħamra
+  black_candle: Xemgħa sewda
+  small_amethyst_bud: Bud Amethyst Żgħir
+  medium_amethyst_bud: Bud Amethyst Medju
+  large_amethyst_bud: Bud Amethyst Kbira
+  amethyst_cluster: Amethyst Raggruppament
+  pointed_dripstone: Dripstone bil-ponta
   water: Ilma
   lava: Lava
   tall_seagrass: Seagrass twil
@@ -998,12 +1122,15 @@ material:
   jungle_wall_sign: Sinjal tal-ħajt tal-ġungla
   dark_oak_wall_sign: Ħajt skur tal-ballut
   redstone_wall_torch: Fekruna tal-ħajt ta ' l-g ħadma
-  soul_wall_torch: Torċa tar-Ruħ mal-Ħajt
+  soul_wall_torch: Qafla tal-Ħajt tar-Ruħ
   nether_portal: Portal nether
   attached_pumpkin_stem: Zokk imqabbad ma ' qara '
   attached_melon_stem: Zokk assoċjat tal-bettieħa
   pumpkin_stem: Zokk tal-Qargħa Ħamra
   melon_stem: Zokk tal-bettieħ
+  water_cauldron: Kaldarun tal-Ilma
+  lava_cauldron: Kaldarun tal-Lava
+  powder_snow_cauldron: Trab Borra Kaldarun
   end_portal: Portal tal-Ender
   cocoa: Kakaw
   tripwire: Trappola
@@ -1083,6 +1210,30 @@ material:
   potted_warped_fungus: Qasrija tal-Fungi Stramb
   potted_crimson_roots: Qasrija tal-Għeruq Krimżi
   potted_warped_roots: Qasrija tal-Għeruq Stramb
+  candle_cake: Kejk xemgħa
+  white_candle_cake: Kejk b'Xemgħa Bajda
+  orange_candle_cake: Kejk max-Xemgħa Oranġjo
+  magenta_candle_cake: Kejk max-Xemgħa Maġenta
+  light_blue_candle_cake: Kejk b'Xemgħa Blu Ċara
+  yellow_candle_cake: Kejk b'Xemgħa Isfar
+  lime_candle_cake: Kejk max-Xemgħa tal-Ġir
+  pink_candle_cake: Kejk b'Xemgħa Roża
+  gray_candle_cake: Kejk b'Xemgħa Griż
+  light_gray_candle_cake: Kejk bix-Xemgħa Griża Ħafifa
+  cyan_candle_cake: Kejk max-Xemgħa Cyan
+  purple_candle_cake: Kejk b'Xemgħa Vjola
+  blue_candle_cake: Kejk b'Xemgħa Blu
+  brown_candle_cake: Kejk b'Xemgħa Kannella
+  green_candle_cake: Kejk b'Xemgħa Ħadra
+  red_candle_cake: Kejk b'Xemgħa Ħamra
+  black_candle_cake: Kejk b'Xemgħa Sewda
+  powder_snow: Borra trab
+  cave_vines: Dwieli tal-Għerien
+  cave_vines_plant: Pjanta tad-Dwieli tal-Għerien
+  big_dripleaf_stem: Zokk Dripleaf Kbir
+  potted_azalea_bush: Azalea bil-Qsari
+  potted_flowering_azalea_bush: Azalea tal-Fjuri bil-Qsari
+  grass_path: Passaġġ fil-Ħaxix
   zombie_pigman_spawn_egg: Zapping Pigman tal-bajd
   cactus_green: Aħdar tal-Kaktus
   dandelion_yellow: Isfar tal-Lellux
@@ -1154,7 +1305,7 @@ biome:
   tall_birch_hills: Għoljiet ta ' Birch twal
   dark_forest_hills: Foresti mudlama telgħa
   snowy_taiga_mountains: Foresti tal-Muntanji li Jixirbu
-  giant_spruce_taiga: Foresti Spruce Big
+  giant_spruce_taiga: Ġganti Spruce Foresta
   giant_spruce_taiga_hills: Għoljiet ġgant Spruce Taiga
   modified_gravelly_mountains: Muntanji gravelly +
   shattered_savanna: Sebana għebet
@@ -1168,46 +1319,48 @@ biome:
   crimson_forest: Foresta tal-Krimson
   warped_forest: Foresta Medd
   basalt_deltas: Basalt Deltas
+  dripstone_caves: Għerien Dripstone
+  lush_caves: Għerien Lush
   nether: Ta
 enchantment:
-  fire_protection: Protezzjoni min-Nar
-  sharpness: Qawwa
-  flame: Fjamma
-  soul_speed: Veloċità tar-Ruħ
-  aqua_affinity: Għadis
-  punch: Daqqa
-  loyalty: Lealtà
-  depth_strider: Ħeffa fil-Fond
-  vanishing_curse: Seħta tal-Għeb
-  unbreaking: Bla Tkissir
-  knockback: Imbuttar
-  luck_of_the_sea: Fortuna tal-Baħar
-  binding_curse: Seħta tat-Tirbit
-  fortune: Fortuna
   protection: Protezzjoni
-  efficiency: Effiċjenza
-  mending: Tiswija
-  frost_walker: Mixi fuq is-Silġ
-  lure: Sajd
-  looting: Ġid
-  piercing: Titqib
-  blast_protection: Protezzjoni mill-Isplużjonijiet
-  smite: Qatgħa
-  multishot: Multishot
-  fire_aspect: Aspett tan-Nar
-  channeling: Qed jiġi
-  sweeping: Tarf tal-knis
-  thorns: Xewk
-  bane_of_arthropods: Saħta tal-Insetti
-  respiration: Respirazzjoni
-  riptide: Riptide
-  silk_touch: Mess tal-Ħarir
-  quick_charge: Iċċarġjar ta ' malajr
-  projectile_protection: Protezzjoni mil-Vleġeġ
-  impaling: Qed jaffettwa
+  fire_protection: Protezzjoni min-Nar
   feather_falling: Waqgħet Sikuri
+  blast_protection: Protezzjoni mill-Isplużjonijiet
+  projectile_protection: Protezzjoni mil-Vleġeġ
+  respiration: Respirazzjoni
+  aqua_affinity: Għadis
+  thorns: Xewk
+  depth_strider: Ħeffa fil-Fond
+  frost_walker: Mixi fuq is-Silġ
+  binding_curse: Seħta tat-Tirbit
+  sharpness: Qawwa
+  smite: Qatgħa
+  bane_of_arthropods: Saħta tal-Insetti
+  knockback: Imbuttar
+  fire_aspect: Aspett tan-Nar
+  looting: Ġid
+  sweeping: Tarf tal-knis
+  efficiency: Effiċjenza
+  silk_touch: Mess tal-Ħarir
+  unbreaking: Bla Tkissir
+  fortune: Fortuna
   power: Enerġija
+  punch: Daqqa
+  flame: Fjamma
   infinity: Infinit
+  luck_of_the_sea: Fortuna tal-Baħar
+  lure: Sajd
+  loyalty: Lealtà
+  impaling: Qed jaffettwa
+  riptide: Riptide
+  channeling: Qed jiġi
+  multishot: Multishot
+  quick_charge: Iċċarġjar ta ' malajr
+  piercing: Titqib
+  mending: Tiswija
+  vanishing_curse: Seħta tal-Għeb
+  soul_speed: Veloċità tar-Ruħ
 potion:
   uncraftable: Xarba Impossibbli
   water: Flixkun tal-Ilma
@@ -1349,7 +1502,7 @@ entity:
   zombie: Mostru
   slime: Ħama
   ghast: Ghast
-  zombified_piglin: Mhux mejjet Piglin
+  zombified_piglin: Piglin Zombifikat
   enderman: Enderman
   cave_spider: Brimba tal-Għerien
   silverfish: Susa
@@ -1401,7 +1554,12 @@ entity:
   piglin: Piglin
   strider: Qawwija
   zoglin: Zoglin
-  piglin_brute: Ilbut tal-piglin
+  piglin_brute: Ilbut tal-Piglin
+  axolotl: Axolotl
+  glow_item_frame: Qawwa tal-Oġġett tiddix
+  glow_squid: Klamari tleqq
+  goat: Mogħża
+  marker: Markatur
   fishing_hook: Bobber tas-sajd
   lightning: Bolt tas-sajjetti
   player: Player
@@ -2201,15 +2359,3 @@ villager_profession:
   shepherd: Ragħaj
   toolsmith: Għodod
   weaponsmith: Weaponsmith
-villager_career:
-  farmer: Bidwi
-  fisherman: Sajjied
-  shepherd: Ragħaj
-  fletcher: Arċier
-  librarian: Librar
-  cleric: Qassis
-  armorer: Armier
-  weapon_smith: Ħaddied tal-Armi
-  tool_smith: Ħaddied tal-Għodda
-  butcher: Biċċier
-  leatherworker: Ħaddiem tal-Ġilda

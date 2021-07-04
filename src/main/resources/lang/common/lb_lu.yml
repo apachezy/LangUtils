@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:48                    #
+# Build time: 2021-07-04 21:46:03                    #
 # ####################################################
 language:
   code: lb_lu
@@ -14,10 +14,16 @@ material:
   polished_diorite: Poléierten Diorit
   andesite: Andesit
   polished_andesite: Poléierten Andesit
+  deepslate: Déiwenschiefer
+  cobbled_deepslate: Brochdéiwenschiefer
+  calcite: Kalzit
+  tuff: Tuff
+  dripstone_block: Dripstone Block
   grass_block: Gras
   dirt: Äerd
   coarse_dirt: Graff Äerd
   podzol: Podsol
+  rooted_dirt: Wuerzeleärd
   crimson_nylium: Karmesin Nylium
   warped_nylium: Verduerwenen Nylium
   cobblestone: Brochsteen
@@ -28,7 +34,7 @@ material:
   acacia_planks: Akazienholzbrieder
   dark_oak_planks: Schwaarzeechenholzbrieder
   crimson_planks: Karmesinbrieder
-  warped_planks: Verduerwen Brieder
+  warped_planks: Verduerwe Brieder
   oak_sapling: Eechesetzlek
   spruce_sapling: Fiichtesetzlek
   birch_sapling: Bierkesetzlek
@@ -39,10 +45,63 @@ material:
   sand: Sand
   red_sand: Roude Sand
   gravel: Kräsi
-  gold_ore: Goldäerz
-  iron_ore: Eisenäerz
   coal_ore: Steekuel
+  deepslate_coal_ore: Tiefenschiefer Steekuel
+  iron_ore: Eisenäerz
+  deepslate_iron_ore: Tiefenschiefer Eisenerz
+  copper_ore: Kofferäerz
+  deepslate_copper_ore: Tiefenschiefer Koffererz
+  gold_ore: Goldäerz
+  deepslate_gold_ore: Tiefschiefer Golderz
+  redstone_ore: Redstoneäerz
+  deepslate_redstone_ore: Tiefenschiefer Redstoneerz
+  emerald_ore: Smaragdäerz
+  lapis_ore: Lapislazuliäerz
+  deepslate_lapis_ore: Tiefenschiefer Lapis Lazulierz
+  diamond_ore: Diamantäerz
+  deepslate_diamond_ore: Tiefenschiefer Diamantenerz
   nether_gold_ore: Nethergoldäerz
+  nether_quartz_ore: Netherquarzäerz
+  ancient_debris: Anticke Schrott
+  coal_block: Kueleblock
+  amethyst_block: Amethystblock
+  budding_amethyst: Amethystknospeblock
+  iron_block: Eiseblock
+  copper_block: Kofferblock
+  gold_block: Goldblock
+  diamond_block: Diamantblock
+  netherite_block: Netheriteblock
+  exposed_copper: Ugelafene Kofferblock
+  weathered_copper: Verwitterte Kofferblock
+  oxidized_copper: Oxidéierte Kofferblock
+  cut_copper: Geschniddene Koffer
+  exposed_cut_copper: Ugelafene geschniddene Koffer
+  weathered_cut_copper: Verwitterte geschniddene Koffer
+  oxidized_cut_copper: Oxidéierte geschniddene Kofferblock
+  cut_copper_stairs: Geschnidde Koffertrap
+  exposed_cut_copper_stairs: Gewuesst geschnidde Koffertrapen
+  weathered_cut_copper_stairs: Verwittert geschnidde Koffertrap
+  oxidized_cut_copper_stairs: Gewuesst geschnidde Koffertrapen
+  cut_copper_slab: Geschnidde Kofferplack
+  exposed_cut_copper_slab: Ugelafe geschnidde Kofferplack
+  weathered_cut_copper_slab: Verwittert geschnidde Kofferplack
+  oxidized_cut_copper_slab: Gewuesst geschnidde Kofferplack
+  waxed_copper_block: Gewuesste Kofferblock
+  waxed_exposed_copper: Gewuessten ugelafene Kofferblock
+  waxed_weathered_copper: Gewuesste verwitterte Koffer
+  waxed_oxidized_copper: Gewuessten oxidéierte Kofferblock
+  waxed_cut_copper: Gewuesste geschniddene Koffer
+  waxed_exposed_cut_copper: Gewuessten ugelafene geschniddene Koffer
+  waxed_weathered_cut_copper: Gewuesste verwitterte geschniddene Koffer
+  waxed_oxidized_cut_copper: Gewuessten oxidéierte geschniddene Koffer
+  waxed_cut_copper_stairs: Gewuesst geschnidde Koffertrap
+  waxed_exposed_cut_copper_stairs: Gewuessten ugelafe geschnidde Koffertrapen
+  waxed_weathered_cut_copper_stairs: Gewuesst verwittert geschnidde Koffertrap
+  waxed_oxidized_cut_copper_stairs: Gewuessten oxidéiert geschnidde Koffertrapen
+  waxed_cut_copper_slab: Gewuesste geschniddene Kofferplack
+  waxed_exposed_cut_copper_slab: Gewuessten ugelafe geschnidde Kofferplack
+  waxed_weathered_cut_copper_slab: Gewuesst verwittert geschnidde Kofferplack
+  waxed_oxidized_cut_copper_slab: Gewuessten oxidéiert geschnidde Kofferplack
   oak_log: Eechestamm
   spruce_log: Fiichtestamm
   birch_log: Bierkestamm
@@ -50,7 +109,7 @@ material:
   acacia_log: Akaziëstamm
   dark_oak_log: Schwaarzeechestamm
   crimson_stem: Karmesinstill
-  warped_stem: Verduerwenen Stamm
+  warped_stem: Verduerwene Stamm
   stripped_oak_log: Eechestamm ouni Schuel
   stripped_spruce_log: Fiichtestamm ouni Schuel
   stripped_birch_log: Bierkestamm ouni Schuel
@@ -81,26 +140,23 @@ material:
   jungle_leaves: Tropeblieder
   acacia_leaves: Akazieblieder
   dark_oak_leaves: Schwaarzeecheblieder
+  azalea_leaves: Azaleenlaub
   sponge: Schwamp
   wet_sponge: Naasse Schwamp
   glass: Glas
-  lapis_ore: Lapislazuliäerz
+  tinted_glass: Getéinte Glas
   lapis_block: Lapislazuliblock
-  dispenser: Verdeeler
   sandstone: Sandsteen
   chiseled_sandstone: Gemeesselte Sandsteen
   cut_sandstone: Geschniddene Sandsteen
-  note_block: Nouteblock
-  powered_rail: Beschleunegungsschinn
-  detector_rail: Sensorschinn
-  sticky_piston: Pechege Piston
   cobweb: Spaweck
   grass: Gras
   fern: Far
+  azalea: Azalee
+  flowering_azalea: Gebléine Azalee
   dead_bush: Ofgestuerwene Strauch
   seagrass: Séigras
   sea_pickle: Miereskornischong
-  piston: Piston
   white_wool: Wäiss Woll
   orange_wool: Orange Woll
   magenta_wool: Magenta Woll
@@ -130,20 +186,24 @@ material:
   cornflower: Karblumm
   lily_of_the_valley: Meeréischen
   wither_rose: Witherrous
+  spore_blossom: Sporenblüte
   brown_mushroom: Bronge Champignon
   red_mushroom: Roude Champignon
   crimson_fungus: Karmesin Champignon
-  warped_fungus: Verduerwenen Champignon
+  warped_fungus: Verduerwene Champignon
   crimson_roots: Karmesinwuerzelen
-  warped_roots: Verduerwen Wuezelen
+  warped_roots: Verduerwe Wuerzelen
   nether_sprouts: Nethersprossen
   weeping_vines: Trauerlianen
   twisting_vines: Wéckellianen
   sugar_cane: Zockerrouer
   kelp: Alg
+  moss_carpet: Moosteppech
+  moss_block: Moosblock
+  hanging_roots: Hängewuerzelen
+  big_dripleaf: Groußen tropfblaat
+  small_dripleaf: Klengen tropfblaat
   bamboo: Bambus
-  gold_block: Goldblock
-  iron_block: Eiseblock
   oak_slab: Eechenholzplack
   spruce_slab: Fiichtenholzplack
   birch_slab: Bierkenholzplack
@@ -151,7 +211,7 @@ material:
   acacia_slab: Akazienholzplack
   dark_oak_slab: Schwaarzeechenholzplack
   crimson_slab: Karmesinplack
-  warped_slab: Verduerwen Plack
+  warped_slab: Verduerwe Plack
   stone_slab: Steeplack
   smooth_stone_slab: Glat Steeplack
   sandstone_slab: Sandsteeplack
@@ -173,7 +233,6 @@ material:
   smooth_sandstone: Glate Sandsteen
   smooth_stone: Glate Steen
   bricks: Zillen
-  tnt: TNT
   bookshelf: Bicherregal
   mossy_cobblestone: Bemoosste Brochsteen
   obsidian: Obsidian
@@ -187,27 +246,11 @@ material:
   spawner: Spawner
   oak_stairs: Eechenholztrap
   chest: Këscht
-  diamond_ore: Diamantäerz
-  diamond_block: Diamantblock
   crafting_table: Wierkbänk
   farmland: Feld
   furnace: Uewen
   ladder: Leeder
-  rail: Schinn
   cobblestone_stairs: Brochsteentrap
-  lever: Hiewel
-  stone_pressure_plate: Steendrockplack
-  oak_pressure_plate: Eechenholzdrockplack
-  spruce_pressure_plate: Fiichtenholzdrockplack
-  birch_pressure_plate: Bierkenholzdrockplack
-  jungle_pressure_plate: Tropenholzdrockplack
-  acacia_pressure_plate: Akazienholzdrockplack
-  dark_oak_pressure_plate: Schwaarzeechenholzdrockplack
-  crimson_pressure_plate: Karmesindrockplack
-  warped_pressure_plate: Verduerwen Drockplat
-  polished_blackstone_pressure_plate: Poléiert Schwaarzsteendrockplack
-  redstone_ore: Redstoneäerz
-  redstone_torch: Redstonefakel
   snow: Schnéi
   ice: Äis
   snow_block: Schnéiblock
@@ -224,6 +267,7 @@ material:
   warped_fence: Verduerwenen Zonk
   pumpkin: Kürbis
   carved_pumpkin: Geschnëtzte Kürbis
+  jack_o_lantern: Kürbislanter
   netherrack: Netherrack
   soul_sand: Séilesand
   soul_soil: Séilebuedem
@@ -231,15 +275,6 @@ material:
   polished_basalt: Poléierte Basalt
   soul_torch: Séilefakel
   glowstone: Glowstone
-  jack_o_lantern: Kürbislanter
-  oak_trapdoor: Eechenholzklappdier
-  spruce_trapdoor: Fiichtenholzklappdier
-  birch_trapdoor: Bierkenholzklappdier
-  jungle_trapdoor: Tropenholzklappdier
-  acacia_trapdoor: Akazienholzklappdier
-  dark_oak_trapdoor: Schwaarzeechenholzklappdier
-  crimson_trapdoor: Karmesinklappdier
-  warped_trapdoor: Verduerwenen Faaldier
   infested_stone: Befalene Steen
   infested_cobblestone: Befalene Brochsteen
   infested_stone_bricks: Befale Steenzillen
@@ -258,14 +293,7 @@ material:
   glass_pane: Glasscheif
   melon: Meloun
   vine: Lianen
-  oak_fence_gate: Eechenholzzonkpaart
-  spruce_fence_gate: Fiichtenholzzonkpaart
-  birch_fence_gate: Bierkenholzzonkpaart
-  jungle_fence_gate: Tropenholzzonkpaart
-  acacia_fence_gate: Akazienholzzonkpaart
-  dark_oak_fence_gate: Schwaarzeechenholzzonkpaart
-  crimson_fence_gate: Karmesinzonkpaart
-  warped_fence_gate: Verduerwen Zonkpaart
+  glow_lichen: Liichtflechten
   brick_stairs: Zillentrap
   stone_brick_stairs: Steenzillentrap
   mycelium: Pilzgeflecht
@@ -280,11 +308,8 @@ material:
   end_stone: Endsteen
   end_stone_bricks: Endsteenzillen
   dragon_egg: Draachenee
-  redstone_lamp: Redstoneluucht
   sandstone_stairs: Sandsteentrap
-  emerald_ore: Smaragdäerz
   ender_chest: Enderkëscht
-  tripwire_hook: Krop
   emerald_block: Smaragdblock
   spruce_stairs: Fiichtenholztrap
   birch_stairs: Bierkenholztrap
@@ -310,33 +335,15 @@ material:
   blackstone_wall: Schwaarzsteemauer
   polished_blackstone_wall: Poléiert Schwaarzsteenmauer
   polished_blackstone_brick_wall: Poléiert Schwarzsteenzillemauer
-  stone_button: Steeknäppchen
-  oak_button: Eechenholzknäppchen
-  spruce_button: Fiichtenholzknäppchen
-  birch_button: Bierkenholzknäppchen
-  jungle_button: Tropenholzknäppchen
-  acacia_button: Akazienholzknäppchen
-  dark_oak_button: Schwaarzeechenholzknäppchen
-  crimson_button: Karmesinknäppchen
-  warped_button: Verduerwenen Knäppchen
-  polished_blackstone_button: Poléierte Schwaarzsteeknäppchen
+  cobbled_deepslate_wall: Brochdéiwenschiefer Mauer
   anvil: Amboss
   chipped_anvil: Ugeschloenen Amboss
   damaged_anvil: Beschiedegten Amboss
-  trapped_chest: Falekëscht
-  light_weighted_pressure_plate: Liicht gewiichtet Drockplack
-  heavy_weighted_pressure_plate: Schwéier gewiichtet Drockplack
-  daylight_detector: Liichtsensor
-  redstone_block: Redstoneblock
-  nether_quartz_ore: Netherquarzäerz
-  hopper: Triichter
   chiseled_quartz_block: Gemeesselte Quarzblock
   quartz_block: Quarzblock
   quartz_bricks: Quarzzillen
   quartz_pillar: Quarzsail
   quartz_stairs: Quarztrap
-  activator_rail: Aktivéierungsschinn
-  dropper: Spender
   white_terracotta: Wäiss Keramik
   orange_terracotta: Orange Keramik
   magenta_terracotta: Magenta Keramik
@@ -354,7 +361,7 @@ material:
   red_terracotta: Rout Keramik
   black_terracotta: Schwaarz Keramik
   barrier: Barrière
-  iron_trapdoor: Eiseklappdier
+  light: Luucht
   hay_block: Bott
   white_carpet: Wäissen Teppech
   orange_carpet: Orangen Teppech
@@ -373,12 +380,10 @@ material:
   red_carpet: Rouden Teppech
   black_carpet: Schwaarzen Teppech
   terracotta: Keramik
-  coal_block: Kueleblock
   packed_ice: Packäis
   acacia_stairs: Akazienholztrap
   dark_oak_stairs: Schwaarzeechenholztrap
-  slime_block: Schläimblock
-  grass_path: Graswee
+  dirt_path: Trampelfad
   sunflower: Sonneblumm
   lilac: Neelchesblumm
   rose_bush: Rousenheck
@@ -432,11 +437,10 @@ material:
   chain_command_block: Kette Befehlsblock
   magma_block: Magmablock
   nether_wart_block: Netherwaarzelblock
-  warped_wart_block: Verduerwenen Waarzelblock
+  warped_wart_block: Verduerwene Waarzelblock
   red_nether_bricks: Roud Netherzillen
   bone_block: Schankeblock
   structure_void: Konstruktiounsvakuum
-  observer: Observateur
   shulker_box: Shulkerkëscht
   white_shulker_box: Wäiss Shulkerkëscht
   orange_shulker_box: Orange Shulkerkëscht
@@ -549,6 +553,7 @@ material:
   red_nether_brick_stairs: Rout Netherzillentrap
   polished_andesite_stairs: Poléiert Andesittrap
   diorite_stairs: Diorittrap
+  cobbled_deepslate_stairs: Brochdéiwenschiefer Traapen
   polished_granite_slab: Poléiert Granitplack
   smooth_red_sandstone_slab: Glat rout Sandsteeplack
   mossy_stone_brick_slab: Bemooste Steenzilleplack
@@ -562,7 +567,54 @@ material:
   red_nether_brick_slab: Rout Netherzilleplack
   polished_andesite_slab: Poléiert Andesitplack
   diorite_slab: Dioritplack
+  cobbled_deepslate_slab: Brochdéiwenschiefer Stuuf
   scaffolding: Gerüst
+  redstone: Redstonestëbs
+  redstone_torch: Redstonefakel
+  redstone_block: Redstoneblock
+  repeater: Redstoneverstäerker
+  comparator: Redstonekomparator
+  piston: Piston
+  sticky_piston: Pechege Piston
+  slime_block: Schläimblock
+  honey_block: Hunnegblock
+  observer: Observateur
+  hopper: Triichter
+  dispenser: Verdeeler
+  dropper: Spender
+  lectern: Liespult
+  target: Zielblock
+  lever: Hiewel
+  lightning_rod: Blëtzofleeder
+  daylight_detector: Liichtsensor
+  sculk_sensor: Sculk Sensor
+  tripwire_hook: Krop
+  trapped_chest: Falekëscht
+  tnt: TNT
+  redstone_lamp: Redstoneluucht
+  note_block: Nouteblock
+  stone_button: Steeknäppchen
+  polished_blackstone_button: Poléierte Schwaarzsteeknäppchen
+  oak_button: Eechenholzknäppchen
+  spruce_button: Fiichtenholzknäppchen
+  birch_button: Bierkenholzknäppchen
+  jungle_button: Tropenholzknäppchen
+  acacia_button: Akazienholzknäppchen
+  dark_oak_button: Schwaarzeechenholzknäppchen
+  crimson_button: Karmesinknäppchen
+  warped_button: Verduerwenen Knäppchen
+  stone_pressure_plate: Steendrockplack
+  polished_blackstone_pressure_plate: Poléiert Schwaarzsteendrockplack
+  light_weighted_pressure_plate: Liicht gewiichtet Drockplack
+  heavy_weighted_pressure_plate: Schwéier gewiichtet Drockplack
+  oak_pressure_plate: Eechenholzdrockplack
+  spruce_pressure_plate: Fiichtenholzdrockplack
+  birch_pressure_plate: Bierkenholzdrockplack
+  jungle_pressure_plate: Tropenholzdrockplack
+  acacia_pressure_plate: Akazienholzdrockplack
+  dark_oak_pressure_plate: Schwaarzeechenholzdrockplack
+  crimson_pressure_plate: Karmesindrockplack
+  warped_pressure_plate: Verduerwen Drockplack
   iron_door: Eisendier
   oak_door: Eechenholzdier
   spruce_door: Fiichtenholzdier
@@ -572,8 +624,42 @@ material:
   dark_oak_door: Schwaarzeechenholzdier
   crimson_door: Karmesindier
   warped_door: Verduerwen Dier
-  repeater: Redstoneverstäerker
-  comparator: Redstonekomparator
+  iron_trapdoor: Eiseklappdier
+  oak_trapdoor: Eechenholzklappdier
+  spruce_trapdoor: Fiichtenholzklappdier
+  birch_trapdoor: Bierkenholzklappdier
+  jungle_trapdoor: Tropenholzklappdier
+  acacia_trapdoor: Akazienholzklappdier
+  dark_oak_trapdoor: Schwaarzeechenholzklappdier
+  crimson_trapdoor: Karmesinklappdier
+  warped_trapdoor: Verduerwenen Faaldier
+  oak_fence_gate: Eechenholzzonkpaart
+  spruce_fence_gate: Fiichtenholzzonkpaart
+  birch_fence_gate: Bierkenholzzonkpaart
+  jungle_fence_gate: Tropenholzzonkpaart
+  acacia_fence_gate: Akazienholzzonkpaart
+  dark_oak_fence_gate: Schwaarzeechenholzzonkpaart
+  crimson_fence_gate: Karmesinzonkpaart
+  warped_fence_gate: Verduerwen Zonkpaart
+  powered_rail: Beschleunegungsschinn
+  detector_rail: Sensorschinn
+  rail: Schinn
+  activator_rail: Aktivéierungsschinn
+  saddle: Suedel
+  minecart: Buggi
+  chest_minecart: Gidderbuggi
+  furnace_minecart: Ugedriwwene Buggi
+  tnt_minecart: TNT-Buggi
+  hopper_minecart: Triichterbuggi
+  carrot_on_a_stick: Muerterutt
+  warped_fungus_on_a_stick: Verduerwenen Champignon op engem Bengel
+  elytra: Elytra
+  oak_boat: Eechenholzboot
+  spruce_boat: Fiichtenholzboot
+  birch_boat: Bierkenholzboot
+  jungle_boat: Tropenholzboot
+  acacia_boat: Akazienholzboot
+  dark_oak_boat: Schwaarzeechenholzboot
   structure_block: Konstruktiounsblock
   jigsaw: Puzzleblock
   turtle_helmet: Schildkrötenpanzer
@@ -585,7 +671,13 @@ material:
   coal: Kuel
   charcoal: Holzkuel
   diamond: Diamant
+  emerald: Smaragd
+  lapis_lazuli: Lapislazuli
+  quartz: Netherquarz
+  amethyst_shard: Amethystschierbel
   iron_ingot: Eisebarren
+  raw_copper: Réie Koffer
+  copper_ingot: Kofferbarren
   gold_ingot: Goldbarren
   netherite_ingot: Netheritebarren
   netherite_scrap: Netheritefragment
@@ -669,29 +761,27 @@ material:
   bucket: Eemer
   water_bucket: Waassereemer
   lava_bucket: Lavaeemer
-  minecart: Buggi
-  saddle: Suedel
-  redstone: Redstonestëbs
+  powder_snow_bucket: Polverschnéieemer
   snowball: Schnéiball
-  oak_boat: Eechenholzboot
   leather: Lieder
   milk_bucket: Mëllecheemer
   pufferfish_bucket: Kugelfëscheemer
   salmon_bucket: Saumoneemer
   cod_bucket: Cabillaudeemer
   tropical_fish_bucket: Tropefëscheemer
+  axolotl_bucket: Eemer mat Axolotl
   brick: Zillen
   clay_ball: Tounklompen
   dried_kelp_block: Gedréchenten Algeblock
   paper: Pabeier
   book: Buch
   slime_ball: Schläimkugel
-  chest_minecart: Gidderbuggi
-  furnace_minecart: Ugedriwwene Buggi
   egg: Ee
   compass: Kompass
+  bundle: Bëndel
   fishing_rod: Aangel
   clock: Auer
+  spyglass: Spyglass
   glowstone_dust: Glowstonestëbs
   cod: Réie Cabillaud
   salmon: Réie Saumon
@@ -701,7 +791,6 @@ material:
   cooked_salmon: Gebrodene Saumon
   ink_sac: Tëntesak
   cocoa_beans: Kakaoboun
-  lapis_lazuli: Lapislazuli
   white_dye: Wäisse Fuerfstoff
   orange_dye: Orange Fuerfstoff
   magenta_dye: Magenta Fuerfstoff
@@ -765,6 +854,7 @@ material:
   cauldron: Kessel
   ender_eye: Endera
   glistering_melon_slice: Blénkeg Melounescheif
+  axolotl_spawn_egg: Axolotl Spawn Ee
   bat_spawn_egg: Flantermaus Spawn Ee
   bee_spawn_egg: Beie Spawn Ee
   blaze_spawn_egg: Lou Spawn Ee
@@ -833,7 +923,6 @@ material:
   fire_charge: Feierkugel
   writable_book: Buch a Fieder
   written_book: Beschriwwent Buch
-  emerald: Smaragd
   item_frame: Kader
   flower_pot: Blummendëppen
   carrot: Muert
@@ -848,17 +937,12 @@ material:
   zombie_head: Zombiekapp
   creeper_head: Creeperkapp
   dragon_head: Draachenkapp
-  carrot_on_a_stick: Muerterutt
-  warped_fungus_on_a_stick: Verduerwenen Champignon op engem Bengel
   nether_star: Netherstär
   pumpkin_pie: Kürbiskuch
   firework_rocket: Feierwierksrakéit
   firework_star: Feierwierksstär
   enchanted_book: Verzaubert Buch
   nether_brick: Netherzill
-  quartz: Netherquarz
-  tnt_minecart: TNT-Buggi
-  hopper_minecart: Triichterbuggi
   prismarine_shard: Prismarineschierbel
   prismarine_crystals: Prismarinekristall
   rabbit: Réi Kanéngchen
@@ -904,12 +988,6 @@ material:
   tipped_arrow: Gedränkte Feil
   lingering_potion: Undauernden Dronk
   shield: Schëld
-  elytra: Elytra
-  spruce_boat: Fiichtenholzboot
-  birch_boat: Bierkenholzboot
-  jungle_boat: Tropenholzboot
-  acacia_boat: Akazienholzboot
-  dark_oak_boat: Schwaarzeechenholzboot
   totem_of_undying: Totem vun der Onstierflechkeet
   shulker_shell: Shulkerschuel
   iron_nugget: Eiseklompen
@@ -948,7 +1026,6 @@ material:
   cartography_table: Kaartendësch
   fletching_table: Bouspanndësch
   grindstone: Schläifsteen
-  lectern: Liespult
   smithing_table: Schmadddësch
   stonecutter: Steesee
   bell: Klack
@@ -962,12 +1039,8 @@ material:
   bee_nest: Beiennascht
   beehive: Beiestack
   honey_bottle: Hunnegfläsch
-  honey_block: Hunnegblock
   honeycomb_block: Hunnegwabeblock
   lodestone: Leetsteen
-  netherite_block: Netheriteblock
-  ancient_debris: Anticke Schrott
-  target: Zielblock
   crying_obsidian: Kräischenden Obsidian
   blackstone: Schwaarzsteen
   blackstone_slab: Schwaarzsteeplack
@@ -982,6 +1055,28 @@ material:
   polished_blackstone_brick_stairs: Poléiert Schwaarzsteenzillentrap
   cracked_polished_blackstone_bricks: Rësseg poléiert Schwarzsteenzillen
   respawn_anchor: Respawn Anker
+  candle: Käerz
+  white_candle: Wäiss Käerz
+  orange_candle: Orange Käerz
+  magenta_candle: Magenta Käerz
+  light_blue_candle: Hellblo Käerz
+  yellow_candle: Giel Käerz
+  lime_candle: Hellgréng Käerz
+  pink_candle: Rosa Käerz
+  gray_candle: Gro Käerz
+  light_gray_candle: Hellgro Käerz
+  cyan_candle: Turquoise Käerz
+  purple_candle: Mof Käerz
+  blue_candle: Blo Käerz
+  brown_candle: Brong Käerz
+  green_candle: Gréng Käerz
+  red_candle: Rout Käerz
+  black_candle: Schwaarz Käerz
+  small_amethyst_bud: Kleng Amethystknosp
+  medium_amethyst_bud: Medium Amethystknosp
+  large_amethyst_bud: Grouss Amethystknosp
+  amethyst_cluster: Amethystkoup
+  pointed_dripstone: Spitz Dripstone
   water: Waasser
   lava: Lava
   tall_seagrass: Héicht Séigras
@@ -1004,6 +1099,9 @@ material:
   attached_melon_stem: Attachéierte Melounestill
   pumpkin_stem: Kürbisstill
   melon_stem: Melouneplanz
+  water_cauldron: Waasserkessel
+  lava_cauldron: Lavakessel
+  powder_snow_cauldron: Polverschnéikessel
   end_portal: Endportal
   cocoa: Kakao
   tripwire: Faldrot
@@ -1083,6 +1181,23 @@ material:
   potted_warped_fungus: Agedëppten Verduerwenen Champignon
   potted_crimson_roots: Agedëppte Karmesinwuerzelen
   potted_warped_roots: Agedëppten Verduerwen Wuezelen
+  candle_cake: Kuch mat Käerz
+  white_candle_cake: Kuch mat wäisser Käerz
+  orange_candle_cake: Kuch mat orange Käerz
+  magenta_candle_cake: Kuch mat Magenta Käerz
+  light_blue_candle_cake: Kuch mat hellbloer Käerz
+  yellow_candle_cake: Kuch mat Gieler Käerz
+  lime_candle_cake: Kuch mat Gieler/Grenger Käerz
+  pink_candle_cake: Kuch mat rosa Käerz
+  gray_candle_cake: Kuch mat groer Käerz
+  light_gray_candle_cake: Kuch mat hellgroer Käerz
+  cyan_candle_cake: Kuch mat Cyan Käerz
+  purple_candle_cake: Kuch mat Purple Käerz
+  blue_candle_cake: Kuch mat Bloer Käerz
+  brown_candle_cake: Kuch mat brong Käerz
+  powder_snow: Polverschnéi
+  big_dripleaf_stem: Groußen tropfblaatstiel
+  grass_path: Graswee
   zombie_pigman_spawn_egg: Zombieschwéngsmënsch Spawn Ee
   cactus_green: Kaktusgréng
   dandelion_yellow: Giele Fuerfstoff
@@ -1167,48 +1282,48 @@ biome:
   bamboo_jungle_hills: Bambusdschungelhiwwel
   soul_sand_valley: Séilesanddall
   crimson_forest: Karmesinbësch
-  warped_forest: Verduerwenen Bësch
+  warped_forest: Verduerwene Bësch
   basalt_deltas: Basaltdeltas
   nether: Nether
 enchantment:
-  fire_protection: Feierschutz
-  sharpness: Schäerft
-  flame: Flam
-  soul_speed: Séileleefer
-  aqua_affinity: Waasseraffinitéit
-  punch: Stouss
-  loyalty: Loyalitéit
-  depth_strider: Waasserleefer
-  vanishing_curse: Fluch vum Verschwannen
-  unbreaking: Halbarkeet
-  knockback: Réckstouss
-  luck_of_the_sea: Mieresgléck
-  binding_curse: Fluch vun der Bindung
-  fortune: Gléck
   protection: Schutz
-  efficiency: Efficacitéit
-  mending: Reparatur
-  frost_walker: Äisleefer
-  lure: Köder
-  looting: Plëmmen
-  piercing: Duerchschoss
-  blast_protection: Explosiounschutz
-  smite: Péngeg
-  multishot: Multischoss
-  fire_aspect: Verbrennung
-  channeling: Kanalisatioun
-  sweeping: Schwongkraaft
-  thorns: Dären
-  bane_of_arthropods: Arthropodejeëer
-  respiration: Ootmung
-  riptide: Impulsioun
-  silk_touch: Precautioun
-  quick_charge: Schnelllueden
-  projectile_protection: Schosssécher
-  impaling: Harpune
+  fire_protection: Feierschutz
   feather_falling: Fiederfall
+  blast_protection: Explosiounschutz
+  projectile_protection: Schosssécher
+  respiration: Ootmung
+  aqua_affinity: Waasseraffinitéit
+  thorns: Dären
+  depth_strider: Waasserleefer
+  frost_walker: Äisleefer
+  binding_curse: Fluch vun der Bindung
+  sharpness: Schäerft
+  smite: Péngeg
+  bane_of_arthropods: Arthropodejeëer
+  knockback: Réckstouss
+  fire_aspect: Verbrennung
+  looting: Plëmmen
+  sweeping: Schwongkraaft
+  efficiency: Efficacitéit
+  silk_touch: Precautioun
+  unbreaking: Halbarkeet
+  fortune: Gléck
   power: Kraaft
+  punch: Stouss
+  flame: Flam
   infinity: Onendlechkeet
+  luck_of_the_sea: Mieresgléck
+  lure: Köder
+  loyalty: Loyalitéit
+  impaling: Harpune
+  riptide: Impulsioun
+  channeling: Kanalisatioun
+  multishot: Multischoss
+  quick_charge: Schnelllueden
+  piercing: Duerchschoss
+  mending: Reparatur
+  vanishing_curse: Fluch vum Verschwannen
+  soul_speed: Séileleefer
 potion:
   uncraftable: Net produzéierbaren Dronk
   water: Waasserfläsch
@@ -1403,6 +1518,10 @@ entity:
   strider: Strider
   zoglin: Zoglin
   piglin_brute: Piglin Barbar
+  axolotl: Axolotl
+  glow_squid: Liichttëntefësch
+  goat: Geess
+  marker: Markéierer
   fishing_hook: Schwëmmer
   lightning: Blëtz
   player: Spiller
@@ -2202,17 +2321,3 @@ villager_profession:
   shepherd: Hiert
   toolsmith: Geschirschmadd
   weaponsmith: Waffeschmadd
-villager_career:
-  farmer: Bauer
-  fisherman: Fëscher
-  shepherd: Hiert
-  fletcher: Feilmécher
-  librarian: Bibliothecaire
-  cartographer: Kartograph
-  cleric: Paschtouer
-  armorer: Rüstungsschmatt
-  weapon_smith: Waffeschmatt
-  tool_smith: Schmatt
-  butcher: Metzler
-  leatherworker: Gierwer
-  nitwit: Näischnotz

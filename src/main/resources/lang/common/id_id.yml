@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:48                    #
+# Build time: 2021-07-04 21:46:03                    #
 # ####################################################
 language:
   code: id_id
@@ -14,10 +14,17 @@ material:
   polished_diorite: Diorit Poles
   andesite: Andesit
   polished_andesite: Andesit Poles
+  deepslate: Katup Sabak
+  cobbled_deepslate: Katup Sabak Pecah
+  polished_deepslate: Polesan Katup Sabak
+  calcite: Kalsit
+  tuff: Tuf
+  dripstone_block: Blok Batu Tetes
   grass_block: Balok Rumput
   dirt: Tanah
   coarse_dirt: Tanah Kasar
   podzol: Tanah Asam
+  rooted_dirt: Tanah Berakar
   crimson_nylium: Nilium Kirmizi
   warped_nylium: Nilium Kerukut
   cobblestone: Batu Kasar
@@ -39,10 +46,67 @@ material:
   sand: Pasir
   red_sand: Pasir Merah
   gravel: Kerikil
-  gold_ore: Bijih Emas
-  iron_ore: Bijih Besi
   coal_ore: Bijih Batu Bara
+  deepslate_coal_ore: Katup Sabak Bijih Batu Bara
+  iron_ore: Bijih Besi
+  deepslate_iron_ore: Katup Sabak Bijih Besi
+  copper_ore: Bijih Tembaga
+  deepslate_copper_ore: Katup Sabak Bijih Tembaga
+  gold_ore: Bijih Emas
+  deepslate_gold_ore: Katup Sabak Bijih Emas
+  redstone_ore: Bijih Batu Merah
+  deepslate_redstone_ore: Katup Sabak Bijih Batu Merah
+  emerald_ore: Bijih Zamrud
+  deepslate_emerald_ore: Katup Sabak Bijih Zamrud
+  lapis_ore: Bijih Lapis Lazuli
+  deepslate_lapis_ore: Katup Sabak Bijih Lapis Lazuli
+  diamond_ore: Bijih Berlian
+  deepslate_diamond_ore: Katup Sabak Bijih Berlian
   nether_gold_ore: Bijih Emas Nether
+  nether_quartz_ore: Bijih Kuarsa Nether
+  ancient_debris: Puing Purba
+  coal_block: Blok Batu Bara
+  raw_iron_block: Blok Besi Mentah
+  raw_copper_block: Blok Tembaga Mentah
+  raw_gold_block: Blok Emas Mentah
+  amethyst_block: Blok Batu Kecubung
+  budding_amethyst: Kuncup Batu Kecubung
+  iron_block: Balok Besi
+  copper_block: Blok Tembaga
+  gold_block: Balok Emas
+  diamond_block: Blok Berlian
+  netherite_block: Blok Neterit
+  exposed_copper: Tembaga Terekspos
+  weathered_copper: Tembaga Berkarat
+  oxidized_copper: Tembaga Teroksidasi
+  cut_copper: Tembaga Pahat
+  exposed_cut_copper: Potongan Tembaga Terekspos
+  weathered_cut_copper: Tembaga Pahat Berkarat
+  oxidized_cut_copper: Potongan Tembaga Teroksidasi
+  cut_copper_stairs: Tangga Tembaga Pahat
+  exposed_cut_copper_stairs: Potongan Tangga Tembaga Terekspos
+  weathered_cut_copper_stairs: Tangga Tembaga Pahat Berkarat
+  oxidized_cut_copper_stairs: Potongan Tangga Tembaga Teroksidasi
+  cut_copper_slab: Lempeng Tembaga Pahat
+  exposed_cut_copper_slab: Potongan Lempeng Tembaga Terekspos
+  weathered_cut_copper_slab: Lempeng Tembaga Pahat Berkarat
+  oxidized_cut_copper_slab: Potongan Lempeng Tembaga Teroksidasi
+  waxed_copper_block: Balok Lilin Tembaga
+  waxed_exposed_copper: Lilin Tembaga yang Terexpos
+  waxed_weathered_copper: Lilin Tembaga yang Karatan
+  waxed_oxidized_copper: Tembaga Teroksidasi Berlilin
+  waxed_cut_copper: Tembaga Pahat Berlilin
+  waxed_exposed_cut_copper: Potongan Tembaga Berlilin Terekspos
+  waxed_weathered_cut_copper: Potongan Tembaga Berlilin Berkarat
+  waxed_oxidized_cut_copper: Potongan Tembaga Teroksidasi Berlilin
+  waxed_cut_copper_stairs: Tangga Tembaga Pahat Berlilin
+  waxed_exposed_cut_copper_stairs: Tangga Tembaga Pahatan Berlilin Terekspos
+  waxed_weathered_cut_copper_stairs: Bagian Tangga lilin Tembaga yang Berkarat
+  waxed_oxidized_cut_copper_stairs: Potongan Tangga Tembaga Teoksidasi Berlilin
+  waxed_cut_copper_slab: Lempeng Tembaga Pahat Berlilin
+  waxed_exposed_cut_copper_slab: Bagian Lempeng Lilin Tembaga Yang Terekspos
+  waxed_weathered_cut_copper_slab: Potongan Lempeng Tembaga Berlilin Berkarat
+  waxed_oxidized_cut_copper_slab: Potongan Lempeng Tembaga Teroksidasi Berlilin
   oak_log: Gelondong Ek
   spruce_log: Gelondong Cemara
   birch_log: Gelondong Pinus
@@ -81,26 +145,24 @@ material:
   jungle_leaves: Dedaunan Pohon Rimba
   acacia_leaves: Dedaunan Akasia
   dark_oak_leaves: Dedaunan Ek Gelap
+  azalea_leaves: Dedaunan Azalea
+  flowering_azalea_leaves: Dedaunan Azalea Berbunga
   sponge: Spons
   wet_sponge: Spons Basah
   glass: Kaca
-  lapis_ore: Bijih Lapis Lazuli
+  tinted_glass: Kaca film
   lapis_block: Blok Lapis Lazuli
-  dispenser: Pelempar
   sandstone: Batu Pasir
   chiseled_sandstone: Batu Pasir Pahatan
   cut_sandstone: Potongan Batu Pasir
-  note_block: Kotak Nada
-  powered_rail: Rel Listrik
-  detector_rail: Rel Detektor
-  sticky_piston: Piston Lengket
   cobweb: Benang Laba-laba
   grass: Rumput
   fern: Pakis
+  azalea: Azalea
+  flowering_azalea: Azalea Berbunga
   dead_bush: Semak Mati
   seagrass: Lamun
   sea_pickle: Acar Laut
-  piston: Piston
   white_wool: Wol Putih
   orange_wool: Wol Jingga
   magenta_wool: Wol Magenta
@@ -130,6 +192,7 @@ material:
   cornflower: Bunga Jagung
   lily_of_the_valley: Lili Lembah
   wither_rose: Mawar Wither
+  spore_blossom: Spora Mekar
   brown_mushroom: Jamur Cokelat
   red_mushroom: Jamur Merah
   crimson_fungus: Jamur Kirmizi
@@ -141,9 +204,12 @@ material:
   twisting_vines: Tanaman Merambat Lilit
   sugar_cane: Tebu
   kelp: Kelp
+  moss_carpet: Karpet Lumut
+  moss_block: Blok Lumut
+  hanging_roots: Akar Gantung
+  big_dripleaf: Daun Tetes Besar
+  small_dripleaf: Daun Tetes Kecil
   bamboo: Bambu
-  gold_block: Balok Emas
-  iron_block: Balok Besi
   oak_slab: Lempeng Ek
   spruce_slab: Lempeng Cemara
   birch_slab: Lempeng Pinus
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: Batu Pasir Halus
   smooth_stone: Batu Halus
   bricks: Bata
-  tnt: TNT
   bookshelf: Rak Buku
   mossy_cobblestone: Batu Kasar Berlumut
   obsidian: Obsidian
@@ -187,27 +252,11 @@ material:
   spawner: Pemijah
   oak_stairs: Tangga Ek
   chest: Peti
-  diamond_ore: Bijih Berlian
-  diamond_block: Blok Berlian
   crafting_table: Meja Kerajinan
   farmland: Tanah Garapan
   furnace: Tungku
   ladder: Tangga
-  rail: Rel
   cobblestone_stairs: Tangga Batu Kasar
-  lever: Tuas
-  stone_pressure_plate: Papan Tekan Batu
-  oak_pressure_plate: Papan Tekan Ek
-  spruce_pressure_plate: Papan Tekan Cemara
-  birch_pressure_plate: Papan Tekan Pinus
-  jungle_pressure_plate: Papan Tekan Rimba
-  acacia_pressure_plate: Papan Tekan Akasia
-  dark_oak_pressure_plate: Papan Tekan Ek Gelap
-  crimson_pressure_plate: Papan Tekan Kirmizi
-  warped_pressure_plate: Papan Tekan Kerukut
-  polished_blackstone_pressure_plate: Papan Tekan Batu Hitam Poles
-  redstone_ore: Bijih Batu Merah
-  redstone_torch: Obor Batu Merah
   snow: Salju
   ice: Es
   snow_block: Balok Salju
@@ -224,32 +273,31 @@ material:
   warped_fence: Pagar Kerukut
   pumpkin: Labu
   carved_pumpkin: Labu Terukir
+  jack_o_lantern: Lentera Jack
   netherrack: Batu Nether
   soul_sand: Pasir Jiwa
   soul_soil: Tanah Jiwa
   basalt: Basal
   polished_basalt: Basal Poles
+  smooth_basalt: Basal Halus
   soul_torch: Obor Jiwa
   glowstone: Batu Bersinar
-  jack_o_lantern: Lentera Jack
-  oak_trapdoor: Pintu Jebakan Ek
-  spruce_trapdoor: Pintu Jebakan Cemara
-  birch_trapdoor: Pintu Jebakan Pinus
-  jungle_trapdoor: Pintu Jebakan Rimba
-  acacia_trapdoor: Pintu Jebakan Akasia
-  dark_oak_trapdoor: Pintu Jebakan Ek Gelap
-  crimson_trapdoor: Pintu Jebakan Kirmizi
-  warped_trapdoor: Pintu Jebakan Kerukut
   infested_stone: Batu Terinfeksi
   infested_cobblestone: Batu Kasar Terinfeksi
   infested_stone_bricks: Batu Bata Terinfeksi
   infested_mossy_stone_bricks: Batu Bata Berlumut Terinfeksi
   infested_cracked_stone_bricks: Bata Batu Retak Terinfeksi
   infested_chiseled_stone_bricks: Bata Batu Pahatan Terinfeksi
+  infested_deepslate: Katup Sabak Terinfeksi
   stone_bricks: Batu Bata
   mossy_stone_bricks: Bata Batu Berlumut
   cracked_stone_bricks: Batu Bata Retak
   chiseled_stone_bricks: Bata Batu Pahatan
+  deepslate_bricks: Bata Katup Sabak
+  cracked_deepslate_bricks: Bata Batu Dalam Retak
+  deepslate_tiles: Ubin Katup Sabak
+  cracked_deepslate_tiles: Ubin Katup Sabak Retak
+  chiseled_deepslate: Pahatan Katup Sabak
   brown_mushroom_block: Blok Jamur Cokelat
   red_mushroom_block: Blok Jamur Merah
   mushroom_stem: Batang Jamur
@@ -258,14 +306,7 @@ material:
   glass_pane: Panel Kaca
   melon: Semangka
   vine: Tumbuhan Merambat
-  oak_fence_gate: Pintu Pagar Kayu Ek
-  spruce_fence_gate: Pintu Pagar Kayu Cemara
-  birch_fence_gate: Pintu Pagar Kayu Pinus
-  jungle_fence_gate: Pintu Pagar Kayu Rimba
-  acacia_fence_gate: Pintu Pagar Kayu Akasia
-  dark_oak_fence_gate: Pintu Pagar Kayu Ek Gelap
-  crimson_fence_gate: Pintu Pagar Kirmizi
-  warped_fence_gate: Pintu Pagar Kerukut
+  glow_lichen: Lumut Kerak Bersinar
   brick_stairs: Tangga Bata
   stone_brick_stairs: Tangga Batu Bata
   mycelium: Miselium
@@ -280,11 +321,8 @@ material:
   end_stone: Batu End
   end_stone_bricks: Batu Bata End
   dragon_egg: Telur Naga
-  redstone_lamp: Lampu Batu Merah
   sandstone_stairs: Tangga Batu Pasir
-  emerald_ore: Bijih Zamrud
   ender_chest: Peti Ender
-  tripwire_hook: Pengait Kawat Senggol
   emerald_block: Blok Zamrud
   spruce_stairs: Tangga Cemara
   birch_stairs: Tangga Pinus
@@ -310,33 +348,18 @@ material:
   blackstone_wall: Dinding Batu Hitam
   polished_blackstone_wall: Dinding Batu Hitam Poles
   polished_blackstone_brick_wall: Dinding Bata Batu Hitam Poles
-  stone_button: Tombol Batu
-  oak_button: Tombol Ek
-  spruce_button: Tombol Cemara
-  birch_button: Tombol Pinus
-  jungle_button: Tombol Rimba
-  acacia_button: Tombol Akasia
-  dark_oak_button: Tombol Ek Gelap
-  crimson_button: Tombol Kirmizi
-  warped_button: Tombol Kerukut
-  polished_blackstone_button: Tombol Batu Hitam Poles
+  cobbled_deepslate_wall: Dinding Batu Dalam Pecah
+  polished_deepslate_wall: Dinding Polesan Katup Sabak
+  deepslate_brick_wall: Dinding Bata Katup Sabak
+  deepslate_tile_wall: Dinding Ubin Katup Sabak
   anvil: Paron
   chipped_anvil: Paron Cuil
   damaged_anvil: Paron Rusak
-  trapped_chest: Peti Jebakan
-  light_weighted_pressure_plate: Papan Tekan Pemberat Ringan
-  heavy_weighted_pressure_plate: Papan Tekan Pemberat Berat
-  daylight_detector: Detektor Cahaya
-  redstone_block: Balok Batu Merah
-  nether_quartz_ore: Bijih Kuarsa Nether
-  hopper: Corong
   chiseled_quartz_block: Blok Kuarsa Pahat
   quartz_block: Balok Kuarsa
   quartz_bricks: Bata Kuarsa
   quartz_pillar: Pilar Kuarsa
   quartz_stairs: Tangga Kuarsa
-  activator_rail: Rel Penyala
-  dropper: Penjatuh
   white_terracotta: Terakota Putih
   orange_terracotta: Terakota Jingga
   magenta_terracotta: Terakota Magenta
@@ -354,7 +377,7 @@ material:
   red_terracotta: Terakota Merah
   black_terracotta: Terakota Hitam
   barrier: Penghalang
-  iron_trapdoor: Pintu Jebakan Besi
+  light: Cahaya
   hay_block: Jerami
   white_carpet: Karpet Putih
   orange_carpet: Karpet Jinnga
@@ -373,12 +396,10 @@ material:
   red_carpet: Karpet Merah
   black_carpet: Karpet Hitam
   terracotta: Terakota
-  coal_block: Blok Batu Bara
   packed_ice: Es Batu
   acacia_stairs: Tangga Akasia
   dark_oak_stairs: Tangga Ek Gelap
-  slime_block: Balok Geladir
-  grass_path: Jalan Berumput
+  dirt_path: Jalan Setapak
   sunflower: Bunga Matahari
   lilac: Lilac
   rose_bush: Semak Mawar
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: Bata Nether Merah
   bone_block: Balok Tulang
   structure_void: Struktur Hampa
-  observer: Pengamat
   shulker_box: Kotak Periuk Pengintai
   white_shulker_box: Kotak Periuk Pengintai Putih
   orange_shulker_box: Kotak Periuk Pengintai Jingga
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: Tangga Bata Nether Merah
   polished_andesite_stairs: Tangga Andesit Poles
   diorite_stairs: Tangga Diorit
+  cobbled_deepslate_stairs: Tangga Batu Dalam Pecah
+  polished_deepslate_stairs: Tangga Polesan Katup Sabak
+  deepslate_brick_stairs: Tangga Bata Katup Sabak
+  deepslate_tile_stairs: Tangga Ubin Katup Sabak
   polished_granite_slab: Lempeng Granit Poles
   smooth_red_sandstone_slab: Lempeng Batu Pasir Merah Halus
   mossy_stone_brick_slab: Lempeng Batu Bata Berlumut
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: Lempeng Bata Nether Merah
   polished_andesite_slab: Lempeng Andesit Poles
   diorite_slab: Lempeng Diorit
+  cobbled_deepslate_slab: Bagian Katup Sabak Pecah
+  polished_deepslate_slab: Lempeng Polesan Katup Sabak
+  deepslate_brick_slab: Lempeng Bata Katup Sabak
+  deepslate_tile_slab: Lempeng Ubin Katup Sabak
   scaffolding: Perancah
+  redstone: Serbuk Batu Merah
+  redstone_torch: Obor Batu Merah
+  redstone_block: Balok Batu Merah
+  repeater: Pengulang Batu Merah
+  comparator: Pembanding Batu Merah
+  piston: Piston
+  sticky_piston: Piston Lengket
+  slime_block: Balok Geladir
+  honey_block: Blok Madu
+  observer: Pengamat
+  hopper: Corong
+  dispenser: Pelempar
+  dropper: Penjatuh
+  lectern: Podium
+  target: Sasaran
+  lever: Tuas
+  lightning_rod: Penangkal Petir
+  daylight_detector: Detektor Cahaya
+  sculk_sensor: Sensor Skulk
+  tripwire_hook: Pengait Kawat Senggol
+  trapped_chest: Peti Jebakan
+  tnt: TNT
+  redstone_lamp: Lampu Batu Merah
+  note_block: Kotak Nada
+  stone_button: Tombol Batu
+  polished_blackstone_button: Tombol Batu Hitam Poles
+  oak_button: Tombol Ek
+  spruce_button: Tombol Cemara
+  birch_button: Tombol Pinus
+  jungle_button: Tombol Rimba
+  acacia_button: Tombol Akasia
+  dark_oak_button: Tombol Ek Gelap
+  crimson_button: Tombol Kirmizi
+  warped_button: Tombol Kerukut
+  stone_pressure_plate: Papan Tekan Batu
+  polished_blackstone_pressure_plate: Papan Tekan Batu Hitam Poles
+  light_weighted_pressure_plate: Papan Tekan Pemberat Ringan
+  heavy_weighted_pressure_plate: Papan Tekan Pemberat Berat
+  oak_pressure_plate: Papan Tekan Ek
+  spruce_pressure_plate: Papan Tekan Cemara
+  birch_pressure_plate: Papan Tekan Pinus
+  jungle_pressure_plate: Papan Tekan Rimba
+  acacia_pressure_plate: Papan Tekan Akasia
+  dark_oak_pressure_plate: Papan Tekan Ek Gelap
+  crimson_pressure_plate: Papan Tekan Kirmizi
+  warped_pressure_plate: Papan Tekan Kerukut
   iron_door: Pintu Besi
   oak_door: Pintu Kayu Ek
   spruce_door: Pintu Kayu Cemara
@@ -572,8 +646,42 @@ material:
   dark_oak_door: Pintu Kayu Ek Gelap
   crimson_door: Pintu Kirmizi
   warped_door: Pintu Kerukut
-  repeater: Pengulang Batu Merah
-  comparator: Pembanding Batu Merah
+  iron_trapdoor: Pintu Jebakan Besi
+  oak_trapdoor: Pintu Jebakan Ek
+  spruce_trapdoor: Pintu Jebakan Cemara
+  birch_trapdoor: Pintu Jebakan Pinus
+  jungle_trapdoor: Pintu Jebakan Rimba
+  acacia_trapdoor: Pintu Jebakan Akasia
+  dark_oak_trapdoor: Pintu Jebakan Ek Gelap
+  crimson_trapdoor: Pintu Jebakan Kirmizi
+  warped_trapdoor: Pintu Jebakan Kerukut
+  oak_fence_gate: Pintu Pagar Kayu Ek
+  spruce_fence_gate: Pintu Pagar Kayu Cemara
+  birch_fence_gate: Pintu Pagar Kayu Pinus
+  jungle_fence_gate: Pintu Pagar Kayu Rimba
+  acacia_fence_gate: Pintu Pagar Kayu Akasia
+  dark_oak_fence_gate: Pintu Pagar Kayu Ek Gelap
+  crimson_fence_gate: Pintu Pagar Kirmizi
+  warped_fence_gate: Pintu Pagar Kerukut
+  powered_rail: Rel Listrik
+  detector_rail: Rel Detektor
+  rail: Rel
+  activator_rail: Rel Penyala
+  saddle: Pelana
+  minecart: Kereta Tambang
+  chest_minecart: Kereta Tambang dengan Peti
+  furnace_minecart: Kereta Tambang Bertungku
+  tnt_minecart: Kereta Tambang dengan TNT
+  hopper_minecart: Kereta Tambang Bercorong
+  carrot_on_a_stick: Wortel di Tongkat
+  warped_fungus_on_a_stick: Jamur Kerukut di Tongkat
+  elytra: Sayap Kumbang
+  oak_boat: Perahu Kayu Ek
+  spruce_boat: Perahu Kayu Cemara
+  birch_boat: Perahu Kayu Pinus
+  jungle_boat: Perahu Kayu Rimba
+  acacia_boat: Perahu Kayu Akasia
+  dark_oak_boat: Perahu Kayu Ek Gelap
   structure_block: Blok Struktur
   jigsaw: Blok Gergaji Ukir
   turtle_helmet: Cangkang Penyu
@@ -585,7 +693,15 @@ material:
   coal: Batu Bara
   charcoal: Arang
   diamond: Berlian
+  emerald: Zamrud
+  lapis_lazuli: Lapis Lazuli
+  quartz: Kuarsa Nether
+  amethyst_shard: Serpih Kecubung
+  raw_iron: Besi Mentah
   iron_ingot: Batangan Besi
+  raw_copper: Tembaga Mentah
+  copper_ingot: Batang Tembaga
+  raw_gold: Emas Mentah
   gold_ingot: Batangan Emas
   netherite_ingot: Batangan Neterit
   netherite_scrap: Kepingan Neterit
@@ -669,29 +785,27 @@ material:
   bucket: Ember
   water_bucket: Ember Air
   lava_bucket: Ember Lava
-  minecart: Kereta Tambang
-  saddle: Pelana
-  redstone: Serbuk Batu Merah
+  powder_snow_bucket: Ember Bubuk Salju
   snowball: Bola Salju
-  oak_boat: Perahu Kayu Ek
   leather: Kulit
   milk_bucket: Ember Susu
   pufferfish_bucket: Ember Ikan Buntal
   salmon_bucket: Ember Salem
   cod_bucket: Ember Kod
   tropical_fish_bucket: Ember Ikan Tropis
+  axolotl_bucket: Ember Axolotl
   brick: Bata
   clay_ball: Bola Tanah Liat
   dried_kelp_block: Balok Kelp Kering
   paper: Kertas
   book: Buku
   slime_ball: Bola Geladir
-  chest_minecart: Kereta Tambang dengan Peti
-  furnace_minecart: Kereta Tambang Bertungku
   egg: Telur
   compass: Kompas
+  bundle: Kantong
   fishing_rod: Tongkat Pancing
   clock: Jam
+  spyglass: Teropong
   glowstone_dust: Debu Batu Bersinar
   cod: Kod Mentah
   salmon: Salem Mentah
@@ -700,8 +814,8 @@ material:
   cooked_cod: Kod Matang
   cooked_salmon: Salem Matang
   ink_sac: Kantong Tinta
+  glow_ink_sac: Kantong Tinta Bersinar
   cocoa_beans: Biji Kakao
-  lapis_lazuli: Lapis Lazuli
   white_dye: Pewarna Putih
   orange_dye: Pewarna Jingga
   magenta_dye: Pewarna Magenta
@@ -765,6 +879,7 @@ material:
   cauldron: Kuali
   ender_eye: Mata Ender
   glistering_melon_slice: Semangka Emas
+  axolotl_spawn_egg: Telur Pijah Axolotl
   bat_spawn_egg: Telur Pijah Kelelawar
   bee_spawn_egg: Telur Pijah Lebah
   blaze_spawn_egg: Telur Pijah Kemamang
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: Telur Pijah Dukun
   fox_spawn_egg: Telur Pijah Rubah
   ghast_spawn_egg: Telur Pijah Hantu Nether
+  glow_squid_spawn_egg: Telur Pijah Cumi-Cumi Bersinar
+  goat_spawn_egg: Telur Pijah Kambing
   guardian_spawn_egg: Telur Pijah Pamong
   hoglin_spawn_egg: Telur Pijah Hoglin
   horse_spawn_egg: Telur Pijah Kuda
@@ -797,7 +914,7 @@ material:
   phantom_spawn_egg: Telur Pijah Pari Momok
   pig_spawn_egg: Telur Pijah Babi
   piglin_spawn_egg: Telur Pijah Piglin
-  piglin_brute_spawn_egg: Telur Piglin Brute
+  piglin_brute_spawn_egg: Telur Pijah Piglin Ganas
   pillager_spawn_egg: Telur Pijah Penjarah
   polar_bear_spawn_egg: Telur Pijah Beruang Kutub
   pufferfish_spawn_egg: Telur Pijah Ikan Buntal
@@ -833,8 +950,8 @@ material:
   fire_charge: Bola Api
   writable_book: Buku dan Pena
   written_book: Buku Dengan Tulisan
-  emerald: Zamrud
   item_frame: Bingkai Benda
+  glow_item_frame: Bingkai Benda Bersinar
   flower_pot: Pot Bunga
   carrot: Wortel
   potato: Kentang
@@ -848,8 +965,6 @@ material:
   zombie_head: Kepala Zombi
   creeper_head: Kepala Creeper
   dragon_head: Kepala Naga
-  carrot_on_a_stick: Wortel di Tongkat
-  warped_fungus_on_a_stick: Jamur Kerukut di Tongkat
   nether_star: |
     Bintang Nether
   pumpkin_pie: Kue Labu
@@ -857,9 +972,6 @@ material:
   firework_star: Bintang Kembang Api
   enchanted_book: Buku Pesona
   nether_brick: Bata Nether
-  quartz: Kuarsa Nether
-  tnt_minecart: Kereta Tambang dengan TNT
-  hopper_minecart: Kereta Tambang Bercorong
   prismarine_shard: Serpihan Prismarine
   prismarine_crystals: Kristal Prismarine
   rabbit: Daging Kelinci Mentah
@@ -905,12 +1017,6 @@ material:
   tipped_arrow: Panah Celup
   lingering_potion: Ramuan Jangkar
   shield: Perisai
-  elytra: Sayap Kumbang
-  spruce_boat: Perahu Kayu Cemara
-  birch_boat: Perahu Kayu Pinus
-  jungle_boat: Perahu Kayu Rimba
-  acacia_boat: Perahu Kayu Akasia
-  dark_oak_boat: Perahu Kayu Ek Gelap
   totem_of_undying: Azimat Keabadian
   shulker_shell: Cangkang Periuk Pengintai
   iron_nugget: Bongkahan Besi
@@ -949,13 +1055,13 @@ material:
   cartography_table: Meja Pemetaan
   fletching_table: Meja Panahan
   grindstone: Gerinda
-  lectern: Podium
   smithing_table: Meja Tempa
   stonecutter: Pemahat Batu
   bell: Lonceng
   lantern: Lentera
   soul_lantern: Lentera Roh
   sweet_berries: Buni Manis
+  glow_berries: Beri Berkilau
   campfire: Api Unggun
   soul_campfire: Api Unggun Jiwa
   shroomlight: Lampu Jamur
@@ -963,12 +1069,8 @@ material:
   bee_nest: Sarang Lebah
   beehive: Sarang Lebah
   honey_bottle: Botol Madu
-  honey_block: Blok Madu
   honeycomb_block: Blok Sarang Madu
   lodestone: Batu Magnet
-  netherite_block: Blok Neterit
-  ancient_debris: Puing Purba
-  target: Sasaran
   crying_obsidian: Obsidian Menangis
   blackstone: Batu Hitam
   blackstone_slab: Lempeng Batu Hitam
@@ -983,6 +1085,28 @@ material:
   polished_blackstone_brick_stairs: Tangga Bata Batu Hitam Poles
   cracked_polished_blackstone_bricks: Bata Batu Hitam Poles Retak
   respawn_anchor: Jangkar Pembangkit
+  candle: Lilin
+  white_candle: Lilin Putih
+  orange_candle: Lilin Jingga
+  magenta_candle: Lilin Magenta
+  light_blue_candle: Lilin Biru Muda
+  yellow_candle: Lilin Kuning
+  lime_candle: Lilin Hijau Muda
+  pink_candle: Lilin Merah Muda
+  gray_candle: Lilin Abu-Abu
+  light_gray_candle: Lilin Abu-Abu Muda
+  cyan_candle: Lilin Sian
+  purple_candle: Lilin Ungu
+  blue_candle: Lilin Biru
+  brown_candle: Lilin Coklat
+  green_candle: Lilin Hijau
+  red_candle: Lilin Merah
+  black_candle: Lilin Hitam
+  small_amethyst_bud: Kuncup Kecil Batu Kecubung
+  medium_amethyst_bud: Kuncup Kecubung Sedang
+  large_amethyst_bud: Kuncup Besar Batu Kecubung
+  amethyst_cluster: Gugus Kecubung
+  pointed_dripstone: Batu Tetes Runcing
   water: Air
   lava: Lava
   tall_seagrass: Lamun Tinggi
@@ -1005,6 +1129,9 @@ material:
   attached_melon_stem: Batang Semangka Tertempel
   pumpkin_stem: Batang Labu
   melon_stem: Batang Semangka
+  water_cauldron: Kuali Air
+  lava_cauldron: Kuali Lahar
+  powder_snow_cauldron: Kuali Bubuk Salju
   end_portal: Gerbang End
   cocoa: Kakao
   tripwire: Kawat Senggol
@@ -1084,6 +1211,30 @@ material:
   potted_warped_fungus: Jamur Kerukut Pot
   potted_crimson_roots: Akar Kirmizi Pot
   potted_warped_roots: Akar Kerukut Pot
+  candle_cake: Kue Lilin
+  white_candle_cake: Kue dengan Lilin Putih
+  orange_candle_cake: Kue dengan Lilin Oranye
+  magenta_candle_cake: Kue dengan Lilin Magenta
+  light_blue_candle_cake: Kue dengan Lilin Biru Muda
+  yellow_candle_cake: Kue dengan Lilin Kuning
+  lime_candle_cake: Kue dengan Lilin Limau
+  pink_candle_cake: Kue dengan Lilin Merah Jambu
+  gray_candle_cake: Kue dengan Lilin Abu Abu
+  light_gray_candle_cake: Kue dengan Lilin Abu Abu Muda
+  cyan_candle_cake: Kue dengan Lilin Cian
+  purple_candle_cake: Kue dengan Lilin Ungu
+  blue_candle_cake: Kue dengan Lilin Biru
+  brown_candle_cake: Kue dengan Lilin Coklat
+  green_candle_cake: Kue dengan Lilin Hijau
+  red_candle_cake: Kue dengan Lilin Merah
+  black_candle_cake: Kue dengan Lilin Hitam
+  powder_snow: Bubuk Salju
+  cave_vines: Daun Rambat Gua
+  cave_vines_plant: Tanaman Daun Rambat Gua
+  big_dripleaf_stem: Batang Daun Tetes Besar
+  potted_azalea_bush: Azalea Pot
+  potted_flowering_azalea_bush: Pot Berbunga Azalea
+  grass_path: Jalan Berumput
   zombie_pigman_spawn_egg: Telur Pijah Zombi Manusia-Babi
   cactus_green: Hijau Kaktus
   dandelion_yellow: Kuning Randa Tapak
@@ -1170,46 +1321,48 @@ biome:
   crimson_forest: Hutan Kirmizi
   warped_forest: Hutan Kerukut
   basalt_deltas: Delta Basal
+  dripstone_caves: Gua Batu Tetes
+  lush_caves: Goa Rimbun
   nether: Neraka
 enchantment:
-  fire_protection: Tahan Api
-  sharpness: Ketajaman
-  flame: Api
-  soul_speed: Kecepatan Jiwa
-  aqua_affinity: Suka Air
-  punch: Pukul
-  loyalty: Kesetiaan
-  depth_strider: Pejalan Kedalaman
-  vanishing_curse: Kutukan Penghilang
-  unbreaking: Tak Hancur
-  knockback: Pukul Mundur
-  luck_of_the_sea: Keberuntungan dari Laut
-  binding_curse: Kutukan Pengikat
-  fortune: Keberuntungan
   protection: Perlindungan
-  efficiency: Daya Guna
-  mending: Perbaikan
-  frost_walker: Pejalan Beku
-  lure: Umpan
-  looting: Penjarahan
-  piercing: Tajam
-  blast_protection: Tahan Ledakan
-  smite: Pukul Keras
-  multishot: Multi Tembak
-  fire_aspect: Rupa Api
-  channeling: Pemusatan
-  sweeping: Menyapu Tepi
-  thorns: Duri
-  bane_of_arthropods: Kutukan Artropoda
-  respiration: Pernapasan
-  riptide: Arus Pecah
-  silk_touch: Sentuhan Sutera
-  quick_charge: Ledak Lekas
-  projectile_protection: Tahan Tembak
-  impaling: Menusuk
+  fire_protection: Tahan Api
   feather_falling: Bulu Jatuh
+  blast_protection: Tahan Ledakan
+  projectile_protection: Tahan Tembak
+  respiration: Pernapasan
+  aqua_affinity: Suka Air
+  thorns: Duri
+  depth_strider: Pejalan Kedalaman
+  frost_walker: Pejalan Beku
+  binding_curse: Kutukan Pengikat
+  sharpness: Ketajaman
+  smite: Pukul Keras
+  bane_of_arthropods: Kutukan Artropoda
+  knockback: Pukul Mundur
+  fire_aspect: Rupa Api
+  looting: Penjarahan
+  sweeping: Menyapu Tepi
+  efficiency: Daya Guna
+  silk_touch: Sentuhan Sutera
+  unbreaking: Tak Hancur
+  fortune: Keberuntungan
   power: Kekuatan
+  punch: Pukul
+  flame: Api
   infinity: Tak Terbatas
+  luck_of_the_sea: Keberuntungan dari Laut
+  lure: Umpan
+  loyalty: Kesetiaan
+  impaling: Menusuk
+  riptide: Arus Pecah
+  channeling: Pemusatan
+  multishot: Multi Tembak
+  quick_charge: Ledak Lekas
+  piercing: Tajam
+  mending: Perbaikan
+  vanishing_curse: Kutukan Penghilang
+  soul_speed: Kecepatan Jiwa
 potion:
   uncraftable: Ramuan Tak Bisa Dibuat
   water: Botol Air
@@ -1404,6 +1557,11 @@ entity:
   strider: Pejalan
   zoglin: Zoglin
   piglin_brute: Piglin Ganas
+  axolotl: Axolotl
+  glow_item_frame: Bingkai Benda Bersinar
+  glow_squid: Cumi-Cumi Bersinar
+  goat: Kambing
+  marker: Penanda
   fishing_hook: Pelampung Pancingan
   lightning: Halilintar
   player: Pemain
@@ -2203,17 +2361,3 @@ villager_profession:
   shepherd: Gembala
   toolsmith: Tukang Perkakas
   weaponsmith: Tukang Gaman
-villager_career:
-  farmer: Petani
-  fisherman: Nelayan
-  shepherd: Gembala
-  fletcher: Panahan
-  librarian: Pustakawan
-  cartographer: Tukang Peta
-  cleric: Pendeta
-  armorer: Tukang Zirah
-  weapon_smith: Tukang Gaman
-  tool_smith: Tukang Perkakas
-  butcher: Tukang Jagal
-  leatherworker: Tukang Kulit
-  nitwit: Bebal

@@ -1,11 +1,12 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:49                    #
+# Build time: 2021-07-04 21:46:04                    #
 # ####################################################
 language:
   code: se_no
   name: Davvisámegiella
   region: Sápmi
 material:
+  acacia_wood: Acacia
   apple: Eappel
   barrier: Eastta
   beacon: Čuovgatoardna
@@ -15,6 +16,7 @@ material:
   birch_sapling: Beahce Vesá
   birch_wood: Soahki
   black_banner: Čáhppat leavga
+  black_carpet: Čáhpes Láhtterátnu
   black_stained_glass: Čáhppes Ivdnejuvvon Láse
   black_wall_banner: Čáhppat leavga
   black_wool: Čáhppat Ullu
@@ -49,8 +51,12 @@ material:
   dark_oak_door: Čáhppeseaikauksa
   dark_oak_leaves: Cáhpeseaika Lastta
   dark_oak_wood: Čáhppeseaika
+  dead_bush: Jápman Miestta
   diamond: Diamántta
   diamond_axe: Diamántta-ákšu
+  diamond_block: Diamánttablohkka
+  diamond_pickaxe: Diamánttaguohkki
+  diamond_sword: Diamánttamiehkki
   dispenser: Automáhtta
   feather: Dávgi
   fern: Gáiskešattut
@@ -62,7 +68,6 @@ material:
   glowstone_dust: Čuovgageađge dopmu
   golden_apple: Golle Omen
   gold_block: Golle stuhka
-  gold_ore: Gollemálbma
   grass: Rássi
   grass_block: Suoidne stuhka
   gray_banner: Ránis leavga
@@ -71,6 +76,8 @@ material:
   green_banner: Ruoná leavga
   green_wall_banner: Ruoná leavga
   green_wool: Ruoná ullu
+  gunpowder: Rukta
+  ice: ﻿Jiekŋa
   iron_block: Ruovde stuhka
   iron_boots: Ruovde Skuovat
   iron_door: Ruovde Uksa
@@ -110,6 +117,7 @@ material:
   oak_door: Eaika Uksa
   oak_leaves: Eaika Lasttat
   oak_sapling: Áika Vesá
+  oak_wood: Eaika
   observer: Geahčča
   orange_banner: Oránša leavga
   orange_carpet: Oránša Láhtterátnu
@@ -134,7 +142,7 @@ material:
   red_stained_glass: Rukses ivdnejuvvon láse
   red_wall_banner: Ruoksat leavga
   red_wool: Ruoksat ullu
-  sandstone: Sáttogeađgi
+  saddle: Sále
   sandstone_slab: Sáttogeađgivajahas
   sandstone_stairs: 'Sáttogeađgi Trahppa '
   sea_lantern: Likta
@@ -226,3 +234,5 @@ banner_pattern:
   '2490381': Ruoná ášši
   '2490382': Ruoksat ášši
   '2490383': Čáhppat ášši
+villager_profession:
+  librarian: Girjerájusbargi

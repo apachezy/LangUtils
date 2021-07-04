@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:49                    #
+# Build time: 2021-07-04 21:46:05                    #
 # ####################################################
 language:
   code: zh_cn
@@ -14,10 +14,17 @@ material:
   polished_diorite: 磨制闪长岩
   andesite: 安山岩
   polished_andesite: 磨制安山岩
+  deepslate: 深板岩
+  cobbled_deepslate: 深板岩圆石
+  polished_deepslate: 磨制深板岩
+  calcite: 方解石
+  tuff: 凝灰岩
+  dripstone_block: 滴水石块
   grass_block: 草方块
   dirt: 泥土
   coarse_dirt: 砂土
   podzol: 灰化土
+  rooted_dirt: 缠根泥土
   crimson_nylium: 绯红菌岩
   warped_nylium: 诡异菌岩
   cobblestone: 圆石
@@ -39,10 +46,67 @@ material:
   sand: 沙子
   red_sand: 红沙
   gravel: 沙砾
-  gold_ore: 金矿石
-  iron_ore: 铁矿石
   coal_ore: 煤矿石
+  deepslate_coal_ore: 深层煤矿石
+  iron_ore: 铁矿石
+  deepslate_iron_ore: 深层铁矿石
+  copper_ore: 铜矿石
+  deepslate_copper_ore: 深层铜矿石
+  gold_ore: 金矿石
+  deepslate_gold_ore: 深层金矿石
+  redstone_ore: 红石矿石
+  deepslate_redstone_ore: 深层红石矿石
+  emerald_ore: 绿宝石矿石
+  deepslate_emerald_ore: 深层绿宝石矿石
+  lapis_ore: 青金石矿石
+  deepslate_lapis_ore: 深层青金石矿石
+  diamond_ore: 钻石矿石
+  deepslate_diamond_ore: 深层钻石矿石
   nether_gold_ore: 下界金矿石
+  nether_quartz_ore: 下界石英矿石
+  ancient_debris: 远古残骸
+  coal_block: 煤炭块
+  raw_iron_block: 粗铁块
+  raw_copper_block: 粗铜块
+  raw_gold_block: 粗金块
+  amethyst_block: 紫水晶块
+  budding_amethyst: 紫水晶母岩
+  iron_block: 铁块
+  copper_block: 铜块
+  gold_block: 金块
+  diamond_block: 钻石块
+  netherite_block: 下界合金块
+  exposed_copper: 斑驳的铜块
+  weathered_copper: 锈蚀的铜块
+  oxidized_copper: 氧化的铜块
+  cut_copper: 切制铜块
+  exposed_cut_copper: 斑驳的切制铜块
+  weathered_cut_copper: 锈蚀的切制铜块
+  oxidized_cut_copper: 氧化的切制铜块
+  cut_copper_stairs: 切制铜楼梯
+  exposed_cut_copper_stairs: 斑驳的切制铜楼梯
+  weathered_cut_copper_stairs: 锈蚀的切制铜楼梯
+  oxidized_cut_copper_stairs: 氧化的切制铜楼梯
+  cut_copper_slab: 切制铜台阶
+  exposed_cut_copper_slab: 斑驳的切制铜台阶
+  weathered_cut_copper_slab: 锈蚀的切制铜台阶
+  oxidized_cut_copper_slab: 氧化的切制铜台阶
+  waxed_copper_block: 涂蜡铜块
+  waxed_exposed_copper: 斑驳的涂蜡铜块
+  waxed_weathered_copper: 锈蚀的涂蜡铜块
+  waxed_oxidized_copper: 氧化的涂蜡铜块
+  waxed_cut_copper: 涂蜡切制铜块
+  waxed_exposed_cut_copper: 斑驳的涂蜡切制铜块
+  waxed_weathered_cut_copper: 锈蚀的涂蜡切制铜块
+  waxed_oxidized_cut_copper: 氧化的涂蜡切制铜块
+  waxed_cut_copper_stairs: 涂蜡切制铜楼梯
+  waxed_exposed_cut_copper_stairs: 斑驳的涂蜡切制铜楼梯
+  waxed_weathered_cut_copper_stairs: 锈蚀的涂蜡切制铜楼梯
+  waxed_oxidized_cut_copper_stairs: 氧化的涂蜡切制铜楼梯
+  waxed_cut_copper_slab: 涂蜡切制铜台阶
+  waxed_exposed_cut_copper_slab: 斑驳的涂蜡切制铜台阶
+  waxed_weathered_cut_copper_slab: 锈蚀的涂蜡切制铜台阶
+  waxed_oxidized_cut_copper_slab: 氧化的涂蜡切制铜台阶
   oak_log: 橡木原木
   spruce_log: 云杉原木
   birch_log: 白桦原木
@@ -81,26 +145,24 @@ material:
   jungle_leaves: 丛林树叶
   acacia_leaves: 金合欢树叶
   dark_oak_leaves: 深色橡树树叶
+  azalea_leaves: 杜鹃树叶
+  flowering_azalea_leaves: 盛开的杜鹃树叶
   sponge: 海绵
   wet_sponge: 湿海绵
   glass: 玻璃
-  lapis_ore: 青金石矿石
+  tinted_glass: 遮光玻璃
   lapis_block: 青金石块
-  dispenser: 发射器
   sandstone: 砂岩
   chiseled_sandstone: 錾制砂岩
   cut_sandstone: 切制砂岩
-  note_block: 音符盒
-  powered_rail: 充能铁轨
-  detector_rail: 探测铁轨
-  sticky_piston: 黏性活塞
   cobweb: 蜘蛛网
   grass: 草
   fern: 蕨
+  azalea: 杜鹃花丛
+  flowering_azalea: 盛开的杜鹃花丛
   dead_bush: 枯萎的灌木
   seagrass: 海草
   sea_pickle: 海泡菜
-  piston: 活塞
   white_wool: 白色羊毛
   orange_wool: 橙色羊毛
   magenta_wool: 品红色羊毛
@@ -121,7 +183,7 @@ material:
   poppy: 虞美人
   blue_orchid: 兰花
   allium: 绒球葱
-  azure_bluet: 茜草花
+  azure_bluet: 蓝花美耳草
   red_tulip: 红色郁金香
   orange_tulip: 橙色郁金香
   white_tulip: 白色郁金香
@@ -130,6 +192,7 @@ material:
   cornflower: 矢车菊
   lily_of_the_valley: 铃兰
   wither_rose: 凋零玫瑰
+  spore_blossom: 孢子花
   brown_mushroom: 棕色蘑菇
   red_mushroom: 红色蘑菇
   crimson_fungus: 绯红菌
@@ -141,9 +204,12 @@ material:
   twisting_vines: 缠怨藤
   sugar_cane: 甘蔗
   kelp: 海带
+  moss_carpet: 苔藓地毯
+  moss_block: 苔藓块
+  hanging_roots: 垂根
+  big_dripleaf: 大型垂滴叶
+  small_dripleaf: 小型垂滴叶
   bamboo: 竹子
-  gold_block: 金块
-  iron_block: 铁块
   oak_slab: 橡木台阶
   spruce_slab: 云杉木台阶
   birch_slab: 白桦木台阶
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: 平滑砂岩
   smooth_stone: 平滑石头
   bricks: 砖块
-  tnt: TNT
   bookshelf: 书架
   mossy_cobblestone: 苔石
   obsidian: 黑曜石
@@ -187,27 +252,11 @@ material:
   spawner: 刷怪笼
   oak_stairs: 橡木楼梯
   chest: 箱子
-  diamond_ore: 钻石矿石
-  diamond_block: 钻石块
   crafting_table: 工作台
   farmland: 耕地
   furnace: 熔炉
   ladder: 梯子
-  rail: 铁轨
   cobblestone_stairs: 圆石楼梯
-  lever: 拉杆
-  stone_pressure_plate: 石质压力板
-  oak_pressure_plate: 橡木压力板
-  spruce_pressure_plate: 云杉木压力板
-  birch_pressure_plate: 白桦木压力板
-  jungle_pressure_plate: 丛林木压力板
-  acacia_pressure_plate: 金合欢木压力板
-  dark_oak_pressure_plate: 深色橡木压力板
-  crimson_pressure_plate: 绯红木压力板
-  warped_pressure_plate: 诡异木压力板
-  polished_blackstone_pressure_plate: 磨制黑石压力板
-  redstone_ore: 红石矿石
-  redstone_torch: 红石火把
   snow: 雪
   ice: 冰
   snow_block: 雪块
@@ -224,32 +273,31 @@ material:
   warped_fence: 诡异木栅栏
   pumpkin: 南瓜
   carved_pumpkin: 雕刻过的南瓜
+  jack_o_lantern: 南瓜灯
   netherrack: 下界岩
   soul_sand: 灵魂沙
   soul_soil: 灵魂土
   basalt: 玄武岩
   polished_basalt: 磨制玄武岩
+  smooth_basalt: 平滑玄武岩
   soul_torch: 灵魂火把
   glowstone: 荧石
-  jack_o_lantern: 南瓜灯
-  oak_trapdoor: 橡木活板门
-  spruce_trapdoor: 云杉木活板门
-  birch_trapdoor: 白桦木活板门
-  jungle_trapdoor: 丛林木活板门
-  acacia_trapdoor: 金合欢木活板门
-  dark_oak_trapdoor: 深色橡木活板门
-  crimson_trapdoor: 绯红木活板门
-  warped_trapdoor: 诡异木活板门
   infested_stone: 被虫蚀的石头
   infested_cobblestone: 被虫蚀的圆石
   infested_stone_bricks: 被虫蚀的石砖
   infested_mossy_stone_bricks: 被虫蚀的苔石砖
-  infested_cracked_stone_bricks: 被虫蚀的裂石砖
+  infested_cracked_stone_bricks: 被虫蚀的裂纹石砖
   infested_chiseled_stone_bricks: 被虫蚀的錾制石砖
+  infested_deepslate: 被虫蚀的深板岩
   stone_bricks: 石砖
   mossy_stone_bricks: 苔石砖
-  cracked_stone_bricks: 裂石砖
+  cracked_stone_bricks: 裂纹石砖
   chiseled_stone_bricks: 錾制石砖
+  deepslate_bricks: 深板岩砖
+  cracked_deepslate_bricks: 裂纹深板岩砖
+  deepslate_tiles: 深板岩瓦
+  cracked_deepslate_tiles: 裂纹深板岩瓦
+  chiseled_deepslate: 錾制深板岩
   brown_mushroom_block: 棕色蘑菇方块
   red_mushroom_block: 红色蘑菇方块
   mushroom_stem: 蘑菇柄
@@ -258,14 +306,7 @@ material:
   glass_pane: 玻璃板
   melon: 西瓜
   vine: 藤蔓
-  oak_fence_gate: 橡木栅栏门
-  spruce_fence_gate: 云杉木栅栏门
-  birch_fence_gate: 白桦木栅栏门
-  jungle_fence_gate: 丛林木栅栏门
-  acacia_fence_gate: 金合欢木栅栏门
-  dark_oak_fence_gate: 深色橡木栅栏门
-  crimson_fence_gate: 绯红木栅栏门
-  warped_fence_gate: 诡异木栅栏门
+  glow_lichen: 发光地衣
   brick_stairs: 砖楼梯
   stone_brick_stairs: 石砖楼梯
   mycelium: 菌丝
@@ -280,11 +321,8 @@ material:
   end_stone: 末地石
   end_stone_bricks: 末地石砖
   dragon_egg: 龙蛋
-  redstone_lamp: 红石灯
   sandstone_stairs: 砂岩楼梯
-  emerald_ore: 绿宝石矿石
   ender_chest: 末影箱
-  tripwire_hook: 绊线钩
   emerald_block: 绿宝石块
   spruce_stairs: 云杉木楼梯
   birch_stairs: 白桦木楼梯
@@ -310,33 +348,18 @@ material:
   blackstone_wall: 黑石墙
   polished_blackstone_wall: 磨制黑石墙
   polished_blackstone_brick_wall: 磨制黑石砖墙
-  stone_button: 石头按钮
-  oak_button: 橡木按钮
-  spruce_button: 云杉木按钮
-  birch_button: 白桦木按钮
-  jungle_button: 丛林木按钮
-  acacia_button: 金合欢木按钮
-  dark_oak_button: 深色橡木按钮
-  crimson_button: 绯红木按钮
-  warped_button: 诡异木按钮
-  polished_blackstone_button: 磨制黑石按钮
+  cobbled_deepslate_wall: 深板岩圆石墙
+  polished_deepslate_wall: 磨制深板岩墙
+  deepslate_brick_wall: 深板岩砖墙
+  deepslate_tile_wall: 深板岩瓦墙
   anvil: 铁砧
   chipped_anvil: 开裂的铁砧
   damaged_anvil: 损坏的铁砧
-  trapped_chest: 陷阱箱
-  light_weighted_pressure_plate: 轻质测重压力板
-  heavy_weighted_pressure_plate: 重质测重压力板
-  daylight_detector: 阳光探测器
-  redstone_block: 红石块
-  nether_quartz_ore: 下界石英矿石
-  hopper: 漏斗
   chiseled_quartz_block: 錾制石英块
   quartz_block: 石英块
   quartz_bricks: 石英砖
   quartz_pillar: 石英柱
   quartz_stairs: 石英楼梯
-  activator_rail: 激活铁轨
-  dropper: 投掷器
   white_terracotta: 白色陶瓦
   orange_terracotta: 橙色陶瓦
   magenta_terracotta: 品红色陶瓦
@@ -354,7 +377,7 @@ material:
   red_terracotta: 红色陶瓦
   black_terracotta: 黑色陶瓦
   barrier: 屏障
-  iron_trapdoor: 铁活板门
+  light: 光
   hay_block: 干草块
   white_carpet: 白色地毯
   orange_carpet: 橙色地毯
@@ -373,12 +396,10 @@ material:
   red_carpet: 红色地毯
   black_carpet: 黑色地毯
   terracotta: 陶瓦
-  coal_block: 煤炭块
   packed_ice: 浮冰
   acacia_stairs: 金合欢木楼梯
   dark_oak_stairs: 深色橡木楼梯
-  slime_block: 黏液块
-  grass_path: 草径
+  dirt_path: 土径
   sunflower: 向日葵
   lilac: 丁香
   rose_bush: 玫瑰丛
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: 红色下界砖块
   bone_block: 骨块
   structure_void: 结构空位
-  observer: 侦测器
   shulker_box: 潜影盒
   white_shulker_box: 白色潜影盒
   orange_shulker_box: 橙色潜影盒
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: 红色下界砖楼梯
   polished_andesite_stairs: 磨制安山岩楼梯
   diorite_stairs: 闪长岩楼梯
+  cobbled_deepslate_stairs: 深板岩圆石楼梯
+  polished_deepslate_stairs: 磨制深板岩楼梯
+  deepslate_brick_stairs: 深板岩砖楼梯
+  deepslate_tile_stairs: 深板岩瓦楼梯
   polished_granite_slab: 磨制花岗岩台阶
   smooth_red_sandstone_slab: 平滑红砂岩台阶
   mossy_stone_brick_slab: 苔石砖台阶
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: 红色下界砖台阶
   polished_andesite_slab: 磨制安山岩台阶
   diorite_slab: 闪长岩台阶
+  cobbled_deepslate_slab: 深板岩圆石台阶
+  polished_deepslate_slab: 磨制深板岩台阶
+  deepslate_brick_slab: 深板岩砖台阶
+  deepslate_tile_slab: 深板岩瓦台阶
   scaffolding: 脚手架
+  redstone: 红石粉
+  redstone_torch: 红石火把
+  redstone_block: 红石块
+  repeater: 红石中继器
+  comparator: 红石比较器
+  piston: 活塞
+  sticky_piston: 黏性活塞
+  slime_block: 黏液块
+  honey_block: 蜂蜜块
+  observer: 侦测器
+  hopper: 漏斗
+  dispenser: 发射器
+  dropper: 投掷器
+  lectern: 讲台
+  target: 标靶
+  lever: 拉杆
+  lightning_rod: 避雷针
+  daylight_detector: 阳光探测器
+  sculk_sensor: 潜声传感器
+  tripwire_hook: 绊线钩
+  trapped_chest: 陷阱箱
+  tnt: TNT
+  redstone_lamp: 红石灯
+  note_block: 音符盒
+  stone_button: 石头按钮
+  polished_blackstone_button: 磨制黑石按钮
+  oak_button: 橡木按钮
+  spruce_button: 云杉木按钮
+  birch_button: 白桦木按钮
+  jungle_button: 丛林木按钮
+  acacia_button: 金合欢木按钮
+  dark_oak_button: 深色橡木按钮
+  crimson_button: 绯红木按钮
+  warped_button: 诡异木按钮
+  stone_pressure_plate: 石质压力板
+  polished_blackstone_pressure_plate: 磨制黑石压力板
+  light_weighted_pressure_plate: 轻质测重压力板
+  heavy_weighted_pressure_plate: 重质测重压力板
+  oak_pressure_plate: 橡木压力板
+  spruce_pressure_plate: 云杉木压力板
+  birch_pressure_plate: 白桦木压力板
+  jungle_pressure_plate: 丛林木压力板
+  acacia_pressure_plate: 金合欢木压力板
+  dark_oak_pressure_plate: 深色橡木压力板
+  crimson_pressure_plate: 绯红木压力板
+  warped_pressure_plate: 诡异木压力板
   iron_door: 铁门
   oak_door: 橡木门
   spruce_door: 云杉木门
@@ -572,8 +646,42 @@ material:
   dark_oak_door: 深色橡木门
   crimson_door: 绯红木门
   warped_door: 诡异木门
-  repeater: 红石中继器
-  comparator: 红石比较器
+  iron_trapdoor: 铁活板门
+  oak_trapdoor: 橡木活板门
+  spruce_trapdoor: 云杉木活板门
+  birch_trapdoor: 白桦木活板门
+  jungle_trapdoor: 丛林木活板门
+  acacia_trapdoor: 金合欢木活板门
+  dark_oak_trapdoor: 深色橡木活板门
+  crimson_trapdoor: 绯红木活板门
+  warped_trapdoor: 诡异木活板门
+  oak_fence_gate: 橡木栅栏门
+  spruce_fence_gate: 云杉木栅栏门
+  birch_fence_gate: 白桦木栅栏门
+  jungle_fence_gate: 丛林木栅栏门
+  acacia_fence_gate: 金合欢木栅栏门
+  dark_oak_fence_gate: 深色橡木栅栏门
+  crimson_fence_gate: 绯红木栅栏门
+  warped_fence_gate: 诡异木栅栏门
+  powered_rail: 充能铁轨
+  detector_rail: 探测铁轨
+  rail: 铁轨
+  activator_rail: 激活铁轨
+  saddle: 鞍
+  minecart: 矿车
+  chest_minecart: 运输矿车
+  furnace_minecart: 动力矿车
+  tnt_minecart: TNT矿车
+  hopper_minecart: 漏斗矿车
+  carrot_on_a_stick: 胡萝卜钓竿
+  warped_fungus_on_a_stick: 诡异菌钓竿
+  elytra: 鞘翅
+  oak_boat: 橡木船
+  spruce_boat: 云杉木船
+  birch_boat: 白桦木船
+  jungle_boat: 丛林木船
+  acacia_boat: 金合欢木船
+  dark_oak_boat: 深色橡木船
   structure_block: 结构方块
   jigsaw: 拼图方块
   turtle_helmet: 海龟壳
@@ -585,7 +693,15 @@ material:
   coal: 煤炭
   charcoal: 木炭
   diamond: 钻石
+  emerald: 绿宝石
+  lapis_lazuli: 青金石
+  quartz: 下界石英
+  amethyst_shard: 紫水晶碎片
+  raw_iron: 粗铁
   iron_ingot: 铁锭
+  raw_copper: 粗铜
+  copper_ingot: 铜锭
+  raw_gold: 粗金
   gold_ingot: 金锭
   netherite_ingot: 下界合金锭
   netherite_scrap: 下界合金碎片
@@ -669,29 +785,27 @@ material:
   bucket: 桶
   water_bucket: 水桶
   lava_bucket: 熔岩桶
-  minecart: 矿车
-  saddle: 鞍
-  redstone: 红石粉
+  powder_snow_bucket: 细雪桶
   snowball: 雪球
-  oak_boat: 橡木船
   leather: 皮革
-  milk_bucket: 牛奶桶
+  milk_bucket: 奶桶
   pufferfish_bucket: 河豚桶
   salmon_bucket: 鲑鱼桶
   cod_bucket: 鳕鱼桶
   tropical_fish_bucket: 热带鱼桶
+  axolotl_bucket: 美西螈桶
   brick: 红砖
   clay_ball: 黏土球
   dried_kelp_block: 干海带块
   paper: 纸
   book: 书
   slime_ball: 黏液球
-  chest_minecart: 运输矿车
-  furnace_minecart: 动力矿车
   egg: 鸡蛋
   compass: 指南针
+  bundle: 收纳袋
   fishing_rod: 钓鱼竿
   clock: 时钟
+  spyglass: 望远镜
   glowstone_dust: 荧石粉
   cod: 生鳕鱼
   salmon: 生鲑鱼
@@ -700,8 +814,8 @@ material:
   cooked_cod: 熟鳕鱼
   cooked_salmon: 熟鲑鱼
   ink_sac: 墨囊
+  glow_ink_sac: 荧光墨囊
   cocoa_beans: 可可豆
-  lapis_lazuli: 青金石
   white_dye: 白色染料
   orange_dye: 橙色染料
   magenta_dye: 品红色染料
@@ -765,6 +879,7 @@ material:
   cauldron: 炼药锅
   ender_eye: 末影之眼
   glistering_melon_slice: 闪烁的西瓜片
+  axolotl_spawn_egg: 美西螈刷怪蛋
   bat_spawn_egg: 蝙蝠刷怪蛋
   bee_spawn_egg: 蜜蜂刷怪蛋
   blaze_spawn_egg: 烈焰人刷怪蛋
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: 唤魔者刷怪蛋
   fox_spawn_egg: 狐狸刷怪蛋
   ghast_spawn_egg: 恶魂刷怪蛋
+  glow_squid_spawn_egg: 发光鱿鱼刷怪蛋
+  goat_spawn_egg: 山羊刷怪蛋
   guardian_spawn_egg: 守卫者刷怪蛋
   hoglin_spawn_egg: 疣猪兽刷怪蛋
   horse_spawn_egg: 马刷怪蛋
@@ -804,7 +921,7 @@ material:
   rabbit_spawn_egg: 兔子刷怪蛋
   ravager_spawn_egg: 劫掠兽刷怪蛋
   salmon_spawn_egg: 鲑鱼刷怪蛋
-  sheep_spawn_egg: 羊刷怪蛋
+  sheep_spawn_egg: 绵羊刷怪蛋
   shulker_spawn_egg: 潜影贝刷怪蛋
   silverfish_spawn_egg: 蠹虫刷怪蛋
   skeleton_spawn_egg: 骷髅刷怪蛋
@@ -833,8 +950,8 @@ material:
   fire_charge: 火焰弹
   writable_book: 书与笔
   written_book: 成书
-  emerald: 绿宝石
   item_frame: 物品展示框
+  glow_item_frame: 荧光物品展示框
   flower_pot: 花盆
   carrot: 胡萝卜
   potato: 马铃薯
@@ -848,17 +965,12 @@ material:
   zombie_head: 僵尸的头
   creeper_head: 苦力怕的头
   dragon_head: 龙首
-  carrot_on_a_stick: 胡萝卜钓竿
-  warped_fungus_on_a_stick: 诡异菌钓竿
   nether_star: 下界之星
   pumpkin_pie: 南瓜派
   firework_rocket: 烟花火箭
   firework_star: 烟火之星
   enchanted_book: 附魔书
   nether_brick: 下界砖
-  quartz: 下界石英
-  tnt_minecart: TNT矿车
-  hopper_minecart: 漏斗矿车
   prismarine_shard: 海晶碎片
   prismarine_crystals: 海晶砂粒
   rabbit: 生兔肉
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: 药箭
   lingering_potion: 滞留药水
   shield: 盾牌
-  elytra: 鞘翅
-  spruce_boat: 云杉木船
-  birch_boat: 白桦木船
-  jungle_boat: 丛林木船
-  acacia_boat: 金合欢木船
-  dark_oak_boat: 深色橡木船
   totem_of_undying: 不死图腾
   shulker_shell: 潜影壳
   iron_nugget: 铁粒
@@ -948,13 +1054,13 @@ material:
   cartography_table: 制图台
   fletching_table: 制箭台
   grindstone: 砂轮
-  lectern: 讲台
   smithing_table: 锻造台
   stonecutter: 切石机
   bell: 钟
   lantern: 灯笼
   soul_lantern: 灵魂灯笼
   sweet_berries: 甜浆果
+  glow_berries: 发光浆果
   campfire: 营火
   soul_campfire: 灵魂营火
   shroomlight: 菌光体
@@ -962,12 +1068,8 @@ material:
   bee_nest: 蜂巢
   beehive: 蜂箱
   honey_bottle: 蜂蜜瓶
-  honey_block: 蜂蜜块
   honeycomb_block: 蜜脾块
   lodestone: 磁石
-  netherite_block: 下界合金块
-  ancient_debris: 远古残骸
-  target: 标靶
   crying_obsidian: 哭泣的黑曜石
   blackstone: 黑石
   blackstone_slab: 黑石台阶
@@ -982,6 +1084,28 @@ material:
   polished_blackstone_brick_stairs: 磨制黑石砖楼梯
   cracked_polished_blackstone_bricks: 裂纹磨制黑石砖
   respawn_anchor: 重生锚
+  candle: 蜡烛
+  white_candle: 白色蜡烛
+  orange_candle: 橙色蜡烛
+  magenta_candle: 品红色蜡烛
+  light_blue_candle: 淡蓝色蜡烛
+  yellow_candle: 黄色蜡烛
+  lime_candle: 黄绿色蜡烛
+  pink_candle: 粉红色蜡烛
+  gray_candle: 灰色蜡烛
+  light_gray_candle: 淡灰色蜡烛
+  cyan_candle: 青色蜡烛
+  purple_candle: 紫色蜡烛
+  blue_candle: 蓝色蜡烛
+  brown_candle: 棕色蜡烛
+  green_candle: 绿色蜡烛
+  red_candle: 红色蜡烛
+  black_candle: 黑色蜡烛
+  small_amethyst_bud: 小型紫晶芽
+  medium_amethyst_bud: 中型紫晶芽
+  large_amethyst_bud: 大型紫晶芽
+  amethyst_cluster: 紫水晶簇
+  pointed_dripstone: 滴水石锥
   water: 水
   lava: 熔岩
   tall_seagrass: 高海草
@@ -1004,6 +1128,9 @@ material:
   attached_melon_stem: 结果的西瓜茎
   pumpkin_stem: 南瓜茎
   melon_stem: 西瓜茎
+  water_cauldron: 装有水的炼药锅
+  lava_cauldron: 装有熔岩的炼药锅
+  powder_snow_cauldron: 装有细雪的炼药锅
   end_portal: 末地传送门
   cocoa: 可可果
   tripwire: 绊线
@@ -1018,7 +1145,7 @@ material:
   potted_poppy: 虞美人盆栽
   potted_blue_orchid: 兰花盆栽
   potted_allium: 绒球葱盆栽
-  potted_azure_bluet: 茜草花盆栽
+  potted_azure_bluet: 蓝花美耳草盆栽
   potted_red_tulip: 红色郁金香盆栽
   potted_orange_tulip: 橙色郁金香盆栽
   potted_white_tulip: 白色郁金香盆栽
@@ -1083,6 +1210,30 @@ material:
   potted_warped_fungus: 诡异菌盆栽
   potted_crimson_roots: 绯红菌索盆栽
   potted_warped_roots: 诡异菌索盆栽
+  candle_cake: 插上蜡烛的蛋糕
+  white_candle_cake: 插上白色蜡烛的蛋糕
+  orange_candle_cake: 插上橙色蜡烛的蛋糕
+  magenta_candle_cake: 插上品红色蜡烛的蛋糕
+  light_blue_candle_cake: 插上淡蓝色蜡烛的蛋糕
+  yellow_candle_cake: 插上黄色蜡烛的蛋糕
+  lime_candle_cake: 插上黄绿色蜡烛的蛋糕
+  pink_candle_cake: 插上粉红色蜡烛的蛋糕
+  gray_candle_cake: 插上灰色蜡烛的蛋糕
+  light_gray_candle_cake: 插上淡灰色蜡烛的蛋糕
+  cyan_candle_cake: 插上青色蜡烛的蛋糕
+  purple_candle_cake: 插上紫色蜡烛的蛋糕
+  blue_candle_cake: 插上蓝色蜡烛的蛋糕
+  brown_candle_cake: 插上棕色蜡烛的蛋糕
+  green_candle_cake: 插上绿色蜡烛的蛋糕
+  red_candle_cake: 插上红色蜡烛的蛋糕
+  black_candle_cake: 插上黑色蜡烛的蛋糕
+  powder_snow: 细雪
+  cave_vines: 洞穴藤蔓
+  cave_vines_plant: 洞穴藤蔓植物
+  big_dripleaf_stem: 大型垂滴叶茎
+  potted_azalea_bush: 杜鹃花丛盆栽
+  potted_flowering_azalea_bush: 盛开的杜鹃花丛盆栽
+  grass_path: 草径
   zombie_pigman_spawn_egg: 僵尸猪人刷怪蛋
   cactus_green: 仙人掌绿
   dandelion_yellow: 蒲公英黄
@@ -1147,7 +1298,7 @@ biome:
   gravelly_mountains: 沙砾山地
   flower_forest: 繁花森林
   taiga_mountains: 针叶林山地
-  swamp_hills: 沼泽山丘
+  swamp_hills: 沼泽丘陵
   ice_spikes: 冰刺平原
   modified_jungle: 丛林变种
   modified_jungle_edge: 丛林边缘变种
@@ -1169,46 +1320,48 @@ biome:
   crimson_forest: 绯红森林
   warped_forest: 诡异森林
   basalt_deltas: 玄武岩三角洲
+  dripstone_caves: 溶洞
+  lush_caves: 繁茂洞穴
   nether: 下界
 enchantment:
-  fire_protection: 火焰保护
-  sharpness: 锋利
-  flame: 火矢
-  soul_speed: 灵魂疾行
-  aqua_affinity: 水下速掘
-  punch: 冲击
-  loyalty: 忠诚
-  depth_strider: 深海探索者
-  vanishing_curse: 消失诅咒
-  unbreaking: 耐久
-  knockback: 击退
-  luck_of_the_sea: 海之眷顾
-  binding_curse: 绑定诅咒
-  fortune: 时运
   protection: 保护
-  efficiency: 效率
-  mending: 经验修补
-  frost_walker: 冰霜行者
-  lure: 饵钓
-  looting: 抢夺
-  piercing: 穿透
-  blast_protection: 爆炸保护
-  smite: 亡灵杀手
-  multishot: 多重射击
-  fire_aspect: 火焰附加
-  channeling: 引雷
-  sweeping: 横扫之刃
-  thorns: 荆棘
-  bane_of_arthropods: 节肢杀手
-  respiration: 水下呼吸
-  riptide: 激流
-  silk_touch: 精准采集
-  quick_charge: 快速装填
-  projectile_protection: 弹射物保护
-  impaling: 穿刺
+  fire_protection: 火焰保护
   feather_falling: 摔落保护
+  blast_protection: 爆炸保护
+  projectile_protection: 弹射物保护
+  respiration: 水下呼吸
+  aqua_affinity: 水下速掘
+  thorns: 荆棘
+  depth_strider: 深海探索者
+  frost_walker: 冰霜行者
+  binding_curse: 绑定诅咒
+  sharpness: 锋利
+  smite: 亡灵杀手
+  bane_of_arthropods: 节肢杀手
+  knockback: 击退
+  fire_aspect: 火焰附加
+  looting: 抢夺
+  sweeping: 横扫之刃
+  efficiency: 效率
+  silk_touch: 精准采集
+  unbreaking: 耐久
+  fortune: 时运
   power: 力量
+  punch: 冲击
+  flame: 火矢
   infinity: 无限
+  luck_of_the_sea: 海之眷顾
+  lure: 饵钓
+  loyalty: 忠诚
+  impaling: 穿刺
+  riptide: 激流
+  channeling: 引雷
+  multishot: 多重射击
+  quick_charge: 快速装填
+  piercing: 穿透
+  mending: 经验修补
+  vanishing_curse: 消失诅咒
+  soul_speed: 灵魂疾行
 potion:
   uncraftable: 不可合成的药水
   water: 水瓶
@@ -1316,7 +1469,7 @@ entity:
   splash_potion: 药水
   thrown_exp_bottle: 掷出的附魔之瓶
   item_frame: 物品展示框
-  wither_skull: 凋灵之首
+  wither_skull: 凋灵头颅
   primed_tnt: 被激活的TNT
   falling_block: 下落的方块
   firework: 烟花火箭
@@ -1364,7 +1517,7 @@ entity:
   guardian: 守卫者
   shulker: 潜影贝
   pig: 猪
-  sheep: 羊
+  sheep: 绵羊
   cow: 牛
   chicken: 鸡
   squid: 鱿鱼
@@ -1403,6 +1556,11 @@ entity:
   strider: 炽足兽
   zoglin: 僵尸疣猪兽
   piglin_brute: 猪灵蛮兵
+  axolotl: 美西螈
+  glow_item_frame: 荧光物品展示框
+  glow_squid: 发光鱿鱼
+  goat: 山羊
+  marker: 标记
   fishing_hook: 浮漂
   lightning: 闪电束
   player: 玩家
@@ -2202,17 +2360,3 @@ villager_profession:
   shepherd: 牧羊人
   toolsmith: 工具匠
   weaponsmith: 武器匠
-villager_career:
-  farmer: 农民
-  fisherman: 渔夫
-  shepherd: 牧羊人
-  fletcher: 制箭师
-  librarian: 图书管理员
-  cartographer: 制图师
-  cleric: 牧师
-  armorer: 盔甲商
-  weapon_smith: 武器商
-  tool_smith: 工具商
-  butcher: 屠夫
-  leatherworker: 皮匠
-  nitwit: 傻子

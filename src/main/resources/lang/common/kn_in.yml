@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:48                    #
+# Build time: 2021-07-04 21:46:03                    #
 # ####################################################
 language:
   code: kn_in
@@ -14,6 +14,8 @@ material:
   polished_diorite: ಪಾಲಿಶ್ಡ್ ಡಿಯೊರೈಟ್
   andesite: ಅಂಡಿಸೈಟ್
   polished_andesite: ನಯಗೊಳಿಸಿದ ಅಂಡಿಸೈಟ್
+  calcite: ಕ್ಯಾಲ್ಸೈಟ್
+  tuff: ಟಫ್
   grass_block: ಹುಲ್ಲು ಘನಗ
   dirt: ಮಣ್ಣು
   coarse_dirt: |2-
@@ -41,10 +43,34 @@ material:
   sand: ಕೆಂಪು
   red_sand: ಕೆಂಪು ಮರಳು
   gravel: ಜಲ್ಲಿ
-  gold_ore: ಚಿನ್ನದ ಅದಿರು
-  iron_ore: ಕಬ್ಬಿಣದ ಅದಿರು
   coal_ore: ಕಲ್ಲಿದ್ದಲು ಅದಿರು
+  iron_ore: ಕಬ್ಬಿಣದ ಅದಿರು
+  copper_ore: ತಾಮ್ರದ ಅದಿರು
+  gold_ore: ಚಿನ್ನದ ಅದಿರು
+  redstone_ore: ರೆಡ್‌ಸ್ಟೋನ್ ಅದಿರು
+  deepslate_redstone_ore: Deepslate Redstone ಅದಿರು
+  emerald_ore: ಪಚ್ಚೆ ಅದಿರು
+  lapis_ore: ಲ್ಯಾಪಿಸ್ ಲಾಝುಲಿ ಅದಿರು
+  diamond_ore: ಡೈಮಂಡ್ ಅದಿರು
   nether_gold_ore: ಹೆಲ್ ನ ಚಿನ್ನದ ಅದಿರು
+  nether_quartz_ore: ನೆದರ್ ಸ್ಫಟಿಕ ಅದಿರು
+  ancient_debris: ಪ್ರಾಚೀನ ಶಿಲಾಖಂಡರಾಶಿಗಳು
+  coal_block: ಕಲ್ಲಿದ್ದಲು ಘನಗ
+  amethyst_block: ಅಮೆಥಿಸ್ಟ್ನ ಬ್ಲಾಕ್
+  budding_amethyst: ಬಡ್ಡಿಂಗ್ ಅಮೆಥಿಸ್ಟ್
+  iron_block: ಐರನ್ ಬ್ಲಾಕ್
+  gold_block: ಗೋಲ್ಡ್ ಬ್ಲಾಕ್
+  diamond_block: ಡೈಮಂಡ್ನ ಬ್ಲಾಕ್
+  netherite_block: ನೆದರೈಟ್ನ ಬ್ಲಾಕ್
+  cut_copper: ತಾಮ್ರವನ್ನು ಕತ್ತರಿಸಿ
+  weathered_cut_copper: ಹವಾಮಾನ ಕಟ್ ತಾಮ್ರ
+  cut_copper_stairs: ತಾಮ್ರದ ಮೆಟ್ಟಿಲುಗಳನ್ನು ಕತ್ತರಿಸಿ
+  weathered_cut_copper_stairs: ಹವಾಮಾನ ಕಟ್ ತಾಮ್ರದ ಮೆಟ್ಟಿಲುಗಳು
+  cut_copper_slab: ತಾಮ್ರದ ಚಪ್ಪಡಿ ಕತ್ತರಿಸಿ
+  weathered_cut_copper_slab: ಹವಾಮಾನ ಕಟ್ ಕಾಪರ್ ಸ್ಲ್ಯಾಬ್
+  waxed_cut_copper: ವ್ಯಾಕ್ಸ್ಡ್ ಕಟ್ ಕಾಪರ್
+  waxed_cut_copper_stairs: ವ್ಯಾಕ್ಸ್ಡ್ ಕಟ್ ಕಾಪರ್ ಮೆಟ್ಟಿಲುಗಳು
+  waxed_cut_copper_slab: ವ್ಯಾಕ್ಸ್ಡ್ ಕಟ್ ಕಾಪರ್ ಸ್ಲ್ಯಾಬ್
   oak_log: ಓಕ್ ಲಾಗ್
   spruce_log: ಲಾಗ್ ಸ್ಪ್ರೂಸ್
   birch_log: ಬಿರ್ಚ್ ಲಾಗ್
@@ -90,22 +116,11 @@ material:
 
     ವೆಟ್ ಸ್ಪಾಂಜ್
   glass: ಗಾಜು
-  lapis_ore: ಲ್ಯಾಪಿಸ್ ಲಾಝುಲಿ ಅದಿರು
-  lapis_block: ಲ್ಯಾಪಿಸ್ ಲಾಝುಲಿ ಅದಿರು
-  dispenser: ವಿತರಕ
+  tinted_glass: ಬಣ್ಣದ ಗಾಜು
+  lapis_block: ಲ್ಯಾಪಿಸ್ ಲಾಜುಲಿಯ ಬ್ಲಾಕ್
   sandstone: ಮರಳುಗಲ್ಲು
   chiseled_sandstone: ಕತ್ತರಿಸಿದ ಮರಳುಗಲ್ಲು
   cut_sandstone: ಮರಳುಗಲ್ಲು ಕತ್ತರಿಸಿ
-  note_block: ಟಿಪ್ಪಣಿ ಬ್ಲಾಕ್
-  powered_rail: |2-
-
-    ಚಾಲಿತ ರೈಲು
-  detector_rail: |2-
-
-    ಡಿಟೆಕ್ಟರ್ ರೈಲು
-  sticky_piston: |2-
-
-    ಸ್ಟಿಕಿ ಪಿಸ್ಟನ್
   cobweb: ಜೇಡನ ಬಲೆ
   grass: ಹುಲ್ಲು
   fern: ಜರೀಗಿಡ
@@ -114,9 +129,6 @@ material:
     ಡೆಡ್ ಬುಷ್
   seagrass: ಸೀಗ್ರಾಸ್
   sea_pickle: ಸಮುದ್ರ ಉಪ್ಪಿನಕಾಯಿ
-  piston: |2-
-
-    ಪಿಸ್ಟನ್
   white_wool: ಬಿಳಿ ಉಣ್ಣೆ
   orange_wool: ಕಿತ್ತಳೆ ಉಣ್ಣೆ
   magenta_wool: |2-
@@ -170,8 +182,6 @@ material:
 
     ಕೆಲ್ಪ್
   bamboo: ಬಿದಿರು
-  gold_block: ಗೋಲ್ಡ್ ಬ್ಲಾಕ್
-  iron_block: ಐರನ್ ಬ್ಲಾಕ್
   oak_slab: ಓಕ್ ಚಪ್ಪಡಿ
   spruce_slab: ಸ್ಪ್ರೂಸ್ ಸ್ಲ್ಯಾಬ್
   birch_slab: ಬಿರ್ಚ್ ಸ್ಲ್ಯಾಬ್
@@ -209,7 +219,6 @@ material:
 
     ನಯವಾದ ಕಲ್ಲು
   bricks: ಇಟ್ಟಿಗೆಗಳು
-  tnt: TNT
   bookshelf: ಪುಸ್ತಕದ ಕಪಾಟು
   mossy_cobblestone: |2-
 
@@ -233,8 +242,6 @@ material:
   chest: |2-
 
     ಎದೆ
-  diamond_ore: ಡೈಮಂಡ್ ಅದಿರು
-  diamond_block: ಡೈಮಂಡ್ನ ಬ್ಲಾಕ್
   crafting_table: |2-
 
     ಕ್ರಾಫ್ಟಿಂಗ್ ಟೇಬಲ್
@@ -243,25 +250,9 @@ material:
     ಕೃಷಿಭೂಮಿ
   furnace: ಕುಲುಮೆ
   ladder: ಏಣಿ
-  rail: ರೈಲು
   cobblestone_stairs: |2-
 
     ಕೋಬ್ಲೆಸ್ಟೋನ್ ಮೆಟ್ಟಿಲುಗಳು
-  lever: |2-
-
-    ಲಿವರ್
-  stone_pressure_plate: ಕಲ್ಲು ಒತ್ತಡದ ಫಲಕ
-  oak_pressure_plate: ಓಕ್ ಒತ್ತಡದ ಪ್ಲೇಟ್
-  spruce_pressure_plate: ಸ್ಪ್ರೂಸ್ ಪ್ರೆಶರ್ ಪ್ಲೇಟ್
-  birch_pressure_plate: ಬಿರ್ಚ್ ಪ್ರೆಶರ್ ಪ್ಲೇಟ್
-  jungle_pressure_plate: ಜಂಗಲ್ ಒತ್ತಡ ಪ್ಲೇಟ್
-  acacia_pressure_plate: ಅಕೇಶಿಯ ಪ್ರೆಶರ್ ಪ್ಲೇಟ್
-  dark_oak_pressure_plate: ಡಾರ್ಕ್ ಓಕ್ ಒತ್ತಡದ ಪ್ಲೇಟ್
-  crimson_pressure_plate: ಕ್ರಿಮ್ಸನ್ ಪ್ರೆಶರ್ ಪ್ಲೇಟ್
-  warped_pressure_plate: ರ್ಯಾಪ್ಡ್ ಪ್ರೆಶರ್ ಪ್ಲೇಟ್
-  polished_blackstone_pressure_plate: ನಯಗೊಳಿಸಿದ ಬ್ಲಾಕ್‌ಸ್ಟೋನ್ ಪ್ರೆಶರ್ ಪ್ಲೇಟ್
-  redstone_ore: ರೆಡ್‌ಸ್ಟೋನ್ ಅದಿರು
-  redstone_torch: ರೆಡ್ಸ್ಟೋನ್ ಟಾರ್ಚ್
   snow: ಹಿಮ
   ice: ಐಸ್
   snow_block: ಹಿಮ ಘನಗ
@@ -284,6 +275,7 @@ material:
   carved_pumpkin: |2-
 
     ಕೆತ್ತಿದ ಕುಂಬಳಕಾಯಿ
+  jack_o_lantern: ಜ್ಯಾಕ್ ಒ ಲ್ಯಾಂಟರ್ನ್
   netherrack: ನೆದರ್ರಾಕ್
   soul_sand: ಸೋಲ್ ಸ್ಯಾಂಡ್
   soul_soil: ಆತ್ಮ ಮಣ್ಣು
@@ -291,17 +283,6 @@ material:
   polished_basalt: ನಯಗೊಳಿಸಿದ ಬಸಾಲ್ಟ್
   soul_torch: ಸೋಲ್ ಟಾರ್ಚ್
   glowstone: ಗ್ಲೋಸ್ಟೋನ್
-  jack_o_lantern: ಜ್ಯಾಕ್ ಒ ಲ್ಯಾಂಟರ್ನ್
-  oak_trapdoor: ಓಕ್ ಟ್ರ್ಯಾಪ್ಡೂರ್
-  spruce_trapdoor: |2-
-
-    ಸ್ಪ್ರೂಸ್ ಟ್ರ್ಯಾಪ್ಡೋರ್
-  birch_trapdoor: ಬಿರ್ಚ್ ಟ್ರ್ಯಾಪ್ಡೋರ್
-  jungle_trapdoor: ಜಂಗಲ್ ಟ್ರ್ಯಾಪ್ಡೂರ್
-  acacia_trapdoor: ಅಕೇಶಿಯ ಟ್ರ್ಯಾಪ್ಡೋರ್
-  dark_oak_trapdoor: ಡಾರ್ಕ್ ಓಕ್ ಟ್ರ್ಯಾಪ್ಡೂರ್
-  crimson_trapdoor: ಕ್ರಿಮ್ಸನ್ ಟ್ರ್ಯಾಪ್ಡೋರ್
-  warped_trapdoor: ರ್ಯಾಪ್ಡ್ ಟ್ರ್ಯಾಪ್ಡೋರ್
   infested_stone: |2-
 
     ಮುತ್ತಿಕೊಂಡಿರುವ ಕಲ್ಲು
@@ -326,20 +307,6 @@ material:
   glass_pane: ಗ್ಲಾಸ್ ಪೇನ್
   melon: ಕಲ್ಲಂಗಡಿ
   vine: ಬಳ್ಳಿಗಳು
-  oak_fence_gate: ಓಕ್ ಫೆನ್ಸ್ ಗೇಟ್
-  spruce_fence_gate: |2-
-
-    ಸ್ಪ್ರೂಸ್ ಬೇಲಿ ಗೇಟ್
-  birch_fence_gate: |2-
-
-    ಬಿರ್ಚ್ ಬೇಲಿ ಗೇಟ್
-  jungle_fence_gate: ಜಂಗಲ್ ಫೆನ್ಸ್ ಗೇಟ್
-  acacia_fence_gate: |2-
-
-    ಅಕೇಶಿಯ ಬೇಲಿ ಗೇಟ್
-  dark_oak_fence_gate: ಡಾರ್ಕ್ ಓಕ್ ಫೆನ್ಸ್ ಗೇಟ್
-  crimson_fence_gate: ಕ್ರಿಮ್ಸನ್ ಬೇಲಿ ಗೇಟ್
-  warped_fence_gate: ರ್ಯಾಪ್ಡ್ ಬೇಲಿ ಗೇಟ್
   brick_stairs: ಇಟ್ಟಿಗೆ ಮೆಟ್ಟಿಲುಗಳು
   stone_brick_stairs: ಕಲ್ಲು ಇಟ್ಟಿಗೆ ಮೆಟ್ಟಿಲುಗಳು
   mycelium: ಕವಕಜಾಲ
@@ -356,11 +323,8 @@ material:
   end_stone: ಎಂಡ್ ಸ್ಟೋನ್
   end_stone_bricks: ಸ್ಟೋನ್ ಬ್ರಿಕ್ಸ್ ಅನ್ನು ಕೊನೆಗೊಳಿಸಿ
   dragon_egg: ಡ್ರ್ಯಾಗನ್ ಮೊಟ್ಟೆ
-  redstone_lamp: ರೆಡ್ಸ್ಟೋನ್ ಲ್ಯಾಂಪ್
   sandstone_stairs: ಮರಳುಗಲ್ಲಿನ ಮೆಟ್ಟಿಲುಗಳು
-  emerald_ore: ಪಚ್ಚೆ ಅದಿರು
   ender_chest: ಎಂಡರ್ ಎದೆ
-  tripwire_hook: ಟ್ರಿಪ್‌ವೈರ್ ಹುಕ್
   emerald_block: ಪಚ್ಚೆ ಘನಗ
   spruce_stairs: ಸ್ಪ್ರೂಸ್ ಮೆಟ್ಟಿಲುಗಳು
   birch_stairs: ಬರ್ಚ್ ಮೆಟ್ಟಿಲುಗಳು
@@ -388,36 +352,11 @@ material:
   blackstone_wall: ಬ್ಲಾಕ್ಸ್ಟೋನ್ ವಾಲ್
   polished_blackstone_wall: ನಯಗೊಳಿಸಿದ ಬ್ಲಾಕ್‌ಸ್ಟೋನ್ ವಾಲ್
   polished_blackstone_brick_wall: ನಯಗೊಳಿಸಿದ ಬ್ಲಾಕ್‌ಸ್ಟೋನ್ ಇಟ್ಟಿಗೆ ಗೋಡೆ
-  stone_button: ಕಲ್ಲು ಬಟನ್
-  oak_button: ಓಕ್ ಬಟನ್
-  spruce_button: ಸ್ಪ್ರೂಸ್ ಬಟನ್
-  birch_button: ಬರ್ಚ್ ಬಟನ್
-  jungle_button: ಜಂಗಲ್ ಬಟನ್
-  acacia_button: ಅಕೇಶಿಯ ಬಟನ್
-  dark_oak_button: ಡಾರ್ಕ್ ಓಕ್ ಬಟನ್
-  crimson_button: ಕ್ರಿಮ್ಸನ್ ಬಟನ್
-  warped_button: ರ್ಯಾಪ್ಡ್ ಬಟನ್
-  polished_blackstone_button: ನಯಗೊಳಿಸಿದ ಬ್ಲಾಕ್‌ಸ್ಟೋನ್ ಬಟನ್
   anvil: ಬಡಿಗಲ್ಲು
   chipped_anvil: ಚಿಪ್ಡ್ ಅನ್ವಿಲ್
   damaged_anvil: |2-
 
     ಹಾನಿಗೊಳಗಾದ ಅನ್ವಿಲ್
-  trapped_chest: ಸಿಕ್ಕಿಬಿದ್ದ ಎದೆ
-  light_weighted_pressure_plate: |2-
-
-    ಕಡಿಮೆ ತೂಕದ ಒತ್ತಡದ ಫಲಕ
-  heavy_weighted_pressure_plate: |2-
-
-    ಹೆವಿ ತೂಕದ ಒತ್ತಡದ ಫಲಕ
-  daylight_detector: |2-
-
-    ಡೇಲೈಟ್ ಡಿಟೆಕ್ಟರ್
-  redstone_block: ರೆಡ್ಸ್ಟೋನ್ ಘನಗ
-  nether_quartz_ore: ನೆದರ್ ಸ್ಫಟಿಕ ಅದಿರು
-  hopper: |2-
-
-    ಹಾಪರ್
   chiseled_quartz_block: ಕತ್ತರಿಸಿದ ಸ್ಫಟಿಕ ಬ್ಲಾಕ್
   quartz_block: ಸ್ಫಟಿಕ ಶಿಲೆ
   quartz_bricks: ಸ್ಫಟಿಕ ಇಟ್ಟಿಗೆಗಳು
@@ -427,10 +366,6 @@ material:
   quartz_stairs: |2-
 
     ಸ್ಫಟಿಕ ಮೆಟ್ಟಿಲುಗಳು
-  activator_rail: ಆಕ್ಟಿವೇಟರ್ ರೈಲು
-  dropper: |2-
-
-    ಡ್ರಾಪರ್
   white_terracotta: ವೈಟ್ ಟೆರಾಕೋಟಾ
   orange_terracotta: ಕಿತ್ತಳೆ ಟೆರಾಕೋಟಾ
   magenta_terracotta: ಮೆಜೆಂಟಾ ಟೆರಾಕೋಟಾ
@@ -448,7 +383,7 @@ material:
   red_terracotta: ಕೆಂಪು ಟೆರಾಕೋಟಾ
   black_terracotta: ಕಪ್ಪು ಟೆರಾಕೋಟಾ
   barrier: ತಡೆಗೋಡೆ
-  iron_trapdoor: ಐರನ್ ಟ್ರಾಪ್ಡೂರ್
+  light: ಬೆಳಕಿನ
   hay_block: ಹೇ ಬೇಲ್
   white_carpet: ಬಿಳಿ ಕಾರ್ಪೆಟ್
   orange_carpet: |2-
@@ -475,18 +410,12 @@ material:
   red_carpet: ಕೆಂಪು ಕಾರ್ಪೆಟ್
   black_carpet: ಕಪ್ಪು ಕಾರ್ಪೆಟ್
   terracotta: ಟೆರಾಕೋಟಾ
-  coal_block: ಕಲ್ಲಿದ್ದಲು ಘನಗ
   packed_ice: ಪ್ಯಾಕ್ಡ್ ಐಸ್
   acacia_stairs: |2-
 
     ಅಕೇಶಿಯ ಮೆಟ್ಟಿಲುಗಳು
   dark_oak_stairs: ಡಾರ್ಕ್ ಓಕ್ ಮೆಟ್ಟಿಲುಗಳು
-  slime_block: |2-
-
-    ಲೋಳೆ ಬ್ಲಾಕ್
-  grass_path: |2-
-
-    ಹುಲ್ಲಿನ ಹಾದಿ
+  dirt_path: ಕೊಳಕು ಮಾರ್ಗ
   sunflower: ಸೂರ್ಯಕಾಂತಿ
   lilac: ನೀಲಕ
   rose_bush: |2-
@@ -552,7 +481,6 @@ material:
   red_nether_bricks: ಕೆಂಪು ನೆದರ್ ಇಟ್ಟಿಗೆಗಳು
   bone_block: ಮೂಳೆ ಬ್ಲಾಕ್
   structure_void: ರಚನೆಯ ನಿರರ್ಥಕ
-  observer: ವೀಕ್ಷಕ
   shulker_box: ಶುಲ್ಕರ್ ಬಾಕ್ಸ್
   white_shulker_box: ಬಿಳಿ ಶಲ್ಕರ್ ಬಾಕ್ಸ್
   orange_shulker_box: |2-
@@ -727,6 +655,73 @@ material:
   polished_andesite_slab: ನಯಗೊಳಿಸಿದ ಅಂಡಿಸೈಟ್ ಚಪ್ಪಡಿ
   diorite_slab: ಡಿಯೊರೈಟ್ ಚಪ್ಪಡಿ
   scaffolding: ಸ್ಕ್ಯಾಫೋಲ್ಡಿಂಗ್
+  redstone: ರೆಡ್ಸ್ಟೋನ್ ಧೂಳು
+  redstone_torch: ರೆಡ್ಸ್ಟೋನ್ ಟಾರ್ಚ್
+  redstone_block: ರೆಡ್ಸ್ಟೋನ್ ಘನಗ
+  repeater: ರೆಡ್ಸ್ಟೋನ್ ರೆಡಿ
+  comparator: |2-
+
+    ರೆಡ್‌ಸ್ಟೋನ್ ಹೋಲಿಕೆದಾರ
+  piston: |2-
+
+    ಪಿಸ್ಟನ್
+  sticky_piston: |2-
+
+    ಸ್ಟಿಕಿ ಪಿಸ್ಟನ್
+  slime_block: |2-
+
+    ಲೋಳೆ ಬ್ಲಾಕ್
+  honey_block: |2-
+
+    ಹನಿ ಬ್ಲಾಕ್
+  observer: ವೀಕ್ಷಕ
+  hopper: |2-
+
+    ಹಾಪರ್
+  dispenser: ವಿತರಕ
+  dropper: |2-
+
+    ಡ್ರಾಪರ್
+  lectern: ಲೆಕ್ಟರ್ನ್
+  target: ಗುರಿ
+  lever: |2-
+
+    ಲಿವರ್
+  lightning_rod: ಮಿಂಚಿನ ರಾಡ್
+  daylight_detector: |2-
+
+    ಡೇಲೈಟ್ ಡಿಟೆಕ್ಟರ್
+  tripwire_hook: ಟ್ರಿಪ್‌ವೈರ್ ಹುಕ್
+  trapped_chest: ಸಿಕ್ಕಿಬಿದ್ದ ಎದೆ
+  tnt: TNT
+  redstone_lamp: ರೆಡ್ಸ್ಟೋನ್ ಲ್ಯಾಂಪ್
+  note_block: ಟಿಪ್ಪಣಿ ಬ್ಲಾಕ್
+  stone_button: ಕಲ್ಲು ಬಟನ್
+  polished_blackstone_button: ನಯಗೊಳಿಸಿದ ಬ್ಲಾಕ್‌ಸ್ಟೋನ್ ಬಟನ್
+  oak_button: ಓಕ್ ಬಟನ್
+  spruce_button: ಸ್ಪ್ರೂಸ್ ಬಟನ್
+  birch_button: ಬರ್ಚ್ ಬಟನ್
+  jungle_button: ಜಂಗಲ್ ಬಟನ್
+  acacia_button: ಅಕೇಶಿಯ ಬಟನ್
+  dark_oak_button: ಡಾರ್ಕ್ ಓಕ್ ಬಟನ್
+  crimson_button: ಕ್ರಿಮ್ಸನ್ ಬಟನ್
+  warped_button: ರ್ಯಾಪ್ಡ್ ಬಟನ್
+  stone_pressure_plate: ಕಲ್ಲು ಒತ್ತಡದ ಫಲಕ
+  polished_blackstone_pressure_plate: ನಯಗೊಳಿಸಿದ ಬ್ಲಾಕ್‌ಸ್ಟೋನ್ ಪ್ರೆಶರ್ ಪ್ಲೇಟ್
+  light_weighted_pressure_plate: |2-
+
+    ಕಡಿಮೆ ತೂಕದ ಒತ್ತಡದ ಫಲಕ
+  heavy_weighted_pressure_plate: |2-
+
+    ಹೆವಿ ತೂಕದ ಒತ್ತಡದ ಫಲಕ
+  oak_pressure_plate: ಓಕ್ ಒತ್ತಡದ ಪ್ಲೇಟ್
+  spruce_pressure_plate: ಸ್ಪ್ರೂಸ್ ಪ್ರೆಶರ್ ಪ್ಲೇಟ್
+  birch_pressure_plate: ಬಿರ್ಚ್ ಪ್ರೆಶರ್ ಪ್ಲೇಟ್
+  jungle_pressure_plate: ಜಂಗಲ್ ಒತ್ತಡ ಪ್ಲೇಟ್
+  acacia_pressure_plate: ಅಕೇಶಿಯ ಪ್ರೆಶರ್ ಪ್ಲೇಟ್
+  dark_oak_pressure_plate: ಡಾರ್ಕ್ ಓಕ್ ಒತ್ತಡದ ಪ್ಲೇಟ್
+  crimson_pressure_plate: ಕ್ರಿಮ್ಸನ್ ಪ್ರೆಶರ್ ಪ್ಲೇಟ್
+  warped_pressure_plate: ರ್ಯಾಪ್ಡ್ ಪ್ರೆಶರ್ ಪ್ಲೇಟ್
   iron_door: ಕಬ್ಬಿಣದ ಬಾಗಿಲು
   oak_door: ಓಕ್ ಬಾಗಿಲು
   spruce_door: |2-
@@ -738,10 +733,62 @@ material:
   dark_oak_door: ಡಾರ್ಕ್ ಓಕ್ ಡೋರ್
   crimson_door: ಕ್ರಿಮ್ಸನ್ ಡೋರ್
   warped_door: ರ್ಯಾಪ್ಡ್ ಡೋರ್
-  repeater: ರೆಡ್ಸ್ಟೋನ್ ರೆಡಿ
-  comparator: |2-
+  iron_trapdoor: ಐರನ್ ಟ್ರಾಪ್ಡೂರ್
+  oak_trapdoor: ಓಕ್ ಟ್ರ್ಯಾಪ್ಡೂರ್
+  spruce_trapdoor: |2-
 
-    ರೆಡ್‌ಸ್ಟೋನ್ ಹೋಲಿಕೆದಾರ
+    ಸ್ಪ್ರೂಸ್ ಟ್ರ್ಯಾಪ್ಡೋರ್
+  birch_trapdoor: ಬಿರ್ಚ್ ಟ್ರ್ಯಾಪ್ಡೋರ್
+  jungle_trapdoor: ಜಂಗಲ್ ಟ್ರ್ಯಾಪ್ಡೂರ್
+  acacia_trapdoor: ಅಕೇಶಿಯ ಟ್ರ್ಯಾಪ್ಡೋರ್
+  dark_oak_trapdoor: ಡಾರ್ಕ್ ಓಕ್ ಟ್ರ್ಯಾಪ್ಡೂರ್
+  crimson_trapdoor: ಕ್ರಿಮ್ಸನ್ ಟ್ರ್ಯಾಪ್ಡೋರ್
+  warped_trapdoor: ರ್ಯಾಪ್ಡ್ ಟ್ರ್ಯಾಪ್ಡೋರ್
+  oak_fence_gate: ಓಕ್ ಫೆನ್ಸ್ ಗೇಟ್
+  spruce_fence_gate: |2-
+
+    ಸ್ಪ್ರೂಸ್ ಬೇಲಿ ಗೇಟ್
+  birch_fence_gate: |2-
+
+    ಬಿರ್ಚ್ ಬೇಲಿ ಗೇಟ್
+  jungle_fence_gate: ಜಂಗಲ್ ಫೆನ್ಸ್ ಗೇಟ್
+  acacia_fence_gate: |2-
+
+    ಅಕೇಶಿಯ ಬೇಲಿ ಗೇಟ್
+  dark_oak_fence_gate: ಡಾರ್ಕ್ ಓಕ್ ಫೆನ್ಸ್ ಗೇಟ್
+  crimson_fence_gate: ಕ್ರಿಮ್ಸನ್ ಬೇಲಿ ಗೇಟ್
+  warped_fence_gate: ರ್ಯಾಪ್ಡ್ ಬೇಲಿ ಗೇಟ್
+  powered_rail: |2-
+
+    ಚಾಲಿತ ರೈಲು
+  detector_rail: |2-
+
+    ಡಿಟೆಕ್ಟರ್ ರೈಲು
+  rail: ರೈಲು
+  activator_rail: ಆಕ್ಟಿವೇಟರ್ ರೈಲು
+  saddle: ತಡಿ
+  minecart: ಮಿನೆಕಾರ್ಟ್
+  chest_minecart: |2-
+
+    ಎದೆಯೊಂದಿಗೆ ಮಿನೆಕಾರ್ಟ್
+  furnace_minecart: ಕುಲುಮೆಯೊಂದಿಗೆ ಮಿನೆಕಾರ್ಟ್
+  tnt_minecart: ಟಿಎನ್‌ಟಿಯೊಂದಿಗೆ ಮೈನ್‌ಕಾರ್ಟ್
+  hopper_minecart: ಹಾಪರ್ ಜೊತೆ ಮಿನೆಕಾರ್ಟ್
+  carrot_on_a_stick: |2-
+
+    ಕಡ್ಡಿ ಕಡ್ಡಿ
+  warped_fungus_on_a_stick: ಒಂದು ಕೋಲಿನ ಮೇಲೆ ರ್ಯಾಪ್ಡ್ ಶಿಲೀಂಧ್ರ
+  elytra: ಎಲಿತ್ರಾ
+  oak_boat: ಓಕ್ ದೋಣಿ
+  spruce_boat: |2-
+
+    ಸ್ಪ್ರೂಸ್ ಬೋಟ್
+  birch_boat: ಬರ್ಚ್ ದೋಣಿ
+  jungle_boat: ಜಂಗಲ್ ಬೋಟ್
+  acacia_boat: |2-
+
+    ಅಕೇಶಿಯ ಬೋಟ್
+  dark_oak_boat: ಡಾರ್ಕ್ ಓಕ್ ಬೋಟ್
   structure_block: |2-
 
     ರಚನೆ ಬ್ಲಾಕ್
@@ -755,7 +802,14 @@ material:
   coal: ಕಲ್ಲಿದ್ದಲು
   charcoal: ಇದ್ದಿಲು
   diamond: ವಜ್ರ
+  emerald: ಪಚ್ಚೆ
+  lapis_lazuli: ಲ್ಯಾಪಿಸ್ ಲಾಝುಲಿ
+  quartz: |2-
+
+    ನೆದರ್ ಸ್ಫಟಿಕ ಶಿಲೆ
+  amethyst_shard: ಅಮೆಥಿಸ್ಟ್ ಶಾರ್ಡ್
   iron_ingot: ಐರನ್ ಇಂಗೊಟ್
+  copper_ingot: ತಾಮ್ರ ಇಂಗೋಟ್
   gold_ingot: ಗೋಲ್ಡ್ ಇಂಗೊಟ್
   netherite_ingot: ನೆದರೈಟ್ ಇಂಗೋಟ್
   netherite_scrap: ನೆದರೈಟ್ ಸ್ಕ್ರ್ಯಾಪ್
@@ -851,11 +905,8 @@ material:
   bucket: ಬಕೆಟ್
   water_bucket: ನೀರಿನ ಬಕೆಟ್
   lava_bucket: ಲಾವಾ ಬಕೆಟ್
-  minecart: ಮಿನೆಕಾರ್ಟ್
-  saddle: ತಡಿ
-  redstone: ರೆಡ್ಸ್ಟೋನ್ ಧೂಳು
+  powder_snow_bucket: ಪೌಡರ್ ಸ್ನೋ ಬಕೆಟ್
   snowball: ಸ್ನೋಬಾಲ್
-  oak_boat: ಓಕ್ ದೋಣಿ
   leather: ಚರ್ಮ
   milk_bucket: |2-
 
@@ -872,14 +923,12 @@ material:
   paper: ಕಾಗದ
   book: ಪುಸ್ತಕ
   slime_ball: ಸ್ಲಿಮ್‌ಬಾಲ್
-  chest_minecart: |2-
-
-    ಎದೆಯೊಂದಿಗೆ ಮಿನೆಕಾರ್ಟ್
-  furnace_minecart: ಕುಲುಮೆಯೊಂದಿಗೆ ಮಿನೆಕಾರ್ಟ್
   egg: ಮೊಟ್ಟೆ
   compass: ದಿಕ್ಸೂಚಿ
+  bundle: ಬಂಡಲ್
   fishing_rod: ಫಿಶಿಂಗ್ ರಾಡ್
   clock: ಗಡಿಯಾರ
+  spyglass: ಸ್ಪೈಗ್ಲಾಸ್
   glowstone_dust: ರೆಡ್ಸ್ಟೋನ್ ಧೂಳು
   cod: ಕಚ್ಚಾ ಕಾಡ್
   salmon: ಕಚ್ಚಾ ಸಾಲ್ಮನ್
@@ -889,7 +938,6 @@ material:
   cooked_salmon: ಬೇಯಿಸಿದ ಸಾಲ್ಮನ್
   ink_sac: ಶಾಯಿ ಚೀಲ
   cocoa_beans: ಕೊಕೊ ಬೀನ್ಸ್
-  lapis_lazuli: ಲ್ಯಾಪಿಸ್ ಲಾಝುಲಿ
   white_dye: ಬಿಳಿ ಬಣ್ಣ
   orange_dye: ಕಿತ್ತಳೆ ಬಣ್ಣ
   magenta_dye: ಮೆಜೆಂತಾ ಡೈ
@@ -1039,7 +1087,6 @@ material:
   written_book: |2-
 
     ಲಿಖಿತ ಪುಸ್ತಕ
-  emerald: ಪಚ್ಚೆ
   item_frame: ಫ್ರೇಮ್
   flower_pot: ಹೂ ಕುಂಡ
   carrot: ಕ್ಯಾರೆಟ್
@@ -1054,10 +1101,6 @@ material:
   zombie_head: ಝಾಂಬಿ ಹೆಡ್
   creeper_head: ಕ್ರೀಪರ್ ತಲೆ
   dragon_head: ಡ್ರ್ಯಾಗನ್ ತಲೆ
-  carrot_on_a_stick: |2-
-
-    ಕಡ್ಡಿ ಕಡ್ಡಿ
-  warped_fungus_on_a_stick: ಒಂದು ಕೋಲಿನ ಮೇಲೆ ರ್ಯಾಪ್ಡ್ ಶಿಲೀಂಧ್ರ
   nether_star: ನೆದರ್ ನಕ್ಷತ್ರ
   pumpkin_pie: ಕುಂಬಳಕಾಯಿ ಕೇಕ್
   firework_rocket: |2-
@@ -1066,11 +1109,6 @@ material:
   firework_star: ಪಟಾಕಿ ಸ್ಟಾರ್
   enchanted_book: ಎನ್ಚ್ಯಾಂಟೆಡ್ ಪುಸ್ತಕ
   nether_brick: ನೆದರ್ ಬ್ರಿಕ್
-  quartz: |2-
-
-    ನೆದರ್ ಸ್ಫಟಿಕ ಶಿಲೆ
-  tnt_minecart: ಟಿಎನ್‌ಟಿಯೊಂದಿಗೆ ಮೈನ್‌ಕಾರ್ಟ್
-  hopper_minecart: ಹಾಪರ್ ಜೊತೆ ಮಿನೆಕಾರ್ಟ್
   prismarine_shard: ಪ್ರಿಸ್ಮರಿನ್ ಶಾರ್ಡ್
   prismarine_crystals: ಪ್ರಿಸ್ಮರಿನ್ ಕ್ರಿಸ್ಟಲ್ಸ್
   rabbit: ಕಚ್ಚಾ ಮೊಲ
@@ -1138,16 +1176,6 @@ material:
   tipped_arrow: ಪರಿಣಾಮದೊಂದಿಗೆ ಬಾಣ
   lingering_potion: ದೀರ್ಘಕಾಲದ ಮದ್ದು
   shield: ಗುರಾಣಿ
-  elytra: ಎಲಿತ್ರಾ
-  spruce_boat: |2-
-
-    ಸ್ಪ್ರೂಸ್ ಬೋಟ್
-  birch_boat: ಬರ್ಚ್ ದೋಣಿ
-  jungle_boat: ಜಂಗಲ್ ಬೋಟ್
-  acacia_boat: |2-
-
-    ಅಕೇಶಿಯ ಬೋಟ್
-  dark_oak_boat: ಡಾರ್ಕ್ ಓಕ್ ಬೋಟ್
   totem_of_undying: ಅಂತ್ಯವಿಲ್ಲದ ಟೋಟೆಂ
   shulker_shell: ಶುಲ್ಕರ್ ಶೆಲ್
   iron_nugget: ಐರನ್ ನುಗ್ಗೆಟ್
@@ -1188,7 +1216,6 @@ material:
   cartography_table: ಕಾರ್ಟೋಗ್ರಫಿ ಟೇಬಲ್
   fletching_table: ಫ್ಲೆಚಿಂಗ್ ಟೇಬಲ್
   grindstone: ಗ್ರಿಂಡ್ಸ್ಟೋನ್
-  lectern: ಲೆಕ್ಟರ್ನ್
   smithing_table: ಸ್ಮಿಮಿಂಗ್ ಟೇಬಲ್
   stonecutter: ಸ್ಟಾನ್ಕಾಕಿಟರ್
   bell: ಗಂಟೆ
@@ -1202,16 +1229,10 @@ material:
   bee_nest: ಜೇನುನೊಣ ಗೂಡು
   beehive: ಬೀಹೈವ್
   honey_bottle: ಹನಿ ಬಾಟಲ್
-  honey_block: |2-
-
-    ಹನಿ ಬ್ಲಾಕ್
   honeycomb_block: |2-
 
     ಜೇನುಗೂಡು ಬ್ಲಾಕ್
   lodestone: ಲೋಡೆಸ್ಟೋನ್
-  netherite_block: ನೆದರೈಟ್ನ ಬ್ಲಾಕ್
-  ancient_debris: ಪ್ರಾಚೀನ ಶಿಲಾಖಂಡರಾಶಿಗಳು
-  target: ಗುರಿ
   crying_obsidian: ಅಳುವುದು ಅಬ್ಸಿಡಿಯನ್
   blackstone: ಕಪ್ಪು ಕಲ್ಲಿನ
   blackstone_slab: ಬ್ಲಾಕ್‌ಸ್ಟೋನ್ ಸ್ಲ್ಯಾಬ್
@@ -1226,6 +1247,27 @@ material:
   polished_blackstone_brick_stairs: ನಯಗೊಳಿಸಿದ ಬ್ಲಾಕ್‌ಸ್ಟೋನ್ ಇಟ್ಟಿಗೆ ಮೆಟ್ಟಿಲುಗಳು
   cracked_polished_blackstone_bricks: ಕ್ರ್ಯಾಕ್ಡ್ ಪಾಲಿಶ್ಡ್ ಬ್ಲಾಕ್ಸ್ಟೋನ್ ಇಟ್ಟಿಗೆಗಳು
   respawn_anchor: ರೆಸ್ಪಾನ್ ಆಂಕರ್
+  candle: ಮೋಂಬತ್ತಿ
+  white_candle: ಬಿಳಿ ಮೇಣದ ಬತ್ತಿ
+  orange_candle: ಕಿತ್ತಳೆ ಕ್ಯಾಂಡಲ್
+  magenta_candle: ಮೆಜೆಂಟಾ ಕ್ಯಾಂಡಲ್
+  light_blue_candle: ತಿಳಿ ನೀಲಿ ಕ್ಯಾಂಡಲ್
+  yellow_candle: ಹಳದಿ ಕ್ಯಾಂಡಲ್
+  lime_candle: ಸುಣ್ಣ ಮೋಂಬತ್ತಿ
+  pink_candle: ಗುಲಾಬಿ ಕ್ಯಾಂಡಲ್
+  gray_candle: ಗ್ರೇ ಕ್ಯಾಂಡಲ್
+  light_gray_candle: ತಿಳಿ ಬೂದು ಕ್ಯಾಂಡಲ್
+  cyan_candle: ಸಯಾನ್ ಕ್ಯಾಂಡಲ್
+  purple_candle: ನೇರಳೆ ಕ್ಯಾಂಡಲ್
+  blue_candle: ನೀಲಿ ಕ್ಯಾಂಡಲ್
+  brown_candle: ಬ್ರೌನ್ ಕ್ಯಾಂಡಲ್
+  green_candle: ಹಸಿರು ಕ್ಯಾಂಡಲ್
+  red_candle: ಕೆಂಪು ಕ್ಯಾಂಡಲ್
+  black_candle: ಕಪ್ಪು ಕ್ಯಾಂಡಲ್
+  small_amethyst_bud: ಸಣ್ಣ ಅಮೆಥಿಸ್ಟ್ ಬಡ್
+  medium_amethyst_bud: ಮಧ್ಯಮ ಅಮೆಥಿಸ್ಟ್ ಬಡ್
+  large_amethyst_bud: ದೊಡ್ಡ ಅಮೆಥಿಸ್ಟ್ ಬಡ್
+  amethyst_cluster: ಅಮೆಥಿಸ್ಟ್ ಕ್ಲಸ್ಟರ್
   water: ನೀರಿನ
   lava: ಲಾವಾ
   tall_seagrass: |2-
@@ -1254,6 +1296,9 @@ material:
 
     ಕುಂಬಳಕಾಯಿ ಕಾಂಡ
   melon_stem: ಕಲ್ಲಂಗಡಿ ಕಾಂಡ
+  water_cauldron: ವಾಟರ್ ಕೌಲ್ಡ್ರಾನ್
+  lava_cauldron: ಲಾವಾ ಕೌಲ್ಡ್ರನ್
+  powder_snow_cauldron: ಪೌಡರ್ ಸ್ನೋ ಕೌಲ್ಡ್ರಾನ್
   end_portal: ಎಂಡ್ ಪೋರ್ಟಲ್
   cocoa: ಕೊಕೊ
   tripwire: ಟ್ರಿಪ್‌ವೈರ್
@@ -1349,6 +1394,11 @@ material:
   potted_warped_fungus: ಪಾಟ್ಡ್ ವಾರ್ಪ್ಡ್ ಫಂಗಸ್
   potted_crimson_roots: ಪಾಟ್ಡ್ ಕ್ರಿಮ್ಸನ್ ರೂಟ್ಸ್
   potted_warped_roots: ಪಾಟ್ಡ್ ವಾರ್ಪ್ಡ್ ರೂಟ್ಸ್
+  candle_cake: ಕ್ಯಾಂಡಲ್ ಕೇಕ್
+  powder_snow: ಪುಡಿ ಹಿಮ
+  grass_path: |2-
+
+    ಹುಲ್ಲಿನ ಹಾದಿ
   zombie_pigman_spawn_egg: ಝಾಂಬಿ ಪಿಗ್ಮನ್ ಸ್ಪಾನ್ ಎಗ್
   dandelion_yellow: ಡಾಂಡೆಲಿಯನ್ ಹಳದಿ
 biome:
@@ -1437,44 +1487,44 @@ biome:
   basalt_deltas: ಬಸಾಲ್ಟ್ ಡೆಲ್ಟಾಸ್
   nether: ನೆದರ್
 enchantment:
-  fire_protection: ಅಗ್ನಿ ರಕ್ಷಣೆ
-  sharpness: ತೀಕ್ಷ್ಣತೆ
-  flame: ಫ್ಲೇಮ್
-  soul_speed: ಸೋಲ್ ಸ್ಪೀಡ್
-  aqua_affinity: ಆಕ್ವಾ ಅಫಿನಿಟಿ
-  punch: ಪಂಚ್
-  loyalty: ನಿಷ್ಠೆ
-  depth_strider: ಆಳ ಸ್ಟ್ರೈಡರ್
-  vanishing_curse: ವ್ಯಾನಿಶಿಂಗ್ನ ಕರ್ಸ್
-  unbreaking: ಅನ್ಬ್ರೇಕಿಂಗ್
-  knockback: ನಾಕ್ಬ್ಯಾಕ್
-  luck_of_the_sea: ಲಕ್ ಆಫ್ ದ ಸೀ
-  binding_curse: ಬೈಂಡಿಂಗ್ ಕರ್ಸ್
-  fortune: ಅದೃಷ್ಟ
   protection: ರಕ್ಷಣೆ
-  efficiency: ದಕ್ಷತೆ
-  mending: ಮೆಂಡಿಂಗ್
-  frost_walker: ಫ್ರಾಸ್ಟ್ ವಾಕರ್
-  lure: ಲಯ
-  looting: ಲೂಟಿ
-  piercing: ಚುಚ್ಚುವುದು
-  blast_protection: ಬ್ಲಾಸ್ಟ್ ಪ್ರೊಟೆಕ್ಷನ್
-  smite: ಹೊಡೆ
-  multishot: ಮಲ್ಟಿಶಾಟ್
-  fire_aspect: ಫೈರ್ ಆಸ್ಪೆಕ್ಟ್
-  channeling: ಚಾನೆಲಿಂಗ್
-  sweeping: ಸ್ವೀಪಿಂಗ್ ಎಡ್ಜ್
-  thorns: ಮುಳ್ಳುಗಳು
-  bane_of_arthropods: ಆರ್ತ್ರೋಪಾಡ್ಸ್ನ ಬನೆ
-  respiration: ಉಸಿರಾಟ
-  riptide: ರಿಪ್ಟೈಡ್
-  silk_touch: ರೇಷ್ಮೆ ಸ್ಪರ್ಶ
-  quick_charge: ತ್ವರಿತ ಶುಲ್ಕ
-  projectile_protection: ಪ್ರೊಜೆಸಲ್ ಪ್ರೊಟೆಕ್ಷನ್
-  impaling: ಇಂಪ್ಯಾಲಿಂಗ್
+  fire_protection: ಅಗ್ನಿ ರಕ್ಷಣೆ
   feather_falling: ಫೆದರ್ ಫಾಲಿಂಗ್
+  blast_protection: ಬ್ಲಾಸ್ಟ್ ಪ್ರೊಟೆಕ್ಷನ್
+  projectile_protection: ಪ್ರೊಜೆಸಲ್ ಪ್ರೊಟೆಕ್ಷನ್
+  respiration: ಉಸಿರಾಟ
+  aqua_affinity: ಆಕ್ವಾ ಅಫಿನಿಟಿ
+  thorns: ಮುಳ್ಳುಗಳು
+  depth_strider: ಆಳ ಸ್ಟ್ರೈಡರ್
+  frost_walker: ಫ್ರಾಸ್ಟ್ ವಾಕರ್
+  binding_curse: ಬೈಂಡಿಂಗ್ ಕರ್ಸ್
+  sharpness: ತೀಕ್ಷ್ಣತೆ
+  smite: ಹೊಡೆ
+  bane_of_arthropods: ಆರ್ತ್ರೋಪಾಡ್ಸ್ನ ಬನೆ
+  knockback: ನಾಕ್ಬ್ಯಾಕ್
+  fire_aspect: ಫೈರ್ ಆಸ್ಪೆಕ್ಟ್
+  looting: ಲೂಟಿ
+  sweeping: ಸ್ವೀಪಿಂಗ್ ಎಡ್ಜ್
+  efficiency: ದಕ್ಷತೆ
+  silk_touch: ರೇಷ್ಮೆ ಸ್ಪರ್ಶ
+  unbreaking: ಅನ್ಬ್ರೇಕಿಂಗ್
+  fortune: ಅದೃಷ್ಟ
   power: ಪವರ್
+  punch: ಪಂಚ್
+  flame: ಫ್ಲೇಮ್
   infinity: ಇನ್ಫಿನಿಟಿ
+  luck_of_the_sea: ಲಕ್ ಆಫ್ ದ ಸೀ
+  lure: ಲಯ
+  loyalty: ನಿಷ್ಠೆ
+  impaling: ಇಂಪ್ಯಾಲಿಂಗ್
+  riptide: ರಿಪ್ಟೈಡ್
+  channeling: ಚಾನೆಲಿಂಗ್
+  multishot: ಮಲ್ಟಿಶಾಟ್
+  quick_charge: ತ್ವರಿತ ಶುಲ್ಕ
+  piercing: ಚುಚ್ಚುವುದು
+  mending: ಮೆಂಡಿಂಗ್
+  vanishing_curse: ವ್ಯಾನಿಶಿಂಗ್ನ ಕರ್ಸ್
+  soul_speed: ಸೋಲ್ ಸ್ಪೀಡ್
 potion:
   uncraftable: |2-
 
@@ -1757,6 +1807,7 @@ entity:
   strider: ಸ್ಟ್ರೈಡರ್
   zoglin: Zoglin
   piglin_brute: ಪಿಗ್ಲಿನ್ ವಿವೇಚನಾರಹಿತ
+  marker: ಮಾರ್ಕರ್
   fishing_hook: ಮೀನುಗಾರಿಕೆ ಬಾಬರ್
   lightning: |2-
 
@@ -2949,7 +3000,3 @@ villager_profession:
   shepherd: ಕುರುಬ
   toolsmith: ಟೂಲ್ಸ್ಮಿತ್
   weaponsmith: ವೆಪನ್ಸ್ಮಿತ್
-villager_career:
-  farmer: ರೈತ
-  fisherman: ಮೀನುಗಾರ
-  shepherd: ಕುರುಬ

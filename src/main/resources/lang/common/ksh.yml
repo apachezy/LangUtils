@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:48                    #
+# Build time: 2021-07-04 21:46:03                    #
 # ####################################################
 language:
   code: ksh
@@ -14,10 +14,17 @@ material:
   polished_diorite: Poleete Dijorit
   andesite: Andesit
   polished_andesite: Poleete Andesit
+  deepslate: Deefdenleie
+  cobbled_deepslate: Brochdeefdenleie
+  polished_deepslate: Poleete Deefdenleie
+  calcite: Kalzit
+  tuff: Tuff
+  dripstone_block: Tropfsteinblock
   grass_block: Jraasäd
   dirt: Äd
   coarse_dirt: Jrov Äd
   podzol: Jrauäd
+  rooted_dirt: Wuzzeläd
   crimson_nylium: Karmesinn-Nülliöm
   warped_nylium: Jecke-Nülliöm
   cobblestone: Brochstein
@@ -39,10 +46,67 @@ material:
   sand: Sand
   red_sand: Rude Sand
   gravel: Kis
-  gold_ore: Joldärz
-  iron_ore: Ieseärz
   coal_ore: Steinkoll
+  deepslate_coal_ore: Deefdenleie-Steinkoll
+  iron_ore: Ieseärz
+  deepslate_iron_ore: Deefdenleie-Ieseärz
+  copper_ore: Kofferärz
+  deepslate_copper_ore: Deefdenleie-Kofferärz
+  gold_ore: Joldärz
+  deepslate_gold_ore: Deefdenleie-Joldärz
+  redstone_ore: Redstone-Ärz
+  deepslate_redstone_ore: Deefdenleie-Redstone-Ärz
+  emerald_ore: Smarakärz
+  deepslate_emerald_ore: Deefdenleie-Smarakärz
+  lapis_ore: Lapislazoliärz
+  deepslate_lapis_ore: Deefdenleie-Lapislazoliärz
+  diamond_ore: Dijamantärz
+  deepslate_diamond_ore: Deefdenleie-Dijamantärz
   nether_gold_ore: Nether-Joldärz
+  nether_quartz_ore: Netherkwarzärz
+  ancient_debris: Ahle Schrott
+  coal_block: Koll
+  raw_iron_block: Rühieseblock
+  raw_copper_block: Rühkofferblock
+  raw_gold_block: Rühjoldblock
+  amethyst_block: Ametüstblock
+  budding_amethyst: Ametüstknoppblock
+  iron_block: Iese
+  copper_block: Kofferblock
+  gold_block: Jold
+  diamond_block: Dijamant
+  netherite_block: Netheritblock
+  exposed_copper: Blänkiche Kofferblock
+  weathered_copper: Weddere Kofferblock
+  oxidized_copper: Anjelaufe Koffer
+  cut_copper: Jeschnigge Koffer
+  exposed_cut_copper: Blänkiche schnigge Kofferblock
+  weathered_cut_copper: Weddere schnigge Kofferblock
+  oxidized_cut_copper: Rüste schnigge Kofferblock
+  cut_copper_stairs: Jeschnigge Koffertrapp
+  exposed_cut_copper_stairs: Blänkiche schnigge Koffertrapp
+  weathered_cut_copper_stairs: Weddere schnigge Koffertrapp
+  oxidized_cut_copper_stairs: Rüste schnigge Koffertrapp
+  cut_copper_slab: Schnigge Kofferstof
+  exposed_cut_copper_slab: Blänkiche schnigge Kofferstof
+  weathered_cut_copper_slab: Weddere schnigge Kofferstof
+  oxidized_cut_copper_slab: Rüste schnigge Kofferstof
+  waxed_copper_block: Jewahße Kofferblock
+  waxed_exposed_copper: Jewahße blänkiche Kofferblock
+  waxed_weathered_copper: Jewahße weddere Kofferblock
+  waxed_oxidized_copper: Jewahße roste Kofferblock
+  waxed_cut_copper: Jewahße schnigge Kofferblock
+  waxed_exposed_cut_copper: Jewahße blänkiche schnigge Kofferblock
+  waxed_weathered_cut_copper: Jewahße weddere schnigge Kofferblock
+  waxed_oxidized_cut_copper: Jewahße rüste schnigge Kofferblock
+  waxed_cut_copper_stairs: Jewahße schnigge Koffertrapp
+  waxed_exposed_cut_copper_stairs: Jewahße blänkiche schnigge Koffertrapp
+  waxed_weathered_cut_copper_stairs: Jewahße weddere schnigge Koffertrapp
+  waxed_oxidized_cut_copper_stairs: Jewahße rüste schnigge Koffertrapp
+  waxed_cut_copper_slab: Jewahße schnigge Kofferstof
+  waxed_exposed_cut_copper_slab: Jewahße blänkiche schnigge Kofferstof
+  waxed_weathered_cut_copper_slab: Jewahße weddere schnigge Kofferstof
+  waxed_oxidized_cut_copper_slab: Jewahße rüste schnigge Kofferstof
   oak_log: Eeschestamm
   spruce_log: Dannestamm
   birch_log: Birkestamm
@@ -81,26 +145,24 @@ material:
   jungle_leaves: Tropebaumlauv
   acacia_leaves: Akazijelauv
   dark_oak_leaves: Schwatzeeschelauv
+  azalea_leaves: Azaleelauv
+  flowering_azalea_leaves: Blöhendes Azaleelauv
   sponge: Schwamm
   wet_sponge: Nasse Schwamm
   glass: Jlas
-  lapis_ore: Lapislazoliärz
-  lapis_block: Lapislazoli
-  dispenser: Verdeeler
+  tinted_glass: Jetönt Jlas
+  lapis_block: Lapislazoliblock
   sandstone: Sandstein
   chiseled_sandstone: Ziseleete Sandstein
   cut_sandstone: Jeschnigge Sandstein
-  note_block: Musikblock
-  powered_rail: Andrevsschinne
-  detector_rail: Föhlerschinne
-  sticky_piston: Klävkolve
   cobweb: Spenneweb
   grass: Jras
   fern: Farre
+  azalea: Azalee
+  flowering_azalea: Blöhende Azalee
   dead_bush: Dude Struch
   seagrass: Siejrass
   sea_pickle: Meerjurk
-  piston: Kolve
   white_wool: Wieße Woll
   orange_wool: Orangsche Woll
   magenta_wool: Majenta Woll
@@ -130,6 +192,7 @@ material:
   cornflower: Kornblom
   lily_of_the_valley: Maijlöckche
   wither_rose: Witherrus
+  spore_blossom: Sporenblüte
   brown_mushroom: Brunge Pelz
   red_mushroom: Rude Pelz
   crimson_fungus: Karmesinnpelz
@@ -137,43 +200,45 @@ material:
   crimson_roots: Karmesinnwuzzele
   warped_roots: Jeckewuzzele
   nether_sprouts: Nether-Sprosse
-  weeping_vines: Trauerranke
+  weeping_vines: Troorranke
   twisting_vines: Zwirvelranke
   sugar_cane: Zuckerrühr
   kelp: Sietang
+  moss_carpet: Mosteppich
+  moss_block: Mosblock
+  hanging_roots: Hängende Wuzzele
+  big_dripleaf: Großes Tropfblatt
+  small_dripleaf: Kleines Tropfblatt
   bamboo: Bambus
-  gold_block: Jold
-  iron_block: Iese
-  oak_slab: Eescheholzplaat
-  spruce_slab: Danneholzplaat
-  birch_slab: Birkeholzplaat
-  jungle_slab: Tropeholzplaat
-  acacia_slab: Akazijeholzplaat
-  dark_oak_slab: Schwatzeescheholzplaat
-  crimson_slab: Karmesinnplaat
-  warped_slab: Jeckeplaat
-  stone_slab: Steinplaat
-  smooth_stone_slab: Jlatte Steinplaat
-  sandstone_slab: Sandsteinplaat
-  cut_sandstone_slab: Jeschnigge Sandsteinplaat
-  petrified_oak_slab: Versteinerte Eescheholzplaat
-  cobblestone_slab: Brochsteinplaat
-  brick_slab: Ziejelplaat
-  stone_brick_slab: Steinziejelplaat
-  nether_brick_slab: Netherziejelplaat
-  quartz_slab: Kwarzplaat
-  red_sandstone_slab: Rut Sandsteinplaat
-  cut_red_sandstone_slab: Jeschnigge rut Sandsteinplaat
-  purpur_slab: Purpurplaat
-  prismarine_slab: Prismarinplaat
-  prismarine_brick_slab: Prismarinziejelplaat
-  dark_prismarine_slab: Dunkle Prismarinplaat
+  oak_slab: Eescheholzstof
+  spruce_slab: Danneholzstof
+  birch_slab: Birkeholzstof
+  jungle_slab: Tropeholzstof
+  acacia_slab: Akazijeholzstof
+  dark_oak_slab: Schwatzeescheholzstof
+  crimson_slab: Karmesinnstof
+  warped_slab: Jeckestof
+  stone_slab: Steinstof
+  smooth_stone_slab: Jlatte Steinstof
+  sandstone_slab: Sandsteinstof
+  cut_sandstone_slab: Jeschnigge Sandsteinstof
+  petrified_oak_slab: Versteinerte Eescheholzstof
+  cobblestone_slab: Brochsteinstof
+  brick_slab: Ziejelstof
+  stone_brick_slab: Steinziejelstof
+  nether_brick_slab: Netherziejelstof
+  quartz_slab: Kwarzstof
+  red_sandstone_slab: Rut Sandsteinstof
+  cut_red_sandstone_slab: Jeschnigge rut Sandsteinstof
+  purpur_slab: Purpurstof
+  prismarine_slab: Prismarinstof
+  prismarine_brick_slab: Prismarinziejelstof
+  dark_prismarine_slab: Dunkle Prismarinstof
   smooth_quartz: Jlatte Kwarzblock
   smooth_red_sandstone: Jlatte rude Sandstein
   smooth_sandstone: Jlatte Sandstein
   smooth_stone: Jlatte Stein
   bricks: Ziejelstein
-  tnt: TNT
   bookshelf: Böcherejal
   mossy_cobblestone: Bemoste Brochstein
   obsidian: Obssidijan
@@ -187,27 +252,11 @@ material:
   spawner: Erzeujer
   oak_stairs: Eescheholztrapp
   chest: Keß
-  diamond_ore: Dijamantärz
-  diamond_block: Dijamant
   crafting_table: Werkbank
   farmland: Ackeräd
   furnace: Ovve
   ladder: Leeder
-  rail: Schinne
   cobblestone_stairs: Brochsteintrapp
-  lever: Hävvel
-  stone_pressure_plate: Steindröckplaat
-  oak_pressure_plate: Eescheholzdröckplaat
-  spruce_pressure_plate: Dannedröckplaat
-  birch_pressure_plate: Birkeholzdröckplaat
-  jungle_pressure_plate: Tropeholzdröckplaat
-  acacia_pressure_plate: Akazijeholzdröckplaat
-  dark_oak_pressure_plate: Schwatzescheholzdröckplaat
-  crimson_pressure_plate: Karmesinndröckplaat
-  warped_pressure_plate: Jeckedröckplaat
-  polished_blackstone_pressure_plate: Poleete Schwatzsteindröckplaat
-  redstone_ore: Redstone-Ärz
-  redstone_torch: Redstone-Tootsch
   snow: Schnie
   ice: Ies
   snow_block: Schnieblock
@@ -224,48 +273,40 @@ material:
   warped_fence: Jeckezong
   pumpkin: Kürbis
   carved_pumpkin: Jeschnitze Kürbis
+  jack_o_lantern: Kürbislatän
   netherrack: Netherrack
   soul_sand: Sielesand
   soul_soil: Sieleäd
   basalt: Basalt
   polished_basalt: Poleete Basalt
+  smooth_basalt: Jlatte Basalt
   soul_torch: Sieletootsch
   glowstone: Jlowstone
-  jack_o_lantern: Kürbislatän
-  oak_trapdoor: Eescheholztrappdür
-  spruce_trapdoor: Danneholztrappdür
-  birch_trapdoor: Birkeholztrappdür
-  jungle_trapdoor: Tropeholztrappdür
-  acacia_trapdoor: Akazijeholztrappdür
-  dark_oak_trapdoor: Schwatzeescheholztrappdür
-  crimson_trapdoor: Karmesinntrappdür
-  warped_trapdoor: Jecketrappdür
   infested_stone: Befallene Stein
   infested_cobblestone: Befallene Brochstein
   infested_stone_bricks: Befallene Steinziejel
   infested_mossy_stone_bricks: Befallene bemoste Steinziejel
   infested_cracked_stone_bricks: Befallene jeresse Steinziejel
   infested_chiseled_stone_bricks: Befallene ziseleet Steinziejel
+  infested_deepslate: Befallene Deefdenleie
   stone_bricks: Steinziejel
   mossy_stone_bricks: Bemoste Steinziejel
   cracked_stone_bricks: Jeresse Steinziejel
   chiseled_stone_bricks: Ziseleete Steinziejel
+  deepslate_bricks: Deefdenleieziejel
+  cracked_deepslate_bricks: Jeresse Deefdenleieziejel
+  deepslate_tiles: Deefdenleieplaate
+  cracked_deepslate_tiles: Jeresse Deefdenleieplaate
+  chiseled_deepslate: Ziseleete Deefdenleie
   brown_mushroom_block: Brunge Pelz
   red_mushroom_block: Rude Pelz
   mushroom_stem: Pelzstill
   iron_bars: Iesejidder
-  chain: Kett
+  chain: Verkette
   glass_pane: Jlasschiev
   melon: Melon
   vine: Ranke
-  oak_fence_gate: Eescheholzjadder
-  spruce_fence_gate: Danneholzjadder
-  birch_fence_gate: Birkeholzjadder
-  jungle_fence_gate: Tropeholzjadder
-  acacia_fence_gate: Akazijeholzjadder
-  dark_oak_fence_gate: Schwatzeescheholzjadder
-  crimson_fence_gate: Karmesinnjadder
-  warped_fence_gate: Jeckejadder
+  glow_lichen: Leuchtflechte
   brick_stairs: Ziejeltrapp
   stone_brick_stairs: Steinziejeltrapp
   mycelium: Pelzäd
@@ -280,11 +321,8 @@ material:
   end_stone: Endstein
   end_stone_bricks: Endsteinziejel
   dragon_egg: Drache-Ei
-  redstone_lamp: Redstone-Lamp
   sandstone_stairs: Sandsteintrapp
-  emerald_ore: Smarakärz
   ender_chest: Enderkeß
-  tripwire_hook: Hoke
   emerald_block: Smarak
   spruce_stairs: Danneholztrapp
   birch_stairs: Birkeholztrapp
@@ -310,33 +348,18 @@ material:
   blackstone_wall: Schwarzsteinmor
   polished_blackstone_wall: Poleete Schwatzsteinmor
   polished_blackstone_brick_wall: Poleete Schwatzsteinziejelmor
-  stone_button: Steinknopp
-  oak_button: Schwatzeescheholzknopp
-  spruce_button: Danneholzknopp
-  birch_button: Birkeholzknopp
-  jungle_button: Tropeholzknopp
-  acacia_button: Akazijeholzknopp
-  dark_oak_button: Schwatzeescheholzknopp
-  crimson_button: Karmesinnknopp
-  warped_button: Jeckeknopp
-  polished_blackstone_button: Poleete Schwatzsteinknop
+  cobbled_deepslate_wall: Brochdeefdenleiemor
+  polished_deepslate_wall: Poleete Deefdenleiemor
+  deepslate_brick_wall: Deefdenleieziejelmor
+  deepslate_tile_wall: Deefdenleieplaatemor
   anvil: Amboß
   chipped_anvil: Anjedötsche Amboß
   damaged_anvil: Zerblötsch Amboß
-  trapped_chest: Trickkeß
-  light_weighted_pressure_plate: Joldene Wäjeplaat
-  heavy_weighted_pressure_plate: Ieser Wäjeplaat
-  daylight_detector: Dachleechföhler
-  redstone_block: Redstone-Block
-  nether_quartz_ore: Netherkwarzärz
-  hopper: Treechter
   chiseled_quartz_block: Ziseleete Kwarz
   quartz_block: Kwarz
   quartz_bricks: Kwarzziejel
   quartz_pillar: Kwarzsül
   quartz_stairs: Kwarztrapp
-  activator_rail: Aktiveerongsschinne
-  dropper: Usjevver
   white_terracotta: Wieß Steinjot
   orange_terracotta: Orangsch Steinjot
   magenta_terracotta: Majenta Steinjot
@@ -354,7 +377,7 @@ material:
   red_terracotta: Rut Steinjot
   black_terracotta: Schwatz Steinjot
   barrier: Barrjär
-  iron_trapdoor: Iesetrappdür
+  light: Leech
   hay_block: Strühballe
   white_carpet: Wieße Teppich
   orange_carpet: Orangsche Teppich
@@ -373,12 +396,10 @@ material:
   red_carpet: Rude Teppich
   black_carpet: Schwatze Teppich
   terracotta: Steinjot
-  coal_block: Koll
   packed_ice: Packies
   acacia_stairs: Akazijeholztrapp
   dark_oak_stairs: Schwatzeescheholztrapp
-  slime_block: Schliem
-  grass_path: Drampelspad
+  dirt_path: Trampelpfad
   sunflower: Sunneblom
   lilac: Fleere
   rose_bush: Rusestruch
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: Rude Netherziejel
   bone_block: Knoche
   structure_void: Konstrukzijonsleddischkeit
-  observer: Lorer
   shulker_box: Shulkerkeß
   white_shulker_box: Wieße Shulkerkeß
   orange_shulker_box: Orangsch Shulkerkeß
@@ -502,7 +522,7 @@ material:
   green_concrete_powder: Jröne Drüchbetong
   red_concrete_powder: Rude Drüchbetong
   black_concrete_powder: Schwatze Drüchbetong
-  turtle_egg: Scheldkröte-Ei
+  turtle_egg: Scheldkraate-Ei
   dead_tube_coral_block: Dude Orjelkoralleblock
   dead_brain_coral_block: Dude Jehirnkoralleblock
   dead_bubble_coral_block: Dude Blosekoralleblock
@@ -549,20 +569,74 @@ material:
   red_nether_brick_stairs: Rude Netherziejeltrapp
   polished_andesite_stairs: Poleete Andesittrapp
   diorite_stairs: Dijorittrapp
-  polished_granite_slab: Poleete Jranitplaat
-  smooth_red_sandstone_slab: Jlatte rude Sandsteinplaat
-  mossy_stone_brick_slab: Bemoste Steinziejelplaat
-  polished_diorite_slab: Poleete Dijoritplaat
-  mossy_cobblestone_slab: Bemoste Brochsteinplaat
-  end_stone_brick_slab: Endsteinziejelplaat
-  smooth_sandstone_slab: Jlatte Sandsteinplaat
-  smooth_quartz_slab: Jlatte Kwarzplaat
-  granite_slab: Jranitplaat
-  andesite_slab: Andesitplaat
-  red_nether_brick_slab: Rude Netherziejelplaat
-  polished_andesite_slab: Poleete Andesitplaat
-  diorite_slab: Dijoritplaat
+  cobbled_deepslate_stairs: Brochdeefdenleietrapp
+  polished_deepslate_stairs: Poleete Deefdenleietrapp
+  deepslate_brick_stairs: Deefdenleieziejeltrapp
+  deepslate_tile_stairs: Deefdenleieplaatetrapp
+  polished_granite_slab: Poleete Jranitstof
+  smooth_red_sandstone_slab: Jlatte rude Sandsteinstof
+  mossy_stone_brick_slab: Bemoste Steinziejelstof
+  polished_diorite_slab: Poleete Dijoritstof
+  mossy_cobblestone_slab: Bemoste Brochsteinstof
+  end_stone_brick_slab: Endsteinziejelstof
+  smooth_sandstone_slab: Jlatte Sandsteinstof
+  smooth_quartz_slab: Jlatte Kwarzstof
+  granite_slab: Jranitstof
+  andesite_slab: Andesitstof
+  red_nether_brick_slab: Rude Netherziejelstof
+  polished_andesite_slab: Poleete Andesitstof
+  diorite_slab: Dijoritstof
+  cobbled_deepslate_slab: Brochdeefdenleiestof
+  polished_deepslate_slab: Poleete Deefdenleieplaat
+  deepslate_brick_slab: Deefdenleieziejelplaat
+  deepslate_tile_slab: Deefdenleieplaatestof
   scaffolding: Jerös
+  redstone: Redstone-Stöbb
+  redstone_torch: Redstone-Tootsch
+  redstone_block: Redstone-Block
+  repeater: Redstone-Verstärke
+  comparator: Redstone-Verjliche
+  piston: Kolve
+  sticky_piston: Klävkolve
+  slime_block: Schliem
+  honey_block: Honnichblock
+  observer: Lorer
+  hopper: Treechter
+  dispenser: Verdeeler
+  dropper: Usjevver
+  lectern: Lesepult
+  target: Zillblock
+  lever: Hävvel
+  lightning_rod: Bletzafleiter
+  daylight_detector: Dachleechföhler
+  sculk_sensor: Sculk-Sensor
+  tripwire_hook: Hoke
+  trapped_chest: Trickkeß
+  tnt: TNT
+  redstone_lamp: Redstone-Lamp
+  note_block: Musikblock
+  stone_button: Steinknopp
+  polished_blackstone_button: Poleete Schwatzsteinknop
+  oak_button: Schwatzeescheholzknopp
+  spruce_button: Danneholzknopp
+  birch_button: Birkeholzknopp
+  jungle_button: Tropeholzknopp
+  acacia_button: Akazijeholzknopp
+  dark_oak_button: Schwatzeescheholzknopp
+  crimson_button: Karmesinnknopp
+  warped_button: Jeckeknopp
+  stone_pressure_plate: Steindröckplaat
+  polished_blackstone_pressure_plate: Poleete Schwatzsteindröckplaat
+  light_weighted_pressure_plate: Joldene Wäjeplaat
+  heavy_weighted_pressure_plate: Ieser Wäjeplaat
+  oak_pressure_plate: Eescheholzdröckplaat
+  spruce_pressure_plate: Dannedröckplaat
+  birch_pressure_plate: Birkeholzdröckplaat
+  jungle_pressure_plate: Tropeholzdröckplaat
+  acacia_pressure_plate: Akazijeholzdröckplaat
+  dark_oak_pressure_plate: Schwatzescheholzdröckplaat
+  crimson_pressure_plate: Karmesinndröckplaat
+  warped_pressure_plate: Jeckedröckplaat
   iron_door: Iesedür
   oak_door: Eescheholzdür
   spruce_door: Danneholzdür
@@ -572,11 +646,45 @@ material:
   dark_oak_door: Schwatzeescheholzdür
   crimson_door: Karmesinndür
   warped_door: Jeckedür
-  repeater: Redstone-Verstärke
-  comparator: Redstone-Verjliche
+  iron_trapdoor: Iesetrappdür
+  oak_trapdoor: Eescheholztrappdür
+  spruce_trapdoor: Danneholztrappdür
+  birch_trapdoor: Birkeholztrappdür
+  jungle_trapdoor: Tropeholztrappdür
+  acacia_trapdoor: Akazijeholztrappdür
+  dark_oak_trapdoor: Schwatzeescheholztrappdür
+  crimson_trapdoor: Karmesinntrappdür
+  warped_trapdoor: Jecketrappdür
+  oak_fence_gate: Eescheholzjadder
+  spruce_fence_gate: Danneholzjadder
+  birch_fence_gate: Birkeholzjadder
+  jungle_fence_gate: Tropeholzjadder
+  acacia_fence_gate: Akazijeholzjadder
+  dark_oak_fence_gate: Schwatzeescheholzjadder
+  crimson_fence_gate: Karmesinnjadder
+  warped_fence_gate: Jeckejadder
+  powered_rail: Andrevsschinne
+  detector_rail: Föhlerschinne
+  rail: Schinne
+  activator_rail: Aktiveerongsschinne
+  saddle: Saddel
+  minecart: Kar
+  chest_minecart: Fraachkar
+  furnace_minecart: Lokemotiv
+  tnt_minecart: Sprengkar
+  hopper_minecart: Treechtekar
+  carrot_on_a_stick: Mohr am Stock
+  warped_fungus_on_a_stick: Jeckepelz am Stock
+  elytra: Flöjel
+  oak_boat: Eescheholzböötche
+  spruce_boat: Danneholzböötche
+  birch_boat: Birkeholzböötche
+  jungle_boat: Tropeholzböötche
+  acacia_boat: Akazijeholzböötche
+  dark_oak_boat: Schwatzeescheholzböötche
   structure_block: Konstrukzijonsblock
   jigsaw: Pusselblock
-  turtle_helmet: Schildkrötepanzer
+  turtle_helmet: Scheldkraatepanzer
   scute: Hornscheld
   flint_and_steel: Förzüch
   apple: Appel
@@ -585,7 +693,15 @@ material:
   coal: Koll
   charcoal: Holzkoll
   diamond: Dijamant
+  emerald: Smarak
+  lapis_lazuli: Lapislazoli
+  quartz: Netherkwarz
+  amethyst_shard: Ametüstscherv
+  raw_iron: Rühiese
   iron_ingot: Iesebrikett
+  raw_copper: Rühkoffer
+  copper_ingot: Kofferbrikett
+  raw_gold: Rühjold
   gold_ingot: Joldbrikett
   netherite_ingot: Netheritbrikett
   netherite_scrap: Netheritplaate
@@ -669,29 +785,27 @@ material:
   bucket: Emmer
   water_bucket: Wasseremmer
   lava_bucket: Lavaemmer
-  minecart: Kar
-  saddle: Saddel
-  redstone: Redstone-Stöbb
+  powder_snow_bucket: Polverschnieemmer
   snowball: Schnieball
-  oak_boat: Eescheholzböötche
   leather: Ledder
   milk_bucket: Melleschemmer
   pufferfish_bucket: Kujelfeschemmer
   salmon_bucket: Lachsemmer
   cod_bucket: Kabbeljauemmer
   tropical_fish_bucket: Tropefeschemmer
+  axolotl_bucket: Axolotlemmer
   brick: Ziejel
   clay_ball: Kleiklumpe
   dried_kelp_block: Drüjje Sietangblock
   paper: Papeer
   book: Boch
   slime_ball: Schliemball
-  chest_minecart: Fraachkar
-  furnace_minecart: Lokemotiv
   egg: Ei
   compass: Kompaß
+  bundle: Bündel
   fishing_rod: Feschjät
   clock: Ohr
+  spyglass: Fernrohr
   glowstone_dust: Jlowstone-Stöbb
   cod: Rühe Kabbeljau
   salmon: Rühe Lachs
@@ -700,8 +814,8 @@ material:
   cooked_cod: Jebrode Kabbeljau
   cooked_salmon: Jebrode Lachs
   ink_sac: Inkbüggel
+  glow_ink_sac: Lööchtinkbüggel
   cocoa_beans: Kakaubunne
-  lapis_lazuli: Lapislazoli
   white_dye: Wieße Färv
   orange_dye: Orangsch Färv
   magenta_dye: Majenta Färv
@@ -721,7 +835,7 @@ material:
   bone_meal: Knochemähl
   bone: Knoche
   sugar: Zucker
-  cake: Kooche
+  cake: Koche
   white_bed: Wieß Bett
   orange_bed: Orangsch Bett
   magenta_bed: Majenta Bett
@@ -765,11 +879,12 @@ material:
   cauldron: Bütt
   ender_eye: Enderauch
   glistering_melon_slice: Jlitzernde Meloneschiev
+  axolotl_spawn_egg: Axolotl-Spawn-Ei
   bat_spawn_egg: Fleddermuus-Spawn-Ei
   bee_spawn_egg: Beie-Spawn-Ei
   blaze_spawn_egg: Förmann-Spawn-Ei
   cat_spawn_egg: Katze-Spawn-Ei
-  cave_spider_spawn_egg: Höllespenne-Spawn-Ei
+  cave_spider_spawn_egg: Höhlespenne-Spawn-Ei
   chicken_spawn_egg: Höhner-Spawn-Ei
   cod_spawn_egg: Kabbeljau-Spawn-Ei
   cow_spawn_egg: Koh-Spawn-Ei
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: Majier-Spawn-Ei
   fox_spawn_egg: Fuss-Spawn-Ei
   ghast_spawn_egg: Jhast-Spawn-Ei
+  glow_squid_spawn_egg: Lööchtinkfesch-Spawn-Ei
+  goat_spawn_egg: Jeiße-Spawn-Ei
   guardian_spawn_egg: Waach-Spawn-Ei
   hoglin_spawn_egg: Hogling-Spawn-Ei
   horse_spawn_egg: Päd-Spawn-Ei
@@ -797,7 +914,7 @@ material:
   phantom_spawn_egg: Fantom-Spawn-Ei
   pig_spawn_egg: Sau-Spawn-Ei
   piglin_spawn_egg: Pigling-Spawn-Ei
-  piglin_brute_spawn_egg: Piglin-Barbaren-Spawn-Ei
+  piglin_brute_spawn_egg: Pigling-Barbaren-Spawn-Ei
   pillager_spawn_egg: Plüngere-Spawn-Ei
   polar_bear_spawn_egg: Iesbär-Spawn-Ei
   pufferfish_spawn_egg: Kujelfesch-Spawn-Ei
@@ -816,7 +933,7 @@ material:
   strider_spawn_egg: Schreiter-Spawn-Ei
   trader_llama_spawn_egg: Kriemerlama-Spawn-Ei
   tropical_fish_spawn_egg: Tropefesch-Spawn-Ei
-  turtle_spawn_egg: Schildkröte-Spawn-Ei
+  turtle_spawn_egg: Scheldkraate-Spawn-Ei
   vex_spawn_egg: Vexeerer-Spawn-Ei
   villager_spawn_egg: Enwonner-Spawn-Ei
   vindicator_spawn_egg: Deener-Spawn-Ei
@@ -833,8 +950,8 @@ material:
   fire_charge: Förkuchel
   writable_book: Boch un Fädder
   written_book: Jeschrivve Boch
-  emerald: Smarak
   item_frame: Rohme
+  glow_item_frame: Lööchtrohme
   flower_pot: Blomepot
   carrot: Mohr
   potato: Ädappel
@@ -848,17 +965,12 @@ material:
   zombie_head: Zombikopp
   creeper_head: Kreeperkopp
   dragon_head: Drachekopp
-  carrot_on_a_stick: Mohr am Stock
-  warped_fungus_on_a_stick: Jeckepelz am Stock
   nether_star: Netherstän
   pumpkin_pie: Kürbiskooche
   firework_rocket: Förwerksraket
   firework_star: Förwerksstän
   enchanted_book: Verzaubert Boch
   nether_brick: Netherziejel
-  quartz: Netherkwarz
-  tnt_minecart: Sprengkar
-  hopper_minecart: Treechtekar
   prismarine_shard: Prismarinscherv
   prismarine_crystals: Prismarinkrestall
   rabbit: Rüh Kning
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: Jedränkte Piel
   lingering_potion: Blievende Drank
   shield: Scheld
-  elytra: Flöjel
-  spruce_boat: Danneholzböötche
-  birch_boat: Birkeholzböötche
-  jungle_boat: Tropeholzböötche
-  acacia_boat: Akazijeholzböötche
-  dark_oak_boat: Schwatzeescheholzböötche
   totem_of_undying: Totem vun dä Onstervlichkeit
   shulker_shell: Shulkerschal
   iron_nugget: Ieseklumpe
@@ -948,13 +1054,13 @@ material:
   cartography_table: Kaatedesch
   fletching_table: Pielmächerdesch
   grindstone: Schliefstein
-  lectern: Lesepult
   smithing_table: Schmiddedesch
   stonecutter: Steinsäch
   bell: Klock
   lantern: Latän
   soul_lantern: Sielelatän
   sweet_berries: Sößbere
+  glow_berries: Leuchtbeeren
   campfire: Förstell
   soul_campfire: Sieleförstell
   shroomlight: Pelzleech
@@ -962,26 +1068,44 @@ material:
   bee_nest: Beieneß
   beehive: Beiestock
   honey_bottle: Honnichfläsch
-  honey_block: Honnichblock
   honeycomb_block: Honnichwoveblock
   lodestone: Leitstein
-  netherite_block: Netheritblock
-  ancient_debris: Ahle Schrott
-  target: Zillblock
   crying_obsidian: Krieschende Obssidijan
   blackstone: Schwatzstein
-  blackstone_slab: Schwatzsteinplaat
+  blackstone_slab: Schwatzsteinstof
   blackstone_stairs: Schwatzsteintrapp
   gilded_blackstone: Verjoldete Schwatzstein
   polished_blackstone: Poleete Schwatzstein
-  polished_blackstone_slab: Poleete Schwatzsteinplaat
+  polished_blackstone_slab: Poleete Schwatzsteinstof
   polished_blackstone_stairs: Poleete Schwatzsteintrapp
   chiseled_polished_blackstone: Ziseleete poleete Schwatzstein
   polished_blackstone_bricks: Poleete Schwatzsteinziejel
-  polished_blackstone_brick_slab: Poleete Schwatzsteinziejelplaat
+  polished_blackstone_brick_slab: Poleete Schwatzsteinziejelstof
   polished_blackstone_brick_stairs: Poleete Schwatzsteinziejeltrapp
   cracked_polished_blackstone_bricks: Jeresse poleete Schwatzsteinziejel
   respawn_anchor: Sieleanker
+  candle: Käz
+  white_candle: Wieße Käz
+  orange_candle: Orangsche Käz
+  magenta_candle: Majenta Käz
+  light_blue_candle: Hellblaue Käz
+  yellow_candle: Jäl Käz
+  lime_candle: Helljröne Käz
+  pink_candle: Rusa Käz
+  gray_candle: Jraue Käz
+  light_gray_candle: Helljraue Käz
+  cyan_candle: Blaujröne Käz
+  purple_candle: Vijelette Käz
+  blue_candle: Blaue Käz
+  brown_candle: Brunge Käz
+  green_candle: Jröne Käz
+  red_candle: Rude Käz
+  black_candle: Schwatze Käz
+  small_amethyst_bud: Klein Ametüstknopp
+  medium_amethyst_bud: Meddel Ametüstknopp
+  large_amethyst_bud: Jroß Ametüstknopp
+  amethyst_cluster: Ametüsthaufe
+  pointed_dripstone: Spitzer Tropfstein
   water: Wasser
   lava: Lava
   tall_seagrass: Huh Siejrass
@@ -1004,6 +1128,9 @@ material:
   attached_melon_stem: Drüjje Melonerank
   pumpkin_stem: Kürbisrank
   melon_stem: Melonerank
+  water_cauldron: Wasserbütt
+  lava_cauldron: Lavabütt
+  powder_snow_cauldron: Polverschniebütt
   end_portal: Endpoaz
   cocoa: Kakau
   tripwire: Struchelsdroht
@@ -1072,10 +1199,10 @@ material:
   bamboo_sapling: Bambusspross
   potted_bamboo: Enjepottet Bambus
   void_air: Ledijjeluff
-  cave_air: Hölleluff
+  cave_air: Höhleluff
   bubble_column: Blose
   sweet_berry_bush: Sößberestruch
-  weeping_vines_plant: Trauerrankeplant
+  weeping_vines_plant: Troorrankeplant
   twisting_vines_plant: Zwirvelrankeplant
   crimson_wall_sign: Karmesinnwandscheld
   warped_wall_sign: Jeckewandscheld
@@ -1083,6 +1210,30 @@ material:
   potted_warped_fungus: Enjepottet Jeckepelz
   potted_crimson_roots: Enjepottet Karmesinnwuzzele
   potted_warped_roots: Enjepottet Jeckewuzzele
+  candle_cake: Koche met Käz
+  white_candle_cake: Kooche met wieße Kääz
+  orange_candle_cake: Kooche met orangsche Kääz
+  magenta_candle_cake: Kooche met majenta Kääz
+  light_blue_candle_cake: Kooche met hellblaue Kääz
+  yellow_candle_cake: Kooche met jäle Kääz
+  lime_candle_cake: Kooche met helljröne Kääz
+  pink_candle_cake: Kooche met rusa Kääz
+  gray_candle_cake: Kooche met jraue Kääz
+  light_gray_candle_cake: Kooche met helljraue Kääz
+  cyan_candle_cake: Kooche met blaujröne Kääz
+  purple_candle_cake: Kooche met vijelette Kääz
+  blue_candle_cake: Kooche met blaue Kääz
+  brown_candle_cake: Kooche met brunge Kääz
+  green_candle_cake: Kooche met jröne Kääz
+  red_candle_cake: Kooche met rude Kääz
+  black_candle_cake: Kooche met schwatze Kääz
+  powder_snow: Polverschnie
+  cave_vines: Höhleranke
+  cave_vines_plant: Höhlerankepflant
+  big_dripleaf_stem: Großer Tropfblattstiel
+  potted_azalea_bush: Enjepottete Azalee
+  potted_flowering_azalea_bush: Enjepottete blöhende Azalee
+  grass_path: Drampelspad
   zombie_pigman_spawn_egg: Zombi Saukopp-Spawn-Ei
   cactus_green: Kaktusjrön
   dandelion_yellow: Jäl Färvv
@@ -1169,46 +1320,48 @@ biome:
   crimson_forest: Karmesinnwald
   warped_forest: Jeckewald
   basalt_deltas: Basaltdeltas
+  dripstone_caves: Tropfsteinhöhlen
+  lush_caves: Üppige Höhlen
   nether: Nether
 enchantment:
-  fire_protection: Förschotz
-  sharpness: Schärf
-  flame: För
-  soul_speed: Sieleläufer
-  aqua_affinity: Wasserärbeid
-  punch: Schlach
-  loyalty: Treue
-  depth_strider: Wasserschon
-  vanishing_curse: Floch vum Verleere
-  unbreaking: Unkapottbar
-  knockback: Röckstoß
-  luck_of_the_sea: Meerjlück
-  binding_curse: Floch vum Klävve
-  fortune: Jlöck
   protection: Schotz
-  efficiency: Flöck
-  mending: Flecke
-  frost_walker: Ieslöufer
-  lure: Köder
-  looting: Afluchse
-  piercing: Durchschoß
-  blast_protection: Eksplosijonsschotz
-  smite: Ekzorzismus
-  multishot: Miehfachschoß
-  fire_aspect: Verbrutzele
-  channeling: Entladong
-  sweeping: Schwungkraff
-  thorns: Döner
-  bane_of_arthropods: Spenneflooch
-  respiration: Odem
-  riptide: Soch
-  silk_touch: Sampheische
-  quick_charge: Flöcklade
-  projectile_protection: Schoßsiche
-  impaling: Harpun
+  fire_protection: Förschotz
   feather_falling: Fädderfall
+  blast_protection: Eksplosijonsschotz
+  projectile_protection: Schoßsiche
+  respiration: Odem
+  aqua_affinity: Wasserärbeid
+  thorns: Döner
+  depth_strider: Wasserschon
+  frost_walker: Ieslöufer
+  binding_curse: Floch vum Klävve
+  sharpness: Schärf
+  smite: Ekzorzismus
+  bane_of_arthropods: Spenneflooch
+  knockback: Röckstoß
+  fire_aspect: Verbrutzele
+  looting: Afluchse
+  sweeping: Schwungkraff
+  efficiency: Flöck
+  silk_touch: Sampheische
+  unbreaking: Unkapottbar
+  fortune: Jlöck
   power: Stärk
+  punch: Schlach
+  flame: För
   infinity: Iwisch
+  luck_of_the_sea: Meerjlück
+  lure: Köder
+  loyalty: Treue
+  impaling: Harpun
+  riptide: Soch
+  channeling: Entladong
+  multishot: Miehfachschoß
+  quick_charge: Flöcklade
+  piercing: Durchschoß
+  mending: Flecke
+  vanishing_curse: Floch vum Verleere
+  soul_speed: Sieleläufer
 potion:
   uncraftable: Nit braubare Drank
   water: Wasserfläsch
@@ -1229,7 +1382,7 @@ potion:
   strength: Stärkedrank
   weakness: Schwächheetsdrank
   luck: Jlöcksdrank
-  turtle_master: Scheldkrötedrank
+  turtle_master: Scheldkraatedrank
   slow_falling: Langsamfalldrank
 splash_potion:
   uncraftable: Nit braubare Werpdrank
@@ -1251,7 +1404,7 @@ splash_potion:
   strength: Stärkewerpdrank
   weakness: Schwächheetswerpdrank
   luck: Jlöckswerpdrank
-  turtle_master: Scheldkrötewerpdrank
+  turtle_master: Scheldkraatewerpdrank
   slow_falling: Langsamfallwerpdrank
 lingering_potion:
   uncraftable: Blievende nit braubare Drank
@@ -1273,7 +1426,7 @@ lingering_potion:
   strength: Blievender Stärkedrank
   weakness: Blievender Schwächheetsdrank
   luck: Blievende Jlöcksdrank
-  turtle_master: Blievende Scheldkrötedrank
+  turtle_master: Blievende Scheldkraatedrank
   slow_falling: Blievende Langsamfalldrank
 tipped_arrow:
   uncraftable: Nit herstellbare jedränkte Piel
@@ -1295,7 +1448,7 @@ tipped_arrow:
   strength: Stärkepiel
   weakness: Schwächheetspiel
   luck: Jlöckspiel
-  turtle_master: Scheldkrötepiel
+  turtle_master: Scheldkraatepiel
   slow_falling: Langsamfallpiel
 entity:
   dropped_item: Jäjestand
@@ -1352,7 +1505,7 @@ entity:
   ghast: Jhast
   zombified_piglin: Zombifizeete Pigling
   enderman: Enderman
-  cave_spider: Höllespenn
+  cave_spider: Höhlespenn
   silverfish: Selverfeschje
   blaze: Förmann
   magma_cube: Machmaklötsch
@@ -1381,7 +1534,7 @@ entity:
   parrot: Papejei
   villager: Enwonner
   ender_crystal: Endkrestall
-  turtle: Scheldkröt
+  turtle: Scheldkraat
   phantom: Fantom
   trident: Dreizack
   cod: Kabbeljau
@@ -1402,7 +1555,12 @@ entity:
   piglin: Pigling
   strider: Schreiter
   zoglin: Zogling
-  piglin_brute: Piglin-Barbar
+  piglin_brute: Pigling-Barbar
+  axolotl: Axolotl
+  glow_item_frame: Lööchtrohme
+  glow_squid: Lööchtinkfesch
+  goat: Jeiß
+  marker: Marker
   fishing_hook: Schwemmer
   lightning: Bletz
   player: Spiller
@@ -2202,17 +2360,3 @@ villager_profession:
   shepherd: Schöfer
   toolsmith: Jrovschmid
   weaponsmith: Waffeschmid
-villager_career:
-  farmer: Enwonner
-  fisherman: Fescher
-  shepherd: Schöfer
-  fletcher: Pielmächer
-  librarian: Bochkriemer
-  cartographer: Kaatemächer
-  cleric: Jeistliche
-  armorer: Panzermächer
-  weapon_smith: Waffeschmid
-  tool_smith: Jrovschmid
-  butcher: Metzjer
-  leatherworker: Jerver
-  nitwit: Nixnotz

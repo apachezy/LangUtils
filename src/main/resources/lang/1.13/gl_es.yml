@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:47                    #
+# Build time: 2021-07-04 21:46:03                    #
 # ####################################################
 language:
   code: gl_es
@@ -8,14 +8,17 @@ language:
 material:
   acacia_planks: Madeira de acacia
   acacia_sapling: Brote de acacia
+  acacia_slab: Lousa de acacia
   activator_rail: Rail activador
   air: Aire
   allium: Allium
+  anvil: Zafra
   azure_bluet: Beldro
   baked_potato: Pataca cocida
   birch_boat: Barca de abedul
   birch_planks: Madeira de bidueiro
   birch_sapling: Brote de bidueiro
+  birch_slab: Lousa de bidueiro
   black_glazed_terracotta: Azulexo negra
   black_shulker_box: Caixa de Shulker negra
   blaze_powder: Po de Blaze
@@ -24,6 +27,7 @@ material:
   blue_shulker_box: Caixa de Shulker azul
   bone: Oso
   bookshelf: Librería
+  brick_slab: Lousa de ladrillos
   brick_stairs: Escaleiras de ladrillo
   brown_shulker_box: Caixa de Shulker marrón
   bubble_coral: Coral de burbullas
@@ -34,6 +38,7 @@ material:
   chainmail_helmet: Casco de cota de mallas
   chainmail_leggings: Grebas de cota de mallas
   chicken: Polo crú
+  chipped_anvil: Zafra danada
   chiseled_red_sandstone: Arenita vermella cicelada
   chiseled_sandstone: Arenita cicelada
   clay_ball: Arxila
@@ -41,6 +46,7 @@ material:
   cobblestone_slab: Lousa de rocha
   cobblestone_stairs: Escaleiras de rocha
   cobblestone_wall: Muro de rocha
+  cooked_beef: Filete
   cooked_cod: Bacallau cocido
   cooked_salmon: Salmón cocido
   cracked_stone_bricks: Ladrillos de pedra agretada
@@ -56,9 +62,12 @@ material:
   cyan_shulker_box: Caixa de Shulker ciana
   cyan_terracotta: Terracota ciana
   cyan_wool: La ciana
+  damaged_anvil: Zafra moi danada
   dark_oak_planks: Madeira de carballo escuro
   dark_oak_sapling: Brote de carballo escuro
+  dark_oak_slab: Lousa de carballo escuro
   dark_prismarine: Prismarina escura
+  dark_prismarine_slab: Lousa de prismariña escura
   dark_prismarine_stairs: Escaleiras de prismarina escura
   dead_brain_coral_wall_fan: Gorgonia de cerebro de parede morta
   dead_bubble_coral: Coral de burbullas morto
@@ -127,10 +136,12 @@ material:
   mossy_cobblestone_wall: Parede de rocha musgosa
   mutton: Cordeiro crú
   name_tag: Etiqueta
+  nether_brick_slab: Lousa de ladrillos do Nether
   nether_portal: Portal ao Nether
   nether_quartz_ore: Mineral de cuarzo
   oak_planks: Madeira de carballo
   oak_sapling: Brote de carballo
+  oak_slab: Lousa de carballo
   orange_glazed_terracotta: Terracota vidrada laranxa
   orange_shulker_box: Caixa de Shulker laranxa
   packed_ice: Xeo compacto
@@ -159,11 +170,15 @@ material:
   potted_spruce_sapling: Testo con brote de abeto
   prismarine: Prismarina
   prismarine_bricks: Bloques de prismarina
+  prismarine_brick_slab: Lousa de ladrillos de prismariña
   prismarine_crystals: Cristais de Prismarina
   prismarine_shard: Fragmento de Prismarina
+  prismarine_slab: Lousa de prismariña
   purple_shulker_box: Caixa de Shulker púrpura
   purpur_pillar: Pilar de púrpur
+  purpur_slab: Lousa de púrpur
   quartz_pillar: Pilar de cuarzo
+  quartz_slab: Lousa de cuarzo
   rabbit: Coello crú
   redstone: Redstone
   redstone_wall_torch: Facho de redstone na parede
@@ -192,7 +207,9 @@ material:
   soul_sand: Area de almas
   spruce_planks: Madeira de abeto
   spruce_sapling: Brote de abeto
+  spruce_slab: Lousa de abeto
   stone: Pedra
+  stone_brick_slab: Lousa de ladrillos de pedra
   stone_pressure_plate: Chapa de presión de pedra
   stone_slab: Lousa de pedra
   stripped_dark_oak_wood: Madeira de carballo escuro sen casca
@@ -226,10 +243,12 @@ material:
 biome:
   mushroom_fields: Campo fúnxico
   desert_hills: Outeiros do deserto
+  wooded_hills: Outeiros frondosos
   taiga_hills: Outeiro de taiga
   jungle_hills: Outeiros de xungla
   jungle_edge: Bordo de xungla
   birch_forest_hills: Outeiro de bidueiros
+  wooded_mountains: Montañas frondosas
   badlands: Badlands
   wooded_badlands_plateau: Meseta de badlands frondosa
   badlands_plateau: Meseta de badlands
@@ -242,8 +261,23 @@ biome:
   desert_lakes: Lagos desérticos
   modified_jungle_edge: Bordo de xungla (variante)
   giant_spruce_taiga_hills: Outeiros de Taiga con Abetos Xigantes
+  eroded_badlands: Badlands erosionadas
+  modified_wooded_badlands_plateau: Meseta de badlands frondosas (variante)
+  modified_badlands_plateau: Meseta de badlands (variante)
 enchantment:
+  fire_protection: Protección ó lume
+  flame: Chamas
+  punch: Retroceso
+  loyalty: Lealtade
+  knockback: Empuxe
   binding_curse: Maldición de atadura
+  mending: Reparación
+  lure: Cebo
+  looting: Saqueo
+  fire_aspect: Aspecto ígneo
+  bane_of_arthropods: Perdición dos artrópodos
+  riptide: Propulsión acuática
+  feather_falling: Caída liviá
 potion:
   uncraftable: Poción infabricable
   water: Frasco con auga
@@ -289,6 +323,7 @@ effect:
   jump: Aumento de salto
   fire_resistance: Resistencia ó lume
   water_breathing: Apnea
+  glowing: Brillante
 tropical_fish_type:
   kob: Kob
   sunstreak: Peixe sol

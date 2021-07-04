@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:46                    #
+# Build time: 2021-07-04 21:46:02                    #
 # ####################################################
 language:
   code: be_by
@@ -14,10 +14,17 @@ material:
   polished_diorite: Паліраваны дыярыт
   andesite: Андэзіт
   polished_andesite: Паліраваны андэзіт
+  deepslate: Сланец
+  cobbled_deepslate: Брукаваны сланец
+  polished_deepslate: Паліраваны сланец
+  calcite: Кальцыт
+  tuff: Туф
+  dripstone_block: Блок нацёку
   grass_block: Зямля з дзёрнам
   dirt: Зямля
   coarse_dirt: Грубая зямля
   podzol: Падзол
+  rooted_dirt: Караністая зямля
   crimson_nylium: Барвовы нілій
   warped_nylium: Скажоны нілій
   cobblestone: Бут
@@ -39,10 +46,67 @@ material:
   sand: Пясок
   red_sand: Чырвоны пясок
   gravel: Жвір
-  gold_ore: Залатая руда
-  iron_ore: Жалезная руда
   coal_ore: Вугальная руда
+  deepslate_coal_ore: Вугальная руда глыбінь
+  iron_ore: Жалезная руда
+  deepslate_iron_ore: Жалезная руда глыбінь
+  copper_ore: Мядзяная руда
+  deepslate_copper_ore: Мядзяная руда глыбінь
+  gold_ore: Залатая руда
+  deepslate_gold_ore: Залатая руда глыбінь
+  redstone_ore: Рэдстоўнавая руда
+  deepslate_redstone_ore: Рэдстоўнавая руда глыбінь
+  emerald_ore: Смарагдавая руда
+  deepslate_emerald_ore: Смарагдавая руда глыбінь
+  lapis_ore: Лазурытавая руда
+  deepslate_lapis_ore: Лазурытавая руда глыбінь
+  diamond_ore: Дыяментавая руда
+  deepslate_diamond_ore: Дыяментавая руда глыбінь
   nether_gold_ore: Залатая руда нэдара
+  nether_quartz_ore: Кварцавая руда
+  ancient_debris: Антычныя рэшткі
+  coal_block: Вугальны блок
+  raw_iron_block: Блок сырога жалеза
+  raw_copper_block: Блок сырой медзі
+  raw_gold_block: Блок сырога золата
+  amethyst_block: Аметыставы блок
+  budding_amethyst: Радовішча аметысту
+  iron_block: Жалезны блок
+  copper_block: Мядзяны блок
+  gold_block: Залаты блок
+  diamond_block: Дыяментавы блок
+  netherite_block: Нэдарытавы блок
+  exposed_copper: Пацьмянелая медзь
+  weathered_copper: Выветраная медзь
+  oxidized_copper: Акісленая медзь
+  cut_copper: Разьбяная медзь
+  exposed_cut_copper: Пацьмянелая разьбяная медзь
+  weathered_cut_copper: Выветраная разьбяная медзь
+  oxidized_cut_copper: Акісленая разьбяная медзь
+  cut_copper_stairs: Прыступкі з разьбяной медзі
+  exposed_cut_copper_stairs: Пацьмянелыя прыступкі з разьбяной медзі
+  weathered_cut_copper_stairs: Прыступкі з выветранай разьбяной медзі
+  oxidized_cut_copper_stairs: Акісленыя прыступкі з разьбяной медзі
+  cut_copper_slab: Пліта з разьбяной медзі
+  exposed_cut_copper_slab: Пацьмянелая пліта з разьбяной медзі
+  weathered_cut_copper_slab: Пліта з выветранай разьбяной медзі
+  oxidized_cut_copper_slab: Акісленая пліта з разьбяной медзі
+  waxed_copper_block: Ваксаваны мядзяныя блок
+  waxed_exposed_copper: Ваксаваная пацьмянелая медзь
+  waxed_weathered_copper: Ваксаваная выветраная медзь
+  waxed_oxidized_copper: Ваксаваная акісленая медзь
+  waxed_cut_copper: Ваксаваны разьбяны мядзяны блок
+  waxed_exposed_cut_copper: Ваксаваная пацьмянелая разьбяная медзь
+  waxed_weathered_cut_copper: Ваксаваная выветраная разьбяная медзь
+  waxed_oxidized_cut_copper: Ваксаваная акісленая разьбяная медзь
+  waxed_cut_copper_stairs: Ваксаваныя прыступкі з разьбяной медзі
+  waxed_exposed_cut_copper_stairs: Ваксаваныя пацьмянелыя прыступкі з разьбяной медзі
+  waxed_weathered_cut_copper_stairs: Ваксаваныя выветраныя прыступкі з разьбяной медзі
+  waxed_oxidized_cut_copper_stairs: Ваксаваныя акісленыя прыступкі з разьбяной медзі
+  waxed_cut_copper_slab: Ваксаваная пліта з разьбяной медзі
+  waxed_exposed_cut_copper_slab: Ваксаваная пацьмянелая пліта з разьбяной медзі
+  waxed_weathered_cut_copper_slab: Ваксаваная выветраная пліта з разьбяной медзі
+  waxed_oxidized_cut_copper_slab: Ваксаваная акісленая пліта з разьбяной медзі
   oak_log: Дубовае бервяно
   spruce_log: Яловае бервяно
   birch_log: Бярозавае бервяно
@@ -81,26 +145,24 @@ material:
   jungle_leaves: Трапічнае лісце
   acacia_leaves: Лісце акацыі
   dark_oak_leaves: Лісце цёмнага дуба
+  azalea_leaves: Лісце азаліі
+  flowering_azalea_leaves: Лісце квітнеючай азаліі
   sponge: Губка
   wet_sponge: Мокрая губка
   glass: Шкло
-  lapis_ore: Лазурытавая руда
+  tinted_glass: Таніраванае шкло
   lapis_block: Лазурытавы блок
-  dispenser: Раздавальнік
   sandstone: Пясчанік
   chiseled_sandstone: Разны пясчанік
   cut_sandstone: Гладкі пясчанік
-  note_block: Нотны блок
-  powered_rail: Энергарэйкі
-  detector_rail: Рэйкі з датчыкам
-  sticky_piston: Ліпкі поршань
   cobweb: Павуцінне
   grass: Трава
   fern: Папараць
+  azalea: Азалія
+  flowering_azalea: Квітнеючая азалія
   dead_bush: Мёртвы куст
   seagrass: Марская трава
   sea_pickle: Агняцелка
-  piston: Поршань
   white_wool: Белая воўна
   orange_wool: Аранжавая воўна
   magenta_wool: Пурпурная воўна
@@ -130,6 +192,7 @@ material:
   cornflower: Валошка
   lily_of_the_valley: Ландыш
   wither_rose: Ружа відара
+  spore_blossom: Кветка са спорамі
   brown_mushroom: Баравік
   red_mushroom: Мухамор
   crimson_fungus: Барвовы грыб
@@ -141,9 +204,12 @@ material:
   twisting_vines: Перакручаныя лозы
   sugar_cane: Цукровы трыснёг
   kelp: Ламінарыя
+  moss_carpet: Імховы дыван
+  moss_block: Блок імху
+  hanging_roots: Вісячыя карані
+  big_dripleaf: Вялікі кропля-ліст
+  small_dripleaf: Маленькі кропля-ліст
   bamboo: Бамбук
-  gold_block: Залаты блок
-  iron_block: Жалезны блок
   oak_slab: Дубовая пліта
   spruce_slab: Яловая пліта
   birch_slab: Бярозавая пліта
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: Гладкі пясчанік
   smooth_stone: Гладкі камень
   bricks: Цэгла
-  tnt: Дынаміт
   bookshelf: Кніжная палічка
   mossy_cobblestone: Замшэлы бут
   obsidian: Абсідыян
@@ -187,27 +252,11 @@ material:
   spawner: Рассаднік
   oak_stairs: Дубовыя прыступкі
   chest: Куфар
-  diamond_ore: Дыяментавая руда
-  diamond_block: Дыяментавы блок
   crafting_table: Варштат
   farmland: Ралля
   furnace: Печка
   ladder: Лесвіца
-  rail: Рэйкі
   cobblestone_stairs: Прыступкі з буту
-  lever: Рычаг
-  stone_pressure_plate: Каменная націскная пліта
-  oak_pressure_plate: Дубовая націскная пліта
-  spruce_pressure_plate: Яловая націскная пліта
-  birch_pressure_plate: Бярозавая націскная пліта
-  jungle_pressure_plate: Націскная пліта з трапічнай драўніны
-  acacia_pressure_plate: Націскная пліта з акацыі
-  dark_oak_pressure_plate: Націскная пліта з цёмнага дубу
-  crimson_pressure_plate: Барвовая націскная пліта
-  warped_pressure_plate: Cкажоная націскная пліта
-  polished_blackstone_pressure_plate: Націскная пліта з паліраванага чарніту
-  redstone_ore: Рэдстоўнавая руда
-  redstone_torch: Рэдстоўнавы факел
   snow: Снег
   ice: Лёд
   snow_block: Блок снегу
@@ -224,48 +273,40 @@ material:
   warped_fence: Скажоны плот
   pumpkin: Гарбуз
   carved_pumpkin: Выразаны гарбуз
+  jack_o_lantern: Свяцільня Джэка
   netherrack: Камень Нэдара
   soul_sand: Пясок душ
   soul_soil: Глеба душ
   basalt: Базальт
   polished_basalt: Паліраваны базальт
+  smooth_basalt: Гладкі базальт
   soul_torch: Факел душ
   glowstone: Зіхатлівы камень
-  jack_o_lantern: Свяцільня Джэка
-  oak_trapdoor: Дубовы люк
-  spruce_trapdoor: Яловы люк
-  birch_trapdoor: Бярозавы люк
-  jungle_trapdoor: Люк з трапічнай драўніны
-  acacia_trapdoor: Люк з акацыі
-  dark_oak_trapdoor: Люк з цёмнага дубу
-  crimson_trapdoor: Барвовы люк
-  warped_trapdoor: Cкажоны люк
   infested_stone: Заражаны камень
   infested_cobblestone: Заражаны бут
   infested_stone_bricks: Заражаная каменная цэгла
   infested_mossy_stone_bricks: Заражаная замшэлая каменная цэгла
   infested_cracked_stone_bricks: Заражаная патрэская каменная цэгла
   infested_chiseled_stone_bricks: Заражаная разная каменная цэгла
+  infested_deepslate: Заражаны сланец
   stone_bricks: Каменная цэгла
   mossy_stone_bricks: Замшэлая каменная цэгла
   cracked_stone_bricks: Патрэсканая каменная цэгла
   chiseled_stone_bricks: Разная каменная цэгла
+  deepslate_bricks: Сланцавая цэгла
+  cracked_deepslate_bricks: Патрэсканая сланцавая цэгла
+  deepslate_tiles: Сланцавая кафля
+  cracked_deepslate_tiles: Патрэсканая сланцавая кафля
+  chiseled_deepslate: Разны сланец
   brown_mushroom_block: Блок баравіка
   red_mushroom_block: Блок мухамора
   mushroom_stem: Ножка грыба
   iron_bars: Жалезныя краты
-  chain: Ланцуг
+  chain: Ланцуговы
   glass_pane: Шыба
   melon: Кавун
   vine: Лаза
-  oak_fence_gate: Дубовая брамка
-  spruce_fence_gate: Яловая брамка
-  birch_fence_gate: Бярозавая брамка
-  jungle_fence_gate: Брамка з трапічнай драўніны
-  acacia_fence_gate: Брамка з акацыі
-  dark_oak_fence_gate: Брамка з цёмнага дубу
-  crimson_fence_gate: Барвовая брамка
-  warped_fence_gate: Cкажоная брамка
+  glow_lichen: Зіхатлівы лішайнік
   brick_stairs: Цагляныя прыступкі
   stone_brick_stairs: Прыступкі з каменнай цэглы
   mycelium: Міцэлій
@@ -280,11 +321,8 @@ material:
   end_stone: Камень Энда
   end_stone_bricks: Цэгла з камню Энда
   dragon_egg: Яйка цмока
-  redstone_lamp: Ліхтар
   sandstone_stairs: Прыступкі з пясчаніку
-  emerald_ore: Смарагдавая руда
   ender_chest: Эндар-куфар
-  tripwire_hook: Крук
   emerald_block: Смарагдавы блок
   spruce_stairs: Яловыя прыступкі
   birch_stairs: Бярозавыя прыступкі
@@ -310,33 +348,18 @@ material:
   blackstone_wall: Сцяна з чарніту
   polished_blackstone_wall: Сцяна з паліраванага чарніту
   polished_blackstone_brick_wall: Сцяна з паліраванай чарнітавай цэглы
-  stone_button: Каменная кнопка
-  oak_button: Дубовая кнопка
-  spruce_button: Яловая кнопка
-  birch_button: Бярозавая кнопка
-  jungle_button: Кнопка з трапічнай драўніны
-  acacia_button: Кнопка з акацыі
-  dark_oak_button: Кнопка з цёмнага дубу
-  crimson_button: Барвовая кнопка
-  warped_button: Скажоная кнопка
-  polished_blackstone_button: Паліраваная кнопка з чарніту
+  cobbled_deepslate_wall: Сцяна з брукаванага сланцу
+  polished_deepslate_wall: Сцяна з паліраванага сланцу
+  deepslate_brick_wall: Сцяна са сланцавай цэглы
+  deepslate_tile_wall: Сцяна са сланцавай кафлі
   anvil: Кавадла
   chipped_anvil: Пашкоджанае кавадла
   damaged_anvil: Паламанае кавадла
-  trapped_chest: Куфар-пастка
-  light_weighted_pressure_plate: Вагавая націскная пліта (лёгкая)
-  heavy_weighted_pressure_plate: Вагавая націскная пліта (цяжкая)
-  daylight_detector: Датчык дзённага святла
-  redstone_block: Блок рэдстоўну
-  nether_quartz_ore: Кварцавая руда
-  hopper: Варонка
   chiseled_quartz_block: Разны кварцавы блок
   quartz_block: Кварцавы блок
   quartz_bricks: Кварцавая цэгла
   quartz_pillar: Кварцавая калона
   quartz_stairs: Кварцавыя прыступкі
-  activator_rail: Актывуючыя рэйкі
-  dropper: Выкідальнік
   white_terracotta: Белая кераміка
   orange_terracotta: Аранжавая кераміка
   magenta_terracotta: Пурпурная кераміка
@@ -354,7 +377,7 @@ material:
   red_terracotta: Чырвоная кераміка
   black_terracotta: Чорная кераміка
   barrier: Бар’ер
-  iron_trapdoor: Жалезны люк
+  light: Святло
   hay_block: Цюк сена
   white_carpet: Белы дыван
   orange_carpet: Аранжавы дыван
@@ -373,12 +396,10 @@ material:
   red_carpet: Чырвоны дыван
   black_carpet: Чорны дыван
   terracotta: Кераміка
-  coal_block: Вугальны блок
   packed_ice: Цвёрды лёд
   acacia_stairs: Прыступкі з акацыі
   dark_oak_stairs: Прыступкі з цёмнага дубу
-  slime_block: Блок слізі
-  grass_path: Сцежка
+  dirt_path: Сцежка
   sunflower: Сланечнік
   lilac: Бэз
   rose_bush: Ружовы куст
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: Чырвоная нэдарская цэгла
   bone_block: Касцявы блок
   structure_void: Пустата
-  observer: Назіральнік
   shulker_box: Шалкеравая скрыня
   white_shulker_box: Белая шалкеравая скрыня
   orange_shulker_box: Аранжавая шалкеравая скрыня
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: Прыступкі з чырвонай нэдарскай цэглы
   polished_andesite_stairs: Прыступкі з паліраванага андэзіту
   diorite_stairs: Прыступкі з дыярыту
+  cobbled_deepslate_stairs: Прыступкі з брукаванага сланцу
+  polished_deepslate_stairs: Прыступкі з паліраванага сланцу
+  deepslate_brick_stairs: Прыступкі са сланцавай цэглы
+  deepslate_tile_stairs: Прыступкі са сланцавай кафлі
   polished_granite_slab: Пліта з паліраванага граніту
   smooth_red_sandstone_slab: Пліта з гладкага чырвонага пясчаніку
   mossy_stone_brick_slab: Замшэлая пліта з каменнай цэглы
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: Пліта з чырвонай нэдарскай цэглы
   polished_andesite_slab: Пліта з паліраванага андэзіту
   diorite_slab: Пліта з дыярыту
+  cobbled_deepslate_slab: Пліта з брукаванага сланцу
+  polished_deepslate_slab: Пліта з паліраванага сланцу
+  deepslate_brick_slab: Пліта са сланцавай цэглы
+  deepslate_tile_slab: Пліта са сланцавай кафлі
   scaffolding: Рыштаванні
+  redstone: Рэдстоўнавы пыл
+  redstone_torch: Рэдстоўнавы факел
+  redstone_block: Блок рэдстоўну
+  repeater: Паўтаральнік
+  comparator: Кампаратар
+  piston: Поршань
+  sticky_piston: Ліпкі поршань
+  slime_block: Блок слізі
+  honey_block: Блок мёду
+  observer: Назіральнік
+  hopper: Варонка
+  dispenser: Раздавальнік
+  dropper: Выкідальнік
+  lectern: Аналой
+  target: Мішэнь
+  lever: Рычаг
+  lightning_rod: Маланкаадвод
+  daylight_detector: Датчык дзённага святла
+  sculk_sensor: 'Скалк-сэнсар '
+  tripwire_hook: Крук
+  trapped_chest: Куфар-пастка
+  tnt: Дынаміт
+  redstone_lamp: Ліхтар
+  note_block: Нотны блок
+  stone_button: Каменная кнопка
+  polished_blackstone_button: Паліраваная кнопка з чарніту
+  oak_button: Дубовая кнопка
+  spruce_button: Яловая кнопка
+  birch_button: Бярозавая кнопка
+  jungle_button: Кнопка з трапічнай драўніны
+  acacia_button: Кнопка з акацыі
+  dark_oak_button: Кнопка з цёмнага дубу
+  crimson_button: Барвовая кнопка
+  warped_button: Скажоная кнопка
+  stone_pressure_plate: Каменная націскная пліта
+  polished_blackstone_pressure_plate: Націскная пліта з паліраванага чарніту
+  light_weighted_pressure_plate: Вагавая націскная пліта (лёгкая)
+  heavy_weighted_pressure_plate: Вагавая націскная пліта (цяжкая)
+  oak_pressure_plate: Дубовая націскная пліта
+  spruce_pressure_plate: Яловая націскная пліта
+  birch_pressure_plate: Бярозавая націскная пліта
+  jungle_pressure_plate: Націскная пліта з трапічнай драўніны
+  acacia_pressure_plate: Націскная пліта з акацыі
+  dark_oak_pressure_plate: Націскная пліта з цёмнага дубу
+  crimson_pressure_plate: Барвовая націскная пліта
+  warped_pressure_plate: Cкажоная націскная пліта
   iron_door: Жалезныя дзверы
   oak_door: Дубовыя дзверы
   spruce_door: Яловыя дзверы
@@ -572,8 +646,42 @@ material:
   dark_oak_door: Дзверы з цёмнага дубу
   crimson_door: Барвовыя дзверы
   warped_door: Скажоныя дзверы
-  repeater: Паўтаральнік
-  comparator: Кампаратар
+  iron_trapdoor: Жалезны люк
+  oak_trapdoor: Дубовы люк
+  spruce_trapdoor: Яловы люк
+  birch_trapdoor: Бярозавы люк
+  jungle_trapdoor: Люк з трапічнай драўніны
+  acacia_trapdoor: Люк з акацыі
+  dark_oak_trapdoor: Люк з цёмнага дубу
+  crimson_trapdoor: Барвовы люк
+  warped_trapdoor: Cкажоны люк
+  oak_fence_gate: Дубовая брамка
+  spruce_fence_gate: Яловая брамка
+  birch_fence_gate: Бярозавая брамка
+  jungle_fence_gate: Брамка з трапічнай драўніны
+  acacia_fence_gate: Брамка з акацыі
+  dark_oak_fence_gate: Брамка з цёмнага дубу
+  crimson_fence_gate: Барвовая брамка
+  warped_fence_gate: Cкажоная брамка
+  powered_rail: Энергарэйкі
+  detector_rail: Рэйкі з датчыкам
+  rail: Рэйкі
+  activator_rail: Актывуючыя рэйкі
+  saddle: Сядло
+  minecart: Ваганетка
+  chest_minecart: Ваганетка з куфарам
+  furnace_minecart: Ваганетка з печкай
+  tnt_minecart: Ваганетка з дынамітам
+  hopper_minecart: Ваганетка з варонкай
+  carrot_on_a_stick: Морква на палачцы
+  warped_fungus_on_a_stick: Скажоны грыб на палачцы
+  elytra: Элітры
+  oak_boat: Дубовы човен
+  spruce_boat: Яловы човен
+  birch_boat: Бярозавы човен
+  jungle_boat: Човен з трапічнай драўніны
+  acacia_boat: Човен з акацыі
+  dark_oak_boat: Човен з цёмнага дубу
   structure_block: Праектны блок
   jigsaw: Канструкцыйны блок
   turtle_helmet: Панцыр чарапахі
@@ -585,7 +693,15 @@ material:
   coal: Вугаль
   charcoal: Драўняны вугаль
   diamond: Дыямент
+  emerald: Смарагд
+  lapis_lazuli: Лазурыт
+  quartz: Кварц
+  amethyst_shard: Асколак аметысту
+  raw_iron: Сырое жалеза
   iron_ingot: Жалезны злітак
+  raw_copper: Сырая медзь
+  copper_ingot: Мядзяны злітак
+  raw_gold: Сырое золата
   gold_ingot: Залаты злітак
   netherite_ingot: Нэдарытавы злітак
   netherite_scrap: Нэдарытавы абломак
@@ -669,29 +785,27 @@ material:
   bucket: Вядро
   water_bucket: Вядро вады
   lava_bucket: Вядро лавы
-  minecart: Ваганетка
-  saddle: Сядло
-  redstone: Рэдстоўнавы пыл
+  powder_snow_bucket: Вядро сыпкага снегу
   snowball: Снежка
-  oak_boat: Дубовы човен
   leather: Скура
   milk_bucket: Вядро малака
   pufferfish_bucket: Вядро з іголкабрухам
   salmon_bucket: Вядро з ласосем
   cod_bucket: Вядро з траской
   tropical_fish_bucket: Вядро з трапічнай рыбай
+  axolotl_bucket: Вядро з аксалотлем
   brick: Цагліна
   clay_ball: Гліняны шар
   dried_kelp_block: Блок сушанай ламінарыі
   paper: Папера
   book: Кніга
   slime_ball: Згустак слізі
-  chest_minecart: Ваганетка з куфарам
-  furnace_minecart: Ваганетка з печкай
   egg: Яйка
   compass: Компас
+  bundle: Мех
   fishing_rod: Вудачка
   clock: Гадзіннік
+  spyglass: Падзорная труба
   glowstone_dust: Зіхоткі пыл
   cod: Сырая траска
   salmon: Сыры ласось
@@ -700,8 +814,8 @@ material:
   cooked_cod: Смажаная траска
   cooked_salmon: Смажаны ласось
   ink_sac: Чарнільны мяшок
+  glow_ink_sac: Зіхатлівы чарнільны мяшок
   cocoa_beans: Какава-бабы
-  lapis_lazuli: Лазурыт
   white_dye: Белы фарбавальнік
   orange_dye: Аранжавы фарбавальнік
   magenta_dye: Пурпурны фарбавальнік
@@ -753,7 +867,7 @@ material:
   ender_pearl: Жамчужына Энда
   blaze_rod: Вогненны стрыжань
   ghast_tear: Сляза гаста
-  gold_nugget: Залаты самародак
+  gold_nugget: Кавалак золата
   nether_wart: Нэдарская нарасць
   potion: Зелле
   glass_bottle: Пляшка
@@ -764,7 +878,8 @@ material:
   brewing_stand: Варачная стойка
   cauldron: Кацёл
   ender_eye: Вока Эндара
-  glistering_melon_slice: Бліскучы кавалак кавуна
+  glistering_melon_slice: Зіхатлівы кавалак кавуна
+  axolotl_spawn_egg: Яйка прызыву - Аксалотль
   bat_spawn_egg: Яйка прызыву - Кажан
   bee_spawn_egg: Яйка прызыву - Пчала
   blaze_spawn_egg: Яйка прызыву - Полымень
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: Яйка прызыву - Заклінальнік
   fox_spawn_egg: Яйка прызыву - Ліс
   ghast_spawn_egg: Яйка прызыву - Гаст
+  glow_squid_spawn_egg: Яйка прызыву - Зіхатлівы спрут
+  goat_spawn_egg: Яйка прызыву - Каза
   guardian_spawn_egg: Яйка прызыву - Вартавы
   hoglin_spawn_egg: Яйка прызыву - Гоглін
   horse_spawn_egg: Яйка прызыву - Конь
@@ -833,8 +950,8 @@ material:
   fire_charge: Вогненны шар
   writable_book: Кніга і пяро
   written_book: Напісаная кніга
-  emerald: Смарагд
   item_frame: Рамка
+  glow_item_frame: Зіхатлівая рамка
   flower_pot: Гаршчок
   carrot: Морква
   potato: Бульба
@@ -848,17 +965,12 @@ material:
   zombie_head: Галава мерцвяка
   creeper_head: Галава крыпера
   dragon_head: Галава цмока
-  carrot_on_a_stick: Морква на палачцы
-  warped_fungus_on_a_stick: Скажоны грыб на палачцы
   nether_star: Зорка Нэдара
   pumpkin_pie: Гарбузовы пірог
   firework_rocket: Феерверк
   firework_star: Набой феерверку
   enchanted_book: Зачараваная кніга
   nether_brick: Нэдарская цэгла
-  quartz: Кварц
-  tnt_minecart: Ваганетка з дынамітам
-  hopper_minecart: Ваганетка з варонкай
   prismarine_shard: Прызмарынавы аскепак
   prismarine_crystals: Крышталі прызмарыну
   rabbit: Сырая трусяціна
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: Апрацаваная страла
   lingering_potion: Трывалае зелле
   shield: Шчыт
-  elytra: Элітры
-  spruce_boat: Яловы човен
-  birch_boat: Бярозавы човен
-  jungle_boat: Човен з трапічнай драўніны
-  acacia_boat: Човен з акацыі
-  dark_oak_boat: Човен з цёмнага дубу
   totem_of_undying: Татэм бяссмерця
   shulker_shell: Панцыр шалкера
   iron_nugget: Кавалак жалеза
@@ -948,13 +1054,13 @@ material:
   cartography_table: Варштат картографа
   fletching_table: Варштат лучніка
   grindstone: Шліфавальны круг
-  lectern: Аналой
   smithing_table: Варштат каваля
   stonecutter: Каменярэз
   bell: Звон
   lantern: Ліхтар
   soul_lantern: Ліхтар душ
   sweet_berries: Салодкія ягады
+  glow_berries: Зіхатлівыя ягады
   campfire: Вогнішча
   soul_campfire: Вогнішча душ
   shroomlight: Святлагрыб
@@ -962,12 +1068,8 @@ material:
   bee_nest: Пчалінае гняздо
   beehive: Вулей
   honey_bottle: Пляшка мёду
-  honey_block: Блок мёду
   honeycomb_block: Блок мядовых сотаў
   lodestone: Магнетыт
-  netherite_block: Нэдарытавы блок
-  ancient_debris: Антычныя рэшткі
-  target: Мішэнь
   crying_obsidian: Плакучы абсідыян
   blackstone: Чарніт
   blackstone_slab: Пліта з чарніту
@@ -982,6 +1084,28 @@ material:
   polished_blackstone_brick_stairs: Прыступкі з паліраванай чарнітавай цэглы
   cracked_polished_blackstone_bricks: Патрэсканая цэгла з паліраванага чарніту
   respawn_anchor: Котва адраджэння
+  candle: Свечка
+  white_candle: Белая свечка
+  orange_candle: Аранжавая свечка
+  magenta_candle: Пурпурная свечка
+  light_blue_candle: Блакітная свечка
+  yellow_candle: Жоўтая свечка
+  lime_candle: Лаймавая свечка
+  pink_candle: Ружовая свечка
+  gray_candle: Шэрая свечка
+  light_gray_candle: Светла-шэрая свечка
+  cyan_candle: Бірузовая свечка
+  purple_candle: Фіялетавая свечка
+  blue_candle: Сіняя свечка
+  brown_candle: Карычневая свечка
+  green_candle: Зялёная свечка
+  red_candle: Чырвоная свечка
+  black_candle: Чорная свечка
+  small_amethyst_bud: Маленькі зародак аметысту
+  medium_amethyst_bud: Сярэдні зародак аметысту
+  large_amethyst_bud: Вялікі зародак аметысту
+  amethyst_cluster: Аметыставы кластар
+  pointed_dripstone: Завостраны нацёк
   water: Вада
   lava: Лава
   tall_seagrass: Высокая марская трава
@@ -1004,6 +1128,9 @@ material:
   attached_melon_stem: Прырослае сцябло кавуна
   pumpkin_stem: Тушаны гарбуз
   melon_stem: Сцябло кавуна
+  water_cauldron: Кацёл вады
+  lava_cauldron: Кацёл лавы
+  powder_snow_cauldron: Кацёл сыпкага снегу
   end_portal: Рамка партала ў Энд
   cocoa: Какава
   tripwire: Расцяжка
@@ -1083,6 +1210,30 @@ material:
   potted_warped_fungus: Скажоны грыб у гаршку
   potted_crimson_roots: Барвовыя карані ў гаршку
   potted_warped_roots: Скажоныя карані ў гаршку
+  candle_cake: Торт са свечкай
+  white_candle_cake: Торт з белай свечкай
+  orange_candle_cake: Торт з аранжавай свечкай
+  magenta_candle_cake: Торт з пурпурнай свечкай
+  light_blue_candle_cake: Торт з блакітнай свечкай
+  yellow_candle_cake: Торт з жоўтай свечкай
+  lime_candle_cake: Торт з лаймавай свечкай
+  pink_candle_cake: Торт з ружовай свечкай
+  gray_candle_cake: Торт з шэрай свечкай
+  light_gray_candle_cake: Торт з светла-шэрай свечкай
+  cyan_candle_cake: Торт з бірузовай свечкай
+  purple_candle_cake: Торт з фіялетавай свечкай
+  blue_candle_cake: Торт з сіняй свечкай
+  brown_candle_cake: Торт з карычневай свечкай
+  green_candle_cake: Торт з зялёнай свечкай
+  red_candle_cake: Торт з чырвонай свечкай
+  black_candle_cake: Торт з чорнай свечкай
+  powder_snow: Сыпкі снег
+  cave_vines: Пячорная лаза
+  cave_vines_plant: Пячорная лаза
+  big_dripleaf_stem: Сцябло вялікага кропля-ліста
+  potted_azalea_bush: Азалія ў гаршку
+  potted_flowering_azalea_bush: Квітнеючая азалія ў гаршку
+  grass_path: Сцежка
   zombie_pigman_spawn_egg: Яйка прызыву - Мярцвяк-свіналюд
   cactus_green: Сушаны кактус
   dandelion_yellow: Пялёсткі дзьмухаўца
@@ -1169,46 +1320,48 @@ biome:
   crimson_forest: Барвовы лес
   warped_forest: Скажоны лес
   basalt_deltas: Базальтавыя дэльты
+  dripstone_caves: Сталактытавыя пячоры
+  lush_caves: Пышныя пячоры
   nether: Нэдар
 enchantment:
-  fire_protection: Ахова ад агню
-  sharpness: Вастрыня
-  flame: Падпальванне
-  soul_speed: Хуткасць душы
-  aqua_affinity: Водападобнасць
-  punch: Адштурхванне
-  loyalty: Вернасць
-  depth_strider: Падводнік
-  vanishing_curse: Праклён знікнення
-  unbreaking: Мацунак
-  knockback: Адкідванне
-  luck_of_the_sea: Марская ўдача
-  binding_curse: Праклён няздымнасці
-  fortune: Удача
   protection: Ахова
-  efficiency: Эфектыўнасць
-  mending: Рамонт
-  frost_walker: Марозны поступ
-  lure: Прынада
-  looting: Марадзёрства
-  piercing: Прабіццё
-  blast_protection: Ахова ад выбухаў
-  smite: Паражэнне мерцвякоў
-  multishot: Залп
-  fire_aspect: Падпальванне
-  channeling: Грамабой
-  sweeping: Меч-кладзянец
-  thorns: Калючкі
-  bane_of_arthropods: Біч членістаногіх
-  respiration: Падводнае дыханне
-  riptide: Цягач
-  silk_touch: Шаўковы дотык
-  quick_charge: Хуткая перазарадка
-  projectile_protection: Ахова ад стрэл
-  impaling: Працінанне
+  fire_protection: Ахова ад агню
   feather_falling: Бязважкасць
+  blast_protection: Ахова ад выбухаў
+  projectile_protection: Ахова ад стрэл
+  respiration: Падводнае дыханне
+  aqua_affinity: Водападобнасць
+  thorns: Калючкі
+  depth_strider: Падводнік
+  frost_walker: Марозны поступ
+  binding_curse: Праклён няздымнасці
+  sharpness: Вастрыня
+  smite: Паражэнне мерцвякоў
+  bane_of_arthropods: Біч членістаногіх
+  knockback: Адкідванне
+  fire_aspect: Падпальванне
+  looting: Марадзёрства
+  sweeping: Меч-кладзянец
+  efficiency: Эфектыўнасць
+  silk_touch: Шаўковы дотык
+  unbreaking: Мацунак
+  fortune: Удача
   power: Моц
+  punch: Адштурхванне
+  flame: Падпальванне
   infinity: Бясконцасць
+  luck_of_the_sea: Марская ўдача
+  lure: Прынада
+  loyalty: Вернасць
+  impaling: Працінанне
+  riptide: Цягач
+  channeling: Грамабой
+  multishot: Залп
+  quick_charge: Хуткая перазарадка
+  piercing: Прабіццё
+  mending: Рамонт
+  vanishing_curse: Праклён знікнення
+  soul_speed: Хуткасць душы
 potion:
   uncraftable: Нестваральнае зелле
   water: Пляшка вады
@@ -1403,6 +1556,11 @@ entity:
   strider: Лавацуга
   zoglin: Зоглін
   piglin_brute: Брутальны піглін
+  axolotl: Аксалотль
+  glow_item_frame: Зіхатлівая рамка
+  glow_squid: Зіхатлівы спрут
+  goat: Каза
+  marker: Маркер
   fishing_hook: Паплавок
   lightning: Пошуг маланкі
   player: Гулец
@@ -2202,17 +2360,3 @@ villager_profession:
   shepherd: Аўчар
   toolsmith: Каваль інструментаў
   weaponsmith: Каваль зброі
-villager_career:
-  farmer: Фермер
-  fisherman: Рыбак
-  shepherd: Аўчар
-  fletcher: Майстар па луках
-  librarian: Бібліятэкар
-  cartographer: Картограф
-  cleric: Святар
-  armorer: Броннік
-  weapon_smith: Збройнік
-  tool_smith: Каваль інструментаў
-  butcher: Мяснік
-  leatherworker: Гарбар
-  nitwit: Дурыла

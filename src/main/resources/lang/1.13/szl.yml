@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:49                    #
+# Build time: 2021-07-04 21:46:04                    #
 # ####################################################
 language:
   code: szl
@@ -9,10 +9,12 @@ material:
   acacia_log: Agacowy pniok
   anvil: Nakowa
   armor_stand: Stojŏl na zbrojŏ
+  arrow: Szczała
   attached_pumpkin_stem: Prziłōnczōny sztyngel banii
   beacon: Magiczna latarnia
   beef: Surowa wołowina
   birch_log: Brzeźny pniok
+  bone_meal: Kostyrnŏ mōnczkŏ
   cake: Zista
   chainmail_boots: Buty kolcze
   chainmail_chestplate: Napierśnik kolczy
@@ -42,12 +44,14 @@ material:
   diamond_pickaxe: Diomyntowŏ haka
   diamond_shovel: Diomyntowŏ szipa
   diamond_sword: Diomyntowy mjycz
+  dispenser: Szczylŏcz
   enderman_spawn_egg: Jajco ze endermanym
   firework_star: Gwiazdka pirotechniczna
   ghast_tear: Płaczka dōcha
   glowstone: Blyndok
   golden_axe: Zôte ćieślico
   golden_chestplate: Złoty napierśnik
+  golden_horse_armor: Zôtŏ kōńskŏ zbrojŏ
   golden_sword: Złoty miecz
   gray_banner: Myszatŏ fana
   gray_bed: Myszate lyże
@@ -64,9 +68,19 @@ material:
   gray_wool: Myszatŏ wołna
   husk_spawn_egg: Jajo przyzywające posucha
   iron_axe: Żylŏzne ćieślico
+  iron_bars: Żyloznŏ gitra
+  iron_block: Blok żylaza
+  iron_boots: Żylŏzne szczewiki
   iron_chestplate: Żelazny napierśnik
+  iron_door: Żylazne dźwiyrza
+  iron_hoe: Żyloznŏ kōpaczka
+  iron_horse_armor: Żylŏznŏ kōńskŏ zbrojŏ
+  iron_ore: Ruda żylazŏ
+  iron_trapdoor: Żylaznŏ szłapa
+  item_frame: Roma na klamoty
   jungle_log: Dżunglowy pniok
   lava_bucket: Ajmer ze lawōm
+  leather_boots: Skōrzane szczewiki
   light_gray_banner: Jasnomyszatŏ fana
   light_gray_bed: Jasnomyszate lyże
   light_gray_carpet: Jasnomyszaty tepich
@@ -87,7 +101,27 @@ material:
   nether_brick_slab: Kachla ze netherowej cegłōwki
   oak_log: Dymbowy pniok
   porkchop: Surowy schab
+  potted_acacia_sapling: Flanca agacy we fajerce
+  potted_allium: Knobloch we fajerce
+  potted_azure_bluet: Azurowŏ houstonia we fajerce
+  potted_birch_sapling: Flanca brzōzki we fajerce
+  potted_blue_orchid: Modry storczyk we fajerce
+  potted_brown_mushroom: Prawok we fajerce
+  potted_cactus: Kaktus we fajerce
+  potted_dandelion: Mlycz we fajerce
+  potted_dark_oak_sapling: Flanca ćmawygŏ dymbu we fajerce
+  potted_dead_bush: Uschnyty krzok we fajerce
+  potted_fern: Paprotka we fajerce
+  potted_jungle_sapling: Dżunglowŏ flanca we fajerce
+  potted_oak_sapling: Flanca dymbu we fajerce
+  potted_orange_tulip: Oranżowŏ tulpa we fajerce
+  potted_oxeye_daisy: Gynsipympek we fajerce
+  potted_pink_tulip: Rōżôwŏ tulpa we fajerce
+  potted_poppy: Mak we fajerce
+  potted_red_mushroom: Sromotniŏk we fajerce
   potted_red_tulip: Czerwōnŏ tulpa we fojerce
+  potted_spruce_sapling: Flanca smreku we fajerce
+  potted_white_tulip: Bjołŏ tulpa we fajerce
   pufferfish_bucket: Ajmer ze balorybōm
   pumpkin_pie: Kołŏcz ze banii
   pumpkin_seeds: Ôsucie banii
@@ -99,6 +133,7 @@ material:
   salmon_bucket: Ajmer ze łosōsiym
   scute: Tarczka
   smooth_quartz: Śliski kworc
+  spectral_arrow: Blinkowŏ szczała
   spruce_log: Smrekowy pniok
   stone_axe: Kamjynne ćieślico
   stripped_acacia_wood: Okorowane akacjowe drewno
@@ -107,6 +142,7 @@ material:
   stripped_jungle_wood: Okorowane tropikalne drewno
   stripped_oak_wood: Okorowane dębowe drewno
   stripped_spruce_wood: Okorowane świerkowe drewno
+  tipped_arrow: Tōnknytŏ szczała
   totem_of_undying: Totem nieśmiertelności
   tropical_fish_bucket: Ajmer ze dżunglowōm rybōm
   turtle_egg: Jajco pancerżaby
@@ -120,6 +156,7 @@ material:
 biome:
   mushroom_fields: Pola grzybowe
   mushroom_field_shore: Wybrzeże grzybowych pól
+  jungle: Dżunglŏ
   savanna_plateau: Płaskowyż sawanny
   wooded_badlands_plateau: Zalesiony płaskowyż badlandów
   badlands_plateau: Płaskowyż badlandów
@@ -157,14 +194,38 @@ lingering_potion:
   night_vision: Trwała mikstura noktowizji
   turtle_master: Kurzwywōr pancyrżabiygŏ majstra
 tipped_arrow:
+  uncraftable: Ńyzłōnaczalnŏ tōnknytŏ szczała
+  water: Szczała ciŏplaniŏ
+  mundane: Tōnknytŏ szczała
+  thick: Tōnknytŏ szczała
+  awkward: Tōnknytŏ szczała
   night_vision: Strzała noktowizji
+  invisibility: Szczała ńywidzianości
+  jump: Szczała hibu
+  fire_resistance: Szczała ôgniŏôbstōniŏ
+  speed: Szczała gibkości
+  slowness: Szczałŏ spōmalyniŏ
+  water_breathing: Szczała dychaniŏ pod wodōm
+  instant_heal: Szczała lykōwaniŏ
+  instant_damage: Szczała harataniŏ
+  poison: Szczała zajadzyniŏ
+  regen: Szczała regeneracyjŏ
+  strength: Szczała siyły
+  weakness: Szczała słaboty
+  luck: Szczała szczynściŏ
   turtle_master: Szczała pancyrżabiygŏ majstra
+  slow_falling: Szczała polekkygŏ slatywaniŏ
 entity:
   experience_orb: Kula doświadczenia
   area_effect_cloud: Obłok mikstury
+  arrow: Szczała
+  item_frame: Roma na klamoty
+  spectral_arrow: Blinkowŏ szczała
+  armor_stand: Stojŏl na zbrojŏ
   ghast: Dōch
   chicken: Cipka
   mushroom_cow: Grzibokalymba
+  iron_golem: Żylŏżny golym
   turtle: Pancerżaba
 effect:
   jump: Zwiększony skok
@@ -551,3 +612,5 @@ banner_pattern:
   '2490374': Różowe Coś
   '2490375': Szare Coś
   '2490376': Jasnoszare Coś
+villager_profession:
+  librarian: Ksiōnkŏrz

@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:19:59                    #
+# Build time: 2021-07-04 21:41:55                    #
 # ####################################################
 language:
   code: enws
@@ -7,38 +7,72 @@ language:
   region: Kingdom of England
 material:
   bamboo_sapling: Bamboo Sapling
+  bone_block: Bone Block
+  brain_coral_block: Carnation Coral Block
+  brown_mushroom_block: Brown Mushroom Block
+  bubble_coral_block: Purple Coral Block
   campfire: Campfire
   cartography_table: Table of Maps
+  chipped_anvil: Cracked Anvil
+  chiseled_quartz_block: Graven Block of Crystal
+  chiseled_red_sandstone: Graven Red Sandstone
+  chiseled_stone_bricks: Graven Stone Bricks
   clay_ball: Clay
   composter: Waste Bin
   creeper_banner_pattern: Creeper Bann'r Patt'rn
   crossbow: Crossbow
+  dead_brain_coral_block: Dead Carnation Coral Block
+  dead_bubble_coral_block: Dead Purple Coral Block
+  dead_fire_coral_block: Dead Red Coral Block
+  dead_horn_coral_block: Dead Yellow Coral Block
+  dead_tube_coral_block: Dead Blue Coral Block
+  dried_kelp_block: Dried Seaweed Block
   fletching_table: Fletchery Table
   flower_banner_pattern: Flower Bann'r Patt'rn
   globe_banner_pattern: Globe Bann'r Patt'rn
   granite_stairs: Marble Stairs
+  grass_block: Grassy Dirt
+  infested_chiseled_stone_bricks: Infested Graven Bricks
   jigsaw: Magical Expanding Block
   lantern: Lanthorn
+  lapis_block: Lapis Block
   lectern: Script Stand
   light_blue_dye: Woad Blue
+  light_gray_concrete: Light Grey Cement
+  light_gray_concrete_powder: Light Grey Cement Powder
   loom: Tapestry Weaver
+  magma_block: Burning Stone
   mojang_banner_pattern: Mojang Bann'r Patt'rn
   mossy_cobblestone_slab: Moss'd Cobblestone Slab
   nether_brick_fence: Nether Brick Hedge
+  nether_quartz_ore: Nether Crystal Ore
+  nether_wart_block: Nether Wart Block
   panda_spawn_egg: Adder Stone o' Panda
   popped_chorus_fruit: Popped Chorus Fruit
   potted_bamboo: Pot'd Bamboo
   purple_dye: Tyrian Purple
+  purpur_block: Purpur Block
+  quartz: Nether Crystal
+  quartz_block: Block of Crystal
+  quartz_pillar: Pillar of Crystal
+  quartz_slab: Crystal Slab
+  quartz_stairs: Crystal Stairs
   red_dye: Crimson Dye
+  red_mushroom_block: Red Mushroom Block
   scaffolding: Scaffold
   skull_banner_pattern: Skull Bann'r Patt'rn
+  slime_block: Slime Block
   smithing_table: Blacksmithing Bench
   smoker: Smoke Oven
   smooth_quartz: Smooth Crystal
+  smooth_quartz_slab: Smooth Crystal Slab
+  smooth_quartz_stairs: Smooth Crystal Stairs
+  snow_block: Block o' Snow
   stonecutter: Stonemason's Workbench
   suspicious_stew: Mysterious Broth
   sweet_berries: Sweet Blossom Berries
   sweet_berry_bush: Blossom Bush
+  tube_coral_block: Blue Coral Block
   wandering_trader_spawn_egg: Adder Stone o' Exotic Peddler
 enchantment:
   multishot: Thrice-Readied
@@ -47,14 +81,15 @@ entity:
   panda: Panda
   wandering_trader: Exotic Peddler
 effect:
+  damage_resistance: Preservative against Danger
   bad_omen: Dark Omen
   hero_of_the_village: Saviour of the Town
 tropical_fish_type:
-  sunstreak: Sunstreak
   snooper: Snoop'r
   dasher: Dash'r
   flopper: Flopp'r
   glitter: Glitt'r
+  betty: Betty
 tropical_fish_name:
   '117899265': Black Acanthurus
   '185008129': Blue Acanthurus
@@ -68,6 +103,7 @@ tropical_fish_name:
   '235340288': R'd Lipp'd Blenny
   '918273': R'd Snapp'r
   '459008': Trigg'rfish
+  '67371009': Yellow Acanthurus
 banner_pattern:
   '2555905': Orange Globe
   '2555906': Magenta Globe

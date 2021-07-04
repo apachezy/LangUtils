@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:49                    #
+# Build time: 2021-07-04 21:46:04                    #
 # ####################################################
 language:
   code: sr_sp
@@ -9,44 +9,109 @@ material:
   air: Ваздух
   stone: Камен
   granite: Гранит
-  polished_granite: Изгланчан гранит
+  polished_granite: Углачани гранит
   diorite: Диорит
-  polished_diorite: Изгланчан диорит
+  polished_diorite: Углачани диорит
   andesite: Андезит
-  polished_andesite: Изгланчан андезит
+  polished_andesite: Углачани андезит
+  deepslate: Шкриљац
+  cobbled_deepslate: Калдрмисан шкриљац
+  polished_deepslate: Полирани шкриљац
+  calcite: Калцит
+  tuff: Туф
+  dripstone_block: Блок капмена
   grass_block: Блок траве
   dirt: Земља
   coarse_dirt: Храпава земља
   podzol: Подзол
+  rooted_dirt: Укорењена земља
   crimson_nylium: Гримизни нилијум
   warped_nylium: Изопачени нилијум
   cobblestone: Калдрма
   oak_planks: Даске од храстовине
   spruce_planks: Даске од смреке
   birch_planks: Даске од брезе
-  jungle_planks: Даске од дрвета из џунгле
-  acacia_planks: Багремове даске
+  jungle_planks: Даске од прашумског дрвета
+  acacia_planks: Даске од багрема
   dark_oak_planks: Даске од тамног храста
   crimson_planks: Гримизне даске
   warped_planks: Изопачене даске
   oak_sapling: Младица храста
   spruce_sapling: Младица смреке
   birch_sapling: Младица брезе
-  jungle_sapling: Младица дрвета из џунгле
+  jungle_sapling: Младица прашумског дрвета
   acacia_sapling: Младица багрема
   dark_oak_sapling: Младица тамног храста
   bedrock: Темељац
   sand: Песак
   red_sand: Црвени песак
   gravel: Шљунак
-  gold_ore: Руда злата
-  iron_ore: Руда гвожђа
   coal_ore: Руда угља
-  nether_gold_ore: Руда недер злата
+  deepslate_coal_ore: Шкриљаста руда угља
+  iron_ore: Руда гвожђа
+  deepslate_iron_ore: Шкриљаста руда гвожђа
+  copper_ore: Руда бакра
+  deepslate_copper_ore: Шкриљаста руда бакра
+  gold_ore: Руда злата
+  deepslate_gold_ore: Шкриљаста руда злата
+  redstone_ore: Руда редстоуна
+  deepslate_redstone_ore: Шкриљаста руда редстоуна
+  emerald_ore: Руда смарагда
+  deepslate_emerald_ore: Шкриљаста руда смарагда
+  lapis_ore: Руда лапис лазулија
+  deepslate_lapis_ore: Шкриљаста руда лапис лазулија
+  diamond_ore: Руда дијаманта
+  deepslate_diamond_ore: Шкриљаста руда дијаманта
+  nether_gold_ore: Руда Недер злата
+  nether_quartz_ore: Руда Недер кварца
+  ancient_debris: Древни остаци
+  coal_block: Блок угља
+  raw_iron_block: Блок сировог гвожђа
+  raw_copper_block: Блок сировог бакра
+  raw_gold_block: Блок сировог злата
+  amethyst_block: Блок аметиста
+  budding_amethyst: Растући аметист
+  iron_block: Гвоздени блок
+  copper_block: Блок бакра
+  gold_block: Златни блок
+  diamond_block: Дијамантски блок
+  netherite_block: Блок Недерита
+  exposed_copper: Изложени бакар
+  weathered_copper: Оксидован бакар
+  oxidized_copper: Оксидовани бакар
+  cut_copper: Сечени бакар
+  exposed_cut_copper: Изложени сечени бакар
+  weathered_cut_copper: Оксидован сечени бакар
+  oxidized_cut_copper: Оксидовани сечени бакар
+  cut_copper_stairs: Сечене степенице од бакра
+  exposed_cut_copper_stairs: Изложене степенице од сеченог бакра
+  weathered_cut_copper_stairs: Оксидоване степенице од сеченог бакра
+  oxidized_cut_copper_stairs: Оксидоване степенице од сеченог бакра
+  cut_copper_slab: Плоча сеченог бакра
+  exposed_cut_copper_slab: Изложена плоча од сеченог бакра
+  weathered_cut_copper_slab: Оксидована плоча од сеченог бакра
+  oxidized_cut_copper_slab: Оксидована плоча од сеченог бакра
+  waxed_copper_block: Блок бакра обложен воском
+  waxed_exposed_copper: Изложени бакар обложен воском
+  waxed_weathered_copper: Застарели бакар обложен воском
+  waxed_oxidized_copper: Оксидовани бакар обложен воском
+  waxed_cut_copper: Сечени бакар обложен воском
+  waxed_exposed_cut_copper: Изложени сечени бакар обложен воском
+  waxed_weathered_cut_copper: Застарели сечени бакар обложен воском
+  waxed_oxidized_cut_copper: Оксидовани сечени бакар обложен воском
+  waxed_cut_copper_stairs: Степенице од сеченог бакра обложене воском
+  waxed_exposed_cut_copper_stairs: Изложене степенице од сеченог бакра обложене воском
+  waxed_weathered_cut_copper_stairs: Застареле степенице од сеченог бакра обложене
+    воском
+  waxed_oxidized_cut_copper_stairs: Степенице од сеченог бакра обложене воском
+  waxed_cut_copper_slab: Плоча од сеченог бакра обложена воском
+  waxed_exposed_cut_copper_slab: Изложена плоча од сеченог бакра обложена воском
+  waxed_weathered_cut_copper_slab: Застарела плоча од сеченог бакра обложена воском
+  waxed_oxidized_cut_copper_slab: Оксидована плоча од сеченог бакра обложена воском
   oak_log: Храстовина
   spruce_log: Смрека
   birch_log: Брезовина
-  jungle_log: Дрво џунгле
+  jungle_log: Прашумско дрво
   acacia_log: Дрво багрема
   dark_oak_log: Тамно храстово дрво
   crimson_stem: Гримизна стабљика
@@ -54,7 +119,7 @@ material:
   stripped_oak_log: Огуљени храст
   stripped_spruce_log: Огуљена смрека
   stripped_birch_log: Огуљена бреза
-  stripped_jungle_log: Огуљено дрво џунгле
+  stripped_jungle_log: Огуљено прашумско дрво
   stripped_acacia_log: Огуљена акација
   stripped_dark_oak_log: Огуљени тамни храст
   stripped_crimson_stem: Огуљена гримизна стабљика
@@ -62,7 +127,7 @@ material:
   stripped_oak_wood: Огуљена храстовина
   stripped_spruce_wood: Огуљено дрво смреке
   stripped_birch_wood: Огуљена брезовина
-  stripped_jungle_wood: Огуљено дрво џунгле
+  stripped_jungle_wood: Огуљено прашумско дрво
   stripped_acacia_wood: Огуљено дрво багрема
   stripped_dark_oak_wood: Огуљено тамно храстово дрво
   stripped_crimson_hyphae: Огуљена гримизна хифа
@@ -70,7 +135,7 @@ material:
   oak_wood: Храстовина
   spruce_wood: Дрво смреке
   birch_wood: Брезовина
-  jungle_wood: Дрво џунгле
+  jungle_wood: Прашумско дрво
   acacia_wood: Дрво багрема
   dark_oak_wood: Тамно храстово дрво
   crimson_hyphae: Гримизна хифа
@@ -78,39 +143,37 @@ material:
   oak_leaves: Лишће храста
   spruce_leaves: Лишће смреке
   birch_leaves: Лишће брезе
-  jungle_leaves: Лишће из џунгле
+  jungle_leaves: Прашумско лишће
   acacia_leaves: Лишће акације
   dark_oak_leaves: Лишће тамног храста
+  azalea_leaves: Лишће азалеје
+  flowering_azalea_leaves: Лишће цветајуће азалеје
   sponge: Сунђер
   wet_sponge: Мокар сунђер
   glass: Стакло
-  lapis_ore: Руда лапис лазулија
+  tinted_glass: Замагљено стакло
   lapis_block: Блок лапис лазулија
-  dispenser: Аутомат
   sandstone: Пешчар
   chiseled_sandstone: Исклесани пешчар
   cut_sandstone: Сечени пешчар
-  note_block: Музички блок
-  powered_rail: Пруга под напоном
-  detector_rail: Сензор шина
-  sticky_piston: Лепљиви клип
   cobweb: Паучина
   grass: Трава
   fern: Папрат
+  azalea: Азалеја
+  flowering_azalea: Цветајућа азалеја
   dead_bush: Увенули жбун
   seagrass: Морска трава
   sea_pickle: Морски краставац
-  piston: Клип
   white_wool: Бела вуна
   orange_wool: Наранџаста вуна
   magenta_wool: Магента вуна
   light_blue_wool: Светло плава вуна
   yellow_wool: Жута вуна
-  lime_wool: Светло зелена вуна
+  lime_wool: Лимунзелена вуна
   pink_wool: Розе вуна
   gray_wool: Сива вуна
   light_gray_wool: Светлосива вуна
-  cyan_wool: Цијан вуна
+  cyan_wool: Тиркизна вуна
   purple_wool: Љубичаста вуна
   blue_wool: Плава вуна
   brown_wool: Браон вуна
@@ -121,7 +184,7 @@ material:
   poppy: Мак
   blue_orchid: Плава oрхидеја
   allium: Лук
-  azure_bluet: Плава хустонија
+  azure_bluet: Плави Дивљоцвет
   red_tulip: Црвена лала
   orange_tulip: Наранџаста лала
   white_tulip: Бела лала
@@ -130,6 +193,7 @@ material:
   cornflower: Различак
   lily_of_the_valley: Ђурђевак
   wither_rose: Видер ружа
+  spore_blossom: Пупољак споре
   brown_mushroom: Браон печурка
   red_mushroom: Црвена печурка
   crimson_fungus: Гримизна гљива
@@ -141,13 +205,16 @@ material:
   twisting_vines: Уврнуте лијане
   sugar_cane: Шећерна трска
   kelp: Келп
+  moss_carpet: Тепих од маховине
+  moss_block: Блок маховине
+  hanging_roots: Висеће корење
+  big_dripleaf: Велики кап-лист
+  small_dripleaf: Мали кап-лист
   bamboo: Бамбус
-  gold_block: Златни блок
-  iron_block: Гвоздени блок
   oak_slab: Храстова плоча
   spruce_slab: Плоча од смреке
   birch_slab: Плоча од брезе
-  jungle_slab: Плоча од дрвета из џунгле
+  jungle_slab: Плоча од прашумског дрвета
   acacia_slab: Плоча багрема
   dark_oak_slab: Плоча тамног храста
   crimson_slab: Гримизна плоча
@@ -159,21 +226,20 @@ material:
   petrified_oak_slab: Окамењена храстова плоча
   cobblestone_slab: Плоча од калдрме
   brick_slab: Циглена плоча
-  stone_brick_slab: Плоча од камених цигала
+  stone_brick_slab: Плоча од камених цигли
   nether_brick_slab: Недер циглена плоча
   quartz_slab: Плочник од кварца
   red_sandstone_slab: Плоча црвеног пешчара
   cut_red_sandstone_slab: Плоча црвеног сеченог пешчара
   purpur_slab: Пурпур плоча
   prismarine_slab: Плоча призмарина
-  prismarine_brick_slab: Плоча призмаринске цигле
+  prismarine_brick_slab: Плоча од призмаринских цигли
   dark_prismarine_slab: Тамна плоча призмарина
   smooth_quartz: Гладак блок кварца
   smooth_red_sandstone: Гладак црвени пешкар
   smooth_sandstone: Гладак пешчар
   smooth_stone: Гладак камен
   bricks: Цигле
-  tnt: Динамит
   bookshelf: Полица за књиге
   mossy_cobblestone: Калдрма са маховином
   obsidian: Обсидијан
@@ -187,27 +253,11 @@ material:
   spawner: Стварач
   oak_stairs: Храстове степенице
   chest: Ковчег
-  diamond_ore: Руда дијаманта
-  diamond_block: Дијамантски блок
   crafting_table: Занатски сто
-  farmland: Ораница
+  farmland: Обрадиво поље
   furnace: Пећница
   ladder: Мердевине
-  rail: Пруга
   cobblestone_stairs: Степенице од калдрме
-  lever: Полуга
-  stone_pressure_plate: Камена потисна плоча
-  oak_pressure_plate: Потисна плоча тамног храста
-  spruce_pressure_plate: Потисна плоча од смреке
-  birch_pressure_plate: Потисна плоча од брезе
-  jungle_pressure_plate: Потисна плоча дрвета џунгле
-  acacia_pressure_plate: Потисна плоча багрема
-  dark_oak_pressure_plate: Потисна плоча тамног храста
-  crimson_pressure_plate: Гримизна потисна плоча
-  warped_pressure_plate: Изопачена потисна плоча
-  polished_blackstone_pressure_plate: Потисна плоча од изгланчане црне калдрме
-  redstone_ore: Редстоун руда
-  redstone_torch: Редстоун бакља
   snow: Снег
   ice: Лед
   snow_block: Снежни блок
@@ -217,136 +267,110 @@ material:
   oak_fence: Ограда од храста
   spruce_fence: Ограда од смреке
   birch_fence: Ограда од брезе
-  jungle_fence: Ограда од дрвета џунгле
+  jungle_fence: Ограда од прашумског дрвета
   acacia_fence: Ограда од багрема
   dark_oak_fence: Ограда од тамног храста
   crimson_fence: Гримизна ограда
   warped_fence: Изопачена ограда
   pumpkin: Бундева
   carved_pumpkin: Урезана бундева
+  jack_o_lantern: Светлећа бундева
   netherrack: Недер камен
   soul_sand: Песак душа
   soul_soil: Душевно тло
   basalt: Базалт
-  polished_basalt: Изгланчан базалт
+  polished_basalt: Углачани базалт
+  smooth_basalt: Глатки базалт
   soul_torch: Бакља душа
   glowstone: Жаркамен
-  jack_o_lantern: Светлећа бундева
-  oak_trapdoor: Окно од храстовине
-  spruce_trapdoor: Окно од смреке
-  birch_trapdoor: Окно од брезе
-  jungle_trapdoor: Окно од дрвета џунгле
-  acacia_trapdoor: Окно од багрема
-  dark_oak_trapdoor: Окно од тамне храстовине
-  crimson_trapdoor: Гримизно окно
-  warped_trapdoor: Изопачено окно
   infested_stone: Заражени камен
   infested_cobblestone: Заражена калдрма
   infested_stone_bricks: Заражене камене цигле
-  infested_mossy_stone_bricks: Заражене камене цигле са маховином
+  infested_mossy_stone_bricks: Заражене камене цигле прекривене маховином
   infested_cracked_stone_bricks: Заражене напукле камене цигле
   infested_chiseled_stone_bricks: Заражене исклесане камене цигле
+  infested_deepslate: Заражен шкриљац
   stone_bricks: Камене цигле
-  mossy_stone_bricks: Камене цигле са маховином
+  mossy_stone_bricks: Камене цигле прекривене маховином
   cracked_stone_bricks: Напукле камене цигле
   chiseled_stone_bricks: Исклесане камене цигле
-  brown_mushroom_block: Браон блок печурке
-  red_mushroom_block: Црвени блок печурке
+  deepslate_bricks: Шкриљасте цигле
+  cracked_deepslate_bricks: Напукле шкриљасте цигле
+  deepslate_tiles: Шкриљасте плочице
+  cracked_deepslate_tiles: Напукле шкриљасте плочице
+  chiseled_deepslate: Исклесан шкриљац
+  brown_mushroom_block: Блок браон печурке
+  red_mushroom_block: Блок црвене печурке
   mushroom_stem: Стабљика печурке
   iron_bars: Гвоздене решетке
   chain: Ланац
   glass_pane: Стаклена плоча
   melon: Лубеница
   vine: Лијане
-  oak_fence_gate: Капија од храста
-  spruce_fence_gate: Капија од смреке
-  birch_fence_gate: Капија од брезовине
-  jungle_fence_gate: Капија од дрвета џунгле
-  acacia_fence_gate: Капија од багрема
-  dark_oak_fence_gate: Капија тамне храстовине
-  crimson_fence_gate: Гримизна капија
-  warped_fence_gate: Изопачена капија
+  glow_lichen: Светлећи лишајеви
   brick_stairs: Циглене степенице
   stone_brick_stairs: Степенице од камене цигле
   mycelium: Мицелијум
   lily_pad: Локвањ
   nether_bricks: Недер циглe
-  cracked_nether_bricks: Напукле недер цигле
-  chiseled_nether_bricks: Исклесане недер цигле
-  nether_brick_fence: Ограда од недер цигле
-  nether_brick_stairs: Степенице од недер цигле
+  cracked_nether_bricks: Напукле Недер цигле
+  chiseled_nether_bricks: Исклесане Недер цигле
+  nether_brick_fence: Ограда од Недер цигли
+  nether_brick_stairs: Степенице од Недер цигли
   enchanting_table: Сто за чарање
   end_portal_frame: Рам од Енд портала
   end_stone: Енд камен
-  end_stone_bricks: Енд камен цигле
+  end_stone_bricks: Енд камене цигле
   dragon_egg: Змајево јаје
-  redstone_lamp: Редстоун лампа
   sandstone_stairs: Степенице од пешчара
-  emerald_ore: Руда смарагда
-  ender_chest: Ендер ковчег
-  tripwire_hook: Кука за нагазну жицу
+  ender_chest: Ендер Ковчег
   emerald_block: Блок смарагда
   spruce_stairs: Степенице од смреке
   birch_stairs: Степенице од брезе
-  jungle_stairs: Степенице од дрвета из џунгле
+  jungle_stairs: Степенице од прашумског дрвета
   crimson_stairs: Гримизне степенице
   warped_stairs: Изопачене степенице
   command_block: Командни блок
   beacon: Светионик
   cobblestone_wall: Зид од калдрме
   mossy_cobblestone_wall: Зид од калдрме са маховином
-  brick_wall: Циглани зид
+  brick_wall: Циглени зид
   prismarine_wall: Зид од призмарина
   red_sandstone_wall: Зид од црвеног пешчара
-  mossy_stone_brick_wall: Зид од камених цигла са маховином
+  mossy_stone_brick_wall: Зид од камених цигли са маховином
   granite_wall: Зид од гранита
   stone_brick_wall: Зид од камених цигли
-  nether_brick_wall: Зид од цигала из Недера
+  nether_brick_wall: Зид од цигли из Недера
   andesite_wall: Зид од андезита
-  red_nether_brick_wall: Зид од црвених цигала из Недера
+  red_nether_brick_wall: Зид од црвених цигли из Недера
   sandstone_wall: Зид од пешчара
-  end_stone_brick_wall: Зид од камених Енд цигала
+  end_stone_brick_wall: Зид од камених Енд цигли
   diorite_wall: Зид од диорита
   blackstone_wall: Зид од црне калдрме
-  polished_blackstone_wall: Зид од изгланчане црне калдрме
-  polished_blackstone_brick_wall: Изгланчани зид од цигала црне калдрме
-  stone_button: Камено дугме
-  oak_button: Храстово дугме
-  spruce_button: Дугме од смреке
-  birch_button: Дугме од брезе
-  jungle_button: Дугме од дрвета џунгле
-  acacia_button: Дугме од багрема
-  dark_oak_button: Дугме од тамног храста
-  crimson_button: Гримизно дугме
-  warped_button: Изопачено дугме
-  polished_blackstone_button: Дугме од изгланчане црне калдрме
+  polished_blackstone_wall: Зид од углачане црне калдрме
+  polished_blackstone_brick_wall: Углачани зид од цигала црне калдрме
+  cobbled_deepslate_wall: Зид од калдрмисаног шкриљца
+  polished_deepslate_wall: Зид полираног шкриљца
+  deepslate_brick_wall: Зид од шкриљастих цигли
+  deepslate_tile_wall: Зид од шкриљастих плочица
   anvil: Наковањ
   chipped_anvil: Окрњен наковањ
   damaged_anvil: Oштећен наковањ
-  trapped_chest: Ковчег са замком
-  light_weighted_pressure_plate: Лака потисна плоча
-  heavy_weighted_pressure_plate: Тешка потисна плоча
-  daylight_detector: Сензор за сунчеву светлост
-  redstone_block: Блок редстоуна
-  nether_quartz_ore: Руда недер кварца
-  hopper: Левак
   chiseled_quartz_block: Исклесани кварц
   quartz_block: Блок кварца
   quartz_bricks: Цигле од кварца
   quartz_pillar: Стуб од кварца
   quartz_stairs: Степенице од кварца
-  activator_rail: Пруга активатор
-  dropper: Избацивач
   white_terracotta: Бела теракота
   orange_terracotta: Наранџаста теракота
-  magenta_terracotta: Пурпурноцрвена теракота
+  magenta_terracotta: Магента теракота
   light_blue_terracotta: Светло плава теракота
   yellow_terracotta: Жута теракота
   lime_terracotta: Светло зелена теракота
   pink_terracotta: Розе теракота
   gray_terracotta: Сива теракота
   light_gray_terracotta: Светло сива теракота
-  cyan_terracotta: Цијан теракота
+  cyan_terracotta: Тиркизна теракота
   purple_terracotta: Љубичаста теракота
   blue_terracotta: Плава теракота
   brown_terracotta: Браон теракота
@@ -354,7 +378,7 @@ material:
   red_terracotta: Црвена теракота
   black_terracotta: Црна теракота
   barrier: Препрека
-  iron_trapdoor: Гвоздено окно
+  light: Светло
   hay_block: Бала сена
   white_carpet: Бели тепих
   orange_carpet: Наранџасти тепих
@@ -365,7 +389,7 @@ material:
   pink_carpet: Розе тепих
   gray_carpet: Сиви тепих
   light_gray_carpet: Светло сиви тепих
-  cyan_carpet: Цијан тепих
+  cyan_carpet: Тиркизни тепих
   purple_carpet: Љубичасти тепих
   blue_carpet: Плави тепих
   brown_carpet: Браон тепих
@@ -373,12 +397,10 @@ material:
   red_carpet: Црвени тепих
   black_carpet: Црни тепих
   terracotta: Теракота
-  coal_block: Блок угља
   packed_ice: Дебели лед
   acacia_stairs: Степенице багремовог дрвета
   dark_oak_stairs: Степенице тамног храста
-  slime_block: Блок слузи
-  grass_path: Травната путања
+  dirt_path: Земљани пут
   sunflower: Сунцокрет
   lilac: Јоргован
   rose_bush: Жбун ружа
@@ -394,7 +416,7 @@ material:
   pink_stained_glass: Розе обојено стакло
   gray_stained_glass: Сиво обојено стакло
   light_gray_stained_glass: Светло сиво обојено стакло
-  cyan_stained_glass: Цијан обојено стакло
+  cyan_stained_glass: Тиркизно обојено стакло
   purple_stained_glass: Љубичасто обојено стакло
   blue_stained_glass: Плаво обојено стакло
   brown_stained_glass: Враон обојено стакло
@@ -410,7 +432,7 @@ material:
   pink_stained_glass_pane: Розе стаклена плоча
   gray_stained_glass_pane: Сива стаклена плоча
   light_gray_stained_glass_pane: Светло сива стаклена плоча
-  cyan_stained_glass_pane: Цијан стаклена плоча
+  cyan_stained_glass_pane: Тиркизна стаклена плоча
   purple_stained_glass_pane: Љубичаста стаклена плоча
   blue_stained_glass_pane: Плава стаклена плоча
   brown_stained_glass_pane: Браон стаклена плоча
@@ -421,7 +443,7 @@ material:
   prismarine_bricks: Блок призмарина
   dark_prismarine: Тамни призмарин
   prismarine_stairs: Cтепенице призмарина
-  prismarine_brick_stairs: Степенице призмаринске цигле
+  prismarine_brick_stairs: Степенице од призмаринских цигли
   dark_prismarine_stairs: Тамне степенице призмарина
   sea_lantern: Морски фењер
   red_sandstone: Црвени пешчар
@@ -429,25 +451,24 @@ material:
   cut_red_sandstone: Сечени црвени пешчар
   red_sandstone_stairs: Степенице црвеног пешчара
   repeating_command_block: Понављајући командни блок
-  chain_command_block: Везни командни блок
+  chain_command_block: Надовезујући командни блок
   magma_block: Блок магме
-  nether_wart_block: Недер лишај
+  nether_wart_block: Блок Недер лишаја
   warped_wart_block: Изопачени Блок од Лишајева
-  red_nether_bricks: Црвене недер цигле
+  red_nether_bricks: Црвене Недер цигле
   bone_block: Блок од костију
   structure_void: Структурна празнина
-  observer: Посматрач
-  shulker_box: Шулкер кутија
+  shulker_box: Шулкер Кутија
   white_shulker_box: Бела Шулкер кутија
   orange_shulker_box: Наранџаста Шулкер кутија
-  magenta_shulker_box: Пурпурноцрвена Шулкер кутија
+  magenta_shulker_box: Магента Шулкер кутија
   light_blue_shulker_box: Светло плава Шулкер кутија
   yellow_shulker_box: Жута Шулкер кутија
   lime_shulker_box: Светло зелена Шулкер кутија
   pink_shulker_box: Роза Шулкер кутија
   gray_shulker_box: Сива Шулкер кутија
   light_gray_shulker_box: Светло сива Шулкер кутија
-  cyan_shulker_box: Цијан Шулкер кутија
+  cyan_shulker_box: Тиркизна Шулкер кутија
   purple_shulker_box: Љубичаста Шулкер кутија
   blue_shulker_box: Тамно плава Шулкер кутија
   brown_shulker_box: Браон Шулкер кутија
@@ -456,14 +477,14 @@ material:
   black_shulker_box: Црна Шулкер кутија
   white_glazed_terracotta: Теракота са глазуром беле
   orange_glazed_terracotta: Теракота са глазуром наранџасте
-  magenta_glazed_terracotta: Теракота са глазуром Пурпурноцрвене
+  magenta_glazed_terracotta: Теракота са магента глазуром
   light_blue_glazed_terracotta: Теракота са глазуром светло беле
   yellow_glazed_terracotta: Теракота са глазуром жуте
-  lime_glazed_terracotta: Теракота са глазуром светло зелене
-  pink_glazed_terracotta: Теракота са пинк глазуром
+  lime_glazed_terracotta: Теракота са глазуром светлозелене
+  pink_glazed_terracotta: Теракота са розе глазуром
   gray_glazed_terracotta: Теракота са глазуром сиве
   light_gray_glazed_terracotta: Теракота са глазуром светло сиве
-  cyan_glazed_terracotta: Теракота са цијан глазуром
+  cyan_glazed_terracotta: Теракота са глазуром тиркизне
   purple_glazed_terracotta: Теракота са глазуром љубичасте
   blue_glazed_terracotta: Теракота са глазуром плаве
   brown_glazed_terracotta: Теракота са глазуром браон
@@ -479,7 +500,7 @@ material:
   pink_concrete: Розе бетон
   gray_concrete: Сиви бетон
   light_gray_concrete: Светло сиви бетон
-  cyan_concrete: Цијан бетон
+  cyan_concrete: Тиркизни бетон
   purple_concrete: Љубичасти бетон
   blue_concrete: Плави бетон
   brown_concrete: Браон бетон
@@ -488,14 +509,14 @@ material:
   black_concrete: Црни бетон
   white_concrete_powder: Бели бетон у праху
   orange_concrete_powder: Наранџасти бетон у праху
-  magenta_concrete_powder: Пурпурноцрвен бетон у праху
+  magenta_concrete_powder: Магента бетон у праху
   light_blue_concrete_powder: Светло плави бетон у праху
   yellow_concrete_powder: Жути бетон у праху
   lime_concrete_powder: Светло зелени бетон у праху
-  pink_concrete_powder: Пинк бетон у праху
+  pink_concrete_powder: Розе бетон у праху
   gray_concrete_powder: Сиви бетон у праху
   light_gray_concrete_powder: Светло сиви бетон у праху
-  cyan_concrete_powder: Цијан бетон у праху
+  cyan_concrete_powder: Тиркизни бетон у праху
   purple_concrete_powder: Љубичасти бетон у праху
   blue_concrete_powder: Плави бетон у праху
   brown_concrete_powder: Браон бетон у праху
@@ -531,52 +552,140 @@ material:
   dead_tube_coral_fan: Мртва цеваста корална лепеза
   dead_brain_coral_fan: Мртва наборана корална лепеза
   dead_bubble_coral_fan: Мртва мехураста корална лепеза
-  dead_fire_coral_fan: Мртва ватрена корална лепеза
-  dead_horn_coral_fan: Мртва рогаста корална лепеза
+  dead_fire_coral_fan: Мртва Ватрена Корална Лепеза
+  dead_horn_coral_fan: Мртва Рогаста Корална Лепеза
   blue_ice: Плави лед
   conduit: Цевовод
-  polished_granite_stairs: Глатке степенице од гранита
+  polished_granite_stairs: Углачане степенице од гранита
   smooth_red_sandstone_stairs: Глатке степенице од црвеног пешчара
-  mossy_stone_brick_stairs: Степенице од цигла са маховином
-  polished_diorite_stairs: Глатке степенице од диорита
+  mossy_stone_brick_stairs: Степенице од цигли са маховином
+  polished_diorite_stairs: Углачане степенице од диорита
   mossy_cobblestone_stairs: Степенице од камења са маховином
-  end_stone_brick_stairs: Степенице од камених Енд цигала
+  end_stone_brick_stairs: Степенице од камених Енд цигли
   stone_stairs: Степенице од камења
-  smooth_sandstone_stairs: Глатке степенице од пешчара
-  smooth_quartz_stairs: Глатке степенице од кварца
+  smooth_sandstone_stairs: Глатке Степенице од Пешчара
+  smooth_quartz_stairs: Глатке Степенице од Кварца
   granite_stairs: Степенице од гранита
-  andesite_stairs: Степенице од андезита
-  red_nether_brick_stairs: Степенице од црвених цигла из недера
-  polished_andesite_stairs: Глатке степенице од андезита
+  andesite_stairs: Степенице од Андезита
+  red_nether_brick_stairs: Степенице од црвених Недер цигли
+  polished_andesite_stairs: Углачане степенице од андезита
   diorite_stairs: Степенице од диорита
-  polished_granite_slab: Глатка Плоча од Гранита
-  smooth_red_sandstone_slab: Глатка Плоча од Црвеног Пешчара
+  cobbled_deepslate_stairs: Степенице калдрмисаног шкриљца
+  polished_deepslate_stairs: Степенице полираног шкриљца
+  deepslate_brick_stairs: Степенице од шкриљастих цигли
+  deepslate_tile_stairs: Степенице од шкриљастих плочица
+  polished_granite_slab: Углачана плоча од гранита
+  smooth_red_sandstone_slab: Глатка плоча од црвеног пешчара
   mossy_stone_brick_slab: Плоче од камења са маховином
-  polished_diorite_slab: Глатка Плоча од Диорита
+  polished_diorite_slab: Углачана плоча од диорита
   mossy_cobblestone_slab: Плоча од камена са маховином
-  end_stone_brick_slab: Плоча од камених Енд цигала
-  smooth_sandstone_slab: Глатка Плоча од Пешчара
-  smooth_quartz_slab: Глатка Плоча од Кварца
-  granite_slab: Плоча од Гранита
-  andesite_slab: Плота од Андезита
-  red_nether_brick_slab: Плоча од Црвених Цигла из Недера
-  polished_andesite_slab: Глатка Плоча од Андезита
-  diorite_slab: Плоча од Диорита
+  end_stone_brick_slab: Плоча од камених Енд цигли
+  smooth_sandstone_slab: Глатка плоча од пешчара
+  smooth_quartz_slab: Глатка плоча од кварца
+  granite_slab: Плоча од гранита
+  andesite_slab: Плота од андезита
+  red_nether_brick_slab: Плоча од црвених цигли из Недера
+  polished_andesite_slab: Углачана плоча од андезита
+  diorite_slab: Плоча од диорита
+  cobbled_deepslate_slab: Плоча калдрмисаног шкриљца
+  polished_deepslate_slab: Плоча полираног шкриљца
+  deepslate_brick_slab: Плоча од шкриљастих цигли
+  deepslate_tile_slab: Плоча од шкриљастих плочица
   scaffolding: Скеле
+  redstone: Редстоун прах
+  redstone_torch: Редстоун бакља
+  redstone_block: Блок редстоуна
+  repeater: Редстоун појачивач
+  comparator: Редстоун компаратор
+  piston: Клип
+  sticky_piston: Лепљиви клип
+  slime_block: Блок слузи
+  honey_block: Блок меда
+  observer: Посматрач
+  hopper: Левак
+  dispenser: Аутомат
+  dropper: Избацивач
+  lectern: Наслон за читање
+  target: Мета
+  lever: Полуга
+  lightning_rod: Громобран
+  daylight_detector: Сензор за сунчеву светлост
+  sculk_sensor: Скалк сензор
+  tripwire_hook: Кука за нагазну жицу
+  trapped_chest: Ковчег са замком
+  tnt: Динамит
+  redstone_lamp: Редстоун лампа
+  note_block: Музички блок
+  stone_button: Камено дугме
+  polished_blackstone_button: Дугме од углачане црне калдрме
+  oak_button: Храстово дугме
+  spruce_button: Дугме од смреке
+  birch_button: Дугме од брезе
+  jungle_button: Дугме од прашумског дрвета
+  acacia_button: Дугме од багрема
+  dark_oak_button: Дугме од тамног храста
+  crimson_button: Гримизно дугме
+  warped_button: Изопачено дугме
+  stone_pressure_plate: Камена потисна плоча
+  polished_blackstone_pressure_plate: Потисна плоча од углачане црне калдрме
+  light_weighted_pressure_plate: Лака потисна плоча
+  heavy_weighted_pressure_plate: Тешка потисна плоча
+  oak_pressure_plate: Потисна плоча тамног храста
+  spruce_pressure_plate: Потисна плоча од смреке
+  birch_pressure_plate: Потисна плоча од брезе
+  jungle_pressure_plate: Потисна плоча од прашумског дрвета
+  acacia_pressure_plate: Потисна плоча багрема
+  dark_oak_pressure_plate: Потисна плоча тамног храста
+  crimson_pressure_plate: Гримизна потисна плоча
+  warped_pressure_plate: Изопачена потисна плоча
   iron_door: Гвоздена врата
   oak_door: Врата од храстовине
   spruce_door: Врата од смреке
   birch_door: Врата од брезовине
-  jungle_door: Врата дрвета џунгле
+  jungle_door: Врата од прашумског дрвета
   acacia_door: Врата од багрема
   dark_oak_door: Врата од тамне храстовине
   crimson_door: Гримизна врата
   warped_door: Изопачена врата
-  repeater: Редстоун појачивач
-  comparator: Редстоун компаратор
+  iron_trapdoor: Гвоздено окно
+  oak_trapdoor: Окно од храстовине
+  spruce_trapdoor: Окно од смреке
+  birch_trapdoor: Окно од брезе
+  jungle_trapdoor: Окно од прашумског дрвета
+  acacia_trapdoor: Окно од багрема
+  dark_oak_trapdoor: Окно од тамне храстовине
+  crimson_trapdoor: Гримизно окно
+  warped_trapdoor: Изопачено окно
+  oak_fence_gate: Капија од храста
+  spruce_fence_gate: Капија од смреке
+  birch_fence_gate: Капија од брезовине
+  jungle_fence_gate: Капија од прашумског дрвета
+  acacia_fence_gate: Капија од багрема
+  dark_oak_fence_gate: Капија тамне храстовине
+  crimson_fence_gate: Гримизна капија
+  warped_fence_gate: Изопачена капија
+  powered_rail: Пруга под напоном
+  detector_rail: Пруга са сензором
+  rail: Пруга
+  activator_rail: Пруга са активатором
+  saddle: Седло
+  minecart: Рударска колица
+  chest_minecart: Колица са ковчегом
+  furnace_minecart: Колица са пећницом
+  tnt_minecart: Колица са динамитом
+  hopper_minecart: Колица са левком
+  carrot_on_a_stick: Шаргарепа на штапу
+  warped_fungus_on_a_stick: Изопачена гљива на штапу
+  elytra: Крила
+  oak_boat: Чамац од храста
+  spruce_boat: Чамац од смреке
+  birch_boat: Чамац од брезе
+  jungle_boat: Чамац од прашумског дрвета
+  acacia_boat: Чамац од багрема
+  dark_oak_boat: Чамац од тамног храста
   structure_block: Структурни блок
   jigsaw: Блок слагалица
-  turtle_helmet: Оклоп Корњаче
+  turtle_helmet: Корњачин оклоп
   scute: Скута
   flint_and_steel: Кремен и челик
   apple: Јабука
@@ -585,10 +694,18 @@ material:
   coal: Угаљ
   charcoal: Дрвени угаљ
   diamond: Дијамант
+  emerald: Смарагд
+  lapis_lazuli: Лапис лазули
+  quartz: Недер кварц
+  amethyst_shard: Крхотина аметиста
+  raw_iron: Сирово гвожђе
   iron_ingot: Гвоздена полуга
+  raw_copper: Сирови бакар
+  copper_ingot: Бакарна полуга
+  raw_gold: Сирово злато
   gold_ingot: Златна полуга
   netherite_ingot: Недерит полуга
-  netherite_scrap: Одломак недерита
+  netherite_scrap: Одломак Недерита
   wooden_sword: Дрвени мач
   wooden_shovel: Дрвена лопата
   wooden_pickaxe: Дрвени крамп
@@ -614,11 +731,11 @@ material:
   diamond_pickaxe: Дијамантски крамп
   diamond_axe: Дијамантска секира
   diamond_hoe: Дијамантска мотика
-  netherite_sword: Недеритски Мач
-  netherite_shovel: Недеритска Лопата
-  netherite_pickaxe: Недеритски Крамп
-  netherite_axe: Недеритска Секира
-  netherite_hoe: Недеритска Мотика
+  netherite_sword: Недеритски мач
+  netherite_shovel: Недеритска лопата
+  netherite_pickaxe: Недеритски крамп
+  netherite_axe: Недеритска секира
+  netherite_hoe: Недеритска мотика
   stick: Штап
   bowl: Чинија
   mushroom_stew: Паприкаш од печурака
@@ -637,15 +754,15 @@ material:
   chainmail_leggings: Верижне ногавице
   chainmail_boots: Верижне чизме
   iron_helmet: Гвоздени шлем
-  iron_chestplate: Гвоздени нагрудник
+  iron_chestplate: Гвоздени оклоп
   iron_leggings: Гвоздене панталоне
   iron_boots: Гвоздене чизме
   diamond_helmet: Дијамантски шлем
-  diamond_chestplate: Дијамантски нагрудник
+  diamond_chestplate: Дијамантски оклоп
   diamond_leggings: Дијамантске панталоне
   diamond_boots: Дијамантске чизме
   golden_helmet: Златни шлем
-  golden_chestplate: Златни нагрудник
+  golden_chestplate: Златни оклоп
   golden_leggings: Златне панталоне
   golden_boots: Златне чизме
   netherite_helmet: Недеритска кацига
@@ -657,62 +774,60 @@ material:
   cooked_porkchop: Печена крменадла
   painting: Слика
   golden_apple: Златна јабука
-  enchanted_golden_apple: Очарана златна јабука
+  enchanted_golden_apple: Зачарана златна јабука
   oak_sign: Знак од храста
-  spruce_sign: Знак од Смреке
-  birch_sign: Знак од Брезе
-  jungle_sign: Знак од дрвета из џунгле
-  acacia_sign: Знак од Акација
-  dark_oak_sign: Знак од Мрачног Храста
+  spruce_sign: Знак од смреке
+  birch_sign: Знак од брезе
+  jungle_sign: Знак од прашумског дрвета
+  acacia_sign: Знак од акације
+  dark_oak_sign: Знак од тамног храста
   crimson_sign: Гримизни знак
   warped_sign: Изопачени знак
   bucket: Кофа
   water_bucket: Кофа са водом
   lava_bucket: Кофа са лавом
-  minecart: Рударска колица
-  saddle: Седло
-  redstone: Редстоун прах
+  powder_snow_bucket: Кофа са снегом у праху
   snowball: Грудва
-  oak_boat: Чамац од храста
   leather: Кожа
   milk_bucket: Чаше млека
   pufferfish_bucket: Канта Фугу рибе
   salmon_bucket: Кофа лососа
   cod_bucket: Кофа бакалара
   tropical_fish_bucket: Канта с тропском рибом
+  axolotl_bucket: Кофа аксолотла
   brick: Цигла
   clay_ball: Глинена лопта
   dried_kelp_block: Осушени блок морских алги
   paper: Папир
   book: Књига
   slime_ball: Лопта од слузи
-  chest_minecart: Колица са ковчегом
-  furnace_minecart: Колица са пећницом
   egg: Jaje
   compass: Компас
+  bundle: Свежањ
   fishing_rod: Штап за пецање
   clock: Сат
+  spyglass: Дурбин
   glowstone_dust: Прах жаркамена
   cod: Сиров бакалар
   salmon: Сирови лосос
   tropical_fish: Тропска риба
   pufferfish: Фугу риба
-  cooked_cod: Кувани бакалар
+  cooked_cod: Кувани Бакалар
   cooked_salmon: Куван лосос
-  ink_sac: Врећица с мастилом
+  ink_sac: Врећица са мастилом
+  glow_ink_sac: Светлећа врећица са мастилом
   cocoa_beans: Какао зрневље
-  lapis_lazuli: Лапис Лазули
   white_dye: Бела боја
-  orange_dye: Наранџасти пигмент
-  magenta_dye: Магента пигмент
-  light_blue_dye: Светло плави пигмент
+  orange_dye: Наранџаста боја
+  magenta_dye: Магента боја
+  light_blue_dye: Светло плава боја
   yellow_dye: Жута боја
-  lime_dye: Светло зелени пигмент
-  pink_dye: Розе пигмент
-  gray_dye: Сиви пигмент
-  light_gray_dye: Светло сиви пигмент
-  cyan_dye: Цијан пигмент
-  purple_dye: Љубичасти пигмент
+  lime_dye: Светло зелена боја
+  pink_dye: Розе боја
+  gray_dye: Сива боја
+  light_gray_dye: Светло сива боја
+  cyan_dye: Тиркизна боја
+  purple_dye: Љубичаста боја
   blue_dye: Плава боја
   brown_dye: Браон боја
   green_dye: Зелена боја
@@ -731,7 +846,7 @@ material:
   pink_bed: Розе кревет
   gray_bed: Сив кревет
   light_gray_bed: Светло сив кревет
-  cyan_bed: Цијан кревет
+  cyan_bed: Тиркизни кревет
   purple_bed: Љубичаст кревет
   blue_bed: Плав кревет
   brown_bed: Браон кревет
@@ -750,7 +865,7 @@ material:
   chicken: Сирова пилетина
   cooked_chicken: Печено пиле
   rotten_flesh: Труло месо
-  ender_pearl: Ендер Бисер
+  ender_pearl: Ендер бисер
   blaze_rod: Пламен-штап
   ghast_tear: Гаст суза
   gold_nugget: Грумен злата
@@ -765,28 +880,31 @@ material:
   cauldron: Котао
   ender_eye: Око Ендера
   glistering_melon_slice: Светлуцава кришка лубенице
+  axolotl_spawn_egg: Јаје аксолотла
   bat_spawn_egg: Јаје слепог миша
   bee_spawn_egg: Јаје пчеле
   blaze_spawn_egg: Јаје ватреног
-  cat_spawn_egg: Јаје Мачке
+  cat_spawn_egg: Јаје мачке
   cave_spider_spawn_egg: Јаје пећинског паука
   chicken_spawn_egg: Јаје кокошке
   cod_spawn_egg: Јаје бакалара
   cow_spawn_egg: Јаје краве
-  creeper_spawn_egg: Јаје Крипера
+  creeper_spawn_egg: Јаје крипера
   dolphin_spawn_egg: Јаје делфина
   donkey_spawn_egg: Јаје магарца
   drowned_spawn_egg: Јаје удављеног
   elder_guardian_spawn_egg: Јаје старог чувара
   enderman_spawn_egg: Јаје ендермена
-  endermite_spawn_egg: Јаје ендермајта
+  endermite_spawn_egg: Јаје ендермита
   evoker_spawn_egg: Јаје призиватеља
   fox_spawn_egg: Јаје лисице
   ghast_spawn_egg: Јаје Гаста
+  glow_squid_spawn_egg: Јаје светлеће лигње
+  goat_spawn_egg: Јаје козе
   guardian_spawn_egg: Јаје чувара
   hoglin_spawn_egg: Јаје хоглина
   horse_spawn_egg: Јаје коња
-  husk_spawn_egg: Јаје пустињског зомбија
+  husk_spawn_egg: Јаје љуске
   llama_spawn_egg: Јаје ламе
   magma_cube_spawn_egg: Јаје коцке магме
   mooshroom_spawn_egg: Јаје мушрума
@@ -796,16 +914,16 @@ material:
   parrot_spawn_egg: Јаје папагаја
   phantom_spawn_egg: Јаје фантома
   pig_spawn_egg: Јаје свиње
-  piglin_spawn_egg: Инкарнатор праслина
-  piglin_brute_spawn_egg: Инкарнатор суровог праслина
+  piglin_spawn_egg: Јаје праслина
+  piglin_brute_spawn_egg: Јаје суровог праслина
   pillager_spawn_egg: Јаје разбојника
   polar_bear_spawn_egg: Јаје поларног медведа
-  pufferfish_spawn_egg: Јаје Фугу рибе
+  pufferfish_spawn_egg: Јаје фугу рибе
   rabbit_spawn_egg: Јаје зеца
   ravager_spawn_egg: Јаје разарача
   salmon_spawn_egg: Јаје лососа
   sheep_spawn_egg: Јаје овце
-  shulker_spawn_egg: Инкарнатор Шулкера
+  shulker_spawn_egg: Јаје шулкера
   silverfish_spawn_egg: Јаје сребрне рибе
   skeleton_spawn_egg: Јаје костура
   skeleton_horse_spawn_egg: Јаје костура коња
@@ -827,14 +945,14 @@ material:
   zoglin_spawn_egg: Јаје зоглина
   zombie_spawn_egg: Јаје зомбија
   zombie_horse_spawn_egg: Јаје зомби коња
-  zombie_villager_spawn_egg: Јаје сељака зомбија
+  zombie_villager_spawn_egg: Јаје зомби сељака
   zombified_piglin_spawn_egg: Јаје зомбификованог праслина
-  experience_bottle: Чаробна боца
+  experience_bottle: Боца за чини
   fire_charge: Ватрена лопта
   writable_book: Књига и перо
   written_book: Написана књига
-  emerald: Смарагд
   item_frame: Рам за предмет
+  glow_item_frame: Светлећи рам за предмете
   flower_pot: Саксија
   carrot: Шаргарепа
   potato: Кромпир
@@ -848,28 +966,23 @@ material:
   zombie_head: Глава зомбија
   creeper_head: Криперова глава
   dragon_head: Змајева глава
-  carrot_on_a_stick: Шаргарепа на штапу
-  warped_fungus_on_a_stick: Изопачена гљива на штапу
   nether_star: Недер звезда
   pumpkin_pie: Пита од бундеве
   firework_rocket: Ватрометска ракета
   firework_star: Ватрометска звезда
   enchanted_book: Зачарана књига
   nether_brick: Недер цигла
-  quartz: Недер кварц
-  tnt_minecart: Колица са динамитом
-  hopper_minecart: Колица са левком
   prismarine_shard: Крхотина призмарина
-  prismarine_crystals: Кристали призмарина
+  prismarine_crystals: Кристал призмарина
   rabbit: Сиров зец
   cooked_rabbit: Кувани зец
   rabbit_stew: Зечији паприкаш
   rabbit_foot: Зечија шапа
   rabbit_hide: Зечије крзно
   armor_stand: Постоље за оклоп
-  iron_horse_armor: Гвоздени оклоп за коња
+  iron_horse_armor: Гвоздени коњски оклоп
   golden_horse_armor: Златни коњски оклоп
-  diamond_horse_armor: Дијамантски оклоп за коња
+  diamond_horse_armor: Дијамантски коњски оклоп
   leather_horse_armor: Кожни коњски оклоп
   lead: Поводац
   name_tag: Етикета
@@ -885,7 +998,7 @@ material:
   pink_banner: Розе застава
   gray_banner: Сива застава
   light_gray_banner: Светло сива застава
-  cyan_banner: Цијан застава
+  cyan_banner: Тиркизна застава
   purple_banner: Љубичаста застава
   blue_banner: Плава застава
   brown_banner: Браон застава
@@ -894,7 +1007,7 @@ material:
   black_banner: Црна застава
   end_crystal: Енд кристал
   chorus_fruit: Хорус воћка
-  popped_chorus_fruit: Пукнуто хорус воће
+  popped_chorus_fruit: Напукло хорус воће
   beetroot: Цвекла
   beetroot_seeds: Семе цвекле
   beetroot_soup: Супа од цвекле
@@ -904,12 +1017,6 @@ material:
   tipped_arrow: Умочена стрела
   lingering_potion: Дугортајни напитак
   shield: Штит
-  elytra: Крила
-  spruce_boat: Чамац од смрче
-  birch_boat: Чамац од брезе
-  jungle_boat: Чамац од дрвета џунгле
-  acacia_boat: Чамац од багрема
-  dark_oak_boat: Чамац од тамног храста
   totem_of_undying: Тотем бесмрти
   shulker_shell: Шулкер љуска
   iron_nugget: Грумен гвожђа
@@ -929,18 +1036,18 @@ material:
   music_disc_wait: Музичка плоча
   music_disc_pigstep: Музичка плоча
   trident: Трозубац
-  phantom_membrane: Фантом Мембрана
-  nautilus_shell: Оклоп Наутилуса
-  heart_of_the_sea: Срце Мора
+  phantom_membrane: Фантом мембрана
+  nautilus_shell: Наутилус шкољка
+  heart_of_the_sea: Срце мора
   crossbow: Cамострел
   suspicious_stew: Сумњиви паприкаш
-  loom: Разбој
-  flower_banner_pattern: Шара заставе
-  creeper_banner_pattern: Шара заставе
-  skull_banner_pattern: Шара заставе
-  mojang_banner_pattern: Шара заставе
-  globe_banner_pattern: Шара заставе
-  piglin_banner_pattern: Шара Банера
+  loom: Радни сто за банере
+  flower_banner_pattern: Шара банера
+  creeper_banner_pattern: Шара банера
+  skull_banner_pattern: Шара банера
+  mojang_banner_pattern: Шара банера
+  globe_banner_pattern: Шара банера
+  piglin_banner_pattern: Шара банера
   composter: Компостер
   barrel: Буре
   smoker: Пушница
@@ -948,13 +1055,13 @@ material:
   cartography_table: Сто за картографију
   fletching_table: Стрељашки сто
   grindstone: Млински камен
-  lectern: Фењер
   smithing_table: Ковачки сто
-  stonecutter: Резач Камена
+  stonecutter: Резач камена
   bell: Звоно
   lantern: Фењер
   soul_lantern: Фењер душа
   sweet_berries: Слатке бобице
+  glow_berries: Светлеће бобице
   campfire: Логорска ватра
   soul_campfire: Душевна логорска ватра
   shroomlight: Светлопечурка
@@ -962,26 +1069,44 @@ material:
   bee_nest: Пчелино гнездо
   beehive: Кошница
   honey_bottle: Боца меда
-  honey_block: Блок меда
   honeycomb_block: Блок саћа
   lodestone: Магнетит
-  netherite_block: Блок недерита
-  ancient_debris: Древни остаци
-  target: Мета
   crying_obsidian: Плачући обсидијан
   blackstone: Црна калдрма
   blackstone_slab: Плоча од црне калдрме
   blackstone_stairs: Степенице од црне калдрме
   gilded_blackstone: Позлаћена црна калдрма
-  polished_blackstone: Изгланчана црна калдрма
-  polished_blackstone_slab: Плоча од изгланчане црне калдрме
-  polished_blackstone_stairs: Степенице од изгланчане црне калдрме
-  chiseled_polished_blackstone: Исклесана изгланчана црна калдрма
-  polished_blackstone_bricks: Изгланчане цигле од црне калдрме
-  polished_blackstone_brick_slab: Изгланчана плоча од цигала црне калдрме
-  polished_blackstone_brick_stairs: Изгланчане степенице од цигала црне калдрме
-  cracked_polished_blackstone_bricks: Напукле изгланчане цигле од црне калдрме
+  polished_blackstone: Углачана црна калдрма
+  polished_blackstone_slab: Плоча од углачане црне калдрме
+  polished_blackstone_stairs: Степенице од углачане црне калдрме
+  chiseled_polished_blackstone: Исклесана углачана црна калдрма
+  polished_blackstone_bricks: Углачане цигле од црне калдрме
+  polished_blackstone_brick_slab: Углачана плоча од цигала црне калдрме
+  polished_blackstone_brick_stairs: Углачане степенице од цигала црне калдрме
+  cracked_polished_blackstone_bricks: Напукле углачане цигле од црне калдрме
   respawn_anchor: Реинкарнационо сидро
+  candle: Свећа
+  white_candle: Бела свећа
+  orange_candle: Наранџaста свећа
+  magenta_candle: Магента свећа
+  light_blue_candle: Светло плава свећа
+  yellow_candle: Жута свећа
+  lime_candle: Светло зелена свећа
+  pink_candle: Розе свећа
+  gray_candle: Сива свећа
+  light_gray_candle: Светло сива свећа
+  cyan_candle: Тиркизна свећа
+  purple_candle: Љубичаста свећа
+  blue_candle: Плава свећа
+  brown_candle: Браон свећа
+  green_candle: Зелена свећа
+  red_candle: Црвена свећа
+  black_candle: Црна свећа
+  small_amethyst_bud: Мали пупољак аметиста
+  medium_amethyst_bud: Средњи пупољак аметиста
+  large_amethyst_bud: Велики пупољак аметиста
+  amethyst_cluster: Хрпа аметиста
+  pointed_dripstone: Шиљати капмен
   water: Вода
   lava: Лава
   tall_seagrass: Висока морска трава
@@ -990,12 +1115,12 @@ material:
   wall_torch: Зидна бакља
   fire: Ватра
   soul_fire: Душевна ватра
-  redstone_wire: Редстоун Жица
+  redstone_wire: Редстоун жица
   oak_wall_sign: Знак од храста за зид
   spruce_wall_sign: Знак од смреке за зид
   birch_wall_sign: Знак од брезе за зид
   acacia_wall_sign: Знак од акације за зид
-  jungle_wall_sign: Знак од дрвета из џунгле за зид
+  jungle_wall_sign: Знак од прашумског дрвета
   dark_oak_wall_sign: Знак од густог храста за зид
   redstone_wall_torch: Зидна редстоун бакља
   soul_wall_torch: Зидна бакља души
@@ -1004,13 +1129,16 @@ material:
   attached_melon_stem: Прикачена стабљика лубенице
   pumpkin_stem: Стабљика бундеве
   melon_stem: Стабљика лубенице
+  water_cauldron: Котао воде
+  lava_cauldron: Котао лаве
+  powder_snow_cauldron: Котао са снегом у праху
   end_portal: Енд портал
   cocoa: Какао
   tripwire: Нагазна жица
   potted_oak_sapling: Засађена младица храста
   potted_spruce_sapling: Засађена младица смреке
   potted_birch_sapling: Засађена младица брезе
-  potted_jungle_sapling: Засађена младица дрвета из џунгле
+  potted_jungle_sapling: Засађена младица прашумског дрвета
   potted_acacia_sapling: Засађена младица багрема
   potted_dark_oak_sapling: Засађена младица тамног храста
   potted_fern: Папрат у саксији
@@ -1048,7 +1176,7 @@ material:
   pink_wall_banner: Розе застава
   gray_wall_banner: Сива застава
   light_gray_wall_banner: Светло сива застава
-  cyan_wall_banner: Цијан застава
+  cyan_wall_banner: Тиркизна застава
   purple_wall_banner: Љубичаста застава
   blue_wall_banner: Плава застава
   brown_wall_banner: Браон застава
@@ -1058,14 +1186,14 @@ material:
   beetroots: Цвекла
   end_gateway: Капија Енда
   frosted_ice: Смрзнути лед
-  kelp_plant: Келп биљка
+  kelp_plant: Морске алге
   dead_tube_coral_wall_fan: Мртва цеваста корална зидна лепеза
-  dead_brain_coral_wall_fan: Мртва наборана корална зидна лепеза
-  dead_bubble_coral_wall_fan: Мртва мехураста корална зидна лепеза
-  dead_fire_coral_wall_fan: Мртва ватрена корална зидна лепеза
+  dead_brain_coral_wall_fan: Мртва Наборана Корална Зидна Лепеза
+  dead_bubble_coral_wall_fan: Мртва Мехураста Корална Зидна Лепеза
+  dead_fire_coral_wall_fan: Мртва Ватрена Корална Зидна Лепеза
   dead_horn_coral_wall_fan: Мртва рогаста корална зидна лепеза
-  tube_coral_wall_fan: Цеваста корална зидна лепеза
-  brain_coral_wall_fan: Наборана корална зидна лепеза
+  tube_coral_wall_fan: Цеваста Корална Зидна Лепеза
+  brain_coral_wall_fan: Наборани Корална Зидна Лепеза
   bubble_coral_wall_fan: Мехураста корална зидна лепеза
   fire_coral_wall_fan: Ватрена корална зидна лепеза
   horn_coral_wall_fan: Рогаста корална зидна лепеза
@@ -1083,6 +1211,30 @@ material:
   potted_warped_fungus: Изопачена гљива у саксији
   potted_crimson_roots: Гримизно корење у саксији
   potted_warped_roots: Изопачено корење у саксији
+  candle_cake: Торта са свећом
+  white_candle_cake: Торта са белом свећом
+  orange_candle_cake: Торта са наранџастом свећом
+  magenta_candle_cake: Торта са магента свећом
+  light_blue_candle_cake: Торта са светло плавом свећом
+  yellow_candle_cake: Торта са жутом свећом
+  lime_candle_cake: Торта са светлозеленом свећом
+  pink_candle_cake: Торта са пинк свећом
+  gray_candle_cake: Торта са сивом свећом
+  light_gray_candle_cake: Торта са светлосивом свећом
+  cyan_candle_cake: Торта са тиркизном свећом
+  purple_candle_cake: Торта са љубичастом свећом
+  blue_candle_cake: Торта са плавом свећом
+  brown_candle_cake: Торта са браон свећом
+  green_candle_cake: Торта са зеленом свећом
+  red_candle_cake: Торта са црвеном свећом
+  black_candle_cake: Торта са црном свећом
+  powder_snow: Снег у праху
+  cave_vines: Пећинске лијане
+  cave_vines_plant: Биљка пећинске лијане
+  big_dripleaf_stem: Велика стабљика кап-листа
+  potted_azalea_bush: Засађена азалеја
+  potted_flowering_azalea_bush: Цветајућа засађена азалеја
+  grass_path: Травната путања
   zombie_pigman_spawn_egg: Јаје зомби свиње
   cactus_green: Кактус-зелена
   dandelion_yellow: Маслачак-жуто
@@ -1111,9 +1263,9 @@ biome:
   wooded_hills: Шумовита брда
   taiga_hills: Брда тајге
   mountain_edge: Планинска ивица
-  jungle: Џунгла
-  jungle_hills: Брда Џунгле
-  jungle_edge: Ивица Џунгле
+  jungle: Прашума
+  jungle_hills: Брда прашуме
+  jungle_edge: Ивица прашуме
   deep_ocean: Дубоки океан
   stone_shore: Камена обала
   snowy_beach: Камена Плажа
@@ -1149,8 +1301,8 @@ biome:
   taiga_mountains: Планине тајге
   swamp_hills: Брда мочваре
   ice_spikes: Ледени шиљци
-  modified_jungle: Измењена џунгла
-  modified_jungle_edge: Измењена ивица џунгле
+  modified_jungle: Измењена прашума
+  modified_jungle_edge: Измењена ивица прашуме
   tall_birch_forest: Висока Брезова шума
   tall_birch_hills: Висока брда брезе
   dark_forest_hills: Густа шумска брда
@@ -1163,52 +1315,54 @@ biome:
   eroded_badlands: Еродирани бесплодни предео
   modified_wooded_badlands_plateau: Измењен шумовити бесплодни плато
   modified_badlands_plateau: Измењен бесплодни плато
-  bamboo_jungle: Џунгла Бамбуса
-  bamboo_jungle_hills: Брдаста Џунгла Бамбуса
-  soul_sand_valley: Долина души
+  bamboo_jungle: Бамбусова прашума
+  bamboo_jungle_hills: Брдовита бамбусова прашума
+  soul_sand_valley: Долина душа
   crimson_forest: Гримизна шума
   warped_forest: Изопачена шума
   basalt_deltas: Базалтна делта
+  dripstone_caves: Пећине капмена
+  lush_caves: Бујне пећине
   nether: Недер
 enchantment:
-  fire_protection: Заштита од ватре
-  sharpness: Оштрина
-  flame: Пламен
-  soul_speed: Брзина душе
-  aqua_affinity: Привлачност ка води
-  punch: Ударац
-  loyalty: Оданост
-  depth_strider: Водени ход
-  vanishing_curse: Клетва нестајања
-  unbreaking: Несаломивост
-  knockback: Одбацивање
-  luck_of_the_sea: Срећа мора
-  binding_curse: Клетва везивања
-  fortune: Срећа
   protection: Заштита
-  efficiency: Ефикасност
-  mending: Поправљање
-  frost_walker: Ледени пешак
-  lure: Мамац
-  looting: Пљачкање
-  piercing: Пирсинг
-  blast_protection: Заштита од експлозије
-  smite: Свети удар
-  multishot: Мулти пуцањ
-  fire_aspect: Благослов ватре
-  channeling: Каналисање
-  sweeping: Моћни замах
-  thorns: Бодље
-  bane_of_arthropods: Проклетство зглавкара
-  respiration: Дисање
-  riptide: Плима
-  silk_touch: Свилени додир
-  quick_charge: Брзо пуњење
-  projectile_protection: Заштита од пројектила
-  impaling: Натакање
+  fire_protection: Заштита од ватре
   feather_falling: Лак пад
+  blast_protection: Заштита од експлозије
+  projectile_protection: Заштита од пројектила
+  respiration: Дисање
+  aqua_affinity: Привлачност ка води
+  thorns: Бодље
+  depth_strider: Водени ход
+  frost_walker: Ледени пешак
+  binding_curse: Клетва везивања
+  sharpness: Оштрина
+  smite: Моћни удар против неживих
+  bane_of_arthropods: Проклетство зглавкара
+  knockback: Одбацивање
+  fire_aspect: Благослов ватре
+  looting: Пљачкање
+  sweeping: Моћни замах
+  efficiency: Ефикасност
+  silk_touch: Свилени додир
+  unbreaking: Несаломивост
+  fortune: Срећа
   power: Снага
+  punch: Ударац
+  flame: Пламен
   infinity: Неограниченост
+  luck_of_the_sea: Срећа мора
+  lure: Мамац
+  loyalty: Оданост
+  impaling: Натакање
+  riptide: Плима
+  channeling: Каналисање
+  multishot: Мулти пуцањ
+  quick_charge: Брзо пуњење
+  piercing: Пирсинг
+  mending: Поправљање
+  vanishing_curse: Клетва нестајања
+  soul_speed: Брзина душе
 potion:
   uncraftable: Ненаправљив напитак
   water: Боца са водом
@@ -1273,8 +1427,8 @@ lingering_potion:
   strength: Дуготрајни напитак снаге
   weakness: Дуготрајни напитак слабости
   luck: Дуготрајни напитак среће
-  turtle_master: Дуготрајни Напитак Госоподара Корњаче
-  slow_falling: Дуготрајни Напитак Спорог Падања
+  turtle_master: Дуготрајни напитак господара корњаче
+  slow_falling: Дуготрајни напитак спорог падања
 tipped_arrow:
   uncraftable: Неправљена умочена стрела
   water: Стрела распрскивања
@@ -1295,14 +1449,14 @@ tipped_arrow:
   strength: Стрела снаге
   weakness: Стрела слабости
   luck: Стрела среће
-  turtle_master: Стрела Господара Корњаче
+  turtle_master: Стрела господара корњаче
   slow_falling: Стрела спорог падања
 entity:
   dropped_item: Предмет
   experience_orb: Кугла искуства
   area_effect_cloud: Облак ефекта
   elder_guardian: Стари чувар
-  wither_skeleton: Видер скелетон
+  wither_skeleton: Видер костур
   stray: Луталица
   egg: Бачено јаје
   leash_hitch: Чвор поводца
@@ -1314,7 +1468,7 @@ entity:
   ender_pearl: Бачена ендер перла
   ender_signal: Око Ендера
   splash_potion: Напитак
-  thrown_exp_bottle: Бачена чаробна боца
+  thrown_exp_bottle: Бачена чаробна флаша
   item_frame: Рам за предмет
   wither_skull: Видер лобања
   primed_tnt: Активан динамит
@@ -1324,8 +1478,8 @@ entity:
   spectral_arrow: Спектрална стрела
   shulker_bullet: Шулкер метак
   dragon_fireball: Змајева ватрена лопта
-  zombie_villager: Зомби Сељак
-  skeleton_horse: Костурски Коњ
+  zombie_villager: Зомби сељак
+  skeleton_horse: Костур коња
   zombie_horse: Зомби коњ
   armor_stand: Постоље за оклоп
   donkey: Магаре
@@ -1356,7 +1510,7 @@ entity:
   silverfish: Сребрна буба
   blaze: Пламен
   magma_cube: Коцка магме
-  ender_dragon: Ендер Змај
+  ender_dragon: Ендер змај
   wither: Видер
   bat: Слепи миш
   witch: Вештица
@@ -1403,6 +1557,11 @@ entity:
   strider: Шетач
   zoglin: Зоглин
   piglin_brute: Сурови праслин
+  axolotl: Аксолотл
+  glow_item_frame: Светлећи рам за предмете
+  glow_squid: Светлећа лигња
+  goat: Коза
+  marker: Ознака
   fishing_hook: Пецарошки Пловак
   lightning: Удар грома
   player: Играч
@@ -1463,7 +1622,7 @@ dye_color:
   pink: Розе
   gray: Сив
   light_gray: Светло сива
-  cyan: Цијан
+  cyan: Тиркизна
   purple: Љубичаста
   blue: Плав
   brown: Браон
@@ -1504,14 +1663,14 @@ tropical_fish_name:
 colored_shied:
   white: Бели Штит
   orange: Наранџасти штит
-  magenta: Магента Штит
+  magenta: Магента штит
   light_blue: Светло плави штит
   yellow: Жути штит
   lime: Светло зелени штит
   pink: Розе штит
   gray: Сиви штит
   light_gray: Светло сив штит
-  cyan: Цијан штит
+  cyan: Тиркизни штит
   purple: Љубичасти штит
   blue: Плави штит
   brown: Браон штит
@@ -1528,7 +1687,7 @@ banner_pattern:
   '65542': Пинк квадрат у доњем левом углу
   '65543': Сиви квадрат у доњем левом углу
   '65544': Светло сиви квадрат у доњем левом углу
-  '65545': Цијан квадрат у доњем левом углу
+  '65545': Тиркизни квадрат у доњем левом углу
   '65546': Љубичасти квадрат у доњем левом углу
   '65547': Плави квадрат у доњем левом углу
   '65548': Браон квадрат у доњем левом углу
@@ -1544,7 +1703,7 @@ banner_pattern:
   '131078': Пинк квадрат у доњем десном углу
   '131079': Сиви квадрат у доњем десном углу
   '131080': Светло сиви квадрат у доњем десном углу
-  '131081': Цијан квадрат у доњем десном углу
+  '131081': Тиркизни квадрат у доњем десном углу
   '131082': Љубичасти квадрат у доњем десном углу
   '131083': Плави квадрат у доњем десном углу
   '131084': Браон квадрат у доњем десном углу
@@ -1560,7 +1719,7 @@ banner_pattern:
   '196614': Розе квадрат у горњем левом углу
   '196615': Сиви квадрат у горњем левом углу
   '196616': Светло сиви квадрат у горњем левом углу
-  '196617': Цијан квадрат у горњем левом углу
+  '196617': Тиркизни квадрат у горњем левом углу
   '196618': Љубичасти квадрат у горњем левом углу
   '196619': Плави квадрат у горњем левом углу
   '196620': Браон квадрат у горњем левом углу
@@ -1576,7 +1735,7 @@ banner_pattern:
   '262150': Розе квадрат у горњем десном углу
   '262151': Сиви квадрат у горњем десном углу
   '262152': Светло сиви квадрат у горњем десном углу
-  '262153': Цијан квадрат у горњем десном углу
+  '262153': Тиркизни квадрат у горњем десном углу
   '262154': Љубичасти квадрат у горњем десном углу
   '262155': Плави квадрат у горњем десном углу
   '262156': Браон квадрат у горњем десном углу
@@ -1592,7 +1751,7 @@ banner_pattern:
   '327686': Розе доњи део
   '327687': Сиви доњи део
   '327688': Светло сиви доњи део
-  '327689': Цијан доњи део
+  '327689': Тиркизни доњи део
   '327690': Љубичасти доњи део
   '327691': Плави доњи део
   '327692': Браон доњи део
@@ -1608,7 +1767,7 @@ banner_pattern:
   '393222': Розе горњи део
   '393223': Сиви горњи део
   '393224': Светло сив горњи део
-  '393225': Цијан горњи део
+  '393225': Тиркизни горњи део
   '393226': Љубичасти горњи део
   '393227': Плави горњи део
   '393228': Браон горњи део
@@ -1616,15 +1775,15 @@ banner_pattern:
   '393230': Црвен горњи део
   '393231': Црн горњи део
   '458752': Бели леви стуб
-  '458753': Наранджасти леви стуб
-  '458754': Магента блед декстер
+  '458753': Наранџасти леви стуб
+  '458754': Магента леви стуб
   '458755': Светло плави леви стуб
   '458756': Жути леви стуб
   '458757': Светло зелени леви стуб
   '458758': Розе леви стуб
   '458759': Сиви леви стуб
   '458760': Светло сиви леви стуб
-  '458761': Цијан леви стуб
+  '458761': Тиркизни леви стуб
   '458762': Љубичасти леви стуб
   '458763': Плави леви стуб
   '458764': Браон леви стуб
@@ -1632,53 +1791,53 @@ banner_pattern:
   '458766': Црвени леви стуб
   '458767': Црни леви стуб
   '524288': Бели десни стуб
-  '524289': Наранджасти десни стуб
+  '524289': Наранџасти десни стуб
   '524290': Магента десни стуб
   '524291': Светло плави десни стуб
   '524292': Жути десни стуб
   '524293': Светло зелени десни стуб
-  '524294': Пинк бледи десни стуб
-  '524295': Сиви бледи десни стуб
+  '524294': Пинк десни стуб
+  '524295': Сиви десни стуб
   '524296': Светло сиви десни стуб
-  '524297': Цијан десни стуб
+  '524297': Тиркизни десни стуб
   '524298': Љубичасти десни стуб
   '524299': Плави десни стуб
   '524300': Браон десни стуб
   '524301': Зелени десни стуб
   '524302': Црвени десни стуб
-  '524303': Црни леви стуб
-  '589824': Бели средњи део
-  '589825': Наранџасти средњи део
-  '589826': Магента средњи део
-  '589827': Светло плави средњи део
-  '589828': Жути средњи део
-  '589829': Светло зелени средњи део
-  '589830': Пинк средњи део
-  '589831': Сиви средњи део
-  '589832': Светло сиви средњи део
-  '589833': Цијан средњи део
-  '589834': Љубичасти средњи део
-  '589835': Плави средњи део
-  '589836': Браон средњи део
-  '589837': Зелени средњи део
-  '589838': Црвени средњи део
-  '589839': Црни средњи део
-  '655360': Бела средња пруга
-  '655361': Наранџаста средња пруга
-  '655362': Магента средња пруга
-  '655363': Светло плава средња пруга
-  '655364': Жута средња пруга
-  '655365': Светло зелена средња пруга
-  '655366': Пинк средња пруга
-  '655367': Сива средња пруга
-  '655368': Светло сива средња пруга
-  '655369': Цијан средња пруга
-  '655370': Љубичаста средња пруга
-  '655371': Плава средња пруга
-  '655372': Браон средња пруга
-  '655373': Зелена средња пруга
-  '655374': Црвена средња пруга
-  '655375': Црна средња пруга
+  '524303': Црни десни стуб
+  '589824': Бела трака
+  '589825': Наранџаста трака
+  '589826': Магента трака
+  '589827': Светло плава трака
+  '589828': Жута трака
+  '589829': Светло зелена трака
+  '589830': Розе трака
+  '589831': Сива трака
+  '589832': Светло сива трака
+  '589833': Тиркизна трака
+  '589834': Љубичаста трака
+  '589835': Плава трака
+  '589836': Браон трака
+  '589837': Зелена трака
+  '589838': Црвена трака
+  '589839': Црна трака
+  '655360': Бели фес
+  '655361': Наранџасти фес
+  '655362': Магента фес
+  '655363': Светло плави фес
+  '655364': Жути Фес
+  '655365': Светло зелени Фес
+  '655366': Розе средња пруга
+  '655367': Сиви Фес
+  '655368': Светло сиви Фес
+  '655369': Тиркизна средња пруга
+  '655370': Љубичасти Фес
+  '655371': Плави Фес
+  '655372': Браон Фес
+  '655373': Зелени Фес
+  '655374': Црвени Фес
+  '655375': Црни Фес
   '720896': Бела десна дијагонала
   '720897': Наранџаста десна дијагонала
   '720898': Магента десна дијагонала
@@ -1688,7 +1847,7 @@ banner_pattern:
   '720902': Розе десна дијагонала
   '720903': Сива десна дијагонала
   '720904': Светло сива десна дијагонала
-  '720905': Цијан десна дијагонала
+  '720905': Тиркизна десна дијагонала
   '720906': Љубичаста десна дијагонала
   '720907': Плава десна дијагонала
   '720908': Браон десна дијагонала
@@ -1704,29 +1863,29 @@ banner_pattern:
   '786438': Розе лева дијагонала
   '786439': Сива лева дијагонала
   '786440': Светло сива лева дијагонала
-  '786441': Цијан лева дијагонала
+  '786441': Тиркизна лева дијагонала
   '786442': Љубичаста лева дијагонала
   '786443': Плава лева дијагонала
   '786444': Браон лева дијагонала
   '786445': Зелена лева дијагонала
   '786446': Црвена лева дијагонала
   '786447': Црна лева дијагонала
-  '851968': Беле решетке
-  '851969': Наранджасте решетке
-  '851970': Магента решетке
-  '851971': Светло плаве решетке
-  '851972': Жуте решетке
-  '851973': Светло зелене решетке
-  '851974': Розе решетке
-  '851975': Сиве решетке
-  '851976': Светло сиве решетке
-  '851977': Цијан решетке
-  '851978': Љубичасте решетке
-  '851979': Плаве решетке
-  '851980': Браон решетке
-  '851981': Зелене решетке
-  '851982': Црвене решетке
-  '851983': Црне решетке
+  '851968': Беле пруге
+  '851969': Наранџасте пруге
+  '851970': Магента пруге
+  '851971': Светло плаве пруге
+  '851972': Жуте пруге
+  '851973': Светло зелене пруге
+  '851974': Розе пруге
+  '851975': Сиве пруге
+  '851976': Светло сиве пруге
+  '851977': Тиркизне пруге
+  '851978': Љубичасте пруге
+  '851979': Плаве пруге
+  '851980': Браон пруге
+  '851981': Зелене пруге
+  '851982': Црвене пруге
+  '851983': Црне пруге
   '917504': Бели Андријин крст
   '917505': Наранџасти Андријин крст
   '917506': Магента Андријин крст
@@ -1736,7 +1895,7 @@ banner_pattern:
   '917510': Розе Андријин крст
   '917511': Сиви Андријин крст
   '917512': Светло сиви Андријин крст
-  '917513': Цијан Андријин крст
+  '917513': Тиркизни Андријин крст
   '917514': Љубичасти Андријин крст
   '917515': Плави Андријин крст
   '917516': Браон Андријин крст
@@ -1749,10 +1908,10 @@ banner_pattern:
   '983043': Светло плави крст
   '983044': Жути крст
   '983045': Светло зелени крст
-  '983046': Пинк крст
+  '983046': Розе крст
   '983047': Сиви крст
   '983048': Светло сиви крст
-  '983049': Цијан крст
+  '983049': Тиркизни крст
   '983050': Љубичасти крст
   '983051': Плави крст
   '983052': Браон крст
@@ -1768,7 +1927,7 @@ banner_pattern:
   '1048582': Розе пирамида
   '1048583': Сива пирамида
   '1048584': Светло сива пирамида
-  '1048585': Цијан пирамида
+  '1048585': Тиркизна пирамида
   '1048586': Љубичаста пирамида
   '1048587': Плава пирамида
   '1048588': Браон пирамида
@@ -1784,7 +1943,7 @@ banner_pattern:
   '1114118': Розе обрнута пирамида
   '1114119': Сива обрнута пирамида
   '1114120': Светло сива обрнута пирамида
-  '1114121': Цијан обрнута пирамида
+  '1114121': Обрнута тиркизна пирамида
   '1114122': Љубичаста обрнута пирамида
   '1114123': Плава обрнута пирамида
   '1114124': Браон обрнута пирамида
@@ -1796,14 +1955,14 @@ banner_pattern:
   '1179650': Магента доњи зуби
   '1179651': Светло плави доњи зуби
   '1179652': Жути доњи зуби
-  '1179653': Светло зелена увучена основа
+  '1179653': Светло зелени доњи зуби
   '1179654': Розе доњи зуби
   '1179655': Сиви доњи зуби
   '1179656': Светло сиви доњи зуби
-  '1179657': Цијан доњи зуби
+  '1179657': Тиркизни доњи зуби
   '1179658': Љубичасти доњи зуби
   '1179659': Плави доњи зуби
-  '1179660': Браои доњи зуби
+  '1179660': Браон доњи зуби
   '1179661': Зелени доњи зуби
   '1179662': Црвени доњи зуби
   '1179663': Црни доњи зуби
@@ -1816,10 +1975,10 @@ banner_pattern:
   '1245190': Розе горњи зуби
   '1245191': Сиви горњи зуби
   '1245192': Светло сиви горњи зуби
-  '1245193': Цијан горњи зуби
+  '1245193': Тиркизни горњи зуби
   '1245194': Љубичасти горњи зуби
   '1245195': Плави горњи зуби
-  '1245196': Браои горњи зуби
+  '1245196': Браон горњи зуби
   '1245197': Зелени горњи зуби
   '1245198': Црвени горњи зуби
   '1245199': Црни горњи зуби
@@ -1832,7 +1991,7 @@ banner_pattern:
   '1310726': Розе лева пуна дијагонала
   '1310727': Сива лева пуна дијагонала
   '1310728': Светло сива лева пуна дијагонала
-  '1310729': Цијан лева пуна дијагонала
+  '1310729': Тиркизна лева пуна дијагонала
   '1310730': Љубичаста лева пуна дијагонала
   '1310731': Плава лева пуна дијагонала
   '1310732': Браон лева пуна дијагонала
@@ -1848,7 +2007,7 @@ banner_pattern:
   '1376262': Розе обрнута лева пуна дијагонала
   '1376263': Сива обрнута лева пуна дијагонала
   '1376264': Светло сива лева пуна дијагонала
-  '1376265': Цијан лева пуна дијагонала
+  '1376265': Тиркизна горње десна пуна дијагонала
   '1376266': Љубичаста лева пуна дијагонала
   '1376267': Плава лева пуна дијагонала
   '1376268': Браон лева пуна дијагонала
@@ -1864,7 +2023,7 @@ banner_pattern:
   '1441798': Розе лева пуна дијагонала
   '1441799': Сива лева пуна дијагонала
   '1441800': Светло сива лева пуна дијагонала
-  '1441801': Цијан лева пуна дијагонала
+  '1441801': Тиркизна горње лева пуна дијагонала
   '1441802': Љубичаста лева пуна дијагонала
   '1441803': Плава лева пуна дијагонала
   '1441804': Браон лева пуна дијагонала
@@ -1880,7 +2039,7 @@ banner_pattern:
   '1507334': Роза десна пуна дијагонала
   '1507335': Сива десна пуна дијагонала
   '1507336': Светло сива десна пуна дијагонала
-  '1507337': Цијан десна пуна дијагонала
+  '1507337': Тиркизна десна пуна дијагонала
   '1507338': Љубичаста десна пуна дијагонала
   '1507339': Плава десна пуна дијагонала
   '1507340': Браон десна пуна дијагонала
@@ -1896,7 +2055,7 @@ banner_pattern:
   '1572870': Розе кружић
   '1572871': Сиви кружић
   '1572872': Светло сиви кружић
-  '1572873': Цијан кружић
+  '1572873': Тиркизни кружић
   '1572874': Љубичасти кружић
   '1572875': Плави кружић
   '1572876': Браон кружић
@@ -1912,7 +2071,7 @@ banner_pattern:
   '1638406': Розе ромб
   '1638407': Сиви ромб
   '1638408': Светло сиви ромб
-  '1638409': Цијан ромб
+  '1638409': Тиркизни ромб
   '1638410': Љубичасти ромб
   '1638411': Плави ромб
   '1638412': Браон ромб
@@ -1928,7 +2087,7 @@ banner_pattern:
   '1703942': Розе лева половина
   '1703943': Сива лева половина
   '1703944': Светло сива лева половина
-  '1703945': Цијан лева половина
+  '1703945': Тиркизна лева половина
   '1703946': Љубичаста лева половина
   '1703947': Плава лева половина
   '1703948': Браон лева половина
@@ -1944,7 +2103,7 @@ banner_pattern:
   '1769478': Розе горња половина
   '1769479': Сива горња половина
   '1769480': Светло сива горња половина
-  '1769481': Цијан горња половина
+  '1769481': Тиркизна горња половина
   '1769482': Љубичаста горња половина
   '1769483': Плава гоња половина
   '1769484': Браон горња половина
@@ -1960,7 +2119,7 @@ banner_pattern:
   '1835014': Розе десна половина
   '1835015': Сива десна половина
   '1835016': Светло сива десна половина
-  '1835017': Цијан десна половина
+  '1835017': Тиркизна десна половина
   '1835018': Љубичаста десна половина
   '1835019': Плава десна половина
   '1835020': Браон десна половина
@@ -1976,15 +2135,15 @@ banner_pattern:
   '1900550': Розе доња половина
   '1900551': Сива доња половина
   '1900552': Светло сива доња половина
-  '1900553': Ција доња половина
+  '1900553': Тиркизна доња половина
   '1900554': Љубичаста доња половина
   '1900555': Плава доња половина
   '1900556': Браон доња половина
   '1900557': Зелена доња половина
   '1900558': Црвена доња половина
   '1900559': Црна доња половина
-  '1966080': Бела бордура
-  '1966081': Наранджаста бордура
+  '1966080': Бели оквир
+  '1966081': Наранџасти оквир
   '1966082': Магента оквир
   '1966083': Светло плави оквир
   '1966084': Жути оквир
@@ -1992,29 +2151,29 @@ banner_pattern:
   '1966086': Розе оквир
   '1966087': Сиви оквир
   '1966088': Светло сиви оквир
-  '1966089': Цијан оквир
+  '1966089': Тиркизни оквир
   '1966090': Љубичасти оквир
   '1966091': Плави оквир
   '1966092': Браон оквир
   '1966093': Зелени оквир
   '1966094': Црвени оквир
   '1966095': Црни оквир
-  '2031616': Бела бордура вијугава бордура
-  '2031617': Наранджаста вијугава бордура
-  '2031618': Магента бордура вијугава бордура
-  '2031619': Светло плава вијугава бордура
-  '2031620': Жута бордура вијугава бордура
-  '2031621': Светло зелена вијугава бордура
-  '2031622': Пинк бордура вијугава бордура
-  '2031623': Сива бордура вијугава бордура
-  '2031624': Светло сива вијугава бордура
-  '2031625': Цијан вијугава бордура
-  '2031626': Љубичаста вијугава бордура
-  '2031627': Плава вијугава бордура
-  '2031628': Браон вијугава бордура
-  '2031629': Зелена вијугава бордура
-  '2031630': Црвена вијугава бордура
-  '2031631': Црна вијугава бордура
+  '2031616': Бели увучени оквир
+  '2031617': Наранџасти увучени оквир
+  '2031618': Магента увучени оквир
+  '2031619': Светло плави увучени оквир
+  '2031620': Жути увучени оквир
+  '2031621': Светло зелени увучени оквир
+  '2031622': Розе увучени оквир
+  '2031623': Сиви увучени оквир
+  '2031624': Светло сиви увучени оквир
+  '2031625': Тиркизни увучени оквир
+  '2031626': Љубичасти увучени оквир
+  '2031627': Плави увучени оквир
+  '2031628': Браон увучени оквир
+  '2031629': Зелени увучени оквир
+  '2031630': Црвени увучени оквир
+  '2031631': Црни увучени оквир
   '2097152': Бели крипер
   '2097153': Наранџасти крипер
   '2097154': Магента крипер
@@ -2024,7 +2183,7 @@ banner_pattern:
   '2097158': Розе крипер
   '2097159': Сиви крипер
   '2097160': Светло сиви крипер
-  '2097161': Цијан крипер
+  '2097161': Тиркизни крипер
   '2097162': Љубичасти крипер
   '2097163': Плави крипер
   '2097164': Браон крипер
@@ -2040,7 +2199,7 @@ banner_pattern:
   '2162694': Розе градијент
   '2162695': Сиви градијент
   '2162696': Светло сиви градијент
-  '2162697': Цијан градијент
+  '2162697': Тиркизни градијент
   '2162698': Љубичасти градијент
   '2162699': Плави градијент
   '2162700': Браон градијент
@@ -2056,7 +2215,7 @@ banner_pattern:
   '2228230': Розе градијент нагоре
   '2228231': Сиви градијент нагоре
   '2228232': Светло сиви градијент нагоре
-  '2228233': Цијан градијент нагоре
+  '2228233': Тиркизни градијент нагоре
   '2228234': Љубичасти градијент нагоре
   '2228235': Плави градијент нагоре
   '2228236': Браон градијент нагоре
@@ -2070,15 +2229,15 @@ banner_pattern:
   '2293764': Жуте цигле
   '2293765': Светло зелене цигле
   '2293766': Розе цигле
-  '2293767': Сива цигла
-  '2293768': Светло сива цигле
-  '2293769': Цијан цигле
+  '2293767': Сиве цигле
+  '2293768': Светло сиве цигле
+  '2293769': Тиркизна цигла
   '2293770': Љубичасте цигле
   '2293771': Плаве цигле
-  '2293772': Браоn циглe
-  '2293773': Зеленe циглe
-  '2293774': Црвенe циглe
-  '2293775': Црнe циглe
+  '2293772': Браон цигле
+  '2293773': Зелене цигле
+  '2293774': Црвене цигле
+  '2293775': Црне цигле
   '2359296': Бела лобања
   '2359297': Наранџаста лобања
   '2359298': Магента лобања
@@ -2088,7 +2247,7 @@ banner_pattern:
   '2359302': Розе лобања
   '2359303': Сива лобања
   '2359304': Светло сива лобања
-  '2359305': Цијан лобања
+  '2359305': Тиркизна лобања
   '2359306': Љубичаста лобања
   '2359307': Плава лобања
   '2359308': Браон лобања
@@ -2104,7 +2263,7 @@ banner_pattern:
   '2424838': Розе цвет
   '2424839': Сиви цвет
   '2424840': Светло сиви цвет
-  '2424841': Цијан цвет
+  '2424841': Тиркизни цвет
   '2424842': Љубичасти цвет
   '2424843': Плави цвет
   '2424844': Браон цвет
@@ -2117,10 +2276,10 @@ banner_pattern:
   '2490371': Светло плава ствар
   '2490372': Жута ствар
   '2490373': Светло зелена ствар
-  '2490374': Ружичаста ствар
+  '2490374': Розе ствар
   '2490375': Сива ствар
   '2490376': светло сива ствар
-  '2490377': Цијан ствар
+  '2490377': Тиркизна ствар
   '2490378': Љубичаста ствар
   '2490379': Плава ствар
   '2490380': Браон ствар
@@ -2129,14 +2288,14 @@ banner_pattern:
   '2490383': Црна ствар
   '2555904': Бели глобус
   '2555905': Наранџасти глобус
-  '2555906': Пурпурни глобус
-  '2555907': Светлоплави глобус
+  '2555906': Магента глобус
+  '2555907': Светло плави глобус
   '2555908': Жути глобус
   '2555909': Светло зелени глобус
   '2555910': Розе глобус
   '2555911': Сиви глобус
-  '2555912': Светлосиви глобус
-  '2555913': Цијан глобус
+  '2555912': Светло сиви глобус
+  '2555913': Тиркизни глобус
   '2555914': Љубичасти глобус
   '2555915': Плави глобус
   '2555916': Браон глобус
@@ -2148,11 +2307,11 @@ banner_pattern:
   '2621442': Магента њушка
   '2621443': Светло плава њушка
   '2621444': Жута њушка
-  '2621445': Лимета њушка
+  '2621445': Светло зелена њушка
   '2621446': Розе њушка
   '2621447': Сива њушка
   '2621448': Светло сива њушка
-  '2621449': Цијан њушка
+  '2621449': Тиркизна њушка
   '2621450': Љубичаста њушка
   '2621451': Плава њушка
   '2621452': Браон њушка
@@ -2202,17 +2361,3 @@ villager_profession:
   shepherd: Пастир
   toolsmith: Ковач алата
   weaponsmith: Ковач оружја
-villager_career:
-  farmer: Фармер
-  fisherman: Пецарош
-  shepherd: Пастир
-  fletcher: Произвођар стрела
-  librarian: Библиотекар
-  cartographer: Картограф
-  cleric: Свештеник
-  armorer: Ковач оклопа
-  weapon_smith: Ковач оружја
-  tool_smith: Ковач алата
-  butcher: Месар
-  leatherworker: Кожар
-  nitwit: Крелац

@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:20:00                    #
+# Build time: 2021-07-04 21:41:56                    #
 # ####################################################
 language:
   code: hy_am
@@ -16,10 +16,12 @@ material:
   acacia_sapling: Ակացիաի տնկի
   acacia_sign: |
     Ակացիայից ցուցանակ
+  acacia_wood: Ակացիաի փայտ
   andesite: Անդեսիտ
   andesite_slab: Անդասի ափսե
   andesite_stairs: Անդեսիտե աստիճաններ
   andesite_wall: Անդեսի Պատը
+  anvil: Սալ
   bamboo_sapling: Բամբուկե տնկանյութեր
   bedrock: Հիմնածայր
   birch_boat: Կեչու Նավ
@@ -27,11 +29,15 @@ material:
   birch_fence: Կեչու Ցանկապատ
   birch_fence_gate: Կեչուց Դարպաս
   birch_planks: Կեչու փայտ
+  birch_sapling: Կեչու Տնկի
   birch_sign: Բարդե Նշան
   birch_stairs: Աստիճաններ Փայտից
+  birch_wood: Կեչու Փայտ
   black_concrete_powder: Սև Բետոնի Ավազ
   black_dye: Սեւ ներկ
+  black_stained_glass_pane: Սև Ապակու Շերտ
   black_wool: Սեվ Բուրդ
+  blast_furnace: Դարբնի վառարան
   blue_shulker_box: Կապույտ Շուլկերի Տուփ
   blue_stained_glass_pane: Կապոյտ Ապակու Շերտ
   blue_terracotta: Կապույտ
@@ -39,26 +45,41 @@ material:
   brick_wall: Աղյուս պատը
   brown_dye: Բրաունի ներկը
   brown_shulker_box: Դարչնագույն Շուլկերի Տուփ
+  brown_stained_glass_pane: Դարչնագույն Ապակու Շերտ
   brown_terracotta: Շականակագույն Տեռակոտա
   campfire: Քեմփշ
   cat_spawn_egg: Spawn- ի կատու ձու օգտագործվում է ձեր աղավնի աշխարհում մի կատու շաղ
     տալ
+  chain_command_block: Շղթայած հրամանների բլոկ
+  chest_minecart: Բեռնատար Վագոն
   chicken: Հավի հում միս
-  chipped_anvil: Վնասված զնդան
+  chiseled_red_sandstone: Փորագրված Կարմիր Ավազաքար
   clay_ball: Կավ
+  coal_block: Ածուխի Բլոկ
+  coal_ore: Ածուխի Հանքաքար
   cobblestone_stairs: Քարե Աստիճաններ
+  command_block: Հրամանների Բլոկ
+  command_block_minecart: Վագոն Հրամաննեի Բլոկով
   composter: Комдор
+  cooked_chicken: Պատրաստված Հավի միս
+  cooked_mutton: Պատրաստած ոչխարի միս
+  cooked_porkchop: Պատրաստված Խոզի Միս
+  cookie: Բլիթ
   creeper_banner_pattern: Դրոշի օրինակ
   crossbow: Խաչադեղ
   cut_red_sandstone_slab: Կտռտած Կարմիր Ավազե Սալիկ
+  cut_sandstone: Հարթ ավազաքար
   cut_sandstone_slab: Կարմիր Ավազե Սալիկ
+  cyan_stained_glass_pane: Փիրուզագույն Ապակու Շերտ
   dark_oak_boat: Մուգ Կաղնուց Նավ
   dark_oak_door: Մուգ Կաղնու Դուռ
   dark_oak_fence: Մուգ Կաղնուց Ցանկապատ
   dark_oak_fence_gate: Մուգ Կաղնուց Դարպաս
   dark_oak_leaves: Մուգ կաղնու տերեւներ
+  dark_oak_log: Մուգ կաղնու գերան
   dark_oak_planks: Մուգ կաղնու փայտ
   dark_oak_sign: Մուգ կաղնու ցուցանակ
+  dark_oak_wood: Մուգ կաղնու փայտ
   dark_prismarine: Մուք Օվկիանաքար
   diamond: Ալմաստ
   diamond_axe: Ալմաստ Կացին
@@ -83,16 +104,29 @@ material:
   end_stone_brick_stairs: Վերջի Քարի Աստիճաններ
   end_stone_brick_wall: Վերջ քարե աղյուս պատը
   fox_spawn_egg: Աղվեսի հայտնվելու ձու
+  glass_pane: Ապակու Շերտ
+  golden_shovel: Ոսկե Թիակ
+  golden_sword: Ոսկե Սուր
+  gold_block: Ոսկու Բլոկ
+  gold_ore: Ոսկու Հանքաքար
   granite_slab: Գրանետ սալ
   granite_wall: Գրանիտ պատը
+  grass_block: Խոտի Բլոկ
   grass_path: Խոտից Ճամփա
   gray_concrete_powder: Մոխրագույն Բետոնի Ավազ
   gray_stained_glass_pane: Մոխրագոյն Ապակու Շերտ
   green_banner: Կանաջ Դրոշ
+  green_stained_glass: Կանաչ Ապակի
   green_stained_glass_pane: Կանանչ Ապակու Շերտ
   green_wall_banner: Կանաջ Դրոշ
   hay_block: Ցորենի Խուրձ
   husk_spawn_egg: Դիակի steghtsum dzu
+  iron_block: Երկաթի Բլոկ
+  iron_chestplate: Երկաթե Շապիկ
+  iron_ore: Երկաթի Հանքաքար
+  iron_shovel: Երկաթե Թիակ
+  iron_sword: Երկաթե Սուր
+  iron_trapdoor: Երկաթյա Դռնակ
   jungle_boat: Ջունգլիի ծառի նավ
   jungle_door: Ջունգլիի ծառի դուռ
   jungle_fence: Ջունգլիի Ծառի Փայտից Ցանկապատ
@@ -104,11 +138,16 @@ material:
   jungle_sign: Ջունգլիներում ափսե
   jungle_wood: Ջունգլիի Փայտ
   lantern: Լույսը
+  lapis_block: Լազուրիտի Բլոկ
+  leather_chestplate: Կաշվե Շապիկ
   leather_horse_armor: Կաշի ձիու զրահ
+  leather_leggings: Կաշվե Անդրավարտիկ
   light_blue_dye: Բաց Կապույն Ներկ
+  light_blue_stained_glass: Բաց Կապույտ Ապակի
   light_blue_wool: Բաց Կապույն Բուրդ
   light_gray_concrete_powder: Բաց Մոխրագույն Բետոնի Ավազ
   light_gray_stained_glass: Բաց Մոխրագոյն Ապակի
+  light_gray_stained_glass_pane: Բաց Մոխրագույն Ապակու Շերտ
   lime_banner: Բաց Կանաջ Դրոշ
   lime_bed: Բաց Կանաջ Մահճակալ
   lime_carpet: Բաց Կանաջ Գորգ
@@ -118,6 +157,7 @@ material:
   lime_stained_glass_pane: Լայմ Ապակու Շերտ
   lime_wall_banner: Բաց Կանաջ Դրոշ
   loom: Հյուսել մեքենա
+  magma_block: Մագմայի Բլոկ
   magma_cream: Մագմայի Կրեմ
   mojang_banner_pattern: |
     Դրոշի նմուշ
@@ -135,12 +175,16 @@ material:
   nether_star: Դժոխքի Աստղ
   nether_wart: Դժոխային Բույս
   nether_wart_block: Նեդեր Ոռթի Բլոկ
+  note_block: Մեղեդու Բլոկ
   oak_boat: Կաղնու Նավ
   oak_door: Կաղնուց դուռ
   oak_fence: Ցանկապատ
   oak_fence_gate: Կաղնի Դարբաս
+  oak_log: Կաղնու գերան
   oak_planks: Կաղնու փայտ
   oak_sign: Կաղնե Նշան
+  oak_wood: Կաղնու Փայտ
+  observer: Դիտող
   obsidian: Վանակատ
   orange_stained_glass: Նարնջագույն պակի
   packed_ice: Ձիգ Սառույց
@@ -163,10 +207,13 @@ material:
   polished_granite: Նուրբ գրանիտ
   polished_granite_slab: Սալաքար ՝ հղկված գրանիտից
   polished_granite_stairs: աստիճան ՝ հղկված գրանիտից
+  potion: Դեղորայք
+  potted_wither_rose: Չոր Վարդ
   prismarine: Օվկիանաքար
   prismarine_bricks: Օվկիանաքարաղուս
   prismarine_wall: Prismarin պատը
   pufferfish: Ֆուգու Ձուկ
+  purple_stained_glass_pane: Մանուշակագույն Ապակու Շերտ
   purpur_block: Պուրփուրի բլոկ
   purpur_pillar: Սյունաձև փուրփուրի բլոկ
   purpur_slab: Պուրփուրե Սալիկ
@@ -175,16 +222,22 @@ material:
   rabbit: հում նապաստակ
   ravager_spawn_egg: Ձեր երկրում կործանիչի ծնոտը կկարողանա իջեցնել սարսափելի հրեշին,
     որը խորտակելով մահճակալները եւ սպանեն գյուղացիներին
+  redstone_block: Կարմրաքարի Բլոկ
   redstone_ore: Կարմիրքարի Հանքաքար
+  redstone_torch: Կարմրաքարի Ջահ
   red_nether_brick_slab: Red Nether Brick Slab- ը
   red_nether_brick_stairs: Աստիճաններ ՝ կարմիր դժոխային աղյուսից
   red_nether_brick_wall: Կարմիր բրդի աղյուս պատը
   red_sandstone: կարմիր ավազ
   red_sandstone_wall: Կարմիր ավազանի պատը
+  red_stained_glass_pane: Կարմիր Ապակու Շերտ
+  repeating_command_block: Կրկնվող հրամանների բլոկ
   sandstone_stairs: Աստիճաններ Ավազաքարից
   sandstone_wall: Աղանդի պատը
+  scaffolding: Շինարարական անտառներ
   shulker_box: Շալքերի Տուփ
   skull_banner_pattern: Դրոշի օրինակ
+  slime_block: Լորձի բլոկ
   smoker: Ծխող
   smooth_quartz_slab: Հարթ քվարց ափսե
   smooth_quartz_stairs: Աստիճաններ ՝ հղկված կվարցից
@@ -196,20 +249,33 @@ material:
   spruce_door: Եղևնուց դուռ
   spruce_fence: Եղևնու Ցանկապատ
   spruce_fence_gate: Եղևնուց Դարպաս
+  spruce_log: Եղևնու գերան
   spruce_planks: Եղևնու փայտ
+  spruce_sapling: Եղևնու տնկի
   spruce_sign: Զուգված վահանակ
+  spruce_wood: Եղևնու Փայտ
   stonecutter: Կամենոտես
   stone_brick_wall: Քարե աղյուսով պատը
   stripped_acacia_log: Կեղևազրկած ակացիաից գերան
+  stripped_birch_log: Կեղևազրկած կեչու գերան
   stripped_jungle_log: Կեղևազրկած տրոպիկական ծառի գերան
+  stripped_oak_log: Կեղևազրկած կաղնու գերան
+  stripped_spruce_log: Կեղևազրկած եղևնու գերան
+  tipped_arrow: Ազդեցությունով Աղեղ
   trader_llama_spawn_egg: Առեւտրականի լամա
+  tripwire_hook: Թակարդի Կեռիկ
   wandering_trader_spawn_egg: Թափառող առևտրականի հայտնվելու ձու
+  wooden_shovel: Փայտե Թիակ
+  wooden_sword: Փայտե Սուր
 biome:
   bamboo_jungle_hills: Լեռնոտ Բամբուկե ծառեր
 enchantment:
   sharpness: Սրած
+  knockback: Հրում
   lure: Շվի Հրապուրել
+  looting: Կողոպուտ
   piercing: Պիրսինգ
+  multishot: Եռակի հարված
 tipped_arrow:
   mundane: Ազդեցությունով Աղեղ
   thick: Ազդեցությունով Աղեղ
@@ -217,16 +283,32 @@ tipped_arrow:
   night_vision: Գիշերային տեսողության աղեղ
   invisibility: Անտեսանելիության Աղեղ
 entity:
+  experience_orb: Կախարդանքի Գնդիկներ
+  elder_guardian: Հասուն Պահպանող
+  stray: Կործանված
+  splash_potion: Դեղորայք
+  falling_block: Ընկնող Բլոկ
+  minecart_command: Վագոն Հրամաննեի Բլոկով
+  minecart: Վագոն
+  minecart_chest: Բեռնատար Վագոն
+  ghast: Գաստ
   enderman: Էնդերմեն
+  cave_spider: Քարանձավի Սարդ
   blaze: Բոց
   ender_dragon: Էնդերի Դրակոն
+  guardian: Պահպանող
+  squid: Կաղամար
   mushroom_cow: Սնկային Կով
   pufferfish: Ֆուգու Ձուկ
 effect:
-  jump: Ցատկի Ուժգնացում
+  heal: Ակնթարթային Առողջություն
+  confusion: Գլխապտույտ
+  fire_resistance: Դիմադրություն Կրակին
+  poison: Թույն
   wither: Ոչնչացնող
   absorption: Կլանելություն
   saturation: Հագեցում
+  luck: Բախտ
 dye_color:
   lime: Բաց Կանաջ
 colored_shied:

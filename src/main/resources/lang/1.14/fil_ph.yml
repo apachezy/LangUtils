@@ -1,12 +1,14 @@
 # ####################################################
-# Build time: 2021-03-17 16:19:59                    #
+# Build time: 2021-07-04 21:41:56                    #
 # ####################################################
 language:
   code: fil_ph
   name: Filipino
   region: Pilipinas
 material:
+  acacia_leaves: Akasyang Dahon
   bamboo_sapling: Punla ng Kawayan
+  birch_leaves: Birkeng Dahon
   black_banner: Itim na Watawat
   black_dye: Itim na Tina
   black_wall_banner: Itim na Watawat
@@ -16,6 +18,7 @@ material:
   blue_dye: Asul na Tina
   blue_stained_glass: Salaming Bughaw
   blue_wall_banner: Asul na Watawat
+  bone_meal: Kainang Buto
   book: Aklat
   brain_coral_wall_fan: Kulay Rosas na Pamaypay ng Koral sa Dingding
   brick_wall: Tisang Bakod
@@ -24,8 +27,8 @@ material:
   brown_wall_banner: Kayumangging Watawat
   bubble_coral_wall_fan: Lilang Pamaypay ng Koral sa Dingding
   campfire: Apoy ng Kampo
+  cave_spider_spawn_egg: Panlikhaang Itlog ng Gagambang-Kuweba
   chainmail_boots: Botang Bakal
-  chain_command_block: Kadenang Bloke ng Utos
   clay_ball: Luwad
   cod_bucket: Timba ng Bakalaw
   comparator: Redstone na Pahambing
@@ -37,6 +40,7 @@ material:
   cut_sandstone_slab: Hiwa Senstoun Tilad
   cyan_banner: Cyan na Watawat
   cyan_wall_banner: Cyan na Watawat
+  dark_oak_leaves: Madilim na Robleng Dahon
   dead_brain_coral_fan: Patay na Kulay Rosas na Pamaypay ng Koral
   dead_brain_coral_wall_fan: Patay na Kulay Rosas na Pamaypay ng Koral sa Dingding
   dead_bubble_coral_fan: Patay na Lilang Pamaypay ng Koral
@@ -76,6 +80,7 @@ material:
   horn_coral_wall_fan: Dilaw na Pamaypay ng Koral sa Dingding
   husk_spawn_egg: Panlikhaang Itlog ng Talupak
   jigsaw: Durugtunging Bloke
+  jungle_leaves: Gubatang Dahon
   knowledge_book: Kaalamang Aklat
   leather_horse_armor: Katad ng nakasout para sa kabayo
   lectern: Atril
@@ -107,6 +112,7 @@ material:
   moving_piston: Gumagalaw na Bloke
   nether_brick_wall: Laryo Pader mula sa Impiyerno
   nether_portal: Lagusan sa Nether
+  oak_leaves: Robleng Dahog
   orange_banner: Kahel na Watawat
   orange_wall_banner: Kahel na Watawat
   phantom_spawn_egg: Panlikhaang Itlog ng Guniguni
@@ -156,6 +162,8 @@ material:
   purple_banner: Lilang Watawat
   purple_wall_banner: Lilang Watawat
   ravager_spawn_egg: Panlikhaang Itlog ng Mandudurog
+  redstone_torch: Redstone na Ilaw
+  redstone_wall_torch: Redstone na Ilaw sa Pader
   red_banner: Pulang Watawat
   red_dye: Pulang Tina
   red_nether_brick_slab: Tilang Pulang Nether na Laryo
@@ -173,13 +181,16 @@ material:
   smooth_red_sandstone_slab: Tilang Mapulang Buhang-buli
   smooth_sandstone_slab: Tilang Buhang-buli
   soul_sand: Kaluwan-hangin
+  spruce_leaves: Pinong Dahon
   stone_brick_wall: Bato Laryo Pader
   suspicious_stew: Kahinahinakang Nilaga
   sweet_berries: Matamis na Baya
   sweet_berry_bush: Palumpong ng Matamis na Baya
+  torch: Ilaw
   tropical_fish: Tropikal na Isda
   tube_coral_wall_fan: Asul na Pamaypay ng Koral sa Dingding
   vex_spawn_egg: Panlikhaang Itlog ng Inis
+  wall_torch: Ilaw sa Pader
   wandering_trader_spawn_egg: Panlikhaang Itlog ng Naglalakbay na Mangangalakal
   white_banner: Puting Watawat
   white_dye: Puting Tina
@@ -217,7 +228,6 @@ biome:
   deep_cold_ocean: Malalim at Malamig na Karagatan
   desert_lakes: Mga Lawa ng Disyerto
   gravelly_mountains: Magrabang mga Bundok
-  flower_forest: Kagubatang Mabulaklak
   taiga_mountains: Taiga na mga Bundok
   swamp_hills: Banang Burol
   modified_jungle: Turingang Gubat
@@ -257,6 +267,9 @@ effect:
   hero_of_the_village: Bayani ng Barangay
 tropical_fish_type:
   sunstreak: SunStreak
+  dasher: Dasher
+  brinely: Brinely
+  spotty: Spotty
 dye_color:
   magenta: Ibig
   pink: Pink

@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:46                    #
+# Build time: 2021-07-04 21:46:02                    #
 # ####################################################
 language:
   code: de_at
@@ -14,10 +14,17 @@ material:
   polished_diorite: Poliata Diorit
   andesite: Andesit
   polished_andesite: Poliata Andesit
+  deepslate: Tiafenschiefa
+  cobbled_deepslate: Bruchtiafenschiefa
+  polished_deepslate: Polierta Tiafnschiefa
+  calcite: Kalzit
+  tuff: Tuffstoa
+  dripstone_block: Tropfstablock
   grass_block: Grosblock
   dirt: Erdn
   coarse_dirt: Grobe Erdn
   podzol: Podsol
+  rooted_dirt: Wurzelerde
   crimson_nylium: Karmesin-Nylium
   warped_nylium: Zerr-Nylium
   cobblestone: Bruchstoa
@@ -39,10 +46,67 @@ material:
   sand: Sond
   red_sand: Rota Sond
   gravel: Kies
-  gold_ore: Goiderz
-  iron_ore: Eisnerz
   coal_ore: Stoakohle
+  deepslate_coal_ore: Tiafenschiefa-Stoakohle
+  iron_ore: Eisnerz
+  deepslate_iron_ore: Tiafenschiefa-Eisnerz
+  copper_ore: Kupfaerz
+  deepslate_copper_ore: Tiafenschiefa-Kupfaerz
+  gold_ore: Goiderz
+  deepslate_gold_ore: Tiafenschiefa-Goiderz
+  redstone_ore: Redstoneerz
+  deepslate_redstone_ore: Tiafenschiefa-Redstoneerz
+  emerald_ore: Smaragderz
+  deepslate_emerald_ore: Tiafenschiefa-Smaragderz
+  lapis_ore: Lapislazulierz
+  deepslate_lapis_ore: Tiafenschiefa-Lapislazulierz
+  diamond_ore: Diamanterz
+  deepslate_diamond_ore: Tiafenschiefa-Diamanterz
   nether_gold_ore: Nethergoiderz
+  nether_quartz_ore: Netherquarzerz
+  ancient_debris: Antiker Schutt
+  coal_block: Kohleblock
+  raw_iron_block: Roeisnblock
+  raw_copper_block: Rokupfablock
+  raw_gold_block: Rogoidblock
+  amethyst_block: Amethyst-Block
+  budding_amethyst: Wochsender Amethyst
+  iron_block: Eisnblock
+  copper_block: Kupfablock
+  gold_block: Goidblock
+  diamond_block: Diamantblock
+  netherite_block: Netheritblock
+  exposed_copper: Angelaufener Kupferblock
+  weathered_copper: Verwitterter Kupferblock
+  oxidized_copper: Verrosteter Kupferblock
+  cut_copper: Gschnittana Kupfablock
+  exposed_cut_copper: Angelaufener geschnittener Kupferblock
+  weathered_cut_copper: Verwirrter gschnittener Kupfer
+  oxidized_cut_copper: Verrosteter geschnittener Kupferblock
+  cut_copper_stairs: Gschnittene Kupfer Stiagn
+  exposed_cut_copper_stairs: Angelaufene geschnittene Kupfertreppen
+  weathered_cut_copper_stairs: Vawittate gschnittene Kupfatreppn
+  oxidized_cut_copper_stairs: Verrostete geschnittene Kupfertreppen
+  cut_copper_slab: Gschnittene Kupfastufn
+  exposed_cut_copper_slab: Angelaufene geschnittene Kupferstufe
+  weathered_cut_copper_slab: Vawittate gschnittene Kupfastufn
+  oxidized_cut_copper_slab: Verrostete geschnittene Kupferstufe
+  waxed_copper_block: Gewachster Kupferblock
+  waxed_exposed_copper: Gewachster angelaufener Kupferblock
+  waxed_weathered_copper: Gewachster verwitterter Kupferblock
+  waxed_oxidized_copper: Gewachstes oxidiertes Kupferblock
+  waxed_cut_copper: Gewochsta gschnittena Kupfablock
+  waxed_exposed_cut_copper: Gewachster angelaufener geschnittener Kupferblock
+  waxed_weathered_cut_copper: Gewachster verwitterter geschnittener Kupferblock
+  waxed_oxidized_cut_copper: Gewachstes oxidiertes geschnittenes Kupferblock
+  waxed_cut_copper_stairs: Gwachste gschnittene Kupfatreppn
+  waxed_exposed_cut_copper_stairs: Gewachste angelaufene geschnittene Kupfertreppen
+  waxed_weathered_cut_copper_stairs: Gewachte verwitterte geschnittene Kupfertreppen
+  waxed_oxidized_cut_copper_stairs: Gewachste oxidierte geschnittene Kupfertreppe
+  waxed_cut_copper_slab: Gwachste gschnittene Kupfastufn
+  waxed_exposed_cut_copper_slab: Gewachste angelaufene geschnittene Kupferstufe
+  waxed_weathered_cut_copper_slab: Gewachste verwitterte geschnittene Kupferstufe
+  waxed_oxidized_cut_copper_slab: Gewachste oxidierte geschnittene Kupferstufe
   oak_log: Oachnhoiz
   spruce_log: Fichtnhoiz
   birch_log: Birknhoiz
@@ -81,26 +145,24 @@ material:
   jungle_leaves: Tropnbamlab
   acacia_leaves: Akazienlab
   dark_oak_leaves: Schworzoachnlab
+  azalea_leaves: Azaleenlaub
+  flowering_azalea_leaves: Bliahends Azaleenlaub
   sponge: Schwomm
   wet_sponge: Nossa Schwomm
   glass: Glos
-  lapis_ore: Lapislazulierz
+  tinted_glass: Getönts Glos
   lapis_block: Lapislazuliblock
-  dispenser: Werfa
   sandstone: Sondstoa
   chiseled_sandstone: Gmoaßlta Sondstoa
   cut_sandstone: Gschnittena Sondstoa
-  note_block: Notnblock
-  powered_rail: Ontriebsschiene
-  detector_rail: Sensorschiene
-  sticky_piston: Pickiga Kolbn
   cobweb: Spinnennetz
   grass: Gros
   fern: Farn
+  azalea: Azalee
+  flowering_azalea: Blühende Azalee
   dead_bush: Austrockneta Busch
   seagrass: Seegros
   sea_pickle: Meeresgurkn
-  piston: Kolbn
   white_wool: Weiße Woin
   orange_wool: Orange Woin
   magenta_wool: Magentane Woin
@@ -130,6 +192,7 @@ material:
   cornflower: Kornblume
   lily_of_the_valley: Maiglöckchen
   wither_rose: Witherrosn
+  spore_blossom: Sporenblüte
   brown_mushroom: Brauna Püz
   red_mushroom: Rota Püz
   crimson_fungus: Karmesinpilz
@@ -141,9 +204,12 @@ material:
   twisting_vines: Zwirblrankn
   sugar_cane: Zuggarohr
   kelp: Seetong
+  moss_carpet: Moosteppich
+  moss_block: Moosblock
+  hanging_roots: Hängende Wurzeln
+  big_dripleaf: Großes Tropfblatt
+  small_dripleaf: Kleines Tropfblatt
   bamboo: Bambus
-  gold_block: Goidblock
-  iron_block: Eisnblock
   oak_slab: Oachnhoizstufn
   spruce_slab: Fichtnhoizstufn
   birch_slab: Birknhoizstufn
@@ -151,7 +217,7 @@ material:
   acacia_slab: Akazienhoizstufn
   dark_oak_slab: Schworzoachnstufn
   crimson_slab: Karmesinstufe
-  warped_slab: Zerrstufe
+  warped_slab: Zerrstufn
   stone_slab: Stoastufn
   smooth_stone_slab: Glotte Stoastufn
   sandstone_slab: Sondstoastufn
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: Glotta Sondstoa
   smooth_stone: Glotta Stoa
   bricks: Ziagl
-  tnt: TNT
   bookshelf: Biacharegal
   mossy_cobblestone: Bemoosta Bruchstoa
   obsidian: Obsidian
@@ -187,27 +252,11 @@ material:
   spawner: Spawner
   oak_stairs: Oachnhoiztreppn
   chest: Kistn
-  diamond_ore: Diamanterz
-  diamond_block: Diamantblock
   crafting_table: Werkbonk
   farmland: Ocka
   furnace: Ofn
   ladder: Leita
-  rail: Schiene
   cobblestone_stairs: Bruchstoatreppn
-  lever: Schoita
-  stone_pressure_plate: Stoadruckplottn
-  oak_pressure_plate: Oachnhoizdruckplottn
-  spruce_pressure_plate: Fichtnhoizdruckplottn
-  birch_pressure_plate: Birknhoizdruckplottn
-  jungle_pressure_plate: Tropnhoizdruckplottn
-  acacia_pressure_plate: Akazeinhoizdruckplottn
-  dark_oak_pressure_plate: Schworzoachndruckplottn
-  crimson_pressure_plate: Karmesindruckplatte
-  warped_pressure_plate: Zerrdruckplatte
-  polished_blackstone_pressure_plate: Poliate Schworzstoadruckplottn
-  redstone_ore: Redstoneerz
-  redstone_torch: Redstone-Fockl
   snow: Schnee
   ice: Eis
   snow_block: Schneeblock
@@ -224,32 +273,31 @@ material:
   warped_fence: Zerrzaun
   pumpkin: Kürbis
   carved_pumpkin: Gschnitzta Kürbis
+  jack_o_lantern: Kürbislatern
   netherrack: Netherrack
   soul_sand: Seelnsond
   soul_soil: Seelenerde
   basalt: Basalt
   polished_basalt: Polierter Basalt
+  smooth_basalt: Glotta Basalt
   soul_torch: Seelenfockl
   glowstone: Glowstone
-  jack_o_lantern: Kürbislatern
-  oak_trapdoor: Oachnhoizfoitir
-  spruce_trapdoor: Fichtnhoizfoitir
-  birch_trapdoor: Birknhoizfoitir
-  jungle_trapdoor: Tropnhoizfoitir
-  acacia_trapdoor: Akazienhoizfoitir
-  dark_oak_trapdoor: Schworzoachnhoizfoitir
-  crimson_trapdoor: Karmesinfalltür
-  warped_trapdoor: Zerrfalltür
   infested_stone: Befoiena Stoa
   infested_cobblestone: Befoiena Bruchstoa
   infested_stone_bricks: Befoiene Stoaziagl
   infested_mossy_stone_bricks: Befoiene bemooste Stoaziagl
   infested_cracked_stone_bricks: Befoiene rissige Stoaziagl
   infested_chiseled_stone_bricks: Befoiene gmoaßlte Stoaziagl
+  infested_deepslate: Befoina Tiafnschiefa
   stone_bricks: Stoaziagl
   mossy_stone_bricks: Bemooste Stoaziagl
   cracked_stone_bricks: Rissige Stoaziagl
   chiseled_stone_bricks: Gmoaßlte Stoaziagl
+  deepslate_bricks: Tiafnschiefaziagl
+  cracked_deepslate_bricks: Rissige Tiafnschiefaziagl
+  deepslate_tiles: Tiafenschiefafliesn
+  cracked_deepslate_tiles: Rissige Tiafenschiefafliesn
+  chiseled_deepslate: Gmeißlta Tiafnschiefa
   brown_mushroom_block: Brauna Püzblock
   red_mushroom_block: Rota Püzblock
   mushroom_stem: Püzstengl
@@ -258,14 +306,7 @@ material:
   glass_pane: Glosscheibn
   melon: Melone
   vine: Lianen
-  oak_fence_gate: Oachnhoizzauntor
-  spruce_fence_gate: Fichtnhoizzauntor
-  birch_fence_gate: Birknhoizzauntor
-  jungle_fence_gate: Tropnhoizzauntor
-  acacia_fence_gate: Akazienhoizzauntor
-  dark_oak_fence_gate: Schworzoachnhoizzauntor
-  crimson_fence_gate: Karmesinzauntor
-  warped_fence_gate: Verzerrts Zaun-Tor
+  glow_lichen: Leichtflechtn
   brick_stairs: Ziagltreppn
   stone_brick_stairs: Stoaziagltreppn
   mycelium: Myzel
@@ -280,11 +321,8 @@ material:
   end_stone: Endstoa
   end_stone_bricks: Endstoaziagl
   dragon_egg: Drochnei
-  redstone_lamp: Redstone-Lompn
   sandstone_stairs: Sondstoatreppn
-  emerald_ore: Smaragderz
   ender_chest: Enderkistn
-  tripwire_hook: Hokn
   emerald_block: Smaragdblock
   spruce_stairs: Fichtnhoiztreppn
   birch_stairs: Birknhoiztreppn
@@ -310,33 +348,18 @@ material:
   blackstone_wall: Schworzstoamaua
   polished_blackstone_wall: Poliate Schworstoamaua
   polished_blackstone_brick_wall: Poliate Schworzstoazieglmaua
-  stone_button: Stoaknopf
-  oak_button: Oachnhoizknopf
-  spruce_button: Fichtnhoizknopf
-  birch_button: Birknhoizknopf
-  jungle_button: Tropnhoizknopf
-  acacia_button: Akazienhoizknopf
-  dark_oak_button: Schworzoachnhoizknopf
-  crimson_button: Karmesinknopf
-  warped_button: Zerrholzknopf
-  polished_blackstone_button: Poliata Schworzstoaknopf
+  cobbled_deepslate_wall: Bruchtiafnschiefamaua
+  polished_deepslate_wall: Polierte Tiafnschiefamaua
+  deepslate_brick_wall: Tiafnschiefaziaglmaua
+  deepslate_tile_wall: Tiafnschiefafliesnmaua
   anvil: Amboss
   chipped_anvil: Ugschlogena Amboss
   damaged_anvil: Beschädigta Amboss
-  trapped_chest: Redstonekistn
-  light_weighted_pressure_plate: Feinwägeplottn
-  heavy_weighted_pressure_plate: Grobwägeplottn
-  daylight_detector: Togeslichtsensor
-  redstone_block: Redstone-Block
-  nether_quartz_ore: Netherquarzerz
-  hopper: Trichta
   chiseled_quartz_block: Gmoaßlta Quarzblock
   quartz_block: Quarzblock
   quartz_bricks: Quarzziagl
   quartz_pillar: Quarzsäule
   quartz_stairs: Quarztreppn
-  activator_rail: Aktivierungsschiene
-  dropper: Spenda
   white_terracotta: Weiße Keramik
   orange_terracotta: Orange Keramik
   magenta_terracotta: Magentane Keramik
@@ -354,7 +377,7 @@ material:
   red_terracotta: Rote Keramik
   black_terracotta: Schworze Keramik
   barrier: Barriere
-  iron_trapdoor: Eisnfoitir
+  light: Licht
   hay_block: Heiboin
   white_carpet: Weißa Teppich
   orange_carpet: Oranga Teppich
@@ -373,12 +396,10 @@ material:
   red_carpet: Rota Teppich
   black_carpet: Schworza Teppich
   terracotta: Keramik
-  coal_block: Kohleblock
   packed_ice: Pockeis
   acacia_stairs: Akazienhoiztreppn
   dark_oak_stairs: Schworzoachnhoiztreppn
-  slime_block: Schleimblock
-  grass_path: Grosweg
+  dirt_path: Tramplpfad
   sunflower: Sonnenblume
   lilac: Flieda
   rose_bush: Rosnstrauch
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: Rote Netherziagl
   bone_block: Knochnblock
   structure_void: Konstruktionsleere
-  observer: Beobochta
   shulker_box: Shulkerkistn
   white_shulker_box: Weiße Shulkerkistn
   orange_shulker_box: Orange Shulkerkistn
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: Rote Netherziagltreppn
   polished_andesite_stairs: Poliate Andesittreppn
   diorite_stairs: Diorittreppn
+  cobbled_deepslate_stairs: Bruchtiafnschiefatreppn
+  polished_deepslate_stairs: Polierte Tiafnschiefatreppn
+  deepslate_brick_stairs: Tiafnschiefaziagltreppn
+  deepslate_tile_stairs: Tiafnschiefafliesntreppn
   polished_granite_slab: Poliate Granitstufn
   smooth_red_sandstone_slab: Glotte rote Stondstoastufn
   mossy_stone_brick_slab: Bemooste Stoaziaglstufn
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: Rote Netherziaglstufn
   polished_andesite_slab: Poliate Andesitstufn
   diorite_slab: Dioritstufn
+  cobbled_deepslate_slab: Bruchtiafenschiefastufn
+  polished_deepslate_slab: Polierte Tiafnschiefastufn
+  deepslate_brick_slab: Tiafnschiefaziaglstufn
+  deepslate_tile_slab: Tiafnschiefafliesnstufn
   scaffolding: Grüst
+  redstone: Redstone-Stab
+  redstone_torch: Redstone-Fockl
+  redstone_block: Redstone-Block
+  repeater: Redstone-Vastärka
+  comparator: Redstone-Komparator
+  piston: Kolbn
+  sticky_piston: Pickiga Kolbn
+  slime_block: Schleimblock
+  honey_block: Honigblock
+  observer: Beobochta
+  hopper: Trichta
+  dispenser: Werfa
+  dropper: Spenda
+  lectern: Lesepuit
+  target: Züscheibnblock
+  lever: Schoita
+  lightning_rod: Blitzobleita
+  daylight_detector: Togeslichtsensor
+  sculk_sensor: Skulk-Sensor
+  tripwire_hook: Hokn
+  trapped_chest: Redstonekistn
+  tnt: TNT
+  redstone_lamp: Redstone-Lompn
+  note_block: Notnblock
+  stone_button: Stoaknopf
+  polished_blackstone_button: Poliata Schworzstoaknopf
+  oak_button: Oachnhoizknopf
+  spruce_button: Fichtnhoizknopf
+  birch_button: Birknhoizknopf
+  jungle_button: Tropnhoizknopf
+  acacia_button: Akazienhoizknopf
+  dark_oak_button: Schworzoachnhoizknopf
+  crimson_button: Karmesinknopf
+  warped_button: Zerrholzknopf
+  stone_pressure_plate: Stoadruckplottn
+  polished_blackstone_pressure_plate: Poliate Schworzstoadruckplottn
+  light_weighted_pressure_plate: Feinwägeplottn
+  heavy_weighted_pressure_plate: Grobwägeplottn
+  oak_pressure_plate: Oachnhoizdruckplottn
+  spruce_pressure_plate: Fichtnhoizdruckplottn
+  birch_pressure_plate: Birknhoizdruckplottn
+  jungle_pressure_plate: Tropnhoizdruckplottn
+  acacia_pressure_plate: Akazeinhoizdruckplottn
+  dark_oak_pressure_plate: Schworzoachndruckplottn
+  crimson_pressure_plate: Karmesindruckplatte
+  warped_pressure_plate: Zerrdruckplatte
   iron_door: Eisntir
   oak_door: Oachnhoiztir
   spruce_door: Fichtnhoiztir
@@ -572,8 +646,42 @@ material:
   dark_oak_door: Schworzoachnhoiztir
   crimson_door: Karmesintür
   warped_door: Zerrtir
-  repeater: Redstone-Vastärka
-  comparator: Redstone-Komparator
+  iron_trapdoor: Eisnfoitir
+  oak_trapdoor: Oachnhoizfoitir
+  spruce_trapdoor: Fichtnhoizfoitir
+  birch_trapdoor: Birknhoizfoitir
+  jungle_trapdoor: Tropnhoizfoitir
+  acacia_trapdoor: Akazienhoizfoitir
+  dark_oak_trapdoor: Schworzoachnhoizfoitir
+  crimson_trapdoor: Karmesinfalltür
+  warped_trapdoor: Zerrfalltür
+  oak_fence_gate: Oachnhoizzauntor
+  spruce_fence_gate: Fichtnhoizzauntor
+  birch_fence_gate: Birknhoizzauntor
+  jungle_fence_gate: Tropnhoizzauntor
+  acacia_fence_gate: Akazienhoizzauntor
+  dark_oak_fence_gate: Schworzoachnhoizzauntor
+  crimson_fence_gate: Karmesinzauntor
+  warped_fence_gate: Verzerrts Zaun-Tor
+  powered_rail: Ontriebsschiene
+  detector_rail: Sensorschiene
+  rail: Schiene
+  activator_rail: Aktivierungsschiene
+  saddle: Sottl
+  minecart: Wagon
+  chest_minecart: Wagon mit Kistn
+  furnace_minecart: Wagon mit Ofn
+  tnt_minecart: Wagon mit TNT
+  hopper_minecart: Wagon mit Trichta
+  carrot_on_a_stick: Karottnongl
+  warped_fungus_on_a_stick: Wirrpüzongl
+  elytra: Elytren
+  oak_boat: Oachnhoizboot
+  spruce_boat: Fichtnhoizboot
+  birch_boat: Birknhoizboot
+  jungle_boat: Tropnhoizboot
+  acacia_boat: Akazienhoizboot
+  dark_oak_boat: Schworzoachnhoizboot
   structure_block: Konstruktionsblock
   jigsaw: Vabundblock
   turtle_helmet: Schüdkrötnponza
@@ -585,7 +693,15 @@ material:
   coal: Kohle
   charcoal: Hoizkohle
   diamond: Diamant
+  emerald: Smaragd
+  lapis_lazuli: Lapislazuli
+  quartz: Netherquarz
+  amethyst_shard: Amethystscherbn
+  raw_iron: Ruachs Eisn
   iron_ingot: Eisnborrn
+  raw_copper: Ruachs Kupfa
+  copper_ingot: Kupfaborrn
+  raw_gold: Ruachs Goid
   gold_ingot: Goidborrn
   netherite_ingot: Netheritborrn
   netherite_scrap: Netheritbrockn
@@ -669,29 +785,27 @@ material:
   bucket: Kiwe
   water_bucket: Wossakiwe
   lava_bucket: Lavakiwe
-  minecart: Wagon
-  saddle: Sottl
-  redstone: Redstone-Stab
+  powder_snow_bucket: Puivaschneekiwe
   snowball: Schneeboi
-  oak_boat: Oachnhoizboot
   leather: Leda
   milk_bucket: Milchkibl
   pufferfish_bucket: Kuglfischkiwe
   salmon_bucket: Lachskiwe
   cod_bucket: Kabeljaukiwe
   tropical_fish_bucket: Tropnfischkiwe
+  axolotl_bucket: Axolotl-Eima
   brick: Ziagl
   clay_ball: Tonklumpen
   dried_kelp_block: Trockneta Seetongblock
   paper: Papia
   book: Buach
   slime_ball: Schleimboi
-  chest_minecart: Wagon mit Kistn
-  furnace_minecart: Wagon mit Ofn
   egg: Ei
   compass: Kompass
+  bundle: Bündl
   fishing_rod: Ongl
   clock: Uhr
+  spyglass: Binoggl
   glowstone_dust: Glowstonestab
   cod: Ruacha Kabeljau
   salmon: Ruacha Lachs
@@ -700,8 +814,8 @@ material:
   cooked_cod: Brotna Kabeljau
   cooked_salmon: Brotna Lachs
   ink_sac: Tintnbeitl
+  glow_ink_sac: Leichttintnbeitl
   cocoa_beans: Kakaobohnen
-  lapis_lazuli: Lapislazuli
   white_dye: Weiße Forb
   orange_dye: Orange Forb
   magenta_dye: Magentane Forb
@@ -765,6 +879,7 @@ material:
   cauldron: Kessl
   ender_eye: Enderaug
   glistering_melon_slice: Glitzande Melonenscheibn
+  axolotl_spawn_egg: Axolotl-Spawn-Ei
   bat_spawn_egg: Fledamaus-Spawn-Ei
   bee_spawn_egg: Bienen-Spawn-Ei
   blaze_spawn_egg: Lohen-Spawn-Ei
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: Magier-Spawn-Ei
   fox_spawn_egg: Fux-Spawn-Ei
   ghast_spawn_egg: Ghast-Spawn-Ei
+  glow_squid_spawn_egg: Leichttintnfisch-Spawn-Ei
+  goat_spawn_egg: Ziegen-Spawn-Ei
   guardian_spawn_egg: Wächta-Spawn-Ei
   hoglin_spawn_egg: Hoglin-Spawn-Ei
   horse_spawn_egg: Roß-Spawn-Ei
@@ -833,8 +950,8 @@ material:
   fire_charge: Feiakugl
   writable_book: Buach und Feda
   written_book: Beschriebns Buach
-  emerald: Smaragd
   item_frame: Rohmen
+  glow_item_frame: Leichtrohmen
   flower_pot: Blumentopf
   carrot: Karottn
   potato: Kartoffe
@@ -848,17 +965,12 @@ material:
   zombie_head: Zombiekopf
   creeper_head: Creeperkopf
   dragon_head: Drochnkopf
-  carrot_on_a_stick: Karottnongl
-  warped_fungus_on_a_stick: Wirrpüzongl
   nether_star: Netherstern
   pumpkin_pie: Kürbiskuachn
   firework_rocket: Feiawerksraketn
   firework_star: Feiawerksstern
   enchanted_book: Vazaubats Buach
   nether_brick: Netherziagl
-  quartz: Netherquarz
-  tnt_minecart: Wagon mit TNT
-  hopper_minecart: Wagon mit Trichta
   prismarine_shard: Prismarinscherbe
   prismarine_crystals: Prismarinkristoi
   rabbit: Ruacha Hos
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: Getränkta Pfeil
   lingering_potion: Vaweiltronk
   shield: Schüd
-  elytra: Elytren
-  spruce_boat: Fichtnhoizboot
-  birch_boat: Birknhoizboot
-  jungle_boat: Tropnhoizboot
-  acacia_boat: Akazienhoizboot
-  dark_oak_boat: Schworzoachnhoizboot
   totem_of_undying: Totem dea Unsterblichkeit
   shulker_shell: Shulkerschö
   iron_nugget: Eisnklumpn
@@ -948,13 +1054,13 @@ material:
   cartography_table: Kartntisch
   fletching_table: Bognatisch
   grindstone: Schleifstoa
-  lectern: Lesepuit
   smithing_table: Schmiedtisch
   stonecutter: Stoasog
   bell: Glockn
   lantern: Latern
   soul_lantern: Seelenlatern
   sweet_berries: Süßbeern
+  glow_berries: Loicht Bera
   campfire: Logafeia
   soul_campfire: Seelnlogerfeuer
   shroomlight: Pilzlicht
@@ -962,12 +1068,8 @@ material:
   bee_nest: Bienennest
   beehive: Bienenstock
   honey_bottle: Honigfloschn
-  honey_block: Honigblock
   honeycomb_block: Honigwobnblock
   lodestone: Leitstoa
-  netherite_block: Netheritblock
-  ancient_debris: Antiker Schutt
-  target: Züscheibnblock
   crying_obsidian: Weinender Obsidian
   blackstone: Schworzstoa
   blackstone_slab: Schworzstoastufn
@@ -982,6 +1084,28 @@ material:
   polished_blackstone_brick_stairs: Poliate Schworzstoaziegltreppn
   cracked_polished_blackstone_bricks: Rissige Poliate Schworzstoaziegl
   respawn_anchor: Wiedereinstiegsanker
+  candle: Kerzn
+  white_candle: Weiße Kerzn
+  orange_candle: Orange Kerzn
+  magenta_candle: Magenta Kerzn
+  light_blue_candle: Höblaue Kerzn
+  yellow_candle: Gelbe Kerzn
+  lime_candle: Hellgrüne Kerzn
+  pink_candle: Rosane Kerzn
+  gray_candle: Graue Kerzn
+  light_gray_candle: Hellgraue Kerzn
+  cyan_candle: Türkise Kerzn
+  purple_candle: Lila Kerzn
+  blue_candle: Blaue Kerzn
+  brown_candle: Braune Kerzn
+  green_candle: Grüne Kerzn
+  red_candle: Rote Kerzn
+  black_candle: Schworze Kerzn
+  small_amethyst_bud: Kloane Amethystknospn
+  medium_amethyst_bud: Mittlare Amethystknospn
+  large_amethyst_bud: Großa Amethysten Kristall
+  amethyst_cluster: Amethysthaufn
+  pointed_dripstone: Spitza Tropfsta
   water: Wossa
   lava: Lava
   tall_seagrass: Hochs Seegros
@@ -1004,6 +1128,9 @@ material:
   attached_melon_stem: Melonenronkn
   pumpkin_stem: Kürbispflonzn
   melon_stem: Melonenpflonzn
+  water_cauldron: Wossakessl
+  lava_cauldron: Lavakessl
+  powder_snow_cauldron: Puivaschneekessl
   end_portal: Endportalrohmen
   cocoa: Kakao
   tripwire: Stoipadroht
@@ -1083,6 +1210,30 @@ material:
   potted_warped_fungus: Eingetopfter Wirrpilz
   potted_crimson_roots: Eingetopfte Karmesinwurzeln
   potted_warped_roots: Eingetopfte Wirrwurzeln
+  candle_cake: Kuchn mit Kerzn
+  white_candle_cake: Kuchn mit weißa Kerzn
+  orange_candle_cake: Kuchn mit oranga Kerzn
+  magenta_candle_cake: Kuchn mit magenta Kerzn
+  light_blue_candle_cake: Kuchn mit hellblaua Kerzn
+  yellow_candle_cake: Kuchn mit gelba Kerzn
+  lime_candle_cake: Kuchn mit hellgrüna Kerzn
+  pink_candle_cake: Kuchn mit rosa Kerzn
+  gray_candle_cake: Kuchn mit graua Kerzn
+  light_gray_candle_cake: Kuchn mit hellgraua Kerzn
+  cyan_candle_cake: Kuchn mit türkisa Kerzn
+  purple_candle_cake: Kuchn mit violetta Kerzn
+  blue_candle_cake: Kuchn mit blaua Kerzn
+  brown_candle_cake: Kuchn mit brauna Kerzn
+  green_candle_cake: Kuchn mit grüna Kerzn
+  red_candle_cake: Kuchn mit rota Kerzn
+  black_candle_cake: Kuchn mit schworza Kerzn
+  powder_snow: Puivaschnee
+  cave_vines: Höhlnrankn
+  cave_vines_plant: Höhlnranknpflonz
+  big_dripleaf_stem: Großer Tropfblattstiel
+  potted_azalea_bush: Eingsetzte Azalee
+  potted_flowering_azalea_bush: Eingsetzte blühende Azalee
+  grass_path: Grosweg
   zombie_pigman_spawn_egg: Schweinezombie-Spawn-Ei
   cactus_green: Grüne Forb
   dandelion_yellow: Gelbe Forb
@@ -1169,46 +1320,48 @@ biome:
   crimson_forest: Karmesinwoid
   warped_forest: Wirrwoid
   basalt_deltas: Basaltdeltas
+  dripstone_caves: Tropfsteinhöhln
+  lush_caves: Üppige Höhln
   nether: Nether
 enchantment:
-  fire_protection: Feiaschutz
-  sharpness: Schärfe
-  flame: Flomm
-  soul_speed: Seeln Gschwindigkeit
-  aqua_affinity: Wossaaffinität
-  punch: Schlog
-  loyalty: Treue
-  depth_strider: Wossaläufer
-  vanishing_curse: Fluach des Vaschwindns
-  unbreaking: Hoitborkeit
-  knockback: Rückstoß
-  luck_of_the_sea: Glück des Meeres
-  binding_curse: Fluach der Bindung
-  fortune: Glück
   protection: Schutz
-  efficiency: Effizienz
-  mending: Reparatur
-  frost_walker: Eisläufer
-  lure: Köda
-  looting: Plündarung
-  piercing: Durchschuss
-  blast_protection: Explosionsschutz
-  smite: Bonn
-  multishot: Mehrfochschuss
-  fire_aspect: Vabrennung
-  channeling: Entlodung
-  sweeping: Schwungkroft
-  thorns: Dornen
-  bane_of_arthropods: Nemesis der Gliederfüßer
-  respiration: Atmung
-  riptide: Sog
-  silk_touch: Behutsomkeit
-  quick_charge: Schnöilodn
-  projectile_protection: Schusssicha
-  impaling: Harpune
+  fire_protection: Feiaschutz
   feather_falling: Fedafoi
+  blast_protection: Explosionsschutz
+  projectile_protection: Schusssicha
+  respiration: Atmung
+  aqua_affinity: Wossaaffinität
+  thorns: Dornen
+  depth_strider: Wossaläufer
+  frost_walker: Eisläufer
+  binding_curse: Fluach der Bindung
+  sharpness: Schärfe
+  smite: Bonn
+  bane_of_arthropods: Nemesis der Gliederfüßer
+  knockback: Rückstoß
+  fire_aspect: Vabrennung
+  looting: Plündarung
+  sweeping: Schwungkroft
+  efficiency: Effizienz
+  silk_touch: Behutsomkeit
+  unbreaking: Hoitborkeit
+  fortune: Glück
   power: Stärke
+  punch: Schlog
+  flame: Flomm
   infinity: Unendlichkeit
+  luck_of_the_sea: Glück des Meeres
+  lure: Köda
+  loyalty: Treue
+  impaling: Harpune
+  riptide: Sog
+  channeling: Entlodung
+  multishot: Mehrfochschuss
+  quick_charge: Schnöilodn
+  piercing: Durchschuss
+  mending: Reparatur
+  vanishing_curse: Fluach des Vaschwindns
+  soul_speed: Seeln Gschwindigkeit
 potion:
   uncraftable: Ned braubora Tronk
   water: Wossaflosch
@@ -1403,6 +1556,11 @@ entity:
   strider: Schreita
   zoglin: Zoglin
   piglin_brute: Piglin-Barbar
+  axolotl: Axolotl
+  glow_item_frame: Leichtrohmen
+  glow_squid: Leichttintnfisch
+  goat: Gaaß
+  marker: Marker
   fishing_hook: Schwimma
   lightning: Blitz
   player: Spiela
@@ -2185,7 +2343,7 @@ merchant_level:
   '2': Lehrling
   '3': Gsell
   '4': Expert
-  '5': Meista
+  '5': Moasta
 villager_profession:
   none: Dorfbewohna
   armorer: Rüstungsschmied
@@ -2202,17 +2360,3 @@ villager_profession:
   shepherd: Schäfa
   toolsmith: Grobschmied
   weaponsmith: Woffnschmied
-villager_career:
-  farmer: Baua
-  fisherman: Fischa
-  shepherd: Schäfa
-  fletcher: Pfeilmocha
-  librarian: Bibliothekar
-  cartographer: Kartograph
-  cleric: Geistlicha
-  armorer: Rüstungsschmied
-  weapon_smith: Woffnschmied
-  tool_smith: Werkzeigschmied
-  butcher: Fleischa
-  leatherworker: Gerba
-  nitwit: Schwochkopf

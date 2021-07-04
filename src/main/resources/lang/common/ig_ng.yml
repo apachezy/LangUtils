@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:48                    #
+# Build time: 2021-07-04 21:46:03                    #
 # ####################################################
 language:
   code: ig_ng
@@ -39,10 +39,21 @@ material:
   sand: Aja
   red_sand: Uhie uhie
   gravel: Ajịrịjaja
-  gold_ore: Gold ọlaedo
-  iron_ore: Ígwè ore
   coal_ore: Coal Ore
+  iron_ore: Ígwè ore
+  gold_ore: Gold ọlaedo
+  redstone_ore: Redstone Ore
+  emerald_ore: Emerald Ore
+  lapis_ore: Lapis Lazuli Ore
+  diamond_ore: Diamond Ore
   nether_gold_ore: Nether Gold Ore
+  nether_quartz_ore: Nduku
+  ancient_debris: Nkpọrọ ochie
+  coal_block: Ihe mgbochi nke Kol
+  iron_block: Ngọngọ nke Iron
+  gold_block: Ngọngọ nke Gold
+  diamond_block: Ngọngọ nke Diamond
+  netherite_block: Ogwe nke Netherite
   oak_log: Akpu Abanye
   spruce_log: Abanye na Spruce
   birch_log: Abanye na Birch
@@ -85,23 +96,15 @@ material:
   sponge: Ogbo
   wet_sponge: Wet Wet
   glass: Iko
-  lapis_ore: Lapis Lazuli Ore
-  lapis_block: Ogwe Lapis Lazuli
-  dispenser: Dispensin
   sandstone: Nkume aja
   chiseled_sandstone: Chiseled Sandstone
   cut_sandstone: Bee nkume isi
-  note_block: Rịba ama Block
-  powered_rail: Ilgbọ okporo ígwè kwadoro
-  detector_rail: Zọ nchọpụta Detector
-  sticky_piston: Nkwụnye pistin
   cobweb: Cobweb
   grass: Ahịhịa
   fern: Fern
   dead_bush: Bush anwụ anwụ
   seagrass: Oké Ahịhịa
   sea_pickle: Oké Pikulu
-  piston: Pistin
   white_wool: White ajị
   orange_wool: Oroma Oroma
   magenta_wool: Magenta Wool
@@ -143,8 +146,6 @@ material:
   sugar_cane: Okpete
   kelp: Kelp
   bamboo: Achara
-  gold_block: Ngọngọ nke Gold
-  iron_block: Ngọngọ nke Iron
   oak_slab: Akpu Slab
   spruce_slab: Ekepu Slab
   birch_slab: Brich Slab
@@ -174,7 +175,6 @@ material:
   smooth_sandstone: Ezigbo Sandstone
   smooth_stone: Ezigbo Okute
   bricks: Brick
-  tnt: Dynamite
   bookshelf: Akwụkwọ akwụkwọ
   mossy_cobblestone: Mossy Pavement
   obsidian: Obsidian
@@ -188,27 +188,11 @@ material:
   spawner: Pụtarae
   oak_stairs: Akpu Nzọụkwụ
   chest: Igbe
-  diamond_ore: Diamond Ore
-  diamond_block: Ngọngọ nke Diamond
   crafting_table: Isiokwu Crafting
   farmland: Ala oru ubi
   furnace: Furnace
   ladder: Ladder
-  rail: Ilzọ ụgbọ elu
   cobblestone_stairs: Ulo Cobblestone
-  lever: Lever
-  stone_pressure_plate: Nkume Nrụgide Nkume
-  oak_pressure_plate: Akpu Plate Stress
-  spruce_pressure_plate: Mpempe akwụkwọ Mgbochi
-  birch_pressure_plate: Plate Strip Press
-  jungle_pressure_plate: Plate Strike Ubi
-  acacia_pressure_plate: Plate Strike Acacia
-  dark_oak_pressure_plate: Itiri Akpu Okpokoro
-  crimson_pressure_plate: Crimson nrụgide Plate
-  warped_pressure_plate: Gburugburu Nrụgide Arụ
-  polished_blackstone_pressure_plate: Ọkpụkpụ Ejiri Blackstone rụpụtara
-  redstone_ore: Redstone Ore
-  redstone_torch: Osimiri Redstone
   snow: Snoo
   ice: Plain Ice
   snow_block: Ugbo snow
@@ -225,6 +209,7 @@ material:
   warped_fence: Nsu agha kpụ ọkụ n'ọnụ
   pumpkin: Ugu
   carved_pumpkin: Ebube a kụrụ akpụ
+  jack_o_lantern: Jack o'Lantern
   netherrack: Netherrack
   soul_sand: Mkpụrụ Obi Sand
   soul_soil: Mkpụrụ Obi
@@ -232,15 +217,6 @@ material:
   polished_basalt: Basalt Polured
   soul_torch: Mkpụrụ Obi Torch
   glowstone: Mkpụrụ Obi Sand
-  jack_o_lantern: Jack o'Lantern
-  oak_trapdoor: Akpu Azuuzọ
-  spruce_trapdoor: Ekepu Ahihia
-  birch_trapdoor: Birch Ahihia
-  jungle_trapdoor: Ohia Ahihia
-  acacia_trapdoor: Acacia Ahihia
-  dark_oak_trapdoor: Itiri Akpu Azuuzọ
-  crimson_trapdoor: Crimson Trapdoor
-  warped_trapdoor: Plọ njem dị warara
   infested_stone: Nkume awara
   infested_cobblestone: Pavement Awara
   infested_stone_bricks: Akpụ brik na-agbazi
@@ -258,14 +234,6 @@ material:
   glass_pane: Ibu aja
   melon: Egwusi
   vine: Vine
-  oak_fence_gate: Ọnụ ụzọ ámá Oak
-  spruce_fence_gate: Spruce nsu nsu
-  birch_fence_gate: Ọnụ encezọ encemá Birch
-  jungle_fence_gate: Ọnụ Fzọ encemá Ọhịa
-  acacia_fence_gate: Ọnụ ụzọ ámá Acacia
-  dark_oak_fence_gate: Ọchịchịrị Oak nsu nsu
-  crimson_fence_gate: Crimson Fence Gate
-  warped_fence_gate: Ọnụ ụzọ Fence
   brick_stairs: Brik steepụ
   stone_brick_stairs: Nkume Nkume Nkume
   mycelium: Mycelium
@@ -280,11 +248,8 @@ material:
   end_stone: Ọgwụgwụ Nkume
   end_stone_bricks: Ọgwụgwụ Nkume brik
   dragon_egg: Akwa Egg
-  redstone_lamp: Redstone Oriọna
   sandstone_stairs: Ulo Sandstone
-  emerald_ore: Emerald Ore
   ender_chest: Ender Igbe
-  tripwire_hook: Nko nke Tripwire
   emerald_block: Ngọngọ nke Emerald
   spruce_stairs: Ekepu Nzọụkwụ
   birch_stairs: Birch Nzọụkwụ
@@ -311,33 +276,14 @@ material:
   blackstone_wall: Nwa Nkịtị
   polished_blackstone_wall: Nnukwu ojii ojii
   polished_blackstone_brick_wall: Nnukwu mgbidi ojii
-  stone_button: Nkume Bọtịnụ
-  oak_button: Akpu Bọtịnụ
-  spruce_button: Spruce Bọtịnụ
-  birch_button: Birch Bọtịnụ
-  jungle_button: Ubi Bọtịnụ
-  acacia_button: Acacia Bọtịnụ
-  dark_oak_button: Itiri Akpu Bọtịnụ
-  crimson_button: Crimson bọtịnụ
-  warped_button: Bọtị Warped
-  polished_blackstone_button: Mee bọtịnụ ojii
   anvil: Anvil
   chipped_anvil: Anvil Kwadoro
   damaged_anvil: Anvil Mebiri
-  trapped_chest: Chest tọrọ atọ
-  light_weighted_pressure_plate: Plate Predictive Light
-  heavy_weighted_pressure_plate: Plate Predictive Ebu Arọ Juru
-  daylight_detector: Onye nchọpụta ìhè
-  redstone_block: Ngọngọ nke Emerald
-  nether_quartz_ore: Nduku
-  hopper: Hopper
   chiseled_quartz_block: Chiseled Quartz Block
   quartz_block: Ngọngọ nke Quartz
   quartz_bricks: Nkịtị Quartz
   quartz_pillar: Ogidi quartz
   quartz_stairs: Quartz steepụ
-  activator_rail: Atorzọ Njikwa
-  dropper: Tụlee
   white_terracotta: White Terracotta
   orange_terracotta: Orange Terracotta
   magenta_terracotta: Magenta Terracotta
@@ -355,7 +301,6 @@ material:
   red_terracotta: Uhie Terracotta
   black_terracotta: Nwa Terracotta
   barrier: Ihe mgbochi
-  iron_trapdoor: Tragwè Trapdoor
   hay_block: Hay Bọọlụ
   white_carpet: White kapeeti
   orange_carpet: Kapeeti oroma
@@ -374,12 +319,9 @@ material:
   red_carpet: Kapeeti Uhie
   black_carpet: Kapeeti ojii
   terracotta: Terracotta
-  coal_block: Ihe mgbochi nke Kol
   packed_ice: Packed Ice
   acacia_stairs: Acacia Nzọụkwụ
   dark_oak_stairs: Itiri Akpu Nzọụkwụ
-  slime_block: Mpempe slime
-  grass_path: Zọ Grass
   sunflower: Sunflower
   lilac: Lilac
   rose_bush: Rose Bush
@@ -437,7 +379,6 @@ material:
   red_nether_bricks: Brick Red Nether
   bone_block: Ọkpụkpụ Block
   structure_void: Nhazi abaghị uru
-  observer: Lụrụ
   shulker_box: Igbe Shulker
   white_shulker_box: Igbe White Shulker
   orange_shulker_box: Igbe oroma Shulker
@@ -564,6 +505,50 @@ material:
   polished_andesite_slab: Nkume Polish Andesite
   diorite_slab: Diorite slab
   scaffolding: Ibeghari ihu
+  redstone: 'Nkume ustjá '
+  redstone_torch: Osimiri Redstone
+  redstone_block: Ngọngọ nke Emerald
+  repeater: Nkume Tinyegharịa
+  comparator: Onye na-achota Nkume
+  piston: Pistin
+  sticky_piston: Nkwụnye pistin
+  slime_block: Mpempe slime
+  honey_block: Gbochie Mmanụ a .ụ
+  observer: Lụrụ
+  hopper: Hopper
+  dispenser: Dispensin
+  dropper: Tụlee
+  lectern: Ozizi
+  target: Ezubere
+  lever: Lever
+  daylight_detector: Onye nchọpụta ìhè
+  tripwire_hook: Nko nke Tripwire
+  trapped_chest: Chest tọrọ atọ
+  tnt: Dynamite
+  redstone_lamp: Redstone Oriọna
+  note_block: Rịba ama Block
+  stone_button: Nkume Bọtịnụ
+  polished_blackstone_button: Mee bọtịnụ ojii
+  oak_button: Akpu Bọtịnụ
+  spruce_button: Spruce Bọtịnụ
+  birch_button: Birch Bọtịnụ
+  jungle_button: Ubi Bọtịnụ
+  acacia_button: Acacia Bọtịnụ
+  dark_oak_button: Itiri Akpu Bọtịnụ
+  crimson_button: Crimson bọtịnụ
+  warped_button: Bọtị Warped
+  stone_pressure_plate: Nkume Nrụgide Nkume
+  polished_blackstone_pressure_plate: Ọkpụkpụ Ejiri Blackstone rụpụtara
+  light_weighted_pressure_plate: Plate Predictive Light
+  heavy_weighted_pressure_plate: Plate Predictive Ebu Arọ Juru
+  oak_pressure_plate: Akpu Plate Stress
+  spruce_pressure_plate: Mpempe akwụkwọ Mgbochi
+  birch_pressure_plate: Plate Strip Press
+  jungle_pressure_plate: Plate Strike Ubi
+  acacia_pressure_plate: Plate Strike Acacia
+  dark_oak_pressure_plate: Itiri Akpu Okpokoro
+  crimson_pressure_plate: Crimson nrụgide Plate
+  warped_pressure_plate: Gburugburu Nrụgide Arụ
   iron_door: N'Ọnụ Ironzọ
   oak_door: Oak Orzọ
   spruce_door: Spruce n'Ọnụ
@@ -573,8 +558,42 @@ material:
   dark_oak_door: Ọchịchịrị Oak
   crimson_door: Crimson Door
   warped_door: Ọnụ ụzọ Alụ ọgụ
-  repeater: Nkume Tinyegharịa
-  comparator: Onye na-achota Nkume
+  iron_trapdoor: Tragwè Trapdoor
+  oak_trapdoor: Akpu Azuuzọ
+  spruce_trapdoor: Ekepu Ahihia
+  birch_trapdoor: Birch Ahihia
+  jungle_trapdoor: Ohia Ahihia
+  acacia_trapdoor: Acacia Ahihia
+  dark_oak_trapdoor: Itiri Akpu Azuuzọ
+  crimson_trapdoor: Crimson Trapdoor
+  warped_trapdoor: Plọ njem dị warara
+  oak_fence_gate: Ọnụ ụzọ ámá Oak
+  spruce_fence_gate: Spruce nsu nsu
+  birch_fence_gate: Ọnụ encezọ encemá Birch
+  jungle_fence_gate: Ọnụ Fzọ encemá Ọhịa
+  acacia_fence_gate: Ọnụ ụzọ ámá Acacia
+  dark_oak_fence_gate: Ọchịchịrị Oak nsu nsu
+  crimson_fence_gate: Crimson Fence Gate
+  warped_fence_gate: Ọnụ ụzọ Fence
+  powered_rail: Ilgbọ okporo ígwè kwadoro
+  detector_rail: Zọ nchọpụta Detector
+  rail: Ilzọ ụgbọ elu
+  activator_rail: Atorzọ Njikwa
+  saddle: Sadulu
+  minecart: Ngwongwo
+  chest_minecart: Ngwongwo na Obi
+  furnace_minecart: Ngwongwo na Ọkụ
+  tnt_minecart: Minecraft with Dinamite
+  hopper_minecart: Ngwongwo na Hopper
+  carrot_on_a_stick: Karọt na Mkpisi
+  warped_fungus_on_a_stick: Fungus achara na osisi
+  elytra: Elytra
+  oak_boat: Oak ụgbọ mmiri
+  spruce_boat: Rugbọ mmiri Spruce
+  birch_boat: 'Chgbọ mmiri Birch '
+  jungle_boat: Unggbọ mmiri nke Ọhịa
+  acacia_boat: Atgbọ mmiri Acacia
+  dark_oak_boat: Ọchịchịrị akpu gbara ọchịchịrị
   structure_block: Nhazi usoro
   jigsaw: Ngọngọ Jigsaw
   turtle_helmet: Shei shei
@@ -586,6 +605,9 @@ material:
   coal: Kol
   charcoal: Unyi
   diamond: Daimọn
+  emerald: Emerald
+  lapis_lazuli: Lapis Lazuli
+  quartz: Neda Quartz
   iron_ingot: Inggwè Ingot
   gold_ingot: Gold ọla
   netherite_ingot: Netherite Ingot
@@ -617,9 +639,9 @@ material:
   diamond_hoe: Daimọn Hoe
   netherite_sword: Mma agha Netherite
   netherite_shovel: Shoezaiteite
-  netherite_pickaxe: Netherite Pickaxe
+  netherite_pickaxe: Pickaxe nke Netherland
   netherite_axe: Axiteite Netherite
-  netherite_hoe: Hoteelu Netherite
+  netherite_hoe: Onye Hoe
   stick: Kọọ
   bowl: Bowl
   mushroom_stew: Egwu Stew
@@ -670,11 +692,7 @@ material:
   bucket: Ịwụ
   water_bucket: Buwụ mmiri
   lava_bucket: Lava ịwụ
-  minecart: Ngwongwo
-  saddle: Sadulu
-  redstone: 'Nkume ustjá '
   snowball: Snowball
-  oak_boat: Oak ụgbọ mmiri
   leather: Akpụkpọ anụ
   milk_bucket: Bucket mmiri ara ehi
   pufferfish_bucket: Bọket nke Pufferfish
@@ -687,8 +705,6 @@ material:
   paper: Akwụkwọ
   book: Akwụkwọ
   slime_ball: Obere egwuregwu
-  chest_minecart: Ngwongwo na Obi
-  furnace_minecart: Ngwongwo na Ọkụ
   egg: Akwa
   compass: Kompas
   fishing_rod: Mkpanaka Azụ
@@ -702,7 +718,6 @@ material:
   cooked_salmon: Salmọn esiri esi
   ink_sac: Ink Nwa
   cocoa_beans: Koko agwa
-  lapis_lazuli: Lapis Lazuli
   white_dye: Na-acha ọcha dai
   orange_dye: Oroma dai
   magenta_dye: Magenta dai
@@ -836,7 +851,6 @@ material:
   fire_charge: Ọkụ ọkụ
   writable_book: Akwụkwọ na njedebe
   written_book: Akwụkwọ ederede
-  emerald: Emerald
   item_frame: Nkebi Ụba
   flower_pot: Ite ifuru
   carrot: Karọt
@@ -851,17 +865,12 @@ material:
   zombie_head: Isi Zombie
   creeper_head: Isi na-akpụ akpụ
   dragon_head: Isi dragọn
-  carrot_on_a_stick: Karọt na Mkpisi
-  warped_fungus_on_a_stick: Fungus achara na osisi
   nether_star: Neda Kpakpando
   pumpkin_pie: Ugu achịcha
   firework_rocket: Igwe ọkụ ọkụ
   firework_star: Igwe ọkụ ọkụ
   enchanted_book: Akwụkwọ enwasị
   nether_brick: Adobe brik
-  quartz: Neda Quartz
-  tnt_minecart: Minecraft with Dinamite
-  hopper_minecart: Ngwongwo na Hopper
   prismarine_shard: Onyediegwu Prismarine
   prismarine_crystals: Kristal Prismarine
   rabbit: Oke oyibo
@@ -907,12 +916,6 @@ material:
   tipped_arrow: Ntuziaka
   lingering_potion: Na-egbu oge
   shield: Ọta
-  elytra: Elytra
-  spruce_boat: Rugbọ mmiri Spruce
-  birch_boat: 'Chgbọ mmiri Birch '
-  jungle_boat: Unggbọ mmiri nke Ọhịa
-  acacia_boat: Atgbọ mmiri Acacia
-  dark_oak_boat: Ọchịchịrị akpu gbara ọchịchịrị
   totem_of_undying: Totem nke Ekwenye
   shulker_shell: Onyekachi shei
   iron_nugget: Ngwunye Irongwè
@@ -951,7 +954,6 @@ material:
   cartography_table: Ihe nkiri Isiokwu
   fletching_table: Isiokwu Fletching
   grindstone: Okpokoro
-  lectern: Ozizi
   smithing_table: Isiokwu Smithing
   stonecutter: Nkume okwute
   bell: Mgbịrịgba
@@ -965,12 +967,8 @@ material:
   bee_nest: Bee akwu
   beehive: Bee
   honey_bottle: Kalama mmanụ a .ụ
-  honey_block: Gbochie Mmanụ a .ụ
   honeycomb_block: Ngọngọ mmanụ a Honeyụ
   lodestone: Lodestone
-  netherite_block: Ogwe nke Netherite
-  ancient_debris: Nkpọrọ ochie
-  target: Ezubere
   crying_obsidian: Ideidi Obsidian
   blackstone: Nwa ojii
   blackstone_slab: Blackstone Slab
@@ -1086,6 +1084,8 @@ material:
   potted_warped_fungus: Fungus akpọrọ akpọ
   potted_crimson_roots: Potted Crimson mgbọrọgwụ
   potted_warped_roots: Mgburugwu Akpọrọ akpụ
+  lapis_block: Ogwe Lapis Lazuli
+  grass_path: Zọ Grass
   zombie_pigman_spawn_egg: Akwa na-akpọ Zombie Ezi
   wall_sign: Mgbidi Nbanye
 biome:
@@ -1094,44 +1094,44 @@ biome:
   crimson_forest: Crimson igbo
   warped_forest: Oke ohia
 enchantment:
-  fire_protection: Nchedo Ọkụ
-  sharpness: Nkọ
-  flame: Ire ọkụ
-  soul_speed: Mkpụrụ Obi Ọsọ
-  aqua_affinity: Njikọ Mmiri
-  punch: Ntụmadị
-  loyalty: Iguzosi ike n'ihe
-  depth_strider: Omimi Strider
-  vanishing_curse: Nkọcha nke Mmebi
-  unbreaking: Na-agbagha
-  knockback: Kụrụ azụ
-  luck_of_the_sea: Oké Osimiri
-  binding_curse: Nkọcha nke indke
-  fortune: Uba
   protection: Nchedo
-  efficiency: Arụ Ọrụ
-  mending: Na-agbazinye ihe
-  frost_walker: Ntu oyi Walker
-  lure: Agara
-  looting: Na-apụnara mmadụ ihe
-  piercing: Kpọpu
-  blast_protection: Gbawara Nchedo
-  smite: Tie
-  multishot: Nnukwugbara
-  fire_aspect: Akụkụ ọkụ
-  channeling: Igha
-  sweeping: Ibulite Onu
-  thorns: Ogwu
-  bane_of_arthropods: Bane nke ogbu na nkwonkwo
-  respiration: Ezumike
-  riptide: Riptide
-  silk_touch: Silk Aka
-  quick_charge: Ndenye Nchaji
-  projectile_protection: Nchekwa oru
-  impaling: Mmetụta
+  fire_protection: Nchedo Ọkụ
   feather_falling: Nkpu nku ya
+  blast_protection: Gbawara Nchedo
+  projectile_protection: Nchekwa oru
+  respiration: Ezumike
+  aqua_affinity: Njikọ Mmiri
+  thorns: Ogwu
+  depth_strider: Omimi Strider
+  frost_walker: Ntu oyi Walker
+  binding_curse: Nkọcha nke indke
+  sharpness: Nkọ
+  smite: Tie
+  bane_of_arthropods: Bane nke ogbu na nkwonkwo
+  knockback: Kụrụ azụ
+  fire_aspect: Akụkụ ọkụ
+  looting: Na-apụnara mmadụ ihe
+  sweeping: Ibulite Onu
+  efficiency: Arụ Ọrụ
+  silk_touch: Silk Aka
+  unbreaking: Na-agbagha
+  fortune: Uba
   power: Ike
+  punch: Ntụmadị
+  flame: Ire ọkụ
   infinity: Njedebe
+  luck_of_the_sea: Oké Osimiri
+  lure: Agara
+  loyalty: Iguzosi ike n'ihe
+  impaling: Mmetụta
+  riptide: Riptide
+  channeling: Igha
+  multishot: Nnukwugbara
+  quick_charge: Ndenye Nchaji
+  piercing: Kpọpu
+  mending: Na-agbazinye ihe
+  vanishing_curse: Nkọcha nke Mmebi
+  soul_speed: Mkpụrụ Obi Ọsọ
 potion:
   uncraftable: Ugbo ala
   water: Kalama Mmiri
@@ -1674,19 +1674,22 @@ banner_pattern:
   '1114125': Agba akwụkwọ ndụ nọdụ Chevron
   '1114126': Uhie Chegharịrị Chevron
   '1114127': Nwa Chegharịrị Nwa
+  '2621444': Èdò imi
+  '2621451': Acha anụnụ imi
+  '2621454': Uhie imi
 music_disk:
   music_disc_13: C418 - 13
-  music_disc_cat: C418 - pusi
-  music_disc_blocks: C418 - nkanka
-  music_disc_chirp: C418 - chiri
-  music_disc_far: C418 - tere aka
-  music_disc_mall: C418 - nnukwu ụlọ ahịa
+  music_disc_cat: C418 - cat
+  music_disc_blocks: C418 - blocks
+  music_disc_chirp: C418 - chirp
+  music_disc_far: C418 - far
+  music_disc_mall: C418 - mall
   music_disc_mellohi: C418 - mellohi
   music_disc_stal: C418 - stal
-  music_disc_strad: C418 - eriri
+  music_disc_strad: C418 - strad
   music_disc_ward: C418 - ward
   music_disc_11: C418 - 11
-  music_disc_wait: C418 - chere
+  music_disc_wait: C418 - wait
   music_disc_pigstep: Lena Raine - Pigstep
 new_banner_pattern:
   flower_banner_pattern: Ifuru n'Aka

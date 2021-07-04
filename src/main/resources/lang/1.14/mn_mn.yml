@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:20:00                    #
+# Build time: 2021-07-04 21:41:57                    #
 # ####################################################
 language:
   code: mn_mn
@@ -7,7 +7,10 @@ language:
   region: Монгол Улс
 material:
   bamboo_sapling: Зулзаган хулс
+  black_terracotta: Хар шавар
+  blue_terracotta: Хөх шавар
   brain_coral_wall_fan: Угалзарсан хананы шүр
+  brown_terracotta: Бор шавар
   bubble_coral_wall_fan: Бөмбөлгөн хананы шүр
   cartography_table: Зураг зүйчийн ширээ
   clay_ball: Шавар
@@ -17,6 +20,7 @@ material:
   cut_sandstone: Гөлгөр элсэн чулуу
   cut_sandstone_slab: Гөлгөр элсэн чулуун хавтан
   cyan_stained_glass: Цайвар хөх будагтай шил
+  cyan_terracotta: Цэнхэр шавар
   dandelion: Багваахай цэцэг
   dead_brain_coral_fan: Үхсэн угалзарсан шүр
   dead_brain_coral_wall_fan: Үхсэн угалзарсан хананы шүр
@@ -46,11 +50,20 @@ material:
   end_stone_brick_stairs: Ээнд чулуун тоосгон шат
   end_stone_brick_wall: Ээнд чулуун тоосгон хана
   fire_coral_wall_fan: Гал хананы шүр
+  gray_terracotta: Саарал шавар
+  green_terracotta: Ногоон шавар
   horn_coral_wall_fan: Эвэр хананы шүр
+  lapis_ore: Номингийн хүдэр
   light_blue_carpet: Цэнхэр хивс
   light_blue_stained_glass: Цэнхэр будагтай шил
   light_blue_stained_glass_pane: Цэнхэр будагтай шилэн хавтан
+  light_blue_terracotta: Цайвар цэнхэр шавар
+  light_gray_terracotta: Цайвар саарал шавар
+  lime_terracotta: Цайвар ногоон шавар
+  magenta_terracotta: Ягаан шавар
   name_tag: Нэртэй зүүлт
+  orange_terracotta: Улбар шар шавар
+  pink_terracotta: Цайвар ягаан шавар
   player_head: Хүний толгой
   player_wall_head: Хүний толгой хананд
   popped_chorus_fruit: Дахилтат жимсний хэлтэрхий
@@ -58,13 +71,20 @@ material:
   potted_oxeye_daisy: Ваартай хонин нүдэн цэцэг
   potted_poppy: Ваартай намуу цэцэг
   powered_rail: Идэвхжсэн төмөр зам
+  purple_terracotta: Нил ягаан шавар
   redstone_wire: Улаан чулууны утас
+  red_terracotta: Улаан шавар
   sea_pickle: Гэрлэн биет
   smooth_quartz: Гөлгөр кварц
-  soul_sand: Сүнстэй элс
+  squid_spawn_egg: Наймаалж төрүүлэх өндөг
+  structure_void: Хоосон
+  terracotta: Шавар
   tipped_arrow: Хортой сум
   tripwire_hook: Тээглүүрийн утасны дэгээ
   tube_coral_wall_fan: Хоолой хананы шүр
+  vine: Ороонги ургамал
+  white_terracotta: Цагаан шавар
+  yellow_terracotta: Шар шавар
   zombie_wall_head: Ханан дээрх зомбины толгой
 biome:
   the_end: Төгсгөл
@@ -112,6 +132,7 @@ tipped_arrow:
   awkward: Хортой сум
 entity:
   vindicator: Хамгаалагч
+  squid: Наймаалж
   fishing_hook: Загасны өгөөш
 effect:
   slow_digging: Удаан ухах

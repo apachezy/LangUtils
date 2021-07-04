@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:20:01                    #
+# Build time: 2021-07-04 21:41:58                    #
 # ####################################################
 language:
   code: sr_sp
@@ -8,10 +8,12 @@ language:
 material:
   acacia_planks: Багремове Даске
   acacia_sapling: Младица Багрема
-  andesite_stairs: Степенице од Андезита
+  acacia_sign: Знак од Акација
+  activator_rail: Пруга активатор
+  andesite_slab: Плота од Андезита
   andesite_wall: Зид од Андезита
-  azure_bluet: Плави Дивљоцвет
   bamboo_sapling: Млади бамбус
+  birch_sign: Знак од Брезе
   birch_trapdoor: Окно од Брезе
   black_shulker_box: Црна Шулкер Кутија
   black_terracotta: Црна Теракота
@@ -20,8 +22,8 @@ material:
   blue_terracotta: Плава Теракота
   brain_coral_block: Наборани корални блок
   brain_coral_fan: Наборана Корална Лепеза
-  brain_coral_wall_fan: Наборани Корална Зидна Лепеза
   brick_wall: Зид од Цигла
+  brown_mushroom_block: Браон блок печурке
   brown_shulker_box: Браон Шулкер Кутија
   brown_terracotta: Браон Теракота
   bubble_column: Колона Мехура
@@ -30,94 +32,121 @@ material:
   bubble_coral_wall_fan: Мехураста Корална Зидна Лепеза
   carved_pumpkin: Изрезбарена бундева
   cat_spawn_egg: Инкарнатор Мачке
-  chain_command_block: Надовезујући командни блок
   clay_ball: Глина
   cobblestone: Блок калдрме
   cobblestone_stairs: Камене степенице
   cobblestone_wall: Зид од камења
   comparator: Редстоун Компаратор
   composter: Компост
-  cooked_cod: Кувани Бакалар
   creeper_banner_pattern: Шара Банера
+  creeper_spawn_egg: Јаје Крипера
   cyan_banner: Светло плава застава
-  cyan_concrete: Тиркизни бетон
-  cyan_concrete_powder: Тиркизни бетон у праху
-  cyan_glazed_terracotta: Теракота са глазуром тиркизне
+  cyan_bed: Цијан кревет
+  cyan_carpet: Цијан тепих
+  cyan_dye: Цијан пигмент
   cyan_shulker_box: Плава Шулкер Кутија
+  cyan_stained_glass: Цијан обојено стакло
+  cyan_stained_glass_pane: Цијан стаклена плоча
   cyan_terracotta: Тиркизна Теракота
   cyan_wall_banner: Светло плава застава
+  cyan_wool: Цијан вуна
   dark_oak_planks: Даске од тамног храстовог дрвета
+  dark_oak_sign: Знак од Мрачног Храста
   dark_oak_stairs: Степеница тамног храста
   dark_prismarine_slab: Тамна Плоча Призмарина
   dead_brain_coral: Мртви Мозгасти Корал
   dead_brain_coral_block: Мртви Наборани Корални Блок
   dead_brain_coral_fan: Мртва Наборана Корална Лепеза
-  dead_brain_coral_wall_fan: Мртва Наборана Корална Зидна Лепеза
   dead_bubble_coral: Мртви Мехурасти Корал
   dead_bubble_coral_block: Мртви Мехурасти Корални Блок
   dead_bubble_coral_fan: Мртва Мехураста Корална Лепеза
-  dead_bubble_coral_wall_fan: Мртва Мехураста Корална Зидна Лепеза
   dead_fire_coral_block: Мртви Ватрени Корални Блок
-  dead_fire_coral_fan: Мртва Ватрена Корална Лепеза
-  dead_fire_coral_wall_fan: Мртва Ватрена Корална Зидна Лепеза
   dead_horn_coral_block: Мртви Рогасти Корални Блок
-  dead_horn_coral_fan: Мртва Рогаста Корална Лепеза
   dead_horn_coral_wall_fan: Мртва Рогаста Корална Зидна Лепеза
   dead_tube_coral: Мртви Цевасти Корал
   dead_tube_coral_block: Мртви Цевасти Блок
   dead_tube_coral_fan: Мртва Цеваста Лепеза
   dead_tube_coral_wall_fan: Мртва Цеваста Корална Зидна Лепеза
   debug_stick: Штап за отклањање грешака
-  diamond_chestplate: Дијамантски оклоп
+  detector_rail: Сензор шина
+  diamond_horse_armor: Дијамантски оклоп за коња
   diamond_pickaxe: Дијамантски пијук
+  diorite_slab: Плоча од Диорита
   diorite_wall: Зид од Диорита
   dried_kelp: Исушена Морска Алга
   drowned_spawn_egg: Јаје воденог
   emerald_ore: Руда Смарагда
   enchanted_golden_apple: Очарана Златна Јабука
-  ender_chest: Ендер Ковчег
+  endermite_spawn_egg: Јаје ендермајта
+  ender_pearl: Ендер Бисер
   end_portal: Енд Портал
   end_rod: Енд Штап
+  end_stone_bricks: Енд камен цигле
+  end_stone_brick_slab: Плоча од камених Енд цигала
   end_stone_brick_stairs: Степенице од Камених Цигла из Краја
+  end_stone_brick_wall: Зид од камених Енд цигала
   evoker_spawn_egg: Јаје Призиватеља
-  experience_bottle: Боца за чини
-  farmland: Обрадиво поље
   fire_charge: Ватрена Лопта
   fire_coral_fan: Ватрена Корална Лепеза
   fire_coral_wall_fan: Ватрена Корална Зидна Лепеза
   flower_banner_pattern: Шара Банера
   fox_spawn_egg: Инкарнатор лисице
   globe_banner_pattern: Шара Барјака
-  golden_chestplate: Златни оклоп
   golden_pickaxe: Златни пијук
+  granite_slab: Плоча од Гранита
   granite_wall: Зид од Гранита
+  gray_dye: Сиви пигмент
   gray_shulker_box: Сива Шулкер Кутија
   gray_terracotta: Сива Теракота
   green_shulker_box: Зелена Шулкер Кутија
   green_terracotta: Зелена Теракота
+  heart_of_the_sea: Срце Мора
   horn_coral: Рогасти Корал
   horn_coral_fan: Рогаста Корална Лепеза
   horn_coral_wall_fan: Рогаста Корална Зидна Лепеза
+  husk_spawn_egg: Јаје пустињског зомбија
   infested_cobblestone: Заражена Калдрма
   infested_mossy_stone_bricks: Заражене маховином прекривене камене цигле
-  iron_chestplate: Гвоздени оклоп
+  ink_sac: Врећица с мастилом
+  iron_horse_armor: Гвоздени оклоп за коња
   jack_o_lantern: Лампион
   jukebox: Музичка кутија
+  jungle_boat: Чамац од дрвета џунгле
+  jungle_button: Дугме од дрвета џунгле
+  jungle_door: Врата дрвета џунгле
+  jungle_fence: Ограда од дрвета џунгле
+  jungle_fence_gate: Капија од дрвета џунгле
+  jungle_leaves: Лишће из џунгле
+  jungle_log: Дрво џунгле
+  jungle_planks: Даске од дрвета из џунгле
+  jungle_pressure_plate: Потисна плоча дрвета џунгле
+  jungle_sapling: Младица дрвета из џунгле
+  jungle_sign: Знак од дрвета из џунгле
+  jungle_slab: Плоча од дрвета из џунгле
+  jungle_stairs: Степенице од дрвета из џунгле
+  jungle_trapdoor: Окно од дрвета џунгле
+  jungle_wall_sign: Знак од дрвета из џунгле за зид
+  jungle_wood: Дрво џунгле
   kelp_plant: Келп Биљка
+  lapis_lazuli: Лапис Лазули
   large_fern: Велика папрат
+  lectern: Фењер
+  light_blue_dye: Светло плави пигмент
   light_blue_shulker_box: Светло Плава Шулкер Кутија
   light_blue_terracotta: Светло Плава Теракота
   light_gray_banner: Светло-сива застава
+  light_gray_dye: Светло сиви пигмент
   light_gray_shulker_box: Светло сива Шулкер Кутија
   light_gray_terracotta: Светло Сива Теракота
   light_gray_wall_banner: Светло-сива застава
-  lime_glazed_terracotta: Теракота са глазуром светлозелене
+  lime_dye: Светло зелени пигмент
   lime_shulker_box: Зелена Шулкер Кутија
   lime_terracotta: Светло зелена Теракота
-  lime_wool: Лимунзелена вуна
-  loom: Радни сто за банере
   magenta_banner: Пурпурна застава
   magenta_concrete: Пурпурноцрвен бетон
+  magenta_concrete_powder: Пурпурноцрвен бетон у праху
+  magenta_dye: Магента пигмент
+  magenta_glazed_terracotta: Теракота са глазуром Пурпурноцрвене
   magenta_shulker_box: Пурпурноцрвена Шулкер Кутија
   magenta_terracotta: Пурпурноцрвена Теракота
   magenta_wall_banner: Пурпурна застава
@@ -125,37 +154,55 @@ material:
   mooshroom_spawn_egg: Јаје муушрума
   mossy_cobblestone_wall: Зид од камења са маховином
   mossy_stone_bricks: Маховином прекривене камене цигле
+  mossy_stone_brick_stairs: Степенице од цигла са маховином
   mossy_stone_brick_wall: Зид од Камених Цигла са Маховином
   mushroom_stew: Чорба од печурака
+  nautilus_shell: Оклоп Наутилуса
+  nether_brick_fence: Ограда од недер цигле
+  nether_brick_stairs: Степенице од недер цигле
   nether_brick_wall: Зид од Цигла из Недера
   nether_portal: Портал Пакла
   nether_quartz_ore: Руда беспутског кварца
+  nether_wart_block: Недер лишај
   oak_fence: Храстова Ограда
   oak_fence_gate: Капија
   oak_stairs: Степенице од храстовине
   oak_trapdoor: Окно од Храстовине
+  orange_dye: Наранџасти пигмент
   orange_shulker_box: Наранџаста Шулкер Кутија
   orange_terracotta: Наранџаста Теракота
   orange_tulip: Наранџаста Лала
   oxeye_daisy: Бела Рада
   panda_spawn_egg: Инкарнатор Панде
+  phantom_membrane: Фантом Мембрана
   pillager_spawn_egg: Јаје Злог Сељака
   pink_bed: Пинк кревет
   pink_concrete: Пинк бетон
+  pink_concrete_powder: Пинк бетон у праху
+  pink_dye: Розе пигмент
+  pink_glazed_terracotta: Теракота са пинк глазуром
   pink_shulker_box: Роза Шулкер Кутија
   pink_terracotta: Пинк Теракота
   pink_tulip: Розе Лала
   player_wall_head: Зидна Глава играча
+  polished_andesite: Изгланчан андезит
+  polished_andesite_slab: Глатка Плоча од Андезита
   polished_andesite_stairs: Глатке Степенице од андезита
+  polished_diorite: Изгланчан диорит
+  polished_diorite_slab: Глатка Плоча од Диорита
   polished_diorite_stairs: Глатке Степенице од Диорита
+  polished_granite: Изгланчан гранит
+  polished_granite_slab: Глатка Плоча од Гранита
   polished_granite_stairs: Глатке Степенице од Гранита
+  popped_chorus_fruit: Пукнуто хорус воће
+  potted_jungle_sapling: Засађена младица дрвета из џунгле
   prismarine_brick_slab: Плоча Призмаринске Цигле
   prismarine_brick_stairs: Степенице Призмаринске Цигле
-  prismarine_crystals: Кристал призмарина
   prismarine_slab: Плоча Призмарина
   prismarine_wall: Зид од Призмарина
   pufferfish_bucket: Канта Пумпица
   pufferfish_spawn_egg: Јаје Пумпице
+  purple_dye: Љубичасти пигмент
   purple_shulker_box: Љубичаста Шулкер Кутија
   purple_terracotta: Љубичаста Теракота
   rabbit_stew: Гулаш од зеца
@@ -166,6 +213,10 @@ material:
   redstone_ore: Редстоун Руда
   redstone_torch: Редстоун Бакља
   redstone_wall_torch: Редстоун Зидна Бакља
+  redstone_wire: Редстоун Жица
+  red_mushroom_block: Црвени блок печурке
+  red_nether_bricks: Црвене недер цигле
+  red_nether_brick_slab: Плоча од Црвених Цигла из Недера
   red_nether_brick_stairs: Степенице од Црвених Цигла из Недера
   red_nether_brick_wall: Зид од Црвених Цигла из Недера
   red_sandstone_wall: Зид од Црвеног Пешчара
@@ -179,31 +230,33 @@ material:
   seagrass: Водена трава
   sea_pickle: Морски Краставац
   shield: Štit
-  shulker_box: Шулкер Кутија
   shulker_shell: Шулкер Љуска
-  shulker_spawn_egg: Јаје шулкера
   skeleton_wall_skull: Зидна Костурова лобања
   skull_banner_pattern: Шара Банера
   smoker: Пушач
   smooth_quartz: Гладак кварц
-  smooth_quartz_stairs: Глатке Степенице од Кварца
+  smooth_quartz_slab: Глатка Плоча од Кварца
+  smooth_red_sandstone_slab: Глатка Плоча од Црвеног Пешчара
   smooth_red_sandstone_stairs: Глатке Степенице од Црвеног Пешчара
-  smooth_sandstone_stairs: Глатке Степенице од Пешчара
+  smooth_sandstone_slab: Глатка Плоча од Пешчара
   smooth_stone_slab: Глатка Камена Плоча
   soul_sand: Песак душе
-  stone_brick_slab: Плоча од камених цигли
+  spruce_boat: Чамац од смрче
+  spruce_sign: Знак од Смреке
+  stonecutter: Резач Камена
   stone_brick_wall: Зид од Камених Цигли
   stone_pickaxe: Камени пијук
   stone_slab: |
     Камени степеник
   stripped_jungle_log: Огуљени Огранак џунгле
+  stripped_jungle_wood: Огуљено дрво џунгле
   suspicious_stew: Сумњива супа
   tall_seagrass: Висока Водена Трава
   tnt_minecart: Колица са ТНТ-ом
   trader_llama_spawn_egg: Инкарнатор трговачке ламе
   tube_coral_block: Цевацти корални блок
   tube_coral_fan: Цеваста Корална Лепеза
-  tube_coral_wall_fan: Цеваста Корална Зидна Лепеза
+  turtle_helmet: Оклоп Корњаче
   wandering_trader_spawn_egg: Инкарнатор лутајућег трговца
   white_shulker_box: Бела Шулкер Кутија
   white_terracotta: Бела Теракота
@@ -213,27 +266,42 @@ material:
   wither_skeleton_wall_skull: Зидна Лобања видер костура
   yellow_shulker_box: Жута Шулкер Кутија
   yellow_terracotta: Жута Теракота
+  zombie_villager_spawn_egg: Јаје сељака зомбија
   zombie_wall_head: Зидна Глава зомбија
 biome:
+  jungle: Џунгла
+  jungle_hills: Брда Џунгле
+  jungle_edge: Ивица Џунгле
   modified_jungle: Модификована Џунгла
   modified_jungle_edge: Модификована ивица Џунгле
   modified_wooded_badlands_plateau: Модификовани шумовити бесплодни плато
   modified_badlands_plateau: Модификовани бесплодни плато
   bamboo_jungle: Џунгла Бамбзса
+  bamboo_jungle_hills: Брдаста Џунгла Бамбуса
 enchantment:
   efficiency: Продуктивност
   smite: Моћни удар
+lingering_potion:
+  turtle_master: Дуготрајни Напитак Госоподара Корњаче
+  slow_falling: Дуготрајни Напитак Спорог Падања
 tipped_arrow:
+  turtle_master: Стрела Господара Корњаче
   slow_falling: Стрела Спорог Падања
 entity:
-  thrown_exp_bottle: Бачена чаробна флаша
+  wither_skeleton: Видер скелетон
   husk: Љуска
+  zombie_villager: Зомби Сељак
+  skeleton_horse: Костурски Коњ
   minecart_tnt: Колица са ТНТ-ом
+  ender_dragon: Ендер Змај
   drowned: Удављен
 tropical_fish_type:
   sunstreak: Суначана пругаста риба
+dye_color:
+  cyan: Цијан
 colored_shied:
   orange: Наранџасти Штит
+  magenta: Магента Штит
   light_blue: Светло плави Штит
   lime: Светло зелени Штит
   pink: Розе Штит
@@ -310,11 +378,15 @@ banner_pattern:
   '262158': Црвени квадрат злокобни кантон
   '262159': Црни квадрат злокобни кантон
   '327686': Пинк доњи део
+  '327689': Цијан доњи део
+  '393225': Цијан горњи део
   '458752': Бели бледи декстер
   '458753': Наранджасти блед декстер
+  '458754': Магента блед декстер
   '458755': светло плави блед декстер
   '458756': Жути блед декстер
   '458757': светло зелена бледа декстер
+  '458761': Цијан леви стуб
   '524288': Бели бледи Злокобни
   '524289': Наранджасти бледи Злокобни
   '524290': Магента бледи Злокобни
@@ -347,22 +419,8 @@ banner_pattern:
   '589837': Зелени бледи
   '589838': Црвени бледи
   '589839': Црни бледи
-  '655360': Бели фес
-  '655361': Наранџасти фес
-  '655362': Магента фес
-  '655363': Светло плави фес
-  '655364': Жути Фес
-  '655365': Светло зелени Фес
   '655366': Пинк Фес
-  '655367': Сиви Фес
-  '655368': Светло сиви Фес
   '655369': Цијан Фес
-  '655370': Љубичасти Фес
-  '655371': Плави Фес
-  '655372': Браон Фес
-  '655373': Зелени Фес
-  '655374': Црвени Фес
-  '655375': Црни Фес
   '720896': Бела крива
   '720897': Наранџаста крива
   '720898': Магента крива
@@ -397,20 +455,7 @@ banner_pattern:
   '786447': Црна крива на десно
   '851968': Бело бледи
   '851969': Наранджасто бледи
-  '851970': Магента пруге
-  '851971': Светло плаве пруге
-  '851972': Жуте пруге
-  '851973': Светло зелене пруге
-  '851974': Розе пруге
-  '851975': Сиве пруге
-  '851976': Светло сиве пруге
   '851977': Цијан пруге
-  '851978': Љубичасте пруге
-  '851979': Плаве пруге
-  '851980': Браон пруге
-  '851981': Зелене пруге
-  '851982': Црвене пруге
-  '851983': Црне пруге
   '917504': Бела салтира
   '917505': Наранџаста салтира
   '917506': Магента салтира
@@ -427,7 +472,9 @@ banner_pattern:
   '917517': Зелена салтира
   '917518': Црвена салтира
   '917519': Црна салтира
-  '983049': Тиркизни крст
+  '983046': Пинк крст
+  '1048585': Цијан пирамида
+  '1114121': Цијан обрнута пирамида
   '1179648': Бела увучена основа
   '1179649': Наранџаста увучена основа
   '1179650': Магента увучена основа
@@ -524,6 +571,15 @@ banner_pattern:
   '1507341': Зелена косина
   '1507342': Црвена косина
   '1507343': Црна косина
+  '1572873': Цијан кружић
+  '1638409': Цијан ромб
+  '1703945': Цијан лева половина
+  '1769481': Цијан горња половина
+  '1835017': Цијан десна половина
+  '1900553': Ција доња половина
+  '1966080': Бела бордура
+  '1966081': Наранджаста бордура
+  '1966089': Цијан оквир
   '2031616': Бела бордура увучена
   '2031617': Наранджаста бордура увучена
   '2031618': Магента бордура увучена
@@ -540,6 +596,9 @@ banner_pattern:
   '2031629': Зелена бордура увучена
   '2031630': Црвена бордура увучена
   '2031631': црна бордура увучена
+  '2097161': Цијан крипер
+  '2162697': Цијан градијент
+  '2228233': Цијан градијент нагоре
   '2293760': Бела цигла
   '2293761': Наранџаста цигла
   '2293762': Магента цигла
@@ -547,6 +606,7 @@ banner_pattern:
   '2293764': Жута цигла
   '2293765': Светло зелена цигла
   '2293766': Розе цигла
+  '2293767': Сива цигла
   '2293768': Светло сива цигла
   '2293769': Цијан цигла
   '2293770': Љубичаста цигла
@@ -555,6 +615,10 @@ banner_pattern:
   '2293773': Зелена цигла
   '2293774': Црвена цигла
   '2293775': Црна цигла
-  '2490377': Тиркизна ствар
+  '2359305': Цијан лобања
+  '2424841': Цијан цвет
+  '2490374': Ружичаста ствар
+  '2555906': Пурпурни глобус
+  '2555907': Светлоплави глобус
   '2555909': Светлозелени глобус
-  '2555913': Тиркизни глобус
+  '2555912': Светлосиви глобус

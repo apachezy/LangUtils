@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:46                    #
+# Build time: 2021-07-04 21:46:02                    #
 # ####################################################
 language:
   code: de_ch
@@ -14,39 +14,103 @@ material:
   polished_diorite: Polierte Diorit
   andesite: Andesit
   polished_andesite: Polierte Andesit
+  deepslate: Tüfschiefer
+  cobbled_deepslate: Bruchtüfschiefer
+  polished_deepslate: Polierte Tüfschiefer
+  calcite: Kalzit
+  tuff: Tuffstei
+  dripstone_block: Tropfsteiblock
   grass_block: Grasblock
   dirt: Erde
   coarse_dirt: Grobi Erde
   podzol: Podsol
+  rooted_dirt: Wurzelerde
   crimson_nylium: Karmesin-Nezel
   warped_nylium: Wirr-Nezel
   cobblestone: Bruchstei
-  oak_planks: Eicheholzbrätter
+  oak_planks: Eicheholzbretter
   spruce_planks: Fichteholzbretter
   birch_planks: Birkeholzbrätter
   jungle_planks: Dschungelholzbretter
   acacia_planks: Akazieholzbretter
-  dark_oak_planks: Schwarzeicheholzbrätter
+  dark_oak_planks: Schwarzeicheholzbretter
   crimson_planks: Karmesinholzbrätter
-  warped_planks: Zerrholzbretter
+  warped_planks: Wirrholzbretter
   oak_sapling: Eichesetzling
   spruce_sapling: Fichtesetzling
   birch_sapling: Birkesetzling
-  jungle_sapling: Tropebaumsetzling
+  jungle_sapling: Dschungelbaumsetzling
   acacia_sapling: Akaziesetzling
   dark_oak_sapling: Schwarzeichesetzling
   bedrock: Grundgstei
   sand: Sand
   red_sand: Rote Sand
   gravel: Chis
-  gold_ore: Golderz
-  iron_ore: Iseerz
   coal_ore: Steichole
+  deepslate_coal_ore: Tüfschiefer-Steichole
+  iron_ore: Iseerz
+  deepslate_iron_ore: Tüfschiefer-Iseerz
+  copper_ore: Chupfererz
+  deepslate_copper_ore: Tüfschiefer-Chupfererz
+  gold_ore: Golderz
+  deepslate_gold_ore: Tüfschiefer-Golderz
+  redstone_ore: Redstone-Erz
+  deepslate_redstone_ore: Tüfschiefer-Redstone-Erz
+  emerald_ore: Smaragderz
+  deepslate_emerald_ore: Tüfschiefer-Smaragderz
+  lapis_ore: Lapislazulierz
+  deepslate_lapis_ore: Tüfschiefer-Lapislazulierz
+  diamond_ore: Diamanterz
+  deepslate_diamond_ore: Tüfschiefer-Diamanterz
   nether_gold_ore: Nethergolderz
+  nether_quartz_ore: Netherquarzerz
+  ancient_debris: Antike Schrott
+  coal_block: Choleblock
+  raw_iron_block: Rohiseblock
+  raw_copper_block: Rohchupferblock
+  raw_gold_block: Rohgoldblock
+  amethyst_block: Amethystblock
+  budding_amethyst: Amethystknospeblock
+  iron_block: Iseblock
+  copper_block: Chupferblock
+  gold_block: Goldblock
+  diamond_block: Diamantblock
+  netherite_block: Netheritblock
+  exposed_copper: Aglaufener Chupferblock
+  weathered_copper: Verwitterete Chupferblock
+  oxidized_copper: Oxidierte Chupferblock
+  cut_copper: Gschnittene Chupferblock
+  exposed_cut_copper: Aglaufene gschnittene Chupferblock
+  weathered_cut_copper: Verwitterte gschnittene Chupferblock
+  oxidized_cut_copper: Oxidierte gschnittene Chupferblock
+  cut_copper_stairs: Gschnitteni Chupferstäge
+  exposed_cut_copper_stairs: Aglaufeni gschnitteni Chupferstäge
+  weathered_cut_copper_stairs: Verwitterti Chupferstäge
+  oxidized_cut_copper_stairs: Oxidierti gschnitteni Chupferstäge
+  cut_copper_slab: Gschnitteni Chupferstufe
+  exposed_cut_copper_slab: Aglaufeni gschnitteni Chupferstufe
+  weathered_cut_copper_slab: Verwitterti gschnitteni Chupferstufe
+  oxidized_cut_copper_slab: Oxidierti gschnitteni Chupferstufe
+  waxed_copper_block: Gwachste Chupferblock
+  waxed_exposed_copper: Gwachste aglaufene Chupferblock
+  waxed_weathered_copper: Gwachste verwitterete Chupferblock
+  waxed_oxidized_copper: Gwachste aglaufene Chupferblock
+  waxed_cut_copper: Gwachste gschnittene Chupferblock
+  waxed_exposed_cut_copper: Gwachste aglaufene gschnittene Chupferblock
+  waxed_weathered_cut_copper: Gwachste verwitterete gschnittene Chupferblock
+  waxed_oxidized_cut_copper: Gwachste oxidierte gschnittene Chupferblock
+  waxed_cut_copper_stairs: Gwachsti gschnitteni Chupferstäge
+  waxed_exposed_cut_copper_stairs: Gwachsti aglaufeni gschnitteni Chupferstäge
+  waxed_weathered_cut_copper_stairs: Gwachsti verwittereti gschnitteni Chupferstäge
+  waxed_oxidized_cut_copper_stairs: Gwachsti oxidierti gschnitteni Chupferstäge
+  waxed_cut_copper_slab: Gwachsti gschnitteni Chupferstufe
+  waxed_exposed_cut_copper_slab: Gwachsti aglaufeni gschnitteni Chupferstufe
+  waxed_weathered_cut_copper_slab: Gwachsti verwittereti gschnitteni Chupferstufe
+  waxed_oxidized_cut_copper_slab: Gwachsti oxidierti gschnitteni Chupferstufe
   oak_log: Eicheholz
   spruce_log: Fichtestamm
   birch_log: Birkeholz
-  jungle_log: Dschungelstamm
+  jungle_log: Dschungelholzstamm
   acacia_log: Akaziestamm
   dark_oak_log: Schwarzeicheholz
   crimson_stem: Karmesinholz
@@ -54,15 +118,15 @@ material:
   stripped_oak_log: Entrindete Eichestamm
   stripped_spruce_log: Entrindete Fichtestamm
   stripped_birch_log: Entrindete Birkestamm
-  stripped_jungle_log: Entrindete Dschungelstamm
+  stripped_jungle_log: Entrindete Dschungelholzstamm
   stripped_acacia_log: Entrindete Akaziestamm
   stripped_dark_oak_log: Entrindete Schwarzeichestamm
   stripped_crimson_stem: Entrindets Karmesinholz
   stripped_warped_stem: Entrindets Wirrholz
   stripped_oak_wood: Entrindets Eicheholz
   stripped_spruce_wood: Entrindets Fichteholz
-  stripped_birch_wood: Entrindetäs Birkäholz
-  stripped_jungle_wood: Entrindetäs Tropeholz
+  stripped_birch_wood: Entrindets Birkeholz
+  stripped_jungle_wood: Entrindets Dschungelholz
   stripped_acacia_wood: Entrindets Akazieholz
   stripped_dark_oak_wood: Entrindets Schwarzeicheholz
   stripped_crimson_hyphae: Entrindete Karmesinhyphe
@@ -81,26 +145,24 @@ material:
   jungle_leaves: Tropebaumlaub
   acacia_leaves: Akazielaub
   dark_oak_leaves: Schwarzeichelaub
+  azalea_leaves: Azaleelaub
+  flowering_azalea_leaves: Blühendes Azaleelaub
   sponge: Schwamm
   wet_sponge: Nasse Schwamm
   glass: Glas
-  lapis_ore: Lapislazulierz
+  tinted_glass: Tönts Glas
   lapis_block: Lapislazuliblock
-  dispenser: Wärfer
   sandstone: Sandstei
   chiseled_sandstone: Gmeisselte Sandstei
   cut_sandstone: Gschnittene Sandstei
-  note_block: Noteblock
-  powered_rail: Atriebsschine
-  detector_rail: Sensorgleis
-  sticky_piston: Chläbrigä Cholbä
   cobweb: Spinnenetz
   grass: Gras
   fern: Farn
+  azalea: Azalee
+  flowering_azalea: Blühende Azalee
   dead_bush: Tote Busch
   seagrass: Seegras
   sea_pickle: Meeresgorke
-  piston: Cholbä
   white_wool: Wissi Wulle
   orange_wool: Orangi Wulle
   magenta_wool: Magenta Wulle
@@ -130,6 +192,7 @@ material:
   cornflower: Chornblueme
   lily_of_the_valley: Maiglöckli
   wither_rose: Witherrose
+  spore_blossom: Sporeblüete
   brown_mushroom: Brune Pilz
   red_mushroom: Rote Pilz
   crimson_fungus: Karmesinpilz
@@ -141,9 +204,12 @@ material:
   twisting_vines: Zwirbelranke
   sugar_cane: Zockerrohr
   kelp: Seetang
+  moss_carpet: Moosteppich
+  moss_block: Moosblock
+  hanging_roots: Hängendi Wurzle
+  big_dripleaf: Grosses Tropfblatt
+  small_dripleaf: Chliises Tropfblatt
   bamboo: Bumbus
-  gold_block: Goldblock
-  iron_block: Iseblock
   oak_slab: Eicheholzstufe
   spruce_slab: Fichteholzstufe
   birch_slab: Birkeholzstufe
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: Glatte Sandstei
   smooth_stone: Glatte Stei
   bricks: Ziegelstei
-  tnt: TNT
   bookshelf: Büecherregal
   mossy_cobblestone: Bemooste Buchstei
   obsidian: Obsidian
@@ -187,27 +252,11 @@ material:
   spawner: Spawner
   oak_stairs: Eicheholzstäge
   chest: Chischte
-  diamond_ore: Diamanterz
-  diamond_block: Diamantblock
   crafting_table: Werkbank
   farmland: Ackerbode
   furnace: Ofe
   ladder: Leitere
-  rail: Schine
   cobblestone_stairs: Brochsteistäge
-  lever: Hebel
-  stone_pressure_plate: Stei Drockplatte
-  oak_pressure_plate: Eicheholz Drockplatte
-  spruce_pressure_plate: Fichteholzdruckplatte
-  birch_pressure_plate: Beirkeholz Drockplatte
-  jungle_pressure_plate: Dschungelholzdruckplatte
-  acacia_pressure_plate: Akazieholzdruckplatte
-  dark_oak_pressure_plate: Schwarzeicheholz Drockplatte
-  crimson_pressure_plate: Karmesinholzdruckplattä
-  warped_pressure_plate: Wirrholzdruckplatte
-  polished_blackstone_pressure_plate: Polierti Schwarzsteidruckplatte
-  redstone_ore: Redstone-Erz
-  redstone_torch: Redstone-Fackle
   snow: Schnee
   ice: Iis
   snow_block: Schneeblock
@@ -215,41 +264,40 @@ material:
   clay: Ton
   jukebox: Plattespeler
   oak_fence: Eicheholzhaag
-  spruce_fence: Fichteholzzaun
-  birch_fence: Berkeholzhaag
-  jungle_fence: Dschungelholzzaun
-  acacia_fence: Akazieholzzaun
+  spruce_fence: Fichteholzhaag
+  birch_fence: Birkeholzhaag
+  jungle_fence: Dschungelholzhaag
+  acacia_fence: Akazieholzhaag
   dark_oak_fence: Schwarzeicheholzhaag
   crimson_fence: Karmesinholzhaag
   warped_fence: Wirrholzzaun
   pumpkin: Chürbis
   carved_pumpkin: Gschnetzte Chürbis
+  jack_o_lantern: Chürbislaterne
   netherrack: Netherrack
   soul_sand: Seelesand
   soul_soil: Seeleerde
   basalt: Basalt
   polished_basalt: Polierte Basalt
+  smooth_basalt: Glatte Basalt
   soul_torch: Seelefackle
-  glowstone: Lüchtstei
-  jack_o_lantern: Chürbislaterne
-  oak_trapdoor: Eicheholzfalltür
-  spruce_trapdoor: Fichteholzfalltür
-  birch_trapdoor: Birkeholzfalltür
-  jungle_trapdoor: Dschungelholzfalltür
-  acacia_trapdoor: Akazieholzfalltür
-  dark_oak_trapdoor: Schwarzeicheholzfalltür
-  crimson_trapdoor: Karmesinholzfalltür
-  warped_trapdoor: Wirrholzfalltür
+  glowstone: Glowstone
   infested_stone: Infizierte Stei
   infested_cobblestone: Infizierte Buchstei
   infested_stone_bricks: Infizierte Steiziegel
   infested_mossy_stone_bricks: Infizierte bemooste Steiziegel
   infested_cracked_stone_bricks: Infizierte rissige Steiziegel
   infested_chiseled_stone_bricks: Infizierte gmeisselte Steiziegel
+  infested_deepslate: Befallene Tüfschiefer
   stone_bricks: Steiziegel
   mossy_stone_bricks: Bemooste Steiziegel
   cracked_stone_bricks: Rissige Steiziegel
   chiseled_stone_bricks: Gmeisselte Steiziegel
+  deepslate_bricks: Tüfschieferziegel
+  cracked_deepslate_bricks: Rissigi Tüfschieferziegel
+  deepslate_tiles: Tüfschieferfliese
+  cracked_deepslate_tiles: Rissigi Tüfschieferfliese
+  chiseled_deepslate: Gmeisselte Tüfschiefer
   brown_mushroom_block: Brune Pilzblock
   red_mushroom_block: Rote Pilzblock
   mushroom_stem: Pilzstiel
@@ -258,14 +306,7 @@ material:
   glass_pane: Glasschibe
   melon: Melone
   vine: Rankä
-  oak_fence_gate: Eicheholzhaagtor
-  spruce_fence_gate: Fichteholzzauntür
-  birch_fence_gate: Berkeholzhaagtor
-  jungle_fence_gate: Dschungelholzzauntor
-  acacia_fence_gate: Akazieholzzauntür
-  dark_oak_fence_gate: Schwarzeicheholzhaagtor
-  crimson_fence_gate: Karmesinholzhaagtor
-  warped_fence_gate: Wirrholzzauntür
+  glow_lichen: Lüchtflechte
   brick_stairs: Ziegelstäge
   stone_brick_stairs: Steiziegelstäge
   mycelium: Myzel
@@ -280,11 +321,8 @@ material:
   end_stone: Endstei
   end_stone_bricks: Endsteiziegel
   dragon_egg: Dracheei
-  redstone_lamp: Redstone-Lampe
   sandstone_stairs: Sandsteistäge
-  emerald_ore: Smaragderz
   ender_chest: Enderchischte
-  tripwire_hook: Hakä
   emerald_block: Smaragdblock
   spruce_stairs: Fichteholzstäge
   birch_stairs: Birkeholzstäge
@@ -310,33 +348,18 @@ material:
   blackstone_wall: Schwarzsteimur
   polished_blackstone_wall: Polierti Schwarzsteimur
   polished_blackstone_brick_wall: Polierti Schwarzsteiziegelmur
-  stone_button: Steichnopf
-  oak_button: Eichechnopf
-  spruce_button: Fichtechnopf
-  birch_button: Birkechnopf
-  jungle_button: Dschungelchnopf
-  acacia_button: Akaziechnopf
-  dark_oak_button: Schwarzeichechnopf
-  crimson_button: Karmesinholzchnopf
-  warped_button: Wirrholzchnopf
-  polished_blackstone_button: Polierte Schwarzsteichnopf
+  cobbled_deepslate_wall: Bruchtüfschiefermur
+  polished_deepslate_wall: Polierti Tüfschiefermur
+  deepslate_brick_wall: Tüfschieferziegelmur
+  deepslate_tile_wall: Tüfschieferfliesemur
   anvil: Amboss
   chipped_anvil: Agschlagenä Amboss
   damaged_anvil: Beschädigtä Amboss
-  trapped_chest: Redstone-Chischte
-  light_weighted_pressure_plate: Liechtgwecht Drockplatte
-  heavy_weighted_pressure_plate: Schwergwecht Drockplatte
-  daylight_detector: Tagesliechtsensor
-  redstone_block: Redstone-Block
-  nether_quartz_ore: Netherquarzerz
-  hopper: Trichter
   chiseled_quartz_block: Gmeisselte Quarzblock
   quartz_block: Quarzblock
   quartz_bricks: Quarzziegel
   quartz_pillar: Quarzsüüli
   quartz_stairs: Quarzstäge
-  activator_rail: Aktivierigsschine
-  dropper: Spänder
   white_terracotta: Wisse Keramik
   orange_terracotta: Orange Keramik
   magenta_terracotta: Magenta Keramik
@@ -348,13 +371,13 @@ material:
   light_gray_terracotta: Hellgraue Keramik
   cyan_terracotta: Türkise Keramik
   purple_terracotta: Violette Keramik
-  blue_terracotta: Blaui Keramik
+  blue_terracotta: Blaue Keramik
   brown_terracotta: Brune Keramik
-  green_terracotta: Grüeni Keramik
-  red_terracotta: Roti Keramik
-  black_terracotta: Schwarzi Keramik
+  green_terracotta: Grüene Keramik
+  red_terracotta: Rote Keramik
+  black_terracotta: Schwarze Keramik
   barrier: Barriere
-  iron_trapdoor: Isefalltür
+  light: Liechtblock
   hay_block: Heuballe
   white_carpet: Wisse Teppich
   orange_carpet: Orange Teppich
@@ -373,12 +396,10 @@ material:
   red_carpet: Rote Teppich
   black_carpet: Schwarze Teppich
   terracotta: Keramik
-  coal_block: Choleblock
   packed_ice: Packiis
   acacia_stairs: Akazieholzstäge
   dark_oak_stairs: Schwarzeichestäge
-  slime_block: Schleimblock
-  grass_path: Erdwägli
+  dirt_path: Trampelpfad
   sunflower: Sunneblueme
   lilac: Fliedere
   rose_bush: Rosebusch
@@ -432,11 +453,10 @@ material:
   chain_command_block: Chettä Befehlsblock
   magma_block: Magmablock
   nether_wart_block: Netherwarzeblock
-  warped_wart_block: Zerrwarzeblock
+  warped_wart_block: Wirrwarzeblock
   red_nether_bricks: Rote Netherziegel
-  bone_block: Chnocheblock
+  bone_block: Chnochäblock
   structure_void: Konstruktionsläri
-  observer: Beobachter
   shulker_box: Shulkerchischte
   white_shulker_box: Wissi Shulkerchischte
   orange_shulker_box: Orangi Shulkerchischte
@@ -460,16 +480,16 @@ material:
   light_blue_glazed_terracotta: Hellblaue glasierte Keramik
   yellow_glazed_terracotta: Gelbe glasierte Keramik
   lime_glazed_terracotta: Hellgrüene glasierte Keramik
-  pink_glazed_terracotta: Pink glasierti Keramik
-  gray_glazed_terracotta: Grau glasierti Keramik
-  light_gray_glazed_terracotta: Hellgrau glasierti Keramik
+  pink_glazed_terracotta: Pink glasierte Keramik
+  gray_glazed_terracotta: Grau glasierte Keramik
+  light_gray_glazed_terracotta: Hellgrau glasierte Keramik
   cyan_glazed_terracotta: Türkise glasierte Keramik
-  purple_glazed_terracotta: Violett glasierti Keramik
-  blue_glazed_terracotta: Blau glasierti Keramik
+  purple_glazed_terracotta: Violette glasierte Keramik
+  blue_glazed_terracotta: Blaue glasierte Keramik
   brown_glazed_terracotta: Brune glasierte Keramik
-  green_glazed_terracotta: Grüen glasierti Keramik
-  red_glazed_terracotta: Rot glasierti Keramik
-  black_glazed_terracotta: Schwarz glasierti Keramik
+  green_glazed_terracotta: Grüene glasierte Keramik
+  red_glazed_terracotta: Rote glasierte Keramik
+  black_glazed_terracotta: Schwarz glasierte Keramik
   white_concrete: Wisse Beton
   orange_concrete: Orange Beton
   magenta_concrete: Magenta Beton
@@ -486,22 +506,22 @@ material:
   green_concrete: Grüene Beton
   red_concrete: Rote Beton
   black_concrete: Schwarze Beton
-  white_concrete_powder: Wisse Trockebeton
-  orange_concrete_powder: Orange Trockebeton
-  magenta_concrete_powder: Magenta Trockebeton
-  light_blue_concrete_powder: Hellblaue Trockebeton
+  white_concrete_powder: Wisse Trochebeton
+  orange_concrete_powder: Orange Trochebeton
+  magenta_concrete_powder: Magenta Trochebeton
+  light_blue_concrete_powder: Hellblaue Trochebeton
   yellow_concrete_powder: Gelbe Trockebeton
-  lime_concrete_powder: Hellgrüene Trockebeton
-  pink_concrete_powder: Pinke Trockebeton
-  gray_concrete_powder: Graue Trockebeton
-  light_gray_concrete_powder: Hellgraue Trockebeton
-  cyan_concrete_powder: Türkise Trockebeton
-  purple_concrete_powder: Violette Trockebeton
-  blue_concrete_powder: Blaue Trockebeton
-  brown_concrete_powder: Brune Trockebeton
-  green_concrete_powder: Grüene Trockebeton
-  red_concrete_powder: Rote Trockebeton
-  black_concrete_powder: Schwarze Trockebeton
+  lime_concrete_powder: Hellgrüene Trochebeton
+  pink_concrete_powder: Pinke Trochebeton
+  gray_concrete_powder: Graue Trochebeton
+  light_gray_concrete_powder: Hellgraue Trochebeton
+  cyan_concrete_powder: Türkise Trochebeton
+  purple_concrete_powder: Violette Trochebeton
+  blue_concrete_powder: Blaue Trochebeton
+  brown_concrete_powder: Brune Trochebeton
+  green_concrete_powder: Grüene Trochebeton
+  red_concrete_powder: Rote Trochebeton
+  black_concrete_powder: Schwarze Trochebeton
   turtle_egg: Schildchroteei
   dead_tube_coral_block: Abgstorbäna Orgelkoralläblock
   dead_brain_coral_block: Abgstorbenä Hirnkoralläblock
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: Roti Netherziegelstäge
   polished_andesite_stairs: Polierti Andesitstäge
   diorite_stairs: Dioritstäge
+  cobbled_deepslate_stairs: Bruchtüfschieferstäge
+  polished_deepslate_stairs: Polierti Tüfschieferstäge
+  deepslate_brick_stairs: Tüfschieferziegelstäge
+  deepslate_tile_stairs: Tüfschieferfliesestäge
   polished_granite_slab: Polierti Granitstufe
   smooth_red_sandstone_slab: Glatti roti Sandsteistufe
   mossy_stone_brick_slab: Bemoosti Steiziegelstufe
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: Roti Netherziegelstufe
   polished_andesite_slab: Polierti Andesitstufe
   diorite_slab: Dioritstufe
+  cobbled_deepslate_slab: Bruchtüfschieferstufe
+  polished_deepslate_slab: Polierti Tüfschieferstufe
+  deepslate_brick_slab: Tüfschieferziegelstufe
+  deepslate_tile_slab: Tüfschieferfliesestufe
   scaffolding: Baugrüscht
+  redstone: Redstone-Staub
+  redstone_torch: Redstone-Fackle
+  redstone_block: Redstone-Block
+  repeater: Redstone-Verstärcher
+  comparator: Redstone-Komparator
+  piston: Cholbä
+  sticky_piston: Chläbrigä Cholbä
+  slime_block: Schleimblock
+  honey_block: Honigblock
+  observer: Beobachter
+  hopper: Trichter
+  dispenser: Wärfer
+  dropper: Spänder
+  lectern: Lespult
+  target: Ziel
+  lever: Hebel
+  lightning_rod: Blitzableiter
+  daylight_detector: Tagesliechtsensor
+  sculk_sensor: Sculk-Sensor
+  tripwire_hook: Hakä
+  trapped_chest: Redstone-Chischte
+  tnt: TNT
+  redstone_lamp: Redstone-Lampe
+  note_block: Noteblock
+  stone_button: Steichnopf
+  polished_blackstone_button: Polierte Schwarzsteichnopf
+  oak_button: Eicheholzchnopf
+  spruce_button: Fichteholzchnopf
+  birch_button: Birkeholzchnopf
+  jungle_button: Dschungelholzchnopf
+  acacia_button: Akazieholzchnopf
+  dark_oak_button: Schwarzeicheholzchnopf
+  crimson_button: Karmesinholzchnopf
+  warped_button: Wirrholzchnopf
+  stone_pressure_plate: Steidruckplatte
+  polished_blackstone_pressure_plate: Polierti Schwarzsteidruckplatte
+  light_weighted_pressure_plate: Feinwägplatte
+  heavy_weighted_pressure_plate: Grobwägplatte
+  oak_pressure_plate: Eicheholzdruckplatte
+  spruce_pressure_plate: Fichteholzdruckplatte
+  birch_pressure_plate: Birkeholzdruckplatte
+  jungle_pressure_plate: Dschungelholzdruckplatte
+  acacia_pressure_plate: Akazieholzdruckplatte
+  dark_oak_pressure_plate: Schwarzeicheholzdruckplatte
+  crimson_pressure_plate: Karmesinholzdruckplattä
+  warped_pressure_plate: Wirrholzdruckplatte
   iron_door: Isetür
   oak_door: Eicheholztür
   spruce_door: Fichteholztür
@@ -572,8 +646,42 @@ material:
   dark_oak_door: Schwarzeicheholztür
   crimson_door: Karmesinholztür
   warped_door: Wirrholztüre
-  repeater: Redstone-Verstärcher
-  comparator: Redstone-Komparator
+  iron_trapdoor: Isefalltür
+  oak_trapdoor: Eicheholzfalltür
+  spruce_trapdoor: Fichteholzfalltür
+  birch_trapdoor: Birkeholzfalltür
+  jungle_trapdoor: Dschungelholzfalltür
+  acacia_trapdoor: Akazieholzfalltür
+  dark_oak_trapdoor: Schwarzeicheholzfalltür
+  crimson_trapdoor: Karmesinholzfalltür
+  warped_trapdoor: Wirrholzfalltür
+  oak_fence_gate: Eicheholzhaagtor
+  spruce_fence_gate: Fichteholzhaagtor
+  birch_fence_gate: Birkeholzhaagtor
+  jungle_fence_gate: Dschungelholzhaagtor
+  acacia_fence_gate: Akazieholzhaagtor
+  dark_oak_fence_gate: Schwarzeicheholzhaagtor
+  crimson_fence_gate: Karmesinholzhaagtor
+  warped_fence_gate: Wirrholzzauntür
+  powered_rail: Atriebsschine
+  detector_rail: Sensorgleis
+  rail: Schine
+  activator_rail: Aktivierigsschine
+  saddle: Sattel
+  minecart: Lore
+  chest_minecart: Güeterlore
+  furnace_minecart: Locki
+  tnt_minecart: TNT-Lore
+  hopper_minecart: Trichterlore
+  carrot_on_a_stick: Rüebli anerä Schnuur
+  warped_fungus_on_a_stick: Wirrpilzruete
+  elytra: Elyträ
+  oak_boat: Eicheholzboot
+  spruce_boat: Fichteholzboot
+  birch_boat: Birkeboot
+  jungle_boat: Dschungelholzboot
+  acacia_boat: Akazieholzboot
+  dark_oak_boat: Schwarzeicheholzboot
   structure_block: Konstruktionsblock
   jigsaw: Verbundblock
   turtle_helmet: Schildchrotepanzer
@@ -585,7 +693,15 @@ material:
   coal: Cholä
   charcoal: Holzcholä
   diamond: Diamant
+  emerald: Smaragd
+  lapis_lazuli: Lapislazuli
+  quartz: Netherquarz
+  amethyst_shard: Amethystscherbe
+  raw_iron: Rohise
   iron_ingot: Isebarre
+  raw_copper: Rohchupfer
+  copper_ingot: Chupferbarre
+  raw_gold: Rohgold
   gold_ingot: Goldbarre
   netherite_ingot: Netheritbarre
   netherite_scrap: Netheritplattä
@@ -625,13 +741,13 @@ material:
   string: Fadä
   feather: Fädere
   gunpowder: Schwarzpulver
-  wheat_seeds: Weizechöreli
-  wheat: Weizä
+  wheat_seeds: Weizesamä
+  wheat: Weize
   bread: Brot
-  leather_helmet: Lederchappe
-  leather_chestplate: Lederjacke
-  leather_leggings: Lederhose
-  leather_boots: Lederstiefel
+  leather_helmet: Läderchappä
+  leather_chestplate: Läderjagge
+  leather_leggings: Läderhose
+  leather_boots: Läderstiefel
   chainmail_helmet: Chettehelm
   chainmail_chestplate: Chettehemd
   chainmail_leggings: Chettehose
@@ -654,54 +770,52 @@ material:
   netherite_boots: Netheritstiefel
   flint: Füürstei
   porkchop: Rohs Schwiinigs
-  cooked_porkchop: Bratnigs Schwiinigs
+  cooked_porkchop: Kochts Schwiinigs
   painting: Gmälde
   golden_apple: Goldige Öpfel
   enchanted_golden_apple: Verzauberete Goldige Öpfel
-  oak_sign: Eichäholzschild
+  oak_sign: Eicheholzschild
   spruce_sign: Fichteholzschild
   birch_sign: Birkeholzschild
   jungle_sign: Dschungelholzschild
   acacia_sign: Akazieholzschild
-  dark_oak_sign: Schwarzeichäholzschild
+  dark_oak_sign: Schwarzeicheholzschild
   crimson_sign: Karmesinholzschild
   warped_sign: Wirrholzschild
   bucket: Chübel
   water_bucket: Wasserchübel
   lava_bucket: Lavachübel
-  minecart: Lore
-  saddle: Sattel
-  redstone: Redstone-Staub
+  powder_snow_bucket: Pulverschneechübel
   snowball: Schneebölle
-  oak_boat: Eichäholzböötli
   leather: Läder
-  milk_bucket: Milchchessel
-  pufferfish_bucket: Kugelfischeimer
-  salmon_bucket: Lachseimer
+  milk_bucket: Milchchübel
+  pufferfish_bucket: Chugelfischchübel
+  salmon_bucket: Lachschübel
   cod_bucket: Dorschchübel
-  tropical_fish_bucket: Tropäfischeimer
+  tropical_fish_bucket: Tropäfischchübel
+  axolotl_bucket: Axolotl-Chübel
   brick: Ziegel
   clay_ball: Tonchlumpe
   dried_kelp_block: Tröchnetä Algäblock
   paper: Papier
   book: Buech
   slime_ball: Schleimball
-  chest_minecart: Güterlore
-  furnace_minecart: Locki
   egg: Ei
   compass: Kompass
+  bundle: Bündel
   fishing_rod: Angel
   clock: Uhr
-  glowstone_dust: Lüüchtsteistaub
-  cod: Rohä Dorsch
+  spyglass: Fernrohr
+  glowstone_dust: Glowstonestaub
+  cod: Rohe Dorsch
   salmon: Rohe Lachs
   tropical_fish: Tropäfisch
   pufferfish: Chugelfisch
-  cooked_cod: Bratene Dorsch
+  cooked_cod: Kochte Dorsch
   cooked_salmon: Kochte Lachs
   ink_sac: Tintebüütel
+  glow_ink_sac: Lüchttintebütel
   cocoa_beans: Gaggobohne
-  lapis_lazuli: Lapislazuli
   white_dye: Wisse Farbschtoff
   orange_dye: Orange Farbstoff
   magenta_dye: Magenta Farbstoff
@@ -718,7 +832,7 @@ material:
   green_dye: Grüene Farbstoff
   red_dye: Rote Farbstoff
   black_dye: Schwarze Farbstoff
-  bone_meal: Chnochämäl
+  bone_meal: Chnochemehl
   bone: Chnochä
   sugar: Zucker
   cake: Chueche
@@ -744,7 +858,7 @@ material:
   melon_slice: Meloneschiibli
   dried_kelp: Tröchneti Algä
   pumpkin_seeds: Chürbissamä
-  melon_seeds: Melonesömli
+  melon_seeds: Melonesamä
   beef: Rohs Rindfleisch
   cooked_beef: Steak
   chicken: Rohs Hüenli
@@ -757,7 +871,7 @@ material:
   nether_wart: Netherwarze
   potion: Trank
   glass_bottle: Glasfläschä
-  spider_eye: Spinneäugli
+  spider_eye: Spinnenaug
   fermented_spider_eye: Fermentierts Spinnenaug
   blaze_powder: Lohästaub
   magma_cream: Magmagräm
@@ -765,13 +879,14 @@ material:
   cauldron: Chessel
   ender_eye: Enderaug
   glistering_melon_slice: Glitzrigi Meloneschiibli
+  axolotl_spawn_egg: Axolotl-Spawn-Ei
   bat_spawn_egg: Flädermus-Spawn-Ei
   bee_spawn_egg: Biene-Spawn-Ei
   blaze_spawn_egg: Lohe-Spawn-Ei
   cat_spawn_egg: Katze-Spawn-Ei
   cave_spider_spawn_egg: Höhlespinne-Spawn-Ei
   chicken_spawn_egg: Huehn-Spawn-Ei
-  cod_spawn_egg: Kabeljau-Spawn-Ei
+  cod_spawn_egg: Dorsch-Spawn-Ei
   cow_spawn_egg: Chueh-Spawn-Ei
   creeper_spawn_egg: Creeper-Spawn-Ei
   dolphin_spawn_egg: Delfin-Spawn-Ei
@@ -783,9 +898,11 @@ material:
   evoker_spawn_egg: Magier-Spawn-Ei
   fox_spawn_egg: Fuchs-Spawn-Ei
   ghast_spawn_egg: Ghast-Spawn-Ei
+  glow_squid_spawn_egg: Lüchttintefisch-Spawn-Ei
+  goat_spawn_egg: Geiss-Spawn-Ei
   guardian_spawn_egg: Wächter-Spawn-Ei
   hoglin_spawn_egg: Hoglin-Spawn-Ei
-  horse_spawn_egg: Pferde-Spawn-Ei
+  horse_spawn_egg: Ross-Spawn-Ei
   husk_spawn_egg: Wüestezombie-Spawn-Ei
   llama_spawn_egg: Lama-Spawn-Ei
   magma_cube_spawn_egg: Magmawürfel-Spawn-Ei
@@ -801,21 +918,21 @@ material:
   pillager_spawn_egg: Plünderer-Spawn-Ei
   polar_bear_spawn_egg: Isbär-Spawn-Ei
   pufferfish_spawn_egg: Chugelfisch-Spawn-Ei
-  rabbit_spawn_egg: Hase-Spawn-Ei
-  ravager_spawn_egg: Verwüester-Spawn-Ei
+  rabbit_spawn_egg: Chüngel-Spawn-Ei
+  ravager_spawn_egg: Verwüeschter-Spawn-Ei
   salmon_spawn_egg: Lachs-Spawn-Ei
   sheep_spawn_egg: Schof-Spawn-Ei
   shulker_spawn_egg: Shulker-Spawn-Ei
   silverfish_spawn_egg: Silberfischli-Spawn-Ei
   skeleton_spawn_egg: Skelett-Spawn-Ei
-  skeleton_horse_spawn_egg: Skelettpferd-Spawn-Ei
-  slime_spawn_egg: Schleim-Spawn-Ei
+  skeleton_horse_spawn_egg: Skelettross-Spawn-Ei
+  slime_spawn_egg: Schliim-Spawn-Ei
   spider_spawn_egg: Spinne-Spawn-Ei
   squid_spawn_egg: Tintefisch-Spawn-Ei
-  stray_spawn_egg: Iswanderer-Spawn-Ei
-  strider_spawn_egg: Schreiter-Spawn-Ei
+  stray_spawn_egg: Iiswanderer-Spawn-Ei
+  strider_spawn_egg: Schriter-Spawn-Ei
   trader_llama_spawn_egg: Händlerlama-Spawn-Ei
-  tropical_fish_spawn_egg: Tropefisch-Spawn-Ei
+  tropical_fish_spawn_egg: Tropäfisch-Spawn-Ei
   turtle_spawn_egg: Schildchrote-Spawn-Ei
   vex_spawn_egg: Plagegeister-Spawn-Ei
   villager_spawn_egg: Dorfbewohner-Spawn-Ei
@@ -826,15 +943,15 @@ material:
   wolf_spawn_egg: Wolf-Spawn-Ei
   zoglin_spawn_egg: Zoglin-Spawn-Ei
   zombie_spawn_egg: Zombie-Spawn-Ei
-  zombie_horse_spawn_egg: Zombiepferde-Spawn-Ei
+  zombie_horse_spawn_egg: Zombieross-Spawn-Ei
   zombie_villager_spawn_egg: Zombiedorfbewohner-Spawn-Ei
-  zombified_piglin_spawn_egg: Kampfsau Spawn Ei
+  zombified_piglin_spawn_egg: Zombifizierts-Piglin-Spawn-Ei
   experience_bottle: Erfahrigsfläschli
   fire_charge: Füürchuglä
   writable_book: Buech und Fädere
   written_book: Gschriebnigs Buech
-  emerald: Smaragd
   item_frame: Rahmä
+  glow_item_frame: Lüchtrahme
   flower_pot: Bluämetopf
   carrot: Rüebli
   potato: Härdöpfel
@@ -848,17 +965,12 @@ material:
   zombie_head: Zombiechopf
   creeper_head: Creeperchopf
   dragon_head: Drachächopf
-  carrot_on_a_stick: Rüebli anerä Schnuur
-  warped_fungus_on_a_stick: Wirrpilzruete
   nether_star: Netherstärn
   pumpkin_pie: Chürbischuechä
   firework_rocket: Füürwerchrageetä
-  firework_star: Füürwerksstern
+  firework_star: Füürwerchsstärn
   enchanted_book: Verzauberets Buech
   nether_brick: Netherziegel
-  quartz: Netherquarz
-  tnt_minecart: TNT-Lore
-  hopper_minecart: Trichterlore
   prismarine_shard: Prismarinschärbä
   prismarine_crystals: Prismarinkristall
   rabbit: Rohe Chüngel
@@ -869,8 +981,8 @@ material:
   armor_stand: Rüstigsständer
   iron_horse_armor: Iserni Rossrüstig
   golden_horse_armor: Goldnigi Rossrüstig
-  diamond_horse_armor: Diamantigi Rossrüstig
-  leather_horse_armor: Lederne Rossharnisch
+  diamond_horse_armor: Diamantnigi Rossrüstig
+  leather_horse_armor: Läderni Rossrüstig
   lead: Leine
   name_tag: Namensschild
   command_block_minecart: Befehlsblocklore
@@ -897,19 +1009,13 @@ material:
   popped_chorus_fruit: Platzti Chorusfrucht
   beetroot: Randä
   beetroot_seeds: Randäsamä
-  beetroot_soup: Randäsuppä
+  beetroot_soup: Randäsuppe
   dragon_breath: Drachäatem
   splash_potion: Wurftrank
   spectral_arrow: Spektralpfiil
   tipped_arrow: Tränkte Pfiil
   lingering_potion: Verweiltrank
   shield: Schild
-  elytra: Elyträ
-  spruce_boat: Fichteholzboot
-  birch_boat: Birkeböötli
-  jungle_boat: Dschungelholzboot
-  acacia_boat: Akazieholzboot
-  dark_oak_boat: Schwarzeicheböötli
   totem_of_undying: Totem vor Unsterblichkeit
   shulker_shell: Shulkerschalä
   iron_nugget: Isechlumpä
@@ -948,26 +1054,22 @@ material:
   cartography_table: Kartetisch
   fletching_table: Bognertisch
   grindstone: Schlifschtei
-  lectern: Lespult
   smithing_table: Schmiedtisch
   stonecutter: Steisägi
   bell: Glocke
   lantern: Laterne
   soul_lantern: Seelelaterne
   sweet_berries: Süessbeere
+  glow_berries: Lüchtbeere
   campfire: Lagerfür
   soul_campfire: Seelelagerfüür
   shroomlight: Pilzliecht
   honeycomb: Honigwabe
-  bee_nest: Biänänäscht
+  bee_nest: Bienenest
   beehive: Bienestock
   honey_bottle: Honigfläsche
-  honey_block: Honigblock
   honeycomb_block: Honigwabeblock
   lodestone: Leitstei
-  netherite_block: Netheritblock
-  ancient_debris: Antike Schrott
-  target: Ziel
   crying_obsidian: Brüelende Obsidian
   blackstone: Schwarzstei
   blackstone_slab: Schwarzsteistufe
@@ -982,6 +1084,28 @@ material:
   polished_blackstone_brick_stairs: Polierti Schwarzsteiziegelstäge
   cracked_polished_blackstone_bricks: Rissigi polierti Schwarzsteiziegel
   respawn_anchor: Seeleanker
+  candle: Cherze
+  white_candle: Wissi Cherze
+  orange_candle: Orangi Cherze
+  magenta_candle: Magenta Cherze
+  light_blue_candle: Hellblaui Cherze
+  yellow_candle: Gelbi Cherze
+  lime_candle: Hellgrüeni Cherze
+  pink_candle: Rosa Cherze
+  gray_candle: Graui Cherze
+  light_gray_candle: Hellgraui Cherze
+  cyan_candle: Türkisi Cherze
+  purple_candle: Violetti Cherze
+  blue_candle: Blaui Cherze
+  brown_candle: Bruni Cherze
+  green_candle: Grüeni Cherze
+  red_candle: Roti Cherze
+  black_candle: Schwarzi Cherze
+  small_amethyst_bud: Chlini Amethystknospe
+  medium_amethyst_bud: Mittleri Amethystknospe
+  large_amethyst_bud: Grossi Amethystknospe
+  amethyst_cluster: Amethysthuufe
+  pointed_dripstone: Spitze Tropfstei
   water: Wasser
   lava: Lava
   tall_seagrass: Hochs Seegras
@@ -1004,6 +1128,9 @@ material:
   attached_melon_stem: Melonärankä
   pumpkin_stem: Chürbispflanze
   melon_stem: Melonäpflanzä
+  water_cauldron: Wasserchessel
+  lava_cauldron: Lavachessel
+  powder_snow_cauldron: Pulverschneechessel
   end_portal: Endportal
   cocoa: Kakao
   tripwire: Stolperdraht
@@ -1055,7 +1182,7 @@ material:
   green_wall_banner: Grüens Banner
   red_wall_banner: Rots Banner
   black_wall_banner: Schwarzes Banner
-  beetroots: Rande
+  beetroots: Randä
   end_gateway: Endtransitportal
   frosted_ice: Froschtiis
   kelp_plant: Seetangstängel
@@ -1083,6 +1210,30 @@ material:
   potted_warped_fungus: Itopfte Wirrpilz
   potted_crimson_roots: Itopfti Karmesinwurzle
   potted_warped_roots: Itopfti Wirrwurzle
+  candle_cake: Cherzechueche
+  white_candle_cake: Chueche mit wisser Cherze
+  orange_candle_cake: Chueche mit orangener Cherze
+  magenta_candle_cake: Chueche mit magenta Cherze
+  light_blue_candle_cake: Chueche mit hellblauer Cherze
+  yellow_candle_cake: Chueche mit gelber Cherze
+  lime_candle_cake: Chueche mit hellgrüener Cherze
+  pink_candle_cake: Chueche mit rosa Cherze
+  gray_candle_cake: Chueche mit grauer Cherze
+  light_gray_candle_cake: Chueche mit hellgrauer Cherze
+  cyan_candle_cake: Chueche mit hellblauer Cherze
+  purple_candle_cake: Chueche mit violetter Cherze
+  blue_candle_cake: Chueche mit blauer Cherze
+  brown_candle_cake: Chueche mit bruner Cherze
+  green_candle_cake: Chueche mit grüener Cherze
+  red_candle_cake: Chueche mit roter Cherze
+  black_candle_cake: Chueche mit schwarzer Cherze
+  powder_snow: Pulverschnee
+  cave_vines: Höhleranke
+  cave_vines_plant: Höhlerankepflanze
+  big_dripleaf_stem: Grosse Tropfblattstiel
+  potted_azalea_bush: Itopfte Azalee
+  potted_flowering_azalea_bush: Itopfti blühendi Azalee
+  grass_path: Erdwägli
   zombie_pigman_spawn_egg: Sauzombie-Spawn-Ei
   cactus_green: Kaktusgrüen
   dandelion_yellow: Sunnewirbelgälb
@@ -1093,7 +1244,7 @@ biome:
   ocean: Ozean
   plains: Ebeni
   desert: Wüesti
-  mountains: Bärg
+  mountains: Berg
   forest: Wald
   taiga: Taiga
   swamp: Sumpf
@@ -1103,7 +1254,7 @@ biome:
   frozen_ocean: Veriistä Ozean
   frozen_river: Veriistä Fluss
   snowy_tundra: Verschneitii Tundra
-  snowy_mountains: Verschneitii Bärgä
+  snowy_mountains: Verschneitii Berge
   mushroom_fields: Pilzland
   mushroom_field_shore: Pilzlandküsti
   beach: Strand
@@ -1120,18 +1271,18 @@ biome:
   birch_forest: Birkewald
   birch_forest_hills: Birkewaldhügel
   dark_forest: Dichte Wald
-  snowy_taiga: Verschneiti Taiga
-  snowy_taiga_hills: Verschneiti Taigahügel
+  snowy_taiga: Verschneitii Taiga
+  snowy_taiga_hills: Verschneitii Taigahügel
   giant_tree_taiga: Riesiigi Baumtaiga
-  giant_tree_taiga_hills: Riesebaumtaigahüel
-  wooded_mountains: Bärgwald
-  savanna: Savanne
-  savanna_plateau: Savannenehöchebeni
+  giant_tree_taiga_hills: Riesebaumtaigahügel
+  wooded_mountains: Bergwald
+  savanna: Savannä
+  savanna_plateau: Savannähöchebeni
   badlands: Tafelbärge
   wooded_badlands_plateau: Tafelbergwaldhöchebeni
   badlands_plateau: Tafelbärghöchebeni
   small_end_islands: Chlinii Endinslenä
-  end_midlands: End Mittelland
+  end_midlands: End-Mittelland
   end_highlands: End-Hochland
   end_barrens: End-Kärgland
   warm_ocean: Warmä Ozean
@@ -1143,72 +1294,74 @@ biome:
   deep_frozen_ocean: Veriisti Tüüfsee
   the_void: D'Leeri
   sunflower_plains: Sunnebluemeebeni
-  desert_lakes: Wüsteseeä
+  desert_lakes: Wüesteseee
   gravelly_mountains: Geröllberge
   flower_forest: Bluemewald
-  taiga_mountains: Taigabärge
+  taiga_mountains: Taigaberge
   swamp_hills: Sumpfhügel
-  ice_spikes: Iissstachle
-  modified_jungle: Modifizierte Dschungel
-  modified_jungle_edge: Modifizierte Dschungelrand
+  ice_spikes: Iiszapfe
+  modified_jungle: Dschungel (Variante)
+  modified_jungle_edge: Dschungelrand (Variante)
   tall_birch_forest: Hohe Birkewald
   tall_birch_hills: Hohe Birkewaldhügel
   dark_forest_hills: Dichte Hügelwald
-  snowy_taiga_mountains: Verschneitii Taigabergä
+  snowy_taiga_mountains: Verschneitii Taigaberge
   giant_spruce_taiga: Riesefichtetaiga
   giant_spruce_taiga_hills: Riesefichtetaigahügel
   modified_gravelly_mountains: Geröllberge (Variantä)
-  shattered_savanna: Zerklüftetii Savannä
-  shattered_savanna_plateau: Zerklüfetii Savannenhöchebeni
+  shattered_savanna: Zerklüfteti Savannä
+  shattered_savanna_plateau: Zerklüfteti Savannähöchebeni
   eroded_badlands: Abtrageni Tafelbärge
   modified_wooded_badlands_plateau: Tafelbergwaldhöchebeni (Variantä)
-  modified_badlands_plateau: Tafelberghöchebeni (Variantä)
+  modified_badlands_plateau: Tafelbärghöchebeni (Variantä)
   bamboo_jungle: Bambusdschungel
   bamboo_jungle_hills: Bambusdschungelhügel
   soul_sand_valley: Seelesandtal
   crimson_forest: Karmesinwald
   warped_forest: Wirrwald
   basalt_deltas: Basaltdeltas
+  dripstone_caves: Tropfsteihölene
+  lush_caves: Üppigi Höhlene
   nether: Nether
 enchantment:
-  fire_protection: Füürschutz
-  sharpness: Schärfi
-  flame: Flammä
-  soul_speed: Graatzug
-  aqua_affinity: Wasseraffinität
-  punch: Schlag
-  loyalty: Treui
-  depth_strider: Wasserläufer
-  vanishing_curse: Fluech vom Verschwindä
-  unbreaking: Haltbarkeit
-  knockback: Rückstoss
-  luck_of_the_sea: Glück vom Meer
-  binding_curse: Fluech vor Bindig
-  fortune: Glück
   protection: Schutz
-  efficiency: Effiziänz
-  mending: Reparatur
-  frost_walker: Iisläufer
-  lure: Köder
-  looting: Plünderig
-  piercing: Duräschüsse
-  blast_protection: Explosionsschutz
-  smite: Bann
-  multishot: Mehrfachschuss
-  fire_aspect: Verbrännig
-  channeling: Entladig
-  sweeping: Schwungchraft
-  thorns: Dornä
-  bane_of_arthropods: Nemesis vo de Gliederfüesser
-  respiration: Atmig
-  riptide: Sog
-  silk_touch: Behuetsamkeit
-  quick_charge: Schnelllade
-  projectile_protection: Schussicher
-  impaling: Harpune
+  fire_protection: Füürschutz
   feather_falling: Fäderfall
+  blast_protection: Explosionsschutz
+  projectile_protection: Schussicher
+  respiration: Atmig
+  aqua_affinity: Wasseraffinität
+  thorns: Dornä
+  depth_strider: Wasserläufer
+  frost_walker: Iisläufer
+  binding_curse: Fluech vor Bindig
+  sharpness: Schärfi
+  smite: Bann
+  bane_of_arthropods: Nemesis vo de Gliederfüesser
+  knockback: Rückstoss
+  fire_aspect: Verbrännig
+  looting: Plünderig
+  sweeping: Schwungchraft
+  efficiency: Effiziänz
+  silk_touch: Behuetsamkeit
+  unbreaking: Haltbarkeit
+  fortune: Glück
   power: Stärchi
+  punch: Schlag
+  flame: Flammä
   infinity: Unendlichkeit
+  luck_of_the_sea: Glück vom Meer
+  lure: Köder
+  loyalty: Treui
+  impaling: Harpune
+  riptide: Sog
+  channeling: Entladig
+  multishot: Mehrfachschuss
+  quick_charge: Schnelllade
+  piercing: Duräschüsse
+  mending: Reparatur
+  vanishing_curse: Fluech vom Verschwindä
+  soul_speed: Graatzug
 potion:
   uncraftable: Nid braubarä Trank
   water: Wasserfläsche
@@ -1338,7 +1491,7 @@ entity:
   minecart_command: Befehlsblocklore
   boat: Böötli
   minecart: Lore
-  minecart_chest: Güterlore
+  minecart_chest: Güeterlore
   minecart_furnace: Locki
   minecart_tnt: TNT-Lore
   minecart_hopper: Trichterlore
@@ -1348,9 +1501,9 @@ entity:
   spider: Spinne
   giant: Ries
   zombie: Zombie
-  slime: Schleim
+  slime: Schliim
   ghast: Ghast
-  zombified_piglin: Zombie Kampfsau
+  zombified_piglin: Zombifizierte Piglin
   enderman: Endermaa
   cave_spider: Höhlespinne
   silverfish: Silberfischli
@@ -1381,10 +1534,10 @@ entity:
   parrot: Papagei
   villager: Dorfbewohner
   ender_crystal: Enderkristall
-  turtle: Schildchröt
+  turtle: Schildchrot
   phantom: Phantom
   trident: Drüzack
-  cod: Kabeljau
+  cod: Dorsch
   salmon: Lachs
   pufferfish: Chugelfisch
   tropical_fish: Tropäfisch
@@ -1393,16 +1546,21 @@ entity:
   cat: Chatz
   panda: Panda
   pillager: Plünderer
-  ravager: Demolierer
+  ravager: Verwüeschter
   trader_llama: Händlerlama
   wandering_trader: Fahrende Händler
   fox: Fuchs
   bee: Bienli
   hoglin: Hoglin
-  piglin: Kampfsau
-  strider: Schreiter
+  piglin: Piglin
+  strider: Schriter
   zoglin: Zoglin
-  piglin_brute: Kampfsau-Barbar
+  piglin_brute: Piglin-Barbar
+  axolotl: Axolotl
+  glow_item_frame: Lüchtrahme
+  glow_squid: Lüchttintefisch
+  goat: Geiss
+  marker: Marker
   fishing_hook: Schwümmer
   lightning: Blitz
   player: Spieler
@@ -1431,7 +1589,7 @@ effect:
   health_boost: Gsundheitsboost
   absorption: Ufnehmig
   saturation: Sättigung
-  glowing: Lüchtend
+  glowing: Lüchte
   levitation: Schwebechraft
   luck: Glück
   unluck: Päch
@@ -2179,7 +2337,7 @@ new_banner_pattern:
   skull_banner_pattern: Schädel
   mojang_banner_pattern: Mojang-Logo
   globe_banner_pattern: Globus
-  piglin_banner_pattern: Schnüüz
+  piglin_banner_pattern: Schnauze
 merchant_level:
   '1': Neuling
   '2': Lehrling
@@ -2202,17 +2360,3 @@ villager_profession:
   shepherd: Schöfer
   toolsmith: Werkzügschmied
   weaponsmith: Waffeschmied
-villager_career:
-  farmer: Buur
-  fisherman: Fischer
-  shepherd: Schöfer
-  fletcher: Pfiilmacher
-  librarian: Bibliothekar
-  cartographer: Chartograf
-  cleric: Geischtlichä
-  armorer: Rüstigsschmied
-  weapon_smith: Waffäschmiid
-  tool_smith: Werchzüügschmiid
-  butcher: Metzger
-  leatherworker: Gerber
-  nitwit: Galöli

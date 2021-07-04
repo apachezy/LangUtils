@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:46                    #
+# Build time: 2021-07-04 21:46:02                    #
 # ####################################################
 language:
   code: el_gr
@@ -12,7 +12,10 @@ material:
   acacia_sapling: Βλαστάρι ακακίας
   acacia_wood: Ξύλο ακακίας
   activator_rail: Ράγα ενεργοποίησης
+  allium: Άλλιο
+  armor_stand: Καλόγερος για Πανοπλία
   attached_melon_stem: Συνδεδεμένο Κοτσάνι Κολοκύθας
+  attached_pumpkin_stem: Συνδεδεμένο Κοτσάνι Κολοκύθας
   baked_potato: Ψημένη πατάτα
   bat_spawn_egg: Αυγό spawn νυχτερίδας
   bedrock: Βραχώδες υπόστρωμα
@@ -30,6 +33,7 @@ material:
   black_concrete: Μαύρο σκυροδέματος
   black_concrete_powder: Μαύρη σκόνη σκυροδέματος
   black_glazed_terracotta: Μαύρο βερνικωμένη τερακότα
+  black_shulker_box: Μαύρο Κουτί Shulker
   black_stained_glass: Μαύρο χρωματισμένο γυαλί
   black_stained_glass_pane: Μαύρος χρωματισμένος υαλοπίνακας
   black_wool: Μαύρο μαλλί
@@ -42,11 +46,14 @@ material:
   blue_glazed_terracotta: Μπλε βερνικωμένη τερακότα
   blue_ice: Μπλέ Πάγος
   blue_orchid: Μπλε ορχιδέα
+  blue_shulker_box: Μπλε Κουτί Shulker
   blue_stained_glass_pane: Μπλέ χρωματισμένος υαλοπίνακας
   blue_wool: Μπλε μαλλί
   bone_block: Κύβος οστών
+  bone_meal: Oστεάλευρα
   bowl: Μπωλ
   brain_coral_wall_fan: Τοίχος Ροζ Αλκυονοειδούς Κοραλλιού
+  brewing_stand: Αλχημικός Τρίποδας
   brick_slab: Πλάκα Τούβλου
   brick_stairs: Σκάλες από τούβλα
   brown_bed: Καφέ κρεβάτι
@@ -54,6 +61,7 @@ material:
   brown_concrete: Καφέ σκυροδέματος
   brown_concrete_powder: Καφέ σκυροδέματος σε σκόνη
   brown_glazed_terracotta: Καφέ βερνικωμένη τερακότα
+  brown_shulker_box: Καφέ Κουτί Shulker
   brown_stained_glass: |
     Καφέ χρωματισμένο γυαλί
   brown_stained_glass_pane: Καφέ χρωματισμένος υαλοπίνακας
@@ -71,7 +79,11 @@ material:
   chest_minecart: Βαγόνι με σεντούκι
   chicken_spawn_egg: Αυγό spawn κοτόπουλων
   chipped_anvil: Σπασμένο Αμόνι
+  chiseled_quartz_block: Λαξευμένος Κύβος Χαλαζία
+  chiseled_red_sandstone: Λαξευμένος Κόκκινος Αμμόλιθος
+  chiseled_sandstone: Λαξευμένος Αμμόλιθος
   chiseled_stone_bricks: Σμιλευμένα πέτρινα τούβλα
+  chorus_flower: Χορικό Λουλούδι
   clay_ball: Πηλός
   coal_block: Κύβος άνθρακα
   coal_ore: Μετάλλευμα άνθρακα
@@ -84,15 +96,16 @@ material:
   cod_spawn_egg: Αυγό spawn γάδων
   command_block: Κύβος εντολών
   command_block_minecart: Βαγόνι με Block Εντολής
-  comparator: Συγκριτής Ρέντστοουν
   cooked_chicken: Ψημένο κοτόπουλο
+  cooked_mutton: Ψημένο Πρόβειο Κρέας
   cooked_porkchop: Ψημένο χοιρινό
   cooked_rabbit: Μαγειρεμένο κουνέλι
   cooked_salmon: Μαγειρεμένος σολομός
   cow_spawn_egg: Αυγό spawn αγελάδων
   cracked_stone_bricks: Ραγισμένα πέτρινα τούβλα
-  creeper_head: Κεφάλι Κρίπερ
+  crafting_table: Πάγκος Εργασίας
   creeper_spawn_egg: Αυγό spawn Creeper
+  creeper_wall_head: Κεφάλι Creeper Τοίχου
   cut_red_sandstone: Ομαλός Κόκκινος Αμμόλιθος
   cut_sandstone: Λείος Αμμόλιθος
   cyan_bed: Κυανό κρεβάτι
@@ -100,6 +113,7 @@ material:
   cyan_concrete_powder: Κυανού σκυροδέματος σε σκόνη
   cyan_dye: Κυανή βαφή
   cyan_glazed_terracotta: Κυανό βερνικωμένη τερακότα
+  cyan_shulker_box: Κυανό Κουτί Shulker
   cyan_stained_glass: Κυανό χρωματισμένο γυαλί
   cyan_stained_glass_pane: Τικουάζ χρωματισμένος υαλοπίνακας
   cyan_wool: Κυανό μαλλί
@@ -132,6 +146,7 @@ material:
   dead_tube_coral: Νεκρό μπλε κοράλλι
   dead_tube_coral_fan: Νεκρό Μπλε Κοράλλι
   dead_tube_coral_wall_fan: Νεκρό Μπλε Αλκυονοειδές Κοράλλι
+  debug_stick: Ραβδί Σφαλμάτων
   detector_rail: Ράγα ανίχνευσης
   diamond_axe: Διαμαντένιο τσεκούρι
   diamond_block: Κύβος διαμαντιού
@@ -147,6 +162,7 @@ material:
   diamond_sword: Διαμαντένιο σπαθί
   dolphin_spawn_egg: Αυγό spawn δελφινιών
   donkey_spawn_egg: Αυγό spawn γαϊδουριών
+  dragon_breath: Δρακόντια Ανάσα
   dragon_egg: Αυγό δράκου
   dragon_head: Kεφάλι Δράκου
   drowned_spawn_egg: Πνιγμένο αυγό spawn
@@ -157,8 +173,6 @@ material:
   enderman_spawn_egg: Αυγό spawn Έντερμαν
   endermite_spawn_egg: Αυγό spawn τερμίτη του Ender
   ender_chest: Σεντούκι του Έντερ
-  ender_eye: Μάτι του Έντερ
-  ender_pearl: Μαργαριτάρι Έντερ
   end_crystal: Κρύσταλλος του Έντ
   end_gateway: Πύλη του Τέλους
   end_portal: Πύλη του Τέλους
@@ -177,11 +191,11 @@ material:
   frosted_ice: Τεχνητός Πάγος
   furnace_minecart: Βαγόνι με φούρνο
   ghast_spawn_egg: Αυγό spawn ghast
-  ghast_tear: Δάκρυ Γκαστ
   glass_bottle: Γυάλινο μπουκάλι
   glistering_melon_slice: Γυαλιστερή φέτα πεπονιού
   glowstone_dust: Σκόνη λαμψόπετρας
   golden_axe: Χρυσό τσεκούρι
+  golden_carrot: Χρυσό καρότο
   golden_chestplate: Χρυσός θώρακας
   golden_helmet: Χρυσό κράνος
   golden_hoe: Χρυσή τσάπα
@@ -192,6 +206,7 @@ material:
   golden_sword: Χρυσό σπαθί
   gold_block: Κύβος χρυσού
   gold_ingot: Ράβδος χρυσού
+  gold_nugget: Σβώλος χρυσού
   gold_ore: Μετάλλευμα χρυσού
   grass_block: Κύβος γρασιδιού
   grass_path: Μονοπάτι
@@ -213,6 +228,7 @@ material:
   green_concrete: Φρέσκο σκυρόδεμα
   green_concrete_powder: Πράσινη σκόνη σκυροδέματος
   green_glazed_terracotta: Πράσινο βερνικωμένη τερακότα
+  green_shulker_box: Πράσινο Κουτί Shulker
   green_stained_glass: Πράσινο χρωματισμένο γυαλί
   green_stained_glass_pane: Πράσινος χρωματισμένος υαλοπίνακας
   green_wool: Πράσινο μαλλί
@@ -240,6 +256,7 @@ material:
   iron_pickaxe: Σιδερένια αξίνα
   iron_shovel: Σιδερένιο φτυάρι
   iron_sword: Σιδερένιο σπαθί
+  item_frame: Κορνίζα
   jack_o_lantern: Κολοκυθοφάναρο
   jukebox: Τζούκμπoκς
   jungle_boat: Ζούγκλινη Βάρκα
@@ -273,6 +290,7 @@ material:
   light_blue_concrete_powder: Φως μπλε σκυροδέματος σε σκόνη
   light_blue_dye: Γαλάζια μπογιά
   light_blue_glazed_terracotta: Μπλε φως βερνικωμένη τερακότα
+  light_blue_shulker_box: Γαλάζιο Κουτί Shulker
   light_blue_stained_glass: Γαλάζιο χρωματισμένο γυαλί
   light_blue_stained_glass_pane: Γαλάζιος χρωματισμένος υαλοπίνακας
   light_blue_wall_banner: Ανοικτό Μπλε Λάβαρο
@@ -295,6 +313,7 @@ material:
   lime_concrete_powder: Σκυροδέματος σε σκόνη ασβέστη
   lime_dye: Λαχανί βαφή
   lime_glazed_terracotta: Ασβέστη βερνικωμένη τερακότα
+  lime_shulker_box: Λαχανί Κουτί Shulker
   lime_stained_glass: Λαχανί χρωματισμένο γυαλί
   lime_stained_glass_pane: Λαχανί χρωματισμένος υαλοπίνακας
   lime_wool: Λαχανί μαλλί
@@ -304,18 +323,22 @@ material:
   magenta_concrete: Ματζέντα σκυροδέματος
   magenta_concrete_powder: Ματζέντα σκυροδέματος σε σκόνη
   magenta_glazed_terracotta: Ματζέντα βερνικωμένη τερακότα
+  magenta_shulker_box: Φούξια Κουτί Shulker
   magenta_stained_glass: Φούξια χρωματισμένο γυαλί
   magenta_stained_glass_pane: Φούξια χρωματισμένος υαλοπίνακας
   magenta_wool: Φούξια μαλλί
   magma_cream: Κρέμα μάγματος
   magma_cube_spawn_egg: Αυγό spawn κύβων μάγμα
   map: Κενός χάρτης
+  melon_stem: Κοτσάνι Καρπουζιού
   milk_bucket: Κουβάς με γάλα
   mooshroom_spawn_egg: Αυγό spawn μανιταριών
   mossy_cobblestone_wall: Κροκάλινος Τοίχος με Βρύα
   mossy_stone_bricks: Τούβλα βρυόπετρας
   moving_piston: Μετακινούμενο Πιστόνι
   mule_spawn_egg: Αυγό spawn μουλαριών
+  mushroom_stem: Κοτσάνι Μανιταριού
+  mushroom_stew: Μανιταρόσουπα
   music_disc_11: Μουσικός δίσκος
   music_disc_13: Μουσικός δίσκος
   music_disc_blocks: Μουσικός δίσκος
@@ -331,7 +354,6 @@ material:
   name_tag: Ετικέτα ονόματος
   netherrack: Πέτρα του Νέδερ
   nether_brick: Τούβλο του Νέδερ
-  nether_bricks: Τούβλα Νέδερ
   nether_brick_fence: Φράχτης από τούβλα του Νέδερ
   nether_brick_slab: Πλάκα από τούβλα του Νέδερ
   nether_brick_stairs: Σκάλες από τούβλα του Νέδερ
@@ -353,6 +375,7 @@ material:
   orange_concrete_powder: Πορτοκαλί σκυροδέματος σε σκόνη
   orange_dye: Πορτοκαλί μπογιά
   orange_glazed_terracotta: Πορτοκάλι τζάμια τερρακότα
+  orange_shulker_box: Πορτοκαλί Κουτί Shulker
   orange_stained_glass: Πορτοκαλί χρωματισμένο γυαλί
   orange_stained_glass_pane: Πορτοκαλί χρωματισμένος υαλοπίνακας
   orange_tulip: Πορτοκαλί τουλίπα
@@ -367,6 +390,7 @@ material:
   pink_concrete_powder: Ροζ σκυροδέματος σε σκόνη
   pink_dye: Ροζ βαφή
   pink_glazed_terracotta: Ροζ βερνικωμένη τερακότα
+  pink_shulker_box: Ροζ Κουτί Shulker
   pink_stained_glass_pane: Ροζ χρωματισμένος υαλοπίνακας
   pink_wool: Ροζ μαλλί
   poisonous_potato: Δηλητηριώδης πατάτα
@@ -405,7 +429,6 @@ material:
   pufferfish_bucket: Κουβάς από Ψάρι Πάφερ
   pufferfish_spawn_egg: Αυγό spawn pufferfish
   pumpkin_seeds: Σπόροι κολοκύθας
-  pumpkin_stem: Βλαστός Κολοκύθας
   purple_banner: Μωβ Λάβαρο
   purple_bed: Μωβ κρεβάτι
   purple_carpet: Μωβ Χαλί
@@ -418,6 +441,7 @@ material:
   purple_stained_glass_pane: Μοβ χρωματισμένος υαλοπίνακας
   purple_wall_banner: Μωβ Λάβαρο
   purple_wool: Μωβ μαλλί
+  purpur_block: Κύβος Purpur
   purpur_pillar: Πέρπερ Κίονας
   purpur_slab: Πέρπερ Πλάκα
   purpur_stairs: Περπουρ Σκαλες
@@ -426,13 +450,10 @@ material:
   quartz_slab: Πλάκα από χαλαζία
   quartz_stairs: Σκάλες από χαλαζία
   rabbit: Νωπό κουνέλι
+  rabbit_foot: Πόδι Κουνελιού
   rabbit_hide: Δέρμα Λαγού
   rabbit_spawn_egg: Αυγό spawn λαγού
   redstone: Ρέντστοουν
-  redstone_block: Κύβος Ρέντστοουν
-  redstone_lamp: Λάμπα Ρέντστοουν
-  redstone_ore: Μετάλλευμα Ρέντστοουν
-  redstone_torch: Πυρσός Ρέντστοουν
   redstone_wall_torch: Πυρσός Κοκκινόπετρας Τοίχου
   redstone_wire: Σκόνη Ρέντστοουν
   red_bed: Κόκκινο κρεβάτι
@@ -440,25 +461,27 @@ material:
   red_concrete: Κόκκινο σκυροδέματος
   red_concrete_powder: Κόκκινο σκυροδέματος σε σκόνη
   red_glazed_terracotta: Κόκκινο βερνικωμένη τερακότα
-  red_nether_bricks: Κόκκινα Τούβλα Νέδερ
-  red_sandstone_slab: Πλάκα Κόκκινης Αμμόπετρας
+  red_sandstone: Κόκκινος Aμμόλιθος
   red_sandstone_stairs: Σκάλες από Κόκκινο Αμμόλιθο
+  red_shulker_box: Κόκκινο Κουτί Shulker
   red_stained_glass: Κόκκινο χρωματισμένο γυαλί
   red_stained_glass_pane: Κόκκινος χρωματισμένος υαλοπίνακας
   red_tulip: Κόκκινη τουλίπα
   red_wool: Κόκκινο μαλλί
-  repeater: Αναμεταδότης Ρέντστοουν
   repeating_command_block: Επαναλαμβανόμενος Κύβος Εντολών
   rotten_flesh: Σάπια σάρκα
   salmon: Ωμός σολομός
   salmon_bucket: Κουβάς με Σολωμό
   salmon_spawn_egg: Αυγό spawn σολωμού
+  sandstone: Αμμόλιθος
   sandstone_slab: Πλάκα από αμμόλιθο
   sandstone_stairs: Σκάλες από αμμόλιθο
   seagrass: Γρασίδι Θάλασσας
   sea_lantern: Θαλάσσιο φανάρι
   sea_pickle: Θαλάσσιο Πυρόσωμα
   sheep_spawn_egg: Αυγό spawn προβάτου
+  shulker_box: Κουτί Shulker
+  shulker_shell: Κέλυφος Shulker
   shulker_spawn_egg: Αυγό spawn shulker
   silverfish_spawn_egg: Αυγό spawn silverfish
   skeleton_horse_spawn_egg: Αυγό spawn αλογοσκελετού
@@ -473,6 +496,7 @@ material:
   soul_sand: Άμμος των ψυχών
   spawner: Γεννητής
   spider_spawn_egg: Αυγό spawn αράχνης
+  splash_potion: Μπουγελόφιλτρο
   spruce_boat: Ελάτινη Βάρκα
   spruce_door: Πόρτα από Ξύλο Ελάτου
   spruce_fence: Φράχτης από Ξύλο Ελάτου
@@ -514,10 +538,12 @@ material:
   tall_seagrass: Ψηλό Γρασίδι Θάλασσας
   tnt: Δυναμίτης
   tnt_minecart: Βαγόνι με δυναμίτη
+  trapped_chest: Παγιδευμένο Σεντούκι
   tripwire_hook: Κρίκος παγίδας
   tropical_fish_bucket: Κουβάς με Τροπικά Ψάρια
   tropical_fish_spawn_egg: Αυγό spawn τροπικού ψαριού
   tube_coral_wall_fan: Τοίχος Μπλε Αλκυονοειδούς Κοραλλιού
+  turtle_helmet: Κέλυφος Χελώνας
   turtle_spawn_egg: Αυγό spawn χελωνών
   vex_spawn_egg: Αυγό spawn vex
   villager_spawn_egg: Αυγό spawn χωρικών
@@ -528,11 +554,11 @@ material:
   white_concrete: Λευκό τσιμέντο
   white_concrete_powder: Λευκή σκόνη σκυροδέματος
   white_glazed_terracotta: Άσπρο τζάμια τερρακότα
+  white_shulker_box: Άσπρο Κουτί Shulker
   white_stained_glass_pane: Άσπρος χρωματισμένος υαλοπίνακας
   white_tulip: Λευκή Τουλίπα
   white_wall_banner: Λευκό Λάβαρο
   witch_spawn_egg: Αυγό spawn μαγισσών
-  wither_skeleton_skull: Κρανίο Σκελετού Γουίδερ
   wither_skeleton_spawn_egg: Αυγό spawn σκελετού wither
   wither_skeleton_wall_skull: Κεφάλι Σκελετού Wither Τοίχου
   wolf_spawn_egg: Αυγό spawn λύκων
@@ -546,6 +572,7 @@ material:
   yellow_concrete: Κίτρινο σκυροδέματος
   yellow_concrete_powder: Κίτρινο σκυροδέματος σε σκόνη
   yellow_glazed_terracotta: Κίτρινο βερνικωμένη τερακότα
+  yellow_shulker_box: Κίτρινο Κουτί Shulker
   yellow_stained_glass: Κίτρινο χρωματισμένο γυαλί
   yellow_stained_glass_pane: Κίτρινος χρωματισμένος υαλοπίνακας
   yellow_wool: Κίτρινο μαλλί
@@ -556,10 +583,11 @@ material:
 biome:
   the_end: Το τέλος
   snowy_tundra: Χιονισμένη Τούντρα
+  mushroom_fields: Αγρός Μανιταριών
+  mushroom_field_shore: Ακτή Αγρού Μανιταριών
   taiga_hills: Λόφοι Τάιγκα
-  jungle_hills: Λόφοι Ζούγκλας
+  birch_forest: Δάσος Σημύδας
   birch_forest_hills: Λόφοι Δάσους Σημύδας
-  snowy_taiga_hills: Χιονισμένοι Λόφοι Τάιγκας
   giant_tree_taiga: Γιγάντια Δασώδης Τάιγκα
   giant_tree_taiga_hills: Γιγάντιοι Λόφοι Δασώδους Τάιγκας
   badlands: Μπάντλαντς
@@ -569,13 +597,17 @@ biome:
   end_midlands: Μεσαία Νησιά του Εντ
   end_highlands: Υψίπεδα του Εντ
   end_barrens: Άνυδρες του Εντ
+  deep_warm_ocean: Ζεστός Βαθύς Ωκεανός
+  deep_lukewarm_ocean: Χλιαρός Βαθύς Ωκεανός
+  deep_cold_ocean: Κρύος Βαθύς Ωκεανός
+  deep_frozen_ocean: Παγωμένος Βαθύς Ωκεανός
   sunflower_plains: Πεδιάδες Ηλιοτρόπιων
-  swamp_hills: Λόφοι Βάλτου
+  flower_forest: Δάσος Λουλουδιών
   tall_birch_forest: Ψηλό Δάσος Σημύδας
   tall_birch_hills: Ψηλοί Λόφοι Σημύδας
-  dark_forest_hills: Λόφοι Σκούρου Δάσους
   giant_spruce_taiga: Λόφοι Τάιγκας Ελάτου
   giant_spruce_taiga_hills: Γιγάντιοι Λόφοι Τάιγκας Ελάτου
+  shattered_savanna_plateau: Θρυμματισμένο Οροπέδιο Σαβάνας
   eroded_badlands: Διαβρωμένα Μπάντλαντς
   modified_wooded_badlands_plateau: Τροποποιημένο Δασώδες Οροπέδιο Μπάντλάντς
   modified_badlands_plateau: Τροποποιημένο Οροπέδιο Μπάντλαντς
@@ -597,8 +629,10 @@ enchantment:
 potion:
   uncraftable: Άφτιαχτο Φίλτρο
   water: Μπουκάλι με Νερό
+  mundane: Άνοστο Φίλτρο
+  awkward: Αμήχανο Φίλτρο
+  fire_resistance: Φίλτρο Πυροπροστασίας
   slowness: Φίλτρο Αργοπορείας
-  water_breathing: Φίλτρο Υποβρύχιας Αναπνοής
   instant_heal: Θεραπευτικό Φίλτρο
   instant_damage: Βλαβερό Φίλτρο
   poison: Δηλητηριώδες Φίλτρο
@@ -608,14 +642,29 @@ potion:
 splash_potion:
   uncraftable: Άφτιαχτο Μπουγελόφιλτρο
   water: Μπουγελόφιλτρο
+  mundane: Βαρετό Μπουγελόφιλτρο
+  thick: Πυχτό Μπουγελόφιλτρο
+  awkward: Αμήχανο Μπουγελόφιλτρο
+  night_vision: Μπουγελόφιλτρο Νυχτερινης Όρασης
+  invisibility: Μπουγελόφιλτρο Aορατότητας
+  jump: Μπουγελόφιλτρο Υπερπήδησης
+  fire_resistance: Μπουγελόφιλτρο Πυροπροστασίας
   speed: Μπουγελόφιλτρο Γρηγοράδας
+  slowness: Μπουγελόφιλτρο Βραδύτητας
+  water_breathing: Μπουγελόφιλτρο Υποθαλάσσιας Αναπνοής
+  instant_heal: Μπουγελόφιλτρο Θεραπείας
   instant_damage: Μπουγελόφιλτρο Ζημιάς
   poison: Δηλητηριώδες Μπουγελόφιλτρο
   regen: Μπουγελόφιλτρο της Αναζωογόνησης
+  strength: Μπουγελόφιλτρο Δύναμης
+  weakness: Μπουγελόφιλτρο Αδυναμίας
   luck: Μπουγελόφιλτρο της Τύχης
+  turtle_master: Μπουγελόφιλτρο του Άρχοντα Χελώνας
+  slow_falling: Μπουγελόφιλτρο Αργής Πτώσης
 lingering_potion:
   uncraftable: Άφτιαχτο Φίλτρο Διαρκείας
   water: Διαρκές Νερομπούκαλο
+  mundane: Βαρετό Φίλτρο Διαρκείας
   awkward: Αμήχανο Διαρκές Φίλτρο
   night_vision: Διαρκές Φίλτρο Νυχτερινής Όρασης
   invisibility: Διαρκές Φίλτρο Αορατότητας
@@ -641,7 +690,6 @@ tipped_arrow:
   fire_resistance: Βέλος της Πυροπροστασίας
   speed: Βέλος της Επιτάχυνσης
   slowness: Βέλος της Βραδύτητας
-  water_breathing: Βέλος Υποβρύχιας Αναπνοής
   instant_heal: Βέλος της Θεραπείας
   instant_damage: Eπώδυνο Βέλος
   poison: Δηλητηριασμένο Βέλος
@@ -651,45 +699,44 @@ tipped_arrow:
   luck: Βέλος της τύχης
 entity:
   experience_orb: Σφαίρα εμπειρίας
+  area_effect_cloud: Περιοχή Επίδρασης Σύννεφου
   elder_guardian: Γέρων Προστάτης
-  wither_skeleton: Σκελετός Γουίδερ
   leash_hitch: Λουρί κόμπου
-  ender_signal: Μάτι του Έντερ
+  ender_pearl: Πεταμένο Μαργαριτάρι Ender
   thrown_exp_bottle: Πεταμένο Μπουκάλι Μαγείας
+  item_frame: Κορνίζα
   wither_skull: Κεφάλι Wither
   primed_tnt: Έτοιμο TNT
+  falling_block: Κύβος που Πέφτει
   firework: Πύραυλος πυροτεχνημάτος
+  shulker_bullet: Σφαίρα Shulker
   dragon_fireball: Δρακόντια Σφαίρα Φωτιάς
   skeleton_horse: Άλογο Σκελετός
+  armor_stand: Καλόγερος για Πανοπλία
   evoker: Επικαλεστής
+  illusioner: Παραισθησιογόνος
   minecart_command: Βαγόνι με Block Εντολής
   minecart_chest: Βαγόνι με σεντούκι
+  minecart_furnace: Βαγόνι με φούρνο
   minecart_tnt: Βαγόνι με δυναμίτη
   minecart_hopper: Βαγονέτο με χοάνη
   minecart_mob_spawner: Βαγόνι με Γεννητή
-  creeper: Κρίπερ
-  ghast: Γκαστ
-  enderman: Έντερμαν
   cave_spider: Αράχνη των σπηλαίων
   magma_cube: Κύβος μάγματος
-  ender_dragon: Δράκος Έντερ
-  wither: Γουίδερ
-  endermite: Εντερμίτης
+  shulker: Shulker
   chicken: Κοτόπουλο
-  mushroom_cow: Μούσρουμ
   snowman: Γλόλεμ Χιονιού
-  ocelot: Οσελότος
   horse: '''Αλογο'
   llama_spit: Λάμα φτύνει
   ender_crystal: Κρύσταλλος του Έντ
   salmon: Σολωμός
   fishing_hook: Bobber Ψαρέματος
+  lightning: Αστραπή
 effect:
   slow: Αργοπορεία
   slow_digging: Κόπωση απο υπερμετάλλευση
   damage_resistance: Αντοχή
   fire_resistance: Πυρoπροστασία
-  water_breathing: Υποβρύχια Αναπνοή
   night_vision: Νυχτερινή όραση
   wither: Γουίδερ
   glowing: Λαμπερό
@@ -969,21 +1016,12 @@ banner_pattern:
   '917518': Κόκκινος χιαστός σταυρός
   '917519': Μαύρος χιαστός σταυρός
   '983040': Λευκός Σταυρός
-  '983041': Πορτοκαλί Σταυρός
   '983042': Ματζέντα Σταυρός
   '983043': Ανοιχτό Μπλε Σταυρός
-  '983044': Κίτρινος Σταυρός
   '983045': Ανοιχτοπράσινος Σταυρός
-  '983046': Ροζ Σταυρός
   '983047': Γκρι Σταυρός
   '983048': Ανοιχτό Γκρι Σταυρός
-  '983049': Κυανός Σταυρός
   '983050': Μωβ Σταυρός
-  '983051': Μπλε Σταυρός
-  '983052': Καφέ Σταυρός
-  '983053': Πράσινος Σταυρός
-  '983054': Κόκκινος Σταυρός
-  '983055': Μαύρος Σταυρός
   '1048576': Λευκό Chevron
   '1048577': Πορτοκαλί Chevron
   '1048578': Ματζέντα Chevron
@@ -1113,37 +1151,17 @@ banner_pattern:
   '1507342': Κόκκινο ανά στροφή
   '1507343': Μαύρη δεξιά διαγώνιος
   '1572864': Λευκός Κύκλος
-  '1572865': Πορτοκαλί Κύκλος
   '1572866': Ανοιχτό Μωβ Κύκλος
-  '1572867': Γαλάζιος Κύκλος
-  '1572868': Κίτρινος Κύκλος
   '1572869': Ανοιχτό Πράσινο Κύκλος
-  '1572870': Ροζ Κύκλος
   '1572871': Γκρι Κύκλος
   '1572872': Ανοιχτό Γκρι Κύκλος
-  '1572873': Κυανός Κύκλος
   '1572874': Μωβ Κύκλος
-  '1572875': Μπλε Κύκλος
-  '1572876': Καφέ Κύκλος
-  '1572877': Πράσινος Κύκλος
-  '1572878': Κόκκινος Κύκλος
-  '1572879': Μαύρος Κύκλος
-  '1638400': Άσπρος Ρόμβος
-  '1638401': Πορτοκαλί Ρόμβος
-  '1638402': Φούξια Ρόμβος
-  '1638403': Γαλάζιος Ρόμβος
-  '1638404': Κίτρινος Ρόμβος
-  '1638405': Λαχανί Ρόμβος
   '1638406': Ρωζ Ρόμβος
   '1638407': Γκρι Ρόμβος
   '1638408': Ανοιχτός Γκρι Ρόμβος
   '1638409': Γαλάζιος Ρόμβος
   '1638410': Μωβ Ρόμβος
   '1638411': Μπλέ Ρόμβος
-  '1638412': Καφέ Ρόμβος
-  '1638413': Πράσινος Ρόμβος
-  '1638414': Κόκκινος Ρόμβος
-  '1638415': Μαύρος Ρόμβος
   '1703936': Άσπρη Κάθετη Αριστερή Γραμμή
   '1703937': Πορτοκαλί Κάθετη Αριστερή Γραμμή
   '1703938': Φούξια Κάθετη Αριστερή Γραμμή
@@ -1208,9 +1226,22 @@ banner_pattern:
   '1900557': Πράσινο Κάτω Οριζόντιο Τμήμα
   '1900558': Κόκκινο Κάτω Οριζόντιο Τμήμα
   '1900559': Μαύρο κάτω μισό
+  '1966080': Άσπρη Μπορντούρα
+  '1966081': Πορτοκαλί Μπορντούρα
+  '1966082': Φούξια Μπορντούρα
   '1966083': Ανοιχτή Μπλε Μπορντούρα
+  '1966084': Κίτρινη Μπορντούρα
+  '1966085': Λαχανί Μπορντούρα
+  '1966086': Ροζ Μπορντούρα
   '1966087': Γκρι Μπορντούρα
   '1966088': Ανοιχτή Γκρι Μπορντούρα
+  '1966089': Κυανή Μπορντούρα
+  '1966090': Μοβ Μπορντούρα
+  '1966091': Μπλε Μπορντούρα
+  '1966092': Καφέ Μπορντούρα
+  '1966093': Πράσινη Μπορντούρα
+  '1966094': Κόκκινη Μπορντούρα
+  '1966095': Μαύρη Μπορντούρα
   '2031616': Άσπρο Κατσαρό Περίγραμμα
   '2031617': Πορτοκαλί Κατσαρό Περίγραμμα
   '2031618': Φούξια Κατσαρό Περίγραμμα

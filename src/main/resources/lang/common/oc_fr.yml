@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:48                    #
+# Build time: 2021-07-04 21:46:04                    #
 # ####################################################
 language:
   code: oc_fr
@@ -14,79 +14,151 @@ material:
   polished_diorite: Diorit polit
   andesite: Andesit
   polished_andesite: Andesit polit
-  grass_block: Blòc d'Èrba
+  deepslate: Ardesa prigonda
+  cobbled_deepslate: Pèiras prigondas
+  polished_deepslate: Ardesa prigonda polida
+  calcite: Calcita
+  tuff: Tuf
+  dripstone_block: Blòc d'espeleotèma
+  grass_block: Blòc d'èrba
   dirt: Tèrra
-  coarse_dirt: Tèrra Estèrla
+  coarse_dirt: Tèrra estèrla
   podzol: Podzòl
+  rooted_dirt: Tèrra racinosa
+  crimson_nylium: Nicèli cremesin
+  warped_nylium: Nicèli bescornut
   cobblestone: Pèiras
-  oak_planks: Plancas en Fusta d'Euse
-  spruce_planks: Plancas en Fusta d'Avet
-  birch_planks: Plancas en fusta de bèç
-  jungle_planks: Plancas en Fusta de Jungla
-  acacia_planks: Plancas en Fusta de Cacièr
-  dark_oak_planks: Plancas en Fusta d'Euse Escur
+  oak_planks: Plancas d'euse
+  spruce_planks: Plancas d'avet
+  birch_planks: Plancas de bèç
+  jungle_planks: Plancas de jungla
+  acacia_planks: Plancas de cacièr
+  dark_oak_planks: Plancas d'euse escur
+  crimson_planks: Plancas cremesinas
+  warped_planks: Plancas bescornudas
   oak_sapling: Grelh d'euse
   spruce_sapling: Grelh d'avet
   birch_sapling: Grelh de bèç
   jungle_sapling: Grelh de jungla
   acacia_sapling: Grelh de cacièr
-  dark_oak_sapling: Gralh d'Euse Escur
+  dark_oak_sapling: Grelh d'euse escur
   bedrock: Ròca de basa
   sand: Sabla
-  red_sand: Sabla Roja
+  red_sand: Sabla roja
   gravel: Grava
-  gold_ore: Minièra d'Aur
-  iron_ore: Minièra de Fèrre
-  coal_ore: Minièra de Carbon
+  coal_ore: Minièra de carbon
+  deepslate_coal_ore: Minièra de carbon en ardesa prigonda
+  iron_ore: Minièra de fèrre
+  deepslate_iron_ore: Minièra de fèrre en ardesa prigonda
+  copper_ore: Minièra de coire
+  deepslate_copper_ore: Minièra de coire en ardesa prigonda
+  gold_ore: Minièra d'aur
+  deepslate_gold_ore: Minièra d'aur en ardesa prigonda
+  redstone_ore: Minièra de redstone
+  deepslate_redstone_ore: Minièra de redstone en ardesa prigonda
+  emerald_ore: Minièra d'esmerauda
+  deepslate_emerald_ore: Minièra d'esmerauda en ardesa prigonda
+  lapis_ore: Minièra de lapislazuli
+  deepslate_lapis_ore: Minièra de lapislazuli en ardesa prigonda
+  diamond_ore: Minièra de diamant
+  deepslate_diamond_ore: Minièra de diamant en ardesa prigonda
+  nether_gold_ore: Minièra d'aur del Nether
+  nether_quartz_ore: Minièra de qüars del Nether
+  ancient_debris: Brigalhs antics
+  coal_block: Blòc de carbon
+  amethyst_block: Blòc d'ametista
+  budding_amethyst: Drusa d'ametista
+  iron_block: Blòc de fèrre
+  copper_block: Blòc de coire
+  gold_block: Blòc d'aur
+  diamond_block: Blòc de diamant
+  netherite_block: Blòc de netherita
+  exposed_copper: Coire expausat
+  weathered_copper: Coire corroït
+  oxidized_copper: Coire oxidat
+  cut_copper: Coire talhat
+  exposed_cut_copper: Coire talhat expausat
+  weathered_cut_copper: Coire talhat corroït
+  oxidized_cut_copper: Coire talhat oxidat
+  cut_copper_stairs: Escalièrs en coire talhat
+  exposed_cut_copper_stairs: Escalièrs en coire talhat expausat
+  weathered_cut_copper_stairs: Escalièrs en coire talhat corroït
+  oxidized_cut_copper_stairs: Escalièrs en coire talhat oxidat
+  cut_copper_slab: Lausa en coire talhat
+  exposed_cut_copper_slab: Lausa en coire talhat expausat
+  weathered_cut_copper_slab: Lausa en coire talhat corroït
+  oxidized_cut_copper_slab: Lausa en coire talhat oxidat
+  waxed_copper_block: Blòc de coire encerat
+  waxed_exposed_copper: Coire expausat encerat
+  waxed_weathered_copper: Coire corroït encerat
+  waxed_oxidized_copper: Coire oxidat encerat
+  waxed_cut_copper: Coire talhat encerat
+  waxed_exposed_cut_copper: Coire talhat expausat encerat
+  waxed_weathered_cut_copper: Coire talhat corroït encerat
+  waxed_oxidized_cut_copper: Coire talhat oxidat encerat
+  waxed_cut_copper_stairs: Escalièrs en coire talhat encerat
+  waxed_exposed_cut_copper_stairs: Escalièrs en coire talhat expausat encerat
+  waxed_weathered_cut_copper_stairs: Coire talhat corroït encerat
+  waxed_oxidized_cut_copper_stairs: Escalièrs en coire talhat oxidat encerat
+  waxed_cut_copper_slab: Lausa en coire talhat encerat
+  waxed_exposed_cut_copper_slab: Lausa en coire talhat expausat encerat
+  waxed_weathered_cut_copper_slab: Coire talhat corroït encerat
+  waxed_oxidized_cut_copper_slab: Lausa en coire talhat oxidat encerat
   oak_log: Busca d'euse
   spruce_log: Busca d'avet
   birch_log: Busca de bèç
   jungle_log: Busca de jungla
   acacia_log: Busca de cacièr
   dark_oak_log: Busca d'euse escur
+  crimson_stem: Tija cremesina
+  warped_stem: Tija bescornuda
   stripped_oak_log: Busca d'euse deruschat
   stripped_spruce_log: Busca d'avet deruschat
   stripped_birch_log: Busca de bèç deruschat
   stripped_jungle_log: Busca de jungla deruschat
   stripped_acacia_log: Busca de cacièr deruschat
   stripped_dark_oak_log: Busca d'euse escur deruschat
+  stripped_crimson_stem: Tija cremesina deruschada
+  stripped_warped_stem: Tija bescornuda deruschada
   stripped_oak_wood: Fusta d'euse deruschat
   stripped_spruce_wood: Fusta d'avet deruschat
   stripped_birch_wood: Fusta de bèç deruschat
   stripped_jungle_wood: Fusta de jungla deruschat
-  stripped_acacia_wood: Fusta d'acàcia deruschat
+  stripped_acacia_wood: Fusta de cacièr deruschat
   stripped_dark_oak_wood: Fusta d'euse escur deruschat
-  oak_wood: Fusta d'Euse
-  spruce_wood: Fusta d'Avet
+  stripped_crimson_hyphae: Ifas cremesinas deruschadas
+  stripped_warped_hyphae: Ifas bescornudas deruschadas
+  oak_wood: Fusta d'euse
+  spruce_wood: Fusta d'avet
   birch_wood: Fusta de bèç
-  jungle_wood: Fusta de Jungla
-  acacia_wood: Fusta de Cacièr
-  dark_oak_wood: Fusta d'Euse Escur
+  jungle_wood: Fusta de jungla
+  acacia_wood: Fusta de cacièr
+  dark_oak_wood: Fusta d'euse escur
+  crimson_hyphae: Ifas cremesinas
+  warped_hyphae: Ifas bescornudas
   oak_leaves: Fuèlhas d'euse
   spruce_leaves: Fuèlhas d'avet
   birch_leaves: Fuèlhas de bèç
   jungle_leaves: Fuèlhas de jungla
   acacia_leaves: Fuèlhas de cacièr
   dark_oak_leaves: Fuèlhas d'euse escur
+  azalea_leaves: Fuèlhas d'azalèa
   sponge: Esponja
-  wet_sponge: Esponja Trempada
+  wet_sponge: Esponja trempada
   glass: Veire
-  lapis_ore: Minièra de Lapis Lazuli
-  lapis_block: Blòc de Lapis Lazuli
-  dispenser: Distribuïdor
+  tinted_glass: Veire tintat
+  lapis_block: Blòc de lapislazuli
   sandstone: Gres
-  chiseled_sandstone: Gres Escalprat
-  note_block: Blòc Musical
-  powered_rail: Ralh Propulsor
-  detector_rail: Ralh Detector
-  sticky_piston: Piston Pegant
+  chiseled_sandstone: Gres escalprat
+  cut_sandstone: Gres talhat
   cobweb: Telaranha
   grass: Èrba
   fern: Falguièra
+  azalea: Azalèa
+  flowering_azalea: Azalèa en flor
   dead_bush: Arbust mòrt
   seagrass: Èrba marina
   sea_pickle: Cornisson de mar
-  piston: Piston
   white_wool: Lana blanca
   orange_wool: Lana iranja
   magenta_wool: Lana magenta
@@ -105,42 +177,64 @@ material:
   black_wool: Lana negra
   dandelion: Pissalach
   poppy: Rosèla
-  blue_orchid: Orquidèa Blava
-  allium: Alliom
-  azure_bluet: Blavet Azur
-  red_tulip: Tulipa Roja
-  orange_tulip: Tulipa Iranja
-  white_tulip: Tulipa Blanca
-  pink_tulip: Tulipa Ròsa
+  blue_orchid: Orquidèa blava
+  allium: Allium
+  azure_bluet: Houstonia caerulea
+  red_tulip: Tulipa roja
+  orange_tulip: Tulipa iranja
+  white_tulip: Tulipa blanca
+  pink_tulip: Tulipa ròsa
   oxeye_daisy: Margarida
   cornflower: Blavet
   lily_of_the_valley: Muguet
   wither_rose: Ròsa del Wither
+  spore_blossom: Flor sporifèra
   brown_mushroom: Camparòl brun
   red_mushroom: Camparòl roge
+  crimson_fungus: Fonge cremesin
+  warped_fungus: Fonge bescornut
+  crimson_roots: Raices cremesins
+  warped_roots: Raices bescornuts
+  nether_sprouts: Brots del Nether
+  weeping_vines: Lianas plorosas
+  twisting_vines: Lianas torsadas
   sugar_cane: Cana de sucre
   kelp: Alga
-  bamboo: Bambò
-  gold_block: Blòc d'Aur
-  iron_block: Blòc de Fèrre
+  moss_carpet: Moqueta de mofa
+  moss_block: Blòc de mofa
+  hanging_roots: Raices penjants
+  big_dripleaf: Gotafuèlha granda
+  small_dripleaf: Gotafuèlha pichona
+  bamboo: Bambó
   oak_slab: Lausa en euse
+  spruce_slab: Lausa en avet
   birch_slab: Lausa en bèç
+  jungle_slab: Lausa de jungla
+  acacia_slab: Lausa de cacièr
   dark_oak_slab: Lausa en euse escur
+  crimson_slab: Lausa cremesina
+  warped_slab: Lausa bescornuda
   stone_slab: Lausa de ròca
   smooth_stone_slab: Lausa de ròca lisa
   sandstone_slab: Lausa de gres
-  cut_sandstone_slab: Lausa de gres talhat
+  cut_sandstone_slab: Lausa en gres talhat
+  petrified_oak_slab: Lausa en euse petrificada
   cobblestone_slab: Lausa de pèiras
+  brick_slab: Lausa en bricas
   stone_brick_slab: Lausa en bricas de pèira
   nether_brick_slab: Lausa en bricas del Nether
   quartz_slab: Lausa en qüars
   red_sandstone_slab: Lausa de gres roge
-  cut_red_sandstone_slab: Lausa de gres roge talhat
-  purpur_slab: Lausa Porpra
+  cut_red_sandstone_slab: Lausa en gres roge talhat
+  purpur_slab: Lausa de porpra
+  prismarine_slab: Lausa de prismarina
+  prismarine_brick_slab: Lausa en bricas de prismarina
+  dark_prismarine_slab: Lausa de prismarina escura
+  smooth_quartz: Blòc de qüars lis
   smooth_red_sandstone: Gres roge lis
   smooth_sandstone: Gres lis
+  smooth_stone: Ròca lisa
   bricks: Bricas
-  tnt: TNT
   bookshelf: Bibliotèca
   mossy_cobblestone: Pèiras mofudas
   obsidian: Obsidiana
@@ -148,126 +242,124 @@ material:
   end_rod: Barra de l'End
   chorus_plant: Planta de Chorus
   chorus_flower: Flor de Chorus
-  purpur_block: Blòc Porpre
-  purpur_pillar: Pilar Porpre
-  purpur_stairs: Escalièrs Porpres
+  purpur_block: Blòc de porpra
+  purpur_pillar: Pilar de porpra
+  purpur_stairs: Escalièrs de porpra
+  spawner: Generador
   oak_stairs: Escalièrs en euse
   chest: Còfre
-  diamond_ore: Minièra de Diamant
-  diamond_block: Blòc de Diamant
-  crafting_table: Taula de Trabalh
-  farmland: Tèrra Laurada
+  crafting_table: Taula de trabalh
+  farmland: Tèrra laurada
   furnace: Forn
   ladder: Escala
-  rail: Ralh
   cobblestone_stairs: Escalièrs de pèiras
-  lever: Palfèr
-  stone_pressure_plate: Placa de pression en ròca
-  oak_pressure_plate: Placa de pression en euse
-  birch_pressure_plate: Placa de pression de bèç
-  dark_oak_pressure_plate: Placa de pression en euse escur
-  redstone_ore: Minièra de Redstone
-  redstone_torch: Entòrcha de Redstone
   snow: Nèu
   ice: Glaç
   snow_block: Blòc de nèu
   cactus: Cactus
   clay: Argila
-  jukebox: Jukebox
+  jukebox: Tocadisques
   oak_fence: Barralha en euse
   spruce_fence: Barralha en avet
   birch_fence: Barralha en bèç
-  jungle_fence: Barralha en fusta de jungla
+  jungle_fence: Barralha de jungla
   acacia_fence: Barralha en cacièr
   dark_oak_fence: Barralha en euse escur
+  crimson_fence: Barralha cremesina
+  warped_fence: Barralha bescornuda
   pumpkin: Coja
+  carved_pumpkin: Coja escalprada
+  jack_o_lantern: Lantèrna coja
   netherrack: Ròca del Nether
-  soul_sand: Sablas de las Armas
+  soul_sand: Sabla de las anmas
+  soul_soil: Sòl de las anmas
   basalt: Basalt
   polished_basalt: Basalt polit
-  glowstone: Pèira Luminosa
-  jack_o_lantern: Lantèrna Coja
-  oak_trapdoor: Trapa en euse
-  birch_trapdoor: Trapa en bèç
-  dark_oak_trapdoor: Trapa en euse escur
+  smooth_basalt: Basalt lis
+  soul_torch: Entòrcha de las anmas
+  glowstone: Pèira luminosa
   infested_stone: Ròca infestada
   infested_cobblestone: Pèiras infestadas
   infested_stone_bricks: Bricas de pèira infestadas
   infested_mossy_stone_bricks: Bricas de pèira mofuda infestadas
   infested_cracked_stone_bricks: Bricas de pèira fendilhada infestadas
   infested_chiseled_stone_bricks: Bricas de pèira escalprada infestadas
+  infested_deepslate: Ardesa prigonda infestada
   stone_bricks: Bricas de pèira
   mossy_stone_bricks: Bricas de pèira mofudas
   cracked_stone_bricks: Bricas de pèira fendilhadas
   chiseled_stone_bricks: Bricas de pèira escalpradas
+  deepslate_bricks: Bricas d'ardesa prigonda
+  cracked_deepslate_bricks: Bricas d'ardesa prigonda fendilhadas
+  deepslate_tiles: Rajòlas d'ardesa prigonda
+  cracked_deepslate_tiles: Rajòlas d'ardesa prigonda fendilhadas
+  chiseled_deepslate: Ardesa prigonda escalprada
   brown_mushroom_block: Blòc de camparòl brun
   red_mushroom_block: Blòc de camparòl roge
   mushroom_stem: Tija de camparòl
-  iron_bars: Barrets de Fèrre
+  iron_bars: Barrets de fèrre
   chain: Cadena
-  glass_pane: Panèl de Veire
-  melon: Melon d'Aiga
+  glass_pane: Panèl de veire
+  melon: Pastèca
   vine: Lianas
-  oak_fence_gate: Pòrta de barralha en euse
-  spruce_fence_gate: Pòrta de barralha en avet
-  birch_fence_gate: Pòrta de barralha en bèç
-  jungle_fence_gate: Pòrta de barralha en fusta de jungla
-  acacia_fence_gate: Pòrta de barralha en cacièr
-  dark_oak_fence_gate: Pòrta de barralha en euse escur
-  brick_stairs: Escalièrs en Bricas
+  glow_lichen: Liquèn luminós
+  brick_stairs: Escalièrs en bricas
   stone_brick_stairs: Escalièrs en bricas de pèira
   mycelium: Micèli
   lily_pad: Nimfèia
   nether_bricks: Bricas del Nether
+  cracked_nether_bricks: Bricas del Nether fendilhadas
+  chiseled_nether_bricks: Bricas del Nether escalpradas
   nether_brick_fence: Barralha en bricas del Nether
   nether_brick_stairs: Escalièrs en bricas del Nether
+  enchanting_table: Taula d'encantament
+  end_portal_frame: Quadre del portal de l'End
   end_stone: Ròca de l'End
-  end_stone_bricks: Bricas de Pèira de l'End
+  end_stone_bricks: Bricas de pèira de l'End
   dragon_egg: Uòu de Dragon
-  redstone_lamp: Lum de Redstone
   sandstone_stairs: Escalièrs en gres
-  emerald_ore: Minièra d'Esmerauda
   ender_chest: Còfre de l'End
-  tripwire_hook: Cròc
-  emerald_block: Blòc d'Esmerauda
+  emerald_block: Blòc d'esmerauda
   spruce_stairs: Escalièrs en avet
   birch_stairs: Escalièrs en bèç
-  jungle_stairs: Escalièrs en fusta de jungla
-  command_block: Blòc de Comanda
+  jungle_stairs: Escalièrs de jungla
+  crimson_stairs: Escalièrs cremesins
+  warped_stairs: Escalièrs bescornuts
+  command_block: Blòc de comandas
   beacon: Balisa
   cobblestone_wall: Mur de pèiras
   mossy_cobblestone_wall: Mur de pèiras mofudas
-  brick_wall: Mur de bricas
-  prismarine_wall: Mur de prismarina
-  red_sandstone_wall: Mur de grès roge
-  mossy_stone_brick_wall: Mur en bricas de pèiras mofudas
-  granite_wall: Mur en granit
-  stone_brick_wall: Mur en bricas de pèira
-  nether_brick_wall: Mur en bricas del Nether
-  andesite_wall: Mur en andesit
-  red_nether_brick_wall: Mur en bricas del Nether rojas
-  sandstone_wall: Mur de grès
-  end_stone_brick_wall: Mur en bricas de pèira de l'End
-  diorite_wall: Mur en diorit
-  stone_button: Boton en pèira
-  oak_button: Boton en euse
-  birch_button: Boton en bèç
-  dark_oak_button: Boton en euse escur
+  brick_wall: Muret de bricas
+  prismarine_wall: Muret de prismarina
+  red_sandstone_wall: Muret de grès roge
+  mossy_stone_brick_wall: Muret en bricas de pèiras mofudas
+  granite_wall: Muret de granit
+  stone_brick_wall: Muret en bricas de pèira
+  nether_brick_wall: Muret en bricas del Nether
+  andesite_wall: Muret d'andesit
+  red_nether_brick_wall: Muret en bricas del Nether rojas
+  sandstone_wall: Muret de grès
+  end_stone_brick_wall: Muret en bricas de pèira de l'End
+  diorite_wall: Muret de diorit
+  blackstone_wall: Muret de ròca negra
+  polished_blackstone_wall: Muret de ròca negra polida
+  polished_blackstone_brick_wall: Muret en bricas de ròca negra polida
+  cobbled_deepslate_wall: Muret en pèiras prigondas
+  polished_deepslate_wall: Muret en ardesa prigonda polida
+  deepslate_brick_wall: Muret en bricas d'ardesa prigonda
+  deepslate_tile_wall: Muret en rajòlas d'ardesa prigonda
   anvil: Enclutge
-  trapped_chest: Còfre Trapadèla
-  redstone_block: Blòc de Redstone
-  nether_quartz_ore: Minièra de qüars del Nether
-  hopper: Embut
+  chipped_anvil: Enclutge bercat
+  damaged_anvil: Enclutge damatjat
   chiseled_quartz_block: Blòc de qüars escalprat
   quartz_block: Blòc de qüars
+  quartz_bricks: Bricas de qüars
   quartz_pillar: Pilar de qüars
   quartz_stairs: Escalièrs en qüars
-  activator_rail: Ralh Desenclavador
-  dropper: Donaire
   white_terracotta: Tèrra cuècha blanca
   orange_terracotta: Tèrra cuècha iranja
   magenta_terracotta: Tèrra cuècha magenta
-  light_blue_terracotta: Tèrra cuècha blau cèl
+  light_blue_terracotta: Tèrra cuècha blau clar
   yellow_terracotta: Tèrra cuècha jauna
   lime_terracotta: Tèrra cuècha verd clar
   pink_terracotta: Tèrra cuècha ròsa
@@ -276,13 +368,13 @@ material:
   cyan_terracotta: Tèrra cuècha cian
   purple_terracotta: Tèrra cuècha violeta
   blue_terracotta: Tèrra cuècha blava
-  brown_terracotta: Tèrra cuècha marron
+  brown_terracotta: Tèrra cuècha bruna
   green_terracotta: Tèrra cuècha verda
   red_terracotta: Tèrra cuècha roja
   black_terracotta: Tèrra cuècha negra
-  barrier: Barralha
-  iron_trapdoor: Trapa de fèrre
-  hay_block: Blòc de Palha
+  barrier: Barralha invisibla
+  light: Lutz
+  hay_block: Bala de fen
   white_carpet: Moqueta blanca
   orange_carpet: Moqueta iranja
   magenta_carpet: Moqueta magenta
@@ -300,70 +392,72 @@ material:
   red_carpet: Moqueta roja
   black_carpet: Moqueta negra
   terracotta: Tèrra cuècha
-  coal_block: Blòc de Carbon
   packed_ice: Glaç compactat
   acacia_stairs: Escalièrs en cacièr
   dark_oak_stairs: Escalièrs en euse escur
-  slime_block: Blòc de Slime
-  grass_path: Camin d'Èrba
+  dirt_path: Camin de tèrra
   sunflower: Virasolelh
   lilac: Lillac
   rose_bush: Rosièr
   peony: Peuna
   tall_grass: Èrba nauta
-  large_fern: Falguièra Granda
-  white_stained_glass: Veire Blanc
+  large_fern: Falguièra granda
+  white_stained_glass: Veire blanc
   orange_stained_glass: Veire irange
-  magenta_stained_glass: Veire Magenta
+  magenta_stained_glass: Veire magenta
   light_blue_stained_glass: Veire blau clar
-  yellow_stained_glass: Veire Jaune
-  lime_stained_glass: Veire Lima
-  pink_stained_glass: Veire Ròse
-  gray_stained_glass: Veire Gris
-  light_gray_stained_glass: Veire Gris Clar
-  cyan_stained_glass: Veire Cian
-  purple_stained_glass: Veire Violet
-  blue_stained_glass: Veire Blau
-  brown_stained_glass: Veire Brun
-  green_stained_glass: Veire Verd
-  red_stained_glass: Veire Roge
-  black_stained_glass: Veire Negre
-  white_stained_glass_pane: Panèl de Veire Blanc
-  orange_stained_glass_pane: Panèl de Veire Irange
-  magenta_stained_glass_pane: Panèl de Veire Magenta
-  light_blue_stained_glass_pane: Panèl de Veire Blau Clar
-  yellow_stained_glass_pane: Panèl de Veire Jaune
-  lime_stained_glass_pane: Panèl de Veire Lima
-  pink_stained_glass_pane: Panèl de Veire Ròse
-  gray_stained_glass_pane: Panèl de Veire Gris
-  light_gray_stained_glass_pane: Panèl de Veire Gris Clar
-  cyan_stained_glass_pane: Panèl de Veire Cian
-  purple_stained_glass_pane: Panèl de Veire Violet
-  blue_stained_glass_pane: Panèl de Veire Blau
-  brown_stained_glass_pane: Panèl de Veire Brun
-  green_stained_glass_pane: Panèl de Veire Verd
-  red_stained_glass_pane: Panèl de Veire Roge
-  black_stained_glass_pane: Panèl de Veire Negre
+  yellow_stained_glass: Veire jaune
+  lime_stained_glass: Veire lima
+  pink_stained_glass: Veire ròse
+  gray_stained_glass: Veire gris
+  light_gray_stained_glass: Veire gris clar
+  cyan_stained_glass: Veire cian
+  purple_stained_glass: Veire violet
+  blue_stained_glass: Veire blau
+  brown_stained_glass: Veire brun
+  green_stained_glass: Veire verd
+  red_stained_glass: Veire roge
+  black_stained_glass: Veire negre
+  white_stained_glass_pane: Panèl de veire blanc
+  orange_stained_glass_pane: Panèl de veire irange
+  magenta_stained_glass_pane: Panèl de veire magenta
+  light_blue_stained_glass_pane: Panèl de veire blau clar
+  yellow_stained_glass_pane: Panèl de veire jaune
+  lime_stained_glass_pane: Panèl de veire lima
+  pink_stained_glass_pane: Panèl de veire ròse
+  gray_stained_glass_pane: Panèl de veire gris
+  light_gray_stained_glass_pane: Panèl de veire gris clar
+  cyan_stained_glass_pane: Panèl de veire cian
+  purple_stained_glass_pane: Panèl de veire violet
+  blue_stained_glass_pane: Panèl de veire blau
+  brown_stained_glass_pane: Panèl de veire brun
+  green_stained_glass_pane: Panèl de veire verd
+  red_stained_glass_pane: Panèl de veire roge
+  black_stained_glass_pane: Panèl de veire negre
   prismarine: Prismarina
-  prismarine_bricks: Bricas de Prismarina
-  dark_prismarine: Prismarina Escura
+  prismarine_bricks: Bricas de prismarina
+  dark_prismarine: Prismarina escura
+  prismarine_stairs: Escalièrs en prismarina
+  prismarine_brick_stairs: Escalièrs en bricas de prismarina
+  dark_prismarine_stairs: Escalièrs en prismarina escura
   sea_lantern: Lantèrna marina
-  red_sandstone: Gres Roge
-  chiseled_red_sandstone: Gres Roge Escalprat
-  red_sandstone_stairs: Escalièrs de Gres Roge
-  repeating_command_block: Repetir lo Blòc de Comanda
-  chain_command_block: Blòc de Comanda en Cadena
-  magma_block: Blòt de magma
-  nether_wart_block: Blòt de botiòlas del Nether
+  red_sandstone: Gres roge
+  chiseled_red_sandstone: Gres roge escalprat
+  cut_red_sandstone: Gres roge talhat
+  red_sandstone_stairs: Escalièrs en gres roge
+  repeating_command_block: Blòc de comandas a repeticion
+  chain_command_block: Blòc de comandas en cadena
+  magma_block: Blòc de magma
+  nether_wart_block: Blòc de botiòlas del Nether
+  warped_wart_block: Blòc de botiòlas bescornudas del Nether
   red_nether_bricks: Bricas del Nether rojas
-  bone_block: Blòt d'òsses
-  structure_void: Structura
-  observer: Observador
+  bone_block: Blòc d'òsses
+  structure_void: Void d'estructura
   shulker_box: Bóstia de Shulker
   white_shulker_box: Bóstia de Shulker blanca
   orange_shulker_box: Bóstia de Shulker iranja
   magenta_shulker_box: Bóstia de Shulker magenta
-  light_blue_shulker_box: Bóstia de Shulker blau cèl
+  light_blue_shulker_box: Bóstia de Shulker blau clar
   yellow_shulker_box: Bóstia de Shulker jauna
   lime_shulker_box: Bóstia de Shulker verd clar
   pink_shulker_box: Bóstia de Shulker ròsa
@@ -372,7 +466,7 @@ material:
   cyan_shulker_box: Bóstia de Shulker cian
   purple_shulker_box: Bóstia de Shulker violeta
   blue_shulker_box: Bóstia de Shulker blava
-  brown_shulker_box: Bóstia de Shulker marron
+  brown_shulker_box: Bóstia de Shulker bruna
   green_shulker_box: Bóstia de Shulker verda
   red_shulker_box: Bóstia de Shulker roja
   black_shulker_box: Bóstia de Shulker negra
@@ -389,41 +483,72 @@ material:
   purple_glazed_terracotta: Tèrra cuècha esmaltada violeta
   blue_glazed_terracotta: Tèrra cuècha esmaltada blava
   brown_glazed_terracotta: Tèrra cuècha esmaltada bruna
-  green_glazed_terracotta: Tèrra cuècha esmaltada vèrda
+  green_glazed_terracotta: Tèrra cuècha esmaltada verda
   red_glazed_terracotta: Tèrra cuècha esmaltada roja
   black_glazed_terracotta: Tèrra cuècha esmaltada negra
-  white_concrete: Beton Blanc
-  orange_concrete: Beton Irange
-  magenta_concrete: Beton Magenta
-  light_blue_concrete: Beton Blau Clar
-  yellow_concrete: Beton Rossòl
-  lime_concrete: Beton Lima
-  pink_concrete: Beton Ròse
-  gray_concrete: Beton Gris
-  light_gray_concrete: Beton Gris Clar
-  cyan_concrete: Beton Cian
-  purple_concrete: Beton Violet
-  blue_concrete: Beton Blau
-  brown_concrete: Beton Brun
-  green_concrete: Beton Vèrd
-  red_concrete: Beton Roge
-  black_concrete: Beton Negre
-  white_concrete_powder: Polsa de Beton Blanca
-  orange_concrete_powder: Polsa de Beton Iranja
-  magenta_concrete_powder: Polsa de Beton Magenta
-  light_blue_concrete_powder: Polsa de Beton Blau Clar
+  white_concrete: Beton blanc
+  orange_concrete: Beton irange
+  magenta_concrete: Beton magenta
+  light_blue_concrete: Beton blau clar
+  yellow_concrete: Beton jaune
+  lime_concrete: Beton lima
+  pink_concrete: Beton ròse
+  gray_concrete: Beton gris
+  light_gray_concrete: Beton gris clar
+  cyan_concrete: Beton cian
+  purple_concrete: Beton violet
+  blue_concrete: Beton blau
+  brown_concrete: Beton brun
+  green_concrete: Beton verd
+  red_concrete: Beton roge
+  black_concrete: Beton negre
+  white_concrete_powder: Polsa de beton blanca
+  orange_concrete_powder: Polsa de beton iranja
+  magenta_concrete_powder: Polsa de beton magenta
+  light_blue_concrete_powder: Polsa de beton blau clar
   yellow_concrete_powder: Polsa de beton jauna
-  lime_concrete_powder: Polsa de Beton Lima
-  pink_concrete_powder: Polsa de Beton Ròsa
-  gray_concrete_powder: Polsa de Beton Grisa
-  light_gray_concrete_powder: Polsa de Beton Gris Clar
-  cyan_concrete_powder: Polsa de Beton Cian
-  purple_concrete_powder: Polsa de Beton Violeta
-  blue_concrete_powder: Polsa de Beton Blava
-  brown_concrete_powder: Polsa de Beton Bruna
-  green_concrete_powder: Polsa de Beton Vèrda
-  red_concrete_powder: Polsa de Beton Roja
-  black_concrete_powder: Polsa de Beton Negra
+  lime_concrete_powder: Polsa de beton lima
+  pink_concrete_powder: Polsa de beton ròsa
+  gray_concrete_powder: Polsa de beton grisa
+  light_gray_concrete_powder: Polsa de beton gris clar
+  cyan_concrete_powder: Polsa de beton cian
+  purple_concrete_powder: Polsa de beton violeta
+  blue_concrete_powder: Polsa de beton blava
+  brown_concrete_powder: Polsa de beton bruna
+  green_concrete_powder: Polsa de beton verda
+  red_concrete_powder: Polsa de beton roja
+  black_concrete_powder: Polsa de beton negra
+  turtle_egg: Uòu de tartuga
+  dead_tube_coral_block: Blòc de coralh tubular mòrt
+  dead_brain_coral_block: Blòc de coralh de cervèl mòrt
+  dead_bubble_coral_block: Blòc de coralh de botiòla mòrt
+  dead_fire_coral_block: Blòc de coralh de fuòc mòrt
+  dead_horn_coral_block: Blòc de coralh cornut mòrt
+  tube_coral_block: Blòc de coralh tubular
+  brain_coral_block: Blòc de coralh de cervèl
+  bubble_coral_block: Blòc de coralh de botiòla
+  fire_coral_block: Blòc de coralh de fuòc
+  horn_coral_block: Blòc de coralh cornut
+  tube_coral: Coralh tubular
+  brain_coral: Coralh de cervèl
+  bubble_coral: Coralh de botiòla
+  fire_coral: Coralh de fuòc
+  horn_coral: Coralh cornut
+  dead_brain_coral: Coralh de cervèl mòrt
+  dead_bubble_coral: Coralh de botiòla mòrt
+  dead_fire_coral: Coralh de fuòc mòrt
+  dead_horn_coral: Coralh cornut mòrt
+  dead_tube_coral: Coralh tubular mòrt
+  tube_coral_fan: Gorgònia de coralh tubular
+  brain_coral_fan: Gorgònia de coralh de cervèl
+  bubble_coral_fan: Gorgònia de coralh de botiòla
+  fire_coral_fan: Gorgònia de coralh de fuòc
+  horn_coral_fan: Gorgònia de coralh cornut
+  dead_tube_coral_fan: Gorgònia de coralh tubular mòrt
+  dead_brain_coral_fan: Gorgònia de coralh de cervèl mòrt
+  dead_bubble_coral_fan: Gorgònia de coralh de botiòla mòrt
+  dead_fire_coral_fan: Gorgònia de coralh de fuòc mòrt
+  dead_horn_coral_fan: Gorgònia de coralh cornut mòrt
   blue_ice: Glaç blau
   polished_granite_stairs: Escalièrs en granit polit
   smooth_red_sandstone_stairs: Escalièrs en gres roge lis
@@ -436,9 +561,13 @@ material:
   smooth_quartz_stairs: Escalièrs en qüars lis
   granite_stairs: Escalièrs en granit
   andesite_stairs: Escalièrs en andesit
-  red_nether_brick_stairs: Escalièrs en bricas del Nether Rojas
+  red_nether_brick_stairs: Escalièrs en bricas del Nether rojas
   polished_andesite_stairs: Escalièrs en andesit polit
   diorite_stairs: Escalièrs en diorit
+  cobbled_deepslate_stairs: Escalièrs en pèiras prigondas
+  polished_deepslate_stairs: Escalièrs en ardesa prigonda polida
+  deepslate_brick_stairs: Escalièrs en bricas d'ardesa prigonda
+  deepslate_tile_stairs: Escalièrs en rajòlas d'ardesa prigonda
   polished_granite_slab: Lausa en granit polit
   smooth_red_sandstone_slab: Lausa en gres roge lis
   mossy_stone_brick_slab: Lausa en bricas de pèiras mofudas
@@ -452,113 +581,236 @@ material:
   red_nether_brick_slab: Lausa en bricas del Nether rojas
   polished_andesite_slab: Lausa en andesit polit
   diorite_slab: Lausa en diorit
-  iron_door: Pòrta de Fèrre
-  oak_door: Pòrta d'Euse
-  spruce_door: Pòrta d'Avet
-  birch_door: Pòrta de bèç
-  jungle_door: Pòrta de Fusta de Jungla
-  acacia_door: Pòrta de Cacièr
-  dark_oak_door: Pòrta d'Euse Escur
-  repeater: Repetidor Redstone
-  comparator: Comparador Redstone
+  cobbled_deepslate_slab: Lausa en pèiras prigondas
+  polished_deepslate_slab: Lausa en ardesa prigonda polida
+  deepslate_brick_slab: Lausa en bricas d'ardesa prigonda
+  deepslate_tile_slab: Lausa en rajòlas d'ardesa prigonda
+  scaffolding: Enart
+  redstone: Polsa de redstone
+  redstone_torch: Entòrcha de redstone
+  redstone_block: Blòc de redstone
+  repeater: Repetidor de redstone
+  comparator: Comparador de redstone
+  piston: Piston
+  sticky_piston: Piston pegós
+  slime_block: Blòc de Slime
+  honey_block: Blòc de mèl
+  observer: Observador
+  hopper: Embut
+  dispenser: Distribuïdor
+  dropper: Donaire
+  lectern: Pupitre
+  target: Buta
+  lever: Palfèr
+  lightning_rod: Paratron
+  daylight_detector: Detector de lutz solara
+  sculk_sensor: Sensor de sculk
+  tripwire_hook: Cròc
+  trapped_chest: Còfre trapadèla
+  tnt: TNT
+  redstone_lamp: Lum de redstone
+  note_block: Blòc musical
+  stone_button: Boton en pèira
+  polished_blackstone_button: Boton de ròca negra polida
+  oak_button: Boton en euse
+  spruce_button: Boton en avet
+  birch_button: Boton en bèç
+  jungle_button: Boton de jungla
+  acacia_button: Boton en cacièr
+  dark_oak_button: Boton en euse escur
+  crimson_button: Boton cremesin
+  warped_button: Buton bescornut
+  stone_pressure_plate: Placa de pression en ròca
+  polished_blackstone_pressure_plate: Placa de pression en ròca negra polida
+  light_weighted_pressure_plate: Placa de pression per pes leugièr
+  heavy_weighted_pressure_plate: Placa de pression per pes elevat
+  oak_pressure_plate: Placa de pression en euse
+  spruce_pressure_plate: Placa de pression en avet
+  birch_pressure_plate: Placa de pression en bèç
+  jungle_pressure_plate: Placa de pression de jungla
+  acacia_pressure_plate: Placa de pression en cacièr
+  dark_oak_pressure_plate: Placa de pression en euse escur
+  crimson_pressure_plate: Placa de pression cremesina
+  warped_pressure_plate: Placa de pression bescornuda
+  iron_door: Pòrta en fèrre
+  oak_door: Pòrta en euse
+  spruce_door: Pòrta en avet
+  birch_door: Pòrta en bèç
+  jungle_door: Pòrta de jungla
+  acacia_door: Pòrta en cacièr
+  dark_oak_door: Pòrta en euse escur
+  crimson_door: Pòrta cremesina
+  warped_door: Pòrta bescornuda
+  iron_trapdoor: Trapa en fèrre
+  oak_trapdoor: Trapa en euse
+  spruce_trapdoor: Trapa en avet
+  birch_trapdoor: Trapa en bèç
+  jungle_trapdoor: Trapa de jungla
+  acacia_trapdoor: Trapa en cacièr
+  dark_oak_trapdoor: Trapa en euse escur
+  crimson_trapdoor: Trapa cremesina
+  warped_trapdoor: Trapa bescornuda
+  oak_fence_gate: Pòrta de barralha en euse
+  spruce_fence_gate: Pòrta de barralha en avet
+  birch_fence_gate: Pòrta de barralha en bèç
+  jungle_fence_gate: Pòrta de barralha de jungla
+  acacia_fence_gate: Pòrta de barralha en cacièr
+  dark_oak_fence_gate: Pòrta de barralha en euse escur
+  crimson_fence_gate: Pòrta de barralha cremesina
+  warped_fence_gate: Pòrta de barralha bescornuda
+  powered_rail: Ralh propulsor
+  detector_rail: Ralh detector
+  rail: Ralh
+  activator_rail: Ralh activador
+  saddle: Sèla
+  minecart: Vagonet
+  chest_minecart: Vagonet amb còfre
+  furnace_minecart: Vagonet amb forn
+  tnt_minecart: Vagonet amb de TNT
+  hopper_minecart: Vagonet amb embut
+  carrot_on_a_stick: Pastenaga sus un baston
+  warped_fungus_on_a_stick: Fonge bescornut sus un baston
+  elytra: Elitres
+  oak_boat: Batèl en euse
+  spruce_boat: Batèl en avet
+  birch_boat: Batèl en bèç
+  jungle_boat: Batèl de jungla
+  acacia_boat: Batèl en cacièr
+  dark_oak_boat: Batèl en euse escur
   structure_block: Blòc d'Estructura
+  jigsaw: Blòc copacap
+  turtle_helmet: Clòsca de tartuga
+  scute: Escata de tartuga
   flint_and_steel: Batifuòc
   apple: Poma
   bow: Arc
   arrow: Sageta
   coal: Carbon
-  charcoal: Carbon de Fusta
+  charcoal: Carbon de fusta
   diamond: Diamant
-  iron_ingot: Lingòt de Fèrre
-  gold_ingot: Lingòt d'Aur
-  wooden_sword: Espasa en Fusta
-  wooden_shovel: Pala en Fusta
-  wooden_pickaxe: Trenca en Fusta
-  wooden_axe: Pigassa en Fusta
-  wooden_hoe: Bigòs en Fusta
+  emerald: Esmerauda
+  lapis_lazuli: Lapislazuli
+  quartz: Qüars del Nether
+  amethyst_shard: Fragment d'ametista
+  raw_iron: Fèrre brut
+  iron_ingot: Lingòt de fèrre
+  raw_copper: Coire brut
+  copper_ingot: Lingòt de coire
+  raw_gold: Aur brut
+  gold_ingot: Lingòt d'aur
+  netherite_ingot: Lingòt de netherita
+  netherite_scrap: Fragment de netherita
+  wooden_sword: Espasa en fusta
+  wooden_shovel: Pala en fusta
+  wooden_pickaxe: Trenca en fusta
+  wooden_axe: Pigassa en fusta
+  wooden_hoe: Bigòs en fusta
   stone_sword: Espasa en pèira
   stone_shovel: Pala en pèira
   stone_pickaxe: Trenca en pèira
   stone_axe: Pigassa en pèira
   stone_hoe: Bigòs en pèira
-  golden_sword: Espasa en Aur
-  golden_shovel: Pala en Aur
-  golden_pickaxe: Trenca en Aur
-  golden_axe: Pigassa en Aur
-  golden_hoe: Bigòs en Aur
-  iron_sword: Espasa en Fèrre
-  iron_shovel: Pala en Fèrre
-  iron_pickaxe: Trenca en Fèrre
-  iron_axe: Pigassa en Fèrre
-  iron_hoe: Bigòs en Fèrre
-  diamond_sword: Espasa en Diamant
-  diamond_shovel: Pala en Diamant
-  diamond_pickaxe: Trenca en Diamant
-  diamond_axe: Pigassa en Diamant
-  diamond_hoe: Bigòs en Diamant
+  golden_sword: Espasa en aur
+  golden_shovel: Pala en aur
+  golden_pickaxe: Trenca en aur
+  golden_axe: Pigassa en aur
+  golden_hoe: Bigòs en aur
+  iron_sword: Espasa en fèrre
+  iron_shovel: Pala en fèrre
+  iron_pickaxe: Trenca en fèrre
+  iron_axe: Pigassa en fèrre
+  iron_hoe: Bigòs en fèrre
+  diamond_sword: Espasa en diamant
+  diamond_shovel: Pala en diamant
+  diamond_pickaxe: Trenca en diamant
+  diamond_axe: Pigassa en diamant
+  diamond_hoe: Bigòs en diamant
+  netherite_sword: Espasa en netherita
+  netherite_shovel: Pala en netherita
+  netherite_pickaxe: Trenca en netherita
+  netherite_axe: Pigassa en netherita
+  netherite_hoe: Bigòs en netherita
   stick: Baston
   bowl: Bòl
   mushroom_stew: Sopa de camparòl
   string: Fial
   feather: Pluma
   gunpowder: Polsa de Canon
+  wheat_seeds: Granas de blat
   wheat: Blat
   bread: Pan
-  leather_helmet: Capèl en Cuèr
-  leather_chestplate: Tunica en Cuèr
-  leather_leggings: Braias en Cuèr
-  leather_boots: Bòtas en Cuèr
-  iron_helmet: Casco en Fèrre
-  iron_chestplate: Plastron en Fèrre
-  iron_leggings: Cambièras en Fèrre
-  iron_boots: Bòtas en Fèrre
-  diamond_helmet: Casco en Diamant
-  diamond_chestplate: Plastron en Diamant
-  diamond_leggings: Cambièras en Diamant
-  diamond_boots: Bòtas en Diamant
-  golden_helmet: Casco en Aur
-  golden_chestplate: Plastron en Aur
-  golden_leggings: Cambièras en Aur
-  golden_boots: Bòtas en Aur
+  leather_helmet: Capèl en cuèr
+  leather_chestplate: Tunica en cuèr
+  leather_leggings: Pantalons en cuèr
+  leather_boots: Bòtas en cuèr
+  chainmail_helmet: Casco en còta de malhas
+  chainmail_chestplate: Plastron en còta de malhas
+  chainmail_leggings: Cambièras en còta de malhas
+  chainmail_boots: Bòtas en còta de malhas
+  iron_helmet: Casco en fèrre
+  iron_chestplate: Plastron en fèrre
+  iron_leggings: Cambièras en fèrre
+  iron_boots: Bòtas en fèrre
+  diamond_helmet: Casco en diamant
+  diamond_chestplate: Plastron en diamant
+  diamond_leggings: Cambièras en diamant
+  diamond_boots: Bòtas en diamant
+  golden_helmet: Casco en aur
+  golden_chestplate: Plastron en aur
+  golden_leggings: Cambièras en aur
+  golden_boots: Bòtas en aur
+  netherite_helmet: Casco en netherita
+  netherite_chestplate: Plastron en netherita
+  netherite_leggings: Cambièras en netherita
+  netherite_boots: Bòtas en netherita
   flint: Frejal
-  porkchop: Pòrc Crus
-  cooked_porkchop: Pòrc Cuèch
+  porkchop: Costeleta de pòrc crus
+  cooked_porkchop: Costeleta de pòrc cuèch
   painting: Pintura
-  golden_apple: Poma Daurada
-  oak_sign: Pancarta en fusta d'euse
-  spruce_sign: Pancarta en fusta de sap
-  birch_sign: Pancarta en fusta de bèç
-  jungle_sign: Pancarta en fusta de jungla
-  acacia_sign: Pancarta en fusta de Cacièr
-  dark_oak_sign: Pancarta en fusta d'euse escur
+  golden_apple: Poma daurada
+  enchanted_golden_apple: Poma daurada encantada
+  oak_sign: Pancarta en euse
+  spruce_sign: Pancarta en avet
+  birch_sign: Pancarta en bèç
+  jungle_sign: Pancarta de jungla
+  acacia_sign: Pancarta en cacièr
+  dark_oak_sign: Pancarta en euse escur
+  crimson_sign: Pancarta cremesina
+  warped_sign: Pancarta bescornuda
   bucket: Ferrat
-  water_bucket: Ferrat d'Aiga
-  lava_bucket: Ferrat de Lava
-  minecart: Vagonet
-  saddle: Sèla
-  redstone: Polsa de Redstone
-  snowball: Pelòta de Nèu
-  oak_boat: Batèl d'Euse
+  water_bucket: Ferrat d'aiga
+  lava_bucket: Ferrat de lava
+  powder_snow_bucket: Ferrat de nèu polverosa
+  snowball: Bola de nèu
   leather: Cuèr
   milk_bucket: Ferrat de lait
+  pufferfish_bucket: Peis-glòbe dins un ferrat
+  salmon_bucket: Salmon dins un ferrat
+  cod_bucket: Merluça dins un ferrat
+  tropical_fish_bucket: Peis tropical dins un ferrat
+  axolotl_bucket: Axolotl dins un ferrat
   brick: Brica
+  clay_ball: Bola d'argila
   dried_kelp_block: Blòc d'algas secadas
   paper: Papièr
   book: Libre
-  slime_ball: Pelòta Vescosa
-  chest_minecart: Vagonet amb un Còfre
-  furnace_minecart: Vagonet amb un Forn
+  slime_ball: Bola de slime
   egg: Uòu
-  compass: Compàs
-  fishing_rod: Cana de Pesca
+  compass: Bossòla
+  bundle: Sac
+  fishing_rod: Cana de pesca
   clock: Relòtge
-  glowstone_dust: Polsa de Pèira Luminosa
-  salmon: Salmon Crus
-  pufferfish: Peis-Glòbe
-  cooked_salmon: Salmon Cuèch
-  ink_sac: Sac de Tencha
+  spyglass: Pòrtavista
+  glowstone_dust: Polsa de pèira luminosa
+  cod: Merluça crusa
+  salmon: Salmon crus
+  tropical_fish: Peis tropical
+  pufferfish: Peis glòbe
+  cooked_cod: Merluça cuècha
+  cooked_salmon: Salmon cuèch
+  ink_sac: Sac de tencha
+  glow_ink_sac: Sac de tencha lusent
   cocoa_beans: Cacau
-  lapis_lazuli: Lapis Lazuli
   white_dye: Tencha blanca
   orange_dye: Tenchura Iranja
   magenta_dye: Tenchura Magenta
@@ -571,144 +823,177 @@ material:
   cyan_dye: Tenchura Cian
   purple_dye: Tenchura Violeta
   blue_dye: Tencha blava
-  brown_dye: Tencha castanha
+  brown_dye: Tencha bruna
   green_dye: Tencha verda
   red_dye: Tencha roga
   black_dye: Tencha negra
-  bone_meal: Polsa d'Òs
+  bone_meal: Polsa d'òs
   bone: Òs
   sugar: Sucre
   cake: Pastís
-  white_bed: Lièch Blanc
-  orange_bed: Lièch Irange
-  magenta_bed: Lièch Magenta
-  light_blue_bed: Lièch Blau Clar
-  yellow_bed: Lièch Auriòl
-  lime_bed: Lièch Lima
-  pink_bed: Lièch Ròse
-  gray_bed: Lièch Gris
-  light_gray_bed: Lièch Gris Clar
-  cyan_bed: Lièch Cian
-  purple_bed: Lièch Violet
-  blue_bed: Lièch Blau
+  white_bed: Lièch blanc
+  orange_bed: Lièch irange
+  magenta_bed: Lièch magenta
+  light_blue_bed: Lièch blau clar
+  yellow_bed: Lièch jaune
+  lime_bed: Lièch lima
+  pink_bed: Lièch ròse
+  gray_bed: Lièch gris
+  light_gray_bed: Lièch gris clar
+  cyan_bed: Lièch cian
+  purple_bed: Lièch violet
+  blue_bed: Lièch blau
   brown_bed: Lièch brun
-  green_bed: Lièch Verd
-  red_bed: Lièch Roge
-  black_bed: Lièch Negre
+  green_bed: Lièch verd
+  red_bed: Lièch roge
+  black_bed: Lièch negre
   cookie: Coqueta
   filled_map: Mapa
   shears: Cisalhas
+  melon_slice: Talhon de pastèca
   dried_kelp: Algas secadas
-  pumpkin_seeds: Granas de Coja
-  melon_seeds: Granas de Melon d'Aiga
-  beef: Buòu Crus
+  pumpkin_seeds: Granas de coja
+  melon_seeds: Granas de pastèca
+  beef: Buòu crus
   cooked_beef: Bistèc
-  chicken: Gal Crus
-  cooked_chicken: Gal Cuèch
-  rotten_flesh: Carn Poirida
+  chicken: Polastre crus
+  cooked_chicken: Polastre cuèch
+  rotten_flesh: Carn poirida
   ender_pearl: Pèrla de l'End
   blaze_rod: Baston de Blaze
   ghast_tear: Lagrema de Ghast
-  gold_nugget: Bocinet d'Aur
+  gold_nugget: Pepita d'aur
   nether_wart: Verruga del Nether
   potion: Pocion
-  glass_bottle: Botelhon
-  spider_eye: Uèlh d'Aranha
-  fermented_spider_eye: Uèlh d'Aranha Fermentat
+  glass_bottle: Fiòla
+  spider_eye: Uèlh d'aranha
+  fermented_spider_eye: Uèlh d'aranha fermentat
   blaze_powder: Polsa de Blaze
-  magma_cream: Crèma de Magma
+  magma_cream: Crèma de magma
   brewing_stand: Alambic
   cauldron: Pairòla
   ender_eye: Uèlh d'Ender
-  bee_spawn_egg: Uòu d'Abelha
-  cat_spawn_egg: Uòu de Gat
-  panda_spawn_egg: Uòu de Panda
-  piglin_spawn_egg: Uòu de Piglin
-  pillager_spawn_egg: Uòu de Pilhard
-  experience_bottle: Botelhon d'Experiéncia
+  glistering_melon_slice: Talhon de pastèca daurada
+  axolotl_spawn_egg: Uòu d'aparcion d'axolotl
+  bat_spawn_egg: Uòu d'aparicion de Ratapenada
+  bee_spawn_egg: Uòu d'aparicion d'abelha
+  blaze_spawn_egg: Uòu d'aparicion de Blaze
+  cat_spawn_egg: Uòu d'aparicion de gat
+  cave_spider_spawn_egg: Uòu d'aparicion d'Aranha de las Cavas
+  chicken_spawn_egg: Uòu d'aparicion de Polastre
+  cod_spawn_egg: Uòu d'aparicion de Merluça
+  cow_spawn_egg: Uòu d'aparicion de Vaca
+  creeper_spawn_egg: Uòu d'aparicion de Creeper
+  dolphin_spawn_egg: Uòu d'aparicion de Dalfin
+  donkey_spawn_egg: Uòu d'aparicion d'Ase
+  drowned_spawn_egg: Uòu d'aparicion de Negat
+  elder_guardian_spawn_egg: Uòu d'aparicion de grand gardian
+  enderman_spawn_egg: Uòu d'aparicion d'Enderman
+  endermite_spawn_egg: Uòu d'aparicion d'Endermite
+  evoker_spawn_egg: Uòu d'aparicion d'evocador
+  ghast_spawn_egg: Uòu d'aparicion de Ghast
+  glow_squid_spawn_egg: Uòu d'aparicion de tautena lusenta
+  goat_spawn_egg: Uòu d'aparicion de cabra
+  guardian_spawn_egg: Uòu d'aparicion de gardian
+  hoglin_spawn_egg: Uòu d'aparicion de Hoglin
+  horse_spawn_egg: Uòu d'aparicion de Caval
+  husk_spawn_egg: Uòu d'aparicion de Zòmbi momificat
+  llama_spawn_egg: Uòu d'aparicion de Lama
+  magma_cube_spawn_egg: Uòu d'aparicion de cube de magma
+  mooshroom_spawn_egg: Uòu d'aparicion de Vacampairòl
+  panda_spawn_egg: Uòu d'aparicion de panda
+  pig_spawn_egg: Uòu d'aparicion de pòrc
+  piglin_spawn_egg: Uòu d'aparicion de Piglin
+  piglin_brute_spawn_egg: Uòu d'aparicion de Piglin Brute
+  pillager_spawn_egg: Uòu d'aparicion de pilhard
+  ravager_spawn_egg: Uòu d'aparicion de Desguastador
+  sheep_spawn_egg: Uòu d'aparicion de Moton
+  shulker_spawn_egg: Uòu d'aparicion de Shulker
+  silverfish_spawn_egg: Uòu d'aparicion de peis d'argent
+  slime_spawn_egg: Uòu d'aparicion de Slime
+  squid_spawn_egg: Uòu d'aparicion de tautena
+  witch_spawn_egg: Uòu d'aparicion de Masca
+  zoglin_spawn_egg: Uòu d'aparicion de Zoglin
+  zombie_spawn_egg: Uòu d'aparicion de zòmbi
+  zombified_piglin_spawn_egg: Uòu d'aparicion de Piglin Zòmbificat
+  experience_bottle: Fiòla d'experiéncia
   fire_charge: Pelòta de Fuòc
-  writable_book: Libre e Pluma
+  writable_book: Libre e pluma
   written_book: Libre Escrich
-  emerald: Esmerauda
   item_frame: Quadre
+  glow_item_frame: Quadre lusent
   flower_pot: Topin
   carrot: Pastenaga
   potato: Patana
-  baked_potato: Patana Cuècha
-  poisonous_potato: Patana Empoisonada
+  baked_potato: Patana cuècha
+  poisonous_potato: Patana empoisonada
   map: Mapa Verge
-  golden_carrot: Pastenaga Daurada
-  skeleton_skull: Cran d'Esqueleta
-  wither_skeleton_skull: Cran d'Esqueleta Wither
-  zombie_head: Cap de Zombi
-  creeper_head: Cap de Creeper
-  dragon_head: Cap de Dragon
-  carrot_on_a_stick: Pastenaga sus un Baston
+  golden_carrot: Pastenaga daurada
+  skeleton_skull: Cran d'esqueleta
+  wither_skeleton_skull: Cran d'esqueleta Wither
+  player_head: Cap de jogaire
+  zombie_head: Cap de zombi
+  creeper_head: Cap de creeper
+  dragon_head: Cap de dragon
   nether_star: Estela del Nether
-  pumpkin_pie: Tarta de Coja
+  pumpkin_pie: Tarta de coja
   firework_rocket: Fuòc d'Artifici
   firework_star: Estela de Fuòc d'Artifici
-  enchanted_book: Libre Encantat
+  enchanted_book: Libre encantat
   nether_brick: Brica del Nether
-  quartz: Qüars del Nether
-  tnt_minecart: Vagonet amb de TNT
-  hopper_minecart: Vagonet amb un Embut
-  prismarine_shard: Tròç de Prismarina
-  prismarine_crystals: Cristals de Prismarina
-  rabbit: Conilh Crus
-  cooked_rabbit: Conilh Cuèch
-  rabbit_stew: Fricòt de Conilh
-  rabbit_foot: Pauta de Conilh
-  rabbit_hide: Pèl de Conilh
+  prismarine_shard: Tròç de prismarina
+  prismarine_crystals: Cristals de prismarina
+  rabbit: Conilh crus
+  cooked_rabbit: Conilh cuèch
+  rabbit_stew: Fricòt de conilh
+  rabbit_foot: Pauta de conilh
+  rabbit_hide: Pèl de conilh
   armor_stand: Pòrta-armadura
-  iron_horse_armor: Armadura en Fèrre per Caval
-  diamond_horse_armor: Armadura en Diamant per Caval
+  iron_horse_armor: Armadura en fèrre per caval
+  golden_horse_armor: Armadura en aur per caval
+  diamond_horse_armor: Armadura en diamant per caval
+  leather_horse_armor: Armadura en cuèr per caval
   lead: Laç
   name_tag: Etiqueta
-  command_block_minecart: Vagonet amb Blòc de Comanda
-  mutton: Moton Crus
-  cooked_mutton: Moton Cuèch
-  white_banner: Bandièra Blanca
-  orange_banner: Bandièra Iranja
-  magenta_banner: Bandièra Magenta
-  light_blue_banner: Bandièra Blau Clar
-  yellow_banner: Bandièra Auriòla
-  lime_banner: Bandièra Lima
-  pink_banner: Bandièra Ròsa
-  gray_banner: Bandièra Grisa
-  light_gray_banner: Bandièra Gris Clar
-  cyan_banner: Bandièra Cian
-  purple_banner: Bandièra Violeta
-  blue_banner: Bandièra Blava
-  brown_banner: Bandièra Bruna
-  green_banner: Bandièra Verda
-  red_banner: Bandièra Roja
-  black_banner: Bandièra Negra
+  command_block_minecart: Vagonet amb blòc de comandas
+  mutton: Moton crus
+  cooked_mutton: Moton cuèch
+  white_banner: Bandièra blanca
+  orange_banner: Bandièra iranja
+  magenta_banner: Bandièra magenta
+  light_blue_banner: Bandièra blau clar
+  yellow_banner: Bandièra jauna
+  lime_banner: Bandièra lima
+  pink_banner: Bandièra ròsa
+  gray_banner: Bandièra grisa
+  light_gray_banner: Bandièra gris clar
+  cyan_banner: Bandièra cian
+  purple_banner: Bandièra violeta
+  blue_banner: Bandièra blava
+  brown_banner: Bandièra bruna
+  green_banner: Bandièra verda
+  red_banner: Bandièra roja
+  black_banner: Bandièra negra
   end_crystal: Cristal de l'End
   chorus_fruit: Fruch de Chorus
   popped_chorus_fruit: Fruch de Chorus Esclatat
   beetroot: Bledarava
-  beetroot_seeds: Granas de Bledarava
-  beetroot_soup: Sopa de Bledarava
-  dragon_breath: Buf de Dragon
+  beetroot_seeds: Granas de bledarava
+  beetroot_soup: Sopa de bledarava
+  dragon_breath: Buf de dragon
   splash_potion: Pocion getabla
-  spectral_arrow: Sageta Espectrala
-  tipped_arrow: Sageta d'Efièch
+  spectral_arrow: Sageta espectrala
+  tipped_arrow: Sageta d'efièch
   lingering_potion: Pocion persistenta
   shield: Bloquièr
-  elytra: Elitres
-  spruce_boat: Batèl d'avet
-  birch_boat: Batèl de bèç
-  jungle_boat: Batèl de Fusta de Jungla
-  acacia_boat: Batèl de Cacièr
-  dark_oak_boat: Batèl d'Euse Escur
   totem_of_undying: Totèm d'immortalitat
   shulker_shell: Clòsca de Shulker
   iron_nugget: Pepita de fèrre
   knowledge_book: Libre de las coneissénças
+  debug_stick: Baston de desbogatge
   music_disc_13: Disc de Musica
   music_disc_cat: Disc de Musica
-  music_disc_blocks: Disc de Musica
+  music_disc_blocks: Disc de musica
   music_disc_chirp: Disc de Musica
   music_disc_far: Disc de Musica
   music_disc_mall: Disc de Musica
@@ -719,10 +1004,12 @@ material:
   music_disc_11: Disc de Musica
   music_disc_wait: Disc de Musica
   music_disc_pigstep: Disc de Musica
+  trident: Trident
+  phantom_membrane: Membrana de fantauma
   heart_of_the_sea: Còr de la mar
   crossbow: Balèsta
   suspicious_stew: Sopa suspècta
-  loom: Mestièr a téisser
+  loom: Telièr
   flower_banner_pattern: Motiu de bandièra
   creeper_banner_pattern: Motiu de bandièra
   skull_banner_pattern: Motiu de bandièra
@@ -736,30 +1023,83 @@ material:
   cartography_table: Taula de cartografia
   fletching_table: Taula d'arqueria
   grindstone: Mòla
-  lectern: Pupitre
   smithing_table: Taula de fargatge
   stonecutter: Peirièr
   bell: Campana
-  sweet_berries: Bagas sucradas
+  lantern: Lantèrna
+  soul_lantern: Lantèrna de las anmas
+  sweet_berries: Bagas doças
+  glow_berries: Bagas lusentas
+  campfire: Fuòc de camp
+  soul_campfire: Fuòc de camp de las anmas
+  shroomlight: Lamparòl
   honeycomb: Bresca
-  bee_nest: Nis d'Abelha
+  bee_nest: Nis d'abelhas
   beehive: Bornhon artificial
-  honey_bottle: Botelha de Mèl
-  honey_block: Blòc de Mèl
-  honeycomb_block: Blòc de Bresca
+  honey_bottle: Fiòla de mèl
+  honeycomb_block: Blòc de bresca
+  lodestone: Magnetita
+  crying_obsidian: Obsidiana plorosa
+  blackstone: Ròca negra
+  blackstone_slab: Lausa de ròca negra
+  blackstone_stairs: Escalièrs de ròca negra
+  gilded_blackstone: Ròca negra daurada
+  polished_blackstone: Ròca negra polida
+  polished_blackstone_slab: Lausa de ròca negra polida
+  polished_blackstone_stairs: Escalièrs de ròca negra polida
+  chiseled_polished_blackstone: Ròca negra escalprada
+  polished_blackstone_bricks: Bricas de ròca negra polida
+  polished_blackstone_brick_slab: Lausa en bricas de ròca negra polida
+  polished_blackstone_brick_stairs: Escalièrs en bricas de ròca negra polida
+  cracked_polished_blackstone_bricks: Bricas de ròca negra fendilhadas
+  respawn_anchor: Ancora de reaparicion
+  candle: Candela
+  white_candle: Candela blanca
+  orange_candle: Candela iranja
+  magenta_candle: Candela magenta
+  light_blue_candle: Candela blau clar
+  yellow_candle: Candela jauna
+  lime_candle: Candela lima
+  pink_candle: Candela ròsa
+  gray_candle: Candela grisa
+  light_gray_candle: Candela gris clar
+  cyan_candle: Candela cian
+  purple_candle: Candela violeta
+  blue_candle: Candela blava
+  brown_candle: Candela bruna
+  green_candle: Candela verda
+  red_candle: Candela roja
+  black_candle: Candela negra
+  small_amethyst_bud: Cristal d'ametista pichon
+  medium_amethyst_bud: Cristal d'ametista mejan
+  large_amethyst_bud: Cristal d'ametista grand
+  amethyst_cluster: Amàs d'ametista
+  pointed_dripstone: Espeleotèma ponchuda
   water: Aiga
   lava: Lava
   tall_seagrass: Èrba marina nauta
+  piston_head: Cap de piston
+  moving_piston: Piston en moviment
+  wall_torch: Entòrcha murala
   fire: Fuòc
-  redstone_wire: Fial de Redstòna
-  oak_wall_sign: Pancarta murala en fusta d'euse
-  spruce_wall_sign: Pancarta murala en fusta d'avet
-  birch_wall_sign: Pancarta murala en fusta de bèç
-  acacia_wall_sign: Pancarta murala en fusta de cacièr
-  jungle_wall_sign: Pancarta murala en fusta de jungla
-  dark_oak_wall_sign: Pancarta murala en fusta d'euse escur
+  soul_fire: Fuòc de las anmas
+  redstone_wire: Fial de redstone
+  oak_wall_sign: Pancarta en euse murala
+  spruce_wall_sign: Pancarta en avet murala
+  birch_wall_sign: Pancarta en bèç murala
+  acacia_wall_sign: Pancarta en cacièr murala
+  jungle_wall_sign: Pancarta de jungla murala
+  dark_oak_wall_sign: Pancarta en euse escur murala
+  redstone_wall_torch: Entòrcha de redstone murala
+  soul_wall_torch: Entòrcha de las anmas murala
   nether_portal: Portal del Nether
-  pumpkin_stem: Tija de Coja
+  attached_pumpkin_stem: Tija de coja estacada
+  attached_melon_stem: Tija de pastèca estacada
+  pumpkin_stem: Tija de coja
+  melon_stem: Tija de pastèca
+  water_cauldron: Pairòla d'aiga
+  lava_cauldron: Pairòla de lava
+  powder_snow_cauldron: Pairòla de nèu polverosa
   end_portal: Portal de l'End
   cocoa: Cacau
   tripwire: Còrda
@@ -773,8 +1113,8 @@ material:
   potted_dandelion: Pissalach en pòt
   potted_poppy: Rosèla en pòt
   potted_blue_orchid: Orquidèa blava en pòt
-  potted_allium: Alliom en pòt
-  potted_azure_bluet: Blavet azur en pòt
+  potted_allium: Allium en pòt
+  potted_azure_bluet: Houstonia caerulea en pòt
   potted_red_tulip: Tulipa roja en pòt
   potted_orange_tulip: Tulipa iranja en pòt
   potted_white_tulip: Tulipa blanca en pòt
@@ -789,86 +1129,188 @@ material:
   potted_cactus: Cactus en pòt
   carrots: Pastenagas
   potatoes: Patanas
-  white_wall_banner: Bandièra Blanca
-  orange_wall_banner: Bandièra Iranja
-  magenta_wall_banner: Bandièra Magenta
-  light_blue_wall_banner: Bandièra Blau Clar
-  yellow_wall_banner: Bandièra Auriòla
-  lime_wall_banner: Bandièra Lima
-  pink_wall_banner: Bandièra Ròsa
-  gray_wall_banner: Bandièra Grisa
-  light_gray_wall_banner: Bandièra Gris Clar
-  cyan_wall_banner: Bandièra Cian
-  purple_wall_banner: Bandièra Violeta
-  blue_wall_banner: Bandièra Blava
-  brown_wall_banner: Bandièra Bruna
-  green_wall_banner: Bandièra Verda
-  red_wall_banner: Bandièra Roja
-  black_wall_banner: Bandièra Negra
+  skeleton_wall_skull: Cran d'esqueleta mural
+  wither_skeleton_wall_skull: Cran d'esqueleta Wither mural
+  zombie_wall_head: Cap de zombi mural
+  player_wall_head: Cap de jogaire mural
+  creeper_wall_head: Cap de creeper mural
+  dragon_wall_head: Cap de dragon mural
+  white_wall_banner: Bandièra blanca
+  orange_wall_banner: Bandièra iranja
+  magenta_wall_banner: Bandièra magenta
+  light_blue_wall_banner: Bandièra blau clar
+  yellow_wall_banner: Bandièra jauna
+  lime_wall_banner: Bandièra lima
+  pink_wall_banner: Bandièra ròsa
+  gray_wall_banner: Bandièra grisa
+  light_gray_wall_banner: Bandièra gris clar
+  cyan_wall_banner: Bandièra cian
+  purple_wall_banner: Bandièra violeta
+  blue_wall_banner: Bandièra blava
+  brown_wall_banner: Bandièra bruna
+  green_wall_banner: Bandièra verda
+  red_wall_banner: Bandièra roja
+  black_wall_banner: Bandièra negra
   beetroots: Bledaravas
   frosted_ice: Glaç gibrat
   kelp_plant: Tija d'alga
+  dead_tube_coral_wall_fan: Gorgònia de coralh tubular mòrt murala
+  dead_brain_coral_wall_fan: Gorgònia de coralh de cervèl mòrt murala
+  dead_bubble_coral_wall_fan: Gorgònia de coralh de botiòla mòrt murala
+  dead_fire_coral_wall_fan: Gorgònia de coralh de fuòc mòrt murala
+  dead_horn_coral_wall_fan: Gorgònia de coralh cornut mòrt murala
+  tube_coral_wall_fan: Gorgònia de coralh tubular murala
+  brain_coral_wall_fan: Gorgònia de coralh de cervèl murala
+  bubble_coral_wall_fan: Gorgònia de coralh de botiòla murala
+  fire_coral_wall_fan: Gorgònia de coralh de fuòc murala
+  horn_coral_wall_fan: Gorgònia de coralh cornut murala
+  bamboo_sapling: Brot de bambó
   potted_bamboo: Bambó en pòt
-  bamboo_sapling: Grelh de bambò
-  clay_ball: Argila
+  void_air: Aire del void
+  cave_air: Aire de cava
+  bubble_column: Colomna de botiòlas
+  weeping_vines_plant: Planta de lianas plorosas
+  twisting_vines_plant: Planta de lianas torsadas
+  crimson_wall_sign: Pancarta cremesina murala
+  warped_wall_sign: Pancarta bescornuda murala
+  potted_crimson_fungus: Fonge cremesin en pòt
+  potted_warped_fungus: Fonge bescornut en pòt
+  potted_crimson_roots: Raices cremesins en pòt
+  potted_warped_roots: Raices bescornuts en pòt
+  candle_cake: Pastís amb candela
+  powder_snow: Nèu polverosa
+  cave_vines: Lianas de cava
+  cave_vines_plant: Planta de lianas de cava
+  big_dripleaf_stem: Tija de gotafuèlha granda
+  grass_path: Camin d'Èrba
   cactus_green: Verd Cactus
   dandelion_yellow: Jaune Pissalach
   rose_red: Roge de Ròsa
   sign: Signar
 biome:
+  ocean: Ocean
+  plains: Plana
   desert: Desèrt
-  forest: Selva
+  mountains: Montanhas
+  forest: Bòsc
+  taiga: Taiga
+  swamp: Palun
+  river: Riu
+  nether_wastes: Èrmes del Nether
+  the_end: L'End
+  frozen_ocean: Ocean glaçat
+  frozen_river: Riu glaçat
   snowy_tundra: Tondra nevada
   snowy_mountains: Montanhas nevadas
+  mushroom_fields: Camp de camparòls
+  mushroom_field_shore: Còsta de camp de camparòls
+  beach: Plaja
+  desert_hills: Sèrras del desèrt
+  wooded_hills: Sèrras boscosas
+  taiga_hills: Sèrras de taiga
+  mountain_edge: Broa de de montanha
+  jungle: Jungla
+  jungle_hills: Sèrras de jungla
+  jungle_edge: Broa de jungla
+  deep_ocean: Ocean prigond
   stone_shore: Còsta rocosa
   snowy_beach: Plaja nevada
-  birch_forest: Selva de bèç
-  dark_forest: Selva escura
+  birch_forest: Bòsc de bèç
+  birch_forest_hills: Sèrras de bòsc de bèç
+  dark_forest: Bòsc escur
   snowy_taiga: Taiga nevada
+  snowy_taiga_hills: Sèrras de taiga nevada
+  giant_tree_taiga: Taiga d'arbres gigants
+  giant_tree_taiga_hills: Sèrra de taiga d'arbres gigants
+  wooded_mountains: Montanhas boscosas
+  savanna: Savana
+  savanna_plateau: Planòl de savana
+  badlands: Èrmes
+  wooded_badlands_plateau: Planòl d'èrmes boscós
+  badlands_plateau: Planòl d'èrmes
+  small_end_islands: Illas pichonas de l'End
+  end_midlands: Tèrras mejanas de l'End
+  end_highlands: Tèrras nautas de l'End
+  end_barrens: Tèrras aridas de l'End
+  warm_ocean: Ocean caud
+  lukewarm_ocean: Ocean tebés
+  cold_ocean: Ocean freg
+  deep_warm_ocean: Ocean caud prigond
+  deep_lukewarm_ocean: Ocean tebés prigond
+  deep_cold_ocean: Ocean freg prigond
+  deep_frozen_ocean: Ocean glaçat prigond
   the_void: Lo void
-  flower_forest: Selva de flors
-  tall_birch_forest: Selva de bèces nauts
+  sunflower_plains: Plana de virasolelhs
+  desert_lakes: Lacs del desèrt
+  gravelly_mountains: Montanhas gravelosas
+  flower_forest: Bòsc de flors
+  taiga_mountains: Montanhas de taiga
+  swamp_hills: Sèrras del palun
+  ice_spikes: Pics de glaç
+  modified_jungle: Jungla (variant)
+  modified_jungle_edge: Broa de jungla (variant)
+  tall_birch_forest: Bòsc de bèces nauts
+  tall_birch_hills: Sèrras de bèces nauts
+  dark_forest_hills: Sèrras de bòsc escur
   snowy_taiga_mountains: Montanhas de taiga nevada
-  bamboo_jungle: Jungla de Bambó
-  bamboo_jungle_hills: Sèrra de Jungla de Bambó
+  giant_spruce_taiga: Taiga d'avets gigants
+  giant_spruce_taiga_hills: Sèrra de taiga d'avets gigants
+  modified_gravelly_mountains: Montanhas gravelosas+
+  shattered_savanna: Savana traversuda
+  shattered_savanna_plateau: Planòl de savana traversuda
+  eroded_badlands: Èrmes erodats
+  modified_wooded_badlands_plateau: Planòl d'èrmes boscós (variant)
+  modified_badlands_plateau: Planòl d'èrmes (variant)
+  bamboo_jungle: Jungla de bambó
+  bamboo_jungle_hills: Sèrra de jungla de bambó
+  soul_sand_valley: Val de las anmas
+  crimson_forest: Bòsc cremesin
+  warped_forest: Bòsc bescornut
   basalt_deltas: Dèltas de basalt
+  dripstone_caves: Cavèrnas d'espeleotèmas
+  lush_caves: Cavèrnas luxuriantas
 enchantment:
-  fire_protection: Resisténcia al fuòc
-  sharpness: Talh
-  flame: Flama
-  aqua_affinity: Afinitat Aqüatica
-  punch: Tust
-  depth_strider: Caminaire de las Prigondors
-  vanishing_curse: Malediccion de Desaparicion
-  unbreaking: Soliditat
-  knockback: Reculada
-  luck_of_the_sea: L'astre de la mar
-  binding_curse: Malediccion del Ligam Eternal
-  fortune: Fortuna
   protection: Proteccion
-  efficiency: Eficacitat
-  mending: Reparacion
-  frost_walker: Caminaire de glaç
-  lure: Esca
-  looting: Butin
-  piercing: Perforacion
-  blast_protection: Resisténcia a las Explosions
-  smite: Castig
-  multishot: Tir multiple
-  fire_aspect: Aspècte Ardent
-  sweeping: Talh Desolator
-  thorns: Espinas
-  bane_of_arthropods: Flagèl dels Artropòdes
-  respiration: Respiracion
-  silk_touch: Tocar de Seda
-  quick_charge: Carga rapida
+  fire_protection: Resisténcia al fuòc
+  feather_falling: Pes pluma
+  blast_protection: Resisténcia a las explosions
   projectile_protection: Proteccion contra los projectils
-  feather_falling: Pes Pluma
+  respiration: Respiracion
+  aqua_affinity: Afinitat aqüatica
+  thorns: Espinas
+  depth_strider: Agilitat aqüatica
+  frost_walker: Caminaire de glaç
+  binding_curse: Malediccion del ligam eternal
+  sharpness: Talh
+  smite: Castig
+  bane_of_arthropods: Flagèl dels artropòdes
+  knockback: Reculada
+  fire_aspect: Aspècte de fuòc
+  looting: Butin
+  sweeping: Talh desolator
+  efficiency: Eficacitat
+  silk_touch: Tocar de seda
+  unbreaking: Soliditat
+  fortune: Fortuna
   power: Poténcia
+  punch: Tust
+  flame: Flama
   infinity: Infinitat
+  luck_of_the_sea: L'astre de la mar
+  lure: Esca
+  loyalty: Leialtat
+  impaling: Empalament
+  riptide: Impulsion
+  channeling: Conductivitat
+  multishot: Tir multiple
+  quick_charge: Carga rapida
+  piercing: Perforacion
+  mending: Reparacion
+  vanishing_curse: Malediccion de desaparicion
+  soul_speed: Velocitat de las armas
 potion:
   uncraftable: Pocion non fabricabla
-  water: Botelhon d'Aiga
+  water: Fiòla d'aiga
   mundane: Pocion Banala
   thick: Pocion Espesa
   awkward: Pocion Estranha
@@ -888,7 +1330,7 @@ potion:
   luck: Pocion d'Astre
 splash_potion:
   uncraftable: Pocion Getabla Non Fabricabla
-  water: Pocion Getabla d'Aiga
+  water: Fiòla getabla d'aiga
   mundane: Pocion Getabla Banala
   thick: Pocion Getabla Espessa
   awkward: Pocion Getabla Estranha
@@ -929,23 +1371,23 @@ lingering_potion:
 tipped_arrow:
   uncraftable: Sageta especiala non fabricabla
   water: Sageta d'aiga
-  mundane: Sageta d'Efièch
-  thick: Sageta d'Efièch
-  awkward: Sageta d'Efièch
-  night_vision: Sageta de Vision Nocturna
-  invisibility: Sageta d'Invisibilitat
-  jump: Sageta de Saut
-  fire_resistance: Sageta de Resisténcia al Fuòc
-  speed: Sageta de Velocitat
-  slowness: Sageta de Lentor
-  water_breathing: Sageta de Respiracion Aqüatica
-  instant_heal: Sageta de Suènh
-  instant_damage: Sageta de Degalh
-  poison: Sageta de Poison
-  regen: Sageta de Regeneracion
-  strength: Sageta de Fòrça
-  weakness: Sageta de Flaquesa
-  luck: Sageta d'Astre
+  mundane: Sageta d'efièch
+  thick: Sageta d'efièch
+  awkward: Sageta d'efièch
+  night_vision: Sageta de vision nocturna
+  invisibility: Sageta d'invisibilitat
+  jump: Sageta de saut
+  fire_resistance: Sageta de resisténcia al fuòc
+  speed: Sageta de velocitat
+  slowness: Sageta de lentor
+  water_breathing: Sageta de respiracion aqüatica
+  instant_heal: Sageta de suènh
+  instant_damage: Sageta de degalh
+  poison: Sageta de poison
+  regen: Sageta de regeneracion
+  strength: Sageta de fòrça
+  weakness: Sageta de flaquesa
+  luck: Sageta d'astre
 entity:
   dropped_item: Objècte
   experience_orb: Òrbe d'Experiéncia
@@ -954,16 +1396,17 @@ entity:
   stray: Barrutlaire
   painting: Pintura
   arrow: Sageta
-  snowball: Pelòta de Nèu
-  fireball: Pelòta de Fuòc
-  small_fireball: Pelòta de Fuòc Pichona
+  snowball: Bola de nèu
+  fireball: Bola de fuòc
+  small_fireball: Bola de fuòc pichona
   ender_signal: Uèlh d'Ender
   splash_potion: Pocion
   item_frame: Quadre
-  falling_block: Blòc en Casuda
+  wither_skull: Cran de Wither
+  falling_block: Blòc en casuda
   firework: Fuòc d'Artifici
   husk: Zòmbi momificat
-  spectral_arrow: Sageta Espectrala
+  spectral_arrow: Sageta espectrala
   dragon_fireball: Bola de fuòc de dragon
   zombie_villager: Zòmbi vilatgés
   skeleton_horse: Caval esquelèt
@@ -975,23 +1418,25 @@ entity:
   vex: Esperit
   vindicator: Vindicator
   illusioner: Illusionista
-  minecart_command: Vagonet amb Blòc de Comanda
+  minecart_command: Vagonet amb blòc de comandas
   boat: Batèl
   minecart: Vagonet
-  minecart_chest: Vagonet amb un Còfre
-  minecart_furnace: Vagonet amb un Forn
+  minecart_chest: Vagonet amb còfre
+  minecart_furnace: Vagonet amb forn
   minecart_tnt: Vagonet amb de TNT
-  minecart_hopper: Vagonet amb un Embut
+  minecart_hopper: Vagonet amb embut
+  minecart_mob_spawner: Vagonet amb generador
   creeper: Creeper
   skeleton: Esqueleta
   spider: Aranha
   giant: Gigant
-  zombie: Zombi
+  zombie: Zòmbi
   slime: Slime
   ghast: Ghast
+  zombified_piglin: Piglin zombificat
   enderman: Enderman
-  cave_spider: Aranha de Bauma
-  silverfish: Peis d'Argent
+  cave_spider: Aranha de cava
+  silverfish: Peis d'argent
   blaze: Blaze
   magma_cube: Cube de magma
   ender_dragon: Dragon de l'End
@@ -1004,8 +1449,8 @@ entity:
   pig: Pòrc
   sheep: Moton
   cow: Vaca
-  chicken: Galina
-  squid: Pofre
+  chicken: Polastre
+  squid: Tautena
   wolf: Lop
   mushroom_cow: Vacampairòl
   snowman: Golem de Nèu
@@ -1018,13 +1463,29 @@ entity:
   parrot: Papagai
   villager: Vilatgés
   ender_crystal: Cristal de l'End
-  pufferfish: Peis-Glòbe
+  turtle: Tartuga
+  phantom: Fantauma
+  trident: Trident
+  cod: Merluça
+  salmon: Salmon
+  pufferfish: Peis glòbe
+  tropical_fish: Peis tropical
+  drowned: Negat
   cat: Cat
   panda: Panda
   pillager: Pilhard
+  ravager: Desguastador
+  fox: Rainard
   bee: Abelha
+  hoglin: Hoglin
   piglin: Piglin
+  strider: Arpentaire
   zoglin: Zoglin
+  axolotl: Axolotl
+  glow_item_frame: Quadre lusent
+  glow_squid: Tautena lusenta
+  goat: Cabra
+  player: Jogaire
   pig_zombie: Zombi Òmepòrc
 effect:
   speed: Velocitat
@@ -1032,28 +1493,33 @@ effect:
   fast_digging: Preissa
   slow_digging: Fatiga per minar
   increase_damage: Fòrça
-  heal: Suènh Instantanèu
-  harm: Degalh Instantanèu
-  jump: Melhorança dels Sauts
+  heal: Suènh instantanèu
+  harm: Degalh instantanèu
+  jump: Melhorança dels sauts
   confusion: Soslèu
   regeneration: Regeneracion
   damage_resistance: Resisténcia
-  fire_resistance: Resisténcia al Fuòc
-  water_breathing: Respiracion Aqüatica
-  invisibility: Invesibilitat
+  fire_resistance: Resisténcia al fuòc
+  water_breathing: Respiracion aqüatica
+  invisibility: Invisibilitat
   blindness: Cecitat
-  night_vision: Vision Nocturna
+  night_vision: Vision nocturna
   hunger: Fam
   weakness: Flaquesa
   poison: Poison
   wither: Wither
-  health_boost: Bonus de Santat
+  health_boost: Bonus de santat
   absorption: Absorpcion
   saturation: Saturacion
   glowing: Subrebrilhança
   levitation: Levitacion
   luck: Astre
   unluck: Malastre
+tropical_fish_type:
+  sunstreak: Eliorai
+  flopper: Sautarin
+  blockfish: Peis blòc
+  clayfish: Peis argila
 dye_color:
   white: Blanc
   orange: Irange
@@ -1077,7 +1543,16 @@ named:
   potion_with_duration: '%s (%s)'
   none_effects: Cap d'Efièch
 tropical_fish_name:
+  '117506305': Anemona
+  '117899265': Cirurgian negre
+  '185008129': Cirurgian blau
+  '117441793': Peis papalhon
   '65536': Peis-Palhassa
+  '67110144': Múlid
+  '16778497': Peis papalhon ornat
+  '101253888': Peis papagai
+  '459008': Peis balèsta
+  '67699456': Peis papagai de coa jauna
   '67371009': Cirurgian jaune
 colored_shied:
   white: Bloquièr Blanc
@@ -1092,7 +1567,7 @@ colored_shied:
   cyan: Bloquièr Cian
   purple: Bloquièr Violet
   blue: Bloquièr Blau
-  brown: Bloquièr Brun
+  brown: Bloquièr brun
   green: Bloquièr Vèrt
   red: Bloquièr Roge
   black: Bloquièr Nègre
@@ -1109,7 +1584,7 @@ banner_pattern:
   '65545': Canton Cian en Basa a Drecha
   '65546': Canton Violet en Basa a Drecha
   '65547': Canton Blau en Basa a Drecha
-  '65548': Canton Brun en Basa a Drecha
+  '65548': Canton brun en basa a drecha
   '65549': Canton Verd en Basa a Drecha
   '65550': Canton Roge en Basa a Drecha
   '65551': Canton Negre en Basa a Drecha
@@ -1125,7 +1600,7 @@ banner_pattern:
   '131081': Canton Cian en Basa a Esquèrra
   '131082': Canton Violet en Basa a Esquèrra
   '131083': Canton Blau en Basa a Esquèrra
-  '131084': Canton Brun en Basa a Esquèrra
+  '131084': Canton brun en basa a esquèrra
   '131085': Canton Verd en Basa a Esquèrra
   '131086': Canton Roge en Basa a Esquèrra
   '131087': Canton Negre en Basa a Esquèrra
@@ -1141,7 +1616,7 @@ banner_pattern:
   '196617': Canton Cian en Cap a Drecha
   '196618': Canton Violet en Cap a Drecha
   '196619': Canton Blau en Cap a Drecha
-  '196620': Canton Brun en Cap a Drecha
+  '196620': Canton brun en cap a drecha
   '196621': Canton Verd en Cap a Drecha
   '196622': Canton Roge en Cap a Drecha
   '196623': Canton Negre en Cap a Drecha
@@ -1157,7 +1632,7 @@ banner_pattern:
   '262153': Canton Cian en Cap a Esquèrra
   '262154': Canton Violet en Cap a Esquèrra
   '262155': Canton Blau en Cap a Esquèrra
-  '262156': Canton Brun en Cap a Esquèrra
+  '262156': Canton brun en cap a esquèrra
   '262157': Canton Verd en Cap a Esquèrra
   '262158': Canton Roge en Cap a Esquèrra
   '262159': Canton Negre en Cap a Esquèrra
@@ -1173,7 +1648,7 @@ banner_pattern:
   '458761': Pal Cian a Drecha
   '458762': Pal Violet a Drecha
   '458763': Pal Blau a Drecha
-  '458764': Pal Brun a Drecha
+  '458764': Pal brun a drecha
   '458765': Pal Verd a Drecha
   '458766': Pal Roge a Drecha
   '458767': Pal Negre a Drecha
@@ -1189,7 +1664,7 @@ banner_pattern:
   '524297': Pal Cian a Esquèrra
   '524298': Pal Violet a Esquèrra
   '524299': Pal Blau a Esquèrra
-  '524300': Pal Brun a Esquèrra
+  '524300': Pal brun a esquèrra
   '524301': Pal Verd a Esquèrra
   '524302': Pal Roge a Esquèrra
   '524303': Pal Negre a Esquèrra
@@ -1205,7 +1680,7 @@ banner_pattern:
   '589833': Pal Cian
   '589834': Pal Violet
   '589835': Pal Blau
-  '589836': Pal Brun
+  '589836': Pal brun
   '589837': Pal Verd
   '589838': Pal Roge
   '589839': Pal Negre
@@ -1221,7 +1696,7 @@ banner_pattern:
   '655369': Fàscia Cian
   '655370': Fàscia Violeta
   '655371': Fàscia Blava
-  '655372': Fàscia Bruna
+  '655372': Fàscia bruna
   '655373': Fàscia Verda
   '655374': Fàscia Roja
   '655375': Fàscia Negra
@@ -1237,7 +1712,7 @@ banner_pattern:
   '720905': Benda Cian
   '720906': Benda Violeta
   '720907': Benda Blava
-  '720908': Benda Bruna
+  '720908': Benda bruna
   '720909': Benda Verda
   '720910': Benda Roja
   '720911': Benda Negra
@@ -1253,26 +1728,26 @@ banner_pattern:
   '786441': Benda Cian a Esquèrra
   '786442': Benda Violeta a Esquèrra
   '786443': Benda Blava a Esquèrra
-  '786444': Benda Bruna a Esquèrra
+  '786444': Benda bruna a esquèrra
   '786445': Benda Verda a Esquèrra
   '786446': Benda Roja a Esquèrra
   '786447': Benda Negra a Esquèrra
-  '851968': Quatre Pals Blancs
-  '851969': Quatre Pals Iranges
-  '851970': Quatre Pals Magenta
-  '851971': Quatre Pals Blau Clar
-  '851972': Quatre Pals Auriòls
-  '851973': Quatre Pals Lima
-  '851974': Quatre Pals Ròses
-  '851975': Quatre Pals Grises
-  '851976': Quatre Pals Gris Clar
-  '851977': Quatre Pals Cian
-  '851978': Quatre Pals Violets
-  '851979': Quatre Pals Blaus
-  '851980': Quatre Pals Bruns
-  '851981': Quatre Pals Verds
-  '851982': Quatre Pals Roges
-  '851983': Quatre Pals Negres
+  '851968': Quatre pals blancs
+  '851969': Quatre pals iranges
+  '851970': Quatre pals magenta
+  '851971': Quatre pals blau clar
+  '851972': Quatre pals jaunes
+  '851973': Quatre pals lima
+  '851974': Quatre pals ròses
+  '851975': Quatre pals grises
+  '851976': Quatre pals gris clar
+  '851977': Quatre pals cian
+  '851978': Quatre pals violets
+  '851979': Quatre pals blaus
+  '851980': Quatre pals bruns
+  '851981': Quatre pals verds
+  '851982': Quatre pals roges
+  '851983': Quatre pals negres
   '917504': Sautor Blanc
   '917505': Sautor Irange
   '917506': Sautor Magenta
@@ -1285,7 +1760,7 @@ banner_pattern:
   '917513': Sautor Cian
   '917514': Sautor Violet
   '917515': Sautor Blau
-  '917516': Sautor Brun
+  '917516': Sautor brun
   '917517': Sautor Verd
   '917518': Sautor Roge
   '917519': Sautor Negre
@@ -1695,6 +2170,7 @@ new_banner_pattern:
 merchant_level:
   '1': Novici
   '2': Aprendís
+  '3': Companhon
   '4': Expèrt
   '5': Mèstre
 villager_profession:
@@ -1705,22 +2181,8 @@ villager_profession:
   cleric: Eclesiastic
   farmer: Agricultor
   fisherman: Pescaire
-  fletcher: Vendeire de Sagetas
-  leatherworker: maroquinièr
+  fletcher: Vendeire de sagetas
+  leatherworker: Curatièr
   librarian: Librari
   nitwit: Piòt
   shepherd: Pastor
-villager_career:
-  farmer: Agricultor
-  fisherman: Pescaire
-  shepherd: Pastor
-  fletcher: Vendeire de Sagetas
-  librarian: Librari
-  cartographer: Cartograf
-  cleric: Eclesiastic
-  armorer: Armadurièr
-  weapon_smith: Fèbre d'Armas
-  tool_smith: Fèbre d'Aisinas
-  butcher: Maselièr
-  leatherworker: maroquinièr
-  nitwit: Piòt

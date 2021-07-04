@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:47                    #
+# Build time: 2021-07-04 21:46:02                    #
 # ####################################################
 language:
   code: et_ee
@@ -14,10 +14,17 @@ material:
   polished_diorite: Lihvitud dioriit
   andesite: Andesiit
   polished_andesite: Lihvitud andesiit
+  deepslate: Sügavkilt
+  cobbled_deepslate: Sillutatud sügavkilt
+  polished_deepslate: Lihvitud sügavkilt
+  calcite: Kaltsiit
+  tuff: Tuff
+  dripstone_block: Tilkekivi plokk
   grass_block: Muruplokk
   dirt: Muld
   coarse_dirt: Jäme muld
   podzol: Leedemuld
+  rooted_dirt: Juurtega muld
   crimson_nylium: Karmiinpunane netseel
   warped_nylium: Kentsakas netseel
   cobblestone: Munakivi
@@ -39,10 +46,67 @@ material:
   sand: Liiv
   red_sand: Punane liiv
   gravel: Kruus
-  gold_ore: Kullamaak
-  iron_ore: Rauamaak
   coal_ore: Söemaak
+  deepslate_coal_ore: Sügavkildi söemaak
+  iron_ore: Rauamaak
+  deepslate_iron_ore: Sügavkildi rauamaak
+  copper_ore: Vasemaak
+  deepslate_copper_ore: Sügavkildi vasemaak
+  gold_ore: Kullamaak
+  deepslate_gold_ore: Sügavkildi kullamaak
+  redstone_ore: Redstone-maak
+  deepslate_redstone_ore: Sügavkildi redstone-maak
+  emerald_ore: Smaragdimaak
+  deepslate_emerald_ore: Sügavkildi smaragdimaak
+  lapis_ore: Lasuriidimaak
+  deepslate_lapis_ore: Sügavkildi lasuriidimaak
+  diamond_ore: Teemantmaak
+  deepslate_diamond_ore: Sügavkildi teemantmaak
   nether_gold_ore: Netheri kullamaak
+  nether_quartz_ore: Netheri kvartsmaak
+  ancient_debris: Antiikrusud
+  coal_block: Söeplokk
+  raw_iron_block: Toore raua plokk
+  raw_copper_block: Toore vase plokk
+  raw_gold_block: Toore kulla plokk
+  amethyst_block: Ametüstiplokk
+  budding_amethyst: Tärkav ametüst
+  iron_block: Rauaplokk
+  copper_block: Vaseplokk
+  gold_block: Kullaplokk
+  diamond_block: Teemantplokk
+  netherite_block: Netheriitplokk
+  exposed_copper: Pleekinud vask
+  weathered_copper: Kulunud vask
+  oxidized_copper: Oksüdeerunud vask
+  cut_copper: Lõigatud vask
+  exposed_cut_copper: Pleekinud lõigatud vask
+  weathered_cut_copper: Kulunud lõigatud vask
+  oxidized_cut_copper: Oksüdeerunud lõigatud vask
+  cut_copper_stairs: Lõigatud vasest trepp
+  exposed_cut_copper_stairs: Pleekinud lõigatud vasest trepp
+  weathered_cut_copper_stairs: Kulunud lõigatud vasest trepp
+  oxidized_cut_copper_stairs: Oksüdeerunud lõigatud vasest trepp
+  cut_copper_slab: Lõigatud vasest plaat
+  exposed_cut_copper_slab: Pleekinud lõigatud vasest plaat
+  weathered_cut_copper_slab: Kulunud lõigatud vasest plaat
+  oxidized_cut_copper_slab: Oksüdeerunud lõigatud vasest plaat
+  waxed_copper_block: Vahatatud vaseplokk
+  waxed_exposed_copper: Vahatatud pleekinud vask
+  waxed_weathered_copper: Vahatatud kulunud vask
+  waxed_oxidized_copper: Vahatatud oksüdeerunud vask
+  waxed_cut_copper: Vahatatud lõigatud vask
+  waxed_exposed_cut_copper: Vahatatud pleekinud lõigatud vask
+  waxed_weathered_cut_copper: Vahatatud kulunud lõigatud vask
+  waxed_oxidized_cut_copper: Vahatatud oksüdeerunud lõigatud vask
+  waxed_cut_copper_stairs: Vahatatud lõigatud vasest trepp
+  waxed_exposed_cut_copper_stairs: Vahatatud pleekinud lõigatud vasest trepp
+  waxed_weathered_cut_copper_stairs: Vahatatud kulunud lõigatud vasest trepp
+  waxed_oxidized_cut_copper_stairs: Vahatatud oksüdeerunud lõigatud vasest trepp
+  waxed_cut_copper_slab: Vahatatud lõigatud vasest plaat
+  waxed_exposed_cut_copper_slab: Vahatatud pleekinud lõigatud vasest plaat
+  waxed_weathered_cut_copper_slab: Vahatatud kulunud lõigatud vasest plaat
+  waxed_oxidized_cut_copper_slab: Vahatatud oksüdeerunud lõigatud vasest plaat
   oak_log: Tammetüvi
   spruce_log: Kuusetüvi
   birch_log: Kasetüvi
@@ -81,26 +145,24 @@ material:
   jungle_leaves: Džunglipuu lehed
   acacia_leaves: Akaatsialehed
   dark_oak_leaves: Tumeda tamme lehed
+  azalea_leaves: Asalealehed
+  flowering_azalea_leaves: Õitseva asalea lehed
   sponge: Käsn
   wet_sponge: Märg käsn
   glass: Klaas
-  lapis_ore: Lasuriidimaak
+  tinted_glass: Toonitud klaas
   lapis_block: Lasuriidiplokk
-  dispenser: Jaotur
   sandstone: Liivakivi
   chiseled_sandstone: Peiteldatud liivakivi
   cut_sandstone: Lõigatud liivakivi
-  note_block: Noodiplokk
-  powered_rail: Jõurööpad
-  detector_rail: Andurrööpad
-  sticky_piston: Kleepuv kolb
   cobweb: Ämblikuvõrk
   grass: Muru
   fern: Sõnajalg
+  azalea: Asalea
+  flowering_azalea: Õitsev asalea
   dead_bush: Surnud põõsas
   seagrass: Mererohi
   sea_pickle: Merikurk
-  piston: Kolb
   white_wool: Valge vill
   orange_wool: Oranž vill
   magenta_wool: Fuksiinpunane vill
@@ -130,6 +192,7 @@ material:
   cornflower: Rukkilill
   lily_of_the_valley: Maikelluke
   wither_rose: Witheriroos
+  spore_blossom: Eoseõis
   brown_mushroom: Pruun seen
   red_mushroom: Punane seen
   crimson_fungus: Karmiinpunane seen
@@ -141,9 +204,12 @@ material:
   twisting_vines: Väänduvad väädid
   sugar_cane: Suhkruroog
   kelp: Vetikas
+  moss_carpet: Samblavaip
+  moss_block: Samblaplokk
+  hanging_roots: Rippuvad juured
+  big_dripleaf: Suur tilkeleht
+  small_dripleaf: Väike tilkeleht
   bamboo: Bambus
-  gold_block: Kullaplokk
-  iron_block: Rauaplokk
   oak_slab: Tammeplaat
   spruce_slab: Kuuseplaat
   birch_slab: Kaseplaat
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: Sile liivakivi
   smooth_stone: Sile kivi
   bricks: Tellised
-  tnt: Dünamiit
   bookshelf: Raamaturiiul
   mossy_cobblestone: Sammaldunud munakivi
   obsidian: Obsidiaan
@@ -187,27 +252,11 @@ material:
   spawner: Tekitaja
   oak_stairs: Tammetrepp
   chest: Kirst
-  diamond_ore: Teemantmaak
-  diamond_block: Teemantplokk
   crafting_table: Meisterduslaud
   farmland: Põllumaa
   furnace: Ahi
   ladder: Redel
-  rail: Rööpad
   cobblestone_stairs: Munakivitrepp
-  lever: Kang
-  stone_pressure_plate: Kivist surveplaat
-  oak_pressure_plate: Tammest surveplaat
-  spruce_pressure_plate: Kuusest surveplaat
-  birch_pressure_plate: Kasest surveplaat
-  jungle_pressure_plate: Džunglipuidust surveplaat
-  acacia_pressure_plate: Akaatsiast surveplaat
-  dark_oak_pressure_plate: Tumedast tammest surveplaat
-  crimson_pressure_plate: Karmiinpunane surveplaat
-  warped_pressure_plate: Kentsakas surveplaat
-  polished_blackstone_pressure_plate: Lihvitud mustkivi surveplaat
-  redstone_ore: Redstone-maak
-  redstone_torch: Redstone-tõrvik
   snow: Lumi
   ice: Jää
   snow_block: Lumeplokk
@@ -224,32 +273,31 @@ material:
   warped_fence: Kentsakas aed
   pumpkin: Kõrvits
   carved_pumpkin: Nikerdatud kõrvits
+  jack_o_lantern: Kõrvitsalatern
   netherrack: Netherrack
   soul_sand: Hingeliiv
   soul_soil: Hingepinnas
   basalt: Basalt
   polished_basalt: Lihvitud basalt
+  smooth_basalt: Sile basalt
   soul_torch: Hingetõrvik
   glowstone: Hõõgkivi
-  jack_o_lantern: Kõrvitsalatern
-  oak_trapdoor: Tammeluuk
-  spruce_trapdoor: Kuuseluuk
-  birch_trapdoor: Kaseluuk
-  jungle_trapdoor: Džunglipuidust luuk
-  acacia_trapdoor: Akaatsialuuk
-  dark_oak_trapdoor: Tumedast tammest luuk
-  crimson_trapdoor: Karmiinpunane luuk
-  warped_trapdoor: Kentsakas luuk
   infested_stone: Parasiitne kivi
   infested_cobblestone: Parasiitne munakivi
   infested_stone_bricks: Parasiitsed kivitellised
   infested_mossy_stone_bricks: Parasiitsed sammaldunud kivitellised
   infested_cracked_stone_bricks: Parasiitsed pragunenud kivitellised
   infested_chiseled_stone_bricks: Parasiitsed peiteldatud kivitellised
+  infested_deepslate: Parasiitne sügavkilt
   stone_bricks: Kivitellised
   mossy_stone_bricks: Sammaldunud kivitellised
   cracked_stone_bricks: Pragunenud kivitellised
   chiseled_stone_bricks: Peiteldatud kivitellised
+  deepslate_bricks: Sügavkilditellised
+  cracked_deepslate_bricks: Pragunenud sügavkilditellised
+  deepslate_tiles: Sügavkildikahlid
+  cracked_deepslate_tiles: Pragunenud sügavkildikahlid
+  chiseled_deepslate: Peiteldatud sügavkilt
   brown_mushroom_block: Pruun seeneplokk
   red_mushroom_block: Punane seeneplokk
   mushroom_stem: Seenejalg
@@ -258,14 +306,7 @@ material:
   glass_pane: Klaaspaneel
   melon: Melon
   vine: Väädid
-  oak_fence_gate: Tammest aiavärav
-  spruce_fence_gate: Kuusest aiavärav
-  birch_fence_gate: Kasest aiavärav
-  jungle_fence_gate: Džunglipuidust aiavärav
-  acacia_fence_gate: Akaatsiast aiavärav
-  dark_oak_fence_gate: Tumedast tammest aiavärav
-  crimson_fence_gate: Karmiinpunane aiavärav
-  warped_fence_gate: Kentsakas aiavärav
+  glow_lichen: Hõõgsamblik
   brick_stairs: Tellistrepp
   stone_brick_stairs: Kivitellistrepp
   mycelium: Mütseel
@@ -280,11 +321,8 @@ material:
   end_stone: Endikivi
   end_stone_bricks: Endikivist tellised
   dragon_egg: Draakonimuna
-  redstone_lamp: Redstone-lamp
   sandstone_stairs: Liivakivitrepp
-  emerald_ore: Smaragdimaak
   ender_chest: Enderikirst
-  tripwire_hook: Traadilõksu konks
   emerald_block: Smaragdiplokk
   spruce_stairs: Kuusetrepp
   birch_stairs: Kasetrepp
@@ -308,35 +346,20 @@ material:
   end_stone_brick_wall: Endikivi tellistest müür
   diorite_wall: Dioriitmüür
   blackstone_wall: Mustkivimüür
-  polished_blackstone_wall: Lihvitud mustkivi müür
+  polished_blackstone_wall: Lihvitud mustkivist müür
   polished_blackstone_brick_wall: Lihvitud mustkivi tellistest müür
-  stone_button: Kivinupp
-  oak_button: Tammenupp
-  spruce_button: Kuusenupp
-  birch_button: Kasenupp
-  jungle_button: Džunglipuidust nupp
-  acacia_button: Akaatsianupp
-  dark_oak_button: Tumedast tammest nupp
-  crimson_button: Karmiinpunane nupp
-  warped_button: Kentsakas nupp
-  polished_blackstone_button: Lihvitud mustkivi nupp
+  cobbled_deepslate_wall: Sillutatud sügavkildist müür
+  polished_deepslate_wall: Lihvitud sügavkildist müür
+  deepslate_brick_wall: Sügavkilditellistest müür
+  deepslate_tile_wall: Sügavkildikahlist müür
   anvil: Alasi
   chipped_anvil: Täkkega alasi
   damaged_anvil: Kahjustunud alasi
-  trapped_chest: Püüniskirst
-  light_weighted_pressure_plate: Kergekaaluline surveplaat
-  heavy_weighted_pressure_plate: Raskekaaluline surveplaat
-  daylight_detector: Päevavalguse andur
-  redstone_block: Redstone-plokk
-  nether_quartz_ore: Netheri kvartsmaak
-  hopper: Püüdja
   chiseled_quartz_block: Peiteldatud kvartsplokk
   quartz_block: Kvartsplokk
   quartz_bricks: Kvartstellised
   quartz_pillar: Kvartssammas
   quartz_stairs: Kvartstrepp
-  activator_rail: Käivitusrööpad
-  dropper: Heitja
   white_terracotta: Valge terrakota
   orange_terracotta: Oranž terrakota
   magenta_terracotta: Fuksiinpunane terrakota
@@ -354,7 +377,7 @@ material:
   red_terracotta: Punane terrakota
   black_terracotta: Must terrakota
   barrier: Ääris
-  iron_trapdoor: Raudluuk
+  light: Valgus
   hay_block: Heinapall
   white_carpet: Valge vaip
   orange_carpet: Oranž vaip
@@ -373,12 +396,10 @@ material:
   red_carpet: Punane vaip
   black_carpet: Must vaip
   terracotta: Terrakota
-  coal_block: Söeplokk
   packed_ice: Pakitud jää
   acacia_stairs: Akaatsiatrepp
   dark_oak_stairs: Tumedast tammest trepp
-  slime_block: Limaplokk
-  grass_path: Mururada
+  dirt_path: Mullarada
   sunflower: Päevalill
   lilac: Sirel
   rose_bush: Roosipõõsas
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: Punased Nether-tellised
   bone_block: Kondiplokk
   structure_void: Struktuuritühjus
-  observer: Vaatleja
   shulker_box: Šulkerikast
   white_shulker_box: Valge šulkerikast
   orange_shulker_box: Oranž šulkerikast
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: Punane Nether-tellistrepp
   polished_andesite_stairs: Lihvitud andesiidist trepp
   diorite_stairs: Dioriit-trepp
+  cobbled_deepslate_stairs: Sillutatud sügavkildist trepp
+  polished_deepslate_stairs: Lihvitud sügavkildist trepp
+  deepslate_brick_stairs: Sügavkilditellistest trepp
+  deepslate_tile_stairs: Sügavkildikahlist trepp
   polished_granite_slab: Lihvitud graniidist plaat
   smooth_red_sandstone_slab: Siledast punasest liivakivist plaat
   mossy_stone_brick_slab: Sammaldunud kivitellisplaat
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: Punane Nether-tellisplaat
   polished_andesite_slab: Lihvitud andesiidist plaat
   diorite_slab: Dioriitplaat
+  cobbled_deepslate_slab: Sillutatud sügavkildist plaat
+  polished_deepslate_slab: Lihvitud sügavkildist plaat
+  deepslate_brick_slab: Sügavkilditellistest plaat
+  deepslate_tile_slab: Sügavkildikahlist plaat
   scaffolding: Telling
+  redstone: Redstone-tolm
+  redstone_torch: Redstone-tõrvik
+  redstone_block: Redstone-plokk
+  repeater: Redstone'i järgur
+  comparator: Redstone'i komparaator
+  piston: Kolb
+  sticky_piston: Kleepuv kolb
+  slime_block: Limaplokk
+  honey_block: Meeplokk
+  observer: Vaatleja
+  hopper: Püüdja
+  dispenser: Jaotur
+  dropper: Heitja
+  lectern: Kõnepult
+  target: Märklaud
+  lever: Kang
+  lightning_rod: Piksevarras
+  daylight_detector: Päevavalguse andur
+  sculk_sensor: Sculk-sensor
+  tripwire_hook: Traadilõksu konks
+  trapped_chest: Püüniskirst
+  tnt: Dünamiit
+  redstone_lamp: Redstone-lamp
+  note_block: Noodiplokk
+  stone_button: Kivinupp
+  polished_blackstone_button: Lihvitud mustkivist nupp
+  oak_button: Tammenupp
+  spruce_button: Kuusenupp
+  birch_button: Kasenupp
+  jungle_button: Džunglipuidust nupp
+  acacia_button: Akaatsianupp
+  dark_oak_button: Tumedast tammest nupp
+  crimson_button: Karmiinpunane nupp
+  warped_button: Kentsakas nupp
+  stone_pressure_plate: Kivist surveplaat
+  polished_blackstone_pressure_plate: Lihvitud mustkivist surveplaat
+  light_weighted_pressure_plate: Kergekaaluline surveplaat
+  heavy_weighted_pressure_plate: Raskekaaluline surveplaat
+  oak_pressure_plate: Tammest surveplaat
+  spruce_pressure_plate: Kuusest surveplaat
+  birch_pressure_plate: Kasest surveplaat
+  jungle_pressure_plate: Džunglipuidust surveplaat
+  acacia_pressure_plate: Akaatsiast surveplaat
+  dark_oak_pressure_plate: Tumedast tammest surveplaat
+  crimson_pressure_plate: Karmiinpunane surveplaat
+  warped_pressure_plate: Kentsakas surveplaat
   iron_door: Rauduks
   oak_door: Tammest uks
   spruce_door: Kuusest uks
@@ -572,8 +646,42 @@ material:
   dark_oak_door: Tumedast tammest uks
   crimson_door: Karmiinpunane uks
   warped_door: Kentsakas uks
-  repeater: Redstone'i järgur
-  comparator: Redstone'i komparaator
+  iron_trapdoor: Raudluuk
+  oak_trapdoor: Tammeluuk
+  spruce_trapdoor: Kuuseluuk
+  birch_trapdoor: Kaseluuk
+  jungle_trapdoor: Džunglipuidust luuk
+  acacia_trapdoor: Akaatsialuuk
+  dark_oak_trapdoor: Tumedast tammest luuk
+  crimson_trapdoor: Karmiinpunane luuk
+  warped_trapdoor: Kentsakas luuk
+  oak_fence_gate: Tammest aiavärav
+  spruce_fence_gate: Kuusest aiavärav
+  birch_fence_gate: Kasest aiavärav
+  jungle_fence_gate: Džunglipuidust aiavärav
+  acacia_fence_gate: Akaatsiast aiavärav
+  dark_oak_fence_gate: Tumedast tammest aiavärav
+  crimson_fence_gate: Karmiinpunane aiavärav
+  warped_fence_gate: Kentsakas aiavärav
+  powered_rail: Jõurööpad
+  detector_rail: Andurrööpad
+  rail: Rööpad
+  activator_rail: Käivitusrööpad
+  saddle: Sadul
+  minecart: Kaevanduskäru
+  chest_minecart: Kirstuga kaevanduskäru
+  furnace_minecart: Ahjuga kaevanduskäru
+  tnt_minecart: Dünamiidiga kaevanduskäru
+  hopper_minecart: Püüdjaga kaevanduskäru
+  carrot_on_a_stick: Porgand pulga otsas
+  warped_fungus_on_a_stick: Kentsakas seen pulga otsas
+  elytra: Kattetiivad
+  oak_boat: Tammest paat
+  spruce_boat: Kuusest paat
+  birch_boat: Kasest paat
+  jungle_boat: Džunglipuidust paat
+  acacia_boat: Akaatsiast paat
+  dark_oak_boat: Tumedast tammest paat
   structure_block: Struktuuriplokk
   jigsaw: Pusleplokk
   turtle_helmet: Kilpkonna kilp
@@ -585,7 +693,15 @@ material:
   coal: Süsi
   charcoal: Puusüsi
   diamond: Teemant
+  emerald: Smaragd
+  lapis_lazuli: Lasuriit
+  quartz: Netheri kvarts
+  amethyst_shard: Ametüstikild
+  raw_iron: Toores raud
   iron_ingot: Rauakang
+  raw_copper: Toores vask
+  copper_ingot: Vasekang
+  raw_gold: Toores kuld
   gold_ingot: Kullakang
   netherite_ingot: Netheriidikang
   netherite_scrap: Netheriidijäägid
@@ -669,29 +785,27 @@ material:
   bucket: Ämber
   water_bucket: Veeämber
   lava_bucket: Laavaämber
-  minecart: Kaevanduskäru
-  saddle: Sadul
-  redstone: Redstone-tolm
+  powder_snow_bucket: Puuderlume ämber
   snowball: Lumepall
-  oak_boat: Tammest paat
   leather: Nahk
   milk_bucket: Piimaämber
   pufferfish_bucket: Kerakalaämber
   salmon_bucket: Lõheämber
   cod_bucket: Tursaämber
   tropical_fish_bucket: Troopilise kala ämber
+  axolotl_bucket: Mehhiko tömpsuu ämber
   brick: Tellis
   clay_ball: Savipall
   dried_kelp_block: Kuivatatud vetikaplokk
   paper: Paber
   book: Raamat
   slime_ball: Limapall
-  chest_minecart: Kirstuga kaevanduskäru
-  furnace_minecart: Ahjuga kaevanduskäru
   egg: Muna
   compass: Kompass
+  bundle: Komps
   fishing_rod: Õng
   clock: Kell
+  spyglass: Pikksilm
   glowstone_dust: Hõõgkivi tolm
   cod: Toores tursk
   salmon: Toores lõhe
@@ -700,8 +814,8 @@ material:
   cooked_cod: Küpsetatud tursk
   cooked_salmon: Küpsetatud lõhe
   ink_sac: Tindikott
+  glow_ink_sac: Hõõg-tindikott
   cocoa_beans: Kakaooad
-  lapis_lazuli: Lasuriit
   white_dye: Valge värvaine
   orange_dye: Oranž värvaine
   magenta_dye: Fuksiinpunane värvaine
@@ -765,6 +879,7 @@ material:
   cauldron: Pada
   ender_eye: Enderi silm
   glistering_melon_slice: Sätendav meloniviil
+  axolotl_spawn_egg: Mehhiko tömpsuu sünnimuna
   bat_spawn_egg: Nahkhiire sünnimuna
   bee_spawn_egg: Mesilase sünnimuna
   blaze_spawn_egg: Lõõma sünnimuna
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: Ilmutaja sünnimuna
   fox_spawn_egg: Rebase sünnimuna
   ghast_spawn_egg: Ghasti sünnimuna
+  glow_squid_spawn_egg: Hõõgkalmaari sünnimuna
+  goat_spawn_egg: Kitse sünnimuna
   guardian_spawn_egg: Kaitsja sünnimuna
   hoglin_spawn_egg: Hoglini sünnimuna
   horse_spawn_egg: Hobuse sünnimuna
@@ -833,8 +950,8 @@ material:
   fire_charge: Tulelaeng
   writable_book: Raamat ja kirjasulg
   written_book: Kirjutatud raamat
-  emerald: Smaragd
   item_frame: Esemeraam
+  glow_item_frame: Hõõg-esemeraam
   flower_pot: Lillepott
   carrot: Porgand
   potato: Kartul
@@ -848,17 +965,12 @@ material:
   zombie_head: Zombi pea
   creeper_head: Creeperi pea
   dragon_head: Draakoni pea
-  carrot_on_a_stick: Porgand pulga otsas
-  warped_fungus_on_a_stick: Kentsakas seen pulga otsas
   nether_star: Netheritäht
   pumpkin_pie: Kõrvitsapirukas
   firework_rocket: Ilutulestiku rakett
   firework_star: Ilutulestiku täht
   enchanted_book: Loitsitud raamat
   nether_brick: Nether-tellis
-  quartz: Netheri kvarts
-  tnt_minecart: Dünamiidiga kaevanduskäru
-  hopper_minecart: Püüdjaga kaevanduskäru
   prismarine_shard: Prismariinikild
   prismarine_crystals: Prismariinikristallid
   rabbit: Toores küülik
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: Mõjuga nool
   lingering_potion: Pikaldane võlujook
   shield: Kilp
-  elytra: Kattetiivad
-  spruce_boat: Kuusest paat
-  birch_boat: Kasest paat
-  jungle_boat: Džunglipuidust paat
-  acacia_boat: Akaatsiast paat
-  dark_oak_boat: Tumedast tammest paat
   totem_of_undying: Ebasurma tootem
   shulker_shell: Šulkeri kest
   iron_nugget: Rauavaland
@@ -948,13 +1054,13 @@ material:
   cartography_table: Kartograafialaud
   fletching_table: Noolekinnituslaud
   grindstone: Käiakivi
-  lectern: Kõnepult
   smithing_table: Sepistuslaud
   stonecutter: Kivilõikur
   bell: Kelluke
   lantern: Latern
   soul_lantern: Hingelatern
   sweet_berries: Magusad marjad
+  glow_berries: Hõõgmarjad
   campfire: Lõkketuli
   soul_campfire: Hinge lõkketuli
   shroomlight: Seenevalgus
@@ -962,26 +1068,44 @@ material:
   bee_nest: Mesilaspesa
   beehive: Mesitaru
   honey_bottle: Meepudel
-  honey_block: Meeplokk
   honeycomb_block: Meekärjeplokk
   lodestone: Teekivi
-  netherite_block: Netheriitplokk
-  ancient_debris: Antiikrusud
-  target: Märklaud
   crying_obsidian: Nuttev obsidiaan
   blackstone: Mustkivi
   blackstone_slab: Mustkiviplaat
   blackstone_stairs: Mustkivitrepp
   gilded_blackstone: Kullatud mustkivi
   polished_blackstone: Lihvitud mustkivi
-  polished_blackstone_slab: Lihvitud mustkivi plaat
-  polished_blackstone_stairs: Lihvitud mustkivi trepp
+  polished_blackstone_slab: Lihvitud mustkivist plaat
+  polished_blackstone_stairs: Lihvitud mustkivist trepp
   chiseled_polished_blackstone: Peiteldatud lihvitud mustkivi
   polished_blackstone_bricks: Lihvitud mustkivi tellised
   polished_blackstone_brick_slab: Lihvitud mustkivi tellistest plaat
   polished_blackstone_brick_stairs: Lihvitud mustkivi tellistest trepp
   cracked_polished_blackstone_bricks: Pragunenud lihvitud mustkivi tellised
   respawn_anchor: Taastekkeankur
+  candle: Küünal
+  white_candle: Valge küünal
+  orange_candle: Oranž küünal
+  magenta_candle: Fuksiinpunane küünal
+  light_blue_candle: Helesinine küünal
+  yellow_candle: Kollane küünal
+  lime_candle: Laimiroheline küünal
+  pink_candle: Roosa küünal
+  gray_candle: Hall küünal
+  light_gray_candle: Helehall küünal
+  cyan_candle: Tsüaansinine küünal
+  purple_candle: Lilla küünal
+  blue_candle: Sinine küünal
+  brown_candle: Pruun küünal
+  green_candle: Roheline küünal
+  red_candle: Punane küünal
+  black_candle: Must küünal
+  small_amethyst_bud: Väike ametüstipung
+  medium_amethyst_bud: Keskmine ametüstipung
+  large_amethyst_bud: Suur ametüstipung
+  amethyst_cluster: Ametüstikobar
+  pointed_dripstone: Suunatud tilkekivi
   water: Vesi
   lava: Laava
   tall_seagrass: Kõrge mererohi
@@ -1004,6 +1128,9 @@ material:
   attached_melon_stem: Kinnitunud melonivars
   pumpkin_stem: Kõrvitsavars
   melon_stem: Melonivars
+  water_cauldron: Veepada
+  lava_cauldron: Laavapada
+  powder_snow_cauldron: Puuderlume pada
   end_portal: Endi portaal
   cocoa: Kakao
   tripwire: Traadilõks
@@ -1083,6 +1210,30 @@ material:
   potted_warped_fungus: Kentsakas seen potis
   potted_crimson_roots: Karmiinpunased juured potis
   potted_warped_roots: Kentsakad juured potis
+  candle_cake: Küünlaga kook
+  white_candle_cake: Valge küünlaga kook
+  orange_candle_cake: Oranži küünlaga kook
+  magenta_candle_cake: Fuksiinpunase küünlaga kook
+  light_blue_candle_cake: Helesinise küünlaga kook
+  yellow_candle_cake: Kollase küünlaga kook
+  lime_candle_cake: Laimirohelise küünlaga kook
+  pink_candle_cake: Roosa küünlaga kook
+  gray_candle_cake: Halli küünlaga kook
+  light_gray_candle_cake: Helehalli küünlaga kook
+  cyan_candle_cake: Tsüaansinise küünlaga kook
+  purple_candle_cake: Lilla küünlaga kook
+  blue_candle_cake: Sinise küünlaga kook
+  brown_candle_cake: Pruuni küünlaga kook
+  green_candle_cake: Rohelise küünlaga kook
+  red_candle_cake: Punase küünlaga kook
+  black_candle_cake: Musta küünlaga kook
+  powder_snow: Puuderlumi
+  cave_vines: Koopaväädid
+  cave_vines_plant: Koopaväätide taim
+  big_dripleaf_stem: Suure tilkelehe vars
+  potted_azalea_bush: Asalea potis
+  potted_flowering_azalea_bush: Õitsev asalea potis
+  grass_path: Mururada
   zombie_pigman_spawn_egg: Zombi-seamehe sünnimuna
   cactus_green: Kaktusroheline
   dandelion_yellow: Võilillekollane
@@ -1169,46 +1320,48 @@ biome:
   crimson_forest: Karmiinpunane mets
   warped_forest: Kentsakas mets
   basalt_deltas: Basaldi suudmemaa
+  dripstone_caves: Tilkekivi koopad
+  lush_caves: Lopsakad koopad
   nether: Nether
 enchantment:
-  fire_protection: Tulekaitse
-  sharpness: Teravus
-  flame: Leek
-  soul_speed: Hingekiirus
-  aqua_affinity: Veetõmme
-  punch: Löök
-  loyalty: Lojaalsus
-  depth_strider: Sügavusliugleja
-  vanishing_curse: Hääbumise needus
-  unbreaking: Murdmatus
-  knockback: Tagasilöök
-  luck_of_the_sea: Mere õnn
-  binding_curse: Seotuse needus
-  fortune: Fortuuna
   protection: Kaitse
-  efficiency: Tõhusus
-  mending: Paikamine
-  frost_walker: Härmatiskõndija
-  lure: Sööt
-  looting: Saagikogumine
-  piercing: Läbistamine
-  blast_protection: Plahvatuskaitse
-  smite: Hoop
-  multishot: Mitmiklask
-  fire_aspect: Tulevõim
-  channeling: Kanaliseerimine
-  sweeping: Pühkiv serv
-  thorns: Okkad
-  bane_of_arthropods: Lülijalgsete kirstunael
-  respiration: Hingamine
-  riptide: Tagasivool
-  silk_touch: Siidjas puudutus
-  quick_charge: Kiirlaadimine
-  projectile_protection: Lendkehade kaitse
-  impaling: Teibasseajamine
+  fire_protection: Tulekaitse
   feather_falling: Sulgkerge kukkumine
+  blast_protection: Plahvatuskaitse
+  projectile_protection: Lendkehade kaitse
+  respiration: Hingamine
+  aqua_affinity: Veetõmme
+  thorns: Okkad
+  depth_strider: Sügavusliugleja
+  frost_walker: Härmatiskõndija
+  binding_curse: Seotuse needus
+  sharpness: Teravus
+  smite: Hoop
+  bane_of_arthropods: Lülijalgsete kirstunael
+  knockback: Tagasilöök
+  fire_aspect: Tulevõim
+  looting: Saagikogumine
+  sweeping: Pühkiv serv
+  efficiency: Tõhusus
+  silk_touch: Siidjas puudutus
+  unbreaking: Murdmatus
+  fortune: Fortuuna
   power: Võim
+  punch: Löök
+  flame: Leek
   infinity: Lõpmatus
+  luck_of_the_sea: Mere õnn
+  lure: Sööt
+  loyalty: Lojaalsus
+  impaling: Teibasseajamine
+  riptide: Tagasivool
+  channeling: Kanaliseerimine
+  multishot: Mitmiklask
+  quick_charge: Kiirlaadimine
+  piercing: Läbistamine
+  mending: Paikamine
+  vanishing_curse: Hääbumise needus
+  soul_speed: Hingekiirus
 potion:
   uncraftable: Meisterdamatu võlujook
   water: Veepudel
@@ -1403,6 +1556,11 @@ entity:
   strider: Tatsaja
   zoglin: Zoglin
   piglin_brute: Jõhker piglin
+  axolotl: Mehhiko tömpsuu
+  glow_item_frame: Hõõg-esemeraam
+  glow_squid: Hõõgkalmaar
+  goat: Kits
+  marker: Märgis
   fishing_hook: Õngekork
   lightning: Välgunool
   player: Mängija
@@ -2202,17 +2360,3 @@ villager_profession:
   shepherd: Karjane
   toolsmith: Tööriistasepp
   weaponsmith: Relvasepp
-villager_career:
-  farmer: Talunik
-  fisherman: Kalamees
-  shepherd: Karjane
-  fletcher: Noolevarustaja
-  librarian: Raamatukoguhoidja
-  cartographer: Kartograaf
-  cleric: Vaimulik
-  armorer: Rüüvarustaja
-  weapon_smith: Relvasepp
-  tool_smith: Tööriistasepp
-  butcher: Lihunik
-  leatherworker: Nahatöötleja
-  nitwit: Vusserdaja

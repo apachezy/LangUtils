@@ -1,51 +1,178 @@
 # ####################################################
-# Build time: 2021-03-17 16:17:24                    #
+# Build time: 2021-07-04 21:39:00                    #
 # ####################################################
 language:
   code: hy_am
   name: Հայերեն
   region: Հայաստան
 material:
+  acacia_wood: Ակացիաի փայտ
+  anvil: Սալ
+  armor_stand: Հենարան զրահի համար
   bamboo_sapling: Բամբուկե տնկանյութեր
+  beehive: Փեթակ
   beetroot: Ճակնդեղ
   beetroots: Ճակընդեղ
   beetroot_seeds: Etակնդեղի սերմեր
   beetroot_soup: Ճակնդեղի ապուր
   bee_nest: Մեղվի բույն
+  birch_sapling: Կեչու Տնկի
+  birch_wood: Կեչու Փայտ
+  black_stained_glass_pane: Սև Ապակու Շերտ
+  blast_furnace: Դարբնի վառարան
   blaze_spawn_egg: Բոցակրակ ստեղծելու ձու
+  blue_stained_glass_pane: Կապույտ Ապակու Շերտ
+  bone_block: Ոսկորի Բլոկ
+  brain_coral_block: Ուղեղային մարջանի բլոկ
+  brown_mushroom_block: Դարչնագույն սնկով բլոկ
+  brown_stained_glass_pane: Դարչնագույն Ապակու Շերտ
+  bubble_coral_block: Պղպջակային մարջանի բլոկ
+  chain_command_block: Շղթայած հրամանների բլոկ
+  chest_minecart: Բեռնատար Վագոն
   chicken: Հավի հում միս
+  chipped_anvil: Վնասված սալ
+  chiseled_red_sandstone: Փորագրված Կարմիր Ավազաքար
   chorus_fruit: Ch’vor mrger
   clay_ball: Կավ
+  coal_block: Ածուխի Բլոկ
+  coal_ore: Ածուխի Հանքաքար
+  command_block: Հրամանների Բլոկ
+  command_block_minecart: Վագոն Հրամաննեի Բլոկով
+  cooked_chicken: Պատրաստված Հավի միս
+  cooked_mutton: Պատրաստած ոչխարի միս
+  cooked_porkchop: Պատրաստված Խոզի Միս
+  cookie: Բլիթ
   creeper_banner_pattern: Դրոշի օրինակ
+  creeper_wall_head: Քրիպերի պատի գլուխ
   crossbow: Խաչադեղ
+  cut_sandstone: Հարթ ավազաքար
+  cyan_stained_glass_pane: Փիրուզագույն Ապակու Շերտ
+  damaged_anvil: Շատ Վնասված Սալ
+  dark_oak_boat: Մուգ Կաղնու փայտից Նավակ
+  dark_oak_door: Մուգ Կաղնու փայտից դուռ
+  dark_oak_log: Մուգ կաղնու գերան
+  dark_oak_wood: Մուգ կաղնու փայտ
+  dead_brain_coral_block: Մահացած ուղեղային մարջանի բլոկ
+  dead_bubble_coral_block: Մահացած պղպջակային մարջանի բլոկ
+  dead_fire_coral_block: Մահացած կրակոտ մարջանի բլոկ
+  dead_horn_coral_block: Մահացած կոտոշային մարջանի բլոկ
+  dead_tube_coral_block: Մահացած գլանային մարջանի բլոկ
+  diamond_block: Ադամանդի բլոկ
+  dried_kelp: Չորացրած ջրիմուռ
+  dried_kelp_block: Չորացրած լամինարիայի բլոկ
   elder_guardian_spawn_egg: Ավագ պահապան ստեղծելու ձու
+  emerald_block: Զմրուխտի Բլոկ
+  fire_coral_block: Կրակոտ մարջանի բլոկ
+  glass_pane: Ապակու Շերտ
+  golden_shovel: Ոսկե Թիակ
+  golden_sword: Ոսկե Սուր
+  gold_block: Ոսկու Բլոկ
+  gold_ore: Ոսկու Հանքաքար
+  grass_block: Խոտի Բլոկ
+  gray_stained_glass_pane: Մոխրագույն Ապակու Շերտ
+  green_stained_glass: Կանաչ Ապակի
+  green_stained_glass_pane: Կանաչ Ապակու Շերտ
+  honeycomb_block: Մեղրամոմի բլոկ
+  honey_block: Մեղրի բլոկ
+  horn_coral_block: Կոտոշավոր մարջանի բլոկ
+  iron_block: Երկաթի Բլոկ
+  iron_chestplate: Երկաթե Շապիկ
+  iron_ore: Երկաթի Հանքաքար
+  iron_shovel: Երկաթե Թիակ
+  iron_sword: Երկաթե Սուր
+  iron_trapdoor: Երկաթյա Դռնակ
+  jungle_planks: Արևադարձային ծառի տախտակներ
+  jungle_sapling: Արևադարձային ծառի Տնկի
+  lapis_block: Լազուրիտի Բլոկ
+  leather_chestplate: Կաշվե Շապիկ
   leather_horse_armor: Կաշի ձիու զրահ
+  leather_leggings: Կաշվե Անդրավարտիկ
+  light_blue_stained_glass: Բաց Կապույտ Ապակի
+  light_gray_stained_glass_pane: Բաց Մոխրագույն Ապակու Շերտ
+  lime_stained_glass_pane: Բաց Կանաչ Ապակու Շերտ
+  magma_block: Մագմայի Բլոկ
+  melon_stem: Ձմերուկի Սերմեր
   mojang_banner_pattern: |
     Դրոշի նմուշ
   mooshroom_spawn_egg: Ճանճասպան ստեղծելու ձու
   nautilus_shell: Նաուտիլուս կճեպնե
   nether_brick: Դժոխային Աղյուս
   nether_brick_slab: Նեզերի աղյուսից սալիկ
+  nether_wart_block: Նեզերի աճվածքի բլոկ
+  note_block: Մեղեդու Բլոկ
+  oak_boat: Կաղնու փայտից Նավակ
+  oak_door: Կաղնու փայտից դուռ
+  oak_log: Կաղնու գերան
+  oak_wood: Կաղնու Փայտ
+  observer: Դիտող
   obsidian: Վանակատ
   ocelot_spawn_egg: Օցելոտի Ստեղծելու Ձու
+  pink_stained_glass_pane: Վարդագույն Ապակու Շերտ
+  polished_diorite: Հարթեցված դիորիտ
+  polished_granite: Հարթեցված գրանիտ
   popped_chorus_fruit: Կտրված Chorus պտուղը
+  potion: Դեղորայք
+  potted_dark_oak_sapling: Մուգ կաղնու սածիլ ծաղկամանի մեջ
+  potted_fern: Ծաղկամանով ձարխոտ
+  potted_oak_sapling: Կաղնու սածիլ ծաղկամանի մեջ
+  potted_orange_tulip: Նարնջագույն Վարդակակաչ Ամանի Մեջ
+  potted_pink_tulip: Վարդագույն Վարդակակաչ Ամանի Մեջ
+  potted_red_tulip: Կարմիր Վարդակակաչ Ամանի Մեջ
+  potted_white_tulip: Սպիտակ Վարդակակաչ Ամանի Մեջ
+  potted_wither_rose: Չոր Վարդ
   pufferfish: Ֆուգու Ձուկ
   pufferfish_bucket: Փքաձկան Դույլ
+  purple_stained_glass_pane: Մանուշակագույն Ապակու Շերտ
+  purpur_block: Պուրպուրե բլոկ
+  purpur_pillar: Սյունաձև պուրպուրե բլոկ
+  redstone_block: Կարմրաքարի Բլոկ
+  redstone_torch: Կարմրաքարի Ջահ
+  red_mushroom_block: Կարմիր ճանճասպանի բլոկ
+  red_stained_glass_pane: Կարմիր Ապակու Շերտ
+  repeating_command_block: Կրկնվող հրամանների բլոկ
+  scaffolding: Շինարարական անտառներ
   shulker_box: Շալքերի Տուփ
   shulker_shell: Շուլկեր Շել
+  shulker_spawn_egg: Շալքեր ստեղծելու ձու
   skull_banner_pattern: Դրոշի օրինակ
+  slime_block: Լորձի բլոկ
   smooth_quartz: Հարթ կվարց
+  snow_block: Ձյան բլոկ
+  spruce_log: Եղևնու գերան
+  spruce_planks: Եղևնու տախտակներ
+  spruce_sapling: Եղևնու տնկի
+  spruce_wood: Եղևնու Փայտ
+  squid_spawn_egg: Կաղամար ստեղծելու ձու
+  stonecutter: Քարհատ
+  stripped_acacia_log: Կեղևազրկած ակացիայի գերան
+  stripped_birch_log: Կեղևազրկած կեչու գերան
+  stripped_dark_oak_wood: Տաշած մուգ կաղնու փայտանյութ
+  stripped_oak_log: Կեղևազրկած կաղնու գերան
+  stripped_oak_wood: Տաշած կաղնու փայտանյութ
+  stripped_spruce_log: Կեղևազրկած եղևնու գերան
+  structure_block: Բլոկ-կոնստրուկտոր
+  structure_void: Դատարկ բլոկ
+  tipped_arrow: Ազդեցությունով Աղեղ
   totem_of_undying: Undying- ի տոտեմը
   trident: եռաժանի
+  tripwire_hook: Թակարդի Կեռիկ
   tropical_fish_bucket: Դույլով արևադարձային ձուկ
+  tube_coral_block: Գլանային մարջանի բլոկ
   vex_spawn_egg: Զայրացնող ստեղծելու ձու
   vindicator_spawn_egg: Ձկնկիթ Գյուղի Բնակիչ
   wither_skeleton_spawn_egg: Թուլացնող կմախք ստեղծելու ձու
   wolf_spawn_egg: Ձի ստեղծելու ձու
+  wooden_shovel: Փայտե Թիակ
+  wooden_sword: Փայտե Սուր
   zombie_horse_spawn_egg: Զոմբի ձի ստեղծելու ձու
 enchantment:
+  vanishing_curse: Կորուստի անեծք
+  knockback: Հրում
   lure: Շվի Հրապուրել
+  looting: Կողոպուտ
   piercing: Պիրսինգ
+  multishot: Եռակի հարված
+  impaling: Խոցող
 potion:
   uncraftable: Անհասանելի պոչամբար
   mundane: Մունդան Պոզա
@@ -56,6 +183,12 @@ potion:
   jump: Խմելիք թռիչք
   fire_resistance: Fireproofness խմոր
   speed: Սրընթացության խմորը
+  slowness: Դանդաղկոտության խմորը
+  instant_heal: Բուժման դեղ
+  instant_damage: Վնաս պատճառելու խմորը
+  poison: Թույն խմելիք
+  weakness: Թուլության խմորը
+  luck: Հաջողություն խմելը
   turtle_master: Turtle ի potions
   slow_falling: Դանդաղ անկման խմորը
 splash_potion:
@@ -70,7 +203,9 @@ splash_potion:
   fire_resistance: Fireproofness potions խուրձ
   speed: Պոռթկում potions սրընթաց
 lingering_potion:
+  uncraftable: Չպատրաստվող երկարատև դեղորայք
   thick: Խիտ երկարատև դեղորայք
+  night_vision: Գիշերային տեսողության երկարատև դեղորայք
 tipped_arrow:
   uncraftable: Անառարկելի սլաքի նետը
   water: Splashing- ի նետը
@@ -93,24 +228,45 @@ tipped_arrow:
   turtle_master: Կրիա Վարպետ- ի նետը
   slow_falling: Դանդաղ անկման սլաքը
 entity:
+  experience_orb: Կախարդանքի Գնդիկներ
   area_effect_cloud: Տարածքի ազդեցության ամպ
+  elder_guardian: Հասուն Պահպանող
   wither_skeleton: Скелет Визера
+  stray: Կործանված
+  splash_potion: Դեղորայք
+  thrown_exp_bottle: Փորձի շիշ
   wither_skull: Голова Визера
+  falling_block: Ընկնող Բլոկ
+  husk: Կճեպ
   evoker: Կոչող
+  illusioner: Պատկերազարդ
+  minecart_command: Վագոն Հրամաննեի Բլոկով
+  minecart: Վագոն
+  minecart_chest: Բեռնատար Վագոն
+  ghast: Գաստ
   enderman: Էնդերմեն
+  cave_spider: Քարանձավի Սարդ
   blaze: Բոց
   ender_dragon: Էնդերի Դրակոն
+  guardian: Պահպանող
+  squid: Կաղամար
   mushroom_cow: Սնկային Կով
   pufferfish: Ֆուգու Ձուկ
   fishing_hook: Ձկնորսություն Bobber
 effect:
-  jump: Ցատկի Ուժգնացում
+  heal: Ակնթարթային Առողջություն
+  confusion: Գլխապտույտ
+  fire_resistance: Դիմադրություն Կրակին
+  poison: Թույն
   wither: Ոչնչացնող
   absorption: Կլանելություն
   saturation: Հագեցում
+  luck: Բախտ
+  slow_falling: Դանդաղ ընկնում
   conduit_power: Կոնդիցիոներ ուժը
 tropical_fish_type:
   sunstreak: SunStreak
+  snooper: Քնած
   blockfish: Բլոկֆիշ
   clayfish: Խեցգետինը
 named:
@@ -120,7 +276,32 @@ tropical_fish_name:
   '67110144': Այծի ձուկ
   '16778497': Զարդարված թիթեռնիկ
   '101253888': Թութակ
+  '917504': Լոլիկ Ծաղրածու
   '459008': Triggerfish- ը
   '67699456': Դեղնավուն թութակ
+banner_pattern:
+  '655365': Բաց կանաչ գոտի
+  '720901': Բաց կանաչ կապ
+  '720904': Մաց մոխրագույն կապ
+  '720911': Սև կապ
+  '1966080': Սպիտակ Կապանք
+  '1966081': Նարնջագույն Կապանք
+  '1966083': Բաց Կապույտ Կապանք
+  '1966084': Դեղին Կապանք
+  '1966085': Բաց Կանաչ Կապանք
+  '1966086': Վարդագույն Կապանք
+  '1966087': Մոխրագույն Կապանք
+  '1966088': Բաց Մոխրագույն Կապանք
+  '1966089': Ցիան Կապանք
+  '1966090': Մանուշակագույն Կապանք
+  '1966091': Կապույտ Կապանք
+  '1966092': Շականակագույն Կապանք
+  '1966093': Կանաչ Կապանք
+  '1966094': Կարմիր Կապանք
+  '1966095': Սև Կապանք
+  '2031628': Շականակագույն կապանք շեղված
+  '2031629': Կանաչ կապանք շեղված
+  '2031630': Կարմիր կապանք շեղված
+  '2031631': Սև կապանք շեղված
 new_banner_pattern:
   creeper_banner_pattern: Կրիպեռի լիցք

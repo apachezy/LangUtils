@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:48                    #
+# Build time: 2021-07-04 21:46:04                    #
 # ####################################################
 language:
   code: nl_nl
@@ -14,10 +14,17 @@ material:
   polished_diorite: Gepolijst dioriet
   andesite: Andesiet
   polished_andesite: Gepolijst andesiet
+  deepslate: Wrevelsteen
+  cobbled_deepslate: Geplaveid wrevelsteen
+  polished_deepslate: Gepolijst wrevelsteen
+  calcite: Calciet
+  tuff: Tufsteen
+  dripstone_block: Druipsteenblok
   grass_block: Grasblok
   dirt: Aarde
   coarse_dirt: Grove aarde
   podzol: Podzol
+  rooted_dirt: Gewortelde aarde
   crimson_nylium: Helrood nylium
   warped_nylium: Spookachtig nylium
   cobblestone: Keisteen
@@ -39,10 +46,67 @@ material:
   sand: Zand
   red_sand: Rood zand
   gravel: Grind
-  gold_ore: Gouderts
-  iron_ore: IJzererts
   coal_ore: Steenkoolerts
+  deepslate_coal_ore: Wrevelsteen-steenkoolerts
+  iron_ore: IJzererts
+  deepslate_iron_ore: Wrevelsteenijzererts
+  copper_ore: Kopererts
+  deepslate_copper_ore: Wrevelsteenkopererts
+  gold_ore: Gouderts
+  deepslate_gold_ore: Wrevelsteengouderts
+  redstone_ore: Redstone-erts
+  deepslate_redstone_ore: Wrevelsteenredstone-erts
+  emerald_ore: Smaragderts
+  deepslate_emerald_ore: Wrevelsteensmaragderts
+  lapis_ore: Lapis lazuli-erts
+  deepslate_lapis_ore: Wrevelsteenlapislazuli-erts
+  diamond_ore: Diamanterts
+  deepslate_diamond_ore: Wrevelsteendiamanterts
   nether_gold_ore: Nethergouderts
+  nether_quartz_ore: Netherkwartserts
+  ancient_debris: Oud puin
+  coal_block: Steenkoolblok
+  raw_iron_block: Ruw ijzerblok
+  raw_copper_block: Ruw koperblok
+  raw_gold_block: Ruw goudblok
+  amethyst_block: Amethistblok
+  budding_amethyst: Uitlopende amethist
+  iron_block: IJzerblok
+  copper_block: Koperblok
+  gold_block: Goudblok
+  diamond_block: Diamantblok
+  netherite_block: Netherietblok
+  exposed_copper: Blootgesteld koperblok
+  weathered_copper: Verweerd koperblok
+  oxidized_copper: Geoxideerd koperblok
+  cut_copper: Gesneden koperblok
+  exposed_cut_copper: Blootgesteld gesneden koperblok
+  weathered_cut_copper: Verweerd gesneden koperblok
+  oxidized_cut_copper: Geoxideerd gesneden koperblok
+  cut_copper_stairs: Gesneden koperen trap
+  exposed_cut_copper_stairs: Blootgestelde gesneden koperen trap
+  weathered_cut_copper_stairs: Verweerde gesneden koperen trap
+  oxidized_cut_copper_stairs: Geoxideerde gesneden koperen trap
+  cut_copper_slab: Gesneden koperen plaat
+  exposed_cut_copper_slab: Blootgestelde gesneden koperen plaat
+  weathered_cut_copper_slab: Verweerde gesneden koperen plaat
+  oxidized_cut_copper_slab: Geoxideerde gesneden koperen plaat
+  waxed_copper_block: Ingewassen koperblok
+  waxed_exposed_copper: Ingewassen blootgesteld koperblok
+  waxed_weathered_copper: Ingewassen verweerd koperblok
+  waxed_oxidized_copper: Ingewassen geoxideerd koperblok
+  waxed_cut_copper: Ingewassen gesneden koperblok
+  waxed_exposed_cut_copper: Ingewassen blootgesteld gesneden koperblok
+  waxed_weathered_cut_copper: Ingewassen verweerd gesneden koperblok
+  waxed_oxidized_cut_copper: Ingewassen geoxideerd gesneden koperblok
+  waxed_cut_copper_stairs: Ingewassen gesneden koperen trap
+  waxed_exposed_cut_copper_stairs: Ingewassen blootgestelde gesneden koperen trap
+  waxed_weathered_cut_copper_stairs: Ingewassen verweerde gesneden koperen trap
+  waxed_oxidized_cut_copper_stairs: Ingewassen geoxideerde gesneden koperen trap
+  waxed_cut_copper_slab: Ingewassen gesneden koperen plaat
+  waxed_exposed_cut_copper_slab: Ingewassen blootgestelde gesneden koperen plaat
+  waxed_weathered_cut_copper_slab: Ingewassen verweerde gesneden koperen plaat
+  waxed_oxidized_cut_copper_slab: Ingewassen geoxideerde gesneden koperen plaat
   oak_log: Eikenstam
   spruce_log: Sparrenstam
   birch_log: Berkenstam
@@ -81,26 +145,24 @@ material:
   jungle_leaves: Oerwoudbladeren
   acacia_leaves: Acaciabladeren
   dark_oak_leaves: Donkereikenbladeren
+  azalea_leaves: Azaleabladeren
+  flowering_azalea_leaves: Bloeiende azaleabladeren
   sponge: Spons
   wet_sponge: Natte spons
   glass: Glas
-  lapis_ore: Lapis lazuli-erts
-  lapis_block: Lapis lazuliblok
-  dispenser: Dispenser
+  tinted_glass: Getint glas
+  lapis_block: Lapislazuliblok
   sandstone: Zandsteen
   chiseled_sandstone: Gebeiteld zandsteen
   cut_sandstone: Gesneden zandsteen
-  note_block: Nootblok
-  powered_rail: Aandrijfspoor
-  detector_rail: Detectiespoor
-  sticky_piston: Kleefzuiger
   cobweb: Spinnenweb
   grass: Gras
   fern: Varen
+  azalea: Azalea
+  flowering_azalea: Bloeiende azalea
   dead_bush: Dode struik
   seagrass: Zeegras
   sea_pickle: Zeeaugurk
-  piston: Zuiger
   white_wool: Witte wol
   orange_wool: Oranje wol
   magenta_wool: Magenta wol
@@ -130,6 +192,7 @@ material:
   cornflower: Korenbloem
   lily_of_the_valley: Lelietje-van-dalen
   wither_rose: Witherroos
+  spore_blossom: Sporebloesem
   brown_mushroom: Bruine paddenstoel
   red_mushroom: Rode paddenstoel
   crimson_fungus: Helrode zwam
@@ -141,9 +204,12 @@ material:
   twisting_vines: Verwikkelde klimop
   sugar_cane: Suikerriet
   kelp: Kelp
+  moss_carpet: Mostapijt
+  moss_block: Mosblok
+  hanging_roots: Hangende wortels
+  big_dripleaf: Groot druipblad
+  small_dripleaf: Klein druipblad
   bamboo: Bamboe
-  gold_block: Goudblok
-  iron_block: IJzerblok
   oak_slab: Eikenhouten plaat
   spruce_slab: Sparrenhouten plaat
   birch_slab: Berkenhouten plaat
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: Glad zandsteen
   smooth_stone: Gladde steen
   bricks: Bakstenen
-  tnt: TNT
   bookshelf: Boekenkast
   mossy_cobblestone: Mossige keisteen
   obsidian: Obsidiaan
@@ -187,27 +252,11 @@ material:
   spawner: Monsterkooi
   oak_stairs: Eikenhouten trap
   chest: Kist
-  diamond_ore: Diamanterts
-  diamond_block: Diamantblok
   crafting_table: Werkbank
   farmland: Akkerland
   furnace: Oven
   ladder: Ladder
-  rail: Spoor
   cobblestone_stairs: Keistenen trap
-  lever: Hendel
-  stone_pressure_plate: Stenen drukplaat
-  oak_pressure_plate: Eikenhouten drukplaat
-  spruce_pressure_plate: Sparrenhouten drukplaat
-  birch_pressure_plate: Berkenhouten drukplaat
-  jungle_pressure_plate: Oerwoudhouten drukplaat
-  acacia_pressure_plate: Acaciahouten drukplaat
-  dark_oak_pressure_plate: Donkereikenhouten drukplaat
-  crimson_pressure_plate: Helrode houten drukplaat
-  warped_pressure_plate: Spookachtige houten drukplaat
-  polished_blackstone_pressure_plate: Gepolijste zwartstenen drukplaat
-  redstone_ore: Redstone-erts
-  redstone_torch: Redstonefakkel
   snow: Sneeuw
   ice: IJs
   snow_block: Sneeuwblok
@@ -224,48 +273,40 @@ material:
   warped_fence: Spookachtig houten hek
   pumpkin: Pompoen
   carved_pumpkin: Bewerkte pompoen
+  jack_o_lantern: Jack-o'-lantern
   netherrack: Netherrack
   soul_sand: Zielenzand
   soul_soil: Zielenaarde
   basalt: Basalt
   polished_basalt: Gepolijst basalt
+  smooth_basalt: Glad basalt
   soul_torch: Zielenfakkel
   glowstone: Gloeisteen
-  jack_o_lantern: Jack-o'-lantern
-  oak_trapdoor: Eikenhouten valluik
-  spruce_trapdoor: Sparrenhouten valluik
-  birch_trapdoor: Berkenhouten valluik
-  jungle_trapdoor: Oerwoudhouten valluik
-  acacia_trapdoor: Acaciahouten valluik
-  dark_oak_trapdoor: Donkereikenhouten valluik
-  crimson_trapdoor: Helrood houten valluik
-  warped_trapdoor: Spookachtig houten valluik
   infested_stone: Geïnfecteerde steen
   infested_cobblestone: Geïnfecteerde keisteen
   infested_stone_bricks: Geïnfecteerde blokstenen
   infested_mossy_stone_bricks: Geïnfecteerde mossige blokstenen
   infested_cracked_stone_bricks: Geïnfecteerde gebarsten blokstenen
   infested_chiseled_stone_bricks: Geïnfecteerde gebeitelde blokstenen
+  infested_deepslate: Geïnfecteerd wrevelsteen
   stone_bricks: Blokstenen
   mossy_stone_bricks: Mossige blokstenen
   cracked_stone_bricks: Gebarsten blokstenen
   chiseled_stone_bricks: Gebeitelde blokstenen
+  deepslate_bricks: Wrevelblokstenen
+  cracked_deepslate_bricks: Gebarsten wrevelstenen blokstenen
+  deepslate_tiles: Wrevelstenen tegels
+  cracked_deepslate_tiles: Gebarsten wrevelstenen tegels
+  chiseled_deepslate: Gebeiteld wrevelsteen
   brown_mushroom_block: Bruin paddenstoelenblok
   red_mushroom_block: Rood paddenstoelenblok
   mushroom_stem: Paddenstoelenstam
   iron_bars: Tralies
-  chain: Gekoppeld
+  chain: Ketting
   glass_pane: Glazen ruit
   melon: Meloen
   vine: Lianen
-  oak_fence_gate: Eikenhouten poort
-  spruce_fence_gate: Sparrenhouten poort
-  birch_fence_gate: Berkenhouten poort
-  jungle_fence_gate: Oerwoudhouten poort
-  acacia_fence_gate: Acaciahouten poort
-  dark_oak_fence_gate: Donkereikenhouten poort
-  crimson_fence_gate: Helrode houten poort
-  warped_fence_gate: Spookachtige houten poort
+  glow_lichen: Gloeiend korstmos
   brick_stairs: Bakstenen trap
   stone_brick_stairs: Blokstenen trap
   mycelium: Zwamvlok
@@ -280,11 +321,8 @@ material:
   end_stone: Endsteen
   end_stone_bricks: Endblokstenen
   dragon_egg: Drakenei
-  redstone_lamp: Redstonelamp
   sandstone_stairs: Zandstenen trap
-  emerald_ore: Smaragderts
   ender_chest: Enderkist
-  tripwire_hook: Struikeldraadhaak
   emerald_block: Smaragdblok
   spruce_stairs: Sparrenhouten trap
   birch_stairs: Berkenhouten trap
@@ -310,33 +348,18 @@ material:
   blackstone_wall: Zwartstenen muur
   polished_blackstone_wall: Gepolijste zwartstenen muur
   polished_blackstone_brick_wall: Gepolijste zwartstenen blokstenen muur
-  stone_button: Stenen knop
-  oak_button: Eikenhouten knop
-  spruce_button: Sparrenhouten knop
-  birch_button: Berkenhouten knop
-  jungle_button: Oerwoudhouten knop
-  acacia_button: Acaciahouten knop
-  dark_oak_button: Donkereikenhouten knop
-  crimson_button: Helrode houten knop
-  warped_button: Spookachtige houten knop
-  polished_blackstone_button: Gepolijste zwartstenen knop
+  cobbled_deepslate_wall: Geplaveide wrevelstenen muur
+  polished_deepslate_wall: Gepolijste wrevelstenen muur
+  deepslate_brick_wall: Wrevelblokstenen muur
+  deepslate_tile_wall: Wrevelstenen tegelmuur
   anvil: Aambeeld
   chipped_anvil: Gebarsten aambeeld
   damaged_anvil: Beschadigd aambeeld
-  trapped_chest: Kist met valstrik
-  light_weighted_pressure_plate: Lichte drukgevoelige plaat
-  heavy_weighted_pressure_plate: Zware drukgevoelige plaat
-  daylight_detector: Daglichtsensor
-  redstone_block: Redstoneblok
-  nether_quartz_ore: Netherkwartserts
-  hopper: Trechter
   chiseled_quartz_block: Gebeiteld kwartsblok
   quartz_block: Kwartsblok
   quartz_bricks: Kwartsblokstenen
   quartz_pillar: Kwartspilaar
   quartz_stairs: Kwartstrap
-  activator_rail: Activatiespoor
-  dropper: Dropper
   white_terracotta: Wit terracotta
   orange_terracotta: Oranje terracotta
   magenta_terracotta: Magenta terracotta
@@ -354,7 +377,7 @@ material:
   red_terracotta: Rood terracotta
   black_terracotta: Zwart terracotta
   barrier: Barrière
-  iron_trapdoor: IJzeren valluik
+  light: Licht
   hay_block: Hooibaal
   white_carpet: Wit tapijt
   orange_carpet: Oranje tapijt
@@ -373,12 +396,10 @@ material:
   red_carpet: Rood tapijt
   black_carpet: Zwart tapijt
   terracotta: Terracotta
-  coal_block: Steenkoolblok
   packed_ice: Pakijs
   acacia_stairs: Acaciahouten trap
   dark_oak_stairs: Donkereikenhouten trap
-  slime_block: Slijmblok
-  grass_path: Graspad
+  dirt_path: Aardepad
   sunflower: Zonnebloem
   lilac: Sering
   rose_bush: Rozenstruik
@@ -436,7 +457,6 @@ material:
   red_nether_bricks: Rode Netherbakstenen
   bone_block: Bottenblok
   structure_void: Constructieleegte
-  observer: Observeerder
   shulker_box: Shulkerdoos
   white_shulker_box: Witte Shulkerdoos
   orange_shulker_box: Oranje Shulkerdoos
@@ -549,6 +569,10 @@ material:
   red_nether_brick_stairs: Rode Netherbakstenen trap
   polished_andesite_stairs: Gepolijste andesiettrap
   diorite_stairs: Dioriettrap
+  cobbled_deepslate_stairs: Geplaveide wrevelstenen trap
+  polished_deepslate_stairs: Gepolijste wrevelstenen trap
+  deepslate_brick_stairs: Wrevelblokstenen trap
+  deepslate_tile_stairs: Wrevelstenen tegeltrap
   polished_granite_slab: Gepolijste granietplaat
   smooth_red_sandstone_slab: Gladde rode zandstenen plaat
   mossy_stone_brick_slab: Mossige blokstenen plaat
@@ -562,7 +586,57 @@ material:
   red_nether_brick_slab: Rode Netherbakstenen plaat
   polished_andesite_slab: Gepolijste andesietplaat
   diorite_slab: Diorietplaat
+  cobbled_deepslate_slab: Geplaveide wrevelstenen plaat
+  polished_deepslate_slab: Gepolijste wrevelstenen plaat
+  deepslate_brick_slab: Wrevelblokstenen plaat
+  deepslate_tile_slab: Wrevelstenen tegelplaat
   scaffolding: Steiger
+  redstone: Redstonestof
+  redstone_torch: Redstonefakkel
+  redstone_block: Redstoneblok
+  repeater: Redstoneversterker
+  comparator: Redstonevergelijker
+  piston: Zuiger
+  sticky_piston: Kleefzuiger
+  slime_block: Slijmblok
+  honey_block: Honingblok
+  observer: Observeerder
+  hopper: Trechter
+  dispenser: Dispenser
+  dropper: Dropper
+  lectern: Lessenaar
+  target: Doelwit
+  lever: Hendel
+  lightning_rod: Bliksemafleider
+  daylight_detector: Daglichtsensor
+  sculk_sensor: Sculksensor
+  tripwire_hook: Struikeldraadhaak
+  trapped_chest: Kist met valstrik
+  tnt: TNT
+  redstone_lamp: Redstonelamp
+  note_block: Nootblok
+  stone_button: Stenen knop
+  polished_blackstone_button: Gepolijste zwartstenen knop
+  oak_button: Eikenhouten knop
+  spruce_button: Sparrenhouten knop
+  birch_button: Berkenhouten knop
+  jungle_button: Oerwoudhouten knop
+  acacia_button: Acaciahouten knop
+  dark_oak_button: Donkereikenhouten knop
+  crimson_button: Helrode houten knop
+  warped_button: Spookachtige houten knop
+  stone_pressure_plate: Stenen drukplaat
+  polished_blackstone_pressure_plate: Gepolijste zwartstenen drukplaat
+  light_weighted_pressure_plate: Lichte drukgevoelige plaat
+  heavy_weighted_pressure_plate: Zware drukgevoelige plaat
+  oak_pressure_plate: Eikenhouten drukplaat
+  spruce_pressure_plate: Sparrenhouten drukplaat
+  birch_pressure_plate: Berkenhouten drukplaat
+  jungle_pressure_plate: Oerwoudhouten drukplaat
+  acacia_pressure_plate: Acaciahouten drukplaat
+  dark_oak_pressure_plate: Donkereikenhouten drukplaat
+  crimson_pressure_plate: Helrode houten drukplaat
+  warped_pressure_plate: Spookachtige houten drukplaat
   iron_door: IJzeren deur
   oak_door: Eikenhouten deur
   spruce_door: Sparrenhouten deur
@@ -572,8 +646,42 @@ material:
   dark_oak_door: Donkereikenhouten deur
   crimson_door: Helrode houten deur
   warped_door: Spookachtige houten deur
-  repeater: Redstoneversterker
-  comparator: Redstonevergelijker
+  iron_trapdoor: IJzeren valluik
+  oak_trapdoor: Eikenhouten valluik
+  spruce_trapdoor: Sparrenhouten valluik
+  birch_trapdoor: Berkenhouten valluik
+  jungle_trapdoor: Oerwoudhouten valluik
+  acacia_trapdoor: Acaciahouten valluik
+  dark_oak_trapdoor: Donkereikenhouten valluik
+  crimson_trapdoor: Helrood houten valluik
+  warped_trapdoor: Spookachtig houten valluik
+  oak_fence_gate: Eikenhouten poort
+  spruce_fence_gate: Sparrenhouten poort
+  birch_fence_gate: Berkenhouten poort
+  jungle_fence_gate: Oerwoudhouten poort
+  acacia_fence_gate: Acaciahouten poort
+  dark_oak_fence_gate: Donkereikenhouten poort
+  crimson_fence_gate: Helrode houten poort
+  warped_fence_gate: Spookachtige houten poort
+  powered_rail: Aandrijfspoor
+  detector_rail: Detectiespoor
+  rail: Spoor
+  activator_rail: Activatiespoor
+  saddle: Zadel
+  minecart: Mijnkar
+  chest_minecart: Mijnkar met kist
+  furnace_minecart: Mijnkar met oven
+  tnt_minecart: Mijnkar met TNT
+  hopper_minecart: Mijnkar met trechter
+  carrot_on_a_stick: Wortel aan een stok
+  warped_fungus_on_a_stick: Spookachtige zwam aan een stok
+  elytra: Dekschild
+  oak_boat: Eikenhouten boot
+  spruce_boat: Sparrenhouten boot
+  birch_boat: Berkenhouten boot
+  jungle_boat: Oerwoudhouten boot
+  acacia_boat: Acaciahouten boot
+  dark_oak_boat: Donkereikenhouten boot
   structure_block: Constructieblok
   jigsaw: Puzzelblok
   turtle_helmet: Schildpadschild
@@ -585,7 +693,15 @@ material:
   coal: Steenkool
   charcoal: Houtskool
   diamond: Diamant
+  emerald: Smaragd
+  lapis_lazuli: Lapis lazuli
+  quartz: Netherkwarts
+  amethyst_shard: Amethistscherf
+  raw_iron: Ruw ijzer
   iron_ingot: IJzerstaaf
+  raw_copper: Ruw koper
+  copper_ingot: Koperstaaf
+  raw_gold: Ruw goud
   gold_ingot: Goudstaaf
   netherite_ingot: Netherietstaaf
   netherite_scrap: Netherietschroot
@@ -669,29 +785,27 @@ material:
   bucket: Emmer
   water_bucket: Emmer water
   lava_bucket: Emmer lava
-  minecart: Mijnkar
-  saddle: Zadel
-  redstone: Redstonestof
+  powder_snow_bucket: Emmer poedersneeuw
   snowball: Sneeuwbal
-  oak_boat: Eikenhouten boot
   leather: Leer
   milk_bucket: Emmer melk
   pufferfish_bucket: Emmer kogelvis
   salmon_bucket: Emmer zalm
   cod_bucket: Emmer kabeljauw
   tropical_fish_bucket: Emmer tropische vis
+  axolotl_bucket: Emmer axolotl
   brick: Baksteen
   clay_ball: Kleibal
   dried_kelp_block: Gedroogd kelpblok
   paper: Papier
   book: Boek
   slime_ball: Slijmbal
-  chest_minecart: Mijnkar met kist
-  furnace_minecart: Mijnkar met oven
   egg: Ei
   compass: Kompas
+  bundle: Bundel
   fishing_rod: Vishengel
   clock: Klok
+  spyglass: Verrekijker
   glowstone_dust: Gloeisteenstof
   cod: Rauwe kabeljauw
   salmon: Rauwe zalm
@@ -700,8 +814,8 @@ material:
   cooked_cod: Gebakken kabeljauw
   cooked_salmon: Gebakken zalm
   ink_sac: Inktzak
+  glow_ink_sac: Gloeiende inktzak
   cocoa_beans: Cacaobonen
-  lapis_lazuli: Lapis lazuli
   white_dye: Witte kleurstof
   orange_dye: Oranje kleurstof
   magenta_dye: Magenta kleurstof
@@ -765,6 +879,7 @@ material:
   cauldron: Ketel
   ender_eye: Enderoog
   glistering_melon_slice: Glinsterende meloenschijf
+  axolotl_spawn_egg: Axolotlspawnei
   bat_spawn_egg: Vleermuizenspawnei
   bee_spawn_egg: Bijenspawnei
   blaze_spawn_egg: Blazespawnei
@@ -783,6 +898,8 @@ material:
   evoker_spawn_egg: Oproeperspawnei
   fox_spawn_egg: Vossenspawnei
   ghast_spawn_egg: Ghastspawnei
+  glow_squid_spawn_egg: Gloeiendeinktvissenspawnei
+  goat_spawn_egg: Geitenspawnei
   guardian_spawn_egg: Bewakerspawnei
   hoglin_spawn_egg: Hoglinspawnei
   horse_spawn_egg: Paardenspawnei
@@ -833,8 +950,8 @@ material:
   fire_charge: Vuurbal
   writable_book: Boek en veer
   written_book: Geschreven boek
-  emerald: Smaragd
   item_frame: Voorwerplijst
+  glow_item_frame: Gloeiende voorwerplijst
   flower_pot: Bloempot
   carrot: Wortel
   potato: Aardappel
@@ -848,17 +965,12 @@ material:
   zombie_head: Zombiehoofd
   creeper_head: Creeperhoofd
   dragon_head: Drakenhoofd
-  carrot_on_a_stick: Wortel aan een stok
-  warped_fungus_on_a_stick: Spookachtige zwam aan een stok
   nether_star: Netherster
   pumpkin_pie: Pompoentaart
   firework_rocket: Vuurpijl
   firework_star: Vuurwerkster
   enchanted_book: Betoverd boek
   nether_brick: Netherbaksteen
-  quartz: Netherkwarts
-  tnt_minecart: Mijnkar met TNT
-  hopper_minecart: Mijnkar met trechter
   prismarine_shard: Prismarienscherf
   prismarine_crystals: Prismarienkristallen
   rabbit: Rauw konijnenvlees
@@ -904,12 +1016,6 @@ material:
   tipped_arrow: Getipte pijl
   lingering_potion: Aanhoudende drank
   shield: Schild
-  elytra: Dekschild
-  spruce_boat: Sparrenhouten boot
-  birch_boat: Berkenhouten boot
-  jungle_boat: Oerwoudhouten boot
-  acacia_boat: Acaciahouten boot
-  dark_oak_boat: Donkereikenhouten boot
   totem_of_undying: Totem der onsterfelijkheid
   shulker_shell: Shulkerschelp
   iron_nugget: IJzerklompje
@@ -948,13 +1054,13 @@ material:
   cartography_table: Kartografietafel
   fletching_table: Bevederingstafel
   grindstone: Slijpsteen
-  lectern: Lessenaar
   smithing_table: Smeedstafel
   stonecutter: Steenzaag
   bell: Bel
   lantern: Lantaarn
   soul_lantern: Zielenlantaarn
   sweet_berries: Zoetbessen
+  glow_berries: Gloeibessen
   campfire: Kampvuur
   soul_campfire: Zielenkampvuur
   shroomlight: Zwammenlicht
@@ -962,12 +1068,8 @@ material:
   bee_nest: Bijennest
   beehive: Bijenkorf
   honey_bottle: Honingfles
-  honey_block: Honingblok
   honeycomb_block: Honingraatblok
   lodestone: Zeilsteen
-  netherite_block: Netherietblok
-  ancient_debris: Oud puin
-  target: Doelwit
   crying_obsidian: Huilend obsidiaan
   blackstone: Zwartsteen
   blackstone_slab: Zwartstenen plaat
@@ -982,6 +1084,28 @@ material:
   polished_blackstone_brick_stairs: Gepolijste zwartstenen blokstenen trap
   cracked_polished_blackstone_bricks: Gebarsten gepolijste zwartstenen blokstenen
   respawn_anchor: Respawnanker
+  candle: Kaars
+  white_candle: Witte kaars
+  orange_candle: Oranje kaars
+  magenta_candle: Magenta kaars
+  light_blue_candle: Lichtblauwe kaars
+  yellow_candle: Gele kaars
+  lime_candle: Lichtgroene kaars
+  pink_candle: Roze kaars
+  gray_candle: Grijze kaars
+  light_gray_candle: Lichtgrijze kaars
+  cyan_candle: Turquoise kaars
+  purple_candle: Paarse kaars
+  blue_candle: Blauwe kaars
+  brown_candle: Bruine kaars
+  green_candle: Groene kaars
+  red_candle: Rode kaars
+  black_candle: Zwarte kaars
+  small_amethyst_bud: Kleine amethistknop
+  medium_amethyst_bud: Middelgrote amethistknop
+  large_amethyst_bud: Grote amethistknop
+  amethyst_cluster: Amethistcluster
+  pointed_dripstone: Puntige druipsteen
   water: Water
   lava: Lava
   tall_seagrass: Hoog zeegras
@@ -1004,6 +1128,9 @@ material:
   attached_melon_stem: Vaste meloenstam
   pumpkin_stem: Pompoenstam
   melon_stem: Meloenstam
+  water_cauldron: Ketel met water
+  lava_cauldron: Ketel met lava
+  powder_snow_cauldron: Ketel met poedersneeuw
   end_portal: Endportaal
   cocoa: Cacao
   tripwire: Struikeldraad
@@ -1083,6 +1210,30 @@ material:
   potted_warped_fungus: Opgepotte spookachtige zwam
   potted_crimson_roots: Opgepotte helrode wortels
   potted_warped_roots: Opgepotte spookachtige wortels
+  candle_cake: Taart met kaars
+  white_candle_cake: Taart met witte kaars
+  orange_candle_cake: Taart met oranje kaars
+  magenta_candle_cake: Taart met magenta kaars
+  light_blue_candle_cake: Taart met lichtblauwe kaars
+  yellow_candle_cake: Taart met gele kaars
+  lime_candle_cake: Taart met lichtgroene kaars
+  pink_candle_cake: Taart met roze kaars
+  gray_candle_cake: Taart met grijze kaars
+  light_gray_candle_cake: Taart met lichtgrijze kaars
+  cyan_candle_cake: Taart met turquoise kaars
+  purple_candle_cake: Taart met paarse kaars
+  blue_candle_cake: Taart met blauwe kaars
+  brown_candle_cake: Taart met bruine kaars
+  green_candle_cake: Taart met groene kaars
+  red_candle_cake: Taart met rode kaars
+  black_candle_cake: Taart met zwarte kaars
+  powder_snow: Poedersneeuw
+  cave_vines: Grottenlianen
+  cave_vines_plant: Grottenlianenplant
+  big_dripleaf_stem: Grote druipbladstengel
+  potted_azalea_bush: Opgepotte azalea
+  potted_flowering_azalea_bush: Opgepotte bloeiende azalea
+  grass_path: Graspad
   zombie_pigman_spawn_egg: Zombievarkenspawnei
   cactus_green: Cactusgroen
   dandelion_yellow: Paardenbloemgeel
@@ -1169,46 +1320,48 @@ biome:
   crimson_forest: Helrood bos
   warped_forest: Spookachtig bos
   basalt_deltas: Basaltdelta's
+  dripstone_caves: Druipsteengrotten
+  lush_caves: Weelderige grotten
   nether: Nether
 enchantment:
-  fire_protection: Vuurbescherming
-  sharpness: Scherpte
-  flame: Vlam
-  soul_speed: Zielensnelheid
-  aqua_affinity: Hydrofiel
-  punch: Terugstoot
-  loyalty: Loyaliteit
-  depth_strider: Waterloper
-  vanishing_curse: Vloek der verdwijning
-  unbreaking: Duurzaamheid
-  knockback: Terugslag
-  luck_of_the_sea: Geluk der zeeën
-  binding_curse: Vloek der binding
-  fortune: Geluk
   protection: Bescherming
-  efficiency: Efficiëntie
-  mending: Herstel
-  frost_walker: Vorstloper
-  lure: Lokaas
-  looting: Plundering
-  piercing: Doorboren
-  blast_protection: Explosiebescherming
-  smite: Kastijding
-  multishot: Multischot
-  fire_aspect: Vuuraspect
-  channeling: Supergeleiding
-  sweeping: Verscherping
-  thorns: Doornen
-  bane_of_arthropods: Verderf der geleedpotigen
-  respiration: Ademhaling
-  riptide: Stortvloed
-  silk_touch: Zijden streling
-  quick_charge: Snelladen
-  projectile_protection: Projectielbescherming
-  impaling: Spietsen
+  fire_protection: Vuurbescherming
   feather_falling: Vederzacht vallen
+  blast_protection: Explosiebescherming
+  projectile_protection: Projectielbescherming
+  respiration: Ademhaling
+  aqua_affinity: Hydrofiel
+  thorns: Doornen
+  depth_strider: Waterloper
+  frost_walker: Vorstloper
+  binding_curse: Vloek der binding
+  sharpness: Scherpte
+  smite: Kastijding
+  bane_of_arthropods: Verderf der geleedpotigen
+  knockback: Terugslag
+  fire_aspect: Vuuraspect
+  looting: Plundering
+  sweeping: Verscherping
+  efficiency: Efficiëntie
+  silk_touch: Zijden streling
+  unbreaking: Duurzaamheid
+  fortune: Geluk
   power: Kracht
+  punch: Terugstoot
+  flame: Vlam
   infinity: Oneindigheid
+  luck_of_the_sea: Geluk der zeeën
+  lure: Lokaas
+  loyalty: Loyaliteit
+  impaling: Spietsen
+  riptide: Stortvloed
+  channeling: Supergeleiding
+  multishot: Multischot
+  quick_charge: Snelladen
+  piercing: Doorboren
+  mending: Herstel
+  vanishing_curse: Vloek der verdwijning
+  soul_speed: Zielensnelheid
 potion:
   uncraftable: Onmaakbare drank
   water: Waterfles
@@ -1229,7 +1382,7 @@ potion:
   strength: Drank der kracht
   weakness: Drank der zwakheid
   luck: Drank des geluks
-  turtle_master: Drank des schildpadmeesters
+  turtle_master: Drank der schildpadmeester
   slow_falling: Drank der valvertraging
 splash_potion:
   uncraftable: Spattende onmaakbare drank
@@ -1251,7 +1404,7 @@ splash_potion:
   strength: Spattende drank der kracht
   weakness: Spattende drank der zwakheid
   luck: Spattende drank des geluks
-  turtle_master: Spattende drank des schildpadmeesters
+  turtle_master: Spattende drank der schildpadmeester
   slow_falling: Spattende drank der valvertraging
 lingering_potion:
   uncraftable: Aanhoudende onmaakbare drank
@@ -1273,7 +1426,7 @@ lingering_potion:
   strength: Aanhoudende drank der kracht
   weakness: Aanhoudende drank der zwakheid
   luck: Aanhoudende drank des geluks
-  turtle_master: Aanhoudende drank des schildpadmeesters
+  turtle_master: Aanhoudende drank der schildpadmeester
   slow_falling: Aanhoudende drank der valvertraging
 tipped_arrow:
   uncraftable: Onmaakbare getipte pijl
@@ -1295,7 +1448,7 @@ tipped_arrow:
   strength: Pijl der kracht
   weakness: Pijl der zwakheid
   luck: Pijl des geluks
-  turtle_master: Pijl des schildpadmeesters
+  turtle_master: Pijl der schildpadmeester
   slow_falling: Pijl der valvertraging
 entity:
   dropped_item: Voorwerp
@@ -1403,6 +1556,11 @@ entity:
   strider: Lavarijder
   zoglin: Zoglin
   piglin_brute: Piglinbruut
+  axolotl: Axolotl
+  glow_item_frame: Gloeiende voorwerplijst
+  glow_squid: Gloeiende inktvis
+  goat: Geit
+  marker: Markeerder
   fishing_hook: Dobber
   lightning: Bliksemschicht
   player: Speler
@@ -2202,17 +2360,3 @@ villager_profession:
   shepherd: Herder
   toolsmith: Gereedschapssmid
   weaponsmith: Wapensmid
-villager_career:
-  farmer: Boer
-  fisherman: Visser
-  shepherd: Herder
-  fletcher: Pijlenmaker
-  librarian: Bibliothecaris
-  cartographer: Kartograaf
-  cleric: Geestelijke
-  armorer: Harnassmid
-  weapon_smith: Wapensmid
-  tool_smith: Gereedschapssmid
-  butcher: Slager
-  leatherworker: Leerlooier
-  nitwit: Onbenul

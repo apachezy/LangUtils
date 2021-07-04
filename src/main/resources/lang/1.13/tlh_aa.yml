@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:49                    #
+# Build time: 2021-07-04 21:46:04                    #
 # ####################################################
 language:
   code: tlh_aa
@@ -22,8 +22,6 @@ material:
   clay_ball: chenmoHmeH lam
   command_block: ra' ngogh
   command_block_minecart: puH Duj le' choH bot
-  cyan_dye: SuDbogh ’ej wovqu’bogh rItlh
-  cyan_wool: SuDbogh ’ej wovqu’bogh veD
   dark_oak_door: lojmIt Sor Hap Hurgh
   dark_oak_leaves: epIl naH Sor Hurgh pormey
   dark_oak_planks: Hurgh Sor'a' Sor Hap beQ
@@ -46,14 +44,11 @@ material:
   jungle_planks: jungle Planks
   jungle_sapling: ngem SorHom
   jungle_wood: ngem Sor Hap
+  lapis_block: SuDbogh rItlh ngogh
   lava_bucket: vaHbo' qeghHom
   leather: DIr
   leather_boots: DIr DaS
-  light_blue_wool: SuDbogh 'ej wovbogh veD
-  lime_wool: SuDbogh 'ej wovbe'bogh veD
-  magenta_wool: Doqqu'bogh veD
   minecart: tlhIl Duj
-  nether_brick_slab: Nether brick slab
   oak_boat: Sor Hap Duj
   oak_door: Sor Hap lojmIt
   oak_fence_gate: tlhoy'Hom lojmIt
@@ -61,9 +56,7 @@ material:
   oak_planks: Oak Planks
   oak_sapling: epIl naH SorHom
   oak_wood: epIl naH Sor Hap
-  orange_wool: Doqbogh veD
   pufferfish: Sachbogh ghotI'
-  quartz_slab: Quartz bot
   redstone: nagh Doq
   redstone_wire: nagh Doq DImey
   red_sand: nagh Doq
@@ -82,9 +75,7 @@ material:
   tnt_minecart: jorwI' tlhIl Duj
   trapped_chest: vonwI' ngaSwI'
   water_bucket: bIQ qeghHom
-  white_wool: chISbogh veD
   wooden_shovel: Sor Hap bo'Dagh'a'
-  yellow_wool: SuDbogh veD
 entity:
   fireball: Fireball
   small_fireball: mach Fireball
@@ -101,10 +92,6 @@ entity:
   endermite: van ghew
   snowman: chuch vIHbogh Hew
   pufferfish: Sachbogh ghotI'
-banner_pattern:
-  '983040': Hub'eghtaHvIS chIS
-  '1114120': yoymoHbogh patlh Degh qIj 'ej tIS
-  '2359300': chep nach SuD
-  '2359301': chep nach SuD
-  '2359302': Doqqu' 'ej wov nach
-  '2359303': qIj 'ej wov nach
+villager_profession:
+  librarian: paq Dojmey ghot
+  butcher: Ha'DIbaH chenmoHwI'

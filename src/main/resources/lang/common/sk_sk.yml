@@ -1,5 +1,5 @@
 # ####################################################
-# Build time: 2021-03-17 16:21:49                    #
+# Build time: 2021-07-04 21:46:04                    #
 # ####################################################
 language:
   code: sk_sk
@@ -14,10 +14,17 @@ material:
   polished_diorite: Leštený diorit
   andesite: Andezit
   polished_andesite: Leštený andezit
+  deepslate: Bridlica
+  cobbled_deepslate: Dlažobná bridlica
+  polished_deepslate: Leštená bridlica
+  calcite: Kalcit
+  tuff: Tuf
+  dripstone_block: Kocka kvapľa
   grass_block: Trávnik
   dirt: Hlina
   coarse_dirt: Hrubá hlina
   podzol: Podzol
+  rooted_dirt: Prerastená hlina
   crimson_nylium: Karmínové podhubie
   warped_nylium: Prízračné podhubie
   cobblestone: Dlažobný kameň
@@ -39,10 +46,67 @@ material:
   sand: Piesok
   red_sand: Červený piesok
   gravel: Štrk
-  gold_ore: Zlatá ruda
-  iron_ore: Železná ruda
   coal_ore: Ložisko uhlia
+  deepslate_coal_ore: Bridlicové ložisko uhlia
+  iron_ore: Železná ruda
+  deepslate_iron_ore: Bridlicová železná ruda
+  copper_ore: Medená ruda
+  deepslate_copper_ore: Bridlicová medená ruda
+  gold_ore: Zlatá ruda
+  deepslate_gold_ore: Bridlicová zlatá ruda
+  redstone_ore: Ložisko redstonu
+  deepslate_redstone_ore: Bridlicové ložisko redstonu
+  emerald_ore: Ložisko smaragdu
+  deepslate_emerald_ore: Bridlicové ložisko smaragdu
+  lapis_ore: Ložisko lazuritu
+  deepslate_lapis_ore: Bridlicové ložisko lazuritu
+  diamond_ore: Ložisko diamantu
+  deepslate_diamond_ore: Bridlicové ložisko diamantu
   nether_gold_ore: Netherová zlatá ruda
+  nether_quartz_ore: Ložisko Nether kremeňa
+  ancient_debris: Starobylé trosky
+  coal_block: Kocka uhlia
+  raw_iron_block: Kocka surového železa
+  raw_copper_block: Kocka surovej medi
+  raw_gold_block: Kocka surového zlata
+  amethyst_block: Kocka ametystu
+  budding_amethyst: Pučiaci ametyst
+  iron_block: Kocka železa
+  copper_block: Kocka medi
+  gold_block: Kocka zlata
+  diamond_block: Diamantová kocka
+  netherite_block: Kocka netheritu
+  exposed_copper: Zájdená meď
+  weathered_copper: Zelenkavá meď
+  oxidized_copper: Skorodovaná meď
+  cut_copper: Tepaná meď
+  exposed_cut_copper: Zájdená tepaná meď
+  weathered_cut_copper: Zelenkavá tepaná meď
+  oxidized_cut_copper: Skorodovaná tepaná meď
+  cut_copper_stairs: Schody z tepanej medi
+  exposed_cut_copper_stairs: Schody zo zájdenej tepanej medi
+  weathered_cut_copper_stairs: Schody zo zelenkavej tepanej medi
+  oxidized_cut_copper_stairs: Schody zo skorodovanej tepanej medi
+  cut_copper_slab: Stupienok z tepanej medi
+  exposed_cut_copper_slab: Stupienok zo zájdenej tepanej medi
+  weathered_cut_copper_slab: Stupienok zo zelenkavej tepanej medi
+  oxidized_cut_copper_slab: Stupienok zo skorodovanej tepanej medi
+  waxed_copper_block: Navoskovaná kocka medi
+  waxed_exposed_copper: Navoskovaná zájdená meď
+  waxed_weathered_copper: Navoskovaná zelenkavá meď
+  waxed_oxidized_copper: Navoskovaná skorodovaná meď
+  waxed_cut_copper: Navoskovaná tepaná meď
+  waxed_exposed_cut_copper: Navoskovaná zájdená tepaná meď
+  waxed_weathered_cut_copper: Navoskovaná zelenkavá tepaná meď
+  waxed_oxidized_cut_copper: Navoskovaná skorodovaná tepaná meď
+  waxed_cut_copper_stairs: Navoskované schody z tepanej medi
+  waxed_exposed_cut_copper_stairs: Navoskované schody zo zájdenej tepanej medi
+  waxed_weathered_cut_copper_stairs: Navoskované schody zo zelenkavej tepanej medi
+  waxed_oxidized_cut_copper_stairs: Navoskované schody zo skorodovanej tepanej medi
+  waxed_cut_copper_slab: Navoskovaný stupienok z tepanej medi
+  waxed_exposed_cut_copper_slab: Navoskovaný stupienok zo zájdenej tepanej medi
+  waxed_weathered_cut_copper_slab: Navoskovaný stupienok zo zelenkavej tepanej medi
+  waxed_oxidized_cut_copper_slab: Navoskovaný stupienok zo skorodovanej tepanej medi
   oak_log: Dubový kmeň
   spruce_log: Smrekový kmeň
   birch_log: Brezový kmeň
@@ -81,26 +145,24 @@ material:
   jungle_leaves: Listy džungľového stromu
   acacia_leaves: Akáciové listy
   dark_oak_leaves: Listy tmavého dubu
+  azalea_leaves: Azalkové listy
+  flowering_azalea_leaves: Azalkové listy s kvetmi
   sponge: Špongia
   wet_sponge: Vlhká špongia
   glass: Sklo
-  lapis_ore: Ložisko lazuritu
+  tinted_glass: Tmavé sklo
   lapis_block: Kocka lazuritu
-  dispenser: Dávkovač
   sandstone: Pieskovec
   chiseled_sandstone: Otesaný pieskovec
   cut_sandstone: Rezaný pieskovec
-  note_block: Hudobná kocka
-  powered_rail: Napájané koľajnice
-  detector_rail: Koľajnice so senzorom
-  sticky_piston: Lepkavý piest
   cobweb: Pavučina
   grass: Tráva
   fern: Papraď
+  azalea: Azalka
+  flowering_azalea: Kvitnúca azalka
   dead_bush: Suchý ker
   seagrass: Morská tráva
   sea_pickle: Morská uhorka
-  piston: Piest
   white_wool: Biela vlna
   orange_wool: Oranžová vlna
   magenta_wool: Purpurová vlna
@@ -130,6 +192,7 @@ material:
   cornflower: Nevädza
   lily_of_the_valley: Konvalinka
   wither_rose: Witherova ruža
+  spore_blossom: Výtruska
   brown_mushroom: Hnedý hríb
   red_mushroom: Muchotrávka
   crimson_fungus: Karmínová huba
@@ -141,9 +204,12 @@ material:
   twisting_vines: Prízračné liany
   sugar_cane: Cukrová trstina
   kelp: Chaluha
+  moss_carpet: Machový koberec
+  moss_block: Kocka machu
+  hanging_roots: Visiace korene
+  big_dripleaf: Veľký kvapkavec
+  small_dripleaf: Malý kvapkavec
   bamboo: Bambus
-  gold_block: Kocka zlata
-  iron_block: Kocka železa
   oak_slab: Dubový stupienok
   spruce_slab: Smrekový stupienok
   birch_slab: Brezový stupienok
@@ -173,7 +239,6 @@ material:
   smooth_sandstone: Hladký pieskovec
   smooth_stone: Hladký kameň
   bricks: Tehly
-  tnt: TNT
   bookshelf: Knižnica
   mossy_cobblestone: Zarastený dlažobný kameň
   obsidian: Obsidián
@@ -187,27 +252,11 @@ material:
   spawner: Liaheň
   oak_stairs: Dubové schody
   chest: Truhlica
-  diamond_ore: Ložisko diamantu
-  diamond_block: Diamantová kocka
   crafting_table: Pracovný stôl
   farmland: Zoraná pôda
   furnace: Pec
   ladder: Rebrík
-  rail: Koľajnice
   cobblestone_stairs: Schody z dlažobného kameňa
-  lever: Páka
-  stone_pressure_plate: Kamenná nášľapná doska
-  oak_pressure_plate: Dubová nášľapná doska
-  spruce_pressure_plate: Smreková nášľapná doska
-  birch_pressure_plate: Brezová nášľapná doska
-  jungle_pressure_plate: Nášľapná doska z džungľového dreva
-  acacia_pressure_plate: Akáciová nášľapná doska
-  dark_oak_pressure_plate: Nášľapná doska z tmavého dubu
-  crimson_pressure_plate: Karmínová nášľapná doska
-  warped_pressure_plate: Prízračná nášľapná doska
-  polished_blackstone_pressure_plate: Nášľapná doska z lešteného čierneho kameňa
-  redstone_ore: Redstonová ruda
-  redstone_torch: Redstonová fakľa
   snow: Sneh
   ice: Ľad
   snow_block: Kocka snehu
@@ -224,32 +273,31 @@ material:
   warped_fence: Prízračný plot
   pumpkin: Tekvica
   carved_pumpkin: Vyrezaná tekvica
+  jack_o_lantern: Tekvicový lampáš
   netherrack: Netherrack
   soul_sand: Piesok duší
   soul_soil: Pôda duší
   basalt: Čadič
   polished_basalt: Leštený čadič
+  smooth_basalt: Hladký čadič
   soul_torch: Fakľa s ohňom duší
   glowstone: Svietivec
-  jack_o_lantern: Tekvicový lampáš
-  oak_trapdoor: Dubový poklop
-  spruce_trapdoor: Smrekový poklop
-  birch_trapdoor: Brezový poklop
-  jungle_trapdoor: Poklop z džungľového dreva
-  acacia_trapdoor: Akáciový poklop
-  dark_oak_trapdoor: Poklop z tmavého dubu
-  crimson_trapdoor: Karmínový poklop
-  warped_trapdoor: Prízračný poklop
   infested_stone: Zamorený kameň
   infested_cobblestone: Zamorený dlažobný kameň
   infested_stone_bricks: Zamorené kamenné tehly
   infested_mossy_stone_bricks: Zamorené zarastené kamenné tehly
   infested_cracked_stone_bricks: Zamorené popraskané kamenné tehly
-  infested_chiseled_stone_bricks: Zamorené vytesané kamenné tehly
+  infested_chiseled_stone_bricks: Zamorené otesané kamenné tehly
+  infested_deepslate: Zamorená bridlica
   stone_bricks: Kamenné tehly
   mossy_stone_bricks: Zarastené kamenné tehly
   cracked_stone_bricks: Popraskané kamenné tehly
   chiseled_stone_bricks: Otesané kamenné tehly
+  deepslate_bricks: Bridlicové tehly
+  cracked_deepslate_bricks: Popraskané bridlicové tehly
+  deepslate_tiles: Bridlicové dlaždice
+  cracked_deepslate_tiles: Popraskané bridlicové dlaždice
+  chiseled_deepslate: Otesaná bridlica
   brown_mushroom_block: Hríbová kocka
   red_mushroom_block: Muchotrávková kocka
   mushroom_stem: Hlúbik
@@ -258,14 +306,7 @@ material:
   glass_pane: Sklenený panel
   melon: Melón
   vine: Liany
-  oak_fence_gate: Dubová bránka
-  spruce_fence_gate: Smreková bránka
-  birch_fence_gate: Brezová bránka
-  jungle_fence_gate: Bránka z džungľového dreva
-  acacia_fence_gate: Akáciová bránka
-  dark_oak_fence_gate: Bránka z tmavého dubu
-  crimson_fence_gate: Karmínová bránka
-  warped_fence_gate: Prízračná bránka
+  glow_lichen: Žiariaci lišajník
   brick_stairs: Tehlové schody
   stone_brick_stairs: Schody z kamenných tehál
   mycelium: Podhubie
@@ -280,11 +321,8 @@ material:
   end_stone: Enderit
   end_stone_bricks: Enderitové tehly
   dragon_egg: Dračie vajce
-  redstone_lamp: Redstonová lampa
   sandstone_stairs: Pieskovcové schody
-  emerald_ore: Ložisko smaragdu
   ender_chest: Ender truhlica
-  tripwire_hook: Úchyt nástražnej šnúry
   emerald_block: Smaragdová kocka
   spruce_stairs: Smrekové schody
   birch_stairs: Brezové schody
@@ -310,33 +348,18 @@ material:
   blackstone_wall: Múr z čierneho kameňa
   polished_blackstone_wall: Múr z lešteného čierneho kameňa
   polished_blackstone_brick_wall: Múr z tehál z lešteného čierneho kameňa
-  stone_button: Kamenné tlačidlo
-  oak_button: Dubové tlačidlo
-  spruce_button: Smrekové tlačidlo
-  birch_button: Brezové tlačidlo
-  jungle_button: Tlačidlo z džungľového dreva
-  acacia_button: Akáciové tlačidlo
-  dark_oak_button: Tlačidlo z tmavého dubu
-  crimson_button: Karmínové tlačidlo
-  warped_button: Prízračné tlačidlo
-  polished_blackstone_button: Tlačidlo z lešteného čierneho kameňa
+  cobbled_deepslate_wall: Múr z dlažobnej bridlice
+  polished_deepslate_wall: Múr z leštenej bridlice
+  deepslate_brick_wall: Múr z bridlicových tehál
+  deepslate_tile_wall: Múr z bridlicových dlaždíc
   anvil: Nákova
   chipped_anvil: Poškriabaná nákova
   damaged_anvil: Poškodená nákova
-  trapped_chest: Truhlica s pascou
-  light_weighted_pressure_plate: Vážená nášľapná doska (jemná)
-  heavy_weighted_pressure_plate: Vážená nášľapná doska (silná)
-  daylight_detector: Detektor denného svetla
-  redstone_block: Kocka redstonu
-  nether_quartz_ore: Ložisko Nether kremeňa
-  hopper: Násypník
   chiseled_quartz_block: Otesaná kocka kremeňa
   quartz_block: Kocka kremeňa
   quartz_bricks: Kremenné tehly
   quartz_pillar: Kremenný stĺp
-  quartz_stairs: Kremenné schody
-  activator_rail: Aktivačné koľajnice
-  dropper: Vyhadzovač
+  quartz_stairs: Kremeňové schody
   white_terracotta: Biela terakota
   orange_terracotta: Oranžová terakota
   magenta_terracotta: Purpurová terakota
@@ -354,7 +377,7 @@ material:
   red_terracotta: Červená terakota
   black_terracotta: Čierna terakota
   barrier: Bariéra
-  iron_trapdoor: Železný poklop
+  light: Svetlo
   hay_block: Zväzok sena
   white_carpet: Biely koberec
   orange_carpet: Oranžový koberec
@@ -373,12 +396,10 @@ material:
   red_carpet: Červený koberec
   black_carpet: Čierny koberec
   terracotta: Terakota
-  coal_block: Kocka uhlia
   packed_ice: Tvrdý ľad
   acacia_stairs: Akáciové schody
   dark_oak_stairs: Schody z tmavého dubu
-  slime_block: Kocka slizu
-  grass_path: Trávnatá cesta
+  dirt_path: Udupaná zem
   sunflower: Slnečnica
   lilac: Orgován
   rose_bush: Ružový krík
@@ -437,7 +458,6 @@ material:
   red_nether_bricks: Červené Nether tehly
   bone_block: Kocka kostí
   structure_void: Štruktúrové prázdno
-  observer: Pozorovacia kocka
   shulker_box: Shulker schránka
   white_shulker_box: Biela Shulker schránka
   orange_shulker_box: Oranžová Shulker schránka
@@ -550,6 +570,10 @@ material:
   red_nether_brick_stairs: Schody z červených Nether tehál
   polished_andesite_stairs: Schody z lešteného andezitu
   diorite_stairs: Dioritové schody
+  cobbled_deepslate_stairs: Schody z dlažobnej bridlice
+  polished_deepslate_stairs: Schody z leštenej bridlice
+  deepslate_brick_stairs: Schody z bridlicových tehál
+  deepslate_tile_stairs: Schody z bridlicových dlaždíc
   polished_granite_slab: Stupienok z leštenej žuly
   smooth_red_sandstone_slab: Stupienok z hladkého červeného pieskovca
   mossy_stone_brick_slab: Zarastený stupienok z kamenných tehál
@@ -563,7 +587,57 @@ material:
   red_nether_brick_slab: Stupienok z červených Nether tehál
   polished_andesite_slab: Stupienok z lešteného andezitu
   diorite_slab: Dioritový stupienok
+  cobbled_deepslate_slab: Stupienok z dlažobnej bridlice
+  polished_deepslate_slab: Stupienok z leštenej bridlice
+  deepslate_brick_slab: Stupienok z bridlicových tehál
+  deepslate_tile_slab: Stupienok z bridlicových dlaždíc
   scaffolding: Lešenie
+  redstone: Redstonový prach
+  redstone_torch: Redstonová fakľa
+  redstone_block: Kocka redstonu
+  repeater: Redstonový opakovač
+  comparator: Redstonový porovnávač
+  piston: Piest
+  sticky_piston: Lepkavý piest
+  slime_block: Kocka slizu
+  honey_block: Kocka medu
+  observer: Pozorovacia kocka
+  hopper: Násypník
+  dispenser: Dávkovač
+  dropper: Vyhadzovač
+  lectern: Pult na čítanie
+  target: Terč
+  lever: Páka
+  lightning_rod: Bleskozvod
+  daylight_detector: Detektor denného svetla
+  sculk_sensor: Sculk snímač
+  tripwire_hook: Úchyt nástražnej šnúry
+  trapped_chest: Truhlica s pascou
+  tnt: TNT
+  redstone_lamp: Redstonová lampa
+  note_block: Hudobná kocka
+  stone_button: Kamenné tlačidlo
+  polished_blackstone_button: Tlačidlo z lešteného čierneho kameňa
+  oak_button: Dubové tlačidlo
+  spruce_button: Smrekové tlačidlo
+  birch_button: Brezové tlačidlo
+  jungle_button: Tlačidlo z džungľového dreva
+  acacia_button: Akáciové tlačidlo
+  dark_oak_button: Tlačidlo z tmavého dubu
+  crimson_button: Karmínové tlačidlo
+  warped_button: Prízračné tlačidlo
+  stone_pressure_plate: Kamenná nášľapná doska
+  polished_blackstone_pressure_plate: Nášľapná doska z lešteného čierneho kameňa
+  light_weighted_pressure_plate: Vážená nášľapná doska (jemná)
+  heavy_weighted_pressure_plate: Vážená nášľapná doska (silná)
+  oak_pressure_plate: Dubová nášľapná doska
+  spruce_pressure_plate: Smreková nášľapná doska
+  birch_pressure_plate: Brezová nášľapná doska
+  jungle_pressure_plate: Nášľapná doska z džungľového dreva
+  acacia_pressure_plate: Akáciová nášľapná doska
+  dark_oak_pressure_plate: Nášľapná doska z tmavého dubu
+  crimson_pressure_plate: Karmínová nášľapná doska
+  warped_pressure_plate: Prízračná nášľapná doska
   iron_door: Železné dvere
   oak_door: Dubové dvere
   spruce_door: Smrekové dvere
@@ -573,8 +647,42 @@ material:
   dark_oak_door: Dvere z tmavého dubu
   crimson_door: Karmínové dvere
   warped_door: Prízračné dvere
-  repeater: Redstonový opakovač
-  comparator: Redstonový porovnávač
+  iron_trapdoor: Železný poklop
+  oak_trapdoor: Dubový poklop
+  spruce_trapdoor: Smrekový poklop
+  birch_trapdoor: Brezový poklop
+  jungle_trapdoor: Poklop z džungľového dreva
+  acacia_trapdoor: Akáciový poklop
+  dark_oak_trapdoor: Poklop z tmavého dubu
+  crimson_trapdoor: Karmínový poklop
+  warped_trapdoor: Prízračný poklop
+  oak_fence_gate: Dubová bránka
+  spruce_fence_gate: Smreková bránka
+  birch_fence_gate: Brezová bránka
+  jungle_fence_gate: Bránka z džungľového dreva
+  acacia_fence_gate: Akáciová bránka
+  dark_oak_fence_gate: Bránka z tmavého dubu
+  crimson_fence_gate: Karmínová bránka
+  warped_fence_gate: Prízračná bránka
+  powered_rail: Napájané koľajnice
+  detector_rail: Koľajnice so senzorom
+  rail: Koľajnice
+  activator_rail: Aktivačné koľajnice
+  saddle: Sedlo
+  minecart: Vozík
+  chest_minecart: Vozík s truhlicou
+  furnace_minecart: Vozík s pecou
+  tnt_minecart: Vozík s TNT
+  hopper_minecart: Vozík s násypníkom
+  carrot_on_a_stick: Mrkva na udici
+  warped_fungus_on_a_stick: Prízračná huba na udici
+  elytra: Krovky
+  oak_boat: Dubový čln
+  spruce_boat: Smrekový čln
+  birch_boat: Brezový čln
+  jungle_boat: Čln z džungľového dreva
+  acacia_boat: Akáciový čln
+  dark_oak_boat: Čln z tmavého dubu
   structure_block: Štruktúrová kocka
   jigsaw: Skladačková kocka
   turtle_helmet: Korytnačí pancier
@@ -586,7 +694,15 @@ material:
   coal: Uhlie
   charcoal: Drevené uhlie
   diamond: Diamant
+  emerald: Smaragd
+  lapis_lazuli: Lazurit
+  quartz: Nether kremeň
+  amethyst_shard: Ametystový úlomok
+  raw_iron: Hruda železa
   iron_ingot: Železná tehlička
+  raw_copper: Hruda medi
+  copper_ingot: Medená tehlička
+  raw_gold: Hruda zlata
   gold_ingot: Zlatá tehlička
   netherite_ingot: Netheritová tehlička
   netherite_scrap: Netheritový šrot
@@ -670,29 +786,27 @@ material:
   bucket: Vedro
   water_bucket: Vedro vody
   lava_bucket: Vedro lávy
-  minecart: Vozík
-  saddle: Sedlo
-  redstone: Redstonový prach
+  powder_snow_bucket: Vedro prašného snehu
   snowball: Snehová guľa
-  oak_boat: Dubový čln
   leather: Koža
   milk_bucket: Vedro mlieka
   pufferfish_bucket: Vedro so štvorzubcom
   salmon_bucket: Vedro s lososom
   cod_bucket: Vedro s treskou
   tropical_fish_bucket: Vedro s tropickou rybou
+  axolotl_bucket: Vedro s axolotlom
   brick: Tehla
   clay_ball: Hrudka ílu
   dried_kelp_block: Kocka sušených chalúh
   paper: Papier
   book: Kniha
   slime_ball: Sliz
-  chest_minecart: Vozík s truhlicou
-  furnace_minecart: Vozík s pecou
   egg: Vajce
   compass: Kompas
+  bundle: Balíček
   fishing_rod: Udica
   clock: Hodinky
+  spyglass: Ďalekohľad
   glowstone_dust: Svietivcový prach
   cod: Surová treska
   salmon: Surový losos
@@ -701,8 +815,8 @@ material:
   cooked_cod: Pečená treska
   cooked_salmon: Pečený losos
   ink_sac: Atramentový váčok
+  glow_ink_sac: Váčok žiariaceho atramentu
   cocoa_beans: Kakaové bôby
-  lapis_lazuli: Lazurit
   white_dye: Biele farbivo
   orange_dye: Oranžové farbivo
   magenta_dye: Purpurové farbivo
@@ -766,6 +880,7 @@ material:
   cauldron: Kotlík
   ender_eye: Ender oko
   glistering_melon_slice: Trblietavý melón
+  axolotl_spawn_egg: Vajíčko s axolotlom
   bat_spawn_egg: Vajíčko s netopierom
   bee_spawn_egg: Vajíčko so včelou
   blaze_spawn_egg: Vajíčko s ohnivákom
@@ -784,6 +899,8 @@ material:
   evoker_spawn_egg: Vajíčko s vyvolávačom
   fox_spawn_egg: Vajíčko s líškou
   ghast_spawn_egg: Vajíčko s ghastom
+  glow_squid_spawn_egg: Vajíčko so žiariacou chobotnicou
+  goat_spawn_egg: Vajíčko s kozou
   guardian_spawn_egg: Vajíčko so strážcom
   hoglin_spawn_egg: Vajíčko s hoglinom
   horse_spawn_egg: Vajíčko s koňom
@@ -834,8 +951,8 @@ material:
   fire_charge: Ohnivá strela
   writable_book: Kniha a brko
   written_book: Napísaná kniha
-  emerald: Smaragd
   item_frame: Rám
+  glow_item_frame: Žiariaci rám
   flower_pot: Kvetináč
   carrot: Mrkva
   potato: Zemiak
@@ -849,17 +966,12 @@ material:
   zombie_head: Hlava zombíka
   creeper_head: Hlava creepera
   dragon_head: Dračia hlava
-  carrot_on_a_stick: Mrkva na udici
-  warped_fungus_on_a_stick: Prízračná huba na udici
   nether_star: Nether hviezda
   pumpkin_pie: Tekvicový koláč
   firework_rocket: Ohňostroj
   firework_star: Ohňostrojová hviezda
   enchanted_book: Očarovaná kniha
   nether_brick: Nether tehla
-  quartz: Nether kremeň
-  tnt_minecart: Vozík s TNT
-  hopper_minecart: Vozík s násypníkom
   prismarine_shard: Prizmarínový črep
   prismarine_crystals: Prizmarínové kryštály
   rabbit: Surový králik
@@ -905,12 +1017,6 @@ material:
   tipped_arrow: Šíp s efektom
   lingering_potion: Plynný elixír
   shield: Štít
-  elytra: Krovky
-  spruce_boat: Smrekový čln
-  birch_boat: Brezový čln
-  jungle_boat: Čln z džungľového dreva
-  acacia_boat: Akáciový čln
-  dark_oak_boat: Čln z tmavého dubu
   totem_of_undying: Totem nesmrteľnosti
   shulker_shell: Shulkerov pancier
   iron_nugget: Železný nuget
@@ -949,13 +1055,13 @@ material:
   cartography_table: Kartografický stôl
   fletching_table: Stôl na výrobu šípov
   grindstone: Brúsny kameň
-  lectern: Pult na čítanie
   smithing_table: Kováčsky stôl
   stonecutter: Píla na kameň
   bell: Zvon
   lantern: Lampáš
   soul_lantern: Lampáš s ohňom duší
   sweet_berries: Sladké bobule
+  glow_berries: Svietiace bobule
   campfire: Táborák
   soul_campfire: Táborák s ohňom duší
   shroomlight: Lampiňón
@@ -963,12 +1069,8 @@ material:
   bee_nest: Včelie hniezdo
   beehive: Včelí úľ
   honey_bottle: Fľaša medu
-  honey_block: Kocka medu
   honeycomb_block: Kocka medového plástu
   lodestone: Navigačný kameň
-  netherite_block: Kocka netheritu
-  ancient_debris: Starobylé trosky
-  target: Terč
   crying_obsidian: Slziaci obsidián
   blackstone: Čierny kameň
   blackstone_slab: Stupienok z čierneho kameňa
@@ -983,6 +1085,28 @@ material:
   polished_blackstone_brick_stairs: Schody z tehál z lešteného čierneho kameňa
   cracked_polished_blackstone_bricks: Popraskané tehly z lešteného čierneho kameňa
   respawn_anchor: Kotva oživenia
+  candle: Sviečka
+  white_candle: Biela sviečka
+  orange_candle: Oranžová sviečka
+  magenta_candle: Purpurová sviečka
+  light_blue_candle: Svetlomodrá sviečka
+  yellow_candle: Žltá sviečka
+  lime_candle: Svetlozelená sviečka
+  pink_candle: Ružová sviečka
+  gray_candle: Sivá sviečka
+  light_gray_candle: Svetlosivá sviečka
+  cyan_candle: Tyrkysová sviečka
+  purple_candle: Fialová sviečka
+  blue_candle: Modrá sviečka
+  brown_candle: Hnedá sviečka
+  green_candle: Zelená sviečka
+  red_candle: Červená sviečka
+  black_candle: Čierna sviečka
+  small_amethyst_bud: Malý ametystový výrastok
+  medium_amethyst_bud: Stredný ametystový výrastok
+  large_amethyst_bud: Veľký ametystový výrastok
+  amethyst_cluster: Ametystový zhluk
+  pointed_dripstone: Špička kvapľa
   water: Voda
   lava: Láva
   tall_seagrass: Vysoká morská tráva
@@ -1005,6 +1129,9 @@ material:
   attached_melon_stem: Pripojená melónová stonka
   pumpkin_stem: Tekvicová stonka
   melon_stem: Melónová stonka
+  water_cauldron: Kotlík s vodou
+  lava_cauldron: Kotlík s lávou
+  powder_snow_cauldron: Kotlík s prašným snehom
   end_portal: Portál do Endu
   cocoa: Kakao
   tripwire: Nástražná šnúra
@@ -1084,6 +1211,30 @@ material:
   potted_warped_fungus: Prízračná huba v kvetináči
   potted_crimson_roots: Karmínové korienky v kvetináči
   potted_warped_roots: Prízračné korienky v kvetináči
+  candle_cake: Torta so sviečkou
+  white_candle_cake: Torta s bielou sviečkou
+  orange_candle_cake: Torta s oranžovou sviečkou
+  magenta_candle_cake: Torta s purpurovou sviečkou
+  light_blue_candle_cake: Torta so svetlomodrou sviečkou
+  yellow_candle_cake: Torta so žltou sviečkou
+  lime_candle_cake: Torta so svetlozelenou sviečkou
+  pink_candle_cake: Torta s ružovou sviečkou
+  gray_candle_cake: Torta so svetlosivou sviečkou
+  light_gray_candle_cake: Torta so svetlosivou sviečkou
+  cyan_candle_cake: Torta s tyrkysovou sviečkou
+  purple_candle_cake: Torta s fialovou sviečkou
+  blue_candle_cake: Torta s modrou sviečkou
+  brown_candle_cake: Torta s hnedou sviečkou
+  green_candle_cake: Torta so zelenou sviečkou
+  red_candle_cake: Torta s červenou sviečkou
+  black_candle_cake: Torta s čiernou sviečkou
+  powder_snow: Prašný sneh
+  cave_vines: Jaskynné liany
+  cave_vines_plant: Stonka jaskynných lián
+  big_dripleaf_stem: Stonka veľkého kvapkavca
+  potted_azalea_bush: Azalka v kvetináči
+  potted_flowering_azalea_bush: Kvitnúca azalka v kvetináči
+  grass_path: Trávnatá cesta
   zombie_pigman_spawn_egg: Vajíčko s prasacím zombíkom
   cactus_green: Zelené farbivo
   dandelion_yellow: Žlté farbivo
@@ -1170,46 +1321,48 @@ biome:
   crimson_forest: Karmínový les
   warped_forest: Prízračný les
   basalt_deltas: Čadičové delty
+  dripstone_caves: Kvapľové jaskyne
+  lush_caves: Bujné jaskyne
   nether: Nether
 enchantment:
-  fire_protection: Ohňovzdornosť
-  sharpness: Ostrosť
-  flame: Plameň
-  soul_speed: Rýchlosť duší
-  aqua_affinity: Spriaznenosť s vodou
-  punch: Úder
-  loyalty: Vernosť
-  depth_strider: Chôdza po dne
-  vanishing_curse: Kliatba zmiznutia
-  unbreaking: Nezničiteľnosť
-  knockback: Odrazenie
-  luck_of_the_sea: Šťastie mora
-  binding_curse: Kliatba zovretia
-  fortune: Šťastie
   protection: Ochrana
-  efficiency: Efektivita
-  mending: Opravovanie
-  frost_walker: Mrazivá chôdza
-  lure: Návnada
-  looting: Rabovanie
-  piercing: Prerážanie
-  blast_protection: Ochrana proti výbuchom
-  smite: Omráčenie nemŕtvych
-  multishot: Rozštiepenie šípu
-  fire_aspect: Ohnivá moc
-  channeling: Vedenie
-  sweeping: Svištivé ostrie
-  thorns: Tŕne
-  bane_of_arthropods: Skaza hávede
-  respiration: Dýchanie
-  riptide: Spätný prúd
-  silk_touch: Nežný dotyk
-  quick_charge: Rýchlonabíjanie
-  projectile_protection: Nepriestrelnosť
-  impaling: Bodanie
+  fire_protection: Ohňovzdornosť
   feather_falling: Ľahký ako pierko
+  blast_protection: Ochrana proti výbuchom
+  projectile_protection: Nepriestrelnosť
+  respiration: Dýchanie
+  aqua_affinity: Spriaznenosť s vodou
+  thorns: Tŕne
+  depth_strider: Chôdza po dne
+  frost_walker: Mrazivá chôdza
+  binding_curse: Kliatba zovretia
+  sharpness: Ostrosť
+  smite: Omráčenie nemŕtvych
+  bane_of_arthropods: Skaza hávede
+  knockback: Odrazenie
+  fire_aspect: Ohnivá moc
+  looting: Rabovanie
+  sweeping: Svištivé ostrie
+  efficiency: Efektivita
+  silk_touch: Nežný dotyk
+  unbreaking: Nerozbitnosť
+  fortune: Šťastie
   power: Sila
+  punch: Úder
+  flame: Plameň
   infinity: Nekonečnosť
+  luck_of_the_sea: Šťastie mora
+  lure: Návnada
+  loyalty: Vernosť
+  impaling: Bodanie
+  riptide: Spätný prúd
+  channeling: Vedenie
+  multishot: Rozštiepenie šípu
+  quick_charge: Rýchlonabíjanie
+  piercing: Prerážanie
+  mending: Opravovanie
+  vanishing_curse: Kliatba zmiznutia
+  soul_speed: Rýchlosť duší
 potion:
   uncraftable: Nevytvoriteľný elixír
   water: Fľaša vody
@@ -1404,6 +1557,11 @@ entity:
   strider: Lávochod
   zoglin: Zoglin
   piglin_brute: Piglin surovec
+  axolotl: Axolotl
+  glow_item_frame: Žiariaci rám
+  glow_squid: Žiariaca chobotnica
+  goat: Koza
+  marker: Značka
   fishing_hook: Plavák
   lightning: Blesk
   player: Hráč
@@ -2203,17 +2361,3 @@ villager_profession:
   shepherd: Pastier
   toolsmith: Výrobca nástrojov
   weaponsmith: Zbrojár
-villager_career:
-  farmer: Farmár
-  fisherman: Rybár
-  shepherd: Pastier
-  fletcher: Lukostrelec
-  librarian: Knihovník
-  cartographer: Kartograf
-  cleric: Kňaz
-  armorer: Zbrojár
-  weapon_smith: Kováč zbraní
-  tool_smith: Kováč nástrojov
-  butcher: Mäsiar
-  leatherworker: Garbiar
-  nitwit: Mamľas
